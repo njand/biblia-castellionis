@@ -23,7 +23,7 @@ Castellio naturally followed Renaissance conventions for spelling and abbreviati
 
 ### Formatting
 
-This project seeks to emulate modern Bible formatting conventions by segmenting the text into paragraphs with verses indicated by superscript numbers. This format makes extensive reading more comfortable, while allowing the reader to correlate verses with other translations. This edition does not currently include marginal notes or scriptural commentaries.
+This project seeks to emulate modern Bible formatting conventions by segmenting the text into paragraphs with verses indicated by superscript numbers. Poetry is displayed in stanza form, and quotations are italicized. The punctuation is occasionally updated to adhere to modern expectations and improve clarity. These conventions make extensive reading more comfortable, while still allowing the reader to correlate verses with other translations. This edition does not currently include marginal notes or scriptural commentaries.
 
 
 ## Sebastian Castellio
