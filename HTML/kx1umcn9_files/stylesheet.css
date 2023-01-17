@@ -1,0 +1,186 @@
+.calibre {
+  display: block;
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 5pt;
+  margin-right: 5pt;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.calibre1 {
+  display: block;
+  text-align: center;
+}
+.calibre2 {
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+.calibre3 {
+  display: block;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 5pt;
+  margin-right: 5pt;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.calibre4 {
+  display: block;
+}
+.calibre5 {
+  clear: both;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: center;
+}
+.calibre6 {
+  clear: both;
+  display: block;
+  font-size: 1.125em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: center;
+}
+.calibre7 {
+  clear: both;
+  display: block;
+  font-size: 1.375em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: center;
+}
+.calibre8 {
+  border-bottom-color: currentColor;
+  border-bottom-style: inset;
+  border-bottom-width: 1px;
+  border-left-color: currentColor;
+  border-left-style: inset;
+  border-left-width: 1px;
+  border-right-color: currentColor;
+  border-right-style: inset;
+  border-right-width: 1px;
+  border-top-color: currentColor;
+  border-top-style: inset;
+  border-top-width: 1px;
+  color: gray;
+  display: block;
+  height: 2px;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+  width: 10em;
+}
+.calibre9 {
+  display: block;
+  margin-bottom: 0.49em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.51em;
+  text-align: justify;
+}
+.calibre10 {
+  font-family: serif;
+  font-size: 0.75em;
+  line-height: 1.2;
+  vertical-align: top;
+}
+.calibre11 {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.calibre12 {
+  display: block;
+  page-break-after: always;
+}
+.calibre13 {
+  font-style: italic;
+}
+.chapter {
+  display: block;
+  padding-top: 1em;
+}
+.chapter-toc {
+  display: block;
+  font-family: serif;
+  text-align: center;
+}
+.padded-dropcap {
+  float: left;
+  font-family: serif;
+  font-size: 3em;
+  margin-bottom: -0.5em;
+  margin-left: -6px;
+  margin-right: 2px;
+  padding-left: 5px;
+  padding-right: 10px;
+  position: relative;
+  top: 0;
+}
+.poem {
+  display: block;
+}
+.poem-line {
+  display: block;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 4.5em;
+  text-align: left;
+  text-indent: -4.5em;
+}
+.poem-line1 {
+  display: block;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 3em;
+  text-align: left;
+  text-indent: -3em;
+}
+.poem-line2 {
+  display: block;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 4.5em;
+  text-align: left;
+  text-indent: -4.5em;
+}
+.poem-line3 {
+  display: block;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 3em;
+  text-align: left;
+  text-indent: -3em;
+}

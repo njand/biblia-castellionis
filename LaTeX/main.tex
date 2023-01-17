@@ -1,0 +1,123 @@
+\documentclass[9pt,a5paper,twoside,openany]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage{layout}
+\usepackage{lettrine}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[hang,flushmargin,para,perpage]{footmisc}
+\usepackage{multicol,lipsum,microtype}
+
+\usepackage[T1]{fontenc}
+% \usepackage{imfellEnglish}
+\usepackage{palatino}
+
+\setlrmarginsandblock{0.5in}{0.6in}{*}
+\setulmarginsandblock{0.8in}{0.6in}{*}
+
+\checkandfixthelayout
+\checkthelayout
+\fixthelayout
+\baselineskip \topskip
+
+\frenchspacing
+% \sloppy
+
+\renewcommand*\footnoterule{}
+
+\newcounter{libercount}
+\newcounter{caputcount}[libercount]
+\newcounter{versuscount}[caputcount]
+
+\newcommand{\libernameshort}{}
+\newcommand{\libernamelong}{}
+
+% \newcommand\Liber[2][]
+% {%
+% \ifthenelse{\equal{#2}{}}% It does NOT work
+% {EMPTY}
+% {#1}
+% }
+
+\newcommand{\Liber}[2][Missing Longform Title]{%
+    \renewcommand{\libernamelong}{#1}
+    \renewcommand{\libernameshort}{#2}
+    \stepcounter{libercount}
+    \addcontentsline{toc}{chapter}{#2}
+
+    \clearforchapter
+    \thispagestyle{empty}
+
+    \begin{center}
+        \HUGE \textsc{\libernamelong} \\[2.5em]
+    \end{center}
+    
+}
+
+\newcommand{\Caput}{%
+    \stepcounter{caputcount}%
+    
+    \ifnum\thecaputcount=1 {} \else {\leavevmode \linebreak}\fi%
+    
+    \lettrine{\thecaputcount}%
+}
+
+\newcommand{\Versus}{%
+    \stepcounter{versuscount}%
+    \ifnum\theversuscount=1 { } \else {\textsuperscript{\theversuscount}}\fi%
+}
+
+\newcommand{\summary}[1]{%
+    \vspace{3pt}
+    \noindent
+    \large{\textbf{#1}}
+}
+
+\renewcommand{\thefootnote}{\alph{footnote}}
+
+% set verse margin flush with text
+% \setlength{\vleftmargin}{0em}
+
+% default page style
+\makepagestyle{plain}
+\makeevenhead{plain}{\thepage\hspace{1em}|\hspace{1em}\libernameshort {} \thecaputcount}{}{}
+\makeoddhead{plain}{}{}{\libernameshort {} \thecaputcount\hspace{0.75em}|\hspace{0.75em}\thepage}
+\pagestyle{plain}
+
+\input{title.tex}
+
+\renewcommand{\contentsname}{\begin{center}\MakeUppercase{ōrdō librōrum}\end{center}}
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
+
+\renewcommand{\book}[1]{
+\cleardoublepage % start a new recto page
+\thispagestyle{book} % set the page style
+\onecolumn
+\beforebookskip % space before Name and Number
+\midpartskip % space after Name and Number
+\begin{center}
+\printbooktitle{#1} % print the title
+\end{center}
+\addtocontents{toc}{\begin{center}\Large\bfseries #1\end{center}}
+\bookpageend} % finish off
+
+
+
+\begin{document}
+% \begin{multicols}{2}
+% \layout
+
+\begin{titlingpage}
+\titleM
+\end{titlingpage}
+
+\tableofcontents*
+
+\mainmatter
+
+% \book{Vetus Foedus}
+% \input{biblia/vetus foedus/genesis.tex}
+\book{Novum Foedus}
+\input{biblia/novum foedus/matthaeus.tex}
+\input{biblia/novum foedus/lucas.tex}
+% \end{multicols}
+\end{document}
