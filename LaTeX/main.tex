@@ -31,13 +31,6 @@
 \newcommand{\libernameshort}{}
 \newcommand{\libernamelong}{}
 
-% \newcommand\Liber[2][]
-% {%
-% \ifthenelse{\equal{#2}{}}% It does NOT work
-% {EMPTY}
-% {#1}
-% }
-
 \newcommand{\Liber}[2][Missing Longform Title]{%
     \renewcommand{\libernamelong}{#1}
     \renewcommand{\libernameshort}{#2}
@@ -103,8 +96,6 @@
 
 
 \begin{document}
-% \begin{multicols}{2}
-% \layout
 
 \begin{titlingpage}
 \titleM
@@ -114,12 +105,12 @@
 
 \mainmatter
 
-% \book{Vetus Foedus}
-% \input{biblia/vetus foedus/genesis.tex}
+\book{Vetus Foedus}
+\input{biblia/vetus foedus/genesis.tex}
 \book{Novum Foedus}
 \input{biblia/novum foedus/matthaeus.tex}
 \input{biblia/novum foedus/marcus.tex}
 \input{biblia/novum foedus/lucas.tex}
 \input{biblia/novum foedus/johannes.tex}
-% \end{multicols}
+
 \end{document}
