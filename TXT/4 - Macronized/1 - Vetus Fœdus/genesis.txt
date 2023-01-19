@@ -1,12 +1,13 @@
 LIBER: Genesis
 
 
+
 CAPUT I
 1. Prīncipiō creāvit Deus caelum et terram.
 2. Cum autem esset terra iners atque rudis, tenebrīsque offūsum profundum, et Dīvīnus Spīritus sēsē super aquās lībrāret,
 3. jussit Deus, ut exsisteret lūx, et exstitit lūx.
 4. Quam cum vidēret Deus esse bonam, lūcem sēcrēvit ā tenebrīs,
-5. et lūcem “diem,” et tenebrās “noctem” appellāvit. Ita exstitit ex vespere et māne diēs prīmus.%\footnote{Exstitit diēs prīmus, quī cōnstat ex nocte et diē.
+5. et lūcem “diem,” et tenebrās “noctem” appellāvit. Ita exstitit ex vespere et māne diēs prīmus.
 
 6. Deinde jussit Deus, ut exsisteret liquidum inter aquās, quod aquam ab aquā disjungeret.
 7. Fēcitque liquidum, quod dīvideret aquam, quae subter liquidum est, ab eā, quae super est.
@@ -34,6 +35,7 @@ CAPUT I
 25. Fēcitque Deus dīversā genera terrestrium ferārum et pecorum, et omnium humī serpentium.
 
 
+
 Quam rem cum vidēret esse bonam,
 26. ita fātur: “Faciāmus hominem ad imāginem nostram, nostrī similem, quī dominētur piscibus aquātilibus, volucribus āeriīs, pecudibus, dēnique tōtī terrae, et quidquid in terrā movētur.
 27. Itaque hominem Deus ad suī, id est, ad dīvīnam imāginem creāvit, scīlicet marem et fēminam,
@@ -49,7 +51,8 @@ Quam rem cum vidēret esse bonam,
 CAPUT II
 1. Ita perfectī sunt caelī et terra, eōrumque omnēs cōpiae.
 2. Absolvitque Deus diē septimō suum, quod fēcerat, opus, et diē septimō ab omnī opere ā sē effectō fēriātus est.
-3. Ideōque septimum diem faustum sacrumque fēcit, quod in eō ab omnī opere, quod creāverat fēceratque, fēriātus esset.%\footnote{New section
+3. Ideōque septimum diem faustum sacrumque fēcit, quod in eō ab omnī opere, quod creāverat fēceratque, fēriātus esset.
+
 
 
 4. Ortus quidem et creātiō caelī et terrae sīc habet. Cum terram caelumque fēcisset Jōva Deus,
@@ -78,11 +81,11 @@ CAPUT II
 22. mulierem cōnstrūxit, eamque addūxit ad Ādāmum.
 
 23. Tum Ādāmus: “Nunc dēmum,” inquit,
-
 	“Os dē ossibus meīs, 
 		et carō dē carne meā est. 
 	Haec vocābitur ‘mulier,’ 
 		quia sūmpta dē virō est.”
+
 24. Itaque vir, relictō suō patre atque mātre, adhaerēbit uxōrī suae, coalēscentque in ūnam carnem.
 
 25. Cēterum cum essent Ādāmus et ejus conjūnx ambō nūdī, tamen nihil ērubēscēbant.
