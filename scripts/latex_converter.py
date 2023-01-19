@@ -300,9 +300,9 @@ def write_output(lines, filepath):
 
 
 if __name__ == "__main__":
-    tex_doc = read_latex("../LaTeX/biblia/novum foedus/matthaeus.tex")
+    tex_doc = read_latex("../LaTeX/biblia/vetus foedus/genesis.tex")
     txt_lines = to_txt(tex_doc)
-    write_output(txt_lines, "matthaeus.txt")
+    write_output(txt_lines, "../TXT/4 - Macronized/1 - Vetus Fœdus/1 - Genesis/genesis.txt")
 
-    html_lines = to_html(tex_doc, "matthaeus.html")
-    write_output(html_lines, "matthaeus.html")
+    html_lines = to_html(tex_doc, "genesis.html")
+    write_output(html_lines, "../HTML/kx1umcn9_files/text/vetus/genesis.html")
