@@ -42,8 +42,11 @@ def preprocess_txt_line(line):
     line = re.sub(r"''", "”", line)
     line = re.sub(r"`", "‘", line)
     line = re.sub(r"'", "’", line)
+    line = re.sub(r"\\thinspace*", "", line)
+    line = re.sub(r"\{\}", "", line)
     line = re.sub(r"\\emph{", "", line)
     line = re.sub(r"}", "", line)
+    line = re.sub(r"%.*", "", line)
     return line
 
 
@@ -60,6 +63,9 @@ def preprocess_html_line(line):
     line = re.sub(r"''", "”", line)
     line = re.sub(r"`", "‘", line)
     line = re.sub(r"'", "’", line)
+    line = re.sub(r"\\thinspace*", "", line)
+    line = re.sub(r"\{\}", "", line)
+    line = re.sub(r"%.*", "", line)
     return line
 
 
@@ -134,6 +140,21 @@ def insert_quote(matchobj):
     return ret
 
 
+def clean_txt(lines):
+    """Remove extraneous linebreaks."""
+    cleaned = []
+    new_line_count = 0
+    for i, line in enumerate(lines):
+        if len(line.strip()) == 0:
+            new_line_count += 1
+            if new_line_count > 2:
+                continue
+        else:
+            new_line_count = 0
+        cleaned.append(line)
+    return cleaned
+    
+    
 def clean_html(html):
     """Remove extraneous tags and linebreaks. Correctly format italicized text."""
     cleaned = []
@@ -299,10 +320,31 @@ def write_output(lines, filepath):
         writer.writelines(lines)
 
 
-if __name__ == "__main__":
-    tex_doc = read_latex("../LaTeX/biblia/vetus foedus/genesis.tex")
-    txt_lines = to_txt(tex_doc)
-    write_output(txt_lines, "../TXT/4 - Macronized/1 - Vetus Fœdus/1 - Genesis/genesis.txt")
+def strip_macrons(text):
+    text = re.sub("ā", "a", text)
+    text = re.sub("ē", "e", text)
+    text = re.sub("ī", "i", text)
+    text = re.sub("ō", "o", text)
+    text = re.sub("ū", "u", text)
+    text = re.sub("ȳ", "y", text)
+    text = re.sub("Ā", "A", text)
+    text = re.sub("Ē", "E", text)
+    text = re.sub("Ī", "I", text)
+    text = re.sub("Ō", "O", text)
+    text = re.sub("Ū", "U", text)
+    text = re.sub("Ȳ", "Y", text)
+    return text
 
-    html_lines = to_html(tex_doc, "genesis.html")
-    write_output(html_lines, "../HTML/kx1umcn9_files/text/vetus/genesis.html")
+
+if __name__ == "__main__":
+    book = "johannes"
+    tex_doc = read_latex(f"../LaTeX/biblia/novum foedus/{book}.tex")
+    macronized_lines = to_txt(tex_doc)
+    macronized_lines = clean_txt(macronized_lines)
+    write_output(macronized_lines, f"../TXT/4 - Macronized/2 - Novum Fœdus/{book}.txt")
+
+    plain_lines = [strip_macrons(line) for line in macronized_lines]
+    write_output(plain_lines, f"../TXT/3 - Edited/2 - Novum Fœdus/{book}.txt")
+
+    html_lines = to_html(tex_doc, f"{book}.html")
+    write_output(html_lines, f"../HTML/kx1umcn9_files/text/novum/{book}.html")
