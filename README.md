@@ -28,61 +28,36 @@ This project seeks to emulate modern Bible formatting conventions by segmenting 
 
 ## Sebastian Castellio
 
-Sebastian Castellio (né Sébastien Châteillon) was a 16th century Protestant theologian. In addition to his native French, he was highly skilled in Hebrew, Greek, and Latin. Castellio preached alongside John Calvin in Geneva for a few years, but they eventually had a falling out, owing in part to Castellio's staunch support for religious tolerance. He undertook this Latin translation of the Bible in the 1540s to provide a Protestant alternative to the Catholic Vulgate Bible, publishing the first edition in 1551. In contrast to the Late Latin style of the Vulgate Bible and (in his view) the overly literal Latin translations of other Protestant translators, in this translation he strives to render the sacred text in idiomatic Classical Latin as if it originally had been written by native Latin speakers.
+Sebastian Castellio (né Sébastien Châteillon) was a 16th century Protestant theologian and polyglot fluent in his native French, as well as Hebrew, Greek, and Latin. He preached alongside John Calvin in Geneva for a few years but ultimately parted ways due to their differing views on religious tolerance. In the 1540s, Castellio embarked on a Latin translation of the Bible with the aim of providing a Protestant alternative to the Catholic Vulgate. The first edition of his translation was published in 1551. Unlike the Late Latin style of the Vulgate Bible and (in his view) the overly literal Latin translations of other Protestant translators, in this translation he strives to render the sacred text in idiomatic Classical Latin as if it originally had been written by native Latin speakers.
 
-Theodore Beza, a fellow French Protestant who produced his own translation of the New Testament in 1556, was the most vehement critic of Castellio's translation, attacking it on doctrinal and stylistic grounds. Castellio published a response to Beza's criticism in 1562, defending his translation in most points, although conceding a few errors. Among Beza's quibbles was that Castellio had overly-latinized certain terms to remove their specific theological meanings, including "βαπτίζω" and "ἄγγελος". These terms were traditionally translated to Latin as "baptizō" and "angelus", but Castellio had eschewed tradition and gone translated them as "lavō" and "genius". Beza claimed that these word choices revealed that Castellio considered the holy to be mundane, for instance classifying baptism as no more meaningful than a generic washing. Castellio rejects this argument, considering it an ultimately meaningless difference in terms to refer to the same concepts. He doesn't strictly adhere to a Ciceronian standard of Latin authenticity, so he doesn't care if theologians use the Greek loanwords for technical writing, but he thinks that the pure Latin forms can suitably convey the meaning of the original Hebrew and Greek texts. Nevertheless, subsequent editions of Castellio's Latin Bible have switched some of these terms for their Ecclesiastical variants, including "baptizō" and "angelus". This project hews more closely to the later editions and transcribes the updated variants.
+Theodore Beza, a fellow French Protestant who produced his own translation of the New Testament in 1556, was a prominent critic of Castellio's translation, attacking it on both doctrinal and stylistic grounds. In response, Castellio published a defense of his translation in 1562, acknowledging a few errors but defending his overall approach. Beza took issue with Castellio's choice of certain Latin words, claiming that they removed specific theological meaning from the original Greek and Hebrew terms. For instance, Beza criticized Castellio for translating "βαπτίζω" as "lavō" rather than "baptizō" and "ἄγγελος" as "genius" rather than "angelus". Beza argued that these choices revealed that Castellio considered the sacred to be mundane. However, Castellio rejected this argument, stating that these word choices were ultimately insignificant and that the pure Latin forms were sufficient to convey the meaning of the original texts. Nevertheless, subsequent editions of Castellio's Latin Bible did incorporate more traditional Ecclesiastical Latin terminology, including "baptizō" and "angelus". This project adheres to these later editions and transcribes the updated variants.
 
 ## Sources
 
-I have consulted several PDF versions of different editions of this text, including the following:
+This project has been informed by several versions of the Castellio Latin Bible, including the following:
 
-* 1726-27 Edition - [Volumes 1-2](https://books.google.com/books?id=1EBbAAAAQAAJ), [Volumes 3-4](https://books.google.com/books?id=40BbAAAAQAAJ): Split into multiple volumes, this edition splits the text into verses and includes chapter headers, but no marginal notes or commentary. I generally follow the versification of this edition, except when I notice that it differs from modern Bible editions.
-* [1697 Edition](https://books.google.com/books?id=wc1QkYeThIwC): Contains the entire Old and New Testament, extensive commentary, and Castellio's impassioned response to Theodore Beza's criticisms.
-* [1553 Novum Testamentum](https://books.google.com/books?id=rFtSAAAAcAAJ): This is a much earlier edition, and it only contains the New Testament with limited marginal notes and no versification.
 
-Most of my transcriptions are based on the latest (1726-1727) edition, except where the scan is unclear or the reading implausible, which cause me to consult the earlier editions.
+* 1726-27 Edition - [Volumes 1-2](https://books.google.com/books?id=1EBbAAAAQAAJ), [Volumes 3-4](https://books.google.com/books?id=40BbAAAAQAAJ): This edition is divided into multiple volumes and presents the text in verse format, with chapter headers, but no marginal notes or commentary. The versification of this edition has been used as the primary source, except when it differs from modern Bible editions.
+* [1697 Edition](https://books.google.com/books?id=wc1QkYeThIwC): This edition includes the complete Old and New Testament, extensive commentary, and Castellio's response to Theodore Beza's criticisms.
+* [1553 Novum Testamentum](https://books.google.com/books?id=rFtSAAAAcAAJ): This early edition only includes the New Testament, with limited marginal notes and no versification.
 
-N.B. This project is intended to create a reader's edition, not a critical edition of the original versions of the text. As such, there is no detailed record of changes or sources for each part of the transcription.
+The transcriptions for this project are primarily based on the 1726-27 edition, with reference to earlier editions as needed to resolve unclear scans or implausible readings.
+
+N.B. This project aims to create a reader's edition, not a critical edition of the original versions of the text. As such, there is no detailed record of changes or sources for each part of the transcription.
 
 
 ## Additional Resources
 
-For further reading on Sebastian Castellio and his Latin Bible translation, I recommend:
+For further reading on Sebastian Castellio and his Latin Bible translation, I recommend the following sources:
 
-* @book{guggisberg2017sebastian,
-  title={Sebastian Castellio, 1515--1563: humanist and defender of religious toleration in a confessional age},
-  author={Guggisberg, Hans R},
-  year={2017},
-  publisher={Routledge}
-}
+* Guggisberg, Hans R. Sebastian Castellio, 1515-1563: Humanist and Defender of Religious Tolerance in a Confessional Age. Routledge, 2017.
 
-* @incollection{eskhult2012latin,
-  title={Latin Bible Translations in the Protestant Reformation: Historical Contexts, Philological Justification, and the Impact of Classical Rhetoric on the Conception of Translation Methods},
-  author={Eskhult, Josef},
-  booktitle={Shaping the Bible in the Reformation},
-  pages={167--185},
-  year={2012},
-  publisher={Brill}
-}
+* Eskhult, Josef. "Latin Bible Translations in the Protestant Reformation: Historical Contexts, Philological Justification, and the Impact of Classical Rhetoric on the Conception of Translation Methods." In Shaping the Bible in the Reformation, 167-185. Brill, 2012.
 
-* @article{gomez2015qui,
-  title={Qui parle encore de S bastien Castellion?; Does anybody still talk about Sebastian Castellio?},
-  author={Gomez-Geraud, Marie-Christine},
-  journal={Australian Journal of French Studies},
-  volume={52},
-  number={3},
-  pages={261--272},
-  year={2015}
-}
+* Gomez-Geraud, Marie-Christine. "Qui parle encore de Sébastien Castellion? Does anybody still talk about Sebastian Castellio?" Australian Journal of French Studies, vol. 52, no. 3, 2015, pp. 261-272.
 
-* @incollection{zahnd2017tolerant,
-  title={Tolerant Humanists? Nikolaus Zurkinden and the Debate between Calvin, Castellio, and Beza},
-  author={Zahnd, Ueli},
-  booktitle={Crossing Traditions: Essays on the Reformation and Intellectual History},
-  pages={370--385},
-  year={2017},
-  publisher={Brill}
-}
+* Zahnd, Ueli. "Tolerant Humanists? Nikolaus Zurkinden and the Debate between Calvin, Castellio, and Beza." In Crossing Traditions: Essays on the Reformation and Intellectual History, 370-385. Brill, 2017.
+
 
 For simple summaries of Bible stories in Latin:
 * [Epitome Historiæ Sacræ](https://books.google.com/books?id=oxc-AQAAMAAJ) by Charles François Lhomond
