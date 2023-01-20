@@ -50,7 +50,7 @@ N.B. This project aims to create a reader's edition, not a critical edition of t
 
 For further reading on Sebastian Castellio and his Latin Bible translation, I recommend the following sources:
 
-* Guggisberg, Hans R. Sebastian Castellio, 1515-1563: Humanist and Defender of Religious Tolerance in a Confessional Age. Routledge, 2017.
+* Guggisberg, Hans R. "Sebastian Castellio, 1515-1563: Humanist and Defender of Religious Tolerance in a Confessional Age." Routledge, 2017.
 
 * Eskhult, Josef. "Latin Bible Translations in the Protestant Reformation: Historical Contexts, Philological Justification, and the Impact of Classical Rhetoric on the Conception of Translation Methods." In Shaping the Bible in the Reformation, 167-185. Brill, 2012.
 
