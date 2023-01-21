@@ -1,10 +1,10 @@
 LIBER: Ēvangelium Auctōre Matthæō
 
 CAPUT I
-1. Ēnumerātiō generis Jēsū Chrīstī, prōgnātī Dāvīde, prōgnātī Abrāhāmō:
+1. Ēnumerātiō generis Jēsū Chrīstī, prōgnātī Dāvīde, prōgnātī Abrahāmō:
 
-	2. Abrāhāmus genuit Isaacum.
-		Isaacus Jācōbum.
+	2. Abrahāmus genuit Isaācum.
+		Isaācus Jācōbum.
 		Jācōbus Jūdam, et ejus frātrēs.
 		3. Jūdās Phārem et Zaram (ex Thamāre).
 		Phārēs Esromum.
@@ -44,7 +44,7 @@ CAPUT I
 		Matthan Jācōbum.  
 		16. Jācōbus Jōsēphum Marīæ virum, ex quā nātus est Jēsūs nōmine Chrīstus.
 
-17. Igitur in ūniversum ab Abrāhāmō ad Dāvīdem genera sunt quattuordecim. Ā Dāvīde item ad exilium Babylōnicum quattuordecim. Ab exiliō Babylōnicō ad Chrīstum quattuordecim.
+17. Igitur in ūniversum ab Abrahāmō ad Dāvīdem genera sunt quattuordecim. Ā Dāvīde item ad exilium Babylōnicum quattuordecim. Ab exiliō Babylōnicō ad Chrīstum quattuordecim.
 
 18. Jēsū Chrīstī autem nātīvitās sīc sē habet: Cum esset dēspōnsa māter ejus Marīa Jōsēphō, priusquam convēnissent, comperta est uterum ferre ex Spīritū Sānctō. 
 19. Jōsēphus vērō vir ejus, quī jūstus esset, nec in eam vellet exemplum ēdere, statuit eam clam repudiāre. 
@@ -110,7 +110,7 @@ CAPUT III
 
 7. Cum vīdisset autem multōs Pharisæōrum et Saddūcæōrum ad suum baptisma venientēs, dīxit iīs: “Prōgeniēs vīperīna, quis vōs summonuit futūram īram fugere? 
 8. Ēdite ergō frūctūs ēmendātā vītā dignōs, 
-9. nēve animum indūcite sīc apud vōs dīcere, ‘Patrem habēmus Abrāhāmum.’ Dīcō enim vōbīs, posse Deum ex hīs saxīs suscitāre nātōs Abrāhāmō. 
+9. nēve animum indūcite sīc apud vōs dīcere, ‘Patrem habēmus Abrahāmum.’ Dīcō enim vōbīs, posse Deum ex hīs saxīs suscitāre nātōs Abrahāmō. 
 10. Jam vērō secūris arborum rādīcī admōta est. Itaque arbor omnis frūctum bonum nōn ēdēns, excīdenda est, et in ignem injicienda.
 
 11. Ego quidem baptīzō vōs aquā ad vītæ ēmendātiōnem, sed post mē venit, quī quidem adeō mē præstantior est, ut ego nōn sim dignus quī ejus calciāmenta portem. Is vōs Sānctō Spīritū et igne baptīzābit. 
