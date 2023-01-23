@@ -9,13 +9,13 @@ The primary objectives of this edition of the Castellio Latin Bible are:
 1. To provide a useful resource for intermediate-level Latin learners
 2. To update the formatting to make the book more easily readable for advanced Latin users
 
-The Castellio translation is deemed an exceptional resource for intermediate Latin learners for several reasons:
+The Castellio translation is an exceptional resource for intermediate Latin learners for several reasons:
 
-* Familiarity: Many Latin students are familiar with the Bible. Therefore, this material will be generally comprehensible even if they don't understand 100% of the vocabulary or syntax.
-* Length: The text contains over a half million words, providing ample material for learners to practice.
-* Classical style: The Vulgate Bible may be less suitable for learners primarily interested in learning to read Classical-era Latin texts, as much of its vocabulary and syntax are very distinct from Classical standards. The Castellio translation will better assist students in acquainting themselves with idiomatic Classical Latinitas.
+* Familiarity: Many Latin learners are familiar with the Bible. Therefore, much of the material will be generally comprehensible even if they don't understand all of the vocabulary or grammar.
+* Length: The text contains over a half million words, providing ample input for learners to practice extensive reading.
+* Classical style: Although the Vulgate Bible shares the first two attributes with the Castellio translation, it may be less suitable for learners primarily interested in learning to read Classical-era Latin texts, as much of its vocabulary and syntax are very distinct from Classical standards. The Castellio translation will better assist students in acquainting themselves with idiomatic Classical Latinitas.
 
-There are already many PDF scans of 16th-18th century editions of the Bible available, however, they are less suitable due to imperfections in the printing or scanning processes, decay of the originals, and unfamiliar abbreviations and spellings. Advanced Latin readers may not be overly impeded by these features, but they will hopefully still find their reading experience improved by the format of this edition, whether they are reading for scholarly interest, devotion, or pleasure.
+There are already many PDF scans of 16th-18th century editions of the Bible available, however, they are more difficult to read due to imperfections in the printing or scanning processes, decay of the originals, and unfamiliar abbreviations and spellings. Advanced Latin readers may not be overly impeded by these features, but they will hopefully still find their reading experience improved by the format of this edition, whether they are reading for scholarly interest, devotion, or pleasure.
 
 ### Orthography
 
