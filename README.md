@@ -34,8 +34,7 @@ Theodore Beza, a fellow French Protestant who produced his own translation of th
 
 ## Sources
 
-This project has been informed by several versions of the Castellio Latin Bible, including the following:
-
+This project has been consulted several versions of the Castellio Latin Bible, including the following:
 
 * 1726-27 Edition - [Volumes 1-2](https://books.google.com/books?id=1EBbAAAAQAAJ), [Volumes 3-4](https://books.google.com/books?id=40BbAAAAQAAJ): This edition is divided into multiple volumes and presents the text in verse format, with chapter headers, but no marginal notes or commentary. The versification of this edition has been used as the primary source, except when it differs from modern Bible editions.
 * [1697 Edition](https://books.google.com/books?id=wc1QkYeThIwC): This edition includes the complete Old and New Testament, extensive commentary, and Castellio's response to Theodore Beza's criticisms.
