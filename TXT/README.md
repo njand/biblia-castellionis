@@ -3,7 +3,7 @@
 This directory contains the plain text files in their various stages of processing.
 
 * [/OCR](https://github.com/nathananderson94/biblia-castellionis/tree/main/TXT/1%20-%20OCR) contains the raw OCR output from Google Books (very low quality, but it does speed up the process somewhat.)
-* [/Post-Corrected](https://github.com/nathananderson94/biblia-castellionis/tree/main/TXT/2%20-%20Post-Corrected)) contains my initial pass the raw data to correct the OCR errors.
+* [/Post-Corrected](https://github.com/nathananderson94/biblia-castellionis/tree/main/TXT/2%20-%20Post-Corrected) contains my initial pass the raw data to correct the OCR errors.
 * [/Edited](https://github.com/nathananderson94/biblia-castellionis/tree/main/TXT/3%20-%20Edited) contains files with additional updates to orthography, spelling, and formatting.
 * [/Macronized](https://github.com/nathananderson94/biblia-castellionis/tree/main/TXT/4%20-%20Macronized) is the final product in txt format, including macrons to differentiate long and short vowels.
 
