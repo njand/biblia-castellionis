@@ -337,15 +337,18 @@ def strip_macrons(text):
 
 
 if __name__ == "__main__":
+    outer_book = "novum"
     books = ["matthaeus", "marcus", "lucas", "johannes"]
+    # outer_book = "vetus"
+    # books = ["genesis"]
     for book in books:
-        tex_doc = read_latex(f"../LaTeX/biblia/novum foedus/{book}.tex")
+        tex_doc = read_latex(f"../LaTeX/biblia/{outer_book} foedus/{book}.tex")
         macronized_lines = to_txt(tex_doc)
         macronized_lines = clean_txt(macronized_lines)
-        write_output(macronized_lines, f"../TXT/4 - Macronized/2 - Novum Fœdus/{book}.txt")
+        write_output(macronized_lines, f"../TXT/4 - Macronized/{outer_book[0].upper()}{outer_book[1:]} Fœdus/{book}.txt")
 
         plain_lines = [strip_macrons(line) for line in macronized_lines]
-        write_output(plain_lines, f"../TXT/3 - Edited/2 - Novum Fœdus/{book}.txt")
+        write_output(plain_lines, f"../TXT/3 - Edited/{outer_book[0].upper()}{outer_book[1:]} Fœdus/{book}.txt")
 
         html_lines = to_html(tex_doc, f"{book}.html")
-        write_output(html_lines, f"../HTML/kx1umcn9_files/text/novum/{book}.html")
+        write_output(html_lines, f"../HTML/kx1umcn9_files/text/{outer_book}/{book}.html")
