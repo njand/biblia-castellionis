@@ -99,7 +99,7 @@ CAPUT I
 67. Zacharīās autem pater ejus, Sānctō Spīritū plēnus, vāticinātus est hīs verbīs:
 	68. “Grātēs Dominō Isrāēlītārum Deō,
 		quī populī suī līberātiōnem prōcūret,
-	69. ērigatque nōbīs cornū salūtis
+	69. ērigatque nōbīs cornū salūtis 
 		in domō suī Dāvīdis,
 	70. (quemadmodum prōmīserat
 		prīscōrum ōre sānctōrum suōrum vātum),
@@ -123,7 +123,7 @@ CAPUT I
 	79. quī appāreat iīs quī in tenebrīs et ātrā nocte dēgunt,
 		ad dīrigendōs pedēs nostrōs in viam pācis.”
 
-80. Puer autem crēscēbat, et spīritū cōnfirmābātur, ac in dēsertīs agēbat usque ad diem, quā Isrāēlītīs ostenderētur.
+80. Puer autem crēscēbat, et spīritū cōnfirmābātur, ac in dēsertīs agēbat ūsque ad diem, quā Isrāēlītīs ostenderētur.
 
 
 CAPUT II
@@ -323,13 +323,13 @@ CAPUT IV
 
 23. Et ille: “Omnīnō,” inquit iīs, “mihi dīcētis hoc prōverbium: ‘Mēdice cūrā tē ipsum.’ ‘Quæ Capharnāī facta audīvimus, fac etiam hīc in tuā patriā.’
 24. Hoc vōbīs cōnfirmō,” inquit, “nūllum vātem acceptum esse in suā patriā.
-25. Atque hoc ā mē certō sīc habētōte: Multæ viduæ erant Ēliæ temporibus apud Isrāēlītās, cum cælō per trēs annōs et sex mēnsēs clausō, exstitit gravis famēs per tōtam terram.
+25. Atque hoc ā mē certō sīc habētōte: multæ viduæ erant Ēliæ temporibus apud Isrāēlītās, cum cælō per trēs annōs et sex mēnsēs clausō, exstitit gravis famēs per tōtam terram.
 26. Et tamen ad eārum nūllam missus est Ēliās, sed tantum ad Sarephtham Sīdōnium oppidum, ad mulierem viduam.
 27. Et multī erant sub Ēlisæō vāte leprōsī apud Isrāēlītās, et tamen nūllus eōrum pūrgātus et, sed tantum Naaman Syrus.”
 
 28. Hæc audientēs omnēs in collēgiō, īrā plēnī surrēxērunt,
-29. eumque ex oppidō ējēcērunt, et usque ad montis cacūmen (in quō cōnstrūctum erat eōrum oppidum) dūxērunt, ut eum præcipitārent.
-30. At ille per mediōs dīgressus abiit,
+29. eumque ex oppidō ējēcērunt, et ūsque ad montis cacūmen (in quō cōnstrūctum erat eōrum oppidum) dūxērunt, ut eum præcipitārent.
+30. At ille per mediōs dīgressus abiit.
 
 31. Et Capharnāum Galilææ oppidum dēgressus, docēbat eōs Sabbatīs.
 32. Atque illī ejus doctrīnam stupēbant, quippe cujus in ōrātiōne inesset auctōritās.
@@ -349,7 +349,7 @@ CAPUT IV
 41. Exībant etiam ex multīs dæmonia, ita clāmantia: “Tū es Chrīstus, Deī Fīlius.” Sed objūrgāns ille, nōn sinēbat ea dīcere, ‘sē scīre eum esse Chrīstum.’
 
 42. Deinde ortā diē, dīgressus, concessit in dēsertum locum, eumque vulgō quærentēs hominēs, ad eum vēnērunt, eumque nē ab ipsīs discēderet retinēbant.
-43. At ille iīs dīxit, ‘oportēre sē aliīs quoque cīvitātibus nūntiāre Deī rēgnum; ad id enim sē esse missum.’
+43. At ille iīs dīxit, ‘oportēre sē aliīs quoque cīvitātibus nūntiāre Deī rēgnum, ad id enim sē esse missum.’
 
 44. Ita per Galilææ collēgia prædicābat.
 
@@ -357,7 +357,7 @@ CAPUT IV
 CAPUT V
 1. Cum autem hominum turba dīvīnī sermōnis audiendī grātiā eī incumberet, ad Gēnesarēthicum lacum astantī,
 2. cōnspicātus duo nāvigia ad lacum stantia (dē quibus dēgressī piscātōrēs rētia lavābant) cōnscendit nāvigiōrum alterum, quod Simōnis erat,
-3. eumque monuit ut paulum ā terrā summovēret, resēditque, et hominum turbam ex nāvigiō docēre cœpit.
+3. eumque monuit ‘ut paulum ā terrā summovēret,’ resēditque, et hominum turbam ex nāvigiō docēre cœpit.
 
 4. Deinde factō loquendī fīne, Simōnī jussit, ‘ut in altum subdūceret, utque sua rētia laxārent ad prædam.’
 

@@ -99,7 +99,7 @@ CAPUT I
 67. Zacharias autem pater ejus, Sancto Spiritu plenus, vaticinatus est his verbis:
 	68. “Grates Domino Israelitarum Deo,
 		qui populi sui liberationem procuret,
-	69. erigatque nobis cornu salutis
+	69. erigatque nobis cornu salutis 
 		in domo sui Davidis,
 	70. (quemadmodum promiserat
 		priscorum ore sanctorum suorum vatum),
@@ -323,13 +323,13 @@ CAPUT IV
 
 23. Et ille: “Omnino,” inquit iis, “mihi dicetis hoc proverbium: ‘Medice cura te ipsum.’ ‘Quæ Capharnai facta audivimus, fac etiam hic in tua patria.’
 24. Hoc vobis confirmo,” inquit, “nullum vatem acceptum esse in sua patria.
-25. Atque hoc a me certo sic habetote: Multæ viduæ erant Eliæ temporibus apud Israelitas, cum cælo per tres annos et sex menses clauso, exstitit gravis fames per totam terram.
+25. Atque hoc a me certo sic habetote: multæ viduæ erant Eliæ temporibus apud Israelitas, cum cælo per tres annos et sex menses clauso, exstitit gravis fames per totam terram.
 26. Et tamen ad earum nullam missus est Elias, sed tantum ad Sarephtham Sidonium oppidum, ad mulierem viduam.
 27. Et multi erant sub Elisæo vate leprosi apud Israelitas, et tamen nullus eorum purgatus et, sed tantum Naaman Syrus.”
 
 28. Hæc audientes omnes in collegio, ira pleni surrexerunt,
 29. eumque ex oppido ejecerunt, et usque ad montis cacumen (in quo constructum erat eorum oppidum) duxerunt, ut eum præcipitarent.
-30. At ille per medios digressus abiit,
+30. At ille per medios digressus abiit.
 
 31. Et Capharnaum Galilææ oppidum degressus, docebat eos Sabbatis.
 32. Atque illi ejus doctrinam stupebant, quippe cujus in oratione inesset auctoritas.
@@ -349,7 +349,7 @@ CAPUT IV
 41. Exibant etiam ex multis dæmonia, ita clamantia: “Tu es Christus, Dei Filius.” Sed objurgans ille, non sinebat ea dicere, ‘se scire eum esse Christum.’
 
 42. Deinde orta die, digressus, concessit in desertum locum, eumque vulgo quærentes homines, ad eum venerunt, eumque ne ab ipsis discederet retinebant.
-43. At ille iis dixit, ‘oportere se aliis quoque civitatibus nuntiare Dei regnum; ad id enim se esse missum.’
+43. At ille iis dixit, ‘oportere se aliis quoque civitatibus nuntiare Dei regnum, ad id enim se esse missum.’
 
 44. Ita per Galilææ collegia prædicabat.
 
@@ -357,7 +357,7 @@ CAPUT IV
 CAPUT V
 1. Cum autem hominum turba divini sermonis audiendi gratia ei incumberet, ad Genesarethicum lacum astanti,
 2. conspicatus duo navigia ad lacum stantia (de quibus degressi piscatores retia lavabant) conscendit navigiorum alterum, quod Simonis erat,
-3. eumque monuit ut paulum a terra summoveret, reseditque, et hominum turbam ex navigio docere cœpit.
+3. eumque monuit ‘ut paulum a terra summoveret,’ reseditque, et hominum turbam ex navigio docere cœpit.
 
 4. Deinde facto loquendi fine, Simoni jussit, ‘ut in altum subduceret, utque sua retia laxarent ad prædam.’
 
