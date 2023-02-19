@@ -25,7 +25,7 @@ Castellio naturally followed Renaissance conventions for spelling and abbreviati
 
 This project seeks to emulate modern Bible formatting conventions by segmenting the text into paragraphs with verses indicated by superscript numbers. Poetry is displayed in stanza form, and quotations are italicized. The punctuation is occasionally updated to adhere to modern expectations and improve clarity. These conventions make extensive reading more comfortable, while still allowing the reader to correlate verses with other translations. This edition does not currently include marginal notes or scriptural commentaries.
 
-Reported discourse (including questions and commands) is enclosed in single quotes. This convention is sometimes used in Latin publications targeted at learners such as *Lingua Latina per se Illustrata* and the Delphin Classics, and it is especially appropriate here because the underlying Greek (and therefore most other translations that the reader might consult) generally uses direct discourse.
+Reported discourse (including questions and commands) is enclosed in single quotes. This convention is sometimes used in Latin publications targeted at learners such as *Lingua Latina per se Illustrata* and the *Delphin Classics,* and it is especially appropriate here because the underlying Greek (and therefore most other translations that the reader might consult) generally uses direct discourse.
 
 
 ## Sebastian Castellio
