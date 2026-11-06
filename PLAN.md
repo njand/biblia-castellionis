@@ -27,7 +27,7 @@ The ~62 finished chapters are a **test set**: the pipeline is run on them and sc
 | This repo, TXT | Gen 28–35 macronized; Gen 36–50, Ex 1–20 edited; Acts corrected (partly) | In progress | Inputs for those chapters |
 | This repo, `TXT/1 - OCR` | Gen–2 Kings + Ruth; all of the NT | Raw Google Books OCR of 1726–27 (the finished chapters' source) | One more OCR witness |
 | [WordPress site](https://bibliasacracastellionis.wordpress.com/) | Mt 1–28, Mk 1–16, Lk 1–24, Jn 1–21, Gen 1–35 (Gen 34 has no macrons) | Macronized, one verse per line, old spelling (*ae*, *coepit*), no quotation marks | **Macron witness** (your earlier decisions) |
-| [la.wikisource: *Biblia Sacra interprete Sebastiano Castellione*](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione) | All 27 NT books; nearly complete Genesis, Judges, Ruth, 1 Kings, Job, Esther, Judith, Tobit, Wisdom, Song, minor prophets; partial Exodus (461/1213 verses), Leviticus, Joshua; stubs for Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah | Clean, versified, with chapter summaries; marked "25%" (not proofread). NT from the 1760 edition, OT from 1738 | **Base text** wherever it exists |
+| [la.wikisource: *Biblia Sacra interprete Sebastiano Castellione*](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione) | All 27 NT books; nearly complete Genesis, Judges, Ruth, 1 Kings, Job, Esther, Judith, Tobit, Wisdom, Song, minor prophets; partial Exodus (461/1213 verses), Leviticus, Joshua; stubs for Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah | Clean, versified, with chapter summaries; marked "25%" (not proofread). NT cites 1760 (its Gospels follow the 1556/1758 line), OT from 1738 | **Working text** wherever it exists; NT base edition 1556 (decision 15) |
 | archive.org scans (images + OCR + word coordinates) | See below | Varying OCR quality | **Independent witnesses**, and page images for checking |
 
 archive.org editions, all with `_djvu.txt` OCR, `_hocr.html` word boxes and `_jp2.zip` page images:
@@ -130,7 +130,7 @@ For each word of the base text:
   - `lrl attest` for usage.
 
   The result is a proposal with a confidence level.
-- **A genuine difference between editions** (not an OCR error) → recorded as a variant. The base edition's reading stands (1760 NT, 1738 OT; §8, decision 1), and every variant is listed for review.
+- **A genuine difference between editions** (not an OCR error) → recorded as a variant. The base edition's reading stands (1556 NT, 1738 OT; §8, decisions 1 and 15), and every variant is listed for review.
 
 Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7% of words, and much of that is normalization. Genesis runs ~4% (more OCR noise from 1738). That works out to roughly **5–25 real decisions per chapter**, nearly all of them resolved automatically.
 
@@ -237,7 +237,7 @@ Before any new chapter is produced:
 
 ## 8. Decisions (taken 2026-11-05)
 
-1. **Base edition:** the editions Wikisource follows (1760 NT, 1738 OT). Other printings' differing readings are recorded as variants. Wording in the finished chapters (from 1726–27) that differs is proposed for review, never changed automatically.
+1. **Base edition:** the editions Wikisource follows (1760 NT, 1738 OT). *The NT part was replaced on 2026-11-06 (HUMAN.md decision 15): the NT base is Castellio's 1556 edition, with Wikisource as the working text.* Other printings' differing readings are recorded as variants. Wording in the finished chapters (from 1726–27) that differs is proposed for review, never changed automatically.
 2. **Apocrypha:** in scope, after the 66 books (M7); placement decided then.
 3. **Chapter summaries:** included, as small italic headings under each chapter number, normalized and macronized like the text.
 4. **Quotation marks:** “…” for direct speech, ‘…’ only for quotes within it; reported discourse unmarked. About 33 reported passages in the finished chapters lose their ‘…’ (proposed for review).
@@ -250,7 +250,7 @@ Before any new chapter is produced:
 ## 9. Risks
 
 - **Wikisource quality is unmeasured outside the books we checked.** It is labelled 25% proofread. The OCR collation exists to catch its errors, and the test harness measures how many get through.
-- **The base New Testament (1760) is scanned only on Google Books** ([FsdIAAAAcAAJ](https://www.google.com/books/edition/Novum_Jesu_Christi_testamentum_ex_Sebast/FsdIAAAAcAAJ)), not archive.org, so it has no hOCR word boxes. M1 checks whether its page images can be fetched for stage 2. If not, the closest archive.org NT (1758) stands in when Claude compares a reading against the page.
+- **The base New Testament (1556) is on e-rara** ([10281656](https://www.e-rara.ch/bau_1/content/titleinfo/10281656)). It has OCR text and IIIF page images, but its 16th-century print (ligatures, abbreviations) reads poorly, and the comparison with it covers only the Gospels so far. The 1758 archive.org scan, with word boxes, remains the image for cropping single words (`data/calibration/scans.md`).
 - **Differences between editions** can look like OCR errors. They are recorded as variants, never silently "corrected".
 - **Noisy OCR** (1747, 1750) adds noise as well as votes. Weight witnesses by measured accuracy, not equally.
 - **Homographs and hidden quantities** are where macron errors concentrate. The Greek-tense evidence and your WordPress decisions help, but the A2/B queue will still be the longest part of the review for a while.

@@ -27,6 +27,16 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | Path | What |
 |---|---|
 | `text/<USFM code>.usfm` | **The master copy**, one file per book (created by the M1 migration); markers in PLAN.md §3 |
+| `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (Matthew 14–28, from the commented-out LaTeX); not settled |
+| `data/rules/orthography.tsv` | Spelling rules (`old new scope status note`); only `approved` rows are applied. `REVIEW.md` beside it is the latest proposal for Nathan; `distinct.tsv` lists look-alike words decided to be different |
+| `data/witnesses/ocr-<year>/<osis>.tsv` | OCR witnesses aligned to verse ids (`python -m pipeline align`): 1681, 1715, 1726 (= `TXT/1`), 1738, 1747, 1750, 1758; flags `partial`/`missing` |
+| `data/calibration/witnesses.md` | Each witness scored against the gold (found, agreement exact / f-s-blind / reading); `witnesses.tsv` holds the counts |
+| `data/calibration/harness.md` | Stages 3–4 from Wikisource scored against the gold (`python -m pipeline harness`; leave-one-out) |
+| `docs/editions.md` | The editions of Castellio's Bible (lifetime vs posthumous, purposes, what he changed vs later editors), for the README and front matter; keep it current as editions are examined |
+| `data/calibration/nt1556.tsv` | Wikisource NT against the 1556 OCR (`scripts/collate_1556.py`; 1556 pages cached in `sources/erara-1556/`): differences confirmed by another printing |
+| `data/calibration/scans.md` | The editions compared (1551, 1554, 1556, 1745, 1758, 1760) and where their scans are; the evidence for the 1556 NT base |
+| `data/calibration/wikisource.tsv` | Every difference between Wikisource and the gold, sorted by kind (`python -m pipeline rules`) |
+| `data/gold/<osis>.tsv` | The settled chapters per verse (`id text marks layout`), rebuilt from `text/` by `python -m pipeline gold`; the harness's answer key |
 | `build/` | Generated outputs (website, EPUBs, PDF, TXT/TSV); git-ignored; published via GitHub releases and Pages |
 | `LaTeX/main.tex`, `LaTeX/biblia/{vetus,novum} foedus/<slug>.tex` | *Legacy* master, until the migration is verified; `main.tex`'s preamble is reused for the generated PDF |
 | `scripts/latex_converter.py`, `HTML/`, `EPUB/`, `TXT/3`, `TXT/4` | *Legacy* outputs of the LaTeX; retired after the migration (removal is Nathan's call) |
@@ -56,12 +66,20 @@ python -m pipeline fetch archive --hocr      # also the hOCR word boxes (14–40
 python -m pipeline status [BOOK…] [--chapters]
 python -m pipeline latin macron vēnit        # W/M/G macron lookup (fur-fulminis)
 python -m pipeline latin macron-check --text FILE
+python -m pipeline migrate [BOOK…]           # LaTeX → text/*.usfm where none exists yet; always checks the round trip
+python -m pipeline gold [BOOK…]              # text/*.usfm → data/gold/<osis>.tsv
+python -m pipeline rules [BOOK…]             # learn spelling rules (keeps approved/rejected statuses)
+python -m pipeline align [WITNESS…]          # OCR witnesses → verse ids, scored against the gold
+python -m pipeline harness [BOOK…]           # normalize + macronize from Wikisource, scored (lexicon cached in sources/cache)
+python -m pipeline versify Gen [--apply]     # KJV renumbering from data/versification/Gen.edits.tsv (apply: all approved)
 cd scripts && python latex_converter.py      # legacy: LaTeX → TXT/HTML (until the USFM builds replace it)
 ```
 
 ## Sources at a glance
 
-- **Wikisource** (base text): NT complete; much of the OT. NT from the 1760 edition, OT from 1738; some books
+- **Base editions** (decision 15): NT = Castellio's 1556 Basel edition (e-rara 10281656); OT = 1738 Leipzig.
+- **Wikisource** (working text): NT complete; much of the OT. Cites 1760 for the NT, but its Gospels follow the
+  1556/1758 line (`data/calibration/scans.md`); OT from 1738; some books
   from other printings (Song of Songs keeps u for v; Obadiah has stress accents).
 - **WordPress (2019)**: Gospels and Genesis 1–35, macronized: Nathan's earlier macron decisions.
 - **archive.org OCR**: 1681, 1715, 1747, 1758 NT; 1738 OT; 1750 Bible.

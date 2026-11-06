@@ -37,21 +37,23 @@ HEADINGS = {"s", "s1", "s2", "ms", "mr", "r", "sp"}
 # Notes and cross-references are dropped with their content; other character markers keep their text.
 DROP = re.compile(r"\\(f|x|fe)\s.*?\\\1\*", re.DOTALL)
 WORD = re.compile(r"\\\+?w\s+([^|\\]*)(?:\|[^\\]*)?\\\+?w\*")
-CHAR = re.compile(r"\\\+?[a-z]+\d?\*?\s?")
+CHAR = re.compile(r"\\\+?[a-z]+\d?(?:\*|\s?)")     # a space after an opening marker belongs to it; after \x* it is text
 
 
-def strip_inline(text):
+def strip_inline(text, keep=()):
+    """The text without notes, word attributes or character markers (except the markers named in `keep`)."""
     text = DROP.sub("", text)
     text = WORD.sub(r"\1", text)
-    text = CHAR.sub("", text)
+    text = CHAR.sub(lambda m: m.group(0) if m.group(0).strip("\\+* ") in keep else "", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
-def parse_usfm(source):
+def parse_usfm(source, keep=()):
     """Return (usfm book code, [(chapter, verse, text, marks, layout)]).
 
     `marks` are the markers met between the previous verse and this one (paragraph, poetry, headings);
-    `layout` is the verse text with the layout markers that fall inside it kept inline ("… wicked, \\q2 or …")."""
+    `layout` is the verse text with the layout markers that fall inside it kept inline ("… wicked, \\q2 or …"),
+    and the character markers named in `keep` (e.g. "qt" keeps \\qt …\\qt*)."""
     code, chapter, rows, marks = None, 0, [], []
     # A verse can start mid-line ("\q1 \v 2 …"), so each \v begins a line of its own.
     lines = [piece for line in source.splitlines() for piece in re.split(r"(?=\\v\s)", line)]
@@ -73,7 +75,9 @@ def parse_usfm(source):
             marks = []
         elif marker in LAYOUT:
             if rest.strip() and rows:
-                rows[-1][2] += f" \\{marker} {rest}"     # a new line inside the current verse
+                # a new line inside the current verse; a bare marker just before it (\b) belongs there too
+                rows[-1][2] += "".join(f" \\{m}" for m in marks) + f" \\{marker} {rest}"
+                marks = []
             else:
                 marks.append(marker)                     # layout before the next verse
         elif marker in HEADINGS:
@@ -85,7 +89,8 @@ def parse_usfm(source):
         # parts = [text, marker, text, marker, text, …]
         parts = LAYOUT_SPLIT.split(raw)
         texts = [strip_inline(part) for part in parts[0::2]]
-        layout = texts[0] + "".join(f" \\{marker} {text}" for marker, text in zip(parts[1::2], texts[1:]))
+        kept = [strip_inline(part, keep) for part in parts[0::2]] if keep else texts
+        layout = kept[0] + "".join(f" \\{marker} {text}" for marker, text in zip(parts[1::2], kept[1:]))
         out.append((c, v, " ".join(t for t in texts if t), " ".join(m), layout.strip()))
     return code, out
 

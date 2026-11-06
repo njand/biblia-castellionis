@@ -5,9 +5,10 @@ them are dated in `HUMAN.md` § Decided.
 
 ## Text
 
-- **Base edition**: the editions Wikisource transcribes, 1760 for the New Testament and 1738 (Leipzig) for the Old
-  (decided 2026-11-05). Where another printing (1681, 1715, 1726–27, 1747, 1750, 1758) shows a genuinely
-  different reading, it is recorded as a variant, not adopted. Scans of other editions still serve to correct
+- **Base edition**: for the New Testament, Castellio's own last revision, the 1556 Basel edition (decided
+  2026-11-06); for the Old, the 1738 Leipzig edition that Wikisource transcribes (decided 2026-11-05). Wikisource
+  is the working text. Where it or another printing (1551, 1554, 1681, 1715, 1726–27, 1745, 1747, 1750, 1758,
+  1760) differs from the base, the base reading is proposed and the others are recorded as variants. Scans of other editions still serve to correct
   OCR and transcription errors. Books Wikisource lacks follow 1738 for the OT; the 1750 Bible fills any
   gaps.
 - **Finished chapters**: they were transcribed from 1726–27. Where their wording differs from the base

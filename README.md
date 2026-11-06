@@ -36,10 +36,10 @@ Theodore Beza, a fellow French Protestant who produced his own translation of th
 
 ## Sources
 
-The text follows two 18th-century editions of Castellio's final revision, as transcribed on [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione):
+The working text is the transcription by the contributors to [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione). The base editions are:
 
-* Old Testament: the [1738 Leipzig edition](https://archive.org/details/bibliasacraexseb01cast) (*Biblia sacra ex Sebastiani Castellionis interpretatione et postrema recognitione*).
-* New Testament: the [1760 edition](https://www.google.com/books/edition/Novum_Jesu_Christi_testamentum_ex_Sebast/FsdIAAAAcAAJ) (*Novum Jesu Christi Testamentum ex Sebastiani Castellionis interpretatione*).
+* Old Testament: the [1738 Leipzig edition](https://archive.org/details/bibliasacraexseb01cast) (*Biblia sacra ex Sebastiani Castellionis interpretatione et postrema recognitione*), which Wikisource transcribes.
+* New Testament: the [1556 Basel edition](https://www.e-rara.ch/bau_1/content/titleinfo/10281656) (Oporinus), Castellio's last revision in his lifetime.
 
 The transcription is checked word by word against scans of other editions, which serve to correct errors in the transcription and in the scans' OCR:
 
@@ -49,7 +49,9 @@ The transcription is checked word by word against scans of other editions, which
 * [1697 Edition](https://books.google.com/books?id=wc1QkYeThIwC): This edition includes the complete Old and New Testament, extensive commentary, and Castellio's response to Theodore Beza's criticisms.
 * [1553 Novum Testamentum](https://books.google.com/books?id=rFtSAAAAcAAJ): This early edition only includes the New Testament, with limited marginal notes and no versification.
 
-Where the editions genuinely differ, the reading of the base edition (1738 or 1760) is printed.
+Also consulted: Castellio's [1551](https://books.google.com/books?id=BrlIAAAAcAAJ) and [1554](https://www.digitale-sammlungen.de/en/view/bsb10196330?page=1) editions, Bünemann's [1745 Leipzig edition](https://opendata.uni-halle.de/handle/1981185920/56262) and the [1760 New Testament](https://www.google.com/books/edition/Novum_Jesu_Christi_testamentum_ex_Sebast/FsdIAAAAcAAJ).
+
+Where the editions genuinely differ, the reading of the base edition (1738 or 1556) is printed.
 
 N.B. This project aims to create a reader's edition, not a critical edition of the original versions of the text. Variant readings are recorded in the project's data files, but no critical apparatus is printed.
 

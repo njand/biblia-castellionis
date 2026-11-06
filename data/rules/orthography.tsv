@@ -1,0 +1,130 @@
+old	new	scope	status	note
+ae	æ	pattern	approved	diphthong ae → æ: 1260 words in the gold follow it; gold keeps ae/oe in 72 (foedus 13×, israelitis 6×, israelitarum 6×, foederis 5×, foedere 4×, israelitas 3×, nathanael 3×, poena 2×)
+oe	œ	pattern	approved	diphthong oe → œ, with the same exceptions list (aër, poëta …)
+i	j	pattern	approved	consonantal i → j (e-liber's orthography.jv rules): 16 gold words differ from Wikisource only in i/j or u/v, e.g. Eiice→Ejice, Goiorum→Gojorum, Mahuiaelem→Mahujælem, Mahuiael→Mahujæl, abiicit→abjicit, adiumentum→adjumentum; j wherever pronounced, so always in compounds of jaciō (abjiciō, ējiciō, prōjiciō), not Gaffiot's abiciō (decision 17)
+eis	iis	word	approved	8× (Gen.17.8, Gen.18.8, Gen.19.1, Gen.20.17, …); Gaffiot headword: old
+trigesimo	tricesimo	word	approved	6× (Gen.11.12, Gen.11.16, Gen.11.18, Gen.11.20, …); Gaffiot headword: both; but trigesimo kept 2× (Matt.13.8, Mark.4.8): inconsistent
+æreæ	aeriæ	word	approved	5× (Matt.8.20, Mark.4.4, Mark.4.32, Luke.9.58, …); Gaffiot headword: no headword found
+humeris	umeris	word	approved	4× (Gen.9.23, Gen.21.14, Gen.24.15, Gen.24.45); Gaffiot headword: old
+eisque	iisque	word	approved	3× (Gen.5.2, Gen.18.2, Gen.19.3); Gaffiot headword: no headword found
+heram	eram	word	approved	3× (Gen.16.4, Gen.16.8, Gen.16.9); Gaffiot headword: both
+æreas	aerias	word	approved	3× (Gen.1.28, Gen.2.19, Matt.6.26); Gaffiot headword: new
+diversorium	deversorium	word	approved	2× (Luke.9.52, Luke.10.34); Gaffiot headword: new
+næ	ne	word	approved	2× (Gen.18.31, Gen.27.36); Gaffiot headword: both
+quatuor	quattuor	word	approved	2× (Gen.2.10, Gen.14.9); Gaffiot headword: new
+querceto	querqueto	word	approved	2× (Gen.14.14, Gen.18.1); Gaffiot headword: both
+sexcentesimo	sescentesimo	word	approved	2× (Gen.7.11, Gen.8.13); Gaffiot headword: no headword found
+sobole	subole	word	approved	2× (Gen.9.1, Gen.11.32); Gaffiot headword: both
+sobolis	subolis	word	approved	2× (Gen.17.6, Gen.17.20); Gaffiot headword: both
+æreis	aeriis	word	approved	2× (Gen.1.26, Gen.9.2); Gaffiot headword: no headword found
+abicient	abjicient	word	approved	1× (Luke.6.22); Gaffiot headword: both
+arenato	harenato	word	approved	1× (Gen.11.3); Gaffiot headword: old
+assumto	assumpto	word	approved	1× (Gen.17.23); Gaffiot headword: no headword found
+autor	auctor	word	approved	1× (Gen.10.21); Gaffiot headword: both
+benammi	bennammi	word	proposed	1× (Gen.19.38); Gaffiot headword: no headword found
+concionaretur	contionaretur	word	approved	1× (Matt.11.1); Gaffiot headword: new
+conjux	conjunx	word	approved	1× (Gen.2.25); Gaffiot headword: both; but conjux kept 1× (Luke.1.13): inconsistent
+connubiis	conubiis	word	approved	1× (Gen.6.4); Gaffiot headword: new
+diversorio	deversorio	word	approved	1× (Luke.2.7); Gaffiot headword: new
+divertant	devertant	word	rejected	1× (Gen.19.2); Gaffiot headword: both; rejected as a rule: dīvertō (go apart) is another verb; dēvertō (turn in to lodge) fixed per verse
+diverterint	deverterint	word	rejected	1× (Gen.19.3); Gaffiot headword: both; rejected as a rule: dīvertō (go apart) is another verb; dēvertō (turn in to lodge) fixed per verse
+ejicere	eicere	word	rejected	1× (Mark.3.22); Gaffiot headword: old; but ejicere kept 5× (Matt.9.34, Matt.12.24, Mark.3.23, Luke.11.15, …): inconsistent; rejected: ējicere kept (decision 17)
+emptitiorum	empticiorum	word	approved	1× (Gen.17.23); Gaffiot headword: new
+heri	eri	word	rejected	1× (Gen.24.48); Gaffiot headword: old; but heri kept 1× (Gen.24.44): inconsistent; rejected as a rule: the adverb heri (yesterday, e.g. John 4:52) is a different word; erī for the master's is fixed per verse (Gen 24:44 still has heri)
+herili	erili	word	approved	1× (Gen.24.48); Gaffiot headword: both
+herilis	erilis	word	approved	1× (Gen.24.48); Gaffiot headword: both
+hero	ero	word	approved	1× (Gen.24.12); Gaffiot headword: both
+herum	erum	word	approved	1× (Gen.24.14); Gaffiot headword: old
+hiericuntem	hierichuntem	word	proposed	1× (Luke.10.30); Gaffiot headword: old
+imo	immo	word	approved	1× (Gen.23.13); Gaffiot headword: both
+intelligam	intellegam	word	approved	1× (Gen.24.14); Gaffiot headword: both
+intelligant	intellegant	word	approved	1× (Gen.11.7); Gaffiot headword: both
+mulctabimini	multabimini	word	approved	1× (Gen.3.4); Gaffiot headword: both
+paullum	paulum	word	approved	1× (Gen.24.17); Gaffiot headword: new
+pellicio	pelliceo	word	rejected	1× (Mark.1.6); Gaffiot headword: both; but pellicio kept 1× (Matt.3.4): inconsistent; rejected: pellicius, by the earliest evidence (Tertullian 2:2; Vulgate, Augustine, Isidore pellici-) and analogy (-iceus a late variant of -icius); Mark 1:6 pelliceō proposed → pelliciō
+prohibite	prohibete	word	approved	1× (Luke.9.50); Gaffiot headword: no headword found
+præsæpi	præsepi	word	approved	1× (Luke.13.15); Gaffiot headword: new; but præsæpi kept 3× (Luke.2.7, Luke.2.12, Luke.2.16): inconsistent
+præteriissent	præterissent	word	approved	1× (Gen.7.10); Gaffiot headword: no headword found
+pœnitebat	pænitebat	word	approved	1× (Gen.6.7); Gaffiot headword: both
+pœnituit	pænituit	word	approved	1× (Gen.6.6); Gaffiot headword: both
+quercetum	querquetum	word	approved	1× (Gen.13.18); Gaffiot headword: both
+quicquid	quidquid	word	approved	1× (Gen.1.26); Gaffiot headword: new; approved: Gaffiot's headword, over the corpus (quicquid 185 vs 76; older editions)
+quæsierunt	quæsiverunt	word	approved	1× (Matt.9.11); Gaffiot headword: no headword found; approved: republican quaesiverunt 4 vs quaesierunt 1, quaesivit 25 vs quaesiit 2; by analogy petiverunt 20 vs petierunt 7
+repererit	reppererit	word	approved	1× (Gen.4.14); Gaffiot headword: old
+reperit	repperit	word	rejected	1× (Luke.4.17); Gaffiot headword: old; rejected as a rule: present reperit ≠ perfect repperit; Luke 4:17 (perfect) proposed as a fix for that verse only
+seculi	sæculi	word	approved	1× (Gen.7.1); Gaffiot headword: new
+sexcentos	sescentos	word	approved	1× (Gen.7.6); Gaffiot headword: old
+soboli	suboli	word	approved	1× (Gen.19.34); Gaffiot headword: both
+tentato	temptato	word	approved	1× (Matt.4.7); Gaffiot headword: both; but tentato kept 1× (Luke.4.12): inconsistent
+trigesimum	tricesimum	word	approved	1× (Gen.5.5); Gaffiot headword: both
+vigesimo	vicesimo	word	approved	1× (Gen.11.26); Gaffiot headword: both
+septimodecimo	septimo decimo	phrase	approved	3× (Gen.7.11, Gen.8.4, Gen.8.14)
+bene facere	benefacere	phrase	rejected	2× (Mark.3.4, Luke.6.9); rejected: republican prose writes bene/male + facere apart (bene fac- 23 vs benefac- 4; male fac- 8 vs malefac- 2), as your male dīxerit; the joined forms in Mark 3:4, Luke 6:9, 6:33, 6:35 are proposed for splitting
+male facere	malefacere	phrase	rejected	2× (Mark.3.4, Luke.6.9); rejected: republican prose writes bene/male + facere apart (bene fac- 23 vs benefac- 4; male fac- 8 vs malefac- 2), as your male dīxerit; the joined forms in Mark 3:4, Luke 6:9, 6:33, 6:35 are proposed for splitting
+maledixerit	male dixerit	phrase	approved	2× (Mark.3.29, Luke.12.10)
+quæ nam	quænam	phrase	approved	2× (Mark.1.27, Luke.8.9)
+ab sit	absit	phrase	approved	1× (Gen.18.25)
+bene facite	benefacite	phrase	rejected	1× (Luke.6.35); rejected: republican prose writes bene/male + facere apart (bene fac- 23 vs benefac- 4; male fac- 8 vs malefac- 2), as your male dīxerit; the joined forms in Mark 3:4, Luke 6:9, 6:33, 6:35 are proposed for splitting
+bene facitis	benefacitis	phrase	rejected	1× (Luke.6.33); rejected: republican prose writes bene/male + facere apart (bene fac- 23 vs benefac- 4; male fac- 8 vs malefac- 2), as your male dīxerit; the joined forms in Mark 3:4, Luke 6:9, 6:33, 6:35 are proposed for splitting
+bene faciunt	benefaciunt	phrase	rejected	1× (Luke.6.33); rejected: republican prose writes bene/male + facere apart (bene fac- 23 vs benefac- 4; male fac- 8 vs malefac- 2), as your male dīxerit; the joined forms in Mark 3:4, Luke 6:9, 6:33, 6:35 are proposed for splitting
+ex alto	exalto	phrase	rejected	1× (Luke.1.78); rejected: ex altō, "from on high" (Greek ἐξ ὕψους); Luke 1:78 exaltō proposed → ex altō
+in gravescente	ingravescente	phrase	approved	1× (Gen.12.10)
+jampridem	jam pridem	phrase	approved	1× (Luke.10.13)
+legisperiti	legis periti	phrase	approved	1× (Luke.7.30)
+me cum	mecum	phrase	approved	1× (Matt.12.30)
+nec ne	necne	phrase	approved	1× (Gen.24.21)
+non ne	nonne	phrase	approved	1× (Luke.6.39)
+quando quidem	quandoquidem	phrase	approved	1× (Luke.1.1)
+tamdiu	tam diu	phrase	approved	1× (Luke.1.21)
+dissident	dissidet	word	proposed	1× (Mark.3.25); Gaffiot headword: no headword found
+abliguriit	abligurivit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -it 128:11
+adsciverat	adscierat	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erat 6:33
+arcessivisset	arcessisset	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 1 (short), decided by pooled -isset 6:47
+ascivisti	ascisti	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -isti 0:17
+audiveram	audieram	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 3 (-īv-) : 14 (short), decided by this form
+audiverant	audierant	word	approved	decision 19 (-īv- perfects, form by form): 11× in our texts; republican 1 (-īv-) : 7 (short), decided by this form
+audiverat	audierat	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 4 (-īv-) : 29 (short), decided by this form
+audiverint	audierint	word	approved	decision 19 (-īv- perfects, form by form): 6× in our texts; republican 0 (-īv-) : 3 (short), decided by this form
+audiverit	audierit	word	approved	decision 19 (-īv- perfects, form by form): 9× in our texts; republican 3 (-īv-) : 24 (short), decided by this form
+audiverunt	audierunt	word	approved	decision 19 (-īv- perfects, form by form): 18× in our texts; republican 1 (-īv-) : 19 (short), decided by this form
+audivisse	audisse	word	approved	decision 19 (-īv- perfects, form by form): 12× in our texts; republican 4 (-īv-) : 67 (short), decided by this form
+audivissem	audissem	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 1 (-īv-) : 13 (short), decided by this form
+audivissent	audissent	word	approved	decision 19 (-īv- perfects, form by form): 9× in our texts; republican 1 (-īv-) : 15 (short), decided by this form
+audivisset	audisset	word	approved	decision 19 (-īv- perfects, form by form): 13× in our texts; republican 4 (-īv-) : 36 (short), decided by this form
+audivisti	audisti	word	approved	decision 19 (-īv- perfects, form by form): 4× in our texts; republican 0 (-īv-) : 17 (short), decided by this form
+audivistis	audistis	word	approved	decision 19 (-īv- perfects, form by form): 33× in our texts; republican 2 (-īv-) : 74 (short), decided by this form
+audiit	audivit	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 46 (-īv-) : 0 (short), decided by this form
+custodiverit	custodierit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 1 (short), decided by pooled -erit 5:38
+exaudivisset	exaudisset	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -isset 6:47
+finiverit	finierit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erit 5:38
+impedivistis	impedistis	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -istis 2:75
+impertiverit	impertierit	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erit 5:38
+munivisse	munisse	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -isse 6:91
+nesciverit	nescierit	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 3 (short), decided by this form
+obdormiverant	obdormierant	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erant 1:7
+obdormiverint	obdormierint	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erint 0:6
+obdormiverit	obdormierit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erit 5:38
+obediverit	obedierit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erit 5:38
+obedivissent	obedissent	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -issent 1:16
+obedivisti	obedisti	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -isti 0:17
+oppetiit	oppetivit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -it 128:11
+petiverat	petierat	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 2 (-īv-) : 4 (short), decided by this form
+petiverit	petierit	word	approved	decision 19 (-īv- perfects, form by form): 3× in our texts; republican 1 (-īv-) : 5 (short), decided by this form
+petierunt	petiverunt	word	approved	decision 19 (-īv- perfects, form by form): 6× in our texts; republican 20 (-īv-) : 7 (short), decided by this form
+petivisse	petisse	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 1 (-īv-) : 17 (short), decided by this form
+petiit	petivit	word	approved	decision 19 (-īv- perfects, form by form): 22× in our texts; republican 30 (-īv-) : 5 (short), decided by this form
+punivisse	punisse	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -isse 6:91
+quæsiverint	quæsierint	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 1 (short), decided by pooled -erint 0:6
+quæsiverit	quæsierit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 1 (-īv-) : 5 (short), decided by this form
+quæsivissent	quæsissent	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 1 (short), decided by pooled -issent 1:16
+quæsivisset	quæsisset	word	approved	decision 19 (-īv- perfects, form by form): 3× in our texts; republican 2 (-īv-) : 8 (short), decided by this form
+repetiverit	repetierit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erit 5:38
+repetiit	repetivit	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 1 (-īv-) : 0 (short), decided by pooled -it 128:11
+resciverit	rescierit	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erit 5:38
+sepelivissem	sepelissem	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -issem 3:13
+servivisse	servisse	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 2 (short), decided by pooled -isse 6:91
+servivissent	servissent	word	approved	decision 19 (-īv- perfects, form by form): 5× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -issent 1:16
+servivisset	servisset	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 2 (short), decided by pooled -isset 6:47
+servivistis	servistis	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -istis 2:75
+suffiverint	suffierint	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erint 0:6
+vestivistis	vestistis	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -istis 2:75

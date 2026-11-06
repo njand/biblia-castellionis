@@ -1,0 +1,12 @@
+op	at	anchor	status	note
+split	Gen.3.23	Et ējectō homine	applied	KJV 3:24 "So he drove out the man"
+split	Gen.4.17	Huic Henōchō nātus	applied	KJV 4:18 "And unto Enoch was born Irad"; 4:18–25 become 4:19–26
+chapter	Gen.7.1	Jōva eum ita	applied	KJV 6:22 "Thus did Noah" is the opening clause of 7:1; the break falls mid-sentence (USFM nb: no new paragraph)
+chapter	Gen.8.1	recordātus Nōæ Deus	applied	KJV 7:24 "the waters prevailed … an hundred and fifty days" is the opening clause of 8:1; mid-sentence (USFM nb: no new paragraph)
+split	Gen.10.28	Ophīren, Hevilam	applied	KJV 10:29 "And Ophir, and Havilah, and Jobab"; 10:29–31 become 10:30–32
+merge	Gen.11.14		applied	Caīnān begets Sala (Septuagint; not in the KJV): joins 11:13
+merge	Gen.11.15		applied	Caīnān's remaining years (Septuagint; not in the KJV): joins 11:13; 11:16–34 become 11:14–32
+merge	Gen.14.11		applied	KJV 14:10 covers both the slime pits and the flight; 14:12–25 become 14:11–24
+chapter	Gen.19.1	Angelī autem illī	applied	KJV 18:33 "And the LORD went his way … Abraham returned" is the first two sentences of 19:1
+merge	Gen.23.20		applied	KJV 23:19 "Abraham buried Sarah … in the land of Canaan" spans 23:19–20; 23:21 becomes 23:20
+merge	Gen.24.68		applied	KJV 24:67 includes "and Isaac was comforted after his mother's death"

@@ -1,8 +1,8 @@
 """Latin Wikisource's transcription of Castellio's Bible → one verse TSV per book.
 
 The pages (https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione) are CC BY-SA 4.0:
-credit Wikisource when this text is used. The New Testament follows the 1760 edition and the Old Testament
-the 1738 Leipzig edition (archive.org `bibliasacraexseb01cast`); a few books (e.g. the Song of Songs) come
+credit Wikisource when this text is used. Wikisource cites the 1760 edition for the New Testament (its
+Gospels in fact follow the 1556/1758 line; see data/calibration/scans.md) and the 1738 Leipzig edition for the Old (archive.org `bibliasacraexseb01cast`); a few books (e.g. the Song of Songs) come
 from other printings and keep u for v.
 
 Rows: `id  text  flags`. Verse 0 holds a chapter's summary (argumentum) or a psalm's title; chapter 0
