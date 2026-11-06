@@ -1,19 +1,21 @@
-"""Functions to convert LaTeX files to TXT and EPUB."""
+"""Functions to convert LaTeX files to TXT and HTML (for the EPUB)."""
 
+import os
 import re
 
 
-BOOK_COMMAND = "\Liber"
-CHAPTER_COMMAND = "\Caput"
-VERSE_COMMAND = "\Versus"
-INDENT_COMMAND = "\indentpattern{"
-BEGIN_COMMAND = "\\begin"
-END_COMMAND = "\end"
-SKIP_COMMAND = "\medskip"
+BOOK_COMMAND = r"\Liber"
+CHAPTER_COMMAND = r"\Caput"
+VERSE_COMMAND = r"\Versus"
+INDENT_COMMAND = r"\indentpattern{"
+BEGIN_COMMAND = r"\begin"
+END_COMMAND = r"\end"
+SKIP_COMMAND = r"\medskip"
 
 
 def read_latex(filepath):
-    return open(filepath, "r", encoding="utf-8").read()
+    with open(filepath, "r", encoding="utf-8") as reader:
+        return reader.read()
 
 
 def int2roman(num):
@@ -220,14 +222,18 @@ def to_html(tex_doc, filepath=None):
             if line.startswith(CHAPTER_COMMAND):
                 chapter_count += 1
                 
-    for line in tex_doc.splitlines(keepends=True):
-        line = preprocess_html_line(line)
+    for raw_line in tex_doc.splitlines(keepends=True):
+        line = preprocess_html_line(raw_line)
         if line.startswith(BOOK_COMMAND):
             chapter = 0
             verse = 0
-            book = re.search(r"\[(.*)\]", line)
+            # Split two-line titles (e.g. "Ēvangelium Auctōre\\Lūcā") into a subtitle and title
+            book = re.search(r"\[(.*)\]", raw_line).group(1).split("\\\\")
 
-            output_line = f"\t<br/>\n\t<h1>{book.group(1).upper()}</h1>\n\t<br/>\n"
+            output_line = "\t<br/>\n"
+            if len(book) > 1:
+                output_line += f"\t<h3>{' '.join(book[:-1]).upper()}</h3>\n"
+            output_line += f"\t<h1>{book[-1].upper()}</h1>\n\t<br/>\n"
             if chapter_count > 0:
                 output_line += "\t<div class=\"chapter-toc\">\n"
                 for i in range(1, chapter_count+1):
@@ -320,6 +326,39 @@ def write_output(lines, filepath):
         writer.writelines(lines)
 
 
+def split_txt_chapters(lines):
+    """Split txt lines into the header (before the first chapter) and a list of chapters."""
+    header, chapters = [], []
+    for line in lines:
+        if line.startswith("CAPUT "):
+            chapters.append([])
+        (chapters[-1] if chapters else header).append(line)
+    return header, chapters
+
+
+def keep_extra_chapters(lines, filepath):
+    """Append any chapters from the existing txt file beyond those generated from LaTeX,
+    so that work not yet transferred to LaTeX is not overwritten."""
+    if not os.path.exists(filepath):
+        return lines
+    with open(filepath, "r", encoding="utf-8") as reader:
+        _, old_chapters = split_txt_chapters(reader.readlines())
+    _, new_chapters = split_txt_chapters(lines)
+    extra = old_chapters[len(new_chapters):]
+    if not extra:
+        return lines
+    # Keep the same spacing between chapters as the existing file
+    seam = old_chapters[len(new_chapters) - 1] if new_chapters else []
+    blank_count = len(seam) - len("".join(seam).rstrip("\n").splitlines())
+    lines = list(lines)
+    while lines and not lines[-1].strip():
+        lines.pop()
+    lines.extend(["\n"] * blank_count)
+    for chapter in extra:
+        lines.extend(chapter)
+    return lines
+
+
 def strip_macrons(text):
     text = re.sub("ā", "a", text)
     text = re.sub("ē", "e", text)
@@ -336,19 +375,27 @@ def strip_macrons(text):
     return text
 
 
+BOOKS = {
+    "vetus": ["genesis"],
+    "novum": ["matthaeus", "marcus", "lucas", "johannes"],
+}
+
+
 if __name__ == "__main__":
-    outer_book = "novum"
-    books = ["matthaeus", "marcus", "lucas", "johannes"]
-    # outer_book = "vetus"
-    # books = ["genesis"]
-    for book in books:
-        tex_doc = read_latex(f"../LaTeX/biblia/{outer_book} foedus/{book}.tex")
-        macronized_lines = to_txt(tex_doc)
-        macronized_lines = clean_txt(macronized_lines)
-        write_output(macronized_lines, f"../TXT/4 - Macronized/{outer_book[0].upper()}{outer_book[1:]} Fœdus/{book}.txt")
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+    for outer_book, books in BOOKS.items():
+        testament = f"{outer_book[0].upper()}{outer_book[1:]} Fœdus"
+        for book in books:
+            tex_doc = read_latex(f"{root}/LaTeX/biblia/{outer_book} foedus/{book}.tex")
+            macronized_lines = to_txt(tex_doc)
+            macronized_lines = clean_txt(macronized_lines)
+            plain_lines = [strip_macrons(line) for line in macronized_lines]
 
-        plain_lines = [strip_macrons(line) for line in macronized_lines]
-        write_output(plain_lines, f"../TXT/3 - Edited/{outer_book[0].upper()}{outer_book[1:]} Fœdus/{book}.txt")
+            macronized_path = f"{root}/TXT/4 - Macronized/{testament}/{book}.txt"
+            write_output(keep_extra_chapters(macronized_lines, macronized_path), macronized_path)
 
-        html_lines = to_html(tex_doc, f"{book}.html")
-        write_output(html_lines, f"../HTML/kx1umcn9_files/text/{outer_book}/{book}.html")
+            plain_path = f"{root}/TXT/3 - Edited/{testament}/{book}.txt"
+            write_output(keep_extra_chapters(plain_lines, plain_path), plain_path)
+
+            html_lines = to_html(tex_doc, f"{book}.html")
+            write_output(html_lines, f"{root}/HTML/kx1umcn9_files/text/{outer_book}/{book}.html")

@@ -33,7 +33,7 @@ CAPUT I
 19. Inde paululum prōgressus vīdit Jācōbum Zebedæī fīlium, et Jōhannem ejus frātrem, quī et ipsī in nāvī reficiēbant fundās,
 20. eōsque prōtinus vocāvit, atque illī patre suō Zebedæō in nāvī cum mercēnāriīs relictō, eum subsecūtī sunt.
 
-21. Profectī sunt autem Capharnāum, atque ille continuō ingressus Sabbatīs in collēgium docet,
+21. Profectī sunt autem Capharnaum, atque ille continuō ingressus Sabbatīs in collēgium docet,
 22. illīs ad ejus doctrīnam attonitīs, quippe quī eōs docēret ut potestāte præditus, nōn ut scrībæ.
 23. Erat autem in eōrum collēgiō homō impūrum habēns spīritum, quī sīc exclāmāvit:
 24. “Heu, quid tibi nōbīscum reī est, Jēsū Nazarēne? Vēnistī perditum nōs? Sciō tē quis sīs—Sānctus Deī.”
@@ -46,7 +46,7 @@ CAPUT I
 
 29. Simul ac autem ex collēgiō ēgressī sunt, vēnērunt in ædēs Simōnis et Andrēæ, cum Jācōbō et Jōhanne.
 30. Socrus autem Simōnis jacēbat febrīcitāns, id quod illī eī statim dīxērunt.
-31. Atque ipse eam aggressus, ejus manū prehēnsā allevāvit; eaque prōtinus līberāta febre, coepit iīs ministrāre.
+31. Atque ipse eam aggressus, ejus manū prehēnsā allevāvit; eaque prōtinus līberāta febre, cœpit iīs ministrāre.
 
 32. Sub vesperum autem, occidente sōle, afferēbantur ad eum omnēs male affectī, ac furiōsī,
 33. tōtaque cīvitās convēnerat ad forēs.
@@ -66,11 +66,11 @@ CAPUT I
 
 43. Eī autem interminātus, eum prōtinus ējēcit,
 44. et, “Vidē,” inquit, “nē cui quid dīcās, sed ī ostēnsum tē sacerdōtī, et offer ob tuī pūrgātiōnem quæ præcēpit Mōsēs, ut iīs essent testimōniō.”
-45. At ille ēgressus, coepit multa prædicāre, et rem ita dīvulgāre, ut Jēsūs nōn jam posset palam in urbēs ingredī, sed forīs dēsertīs in locīs esset, cum quidem ad eum venīrētur undique.
+45. At ille ēgressus, cœpit multa prædicāre, et rem ita dīvulgāre, ut Jēsūs nōn jam posset palam in urbēs ingredī, sed forīs dēsertīs in locīs esset, cum quidem ad eum venīrētur undique.
 
 
 CAPUT II
-1. Cum autem rūrsus post aliquot diēs ingressus esset Capharnāum,
+1. Cum autem rūrsus post aliquot diēs ingressus esset Capharnaum,
 2. ubi audītum est eum esse domī, prōtinus tam multī convēnērunt, ut eōs nē vestibulum quidem caperet.
 3. Ad quōs cum verba faceret, veniunt ad eum quīdam membrīs captum ferentēs, quī ā quattuor portābātur,
 4. quī cum ad eum accēdere propter hominum turbam nōn possent, dētēxērunt tēctum ubi erat ille, factōque forāmine, dēmīsēre grabātum in quō jacēbat sīderātus.
@@ -157,7 +157,7 @@ CAPUT IV
 1. Rūrsus autem cœpit ad lacum docēre, tantaque ad eum convēnit hominum multitūdō, ut nāvem ingressus sedēret in lacū, et omnem multitūdinem, quæ apud lacum in terrā erat,
 2. multa per similitūdinēs docēret, et inter docendum sīc iīs dīceret:
 3. “Audīte! Profectus est aliquandō quīdam sator ad serendum.
-4. Atque inter serendum accidit, ut aliud caderet apud viam, id quod comēdērunt āereæ volucrēs, quæ supervēnērunt.
+4. Atque inter serendum accidit, ut aliud caderet apud viam, id quod comēdērunt āeriæ volucrēs, quæ supervēnērunt.
 5. Aliud cecidit in saxētum, ubi nōn multam habēbat humum, idque statim exortum est, quod profundam terram nōn habēret.
 6. Deinde ortō sōle, æstuāvit, et quoniam rādīcem nōn habēbat, āruit.
 7. Aliud cecidit in spīnās, quæ spīnæ crēvērunt, idque suffōcārunt, ita ut frūctum nōn ēdiderit.
@@ -196,7 +196,7 @@ CAPUT IV
 
 30. Item dīcēbat: “Cui assimilābimus rēgnum Deī? Aut quā id comparātiōne comparābimus?
 31. Perinde est ac grānum sināpī, quod cum in terrā satum est, est quidem omnium terrestrium sēminum vel minimum.
-32. Sed cum est satum, crēscit, fitque omnium maximum olerum, tantōsque rāmōs prōcreat, ut possint sub ejus umbrā āereæ volucrēs nīdulārī.”
+32. Sed cum est satum, crēscit, fitque omnium maximum olerum, tantōsque rāmōs prōcreat, ut possint sub ejus umbrā āeriæ volucrēs nīdulārī.”
 
 33. Hujusmodī similitūdinibus multīs ad illōs verba faciēbat, prout audīre poterant.
 34. Nec eōs absque similitūdine alloquēbātur, sed seorsum discipulīs suīs explicābat omnia.
@@ -210,4 +210,67 @@ CAPUT IV
 
 40. Et ille: “Adeōne timidī estis?” inquit iīs. “Quī fit ut fīdūciam nōn habeātis?”
 
-41. Illī vērō ingentī metū perculsī, dīcere inter sēsē: “Et quis est hic, ut eī ventus et lacus oboediant?”
+41. Illī vērō ingentī metū perculsī, dīcere inter sēsē: “Et quis est hic, ut eī ventus et lacus obœdiant?”
+
+
+CAPUT V
+1. Vēnērunt autem trāns lacum in agrum Gadarēnōrum,
+2. eīque simul ac ex nāvī ēgressus est, occurrit ex monumentīs homō impūrum habēns spīritum,
+3. in monumentīs dēgere solitus, quem nē catēnīs quidem poterat vincere quisquam;
+4. quippe ā quō sæpe compedibus catēnīsque vīnctō, discerptæ fuerant catēnæ, et compedēs comminūtæ, nec eum quisquam domāre potuerat.
+5. Semper autem noctēs diēsque in montibus et sepulcrētīs agēns, clāmābat, et sē ipsum lapidibus contundēbat.
+
+6. Is vīsō procul Jēsū accurrit, eīque honōrem præbuit,
+7. et ingentī vōce clāmāns, inquit: “Quod tibi mēcum reī est, Jēsū Suprēmī Deī Fīlī? Obtestor tē per Deum, nē mē torqueās.”
+
+8. Ille enim eī dīcēbat: “Exī impūre spīritus ex homine,”
+9. eumque interrogābat ‘quod eī nōmen esset.’
+
+Cui ille respondit: “Legiō mihi nōmen est, quoniam multī sumus,”
+10. eumque multum ōrābat, nē eōs extrā eam regiōnem mitteret.
+
+11. Erat autem illīc apud montēs porcōrum grex ingēns quī pāscēbat.
+12. Igitur eum rogārunt dæmonēs omnēs, ut sē in porcōs mitteret, ut in eōs ingrederentur.
+13. Id quod simul ac iīs permīsit Jēsūs, ēgressī spīritūs impūrī, ingressī sunt in porcōs, atque grex per præceps in lacum dēcurrit (erant autem circiter duo mīlia) inque lacū suffōcātī sunt.
+
+14. Subulcī autem fūgērunt, idque et in urbe, et per rūra nūntiārunt. Itaque profectī hominēs ad videndum quod accidisset,
+15. veniunt ad Jēsum, spectantque furiōsum illum sedentem, vestītumque, et sānæ mentis, quī legiōnem habuerat, timuēruntque.
+16. Cumque iīs nārrāssent, quī vīderant, quid accidisset furiōsō, itemque dē porcīs,
+17. cœpērunt eum ōrāre, ut ex suīs fīnibus discēderet.
+
+18. Eum autem in nāvem ingressum, rogābat quī furiōsus fuerat, ut esset eī comes.
+19. Vērum Jēsūs nōn permīsit eī, sed dīxit: “Abī domum tuam, ad tuōs, iīsque nūntiātō quæ tibi Dominus, tuī miseritus fēcerit.”
+20. Ita ille discessit, cœpitque per Decapolim prædicāre, quæ sibi fēcisset Jēsūs, id quod mīrābantur omnēs.
+
+21. Jēsū autem rūrsus in nāvī trājectō, convēnit ad eum frequēns hominum multitūdō:
+22. cumque esset apud lacum, vēnit quīdam magistrōrum collēgiī, nōmine Jaīrus, quī eō vīsō, eī ad pedēs accidit,
+23. eumque multum ōrāvit, dīcēns, ‘fīliolam suam in extrēmō esse perīculō; venīret, eīque manūs impōneret ut servārētur, ac revalēsceret.’
+24. Ita ille cum eō abiit, tantā eum sequente hominum multitūdine, ut eum premerent.
+
+25. Quædam autem mulier, quæ sanguinis prōfluviō duodecim jam annōs labōrābat,
+26. et multa ā multīs passa medicīs, omnī suā rē cōnsūmptā, nōn sōlum nihil prōfēcerat, sed in dēterius vēnerat.
+27. Cum dē Jēsū audīvisset, vēnit ā tergō inter turbam, ejusque vestīmentum tetigit;
+28. cōgitābat enim, sī vel ejus vestēs attingeret, sē salvam fore,
+29. et prōtinus āruit ejus fōns sanguinis, sēnsitque sē corpore esse ab eā miseriā sānātam.
+
+30. Et Jēsūs statim apud sēsē vim ā sē profectam cognōscēns, conversus in turbā dīxit: “Quis mea vestīmenta tetigit?”
+
+31. Cui ejus discipulī: “Vidēs tē turbā premī, et quæris quis tē tetigerit?”
+
+32. Sed cum ille circumspiceret, ut eam vidēret, quæ id fēcerat,
+33. territa mulier, et tremebunda, sciēns quid sibi accidisset, vēnit, et eī accidit, remque omnem, ut sēsē habēbat, dīxit.
+34. Et ille: “Fīlia,” inquit eī, “tua tē fīdūcia servāvit. Abī salva, et estō ā tuō malō sāna.”
+
+35. Adhūc eō loquente, veniunt ā magistrō collēgiī, quī eī dīcunt: “Tua fīlia mortua est, quid jam molestus es magistrō?”
+
+36. At Jēsūs, simul ac quid dīcerētur audīvit, dīxit magistrō collēgiī: “Nē metue; tantum crēde.”
+
+37. Nōn sīvit autem quemquam sē subsequī, præter Petrum, et Jacōbum, et Jōhannem Jacōbī frātrem.
+38. Deinde ubi vēnit in ædēs magistrī collēgī, videt tumultum, et plōrantēs, multumque ejulantēs,
+39. ingressusque dīcit iīs: “Quid tumultuāminī, et plōrātis? Puella nōn est mortua, sed dormit.”
+40. At illī eum dērīdēre.
+
+Ipse, ējectīs omnibus, assūmptō puellæ patre atque mātre, et suīs comitibus, ingreditur eō ubi jacēbat puella,
+41. ejusque manū prehēnsā, dīcit eī: “Talitha cumī,” (quæ verba sīc sonant: “Puella, inquam tibi, surge.”)
+42. Statimque surrēxit puella, et ambulāre cœpit (erat autem annōrum duodecim) unde illī vehementer attonitī sunt.
+43. Præcēpit autem iīs Jēsūs magnopere, nē quis id rescīsceret, eīque cibum darī jussit.
