@@ -1,17 +1,26 @@
 # Editorial brief
 
-The rules every stage of the pipeline follows. Nathan approves each change to this file. Items marked
-*(pending)* wait on a decision in `HUMAN.md`.
+The rules every stage of the pipeline follows. Nathan approves each change to this file. The decisions behind
+them are dated in `HUMAN.md` § Decided.
 
 ## Text
 
-- **Base edition** *(pending, decision 1)*: the README names the 1726–27 edition as primary, with earlier
-  editions consulted for unclear scans. Wikisource follows 1760 (NT) and 1738 (OT).
+- **Base edition**: the editions Wikisource transcribes, 1760 for the New Testament and 1738 (Leipzig) for the Old
+  (decided 2026-11-05). Where another printing (1681, 1715, 1726–27, 1747, 1750, 1758) shows a genuinely
+  different reading, it is recorded as a variant, not adopted. Scans of other editions still serve to correct
+  OCR and transcription errors. Books Wikisource lacks follow 1738 for the OT; the 1750 Bible fills any
+  gaps.
+- **Finished chapters**: they were transcribed from 1726–27. Where their wording differs from the base
+  edition, the pipeline proposes the change for review and never applies it on its own.
 - **Versification**: the KJV's, everywhere (`data/versification/kjv.tsv`). Where an edition numbers verses
   differently (e.g. Genesis 2, 3, 4, 6, 7, 10, 18), the text is renumbered to the KJV and the mapping recorded.
+  Psalm titles stay unnumbered above verse 1.
 - **Later-edition vocabulary**: the ecclesiastical terms of the later editions are kept (*baptīzō*, *angelus*), as
   the README says.
-- No marginal notes or commentary. **Chapter summaries** *(pending, decision 3)*.
+- No marginal notes or commentary.
+- **Chapter summaries** (the editions' *argumenta*) are printed as a small italic heading under each chapter
+  number, normalized and macronized like the text. They are stored as verse 0 (`Matt.14.0`).
+- **Apocrypha**: in scope, but after the 66 books (milestone M7). Placement is decided then.
 
 ## Orthography: Gaffiot 2016
 
@@ -40,6 +49,8 @@ The rules every stage of the pipeline follows. Nathan approves each change to th
 - Poetry, including quoted Scripture set as verse, in `\begin{verse}\begin{patverse*}`, with
   `\indentpattern{…}` for indents; lines end `\\`.
 - Quotations of earlier Scripture in italics (`\emph{…}`).
-- **Quotation marks** *(pending, decision 4)*: the finished text uses “…” (LaTeX ``…'') for direct speech and ‘…’
-  for reported discourse and quotes within quotes; the README says reported discourse is in single quotes.
+- **Quotation marks**: “…” (LaTeX ``…'') for direct speech; ‘…’ only for quotes within direct speech.
+  **Reported discourse is not marked**: indirect statements, questions and commands stand as plain Latin
+  (decided 2026-11-05). About 33 reported passages in the finished chapters are still in ‘…’ (John 17,
+  Luke 10, Mark 6); the pipeline proposes removing them.
 - Punctuation may be modernized for clarity.

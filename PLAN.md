@@ -24,7 +24,7 @@ The ~62 finished chapters are a **test set**: the pipeline is run on them and sc
 |---|---|---|---|
 | This repo, LaTeX | Gen 1–27, Mt 1–13 (+ 14–28 drafted), Mk 1–5, Lk 1–13, Jn 1–4 | Finished: Gaffiot orthography, macrons, paragraphs, quotes, poetry | **Gold standard** and test set; never rewritten |
 | This repo, TXT | Gen 28–35 macronized; Gen 36–50, Ex 1–20 edited; Acts corrected (partly) | In progress | Inputs for those chapters |
-| This repo, `TXT/1 - OCR` | Gen–2 Kings + Ruth; all of the NT | Raw Google Books OCR of 1726–27 (your base edition) | One OCR witness of the base edition |
+| This repo, `TXT/1 - OCR` | Gen–2 Kings + Ruth; all of the NT | Raw Google Books OCR of 1726–27 (the finished chapters' source) | One more OCR witness |
 | [WordPress site](https://bibliasacracastellionis.wordpress.com/) | Mt 1–28, Mk 1–16, Lk 1–24, Jn 1–21, Gen 1–35 (Gen 34 has no macrons) | Macronized, one verse per line, old spelling (*ae*, *coepit*), no quotation marks | **Macron witness** (your earlier decisions) |
 | [la.wikisource: *Biblia Sacra interprete Sebastiano Castellione*](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione) | All 27 NT books; nearly complete Genesis, Judges, Ruth, 1 Kings, Job, Esther, Judith, Tobit, Wisdom, Song, minor prophets; partial Exodus (461/1213 verses), Leviticus, Joshua; stubs for Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah | Clean, versified, with chapter summaries; marked "25%" (not proofread). NT from the 1760 edition, OT from 1738 | **Base text** wherever it exists |
 | archive.org scans (images + OCR + word coordinates) | See below | Varying OCR quality | **Independent witnesses**, and page images for checking |
@@ -91,7 +91,7 @@ The old `TXT/1–4` stage folders become outputs only. `TXT/3` and `TXT/4` stay 
 Each stage is a Python command (`python -m pipeline <stage> <book> [chapters]`, standard library plus `rapidfuzz` for alignment). Where a stage needs judgment, it pairs with a Claude skill. The unit of work is a chapter.
 
 ### Stage 0: Fetch (fully automatic)
-- **Wikisource:** wikitext per book through the MediaWiki API → verse TSV. Chapter summaries are kept in a separate column.
+- **Wikisource:** wikitext per book through the MediaWiki API → verse TSV. Chapter summaries are kept as verse 0.
 - **WordPress:** chapter pages → verse TSV, saved as the macron witness.
 - **archive.org:** `_djvu.txt`, `_hocr.html` and `_page_numbers.json` for each item. Page images are downloaded only when a dispute needs them, cropped to the word box from hOCR.
 - **Google Books 1726–27:** the existing `TXT/1 - OCR` files, plus a fetch for books not yet downloaded.
@@ -108,7 +108,7 @@ Each stage is a Python command (`python -m pipeline <stage> <book> [chapters]`, 
 For each word of the base text:
 - **All folded witnesses agree** → accept.
 - **The witnesses differ only in spelling** → stage 3 handles it.
-- **Two or more independent witnesses agree against the base** → a correction is proposed. If the 1726–27 witness is one of them and the word is in the lexicon, it is applied automatically.
+- **Two or more independent witnesses agree against the base** → a correction is proposed. Once the pilot has measured the error rate (§8, decision 6), it is applied automatically when the word is in the lexicon.
 - **The witnesses split, or the reading is unknown to Lewis & Short / `macron`** → **Claude adjudicates** with:
   - the word cropped from two page images (hOCR coordinates),
   - the verse in context,
@@ -116,7 +116,7 @@ For each word of the base text:
   - `lrl attest` for usage.
 
   The result is a proposal with a confidence level.
-- **A genuine difference between editions** (1726 against 1738/1760, not an OCR error) → recorded as a variant. Your README names 1726–27 as the primary edition, so its reading is the default, and every variant is listed for you to review.
+- **A genuine difference between editions** (not an OCR error) → recorded as a variant. The base edition's reading stands (1760 NT, 1738 OT; §8, decision 1), and every variant is listed for review.
 
 Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7% of words, and much of that is normalization. Genesis runs ~4% (more OCR noise from 1738). That works out to roughly **5–25 real decisions per chapter**, nearly all of them resolved automatically.
 
@@ -138,7 +138,7 @@ Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7
 ### Stage 5: Structure (automatic transfer, with Claude adjusting)
 - **Paragraphs:** BSB paragraph breaks (`\p`) are mapped onto verse IDs, then compared with your finished chapters to calibrate. You split paragraphs somewhat differently, so the pipeline learns where you merge or split.
 - **Poetry:** BSB `\q1`/`\q2` lines and indents become `\begin{verse}` with your `\indentpattern{…}`. Line breaks *inside* a Latin verse are placed by Claude at the matching clause.
-- **Quotations:** BSB/WEB quotation spans tell us *who speaks where*. Claude then places “…” and ‘…’ in the Latin, respecting *inquit* insertions and reported speech, following the convention settled in §8.
+- **Quotations:** BSB/WEB quotation spans tell us *who speaks where*. Claude then places “…” around direct speech and ‘…’ around quotes within it, respecting *inquit* insertions. Reported discourse is left unmarked (§8, decision 4).
 - **Italic Old Testament quotations** (your `\emph{}`) come from the BSB cross-reference and quotation markup plus the Vulgate.
 - The output is the chapter's LaTeX, in the same form as your current files.
 
@@ -189,7 +189,7 @@ Before any new chapter is produced:
    - macron accuracy (per vowel);
    - paragraph and quotation agreement.
 2. **Tune** the rules and thresholds until the output matches your hand at ≥99.5% of words and ≥99% of vowels. The disagreements that remain should be ones you would want to see anyway.
-3. **Matthew 14–28 as the pilot.** It is drafted but unchecked, and it has WordPress and Wikisource witnesses. Run the full pipeline on it and review only the queue, then compare with your draft.
+3. **Matthew 14–28 as the pilot.** It is drafted but unchecked, and it has WordPress and Wikisource witnesses. Run the full pipeline on it and review every change (§8, decision 6), then compare with your draft. Auto-apply starts only after this.
 
 ## 7. Milestones
 
@@ -200,25 +200,26 @@ Before any new chapter is produced:
 | M2 | **Four Gospels** | Mt 14–28, Mk 6–16, Lk 14–24, Jn 5–21 (59 chapters) | Richest witnesses (Wikisource, WordPress, 5 OCRs); release v1.0 "Evangelia" |
 | M3 | Acts & epistles & Revelation | 201 chapters | Wikisource is complete; 4–5 OCR witnesses; release "Novum Fœdus" |
 | M4 | Genesis 28–50, Exodus | Existing TXT work + Wikisource | Release "Pentateuchus I" |
-| M5 | OT books on Wikisource | Leviticus, Judges, Ruth, Kings, Job, Esther, minor prophets, … | Fewer witnesses (1726, 1738, 1750) |
-| M6 | OT books *not* on Wikisource | Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah, Ezekiel, Daniel, … | **No base text:** start from three OCRs voting, with Claude reading the 1726–27 page images. Slower; benefits most from the rules settled by then |
-| M7 | Apocrypha (if in scope) | Judith, Tobit, Wisdom, Sirach, Maccabees | Wikisource has some |
+| M5 | OT books on Wikisource | Leviticus, Judges, Ruth, Kings, Job, Esther, minor prophets, … | Fewer witnesses (1738 base, 1726–27, 1750) |
+| M6 | OT books *not* on Wikisource | Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah, Ezekiel, Daniel, … | **No base text:** start from three OCRs voting (1738, 1726–27, 1750), with Claude reading the 1738 page images. Slower; benefits most from the rules settled by then |
+| M7 | Apocrypha (in scope; decision 2) | Judith, Tobit, Wisdom, Sirach, Maccabees | Wikisource has some |
 
-## 8. Decisions waiting for you
+## 8. Decisions (taken 2026-11-05)
 
-1. **Base edition.** Keep 1726–27 as primary, and take readings from 1738/1760 (Wikisource) only where the OCR shows them to be the same? Or treat the Wikisource editions as the base and record 1726–27 differences as variants?
-2. **Apocrypha.** Castellio translated them. In scope, and where in the order?
-3. **Chapter summaries** (the *argumenta* Wikisource keeps, and your commented-out `\summary{}` in Genesis): include them, perhaps as small italic headings?
-4. **Quotation marks.** The README says reported discourse uses single quotes, but the text mostly uses “double” for direct speech and ‘single’ for reported speech. Confirm the rule so stage 5 can apply it and the README can say so.
-5. **Versification.** Confirm KJV numbering everywhere (the WordPress promise), including the Psalms' titles and the Hebrew/English differences in the Old Testament.
-6. **How much review.** Is the proposed auto-apply policy acceptable (A1 macrons, two-witness corrections, rule-table respellings), with a 1-in-10 full-chapter sample?
-7. **License** for this edition (for example CC BY-SA 4.0, compatible with Wikisource), and how to credit Wikisource and the scan providers.
-8. **Data location.** Point at `../fur-fulminis/data` (simplest) or copy the databases here (self-contained, ~900 MB, git-ignored)?
+1. **Base edition:** the editions Wikisource follows (1760 NT, 1738 OT). Other printings' differing readings are recorded as variants. Wording in the finished chapters (from 1726–27) that differs is proposed for review, never changed automatically.
+2. **Apocrypha:** in scope, after the 66 books (M7); placement decided then.
+3. **Chapter summaries:** included, as small italic headings under each chapter number, normalized and macronized like the text.
+4. **Quotation marks:** “…” for direct speech, ‘…’ only for quotes within it; reported discourse unmarked. About 33 reported passages in the finished chapters lose their ‘…’ (proposed for review).
+5. **Versification:** KJV everywhere, with mappings recorded; Psalm titles unnumbered above verse 1.
+6. **Review:** every change reviewed during the Matthew 14–28 pilot; the auto-apply policy (A1 macrons, two-witness corrections, approved spelling rules, 1-in-10 full read) starts once the measured error rate is acceptable.
+7. **License:** CC BY-SA 4.0, crediting Wikisource and the scan libraries.
+8. **Data location:** the fur-fulminis databases are used in place (`LATIN_REF_HOME` to move them).
 
 ## 9. Risks
 
 - **Wikisource quality is unmeasured outside the books we checked.** It is labelled 25% proofread. The OCR collation exists to catch its errors, and the test harness measures how many get through.
-- **Differences between editions** (1681–1760 against 1726–27) can look like OCR errors. They are recorded as variants, never silently "corrected".
+- **The base New Testament (1760) is scanned only on Google Books** ([FsdIAAAAcAAJ](https://www.google.com/books/edition/Novum_Jesu_Christi_testamentum_ex_Sebast/FsdIAAAAcAAJ)), not archive.org, so it has no hOCR word boxes. M1 checks whether its page images can be fetched for stage 2. If not, the closest archive.org NT (1758) stands in when Claude compares a reading against the page.
+- **Differences between editions** can look like OCR errors. They are recorded as variants, never silently "corrected".
 - **Noisy OCR** (1747, 1750) adds noise as well as votes. Weight witnesses by measured accuracy, not equally.
 - **Homographs and hidden quantities** are where macron errors concentrate. The Greek-tense evidence and your WordPress decisions help, but the A2/B queue will still be the longest part of the review for a while.
 - **Book-wide rules can over-apply** (a respelling that is right in one sense and wrong in another). Rules carry a scope (lemma or context), and `/distill` proposes them; it never adds them silently.
@@ -226,7 +227,7 @@ Before any new chapter is produced:
 
 ## 10. First steps
 
-1. Settle decisions 1, 4 and 8 in §8. The others can wait until M2.
-2. M0: scaffold `pipeline/`, write the Wikisource/WordPress/archive.org fetchers, and connect to `lrl`.
+1. ~~Settle the decisions in §8.~~ Done 2026-11-05.
+2. ~~M0: scaffold `pipeline/`, write the Wikisource/WordPress/archive.org fetchers, and connect to `lrl`.~~ Done (3badc59).
 3. M1: learn the respelling and macron rules from the finished chapters and build the test harness.
 4. Pilot on Matthew 14–28.

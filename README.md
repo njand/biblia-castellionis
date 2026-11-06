@@ -23,9 +23,9 @@ Castellio naturally followed Renaissance conventions for spelling and abbreviati
 
 ### Formatting
 
-This project seeks to emulate modern Bible formatting conventions by segmenting the text into paragraphs with verses indicated by superscript numbers. Poetry is displayed in stanza form, and quotations are italicized. The punctuation is occasionally updated to adhere to modern expectations and improve clarity. These conventions make extensive reading more comfortable, while still allowing the reader to correlate verses with other translations. This edition does not currently include marginal notes or scriptural commentaries.
+This project seeks to emulate modern Bible formatting conventions by segmenting the text into paragraphs with verses indicated by superscript numbers. Poetry is displayed in stanza form, and quotations are italicized. The punctuation is occasionally updated to adhere to modern expectations and improve clarity. These conventions make extensive reading more comfortable, while still allowing the reader to correlate verses with other translations. Verses are numbered as in the King James Version, so that they line up with most English Bibles. Each chapter opens with the short Latin summary (*argumentum*) printed in the 18th-century editions. This edition does not include marginal notes or scriptural commentaries.
 
-Reported discourse (including questions and commands) is enclosed in single quotes. This convention is sometimes used in Latin publications targeted at learners such as *Lingua Latina per se Illustrata* and the *Delphin Classics,* and it is especially appropriate here because the underlying Greek (and therefore most other translations that the reader might consult) generally employs direct discourse.
+Direct speech is enclosed in double quotation marks, and a quotation within direct speech in single marks. Reported (indirect) discourse, including reported questions and commands, is left unmarked, as in most Latin editions.
 
 
 ## Sebastian Castellio
@@ -36,15 +36,29 @@ Theodore Beza, a fellow French Protestant who produced his own translation of th
 
 ## Sources
 
-This project has been consulted several versions of the Castellio Latin Bible, including the following:
+The text follows two 18th-century editions of Castellio's final revision, as transcribed on [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione):
 
-* 1726-27 Edition - [Volumes 1-2](https://books.google.com/books?id=1EBbAAAAQAAJ), [Volumes 3-4](https://books.google.com/books?id=40BbAAAAQAAJ): This edition is divided into multiple volumes and presents the text in verse format, with chapter headers, but no marginal notes or commentary. The versification of this edition has been used as the primary source, except when it differs from modern Bible editions.
+* Old Testament: the [1738 Leipzig edition](https://archive.org/details/bibliasacraexseb01cast) (*Biblia sacra ex Sebastiani Castellionis interpretatione et postrema recognitione*).
+* New Testament: the [1760 edition](https://www.google.com/books/edition/Novum_Jesu_Christi_testamentum_ex_Sebast/FsdIAAAAcAAJ) (*Novum Jesu Christi Testamentum ex Sebastiani Castellionis interpretatione*).
+
+The transcription is checked word by word against scans of other editions, which serve to correct errors in the transcription and in the scans' OCR:
+
+* 1726-27 Edition - [Volumes 1-2](https://books.google.com/books?id=1EBbAAAAQAAJ), [Volumes 3-4](https://books.google.com/books?id=40BbAAAAQAAJ): This edition is divided into multiple volumes and presents the text in verse format, with chapter headers, but no marginal notes or commentary. The first chapters of this project (Genesis 1–27 and the opening chapters of the Gospels) were transcribed from it.
+* [1750 Bible](https://archive.org/details/biblia-sacra-ex-sebastiani-castellionis-interpretatione-eivsqve-postrema-1750), with the 1715 New Testament in the same scan.
+* New Testaments of [1681](https://archive.org/details/ned-kbn-all-00001225-001), [1747](https://archive.org/details/novvm-testamentvm-latinvm-sebastiano-castellione-interprete-ex-eivsdem-postrema-castigatione-1747) and 1758 ([vol. 1](https://archive.org/details/bim_eighteenth-century_novum-testamentum-ex-seb_1758_1), [vol. 2](https://archive.org/details/bim_eighteenth-century_novum-testamentum-ex-seb_1758_2)).
 * [1697 Edition](https://books.google.com/books?id=wc1QkYeThIwC): This edition includes the complete Old and New Testament, extensive commentary, and Castellio's response to Theodore Beza's criticisms.
 * [1553 Novum Testamentum](https://books.google.com/books?id=rFtSAAAAcAAJ): This early edition only includes the New Testament, with limited marginal notes and no versification.
 
-The transcriptions for this project are primarily based on the 1726-27 edition, with reference to earlier editions as needed to resolve unclear scans or implausible readings.
+Where the editions genuinely differ, the reading of the base edition (1738 or 1760) is printed.
 
-N.B. This project aims to create a reader's edition, not a critical edition of the original versions of the text. As such, there is no detailed record of changes or sources for each part of the transcription.
+N.B. This project aims to create a reader's edition, not a critical edition of the original versions of the text. Variant readings are recorded in the project's data files, but no critical apparatus is printed.
+
+
+## License and Credits
+
+This edition is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) (see [LICENSE](LICENSE)). The underlying 18th-century text is in the public domain.
+
+The base text draws on the transcription by the contributors to [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione), used under CC BY-SA 4.0; the pages and revisions used are listed in [data/witnesses/wikisource/MANIFEST.tsv](data/witnesses/wikisource/MANIFEST.tsv). Scans are courtesy of the Internet Archive, the University of Toronto (Robarts Library), the Koninklijke Bibliotheek (National Library of the Netherlands) and Google Books.
 
 
 ## Additional Resources
