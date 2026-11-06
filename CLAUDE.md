@@ -6,9 +6,11 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 
 ## Rules
 
-- **Finished chapters are never rewritten by code.** A chapter that is live (not commented out) in
-  `LaTeX/biblia/**/*.tex` is `settled` in `data/status.tsv`. The pipeline may check it and propose changes, never
-  write to it. Nathan edits the LaTeX by hand (sometimes via Overleaf).
+- **USFM is the master copy** (`text/<USFM code>.usfm`, one file per book; decided 2026-11-05). Every published
+  format (website, EPUB, PDF via generated LaTeX, TXT) is generated from it; nothing generated is edited by hand.
+  Until M1 migrates them, the finished chapters still live in `LaTeX/biblia/**/*.tex`.
+- **Finished chapters are never rewritten by code.** A settled chapter (in `text/*.usfm`, or live in the LaTeX
+  until the migration) may be checked and changes proposed, never written to. Nathan edits the USFM by hand.
 - **Propose, don't silently change.** Every judgment (a reading, a spelling, a macron, a quotation boundary)
   goes into a reviewable file with its evidence. Only rules Nathan has approved are applied without review.
 - **Cite only evidence actually seen** (a witness's reading, a tool's output, a page image). If a tool returns
@@ -24,10 +26,11 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 
 | Path | What |
 |---|---|
-| `LaTeX/main.tex`, `LaTeX/biblia/{vetus,novum} foedus/<slug>.tex` | The published master (one file per book) |
-| `scripts/latex_converter.py` | LaTeX → `TXT/3`, `TXT/4`, `HTML/`; keeps TXT chapters not yet in LaTeX |
-| `EPUB/` | Built from the HTML chapter files (see the EPUB rebuild in git history, ca2f013) |
-| `TXT/1 - OCR`, `TXT/2 - Post-Corrected` | Earlier manual stages (Google Books OCR of the 1726–27 edition) |
+| `text/<USFM code>.usfm` | **The master copy**, one file per book (created by the M1 migration); markers in PLAN.md §3 |
+| `build/` | Generated outputs (website, EPUBs, PDF, TXT/TSV); git-ignored; published via GitHub releases and Pages |
+| `LaTeX/main.tex`, `LaTeX/biblia/{vetus,novum} foedus/<slug>.tex` | *Legacy* master, until the migration is verified; `main.tex`'s preamble is reused for the generated PDF |
+| `scripts/latex_converter.py`, `HTML/`, `EPUB/`, `TXT/3`, `TXT/4` | *Legacy* outputs of the LaTeX; retired after the migration (removal is Nathan's call) |
+| `TXT/1 - OCR`, `TXT/2 - Post-Corrected` | Earlier manual stages (Google Books OCR of the 1726–27 edition); now witnesses |
 | `pipeline/` | The pipeline package: `python -m pipeline --help` |
 | `data/witnesses/<source>/<osis>.tsv` | Parsed witnesses, one row per verse: `id  text  flags` (committed) |
 | `data/witnesses/archive.tsv` | The archive.org editions and their OCR files |
@@ -42,7 +45,8 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 - Chapter stages: pending → fetched → aligned → corrected → normalized → macronized → structured →
   in-review → approved → settled. Move a chapter with `python -m pipeline ledger set Matt.14 --stage aligned`.
 - Python 3.12, standard library only. Tests: `python -m unittest discover -s pipeline/tests -t .`
-- UTF-8 throughout; the TXT and LaTeX files use precomposed macron vowels (ā, not a + ◌̄).
+- UTF-8 throughout, with precomposed macron vowels (ā, not a + ◌̄). In USFM, quotation marks are the characters
+  themselves (“…”, ‘…’), not LaTeX's ``…''.
 
 ## Commands
 
@@ -52,7 +56,7 @@ python -m pipeline fetch archive --hocr      # also the hOCR word boxes (14–40
 python -m pipeline status [BOOK…] [--chapters]
 python -m pipeline latin macron vēnit        # W/M/G macron lookup (fur-fulminis)
 python -m pipeline latin macron-check --text FILE
-cd scripts && python latex_converter.py      # LaTeX → TXT/HTML
+cd scripts && python latex_converter.py      # legacy: LaTeX → TXT/HTML (until the USFM builds replace it)
 ```
 
 ## Sources at a glance

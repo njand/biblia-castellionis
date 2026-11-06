@@ -45,11 +45,13 @@ them are dated in `HUMAN.md` § Decided.
 
 ## Layout
 
-- Paragraphs with superscript verse numbers (`\Versus`); a blank line starts a paragraph.
-- Poetry, including quoted Scripture set as verse, in `\begin{verse}\begin{patverse*}`, with
-  `\indentpattern{…}` for indents; lines end `\\`.
-- Quotations of earlier Scripture in italics (`\emph{…}`).
-- **Quotation marks**: “…” (LaTeX ``…'') for direct speech; ‘…’ only for quotes within direct speech.
+Written in the USFM master (markers listed in PLAN.md §3); every output renders them the same way.
+
+- Paragraphs (`\p`) with superscript verse numbers (`\v`).
+- Chapter summaries as a small italic heading under the chapter number (`\cd`).
+- Poetry, including quoted Scripture set as verse, as indented lines (`\q1`, `\q2`, `\q3`).
+- Quotations of earlier Scripture in italics (`\qt …\qt*`).
+- **Quotation marks**: “…” for direct speech; ‘…’ only for quotes within direct speech.
   **Reported discourse is not marked**: indirect statements, questions and commands stand as plain Latin
   (decided 2026-11-05). About 33 reported passages in the finished chapters are still in ‘…’ (John 17,
   Luke 10, Mark 6); the pipeline proposes removing them.

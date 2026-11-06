@@ -13,6 +13,7 @@ So the job is no longer *transcription*. It is **verification, normalization, ma
 3. **Add macrons** with the fur-fulminis macron database (Wiktionary + Macronizer + Gaffiot). Your WordPress macrons count as an extra witness. Homographs are decided by Claude from the syntax, with the Greek/Hebrew and English as evidence.
 4. **Format.** Paragraphs, poetry and quotations are carried over from a public-domain modern Bible (the BSB), then adjusted for Latin.
 5. **Review.** You review only a short queue of low-confidence proposals per chapter, plus a random sample. Everything else is applied automatically and logged.
+6. **Publish from one master.** The edition's master copy is **USFM**, one file per book. The website, EPUB, print PDF (via generated LaTeX), plain text and the ebible.org/Bible-app distribution are all built from it (§4a).
 
 The ~62 finished chapters are a **test set**: the pipeline is run on them and scored against your hand-made results before it is trusted on new chapters.
 
@@ -64,7 +65,7 @@ A New Testament verse will typically have **5–6 independent readings**, and an
 | `late-screen`, `syntax-screen` | `../insula-thesauraria/tools/cicero.py` | Flags non-classical vocabulary and syntax | Probably little needed: Castellio already writes classical Latin |
 | Workflow pattern: `CLAUDE.md` / `brief.md` / `HUMAN.md`, chunk ledger, independent **critic** agent, `/distill` | `../fur-fulminis/.claude/` | The skeleton for our own skills | The skills themselves are translation-specific |
 
-**Not yet available anywhere:** automatic OCR correction; respelling from 16th-century to Gaffiot orthography; writing æ/œ; LaTeX output. Section 4 covers these.
+**Not yet available anywhere:** automatic OCR correction; respelling from 16th-century to Gaffiot orthography; writing æ/œ; USFM output and the publishing builds. Sections 4 and 4a cover these.
 
 **Licensing.** Gaffiot 2016 is CC BY-NC-ND. Using it to *decide* vowel quantities and spellings is fine, but no Gaffiot text should be committed or published. Wikisource transcriptions are CC BY-SA 4.0. The underlying 18th-century text is public domain, but credit Wikisource in the README and decide on a license for this edition (§8).
 
@@ -81,10 +82,23 @@ Matt.14.3  Ceperat enim Joannem…   ws,26,58…   …           …            
 - **IDs** are OSIS (`Matt.14.3`), numbered by the **KJV** (`data/versification/kjv.tsv`). Where an edition numbers verses differently, a mapping file records it. Verse 0 holds a chapter's summary or a psalm title.
 - **Witnesses** are stored separately (`data/witnesses/<source>/<osis>.tsv`, built in M0), with the same IDs.
 - **Decisions** live in reviewable YAML (`data/decisions/<osis>.yaml`): per-verse homograph choices, variant readings chosen, structure overrides. Rebuilds never overwrite them (e-liber's rule).
-- **The LaTeX stays the published master.** The pipeline writes a chapter's LaTeX once, when the chapter is approved. After that the chapter is `settled`, and the pipeline only *checks* it and never rewrites it, so you can keep editing in Overleaf. The current converter then produces TXT/HTML/EPUB as it does now.
+- **USFM is the master copy** (decided 2026-11-05; §8, decision 9): one file per book, `text/<USFM code>.usfm` (e.g. `text/MAT.usfm`). The pipeline writes a chapter's USFM once, when the chapter is approved. After that the chapter is `settled`, and the pipeline only *checks* it and never rewrites it. You can still edit it by hand: it is plain text and diffs cleanly. Every published format is generated from it (§4a), so LaTeX is no longer edited, and Overleaf is no longer part of the workflow.
 - **A chapter ledger** (`data/status.tsv`, as in fur-fulminis) records each chapter's stage: `pending → fetched → aligned → corrected → normalized → macronized → structured → in-review → approved → settled`.
 
-The old `TXT/1–4` stage folders become outputs only. `TXT/3` and `TXT/4` stay as generated reading copies; `TXT/1` and `TXT/2` are replaced by `data/`.
+USFM markers used by this edition:
+
+| Element | USFM | Was (LaTeX) |
+|---|---|---|
+| Book title and running head | `\id`, `\h`, `\toc1–3`, `\mt1` (e.g. *Ēvangelium Auctōre* / *Matthæō*) | `\Liber[…]{…}` |
+| Chapter, verse | `\c 14`, `\v 3` | `\Caput`, `\Versus` |
+| Chapter summary (*argumentum*) | `\cd …` | (commented `\summary{}`) |
+| Paragraph | `\p` (`\m` to continue after poetry) | blank line |
+| Poetry lines and indents | `\q1`, `\q2`, `\q3` | `verse`/`patverse*` with `\indentpattern{…}` |
+| Psalm title | `\d …` | — |
+| Quoted Scripture (italic) | `\qt …\qt*` | `\emph{…}` |
+| Quotation marks, macrons, æ/œ | plain UTF-8 (“…”, ‘…’, ā, æ) | ``…'', `…' |
+
+**Migration (M1):** the settled LaTeX chapters (Gen 1–27, Matt 1–13, Mark 1–5, Luke 1–13, John 1–4) are converted to USFM, and the commented-out Matthew 14–28 is kept as a draft. Converting back to LaTeX and comparing proves the conversion lossless. `LaTeX/`, `HTML/`, `EPUB/`, `TXT/` and `scripts/latex_converter.py` are then retired: kept in git history, with removal your call once the new builds are verified. `TXT/1` and `TXT/2` are already superseded by `data/`.
 
 ## 4. The pipeline
 
@@ -137,10 +151,11 @@ Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7
 
 ### Stage 5: Structure (automatic transfer, with Claude adjusting)
 - **Paragraphs:** BSB paragraph breaks (`\p`) are mapped onto verse IDs, then compared with your finished chapters to calibrate. You split paragraphs somewhat differently, so the pipeline learns where you merge or split.
-- **Poetry:** BSB `\q1`/`\q2` lines and indents become `\begin{verse}` with your `\indentpattern{…}`. Line breaks *inside* a Latin verse are placed by Claude at the matching clause.
+- **Poetry:** BSB `\q1`/`\q2` lines and indents carry over directly as USFM `\q1`/`\q2`, calibrated against your finished chapters. Line breaks *inside* a Latin verse are placed by Claude at the matching clause.
 - **Quotations:** BSB/WEB quotation spans tell us *who speaks where*. Claude then places “…” around direct speech and ‘…’ around quotes within it, respecting *inquit* insertions. Reported discourse is left unmarked (§8, decision 4).
-- **Italic Old Testament quotations** (your `\emph{}`) come from the BSB cross-reference and quotation markup plus the Vulgate.
-- The output is the chapter's LaTeX, in the same form as your current files.
+- **Italic Old Testament quotations** (`\qt …\qt*`, formerly your `\emph{}`) come from the BSB cross-reference and quotation markup plus the Vulgate.
+- **Chapter summaries** (verse 0) become `\cd` lines, normalized and macronized like the text.
+- The output is the chapter's USFM.
 
 ### Stage 6: Review (where your time goes)
 - **Critic pass:** a separate Claude agent reads the finished chapter against the BSB and Vulgate. It never sees the earlier stages' reasoning (fur-fulminis' `critic`). It flags omissions, sense errors, OCR leftovers, odd macrons and quotation mismatches, each with an exact `old → new`.
@@ -149,18 +164,33 @@ Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7
   - each has an exact `Apply:` replacement, checked to match exactly once.
 - **Auto-applied changes** are listed at the bottom of the same file ("applied without review"), so they can be audited at any time.
 - **Sampling:** one chapter in ten (chosen at random) is also read in full by you, to measure the error rate of what the pipeline applied automatically. If the rate goes up, the auto-apply thresholds go down.
-- `/approve` applies the decisions, writes the chapter's LaTeX, marks it `settled`, updates the ledger and `HUMAN.md`, and leaves the commit to you.
+- `/approve` applies the decisions, writes the chapter into `text/<book>.usfm`, marks it `settled`, updates the ledger and `HUMAN.md`, and leaves the commit to you.
 
 ### Stage 7: Build and check (fully automatic)
-- The existing converter → TXT/HTML/EPUB; LaTeX → PDF (latexmk locally, or Overleaf).
+- `python -m pipeline build` generates every output from `text/*.usfm` (§4a) into `build/` (git-ignored).
 - **Checks** (`python -m pipeline check`):
+  - the USFM uses only the markers in §3, and every `\v` is in order;
   - verse counts against the KJV map;
   - `macron-check` over the whole text;
   - a list of unknown words;
   - balanced quotation marks per verse;
   - epubcheck (from `../e-liber/.tools`);
+  - the PDF builds without overfull lines or missing glyphs;
   - no settled chapter changed except through an approved decision.
-- A tagged GitHub release (PDF + EPUB) at each milestone.
+
+## 4a. Publishing
+
+One master (`text/*.usfm`), several outputs, all generated:
+
+| Output | How | For |
+|---|---|---|
+| **Website** | Static HTML from the USFM, published with GitHub Pages; replaces the WordPress site (which then points to it) | Reading online: a page per chapter, linkable verses (`…/matthaeus/14#3`), a button to show or hide macrons, and an optional public-domain English column (BSB or KJV) beside the Latin, already aligned by verse id |
+| **EPUB** | Generated from the USFM (two editions: with and without macrons), checked with epubcheck; markup kept Kindle-friendly, following e-liber | E-readers; Kindle via Send-to-Kindle or KDP |
+| **Print PDF** | USFM → generated LaTeX using your current memoir layout (A5, drop-cap chapter numbers, running heads, verse numbers), built with `latexmk`. Never edited by hand. SIL's **PTXprint**, which typesets USFM directly, is the fallback if the LaTeX route becomes a burden | Print-on-demand (Lulu, KDP paperback) and download |
+| **Plain text and data** | TXT (with and without macrons) and per-verse TSV/JSON | Readers, researchers, other tools |
+| **ebible.org** | Submit the USFM (CC BY-SA 4.0 qualifies) once the New Testament is complete | ebible.org generates its own HTML, EPUB and PDF and the formats Bible apps use (e.g. SWORD modules for AndBible and Xiphos), where readers can show this text beside other translations |
+
+**Releases:** a tagged GitHub release at each milestone carries the PDF, both EPUBs and the TXT/TSV files, and redeploys the website. The first is v1.0 *Evangelia* (end of M2). The ebible.org submission follows *Novum Fœdus* (end of M3).
 
 ## 5. Claude skills and agents for this repo
 
@@ -173,7 +203,8 @@ Following fur-fulminis's layout (`.claude/skills/<name>/SKILL.md`, plus `CLAUDE.
 | `homographs` agent | Stage 4: decides homographs per verse from the Latin syntax plus Greek/Hebrew/English |
 | `critic` agent | Stage 6 independent read; never sees the drafting reasoning |
 | `/review-chapter` | Presents the queue, records your decisions, answers questions with evidence |
-| `/approve <BOOK.CH>` | Applies decisions, writes the LaTeX, marks the chapter settled, updates the ledger |
+| `/approve <BOOK.CH>` | Applies decisions, writes the chapter's USFM, marks it settled, updates the ledger |
+| `/release` | Builds every output (§4a), runs the checks, drafts the release notes; tagging and publishing wait for your go-ahead |
 | `/distill` | Every ~10 chapters, proposes new rules for `orthography.tsv`, the names list and `brief.md` from what you accepted or rejected |
 | `/status` | Ledger summary and what to do next |
 
@@ -183,7 +214,7 @@ Chapters are independent, so a book can be prepared **in parallel** (one agent p
 
 Before any new chapter is produced:
 
-1. **Test harness.** Run stages 1–5 on the finished chapters (Gen 1–27, Mt 1–13, Mk 1–5, Lk 1–13, Jn 1–4), starting from Wikisource and the witnesses alone. Compare the output with your LaTeX and measure:
+1. **Test harness.** Run stages 1–5 on the finished chapters (Gen 1–27, Mt 1–13, Mk 1–5, Lk 1–13, Jn 1–4), starting from Wikisource and the witnesses alone. Compare the output with the gold USFM converted from your LaTeX and measure:
    - word accuracy;
    - spelling accuracy;
    - macron accuracy (per vowel);
@@ -196,9 +227,9 @@ Before any new chapter is produced:
 | # | Milestone | Content | Notes |
 |---|---|---|---|
 | M0 | Groundwork — **built 2026-11-05** | `pipeline/` package, fetchers, bridge to `lrl`, ledger, `CLAUDE.md`/`brief.md`/`HUMAN.md` | Uses `../fur-fulminis/data` in place (`LATIN_REF_HOME` to move it). Wikisource: 58 books, 15,997 verses; the Gospels match KJV numbering exactly; Genesis numbers verses differently in 2, 3, 4, 6, 7, 10, 18 |
-| M1 | Calibrate | Rules learned from the finished chapters; test harness passing | §6 |
-| M2 | **Four Gospels** | Mt 14–28, Mk 6–16, Lk 14–24, Jn 5–21 (59 chapters) | Richest witnesses (Wikisource, WordPress, 5 OCRs); release v1.0 "Evangelia" |
-| M3 | Acts & epistles & Revelation | 201 chapters | Wikisource is complete; 4–5 OCR witnesses; release "Novum Fœdus" |
+| M1 | Calibrate | **Migrate the finished LaTeX to USFM** (shown lossless); rules learned from the finished chapters; test harness passing | §3, §6 |
+| M2 | **Four Gospels** | Mt 14–28, Mk 6–16, Lk 14–24, Jn 5–21 (59 chapters); the publishing builds (website, EPUB, PDF, TXT; §4a) | Richest witnesses (Wikisource, WordPress, 5 OCRs); release v1.0 "Evangelia"; the website replaces WordPress |
+| M3 | Acts & epistles & Revelation | 201 chapters | Wikisource is complete; 4–5 OCR witnesses; release "Novum Fœdus"; submit to ebible.org |
 | M4 | Genesis 28–50, Exodus | Existing TXT work + Wikisource | Release "Pentateuchus I" |
 | M5 | OT books on Wikisource | Leviticus, Judges, Ruth, Kings, Job, Esther, minor prophets, … | Fewer witnesses (1738 base, 1726–27, 1750) |
 | M6 | OT books *not* on Wikisource | Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah, Ezekiel, Daniel, … | **No base text:** start from three OCRs voting (1738, 1726–27, 1750), with Claude reading the 1738 page images. Slower; benefits most from the rules settled by then |
@@ -214,6 +245,7 @@ Before any new chapter is produced:
 6. **Review:** every change reviewed during the Matthew 14–28 pilot; the auto-apply policy (A1 macrons, two-witness corrections, approved spelling rules, 1-in-10 full read) starts once the measured error rate is acceptable.
 7. **License:** CC BY-SA 4.0, crediting Wikisource and the scan libraries.
 8. **Data location:** the fur-fulminis databases are used in place (`LATIN_REF_HOME` to move them).
+9. **Master format:** USFM, one file per book in `text/`; every published format is generated from it (§4a). LaTeX becomes a generated print output, and editing in Overleaf ends.
 
 ## 9. Risks
 
@@ -224,10 +256,13 @@ Before any new chapter is produced:
 - **Homographs and hidden quantities** are where macron errors concentrate. The Greek-tense evidence and your WordPress decisions help, but the A2/B queue will still be the longest part of the review for a while.
 - **Book-wide rules can over-apply** (a respelling that is right in one sense and wrong in another). Rules carry a scope (lemma or context), and `/distill` proposes them; it never adds them silently.
 - **The Gaffiot license** limits redistribution, so the published edition must not contain Gaffiot text.
+- **The USFM migration could lose layout detail** (unusual `\indentpattern`s, italics spanning poetry lines). The round trip (USFM → LaTeX compared with the original) catches it before the old files are retired.
+- **The generated PDF must keep your current design.** The LaTeX generator reuses `LaTeX/main.tex`'s preamble unchanged; PTXprint is the fallback, not the plan.
 
 ## 10. First steps
 
 1. ~~Settle the decisions in §8.~~ Done 2026-11-05.
 2. ~~M0: scaffold `pipeline/`, write the Wikisource/WordPress/archive.org fetchers, and connect to `lrl`.~~ Done (3badc59).
-3. M1: learn the respelling and macron rules from the finished chapters and build the test harness.
+3. M1 (in progress): migrate the finished chapters to USFM, learn the respelling and macron rules from them, and build the test harness.
 4. Pilot on Matthew 14–28.
+5. M2: the publishing builds (§4a) and release v1.0 *Evangelia*.
