@@ -76,6 +76,10 @@ class Finish(unittest.TestCase):
                          ["abjicient", "ejicere", "Ējiciunt", "projicit", "rejecit",
                           "periculum", "dicere", "abies", "deinde", "obicem"])
 
+    def test_jv_keeps_names(self):
+        self.assertEqual([macronize.jv(w) for w in ("Abius", "Abium", "adiumentum")],
+                         ["Abius", "Abium", "adjumentum"])
+
 
 class Normalize(unittest.TestCase):
     def test_rules_and_division(self):

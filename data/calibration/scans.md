@@ -107,7 +107,7 @@ Castellio's last revision (Basel, Perna 1573, *ex postrema recognitione*), which
 
 So in Acts–Revelation, Wikisource (with 1760 and 1750) prints Castellio's **early** wording. The 1556 revision replaced it with *gratia*, *caro*, *felicitas* and so on. It is the same pattern as in the Gospels, where Wikisource happens to follow the revised line.
 
-**For stage 2:** with 1556 as the base (decision 15), Acts–Revelation will carry a steady stream of "1556 reading" proposals: perhaps 80–100 words. The Gospels will carry few.
+**For stage 2:** with 1556 as the base (decision 15), Acts–Revelation will carry a steady stream of "1556 reading" proposals: perhaps 80–100 words. The Gospels will carry few. *(Decision 24 then made 1573 the base; 1573 keeps these revised readings, so the stream of proposals in Acts–Revelation stands, now as "1573 reading" proposals.)*
 
 ### Other editions found online (checked 2026-11-06)
 
@@ -214,3 +214,65 @@ Agreement with 1556 at these 14 places (Luke 19:7 is left out as a Wikisource sl
   - It is in the same textual family as Wikisource's Gospels.
   - It is the closer image for checking a Wikisource reading.
   - It has the word boxes that stage 2's crops need.
+
+## The 1573 Basel edition (Perna, *postrema recognitione*), found 2026-11-06
+
+- **Where:** MDZ bsb10141277 (BSB 2 B.lat. 112), full view, with searchable OCR. Found through USTC 616558, which
+  also lists an ÖNB digital copy (BE.1.G.6, `data.onb.ac.at/ABO/+Z165385104`) and 41 copies in all; VD16 B 2638.
+  Folio: [16] pp., 1,446 + 404 columns, [64] pp.
+- **Access:** the IIIF content search `api.digitale-sammlungen.de/iiif/services/search/v1/bsb10141277?q=<word>`
+  returns each hit's canvas, box and context (paged by `&page=N`); the page images are at
+  `api.digitale-sammlungen.de/iiif/image/v2/bsb10141277_<00801>/<x,y,w,h>/800,/0/default.jpg`. The same works
+  for 1554 (bsb10196330). From this machine the shell's `curl` fails on TLS to MDZ; the web-fetch tool and the
+  browser pane work.
+- **Verse numbers** are printed (e.g. Luke 12:6–7), unlike 1556: alignment will be easier.
+- **Text line:** the 1556 one. As 1556: *filius hominis* throughout the Gospels (John 13:31 *Nunc filius hominis
+  illustratur*, canvas 826), Acts 19:4 *corrigendæ vitæ baptismate baptizavit* (canvas 847), Mark 12:44 *at hæc
+  sua penuria* (no *ex*, canvas 785), Matt 2:11 *aurum, thus, & myrrham* (canvas 750). Unlike 1556: Luke 12:6
+  *duobus assarijs* for 1556's *dipondio* (canvas 801, page image).
+- **Collation with 1556** (2026-11-06, `scripts/collate_1573.py`; every difference in `nt1573.tsv`, per book in
+  `nt1573-books.tsv`). Both OCRs were aligned to Wikisource with the five archive.org printings. 1573's OCR finds
+  89–98% of the words in each book (1556's: 27–69%), and reads 92–94% of them as Wikisource does (OCR noise
+  included). Both editions were found at about 64,000 of the NT's words; they read alike at 81–86% of them, nearly
+  all of the rest being OCR noise in one or the other.
+- **1573 revises 1556.** Keeping only differences of three letters or more where 1758 or 1681 reads as 1573 and
+  another text as 1556, about 30 word changes remain. In every one, 1556 reads with the early-line printings
+  (1715, 1747, 1750) and, in Acts–Revelation, with Wikisource; 1573 reads with 1758 and often 1681. Since 1556's OCR
+  covers only about half the text, the true number is perhaps twice that, plus Luke 12:6 (*dipondio* →
+  *duobus assarijs*), which the filter misses. Examples:
+
+  | Place | 1556 | 1573 (= 1758) |
+  |---|---|---|
+  | Matt 6:22–23 | *fuerit* | *erit* |
+  | Mark 6:6 | *incredulitatem* | *infidentiam* |
+  | Mark 13:5 | *infit* | *loquitur* |
+  | Mark 14:21 | *vadit* | *abit* |
+  | Luke 2:41 | *festo* | *festis* |
+  | Luke 6:49 | *dat* | *trahit* |
+  | Luke 7:16 | *se* | *ipsos* |
+  | Luke 9:54 | *etiam* | *et* |
+  | John 14:30 | *orbis* | *mundi* |
+  | John 21:5 | *pulmentarii* | *edulii* |
+  | Gal 5:6 | *agens* | *operans* |
+  | Eph 4:18 | *torporem* | *duritiem* |
+  | 1 Tim 1:5 | *Atqui* | *Enimvero* |
+  | 1 Tim 2:4 | *veri* | *veritatis* |
+  | 1 Tim 3:16 | *corpore* | *carne* |
+  | Heb 5:7 | *pietate* | *religione* |
+  | Heb 7:2 | *iustitiæ regem sonat* | *iustitiæ rex interpretatur* |
+  | Heb 9:8 | *sacrarii* | *sanctuarii* |
+  | Jas 1:4 | *actionem* | *opus* |
+  | 1 Pet 3:21 | *testificatio* | *stipulatio* |
+  | 1 John 3:4 | *crimen* | *noxa* |
+  | Rev 16:5 | *augustus* | *sanctus* |
+  | Rev 19:8 | *induatur* | *vestiri* |
+
+  Heb 7:2 was read on the 1573 page image (canvas 932) and in the 1556 OCR (e-rara 10282450), which is clear here.
+- **What follows:** 1573 is the source of the "revised line". 1681, 1726–27 (your finished chapters: *erit*,
+  *festis*, *ipsos*, *et*, *duobus assariis*) and 1758 print it, and so do Wikisource's Gospels; Wikisource's
+  Acts–Revelation follow the early line instead. The changes run the way Castellio's own 1556 revision did, from
+  classical words toward the received ones (*carne*, *sanctuarium*, *sanctus*, *opus*), which fits the title's
+  claim that this is his last revision; the print alone cannot prove whose they are.
+- **Decided (2026-11-06, HUMAN.md decision 24):** 1573 is the New Testament base in place of 1556. 1556 stays
+  the reference, its readings where 1573 differs recorded as variants. 1573's own hOCR word boxes and IIIF images
+  serve for crops (e.g. Luke 11:7, canvas 800, region 380,960,1300,320); 1758 is the second image.

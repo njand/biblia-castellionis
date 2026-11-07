@@ -230,6 +230,8 @@ def jv(word):
     """Consonantal i → j and u → v, after e-liber's rules (initial i before a vowel, i between vowels, u
     between vowels or initial before a vowel; not after q/g)."""
     letters = plain(word)
+    if letters in JV_KEEP:
+        return word
     out = list(word)
 
     def vowel(i):
@@ -259,6 +261,8 @@ JICIO_PREFIXES = {"ab", "ad", "con", "dis", "in", "ob", "sub", "e", "de", "re", 
                   "inter", "super", "præ", "prae"}
 # ŏbex, ŏbicis keeps i (Gaffiot's headword; objex only a variant). Obici, obicis are taken as forms of objiciō.
 OBEX = {"obicem", "obice", "obices", "obicibus", "obicum"}
+# Names whose i is a vowel though a rule would read a consonant: Abius (Abihu, Hebrew ʾĂḇîhû), not ab|jus.
+JV_KEEP = {"abius", "abium", "abii", "abio"}
 ENCLITICS = ("que", "ne", "ve")
 # Words that only end like an enclitic (e-liber's list, the forms met here).
 NEVER_SPLIT = {"atque", "neque", "quisque", "quaeque", "quodque", "quidque", "quoque", "ubique", "undique",

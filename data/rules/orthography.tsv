@@ -21,7 +21,7 @@ abicient	abjicient	word	approved	1× (Luke.6.22); Gaffiot headword: both
 arenato	harenato	word	approved	1× (Gen.11.3); Gaffiot headword: old
 assumto	assumpto	word	approved	1× (Gen.17.23); Gaffiot headword: no headword found
 autor	auctor	word	approved	1× (Gen.10.21); Gaffiot headword: both
-benammi	bennammi	word	proposed	1× (Gen.19.38); Gaffiot headword: no headword found
+benammi	bennammi	word	rejected	1× (Gen.19.38); Gaffiot headword: no headword found; rejected: 1738, 1750, Wikisource Benammi; Hebrew ben-ʿammî; Gen 19:38 fixed to Benammi
 concionaretur	contionaretur	word	approved	1× (Matt.11.1); Gaffiot headword: new
 conjux	conjunx	word	approved	1× (Gen.2.25); Gaffiot headword: both; but conjux kept 1× (Luke.1.13): inconsistent
 connubiis	conubiis	word	approved	1× (Gen.6.4); Gaffiot headword: new
@@ -35,7 +35,7 @@ herili	erili	word	approved	1× (Gen.24.48); Gaffiot headword: both
 herilis	erilis	word	approved	1× (Gen.24.48); Gaffiot headword: both
 hero	ero	word	approved	1× (Gen.24.12); Gaffiot headword: both
 herum	erum	word	approved	1× (Gen.24.14); Gaffiot headword: old
-hiericuntem	hierichuntem	word	proposed	1× (Luke.10.30); Gaffiot headword: old
+hiericuntem	hierichuntem	word	approved	1× (Luke.10.30); Gaffiot headword: old; approved: 1556 ad Hierichuntem (Luke 10:30), Greek Ἰεριχώ
 imo	immo	word	approved	1× (Gen.23.13); Gaffiot headword: both
 intelligam	intellegam	word	approved	1× (Gen.24.14); Gaffiot headword: both
 intelligant	intellegant	word	approved	1× (Gen.11.7); Gaffiot headword: both
@@ -128,3 +128,9 @@ servivisset	servisset	word	approved	decision 19 (-īv- perfects, form by form): 
 servivistis	servistis	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -istis 2:75
 suffiverint	suffierint	word	approved	decision 19 (-īv- perfects, form by form): 1× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -erint 0:6
 vestivistis	vestistis	word	approved	decision 19 (-īv- perfects, form by form): 2× in our texts; republican 0 (-īv-) : 0 (short), decided by pooled -istis 2:75
+enochus	henochus	word	approved	decision 21: Henōchus everywhere (Hebrew ḥet, Greek Ἑνὼχ with rough breathing, Vulgate Henoch); Castellio writes Enochus in the NT
+enochi	henochi	word	approved	decision 21
+enocho	henocho	word	approved	decision 21
+enochum	henochum	word	approved	decision 21
+hiericunte	hierichunte	word	approved	with hiericuntem (Wikisource's Gospels: Matt 20:29, Mark 10:46)
+hiericunti	hierichunti	word	approved	with hiericuntem (Luke 18:35)
