@@ -45,6 +45,16 @@ class Choose(unittest.TestCase):
         self.assertEqual(macronize.finish("dixit", choice.longs), "dīxit")
         self.assertEqual(choice.how, "gaffiot")
 
+    def test_gaffiot_only_in_the_same_syllable(self):
+        stantes = macronize.parse("stantēs  [MW]  ← sto (M)\n  G Gaffiot: stō, stĕtī, stātūrus, stāre")
+        self.assertEqual(macronize.finish("stantes", macronize.choose("stantes", stantes).longs), "stantēs")
+        hæret = macronize.parse("haerentem  [MW]  ← haereo (M)\n  G Gaffiot: hærĕō, hæsī, hæsum, ēre")
+        self.assertEqual(macronize.finish("haerentem", macronize.choose("haerentem", hæret).longs), "hærentem")
+
+    def test_gaffiot_silent_where_the_parts_disagree(self):
+        entry = macronize.parse("invēnisse  [MW]  ← invenio (M)\n  G Gaffiot: invĕnĭō, vēnī, ventum, īre")
+        self.assertEqual(macronize.finish("invenisse", macronize.choose("invenisse", entry).longs), "invēnisse")
+
     def test_homograph_left_or_chosen(self):
         entry = macronize.parse(VENIT)
         self.assertEqual(macronize.choose("venit", entry).how, "homograph")

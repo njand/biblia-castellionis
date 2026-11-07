@@ -133,7 +133,9 @@ def gaffiot_stem(candidate, heads):
         head_key = key(parts[0])
         for number, part in enumerate(parts):
             part_key = key(part)
-            offsets = [0] + [k for k in range(1, 5) if number and word[:k] == head_key[:k]]
+            # An abbreviated ending (ēre, ĕdis, ōnis) has no stem to share: never aligned inside the word.
+            offsets = [0] + [k for k in range(1, 5) if number and plain(part)[:1] not in VOWELS + "æœ"
+                             and word[:k] == head_key[:k]]
             for offset in offsets:
                 shared = 0
                 while shared < min(len(word) - offset, len(part_key)) and word[offset + shared] == part_key[shared]:
@@ -145,17 +147,27 @@ def gaffiot_stem(candidate, heads):
     best = max(total for total, *_ in scored)
     word_groups = [m.start() for m in re.finditer(r"[aeiouy]+", word)]
     ending = word_groups[-1] if word_groups else len(word)    # Gaffiot never decides the word's last syllable
-    votes = {}
+    votes, heard = {}, {}
     for total, offset, shared, part in scored:
-        if total != best:
-            continue
         part = part.replace("æ", "ae").replace("Æ", "Ae").replace("œ", "oe").replace("Œ", "Oe")
-        groups = [m.start() for m in re.finditer(r"[aeiouy]+", key(part))]
-        limit = min(groups[-1] if groups else len(part), shared)
+        part_key = key(part)
+        groups = [(m.start(), m.end()) for m in re.finditer(r"[aeiouy]+", part_key)]
         for i, m in quantities(part):
-            if i < limit and offset + i < ending and m in ("L", "S"):
+            if m not in ("L", "S") or offset + i >= ending:
+                continue
+            after = next((start for start, _ in groups if start > i), None)
+            if after is None or groups[-1][0] <= i:
+                continue                                  # the part's own last syllable: its ending
+            # A vowel's quantity holds only in the same syllable: the consonants after it must be the word's too
+            # (stāre is no evidence for stantēs, intellĕgō none for intellēxit). Every part sharing that much is
+            # heard; only the best-matching parts, sharing the next vowel as well, vote.
+            consonants_end = next(end for start, end in groups if start <= i < end)
+            if after <= shared:
+                heard.setdefault(offset + i, set()).add(m)
+            if total == best and after < shared and consonants_end <= shared:
                 votes.setdefault(offset + i, set()).add(m)
-    return {i: marks.pop() for i, marks in votes.items() if len(marks) == 1}
+    # Where a part sharing the syllable disagrees (vĭdĕō, vīdī: vīderant), Gaffiot is silent.
+    return {i: marks.pop() for i, marks in votes.items() if len(marks) == 1 and heard[i] == marks}
 
 
 def with_gaffiot(candidate, heads):

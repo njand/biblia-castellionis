@@ -990,37 +990,37 @@ Matt.10	42	settled	usfm	42	42
 Matt.11	30	settled	usfm	30	30		
 Matt.12	50	settled	usfm	50	50		
 Matt.13	58	settled	usfm	58	58		
-Matt.14	36	fetched	usfm-draft	36	36		
-Matt.15	39	fetched	usfm-draft	39	39		
-Matt.16	28	fetched	usfm-draft	28	28		
-Matt.17	27	fetched	usfm-draft	27	27		
-Matt.18	35	fetched	usfm-draft	35	35		
-Matt.19	30	fetched	usfm-draft	30	30		
-Matt.20	34	fetched	usfm-draft	34	34		
-Matt.21	46	fetched	usfm-draft	46	46		
-Matt.22	46	fetched	usfm-draft	46	46		
-Matt.23	39	fetched	usfm-draft	39	39		
-Matt.24	51	fetched	usfm-draft	51	51		
-Matt.25	46	fetched	usfm-draft	46	46		
-Matt.26	75	fetched	usfm-draft	75	75		
-Matt.27	66	fetched	usfm-draft	66	66		
-Matt.28	20	fetched	usfm-draft	20	20		
+Matt.14	36	settled	usfm	36	36		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.15	39	settled	usfm	39	39		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.16	28	settled	usfm	28	28		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.17	27	settled	usfm	27	27		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.18	35	settled	usfm	35	35		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.19	30	settled	usfm	30	30		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.20	34	settled	usfm	34	34		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.21	46	settled	usfm	46	46		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.22	46	settled	usfm	46	46		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.23	39	settled	usfm	39	39		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.24	51	settled	usfm	51	51		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.25	46	settled	usfm	46	46		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.26	75	settled	usfm	75	75		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.27	66	settled	usfm	66	66		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
+Matt.28	20	settled	usfm	20	20		settled 2026-11-07 (decision 26); review: data/review/matt14-28-*.md
 Mark.1	45	settled	usfm	45	45		
 Mark.2	28	settled	usfm	28	28		
 Mark.3	35	settled	usfm	35	35		
 Mark.4	41	settled	usfm	41	41		
 Mark.5	43	settled	usfm	43	43		
-Mark.6	56	fetched	ocr	56	56		
-Mark.7	37	fetched	ocr	37	37		
-Mark.8	38	fetched	ocr	38	38		
-Mark.9	50	fetched	ocr	50	50		
-Mark.10	52	fetched	ocr	52	52		
-Mark.11	33	fetched	ocr	33	33		
-Mark.12	44	fetched	ocr	44	44		
-Mark.13	37	fetched	ocr	37	37		
-Mark.14	72	fetched	ocr	72	72		
-Mark.15	47	fetched	ocr	47	47		
-Mark.16	20	fetched	ocr	20	20		
+Mark.6	56	corrected	usfm-draft	56	56		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.7	37	corrected	usfm-draft	37	37		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.8	38	corrected	usfm-draft	38	38		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.9	50	corrected	usfm-draft	50	50		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.10	52	corrected	usfm-draft	52	52		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.11	33	corrected	usfm-draft	33	33		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.12	44	corrected	usfm-draft	44	44		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.13	37	corrected	usfm-draft	37	37		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.14	72	corrected	usfm-draft	72	72		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.15	47	corrected	usfm-draft	47	47		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.16	20	corrected	usfm-draft	20	20		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
 Luke.1	80	settled	usfm	80	80		
 Luke.2	52	settled	usfm	52	52		
 Luke.3	38	settled	usfm	38	38		

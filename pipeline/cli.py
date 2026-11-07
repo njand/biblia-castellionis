@@ -16,8 +16,15 @@
                                 (leave-one-book-out) → data/calibration/harness.md
   align [WITNESS…] [--books B…] align the OCR witnesses (ocr-1681 … ocr-1758, ocr-1726 = TXT/1) to the settled
                                 chapters → data/witnesses/<witness>/<osis>.tsv; data/calibration/witnesses.md
-  versify BOOK [--apply]        renumber the USFM master to the KJV from data/versification/<osis>.edits.tsv:
+  versify BOOK [--apply]        renumber the USFM master to the KJV from data/versification/<osis>.edits.tsv
+                                (--draft: text/draft/ from <osis>.draft.edits.tsv; --to FILE: a working copy):
                                 preview and write <osis>.REVIEW.md; --apply (all edits approved) rewrites text/ and gold
+  review check FILE…            check every Apply line of data/review/*.md (in order, on a copy): matches once?
+  review apply FILE… [--write]  apply the accepted items (or --items N…, or --all) to text/ (or text/draft/, or
+                                --to a working copy); a dry run unless --write; rebuilds data/gold
+  draft BOOK CH-CH              stage 1: Wikisource's chapters → text/draft/<USFM>.usfm (BSB paragraphs; never overwrites)
+  collate BOOK CH-CH [--base B] stage 2: every witness against the draft (or settled, wikisource, a USFM file), verse by
+                                verse → data/calibration/<osis><CH-CH>-collation.tsv (places, sorted by kind)
   rules [BOOK…]                 learn spelling rules, Wikisource vs the gold → data/rules/orthography.tsv (proposed),
                                 data/rules/REVIEW.md, data/calibration/wikisource.tsv
 
@@ -26,11 +33,12 @@ BOOK is an OSIS code (Matt) or this repo's slug (matthaeus). Downloads are cache
 import argparse
 import collections
 import datetime
+import pathlib
 import re
 import sys
 
-from pipeline import (align, archive, books, gold, harness, latex, latin, ledger, parallel, paths, rules, tsv, versify, wikisource,
-                      wordpress)
+from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, parallel, paths, review,
+                      rules, tsv, versify, wikisource, wordpress)
 
 
 def fetch_wikisource(names, refresh):
@@ -131,7 +139,8 @@ def align_witnesses(keys, names):
             base = [(vid, row["text"]) for vid, row in gold.load(book.osis).items()]
             if isinstance(source, align.Source):
                 files = align.texts(source, book, paths)
-                witnesses = [loaded.setdefault(f, align.Witness(f.read_text(encoding="utf-8"))) for f in files]
+                witnesses = [loaded[f] if f in loaded else loaded.setdefault(
+                    f, mdz.witness() if f == "mdz-1573" else align.Witness(f.read_text(encoding="utf-8"))) for f in files]
             else:
                 path = paths.WITNESSES / key / f"{book.osis}.tsv"
                 witnesses = [align.Witness("\n".join(r["text"] for r in tsv.read(path)))] if path.exists() else []
@@ -151,11 +160,42 @@ def align_witnesses(keys, names):
                     found = collections.Counter(vid for vid, _, w in chapter.matches if w is not None)
                     total = collections.Counter(vid for vid, _, _ in chapter.matches)
                     for vid in total:
-                        flag = "missing" if not found[vid] else "partial" if found[vid] < 0.8 * total[vid] else ""
-                        rows.append((vid, chapter.verses.get(vid, ""), flag))
+                        rows.append((vid, chapter.verses.get(vid, ""), align.row_flags(chapter, vid, found[vid], total[vid])))
                 tsv.write(paths.WITNESSES / key / f"{book.osis}.tsv", rows, header=("id", "text", "flags"))
     path = align.write_report(summary, paths)
     print(f"→ {path.relative_to(paths.ROOT).as_posix()}")
+
+
+def review_files(action, files, write, numbers, everything, to):
+    """`review check` / `review apply`: see pipeline/review.py."""
+    texts, outcomes = {}, []
+    target = pathlib.Path(to) if to else None
+    if target is not None and not target.exists():
+        raise SystemExit(f"{to}: no such file (copy the master there first)")
+    for name in files:
+        items = review.parse(pathlib.Path(name).read_text(encoding="utf-8"))
+        selected = items if action == "check" else review.select(items, numbers, everything)
+        print(f"{name}: {len(items)} items, {sum(len(i.replacements) for i in items)} Apply lines; "
+              f"{len(selected)} selected")
+        done, texts = review.apply(selected, texts, target)
+        outcomes += done
+    counts = collections.Counter(o.status for o in outcomes)
+    for o in outcomes:
+        if o.status not in ("ok", "already"):
+            r = o.replacement
+            print(f"  {o.status:9} line {r.line} {o.item.label}: `{r.vid}` `{r.old}` ({o.count} matches)")
+    print(", ".join(f"{n} {status}" for status, n in sorted(counts.items())) or "nothing selected")
+    failed = sum(n for status, n in counts.items() if status not in ("ok", "already"))
+    if action == "apply":
+        if failed:
+            print("not written: every selected replacement must match once (all or nothing)")
+            return 1
+        if not write:
+            print("dry run: add --write to write " + ", ".join(sorted({p.relative_to(paths.ROOT).as_posix() if p.is_relative_to(paths.ROOT) else str(p) for p in texts})))
+            return 0
+        rebuilt = review.write({p: t for p, t in texts.items() if counts["ok"]})
+        print("written" + (f"; data/gold rebuilt for {', '.join(rebuilt)}" if rebuilt else ""))
+    return 1 if failed else 0
 
 
 def main(argv):
@@ -196,6 +236,24 @@ def main(argv):
     ver = sub.add_parser("versify")
     ver.add_argument("name")
     ver.add_argument("--apply", action="store_true", help="rewrite text/<USFM>.usfm (every edit must be approved)")
+    ver.add_argument("--draft", action="store_true", help="the drafted chapters (text/draft/), from <osis>.draft.edits.tsv")
+    ver.add_argument("--to", help="renumber this working copy instead (approved or not)")
+
+    rev = sub.add_parser("review")
+    rev.add_argument("action", choices=["check", "apply"])
+    rev.add_argument("files", nargs="+")
+    rev.add_argument("--write", action="store_true", help="apply: write the files (default: a dry run)")
+    rev.add_argument("--items", nargs="*", type=int, default=[], help="apply these item numbers, whatever their decision")
+    rev.add_argument("--all", action="store_true", help="apply every item (for a preview on a working copy)")
+    rev.add_argument("--to", help="apply to this file (a working copy) instead of text/")
+
+    drf = sub.add_parser("draft")
+    drf.add_argument("name")
+    drf.add_argument("chapters", help="e.g. 6-16")
+    col = sub.add_parser("collate")
+    col.add_argument("name")
+    col.add_argument("chapters", help="e.g. 14-28")
+    col.add_argument("--base", default="draft", help="draft (default), settled, wikisource, or a USFM file")
 
     sub.add_parser("latin", help="read-only Latin lookups (see `python -m pipeline latin --help`)")
 
@@ -228,36 +286,67 @@ def main(argv):
         print(f"→ {path.relative_to(paths.ROOT).as_posix()}")
     elif args.command == "align":
         align_witnesses(args.witnesses, args.books)
+    elif args.command in ("draft", "collate"):
+        book = books.select([args.name])[0]
+        first, _, last = args.chapters.partition("-")
+        chapters = range(int(first), int(last or first) + 1)
+        if args.command == "draft":
+            target = latex.usfm_path(book, draft=True)
+            if target.exists():
+                raise SystemExit(f"{target.relative_to(paths.ROOT).as_posix()} exists: a draft is never overwritten")
+            target.write_text(collate.draft_usfm(book.osis, chapters), encoding="utf-8", newline="\n")
+            print(f"→ {target.relative_to(paths.ROOT).as_posix()}: Wikisource {book.osis} {args.chapters}, BSB paragraphs")
+            return 0
+        base = args.base if args.base in ("draft", "settled", "wikisource") else pathlib.Path(args.base)
+        places, _ = collate.collate(book.osis, chapters, base)
+        rows = [(p.vid, p.kind, p.sort, p.text, " | ".join(f"{','.join(who)}: {next(iter(who.values()))}"
+                                                          for who in p.readings.values()), ",".join(p.support), p.context)
+                for ps in places.values() for p in ps if p.kind != "noise"]
+        path = paths.DATA / "calibration" / f"{book.osis}{args.chapters}-collation.tsv"
+        tsv.write(path, rows, header=("id", "kind", "sort", "text", "readings", "support", "context"))
+        counts = collections.Counter((r[1], r[2]) for r in rows)
+        print(", ".join(f"{k} {s} {n}" for (k, s), n in sorted(counts.items())))
+        print(f"→ {path.relative_to(paths.ROOT).as_posix()} (noise left out; crop with pipeline.mdz.find/fetch_crop)")
+    elif args.command == "review":
+        return review_files(args.action, args.files, args.write, args.items, args.all, args.to)
     elif args.command == "versify":
         book = books.select([args.name])[0]
-        path, edits = latex.usfm_path(book), versify.load_edits(book.osis)
+        path, edits = latex.usfm_path(book, draft=args.draft), versify.load_edits(book.osis, args.draft)
+        edits_file = versify.edits_path(book.osis, args.draft)
         if not edits:
-            parser.error(f"no data/versification/{book.osis}.edits.tsv")
+            parser.error(f"no {edits_file.relative_to(paths.ROOT).as_posix()}")
         if any(e["status"] == "applied" for e in edits):
             raise SystemExit(f"{book.osis}: these edits are already applied (their ids are in the old numbering); "
                              "list new edits in a fresh file")
-        before = path.read_text(encoding="utf-8")
+        before = (pathlib.Path(args.to) if args.to else path).read_text(encoding="utf-8")
         after, changes = versify.apply_edits(before, book.osis, edits)
         problems = versify.check(before, after, book.osis)
         moved = sum(1 for _, _, how in changes if how != "renumbered")
         print(f"{book.osis}: {len(edits)} edits, {moved} boundaries moved, {len(changes) - moved} verses renumbered; "
               + ("checks passed (same words, KJV verse counts)" if not problems else "PROBLEMS: " + "; ".join(problems)))
-        review = versify.EDITS / f"{book.osis}.REVIEW.md"
-        review.write_text(versify.report(before, book.osis, edits, gold.load(book.osis),
-                                         {r["id"]: r["text"] for r in tsv.read(paths.SOURCES / "parallel" / "kjv" / f"{book.osis}.tsv")}),
-                          encoding="utf-8", newline="\n")
-        print(f"→ {review.relative_to(paths.ROOT).as_posix()}")
+        if args.to:                                       # a working copy: renumbered, approved or not
+            pathlib.Path(args.to).write_text(after, encoding="utf-8", newline="\n")
+            print(f"→ {args.to} renumbered (a working copy)")
+            return 1 if problems else 0
+        if not args.draft:                                # the draft's edits are reviewed in its stage-2 file
+            review = versify.EDITS / f"{book.osis}.REVIEW.md"
+            review.write_text(versify.report(before, book.osis, edits, gold.load(book.osis),
+                                             {r["id"]: r["text"] for r in tsv.read(paths.SOURCES / "parallel" / "kjv" / f"{book.osis}.tsv")}),
+                              encoding="utf-8", newline="\n")
+            print(f"→ {review.relative_to(paths.ROOT).as_posix()}")
         if args.apply:
             waiting = [e["at"] for e in edits if e["status"] != "approved"]
             if waiting or problems:
                 raise SystemExit(f"not applied: {'edits not approved: ' + ', '.join(waiting) if waiting else 'checks failed'}")
             path.write_text(after, encoding="utf-8", newline="\n")
-            tsv.write(versify.EDITS / f"{book.osis}.edits.tsv",
+            tsv.write(edits_file,
                       [(e["op"], e["at"], e["anchor"], "applied", e["note"]) for e in edits],
                       header=("op", "at", "anchor", "status", "note"))
-            gold.build([book.osis])
-            ledger.refresh()
-            print(f"→ {path.relative_to(paths.ROOT).as_posix()} renumbered; data/gold/{book.osis}.tsv rebuilt")
+            if not args.draft:
+                gold.build([book.osis])
+                ledger.refresh()
+            print(f"→ {path.relative_to(paths.ROOT).as_posix()} renumbered"
+                  + ("" if args.draft else f"; data/gold/{book.osis}.tsv rebuilt"))
     elif args.command == "rules":
         learned = rules.learn(args.names)
         kinds = {}

@@ -1,5 +1,5 @@
 id	text	flags
-Luke.1.1	multi narrationcm contexerc comper - 1 tarum apud nos rerum:	partial
+Luke.1.1	apud nos rerum:	partial
 Luke.1.2	Quemadmodum nobis tradide * runt cjui ab initio et ipe & atores et	partial
 Luke.1.3	mihi, qui omnia i capttc ^. 3. iligenter a confe & atus iim, tibi or dine fcribere,	partial
 Luke.1.4	Ut quas auditione accepiiti res,	partial
@@ -20,8 +20,8 @@ Luke.1.18	AtZacharias: Unde iihid cognolcam? ii qutt Angelo: cum et cgo fim fenc
 Luke.1.19	Cui Angclusrefpotulensinquit: Egoiii; Gabricl, qui Deo c appareo, et miflus fum ut 1 alloquerer, tibique hrec laeta	partial
 Luke.1.20	te fore mutum, i loquendi impotem, donec h ^ ccvenerint: qu ( \\ niam mcis di 6 tis non cred idi fti, q ux fuo tempt t re comprobabuntur.	partial
 Luke.1.21	Expeftabat autem populus Zachariam l ciimquetamdiuin aede morari mirabatur.	partial
-Luke.1.22	Is vero egreifus, eos alloqui non poteriT Itaque intellexerunt, cum vifum aliquod in xd t vidifle. Ipfe vcro eis innucbat: remaniitque	
-Luke.1.23	Acperadto ejus munerk ipatio, domurtB petiit.	partial
+Luke.1.22	Is vero egreifus, eos alloqui non poteriT Itaque intellexerunt, cum vifum aliquod in xd t vidifle. Ipfe	partial
+Luke.1.23		missing
 Luke.1.24		partial
 Luke.1.25	Proptereaquod haec ei praeftitiflet Dominus, dum ej us intcr homines	partial
 Luke.1.26	Gabriel, in oppidum Galilcx, nomine	partial
@@ -94,7 +94,7 @@ Luke.2.12		partial
 Luke.2.13	cum Angclo cceleftium v. x ^. ^ opiarum multitudo, Dcum laudantium,	partial
 Luke.2.14		partial
 Luke.2.15	ubi: ib cis difceffeftmt in coelum E / a. fj. 19 i ^ cli, pailorcs illi cohortati funt invitvm, ut Ffheft. ij. fnlehemam petcrent, 6 c vifcrentquid rci acei - Rom. f. 1. fct, quod Dominus	partial
-Luke.2.16	Itaque ccleriter profedti, invenerunt riam et Jofephum, et jacentem in	
+Luke.2.16	Itaque ccleriter profedti, invenerunt riam et Jofephum, et jacentem in praefepi	
 Luke.2.17	Quo vifo, praedicarunt, quid fibi de	partial
 Luke.2.18	Ac quotcfuot audierunt, ea mirati fur qux eis a paftoribus difta funt.	
 Luke.2.19	Maria veroeasresomnesobfervabat, c animo fuo perpendens.	partial
@@ -260,7 +260,7 @@ Luke.6.5		partial
 Luke.6.6	Accidit autem etiam alio Sabbato, ut m co Marc. i. j 8. jegjum jngreflus doccret: ubi cum homo efli dextera manu tabida,	partial
 Luke.6.7	Obfervabant eum Scribse et Pharifsei, an i Sabbatocuraret, ut crimcn adverfus euminv nirent. •	partial
 Luke.6.8	At ille eorum cogitationes lntelligens, dix homini iiccim habenti manum: Surge, et fta i medio.	partial
-Luke.6.9	illis: Interrogabo vos, utrui Sabbatis benefacere liceat, an malefacere? vitaxl fcrvarc an	
+Luke.6.9	illis: Interrogabo vos, utrui Sabbatis benefacere liceat, an malefacere? vitaxl fcrvarc an	partial
 Luke.6.10	omnes illos circum intuitus, dh t Brtxit homini. - Porrigemanumtuam. Quodpoftquai i k ^. i ^. u. £ | jc fec £ t, reddita eftejusmanus tam	partial
 Luke.6.11	At illi furoris pleni, colloqui mtcr ie « uid Jefu facerent.	
 Luke.6.12	dies profectus eft in moi? ' 1 * ' tem ad orandum, et pcrnox oravit.	partial
@@ -470,7 +470,7 @@ Luke.9.60	mortuos lqlire mortuos fuos: tu ver 6 i annunciatumEr regnum.	partial
 Luke.9.61	prius permitte mihi vale dicere meis	partial
 Luke.9.62		missing
 Luke.10.1		missing
-Luke.10.2	eft: Meflls quidem liiltictt, fed opcrarii pauci. Quocirca rogate ^ Reg. ^. ig. leflVs Dominum, utopcrarios cmittat in	partial
+Luke.10.2	eos fic aflatus eft: Meflls quidem liiltictt, fed opcrarii pauci. Quocirca rogate ^ Reg. ^. ig. leflVs Dominum, utopcrarios cmittat in	partial
 Luke.10.3	Vadite, en ego vos mittotanquam agnos	partial
 Luke.10.4	Ncferte crumcnam, ncc peram, ncquecal - et 3 f -: os, ncvequcnquam in via	partial
 Luke.10.5	autem domum intrabitis,	partial
@@ -485,7 +485,7 @@ Luke.10.13	tibi Chorazin, hci tibi Bethfiida • na Mat. \\ o. 40 fi Tyri S: Sid
 Luke.10.14		partial
 Luke.10.15		partial
 Luke.10.16	me repudiat: qui vero me rcpudiat eum	partial
-Luke.10.17	feptuaginta L. duo G. cui Isetitiadixerunt: Domine, ctiam dxmonian. bis per tuum nomen fubjiciuntur,	
+Luke.10.17	feptuaginta duo cui Isetitiadixerunt: Domine, ctiam dxmonian. bis per tuum nomen fubjiciuntur,	partial; L…G: duo
 Luke.10.18	Quibus illc: Specll abam, inquit, Satanai jfpoc. 13. 8. fulguris ritu lapfum deccelo. o /.	partial
 Luke.10.19	Equidem vobis potellatcm do ierpcnt! Mat. i \\. 2 f. fcorpioiquecalcandi, Sc contra omnes holtisv 1 Efa 29. 14. res, itautnihil vos Ixfurum iit.	partial
 Luke.10.20	nc gaudctc, quod vobis lub 1 26. ^. 6, 7 ciuntur fpiritus: led co potius gaudete, qi f. 22. nominaveftraicriptafuntincoeiis. Pfal. S, J,	partial
@@ -511,13 +511,13 @@ Luke.10.39	Huic foror erat nomine Maria, qux ad: fu pedesaffidcns, audicbat ejus
 Luke.10.40	Martha vero, quct tanto miniftcrio dift ^ herctur, iic dicerc inftitit: Domine, hoccr noncuras, quod mca fororfolam memin ' relinit? Dicigiturci, ut meadjuvct. d	partial
 Luke.10.41	Cui Jcfus refpondens: Martha, Ma inquit, tudemuitisfollicita turbaris,	partial
 Luke.10.42	opus. 42 Maria bonam conditioncm clegit quidcm ab ca non auferetur.	partial
-Luke.11.1	in loco oraret, po quam dciiit, dixitciquidam cjusdifci lorum: Domine docc nos orarc, ut < lohanncs docuit luos dilripulos.	partial
+Luke.11.1	quodam in loco oraret, po quam dciiit, dixitciquidam cjusdifci lorum: Domine docc nos orarc, ut < lohanncs docuit luos dilripulos.	partial
 Luke.11.2	Etillc: Cum orabitis, inquiteis, dicitot Pater nofter qui es in ccelis: San < fte colatur n mentuum. Veniat rcgnum tuuin. Fiat volu tas tua ut in ccelo, iic oc in tcrra.	partial
 Luke.11.3	Vichim noftrum alimentarium da	
 Luke.11.4	noftra, quandoquilcm ipfi remittimus omnibus qui nobis debent: levc nos in tentationcm adducito, icd a Malo	partial
 Luke.11.5		partial
 Luke.11.6	Etenim ad mc vcnit amicus mcuscx via, cui uidappomm non habco.	partial
-Luke.11.7	Atque ilic intus ita reipondcnt: Nolimihi nolcftum exhibcrc: jam clatili janua cft, et puei mci mecum in lecfto lunt: non pofTum furgee, Sc tibi dare	
+Luke.11.7	Atque ilic intus ita reipondcnt: Nolimihi nolcftum exhibcrc: jam clatili janua cft, et puei mci mecum in lecfto lunt: non pofTum furgee, Sc tibi dare	partial
 Luke.11.8	Mihi crcdite, et li non ihrgetadcidandum, juia iit cjus amicus: at ccrto proptcr ejus improHtatem iiirget, eiquc tot dabit, quot ille cgebit	partial
 Luke.11.9	Ego quoque vobis dico: Pctitc, fcdabitur vobis: quaerite; et inveniens; puliate, Sc vobis apcrictur:	
 Luke.11.10	Quisquis enim petit alipiicitur: et qui quaerit, invcnit: et puliinri apcritur.	

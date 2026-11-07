@@ -3,7 +3,8 @@
 The edits are listed in data/versification/<osis>.edits.tsv (`op  at  anchor  status  note`), one per moved
 boundary, with `at` the verse id in the book's current numbering:
 
-  split    a new verse starts inside `at`, at the words `anchor`
+  split    a new verse starts inside `at`, at the words `anchor` (a verse number the anchor starts with, left
+           in the text by the LaTeX conversion, is dropped)
   merge    the verse marker of `at` is removed: its text joins the verse before
   chapter  the chapter break before `at` moves to the words `anchor` inside it; the words before the anchor end
            the previous chapter as its last verse (\\p follows the new \\c after a full stop, \\nb mid-sentence)
@@ -19,8 +20,13 @@ EDITS = paths.DATA / "versification"
 MARKER = re.compile(r"(\\c \d+|\\v \d+ ?)")
 
 
-def load_edits(osis):
-    path = EDITS / f"{osis}.edits.tsv"
+def edits_path(osis, draft=False):
+    """data/versification/<osis>.edits.tsv, or <osis>.draft.edits.tsv for the drafted chapters (text/draft/)."""
+    return EDITS / f"{osis}{'.draft' if draft else ''}.edits.tsv"
+
+
+def load_edits(osis, draft=False):
+    path = edits_path(osis, draft)
     return tsv.read(path) if path.exists() else []
 
 
@@ -67,7 +73,8 @@ def apply_edits(usfm, osis, edits):
         elif op == "split":
             t, offset = _split_at(seq, v, anchor, at)
             text = seq[t][1]
-            seq[t:t + 1] = [("text", text[:offset].rstrip() + "\n"), ("v", f"{at}+split"), ("text", text[offset:])]
+            rest = re.sub(r"^\d+\s*", "", text[offset:])       # a verse number left in the text (draft: 8‘Hic)
+            seq[t:t + 1] = [("text", text[:offset].rstrip() + "\n"), ("v", f"{at}+split"), ("text", rest)]
         elif op == "chapter":
             c = max(i for i in range(v) if seq[i][0] == "c")
             chapter = seq[c][1]

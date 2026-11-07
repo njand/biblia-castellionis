@@ -44,6 +44,33 @@ class Align(unittest.TestCase):
         pairs = {base: witness for _, base, witness in self.chapter.matches}
         self.assertEqual((pairs["eum"], pairs["secūtī"]), ("eumsecuti", ""))
 
+    def test_marked_passage_kept_and_flagged(self):
+        # 1758 Luke 11:7: the clause between L. and G. is in the OCR; a base without it must not drop it.
+        base = [("Luke.11.7", "Nōn possum surgere et tibi dare."),
+                ("Luke.11.8", "Mihi crēdite, etsī nōn surget ad eī dandum, quia sit ejus amīcus.")]
+        ocr = ("7 Non possum sur-\ngere, et tibi dare L. si ille pulsare perseveraverit G. 8Mihi credite, etsi non "
+               "surget ad ei dandum, quia sit ejus amicus.")
+        chapter = align.align_chapter(align.Witness(ocr), base, 11)
+        self.assertEqual(chapter.verses["Luke.11.7"], "Non possum surgere, et tibi dare si ille pulsare perseveraverit")
+        self.assertEqual(chapter.marked["Luke.11.7"], ["si ille pulsare perseveraverit"])
+        self.assertEqual(align.row_flags(chapter, "Luke.11.7", 6, 6), "L…G: si ille pulsare perseveraverit")
+
+    def test_marks_read_as_other_letters(self):
+        # 1758 Luke 10:1 prints "septuaginta I. duos, G. eosque": the marks are no words and leave the text.
+        tokens = align.words("alios septuaginta I. duos, G. eosque binos")
+        self.assertEqual(align.lg_marks(tokens), {2: 6})
+        self.assertEqual(align.strip_marks([t for t, _ in tokens]), ("alios septuaginta duos, eosque binos", ["duos"]))
+        self.assertEqual(align.lg_marks(align.words("CAP. I. Quodam tempore")), {})
+
+    def test_anchors_take_words_up_to_the_next_number(self):
+        ocr = "3 Ceperat enim Iohannem Herodes, et vinctum dederat in custodiam, nouum verbum 4 quod Herodi dixisset"
+        base = [("Matt.14.3", "Cēperat enim Jōhannem Hērōdēs, et vīnctum dederat in cūstōdiam,"),
+                ("Matt.14.4", "quod Hērōdī dīxisset Jōhannēs,")]
+        plain = align.align_chapter(align.Witness(ocr), base, 14)
+        anchored = align.align_chapter(align.Witness(ocr, anchors=True), base, 14)
+        self.assertTrue(plain.verses["Matt.14.3"].endswith("custodiam,"))
+        self.assertTrue(anchored.verses["Matt.14.3"].endswith("custodiam, nouum verbum"))
+
     def test_absent_chapter(self):
         chapter = align.align_chapter(align.Witness("Nihil hic de ea re scriptum est omnino."), BASE, 4)
         self.assertFalse(chapter.found)

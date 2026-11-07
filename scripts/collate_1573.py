@@ -7,35 +7,20 @@ found and read differently (spelling habits aside), the other printings say whet
   1573-ocr  1573's reading is in no other text: most likely OCR noise in 1573
   1556-ocr  1556's reading is in no other text (and 1573's is): most likely OCR noise in 1556
 Writes <out>/nt1573.tsv (every difference) and <out>/nt1573-books.tsv, and prints per-book counts.
-The hOCR pages are cached in sources/mdz-1573/<canvas>.hocr (canvases 740–960 hold the NT).
+The hOCR pages are cached in sources/mdz-1573/<canvas>.hocr and read by pipeline.mdz (canvases 747–960 hold the NT).
 """
 import collections
-import html
 import pathlib
-import re
 import sys
 
 REPO = pathlib.Path(sys.argv[1])
 OUT = pathlib.Path(sys.argv[2])
 sys.path.insert(0, str(REPO))
 sys.path.insert(0, str(REPO / "scripts"))
-from pipeline import align, books, paths, tsv  # noqa: E402
+from pipeline import align, books, mdz, paths, tsv  # noqa: E402
 
 LATER = [("1758", ["1758-1", "1758-2"]), ("1681", ["1681"]), ("1715", ["1715"]), ("1747", ["1747"]),
          ("1750", ["1750"])]
-
-
-def text_1573():
-    """The hOCR pages as plain text: one line per OCR line, pages in canvas order."""
-    pages = sorted((REPO / "sources" / "mdz-1573").glob("*.hocr"), key=lambda p: int(p.stem))
-    lines = []
-    for page in pages:
-        source = page.read_text(encoding="utf-8", errors="ignore")
-        for line in re.findall(r"<span[^>]*class=['\"]ocr_line['\"][^>]*>(.*?)</span>\s*(?=<span[^>]*class=['\"]ocr_line|</p|</div)",
-                               source, re.S):
-            words = re.findall(r"<span[^>]*class=['\"]ocrx_word['\"][^>]*>(.*?)</span>", line, re.S)
-            lines.append(" ".join(html.unescape(re.sub(r"<[^>]+>", "", w)) for w in words))
-    return "\n".join(lines)
 
 
 def text_1556():
@@ -46,7 +31,7 @@ def text_1556():
 
 
 def main():
-    witnesses = {"1573": [align.Witness(text_1573())], "1556": [align.Witness(text_1556())]}
+    witnesses = {"1573": [mdz.witness()], "1556": [align.Witness(text_1556())]}
     for key, files in LATER:
         witnesses[key] = [align.Witness((paths.SOURCES / "archive" / f / "text.txt").read_text(encoding="utf-8"))
                           for f in files]

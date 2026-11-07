@@ -33,6 +33,7 @@ Each **Apply** line is an exact replacement inside that verse of `text/<BOOK>.us
    **Apply:** `Mark.5.7` la: `“Quod tibi` → `“Quid tibi`
 5. **Luke 5:39** *pōtō vetere* → *pōtātō vetere* (“having drunk the old”). 1750, 1758, Wikisource: *potato*.
    **1573:** *potato vetere* (canvas 794). Reverted to *pōtō* afterwards: see item 8.
+   **Decision:** reverted by item 8 (Nathan, 2026-11-06); this item-level line keeps `review apply` from re-applying it
    **Apply:** `Luke.5.39` la: `quisquam pōtō vetere` → `quisquam pōtātō vetere`
 
 ## B. Your call (2)

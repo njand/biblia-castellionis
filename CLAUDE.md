@@ -29,9 +29,10 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | Path | What |
 |---|---|
 | `text/<USFM code>.usfm` | **The master copy**, one file per book (created by the M1 migration); markers in PLAN.md §3 |
-| `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (Matthew 14–28, from the commented-out LaTeX); not settled |
+| `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (now Mark 6–16, Wikisource via `pipeline draft`); not settled. Once approved, a draft's chapters move into `text/<USFM code>.usfm` and the draft file goes (Matthew 14–28, settled 2026-11-07) |
+| `data/review/*.md` | Proposals with exact **Apply** lines and **Decision** lines; applied by `python -m pipeline review apply` |
 | `data/rules/orthography.tsv` | Spelling rules (`old new scope status note`); only `approved` rows are applied. `REVIEW.md` beside it is the latest proposal for Nathan; `distinct.tsv` lists look-alike words decided to be different |
-| `data/witnesses/ocr-<year>/<osis>.tsv` | OCR witnesses aligned to verse ids (`python -m pipeline align`): 1681, 1715, 1726 (= `TXT/1`), 1738, 1747, 1750, 1758; flags `partial`/`missing` |
+| `data/witnesses/ocr-<year>/<osis>.tsv` | OCR witnesses aligned to verse ids (`python -m pipeline align`): 1573 (MDZ hOCR, `pipeline/mdz.py`), 1681, 1715, 1726 (= `TXT/1`), 1738, 1747, 1750, 1758; flags `partial`/`missing`, `L…G: words` (Castellio's L. … G. marks), `canvas N` (1573) |
 | `data/calibration/witnesses.md` | Each witness scored against the gold (found, agreement exact / f-s-blind / reading); `witnesses.tsv` holds the counts |
 | `data/calibration/harness.md` | Stages 3–4 from Wikisource scored against the gold (`python -m pipeline harness`; leave-one-out) |
 | `docs/editions.md` | The editions of Castellio's Bible (lifetime vs posthumous, purposes, what he changed vs later editors), for the README and front matter; keep it current as editions are examined |
@@ -75,6 +76,10 @@ python -m pipeline rules [BOOK…]             # learn spelling rules (keeps app
 python -m pipeline align [WITNESS…]          # OCR witnesses → verse ids, scored against the gold
 python -m pipeline harness [BOOK…]           # normalize + macronize from Wikisource, scored (lexicon cached in sources/cache)
 python -m pipeline versify Gen [--apply]     # KJV renumbering from data/versification/Gen.edits.tsv (apply: all approved)
+python -m pipeline versify Matt --draft [--to COPY]   # the same for text/draft/ (Matt.draft.edits.tsv)
+python -m pipeline review check|apply FILE… [--write] [--items N…] [--all] [--to COPY]   # Apply lines of data/review/*.md
+python -m pipeline draft Mark 6-16            # stage 1: Wikisource → text/draft/MRK.usfm (never overwrites)
+python -m pipeline collate Matt 14-28 [--base draft|settled|wikisource|FILE]   # stage 2 → data/calibration/<osis><CH>-collation.tsv
 cd scripts && python latex_converter.py      # legacy: LaTeX → TXT/HTML (until the USFM builds replace it)
 ```
 
