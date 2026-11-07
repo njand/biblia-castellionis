@@ -51,9 +51,14 @@
 - **Decision 6's threshold**: the Gaffiot stem step is fixed (2026-11-07: same-syllable rule, abbreviated endings
   not aligned, silent where the principal parts disagree); it is now wrong on 5 of 25 words (was 46 of 69).
   Lexicon-only macrons: 0.65% of words wrong; all: 1.63% (was 1.79%).
-- **Possible follow-ups** (not started): run the stage-2 collation over the settled chapters against 1573 (the
-  Luke *legisperitus* finding suggests more); chapter summaries (decision 3) are in neither draft nor settled USFM;
-  stages 3–5 for Mark 6–16 need a per-verse review format.
+- **`data/review/settled-1573.md` applied** (2026-11-07, decision 27; all 46 accepted, `data/gold/` rebuilt): the settled NT chapters (Matthew 1–13, Mark 1–5, Luke 1–13,
+  John 1–4) collated against 1573, every place read on the page image. 46 items: 22 words missing or wrong (Wikisource
+  slips your text inherited: Luke 4:27 *pūrgātus et*, 6:12 *per nox*, 7:11 *proficīsceret*, 13:4 *quod* …), 21 different
+  readings (Matt 6:4, 6, 18 *occulta*, 13:32 *holerum*, Luke 9:12 *dēversentur* …), **John 2:18 revised between 1556 and
+  1573** (*Ēde nōbīs aliquod prōdigium …*), 2 forms (*tonitruī*, *sēminece*). Kept and listed: *tetrarchēs*,
+  *assimulem*, *circumsedēret*, *abstergēmus*.
+- **Possible follow-ups** (not started): chapter summaries (decision 3) are in neither draft nor settled USFM;
+  stages 3–5 for Mark 6–16 need a per-verse review format; the same collation for settled Genesis against the 1738 OCR (the OT base).
 - **The spelling rules are decided** (2026-11-06, decisions 16–20; `data/rules/REVIEW.md` has the evidence).
   `orthography.tsv`: 114 rules approved, 12 rejected; three left for the names list (*Bennammi*, *Hierichūntem*,
   with *Henōchī/Enōchī* and *Abius*).
@@ -93,6 +98,7 @@
 | 24 | 2026-11-06 | **New Testament base: the 1573 Basel edition** (Petrus Perna, *ex postrema recognitione*; MDZ bsb10141277; USTC 616558, VD16 B 2638), replacing 1556 in decision 15. It is the 1556 text revised further (some 30–60 word changes, e.g. Mark 6:6 *infidentiam*, John 14:30 *mundi*, 1 Tim 3:16 *carne*), and it is the text of your finished chapters, 1681, 1758 and Wikisource's Gospels. Its OCR finds 89–98% of the words, it numbers the verses, and its IIIF images can be cropped from the hOCR word boxes. Wikisource stays the working text; where it differs from 1573 (as in its early-line Acts–Revelation), the 1573 reading is proposed for review. 1556 stays the reference: its readings where 1573 differs are recorded as variants, like the early wording (1551/1554), Bünemann 1745, 1760 and the later printings. Luke 12:6 keeps *duōbus assāriīs* (1573). Evidence: `data/calibration/scans.md`, `nt1573.tsv`. |
 | 25 | 2026-11-07 | **Quotation marks in the settled chapters** (`data/review/quotes.md`, all accepted): of the 167 passages in ‘…’, 80 are reported speech and lose their marks (70 statements and commands; 10 indirect questions, which also lose their question mark), two slips are fixed (Luke 12:18 “‘Hoc agam,’; Gen 24:47 ‘Bathūēlis), and the other 87 keep their marks. 87 replacements applied to `text/*.usfm`; `data/gold/` rebuilt. |
 | 26 | 2026-11-07 | **Matthew 14–28 approved; perfect forms of *eō*, *-āstis*, *Rabbi*.** Every proposal in `data/review/matt14-28-*.md`, `settled-fixes.md` and `mark6-16-stage2.md` accepted except as follows. The perfect of *eō* and its compounds follows republican prose (Latin Library, `latin attest --count`): *-iī* (27:0 against *-īvī* in the compounds), *-iit*, *-iērunt*, and contracted *-īstī/-īstis/-īsse/-īssent* (no *-iistī/-iisse/-iissent* at all), so Matt 25:25 keeps *iī* (1573 *iui*) and Mark 14:48 keeps *existis* (1573 *exijstis*), as Matt 11:8–9 *exīstis*. First-conjugation *-āvistis/-āstis* is near even in Cicero (9:12), so the edition's consistency decides: *-āstis* (Matt 25:36 *vīsitāstis*, = 1573). *Rabbi* unmarked, Gaffiot's form. The 3 BSB paragraphs added (Matt 17:19, 18:19, 24:26). Evidence in `matt14-28-spelling.md` group 6. |
+| 27 | 2026-11-07 | **The settled NT chapters follow 1573 where it and the printings agree against them** (`data/review/settled-1573.md`, all 46 accepted, every place read on the 1573 page image): 22 Wikisource slips (Luke 4:27 *est*, 6:12 *pernox*, 7:11 *proficīscerētur* …), 21 readings (Matt 6:4, 6, 18 *occulta*, 13:32 *holerum*, Luke 9:12 *dēversentur* …), 2 forms (*tonitruī*, *sēminece*), and John 2:18 in Castellio's 1573 revision (*Ēde nōbīs aliquod prōdigium …*; 1556 recorded as a variant). Kept: *tetrarchēs* (Gaffiot, Cicero), *assimulem*, *circumsedēret*, *abstergēmus*. |
 
 ## How to run
 

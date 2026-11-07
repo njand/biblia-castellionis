@@ -84,6 +84,8 @@ Found by the aligner on 2026-11-07 (it now records the marks as a flag; `data/wi
 
 Read on the 1573 page images on 2026-11-07 (canvas numbers in `data/review/matt14-28-stage2.md`), where Wikisource and the draft have something else: Matt 19:24 *facilius esse rudentem per foramen acus traijci* (a ship's cable, reading κάμιλος for κάμηλος; 1750 and Wikisource agree), Matt 28:1 *Ea autem nocte septidui* (“of the week”; also 1747), Matt 22:35 *legisperitus* (νομικός), Matt 26:54 *quo pacto confierent*.
 
+In the settled chapters (read on the 1573 page images on 2026-11-07; `data/review/settled-1573.md`): **John 2:18 is revised between 1556 and 1573.** 1556 has *Quod nobis exemplum praebes, qui ista facias?* (OCR; Wikisource the same); 1573 (canvas 815) and 1758, 1747, 1750, 1715 have *Ede nobis aliquod prodigium, quo intelligamus ista tibi licere* (“show us some sign, by which we may know that you may do these things”). Also Castellio's: Matt 4:16 *in tetræ noctis regione* (“in the region of dark night”), Matt 6:4, 6, 18 *qui occulta videt/cernit*, Matt 13:32 *olerum maximum*, Luke 6:12 *pernox orauit*, Luke 9:12 *diuersentur* (“lodge”), where Wikisource has *terrae*, *occulte*, *holus*, *per nox*, *divertantur*.
+
 ### What the 1573 edition says about itself
 
 Read 2026-11-06 in the BSB copy (MDZ bsb10141277: OCR of canvases 1–24, 740–750 and 961–1026; canvas 8 on the page image).

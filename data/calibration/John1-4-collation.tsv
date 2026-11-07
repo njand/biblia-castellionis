@@ -1,0 +1,228 @@
+id	kind	sort	text	readings	support	context
+John.1.1	base-only	reading	Sermō	1573: serino	1556,1758,1681,1715,1750,ws	In prīncipiō erat ⟦Sermō⟧ et Sermō erat apud Deum
+John.1.2	base-only	reading	prīncipiō	1573: pricipio | 1556: princi pío	1758,1681,1715,1747,1750,ws	Is erat in ⟦prīncipiō⟧ apud Deum
+John.1.2	base-only	reading	Deum	1573: Deű | 1556: Deà | 1681: Deuni | 1715: eum	1758,1747,1750,ws	Is erat in prīncipiō apud ⟦Deum⟧
+John.1.5	base-only	division	lūx in	1573: luxin	1556,1758,1681,1747,ws	et ⟦lūx in⟧ tenebrīs lūcet nec eam comprehendērunt
+John.1.6	others-1573-agrees	reading	missus	1681,1747: miflus	1573,1556,1758,1715,ws	Fuit homō ⟦missus⟧ ā Deō nōmine Jōhannēs
+John.1.7	others	division	vēnit ob	1715,1747,1750: venitob	1556,1758,ws	Is ⟦vēnit ob⟧ testimōnium ut dē lūce testārētur
+John.1.12	correct	spelling	Quīcumque	1573,1556,1758,1747: Quicunque | 1715: Cuicunque	1750,ws	⟦Quīcumque⟧ autem eum accēpērunt iīs eam
+John.1.12	base-only	reading	fidem	1573: fidein	1556,1758,1715,1747,1750,ws	dedit ut Deī fīliī fierent ⟦fidem⟧ habentibus ejus nōminī
+John.1.14	base-only	division	ūnigenæ	1573: vnige næ | 1556: unígelohanni de nz | 1715: unigenz | 1747: vniSenae	1758,1681,1750,ws	plēnus habitāvit ejusque splendōrem ut ⟦ūnigenæ⟧ ā Patre splendōrem aspeximus
+John.1.15	base-only	reading	verbīs	1573: ver Iohannis de bis	1556,1758,1715,1747,1750,ws	testificātus est Jōhannēs clāmāns hīs ⟦verbīs⟧ Hic est quem dīxī quī
+John.1.15	base-only	reading	mē	1573: ine	1758,1715,1747,1750,ws	est quem dīxī quī post ⟦mē⟧ veniēns ante mē fuit quippe
+John.1.15	base-only	reading		1573: Iefu testimo | 1556: vino c d k Equip à	1758,1715,1747,1750,ws	mē veniēns ante mē fuit ⟦⟧ quippe quī prior mē sit
+John.1.16	base-only	reading		1573: Is venit ob teftimonium vt de luce testaretur vt	1556,1758,ws	ejus plēnitūdine nōs omnēs sūmpsimus ⟦⟧ et grātiam prō grātiā
+John.1.16	base-only	reading	grātiam	1573: gratiain	1556,1758,ws	plēnitūdine nōs omnēs sūmpsimus et ⟦grātiam⟧ prō grātiā
+John.1.17	correct	reading	Mōsem	1573,1747: Mosen	1556,1758,1750,ws	Sīquidem lēx per ⟦Mōsem⟧ trādita est grātia et vēritās
+John.1.18	correct	spelling	umquam	1573,1758,1747: vnquam	1750,ws	Deum nēmō vīdit ⟦umquam⟧ ūnigena Fīlius quī est in
+John.1.19	base-only	reading		1573: Tim	1681,1747,1750,ws	Jūdæī Hierosolymā sacerdōtēs et Lēvītās ⟦⟧ quī ex eō quærerent quis
+John.1.21	base-only	division	Ēlīās es	1573: Eliases	1556,1758,1750,ws	Quid ergō inquiunt illī interrogantēs ⟦Ēlīās es⟧ tū Nōn sum inquit Vātēs
+John.1.21	base-only	reading	Vātēs	1573: Vares	1556,1758,1747,1750,ws	es tū Nōn sum inquit ⟦Vātēs⟧ es tū Nōn inquit ille
+John.1.22	base-only	division	Et illī Quis es	1573: Etilli Quises	1758,ws	⟦Et illī Quis es⟧ inquiunt eī ut respōnsum dēmus
+John.1.22	base-only	reading	respōnsum dēmus	1573: responsuin deinus	1758,1715,1747,ws	Quis es inquiunt eī ut ⟦respōnsum dēmus⟧ iīs quī nōs mīsērunt Quid
+John.1.22	others	reading	tē	1715,1747: 	ws	quī nōs mīsērunt Quid dē ⟦tē⟧ ipsō dīcis
+John.1.22	correct	division	tē ipsō	1573,1758: teipfo	ws	quī nōs mīsērunt Quid dē ⟦tē ipsō⟧ dīcis
+John.1.23	base-only	reading	clāmantis	1573: clamátis	1758,1681,1715,1747,1750,ws	sum inquit vōx in sōlitūdine ⟦clāmantis⟧ Corrigite Dominī viam quemadmodum dīxit
+John.1.23	base-only	reading	quemadmodum	1573: quéadmodum | 1681: qucraadmodum	1758,1715,1747,ws	sōlitūdine clāmantis Corrigite Dominī viam ⟦quemadmodum⟧ dīxit Ēsāiās vātēs
+John.1.24	base-only	division	quī erant	1573: quierant	1758,1681,1715,1747,1750,ws	Tum ⟦quī erant⟧ missī erant autem ex Pharisæīs
+John.1.24	others-1573-agrees	reading	missī	1715,1750: mifli	1573,1758,1747,ws	Tum quī erant ⟦missī⟧ erant autem ex Pharisæīs sīc
+John.1.27	base-only	reading	est	1573: ett | 1681: cft	1556,1758,1715,1747,1750,ws	Is ⟦est⟧ quī et post mē venit
+John.1.27	others-1573-agrees	division	et ante	1747,1750: etante	1573,1556,1758,1715,ws	quī et post mē venit ⟦et ante⟧ mē fuit cujus ego nōn
+John.1.27	base-only	reading	sum	1573: fuim	1556,1758,1681,1715,1747,1750,ws	mē fuit cujus ego nōn ⟦sum⟧ dignus quī calceī corrigiam solvam
+John.1.29	base-only	reading	venientem	1573: venietem | 1715: tri frater unus ex duobus qui te Venientent	1556,1758,1747,1750,ws	Postrīdiē aspicit Jōhannēs ⟦venientem⟧ ad sē Jēsum et dīcit
+John.1.29	base-only	reading		1573: Fece agnis	1758,1715,ws	Jōhannēs venientem ad sē Jēsum ⟦⟧ et dīcit Ecce agnus Deī
+John.1.30	base-only	reading	Hic est	1573: Hicelt	1747,ws	⟦Hic est⟧ dē quō dīxī Post mē
+John.1.31	base-only	spelling	Isrāēlītīs	1573: Ifrae litis	1758,1681,1747,1750,ws	nōn nōveram sed ut patefīat ⟦Isrāēlītīs⟧ proptereā vēnī ego aquā baptīzātum
+John.1.32	base-only	reading	Spīritum	1573: spiMare ritum	1758,1715,1747,1750,ws	verbīs testificātus est Jōhannēs Vīdī ⟦Spīritum⟧ dēscendentem velutī columbam dē cælō
+John.1.32	base-only	reading	columbam	1573: coluinbain	1556,1758,1681,1747,1750,ws	Jōhannēs Vīdī Spīritum dēscendentem velutī ⟦columbam⟧ dē cælō et super eō
+John.1.32	base-only	reading	super eō	1573: fu Luca per co	1556,1758,1681,1715,1747,1750,ws	velutī columbam dē cælō et ⟦super eō⟧ manentem
+John.1.33	base-only	reading	baptīzandum	1573: baptizádum | 1715: ba Philippus Nathanaelem ite Ptizandum	1758,1681,1747,1750,ws	sed quī mē ad aquā ⟦baptīzandum⟧ mīsit is mihi sīc dīxit
+John.1.33	base-only	reading	dēscendere	1573: descédere	1758,1681,1715,1747,1750,ws	mihi sīc dīxit Super quem ⟦dēscendere⟧ et manēre Spīritum vīderis is
+John.1.33	base-only	reading	baptīzat	1573: baptizar	1556,1758,1681,1715,1747,1750,ws	is est quī Sānctō Spīritū ⟦baptīzat⟧
+John.1.35	correct	division	nec nōn	1573,1758: necnon	1747,1750,ws	Postrīdiē rūrsus aderat Jōhannēs ⟦nec nōn⟧ ejus discipulōrum duo
+John.1.35	base-only	division	discipulōrum	1573: di scipulorum | 1681,1747: diicipulorum | 1750: difcipu lorum	1758,ws	aderat Jōhannēs nec nōn ejus ⟦discipulōrum⟧ duo
+John.1.36	base-only	reading	Ecce agnus Deī	1573: Ec	1758,1747,1750,ws	et cōnspicātus ambulantem Jēsum dīcit ⟦Ecce agnus Deī⟧
+John.1.37	base-only	reading	audītīs	1573: audit s | 1556: az quati dítis	1758,1715,1747,ws	Ejus verbīs ⟦audītīs⟧ duo illī ejus discipulī Jēsum
+John.1.37	base-only	reading	secūtī sunt	1573: secutitunt | 1556: f cutifunt	1758,1715,1747,1750,ws	duo illī ejus discipulī Jēsum ⟦secūtī sunt⟧
+John.1.39	correct	form	iērunt	1573,1747,1750: iuerunt | 1758: iyerunt	ws	vīsum inquit iīs Et illī ⟦iērunt⟧ et apud eum mānsērunt eum
+John.1.39	base-only	reading	eum	1573: cum	1556,1758,1747,1750,ws	Et illī iērunt et apud ⟦eum⟧ mānsērunt eum diem Erat autem
+John.1.40	correct	reading	cum	1573,1556,1758,1750: eum	ws	frāter ūnus ex duōbus quī ⟦cum⟧ audītō Jōhanne secūtī fuerant
+John.1.41	base-only	reading	Invēnimus	1573: Inueninus	1758,1747,1750,ws	suum Simōnem nactus dīcit eī ⟦Invēnimus⟧ Messīam quod verbum Ūnctum dēclārat
+John.1.42	base-only	reading	Eumque	1573: eumq	1758,1747,1750,ws	⟦Eumque⟧ dūxit ad Jēsum Eum intuitus
+John.1.42	base-only	reading		1573: Matth	1758,1747,1750,ws	Jēsum Eum intuitus Jēsūs ait ⟦⟧ Tū es Simōn Jōnæ fīlius
+John.1.42	base-only	reading	Jōnæ	1573: lonæ	1758,1747,1750,ws	Jēsūs ait Tū es Simōn ⟦Jōnæ⟧ fīlius Tū vocābere Cēphās id
+John.1.42	base-only	division	verbum	1573: ver bum	1758,1681,1747,1750,ws	fīlius Tū vocābere Cēphās id ⟦verbum⟧ Petrum sonat
+John.1.43	base-only	reading	Galilæam	1573: Galilęain	1758,1750,ws	Posterō diē voluit Jēsūs in ⟦Galilæam⟧ proficīscī et Philippum nactus dīxit
+John.1.45	base-only	reading	Jēsum	1573: le sum	1758,1681,1750,ws	in Lēge et vātēs invēnimus ⟦Jēsum⟧ Jōsēphī fīlium ā Nazarethā
+John.1.46	base-only	reading	aliquid	1573: ali Nathanael quid	1556,1758,1750,ws	Nathanaēl Ā Nazarethā inquit potest ⟦aliquid⟧ bonum esse Et Philippus Venī
+John.1.47	correct	reading	ejus	1573,1758,1750: Iesus | 1556: fus	ws	Vīdit ⟦ejus⟧ venientem ad sē Nathanaēlem et
+John.1.48	base-only	reading	Jēsūs	1573: lesus	1758,1750,ws	mē nōstī inquit eī Cui ⟦Jēsūs⟧ respondēns Antequam tē Philippus vocāret
+John.1.48	base-only	reading	Antequam	1573: Antequain	1758,1750,ws	inquit eī Cui Jēsūs respondēns ⟦Antequam⟧ tē Philippus vocāret inquit cum
+John.1.49	base-only	reading	alloquēns	1573: alloqués | 1750: adloquens	1758,1747,ws	Tum Nathanaēl Rabbi inquit eum ⟦alloquēns⟧ tū es Deī Fīlius tū
+John.1.49	base-only	reading	Isrāēlītārum	1573: Ihaelitarum | 1750: ltraélitarum	1556,1758,ws	Deī Fīlius tū rēx es ⟦Isrāēlītārum⟧
+John.1.51	base-only	reading		1573: Mats | 1747: it Philippus Nathanaelem	1556,1758,1750,ws	eī etiam atque etiam cōnfirmō ⟦⟧ futūrum esse ut apertum cælum
+John.1.51	base-only	division	Deī angelōs	1573: Deiangelos | 1747: va los	1758,1750,ws	ut apertum cælum videātis et ⟦Deī angelōs⟧ ascendentēs et dēscendentēs ad Fīlium
+John.2.1	base-only	spelling	factæ	1573: facte | 1681: fa et ar	1758,1747,1750,ws	Tertiō autem diē nūptiæ ⟦factæ⟧ sunt Canæ in Galilæā ubi
+John.2.1	base-only	reading	Galilæā	1573: lilæa | 1681: GaliJara | 1715: Galilza Et nactus in templo ven en ll	1758,1747,1750,ws	nūptiæ factæ sunt Canæ in ⟦Galilæā⟧ ubi et Jēsū māter erat
+John.2.2	base-only	reading	vocātī sunt	1573: voca	1758,1747,ws	Jēsūs ejusque discipulī ad nūptiās ⟦vocātī sunt⟧
+John.2.3	base-only	division	māter sīc alloquitur	1573: matersicalloquitur	1758,1715,1747,ws	Cumque dēfēcisset vīnum Jēsum ⟦māter sīc alloquitur⟧ Vīnum nōn habent
+John.2.6	base-only	reading	Erant	1573: Erát	1758,1681,1747,1750,ws	⟦Erant⟧ illīc posita sex lapidea solia
+John.2.6	base-only	reading	ut	1573: yt	1758,1681,1747,ws	illīc posita sex lapidea solia ⟦ut⟧ ferēbat Jūdæōrum pūrificātiō bīnārum ternārumve
+John.2.6	base-only	reading	Jūdæōrum	1573: Iudæorū	1758,1747,1750,ws	sex lapidea solia ut ferēbat ⟦Jūdæōrum⟧ pūrificātiō bīnārum ternārumve metrētārum capācia
+John.2.6	base-only	division	ternārumve	1573: ternarum ve	1758,1747,ws	ut ferēbat Jūdæōrum pūrificātiō bīnārum ⟦ternārumve⟧ metrētārum capācia
+John.2.7	others	spelling	Cumque	1573: Cumá | 1681: umquc | 1747,1750: Quumque	1758,ws	aquā replērent jussit iīs Jēsūs ⟦Cumque⟧ ad summum ūsque replēvissent
+John.2.7	base-only	reading	summum ūsque	1573: fuminum vique	1758,1681,1747,ws	jussit iīs Jēsūs Cumque ad ⟦summum ūsque⟧ replēvissent
+John.2.8	base-only	reading	nunc haurīrent	1573: nunchaurirent	1758,ws	jussit ut ⟦nunc haurīrent⟧ et convīviī magistrō ferrent Atque
+John.2.9	base-only	reading	convīviī	1573: couiuij	1758,1681,1747,1750,ws	Ut vērō gustāvit ⟦convīviī⟧ magister factum ex aquā vīnum
+John.2.9	base-only	reading	vīnum	1573: vinam	1758,1681,1747,1750,ws	convīviī magister factum ex aquā ⟦vīnum⟧ ignārus unde esset nam ministrī
+John.2.9	base-only	reading	aquam	1573: aquain	1758,1681,1747,1750,ws	nam ministrī quidem sciēbant quī ⟦aquam⟧ hauserant spōnsum arcessit
+John.2.9	correct	spelling	arcessit	1573,1758: accerfit | 1750: arcet	ws	sciēbant quī aquam hauserant spōnsum ⟦arcessit⟧
+John.2.10	base-only	reading	sīc alloquitur Cum	1573: ficalloquitur Cuin	1758,1747,ws	et ⟦sīc alloquitur Cum⟧ omnēs hominēs prīmum bonum vīnum
+John.2.10	base-only	division	dēterius	1573: dete rius	1758,1747,1750,ws	vīnum appōnant deinde pōtīs convīvīs ⟦dēterius⟧ tū bonum vīnum hūcūsque servāstī
+John.2.11	base-only	reading	suamque	1573: fuamás | 1556: fuamq extollí ut quifquis eí fidem babeat non perz	1758,1681,1747,1750,ws	initium Jēsūs Canæ in Galilæā ⟦suamque⟧ glōriam ostendit et eī fidem
+John.2.11	base-only	reading	ostendit	1573: oftédit	1556,1758,1681,1747,1750,ws	Canæ in Galilæā suamque glōriam ⟦ostendit⟧ et eī fidem habuērunt ejus
+John.2.11	base-only	division	habuērunt ejus	1573: habuerunteius	1758,1747,1750,ws	glōriam ostendit et eī fidem ⟦habuērunt ejus⟧ discipulī
+John.2.12	others-1573-agrees	reading	Capharnaum	1747,1750: Capernaum	1573,1556,1758,1681,ws	Posteā dēscendit ⟦Capharnaum⟧ ūnā cum suā mātre et
+John.2.12	base-only	division	suā mātre	1573: fuamatre	1556,1758,1747,1750,ws	Posteā dēscendit Capharnaum ūnā cum ⟦suā mātre⟧ et frātribus et discipulīs atque
+John.2.15	base-only	reading	ovēsque	1573: ouesąs | 1556: ouesqy	1758,1715,1747,1750,ws	scuticā omnēs ējēcit ex fānō ⟦ovēsque⟧ et bovēs et mēnsāriōrum æs
+John.2.15	base-only	reading	bovēs	1573: bones | 1556: bo ues et	1758,1681,1715,1750,ws	ējēcit ex fānō ovēsque et ⟦bovēs⟧ et mēnsāriōrum æs effūdit ēvertitque
+John.2.15	base-only	reading	ēvertitque mēnsās	1573: euertitás mésas	1758,1681,1747,1750,ws	bovēs et mēnsāriōrum æs effūdit ⟦ēvertitque mēnsās⟧
+John.2.16	base-only	reading	columbārum vēnditōribus	1573: colubarum vēditoribº	1758,1747,1750,ws	et ⟦columbārum vēnditōribus⟧ dīxit Hæc auferte hinc et
+John.2.16	base-only	reading	Hæc auferte hinc	1573: Hæcauferte hine Mass	1758,1747,ws	et columbārum vēnditōribus dīxit ⟦Hæc auferte hinc⟧ et ex meī Patris domō
+John.2.17	base-only	reading		1573: Iefus ex fano	1758,1715,1747,1750,ws	autem ejus discipulī ita scrīptum ⟦⟧ esse Tuæ domūs studiō cōnficior
+John.2.18	others	reading	Quod	1758,1747: Ede	1556,ws	sīc eum contrā allocūtī sunt ⟦Quod⟧ nōbīs exemplum præbēs quī ista
+John.2.19	others-1573-agrees	reading	Jēsūs	1715,1747: lefus	1573,1758,1750,ws	Quibus respondēns ⟦Jēsūs⟧ Dissolvite hoc templum inquit et
+John.2.19	base-only	division	templum	1573: tem plum	1758,1715,1747,1750,ws	Quibus respondēns Jēsūs Dissolvite hoc ⟦templum⟧ inquit et ego tribus diēbus
+John.2.19	others-1573-agrees	reading	ego	1715,1747,1750: 	1573,1556,1758,1681,ws	Dissolvite hoc templum inquit et ⟦ego⟧ tribus diēbus id excitābō
+John.2.20	base-only	reading	Jūdæī	1573: ludæi | 1556: Iudzí t s | 1715: Marc et mei Patris domo ne facite M o Erludzi	1758,1747,ws	Et ⟦Jūdæī⟧ Quadrāgintā sex annīs cōnstrūctum est
+John.2.20	base-only	division	sex annīs	1573: fexannis	1556,1758,1681,1747,1750,ws	Et Jūdæī Quadrāgintā ⟦sex annīs⟧ cōnstrūctum est hoc templum inquiunt
+John.2.20	others-1573-agrees	reading	cōnstrūctum	1556: con irucium | 1758: construcO JOHANN E äs tum | 1715,1750: conítructum	1573,1747,ws	Et Jūdæī Quadrāgintā sex annīs ⟦cōnstrūctum⟧ est hoc templum inquiunt et
+John.2.20	base-only	reading		1573: M	1747,ws	Jūdæī Quadrāgintā sex annīs cōnstrūctum ⟦⟧ est hoc templum inquiunt et
+John.2.20	base-only	reading	excitābis	1573: Mar | 1750: exci tabis Atillede	1758,1715,1747,ws	et tū id tribus diēbus ⟦excitābis⟧
+John.2.21	base-only	reading	At ille	1573: excitabıs Atille	1758,1681,1715,1747,ws	⟦At ille⟧ dē suī corporis templō dīcēbat
+John.2.22	base-only	reading	postquam	1573: poftqua n	1758,1715,1747,1750,ws	Itaque ⟦postquam⟧ ex mortuīs surrēxit recordātī sunt
+John.2.22	base-only	reading	Jēsū	1573: lesu	1758,1715,1747,1750,ws	eum illīs dīxisse scrīptōque et ⟦Jēsū⟧ dictō crēdidērunt
+John.2.23	base-only	spelling	Paschæ	1573: Pasche | 1715: Pafchz	1758,1747,1750,ws	autem Hierosolymīs esset in fēstō ⟦Paschæ⟧ frequentēs in ejus nōmen crēdidērunt
+John.2.23	base-only	reading	videntēs	1573: vidétes	1556,1758,1715,1747,1750,ws	frequentēs in ejus nōmen crēdidērunt ⟦videntēs⟧ quam mīra faceret
+John.2.25	base-only	division	Nec eī opus	1573: neceiopus	1556,1758,1747,1750,ws	⟦Nec eī opus⟧ erat ut dē homine ā
+John.2.25	base-only	reading	quōquam	1573: quoquain	1556,1758,1747,1750,ws	erat ut dē homine ā ⟦quōquam⟧ monērētur quippe quī nōsset quid
+John.3.2	others-1573-agrees	reading	est	1758,ws: 	1573,1715	noctū adiit et eum sīc ⟦est⟧ allocūtus Magister scīmus tē vēnisse
+John.3.2	base-only	division		1573: h	1758,1715,ws	et eum sīc est allocūtus ⟦⟧ Magister scīmus tē vēnisse doctōrem
+John.3.2	base-only	reading	scīmus	1573: scunus	1758,1681,1715,1747,1750,ws	eum sīc est allocūtus Magister ⟦scīmus⟧ tē vēnisse doctōrem ā Deō
+John.3.2	base-only	reading	vēnisse doctōrem	1573: venisle doctorein	1758,1715,ws	est allocūtus Magister scīmus tē ⟦vēnisse doctōrem⟧ ā Deō Nam ista tam
+John.3.2	others-1573-agrees	reading	possit	1715,1747: poflit	1573,1758,1750,ws	facere quæ tū facis nēmō ⟦possit⟧ nisi adsit eī Deus
+John.3.2	base-only	reading	adsit	1573: ad Ioh fit	1758,1715,1747,1750,ws	tū facis nēmō possit nisi ⟦adsit⟧ eī Deus
+John.3.3	base-only	reading		1573: IOHANNES a adipisci	1758,1715,1747,1750,ws	dēnuō nātus nōn fuerit eum ⟦⟧ nōn posse dīvīnum rēgnum vidēre
+John.3.3	base-only	reading		1573: a	1758,1747,1750,ws	eum nōn posse dīvīnum rēgnum ⟦⟧ vidēre
+John.3.4	others	spelling	Numquid	1758,1715,1747: Nunquid	1750,ws	homō nāscī quī sit senex ⟦Numquid⟧ potest iterum in ventrem suæ
+John.3.4	base-only	spelling	Numquid potest iterum	1573: Nunquid potestiterum	1750,ws	homō nāscī quī sit senex ⟦Numquid potest iterum⟧ in ventrem suæ mātris ingredī
+John.3.5	base-only	reading	cōnfirmō	1573: confirino	1758,1681,1715,1747,1750,ws	eī respondēns Hoc tibi magnopere ⟦cōnfirmō⟧ quī ex aquā et Spīritū
+John.3.5	base-only	division	posse	1573: pof se | 1750: pofle	1758,1715,1747,ws	Spīritū nātus nōn fuerit nōn ⟦posse⟧ in dīvīnum rēgnum intrāre
+John.3.6	base-only	division	Spīritū	1573: fpi ritu	1758,1681,1715,1747,1750,ws	carō est et quod ex ⟦Spīritū⟧ nātum est spīritus est
+John.3.9	base-only	division	fierī	1573: fie ri	1758,1715,1747,1750,ws	contrā Quō pactō possunt ista ⟦fierī⟧ inquit
+John.3.10	base-only	division	doctor es	1573: doctores	1758,1715,1747,ws	Cui respondēns Jēsūs Tū Isrāēlītārum ⟦doctor es⟧ et hæc nescīs
+John.3.11	base-only	reading	Hoc iterum	1573: I Hociterum	1758,1681,1747,ws	⟦Hoc iterum⟧ atque iterum tibi cōnfirmō nōs
+John.3.11	base-only	reading	testificāmur	1573: teltificamur	1556,1758,1681,1715,1747,1750,ws	cōnfirmō nōs quod dīcimus et ⟦testificāmur⟧ id scīmus ac vīdimus et
+John.3.11	others	reading	scīmus	1573: scinus | 1715,1747,1750: fcire	1758,ws	quod dīcimus et testificāmur id ⟦scīmus⟧ ac vīdimus et tamen testimōnium
+John.3.11	others-1573-agrees	reading	vīdimus	1715,1747,1750: vidiffe	1573,1758,ws	et testificāmur id scīmus ac ⟦vīdimus⟧ et tamen testimōnium nostrum nōn
+John.3.11	base-only	reading	testimōnium	1573: restimonium	1556,1758,1681,1715,1747,1750,ws	scīmus ac vīdimus et tamen ⟦testimōnium⟧ nostrum nōn accipitis
+John.3.13	base-only	division	Atquī nēmō cælum	1573: Atquinemocœlum	1758,ws	⟦Atquī nēmō cælum⟧ cōnscendit nisi quī ex cælō
+John.3.14	base-only	reading	Ac quemadmodum	1573: Num Acquemadmodum | 1556: Acquemadmodum	1758,ws	⟦Ac quemadmodum⟧ Mōsēs serpentem extulit in sōlitūdine
+John.3.14	base-only	reading		1573: Ioh	1556,1758,1681,1715,1750,ws	quemadmodum Mōsēs serpentem extulit in ⟦⟧ sōlitūdine sīc oportet Fīlium Hominis
+John.3.14	others-1573-agrees	reading	Fīlium Hominis	1715,1747: homine natum	1573,1758,ws	extulit in sōlitūdine sīc oportet ⟦Fīlium Hominis⟧ extollī
+John.3.15	correct	reading	habet	1573,1747: habeat	1758,1750,ws	ut quisquis eī fidem ⟦habet⟧ nōn pereat sed vītam obtineat
+John.3.16	base-only	reading	enim amāvit	1573: eninamauit	1556,1758,1715,1750,ws	Sīc ⟦enim amāvit⟧ Deus mundum ut Fīlium suum
+John.3.16	base-only	reading	ūnicum	1573: vnicuin | 1747: vricum	1556,1758,1681,1715,1750,ws	Deus mundum ut Fīlium suum ⟦ūnicum⟧ dederit ut quisquis in eum
+John.3.16	base-only	reading	pereat	1573: percat | 1556: per eat	1758,1681,1715,1747,1750,ws	quisquis in eum crēdat nōn ⟦pereat⟧ sed vītam obtineat sempiternam
+John.3.17	base-only	reading	damnet	1573: dannet	1556,1758,1715,1747,1750,ws	suum in mundum ut mundum ⟦damnet⟧ sed ut servētur per eum
+John.3.17	base-only	reading	mundus	1573: inūdus | 1556: mun dus	1758,1681,1715,1750,ws	sed ut servētur per eum ⟦mundus⟧
+John.3.18	base-only	reading	damnābitur	1573: daınnabitur	1556,1758,1681,1715,1747,1750,ws	Quī in eum crēdit nōn ⟦damnābitur⟧ quī vērō nōn crēdit jam
+John.3.18	base-only	division	nōmen	1573: no men | 1556: nomini fidem	1758,1715,1747,1750,ws	quod in ūnigenæ Deī Fīliī ⟦nōmen⟧ nōn crēdiderit
+John.3.19	base-only	division	Hæc est autem	1573: Hæcestautem	1758,1747,ws	⟦Hæc est autem⟧ damnātiō quod cum vēnerit in
+John.3.19	base-only	reading	mundum	1573: Supra muduin	1758,1681,1747,ws	damnātiō quod cum vēnerit in ⟦mundum⟧ lūx tenebrās magis quam lūcem
+John.3.19	base-only	reading	magis	1573: inagis	1556,1758,1747,1750,ws	vēnerit in mundum lūx tenebrās ⟦magis⟧ quam lūcem amāverint hominēs quippe
+John.3.20	base-only	reading	vitiōsa	1573: vitiola	1556,1758,1715,1747,1750,ws	Quisquis enim ⟦vitiōsa⟧ facit lūcem ōdit nec in
+John.3.20	base-only	division	lūcem	1573: lu cem	1758,1715,1750,ws	facit lūcem ōdit nec in ⟦lūcem⟧ prōdit nē ejus facta arguantur
+John.3.21	base-only	reading	quī	1573: quib	1556,1758,1681,1715,1747,1750,ws	Sed ⟦quī⟧ vēra facit is in lūcem
+John.3.21	others-1573-agrees	division	is in	1747,1750: isin	1573,1556,1758,1681,1715,ws	Sed quī vēra facit ⟦is in⟧ lūcem prōdit ut patefīant ejus
+John.3.21	base-only	reading	patefīant	1573: patefiat et reta et | 1758: pateliant	1715,1747,1750,ws	is in lūcem prōdit ut ⟦patefīant⟧ ejus opera utpote facta dīvīnitus
+John.3.22	base-only	reading	Jūdæam	1573: Iu Iohan dæam | 1715: Iudzam	1758,1750,ws	ūnā cum suīs discipulīs in ⟦Jūdæam⟧ terram et illīc cum iīs
+John.3.23	base-only	division	baptīzābat	1573: baptiza bat	1758,1715,1747,1750,ws	vērō in Ænōne prope Salim ⟦baptīzābat⟧ quod ibi multa erat aqua
+John.3.23	base-only	reading	ventitābantque	1573: ventitabantás | 1715: ventitabante que	1758,1681,1747,1750,ws	quod ibi multa erat aqua ⟦ventitābantque⟧ hominēs et baptīzābantur
+John.3.26	base-only	division	sīc allocūtī	1573: sicallocuti	1758,1715,1747,ws	Jōhannem adiērunt eumque ⟦sīc allocūtī⟧ sunt Magister quī tēcum erat
+John.3.26	base-only	division	Magister	1573: Ma gifter	1758,1715,1747,1750,ws	adiērunt eumque sīc allocūtī sunt ⟦Magister⟧ quī tēcum erat trāns Jordānem
+John.3.28	others-1573-agrees	reading	dīxisse	1715: di xiffe | 1747,1750: dixifle	1573,1758,ws	Ipsī vōs testēs estis mē ⟦dīxisse⟧ nōn esse mē Chrīstum sed
+John.3.28	base-only	division	Chrīstum	1573: Chri stum | 1747: Chri tum	1556,1758,1715,1750,ws	mē dīxisse nōn esse mē ⟦Chrīstum⟧ sed eī præmissum
+John.3.29	base-only	division	Quī spōnsam	1573: Quisponsam | 1750: fum Quifponfam	1556,1747,ws	⟦Quī spōnsam⟧ habet spōnsus est Spōnsī item
+John.3.29	correct	reading	item	1573,1758,1715,1747: autem	ws	spōnsam habet spōnsus est Spōnsī ⟦item⟧ amīcus quī eī astat et
+John.3.29	base-only	reading	eum	1573: cum | 1556: eà	1758,1681,1715,1747,1750,ws	amīcus quī eī astat et ⟦eum⟧ audit voluptātem ex spōnsī vōce
+John.3.34	base-only	reading	modō	1573: inodo	1758,1747,1750,ws	ēloquātur utpote quem Deus sine ⟦modō⟧ Spīritū dōnet
+John.3.35	base-only	reading	manum	1573: inanum toto spiritu | 1758: mauum	1556,1681,1750,ws	Fīlium eīque omnia trādidit in ⟦manum⟧
+John.3.36	base-only	reading	sempiternam	1573: sem telah piternam | 1750: empiternam	1556,1758,ws	fidem habet vītam cōnsecūtūrus est ⟦sempiternam⟧ Quī vērō Fīliō nōn pāret
+John.3.36	base-only	reading	īra	1573: dira	1556,1758,1747,ws	nōn vidēbit sed eī imminet ⟦īra⟧ dīvīna
+John.4.1	others	reading	audīsse	1573: audi | 1758,1747,ws: audivisse		Ut igitur cognōvit Dominus Pharisæōs ⟦audīsse⟧ Jēsum plūrēs facere discipulōs et
+John.4.2	base-only	spelling	quamquam	1573: quanquam | 1556: quinqua	1758,ws	⟦quamquam⟧ Jēsūs ipse nōn baptīzābat sed
+John.4.4	base-only	reading	Samarīam	1573: Sainariain	1556,1758,1747,1750,ws	Erat autem eī per ⟦Samarīam⟧ iter faciendum
+John.4.5	base-only	reading	Samarīæ	1573: Sanariæ | 1715: Samarie	1758,1747,1750,ws	Itaque vēnit ad oppidum ⟦Samarīæ⟧ nōmine Sychar prope locum quem
+John.4.5	others-1573-agrees	spelling	Sychar	1758: ychar | 1715,1747,1750: Sichar	1573,1556,ws	vēnit ad oppidum Samarīæ nōmine ⟦Sychar⟧ prope locum quem Jācōbus Jōsēphō
+John.4.5	base-only	division	prope locum	1573: propelocum	1758,1747,1750,ws	ad oppidum Samarīæ nōmine Sychar ⟦prope locum⟧ quem Jācōbus Jōsēphō fīliō suō
+John.4.7	base-only	reading		1573: maruana col | 1750: ita	1758,1747,ws	Samarīā haustum aquam Et Jēsūs ⟦⟧ eī ita dīxit Dā mihi
+John.4.8	base-only	form	ierant	1573: iuerant | 1758: iyerant | 1715: iverant Pote quem Dens fine modo fpi	ws	Ejus enim discipulī ⟦ierant⟧ in urbem ut cibōs emerent
+John.4.8	base-only	reading	cibōs emerent	1573: cibose	1758,1715,1750,ws	discipulī ierant in urbem ut ⟦cibōs emerent⟧
+John.4.9	correct	reading	Ac	1573,1556,1758: At	ws	⟦Ac⟧ mulier Samarītāna sīc eī respondit
+John.4.10	others	spelling	intellegerēs	1758: intellige res | 1715,1747,1750: intelligeres	ws	eī respondēns Sī Deī dōnum ⟦intellegerēs⟧ inquit et quisnam sit quī
+John.4.14	others	spelling	numquam	1556: nun quam | 1758,1747: nunquam | 1715: nunquam Et Iefus Ego is fum in	1750,ws	ego eī dederō biberit is ⟦numquam⟧ sitiet quīn aqua quam eī
+John.4.15	base-only	reading	mē	1573: ine	1758,1681,1715,1747,1750,ws	Et mulier Domine impertī ⟦mē⟧ istā aquā nē sitiam aut
+John.4.15	base-only	reading	sitiam	1573: sitia	1758,1715,1747,1750,ws	impertī mē istā aquā nē ⟦sitiam⟧ aut hūc haustūra veniam
+John.4.16	base-only	division	Ī ēvocātum	1573: Ieuocatum	1715,ws	Cui Jēsūs ⟦Ī ēvocātum⟧ virum tuum et hūc venītō
+John.4.16	base-only	reading	tuum	1573: tuű	1556,1758,1681,1715,1747,1750,ws	Cui Jēsūs Ī ēvocātum virum ⟦tuum⟧ et hūc venītō
+John.4.17	base-only	reading		1573: Etlesus IOHANNES	1556,1758,1715,1747,1750,ws	virum inquit eī respondēns mulier ⟦⟧ Et Jēsūs Rēctē dīcis nōn
+John.4.17	base-only	reading	Jēsūs	1573: ferus | 1556,1750: lefus	1758,1715,1747,ws	inquit eī respondēns mulier Et ⟦Jēsūs⟧ Rēctē dīcis nōn habēre tē
+John.4.18	base-only	reading	nōn	1573: hon	1556,1758,1715,1747,1750,ws	virōs habuistī nunc quem habēs ⟦nōn⟧ est tuus vir Istud vērē
+John.4.23	base-only	reading	cum	1573: cùin	1556,1758,1747,1750,ws	adventat hōra et nunc est ⟦cum⟧ vērī cultōrēs Patrem in spīritū
+John.4.23	base-only	division	tālibus	1573: ta libus	1758,1681,1747,1750,ws	vēritāte colent Etenim Pater ā ⟦tālibus⟧ sē colī postulat
+John.4.24	others-1573-agrees	reading	in spīritū	1747,1750: animo	1573,1758,ws	Deus et quī eum colunt ⟦in spīritū⟧ et vēritāte dēbent colere
+John.4.25	base-only	reading	Messīam quī	1573: Mefa hoc ex fua fiam aqui	1758,ws	Sciō inquit eī ventūrum esse ⟦Messīam quī⟧ ūnctus dīcitur Is cum vēnerit
+John.4.25	base-only	reading	omnem	1573: omperfona di nem	1556,1758,1681,1750,ws	dīcitur Is cum vēnerit rem ⟦omnem⟧ nōbīs explicābit
+John.4.27	base-only	division	percontātus	1573: percon tatus	1556,1758,1681,1715,ws	aut quid cum eā loquerētur ⟦percontātus⟧ est
+John.4.28	others	form	petīvit	1758,1715,ws: petiit		mulier relictā suā situlā urbem ⟦petīvit⟧ hominēsque monuit
+John.4.28	base-only	reading	petīvit hominēsque	1573: petijt hominesó | 1750: petiit lro minesque		mulier relictā suā situlā urbem ⟦petīvit hominēsque⟧ monuit
+John.4.29	correct	reading	fortasse	1573,1758,1750,ws: fortafsis | 1715: fortaflis		sibi omnia facta sua dīxisset ⟦fortasse⟧ eum esse Chrīstum
+John.4.33	base-only	reading	eī cibum	1573: el cibuin	1758,1750,ws	sēsē ejus discipulīs num quis ⟦eī cibum⟧ attulisset
+John.4.34	correct	spelling	exsequī	1573,1556,1758,1715: exequi	1750,ws	Mihi pāstus est ejus voluntātem ⟦exsequī⟧ quī mē mīsit ejusque opus
+John.4.34	base-only	reading	ejusque opus absolvere	1573: eiusós opusabfoluere Luc | 1556: eiu que opusabioluere	1758,1715,1750,ws	voluntātem exsequī quī mē mīsit ⟦ejusque opus absolvere⟧
+John.4.35	base-only	division	futūram	1573: futu ram	1556,1758,1681,1715,1750,ws	dīcitis hinc ad quattuor mēnsēs ⟦futūram⟧ esse messem At ego sīc
+John.4.35	others-1573-agrees	reading	Ērigite	1681,1750: crigite	1573,1758,1715,1747,ws	At ego sīc vōbīs dīcō ⟦Ērigite⟧ oculōs et rūra aspicite ut
+John.4.36	base-only	reading	congerit	1573: conb bonis gerit	1758,1715,1750,ws	mercēdem accipit et sator frūgēs ⟦congerit⟧ ad vīctum perpetuum ut sator
+John.4.36	base-only	reading	vīctum	1573: victuin | 1715: Vi et tum | 1750: vicum	1758,1747,ws	et sator frūgēs congerit ad ⟦vīctum⟧ perpetuum ut sator simul gaudeat
+John.4.36	base-only	reading	gaudeat	1573: 	1556,1758,1715,1747,1750,ws	vīctum perpetuum ut sator simul ⟦gaudeat⟧ et messor
+John.4.36	base-only	reading	messor	1573: gau	1758,1715,1747,ws	ut sator simul gaudeat et ⟦messor⟧
+John.4.38	base-only	reading	metendum	1573: metéduin | 1681: metcndum | 1747: meten queretur percontatus eft dum | 1750: metuendum	1556,1758,1715,ws	Ego vōs mīsī ad ⟦metendum⟧ quod vōs nōn labōrāstis Aliī
+John.4.38	base-only	division	labōrāstis	1573: labora stis | 1681: iboraftis | 1747: labora Igitur mulier relida ftis | 1750: laboraflis	1758,ws	ad metendum quod vōs nōn ⟦labōrāstis⟧ Aliī labōrārunt vōs in eōrum
+John.4.39	base-only	reading	Samarītānōrum	1573: Samaritanoruin | 1750: Samarita norum	1556,1758,1715,1747,ws	Ex eā autem urbe multī ⟦Samarītānōrum⟧ in eum crēdidērunt propter fēminæ
+John.4.40	base-only	division	ut ad eum	1573: vtadeum	1758,1681,1715,1747,1750,ws	Igitur ⟦ut ad eum⟧ vēnērunt Samarītānī rogārunt ut apud
+John.4.40	base-only	reading	rogārunt	1573: rogarút | 1681: roirunt	1758,1715,1747,1750,ws	ut ad eum vēnērunt Samarītānī ⟦rogārunt⟧ ut apud sē manēret Itaque
+John.4.40	base-only	reading	mānsit	1573: inanfit	1758,1747,1750,ws	ut apud sē manēret Itaque ⟦mānsit⟧ illīc duōs diēs
+John.4.41	base-only	reading	multōque	1573: multog	1758,1681,1715,1747,1750,ws	⟦multōque⟧ plūrēs ob ejus sermōnem crēdidērunt
+John.4.42	base-only	division	sermōnem	1573: ser monem | 1715: mulieris dixerat Iefus ejus filium viveOrationem | 1750: mulierisorationem	1758,ws	nōn sē jam propter ipsīus ⟦sermōnem⟧ crēdere ipsōs enim audīsse scīreque
+John.4.42	correct	reading	audīsse	1573,1758,1747,1750,ws: audiuisse | 1715: re Crediditque tum ipfe tum audiviffe		ipsīus sermōnem crēdere ipsōs enim ⟦audīsse⟧ scīreque eum vērē mundī Servātōrem
+John.4.43	others-1573-agrees	reading	illinc	1758,1747: illine	1573,1556,1681,1715,1750,ws	Deinde bīduō post ⟦illinc⟧ profectus discessit in Galilæam
+John.4.44	base-only	reading		1573: Lu	1758,1715,ws	est nūllum vātem in suā ⟦⟧ patriā in honōre esse
+John.4.45	base-only	division	Ut ergō	1573: Vtergo	1758,1681,1715,1747,1750,ws	⟦Ut ergō⟧ vēnit in Galilæam accēpērunt eum
+John.4.45	base-only	spelling	quæ	1573: que | 1715: quz	1758,1747,1750,ws	Galilæī ut quī omnia vīdissent ⟦quæ⟧ Hierosolymīs in fēstō fēcerat nam
+John.4.45	base-only	reading	fēstum ierant	1573: festuin iuerant	ws	fēcerat nam et ipsī ad ⟦fēstum ierant⟧
+John.4.45	others	form	ierant	1758,1715,1750: iverant | 1747: uerant	ws	nam et ipsī ad fēstum ⟦ierant⟧
+John.4.46	others-1573-agrees	reading	rūrsus	1715,1747: rurfum | 1750: rur fum	1573,1556,1758,1681,ws	Vēnit igitur Jēsūs ⟦rūrsus⟧ Canam Galilææ ubi fēcerat ex
+John.4.46	base-only	reading	Galilææ	1573: Galilæa	1758,1715,1747,1750,ws	Vēnit igitur Jēsūs rūrsus Canam ⟦Galilææ⟧ ubi fēcerat ex aquā vīnum
+John.4.46	base-only	reading		1573: Ioh	1758,1715,1750,ws	Jēsūs rūrsus Canam Galilææ ubi ⟦⟧ fēcerat ex aquā vīnum Erat
+John.4.46	base-only	division	cujus	1573: cu ius	1556,1758,1681,1747,1750,ws	vīnum Erat autem quīdam rēgius ⟦cujus⟧ fīlius ægrōtābat Capharnaī
+John.4.47	base-only	reading	Jūdæā	1573: ludæa | 1556: Iuda | 1750: Iu daea	1758,1747,ws	Is audiēns Jēsum ex ⟦Jūdæā⟧ venīre in Galilæam eum adiit
+John.4.47	base-only	reading	Galilæam	1573: Galilæain | 1556: Galilg | 1758: Gallaeam	1747,1750,ws	Jēsum ex Jūdæā venīre in ⟦Galilæam⟧ eum adiit rogāvitque ut dēscenderet
+John.4.50	base-only	division	verbīs	1573: ver bis	1758,1681,1747,1750,ws	vīvit tuus fīlius Hīc Jēsū ⟦verbīs⟧ audītīs crēdidit homō et discessit
+John.4.51	base-only	reading	Jam	1573: lam	1758,1681,1747,1750,ws	⟦Jam⟧ vērō eō dēscendente eī obviam
+John.4.51	base-only	reading	puerum	1573: pueruin	1758,1747,1750,ws	factī ejus servī nūntiārunt ejus ⟦puerum⟧ vīvere
+John.4.52	base-only	reading	Eīque scīscitantī	1573: elque seiscitati | 1750: Joue feifcitanti	1758,1747,ws	⟦Eīque scīscitantī⟧ quā hōrā melius habuisset dīxērunt
+John.4.52	base-only	reading	dīxērunt	1573: dixerüt	1556,1758,1747,1750,ws	scīscitantī quā hōrā melius habuisset ⟦dīxērunt⟧ prīdiē hōrā septimā līberātum fuisse
+John.4.53	base-only	division	Cognōvit itaque	1573: Cognouititaque	1681,1747,1750,ws	⟦Cognōvit itaque⟧ pater eam ipsam hōram esse
+John.4.53	base-only	reading	fīlium	1573: filiű	1758,1681,1747,1750,ws	quā eī dīxerat Jēsūs ejus ⟦fīlium⟧ vīvere crēdiditque tum ipse tum
+John.4.53	others-1573-agrees	reading	crēdiditque	1758,1747: erediditque	1573,1681,1750,ws	dīxerat Jēsūs ejus fīlium vīvere ⟦crēdiditque⟧ tum ipse tum ejus ūniversa

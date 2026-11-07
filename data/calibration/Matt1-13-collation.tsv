@@ -1,0 +1,702 @@
+id	kind	sort	text	readings	support	context
+Matt.1.2	base-only	division	Abrahāmus genuit	1573: Abrahamusgenuit | 1681: i Abrahnmusgenuit	1758,1750,ws	⟦Abrahāmus genuit⟧ Isaācum Isaācus Jācōbum Jācōbus Jūdam
+Matt.1.5	base-only	division	Boozum ex	1573: Boozumex	1556,1758,1681,1747,1750,ws	Salmōn ⟦Boozum ex⟧ Rāchabā Boozus Ōbedem ex Rūthā
+Matt.1.5	base-only	reading	Jessæum	1573: leffæum | 1556: Ieffzum | 1758: Jessacum	ws	Boozus Ōbedem ex Rūthā Ōbed ⟦Jessæum⟧
+Matt.1.6	base-only	reading	Jessæus Dāvīdem	1573: lessqus Dauidein	1758,1750,ws	⟦Jessæus Dāvīdem⟧ rēgem Dāvīd rēx Solomōnem ex
+Matt.1.7	base-only	reading	Roboāmum	1573: Roboamű | 1556: IRoboamum	1758,1681,1750,ws	Solomō ⟦Roboāmum⟧ Roboāmus Ābīam Ābīās Asam
+Matt.1.7	base-only	reading	Ābīam	1573: Abia | 1750: Abi am	1556,1758,1681,ws	Solomō Roboāmum Roboāmus ⟦Ābīam⟧ Ābīās Asam
+Matt.1.7	base-only	reading	Asam	1573: Afaim	1556,1758,1747,1750,ws	Solomō Roboāmum Roboāmus Ābīam Ābīās ⟦Asam⟧
+Matt.1.9	correct	reading	Jōthamum Jōthamus	1573,1758: Ioathamum Ioathamus | 1750: loathamum Ioathamus	ws	Ozīās ⟦Jōthamum Jōthamus⟧ Achazum Achazus Ezecīam
+Matt.1.11	base-only	reading	Jechōniam	1573,1556: lechoniam	1758,1715,ws	Jōsīās Jōācimum Jōācimus ⟦Jechōniam⟧ et ejus frātrēs in exiliō
+Matt.1.11	base-only	division	frātrēs	1573: fra tres	1556,1758,1715,1747,ws	Jōācimum Jōācimus Jechōniam et ejus ⟦frātrēs⟧ in exiliō Babylōnicō
+Matt.1.12	base-only	division	Post exilium	1573: Poftexilium	1758,1681,1715,1747,1750,ws	⟦Post exilium⟧ Babylōnicum Jechōniās genuit Salathiēlem Salathiēl
+Matt.1.12	base-only	reading	Jechōniās	1573,1556: lechonias	1758,1681,1747,1750,ws	Post exilium Babylōnicum ⟦Jechōniās⟧ genuit Salathiēlem Salathiēl Zorobabēlem
+Matt.1.12	base-only	reading	Zorobabēlem	1573: Zorobabelein | 1556: Ziorobabelé	1715,1750,ws	Babylōnicum Jechōniās genuit Salathiēlem Salathiēl ⟦Zorobabēlem⟧
+Matt.1.13	base-only	reading	Elīacimus Azōrem	1573: Eliaci	1556,1681,1750,ws	Zorobabel Abiudem Abiud Elīacimum ⟦Elīacimus Azōrem⟧
+Matt.1.14	base-only	reading	Achimus	1573: Achinus	1556,1758,1715,1747,1750,ws	Azor Sadocum Sadocus Achimum ⟦Achimus⟧ Elīudem
+Matt.1.17	base-only	reading		1573: a | 1747: perinde eft ac fi dicas no	1758,1715,ws	ūniversum ab Abrahāmō ad Dāvīdem ⟦⟧ genera sunt quattuordecim Ā Dāvīde
+Matt.1.17	base-only	reading	exilium	1573: exi à generis lium | 1750: exfilium	1758,1715,1747,ws	quattuordecim Ā Dāvīde item ad ⟦exilium⟧ Babylōnicum quattuordecim Ab exiliō Babylōnicō
+Matt.1.17	base-only	reading	quattuordecim	1573: quatuordecin | 1747: quatuorde mmo Iofephus fecit vt ei cim	1556,1758,1715,1750,ws	Dāvīde item ad exilium Babylōnicum ⟦quattuordecim⟧ Ab exiliō Babylōnicō ad Chrīstum
+Matt.1.17	base-only	reading	Babylōnicō	1573: Babylo gradus nico | 1715: Baby f logico	1556,1758,1747,1750,ws	exilium Babylōnicum quattuordecim Ab exiliō ⟦Babylōnicō⟧ ad Chrīstum quattuordecim
+Matt.1.17	base-only	reading	Chrīstum	1573: Chrutum	1758,1715,1747,1750,ws	quattuordecim Ab exiliō Babylōnicō ad ⟦Chrīstum⟧ quattuordecim
+Matt.1.18	base-only	reading	autem	1573: autein	1758,1681,1715,1750,ws	Jēsū Chrīstī ⟦autem⟧ nātīvitās sīc sē habet Cum
+Matt.1.18	base-only	reading	esset dēspōnsa	1573: ef Chriftinafet defpóta	1758,1681,1715,1750,ws	nātīvitās sīc sē habet Cum ⟦esset dēspōnsa⟧ māter ejus Marīa Jōsēphō priusquam
+Matt.1.18	base-only	division	convēnissent	1573: con ueniffent | 1715: convenifTent | 1747: conue nomine vocauit Luc g niffent | 1750: conueniffet	1556,1758,ws	māter ejus Marīa Jōsēphō priusquam ⟦convēnissent⟧ comperta est uterum ferre ex
+Matt.1.19	base-only	reading	eam	1573: eain | 1750: cam	1556,1758,1681,1747,ws	quī jūstus esset nec in ⟦eam⟧ vellet exemplum ēdere statuit eam
+Matt.1.19	base-only	reading	exemplum	1573: exempluin	1556,1758,1747,1750,ws	esset nec in eam vellet ⟦exemplum⟧ ēdere statuit eam clam repudiāre
+Matt.1.19	base-only	reading	clam	1573: claim	1556,1758,1681,1747,1750,ws	vellet exemplum ēdere statuit eam ⟦clam⟧ repudiāre
+Matt.1.22	base-only	reading	Hoc autem	1573: Hocautein | 1556,1750: Hocautem	1758,1715,ws	⟦Hoc autem⟧ tōtum factum est ut cōnfieret
+Matt.1.22	base-only	reading	vātem	1573: vatein	1556,1758,1715,1750,ws	ā Dominō dictum fuerat per ⟦vātem⟧ ita dīcentem
+Matt.1.23	correct	reading		1573,1758,1715,1750: et	ws	Virgō ventrem lātūra est ⟦⟧ ēditūra fīlium quī nōminābitur Emmanuēl
+Matt.1.23	base-only	reading		1573: Efa	1556,1758,1715,ws	lātūra est ēditūra fīlium quī ⟦⟧ nōminābitur Emmanuēl quod perinde est
+Matt.1.23	base-only	reading	ac	1573: ae	1556,1758,1681,1750,ws	nōminābitur Emmanuēl quod perinde est ⟦ac⟧ sī dīcās Nōbīscum Deus
+Matt.1.24	base-only	reading	conjugem	1573: con et ita Leuit ugem	1758,1715,ws	præcēperat Dominī angelus ascīvitque suam ⟦conjugem⟧
+Matt.1.25	base-only	reading	nec eam	1573: necea	1556,1758,1715,1750,ws	⟦nec eam⟧ cognōvit dōnec ea peperit fīlium
+Matt.1.25	base-only	reading		1573: et	1556,1758,1715,1750,ws	nec eam cognōvit ⟦⟧ dōnec ea peperit fīlium suum
+Matt.1.25	base-only	reading		1573: mer to do	1758,1681,1715,1750,ws	dōnec ea peperit fīlium suum ⟦⟧ prīmōgenitum quem Jēsum nōmine vocāvit
+Matt.2.1	base-only	spelling	Bethlehemæ	1573: Bethlehemę | 1681: Bethlehenv | 1715: Bethlehemz	1758,1750,ws	Jēsū autem ⟦Bethlehemæ⟧ in Jūdæā nātō tempore rēgis
+Matt.2.1	base-only	reading	tempore rēgis	1573: temporereMagı gis	1758,1681,1715,1750,ws	autem Bethlehemæ in Jūdæā nātō ⟦tempore rēgis⟧ Hērōdis vēnērunt ab Oriente Magī
+Matt.2.1	base-only	reading	Hierosolymam	1573: Hierofo	1758,1681,1715,1750,ws	Hērōdis vēnērunt ab Oriente Magī ⟦Hierosolymam⟧
+Matt.2.2	base-only	reading	quæsīvērunt	1573: quæsiuerut | 1681: quaefi verunt	1758,1715,1750,ws	ubinam esset Jūdæōrum nātus rēx ⟦quæsīvērunt⟧ Sēsē enim ejus vīdisse stēllam
+Matt.2.2	others-1573-agrees	reading	vēnisse	1681,1715: venifTe	1573,1758,1747,1750,ws	in Oriente itaque eum adōrātum ⟦vēnisse⟧
+Matt.2.4	base-only	division	populī	1573: popu li	1758,1681,1747,1750,ws	convocātīs omnibus pontificibus et scrībīs ⟦populī⟧ scīscitātus est ab iīs ubinam
+Matt.2.4	base-only	reading	ubinam	1573: vbíná | 1747: vbina in Domino dictum fuerat per	1758,1681,1750,ws	populī scīscitātus est ab iīs ⟦ubinam⟧ Chrīstus nascitūrus esset
+Matt.2.8	base-only	reading	eōsque	1573: eosqs	1758,1715,1747,ws	⟦eōsque⟧ Bethlehemam dīmīsit ita dīcēns Īte
+Matt.2.8	base-only	division	certiōrem	1573: certio rem	1758,1715,1750,ws	dīligenter inquīrite ac cum invēneritis ⟦certiōrem⟧ mē facitōte ut ego quoque
+Matt.2.9	base-only	reading	stetitque	1573: stetitós	1758,1715,1750,ws	vīderant eōs antecessit dōnec vēnit ⟦stetitque⟧ suprā locum ubi puer erat
+Matt.2.11	base-only	division	domum ingressī	1573: domumingressi	1758,ws	et ⟦domum ingressī⟧ puerumque cum ejus mātre Marīā
+Matt.2.11	base-only	reading	murram	1573: et myrrham	ws	obtulērunt eī mūnera aurum thūs ⟦murram⟧
+Matt.2.12	base-only	reading	Hērōdem	1573: Hero dein	1758,1715,1750,ws	monitī in somnīs nē ad ⟦Hērōdem⟧ reverterentur per aliam viam sē
+Matt.2.12	others-1573-agrees	division	per aliam	1715,1750: peraliam	1573,1758,ws	somnīs nē ad Hērōdem reverterentur ⟦per aliam⟧ viam sē recēpērunt in patriam
+Matt.2.12	base-only	reading	viam	1573: viain	1758,1681,1715,1750,ws	ad Hērōdem reverterentur per aliam ⟦viam⟧ sē recēpērunt in patriam
+Matt.2.13	base-only	reading	Jōsēphō	1573: losepho | 1681: Jofcpho	1758,1715,1747,1750,ws	Dīgressīs illīs Dominī angelus ⟦Jōsēphō⟧ in somnīs appāret Surge inquit
+Matt.2.13	correct	reading		1573,1758,1715,1747: et	ws	in somnīs appāret Surge inquit ⟦⟧ assūmptō puerō ejusque mātre fuge
+Matt.2.13	base-only	reading	ejusque	1573: eiusq	1758,1715,1747,1750,ws	appāret Surge inquit assūmptō puerō ⟦ejusque⟧ mātre fuge in Ægyptum et
+Matt.2.13	base-only	division	illīc estō	1573: illicesto	1758,1715,1747,1750,ws	mātre fuge in Ægyptum et ⟦illīc estō⟧ dōnec ego tē moneam Quæsītūrus
+Matt.2.14	base-only	reading	noctū	1573: Fugit losenoctu	1758,1715,1747,1750,ws	ūnā cum puerō ejusque mātre ⟦noctū⟧ concessit in Ægyptum
+Matt.2.15	base-only	reading		1573: gypsum	1758,1747,1750,ws	ad Hērōdis obitum ut cōnfieret ⟦⟧ quod fuerat ā Dominō dictum
+Matt.2.16	base-only	reading	adeō	1573: a Herodes pue deò	1556,1758,1681,1715,1747,1750,ws	sē ā Magīs illūsum esse ⟦adeō⟧ īrātus est ut mīserit interfectum
+Matt.2.16	base-only	reading	interfectum	1573: interfectű | 1556: interfecit	1758,1715,1747,1750,ws	adeō īrātus est ut mīserit ⟦interfectum⟧ puerōs quotquot Bethlehemæ et in
+Matt.2.16	base-only	reading		1573: res necas	1758,1750,ws	ut mīserit interfectum puerōs quotquot ⟦⟧ Bethlehemæ et in tōtō ejus
+Matt.2.17	base-only	division	Tunc accidit	1573: Tuncaccidit	1758,1681,1715,ws	⟦Tunc accidit⟧ id quod ā Jēremīā vāte
+Matt.2.18	base-only	division	Audītur apud	1573: Auditurapud	1758,1681,1715,1747,1750,ws	⟦Audītur apud⟧ Ramam vōx lāmentātiō complōrātiōque et
+Matt.2.18	base-only	reading	complōrātiōque	1573: complo Ierem ratioque | 1556: complora lresg tíotp	1758,1681,1747,1750,ws	Audītur apud Ramam vōx lāmentātiō ⟦complōrātiōque⟧ et multus questus Rachel est
+Matt.2.20	base-only	reading		1573: tosephus in	1556,1758,1715,1747,1750,ws	terram mortuī sunt enim quī ⟦⟧ puerī vītam petēbant
+Matt.2.21	base-only	reading	mātre	1573: inatre redis	1556,1758,1715,1747,1750,ws	surgit et assūmptō puerō ejusque ⟦mātre⟧ contendit in terram Isrāēlīticam
+Matt.2.22	base-only	division	timuit illō	1573: timuitillo	1758,1715,1747,1750,ws	patrī suō in rēgnum successisse ⟦timuit illō⟧ īre et ōrāculō secundum quiētem
+Matt.2.22	base-only	reading	secundum	1573: fecunduin	1556,1758,1715,1747,1750,ws	timuit illō īre et ōrāculō ⟦secundum⟧ quiētem admonitus contulit sē in
+Matt.2.23	correct	reading	iitque	1573,1758,1681,1750: iuitque | 1556: iuíttp | 1747: luitque	ws	⟦iitque⟧ commorātum in oppidum quoddam Nazaretha
+Matt.3.1	base-only	division	Baptista	1573: Bapti sta	1556,1758,1681,1715,1747,1750,ws	Quōdam autem tempore vēnit Jōhannēs ⟦Baptista⟧ quī in Jūdææ sōlitūdine prædicāret
+Matt.3.2	base-only	reading	cæleste rēgnum	1573: coe	1758,1747,1750,ws	dīceret Corrigite vōs īnstat enim ⟦cæleste rēgnum⟧
+Matt.3.3	base-only	reading	est ab Ēsāiā	1573: estab Elaia	1758,1681,1747,ws	Is est enim quī dictus ⟦est ab Ēsāiā⟧ vāte dīcente Vōx clāmantis in
+Matt.3.3	base-only	reading	dīcente	1573: dicéte | 1681: c nte	1758,1715,1747,1750,ws	dictus est ab Ēsāiā vāte ⟦dīcente⟧ Vōx clāmantis in sōlitūdine Parāte
+Matt.3.3	base-only	reading		1573: Efa	1758,1681,1747,1750,ws	ab Ēsāiā vāte dīcente Vōx ⟦⟧ clāmantis in sōlitūdine Parāte viam
+Matt.3.4	base-only	reading	indūmentum	1573: indu IO MATΤΗ ΑΕ VS mentum	1556,1758,1681,1715,1747,1750,ws	autem Jōhannēs ex camēlīnīs pilīs ⟦indūmentum⟧ lateribus pelliciō cingulō circumdatīs Cibus
+Matt.3.4	correct	reading	pelliciō	1573,1556,1758,1750: pelliceo	ws	ex camēlīnīs pilīs indūmentum lateribus ⟦pelliciō⟧ cingulō circumdatīs Cibus ejus erant
+Matt.3.4	correct	reading	circumdatīs	1573,1556,1758,1715: circundatis	1747,1750,ws	pilīs indūmentum lateribus pelliciō cingulō ⟦circumdatīs⟧ Cibus ejus erant locustæ et
+Matt.3.4	base-only	spelling	silvestre	1573: sylueftre | 1758: sylyestre	1747,1750,ws	ejus erant locustæ et mel ⟦silvestre⟧
+Matt.3.5	base-only	reading	ad eum	1573: adeuin	1556,1758,1681,1715,1747,1750,ws	Tunc ⟦ad eum⟧ proficīscēbātur Hierosolyma omnisque Jūdæa et
+Matt.3.5	base-only	reading	omnisque	1573: ounnisque	1758,1681,1747,1750,ws	Tunc ad eum proficīscēbātur Hierosolyma ⟦omnisque⟧ Jūdæa et Jordānis ōra
+Matt.3.6	base-only	division	peccāta	1573: pec cata | 1556: peccara nelux orta e t Ex eo coepit Ícfus przdicare et qu	1758,1715,1747,1750,ws	eōque baptīzābantur in Jordāne cōnfitentēs ⟦peccāta⟧ sua
+Matt.3.7	base-only	reading	Pharisæōrum	1573: Pharifçorum | 1556: Pharífzorum | 1715: Tharifzorum	1758,1747,1750,ws	Cum vīdisset autem multōs ⟦Pharisæōrum⟧ et Saddūcæōrum ad suum baptisma
+Matt.3.7	correct	reading	baptisma	1573,1750: baptifina	1556,1758,1715,1747,ws	Pharisæōrum et Saddūcæōrum ad suum ⟦baptisma⟧ venientēs dīxit iīs Prōgeniēs vīperīna
+Matt.3.7	base-only	reading	summonuit	1573: suminonuit	1758,1715,1747,ws	iīs Prōgeniēs vīperīna quis vōs ⟦summonuit⟧ futūram īram fugere
+Matt.3.9	base-only	reading	animum	1573: animů	1758,1681,1715,1747,1750,ws	nēve ⟦animum⟧ indūcite sīc apud vōs dīcere
+Matt.3.10	base-only	reading	admōta	1573: adınota	1556,1758,1681,1715,1747,1750,ws	Jam vērō secūris arborum rādīcī ⟦admōta⟧ est Itaque arbor omnis frūctum
+Matt.3.10	correct	division	Itaque	1573,1747: Ita que	1758,1681,1715,1750,ws	secūris arborum rādīcī admōta est ⟦Itaque⟧ arbor omnis frūctum bonum nōn
+Matt.3.10	base-only	division	excīdenda	1573: exciden da | 1715: ME EVANGELIUM À eun AP EN edens cxcidenda | 1747: excidet T da	1758,1750,ws	omnis frūctum bonum nōn ēdēns ⟦excīdenda⟧ est et in ignem injicienda
+Matt.3.11	others	reading	calciāmenta	1573: calciamen ta | 1758,1715,1750: calceamenta | 1747: calceament	1556,ws	nōn sim dignus quī ejus ⟦calciāmenta⟧ portem Is vōs Sānctō Spīritū
+Matt.3.12	base-only	reading	frūmentumque	1573: fruinentumque | 1556: Lic d ramentumtp	1758,1681,1715,1747,1750,ws	habēns ventilābrum āream suam expūrgābit ⟦frūmentumque⟧ suum comportābit in horreum paleam
+Matt.3.12	base-only	reading	horreum	1573: hor Luc reum	1556,1758,1681,1715,1747,1750,ws	expūrgābit frūmentumque suum comportābit in ⟦horreum⟧ paleam autem ignī cremābit inexstinctō
+Matt.3.12	base-only	spelling	inexstinctō	1573: inextincto	ws	horreum paleam autem ignī cremābit ⟦inexstinctō⟧
+Matt.3.13	base-only	division	Tunc adiit	1573: Tuncadijt	1758,1715,1747,ws	⟦Tunc adiit⟧ ex Galilæā Jōhannem Jēsūs ad
+Matt.3.14	base-only	reading	Mihi ut ā	1573: Mihivta Marc	1556,1758,1681,1747,ws	Sed eum prohibēbat Jōhannēs dīcēns ⟦Mihi ut ā⟧ tē baptīzer opus est et
+Matt.3.15	base-only	reading	Cui respondēns	1573: Cuirespondes	1758,1681,1715,1747,ws	⟦Cui respondēns⟧ Jēsūs Sine modo inquit sīc
+Matt.3.16	correct	division	simul ac	1573,1758: fimulac | 1556: frmulac	1747,1750,ws	Et Jēsūs ⟦simul ac⟧ baptīzātus est ascendit ab aquā
+Matt.3.16	base-only	reading	columbam	1573: coluinbam	1556,1758,1681,1747,1750,ws	Jōhannēs Deī Spīritum dēscendentem quasi ⟦columbam⟧ et in eum venientem
+Matt.3.16	base-only	division	venientem	1573: ve nientem	1556,1758,1747,1750,ws	quasi columbam et in eum ⟦venientem⟧
+Matt.3.17	base-only	reading	cārissimus	1573: charif Mat fimus | 1556: charifsi mus | 1758: charissimus | 1747: carillimus | 1750: cariffi mus	ws	cælīs dīcēns Hic est meus ⟦cārissimus⟧ Fīlius quī mihi acceptus est
+Matt.4.1	base-only	reading	ut tentārētur	1573,1556: vttentaretur	1758,ws	Spīritū subductus est in sōlitūdinem ⟦ut tentārētur⟧ ā diabolō
+Matt.4.2	base-only	reading	noctēs	1573: noEtes	1556,1758,1747,ws	Cumque quadrāgintā diēs et totidem ⟦noctēs⟧ jejūnāsset tandem ēsurīvit
+Matt.4.2	base-only	reading	ēsurīvit	1573: esurijt Iefus à diabo | 1758,1747: esuriit	ws	et totidem noctēs jejūnāsset tandem ⟦ēsurīvit⟧
+Matt.4.3	base-only	reading	tentātor	1573: tétator	1556,1758,1747,1750,ws	Igitur aggreditur eum ⟦tentātor⟧ Sī Deī Fīlius es inquit
+Matt.4.3	base-only	reading	inquit	1573: inlo tentatur quit	1758,1681,1747,1750,ws	tentātor Sī Deī Fīlius es ⟦inquit⟧ jubē ut hī lapidēs pānēs
+Matt.4.3	correct	division	hī lapidēs	1573,1750: hilapides	1758,1681,1747,ws	Fīlius es inquit jubē ut ⟦hī lapidēs⟧ pānēs fīant
+Matt.4.4	base-only	reading	respondit	1573: respodit	1758,1681,1747,1750,ws	Cui ita ⟦respondit⟧ ille Scrīptum est Nōn sōlō
+Matt.4.4	base-only	reading		1573: Deut	1758,1747,1750,ws	Scrīptum est Nōn sōlō pāne ⟦⟧ vīvit homō sed omnī verbō
+Matt.4.5	base-only	reading	Tunc addūcit	1573: Sap Tuncadducit	1758,1750,ws	⟦Tunc addūcit⟧ eum diabolus in sānctam urbem
+Matt.4.6	base-only	reading	Scrīptum est enim	1573: Scriptűestenim P al	1758,1681,1747,ws	Fīlius es jace tē deorsum ⟦Scrīptum est enim⟧ Angelīs suīs dē tē mandābit
+Matt.4.7	base-only	division	temptātō	1573: ten tato	1758,1715,1747,ws	scrīptum est inquit illī nē ⟦temptātō⟧ Dominum Deum tuum
+Matt.4.8	others-1573-agrees	reading	Rūrsus addūcit	1715,1747: Deut Rurfusadducit	1573,1758,1681,ws	⟦Rūrsus addūcit⟧ eum diabolus in præaltum montem
+Matt.4.8	base-only	reading	mundī	1573: mūdi	1556,1758,1715,1747,1750,ws	præaltum montem eīque omnia rēgna ⟦mundī⟧ et eōrum glōriam ostendit
+Matt.4.8	base-only	reading	eōrum	1573: eorü	1556,1758,1715,1747,ws	eīque omnia rēgna mundī et ⟦eōrum⟧ glōriam ostendit
+Matt.4.8	base-only	reading	ostendit	1573: oftédit | 1556: o ftendít | 1715: oítendit	1758,1681,1747,1750,ws	rēgna mundī et eōrum glōriam ⟦ostendit⟧
+Matt.4.10	base-only	reading	eumque	1573: eumás | 1556: eum lid	1758,1715,1747,1750,ws	enim Dominum Deum tuum adōrātō ⟦eumque⟧ sōlum colitō
+Matt.4.11	base-only	reading	Tunc omittit	1573: II Tuncomittit	1758,1715,1747,1750,ws	⟦Tunc omittit⟧ eum diabolus et ecce advēnērunt
+Matt.4.11	others-1573-agrees	reading	ministrārent	1715,1747,1750: miniftrarunt	1573,1758,ws	ecce advēnērunt angelī quī eī ⟦ministrārent⟧
+Matt.4.12	correct	form	petīvit	1573,1758,1747,1750,ws: petijt		autem Jēsūs captum esse Jōhannem ⟦petīvit⟧ Galilæam
+Matt.4.13	others-1573-agrees	reading	Caphernaum	1758: Capharnaum | 1747,1750: Capernaum	1573,ws	Et relictā Nazarethā ⟦Caphernaum⟧ profectus ibi commorātus est eā
+Matt.4.13	base-only	reading	commorātus	1573: cominoratus	1556,1758,1747,ws	relictā Nazarethā Caphernaum profectus ibi ⟦commorātus⟧ est eā est maritimā in
+Matt.4.15	base-only	reading		1573: Efaia	1556,1758,1715,1747,1750,ws	Zabūlōnia Nephthalēnsisque terra mare versus ⟦⟧ trāns Jordānem Galilæa extrāneōrum
+Matt.4.15	base-only	reading	extrāneōrum	1573: extraneoruin	1758,ws	mare versus trāns Jordānem Galilæa ⟦extrāneōrum⟧
+Matt.4.16	correct	reading	terræ	1573,1758: tetræ | 1681: tetrx	1556,1747,1750,ws	lūcem magnam et manentibus in ⟦terræ⟧ noctis regiōne lūx orta est
+Matt.4.17	base-only	reading	Ex eō	1573: Exco	1758,1681,1750,ws	⟦Ex eō⟧ cœpit Jēsūs prædicāre et dīcere
+Matt.4.17	base-only	reading		1573: Marc	1556,1758,1681,1715,1747,1750,ws	Jēsūs prædicāre et dīcere Corrigite ⟦⟧ vōs īnstat enim cæleste rēgnum
+Matt.4.17	others-1573-agrees	reading	cæleste	1715,1750: 	1573,1758,ws	dīcere Corrigite vōs īnstat enim ⟦cæleste⟧ rēgnum
+Matt.4.18	base-only	division	Ambulāns autem	1573: Ambulansautem	1758,1715,1747,1750,ws	⟦Ambulāns autem⟧ Jēsūs apud lacum Galilææ cum
+Matt.4.18	base-only	reading	lacum	1573: lacuin	1758,1715,1747,1750,ws	Ambulāns autem Jēsūs apud ⟦lacum⟧ Galilææ cum vīdisset frātrēs duōs
+Matt.4.18	base-only	reading	vīdisset	1573: lefius Simovidisset | 1715: vidiífet | 1750: vidifíet	1758,1747,ws	Jēsūs apud lacum Galilææ cum ⟦vīdisset⟧ frātrēs duōs Simōnem cognōmine Petrum
+Matt.4.18	base-only	reading		1573: nem et An	1556,1758,1715,1747,1750,ws	frātrēs duōs Simōnem cognōmine Petrum ⟦⟧ et Andrēam ejus germānum rēte
+Matt.4.18	base-only	reading		1573: drea vocas	1758,1715,1747,1750,ws	germānum rēte jacientēs in lacum ⟦⟧ erant enim piscātōrēs
+Matt.4.19	correct	reading	mē	1573,1750: ine	1556,1758,1715,1747,ws	dīxit iīs Sequiminī ⟦mē⟧ et faciam vōs hominum piscātōrēs
+Matt.4.20	base-only	division	Atque illī	1573: Atqueilli	1758,1747,1750,ws	⟦Atque illī⟧ continuō relictīs rētibus eum secūtī
+Matt.4.21	base-only	reading		1573: Iaco Itë	1758,1715,1747,1750,ws	prōgressus vīdit aliōs duōs frātrēs ⟦⟧ Jācōbum Zebedæī fīlium et Jōhannem
+Matt.4.21	base-only	reading		1573: bum	1556,1758,1747,ws	vīdit aliōs duōs frātrēs Jācōbum ⟦⟧ Zebedæī fīlium et Jōhannem ejus
+Matt.4.21	base-only	reading	fīlium	1573: filiuin | 1556: et lium	1758,1681,1747,1750,ws	aliōs duōs frātrēs Jācōbum Zebedæī ⟦fīlium⟧ et Jōhannem ejus frātrem in
+Matt.4.21	base-only	reading	nāvī	1573: na et Iohanem ui	1758,1681,1715,1747,ws	et Jōhannem ejus frātrem in ⟦nāvī⟧ cum suō patre Zebedæō sarcientēs
+Matt.4.21	base-only	reading	eōsque vocāvit	1573: eosás	1758,1715,1747,ws	patre Zebedæō sarcientēs sua rētia ⟦eōsque vocāvit⟧
+Matt.4.23	base-only	reading	eōrum	1573: eoruin	1758,1747,1750,ws	tōtam Galilæam Jēsūs docēns in ⟦eōrum⟧ collēgiīs et rēgium pūblicāns ēvangelium
+Matt.4.24	base-only	reading	fāma	1573: faina | 1747: fam	1556,1758,1715,1750,ws	Itaque tanta ejus ⟦fāma⟧ tōtam Sȳriam pervāsit ut afferrentur
+Matt.4.24	base-only	reading	afferrentur	1573: lefius agroafferrêtur | 1747: ak ferrentur | 1750: adferrentur	1758,ws	fāma tōtam Sȳriam pervāsit ut ⟦afferrentur⟧ eī quīcumque male affectī dīversīs
+Matt.4.24	correct	spelling	quīcumque	1573,1758: quicunque	1750,ws	Sȳriam pervāsit ut afferrentur eī ⟦quīcumque⟧ male affectī dīversīs morbīs et
+Matt.4.24	base-only	reading		1573: tos sanat	1556,1758,1750,ws	male affectī dīversīs morbīs et ⟦⟧ cruciātibus tenēbantur furiōsī lūnāticī membrīs
+Matt.4.24	base-only	reading	membrīs	1573: mébris	1758,1681,1715,1747,1750,ws	et cruciātibus tenēbantur furiōsī lūnāticī ⟦membrīs⟧ captī quōs ille sānābat
+Matt.4.25	base-only	reading	Eumque	1573: eumqs	1758,1715,1747,1750,ws	⟦Eumque⟧ secūta est ingēns hominum turba
+Matt.5.2	base-only	reading	ōrātiōne	1573: oratióe	1556,1758,1715,1750,ws	et ille eōs hujusmodī ⟦ōrātiōne⟧ docēre aggressus est
+Matt.5.3	base-only	reading	nam	1573: ná	1556,1758,1715,1750,ws	Beātī pauperēs animō ⟦nam⟧ eōrum est cæleste rēgnum
+Matt.5.6	base-only	reading	sitiuntque	1573: fitiuntos | 1750: fitiuntqu e	1758,1715,ws	Beātī quī ēsuriunt ⟦sitiuntque⟧ jūstitiam nam iī saturābuntur
+Matt.5.6	base-only	reading	saturābuntur	1573: satu	1758,1715,ws	ēsuriunt sitiuntque jūstitiam nam iī ⟦saturābuntur⟧
+Matt.5.7	base-only	reading	nam	1573: ná	1556,1758,1715,ws	Beātī misericordēs ⟦nam⟧ iīs tribuētur misericordia
+Matt.5.9	base-only	reading	pācificī	1573: pacificı	1758,1715,ws	Beātī ⟦pācificī⟧ nam iī Deī fīliī vocābuntur
+Matt.5.11	others	spelling	quandōcumque	1758,1681: quandocunque | 1750: quan documque	ws	Beātī estis ⟦quandōcumque⟧ vōbīs convīciābuntur hominēs et vōs
+Matt.5.12	base-only	reading	mercēs	1573: inerces	1758,1715,1750,ws	nam multa vōbīs in cælō ⟦mercēs⟧ est sīc enim īnsectātī sunt
+Matt.5.12	base-only	reading	sunt	1573: füt	1758,1715,1750,ws	mercēs est sīc enim īnsectātī ⟦sunt⟧ vātēs majōrēs vestrōs
+Matt.5.12	base-only	reading	majōrēs vestrōs	1573: maioresvestros Marc	1758,1715,1750,ws	sīc enim īnsectātī sunt vātēs ⟦majōrēs vestrōs⟧
+Matt.5.13	base-only	reading		1573: Luca	1758,1681,1750,ws	Quod sī sāl īnfatuātum fuerit ⟦⟧ quō saliētur Ad nūllam rem
+Matt.5.14	base-only	reading		1573: Mart | 1556: NLi c	1758,1750,ws	Nōn potest urbs latēre in ⟦⟧ monte sita
+Matt.5.16	base-only	division	Sīc lūceat	1573: Sicluceat	1556,1758,1715,1747,1750,ws	⟦Sīc lūceat⟧ vestra lūx apud hominēs ut
+Matt.5.16	base-only	reading	rēctē	1573: re Etè | 1747: re da milerscordia éte	1556,1758,1715,1750,ws	lūx apud hominēs ut vestra ⟦rēctē⟧ facta videntēs collaudent vestrum Patrem
+Matt.5.17	base-only	reading	perficiam	1573: perfician | 1681: pcrficiam	1556,1758,1715,1747,ws	ut abrogem vēnī sed ut ⟦perficiam⟧
+Matt.5.18	base-only	spelling	cælum	1573: cæ lum | 1747: coehim | 1750: caclum	1556,1758,ws	enim vōbīs cōnfirmō citius peritūrum ⟦cælum⟧ atque terram quam ut ūnum
+Matt.5.19	base-only	reading	minimum	1573: minimű	1758,1681,1747,1750,ws	Igitur quī contrā vel ⟦minimum⟧ hōrum præceptōrum fēcerit licet ita
+Matt.5.19	base-only	reading	ita	1573: bita	1758,1681,1747,1750,ws	minimum hōrum præceptōrum fēcerit licet ⟦ita⟧ doceat hominēs tamen minimus numerābitur
+Matt.5.19	base-only	reading		1573: et	1556,1758,1750,ws	licet ita doceat hominēs tamen ⟦⟧ minimus numerābitur in rēgnō cælestī
+Matt.5.19	base-only	reading	præstiterit	1573: presti Nullo loco terit | 1556: praftí o hibebi terít | 1681: prartiterit	1758,ws	rēgnō cælestī Quī vērō et ⟦præstiterit⟧ et docuerit is magnus numerābitur
+Matt.5.20	base-only	reading	Hōs enim	1573: Hocenim	ws	⟦Hōs enim⟧ vōbīs dīcō nisi jūstitiā scrībīs
+Matt.5.21	correct	reading	Audīstis	1573,1747,ws: Audiuistis		⟦Audīstis⟧ antīquīs esse dictum Nē occīditō
+Matt.5.21	base-only	reading	dictum	1573: dictű | 1747,1750: 	1758,ws	Audīstis antīquīs esse ⟦dictum⟧ Nē occīditō quod quī occīderit
+Matt.5.21	base-only	reading		1573: Exod	1556,1758,1681,1747,1750,ws	esse dictum Nē occīditō quod ⟦⟧ quī occīderit eum tenērī jūdiciō
+Matt.5.23	base-only	reading	tuum	1573: tuu	1556,1758,1715,1750,ws	Itaque sī oblātūrus ⟦tuum⟧ mūnus ad āram ibi recordātus
+Matt.5.23	base-only	reading	tuum	1573: tuű	1758,1715,1750,ws	ad āram ibi recordātus fueris ⟦tuum⟧ frātrem habēre quod dē tē
+Matt.5.23	base-only	reading		1573: a | 1750: E i fratrem	1758,1715,ws	ibi recordātus fueris tuum frātrem ⟦⟧ habēre quod dē tē querātur
+Matt.5.24	base-only	reading	tuum	1573: tuuin	1758,1715,1750,ws	relinque illīc ⟦tuum⟧ mūnus ad āram et prius
+Matt.5.24	others-1573-agrees	reading	ī	1758,1747: 	1573,1681,1750,ws	mūnus ad āram et prius ⟦ī⟧ reconciliāre tuō frātrī atque ita
+Matt.5.24	base-only	reading	mūnus tuum	1573: mu	1556,1758,1747,ws	atque ita dēmum ī oblātum ⟦mūnus tuum⟧
+Matt.5.25	others-1573-agrees	division	es in	1715,1750: esin	1573,1556,1758,ws	cum adversāriō tuō mātūrē dum ⟦es in⟧ viā cum eō nē tē
+Matt.5.25	others-1573-agrees	division	nē tē	1556,1747,1750: nete	1573,1758,1715,ws	es in viā cum eō ⟦nē tē⟧ trādat adversārius jūdicī et jūdex
+Matt.5.26	base-only	reading	inquam	1573: inquá	1556,1758,1715,1747,1750,ws	Profectō ⟦inquam⟧ ego tibi nōn exībis inde
+Matt.5.26	base-only	reading	ultimum	1573: e vltimuın	1758,1715,1747,1750,ws	tibi nōn exībis inde quīn ⟦ultimum⟧ solveris quadrantem
+Matt.5.27	correct	reading	Audīstis	1573,1758,1715,1750,ws: Audiuistis		⟦Audīstis⟧ antīquīs esse dictum Nē adulterātō
+Matt.5.28	base-only	reading	fēminam sīc aspicit ut	1573: fœmină ficafpicit Neaduluvt	1758,ws	Ego vērō vōbīs dīcō quisquis ⟦fēminam sīc aspicit ut⟧ eam concupīscat jam eam animō
+Matt.5.29	base-only	reading		1573: f quicquid | 1556: t	1758,1715,1750,ws	oculus tuus dexter officit ērue ⟦⟧ eum et abjice Præstat enim
+Matt.5.29	base-only	reading		1573: ad peccanda pellicit aut	1758,1715,1750,ws	Præstat enim tibi ūnum membrōrum ⟦⟧ tuōrum perdī quam tōtum corpus
+Matt.5.29	base-only	reading	gehennam	1573: gehen impellit vinam	1758,ws	quam tōtum corpus tuum in ⟦gehennam⟧ dējicī
+Matt.5.30	base-only	division	Et sī	1573: Etfi	1758,1747,1750,ws	⟦Et sī⟧ tibi vel dextra tua manus
+Matt.5.30	correct	spelling	dextra	1573,1758: dextera	1750,ws	Et sī tibi vel ⟦dextra⟧ tua manus officit amputā eam
+Matt.5.30	base-only	reading	amputā	1573: amputado	1758,1747,1750,ws	vel dextra tua manus officit ⟦amputā⟧ eam et abjice Præstat enim
+Matt.5.30	base-only	reading		1573: lo charius	1758,1750,ws	Præstat enim tibi ūnum membrōrum ⟦⟧ tuōrum perdī quam tōtum corpus
+Matt.5.31	base-only	reading		1573: Mat	1758,ws	item Quī uxōrem suam repudiābit ⟦⟧ det eī īnstrūmentum dīvortiī
+Matt.5.33	correct	reading	audīstis	1573,1758,ws: audiuiftis		Rūrsus ⟦audīstis⟧ dictum veteribus Nē pejerātō sed
+Matt.5.33	base-only	reading		1573: Ne peierate	1758,1715,1750,ws	audīstis dictum veteribus Nē pejerātō ⟦⟧ sed Dominō quæ jūrāveris redditō
+Matt.5.34	correct	division	At ego	1573,1750: Atego	1758,1715,1747,ws	⟦At ego⟧ vōbīs dīcō omnīnō nōn esse
+Matt.5.34	base-only	reading	esse jūrandum	1573: esseiurandum Jacob s	1758,1715,1747,ws	ego vōbīs dīcō omnīnō nōn ⟦esse jūrandum⟧ neque per cælum quoniam Deī
+Matt.5.34	base-only	reading	cælum	1573: cæluin	1758,1715,1747,1750,ws	nōn esse jūrandum neque per ⟦cælum⟧ quoniam Deī solium est
+Matt.5.35	base-only	reading	neque	1573: neqs | 1750: negue	1758,1715,1747,ws	⟦neque⟧ per terram quia ejus pedum
+Matt.5.35	base-only	reading	pedum	1573: pedū | 1715: qui vos amant quam mercepedum	1758,1747,1750,ws	neque per terram quia ejus ⟦pedum⟧ subsellium est neque per Hierosolyma
+Matt.5.35	base-only	reading	neque	1573: neqs | 1747: negue	1758,1715,1750,ws	quia ejus pedum subsellium est ⟦neque⟧ per Hierosolyma quoniam urbs magnī
+Matt.5.36	base-only	reading	nōn possīs	1573: nó pof sis	1750,ws	per tuum caput jūrāverīs quoniam ⟦nōn possīs⟧ vel ūnum crīnem album nigrumve
+Matt.5.36	base-only	division	nigrumve	1573: nigrum ve | 1681: nigrumvw	1758,1715,1747,1750,ws	possīs vel ūnum crīnem album ⟦nigrumve⟧ facere
+Matt.5.37	base-only	reading	etiam	1573: etiá | 1715: et quemadmodum Pater vefter qui jam | 1747: Cam	1556,1758,1681,1750,ws	Sed estō sermō vester ⟦etiam⟧ etiam nōn nōn Quod præter
+Matt.5.38	correct	reading	Audīstis	1573,1758,1681,1747,ws: Audiuistis | 1750: Auditis	1556,1715	⟦Audīstis⟧ ut dictum sit Oculum prō
+Matt.5.38	base-only	reading		1573: Lex talionis	1556,1758,ws	sit Oculum prō oculō et ⟦⟧ dentem prō dente
+Matt.5.39	base-only	reading	resistendum	1573: resistédum	1758,1747,1750,ws	vērō vōbīs dīcō nōn esse ⟦resistendum⟧ injūriæ quīn sī quis tibi
+Matt.5.39	base-only	reading		1573: Exod	1758,1747,1750,ws	dīcō nōn esse resistendum injūriæ ⟦⟧ quīn sī quis tibi colaphum
+Matt.5.39	correct	spelling	dextram	1573,1758,1681: dexteram | 1556: Exod d dexteram | 1715: dexteram Avete ne benignitatem in	1750,ws	sī quis tibi colaphum in ⟦dextram⟧ mālam impēgerit obverte eī etiam
+Matt.5.39	base-only	reading	impēgerit	1573: impe Cor gerit | 1747: pegerit	1556,1758,1681,1715,1750,ws	tibi colaphum in dextram mālam ⟦impēgerit⟧ obverte eī etiam alteram
+Matt.5.43	correct	reading	Audīstis	1573,1758,1747,ws: Audiuistis | 1750: Audiuiflis		⟦Audīstis⟧ dictum Proximum tuum amātō et
+Matt.5.43	base-only	reading		1573: Leuis	1758,1747,1750,ws	dictum Proximum tuum amātō et ⟦⟧ inimīcum tuum ōderīs
+Matt.5.44	base-only	reading	bene	1573: be tuu amare ne	1758,1681,1747,1750,ws	vōbīs dīcō Amāte inimīcōs vestrōs ⟦bene⟧ precāminī iīs quī vōbīs imprecantur
+Matt.5.44	others	division	bene facite	1573: benefacite Rom | 1758,1747,1750: benefacite	ws	precāminī iīs quī vōbīs imprecantur ⟦bene facite⟧ vestrīs malevolīs et ōrāte prō
+Matt.5.45	base-only	reading	injūstōsque	1573: iniustosás	1758,1681,1747,1750,ws	juxtā ac bonōs et jūstōs ⟦injūstōsque⟧ compluat
+Matt.5.46	base-only	reading		1573: Lute	1556,1758,1747,1750,ws	amātis quī vōs amant quam ⟦⟧ mercēdem habitūrī estis An nōn
+Matt.5.47	base-only	division	ēgregium	1573: egre gium	1556,1758,1681,1747,1750,ws	vestrōs dumtaxat frātrēs salūtātis quid ⟦ēgregium⟧ facitis Nōnne vel pūblicānī similiter
+Matt.5.48	base-only	reading		1573: Leuit	1556,1758,1747,1750,ws	igitur perfectī vōs quemadmodum Pater ⟦⟧ vester quī in cælīs est
+Matt.6.1	base-only	reading	cōnspectū exerceātis	1573: confpetu exercearis | 1556: cone Efeeiofjfpéctuexerceatis | 1715: confpe et u exeram alteram Luc Cor lceatis	1747,ws	Cavēte nē benignitātem in hominum ⟦cōnspectū exerceātis⟧ per ostentātiōnem aliōquī præmium nōn
+Matt.6.1	base-only	reading	ostentātiōnem aliōquī præmium nōn	1573: oftentatione alioquin præ mium nó	1747,ws	in hominum cōnspectū exerceātis per ⟦ostentātiōnem aliōquī præmium nōn⟧ estis habitūrī apud Patrem vestrum
+Matt.6.1	others	reading	aliōquī	1758,1750: alioquin | 1715: alioA qui g EVANGELIUM Cap qui	1747,ws	hominum cōnspectū exerceātis per ostentātiōnem ⟦aliōquī⟧ præmium nōn estis habitūrī apud
+Matt.6.1	base-only	reading		1573: Laudare	1758,1681,1715,1747,1750,ws	estis habitūrī apud Patrem vestrum ⟦⟧ quī in cælīs est
+Matt.6.2	correct	spelling	quandōcumque	1573,1758,1681,1747: quandocunque	1750,ws	Igitur ⟦quandōcumque⟧ benignē facis nōlī præ tē
+Matt.6.2	base-only	reading	tubā	1573: tudatur ab ho ba	1556,1758,1681,1715,1747,1750,ws	benignē facis nōlī præ tē ⟦tubā⟧ clangere ut simulātōrēs faciunt in
+Matt.6.2	base-only	reading		1573: winburne	1758,1715,1747,1750,ws	simulātōrēs faciunt in collēgiīs atque ⟦⟧ vīcīs ut collaudentur ab hominibus
+Matt.6.2	base-only	reading	cōnfirmō	1573: conmerces eat firmo a	1556,1758,1681,1715,1747,1750,ws	collaudentur ab hominibus Hoc vōbīs ⟦cōnfirmō⟧ eōs jam habēre suam mercēdem
+Matt.6.3	base-only	reading	At tē	1573: Atte	1758,1747,1750,ws	⟦At tē⟧ benignē faciente nesciat tua sinistra
+Matt.6.3	base-only	reading	faciat dextra	1573: fo ciat dextera	1750,ws	faciente nesciat tua sinistra quid ⟦faciat dextra⟧
+Matt.6.3	others	spelling	dextra	1758,1747: dextera	1750,ws	nesciat tua sinistra quid faciat ⟦dextra⟧
+Matt.6.4	correct	reading	occultē	1573,1758,1747,1750: occulta | 1556: occulta o c	ws	occultō et tuus Pater quī ⟦occultē⟧ videt tibi palam reddet
+Matt.6.5	base-only	division	vōbīs	1573: vo bis	1758,1681,1715,1747,1750,ws	ut sint hominibus cōnspicuī Hoc ⟦vōbīs⟧ cōnfirmō eōs habēre suam mercēdem
+Matt.6.6	base-only	reading	At tū	1573: Attu	1758,1681,1747,ws	⟦At tū⟧ supplicātūrus ingredere conclāve tuum et
+Matt.6.6	correct	reading	occultē	1573,1758,1747,1750: occulta | 1715: oc Necongerite vobis opes in culta	ws	occultō et Pater tuus quī ⟦occultē⟧ videt tibi palam reddet
+Matt.6.7	base-only	reading	autem	1573: autein	1556,1758,1715,1747,1750,ws	Supplicantēs ⟦autem⟧ nē garrīte ut extrāneī quī
+Matt.6.7	others-1573-agrees	reading	extrāneī	1747,1750: ethnici	1573,1556,1758,1681,ws	Supplicantēs autem nē garrīte ut ⟦extrāneī⟧ quī sē putant ob loquācitātem
+Matt.6.9	base-only	division	Sīc igitur	1573: Sicigitur	1758,1747,1750,ws	⟦Sīc igitur⟧ supplicāte vōs Pater noster quī
+Matt.6.9	base-only	division	es in	1573: ESIN	1758,1715,1747,1750,ws	supplicāte vōs Pater noster quī ⟦es in⟧ cælīs sānctē colātur nōmen tuum
+Matt.6.9	base-only	division	nōmen tuum	1573: NOMENTVVM	1758,1747,1750,ws	es in cælīs sānctē colātur ⟦nōmen tuum⟧
+Matt.6.10	base-only	reading	fīat	1573: FlAT	1556,1758,1715,1747,1750,ws	veniat rēgnum tuum ⟦fīat⟧ voluntās tua ut in cælō
+Matt.6.10	base-only	division	tua	1573: TV A	1556,1758,1715,1747,ws	veniat rēgnum tuum fīat voluntās ⟦tua⟧ ut in cælō sīc et
+Matt.6.11	base-only	division	alimentārium	1573: ALIMEN TARIVM | 1715: alimenta Sin fuerit oculus tuus ne rium	1556,1758,1747,1750,ws	Vīctum nostrum ⟦alimentārium⟧ dā nōbīs hodiē
+Matt.6.12	base-only	reading	remittimus	1573: REMITTIs MVS	1758,1715,1747,1750,ws	dēbita nostra ut et nōs ⟦remittimus⟧ dēbitōribus nostrīs
+Matt.6.13	base-only	division	nēve nōs in	1573: NEVENOSIN	1758,1747,1750,ws	⟦nēve nōs in⟧ tentātiōnem indūcitō sed ā malō
+Matt.6.13	others-1573-agrees	division	in sempiternum	1681,1747: infempiternum	1573,1758,1750,ws	rēgnum et potentia et glōria ⟦in sempiternum⟧ āmēn
+Matt.6.14	others-1573-agrees	reading	Sī	1758,1747: i	1573,1681,1750,ws	⟦Sī⟧ enim remīseritis aliīs hominibus sua
+Matt.6.16	base-only	reading	simulātōrēs	1573: sinulatores | 1681: iimulatores	1556,1758,1747,1750,ws	jejūnātis nē este tætricī quālēs ⟦simulātōrēs⟧ quī vultūs suōs dēfōrmant ut
+Matt.6.16	base-only	reading	cōnfirmō eōs suum abstulisse præmium	1573: cófirino eossuū abstulissepremiű	1758,ws	appāreat eōs jejūnāre Hoc vōbīs ⟦cōnfirmō eōs suum abstulisse præmium⟧
+Matt.6.17	base-only	reading	vultum	1573: vultu	1556,1758,1747,ws	jejūnāns ungitō tibi caput et ⟦vultum⟧ lavātō
+Matt.6.18	correct	division	jejūnāre tē	1573,1556,1747: ieiunarete	1758,ws	nē perspicuum sit aliīs hominibus ⟦jejūnāre tē⟧ sed Patrī tuō quī occultus
+Matt.6.18	correct	reading	occultē	1573,1556,1758,1681,1747,1750: occulta	ws	est et Pater tuus quī ⟦occultē⟧ cernit tibi palam reddet
+Matt.6.19	others-1573-agrees	reading	ac	1747,1750: et	1573,1758,1681,ws	tinea ærūgōque et fūrēs perfodiunt ⟦ac⟧ fūrantur
+Matt.6.20	base-only	reading	corrumpit	1573: corrupit	1758,1681,1747,1750,ws	ubi nec ærūgō aut tinea ⟦corrumpit⟧ nec fūrēs perfodiunt aut fūrantur
+Matt.6.22	others-1573-agrees	reading	erit	1556,1747,1750: fuerít	1573,1758,ws	corporis est oculus Quod sī ⟦erit⟧ oculus tuus simplex tōtum corpus
+Matt.6.22	base-only	reading		1573: Luc n | 1750: Cap	1556,1758,1747,ws	oculus Quod sī erit oculus ⟦⟧ tuus simplex tōtum corpus tuum
+Matt.6.23	others-1573-agrees	reading	erit	1747,1750: fuerit	1573,1758,1681,ws	Sīn ⟦erit⟧ oculus tuus nēquam tōtum tuum
+Matt.6.23	others-1573-agrees	reading		1747,1750: corpus	1573,1758,1681,ws	erit oculus tuus nēquam tōtum ⟦⟧ tuum corpus erit tenebrōsum Sī
+Matt.6.23	base-only	division	tenebræ	1573: tene bræ | 1747: tenerae	1758,1750,ws	quod in tē lūmen est ⟦tenebræ⟧ sunt quantæ erunt ipsæ tenebræ
+Matt.6.24	base-only	reading		1573: Luc	1758,1681,1715,1750,ws	duōbus servīre dominīs aut enim ⟦⟧ hunc ōderit illum amābit aut
+Matt.6.24	base-only	reading	amābit	1573: anabit	1758,1681,1715,1747,1750,ws	aut enim hunc ōderit illum ⟦amābit⟧ aut hunc tuēbitur illum contemnet
+Matt.6.24	base-only	reading	contemnet	1573: con Solicitudo temnet	1758,1715,1750,ws	amābit aut hunc tuēbitur illum ⟦contemnet⟧ Nōn potestis Deō servīre et
+Matt.6.25	base-only	division	Hanc ob rem	1573: Hancobrem	1758,1681,1747,1750,ws	⟦Hanc ob rem⟧ inquam ego vōbīs nē este
+Matt.6.25	others-1573-agrees	reading		1715,1747,1750: veftra	1573,1556,1758,ws	ego vōbīs nē este dē ⟦⟧ vītā vestrā sollicitī quid ēsūrī
+Matt.6.25	others-1573-agrees	reading	vestrā	1715,1750: 	1573,1556,1758,ws	vōbīs nē este dē vītā ⟦vestrā⟧ sollicitī quid ēsūrī bibitūrīve neque
+Matt.6.25	correct	spelling	sollicitī	1573,1758: foliciti	1715,1750,ws	nē este dē vītā vestrā ⟦sollicitī⟧ quid ēsūrī bibitūrīve neque dē
+Matt.6.25	base-only	reading		1573: et qui vita	1758,1747,1750,ws	nōn et vīta plūris sit ⟦⟧ quam alimōnia et corpus quam
+Matt.6.26	correct	reading	āeriās	1573,1758,1715,1747,1750,ws: aereas		Aspicite volucrēs ⟦āeriās⟧ ut neque serant neque metant
+Matt.6.26	base-only	reading	neque	1573: neqs	1758,1715,1747,1750,ws	Aspicite volucrēs āeriās ut ⟦neque⟧ serant neque metant nec in
+Matt.6.26	base-only	reading	metant	1573: me pluris funt tant	1556,1758,1715,1747,1750,ws	āeriās ut neque serant neque ⟦metant⟧ nec in cellās congerant tamen
+Matt.6.26	base-only	reading	Pater	1573: pa viaum et vefti ter	1758,1715,1747,1750,ws	cellās congerant tamen vester cælestis ⟦Pater⟧ eās alit Quasi vērō nōn
+Matt.6.26	base-only	reading	præstantiōrēs	1573: præ	1758,1747,1750,ws	nōn vōs multō sītis iīs ⟦præstantiōrēs⟧
+Matt.6.28	correct	spelling	sollicitāminī	1573,1758: folicitamini | 1715: foli citamini | 1750: follici tamini	ws	Item dē vestītū quid ⟦sollicitāminī⟧ Discite ut terrestria crēscant līlia
+Matt.6.28	base-only	division	terrestria	1573: ter restria | 1715: tetreftria	1556,1758,1747,1750,ws	vestītū quid sollicitāminī Discite ut ⟦terrestria⟧ crēscant līlia neque labōrandō neque
+Matt.6.29	others-1573-agrees	reading	Solomōnem	1715,1747: Salomonem	1573,1556,1758,1681,1750,ws	Atquī hoc vōbīs dīcō nē ⟦Solomōnem⟧ quidem cum omnī splendōre suō
+Matt.6.29	others-1573-agrees	reading	suō	1715,1747: 	1573,1758,1681,1750,ws	Solomōnem quidem cum omnī splendōre ⟦suō⟧ ita vestītum fuisse ut hōrum
+Matt.6.30	others-1573-agrees	reading	sī	1758,1715: i	1573,1681,1747,1750,ws	Quod ⟦sī⟧ terrestrem herbam quæ hodiē est
+Matt.6.31	correct	spelling	sollicitī	1573,1758,1715,1747: foliciti	1750,ws	Nē este igitur ⟦sollicitī⟧ dīcentēs Quid edēmus aut quid
+Matt.6.34	base-only	reading	crāstinum sollicitī	1573: craftinű foliciti | 1556: craftínt olicítí | 1758: crasti num soliciti | 1715: eraftinum MAT TH I Nemo poteit duobus fer foliciti	1750,ws	Nē este igitur in ⟦crāstinum sollicitī⟧ nam crāstinus diēs sua cūrābit
+Matt.7.2	base-only	reading	eādem	1573: eadein	1758,1715,1747,1750,ws	et quā mēnsūrā mēnsī fueritis ⟦eādem⟧ vōbīs remētiētur
+Matt.7.4	correct	division	Aut audēbis	1573,1750: Autaudebis | 1715: Luc Autaudebis	1758,1681,1747,ws	⟦Aut audēbis⟧ dīcere tuō frātrī Sine eximam
+Matt.7.4	base-only	reading	festūcam	1573: feltucam | 1681: fcftucam | 1715: feflu cam | 1750: feflucam et	1758,1747,ws	Sine eximam ex oculō tuō ⟦festūcam⟧ cum sit in oculō tuō
+Matt.7.5	base-only	reading	exime	1573: exine	1556,1758,1681,1715,1747,1750,ws	Simulātor ⟦exime⟧ prius ex oculō tuō trabem
+Matt.7.5	base-only	division	ita	1573: i ta	1758,1681,1715,1747,1750,ws	ex oculō tuō trabem et ⟦ita⟧ dēmum cernēs ad eximendam ex
+Matt.7.6	others-1573-agrees	reading	vestrōs	1556: uefltros | 1758,1750: vestras	1573,1715,1747,ws	rem sacram canibus nēve margarītās ⟦vestrōs⟧ porcīs appōnite nē hī eōs
+Matt.7.6	base-only	reading	eōs	1573: cos	1556,1758,1681,1715,1747,1750,ws	vestrōs porcīs appōnite nē hī ⟦eōs⟧ pedibus conculcent illī versī lacerent
+Matt.7.7	base-only	reading	pulsāte	1573: pul Marc fate | 1747: pulCap fate	1758,1681,1715,1750,ws	dabitur vōbīs quærite et inveniētis ⟦pulsāte⟧ et vōbīs aperiētur
+Matt.7.8	base-only	reading		1573: latsb	1758,1750,ws	petit obtinet et quisquis quærit ⟦⟧ invenit et pulsantī aperiētur
+Matt.7.8	correct	reading	aperiētur	1573,1758,1681,1715,1747: aperitur	ws	quisquis quærit invenit et pulsantī ⟦aperiētur⟧
+Matt.7.9	correct	reading	Jam	1573,1747: lam | 1681: am	1758,1715,1750,ws	⟦Jam⟧ quis est vestrum homō quī
+Matt.7.9	base-only	reading	vestrum	1573: vestrûn | 1750: vettrum	1758,1681,1747,ws	Jam quis est ⟦vestrum⟧ homō quī petentī fīliō suō
+Matt.7.10	others-1573-agrees	reading		1715,1747: det	1573,1758,ws	Aut piscem petentī ⟦⟧ anguem det
+Matt.7.11	base-only	reading	malī	1573: malı	1556,1758,1681,1715,1747,1750,ws	Quod sī vōs quī ⟦malī⟧ estis tamen scītis bona dōna
+Matt.7.11	others-1573-agrees	reading	dōna	1715,1747: 	1573,1758,1681,1750,ws	malī estis tamen scītis bona ⟦dōna⟧ dare vestrīs līberīs quantō magis
+Matt.7.11	base-only	reading	vestrīs	1573: vettris | 1556: ue Itrís | 1681: reftris	1758,1715,1747,1750,ws	tamen scītis bona dōna dare ⟦vestrīs⟧ līberīs quantō magis Pater vester
+Matt.7.11	base-only	reading	vester	1573: velter | 1681: veftcr	1556,1758,1715,1747,1750,ws	vestrīs līberīs quantō magis Pater ⟦vester⟧ quī in cælīs est dabit
+Matt.7.12	base-only	reading	quoque	1573: quoq | 1556: etiam Tof | 1715: et cam Nunquam cognovi vos iam | 1750: etiam	1758,1681,ws	vōbīs faciant aliī idem vōs ⟦quoque⟧ iīs facite nam ea lēx
+Matt.7.12	base-only	reading		1573: a	1758,1715,1747,1750,ws	vōs quoque iīs facite nam ⟦⟧ ea lēx est atque vātēs
+Matt.7.13	base-only	reading		1573: Intradum	1556,1758,1715,1747,1750,ws	portam nam lāta est porta ⟦⟧ et ampla via quæ dūcit
+Matt.7.13	base-only	spelling	quæ	1573: quę | 1715: quz	1758,1681,1747,1750,ws	est porta et ampla via ⟦quæ⟧ dūcit ad interitum multīque sunt
+Matt.7.13	base-only	reading		1573: angusta per | 1750: I	1758,1715,1747,ws	interitum multīque sunt quī per ⟦⟧ eam ingrediuntur
+Matt.7.14	base-only	reading	angusta	1573: anguita	1758,1681,1715,1747,1750,ws	sed ⟦angusta⟧ porta et arta via est
+Matt.7.14	correct	reading	arta	1573,1556,1758,1715: arcta | 1681: ar et a | 1747: al et ta	ws	sed angusta porta et ⟦arta⟧ via est quæ dūcit ad
+Matt.7.14	base-only	reading		1573: Vatesque do	1556,1758,1681,1715,1750,ws	via est quæ dūcit ad ⟦⟧ vītam paucīque sunt quī eam
+Matt.7.14	base-only	reading	paucīque	1573: pauciós	1556,1758,1681,1715,1747,1750,ws	est quæ dūcit ad vītam ⟦paucīque⟧ sunt quī eam inveniant
+Matt.7.15	base-only	reading	Cavēte	1573: Cauere	1556,1758,1715,1747,1750,ws	⟦Cavēte⟧ autem falsōs vātēs quī quidem
+Matt.7.15	base-only	reading		1573: gis vatumas	1758,1715,1750,ws	falsōs vātēs quī quidem veniunt ⟦⟧ ad vōs in vestīmentīs ovium
+Matt.7.15	others	reading		1715,1750: lupi	1758,ws	vestīmentīs ovium cum intus sint ⟦⟧ rapācēs lupī
+Matt.7.15	base-only	reading	rapācēs lupī	1573: rapa	1758,ws	vestīmentīs ovium cum intus sint ⟦rapācēs lupī⟧
+Matt.7.16	base-only	division	colligitur ex	1573: colligiturex	1556,1758,1715,1750,ws	ex suīs frūctibus cognōscētis Scīlicet ⟦colligitur ex⟧ spīnīs ūva aut ex tribulīs
+Matt.7.17	base-only	reading	malōs	1573: inalo s	1556,1758,1715,1747,ws	ēdit tætra autem arbor frūctūs ⟦malōs⟧ ēdit
+Matt.7.18	base-only	reading	potest	1573: potelt | 1758: pofura test	1556,1715,1747,1750,ws	Nōn ⟦potest⟧ arbor bona frūctūs ferre malōs
+Matt.7.18	others-1573-agrees	reading	ferre	1747,1750: 	1573,1556,1758,1681,ws	Nōn potest arbor bona frūctūs ⟦ferre⟧ malōs nec arbor tætra frūctūs
+Matt.7.18	others-1573-agrees	reading		1715,1750: facere	1573,1758,1681,ws	arbor bona frūctūs ferre malōs ⟦⟧ nec arbor tætra frūctūs ferre
+Matt.7.19	base-only	reading	excīditur	1573: exci Rom ditur | 1715: excinditur | 1747: exfcin pluuia venientibus fluuiis ditur etin ignem coniicitur pirantibusque ventis | 1750: exfcinditur	1758,ws	arbor bonum frūctum nōn ferēns ⟦excīditur⟧ et in ignem conjicitur
+Matt.7.21	base-only	reading	dīcet	1573: dicer | 1747: di nem finiuitlefus ftupebat illa ft cet	1556,1758,1681,1715,1750,ws	Nōn quisquis mihi ⟦dīcet⟧ Domine Domine intrābit in cæleste
+Matt.7.21	base-only	reading	rēgnum	1573: regnuin	1758,1681,1715,1747,1750,ws	Domine Domine intrābit in cæleste ⟦rēgnum⟧ sed quī fēcerit quod vult
+Matt.7.21	base-only	reading	Pater	1573: pa Non qui au ter	1556,1758,1681,1715,1747,ws	sed quī fēcerit quod vult ⟦Pater⟧ meus quī est in cælīs
+Matt.7.21	others-1573-agrees	reading	meus	1556,1715,1747: 	1573,1758,1681,ws	quī fēcerit quod vult Pater ⟦meus⟧ quī est in cælīs
+Matt.7.22	base-only	reading		1573: parebea | 1758: neve	1750,ws	in illā diē Domine Domine ⟦⟧ nōnne tuō nōmine vāticinātī sumus
+Matt.7.22	base-only	reading	prōdigiōsē fēcimus	1573: prodigio	1747,1750,ws	expulimus et tuō nōmine multa ⟦prōdigiōsē fēcimus⟧
+Matt.7.23	base-only	reading	dīcam Numquam	1573: dícá Nunquam	ws	Quibus ego tum apertē ⟦dīcam Numquam⟧ cognōvī vōs Facessite ā mē
+Matt.7.23	base-only	reading		1573: Pla m	1758,1681,1750,ws	tum apertē dīcam Numquam cognōvī ⟦⟧ vōs Facessite ā mē maleficī
+Matt.7.24	base-only	reading	mea	1573: imea	1556,1758,1750,ws	Igitur quisquis hæc ⟦mea⟧ dicta et audit et exsequitur
+Matt.7.24	base-only	reading	exsequitur	1573: exequi Lut tur | 1556: exep quítur | 1758: exequitur	1750,ws	mea dicta et audit et ⟦exsequitur⟧ eum ego cum virō prūdentī
+Matt.7.24	base-only	reading	rūpem	1573: rupein | 1556: rupe	1758,ws	comparō quī suam domum in ⟦rūpem⟧ cōnstruit
+Matt.7.25	base-only	reading	eam	1573: cam	1556,1758,1750,ws	fluviīs spīrantibus ventīs et in ⟦eam⟧ irruentibus nōn tamen cadit quippe
+Matt.7.26	others	spelling	exsequitur	1758,1715: exequitur	1750,ws	hæc mea dicta audit nec ⟦exsequitur⟧ similiter facit ac sī quis
+Matt.7.26	base-only	reading	exsequitur similiter	1573: exequitur faniliter	1750,ws	hæc mea dicta audit nec ⟦exsequitur similiter⟧ facit ac sī quis stultus
+Matt.7.26	base-only	reading	suam	1573: suá | 1715: 	1556,1758,1750,ws	ac sī quis stultus homō ⟦suam⟧ domum in arēnā cōnstruat
+Matt.7.27	base-only	reading	spīrantibusque	1573: spirantibusąs | 1758: spirantibus WF me que	1681,1715,1750,ws	domus dēlāpsā pluviā venientibus fluviīs ⟦spīrantibusque⟧ ventīs et in eam impingentibus
+Matt.7.27	base-only	reading	ruīnam	1573: ruinain	1556,1758,1681,1715,1750,ws	eam impingentibus corruat et ingentem ⟦ruīnam⟧ det
+Matt.7.28	base-only	reading	hanc	1573: hane	1556,1758,1681,1715,1750,ws	Postquam ⟦hanc⟧ ōrātiōnem fīnīvit Jēsūs stupēbat illa
+Matt.7.28	base-only	reading	stupēbat	1573: stupe Mare bat	1758,1715,1750,ws	Postquam hanc ōrātiōnem fīnīvit Jēsūs ⟦stupēbat⟧ illa hominum turba ad ejus
+Matt.8.1	base-only	division	ingēns	1573: in gens	1758,1681,1747,1750,ws	eum dē monte secūta est ⟦ingēns⟧ hominum turba
+Matt.8.2	base-only	reading	dīxit	1573: di Jum andt xit	1556,1758,1715,1747,1750,ws	vēnit leprōsus quī eum venerātus ⟦dīxit⟧ Domine sī vīs potes mē
+Matt.8.3	base-only	reading	Jēsūs	1573: tesus	1758,1747,1750,ws	Et ⟦Jēsūs⟧ illum porrēctā manū tetigit dīcēns
+Matt.8.3	base-only	reading	Volō	1573: VoLeuit lo	1556,1758,1715,1747,1750,ws	illum porrēctā manū tetigit dīcēns ⟦Volō⟧ mundus estō Ac statim mundāta
+Matt.8.4	base-only	reading		1573: a	1556,1758,1747,1750,ws	mūnus offer quod præcēpit Mōsēs ⟦⟧ ut esset iīs testimōniō
+Matt.8.4	base-only	reading		1573: à vi co mu | 1750: a effet	1556,1758,1747,ws	offer quod præcēpit Mōsēs ut ⟦⟧ esset iīs testimōniō
+Matt.8.5	base-only	division	Ingressum autem	1573: Ingreffumautem	1758,1747,ws	⟦Ingressum autem⟧ Jēsum Capharnaum convēnit centuriō quīdam
+Matt.8.5	others-1573-agrees	reading	Capharnaum	1715,1747: Capernaum	1573,1556,1758,ws	Ingressum autem Jēsum ⟦Capharnaum⟧ convēnit centuriō quīdam et hujusmodī
+Matt.8.5	base-only	reading		1573: tos effe à le	1758,1715,1747,ws	Ingressum autem Jēsum Capharnaum convēnit ⟦⟧ centuriō quīdam et hujusmodī verbīs
+Matt.8.5	base-only	reading	quīdam	1573: quidain	1758,1681,1715,1747,1750,ws	autem Jēsum Capharnaum convēnit centuriō ⟦quīdam⟧ et hujusmodī verbīs ōrāvit
+Matt.8.6	base-only	reading	graviterque	1573: graui Luc terás | 1750: grauiter que	1758,1715,1747,ws	puer meus jacet domī sīderātus ⟦graviterque⟧ cruciātur
+Matt.8.7	base-only	reading	eum	1573: euin | 1681: cum	1758,1715,1747,1750,ws	Cui Jēsūs Ego ⟦eum⟧ sānātum ībō inquit
+Matt.8.8	base-only	reading	At centuriō	1573: Atceturio	1556,1758,1715,1747,1750,ws	⟦At centuriō⟧ respondēns Domine nōn sum dignus
+Matt.8.8	base-only	reading	nōn	1573: no	1758,1715,1747,1750,ws	At centuriō respondēns Domine ⟦nōn⟧ sum dignus inquit cujus tū
+Matt.8.8	base-only	reading		1573: fum interpel	1758,1715,1747,1750,ws	respondēns Domine nōn sum dignus ⟦⟧ inquit cujus tū tēctum subeās
+Matt.8.8	base-only	reading	verbō	1573: vertat ob pueri bo	1556,1758,1681,1715,1747,1750,ws	tēctum subeās sed tantum jubē ⟦verbō⟧ et sānābitur puer meus
+Matt.8.10	base-only	division	Hōc audītō	1573: Hocaudito	1758,1681,1747,ws	⟦Hōc audītō⟧ mīrātus Jēsūs ita dīxit sequentibus
+Matt.8.12	base-only	reading		1573: inft n iga	1556,1758,1747,1750,ws	in īmās ējicientur tenebrās ubi ⟦⟧ flētus strīdorque dentium futūrus est
+Matt.8.12	base-only	reading	strīdorque	1573: stridorás | 1750: ftric lorque	1758,ws	īmās ējicientur tenebrās ubi flētus ⟦strīdorque⟧ dentium futūrus est
+Matt.8.13	base-only	reading	reversusque	1573: reuerfusć | 1556: rez ueríusqp | 1681: revcrfufquc | 1747: reuerfu que	1758,1750,ws	illīus puer eādem illā hōrā ⟦reversusque⟧ domum suam centuriō eādem illā
+Matt.8.13	base-only	reading	valentem	1573: valentein | 1556: uzlentem	1758,1681,1715,1747,ws	eādem illā hōrā puerum offendit ⟦valentem⟧
+Matt.8.15	others-1573-agrees	reading	eam	1715,1750: illam	1573,1758,ws	ejus manum tetigit atque ⟦eam⟧ relīquit febris illa vērō surgere
+Matt.8.15	base-only	reading	ministrāre	1573: ininiftrare	1758,1681,1715,ws	illa vērō surgere et iīs ⟦ministrāre⟧
+Matt.8.16	base-only	reading		1573: Mar	1758,ws	advesperāvit adductī sunt eī furiōsī ⟦⟧ multī isque verbō spīritūs ējēcit
+Matt.8.16	base-only	reading	isque	1573: isés	1758,1747,1750,ws	adductī sunt eī furiōsī multī ⟦isque⟧ verbō spīritūs ējēcit et omnēs
+Matt.8.16	base-only	reading	affectōs	1573: affe Luc ctos | 1747: affedt | 1750: ad fectos	1758,1715,ws	spīritūs ējēcit et omnēs male ⟦affectōs⟧ sānāvit
+Matt.8.17	base-only	reading	verbīs	1573: ver F bis	1556,1758,1715,1747,1750,ws	ab Ēsāiā vāte dictum hīs ⟦verbīs⟧ Is nostrās īnfirmitātēs morbōsque suscēpit
+Matt.8.17	base-only	reading	morbōsque	1573: morbosás | 1747: mo bosque	1758,1715,ws	hīs verbīs Is nostrās īnfirmitātēs ⟦morbōsque⟧ suscēpit atque tulit
+Matt.8.19	base-only	division	Magister	1573: Ma gister | 1747: M gifter	1556,1758,1681,1715,1750,ws	eum quīdam scrība inquit eī ⟦Magister⟧ sequar tē quōcumque ībis
+Matt.8.19	base-only	reading	quōcumque	1573: quocunqs | 1556: quocuntp | 1758: quocunque | 1681: qudcunque | 1747: quocunq | 1750: quocuniqüe	ws	inquit eī Magister sequar tē ⟦quōcumque⟧ ībis
+Matt.8.20	base-only	reading	āeriæ volucrēs	1573: aereæ vo christm lucres | 1747: aereae yolucres		Jēsūs Vulpēs latebrās habent et ⟦āeriæ volucrēs⟧ nīdōs at Fīlius Hominis nōn
+Matt.8.20	others-1573-agrees	reading	Fīlius Hominis	1747,1750: homine natus	1573,1758,1681,ws	et āeriæ volucrēs nīdōs at ⟦Fīlius Hominis⟧ nōn habet ubi caput reclīnet
+Matt.8.20	base-only	reading	habet	1573: haber	1758,1681,1715,1747,1750,ws	nīdōs at Fīlius Hominis nōn ⟦habet⟧ ubi caput reclīnet
+Matt.8.20	base-only	reading		1573: pauperr m	1715,1747,1750,ws	Hominis nōn habet ubi caput ⟦⟧ reclīnet
+Matt.8.21	base-only	division	dīxit eī	1573: dixitei	1556,1758,1681,1715,1747,1750,ws	Alius item ejus discipulōrum ⟦dīxit eī⟧ Domine permitte mihi prius īre
+Matt.8.21	base-only	reading		1573: Marc	1556,1681,1715,1747,ws	ejus discipulōrum dīxit eī Domine ⟦⟧ permitte mihi prius īre sepultum
+Matt.8.22	others-1573-agrees	division	inquit eī	1715,1750: inquitei	1573,1758,1747,ws	At Jēsūs Sequere mē ⟦inquit eī⟧ et mortuōs sine sepelīre mortuōs
+Matt.8.22	base-only	reading		1573: Christus fi suos | 1758: B MATTHAE Us suos | 1715,1750: fuos | 1747: iuos	ws	inquit eī et mortuōs sine ⟦⟧ sepelīre mortuōs
+Matt.8.24	correct	spelling	exstitit	1573,1758: extitit | 1715: exatir	1747,1750,ws	et ecce tanta tempestās ⟦exstitit⟧ in lacū ut flūctibus obruerētur
+Matt.8.26	base-only	reading	fīdentēs	1573: fiStatibus im dentes	1758,1715,1747,1750,ws	estis inquit iīs ō parum ⟦fīdentēs⟧ Deinde surrēxit et ventōs ac
+Matt.8.26	base-only	reading	ventōs	1573: vétos	1758,1681,1715,1747,1750,ws	parum fīdentēs Deinde surrēxit et ⟦ventōs⟧ ac lacum increpuit unde tanta
+Matt.8.26	base-only	reading		1573: perat	1758,1681,1715,1747,1750,ws	et ventōs ac lacum increpuit ⟦⟧ unde tanta tranquillitās exstitit
+Matt.8.26	correct	spelling	exstitit	1573,1758,1715: extitit | 1750: exítitit	1747,ws	lacum increpuit unde tanta tranquillitās ⟦exstitit⟧
+Matt.8.27	others-1573-agrees	reading	vir	1715,1747,1750: 	1573,1758,ws	ita dīcerent Quālis est hic ⟦vir⟧ ut eī ventī et lacus
+Matt.8.27	others-1573-agrees	reading		1715,1747,1750: et	1573,1758,ws	est hic vir ut eī ⟦⟧ ventī et lacus obœdiant
+Matt.8.28	base-only	division	occurrērunt	1573: oc currerunt	1758,1681,1715,ws	ubi in Gergesēnōrum agrum trājēcit ⟦occurrērunt⟧ eī duo furiōsī ex monumentīs
+Matt.8.28	others-1573-agrees	reading	furiōsī	1715,1747,1750: demoniaci	1573,1758,ws	agrum trājēcit occurrērunt eī duo ⟦furiōsī⟧ ex monumentīs prōdeuntēs adeō ferī
+Matt.8.28	correct	spelling	monumentīs	1573,1758,1715,1750: monimentis	1747,ws	occurrērunt eī duo furiōsī ex ⟦monumentīs⟧ prōdeuntēs adeō ferī ut illāc
+Matt.8.28	base-only	reading	adeō	1573: Duos fuadeò	1758,1715,1750,ws	duo furiōsī ex monumentīs prōdeuntēs ⟦adeō⟧ ferī ut illāc trānsīre nēmō
+Matt.8.28	base-only	reading	posset	1573: possfet riofossanat | 1750: pofiet	1758,1681,1715,ws	ferī ut illāc trānsīre nēmō ⟦posset⟧
+Matt.8.29	others-1573-agrees	reading	Atque	1758,1681: Arque	1573,1747,1750,ws	⟦Atque⟧ iī sīc tum clāmārunt Quid
+Matt.8.29	base-only	division	sīc tum	1573: fictum	1758,1681,1715,ws	Atque iī ⟦sīc tum⟧ clāmārunt Quid tibi nōbīscum reī
+Matt.8.29	correct	spelling	Hūcine	1573,1758: Huccine | 1681: Huccinc	ws	reī est Jēsū Deī Fīlī ⟦Hūcine⟧ vēnistī ante tempus vexātum nōs
+Matt.8.29	base-only	division	vexātum	1573: ve xatum | 1750: vexatunt	1758,1715,1747,ws	Fīlī Hūcine vēnistī ante tempus ⟦vexātum⟧ nōs
+Matt.8.32	base-only	division	porcōrum	1573: porco rum	1758,1681,1715,1747,ws	immigrārunt et ecce ruit ūniversus ⟦porcōrum⟧ grex per præceps in lacum
+Matt.8.32	base-only	reading	lacum	1573: lacű	1758,1715,1747,ws	porcōrum grex per præceps in ⟦lacum⟧ suntque in aquā mortuī
+Matt.8.33	base-only	reading	fūgērunt	1573: fugerüt	1758,1681,1715,1747,1750,ws	Pāstōrēs autem ⟦fūgērunt⟧ et in oppidum profectī cum
+Matt.9.1	base-only	reading	suum vēnit	1573: plementum partem veftis atque ita deterior ruptu	1556,1758,1747,ws	ingressus trājēcit et in oppidum ⟦suum vēnit⟧
+Matt.9.2	base-only	reading		1573: Marc	1758,1747,ws	jacēns in lectō sīderātus Et ⟦⟧ Jēsūs vidēns illōrum fidem dīxit
+Matt.9.2	base-only	reading	illōrum	1573: illorű	1556,1758,1747,1750,ws	lectō sīderātus Et Jēsūs vidēns ⟦illōrum⟧ fidem dīxit sīderātō Cōnfīde nāte
+Matt.9.2	base-only	reading	nāte	1573: naLuc te	1758,1681,1747,1750,ws	illōrum fidem dīxit sīderātō Cōnfīde ⟦nāte⟧ remittuntur tibi peccāta tua
+Matt.9.4	base-only	reading		1573: Sideratum	1758,1681,1715,1747,1750,ws	vidēns Jēsūs ita dīxit Cūr ⟦⟧ vōs prāvē cōgitātis cum vestrīs
+Matt.9.6	others-1573-agrees	reading	Fīlium Hominis	1715,1747,1750: homine natum	1573,ws	Atque ut sciātis potestātem habēre ⟦Fīlium Hominis⟧ in terrīs peccāta condōnandī Surge
+Matt.9.6	others-1573-agrees	reading	condōnandī	1715,1747,1750: remittendi	1573,1758,ws	Fīlium Hominis in terrīs peccāta ⟦condōnandī⟧ Surge inquit tum sīderātō tolle
+Matt.9.8	base-only	reading	hominibus	1573: bhominibus | 1750: ho minibus	1758,1681,1715,ws	mīrāta Deum collaudāvit quī tantam ⟦hominibus⟧ potestātem dedisset
+Matt.9.8	base-only	reading	dedisset	1573: deMarc | 1750: dediflet	1758,ws	collaudāvit quī tantam hominibus potestātem ⟦dedisset⟧
+Matt.9.9	base-only	reading		1573: Luc	1758,1715,1750,ws	dīgrediēns Jēsūs cōnspicātus hominem ad ⟦⟧ pūblicānōrum mēnsam sedentem Matthæum nōmine
+Matt.9.9	base-only	reading	mēnsam	1573: mensan	1758,1715,1750,ws	Jēsūs cōnspicātus hominem ad pūblicānōrum ⟦mēnsam⟧ sedentem Matthæum nōmine dīcit eī
+Matt.9.9	base-only	reading	nōmine	1573: nomiMattheus ne | 1750: 	1758,1715,ws	ad pūblicānōrum mēnsam sedentem Matthæum ⟦nōmine⟧ dīcit eī Sequere mē Atque
+Matt.9.9	others-1573-agrees	reading		1715,1750: fecutus	1573,1758,ws	Atque ille surrēxit et eum ⟦⟧ est secūtus
+Matt.9.9	base-only	reading	secūtus	1573: thai	1758,ws	ille surrēxit et eum est ⟦secūtus⟧
+Matt.9.10	base-only	division	domī accumbente	1573: domiaccumbente	1758,1750,ws	Eō autem ⟦domī accumbente⟧ cum frequentēs pūblicānī et improbī
+Matt.9.10	base-only	reading		1573: d Famofi	1758,1750,ws	autem domī accumbente cum frequentēs ⟦⟧ pūblicānī et improbī vēnissent et
+Matt.9.10	base-only	reading		1573: d	1758,1681,1750,ws	accumbente cum frequentēs pūblicānī et ⟦⟧ improbī vēnissent et cum Jēsū
+Matt.9.10	others-1573-agrees	reading	Jēsū	1758: Jefa | 1715,1750: lefu	1573,ws	et improbī vēnissent et cum ⟦Jēsū⟧ ejusque discipulīs discumberent
+Matt.9.10	base-only	reading	ejusque	1573: eiusqs	1758,1715,1750,ws	improbī vēnissent et cum Jēsū ⟦ejusque⟧ discipulīs discumberent
+Matt.9.11	correct	form	quæsīvērunt	1573,1758,1750,ws: quæsierunt | 1715: quafierunt		Pharisæī id videntēs ⟦quæsīvērunt⟧ ex ejus discipulīs cūr cum
+Matt.9.11	base-only	division	eōrum	1573: eo rum | 1750: corum	1758,1715,1747,ws	pūblicānīs et improbīs cibum caperet ⟦eōrum⟧ magister
+Matt.9.13	base-only	reading		1573: Ofer	1758,1715,1747,1750,ws	enim vēnī vocātum īnsontēs sed ⟦⟧ sontēs ad bonam frūgem
+Matt.9.13	others-1573-agrees	reading	ad	1715,1747: ab	1573,1758,1750,ws	vēnī vocātum īnsontēs sed sontēs ⟦ad⟧ bonam frūgem
+Matt.9.14	base-only	reading		1573: Marc	1715,ws	Jōhannis discipulī eum hujusmodī verbīs ⟦⟧ aggressī sunt Cūr cum nōs
+Matt.9.14	base-only	reading	jejūnēmus	1573: ieiuLuc nemus | 1715: jejenemus	1758,1681,1747,1750,ws	cum nōs et Pharisæī multum ⟦jejūnēmus⟧ discipulī tuī nōn jejūnant
+Matt.9.15	base-only	reading	jejūnābunt	1573: ie | 1750: iciunabunt	1758,1715,ws	iīs spōnsus auferētur tum dēmum ⟦jejūnābunt⟧
+Matt.9.16	base-only	reading	supplēmentum partem vestis atque it dēterior ruptūra fieret	1573: fup	ws	veterī vestīmentō auferret enim id ⟦supplēmentum partem vestis atque it dēterior ruptūra fieret⟧
+Matt.9.16	others	reading	it	1758,1750: ita	1715,ws	id supplēmentum partem vestis atque ⟦it⟧ dēterior ruptūra fieret
+Matt.9.17	correct	reading	aliōquī	1573,1758,1747,1750: alioquin	ws	vīnum novum in veterēs utrēs ⟦aliōquī⟧ rumperentur utrēs et vīnum effunderētur
+Matt.9.17	base-only	division	recentibus	1573: recen tibus	1758,1681,1715,1747,1750,ws	perīrent Sed vīnum novum in ⟦recentibus⟧ conditur utribus atque ita ambō
+Matt.9.18	base-only	division	Hæc eō illīs	1573: Hæceoillis	1758,ws	⟦Hæc eō illīs⟧ loquente vēnit quīdam dē magistrātū
+Matt.9.18	base-only	reading	magistrātū	1573: magistra Mare tu	1758,1681,1747,1750,ws	illīs loquente vēnit quīdam dē ⟦magistrātū⟧ quī eī honōre præstitō ita
+Matt.9.18	base-only	reading		1573: Luc	1758,1715,1747,1750,ws	ita dīxit Fīlia mea modo ⟦⟧ obiit sed venī eī impositum
+Matt.9.20	others-1573-agrees	reading		1715,1747,1750: laborabat	1573,1758,ws	mulier quæ sanguinis prōfluviō duodecimum ⟦⟧ annum labōrābat eum aggressa ā
+Matt.9.20	others-1573-agrees	reading	labōrābat	1715,1747,1750: 	1573,1758,1681,ws	quæ sanguinis prōfluviō duodecimum annum ⟦labōrābat⟧ eum aggressa ā tergō ejus
+Matt.9.20	base-only	reading	tergō	1573: ter Mulier fan go	1758,1715,1747,1750,ws	annum labōrābat eum aggressa ā ⟦tergō⟧ ejus togæ ōram tetigit
+Matt.9.21	base-only	division	Sīc enim	1573: Sicenim	1758,1681,1715,1747,ws	⟦Sīc enim⟧ sēcum ipsa cōgitābat Sī vel
+Matt.9.21	base-only	reading	ipsa	1573: ipla	1758,1681,1715,1747,1750,ws	Sīc enim sēcum ⟦ipsa⟧ cōgitābat Sī vel ejus togam
+Matt.9.22	base-only	division	fīlia	1573: fi lia	1556,1758,1681,1715,1747,1750,ws	conversus eā vīsā dīxit Cōnfīde ⟦fīlia⟧ tua tē fīdūcia servāvit Itaque
+Matt.9.23	base-only	reading	turbam	1573: turbain | 1715: tura bam	1556,1758,1681,1747,1750,ws	magistrātum gerēbat vīditque tībīcinēs et ⟦turbam⟧ tumultuantem
+Matt.9.27	base-only	division	Dāvīdide	1573: Da uidide | 1681: Davididc	1556,1758,1715,1747,1750,ws	in hunc modum Miserēre nostrī ⟦Dāvīdide⟧
+Matt.9.28	base-only	reading		1573: Duocaci	1758,1750,ws	ædēs adiēre cæcī Et Jēsūs ⟦⟧ Crēditis inquit iīs posse mē
+Matt.9.30	base-only	reading	Comminātus	1573: Comininatus	1556,1758,1681,1715,1747,1750,ws	Itaque apertī sunt eōrum oculī ⟦Comminātus⟧ est autem iīs Jēsūs in
+Matt.9.30	base-only	reading		1573: Mare	1758,1715,1747,1750,ws	modum Vidēte nē quis hoc ⟦⟧ rescīscat
+Matt.9.31	others-1573-agrees	reading	dīgressī	1556: di tefsi | 1681,1747: digrefli	1573,1758,1715,ws	At illī ⟦dīgressī⟧ eum per tōtam illam regiōnem
+Matt.9.32	base-only	reading		1573: Mutus fu	1758,1681,ws	dīgredientibus allātus est eī mūtus ⟦⟧ homō furiōsus
+Matt.9.33	correct	spelling	umquam	1573,1758,1715,1747: vnquam	1750,ws	hominēs vulgō mīrātī sunt negantēs ⟦umquam⟧ tālia apud Isrāēlītās fuisse vīsa
+Matt.9.33	others-1573-agrees	reading		1715,1747: vifa | 1750: vifa z	1573,1758,ws	negantēs umquam tālia apud Isrāēlītās ⟦⟧ fuisse vīsa
+Matt.9.34	base-only	reading	dæmoniōrum prīncipem	1573: dæmoniorű prin Mar cipem	1758,1715,1747,1750,ws	At Pharisæī dīcēbant eum per ⟦dæmoniōrum prīncipem⟧ ējicere dæmonia
+Matt.9.35	base-only	reading		1573: Mar	1556,1758,1715,1750,ws	Jēsūs urbēs omnēs atque vīcōs ⟦⟧ docēns in eōrum conventibus et
+Matt.9.35	others-1573-agrees	reading	conventibus	1715,1747,1750: fynagogis	1573,1556,1758,1681,ws	atque vīcōs docēns in eōrum ⟦conventibus⟧ et rēgium ēvangelium pūblicāns omnemque
+Matt.9.35	others-1573-agrees	reading	rēgium	1715: przdicans | 1747,1750: praedicans	1573,1556,1758,ws	docēns in eōrum conventibus et ⟦rēgium⟧ ēvangelium pūblicāns omnemque morbum et
+Matt.9.35	others-1573-agrees	reading	pūblicāns	1715,1747,1750: regni	1573,1758,1681,ws	eōrum conventibus et rēgium ēvangelium ⟦pūblicāns⟧ omnemque morbum et languōrem sānāns
+Matt.9.35	base-only	reading	omnemque	1573: omnemás	1758,1681,1715,1747,1750,ws	conventibus et rēgium ēvangelium pūblicāns ⟦omnemque⟧ morbum et languōrem sānāns vulgō
+Matt.9.35	others-1573-agrees	reading		1715,1747: vulgo	1573,1758,ws	pūblicāns omnemque morbum et languōrem ⟦⟧ sānāns vulgō
+Matt.9.36	correct	form	miseritus	1573,1556,1758,1750: misertus	ws	Vīsā autem hominum multitūdine ⟦miseritus⟧ est eōrum quod pālantēs errārent
+Matt.9.36	correct	spelling	tamquam	1573,1758: tanquam	1750,ws	est eōrum quod pālantēs errārent ⟦tamquam⟧ pāstōre carentēs ovēs
+Matt.9.36	base-only	reading	carentēs ovēs	1573: ca	1556,1758,1715,1750,ws	quod pālantēs errārent tamquam pāstōre ⟦carentēs ovēs⟧
+Matt.9.37	base-only	division	sīc alloquitur	1573: ficalloquitur	1758,1715,1747,ws	Tum suōs discipulōs ⟦sīc alloquitur⟧ Messis quidem multa est sed
+Matt.9.37	base-only	reading	quidem	1573: qui Ioan dem	1556,1758,1681,1715,1747,1750,ws	suōs discipulōs sīc alloquitur Messis ⟦quidem⟧ multa est sed operāriī paucī
+Matt.10.1	base-only	reading		1573: vt	1556,1758,1715,1747,1750,ws	contrā spīritūs impūrōs potestātem ut ⟦⟧ eōs expellerent et omnēs morbōs
+Matt.10.2	base-only	reading		1573: Apoftoli	1556,1758,1747,1750,ws	autem apostolōrum nōmina sunt hæc ⟦⟧ Prīmus Simōn cognōmine Petrus et
+Matt.10.3	others-1573-agrees	reading	Thaddæus	1715: Taddaus | 1747,1750: Taddaeus	1573,1758,ws	Jācōbus Alphæī et Lebbæus cognōminātus ⟦Thaddæus⟧
+Matt.10.4	base-only	division	quī eum	1573: quieum	1715,1747,1750,ws	Cananīta et Jūdās Iscariōta is ⟦quī eum⟧ prōdidit
+Matt.10.5	base-only	reading	ūllam	1573: vlla | 1758: ul fra lam	1556,1715,1747,1750,ws	iter nē habuerītis nēve in ⟦ūllam⟧ Samarītānōrum urbem intrāverītis
+Matt.10.5	others-1573-agrees	division	Samarītānōrum	1747,1750: Samari tanorum	1573,1758,1715,ws	nē habuerītis nēve in ūllam ⟦Samarītānōrum⟧ urbem intrāverītis
+Matt.10.6	base-only	division	sed īte	1573: sedite	1556,1758,1715,1747,ws	⟦sed īte⟧ potius ad perditās Isrāēlīticæ domūs
+Matt.10.8	others	reading	suscitāte	1573: suscitaLuc te | 1556,1715,1747: 	1758,1681,ws	Ægrōs cūrāte leprōsōs pūrgāte mortuōs ⟦suscitāte⟧ dæmonia ējicite Grātīs accēpistis grātīs
+Matt.10.9	base-only	reading	Nē habēte	1573: Luc Nehabete | 1681: Nc habctc	1758,1715,1747,1750,ws	⟦Nē habēte⟧ aurum nec argentum nec æs
+Matt.10.9	base-only	division	nec æs	1573: necæs	1758,1750,ws	Nē habēte aurum nec argentum ⟦nec æs⟧ in crumēnīs vestrīs
+Matt.10.9	base-only	reading	crumēnīs	1573: cru Tim menis	1556,1758,1681,1715,1750,ws	nec argentum nec æs in ⟦crumēnīs⟧ vestrīs
+Matt.10.10	base-only	division	est enim	1573: estenim	1758,1715,1750,ws	nēve calceōs nēve baculum Dignus ⟦est enim⟧ operārius alimentō suō
+Matt.10.11	correct	spelling	quamcumque	1573,1715,1747: quamcunque | 1556: quamcung | 1758: quamcun Þ que	1750,ws	In ⟦quamcumque⟧ autem urbem aut vīcum intrāveritis
+Matt.10.11	base-only	reading	intrāveritis	1573: intrauea granis et ritis | 1747: intrauerk tis	1556,1758,1715,1750,ws	quamcumque autem urbem aut vīcum ⟦intrāveritis⟧ exquīrite ecquis sit in eō
+Matt.10.11	base-only	division	ecquis	1573: ec quis	1556,1758,1681,1747,1750,ws	urbem aut vīcum intrāveritis exquīrite ⟦ecquis⟧ sit in eō ā dignitāte
+Matt.10.11	others-1573-agrees	reading	ā	1758,1750: 	1573,ws	exquīrite ecquis sit in eō ⟦ā⟧ dignitāte præditus atque illīc manēte
+Matt.10.11	base-only	reading	atque illīc	1573: at bapudilla que billic	1758,1715,1750,ws	in eō ā dignitāte præditus ⟦atque illīc⟧ manēte dōnec discēdātis
+Matt.10.12	base-only	reading		1573: cfcil ex vr	1750,ws	autem domum salūtāte eam dīcentēs ⟦⟧ Salveat hæc domus
+Matt.10.14	base-only	reading	nōn admīserit neque vestra dicta audierit	1573: 		Quod sī quis vōs ⟦nōn admīserit neque vestra dicta audierit⟧ vōs exeuntēs ex eā domō
+Matt.10.14	others	form	audierit	1758,1747,ws: audiverit | 1681: audivcrit | 1715: audiVétit		nōn admīserit neque vestra dicta ⟦audierit⟧ vōs exeuntēs ex eā domō
+Matt.10.14	base-only	reading		1573: d	1758,1715,1747,1750,ws	ex eā domō aut urbe ⟦⟧ excutite pedum vestrōrum pulverem
+Matt.10.15	base-only	reading	āctum	1573: actű | 1556: acti | 1681: a et urn | 1747: atum | 1750: r a et um	1758,ws	ā mē certō habēte tolerābilius ⟦āctum⟧ īrī cum Sodomītānōrum Gomorrānōrumque gente
+Matt.10.15	base-only	reading	Sodomītānōrum	1573: se nulla velSodomitanoruin | 1715: Sodo lfi mitanorum	1758,1681,1747,1750,ws	habēte tolerābilius āctum īrī cum ⟦Sodomītānōrum⟧ Gomorrānōrumque gente in diē jūdiciī
+Matt.10.15	base-only	reading		1573: e	1758,1715,1750,ws	āctum īrī cum Sodomītānōrum Gomorrānōrumque ⟦⟧ gente in diē jūdiciī quam
+Matt.10.15	base-only	reading		1573: illis commu	1556,1715,1750,ws	Sodomītānōrum Gomorrānōrumque gente in diē ⟦⟧ jūdiciī quam cum illā urbe
+Matt.10.16	base-only	division	Ēn ego	1573: Enego	1556,1758,1715,1747,ws	⟦Ēn ego⟧ vōs dīmittō tamquam ovēs inter
+Matt.10.16	correct	spelling	tamquam	1573,1758,1747: tanquam | 1556: tàquam	1750,ws	Ēn ego vōs dīmittō ⟦tamquam⟧ ovēs inter lupōs Estōte ergō
+Matt.10.16	base-only	reading	inter lupōs	1573: interlupos in Gra	1556,1758,1681,1747,1750,ws	ego vōs dīmittō tamquam ovēs ⟦inter lupōs⟧ Estōte ergō et astūtī ut
+Matt.10.17	base-only	reading	concilia	1573: cons cilia | 1758: consilia	1556,1681,1715,1747,1750,ws	hominēs sistent enim vōs in ⟦concilia⟧ inque suīs collēgiīs verberābunt
+Matt.10.17	others-1573-agrees	reading	collēgiīs	1758: collegis | 1681: collcgiis | 1715,1750: fynagogis	1573,ws	vōs in concilia inque suīs ⟦collēgiīs⟧ verberābunt
+Matt.10.18	base-only	division	Quīn ad	1573: Quinad	1556,1758,1715,1750,ws	⟦Quīn ad⟧ prīncipēs quoque rēgēsque dūcēminī propter
+Matt.10.19	base-only	reading		1573: Mar	1556,1758,1681,1715,1750,ws	sistent vōs nōlīte cūrāre quōmodo ⟦⟧ aut quid loquāminī suggererētur enim
+Matt.10.19	others-1573-agrees	reading	suggererētur	1758,1715,1750: suggeretur	1573,ws	cūrāre quōmodo aut quid loquāminī ⟦suggererētur⟧ enim vōbīs eādem hōrā quid
+Matt.10.19	base-only	reading		1573: Luc	1758,1715,ws	loquāminī suggererētur enim vōbīs eādem ⟦⟧ hōrā quid loquāminī
+Matt.10.21	base-only	reading		1573: Mich	1556,1758,1715,1750,ws	frāter in mortem et pater ⟦⟧ fīlium cōnsurgentque nātī in parentēs
+Matt.10.21	base-only	reading	parentēs	1573: parétes | 1715: eo dignitate confurgent Sin l buntur in ali | 1747: arentes a p entes	1556,1758,1750,ws	pater fīlium cōnsurgentque nātī in ⟦parentēs⟧ et eōs occīdent
+Matt.10.22	base-only	reading		1573: Mar	1758,1747,1750,ws	omnibus invīsī propter nōmen meum ⟦⟧ Quī autem pertulerit ad extrēmum
+Matt.10.23	base-only	reading	fugite	1573: fu Mat gite | 1747: ftgite	1556,1758,1715,1750,ws	vōs īnsectābuntur in aliquā urbe ⟦fugite⟧ in aliam Hoc vōbīs cōnfirmō
+Matt.10.23	others	reading	Fīlius Hominis	1747,1750: homine natus	1758,ws	perlūstrāveritis urbēs Isrāēlīticās quam veniat ⟦Fīlius Hominis⟧
+Matt.10.23	base-only	reading	Hominis	1573: ho | 1556: homi nis | 1681: horninis	1758,ws	urbēs Isrāēlīticās quam veniat Fīlius ⟦Hominis⟧
+Matt.10.24	base-only	reading		1573: Luc	1758,1715,1747,1750,ws	discipulus suprā magistrum neque servus ⟦⟧ suprā dominum suum
+Matt.10.26	base-only	division	Nē igitur	1573: Neigitur	1758,1715,1747,1750,ws	⟦Nē igitur⟧ eōs timuerītis Nihil enim tam
+Matt.10.26	base-only	reading		1573: Mar	1556,1758,1750,ws	timuerītis Nihil enim tam tēctum ⟦⟧ est quod nōn sit dētegendum
+Matt.10.26	base-only	reading	dētegendum	1573: detegédum	1556,1758,1715,1747,1750,ws	tēctum est quod nōn sit ⟦dētegendum⟧ aut tam occultum quod nōn
+Matt.10.26	base-only	reading		1573: Line	1556,1758,1747,1750,ws	dētegendum aut tam occultum quod ⟦⟧ nōn sit cognōscendum
+Matt.10.28	base-only	reading	animam	1573: animain	1758,1715,1747,1750,ws	eōs quī corpus interficiunt sed ⟦animam⟧ interficere nequeunt Quīn magis eum
+Matt.10.28	base-only	reading	perdere	1573: Act	1556,1758,1681,1715,1747,1750,ws	animam et corpus in gehennam ⟦perdere⟧
+Matt.10.29	base-only	reading		1573: Mar	1758,1681,1715,1747,1750,ws	passerculī asse vēneant tamen nūllus ⟦⟧ eōrum cadit humī sine Patre
+Matt.10.30	base-only	division	At vestrum	1573: Atvestrum	1758,1681,1747,1750,ws	⟦At vestrum⟧ etiam capillī capitis omnēs numerātī
+Matt.10.30	base-only	division	numerātī	1573: numera ti	1556,1758,1715,1747,ws	vestrum etiam capillī capitis omnēs ⟦numerātī⟧ sunt
+Matt.10.32	others-1573-agrees	reading		1715,1747,1750: eum	1573,1758,ws	ergō mē agnōverit apud hominēs ⟦⟧ ego eum quoque agnōscam apud
+Matt.10.32	others-1573-agrees	reading	eum	1715,1747,1750: 	1573,1758,1681,ws	mē agnōverit apud hominēs ego ⟦eum⟧ quoque agnōscam apud Patrem meum
+Matt.10.32	others	reading	agnōscam	1573: agnoscain | 1715,1747,1750: dignofcam	1758,1681,ws	apud hominēs ego eum quoque ⟦agnōscam⟧ apud Patrem meum quī in
+Matt.10.34	base-only	reading		1573: Mich	1556,1758,1681,1750,ws	arbitrārī mē vēnisse conciliātum pācem ⟦⟧ in terrīs Nōn vēnī conciliātum
+Matt.10.34	correct	reading	in terrīs	1573,1758,1750: 	ws	terrīs Nōn vēnī conciliātum pācem ⟦in terrīs⟧ sed bellum
+Matt.10.35	base-only	reading	mātre	1573: natre	1556,1758,1681,1715,1747,1750,ws	patre suō et fīliam ā ⟦mātre⟧ et nurum ā socrū
+Matt.10.37	base-only	reading	patrem	1573: patrein	1758,1715,1747,1750,ws	Quī ⟦patrem⟧ aut mātrem amat suprā mē
+Matt.10.37	base-only	reading		1573: Luc	1556,1758,1715,1747,1750,ws	amat suprā mē nōn est ⟦⟧ mē dignus et quī fīlium
+Matt.10.37	base-only	reading	amat	1573: ainat	1556,1758,1715,1747,1750,ws	et quī fīlium aut fīliam ⟦amat⟧ suprā mē mē nōn est
+Matt.10.37	others-1573-agrees	reading	mē	1715,1747,1750: 	1573,1758,ws	aut fīliam amat suprā mē ⟦mē⟧ nōn est dignus
+Matt.10.37	base-only	reading		1573: Infr	1758,ws	fīliam amat suprā mē mē ⟦⟧ nōn est dignus
+Matt.10.37	others-1573-agrees	reading		1747,1750: me	1573,1758,1681,ws	suprā mē mē nōn est ⟦⟧ dignus
+Matt.10.40	base-only	division	Quī vōs	1573: Quivos	1758,1681,1715,1747,1750,ws	⟦Quī vōs⟧ accipit mē accipit et quī
+Matt.11.2	correct	reading	audīsset	1573,1758,1715,1747,ws: audiuisset | 1750: audiui et		Jōhannēs autem cum ⟦audīsset⟧ in vinculīs opera Chrīstī mīsit
+Matt.11.2	base-only	reading	opera	1573: opeJum ra	1556,1758,1715,1747,1750,ws	autem cum audīsset in vinculīs ⟦opera⟧ Chrīstī mīsit suōrum discipulōrum duōs
+Matt.11.3	base-only	reading		1573: Efa et | 1715: Luc f	1758,1750	quī eī ita dīcerent ⟦⟧ Tūne is es quī ventūrus
+Matt.11.3	correct	spelling	exspectandus	1573,1758,1715: expectandus	1750,ws	est an alius nōbīs est ⟦exspectandus⟧
+Matt.11.4	others-1573-agrees	reading		1747,1750: Jefus	1573,1758,ws	Quibus ⟦⟧ respondit Jēsūs in hunc modum
+Matt.11.4	others-1573-agrees	reading	Jēsūs	1681,1750:  | 1747: in m re mie KAT or ee l D LL a Cap MAT THAEI	1573,1758,1715,ws	Quibus respondit ⟦Jēsūs⟧ in hunc modum Īte renūntiātum
+Matt.11.7	base-only	division	turbæ	1573: tur bæ | 1715: turbz	1758,1681,1750,ws	autem abeuntibus cœpit Jēsūs hominum ⟦turbæ⟧ sīc dē Jōhanne dīcere Ad
+Matt.11.7	base-only	reading	ēgressī	1573: egref refu teftimo si | 1715: egrefli	1556,1758,1750,ws	Jōhanne dīcere Ad quid spectandum ⟦ēgressī⟧ estis in sōlitūdinem Arundinem ventō
+Matt.11.8	base-only	reading	Vērum tamen	1573: Veruntamen | 1758: S Veruntamen | 1715: Luc Veruntamen	ws	⟦Vērum tamen⟧ ad quid videndum exīstis Hominem
+Matt.11.8	correct	reading	exīstis	1573,1758,1750: exijstis	ws	Vērum tamen ad quid videndum ⟦exīstis⟧ Hominem mollibus indūtum vestibus At
+Matt.11.8	base-only	reading	rēgum	1573: reguin	1556,1758,1681,1715,1747,1750,ws	quī mollēs gestant sunt in ⟦rēgum⟧ domibus
+Matt.11.9	base-only	division	Sed ad	1573: Sedad	1556,1758,1715,1750,ws	⟦Sed ad⟧ quem tandem videndum exīstis Vātem
+Matt.11.9	correct	reading	exīstis	1573,1758,1715,1750: exijstis	ws	Sed ad quem tandem videndum ⟦exīstis⟧ Vātem Etiam inquam vōbīs et
+Matt.11.9	others	division	plūs quam	1758,1715: plusquam	1750,ws	Vātem Etiam inquam vōbīs et ⟦plūs quam⟧ vātem
+Matt.11.11	correct	spelling	exstitisse	1573,1758: extitisse | 1715: exti T tife	1750,ws	nūllum in fēminārum nātīs majōrem ⟦exstitisse⟧ Jōhanne Baptistā et tamen quī
+Matt.11.11	base-only	reading		1573: char a Vide Zaregno MATTHAE VS | 1715: die judicii quam vobifcum qv eftin	1556,1758,1681,1750,ws	et tamen quī est in ⟦⟧ rēgnō cælestī minimus major est
+Matt.11.14	base-only	reading	sī eum	1573: ficum | 1681: li cum	1758,1750,ws	Et ⟦sī eum⟧ vultis accipere is est Ēlīās
+Matt.11.14	base-only	reading	ventūrus	1573: véturus	1556,1758,1681,1715,1750,ws	accipere is est Ēlīās ille ⟦ventūrus⟧
+Matt.11.16	base-only	reading	comparābō	1573: coinparabo | 1758: compa rabo	1556,1681,ws	Cui vērō ⟦comparābō⟧ hanc nātiōnem Perinde est ac
+Matt.11.18	base-only	reading	eum	1573: euin	1556,1758,1715,1750,ws	neque comēdit neque bibit et ⟦eum⟧ dīcunt esse furiōsum
+Matt.11.20	base-only	reading		1573: Iefus in ci	1556,1758,1715,1747,1750,ws	cīvitātēs invehī quæ cum in ⟦⟧ iīs tot fuissent ejus ēdita
+Matt.11.20	base-only	reading	redīssent	1573: redijfwehitur sent | 1758,1750: rediissent | 1681: rcdiillent | 1715: rediilTent	ws	ejus ēdita mīrācula tamen nōn ⟦redīssent⟧ ad frūgem
+Matt.11.21	base-only	reading	vītam corrēxissent	1573: vi	1758,1681,ws	prīdem in centōnibus et pulvere ⟦vītam corrēxissent⟧
+Matt.11.23	base-only	reading	hodiernum diem	1573: hodier	1556,1758,1715,1747,ws	ēdita fuissent mīrācula mānsissent ad ⟦hodiernum diem⟧
+Matt.11.24	base-only	spelling	Sodomītānæ nātiōnis	1573: Sodomitanę na tionis	ws	Itaque scītōte tolerābiliōrem fore ⟦Sodomītānæ nātiōnis⟧ condiciōnem in diē jūdiciī quam
+Matt.11.24	base-only	reading	tuam	1573: tuain	1556,1758,1747,ws	condiciōnem in diē jūdiciī quam ⟦tuam⟧
+Matt.11.25	base-only	reading	īnfantibus	1573: infátibus	1556,1758,ws	hæc sapientēs perītōsque cēlāverīs et ⟦īnfantibus⟧ patefēcerīs
+Matt.11.27	base-only	reading	quisquam	1573: quif famib nota Ioan quam	1556,1758,1747,1750,ws	sunt ā Patre meō neque ⟦quisquam⟧ Fīlium cognōscit nisi Pater neque
+Matt.11.27	base-only	reading	neque Patrem quisquam	1573: neqs patrein quif quam	1758,1747,ws	quisquam Fīlium cognōscit nisi Pater ⟦neque Patrem quisquam⟧ cognōscit nisi Fīlius et cui
+Matt.11.29	base-only	reading	jugum	1573: iuguin	1758,1747,ws	Subīte ⟦jugum⟧ meum et ā mē discite
+Matt.11.29	base-only	reading		1573: Ierem	1758,1715,1747,ws	ā mē discite quī mītis ⟦⟧ sum et animō summissus et
+Matt.11.30	base-only	reading	onus leve	1573: onusle t tohan ue	1556,1747,1750,ws	enim et jugum commodum et ⟦onus leve⟧ est
+Matt.12.1	base-only	reading	ēsurīrent	1573: esurirét	1556,1758,1750,ws	sata Ejus autem discipulī cum ⟦ēsurīrent⟧ cœpērunt spīcās vellere atque vescī
+Matt.12.2	base-only	reading	discipulī	1573: diSabbato spi fcipuli | 1556: dif cípulí i el | 1750: dicipuli	1758,1681,ws	dīxērunt eī Ēn faciunt tuī ⟦discipulī⟧ quod in Sabbatō facere nōn
+Matt.12.3	base-only	reading	Dāvīd	1573: DaMar uid | 1758: Da vid	1556,1681,1715,1747,1750,ws	Nōn lēgistis inquit quid fēcerit ⟦Dāvīd⟧ cum aliquandō ēsurīret ipse et
+Matt.12.4	base-only	reading	sit	1573: sita	1556,1758,1681,1715,1747,1750,ws	Ut ingressus ⟦sit⟧ Deī domum et apposititiōs pānēs
+Matt.12.4	base-only	reading	pānēs	1573: pa Reg nes	1556,1758,1715,1747,1750,ws	sit Deī domum et apposititiōs ⟦pānēs⟧ comēderit quibus nec eī licēbat
+Matt.12.4	base-only	reading	comitibus	1573: comiti Exod bus	1556,1758,1681,1715,1747,1750,ws	nec eī licēbat nec ejus ⟦comitibus⟧ vescī sed sōlīs sacerdōtibus
+Matt.12.5	base-only	reading	An nōn	1573: Lewis Annon	1556,1758,1681,ws	⟦An nōn⟧ lēgistis in lēge Sabbatīs in
+Matt.12.5	others-1573-agrees	reading	lēgistis	1556: legiflis | 1681,1750: legiitis	1573,1758,1715,ws	An nōn ⟦lēgistis⟧ in lēge Sabbatīs in fānō
+Matt.12.5	base-only	division	sacerdōtēs	1573: facerdo tes	1556,1758,1681,1715,1750,ws	in lēge Sabbatīs in fānō ⟦sacerdōtēs⟧ Sabbatum prōfānāre Et tamen īnsontēs
+Matt.12.7	base-only	division	sacrificium	1573: fa crificium | 1715: facrifici um | 1747: facri meo cariflimus eum y à nd ficium	1556,1758,1750,ws	quid sit Pietātem mālō quam ⟦sacrificium⟧ nōn damnārētis īnsontēs
+Matt.12.8	others-1573-agrees	reading	Fīlius Hominis	1715,1750: homine natus	1573,1556,1758,ws	Est enim Sabbatī quoque dominus ⟦Fīlius Hominis⟧
+Matt.12.9	base-only	reading	eōrum	1573: eoruin	1758,1681,1715,1747,ws	Inde profectus vēnit in ⟦eōrum⟧ collēgium
+Matt.12.10	base-only	division	illī	1573: il li	1556,1758,1681,1715,1747,1750,ws	homō esset manum habēns tābidam ⟦illī⟧ ex eō an Sabbatīs sānāre
+Matt.12.11	base-only	reading		1573: aran	1556,1758,1750,ws	homō vestrum est inquit quī ⟦⟧ sī vel ūnam ovem habeat
+Matt.12.11	base-only	spelling	quæ	1573: quę	1758,1747,1750,ws	sī vel ūnam ovem habeat ⟦quæ⟧ Sabbatīs in foveam dēcīderit nōn
+Matt.12.11	base-only	reading	dēcīderit	1573: de Mar ciderit | 1747,1750: decidat	1758,ws	habeat quæ Sabbatīs in foveam ⟦dēcīderit⟧ nōn eam prehendat et attollat
+Matt.12.12	base-only	reading	ovī	1573: qui	1758,1681,1747,ws	Quantum autem ⟦ovī⟧ præstat homō Ergō licet Sabbatīs
+Matt.12.13	base-only	reading	eaque	1573: eaqs | 1556: eatp | 1747: caque	1758,1681,1750,ws	manum tuam atque ille porrēxit ⟦eaque⟧ tam sāna reddita est quam
+Matt.12.14	base-only	division	perimendō	1573: perimen do | 1758: pe rimendo	1556,1747,1750,ws	vērō ēgressī cōnsilium dē eō ⟦perimendō⟧ cēpērunt
+Matt.12.18	base-only	reading	quem	1573: quein	1556,1758,1715,1750,ws	Ecce meus servus ⟦quem⟧ ēlēgī dīlēctus meus animō meō
+Matt.12.18	others-1573-agrees	reading	dīlēctus	1556: dileclus | 1715,1750: dile et us	1573,1758,ws	Ecce meus servus quem ēlēgī ⟦dīlēctus⟧ meus animō meō cārissimus Eum
+Matt.12.18	correct	spelling	cārissimus	1573,1758,1715: charissimus	1750,ws	ēlēgī dīlēctus meus animō meō ⟦cārissimus⟧ Eum Spīritū meō dōnābō isque
+Matt.12.18	base-only	reading	meō dōnābō	1573: neodonabo	1556,1758,1715,1750,ws	animō meō cārissimus Eum Spīritū ⟦meō dōnābō⟧ isque jūs dīcet gentibus
+Matt.12.19	base-only	reading	vōcem	1573: você	1556,1758,1715,1750,ws	rixābitur nec clāmābit nec ejus ⟦vōcem⟧ quisquam per platēās audiet
+Matt.12.20	base-only	division	fūmigāns	1573: fu migans	1758,1681,1715,1750,ws	Quassātam arundinem nōn perfringet neque ⟦fūmigāns⟧ līnum exstinguet eō ūsque ut
+Matt.12.20	correct	spelling	exstinguet eō ūsque	1573,1758: extinguet eousque	ws	nōn perfringet neque fūmigāns līnum ⟦exstinguet eō ūsque⟧ ut jūs perdūcat ad victōriam
+Matt.12.22	base-only	reading	Tunc allātus	1573: Túcallatus | 1556: Tuncallatus	1758,1715,ws	⟦Tunc allātus⟧ est eī furiōsus cæcus et
+Matt.12.22	base-only	reading		1573: cacus et mu	1758,1715,1750,ws	furiōsus cæcus et mūtus quem ⟦⟧ ille sānāvit ita ut cæcus
+Matt.12.22	base-only	reading	vidēret	1573: vi tus fanatur deret	1556,1758,1715,1750,ws	cæcus et mūtus loquerētur ac ⟦vidēret⟧
+Matt.12.23	base-only	division	rē attonitum	1573: reattonitum	1758,1715,1750,ws	Quā ⟦rē attonitum⟧ omne hominum vulgus sīc dictitāre
+Matt.12.23	base-only	reading	hominum	1573: hominuın	1758,1681,1715,1750,ws	Quā rē attonitum omne ⟦hominum⟧ vulgus sīc dictitāre Num hic
+Matt.12.23	base-only	reading	dictitāre	1573: di Sup Etitare | 1758: diftitare	1556,ws	attonitum omne hominum vulgus sīc ⟦dictitāre⟧ Num hic est Dāvīdidēs
+Matt.12.24	base-only	reading	Pharisæī	1573: Pharifçi	1758,1715,1750,ws	Et ⟦Pharisæī⟧ iīs audītīs dīcere eum nōn
+Matt.12.24	base-only	reading	eum	1573: eű	1758,1681,1715,1750,ws	Et Pharisæī iīs audītīs dīcere ⟦eum⟧ nōn nisi per Beelzebūlem dæmoniōrum
+Matt.12.24	base-only	reading	dæmonia	1573: dæinonia | 1750: daemo nia	1758,1715,ws	per Beelzebūlem dæmoniōrum prīncipem ējicere ⟦dæmonia⟧
+Matt.12.25	correct	spelling	intellegēns	1573,1556,1758: intelligens | 1747: innes CCPerunt telligens | 1750: intelliges	ws	Quōrum cōgitātiōnēs ⟦intellegēns⟧ Jēsūs dīxit iīs Omne rēgnum
+Matt.12.26	base-only	division	Quod sī	1573: Quodfi	1758,1715,1747,1750,ws	⟦Quod sī⟧ Satanās Satanām expellit ipse sibi
+Matt.12.26	base-only	reading	potest	1573: porest	1556,1758,1681,1715,1750,ws	ipse sibi adversātur Quī fierī ⟦potest⟧ igitur ut stet ejus rēgnum
+Matt.12.27	base-only	reading	vestrī	1573: vettri | 1750: veítri	1758,1681,1715,1747,ws	ego per Beelzebūlem ējiciō dæmonia ⟦vestrī⟧ generis hominēs per quem ējiciunt
+Matt.12.27	others-1573-agrees	reading	ējiciunt	1715,1747: ejiciant	1573,1758,1750,ws	vestrī generis hominēs per quem ⟦ējiciunt⟧ Itaque iī vestrī erunt jūdicēs
+Matt.12.27	base-only	reading	Itaque	1573: Itaqı	1758,1681,1715,1747,1750,ws	generis hominēs per quem ējiciunt ⟦Itaque⟧ iī vestrī erunt jūdicēs
+Matt.12.27	others-1573-agrees	reading		1715,1750: erunt	1573,ws	per quem ējiciunt Itaque iī ⟦⟧ vestrī erunt jūdicēs
+Matt.12.27	others-1573-agrees	reading	erunt	1715,1747: 	1573,1758,ws	quem ējiciunt Itaque iī vestrī ⟦erunt⟧ jūdicēs
+Matt.12.29	base-only	division	ingredī	1573: ingre di	1556,1758,1747,ws	enim quis in alicujus potentis ⟦ingredī⟧ domum ejusque supellectilem dīripere nisi
+Matt.12.30	base-only	reading		1573: Luc	1758,1681,1715,1747	mē est et quī mēcum ⟦⟧ nōn congerit dissipat
+Matt.12.31	base-only	reading		1573: in fpiritum	1758,1750,ws	habētōte Omne peccātum ac maledictum ⟦⟧ ignōscētur hominibus at maledictum adversus
+Matt.12.31	base-only	reading	Spīritum	1573: spiJantium ritum	1556,1758,1681,1715,1747,ws	ignōscētur hominibus at maledictum adversus ⟦Spīritum⟧ nōn ignōscētur
+Matt.12.32	others-1573-agrees	reading	Fīlium Hominis	1715,1747,1750: homine natum	1573,1758,ws	sī quis quid dīxerit contrā ⟦Fīlium Hominis⟧ ignōscētur eī at sī quis
+Matt.12.32	base-only	reading	dīxerit	1573: dixeb malibe rit	1758,1681,1715,1747,1750,ws	sī quis contrā Sānctum Spīritum ⟦dīxerit⟧ nōn ignōscētur eī nec in
+Matt.12.33	base-only	reading	bonum	1573: bohum	1758,1681,1747,1750,ws	arborem bonam et ejus frūctum ⟦bonum⟧ aut facite arborem tætram et
+Matt.12.36	correct	spelling	quodcumque	1573,1758: quodcunque | 1556: quodLc a b quodcunigg	ws	Scītōte autem ⟦quodcumque⟧ malum verbum locūtī fuerint hominēs
+Matt.12.37	base-only	reading		1573: Infr	1758,ws	absolveris et ex tuīs dictīs ⟦⟧ damnāberis
+Matt.12.38	base-only	reading	scrībārum	1573: Scribarun	1556,1758,1747,ws	Tum ⟦scrībārum⟧ et Pharisæōrum quīdam sīc locūtī
+Matt.12.38	base-only	division	sīc locūtī	1573: ficlocuti	1556,1758,ws	Tum scrībārum et Pharisæōrum quīdam ⟦sīc locūtī⟧ sunt Magister vellēmus ā tē
+Matt.12.40	base-only	reading	totidem	1573: to Signu long tidem | 1747: co dem	1556,1758,1715,1750,ws	ventre cētī trēs diēs et ⟦totidem⟧ noctēs sīc erit Fīlius Hominis
+Matt.12.40	others-1573-agrees	reading	Fīlius Hominis	1715,1750: homine natus | 1747: homiff natus	1573,1758,ws	et totidem noctēs sīc erit ⟦Fīlius Hominis⟧ in terræ meditulliō trēs diēs
+Matt.12.41	base-only	reading	eamque	1573: eamqs	1758,1715,1747,1750,ws	in jūdiciō cum hāc nātiōne ⟦eamque⟧ condemnābunt quod ad Jōnæ præcōnium
+Matt.12.41	base-only	division	quod ad	1573: quòdad	1556,1758,1715,1747,ws	cum hāc nātiōne eamque condemnābunt ⟦quod ad⟧ Jōnæ præcōnium redierint ad frūgem
+Matt.12.41	base-only	reading	præcōnium	1573: præ Niniuita conium | 1747: prae nium	1556,1758,1750,ws	eamque condemnābunt quod ad Jōnæ ⟦præcōnium⟧ redierint ad frūgem cum hīc
+Matt.12.41	base-only	reading	quiddam	1573: quid lona daim	1758,1681,1715,1747,1750,ws	frūgem cum hīc sit plūs ⟦quiddam⟧ quam Jōnās
+Matt.12.42	base-only	reading	nātiōne	1573: natio Austrirene	1758,1715,1747,1750,ws	surget in jūdiciō cum hāc ⟦nātiōne⟧ eamque condemnābit quod ab ultimīs
+Matt.12.42	base-only	reading		1573: gina	1758,1715,1747,ws	quod ab ultimīs ūsque terrīs ⟦⟧ vēnerit ad audiendam Solomōnis sapientiam
+Matt.12.42	correct	reading	audiendam	1573,1758,1750: audiendum | 1715: audienBa dum FE E NEUE ELE GP EE Pr HE ar RR RR c E dum	ws	ultimīs ūsque terrīs vēnerit ad ⟦audiendam⟧ Solomōnis sapientiam cum hīc sit
+Matt.12.42	base-only	reading	cum	1573: cùmg	1556,1758,1681,1715,1747,1750,ws	vēnerit ad audiendam Solomōnis sapientiam ⟦cum⟧ hīc sit quiddam Solomōne præstantius
+Matt.12.43	base-only	reading	migrāvit	1573: migra ritus natura uit | 1747: migraS llt	1556,1758,1715,ws	autem spīritus impūrus ex homine ⟦migrāvit⟧ peragrat sitīculōsa loca requiētem quærēns
+Matt.12.43	base-only	reading	loca	1573: loco	1758,1715,1747,ws	ex homine migrāvit peragrat sitīculōsa ⟦loca⟧ requiētem quærēns quam ubi nōn
+Matt.12.43	base-only	reading	quærēns	1573: quærés	1758,1715,1750,ws	migrāvit peragrat sitīculōsa loca requiētem ⟦quærēns⟧ quam ubi nōn invenit
+Matt.12.45	base-only	reading	hominis	1573: ho Pet minis	1556,1758,1681,1715,1750,ws	ibi dēgunt sitque posterior illīus ⟦hominis⟧ condiciō priōre dēterior Sīc erit
+Matt.12.46	base-only	reading	eō	1573: co	1758,1681,1715,1750,ws	Adhūc ⟦eō⟧ vulgus alloquente aderant forīs ejus
+Matt.12.46	base-only	reading		1573: Mar | 1556: L	1758,1715,1750,ws	vulgus alloquente aderant forīs ejus ⟦⟧ māter et frātrēs eum volentēs
+Matt.12.48	base-only	division	At ille	1573: Atille	1758,ws	⟦At ille⟧ eī quid id sibi dīxerat
+Matt.12.48	correct	reading	quid	1573,1758: qui	ws	At ille eī ⟦quid⟧ id sibi dīxerat ita respondit
+Matt.12.49	base-only	reading		1573: Chrifti fra	1758,1747,1750,ws	ad discipulōs suōs manū Ecce ⟦⟧ mea māter inquit frātrēsque meī
+Matt.12.50	base-only	spelling	exsequitur meī	1573: exequiturmei	1750,ws	Quisquis enim voluntātem ⟦exsequitur meī⟧ Patris quī est in cælīs
+Matt.12.50	base-only	reading		1573: Tins	1556,1758,1681,1750,ws	enim voluntātem exsequitur meī Patris ⟦⟧ quī est in cælīs is
+Matt.13.2	base-only	reading	tantaque	1573: tantaqs	1758,1681,1750,ws	⟦tantaque⟧ ad eum convēnit hominum multitūdō
+Matt.13.2	base-only	reading	multitūdō	1573: mulLuc titudo | 1758: mul titudo | 1747: multitud O	1681,1750,ws	tantaque ad eum convēnit hominum ⟦multitūdō⟧ ut ipse cōnscēnsā nāvī sedēret
+Matt.13.5	correct	reading	cum	1573,1681: cùn	1556,1758,1715,1747,1750,ws	Alia cecidērunt in saxētum ubi ⟦cum⟧ nōn multum terræ habērent celeriter
+Matt.13.6	base-only	reading	āruērunt	1573: a | 1556: aruerüt	1758,1747,ws	ortō sōle æstuantia dēfectū rādīcis ⟦āruērunt⟧
+Matt.13.7	base-only	reading	eaque	1573: eaqs | 1556: eat	1758,1715,1747,1750,ws	Alia cecidērunt in spīnās ⟦eaque⟧ crēscentibus spīnīs suffōcāta sunt
+Matt.13.8	base-only	reading	frūctum	1573: fructű	1758,1715,1747,1750,ws	Alia in bonam dēlāpsa terram ⟦frūctum⟧ extulērunt partim cum centēsimō partim
+Matt.13.8	correct	reading	trīcēsimō	1573,1758,1747,1750,ws: trigefimo		partim cum sexāgēsimō partim cum ⟦trīcēsimō⟧
+Matt.13.10	base-only	reading	Tum cum	1573: Tumeum	ws	⟦Tum cum⟧ hīs verbīs convēnērunt ejus discipulī
+Matt.13.10	others	reading	cum	1556,1758,1715,1747,1750: eum	1681,ws	Tum ⟦cum⟧ hīs verbīs convēnērunt ejus discipulī
+Matt.13.11	base-only	reading	nōn	1573,1556: no	1758,1681,1715,1747,1750,ws	nōsse datum est at illīs ⟦nōn⟧ datum est
+Matt.13.12	correct	reading	autem	1573,1758,1715,1747,1750: enim	ws	Quī ⟦autem⟧ habet huic dabitur isque abundābit
+Matt.13.12	base-only	reading		1573: Infr	1556,1758,1715,1747,1750,ws	habet huic dabitur isque abundābit ⟦⟧ quī vērō nōn habet huic
+Matt.13.12	base-only	reading	nōn	1573: no	1556,1758,1715,1747,1750,ws	dabitur isque abundābit quī vērō ⟦nōn⟧ habet huic etiam quod habet
+Matt.13.13	correct	spelling	intellegunt	1573,1758,1715,1747: intelligunt	ws	et audientēs nōn audiunt nec ⟦intellegunt⟧
+Matt.13.14	base-only	reading	comprobātur	1573: cóprobatur	1758,1681,1715,1747,ws	In iīsque ⟦comprobātur⟧ illud Ēsāiæ ōrāculum quod sīc
+Matt.13.14	base-only	reading	ōrāculum	1573: craculum	1758,1715,1747,1750,ws	In iīsque comprobātur illud Ēsāiæ ⟦ōrāculum⟧ quod sīc habet Audiētis quidem
+Matt.13.14	correct	spelling	intellegētis	1573,1758,1747: intelligetis	ws	habet Audiētis quidem sed nōn ⟦intellegētis⟧ et ita vidēbitis ut nōn
+Matt.13.14	base-only	reading		1573: non audiūt	1747,ws	sed nōn intellegētis et ita ⟦⟧ vidēbitis ut nōn perspiciātis
+Matt.13.15	base-only	reading	auribus	1573: auriMar bus | 1556: autíbus	1758,1681,1747,ws	enim animus hujus populī et ⟦auribus⟧ obtūsē audiunt et claudunt oculōs
+Matt.13.15	base-only	reading	claudunt	1573: claudut	1556,1758,1681,1747,1750,ws	et auribus obtūsē audiunt et ⟦claudunt⟧ oculōs nē et oculīs videant
+Matt.13.15	base-only	reading	videant	1573: viLuc deant	1556,1758,1681,1747,1750,ws	claudunt oculōs nē et oculīs ⟦videant⟧ et auribus audiant et animō
+Matt.13.15	base-only	reading	auribus	1573: aurib | 1758: auri bus	1556,1681,1747,ws	nē et oculīs videant et ⟦auribus⟧ audiant et animō intellegant redeantque
+Matt.13.15	others	spelling	intellegant	1758,1747,1750: intelligant	ws	et auribus audiant et animō ⟦intellegant⟧ redeantque ad frūgem atque ita
+Matt.13.15	base-only	reading	intellegant redeantque	1573: intelligát redeants Ioan | 1556: íntelligant redeantip	ws	et auribus audiant et animō ⟦intellegant redeantque⟧ ad frūgem atque ita ego
+Matt.13.17	correct	reading	cupīsse	1573,1758,1715,1750: cupijsse	ws	enim multōs vātēs et jūstōs ⟦cupīsse⟧ vidēre quæ cernitis vōs neque
+Matt.13.17	correct	reading	audīsse	1573,1758,1715,1750,ws: audiuiffe		quæ audītis vōs nec tamen ⟦audīsse⟧
+Matt.13.19	base-only	reading		1573: a	1758,1715,1747,1750,ws	Cum quis ⟦⟧ rēgium sermōnem audit nec intellegit
+Matt.13.19	others	spelling	intellegit	1573: intelli b Diabolus git | 1556,1758,1681,1715,1747,1750: íntelligit	ws	quis rēgium sermōnem audit nec ⟦intellegit⟧ supervenit malus quī satum in
+Matt.13.19	others	division	animō rapit	1747,1750: animorapit	1556,1758,1681,1715,ws	malus quī satum in ejus ⟦animō rapit⟧ Hic est quī secundum viam
+Matt.13.19	base-only	reading	rapit	1573: rae semen ac pit	1556,1758,1681,1715,ws	quī satum in ejus animō ⟦rapit⟧ Hic est quī secundum viam
+Matt.13.19	base-only	reading		1573: e	1556,1758,1715,1747,ws	Hic est quī secundum viam ⟦⟧ satus est
+Matt.13.20	base-only	division	sermōnem	1573: fermo nem | 1556: fermon | 1747: fermone	1758,1715,1750,ws	satus est is est quī ⟦sermōnem⟧ audiēns prōtinus accipit cum lætitiā
+Matt.13.22	base-only	reading	Quī autem in	1573: Quiautein	1758,1715,1747,1750,ws	⟦Quī autem in⟧ spīnās satus est is est
+Matt.13.23	others-1573-agrees	reading		1715,1750: bonam	1573,1556,1758,ws	Quī vērō in ⟦⟧ terram bonam satus est is
+Matt.13.23	others-1573-agrees	reading	bonam	1556: boná | 1715,1750: 	1573,1758,1681,ws	Quī vērō in terram ⟦bonam⟧ satus est is est quī
+Matt.13.23	base-only	reading	est	1573: elt | 1750: cft	1556,1758,1715,ws	terram bonam satus est is ⟦est⟧ quī sermōnem et audit et
+Matt.13.23	others	reading	audit et intellegit	1715,1750: intelligit	ws	is est quī sermōnem et ⟦audit et intellegit⟧ quī sānē frūctum fert redditque
+Matt.13.23	correct	spelling	intellegit	1573,1556,1758: intelligit | 1747: intelli git	ws	quī sermōnem et audit et ⟦intellegit⟧ quī sānē frūctum fert redditque
+Matt.13.23	base-only	reading	redditque	1573: redditás | 1556: reddíidg	1758,1715,1747,1750,ws	intellegit quī sānē frūctum fert ⟦redditque⟧ alius centuplum alius sexāgēcuplum alius
+Matt.13.24	base-only	reading	Similiter accidit in cælestī rēgnō	1573: 	1758,1750,ws	similitūdinem iīs prōposuit hīs verbīs ⟦Similiter accidit in cælestī rēgnō⟧ ut in homine quī bonum
+Matt.13.24	base-only	reading		1573: ij doctrina Similiter accidit in d cælefti regno vt	1556,1758,1681,1715,1747,1750,ws	rēgnō ut in homine quī ⟦⟧ bonum sēmen sēvit in fundō
+Matt.13.25	correct	form	iit	1573,1758,1747,1750: iuit	ws	sed dormientibus hominibus ⟦iit⟧ ejus inimīcus satum malās herbās
+Matt.13.25	base-only	reading	frūmentum ac	1573: frumentűac	1758,1681,1747,1750,ws	inimīcus satum malās herbās inter ⟦frūmentum ac⟧ discessit
+Matt.13.26	base-only	division	ubi germināvit	1573: vbigerminauit	1681,1715,1747,1750,ws	Deinde ⟦ubi germināvit⟧ herba ēdiditque frūctum tunc appāruērunt
+Matt.13.26	others-1573-agrees	reading	frūctum	1715,1747: fru et um	1573,1758,ws	Deinde ubi germināvit herba ēdiditque ⟦frūctum⟧ tunc appāruērunt etiam malæ herbæ
+Matt.13.26	base-only	division	tunc appāruērunt	1573: tuncapparuerunt	1556,1758,1681,1715,1747,ws	ubi germināvit herba ēdiditque frūctum ⟦tunc appāruērunt⟧ etiam malæ herbæ
+Matt.13.27	base-only	reading	convēnērunt	1573: cóuenerunt	1758,1681,1715,1747,1750,ws	Igitur servī patremfamiliās sīc ⟦convēnērunt⟧ Ere nōnne bonum sēmen in
+Matt.13.28	others-1573-agrees	reading	lectum	1681,1715: le et um | 1747: leUM	1573,1556,1758,ws	servī Vīs igitur ut eās ⟦lectum⟧ eāmus
+Matt.13.29	base-only	reading	legentēs	1573: legétes	1758,1715,1747,1750,ws	Nōn inquit ille nē forte ⟦legentēs⟧ malās herbās frūmentum ūnā cum
+Matt.13.29	others-1573-agrees	reading	malās	1715,1747,1750: 	1573,1758,ws	inquit ille nē forte legentēs ⟦malās⟧ herbās frūmentum ūnā cum iīs
+Matt.13.30	base-only	reading	messem	1573: messein | 1681,1750: meflem	1758,1747,ws	Sinite ambō crēscere ūsque ad ⟦messem⟧ Messis tempore mandābō messōribus ut
+Matt.13.30	base-only	division	tempore	1573: tem pore | 1681: c Semcn accepit f Euangelii doftrina g Ziztmia Early European Books Copyright ProQuest LLC Images reproduced by courtesy of Koninklijke Bibliotheek Den Haag E m MATTH I CAP XIII Meflis tcmpore	1758,1750,ws	crēscere ūsque ad messem Messis ⟦tempore⟧ mandābō messōribus ut prīmum malās
+Matt.13.31	base-only	reading		1573: Mar	1758,1715,1747,1750,ws	similitūdinem illīs prōposuit hīs verbīs ⟦⟧ Simile est cæleste rēgnum grānō
+Matt.13.31	base-only	reading	capit	1573: capitzuc	1758,1715,1747,1750,ws	cæleste rēgnum grānō sināpis quod ⟦capit⟧ homō et in fundō suō
+Matt.13.32	base-only	reading	sēminum	1573: semi Luc num | 1681: ieminum	1758,1715,1747,1750,ws	cum vel minimum sit omnium ⟦sēminum⟧ ubi adolēvit est holus maximum
+Matt.13.32	correct	reading	holus	1573,1758,1747,1750: olerum	ws	omnium sēminum ubi adolēvit est ⟦holus⟧ maximum arborēscitque ita ut in
+Matt.13.32	correct	reading	āeriæ	1573,1758,1747,1750: aereæ | 1715: aerez	ws	in ejus rāmīs nīdificātum veniant ⟦āeriæ⟧ volucrēs
+Matt.13.33	base-only	reading		1573: Fermentu	1556,1758,1747,1750,ws	locūtus est iīs Simile est ⟦⟧ cæleste rēgnum fermentō quod capit
+Matt.13.33	others-1573-agrees	division	et in	1747,1750: etin	1573,1556,1758,1715,ws	rēgnum fermentō quod capit mulier ⟦et in⟧ farīnæ sata tria abdit dōnec
+Matt.13.33	base-only	reading	farīnæ	1573: fa Mar rinæ | 1556,1715: farínz	1758,1747,1750,ws	quod capit mulier et in ⟦farīnæ⟧ sata tria abdit dōnec tōta
+Matt.13.35	others-1573-agrees	reading	similitūdinēs	1556: fimilitu dínes | 1715,1747: fimilitudine	1573,1758,1750,ws	fuerat hīs verbīs Aperiam in ⟦similitūdinēs⟧ ōs meum Effābor quæ ab
+Matt.13.36	others-1573-agrees	division	hujus modī	1747,1750: huiusmodi	1573,ws	Jēsūs quem suī discipulī convēnērunt ⟦hujus modī⟧ verbīs Ēdissere nōbīs similitūdinem dē
+Matt.13.37	base-only	reading		1573: e	1758,1681,ws	modum Quī bonum sēmen serit ⟦⟧ Fīlius Hominis est
+Matt.13.38	base-only	reading	mundus	1573: inundus	1556,1758,1681,1747,1750,ws	Fundus est ⟦mundus⟧ Bonum sēmen rēgiī sunt Malæ
+Matt.13.38	base-only	spelling	Malæ	1573: Male	1758,1747,1750,ws	mundus Bonum sēmen rēgiī sunt ⟦Malæ⟧ herbæ sunt malī fīliī
+Matt.13.38	base-only	reading		1573: et	1758,1747,1750,ws	rēgiī sunt Malæ herbæ sunt ⟦⟧ malī fīliī
+Matt.13.39	base-only	reading	est	1573: 	1758,1747,ws	eārum sator est diabolus Messis ⟦est⟧ fīnis ævī messōrēs angelī sunt
+Matt.13.41	others-1573-agrees	reading	Fīlius Hominis	1747,1750: homine natus	1573,1758,ws	Mittet ⟦Fīlius Hominis⟧ suōs angelōs quī ex ejus
+Matt.13.41	base-only	reading		1573: g	1758,1747,1750,ws	quī ex ejus rēgnō omnia ⟦⟧ dētrīmenta maleficōsque colligent
+Matt.13.42	base-only	reading	erit dentiumque	1573: e aire rit dentiumós | 1681: crit dentiumquc	1758,1747,1750,ws	ignis fornācem conjicient ubi plōrātus ⟦erit dentiumque⟧ strīdor
+Matt.13.43	base-only	reading	Patris	1573: pa Supr tris	1556,1758,1681,1747,1750,ws	rītū relūcēbunt in rēgnō suī ⟦Patris⟧ Quī habet aurēs ad audiendum
+Matt.13.43	base-only	reading	audiendum	1573: audienduın | 1681: audicndum	1556,1758,1747,1750,ws	Patris Quī habet aurēs ad ⟦audiendum⟧ audiat
+Matt.13.44	base-only	reading		1573: thefaurum	1556,1758,1747,1750,ws	est cæleste rēgnum abditō thēsaurō ⟦⟧ in agrō quem nactus aliquis
+Matt.13.44	base-only	division	fundum emit	1573: fundumemit	1556,1758,1750,ws	vēnditum suās omnēs facultātēs eumque ⟦fundum emit⟧
+Matt.13.47	base-only	reading	ēverriculō	1573: e MATTHAE VS Enerrich uerriculo | 1715: everriculoy	1556,1758,1747,1750,ws	cæleste rēgnum jactō in mare ⟦ēverriculō⟧ et cujusque modī rēs colligentī
+Matt.13.48	base-only	reading	replētum	1573: repletuin | 1750: re pletum	1556,1758,1715,1747,ws	quod ⟦replētum⟧ subdūcunt in lītus et sedentēs
+Matt.13.49	base-only	reading	in ævī fīne Prōdībunt angelī	1573: inquifine Prodibuntangeli	1758,ws	Sīc erit ⟦in ævī fīne Prōdībunt angelī⟧ quī malōs sēparābunt ā jūstīs
+Matt.13.50	base-only	reading	strīdorque	1573: stridorý | 1556: fltrídortp | 1758: strindorque | 1715: rido herba funt Mali filii que	1681,1747,1750,ws	fornācem conjicient ubi plōrātus erit ⟦strīdorque⟧ dentium
+Matt.13.51	correct	spelling	Intellegitis	1573,1758,1750: Intelligitis	ws	⟦Intellegitis⟧ hæc omnia inquit iīs Jēsūs
+Matt.13.52	correct	division	Et ille	1573,1750: Etille | 1681: fz Etillc	1758,1715,1747,ws	⟦Et ille⟧ Itaque inquit iīs omnis ērudītus
+Matt.13.52	others	division	et recentia	1747,1750: etrecentia	1758,1715,ws	patrīfamiliās quī ex prōmptuāriō suō ⟦et recentia⟧ dēprōmit et vetera
+Matt.13.52	base-only	reading	recentia	1573: recétia | 1556: Was tecentía	1758,1681,1715,ws	quī ex prōmptuāriō suō et ⟦recentia⟧ dēprōmit et vetera
+Matt.13.54	base-only	reading	eōrum	1573: corű | 1556: eorit | 1681: corum	1758,1747,1750,ws	profectus docēbat conterrāneōs suōs in ⟦eōrum⟧ collēgiō ita ut attonitī sīc
+Matt.13.55	base-only	reading	Jōsēs	1573: Io scuns ses | 1556: lofes | 1747: Ofes	1758,1750,ws	vocātur ejusque frātrēs Jācōbus et ⟦Jōsēs⟧ et Simon et Jūdās
+Matt.13.56	base-only	division	Unde	1573: Vn de	1556,1758,1747,1750,ws	nōnne sunt omnēs apud nōs ⟦Unde⟧ igitur huic hæc omnia
+Matt.13.56	base-only	reading	huic hæc	1573: huichæc	1758,1747,1750,ws	omnēs apud nōs Unde igitur ⟦huic hæc⟧ omnia
+Matt.13.57	base-only	reading	Nōn est	1573: Nonest Mar	1758,1747,1750,ws	in eō offendēbantur At Jēsūs ⟦Nōn est⟧ inquit illīs vātēs inglōrius nisi
+Matt.13.57	base-only	reading		1573: Ioan	1758,1747,1750,ws	nisi in suā patriā atque ⟦⟧ domō
