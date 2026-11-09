@@ -246,6 +246,16 @@ def to_usfm(source, book):
 
 HEADER = {"id", "usfm", "ide", "h", "toc1", "toc2", "toc3", "mt", "mt1", "rem"}
 PARAGRAPHS = {"p", "m", "nb", "b", "q1", "q2", "q3", "q4"}
+TITLES = {"cd": "Argumentum", "d": "Titulus"}   # chapter summary (verse 0), psalm title: one line each; the commands
+                                                # are defined by the generated print LaTeX (pipeline/pdf.py)
+
+
+def unicode_to_latex(text):
+    """Plain text → LaTeX: ’” → '{}'' as in the original, then the quotation marks and soft hyphens."""
+    text = re.sub(r"(?<=[“”‘’])(?=[“”‘’])", "{}", text)
+    for char, latex in FROM_UNICODE:
+        text = text.replace(char, latex)
+    return text
 
 
 def _inline(text):
@@ -278,7 +288,7 @@ def blocks(usfm):
             continue
         match = re.match(r"\\([a-z]+\d*)(?:\s+(.*)|$)", stripped)
         marker = match.group(1) if match else None
-        if marker in HEADER or marker == "c":
+        if marker in HEADER or marker in TITLES or marker == "c":
             out.append((marker, (match.group(2) or "").strip()))
             continue
         if marker in PARAGRAPHS:
@@ -288,7 +298,11 @@ def blocks(usfm):
             raise LatexError(f"USFM text outside a paragraph: {stripped[:40]!r}")
         elif out[-1][1]:
             stripped = " " + stripped           # a line break inside a paragraph is a space
-        out[-1][1].extend(_inline(stripped))
+        for kind, value in _inline(stripped):
+            if kind == "char" and value in PARAGRAPHS:
+                out.append((value, []))         # a marker inside a line ("… lēgistis? \q1 \qt …") starts a block too
+            else:
+                out[-1][1].append((kind, value))
     return out
 
 
@@ -314,6 +328,12 @@ def to_latex(usfm):
             close_poem()
             out.append("\n\n\\Caput\n")
             verse, start = 0, True
+            continue
+        if marker in TITLES:                     # printed above the chapter's drop cap
+            if out[-1] != "\n\n\\Caput\n":
+                raise LatexError(f"\\{marker} must follow \\c directly")
+            text = re.sub(r"\\\+?[a-z]+\d*\*?\s?", "", content)
+            out[-1] = f"\n\n\\{TITLES[marker]}{{{unicode_to_latex(text)}}}\n\\Caput\n"
             continue
         if marker == "b":
             out.append("\n\n")                   # a stanza break: the line before it has no \\
@@ -359,10 +379,7 @@ def to_latex(usfm):
                     out.append("\\emph{")
                 continue
             elif value.strip():
-                text = re.sub(r"(?<=[“”‘’])(?=[“”‘’])", "{}", value)    # ’” → '{}'' as in the original
-                for char, latex in FROM_UNICODE:
-                    text = text.replace(char, latex)
-                out.append(text)
+                out.append(unicode_to_latex(value))
             else:
                 out.append(value)
                 continue

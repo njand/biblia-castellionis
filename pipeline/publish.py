@@ -1,0 +1,315 @@
+"""Stage 7: every published format, generated from the USFM master (text/<USFM code>.usfm) into build/.
+
+  build/site/                 the website (GitHub Pages): a page per chapter, verse anchors (matthaeus/14.html#3),
+                              a macron switch, an optional English column (pipeline/site.py)
+  build/epub/<stem>.epub      EPUB 3 with macrons, and <stem>-sine-macronibus.epub without (pipeline/epub.py)
+  build/pdf/<stem>.tex        print LaTeX in the legacy markup, under LaTeX/main.tex's preamble; <stem>.pdf when a
+                              TeX install is found (pipeline/pdf.py)
+  build/txt/<stem>.txt        reading text with and without macrons; <stem>.tsv and <stem>.json one row per verse
+
+The USFM is parsed into a small model (Book → Chapter → Block → content) shared by every format. Only the markers
+of PLAN.md §3 are accepted; anything else stops the build, so a typo in the master never reaches print. Nothing
+in build/ is edited by hand: change the USFM and rebuild."""
+
+import datetime
+import json
+import re
+import unicodedata
+from dataclasses import dataclass, field
+
+from pipeline import books, latex, paths, tsv
+
+TEXT = paths.ROOT / "text"
+BUILD = paths.ROOT / "build"
+MANIFEST = paths.WITNESSES / "wikisource" / "MANIFEST.tsv"
+SOFT_HYPHEN = latex.SOFT_HYPHEN
+REPOSITORY = "https://github.com/njand/biblia-castellionis"
+
+HEADER = {"id", "usfm", "ide", "h", "toc1", "toc2", "toc3", "mt", "mt1", "mt2", "rem"}
+PARAGRAPHS = {"p", "m", "nb", "b", "q1", "q2", "q3"}
+CHARACTERS = {"qt", "qt*"}
+
+# Collections with a name of their own; any other selection is "Biblia Sacra".
+COLLECTIONS = {("Matt", "Mark", "Luke", "John"): ("Ēvangelia", "evangelia")}
+SERIES = "Biblia Sacra ex Sebastiānī Castelliōnis interpretātiōne"
+
+
+class UsfmError(ValueError):
+    pass
+
+
+@dataclass
+class Block:
+    kind: str                                   # p, m, nb, b (stanza break), q1–q3
+    content: list = field(default_factory=list)  # ("v", n), ("text", s), ("qt", True|False)
+
+
+@dataclass
+class Chapter:
+    number: int
+    summary: str = ""                           # \cd: the argumentum (verse 0)
+    title: str = ""                             # \d: a psalm title (verse 0)
+    blocks: list = field(default_factory=list)
+
+
+@dataclass
+class Book:
+    info: books.Book
+    short: str                                  # \h, the running head: "Matthæus"
+    long: str                                   # \toc1: "Ēvangelium Auctōre Matthæō"
+    title: list                                 # \mt1 split at //: ["Ēvangelium Auctōre", "Matthæō"]
+    chapters: list = field(default_factory=list)
+
+    @property
+    def slug(self):
+        return self.info.slug.replace(" ", "-")
+
+
+def strip_macrons(text):
+    """ā → a, ȳ → y; æ, œ, quotation marks and everything else unchanged."""
+    return unicodedata.normalize("NFC", unicodedata.normalize("NFD", text).replace("\u0304", ""))
+
+
+def parse(usfm, info):
+    """The Book model of one USFM file. Raises UsfmError on any marker outside PLAN.md §3, on text outside a
+    paragraph, on verses out of order and on an unclosed \\qt."""
+    header, chapters, chapter, verse = {}, [], None, 0
+
+    def fail(message, line_no):
+        raise UsfmError(f"{info.usfm}.usfm line {line_no}: {message}")
+
+    for line_no, line in enumerate(usfm.splitlines(), 1):
+        stripped = line.strip()
+        if not stripped:
+            continue
+        match = re.match(r"\\([a-z]+\d*)(?:\s+(.*)|$)", stripped)
+        marker, rest = (match.group(1), (match.group(2) or "").strip()) if match else (None, stripped)
+        if marker in HEADER:
+            header[marker] = rest
+            continue
+        if marker == "c":
+            number = int(rest)
+            if number != len(chapters) + 1:
+                fail(f"\\c {number} where chapter {len(chapters) + 1} was expected", line_no)
+            chapter, verse = Chapter(number), 0
+            chapters.append(chapter)
+            continue
+        if chapter is None:
+            fail(f"{stripped[:40]!r} before the first \\c", line_no)
+        if marker in ("cd", "d"):
+            if chapter.blocks:
+                fail(f"\\{marker} after the chapter's text began", line_no)
+            setattr(chapter, "summary" if marker == "cd" else "title", rest)
+            continue
+        if marker not in PARAGRAPHS and chapter.blocks and chapter.blocks[-1].content:
+            stripped = " " + stripped                   # a line break inside a paragraph is a space
+        for kind, value in latex._inline(stripped):
+            if kind == "char" and value in PARAGRAPHS:  # at the start of a line or inside one ("…? \q1 \qt …")
+                chapter.blocks.append(Block(value))
+                continue
+            if not chapter.blocks:
+                fail(f"text outside a paragraph: {stripped[:40]!r}", line_no)
+            block = chapter.blocks[-1]
+            if kind == "v":
+                verse += 1
+                if value != verse:
+                    fail(f"\\v {value} where verse {verse} was expected", line_no)
+                block.content.append(("v", value))
+            elif kind == "char":
+                if value not in CHARACTERS:
+                    fail(f"marker \\{value} is not one this edition uses (PLAN.md §3)", line_no)
+                block.content.append(("qt", value == "qt"))
+            elif block.content or value.strip():
+                block.content.append(("text", value))
+    if not chapters:
+        raise UsfmError(f"{info.usfm}.usfm has no chapters")
+    for chapter in chapters:
+        _check_qt(chapter, info)
+    short = header.get("h") or header.get("toc2") or info.osis
+    long = header.get("toc1") or short
+    title = [part.strip() for part in (header.get("mt1") or header.get("mt") or long).split("//")]
+    return Book(info, short, long, title, chapters)
+
+
+def _check_qt(chapter, info):
+    open_ = False
+    for block in chapter.blocks:
+        for kind, value in block.content:
+            if kind == "qt":
+                if value == open_:
+                    raise UsfmError(f"{info.osis}.{chapter.number}: \\qt{'' if value else '*'} twice in a row")
+                open_ = value
+    if open_:
+        raise UsfmError(f"{info.osis}.{chapter.number}: \\qt not closed")
+
+
+def load(names=()):
+    """[Book] for every selected book that has a USFM master, in canon order."""
+    out = []
+    for info in books.select(names):
+        path = latex.usfm_path(info)
+        if path.exists():
+            out.append(parse(path.read_text(encoding="utf-8"), info))
+    if not out:
+        raise SystemExit("no USFM master in text/ for the books asked for")
+    return out
+
+
+def verse_segments(chapter):
+    """{verse: [(text, italic, line_break_before)]} for one chapter; the pieces join with "" (a piece that opens a
+    new paragraph or line of a verse begins with a space). Verse 0 is the summary (or psalm title)."""
+    out, verse, italic = {}, 0, False
+    if chapter.title or chapter.summary:
+        out[0] = [(chapter.title or chapter.summary, False, False)]
+    for block in chapter.blocks:
+        new_line = True
+        for kind, value in block.content:
+            if kind == "v":
+                verse, new_line = value, False
+                out.setdefault(verse, [])
+            elif kind == "qt":
+                italic = value
+            elif verse:
+                out[verse].append((" " + value if new_line else value, italic,
+                                   new_line and block.kind.startswith("q")))
+                new_line = False
+    return out
+
+
+def plain(text):
+    """Reading text without markup: soft hyphens dropped, spaces collapsed."""
+    return re.sub(r"\s+", " ", text.replace(SOFT_HYPHEN, "")).strip()
+
+
+def verses(book):
+    """[(id, chapter, verse, text)] for a book, as the gold set has them (verse 0 where a chapter has one)."""
+    rows = []
+    for chapter in book.chapters:
+        for number, segments in verse_segments(chapter).items():
+            text = plain("".join(text for text, _, _ in segments))
+            rows.append((tsv.verse_id(book.info.osis, chapter.number, number), chapter.number, number, text))
+    return rows
+
+
+def collection(selected):
+    """(title, file stem) for a selection of Books."""
+    key = tuple(book.info.osis for book in selected)
+    if key in COLLECTIONS:
+        title, stem = COLLECTIONS[key]
+        return title, f"castellio-{stem}"
+    if len(selected) == 1:
+        return selected[0].long, f"castellio-{selected[0].slug}"
+    return "Biblia Sacra", "castellio"
+
+
+def credits(selected):
+    """What every format prints in its colophon: licence, sources, the Wikisource pages and revisions used."""
+    manifest = {row["book"]: row for row in tsv.read(MANIFEST)} if MANIFEST.exists() else {}
+    pages = []
+    for book in selected:
+        row = manifest.get(book.info.osis)
+        if row:
+            pages.append((book.short, row["url"], row["revid"],
+                          f"https://la.wikisource.org/w/index.php?oldid={row['revid']}", row["fetched"]))
+    testaments = {book.info.testament for book in selected}
+    bases = []
+    if "novum" in testaments:
+        bases.append("The New Testament follows the Basel edition of 1573 (Perna, “ex postrema recognitione”), "
+                     "with Castellio’s last lifetime edition (Basel, 1556) as the reference")
+    if "vetus" in testaments:
+        bases.append(("the" if bases else "The") + " Old Testament follows the Leipzig edition of 1738")
+    return {
+        "series": SERIES,
+        "about": ("Sebastian Castellio’s Latin translation of the Bible (first printed at Basel in 1551), "
+                  "in a reader’s edition: Gaffiot 2016 orthography with full macrons, modern paragraphs, "
+                  "poetry set as verse, quotation marks, and verses numbered as in the King James Version."),
+        "bases": "; ".join(bases) + "." if bases else "",
+        "licence": "This edition is licensed under the Creative Commons Attribution-ShareAlike 4.0 International "
+                   "License (CC BY-SA 4.0). The 16th–18th-century text it is drawn from is in the public domain.",
+        "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "wikisource": ("The text draws on the transcription by the contributors to Latin Wikisource "
+                       "(Biblia Sacra interprete Sebastiano Castellione), used under CC BY-SA 4.0. "
+                       "Pages and revisions used:"),
+        "wikisource_url": "https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione",
+        "pages": pages,
+        "repository": REPOSITORY,
+        "source_note": f"Source files, data and corrections: {REPOSITORY}",
+    }
+
+
+# ---------------------------------------------------------------- plain text and data
+
+SUPERSCRIPT = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+
+def reading_text(book):
+    """The book as plain reading text: paragraphs separated by blank lines, poetry lines indented, verse numbers
+    as superscript digits, each chapter under "<short title> <n>"."""
+    out = [" ".join(book.title).upper(), ""]
+    for chapter in book.chapters:
+        out.append(f"{book.short} {chapter.number}")
+        out.append("")
+        if chapter.title or chapter.summary:
+            out += [chapter.title or chapter.summary, ""]
+        lines, previous = [], ""
+        for block in chapter.blocks:
+            if block.kind == "b":                       # a stanza break
+                lines.append("")
+            else:
+                poetry = block.kind.startswith("q")
+                if lines and lines[-1] and not (poetry and previous.startswith("q")):
+                    lines.append("")                    # a blank line between paragraphs, not between poetry lines
+                text = plain("".join(str(value).translate(SUPERSCRIPT) if kind == "v" and value > 1 else
+                                     value if kind == "text" else "" for kind, value in block.content))
+                lines.append("    " * int(block.kind[1]) + text if poetry else text)
+            previous = block.kind
+        out += lines + [""]
+    return "\n".join(out).rstrip() + "\n"
+
+
+def write_text(selected, folder, stem, title):
+    folder.mkdir(parents=True, exist_ok=True)
+    info = credits(selected)
+    head = [SERIES.upper(), title, ""]
+    tail = ["", "—" * 3, "", info["about"], info["bases"], "", info["licence"], info["licence_url"], "",
+            info["wikisource"], *[f"  {short}: {url} (revision {revid}, {oldid})" for short, url, revid, oldid, _
+                                  in info["pages"]], "", info["source_note"], ""]
+    body = "\n".join(reading_text(book) for book in selected)
+    full = "\n".join(head) + "\n" + body + "\n".join(tail)
+    (folder / f"{stem}.txt").write_text(full, encoding="utf-8", newline="\n")
+    (folder / f"{stem}-sine-macronibus.txt").write_text(strip_macrons(full), encoding="utf-8", newline="\n")
+    rows = [(vid, book.info.osis, c, v, text, strip_macrons(text))
+            for book in selected for vid, c, v, text in verses(book)]
+    tsv.write(folder / f"{stem}.tsv", rows, header=("id", "book", "chapter", "verse", "text", "sine_macronibus"))
+    data = {"title": title, "series": SERIES, "licence": "CC BY-SA 4.0", "licence_url": info["licence_url"],
+            "repository": REPOSITORY,
+            "books": [{"osis": book.info.osis, "usfm": book.info.usfm, "title": book.long, "short": book.short,
+                       "verses": [{"id": vid, "chapter": c, "verse": v, "text": text}
+                                  for vid, c, v, text in verses(book)]} for book in selected]}
+    (folder / f"{stem}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8",
+                                         newline="\n")
+    return [folder / f"{stem}{suffix}" for suffix in (".txt", "-sine-macronibus.txt", ".tsv", ".json")]
+
+
+# ---------------------------------------------------------------- everything
+
+def build(names=(), out=None, english="bsb", sources=None, version="", formats=("site", "epub", "pdf", "txt"),
+          compile_pdf=True):
+    """Generate the selected formats into build/ (or `out`). Returns {format: [paths or messages]}."""
+    from pipeline import epub, pdf, site
+    out = out or BUILD
+    selected = load(names)
+    title, stem = collection(selected)
+    stamp = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
+    made = {}
+    if "txt" in formats:
+        made["txt"] = write_text(selected, out / "txt", stem, title)
+    if "epub" in formats:
+        made["epub"] = [epub.write(selected, out / "epub" / f"{stem}.epub", title, version, stamp, macrons=True),
+                        epub.write(selected, out / "epub" / f"{stem}-sine-macronibus.epub", title, version, stamp,
+                                   macrons=False)]
+    if "pdf" in formats:
+        made["pdf"] = pdf.write(selected, out / "pdf", stem, title, version, compile_pdf)
+    if "site" in formats:
+        made["site"] = site.write(selected, out / "site", title, version, english, sources)
+    return made
