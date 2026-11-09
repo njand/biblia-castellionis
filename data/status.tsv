@@ -26,29 +26,29 @@ Gen.24	67	settled	usfm	68	68
 Gen.25	34	settled	usfm	34	34		
 Gen.26	35	settled	usfm	35	35		
 Gen.27	46	settled	usfm	46	46		
-Gen.28	22	fetched	txt-macronized	22	22		
-Gen.29	35	fetched	txt-macronized	35	35		
-Gen.30	43	fetched	txt-macronized	43	43		
-Gen.31	55	fetched	txt-macronized	55	55		
-Gen.32	32	fetched	txt-macronized	32	32		
-Gen.33	20	fetched	txt-macronized	20	20		
-Gen.34	31	fetched	txt-macronized	31	31		
-Gen.35	29	fetched	txt-macronized	29	29		
-Gen.36	43	fetched	txt-edited	43	-		
-Gen.37	36	fetched	txt-edited	36	-		
-Gen.38	30	fetched	txt-edited	29	-	1	
-Gen.39	23	fetched	txt-edited	23	-		
-Gen.40	23	fetched	txt-edited	23	-		
-Gen.41	57	fetched	txt-edited	56	-		
-Gen.42	38	fetched	txt-edited	38	-		
-Gen.43	34	fetched	txt-edited	33	-	1	
-Gen.44	34	fetched	txt-edited	33	-	1	
-Gen.45	28	fetched	txt-edited	28	-		
-Gen.46	34	fetched	txt-edited	34	-	1	
-Gen.47	31	fetched	txt-edited	31	-		
-Gen.48	22	fetched	txt-edited	23	-		
-Gen.49	33	fetched	txt-edited	34	-		
-Gen.50	26	fetched	txt-edited	26	-		
+Gen.28	22	settled	txt-macronized	22	22		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.29	35	settled	txt-macronized	35	35		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.30	43	settled	txt-macronized	43	43		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.31	55	settled	txt-macronized	55	55		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.32	32	settled	txt-macronized	32	32		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.33	20	settled	txt-macronized	20	20		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.34	31	settled	txt-macronized	31	31		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.35	29	settled	txt-macronized	29	29		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.36	43	settled	txt-edited	43	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.37	36	settled	txt-edited	36	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.38	30	settled	txt-edited	29	-	1	settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.39	23	settled	txt-edited	23	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.40	23	settled	txt-edited	23	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.41	57	settled	txt-edited	56	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.42	38	settled	txt-edited	38	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.43	34	settled	txt-edited	33	-	1	settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.44	34	settled	txt-edited	33	-	1	settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.45	28	settled	txt-edited	28	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.46	34	settled	txt-edited	34	-	1	settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.47	31	settled	txt-edited	31	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.48	22	settled	txt-edited	23	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.49	33	settled	txt-edited	34	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
+Gen.50	26	settled	txt-edited	26	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
 Exod.1	22	fetched	txt-edited	22	-		
 Exod.2	25	fetched	txt-edited	25	-	1	
 Exod.3	22	fetched	txt-edited	22	-		
@@ -1010,17 +1010,17 @@ Mark.2	28	settled	usfm	28	28
 Mark.3	35	settled	usfm	35	35		
 Mark.4	41	settled	usfm	41	41		
 Mark.5	43	settled	usfm	43	43		
-Mark.6	56	corrected	usfm-draft	56	56		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.7	37	corrected	usfm-draft	37	37		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.8	38	corrected	usfm-draft	38	38		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.9	50	corrected	usfm-draft	50	50		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.10	52	corrected	usfm-draft	52	52		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.11	33	corrected	usfm-draft	33	33		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.12	44	corrected	usfm-draft	44	44		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.13	37	corrected	usfm-draft	37	37		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.14	72	corrected	usfm-draft	72	72		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.15	47	corrected	usfm-draft	47	47		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
-Mark.16	20	corrected	usfm-draft	20	20		stage 2 proposed 2026-11-07: data/review/mark6-16-stage2.md
+Mark.6	56	settled	usfm	56	56		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.7	37	settled	usfm	37	37		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.8	38	settled	usfm	38	38		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.9	50	settled	usfm	50	50		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.10	52	settled	usfm	52	52		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.11	33	settled	usfm	33	33		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.12	44	settled	usfm	44	44		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.13	37	settled	usfm	37	37		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.14	72	settled	usfm	72	72		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.15	47	settled	usfm	47	47		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
+Mark.16	20	settled	usfm	20	20		settled 2026-11-08 (decision 29): data/review/mark6-16-ch*.md
 Luke.1	80	settled	usfm	80	80		
 Luke.2	52	settled	usfm	52	52		
 Luke.3	38	settled	usfm	38	38		
@@ -1034,38 +1034,38 @@ Luke.10	42	settled	usfm	42	42
 Luke.11	54	settled	usfm	54	54		
 Luke.12	59	settled	usfm	59	59		
 Luke.13	35	settled	usfm	35	35		
-Luke.14	35	fetched	ocr	35	35		
-Luke.15	32	fetched	ocr	32	32		
-Luke.16	31	fetched	ocr	31	31		
-Luke.17	37	fetched	ocr	37	37		
-Luke.18	43	fetched	ocr	43	43		
-Luke.19	48	fetched	ocr	48	48		
-Luke.20	47	fetched	ocr	47	47		
-Luke.21	38	fetched	ocr	38	38		
-Luke.22	71	fetched	ocr	71	71		
-Luke.23	56	fetched	ocr	56	56		
-Luke.24	53	fetched	ocr	53	53		
+Luke.14	35	settled	usfm	35	35		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.15	32	settled	usfm	32	32		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.16	31	settled	usfm	31	31		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.17	37	settled	usfm	37	37		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.18	43	settled	usfm	43	43		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.19	48	settled	usfm	48	48		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.20	47	settled	usfm	47	47		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.21	38	settled	usfm	38	38		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.22	71	settled	usfm	71	71		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.23	56	settled	usfm	56	56		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
+Luke.24	53	settled	usfm	53	53		settled 2026-11-08 (decision 30): data/review/luke14-24-ch*.md
 John.1	51	settled	usfm	51	51		
 John.2	25	settled	usfm	25	25		
 John.3	36	settled	usfm	36	36		
 John.4	54	settled	usfm	54	54		
-John.5	47	fetched	ocr	47	47		
-John.6	71	fetched	ocr	71	71		
-John.7	53	fetched	ocr	53	53		
-John.8	59	fetched	ocr	59	59		
-John.9	41	fetched	ocr	41	41		
-John.10	42	fetched	ocr	42	42		
-John.11	57	fetched	ocr	57	57		
-John.12	50	fetched	ocr	50	50		
-John.13	38	fetched	ocr	38	38		
-John.14	31	fetched	ocr	31	31		
-John.15	27	fetched	ocr	27	27		
-John.16	33	fetched	ocr	33	33		
-John.17	26	fetched	ocr	26	26		
-John.18	40	fetched	ocr	40	40		
-John.19	42	fetched	ocr	42	42		
-John.20	31	fetched	ocr	31	31		
-John.21	25	fetched	ocr	25	25		
+John.5	47	settled	usfm	47	47		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.6	71	settled	usfm	71	71		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.7	53	settled	usfm	53	53		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.8	59	settled	usfm	59	59		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.9	41	settled	usfm	41	41		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.10	42	settled	usfm	42	42		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.11	57	settled	usfm	57	57		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.12	50	settled	usfm	50	50		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.13	38	settled	usfm	38	38		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.14	31	settled	usfm	31	31		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.15	27	settled	usfm	27	27		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.16	33	settled	usfm	33	33		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.17	26	settled	usfm	26	26		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.18	40	settled	usfm	40	40		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.19	42	settled	usfm	42	42		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.20	31	settled	usfm	31	31		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
+John.21	25	settled	usfm	25	25		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
 Acts.1	26	fetched	txt-corrected	26	-		
 Acts.2	47	fetched	txt-corrected	47	-		
 Acts.3	26	fetched	txt-corrected	26	-		

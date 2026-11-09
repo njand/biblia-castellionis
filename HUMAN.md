@@ -39,6 +39,27 @@
 
 ## Decisions waiting
 
+- **Genesis 28–50 is settled** (2026-11-08; decision 32): approved by you "for now", in `text/GEN.usfm` (Genesis now
+  1,532 verses; every chapter at the KJV count but 41, where 41:57 is absent in every printing), gold rebuilt, draft
+  removed. Record: `data/review/gen28-50-stages3-5.md`, `-stage2.md`, `-ch28.md` … `-ch50.md`,
+  `settled-fixes-gen.md`, `data/decisions/Gen.*.tsv`. **Everything you transcribed earlier is now settled**: next is
+  new transcription, while your in-depth review (decision 30) can begin. One call for the whole edition: *Rachel*
+  (your Matt 2:18) vs *Rāchēl-* in the other cases.
+- **John 5–21 is settled** (2026-11-08; decision 31): approved by you "for now", in `text/JHN.usfm` (879 verses, the
+  KJV count), gold rebuilt, draft removed. **All four Gospels are now settled** (Matthew 1,071, Mark 678, Luke 1,151,
+  John 879 verses). Record: `data/review/john5-21-stages3-5.md`, `-stage2.md`, `-ch05.md` … `-ch21.md`,
+  `data/decisions/John.*.tsv`. Genesis 28–50 followed (decision 32).
+- **Luke 14–24 is settled** (2026-11-08; decision 30): approved by you "for now", in `text/LUK.usfm` (1,151 verses,
+  the KJV count), gold rebuilt, draft removed. Record: `data/review/luke14-24-stages3-5.md`, `-stage2.md`,
+  `-ch14.md` … `-ch24.md`, `data/decisions/Luke.*.tsv`. **Your in-depth review of everything settled since
+  2026-11-07 comes later** (decision 30), while new transcription goes on.
+- **Mark 6–16 is settled** (2026-11-08; decisions 28–29): every verse read; Mark 6 accepted by you, 7–16 by me
+  under your delegation, with each fix recorded in the review log of `data/review/mark6-16-stages3-5.md`. The
+  chapters are in `text/MRK.usfm` (678 verses, the KJV count), `data/gold/Mark.tsv` rebuilt, `text/draft/MRK.usfm`
+  removed (the pre-stage-3 draft is in git; `data/review/mark6-16-ch*.md` reproduce every change). Also applied:
+  `settled-fixes-matt.md` (Matt 27:37 *JŪDÆŌRUM*, 20:29 *Hierichūnte*, 22:44 *Sedē*, 19:10 *cōnūbia*). **For your
+  read-through**: the calls I made without you are listed in that review log (4 spelling rules added to
+  `orthography.tsv`, 2 code fixes, 2 forms); everything is uncommitted.
 - **Applied 2026-11-07** (all review proposals accepted except the open items below): `settled-fixes.md` (10, to
   `text/LUK.usfm`, `GEN.usfm`, `JHN.usfm`; gold rebuilt); Matthew's 3 verse-number splits; `matt14-28-stage2.md`
   (29), `-spelling.md` (40), `-macrons.md` (12 items), `-structure.md` (25 items) to `text/draft/MAT.usfm`;
@@ -58,7 +79,7 @@
   1573** (*Ēde nōbīs aliquod prōdigium …*), 2 forms (*tonitruī*, *sēminece*). Kept and listed: *tetrarchēs*,
   *assimulem*, *circumsedēret*, *abstergēmus*.
 - **Possible follow-ups** (not started): chapter summaries (decision 3) are in neither draft nor settled USFM;
-  stages 3–5 for Mark 6–16 need a per-verse review format; the same collation for settled Genesis against the 1738 OCR (the OT base).
+  the same collation for settled Genesis against the 1738 OCR (the OT base).
 - **The spelling rules are decided** (2026-11-06, decisions 16–20; `data/rules/REVIEW.md` has the evidence).
   `orthography.tsv`: 114 rules approved, 12 rejected; three left for the names list (*Bennammi*, *Hierichūntem*,
   with *Henōchī/Enōchī* and *Abius*).
@@ -99,6 +120,11 @@
 | 25 | 2026-11-07 | **Quotation marks in the settled chapters** (`data/review/quotes.md`, all accepted): of the 167 passages in ‘…’, 80 are reported speech and lose their marks (70 statements and commands; 10 indirect questions, which also lose their question mark), two slips are fixed (Luke 12:18 “‘Hoc agam,’; Gen 24:47 ‘Bathūēlis), and the other 87 keep their marks. 87 replacements applied to `text/*.usfm`; `data/gold/` rebuilt. |
 | 26 | 2026-11-07 | **Matthew 14–28 approved; perfect forms of *eō*, *-āstis*, *Rabbi*.** Every proposal in `data/review/matt14-28-*.md`, `settled-fixes.md` and `mark6-16-stage2.md` accepted except as follows. The perfect of *eō* and its compounds follows republican prose (Latin Library, `latin attest --count`): *-iī* (27:0 against *-īvī* in the compounds), *-iit*, *-iērunt*, and contracted *-īstī/-īstis/-īsse/-īssent* (no *-iistī/-iisse/-iissent* at all), so Matt 25:25 keeps *iī* (1573 *iui*) and Mark 14:48 keeps *existis* (1573 *exijstis*), as Matt 11:8–9 *exīstis*. First-conjugation *-āvistis/-āstis* is near even in Cicero (9:12), so the edition's consistency decides: *-āstis* (Matt 25:36 *vīsitāstis*, = 1573). *Rabbi* unmarked, Gaffiot's form. The 3 BSB paragraphs added (Matt 17:19, 18:19, 24:26). Evidence in `matt14-28-spelling.md` group 6. |
 | 27 | 2026-11-07 | **The settled NT chapters follow 1573 where it and the printings agree against them** (`data/review/settled-1573.md`, all 46 accepted, every place read on the 1573 page image): 22 Wikisource slips (Luke 4:27 *est*, 6:12 *pernox*, 7:11 *proficīscerētur* …), 21 readings (Matt 6:4, 6, 18 *occulta*, 13:32 *holerum*, Luke 9:12 *dēversentur* …), 2 forms (*tonitruī*, *sēminece*), and John 2:18 in Castellio's 1573 revision (*Ēde nōbīs aliquod prōdigium …*; 1556 recorded as a variant). Kept: *tetrarchēs* (Gaffiot, Cicero), *assimulem*, *circumsedēret*, *abstergēmus*. |
+| 28 | 2026-11-08 | **Mark 6–16, stages 3–5: the per-verse review's open questions** (`data/review/mark6-16-stages3-5.md`). Decision 6's unflagged tier adds homographs that WordPress 2019 chose and your settled forms mark alike (0.28% wrong, as lexicon-only macrons' 0.26%). The 22 macrons decided in context are accepted as a batch; the three BSB paragraphs moved off mid-sentence (12:12 *Igitur*, 12:37 *Cumque*, 14:26) are accepted; 7:11 (only the man's words in ‘…’), 7:19 (*expūrgāns omnēs cibōs* inside the speech), 8:28 (the accusative answer as speech) and 11:31 (the deliberation ends before *Sīn*) stay as proposed. Quoted Scripture: Isa 66:24 in `\qt` at 9:44, 46 and 48; the commandments at 10:19 in `\qt` with ‘…’; Gen 1:27 at 10:6 and the allusion at 8:18 also in `\qt` with ‘…’ (unlike your Matt 19:4). The three Matthew slips are to be proposed as fixes. Each chapter's verses still wait on its Decision line. |
+| 29 | 2026-11-08 | **Mark 6–16 settled under delegation.** After accepting Mark 6 you asked me to go through the rest "very carefully, examining the evidence for each point", apply my recommendations and record each change; you will read the whole text later and can override then. Every verse of Mark 7–16 was read with its evidence and accepted; fixes made on the way: spelling rules *quenquam → quemquam*, *sepe → saepe* (the hedge), *Genezarethanum → Gennezarethanum*, *Bethpage → Bethphage*; the long prefix before *j* in compounds of *jaciō* (*ējicere*, *trājēcit*, as your text 50 of 50); a verse-start capital kept for names your text never lowers (*Pīlātus*); 10:1 *convenit*, 15:34 *sabachtanī*; Matt 19:10 *cōnūbia* (corpus and Gaffiot), with your three Matthew fixes. |
+| 30 | 2026-11-08 | **Luke 14–24 approved for now; review later.** Stages 1–5 as for Mark (17 stage-2 slips read on the 1573 images; 491 verses, 29 macrons decided in context, 252 layout lines) settled in `text/LUK.usfm`. Standing rule: the chapters you transcribed earlier are taken through the pipeline, every flag and verse checked by me with its evidence, and settled on your approval; your in-depth review of the whole comes after they are all done, while new transcription goes on. Everything stays reviewable (`data/review/`, `data/decisions/`). |
+| 31 | 2026-11-08 | **John 5–21 approved for now; the Gospels are complete.** Stages 1–5 as for Luke (21 stage-2 corrections read on the 1573 images, 3 of them the base edition's forms *lōtum*, *tonitru*, *lōtus*; 28 macrons decided in context; 392 layout lines) settled in `text/JHN.usfm`. A discourse running over a chapter break is left open, as your Matt 5:48 → 6:1 (John 9:41, 14:31, 15:27). Your in-depth review follows decision 30. |
+| 32 | 2026-11-08 | **Genesis 28–50 approved for now; your earlier transcriptions are all settled.** The first Old Testament run: Wikisource collated against 1738 (the base), 1750 and your 1726 text; 61 stage-2 corrections, mostly read on the 1738 page images; 41:57 recorded as absent (every printing ends chapter 41 at 41:56); Castellio's *G.* … *H.* marks at 44:6 dropped, the words kept (as Matt 19:4); 791 macrons decided in context and 221 layout lines; your Gen 25:33 *Jūrā*; three spelling rules (*adjutus*, *abjudicabitur*, *quattuordecim*). Settled in `text/GEN.usfm`. Open for your review: *Rachel* vs *Rāchēl-*. Your in-depth review follows decision 30. |
 
 ## How to run
 

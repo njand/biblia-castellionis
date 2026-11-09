@@ -203,6 +203,9 @@ def choose(word, entry, prefer=None):
         candidates = [c for c in candidates if c.form[:1].isupper()]
     if len(plain(word)) and candidates:
         candidates = [c for c in candidates if len(key(c.form)) == len(key(word))] or candidates
+    # A diaeresis (W's Israël) only notes the hiatus another candidate marks with macrons (Isrāēl); taken
+    # alone, it would lose its mark and let ae become æ (Isræl).
+    candidates = [c for c in candidates if "̈" not in unicodedata.normalize("NFD", c.form)] or candidates
     if not candidates:
         return Choice(how="unknown")
     options = {}
@@ -227,14 +230,17 @@ def finish(word, longs):
     if letters in SHORT_FINAL:
         longs = set(longs) - {len(letters) - 1}
     longs = {i for i in longs if not (i + 1 < len(letters) and letters[i + 1] == "j")}
+    if m := LONG_BEFORE_J.match(letters):              # ē|jiciō, trā|jēcit: long by nature (50 of 50 settled)
+        longs.add(m.end(1) - 1)
     marked = mark(word, longs)
     return ligatures(marked)
 
 
 def ligatures(word):
-    """ae → æ, oe → œ where neither vowel is marked (a diphthong), in a word already macronized."""
-    out = re.sub(r"(?<![āēīōū])([Aa])e(?![̄̈])", lambda m: "Æ" if m.group(1) == "A" else "æ", nfc(word))
-    out = re.sub(r"([Oo])e(?![̄̈])", lambda m: "Œ" if m.group(1) == "O" else "œ", out)
+    """ae → æ, oe → œ where neither vowel is marked (a diphthong), in a word already macronized (a long vowel
+    before it does not matter: Marīæ, Nōæ)."""
+    out = re.sub(r"([Aa])e(?![̄̈])|AE(?![̄̈])", lambda m: "Æ" if m.group()[0] == "A" else "æ", nfc(word))
+    out = re.sub(r"([Oo])e(?![̄̈])|OE(?![̄̈])", lambda m: "Œ" if m.group()[0] == "O" else "œ", out)
     return out
 
 
@@ -268,6 +274,8 @@ def jv(word):
 
 
 PREFIXES = {"ab", "ad", "con", "dis", "in", "ob", "sub", "per", "e", "ex"}
+# Compounds of jaciō whose prefix is long by nature: ējiciō, dējiciō, prōjiciō, trājiciō.
+LONG_BEFORE_J = re.compile(r"(e|de|pro|tra)j(?:ic|ec|ac)")
 # Compounds of jaciō, always with j (abjiciō, ējiciō, prōjiciō), not Gaffiot's abiciō (decision 17).
 JICIO_PREFIXES = {"ab", "ad", "con", "dis", "in", "ob", "sub", "e", "de", "re", "pro", "tra", "trans", "circum",
                   "inter", "super", "præ", "prae"}

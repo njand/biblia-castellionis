@@ -1,0 +1,630 @@
+id	kind	sort	text	readings	support	context
+Luke.14.1	base-only	division	capiendum	1573: capi endum	1758,ws	Pharisaeorum primarii Sabbato ad cibum ⟦capiendum⟧
+Luke.14.2	base-only	reading	adessetque	1573: adessetás	1758,1747,1750,ws	Et illi eum observarent ⟦adessetque⟧ tum homo quidam hydropicus ante
+Luke.14.3	correct	reading	juris peritos	1573,1758,1681: legisperitos	ws	Jesus ⟦juris peritos⟧ et Pharisaeos alloquens quaesivit an
+Luke.14.5	base-only	reading	Illosque sic affatus	1573: illosás ficaffatus	ws	⟦Illosque sic affatus⟧ est Quis vestrum est qui
+Luke.14.5	base-only	division	in puteum	1573: inputeum | 1556: ínputeü	1758,1750,ws	si ejus asinus aut bos ⟦in puteum⟧ cadat non eum protinus extrahat
+Luke.14.7	base-only	reading	ut	1573: vi	1556,1758,1681,1715,1750,ws	Dixit item invitatis exemplum animadvertens ⟦ut⟧ prima accubandi loca deligerent eos
+Luke.14.7	base-only	reading	deligerent	1573: deligerét	1758,1681,1715,1750,ws	animadvertens ut prima accubandi loca ⟦deligerent⟧ eos sic alloquens
+Luke.14.8	base-only	reading	noli accubare	1573: noliaccuNon appered us honos bare	1556,1758,1715,1750,ws	ab aliquo vocatus ad nuptias ⟦noli accubare⟧ primo loco ne si quis
+Luke.14.9	base-only	reading	cum	1573: ctiin | 1556: cü | 1750: cam	1758,1681,1715,1747,ws	ita sit tibi ultimus locus ⟦cum⟧ pudore occupandus
+Luke.14.10	base-only	reading	loco	1573: lo Prou co	1556,1758,1681,1715,1747,1750,ws	fueris invitatus i accubitum ultimo ⟦loco⟧ ut cum venerit qui te
+Luke.14.10	base-only	reading	Amice ascende	1573: Athice astende	1758,1715,1747,ws	qui te invitaverit dicat tibi ⟦Amice ascende⟧ superius id quod tibi erit
+Luke.14.10	others-1573-agrees	division	erit apud	1556: e c fítapud | 1747,1750: eritapud	1573,1758,1681,1715,ws	ascende superius id quod tibi ⟦erit apud⟧ eos qui tecum accumbent gloriosum
+Luke.14.10	base-only	division	qui tecum	1573: quite cum	1758,1681,1750,ws	quod tibi erit apud eos ⟦qui tecum⟧ accumbent gloriosum
+Luke.14.11	correct	division	se ipsum	1573,1715,1750: seipfum | 1747: feipfum j rifaeos alloquens quaefiuit	ws	Nam quisquis ⟦se ipsum⟧ evexerit deprimetur et qui se
+Luke.14.12	base-only	reading		1573: Mat Infr | 1747: x quis veftrum eft qui fieius	1758,1681,1715,1750,ws	qui se invitaverat Cum prandium ⟦⟧ cenamve facis ne vocato tuos
+Luke.14.12	base-only	division	vocato tuos	1573: vocatotuos	1556,1758,1681,1715,1750,ws	Cum prandium cenamve facis ne ⟦vocato tuos⟧ amicos nec fratres nec cognatos
+Luke.14.12	others-1573-agrees	reading		1758,1681: I	1573,1715,ws	fratres nec cognatos nec vicinos ⟦⟧ nec divites ne illi te
+Luke.14.12	base-only	division	vicissim	1573: vicif sim | 1681: viciflim	1758,1715,1747,ws	nec divites ne illi te ⟦vicissim⟧ invitent tibique referatur gratia
+Luke.14.13	base-only	reading	mutilos	1573: mu ad conuiuia tilos	1556,1758,1681,1715,1747,1750,ws	cum convivium celebras voca pauperes ⟦mutilos⟧ claudos caecos
+Luke.14.14	base-only	reading	resurrectione	1573: refirrectione | 1747: rez tusadnuptias noliaceubare furre et ione	1556,1758,1715,ws	nequeunt Reddetur enim tibi in ⟦resurrectione⟧ justorum
+Luke.14.15	others-1573-agrees	reading	capit	1715,1750: capiet	1573,1556,1758,ws	dixit ei Felix qui cibum ⟦capit⟧ in divino regno
+Luke.14.16	base-only	division	Et ille	1573: Etille	1758,1715,1750,ws	⟦Et ille⟧ Homo quidam inquit ei fecit
+Luke.14.16	base-only	reading		1573: Mat	1758,1715,1750,ws	quidam inquit ei fecit magnam ⟦⟧ cenam multosque invitavit
+Luke.14.17	base-only	reading		1573: a	1758,1750,ws	servum suum misit qui invitatos ⟦⟧ venire juberet jam enim parata
+Luke.14.18	base-only	reading	eum	1573: euin	1758,1681,1747,1750,ws	ei dixit Fundum emi et ⟦eum⟧ visere necesse habeo rogo te
+Luke.14.21	correct	form	iit	1573,1758,1715: iuit	ws	Haec servus domino suo renuntiatum ⟦iit⟧ Tum iratus paterfamilias dixit servo
+Luke.14.21	base-only	division	e vestigio	1573: eueftigiò | 1556: eueíligio	1758,1715,1750,ws	paterfamilias dixit servo suo Egredere ⟦e vestigio⟧ in urbis areas atque ficos
+Luke.14.21	others-1573-agrees	reading	ficos	1758,1715,1750: vicos	1573,ws	vestigio in urbis areas atque ⟦ficos⟧ et pauperes mutilosque et claudos
+Luke.14.22	base-only	division	imperasti	1573: im perasti | 1750: imperaíti	1556,1758,1715,ws	Domine inquit factum est ut ⟦imperasti⟧ sed superest locus
+Luke.14.23	base-only	reading		1573: a	1556,1758,1715,1747,1750,ws	Tum dominus Proficiscere in ⟦⟧ vias inquit et in saepta
+Luke.14.23	base-only	reading	domus mea	1573: doinus inea	1758,1715,1750,ws	saepta et intrare coge ut ⟦domus mea⟧ compleatur
+Luke.14.24	correct	reading	neminem	1573,1715: neminein	1758,1681,1750,ws	Nam illud scitote ⟦neminem⟧ hominum illorum invitatorum esse meam
+Luke.14.24	base-only	reading	meam	1573: mean	1556,1758,1715,1750,ws	neminem hominum illorum invitatorum esse ⟦meam⟧ cenam gustaturum
+Luke.14.25	base-only	division	comitaretur	1573: comi taretur | 1556: comita Nattb ac retut	1758,1715,1750,ws	autem eum ingens hominum turba ⟦comitaretur⟧ conversus dixit iis
+Luke.14.26	base-only	reading	suum	1573: suű	1758,1681,1715,1750,ws	quis ad me venit nec ⟦suum⟧ patrem et matrem et uxorem
+Luke.14.26	base-only	reading	suam	1573: bfuam Mat | 1556: P fudm	1758,1681,1715,1750,ws	fratres et sorores atque adeo ⟦suam⟧ ipsius animam odit non potest
+Luke.14.26	others-1573-agrees	reading	esse	1758,1750: efie	1573,1556,1681,1715,ws	animam odit non potest meus ⟦esse⟧ discipulus
+Luke.14.27	base-only	reading	non	1573: nó	1758,1715,1750,ws	Qui ⟦non⟧ portat suam crucem et me
+Luke.14.28	correct	reading	en	1573,1758,1750: an | 1715: à Fundum emi et eum vifere ne	ws	non prius sedens sumptum computat ⟦en⟧ habeat quae ad perfectionem requirantur
+Luke.14.28	base-only	spelling	quae	1573: que | 1715: quz	1758,1750,ws	sedens sumptum computat en habeat ⟦quae⟧ ad perfectionem requirantur
+Luke.14.29	base-only	division	omnes	1573: o mnes	1556,1758,1715,1750,ws	jactis fundamentis absolvere non valeat ⟦omnes⟧ qui id spectabunt eum illudere
+Luke.14.30	base-only	reading		1573: esse	1556,1758,ws	eum hominem quae aedificare coeperit ⟦⟧ exaedificare nequivisse
+Luke.14.31	base-only	reading	sedens	1573: sedenis	1758,1715,1747,1750,ws	rege committendum profecturus non ante ⟦sedens⟧ deliberat an possit cum decem
+Luke.14.31	base-only	reading	decem	1573: decein	1556,1758,1715,1747,1750,ws	sedens deliberat an possit cum ⟦decem⟧ millibus obviam ire illi qui
+Luke.14.31	correct	division	secum	1573,1758,1750: se cum | 1681: fc cum | 1715: fe cnm	ws	millibus obviam ire illi qui ⟦secum⟧ viginti millibus adoriatur
+Luke.14.32	correct	reading	Alioqui	1573,1758,1715,1747,1750: Alioquin	ws	⟦Alioqui⟧ adhuc illo procul absente legatos
+Luke.14.33	correct	spelling	quicumque	1573,1758,1715,1747: quicunque	1750,ws	Sic igitur ⟦quicumque⟧ vestrum non suis omnibus valedicit
+Luke.14.33	correct	division	valedicit	1573,1715,1747,1750: vale dicit	1758,ws	quicumque vestrum non suis omnibus ⟦valedicit⟧ non potest meus esse discipulus
+Luke.14.34	base-only	reading	infatuatum	1573: infatuatu	1758,1715,1747,1750,ws	est sal verum si sal ⟦infatuatum⟧ fuerit quo condietur
+Luke.14.35	base-only	division	Nec terrae	1573: Necterræ	1747,1750,ws	⟦Nec terrae⟧ est nec stercori accommodatum foras
+Luke.15.2	base-only	reading	eum improbos	1573: frugem eumimprobos	1758,1715,1747,1750,ws	fremebant Pharisaei atque Scribae dicentes ⟦eum improbos⟧ admittere cumque iis cibum capere
+Luke.15.4	base-only	reading	vestrum	1573: vestrûn	1556,1758,1715,1747,1750,ws	Quis homo ⟦vestrum⟧ est qui si centum habeat
+Luke.15.4	base-only	reading	centum	1573: centuin	1556,1758,1681,1715,1747,1750,ws	homo vestrum est qui si ⟦centum⟧ habeat oves et earum unam
+Luke.15.4	base-only	reading	unam	1573: vnain | 1758: unum	1556,1681,1715,1747,1750,ws	centum habeat oves et earum ⟦unam⟧ perdiderit non relinquat in saltu
+Luke.15.4	base-only	reading	perditam	1573: perditain | 1681: perditan	1556,1758,1715,1747,1750,ws	saltu nonaginta novem et ad ⟦perditam⟧ vadat donec eam inveniat
+Luke.15.6	base-only	reading	Domumque	1573: domumą | 1556: domumdq	1758,1715,1747,1750,ws	⟦Domumque⟧ profectus convocatos suos amicos et
+Luke.15.6	base-only	reading	convocatos	1573: couocatos	1758,1715,1747,1750,ws	Domumque profectus ⟦convocatos⟧ suos amicos et vicinos admonet
+Luke.15.6	base-only	reading	congratulentur	1573: congratulétur | 1750: coneratulentur	1556,1758,1681,1715,1747,ws	et vicinos admonet ut sibi ⟦congratulentur⟧ qui suam ovem perditam invenerit
+Luke.15.7	base-only	division	redeat ad	1573: redeatad	1758,1715,1747,1750,ws	laetitiam ob unum sontem qui ⟦redeat ad⟧ frugem quam ob nonaginta novem
+Luke.15.8	others-1573-agrees	reading	quae	1747,1750: quac	1573,1758,ws	Aut quae mulier est ⟦quae⟧ si drachmas habeat decem et
+Luke.15.8	base-only	reading	drachmam	1573: drachinam	1758,1681,1715,1747,1750,ws	drachmas habeat decem et unam ⟦drachmam⟧ amittat non lucernam accendat domumque
+Luke.15.8	base-only	division	accendat	1573: ac cendat	1556,1758,1681,1747,1750,ws	unam drachmam amittat non lucernam ⟦accendat⟧ domumque verrat et diligenter conquirat
+Luke.15.8	base-only	division	donec	1573: do nec | 1715: Onec	1758,1681,1747,1750,ws	domumque verrat et diligenter conquirat ⟦donec⟧ inveniat
+Luke.15.9	base-only	division	Ac ea	1573: Acea	1758,1715,ws	⟦Ac ea⟧ inventa convocat amicas et vicinas
+Luke.15.9	base-only	reading	easque	1573: easqs	1758,1715,1747,1750,ws	inventa convocat amicas et vicinas ⟦easque⟧ ut sibi congratulentur monet sese
+Luke.15.9	correct	reading	drachmam	1573,1750: drachman	1758,1715,1747,ws	sese enim quam perdiderat invenisse ⟦drachmam⟧
+Luke.15.11	others-1573-agrees	reading		1715,1747,1750: duos	1573,1758,ws	illud dixit Habebat homo quidam ⟦⟧ filios duos
+Luke.15.13	base-only	reading	profectus	1573: profeAus	1556,1758,1681,1715,1747,ws	omnibus in longinquam regionem peregre ⟦profectus⟧ est atque illic facultates suas
+Luke.15.14	others-1573-agrees	spelling	coepit	1681,1715: ccepit	1573,1758,1750,ws	in illa regione gravi fame ⟦coepit⟧ indigere
+Luke.15.15	base-only	reading	praedium	1573: prædiuin	1758,1715,1750,ws	haesit atque ille eum in ⟦praedium⟧ suum misit ad pascendos porcos
+Luke.15.16	base-only	reading	quisquam dabat	1573: quisqua dabar	1556,1758,1715,1750,ws	quas porci comedebant nec ei ⟦quisquam dabat⟧
+Luke.15.17	base-only	reading	mercenarii	1573: inercenarij | 1758: mercenari	1681,1715,1750,ws	cogitare Quam multi mei patris ⟦mercenarii⟧ panibus circumfluunt et ego fame
+Luke.15.19	base-only	reading	me	1573: ine	1758,1715,1750,ws	qui dicar tuus filius utere ⟦me⟧ perinde ac uno tuorum mercenariorum
+Luke.15.20	correct	form	miseritus	1573,1758,1715: misertus | 1750: inifertus	ws	adhuc procul absentem conspicatus pater ⟦miseritus⟧ accurrit eique in collum insiluit
+Luke.15.20	base-only	reading	eique	1573: eiqs	1758,1715,1750,ws	absentem conspicatus pater miseritus accurrit ⟦eique⟧ in collum insiluit et eum
+Luke.15.20	others	reading	collum insiluit	1715,1750: colluminfiliit	ws	pater miseritus accurrit eique in ⟦collum insiluit⟧ et eum deosculatus est
+Luke.15.20	correct	reading	insiluit	1573,1758: infilijt	ws	miseritus accurrit eique in collum ⟦insiluit⟧ et eum deosculatus est
+Luke.15.21	base-only	reading	non	1573: nó	1556,1758,1750,ws	te peccavi ita ut jam ⟦non⟧ sim dignus qui dicar tuus
+Luke.15.22	base-only	reading	stolam	1573: stolain	1556,1758,1681,1715,1747,1750,ws	Proferte inquit suis servis priorem ⟦stolam⟧ eumque induite et ejus manui
+Luke.15.22	base-only	division	adhibete	1573: adhibe te | 1556: adhíbere | 1747: adhil Itaque adiit eiusregio bete	1758,1715,1750,ws	induite et ejus manui anulum ⟦adhibete⟧ et calceos pedibus
+Luke.15.23	base-only	division	epulemur	1573: e pulemur | 1750: epu lemur Namhicfilius	1556,1758,1747,ws	Eductumque vitulum altilem mactate laetique ⟦epulemur⟧
+Luke.15.24	base-only	reading	inventus	1573: inuétus	1758,1681,1715,1750,ws	revixit et qui perditus erat ⟦inventus⟧ est Itaque laetari coeperunt
+Luke.15.24	base-only	reading	coeperunt	1573: cœperút	1556,1758,ws	erat inventus est Itaque laetari ⟦coeperunt⟧
+Luke.15.25	base-only	reading	propinquasset	1573: propinquaflet | 1747: propinquafd Ter umfluunt et egofa fet	1758,1715,1750,ws	ruri Is cum veniens domui ⟦propinquasset⟧ audito concentu atque choris
+Luke.15.26	base-only	reading	eo	1573: co	1556,1758,1715,1747,ws	uno famulorum suorum sciscitatus ex ⟦eo⟧ est quid ea sibi vellent
+Luke.15.27	base-only	division	Cui ille	1573: Cuiille | 1750: lent Cuiille	1556,1758,1715,1747,ws	⟦Cui ille⟧ Venit tuus frater inquit itaque
+Luke.15.27	base-only	reading	altilem	1573: altilen	1758,1681,1715,1747,1750,ws	inquit itaque mactavit tuus pater ⟦altilem⟧ vitulum quod eum receperit incolumem
+Luke.15.28	others-1573-agrees	reading	iratus	1715,1747: natus	1573,1556,1758,1681,1750,ws	Ille vero ⟦iratus⟧ noluit ingredi Cumque pater ejus
+Luke.15.28	others-1573-agrees	spelling	Cumque	1556: Cumty | 1747,1750: Quumque	1573,1758,1715,ws	Ille vero iratus noluit ingredi ⟦Cumque⟧ pater ejus egressus eum hortaretur
+Luke.15.28	base-only	reading	ejus	1573: e lus	1556,1758,1715,1747,ws	iratus noluit ingredi Cumque pater ⟦ejus⟧ egressus eum hortaretur ille patri
+Luke.15.29	others-1573-agrees	division	tot annos	1715,1750: totannos	1573,1758,1681,1747,ws	Ego ⟦tot annos⟧ tibi servio ne umquam contra
+Luke.15.29	correct	reading	ne umquam	1573,1758,1715: nec vnquam | 1747: o Ad Eph nec vnquam | 1750: nec ymquam	ws	Ego tot annos tibi servio ⟦ne umquam⟧ contra tuum praeceptum feci et
+Luke.15.29	correct	spelling	numquam	1573,1758,1715: nunquam | 1681: nunqua	1750,ws	praeceptum feci et tu mihi ⟦numquam⟧ vel haedum dedisti ut cum
+Luke.15.30	base-only	division	At iste	1573: Atiste	1556,1758,1681,1747,1750,ws	⟦At iste⟧ tuus filius qui facultates tuas
+Luke.15.30	base-only	reading	mactasti	1573: mactati	1556,1758,1747,ws	venit tu ei altilem vitulum ⟦mactasti⟧
+Luke.15.32	others-1573-agrees	reading	de tuo hoc fratre	1747,1750: 	1573,1758,1681,ws	Enimvero ⟦de tuo hoc fratre⟧ laetari et gaudere oportuit quod
+Luke.15.32	others-1573-agrees	reading		1747,1750: tuus hic frater	1573,1556,1758,ws	laetari et gaudere oportuit quod ⟦⟧ cum mortuus esset revixit cum
+Luke.15.32	base-only	reading	perditus	1573: perdis tus	1758,1747,1750,ws	cum mortuus esset revixit cum ⟦perditus⟧ esset inventus est
+Luke.16.1	others-1573-agrees	reading	dispensatore	1758,1747,1750: dispensatorem	1573,ws	suis discipulis Homo quidam dives ⟦dispensatore⟧ habebat qui apud eum tamquam
+Luke.16.1	base-only	reading	eum tamquam	1573: euni tanquam	ws	dives dispensatore habebat qui apud ⟦eum tamquam⟧ qui ejus bona dilapidaret delatus
+Luke.16.1	others	spelling	tamquam	1758,1747: tanquam	1750,ws	dispensatore habebat qui apud eum ⟦tamquam⟧ qui ejus bona dilapidaret delatus
+Luke.16.3	others	division	a me	1747,1750: ame	1556,1758,1715,ws	Quid agam cum meus erus ⟦a me⟧ dispensationem auferat Fodere non valeo
+Luke.16.5	base-only	reading	sui	1573: sur	1758,1681,1715,1747,1750,ws	Igitur advocatis singulis eri ⟦sui⟧ debitoribus dixit primo Quantum debes
+Luke.16.5	base-only	reading	meo	1573: ineo	1758,1681,1715,1750,ws	dixit primo Quantum debes ero ⟦meo⟧
+Luke.16.6	base-only	reading	scriptum	1573: afcriptum | 1556: fcri s Ptum | 1758,1747: seriptum	1715,1750,ws	inquit Et ille Accipe tuum ⟦scriptum⟧ inquit ei et sede continuo
+Luke.16.6	others-1573-agrees	reading	ac	1715,1747: et	1573,1556,1758,ws	inquit ei et sede continuo ⟦ac⟧ scribe quinquaginta
+Luke.16.7	base-only	reading	quantum	1573: quantů	1758,1715,1747,1750,ws	Deinde alteri dixit Tu vero ⟦quantum⟧ debes Centum frumenti coros Accipe
+Luke.16.7	base-only	reading	scriptum	1573: scriptuin | 1715: annem poftea divinum re cripcum	1556,1758,1747,1750,ws	Centum frumenti coros Accipe tuum ⟦scriptum⟧ inquit et scribe octoginta
+Luke.16.7	base-only	reading	scribe	1573: Icribe	1758,1715,1750,ws	Accipe tuum scriptum inquit et ⟦scribe⟧ octoginta
+Luke.16.8	base-only	reading	dispensatorem	1573: dispesatorem | 1715: di Matth fpenfatorem	1556,1758,1747,1750,ws	Itaque laudavit erus ⟦dispensatorem⟧ iniquum quod prudenter fecisset Nam
+Luke.16.10	base-only	division	injustus	1573: iniu stus	1556,1758,1747,ws	minima injustus idem in magna ⟦injustus⟧ est
+Luke.16.11	base-only	division	si in	1573: fiin | 1681: liin	1758,1715,1747,1750,ws	Quod ⟦si in⟧ falsis opibus fidi non fueritis
+Luke.16.12	base-only	reading	non	1573: no	1758,1715,1747,1750,ws	Et si in alieno fidi ⟦non⟧ fueritis vestrum quis vobis committat
+Luke.16.12	base-only	reading	vestrum	1573: evestrum	1556,1758,1747,1750,ws	in alieno fidi non fueritis ⟦vestrum⟧ quis vobis committat
+Luke.16.12	base-only	reading		1573: voquę	1556,1758,1715,1747,1750,ws	fidi non fueritis vestrum quis ⟦⟧ vobis committat
+Luke.16.12	base-only	reading		1573: ad bis | 1715: bant et ejus ulcera lingebant	1556,1758,1747,1750,ws	non fueritis vestrum quis vobis ⟦⟧ committat
+Luke.16.13	base-only	reading		1573: tur | 1715: t	1556,1758,1750,ws	famulus potest servire duobus dominis ⟦⟧ aut enim alterum oderit alterum
+Luke.16.13	base-only	reading		1573: opes quz vo	1758,1715,1747,ws	oderit alterum amabit aut alterum ⟦⟧ tuebitur alterum contemnet Non potestis
+Luke.16.13	base-only	reading	Non	1573: Nó	1556,1758,1715,1750,ws	aut alterum tuebitur alterum contemnet ⟦Non⟧ potestis et Deo servire et
+Luke.16.13	base-only	reading	servire	1573: ferbis femper uire | 1556: fere t má uire	1758,1715,1747,1750,ws	contemnet Non potestis et Deo ⟦servire⟧ et opibus
+Luke.16.14	base-only	reading	Audiebant	1573: Audiebat	1556,1758,1715,1747,1750,ws	⟦Audiebant⟧ autem haec omnia etiam Pharisaei
+Luke.16.14	base-only	reading	etiam	1573: etiaın | 1556: uz fin etim	1758,1715,1747,1750,ws	Audiebant autem haec omnia ⟦etiam⟧ Pharisaei qui erant avari eumque
+Luke.16.15	base-only	reading	animos	1573: aninos	1556,1758,1747,ws	hominibus probetis sed Deus vestros ⟦animos⟧ novit nam quod est apud
+Luke.16.16	base-only	reading	Johannem	1573: Iohannein | 1556: Iohanné | 1747: annem	1758,1750,ws	Lex et vates usque ad ⟦Johannem⟧ postea divinum regnum nuntiatur atque
+Luke.16.17	base-only	reading	autem	1573: aut	1556,1758,1747,1750,ws	Est ⟦autem⟧ facilius caelum terramque interire quam
+Luke.16.17	base-only	reading		1573: a	1556,1758,1747,1750,ws	autem facilius caelum terramque interire ⟦⟧ quam legis vel unum apicem
+Luke.16.17	base-only	reading		1573: Quam no	1556,1758,1747,1750,ws	facilius caelum terramque interire quam ⟦⟧ legis vel unum apicem interdicere
+Luke.16.17	base-only	reading	interdicere	1573: intercidere que predicta | 1556,1758: íntercídere	ws	quam legis vel unum apicem ⟦interdicere⟧
+Luke.16.18	base-only	reading		1573: funt in diui	1758,1747,1750,ws	suam dimittit et aliam ducit ⟦⟧ adulterat et quisquis a viro
+Luke.16.18	base-only	reading	dimissam	1573: dimissă | 1747: dimiflam | 1750: dinif fam	1758,ws	adulterat et quisquis a viro ⟦dimissam⟧ ducit adulterat
+Luke.16.19	correct	spelling	cotidie	1573,1758,1747,1750: quotidie	ws	qui purpura et bysso vestiebatur ⟦cotidie⟧ laute voluptatibus indulgens
+Luke.16.21	base-only	reading		1573: Dines immi	1556,1758,1747,1750,ws	micis quae de divitis mensa ⟦⟧ decidebant Quin et canes veniebant
+Luke.16.21	base-only	reading	veniebant	1573: veniebat	1758,1747,1750,ws	mensa decidebant Quin et canes ⟦veniebant⟧ et ejus ulcera lingebant
+Luke.16.21	base-only	reading	lingebant	1573: lin fericors gebant	1758,1747,1750,ws	canes veniebant et ejus ulcera ⟦lingebant⟧
+Luke.16.23	base-only	division	cruciatibus	1573: crucia tibus	1556,1758,1681,1747,1750,ws	sublatis oculis cum esset in ⟦cruciatibus⟧ aspicit Abrahamum procul et in
+Luke.16.24	base-only	reading	mei	1573: inei	1556,1758,1681,1747,ws	Pater Abrahame inquit clamans miserere ⟦mei⟧ et mitte Lazarum qui summo
+Luke.16.26	others-1573-agrees	reading		1715,1747: vos et	1573,1556,1758,ws	Praeterea constat omnino inter ⟦⟧ nos et vos vasta vorago
+Luke.16.26	base-only	reading	non	1573: nó	1556,1758,1715,1747,1750,ws	velint hinc ad vos transire ⟦non⟧ possint neque qui istic sunt
+Luke.16.26	others-1573-agrees	reading	possint	1715,1750: poflint	1573,1556,1758,1747,ws	hinc ad vos transire non ⟦possint⟧ neque qui istic sunt ad
+Luke.16.26	base-only	division	istic sunt	1573: isticsunt	1758,1715,1747,1750,ws	transire non possint neque qui ⟦istic sunt⟧ ad nos trajiciant
+Luke.16.27	others-1573-agrees	division	ut eum	1556,1715,1747: uteum	1573,1758,ws	ille rogo igitur te pater ⟦ut eum⟧ in mei patris domum mittas
+Luke.16.27	base-only	division	patris	1573: pa tris	1556,1758,1715,1747,1750,ws	pater ut eum in mei ⟦patris⟧ domum mittas
+Luke.16.28	base-only	reading	meos	1573: ineos	1758,1681,1715,1747,1750,ws	Ut ⟦meos⟧ fratres habeo enim quinque commonefaciat
+Luke.16.28	base-only	division	commonefaciat	1573: commo nefaciat	1556,1758,1715,1747,1750,ws	meos fratres habeo enim quinque ⟦commonefaciat⟧ ne ipsi quoque in hunc
+Luke.16.28	base-only	reading	veniant	1573: veniát	1556,1758,1681,1715,1747,1750,ws	quoque in hunc cruciatus locum ⟦veniant⟧
+Luke.16.30	base-only	division	Et ille	1573: Etille	1556,1758,1747,1750,ws	⟦Et ille⟧ At vero pater Abrahame si
+Luke.16.30	correct	reading	qui	1573,1556,1758,1747,1750: quis	ws	At vero pater Abrahame si ⟦qui⟧ a mortuis ad eos fuerit
+Luke.16.30	base-only	division	mortuis	1573: mortu is	1556,1758,1681,1747,1750,ws	pater Abrahame si qui a ⟦mortuis⟧ ad eos fuerit profectus corrigent
+Luke.16.31	base-only	reading	non	1573: no	1758,1681,1747,ws	Mosem inquit ille et vates ⟦non⟧ audiunt ne si quidem quispiam
+Luke.16.31	base-only	reading	quispiam	1573: quispia | 1681: quiipiarn	1758,1747,1750,ws	non audiunt ne si quidem ⟦quispiam⟧ ex mortuis resurgat obtemperabunt
+Luke.17.2	base-only	reading	asinaria	1573: asinafenfiones Dada vénia ria | 1556: afina c ría | 1715: alfinaria	1758,1747,1750,ws	esset ei circumjecta ejus collo ⟦asinaria⟧ mola in mare dejici quam
+Luke.17.2	base-only	reading	quam	1573:  | 1747: guam	1556,1758,1681,1715,1750,ws	asinaria mola in mare dejici ⟦quam⟧ vel minimum horum offendere
+Luke.17.2	base-only	reading	minimum	1573: minimű	1556,1758,1747,1750,ws	in mare dejici quam vel ⟦minimum⟧ horum offendere
+Luke.17.3	base-only	reading	eum	1573: euin	1556,1758,1681,1747,1750,ws	te peccaverit tuus frater reprehende ⟦eum⟧ et si eum paeniteat ignosce
+Luke.17.4	base-only	division	septies	1573: se pties	1758,1750,ws	die in te peccaverit et ⟦septies⟧ eodem die ad te redierit
+Luke.17.6	correct	spelling	exstirparetur	1573,1758: extirparetur | 1556: exurparctur | 1681: cxtirparetur	1747,1750,ws	et huic caprifico juberetis ut ⟦exstirparetur⟧ et in mari plantaretur oboediret
+Luke.17.7	base-only	reading	arantem	1573: arante	1758,1747,1750,ws	autem vestrum est qui si ⟦arantem⟧ aut pascentem servum habeat eum
+Luke.17.7	base-only	reading	accubitum	1573: atcubitum	1556,1758,1750,ws	habeat eum rure reversum protinus ⟦accubitum⟧ ire jubeat
+Luke.17.8	base-only	reading	cenam accinctusque	1573: cœne actinctusque | 1556: coene accinctus | 1747: coenen accinéctusque	ws	ei dicat Para quod ego ⟦cenam accinctusque⟧ mihi ministra donec comedero ac
+Luke.17.10	base-only	division	dicite	1573: di cite | 1556: dicia te	1758,1747,1750,ws	cum omnia vobis mandata feceritis ⟦dicite⟧ vos inutiles esse servos qui
+Luke.17.12	base-only	reading	occurrerunt decem	1573: occurrerût de cem	1758,1747,ws	Ei in quendam vicum ingredienti ⟦occurrerunt decem⟧ homines leprosi qui procul steterunt
+Luke.17.13	base-only	reading	miserere	1573: iniserere Sanati	1556,1758,1747,ws	sublata voce dixerunt Jesu praeceptor ⟦miserere⟧ nostri
+Luke.17.14	base-only	reading	sacerdotibus	1573: facer Lewis dotibus | 1715: facerdoribu peccaverit tnus frater repre quit Atqué Ati gat fan um acc aut No Ver qu da ge tif re un Cap | 1747: facer otibus	1758,1681,1750,ws	visis Ite inquit ostensum vos ⟦sacerdotibus⟧ Atque illi inter abeundum purgati
+Luke.17.15	base-only	division	Unus autem	1573: Vnusautem	1758,1715,1750,ws	⟦Unus autem⟧ eorum se sanatum esse videns
+Luke.17.20	base-only	division	venturum	1573: ventu rum | 1758: renturum	1715,1747,1750,ws	Interrogatus autem a Pharisaeis quando ⟦venturum⟧ esset divinum regnum sic iis
+Luke.17.20	others-1573-agrees	reading	esset	1747,1750: eflet	1573,1758,1715,ws	autem a Pharisaeis quando venturum ⟦esset⟧ divinum regnum sic iis respondit
+Luke.17.20	base-only	reading		1573: Math	1556,1715,1747,1750,ws	sic iis respondit Non ita ⟦⟧ venturum est divinum regnum ut
+Luke.17.20	base-only	reading	divinum	1573: diuinuin	1556,1758,1715,1747,1750,ws	respondit Non ita venturum est ⟦divinum⟧ regnum ut observetur
+Luke.17.21	base-only	reading	divinum	1573: di De aduentu uinum	1758,1681,1715,1747,1750,ws	illicve esse demonstretur Scitote enim ⟦divinum⟧ regnum intra vos esse
+Luke.17.22	base-only	reading	tempus	1573: tépus	1758,1715,1747,1750,ws	Tum discipulos alloquens Veniet ⟦tempus⟧ inquit cum vel unum filii
+Luke.17.22	others	reading	filii hominis	1715,1747,1750: homine nati	1681,ws	tempus inquit cum vel unum ⟦filii hominis⟧ dierum cernere cupietis nec videbitis
+Luke.17.22	base-only	reading	hominis	1573: hoininis	1556,1758,1681,ws	inquit cum vel unum filii ⟦hominis⟧ dierum cernere cupietis nec videbitis
+Luke.17.23	base-only	reading	Vobisque	1573: vobisás	1758,1715,1747,1750,ws	⟦Vobisque⟧ hic aut illic adesse dicetur
+Luke.17.23	base-only	division	illic adesse	1573: illicadesse	1750,ws	Vobisque hic aut ⟦illic adesse⟧ dicetur nolite adire nec insequi
+Luke.17.24	base-only	reading	alterum	1573: alterű	1556,1758,1715,1747,ws	ab altero caeli extremo ad ⟦alterum⟧ extremum refulgens lucet sic erit
+Luke.17.24	others	reading	filius hominis	1747,1750: homine natus	1556,1758,ws	refulgens lucet sic erit etiam ⟦filius hominis⟧ in sua die
+Luke.17.24	base-only	division	hominis	1573: homi nis	1556,1758,ws	lucet sic erit etiam filius ⟦hominis⟧ in sua die
+Luke.17.25	base-only	reading	eum multa	1573: eû inulta	1556,1758,1747,1750,ws	Sed prius oportet ⟦eum multa⟧ pati et improbari ab hac
+Luke.17.26	base-only	reading	quemadmodum Noae	1573: quemadmoduın Noę	1758,ws	Ac ⟦quemadmodum Noae⟧ temporibus accidit sic accidet temporibus
+Luke.17.27	others-1573-agrees	reading		1556,1747,1750: eum	1573,1758,ws	ducebant uxores nubebant usque ad ⟦⟧ diem quo ingresso in arcam
+Luke.17.28	base-only	division	comedebant	1573: comede bant	1556,1758,1681,1747,1750,ws	ut et Loti temporibus accidit ⟦comedebant⟧ bibebant emebant vendebant plantabant aedificabant
+Luke.17.33	base-only	reading	animam	1573: anima | 1750: ammam	1758,1681,1715,1747,ws	Qui ⟦animam⟧ suam servare conabitur eam perdet
+Luke.17.33	base-only	reading		1573: Iohan	1758,1715,1747,1750,ws	suam servare conabitur eam perdet ⟦⟧ et qui eam perdiderit conservabit
+Luke.17.37	base-only	reading		1573: Mar	1758,1747,1750,ws	eum alloquentes Ubi Domine inquiunt ⟦⟧ Quibus ille Ubi corpus inquit
+Luke.17.37	others-1573-agrees	reading		1747,1750: coibunt	1573,1758,ws	corpus inquit erit eo etiam ⟦⟧ aquilae coibunt
+Luke.18.1	base-only	reading	orandum	1573: dum	1758,1681,1715,1747,1750,ws	etiam iis exemplum quo semper ⟦orandum⟧ esse nec defatigari oportere ostenderet
+Luke.18.2	base-only	reading	quidam	1573: quidain	1758,1681,1715,1747,1750,ws	Judex erat ⟦quidam⟧ in quadam urbe inquit qui
+Luke.18.2	base-only	reading	inquit	1573: inSemper quit	1758,1681,1715,1747,1750,ws	erat quidam in quadam urbe ⟦inquit⟧ qui nec Deum metuebat nec
+Luke.18.2	base-only	reading	reverebatur	1573: reue | 1750: rencrebatur	1758,1747,ws	nec Deum metuebat nec homines ⟦reverebatur⟧
+Luke.18.4	correct	spelling	aliquamdiu	1573,1715: aliquandiu | 1758: aliquan u	ws	Ille vero ⟦aliquamdiu⟧ noluit Sed postea sic secum
+Luke.18.4	base-only	reading	metuo	1573: inetuo	1758,1715,1747,1750,ws	secum dixit Etsi nec Deum ⟦metuo⟧ nec homines revereor
+Luke.18.5	base-only	reading	Tamen	1573: tainen	1758,1747,1750,ws	⟦Tamen⟧ quia mihi negotium facessit haec
+Luke.18.5	base-only	reading	negotium	1573: negotiŭ | 1747: fonti tium	1758,ws	Tamen quia mihi ⟦negotium⟧ facessit haec vidua eam vindicabo
+Luke.18.7	base-only	division	quiritantes	1573: quiri tantes | 1747: quiri Job Prou Supr E tantes	1758,1750,ws	suos ad se dies noctesque ⟦quiritantes⟧ non ulciscetur et tam erit
+Luke.18.8	base-only	reading	filius	1573: fi Deo fieri poffunt lius	1758,ws	cito ulturum esse eos Ceterum ⟦filius⟧ hominis cum veniet scilicet fidem
+Luke.18.9	base-only	reading	aliosque	1573: aliosás	1758,1747,1750,ws	sibi se justos esse persuaserant ⟦aliosque⟧ contemnebant hoc exemplum
+Luke.18.9	base-only	reading	hoc exemplum	1573: hocexemplum To	1747,1750,ws	justos esse persuaserant aliosque contemnebant ⟦hoc exemplum⟧
+Luke.18.10	base-only	reading		1573: Pharifei	1758,1747,1750,ws	duo in templum ascenderunt orandi ⟦⟧ gratia alter Pharisaeus alter publicanus
+Luke.18.12	correct	reading	Jejuno	1573,1750: leiuno	1758,ws	⟦Jejuno⟧ bis intra singula Sabbata decimas
+Luke.18.12	correct	spelling	decimas	1573,1758,1750: decumas	ws	Jejuno bis intra singula Sabbata ⟦decimas⟧ do omnium quae possideo
+Luke.18.12	base-only	division	omnium	1573: o mnium	1758,1681,1750,ws	intra singula Sabbata decimas do ⟦omnium⟧ quae possideo
+Luke.18.14	base-only	reading	domum	1573: domuin Mat	1556,1758,1750,ws	Scitote hunc approbatum descendisse ⟦domum⟧ suam illum non item Nam
+Luke.18.14	correct	division	se ipsum	1573,1758,1750: seipfum	ws	illum non item Nam quisquis ⟦se ipsum⟧ extulerit deprimetur et qui se
+Luke.18.15	base-only	reading	tangeret	1573: tanIefum affe geret	1556,1758,1715,1750,ws	ei etiam parvulos ut eos ⟦tangeret⟧ Quo viso discipuli illos objurgabant
+Luke.18.16	correct	spelling	arcessitis	1573,1715: accerfitis	1750,ws	At Jesus ⟦arcessitis⟧ parvulis Sinite inquit pueros ad
+Luke.18.18	others-1573-agrees	reading	qui magistratum gerebat	1715,1750: honoratus	1573,1758,ws	Item interrogavit eum quidam ⟦qui magistratum gerebat⟧ his verbis Magister bone quid
+Luke.18.20	base-only	reading	dicito tuum	1573: dicitoituum	1556,1758,1750,ws	ne furator ne falsum testimonium ⟦dicito tuum⟧ patrem et matrem honorato
+Luke.18.20	others-1573-agrees	reading	et	1681:  | 1715,1750: atque	1573,1758,ws	falsum testimonium dicito tuum patrem ⟦et⟧ matrem honorato
+Luke.18.28	base-only	reading	relictis	1573: reliEtis	1758,1715,1750,ws	Petrus Nos quidem inquit omnibus ⟦relictis⟧ te secuti sumus
+Luke.18.29	base-only	reading	uxorem	1573: vxoreın	1556,1758,1715,ws	qui parentes qui fratres qui ⟦uxorem⟧ qui liberos divini regni causa
+Luke.18.31	base-only	reading	ascendimus	1573: ascen Mar dimus | 1750: adfcendimus	1556,1758,1715,ws	autem duodecim dixit iis En ⟦ascendimus⟧ Hierosolyma et filio hominis accident
+Luke.18.31	others-1573-agrees	reading	filio	1715,1750: 	1573,1556,1758,ws	iis En ascendimus Hierosolyma et ⟦filio⟧ hominis accident plane omnia quae
+Luke.18.32	base-only	division	contumeliis	1573: contu melijs | 1758: contumelus	1715,1750,ws	enim extraneis et illudetur et ⟦contumeliis⟧ afficietur et conspuetur
+Luke.18.35	correct	spelling	Hiericunti	1573,1758,1715,1750: Hierichunti | 1747: Hierichuntt F ach Luc	ws	Eo autem ⟦Hiericunti⟧ propinquante sedebat apud viam quidam
+Luke.18.35	base-only	division	sedebat apud	1573: sedebatapud	1758,1715,1750,ws	Eo autem Hiericunti propinquante ⟦sedebat apud⟧ viam quidam caecus mendicans
+Luke.18.39	base-only	reading		1573: dicus fanai	1556,1758,1681,1715,ws	quamvis praecedentes increparent eum ut ⟦⟧ taceret ille multo magis clamabat
+Luke.18.39	base-only	reading	magis	1573: inagis	1556,1758,1681,1715,1750,ws	eum ut taceret ille multo ⟦magis⟧ clamabat Davidide miserere mei
+Luke.18.39	base-only	reading	miserere mei	1573: mife	1556,1758,1715,1750,ws	ille multo magis clamabat Davidide ⟦miserere mei⟧
+Luke.18.40	base-only	division	ac ubi	1573: acvbi	1758,1681,1715,1750,ws	eum ad se duci imperavit ⟦ac ubi⟧ ille accessit sic eum interrogavit
+Luke.18.42	base-only	reading	Et Jesus	1573: Etlesus	1758,1715,ws	⟦Et Jesus⟧ Cerne inquit ei tua te
+Luke.18.43	base-only	division	eumque secutus	1573: eumquesecutus	1758,1715,ws	Atque ille continuo vidit ⟦eumque secutus⟧ est Deum collaudans Quo viso
+Luke.18.43	others-1573-agrees	reading		1715,1750: laudem	1573,1758,ws	Quo viso populus omnis Deo ⟦⟧ tribuit laudem
+Luke.19.2	base-only	reading	Zachaeus vocabatur	1573: Zachzus voca batur	ws	Erat quidam vir qui nomine ⟦Zachaeus vocabatur⟧ publicanorum magister isque dives
+Luke.19.3	base-only	reading	parvus	1573: par	1758,1681,1750,ws	posset utpote qui esset statura ⟦parvus⟧
+Luke.19.5	base-only	reading	eo	1573: co	1556,1758,1715,1750,ws	ubi venit Jesus suspexit et ⟦eo⟧ viso sic ei dixit Zachaee
+Luke.19.5	base-only	reading	descende	1573: desceride	1556,1758,1715,1747,1750,ws	viso sic ei dixit Zachaee ⟦descende⟧ propere hodie enim mihi domi
+Luke.19.7	correct	reading	deversatum isset	1573,1750: diuerfatum iuisset | 1556: díuerfatum fuiffet	ws	omnes quod ad hominem improbum ⟦deversatum isset⟧
+Luke.19.8	base-only	division	sic alloqui institit	1573: sicalloquiinftitit	1747,ws	Zachaeus vero Dominum ⟦sic alloqui institit⟧ Scito me Domine dimidium facultatem
+Luke.19.8	correct	reading	facultatem	1573,1715,1750: facultatum | 1747: faculta Um collaudans Quo vifo tum	ws	institit Scito me Domine dimidium ⟦facultatem⟧ mearum largiri pauperibus quod si
+Luke.19.9	others-1573-agrees	reading	Jesus	1556: lefus | 1715,1747: efus	1573,1758,1750,ws	Tum ⟦Jesus⟧ ei dicit salutem eo die
+Luke.19.10	base-only	reading	atque	1573: atqi | 1556: atqy | 1715: atq	1758,1747,ws	filium hominis ad perdita quaerenda ⟦atque⟧ servanda
+Luke.19.11	base-only	reading	Hierosolymam	1573: Hierofolyınam | 1758: Hierooly man	1556,1681,1750,ws	subjecit exemplum quod ipse prope ⟦Hierosolymam⟧ esset et illi adfuturum mox
+Luke.19.11	base-only	reading	adfuturum	1573: adfuturu	1758,1750,ws	prope Hierosolymam esset et illi ⟦adfuturum⟧ mox divinum regnum arbitrarentur
+Luke.19.12	base-only	reading		1573: De aduenin	1758,1681,1747,1750,ws	Homo quidam nobilis profecturus in ⟦⟧ longinquam regionem ut in regni
+Luke.19.12	base-only	reading	invaderet	1573: inua vegni Dese deret	1758,1681,1715,1747,ws	regionem ut in regni possessionem ⟦invaderet⟧ deinde rediturus
+Luke.19.14	base-only	reading	itaque	1573: itaqi | 1556: ítagp	1758,1681,1715,1747,1750,ws	Ejus autem cives eum oderant ⟦itaque⟧ missis post eum legatis negarunt
+Luke.19.14	others-1573-agrees	reading	missis	1747,1750: miflis	1573,1556,1758,1715,ws	autem cives eum oderant itaque ⟦missis⟧ post eum legatis negarunt se
+Luke.19.15	correct	spelling	arcessi	1573,1758,1715: accerfi | 1681: accerii | 1750: arce	ws	jussit ad se servos illos ⟦arcessi⟧ quibus argentum dederat ut sciret
+Luke.19.16	base-only	division	mina	1573: mi na	1556,1758,1681,1715,1747,1750,ws	advenit et Domine inquit tua ⟦mina⟧ decem minas peperit
+Luke.19.17	correct	division	Cui ille	1573,1750: Cuiille	1556,1758,1715,1747,ws	⟦Cui ille⟧ Recte bone serve quoniam in
+Luke.19.17	base-only	reading	potestatem	1573: potesta	1758,1715,1747,1750,ws	fuisti habeto in decem oppida ⟦potestatem⟧
+Luke.19.19	base-only	division	Et ille	1573: Etille	1681,1747,1750,ws	⟦Et ille⟧ Tu quoque inquit etiam huic
+Luke.19.19	base-only	reading	etiam	1573: etia	1556,1758,1681,1715,1747,1750,ws	Et ille Tu quoque inquit ⟦etiam⟧ huic praeesto quinque oppidis
+Luke.19.22	base-only	division	serve nequam	1573: feruenequam	1747,1750,ws	ore te damnabo inquit ei ⟦serve nequam⟧ Sciebas me hominem severum esse
+Luke.19.22	base-only	reading	severum	1573: feueram | 1715: fe Cumque ex eis afellum um Verum	1758,1747,1750,ws	serve nequam Sciebas me hominem ⟦severum⟧ esse qui et quod non
+Luke.19.23	base-only	reading	ad mensam	1573: ada men fam	1758,1715,1747,1750,ws	ergo non dedisti meum argentum ⟦ad mensam⟧ et ego reversus id cum
+Luke.19.24	base-only	reading	minam	1573: mina	1758,1681,1715,1747,ws	Auferte ei ⟦minam⟧ inquit iis qui aderant et
+Luke.19.25	base-only	division	At illi	1573: Atilli	1758,1715,1747,1750,ws	⟦At illi⟧ Domine habet decem minas
+Luke.19.26	base-only	reading		1573: Matth it	1681,1747,1750,ws	omni habenti dandum esse inquit ⟦⟧ non habenti autem etiam quod
+Luke.19.27	base-only	reading	se regnare	1573: fere Sup gnare	1556,1681,1747,1750,ws	illos meos qui me in ⟦se regnare⟧ noluerunt adducite huc et coram
+Luke.19.27	base-only	reading	me	1573: ne	1556,1758,1747,1750,ws	noluerunt adducite huc et coram ⟦me⟧ jugulate
+Luke.19.28	base-only	reading	Hierosolymam ascendens	1573: Hierofolymama	ws	Haec fatus progredi perrexit ⟦Hierosolymam ascendens⟧
+Luke.19.29	base-only	division	Ut autem	1573: Vtautem	1556,1758,1681,1747,ws	⟦Ut autem⟧ prope Bethphagem et Bethaniam venit
+Luke.19.29	correct	reading	Bethphagem	1573,1758: Betphagen	1747,1750,ws	Ut autem prope ⟦Bethphagem⟧ et Bethaniam venit ad montem
+Luke.19.30	base-only	division	e regione	1573: eregione	1758,1681,1750,ws	Ite in vicum qui est ⟦e regione⟧ in quem ingredientes invenietis asellum
+Luke.19.30	base-only	division	ingredientes	1573: ingredien tes | 1681: in gredtentesi	1556,1758,1747,1750,ws	est e regione in quem ⟦ingredientes⟧ invenietis asellum vinctum quem nemo
+Luke.19.30	correct	spelling	umquam	1573,1758,1681,1747: vnquam | 1556: utiquam | 1750: vniquam	ws	invenietis asellum vinctum quem nemo ⟦umquam⟧ hominum insedit eum solvitote et
+Luke.19.31	base-only	division	dicetis	1573: di cetis | 1556: diceris	1758,1747,1750,ws	cur solvatis interroget sic ei ⟦dicetis⟧ Domino eum opus esse
+Luke.19.33	base-only	reading	Cumque ex iis	1573: Cumqi exeis	1758,ws	⟦Cumque ex iis⟧ asellum solventibus quaesivissent ejus domini
+Luke.19.34	base-only	reading	Dixerunt eum	1573: dixerunteuin	1556,1747,1750,ws	⟦Dixerunt eum⟧ Domino opus esse
+Luke.19.35	base-only	reading	Jesum	1573: Iefuin | 1747: Fefury	1556,1758,1750,ws	Eumque ad ⟦Jesum⟧ adduxerunt et injectis in asellum
+Luke.19.35	base-only	reading	eo	1573: co	1556,1758,1747,1750,ws	injectis in asellum suis vestimentis ⟦eo⟧ Jesum imposuerunt
+Luke.19.37	others-1573-agrees	division	de tot	1715,1750: detot	1573,1556,1758,1681,1747,ws	Deum laeta laudare magna voce ⟦de tot⟧ quae viderant miraculis his verbis
+Luke.19.37	base-only	division	miraculis	1573: miracu lis | 1715: Marc Ioh et fati micaculis	1556,1758,1747,1750,ws	voce de tot quae viderant ⟦miraculis⟧ his verbis
+Luke.19.38	base-only	division	Bene sit	1573: Benefit	1758,1715,1750,ws	⟦Bene sit⟧ venienti regi in nomine Domini
+Luke.19.40	base-only	division	Quibus ille respondens	1573: Quibusillérespondens	1758,ws	⟦Quibus ille respondens⟧ Scitote inquit si taceant hi
+Luke.19.40	base-only	reading	taceant	1573: taceat | 1556: tace et t	1758,1750,ws	ille respondens Scitote inquit si ⟦taceant⟧ hi clamaturos esse lapides
+Luke.19.42	base-only	reading	tibi saluti	1573: tib o te fellbisaluti	1758,1681,1747,1750,ws	hac ipsa tua die quae ⟦tibi saluti⟧ forent sed nunc tuos latent
+Luke.19.43	base-only	reading		1573: nunc qui ti	1556,1758,1681,1750,ws	cum te tui hostes vallo ⟦⟧ circumdabunt et circumsidebunt et prement
+Luke.19.43	base-only	reading	undique	1573: vn fero agnodique	1758,1747,1750,ws	circumdabunt et circumsidebunt et prement ⟦undique⟧
+Luke.19.44	base-only	reading		1573: Luc	1758,1681,1747,ws	lapidem lapidi impositum relinquent quoniam ⟦⟧ tempus quo tui habita cura
+Luke.19.44	base-only	reading		1573: c	1758,1747,ws	lapidi impositum relinquent quoniam tempus ⟦⟧ quo tui habita cura fuerit
+Luke.19.44	base-only	reading	noveris	1573: noue et quo ego	1758,1747,1750,ws	tui habita cura fuerit non ⟦noveris⟧
+Luke.19.46	base-only	reading	Scriptum est	1573: Scriptúeft	1758,1747,ws	⟦Scriptum est⟧ Mea domus supplicationis domus est
+Luke.19.46	base-only	reading		1573: Esa	1758,1750,ws	est Mea domus supplicationis domus ⟦⟧ est at vos ex ea
+Luke.19.47	correct	spelling	cotidie	1573,1758,1747,1750: quotidie | 1681: quotidic	ws	Docebat autem ⟦cotidie⟧ in fano Pharisaei vero et
+Luke.19.47	base-only	reading		1573: Math	1758,1747,1750,ws	cotidie in fano Pharisaei vero ⟦⟧ et Scribae eum perimere conabantur
+Luke.19.47	correct	division	nec non	1573,1758: necnon	1747,1750,ws	et Scribae eum perimere conabantur ⟦nec non⟧ populi primarii
+Luke.19.48	base-only	reading	inveniebant	1573: inueniebat | 1556: ínuenfebant | 1758: inveniebaut	1681,1747,1750,ws	Sed quid agerent non ⟦inveniebant⟧ quod cunctus populus ab ejus
+Luke.20.1	others-1573-agrees	reading	instituente	1747,1750: initituente	1573,1758,ws	populum in fano docente ac ⟦instituente⟧ adfuerunt pontifices et scribae cum
+Luke.20.1	base-only	reading	adfuerunt	1573: adfuerut	1758,1747,1750,ws	in fano docente ac instituente ⟦adfuerunt⟧ pontifices et scribae cum senatoribus
+Luke.20.1	base-only	reading	allocuti	1573: al sexfta facis locuti | 1750: adlocuti	1556,1758,1747,ws	scribae cum senatoribus eumque sic ⟦allocuti⟧ sunt
+Luke.20.3	base-only	division	vicissim	1573: vicis fim	1556,1758,1681,1747,1750,ws	ille respondens Interrogabo vos ego ⟦vicissim⟧ quiddam inquit quod mihi dicite
+Luke.20.4	others-1573-agrees	reading	ab	1758,1681: 	1573,1556,1747,1750,ws	baptisma a caelone erat an ⟦ab⟧ hominibus
+Luke.20.5	base-only	division	sic apud	1573: ficapud	1758,1747,1750,ws	Illi vero ⟦sic apud⟧ se ratiocinari Si dixerimus a
+Luke.20.5	base-only	division	caelo	1573: ce lo | 1681: ccelo	1758,1747,1750,ws	se ratiocinari Si dixerimus a ⟦caelo⟧ dicet Cur ergo ei non
+Luke.20.9	base-only	reading		1573: ains qui vi	1758,1747,1750,ws	ad populum hoc exemplum dicere ⟦⟧ Homo quidam vineam consevit et
+Luke.20.9	base-only	reading	elocata	1573: elocaneam eloca ta	1556,1758,1715,1747,1750,ws	vineam consevit et ea colonis ⟦elocata⟧ domo abfuit satis diu
+Luke.20.10	base-only	reading		1573: Mar	1556,1758,1681,1715,1750,ws	misit ad colonos servum ut ⟦⟧ illi ei de vineae fructu
+Luke.20.10	base-only	reading	vineae	1573: vinea | 1715: eum adverfum fe illud exem qu ap vines	1758,1747,ws	servum ut illi ei de ⟦vineae⟧ fructu darent At coloni eum
+Luke.20.10	base-only	reading	verberatum	1573: verbera tuin | 1747: verb ratum	1758,1715,1750,ws	fructu darent At coloni eum ⟦verberatum⟧ dimiserunt inanem
+Luke.20.11	base-only	reading	inanem	1573: ina	1556,1758,1715,1747,1750,ws	verberatum et contumelia affectum dimiserunt ⟦inanem⟧
+Luke.20.12	base-only	reading	tertium	1573: tertiuin	1556,1758,1681,1715,1747,ws	Cumque ⟦tertium⟧ item misisset illi eum etiam
+Luke.20.13	base-only	reading	mittam	1573: mitta | 1556: mít tam	1758,1681,1715,1747,1750,ws	vineae dominus Quid agam inquit ⟦mittam⟧ filium meum carissimum fortassis hunc
+Luke.20.13	correct	spelling	carissimum	1573,1758: charifsimum | 1556: charíísíimum	1747,ws	agam inquit mittam filium meum ⟦carissimum⟧ fortassis hunc visum reverebuntur
+Luke.20.13	base-only	division	reverebuntur	1573: reue rebuntur	1556,1758,1681,1715,1747,1750,ws	meum carissimum fortassis hunc visum ⟦reverebuntur⟧
+Luke.20.14	base-only	reading	eum	1573: euin	1556,1758,1681,1715,1747,1750,ws	Hic est heres agite perimamus ⟦eum⟧ ut nostra fiat hereditas
+Luke.20.15	base-only	reading	Itaque ejectum	1573: Itaqueiectum	1758,1747,ws	⟦Itaque ejectum⟧ ex vinea occiderunt Quid ergo
+Luke.20.16	base-only	reading	elocabit	1573: elo a Itud faci cabit | 1747: ebatie	1556,1758,1715,1750,ws	colonos illos perdet aliisque vineam ⟦elocabit⟧ Hoc audito illi dixerunt Absit
+Luke.20.16	base-only	reading	Absit	1573: Abit nus eft inau	1758,1715,1747,1750,ws	elocabit Hoc audito illi dixerunt ⟦Absit⟧
+Luke.20.17	base-only	reading		1573: P	1758,1715,1747,1750,ws	Quid ergo est scriptum illud ⟦⟧ Quem lapidem improbaverant aedificatores is
+Luke.20.17	base-only	reading	adhibitus	1573: adhi Efa bitus	1556,1758,1715,1750,ws	Quem lapidem improbaverant aedificatores is ⟦adhibitus⟧ est ad caput anguli
+Luke.20.18	base-only	reading	quem	1573: quein	1556,1758,1681,1747,1750,ws	quisquis inciderit collidetur et in ⟦quem⟧ inciderit ipse eum comminuet
+Luke.20.19	base-only	reading	eadem	1573: eade	1556,1758,1747,1750,ws	et scribae ei manus injicere ⟦eadem⟧ hora conati sunt Intellexerunt enim
+Luke.20.20	base-only	reading	caperent	1573: caperet | 1747: ca perent	1758,1750,ws	bonos simularent ut eum verbis ⟦caperent⟧ atque ita magistratui et praetoris
+Luke.20.21	others	reading	hic	1758,1747: hi | 1750: ki	ws	Atque ⟦hic⟧ sic eum interrogarunt Magister scimus
+Luke.20.21	base-only	reading	hic sic eum	1573: hificeum	ws	Atque ⟦hic sic eum⟧ interrogarunt Magister scimus te recte
+Luke.20.21	base-only	division	habere	1573: habe re	1758,1747,1750,ws	ac docere neque personae rationem ⟦habere⟧ sed vere divinam vitae viam
+Luke.20.23	base-only	reading	intellegens	1573: intelligés | 1758: intelligens	ws	At ille eorum versutiam ⟦intellegens⟧ Quid me tentatis inquit
+Luke.20.23	base-only	reading	me tentatis	1573: ine ten ri tributum tatis	1758,1747,ws	ille eorum versutiam intellegens Quid ⟦me tentatis⟧ inquit
+Luke.20.24	base-only	reading	imaginem	1573: imagine Marc | 1747: imagi nem	1758,1750,ws	Ostendite mihi denarium Cujus habet ⟦imaginem⟧ et titulum Caesaris inquiunt illi
+Luke.20.25	base-only	division	Caesari	1573: Cæfa ri	1758,1747,ws	solvite igitur inquit iis Caesariana ⟦Caesari⟧ et divina Deo
+Luke.20.26	base-only	reading	responsionem	1573: responsionein	1758,1715,1747,ws	apud populum carpere potuissent ejus ⟦responsionem⟧ admirati tacuerunt
+Luke.20.26	base-only	reading	tacuerunt	1573: ta	1758,1681,1715,1747,ws	carpere potuissent ejus responsionem admirati ⟦tacuerunt⟧
+Luke.20.27	base-only	reading		1573: Quaftio fu	1758,1750,ws	eum aggressi Sadducaeorum quidam qui ⟦⟧ resurrectionem esse negant sic interrogarunt
+Luke.20.28	base-only	reading	mortuus	1573: mor dem vxorem tuus | 1747: mor tuus	1758,1681,1715,1750,ws	nobis Moses si cujus frater ⟦mortuus⟧ fuerit uxorem habens isque sine
+Luke.20.28	base-only	reading		1573: habuerunt	1758,1715,1747,ws	habens isque sine liberis mortuus ⟦⟧ fuerit ut ducat ejus frater
+Luke.20.28	base-only	reading		1573: Deut	1758,1715,1747,1750,ws	frater uxorem fratrique suo prolem ⟦⟧ suscitet
+Luke.20.29	base-only	reading		1573: Mare	1758,1715,1747,ws	septem fuere fratres quorum primus ⟦⟧ uxore ducta mortuus est sine
+Luke.20.30	base-only	reading	Duxitque	1573: duxitás	1758,1681,1715,1747,1750,ws	⟦Duxitque⟧ secundus uxorem et is item
+Luke.20.31	base-only	reading		1573: et	1758,1715,1747,1750,ws	Atque illam duxit tertius itidemque ⟦⟧ septem neque liberos reliquerunt
+Luke.20.31	base-only	reading	neque liberos	1573: neqs li Reliqui ex beros	1758,1715,ws	illam duxit tertius itidemque septem ⟦neque liberos⟧ reliquerunt
+Luke.20.33	base-only	division	uxor	1573: v xor	1758,1681,1715,1747,1750,ws	resurrectione cujus eorum futura est ⟦uxor⟧ cum septem eam in matrimonio
+Luke.20.34	base-only	reading	nubunt	1573: cnubunt	1758,1681,1715,ws	homines et ducunt uxores et ⟦nubunt⟧
+Luke.20.35	base-only	reading	surrexisse	1573: fur mina rexiffe | 1715: furrexi Te | 1747: furrexiífe	1758,1750,ws	illam assequi et ex mortuis ⟦surrexisse⟧ contigit ii nec ducunt uxores
+Luke.20.36	base-only	reading	mori	1573: inori	1758,1715,1747,1750,ws	Quippe cum jam ⟦mori⟧ nequeant Sunt enim angelorum similes
+Luke.20.36	base-only	division	angelorum	1573: ange lorum	1758,1715,1747,1750,ws	jam mori nequeant Sunt enim ⟦angelorum⟧ similes et Dei filii sunt
+Luke.20.37	base-only	reading		1573: Mortuoste	1556,1758,1715,1747,ws	autem resurgere etiam Moses indicavit ⟦⟧ in rubo ubi Dominum dicit
+Luke.20.37	base-only	reading	Dominum	1573: Dominű | 1556: Domi rjago num	1758,1715,1747,1750,ws	Moses indicavit in rubo ubi ⟦Dominum⟧ dicit Abrahami Deum et Isaaci
+Luke.20.37	others-1573-agrees	reading		1715,1747: et	1573,1556,1758,1681,ws	in rubo ubi Dominum dicit ⟦⟧ Abrahami Deum et Isaaci Deum
+Luke.20.37	base-only	reading		1573: Surgere | 1747: un EVANGELIVM Cap	1556,1758,1681,ws	dicit Abrahami Deum et Isaaci ⟦⟧ Deum et Jacobi Deum
+Luke.20.39	base-only	reading	Magister	1573: Ma Matt gifter | 1556: sy Magifler	1758,1681,1747,ws	quidam scribarum sic eum alloquuntur ⟦Magister⟧ probe dixisti
+Luke.20.40	base-only	reading	Neque	1573: Neqs | 1556: INeqy	1758,1747,ws	⟦Neque⟧ deinceps audebant eum quidquam interrogare
+Luke.20.40	base-only	reading	interrogare	1573: inter Ais Domi rogare	1556,1758,ws	Neque deinceps audebant eum quidquam ⟦interrogare⟧
+Luke.20.41	base-only	division	Et ille	1573: Etille	1758,1747,ws	⟦Et ille⟧ Qui fit ut dicant Christum
+Luke.20.41	base-only	reading	prognatum	1573: pro P al no gnatum | 1747: progn et tum	1758,ws	fit ut dicant Christum Davide ⟦prognatum⟧ fore
+Luke.20.42	base-only	reading	meam dexteram	1573: ineam dexterain	1758,1715,1747,ws	Dominus domino meo Sede ad ⟦meam dexteram⟧
+Luke.20.44	base-only	reading	fit ut	1573: fitvt Mar	1758,1681,1715,1747,ws	eum David dominum vocat qui ⟦fit ut⟧ sit eo prognatus
+Luke.20.45	base-only	reading	Tum audiente cuncto	1573: Túaudiéte cancto	1758,1715,ws	⟦Tum audiente cuncto⟧ populo dixit suis discipulis
+Luke.20.46	base-only	reading	ambulant	1573: ambulát	1556,1758,1681,1715,1747,ws	Cavete Scribas qui stolati libenter ⟦ambulant⟧ et in foris salutationes et
+Luke.20.46	correct	reading	accubitiones	1573,1758,1715: accubationes | 1747: accu tiones	ws	sessiones et primas in cenis ⟦accubitiones⟧ amant
+Luke.20.47	base-only	division	Qui viduarum	1573: quividuarum	1681,1715,1747,ws	⟦Qui viduarum⟧ domos per speciem prolixarum precum
+Luke.20.47	base-only	reading		1573: a | 1681: k	1758,1715,ws	Qui viduarum domos ⟦⟧ per speciem prolixarum precum devorant
+Luke.20.47	base-only	reading		1573: d Dum pro | 1556: Ma d	1758,1715,ws	viduarum domos per speciem prolixarum ⟦⟧ precum devorant eoque graviores poenas
+Luke.21.1	base-only	reading	conferentes	1573: coferentes	1758,1747,ws	Cum autem aspiciens vidisset ⟦conferentes⟧ sua munera in fiscum divites
+Luke.21.1	base-only	reading	munera	1573: mu Chera | 1747: Quum vero bella et fedimunera	1758,1681,ws	autem aspiciens vidisset conferentes sua ⟦munera⟧ in fiscum divites
+Luke.21.1	base-only	reading	fiscum	1573: ficum	1758,1681,1715,1747,ws	vidisset conferentes sua munera in ⟦fiscum⟧ divites
+Luke.21.2	base-only	reading	pauperculam	1573: pauperculă feum Dei	1758,1715,1747,ws	Cumque vidisset etiam quandam ⟦pauperculam⟧ viduam eo duos conferentem teruncios
+Luke.21.2	base-only	reading	eo	1573: ed	1758,1715,1747,ws	vidisset etiam quandam pauperculam viduam ⟦eo⟧ duos conferentem teruncios dixit
+Luke.21.3	base-only	division	omnium	1573: om nium	1758,1681,1715,1747,ws	vobis dico hanc viduam plurimum ⟦omnium⟧ contulisse
+Luke.21.4	base-only	division	contulerunt	1573: contule runt | 1681: contulcrunt	1758,1715,1750,ws	ex eo quod sibi supererat ⟦contulerunt⟧ in divina donaria at haec
+Luke.21.6	base-only	reading		1573: Mar	1758,1681,1750,ws	dies cum nullus lapidi lapis ⟦⟧ impositus relinquetur qui non dissolvatur
+Luke.21.7	base-only	reading	quando	1573: quádo	1556,1758,1681,1750,ws	illi eum interrogantes Magister inquiunt ⟦quando⟧ igitur ista fient et quo
+Luke.21.8	base-only	division	Et ille	1573: Etille	1758,1715,1750,ws	⟦Et ille⟧ Videte inquit ne decipiamini Multi
+Luke.21.8	base-only	reading		1573: excidium et	1758,1715,1750,ws	inquit ne decipiamini Multi enim ⟦⟧ venient meo nomine qui se
+Luke.21.8	base-only	reading		1573: mum diem	1556,1758,1681,1715,1750,ws	eum esse dicant et quidem ⟦⟧ tempus instat Nolite igitur eos
+Luke.21.9	base-only	division	expavescere	1573: expa uefcere	1758,1750,ws	bella et seditiones audietis nolite ⟦expavescere⟧ oportet enim haec omnia prius
+Luke.21.11	base-only	reading	fames	1573: faines	1556,1758,1747,1750,ws	motus nonnullis in locis et ⟦fames⟧ et pestes erunt terriculaque et
+Luke.21.12	base-only	division	Sed ante	1573: Sedante	1758,1747,1750,ws	⟦Sed ante⟧ haec omnia injicientur vobis manus
+Luke.21.12	base-only	reading	trademini	1573: tradenini	1747,1750,ws	vexabimini inque collegia et custodias ⟦trademini⟧ atque ad reges et praetores
+Luke.21.12	base-only	reading	perducemini	1573: perduce	1758,1681,1750,ws	et praetores mei nominis causa ⟦perducemini⟧
+Luke.21.15	base-only	reading	contradicere	1573: cotradicere	1556,1758,1747,ws	et sapientiam dabo ut ei ⟦contradicere⟧ aut resistere nequeant omnes adversarii
+Luke.21.20	correct	reading	circumdatam	1573,1758: circundatam	1747,1750,ws	Cum autem ⟦circumdatam⟧ exercitibus Hierosolymam videbitis tu scitote
+Luke.21.20	base-only	division	Hierosolymam	1573: Hierofoly mam	1556,1758,1747,1750,ws	Cum autem circumdatam exercitibus ⟦Hierosolymam⟧ videbitis tu scitote ejus instare
+Luke.21.20	correct	reading	tu	1573,1758,1747,1750: tum	ws	autem circumdatam exercitibus Hierosolymam videbitis ⟦tu⟧ scitote ejus instare vastitatem
+Luke.21.21	base-only	reading	discedant	1573: discedát	1758,1681,1715,1747,1750,ws	qui erunt in ejus medio ⟦discedant⟧ et qui in agris erunt
+Luke.21.21	base-only	reading	erunt	1573: erút	1556,1758,1681,1715,1747,1750,ws	discedant et qui in agris ⟦erunt⟧ ne intrent in eam
+Luke.21.22	base-only	reading	eveniant	1573: eueniat	1556,1758,1715,1747,1750,ws	supplicii tempora erunt illa ut ⟦eveniant⟧ omnia quae scripta sunt
+Luke.21.23	base-only	reading	hunc populum	1573: huc po pulum	1556,1758,1715,1750,ws	regio graviter premetur et in ⟦hunc populum⟧ atrociter saevietur
+Luke.21.24	others-1573-agrees	reading	omnes	1715,1747: omoes	1573,1556,1758,1750,ws	gladiorum acie cadant et per ⟦omnes⟧ gentes exulent calceturque a gentibus
+Luke.21.24	others-1573-agrees	spelling	exulent	1747,1750: exfulent	1573,1556,1758,1681,1715,ws	cadant et per omnes gentes ⟦exulent⟧ calceturque a gentibus Hierosolyma donec
+Luke.21.24	base-only	reading		1573: b	1556,1758,1715,1747,1750,ws	calceturque a gentibus Hierosolyma donec ⟦⟧ exterarum gentium tempora compleantur
+Luke.21.25	base-only	reading	erunt	1573: erút	1758,1715,1747,1750,ws	Et ⟦erunt⟧ signa in sole et luna
+Luke.21.25	others-1573-agrees	division	signa in	1715,1747: fignain	1573,1758,1681,1750,ws	Et erunt ⟦signa in⟧ sole et luna et sideribus
+Luke.21.25	base-only	reading	undisque	1573: vndisqs	1758,1715,1747,1750,ws	tantus gentium angor trepidantium mari ⟦undisque⟧ resonantibus
+Luke.21.26	base-only	reading	orbi	1573: or Efa bi	1556,1758,1681,1715,1747,1750,ws	eorum metu et expectatione quae ⟦orbi⟧ immineant exanimentur nam caelestes potestates
+Luke.21.26	base-only	reading		1573: Ezech	1556,1715,1747,ws	immineant exanimentur nam caelestes potestates ⟦⟧ concutientur
+Luke.21.27	base-only	division	Ac tum	1573: Actum	1758,1681,1747,1750,ws	⟦Ac tum⟧ aspicietur filius hominis veniens in
+Luke.21.27	others-1573-agrees	reading	filius hominis	1715,1747: homine natus	1573,1556,1758,1681,ws	Ac tum aspicietur ⟦filius hominis⟧ veniens in nube cum ingenti
+Luke.21.27	base-only	reading	veniens	1573: veniés | 1758: yeniens | 1681: vcniei sfpoc	1556,1715,1747,1750,ws	Ac tum aspicietur filius hominis ⟦veniens⟧ in nube cum ingenti potestate
+Luke.21.29	base-only	reading		1573: Rom	1758,1715,1750,ws	similitudinem dixit Cernite ficum et ⟦⟧ omnes arbores
+Luke.21.30	base-only	division	vos ipsos cernentes	1573: vosipsos cernen tes	1758,1715,1747,ws	jam frondescunt id vos per ⟦vos ipsos cernentes⟧ cognoscitis jam prope esse aestatem
+Luke.21.33	base-only	reading	caelum	1573: cæluin | 1556: colum	1758,1750,ws	Etiamsi ⟦caelum⟧ et terra pereant mea dicta
+Luke.21.34	base-only	reading		1573: Rom	1556,1758,1747,1750,ws	ne forte obruantur animi vestri ⟦⟧ crapula et ebrietate et hujus
+Luke.21.35	base-only	reading	tamquam	1573: tanquá | 1758: tanquam	1750,ws	Adveniet enim ⟦tamquam⟧ decipula omnibus in totius terrae
+Luke.21.36	others-1573-agrees	reading	filio	1715,1750: 	1573,1556,1758,ws	eventura effugere liceat et coram ⟦filio⟧ hominis consistere
+Luke.21.36	base-only	division	hominis	1573: ho minis	1556,1758,1715,1750,ws	effugere liceat et coram filio ⟦hominis⟧ consistere
+Luke.21.37	others-1573-agrees	reading	noctes	1715,1750: nocte	1573,1556,1758,ws	interdiu docebat in fano in ⟦noctes⟧ autem exibat et in monte
+Luke.21.37	base-only	division	versabatur	1573: versa batur	1758,1715,1747,1750,ws	in monte qui vocatur Olivarum ⟦versabatur⟧
+Luke.21.38	base-only	reading	templum	1573: templuin	1556,1758,1715,1747,1750,ws	ad eum mane ventitabat in ⟦templum⟧ ejus audiendi gratia
+Luke.22.3	base-only	division	Intravit autem	1573: Intrauitautem	1556,1758,1715,1750,ws	⟦Intravit autem⟧ Satanas in Judam cognomine Iscariotam
+Luke.22.3	base-only	reading	Iscariotam	1573: Isca rintam	1556,1758,1750,ws	autem Satanas in Judam cognomine ⟦Iscariotam⟧ qui erat ex duodecim numero
+Luke.22.4	base-only	reading	cum	1573: cu	1556,1758,1681,1715,1750,ws	pontifices et antistites aggressus verba ⟦cum⟧ iis fecit quo pacto eum
+Luke.22.4	base-only	reading	fecit	1573: focit | 1681: f | 1715: Matth Marc i fcit	1758,1750,ws	antistites aggressus verba cum iis ⟦fecit⟧ quo pacto eum traderet iis
+Luke.22.5	base-only	reading	Quo laetati	1573: Qolætati	1758,1750,ws	⟦Quo laetati⟧ illi pacti sunt ei se
+Luke.22.6	base-only	reading	Itaque pollicitus	1573: Itaqoollicitus	1758,1715,1750,ws	⟦Itaque pollicitus⟧ quaerebat opportunitatem eum illis sine
+Luke.22.6	correct	division	illis	1573,1750: il lis	1556,1758,1681,1715,ws	Itaque pollicitus quaerebat opportunitatem eum ⟦illis⟧ sine turba tradendi
+Luke.22.6	base-only	reading	turba	1573: tursa	1556,1758,1715,1750,ws	quaerebat opportunitatem eum illis sine ⟦turba⟧ tradendi
+Luke.22.7	base-only	reading	azymorum	1573: azymorů | 1715: azy gratiis fregit eisque dedit diMorum | 1750: azymorunt	1556,1758,1747,ws	Postquam autem venit ⟦azymorum⟧ dies in quo immolandum erat
+Luke.22.7	base-only	reading	immolandum	1573: im Exod molandum | 1715: immolan cens Hoc eft corpus meum pro dum	1556,1758,1681,1747,1750,ws	venit azymorum dies in quo ⟦immolandum⟧ erat Pascha
+Luke.22.8	base-only	reading	Jesus	1573: lelus	1758,1681,1715,1747,ws	Misit ⟦Jesus⟧ Petrum et Johannem Ite inquit
+Luke.22.8	base-only	reading	paratum	1573: pa qui Paf ha ratum	1758,1681,1715,1747,1750,ws	Petrum et Johannem Ite inquit ⟦paratum⟧ nobis pascha ut polluceamus
+Luke.22.9	base-only	reading	ei	1573: ci	1758,1681,1715,1747,1750,ws	illi Ubi vis paremus inquiunt ⟦ei⟧
+Luke.22.10	correct	division	Simul ac	1573,1758,1747,1750: Simulac	ws	Quibus ille ⟦Simul ac⟧ in urbem intraveritis inquit incidetis
+Luke.22.10	base-only	reading	sequimini	1573: se quinini	1758,1681,1747,1750,ws	hominem aquae fictile ferentem eum ⟦sequimini⟧ in domum quo ingredietur
+Luke.22.11	base-only	division	sic ejus	1573: siceius	1556,1758,1750,ws	Et ⟦sic ejus⟧ domus patrifamilias dicitote Quaerit ex
+Luke.22.11	base-only	division	ex te	1573: exte	1758,1750,ws	ejus domus patrifamilias dicitote Quaerit ⟦ex te⟧ magister ubinam sit mansio ubi
+Luke.22.11	base-only	reading	ubinam	1573: vbinain	1758,1681,1750,ws	dicitote Quaerit ex te magister ⟦ubinam⟧ sit mansio ubi Pascha cum
+Luke.22.12	correct	reading		1573,1758,1681,1750: vobis	ws	Atque ille ⟦⟧ cenaculum ingens instratum ostendet illic
+Luke.22.12	base-only	division	ostendet	1573: often det	1758,1747,1750,ws	Atque ille cenaculum ingens instratum ⟦ostendet⟧ illic paratote
+Luke.22.13	base-only	reading	pararunt Pascha	1573: pa rarunt Patcha	1750,ws	quae ille iis praedixerat nacti ⟦pararunt Pascha⟧
+Luke.22.14	base-only	reading	apostoli cum	1573: apoftolicuin	1758,1750,ws	venit hora accubuit et duodecim ⟦apostoli cum⟧ eo
+Luke.22.15	base-only	reading	Eosque	1573: eqsque | 1750: cosque	1758,ws	⟦Eosque⟧ sic allocutus est Hujus vobiscum
+Luke.22.15	base-only	reading	pollucendi Paschae	1573: pollucen di Patchæ	1758,1750,ws	sic allocutus est Hujus vobiscum ⟦pollucendi Paschae⟧ cupiditate ductus sum antequam supplicio
+Luke.22.16	base-only	division	Hoc enim	1573: Hocenim	1758,ws	⟦Hoc enim⟧ sic habetote me eo non
+Luke.22.17	base-only	division	Accipite	1573: Accipi te	1556,1758,1750,ws	sumpto poculo actisque gratiis dixit ⟦Accipite⟧ hoc et inter vos dividite
+Luke.22.18	base-only	reading	fructu	1573: fru Etu | 1681: fru tu | 1750: fractu	1758,1747,ws	ante me bibiturum esse de ⟦fructu⟧ vitis quam Dei regnum veniat
+Luke.22.19	others	reading		1758,1747,1750: dedit	ws	panem actis gratiis fregit iisque ⟦⟧ dicens Hoc est corpus meum
+Luke.22.19	base-only	reading	dicens	1573: dedit dicés	1556,1758,1681,1747,1750,ws	panem actis gratiis fregit iisque ⟦dicens⟧ Hoc est corpus meum pro
+Luke.22.19	base-only	reading	est	1573: ett	1758,1681,1747,1750,ws	gratiis fregit iisque dicens Hoc ⟦est⟧ corpus meum pro vobis dandum
+Luke.22.19	base-only	reading	dandum	1573: dandu	1758,1747,1750,ws	est corpus meum pro vobis ⟦dandum⟧ hoc facite in mei recordationem
+Luke.22.20	base-only	reading	effundendus	1573: effunden | 1750: diffundendus	1758,1681,1715,1747,ws	sanguinem qui est pro vobis ⟦effundendus⟧
+Luke.22.21	base-only	reading	mei	1573: nei | 1681: mci | 1747: mel	1556,1758,1715,1750,ws	Ceterum scitote ⟦mei⟧ proditoris manum esse mecum in
+Luke.22.22	base-only	division	Et filius	1573,1556: Etfilius	1681,ws	⟦Et filius⟧ hominis quidem abit ut est
+Luke.22.23	base-only	division	coeperunt inter	1573: cœperuntinter	1758,1750,ws	Illi vero ⟦coeperunt inter⟧ sese quaerere quisnam eorum foret
+Luke.22.23	base-only	reading	foret	1573: forer	1556,1758,1681,1715,1747,1750,ws	inter sese quaerere quisnam eorum ⟦foret⟧ qui id facturus esset
+Luke.22.24	base-only	reading	Exstitit etiam	1573: Extitit etiain	1747,1750,ws	⟦Exstitit etiam⟧ inter eos contentio quis eorum
+Luke.22.26	base-only	reading	At vos	1573: Matt Atvos | 1556,1750: Atuos	1758,1681,1715,ws	⟦At vos⟧ non ita quin vestrum maximus
+Luke.22.26	base-only	reading	perinde	1573: perinMarc de	1556,1758,1681,1715,1747,1750,ws	non ita quin vestrum maximus ⟦perinde⟧ sit ac minimus et qui
+Luke.22.26	base-only	reading	ministrat	1573: ininiftrat | 1556: mínifirat	1758,1715,1747,1750,ws	qui praeest perinde ac qui ⟦ministrat⟧
+Luke.22.27	base-only	reading	ministret	1573: ininistret | 1556: mínifiret | 1750: miniflret	1758,1747,ws	inter vos perinde ac qui ⟦ministret⟧
+Luke.22.28	base-only	reading	ii estis	1573: ijettis	1758,1681,1715,1747,1750,ws	Vos vero ⟦ii estis⟧ qui mecum permanseritis in meis
+Luke.22.33	base-only	reading	mortem	1573: mortein	1556,1758,1681,1715,ws	paratus sum et carcerem et ⟦mortem⟧ adire
+Luke.22.34	base-only	division	Et ille	1573: Etille	1758,1715,1750,ws	⟦Et ille⟧ Sic habeto Petre inquit non
+Luke.22.34	base-only	reading	gallum	1573: gallű	1556,1758,1715,1750,ws	habeto Petre inquit non prius ⟦gallum⟧ hodie cantaturum quam tu me
+Luke.22.35	base-only	reading		1573: Mar	1556,1758,1750,ws	sine crumena inquit iis et ⟦⟧ pera et calceis dimisi num
+Luke.22.35	base-only	reading	dimisi	1573: dinisi | 1556: di Mar c mifi	1758,1750,ws	iis et pera et calceis ⟦dimisi⟧ num qua re caruistis Nulla
+Luke.22.35	base-only	reading	inquiunt	1573: in	1556,1758,1681,1750,ws	num qua re caruistis Nulla ⟦inquiunt⟧
+Luke.22.36	base-only	reading	nunc	1573: nuc	1556,1758,1681,1750,ws	At ⟦nunc⟧ inquit iis et crumenam qui
+Luke.22.36	base-only	reading	itidemque	1573: itidemás | 1556: ítídem et | 1750: itigemte	1758,ws	et crumenam qui habet ferat ⟦itidemque⟧ peram et qui gladium non
+Luke.22.36	base-only	reading	non	1573: nó	1556,1758,1681,1750,ws	itidemque peram et qui gladium ⟦non⟧ habet vendat suum pallium et
+Luke.22.36	base-only	reading	suum	1573: suû	1556,1758,1681,1750,ws	qui gladium non habet vendat ⟦suum⟧ pallium et emat
+Luke.22.36	base-only	reading	emat	1573: einat	1556,1758,1681,1750,ws	habet vendat suum pallium et ⟦emat⟧
+Luke.22.37	base-only	division	adhuc esse	1573: adhucesse	1556,1758,1750,ws	Scitote enim in me comprobandum ⟦adhuc esse⟧ scriptum illud Et inter nefarios
+Luke.22.37	base-only	division	Habent enim	1573: habentenim	1556,1750,ws	Et inter nefarios habitus est ⟦Habent enim⟧ meae res finem
+Luke.22.39	base-only	reading	eumque	1573: euinque	1758,1747,1750,ws	de more in olivarum montem ⟦eumque⟧ secuti sunt discipuli
+Luke.22.40	base-only	division	ne in	1573: nein	1556,1758,1747,1750,ws	locum venit dixit iis Orate ⟦ne in⟧ tentationem veniatis
+Luke.22.41	base-only	reading	positis	1573: po Matt sitis | 1750: Eus	1556,1758,1747,ws	ferme ad lapidis jactum digressus ⟦positis⟧ genibus precatus est hujusmodi verbis
+Luke.22.41	base-only	reading	hujusmodi	1573: huiufinodi | 1556: huíufmodií | 1750: hu ius EVANGELI VM men À À iusmodi	1758,1681,1747,ws	digressus positis genibus precatus est ⟦hujusmodi⟧ verbis
+Luke.22.42	base-only	reading	Quamquam	1573: Quanquá lokan | 1758,1747: Quanquam | 1681: Mat i i nquam	1750,ws	vis hoc a me poculum ⟦Quamquam⟧ non mea sed tua voluntas
+Luke.22.43	base-only	reading	eum confirmaret	1573: cem có firinaret	1556,1758,1747,1750,ws	ei angelus de caelo qui ⟦eum confirmaret⟧
+Luke.22.44	base-only	reading	manabat	1573: inanabat	1758,1681,1747,1750,ws	aestu contentius orabat et sudore ⟦manabat⟧ simili sanguineis guttis ad terram
+Luke.22.44	base-only	reading	terram delabentibus	1573: terrá de labentibus	1758,1681,1747,1750,ws	manabat simili sanguineis guttis ad ⟦terram delabentibus⟧
+Luke.22.47	base-only	division	adhuc eo	1573: adhuceo	1556,1758,1747,ws	Atque ⟦adhuc eo⟧ loquente supervenit hominum turba quibus
+Luke.22.47	base-only	reading		1573: Matt	1758,1715,1747,ws	adhuc eo loquente supervenit hominum ⟦⟧ turba quibus is qui Judas
+Luke.22.47	base-only	reading	Judas	1573: ludas	1556,1758,1715,1747,1750,ws	hominum turba quibus is qui ⟦Judas⟧ dicebatur unus ex duodecim praeibat
+Luke.22.47	base-only	reading	duodecim	1573: duode Iohan cim	1556,1758,1747,1750,ws	qui Judas dicebatur unus ex ⟦duodecim⟧ praeibat Is ad Jesum osculandum
+Luke.22.48	base-only	division	filium	1573: fi lium	1556,1758,1681,ws	allocutus est Juda tune osculo ⟦filium⟧ hominis prodis
+Luke.22.49	base-only	reading	dixerunt	1573: dixerút	1556,1758,1747,1750,ws	autem sui quid futurum esset ⟦dixerunt⟧ ei Domine feriemusne gladio
+Luke.22.49	correct	division	feriemusne	1573,1758: feriemús ne	1556,1747,1750,ws	futurum esset dixerunt ei Domine ⟦feriemusne⟧ gladio
+Luke.22.50	base-only	reading	Percussitque quidam	1573: percussités quidá	1758,1750,ws	⟦Percussitque quidam⟧ eorum pontificis servum eique dexteram
+Luke.22.50	base-only	reading	eique	1573: eiqs | 1556: eidp	1758,1747,1750,ws	Percussitque quidam eorum pontificis servum ⟦eique⟧ dexteram abscidit auriculam
+Luke.22.52	base-only	division	pontificibus	1573: pontifici bus	1556,1758,1681,1747,1750,ws	Jesus iis qui se invaserant ⟦pontificibus⟧ et fani antistitibus ac senatoribus
+Luke.22.52	correct	spelling	Tamquam	1573,1758,1747: Tanquam	1750,ws	et fani antistitibus ac senatoribus ⟦Tamquam⟧ ad latronem existis cum gladiis
+Luke.22.52	others	reading	existis	1573: exijttis | 1758,1747,1750: exiistis | 1681: exiiitis	ws	ac senatoribus Tamquam ad latronem ⟦existis⟧ cum gladiis et fustibus
+Luke.22.53	base-only	reading	Cum cotidie essem	1573: cùin quotidie essein	ws	⟦Cum cotidie essem⟧ apud vos in fano non
+Luke.22.53	others	spelling	cotidie	1556,1758,1681,1747: quotídie	ws	Cum ⟦cotidie⟧ essem apud vos in fano
+Luke.22.53	base-only	reading	injecistis	1573: iniectstis | 1750: inieciítis	1556,1758,1747,ws	apud vos in fano non ⟦injecistis⟧ mihi manus sed haec vestra
+Luke.22.54	base-only	division	comprehensum	1573: comprehen sum	1556,1758,1747,1750,ws	At illi eum ⟦comprehensum⟧ duxerunt et in pontificis domum
+Luke.22.54	base-only	reading	domum	1573: domuin | 1556: doMauf mum	1758,1681,1747,1750,ws	comprehensum duxerunt et in pontificis ⟦domum⟧ introduxerunt Petrus autem procul sequebatur
+Luke.22.54	base-only	reading	autem	1573: autein	1758,1747,ws	in pontificis domum introduxerunt Petrus ⟦autem⟧ procul sequebatur
+Luke.22.54	base-only	reading		1573: Matt	1758,1747,1750,ws	domum introduxerunt Petrus autem procul ⟦⟧ sequebatur
+Luke.22.55	base-only	reading		1573: loban	1750,ws	in medio atrio incendissent et ⟦⟧ consedissent sedebat etiam Petrus inter
+Luke.22.57	base-only	reading	eum	1573: Petrus Chri Stum neyar | 1747: eunt	1556,1758,1715,1750,ws	negavit dicens Mulier non novi ⟦eum⟧
+Luke.22.58	base-only	reading	ex iis	1573: exeis Matt	1758,ws	eo viso dixit Et tu ⟦ex iis⟧ es At Petrus Homo inquit
+Luke.22.59	base-only	division	sic affirmabat	1573: sicaffirmabat	1556,1758,1747,ws	una fere hora alius quidam ⟦sic affirmabat⟧ Profecto hic quoque cum eo
+Luke.22.61	base-only	reading	conversus	1573: cóuerfus	1556,1758,1681,1715,1747,1750,ws	Et ⟦conversus⟧ Dominus Petrum aspexit et Petrus
+Luke.22.61	base-only	reading	dictum	1573: dictű	1758,1715,1747,1750,ws	Petrum aspexit et Petrus Domini ⟦dictum⟧ recordatus qui ei fore dixerat
+Luke.22.61	base-only	reading	eum	1573: euin	1556,1758,1681,1715,1747,1750,ws	dixerat ut priusquam gallus caneret ⟦eum⟧ ter negaret
+Luke.22.63	base-only	reading	verberantes	1573: Chrifto illuverberantes	1556,1758,1715,1747,1750,ws	autem qui tenebant homines illudebant ⟦verberantes⟧
+Luke.22.64	base-only	division	interrogabant	1573: interroga bant	1556,1758,1715,1747,1750,ws	tundebant ei faciem et ita ⟦interrogabant⟧ Divina quis sit qui te
+Luke.22.66	correct	form	coiit	1573,1758,1747,1750: coiuit	ws	Deinde orto die ⟦coiit⟧ populi senatus Pontifices et Scribae
+Luke.22.66	others-1573-agrees	reading	ei	1715,1747: 	1573,1758,ws	senatus Pontifices et Scribae et ⟦ei⟧ in suum consessum adducto sic
+Luke.22.67	base-only	division	vobis	1573: vo bis	1747,1750,ws	Christus sis Quibus ille Si ⟦vobis⟧ dixero non credetis
+Luke.22.68	base-only	reading	etiam	1573: etiá	1556,1758,1747,1750,ws	Quod si vos ⟦etiam⟧ interrogavero non mihi respondebitis aut
+Luke.22.68	base-only	division	respondebitis	1573: respon debitis | 1715: refpondebi ullum fe in eo homine crimen tis	1758,1747,1750,ws	vos etiam interrogavero non mihi ⟦respondebitis⟧ aut me absolvetis
+Luke.22.69	base-only	division	dexteram	1573: dexte ram	1556,1758,1747,1750,ws	ut sedeat filius hominis ad ⟦dexteram⟧ potentis Dei
+Luke.22.70	others-1573-agrees	reading		1747,1750: Filius	1573,1556,1758,ws	Tu igitur ⟦⟧ Dei filius es inquiunt omnes
+Luke.22.70	others-1573-agrees	reading	filius	1747,1750: 	1573,1556,1758,ws	Tu igitur Dei ⟦filius⟧ es inquiunt omnes Et ille
+Luke.22.70	base-only	reading	Et ille	1573: Etilles	1556,1758,1747,1750,ws	Dei filius es inquiunt omnes ⟦Et ille⟧ Sum quem vos esse me
+Luke.22.70	base-only	reading	quem	1573: quein	1556,1758,1681,1747,1750,ws	inquiunt omnes Et ille Sum ⟦quem⟧ vos esse me dicitis inquit
+Luke.22.71	base-only	division	Tum illi	1573: Tumilli	1758,1681,1747,1750,ws	⟦Tum illi⟧ Quid jam nobis testimonio opus
+Luke.22.71	base-only	reading	testimonio	1573: tettimonio | 1556: teflímonio | 1750: tefti I monio	1758,1747,ws	Tum illi Quid jam nobis ⟦testimonio⟧ opus est inquiunt cum ipsi
+Luke.22.71	base-only	reading	est	1573: sti | 1747,1750: 	1556,1758,ws	Quid jam nobis testimonio opus ⟦est⟧ inquiunt cum ipsi ex ejus
+Luke.23.4	base-only	reading	ullum	1573: vllű	1758,1747,1750,ws	Pontificibus et hominum multitudini negavit ⟦ullum⟧ se in eo homine crimen
+Luke.23.4	base-only	reading	crimen deprehendere	1573: crimem deprehédere	1758,1747,1750,ws	ullum se in eo homine ⟦crimen deprehendere⟧
+Luke.23.6	base-only	division	quaesivit an	1573: quæsiuitan	1758,1747,1750,ws	Hic Pilatus audita Galilaea ⟦quaesivit an⟧ homo Galilaeus esset
+Luke.23.6	base-only	division	Galilaeus	1573: Ga lilæus	1758,1747,ws	audita Galilaea quaesivit an homo ⟦Galilaeus⟧ esset
+Luke.23.7	base-only	reading	Herodem	1573: Herodeın	1758,1715,1747,1750,ws	esse cognovit misit eum ad ⟦Herodem⟧ qui et ipse Hierosolymis per
+Luke.23.7	correct	reading	eos	1573,1715: cos	1758,1747,ws	qui et ipse Hierosolymis per ⟦eos⟧ dies erat
+Luke.23.8	base-only	reading	eum jam diu	1573: euin iamdiu	1747,1750,ws	magnopere laetatus est quippe qui ⟦eum jam diu⟧ videre cuperet quod multa de
+Luke.23.8	base-only	reading	multa	1573: inulta	1758,1715,1747,1750,ws	jam diu videre cuperet quod ⟦multa⟧ de eo audiebat et se
+Luke.23.8	correct	division	audiebat	1573,1758: au diebat	1715,1747,1750,ws	cuperet quod multa de eo ⟦audiebat⟧ et se aliquid ab eo
+Luke.23.9	others-1573-agrees	reading	ei	1681,1747: 	1573,1758,1715,ws	de rebus interrogaverit ille nihil ⟦ei⟧ respondit
+Luke.23.10	base-only	reading	Quamvis	1573: quainuis	1758,1681,1715,1747,1750,ws	⟦Quamvis⟧ etiam Pontifices et Scribae qui
+Luke.23.10	base-only	reading	eum	1573: cum	1758,1715,1747,1750,ws	Pontifices et Scribae qui aderant ⟦eum⟧ acriter accusarent
+Luke.23.11	base-only	reading	eum	1573: eû	1556,1758,1715,1747,1750,ws	Itaque despicatus ⟦eum⟧ Herodes cum suis militibus ac
+Luke.23.11	base-only	reading	indutum	1573: indutű	1758,1681,1715,1747,1750,ws	cum suis militibus ac ludificatus ⟦indutum⟧ veste splendida Pilato remisit
+Luke.23.12	others	reading	Factisque	1573: factics | 1758,1681,1747: Factique | 1750: Faáti	ws	⟦Factisque⟧ sunt inter sese amici Pilatus
+Luke.23.12	base-only	division	nam antea	1573: namantea	1681,1715,1747,1750,ws	et Herodes eo ipso die ⟦nam antea⟧ inter eos intercedebat simultas
+Luke.23.13	base-only	reading	magistratus	1573: magistra Mar tus	1758,1715,1747,1750,ws	Pilatus autem convocatos Pontifices et ⟦magistratus⟧ ac populum sic allocutus est
+Luke.23.14	others	spelling	tamquam	1758: tanquan | 1715,1747: tanquam	1750,ws	Adduxistis hunc hominem mihi ⟦tamquam⟧ qui populum avertat atqui ego
+Luke.23.14	base-only	reading	tamquam qui populum	1573: tanqua quipo pulum	1750,ws	Adduxistis hunc hominem mihi ⟦tamquam qui populum⟧ avertat atqui ego in vestra
+Luke.23.14	base-only	reading	crimen	1573: crime	1758,1715,1747,1750,ws	vestra praesentia examinans nullum eorum ⟦crimen⟧ in hoc homine deprehendi quibus
+Luke.23.15	base-only	reading	misi	1573: nisi	1556,1758,1715,1747,1750,ws	nec Herodes ad eum enim ⟦misi⟧ vos et videtis nihil morte
+Luke.23.17	base-only	reading	festum	1573: fes	1556,1758,1715,1747,1750,ws	necesse iis unum relaxare per ⟦festum⟧
+Luke.23.18	others	reading	sibique Barabbam	1715,1747: ibique Barrabam	ws	multitudine exclamarunt ut eum tolleret ⟦sibique Barabbam⟧ remitteret
+Luke.23.18	correct	spelling	Barabbam	1573,1758,1750: Barrabam	ws	exclamarunt ut eum tolleret sibique ⟦Barabbam⟧ remitteret
+Luke.23.19	correct	reading	caedam	1573,1758,1747,1750: cædem	ws	quandam in urbe factam et ⟦caedam⟧ conjectus in carcerem
+Luke.23.22	base-only	division	Itaque	1573: Ita que | 1715: Itaqtte	1758,1681,1747,1750,ws	in eo capitale crimen deprehendi ⟦Itaque⟧ eum castigabo et absolvam
+Luke.23.23	base-only	division	At illi	1573: Atilli	1556,1715,1750,ws	⟦At illi⟧ magnis clamoribus instare flagitantes ut
+Luke.23.25	base-only	reading	Iisque	1573: eisqs | 1556: Gg	1758,1750,ws	⟦Iisque⟧ eum qui propter seditionem et
+Luke.23.25	base-only	reading	eorum	1573: eoruin	1556,1758,1715,1747,1750,ws	quem flagitabant absolvit Jesum autem ⟦eorum⟧ arbitrio tradidit
+Luke.23.26	correct	division	Hoc illi	1573,1758: Hocilli	1556,1715,1750,ws	⟦Hoc illi⟧ abducto Simonem quendam Cyrenaeum rure
+Luke.23.26	base-only	reading	quendam Cyrenaeum rure	1573: quendain Cyrenæŭ less in crurure	ws	Hoc illi abducto Simonem ⟦quendam Cyrenaeum rure⟧ venientem comprehenderunt eique crucem post
+Luke.23.26	base-only	reading		1573: cemagitur	1758,ws	venientem comprehenderunt eique crucem post ⟦⟧ Jesu tergum ferendam imposuerunt
+Luke.23.27	base-only	division	Sequebatur autem	1573: Sequebaturautem	1758,1750,ws	⟦Sequebatur autem⟧ eum ingens hominum multitudo et
+Luke.23.27	base-only	reading	eumque	1573: cuma | 1681: eui quc	1758,1750,ws	multitudo et mulierum quae plangebant ⟦eumque⟧ lamentabantur
+Luke.23.28	base-only	spelling	Hierosolymitanae	1573: Hierofolymitanę | 1715: Hierofolymitanz	1758,1750,ws	Ad quas Jesus conversus dixit ⟦Hierosolymitanae⟧ feminae ne me deplorate sed
+Luke.23.28	base-only	division	deplorate	1573: de plorate	1556,1715,1750,ws	deplorate sed vos vestrosque natos ⟦deplorate⟧
+Luke.23.29	base-only	reading	steriles	1573: ste Eft riles | 1715,1750: fleriles	1758,1681,ws	fore tempus quo beatae dicentur ⟦steriles⟧ et uteri qui non genuerint
+Luke.23.29	base-only	reading	lactaverint	1573: la	1556,1758,1681,1715,1750,ws	genuerint et ubera quae non ⟦lactaverint⟧
+Luke.23.30	base-only	reading	dicant	1573: dicát	1758,1715,1750,ws	Cum quidem eo venietur ut ⟦dicant⟧ homines montibus Corruite in nos
+Luke.23.30	base-only	division	montibus	1573: mon tibus	1758,1681,1715,1750,ws	eo venietur ut dicant homines ⟦montibus⟧ Corruite in nos et collibus
+Luke.23.31	base-only	reading	Nam	1573: Nama	1556,1758,1681,1715,1750,ws	⟦Nam⟧ si viridi arbori fiunt haec
+Luke.23.31	base-only	division	viridi arbori	1573: viridiarbori	1556,1681,ws	Nam si ⟦viridi arbori⟧ fiunt haec aridae quid fiet
+Luke.23.32	base-only	reading	Ducebantur autem	1573: Apoc Ducebaturautem	1556,1758,1715,1750,ws	⟦Ducebantur autem⟧ etiam alii duo facinorosi cum
+Luke.23.33	base-only	reading	Calvaria vocatur	1573: Caluatia voca tur	1556,1715,1747,ws	ad locum ventum est qui ⟦Calvaria vocatur⟧ illi eum ibi et facinorosos
+Luke.23.33	base-only	reading	alterum	1573: alterű	1556,1758,1681,1715,1747,1750,ws	illi eum ibi et facinorosos ⟦alterum⟧ ad dexteram alterum ad sinistram
+Luke.23.34	base-only	reading	iis nesciunt	1573: eisinesciunt	1758,1747,1750,ws	Et Jesus Pater inquit ignosce ⟦iis nesciunt⟧ enim quid faciant Illi vero
+Luke.23.35	base-only	reading	Astabatque	1573: aftabatás	1758,ws	⟦Astabatque⟧ spectans populus et magistratus quoque
+Luke.23.35	base-only	division	inquiebant	1573: inquie bant	1758,1715,1747,ws	cum iis deridebant Alios servavit ⟦inquiebant⟧ servet se ipsum si is
+Luke.23.35	correct	division	se ipsum	1573,1747: seipfum	ws	deridebant Alios servavit inquiebant servet ⟦se ipsum⟧ si is Christus est Dei
+Luke.23.36	base-only	reading	illuderent	1573: illuderet	1758,1715,1747,1750,ws	Accedebant etiam milites qui ei ⟦illuderent⟧ et acetum ei offerebant
+Luke.23.36	base-only	division	acetum	1573: ace tum	1758,1715,1747,1750,ws	milites qui ei illuderent et ⟦acetum⟧ ei offerebant
+Luke.23.37	base-only	division	Rex es	1573: Rexes	1556,1758,1715,1747,1750,ws	Et Si tu Judaeorum ⟦Rex es⟧ inquiebant serva te ipsum
+Luke.23.37	base-only	reading	te ipsum	1573: teipíum | 1556,1715: teípfum	1747,1750,ws	Judaeorum Rex es inquiebant serva ⟦te ipsum⟧
+Luke.23.38	others-1573-agrees	reading	et	1715,1747: 	1573,1556,1758,1750,ws	Erat ⟦et⟧ titulus supra eum Graecis Romanis
+Luke.23.38	base-only	reading	eum	1573: eű | 1750: cum	1556,1758,1715,1747,ws	Erat et titulus supra ⟦eum⟧ Graecis Romanis et Hebraicis litteris
+Luke.23.38	base-only	reading	Hebraicis	1573: He Matt braicis | 1715: Hebraivenerant videntes qua facia forent tundentes fua peótora reverfifunt Alítabant autem omnes ejus noti procul nec non f oemtcis	1556,1758,1747,1750,ws	supra eum Graecis Romanis et ⟦Hebraicis⟧ litteris scriptus Hic est Judaeorum
+Luke.23.38	base-only	reading	Judaeorum	1573: fudæorum | 1715: nz qux eum fuerant à Gal IUD EORUM | 1750: IVDAEO RVM	1556,1758,1747,ws	Hebraicis litteris scriptus Hic est ⟦Judaeorum⟧ rex
+Luke.23.39	others	reading	maledicebant	1573: maledi cebat | 1556,1758,1715,1747: maledicebat	ws	Atque unus pendentium facinorosorum ei ⟦maledicebant⟧ ita dicens Si tu Christus
+Luke.23.39	correct	division	te ipsum	1573,1758: teipfum	1715,1747,1750,ws	tu Christus es serva et ⟦te ipsum⟧ et nos
+Luke.23.39	base-only	reading	nos	1573: Latro	1758,1715,1747,ws	serva et te ipsum et ⟦nos⟧
+Luke.23.40	base-only	reading	At alter	1573: Iesu Atalter | 1747: Atalter eorum	1758,1750,ws	⟦At alter⟧ contra sic eum objurgare An
+Luke.23.40	base-only	division	sic eum	1573: siceum	1556,1758,1681,1715,1747,ws	At alter contra ⟦sic eum⟧ objurgare An tu Deum non
+Luke.23.43	base-only	division	Hoc tibi	1573: Hoctibi	1758,1681,1715,1747,1750,ws	Cui Jesus ⟦Hoc tibi⟧ confirmo inquit te hodie fore
+Luke.23.44	base-only	reading	autem	1573: autein	1556,1758,1681,1715,1747,1750,ws	Erat ⟦autem⟧ hora fere sexta et tenebrae
+Luke.23.44	base-only	spelling	tenebrae	1573: tenebrę | 1715: tenebra	1556,1758,1747,1750,ws	autem hora fere sexta et ⟦tenebrae⟧ per totam terram exstiterunt usque
+Luke.23.44	base-only	reading		1573: LVCAS | 1747: EVANGELIVM Cap	1556,1758,1715,1750,ws	sexta et tenebrae per totam ⟦⟧ terram exstiterunt usque ad horam
+Luke.23.44	correct	spelling	exstiterunt	1573,1758,1681,1715: extiterunt | 1750: éxítiterunt	1747,ws	et tenebrae per totam terram ⟦exstiterunt⟧ usque ad horam nonam
+Luke.23.46	others-1573-agrees	reading		1715,1747: clamans	1573,1556,1758,1750,ws	Et Jesus clamans ingenti voce ⟦⟧ dixit Pater tibi in manus
+Luke.23.47	base-only	division	re visa	1573: revisa	1556,1758,1747,1750,ws	Ea ⟦re visa⟧ centurio Deo gloriam tribuit dicens
+Luke.23.48	base-only	reading	spectaculum venerant	1573: fpeEtaculum venerat | 1681: ipcctaculum vcnerant	ws	hominum multitudo qui ad hoc ⟦spectaculum venerant⟧ videntes quae facta forent tundentes
+Luke.23.49	base-only	reading	nec non	1573: necnó	1758,1747,ws	autem omnes ejus noti procul ⟦nec non⟧ feminae quae eum fuerant a
+Luke.23.49	base-only	reading	aspicientes	1573: afpiIofephus ab Arimashea	1758,1747,ws	fuerant a Galilaea secutae ea ⟦aspicientes⟧
+Luke.23.50	base-only	reading	isque vir bonus et justus	1573: isqs	1758,1747,ws	vir quidam nomine Josephus senator ⟦isque vir bonus et justus⟧
+Luke.23.51	base-only	reading		1573: Marc	1556,1747,1750,ws	facto non assensus erat ab ⟦⟧ Arimathaea Judaeorum oppido qui et
+Luke.23.52	base-only	reading	postulavit	1573: postu	1556,1758,1750,ws	inquam Pilatum aggressus Jesu corpus ⟦postulavit⟧
+Luke.23.53	others	spelling	monumento	1573: moni mento | 1758,1715,1747: monimento	1750,ws	linteo involvit et in exciso ⟦monumento⟧ posuit ubi nemo adhuc situs
+Luke.23.53	base-only	reading	nemo	1573: neino	1556,1758,1747,1750,ws	in exciso monumento posuit ubi ⟦nemo⟧ adhuc situs fuerat
+Luke.23.55	correct	spelling	monumentum	1573,1758,1715,1747: monimentum | 1556: monímentü	1750,ws	ex Galilaea cum eo venerant ⟦monumentum⟧ aspexerunt et ut ejus corpus
+Luke.23.56	others-1573-agrees	reading	Sabbato	1715,1747: Sabbatho	1573,1758,1750,ws	praepararunt aromata et unguenta et ⟦Sabbato⟧ quidem ex praecepto quieverunt
+Luke.24.1	base-only	reading	monumentum	1573,1556: inonimentum | 1758: monimentum	1750,ws	die summo mane venerunt ad ⟦monumentum⟧ ferentes quae paraverant aromata quibusdam
+Luke.24.4	base-only	reading	Atque	1573: Arque | 1556: Atq | 1681: Arquc	1758,1747,1750,ws	⟦Atque⟧ hic cum ea de re
+Luke.24.4	base-only	spelling	consternatae	1573: consternatę	1758,1747,1750,ws	hic cum ea de re ⟦consternatae⟧ essent ecce duo viri iis
+Luke.24.5	base-only	reading	mortuos	1573: mor	1758,1681,1747,1750,ws	sunt Quid quaeritis viventem inter ⟦mortuos⟧
+Luke.24.6	base-only	division	locutus	1573: locu tus	1556,1758,1681,1747,1750,ws	sed surrexit Mementote ut vobis ⟦locutus⟧ sit cum esset adhuc in
+Luke.24.7	base-only	division	improborum	1573: impro borum	1556,1758,1681,1747,1750,ws	oportere filium hominis in hominum ⟦improborum⟧ manus tradi et crucifigi et
+Luke.24.9	others	spelling	monumento	1758,1747: monimento	1750,ws	Et a ⟦monumento⟧ reversae haec omnia undecim omnibusque
+Luke.24.9	base-only	spelling	monumento reversae	1573: monimento reuerse | 1556: monímento reueríz	ws	Et a ⟦monumento reversae⟧ haec omnia undecim omnibusque ceteris
+Luke.24.9	base-only	division	omnibusque	1573: om nibusque	1758,1747,1750,ws	monumento reversae haec omnia undecim ⟦omnibusque⟧ ceteris renuntiarunt
+Luke.24.10	base-only	division	Erat autem	1573: Eratautem	1556,1758,1747,ws	⟦Erat autem⟧ Magdalena Maria et Johanna et
+Luke.24.10	base-only	division	Maria	1573: Ma ria	1556,1758,1681,1747,1750,ws	Magdalena Maria et Johanna et ⟦Maria⟧ Jacobi mater et reliquae una
+Luke.24.10	base-only	spelling	quae	1573,1556: que	1758,1747,1750,ws	et reliquae una cum iis ⟦quae⟧ haec Apostolis dixerunt
+Luke.24.10	base-only	division	Apostolis	1573: Apo stolis	1556,1758,1747,1750,ws	una cum iis quae haec ⟦Apostolis⟧ dixerunt
+Luke.24.12	correct	spelling	monumentum	1573,1556,1758,1747: monimentum	1750,ws	Petrus autem surgit et ad ⟦monumentum⟧ currit et introspiciens aspicit lintea
+Luke.24.12	base-only	reading	introspiciens	1573: introfpicies	1758,1747,1750,ws	et ad monumentum currit et ⟦introspiciens⟧ aspicit lintea sola posita et
+Luke.24.13	base-only	reading		1573: Iefus apparet	1556,1681,1715,1750,ws	duo eo ipso die in ⟦⟧ vicum distantem a Hierosolyma stadia
+Luke.24.13	base-only	reading	Hierosolyma	1573: Hicrofolyma	1556,1758,1681,1715,1747,1750,ws	die in vicum distantem a ⟦Hierosolyma⟧ stadia sexaginta cujus nomen erat
+Luke.24.14	base-only	reading	acciderant	1573: acciderát	1556,1758,1750,ws	de omnibus iis rebus quae ⟦acciderant⟧ colloquebantur
+Luke.24.15	base-only	reading	Jesus accedit	1573: lefusaccedit | 1556: lefus acce dít | 1715: Lefus acce in veftibus aftitere corufcanfl dit	1758,1750,ws	iis colloquentibus ac disputantibus ipse ⟦Jesus accedit⟧ et cum iis iter facit
+Luke.24.17	base-only	reading	sermones	1573: serinones	1556,1758,1715,1747,1750,ws	Atque ille Qui sunt isti ⟦sermones⟧ inquit iis quos inter vos
+Luke.24.18	base-only	reading	Cui unus	1573: Cuiynus	1556,1758,1747,1750,ws	⟦Cui unus⟧ nomine Cleophas ita respondit Tune
+Luke.24.18	base-only	reading		1573: a Hierofoly	1758,1715,1747,1750,ws	nomine Cleophas ita respondit Tune ⟦⟧ solus adeo Hierosolymae hospes es
+Luke.24.18	base-only	reading	Hierosolymae	1573: a Hicrofolymæ	1758,1750,ws	ita respondit Tune solus adeo ⟦Hierosolymae⟧ hospes es ut ea nescias
+Luke.24.18	base-only	reading	ut	1573: vr	1556,1758,1681,1715,1747,1750,ws	solus adeo Hierosolymae hospes es ⟦ut⟧ ea nescias quae in ea
+Luke.24.18	base-only	reading		1573: nitabarum | 1556: Hierofo	1758,1747,1750,ws	es ut ea nescias quae ⟦⟧ in ea per hosce dies
+Luke.24.20	base-only	reading	magistratusque	1573: magistratusás | 1715: magi tratusque	1758,1747,1750,ws	Utque eum tradiderint pontifices ⟦magistratusque⟧ nostri ad capitale judicium et
+Luke.24.22	correct	spelling	Quamquam	1573,1758: Quanquam	1750,ws	⟦Quamquam⟧ mulieres quaedam ex nostris stupefecerunt
+Luke.24.22	base-only	division	stupefecerunt	1573: stupe fecerunt	1758,1747,1750,ws	Quamquam mulieres quaedam ex nostris ⟦stupefecerunt⟧ nos quae mane ad monumentum
+Luke.24.22	correct	spelling	monumentum	1573,1758,1747: monimentum	1556,1750,ws	stupefecerunt nos quae mane ad ⟦monumentum⟧ profectae
+Luke.24.24	base-only	reading	nostrorum quidam	1573: noftroruin quidaın	1758,1681,1747,1750,ws	Et sociorum ⟦nostrorum quidam⟧ ad monumentum profecti sic esse
+Luke.24.24	base-only	division	dixerant	1573: dixe rant | 1747,1750: dixerunt	1556,1758,ws	profecti sic esse compererunt quemadmodum ⟦dixerant⟧ feminae ipsum quidem non viderunt
+Luke.24.25	base-only	division	Et ille	1573: Etille	1556,1758,1715,1747,1750,ws	⟦Et ille⟧ O socordes inquit iis et
+Luke.24.27	base-only	reading	exorsus	1573: exoríus | 1681: cxorfus	1758,1715,1747,1750,ws	Tum ⟦exorsus⟧ a Mose omnes obiens vates
+Luke.24.27	correct	division	se ipso	1573,1758: seipso	1715,1750,ws	per omnia scripta quae de ⟦se ipso⟧ dicta forent interpretabatur
+Luke.24.29	base-only	division	ingressus est ad	1573: ingref sus estad	1556,1758,ws	vespera et dies inclinavit Itaque ⟦ingressus est ad⟧ manendum cum iis
+Luke.24.31	base-only	reading	agnoverunt	1573: agnouerút	1556,1758,1715,1747,ws	illi apertis eorum oculis eum ⟦agnoverunt⟧ atque ille ex eorum conspectu
+Luke.24.32	base-only	reading		1573: s	1758,1750,ws	illi inter sese sic dicere ⟦⟧ Nimirum nobis ardebat animus cum
+Luke.24.32	base-only	reading	ardebat	1573: arb Quoniam debat | 1747: ar aliquid edulii Io debat	1556,1758,ws	sese sic dicere Nimirum nobis ⟦ardebat⟧ animus cum nos in via
+Luke.24.32	base-only	reading	cumque nobis	1573: cumós no bis	1758,ws	cum nos in via alloqueretur ⟦cumque nobis⟧ scripta aperiret
+Luke.24.34	base-only	reading	dicebant re ipsa	1573: dicebat reipfa	ws	Qui ⟦dicebant re ipsa⟧ surrexisse Dominum seque Simoni ostendisse
+Luke.24.36	base-only	reading	Haec iis	1573: Hæceis	1758,1750,ws	⟦Haec iis⟧ loquentibus ipse Jesus in eorum
+Luke.24.36	base-only	reading		1573: Iefus difcipu	1758,1750,ws	ipse Jesus in eorum medio ⟦⟧ stetit et Salvete inquit
+Luke.24.37	base-only	reading	spiritum	1573: spiritů	1556,1758,1681,1750,ws	Cumque pavefacti ac perterriti se ⟦spiritum⟧ cernere putarent dixit iis
+Luke.24.38	base-only	reading		1573: Marc	1758,ws	aut cur istae subeunt animos ⟦⟧ vestros cogitationes
+Luke.24.40	base-only	division	Haec locutus	1573: Hæclocutus	1556,1758,1750,ws	⟦Haec locutus⟧ ostendit iis manus atque pedes
+Luke.24.41	base-only	reading	diffiderent	1573: diffideret | 1750: difliderent	1556,1758,ws	Cumque adhuc prae gaudio ⟦diffiderent⟧ ac mirarentur dixit iis Habetis
+Luke.24.41	base-only	reading	mirarentur	1573: iniraren tur	1556,1758,1750,ws	adhuc prae gaudio diffiderent ac ⟦mirarentur⟧ dixit iis Habetis hic aliquid
+Luke.24.41	correct	reading	edule	1573,1556,1758,1750: edulij	ws	dixit iis Habetis hic aliquid ⟦edule⟧
+Luke.24.44	correct	reading	eos	1573,1681,1750: čos	1556,1758,ws	Et ad ⟦eos⟧ sic verba fecit Haec sunt
+Luke.24.44	base-only	spelling	quae	1573: que	1556,1758,1681,1747,1750,ws	sic verba fecit Haec sunt ⟦quae⟧ vobis dum adhuc vobiscum eram
+Luke.24.45	others	spelling	intellegenda	1556,1758,1750: intelligenda | 1715: inteligenda	ws	Tum iis mentem ad ⟦intellegenda⟧ scripta aperuit
+Luke.24.47	base-only	reading	peccatorum	1573: peccatoruim	1556,1758,1715,1747,1750,ws	Ejusque nomine vitae correctionem et ⟦peccatorum⟧ veniam per omnes gentes facto
+Luke.24.48	base-only	reading		1573: Allor	1556,1758,1681,1715,1747,1750,ws	estis et ego sum vobis ⟦⟧ patris mei promissum missurus
+Luke.24.51	base-only	reading	discessit	1573: discescit | 1556: dífceícít | 1681: diiceflit | 1715: difcefTit	1758,1750,ws	Et inter ominandum iis ⟦discessit⟧ ab iis et in caelum
+Luke.24.51	base-only	reading	caelum	1573: cœ Allor lum | 1556: ccelum	1758,1681,1750,ws	discessit ab iis et in ⟦caelum⟧ sublatus est
+Luke.24.53	base-only	reading	collaudantes eique	1573: collaudan tes eiqs	1758,1715,1750,ws	erant continenter in templo Deum ⟦collaudantes eique⟧ gratias agentes Amen

@@ -75,13 +75,13 @@ def quotes(rows):
     """[(verse id, problem, text)]: marks out of balance (a “ inside an open “, a ” or ’ with nothing open, a
     chapter ending inside a quotation; a speech may run over verses), and every ‘…’ passage, flagged where it may
     be reported speech."""
-    out, chapter, double, single = [], None, 0, 0
+    out, chapter, double, single, triple = [], None, 0, 0, 0
     for vid, row in rows.items():
         c = tsv.parse_id(vid)[1]
         if c != chapter:
             if chapter is not None and (double or single):
                 out.append((last, "chapter ends inside a quotation", ""))
-            chapter, double, single = c, 0, 0
+            chapter, double, single, triple = c, 0, 0, 0
         # A speech running over paragraphs reopens “ at each new one without closing the last (as in English); a
         # new paragraph that does not reopen it means the last paragraph's speech was never closed.
         if double and starts(row["marks"]) and not row["text"].lstrip().startswith("“"):
@@ -89,7 +89,7 @@ def quotes(rows):
             double, single = 0, 0
         last = vid
         reopened = double == 1 and starts(row["marks"]) and row["text"].lstrip().startswith("“")
-        text, triple = row["text"], 0
+        text = row["text"]             # a third level (“ inside ‘…’) may run over verses too (Luke 15:18–19)
         for n, ch in enumerate(text):
             if ch == "“":
                 if reopened and n == len(text) - len(text.lstrip()):

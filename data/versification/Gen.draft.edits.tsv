@@ -1,0 +1,7 @@
+op	at	anchor	status	note
+split	Gen.38.6	Sed Er Jovae	applied	KJV 38:7 'And Er … was wicked'; your 1726 text starts its 38:7 here (Claude, 2026-11-08, decision 30's standing rule)
+absent	Gen.41.57		applied	KJV 41:57 'all countries came into Egypt … the famine was so sore in all lands' has no verse in Castellio: 1738, 1750, Wikisource and your 1726 text all end the chapter at 41:56 *dīvendere*, whose *urgente per omnem terram famē* carries its sense; chapter 41 keeps 56 verses (Claude, 2026-11-08, decision 30's standing rule)
+split	Gen.43.27	Illi suppliciter	applied	KJV 43:28 'And they answered … made obeisance'; your 1726 text starts its 43:28 here (Claude, 2026-11-08, decision 30's standing rule)
+split	Gen.44.27	alterum (ut nos sciebamus)	applied	KJV 44:28 'And the one went out from me'; your 1726 text starts its 44:28 here (mid-sentence) (Claude, 2026-11-08, decision 30's standing rule)
+merge	Gen.48.22		applied	KJV 48:21 'I die: but God shall be with you, and bring you again' is Castellio's 48:21–22; his 48:23 is KJV 48:22 (Claude, 2026-11-08, decision 30's standing rule)
+merge	Gen.49.32		applied	KJV 49:31 ends 'and there I buried Leah' (*ibidem ego Liam sepelīvī*, Castellio's 49:32); his 49:33–34 are KJV 49:32–33 (Claude, 2026-11-08, decision 30's standing rule)

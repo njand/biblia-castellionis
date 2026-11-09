@@ -113,39 +113,46 @@ def propose(usfm, osis, known=None):
     """[Proposal] for every change the approved rules make in this USFM text. known: settled_forms()."""
     words, phrases = word_rules()
     known = settled_forms() if known is None else known
-    settled_keys = set(known)
     out = []
     for vid, span, text in verses(usfm, osis):
-        body = re.sub(r"\\[a-z]+\d*\*?", lambda m: " " * len(m.group()), text)     # markers blanked, offsets kept
-        tokens = [(m.start(), m.end(), m.group()) for m in WORD.finditer(body)]
-        k = 0
-        while k < len(tokens):
-            start, end, word = tokens[k]
-            key = rules.unligature(macronize.plain(word))
-            for old_words, new, note in phrases:
-                n = len(old_words)
-                if [rules.unligature(macronize.plain(t[2])) for t in tokens[k:k + n]] == old_words and \
-                        all(not body[a[1]:b[0]].strip() for a, b in zip(tokens[k:k + n], tokens[k + 1:k + n])):
-                    e = tokens[k + n - 1][1]
-                    out.append(Proposal(vid, *anchored(text, start, e, carry(text[start:e], new, known)), "phrase", note))
-                    k += n
-                    break
+        for start, end, change, kind, note in changes(text, words, phrases, known):
+            out.append(Proposal(vid, *anchored(text, start, end, change), kind, note))
+    return out
+
+
+def changes(text, words, phrases, known):
+    """[(start, end, new, kind, note)]: the approved rules' changes to one verse's text (markers left alone),
+    by offset in `text`, in order."""
+    settled_keys = set(known)
+    body = re.sub(r"\\[a-z]+\d*\*?", lambda m: " " * len(m.group()), text)     # markers blanked, offsets kept
+    tokens = [(m.start(), m.end(), m.group()) for m in WORD.finditer(body)]
+    out = []
+    k = 0
+    while k < len(tokens):
+        start, end, word = tokens[k]
+        key = rules.unligature(macronize.plain(word))
+        for old_words, new, note in phrases:
+            n = len(old_words)
+            if [rules.unligature(macronize.plain(t[2])) for t in tokens[k:k + n]] == old_words and                     all(not body[a[1]:b[0]].strip() for a, b in zip(tokens[k:k + n], tokens[k + 1:k + n])):
+                e = tokens[k + n - 1][1]
+                out.append((start, e, carry(text[start:e], new, known), "phrase", note))
+                k += n
+                break
+        else:
+            change, kind, note = None, "", ""
+            if key in words:
+                change, kind, note = carry(word, words[key][0], known), "word", words[key][1]
             else:
-                change, kind, note = None, "", ""
-                if key in words:
-                    change, kind, note = carry(word, words[key][0], known), "word", words[key][1]
-                else:
-                    lig = macronize.ligatures(word)
-                    if lig != word:
-                        change, kind, note = lig, "ligature", "decision 16"
-                    jv = macronize.jv(change or word)
-                    plain = macronize.plain(word)
-                    if jv != (change or word) and key not in settled_keys and not EO.match(plain) \
-                            and not GREEK_I.search(plain):
-                        change, kind, note = jv, "jv", "decision 17"
-                if change and change != word:
-                    out.append(Proposal(vid, *anchored(text, start, end, change), kind, note))
-                k += 1
+                lig = macronize.ligatures(word)
+                if lig != word:
+                    change, kind, note = lig, "ligature", "decision 16"
+                jv = macronize.jv(change or word)
+                plain = macronize.plain(word)
+                if jv != (change or word) and key not in settled_keys and not EO.match(plain)                         and not GREEK_I.search(plain):
+                    change, kind, note = jv, "jv", "decision 17"
+            if change and change != word:
+                out.append((start, end, change, kind, note))
+            k += 1
     return out
 
 

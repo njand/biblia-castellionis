@@ -25,6 +25,8 @@
   draft BOOK CH-CH              stage 1: Wikisource's chapters → text/draft/<USFM>.usfm (BSB paragraphs; never overwrites)
   collate BOOK CH-CH [--base B] stage 2: every witness against the draft (or settled, wikisource, a USFM file), verse by
                                 verse → data/calibration/<osis><CH-CH>-collation.tsv (places, sorted by kind)
+  propose BOOK CH-CH [--rates]  stages 3–5 on an unmarked draft, one review item per verse (data/decisions/ for the
+                                calls made by reading) → data/review/<osis>F-L-chNN.md and text/draft/<USFM>.preview.usfm
   rules [BOOK…]                 learn spelling rules, Wikisource vs the gold → data/rules/orthography.tsv (proposed),
                                 data/rules/REVIEW.md, data/calibration/wikisource.tsv
 
@@ -38,7 +40,7 @@ import re
 import sys
 
 from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, parallel, paths, review,
-                      rules, tsv, versify, wikisource, wordpress)
+                      rules, tsv, verses, versify, wikisource, wordpress)
 
 
 def fetch_wikisource(names, refresh):
@@ -255,6 +257,11 @@ def main(argv):
     col.add_argument("chapters", help="e.g. 14-28")
     col.add_argument("--base", default="draft", help="draft (default), settled, wikisource, or a USFM file")
 
+    prp = sub.add_parser("propose", help="stages 3–5 on an unmarked draft, one review item per verse")
+    prp.add_argument("name")
+    prp.add_argument("chapters", help="e.g. 6-16")
+    prp.add_argument("--rates", action="store_true", help="also measure each flag kind on the settled chapters")
+
     sub.add_parser("latin", help="read-only Latin lookups (see `python -m pipeline latin --help`)")
 
     args = parser.parse_args(argv)
@@ -307,6 +314,24 @@ def main(argv):
         counts = collections.Counter((r[1], r[2]) for r in rows)
         print(", ".join(f"{k} {s} {n}" for (k, s), n in sorted(counts.items())))
         print(f"→ {path.relative_to(paths.ROOT).as_posix()} (noise left out; crop with pipeline.mdz.find/fetch_crop)")
+    elif args.command == "propose":
+        book = books.select([args.name])[0]
+        first, _, last = args.chapters.partition("-")
+        found, written = verses.write(book.osis, range(int(first), int(last or first) + 1))
+        kinds = collections.Counter(k for v in found for k, n in v.kinds.items() for _ in range(n))
+        flags = collections.Counter(f.kind for v in found for f in v.flags)
+        print(f"{len(found)} verses, {sum(kinds.values())} words; " + ", ".join(f"{k} {n}" for k, n in kinds.most_common()))
+        print(f"flagged {sum(flags.values())}: " + ", ".join(f"{k} {n}" for k, n in flags.most_common()))
+        print(f"verses with layout from data/decisions/: {sum(v.quotes for v in found)}; with no flag: "
+              f"{sum(not v.flags and not v.quotes for v in found)}")
+        for path in written:
+            print(f"→ {path.relative_to(paths.ROOT).as_posix()}")
+        if args.rates:
+            for label, (table, examples) in (("macrons", verses.rates()), ("spelling", verses.spelling_rates()),
+                                             ("case", verses.case_rates())):
+                for kind, (n, wrong) in sorted(table.items(), key=lambda kv: -kv[1][0]):
+                    print(f"{label:9} {kind:38} {n:6} {wrong:5} {wrong / max(1, n):7.2%}  "
+                          + "; ".join(examples.get(kind, [])[:3]))
     elif args.command == "review":
         return review_files(args.action, args.files, args.write, args.items, args.all, args.to)
     elif args.command == "versify":
@@ -320,7 +345,7 @@ def main(argv):
                              "list new edits in a fresh file")
         before = (pathlib.Path(args.to) if args.to else path).read_text(encoding="utf-8")
         after, changes = versify.apply_edits(before, book.osis, edits)
-        problems = versify.check(before, after, book.osis)
+        problems = versify.check(before, after, book.osis, edits)
         moved = sum(1 for _, _, how in changes if how != "renumbered")
         print(f"{book.osis}: {len(edits)} edits, {moved} boundaries moved, {len(changes) - moved} verses renumbered; "
               + ("checks passed (same words, KJV verse counts)" if not problems else "PROBLEMS: " + "; ".join(problems)))

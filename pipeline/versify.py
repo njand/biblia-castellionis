@@ -8,6 +8,8 @@ boundary, with `at` the verse id in the book's current numbering:
   merge    the verse marker of `at` is removed: its text joins the verse before
   chapter  the chapter break before `at` moves to the words `anchor` inside it; the words before the anchor end
            the previous chapter as its last verse (\\p follows the new \\c after a full stop, \\nb mid-sentence)
+  absent   `at` is a KJV verse the text has no verse for (its sense folded into a neighbour, as Castellio's Gen
+           41:56 holds the KJV's 41:57): nothing moves, and the chapter is checked against the KJV's count less one
 
 All later verses of the chapter are renumbered in order. `apply` refuses unless every edit is `approved`, and
 checks that the words are unchanged and that every chapter has the KJV's number of verses."""
@@ -67,6 +69,8 @@ def apply_edits(usfm, osis, edits):
     seq = items(usfm, osis)
     for edit in edits:
         op, at, anchor = edit["op"], edit["at"], edit["anchor"]
+        if op == "absent":
+            continue
         v = _find(seq, "v", at)
         if op == "merge":
             seq[v] = ("merged", at)
@@ -185,12 +189,16 @@ def _ranges(pairs):
                      for a, b, c, d in runs)
 
 
-def check(before, after, osis):
-    """Problems with a renumbering: words changed, or a chapter whose verse count is not the KJV's."""
+def check(before, after, osis, edits=()):
+    """Problems with a renumbering: words changed, or a chapter whose verse count is not the KJV's (less the KJV
+    verses an `absent` edit records)."""
     problems = []
     if words(before) != words(after):
         problems.append("the words changed")
-    kjv = parallel.kjv_counts()
+    kjv = dict(parallel.kjv_counts())
+    for edit in edits:
+        if edit["op"] == "absent":
+            kjv[(osis, int(edit["at"].split(".")[1]))] -= 1
     for chapter, count in verse_counts(after, osis).items():
         if count != kjv.get((osis, chapter)):
             problems.append(f"{osis} {chapter}: {count} verses, KJV {kjv.get((osis, chapter))}")

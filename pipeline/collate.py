@@ -9,14 +9,15 @@ Each difference is a *place*: a span of the text's words (empty for a word the t
 witness reads there. A witness that reads the text's words there supports the text; a witness whose row does
 not reach the place says nothing. Places are classified:
 
-  correct     1573 (the base) and at least one other printing or Wikisource agree against the text
-  base-only   1573 alone against the text (often its OCR; read on the page image)
-  others      1573 agrees with the text, or says nothing, while two or more others agree against it
-  variant     1556 (the reference) differs from 1573 where 1573 is read
+  correct     the base (1573 for the NT, 1738 for the OT) and at least one other witness agree against the text
+  base-only   the base alone against the text (often its OCR; read on the page image)
+  others      the base agrees with the text, or says nothing, while two or more others agree against it
+  variant     1556 (the NT reference) differs from 1573 where 1573 is read
 Noise (a reading of one OCR alone) is counted, not listed.
 
-The witnesses: 1573 (MDZ hOCR, the NT base), 1556 (e-rara OCR, the reference; reads poorly), 1758, 1681, 1715,
-1747, 1750 (archive.org OCR) and Wikisource."""
+The witnesses: for the NT, 1573 (MDZ hOCR, the base), 1556 (e-rara OCR, the reference; reads poorly), 1758, 1681,
+1715, 1747, 1750 (archive.org OCR) and Wikisource; for the OT, 1738 (archive.org OCR, the base; Wikisource
+transcribes it), 1750, your 1726–27 text (TXT/3 - Edited, Google Books OCR corrected by hand) and Wikisource."""
 
 import collections
 import difflib
@@ -27,6 +28,7 @@ from pipeline import align, books, gold, latex, mdz, paths, tsv
 
 PRINTINGS = [("1556", None), ("1758", ("1758-1", "1758-2")), ("1681", ("1681",)), ("1715", ("1715",)),
              ("1747", ("1747",)), ("1750", ("1750",))]
+OT_PRINTINGS = [("1738", ("1738",)), ("1750", ("1750",))]
 MACRON_TO_TILDE = {"ā": "ã", "ē": "ẽ", "ī": "ĩ", "ō": "õ", "ū": "ũ"}
 
 
@@ -37,8 +39,25 @@ def text_1556():
     return "".join(MACRON_TO_TILDE.get(c, c) for c in text)
 
 
+def base_key(osis):
+    """The base edition's witness key: 1573 for the New Testament, 1738 for the Old (decisions 1 and 24)."""
+    return "1738" if books.select([osis])[0].testament == "vetus" else "1573"
+
+
 def load_witnesses(osis):
-    """{key: [align.Witness]} for a New Testament book: 1573, 1556, the archive.org printings, Wikisource."""
+    """{key: [align.Witness]}: for a New Testament book 1573, 1556, the archive.org printings and Wikisource; for an
+    Old Testament book 1738, 1750, the 1726–27 text of TXT/3 and Wikisource."""
+    book = books.select([osis])[0]
+    if book.testament == "vetus":
+        out = {}
+        for key, files in OT_PRINTINGS:
+            out[key] = [align.Witness((paths.SOURCES / "archive" / f / "text.txt").read_text(encoding="utf-8"))
+                        for f in files if (paths.SOURCES / "archive" / f / "text.txt").exists()]
+        txt = paths.TXT / "3 - Edited" / "Vetus Fœdus" / f"{book.slug}.txt"
+        if txt.exists():
+            out["1726"] = [align.Witness(txt.read_text(encoding="utf-8"))]
+        out["ws"] = tsv.read(paths.WITNESSES / "wikisource" / f"{osis}.tsv")
+        return out
     out = {"1573": [mdz.witness()]}
     for key, files in PRINTINGS:
         if files is None:
@@ -100,11 +119,12 @@ class Place:
     support: list = field(default_factory=list)       # witnesses that read the text here
     kind: str = ""
     sort: str = ""              # division, spelling, form or reading (sort_kind)
+    base: str = "1573"          # the base edition's witness key (base_key)
     context: str = ""
 
     def against(self):
         """(folded reading, {witness: as printed}) with the most witnesses against the text."""
-        return max(self.readings.items(), key=lambda kv: (("1573" in kv[1]) + len(kv[1]), len(kv[0])))
+        return max(self.readings.items(), key=lambda kv: ((self.base in kv[1]) + len(kv[1]), len(kv[0])))
 
 
 def keys(words):
@@ -202,15 +222,15 @@ def sort_kind(place):
 
 def classify(place):
     reading, who = place.against()
-    others = [w for w in who if w not in ("1573", "1556")]
-    if "1573" in who and others:
+    others = [w for w in who if w not in (place.base, "1556")]
+    if place.base in who and others:
         return "correct"
-    if "1573" in who:
+    if place.base in who:
         return "base-only"
-    if len(others) >= 2 and "1573" not in place.support:
+    if len(others) >= 2 and place.base not in place.support:
         return "others"
     if len(others) >= 2:
-        return "others-1573-agrees"
+        return f"others-{place.base}-agrees"
     return "noise"
 
 
@@ -218,6 +238,7 @@ def collate(osis, chapters, source="draft", witnesses=None):
     """{chapter: [Place]} with each place classified, and the rows of every witness ({key: {vid: row}})."""
     witnesses = witnesses or load_witnesses(osis)
     base = base_rows(osis, chapters, source)
+    base_witness = base_key(osis)
     ws = {r["id"]: r["text"] for r in witnesses["ws"]}
     by_chapter = collections.defaultdict(list)
     for vid, text in base:
@@ -243,6 +264,7 @@ def collate(osis, chapters, source="draft", witnesses=None):
             for key in chapter_rows:
                 all_rows[key][vid] = chapter_rows[key].get(vid)
             for place in compare(vid, text, verse_rows):
+                place.base = base_witness
                 place.kind = classify(place)
                 place.sort = sort_kind(place)
                 places.append(place)

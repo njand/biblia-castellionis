@@ -29,8 +29,9 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | Path | What |
 |---|---|
 | `text/<USFM code>.usfm` | **The master copy**, one file per book (created by the M1 migration); markers in PLAN.md §3 |
-| `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (now Mark 6–16, Wikisource via `pipeline draft`); not settled. Once approved, a draft's chapters move into `text/<USFM code>.usfm` and the draft file goes (Matthew 14–28, settled 2026-11-07) |
+| `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (Wikisource via `pipeline draft`; none at present); not settled. Once approved, a draft's chapters move into `text/<USFM code>.usfm` and the draft file goes (Matthew 14–28 settled 2026-11-07, Mark 6–16, Luke 14–24, John 5–21 and Genesis 28–50 2026-11-08) |
 | `data/review/*.md` | Proposals with exact **Apply** lines and **Decision** lines; applied by `python -m pipeline review apply` |
+| `data/decisions/<osis>.layout.tsv`, `.forms.tsv` | Calls made by reading a verse, for `pipeline propose`: its quotation marks, `\qt`, poetry, paragraphs, capitals and punctuation over the draft's own words (`marks` `=` keeps the draft's, `-` none), and macrons decided in context, each with its reason |
 | `data/rules/orthography.tsv` | Spelling rules (`old new scope status note`); only `approved` rows are applied. `REVIEW.md` beside it is the latest proposal for Nathan; `distinct.tsv` lists look-alike words decided to be different |
 | `data/witnesses/ocr-<year>/<osis>.tsv` | OCR witnesses aligned to verse ids (`python -m pipeline align`): 1573 (MDZ hOCR, `pipeline/mdz.py`), 1681, 1715, 1726 (= `TXT/1`), 1738, 1747, 1750, 1758; flags `partial`/`missing`, `L…G: words` (Castellio's L. … G. marks), `canvas N` (1573) |
 | `data/calibration/witnesses.md` | Each witness scored against the gold (found, agreement exact / f-s-blind / reading); `witnesses.tsv` holds the counts |
@@ -80,6 +81,7 @@ python -m pipeline versify Matt --draft [--to COPY]   # the same for text/draft/
 python -m pipeline review check|apply FILE… [--write] [--items N…] [--all] [--to COPY]   # Apply lines of data/review/*.md
 python -m pipeline draft Mark 6-16            # stage 1: Wikisource → text/draft/MRK.usfm (never overwrites)
 python -m pipeline collate Matt 14-28 [--base draft|settled|wikisource|FILE]   # stage 2 → data/calibration/<osis><CH>-collation.tsv
+python -m pipeline propose Mark 6-16 [--rates] # stages 3–5 on an unmarked draft: one review item per verse → data/review/mark6-16-chNN.md + text/draft/MRK.preview.usfm
 cd scripts && python latex_converter.py      # legacy: LaTeX → TXT/HTML (until the USFM builds replace it)
 ```
 

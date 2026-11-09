@@ -122,6 +122,16 @@ def wordpress_marks(osis, tokens):
     if not path.exists():
         return {}
     verses = {row["id"]: WORD.findall(row["text"]) for row in tsv.read(path)}
+    # A chapter WordPress never macronized (Gen 34: 0 of 522 words) is no witness: its bare words would read as
+    # decisions that every vowel is short.
+    marked = collections.Counter()
+    total = collections.Counter()
+    for vid, words in verses.items():
+        chapter = vid.rsplit(".", 1)[0]
+        total[chapter] += len(words)
+        marked[chapter] += sum(1 for w in words if macronize.long_vowels(w))
+    verses = {vid: words for vid, words in verses.items()
+              if marked[vid.rsplit(".", 1)[0]] >= 0.1 * total[vid.rsplit(".", 1)[0]]}
     marks, by_verse = {}, collections.defaultdict(list)
     for index, (vid, word) in enumerate(tokens):
         by_verse[vid].append(index)

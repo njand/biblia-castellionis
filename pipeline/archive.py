@@ -78,3 +78,88 @@ def fetch(witness: Witness, hocr=False, refresh=False):
 def write_manifest(rows):
     tsv.write(paths.WITNESSES / "archive.tsv", rows,
               header=("key", "year", "scope", "item", "file_stem", "ocr", "pages", "url", "note"))
+
+
+# ---------------------------------------------------------------- word boxes and page-image crops (hOCR)
+
+CROPS = paths.SOURCES / "archive" / "crops"
+PAGE_IMAGE = "https://archive.org/download/{item}/page/n{leaf}.jpg"
+_PAGES = {}
+
+
+def pages(key):
+    """[(leaf index, [mdz.Word], (page width, page height))] of an edition's hOCR (sources/archive/<key>/hocr.html),
+    words in reading order with their page line; cached per run."""
+    import re
+    from pipeline import mdz
+    if key in _PAGES:
+        return _PAGES[key]
+    text = (paths.SOURCES / "archive" / key / "hocr.html").read_text(encoding="utf-8")
+    out = []
+    for n, page in enumerate(re.split(r'<div class="ocr_page"', text)[1:]):
+        size = re.search(r'bbox 0 0 (\d+) (\d+)', page[:300])
+        words, line = [], 0
+        for chunk in re.split(r'<span class="ocr_line"', page)[1:]:
+            line += 1
+            for m in re.finditer(r'class="ocrx_word"[^>]*title="bbox (\d+) (\d+) (\d+) (\d+)[^"]*">([^<]*)<', chunk):
+                x0, y0, x1, y1 = map(int, m.groups()[:4])
+                words.append(mdz.Word(n, m.group(5).strip(), (x0, y0, x1, y1), 0, line))
+        out.append((n, words, (int(size.group(1)), int(size.group(2))) if size else (0, 0)))
+    _PAGES[key] = out
+    return out
+
+
+def find(key, context, target_index, leaves=None):
+    """The Word that best fits `context` (as mdz.find), on the given leaves or anywhere: pages are first narrowed to
+    words like the target, so a whole volume can be searched."""
+    import difflib
+    from pipeline import align
+    want = [align.fold(w, fs=True) for w in context]
+    best, best_score = None, 0.0
+    for leaf, words, _ in pages(key):
+        if leaves is not None and leaf not in leaves:
+            continue
+        folded = [align.fold(w.text, fs=True) for w in words]
+        for j, f in enumerate(folded):
+            score = difflib.SequenceMatcher(None, f, want[target_index]).ratio()
+            if score < 0.7:
+                continue
+            for k, w in enumerate(want):
+                if k == target_index:
+                    continue
+                expected = j + (k - target_index)
+                score += any(folded[n] == w or difflib.SequenceMatcher(None, folded[n], w).ratio() >= 0.75
+                             for n in range(max(0, expected - 3), min(len(folded), expected + 4)))
+            if score > best_score:
+                best, best_score = words[j], score
+    return best
+
+
+def fetch_crop(key, word, name):
+    """The word's line with a line above and below, cut from archive.org's page image (archive.org's IIIF crops
+    time out; the page is downloaded and cropped with Windows' System.Drawing through PowerShell, the standard
+    library having no JPEG codec). Pages and crops are cached in sources/archive/crops/."""
+    import subprocess
+    CROPS.mkdir(parents=True, exist_ok=True)
+    path = CROPS / f"{name}.jpg"
+    if path.exists():
+        return path
+    page_path = CROPS / f"{key}-page-{word.canvas:04d}.jpg"
+    # archive.org's page images are numbered one below the hOCR's pages (checked on Gen 41:56, 1738).
+    net.download(PAGE_IMAGE.format(item=BY_KEY[key].item, leaf=word.canvas - 1), page_path)
+    _, words, (width, height) = pages(key)[word.canvas]
+    lines = [w for w in words if abs(w.line - word.line) <= 1]
+    own = [w for w in lines if w.line == word.line]
+    box = (min(w.box[0] for w in own) - 60, min(w.box[1] for w in lines) - 15,
+           max(w.box[2] for w in own) + 60, max(w.box[3] for w in lines) + 15)
+    script = ("Add-Type -AssemblyName System.Drawing; "
+              f"$i = [System.Drawing.Image]::FromFile('{page_path}'); "
+              f"$sx = $i.Width / {width}; $sy = $i.Height / {height}; "
+              f"$x = [math]::Max(0, [int]({box[0]} * $sx)); $y = [math]::Max(0, [int]({box[1]} * $sy)); "
+              f"$w = [math]::Min($i.Width - $x, [int](({box[2]} - {box[0]}) * $sx)); "
+              f"$h = [math]::Min($i.Height - $y, [int](({box[3]} - {box[1]}) * $sy)); "
+              "$b = New-Object System.Drawing.Bitmap $i; "
+              "$c = $b.Clone((New-Object System.Drawing.Rectangle $x, $y, $w, $h), $b.PixelFormat); "
+              f"$c.Save('{path}', [System.Drawing.Imaging.ImageFormat]::Jpeg); $c.Dispose(); $b.Dispose(); $i.Dispose()")
+    subprocess.run(["powershell", "-NoProfile", "-Command", script], check=True, capture_output=True)
+    return path
