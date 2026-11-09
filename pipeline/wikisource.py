@@ -29,7 +29,7 @@ OTHER_HEADING = re.compile(r"^=+\s*(.*?)\s*=+$")
 VERSE = re.compile(r"^(\d{1,3})\.?\s*(?=\S)(.*)$")
 # A verse number inside a line: "… educti. 17. Dimissum" or, in some books, "… legáto. 2 Quum". Only the next
 # expected number counts, so stray numerals in the text are left alone.
-INLINE_VERSE = re.compile(r"(?<=[\s.,;:!?'\"’”)])(\d{1,3})\.?\s+(?=\S)")
+INLINE_VERSE = re.compile(r"(?<=[\s.,;:!?'\"’”)])(\d{1,3})(?:\.\s*|\s+)(?=\S)")   # Exod 12:2 `2."Hic`: no space
 
 REVIEW_FLAGS = {"joined", "gap", "repeat"}
 
@@ -62,15 +62,16 @@ def clean(text):
 
 
 def split_inline(text, expected):
-    """[(None, before), (n, text), …]: split at verse numbers inside a line, starting with `expected`."""
+    """[(None, before), (n, text), …]: split at verse numbers inside a line, starting with `expected`. A number may
+    skip one or two (Exodus 5–6 print no 5:3 or 6:2 where Castellio joins verses); `start` flags the gap."""
     pieces, last = [], 0
     for match in INLINE_VERSE.finditer(text):
         number = int(match.group(1))
-        if number != expected:
+        if not expected <= number <= expected + 2:
             continue
         pieces += [text[last:match.start()].strip(), number]
         last = match.end()
-        expected += 1
+        expected = number + 1
     pieces.append(text[last:].strip())
     return [(None, pieces[0])] + [(pieces[i], pieces[i + 1]) for i in range(1, len(pieces), 2)]
 

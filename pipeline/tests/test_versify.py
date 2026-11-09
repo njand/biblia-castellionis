@@ -59,3 +59,15 @@ class Apply(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Opens(unittest.TestCase):
+    """Castellio's Exod 5:25 is the KJV's 6:1: the chapter break moves back before it."""
+    USFM = "\\id EXO\n\\c 5\n\\p\n\\v 1 Postea adeunt.\n\\p\n\\v 2 Cui Jova, inquit.\n\n\\c 6\n\\p\n\\v 1 Ego sum.\n"
+
+    def test_break_moves_back(self):
+        after, changes = versify.apply_edits(self.USFM, "Exod", [edit("opens", "Exod.5.2")])
+        self.assertEqual(versify.words(self.USFM), versify.words(after))
+        self.assertIn("\\v 1 Postea adeunt.\n\n\\c 6\n\\p\n\\v 1 Cui Jova, inquit.", after)
+        self.assertEqual(versify.verse_counts(after, "Exod"), {5: 1, 6: 2})
+        self.assertIn(("Exod.5.2", "Exod.6.1", "renumbered"), changes)

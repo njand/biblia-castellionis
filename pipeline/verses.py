@@ -83,11 +83,18 @@ def load_layout(osis):
 
 
 def load_forms(osis):
-    """{(verse id, plain word): (marked form, note)} from data/decisions/<osis>.forms.tsv."""
+    """{(verse id, plain word): (marked form, note)} from data/decisions/<osis>.forms.tsv. An id `Exod.18.8#2`
+    decides only the second copy of the word in that verse (keyed (verse id, plain word, 2)), where the copies differ
+    (*ā Jōvā* and *Jōva* in one verse)."""
     path = DECISIONS / f"{osis}.forms.tsv"
     if not path.exists():
         return {}
-    return {(r["id"], macronize.key(r["form"])): (r["form"], r.get("note", "")) for r in tsv.read(path)}
+    out = {}
+    for r in tsv.read(path):
+        vid, _, nth = r["id"].partition("#")
+        key = (vid, macronize.key(r["form"])) + ((int(nth),) if nth else ())
+        out[key] = (r["form"], r.get("note", ""))
+    return out
 
 
 def words_of(text):
@@ -294,6 +301,7 @@ def propose(osis, chapters, usfm=None):
     output = harness.macronize_all(tokens, lexicon, "C", defaults, witness)
     counts = settled_counts()
     marked = [list() for _ in verses]                 # [(start, end, word)] per verse
+    copies = collections.Counter()                    # (verse id, plain word): copies seen so far
     for index, ((vid, token), out) in enumerate(zip(tokens, output)):
         n, start, end = where[index]
         verse = verses[n]
@@ -302,8 +310,10 @@ def propose(osis, chapters, usfm=None):
         wp = witness.get(index)
         word, kind = out.word, kind_of(out.how, out.word, token, wp, defaults.get(k), out.options)
         note = evidence(token, entry, counts.get(k), wp)
-        if (vid, k) in forms:
-            form, why = forms[(vid, k)]
+        copies[(vid, k)] += 1
+        decided = (vid, k, copies[(vid, k)]) if (vid, k, copies[(vid, k)]) in forms else (vid, k)
+        if decided in forms:
+            form, why = forms[decided]
             if macronize.plain(rules.unligature(form)) != macronize.plain(rules.unligature(token)).replace("æ", "ae"):
                 raise ValueError(f"{vid}: decided form {form} does not spell {token}")
             word = macronize.finish(token, macronize.long_vowels(rules.unligature(form)))
@@ -355,13 +365,13 @@ def one_line(text):
 
 
 def item(verse):
-    _, chapter, number = tsv.parse_id(verse.vid)
+    osis, chapter, number = tsv.parse_id(verse.vid)
     loud = [f for f in verse.flags if f.kind != QUIET]
     quiet = [f.word for f in verse.flags if f.kind == QUIET]
     tags = [f"⚑ {len(loud)}"] if loud else []
     if verse.quotes:
         tags.append("layout")
-    lines = [f"{number}. **Mark {chapter}:{number}**" + (" · " + " · ".join(tags) if tags else ""),
+    lines = [f"{number}. **{osis} {chapter}:{number}**" + (" · " + " · ".join(tags) if tags else ""),
              f"   {display(verse)}"]
     if verse.note:
         lines.append(f"   - ⚑ **layout**: {verse.note}")

@@ -82,6 +82,10 @@ Found by the aligner on 2026-11-07 (it now records the marks as a flag; `data/wi
 
 **The Old Testament marks in print** (seen 2026-11-08): 1738 Gen 44:6 *cur bonum malo pensarint? G. cur sibi scyphum argenteum furati sint? H. eum esse, quo suus herus potare …* (archive.org leaf 107: *G.* on the page image, *H.* in the OCR as *if.*). The marked question matches the words the Septuagint adds at Gen 44:5 (“why have you stolen my silver cup?”); that match is from memory of the Greek, not checked against a text here. Wikisource prints the marks; the 1726–27 text (`TXT/3`) omits them and keeps the words.
 
+In Exodus (seen 2026-11-08, 1738 OCR): 2:22 *in terra extranea. G.L. Item alterum, quem Eliezerem nominavit …* (leaf 116; the second son, named here as in the Septuagint and Vulgate, where the Hebrew names him only at 18:4; no *H.* follows in the verse), and 6:20 *Aharonem et Mosem G.L. et Mariam eorum sororem, H. vixitque Amramus …* (leaves 119–120; “and Miriam their sister”). These are the *G.L.* (“both”) of the *admonitio*. Wikisource prints them; the 1726–27 text omits them and keeps the words.
+
+**1738 prints footnotes with alternative renderings.** Exod 1:21 *pietatem ᶜ familias* has the footnote *c) progeniem.* at the foot of the page (leaf 115, page image), offering *progeniem* for *familias*; 1738's OCR runs the note into the text of 2:2. Wikisource, 1750 and the 1726–27 text print the text without the note. Whether the notes are Castellio's own was not checked.
+
 ### Castellio's own words, seen in 1573 (Matthew 14–28)
 
 Read on the 1573 page images on 2026-11-07 (canvas numbers in `data/review/matt14-28-stage2.md`), where Wikisource and the draft have something else: Matt 19:24 *facilius esse rudentem per foramen acus traijci* (a ship's cable, reading κάμιλος for κάμηλος; 1750 and Wikisource agree), Matt 28:1 *Ea autem nocte septidui* (“of the week”; also 1747), Matt 22:35 *legisperitus* (νομικός), Matt 26:54 *quo pacto confierent*.
