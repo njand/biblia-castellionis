@@ -8,6 +8,8 @@ boundary, with `at` the verse id in the book's current numbering:
   merge    the verse marker of `at` is removed: its text joins the verse before
   chapter  the chapter break before `at` moves to the words `anchor` inside it; the words before the anchor end
            the previous chapter as its last verse (\\p follows the new \\c after a full stop, \\nb mid-sentence)
+  opens    the chapter break after `at` moves back to before it: `at` and the verses after it in its chapter
+           open the next chapter (Castellio's Exod 5:25 is the KJV's 6:1); `anchor` is empty
   absent   `at` is a KJV verse the text has no verse for (its sense folded into a neighbour, as Castellio's Gen
            41:56 holds the KJV's 41:57): nothing moves, and the chapter is checked against the KJV's count less one
 
@@ -77,7 +79,7 @@ def apply_edits(usfm, osis, edits):
         elif op == "split":
             t, offset = _split_at(seq, v, anchor, at)
             text = seq[t][1]
-            rest = re.sub(r"^\d+\s*", "", text[offset:])       # a verse number left in the text (draft: 8‘Hic)
+            rest = re.sub(r"^\d+\.?\s*", "", text[offset:])   # a verse number left in the text (draft: 8‘Hic, 8. Tum)
             seq[t:t + 1] = [("text", text[:offset].rstrip() + "\n"), ("v", f"{at}+split"), ("text", rest)]
         elif op == "chapter":
             c = max(i for i in range(v) if seq[i][0] == "c")
@@ -91,6 +93,14 @@ def apply_edits(usfm, osis, edits):
             paragraph = "\\p" if before.endswith((".", "?", "!", "”", "’")) else "\\nb"
             seq[t:t + 1] = [("text", before + "\n\n"), ("c", chapter), ("text", f"\n{paragraph}\n"),
                             ("v", f"{at}+chapter"), ("text", text[offset:])]
+        elif op == "opens":
+            n = next(i for i in range(v + 1, len(seq)) if seq[i][0] == "c")
+            chapter = seq[n][1]
+            del seq[n]
+            before = seq[v - 1][1] if v and seq[v - 1][0] == "text" else None
+            if before is not None:                                  # a \p that opened `at` now follows the \c
+                seq[v - 1] = ("text", re.sub(r"\\p\n$", "", before).rstrip("\n") + "\n\n")
+            seq[v:v] = [("c", chapter), ("text", "\n\\p\n")]
         else:
             raise ValueError(f"unknown edit {op!r}")
     out, changes, chapter, verse, last_new = [], [], 0, 0, None
@@ -146,7 +156,8 @@ def report(usfm, osis, edits, gold_rows, kjv_rows):
         shown = text.replace(anchor, "‖ " + anchor, 1) if anchor else text
         new_ids = sorted({new for old, new, how in changes if old == at or old.startswith(at + " ")},
                          key=lambda vid: tuple(int(x) for x in vid.split(".")[1:]))
-        label = {"split": "split", "merge": "merge into the verse before", "chapter": "chapter break moves"}[op]
+        label = {"split": "split", "merge": "merge into the verse before", "chapter": "chapter break moves",
+                 "opens": "opens the next chapter", "absent": "absent"}[op]
         lines += [f"## {number}. {at}: {label}", "", f"> {shown}", ""]
         if op == "merge":
             lines.append(f"Joins {new_ids[0] if new_ids else '?'}.")
@@ -172,6 +183,10 @@ def _kjv_ids(at, op, changes):
         return [at, f"{osis}.{chapter}.{verse + 1}"]
     if op == "merge":
         return [next(new for old, new, how in changes if old == at)]
+    if op == "opens":
+        return [f"{osis}.{chapter + 1}.1"]
+    if op == "absent":
+        return [at]
     last = parallel.kjv_counts()[(osis, chapter - 1)]          # chapter: the previous chapter's new last verse
     return [f"{osis}.{chapter - 1}.{last}", at]
 

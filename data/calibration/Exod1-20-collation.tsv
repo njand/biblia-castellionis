@@ -1,0 +1,1285 @@
+id	kind	sort	text	readings	support	context
+Exod.1.1	base-only	reading	nomina	1738: n ina | 1750: nomi na	1726,ws	Igitur filiorum Israelis ⟦nomina⟧ qui cum Jacobo in Aegyptum
+Exod.1.1	base-only	reading	cum Jacobo	1738: ami lacobo	1750,1726,ws	Igitur filiorum Israelis nomina qui ⟦cum Jacobo⟧ in Aegyptum cum singulis familiis
+Exod.1.1	base-only	reading	venerunt	1738: vest tierunf	1750,1726,ws	in Aegyptum cum singulis familiis ⟦venerunt⟧ haec sunt
+Exod.1.2	base-only	reading	Simeon Levis	1738: Bi meon Lctiis	1726,ws	Ruben ⟦Simeon Levis⟧ Judas
+Exod.1.4	base-only	division	Nephthalis	1738: Nephtha lis	1750,1726,ws	Dan ⟦Nephthalis⟧ Gadus et Aser
+Exod.1.5	base-only	division	omnium	1738: Omni um | 1750: omniwn	1726,ws	fuitque ⟦omnium⟧ Jacobi femore procreatorum numerus capitum
+Exod.1.5	base-only	reading	numerus	1738: niimeru	1750,1726,ws	fuitque omnium Jacobi femore procreatorum ⟦numerus⟧ capitum septuaginta quorum Josephus jam
+Exod.1.5	base-only	reading	Josephus	1738: lofephus	1750,1726,ws	procreatorum numerus capitum septuaginta quorum ⟦Josephus⟧ jam erat in Aegypto
+Exod.1.6	base-only	division	illo genere	1738: illogenere	1726,ws	Josepho ejusque fratribus et toto ⟦illo genere⟧
+Exod.1.7	base-only	reading	Israelitae tanto	1738: to	1726,ws	⟦Israelitae tanto⟧ numero et multitudine aucti propagati
+Exod.1.7	base-only	reading	multitudine	1738: muititudine	1750,1726,ws	Israelitae tanto numero et ⟦multitudine⟧ aucti propagati corroborati sunt ut
+Exod.1.7	base-only	reading	illa compleretur	1738: ilia compleretnr	1726,ws	corroborati sunt ut eis regio ⟦illa compleretur⟧
+Exod.1.8	base-only	reading	Tum	1738: Turn	1726,ws	⟦Tum⟧ exstitit rex novus in Aegypto
+Exod.1.8	base-only	reading	novus	1738: nouns	1750,1726,ws	Tum exstitit rex ⟦novus⟧ in Aegypto qui Josephum non
+Exod.1.8	base-only	reading	Aegypto	1738: Ae g gvpto	1750,1726,ws	Tum exstitit rex novus in ⟦Aegypto⟧ qui Josephum non noverat
+Exod.1.8	correct	reading	Josephum	1738,1750: lofephum	1726,ws	rex novus in Aegypto qui ⟦Josephum⟧ non noverat
+Exod.1.9	base-only	reading	viribus	1738: vinbus	1750,1726,ws	quo ipsi et numero et ⟦viribus⟧ superarentur circumvenirent
+Exod.1.10	base-only	division	amplius	1738: am plius	1750,1726,ws	ne si ⟦amplius⟧ crevisset et bellum aliquod ortum
+Exod.1.10	base-only	reading	sese	1738: tie	1750,1726,ws	bellum aliquod ortum fuisset hostibus ⟦sese⟧ conjungeret et sibi ex ea
+Exod.1.11	base-only	reading	impositi	1738: impo fiti cap i a tAUUVb K fiti	1726,ws	Ita ⟦impositi⟧ sunt populo Israelitico quaestores tributi
+Exod.1.11	base-only	reading	quaestores	1738: quaeflores	1726,ws	Ita impositi sunt populo Israelitico ⟦quaestores⟧ tributi qui eum oneribus opprimerent
+Exod.1.11	base-only	reading	coactusque	1738: coachisque	1726,ws	tributi qui eum oneribus opprimerent ⟦coactusque⟧ est urbes ad armaria aedificare
+Exod.1.11	base-only	reading	aedificare	1738: aedifkare	1750,1726,ws	coactusque est urbes ad armaria ⟦aedificare⟧ Pharaoni Pitomam et Ramessem
+Exod.1.11	base-only	reading		1738: l	1726,ws	urbes ad armaria aedificare Pharaoni ⟦⟧ Pitomam et Ramessem
+Exod.1.11	base-only	reading	Ramessem	1738: Rainesfem	1750,1726,ws	armaria aedificare Pharaoni Pitomam et ⟦Ramessem⟧
+Exod.1.12	base-only	reading	premebatur	1738: preniebatur	1750,1726,ws	Sed quanto gravius ⟦premebatur⟧ tanto magis crescebat magisque propagabatur
+Exod.1.12	base-only	division	propagabatur	1738: propa gabatur	1726,ws	premebatur tanto magis crescebat magisque ⟦propagabatur⟧
+Exod.1.13	base-only	reading	coeperunt	1738: eoeperunt	1750,1726,ws	Quare Israelitarum pertaesi Aegyptii ⟦coeperunt⟧ in eos majorem imperii asperitatem
+Exod.1.13	base-only	division	adhibere	1738: adhibe re | 1750: adhibe	1726,ws	in eos majorem imperii asperitatem ⟦adhibere⟧
+Exod.1.14	base-only	reading	omne	1738: orane	1750,1726,ws	et lateres durius exigendo et ⟦omne⟧ rusticani operis genus et servitium
+Exod.1.15	base-only	reading	Tum	1738: Turn	1726,ws	⟦Tum⟧ autem rex Aegypti Hebraeorum obstetricibus
+Exod.1.15	base-only	reading	Hebraeorum	1738: Ebraparum | 1726: Hebraearum	ws	Tum autem rex Aegypti ⟦Hebraeorum⟧ obstetricibus quarum uni Siphra alteri
+Exod.1.16	base-only	reading	mandavit	1738: itfmandauit | 1750: atit	1726,ws	⟦mandavit⟧ ut Hebraeis mulieribus obstetricando in
+Exod.1.16	base-only	reading	Hebraeis	1738: ebrads	1750,1726,ws	mandavit ut ⟦Hebraeis⟧ mulieribus obstetricando in ipso enixu
+Exod.1.16	base-only	reading	si	1738: ft	1750,1726,ws	mulieribus obstetricando in ipso enixu ⟦si⟧ animadverterent mares esse necarent sin
+Exod.1.16	base-only	reading	sin	1738: in	1750,1726,ws	si animadverterent mares esse necarent ⟦sin⟧ feminas conservarent
+Exod.1.17	base-only	division	puerosque	1738: pueros que	1750,1726,ws	regi dicto audientes non erant ⟦puerosque⟧ conservabant
+Exod.1.18	base-only	reading	Cumque	1738: Quumquc | 1750: Quumque	1726,ws	⟦Cumque⟧ eas evocasset rex Aegypti et
+Exod.1.18	base-only	division	conservarent	1738: conferua rent	1750,1726,ws	eis quaesivisset cur ita pueros ⟦conservarent⟧
+Exod.1.19	base-only	reading	et Aegyptias	1738: ct xgyptias	1726,ws	multum differre inter Hebraeas mulieres ⟦et Aegyptias⟧ illas enim vividas esse et
+Exod.1.20	base-only	division	multumque	1738: multum que	1750,1726,ws	obstetricibus benefecit et populus crescebat ⟦multumque⟧ invalescebat
+Exod.1.21	base-only	reading	fiebat	1738: flebat	1750,1726,ws	atque ita ⟦fiebat⟧ ut eis Deus per illam
+Exod.1.21	base-only	reading	pietatem familias	1738: fc pietatemffamilias	1726,ws	eis Deus per illam obstetricum ⟦pietatem familias⟧ pararet
+Exod.1.22	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ imperavit Pharao omni suo populo
+Exod.1.22	base-only	division	ut omnes	1738: vtomnes	1750,1726,ws	imperavit Pharao omni suo populo ⟦ut omnes⟧ Hebraeorum mares natos in flumen
+Exod.1.22	base-only	reading	flumen	1738: thimen | 1750: lumen	1726,ws	omnes Hebraeorum mares natos in ⟦flumen⟧ deicerent ac feminas conservarent
+Exod.2.1	base-only	reading		1738: I w	1750,1726,ws	familia Levitica uxorem item Leviticam ⟦⟧ duxerat
+Exod.2.2	base-only	reading		1738: progeniem	1750,1726,ws	ex eo peperisset et elegantem ⟦⟧ esse videret occultum habuit tres
+Exod.2.2	base-only	reading	occultum habuit tres	1738: occultuni hahuit ties	1726,ws	peperisset et elegantem esse videret ⟦occultum habuit tres⟧ menses
+Exod.2.3	base-only	division	sumit cistam	1738: fumitciftam	1726,ws	quum amplius occultare non posset ⟦sumit cistam⟧ junceam quam bitumine et pice
+Exod.2.3	base-only	reading	puerum	1738: pueruni	1750,1726,ws	oblinit et positum in ea ⟦puerum⟧ in papyro ad ripam fluminis
+Exod.2.5	base-only	reading	fluvium	1738: minium	1750,1726,ws	Tum Pharaonis filia quae in ⟦fluvium⟧ ad lavandum descenderat pedisse quis
+Exod.2.5	correct	division	pedisse quis	1738,1726: pedisfequis | 1750: pediffequuis	ws	in fluvium ad lavandum descenderat ⟦pedisse quis⟧ ejus secundum flumen ambulantibus conspicata
+Exod.2.5	base-only	reading	mittit ancillam quae eam	1738: mittitancillam qux earn	1726,ws	ambulantibus conspicata cistam inter papyrum ⟦mittit ancillam quae eam⟧ petat
+Exod.2.6	base-only	reading	vagientem	1738: vagien tern	1726,ws	Aperta cista videt infantem ⟦vagientem⟧ ejusque miserta dicit eum ex
+Exod.2.6	base-only	reading	Hebraeorum	1738: Ebrarorum	1750,1726,ws	miserta dicit eum ex pueris ⟦Hebraeorum⟧ esse
+Exod.2.7	base-only	spelling	quaerenti	1738: quae renti | 1750: quae D renti e renti	1726,ws	Ac ⟦quaerenti⟧ pueri sorori vellet ne ut
+Exod.2.7	correct	division	vellet ne	1738,1750: velletne	1726,ws	Ac quaerenti pueri sorori ⟦vellet ne⟧ ut ei accerseret mulierem nutricem
+Exod.2.7	correct	spelling	accerseret	1738,1750: arcesferet	1726,ws	sorori vellet ne ut ei ⟦accerseret⟧ mulierem nutricem de Hebraeis quae
+Exod.2.8	base-only	reading	puella	1738: pueila	1750,1726,ws	Permisit Igitur ⟦puella⟧ matrem pueri evocavit
+Exod.2.9	base-only	reading	illa	1738: ilia	1750,1726,ws	cui ⟦illa⟧ puerum sibi educandum et enutriendum
+Exod.2.9	base-only	reading	puerum	1738: pueruni	1750,1726,ws	enutriendum tradidit pollicita mercedem Mulier ⟦puerum⟧ accepit eumque nutrivit
+Exod.2.10	base-only	division	grandiusculum	1738: grandius culum | 1750: gr ndiusculum	1726,ws	jamque factum ⟦grandiusculum⟧ ad filiam Pharaonis adduxit quae
+Exod.2.10	base-only	reading	quae	1738: qux	1750,1726,ws	grandiusculum ad filiam Pharaonis adduxit ⟦quae⟧ eum habuit pro filio et
+Exod.2.10	base-only	reading	nominavit	1738: noininauit	1750,1726,ws	habuit pro filio et Mosem ⟦nominavit⟧ quod eum extraxisset ex aqua
+Exod.2.11	base-only	reading	Moses	1738: Mo n fes	1750,1726,ws	Quodam autem tempore ⟦Moses⟧ ut ex pueris excessit agnatos
+Exod.2.11	base-only	spelling	quum vidisset	1738: quumvidisfet	1750,1726,ws	suos inviserat eorumque cognitis oneribus ⟦quum vidisset⟧ Aegyptium quendam qui Hebraeum unum
+Exod.2.11	correct	spelling	quendam	1738,1750: quemdam	1726,ws	cognitis oneribus quum vidisset Aegyptium ⟦quendam⟧ qui Hebraeum unum de agnatis
+Exod.2.11	base-only	reading	Hebraeum	1738: Ebneum	1750,1726,ws	quum vidisset Aegyptium quendam qui ⟦Hebraeum⟧ unum de agnatis suis caedebat
+Exod.2.12	base-only	reading	neminem	1738: neminera	1750,1726,ws	huc illucque circumspexit et quum ⟦neminem⟧ adesse videret Aegyptum occidit et
+Exod.2.12	correct	reading	Aegyptum	1738,1726: Aegyptium	ws	et quum neminem adesse videret ⟦Aegyptum⟧ occidit et arena obruit
+Exod.2.13	base-only	division	se contendentes et ex	1738: fecontendentes etex	1750,1726,ws	egressus videt duos Hebraeos inter ⟦se contendentes et ex⟧ eo qui alteri faciebat injuriam
+Exod.2.14	base-only	reading	et judicem	1738: etiudicem	1750,1726,ws	quis te nobis principem inquit ⟦et judicem⟧ constituit an istud dicis quo
+Exod.2.15	base-only	reading	Hic	1738: Hie	1750,1726,ws	⟦Hic⟧ Moses territus ubi rem cognitam
+Exod.2.15	base-only	reading		1738: i	1750,1726,ws	Hic Moses territus ⟦⟧ ubi rem cognitam esse intellexit
+Exod.2.15	base-only	reading		1738: D Ibi S EXODVS Cap i	1750,1726,ws	consuluit et in Madianitis consedit ⟦⟧ Ibi eo ad puteum sedente
+Exod.2.16	base-only	reading	pontificis	1738: pontihcis	1750,1726,ws	filiae ⟦pontificis⟧ Madianitarum quas ille septem habebat
+Exod.2.16	base-only	reading	hausta aqua alveos impleverunt ut paternum	1738: hauftaaqua alueosimpleuerunt vtpaI urnum	1726,ws	septem habebat eo venerunt et ⟦hausta aqua alveos impleverunt ut paternum⟧ pecus adaquarent
+Exod.2.17	base-only	reading	earum pecus	1738: Igearum pccus	1750,1726,ws	surrexit Moses et eas tutatus ⟦earum pecus⟧ adaquavit
+Exod.2.18	base-only	reading	Tum illae Raguelem	1738: Turn ilIx Ragnelem	1750,1726,ws	⟦Tum illae Raguelem⟧ patrem suum adeunt et quaerenti
+Exod.2.18	base-only	reading	ratione	1738: raiione	1750,1726,ws	suum adeunt et quaerenti qua ⟦ratione⟧ eo die tam cito venerint
+Exod.2.18	base-only	reading	tam	1738: tarn	1750,1726,ws	quaerenti qua ratione eo die ⟦tam⟧ cito venerint
+Exod.2.19	base-only	reading	Aegyptio	1738: Aegytio	1750,1726,ws	respondent se ab ⟦Aegyptio⟧ quodam ab injuria pastorum esse
+Exod.2.19	base-only	reading	pastorum	1738: paftornm	1750,1726,ws	ab Aegyptio quodam ab injuria ⟦pastorum⟧ esse defensasm qui etiam ipsis
+Exod.2.19	correct	reading	defensasm	1738,1750,1726: defenfas	ws	quodam ab injuria pastorum esse ⟦defensasm⟧ qui etiam ipsis aquam hauserit
+Exod.2.19	base-only	reading	adaquaverit	1738: adaquaaouerit	1726,ws	ipsis aquam hauserit et pecus ⟦adaquaverit⟧
+Exod.2.20	base-only	reading	cur hominem	1738: curhominem	1750,1726,ws	quaerit ex filiabus ubi sit ⟦cur hominem⟧ reliquerint jubetque ut eum accersant
+Exod.2.20	correct	spelling	accersant	1738,1726: arcesfant	ws	hominem reliquerint jubetque ut eum ⟦accersant⟧ quo cibum capiat
+Exod.2.20	base-only	reading		1738: ai | 1750: r	1726,ws	ut eum accersant quo cibum ⟦⟧ capiat
+Exod.2.21	base-only	reading	habitare	1738: haoitare	1750,1726,ws	Cum illo homine Mosi ⟦habitare⟧ placuit eique ille Sephoram filiam
+Exod.2.22	base-only	reading	quem	1738: quern	1750,1726,ws	ex qua filium sustulit ⟦quem⟧ Gersomum appellavit quia peregrinus esset
+Exod.2.22	base-only	reading	appellavit quia peregrinus	1738: adpellawit quiaperegrinus	1750,ws	qua filium sustulit quem Gersomum ⟦appellavit quia peregrinus⟧ esset in terra extranea G
+Exod.2.22	base-only	reading	extranea	1738: extranca	1750,1726,ws	quia peregrinus esset in terra ⟦extranea⟧ G L Item alterum quem
+Exod.2.22	base-only	reading	L	1738: 	ws	esset in terra extranea G ⟦L⟧ Item alterum quem Eliezerem nominavit
+Exod.2.22	base-only	reading	quem	1738: quern	1750,1726,ws	extranea G L Item alterum ⟦quem⟧ Eliezerem nominavit quod Deus patrius
+Exod.2.22	base-only	reading	subvenisset	1738: fubuenislet | 1750: fubueniílet	1726,ws	nominavit quod Deus patrius ei ⟦subvenisset⟧ eumque a Pharaonis injuria liberasset
+Exod.2.23	base-only	reading	Aegypti	1738: Acgypti	1750,1726,ws	Per id longi temporis spacium ⟦Aegypti⟧ rege mortuo Israelitae sub servitute
+Exod.2.23	base-only	reading	Israelitae	1738: Israelifx	1750,1726,ws	temporis spacium Aegypti rege mortuo ⟦Israelitae⟧ sub servitute gementes conquerebantur Horum
+Exod.2.23	base-only	reading	servitute	1738: feruiture	1750,1726,ws	Aegypti rege mortuo Israelitae sub ⟦servitute⟧ gementes conquerebantur Horum querimoniae quas
+Exod.2.23	base-only	reading	conquerebantur	1738: conqtiereban ur	1750,1726,ws	mortuo Israelitae sub servitute gementes ⟦conquerebantur⟧ Horum querimoniae quas servitus exprimebat
+Exod.2.24	base-only	reading	foederis	1738: icderis	1750,1726,ws	Deus eorum suspiria exaudivit recordatusque ⟦foederis⟧ quod ei cum Abrahamo Isaaco
+Exod.2.24	base-only	reading	Isaaco	1738: llaaco	1750,1726,ws	foederis quod ei cum Abrahamo ⟦Isaaco⟧ et Jacobo intercedebat
+Exod.2.24	base-only	reading	intercedebat	1738: intercedebar	1726,ws	cum Abrahamo Isaaco et Jacobo ⟦intercedebat⟧
+Exod.3.1	base-only	reading		1738: I | 1750: Aj	1726,ws	Quum enim Moses pasceret ⟦⟧ pecus Jethronis soceri sui sacerdotis
+Exod.3.1	base-only	reading	Jethronis	1738: Ieihronis	1750,1726,ws	Quum enim Moses pasceret pecus ⟦Jethronis⟧ soceri sui sacerdotis Madianitae eoque
+Exod.3.1	base-only	division	sacerdotis	1738: fa cerdotis	1750,1726,ws	pasceret pecus Jethronis soceri sui ⟦sacerdotis⟧ Madianitae eoque pecore post saltum
+Exod.3.1	base-only	reading	post	1738: pott	1750,1726,ws	sui sacerdotis Madianitae eoque pecore ⟦post⟧ saltum ducto venisset in divinum
+Exod.3.1	base-only	reading	montem	1738: niontem	1750,1726,ws	saltum ducto venisset in divinum ⟦montem⟧ Horebum
+Exod.3.2	base-only	reading	quem rubum	1738: quern rub m	1750,1726,ws	flamma ignis de medio rubo ⟦quem rubum⟧ igne ardere Moses neque tamen
+Exod.3.2	base-only	reading	tamen consumi	1738: Stamen coniumi	1750,1726,ws	rubum igne ardere Moses neque ⟦tamen consumi⟧ videns
+Exod.3.4	base-only	reading	Jova	1738: loua	1726,ws	Sed ubi vidit ⟦Jova⟧ eum ad spectandum accedere clamavit
+Exod.3.4	base-only	reading	spectandum	1738: fpeclandum	1750,1726,ws	ubi vidit Jova eum ad ⟦spectandum⟧ accedere clamavit ad eum Deus
+Exod.3.5	base-only	reading	huc appropinques	1738: hue adpropmqua	ws	Ne ⟦huc appropinques⟧ inquit detrahe tibi calceos de
+Exod.3.5	others	reading	appropinques	1750,1726: appropinqua	ws	Ne huc ⟦appropinques⟧ inquit detrahe tibi calceos de
+Exod.3.5	base-only	reading	stas sacra	1738: tu adftas facia	ws	pedibus nam locus in quo ⟦stas sacra⟧ terra est
+Exod.3.6	base-only	reading	Isaaci	1738: lfaaci	1750,1726,ws	patris inquit Deus Abrahami Deus ⟦Isaaci⟧ Deus Jacobi Hic cum Moses
+Exod.3.6	base-only	reading	Hic	1738: Hie	1750,1726,ws	Abrahami Deus Isaaci Deus Jacobi ⟦Hic⟧ cum Moses faciem suam abdidisset
+Exod.3.6	base-only	reading	abdidisset	1738: abscondisfec | 1750,1726: abfcondiffet	ws	Hic cum Moses faciem suam ⟦abdidisset⟧ Deum aspicere reformidans
+Exod.3.6	base-only	reading	aspicere reformidans	1738: adfpicere refornndans	1726,ws	Moses faciem suam abdidisset Deum ⟦aspicere reformidans⟧
+Exod.3.8	base-only	division	eripiendum	1738: eripien dum	1750,1726,ws	descendi ad eum ⟦eripiendum⟧ Ægyptiis et deducendum ex ea
+Exod.3.8	base-only	division	deducendum ex	1738: deducendumex	1750,1726,ws	ad eum eripiendum Ægyptiis et ⟦deducendum ex⟧ ea terra in terram bonam
+Exod.3.8	base-only	reading	lacte	1738: lacle	1750,1726,ws	bonam et amplam in terram ⟦lacte⟧ et melle affluentem in locum
+Exod.3.8	correct	spelling	affluentem	1738,1750: adfluentem	1726,ws	in terram lacte et melle ⟦affluentem⟧ in locum Chananæorum Hethæorum Amorræorum
+Exod.3.8	base-only	reading	Hethæorum	1738: Hettsorum | 1726: Hettaeorum	ws	melle affluentem in locum Chananæorum ⟦Hethæorum⟧ Amorræorum Pherezæorum Hevæorum et Jebusæorum
+Exod.3.8	base-only	reading	Pherezæorum Hevæorum	1738: Pherezxorum Heuxorum | 1750: Pherezacorum Heuacorum	ws	in locum Chananæorum Hethæorum Amorræorum ⟦Pherezæorum Hevæorum⟧ et Jebusæorum
+Exod.3.9	base-only	reading	Israelitarum	1738: Israclitarump	1726,ws	Quare hac ⟦Israelitarum⟧ imploratione accepta perspectaque violentia qua
+Exod.3.9	base-only	reading	perspectaque	1738: perfpeclaque	1750,1726,ws	Quare hac Israelitarum imploratione accepta ⟦perspectaque⟧ violentia qua ab Ægyptis urgentur
+Exod.3.9	base-only	reading	qua ab Ægyptis	1738: quaab Aegyptiis	ws	Israelitarum imploratione accepta perspectaque violentia ⟦qua ab Ægyptis⟧ urgentur
+Exod.3.10	base-only	reading	Pharaonem mittere	1738: Pharaoncm mit tere	1750,1726,ws	statui te ad ⟦Pharaonem mittere⟧ qui Israelitas meos ex Ægypto
+Exod.3.11	base-only	reading		1738: n	1750,1726,ws	Moses Nam quis ego sum ⟦⟧ inquit Deum alloquens ut Pharaonem
+Exod.3.11	correct	spelling	alloquens	1738,1750: adloquens	1726,ws	quis ego sum inquit Deum ⟦alloquens⟧ ut Pharaonem adeam utque Israelitas
+Exod.3.12	base-only	division	me te	1738: mete	1750,1726,ws	atque hoc erit signi a ⟦me te⟧ esse missum quod posteaquam populum
+Exod.3.12	base-only	reading	missum	1738: nusfum	1726,ws	signi a me te esse ⟦missum⟧ quod posteaquam populum ex Ægypto
+Exod.3.12	correct	reading	colatis	1738,1726: coletis | 1750: coletiss	ws	Deum hoc ipso in monte ⟦colatis⟧
+Exod.3.13	base-only	reading	Hic	1738: Hie	1750,1726,ws	⟦Hic⟧ Moses Esto inquit Deo venero
+Exod.3.13	correct	reading	dicero	1738,1750,1726: dixero	ws	inquit Deo venero ad Israelitas ⟦dicero⟧ me ab eorum Deo patrio
+Exod.3.13	base-only	reading	Hic	1738: hie	1750,1726,ws	quærent quod sit ejus nomen ⟦Hic⟧ ego quid illis respondeam
+Exod.3.14	base-only	reading		1738: i	1750,1726,ws	Cui Deus Ero qui ero ⟦⟧ inquit Dices Israelitis Ero mittit
+Exod.3.15	base-only	division	Israelitis	1738: Israeli tis	1750,1726,ws	Sic dices ⟦Israelitis⟧ inquit porro Mosi Deus te
+Exod.3.15	base-only	reading	te a Jova	1738: tea loua	1726,ws	Israelitis inquit porro Mosi Deus ⟦te a Jova⟧ Deo patrum ipsorum Deo Abrahami
+Exod.3.15	base-only	reading	patrum	1738: pacrum	1750,1726,ws	Deus te a Jova Deo ⟦patrum⟧ ipsorum Deo Abrahami Deo Isaaci
+Exod.3.15	base-only	reading	Isaaci Deo Jacobi ad eos mitti Hoc meum	1738: lfaaci Deolacobiadeos miui Hocmeum	1726,ws	patrum ipsorum Deo Abrahami Deo ⟦Isaaci Deo Jacobi ad eos mitti Hoc meum⟧ nomen sempiternum hoc mei in
+Exod.3.15	base-only	reading		1738: Cap E X O D V S men	1750,1726,ws	eos mitti Hoc meum nomen ⟦⟧ sempiternum hoc mei in omnem
+Exod.3.15	base-only	reading	monumentum	1738: monurnen turn | 1750: monumen tum | 1726: monimentum	ws	hoc mei in omnem æternitatem ⟦monumentum⟧ est
+Exod.3.16	base-only	reading	dicito	1738: diciro | 1726: dicit	1750,ws	I modo convocatisque Israelitarum senatoribus ⟦dicito⟧ Jovam Deum eorum patrium apparuisse
+Exod.3.16	base-only	reading	Deum eorum	1738: Deuni eoriim	1750,1726,ws	convocatisque Israelitarum senatoribus dicito Jovam ⟦Deum eorum⟧ patrium apparuisse tibi Deum Abrahami
+Exod.3.16	base-only	reading	apparuisse	1738: adparnisfe	1750,1726,ws	dicito Jovam Deum eorum patrium ⟦apparuisse⟧ tibi Deum Abrahami Isaaci et
+Exod.3.16	base-only	reading	Deum	1738: Deuni	1750,1726,ws	Deum eorum patrium apparuisse tibi ⟦Deum⟧ Abrahami Isaaci et Jacobi et
+Exod.3.16	base-only	reading	Isaaci et Jacobi	1738: lfaaci etlacobi	1750,1726,ws	patrium apparuisse tibi Deum Abrahami ⟦Isaaci et Jacobi⟧ et demonstravisse sese de eis
+Exod.3.16	base-only	reading	de eis et eorum	1738: deeis eteorum	1726,ws	et Jacobi et demonstravisse sese ⟦de eis et eorum⟧ conditione quam in Ægypto perpetiantur
+Exod.3.18	base-only	division	illis persuaseris	1738: illisperfuaferis	1750,ws	Postquam hoc ⟦illis persuaseris⟧ convenietis regem Ægypti tu una
+Exod.3.18	base-only	reading	regem	1738: regein	1750,1726,ws	Postquam hoc illis persuaseris convenietis ⟦regem⟧ Ægypti tu una cum senatoribus
+Exod.3.18	base-only	division	et ab	1738: etab	1750,1726,ws	tu una cum senatoribus Israelitis ⟦et ab⟧ eo petetis nomine Dei Hebræorum
+Exod.3.18	base-only	reading	Hebræorum	1738: Ebrxorum	1750,1726,ws	ab eo petetis nomine Dei ⟦Hebræorum⟧ in quem incideritis ut vos
+Exod.3.18	base-only	division	ut vos	1738: vtvos	1750,1726,ws	Dei Hebræorum in quem incideritis ⟦ut vos⟧ sinat tridui iter per deserta
+Exod.3.18	base-only	reading	Jovæ	1738: louse	1750,1726,ws	iter per deserta progredi et ⟦Jovæ⟧ Deo vestro sacrificare
+Exod.3.19	base-only	reading	permitturum	1738: permisfuruin | 1750: permifli r rum | 1726: permissurum	ws	Scio ego non ⟦permitturum⟧ Ægypti regem ut abeatis nisi
+Exod.3.19	base-only	reading		1738: to	1750,1726,ws	Ægypti regem ut abeatis nisi ⟦⟧ vi coactum
+Exod.3.20	base-only	division	eos editis	1738: eoseditis	1750,1726,ws	vim adhibebo Ægyptiosque tot inter ⟦eos editis⟧ portentis percutiam ut tandem vos
+Exod.3.20	base-only	reading		1738: ti	1750,1726,ws	editis portentis percutiam ut tandem ⟦⟧ vos dimittat
+Exod.3.21	correct	reading	disceditis	1738,1750,1726: discedetis	ws	Ac ne dum ⟦disceditis⟧ inanes discedatis ponam populum istum
+Exod.3.21	base-only	reading	istum	1738: iftvim	1750,1726,ws	disceditis inanes discedatis ponam populum ⟦istum⟧ in gratiam cum Ægyptiis
+Exod.3.22	correct	reading	muliere	1738,1726: mulieres	ws	ut ⟦muliere⟧ a suis vicinis et contubernalibus
+Exod.3.22	correct	reading	aurea	1738,1750: aurca	1726,ws	et contubernalibus mulieribus exorent vasa ⟦aurea⟧ et argentea atque vestem quæ
+Exod.3.22	base-only	spelling	quæ	1738: que	1750,1726,ws	aurea et argentea atque vestem ⟦quæ⟧ vos liberis vestris imponetis Ægyptumque
+Exod.4.1	correct	division	orationi	1738,1750: ora tioni	1726,ws	Tum Moses Quid si meae ⟦orationi⟧ fidem non habuerint negaverintque mihi
+Exod.4.1	base-only	division	negaverintque	1738: ne gauerintque	1750,1726,ws	meae orationi fidem non habuerint ⟦negaverintque⟧ mihi apparuisse Jovam
+Exod.4.1	base-only	reading	apparuisse	1738: adparauisfe a	1750,1726,ws	fidem non habuerint negaverintque mihi ⟦apparuisse⟧ Jovam
+Exod.4.2	correct	reading	Jova	1738,1750: loua	1726,ws	Et ⟦Jova⟧ Quid habes in manu Virgam
+Exod.4.3	base-only	reading	eam	1738: earn	1750,1726,ws	Abjice ⟦eam⟧ ad terram Quumque abjecisset mutata
+Exod.4.3	base-only	reading	Quumque	1738: Qmunque | 1726: Cumque	1750,ws	Abjice eam ad terram ⟦Quumque⟧ abjecisset mutata est in serpentem
+Exod.4.4	base-only	reading	facta	1738: fac a	1750,1726,ws	caudam ejus quod quum fecisset ⟦facta⟧ virga est in ejus manu
+Exod.4.5	base-only	reading	inquit	1738: inquic	1750,1726,ws	Ut credant ⟦inquit⟧ Deus Jovam tibi Deum patrum
+Exod.4.6	base-only	reading	iterum immitte	1738: itertim iminitte	1726,ws	Age ⟦iterum immitte⟧ manum in sinum tuum quod
+Exod.4.6	correct	division	sinum	1738,1750: fi num	1726,ws	Age iterum immitte manum in ⟦sinum⟧ tuum quod ubi fecit eamque
+Exod.4.6	base-only	division	erat leprosa et nivi	1738: eratleprofa etniui	1750,1726,ws	quod ubi fecit eamque eduxit ⟦erat leprosa et nivi⟧ similis
+Exod.4.7	correct	reading	Deus	1738,1750,1726: Dei	ws	Iterumque ⟦Deus⟧ jussu relata in sinum et
+Exod.4.7	base-only	reading	relata	1738: reJata	1750,1726,ws	Iterumque Deus jussu ⟦relata⟧ in sinum et educta erat
+Exod.4.7	base-only	reading	sinum	1738: ft num	1726,ws	Iterumque Deus jussu relata in ⟦sinum⟧ et educta erat reliquo corpori
+Exod.4.7	base-only	reading	educta	1738: educla	1750,1726,ws	jussu relata in sinum et ⟦educta⟧ erat reliquo corpori similis reddita
+Exod.4.8	base-only	reading	Quod	1738: Qiiod	1750,1726,ws	⟦Quod⟧ si primo portento non adducerentur
+Exod.4.8	base-only	reading		1738: g	1750,1726,ws	Quod si primo ⟦⟧ portento non adducerentur ut tibi
+Exod.4.8	base-only	reading	fidem	1738: ridem	1750,1726,ws	portento non adducerentur ut tibi ⟦fidem⟧ habeant at adducentur altero
+Exod.4.9	base-only	reading	istis	1738: iftisj | 1726: 	1750,ws	Sin ne duobus quidem ⟦istis⟧ prodigiis fuerit eis persuasum sumes
+Exod.4.9	base-only	reading	eis	1738: cis	1750,1726,ws	duobus quidem istis prodigiis fuerit ⟦eis⟧ persuasum sumes aquam de flumine
+Exod.4.9	base-only	reading	flumine	1738: tiumine	1750,1726,ws	eis persuasum sumes aquam de ⟦flumine⟧ quam effundes in terram et
+Exod.4.10	base-only	reading	disertus	1738: di l fertus | 1750: di o fertus	1726,ws	Et Moses At ⟦disertus⟧ neque antea fui Domine inquit
+Exod.4.10	base-only	reading	traditate	1738: tarditate	1726,ws	es nam oris et linguae ⟦traditate⟧ laboro
+Exod.4.11	base-only	reading	Cui Jova	1738: CuiIoua U	1726,ws	⟦Cui Jova⟧ Ecquis dedit os homini inquit
+Exod.4.11	base-only	reading	aut	1738: aitt	1750,1726,ws	Ecquis dedit os homini inquit ⟦aut⟧ quis facit mutum aut surdum
+Exod.4.11	correct	reading	annon	1738,1726: an non	ws	surdum quis perspicacem aut caecum ⟦annon⟧ is ego Jova sum
+Exod.4.11	base-only	reading	Jova	1738: loua	1750,1726,ws	aut caecum annon is ego ⟦Jova⟧ sum
+Exod.4.12	base-only	division	ori moderabor	1738: orimoderabor	1750,1726,ws	I modo ego tuo ⟦ori moderabor⟧ tibique suggeram quid sis dicturus
+Exod.4.13	base-only	reading	Quaeso	1738: quxfo	1750,1726,ws	At ille ⟦Quaeso⟧ te Domine mitte idoneum aliquem
+Exod.4.14	base-only	reading	Tum Jova	1738: Turn loua	1750,1726,ws	⟦Tum Jova⟧ Mosi iratus Habes inquit fratrem
+Exod.4.14	base-only	division	inquit	1738: in quit	1750,1726,ws	Tum Jova Mosi iratus Habes ⟦inquit⟧ fratrem Aharonem Levitam quem ego
+Exod.4.15	correct	division	colloqueris	1738,1750: colloque ris	1726,ws	Cum eo tu ⟦colloqueris⟧ eumque verbis instrues ego vero
+Exod.4.15	base-only	reading	tuae	1738: tux	1750,1726,ws	verbis instrues ego vero et ⟦tuae⟧ et ejus orationi moderabor et
+Exod.4.15	base-only	reading	moderabor	1738: modcrabor	1750,1726,ws	et tuae et ejus orationi ⟦moderabor⟧ et quid vos facere oporteat
+Exod.4.16	base-only	reading	Ipse	1738: lpfe	1726,ws	⟦Ipse⟧ ad populum pro te verba
+Exod.4.17	correct	reading	quo	1738,1726: qua | 1750: aua	ws	Virgam quoque istam manu feres ⟦quo⟧ portenta facias
+Exod.4.18	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Moses inde digressus ad Jethronem
+Exod.4.18	base-only	reading		1738: g	1750,1726,ws	Tum Moses inde digressus ad ⟦⟧ Jethronem socerum suum reversus est
+Exod.4.19	base-only	reading	igitur	1738: igimr	1750,1726,ws	Moses ⟦igitur⟧ a Jova in Madiania admonitus
+Exod.4.19	base-only	reading	Jova	1738: loua	1750,1726,ws	Moses igitur a ⟦Jova⟧ in Madiania admonitus ut Aegyptum
+Exod.4.19	base-only	reading	admonitus	1738: D adino EXODVS Cap admonttus	1750,1726,ws	igitur a Jova in Madiania ⟦admonitus⟧ ut Aegyptum repeteret mortuos enim
+Exod.4.19	base-only	division	Aegyptum repeteret	1738: Aegyptumrepeteret	1750,ws	Jova in Madiania admonitus ut ⟦Aegyptum repeteret⟧ mortuos enim esse omnes illos
+Exod.4.19	base-only	reading	ejus vitam	1738: toeiusvkam	1750,1726,ws	enim esse omnes illos qui ⟦ejus vitam⟧ petebant
+Exod.4.20	base-only	division	suam adhibet et filios	1738: fuamadhibet etfilios	1726,ws	Uxorem ⟦suam adhibet et filios⟧ eisque in asinum illatis in
+Exod.4.20	base-only	reading	Aegyptum	1738: Aegyptuin	1750,1726,ws	eisque in asinum illatis in ⟦Aegyptum⟧ redire contendit divinam illam virgam
+Exod.4.20	base-only	reading	secum	1738: ai fecuni	1750,1726,ws	redire contendit divinam illam virgam ⟦secum⟧ ferens
+Exod.4.21	base-only	reading	Jova	1738: loua	1726,ws	Et a ⟦Jova⟧ hujusmodi verbis admonitus Quum redieris
+Exod.4.21	base-only	reading	redieris	1738: redicris | 1750: reRETINEO dieris	1726,ws	Jova hujusmodi verbis admonitus Quum ⟦redieris⟧ in Aegyptum videto ut omnia
+Exod.4.21	base-only	reading	Aegyptum	1738: Aegyptuin	1750,1726,ws	verbis admonitus Quum redieris in ⟦Aegyptum⟧ videto ut omnia ostenta quae
+Exod.4.21	base-only	reading	quae tibi ego in	1738: quxtibiegoin	1750,1726,ws	Aegyptum videto ut omnia ostenta ⟦quae tibi ego in⟧ manu posui apud Pharaonem edas
+Exod.4.22	base-only	reading	Jova	1738: loua | 1750: foua	1726,ws	vero hoc ei a me ⟦Jova⟧ referes filium meum primogenitum esse
+Exod.4.22	base-only	reading	filium	1738: filiura	1750,1726,ws	ei a me Jova referes ⟦filium⟧ meum primogenitum esse Israelem
+Exod.4.24	base-only	reading	Jova	1738: loua	1726,ws	In itinere autem in diversorio ⟦Jova⟧ eum petebat ad necem
+Exod.4.25	base-only	reading	praeputio	1738: ptaeputio	1750,1726,ws	filii sui praeputium circumcidit eoque ⟦praeputio⟧ illius pedibus admoto inquit At
+Exod.4.26	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Deus ab illo petendo destitit
+Exod.4.26	base-only	reading	illa	1738: iila	1750,1726,ws	illo petendo destitit Maritum autem ⟦illa⟧ sanguinarium dixit propter circumcisionem
+Exod.4.27	base-only	division	eumque	1738: eum que | 1750: gee	1726,ws	ei in monte divino occurrit ⟦eumque⟧ deosculatus est
+Exod.4.28	base-only	reading	illi	1738: iili	1750,1726,ws	Quumque Moses ⟦illi⟧ omnia Jovae mandata a quo
+Exod.4.28	base-only	reading	Jovae	1738: louse	1750,1726,ws	Quumque Moses illi omnia ⟦Jovae⟧ mandata a quo mittebatur omniaque
+Exod.4.28	base-only	reading	omniaque	1738: oraniaque	1750,1726,ws	Jovae mandata a quo mittebatur ⟦omniaque⟧ portenta quae edere jussus exposuisset
+Exod.4.28	base-only	reading		1738: ap	1750,1726,ws	a quo mittebatur omniaque portenta ⟦⟧ quae edere jussus exposuisset
+Exod.4.29	base-only	reading	omnibus senatoribus	1738: omni obusfenatoribus	1726,ws	Iverunt ambo congregatisque ⟦omnibus senatoribus⟧ Israelitis
+Exod.4.30	base-only	reading	quae Mosi Jova	1738: qua Mod loua	1750,1726,ws	Proposuit Aharon omnia ⟦quae Mosi Jova⟧ dixerat et Moses ostenta in
+Exod.4.30	base-only	division	ostenta in	1738: ostentain	1750,1726,ws	Mosi Jova dixerat et Moses ⟦ostenta in⟧ oculis populi fecit
+Exod.5.1	base-only	reading		1738: I	1750,1726,ws	Postea adeunt Moses et Aharon ⟦⟧ Pharaonem et cum eo sic
+Exod.5.1	base-only	reading	sic	1738: fie	1750,1726,ws	Aharon Pharaonem et cum eo ⟦sic⟧ agunt Jubet Jova Israelitarum Deus
+Exod.5.1	base-only	reading	Jova	1738: loua	1750,1726,ws	cum eo sic agunt Jubet ⟦Jova⟧ Israelitarum Deus ut populum suum
+Exod.5.1	base-only	reading	suum	1738: ftiuin	1750,1726,ws	Jova Israelitarum Deus ut populum ⟦suum⟧ dimittas ut ei festum agat
+Exod.5.2	base-only	reading	Quibus	1738: Qnibus	1750,1726,ws	⟦Quibus⟧ Pharao Quis est iste Jova
+Exod.5.2	base-only	reading	Quis est iste Jova	1738: quiseftifie loua	1750,1726,ws	Quibus Pharao ⟦Quis est iste Jova⟧ inquit ad cujus ego jussum
+Exod.5.2	base-only	reading	dimittam	1738: diuiittam	1750,1726,ws	ad cujus ego jussum Israelitas ⟦dimittam⟧ Ego vero neque Jovam novi
+Exod.5.2	base-only	reading	Jovam	1738: louara | 1750: louam	1726,ws	Israelitas dimittam Ego vero neque ⟦Jovam⟧ novi neque Israelitas dimittam
+Exod.5.3	base-only	division	ut liceat	1738: vtliceat	1750,1726	cujus nomine petimus a te ⟦ut liceat⟧ nobis trium dierum iter facere
+Exod.5.3	base-only	reading	Jovae	1738: Ioiicc	1726	iter facere in deserta et ⟦Jovae⟧ Deo nostro sacrificare ne nos
+Exod.5.3	base-only	reading	sacrificare	1738: facriiicare	1750,1726	deserta et Jovae Deo nostro ⟦sacrificare⟧ ne nos peste bellove petat
+Exod.5.4	base-only	division	ad munus	1738: admunus	1750,1726,ws	suo opere avocatis Ite ipsi ⟦ad munus⟧ vestrum
+Exod.5.5	base-only	reading	tam	1738: J tarn	1750,1726,ws	Qui mihi ⟦tam⟧ multos inquit incolas a suis
+Exod.5.6	base-only	division	ne deinceps	1738: nedeinceps	1750,1726,ws	die magistratibus et exactoribus populi ⟦ne deinceps⟧ paleam populo ad conficiendos lateres
+Exod.5.6	base-only	reading	conficiendos	1738: confieiendos	1750,1726,ws	ne deinceps paleam populo ad ⟦conficiendos⟧ lateres sicut antea suppeditarent
+Exod.5.6	base-only	division	sicut antea	1738: ficutantea	1750,1726,ws	paleam populo ad conficiendos lateres ⟦sicut antea⟧ suppeditarent
+Exod.5.8	base-only	reading	eandem summam	1738: eanidem fum mam	1726,ws	Et tamen ⟦eandem summam⟧ laterum quam praestare erant soliti
+Exod.5.8	base-only	reading	praestare	1738: prxftare	1750,1726,ws	tamen eandem summam laterum quam ⟦praestare⟧ erant soliti ab eis exigerent
+Exod.5.8	correct	reading	otiosus	1738,1750,1726: otiofos	ws	eo quicquam deonerarent esse enim ⟦otiosus⟧ eoque missionem ad sacrificium Deo
+Exod.5.9	base-only	reading	aggravandum	1738: adgrauandum o | 1750: adgrauandum	1726,ws	Quapropter opus ⟦aggravandum⟧ hominibus esse ut in eo
+Exod.5.9	base-only	reading	intendererent	1738: infenderent | 1750: intotenderent | 1726: intenderent	ws	occupati minus in verborum vanitatem ⟦intendererent⟧
+Exod.5.10	base-only	reading	praefecti	1738: praefecH | 1750: praefec et i	1726,ws	Igitur magistratus et ⟦praefecti⟧ homines adeunt demonstrant Pharaonem eis
+Exod.5.10	base-only	reading	palea suppeditationem	1738: paleaefuppeditationem | 1750: palcaefuppeIrditationem	ws	homines adeunt demonstrant Pharaonem eis ⟦palea suppeditationem⟧ denegare
+Exod.5.11	base-only	reading	peterent undecunque	1738: peterenr vndecumque	ws	Irent ipsi et paleam sibi ⟦peterent undecunque⟧ nancisci possent sese tamen de
+Exod.5.12	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ populus per universam Aegyptum dispersus
+Exod.5.12	base-only	reading	Aegyptum	1738: Aegyptuin	1750,1726,ws	Tum populus per universam ⟦Aegyptum⟧ dispersus est ad stipulas pro
+Exod.5.14	base-only	reading	praefecti	1738: praefe et i	1750,1726,ws	Ipsi quoque Israelitarum ⟦praefecti⟧ a Pharaonis magistratibus constituti verberabantur
+Exod.5.14	base-only	reading		1738: Cap e EXODVS eos	1726,ws	constituti verberabantur quod per eos ⟦⟧ dies solitam operis lateritii summam
+Exod.5.14	base-only	reading	lateritii	1738: lateririi	1750,1726,ws	per eos dies solitam operis ⟦lateritii⟧ summam non praestarent
+Exod.5.14	base-only	reading	praestarent	1738: prarftarent	1750,1726,ws	solitam operis lateritii summam non ⟦praestarent⟧
+Exod.5.15	base-only	reading	et	1738: er	1726,ws	Quare Pharaonem adeunt ⟦et⟧ cum eo de injuria expostulant
+Exod.5.15	base-only	reading	injuria expostulant	1738: iniwria expoftuiant	1750,1726,ws	adeunt et cum eo de ⟦injuria expostulant⟧
+Exod.5.16	base-only	reading	ministrati	1738: mini rrari | 1726: ministrari	ws	Sibi neque paleam ⟦ministrati⟧ et tamen laterum confectionem exigi
+Exod.5.16	base-only	reading	confectionem exigi ita illus	1738: l conteclionemexigi itaillius		paleam ministrati et tamen laterum ⟦confectionem exigi ita illus⟧ servos et populum verberari et
+Exod.5.16	others	reading	illus	1750,1726: illius		tamen laterum confectionem exigi ita ⟦illus⟧ servos et populum verberari et
+Exod.5.17	base-only	reading	Estis	1738: eihs | 1750: cftis	1726	Quibus Pharao ⟦Estis⟧ estis inquit otiosi propterea ad
+Exod.5.17	base-only	reading	ad Jovae	1738: adloux	1750,1726	Estis estis inquit otiosi propterea ⟦ad Jovae⟧ sacrificium ire postulatis
+Exod.5.18	base-only	reading	numerum praestabitis	1738: nunierum prxloftabitis	1726	vobis suggeretur et tamen laterum ⟦numerum praestabitis⟧
+Exod.5.19	base-only	reading	praefecti	1738: pratfecU	1750,1726	Ita Israelitarum ⟦praefecti⟧ vultu tristi Israelitis renuntiaverunt nihil
+Exod.5.19	correct	reading	quotidiane	1738,1750: quotidiano | 1726: cotidiano		nihil eis de laterum opere ⟦quotidiane⟧ detrahi Atque a Pharaone digressi
+Exod.5.19	base-only	reading	Pharaone	1738: Phaii raone	1726	opere quotidiane detrahi Atque a ⟦Pharaone⟧ digressi
+Exod.5.20	base-only	reading		1738: L	1750,1726	et Aharoni adversis occurrissent ita ⟦⟧ cum eis expostulant
+Exod.5.20	base-only	reading	expostulant	1738: expoftuiant	1750,1726	adversis occurrissent ita cum eis ⟦expostulant⟧
+Exod.5.21	base-only	reading	contestamur nos a	1738: contefiamur nosa	1726	Jovam vindicem ⟦contestamur nos a⟧ vobis in odium Pharaonis et
+Exod.5.22	base-only	reading	Tum	1738: Turn	1750,1726	⟦Tum⟧ Moses ad Jovam regressus ita
+Exod.5.22	correct	spelling	afficis	1738,1750: adficis	1726	Domine cur populum hunc malo ⟦afficis⟧ Cur me tandem misisti
+Exod.5.23	correct	reading	nomina	1738,1750,1726: nomine		Qui ex quo Pharaonem tuo ⟦nomina⟧ conveni eum ille pejus tractat
+Exod.5.23	base-only	reading	tractat	1738: tra tat	1750,1726	nomina conveni eum ille pejus ⟦tractat⟧ neque tu tuos liberas
+Exod.6.1	base-only	reading	Jova	1738: loua	1726,ws	Cui ⟦Jova⟧ Jam videbis inquit ut ego
+Exod.6.1	base-only	reading	coactus	1738: coa Srus	1750,1726	ego Pharaonem accipiam ut vi ⟦coactus⟧ eos non solum dimittat verum
+Exod.6.1	base-only	reading	finibus	1738: Hnibus	1750,1726	solum dimittat verum etiam suis ⟦finibus⟧ expellat
+Exod.6.3	base-only	division		1738: H		a ⟦⟧ qui Abrahamo qui Isaaco qui
+Exod.6.3	base-only	reading	Jacobo ut Deus	1738: lacobo vtDeus	1726	qui Abrahamo qui Isaaco qui ⟦Jacobo ut Deus⟧ omnipotens apparui Quibus tamen nomen
+Exod.6.3	base-only	spelling	apparui	1738: adparui	1750,1726	qui Jacobo ut Deus omnipotens ⟦apparui⟧ Quibus tamen nomen meum Jova
+Exod.6.3	base-only	reading	meum Jova	1738: meuniIouam	1726,ws	omnipotens apparui Quibus tamen nomen ⟦meum Jova⟧ non declaravi
+Exod.6.3	base-only	reading	declaravi	1738: decfaraui	1750,1726,ws	tamen nomen meum Jova non ⟦declaravi⟧
+Exod.6.4	base-only	reading	interposito foedere promisi Chananaeam	1738: interpolico fcedere promifiChananaram	1726,ws	Illis ⟦interposito foedere promisi Chananaeam⟧ qua in terra peregrini commorabantur
+Exod.6.4	base-only	reading	commorabantur	1738: com morabantur	1750,1726,ws	Chananaeam qua in terra peregrini ⟦commorabantur⟧
+Exod.6.5	base-only	reading	Aegyptiaca	1738: xgyptiaca	1750,1726,ws	modo foederis auditis Israelitarum de ⟦Aegyptiaca⟧ servitute querimoniis recordatus sum
+Exod.6.6	correct	division	Qua propter	1738,1750,1726: Quapropter	ws	⟦Qua propter⟧ haec a me Israelitis renuntiato
+Exod.6.6	base-only	reading		1738: Hcbraice nunum ftmulerim	1750,1726,ws	me Israelitis renuntiato me Jovam ⟦⟧ eos et Aegyptiorum oneribus esse
+Exod.6.6	base-only	reading	subducturum	1738: fubdu et urum	1726,ws	eos et Aegyptiorum oneribus esse ⟦subducturum⟧ et servitute liberaturum exertoque bracchio
+Exod.6.6	correct	spelling	exertoque bracchio	1738,1750: exfertoque brachio	ws	esse subducturum et servitute liberaturum ⟦exertoque bracchio⟧ et ingentibus exemplis afferturum
+Exod.6.7	base-only	spelling	asciturum	1738: adfciturum | 1750: adfiturum	1726,ws	Mihique populum ⟦asciturum⟧ et eis Deum futurum ut
+Exod.6.7	base-only	division	Deum futurum ut intelligant	1738: Deumfuturum vtintelligant	1750,1726,ws	Mihique populum asciturum et eis ⟦Deum futurum ut intelligant⟧ me Jovam suum esse Deum
+Exod.6.7	base-only	reading	Aegyptiis	1738: xgyptiis	1726,ws	esse Deum Qui eos oneribus ⟦Aegyptiis⟧ levaverim
+Exod.6.8	base-only	reading	terram	1738: terrain	1750,1726,ws	Ducturum etiam eos in ⟦terram⟧ quam Abrahamo Isacco et Jacobo
+Exod.6.8	others	reading	Isacco	1750,1726: Ifaaco	ws	eos in terram quam Abrahamo ⟦Isacco⟧ et Jacobo me daturum esse
+Exod.6.8	base-only	reading	Isacco et	1738: Ifaaco ct	ws	eos in terram quam Abrahamo ⟦Isacco et⟧ Jacobo me daturum esse promiserim
+Exod.6.8	base-only	reading	terrae	1738: terrx	1750,1726,ws	me daturum esse promiserim ejusque ⟦terrae⟧ possessionem eis esse traditurum Haec
+Exod.6.8	base-only	reading	traditurum Haec	1738: tiaditurum Hacc	1726,ws	ejusque terrae possessionem eis esse ⟦traditurum Haec⟧ ego Jova
+Exod.6.8	base-only	reading	Jova	1738: loua	1726,ws	eis esse traditurum Haec ego ⟦Jova⟧
+Exod.6.9	base-only	reading	Haec	1738: Hxc	1726,ws	⟦Haec⟧ Moses ad Israelitas ad eum
+Exod.6.9	base-only	reading	ad Israelitas	1738: adlsraelitas	1750,1726,ws	Haec Moses ⟦ad Israelitas⟧ ad eum modum detulit sed
+Exod.6.9	base-only	reading	illi	1738: ilii	1750,1726,ws	ad eum modum detulit sed ⟦illi⟧ in tanto angore animi et
+Exod.6.10	base-only	reading	Tum Jova	1738: Turn loua	1750,1726,ws	⟦Tum Jova⟧ Mosi mandavit
+Exod.6.11	base-only	division	Pharaonem Aegypti	1738: PharaonemAegy pti	1726	ut ⟦Pharaonem Aegypti⟧ regem adiret ab eoque peteret
+Exod.6.11	base-only	reading	ut Israelitas	1738: vtlsraelitas	1726	regem adiret ab eoque peteret ⟦ut Israelitas⟧ a suis finibus demitteret
+Exod.6.11	correct	reading	demitteret	1738,1750,1726: dimitteret		ut Israelitas a suis finibus ⟦demitteret⟧
+Exod.6.12	base-only	spelling	Israelitae	1738: Israelite	1750,1726,ws	Cui Moses Ipsi me ⟦Israelitae⟧ non audiunt inquit ne dum
+Exod.6.13	base-only	division	ad quos Jova	1738: adquos Io ua	1750,1726,ws	Israelitarum autem ⟦ad quos Jova⟧ et ad Pharaonem Mosi et
+Exod.6.13	base-only	reading	praecepta	1738: prxcepta	1750,1726,ws	ad Pharaonem Mosi et Aharoni ⟦praecepta⟧ de eis ex Aegypto educendis
+Exod.6.13	base-only	reading	capita sic	1738: ca r pita fie	1750,1726,ws	ex Aegypto educendis dedit familiarum ⟦capita sic⟧ se habent
+Exod.6.14	base-only	reading	Rubeninae	1738: rubenix	1726,ws	Phalus Hesron et Charmis hinc ⟦Rubeninae⟧ cognationes
+Exod.6.15	base-only	reading		1738: I	1750,1726,ws	Simeonis autem Jamuel Jamin ⟦⟧ Ohadus Jachin Sohar et ex
+Exod.6.15	correct	reading	Sohar	1738,1750: Sochar	1726,ws	autem Jamuel Jamin Ohadus Jachin ⟦Sohar⟧ et ex Chananaea generatus Saulus
+Exod.6.15	base-only	reading	Chananaea	1738: Chananxa	1750,1726,ws	Ohadus Jachin Sohar et ex ⟦Chananaea⟧ generatus Saulus a quibus ductae
+Exod.6.15	base-only	reading	ductae	1738: ductx	1750,1726,ws	Chananaea generatus Saulus a quibus ⟦ductae⟧ sunt Simeoniae cognationes
+Exod.6.15	base-only	reading	Simeoniae	1738: fimeonix	1726,ws	Saulus a quibus ductae sunt ⟦Simeoniae⟧ cognationes
+Exod.6.16	correct	reading	auctores Gersonam	1738,1750: autores Gerfonem	ws	Levis filios habuit totidem stirpium ⟦auctores Gersonam⟧ Cahathum et Merarim vixitque annos
+Exod.6.16	base-only	reading	septem	1738: feptera	1750,1726,ws	Merarim vixitque annos centum triginta ⟦septem⟧
+Exod.6.17	base-only	reading	Simeam auctores	1738: Simeim auclores | 1750: Sine auctoes | 1726: Simeim authores	ws	Gerson habuit Lebnim et ⟦Simeam auctores⟧ cognationum
+Exod.6.18	base-only	division	Amramum	1738: Am ramum	1750,1726,ws	Cahathus ⟦Amramum⟧ Isaarem Hebronem et Ozielem vixitque
+Exod.6.19	base-only	reading	natae	1738: natx	1750,1726,ws	Ex his Levitici generis cognationes ⟦natae⟧ sunt
+Exod.6.20	base-only	reading		1738: o E X O D V S Cap C L	1750,ws	Aharonem et Mosem G L ⟦⟧ et Mariam eorum sororem H
+Exod.6.20	base-only	reading	centum	1738: cenai turn | 1750: cenr tum	1726,ws	sororem H vixitque Amramus annos ⟦centum⟧ triginta septem
+Exod.6.20	base-only	reading	septem	1738: feptcin	1750,1726,ws	vixitque Amramus annos centum triginta ⟦septem⟧
+Exod.6.21	correct	reading	fuerunt	1738,1750,1726: fuere	ws	Isaaris filii ⟦fuerunt⟧ Cora Nephegus et Zechris
+Exod.6.22	base-only	reading	Ozielis	1738: aaOzielis	1750,1726,ws	⟦Ozielis⟧ autem Misael Elsaphan et Sethris
+Exod.6.22	base-only	reading	Misael	1738: Mifeel	1750,1726,ws	Ozielis autem ⟦Misael⟧ Elsaphan et Sethris
+Exod.6.22	base-only	reading	Sethris	1738: Setheris	1726,ws	Ozielis autem Misael Elsaphan et ⟦Sethris⟧
+Exod.6.23	base-only	reading	habuit Elisabam	1738: habtiit Elifebam	ws	Aharon uxorem ⟦habuit Elisabam⟧ Amminadabi filiam Nahasoni sororem ex
+Exod.6.23	others	reading	Elisabam	1750,1726: Elifebam	ws	Aharon uxorem habuit ⟦Elisabam⟧ Amminadabi filiam Nahasoni sororem ex
+Exod.6.23	correct	reading	Nahasoni	1738,1750,1726: Nahafonis	ws	uxorem habuit Elisabam Amminadabi filiam ⟦Nahasoni⟧ sororem ex qua procreavit Nadabum
+Exod.6.23	base-only	reading	qua	1738: qaa	1750,1726,ws	Amminadabi filiam Nahasoni sororem ex ⟦qua⟧ procreavit Nadabum Abiu Eleazarum et
+Exod.6.23	correct	reading	Abiu	1738,1726: Abium	ws	sororem ex qua procreavit Nadabum ⟦Abiu⟧ Eleazarum et Ithamarum
+Exod.6.24	base-only	reading	Corae	1738: Corx	1750,1726,ws	⟦Corae⟧ filii fuerunt Assir Elcana et
+Exod.6.24	base-only	reading	Elcana	1738: Ekana	1750,1726,ws	Corae filii fuerunt Assir ⟦Elcana⟧ et Abiasaphus a quibus originem
+Exod.6.25	correct	reading	suscepit	1738,1726: fustulit | 1750: fus tulit	ws	Phutielis quam in matrimonio habebat ⟦suscepit⟧ Phineem Et haec quidem de
+Exod.6.25	base-only	reading		1738: at	1750,1726	in matrimonio habebat suscepit Phineem ⟦⟧ Et haec quidem de Leviticarum
+Exod.6.25	base-only	reading	haec	1738: hxc	1750,1726	matrimonio habebat suscepit Phineem Et ⟦haec⟧ quidem de Leviticarum familiarum capitibus
+Exod.6.25	base-only	reading	Leviticarum	1738: Ieuiticarum	1750,1726	Phineem Et haec quidem de ⟦Leviticarum⟧ familiarum capitibus atque auctoribus ex
+Exod.6.25	base-only	reading	auctoribus	1738: aucloribus | 1726: authoribus	1750	de Leviticarum familiarum capitibus atque ⟦auctoribus⟧ ex quibus Aaron et Moses
+Exod.6.25	correct	reading	Aaron	1738,1726: Aharon		capitibus atque auctoribus ex quibus ⟦Aaron⟧ et Moses orti sunt
+Exod.6.25	base-only	reading	orti sunt	1738: ayorti font	1750,1726	ex quibus Aaron et Moses ⟦orti sunt⟧
+Exod.6.26	base-only	reading	Jova	1738: loua	1726	Ii quibus mandatum a ⟦Jova⟧ est ut Israelitas cum suis
+Exod.6.26	base-only	reading	copiis	1738: co P s	1726	est ut Israelitas cum suis ⟦copiis⟧ ex Aegypto educerent
+Exod.6.27	base-only	reading	Israelitis	1738: Israeiitis | 1750: Ifraclitis	1726	cum Pharaone Aegypti rege de ⟦Israelitis⟧ ex Aegypto deportandis locuti sunt
+Exod.6.28	base-only	reading	Jova	1738: loua	1750,1726	Ac quo die ⟦Jova⟧ Mosi in Aegypto mandata dedit
+Exod.6.28	base-only	division	Aegypto	1738: Aegy pto	1750,1726,ws	quo die Jova Mosi in ⟦Aegypto⟧ mandata dedit
+Exod.6.30	others	reading	linguae	1750,1726: lingua		ei Moses respondit sibi qui ⟦linguae⟧ haesitaret Pharaonem non esse obtemperaturum
+Exod.6.30	base-only	reading	linguae haesitaret	1738: lingua hxfitaret		ei Moses respondit sibi qui ⟦linguae haesitaret⟧ Pharaonem non esse obtemperaturum
+Exod.7.1	base-only	reading	Aharon	1738: Ahag ron	1750,1726	ego te Pharaoni Deum efficio ⟦Aharon⟧ tibi frater tuus vates erit
+Exod.7.2	base-only	reading	praecepta	1738: prxcepta	1750,1726	ei omnia tibi a me ⟦praecepta⟧ eloqueris ipse ea ad Pharaonem
+Exod.7.2	base-only	division	ipse ea ad	1738: ipfeeaad	1726	tibi a me praecepta eloqueris ⟦ipse ea ad⟧ Pharaonem deferet ut Israelitas de
+Exod.7.4	base-only	reading	sic	1738: fie	1750,1726,ws	et miracula edam Ac ne ⟦sic⟧ quidem obtemperante vobis Pharaone afferam
+Exod.7.4	correct	spelling	afferam	1738,1750: adferam	1726,ws	sic quidem obtemperante vobis Pharaone ⟦afferam⟧ manum Aegypto measque ex Aegypto
+Exod.7.5	base-only	reading		1738: e	1750,1726,ws	Ut sciant me Jovam ⟦⟧ esse Aegyptii quum eis manum
+Exod.7.6	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Moses et Aaron Jovae praecepta
+Exod.7.6	correct	reading	Aaron	1738,1750,1726: Aharon	ws	Tum Moses et ⟦Aaron⟧ Jovae praecepta exsecuti sunt
+Exod.7.6	base-only	reading	praecepta	1738: J prxcepta	1750,1726,ws	Tum Moses et Aaron Jovae ⟦praecepta⟧ exsecuti sunt
+Exod.7.7	base-only	reading	aetatis	1738: xtatis	1750,1726,ws	annum ⟦aetatis⟧ agentes Moses octogesimum Aharon octogesimum
+Exod.7.7	base-only	reading	octogesimum	1738: odtogefimum | 1750: octogcfimüm	1726,ws	aetatis agentes Moses octogesimum Aharon ⟦octogesimum⟧ tertium tum quum Pharaonem convenerunt
+Exod.7.7	base-only	reading	tum	1738: turn	1750,1726,ws	Moses octogesimum Aharon octogesimum tertium ⟦tum⟧ quum Pharaonem convenerunt
+Exod.7.8	base-only	reading	Jova	1738: g loua	1750,1726,ws	Erat autem eis a ⟦Jova⟧ mandatum ut poposcisset Pharao miraculum
+Exod.7.8	correct	reading		1738,1726: fi	ws	eis a Jova mandatum ut ⟦⟧ poposcisset Pharao miraculum Aharon Mosis
+Exod.7.8	base-only	reading	miraculum	1738: miraailum	1750,1726,ws	Jova mandatum ut poposcisset Pharao ⟦miraculum⟧ Aharon Mosis jussu virgam suam
+Exod.7.8	base-only	reading	illum	1738: ilium	1750,1726,ws	Mosis jussu virgam suam ante ⟦illum⟧ abjiceret quae draco fieret
+Exod.7.8	base-only	reading	quae	1738: qux	1750,1726,ws	virgam suam ante illum abjiceret ⟦quae⟧ draco fieret
+Exod.7.9	base-only	reading		1738: p	1750,1726,ws	Igitur ⟦⟧ Pharaonem adierunt Moses et Aharon
+Exod.7.9	correct	form	adierunt	1738,1750,1726: adiuerunt	ws	Igitur Pharaonem ⟦adierunt⟧ Moses et Aharon Jovaeque praeceptum
+Exod.7.9	base-only	reading	Jovaeque praeceptum	1738: Iouxque prxceptum	1726,ws	Pharaonem adierunt Moses et Aharon ⟦Jovaeque praeceptum⟧ exsecuti sunt virgamque suam projecit
+Exod.7.9	correct	reading	Aaron	1738,1726: Aharon	ws	exsecuti sunt virgamque suam projecit ⟦Aaron⟧ ante Pharaonem et Pharaonios quae
+Exod.7.9	base-only	reading	quae	1738: qux	1750,1726,ws	Aaron ante Pharaonem et Pharaonios ⟦quae⟧ mutata est in draconem
+Exod.7.10	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Pharao sapientes etiam et praestigiatores
+Exod.7.10	base-only	reading	praestigiatores	1738: prxftigiatores	1750,1726,ws	Tum Pharao sapientes etiam et ⟦praestigiatores⟧ evocavit qui Aegyptii Magi suis
+Exod.7.10	base-only	reading	Aegyptii	1738: xgyptii	1750,1726,ws	etiam et praestigiatores evocavit qui ⟦Aegyptii⟧ Magi suis carminibus idem etiam
+Exod.7.11	base-only	reading	Abjectaeque	1738: abiedtxque	1726,ws	⟦Abjectaeque⟧ a singulis virgae in totidem
+Exod.7.11	base-only	reading	singulis virgae	1738: fingulisn virgx	1750,1726,ws	Abjectaeque a ⟦singulis virgae⟧ in totidem dracones evaserunt
+Exod.7.12	base-only	reading	Aaronis	1738: Aharo nis | 1750,1726: Aharonis	ws	Quas illorum virgas ⟦Aaronis⟧ virga devoravit
+Exod.7.13	base-only	reading	Hic	1738: Hie	1750,1726,ws	⟦Hic⟧ Pharao obfirmato animo eis non
+Exod.7.15	base-only	reading	fluminis	1738: miminis | 1750: flumini occurMY MY Y jd Cap f E X O Mes EC LM eR AU	1726,ws	eum mane eique ad ripam ⟦fluminis⟧ occurrens nam exibit ad aquas
+Exod.7.15	base-only	reading	quae	1738: qux	1750,1726,ws	exibit ad aquas et virgam ⟦quae⟧ in serpentem mutata est manu
+Exod.7.15	base-only	division	manu ferens	1738: manuferens	1750,1726,ws	quae in serpentem mutata est ⟦manu ferens⟧
+Exod.7.16	base-only	reading	te a Jova	1738: tea loua	1726,ws	Dicito ⟦te a Jova⟧ Deo Hebraeorum ad ipsum mitti
+Exod.7.16	base-only	reading	Hebraeorum	1738: Ebrxorum	1750,1726,ws	Dicito te a Jova Deo ⟦Hebraeorum⟧ ad ipsum mitti qui Jova
+Exod.7.16	base-only	reading	Jova	1738: loua	1750,1726,ws	Hebraeorum ad ipsum mitti qui ⟦Jova⟧ jubeat suum sibi populum ad
+Exod.7.16	base-only	reading	se	1738: fc	1750,1726,ws	jubeat suum sibi populum ad ⟦se⟧ in desertis colendum ab illo
+Exod.7.17	others	reading	nec	1750,1726: ne	ws	Quod si ⟦nec⟧ sic quidem parebit hoc ei
+Exod.7.17	base-only	reading	nec sic	1738: ne fie	ws	Quod si ⟦nec sic⟧ quidem parebit hoc ei a
+Exod.7.17	base-only	reading	intellecturum	1738: intellechirum	1750,1726,ws	ei a me renuntiabis eum ⟦intellecturum⟧ quid sit Jova quod quum
+Exod.7.17	base-only	reading	Jova	1738: loua	1726,ws	renuntiabis eum intellecturum quid sit ⟦Jova⟧ quod quum tu virga quam
+Exod.7.18	base-only	reading	enectis	1738: ig eneclis | 1750: eneclis	1726,ws	Ut ⟦enectis⟧ piscibus flumen ita puteat ut
+Exod.7.19	base-only	reading	Aaroni praecipito	1738: Aharo rti prxcipito	ws	Tu vero ⟦Aaroni praecipito⟧ inquit ut suam virgam capiat
+Exod.7.19	base-only	reading	Aegyptias	1738: xgyptias	1750,1726,ws	virgam capiat manumque ad aquas ⟦Aegyptias⟧ ad amnes ad flumina ad
+Exod.7.19	base-only	reading	amnes	1738: anines	1750,1726,ws	manumque ad aquas Aegyptias ad ⟦amnes⟧ ad flumina ad stagna ad
+Exod.7.19	base-only	reading	flumina	1738: Ihimina	1750,1726,ws	aquas Aegyptias ad amnes ad ⟦flumina⟧ ad stagna ad omnem denique
+Exod.7.19	base-only	reading	aquae multitudinem	1738: aqux multitu dinem tap F r A KJ U V O dinem	1750,1726,ws	ad stagna ad omnem denique ⟦aquae multitudinem⟧ intendat ut fiat sanguis qui
+Exod.7.19	base-only	reading	ligneis sit et	1738: aoligneis lit ct	1726,ws	per universam Aegyptum etiam in ⟦ligneis sit et⟧ saxeis vasis
+Exod.7.20	base-only	reading	Haec Jovae	1738: Hxc Ioux	1750,1726,ws	⟦Haec Jovae⟧ jussa quum Moses et Aaron
+Exod.7.20	correct	reading	Aaron	1738,1726: Aharon	ws	Jovae jussa quum Moses et ⟦Aaron⟧ fecissent quumque ille sublata virga
+Exod.7.20	base-only	division	quumque ille	1738: quumqueille	1750,ws	quum Moses et Aaron fecissent ⟦quumque ille⟧ sublata virga aquam fluminis ante
+Exod.7.20	base-only	division	virga aquam	1738: virgaaquam	1750,1726,ws	Aaron fecissent quumque ille sublata ⟦virga aquam⟧ fluminis ante oculos Pharaonis ejusque
+Exod.7.20	base-only	division	ante oculos	1738: anteoculos	1750,1726,ws	ille sublata virga aquam fluminis ⟦ante oculos⟧ Pharaonis ejusque asseclarum percussisset mutata
+Exod.7.20	base-only	reading	asseclarum	1738: adfedarum | 1750: afleclarum	1726,ws	fluminis ante oculos Pharaonis ejusque ⟦asseclarum⟧ percussisset mutata est omnis aqua
+Exod.7.20	base-only	reading	mutata	1738: nnitata	1750,1726,ws	oculos Pharaonis ejusque asseclarum percussisset ⟦mutata⟧ est omnis aqua fluminis in
+Exod.7.20	base-only	reading	fluminis	1738: Annual nis	1726,ws	percussisset mutata est omnis aqua ⟦fluminis⟧ in sanguinem
+Exod.7.21	base-only	reading	Mortuisque	1738: niortuisque	1750,1726,ws	⟦Mortuisque⟧ fluminis piscibus tantus extitit fetor
+Exod.7.21	base-only	reading	tantus extitit fetor	1738: tantusexftilitfcetor	1726,ws	Mortuisque fluminis piscibus ⟦tantus extitit fetor⟧ fluminis ut Aegyptii de ejus
+Exod.7.22	base-only	reading	Quod quum	1738: aaQyod qtnim	1750,1726,ws	⟦Quod quum⟧ idem Magi Aegyptii suis carminibus
+Exod.7.22	base-only	reading	suis carminibus effecissent	1738: fuiscarminibus eftecisfent	1726,ws	Quod quum idem Magi Aegyptii ⟦suis carminibus effecissent⟧ Pharao obdurato animo non paruit
+Exod.7.22	base-only	reading	animo	1738: aniuio	1750,1726,ws	suis carminibus effecissent Pharao obdurato ⟦animo⟧ non paruit sicut ante Jova
+Exod.7.22	base-only	reading		1738: l	1750,1726,ws	obdurato animo non paruit sicut ⟦⟧ ante Jova dixerat
+Exod.7.23	correct	form	repetivit	1738,1750,1726: repetiit	ws	Sed domum suam ⟦repetivit⟧ neque ei etiam rei animum
+Exod.7.23	base-only	reading		1738: a	1726,ws	repetivit neque ei etiam rei ⟦⟧ animum adjecit
+Exod.7.24	base-only	reading	effoderunt	1738: effbderunt | 1750: cffoderunt	1726,ws	circum flumen aquam ad potionem ⟦effoderunt⟧ quod de flumine bibere non
+Exod.7.25	base-only	reading		1738: r	1750,1726	Praeteritis septem diebus post ⟦⟧ ictum a Jova flumen
+Exod.7.25	base-only	reading	Jova	1738: loua	1750,1726	septem diebus post ictum a ⟦Jova⟧ flumen
+Exod.8.2	base-only	reading		1738: g	1750,1726,ws	est Jovam omnes ejus fines ⟦⟧ petiturum esse ranis
+Exod.8.3	base-only	division	furnos	1738: fur nos	1750,1726,ws	populi domos cubiculorum penetralia cubilia ⟦furnos⟧ mactras penetrarent
+Exod.8.4	base-only	division	subditos	1738: fub ditos | 1750: fubitos	1726,ws	et populum et omnes illi ⟦subditos⟧ pervaderent
+Exod.8.5	base-only	division	in fluvios	1738: influuios	1750,1726,ws	mandato ut manu virgam protenderet ⟦in fluvios⟧ flumina lacus quo nascerentur in
+Exod.8.5	base-only	reading	ranae	1738: ranx	1750,1726,ws	quo nascerentur in Aegypti solo ⟦ranae⟧
+Exod.8.6	base-only	reading	facto	1738: fadk	1750,1726,ws	Quo ⟦facto⟧ tot extitere ranae ut eis
+Exod.8.6	base-only	reading	extitere ranae	1738: exftitere ranx	1726,ws	Quo facto tot ⟦extitere ranae⟧ ut eis Aegypti solum coopertum
+Exod.8.7	correct	division	carminibus	1738,1750: car minibus	1726,ws	Quod idem ⟦carminibus⟧ imitati Magi ranas in Aegypti
+Exod.8.8	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Pharao Mosem et Aharonem evocat
+Exod.8.8	base-only	division	Aharonem evocat	1738: Aharonemeuocat	1750,1726,ws	Tum Pharao Mosem et ⟦Aharonem evocat⟧ hortaturque ut Jovam pro depellendis
+Exod.8.8	base-only	reading	populum	1738: popurum	1750,1726,ws	populo ranis deprecentur sese illi ⟦populum⟧ ad sacra Jovae facienda dimissurum
+Exod.8.8	base-only	reading	Jovae	1738: Ioux	1750,1726,ws	sese illi populum ad sacra ⟦Jovae⟧ facienda dimissurum
+Exod.8.9	correct	reading		1738,1750,1726: inquit	ws	Cui Moses Defini mihi tempus ⟦⟧ quando pro te tuisque et
+Exod.8.9	base-only	reading	a te tuisque	1738: atetuisqne	1750,1726,ws	tuisque et populo precer ut ⟦a te tuisque⟧ domibus ranae propulsentur ac tantum
+Exod.8.9	base-only	reading	ranae	1738: ranx	1750,1726,ws	ut a te tuisque domibus ⟦ranae⟧ propulsentur ac tantum in flumine
+Exod.8.10	base-only	reading	In	1738: Info	1750,1726,ws	⟦In⟧ crastinum inquit Et Moses Isto
+Exod.8.10	base-only	reading		1738: i	1750,1726,ws	In crastinum inquit Et Moses ⟦⟧ Isto modo fiet ut intelligas
+Exod.8.10	base-only	reading	Deum	1738: Deura	1750,1726,ws	modo fiet ut intelligas Jovam ⟦Deum⟧ nostrum incomparabilem esse
+Exod.8.11	base-only	reading	aflectis	1738: adfeclis | 1750: t affeclis | 1726: asseclis	ws	a te tuisque domibus et ⟦aflectis⟧ et populo ranæ sic ut
+Exod.8.11	base-only	reading	ranæ sic	1738: ranx fie	1750,1726,ws	domibus et aflectis et populo ⟦ranæ sic⟧ ut restent tantum in flumine
+Exod.8.12	base-only	reading	Moses	1738: Mofe i | 1750,1726: Mofe	ws	Ita ⟦Moses⟧ et Aharone et Pharone digressis
+Exod.8.12	correct	reading	et Pharone	1738,1726: a Pharaone	ws	Ita Moses et Aharone ⟦et Pharone⟧ digressis Moses Jovam exoravit de
+Exod.8.12	correct	reading	Pharoni	1738,1726: Pharaoni	ws	exoravit de ranis quas ille ⟦Pharoni⟧ immiserat
+Exod.8.13	others	reading	dosmesticatim	1750,1726: domefticatim	ws	Itaque illae ⟦dosmesticatim⟧ pagatim et per agros mortuae
+Exod.8.13	base-only	reading	mortuae	1738: mortux	1750,1726,ws	dosmesticatim pagatim et per agros ⟦mortuae⟧ sunt
+Exod.8.14	base-only	reading	cumulos coacervatae	1738: cumu los coaceruatx	1726,ws	Et in ⟦cumulos coacervatae⟧ ita ut feteret regio
+Exod.8.14	base-only	reading	feteret	1738: fceteret	1750,1726,ws	in cumulos coacervatae ita ut ⟦feteret⟧ regio
+Exod.8.15	base-only	reading	datam esse	1738: datamesfe jj	1726,ws	At Pharao ubi vidit ⟦datam esse⟧ respirationem animum obfirmavit nec illis
+Exod.8.15	base-only	reading	nec	1738: nee	1750,1726,ws	datam esse respirationem animum obfirmavit ⟦nec⟧ illis morem gessit sicut erat
+Exod.8.16	correct	reading	Jova	1738,1750: loua	1726,ws	cui porro mandatum erat a ⟦Jova⟧
+Exod.8.17	base-only	reading	porrecta terrae	1738: porre et a terrx	1750,1726,ws	Virgam manu prehendit eaque ⟦porrecta terrae⟧ pulverem percussit qua percussione omnis
+Exod.8.17	base-only	division	qua percussione	1738: quapercusfione	1750,1726,ws	eaque porrecta terrae pulverem percussit ⟦qua percussione⟧ omnis totius Aegyptiae terrae pulvis
+Exod.8.17	base-only	reading	Aegyptiae terrae	1738: xgyptix terrx	1750,1726,ws	percussit qua percussione omnis totius ⟦Aegyptiae terrae⟧ pulvis in pediculos conversus est
+Exod.8.17	base-only	reading	tum	1738: turn	1750,1726,ws	in pediculos conversus est quibus ⟦tum⟧ bipedes tum quadrupedes scatuerunt
+Exod.8.17	base-only	reading	tum	1738: turn	1750,1726,ws	conversus est quibus tum bipedes ⟦tum⟧ quadrupedes scatuerunt
+Exod.8.18	base-only	reading	tum	1738: turn	1750,1726,ws	carminibus imitari frustra tentavissent pediculis ⟦tum⟧ homines tum bestias infestantibus
+Exod.8.18	base-only	reading	tum	1738: turn	1750,1726,ws	frustra tentavissent pediculis tum homines ⟦tum⟧ bestias infestantibus
+Exod.8.19	base-only	reading		1738: ip	1726,ws	Apud ⟦⟧ Pharaonem confessi sunt digitum esse
+Exod.8.19	base-only	reading	occultavit	1738: occalluit | 1750: occult vit	1726,ws	digitum esse Dei sed ille ⟦occultavit⟧ animo neque illis auscultavit sicut
+Exod.8.19	base-only	reading	Jova praedixerat	1738: loua prxdixerat	1726,ws	neque illis auscultavit sicut fore ⟦Jova praedixerat⟧
+Exod.8.20	base-only	reading	surrexit Jovae	1738: furre ao ait Ioux	1726,ws	Mane Moses ubi primum ⟦surrexit Jovae⟧ jussu Pharaoni ad aquas sicut
+Exod.8.20	base-only	reading	Jova praedixerat	1738: loua prxdixerat	1726,ws	jussu Pharaoni ad aquas sicut ⟦Jova praedixerat⟧ egresso praesto fuit eique Jovae
+Exod.8.20	base-only	reading	praesto	1738: prxfto	1750,1726,ws	aquas sicut Jova praedixerat egresso ⟦praesto⟧ fuit eique Jovae mandatum exposuit
+Exod.8.20	base-only	reading	Jovae	1738: Ioux	1750,1726,ws	praedixerat egresso praesto fuit eique ⟦Jovae⟧ mandatum exposuit ut illius populum
+Exod.8.20	base-only	reading	illum	1738: ilium	1750,1726,ws	exposuit ut illius populum ad ⟦illum⟧ colendum dimitteret
+Exod.8.21	correct	division	Quodsi	1738,1726: Quod fi	ws	⟦Quodsi⟧ non dimitteret proposuit Jovam in
+Exod.8.21	base-only	reading		1738: at	1750,1726,ws	Quodsi non ⟦⟧ dimitteret proposuit Jovam in eum
+Exod.8.21	base-only	reading	proposuit Jovam	1738: propofuitrouam | 1750: ropofuit ouam	1726,ws	Quodsi non dimitteret ⟦proposuit Jovam⟧ in eum et in ejus
+Exod.8.21	base-only	spelling	asseclas	1738: adfeclas | 1750: clas	1726,ws	in eum et in ejus ⟦asseclas⟧ et populum et domos immissurum
+Exod.8.21	base-only	reading	insecta	1738: infecla	1750,1726,ws	et populum et domos immissurum ⟦insecta⟧ quibus et domus Aegyptiorum et
+Exod.8.21	base-only	reading		1738: quaiu z EXODVS Cap g o HI	1726,ws	domus Aegyptiorum et terra ipsa ⟦⟧ quam incolerent repleretur
+Exod.8.22	base-only	reading	tum	1738: turn	1726,ws	Ac ⟦tum⟧ Gossenem qua in terra Jovae
+Exod.8.22	base-only	division	populus maneret	1738: populusmaneret	1726,ws	Gossenem qua in terra Jovae ⟦populus maneret⟧ excepturum et ab insectis immunem
+Exod.8.22	base-only	reading	et ab insectis immunem	1738: etabin fec Us innnunem	1726,ws	terra Jovae populus maneret excepturum ⟦et ab insectis immunem⟧ esse facturum ut intelligeret Pharao
+Exod.8.22	base-only	reading	facturum	1738: faclurum	1726,ws	et ab insectis immunem esse ⟦facturum⟧ ut intelligeret Pharao quantus in
+Exod.8.22	base-only	reading	intelligeret	1738: intelligent	1726,ws	insectis immunem esse facturum ut ⟦intelligeret⟧ Pharao quantus in terris esset
+Exod.8.22	base-only	reading	terris	1738: terA ris	1726,ws	ut intelligeret Pharao quantus in ⟦terris⟧ esset Jova
+Exod.8.23	base-only	division	Qui tantum	1738: quitantum	1726,ws	⟦Qui tantum⟧ discrimen inter suum et illius
+Exod.8.23	base-only	reading	et	1738: ec	1726,ws	Qui tantum discrimen inter suum ⟦et⟧ illius populum posuisset Id autem
+Exod.8.23	base-only	reading	autem	1738: autera	1726,ws	et illius populum posuisset Id ⟦autem⟧ portentum fore postridie
+Exod.8.23	base-only	reading		1738: et	1726,ws	posuisset Id autem portentum fore ⟦⟧ postridie
+Exod.8.24	base-only	reading	insectorum	1738: infeCiorum	1726,ws	ita fecit Jova estque tanta ⟦insectorum⟧ vis immissa domui Pharaonis et
+Exod.8.24	base-only	reading	Pharaoniorum	1738: Pharaoniorurn	1726,ws	vis immissa domui Pharaonis et ⟦Pharaoniorum⟧ totique Aegypto ut ab eis
+Exod.8.25	base-only	division	sed iis	1738: fediis	1750,1726,ws	ut Deo suo irent sacrificatum ⟦sed iis⟧ in finibus
+Exod.8.26	base-only	reading	Jovae Deo suo facturos quae	1738: IouxDeo fuofa turos qiiae	1726,ws	non posse ea enim sacra ⟦Jovae Deo suo facturos quae⟧ detestarentur Aegyptii quae si in
+Exod.8.26	base-only	division	si in eorum praesentia facerent	1738: fiineorum praefentiafacerent	1726,ws	facturos quae detestarentur Aegyptii quae ⟦si in eorum praesentia facerent⟧ non posse quin ab illis
+Exod.8.26	base-only	reading	quin ab illis	1738: a quinabillis	1726,ws	eorum praesentia facerent non posse ⟦quin ab illis⟧ lapidarentur
+Exod.8.27	correct	reading	solitudine	1738,1726: folitudinem	ws	Sed tridui iter in ⟦solitudine⟧ progressos Jovae Deo suo sacrificaturos
+Exod.8.27	base-only	reading	esse	1738: esfc	1726,ws	progressos Jovae Deo suo sacrificaturos ⟦esse⟧ ut eis Jova mandaturus esset
+Exod.8.27	base-only	reading		1738: ag	1726,ws	Deo suo sacrificaturos esse ut ⟦⟧ eis Jova mandaturus esset
+Exod.8.28	base-only	reading	Ego vos dimittam	1738: egovosdimittam inquit	1726,ws	Et Pharao ⟦Ego vos dimittam⟧ ut Jovae Deo vestro sacrificetis
+Exod.8.28	base-only	reading	Jovae Deo vestro	1738: Ioux Deoveftro	1726,ws	Pharao Ego vos dimittam ut ⟦Jovae Deo vestro⟧ sacrificetis in desertis sed ea
+Exod.8.28	base-only	reading	procedatis	1738: process datis	1726,ws	sed ea lege ne longius ⟦procedatis⟧ Precamini pro me
+Exod.8.29	base-only	reading	exorabo	1738: exorabc | 1750: ex bo	1726,ws	ego a te digressus Jovam ⟦exorabo⟧ ut cras a te tuisque
+Exod.8.29	base-only	reading	cras	1738: eras	1726,ws	te digressus Jovam exorabo ut ⟦cras⟧ a te tuisque stipatoribus et
+Exod.8.29	base-only	reading	insecta	1738: infefta	1726,ws	te tuisque stipatoribus et populo ⟦insecta⟧ abigat verum ne tu nos
+Exod.8.29	base-only	division	permittendo	1738: permitten do	1726,ws	sacrificium Jovae faciendum ire non ⟦permittendo⟧
+Exod.8.30	base-only	division	precibus a	1738: precibusa	1750,1726,ws	Indeque digressus ⟦precibus a⟧ Jova obtinuit
+Exod.8.31	base-only	reading	insecta	1738: infecla | 1750: infe et ta	1726,ws	Ut ⟦insecta⟧ ab illis abigeret ne uno
+Exod.8.31	base-only	reading	relicto	1738: relievo	1750,1726,ws	illis abigeret ne uno quidem ⟦relicto⟧
+Exod.8.32	base-only	reading	tum	1738: turn	1750,1726,ws	Sed Pharao ⟦tum⟧ quoque populum pertinaci animo retinuit
+Exod.9.1	base-only	reading		1738: I	1726,ws	Itaque Moses jubente Jova eum ⟦⟧ Jovae Dei Hebraeorum nomine admonitum
+Exod.9.1	base-only	division	admonitum	1738: ad monitum	1750,1726,ws	eum Jovae Dei Hebraeorum nomine ⟦admonitum⟧ ivit ut illius populum ad
+Exod.9.1	base-only	reading	illum	1738: ilium	1726,ws	ivit ut illius populum ad ⟦illum⟧ colendum emitteret
+Exod.9.2	base-only	reading	emittendo	1738: emictendo	1750,1726,ws	Quod si de ⟦emittendo⟧ recusaret atque eos adhuc detineret
+Exod.9.2	base-only	division	atque	1738: at que	1726,ws	Quod si de emittendo recusaret ⟦atque⟧ eos adhuc detineret
+Exod.9.4	base-only	division	de Israelitico periturum	1738: deisraeliticoperiturum	1726,ws	discrimine ut nihil prorsus esset ⟦de Israelitico periturum⟧
+Exod.9.5	base-only	reading	eam	1738: earn | 1750: cami	1726,ws	Et quidem ad ⟦eam⟧ rem tempus a Jova constitui
+Exod.9.5	base-only	reading	tempus	1738: teinpus	1750,1726,ws	Et quidem ad eam rem ⟦tempus⟧ a Jova constitui postrerum diem
+Exod.9.5	base-only	reading	postrerum	1738: polterum | 1726: posterum	ws	rem tempus a Jova constitui ⟦postrerum⟧ diem
+Exod.9.6	base-only	reading	unum	1738: vnuin	1750,1726,ws	pecore Aegyptio de Israelitico ne ⟦unum⟧ quidem interiret
+Exod.9.6	base-only	reading	interiret	1738: internet	1726,ws	de Israelitico ne unum quidem ⟦interiret⟧
+Exod.9.7	base-only	division	tamen animo	1738: tamenanimo	1726,ws	ne unum quidem interisse obstinato ⟦tamen animo⟧ populum non dimisit
+Exod.9.8	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Jova Mosi et Aaroni jussit
+Exod.9.8	base-only	reading	Mosi	1738: Moli	1750,1726,ws	Tum Jova ⟦Mosi⟧ et Aaroni jussit ut favillam
+Exod.9.8	others	reading	Aaroni	1750,1726: Aharoni	ws	Tum Jova Mosi et ⟦Aaroni⟧ jussit ut favillam de calcaria
+Exod.9.8	base-only	reading	Aaroni jussit	1738: Aharoni ins fit	ws	Tum Jova Mosi et ⟦Aaroni jussit⟧ ut favillam de calcaria plenis
+Exod.9.8	correct	reading	vasis	1738,1726: volis	ws	ut favillam de calcaria plenis ⟦vasis⟧ sumerent quam Moses in aerem
+Exod.9.8	base-only	reading	praesente	1738: prxfente	1726,ws	sumerent quam Moses in aerem ⟦praesente⟧ Pharaone spargeret
+Exod.9.9	base-only	reading	tam	1738: tarn	1726,ws	pulverem per universam Aegyptum mutata ⟦tam⟧ homines quam bestias pustulis exulceraret
+Exod.9.9	base-only	reading	pustulis	1738: pufiulis	1726,ws	mutata tam homines quam bestias ⟦pustulis⟧ exulceraret
+Exod.9.10	base-only	reading	tum hominum tum	1738: turn hominumtum	1726,ws	Id quum fecissent ⟦tum hominum tum⟧ pecudum corpora pustularum ulceribus conspersa
+Exod.9.10	base-only	division	eousque	1738: eo vsque | 1726: cousque	ws	corpora pustularum ulceribus conspersa sunt ⟦eousque⟧
+Exod.9.11	base-only	reading		1738: II	1726,ws	Ut ne ⟦⟧ Magi quidem prae ulceribus quibus
+Exod.9.11	base-only	reading	quibus	1738: ouibus	1726,ws	ne Magi quidem prae ulceribus ⟦quibus⟧ non minus quam omnes Aegyptii
+Exod.9.11	base-only	spelling	afficiebantur	1738: adficiebantur	1726,ws	non minus quam omnes Aegyptii ⟦afficiebantur⟧ ante Mosen possent consistere
+Exod.9.11	correct	reading	Mosen	1738,1726: Mofem	ws	quam omnes Aegyptii afficiebantur ante ⟦Mosen⟧ possent consistere
+Exod.9.11	base-only	reading	consistere	1738: confiitere	1726,ws	Aegyptii afficiebantur ante Mosen possent ⟦consistere⟧
+Exod.9.12	base-only	reading		1738: it	1726,ws	Sed obstinavit ⟦⟧ Jova animum Pharaonis ut quemadmodum
+Exod.9.12	base-only	reading	Mosi	1738: Mom	1726,ws	Jova animum Pharaonis ut quemadmodum ⟦Mosi⟧ praedixerat non obtemperaret illis
+Exod.9.13	base-only	reading	Tum	1738: Turn	1726,ws	⟦Tum⟧ Jova Surgito cras mane inquit
+Exod.9.13	base-only	division	Surgito cras	1738: furgitocras	1750,1726,ws	Tum Jova ⟦Surgito cras⟧ mane inquit Mosi Pharaoni praesto
+Exod.9.13	base-only	reading	dicturus	1738: dichirus	1750,1726,ws	Pharaoni praesto futurus eique ita ⟦dicturus⟧ Haec tibi Jova Deus Hebraeorum
+Exod.9.13	base-only	reading	meum	1738: raeimi	1750,1726,ws	Deus Hebraeorum dicit dimitte populum ⟦meum⟧ ut mihi serviat
+Exod.9.13	base-only	reading	mihi	1738: mini	1750,1726,ws	dicit dimitte populum meum ut ⟦mihi⟧ serviat
+Exod.9.14	correct	reading		1738,1726: meos | 1750: mcos	ws	Alioquin nunc denique omnes ⟦⟧ impetus in tuum cor inque
+Exod.9.14	base-only	spelling	asseclas	1738: adfeclas | 1750: alfeclas	1726,ws	in tuum cor inque tuos ⟦asseclas⟧ et populum consumam ut intelligas
+Exod.9.14	base-only	reading	mihi	1738: mini	1750,1726,ws	consumam ut intelligas nullum esse ⟦mihi⟧ in omni orbe terrarum parem
+Exod.9.15	base-only	reading	ictos	1738: iclos | 1750: itos	1726,ws	quidem jam te tuosque peste ⟦ictos⟧ mea manu ex orbe terrarum
+Exod.9.16	base-only	reading	destinassem	1738: derhnasfem	1750,1726,ws	universo terrarum orbe praedicandum nominatim ⟦destinassem⟧
+Exod.9.17	base-only	reading	si etiamnum	1738: fiet iauanum	1750,1726,ws	Quod ⟦si etiamnum⟧ populum meum impedis neque amittis
+Exod.9.17	base-only	reading		1738: Cap io Exoav s I g neque	1726,ws	etiamnum populum meum impedis neque ⟦⟧ amittis sic habeto
+Exod.9.17	base-only	reading	sic	1738: fie	1726,ws	populum meum impedis neque amittis ⟦sic⟧ habeto
+Exod.9.18	base-only	reading	cras	1738: eras	1750,1726,ws	Me ⟦cras⟧ tantam esse vim grandinis pluturum
+Exod.9.18	base-only	division	adhuc in	1738: adhucin	1750,1726,ws	esse vim grandinis pluturum quanta ⟦adhuc in⟧ Aegypto post eam conditam nulla
+Exod.9.18	base-only	reading	post eam	1738: port earn	1750,1726,ws	pluturum quanta adhuc in Aegypto ⟦post eam⟧ conditam nulla fuit
+Exod.9.19	base-only	reading	tuum et	1738: tunmet	1750,1726,ws	Quamobrem mitte qui cogant pecus ⟦tuum et⟧ omnia quae sub dio habes
+Exod.9.19	base-only	reading	tum	1738: turn	1750,1726,ws	et homines et pecora quae ⟦tum⟧ sub dio deprehensa tectum non
+Exod.9.19	base-only	reading	oppressa interibunt Haec	1738: op opresfainteribunt Hxc	ws	deprehensa tectum non subierint grandine ⟦oppressa interibunt Haec⟧ Moses
+Exod.9.22	base-only	reading	Tum	1738: Turn	1726,ws	⟦Tum⟧ Mosem jussit Jova manum in
+Exod.9.24	base-only	reading	Emicantibus	1738: emieantibus	1750,1726,ws	⟦Emicantibus⟧ in terram fulguribus et inter
+Exod.9.24	base-only	reading	terram	1738: terrain	1750,1726,ws	Emicantibus in ⟦terram⟧ fulguribus et inter grandinem coruscantibus
+Exod.9.24	base-only	reading	effudit	1738: eftudit	1750,1726,ws	inter grandinem coruscantibus in Aegyptum ⟦effudit⟧ quanta post homines natos nulla
+Exod.9.24	base-only	reading	post	1738: port	1750,1726,ws	coruscantibus in Aegyptum effudit quanta ⟦post⟧ homines natos nulla in omni
+Exod.9.25	base-only	reading	terrestres	1738: terreitres	1750,1726,ws	dio erant contudit homines pecudes ⟦terrestres⟧ herbas omnes contrivit arboresque perfregit
+Exod.9.26	base-only	spelling	Israelitae	1738: Israelite	1750,1726,ws	Quum interea Gossen quam ⟦Israelitae⟧ partem tenebant expers grandinis fuerit
+Exod.9.27	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ vero Pharao convocatis Mose et
+Exod.9.27	base-only	reading	convocatis	1738: eonuocatis	1726,ws	Tum vero Pharao ⟦convocatis⟧ Mose et Aharone Nunc peccavi
+Exod.9.27	base-only	reading	facit aequitas	1738: facitarquitas	1750,1726,ws	Nunc peccavi inquit pro Jova ⟦facit aequitas⟧ contra me meosque iniquitas
+Exod.9.27	base-only	division	me meosque	1738: memeosque	1750,1726,ws	pro Jova facit aequitas contra ⟦me meosque⟧ iniquitas
+Exod.9.28	base-only	reading	ut tonare et grandinare	1738: vttonare etgrandinare	1726,ws	Deprecamini Jovam ⟦ut tonare et grandinare⟧ desinat ego vos sine ulla
+Exod.9.28	base-only	reading	sine	1738: line	1750,1726,ws	et grandinare desinat ego vos ⟦sine⟧ ulla mora dimittam
+Exod.9.29	base-only	reading	manus	1738: mantis	1726,ws	Simul ac ex urbe egressus ⟦manus⟧ ad Jovam protendero cessabunt fragores
+Exod.9.30	correct	division	Et si	1738,1726: Etfi	ws	⟦Et si⟧ satis compertum habeo te tuosque
+Exod.9.30	base-only	division	nondum	1738: non dum	1750,1726,ws	satis compertum habeo te tuosque ⟦nondum⟧ Jovam Deum revereri
+Exod.9.31	base-only	reading	afflicta sunt	1738: adflidVafunt	1726,ws	autem calamitate linum et hordeum ⟦afflicta sunt⟧ quod hoc adhuc in herba
+Exod.9.31	base-only	reading	herba erat	1738: jlherbaerat	1750,1726,ws	sunt quod hoc adhuc in ⟦herba erat⟧ illud siliquabatur
+Exod.9.32	base-only	reading	zea	1738: ea	1750,1726,ws	At triticum et ⟦zea⟧ non item quod erant tardiora
+Exod.9.32	base-only	division	quod erant	1738: quode rant	1750,1726,ws	triticum et zea non item ⟦quod erant⟧ tardiora
+Exod.9.33	base-only	reading	relicto	1738: reli et o	1750,1726,ws	Postquam Moses ⟦relicto⟧ Pharaone ex urbe egressus palmas
+Exod.9.35	base-only	division	obstinate	1738: ob ftinate	1726,ws	et Israelitas ⟦obstinate⟧ retinuit ut Jova per Mosen
+Exod.9.35	correct	reading	Mosen	1738,1726: Mofem	ws	obstinate retinuit ut Jova per ⟦Mosen⟧ praedixerat
+Exod.10.1	base-only	reading	inquit	1738: inqnit	1750,1726,ws	Tum Jova Mosi Adi ⟦inquit⟧ Pharaonem nam ego et ejus
+Exod.10.2	base-only	division	Aegyptios patraverim	1738: Aegyptiospatrauerim	1726,ws	nepotibus narretis quae ego in ⟦Aegyptios patraverim⟧ et quantis eos portentis infestaverim
+Exod.10.3	base-only	spelling	aggressi	1738: adgresfi	1726,ws	Ergo Pharaonem ⟦aggressi⟧ Moses et Aharon quaerunt ex
+Exod.10.3	base-only	reading	illum	1738: ilium	1726,ws	perneget dimittat illius populum ad ⟦illum⟧ colendum
+Exod.10.4	base-only	division	renuat	1738: re nuat	1750,1726,ws	Quod si ⟦renuat⟧ sciat illum postridie tot esse
+Exod.10.4	base-only	reading	illum	1738: ilium	1750,1726,ws	Quod si renuat sciat ⟦illum⟧ postridie tot esse locustas in
+Exod.10.4	base-only	reading	locustas	1738: iocuftas	1726,ws	sciat illum postridie tot esse ⟦locustas⟧ in ejus fines immissurum
+Exod.10.5	base-only	reading	obducta terra perspici non possit	1738: obduclater raperfpicinonposfit	1726,ws	Ut earum multitudine ⟦obducta terra perspici non possit⟧ quae quidem locustae residuum reliquiarum
+Exod.10.5	base-only	reading	illis	1738: iilis	1750,1726,ws	quidem locustae residuum reliquiarum quod ⟦illis⟧ a grandine relictum factum sit
+Exod.10.5	correct	reading	relictum	1738,1726: reliquum	ws	reliquiarum quod illis a grandine ⟦relictum⟧ factum sit omnesque in agris
+Exod.10.6	base-only	reading	Aegyptiorumque	1738: Aegypdorumque	1750,1726,ws	Ejusque et suorum omnium ⟦Aegyptiorumque⟧ domos completurae quale nihil ejus
+Exod.10.6	base-only	reading	completurae	1738: conipleturae	1750,1726,ws	et suorum omnium Aegyptiorumque domos ⟦completurae⟧ quale nihil ejus patres aut
+Exod.10.6	correct	division	Haec fatus	1738,1750: Haecfatus	1726,ws	majores ab omni memoria viderint ⟦Haec fatus⟧ Moses a Pharaone conversus discedebat
+Exod.10.7	base-only	reading	Hic	1738: Hie	1750,1726	⟦Hic⟧ Pharaonis asseclae Pharaonem sic alloquuntur
+Exod.10.7	base-only	reading	asseclae Pharaonem sic alloquuntur Quem	1738: adfeclx Phara onem fie adloquunttir quern	1726	Hic Pharaonis ⟦asseclae Pharaonem sic alloquuntur Quem⟧ ad finem nobis hic erit
+Exod.10.7	base-only	reading	hic	1738: hie	1750,1726	alloquuntur Quem ad finem nobis ⟦hic⟧ erit detrimento Dimitte homines ut
+Exod.10.7	base-only	reading	detrimento	1738: detriniento	1750,1726	ad finem nobis hic erit ⟦detrimento⟧ Dimitte homines ut Jovam Deum
+Exod.10.7	base-only	reading	periisse	1738: periisle	1726	Deum suum colant an nondum ⟦periisse⟧ Aegyptum sentis
+Exod.10.8	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Pharao Mose et Aarone revocatis
+Exod.10.8	base-only	reading	Aarone	1738: Aharone	1750,1726,ws	Tum Pharao Mose et ⟦Aarone⟧ revocatis Ite inquit colite Jovam
+Exod.10.8	base-only	reading	inquit colite	1738: inqmt coiite	1750,1726,ws	Mose et Aarone revocatis Ite ⟦inquit colite⟧ Jovam Deum vestrum Sed quinam
+Exod.10.8	base-only	division	Sed quinam	1738: Sedquinam	1750,1726,ws	inquit colite Jovam Deum vestrum ⟦Sed quinam⟧ sunt ituri et qui non
+Exod.10.9	base-only	reading	senibus	1738: feni bus E X O D V S Cap to It bus	1750,1726,ws	Cui Moses Cum juvenibus et ⟦senibus⟧ nostris inquit ibimus cum filiis
+Exod.10.9	base-only	reading	Jovae	1738: louse	1726,ws	maioribusque pecudibus ibimus quoniam festum ⟦Jovae⟧ sumus acturi
+Exod.10.9	base-only	reading	acturi	1738: acluri	1750,1726,ws	ibimus quoniam festum Jovae sumus ⟦acturi⟧
+Exod.10.10	base-only	reading	Jova	1738: loua	1750,1726,ws	At ille Ita vobis adsit ⟦Jova⟧ inquit ut ego vos cum
+Exod.10.10	base-only	reading	Jam jam latis perspicua	1738: Iamiamfatis perfpicuaeft veftra	ws	vos cum vestris parvulis dimittam ⟦Jam jam latis perspicua⟧ malitia
+Exod.10.11	base-only	reading	id flagitatis Tum eos a suo conspectu	1738: idflagitatis Tumeosafuoconfpechi	1726,ws	viri ad Jovae cultum postquam ⟦id flagitatis Tum eos a suo conspectu⟧ ejecit
+Exod.10.12	base-only	reading	Jova	1738: loua	1726,ws	At ⟦Jova⟧ Mosi jussit ut manum in
+Exod.10.12	base-only	reading	Aegyptiam	1738: aegyptiain | 1750: aegyptiara	1726,ws	jussit ut manum in terram ⟦Aegyptiam⟧ intenderet ad excitandas locustas quae
+Exod.10.12	correct	reading	Aegyptiam	1738,1750,1726: Aegyptum	ws	ad excitandas locustas quae per ⟦Aegyptiam⟧ nascerentur et omnes ejus regionis
+Exod.10.12	correct	division	grandinis	1738,1750: grandi nis	1726,ws	omnes ejus regionis herbas omnesque ⟦grandinis⟧ reliquias perederent
+Exod.10.13	base-only	reading	Jova Eurum in eam	1738: loua eurumin earn	1726,ws	virgam in Aegyptum porrexit excitavit ⟦Jova Eurum in eam⟧ regionem qui quum totum illum
+Exod.10.13	base-only	reading	illum	1738: ilium	1750,1726,ws	eam regionem qui quum totum ⟦illum⟧ diem noctemque flavisset primo mane
+Exod.10.13	base-only	reading	noctemque	1738: noftemque	1750,1726,ws	qui quum totum illum diem ⟦noctemque⟧ flavisset primo mane locustas invexit
+Exod.10.13	correct	division	primo	1738,1750: pri mo	1726,ws	totum illum diem noctemque flavisset ⟦primo⟧ mane locustas invexit
+Exod.10.14	correct	spelling	extitit	1738,1726: exftitit | 1750: exflitit	ws	Quarum tanta copia tota regione ⟦extitit⟧ atque in omnibus Aegypti finibus
+Exod.10.14	correct	spelling	unquam	1738,1750,1726: vmquam	ws	finibus consedit quanta neque antea ⟦unquam⟧ fuerat neque postea futura est
+Exod.10.14	base-only	reading	futura est	1738: futuI raeft	1726,ws	antea unquam fuerat neque postea ⟦futura est⟧
+Exod.10.15	base-only	reading	fructus	1738: fruchis	1750,1726,ws	omnes herbae terrestres omnesque arborum ⟦fructus⟧ quae reliqua grando fecerat consumpti
+Exod.10.16	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ vero Pharao Mosem et Aharonem
+Exod.10.16	correct	spelling	accersit	1738,1750,1726: arcesfit	ws	Pharao Mosem et Aharonem propere ⟦accersit⟧ Peccavi inquit in Jovam Deum
+Exod.10.17	base-only	reading	etiam	1738: ctiam	1750,1726,ws	Sed ignosce quaeso mihi ⟦etiam⟧ hoc peccatum et orate pro
+Exod.10.19	base-only	reading	sublatae	1738: fublatx	1750,1726,ws	vehementissimum convertit a quo vento ⟦sublatae⟧ locustae in mare rubrum abreptae
+Exod.10.19	base-only	reading	abreptae	1738: abrepts	1750,1726,ws	sublatae locustae in mare rubrum ⟦abreptae⟧ sunt ne una quidem in
+Exod.10.20	base-only	reading	sic	1738: fie	1750,1726,ws	Sed quum Pharao ne ⟦sic⟧ quidem ejus animum obfirmante Jova
+Exod.10.20	base-only	reading	obfirmante Jova	1738: obfirn ante fas I ua	1726,ws	ne sic quidem ejus animum ⟦obfirmante Jova⟧ Israelitas dimitteret
+Exod.10.21	base-only	reading	jubente Jova ut essent	1738: iubenteloua vtesfent	1750,1726,ws	Moses ⟦jubente Jova ut essent⟧ in Aegypto tenebrae etiam tactiles
+Exod.10.21	base-only	reading	tenebrae	1738: tenebrx	1750,1726,ws	Jova ut essent in Aegypto ⟦tenebrae⟧ etiam tactiles manum in caelum
+Exod.10.21	base-only	reading	tactiles	1738: tactiki	1750,1726,ws	essent in Aegypto tenebrae etiam ⟦tactiles⟧ manum in caelum porrexit
+Exod.10.22	base-only	reading	facto	1738: fac ro	1750,1726,ws	Quo ⟦facto⟧ tanta per omnem Aegyptum tenebrarum
+Exod.10.22	base-only	reading		1738: a	1750,1726,ws	Quo facto tanta ⟦⟧ per omnem Aegyptum tenebrarum caligo
+Exod.10.22	base-only	reading	omnem	1738: ornnem	1750,1726,ws	Quo facto tanta per ⟦omnem⟧ Aegyptum tenebrarum caligo per triduum
+Exod.10.22	correct	spelling	extitit	1738,1750,1726: exftitit	ws	Aegyptum tenebrarum caligo per triduum ⟦extitit⟧
+Exod.10.23	base-only	reading	Ut	1738: vtas	1750,1726,ws	⟦Ut⟧ toto illo triduo neminem hominem
+Exod.10.23	base-only	spelling	Israelitae	1738: Israelite	1750,1726,ws	se loco moverit quum interim ⟦Israelitae⟧ omnes lucem suis in sedibus
+Exod.10.24	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Pharao evocato Mose Ite cultum
+Exod.10.24	base-only	reading	Ite	1738: itez j	1750,1726,ws	Tum Pharao evocato Mose ⟦Ite⟧ cultum Jovae inquit etiam cum
+Exod.10.24	correct	reading	Jovae	1738,1750,1726: Iouam	ws	Pharao evocato Mose Ite cultum ⟦Jovae⟧ inquit etiam cum vestris parvulis
+Exod.10.24	base-only	division	relictis	1738: relic tis	1750,1726,ws	inquit etiam cum vestris parvulis ⟦relictis⟧ tantum maioribus minoribusque pecoribus
+Exod.10.25	base-only	reading	victimas et ea quae ad rem divinam	1738: vi climas etea quxad remdiuinam	1726,ws	Moses Imo et tu nobis ⟦victimas et ea quae ad rem divinam⟧ opus sunt suppeditabis quibus Jovae
+Exod.10.25	base-only	reading	Jovae	1738: loua	1750,1726,ws	divinam opus sunt suppeditabis quibus ⟦Jovae⟧ Deo nostro operemur
+Exod.10.26	base-only	reading	relicta	1738: relicla | 1750: rclicta	1726,ws	pecus nostrum ne ungula quidem ⟦relicta⟧ ducemus ex quo capiamus quae
+Exod.10.26	base-only	division	quo capiamus	1738: quocapiamus	1750,1726,ws	ungula quidem relicta ducemus ex ⟦quo capiamus⟧ quae ad rem divinam erunt
+Exod.10.26	base-only	reading	donec	1738: donee	1750,1726,ws	qua re simus Jovam culturi ⟦donec⟧ eo pervenerimus
+Exod.10.27	base-only	reading	Pharao Jova	1738: Pha rao loua	1726,ws	At ⟦Pharao Jova⟧ ei pertinaciam immittente ne illos
+Exod.10.28	base-only	reading	cave	1738: cane	1750,1726,ws	Facesse a me inquit ⟦cave⟧ ne posthac meum conspectum subeas
+Exod.10.28	base-only	reading	conspectum	1738: confpeclum	1750,1726,ws	inquit cave ne posthac meum ⟦conspectum⟧ subeas nam si feceris moriere
+Exod.10.29	base-only	reading	Ut dixisti	1738: vtdixifti zj	1726,ws	Et Moses ⟦Ut dixisti⟧ inquit posthac tuum conspectum numquam
+Exod.10.29	base-only	reading	conspectum	1738: confpectuni | 1750: confpeé et tum	1726,ws	Ut dixisti inquit posthac tuum ⟦conspectum⟧ numquam subibo
+Exod.11.1	base-only	reading	Jova	1738: loua	1750,1726,ws	Mosem autem praemonuerat ⟦Jova⟧ Pharaonem uno dumtaxat ei Aegyptiisque
+Exod.11.1	base-only	reading	Aegyptiisque	1738: Aegypriisque	1750,1726,ws	Jova Pharaonem uno dumtaxat ei ⟦Aegyptiisque⟧ insuper illato vulnere tandem eos
+Exod.11.1	base-only	reading	ejecturum	1738: eieclurum	1726,ws	omnino esse emissurum vel potius ⟦ejecturum⟧
+Exod.11.2	base-only	division	mandavit	1738: man dauit	1750,1726,ws	Eique propterea ⟦mandavit⟧ ut populum praemoneret a suo
+Exod.11.2	correct	reading	a	1738,1750,1726: 	ws	suo ut quisque et vir ⟦a⟧ vicino et femina a vicina
+Exod.11.3	base-only	division	populo benevolentiam	1738: populobe neuolentiam	1750,1726,ws	Ipsique ⟦populo benevolentiam⟧ Aegyptiorum conciliavit neque non Moses
+Exod.11.3	base-only	reading	tam	1738: tarn	1750,1726,ws	ipse vir erat in Aegypto ⟦tam⟧ Pharaoniorum quam populi existimatione maximus
+Exod.11.3	base-only	reading	maximus	1738: raaximus	1750,1726,ws	tam Pharaoniorum quam populi existimatione ⟦maximus⟧
+Exod.11.4	base-only	reading	mediam noctem	1738: median noclem	1750,1726,ws	Jovae mandata exposuit Jovam circa ⟦mediam noctem⟧ Aegyptios obiturum
+Exod.11.4	base-only	reading		1738: ouicuCap ii E X O D V S	1750,1726,ws	Jovam circa mediam noctem Aegyptios ⟦⟧ obiturum
+Exod.11.5	base-only	reading	ipsius	1738: ipfins	1750,1726,ws	primogenitos esse mortem obituros ab ⟦ipsius⟧ Pharaonis qui in solio sederet
+Exod.11.5	base-only	reading	nec	1738: nee	1750,1726,ws	servarum primogenitos quae molas truderent ⟦nec⟧ non omnium etiam pecorum
+Exod.11.6	base-only	reading	tumultum	1738: tumulturn	1726,ws	Ac majorem fore in Aegypto ⟦tumultum⟧ quam unquam vel antea fuisset
+Exod.11.6	base-only	reading	unquam vel antea fuisset	1738: vmquamveJ anteafuisj fet	ws	fore in Aegypto tumultum quam ⟦unquam vel antea fuisset⟧ vel postea futurus esset
+Exod.11.6	base-only	reading	futurus	1738: futunis	1750,1726,ws	vel antea fuisset vel postea ⟦futurus⟧ esset
+Exod.11.7	correct	reading	quantum Jova	1738,1750: quantam loua	ws	neque quadrupedum moveretur ut intelligerent ⟦quantum Jova⟧ differentiam statueret inter Aegyptios et
+Exod.11.7	base-only	reading	Israelitas	1738: Isgraelitas	1726,ws	differentiam statueret inter Aegyptios et ⟦Israelitas⟧
+Exod.11.8	base-only	reading	descensuri	1738: defcenruri	1750,1726,ws	isti omnes ad me sint ⟦descensuri⟧ et ut una cum omni
+Exod.11.8	base-only	reading	Tum	1738: turn	1750,1726,ws	mihi commendato exeam submisse rogaturi ⟦Tum⟧ demum exibo Simulque a Pharaone
+Exod.11.8	base-only	reading	Pharaone	1738: Fharaone	1750,1726,ws	Tum demum exibo Simulque a ⟦Pharaone⟧ iratus discessit
+Exod.11.8	base-only	reading		1738: p	1750,1726,ws	exibo Simulque a Pharaone iratus ⟦⟧ discessit
+Exod.11.9	base-only	reading	Jova	1738: loua	1750,1726,ws	Quoniam a ⟦Jova⟧ didicerat illum non esse obtemperaturum
+Exod.11.9	base-only	reading	illum	1738: ilium	1750,1726,ws	Quoniam a Jova didicerat ⟦illum⟧ non esse obtemperaturum quo plura
+Exod.11.9	base-only	reading	Jovae	1738: Ioiue | 1750: Fouae	1726,ws	non esse obtemperaturum quo plura ⟦Jovae⟧ prodigia fierent in Aegypto
+Exod.11.9	base-only	reading	fierent	1738: fieorent | 1750: fie rent	1726,ws	obtemperaturum quo plura Jovae prodigia ⟦fierent⟧ in Aegypto
+Exod.11.10	base-only	division	se et	1738: feet	1750,1726,ws	Quoniamque omnibus illis a ⟦se et⟧ ab Aarone editis in ejus
+Exod.11.10	others	reading	Aarone	1750,1726: Aharone	ws	illis a se et ab ⟦Aarone⟧ editis in ejus conspectu portentis
+Exod.11.10	base-only	reading	Aarone editis	1738: Aharoneeditis	ws	illis a se et ab ⟦Aarone editis⟧ in ejus conspectu portentis tamen
+Exod.11.10	base-only	reading	conspectu	1738: confpeciu | 1750: confpedu	1726,ws	ab Aarone editis in ejus ⟦conspectu⟧ portentis tamen comprimente ejus animum
+Exod.11.10	base-only	reading	Jova Israelitas de	1738: loua Israelitasde	1726,ws	portentis tamen comprimente ejus animum ⟦Jova Israelitas de⟧ suis finibus non emittebat
+Exod.11.10	base-only	reading	finibus	1738: tinibus	1750,1726,ws	animum Jova Israelitas de suis ⟦finibus⟧ non emittebat
+Exod.12.1	base-only	reading	oratione	1738: oral tione | 1750: oraEXOD V S tione	1726,ws	et Aharonem in Aegypto hac ⟦oratione⟧ usus est
+Exod.12.2	base-only	reading	Hic	1738: hie	1750,1726,ws	⟦Hic⟧ vobis mensis caput mensium id
+Exod.12.2	base-only	reading	mensis	1738: menu s	1750,1726,ws	Hic vobis ⟦mensis⟧ caput mensium id est primus
+Exod.12.3	base-only	reading	multitudine	1738: mukitudine	1750,1726,ws	Colloquimini cum omni Israelitarum ⟦multitudine⟧ ut hujus mensis die decimo
+Exod.12.3	base-only	reading	mensis	1738: menlis	1750,1726,ws	omni Israelitarum multitudine ut hujus ⟦mensis⟧ die decimo omnes patres familias
+Exod.12.3	base-only	division	patres familias agnos	1738: patresfamiliasagnos	ws	hujus mensis die decimo omnes ⟦patres familias agnos⟧ aut haedos mansionatim sumant
+Exod.12.4	others	division	pater familias	1750,1726: paterfamilias	ws	familia ad agnum non sufficiat ⟦pater familias⟧ vicinum eum qui erit domui
+Exod.12.5	base-only	division	intemeratus	1738: inte meratus	1750,1726,ws	Is agnus esto ⟦intemeratus⟧ mas annulus nec refert agnus
+Exod.12.5	base-only	reading	nec	1738: nee	1750,1726,ws	agnus esto intemeratus mas annulus ⟦nec⟧ refert agnus sit an haedus
+Exod.12.5	base-only	reading	haedus	1738: hardus	1750,1726,ws	nec refert agnus sit an ⟦haedus⟧
+Exod.12.6	base-only	reading	mactabitur	1738: maclabitur | 1750: macabitur	1726,ws	diem hujus mensis decimum quartum ⟦mactabitur⟧ ab omni Israelitarum civitatis multitudine
+Exod.12.7	correct	reading	conspersentur	1738,1726: confpergentur	ws	Tum ejus sanguine ⟦conspersentur⟧ postes ambo et superliminaria domorum
+Exod.12.8	base-only	reading	nocte comedetur igne tosta	1738: nocle com g edetur ignetofta	1750,1726,ws	Caro autem ea ⟦nocte comedetur igne tosta⟧ et panes sine fermento et
+Exod.12.9	base-only	division	aqua comeditote	1738: aquacomeditote	1750,1726,ws	ex eo crudum neve elixum ⟦aqua comeditote⟧ sed tantum igne tostum una
+Exod.12.9	base-only	division	cruribus et	1738: cruribuset	1750,1726,ws	igne tostum una cum capite ⟦cruribus et⟧ intestinis
+Exod.12.10	base-only	reading		1738: l	1750,1726,ws	Neu quid ⟦⟧ in posterum diem reliqui facitote
+Exod.12.10	base-only	reading	facitote	1738: fackote	1750,1726,ws	quid in posterum diem reliqui ⟦facitote⟧ ac si quid postridie reliqui
+Exod.12.10	correct	reading	igni	1738,1750: igne	1726,ws	si quid postridie reliqui fuerit ⟦igni⟧ cremabitis
+Exod.12.11	base-only	reading	autem	1738: au n tern | 1750: au tem	1726,ws	Comedetis ⟦autem⟧ hoc habitu succinctis lateribus calceatis
+Exod.12.11	base-only	reading	habitu succinctis	1738: habitn fuccind is	1750,1726,ws	Comedetis autem hoc ⟦habitu succinctis⟧ lateribus calceatis pedibus bacillos manibus
+Exod.12.11	base-only	reading	manibus tenentes	1738: manus tententes	1726,ws	succinctis lateribus calceatis pedibus bacillos ⟦manibus tenentes⟧ idque facietis trepidanter quoniam Jovae
+Exod.12.11	base-only	reading	Jovae transitus	1738: louve transitu	1726,ws	tenentes idque facietis trepidanter quoniam ⟦Jovae transitus⟧ est
+Exod.12.12	base-only	reading		1738: i	1726,ws	Ego ⟦⟧ vero transibo per Aegyptum illa
+Exod.12.12	base-only	reading	per Aegyptum illa nocte	1738: perAegyptum ilia nocle	1726,ws	Ego vero transibo ⟦per Aegyptum illa nocte⟧ et omnia Aegypti primogenita tam
+Exod.12.12	base-only	reading	tam	1738: tarn	1750,1726,ws	nocte et omnia Aegypti primogenita ⟦tam⟧ hominum quam pecudum interficiam deque
+Exod.12.12	base-only	reading	diis Jova	1738: diisloua	1726,ws	pecudum interficiam deque omnibus Aegyptiorum ⟦diis Jova⟧ ego poenas sumam
+Exod.12.12	base-only	reading	poenas	1738: pcenas	1750,1726,ws	omnibus Aegyptiorum diis Jova ego ⟦poenas⟧ sumam
+Exod.12.13	base-only	division	domus	1738: do mus | 1750: doImus	1726,ws	Ac animadverso sanguine quo ⟦domus⟧ in quibus eritis notatae erunt
+Exod.12.13	base-only	reading	notatae	1738: notatac	1750,1726,ws	quo domus in quibus eritis ⟦notatae⟧ erunt praeteribo vos neque perniciali
+Exod.12.13	base-only	reading	vulnere afficiemini	1738: vulneie adficiemini	ws	erunt praeteribo vos neque perniciali ⟦vulnere afficiemini⟧ me in Aegyptios grassante
+Exod.12.13	base-only	reading	grassante	1738: grasfanie	1726,ws	vulnere afficiemini me in Aegyptios ⟦grassante⟧
+Exod.12.14	others	reading	dici	1750,1726: diei	ws	Vos autem illius ⟦dici⟧ memoriam coletis eumque festum Jovae
+Exod.12.14	base-only	reading	dici memoriam	1738: dieimemoriara	ws	Vos autem illius ⟦dici memoriam⟧ coletis eumque festum Jovae celebrabitis
+Exod.12.14	base-only	reading	eumque festum Jovae	1738: eumquefeftum loue	1726,ws	autem illius dici memoriam coletis ⟦eumque festum Jovae⟧ celebrabitis et vestrae stirpi celebrandum
+Exod.12.14	base-only	reading	vestrae	1738: veftr	1750,1726,ws	eumque festum Jovae celebrabitis et ⟦vestrae⟧ stirpi celebrandum perenni religione prodetis
+Exod.12.15	base-only	reading	fermentatis panibus	1738: rermentatis pa ij nibus	1750,1726,ws	Septem dies non ⟦fermentatis panibus⟧ vescemini statimque primo illorum dierum
+Exod.12.15	base-only	reading	fermentatum	1738: fernientatum	1750,1726,ws	a primo ad septimum diem ⟦fermentatum⟧ gustaverit is de numero Israelitarum
+Exod.12.15	base-only	reading	numero	1738: nuinero	1750,1726,ws	diem fermentatum gustaverit is de ⟦numero⟧ Israelitarum tollatur
+Exod.12.16	base-only	reading		1738: i et	1750,1726,ws	Primo autem die ⟦⟧ itemque septimo sacrum conventum facietis
+Exod.12.16	base-only	reading	septimo sacrum	1738: fepiinio facnun	1750,1726,ws	Primo autem die itemque ⟦septimo sacrum⟧ conventum facietis neque ullum opus
+Exod.12.16	base-only	reading	patrabitis	1738: pat rabi us	1750,1726,ws	neque ullum opus illis diebus ⟦patrabitis⟧ praeterquam quod cuique necessarium erit
+Exod.12.16	base-only	reading	necessarium erit	1738: mcesfarium Grit	1726,ws	diebus patrabitis praeterquam quod cuique ⟦necessarium erit⟧ ad victum id solum facere
+Exod.12.16	base-only	reading	solum facere	1738: foluiu latere	1750,1726,ws	necessarium erit ad victum id ⟦solum facere⟧ licebit
+Exod.12.17	base-only	division	vestras copias	1738: veftrascopias	1750,1726,ws	quod illo ipso die eduxerim ⟦vestras copias⟧ de Aegypto quem vos diem
+Exod.12.17	base-only	reading	perpetua lege vestrae posteritati	1738: perpetuakge veftrx pofteri fati	1750,1726,ws	de Aegypto quem vos diem ⟦perpetua lege vestrae posteritati⟧ sancietis
+Exod.12.18	base-only	division	decimi	1738: decim i	1750,1726,ws	A vespera diei ⟦decimi⟧ quarti mensis primi ad vesperam
+Exod.12.18	base-only	reading	mensis	1738: menlis	1750,1726,ws	A vespera diei decimi quarti ⟦mensis⟧ primi ad vesperam vigesimi primi
+Exod.12.18	base-only	reading	vesperam vigesimi	1738: veiperam vicefimi	1750,1726,ws	decimi quarti mensis primi ad ⟦vesperam vigesimi⟧ primi ejusdem mensis vescemini non
+Exod.12.18	base-only	reading	ejusdem mensis vescemini	1738: eiufdemmenfis velofeemini	1750,1726,ws	primi ad vesperam vigesimi primi ⟦ejusdem mensis vescemini⟧ non fermentatis
+Exod.12.18	base-only	reading	fermentatis	1738: fetmentatis | 1750: ferpomentatis	1726,ws	primi ejusdem mensis vescemini non ⟦fermentatis⟧
+Exod.12.19	base-only	reading	illos septem	1738: ilios feptcm	1750,1726,ws	Neque ullum per ⟦illos septem⟧ dies fermentum domi habebitis ac
+Exod.12.19	base-only	reading	fermentum	1738: fermentuin	1750,1726,ws	ullum per illos septem dies ⟦fermentum⟧ domi habebitis ac quisquis fermentum
+Exod.12.19	base-only	reading	gustaverit	1738: guftawerit | 1750: gue ftauerit	1726,ws	domi habebitis ac quisquis fermentum ⟦gustaverit⟧ is de numero Israelitarum tollatur
+Exod.12.19	base-only	reading	numero	1738: nuincro	1750,1726,ws	quisquis fermentum gustaverit is de ⟦numero⟧ Israelitarum tollatur sive peregrinus fuerit
+Exod.12.20	base-only	division	fermentatum comedetis	1738: fermentatumcomedetis	1750,1726,ws	Nihil inquam ⟦fermentatum comedetis⟧ sed ubicumque degetis non fermentatis
+Exod.12.20	base-only	division	non fermentatis	1738: nonfermentatis	1750,1726,ws	fermentatum comedetis sed ubicumque degetis ⟦non fermentatis⟧ vescemini
+Exod.12.21	base-only	reading	hunc modum Seponite et segregate	1738: huncmodum lcponiteecfegregate	1750,1726,ws	senatu Israelitarum verba fecit ad ⟦hunc modum Seponite et segregate⟧ vobis singulas balantes in familias
+Exod.12.21	base-only	reading	balantes in familias	1738: baiaiitcsinfamilias	1750,1726,ws	Seponite et segregate vobis singulas ⟦balantes in familias⟧ quibus immolemus Pascha
+Exod.12.21	correct	reading	immolemus	1738,1726: immoletis	ws	singulas balantes in familias quibus ⟦immolemus⟧ Pascha
+Exod.12.22	base-only	division	sanguinem pelvis	1738: fanguinempeluis	1750,1726,ws	Deinde fasciculo hyssopi in ⟦sanguinem pelvis⟧ immerso infigite superliminaria et utrosque
+Exod.12.22	base-only	reading	infigite	1738: infioite | 1750,1726: inficite	ws	hyssopi in sanguinem pelvis immerso ⟦infigite⟧ superliminaria et utrosque postes neque
+Exod.12.22	base-only	reading	mane	1738: wane	1750,1726,ws	domorum vestrarum prodite ante crastinum ⟦mane⟧
+Exod.12.23	base-only	reading	quum ad cedendos	1738: qiuiui adcxdendos	1750,1726,ws	Et Jova ⟦quum ad cedendos⟧ transibit Aegyptios ostia quorum in
+Exod.12.23	base-only	reading	ostia	1738: oltia	1750,1726,ws	quum ad cedendos transibit Aegyptios ⟦ostia⟧ quorum in superliminaribus et postibus
+Exod.12.23	base-only	reading	postibus	1738: poitibus	1750,1726,ws	ostia quorum in superliminaribus et ⟦postibus⟧ sanguinem conspexerit praeteribit neque sinet
+Exod.12.23	base-only	reading	conspexerit praeteribit	1738: conIpexerit prxteribit	1750,1726,ws	in superliminaribus et postibus sanguinem ⟦conspexerit praeteribit⟧ neque sinet exterminatorem domos vestras
+Exod.12.23	base-only	reading	sinet exterminatorem	1738: iinet exterininatorem	1750,1726,ws	postibus sanguinem conspexerit praeteribit neque ⟦sinet exterminatorem⟧ domos vestras intrare et cladem
+Exod.12.23	base-only	reading	intrare	1738: iutra re | 1750: intraa re	1726,ws	neque sinet exterminatorem domos vestras ⟦intrare⟧ et cladem inferre
+Exod.12.23	base-only	reading	cladem	1738: cladera	1750,1726,ws	exterminatorem domos vestras intrare et ⟦cladem⟧ inferre
+Exod.12.25	base-only	reading	terram	1738: terrain	1750,1726,ws	Quumque perveneritis in ⟦terram⟧ quam vobis Jova dabit quemadmodum
+Exod.12.25	base-only	reading	dabit	1738: dabii	1750,1726,ws	in terram quam vobis Jova ⟦dabit⟧ quemadmodum promisit hanc ceremoniam servatote
+Exod.12.26	base-only	reading	vestris	1738: veneris	1750,1726,ws	Quaerentibusque liberis ⟦vestris⟧ quid sibi velit ista ceremonia
+Exod.12.26	base-only	reading	ista ceremonia	1738: ilia cxrimonia	1726,ws	liberis vestris quid sibi velit ⟦ista ceremonia⟧
+Exod.12.27	base-only	reading	sacrificium	1738: facrifidum	1750,1726,ws	Respondetote ⟦sacrificium⟧ esse transitus Jovae qui in
+Exod.12.27	base-only	reading	Jovae	1738: Ioux	1750,1726,ws	Respondetote sacrificium esse transitus ⟦Jovae⟧ qui in Aegypto quum Aegyptios
+Exod.12.27	base-only	reading	quum	1738: quuni	1750,1726,ws	transitus Jovae qui in Aegypto ⟦quum⟧ Aegyptios caederet Israelitarum domos transierit
+Exod.12.27	base-only	reading	caederet	1738: cxderet	1726,ws	qui in Aegypto quum Aegyptios ⟦caederet⟧ Israelitarum domos transierit bestrasque domos
+Exod.12.27	base-only	reading	transierit bestrasque	1738: transient veitrasque	ws	quum Aegyptios caederet Israelitarum domos ⟦transierit bestrasque⟧ domos liberaverit Tum populus sese
+Exod.12.27	others	reading	bestrasque	1750,1726: veftrasque	ws	Aegyptios caederet Israelitarum domos transierit ⟦bestrasque⟧ domos liberaverit Tum populus sese
+Exod.12.27	base-only	reading	Tum populus sese	1738: Turn popuius ids	1750,1726,ws	domos transierit bestrasque domos liberaverit ⟦Tum populus sese⟧ honoris causa submisit
+Exod.12.27	base-only	reading	causa submisit	1738: causft fubmint	1726,ws	liberaverit Tum populus sese honoris ⟦causa submisit⟧
+Exod.12.28	base-only	spelling	Israelitae	1738: Israelite	1750,1726,ws	Quumque digressi ⟦Israelitae⟧ fecissent sicuti Jova Mosi et
+Exod.12.28	base-only	reading	praeceperat	1738: pprxceperat	1750,1726,ws	sicuti Jova Mosi et Aharoni ⟦praeceperat⟧
+Exod.12.29	base-only	reading	nocte	1738: nocle	1750,1726,ws	Media ⟦nocte⟧ Jova omnes in Aegypto primogenitos
+Exod.12.29	base-only	division	a primogenito	1738: aprimogenito	1750,1726,ws	omnes in Aegypto primogenitos occidit ⟦a primogenito⟧ Pharaonis in solio sedentis ad
+Exod.12.29	base-only	reading		1738: psaum fettura hoc ea	1750,1726,ws	occidit a primogenito Pharaonis in ⟦⟧ solio sedentis ad primogenitos captivorum
+Exod.12.30	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ vero Pharao ea nocte surgit
+Exod.12.30	base-only	reading	nocte	1738: nocle	1750,1726,ws	Tum vero Pharao ea ⟦nocte⟧ surgit omnesque ejus stipatores et
+Exod.12.30	base-only	reading	stipatores	1738: ltipatores	1750,1726,ws	ea nocte surgit omnesque ejus ⟦stipatores⟧ et Aegyptii fuitque ille maximus
+Exod.12.30	base-only	reading	tumultus	1738: tuniultus	1750,1726,ws	fuitque ille maximus in Aegypto ⟦tumultus⟧ quippe nulla domo funeris experte
+Exod.12.31	base-only	reading	exite	1738: cxite	1750,1726,ws	Mose et Aharone Agite inquit ⟦exite⟧ de meo populo et vos
+Exod.12.31	base-only	division	meo populo	1738: meopopulo	1750,1726,ws	Aharone Agite inquit exite de ⟦meo populo⟧ et vos et Israelitae ite
+Exod.12.31	base-only	reading	Israelitae	1738: Israe tiix	1726,ws	meo populo et vos et ⟦Israelitae⟧ ite colite Jovam vestro arbitrio
+Exod.12.31	base-only	reading	Jovam vestro	1738: Ionani vcftro	1726,ws	vos et Israelitae ite colite ⟦Jovam vestro⟧ arbitrio
+Exod.12.32	correct	division	minora	1738,1750: mi nora	1726,ws	Pecora ⟦minora⟧ majoraque abducite ut postulastis ite
+Exod.12.32	correct	reading	postulastis	1738,1750: poftulatis	1726,ws	Pecora minora majoraque abducite ut ⟦postulastis⟧ ite et mihi quoque bene
+Exod.12.32	base-only	reading	mihi	1738: mini	1726,ws	abducite ut postulastis ite et ⟦mihi⟧ quoque bene precamini
+Exod.12.33	base-only	reading	populum	1738: popu him | 1750: popu lum	1726,ws	Aegyptii quoque ⟦populum⟧ urgere eum de suis finibus
+Exod.12.33	base-only	reading	finibus	1738: rinibus	1750,1726,ws	populum urgere eum de suis ⟦finibus⟧ emitere properantes et sese omnes
+Exod.12.33	base-only	reading	sese	1738: kk	1750,1726,ws	suis finibus emitere properantes et ⟦sese⟧ omnes periisse dicentes
+Exod.12.34	base-only	reading	Israelitae non fermentatam massam veste	1738: Israelitx nonfermentatam J inasfam veite	1726,ws	Itaque ⟦Israelitae non fermentatam massam veste⟧ sua involutam humeris suis extulerunt
+Exod.12.34	base-only	reading	involutam	1738: imiolutam	1750,1726,ws	non fermentatam massam veste sua ⟦involutam⟧ humeris suis extulerunt in mactris
+Exod.12.35	base-only	division	Vasisque	1738: vafis que	1750,1726,ws	⟦Vasisque⟧ argenteis atque aureis et veste
+Exod.12.36	base-only	reading	benevolentiam	1738: bene uolcntiam	1750,1726,ws	Et Jova eis Aegyptiorum ⟦benevolentiam⟧ conciliante impetratis Aegyptios spoliaverunt
+Exod.12.37	base-only	division	et a	1738: eta	1750,1726,ws	⟦et a⟧ Ramese Sochota pervenerunt circiter sexcenta
+Exod.12.37	base-only	reading	praeter	1738: prxter	1750,1726,ws	circiter sexcenta millia peditum virorum ⟦praeter⟧ imbellem turbam
+Exod.12.39	base-only	reading	Ibi	1738: lbi	1750,1726,ws	⟦Ibi⟧ ex ea massa quam secum
+Exod.12.39	base-only	division	quam secum ex	1738: quamfecumex	1750,1726,ws	Ibi ex ea massa ⟦quam secum ex⟧ Aegypto deportaverant depsititios panes fecerunt
+Exod.12.39	base-only	reading	erat fermentata	1738: eratfermentaia	1750,1726,ws	nullo fermento nam ea non ⟦erat fermentata⟧ propterea quod urgentibus Aegyptiis morari
+Exod.12.40	base-only	reading	autem	1738: auteni	1750,1726,ws	Spatium ⟦autem⟧ quo Israelitae in Aegypto commorati
+Exod.12.40	base-only	reading	Israelitae in	1738: Israelitx	1726,ws	Spatium autem quo ⟦Israelitae in⟧ Aegypto commorati sunt fuit annorum
+Exod.12.41	base-only	reading	confecto	1738: confeclo	1750,1726,ws	Quo spatio ⟦confecto⟧ illius diei nox quo die
+Exod.12.41	base-only	reading	nox	1738: x j	1750,1726,ws	Quo spatio confecto illius diei ⟦nox⟧ quo die omnes Jovae copiae
+Exod.12.41	base-only	reading	Jovae copiae	1738: Ioux copix	1750,1726,ws	diei nox quo die omnes ⟦Jovae copiae⟧ ex Aegypto exierant
+Exod.12.42	base-only	reading		1738: J	1750,1726,ws	Dicata Jovae est ⟦⟧ qui eos eduxisset ex Aegypto
+Exod.12.42	base-only	reading	eos eduxisset ex	1738: cos eduxisfetex	1750,1726,ws	Dicata Jovae est qui ⟦eos eduxisset ex⟧ Aegypto et ab universo Israelitarum
+Exod.12.42	base-only	reading	aeternum	1738: seternum | 1750: aeter num	1726,ws	et ab universo Israelitarum genere ⟦aeternum⟧ observatur
+Exod.12.43	base-only	reading	dictum	1738: di him | 1750: diCum	1726,ws	agni quod a transitu Pascha ⟦dictum⟧ est rationem Mosi et Aharoni
+Exod.12.43	base-only	reading	tradidit Jovae	1738: tradiditloua	ws	est rationem Mosi et Aharoni ⟦tradidit Jovae⟧ Ne quis eo vesceretur extraneus
+Exod.12.43	base-only	reading		1738: regnantis Cap ig EXODVS rctur	1726,ws	Jovae Ne quis eo vesceretur ⟦⟧ extraneus
+Exod.12.44	base-only	division	si modo	1738: fimodo	1750,1726,ws	Ut omnibus coemptitiis servis ⟦si modo⟧ essent circumcisi vesci fas esset
+Exod.12.44	base-only	reading	circumcisi	1738: cir anncifi	1726,ws	coemptitiis servis si modo essent ⟦circumcisi⟧ vesci fas esset
+Exod.12.45	base-only	reading	neve	1738: ncue	1750,1726,ws	Ne quis advena ⟦neve⟧ mercenarius comesset
+Exod.12.46	base-only	reading	efferretur	1738: eflerretur	1750,1726,ws	comederetur Neve quid carnis domo ⟦efferretur⟧ neve ullum ejus os frangerent
+Exod.12.47	correct	division	civitas	1738,1750: ciui tas	1726,ws	Ut idem cuncta Israelitarum ⟦civitas⟧ operaretur
+Exod.12.48	base-only	reading	Jovae	1738: Ioux	1726,ws	eos peregrini agerent ii ut ⟦Jovae⟧ Pascha facturi omnes suorum mares
+Exod.12.48	base-only	division	omnes suorum	1738: omnesfuorum	1750,1726,ws	ii ut Jovae Pascha facturi ⟦omnes suorum⟧ mares circumcisos haberent eademque essent
+Exod.12.48	base-only	reading	circumcisos	1738: circumeifos	1750,1726,ws	Pascha facturi omnes suorum mares ⟦circumcisos⟧ haberent eademque essent conditione qua
+Exod.12.48	others	reading		1750,1726: et tum demum ad id aditum haberent	ws	omnes suorum mares circumcisos haberent ⟦⟧ eademque essent conditione qua indigenae
+Exod.12.48	base-only	reading	eademque	1738: et turn demum ad id aditum haberent eademquc	1750,1726,ws	omnes suorum mares circumcisos haberent ⟦eademque⟧ essent conditione qua indigenae Ne
+Exod.12.49	base-only	reading	argentium	1738: joagentium | 1750: oagentium | 1726: agentium	ws	indigenarum et peregrinorum inter eos ⟦argentium⟧
+Exod.12.51	base-only	reading	Israelitas	1738: Israe A litas	1750,1726	Atque illo ipso die quo ⟦Israelitas⟧ ex Aegypto cum eorum copiis
+Exod.13.2	base-only	reading	vulvam	1738: vuiuam	1750,1726,ws	nam quidquid Israelitarum esset quod ⟦vulvam⟧ aperuisset id omne sive hominum
+Exod.13.2	base-only	reading	sive	1738: line	1750,1726,ws	id omne sive hominum esset ⟦sive⟧ pecudum suum esse
+Exod.13.4	base-only	reading	verno	1738: vcrno	1750,1726,ws	Hodie vos exivistis mense ⟦verno⟧
+Exod.13.5	base-only	reading	Quum	1738: Qiium	1750,1726,ws	⟦Quum⟧ igitur vos introduxerit Jova in
+Exod.13.5	base-only	reading	terram Chananaeam Hettaeam Amorraeaam Hevaeam	1738: terrain Chanaivtam Hettxam Amorr am Heuxam	ws	igitur vos introduxerit Jova in ⟦terram Chananaeam Hettaeam Amorraeaam Hevaeam⟧ et Jebusaeam quam sese vobis
+Exod.13.5	base-only	reading	Jebusaeam	1738: Iebufxam | 1750: Iebufseam	1726,ws	Chananaeam Hettaeam Amorraeaam Hevaeam et ⟦Jebusaeam⟧ quam sese vobis daturum majoribus
+Exod.13.5	base-only	reading	sese	1738: fcfe	1750,1726,ws	Amorraeaam Hevaeam et Jebusaeam quam ⟦sese⟧ vobis daturum majoribus vestris juravit
+Exod.13.5	base-only	reading	daturum	1738: daturam	1750,1726,ws	et Jebusaeam quam sese vobis ⟦daturum⟧ majoribus vestris juravit terram lacte
+Exod.13.5	base-only	reading	terram	1738: terrain	1750,1726,ws	vobis daturum majoribus vestris juravit ⟦terram⟧ lacte et melle abundantem hunc
+Exod.13.5	base-only	reading	melle abundantem	1738: nielle abundaiuem	1750,1726,ws	vestris juravit terram lacte et ⟦melle abundantem⟧ hunc ritum hoc mense servatote
+Exod.13.6	base-only	reading	Septem	1738: Seprem	1750,1726,ws	⟦Septem⟧ dies azymis vivitote quorum dierum
+Exod.13.6	base-only	reading	dierum septimus festus Jovae	1738: dierura feptimns feftusloux	1726,ws	Septem dies azymis vivitote quorum ⟦dierum septimus festus Jovae⟧ esto
+Exod.13.7	base-only	reading	illis septem	1738: illii fepteoi	1750,1726,ws	Atque ⟦illis septem⟧ diebus per quos non fermentatis
+Exod.13.7	base-only	reading	fermentatum	1738: fermeutatum	1750,1726,ws	quos non fermentatis vivetur nihil ⟦fermentatum⟧ neque fermentum omnibus in vestris
+Exod.13.8	base-only	division	exponitote	1738: ex ponitote	1750,1726,ws	Tum causam liberis vestris ⟦exponitote⟧ videlicet quid vobis Jova fecerit
+Exod.13.9	base-only	reading	manum signum	1738: manuni lignum	1750,1726,ws	Atque hoc et ad ⟦manum signum⟧ et inter oculos monumentum habetote
+Exod.13.9	base-only	reading	Jovae	1738: Ioux	1750,1726,ws	monumentum habetote ut sit lex ⟦Jovae⟧ vobis in ore qui vos
+Exod.13.10	base-only	reading	cerimoniam	1738: cxri id moniam | 1726: ceremoniam	1750,ws	Hanc vos ⟦cerimoniam⟧ servatote suo tempore quotannis
+Exod.13.11	base-only	reading	vos Jova	1738: voslo u ua	1750,1726,ws	Ac postquam ⟦vos Jova⟧ introduxerit in terram Chananaeam sicut
+Exod.13.11	base-only	reading	terram Chananaeam	1738: terrain Chananxam	1726,ws	postquam vos Jova introduxerit in ⟦terram Chananaeam⟧ sicut vobis vestrisque majoribus jurejurando
+Exod.13.11	base-only	reading	confirmavit	1738: confirmauir	1750,1726,ws	sicut vobis vestrisque majoribus jurejurando ⟦confirmavit⟧ eamque vobis tradiderit
+Exod.13.12	base-only	reading	Jovae	1738: ioux	1750,1726,ws	Quidquid vulvam aperuerit id ⟦Jovae⟧ seponitote et ceterorum quidem pecorum
+Exod.13.12	base-only	reading	Jovae	1738: loux	1726,ws	quidem pecorum mascula omnia prima ⟦Jovae⟧ sunto
+Exod.13.13	base-only	reading	haedo	1738: hxdo	1750,1726,ws	Asinorum autem agno aut ⟦haedo⟧ redimitote sin minus redimetis cervices
+Exod.13.13	base-only	reading	vestros	1738: veltros	1750,1726,ws	cervices frangitote At hominum primogenitos ⟦vestros⟧ filios omnes redimitote
+Exod.13.14	base-only	division	liberi	1738: li beri	1750,1726,ws	quando ut fit ex vobis ⟦liberi⟧ vestri quaesiverint quidnam istud rei
+Exod.13.14	base-only	reading	quaesiverint	1738: quxfiuerint	1750,1726,ws	fit ex vobis liberi vestri ⟦quaesiverint⟧ quidnam istud rei sit respondetote
+Exod.13.14	base-only	reading	Aegypto	1738: Aegyp	1750,1726,ws	a Jova magna vi ex ⟦Aegypto⟧ domicilio servitutis esse eductos
+Exod.13.14	base-only	reading	eductos	1738: educlos	1750,1726,ws	ex Aegypto domicilio servitutis esse ⟦eductos⟧
+Exod.13.15	base-only	reading	vos retinente	1738: vosretinence	1750,1726,ws	Qui Jova Pharaone pertinacius ⟦vos retinente⟧ omnia Aegypti primogenita tum hominum
+Exod.13.15	base-only	reading	tum	1738: turn	1750,1726,ws	vos retinente omnia Aegypti primogenita ⟦tum⟧ hominum tum pecudum interfecerit Eam
+Exod.13.15	base-only	reading	tum	1738: turn	1750,1726,ws	omnia Aegypti primogenita tum hominum ⟦tum⟧ pecudum interfecerit Eam ob rem
+Exod.13.15	base-only	reading	Eam	1738: earn	1726,ws	tum hominum tum pecudum interfecerit ⟦Eam⟧ ob rem vos Jovae immolare
+Exod.13.15	base-only	reading	Jovae	1738: Ioux	1750,1726,ws	interfecerit Eam ob rem vos ⟦Jovae⟧ immolare ex maribus quidquid vulvam
+Exod.13.15	base-only	reading	vulvam	1738: vuiuam	1750,1726,ws	Jovae immolare ex maribus quidquid ⟦vulvam⟧ aperuerit sed vestros omnes natos
+Exod.13.15	base-only	reading	sed	1738: led	1750,1726,ws	ex maribus quidquid vulvam aperuerit ⟦sed⟧ vestros omnes natos primogenitos redimere
+Exod.13.16	base-only	division	rei et	1738: reiet	1750,1726,ws	Quare ejus ⟦rei et⟧ indicium ad manum et frontale
+Exod.13.16	base-only	division	manum et	1738: manumet	1750,1726,ws	ejus rei et indicium ad ⟦manum et⟧ frontale inter oculos habeant quod
+Exod.13.16	base-only	reading	educti	1738: educri | 1750: educi	1726,ws	ex Aegypto a Jova sitis ⟦educti⟧
+Exod.13.17	base-only	reading	autem	1738: au if tern | 1750: au tem	1726,ws	Dimissum ⟦autem⟧ a Pharaone populum Deus non
+Exod.13.17	base-only	reading	Palaestinam	1738: Palxftinam	1750,1726,ws	Pharaone populum Deus non duxit ⟦Palaestinam⟧ versus quae via erat expeditissima
+Exod.13.17	base-only	reading	quae	1738: qux	1750,1726,ws	Deus non duxit Palaestinam versus ⟦quae⟧ via erat expeditissima idque eo
+Exod.13.17	base-only	reading	viso exercitu conversis	1738: vifocxercitu comicrfts	1750,1726,ws	expeditissima idque eo consilio ne ⟦viso exercitu conversis⟧ animis Aegyptum repeterent
+Exod.13.17	base-only	reading	repeterent	1738: repetcrent	1750,1726,ws	viso exercitu conversis animis Aegyptum ⟦repeterent⟧
+Exod.13.18	base-only	reading	longiore circuitu	1738: longiorecucuitu	1750,1726,ws	Sed ⟦longiore circuitu⟧ ea via quae ferebat in
+Exod.13.18	base-only	reading	quae	1738: qux	1750,1726,ws	Sed longiore circuitu ea via ⟦quae⟧ ferebat in solitudinem maris rubri
+Exod.13.18	base-only	reading	maris	1738: mans	1750,1726,ws	via quae ferebat in solitudinem ⟦maris⟧ rubri Discesserunt autem procincti Israelitae
+Exod.13.18	base-only	reading	procincti Israelitae	1738: procinctt Israelitx	1726,ws	solitudinem maris rubri Discesserunt autem ⟦procincti Israelitae⟧ ex Aegypto
+Exod.13.20	base-only	reading	Sochothis profecti	1738: Sochotis profecli	1750,1726,ws	Igitur a ⟦Sochothis profecti⟧ castra posuerunt in Ethamo in
+Exod.13.21	base-only	reading	viae ostendendae	1738: vix ostendendx	1726,ws	antecedente interdiu in columna nubis ⟦viae ostendendae⟧ gratia noctu in columna ignis
+Exod.13.21	base-only	reading	noctu	1738: nodhi	1750,1726,ws	columna nubis viae ostendendae gratia ⟦noctu⟧ in columna ignis praelucendi causa
+Exod.13.21	base-only	reading	praelucendi causa	1738: prxlucendi causfa	1726,ws	gratia noctu in columna ignis ⟦praelucendi causa⟧ ut diem noctemque iter facerent
+Exod.13.21	base-only	reading	noctemque	1738: noclemque	1750,1726,ws	ignis praelucendi causa ut diem ⟦noctemque⟧ iter facerent
+Exod.13.22	base-only	reading	noctu columna	1738: nochi cokunna	1726,ws	umquam nubis interdiu neque ignis ⟦noctu columna⟧ defuit quae populum praecederet
+Exod.14.2	base-only	reading	convertere	1738: con Aiertere	1750,1726,ws	ut Israelitas juberet iter ⟦convertere⟧ et ante fauces Ahirotha inter
+Exod.14.2	correct	reading	Ballsephonis	1738,1726: Baalfephonis	ws	Magdol et mare e regione ⟦Ballsephonis⟧ secundum mare castra facere
+Exod.14.3	base-only	reading	arbitratus	1738: arbitrate	1726,ws	Ut Pharao eos ⟦arbitratus⟧ regionum ignaros haerere et silvis
+Exod.14.3	base-only	reading	haerere	1738: hacrere	1750,1726,ws	Pharao eos arbitratus regionum ignaros ⟦haerere⟧ et silvis conclusos teneri
+Exod.14.4	base-only	division	mihique et ipse et omnis	1738: mihiqueetipfe etomnis	1750,1726,ws	ejus animum opprimente inquit persequatur ⟦mihique et ipse et omnis⟧ ejus exercitus gloriae sit et
+Exod.14.4	base-only	reading	gloriae	1738: glorix	1726,ws	ipse et omnis ejus exercitus ⟦gloriae⟧ sit et dicant Aegyptii quantus
+Exod.14.4	base-only	reading	dicant Aegyptii	1738: difcant Aeayptii	ws	ejus exercitus gloriae sit et ⟦dicant Aegyptii⟧ quantus sit Jova Id quod
+Exod.14.4	base-only	reading	illi fecerunt	1738: ilii fccerunt	1750,1726,ws	quantus sit Jova Id quod ⟦illi fecerunt⟧
+Exod.14.5	base-only	reading	Quae	1738: Qux	1750,1726,ws	⟦Quae⟧ res ubi Pharaoni Aegypti regi
+Exod.14.5	base-only	spelling	nuntiata est	1738: nuntiataeft	1750,1726,ws	res ubi Pharaoni Aegypti regi ⟦nuntiata est⟧ illos fugere conversae sunt et
+Exod.14.5	base-only	reading	conversae	1738: conuerfx	1750,1726,ws	regi nuntiata est illos fugere ⟦conversae⟧ sunt et ejus et suorum
+Exod.14.5	base-only	reading	qui eis serviebant	1738: querebanturque fefe Israelitas quieis feruie bant	1750,1726,ws	et suorum mentes in illos ⟦qui eis serviebant⟧ amisisse
+Exod.14.7	base-only	reading	sexcentis	1738: ftxcentis	1750,1726,ws	Et ⟦sexcentis⟧ curribus electis et omnibus Aegypti
+Exod.14.7	correct	reading	vehementer	1738,1750,1726: veherentur	ws	omnibus Aegypti curribus quibus omnibus ⟦vehementer⟧ duces
+Exod.14.8	base-only	reading	persequitur	1738: perfeoquitur	1750,1726,ws	Israelitas cum ingenti manu egressos ⟦persequitur⟧
+Exod.14.9	base-only	division	omnesque Pharaonis equites	1738: omnesquePharaonisequites	1726,ws	Atque illos Aegyptii ⟦omnesque Pharaonis equites⟧ et quadrigarii atque milites assecuti
+Exod.14.9	correct	spelling	assecuti	1738,1750: adfecuti	1726,ws	equites et quadrigarii atque milites ⟦assecuti⟧ sunt ad fauces Ahirotha e
+Exod.14.10	base-only	spelling	Israelitae appropinquante	1738: Israelite adpropinquante	1750,1726,ws	⟦Israelitae appropinquante⟧ Pharaone conspicati subsequentes Aegyptios magno
+Exod.14.11	base-only	reading	quasi	1738: quali	1750,1726,ws	Mosem etiam vulgo incusare An ⟦quasi⟧ in Aegypto sepulchra non essent
+Exod.14.11	correct	reading	sepulchra	1738,1750: fepulcra	1726,ws	incusare An quasi in Aegypto ⟦sepulchra⟧ non essent tu nos in
+Exod.14.11	base-only	reading	essent	1738: esfcnt | 1750: eflent	1726,ws	quasi in Aegypto sepulchra non ⟦essent⟧ tu nos in solitudinem ad
+Exod.14.11	base-only	division	Cur fecisti	1738: curfecifti	1726,ws	in solitudinem ad mortem adduxisti ⟦Cur fecisti⟧ ut nos ex Aegypto educeres
+Exod.14.12	correct	reading	An non	1738,1750: Annon	1726,ws	⟦An non⟧ hoc ipsum est de quo
+Exod.14.12	base-only	reading	ipsum est de quo nos to	1738: ipfumeft i dequonoste	ws	An non hoc ⟦ipsum est de quo nos to⟧ monebamus in Aegypto petentes ut
+Exod.14.12	base-only	division	in Aegypto	1738: inAegypto	1750,1726,ws	de quo nos to monebamus ⟦in Aegypto⟧ petentes ut nos Aegyptiis servire
+Exod.14.12	base-only	reading	Praestare	1738: prxftare	1750,1726,ws	ut nos Aegyptiis servire sineres ⟦Praestare⟧ enim Aegyptiis servire quam in
+Exod.14.13	correct	division	metuere	1738,1750: me tuere	1726,ws	Quibus Moses Nolite ⟦metuere⟧ inquit confirmate vos et quam
+Exod.14.13	base-only	reading	confirmate	1738: conhrmate	1750,1726,ws	Quibus Moses Nolite metuere inquit ⟦confirmate⟧ vos et quam vobis hodie
+Exod.14.13	base-only	reading	victoriam afferet	1738: vicloriam aaferet	1726,ws	et quam vobis hodie Jova ⟦victoriam afferet⟧ spectate nam quos hodie videtis
+Exod.14.13	correct	division	visuri estis	1738,1750: vifurieftis	1726,ws	videtis Aegyptios eos numquam posthac ⟦visuri estis⟧
+Exod.14.14	base-only	division	vobis	1738: vo bis	1726,ws	Jova pro ⟦vobis⟧ quiescentibus proelium conficiet
+Exod.14.14	base-only	reading	proelium	1738: prcelium	1726,ws	Jova pro vobis quiescentibus ⟦proelium⟧ conficiet
+Exod.14.15	base-only	reading	Tum	1738: Turn	1726,ws	⟦Tum⟧ Jova cum Mose loquitur Quid
+Exod.14.15	base-only	spelling	appellas	1738: adpellas	1750,1726,ws	cum Mose loquitur Quid me ⟦appellas⟧ inquit Jube Israelitas proficisci
+Exod.14.15	base-only	reading	Jube	1738: lube	1750,1726,ws	loquitur Quid me appellas inquit ⟦Jube⟧ Israelitas proficisci
+Exod.14.16	base-only	reading	manum	1738: mamim	1750,1726,ws	Tu elata virga tua ⟦manum⟧ in mare intende illudque divide
+Exod.14.16	base-only	reading	ut Israelitae	1738: vtlsraelitx	1726,ws	in mare intende illudque divide ⟦ut Israelitae⟧ per medium mare in sicco
+Exod.14.17	base-only	reading	cunctoque	1738: cuncloque | 1750: cunétoque	1726,ws	consequantur ut ego in Pharaone ⟦cunctoque⟧ ejus exercitu et curribus equitibusque
+Exod.14.18	base-only	reading		1738: l	1750,1726,ws	Gloriam ⟦⟧ consequar atque ex tam glorioso
+Exod.14.18	base-only	reading	tam	1738: tarn	1750,1726,ws	Gloriam consequar atque ex ⟦tam⟧ glorioso in eos facto Jova
+Exod.14.18	base-only	reading	facto	1738: facio	1750,1726,ws	ex tam glorioso in eos ⟦facto⟧ Jova ego notus Aegyptiis fiam
+Exod.14.18	base-only	division	ego notus	1738: egonotus	1750,1726,ws	glorioso in eos facto Jova ⟦ego notus⟧ Aegyptiis fiam
+Exod.14.19	base-only	division	divinus	1738: diui nus	1726,ws	Angelus autem ⟦divinus⟧ qui Israelitarum agmen praecedebat post
+Exod.14.19	base-only	reading	praecedebat	1738: prxcedebat	1750,1726,ws	autem divinus qui Israelitarum agmen ⟦praecedebat⟧ post eos recessit remotaque ex
+Exod.14.19	base-only	reading	conspectu	1738: confpechi | 1750: confpe et u	1726,ws	eos recessit remotaque ex eorum ⟦conspectu⟧ nubes a tergo constitit
+Exod.14.20	base-only	reading	Aegyptiis	1738: xgyptia | 1750,1726: aegyptia	ws	Mediaque inter ⟦Aegyptiis⟧ et Israelitica castra intercessit sic
+Exod.14.20	base-only	reading	sic	1738: lic	1750,1726,ws	Aegyptiis et Israelitica castra intercessit ⟦sic⟧ ut hinc nube illinc caligine
+Exod.14.20	base-only	division	caligine interposita	1738: caligineinterpofita	1750,1726,ws	sic ut hinc nube illinc ⟦caligine interposita⟧ noctem illustraret neque alteri ad
+Exod.14.20	base-only	reading	nocte	1738: node	1750,1726,ws	neque alteri ad alteros tota ⟦nocte⟧ propius accederent
+Exod.14.21	base-only	reading	manum	1738: inanum	1750,1726,ws	Et quum Moses ⟦manum⟧ in mare protendisset Jova mare
+Exod.14.21	base-only	reading	nocte	1738: nocle	1750,1726,ws	Jova mare vehementissimo Euro tota ⟦nocte⟧ perflavit eoque in siccum redacto
+Exod.14.21	base-only	reading	eoque in siccum redacto	1738: eoqueinficcum redact	1726,ws	vehementissimo Euro tota nocte perflavit ⟦eoque in siccum redacto⟧ et disclusa aqua
+Exod.14.22	base-only	reading	Israelitae	1738: Israe litx | 1750: Ifraë litae	1726,ws	Ingressi sunt ⟦Israelitae⟧ per medium mare in sicco
+Exod.14.22	base-only	reading	praebente	1738: prxbente	1750,1726,ws	aqua murum illis dextra sinistraque ⟦praebente⟧
+Exod.14.23	base-only	division	Pharaonis	1738: Pha raonis | 1750: Pha Hi raonis	1726,ws	Quos Aegyptii et ⟦Pharaonis⟧ equites quadrigariique omnes in medium
+Exod.14.23	correct	reading	in	1738,1726:  | 1750: Z o	ws	et Pharaonis equites quadrigariique omnes ⟦in⟧ medium in mare insecuti sunt
+Exod.14.24	base-only	reading	vigilia	1738: vigiiia	1750,1726,ws	ignis et nubis de matutina ⟦vigilia⟧ conspicatus perturbavit
+Exod.14.25	base-only	reading	jactavit	1738: ia et auit	1750,1726,ws	rotis curruum magno cum impetu ⟦jactavit⟧ Conantibus Israelitas fugere quod dicerent
+Exod.14.26	base-only	reading	quadrigarios	1738: quadrigai rios | 1750: quadriga rios	1726,ws	ut aqua in Aegyptios inque ⟦quadrigarios⟧ et equites reflueret
+Exod.14.26	base-only	reading	reflueret	1738: refluerer	1750,1726,ws	Aegyptios inque quadrigarios et equites ⟦reflueret⟧
+Exod.14.27	base-only	reading	extendisset	1738: e tendisfet	1750,1726,ws	quum Moses manum in mare ⟦extendisset⟧ mare sub matutinum in suam
+Exod.14.28	base-only	division	Pharaonis exercitus	1738: Pharaonisexercitus	1750,1726,ws	Et refluens aestus totius ⟦Pharaonis exercitus⟧ currus et equites qui illos
+Exod.14.28	base-only	reading	nec	1738: nee	1750,1726,ws	secuti fuerant ita obruit ut ⟦nec⟧ unus evaderet
+Exod.14.29	base-only	reading	interea Israelitae	1738: intcrea Israelitx	1726,ws	Quum ⟦interea Israelitae⟧ aqua eis ad dexteram sinistramque
+Exod.14.29	correct	spelling	dexteram	1738,1726: dextram	ws	interea Israelitae aqua eis ad ⟦dexteram⟧ sinistramque usum praestante muri medium
+Exod.14.29	base-only	reading	praestante	1738: prxftante	1750,1726,ws	eis ad dexteram sinistramque usum ⟦praestante⟧ muri medium mare sicco pede
+Exod.14.29	base-only	reading		1738: I	1750,1726,ws	sinistramque usum praestante muri medium ⟦⟧ mare sicco pede perambularunt
+Exod.14.30	base-only	reading	Israelitae Jova praesidio	1738: Israelite Iou c prxfidio	ws	Eo die ⟦Israelitae Jova praesidio⟧ ab injuria Aegyptiorum conservati quum
+Exod.14.30	others	reading	Jova	1750,1726: Iouae	ws	Eo die Israelitae ⟦Jova⟧ praesidio ab injuria Aegyptiorum conservati
+Exod.14.30	base-only	reading	quum	1738: quinn	1750,1726,ws	praesidio ab injuria Aegyptiorum conservati ⟦quum⟧ illos in littore mortuos spectarent
+Exod.14.31	base-only	reading	tam illustra Jovae	1738: tarn illuftre ioux	ws	Et ⟦tam illustra Jovae⟧ contra illos factum perspicerent Jovam
+Exod.14.31	base-only	reading	perspicerent	1738: perfpicerenr	1750,1726,ws	illustra Jovae contra illos factum ⟦perspicerent⟧ Jovam reveriti sunt eique et
+Exod.15.1	base-only	reading		1738: I	1726,ws	Tum Moses una cum Israelitis ⟦⟧ carmen hoc Jovae sic cecinit
+Exod.15.1	base-only	reading	Jovae sic	1738: loux fie	1750,1726,ws	una cum Israelitis carmen hoc ⟦Jovae sic⟧ cecinit Jovam canto qui pro
+Exod.15.1	base-only	reading	sua praestantia	1738: fuaprxftantia	1726,ws	cecinit Jovam canto qui pro ⟦sua praestantia⟧ et equos et equites in
+Exod.15.1	base-only	reading	dejecerit	1738: deiecerir | 1750: Ciecerit	1726,ws	equos et equites in mare ⟦dejecerit⟧
+Exod.15.2	base-only	reading	meae	1738: mex	1750,1726,ws	Vires ⟦meae⟧ carmenque Jova est qui mihi
+Exod.15.2	base-only	reading	Hic meus	1738: Hie mens	1750,1726,ws	est qui mihi saluti fuit ⟦Hic meus⟧ est Deus quem celebro Deus
+Exod.15.2	base-only	reading	quem	1738: quern	1726,ws	fuit Hic meus est Deus ⟦quem⟧ celebro Deus patrius quem extollo
+Exod.15.2	base-only	division	Deus	1738: De us	1750,1726,ws	meus est Deus quem celebro ⟦Deus⟧ patrius quem extollo
+Exod.15.2	base-only	reading	quem	1738: quern	1750,1726,ws	Deus quem celebro Deus patrius ⟦quem⟧ extollo
+Exod.15.3	base-only	division	vir bellicosus	1738: virbellicofus	1750,1726,ws	Jova ⟦vir bellicosus⟧ Jova inquam qui nominatur
+Exod.15.3	base-only	reading	nominatur	1738: Aftominatur	1750,1726,ws	vir bellicosus Jova inquam qui ⟦nominatur⟧
+Exod.15.5	base-only	reading	fundum	1738: funduin	1750,1726,ws	Et undis obruti in ⟦fundum⟧ tamquam saxa subsederint
+Exod.15.5	base-only	reading	saxa subsederint	1738: faxafubfedeg rint	1726,ws	undis obruti in fundum tamquam ⟦saxa subsederint⟧
+Exod.15.6	base-only	reading	fortissime	1738: fortisfimi	1726,ws	dextra o Jova decus tibi ⟦fortissime⟧ peperisti
+Exod.15.7	base-only	reading	praestantia	1738: prxftantia	1750,1726,ws	hostem oppressisti et tua singulari ⟦praestantia⟧ infestos tuos evertisti laxataque ira
+Exod.15.7	base-only	reading		1738: g	1726,ws	evertisti laxataque ira tua quasi ⟦⟧ stipulam confecisti
+Exod.15.8	base-only	reading	tuorum	1738: tuarum | 1750: tuo g rum	1726,ws	Ergo ad ⟦tuorum⟧ narium flatum coacervatae sunt aquae
+Exod.15.8	base-only	reading	coacervatae	1738: coaceruatx	1750,1726,ws	Ergo ad tuorum narium flatum ⟦coacervatae⟧ sunt aquae stetere fluctus in
+Exod.15.8	base-only	reading	fluctus	1738: fluftus | 1750: flutus	1726,ws	flatum coacervatae sunt aquae stetere ⟦fluctus⟧ in cumulum inque mari medio
+Exod.15.8	base-only	reading	undae	1738: vndx	1750,1726,ws	in cumulum inque mari medio ⟦undae⟧ concreverunt
+Exod.15.9	base-only	reading		1738: q	1750,1726,ws	Dixerat hostis ⟦⟧ persequar adsequar dividam praedam animum
+Exod.15.9	base-only	reading	praedam	1738: prxdam	1750,1726,ws	Dixerat hostis persequar adsequar dividam ⟦praedam⟧ animum meum ex illis explebo
+Exod.15.10	base-only	reading	te spiritu tuo	1738: tefpirituio	ws	At ⟦te spiritu tuo⟧ isto flante obruti sunt mari
+Exod.15.11	base-only	reading	Quis	1738: Qiiis	1750,1726,ws	⟦Quis⟧ tibi deorum par est o
+Exod.15.11	base-only	reading		1738: n	1726,ws	Quis tibi deorum par est ⟦⟧ o Jova quis cum sacro
+Exod.15.13	base-only	reading	clementia	1738: dementia	1750,1726,ws	a te redemptum pro tua ⟦clementia⟧ abducis et tua vi in
+Exod.15.13	base-only	reading	tuum	1738: tunm	1750,1726,ws	abducis et tua vi in ⟦tuum⟧ sacrum perducis domicilium
+Exod.15.14	base-only	reading	cohorrescunt	1738: cchuiTefcant | 1750: cohorrceícant | 1726: cohorrescant	ws	Hoc audito ⟦cohorrescunt⟧ nationes invadat incolas Palaestinae trepidatio
+Exod.15.14	base-only	reading	Palaestinae	1738: Palxftinx	1726,ws	audito cohorrescunt nationes invadat incolas ⟦Palaestinae⟧ trepidatio
+Exod.15.15	base-only	reading	Tum	1738: turn	1750,1726,ws	⟦Tum⟧ perturbentur duces Idumaei Moabitarum proceres
+Exod.15.15	base-only	reading	Idumaei	1738: Idumxi	1750,1726,ws	Tum perturbentur duces ⟦Idumaei⟧ Moabitarum proceres terrore corripiantur omnes
+Exod.15.15	base-only	division	terrore corripiantur	1738: terrorecorripiantur	1750,1726,ws	perturbentur duces Idumaei Moabitarum proceres ⟦terrore corripiantur⟧ omnes incolae Chananaeae exanimentur
+Exod.15.15	base-only	reading	incolae Chananaeae	1738: incolx Chananxx | 1750: incolaeChananaez	1726,ws	Moabitarum proceres terrore corripiantur omnes ⟦incolae Chananaeae⟧ exanimentur
+Exod.15.16	base-only	reading	pavore labefactentur	1738: pauorc labefaclentur	1726,ws	Tantoque ⟦pavore labefactentur⟧ ut ad tui brachii magnitudinem
+Exod.15.16	base-only	reading	cautes obmutescant	1738: cautesjobmutefcant	1750,1726,ws	ad tui brachii magnitudinem tamquam ⟦cautes obmutescant⟧ dum transit tuus Jova populus
+Exod.15.16	base-only	reading	tuus	1738: turn	1750,1726,ws	tamquam cautes obmutescant dum transit ⟦tuus⟧ Jova populus dum transit populus
+Exod.15.16	base-only	reading	populus quem	1738: popalus quern	1750,ws	tuus Jova populus dum transit ⟦populus quem⟧ tu tibi comparasti
+Exod.15.17	base-only	reading	Quem	1738: quern	1750,1726,ws	⟦Quem⟧ in tuae possessionis montem perductum
+Exod.15.17	base-only	reading	tuae possessionis montem perductum	1738: tux posfesfionismontempcrdu m	1726,ws	Quem in ⟦tuae possessionis montem perductum⟧ ibi quasi plantes quam tuae
+Exod.15.17	base-only	reading	tuae	1738: tux	1750,1726,ws	perductum ibi quasi plantes quam ⟦tuae⟧ habitationis sedem Jova parasti sacrarium
+Exod.15.19	base-only	division	Pharaonis	1738: Pharao nis	1750,1726,ws	Qui in ⟦Pharaonis⟧ equos cum suis et curribus
+Exod.15.19	base-only	division	undas converterit	1738: vndasconuerterit	1750,1726,ws	equitibus in mare ingressus maris ⟦undas converterit⟧ quum Israelitae in sicco medium
+Exod.15.19	base-only	reading	Israelitae	1738: Israelitx	1750,1726,ws	ingressus maris undas converterit quum ⟦Israelitae⟧ in sicco medium mare perambulaverint
+Exod.15.20	base-only	reading	Aharonis	1738: Ah iron is	1750,1726,ws	Maria quoque vates ⟦Aharonis⟧ soror tympanum manu ferens subsequentibus
+Exod.15.20	base-only	reading	ferens	1738: feren	1750,1726,ws	vates Aharonis soror tympanum manu ⟦ferens⟧ subsequentibus omnibus mulieribus et choros
+Exod.15.20	base-only	reading	cum tympanis	1738: cumtympaiis	1750,1726,ws	subsequentibus omnibus mulieribus et choros ⟦cum tympanis⟧ agentibus
+Exod.15.21	base-only	reading	ita Jovam	1738: it lo ii nam	1726,ws	Illis respondit ⟦ita Jovam⟧ cantate qui pro sua praestantia
+Exod.15.21	base-only	reading	praestantia	1738: prx tantia	1750,1726,ws	Jovam cantate qui pro sua ⟦praestantia⟧ et equos et equites in
+Exod.15.21	base-only	reading	dejecerit	1738: iteiecerit	1750,1726,ws	equos et equites in mare ⟦dejecerit⟧
+Exod.15.22	base-only	reading	profecti Moses et Israelitae	1738: profecli Mjfesetaz Israelitx	1750,1726,ws	A mari rubro ⟦profecti Moses et Israelitae⟧ et in Sur solitudinem tridui
+Exod.15.22	base-only	reading	solitudinem	1738: folituiinem	1750,1726,ws	et Israelitae et in Sur ⟦solitudinem⟧ tridui iter progressi aquam non
+Exod.15.22	base-only	reading	aquam	1738: aquan	1750,1726,ws	Sur solitudinem tridui iter progressi ⟦aquam⟧ non inveniebant
+Exod.15.22	base-only	reading		1738: E inue EXUUVS Lap t | 1750: inue	1726,ws	tridui iter progressi aquam non ⟦⟧ inveniebant
+Exod.15.23	base-only	reading	eam	1738: earn	1750,1726,ws	Ubi ad Maram ventum est ⟦eam⟧ aquam bibere propter ejus amaritudinem
+Exod.15.23	base-only	reading	propter	1738: propier	1750,1726,ws	ventum est eam aquam bibere ⟦propter⟧ ejus amaritudinem non poterant ex
+Exod.15.24	base-only	reading	Ideoque	1738: idebque	1750,1726,ws	⟦Ideoque⟧ contra Mosem fremebant requirentes quid
+Exod.15.25	base-only	spelling	appellatus	1738: adpellatus	1750,1726,ws	Et Jova a Mose ⟦appellatus⟧ ei lignum quoddam monstravit quo
+Exod.15.25	base-only	reading	injecto facta	1738: inieclo facia	1726,ws	quoddam monstravit quo in aquam ⟦injecto facta⟧ dulcis est Ibi eos periclitatus
+Exod.15.25	base-only	reading	periclitatus	1738: penditatus	1750,1726,ws	facta dulcis est Ibi eos ⟦periclitatus⟧ his institutis et praeceptionibus instruxit
+Exod.15.25	base-only	reading	praeceptionibus	1738: pnieceptionibus	1750,1726,ws	eos periclitatus his institutis et ⟦praeceptionibus⟧ instruxit
+Exod.15.26	others	reading	servirent	1750,1726: feruarent	ws	praeceptis intenderent et instituta omnia ⟦servirent⟧ sese eis nullum morbum cujusmodi
+Exod.16.1	base-only	reading	multitudo	1738: nnritifudo	1750,1726,ws	Ab Elimo profecta omnis Israelitarum ⟦multitudo⟧ in Sinem solitudinem positam inter
+Exod.16.1	correct	division	et Sinam	1738,1750: etSinam	1726,ws	Sinem solitudinem positam inter Elimum ⟦et Sinam⟧ pervenit quinto decimo die secundi
+Exod.16.1	base-only	reading	secundi	1738: feeundi	1726,ws	Sinam pervenit quinto decimo die ⟦secundi⟧ mensis ex quo Aegypto excesserant
+Exod.16.1	base-only	reading		1738: a	1726,ws	die secundi mensis ex quo ⟦⟧ Aegypto excesserant
+Exod.16.2	base-only	spelling	Israelitae	1738: Israelite | 1750: líraélitae	1726,ws	Ibi vulgo ⟦Israelitae⟧ in Mosen et Aharonem fremebant
+Exod.16.2	correct	reading	Mosen	1738,1750,1726: Mofem	ws	Ibi vulgo Israelitae in ⟦Mosen⟧ et Aharonem fremebant
+Exod.16.2	base-only	reading	fremebant	1738: gfremebant	1750,1726,ws	Israelitae in Mosen et Aharonem ⟦fremebant⟧
+Exod.16.3	base-only	reading	si	1738: ft	1750,1726,ws	Optare sese ⟦si⟧ fieri posset ut in Aegypto
+Exod.16.3	base-only	reading	assiderent	1738: adfiderenf | 1750: adfiderent	1726,ws	essent occisi quum ollis carnium ⟦assiderent⟧ quum panem ad satietatem comessent
+Exod.16.3	base-only	reading	eam	1738: earn	1750,1726,ws	ad satietatem comessent Nunc in ⟦eam⟧ esse solitudinem ab illis adductos
+Exod.16.3	base-only	reading	illis	1738: ill s	1750,1726,ws	in eam esse solitudinem ab ⟦illis⟧ adductos ubi tota illa multitudo
+Exod.16.3	base-only	reading	tota illa multitudo	1738: tofa A ilia mukitudo	1726,ws	solitudinem ab illis adductos ubi ⟦tota illa multitudo⟧ fame conficeretur
+Exod.16.4	others	reading	se	1750,1726: fefe	ws	At Jova Mosi denuntiavit ⟦se⟧ illis panem pluvium esse de
+Exod.16.4	others	reading	pluvium	1750,1726: pluturum	ws	Mosi denuntiavit se illis panem ⟦pluvium⟧ esse de caelo cujus singulis
+Exod.16.5	base-only	division	consuessent	1738: con fuesfent | 1750: confueflent	1726,ws	esset quam quantum reliquis diebus ⟦consuessent⟧
+Exod.16.9	others	reading	audivit	1750,1726: audiuerit	ws	conspectum accedere qui eorum querimonias ⟦audivit⟧
+Exod.16.12	others	reading	renuntia	1750,1726: renuntiato	ws	Audivi fremitus Israelitarum ⟦renuntia⟧ eis sub vespere comessuros carnem
+Exod.16.12	others	reading	vespere	1750,1726: vefperum	ws	fremitus Israelitarum renuntia eis sub ⟦vespere⟧ comessuros carnem et mane Satiandos
+Exod.16.15	others	reading	se	1750,1726: fefe	ws	Eo viso Israelitae sic inter ⟦se⟧ dicere Man hu quid hoc
+Exod.16.16	base-only	reading	erit ad victum	1738: videlicet marmam	1750,1726,ws	ex eo quantum cuique opus ⟦erit ad victum⟧ videlicet gomerem in singula capita
+Exod.16.18	base-only	reading		1738: I	1750,1726,ws	Sed ⟦⟧ quum gomere metirentur neque ei
+Exod.16.18	base-only	reading		1738: Cap Ttf i FXODVS neque	1726,ws	qui plus collegerat supererat neque ⟦⟧ ei qui minus deerat tantumque
+Exod.16.18	base-only	reading	tantumque	1738: taniiimque	1750,1726,ws	neque ei qui minus deerat ⟦tantumque⟧ quisque collegerat quantum ei ad
+Exod.16.18	base-only	reading	collegerat	1738: coilegerat	1750,1726,ws	qui minus deerat tantumque quisque ⟦collegerat⟧ quantum ei ad victum opus
+Exod.16.18	base-only	reading	ad victum opus	1738: S advi himopus	1750,1726,ws	tantumque quisque collegerat quantum ei ⟦ad victum opus⟧ erat
+Exod.16.19	base-only	reading	Moses	1738: Mof s	1750,1726,ws	Interdixerat autem ⟦Moses⟧ ne quis ex eo reliquum
+Exod.16.19	base-only	reading	reliquum	1738: reli quuni | 1750: reli quum	1726,ws	Moses ne quis ex eo ⟦reliquum⟧ faceret in crastinum
+Exod.16.20	base-only	reading	praecepto	1738: pr rcepto	1750,1726,ws	Cujus ⟦praecepto⟧ neglecto nonnulli reservaverunt sed id
+Exod.16.20	base-only	reading	nonnulli reservaverunt	1738: nonmdli refernaucnint	1750,1726,ws	Cujus praecepto neglecto ⟦nonnulli reservaverunt⟧ sed id enatis vermibus fetebat
+Exod.16.20	base-only	reading	enatis	1738: cnatis	1750,1726,ws	neglecto nonnulli reservaverunt sed id ⟦enatis⟧ vermibus fetebat His quum Moses
+Exod.16.20	base-only	reading	fetebat	1738: fcerebat | 1750: foctebat	1726,ws	reservaverunt sed id enatis vermibus ⟦fetebat⟧ His quum Moses succensuisset
+Exod.16.20	base-only	reading	succensuisset	1738: fuecenIfuisfet | 1750: fuccen fuiffet	1726,ws	vermibus fetebat His quum Moses ⟦succensuisset⟧
+Exod.16.21	base-only	reading	cujusque victui	1738: cuiusquevi hii	1726,ws	Colligebant deinceps singulis matutinis quod ⟦cujusque victui⟧ satis esset postea calescente sole
+Exod.16.21	base-only	reading	postea calescente	1738: poitea calefcentc	1750,1726,ws	quod cujusque victui satis esset ⟦postea calescente⟧ sole liquefiebat
+Exod.16.22	base-only	reading	sexto	1738: fexro	1750,1726,ws	At ⟦sexto⟧ die duplicem victum collegerunt videlicet
+Exod.16.22	base-only	reading	victum collegerunt videlicet	1738: vic him collegeruntjvidelicet	1726,ws	At sexto die duplicem ⟦victum collegerunt videlicet⟧ duos gomeres in singulos Id
+Exod.16.22	base-only	reading	singulos	1738: ingulos	1750,1726,ws	collegerunt videlicet duos gomeres in ⟦singulos⟧ Id quum omnes civitatis magistratus
+Exod.16.22	base-only	reading	civitatis	1738: eiuitatis	1750,1726,ws	in singulos Id quum omnes ⟦civitatis⟧ magistratus ad Mosem retuliissent
+Exod.16.23	base-only	reading	denuntiatum	1738: denuntiatuin	1750,1726,ws	Respondit illud ipsum esse ⟦denuntiatum⟧ a Jova postridie enim Sabbati
+Exod.16.23	base-only	reading	Jovae	1738: loux	1750,1726,ws	Jova postridie enim Sabbati ferias ⟦Jovae⟧ sacras fore coquerent et elixarent
+Exod.16.23	base-only	reading	coquerent et elixarent	1738: eoquerent etelixarent	1750,1726,ws	Sabbati ferias Jovae sacras fore ⟦coquerent et elixarent⟧ quod opus esset reliquum omne
+Exod.16.23	base-only	division	opus esset	1738: opusesfet	1750,1726,ws	fore coquerent et elixarent quod ⟦opus esset⟧ reliquum omne sibi in posterum
+Exod.16.23	base-only	reading	sibi	1738: libi	1750,1726,ws	quod opus esset reliquum omne ⟦sibi⟧ in posterum diem reponerent ac
+Exod.16.24	base-only	reading	Idque	1738: Idquc	1750,1726,ws	⟦Idque⟧ quum ab illis esset administratum
+Exod.16.24	base-only	division	illis	1738: il lis	1750,1726,ws	Idque quum ab ⟦illis⟧ esset administratum ad praescriptum Mosis
+Exod.16.24	base-only	reading	praescriptum Mosis	1738: pvxferiptumMoiis	1726,ws	ab illis esset administratum ad ⟦praescriptum Mosis⟧ postridie quod repositum fuerat id
+Exod.16.24	base-only	reading	repositum	1738: rcpofitum	1750,1726,ws	ad praescriptum Mosis postridie quod ⟦repositum⟧ fuerat id neque fetebat neque
+Exod.16.24	base-only	reading	fetebat	1738: ftttebat	1750,1726,ws	quod repositum fuerat id neque ⟦fetebat⟧ neque in eo vermes erant
+Exod.16.25	base-only	reading	illo	1738: i ic	1750,1726,ws	Eo Moses jussit ut ⟦illo⟧ die vescerentur quod Sabbatum Jovae
+Exod.16.25	base-only	reading	vescerentur	1738: vefcerenmr | 1750: vefte rentur	1726,ws	Moses jussit ut illo die ⟦vescerentur⟧ quod Sabbatum Jovae esset neque
+Exod.16.25	base-only	reading	Jovae	1738: louse	1750,1726,ws	illo die vescerentur quod Sabbatum ⟦Jovae⟧ esset neque essent ruri inventuri
+Exod.16.26	base-only	reading	diebus	1738: die ofcl	1750,1726,ws	Sex ⟦diebus⟧ enim colligi debere septimo autem
+Exod.16.27	base-only	reading	populo	1738: popnlo	1750,1726,ws	Quidam tamen de ⟦populo⟧ etiam septimo die exiverunt ad
+Exod.16.27	correct	division	invenerunt	1738,1750: inuene runt	1726,ws	exiverunt ad colligendum sed nihil ⟦invenerunt⟧
+Exod.16.28	base-only	reading	Jovae	1738: loux	1750,1726,ws	Hique a Mose jussu ⟦Jovae⟧ castigati sunt quod tam diu
+Exod.16.28	base-only	reading	tam diu illius praecepta	1738: tarn diuillius prxcepta	1750,1726,ws	jussu Jovae castigati sunt quod ⟦tam diu illius praecepta⟧ et leges servare nollent
+Exod.16.29	base-only	reading	Perspicuum	1738: peripieuum	1750,1726,ws	⟦Perspicuum⟧ esse Jovam quia ipsis Sabbatum
+Exod.16.29	base-only	reading	quia ipsis	1738: quiaipiis	1750,1726,ws	Perspicuum esse Jovam ⟦quia ipsis⟧ Sabbatum tradidisset propterea sexto die
+Exod.16.29	base-only	reading	victum praebere	1738: vichim prxbere	1750,1726,ws	Sabbatum tradidisset propterea sexto die ⟦victum praebere⟧ bidui manerent in suis sedibus
+Exod.16.29	base-only	division	neu quis se	1738: neuquisfe	1750,1726,ws	bidui manerent in suis sedibus ⟦neu quis se⟧ loco moveret die septimo
+Exod.16.29	base-only	reading	moveret	1738: mouevet	1750,1726,ws	sedibus neu quis se loco ⟦moveret⟧ die septimo
+Exod.16.31	base-only	spelling	Israelitae	1738: Israelite | 1750: Ifraclitae	1726,ws	Nominaverunt autem illud ⟦Israelitae⟧ Manna quod similitudinem habebat seminis
+Exod.16.31	base-only	reading	placentarum ex	1738: placen taruui e	1726,ws	habebat seminis coriandri album gustu ⟦placentarum ex⟧ melle
+Exod.16.32	base-only	division	Idque sibi	1738: Idquefibi	1750,1726,ws	⟦Idque sibi⟧ Moses dixit a Jova in
+Exod.16.32	base-only	reading	seponeret	1738: feponcret | 1726: seponderet	1750,ws	ex eo quantum gomer caperet ⟦seponeret⟧ conservandum ad posteros ut viderent
+Exod.16.32	base-only	reading	victu	1738: vicui	1750,1726,ws	posteros ut viderent quo eos ⟦victu⟧ ille tolerasset in desertis eductos
+Exod.16.32	base-only	reading	eductos	1738: educlos	1750,1726,ws	victu ille tolerasset in desertis ⟦eductos⟧ ex Aegypto
+Exod.16.33	base-only	reading	Mannae	1738: Mannx	1750,1726,ws	Mandavitque Aharoni ut gomeris mensuram ⟦Mannae⟧ in phialam immitteret idque apud
+Exod.16.33	base-only	reading	phialam	1738: phiaiam	1750,1726,ws	ut gomeris mensuram Mannae in ⟦phialam⟧ immitteret idque apud Jovam ad
+Exod.16.33	base-only	division	idque apud	1738: idqueapud	1750,1726,ws	mensuram Mannae in phialam immitteret ⟦idque apud⟧ Jovam ad posteros custodiendum reponeret
+Exod.16.33	base-only	reading	custodiendum	1738: cuftcdiendum	1750,1726,ws	idque apud Jovam ad posteros ⟦custodiendum⟧ reponeret
+Exod.16.34	base-only	reading	quemadmodum Jova Mosi praeceperat	1738: quemad modum IouaMofiprxceperat	1726,ws	Quod ille fecit ⟦quemadmodum Jova Mosi praeceperat⟧ idque apud Oraculum asservandum reposuit
+Exod.16.34	correct	spelling	asservandum	1738,1750: adferuandum	1726,ws	Mosi praeceperat idque apud Oraculum ⟦asservandum⟧ reposuit
+Exod.16.35	base-only	spelling	Israelitae	1738: Israelite	1750,1726,ws	Hac Manna ⟦Israelitae⟧ per quadriginta annos usi sunt
+Exod.16.35	correct	reading	quadriginta	1738,1726: quadraginta	ws	Hac Manna Israelitae per ⟦quadriginta⟧ annos usi sunt quibus ad
+Exod.16.35	base-only	reading	extremam Chananaeam	1738: extrcmam Chananxam	1750,1726,ws	annos usi sunt quibus ad ⟦extremam Chananaeam⟧ quae terra habitabatur pervenerunt
+Exod.17.1	base-only	reading	profecti	1738: profe et i	1750,1726,ws	Igitur a Sine ⟦profecti⟧ ad Jovae praescriptum iter facientes
+Exod.17.1	base-only	reading	Jovae praescriptum	1738: loux prxferiptum	1726,ws	Igitur a Sine profecti ad ⟦Jovae praescriptum⟧ iter facientes castra habuerunt in
+Exod.17.2	base-only	division	in jurgio	1738: iniurgio	1750,1726,ws	Petebant a Mose ⟦in jurgio⟧ ut sibi aquae ad bibendum
+Exod.17.2	base-only	reading	aquae	1738: aqux	1750,1726,ws	Mose in jurgio ut sibi ⟦aquae⟧ ad bibendum copiam facerent A
+Exod.17.2	base-only	reading	facerent	1738: faceret	1750,1726,ws	sibi aquae ad bibendum copiam ⟦facerent⟧ A quibus quum Moses quaereret
+Exod.17.2	base-only	reading	quaereret	1738: quxreret	1750,1726,ws	facerent A quibus quum Moses ⟦quaereret⟧ cur secum contenderent quidve Jovam
+Exod.17.3	base-only	reading	Quaerebant ipsi	1738: quxrebant ipfl	1726,ws	⟦Quaerebant ipsi⟧ ex eo siti et aquae
+Exod.17.3	base-only	reading	eo siti et aquae	1738: eOjfitiet aqux	1750,1726,ws	Quaerebant ipsi ex ⟦eo siti et aquae⟧ desiderio laborantes cur se ex
+Exod.17.3	base-only	division	et liberos	1738: etliberos	1750,1726,ws	Aegypto extraxisset ut et ipsos ⟦et liberos⟧ et pecora siti necaret
+Exod.17.4	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Moses Jovam appellans Quid faciam
+Exod.17.4	base-only	reading	appellans	1738: ad pellans	1726,ws	Tum Moses Jovam ⟦appellans⟧ Quid faciam huic inquit populo
+Exod.17.4	correct	reading	me	1738,1726: 	ws	a quo parum abest quin ⟦me⟧ lapider
+Exod.17.5	base-only	division	populum	1738: po pulum | 1750: po g pulum	1726,ws	Cui Jova Antecede ⟦populum⟧ inquit adhibitisque nonnullis senatorum et
+Exod.17.5	base-only	reading	flumen	1738: llumen	1750,1726,ws	senatorum et virgam tuam qua ⟦flumen⟧ percussisti manu ferens perge
+Exod.17.6	base-only	reading	in conspectu adstabo	1738: inconfpectu aditabo	ws	Illic ego tibi ⟦in conspectu adstabo⟧ in petra in Horebo quam
+Exod.17.6	base-only	reading	in Horebo	1738: inHorebo	1750,1726,ws	in conspectu adstabo in petra ⟦in Horebo⟧ quam petram ubi tu percusseris
+Exod.17.6	base-only	division	ad populi potionem	1738: adpopulipotionem	1750,1726,ws	percusseris manabit ex ea aqua ⟦ad populi potionem⟧ Id quod Moses in oculis
+Exod.17.6	base-only	reading	oculis Israelitarum	1738: oculislsraelitarum	1726,ws	potionem Id quod Moses in ⟦oculis Israelitarum⟧ senatorum fecit
+Exod.17.7	base-only	division	Israelitarum	1738: Israeli tarum	1750,1726,ws	Massam et Meribam hoc ab ⟦Israelitarum⟧ jurgio illud a tentando nominavit
+Exod.17.7	base-only	reading	Israelitae	1738: Israelitx	1750,1726,ws	a tentando nominavit quod ibi ⟦Israelitae⟧ tentassent versareturne inter eos Jova
+Exod.17.8	base-only	reading	Raphidimum proelio	1738: Raphidi mum prcelio	1726,ws	Amalechus autem ad ⟦Raphidimum proelio⟧ cum Israelitis dimicaturus venit
+Exod.17.8	base-only	reading	Israelitis	1738: Israelii s	1750,1726,ws	autem ad Raphidimum proelio cum ⟦Israelitis⟧ dimicaturus venit
+Exod.17.9	base-only	reading	Josuae praecepit	1738: Iofux prxcepit	1750,1726,ws	Et Moses ⟦Josuae praecepit⟧ ut viros deligeret quibus Amalecho
+Exod.17.9	base-only	reading		1738: cum E qui EXODVS Cap if | 1726: cum	ws	Josuae praecepit ut viros deligeret ⟦⟧ quibus Amalecho proelio occurreret postridie
+Exod.17.9	correct	reading	se	1738,1726: fefe	ws	quibus Amalecho proelio occurreret postridie ⟦se⟧ in jugo collis adstaturum virgam
+Exod.17.9	base-only	reading	adstaturum	1738: acUtaturuni | 1726: astaturum	1750,ws	postridie se in jugo collis ⟦adstaturum⟧ virgam divinam secum habentem
+Exod.17.9	base-only	reading	secum habentem	1738: Tecum lOhabentem	1726,ws	jugo collis adstaturum virgam divinam ⟦secum habentem⟧
+Exod.17.10	base-only	reading	Josua sicut erat jussus proelium	1738: lofua ficur eratiusfus prceliura	1726,ws	Igitur ⟦Josua sicut erat jussus proelium⟧ cum Amalecho commisit Moses Aharon
+Exod.17.10	base-only	reading	jugum	1738: iugura | 1750: griugum	1726,ws	commisit Moses Aharon et Hur ⟦jugum⟧ collis conscenderunt
+Exod.17.11	base-only	reading	manum attollente	1738: niaiumi artollente	1750,1726,ws	Ubi Mose ⟦manum attollente⟧ vincebant Israelitae remittente Amalechus
+Exod.17.11	base-only	spelling	Israelitae	1738: Israelite | 1750: Itraélitae	1726,ws	Ubi Mose manum attollente vincebant ⟦Israelitae⟧ remittente Amalechus
+Exod.17.12	correct	reading	supposerunt	1738,1750,1726: fuppofuerunt	ws	eum gravarent illi saxum ei ⟦supposerunt⟧ in quo sederet Deinde Aharon
+Exod.17.12	base-only	reading	fulciunt	1738: fulciunc	1750,1726,ws	eius alter altera ex parte ⟦fulciunt⟧ quibus manibus eo habitu ad
+Exod.17.12	base-only	reading	manibus eo habitu	1738: manibuseohabitu	1750,1726,ws	altera ex parte fulciunt quibus ⟦manibus eo habitu⟧ ad solis occasum continenter sustentatis
+Exod.17.14	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Jova Mosi mandavit ut id
+Exod.17.14	base-only	reading	Mosi	1738: Mori	1750,1726,ws	Tum Jova ⟦Mosi⟧ mandavit ut id in monumenta
+Exod.17.14	base-only	spelling	monumenta litterarum referret	1738: monimenta litterarumreferret	1726,ws	Mosi mandavit ut id in ⟦monumenta litterarum referret⟧ et Josuae auribus inculcaret se
+Exod.17.14	base-only	reading	inculcaret se	1738: inculcaref fefe	ws	litterarum referret et Josuae auribus ⟦inculcaret se⟧ enim Amalechi memoriam esse de
+Exod.17.14	others	reading	se	1750,1726: fefe	ws	referret et Josuae auribus inculcaret ⟦se⟧ enim Amalechi memoriam esse de
+Exod.17.14	base-only	reading	deleturum	1738: deletumm	1750,1726,ws	memoriam esse de rerum natura ⟦deleturum⟧
+Exod.17.15	base-only	spelling	appellavit	1738: adpellauit | 1726: appelavit	ws	Moses aram exstruxit quam Signijovium ⟦appellavit⟧
+Exod.17.16	correct	reading	Jovae	1738,1750: louae	1726,ws	Quia ⟦Jovae⟧ manus signo admota est inquit
+Exod.17.16	base-only	reading	Jovae	1738: louae	1750,1726,ws	manus signo admota est inquit ⟦Jovae⟧ bellum cum Amalechitis susceptum est
+Exod.18.1	base-only	reading	pontifex	1738: ponI tifex	1750,1726,ws	Jethro autem Madianitarum ⟦pontifex⟧ Mosis socer ubi intellexit quantis
+Exod.18.1	base-only	reading	et suos Israelitas affecisset	1738: effuos Israclitas adfecisfet	1726,ws	quantis Jova Deus beneficiis Mosem ⟦et suos Israelitas affecisset⟧ qui in Israelitas ex Aegypto
+Exod.18.1	others	reading	in	1750,1726: 	ws	et suos Israelitas affecisset qui ⟦in⟧ Israelitas ex Aegypto eduxisset
+Exod.18.1	base-only	reading	in Israelitas	1738: israelifas	ws	et suos Israelitas affecisset qui ⟦in Israelitas⟧ ex Aegypto eduxisset
+Exod.18.1	base-only	reading	eduxisset	1738: cduxisfet	1750,1726,ws	qui in Israelitas ex Aegypto ⟦eduxisset⟧
+Exod.18.2	base-only	reading	Adhibuit secum	1738: fcadhibuit fccum	1750,1726,ws	⟦Adhibuit secum⟧ Sephoram Mosis uxorem quam ille
+Exod.18.2	base-only	division	remiserat	1738: remife rat | 1750: remife	1726,ws	Mosis uxorem quam ille postea ⟦remiserat⟧
+Exod.18.3	base-only	reading	quod dixisset	1738: qwod dixi fet	1750,1726,ws	quorum uni nomen erat Gersomus ⟦quod dixisset⟧ Moses peregrinum se esse in
+Exod.18.4	base-only	reading	Deus	1738: Dcus	1750,1726,ws	Alteri Eliezer quod ⟦Deus⟧ patrius ei fuisset auxilio eumque
+Exod.18.4	base-only	division	Pharaonis	1738: Pha raonis	1750,1726,ws	fuisset auxilio eumque e gladio ⟦Pharaonis⟧ eripuisset
+Exod.18.5	base-only	reading	pervenit	1738: pertienit	1750,1726,ws	Cum his ad Mosem ⟦pervenit⟧ in solitudinem ubi ille castra
+Exod.18.5	base-only	division	habebat ad	1738: habebatad	1750,1726,ws	in solitudinem ubi ille castra ⟦habebat ad⟧ montem divinum
+Exod.18.5	base-only	reading	divinum	1738: tfdiuinum	1750,1726,ws	ille castra habebat ad montem ⟦divinum⟧
+Exod.18.7	base-only	reading	alterum	1738: alteram	1750,1726,ws	honorifice deosculatus est quumque alter ⟦alterum⟧ de valetudine percontati essent in
+Exod.18.7	base-only	division	valetudine percontati	1738: valetudinepercontati	1750,1726,ws	est quumque alter alterum de ⟦valetudine percontati⟧ essent in tabernaculum ingressi sunt
+Exod.18.8	base-only	reading	Ibi	1738: lbi	1750,1726,ws	⟦Ibi⟧ Moses socero suo narravit quibus
+Exod.18.8	base-only	reading	narravit quibus	1738: narrauif qui g bus	1726,ws	Ibi Moses socero suo ⟦narravit quibus⟧ Jova modis accepisset Pharaonem et
+Exod.18.8	base-only	reading	causa et quantis casibus iter infestum	1738: causfa ct quantiscafibus iterinfeftum	1726,ws	accepisset Pharaonem et Aegyptios Israelitarum ⟦causa et quantis casibus iter infestum⟧ habuissent quibus essent a Jova
+Exod.18.9	base-only	reading	Jovae	1738: loux	1750,1726,ws	His tot ⟦Jovae⟧ in Israelitas beneficiis delectatus Jethro
+Exod.18.9	base-only	reading	delectatus	1738: delegatus	1750,1726,ws	tot Jovae in Israelitas beneficiis ⟦delectatus⟧ Jethro quo eos eripuisset Aegyptiis
+Exod.18.9	correct	reading	quo	1738,1750,1726: quod	ws	in Israelitas beneficiis delectatus Jethro ⟦quo⟧ eos eripuisset Aegyptiis
+Exod.18.10	correct	reading	Gratias	1738,1750,1726: grates	ws	⟦Gratias⟧ ago Jovae inquit qui vos
+Exod.18.10	base-only	reading	Jovae	1738: Ioua	1750,1726,ws	Gratias ago ⟦Jovae⟧ inquit qui vos ab Aegyptiis
+Exod.18.10	base-only	reading		1738: l	1726,ws	Jovae inquit qui vos ab ⟦⟧ Aegyptiis et Pharaone liberavit qui
+Exod.18.10	base-only	reading	potestati Aegyptiorum	1738: poteftari Aegyptioruin	1726,ws	et Pharaone liberavit qui populum ⟦potestati Aegyptiorum⟧ eripuit
+Exod.18.12	base-only	reading	cumque	1738: eumque	1750,1726,ws	divinam Deo et sacrificium confecit ⟦cumque⟧ eo Aharon et cuncti senatores
+Exod.18.12	base-only	reading	cuncti	1738: cuncli	1750,1726,ws	confecit cumque eo Aharon et ⟦cuncti⟧ senatores Israelitae epulas apud Deum
+Exod.18.13	base-only	division	sedens populo jus redderet	1738: fedenspo pulo iusredderet	1750,1726,ws	Postridie quum Moses ⟦sedens populo jus redderet⟧ eique populus a mane ad
+Exod.18.13	base-only	division	populus a	1738: populusa	1750,1726,ws	sedens populo jus redderet eique ⟦populus a⟧ mane ad vesperum astaret
+Exod.18.13	base-only	spelling	astaret	1738: adftaret	1726,ws	populus a mane ad vesperum ⟦astaret⟧
+Exod.18.14	base-only	reading	Eo re animadversa	1738: nimaduerfa	ws	⟦Eo re animadversa⟧ socer ejus ira dixit Quidnam
+Exod.18.14	correct	reading	ira	1738,1750,1726: ita	ws	Eo re animadversa socer ejus ⟦ira⟧ dixit Quidnam est quod tu
+Exod.18.14	base-only	division	quod tu	1738: quodtu	1750,1726,ws	ejus ira dixit Quidnam est ⟦quod tu⟧ populo praestas Quamobrem solus tu
+Exod.18.14	base-only	reading	praestas	1738: pneftas	1750,1726,ws	Quidnam est quod tu populo ⟦praestas⟧ Quamobrem solus tu sedes et
+Exod.18.14	base-only	reading	tu	1738: to	1750,1726,ws	tu populo praestas Quamobrem solus ⟦tu⟧ sedes et populus tibi cunctus
+Exod.18.14	correct	spelling	assistit	1738,1750: adfiftit	1726,ws	cunctus a mane ad vesperum ⟦assistit⟧
+Exod.18.15	base-only	division	Convenit	1738: conue nit | 1750: conuc nit	1726,ws	Cui Moses ⟦Convenit⟧ ad me ad sciscitandum Oraculum
+Exod.18.16	correct	division	negotium	1738,1750: nego tium	1726,ws	Si quod est eis ⟦negotium⟧ ad me venitur ego eorum
+Exod.18.17	base-only	reading	recte	1738: recle | 1750: rece	1726,ws	Et socer Non ⟦recte⟧ facis inquit stultumque tuum et
+Exod.18.17	base-only	reading	tuum	1738: tmim	1750,1726,ws	Non recte facis inquit stultumque ⟦tuum⟧ et istorum institutum est
+Exod.18.18	base-only	reading	difficilior	1738: difHcilior	1750,1726,ws	Nam ⟦difficilior⟧ res est quam ut eam
+Exod.18.18	base-only	reading	eam	1738: earn	1750,1726,ws	difficilior res est quam ut ⟦eam⟧ unus administrare possis
+Exod.18.19	base-only	reading		1738: i	1750,1726,ws	Sed audi ⟦⟧ quid mei consilii sit bene
+Exod.18.19	base-only	reading	sit	1738: lit	1750,1726,ws	Sed audi quid mei consilii ⟦sit⟧ bene juvante Deo Tu populi
+Exod.18.19	base-only	reading		1738: agito et eausfas ad Deum | 1750: agito et cauflas ad Deum | 1726: agito et causas ad Deum	ws	Tu populi rem apud Deum ⟦⟧ referto
+Exod.18.20	base-only	division	erudito et ad	1738: eru dito etad	1726,ws	Illosque institutis et legibus ⟦erudito et ad⟧ officii munus instruito
+Exod.18.21	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ ex omni populo viros fortes
+Exod.18.21	base-only	reading	fortes	1738: for i tes | 1750: for tes	1726,ws	Tum ex omni populo viros ⟦fortes⟧ et religiosos dispicito fideles et
+Exod.18.21	base-only	reading	avaritiae	1738: atiaritix	1750,1726,ws	et religiosos dispicito fideles et ⟦avaritiae⟧ inimicos ex quibus alios tribunos
+Exod.18.21	base-only	reading	semicenturiones	1738: femicentnriones | 1750: fcmicenturiones	1726,ws	alios tribunos alios centuriones alios ⟦semicenturiones⟧ alios decuriones constitues
+Exod.18.22	base-only	reading		1738: popuCap ig to E X O D V S	1750,1726,ws	Qui ⟦⟧ populo jus dicant omni tempore
+Exod.18.22	base-only	reading	si quae res paulo major existat	1738: fiqurres paullo maiorexfiftat	ws	jus dicant omni tempore ac ⟦si quae res paulo major existat⟧ ad te deferant de minoribus
+Exod.18.22	base-only	reading	deferant	1738: d ferant	1750,1726,ws	paulo major existat ad te ⟦deferant⟧ de minoribus omnibus judicent ipsi
+Exod.18.23	base-only	reading	praecipiat	1738: pr cipiat	1750,1726,ws	Ita fiet ut et tibi ⟦praecipiat⟧ Deus et tu stare valeas
+Exod.18.23	base-only	reading	tu stare valeas	1738: hi ftarevaleas	1750,1726,ws	et tibi praecipiat Deus et ⟦tu stare valeas⟧ et omnis iste populus in
+Exod.18.23	base-only	reading	suum	1738: fuiim	1750,1726,ws	et omnis iste populus in ⟦suum⟧ locum pacatus discedat
+Exod.18.24	base-only	reading	consilium	1738: confiiium	1750,1726,ws	Hoc soceri ⟦consilium⟧ secutus Moses sic plane fecit
+Exod.18.24	base-only	reading	sic	1738: fie	1750,1726,ws	Hoc soceri consilium secutus Moses ⟦sic⟧ plane fecit
+Exod.18.25	base-only	reading	praefecit	1738: prxfecit	1750,1726,ws	viros fortes quos populi gubernationi ⟦praefecit⟧ et tribunos centuriones semicenturiones decurionesque
+Exod.18.25	base-only	reading	decurionesque	1738: dei urionesque | 1750: de curionesque | 1726: decuriones	ws	praefecit et tribunos centuriones semicenturiones ⟦decurionesque⟧ constituit
+Exod.18.26	base-only	spelling	assidue	1738: adfidue | 1750: ad idue	1726,ws	Qui populo jus ⟦assidue⟧ redderent si quid esset difficilius
+Exod.18.26	base-only	division	ad Mosem	1738: adMofem	1750,1726,ws	redderent si quid esset difficilius ⟦ad Mosem⟧ deferrent omnia minora negotia dijudicarent
+Exod.18.26	correct	division	dijudicarent	1738,1750: diiu dicarent	1726,ws	Mosem deferrent omnia minora negotia ⟦dijudicarent⟧ ipsi
+Exod.18.27	base-only	reading	Tum	1738: Turn	1750,1726	⟦Tum⟧ dimissus a Mose socer in
+Exod.18.27	base-only	division	Mose socer	1738: Mofefocer	1750,1726	Tum dimissus a ⟦Mose socer⟧ in patriam rediit
+Exod.19.1	base-only	division	post exitum	1738: poftexitum	1750,1726,ws	Mense tertio ⟦post exitum⟧ Israelitarum de Aegypto quo die
+Exod.19.1	base-only	reading	profecti pervenerunt	1738: profec ri pernenerunt	1750,1726,ws	Aegypto quo die a Raphidimo ⟦profecti pervenerunt⟧ in solitudinem Sinam
+Exod.19.2	base-only	reading	fecerunt	1738: fece nint | 1750: fece runt	1726,ws	Et ibi castra contra montem ⟦fecerunt⟧ castris collocatis
+Exod.19.3	base-only	reading	conscendit	1738: confeendit	1750,1726,ws	Moses ad Deum ⟦conscendit⟧ ad quem Jova de monte
+Exod.19.3	base-only	reading	quem	1738: quern	1750,1726,ws	Moses ad Deum conscendit ad ⟦quem⟧ Jova de monte clamans haec
+Exod.19.3	base-only	reading	clamans haec	1738: damans hxc	1750,1726,ws	ad quem Jova de monte ⟦clamans haec⟧ inquit Jacobi stirpi referes haec
+Exod.19.3	base-only	reading	Jacobi	1738: Iaeobi	1750,1726,ws	de monte clamans haec inquit ⟦Jacobi⟧ stirpi referes haec Israëlitis renuntiabis
+Exod.19.4	base-only	reading	pacto tractatis	1738: pac to traclatis	1750,1726,ws	Ipsos videre quo ⟦pacto tractatis⟧ Aegyptiis eos mihi quasi aquilinis
+Exod.19.5	base-only	reading	audientes erunt	1738: audienteseruut	1750,1726,ws	Quare si mihi dicto ⟦audientes erunt⟧ meumque foedus conservabunt ne eos
+Exod.19.5	base-only	reading	foedus	1738: fcedus	1750,1726,ws	mihi dicto audientes erunt meumque ⟦foedus⟧ conservabunt ne eos habiturum esse
+Exod.19.5	correct	reading	ne	1738,1750,1726: me	ws	audientes erunt meumque foedus conservabunt ⟦ne⟧ eos habiturum esse pro peculio
+Exod.19.6	base-only	reading	est	1738: elt	1750,1726,ws	Nam meus ⟦est⟧ universus orbis terrarum proque regno
+Exod.19.6	base-only	reading	sancta Haec	1738: fancla Hxc	1750,1726,ws	proque regno sacerdotum et gente ⟦sancta Haec⟧ sunt quae Israelitis referes
+Exod.19.6	base-only	reading	quae	1738: qua	1750,1726,ws	et gente sancta Haec sunt ⟦quae⟧ Israelitis referes
+Exod.19.7	base-only	reading	Haec	1738: Hxc	1750,1726,ws	⟦Haec⟧ omnia Jovae praecepta Moses convocatis
+Exod.19.7	base-only	reading	Jovae praecepta	1738: Ioux prxcepta	1750,1726,ws	Haec omnia ⟦Jovae praecepta⟧ Moses convocatis populi senatoribus exposuit
+Exod.19.7	base-only	division	exposuit	1738: expo fuit | 1750: expofut	1726,ws	praecepta Moses convocatis populi senatoribus ⟦exposuit⟧
+Exod.19.8	base-only	reading	facturum	1738: faclurum | 1750: fa et urum	1726,ws	populus universus uno ore respondit ⟦facturum⟧ se quidquid Jova jussisset Quae
+Exod.19.8	base-only	reading	Quae	1738: Q iae	1750,1726,ws	facturum se quidquid Jova jussisset ⟦Quae⟧ populi verba quum Moses ad
+Exod.19.9	base-only	reading	ad te veniam in densitate nubis	1738: adte veniamin denfitstenubis	1726	sic Jova subjecit Ego jam ⟦ad te veniam in densitate nubis⟧ ut populus me tecum loquentem
+Exod.19.9	base-only	reading	tibique	1738: tibiqiee	1750,1726	populus me tecum loquentem audiat ⟦tibique⟧ fidem habeant in perpetuum Responso
+Exod.19.9	others	reading	Moysen	1750,1726: Mofem		Responso populi ad Jovam per ⟦Moysen⟧ relato
+Exod.19.9	base-only	reading	Moysen relato	1738: Mofem relator		Responso populi ad Jovam per ⟦Moysen relato⟧
+Exod.19.10	base-only	reading	hodie et cras	1738: hodieet eras	1750,ws	ad eos inquit Jova eosque ⟦hodie et cras⟧ lustra et cura uti sua
+Exod.19.10	correct	reading	vestimente	1738,1726: veftimenta | 1750: veftimen ta	ws	lustra et cura uti sua ⟦vestimente⟧ perluant
+Exod.19.11	base-only	division		1738: H | 1750: g	1726,ws	Sintque in tertium ⟦⟧ diem parati Nam tertio die
+Exod.19.11	base-only	reading	tertio	1738: tenio	1750,1726,ws	in tertium diem parati Nam ⟦tertio⟧ die descendet Jova in oculis
+Exod.19.12	base-only	reading	terminum	1738: termi I num | 1750: termi num	1726,ws	Tu eis ⟦terminum⟧ circumscribito et edicito ut caveant
+Exod.19.12	base-only	reading	ascendant	1738: adfeenciant | 1750: adfcendant	1726,ws	ut caveant ne in montem ⟦ascendant⟧ neve montis extremum attingant si
+Exod.19.12	base-only	reading	poena erit	1738: pcena eiit | 1750: poenaerit	1726,ws	si quis montem attinget capitis ⟦poena erit⟧
+Exod.19.13	base-only	reading	Proinde	1738: Froinde	1750,1726,ws	⟦Proinde⟧ ne quis omnino attingat aut
+Exod.19.13	base-only	reading	omnino	1738: omni if no	1750,1726,ws	Proinde ne quis ⟦omnino⟧ attingat aut vel lapidibus obruatur
+Exod.19.13	base-only	reading	pecus	1738: pedis	1750,1726,ws	obruatur vel sagittis configatur sive ⟦pecus⟧ sit sive homo vita privetur
+Exod.19.13	base-only	reading	tum ascendent	1738: turn adfcendent	1726,ws	vita privetur Quum tractim clangetur ⟦tum ascendent⟧ ipsi in montem
+Exod.19.14	base-only	reading	Tum	1738: Turn	1750,1726,ws	⟦Tum⟧ Moses ad populum de monte
+Exod.19.14	base-only	reading	monte	1738: mon t te	1750,1726,ws	Tum Moses ad populum de ⟦monte⟧ descendit eumque lustravit et ut
+Exod.19.16	correct	spelling	extiterunt	1738,1750: ex ftiterunt | 1726: exstiterunt	ws	Die tertio ubi mane fuit ⟦extiterunt⟧ fragores et fulgura et densa
+Exod.19.16	base-only	reading	tum tubae	1738: turn tubx	1750,1726,ws	et densa nubes in monte ⟦tum tubae⟧ sonitus vehementissimus quo cunctus in
+Exod.19.16	base-only	reading	cunctus	1738: cunclus	1750,1726,ws	tum tubae sonitus vehementissimus quo ⟦cunctus⟧ in castris populus tremefactus est
+Exod.19.17	base-only	reading	eductus	1738: i eduftus	1750,1726,ws	Mose obviam Deo e castris ⟦eductus⟧ ad radices montis Sinae constitit
+Exod.19.17	base-only	reading	Sinae	1738: Sinx	1726,ws	castris eductus ad radices montis ⟦Sinae⟧ constitit
+Exod.19.18	base-only	reading	calcariae	1738: calcarix	1750,1726,ws	Jova in igne descenderat fumumque ⟦calcariae⟧ instar emittente et toto magnopere
+Exod.19.20	base-only	reading	Sinae	1738: Sinx	1750,1726,ws	Quum enim in montis ⟦Sinae⟧ cacumen Jova descendisset Mosem eodem
+Exod.19.20	base-only	division	Jova descendisset	1738: Iouadefcen disfet	1726,ws	enim in montis Sinae cacumen ⟦Jova descendisset⟧ Mosem eodem evocavit qui Moses
+Exod.19.20	base-only	reading	ascendit	1738: adfeendit | 1750: adfcendit	1726,ws	evocavit qui Moses ubi eo ⟦ascendit⟧
+Exod.19.21	base-only	reading	Jova	1738: IouaH	1750,1726,ws	⟦Jova⟧ eum jussit descendere et populum
+Exod.19.21	correct	reading	videndi	1738,1750,1726: vifendi	ws	populum commonefacere ne ad Jovam ⟦videndi⟧ gratia eniterentur ne frequentes caderent
+Exod.19.22	base-only	reading		1738: r	1750,1726,ws	Utque etiam sacerdotes ⟦⟧ ad Jovam accessuri lustrarentur ne
+Exod.19.23	correct	reading	Moyses	1738,1750,1726: Mofes	ws	Cui ⟦Moyses⟧ Non licebit populo inquit montem
+Exod.19.23	base-only	reading	montem Sinam	1738: mont tern tAUUVS Cap lo tern Sinant	1750,1726,ws	Moyses Non licebit populo inquit ⟦montem Sinam⟧ conscendere propterea quod ut tu
+Exod.19.23	correct	reading		1738,1750: nobis	1726,ws	Sinam conscendere propterea quod ut ⟦⟧ tu nobis praecepisti certos ei
+Exod.19.23	base-only	reading	nobis praecepisti certos ei terminos	1738: prxcepifti cerfos eiterminos	1726,ws	conscendere propterea quod ut tu ⟦nobis praecepisti certos ei terminos⟧ statui eumque purificavi
+Exod.19.23	base-only	division	purificavi	1738: purifi caui	1750,1726,ws	certos ei terminos statui eumque ⟦purificavi⟧
+Exod.19.24	base-only	spelling	ascensurus	1738: adfcenfurus	1726,ws	At Jova Descende modo inquit ⟦ascensurus⟧ una cum Aharone Sacerdotes autem
+Exod.19.24	base-only	reading	cum Aharone	1738: cimiAharone	1750,1726,ws	Descende modo inquit ascensurus una ⟦cum Aharone⟧ Sacerdotes autem et populum prohibe
+Exod.19.24	correct	spelling	ascendere	1738,1750: adfcendere	1726,ws	et populum prohibe ad Jovam ⟦ascendere⟧ conari ne a me profligentur
+Exod.19.25	correct	reading	Moyses	1738,1750,1726: Mofes	ws	Igitur ⟦Moyses⟧ ad populum descendit eique rem
+Exod.20.1	base-only	reading	haec	1738: hxc	1750,1726,ws	Et Deus ⟦haec⟧ omnia ad hunc modum effatus
+Exod.20.1	base-only	reading		1738: a	1750,1726,ws	Deus haec omnia ad hunc ⟦⟧ modum effatus est
+Exod.20.1	base-only	reading	effatus est	1738: effatuseft Egofum	1750,1726,ws	haec omnia ad hunc modum ⟦effatus est⟧
+Exod.20.2	base-only	reading	tuus	1738: tuns	1750,1726,ws	Ego sum Jova Deus ⟦tuus⟧ qui te eduxi ex domicilio
+Exod.20.3	base-only	reading	praeter	1738: prxter | 1726: prater	1750,ws	Deos alienos nullos ⟦praeter⟧ me habeto
+Exod.20.4	base-only	reading	ullius	1738: vlluis	1750,1726,ws	Simulacrum ⟦ullius⟧ rei quae exstet aut supra
+Exod.20.4	base-only	reading	quae	1738: qux	1750,1726,ws	Simulacrum ullius rei ⟦quae⟧ exstet aut supra in caelo
+Exod.20.4	base-only	reading	caelo	1738: cxlo	1750,1726,ws	quae exstet aut supra in ⟦caelo⟧ aut infra in terra aut
+Exod.20.4	base-only	reading	sub	1738: tub	1750,1726,ws	in terra aut in aquis ⟦sub⟧ terra ne facito
+Exod.20.5	others	reading	aeve	1750,1726: neve	ws	Neve ea venerator ⟦aeve⟧ colito Nam ego sum Jova
+Exod.20.5	base-only	reading	aeve colito	1738: neuecolito	ws	Neve ea venerator ⟦aeve colito⟧ Nam ego sum Jova Deus
+Exod.20.5	base-only	division	ego sum	1738: egofum	1750,1726,ws	ea venerator aeve colito Nam ⟦ego sum⟧ Jova Deus tuus Deus impatiens
+Exod.20.5	base-only	reading	quartamque	1738: quarumque	1750,1726,ws	persequor vel ad tertiam usque ⟦quartamque⟧ stirpem osorum mei
+Exod.20.6	base-only	reading	Clementiaque	1738: tfciememiaque	1750,1726,ws	⟦Clementiaque⟧ utor ad millesimam usque stirpem
+Exod.20.7	base-only	division	qui ejus	1738: quieius	1750,1726,ws	neque enim sinet impunitum Jova ⟦qui ejus⟧ nomen inaniter adhibuerit
+Exod.20.7	base-only	reading	inaniter	1738: inanigter | 1750: inani ter	1726,ws	impunitum Jova qui ejus nomen ⟦inaniter⟧ adhibuerit
+Exod.20.8	base-only	reading	sabbati sancte	1738: fabbatifan et e	1726,ws	Diem ⟦sabbati sancte⟧ agere memento
+Exod.20.9	base-only	reading	tuaque	1738: tuaquc	1750,1726,ws	Sex diebus agito ⟦tuaque⟧ opera omnia patrato
+Exod.20.10	base-only	reading	Jovae	1738: loux	1750,1726,ws	Septimo autem die quod ⟦Jovae⟧ Dei tui sabbatum est nullum
+Exod.20.10	base-only	reading	filius	1738: rihus	1750,1726,ws	facito neve tu neu tuus ⟦filius⟧ aut filia neu tuus servus
+Exod.20.10	base-only	division	aut ancilla	1738: autancilla	1750,1726,ws	aut filia neu tuus servus ⟦aut ancilla⟧ neu tuum jumentum neu apud
+Exod.20.10	base-only	reading	apud te	1738: apudte I I	1750,1726,ws	ancilla neu tuum jumentum neu ⟦apud te⟧ degens peregrinus
+Exod.20.11	base-only	reading	terram	1738: terrain	1750,1726,ws	sex diebus fecisset Jova caelum ⟦terram⟧ mare quaeque in eis sunt
+Exod.20.11	base-only	reading	quaeque	1738: quxque	1750,1726,ws	fecisset Jova caelum terram mare ⟦quaeque⟧ in eis sunt omnia feriatus
+Exod.20.11	base-only	reading	eis sunt omnia	1738: eisfuntomnia	1726,ws	caelum terram mare quaeque in ⟦eis sunt omnia⟧ feriatus est die septimo qua
+Exod.20.11	base-only	spelling	causa	1738: causfa | 1750: caufla	1726,ws	est die septimo qua de ⟦causa⟧ diem sabbati faustum sacrumque fecit
+Exod.20.11	base-only	reading	sacrumque	1738: faiacrumque | 1750: fa crumque	1726,ws	de causa diem sabbati faustum ⟦sacrumque⟧ fecit
+Exod.20.13	correct	division	hominem	1738,1750: homi nem	1726,ws	Ne ⟦hominem⟧ occidito
+Exod.20.15	correct	reading	furato	1738,1726: furator	ws	Ne ⟦furato⟧
+Exod.20.16	base-only	division	testimonium	1738: teftimoni um | 1750: teftimoni óum	1726,ws	Falsum ⟦testimonium⟧ contra alterum ne dicito
+Exod.20.17	base-only	reading	alterius	1738: I altering	1750,1726,ws	Alterius domum ne concupiscito ⟦alterius⟧ uxorem ne concupiscito neve servum
+Exod.20.17	base-only	reading	ancillam	1738: ancillain	1750,1726,ws	ne concupiscito neve servum aut ⟦ancillam⟧ neve bovem aut asinum nihil
+Exod.20.17	base-only	reading	sit	1738: it	1750,1726,ws	aut asinum nihil denique quod ⟦sit⟧ alterius
+Exod.20.18	base-only	reading	Hic universus	1738: Hie vniuerfusi	1750,1726,ws	⟦Hic universus⟧ populus visis fragoribus fulgetris tubae
+Exod.20.18	base-only	reading	visis	1738: vilis	1750,1726,ws	Hic universus populus ⟦visis⟧ fragoribus fulgetris tubae sonitu et
+Exod.20.18	base-only	reading	tubae	1738: tubx	1750,1726,ws	universus populus visis fragoribus fulgetris ⟦tubae⟧ sonitu et montis fumo perterritus
+Exod.20.18	correct	reading	perterritus	1738,1750,1726: perterriti	ws	tubae sonitu et montis fumo ⟦perterritus⟧ abscedere et procul stantes a
+Exod.20.19	correct	division	audientibus	1738,1750: audi entibus	1726,ws	Ut ipse eis ⟦audientibus⟧ loqueretur non Deus ne emorerentur
+Exod.20.20	base-only	reading	Quibus	1738: Qmbus	1750,1726	⟦Quibus⟧ Moses Ne timueritis inquit nam
+Exod.20.20	correct	reading	timueritis	1738,1750,1726: metuite		Quibus Moses Ne ⟦timueritis⟧ inquit nam ad vos tendandos
+Exod.20.20	others	reading	tendandos	1750,1726: tentandos		timueritis inquit nam ad vos ⟦tendandos⟧ venit Deus utque vos ejus
+Exod.20.20	base-only	reading	tendandos venit Deus	1738: tentandos venitDeus		timueritis inquit nam ad vos ⟦tendandos venit Deus⟧ utque vos ejus timor ob
+Exod.20.21	base-only	reading	accessit	1738: ac cesfif	1750,1726,ws	Igitur procul stante populo ⟦accessit⟧ ad illam caliginem ubi Deus
+Exod.20.22	base-only	reading	sic	1738: lie	1750,1726,ws	Et Jova Mosi ⟦sic⟧ fatus est Commemorato Israelitis ut
+Exod.20.22	base-only	reading	Commemorato	1738: com nicmorato	1726,ws	Jova Mosi sic fatus est ⟦Commemorato⟧ Israelitis ut me secum de
+Exod.20.22	base-only	reading	caelo	1738: cxlo	1750,1726,ws	Israelitis ut me secum de ⟦caelo⟧ viderint loquentem
+Exod.20.23	base-only	reading	praeter	1738: prxter	1750,1726,ws	Ne ⟦praeter⟧ me deos sibi argenteos aut
+Exod.20.24	base-only	reading	caespitum	1738: cxfpitium | 1750: caefpitium | 1726: caespititium	ws	Sed mihi ⟦caespitum⟧ altare fiat in quo solida
+Exod.20.24	base-only	reading	solida	1738: foiida	1750,1726,ws	caespitum altare fiat in quo ⟦solida⟧ sacrificia et pro salute balantibus
+Exod.20.24	base-only	reading	salute	1738: faiute | 1726: saltute	1750,ws	quo solida sacrificia et pro ⟦salute⟧ balantibus bubusve faciatis quocumque in
+Exod.20.25	base-only	division	lapideum fiet ne ex quadrato	1738: la pideumfiet neexquadrato	1726,ws	Quod si mihi altare ⟦lapideum fiet ne ex quadrato⟧ lapide excitatote nam id ferramenta
+Exod.20.26	base-only	reading	gradus	1738: eradus	1750,1726,ws	Neve per ⟦gradus⟧ ad meum altare ascenditote ne
+Exod.20.26	base-only	reading	ascenditote	1738: adfeenditote | 1750: adícenditote	1726,ws	per gradus ad meum altare ⟦ascenditote⟧ ne in eo obscena vestra
+Exod.20.26	base-only	reading	obscena	1738: obfecena	1750,1726,ws	altare ascenditote ne in eo ⟦obscena⟧ vestra appareant

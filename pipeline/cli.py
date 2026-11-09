@@ -301,6 +301,7 @@ def main(argv):
             target = latex.usfm_path(book, draft=True)
             if target.exists():
                 raise SystemExit(f"{target.relative_to(paths.ROOT).as_posix()} exists: a draft is never overwritten")
+            target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(collate.draft_usfm(book.osis, chapters), encoding="utf-8", newline="\n")
             print(f"→ {target.relative_to(paths.ROOT).as_posix()}: Wikisource {book.osis} {args.chapters}, BSB paragraphs")
             return 0
