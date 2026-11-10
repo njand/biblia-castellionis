@@ -2,6 +2,33 @@
 
 ## Now
 
+- **2026-11-08: the publishing builds for v1.0 *Evangelia* exist (M2), not yet released.**
+  `python -m pipeline build Matt Mark Luke John --version v1.0` writes into `build/` (git-ignored): the website
+  (`build/site/`), two EPUBs (with and without macrons; both pass epubcheck 5.4.0 with no errors or warnings), the
+  print LaTeX (`build/pdf/castellio-evangelia.tex`: `LaTeX/main.tex`'s preamble and `title.tex`, body by
+  `latex.to_latex`), and TXT with and without macrons, TSV and JSON (`build/txt/`). With no books named it builds
+  everything in `text/`. Every verse of the five settled books comes out exactly as `data/gold` has it. **To look at:**
+  - **The PDF** (`build/pdf/castellio-evangelia.pdf`, 128 A5 pages) compiles with Tectonic 0.17.0 (a one-file
+    XeTeX; `build` uses `latexmk`, then `pdflatex`, then `tectonic`, whichever is on the PATH): 0 missing
+    characters, 3 overfull lines (1–7 pt; Luke). For it the generated LaTeX adds, after your preamble: Latin
+    hyphenation (`babel` classiclatin; without it 186 lines were overfull) and `\emergencystretch`; under XeTeX only,
+    TeX Gyre Pagella (the free Palatino) and ȳ built as y + macron (Pagella lacks it). The colophon is on the title
+    page's verso. Under pdfLaTeX your own fonts stay, but that route is untested here (no TeX Live/MiKTeX). As in the
+    old LaTeX, the running head names the chapter at the foot of the page. The Tectonic used here sat in a temporary
+    folder: install it (or TeX Live) to rebuild the PDF.
+  - **The site:** `python -m http.server 8765 --directory build/site`, then `localhost:8765/matthaeus/21.html#16`.
+    It has a macron switch (ā / a) and an English column (BSB, verse by verse; `--english kjv|web|none`;
+    `--sources ../sources` from a worktree). It shows only the books built, so the v1.0 site has no Genesis: do you
+    want Genesis on the site from the start (it was on WordPress)?
+  - **Wording for you to settle:** the colophon (English; `publish.credits`) names no editor; it says the NT follows
+    1573 with 1556 as the reference (decision 24), while `README.md` still says 1556. The release title is
+    *Ēvangelia* and the files are `castellio-evangelia*`; TXT chapters are headed "Matthæus 14".
+  - **Two fixes in `latex.py`:** a paragraph marker in the middle of a line (`… lēgistis? \q1 \qt …`, Matt 21:16)
+    now starts a new block (it used to stop `to_latex`), and `\cd` (a chapter summary) / `\d` (a psalm title) print as
+    `\Argumentum{…}` / `\Titulus{…}` above the drop cap. None of the Gospels has a `\cd` yet.
+  - **Waiting on your go-ahead:** tagging the GitHub release and turning on Pages (no Pages workflow exists yet), and
+    pointing the WordPress site at it.
+
 - **2026-11-07 (overnight): the Matthew 14–28 pilot is through stages 2–5 and waits for your review.** Start
   with `data/review/MORNING.md`: what was built, the order to review in, the measured rates for decision 6, and
   what could not be verified. Five review files (`settled-fixes.md`, `matt14-28-stage2.md`, `-spelling.md`,

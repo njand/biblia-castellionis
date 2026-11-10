@@ -27,6 +27,9 @@
                                 verse → data/calibration/<osis><CH-CH>-collation.tsv (places, sorted by kind)
   propose BOOK CH-CH [--rates]  stages 3–5 on an unmarked draft, one review item per verse (data/decisions/ for the
                                 calls made by reading) → data/review/<osis>F-L-chNN.md and text/draft/<USFM>.preview.usfm
+  build [BOOK…]                 stage 7: text/*.usfm → build/ (website, EPUB with and without macrons, PDF via generated
+                                LaTeX, TXT/TSV/JSON); every book with a USFM master if none is named. --only FORMAT…,
+                                --english KEY|none, --sources DIR (for sources/parallel), --version LABEL, --no-compile
   rules [BOOK…]                 learn spelling rules, Wikisource vs the gold → data/rules/orthography.tsv (proposed),
                                 data/rules/REVIEW.md, data/calibration/wikisource.tsv
 
@@ -39,8 +42,8 @@ import pathlib
 import re
 import sys
 
-from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, parallel, paths, review,
-                      rules, tsv, verses, versify, wikisource, wordpress)
+from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, parallel, paths, publish,
+                      review, rules, tsv, verses, versify, wikisource, wordpress)
 
 
 def fetch_wikisource(names, refresh):
@@ -262,6 +265,15 @@ def main(argv):
     prp.add_argument("chapters", help="e.g. 6-16")
     prp.add_argument("--rates", action="store_true", help="also measure each flag kind on the settled chapters")
 
+    bld = sub.add_parser("build", help="stage 7: every published format from text/*.usfm into build/")
+    bld.add_argument("names", nargs="*")
+    bld.add_argument("--only", nargs="+", choices=["site", "epub", "pdf", "txt"], default=["site", "epub", "pdf", "txt"])
+    bld.add_argument("--english", default="bsb", help="parallel English column on the website (bsb, kjv, web, none)")
+    bld.add_argument("--sources", help="the folder holding parallel/<key>/<osis>.tsv (default: sources/)")
+    bld.add_argument("--version", default="", help="edition label printed on the title pages, e.g. v1.0")
+    bld.add_argument("--out", help="write here instead of build/")
+    bld.add_argument("--no-compile", action="store_true", help="write the LaTeX but do not run TeX")
+
     sub.add_parser("latin", help="read-only Latin lookups (see `python -m pipeline latin --help`)")
 
     args = parser.parse_args(argv)
@@ -276,6 +288,18 @@ def main(argv):
             fetch_archive(args.names if args.source == "archive" else [], args.hocr, args.refresh)
         if args.source != "archive":
             ledger.refresh()
+    elif args.command == "build":
+        made = publish.build(args.names, pathlib.Path(args.out) if args.out else None,
+                             None if args.english == "none" else args.english,
+                             pathlib.Path(args.sources) if args.sources else None, args.version, args.only,
+                             not args.no_compile)
+        for kind, items in made.items():
+            for item in items:
+                if isinstance(item, pathlib.Path):
+                    shown = item.relative_to(paths.ROOT).as_posix() if item.is_relative_to(paths.ROOT) else item
+                    print(f"{kind:4} → {shown}")
+                else:
+                    print(f"{kind:4}   {item}")
     elif args.command == "migrate":
         migrate(args.names)
         ledger.refresh()
