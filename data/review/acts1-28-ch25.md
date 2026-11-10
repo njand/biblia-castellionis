@@ -8,7 +8,7 @@ Flagged: 76 homograph+settled, 28 decided, 7 capital.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 25:1** · ⚑ 2
    \p Fēstus prōvinciam **ingressus**, post trīduum **Cæsarēā** Hierosolymam adscendit:

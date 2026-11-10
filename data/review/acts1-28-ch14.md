@@ -8,7 +8,7 @@ Flagged: 57 homograph+settled, 35 decided, 5 capital, 1 case, 1 punctuation.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 14:1** · ⚑ 4
    \p Īconiī autem **ūnā** in Jūdæōrum **collēgium** ingressī sunt, et **ita** locūtī, ut crēderet Jūdæōrum Græcōrumque **magna** multitūdō.

@@ -44,26 +44,20 @@
   `-stage2.md`, `-ch01.md` … `-ch16.md`, `data/decisions/Rom.*.tsv`, `data/versification/Rom.draft.edits.tsv`. Open for
   your review: the 16:27 subscription (in the verse, or set apart as `\cls`), and the early-line spellings Romans and Acts
   both keep (*caussa*, *adsp-*, *intellig-*). Nothing committed.
-- **Acts 1–28 is through stages 1–5 and waits for your approval** (2026-11-09). Start with
-  `data/review/acts1-28-stages3-5.md`; then `acts1-28-stage2.md` (**225 corrections against 1573, read on the page
-  images**, applied to the draft under decision 30's standing rule: Wikisource's Acts is Castellio's early wording, so
-  most are his revision, e.g. *synagoga → collegium* 23×, *templum → fanum*, *baptismo lavit → baptismate
-  baptizavit*, 24:17 *munera libarem*, 27:13 *solverunt, & propius*) and the 1,007 verse items in `acts1-28-ch01.md` …
-  `-ch28.md` (all `ok`). Preview: `text/draft/ACT.preview.usfm`; calls in `data/decisions/Acts.*.tsv` (391 layout
-  lines, 1,111 forms). 31 versification edits move 14 verse boundaries to where 1573 prints its numbers (the KJV's).
-  Also waiting: `settled-fixes-acts.md`, four markings in your settled text (Gen 6:16 *contignātiōnē*, Gen 37:4
-  *amīce*, Luke 2:13 *repentē*, Matt 4:24 *Sȳriam*), not applied; questions for the whole edition at the end of the
-  summary (*Jōannēs/Jōhannēs*, *cūst-*, *temptō*). New spelling rule *quicunque → quicumque*; two code fixes (the j
-  rule for *tenuium*/*Gāius*; a layout `-` mark). Nothing committed.
-- **Exodus 1–20 is through stages 1–5 and waits for your approval** (2026-11-08). Start with
-  `data/review/exod1-20-stages3-5.md`; then `exod1-20-stage2.md` (120 corrections against 1738, applied to the draft
-  under decision 30's standing rule) and the 545 verse items in `exod1-20-ch01.md` … `-ch20.md` (all `ok`). Preview:
-  `text/draft/EXO.preview.usfm`; calls in `data/decisions/Exod.*.tsv` (120 layout lines, 692 forms). Castellio's
-  numbering in 5–7 differs from the KJV's: 18 edits in `data/versification/Exod.draft.edits.tsv` (5:25 → 6:1; KJV
-  6:28–30, 7:25 and 12:51 inside his 7:1, 8:1 and 13:1). The Song of the Sea (15:1–19) is poetry, closing at 15:19
-  where his sentence ends. Also waiting: `settled-fixes-exod.md`, five markings in your settled Genesis and Luke
-  (*mēnsis*, *regiō* ×2, *ā Jōvā*, *religiōne*), not applied; and the questions for the whole edition listed at the
-  end of the summary (*vesc-*, *lōcusta*, *nārr-*, unmarked Hebrew names). Nothing committed.
+- **Acts 1–28 is settled** (2026-11-09; decision 34): approved by you "for now", in `text/ACT.usfm` (1,007 verses, the
+  KJV count), gold rebuilt (`data/gold/Acts.tsv`), draft removed (it is in git). Record:
+  `data/review/acts1-28-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch28.md`, `data/decisions/Acts.*.tsv`,
+  `data/versification/Acts.draft.edits.tsv`.
+- **Exodus 1–20 is settled** (2026-11-09; decision 35): approved by you "for now", in `text/EXO.usfm` (545 verses, every
+  chapter at the KJV count), gold rebuilt (`data/gold/Exod.tsv`), draft removed (it is in git). Record:
+  `data/review/exod1-20-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch20.md`, `data/decisions/Exod.*.tsv`,
+  `data/versification/Exod.draft.edits.tsv`.
+- **Applied 2026-11-09** (your decision): the nine markings the Acts and Exodus readers found wrong in your settled
+  text, `data/review/settled-fixes-acts.md` (Gen 6:16 *contignātiōne*, Gen 37:4 *amīcē*, Luke 2:13 *repente*, Matt 4:24
+  *Syriam*) and `settled-fixes-exod.md` (Gen 8:5 *mēnsis*, Gen 13:9 and Luke 21:23 *regiō*, Gen 22:14 *ā Jōvā*, Gen 24:8
+  *religiōne*); `data/gold/` rebuilt for Genesis, Luke and Matthew.
+- **Still waiting on you**: the questions for the whole edition at the end of each summary (Acts: *Jōannēs/Jōhannēs*, *cūst-*, *temptō*; Exodus: *vesc-*, *lōcusta*, *nārr-*, unmarked Hebrew names; Romans: the
+  16:27 subscription, the early-line spellings *caussa*, *adsp-*, *intellig-*, which Romans and Acts keep alike).
 - **Genesis 28–50 is settled** (2026-11-08; decision 32): approved by you "for now", in `text/GEN.usfm` (Genesis now
   1,532 verses; every chapter at the KJV count but 41, where 41:57 is absent in every printing), gold rebuilt, draft
   removed. Record: `data/review/gen28-50-stages3-5.md`, `-stage2.md`, `-ch28.md` … `-ch50.md`,
@@ -151,6 +145,8 @@
 | 31 | 2026-11-08 | **John 5–21 approved for now; the Gospels are complete.** Stages 1–5 as for Luke (21 stage-2 corrections read on the 1573 images, 3 of them the base edition's forms *lōtum*, *tonitru*, *lōtus*; 28 macrons decided in context; 392 layout lines) settled in `text/JHN.usfm`. A discourse running over a chapter break is left open, as your Matt 5:48 → 6:1 (John 9:41, 14:31, 15:27). Your in-depth review follows decision 30. |
 | 32 | 2026-11-08 | **Genesis 28–50 approved for now.** The first Old Testament run: Wikisource collated against 1738 (the base), 1750 and your 1726 text; 61 stage-2 corrections, mostly read on the 1738 page images; 41:57 recorded as absent (every printing ends chapter 41 at 41:56); Castellio's *G.* … *H.* marks at 44:6 dropped, the words kept (as Matt 19:4); 791 macrons decided in context and 221 layout lines; your Gen 25:33 *Jūrā*; three spelling rules (*adjutus*, *abjudicabitur*, *quattuordecim*). Settled in `text/GEN.usfm`. Open for your review: *Rachel* vs *Rāchēl-*. Your in-depth review follows decision 30. |
 | 33 | 2026-11-09 | **Romans 1–16 approved for now.** Stages 1–5 as for Acts (93 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *humanitas → caro*, *vitiositas → peccatum*, *sacer → sanctus*, 9:5 *Etiam*, 7:14 *emancipatus*; 17 versification edits to the KJV; 92 layout lines, 440 forms decided in context) settled in `text/ROM.usfm`. With it: the collation's edge and f/s checks and the j rule for *major* (with tests). Your in-depth review follows decision 30. |
+| 34 | 2026-11-09 | **Acts 1–28 approved for now.** Stages 1–5 (225 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *synagoga → collegium* 23×, *templum → fanum*, *baptismo lavit → baptismate baptizavit*; 31 versification edits; 391 layout lines, 1,111 forms) settled in `text/ACT.usfm`. The fixes to the settled text it proposed (`settled-fixes-acts.md`) are not part of this approval. Your in-depth review follows decision 30. |
+| 35 | 2026-11-09 | **Exodus 1–20 approved for now.** Stages 1–5 (120 stage-2 corrections against 1738; 18 versification edits, Castellio's numbering in 5–7 to the KJV's; the Song of the Sea as poetry; 120 layout lines, 692 forms) settled in `text/EXO.usfm`. The fixes to the settled text it proposed (`settled-fixes-exod.md`) are not part of this approval. Your in-depth review follows decision 30. |
 
 ## How to run
 

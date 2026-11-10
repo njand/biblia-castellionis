@@ -8,7 +8,7 @@ Flagged: 85 homograph+settled, 24 decided, 13 capital, 1 punctuation.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 28:1**
    \p Ēlāpsī autem tum dēmum intellēxērunt, īnsulam Melitam vocārī.

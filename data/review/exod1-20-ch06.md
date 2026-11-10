@@ -8,7 +8,7 @@ Flagged: 74 homograph+settled, 54 decided, 4 settled, 3 case, 2 punctuation.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 6:1** · ⚑ 8 · layout
    \p Cui **Jōva**, “Jam vidēbis,” inquit, “ut ego Pharaōnem accipiam, ut **vī** **coāctus** **eōs** nōn **sōlum** dīmittat, **vērum** etiam **suīs** fīnibus expellat.”

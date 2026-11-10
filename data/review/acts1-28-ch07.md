@@ -8,7 +8,7 @@ Flagged: 162 homograph+settled, 56 decided, 14 capital, 3 case, 2 punctuation, 1
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 7:1** · ⚑ 6 · layout
    \p Et **pontifex** **ita** **dīxit**: “**Siccīne** **sē** rēs habet?” **Tum** ille hujusmodī ōrātiōnem habuit:

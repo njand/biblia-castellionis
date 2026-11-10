@@ -8,7 +8,7 @@ Flagged: 34 homograph+settled, 12 decided, 5 settled.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 1:1** · ⚑ 2
    \p Igitur fīliōrum Isrāēlis **nōmina**, quī cum Jācōbō in Ægyptum cum **singulīs** familiīs vēnērunt, hæc sunt:

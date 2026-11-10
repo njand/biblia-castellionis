@@ -49,26 +49,26 @@ Gen.47	31	settled	usfm	31	-		settled 2026-11-08 (decision 32): data/review/gen28
 Gen.48	22	settled	usfm	23	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
 Gen.49	33	settled	usfm	34	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
 Gen.50	26	settled	usfm	26	-		settled 2026-11-08 (decision 32): data/review/gen28-50-stages3-5.md
-Exod.1	22	in-review	txt-edited	22	-		
-Exod.2	25	in-review	txt-edited	25	-	1	
-Exod.3	22	in-review	txt-edited	22	-		
-Exod.4	31	in-review	txt-edited	31	-		
-Exod.5	23	in-review	txt-edited	24	-	1	
-Exod.6	30	in-review	txt-edited	26	-	2	
-Exod.7	25	in-review	txt-edited	24	-		
-Exod.8	32	in-review	txt-edited	32	-		
-Exod.9	35	in-review	txt-edited	35	-		
-Exod.10	29	in-review	txt-edited	28	-	1	
-Exod.11	10	in-review	txt-edited	10	-		
-Exod.12	51	in-review	txt-edited	50	-		
-Exod.13	22	in-review	txt-edited	22	-	1	
-Exod.14	31	in-review	txt-edited	31	-		
-Exod.15	27	in-review	txt-edited	27	-		
-Exod.16	36	in-review	txt-edited	36	-		
-Exod.17	16	in-review	txt-edited	16	-		
-Exod.18	27	in-review	txt-edited	26	-		
-Exod.19	25	in-review	txt-edited	24	-	1	
-Exod.20	26	in-review	txt-edited	25	-	1	
+Exod.1	22	settled	txt-edited	22	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.2	25	settled	txt-edited	25	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.3	22	settled	txt-edited	22	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.4	31	settled	txt-edited	31	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.5	23	settled	txt-edited	24	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.6	30	settled	txt-edited	26	-	2	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.7	25	settled	txt-edited	24	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.8	32	settled	txt-edited	32	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.9	35	settled	txt-edited	35	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.10	29	settled	txt-edited	28	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.11	10	settled	txt-edited	10	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.12	51	settled	txt-edited	50	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.13	22	settled	txt-edited	22	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.14	31	settled	txt-edited	31	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.15	27	settled	txt-edited	27	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.16	36	settled	txt-edited	36	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.17	16	settled	txt-edited	16	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.18	27	settled	txt-edited	26	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.19	25	settled	txt-edited	24	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
+Exod.20	26	settled	txt-edited	25	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
 Exod.21	36	fetched	ocr	36	-		
 Exod.22	31	fetched	ocr	31	-		
 Exod.23	33	fetched	ocr	33	-		
@@ -1066,34 +1066,34 @@ John.18	40	settled	usfm	40	40		settled 2026-11-08 (decision 31): data/review/joh
 John.19	42	settled	usfm	42	42		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
 John.20	31	settled	usfm	31	31		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
 John.21	25	settled	usfm	25	25		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
-Acts.1	26	in-review	txt-corrected	26	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.2	47	in-review	txt-corrected	47	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.3	26	in-review	txt-corrected	26	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.4	37	in-review	txt-corrected	37	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.5	42	in-review	txt-corrected	42	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.6	15	in-review	txt-corrected	15	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.7	60	in-review	txt-corrected	60	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.8	40	in-review	txt-corrected	40	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.9	43	in-review	txt-corrected	43	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.10	48	in-review	txt-corrected	48	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.11	30	in-review	txt-corrected	30	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.12	25	in-review	ocr	25	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.13	52	in-review	ocr	52	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.14	28	in-review	txt-corrected	28	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.15	41	in-review	ocr	41	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.16	40	in-review	txt-corrected	39	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.17	34	in-review	ocr	34	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.18	28	in-review	txt-corrected	28	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.19	41	in-review	ocr	40	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.20	38	in-review	ocr	38	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.21	40	in-review	ocr	40	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.22	30	in-review	ocr	30	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.23	35	in-review	txt-corrected	35	-	1	stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.24	27	in-review	ocr	28	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.25	27	in-review	ocr	27	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.26	32	in-review	ocr	32	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.27	44	in-review	ocr	44	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
-Acts.28	31	in-review	txt-corrected	31	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.1	26	settled	txt-corrected	26	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.2	47	settled	txt-corrected	47	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.3	26	settled	txt-corrected	26	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.4	37	settled	txt-corrected	37	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.5	42	settled	txt-corrected	42	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.6	15	settled	txt-corrected	15	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.7	60	settled	txt-corrected	60	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.8	40	settled	txt-corrected	40	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.9	43	settled	txt-corrected	43	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.10	48	settled	txt-corrected	48	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.11	30	settled	txt-corrected	30	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.12	25	settled	ocr	25	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.13	52	settled	ocr	52	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.14	28	settled	txt-corrected	28	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.15	41	settled	ocr	41	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.16	40	settled	txt-corrected	39	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.17	34	settled	ocr	34	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.18	28	settled	txt-corrected	28	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.19	41	settled	ocr	40	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.20	38	settled	ocr	38	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.21	40	settled	ocr	40	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.22	30	settled	ocr	30	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.23	35	settled	txt-corrected	35	-	1	settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.24	27	settled	ocr	28	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.25	27	settled	ocr	27	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.26	32	settled	ocr	32	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.27	44	settled	ocr	44	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
+Acts.28	31	settled	txt-corrected	31	-		settled 2026-11-09 (decision 34): data/review/acts1-28-stages3-5.md
 Rom.1	32	settled	ocr	32	-		
 Rom.2	29	settled	ocr	29	-		
 Rom.3	31	settled	ocr	30	-		

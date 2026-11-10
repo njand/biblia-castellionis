@@ -8,7 +8,7 @@ Flagged: 50 homograph+settled, 39 decided, 6 punctuation, 3 case, 1 settled, 1 c
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 17:1** · ⚑ 9
    \p Igitur **ā** **Sīne** **profectī**: ad **Jōvæ** præscrīptum iter facientēs, **castra** habuērunt in **Raphīdīmō**. **Ibi**, quum ad bibendum **aqua** nōn **esset**,

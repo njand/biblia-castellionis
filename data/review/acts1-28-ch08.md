@@ -8,7 +8,7 @@ Flagged: 93 homograph+settled, 39 decided, 15 capital, 2 case, 2 punctuation, 2 
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 8:1** · ⚑ 6
    \p Saulus autem in ejus necem cōnsentiēbat. **Ortaque** **est** **eō** **diē** **tanta** adversus **Hierosolymītānam** ecclēsiam persecūtiō, ut omnēs in Jūdææ Samarīæque fīnēs (exceptīs apostolīs) dīlāpsī sint.

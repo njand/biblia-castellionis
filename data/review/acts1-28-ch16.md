@@ -8,7 +8,7 @@ Flagged: 90 homograph+settled, 43 decided, 17 capital, 2 case, 1 punctuation.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 16:1** · ⚑ 4
    \p **Pervēnit** autem **Derbam** et Lystram, et erat **ibi** discipulus quīdam, nōmine Tīmotheus, fēminæ cujusdam Jūdææ **fīdentis** fīlius, patre Græcō.

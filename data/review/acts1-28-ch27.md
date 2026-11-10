@@ -8,7 +8,7 @@ Flagged: 111 homograph+settled, 53 decided, 8 capital, 1 punctuation, 1 settled.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 27:1** · ⚑ 7
    \p Ut autem nōs in **Italiam** nāvigāre dēcrētum **est**, **trāditus** **est** Paulus, et **aliī** quīdam vīnctī duo, centuriōnī, nōmine Jūliō, **cohortis** **Augustæ**.

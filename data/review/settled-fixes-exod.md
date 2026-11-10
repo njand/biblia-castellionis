@@ -4,7 +4,7 @@ Proposed 2026-11-08. The Exodus readers compared their words with your settled f
 markings there that the grammar of the verse rules out. Each was checked in its verse. Nothing is applied: these are
 settled chapters, so they wait for your Decision line.
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09)
 
 1. **Gen 8:5** *cujus mēnsīs diē prīmā* → *mēnsis*: genitive singular of *mēnsis* with *cujus* (*mēnsīs* is the
    ablative plural of *mēnsa*).

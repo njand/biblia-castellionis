@@ -5,7 +5,7 @@ markings there that the grammar or Gaffiot rules out. Each was checked in its ve
 settled chapters, so they wait for your Decision line. (Gen 24:8 *religiōnē*, which they also met, is already item 4
 of `settled-fixes-exod.md`.)
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09)
 
 1. **Gen 6:16** *tertiāque contignātiōnē distinguitō* → *contignātiōne*: ablative singular of a third-declension
    noun (*contignātiō, -ōnis*), short final e. Acts 20:9 has *dē tertiā contignātiōne*.

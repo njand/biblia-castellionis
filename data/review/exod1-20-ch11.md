@@ -8,7 +8,7 @@ Flagged: 35 homograph+settled, 12 decided, 4 case, 2 settled.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 11:1** · ⚑ 4
    \p Mōsem autem præmonuerat **Jōva**, Pharaōnem ūnō dumtaxat **eī** Ægyptiīsque īnsuper illātō vulnere, tandem **eōs** illinc omnīnō **esse** ēmissūrum, vel potius ējectūrum.

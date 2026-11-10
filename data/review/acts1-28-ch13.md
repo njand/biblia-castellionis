@@ -8,7 +8,7 @@ Flagged: 118 homograph+settled, 53 decided, 21 capital, 3 case.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 13:1** · ⚑ 9
    \p Erant **Antiochīæ** in **eā**, quæ erat **ecclēsia**, vātēs et doctōrēs, **Barnābās** et Simōn, cognōmine Niger, et Lūcius **Cȳrēnēnsis**, et **Manahēn** cum Hērōde **tetrarchā** nūtrītus, et Saulus.

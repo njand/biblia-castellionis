@@ -1,6 +1,6 @@
 # Acts 1–28: stages 1–5, one proposal per verse
 
-Proposed 2026-11-09, **waiting for your approval**. Same tools and format as the Gospels (`data/review/john5-21-stages3-5.md`;
+Proposed 2026-11-09; **approved by Nathan "for now" on 2026-11-09 and settled** (decision 34). Same tools and format as the Gospels (`data/review/john5-21-stages3-5.md`;
 `data/review/mark6-16-stages3-5.md` explains the format). Your earlier work on Acts 1–16 (`TXT/2 - Post-Corrected`,
 the 1726–27 printing) served as a witness, not a base.
 

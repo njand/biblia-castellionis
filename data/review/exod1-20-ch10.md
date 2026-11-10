@@ -8,7 +8,7 @@ Flagged: 90 homograph+settled, 39 decided, 3 case, 2 punctuation, 1 gaffiot, 1 s
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 10:1** · ⚑ 6 · layout
    \p Tum **Jōva** **Mōsī**, “Adī,” inquit, “Pharaōnem, nam ego et ejus et suōrum animum obfirmāvī, ut hæc **mea** **mīrācula** apud vōs **ēdam**:

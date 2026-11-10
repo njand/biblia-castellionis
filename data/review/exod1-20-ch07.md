@@ -8,7 +8,7 @@ Flagged: 71 homograph+settled, 33 decided, 5 case, 1 capital.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 7:1** · ⚑ 7 · layout
    \nb **Jōva** sīc cum **eō** **locūtus** **est**, “**Ēn** ego tē Pharaōnī **deum** efficiō, Aharōn **tibi** frāter tuus vātēs erit.

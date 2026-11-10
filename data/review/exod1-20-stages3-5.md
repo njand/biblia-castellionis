@@ -1,6 +1,6 @@
 # Exodus 1–20: stages 1–5, one proposal per verse
 
-Proposed 2026-11-08, **waiting for your approval**. Same tools and format as Genesis 28–50
+Proposed 2026-11-08; **approved by Nathan "for now" on 2026-11-09 and settled** (decision 35). Same tools and format as Genesis 28–50
 (`data/review/gen28-50-stages3-5.md`; `data/review/mark6-16-stages3-5.md` explains the format). The last of your earlier
 Old Testament work (`TXT/3`); with Genesis it makes milestone M4.
 

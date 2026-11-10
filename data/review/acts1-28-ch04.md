@@ -8,7 +8,7 @@ Flagged: 89 homograph+settled, 31 decided, 10 capital, 4 case.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 4:1** · ⚑ 4
    \p Iīs ad **populum** verba facientibus, præstō fuērunt pontificēs, et **fānī** **antistes**, ac **Saddūcæī**,

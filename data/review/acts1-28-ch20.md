@@ -8,7 +8,7 @@ Flagged: 92 homograph+settled, 44 decided, 5 capital.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 20:1** · ⚑ 3
    \p Post compositum tumultum Paulus, **advocātīs** ac **salūtātīs** discipulīs, in Macedoniam **īre** contendit.

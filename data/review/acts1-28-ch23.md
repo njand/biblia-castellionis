@@ -8,7 +8,7 @@ Flagged: 102 homograph+settled, 38 decided, 20 capital, 2 punctuation, 1 case, 1
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 23:1** · ⚑ 3 · layout
    \p Et Paulus in concilium intuēns: “**Virī** frātrēs,” inquit, “ego mē ad hunc diem sīc ergā Deum gessī, ut **optimē** **mihi** cōnscius sim.”

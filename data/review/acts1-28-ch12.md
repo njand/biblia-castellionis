@@ -8,7 +8,7 @@ Flagged: 78 homograph+settled, 35 decided, 4 capital, 2 case.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 12:1** · ⚑ 3
    \p Per id tempus admōvit Hērōdēs rēx **manūs** vexandīs ab **ecclēsiā** **nōnnūllīs**,

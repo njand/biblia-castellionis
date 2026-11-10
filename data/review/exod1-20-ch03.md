@@ -8,7 +8,7 @@ Flagged: 94 homograph+settled, 58 decided, 6 punctuation, 1 settled.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 3:1** · ⚑ 7
    \p Quum enim Mōsēs pāsceret **pecus** **Jethrōnis** socerī **suī**, **sacerdōtis** Madiānītæ, **eōque** pecore post saltum ductō, **vēnisset** in dīvīnum montem **Hōrēbum**,

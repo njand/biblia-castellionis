@@ -8,7 +8,7 @@ Flagged: 66 homograph+settled, 25 decided, 5 punctuation, 2 capital, 1 case.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Exod 2:1** · ⚑ 3
    \p Quīdam autem **dē** **familiā** **Lēvīticā** uxōrem item Lēvīticam dūxerat,

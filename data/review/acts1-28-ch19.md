@@ -8,7 +8,7 @@ Flagged: 114 homograph+settled, 60 decided, 14 capital, 2 case, 1 punctuation.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 19:1** · ⚑ 4
    \p Intereā dum **Apollōs** Corinthī **est**, Paulus, **peragrātīs** superiōribus tractibus, **vēnit** Ephesum;

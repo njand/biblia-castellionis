@@ -8,7 +8,7 @@ Flagged: 85 homograph+settled, 35 decided, 20 capital.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 26:1** · ⚑ 7 · layout
    \p **Hīc** Paulum sīc adloquitur **Agrippa**: “**Līberum** **est** **tibi**, prō tē ipsō **dīcere**.” Tum Paulus **porrēctā** manū seipsum dēfendit:

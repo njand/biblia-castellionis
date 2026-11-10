@@ -8,7 +8,7 @@ Flagged: 94 homograph+settled, 30 decided, 7 capital, 2 case, 1 punctuation.
 
 To accept the chapter but some verses, write e.g. `accept all except 14, 22` (item numbers are verse numbers).
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-09: approved for now; his in-depth review comes later)
 
 1. **Acts 17:1** · ⚑ 6
    \p **Peragrātā** autem Amphipolī et **Apollōniā**, Thessalonīcam vēnērunt, **ubi** cum **esset** Jūdæōrum **collēgium**,
