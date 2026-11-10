@@ -71,3 +71,17 @@ class Opens(unittest.TestCase):
         self.assertIn("\\v 1 Postea adeunt.\n\n\\c 6\n\\p\n\\v 1 Cui Jova, inquit.", after)
         self.assertEqual(versify.verse_counts(after, "Exod"), {5: 1, 6: 2})
         self.assertIn(("Exod.5.2", "Exod.6.1", "renumbered"), changes)
+
+
+class OpensAtAnchor(unittest.TestCase):
+    """Castellio's 1 Cor 10:33 ends with the KJV's 11:1 (*Imitatores mei estote …*): the break moves back into it."""
+    USFM = ("\\id 1CO\n\\c 10\n\\p\n\\v 1 Prīmus.\n\\v 2 Omnibus placeō. Imitātōrēs meī estōte.\n\n"
+            "\\c 11\n\\p\n\\v 1 Laudō vōs.\n\\v 2 Volō.\n")
+
+    def test_words_open_the_next_chapter(self):
+        after, changes = versify.apply_edits(self.USFM, "1Cor", [edit("opens", "1Cor.10.2", "Imitātōrēs")])
+        self.assertEqual(versify.words(self.USFM), versify.words(after))
+        self.assertIn("\\v 2 Omnibus placeō.\n\n\\c 11\n\\p\n\\v 1 Imitātōrēs meī estōte.\n\\p\n\\v 2 Laudō vōs.", after)
+        self.assertEqual(versify.verse_counts(after, "1Cor"), {10: 2, 11: 3})
+        self.assertIn(("1Cor.10.2 (part)", "1Cor.11.1", "chapter"), changes)
+        self.assertIn(("1Cor.11.1", "1Cor.11.2", "renumbered"), changes)

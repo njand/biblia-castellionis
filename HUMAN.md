@@ -66,6 +66,11 @@
 
 ## Decisions waiting
 
+- **1 Corinthians 1–16 is settled** (2026-11-10; decision 36): approved by you "for now", in `text/1CO.usfm` (437
+  verses, the KJV count), gold rebuilt (`data/gold/1Cor.tsv`), draft and preview removed (`text/draft/` is now empty and
+  gone). Record: `data/review/1cor1-16-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch16.md`, `data/decisions/1Cor.*.tsv`,
+  `data/versification/1Cor.draft.edits.tsv`. One call of mine to check: the title lines (`\h`/`\toc2` *Ad Corinthiōs I*,
+  `\mt1` *Paulī Apostolī Epistola prior ad Corinthiōs*, on the pattern of Romans). Nothing committed.
 - **Romans 1–16 is settled** (2026-11-09; decision 33): approved by you "for now", in `text/ROM.usfm` (433 verses, the
   KJV count), gold rebuilt (`data/gold/Rom.tsv`), draft removed. Record: `data/review/rom1-16-stages3-5.md`,
   `-stage2.md`, `-ch01.md` … `-ch16.md`, `data/decisions/Rom.*.tsv`, `data/versification/Rom.draft.edits.tsv`. Open for
@@ -83,7 +88,8 @@
   text, `data/review/settled-fixes-acts.md` (Gen 6:16 *contignātiōne*, Gen 37:4 *amīcē*, Luke 2:13 *repente*, Matt 4:24
   *Syriam*) and `settled-fixes-exod.md` (Gen 8:5 *mēnsis*, Gen 13:9 and Luke 21:23 *regiō*, Gen 22:14 *ā Jōvā*, Gen 24:8
   *religiōne*); `data/gold/` rebuilt for Genesis, Luke and Matthew.
-- **Still waiting on you**: the questions for the whole edition at the end of each summary (Acts: *Jōannēs/Jōhannēs*, *cūst-*, *temptō*; Exodus: *vesc-*, *lōcusta*, *nārr-*, unmarked Hebrew names; Romans: the
+- **Still waiting on you**: the questions for the whole edition at the end of each summary (1 Corinthians: *obdormiō*'s
+  perfect, *Ādamus*, BSB `b m` paragraphs; Acts: *Jōannēs/Jōhannēs*, *cūst-*, *temptō*; Exodus: *vesc-*, *lōcusta*, *nārr-*, unmarked Hebrew names; Romans: the
   16:27 subscription, the early-line spellings *caussa*, *adsp-*, *intellig-*, which Romans and Acts keep alike).
 - **Genesis 28–50 is settled** (2026-11-08; decision 32): approved by you "for now", in `text/GEN.usfm` (Genesis now
   1,532 verses; every chapter at the KJV count but 41, where 41:57 is absent in every printing), gold rebuilt, draft
@@ -174,6 +180,7 @@
 | 33 | 2026-11-09 | **Romans 1–16 approved for now.** Stages 1–5 as for Acts (93 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *humanitas → caro*, *vitiositas → peccatum*, *sacer → sanctus*, 9:5 *Etiam*, 7:14 *emancipatus*; 17 versification edits to the KJV; 92 layout lines, 440 forms decided in context) settled in `text/ROM.usfm`. With it: the collation's edge and f/s checks and the j rule for *major* (with tests). Your in-depth review follows decision 30. |
 | 34 | 2026-11-09 | **Acts 1–28 approved for now.** Stages 1–5 (225 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *synagoga → collegium* 23×, *templum → fanum*, *baptismo lavit → baptismate baptizavit*; 31 versification edits; 391 layout lines, 1,111 forms) settled in `text/ACT.usfm`. The fixes to the settled text it proposed (`settled-fixes-acts.md`) are not part of this approval. Your in-depth review follows decision 30. |
 | 35 | 2026-11-09 | **Exodus 1–20 approved for now.** Stages 1–5 (120 stage-2 corrections against 1738; 18 versification edits, Castellio's numbering in 5–7 to the KJV's; the Song of the Sea as poetry; 120 layout lines, 692 forms) settled in `text/EXO.usfm`. The fixes to the settled text it proposed (`settled-fixes-exod.md`) are not part of this approval. Your in-depth review follows decision 30. |
+| 36 | 2026-11-10 | **1 Corinthians 1–16 approved for now.** Stages 1–5 (97 stage-2 corrections against 1573 read on the page images, 3 of them long-s slips found by a sweep of the draft's *f* words; 7 versification edits, the KJV's 3:23 split from 3:22 and 11:1 moved back to 10:33's *Imitatores mei estote*; 77 layout lines, 410 forms) settled in `text/1CO.usfm`. Its questions for the whole edition stay open (summary, end). Your in-depth review follows decision 30. |
 
 ## How to run
 

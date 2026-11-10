@@ -109,6 +109,29 @@ page images). What differs from the early wording:
 - **1573's margins** carry glosses as well as references (1:11 *Scilicet* beside *hoc est*; 3:6 *si esset iniustus*),
   which its OCR runs into the text.
 
+### 1 Corinthians in 1573 against 1556 and Wikisource (stage 2, 2026-11-10)
+
+Every place where Wikisource's 1 Corinthians differs from 1573 was read on the 1573 page image (canvases 867–880;
+`data/review/1cor1-16-stage2.md`, 97 corrections, 3 of them long-s slips found on a second pass). As in Romans and Acts, Wikisource prints the early wording, with
+1715, 1747 and 1750; 1758 and 1726–27 print the 1573 text. Wikisource also has many slips of its own (12:25 replaced by
+half of 12:26, 10:17 a line dropped, 15:42–44 *refurget* for *resurget*: long s transcribed as f).
+- **The revision**: *in re christiana* → *in Christo* (3:1, 4:10), *corporis* → *carnis* (5:5, σαρκός), *humanitas* →
+  *caro* (10:18 *quod ad carnem attinet*, as Rom 9:3, 9:5), *sacrum* → *sanctum* (3:17, as Rom 11:16), *cinaedi* →
+  *paedicones* (6:10), *nomen* → *locum* (14:16, τὸν τόπον), *in hominibus* → *apud homines* (3:21), *infestati* →
+  *insectati* (4:12, with *infestati* kept as a margin gloss), and word order (6:18 *suum corpus*, 7:13, 7:40, 9:27,
+  10:15, 11:19, 15:54 *Absorpta mors est victoriose*).
+- **1556 is part-way**: where its OCR can be read it already has 4:10 *in Christo*, 10:18 *carnem*, 6:10 *pedicones*, 14:16
+  *illiterati locum*, 3:21 *apud homines*, but still the early 3:1 *ut in re Christiana infantes*, 3:17 *Dei sacrum est*,
+  5:5 *ad perniciem corporis*, 7:5 *uacetis & deinde*, 8:10 *in deastrorum mensa*: those are 1573 changes (or 1573
+  completing a revision 1556 began, since 1556 has 4:10 revised but not 3:1). Both 1556 and 1573 have *lucrificarem*
+  at 9:21 beside *lucrifacerem* in 9:20 and 9:22.
+- **Verse numbers**: 1573 numbers as Wikisource (the 1760 line) except at 3:21–22, where it prints 22 before *& Paulus*
+  (the KJV's 3:22); neither has the KJV's 3:23, which both print inside 3:22. Both number 4:10–12 the old way (the KJV's
+  4:11 *Ad hoc tempus* inside 4:10), end chapter 10 with the KJV's 11:1 *Imitatores mei estote*, and so number chapter
+  11 one behind the KJV, printing the KJV's 11:34 as two verses. 1573 alone starts 13:5 at *charitas non aemulatur*.
+- **The subscription** after 16:24 (*Ad Corinthios prima scripta est Philippis, missa per Stephanam, & Fortunatum, &
+  Achaicum, & Timotheum.*) is set in italics apart, as after Romans; Wikisource runs it into the verse.
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.

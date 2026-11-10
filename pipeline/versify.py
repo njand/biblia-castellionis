@@ -9,7 +9,9 @@ boundary, with `at` the verse id in the book's current numbering:
   chapter  the chapter break before `at` moves to the words `anchor` inside it; the words before the anchor end
            the previous chapter as its last verse (\\p follows the new \\c after a full stop, \\nb mid-sentence)
   opens    the chapter break after `at` moves back to before it: `at` and the verses after it in its chapter
-           open the next chapter (Castellio's Exod 5:25 is the KJV's 6:1); `anchor` is empty
+           open the next chapter (Castellio's Exod 5:25 is the KJV's 6:1); `anchor` is empty. With an `anchor`
+           (`at` the chapter's last verse), the break moves back to those words inside it: they open the next
+           chapter as its verse 1 (Castellio's 1 Cor 10:33 ends with the KJV's 11:1, *Imitatores mei estote*)
   absent   `at` is a KJV verse the text has no verse for (its sense folded into a neighbour, as Castellio's Gen
            41:56 holds the KJV's 41:57): nothing moves, and the chapter is checked against the KJV's count less one
 
@@ -93,6 +95,20 @@ def apply_edits(usfm, osis, edits):
             paragraph = "\\p" if before.endswith((".", "?", "!", "”", "’")) else "\\nb"
             seq[t:t + 1] = [("text", before + "\n\n"), ("c", chapter), ("text", f"\n{paragraph}\n"),
                             ("v", f"{at}+chapter"), ("text", text[offset:])]
+        elif op == "opens" and anchor:
+            n = next(i for i in range(v + 1, len(seq)) if seq[i][0] == "c")
+            chapter = seq[n][1]
+            del seq[n]
+            if seq[n - 1][0] == "text":                             # the blank line that stood before \c
+                seq[n - 1] = ("text", seq[n - 1][1].rstrip("\n") + "\n")
+            t, offset = _split_at(seq, v, anchor, at)
+            text = seq[t][1]
+            before = text[:offset].rstrip()
+            paragraph = "\\p" if before.endswith((".", "?", "!", "”", "’")) else "\\nb"
+            seq[t:t + 1] = [("text", before + "\n\n"), ("c", chapter), ("text", f"\n{paragraph}\n"),
+                            ("v", f"{at}+opens"), ("text", text[offset:])]
+            if t + 5 < len(seq) and seq[t + 5][0] == "text":       # the next chapter's own \p stays, mid-chapter now
+                seq[t + 5] = ("text", seq[t + 5][1].lstrip("\n"))
         elif op == "opens":
             n = next(i for i in range(v + 1, len(seq)) if seq[i][0] == "c")
             chapter = seq[n][1]
@@ -112,7 +128,7 @@ def apply_edits(usfm, osis, edits):
             verse += 1
             new = f"{osis}.{chapter}.{verse}"
             old = value.split("+")[0]
-            how = "split" if value.endswith("+split") else "chapter" if value.endswith("+chapter") else ""
+            how = "split" if value.endswith("+split") else "chapter" if value.endswith(("+chapter", "+opens")) else ""
             if how:
                 changes.append((f"{old} (part)", new, how))
             elif old != new:
