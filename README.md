@@ -39,7 +39,7 @@ Theodore Beza, a fellow French Protestant who produced his own translation of th
 The working text is the transcription by the contributors to [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione). The base editions are:
 
 * Old Testament: the [1738 Leipzig edition](https://archive.org/details/bibliasacraexseb01cast) (*Biblia sacra ex Sebastiani Castellionis interpretatione et postrema recognitione*), which Wikisource transcribes.
-* New Testament: the [1556 Basel edition](https://www.e-rara.ch/bau_1/content/titleinfo/10281656) (Oporinus), Castellio's last revision in his lifetime.
+* New Testament: the [1573 Basel edition](https://www.digitale-sammlungen.de/en/view/bsb10141277) (Petrus Perna, *ex postrema recognitione*), printed after Castellio's death from his last revision: the text of his [1556 edition](https://www.e-rara.ch/bau_1/content/titleinfo/10281656) (Oporinus), the last printed in his lifetime, revised further. Where 1556 reads otherwise, its reading is recorded as a variant.
 
 The transcription is checked word by word against scans of other editions, which serve to correct errors in the transcription and in the scans' OCR:
 
@@ -51,7 +51,7 @@ The transcription is checked word by word against scans of other editions, which
 
 Also consulted: Castellio's [1551](https://books.google.com/books?id=BrlIAAAAcAAJ) and [1554](https://www.digitale-sammlungen.de/en/view/bsb10196330?page=1) editions, Bünemann's [1745 Leipzig edition](https://opendata.uni-halle.de/handle/1981185920/56262) and the [1760 New Testament](https://www.google.com/books/edition/Novum_Jesu_Christi_testamentum_ex_Sebast/FsdIAAAAcAAJ).
 
-Where the editions genuinely differ, the reading of the base edition (1738 or 1556) is printed.
+Where the editions genuinely differ, the reading of the base edition (1738 or 1573) is printed.
 
 N.B. This project aims to create a reader's edition, not a critical edition of the original versions of the text. Variant readings are recorded in the project's data files, but no critical apparatus is printed.
 

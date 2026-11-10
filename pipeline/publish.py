@@ -49,6 +49,7 @@ class Chapter:
     number: int
     summary: str = ""                           # \cd: the argumentum (verse 0)
     title: str = ""                             # \d: a psalm title (verse 0)
+    closing: str = ""                           # \cls: a letter's subscription, after the last verse
     blocks: list = field(default_factory=list)
 
 
@@ -96,6 +97,13 @@ def parse(usfm, info):
             continue
         if chapter is None:
             fail(f"{stripped[:40]!r} before the first \\c", line_no)
+        if chapter.closing:
+            fail(f"{stripped[:40]!r} after the chapter's \\cls", line_no)
+        if marker == "cls":                             # a letter's subscription: the chapter's last line
+            if not chapter.blocks or not rest:
+                fail("\\cls before the chapter's text, or empty", line_no)
+            chapter.closing = rest
+            continue
         if marker in ("cd", "d"):
             if chapter.blocks:
                 fail(f"\\{marker} after the chapter's text began", line_no)
@@ -263,6 +271,8 @@ def reading_text(book):
                                      value if kind == "text" else "" for kind, value in block.content))
                 lines.append("    " * int(block.kind[1]) + text if poetry else text)
             previous = block.kind
+        if chapter.closing:
+            lines += ["", chapter.closing]
         out += lines + [""]
     return "\n".join(out).rstrip() + "\n"
 

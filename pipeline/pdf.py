@@ -38,6 +38,7 @@ ADDITIONS = r"""
 \setlength{\emergencystretch}{1.5em}
 \newcommand{\Argumentum}[1]{\par\medskip{\small\itshape #1\par}\smallskip}
 \newcommand{\Titulus}[1]{\par{\itshape #1\par}\smallskip}
+\newcommand{\Subscriptio}[1]{\par\medskip{\small\itshape\noindent #1\par}}
 """
 
 

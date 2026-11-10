@@ -21,7 +21,7 @@
     `--sources ../sources` from a worktree). It shows only the books built, so the v1.0 site has no Genesis: do you
     want Genesis on the site from the start (it was on WordPress)?
   - **Wording for you to settle:** the colophon (English; `publish.credits`) names no editor; it says the NT follows
-    1573 with 1556 as the reference (decision 24), while `README.md` still says 1556. The release title is
+    1573 with 1556 as the reference (decision 24), as `README.md` now does too (2026-11-10). The release title is
     *Ēvangelia* and the files are `castellio-evangelia*`; TXT chapters are headed "Matthæus 14".
   - **Two fixes in `latex.py`:** a paragraph marker in the middle of a line (`… lēgistis? \q1 \qt …`, Matt 21:16)
     now starts a new block (it used to stop `to_latex`), and `\cd` (a chapter summary) / `\d` (a psalm title) print as
@@ -66,6 +66,14 @@
 
 ## Decisions waiting
 
+- **The open questions for the whole edition are decided and applied** (2026-11-10; decision 37): you approved every
+  recommendation in my walkthrough. 462 changes to the settled text (`data/review/edition-fixes.md`, one item per word,
+  each group with its evidence), `data/gold/` rebuilt for all nine books, 176 spelling rules added to
+  `orthography.tsv` for future drafts, the two subscriptions set apart as `\cls` (now supported by every build), and
+  `README.md` now names 1573 as the NT base. Romans now has paragraphs at 23 of the BSB's ordinary breaks, to match 1 Corinthians
+  (`data/review/rom-paragraphs.md`, accepted by you and applied; 79 passed over, with reasons). **Waiting on you:**
+  whether the colophon names you as editor; and the go-ahead to tag the release, add the Pages workflow and point WordPress at
+  the site, now with every settled book. Nothing committed.
 - **1 Corinthians 1–16 is settled** (2026-11-10; decision 36): approved by you "for now", in `text/1CO.usfm` (437
   verses, the KJV count), gold rebuilt (`data/gold/1Cor.tsv`), draft and preview removed (`text/draft/` is now empty and
   gone). Record: `data/review/1cor1-16-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch16.md`, `data/decisions/1Cor.*.tsv`,
@@ -88,9 +96,8 @@
   text, `data/review/settled-fixes-acts.md` (Gen 6:16 *contignātiōne*, Gen 37:4 *amīcē*, Luke 2:13 *repente*, Matt 4:24
   *Syriam*) and `settled-fixes-exod.md` (Gen 8:5 *mēnsis*, Gen 13:9 and Luke 21:23 *regiō*, Gen 22:14 *ā Jōvā*, Gen 24:8
   *religiōne*); `data/gold/` rebuilt for Genesis, Luke and Matthew.
-- **Still waiting on you**: the questions for the whole edition at the end of each summary (1 Corinthians: *obdormiō*'s
-  perfect, *Ādamus*, BSB `b m` paragraphs; Acts: *Jōannēs/Jōhannēs*, *cūst-*, *temptō*; Exodus: *vesc-*, *lōcusta*, *nārr-*, unmarked Hebrew names; Romans: the
-  16:27 subscription, the early-line spellings *caussa*, *adsp-*, *intellig-*, which Romans and Acts keep alike).
+- **The questions for the whole edition** at the end of each summary (1 Corinthians, Acts, Exodus, Romans, and
+  Genesis's *Rachel*) are decided: decision 37.
 - **Genesis 28–50 is settled** (2026-11-08; decision 32): approved by you "for now", in `text/GEN.usfm` (Genesis now
   1,532 verses; every chapter at the KJV count but 41, where 41:57 is absent in every printing), gold rebuilt, draft
   removed. Record: `data/review/gen28-50-stages3-5.md`, `-stage2.md`, `-ch28.md` … `-ch50.md`,
@@ -181,6 +188,7 @@
 | 34 | 2026-11-09 | **Acts 1–28 approved for now.** Stages 1–5 (225 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *synagoga → collegium* 23×, *templum → fanum*, *baptismo lavit → baptismate baptizavit*; 31 versification edits; 391 layout lines, 1,111 forms) settled in `text/ACT.usfm`. The fixes to the settled text it proposed (`settled-fixes-acts.md`) are not part of this approval. Your in-depth review follows decision 30. |
 | 35 | 2026-11-09 | **Exodus 1–20 approved for now.** Stages 1–5 (120 stage-2 corrections against 1738; 18 versification edits, Castellio's numbering in 5–7 to the KJV's; the Song of the Sea as poetry; 120 layout lines, 692 forms) settled in `text/EXO.usfm`. The fixes to the settled text it proposed (`settled-fixes-exod.md`) are not part of this approval. Your in-depth review follows decision 30. |
 | 36 | 2026-11-10 | **1 Corinthians 1–16 approved for now.** Stages 1–5 (97 stage-2 corrections against 1573 read on the page images, 3 of them long-s slips found by a sweep of the draft's *f* words; 7 versification edits, the KJV's 3:23 split from 3:22 and 11:1 moved back to 10:33's *Imitatores mei estote*; 77 layout lines, 410 forms) settled in `text/1CO.usfm`. Its questions for the whole edition stay open (summary, end). Your in-depth review follows decision 30. |
+| 37 | 2026-11-10 | **The open questions for the whole edition, as recommended** (`data/review/edition-fixes.md`, 462 changes, applied). Spelling: *causa* (Cicero 1,974 : *caussa* 3), *intelleg-* (157 : 35), *exsp-* kept, *temptō* (198 : 61; not *tentōrium*, nor John 20:23 *tenta*), *Jōhannēs* in Acts as in the Gospels; *ad-* assimilated as in your own chapters (*allocūtus* 54 : 0, *ascendō* 30 : 0), except compounds of *sum* (*adsunt*, *adsit*, *adfuit*), *adnūntiō* and the names. Macrons by Gaffiot: *vēsc-*, *īnfēst-*, *custōs*, *lōcusta*, *narrō*, *Ādamus*; *Rāchēl* as its other cases (16 nominatives, not the one counted earlier); *obdormiērunt* (third plural by verb, decision 19); Romans *Quīn etiam*, *perēmptī*, *īnsitīciī*. Hebrew names marked only where Gaffiot or a Latin source gives the length. Kept as settled: Acts 28:26's three levels of quotation marks, *Saūlem*. Layout: a letter's subscription set apart as `\cls` (Rom 16:27, 1 Cor 16:24, and the letters to come); the BSB's ordinary paragraph breaks taken where the Latin allows, as in 1 Corinthians; Romans given 23 to match (`rom-paragraphs.md`, accepted). README: the NT base is 1573. |
 
 ## How to run
 

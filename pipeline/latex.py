@@ -288,7 +288,7 @@ def blocks(usfm):
             continue
         match = re.match(r"\\([a-z]+\d*)(?:\s+(.*)|$)", stripped)
         marker = match.group(1) if match else None
-        if marker in HEADER or marker in TITLES or marker == "c":
+        if marker in HEADER or marker in TITLES or marker in ("c", "cls"):
             out.append((marker, (match.group(2) or "").strip()))
             continue
         if marker in PARAGRAPHS:
@@ -334,6 +334,11 @@ def to_latex(usfm):
                 raise LatexError(f"\\{marker} must follow \\c directly")
             text = re.sub(r"\\\+?[a-z]+\d*\*?\s?", "", content)
             out[-1] = f"\n\n\\{TITLES[marker]}{{{unicode_to_latex(text)}}}\n\\Caput\n"
+            continue
+        if marker == "cls":                      # a letter's subscription, set apart after the last verse
+            close_poem()
+            text = re.sub(r"\\\+?[a-z]+\d*\*?\s?", "", content)
+            out.append(f"\n\n\\Subscriptio{{{unicode_to_latex(text)}}}")
             continue
         if marker == "b":
             out.append("\n\n")                   # a stanza break: the line before it has no \\

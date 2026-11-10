@@ -82,7 +82,7 @@ def parse_usfm(source, keep=()):
                 marks.append(marker)                     # layout before the next verse
         elif marker in HEADINGS:
             marks.append(f"{marker}:{strip_inline(rest)}")
-        elif rows and marker not in ("toc1", "toc2", "toc3", "h", "mt", "mt1", "mt2", "ide", "rem", "cl", "cp"):
+        elif rows and marker not in ("toc1", "toc2", "toc3", "h", "mt", "mt1", "mt2", "ide", "rem", "cl", "cp", "cls"):
             rows[-1][2] += " " + line.strip()
     out = []
     for c, v, raw, m in rows:

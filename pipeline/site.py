@@ -71,6 +71,8 @@ def chapter_html(chapter, verse_id, chapter_id, filt=lambda text: text, verse_li
             out.append(f'<p class="{classes}">{inner}</p>')
         first = False
     flush_poem()
+    if chapter.closing:
+        out.append(f'<p class="cls">{esc(filt(chapter.closing))}</p>')
     return "\n".join(out)
 
 
@@ -117,6 +119,7 @@ h2 a { text-decoration: none; }
 .chapter p { margin: 0; text-indent: 1.2em; text-align: justify; hyphens: manual; }
 .chapter p.first, .chapter p.m, .chapter p.nb, .chapter .poem + p.m { text-indent: 0; }
 .chapter p.argumentum { font-style: italic; text-indent: 0; color: var(--muted); margin-bottom: 1rem; }
+.chapter p.cls { font-style: italic; text-indent: 0; font-size: .9em; margin-top: 1rem; }
 .chapter p.d { font-style: italic; text-indent: 0; margin-bottom: .5rem; }
 .chapter .poem { margin: .45em 0; }
 .chapter .q1, .chapter .q2, .chapter .q3 { padding-left: 2em; text-indent: -1em; }

@@ -67,6 +67,21 @@ class Model(unittest.TestCase):
             with self.subTest(message=message), self.assertRaisesRegex(publish.UsfmError, message):
                 publish.parse(bad, MATT)
 
+    def test_subscription(self):
+        """\\cls: a letter's subscription, set apart after the last verse and outside its text."""
+        usfm = SAMPLE.rstrip("\n") + "\n\\cls Scrīpta est Corinthī.\n"
+        book = publish.parse(usfm, MATT)
+        self.assertEqual(book.chapters[1].closing, "Scrīpta est Corinthī.")
+        rows = {vid: text for vid, _, _, text in publish.verses(book)}
+        self.assertEqual(rows["Matt.2.1"], "Hīc ȳ.")
+        self.assertEqual(gold.rows(usfm, "Matt")[-1][1], "Hīc ȳ.")
+        self.assertTrue(publish.reading_text(book).rstrip().endswith("Hīc ȳ.\n\nScrīpta est Corinthī."))
+        markup = site.chapter_html(book.chapters[1], str, "c")
+        self.assertTrue(markup.endswith('<p class="cls">Scrīpta est Corinthī.</p>'))
+        self.assertIn("\\Versus Hīc ȳ.\n\n\\Subscriptio{Scrīpta est Corinthī.}", latex.to_latex(usfm))
+        with self.assertRaisesRegex(publish.UsfmError, "after the chapter's"):
+            publish.parse(usfm + "\\p\n\\v 2 Plūs.\n", MATT)
+
     def test_strip_macrons(self):
         self.assertEqual(publish.strip_macrons("Ēvangelium Jēsū ȳ æ œ “‘’”"), "Evangelium Jesu y æ œ “‘’”")
 

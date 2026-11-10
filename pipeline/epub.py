@@ -17,6 +17,7 @@ h1 { font-weight: normal; text-align: center; font-variant: small-caps; margin: 
 p { margin: 0; text-indent: 1.2em; text-align: justify; }
 p.first, p.m, p.nb { text-indent: 0; }
 p.argumentum { font-style: italic; text-indent: 0; margin: 1em 0 .5em; }
+p.cls { font-style: italic; text-indent: 0; font-size: .9em; margin-top: 1em; }
 p.d { font-style: italic; text-indent: 0; margin: .5em 0; }
 div.poem { margin: .4em 0; }
 div.q1, div.q2, div.q3 { margin-left: 2em; text-indent: -1em; }

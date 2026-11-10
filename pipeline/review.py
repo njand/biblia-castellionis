@@ -33,7 +33,7 @@ APPLY = re.compile(r"\*\*Apply(?::\*\*|\*\*\s*\([^)]*\):)\s*`([^`]+)`\s*(\w+):\s
 DECISION = re.compile(r"^(\s*)(?:\d+\.\s+)?\*\*Decision:\*\*\s*(.*)$")
 ITEM = re.compile(r"^(\d+)\.\s")
 HEADING = re.compile(r"^#{2,}\s")
-LAYOUT = r"\\(?:p|m|b|nb|q\d?|pi\d?|li\d?)\b"          # markers that start a line in the USFM
+LAYOUT = r"\\(?:p|m|b|nb|q\d?|pi\d?|li\d?|cls)\b"      # markers that start a line in the USFM
 
 
 @dataclass

@@ -95,6 +95,7 @@ USFM markers used by this edition:
 | Paragraph | `\p` (`\m` to continue after poetry) | blank line |
 | Poetry lines and indents | `\q1`, `\q2`, `\q3` | `verse`/`patverse*` with `\indentpattern{…}` |
 | Psalm title | `\d …` | — |
+| A letter's subscription (after its last verse; decision 37) | `\cls …` | `\Subscriptio{…}` |
 | Quoted Scripture (italic) | `\qt …\qt*` | `\emph{…}` |
 | Quotation marks, macrons, æ/œ | plain UTF-8 (“…”, ‘…’, ā, æ) | ``…'', `…' |
 
