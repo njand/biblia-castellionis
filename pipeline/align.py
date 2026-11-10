@@ -97,6 +97,7 @@ class Chapter:
     joined: set = field(default_factory=set)         # indices of base words the OCR ran together or split
     marked: dict = field(default_factory=dict)       # {verse id: [words set between L. and G.]}
     pages: dict = field(default_factory=dict)        # {verse id: canvas or page label}, where the witness has them
+    spans: dict = field(default_factory=dict)        # {verse id: (first, last) token indices of its row}
 
 
 class Witness:
@@ -192,6 +193,7 @@ def align_chapter(witness, base_rows, chapter):
         if len(best) < max(2, 0.3 * verse_words[vid]):
             continue                                     # a few common words matched by chance: no row
         first, last = _edges(witness, best[0], best[-1], vid, owned)
+        result.spans[vid] = (first, last)
         pieces = [token for token, _ in witness.tokens[first:last + 1]]
         result.verses[vid], marked = strip_marks(pieces)
         if marked:

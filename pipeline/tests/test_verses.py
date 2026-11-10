@@ -22,6 +22,17 @@ class Layout(unittest.TestCase):
         with self.assertRaises(ValueError):
             verses.with_layout(self.verse("Et illa: Etsi ita est"), 28, (None, "Et illa: “Etsi sic est”", ""))
 
+    def test_layout_dash_removes_the_marker(self):
+        import tempfile, pathlib
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as folder:
+            path = pathlib.Path(folder) / "Acts.layout.tsv"
+            path.write_text("id\tmarks\ttext\tnote\nActs.9.20\t-\tac statim\t\nActs.9.21\tp m\tx\t\nActs.9.22\t=\ty\t\n",
+                            encoding="utf-8")
+            with mock.patch.object(verses, "DECISIONS", pathlib.Path(folder)):
+                found = verses.load_layout("Acts")
+        self.assertEqual([found[v][0] for v in ("Acts.9.20", "Acts.9.21", "Acts.9.22")], [[], ["p", "m"], None])
+
     def test_capitals_are_flagged(self):
         v = self.verse("Deinde cernetur filius hominis veniens,")
         verses.with_layout(v, 26, (["m"], "Deinde cernetur Filius Hominis veniens,", ""))

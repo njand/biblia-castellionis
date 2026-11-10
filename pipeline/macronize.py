@@ -281,8 +281,11 @@ JICIO_PREFIXES = {"ab", "ad", "con", "dis", "in", "ob", "sub", "e", "de", "re", 
                   "inter", "super", "præ", "prae"}
 # ŏbex, ŏbicis keeps i (Gaffiot's headword; objex only a variant). Obici, obicis are taken as forms of objiciō.
 OBEX = {"obicem", "obice", "obices", "obicibus", "obicum"}
-# Names whose i is a vowel though a rule would read a consonant: Abius (Abihu, Hebrew ʾĂḇîhû), not ab|jus.
-JV_KEEP = {"abius", "abium", "abii", "abio"}
+# Words whose i is a vowel though a rule would read a consonant: Abius (Abihu, Hebrew ʾĂḇîhû), not ab|jus; the
+# forms of tenuis (tĕnŭĭs: Acts 9:36 tenuium), where i follows a vowel u as in cujus but is itself a vowel; Gaius
+# (Gaffiot Gāĭus, three syllables: Acts 19:29, 20:4).
+JV_KEEP = {"abius", "abium", "abii", "abio", "gaius", "gaio", "gaium", "gai",
+           "tenuium", "tenuia", "tenuior", "tenuiores", "tenuiorem", "tenuiorum", "tenuioribus", "tenuiora"}
 ENCLITICS = ("que", "ne", "ve")
 # Words that only end like an enclitic (e-liber's list, the forms met here).
 NEVER_SPLIT = {"atque", "neque", "quisque", "quaeque", "quodque", "quidque", "quoque", "ubique", "undique",

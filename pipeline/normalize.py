@@ -107,6 +107,9 @@ def word_rules():
 # with ι before a vowel (Ēsāiās, Caiāphās, Gāius).
 EO = re.compile(r"^(ab|ad|amb|co|ex|in|ob|per|præ|prae|prōd|prod|red|sub|trāns|trans|inter|circum|vēn|ven)?i[eē](r|b|n|ram|ndu)")
 GREEK_I = re.compile(r"[aeē]i[aāoō]")
+# Latin words the Greek pattern would catch, whose i is a consonant: major (Rom 9:12 *Maior*), pejor, plēbējus,
+# ējaculor.
+LATIN_J = re.compile(r"^(m[aā]io|pei[oō]|pl[eē]b[eē]i|[eē]iac)")
 
 
 def propose(usfm, osis, known=None):
@@ -148,7 +151,7 @@ def changes(text, words, phrases, known):
                     change, kind, note = lig, "ligature", "decision 16"
                 jv = macronize.jv(change or word)
                 plain = macronize.plain(word)
-                if jv != (change or word) and key not in settled_keys and not EO.match(plain)                         and not GREEK_I.search(plain):
+                if jv != (change or word) and key not in settled_keys and not EO.match(plain)                         and not (GREEK_I.search(plain) and not LATIN_J.match(plain)):
                     change, kind, note = jv, "jv", "decision 17"
             if change and change != word:
                 out.append((start, end, change, kind, note))

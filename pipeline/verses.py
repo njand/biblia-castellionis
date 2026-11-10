@@ -78,8 +78,9 @@ def load_layout(osis):
     path = DECISIONS / f"{osis}.layout.tsv"
     if not path.exists():
         return {}
-    return {r["id"]: (None if r["marks"] == "=" else r["marks"].split(), r["text"], r.get("note", ""))
-            for r in tsv.read(path)}
+    return {r["id"]: (None if r["marks"] == "=" else [] if r["marks"] == "-" else r["marks"].split(), r["text"],
+                      r.get("note", ""))
+            for r in tsv.read(path)}                      # `-`: no marker (the draft's \p removed)
 
 
 def load_forms(osis):

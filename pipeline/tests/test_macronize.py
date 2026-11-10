@@ -87,8 +87,8 @@ class Finish(unittest.TestCase):
                           "periculum", "dicere", "abies", "deinde", "obicem"])
 
     def test_jv_keeps_names(self):
-        self.assertEqual([macronize.jv(w) for w in ("Abius", "Abium", "adiumentum")],
-                         ["Abius", "Abium", "adjumentum"])
+        self.assertEqual([macronize.jv(w) for w in ("Abius", "Abium", "adiumentum", "tenuium", "cuius", "Gaius")],
+                         ["Abius", "Abium", "adjumentum", "tenuium", "cujus", "Gaius"])
 
 
 class Normalize(unittest.TestCase):

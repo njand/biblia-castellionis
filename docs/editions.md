@@ -62,6 +62,53 @@ In Acts–Revelation (1554 OCR search; 1556 OCR collation, `data/calibration/sca
 
 Wikisource's Gospels follow the 1556 revision, but its Acts–Revelation follow the early wording (as 1750 and 1760 do).
 
+### Acts in 1573 against the early wording (stage 2, 2026-11-09)
+
+Every place where Wikisource's Acts (the early line, with 1715, 1747, 1750) differs from 1573 was read on the 1573
+page image (`data/review/acts1-28-stage2.md`, 225 corrections). 1758, 1681 and your 1726–27 text print the 1573
+wording throughout; 1556, where its OCR reaches, mostly does too, but keeps the early reading at about a dozen places
+(1:11 *viri Galilæi*, 10:34 *Tum*, 10:38 *sacro spiritu*, 14:15 *ad Deum immortalem*, 16:31 *fidem habe Domino
+Iesu*, 19:4 *venienti*, 20:21 *Domino Iesu nostro*, 28:7 *Erant autem*), so those changes date from 1573. What the
+revision does in Acts:
+- **The received church words**: *synagoga* → *collegium* (all 23 places), *templum* → *fanum*, *lavari* →
+  *baptizari*, *baptismo lavit* → *baptismate baptizavit* (19:4; *baptismus* → *baptisma* at 1:22, 10:37, 19:3),
+  *homine natum* → *filium hominis* (7:56), *filius* → *puer* for Jesus as God's servant (4:30, as 3:13), *fidem
+  habere* → *credere* (16:31, 19:4), *fortunare* → *felicitare* (3:25–26), *sacer* → *sanctus* (10:38).
+- **Wording and syntax**: *hic sermo* → *hæc oratio* (6:5), *scriptura* → *literis* (1:16), *ferta obmoverem* → *munera
+  libarem* (24:17), *sibi ad aliquam terram accedere videbantur* → *se alicui terræ propinquare suspicabantur*
+  (27:27), *Assum prætervecti* → *soluerunt, & propius* (27:13), *verticosus* → *procellosus* (27:14), *cum potestate mihi a pontificibus præmissa* → *cum potestate & procuratione à Pontificibus accepta*
+  (26:12), *supra* → *non plus* (25:6), *adsto* → *starem* (24:20), *sis acturus* → *agas* (22:26), *et* ↔ *ac*
+  throughout; sentences joined across verses (9:1–2, 14:7–8, 16:12–13, 17:1–2, 18:11–12), and the letter of 15:23–29
+  closed with *Valete*.
+- **Verse numbers**: 1573 numbers Acts as the KJV does at 14 places where the 1760 line (Wikisource) starts a verse a
+  few words earlier or later (2:8, 4:28, 4:35, 9:34, 10:31, 11:7, 11:30, 14:15, 16:7, 16:39, 17:7, 18:22, 27:28,
+  28:31); it differs from the KJV at 19:40–41 (one verse) and in chapter 24 (28 verses).
+- **1573's own misprints**, not followed: 13:19 *dedi eis* (for *dedit*). Its 12:15 *dicere* (a historic infinitive,
+  with 1747) is followed.
+
+### Romans in 1573 against the early wording (stage 2, 2026-11-09)
+
+Wikisource's Romans is the early line too (with 1715, 1747, 1750); 1758 prints the 1573 text, and 1556, where its OCR
+reaches, already has nearly all of the revision (`data/review/rom1-16-stage2.md`, 93 corrections, read on the 1573
+page images). What differs from the early wording:
+- **σάρξ, ἁμαρτία, ἅγιος, καρδία**: *humanitas* / *humana natura* → *caro* where the sense is descent (9:3, 9:5, 9:8:
+  *quod ad carnem attinet*, *non carnis filii*), but *humana natura* stays at 4:1 and 6:19 in 1573 too; *vitiositas* →
+  *peccatum* (7:17, 7:20, 7:23); *sacer* → *sanctus* (11:16 twice, 12:1); *animus* → *cor* (2:29 *quæ cordis est*);
+  *scripturæ* → *literæ* (15:4). *Favor* stays (16:20, 16:24).
+- **Other words**: *praevidit* → *prænovit* (8:29), *lenitudo* → *lentitudo* (2:4; 1556 and 1758 *lenitudinem*),
+  *praeputium* → *præputiatus* (2:26, the man, not the foreskin: Castellio's note explains the masculine *ejus*),
+  *mancipatus* → *emancipatus* (7:14; 1556 and 1758 *mancipatus*, but 1556 itself has *Deoque emancipati* at 6:22),
+  *Amen* → *Etiam* (9:5, as he writes it at 1:25 and 11:36), and word order (1:2 *per vates suos*, 6:11 *per Iesum
+  Christum*, 9:7, 9:9, 9:11 *ratum esset* moved to the end of its clause, 11:2 *suum populum*, 16:6 *nostra causa*).
+  The changes at 1:2, 2:4, 6:11, 7:14 and 16:6 are not in 1556: they date from 1573.
+- **Verse numbers**: 1573 numbers chapters 3 and 8 the old way, one verse short of the KJV (no break at KJV 3:23
+  *nam omnes peccaverunt* or 8:21 *fore, ut ipsa*); elsewhere it agrees with the KJV where Wikisource (the 1760 line)
+  does not (3:4, 3:6, 3:28, 11:18, 12:17, 15:9–11, 15:33), except at 9:12, which it starts before *sed ex vocante*.
+- **The subscription** after 16:27 (*Scripta est Corinthi, missa per Phœbam, Cenchreensis ecclesiæ ministram.*) is set
+  in italics under the last verse, apart from the text; Wikisource runs it into the verse.
+- **1573's margins** carry glosses as well as references (1:11 *Scilicet* beside *hoc est*; 3:6 *si esset iniustus*),
+  which its OCR runs into the text.
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.
@@ -114,7 +161,7 @@ Read 2026-11-06 in the BSB copy (MDZ bsb10141277: OCR of canvases 1–24, 740–
 ## Still to find out
 
 - **1573** (Perna, *postrema recognitione*): found 2026-11-06 at MDZ (bsb10141277) and collated with 1556 the same day (`data/calibration/scans.md`). It is 1556 revised further: some 30–60 word changes (*incredulitatem → infidentiam*, *orbis → mundi*, *corpore → carne*, *sonat → interpretatur*, *dipondio → duobus assariis*), all carried by 1681, 1726–27 and 1758. Whether Castellio made them (as the title says) or Perna's editor did is still open: the edition has no preface saying (see “What the 1573 edition says about itself”). The Castellio correspondence (e.g. the Castellio Correspondence Project) or studies of Perna's press may say whether Castellio left a corrected copy.
-- **Acts–Revelation:** compared with 1556 by OCR (2026-11-06). Wikisource follows the early wording there. Acts was collated against 1573 by OCR on 2026-11-07 (`data/calibration/acts1573.md`): about 92 places where Wikisource has the early line with 1715/1747/1750 (*synagoga → collegium*, *templum → fanum*, *homine natus → filius hominis*, *lavari → baptizari*, *hic sermo → hæc oratio*) and about 62 where it stands alone. A page-image check awaits stage 2.
+- **Acts–Revelation:** compared with 1556 by OCR (2026-11-06). Wikisource follows the early wording there. Acts was collated against 1573 by OCR on 2026-11-07 (`data/calibration/acts1573.md`): about 92 places where Wikisource has the early line with 1715/1747/1750 (*synagoga → collegium*, *templum → fanum*, *homine natus → filius hominis*, *lavari → baptizari*, *hic sermo → hæc oratio*) and about 62 where it stands alone. Read on the page images in stage 2 (2026-11-09): see “Acts in 1573 against the early wording” above.
 - **Why the Leipzig printings (1745, 1750, 1760) went back to the early wording:** Bünemann's preface (1745) should say. Not yet read.
 - **Printers and editors** of 1681, 1697, 1715, 1726–27 and 1758, from their title pages.
 - **Purpose statements** in the prefaces: Castellio's own (1551 dedication, 1554 and 1556 prefaces), Bünemann's (1745), and Gesner's essay (1747). Not yet read.

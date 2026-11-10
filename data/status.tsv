@@ -1066,50 +1066,50 @@ John.18	40	settled	usfm	40	40		settled 2026-11-08 (decision 31): data/review/joh
 John.19	42	settled	usfm	42	42		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
 John.20	31	settled	usfm	31	31		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
 John.21	25	settled	usfm	25	25		settled 2026-11-08 (decision 31): data/review/john5-21-ch*.md
-Acts.1	26	fetched	txt-corrected	26	-		
-Acts.2	47	fetched	txt-corrected	47	-		
-Acts.3	26	fetched	txt-corrected	26	-		
-Acts.4	37	fetched	txt-corrected	37	-		
-Acts.5	42	fetched	txt-corrected	42	-		
-Acts.6	15	fetched	txt-corrected	15	-		
-Acts.7	60	fetched	txt-corrected	60	-		
-Acts.8	40	fetched	txt-corrected	40	-		
-Acts.9	43	fetched	txt-corrected	43	-		
-Acts.10	48	fetched	txt-corrected	48	-		
-Acts.11	30	fetched	txt-corrected	30	-		
-Acts.12	25	fetched	ocr	25	-		
-Acts.13	52	fetched	ocr	52	-		
-Acts.14	28	fetched	txt-corrected	28	-		
-Acts.15	41	fetched	ocr	41	-		
-Acts.16	40	fetched	txt-corrected	39	-		
-Acts.17	34	fetched	ocr	34	-		
-Acts.18	28	fetched	txt-corrected	28	-		
-Acts.19	41	fetched	ocr	40	-		
-Acts.20	38	fetched	ocr	38	-		
-Acts.21	40	fetched	ocr	40	-		
-Acts.22	30	fetched	ocr	30	-		
-Acts.23	35	fetched	txt-corrected	35	-	1	
-Acts.24	27	fetched	ocr	28	-		
-Acts.25	27	fetched	ocr	27	-		
-Acts.26	32	fetched	ocr	32	-		
-Acts.27	44	fetched	ocr	44	-		
-Acts.28	31	fetched	txt-corrected	31	-		
-Rom.1	32	fetched	ocr	32	-		
-Rom.2	29	fetched	ocr	29	-		
-Rom.3	31	fetched	ocr	30	-		
-Rom.4	25	fetched	ocr	25	-		
-Rom.5	21	fetched	ocr	21	-		
-Rom.6	23	fetched	ocr	23	-		
-Rom.7	25	fetched	ocr	25	-		
-Rom.8	39	fetched	ocr	38	-		
-Rom.9	33	fetched	ocr	33	-		
-Rom.10	21	fetched	ocr	21	-		
-Rom.11	36	fetched	ocr	36	-		
-Rom.12	21	fetched	ocr	21	-		
-Rom.13	14	fetched	ocr	14	-	1	
-Rom.14	23	fetched	ocr	23	-		
-Rom.15	33	fetched	ocr	32	-		
-Rom.16	27	fetched	ocr	27	-	1	
+Acts.1	26	in-review	txt-corrected	26	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.2	47	in-review	txt-corrected	47	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.3	26	in-review	txt-corrected	26	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.4	37	in-review	txt-corrected	37	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.5	42	in-review	txt-corrected	42	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.6	15	in-review	txt-corrected	15	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.7	60	in-review	txt-corrected	60	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.8	40	in-review	txt-corrected	40	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.9	43	in-review	txt-corrected	43	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.10	48	in-review	txt-corrected	48	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.11	30	in-review	txt-corrected	30	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.12	25	in-review	ocr	25	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.13	52	in-review	ocr	52	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.14	28	in-review	txt-corrected	28	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.15	41	in-review	ocr	41	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.16	40	in-review	txt-corrected	39	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.17	34	in-review	ocr	34	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.18	28	in-review	txt-corrected	28	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.19	41	in-review	ocr	40	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.20	38	in-review	ocr	38	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.21	40	in-review	ocr	40	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.22	30	in-review	ocr	30	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.23	35	in-review	txt-corrected	35	-	1	stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.24	27	in-review	ocr	28	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.25	27	in-review	ocr	27	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.26	32	in-review	ocr	32	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.27	44	in-review	ocr	44	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Acts.28	31	in-review	txt-corrected	31	-		stages 1-5 proposed: data/review/acts1-28-stages3-5.md, 2026-11-09
+Rom.1	32	settled	ocr	32	-		
+Rom.2	29	settled	ocr	29	-		
+Rom.3	31	settled	ocr	30	-		
+Rom.4	25	settled	ocr	25	-		
+Rom.5	21	settled	ocr	21	-		
+Rom.6	23	settled	ocr	23	-		
+Rom.7	25	settled	ocr	25	-		
+Rom.8	39	settled	ocr	38	-		
+Rom.9	33	settled	ocr	33	-		
+Rom.10	21	settled	ocr	21	-		
+Rom.11	36	settled	ocr	36	-		
+Rom.12	21	settled	ocr	21	-		
+Rom.13	14	settled	ocr	14	-	1	
+Rom.14	23	settled	ocr	23	-		
+Rom.15	33	settled	ocr	32	-		
+Rom.16	27	settled	ocr	27	-	1	
 1Cor.1	31	fetched	ocr	31	-		
 1Cor.2	16	fetched	ocr	16	-		
 1Cor.3	23	fetched	ocr	22	-		
