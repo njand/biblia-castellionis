@@ -179,6 +179,7 @@ main.wide { max-width: 64rem; }
 h1 { font-weight: normal; font-variant: small-caps; letter-spacing: .04em; text-align: center; line-height: 1.3;
   margin: 1rem 0 1.5rem; }
 h1 small { display: block; font-size: .55em; color: var(--muted); font-variant: normal; letter-spacing: 0; }
+h1 small.caput { font-variant: small-caps; letter-spacing: .08em; margin-top: .2em; }
 h2 { font-weight: normal; font-variant: small-caps; letter-spacing: .04em; margin: 2rem 0 .5rem; }
 h2 a { text-decoration: none; }
 .chapter p { margin: 0; text-indent: 1.2em; text-align: justify; hyphens: manual; }
@@ -394,8 +395,7 @@ JS = """(function () {
     return range;
   }
   function label(first, last) {
-    var name = document.body.getAttribute('data-book') + ' ' + document.body.getAttribute('data-chapter');
-    return name + ':' + first + (last > first ? '\\u2013' + last : '');
+    return document.body.getAttribute('data-cite') + ',' + first + (last > first ? '\\u2013' + last : '');
   }
   function show(first, last, scroll) {
     selection = first === null ? null : [Math.min(first, last), Math.max(first, last)];
@@ -461,7 +461,7 @@ JS = """(function () {
       if (selection) { show(selection[0], selection[1], true); }
     });
   }
-  if (/^#\d+(-\d+)?$/.test(location.hash) && 'scrollRestoration' in history) { history.scrollRestoration = 'manual'; }
+  if (/^#\\d+(-\\d+)?$/.test(location.hash) && 'scrollRestoration' in history) { history.scrollRestoration = 'manual'; }
   fromHash(true);
   // again once the fonts and the page have settled, which moves the lines
   window.addEventListener('load', function () { if (selection) { show(selection[0], selection[1], true); } });
@@ -574,7 +574,7 @@ def page(title, body, root, bar="", tools="", main_class="", description="", dat
             f'<label class="sr" for="jump-book">Book</label><select id="jump-book"><option value="">Liber</option></select>'
             f'<label class="sr" for="jump-chapter">Chapter</label><select id="jump-chapter"></select>'
             f'<label class="sr" for="search-q">Search</label>'
-            f'<input type="search" id="search-q" name="q" placeholder="Quærere…" title="Words, or a reference: Mt 5:3"/>'
+            f'<input type="search" id="search-q" name="q" placeholder="Quærere…" title="Words, or a reference: Mt 5,3"/>'
             f'</form>')
     return f"""<!DOCTYPE html>
 <html lang="la">
@@ -664,7 +664,8 @@ ENGLISH_NAMES = {
 def books_js(selected):
     """window.CASTELLIO_BOOKS: [[slug, short title, [chapters], [names to search by]], …] for the jump menu."""
     rows = [[book.slug, book.short, [c.number for c in book.chapters],
-             [book.short, publish.strip_macrons(book.short), book.info.osis, *ENGLISH_NAMES.get(book.info.osis, [])]]
+             [book.short, publish.strip_macrons(book.short), publish.CITATION.get(book.info.osis, book.info.osis),
+              book.info.osis, *ENGLISH_NAMES.get(book.info.osis, [])]]
             for book in selected]
     return "window.CASTELLIO_BOOKS = " + json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n"
 
@@ -676,7 +677,7 @@ def search_index(selected):
         for chapter in book.chapters:
             for number, segments in publish.verse_segments(chapter).items():
                 text = " ".join(" ".join(piece for piece, _, _ in segments).split())
-                where = f"{book.short} {chapter.number}" + (f":{number}" if number else "")
+                where = publish.cite(book.info.osis, chapter.number, number)
                 out.append([where, f"{book.slug}/{chapter.number}.html#{number or 1}", text])
     return json.dumps(out, ensure_ascii=False, separators=(",", ":"))
 
@@ -684,10 +685,10 @@ def search_index(selected):
 SEARCH = """<h1>Quærere<small>Search the Latin</small></h1>
 <div class="search" lang="en">
 <form action="search.html" role="search"><label class="sr" for="q">Search</label>
-<input type="search" id="q" name="q" placeholder="Words, &quot;a phrase&quot;, or a reference (Mt 5:3)" autofocus/>
+<input type="search" id="q" name="q" placeholder="Words, &quot;a phrase&quot;, or a reference (Mt 5,3)" autofocus/>
 <button type="submit">Search</button></form>
 <p class="count">Every word must appear in the verse; macrons, æ/ae, œ/oe, j/i and v/u do not matter. Put a phrase in
-quotation marks. A reference (<i>Gen 1:3</i>, <i>Mt 5:3-12</i>, <i>Lūcās 2</i>) opens the passage.</p>
+quotation marks. A reference (<i>Gn 1,3</i>, <i>Mt 5,3-12</i>, <i>2Cor 2</i>, <i>Lūcās 2</i>; English names too) opens the passage.</p>
 <div id="results"></div>
 </div>"""
 
@@ -721,14 +722,14 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
         if index:
             prev_book, prev = order[index - 1]
             href = f"{prev.number}.html" if prev_book is book else f"../{prev_book.slug}/{prev.number}.html"
-            pager.append(f'<a rel="prev" href="{href}">← {esc(prev_book.short)} {prev.number}</a>')
+            pager.append(f'<a rel="prev" href="{href}">← {esc(publish.cite(prev_book.info.osis, prev.number))}</a>')
         else:
             pager.append("<span></span>")
         if index + 1 < len(order):
             next_book, nxt = order[index + 1]
             href = f"{nxt.number}.html" if next_book is book else f"../{next_book.slug}/{nxt.number}.html"
-            pager.append(f'<a rel="next" href="{href}">{esc(next_book.short)} {nxt.number} →</a>')
-        body = [f"<h1>{esc(book.short)} {chapter.number}</h1>",
+            pager.append(f'<a rel="next" href="{href}">{esc(publish.cite(next_book.info.osis, nxt.number))} →</a>')
+        body = [f'<h1>{esc(book.short)}<small class="caput">Caput {chapter.number}</small></h1>',
                 '<div class="chapter reading-view">',
                 chapter_html(chapter, str, "c"), "</div>"]
         tools = ""
@@ -743,12 +744,13 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
                     f'Castelliōnis interpretātiōne{f" ({esc(version)})" if version else ""} · '
                     f'{publish.REPOSITORY.removeprefix("https://")}</p>')
         body.append(VERSE_BAR)
-        bar = f' › <a href="index.html">{esc(book.short)}</a> › {chapter.number}'
+        bar = f' › <a href="index.html">{esc(book.short)}</a> › Caput {chapter.number}'
         out = folder / book.slug / f"{chapter.number}.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(f"{book.short} {chapter.number} · Biblia Sacra (Castellio)", "\n".join(body), "../",
+        out.write_text(page(f"{publish.cite(book.info.osis, chapter.number)} · {book.short} · Biblia Sacra (Castellio)", "\n".join(body), "../",
                             bar, tools, description=f"{book.long}, caput {chapter.number}",
-                            data={"book": book.short, "slug": book.slug, "chapter": chapter.number}),
+                            data={"book": book.short, "slug": book.slug, "chapter": chapter.number,
+                                  "cite": publish.cite(book.info.osis, chapter.number)}),
                        encoding="utf-8", newline="\n")
     for book in selected:
         body = f'<h1>{"<br/>".join(esc(line) for line in book.title)}</h1>\n{chapter_grid(book)}'

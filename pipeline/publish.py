@@ -250,15 +250,40 @@ def credits(selected):
 
 # ---------------------------------------------------------------- plain text and data
 
+# The citation abbreviations: the Nova Vulgata's (as the Vatican's Latin documents cite: "1Cor 10,17"), with j
+# where this edition writes it (Jo, not Io), and Regum I–IV for Samuel and Kings, as Castellio names them.
+CITATION = {
+    "Gen": "Gn", "Exod": "Ex", "Lev": "Lv", "Num": "Nm", "Deut": "Dt", "Josh": "Jos", "Judg": "Jdc", "Ruth": "Rt",
+    "1Sam": "1Reg", "2Sam": "2Reg", "1Kgs": "3Reg", "2Kgs": "4Reg", "1Chr": "1Par", "2Chr": "2Par", "Ezra": "Esd",
+    "Neh": "Neh", "Esth": "Est", "Job": "Job", "Ps": "Ps", "Prov": "Prv", "Eccl": "Eccle", "Song": "Ct", "Isa": "Is",
+    "Jer": "Jer", "Lam": "Lam", "Ezek": "Ez", "Dan": "Dn", "Hos": "Os", "Joel": "Joel", "Amos": "Am", "Obad": "Abd",
+    "Jonah": "Jon", "Mic": "Mi", "Nah": "Na", "Hab": "Hab", "Zeph": "So", "Hag": "Agg", "Zech": "Zac", "Mal": "Mal",
+    "Tob": "Tob", "Jdt": "Jdt", "Wis": "Sap", "Sir": "Sir", "Bar": "Bar", "1Macc": "1Mac", "2Macc": "2Mac",
+    "Matt": "Mt", "Mark": "Mc", "Luke": "Lc", "John": "Jo", "Acts": "Act", "Rom": "Rom", "1Cor": "1Cor",
+    "2Cor": "2Cor", "Gal": "Gal", "Eph": "Eph", "Phil": "Phil", "Col": "Col", "1Thess": "1Thess",
+    "2Thess": "2Thess", "1Tim": "1Tim", "2Tim": "2Tim", "Titus": "Tit", "Phlm": "Philm", "Heb": "Hebr",
+    "Jas": "Jac", "1Pet": "1Petr", "2Pet": "2Petr", "1John": "1Jo", "2John": "2Jo", "3John": "3Jo", "Jude": "Jud",
+    "Rev": "Ap",
+}
+
+
+def cite(osis, chapter, first=None, last=None):
+    """A reference in the Latin form: 'Mt 5', 'Mt 5,3', '2Cor 2,5–7' (number first, a comma before the verse)."""
+    out = f"{CITATION.get(osis, osis)} {chapter}"
+    if first not in (None, "", 0):
+        out += f",{first}" + (f"–{last}" if last not in (None, "", 0, first) else "")
+    return out
+
+
 SUPERSCRIPT = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
 
 
 def reading_text(book):
     """The book as plain reading text: paragraphs separated by blank lines, poetry lines indented, verse numbers
-    as superscript digits, each chapter under "<short title> <n>"."""
+    as superscript digits, each chapter under "Caput <n>"."""
     out = [" ".join(book.title).upper(), ""]
     for chapter in book.chapters:
-        out.append(f"{book.short} {chapter.number}")
+        out.append(f"Caput {chapter.number}")
         out.append("")
         if chapter.title or chapter.summary:
             out += [chapter.title or chapter.summary, ""]
