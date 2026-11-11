@@ -42,7 +42,7 @@ import re
 import sys
 
 from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, parallel, paths, publish,
-                      review, rules, tsv, verses, versify, wikisource, wordpress)
+                      review, rules, structure, tsv, verses, versify, wikisource, wordpress)
 
 
 def fetch_wikisource(names, refresh):
@@ -325,10 +325,22 @@ def main(argv):
         flags = collections.Counter(f.kind for v in found for f in v.flags)
         print(f"{len(found)} verses, {sum(kinds.values())} words; " + ", ".join(f"{k} {n}" for k, n in kinds.most_common()))
         print(f"flagged {sum(flags.values())}: " + ", ".join(f"{k} {n}" for k, n in flags.most_common()))
-        print(f"verses with layout from data/decisions/: {sum(v.quotes for v in found)}; with no flag: "
+        layout = verses.load_layout(book.osis)
+        print(f"layout lines applied (data/decisions/): {sum(v.vid in layout for v in found)}, of which "
+              f"{sum(v.quotes for v in found)} change quotation marks, \\qt, poetry or paragraphs; with no flag: "
               f"{sum(not v.flags and not v.quotes for v in found)}")
         for path in written:
             print(f"→ {path.relative_to(paths.ROOT).as_posix()}")
+        preview = next((p for p in written if p.name.endswith(".preview.usfm")), None)
+        if preview:                                      # the quotation marks across the chapters, as the readers check
+            ids = {v.vid for v in found}
+            rows = {vid: row for vid, row in structure.layout_of(preview.read_text(encoding="utf-8"), book.osis).items()
+                    if vid in ids}
+            text = " ".join(row["text"] for row in rows.values())
+            problems = structure.quotes(rows)
+            print(f"quotation marks: {text.count('“')} “, {text.count('‘')} ‘, {sum(r['layout'].count(chr(92) + 'qt ') for r in rows.values())} \\qt; "
+                  + ("balanced" if not problems else f"{len(problems)} to look at: "
+                     + "; ".join(f"{vid} {why}" for vid, why, _ in problems[:6])))
         if args.rates:
             for label, (table, examples) in (("macrons", verses.rates()), ("spelling", verses.spelling_rates()),
                                              ("case", verses.case_rates())):
@@ -348,6 +360,8 @@ def main(argv):
                              "list new edits in a fresh file")
         before = (pathlib.Path(args.to) if args.to else path).read_text(encoding="utf-8")
         after, changes = versify.apply_edits(before, book.osis, edits)
+        if args.draft:                                    # the BSB's paragraphs on the new numbering
+            after = collate.relay_paragraphs(after, book.osis)
         problems = versify.check(before, after, book.osis, edits)
         moved = sum(1 for _, _, how in changes if how != "renumbered")
         print(f"{book.osis}: {len(edits)} edits, {moved} boundaries moved, {len(changes) - moved} verses renumbered; "

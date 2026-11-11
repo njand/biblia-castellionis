@@ -71,6 +71,13 @@ class Align(unittest.TestCase):
         self.assertTrue(plain.verses["Matt.14.3"].endswith("custodiam,"))
         self.assertTrue(anchored.verses["Matt.14.3"].endswith("custodiam, nouum verbum"))
 
+    def test_superscript_digit_is_no_verse_number(self):
+        # An OCR's ² or ½ before a verse is a digit to str.isdigit but no number: it must not stop the alignment
+        # (the Colossians collation stopped on one, 2026-11-11).
+        ocr = self.OCR.replace("19 Dixit", "19 ² Dixit")
+        chapter = align.align_chapter(align.Witness(ocr), BASE, 4)
+        self.assertIn("Matt.4.19", chapter.verses)
+
     def test_absent_chapter(self):
         chapter = align.align_chapter(align.Witness("Nihil hic de ea re scriptum est omnino."), BASE, 4)
         self.assertFalse(chapter.found)

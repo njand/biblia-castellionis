@@ -18,6 +18,32 @@ class Collate(unittest.TestCase):
         self.assertEqual(place.support, ["ws"])
         self.assertEqual(collate.classify(place), "correct")
 
+    def test_a_clause_each_ocr_reads_differently(self):
+        # Eph 2:2: Wikisource lacks *ut est hujus mundi vita*; 1573, 1556, 1750 and 1758 have it, each OCR with its
+        # own slips, so no two readings were alike and the place was left as noise.
+        text = "In quibus aliquando versati estis, ad principis aëreae potestatis arbitrium"
+        rows = {"1573": "in quibus aliquádo versati estis, vt est huius műdi vita, ad prícipis aëreæ potestatis arbitrium",
+                "1556": "ín quibus aliquando uerfati eftís ut eft huius mundí uíta, ad principis aereae potestatis arbitrium",
+                "1758": "in quibus aliquando versati estis, ut est hujus mundsamt vita, ad principis aereae potestatis arbitrium",
+                "ws": text}
+        place = [p for p in collate.compare("Eph.2.2", text, rows) if p.start == p.end == 5][0]
+        place.base = "1573"
+        self.assertEqual(sorted(place.against()[1]), ["1556", "1573", "1758"])
+        self.assertEqual(collate.classify(place), "correct")
+
+    def test_paragraphs_relaid_after_versification(self):
+        # Col 3:26 → 4:1: the draft's \p laid on Wikisource's 4:7 falls on the KJV's 4:8 once the verses move.
+        usfm = ("\\id COL\n\n\\c 3\n\\p\n\\v 1 Si igitur cum Christo surrexistis.\n\\v 2 Supera sentite.\n\n\\c 4\n\\p\n"
+                "\\v 1 Domini, ex justo agite.\n\n\\p\n\\v 2 Supplicationi incumbite.\n\\v 3 Orantes simul,\n\\p\n"
+                "\\v 4 Quem ideo ad vos misi.\n")
+        bsb = {"Col.4.3": {"marks": "s1:Greetings m"}}
+        out = collate.relay_paragraphs(usfm, "Col", bsb)
+        self.assertIn("\\c 4\n\\p\n\\v 1 Domini", out)
+        self.assertIn("\\v 2 Supplicationi incumbite.\n\\p\n\\v 3 Orantes", out)
+        self.assertIn("\\v 3 Orantes simul,\n\\v 4 Quem", out)
+        self.assertEqual(collate.relay_paragraphs(usfm.replace("\\p\n\\v 4", "\\q1\n\\v 4"), "Col", bsb),
+                         usfm.replace("\\p\n\\v 4", "\\q1\n\\v 4"))          # a reader's layout is left alone
+
     def test_spelling_is_not_a_reading(self):
         place = collate.compare("Matt.16.8", "Id quod intellegēns Jēsūs", {"1573": "Id quod intelligens Iesus",
                                                                           "1758": "Id quod intelligens Jesus"})[0]

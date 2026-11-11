@@ -202,7 +202,7 @@ def align_chapter(witness, base_rows, chapter):
             pages = sorted({witness.canvas_at[min(first, len(witness.canvas_at) - 1)],
                             witness.canvas_at[min(last, len(witness.canvas_at) - 1)]})
             result.pages[vid] = "–".join(map(str, pages))
-        before = [token for token, _ in witness.tokens[max(0, first - 3):first] if token.isdigit()]
+        before = [token for token, _ in witness.tokens[max(0, first - 3):first] if token.isdecimal() and token.isascii()]
         if before:
             result.numbers.append((int(before[-1]), vid))
     return result

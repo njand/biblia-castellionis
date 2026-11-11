@@ -121,6 +121,36 @@ def draft_usfm(osis, chapters):
     return "\n".join(out) + "\n"
 
 
+def relay_paragraphs(usfm, osis, bsb=None):
+    """A draft's paragraphs laid again from the BSB on the verse numbers it has now: after `versify --draft` has
+    moved verses (Col 3:26 → 4:1), the \\p markers `draft_usfm` laid by Wikisource's numbering fall a verse off the
+    BSB's (Col 4:8 for its 4:7). Only a draft whose markers are all \\c, \\v, \\p and \\nb is relaid (anything else is
+    a reader's layout, returned as it is). A chapter's first verse opens with \\p, or \\nb where the chapter before
+    ends mid-sentence, as versify sets it. The words are not touched."""
+    from pipeline import structure
+    head, sep, body = usfm.partition("\\c ")
+    body = sep + body
+    if re.search(r"\\(?!c |v |p\b|nb\b)[a-z]+", body):
+        return usfm
+    bsb = structure.bsb_rows(osis) if bsb is None else bsb
+    out, chapter, last = [], None, ""
+    for line in body.split("\n"):
+        if line.strip() in ("\\p", "\\nb"):
+            continue
+        if m := re.match(r"\\c (\d+)", line):
+            chapter = int(m.group(1))
+        elif m := re.match(r"\\v (\d+)\s*(.*)", line):
+            verse, text = int(m.group(1)), m.group(2)
+            if verse == 1:
+                out.append("\\p" if not last or re.search(r"[.?!:;][”’)]*\s*$", last) else "\\nb")
+            elif structure.starts(bsb.get(f"{osis}.{chapter}.{verse}", {}).get("marks", "")):
+                out.append("\\p")
+            last = text
+        out.append(line)
+    body = re.sub(r"\n\n+(?!\\c )", "\n", "\n".join(out))          # blank lines only before a chapter
+    return head + re.sub(r"\n+(?=\\c )", "\n\n", body)
+
+
 @dataclass
 class Place:
     vid: str
@@ -135,8 +165,16 @@ class Place:
     context: str = ""
 
     def against(self):
-        """(folded reading, {witness: as printed}) with the most witnesses against the text."""
-        return max(self.readings.items(), key=lambda kv: ((self.base in kv[1]) + len(kv[1]), len(kv[0])))
+        """(folded reading, {witness: as printed}) with the most witnesses against the text. Readings of three words
+        or more that differ only by OCR noise count as one (Eph 2:2: a clause Wikisource lacks, read *vt est huius
+        műdi vita* by 1573, *mundi* by 1556 and 1750, *mundsamt* by 1758, which no two OCRs spell alike)."""
+        def alike(a, b):
+            return a == b or (len(a.split()) >= 3 and len(b.split()) >= 3
+                              and difflib.SequenceMatcher(None, a, b, autojunk=False).ratio() >= 0.8)
+
+        merged = [(reading, {w: v for r, who in self.readings.items() if alike(reading, r) for w, v in who.items()})
+                  for reading in self.readings]
+        return max(merged, key=lambda kv: ((self.base in kv[1]) + len(kv[1]), len(kv[0])))
 
 
 def keys(words):

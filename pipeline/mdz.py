@@ -8,6 +8,7 @@ block order; the narrow blocks (marginal notes) are dropped. A note the OCR ran 
 Images come from the IIIF image service (`crop_url`); Git Bash curl fails TLS to MDZ here, so `fetch_crop` uses
 PowerShell's Invoke-WebRequest. Crops are cached in sources/mdz-1573/crops/."""
 
+import collections
 import difflib
 import html
 import re
@@ -136,20 +137,73 @@ def line_box(word, above=1, below=1):
     return (x0, min(w.box[1] for w in lines), x1, max(w.box[3] for w in lines))
 
 
-def crop_url(word, width=1000):
-    """The IIIF URL of the word's line, with the lines above and below, the full width of its column."""
+def crop_url(word, width=1000, above=15):
+    """The IIIF URL of the word's line, with the lines above and below, the full width of its column; `above` more
+    pixels over the top (a column's head, where the OCR can miss a carried-over line: 1 Tim 1:10 *contrarium est*)."""
     x0, y0, x1, y1 = line_box(word)
-    x0, y0 = max(0, x0 - 60), max(0, y0 - 15)
+    x0, y0 = max(0, x0 - 60), max(0, y0 - above)
     return IMAGE.format(canvas=word.canvas, x=x0, y=y0, w=x1 - x0 + 120, h=y1 - y0 + 30, width=width)
 
 
+def carried_over(word):
+    """The first Word of the column that continues the text, when `word` sits on its column's last line (a verse
+    carried over to the head of the next column, or of the next page's first column: 1 Tim 1:10 *contrarium est*);
+    else None."""
+    def text_lines(canvas, column):
+        """[(top, [Word])] of a column's text lines, top to bottom: not the full-width annotations below the columns
+        (the hOCR numbers lines in its block order, not the page's), the running head or column numbers."""
+        words = page_words(canvas)
+        if not words:
+            return []
+        left, right = min(w.box[0] for w in words), max(w.box[2] for w in words)
+        middle, slack = (left + right) / 2, 0.04 * (right - left)
+        lines = collections.defaultdict(list)
+        for w in words:
+            lines[(w.column, w.line)].append(w)
+        out = []
+        for (col, _), ws in lines.items():
+            x0, x1 = min(w.box[0] for w in ws), max(w.box[2] for w in ws)
+            inside = x1 < middle + slack if col == 0 else x0 > middle - slack     # not a centred heading or note
+            if col == column and inside and any(c.islower() for w in ws for c in w.text):
+                out.append((min(w.box[1] for w in ws), sorted(ws, key=lambda w: w.box[0])))
+        return sorted(out, key=lambda t: t[0])
+
+    # A page can hold two zones of columns, above and below Castellio's annotations (canvas 909: 1 Tim 1, the notes,
+    # then chapter 2), so a column "ends" wherever the next line of the same column is more than GAP below.
+    GAP = 100
+    own = text_lines(word.canvas, word.column)
+    at = next((i for i, (_, ws) in enumerate(own) if word in ws), None)
+    if at is None or (at + 1 < len(own) and own[at + 1][0] - own[at][0] <= GAP):
+        return None
+    zone_top = own[at][0]
+    for i in range(at, 0, -1):                           # up to the first line of this zone
+        if own[i][0] - own[i - 1][0] > GAP:
+            break
+        zone_top = own[i - 1][0]
+    if word.column == 0:                                  # the same zone's right column
+        following = [t for t in text_lines(word.canvas, 1) if t[0] >= zone_top - GAP / 2]
+    else:                                                 # the next zone's left column, or the next page's
+        following = [t for t in text_lines(word.canvas, 0) if t[0] > own[at][0] + GAP] \
+            or text_lines(word.canvas + 1, 0)
+    return following[0][1][0] if following else None
+
+
+def _download(url, path):
+    subprocess.run(["powershell", "-NoProfile", "-Command",
+                    f"Invoke-WebRequest -UseBasicParsing -Uri '{url}' -OutFile '{path}'"], check=True,
+                   capture_output=True)
+
+
 def fetch_crop(word, name):
-    """Download the crop around a word (cached) and return its path."""
+    """Download the crop around a word (cached) and return its path. When the word is on its column's last line, the
+    next column's first lines are saved too, as `<name>+next.jpg` beside it (a crop is one rectangle)."""
     CROPS.mkdir(parents=True, exist_ok=True)
     path = CROPS / f"{name}.jpg"
     if not path.exists():
-        url = crop_url(word)
-        subprocess.run(["powershell", "-NoProfile", "-Command",
-                        f"Invoke-WebRequest -UseBasicParsing -Uri '{url}' -OutFile '{path}'"], check=True,
-                       capture_output=True)
+        _download(crop_url(word), path)
+    after = carried_over(word)
+    if after is not None:
+        nxt = CROPS / f"{name}+next.jpg"
+        if not nxt.exists():
+            _download(crop_url(after, above=140), nxt)
     return path
