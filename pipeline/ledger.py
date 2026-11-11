@@ -1,13 +1,12 @@
 """The chapter ledger, data/status.tsv: one row per chapter (KJV numbering) with its stage and the material
 available for it.
 
-stage    where the chapter is in the pipeline. `settled` = finished in the USFM master, text/<USFM>.usfm (or, for a
-         book not yet migrated, live in its LaTeX); never rewritten by the pipeline;
+stage    where the chapter is in the pipeline. `settled` = finished in the USFM master, text/<USFM>.usfm; never
+         rewritten by the pipeline;
          otherwise pending → fetched → aligned → corrected → normalized → macronized → structured →
          in-review → approved (approved chapters become settled). Only `ledger set` moves a chapter past
          `fetched`; `ledger refresh` recomputes everything else and keeps those stages and the notes.
-repo     the furthest earlier work in this repo: usfm, usfm-draft (text/draft/), latex, latex-draft (commented out), txt-macronized,
-         txt-edited, txt-corrected, ocr, or -
+repo     the furthest earlier work in this repo: usfm, usfm-draft (text/draft/), txt-edited, txt-corrected, ocr, or -
 wikisource, wordpress   verses each witness has for the chapter (- if none)
 flags    verses the Wikisource parser flagged for review (joined, gap, repeat)"""
 
@@ -17,11 +16,11 @@ from pipeline import books, latex, parallel, paths, tsv, wikisource
 
 STAGES = ["pending", "fetched", "aligned", "corrected", "normalized", "macronized", "structured",
           "in-review", "approved", "settled"]
-REPO_ORDER = ["usfm", "usfm-draft", "latex", "latex-draft", "txt-macronized", "txt-edited", "txt-corrected", "ocr"]
+REPO_ORDER = ["usfm", "usfm-draft", "txt-edited", "txt-corrected", "ocr"]
 HEADER = ("chapter", "verses", "stage", "repo", "wikisource", "wordpress", "flags", "note")
 
 TESTAMENT_DIR = {"vetus": "Vetus Fœdus", "novum": "Novum Fœdus"}
-TXT_STAGES = [("txt-macronized", "4 - Macronized"), ("txt-edited", "3 - Edited"), ("txt-corrected", "2 - Post-Corrected")]
+TXT_STAGES = [("txt-edited", "3 - Edited"), ("txt-corrected", "2 - Post-Corrected")]
 
 
 def usfm_chapters(book):
@@ -32,23 +31,6 @@ def usfm_chapters(book):
     chapters = lambda p: {int(n) for n in re.findall(r"^\\c\s+(\d+)", p.read_text(encoding="utf-8"), re.MULTILINE)} \
         if p.exists() else set()
     return chapters(path), chapters(latex.usfm_path(book, draft=True))
-
-
-def latex_chapters(book):
-    """(live chapter numbers, commented-out chapter numbers) in the book's LaTeX file."""
-    path = paths.LATEX / f"{book.testament} foedus" / f"{book.slug}.tex"
-    if not path.exists():
-        return set(), set()
-    live, draft, count = set(), set(), 0
-    for line in path.read_text(encoding="utf-8").splitlines():
-        stripped = line.strip()
-        if re.match(r"%\s*\\Caput\b", stripped):
-            count += 1
-            draft.add(count)
-        elif stripped.startswith("\\Caput"):
-            count += 1
-            live.add(count)
-    return live, draft
 
 
 def txt_chapters(book, stage_dir):
@@ -98,8 +80,8 @@ def refresh():
     rows = []
     for book in books.BOOKS:
         master = usfm_chapters(book)
-        live, draft = master or latex_chapters(book)
-        kind = "usfm" if master else "latex"
+        live, draft = master or (set(), set())
+        kind = "usfm"
         txt = {name: txt_chapters(book, folder) for name, folder in TXT_STAGES}
         ocr = has_ocr(book)
         ws, ws_flags = witness_counts("wikisource", book)

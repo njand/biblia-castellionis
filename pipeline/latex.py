@@ -1,7 +1,8 @@
-"""LaTeX ↔ USFM: migrating the finished chapters, and regenerating the print LaTeX from the USFM master.
+"""LaTeX ↔ USFM: the print LaTeX regenerated from the USFM master (`to_latex`, for pipeline/pdf.py).
 
-The LaTeX in LaTeX/biblia/**/<slug>.tex is only ever read here. `to_usfm` converts a book file; `to_latex`
-writes the book back in the same markup; `compare` shows the round trip loses nothing that prints.
+The finished chapters were migrated from LaTeX/biblia/**/<slug>.tex to USFM in 2026-11 (decision 10); those
+files were removed with the other legacy outputs on 2026-11-11 (decision 13). `to_usfm`, the converter the
+migration used, stays for the tests: with `compare` it shows that `to_latex` loses nothing that prints.
 
   \\Liber[long]{short}             \\id, \\h short, \\toc1 long, \\toc2 short, \\mt1 long (\\\\ → //)
   \\Caput, \\Versus                 \\c N, \\v N (numbered as the LaTeX counts them)
@@ -41,10 +42,6 @@ TOKEN = re.compile(r"""
 
 class LatexError(ValueError):
     pass
-
-
-def latex_path(book):
-    return paths.LATEX / f"{book.testament} foedus" / f"{book.slug}.tex"
 
 
 def usfm_path(book, draft=False):
@@ -307,7 +304,7 @@ def blocks(usfm):
 
 
 def to_latex(usfm):
-    """The book's LaTeX, in the markup of LaTeX/biblia (\\Liber, \\Caput, \\Versus, verse/patverse*)."""
+    """The book's LaTeX, in the markup of the former LaTeX/biblia (\\Liber, \\Caput, \\Versus, verse/patverse*)."""
     parsed = blocks(usfm)
     header = {marker: content for marker, content in parsed if marker in HEADER}
     long = header.get("mt1", header.get("h", "")).replace(" // ", "\\\\")

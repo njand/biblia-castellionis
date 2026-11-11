@@ -193,6 +193,7 @@ h2 a { text-decoration: none; }
 .chapter .q3 { padding-left: 5em; }
 .chapter .b { height: .6em; }
 .c { float: left; font-size: 3.3em; line-height: .9; margin: .04em .14em 0 0; color: var(--accent); text-indent: 0; }
+@media screen { .chapter .c { display: none; } }      /* the "Caput" heading names the chapter on screen */
 .v { font-size: .62em; vertical-align: super; line-height: 0; color: var(--muted); text-decoration: none;
   padding: .2em .15em .2em .2em; cursor: pointer; }
 a.v:hover { color: var(--accent); }
@@ -262,6 +263,7 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
   header.bar, .pager, footer, #verse-bar, .search form { display: none !important; }
   main, body[data-ref] main { max-width: none; padding: 0; }
   h1 { margin: 0 0 1em; break-after: avoid; }
+  h1 small.caput { display: none; }                   /* in print, as in the PDF, the large numeral names it */
   h2 { break-after: avoid; }
   .chapter p { orphans: 3; widows: 3; }
   .chapter .poem { break-inside: avoid; }

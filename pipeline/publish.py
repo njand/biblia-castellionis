@@ -3,7 +3,7 @@
   build/site/                 the website (GitHub Pages): a page per chapter, verse anchors (matthaeus/14.html#3),
                               a macron switch, an optional English column (pipeline/site.py)
   build/epub/<stem>.epub      EPUB 3 with macrons, and <stem>-sine-macronibus.epub without (pipeline/epub.py)
-  build/pdf/<stem>.tex        print LaTeX in the legacy markup, under LaTeX/main.tex's preamble; <stem>.pdf when a
+  build/pdf/<stem>.tex        print LaTeX in the legacy markup, under pipeline/templates/preamble.tex; <stem>.pdf when a
                               TeX install is found (pipeline/pdf.py)
   build/txt/<stem>.txt        reading text with and without macrons; <stem>.tsv and <stem>.json one row per verse
 

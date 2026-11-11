@@ -1,3 +1,6 @@
+% The print PDF's preamble (memoir, A5, lettrine drop caps, running heads, \Liber, \Caput, \Versus): the
+% preamble of the former LaTeX/main.tex, moved here 2026-11-11 (decision 13). pipeline/pdf.py reads it, inlines
+% title.tex, and adds its own commands; the body comes from the USFM master (latex.to_latex).
 \documentclass[9pt,a5paper,twoside,openany]{memoir}
 \usepackage[utf8]{inputenc}
 \usepackage{layout}
@@ -94,23 +97,3 @@
 \bookpageend} % finish off
 
 \linespread{1.1}  % Standardize line spacing even with superscript verse numbers
-
-\begin{document}
-
-\begin{titlingpage}
-\titleM
-\end{titlingpage}
-
-\tableofcontents*
-
-\mainmatter
-
-\book{Vetus Fœdus}
-\input{biblia/vetus foedus/genesis.tex}
-\book{Novum Fœdus}
-\input{biblia/novum foedus/matthaeus.tex}
-\input{biblia/novum foedus/marcus.tex}
-\input{biblia/novum foedus/lucas.tex}
-\input{biblia/novum foedus/johannes.tex}
-
-\end{document}

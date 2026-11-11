@@ -10,8 +10,6 @@
   ledger set CHAPTER… --stage S [--note TEXT]
   status [BOOK…]                one line per book (stages, witness coverage); --chapters for one line per chapter
   latin CMD …                   read-only fur-fulminis lookups (macron, macron-check --text, ls, attest, …)
-  migrate [BOOK…]               LaTeX → text/<USFM>.usfm (+ text/draft/ for commented-out chapters), written only
-                                where no USFM exists yet; then USFM → LaTeX compared with the LaTeX (the round trip)
   gold [BOOK…]                  text/*.usfm → data/gold/<osis>.tsv, one row per verse (the harness's answer key)
   harness [BOOK…]               stages 3–4 on the settled chapters from Wikisource, scored against the gold
                                 (leave-one-book-out) → data/calibration/harness.md
@@ -106,34 +104,6 @@ def fetch_parallel(keys, refresh):
     if any(text.key == "oshb" for text in selected):
         rows = parallel.write_wlc_map()
         print(f"versification: {len(rows)} WLC ranges numbered otherwise → data/versification/wlc.map.tsv")
-
-
-def migrate(names):
-    """Write the USFM master of each book that has LaTeX and no USFM yet; check every round trip."""
-    for book in books.select(names):
-        path = latex.latex_path(book)
-        if not path.exists():
-            continue
-        source = path.read_text(encoding="utf-8")
-        live, draft, counts = latex.to_usfm(source, book)
-        targets = [(latex.usfm_path(book), live, latex.live_latex(source), "")]
-        if draft:
-            targets.append((latex.usfm_path(book, draft=True), draft, latex.draft_latex(source), " draft"))
-        for target, usfm, original, label in targets:
-            if target.exists():
-                usfm, action = target.read_text(encoding="utf-8"), "kept (already the master)"
-            else:
-                target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_text(usfm, encoding="utf-8", newline="\n")
-                action = "written"
-            chapters = len(re.findall(r"^\\c ", usfm, flags=re.MULTILINE))
-            diffs, size = latex.compare(original, latex.to_latex(usfm))
-            print(f"{book.osis + label:11} {target.relative_to(paths.ROOT).as_posix():24} {action}; {chapters} chapters; "
-                  f"round trip: {size} tokens, {len(diffs)} difference(s)")
-            for old, new, context in diffs:
-                print(f"    …{context[-50:]}  {' '.join(old) or '∅'}  →  {' '.join(new) or '∅'}")
-        for line, comment in latex.comments(source):
-            print(f"    not carried over (comment), {path.name}:{line}: {comment}")
 
 
 def align_witnesses(keys, names):
@@ -231,8 +201,6 @@ def main(argv):
     status.add_argument("names", nargs="*")
     status.add_argument("--chapters", action="store_true")
 
-    mig = sub.add_parser("migrate")
-    mig.add_argument("names", nargs="*")
     gld = sub.add_parser("gold")
     gld.add_argument("names", nargs="*")
     rul = sub.add_parser("rules")
@@ -307,9 +275,6 @@ def main(argv):
                     print(f"{kind:4} → {shown}")
                 else:
                     print(f"{kind:4}   {item}")
-    elif args.command == "migrate":
-        migrate(args.names)
-        ledger.refresh()
     elif args.command == "gold":
         for osis, rows in gold.build(args.names).items():
             chapters = len({vid.rsplit(".", 1)[0] for vid, *_ in rows})

@@ -4,7 +4,7 @@ name: Pages
 on:
   push:
     branches: [main]
-    paths: ["text/**", "pipeline/**", "data/versification/**", "data/witnesses/wikisource/MANIFEST.tsv", "LaTeX/title.tex", ".github/workflows/pages.yml"]
+    paths: ["text/**", "pipeline/**", "data/versification/**", "data/witnesses/wikisource/MANIFEST.tsv", ".github/workflows/pages.yml"]
     tags: ["v*"]                               # a release (a release made by release.yml's token triggers nothing)
   workflow_dispatch:
 

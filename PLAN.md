@@ -298,7 +298,7 @@ Ideas Nathan has raised. None is started; each needs a decision on scope before 
 - **Book-wide rules can over-apply** (a respelling that is right in one sense and wrong in another). Rules carry a scope (lemma or context), and `/distill` proposes them; it never adds them silently.
 - **The Gaffiot license** limits redistribution, so the published edition must not contain Gaffiot text.
 - **The USFM migration could lose layout detail** (unusual `\indentpattern`s, italics spanning poetry lines). The round trip (USFM → LaTeX compared with the original) catches it before the old files are retired.
-- **The generated PDF must keep your current design.** The LaTeX generator reuses `LaTeX/main.tex`'s preamble unchanged; PTXprint is the fallback, not the plan.
+- **The generated PDF must keep your current design.** The LaTeX generator reuses `LaTeX/main.tex`'s preamble unchanged (now `pipeline/templates/preamble.tex`); PTXprint is the fallback, not the plan.
 
 ## 10. First steps
 

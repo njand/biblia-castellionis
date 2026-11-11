@@ -5,7 +5,7 @@
 - **2026-11-08: the publishing builds for v1.0 *Evangelia* exist (M2), not yet released.**
   `python -m pipeline build Matt Mark Luke John --version v1.0` writes into `build/` (git-ignored): the website
   (`build/site/`), two EPUBs (with and without macrons; both pass epubcheck 5.4.0 with no errors or warnings), the
-  print LaTeX (`build/pdf/castellio-evangelia.tex`: `LaTeX/main.tex`'s preamble and `title.tex`, body by
+  print LaTeX (`build/pdf/castellio-evangelia.tex`: the preamble and `title.tex` in `pipeline/templates/`, body by
   `latex.to_latex`), and TXT with and without macrons, TSV and JSON (`build/txt/`). With no books named it builds
   everything in `text/`. Every verse of the five settled books comes out exactly as `data/gold` has it. **To look at:**
   - **The PDF** (`build/pdf/castellio-evangelia.pdf`, 128 A5 pages) compiles with Tectonic 0.17.0 (a one-file
@@ -72,6 +72,11 @@
 
 ## Decisions waiting
 
+- **Legacy files removed** (2026-11-11; decision 13 carried out): `LaTeX/biblia/` (the pre-migration Genesis and
+  Gospels, out of date since decisions 40–42), `HTML/`, `EPUB/`, `TXT/4 - Macronized` and
+  `scripts/latex_converter.py`, all in git history; `pipeline migrate` retired. `LaTeX/main.tex` and `title.tex`
+  moved to `pipeline/templates/` (the PDF's preamble and title page). `TXT/1–3` stay: `align` and `collate` read
+  them as witnesses (`TXT/3` is your 1726–27 Old Testament).
 - **Spellings resolved** (2026-11-11; decision 42): the 108 places of `data/review/spelling-audit.md` applied, by
   Gaffiot 2016 and the corpus, Cicero and the Golden Age first (the evidence table is in the file): *cōntiō*,
   *condiciō*, *subolēs*, *multō*, *pænit-*, *erus*, *paulō*, *umquam*, *cāritās*, *sepulcrum*, *exspect-*,

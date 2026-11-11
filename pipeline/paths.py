@@ -10,5 +10,4 @@ WITNESSES = DATA / "witnesses"        # one folder per witness, one TSV per book
 VERSIFICATION = DATA / "versification"
 LEDGER = DATA / "status.tsv"
 
-LATEX = ROOT / "LaTeX" / "biblia"
 TXT = ROOT / "TXT"

@@ -8,9 +8,7 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 
 - **USFM is the master copy** (`text/<USFM code>.usfm`, one file per book; decided 2026-11-05). Every published
   format (website, EPUB, PDF via generated LaTeX, TXT) is generated from it; nothing generated is edited by hand.
-  Until M1 migrates them, the finished chapters still live in `LaTeX/biblia/**/*.tex`.
-- **Finished chapters are never rewritten by code.** A settled chapter (in `text/*.usfm`, or live in the LaTeX
-  until the migration) may be checked and changes proposed, never written to, except to apply
+- **Finished chapters are never rewritten by code.** A settled chapter (in `text/*.usfm`) may be checked and changes proposed, never written to, except to apply
   proposals Nathan has accepted, exactly as their `Apply` lines say (each checked to match once). Otherwise Nathan
   edits the USFM by hand.
 - **Propose, don't silently change.** Every judgment (a reading, a spelling, a macron, a quotation boundary)
@@ -43,9 +41,9 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | `data/calibration/wikisource.tsv` | Every difference between Wikisource and the gold, sorted by kind (`python -m pipeline rules`) |
 | `data/gold/<osis>.tsv` | The settled chapters per verse (`id text marks layout`), rebuilt from `text/` by `python -m pipeline gold`; the harness's answer key |
 | `build/` | Generated outputs (website, EPUBs, PDF, TXT/TSV); git-ignored; published via GitHub releases and Pages (`.github/workflows/`: `pages.yml` on every push to main, `release.yml` on a tag `v*`, notes in `RELEASE.md`) |
-| `LaTeX/main.tex`, `LaTeX/biblia/{vetus,novum} foedus/<slug>.tex` | *Legacy* master, until the migration is verified; `main.tex`'s preamble is reused for the generated PDF |
-| `scripts/latex_converter.py`, `HTML/`, `EPUB/`, `TXT/3`, `TXT/4` | *Legacy* outputs of the LaTeX; retired after the migration (removal is Nathan's call) |
-| `TXT/1 - OCR`, `TXT/2 - Post-Corrected` | Earlier manual stages (Google Books OCR of the 1726–27 edition); now witnesses |
+| `pipeline/templates/preamble.tex`, `title.tex` | The print PDF's preamble and title page (the former `LaTeX/main.tex`); `pipeline/pdf.py` adds the body from the USFM. The legacy LaTeX book files, `HTML/`, `EPUB/`, `TXT/4` and `scripts/latex_converter.py` were removed 2026-11-11 (decision 13; in git history) |
+| `pipeline/fonts/` | The website's fonts (Gentium Book and Ezra SIL, subset and renamed under the OFL; `README.md` there) |
+| `TXT/1 - OCR`, `TXT/2 - Post-Corrected`, `TXT/3 - Edited` | Earlier manual stages of the 1726–27 edition (Google Books OCR; corrected; edited): now witnesses, read by `align` and `collate` |
 | `pipeline/` | The pipeline package: `python -m pipeline --help` |
 | `data/witnesses/<source>/<osis>.tsv` | Parsed witnesses, one row per verse: `id  text  flags` (committed) |
 | `data/witnesses/archive.tsv` | The archive.org editions and their OCR files |
@@ -71,7 +69,6 @@ python -m pipeline fetch archive --hocr      # also the hOCR word boxes (14–40
 python -m pipeline status [BOOK…] [--chapters]
 python -m pipeline latin macron vēnit        # W/M/G macron lookup (fur-fulminis)
 python -m pipeline latin macron-check --text FILE
-python -m pipeline migrate [BOOK…]           # LaTeX → text/*.usfm where none exists yet; always checks the round trip
 python -m pipeline gold [BOOK…]              # text/*.usfm → data/gold/<osis>.tsv
 python -m pipeline rules [BOOK…]             # learn spelling rules (keeps approved/rejected statuses)
 python -m pipeline align [WITNESS…]          # OCR witnesses → verse ids, scored against the gold
@@ -83,7 +80,6 @@ python -m pipeline draft Mark 6-16            # stage 1: Wikisource → text/dra
 python -m pipeline collate Matt 14-28 [--base draft|settled|wikisource|FILE]   # stage 2 → data/calibration/<osis><CH>-collation.tsv
 python -m pipeline propose Mark 6-16 [--rates] # stages 3–5 on an unmarked draft: one review item per verse → data/review/mark6-16-chNN.md + text/draft/MRK.preview.usfm
 python -m pipeline build Matt Mark Luke John --version v1.0   # stage 7: text/ → build/ (site, EPUBs, PDF LaTeX, TXT/TSV/JSON)
-cd scripts && python latex_converter.py      # legacy: LaTeX → TXT/HTML (until the USFM builds replace it)
 ```
 
 ## Sources at a glance

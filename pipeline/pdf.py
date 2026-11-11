@@ -1,9 +1,9 @@
 """The print PDF: build/pdf/<stem>.tex, generated from the USFM master, compiled with latexmk (or pdflatex twice)
 when a TeX install is on the PATH.
 
-The preamble is LaTeX/main.tex's, taken as it stands (memoir, A5, lettrine drop caps, running heads, \\Liber,
-\\Caput, \\Versus), with LaTeX/title.tex inlined so the file stands alone. Each book's body is `latex.to_latex`, the
-same conversion the migration's round trip proved lossless. Added after the preamble: the commands for a
+The preamble is pipeline/templates/preamble.tex (the former LaTeX/main.tex's), taken as it stands (memoir, A5,
+lettrine drop caps, running heads, \\Liber, \\Caput, \\Versus), with templates/title.tex inlined so the file stands
+alone. Each book's body is `latex.to_latex`, the same conversion the migration's round trip proved lossless. Added after the preamble: the commands for a
 chapter summary (\\Argumentum) and a psalm title (\\Titulus), ȳ for inputenc, and the title and colophon pages."""
 
 import re
@@ -12,8 +12,8 @@ import subprocess
 
 from pipeline import latex, paths, publish
 
-MAIN = paths.ROOT / "LaTeX" / "main.tex"
-TITLE = paths.ROOT / "LaTeX" / "title.tex"
+MAIN = paths.ROOT / "pipeline" / "templates" / "preamble.tex"
+TITLE = paths.ROOT / "pipeline" / "templates" / "title.tex"
 
 ADDITIONS = r"""
 % ---- added by pipeline/pdf.py (generated; never edit this file by hand)
@@ -43,7 +43,7 @@ ADDITIONS = r"""
 
 
 def preamble():
-    """main.tex up to \\begin{document}, with \\input{title.tex} replaced by the file's text."""
+    """The preamble (up to any \\begin{document}), with \\input{title.tex} replaced by the file's text."""
     main = MAIN.read_text(encoding="utf-8")
     head = main.split("\\begin{document}", 1)[0]
     title = TITLE.read_text(encoding="utf-8")
