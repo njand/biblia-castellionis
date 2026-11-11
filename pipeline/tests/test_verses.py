@@ -58,6 +58,7 @@ class Case(unittest.TestCase):
         self.assertIsNone(verses.lower_start("Petrus dixit", self.LEXICON, set()))        # a name
         self.assertIsNone(verses.lower_start("“Utpote cum", self.LEXICON, set()))          # a quotation opens
         self.assertIsNone(verses.lower_start("Filius quidem", self.LEXICON, {"filius"}))   # may name Christ
+        self.assertIsNone(verses.lower_start("Deum collaudantes", self.LEXICON, {"deum"}))  # God (2 Cor 9:13)
 
 
 class Kinds(unittest.TestCase):

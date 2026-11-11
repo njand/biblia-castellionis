@@ -132,6 +132,28 @@ half of 12:26, 10:17 a line dropped, 15:42–44 *refurget* for *resurget*: long 
 - **The subscription** after 16:24 (*Ad Corinthios prima scripta est Philippis, missa per Stephanam, & Fortunatum, &
   Achaicum, & Timotheum.*) is set in italics apart, as after Romans; Wikisource runs it into the verse.
 
+### 2 Corinthians in 1573 against 1556 and Wikisource (stage 2, 2026-11-10)
+
+Every place where Wikisource's 2 Corinthians differs from 1573 was read on the 1573 page image (canvases 879–887;
+`data/review/2cor1-13-stage2.md`, 45 corrections). 1573 heads it *Pauli Apostoli Epistola secunda ad Corinthios* (1
+Corinthians: *Epistola prima*), with an argument *in Epistolam posteriorem ad Corinthios*. As in 1 Corinthians,
+Wikisource prints the early wording with 1715, 1747 and 1750; 1758, 1681 and 1726–27 print the 1573 text.
+- **The revision**: *caecas* → *torpentes* (3:13), *res* → *creatura* (5:17, καινὴ κτίσις), *sontem* → *peccatum* (5:21,
+  ἁμαρτίαν), *persona* → *caro* (7:5, ἡ σάρξ), *meus favor* → *mea gratia* (12:9) and *favor* → *gratia* (13:14),
+  *hujusmodi* → *ejusmodi* (9:12), *in ecclesiis* → *in ecclesias* (8:1), *quidem* → *equidem* (12:6), and word order
+  (1:14 *vestra sumus*, 8:7 *omnibus in rebus*, 8:11 *est voluntatis*). **1556 already has all of these** where its OCR
+  can be read (all but 9:12 and 13:14, which it garbles or lacks): unlike 1 Corinthians, 2 Corinthians was revised in full by 1556. The one 1573 change found is 10:12
+  *Nec enim ausimus* (1556 *audemus*); 13:4 *per Dei in nos potentiam* (Wikisource and 1750 *in vos*, the Greek's
+  εἰς ὑμᾶς) is 1573's, with 1758 and 1681, where 1556's OCR lacks the clause.
+- **1573's misprints?** Three readings of 1573 go against 1556 and the sense, and 1758 (and at 11:28 1681) repeats
+  them, as it follows 1573: 5:10 *ferat quique* (1556 also *quique*), 11:28 *quae me quotidiana destinent* (1556
+  *distinent*), 12:7 *qui me tondat* (1556 *tundat*, κολαφίζῃ). The text keeps *quisque*, *distinent*, *tundat*.
+- **Verse numbers**: 1573 numbers chapter 1 with 23 verses (its 21 holds the KJV's 1:21–22), chapter 7 with 16 (as
+  the KJV; Wikisource 15) and chapter 13 with 13: like Wikisource it prints the KJV's 13:13 *Salutant vos sancti omnes*
+  inside its 12, so the blessing is its 13 (the KJV's 14).
+- **The subscription** after the blessing (*Ad Corinthios secunda scripta est Philippis Macedoniae, missa per Titum &
+  Lucam.*) is set in italics apart, as after Romans and 1 Corinthians; Wikisource runs it into the verse.
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.

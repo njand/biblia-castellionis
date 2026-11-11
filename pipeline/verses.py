@@ -184,13 +184,18 @@ def settled_keys():
     return _SETTLED_KEYS[0]
 
 
+# Deus, which normalize.DIVINE leaves out (its de- would catch dē, deinde): God, always capital in your text (2 Cor
+# 9:13 *Deum collaudantēs* after a comma). A pagan *deus* at a verse start is lowered by its layout line.
+GOD = re.compile(r"^(deus|deī|dei|deō|deo|deum)$", re.I)
+
+
 def lower_start(body, lexicon, common):
     """The body with its first word in lower case, unless it opens a quotation, may name God (decision 20), or is
     a name: written only with a capital in your settled chapters (`common`: lower_keys()) and in the lexicon, its
     host too (Vīxit|que); None if nothing changes."""
     text = MARKER.sub(lambda m: " " * len(m.group()), body)
     m = WORD.search(text)
-    if not m or not m.group()[0].isupper() or re.search(r"[“‘(]", text[:m.start()]) or normalize.DIVINE.match(m.group()):
+    if not m or not m.group()[0].isupper() or re.search(r"[“‘(]", text[:m.start()]) or normalize.DIVINE.match(m.group())             or GOD.match(m.group()):
         return None
     word = m.group()
     entry = lexicon.get(macronize.key(word), macronize.Entry())

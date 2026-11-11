@@ -71,6 +71,11 @@ class Collate(unittest.TestCase):
                          [("Acts.9.2", "litteras")])
         self.assertEqual(collate.edges(None, b, {"1573": (None, "", "petiit ab eo litteras")}), [])
 
+    def test_verses_the_base_does_not_cover(self):
+        base = [("2Cor.2.12", "Quum autem in Troadem venissem"), ("2Cor.2.13", "Nullam animi requietem habui"),
+                ("2Cor.2.14", "Deo vero gratia, qui semper facit")]
+        rows = {"2Cor.2.12": "Cum autem in Troadem veniſſem", "2Cor.2.14": "Deo verò"}
+        self.assertEqual(collate.uncovered(base, rows), [("2Cor.2.13", 0.0), ("2Cor.2.14", 0.33)])
 
 class Normalize(unittest.TestCase):
     def test_carry_macrons_and_spaces(self):

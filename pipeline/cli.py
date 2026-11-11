@@ -330,14 +330,20 @@ def main(argv):
             print(f"→ {target.relative_to(paths.ROOT).as_posix()}: Wikisource {book.osis} {args.chapters}, BSB paragraphs")
             return 0
         base = args.base if args.base in ("draft", "settled", "wikisource") else pathlib.Path(args.base)
-        places, _ = collate.collate(book.osis, chapters, base)
+        places, witness_rows = collate.collate(book.osis, chapters, base)
         rows = [(p.vid, p.kind, p.sort, p.text, " | ".join(f"{','.join(who)}: {next(iter(who.values()))}"
                                                           for who in p.readings.values()), ",".join(p.support), p.context)
                 for ps in places.values() for p in ps if p.kind != "noise"]
+        # Verses the base witness does not cover were compared with nothing: listed first, to be read by hand.
+        missed = witness_rows["uncovered"]
+        rows = [(vid, "uncovered", "base", f"{share:.0%} of the words", "", "", "") for vid, share in missed] + rows
         path = paths.DATA / "calibration" / f"{book.osis}{args.chapters}-collation.tsv"
         tsv.write(path, rows, header=("id", "kind", "sort", "text", "readings", "support", "context"))
         counts = collections.Counter((r[1], r[2]) for r in rows)
         print(", ".join(f"{k} {s} {n}" for (k, s), n in sorted(counts.items())))
+        if missed:
+            print(f"the base witness covers less than {collate.COVERED:.0%} of {len(missed)} verses (kind `uncovered`): "
+                  + ", ".join(vid.split(".", 1)[1].replace(".", ":") for vid, _ in missed) + " — read them by hand")
         print(f"→ {path.relative_to(paths.ROOT).as_posix()} (noise left out; crop with pipeline.mdz.find/fetch_crop)")
     elif args.command == "propose":
         book = books.select([args.name])[0]

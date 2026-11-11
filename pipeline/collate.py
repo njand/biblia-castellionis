@@ -147,6 +147,30 @@ def word_list(text):
     return [t for t, is_word in align.words(align.clean(text)) if is_word]
 
 
+COVERED = 0.6                                         # the share of a verse's words the base witness must show
+
+
+def uncovered(base, rows, threshold=COVERED):
+    """[(verse id, share)] of the verses the base witness does not cover: no aligned text, or fewer than `threshold`
+    of the verse's words found in it (folded, f/s blind). Its OCR may read a page's columns out of order (1573 at
+    2 Cor 2:9–13), and a verse it does not cover is compared with nothing: read those by hand."""
+    out = []
+    for vid, text in base:
+        want = [align.fold(w, fs=True) for w in word_list(text)]
+        if not want:
+            continue
+        got = collections.Counter(align.fold(w, fs=True) for w in word_list(rows.get(vid) or ""))
+        found = 0
+        for w in want:
+            if got[w]:
+                got[w] -= 1
+                found += 1
+        share = found / len(want)
+        if share < threshold:
+            out.append((vid, round(share, 2)))
+    return out
+
+
 def fs_only(a, b):
     """True when two words differ only in f against s (long s, which the f/s-blind fold sets alike)."""
     fa, fb = align.fold(a), align.fold(b)
@@ -428,4 +452,5 @@ def collate(osis, chapters, source="draft", witnesses=None):
             place.sort = place.sort or sort_kind(place)
         out[number] = sorted(places, key=lambda p: (tsv.parse_id(p.vid)[2], p.start, p.end))
     all_rows["canvas"] = canvases
+    all_rows["uncovered"] = uncovered(base, all_rows[base_witness])
     return out, all_rows
