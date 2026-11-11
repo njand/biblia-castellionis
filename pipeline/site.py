@@ -468,7 +468,8 @@ JS = """(function () {
   window.addEventListener('hashchange', function () { fromHash(true); });
 
   document.addEventListener('click', function (event) {
-    var target = event.target;
+    // the button itself, also when the click lands on text inside it (the theme button's spans)
+    var target = (event.target.closest && event.target.closest('button')) || event.target;
     if (target.id === 'macrons') { macrons = !macrons; store.set('macrons', macrons ? 'on' : 'off'); setMacrons(macrons); }
     if (target.id === 'theme') {
       theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length]; store.set('theme', theme); setTheme(theme);
