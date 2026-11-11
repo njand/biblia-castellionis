@@ -22,20 +22,21 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y epubcheck
           curl -fsSL -o tectonic.tar.gz \
-            "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.15.0/tectonic-0.15.0-x86_64-unknown-linux-musl.tar.gz"
+            "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
           mkdir -p "$HOME/bin" && tar -xzf tectonic.tar.gz -C "$HOME/bin"
           echo "$HOME/bin" >> "$GITHUB_PATH"
       - name: Fetch the BSB (the English column of the site)
         run: python -m pipeline fetch parallel bsb
       - name: Build every format
-        run: python -m pipeline build --version "${GITHUB_REF_NAME}"
+        run: |
+          python -m pipeline build --version "${GITHUB_REF_NAME}"
+          if [ ! -f build/pdf/castellio.pdf ]; then tail -n 80 build/pdf/castellio.log || true; exit 1; fi
       - name: Check the EPUBs
         run: for f in build/epub/*.epub; do epubcheck "$f"; done
       - name: Publish the release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          test -f build/pdf/castellio.pdf
           (cd build/site && zip -qr ../castellio-site.zip .)
           gh release create "${GITHUB_REF_NAME}" --title "${GITHUB_REF_NAME}" --notes-file RELEASE.md \
             build/epub/*.epub build/pdf/castellio.pdf build/txt/* build/castellio-site.zip
