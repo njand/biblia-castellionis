@@ -66,14 +66,29 @@
 
 ## Decisions waiting
 
+- **Waiting on you: *quandōquidem*** (2026-11-10). Researched at your request: `data/review/quandoquidem.md`. The
+  verse decides it: in every dactylic line in the corpus (Lucretius 18×, Catullus, Vergil, Ovid, Manilius, Juvenal)
+  only a short o scans; the long ō is the etymological *quandō* + *quidem*, the short one the fused word, as *sĭquidem*,
+  *tŭquidem* (Wiktionary, citing Fortson 2008). Recommended: *quandoquidem* (o unmarked) in the 21 settled places, as
+  Gaffiot 2016. Your Decision line there; nothing applied.
+- **v1.0 released, and the website on GitHub Pages** (2026-11-10; decision 39): the colophon of every format now says
+  *Edited by Nathan Anderson* (and the EPUB names you as editor in its metadata); `.github/workflows/pages.yml` builds
+  the site on every push to `main` and on each release; `.github/workflows/release.yml` builds every format when a tag
+  `v*` is pushed (EPUBs checked by epubcheck, PDF compiled by Tectonic) and publishes the release with `RELEASE.md` as
+  its notes. Still waiting on you: pointing the WordPress site at `https://njand.github.io/biblia-castellionis/`.
+- **2 Corinthians 1–13 is settled** (2026-11-10; decision 38): approved by you "for now", in `text/2CO.usfm` (257
+  verses, the KJV count; the subscription as `\cls`), gold rebuilt (`data/gold/2Cor.tsv`), draft and preview removed.
+  Record: `data/review/2cor1-13-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch13.md`, `data/decisions/2Cor.*.tsv`,
+  `data/versification/2Cor.draft.edits.tsv`, `data/calibration/2Cor1-13-collation.tsv`. One call of mine to check: the
+  title lines (`\h`/`\toc2` *Ad Corinthiōs II*, `\mt1` *Paulī Apostolī Epistola posterior ad Corinthiōs*; 1573
+  *Epistola secunda*, its argument *posteriorem*).
 - **The open questions for the whole edition are decided and applied** (2026-11-10; decision 37): you approved every
   recommendation in my walkthrough. 462 changes to the settled text (`data/review/edition-fixes.md`, one item per word,
   each group with its evidence), `data/gold/` rebuilt for all nine books, 176 spelling rules added to
   `orthography.tsv` for future drafts, the two subscriptions set apart as `\cls` (now supported by every build), and
   `README.md` now names 1573 as the NT base. Romans now has paragraphs at 23 of the BSB's ordinary breaks, to match 1 Corinthians
-  (`data/review/rom-paragraphs.md`, accepted by you and applied; 79 passed over, with reasons). **Waiting on you:**
-  whether the colophon names you as editor; and the go-ahead to tag the release, add the Pages workflow and point WordPress at
-  the site, now with every settled book. Nothing committed.
+  (`data/review/rom-paragraphs.md`, accepted by you and applied; 79 passed over, with reasons). The colophon, release and Pages
+  questions are decided (decision 39).
 - **1 Corinthians 1–16 is settled** (2026-11-10; decision 36): approved by you "for now", in `text/1CO.usfm` (437
   verses, the KJV count), gold rebuilt (`data/gold/1Cor.tsv`), draft and preview removed (`text/draft/` is now empty and
   gone). Record: `data/review/1cor1-16-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch16.md`, `data/decisions/1Cor.*.tsv`,
@@ -189,6 +204,8 @@
 | 35 | 2026-11-09 | **Exodus 1–20 approved for now.** Stages 1–5 (120 stage-2 corrections against 1738; 18 versification edits, Castellio's numbering in 5–7 to the KJV's; the Song of the Sea as poetry; 120 layout lines, 692 forms) settled in `text/EXO.usfm`. The fixes to the settled text it proposed (`settled-fixes-exod.md`) are not part of this approval. Your in-depth review follows decision 30. |
 | 36 | 2026-11-10 | **1 Corinthians 1–16 approved for now.** Stages 1–5 (97 stage-2 corrections against 1573 read on the page images, 3 of them long-s slips found by a sweep of the draft's *f* words; 7 versification edits, the KJV's 3:23 split from 3:22 and 11:1 moved back to 10:33's *Imitatores mei estote*; 77 layout lines, 410 forms) settled in `text/1CO.usfm`. Its questions for the whole edition stay open (summary, end). Your in-depth review follows decision 30. |
 | 37 | 2026-11-10 | **The open questions for the whole edition, as recommended** (`data/review/edition-fixes.md`, 462 changes, applied). Spelling: *causa* (Cicero 1,974 : *caussa* 3), *intelleg-* (157 : 35), *exsp-* kept, *temptō* (198 : 61; not *tentōrium*, nor John 20:23 *tenta*), *Jōhannēs* in Acts as in the Gospels; *ad-* assimilated as in your own chapters (*allocūtus* 54 : 0, *ascendō* 30 : 0), except compounds of *sum* (*adsunt*, *adsit*, *adfuit*), *adnūntiō* and the names. Macrons by Gaffiot: *vēsc-*, *īnfēst-*, *custōs*, *lōcusta*, *narrō*, *Ādamus*; *Rāchēl* as its other cases (16 nominatives, not the one counted earlier); *obdormiērunt* (third plural by verb, decision 19); Romans *Quīn etiam*, *perēmptī*, *īnsitīciī*. Hebrew names marked only where Gaffiot or a Latin source gives the length. Kept as settled: Acts 28:26's three levels of quotation marks, *Saūlem*. Layout: a letter's subscription set apart as `\cls` (Rom 16:27, 1 Cor 16:24, and the letters to come); the BSB's ordinary paragraph breaks taken where the Latin allows, as in 1 Corinthians; Romans given 23 to match (`rom-paragraphs.md`, accepted). README: the NT base is 1573. |
+| 38 | 2026-11-10 | **2 Corinthians 1–13 approved for now.** Stages 1–5 (45 stage-2 corrections against 1573 read on the page images, 1 found by the f/s sweep: 4:4 *infidentium*; 2 at 2:13 in verses 1573's OCR had not aligned; 2 versification edits, 13:13 split from 13:12 and 7:16 from 7:15; 45 layout lines, 254 forms; the subscription as `\cls`) settled in `text/2CO.usfm`. With it: `verses.lower_start` keeps *Deus* capital at a verse start (with a test). Your in-depth review follows decision 30. |
+| 39 | 2026-11-10 | **Named words in quotation marks; the collation's coverage check; the editor named; v1.0 and Pages.** Words named rather than spoken take quotation marks, as modern editions do (2 Cor 1:17–20 *“etiam”*, *“nōn”*, *“ita”*; already so in your Matt 5:37 and 1 Cor 14:16). `collate` now lists the verses the base witness covers under 60% (kind `uncovered`), to be read by hand. Every colophon says *Edited by Nathan Anderson*. The release is tagged v1.0 and the website is published with GitHub Pages (workflows in `.github/workflows/`). |
 
 ## How to run
 

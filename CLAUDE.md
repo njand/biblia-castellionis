@@ -29,7 +29,7 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | Path | What |
 |---|---|
 | `text/<USFM code>.usfm` | **The master copy**, one file per book (created by the M1 migration); markers in PLAN.md §3 |
-| `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (Wikisource via `pipeline draft`; none at present; a draft in review has its `.preview.usfm` beside it); not settled. Once approved, a draft's chapters move into `text/<USFM code>.usfm` and the draft file goes (Matthew 14–28 settled 2026-11-07, Mark 6–16, Luke 14–24, John 5–21 and Genesis 28–50 2026-11-08, Romans 1–16, Acts 1–28 and Exodus 1–20 2026-11-09, 1 Corinthians 1–16 2026-11-10) |
+| `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (Wikisource via `pipeline draft`; none at present; a draft in review has its `.preview.usfm` beside it); not settled. Once approved, a draft's chapters move into `text/<USFM code>.usfm` and the draft file goes (Matthew 14–28 settled 2026-11-07, Mark 6–16, Luke 14–24, John 5–21 and Genesis 28–50 2026-11-08, Romans 1–16, Acts 1–28 and Exodus 1–20 2026-11-09, 1 Corinthians 1–16 and 2 Corinthians 1–13 2026-11-10) |
 | `data/review/*.md` | Proposals with exact **Apply** lines and **Decision** lines; applied by `python -m pipeline review apply` |
 | `data/decisions/<osis>.layout.tsv`, `.forms.tsv` | Calls made by reading a verse, for `pipeline propose`: its quotation marks, `\qt`, poetry, paragraphs, capitals and punctuation over the draft's own words (`marks` `=` keeps the draft's, `-` none), and macrons decided in context, each with its reason |
 | `data/rules/orthography.tsv` | Spelling rules (`old new scope status note`); only `approved` rows are applied. `REVIEW.md` beside it is the latest proposal for Nathan; `distinct.tsv` lists look-alike words decided to be different |
@@ -42,7 +42,7 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | `data/calibration/scans.md` | The editions compared (1551, 1554, 1556, 1573, 1745, 1758, 1760) and where their scans are; the evidence for the 1573 NT base |
 | `data/calibration/wikisource.tsv` | Every difference between Wikisource and the gold, sorted by kind (`python -m pipeline rules`) |
 | `data/gold/<osis>.tsv` | The settled chapters per verse (`id text marks layout`), rebuilt from `text/` by `python -m pipeline gold`; the harness's answer key |
-| `build/` | Generated outputs (website, EPUBs, PDF, TXT/TSV); git-ignored; published via GitHub releases and Pages |
+| `build/` | Generated outputs (website, EPUBs, PDF, TXT/TSV); git-ignored; published via GitHub releases and Pages (`.github/workflows/`: `pages.yml` on every push to main, `release.yml` on a tag `v*`, notes in `RELEASE.md`) |
 | `LaTeX/main.tex`, `LaTeX/biblia/{vetus,novum} foedus/<slug>.tex` | *Legacy* master, until the migration is verified; `main.tex`'s preamble is reused for the generated PDF |
 | `scripts/latex_converter.py`, `HTML/`, `EPUB/`, `TXT/3`, `TXT/4` | *Legacy* outputs of the LaTeX; retired after the migration (removal is Nathan's call) |
 | `TXT/1 - OCR`, `TXT/2 - Post-Corrected` | Earlier manual stages (Google Books OCR of the 1726–27 edition); now witnesses |

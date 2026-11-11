@@ -1,0 +1,50 @@
+# The website (build/site) from text/*.usfm, published to GitHub Pages on every push to main and on each release.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["text/**", "pipeline/**", "data/witnesses/wikisource/MANIFEST.tsv", "LaTeX/title.tex", ".github/workflows/pages.yml"]
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0                       # the tags, for the edition label
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch the BSB (the English column)
+        run: python -m pipeline fetch parallel bsb
+      - name: Build the site
+        run: |
+          version="$(git describe --tags --abbrev=0 2>/dev/null || true)"
+          python -m pipeline build --only site --version "$version"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

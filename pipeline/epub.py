@@ -83,6 +83,7 @@ def colophon_xhtml(selected):
 <h1>Colophon</h1>
 <p>{site.esc(info["about"])}</p>
 <p>{site.esc(info["bases"])}</p>
+<p>{site.esc(info["edited"])}</p>
 <p>{site.esc(info["licence"])} <a href="{info["licence_url"]}">{info["licence_url"]}</a></p>
 <p>{site.esc(info["wikisource"])}</p>
 <ul>{pages}</ul>
@@ -152,6 +153,8 @@ def opf(selected, uid, title, modified, files):
 <dc:title>{site.esc(title)}</dc:title>
 <dc:language>la</dc:language>
 <dc:creator>Sebastian Castellio</dc:creator>
+<dc:contributor id="editor">{site.esc(publish.EDITOR)}</dc:contributor>
+<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
 <dc:rights>CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); text drawn from Latin Wikisource, CC BY-SA 4.0</dc:rights>
 <dc:source>{publish.REPOSITORY}</dc:source>
 <meta property="dcterms:modified">{modified}</meta>

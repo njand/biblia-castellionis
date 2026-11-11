@@ -322,6 +322,7 @@ def colophon_html(selected, english_key=None):
 <div lang="en">
 <p>{esc(info["about"])}</p>
 <p>{esc(info["bases"])}</p>
+<p>{esc(info["edited"])}</p>
 <p>{esc(info["licence"])} <a href="{info["licence_url"]}">{info["licence_url"]}</a></p>
 <p>{esc(info["wikisource"]).replace("Latin Wikisource", f'<a href="{info["wikisource_url"]}">Latin Wikisource</a>')}</p>
 <ul>{pages}</ul>

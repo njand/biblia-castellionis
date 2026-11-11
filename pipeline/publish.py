@@ -32,6 +32,7 @@ CHARACTERS = {"qt", "qt*"}
 # Collections with a name of their own; any other selection is "Biblia Sacra".
 COLLECTIONS = {("Matt", "Mark", "Luke", "John"): ("Ēvangelia", "evangelia")}
 SERIES = "Biblia Sacra ex Sebastiānī Castelliōnis interpretātiōne"
+EDITOR = "Nathan Anderson"                     # named in every colophon (Nathan, 2026-11-10)
 
 
 class UsfmError(ValueError):
@@ -232,6 +233,8 @@ def credits(selected):
                   "in a reader’s edition: Gaffiot 2016 orthography with full macrons, modern paragraphs, "
                   "poetry set as verse, quotation marks, and verses numbered as in the King James Version."),
         "bases": "; ".join(bases) + "." if bases else "",
+        "editor": EDITOR,
+        "edited": f"Edited by {EDITOR}.",
         "licence": "This edition is licensed under the Creative Commons Attribution-ShareAlike 4.0 International "
                    "License (CC BY-SA 4.0). The 16th–18th-century text it is drawn from is in the public domain.",
         "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -281,7 +284,7 @@ def write_text(selected, folder, stem, title):
     folder.mkdir(parents=True, exist_ok=True)
     info = credits(selected)
     head = [SERIES.upper(), title, ""]
-    tail = ["", "—" * 3, "", info["about"], info["bases"], "", info["licence"], info["licence_url"], "",
+    tail = ["", "—" * 3, "", info["about"], info["bases"], info["edited"], "", info["licence"], info["licence_url"], "",
             info["wikisource"], *[f"  {short}: {url} (revision {revid}, {oldid})" for short, url, revid, oldid, _
                                   in info["pages"]], "", info["source_note"], ""]
     body = "\n".join(reading_text(book) for book in selected)

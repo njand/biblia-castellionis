@@ -68,6 +68,9 @@ def colophon(selected):
 {tex_escape(info["bases"])}
 
 \medskip
+{tex_escape(info["edited"])}
+
+\medskip
 {tex_escape(info["licence"])} \url{{{info["licence_url"]}}}
 
 \medskip
