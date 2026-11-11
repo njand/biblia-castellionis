@@ -17,13 +17,54 @@ takes **stem** rules (`scope` `stem`: a word beginning with `old` takes `new` in
 longest stem wins; `normalize.WordRules`). The stem rules below are added to `orthography.tsv` as `proposed`; each
 becomes `approved` with its group's decision.
 
-Not proposed, after checking: *adolēscēns* (12×; Gaffiot heads it so), *sōlātiō* (Gaffiot headword), *existimō*
+Not proposed, after checking: *sōlātiō* (Gaffiot headword), *existimō*
 (another verb than *exsistō*), *exsiliēns* (*exsiliō*, leap), *sumptus*, *percontor*, *opportūnus*, *hæreō*
 (Gaffiot's spellings), *Paullō* (Acts 13:7, the proconsul Sergius Paulus: a name, left for you), *herī* (yesterday,
 Gen 31:29, 31:42, Acts 7:28), *Hēr* (Luke 3:28) and *Obēd* (Luke 3:32), names. The *-īv-* perfects left in
 *petīvissem* (Gen 24:45), *quæsīvissēs* (Gen 44:19), *audīverītis* (Luke 7:22), *audīverīmus* (Luke 22:71),
 *petīveris* (John 11:22), *quæsīvisse* (John 21:17), *audīverim* (Acts 22:7) and *præteriisset* (Acts 27:9) are
 decision 19's (form by form), not listed here; say if you want them proposed.
+
+## The evidence, and how the groups were resolved
+
+Nathan, 2026-11-11: resolve the groups "based on Gaffiot and the corpus evidence (prioritizing Cicero and Golden
+Age spelling)". The counts are `python -m pipeline latin attest` (the Latin Library, Erasmus, the colloquia: the
+spelling of the editions there, not of the manuscripts). Its era labels proved unreliable (Gregory IX's decretals
+count as "golden"), so the authors decide: hits in Cicero first, then the other Golden Age and early Silver
+authors (Caesar, Sallust, Livy, Varro; Seneca, Quintilian, Tacitus), and Plautus and Terence where the word is
+theirs. Every group follows Gaffiot and the classical authors; one is a judgment against Cicero's editions
+(*quidquam*, below).
+
+| Spelling kept | Its rival | Corpus (hits; the classical authors) | Gaffiot 2016 |
+|---|---|---|---|
+| *cōntiō* | *conciō* | *contione* 446 (Cicero 109) / *concione* 47 (Cicero 8); *contionem* 271 (Cicero 55) / 31 (Cicero 4) | *cōntiō* |
+| *condiciō* | *conditiō* | *condicione* 1478 (Cicero 99) / *conditione* 253 (Cicero 0); *condicionem* 662 / 151 | *condiciō* |
+| *subolēs* | *sobolēs* | *suboles* 80 (Cicero 5) / 47; *subolem* 67 / 60 | *subolēs* |
+| *multō* | *mulctō* | *multavit* 33 (Cicero 4) / 4; few hits otherwise | *multō* |
+| *pænit-* | *pœnit-* | *paenitet* 139 (Cicero 20) / *poenitet* 60 (Cicero 0); *paenitentia* 188 (Quintilian, Seneca, Tacitus) / *poenitentia* 153 (Gregory IX 82, Melanchthon …) | *pænitet*, *pænitentia* |
+| *erus* | *herus* | *erus* 117 (Plautus 102, Terence, Horace, Varro; and Castellio himself 4) / *herus* 46 (Erasmus 19, Vives …) | both; *erus* |
+| *paulō*, *paulīsper*, *paululum* | *paull-* | *paulo* 2203 (Cicero 313) / *paullo* 88 (Cicero 44); *paulisper* 418 / 7; *paululum* 382 / 14 | *paulō*, *paulīsper* |
+| *quidquam* | *quicquam* | *quidquam* 396 (Cicero 65) / ***quicquam* 2197 (Cicero 376, Livy 201)** | *quisquam*, neuter *quidquam* |
+| *umquam* | *unquam* | *umquam* 2118 (Cicero 691) / *unquam* 975 (Cicero 0) | *umquam* |
+| *cāritās* | *chāritās* | *caritate* 411 (Cicero 44) / *charitate* 93 (Cicero 0) | *cāritās* |
+| *sepulcrum* | *sepulchrum* | *sepulcrum* 238 (Cicero 19) / 209 (Cicero 0); *sepulcra* 90 / 70 | *sepulcrum* |
+| *exspect-* | *expect-* | *exspectare* 210 (Cicero 66) / 147 (Cicero 0); *exspectatio* 82 (Cicero 45) / 51 (Cicero 4) | *exspectō* |
+| *undecumque* | *undecunque* | *undecumque* 101 (Seneca, Quintilian) / 44 (William of Tyre 16 …); likewise *quicumque* 1039 (Cicero 52) / 159, *ubicumque* 394 (Cicero 19) / 57 | *undecumque* |
+| *mæstus* | *mœstus* | *maestus* 95 / 9; *maesti* 73 / 3 | *mæstus* |
+| *vīcēsimus* | *vīgēsimus* | *vicesimus* 28 (Cicero 2) / 8; *vicesimo* 151 / 40 | both |
+| *sescentī* | *sexcentī* | *sescenta* 44 (Cicero 15) / 27 (Cicero 0); *sescentos* 49 (Cicero 4) / 25 | *sexcentī* (the corpus decides, as the approved *sescentos*) |
+| *inaspectābilis* | *inadspectābilis* | no hits either way (a Christian word) | — (decision 37's *ad-* assimilation) |
+| *cotīdiē* | *quotīdiē*, *cottīdiē* | *cotidie* 738 (Cicero 145) / *quotidie* 360 (Cicero 57) / *cottidie* 139 (Cicero 7); *cotidianus* 11 / 13 / 3 | *cottīdiē* and *quotīdiē* |
+| *cærimōnia* | *cæremōnia*, *cēremōnia* | *caerimonias* 65 (Cicero 11) / *caeremonias* 7 / *ceremonias* 19 (Cicero 0) | *cærimōnia* |
+| *quotiēns* | *quotiēs* | *quotiens* 1376 / *quoties* 675 (neo-Latin 452); *totiens* 519 (Cicero 44) / *toties* 201 (Cicero 0) | *quotiēns* |
+| *obœdiō* | *obēdiō* | *oboedire* 74 (Cicero 5, Sallust; Codex of Justinian) / *obedire* 95 (Gregory IX 27, Gregory VII, William of Tyre …); *oboedientia* 45 / 74 (all medieval) | *obœdiō* |
+| *adulēscēns* | *adolēscēns* | see F | *adulēscēns* |
+
+***quidquam*, the one judgment.** Cicero's editions here print *quicquam* (376) far more than *quidquam* (65), and
+*quicquid* (172) more than *quidquid* (fewer than 74), as Quintilian does (89 to 74), while Seneca (320) and the Digest (198) print *quidquid*. Gaffiot heads the
+*d* forms, and the brief chose *quidquid* (not *quicquid*), an approved rule. Since *quidquam* and *quidquid* are the
+same question, *quidquam* is kept with the brief. To follow Cicero's editions instead, both would turn to *c*: say
+so, and it becomes a new proposal.
 
 ## A. Spellings already decided (the brief, or approved rules for other forms of the word) — 56 places
 
@@ -38,7 +79,7 @@ all eight are the noun "condition, terms", none *conditiō* "seasoning"), *pæni
 *inadspect* → *inaspect*, *sexcent* → *sescent*; word rules *herus* → *erus*, *quicquam* → *quidquam*, *unquam* →
 *umquam*, *undecunque* → *undecumque*.
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-11: "resolve … based on Gaffiot and the corpus evidence (prioritizing Cicero and Golden Age spelling)"; resolved by Claude, see the evidence table)
 
 1. *cōnciōne* → *cōntiōne*
    **Apply:** `Acts.14.27` la: `cōnciōne,` → `cōntiōne,`
@@ -159,7 +200,7 @@ The Gospels write *cotīdiē* 8× (Matt 26:55, Luke 9:23, 11:3 …), the drafted
 Gaffiot 2016 has both as headwords (*cottīdiē* first, *quŏtīdĭē* beside it). Recommended: *cotīdiē*, as the Gospels.
 Stem rule *quotidi* → *cotidi*.
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-11: "resolve … based on Gaffiot and the corpus evidence (prioritizing Cicero and Golden Age spelling)"; resolved by Claude, see the evidence table)
 
 57. *quotīdiānō* → *cotīdiānō*
    **Apply:** `Exod.5.19` la: `quotīdiānō` → `cotīdiānō`
@@ -192,7 +233,7 @@ Stem rule *quotidi* → *cotidi*.
 
 Gaffiot 2016: *cærĭmōnĭa* only. Stem rules *ceremoni*, *cerimoni*, *cæremoni* → *cærimoni*.
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-11: "resolve … based on Gaffiot and the corpus evidence (prioritizing Cicero and Golden Age spelling)"; resolved by Claude, see the evidence table)
 
 70. *cēremōniam* → *cærimōniam*
    **Apply:** `Exod.12.25` la: `cēremōniam` → `cærimōniam`
@@ -206,7 +247,7 @@ Gaffiot 2016: *cærĭmōnĭa* only. Stem rules *ceremoni*, *cerimoni*, *cæremon
 The edition writes *quotiēs* everywhere (Gen 30:41, Matt 18:21, 23:37, Luke 13:34, 1 Cor 11:25–26). Gaffiot 2016
 heads only *quŏtĭēns*. Recommended: *quotiēns* (and *totiēns* when it comes). Word rule *quoties* → *quotiens*.
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-11: "resolve … based on Gaffiot and the corpus evidence (prioritizing Cicero and Golden Age spelling)"; resolved by Claude, see the evidence table)
 
 73. *quotiēs* → *quotiēns*
    **Apply:** `Gen.30.41` la: `quotiēs` → `quotiēns`
@@ -228,7 +269,7 @@ The edition writes *obēdiō* everywhere (Gen 41:40, Acts, Rom, 2 Cor; decision 
 the edition's consistent one. If accepted, the three decision-19 rows become *oboedierit*, *oboedissent*,
 *oboedisti*. Stem rule *obedi* → *oboedi*.
 
-**Decision:**
+**Decision:** accept all (Nathan, 2026-11-11: "resolve … based on Gaffiot and the corpus evidence (prioritizing Cicero and Golden Age spelling)"; resolved by Claude, see the evidence table)
 
 79. *obēdiat* → *obœdiat*
    **Apply:** `Gen.41.40` la: `obēdiat,` → `obœdiat,`
@@ -266,3 +307,42 @@ the edition's consistent one. If accepted, the three decision-19 rows become *ob
    **Apply:** `2Cor.10.5` la: `obēdiendum` → `obœdiendum`
 96. *obēdientia* → *obœdientia*
    **Apply:** `2Cor.10.6` la: `obēdientia.` → `obœdientia.`
+
+## F. *adulēscēns*, not *adolēscēns* — 12 places
+
+Added 2026-11-11 at Nathan's request. All twelve are the noun, "a young man" (Gen 34:19, Matt 19:20, 19:22, Mark
+14:51 twice, 16:5, Luke 7:14, Acts 5:10, 7:58, 23:17, 23:18, 23:22); none is the participle "growing up". Gaffiot 2016
+heads the noun *ădŭlēscēns* (and *ădŭlēscentia*); *ădŏlēscēns* is the participle of *adolēscō*. The corpus
+(`python -m pipeline latin attest --count`): *adulescens* 622 hits (archaic 125, republican 110, classical 65,
+augustan 50, silver 58) against *adolescens* 226 (republican 13, classical 3, silver 3; post-classical 124,
+neo-Latin 83); likewise *adulescentem* 214 / *adolescentem* 95, *adulescentes* 156 / 106, *adulescentia* 163 / 64,
+*adulescentulus* 46 / 10. *adol-* is the later and early modern spelling, as Castellio's printers wrote it. Luke 7:14
+is in the chapters from the earlier manual work. Recommended: *adulēscēns*. Stem rule *adolescen* → *adulescen*
+(the verb *adolēscō*, *adolēvit*, *adolēscere* stays).
+
+**Decision:** accept all (Nathan, 2026-11-11: "resolve … based on Gaffiot and the corpus evidence (prioritizing Cicero and Golden Age spelling)"; resolved by Claude, see the evidence table)
+
+97. *adolēscēns* → *adulēscēns*
+   **Apply:** `Gen.34.19` la: `adolēscēns:` → `adulēscēns:`
+98. *adolēscēns* → *adulēscēns*
+   **Apply:** `Matt.19.20` la: `adolēscēns:` → `adulēscēns:`
+99. *adolēscēns* → *adulēscēns*
+   **Apply:** `Matt.19.22` la: `adolēscēns` → `adulēscēns`
+100. *adolēscēns* → *adulēscēns*
+   **Apply:** `Mark.14.51` la: `adolēscēns` → `adulēscēns`
+101. *adolēscentēs* → *adulēscentēs*
+   **Apply:** `Mark.14.51` la: `adolēscentēs` → `adulēscentēs`
+102. *adolēscentem* → *adulēscentem*
+   **Apply:** `Mark.16.5` la: `adolēscentem` → `adulēscentem`
+103. *Adolēscēns* → *Adulēscēns*
+   **Apply:** `Luke.7.14` la: `“Adolēscēns,` → `“Adulēscēns,`
+104. *adolēscentēs* → *adulēscentēs*
+   **Apply:** `Acts.5.10` la: `adolēscentēs` → `adulēscentēs`
+105. *adolēscentis* → *adulēscentis*
+   **Apply:** `Acts.7.58` la: `adolēscentis,` → `adulēscentis,`
+106. *adolēscentem* → *adulēscentem*
+   **Apply:** `Acts.23.17` la: `adolēscentem` → `adulēscentem`
+107. *adolēscentem* → *adulēscentem*
+   **Apply:** `Acts.23.18` la: `adolēscentem` → `adulēscentem`
+108. *adolēscentem* → *adulēscentem*
+   **Apply:** `Acts.23.22` la: `adolēscentem` → `adulēscentem`

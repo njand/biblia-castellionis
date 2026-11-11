@@ -72,12 +72,13 @@
 
 ## Decisions waiting
 
-- **Spellings the rules missed** (2026-11-11): `data/review/spelling-audit.md`, 96 places in five groups, each with
-  its own **Decision:** line. A (56): spellings already decided by the brief or approved rules but missed in other
-  forms (*cōnciōne*, *sobolem*, *mulctārī*, *conditiōne*, *sepulchrum*, *chāritās* …). B–E are judgments:
-  *cotīdiē* for *quotīdiē* (13), *cærimōnia* (3), *quotiēns* (6), *obœdiō* for *obēdiō* (18). Cause: word rules
-  reach only the forms they were learned from; the pipeline now also takes **stem** rules (23 rows added as
-  `proposed` in `orthography.tsv`).
+- **Spellings resolved** (2026-11-11; decision 42): the 108 places of `data/review/spelling-audit.md` applied, by
+  Gaffiot 2016 and the corpus, Cicero and the Golden Age first (the evidence table is in the file): *cōntiō*,
+  *condiciō*, *subolēs*, *multō*, *pænit-*, *erus*, *paulō*, *umquam*, *cāritās*, *sepulcrum*, *exspect-*,
+  *undecumque*, *mæstus*, *vīcēsimus*, *sescentī*, *inaspectābilis*, *cotīdiē*, *cærimōnia*, *quotiēns*, *obœdiō*,
+  *adulēscēns*. One judgment against Cicero's editions: *quidquam* kept with the brief's *quidquid* (the corpus's
+  Cicero prints *quicquam*, *quicquid*); say if both should turn to *c*. Gold rebuilt; the 24 stem and word rules
+  approved, so drafts in progress (Galatians–Colossians) take them at `pipeline propose`. Not yet on the site.
 - ***cum* applied** (2026-11-11; decision 41): *quum*/*quumque* → *cum*/*cumque* in the 243 settled places (Gen
   28–50 47, Exod 57, Acts 70, Rom 27, 1 Cor 26, 2 Cor 16), by the Apply lines of `data/review/quum.md`; gold
   rebuilt; the rules `quum → cum`, `quumque → cumque` approved, so new drafts are normalized. Not yet in a release
@@ -223,6 +224,7 @@
 | 39 | 2026-11-10 | **Named words in quotation marks; the collation's coverage check; the editor named; v1.0 and Pages.** Words named rather than spoken take quotation marks, as modern editions do (2 Cor 1:17–20 *“etiam”*, *“nōn”*, *“ita”*; already so in your Matt 5:37 and 1 Cor 14:16). `collate` now lists the verses the base witness covers under 60% (kind `uncovered`), to be read by hand. Every colophon says *Edited by Nathan Anderson*. The release is tagged v1.0 and the website is published with GitHub Pages (workflows in `.github/workflows/`). |
 | 40 | 2026-11-11 | ***quandoquidem*, the o unmarked.** The attested classical quantity is short (every dactylic line: Lucretius, Catullus, Vergil, Ovid, Manilius, Juvenal); the long ō is the etymological *quandō* + *quidem*. As Gaffiot 2016. Applied to the 21 settled places (`data/review/quandoquidem.md`). *sīquidem* stays as Gaffiot heads it. |
 | 41 | 2026-11-11 | ***cum*, not *quum*.** The conjunction as Gaffiot 2016 heads it, as Matt–John and Gen 1–27 already wrote it; *quumque* → *cumque*. Applied to the 243 places the Wikisource drafts kept *quum* (`data/review/quum.md`); rule approved in `orthography.tsv`. |
+| 42 | 2026-11-11 | **Spelling by Gaffiot and the corpus, Cicero and the Golden Age first.** The 108 places the rules missed (`data/review/spelling-audit.md`): *cōntiō, condiciō, subolēs, multō, pænit-, erus, paulō, umquam, cāritās, sepulcrum, exspect-, undecumque, mæstus, vīcēsimus, sescentī, cotīdiē, cærimōnia, quotiēns, obœdiō, adulēscēns*; *quidquam* with the brief's *quidquid*. Word rules reach only the forms they were learned from, so the pipeline takes stem rules now; 24 approved. |
 
 ## How to run
 
