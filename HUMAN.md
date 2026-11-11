@@ -17,8 +17,11 @@
     old LaTeX, the running head names the chapter at the foot of the page. The Tectonic used here sat in a temporary
     folder: install it (or TeX Live) to rebuild the PDF.
   - **The site:** `python -m http.server 8765 --directory build/site`, then `localhost:8765/matthaeus/21.html#16`.
-    It has a macron switch (ā / a) and an English column (BSB, verse by verse; `--english kjv|web|none`;
-    `--sources ../sources` from a worktree). It shows only the books built, so the v1.0 site has no Genesis: do you
+    It has a macron switch (ā / a), a light/dark switch (Auto → Light → Dark) and a menu of texts to show beside
+    the Latin verse by verse: KJV (1769), BSB, WEB, Hebrew / Greek (WLC; Textus Receptus), Septuagint (Brenton's
+    Greek), Vulgate (Clementine), all public domain from eBible.org, moved to the KJV's numbering by
+    `data/versification/<key>.map.tsv` (2026-11-11; `--parallel kjv,bsb,…|none`; `--sources ../sources` from a
+    worktree). It shows only the books built, so the v1.0 site has no Genesis: do you
     want Genesis on the site from the start (it was on WordPress)?
   - **Wording for you to settle:** the colophon (English; `publish.credits`) names no editor; it says the NT follows
     1573 with 1556 as the reference (decision 24), as `README.md` now does too (2026-11-10). The release title is
@@ -66,6 +69,10 @@
 
 ## Decisions waiting
 
+- ***cum* applied** (2026-11-11; decision 41): *quum*/*quumque* → *cum*/*cumque* in the 243 settled places (Gen
+  28–50 47, Exod 57, Acts 70, Rom 27, 1 Cor 26, 2 Cor 16), by the Apply lines of `data/review/quum.md`; gold
+  rebuilt; the rules `quum → cum`, `quumque → cumque` approved, so new drafts are normalized. Not yet in a release
+  or on the site (both follow the next push to `main` or tag).
 - ***quandoquidem* applied** (2026-11-11; decision 40): the o unmarked in the 21 settled places (Matt 3, Mark 1,
   Luke 5, John 4, Acts 1, Rom 1, 1 Cor 3, 2 Cor 3), by the Apply lines of `data/review/quandoquidem.md`; gold
   rebuilt, so new drafts take *quandoquidem* from the settled forms. Not yet in a release or on the site (both
@@ -206,6 +213,7 @@
 | 38 | 2026-11-10 | **2 Corinthians 1–13 approved for now.** Stages 1–5 (45 stage-2 corrections against 1573 read on the page images, 1 found by the f/s sweep: 4:4 *infidentium*; 2 at 2:13 in verses 1573's OCR had not aligned; 2 versification edits, 13:13 split from 13:12 and 7:16 from 7:15; 45 layout lines, 254 forms; the subscription as `\cls`) settled in `text/2CO.usfm`. With it: `verses.lower_start` keeps *Deus* capital at a verse start (with a test). Your in-depth review follows decision 30. |
 | 39 | 2026-11-10 | **Named words in quotation marks; the collation's coverage check; the editor named; v1.0 and Pages.** Words named rather than spoken take quotation marks, as modern editions do (2 Cor 1:17–20 *“etiam”*, *“nōn”*, *“ita”*; already so in your Matt 5:37 and 1 Cor 14:16). `collate` now lists the verses the base witness covers under 60% (kind `uncovered`), to be read by hand. Every colophon says *Edited by Nathan Anderson*. The release is tagged v1.0 and the website is published with GitHub Pages (workflows in `.github/workflows/`). |
 | 40 | 2026-11-11 | ***quandoquidem*, the o unmarked.** The attested classical quantity is short (every dactylic line: Lucretius, Catullus, Vergil, Ovid, Manilius, Juvenal); the long ō is the etymological *quandō* + *quidem*. As Gaffiot 2016. Applied to the 21 settled places (`data/review/quandoquidem.md`). *sīquidem* stays as Gaffiot heads it. |
+| 41 | 2026-11-11 | ***cum*, not *quum*.** The conjunction as Gaffiot 2016 heads it, as Matt–John and Gen 1–27 already wrote it; *quumque* → *cumque*. Applied to the 243 places the Wikisource drafts kept *quum* (`data/review/quum.md`); rule approved in `orthography.tsv`. |
 
 ## How to run
 
