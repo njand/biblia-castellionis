@@ -236,6 +236,46 @@ Before any new chapter is produced:
 | M6 | OT books *not* on Wikisource | Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah, Ezekiel, Daniel, … | **No base text:** start from three OCRs voting (1738, 1726–27, 1750), with Claude reading the 1738 page images. Slower; benefits most from the rules settled by then |
 | M7 | Apocrypha (in scope; decision 2) | Judith, Tobit, Wisdom, Sirach, Maccabees | Wikisource has some |
 
+### 7a. Further work (added 2026-11-11, not scheduled)
+
+Ideas Nathan has raised. None is started; each needs a decision on scope before work begins.
+
+1. **Notes from modern scholarship: a very light touch** (Nathan, 2026-11-11). Done the way modern reader's Bibles
+   do it, never changing Castellio's text: a passage absent from the earliest manuscripts is set in brackets with
+   one short footnote (in Latin, e.g. *Hīc versus in antīquissimīs cōdicibus deest*); a rendering that rests on a
+   reading now rejected gets one line giving the accepted sense (Matt 19:24 *rudentem*, “a ship's cable”, from
+   κάμιλος for κάμηλος: a note that the Greek reads “camel”; the text keeps *rudentem*, as the base edition prints
+   it, `data/review/matt14-28-stage2.md` item 5). No discussion, sigla, manuscript names or alternative
+   translations in the notes; only the few places a reader would otherwise be misled (likely a few dozen in the
+   whole Bible: the longer ending of Mark, John 7:53–8:11, the *Comma Johanneum* and similar, if his text has
+   them). The evidence for each (e.g. NA28/UBS5, SBLGNT's apparatus, which is already a parallel source; BHS for
+   the OT) goes in a review file, not in the edition. To decide: the wording of the standard notes; USFM `\f`
+   footnotes (foot of the page in print, a marker on the site, left out of the plain text); and the README's
+   statement that the edition has no notes.
+2. **Castellio's text as printed, beside the reading edition.** Not kept today. What exists: the witnesses
+   (`data/witnesses/`; Wikisource, which in Acts–Revelation prints his *early* wording, and noisy OCRs), the
+   stage-2 corrections (`data/calibration/*-collation.tsv`, `data/review/*-stage2.md`), and the drafts in git
+   history (a draft is deleted once settled). No file holds the corrected base text in its own spelling, and the
+   chapters from the earlier manual work (Genesis 1–27, the Gospels' opening chapters) never had one. Proposed: a
+   second layer, `text/orig/<USFM code>.usfm` (or a per-verse TSV), holding the base edition's words and spelling
+   (1573 NT, 1738 OT) after stage 2 and before stages 3–5, with no macrons, Gaffiot spelling, modern punctuation or
+   quotation marks, published as its own outputs (TXT, EPUB, and a switch on the site). **Spelling: Castellio's own,
+   with abbreviations expanded** (Nathan, 2026-11-11): *&* → *et*, *q;* → *-que*, *ã* → *am*/*an*, long s → s; the
+   printed spellings (*cœlum*, *caussa*, *quum*) kept. Still to decide: *u/v* and *i/j* as printed or regularized,
+   and whether 1556's readings appear as variants in it.
+3. **On the site, a switch between Castellio's spelling and the reading edition, replacing the macron switch**
+   (Nathan, 2026-11-11). Builds on item 2: the reader toggles each chapter between the normalized text (Gaffiot
+   spelling, macrons, modern layout and punctuation) and Castellio's text as printed (item 2's layer), the choice
+   remembered as the macron switch's is today. The ā / a switch goes; the macron-free text stays in the downloads
+   (the *sine macronibus* TXT and EPUB). Since the two texts differ in punctuation and layout, not only spelling,
+   the switch swaps whole verses (the page carrying both, each verse id'd as now), not words; the verse anchors and
+   the parallel view work in either. To decide: whether the printed text keeps its own paragraphs or takes the
+   edition's; whether the PDF gets an edition in Castellio's spelling too.
+4. **Rewrite the README.** Make it more useful to a reader and better written: what the edition is and for whom,
+   where to read or download it (the site, the releases), what was changed from the printed editions and why
+   (spelling, macrons, layout; drawing on `docs/editions.md`), what is finished, how to cite it and how to report
+   errors, with the project's history and the pipeline moved lower or into their own documents.
+
 ## 8. Decisions (taken 2026-11-05)
 
 1. **Base edition:** the editions Wikisource follows (1760 NT, 1738 OT). *The NT part was replaced on 2026-11-06 (HUMAN.md decision 15): the NT base was Castellio's 1556 edition, with Wikisource as the working text. Later the same day (decision 24) it moved to the posthumous 1573 Basel edition (Perna, “from his last revision”; MDZ bsb10141277), the 1556 text revised further; 1556 stays the reference, its differing readings recorded as variants.* Other printings' differing readings are recorded as variants. Wording in the finished chapters (from 1726–27) that differs is proposed for review, never changed automatically.
