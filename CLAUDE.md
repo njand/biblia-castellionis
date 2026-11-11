@@ -101,4 +101,7 @@ cd scripts && python latex_converter.py      # legacy: LaTeX → TXT/HTML (until
 - **WordPress (2019)**: Gospels and Genesis 1–35, macronized: Nathan's earlier macron decisions.
 - **archive.org OCR**: 1681, 1715, 1747, 1758 NT; 1738 OT; 1750 Bible.
 - **Parallel**: KJV (versification), BSB (paragraphs, poetry `\q1/\q2`, quotation marks; see the `layout` column),
-  WEB, Clementine Vulgate, SBLGNT, OSHB — parsed into `sources/parallel/<key>/<osis>.tsv`.
+  WEB, Clementine Vulgate, WLC (Hebrew), Textus Receptus (`tr`), Brenton's Greek Septuagint (`lxx`), SBLGNT, OSHB —
+  parsed into `sources/parallel/<key>/<osis>.tsv`. The site offers the public-domain ones beside the Latin
+  (`site.REFERENCES`), moved to the KJV's numbering by `data/versification/<key>.map.tsv` (`parallel.aligned`;
+  a text with a map is shown only for the books its map lists as checked).

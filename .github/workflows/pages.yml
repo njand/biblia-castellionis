@@ -4,7 +4,7 @@ name: Pages
 on:
   push:
     branches: [main]
-    paths: ["text/**", "pipeline/**", "data/witnesses/wikisource/MANIFEST.tsv", "LaTeX/title.tex", ".github/workflows/pages.yml"]
+    paths: ["text/**", "pipeline/**", "data/versification/**", "data/witnesses/wikisource/MANIFEST.tsv", "LaTeX/title.tex", ".github/workflows/pages.yml"]
     tags: ["v*"]                               # a release (a release made by release.yml's token triggers nothing)
   workflow_dispatch:
 
@@ -27,8 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Fetch the BSB (the English column)
-        run: python -m pipeline fetch parallel bsb
+      - name: Fetch the texts offered beside the Latin (eBible.org, public domain)
+        run: python -m pipeline fetch parallel kjv bsb web wlc tr lxx vulgate
       - name: Build the site
         run: |
           version="$(git describe --tags --abbrev=0 2>/dev/null || true)"

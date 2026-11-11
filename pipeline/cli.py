@@ -3,7 +3,8 @@
   fetch wikisource [BOOK…]      Wikisource transcription → data/witnesses/wikisource/<osis>.tsv
   fetch wordpress [BOOK…]       2019 WordPress edition → data/witnesses/wordpress/<osis>.tsv
   fetch archive [KEY…] [--hocr] archive.org OCR of each edition → sources/archive/<key>/
-  fetch parallel [KEY…]         KJV, BSB, WEB, Vulgate (+ SBLGNT, OSHB) → sources/parallel/; KJV versification
+  fetch parallel [KEY…]         KJV, BSB, WEB, Vulgate, WLC, TR, LXX (+ SBLGNT, OSHB) → sources/parallel/;
+                                KJV versification; the WLC's verse map (from the OSHB)
   fetch all                     all of the above (without hOCR)
   ledger refresh                rebuild data/status.tsv from the repo and the witnesses
   ledger set CHAPTER… --stage S [--note TEXT]
@@ -29,7 +30,7 @@
                                 calls made by reading) → data/review/<osis>F-L-chNN.md and text/draft/<USFM>.preview.usfm
   build [BOOK…]                 stage 7: text/*.usfm → build/ (website, EPUB with and without macrons, PDF via generated
                                 LaTeX, TXT/TSV/JSON); every book with a USFM master if none is named. --only FORMAT…,
-                                --english KEY|none, --sources DIR (for sources/parallel), --version LABEL, --no-compile
+                                --parallel KEY,…|none, --sources DIR (for sources/parallel), --version LABEL, --no-compile
   rules [BOOK…]                 learn spelling rules, Wikisource vs the gold → data/rules/orthography.tsv (proposed),
                                 data/rules/REVIEW.md, data/calibration/wikisource.tsv
 
@@ -102,6 +103,9 @@ def fetch_parallel(keys, refresh):
     if any(text.key == "kjv" for text in selected):
         rows = parallel.write_kjv_versification()
         print(f"versification: {len(rows)} chapters, {sum(r[2] for r in rows)} verses → data/versification/kjv.tsv")
+    if any(text.key == "oshb" for text in selected):
+        rows = parallel.write_wlc_map()
+        print(f"versification: {len(rows)} WLC ranges numbered otherwise → data/versification/wlc.map.tsv")
 
 
 def migrate(names):
@@ -268,7 +272,9 @@ def main(argv):
     bld = sub.add_parser("build", help="stage 7: every published format from text/*.usfm into build/")
     bld.add_argument("names", nargs="*")
     bld.add_argument("--only", nargs="+", choices=["site", "epub", "pdf", "txt"], default=["site", "epub", "pdf", "txt"])
-    bld.add_argument("--english", default="bsb", help="parallel English column on the website (bsb, kjv, web, none)")
+    bld.add_argument("--parallel", default="all",
+                     help="texts offered beside the Latin on the website: all (default), none, or keys of site.REFERENCES "
+                          "(kjv,bsb,web,orig,lxx,vulgate)")
     bld.add_argument("--sources", help="the folder holding parallel/<key>/<osis>.tsv (default: sources/)")
     bld.add_argument("--version", default="", help="edition label printed on the title pages, e.g. v1.0")
     bld.add_argument("--out", help="write here instead of build/")
@@ -290,7 +296,8 @@ def main(argv):
             ledger.refresh()
     elif args.command == "build":
         made = publish.build(args.names, pathlib.Path(args.out) if args.out else None,
-                             None if args.english == "none" else args.english,
+                             (None if args.parallel == "all" else () if args.parallel == "none"
+                              else tuple(args.parallel.split(","))),
                              pathlib.Path(args.sources) if args.sources else None, args.version, args.only,
                              not args.no_compile)
         for kind, items in made.items():

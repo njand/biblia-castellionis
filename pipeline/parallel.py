@@ -25,11 +25,15 @@ TEXTS = [
     Text("bsb", "https://ebible.org/Scriptures/engbsb_usfm.zip", True, "Berean Standard Bible; public domain; paragraphs, poetry, quotation marks"),
     Text("web", "https://ebible.org/Scriptures/eng-web_usfm.zip", True, "World English Bible; public domain"),
     Text("vulgate", "https://ebible.org/Scriptures/latVUC_usfm.zip", True, "Vulgata Clementina; public domain"),
+    Text("wlc", "https://ebible.org/Scriptures/hboWLC_usfm.zip", True, "Westminster Leningrad Codex (Hebrew OT); text public domain (its lemma/morphology attributes, CC BY-SA, are dropped)"),
+    Text("tr", "https://ebible.org/Scriptures/grctr_usfm.zip", True, "Greek Textus Receptus (Stephanus 1550, Elzevir 1624, Scrivener 1881 collated); public domain"),
+    Text("lxx", "https://ebible.org/Scriptures/grcbrent_usfm.zip", True, "Septuagint, the Greek text of Brenton's edition (1851); public domain"),
     Text("sblgnt", "https://github.com/LogosBible/SBLGNT/archive/refs/heads/master.zip", False, "SBL Greek New Testament; CC BY 4.0"),
     Text("oshb", "https://github.com/openscriptures/morphhb/archive/refs/heads/master.zip", False, "Open Scriptures Hebrew Bible (WLC + morphology); CC BY 4.0"),
 ]
 
 BY_KEY = {text.key: text for text in TEXTS}
+_ORDER = {book.osis: n for n, book in enumerate(books.BOOKS)}
 
 LAYOUT = {"p", "m", "pi", "pi1", "pi2", "mi", "nb", "pc", "q", "q1", "q2", "q3", "qc", "qr", "qm", "b", "li", "li1", "li2", "d"}
 LAYOUT_SPLIT = re.compile(r"\s*\\(" + "|".join(sorted(LAYOUT, key=len, reverse=True)) + r")\b\s*")
@@ -132,6 +136,105 @@ def write_kjv_versification():
         out += [(book.osis, chapter, verses) for chapter, verses in sorted(counts.items())]
     tsv.write(paths.VERSIFICATION / "kjv.tsv", out, header=("book", "chapter", "verses"))
     return out
+
+
+# ---------------------------------------------------------------- other numberings → the KJV's
+
+def write_wlc_map():
+    """data/versification/wlc.map.tsv from the OSHB's wlc/VerseMap.xml (the WLC's verses that the KJV numbers
+    differently), runs of the same shift written as one range. Returns the rows, or [] without the OSHB."""
+    import xml.etree.ElementTree as ET
+    found = sorted((paths.SOURCES / "parallel" / "oshb" / "files").rglob("VerseMap.xml"))
+    if not found:
+        return []
+    # a verse divided between two ("Ps.13.6!a") goes whole to the KJV verse its first part is in
+    pairs = {}
+    for book in ET.parse(found[0]).getroot():
+        for v in book:
+            pairs.setdefault(tsv.parse_id(v.get("wlc").split("!")[0]), tsv.parse_id(v.get("kjv").split("!")[0]))
+    pairs = sorted(pairs.items(), key=lambda pair: (_ORDER.get(pair[0][0], 999),) + pair[0][1:])
+    rows, run = [], None
+    for (book, c, v), (kbook, kc, kv) in pairs:
+        if run and [book, c, kbook, kc, kv - v] == run[:2] + run[4:7] and v == run[3] + 1:
+            run[3] = v
+            continue
+        if run:
+            rows.append(run)
+        run = [book, c, v, v, kbook, kc, kv - v]
+    if run:
+        rows.append(run)
+    out = [(f"{b}.{c}.{v1}" + (f"-{v2}" if v2 != v1 else ""), f"{kb}.{kc}.{v1 + shift}",
+            "OSHB VerseMap (CC BY 4.0)") for b, c, v1, v2, kb, kc, shift in rows]
+    books_seen = list(dict.fromkeys(b.osis for b in books.BOOKS if b.testament == "vetus" and not b.apocrypha))
+    header = [(b, "=", "numbering as the KJV except the rows below") for b in books_seen]
+    tsv.write(paths.VERSIFICATION / "wlc.map.tsv", header + out, header=("source", "target", "note"))
+    return out
+
+
+def _parse_ref(text):
+    """'Mark.9.1-49' → ('Mark', 9, 1, 49); 'Exod.36-39' → ('Exod', 36, None, 39) (whole chapters)."""
+    book, _, rest = text.partition(".")
+    if rest.count(".") == 0:
+        first, _, last = rest.partition("-")
+        return book, int(first), None, int(last or first)
+    chapter, _, verses = rest.partition(".")
+    first, _, last = verses.partition("-")
+    return book, int(chapter), int(first), int(last or first)
+
+
+def verse_map(key):
+    """The rows of data/versification/<key>.map.tsv as ({book: note} of books checked against the KJV,
+    [(book, chapter, first, last, target book, target chapter, target first)], {(book, chapter): (note, first verse,
+    last verse)} of the verses that cannot be aligned: a target `-`; `Exod.37-39` names whole chapters, `Exod.36.8-38`
+    verses). None when the text has no map (it is numbered as the KJV throughout)."""
+    path = paths.VERSIFICATION / f"{key}.map.tsv"
+    if not path.exists():
+        return None
+    checked, shifts, unaligned = {}, [], {}
+    for row in tsv.read(path):
+        source, target = row["source"], row["target"]
+        if target == "=":
+            checked[source] = row["note"]
+            continue
+        book, chapter, first, last = _parse_ref(source)
+        if target == "-":
+            if first is None:
+                for c in range(chapter, last + 1):
+                    unaligned[(book, c)] = (row["note"], 1, 999)
+            else:
+                unaligned[(book, chapter)] = (row["note"], first, last)
+            continue
+        tbook, tchapter, tfirst, _ = _parse_ref(target)
+        shifts.append((book, chapter, first, last, tbook, tchapter, tfirst))
+    return checked, shifts, unaligned
+
+
+def aligned(key, osis, sources=None):
+    """A parallel text's verses of one book in the KJV's numbering: ({kjv id: text}, {chapter: note} where verses are
+    left out as not aligned), or None when the text is not at hand or its numbering is unchecked for this book."""
+    path = (sources or paths.SOURCES) / "parallel" / key / f"{osis}.tsv"
+    if not path.exists():
+        return None
+    rows = [(row["id"], row["text"]) for row in tsv.read(path)]
+    mapping = verse_map(key)
+    if mapping is None:
+        return dict(rows), {}
+    checked, shifts, unaligned = mapping
+    if osis not in checked:
+        return None
+    out = {}
+    for vid, text in rows:
+        book, chapter, verse = tsv.parse_id(vid)
+        gap = unaligned.get((book, chapter))
+        if gap and gap[1] <= verse <= gap[2]:
+            continue
+        for sbook, sc, first, last, tbook, tc, tfirst in shifts:
+            if (sbook, sc) == (book, chapter) and first <= verse <= last:
+                vid = tsv.verse_id(tbook, tc, tfirst + verse - first)
+                break
+        out[vid] = f"{out[vid]} {text}" if vid in out else text       # two verses joined in the KJV
+    gaps = {c: note for (book, c), (note, _, _) in unaligned.items() if book == osis}
+    return out, gaps
 
 
 def kjv_counts():

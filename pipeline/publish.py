@@ -306,7 +306,7 @@ def write_text(selected, folder, stem, title):
 
 # ---------------------------------------------------------------- everything
 
-def build(names=(), out=None, english="bsb", sources=None, version="", formats=("site", "epub", "pdf", "txt"),
+def build(names=(), out=None, references=None, sources=None, version="", formats=("site", "epub", "pdf", "txt"),
           compile_pdf=True):
     """Generate the selected formats into build/ (or `out`). Returns {format: [paths or messages]}."""
     from pipeline import epub, pdf, site
@@ -324,5 +324,6 @@ def build(names=(), out=None, english="bsb", sources=None, version="", formats=(
     if "pdf" in formats:
         made["pdf"] = pdf.write(selected, out / "pdf", stem, title, version, compile_pdf)
     if "site" in formats:
-        made["site"] = site.write(selected, out / "site", title, version, english, sources)
+        made["site"] = site.write(selected, out / "site", title, version,
+                                   tuple(site.BY_REF) if references is None else references, sources)
     return made

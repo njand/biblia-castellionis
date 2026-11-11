@@ -172,7 +172,7 @@ class Build(unittest.TestCase):
     def test_build_mark(self):
         with tempfile.TemporaryDirectory() as folder:
             out = pathlib.Path(folder)
-            made = publish.build(["Mark"], out, english=None, version="test", compile_pdf=False)
+            made = publish.build(["Mark"], out, references=(), version="test", compile_pdf=False)
             self.assertEqual(set(made), {"site", "epub", "pdf", "txt"})
             mark = publish.load(["Mark"])[0]
             verses = publish.verses(mark)
