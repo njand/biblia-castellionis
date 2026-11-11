@@ -66,11 +66,10 @@
 
 ## Decisions waiting
 
-- **Waiting on you: *quandōquidem*** (2026-11-10). Researched at your request: `data/review/quandoquidem.md`. The
-  verse decides it: in every dactylic line in the corpus (Lucretius 18×, Catullus, Vergil, Ovid, Manilius, Juvenal)
-  only a short o scans; the long ō is the etymological *quandō* + *quidem*, the short one the fused word, as *sĭquidem*,
-  *tŭquidem* (Wiktionary, citing Fortson 2008). Recommended: *quandoquidem* (o unmarked) in the 21 settled places, as
-  Gaffiot 2016. Your Decision line there; nothing applied.
+- ***quandoquidem* applied** (2026-11-11; decision 40): the o unmarked in the 21 settled places (Matt 3, Mark 1,
+  Luke 5, John 4, Acts 1, Rom 1, 1 Cor 3, 2 Cor 3), by the Apply lines of `data/review/quandoquidem.md`; gold
+  rebuilt, so new drafts take *quandoquidem* from the settled forms. Not yet in a release or on the site (both
+  follow the next push to `main` or tag).
 - **v1.0 released, and the website on GitHub Pages** (2026-11-10; decision 39): the colophon of every format now says
   *Edited by Nathan Anderson* (and the EPUB names you as editor in its metadata); `.github/workflows/pages.yml` builds
   the site on every push to `main` and on each release; `.github/workflows/release.yml` builds every format when a tag
@@ -206,6 +205,7 @@
 | 37 | 2026-11-10 | **The open questions for the whole edition, as recommended** (`data/review/edition-fixes.md`, 462 changes, applied). Spelling: *causa* (Cicero 1,974 : *caussa* 3), *intelleg-* (157 : 35), *exsp-* kept, *temptō* (198 : 61; not *tentōrium*, nor John 20:23 *tenta*), *Jōhannēs* in Acts as in the Gospels; *ad-* assimilated as in your own chapters (*allocūtus* 54 : 0, *ascendō* 30 : 0), except compounds of *sum* (*adsunt*, *adsit*, *adfuit*), *adnūntiō* and the names. Macrons by Gaffiot: *vēsc-*, *īnfēst-*, *custōs*, *lōcusta*, *narrō*, *Ādamus*; *Rāchēl* as its other cases (16 nominatives, not the one counted earlier); *obdormiērunt* (third plural by verb, decision 19); Romans *Quīn etiam*, *perēmptī*, *īnsitīciī*. Hebrew names marked only where Gaffiot or a Latin source gives the length. Kept as settled: Acts 28:26's three levels of quotation marks, *Saūlem*. Layout: a letter's subscription set apart as `\cls` (Rom 16:27, 1 Cor 16:24, and the letters to come); the BSB's ordinary paragraph breaks taken where the Latin allows, as in 1 Corinthians; Romans given 23 to match (`rom-paragraphs.md`, accepted). README: the NT base is 1573. |
 | 38 | 2026-11-10 | **2 Corinthians 1–13 approved for now.** Stages 1–5 (45 stage-2 corrections against 1573 read on the page images, 1 found by the f/s sweep: 4:4 *infidentium*; 2 at 2:13 in verses 1573's OCR had not aligned; 2 versification edits, 13:13 split from 13:12 and 7:16 from 7:15; 45 layout lines, 254 forms; the subscription as `\cls`) settled in `text/2CO.usfm`. With it: `verses.lower_start` keeps *Deus* capital at a verse start (with a test). Your in-depth review follows decision 30. |
 | 39 | 2026-11-10 | **Named words in quotation marks; the collation's coverage check; the editor named; v1.0 and Pages.** Words named rather than spoken take quotation marks, as modern editions do (2 Cor 1:17–20 *“etiam”*, *“nōn”*, *“ita”*; already so in your Matt 5:37 and 1 Cor 14:16). `collate` now lists the verses the base witness covers under 60% (kind `uncovered`), to be read by hand. Every colophon says *Edited by Nathan Anderson*. The release is tagged v1.0 and the website is published with GitHub Pages (workflows in `.github/workflows/`). |
+| 40 | 2026-11-11 | ***quandoquidem*, the o unmarked.** The attested classical quantity is short (every dactylic line: Lucretius, Catullus, Vergil, Ovid, Manilius, Juvenal); the long ō is the etymological *quandō* + *quidem*. As Gaffiot 2016. Applied to the 21 settled places (`data/review/quandoquidem.md`). *sīquidem* stays as Gaffiot heads it. |
 
 ## How to run
 
