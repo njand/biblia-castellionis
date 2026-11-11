@@ -72,6 +72,11 @@
 
 ## Decisions waiting
 
+- **Downloads on the site** (2026-11-11): the home page lists the EPUBs, PDF, plain text and data, rebuilt with
+  every push (the Pages workflow now installs Tectonic and builds every format), and every page's footer links
+  there. An untagged build is labelled with the last tag and the date ("v1.0+ (2026-11-11)"), since v1.0's
+  release predates decisions 40–42. The release workflow fetches all the parallel texts for its copy of the site.
+  The Vulgate's numbering is checked for the whole New Testament (Rev 12:18 → 13:1 the one shift).
 - **Legacy files removed** (2026-11-11; decision 13 carried out): `LaTeX/biblia/` (the pre-migration Genesis and
   Gospels, out of date since decisions 40–42), `HTML/`, `EPUB/`, `TXT/4 - Macronized` and
   `scripts/latex_converter.py`, all in git history; `pipeline migrate` retired. `LaTeX/main.tex` and `title.tex`

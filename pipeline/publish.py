@@ -13,6 +13,7 @@ in build/ is edited by hand: change the USFM and rebuild."""
 
 import datetime
 import json
+import pathlib
 import re
 import unicodedata
 from dataclasses import dataclass, field
@@ -349,6 +350,10 @@ def build(names=(), out=None, references=None, sources=None, version="", formats
     if "pdf" in formats:
         made["pdf"] = pdf.write(selected, out / "pdf", stem, title, version, compile_pdf)
     if "site" in formats:
+        # the other formats built with it are offered on the site (build/site/downloads/)
+        files = [item for kind in ("epub", "pdf", "txt") for item in made.get(kind, [])
+                 if isinstance(item, pathlib.Path) and item.suffix in (".epub", ".pdf", ".txt", ".tsv", ".json")
+                 and item.exists()]
         made["site"] = site.write(selected, out / "site", title, version,
-                                   tuple(site.BY_REF) if references is None else references, sources)
+                                   tuple(site.BY_REF) if references is None else references, sources, files)
     return made

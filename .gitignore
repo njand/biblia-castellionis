@@ -2,3 +2,4 @@ sources/
 __pycache__/
 *.pyc
 build/
+.claude/

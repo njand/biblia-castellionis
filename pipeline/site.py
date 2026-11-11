@@ -6,6 +6,7 @@
                                 a switch to hide the macrons, a light/dark switch, and a menu of the parallel texts
                                 at hand (REFERENCES; sources/parallel/<key>/), one shown beside the Latin verse by
                                 verse, in the KJV's numbering (parallel.aligned)
+  downloads/                    the EPUBs, PDF and text built with the site, listed on index.html#downloads
   search.html, search.json      the search page (words, phrases, or a reference) and every verse's text
   colophon.html                 licence and credits (Wikisource pages and revisions, texts, fonts)
   style.css, app.js, books.js   books.js: the books and chapters, for the jump menu and references
@@ -239,6 +240,15 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
 .colophon p { margin: .6em 0; }
 .colophon ul { padding-left: 1.2em; }
 .print-only { display: none; }
+.downloads { border: 1px solid var(--rule); border-radius: 6px; padding: .2rem 1rem .7rem; margin: 1.5rem 0 1rem;
+  background: var(--panel); font-size: .9rem; }
+.downloads h2 { margin: .6rem 0 .4rem; }
+.downloads ul { list-style: none; padding: 0; margin: 0; display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: .5rem 1.25rem; }
+.downloads li { line-height: 1.45; }
+.downloads .what, .downloads .size, .downloads p { color: var(--muted); font-size: .85em; }
+.downloads li a { text-decoration: none; }
+.downloads p { margin: .6rem 0 0; }
 @media (max-width: 600px) {
   body { font-size: calc(18px * var(--scale)); }
   header.bar { position: static; }
@@ -594,7 +604,7 @@ def page(title, body, root, bar="", tools="", main_class="", description="", dat
 <main class="{main_class}">
 {body}
 </main>
-<footer><a href="{root}colophon.html">Colophon, licence and credits</a> · CC BY-SA 4.0 · <a href="{publish.REPOSITORY}">{publish.REPOSITORY.removeprefix('https://')}</a></footer>
+<footer>{f'<a href="{root}index.html#downloads">Downloads (EPUB, PDF, text)</a> · ' if HAS_DOWNLOADS else ''}<a href="{root}colophon.html">Colophon, licence and credits</a> · CC BY-SA 4.0 · <a href="{publish.REPOSITORY}">{publish.REPOSITORY.removeprefix('https://')}</a></footer>
 <script src="{root}books.js"></script>
 <script src="{root}app.js"></script>
 </body>
@@ -695,11 +705,55 @@ quotation marks. A reference (<i>Gn 1,3</i>, <i>Mt 5,3-12</i>, <i>2Cor 2</i>, <i
 </div>"""
 
 
-def write(selected, folder, title, version, references=tuple(BY_REF), sources=None):
-    """Write the site; returns [folder, messages…]. `references` are the keys of REFERENCES to offer."""
+HAS_DOWNLOADS = False           # set by write: whether the footer links to the downloads
+
+# The home page's downloads, a row per format: (format, what it is for, [(end of the file name, link label)]).
+# The stem of the names varies with the books built; a plain ending (".epub") passes over the -sine-macronibus files.
+DOWNLOADS = [
+    ("EPUB", "for e-readers and phones", [(".epub", "with macrons"), ("-sine-macronibus.epub", "without")]),
+    ("PDF", "A5, to read on a screen or print", [(".pdf", "PDF")]),
+    ("Plain text", "", [(".txt", "with macrons"), ("-sine-macronibus.txt", "without")]),
+    ("Data", "one row per verse", [(".tsv", "TSV"), (".json", "JSON")]),
+]
+
+
+def downloads_html(files):
+    """The home page's list of the files in downloads/: [(name, bytes)]. A format with no file built is left out."""
+    if not files:
+        return ""
+
+    def find(end):
+        plain = not end.startswith("-")
+        return next(((name, size) for name, size in files
+                     if name.endswith(end) and not (plain and "-sine-macronibus" in name)), None)
+
+    rows = []
+    for kind, what, variants in DOWNLOADS:
+        links = [f'<a href="downloads/{html.escape(found[0])}" download>{esc(label)}</a> '
+                 f'<span class="size">{found[1] / 1_000_000:.1f} MB</span>'
+                 for end, label in variants if (found := find(end))]
+        if links:
+            note = f' <span class="what">{esc(what)}</span>' if what else ""
+            rows.append(f'<li><b>{esc(kind)}</b>{note}<br/>{" · ".join(links)}</li>')
+    return (f'<section class="downloads" id="downloads" lang="en"><h2>Downloads</h2><ul>{"".join(rows)}</ul>'
+            f'<p>Made from the same text as these pages, and updated with them. Dated editions: '
+            f'<a href="{publish.REPOSITORY}/releases">releases</a>.</p></section>\n')
+
+
+def write(selected, folder, title, version, references=tuple(BY_REF), sources=None, downloads=()):
+    """Write the site; returns [folder, messages…]. `references` are the keys of REFERENCES to offer;
+    `downloads` the files built with it (EPUB, PDF, text), copied to downloads/ and listed on the home page."""
+    global HAS_DOWNLOADS
     if folder.exists():
         shutil.rmtree(folder)
     folder.mkdir(parents=True)
+    files = []
+    if downloads:
+        (folder / "downloads").mkdir()
+        for path in downloads:
+            shutil.copy2(path, folder / "downloads" / path.name)
+            files.append((path.name, path.stat().st_size))
+    HAS_DOWNLOADS = bool(files)
     (folder / "style.css").write_text(CSS, encoding="utf-8", newline="\n")
     (folder / "app.js").write_text(JS, encoding="utf-8", newline="\n")
     (folder / "books.js").write_text(books_js(selected), encoding="utf-8", newline="\n")
@@ -764,7 +818,7 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
                          f'{chapter_grid(book, book.slug + "/")}' for book in selected)
     edition = f"<br/><small>{esc(version)}</small>" if version else ""
     home = (f"<h1>Biblia Sacra<small>ex Sebastiānī Castelliōnis interpretātiōne</small></h1>\n"
-            f'<p style="text-align:center">{esc(title)}{edition}</p>\n{sections}')
+            f'<p style="text-align:center">{esc(title)}{edition}</p>\n{downloads_html(files)}{sections}')
     (folder / "index.html").write_text(page("Biblia Sacra ex Sebastiani Castellionis interpretatione", home, ""),
                                        encoding="utf-8", newline="\n")
     (folder / "search.html").write_text(page("Quærere · Biblia Sacra (Castellio)", SEARCH, "", " › Quærere"),

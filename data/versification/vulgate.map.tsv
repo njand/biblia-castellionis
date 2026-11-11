@@ -13,6 +13,21 @@ Gal	=	checked against the KJV 2026-11-11 (verse counts and verse lengths; no dif
 Eph	=	checked against the KJV 2026-11-11 (verse counts and verse lengths; no differences)
 Phil	=	checked against the KJV 2026-11-11 (verse counts and verse lengths; no differences)
 Col	=	checked against the KJV 2026-11-11 (verse counts and verse lengths; no differences)
+1Thess	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+2Thess	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+1Tim	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+2Tim	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+Titus	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+Phlm	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+Heb	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+Jas	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+1Pet	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+2Pet	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+1John	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+2John	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+3John	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+Jude	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
+Rev	=	checked against the KJV 2026-11-11 (verse counts and verse lengths)
 Gen.49.32	Gen.49.33	Vulgate 49:31 holds KJV 49:31-32
 Gen.50.23-25	Gen.50.24	Vulgate 50:22 holds KJV 50:22-23
 Exod.39	-	the Vulgate divides Exodus 39 differently (shorter account); not aligned verse by verse
@@ -25,3 +40,4 @@ John.6.53-72	John.6.52	Vulgate 6:51-52 = KJV 6:51
 Acts.7.56-59	Acts.7.57	Vulgate 7:55 holds KJV 7:55-56
 Acts.14.7-27	Acts.14.8	Vulgate 14:6 holds KJV 14:6-7
 2Cor.13.13	2Cor.13.14	Vulgate 13:12 holds KJV 13:12-13
+Rev.12.18	Rev.13.1	Vulgate 12:18 (Et stetit supra arenam maris) opens KJV 13:1

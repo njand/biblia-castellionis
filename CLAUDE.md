@@ -40,7 +40,7 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | `data/calibration/scans.md` | The editions compared (1551, 1554, 1556, 1573, 1745, 1758, 1760) and where their scans are; the evidence for the 1573 NT base |
 | `data/calibration/wikisource.tsv` | Every difference between Wikisource and the gold, sorted by kind (`python -m pipeline rules`) |
 | `data/gold/<osis>.tsv` | The settled chapters per verse (`id text marks layout`), rebuilt from `text/` by `python -m pipeline gold`; the harness's answer key |
-| `build/` | Generated outputs (website, EPUBs, PDF, TXT/TSV); git-ignored; published via GitHub releases and Pages (`.github/workflows/`: `pages.yml` on every push to main, `release.yml` on a tag `v*`, notes in `RELEASE.md`) |
+| `build/` | Generated outputs (website, EPUBs, PDF, TXT/TSV); git-ignored; the site offers the others it was built with (`build/site/downloads/`, listed on its home page); published via GitHub releases and Pages (`.github/workflows/`: `pages.yml` on every push to main, `release.yml` on a tag `v*`, notes in `RELEASE.md`) |
 | `pipeline/templates/preamble.tex`, `title.tex` | The print PDF's preamble and title page (the former `LaTeX/main.tex`); `pipeline/pdf.py` adds the body from the USFM. The legacy LaTeX book files, `HTML/`, `EPUB/`, `TXT/4` and `scripts/latex_converter.py` were removed 2026-11-11 (decision 13; in git history) |
 | `pipeline/fonts/` | The website's fonts (Gentium Book and Ezra SIL, subset and renamed under the OFL; `README.md` there) |
 | `TXT/1 - OCR`, `TXT/2 - Post-Corrected`, `TXT/3 - Edited` | Earlier manual stages of the 1726–27 edition (Google Books OCR; corrected; edited): now witnesses, read by `align` and `collate` |

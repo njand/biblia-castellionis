@@ -203,6 +203,12 @@ class Build(unittest.TestCase):
             self.assertIn('id="20" href="#20"', sixteen)
             self.assertIn('rel="prev" href="15.html"', sixteen)
             self.assertIn("oldid=", (out / "site" / "colophon.html").read_text(encoding="utf-8"))
+            # the downloads built with the site are copied and listed (no PDF: the LaTeX was not compiled)
+            self.assertTrue((out / "site" / "downloads" / f"{stem}.epub").exists())
+            home = (out / "site" / "index.html").read_text(encoding="utf-8")
+            self.assertIn(f'href="downloads/{stem}-sine-macronibus.epub"', home)
+            self.assertNotIn("<b>PDF</b>", home)
+            self.assertIn("index.html#downloads", sixteen)
 
 
 if __name__ == "__main__":

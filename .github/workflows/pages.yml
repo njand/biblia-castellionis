@@ -27,12 +27,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install Tectonic (for the PDF offered on the site)
+        run: |
+          curl -fsSL -o tectonic.tar.gz \
+            "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
+          mkdir -p "$HOME/bin" && tar -xzf tectonic.tar.gz -C "$HOME/bin"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
       - name: Fetch the texts offered beside the Latin (eBible.org, public domain)
         run: python -m pipeline fetch parallel kjv bsb web wlc tr lxx vulgate
-      - name: Build the site
+      - name: Build the site and the downloads (EPUB, PDF, text) it offers
         run: |
-          version="$(git describe --tags --abbrev=0 2>/dev/null || true)"
-          python -m pipeline build --only site --version "$version"
+          # a tag's own build is that edition; any later one says so ("v1.0+ (2026-11-11)")
+          tag="$(git describe --tags --abbrev=0 2>/dev/null || true)"
+          if [ -n "$tag" ] && [ "$(git rev-list -n 1 "$tag")" = "$(git rev-parse HEAD)" ]; then version="$tag"
+          else version="${tag:+$tag+ }($(git log -1 --format=%cs))"; fi
+          python -m pipeline build --version "$version"
+          ls -l build/site/downloads
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

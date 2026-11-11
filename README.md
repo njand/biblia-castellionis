@@ -1,5 +1,7 @@
 # Biblia Sacra ex Sebastiani Castellionis Interpretatione
 
+**Read it online:** [njand.github.io/biblia-castellionis](https://njand.github.io/biblia-castellionis/), with the [downloads](https://njand.github.io/biblia-castellionis/#downloads) (EPUB with and without macrons, PDF, plain text, data) kept current with the site. Dated editions are the [releases](https://github.com/njand/biblia-castellionis/releases).
+
 This project aims to digitally transcribe Sebastian Castellio's Latin translation of the Bible. The text has been updated to adhere to modern Latin orthographic standards in accordance with the 2016 edition of the Gaffiot Latin dictionary, including the use of macrons to distinguish between long and short vowels. Each directory contains the files in a specified format, such as EPUB or LaTeX.
 
 ## Project Goals
