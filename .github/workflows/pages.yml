@@ -1,12 +1,11 @@
-# The website (build/site) from text/*.usfm, published to GitHub Pages on every push to main and on each release.
+# The website (build/site) from text/*.usfm, published to GitHub Pages on every push to main and each v* tag.
 name: Pages
 
 on:
   push:
     branches: [main]
     paths: ["text/**", "pipeline/**", "data/witnesses/wikisource/MANIFEST.tsv", "LaTeX/title.tex", ".github/workflows/pages.yml"]
-  release:
-    types: [published]
+    tags: ["v*"]                               # a release (a release made by release.yml's token triggers nothing)
   workflow_dispatch:
 
 permissions:
