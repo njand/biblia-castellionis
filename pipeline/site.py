@@ -167,6 +167,8 @@ header.bar { position: sticky; top: 0; z-index: 2; background: var(--bg); border
   justify-content: space-between; font-size: 15px; }
 header.bar nav a { text-decoration: none; }
 header.bar .tools, header.bar .jump { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.parallel-choice { display: inline-flex; align-items: center; gap: .3rem; }
+.parallel-choice label { font-size: 13px; color: var(--muted); }
 button, select, input { font: inherit; font-size: 13px; color: var(--fg); background: var(--panel);
   border: 1px solid var(--rule); border-radius: 4px; padding: .2rem .5rem; }
 button, select { cursor: pointer; }
@@ -254,7 +256,7 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
   header.bar { position: static; }
   header.bar { padding: .4rem .75rem; gap: .35rem .5rem; }
   input[type="search"] { width: 6.5rem; }
-  #ref { max-width: 10.5rem; }
+  #ref { max-width: 7.5rem; }
   #theme .label { display: none; }
   #verse-bar { bottom: .5rem; font-size: 13px; gap: .35rem; }
   .chapter p { text-align: left; }
@@ -793,8 +795,9 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
             body += ['<div class="chapter parallel-view">', parallel_html(book, chapter, refs), "</div>"]
             options = "".join(f'<option value="{ref.key}">{esc(ref.menu(book.info.testament))}</option>'
                               for ref, *_ in refs)
-            tools = (f'<select id="ref" aria-label="Text beside the Latin" title="Text beside the Latin">'
-                     f'<option value="">Latin only</option>{options}</select>')
+            tools = (f'<span class="parallel-choice"><label for="ref">Parallel:</label>'
+                     f'<select id="ref" title="A text shown beside this one, verse by verse">'
+                     f'<option value="">None</option>{options}</select></span>')
         body.append(f'<nav class="pager">{"".join(pager)}</nav>')
         body.append(f'<p class="print-only">{esc(book.long)}, caput {chapter.number} · Biblia Sacra ex Sebastiānī '
                     f'Castelliōnis interpretātiōne{f" ({esc(version)})" if version else ""} · '
