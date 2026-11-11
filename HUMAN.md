@@ -18,11 +18,14 @@
     folder: install it (or TeX Live) to rebuild the PDF.
   - **The site:** `python -m http.server 8765 --directory build/site`, then `localhost:8765/matthaeus/21.html#16`.
     It has a macron switch (ā / a), a light/dark switch (Auto → Light → Dark) and a menu of texts to show beside
-    the Latin verse by verse: KJV (1769), BSB, WEB, Hebrew / Greek (WLC; Textus Receptus), Septuagint (Brenton's
-    Greek), Vulgate (Clementine), all public domain from eBible.org, moved to the KJV's numbering by
-    `data/versification/<key>.map.tsv` (2026-11-11; `--parallel kjv,bsb,…|none`; `--sources ../sources` from a
-    worktree). It shows only the books built, so the v1.0 site has no Genesis: do you
-    want Genesis on the site from the start (it was on WordPress)?
+    the Latin verse by verse: KJV (1769), BSB, WEB, the Hebrew (WLC) or Greek (Textus Receptus) by testament,
+    Septuagint (Brenton's Greek), Vulgate (Clementine), all public domain from eBible.org, moved to the KJV's
+    numbering by `data/versification/<key>.map.tsv` (2026-11-11; `--parallel kjv,bsb,…|none`; `--sources
+    ../sources` from a worktree). Since 2026-11-11 also: one font on every device (Gentium Book and Ezra SIL,
+    subset into `pipeline/fonts/`), text-size buttons (A− A+), a book/chapter jump menu, a search page (words,
+    "a phrase", or a reference such as *Mt 5:3-12*; `search.json`), verse selection (click a verse number;
+    shift-click or "To verse…" for a range; the address takes `#3-7`, with a Copy link button) and a print
+    layout. It shows only the books built, so the v1.0 site has no Genesis: do you want Genesis on the site from the start (it was on WordPress)?
   - **Wording for you to settle:** the colophon (English; `publish.credits`) names no editor; it says the NT follows
     1573 with 1556 as the reference (decision 24), as `README.md` now does too (2026-11-10). The release title is
     *Ēvangelia* and the files are `castellio-evangelia*`; TXT chapters are headed "Matthæus 14".
@@ -69,6 +72,12 @@
 
 ## Decisions waiting
 
+- **Spellings the rules missed** (2026-11-11): `data/review/spelling-audit.md`, 96 places in five groups, each with
+  its own **Decision:** line. A (56): spellings already decided by the brief or approved rules but missed in other
+  forms (*cōnciōne*, *sobolem*, *mulctārī*, *conditiōne*, *sepulchrum*, *chāritās* …). B–E are judgments:
+  *cotīdiē* for *quotīdiē* (13), *cærimōnia* (3), *quotiēns* (6), *obœdiō* for *obēdiō* (18). Cause: word rules
+  reach only the forms they were learned from; the pipeline now also takes **stem** rules (23 rows added as
+  `proposed` in `orthography.tsv`).
 - ***cum* applied** (2026-11-11; decision 41): *quum*/*quumque* → *cum*/*cumque* in the 243 settled places (Gen
   28–50 47, Exod 57, Acts 70, Rom 27, 1 Cor 26, 2 Cor 16), by the Apply lines of `data/review/quum.md`; gold
   rebuilt; the rules `quum → cum`, `quumque → cumque` approved, so new drafts are normalized. Not yet in a release

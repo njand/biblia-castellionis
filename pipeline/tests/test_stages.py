@@ -97,6 +97,12 @@ class Normalize(unittest.TestCase):
         found = [c[2] for c in normalize.changes("Maior serviet minori, Esaias in Achaia, plebeio", {}, [], {})]
         self.assertEqual(found, ["Major", "plebejo"])
 
+    def test_stem_rules_reach_every_form(self):
+        # sobol → subol covers sobolem and Sobolēs; a word rule wins over a stem rule.
+        words = normalize.WordRules({"sobolis": ("sobolis", "kept")}, [("sobol", "subol", "stem")])
+        found = [c[2] for c in normalize.changes("sobolem et Sobolēs sobolis", words, [], {})]
+        self.assertEqual(found, ["subolem", "Subolēs"])
+
 
 class Quotes(unittest.TestCase):
     def rows(self, *verses):

@@ -92,15 +92,42 @@ def anchored(span_text, start, end, new_text):
     return span_text[left:right], span_text[left:start] + new_text + span_text[end:right]
 
 
+class WordRules(dict):
+    """{old word: (new word, note)}, falling back on the stem rules: a word that begins with a stem rule's `old`
+    takes its `new` in its place (sobolem → subolem by `sobol → subol`), so a rule reaches every inflected form,
+    not only the forms it was learned from. A word rule wins over a stem rule; the longest stem wins."""
+
+    def __init__(self, words=(), stems=()):
+        super().__init__(words)
+        self.stems = sorted(stems, key=lambda stem: -len(stem[0]))
+
+    def _stem(self, key):
+        for old, new, note in self.stems:
+            if key.startswith(old):
+                return new + key[len(old):], note
+        return None
+
+    def __contains__(self, key):
+        return dict.__contains__(self, key) or self._stem(key) is not None
+
+    def __getitem__(self, key):
+        return dict.__getitem__(self, key) if dict.__contains__(self, key) else self._stem(key)
+
+    def get(self, key, default=None):
+        return self[key] if key in self else default
+
+
 def word_rules():
-    words, phrases = {}, []
+    words, stems, phrases = {}, [], []
     for row in rules.load_rules():
         old, new = rules.unligature(row["old"]).lower(), rules.unligature(row["new"]).lower()
         if row["scope"] == "word":
             words[old] = (new, row["note"])
+        elif row["scope"] == "stem":
+            stems.append((old, new, row["note"]))
         elif row["scope"] == "phrase":
             phrases.append((old.split(), new, row["note"]))
-    return words, phrases
+    return WordRules(words, stems), phrases
 
 
 # i before a vowel that stays a vowel: forms of eō and its compounds (iērunt, coiērunt, iit), and Greek names
