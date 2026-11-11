@@ -123,6 +123,17 @@ class Html(unittest.TestCase):
         self.assertNotIn("ā", markup)
 
 
+def open_braces_at_blocks(tex):
+    """[line numbers] where a paragraph break or a verse environment begins or ends inside an open {…}."""
+    depth, out = 0, []
+    for number, line in enumerate(tex.split("\n"), 1):
+        if depth and (not line.strip() or line.startswith(("\\begin{verse}", "\\end{verse}"))):
+            out.append(number)
+        clean = line.replace("\\{", "").replace("\\}", "")
+        depth += clean.count("{") - clean.count("}")
+    return out
+
+
 class Latex(unittest.TestCase):
     def test_summary_and_marker_inside_a_line(self):
         out = latex.to_latex(SAMPLE)
@@ -136,6 +147,15 @@ class Latex(unittest.TestCase):
                 out = latex.to_latex(latex.usfm_path(book.info).read_text(encoding="utf-8"))
                 self.assertEqual(out.count("\\begin{verse}"), out.count("\\end{verse}"))
                 self.assertEqual(out.count("\\Caput"), len(book.chapters))
+                self.assertEqual(open_braces_at_blocks(out), [])
+
+    def test_quotation_before_a_poem_closes_in_its_paragraph(self):
+        """1 Cor 15:54-55: a \\qt closing a prose verse and one opening the poem after it are two \\emph{…}."""
+        usfm = ("\\id 1CO\n\\c 1\n\\p\n\\v 1 dīcitur: \\qt “Absorpta mors.”\\qt*\n"
+                "\\q1 \\v 2 \\qt “Ubi, ō mors?\\qt*\n\\q2 \\qt Ubi victōria?”\\qt*\n\\m\n\\v 3 Est autem.\n")
+        out = latex.to_latex(usfm)
+        self.assertIn("\\emph{``Absorpta mors.''}", out)
+        self.assertEqual(open_braces_at_blocks(out), [])
 
     def test_document_reuses_the_preamble(self):
         mark = publish.load(["Mark"])

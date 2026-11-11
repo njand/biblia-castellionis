@@ -350,6 +350,7 @@ def to_latex(usfm):
             if not start:
                 out.append("\n\n" if marker == "p" else "\n")
         elif not poem:
+            closed_at = None                     # a poem opens a new block: a \qt closed before it stays closed
             levels = []
             for later, _ in body[index:]:
                 if later == "b":
