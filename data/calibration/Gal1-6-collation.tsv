@@ -1,0 +1,278 @@
+id	kind	sort	text	readings	support	context
+Gal.1.22	uncovered	base	57% of the words			
+Gal.2.18	uncovered	base	44% of the words			
+Gal.3.13	uncovered	base	58% of the words			
+Gal.5.12	uncovered	base	50% of the words			
+Gal.6.11	uncovered	base	57% of the words			
+Gal.1.1	base-only	reading	non ab hominibus neque	1573: no abho minibus neqs	1758,1750,1726,ws	Paulus apostolus ⟦non ab hominibus neque⟧ per hominem sed per Jesum
+Gal.1.1	base-only	division	patrem	1573: pa trem | 1758: trem	1681,1750,1726,ws	per Jesum Christum et Deum ⟦patrem⟧ qui eum excitavit ex mortuis
+Gal.1.1	base-only	reading	eum	1573: eű	1758,1681,1750,1726,ws	Christum et Deum patrem qui ⟦eum⟧ excitavit ex mortuis
+Gal.1.3	correct	reading		1573,1758,1726: nostro	ws	a Deo patre et Domino ⟦⟧ Jesu Christo
+Gal.1.4	correct	reading	nobis	1573,1758,1726: noftris | 1747: nokt | 1750: noflris	ws	Qui seipsum pro ⟦nobis⟧ peccatis dedit ut nos eriperet
+Gal.1.4	correct	reading	dedit	1573,1758,1750,1726: dedidit	1715,1747,ws	Qui seipsum pro nobis peccatis ⟦dedit⟧ ut nos eriperet ex instante
+Gal.1.4	base-only	division	eriperet	1573: e riperet | 1747: N ret	1758,1715,1750,1726,ws	nobis peccatis dedit ut nos ⟦eriperet⟧ ex instante saeculo malo de
+Gal.1.6	correct	reading		1573,1681: a	1758,1715,1747,1750,1726,ws	Miror vos tam cito ⟦⟧ ab eo qui vos in
+Gal.1.6	others-1573-agrees	reading	eo	1715,1750: co | 1747: p	1573,1758,1681,1726,ws	Miror vos tam cito ab ⟦eo⟧ qui vos in Christi beneficio
+Gal.1.6	base-only	reading	in	1573: bin	1758,1681,1747,1750,1726,ws	cito ab eo qui vos ⟦in⟧ Christi beneficio vocavit traduci ad
+Gal.1.6	base-only	reading	beneficio	1573: beArinaque neficio | 1747: benefit É	1758,1681,1715,1750,1726,ws	eo qui vos in Christi ⟦beneficio⟧ vocavit traduci ad aliud evangelium
+Gal.1.7	correct	spelling	Quamquam	1573,1758: quanquam | 1573: b in religione quanquam	1750,ws	⟦Quamquam⟧ nullum est aliud nisi quod
+Gal.1.7	base-only	reading	quidam	1573: quiChriftiana dam	1758,1715,1747,1750,1726,ws	est aliud nisi quod sunt ⟦quidam⟧ qui vos turbant et Christi
+Gal.1.7	base-only	reading	evangelium pervertere volunt	1573: Euangeliuin peruer	1758,1715,1750,1726,ws	qui vos turbant et Christi ⟦evangelium pervertere volunt⟧
+Gal.1.9	base-only	reading	Ut jam	1573: Vtiam | 1715: Cor Cor tr ütjam | 1747: t Cor Cor t Vtiam	1758,1750,1726,ws	⟦Ut jam⟧ diximus nunc iterum dicam si
+Gal.1.9	base-only	division	diversum	1573: di uerfum	1758,1715,1747,1750,1726,ws	iterum dicam si quis vos ⟦diversum⟧ docet ab eo quod accepistis
+Gal.1.10	base-only	reading		1573: c	1758,1747,1750,1726,ws	Nam ⟦⟧ utrum tandem homines persuadeo an
+Gal.1.10	base-only	reading	tandem	1573: tanden | 1726: 	1758,1681,1747,1750,ws	Nam utrum ⟦tandem⟧ homines persuadeo an Deum num
+Gal.1.10	base-only	reading		1573: hes pradio	1758,1747,1750,1726,ws	utrum tandem homines persuadeo an ⟦⟧ Deum num hominibus placere conor
+Gal.1.10	base-only	f/s	si	1573: fi	ws	num hominibus placere conor Nam ⟦si⟧ jam hominibus placerem Christi servus
+Gal.1.13	base-only	reading	Judaismo	1573: ludaisino | 1758: Jadaismo | 1681: ludaifmo | 1750: Iudaifino	1747,ws	quomodo aliquando versatus sim in ⟦Judaismo⟧ quam immodice infestarem ac depopularer
+Gal.1.13	correct	reading		1573,1747,1750: diuinam | 1681: divi CW r ttn	ws	sim in Judaismo quam immodice ⟦⟧ infestarem ac depopularer ecclesiam
+Gal.1.14	base-only	reading	Judaismi profectu	1573: Ludaisini pro Alter fectu | 1681: Judaif Ep j i profe et u | 1750: Iudaifini profe et tu	1758,ws	meae nationis aequales meos in ⟦Judaismi profectu⟧ longe superarem mearum patriarum institutionum
+Gal.1.14	base-only	reading	institutionum	1573: inftitutio et num	1758,1681,1747,1750,ws	profectu longe superarem mearum patriarum ⟦institutionum⟧ facile studiosissimus
+Gal.1.15	correct	reading	matres	1573,1758,1726: matris	ws	simulac Deo qui me a ⟦matres⟧ utero destinavit et pro suo
+Gal.1.15	base-only	reading	destinavit	1573: destina Philip uit | 1726: deflinavit	1556,1758,1747,1750,ws	qui me a matres utero ⟦destinavit⟧ et pro suo favore vocavit
+Gal.1.16	base-only	reading		1573,1556: d	1758,1715,1747,1750,1726,ws	gentes publicarem non equidem cum ⟦⟧ carne et sanguine contuli
+Gal.1.16	base-only	reading		1573: d hominis	1556,1758,1715,1747,1750,1726,ws	non equidem cum carne et ⟦⟧ sanguine contuli
+Gal.1.17	correct	spelling	adscendi	1573,1556,1715,1747,1726: ascendi | 1750: adfeendi	ws	Neque Hierosolymam ⟦adscendi⟧ ad apostolos priores me sed
+Gal.1.17	base-only	reading	Damascum	1573: Damafcu	1556,1758,1715,1747,1750,1726,ws	sed Arabiam petii et rursus ⟦Damascum⟧ reverti
+Gal.1.18	correct	reading	adscendi viscendi	1573,1758,1715,1747: ascendi visendi	ws	Deinde post annos tres Hierosolymam ⟦adscendi viscendi⟧ Petri gratia apud quem etiam
+Gal.1.20	base-only	reading	Deum	1573: Deuin	1758,1681,1715,1747,1750,1726,ws	Ac quae vobis scribo testor ⟦Deum⟧ me non mentiri
+Gal.1.20	base-only	reading	non mentiri	1573: nó métiri	1715,1747,1726,ws	vobis scribo testor Deum me ⟦non mentiri⟧
+Gal.1.21	base-only	reading	Ciciliaeque	1573: Ciliciæque	ws	Postea veni in Syriae ⟦Ciciliaeque⟧ tractus
+Gal.1.22	base-only	reading	Eram autem	1573: Erá aut | 1715: Eramautem	1758,1747,ws	⟦Eram autem⟧ ignotus facie Christianis Judaeae ecclesiis
+Gal.1.23	base-only	division	infestabantur	1573: infe stabantur | 1758: infeIr	1715,1750,ws	audiverant eum a quo aliquando ⟦infestabantur⟧ nunc fidem quam aliquando populatus
+Gal.1.23	base-only	division	esset	1573: ef set | 1747: efTet	1556,1758,1715,1750,1726,ws	nunc fidem quam aliquando populatus ⟦esset⟧ docere
+Gal.1.24	base-only	reading	me	1573: ine	1758,1715,1747,1750,1726,ws	Deoque in ⟦me⟧ gratias agebant
+Gal.1.24	others-1573-agrees	edge	agebant	1715,1726: 	1573,1758,1747,1750,ws	Deoque in me gratias ⟦agebant⟧
+Gal.2.1	base-only	reading		1573: nnos	1758,1747,1750,ws	Deinde post annos ⟦⟧ quatuordecim rursus adscendi Hierosolymam cum
+Gal.2.1	others	spelling	adscendi	1747,1726: afcendi	ws	Deinde post annos quatuordecim rursus ⟦adscendi⟧ Hierosolymam cum Barnaba adsumto etiam
+Gal.2.1	base-only	reading	adscendi Hierosolymam	1573: ascen di Hierofolymain | 1758: ascendi rosolymam | 1750: adícendi Hierofolymanr	ws	Deinde post annos quatuordecim rursus ⟦adscendi Hierosolymam⟧ cum Barnaba adsumto etiam Tito
+Gal.2.1	correct	spelling	adsumto	1573,1758,1747,1726: assumpto	1750,ws	rursus adscendi Hierosolymam cum Barnaba ⟦adsumto⟧ etiam Tito
+Gal.2.2	correct	spelling	Adscendi	1573,1758: Afcendi | 1681: Aiccndi | 1726: Alcendi | 1747: Act Afcendi	1750,ws	⟦Adscendi⟧ autem divino instinctu et ad
+Gal.2.2	base-only	division	evangelium	1573: Euan gelium | 1758: Evangel	1556,1715,1747,1750,1726,ws	divino instinctu et ad illos ⟦evangelium⟧ retuli quod apud extraneas gentes
+Gal.2.4	base-only	reading	quam habueremus	1573: quá haberemus	ws	qui sese insinuaverant ad speculandum ⟦quam habueremus⟧ in ChristoJesu libertatem quo nos
+Gal.2.4	others	reading	habueremus	1758,1747,1750,1726: haberemus | 1715: niffent a lacobo quidam cum haberemus	ws	sese insinuaverant ad speculandum quam ⟦habueremus⟧ in ChristoJesu libertatem quo nos
+Gal.2.4	correct	division	ChristoJesu	1573,1747,1750: Christo Iesu | 1726: Chrifto Jelu	ws	ad speculandum quam habueremus in ⟦ChristoJesu⟧ libertatem quo nos servituti subjicerent
+Gal.2.6	base-only	reading		1573: Colol	1556,1758,1681,1715,1750,1726,ws	mea nihil refert personae hominis ⟦⟧ rationem Deus non habet Mihi
+Gal.2.6	base-only	reading	nihil	1573: ni AA hil	1556,1758,1681,1715,1750,1726,ws	non habet Mihi quidem illustres ⟦nihil⟧ contulerunt
+Gal.2.7	base-only	edge	Contraque	1573: Quod ad eos attinet qui videtur esse aliquid qua Pet Contraqi | 1556: Cone Colof trap	1758,1715,1750,ws	Mihi quidem illustres nihil contulerunt ⟦Contraque⟧ videntes mihi creditum esse praeputii
+Gal.2.7	base-only	reading	quemadmodum	1573: quemadmoduin | 1758: quemadmodusm u | 1747: quem admo dum | 1750: queniadmodum	1556,1715,ws	mihi creditum esse praeputii evangelium ⟦quemadmodum⟧ Petro circumcisionis
+Gal.2.7	correct	reading	circumcisionis	1573,1758: circuncifionis | 1715: 	1747,1750,ws	esse praeputii evangelium quemadmodum Petro ⟦circumcisionis⟧
+Gal.2.8	base-only	reading	circumcisorum	1573: circuncisorum | 1758: d cuncisorum	1715,1747,1750,ws	in Petro id egit ut ⟦circumcisorum⟧ esset apostolus idem in me
+Gal.2.8	correct	reading		1573,1715,1750: id	ws	apostolus idem in me quoque ⟦⟧ egit ut essem alienigenarum
+Gal.2.8	base-only	reading	essem	1573: essein	1556,1758,1750,ws	in me quoque egit ut ⟦essem⟧ alienigenarum
+Gal.2.9	base-only	reading	esse videantur	1573: effeviAllo debantur	ws	Cephas et Johannes qui columnae ⟦esse videantur⟧ dextras mihi et Barnabae dederunt
+Gal.2.9	others	reading	videantur	1556: uides bantur | 1758,1750,1726: videbantur	ws	et Johannes qui columnae esse ⟦videantur⟧ dextras mihi et Barnabae dederunt
+Gal.2.9	correct	reading	circumcisos	1573,1726: circuncifos | 1747: circunt cifos	1556,1750,ws	societatis ut nos alienigenas ipsi ⟦circumcisos⟧ instituerent
+Gal.2.10	base-only	edge		1573: iustificari per Christum | 1747: o	1750,1726,ws	nos alienigenas ipsi circumcisos instituerent ⟦⟧ Dummodo pauperum memores essemus id
+Gal.2.10	base-only	reading	pauperum	1573: pauperű | 1758: pauperam | 1747: p jaupere d	1556,1750,1726,ws	Dummodo ⟦pauperum⟧ memores essemus id quod equidem
+Gal.2.11	base-only	reading		1573: Ado	1556,1758,1750,1726,ws	autem Petrus Antiochiam ego ei ⟦⟧ in os restiti quoniam reprehendus
+Gal.2.11	correct	reading	reprehendus	1573,1556,1750: reprehendendus | 1758: repreendendus | 1747: repreıdendus | 1726: reprehenden mortuus eft dus	ws	ei in os restiti quoniam ⟦reprehendus⟧ erat
+Gal.2.12	base-only	reading	enim	1573: eniin	1758,1681,1747,1750,1726,ws	Quum ⟦enim⟧ antequam venissent a Jacobo quidam
+Gal.2.12	base-only	reading	quidam	1573: quidá	1758,1747,1750,1726,ws	enim antequam venissent a Jacobo ⟦quidam⟧ cum alienigenis epularetur postquam illi
+Gal.2.12	base-only	reading	advenerunt	1573: aduenerút	1556,1758,1750,1726,ws	cum alienigenis epularetur postquam illi ⟦advenerunt⟧ inhibuit seque subduxit circumcisos veritus
+Gal.2.12	base-only	reading	seque	1573: seqs	1758,1750,1726,ws	epularetur postquam illi advenerunt inhibuit ⟦seque⟧ subduxit circumcisos veritus
+Gal.2.13	base-only	reading	Judaei	1573: ludzi | 1556: Iudzi	1758,1747,1750,1726,ws	cum eo simularunt etiam reliqui ⟦Judaei⟧ adeo ut Barnabas quoque eorum
+Gal.2.13	correct	reading		1573,1758,1750,1726: ad	ws	Judaei adeo ut Barnabas quoque ⟦⟧ eorum simulationem adduceretur
+Gal.2.13	base-only	reading	adduceretur	1573: ab duceretur | 1726: abduceretur | 1747: addui il VCTO | 1750: à duceretur	ws	ut Barnabas quoque eorum simulationem ⟦adduceretur⟧
+Gal.2.14	correct	reading	recte se	1573,1726: recto pede incedere | 1758: eto pede incedere	1750,ws	vero qui viderem eos non ⟦recte se⟧ ad evangelii veritatem gerere dixi
+Gal.2.14	correct	reading	gerere	1573,1758,1726: 	1750,ws	recte se ad evangelii veritatem ⟦gerere⟧ dixi Petro coram omnibus si
+Gal.2.15	base-only	f/s	sontes	1573: fontes	ws	natura Judaei non ex alienigenis ⟦sontes⟧
+Gal.2.16	base-only	division	fieri	1573: fie ri | 1758: fieriz	1556,1747,1750,1726,ws	hominem non legis operibus justum ⟦fieri⟧ sed fiducia in Jesu Christo
+Gal.2.16	correct	reading	fiducia	1573,1726: tantum fide | 1758: tanIm fide	1747,1750,ws	legis operibus justum fieri sed ⟦fiducia⟧ in Jesu Christo collocanda nos
+Gal.2.16	base-only	reading	collocanda	1573: collocáda	1556,1758,1747,1750,1726,ws	sed fiducia in Jesu Christo ⟦collocanda⟧ nos quoque inquam fidem adhibuimus
+Gal.2.16	base-only	reading	fidem	1573: fidein	1747,1750,1726,ws	Christo collocanda nos quoque inquam ⟦fidem⟧ adhibuimus Christo Jesu non legis
+Gal.2.16	correct	reading		1573,1726: vt iufti fieremus Christi side | 1758: ut justi fierews Christi fide | 1750: vt iufti fieremus Chrifti fiducia	ws	inquam fidem adhibuimus Christo Jesu ⟦⟧ non legis operibus quoniam legis
+Gal.2.16	base-only	division	legis	1573: le gis	1758,1747,1750,1726,ws	Jesu non legis operibus quoniam ⟦legis⟧ operibus mortalium nemo justus fiet
+Gal.2.17	base-only	division	si studentes	1573: fistudentes | 1758: sy studens	1750,1726,ws	Quod ⟦si studentes⟧ per Christum justi fieri reperimur
+Gal.2.17	base-only	division	reperimur	1573: répe rimur	1556,1758,1715,1747,1750,1726,ws	studentes per Christum justi fieri ⟦reperimur⟧ tamen ipsi quoque sontes ergo
+Gal.2.17	base-only	f/s	sontes	1573: fontes	ws	fieri reperimur tamen ipsi quoque ⟦sontes⟧ ergo Christus peccasti minister est
+Gal.2.17	others	reading	peccasti	1573: pecca ti | 1556,1758,1747,1750,1726: peccatí	ws	ipsi quoque sontes ergo Christus ⟦peccasti⟧ minister est id quod absit
+Gal.2.18	base-only	edge	Atqui si quae abolevi	1573: Atquifi quæaboleui	1758,1750,ws	minister est id quod absit ⟦Atqui si quae abolevi⟧ eadem redintegro
+Gal.2.18	others	reading	prabeo	1758,1747,1750,1726: praebeo | 1715: qoo BERNDUE fidei beo Quemadmodum Abraha	ws	abolevi eadem redintegro sontem me ⟦prabeo⟧
+Gal.2.19	base-only	reading	Deo	1573: Dee	1758,1715,1747,1750,1726,ws	legem legi mortuus sum ut ⟦Deo⟧ viverem
+Gal.2.20	correct	reading	fiducia	1573,1758: fide | 1715: fiducial Deum per fidem juflificaturum	1747,1750,ws	vero nunc in carne vivo ⟦fiducia⟧ vivo filii Dei qui me
+Gal.2.20	base-only	reading	me adeo amavit	1573: meadedamauit	1747,ws	fiducia vivo filii Dei qui ⟦me adeo amavit⟧ ut se ipsum pro me
+Gal.2.20	correct	division	se ipsum	1573,1758,1715,1750: seipsum	ws	qui me adeo amavit ut ⟦se ipsum⟧ pro me dederet
+Gal.2.21	base-only	f/s	si	1573: fi	ws	Non repudio Dei beneficium Nam ⟦si⟧ in lege posita est justitia
+Gal.2.21	base-only	division	posita	1573: po fita	1758,1747,1750,ws	beneficium Nam si in lege ⟦posita⟧ est justitia ergo Christus frustra
+Gal.3.1	base-only	reading		1573: cifixus effe	1556,1758,1681,1715,1747,1750,1726,ws	antea depictus fuit apud vos ⟦⟧ crucifixus
+Gal.3.2	base-only	edge		1573: videatur	1556,1758,1750,1726,ws	depictus fuit apud vos crucifixus ⟦⟧ Hoc tantum volo a vobis
+Gal.3.2	correct	reading	spirtum	1573,1556,1747,1726: spiritum	ws	vobis discere per legis opera ⟦spirtum⟧ acceperitis an per orationem fidei
+Gal.3.5	base-only	division	Utrumne	1573: Vtrum ne | 1556: Vuümne	1758,1681,1747,1750,1726,ws	⟦Utrumne⟧ qui vobis spiritum suggesit et
+Gal.3.5	correct	spelling	suggesit	1573,1556,1758,1726: suggessit | 1681,1747: fuggeflit	ws	Utrumne qui vobis spiritum ⟦suggesit⟧ et apud vos portentosa fecit
+Gal.3.5	base-only	division	per orationem	1573: perora tionem	1758,1747,1726,ws	per legis opera fecit an ⟦per orationem⟧ fidei
+Gal.3.6	base-only	reading	Quemadmodum	1573: Que nadmodum | 1556: Quemadmodü | 1758: Quem admodum	1681,1747,1750,1726,ws	⟦Quemadmodum⟧ Abrahamus Deo credidit id quod
+Gal.3.7	base-only	reading	Abrahami filios esse	1573: Abrahaini fi | 1681: Abrami filioscflc Praevidentesautem b	1758,1747,1750,ws	qui sunt a fide eos ⟦Abrahami filios esse⟧
+Gal.3.8	base-only	reading	litterae	1573: bliteræ | 1556: litere	1758,1747,1750,1726,ws	Praevidentes autem ⟦litterae⟧ Deum per fidem justificaturum esse
+Gal.3.8	base-only	reading	justificaturum	1573: iu Deus vrin Iacob ftificaturum	1758,1747,1750,1726,ws	autem litterae Deum per fidem ⟦justificaturum⟧ esse gentes ante denuntiaverunt Abrahamo
+Gal.3.8	base-only	reading	denuntiaverunt Abrahamo	1573: denūciauerunt Abrahaitetsbabe mo	1747,1750,1726,ws	fidem justificaturum esse gentes ante ⟦denuntiaverunt Abrahamo⟧ in eo beandas esse gentes
+Gal.3.9	base-only	edge	Abrahamo beantur Quicumque	1573: Abraha Genef mobeantur Deu Quicunque	1747,1750,1726,ws	ii una cum fidente ⟦Abrahamo beantur Quicumque⟧ enim sunt a legis operibus
+Gal.3.10	correct	spelling	Quicumque	1573,1758,1747: Quicunque	1750,ws	⟦Quicumque⟧ enim sunt a legis operibus
+Gal.3.10	base-only	reading	exsecrationi	1573: execraEccl tioni | 1758: e crationi	1750,ws	enim sunt a legis operibus ⟦exsecrationi⟧ subjecti sunt Scriptum est enim
+Gal.3.10	base-only	reading	exsecrabilem esse quicumque	1573: execrabilem efRoman se quicúque	1750,ws	subjecti sunt Scriptum est enim ⟦exsecrabilem esse quicumque⟧ non steterit omnibus in legis
+Gal.3.10	base-only	reading		1573: libro	ws	non steterit omnibus in legis ⟦⟧ scriptis eaque praestiterit
+Gal.3.10	base-only	edge	eaque praestiterit	1573: Leuit | 1681: caquepnvftitcrit Nemincm	1758,1750,ws	omnibus in legis scriptis ⟦eaque praestiterit⟧ Neminem autem lege fieri justum
+Gal.3.11	base-only	reading		1573: Deut	1758,1747,1750,ws	lege fieri justum apud Deum ⟦⟧ hinc perspicuum est quod justus
+Gal.3.12	base-only	reading	Atqui lex	1573: Arquilex	1758,1681,1715,1747,1750,1726,ws	⟦Atqui lex⟧ non est ex fide sed
+Gal.3.13	base-only	spelling	nos a legis exsecratione adseruit	1573: nosalegis execratione asseruit	1750,ws	Christus ⟦nos a legis exsecratione adseruit⟧ factus pro nobis exsecratio Scriptum
+Gal.3.13	base-only	reading	pro	1573: p | 1747: pr	1556,1758,1681,1715,1750,1726,ws	a legis exsecratione adseruit factus ⟦pro⟧ nobis exsecratio Scriptum est enim
+Gal.3.13	correct	spelling	exsecratio	1573,1726: execratio	1750,ws	exsecratione adseruit factus pro nobis ⟦exsecratio⟧ Scriptum est enim exsecrabilem esse
+Gal.3.13	correct	spelling	exsecrabilem	1573,1726: execrabilem | 1715: re pi Harn e C aP APIS tg t BU B ides qua m AD GALATAS À O ERREUR D euim execrabilem	1750,ws	nobis exsecratio Scriptum est enim ⟦exsecrabilem⟧ esse quisquis ex patibulo pendeat
+Gal.3.14	base-only	division	Ut ad	1573,1556: vtad | 1715: fum per Chrifli Iefu fiduciam Deut Rom daretur fidentibus Utad	1681,1747,1726,ws	⟦Ut ad⟧ gentes felicitas Abrahamica perveniat per
+Gal.3.14	correct	reading	Spirtus	1573,1750,1726: spiritus	ws	perveniat per Christum Jesum ut ⟦Spirtus⟧ promissum adipiscamur per fidem
+Gal.3.15	base-only	division	humana loquar	1573: humanaloquar	1681,1715,1750,1726,ws	Fratres ⟦humana loquar⟧ Quamvis hominis sanctum pactum nemo
+Gal.3.15	base-only	reading	sanctum	1573: fanci tum | 1556: anci tum | 1747: fancit | 1750: fancitum	ws	Fratres humana loquar Quamvis hominis ⟦sanctum⟧ pactum nemo repudiat aut immutat
+Gal.3.15	correct	reading		1573,1556,1750,1726: tamen	1715,1747,ws	Quamvis hominis sanctum pactum nemo ⟦⟧ repudiat aut immutat
+Gal.3.16	base-only	f/s	seminibus	1573: feminibus	ws	ejus semini Non dicit et ⟦seminibus⟧ quasi de multis sed ut
+Gal.3.17	base-only	reading	spectans	1573: fpe Etans	1556,1715,1750,ws	dico foedus a Deo sanctum ⟦spectans⟧ in Christum lex quae post
+Gal.3.17	base-only	reading	post annos quadrigentos	1573: postannos quadringen tos	ws	spectans in Christum lex quae ⟦post annos quadrigentos⟧ triginta fuit non antiquat ita
+Gal.3.17	others	reading	quadrigentos	1715,1747,1750: quadringentos	ws	Christum lex quae post annos ⟦quadrigentos⟧ triginta fuit non antiquat ita
+Gal.3.17	base-only	edge	rescindat	1573: 	1556,1681,1750,ws	non antiquat ita ut promissionem ⟦rescindat⟧ Atqui si a lege pendet
+Gal.3.18	base-only	division	si a lege	1573: siàlege	1681,1747,1750,ws	Atqui ⟦si a lege⟧ pendet hereditas non jam pendet
+Gal.3.19	base-only	spelling	caussa	1573: causa	1750,ws	Quorsum ergo lex delictorum ⟦caussa⟧ adjecta est donec veniret semen
+Gal.3.19	base-only	division	per angelos	1573: perangelos	1556,1681,1715,1747,1750,ws	semen cui promissum erat instituta ⟦per angelos⟧ lata per sequestrem
+Gal.3.19	base-only	reading	sequestrem	1573: sequestrum | 1681: Sequeftra ut f f Sequeltcr | 1747: fequefirem Exod Deut	1715,1750,ws	instituta per angelos lata per ⟦sequestrem⟧
+Gal.3.20	base-only	division	unus	1573: v nus	1715,1747,1750,1726,ws	unius non est Atqui Deus ⟦unus⟧ est
+Gal.3.21	correct	reading		1573,1681: est	1715,1747,1750,ws	Ergone lex ⟦⟧ contraria est Dei promissis neququam
+Gal.3.21	correct	reading	est	1573,1681: 	1715,1747,1750,ws	Ergone lex contraria ⟦est⟧ Dei promissis neququam Si enim
+Gal.3.21	base-only	reading	neququam	1573: Nequa quam | 1715,1747: Nequaquam	ws	lex contraria est Dei promissis ⟦neququam⟧ Si enim data lex esset
+Gal.3.21	correct	reading	potest	1573,1747,1750: pofset	ws	lex esset quae vitam conferre ⟦potest⟧ plane in lege sita foret
+Gal.3.22	base-only	reading		1573: comnia fub	1747,1750,ws	concluserunt litterae omnia sub peccatum ⟦⟧ ut promissum per Christi Jesu
+Gal.3.22	base-only	reading	fiduciam	1573,1556: fidem	1747,1750,ws	ut promissum per Christi Jesu ⟦fiduciam⟧ daretur fidentibus
+Gal.3.22	base-only	reading	fidentibus	1573: fidentib peccato fut	1556,1747,1750,ws	per Christi Jesu fiduciam daretur ⟦fidentibus⟧
+Gal.3.23	others-1573-agrees	reading	venisset	1747,1750: veniflet	1573,1556,1726,ws	Antequam autem ⟦venisset⟧ fiducia sub lege custodiebamur conclusi
+Gal.3.23	correct	reading	fiducia	1573,1726: fides	1747,1750,ws	Antequam autem venisset ⟦fiducia⟧ sub lege custodiebamur conclusi ad
+Gal.3.23	base-only	reading	custodiebamur	1573: cufto vt docentli diebamur	1747,1750,1726,ws	autem venisset fiducia sub lege ⟦custodiebamur⟧ conclusi ad fiduciam quae patefacienda
+Gal.3.23	correct	reading	fiduciam	1573,1726: fidem	1747,1750,ws	sub lege custodiebamur conclusi ad ⟦fiduciam⟧ quae patefacienda erat
+Gal.3.24	base-only	reading	ad	1573: dad | 1681: d Matt f	1556,1747,1750,1726,ws	Itaque lex paedagogus noster fuit ⟦ad⟧ Christum ut fiducia justi fieremus
+Gal.3.24	base-only	reading		1573: d	1556,1681,1747,1750,ws	paedagogus noster fuit ad Christum ⟦⟧ ut fiducia justi fieremus
+Gal.3.24	base-only	reading	fiducia	1573: nobis vt fide | 1681: fide	1747,1750,ws	noster fuit ad Christum ut ⟦fiducia⟧ justi fieremus
+Gal.3.25	correct	reading	fiducia	1573,1556,1726: fides	1747,1750,ws	Postquam autem venit ⟦fiducia⟧ non jam sub paedagogo sumus
+Gal.3.25	base-only	reading	paedagogo	1573: pæda Chrifti gogo | 1750: paedago go	1681,1747,1726,ws	venit fiducia non jam sub ⟦paedagogo⟧ sumus
+Gal.3.25	base-only	f/s	sumus	1573: fumus	ws	fiducia non jam sub paedagogo ⟦sumus⟧
+Gal.3.27	correct	spelling	quicumque	1573,1747,1726: quicunque	1750,ws	Nam ⟦quicumque⟧ baptizati estis Christum induistis
+Gal.3.28	base-only	reading	neque	1573: neqs	1747,1750,1726,ws	Judaeus neque Graecus non est ⟦neque⟧ servus neque liber non est
+Gal.3.29	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ vos Christi estis ergo Abrahami
+Gal.3.29	base-only	reading	semen	1573: sement	1758,1747,1750,1726,ws	vos Christi estis ergo Abrahami ⟦semen⟧ estis et ex promisso heredes
+Gal.3.29	correct	edge	heredes	1573,1758,1726: 	1750,ws	semen estis et ex promisso ⟦heredes⟧
+Gal.4.1	correct	spelling	quamdiu	1573,1758: Quandiu | 1750: uamdiu	1747,ws	Sic autem dico ⟦quamdiu⟧ heres puer est nihil differt
+Gal.4.1	base-only	f/s	servo	1573: feruo	ws	puer est nihil differt a ⟦servo⟧ et tamen est omnium dominus
+Gal.4.3	base-only	reading		1573: et	1715,1747,1750,1726,ws	et nos quum pueri essemus ⟦⟧ sub mundanis rudimentis eramus emancipati
+Gal.4.3	base-only	reading	mundanis	1573: munda az rudimen nis	1758,1715,1747,1750,1726,ws	nos quum pueri essemus sub ⟦mundanis⟧ rudimentis eramus emancipati
+Gal.4.3	base-only	reading	emancipati	1573: einancipati ta humana | 1758: emancipai | 1750: emanci pati	1715,1747,1726,ws	essemus sub mundanis rudimentis eramus ⟦emancipati⟧
+Gal.4.4	base-only	reading		1573: funt	1758,1715,1747,1750,ws	postquam plenum tempus advenit misit ⟦⟧ Deus filium suum ex muliere
+Gal.4.4	base-only	reading	natum	1573: natu	1556,1758,1681,1715,1747,1750,1726,ws	Deus filium suum ex muliere ⟦natum⟧ qui sub lege fuit
+Gal.4.6	base-only	reading	clamet	1573: clanet	1556,1758,1681,1715,1747,1750,1726,ws	Spiritum in vestros animos qui ⟦clamet⟧ Abba pater
+Gal.4.7	base-only	f/s	si	1573: fi	ws	servus es sed filius quod ⟦si⟧ filius etiam heres Dei per
+Gal.4.9	base-only	reading		1573: Coloff	1556,1758,1715,1747,1750,ws	cognoscentes vel potius a Deo ⟦⟧ cogniti qui fit ut vos
+Gal.4.9	base-only	division	rursus ad	1573: rurfusad	1556,1758,1681,1715,1747,1750,ws	cogniti qui fit ut vos ⟦rursus ad⟧ infirma egenaque rudimenta convertatis quibus
+Gal.4.9	base-only	reading	egenaque	1573: egenags | 1556: egenaQp	1758,1747,1750,ws	ut vos rursus ad infirma ⟦egenaque⟧ rudimenta convertatis quibus rursum de
+Gal.4.12	base-only	reading	Nullam	1573: Nullaın | 1556: INullam | 1750: Nul lam	1758,1747,1726,ws	sum vestri Fratres oro vos ⟦Nullam⟧ mihi fecistis injuriam
+Gal.4.14	base-only	reading	acceperitis	1573: acbeatus dices | 1758: aeceperitis | 1573: acbeatus dices b	1747,1750,1726,ws	angelum ceu Christum ipsum Jesum ⟦acceperitis⟧
+Gal.4.15	base-only	reading		1573: re pofsitis	1556,1758,1747,1750,1726,ws	est beatitudo vestra Testor enim ⟦⟧ vos si fieri potuisset vestros
+Gal.4.15	base-only	f/s	si	1573: fi	ws	beatitudo vestra Testor enim vos ⟦si⟧ fieri potuisset vestros oculos effossuros
+Gal.4.15	others-1573-agrees	reading	potuisset	1758: poWuiset | 1747,1726: potuiflet | 1750: potuilfet	1573,1556,ws	Testor enim vos si fieri ⟦potuisset⟧ vestros oculos effossuros et mihi
+Gal.4.15	base-only	reading		1573: nifi mea do	1750,1726,ws	vestros oculos effossuros et mihi ⟦⟧ daturos fuisse
+Gal.4.16	base-only	reading	dicendo	1556: dícédo | 1758: dicenb | 1573:  | 1556: dícédo dodrina Ambíuntuos	1747,1750,1726,ws	inimicus factus sum vera vobis ⟦dicendo⟧
+Gal.4.17	correct	reading	ambiatis	1573,1758,1726: æmulemini | 1573,1758,1726: æmulemini Deceret	1750,ws	excludere nos volunt ut se ⟦ambiatis⟧
+Gal.4.18	correct	reading	Decet	1573,1758,1726: Deceret	1747,1750,ws	⟦Decet⟧ autem ambire in re bona
+Gal.4.18	correct	reading	ambire	1573,1726: æmulari	1750,ws	Decet autem ⟦ambire⟧ in re bona semper non
+Gal.4.20	correct	reading	quidem	1573,1758,1750,1726: equidem | 1556: equi dem	ws	Vellem ⟦quidem⟧ nunc apud vos adesse vocemque
+Gal.4.20	base-only	reading	vocemque	1573: vocemás	1556,1758,1747,1750,1726,ws	quidem nunc apud vos adesse ⟦vocemque⟧ meam mutare quoniam in vobis
+Gal.4.22	base-only	division	Scriptum est enim	1573: Scriptumestenim	1556,1758,1715,1747,1750,ws	⟦Scriptum est enim⟧ Abrahamum duos habuisse filios unum
+Gal.4.22	others-1573-agrees	reading	habuisse	1556: habuit fe | 1758: hauisse | 1715,1747: habuifle	1573,1750,ws	Scriptum est enim Abrahamum duos ⟦habuisse⟧ filios unum ex ancilla alterum
+Gal.4.22	base-only	reading		1573: Gen	1750,ws	est enim Abrahamum duos habuisse ⟦⟧ filios unum ex ancilla alterum
+Gal.4.23	base-only	reading	Quorsum ancillae	1573: quorum ancillę | 1715: Dies obfervatis et menfes Gen t et et tempora et annos Quorum ancille	ws	⟦Quorsum ancillae⟧ filius humano more natus est
+Gal.4.24	others-1573-agrees	reading	eae	1715,1747: ea | 1726: ex	1573,1758,ws	Quae res aliud significant Nam ⟦eae⟧ sunt duo foedera unum a
+Gal.4.25	base-only	division	nunc est	1573: nuncest	1556,1758,1750,1726,ws	Arabia qui cum ea quae ⟦nunc est⟧ Hierosolyma congruit quippe quae una
+Gal.4.26	base-only	reading	Hierosolyma	1573: Hierofolyına	1758,1715,1750,1726,ws	At superior ⟦Hierosolyma⟧ libera est quae mater est
+Gal.4.27	base-only	reading	paris erumpe	1573: pa E ris erūpe	1758,1750,ws	enim laetare sterilis quae non ⟦paris erumpe⟧ in clamorem quae non eniteris
+Gal.4.28	base-only	reading	promissionis	1573: pro Gen missionis | 1758: promishooro Nis | 1715: promiíTonis Col	1556,1750,ws	Nos vero fratres quemadmodum Isaacus ⟦promissionis⟧ nati sumus
+Gal.4.29	base-only	reading	tunc	1573: túc	1556,1758,1681,1715,1747,1750,ws	Sed ut ⟦tunc⟧ qui humanitus erat genitus genitum
+Gal.4.29	correct	reading	divinitum	1573,1758,1750: diuinitus | 1747: di uinitus	ws	qui humanitus erat genitus genitum ⟦divinitum⟧ infestabat ita sit etiam nunc
+Gal.4.29	base-only	f/s	sit	1573: fit	ws	genitus genitum divinitum infestabat ita ⟦sit⟧ etiam nunc
+Gal.4.29	others-1573-agrees	reading	nunc	1758,1681: nun	1573,1715,1747,1750,ws	divinitum infestabat ita sit etiam ⟦nunc⟧
+Gal.4.30	base-only	reading		1573: Gen	1750,ws	ajunt litterae Ejice ancillam ejusque ⟦⟧ filium non enim heres erit
+Gal.4.30	base-only	reading	non	1573: nó	1556,1758,1681,1747,1750,ws	litterae Ejice ancillam ejusque filium ⟦non⟧ enim heres erit ancillae filius
+Gal.4.30	base-only	spelling	ancillae	1573: ancillę	1758,1747,1750,ws	filium non enim heres erit ⟦ancillae⟧ filius cum liberae filio
+Gal.4.31	correct	edge	liberae	1573,1758,1681: 	1747,1750,ws	non ancillae nati sumus sed ⟦liberae⟧
+Gal.5.1	base-only	reading	adservuit	1573: asseruit | 1758: vi seruit | 1715: afferuir vos inquietant	ws	libertate in quam Christus nos ⟦adservuit⟧ state et nolite rursum jugo
+Gal.5.1	base-only	reading	servitutis teneri	1573: ferui	1556,1750,ws	state et nolite rursum jugo ⟦servitutis teneri⟧
+Gal.5.2	base-only	reading	circumcidamini	1573: circúcidemini | 1758,1681: circumcideni | 1715: per charitatem alius alii fervia ireumcidamini	1556,1747,1750,ws	ego Paulus vobis dico si ⟦circumcidamini⟧ Christus vobis nihil proderit
+Gal.5.2	others-1573-agrees	division	Christus	1747,1750: Chri ftus	1573,1556,1758,1681,1715,ws	Paulus vobis dico si circumcidamini ⟦Christus⟧ vobis nihil proderit
+Gal.5.2	correct	reading		1573,1681: nihil	1556,1715,ws	vobis dico si circumcidamini Christus ⟦⟧ vobis nihil proderit
+Gal.5.2	correct	reading	nihil	1573,1681: 	1556,1758,1715,1747,1750,ws	dico si circumcidamini Christus vobis ⟦nihil⟧ proderit
+Gal.5.3	base-only	reading	Hoc	1573: Hot	1758,1681,1750,ws	⟦Hoc⟧ item confirmo omni homini qui
+Gal.5.3	base-only	reading	circumciditur	1573: circum PAVLI EPIST AD GALAT ciditur | 1681: drnciditur	1758,1750,ws	item confirmo omni homini qui ⟦circumciditur⟧ eum debere toti parere legi
+Gal.5.5	base-only	spelling	justitiae	1573: iustitię | 1556: íuftitize	1758,1750,ws	Spiritu per fidem a spe ⟦justitiae⟧ pendemus
+Gal.5.6	base-only	reading	circumcisio	1573: circúcisio | 1758: eircumcisio	1747,1750,ws	Nam in Christo Jesu neque ⟦circumcisio⟧ quidquam valet neque praeputium sed
+Gal.5.6	correct	reading	caritatem agens	1573,1758: charitatem operans | 1758: charitatem operans Currebat | 1681: iritatem opcrans Currcbatis benc	1747,ws	neque praeputium sed fides per ⟦caritatem agens⟧
+Gal.5.8	base-only	reading	Ista	1573: Ilta	1681,1747,1750,ws	⟦Ista⟧ persuasio non ab eo est
+Gal.5.9	base-only	reading	Paullum fermenti	1573: Paulum ferimenti	1750,ws	⟦Paullum fermenti⟧ totam massam fermentat
+Gal.5.10	base-only	reading	non	1573: nó	1758,1747,1750,ws	per Dominum persuasi vos omnino ⟦non⟧ aliter animatos fore Verum qui
+Gal.5.11	base-only	reading		1573: a	1747,1750,ws	Ego quidem fratres ⟦⟧ si adhuc circumcisionem praedico qui
+Gal.5.11	base-only	f/s	si	1573: fi	ws	Ego quidem fratres ⟦si⟧ adhuc circumcisionem praedico qui sit
+Gal.5.11	base-only	reading		1573: fione doce	1747,1750,ws	quidem fratres si adhuc circumcisionem ⟦⟧ praedico qui sit ut tamen
+Gal.5.11	base-only	f/s	sit	1573: fit	ws	si adhuc circumcisionem praedico qui ⟦sit⟧ ut tamen infester Si ita
+Gal.5.11	others-1573-agrees	reading	Si	1758,1747: 	1573,1750,ws	qui sit ut tamen infester ⟦Si⟧ ita esset non esset ea
+Gal.5.11	base-only	reading		1573: feftarent me	1758,ws	Si ita esset non esset ⟦⟧ ea quae est crucis offensio
+Gal.5.12	base-only	reading	O utinam exscindatur	1573: Ovtinam excidantur | 1573: Judæi nec Ovtinam excidantur	ws	⟦O utinam exscindatur⟧ qui vos inquietant
+Gal.5.13	base-only	edge		1573: cos offende	1556,1758,ws	utinam exscindatur qui vos inquietant ⟦⟧ Vos enim ad libertatem vocati
+Gal.5.13	base-only	reading	modo ne	1573: moItu Euange done	1758,1747,1750,ws	ad libertatem vocati estis fratres ⟦modo ne⟧ libertate ad libidinem abutamini sed
+Gal.5.13	correct	reading	caritatem	1573,1758,1681: charitatem	1747,1750,ws	ad libidinem abutamini sed per ⟦caritatem⟧ alius alii serviatis
+Gal.5.14	base-only	reading	videlicet	1573: vide Matt licet	1758,1681,1715,1747,1750,ws	lex in uno dicto comprehenditur ⟦videlicet⟧ alterum ut teipsum diligito
+Gal.5.15	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ alii alios mordetis ac exeditis
+Gal.5.15	base-only	reading	mordetis	1573: nordetis	1758,1715,1747,1750,ws	Quod si alii alios ⟦mordetis⟧ ac exeditis videte ne alii
+Gal.5.15	base-only	reading	consumamini	1573: consumainini | 1758: consumanini | 1715: confumaminti	1681,1747,ws	videte ne alii ab aliis ⟦consumamini⟧
+Gal.5.16	base-only	reading	obtemperate	1573: obtéperate	1758,1715,1747,1750,ws	Dico autem ⟦obtemperate⟧ Spiritui neque carnis cupiditatem exsequimini
+Gal.5.16	correct	reading	neque	1573,1758: néue	1715,1747,1750,ws	Dico autem obtemperate Spiritui ⟦neque⟧ carnis cupiditatem exsequimini
+Gal.5.16	correct	spelling	exsequimini	1573,1758: exequimini | 1750: exfequi mini | 1715: exequimtinti Rom et	ws	obtemperate Spiritui neque carnis cupiditatem ⟦exsequimini⟧
+Gal.5.17	correct	reading	Spirtus	1573,1758,1715,1747,1750: fpiritus	ws	enim contra quam Spiritus et ⟦Spirtus⟧ contra quam caro concupiscit Atque
+Gal.5.18	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ Spiritu agimini non estis sub
+Gal.5.19	correct	division	adulterium	1573,1747: adul terium | 1758: dulterium	1715,1750,ws	autem manifesta carnis opera videlicet ⟦adulterium⟧ stuprum impuritas salacitas
+Gal.5.20	base-only	reading	aemulationes iracundiae	1573: mulationes iracundię | 1715: zmulationes iracundiz	1758,1681,1750,ws	Deastrorum cultus veneficium inimicitiae lis ⟦aemulationes iracundiae⟧ contentiones seditiones sectae
+Gal.5.20	base-only	spelling	sectae	1573: secte | 1715: fecta | 1750: festae | 1681: feftae v ie Invidix | 1715: fecta Invidiz	1758,1747,ws	lis aemulationes iracundiae contentiones seditiones ⟦sectae⟧
+Gal.5.21	base-only	division	quemadmodum	1573: quem admodum | 1747: quei y wi admodum | 1750: guemadmodum	1556,1758,1715,ws	qui faciunt hoc vobis praedico ⟦quemadmodum⟧ jam praedixi ii divinum regnum
+Gal.5.22	correct	reading	caritas	1573,1556,1758,1715: charitas	1747,1750,ws	At Spiritus fructus est ⟦caritas⟧ gaudium pax clementia benignitas bonitas
+Gal.5.22	base-only	division	clementia	1573,1556: cle mentia | 1747: à debo itas mentia	1758,1681,1715,1750,ws	fructus est caritas gaudium pax ⟦clementia⟧ benignitas bonitas fides
+Gal.5.24	base-only	division	sunt autem	1573: suntautem	1758,1715,1747,1750	Qui ⟦sunt autem⟧ Christi ii carnem una cum
+Gal.5.24	base-only	division	libidinibus	1573: libidi nibus | 1747: libidini bus	1556,1758,1681,1750	Christi ii carnem una cum ⟦libidinibus⟧ et cupiditatibus crucifixerunt
+Gal.5.26	base-only	f/s	simus	1573: fimus		Ne ⟦simus⟧ gloriosi invicem provocantes invicem invidentes
+Gal.6.1	base-only	f/s	si	1573: fi	ws	Fratres ⟦si⟧ quis aliquo delicto anticipatus fuerit
+Gal.6.1	base-only	reading	qui	1573: q	1556,1758,1681,1715,1747,1750,ws	delicto anticipatus fuerit vos eum ⟦qui⟧ spirituales estis reficite cum animi
+Gal.6.1	others	spelling	adspicientes vos ipsos	1573: afpiciétes vosipsos | 1556: afpícietes uofiptos | 1758,1715: aspicientes vosipsos	1750,ws	estis reficite cum animi comitate ⟦adspicientes vos ipsos⟧ ne vos quoque tentemini
+Gal.6.1	base-only	reading	tentemini	1573: tétemini et præcepto	1556,1758,1715,1747,1750,ws	vos ipsos ne vos quoque ⟦tentemini⟧
+Gal.6.2	correct	reading	opera	1573,1758,1715,1750: onera	ws	Alii aliorum ⟦opera⟧ ferte atque ita Christi lege
+Gal.6.2	base-only	reading		1573: a	1758,1715,1747,1750,ws	opera ferte atque ita Christi ⟦⟧ lege perfungimini
+Gal.6.2	base-only	division	perfungimini	1573: per fungimini | 1758: perfurgimini | 1715: perfung Matth it Ioh et | 1747: perungiımini Matth Io et	1750,ws	ferte atque ita Christi lege ⟦perfungimini⟧
+Gal.6.3	base-only	f/s	si	1573: fi	ws	Nam ⟦si⟧ quis sibi videtur esse aliquid
+Gal.6.3	base-only	f/s	sit	1573: fit	ws	videtur esse aliquid quum nihil ⟦sit⟧ ipse se animo fallit
+Gal.6.4	base-only	reading	quisque	1573: quisqs | 1556: quía | 1715: quitque	1758,1681,1747,1750,ws	Exploret autem suum ⟦quisque⟧ opus ita demum seipso tantum
+Gal.6.4	correct	reading		1573,1556,1758,1750: in | 1747: ars	ws	suum quisque opus ita demum ⟦⟧ seipso tantum quod glorietur habebit
+Gal.6.6	base-only	reading	eo	1573: co	1758,1681,1715,1747,1750,ws	autem qui doctrina eruditur cum ⟦eo⟧ a quo eruditur omnia bona
+Gal.6.7	base-only	division	Ne errate	1573: Neerrate	1758,1681,1715,1750,ws	⟦Ne errate⟧ Deus non eluditur nam quod
+Gal.6.8	base-only	reading	sempiternam	1573: sempiternain	1556,1758,1747,1750,ws	severit ex Spiritu vitam metet ⟦sempiternam⟧
+Gal.6.9	base-only	reading	defetisci	1573,1556: defethisci | 1758: de fetisci | 1747: defetiíci | 1750: defetifti	ws	Nolimus autem recte faciendo ⟦defetisci⟧ nam nostro tempore metemus non
+Gal.6.9	base-only	division	nostro	1573: no stro | 1556: no et Td s éftro	1758,1681,1747,1750,ws	autem recte faciendo defetisci nam ⟦nostro⟧ tempore metemus non defatigandi
+Gal.6.10	base-only	reading	omnibus	1573: autem in cruce Chrifti mnibus | 1758: on nibus	1747,1750,ws	ut tempus habemus benefaciamus quum ⟦omnibus⟧ tum maxime fidei domesticis
+Gal.6.11	base-only	reading	quantis	1573,1556: quátis | 1758: quant	1747,1750,ws	Videte ⟦quantis⟧ vobis litteris scripserim mea manu
+Gal.6.11	base-only	reading	manu	1573: manua | 1573: manua Quicunquese	1758,1681,1747,1750,ws	quantis vobis litteris scripserim mea ⟦manu⟧
+Gal.6.12	others	spelling	Quicumque	1758,1747: Quicunque | 1681: Quicunquc	1750,ws	⟦Quicumque⟧ se in carne pulchra specie
+Gal.6.12	base-only	spelling	Quicumque se	1573: Quicunquese	1750,ws	⟦Quicumque se⟧ in carne pulchra specie venditant
+Gal.6.12	base-only	reading	circumcidi	1573: circuincidi | 1681: circuncidi	1758,1747,1750,ws	pulchra specie venditant ii vos ⟦circumcidi⟧ cogunt tantum ut Christi cruce
+Gal.6.13	correct	reading	se	1573,1750: ne	ws	Nam ⟦se⟧ ipsi quidem qui circumciduntur legi
+Gal.6.13	base-only	division	parent	1573: pa rent	1758,1747,1750,ws	ipsi quidem qui circumciduntur legi ⟦parent⟧ sed ideo vos circumcidi volunt
+Gal.6.14	base-only	division	At mihi	1573: Atmihi	1758,1681,1715,1747,1750,ws	⟦At mihi⟧ gloriari ne sit nisi in
+Gal.6.14	correct	reading		1573,1681: b	1758,1715,1747,1750,ws	nostri Jesu Christi per quem ⟦⟧ et mundus mihi crucifixus est
+Gal.6.14	base-only	reading	crucifixus	1573: crucifi et nihil w xus	1758,1715,1747,1750,ws	per quem et mundus mihi ⟦crucifixus⟧ est et ego mundo
+Gal.6.15	base-only	reading	circumcisio	1573: circúcisio | 1758: cir dei	1715,1750,ws	Etenim in Christo Jesu neque ⟦circumcisio⟧ quidquam valet neque praeputium sed
+Gal.6.15	base-only	reading		1573: cij	1758,1715,1750,ws	Christo Jesu neque circumcisio quidquam ⟦⟧ valet neque praeputium sed nova
+Gal.6.15	base-only	reading	natura	1573: creatura | 1750: matura | 1758: Ts atura	1715,ws	valet neque praeputium sed nova ⟦natura⟧
+Gal.6.16	correct	spelling	quicumque	1573,1758: quicunque | 1750: qui cumque	ws	Et ⟦quicumque⟧ ad hanc normam se gerunt
+Gal.6.16	base-only	reading	normam	1573: norinam | 1715: nortum maxime fidei domefticis mam	1758,1750,ws	Et quicumque ad hanc ⟦normam⟧ se gerunt iis pax et
+Gal.6.16	base-only	reading	gerunt	1573: gerét	1715,1750,ws	quicumque ad hanc normam se ⟦gerunt⟧ iis pax et misericordia tribuetur
+Gal.6.17	base-only	reading	Domini	1573: Dni	1556,1758,1715,1750,ws	mihi negotia facessat ego enim ⟦Domini⟧ nostri Jesu Christi notas in
+Gal.6.18	base-only	reading	favor	1573,1556: gratia	1747,1750,ws	Domini nostri Jesu Christi ⟦favor⟧ adsit animis vestris fratres Amen
+Gal.6.18	base-only	division	vestris	1573: ve stris	1556,1715,1747,1750,ws	Jesu Christi favor adsit animis ⟦vestris⟧ fratres Amen Ad Galatas scripta
+Gal.6.18	base-only	reading		1573: ΑΝΝΟΤΑΤΙΟ | 1715: in veftra carne glorientur | 1750: o	ws	adsit animis vestris fratres Amen ⟦⟧ Ad Galatas scripta est Romae
+Gal.6.18	base-only	edge	Romae	1573,1556: 	1758,1747,1750,ws	Amen Ad Galatas scripta est ⟦Romae⟧

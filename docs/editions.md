@@ -154,6 +154,48 @@ Wikisource prints the early wording with 1715, 1747 and 1750; 1758, 1681 and 172
 - **The subscription** after the blessing (*Ad Corinthios secunda scripta est Philippis Macedoniae, missa per Titum &
   Lucam.*) is set in italics apart, as after Romans and 1 Corinthians; Wikisource runs it into the verse.
 
+### Galatians–Colossians in 1573 against 1556 and Wikisource (stage 2, 2026-11-11)
+
+Every place where Wikisource differs from 1573 was read on the 1573 page image (canvases 889–904;
+`data/review/gal1-6-stage2.md`, `eph1-6-`, `phil1-4-`, `col1-4-stage2.md`, 164 corrections). As in Romans and
+Corinthians, Wikisource prints the early wording (*favor*, *fiducia*, *res*, *corpus*), with 1715, 1747 and 1750 often;
+1758, 1681 and 1726–27 follow 1573.
+- **The revision**, already in 1556 where its OCR can be read: *favor → gratia*, *fiducia → fides* (Gal 2–3, 10×),
+  *nova natura → nova creatura* (Gal 6:15), *corpus → caro* (Eph 6:5, Col 3:22), *fortunavit → felicitavit* (Eph 1:3),
+  *ambire → aemulari* (Gal 4:17–18), *dedit → dedidit* (Gal 1:4, Eph 5:2, 5:25).
+- **1573's own changes against 1556** (recorded as variants; the text follows 1573): Gal 3:19 *sequestrum* (1556
+  *sequestrem*), 4:14 *angelum* (*nuncium*), 4:17 *nos* (*uos*), 5:2 *circumcidemini* (*circumcidamini*) and *nihil
+  vobis* (*uobis nihil*), 5:6 *operans* (*agens*), 5:12 *excidantur* (*excindantur*); Eph 2:21 *sanctum* (*sacrum*),
+  4:18 *duritiem* (*torporem*), 4:21 *Si modo* (*Siquidem*); Phil 4:15 *et acceptorum* added to the text (1556 has it
+  in margin note b), 4:19 *quibus* (*quicquid*); Col 2:12 *collocatam* (*collatam*).
+- **Kept against 1573 with 1556**: Col 2:5 *at animo quidem* (1573 *ac*, against *quamvis*).
+- **Verse numbers**: 1573 prints Gal 5:22–23 as one verse (canvas 892) and ends Colossians 3 with the KJV's 4:1
+  (canvas 903), as Wikisource does. Its Col 4:8 margin gives Castellio's alternative *aliàs nostrarum rerum statum
+  cognoscatis*.
+- **Subscriptions** set in italics apart after each epistle, as after Romans and Corinthians.
+
+### 1 Thessalonians–Philemon in 1573 against 1556 and Wikisource (stage 2, 2026-11-11)
+
+Every place where Wikisource differs from 1573 was read on the 1573 page image (canvases 904–916;
+`data/review/1thess1-5-stage2.md`, `2thess1-3-`, `1tim1-6-`, `2tim1-4-`, `titus1-3-`, `phlm1-stage2.md`, 111
+corrections). Wikisource again prints the early wording (*favor* in every greeting and blessing, *Haereticum*, *in
+corpore*), often with 1715, 1747 and 1750; 1758, 1681 and 1726–27 follow 1573.
+- **1573's own changes against 1556** (recorded as variants; the text follows 1573): 1 Thess 3:11 *paterque* (1556
+  *pater*), 4:8 *nos* (*uos*), 4:14 *in Christo obdormiverint* (*per Christum obdormiverunt*), 4:16 *cum … cum …
+  cumque* (*in praeconio, in … voce, in[que]*), 5:2 *esse venturam* (*venturam esse*); 2 Thess 1:6 *sicut* (*ut*), 2:13
+  *fidemque veritatis* (*verique fidem*); 1 Tim 1:5 *Enimvero* (*Atqui*), 2:4 *ad veritatis* (*ad veri*), **3:16
+  *apparuit in carne*** (1556 *Deus extitit in corpore*; Wikisource, 1715, 1747, 1750 *apparuit in corpore*), 4:2
+  *inustam* (*iniustam*); 2 Tim 3:10 *assequutus* (*affectatus*); Titus 1:16 *ad omne bonum opus* (*ad omnem rem
+  bonam*). 1556 is cited from its OCR.
+- **1573's misprints kept out**: 1 Thess 2:8 *ſic vos* (1556 and every other printing *sic nos*, as *fuerimus* and
+  *vobis* require); 4:1 *igiturs, fratre*.
+- **Verse numbers**: 1573 has no 1 Thess 3:11 (its 10 runs on into *Ipse Deus paterque*, so its 11–12 are the KJV's
+  12–13); it numbers *Amen* as 1 Tim 6:17. It begins 1 Tim 1:4 at *neve fabulas*, Titus 3:6 at *quo nos*, and prints 1
+  Thess 5:16, 17, 18 as the KJV, where Wikisource sets those words a verse off; the text follows the KJV.
+- **Castellio's L. … G. marks** at 2 Tim 3:4 (*L. caeci et G. voluptatis*), in 1573 and 1556; 1758, 1715 and 1750 drop
+  them. As at Matt 19:4, the marks go and the words stay.
+- **Subscriptions** set in italics apart after each letter, as after the earlier epistles.
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.

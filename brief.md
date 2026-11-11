@@ -34,6 +34,9 @@ them are dated in `HUMAN.md` § Decided.
   Not yet consistent: *ējiciō* (5×) against *ēiciō* (1×); M1 will list such cases for a decision.
 - Capitals for the persons of God (*Pater*, *Fīlius*, *Spīritus Sānctus*).
 - Proper names: as in the finished chapters (*Capharnaum*, *Jēsūs*, *Jācōbus*); a names list will be kept.
+  **One form per person in both Testaments, the Old Testament's** (decided 2026-11-11, decision 46): *Hagar* in
+  Galatians as in Genesis, *Nōa* in Matthew as in Genesis and Luke; where a New Testament book has the Greek or
+  Vulgate form (*Agar*, *Noe*, *Elias*, *Esaias*), the Old Testament's is proposed, in its case.
 
 ## Macrons
 

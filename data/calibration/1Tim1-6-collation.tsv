@@ -1,0 +1,187 @@
+id	kind	sort	text	readings	support	context
+1Tim.4.2	uncovered	base	57% of the words			
+1Tim.5.13	uncovered	base	39% of the words			
+1Tim.1.1	base-only	division	nostri	1573: no stri	1758,1681,1715,1747,1750,ws	Christi ex mandato Dei servatoris ⟦nostri⟧ et Domini Jesu Christi spei
+1Tim.1.2	base-only	reading	favorem	1573: gratiam	1715,1747,1750,ws	Timotheo germano in fide filio ⟦favorem⟧ misericordiam pacem a Deo patre
+1Tim.1.2	base-only	reading	Domino	1573: Dño	1758,1681,1750,ws	a Deo patre nostro et ⟦Domino⟧ Jesu Christo Domino nostro
+1Tim.1.3	base-only	reading		1573: in	1750,ws	Quemadmodum ego te ⟦⟧ Macedoniam proficiscens cohortatus sum maneto
+1Tim.1.4	base-only	reading	fide instructionem	1573: fi | 1573: fi Enimuerò	1747,ws	quaestiones pariunt quam divinam in ⟦fide instructionem⟧
+1Tim.1.5	correct	reading	Atqui	1573,1758: Enimuerò	1556,1747,1750,ws	⟦Atqui⟧ praeceptionum finis est caritas ex
+1Tim.1.5	base-only	reading	caritas	1573: charitas	1747,1750,ws	Atqui praeceptionum finis est ⟦caritas⟧ ex animo puro bonaque conscientia
+1Tim.1.5	base-only	division	animo	1573: ani mo	1758,1747,ws	praeceptionum finis est caritas ex ⟦animo⟧ puro bonaque conscientia et fide
+1Tim.1.5	base-only	reading	conscientia	1573: cófcientia	1758,1681,1747,1750,ws	caritas ex animo puro bonaque ⟦conscientia⟧ et fide non ficta proficiscens
+1Tim.1.5	base-only	reading	non	1573: nó	1556,1681,ws	puro bonaque conscientia et fide ⟦non⟧ ficta proficiscens
+1Tim.1.5	base-only	edge	proficiscens	1573: proficifcés Tit	1758,1750,ws	conscientia et fide non ficta ⟦proficiscens⟧ A quibus aberrantes quidam in
+1Tim.1.6	base-only	reading	vanitatem	1573: vaRom nitatem	1681,1747,1750,ws	aberrantes quidam in eam orationis ⟦vanitatem⟧ deflexerunt
+1Tim.1.7	correct	spelling	adfirment	1573,1758: affirment | 1750: ad firment | 1747: affirinent g	ws	quid dicant neque de quibus ⟦adfirment⟧
+1Tim.1.8	base-only	f/s	si	1573: fi	ws	Scimus sane bonam esse legem ⟦si⟧ quis ea legitime utatur
+1Tim.1.9	base-only	edge		1573: b na sua spem	1556,1758,1750,1726,ws	si quis ea legitime utatur ⟦⟧ Hoc intelligens justis non esse
+1Tim.1.9	base-only	reading	justis	1573: biustis | 1747: iufti	1556,1758,1681,1750,1726,ws	Hoc intelligens ⟦justis⟧ non esse latam legem sed
+1Tim.1.9	base-only	reading		1573: ciunt quod	1758,1681,1747,1726,ws	non esse latam legem sed ⟦⟧ sceleratis et contumacibus impiis et
+1Tim.1.9	base-only	reading	irreligiosis	1573: irreli vi lex lata nó giosis	1556,1758,1681,1747,1750,1726,ws	et contumacibus impiis et improbis ⟦irreligiosis⟧ et profanis patricidis et matricidis
+1Tim.1.10	correct	reading	cinaedis	1573,1758: pædiconibus | 1726: padiconibus	1747,1750,ws	Homicidis impudicis ⟦cinaedis⟧ plagiariis mendacibus periuris etsi quid
+1Tim.1.10	base-only	reading		1573: viuerent	1750,1726,ws	Homicidis impudicis cinaedis plagiariis ⟦⟧ mendacibus periuris etsi quid aliud
+1Tim.1.10	correct	division	etsi	1573,1556,1758,1750,1726: et fi	1747,ws	impudicis cinaedis plagiariis mendacibus periuris ⟦etsi⟧ quid aliud sanae doctrinae contrarium
+1Tim.1.10	base-only	edge	contrarium est Quae	1573: que	1556,1758,1681,1747,1750,ws	quid aliud sanae doctrinae ⟦contrarium est Quae⟧ sita est in glorioso beati
+1Tim.1.11	base-only	spelling	Quae	1573,1556: que | 1681: Qux | 1726: AULUS apoftolus Jefu Chrifti ex mandato Dei Qua	1758,1747,1750,ws	⟦Quae⟧ sita est in glorioso beati
+1Tim.1.12	base-only	reading	tantum	1573: tantuın | 1726: tan tum	1556,1758,1681,1747,1750,ws	Jesu Domino nostro qui mihi ⟦tantum⟧ fidei habuerit ut me huic
+1Tim.1.13	others	reading	misertus	1573: misertuin | 1556,1758,1715,1726: mífertum	ws	infestus et contumeliosus Sed mei ⟦misertus⟧ est quoniam ignarus feci expers
+1Tim.1.14	correct	reading	caritate	1573,1556,1715,1726: charitate | 1758: chartate | 1747: ca pliciratione Inde omnes curitate	1750,ws	fuit excellentissimum cum fide et ⟦caritate⟧ in Christo Jesu posita
+1Tim.1.15	base-only	reading	Jesum	1573: Iesuin	1556,1758,1681,1715,1747,1750,1726,ws	et omni approbatione digna Christum ⟦Jesum⟧ in mundum venisse servatum sontes
+1Tim.1.15	base-only	reading	mundum	1573: mudum	1556,1758,1681,1715,1747,1750,1726,ws	approbatione digna Christum Jesum in ⟦mundum⟧ venisse servatum sontes quorum vel
+1Tim.1.15	base-only	f/s	sontes	1573: fontes	ws	Jesum in mundum venisse servatum ⟦sontes⟧ quorum vel primus ego sum
+1Tim.1.16	base-only	spelling	exsereret	1573: exereret	1747,1750,ws	ut in me in primis ⟦exsereret⟧ Jesus Christus summam clementiam ad
+1Tim.1.17	base-only	reading	Regi autem	1573: i Regiaût	1758,1715,1750,ws	⟦Regi autem⟧ saeculorum immortali inadspectablil soli sapienti
+1Tim.1.17	base-only	reading	inadspectablil	1573: inaspectabili | 1750: inadfpectabili	ws	Regi autem saeculorum immortali ⟦inadspectablil⟧ soli sapienti Deo honos et
+1Tim.1.17	base-only	division	sapienti	1573: sa pienti | 1715: fa Scimus fane bonam effe le pienti	1556,1758,1681,1750,ws	autem saeculorum immortali inadspectablil soli ⟦sapienti⟧ Deo honos et gloria in
+1Tim.1.18	base-only	division	Hoc tibi	1573: Hoctibi | 1750: Hoctibi a	1556,1758,1681,1715,ws	⟦Hoc tibi⟧ praeceptum commendo fili Timothee secundum
+1Tim.1.18	base-only	reading	commendo	1573: coininendo | 1715: comefTe latam legem fed fceleratis mendo	1556,1758,1681,1750,ws	Hoc tibi praeceptum ⟦commendo⟧ fili Timothee secundum praegressa de
+1Tim.1.19	base-only	reading	Fidem	1573: fidein | 1758: Fidet	1556,1715,1750,ws	⟦Fidem⟧ habens bonam conscientiam qua repulsa
+1Tim.1.19	correct	reading	bonam	1573,1758,1750: bonamque | 1556: bonamép	ws	Fidem habens ⟦bonam⟧ conscientiam qua repulsa quidam fidei
+1Tim.1.19	base-only	division	qua repulsa	1573: quarepul sa	1758,1681,1715,1750,ws	Fidem habens bonam conscientiam ⟦qua repulsa⟧ quidam fidei naufragium fecerunt
+1Tim.1.20	base-only	reading		1573: Cor s g	1758,1750,ws	Hymenaeus et Alexander quos ego ⟦⟧ Satanae dedidi ut dediscant impie
+1Tim.1.20	others-1573-agrees	edge	impie loqui	1758,1681: 	1573,1556,1750,ws	Satanae dedidi ut dediscant ⟦impie loqui⟧
+1Tim.2.1	base-only	reading	supplicationes	1573: sup plicationes | 1758: suppliotro cationes | 1715: fupplicatio Mulieri quidem docere non nes | 1747: fuppli ne Sed ideo mihi tributa cationes	1556,1681,1750,ws	igitur primum omnium ut fiant ⟦supplicationes⟧ preces interpellationes gratiarum actiones pro
+1Tim.2.2	base-only	reading	tranquillam	1573: tranquillain | 1715: tranquil tus eft deinde Eva lam	1758,1681,1747,ws	et omnibus potestate pollentibus ut ⟦tranquillam⟧ quietamque vitam agamus cum omni
+1Tim.2.3	base-only	division	Hoc enim	1573,1556: Hocenim	1758,1681,1715,1747,1750,ws	⟦Hoc enim⟧ honestum est nostroque servatori Deo
+1Tim.2.4	correct	reading	veri	1573,1758: veritatis	1556,1715,1747,1750,ws	homines servari vult et ad ⟦veri⟧ cognitionem venire
+1Tim.2.5	base-only	reading	Unus	1573: Vous	1556,1758,1681,1715,1747,1750,ws	⟦Unus⟧ enim Deus est unus item
+1Tim.2.5	base-only	reading	homo	1573: hono	1556,1758,1681,1715,1747,1750,ws	item sequester Dei et hominum ⟦homo⟧ Christus Jesus
+1Tim.2.6	base-only	reading	testandam	1573: testádam | 1556: teflandam | 1715: teltan munus expetit rem ponam dam	1758,1747,1750,ws	quam ad rem suis temporibus ⟦testandam⟧ ego praeco sum et apostolus
+1Tim.2.7	correct	reading	fidelix	1573,1758,1747,1750: fidelis	ws	Christum non mentior magister alienigenarum ⟦fidelix⟧ atque verax
+1Tim.2.8	base-only	division	loco	1573: lo co	1556,1758,1715,1747,1750,ws	ut supplicent homines quovis in ⟦loco⟧ attollentes pias manus citra iram
+1Tim.2.9	base-only	reading	verecundia	1573: verecun Petr dia	1556,1758,1715,1747,1750,ws	se mulieres modesto habitu cum ⟦verecundia⟧ et frugalitate comant non cincinnis
+1Tim.2.11	base-only	reading	summa	1573: sumina | 1747: umma	1758,1681,1715,1750,ws	Mulier quiete discat ⟦summa⟧ cum obedientia
+1Tim.2.12	correct	spelling	auctoritatem	1573,1758: authoritatem	1747,1750,ws	quidem docere non permitto nec ⟦auctoritatem⟧ sibi vindicare in virum sed
+1Tim.2.12	correct	reading	vindicare	1573,1758: vendicare	1747,1750,ws	non permitto nec auctoritatem sibi ⟦vindicare⟧ in virum sed quietam esse
+1Tim.2.13	base-only	reading	formatus	1573: forinatus | 1747: for matus	1758,1750,ws	Nam prior Adamus ⟦formatus⟧ est deinde Eva
+1Tim.2.15	correct	reading	caritate	1573,1758: charitate	1747,1750,ws	si manserit in fide et ⟦caritate⟧ et sanctimonia cum frugalitate
+1Tim.3.1	base-only	f/s	si	1573: fi	ws	Certa res est ⟦si⟧ quis episcopi munus expetit rem
+1Tim.3.1	base-only	reading	rem bonam	1573: bonum munus | 1758: bonur munus	1750,ws	si quis episcopi munus expetit ⟦rem bonam⟧ cupit
+1Tim.3.2	base-only	reading	modestus	1573: nodestus | 1758: modesty | 1681: mo v ftus	1747,1750,ws	unius uxoris vir sobrius frugi ⟦modestus⟧ hospitalis aptus ad docendum
+1Tim.3.4	base-only	reading	Suam	1573: suain	1758,1747,1750,ws	⟦Suam⟧ domum bene administrans liberos habens
+1Tim.3.4	base-only	reading	summa	1573: sumina	1758,1681,1747,1750,1726,ws	administrans liberos habens dicto audientes ⟦summa⟧ cum gravitate
+1Tim.3.5	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ quis suam ipsius domum administrare
+1Tim.3.5	base-only	f/s	suam	1573: fuam	ws	Quod si quis ⟦suam⟧ ipsius domum administrare nescit quo
+1Tim.3.5	base-only	reading	domum	1573: domű	1758,1681,1747,1750,1726,ws	Quod si quis suam ipsius ⟦domum⟧ administrare nescit quo pacto Dei
+1Tim.3.6	base-only	f/s	sit	1573: fit	ws	Ne ⟦sit⟧ novitius ne inflatus in diaboli
+1Tim.3.6	correct	division	ne inflatus	1573,1681: neinflatus	1758,1715,1750,ws	Ne sit novitius ⟦ne inflatus⟧ in diaboli criminationem incurrat
+1Tim.3.7	base-only	reading	alienorum testimonio	1573: a alienorű testiinonio	1758,1747,1750,1726,ws	Debet etiam honesto ⟦alienorum testimonio⟧ commendatus esse ne in probrum
+1Tim.3.7	others-1573-agrees	reading	esse	1758: el | 1747,1726: efle	1573,1556,1681,1750,ws	etiam honesto alienorum testimonio commendatus ⟦esse⟧ ne in probrum diabolique laqueum
+1Tim.3.7	base-only	reading	laqueum	1573: laqueű | 1715: ficiant quidam a fide fpiritibus aqueum	1556,1758,1681,1747,1750,1726,ws	esse ne in probrum diabolique ⟦laqueum⟧ incidat
+1Tim.3.9	base-only	edge	In	1573: bareligie bin	1758,1750,1726,ws	vino nimis dediti non sordidi ⟦In⟧ fidei arcano sibi bene conscii
+1Tim.3.11	base-only	reading	sobriae	1573: fobrie e scilicet co | 1750: fo briae | 1726: fobria	1758,1747,ws	Uxores item graves non calumniatrices ⟦sobriae⟧ fideles in omnibus
+1Tim.3.12	base-only	reading	domosque suus	1573: domosás fuas	ws	sint singularum uxorum viri liberos ⟦domosque suus⟧ bene regentes
+1Tim.3.12	others	reading	suus	1758,1681,1747,1750,1726: suas | 1715: uas	ws	singularum uxorum viri liberos domosque ⟦suus⟧ bene regentes
+1Tim.3.13	base-only	division	sibi gradum	1573: fibigradum	1556,1758,1681,1715,1750,1726,ws	qui recte ministrant ii praeclarum ⟦sibi gradum⟧ faciunt magnamque in fide in
+1Tim.3.13	base-only	reading	collocanda libertatem	1573: collo | 1573: collo Hæctibi	1758,1681,1715,1747,1750,1726,ws	in fide in Christo Jesu ⟦collocanda libertatem⟧
+1Tim.3.14	base-only	division	Haec tibi	1573: Hæctibi | 1556: Ixctibi	1681,1747,1750,1726,ws	⟦Haec tibi⟧ scribo sperans me ad te
+1Tim.3.15	base-only	f/s	sit	1573: fit	ws	Ut si tardem scias quomodo ⟦sit⟧ in Dei domo versandum quae
+1Tim.3.15	base-only	division	versandum	1573: ver sandum | 1750: verfandura	1556,1758,1715,1747,1726,ws	quomodo sit in Dei domo ⟦versandum⟧ quae est Dei viventis ecclesia
+1Tim.3.16	correct	reading		1573,1681: d	1758,1715,1747,1750,1726,ws	Et profecto magnum est ⟦⟧ pietatis arcanum Deus apparuit in
+1Tim.3.16	base-only	reading		1573: d Chriftiang	1758,1681,1750,1726,ws	magnum est pietatis arcanum Deus ⟦⟧ apparuit in corpore per Spiritum
+1Tim.3.16	correct	reading	corpore	1573,1758: carne	1556,1715,1747,1750,ws	pietatis arcanum Deus apparuit in ⟦corpore⟧ per Spiritum commendatus est conspectus
+1Tim.3.16	base-only	reading	conspectus	1573: con religionis spectus | 1556: confpecius | 1681,1715: confpe et us | 1747: conÍpectus | 1750: confpeétus	1758,1726,ws	corpore per Spiritum commendatus est ⟦conspectus⟧ angelis praedicatus gentibus creditus in
+1Tim.3.16	base-only	division	mundo	1573: mun do	1556,1758,1715,1747,1750,1726,ws	angelis praedicatus gentibus creditus in ⟦mundo⟧ receptus in gloria
+1Tim.3.16	others-1573-agrees	edge	gloria	1556,1715,1747: 	1573,1758,1750,1726,ws	creditus in mundo receptus in ⟦gloria⟧
+1Tim.4.1	base-only	reading		1573: sanctus in eum columbæ fpecie defcendit in eius lotione item confpectus angelis qui eum paftoribus nunciarunt CAPVT IIII Falsas doctrinas tam de coniugy et ciborum difcrimine quàm prophanas damnat commendat	ws	Spiritus ⟦⟧ autem diserte dicit fore ut
+1Tim.4.1	base-only	reading		1573: pietatis studium et Piritus autem tem	1556,1758,1747,1750,ws	Spiritus autem ⟦⟧ diserte dicit fore ut ultimis
+1Tim.4.2	base-only	reading	Per simulationem	1573: Thef perfimulationem	1758,1747,1750,ws	⟦Per simulationem⟧ hominum falsiloquorum injustam habentium conscientiam
+1Tim.4.2	correct	reading	injustam	1573,1758: inustam | 1681: t Petr tam | 1747: iniuinen ftam	1750,ws	Per simulationem hominum falsiloquorum ⟦injustam⟧ habentium conscientiam
+1Tim.4.4	base-only	reading	nihilque	1573: nihilas	1758,1715,1747,1750,ws	a Deo condita esse bona ⟦nihilque⟧ rejiciendum quod cum gratiarum actione
+1Tim.4.5	base-only	reading	quod	1573: qd	1556,1758,1715,1750,ws	Quippe ⟦quod⟧ divinis verbis et supplicatione lustretur
+1Tim.4.5	base-only	reading	supplicatione	1573: fupplicatióe	1556,1758,1715,1750,ws	Quippe quod divinis verbis et ⟦supplicatione⟧ lustretur
+1Tim.4.6	base-only	division	Haec tu	1573: Hæctu	1758,1681,1747,1750,1726,ws	⟦Haec tu⟧ fratribus proponens bonus eris Jesu
+1Tim.4.6	others-1573-agrees	reading	Jesu	1747,1750: lefu	1573,1758,1715,1726,ws	tu fratribus proponens bonus eris ⟦Jesu⟧ Christi minister educatus in fidei
+1Tim.4.6	base-only	division	Christi	1573: Chri sti	1758,1715,1747,1750,1726,ws	fratribus proponens bonus eris Jesu ⟦Christi⟧ minister educatus in fidei verbis
+1Tim.4.6	base-only	spelling	doctrinae	1573: doctrine | 1750: doé et trinae	1758,1747,1726,ws	educatus in fidei verbis bonaeque ⟦doctrinae⟧ quam adsecutus es
+1Tim.4.6	correct	spelling	adsecutus	1573,1556,1715: assecutus | 1758: asseri f tus | 1747: aflecutus | 1726: affequutus	1750,ws	fidei verbis bonaeque doctrinae quam ⟦adsecutus⟧ es
+1Tim.4.8	base-only	f/s	sit	1573: fit	ws	Quum ⟦sit⟧ enim corporis exercitatio ad pauca
+1Tim.4.8	others	reading	praescentis	1573: assiduam fcriptura lectionem præsentis | 1758,1715,1747,1750,1726: praesentis	ws	utilis est promissiones habens et ⟦praescentis⟧ et futurae vitae
+1Tim.4.10	base-only	reading	vivente	1573: viuéte	1556,1758,1715,1747,1750,1726,ws	patimur quod spem habemus in ⟦vivente⟧ Deo qui quum omnium tum
+1Tim.4.12	correct	reading	caritate	1573,1758,1715: charitate	1747,1750,ws	fidentibus exemplo esto verbis moribus ⟦caritate⟧ spiritu fide castitate donec veniam
+1Tim.4.13	base-only	reading	operam	1573: operain	1758,1715,1750,1726,ws	Da ⟦operam⟧ lectioni cohortationi doctrinae
+1Tim.4.14	base-only	reading	dotem	1573: dotein	1556,1758,1681,1715,1747,1726,ws	Noli ⟦dotem⟧ negligere qua praeditus es quae
+1Tim.4.14	base-only	reading		1573: à	1556,1758,1715,1747,1750,1726,ws	qua praeditus es quae tibi ⟦⟧ per oraculum collata est quum
+1Tim.4.14	base-only	reading	imposuisset	1573: in a diuino ia posuisset	1758,1715,1750,1726,ws	est quum quidem tibi manus ⟦imposuisset⟧ senatus
+1Tim.4.15	base-only	reading	proficere	1573: profice iussu re	1758,1715,1747,1726,ws	his esto ut in omnibus ⟦proficere⟧ videare
+1Tim.4.16	correct	division	te ipsum	1573,1758,1715,1726: teipfum	1750,ws	persevera hoc enim faciens et ⟦te ipsum⟧ servabis et auditores tuos
+1Tim.5.2	base-only	division	sorores	1573: foro res	1758,1747,1750,ws	feminas ut matres juniores ut ⟦sorores⟧ summa cum castitate
+1Tim.5.4	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ qua vidua liberos habet aut
+1Tim.5.4	correct	reading	qua	1573,1758,1750: quæ	1747,ws	Quod si ⟦qua⟧ vidua liberos habet aut nepotes
+1Tim.5.4	base-only	f/s	suam	1573: fuam	ws	aut nepotes doceat in primis ⟦suam⟧ familiam pietatem colere parentibusque vicem
+1Tim.5.4	base-only	reading	parentibusque	1573: parentibus	1758,1681,1715,1747,1750,ws	primis suam familiam pietatem colere ⟦parentibusque⟧ vicem reddere Hoc enim honestum
+1Tim.5.4	base-only	division	Domino	1573: Do mino	1758,1715,1747,1750,ws	Hoc enim honestum est et ⟦Domino⟧ acceptum
+1Tim.5.5	base-only	reading	vacatque	1573: vacatós | 1556: uacatáp	1758,1681,1715,1747,1750,ws	deserta habet in Deo spem ⟦vacatque⟧ supplicationibus et precibus noctes et
+1Tim.5.6	base-only	reading	vivens	1573: viuensa | 1556: uiués	1758,1681,1715,1747,1750,ws	At deliciis indulgens vidua ⟦vivens⟧ mortua est
+1Tim.5.8	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ qua suorum praesertim domesticorum curam
+1Tim.5.8	base-only	reading	domesticorum	1573: domesticoruin Christiană	1556,1758,1715,1747,1750,ws	Quod si qua suorum praesertim ⟦domesticorum⟧ curam non habet ea fidem
+1Tim.5.8	base-only	reading		1573: et | 1556: b	1758,1715,1747,ws	domesticorum curam non habet ea ⟦⟧ fidem abnegavit estque infidente deterior
+1Tim.5.8	base-only	reading	infidente	1573: infidenreligionem te	1758,1715,1747,1750,ws	habet ea fidem abnegavit estque ⟦infidente⟧ deterior
+1Tim.5.9	base-only	reading	non	1573: no	1556,1758,1681,1715,1747,1750,ws	Vidua cooptetur ⟦non⟧ minor annis sexaginta quae unius
+1Tim.5.9	base-only	reading	quae	1573: que ministrandum | 1556,1715: quz	1758,1747,1750,1726,ws	cooptetur non minor annis sexaginta ⟦quae⟧ unius viri fuerit uxor
+1Tim.5.10	others-1573-agrees	reading	sanctorum	1715: fanótorun | 1747: fan et torum | 1726: fan et orum	1573,1758,1750,ws	educavit si hospitalitatem exercuit si ⟦sanctorum⟧ pedes lavit subvenit adflictis si
+1Tim.5.10	others	reading		1715,1747,1726: fi	1750,ws	exercuit si sanctorum pedes lavit ⟦⟧ subvenit adflictis si omnia recte
+1Tim.5.10	correct	reading	subvenit adflictis	1573: si sabuenit afflictis | 1758: fi subrenit afflictis	1750,ws	exercuit si sanctorum pedes lavit ⟦subvenit adflictis⟧ si omnia recte facta persecuta
+1Tim.5.10	others	spelling	adflictis	1715,1747,1726: afflictis	1750,ws	si sanctorum pedes lavit subvenit ⟦adflictis⟧ si omnia recte facta persecuta
+1Tim.5.11	base-only	reading		1573: d	1556,1758,1715,1747,1750,1726,ws	Juniores autem viduas ⟦⟧ repudiato Nam postquam Christum repudiantes
+1Tim.5.11	base-only	reading	postquam	1573: poststrandum ne quam | 1747: Sueca | 1750: poft quam	1556,1758,1715,1726,ws	Juniores autem viduas repudiato Nam ⟦postquam⟧ Christum repudiantes lascivire coeperunt nubere
+1Tim.5.11	base-only	reading	nubere volunt	1573: nu | 1573: nu co	1758,1681,1715,1747,1750,1726,ws	postquam Christum repudiantes lascivire coeperunt ⟦nubere volunt⟧
+1Tim.5.12	base-only	reading	Eo	1573: co	1556,1758,1715,1747,1750,1726,ws	⟦Eo⟧ damnandae quod primam fidem fregerunt
+1Tim.5.13	base-only	edge	curiosae loquentes quae non debeant	1573: curiose loquetes illicita	1681,ws	et ⟦curiosae loquentes quae non debeant⟧ Itaque volo juniores nubere liberis
+1Tim.5.14	base-only	reading	familiam	1573: familia	1758,1715,1747,1750,1726,ws	nubere liberis operam dare regere ⟦familiam⟧ nullam dare adversario occasionem criminandi
+1Tim.5.15	base-only	reading	Jam	1573: lam | 1758: sam | 1747: Cor lam	1556,1681,1715,1750,1726,ws	⟦Jam⟧ enim nonnullae ad Satanam desciverunt
+1Tim.5.16	base-only	f/s	si	1573: fi	ws	Si quis aut ⟦si⟧ quae fidens viduas habet subveniat
+1Tim.5.16	base-only	spelling	quae	1573: quę | 1715: qux	1758,1747,1750,ws	Si quis aut si ⟦quae⟧ fidens viduas habet subveniat eis
+1Tim.5.17	correct	spelling	adficiantur	1573,1758,1747: afficiantur	1750,ws	qui recte gubernant gemino praemio ⟦adficiantur⟧ praesertim qui in sermone doctrinaque
+1Tim.5.18	base-only	reading	trituranti os	1573: triturantios	1758,1681,1747,ws	Aiunt enim litterae bovi ⟦trituranti os⟧ ne obturato et dignus est
+1Tim.5.18	base-only	reading	obturato	1573: obthu Deut rato | 1556: obthurato	1758,1681,1715,1747,1750,ws	litterae bovi trituranti os ne ⟦obturato⟧ et dignus est operarius mercede
+1Tim.5.19	base-only	division	Contra seniorem	1573: Contrafeniorem	1758,1715,1747,ws	⟦Contra seniorem⟧ ne admiseris accusationem nisi duo
+1Tim.5.19	base-only	reading	nisi	1573: ni Mast si	1556,1758,1681,1747,1750,ws	Contra seniorem ne admiseris accusationem ⟦nisi⟧ duo tresve testes sint
+1Tim.5.19	base-only	division	tresve	1573: tres ve | 1715: tres l inor Ve	1758,1681,1747,1750,ws	ne admiseris accusationem nisi duo ⟦tresve⟧ testes sint
+1Tim.5.20	correct	spelling	adficiantur	1573,1758: afficiantur | 1556: atficíantur | 1715: afficiens antur ali	1750,ws	omnibus argue quo ceteri metu ⟦adficiantur⟧
+1Tim.5.21	base-only	reading	Dominique	1573: Dominiqs | 1758: Domi nique | 1715: Dominimm que	1750,1726,ws	Obtestor in Dei ⟦Dominique⟧ Jesu Christi et lectorum angelorum
+1Tim.5.21	base-only	f/s	sine	1573: fine	ws	lectorum angelorum conspectu ut haec ⟦sine⟧ ullo discrimine exsequare nihil per
+1Tim.5.21	correct	spelling	exsequare	1573,1758,1747: exequare | 1556: ex equare | 1715: exequare p	1750,ws	ut haec sine ullo discrimine ⟦exsequare⟧ nihil per favorem faciens
+1Tim.5.22	base-only	reading		1573: e	1758,1715,1747,1726,ws	Manus nemini protinus imponito ⟦⟧ neve aliena peccata participato Te
+1Tim.5.22	base-only	reading		1573: e fi viriofum	1556,1715,1747,1726,ws	nemini protinus imponito neve aliena ⟦⟧ peccata participato Te ipsum castum
+1Tim.5.22	correct	division	Te ipsum	1573,1758,1715,1747,1726: Teipfum	1750,ws	imponito neve aliena peccata participato ⟦Te ipsum⟧ castum servato
+1Tim.5.23	base-only	reading	Ne amplius	1573: Neamplius | 1556: INeamplius | 1573: admiseris im Neamplius	1715,1747,1726,ws	⟦Ne amplius⟧ aquam bibe sed exiguo vino
+1Tim.5.23	base-only	reading		1573: tibi eius peo	1556,1758,1715,1747,1750,1726,ws	bibe sed exiguo vino utere ⟦⟧ propter tuum stomachum et crebras
+1Tim.6.1	base-only	f/s	servi	1573: ferui	ws	Quicumque sunt sub jugo ⟦servi⟧ heros suos omni honore dignos
+1Tim.6.2	correct	reading	cari	1573,1758,1681,1715,1726: chari	1747,1750,ws	potius serviant quia fidentes Deoque ⟦cari⟧ sunt idem beneficium adepti Haec
+1Tim.6.3	base-only	f/s	sanis	1573: fanis	ws	quis diversam sequitur doctrinam neque ⟦sanis⟧ Domini nostri Jesu Christi dictis
+1Tim.6.3	others	reading	doctrinae	1573: do ctrinæ | 1747,1726: do et trinae | 1750: do irinae	1758,ws	nostri Jesu Christi dictis pietatisque ⟦doctrinae⟧ accedit
+1Tim.6.4	correct	spelling	intellegit	1573,1556,1758,1681,1715,1747: intelligit | 1750: intel ligit Cap ligit	ws	Is inflatus nihil ⟦intellegit⟧ sed morbo circa quaestiones et
+1Tim.6.5	base-only	division	corruptorum	1573: corrupto rum | 1556: corru ptorum	1758,1715,1747,1750,1726,ws	Ineptae disputationes hominum mente ⟦corruptorum⟧ et veri expertium pietatem pro
+1Tim.6.6	base-only	division	Est vero	1573: Estverò	1556,1758,1715,1747,1750,ws	⟦Est vero⟧ quaestus magnus pietas et sua
+1Tim.6.6	base-only	f/s	sorte	1573: forte	ws	quaestus magnus pietas et sua ⟦sorte⟧ contentum esse
+1Tim.6.6	base-only	reading	contentum esse	1573: con	1556,1715,ws	magnus pietas et sua sorte ⟦contentum esse⟧
+1Tim.6.7	base-only	reading	profecto	1573: profe Aò | 1556: pro Ecdese fectó | 1758: xrofe et o | 1726: protecto	1715,1747,ws	enim nihil in mundum attulerimus ⟦profecto⟧ nihil auferre possumus
+1Tim.6.8	base-only	reading	contenti	1573: conEccl tenti	1758,1715,1747,1750,1726,ws	alimenta et tegumenta habentes iis ⟦contenti⟧ simus
+1Tim.6.8	base-only	f/s	simus	1573: fimus	ws	et tegumenta habentes iis contenti ⟦simus⟧
+1Tim.6.9	correct	division	interitumque	1573,1747: interi tumque | 1556: interítumi | 1750: inioteritumque	1758,1715,1726,ws	cupiditates quae homines in perniciem ⟦interitumque⟧ demergunt
+1Tim.6.10	base-only	reading	est avaritia cuius	1573: estauaritia củ b chriftiana ius	1556,1758,1715,1747,1726,ws	Radix enim omnium malorum ⟦est avaritia cuius⟧ avidi quidam a fide aberrarunt
+1Tim.6.10	correct	reading		1573,1681: b	1758,1747,1726,ws	avaritia cuius avidi quidam a ⟦⟧ fide aberrarunt et sese in
+1Tim.6.10	base-only	reading		1573: seligione	1556,1758,1715,1747,1750,1726,ws	aberrarunt et sese in multos ⟦⟧ dolores induxerunt
+1Tim.6.11	base-only	reading	At tu	1573: Attu | 1747: Exod rr Attu	1556,1758,1750,1726,ws	⟦At tu⟧ divine vir haec fuge justitiamque
+1Tim.6.11	correct	reading	caritatem	1573,1758: charitatem	1747,1750,ws	fuge justitiamque persequere pietatem fidem ⟦caritatem⟧ patientiam mansuetudinem
+1Tim.6.12	base-only	reading	quam	1573: quain	1556,1758,1681,1715,1747,1750,1726,ws	certamen vitam prehende sempiternam ad ⟦quam⟧ vocatus es et praeclara professione
+1Tim.6.14	base-only	f/s	serves	1573: ferues	ws	Ut praeceptionem ⟦serves⟧ intemeratus ac irreprehensibilis usque ad
+1Tim.6.14	base-only	reading	irreprehensibilis	1573: irtepre hesibilis | 1715: irrepreheüfibilis	1556,1758,1747,1750,1726,ws	Ut praeceptionem serves intemeratus ac ⟦irreprehensibilis⟧ usque ad adventum Domini nostri
+1Tim.6.14	base-only	reading	adventum	1573: aduétum	1556,1758,1715,1747,1750,1726,ws	intemeratus ac irreprehensibilis usque ad ⟦adventum⟧ Domini nostri Jesu Christi
+1Tim.6.15	base-only	division	Quem adventum	1573: quemaduentum	1758,1747,1750,1726,ws	⟦Quem adventum⟧ suis temporibus exhibebit beatus ille
+1Tim.6.15	base-only	reading	beatus	1573: bea Apoc tus | 1750: beatis	1758,1681,1747,1726,ws	Quem adventum suis temporibus exhibebit ⟦beatus⟧ ille solusque potens regnantium rex
+1Tim.6.15	base-only	division	dominantium	1573: dominan tium	1758,1681,1747,1750,1726,ws	solusque potens regnantium rex et ⟦dominantium⟧ Dominus
+1Tim.6.16	correct	reading	potes	1573,1758,1747,1750,1726: potest	ws	nullus neque vidit neque videre ⟦potes⟧ cui honor et imperium aeternum
+1Tim.6.17	others-1573-agrees	reading	Iis	1556,1758,1726: lís | 1747: Exod Deut Jo r lis	1573,1750,ws	⟦Iis⟧ qui in hac vita divites
+1Tim.6.17	correct	reading	suppedtat	1573,1758,1747,1750,1726: suppeditat	ws	Deo qui nobis omnia large ⟦suppedtat⟧ ad fruitionem
+1Tim.6.19	base-only	reading	congerentes	1573: conge Mast rentes | 1556: cógeréntes | 1758: conaten gerentes	1715,1747,1750,1726,ws	Praeclarum sibi fundamentum in futurum ⟦congerentes⟧ ut vitam adsequantur vere sempiternam
+1Tim.6.19	correct	spelling	adsequantur	1573,1758,1747,1726: assequantur	1750,ws	in futurum congerentes ut vitam ⟦adsequantur⟧ vere sempiternam
+1Tim.6.20	base-only	reading	vocum	1573: vocu	1758,1715,1747,1750,1726,ws	depositum serva abhorrens a profanarum ⟦vocum⟧ vanitate et dissidiis ejus quae
+1Tim.6.20	base-only	division	nominatur	1573: no minatur | 1556: nomí natur	1758,1715,1747,1750,1726,ws	et dissidiis ejus quae falso ⟦nominatur⟧ scientia
+1Tim.6.21	others	reading	Absit	1573: Ad sit | 1556: A díit | 1758,1715,1747,1726: Adsit	ws	profitentes quidam a fide aberrarunt ⟦Absit⟧ tibi favor Amen Scripta est
+1Tim.6.21	correct	reading	favor	1573,1556,1758,1726: gratia | 1715: fayor | 1747: fauoxr	ws	a fide aberrarunt Absit tibi ⟦favor⟧ Amen Scripta est Laodiceae quae
+1Tim.6.21	others	reading	Laodiceae	1715,1726: Laodicea	1758,1750,ws	tibi favor Amen Scripta est ⟦Laodiceae⟧ quae Pacatianae Phrygiae caput est
+1Tim.6.21	base-only	reading	Laodiceae quae Pacatianae Phrygiae	1573: Laodicea qua Pacatiana Pbrygiæ	ws	tibi favor Amen Scripta est ⟦Laodiceae quae Pacatianae Phrygiae⟧ caput est
+1Tim.6.21	others-1573-agrees	edge	est	1715,1750: 	1573,1556,1747,1726,ws	Laodiceae quae Pacatianae Phrygiae caput ⟦est⟧

@@ -1,0 +1,67 @@
+id	kind	sort	text	readings	support	context
+Titus.2.1	uncovered	base	43% of the words			
+Titus.1.1	correct	reading	cogitionem	1573,1758,1681,1750,1726: cognitionem | 1747: cognitionem et	ws	fidem electorum Dei et veritatis ⟦cogitionem⟧
+Titus.1.2	base-only	spelling	spe vitae	1573: spevitę	1758,1747,1750,1726,ws	Quae in religione cum ⟦spe vitae⟧ sempiternae coniuncta sita est quam
+Titus.1.2	correct	spelling	numquam	1573,1758,1681,1747,1726: nunquam	1750,ws	sita est quam Deus qui ⟦numquam⟧ mentitur ante aeterna tempora promiserat
+Titus.1.2	base-only	reading	tempora	1573: tpa	1758,1681,1747,1750,1726,ws	qui numquam mentitur ante aeterna ⟦tempora⟧ promiserat
+Titus.1.3	base-only	reading	temporibus	1573: téporibus	1758,1681,1747,1750,1726,ws	Et suis ⟦temporibus⟧ exhibuit videlicet suum sermonem praeconio
+Titus.1.4	base-only	division	attinet	1573: atti net	1758,1681,1715,1747,1750,ws	germano quod ad communem fidem ⟦attinet⟧ filio gratiam misericordiam pacem a
+Titus.1.4	correct	reading		1573,1758,1747,1750: patre | 1715: Quzin religione cum fpe Patre	ws	gratiam misericordiam pacem a Deo ⟦⟧ et Domino Jesu Christo servatore
+Titus.1.5	base-only	reading	idcirco	1573: iccirco | 1747: id circo	1758,1750,ws	Ego te ⟦idcirco⟧ in Creta reliqui ut reliqua
+Titus.1.5	others-1573-agrees	reading	ego	1681,1750: cgo	1573,1758,1747,ws	et oppidatim seniores constituas ut ⟦ego⟧ tibi praecepi
+Titus.1.6	base-only	f/s	Si	1573: fi	ws	⟦Si⟧ quis est inculpatus unius uxoris
+Titus.1.6	base-only	division	habens	1573: ha bens	1758,1715,1747,1750,ws	inculpatus unius uxoris vir liberos ⟦habens⟧ fidentes non luxu infames aut
+Titus.1.7	base-only	division	Dei dispensatorem	1573: Deidi spensatorem	1758,1715,1747,1750,ws	enim episcopum inculpatum esse ut ⟦Dei dispensatorem⟧ non audacem non iracundum non
+Titus.1.10	base-only	division	Sunt enim	1573: Suntenim	1758,1681,1715,1747,1750,1726,ws	⟦Sunt enim⟧ multi refractarii et vaniloqui atque
+Titus.1.11	correct	spelling	caussa	1573,1758: causa | 1681: caufa Dixiteorum | 1747: caufa non nimis emancipatae viMattb Tim no beneinftitutae | 1726: 	1750,ws	evertunt docentes illicita turpis lucri ⟦caussa⟧
+Titus.1.12	base-only	reading		1573: a	1758,1747,1726,ws	Dixit eorum ⟦⟧ quidam proprius ipsorum vates Cres
+Titus.1.12	base-only	reading		1573: a Epimeni	1758,1750,1726,ws	eorum quidam proprius ipsorum vates ⟦⟧ Cres semper mendax mala bestia
+Titus.1.13	base-only	reading		1573: tis	1758,1747,1726,ws	testimonium verum est quamobrem argue ⟦⟧ eos severe ut sint in
+Titus.1.14	base-only	reading	veritatis	1573: veritatem	ws	addicti Judaicis fabulis hominumque praeceptis ⟦veritatis⟧ aversantium
+Titus.1.15	base-only	reading	infidelibus nihil	1573: in Rom fidelibus nihıl	1556,1758,1750,ws	sunt omnia sed pollutis et ⟦infidelibus nihil⟧ purum quin polluta est eorum
+Titus.1.15	base-only	reading	mens	1573: més	1556,1758,1715,1747,ws	quin polluta est eorum et ⟦mens⟧ et conscientia
+Titus.1.16	base-only	reading	profitentur	1573: profitetur	1758,1715,1750,1726,ws	Deum se scire ⟦profitentur⟧ et eundem factis negant et
+Titus.1.16	base-only	reading	eundem	1573: eŭdem	1556,1758,1715,1726,ws	Deum se scire profitentur et ⟦eundem⟧ factis negant et contumaces et
+Titus.1.16	correct	reading		1573,1758,1715,1750,1726: nefarij	ws	profitentur et eundem factis negant ⟦⟧ et contumaces et ad omnem
+Titus.1.16	correct	reading	omnem rem bonam	1573: omne bonű opus | 1758: titur omne bonum opus | 1726: omne bonum opus	1750,ws	negant et contumaces et ad ⟦omnem rem bonam⟧ inepti
+Titus.2.1	others	reading	decent docrinam	1758,1750: deceant doctrinam	ws	Tu vero loquere quae sanam ⟦decent docrinam⟧
+Titus.2.2	base-only	reading	caritate	1573: chari tate | 1758: charitate K K a D TIT TD MN | 1715: charitate	1750,ws	sint sobrii graves frugi fide ⟦caritate⟧ et patientia sani
+Titus.2.2	base-only	f/s	sani	1573: fani	ws	frugi fide caritate et patientia ⟦sani⟧
+Titus.2.4	correct	reading	et	1573,1726: ac | 1750: t	1681,1715,1747,ws	juvenes feminas doceant suorum virorum ⟦et⟧ liberorum amantes esse
+Titus.2.5	base-only	reading	domimanentes	1573: doni manentes | 1556: domí manétes | 1758: domi ms nentes | 1715,1726: domi manentes	ws	Frugi castas ⟦domimanentes⟧ bonas suis viris obedientes ne
+Titus.2.7	base-only	reading	cunctis	1573: cuctis	1758,1715,1747,1726,ws	In ⟦cunctis⟧ teipsum recte factorum exemplum praestans
+Titus.2.7	base-only	reading		1573: a	1750,1726,ws	factorum exemplum praestans in doctrina ⟦⟧ integritatem gravitatem
+Titus.2.8	base-only	reading	sanam	1573: sanan | 1750: fan im	1556,1681,1715,1747,1726,ws	Orationem ⟦sanam⟧ et quae damnari nequeat ut
+Titus.2.8	base-only	reading	ut adversarii	1573: vtadEphef Celoff uerfarij	1758,1726,ws	sanam et quae damnari nequeat ⟦ut adversarii⟧ moveantur nihil habentes de vobis
+Titus.2.8	base-only	reading		1573: Pet	1758,1681,1715,1750,1726,ws	nihil habentes de vobis dicere ⟦⟧ vitiosum
+Titus.2.9	base-only	reading		1573: esse studium piè et rectè viuendi	1556,1758,1715,1726,ws	heris pareant in omnibus obsequiosi ⟦⟧ non responsatores non furaces
+Titus.2.10	base-only	division	servatoris	1573: ferua toris | 1681: lfbn f ervatoris | 1747: Seruato tatur quem diciteffe tudijum xis	1758,1715,1750,1726,ws	summam fidem bene praestantes quo ⟦servatoris⟧ nostri Dei doctrinam cohonestent in
+Titus.2.11	others	spelling	Exstitit	1758,1726: Extitit | 1750: Exflitit | 1715: vitate invidiaque degentes odiu Extitit	1747,ws	⟦Exstitit⟧ enim divina beneficentia cunctis hominibus
+Titus.2.11	base-only	division	hominibus	1573: homini bus | 1758: ho et hu minibus	1556,1715,1750,1726,ws	Exstitit enim divina beneficentia cunctis ⟦hominibus⟧ salutaris
+Titus.2.12	base-only	reading	mundanisque cupiditatibus	1573: mundanisés cupidi tatibus	1758,1726,ws	Quae nos erudiat ut impietati ⟦mundanisque cupiditatibus⟧ vale dicto frugaliter et juste
+Titus.2.12	base-only	reading	hoc saeculo	1573: hocfeculo | 1573: hocfeculo expectantes	1750,1726,ws	et juste pieque vivamus in ⟦hoc saeculo⟧
+Titus.2.13	correct	reading	Exspectatntes	1573,1726: expectantes | 1681: Ttm Expc et antcs | 1747: Fuimus enim aliquando Eph Col nos quoque dementes con ExpeGtantes	ws	⟦Exspectatntes⟧ speratam beatitudinem adventumque gloriosum magni
+Titus.2.13	base-only	division	adventumque	1573: aduentum que | 1556: adaeniümque liberalitate t tug in Chrifto leiu coliocatz fidei | 1747: aduentum feruientes cupiditatibus et que	1758,1750,1726,ws	Exspectatntes speratam beatitudinem ⟦adventumque⟧ gloriosum magni Dei et servatoris
+Titus.2.14	correct	division	se ipsum	1573,1758,1747,1726: seipfum	ws	Qui ⟦se ipsum⟧ pro nobis dedit quo nos
+Titus.2.14	correct	reading	sceleri	1573,1758,1750,1726: scelere | 1747: fce Sed poftquam benignitas lere	ws	dedit quo nos ab omni ⟦sceleri⟧ vindicaret et sibi peculiarem populum
+Titus.2.14	base-only	division	purgaret	1573: purga ret	1556,1758,1681,1747,1750,1726,ws	vindicaret et sibi peculiarem populum ⟦purgaret⟧ recte factorum cupidum
+Titus.2.15	correct	spelling	auctoritate	1573,1726: authoritate | 1758: au minit thoritate	1750,ws	exhortare et argue summa cum ⟦auctoritate⟧ ita ut nemo te contemnat
+Titus.3.1	base-only	reading	postestatibus	1573: potesta tibus | 1758: potestatibus estany | 1750: poteflatibus | 1726: poteftatibus	ws	Eos commonefacito ut magistratibus et ⟦postestatibus⟧ pareant et imperata faciant ad
+Titus.3.2	base-only	reading	Nemini	1573: neinini | 1750: mini	1758,1681,1715,1726,ws	⟦Nemini⟧ maledicant ne sint contentiosi sed
+Titus.3.2	correct	reading		1573,1726: homines	1750,ws	sed aequanimes summam erga omnes ⟦⟧ comitatem exserentes
+Titus.3.2	base-only	reading	exserentes	1726: exerentes | 1573: 	1750,ws	aequanimes summam erga omnes comitatem ⟦exserentes⟧
+Titus.3.4	correct	spelling	exstitit	1573,1758,1726: extitit | 1750: exítitit	ws	Sed postquam benignitas et humanitas ⟦exstitit⟧ servatoris nostri Dei
+Titus.3.5	base-only	reading		1573: a	1758,1747,1750,1726,ws	sua misericordia servavit nos lavacro ⟦⟧ renascentiae
+Titus.3.6	base-only	edge		1573: scimur et à	1758,1750,1726,ws	misericordia servavit nos lavacro renascentiae ⟦⟧ Renovationisque Spiritus Sancti quo nos
+Titus.3.6	base-only	division	servatorem	1573: ferua torem	1758,1681,1750,1726,ws	large perfudit per Jesum Christum ⟦servatorem⟧ nostrum
+Titus.3.8	correct	spelling	adseverare	1573,1758,1726: asseuerare | 1681: afleverare | 1747: afbus pareant et imperata fa feuerare	ws	Certa res est Haec te ⟦adseverare⟧ volo quo curent recte factis
+Titus.3.9	base-only	division	inutiles	1573: inu tiles | 1750: in EPIS FIOT A Cap utiles	1758,1747,ws	pugnisque legalibus supersedeto sunt enim ⟦inutiles⟧ atque futiles
+Titus.3.10	base-only	reading	Haereticum	1573: b Sectarium | 1681: Scdtarium | 1750: Haercticum	1747,ws	⟦Haereticum⟧ hominem post unam atque alteram
+Titus.3.10	base-only	reading	admonitionem	1573: et vitiose seadmonitionem	1758,1681,1747,1750,ws	hominem post unam atque alteram ⟦admonitionem⟧ declinato
+Titus.3.11	base-only	reading	se ipso	1573: c fua culpa feipfo | 1758: scipso | 1747: feipfo	ws	ita peccare ut ipse a ⟦se ipso⟧ damnetur
+Titus.3.12	base-only	reading		1573: perstet	1715,1750,ws	Artemam aut Tychicum misero cura ⟦⟧ ut ad me venias Nicopolim
+Titus.3.12	base-only	spelling	hiemare	1573: hyemare | 1758: byemare	1750,ws	me venias Nicopolim illic enim ⟦hiemare⟧ statui
+Titus.3.13	base-only	f/s	desit	1573: defit	ws	sedulo deducito ne quid eis ⟦desit⟧
+Titus.3.15	base-only	division	te mei	1573: temei	1758,1715,1750,ws	Salutant ⟦te mei⟧ comites omnes Saluta eos qui
+Titus.3.15	correct	reading	favor	1573,1758: gratia | 1715: faApollo fedulo deducito nequid vor	1747,1750,ws	in fide Adsit vobis omnibus ⟦favor⟧ Amen Scripta Nicopoli Macedoniae
+Titus.3.15	correct	edge	Macedoniae	1573,1715,1747,1750: 	1758,1681,ws	omnibus favor Amen Scripta Nicopoli ⟦Macedoniae⟧

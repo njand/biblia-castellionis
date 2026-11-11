@@ -2,6 +2,38 @@
 
 ## Now
 
+- **One form of a name in both Testaments** (2026-11-11; decision 46, on your revisit of *Hagar*/*Agar*): Gal
+  4:24–25 *Hagar* (as Genesis; Paul's Greek Ἁγάρ, the BSB, WEB, NRSV, ESV, NIV), Matt 24:37–38 *Nōæ*, *Nōa* (as
+  Genesis and Luke); gold rebuilt for Gal and Matt; the rule is in `brief.md` for the books to come (*Elias*, *Esaias*
+  when they come up). Record: `data/review/names-one-form.md`. This reverses section C's first point of
+  `open-questions-paul.md`. Nothing committed.
+- **The open questions from Galatians–Philemon are decided and applied** (2026-11-11; decision 45): you accepted
+  every recommendation of `data/review/open-questions-paul.md`. Applied to the settled text: the 11 slips of
+  `settled-fixes-galcol.md` and `settled-fixes-thessphm.md`, *Abrāhām-*/*Isaac-* in Matthew 1–13 and Luke 1–13 (18
+  places), Phil 4:2 *Euodiam*, 2 Tim 4:13 *Pænulam* (and its rule); gold rebuilt for Matt, Luke, Acts, Rom, 1 Cor,
+  Phil, 2 Tim. Kept as settled, with the evidence there: *Hagar*/*Agar* (1573 prints both), the greetings,
+  *Servātor*, the Spirit's capitals, the verse and quotation calls. Tools: `versify --draft` relays the BSB's
+  paragraphs on the new numbering, `mdz.fetch_crop` also saves the head of the next column, `propose` prints the
+  quotation-mark check (with tests). Nothing committed.
+- **1–2 Thessalonians, 1–2 Timothy, Titus and Philemon are settled** (2026-11-11; decision 44): approved by you "for
+  now", in `text/1TH.usfm` (89 verses), `2TH` (47), `1TI` (113), `2TI` (83), `TIT` (46), `PHM` (25), every chapter at
+  the KJV count; gold rebuilt, drafts and previews removed (`text/draft/` is gone). **Paul's letters are complete.**
+  Record: `data/review/thessphm-stages3-5.md` (start here), the six `-stage2.md` files, `-chNN.md`, `data/decisions/`;
+  the 1573/1556 differences in `docs/editions.md`. Calls of mine to check: the title lines (`\mt1` *Paulī Apostolī
+  Epistola prior / posterior ad Thessalonīcēnsēs*, *… ad Tīmotheum*, as your *Epistola prior ad Corinthiōs*, where
+  1573 heads them *Epistola prima / secunda*; *Epistola ad Titum*, *ad Philēmonem*); 2 Tim 3:4 (Castellio's L. … G.
+  marks dropped, the words kept, as Matt 19:4). Not yet in a release or on the site.
+- **Galatians, Ephesians, Philippians and Colossians are settled** (2026-11-11; decision 43): approved by you "for
+  now", in `text/GAL.usfm` (149 verses), `EPH.usfm` (155), `PHP.usfm` (104), `COL.usfm` (95), every chapter at the
+  KJV count; gold rebuilt (`data/gold/{Gal,Eph,Phil,Col}.tsv`), drafts and previews removed (`text/draft/` is empty
+  and gone; a draft can be rebuilt with `pipeline draft`, `versify --draft --apply` and the stage-2 Apply lines).
+  Record: `data/review/galcol-stages3-5.md` (start here), the four `-stage2.md` files, `-chNN.md`,
+  `data/decisions/{Gal,Eph,Phil,Col}.*.tsv`, `data/versification/{Gal,Col}.draft.edits.tsv`; the 1573/1556
+  differences in `docs/editions.md`. Calls of mine to check: the title lines (`\mt1` *Paulī Apostolī Epistola ad
+  Galatās / Ephesiōs / Philippēnsēs / Colossēnsēs*, as 1573 heads them *Pauli Apostoli Epistola ad …*). **Still
+  waiting on your Decision line**: `data/review/settled-fixes-galcol.md` (10 slips in the settled text, e.g. 1 Cor
+  *līber* ×5, Matt 13:46 *comparet*; and two questions, *Abrahām-*/*Isaāc-* in your Gospels and *Hagar*/*Agar*). Not
+  yet in a release or on the site; the Vulgate is not offered beside these books until its map is checked for them.
 - **2026-11-08: the publishing builds for v1.0 *Evangelia* exist (M2), not yet released.**
   `python -m pipeline build Matt Mark Luke John --version v1.0` writes into `build/` (git-ignored): the website
   (`build/site/`), two EPUBs (with and without macrons; both pass epubcheck 5.4.0 with no errors or warnings), the
@@ -235,6 +267,10 @@
 | 40 | 2026-11-11 | ***quandoquidem*, the o unmarked.** The attested classical quantity is short (every dactylic line: Lucretius, Catullus, Vergil, Ovid, Manilius, Juvenal); the long ō is the etymological *quandō* + *quidem*. As Gaffiot 2016. Applied to the 21 settled places (`data/review/quandoquidem.md`). *sīquidem* stays as Gaffiot heads it. |
 | 41 | 2026-11-11 | ***cum*, not *quum*.** The conjunction as Gaffiot 2016 heads it, as Matt–John and Gen 1–27 already wrote it; *quumque* → *cumque*. Applied to the 243 places the Wikisource drafts kept *quum* (`data/review/quum.md`); rule approved in `orthography.tsv`. |
 | 42 | 2026-11-11 | **Spelling by Gaffiot and the corpus, Cicero and the Golden Age first.** The 108 places the rules missed (`data/review/spelling-audit.md`): *cōntiō, condiciō, subolēs, multō, pænit-, erus, paulō, umquam, cāritās, sepulcrum, exspect-, undecumque, mæstus, vīcēsimus, sescentī, cotīdiē, cærimōnia, quotiēns, obœdiō, adulēscēns*; *quidquam* with the brief's *quidquid*. Word rules reach only the forms they were learned from, so the pipeline takes stem rules now; 24 approved. |
+| 43 | 2026-11-11 | **Galatians, Ephesians, Philippians, Colossians approved for now.** Stages 1–5 (164 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *favor → gratia*, *fiducia → fides*; clauses Wikisource lost at Gal 2:16, Eph 2:2, Col 1:16, 3:16, Phil 3:12; two versification edits, Gal 5:23 split at *lenitas* and Col 3:26 → 4:1; 115 layout lines, 448 forms; the hymn of Phil 2:6–11 as verse; the subscriptions as `\cls`) settled in `text/GAL|EPH|PHP|COL.usfm`. With it: 21 spelling rules under decision 37, and fixes to `align` (a superscript digit) and `collate` (a clause each OCR misspells differently), with tests. Your in-depth review follows decision 30. |
+| 44 | 2026-11-11 | **1–2 Thessalonians, 1–2 Timothy, Titus, Philemon approved for now.** Stages 1–5 (112 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *favor → gratia*, 1 Tim 3:16 *in carne*, Titus 3:10 *Sectarium*; words moved to the KJV's verse boundaries at 1 Thess 5:16–18, 1 Tim 1:3–4 and 4:12–13, Titus 3:5–6; 72 layout lines, 366 forms; 1 Tim 3:16 and 2 Tim 2:11–13 as verse; *Servātor* capital throughout; the subscriptions as `\cls`; 2 Tim 3:4's L. … G. marks dropped as Matt 19:4) settled in `text/1TH|2TH|1TI|2TI|TIT|PHM.usfm`. With it: 25 spelling rules (decision 37's *ad-*, *tempt-*, *intelleg-*; *neglegō*, *exstinguō*, *Silvānus*, *adjūtor*). Paul's letters are complete. Your in-depth review follows decision 30. |
+| 45 | 2026-11-11 | **The open questions from Galatians–Philemon, as recommended** (`data/review/open-questions-paul.md`, all accepted, applied): the 11 settled-text slips (1 Cor *līber* ×5, Matt 13:46 *comparet*, Luke 7:5 *īdemque*, Acts 21:8 *Ēvangelistæ*, Luke 1:47 *Servātōre*, Rom 10:6 *dīxerīs*, Matt 12:26 *Satanam*); *Abrāhām-* and *Isaac-* throughout (your Gospels' 13 + 5 brought to the majority, 159 : 13 and 85 : 5); *Euodia* (1573, Gaffiot, as every *Eu-* name); *pænula* (Gaffiot, decision 42). Kept: *Hagar* in Genesis and *Agar* in Galatians, as 1573 prints them; *Grātiam* capital only where the greeting opens its verse; *Servātor* capital everywhere; the Spirit capital where set against flesh or acting; L. … G. marks dropped (2 Tim 3:4, as Matt 19:4); *Epistola prior / posterior*. Tools: paragraphs relaid after versification, crops of carried-over lines, the quotation check in `propose`. |
+| 46 | 2026-11-11 | **One form per person in both Testaments, the Old Testament's.** Modern translations use one form (BSB, WEB, NRSV, ESV, NIV *Hagar* in Galatians; only the KJV keeps the Greek forms); Paul's Greek has Ἁγάρ; decision 37 already spelled names one way across books. Applied: Gal 4:24–25 *Agar* → *Hagar*, Matt 24:37–38 *Nōē* → *Nōæ*, *Nōa* (`data/review/names-one-form.md`); `brief.md` (Proper names) has the rule. Replaces decision 45's *Hagar*/*Agar* point. |
 
 ## How to run
 

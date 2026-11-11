@@ -1,0 +1,121 @@
+id	kind	sort	text	readings	support	context
+2Tim.3.6	uncovered	base	0% of the words			
+2Tim.3.7	uncovered	base	0% of the words			
+2Tim.3.8	uncovered	base	59% of the words			
+2Tim.1.1	base-only	reading	promissionem	1573: promifsio | 1758: promishonem | 1750: promitfionem | 1747: promillio Deus t timiditatis fpiritum if nem fe d fortitudinis et caritatis | 1726: promiffioP nem	1715,ws	vitae in Christo Jesu positae ⟦promissionem⟧
+2Tim.1.2	correct	reading	caro	1573,1758,1715,1726: charo | 1747: ca o	1750,ws	Timotheo ⟦caro⟧ filio gratiam misericordiam pacem a
+2Tim.1.2	base-only	reading	Domino	1573: Dño | 1726: Do mino	1758,1681,1715,1750,ws	Deo patre et Christo Jesu ⟦Domino⟧ nostro
+2Tim.1.3	correct	spelling	adsiduam	1573,1758,1715,1726: assiduam | 1747: ali Qui nos fer uarrit ad fan duam	1750,ws	maiorum pura conscientia colo quod ⟦adsiduam⟧ teneo memoriam tui in meis
+2Tim.1.6	correct	reading	caussam submoneo	1573,1758,1715,1726: causam summoneo | 1556: caufam fum moneo	ws	Quam ob ⟦caussam submoneo⟧ te ut suscites divinam dotem
+2Tim.1.6	base-only	reading	impositionem	1573: impositionein | 1758: U AD TIMOTHE UM impostionem	1556,1750,1726,ws	dotem qua per mearum manuum ⟦impositionem⟧ praeditus es
+2Tim.1.7	correct	reading		1573,1556,1750,1726: Deus | 1758: Dey	ws	Non enim dedit nobis ⟦⟧ timiditatis spiritum sed fortitudinis et
+2Tim.1.7	correct	reading	caritatis	1573,1715,1726: charitatis	1750,ws	timiditatis spiritum sed fortitudinis et ⟦caritatis⟧ ac frugalitatis
+2Tim.1.9	base-only	reading		1573: Rom AD TIMOTHEVM	1758,1681,1715,1750,ws	servavit ad sanctumque statum vocavit ⟦⟧ non ob facta nostra sed
+2Tim.1.9	base-only	division	beneficium	1573: benefi cium | 1747: benefic i Rom um	1758,1681,1715,1750,ws	sed ob suum decretum et ⟦beneficium⟧ quod nobis in Christo Jesu
+2Tim.1.10	base-only	edge	Nunc repraesentatum est adventu	1573: io nuncrepræfentatum estaduentu	1758,1747,1750,ws	ante omnem temporum aeternitatem donatum ⟦Nunc repraesentatum est adventu⟧ servatoris nostri
+2Tim.1.12	correct	spelling	caussam	1573,1758,1747: caufam	1750,ws	Ob quam ⟦caussam⟧ haec patior sed me non
+2Tim.1.12	base-only	reading	pudet	1573: padet	1758,1681,1715,1747,1750,ws	haec patior sed me non ⟦pudet⟧ Scio enim cui crediderim et
+2Tim.1.12	base-only	reading	eum	1573: cum a meam vi	1758,1681,1715,1747,1750,ws	cui crediderim et persuasum habeo ⟦eum⟧ posse meum depositum custodire ad
+2Tim.1.12	base-only	reading	meum	1573: ameum	1758,1681,1715,1747,1750,ws	et persuasum habeo eum posse ⟦meum⟧ depositum custodire ad illam diem
+2Tim.1.13	correct	reading	caritate	1573,1556,1758: charitate	1750,ws	audivisti retineto cum fide et ⟦caritate⟧ in Christo Jesu posita
+2Tim.1.13	base-only	edge	Jesu posita	1573: 	1556,1758,1715,1750,ws	et caritate in Christo ⟦Jesu posita⟧ Praeclarum istud depositum servato per
+2Tim.1.16	base-only	division	familiae	1573: fa miliæ | 1715: familiz | 1747: faEPISTOLA IL s M a mt eet FI o s Cap miliae	1758,1681,1750,ws	Tribuat Dominus misericordiam Onesiphori ⟦familiae⟧ nam is me saepe recreavit
+2Tim.1.18	others-1573-agrees	edge	nosti	1715,1750: 	1573,1758,1681,1747,1726,ws	item Ephesi praestiterit tu satis ⟦nosti⟧
+2Tim.2.2	base-only	division	qui sint	1573: quisint	1758,1715,1747,1726,ws	audivisti ea exponito fidis hominibus ⟦qui sint⟧ ad alios etiam docendos idonei
+2Tim.2.3	base-only	reading	bonus	1573: bons | 1758: us	1681,1715,1747,1750,1726,ws	Tu ergo adversa patere ut ⟦bonus⟧ Jesu Christi miles
+2Tim.2.5	base-only	f/s	si	1573: fi	ws	Iam ⟦si⟧ quis dimicat non coronatur nisi
+2Tim.2.7	base-only	reading	industriam	1573: induAriam | 1681: Pf t I ndurtrian | 1715: induítriam | 1750: induflriam	1758,1747,1726,ws	dico det vero tibi Dominus ⟦industriam⟧ in omnibus
+2Tim.2.8	base-only	reading	evangelium meum	1573: Euágelium meu	1556,1747,1750,1726,ws	Davidis semine prognatum ut fert ⟦evangelium meum⟧
+2Tim.2.9	correct	spelling	tamquam	1573,1556,1715,1747,1726: tanquam | 1758: anquam	1750,ws	adversa fero usque ad vincula ⟦tamquam⟧ facinorosus verum divinus sermo vinctus
+2Tim.2.11	base-only	f/s	si	1573: fi	ws	Certa res est ⟦si⟧ simul mortui sumus simul etiam
+2Tim.2.11	base-only	edge	vivemus	1573: 	1556,1758,ws	simul mortui sumus simul etiam ⟦vivemus⟧ Si una toleramus etiam una
+2Tim.2.12	others-1573-agrees	reading	una	1715,1747: 	1573,1758,1681,ws	Si ⟦una⟧ toleramus etiam una regnabimus Si
+2Tim.2.12	base-only	reading	etiam	1573: etiain	1556,1758,1681,1715,1747,1750,ws	Si una toleramus ⟦etiam⟧ una regnabimus Si negamus ille
+2Tim.2.12	others-1573-agrees	reading	una	1758,1715: na	1573,1747,ws	Si una toleramus etiam ⟦una⟧ regnabimus Si negamus ille quoque
+2Tim.2.13	base-only	f/s	Si	1573: fi	ws	⟦Si⟧ diffidimus ille fidelis manet seipsum
+2Tim.2.13	base-only	reading	manet	1573: matret	1556,1758,1715,1747,1750,ws	Si diffidimus ille fidelis ⟦manet⟧ seipsum negare non potest
+2Tim.2.13	base-only	reading	non potest	1573: no	1556,1681,1715,1747,1750,ws	ille fidelis manet seipsum negare ⟦non potest⟧
+2Tim.2.14	base-only	reading	commemorato	1573: commeinorato	1758,1715,1747,1750,1726,ws	Haec ⟦commemorato⟧ obtestans in Domini conspectu non
+2Tim.2.14	others-1573-agrees	reading	esse	1715,1750: efle	1573,1758,1747,1726,ws	obtestans in Domini conspectu non ⟦esse⟧ verbis pugnandum quae res non
+2Tim.2.14	base-only	f/s	prosit	1573: profit	ws	quae res non modo nihil ⟦prosit⟧ verum etiam auditores evertat
+2Tim.2.15	correct	reading	Dei	1573,1758,1715,1726: Deo	1750,ws	Da operam ut teipsum ⟦Dei⟧ probes operarium non erubescendum recte
+2Tim.2.15	base-only	reading	secantem	1573: secatem	1758,1715,1747,1750,1726,ws	probes operarium non erubescendum recte ⟦secantem⟧ veritatis orationem
+2Tim.2.15	base-only	reading	orationem	1573: oratione	1758,1715,1747,1750,ws	non erubescendum recte secantem veritatis ⟦orationem⟧
+2Tim.2.16	base-only	reading		1573: m	1556,1758,1715,1750,1726,ws	Profanas autem verborum futilitates evitato ⟦⟧ nam ad multam serpent impietatem
+2Tim.2.16	base-only	reading	multam	1573: multain | 1758: mult putt | 1715: mul ad frugem revocante verum tam	1556,1681,1747,1750,1726,ws	verborum futilitates evitato nam ad ⟦multam⟧ serpent impietatem
+2Tim.2.17	base-only	reading	est	1573: elt	1556,1758,1715,1747,1750,1726,ws	sermo gangrenae ritu corrodet quorum ⟦est⟧ Hymeneus et Philetus
+2Tim.2.19	base-only	reading	habens	1573: haben s lob	1758,1715,1747,1750,1726,ws	firmum Dei fundamentum stat hoc ⟦habens⟧ sigillum novit Dominus qui sint
+2Tim.2.19	base-only	reading	Dominus	1573: Domitius | 1758: Domi teme nus	1556,1681,1715,1747,1750,1726,ws	stat hoc habens sigillum novit ⟦Dominus⟧ qui sint sui itaque recedat
+2Tim.2.19	base-only	f/s	sui	1573: fui	ws	sigillum novit Dominus qui sint ⟦sui⟧ itaque recedat ab injustitia quisquis
+2Tim.2.19	base-only	reading		1573: Rom	1758,1715,1747,1726,ws	qui sint sui itaque recedat ⟦⟧ ab injustitia quisquis nominat Christi
+2Tim.2.20	base-only	division	argenteaque	1573: ar genteaque	1758,1750,ws	domo non sunt solum aurea ⟦argenteaque⟧ vasa verum etiam lignea et
+2Tim.2.21	base-only	reading	ab	1573: aba	1556,1758,1681,1715,1747,1750,ws	Proinde si quis seipsum ⟦ab⟧ his expurgaverit vas erit ad
+2Tim.2.21	base-only	reading		1573: a fcilicet vi	1556,1758,1681,1715,1747,1750,ws	seipsum ab his expurgaverit vas ⟦⟧ erit ad honestatem sacratum hero
+2Tim.2.21	base-only	reading	bonum	1573: bo tijs quæ dixi num | 1747: banum	1758,1681,1715,ws	sacratum hero utile ad omne ⟦bonum⟧ opus paratum
+2Tim.2.22	base-only	reading	caritatem	1573: cha Corin ritatem | 1556,1758: charitatem | 1747: cari fuperbi maled tatem	1750,ws	Juveniles cupiditates fuge justitiam fidem ⟦caritatem⟧ pacem una cum iis qui
+2Tim.2.22	base-only	reading	animo	1573: et Tim nimo | 1747: ani ligiofi mo	1556,1758,1715,1750,ws	cum iis qui Dominum sincero ⟦animo⟧ invocant persequere
+2Tim.2.24	correct	reading		1573,1758,1726: non	1750,ws	Quum Domini servus ⟦⟧ pugnare non debeat sed erga
+2Tim.2.24	correct	reading	non	1573,1758,1726:  | 1750: mon	1747,ws	Quum Domini servus pugnare ⟦non⟧ debeat sed erga omnes mitis
+2Tim.2.24	others-1573-agrees	reading	esse	1747,1750: efle	1573,1758,1726,ws	debeat sed erga omnes mitis ⟦esse⟧ ad docendum accomodatus injuriae patiens
+2Tim.2.24	base-only	reading	patiens	1573: patieris | 1573: patieris cuin	1758,1681,1747,1750,1726,ws	esse ad docendum accomodatus injuriae ⟦patiens⟧
+2Tim.2.25	base-only	reading	Cum	1573: cuin	1556,1758,1681,1747,1750,1726,ws	⟦Cum⟧ mansuetudine erudiens dissentientes si forte
+2Tim.2.25	base-only	reading	agnoscant	1573: agrioscant	1556,1758,1747,1726,ws	eos ad frugem revocante verum ⟦agnoscant⟧
+2Tim.2.26	base-only	reading	evadant	1573: euadát	1556,1758,1750,1726,ws	seque redeant et diaboli laqueum ⟦evadant⟧ a quo capti eius arbitrio
+2Tim.3.1	base-only	reading	aevo	1573,1556: zuo | 1681: azvo	1758,1750,ws	Illud autem scito extremo ⟦aevo⟧ difficilia fore tempora
+2Tim.3.2	base-only	division	sui amantes	1573: suiamantes	1758,1681,1750,ws	Erunt enim homines ⟦sui amantes⟧ avari arrogantes superbi maledici in
+2Tim.3.2	base-only	reading	ingrati	1573: ingratı | 1758: ingati	1556,1681,1715,1750,ws	superbi maledici in parentes contumaces ⟦ingrati⟧ irreligiosi
+2Tim.3.4	others	reading	L	1758,1750: 	1556,ws	Proditores temerarii inflati ⟦L⟧ caeci et G voluptatis magis
+2Tim.3.4	base-only	reading	L caeci	1573: Lucæci	1556,ws	Proditores temerarii inflati ⟦L caeci⟧ et G voluptatis magis quam
+2Tim.3.4	others-1573-agrees	reading	G	1758,1715,1750: 	1573,ws	temerarii inflati L caeci et ⟦G⟧ voluptatis magis quam Dei amantes
+2Tim.3.5	base-only	reading	speciem	1573: speciein | 1556: ipecíem	1758,1715,1750,ws	Pietatis ⟦speciem⟧ habentes sed qui ejus abnegaverint
+2Tim.3.5	correct	reading		1573,1715,1750: vim | 1758: im	ws	speciem habentes sed qui ejus ⟦⟧ abnegaverint Hos tu aversare
+2Tim.3.10	base-only	edge		1573: io | 1715: offendit	1758,1747,1750,ws	omnibus perspicua ut illorum fuit ⟦⟧ Tu vero adfectatus es meam
+2Tim.3.10	correct	reading	adfectatus	1573,1758,1726: affequutus | 1715: affectatus	1750,ws	Tu vero ⟦adfectatus⟧ es meam doctrinam mores propositum
+2Tim.3.10	base-only	reading	mores	1573: mo a perspe res	1556,1758,1681,1715,1747,1750,1726,ws	vero adfectatus es meam doctrinam ⟦mores⟧ propositum fidem clementiam caritatem patientiam
+2Tim.3.10	base-only	edge	caritatem patientiam	1573: charitatein pa xisti tientiam II	1556,1758,1681,1747,1750,1726,ws	mores propositum fidem clementiam ⟦caritatem patientiam⟧ Vexationes res adversas qualia mihi
+2Tim.3.11	base-only	reading	contigerunt	1573: contigerút | 1681: coii Pfali tigerunt	1556,1758,1715,1747,1750,1726,ws	Vexationes res adversas qualia mihi ⟦contigerunt⟧ Antiochiae Iconii Lystris quales vexationes
+2Tim.3.11	others	reading	Deus	1758,1750,1726: Dominus | 1573:  | 1556: Dominus Eruero | 1715: Dominus Eritenim tempus cum fanam Pf Act | 1747: Dominus Pf e Chrifti et	ws	ex quibus omnibus me vindicavit ⟦Deus⟧
+2Tim.3.12	base-only	reading	vivere	1573: vi A uere	1556,1758,1681,1715,1747,1750,1726,ws	volent in Christo Jesu pie ⟦vivere⟧ infestabuntur
+2Tim.3.14	base-only	spelling	quae	1573: quę	1758,1750,1726,ws	Tu vero in eis persevera ⟦quae⟧ didicisti et per quae fidens
+2Tim.3.15	base-only	reading	possunt erudire	1573: possinte II PAVLI EPIST | 1758: possint fir hre	ws	sacras litteras noveris quae te ⟦possunt erudire⟧ ad salutatem per fidem Jesu
+2Tim.3.15	others	reading	salutatem	1573: TIM rudire ad falutem | 1758,1747,1750,1726: salutem	ws	quae te possunt erudire ad ⟦salutatem⟧ per fidem Jesu Christo habendam
+2Tim.3.15	correct	reading		1573,1758: Christo | 1726: Chrifte	1750,ws	erudire ad salutatem per fidem ⟦⟧ Jesu Christo habendam
+2Tim.3.15	correct	reading	Christo	1573,1758,1726: 	1750,ws	ad salutatem per fidem Jesu ⟦Christo⟧ habendam
+2Tim.3.16	base-only	reading	Omne	1573: Omnes | 1573: ad iuftitiæ disciplinam b fcilicet fa Omnes	1681,1747,1726,ws	⟦Omne⟧ scriptum divinitus inspiratum est et
+2Tim.3.16	base-only	reading	utile	1573: vbus locutus tile	1758,1681,1747,1750,1726,ws	scriptum divinitus inspiratum est et ⟦utile⟧ ad doctrinam ad reprehensionem ad
+2Tim.3.16	base-only	edge	ad justitiae disciplinam	1573: 	1758,1726,ws	reprehensionem ad correctionem ⟦ad justitiae disciplinam⟧ Ut compositus sit divinus homo
+2Tim.3.17	base-only	reading	factum	1573: e Chriftiafactum	1758,1726,ws	divinus homo ad omne recte ⟦factum⟧ bene comparatus
+2Tim.4.1	correct	reading		1573,1556,1758: regnoque | 1681: regoa que	ws	Domini Jesu Christi qui adventu ⟦⟧ suo et vivos et mortuos
+2Tim.4.2	others-1573-agrees	reading	opportune	1758: oppor tune importune | 1750: opportu ne importune	1573,1747,ws	Publica doctrinam insta ⟦opportune⟧ argue increpa cohortare summa cum
+2Tim.4.2	base-only	reading		1573: importune | 1747: import une	ws	Publica doctrinam insta opportune ⟦⟧ argue increpa cohortare summa cum
+2Tim.4.2	correct	reading	clemetia	1573,1747,1750: clementia	ws	argue increpa cohortare summa cum ⟦clemetia⟧ ac docrina
+2Tim.4.2	others	reading	docrina	1758,1747,1750: doctrina | 1573:  | 1715: doctrina mnibus me vindicavit Dominus Eritenim	ws	cohortare summa cum clemetia ac ⟦docrina⟧
+2Tim.4.3	base-only	division	cumulabunt	1573: cu mulabunt	1556,1758,1681,1715,1747,1750,ws	ad suas libidines sibi magistros ⟦cumulabunt⟧
+2Tim.4.5	base-only	division	Tu vero	1573: Tuverò	1758,1715,1747,1750,ws	⟦Tu vero⟧ in omnibus esto sobrius mala
+2Tim.4.6	base-only	reading	jam	1573: iainiam | 1747: iamiam	1681,1750,ws	Nam ego ⟦jam⟧ immolandus sum discessusque mei tempus
+2Tim.4.6	base-only	reading	sum	1573: suin	1758,1681,1715,1747,1750,ws	Nam ego jam immolandus ⟦sum⟧ discessusque mei tempus instat
+2Tim.4.7	base-only	division	fidem	1573: fi dem	1758,1681,1715,1747,1750,ws	Praeclarum certamen certavi cursum absolui ⟦fidem⟧ servavi
+2Tim.4.8	base-only	division	adventum	1573: aduen tum | 1758: adve tum | 1715: adven Utcompofitus fit divinus tum | 1750: ad ventum	1681,1747,ws	sed etiam omnibus qui ejus ⟦adventum⟧ amaverint
+2Tim.4.10	base-only	division	dereliquit	1573: dereli quit | 1758: dereliqu	1556,1715,1747,1750,ws	enim me vitae praesentis amore ⟦dereliquit⟧ et Thessalonicam profectus est Crescens
+2Tim.4.10	base-only	edge	Dalmatiam	1573: Dalmatian II	1556,1758,1681,1750,ws	Crescens in Galatiam Titus in ⟦Dalmatiam⟧ Lucas solus est mecum Marcum
+2Tim.4.11	base-only	reading	mecum	1573: inecum	1556,1758,1681,1715,1747,1750,ws	Lucas solus est ⟦mecum⟧ Marcum adsumtum tecum adducito est
+2Tim.4.11	correct	spelling	adsumtum	1573,1715: assumptum | 1681: affum Jac ptum | 1747: aflımtum	1750,ws	Lucas solus est mecum Marcum ⟦adsumtum⟧ tecum adducito est enim mihi
+2Tim.4.13	correct	spelling	adferto	1573,1758,1747: afferto	1750,ws	apud Carpum reliqui quum venies ⟦adferto⟧ et libros maxime membranas
+2Tim.4.14	correct	spelling	ferarius	1573,1556,1758,1747,1750: ferrarius	ws	Alexander faber ⟦ferarius⟧ multis me malis adfecit reddat
+2Tim.4.14	correct	spelling	adfecit	1573,1556,1758,1715,1747: affecit	1750,ws	faber ferarius multis me malis ⟦adfecit⟧ reddat ei Dominus digna ejus
+2Tim.4.16	correct	reading	meae	1573,1758,1747,1726: mea	1750,ws	In prima ⟦meae⟧ causae dictione nemo mihi adfuit
+2Tim.4.16	base-only	f/s	deseruerunt	1573: deferuerunt	ws	mihi adfuit sed omnes me ⟦deseruerunt⟧ id quod ne eis imputetur
+2Tim.4.17	base-only	reading	meque	1573: meqs | 1556: me que	1758,1681,1747,1750,1726,ws	At Dominus mihi adfuit ⟦meque⟧ corroboravit ut per me peragatur
+2Tim.4.17	base-only	reading	audiantque gentes	1573: audiátás gétes	1758,1747,1750,1726,ws	ut per me peragatur praeconium ⟦audiantque gentes⟧ omnes atque ita liberatus sum
+2Tim.4.18	base-only	reading	suum	1573: suu	1758,1681,1747,1750,1726,ws	mala re et ad caeleste ⟦suum⟧ regnum conservabit Dominus cui gloria
+2Tim.4.18	base-only	edge	saecula Amen	1573: 	1758,1681,1747,1750,1726,ws	cui gloria in perpetua ⟦saecula Amen⟧ Saluta Priscam et Aquilam et
+2Tim.4.19	correct	reading	Onosiphori	1573,1758,1747,1726: Onesiphori | 1681: Onefipho	ws	Saluta Priscam et Aquilam et ⟦Onosiphori⟧ familiam
+2Tim.4.20	base-only	reading	Trophimum	1573: Trophinum | 1556: Tros phímum | 1758: T rophimum	1747,1726,ws	Erastus mansit Corinthi ⟦Trophimum⟧ reliqui Mileti aegrotantem
+2Tim.4.21	base-only	reading	Cura ut ante hiemem	1573: Curavtante hyeinem	ws	⟦Cura ut ante hiemem⟧ venias Salutat te Eubulus et
+2Tim.4.21	others	spelling	hiemem	1758,1747,1726: hyemem	1750,ws	Cura ut ante ⟦hiemem⟧ venias Salutat te Eubulus et
+2Tim.4.21	base-only	division	Eubulus	1573: Eubu lus	1556,1758,1681,1747,1750,1726,ws	ante hiemem venias Salutat te ⟦Eubulus⟧ et Pudens et Linus et
+2Tim.4.21	base-only	edge	omnes	1573: 	1556,1758,1681,1747,1750,1726,ws	Linus et Claudia denique fratres ⟦omnes⟧ Dominus Jesus Christus adsit animo
+2Tim.4.22	correct	reading	favor	1573,1758: gratia	1747,1750,ws	adsit animo tuo Adsit vobis ⟦favor⟧ Amen Scripta est Romae ad
+2Tim.4.22	base-only	spelling	Romae	1573: Rome	1758,1747,1750,ws	vobis favor Amen Scripta est ⟦Romae⟧ ad Timotheum secunda quum se
+2Tim.4.22	base-only	reading	secunda	1573: secundu	1556,1758,1681,1715,1747,1750,ws	Scripta est Romae ad Timotheum ⟦secunda⟧ quum se Paulus iterum stitisset
+2Tim.4.22	base-only	reading	Caesari	1573: Cafari	1556,1758,1715,1747,1750,ws	quum se Paulus iterum stitisset ⟦Caesari⟧ Neroni

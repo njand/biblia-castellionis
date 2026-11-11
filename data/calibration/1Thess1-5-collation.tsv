@@ -1,0 +1,121 @@
+id	kind	sort	text	readings	support	context
+1Thess.1.4	uncovered	base	43% of the words			
+1Thess.5.2	uncovered	base	55% of the words			
+1Thess.1.1	base-only	reading		1573: precationi insistant ac gratiasagant Domino Tandem adiurat eos ut Episto lam hanc fratribus omnib legant atg ita illam finit Gratiarum actionem ideo proponit vt Dei beneficium esse admoneat quicquid prædicat in ipfis laude dignum et quod reliquis exemplum facti fint AVLVSET	1758,1715,1726,ws	Paulus et ⟦⟧ Sylvanus et Timotheus Thessalonicensium ecclesiae
+1Thess.1.1	correct	reading	favorem	1573,1758,1726: gratiam	1715,ws	est et Domini Jesu Christi ⟦favorem⟧ et pacem a Deo patre
+1Thess.1.2	base-only	reading		1573: Theff	1556,1681,1726,ws	Agimus immortales gratias ⟦⟧ Deo de vobis omnibus vestri
+1Thess.1.3	base-only	edge		1573: et fide ope	1556,1758,1681,ws	mentionem facientes in nostris precibus ⟦⟧ Continenter coram Deo patreque nostro
+1Thess.1.3	base-only	reading	recolentes	1573: recolenremini et tes a | 1758: ei noi colentes	1556,1715,1750,1726,ws	Continenter coram Deo patreque nostro ⟦recolentes⟧ opus fidei vestrae caritatisque laborem
+1Thess.1.3	correct	reading	caritatisque	1573,1758,1726: charitatisque	1750,ws	nostro recolentes opus fidei vestrae ⟦caritatisque⟧ laborem et spei in Domino
+1Thess.1.3	base-only	reading		1573: boretis et	1758,1715,1750,1726,ws	caritatisque laborem et spei in ⟦⟧ Domino nostro Jesu Christo sitae
+1Thess.1.3	base-only	reading		1573: spe toleretis	1758,1681,1715,1750,1726,ws	sitae coram Deo et patre ⟦⟧ nostro tolerantiam
+1Thess.1.4	base-only	edge	divinitus electos	1573: diuinituselectos	1758,1726,ws	fratres carissimi vos esse ⟦divinitus electos⟧ Quandoquidem evangelium nostrum non fuit
+1Thess.1.5	base-only	reading	potentia	1573: poteriria	1556,1758,1747,1750,1726,ws	verbis dumtaxat positum sed cum ⟦potentia⟧ Sanctoque Spiritu et certissimis argumentis
+1Thess.1.6	base-only	reading	Dominique	1573: Dominiqs	1758,1750,1726,ws	Et ut vos nostri ⟦Dominique⟧ fueritis imitatores admissa doctrina cum
+1Thess.1.6	correct	spelling	Adflatus	1573,1758: afflatus | 1747: afa a DeoPatre noftro et Domi tus | 1726: aflatus	1750,ws	cum multa calamitate cum Sancti ⟦Adflatus⟧ laetitia
+1Thess.1.8	base-only	edge		1573: charitate la	1758,1750,ws	in Macedonia et Achaia fidentibus ⟦⟧ Non solum enim a vobis
+1Thess.1.8	others-1573-agrees	division	enim a	1747,1750: enima	1573,1556,1758,ws	Non solum ⟦enim a⟧ vobis dominica doctrina Macedoniam Achaiamque
+1Thess.1.8	base-only	reading	etiam	1573: etiá	1556,1758,1747,1750,ws	doctrina Macedoniam Achaiamque personuit verum ⟦etiam⟧ in omnia loca permanavit vestra
+1Thess.1.8	base-only	reading		1573: loca AD THESALONICENSES	1758,1681,1750,ws	personuit verum etiam in omnia ⟦⟧ loca permanavit vestra erga Deum
+1Thess.1.9	base-only	division	aditum	1573: adi tum | 1747: adi Scientes fratres carilli tum	1758,1681,1750,ws	vobis praedicant qualem ad vos ⟦aditum⟧ habuerimus utque vos a deastris
+1Thess.1.9	correct	reading	converteretis	1573,1758: conuerteritis | 1747: conuerfa ctos Thef teretis	1750,ws	vos a deastris ad Deum ⟦converteretis⟧ ut viventi veroque Deo serviretis
+1Thess.1.9	base-only	reading	veroque	1573: verog	1758,1747,1750,ws	ad Deum converteretis ut viventi ⟦veroque⟧ Deo serviretis
+1Thess.1.10	base-only	edge	supplicio defendit	1573: 	1556,1758,1747,1750,ws	qui nos a futuro ⟦supplicio defendit⟧
+1Thess.2.1	base-only	reading	adventum	1573: tum | 1556: aduen e tum	1758,1715,1747,1750,ws	ipsi fratres nostrum ad vos ⟦adventum⟧ non inanem fuisse
+1Thess.2.2	correct	spelling	Phillipis	1573,1556,1758,1750: Philippis | 1715: Philips eritis imitatores admiffa do pis	ws	Quin quamvis ante ⟦Phillipis⟧ ut scitis mala contumeliasque passi
+1Thess.2.2	base-only	reading	contumeliasque	1573: contumeliasqs | 1556: contumelíasQy	1758,1747,ws	ante Phillipis ut scitis mala ⟦contumeliasque⟧ passi essemus tamen per Deum
+1Thess.2.3	base-only	reading	obscenitatis	1573: ob foenitatis	1556,1758,1681,1747,1750,ws	enim nostra cohortatio erroris aut ⟦obscenitatis⟧ aut fraudis
+1Thess.2.4	base-only	division	sic loquimur	1573,1556: ficloquimur	1758,1715,1747,1750,ws	divinitus probatis creditum est evangelium ⟦sic loquimur⟧ non ut hominibus placentes sed
+1Thess.2.5	correct	spelling	umquam adsentatoria	1573,1758,1747: vnquam assentatoria | 1715: unquam affenta Dei fermonem qui in vobis fitoria	1750,ws	Nec enim ⟦umquam adsentatoria⟧ oratione usi sumus ut vos
+1Thess.2.6	base-only	division	Nec ab	1573: necab | 1715: Vos enim imitatores fulA et l ftis fratres divinarum Ecclelia Necab	1758,1681,1747,1750,ws	⟦Nec ab⟧ hominibus gloriam expetivimus nec a
+1Thess.2.6	base-only	division	vobis	1573: vo bis | 1758: vobiz	1556,1715,1747,1750,ws	hominibus gloriam expetivimus nec a ⟦vobis⟧ nec ab aliis Et licet
+1Thess.2.8	base-only	reading	nos	1573: vos | 1758: no pedi	1715,1747,ws	Sic ⟦nos⟧ prae vestri cupiditate libenter vobis
+1Thess.2.8	others	reading	cari	1758,1681,1715: chari	1747,1750,ws	ipsorum animas impertituri fuerimus tam ⟦cari⟧ nobis eratis
+1Thess.2.8	base-only	reading	cari nobis	1573: charino bis	1747,1750,ws	ipsorum animas impertituri fuerimus tam ⟦cari nobis⟧ eratis
+1Thess.2.9	base-only	reading		1573: Thss	1556,1758,1747,ws	enim fratres nostrum laborem ac ⟦⟧ defatigationem quippe qui noctes et
+1Thess.2.9	correct	reading		1573,1556,1750: operando | 1715: Nos verojfratresvobis alioperando	ws	quippe qui noctes et dies ⟦⟧ ne quem vestrum gravaremus apud
+1Thess.2.10	base-only	reading	pie	1573: pid	1556,1758,1681,1715,1747,1750,ws	testes estis et Deus quam ⟦pie⟧ quam juste et inculpate nos
+1Thess.2.11	base-only	reading	unumquemque	1573: vnumquenqı	1758,1747,1750,ws	Quemadmodum scitis ut ⟦unumquemque⟧ vestrum sicuti pater liberos sic
+1Thess.2.12	base-only	reading	moneremusque	1573: moneremusós | 1747: mo neremusque	1758,1681,1750,ws	Ac consolaremur ⟦moneremusque⟧ ut ita vos gereretis uti
+1Thess.2.12	base-only	division	gereretis	1573: gere retis | 1747: gert retis	1556,1758,1750,ws	consolaremur moneremusque ut ita vos ⟦gereretis⟧ uti Deo dignum esset qui
+1Thess.2.14	base-only	reading	quoque	1573: quoqs	1758,1747,1750,1726,ws	Jesum attinet siquidem eadem vos ⟦quoque⟧ passi estis a vestris tribulibus
+1Thess.2.16	correct	spelling	adloquamur	1573,1758,1747,1726: alloquamur	1750,ws	Vetantes ne alienigenas quo serventur ⟦adloquamur⟧ ut eorum peccata semper expleantur
+1Thess.2.17	others	spelling	aliquamdiu	1573: aliquádiu | 1556,1758,1747,1726: aliquandíu	1750,ws	Nos vero fratres vobis ⟦aliquamdiu⟧ praesentia non animo orbati magna
+1Thess.2.17	base-only	reading	vehementique	1573: vehementiqs	1758,1681,1747,1750,1726,ws	praesentia non animo orbati magna ⟦vehementique⟧ vestri coram videndi cupiditate flagravimus
+1Thess.2.19	base-only	spelling	quaenam	1573: quæ nam	1758,1715,1747,1750,1726,ws	Etenim ⟦quaenam⟧ nostra spes est aut laetitia
+1Thess.3.1	base-only	division	nobis	1573: no bis	1556,1758,1681,1715,1750,1726,ws	durare non possemus visum est ⟦nobis⟧ Athenis relinqui solis
+1Thess.3.2	base-only	reading	Timotheumque	1573: Timotheumás | 1750: Limotheumque | 1747: l inotheumque	1758,1715,1726,ws	⟦Timotheumque⟧ mittere fratrem nostrum et Dei
+1Thess.3.2	base-only	division	collegam	1573: col legam	1758,1681,1715,1747,1750,1726,ws	ac nostrum in Christi evangelio ⟦collegam⟧ ad vos confirmandos et de
+1Thess.3.4	others-1573-agrees	reading	praedicebamus	1758: praedi Ju cebamus | 1681: prsedi P if bamus | 1715,1747: predicabamus | 1750: praediccbamus	1573,1726,ws	dum apud vos eramus vobis ⟦praedicebamus⟧ fore ut adfligeremur quemadmodum et
+1Thess.3.4	correct	spelling	adfligeremur	1573,1758,1715,1726: affligeremur | 1747: afHigeremur | 1750: adfigeremur	ws	eramus vobis praedicebamus fore ut ⟦adfligeremur⟧ quemadmodum et accidit et vos
+1Thess.3.4	base-only	edge	et vos scitis	1573: 	1758,1750,1726,ws	quemadmodum et accidit ⟦et vos scitis⟧ Propterea ego me iam non
+1Thess.3.5	correct	reading	tentasse	1573,1556,1747,1750,1726: tentasset | 1758: vates tentasset | 1715: Uod fupereft igitur fratres tentaílet	ws	cognitum mitterem ne forte vos ⟦tentasse⟧ tentator atque ita labor noster
+1Thess.3.6	base-only	division	istinc ad	1573: istincad	1556,1758,1715,1750,1726,ws	Verum quum modo Timotheus ⟦istinc ad⟧ nos venisset nobisque vestram fidem
+1Thess.3.6	correct	reading	caritatem	1573,1758: charitatem | 1715: charitatem debeatis in eo przcellatis	1747,1750,ws	venisset nobisque vestram fidem et ⟦caritatem⟧ nuntiasset vosque nostri bonam semper
+1Thess.3.6	base-only	division	cupientes	1573: cu pientes	1556,1758,1681,1747,1750,1726,ws	nostri bonam semper tenere memoriam ⟦cupientes⟧ videre nos ut nos quoque
+1Thess.3.6	base-only	reading	quoque	1573,1556: quoq	1758,1715,1747,1726,ws	cupientes videre nos ut nos ⟦quoque⟧ vos
+1Thess.3.9	base-only	spelling	actionem	1573: ationem | 1747: axtionem	1556,1758,1750,1726,ws	Deo de vobis referre gratiarum ⟦actionem⟧ valeamus ob tantam laetitiam quam
+1Thess.3.10	correct	reading	ac	1573,1758: et	1747,1750,ws	Noctes ⟦ac⟧ dies sumopere orantes videre vos
+1Thess.3.10	base-only	division	coram	1573: co ram	1556,1758,1681,1747,1750,1726,ws	dies sumopere orantes videre vos ⟦coram⟧ et quae vestrae fidei desunt
+1Thess.3.11	base-only	reading	paterque	1573: paterás | 1556,1747: pater	1758,1681,1750,1726,ws	Ipse Deus ⟦paterque⟧ noster et Dominus noster Jesus
+1Thess.3.11	base-only	division	nostrum	1573: no strum | 1758: nostrun | 1681: norti um	1747,1750,1726,ws	et Dominus noster Jesus Christus ⟦nostrum⟧ ad vos iter secundet
+1Thess.3.12	correct	reading	caritate	1573,1556,1758: charitate | 1726: cha ritate	1747,1750,ws	inter vos et erga omnes ⟦caritate⟧ abunde cumulet quali nos erga
+1Thess.3.12	base-only	f/s	sumus	1573: fumus	ws	cumulet quali nos erga vos ⟦sumus⟧
+1Thess.3.13	others-1573-agrees	reading	Jesu	1747,1750: lefu Chrifti	1573,1758,ws	conspectu in adventum Domini nostri ⟦Jesu⟧ cum ejus sanctis omnibus
+1Thess.3.13	correct	reading		1573,1758: Christi	ws	in adventum Domini nostri Jesu ⟦⟧ cum ejus sanctis omnibus
+1Thess.4.1	base-only	reading	hortamur vos per Dominum Jesum ut quemadmodum	1573: horta modum	1758,ws	superest igitur fratres oramus ac ⟦hortamur vos per Dominum Jesum ut quemadmodum⟧ a nobis didicistis quomodo vos
+1Thess.4.1	base-only	reading	Deoque	1573: Deó mur vos per Dominum Iesum vt quemad que | 1556: Déot	1758,1681,1747,1750,ws	nobis didicistis quomodo vos gerere ⟦Deoque⟧ placere debeatis in eo praecellatis
+1Thess.4.4	base-only	reading	sanctimonia	1573: sanctimo Eple nia | 1747,1750: fancttmonia	1758,1715,ws	quisque vestrum suum vas cum ⟦sanctimonia⟧ ac honestate possidere
+1Thess.4.4	correct	reading	possidere	1747: poiidere | 1573,1758: 	1556,1715,1750,ws	vas cum sanctimonia ac honestate ⟦possidere⟧
+1Thess.4.5	base-only	division	ut alienigenae	1573: vtalienigenæ	1747,1750,ws	Non ⟦ut alienigenae⟧ Deum ignorantes cum cupiditatis libidine
+1Thess.4.6	base-only	edge		1573: possidere	1750,ws	Deum ignorantes cum cupiditatis libidine ⟦⟧ Ne quis suum fratrem in
+1Thess.4.6	base-only	f/s	sumus	1573: fumus	ws	etiam antea vobis diximus testatique ⟦sumus⟧
+1Thess.4.7	base-only	division	Deus ad	1573: Deusad	1556,1758,1726,ws	Non enim vocavit nos ⟦Deus ad⟧ obscenitatem sed ad sanctimoniam
+1Thess.4.7	others-1573-agrees	reading	sanctimoniam	1556: fanctimoriíam | 1758: ntimoniam | 1750: fanétimoniam | 1715: fancti moniam Lev et | 1747: fan et timoniam Leu et	1573,1726,ws	Deus ad obscenitatem sed ad ⟦sanctimoniam⟧
+1Thess.4.8	base-only	reading	Itaque qui	1573: Itaqi quia	1556,1758,1681,1715,1747,1750,1726,ws	⟦Itaque qui⟧ repudiat non hominem repudiat sed
+1Thess.4.8	others-1573-agrees	reading	nos	1556,1715,1747: uos	1573,1758,1750,1726,ws	hominem repudiat sed Deum qui ⟦nos⟧ suo Sancto Spiritu donat
+1Thess.4.9	base-only	edge	divinitus didiceritis	1573: diio	1556,1758,1750,1726,ws	vos ipsi mutuo amare ⟦divinitus didiceritis⟧ Quippe quum id erga omnes
+1Thess.4.11	base-only	reading	Ac quiescere	1573: In acquiefcere	1556,1758,1715,1747,ws	⟦Ac quiescere⟧ et vestras res agere vestrisque
+1Thess.4.11	base-only	division	manibus	1573: ma nibus | 1747: maniUs	1556,1758,1715,1750,ws	et vestras res agere vestrisque ⟦manibus⟧ operari contendatis quomodo nos vobis
+1Thess.4.11	base-only	spelling	praecepimus	1573: præ cepimus | 1747: praeceise Epb t	1556,1758,1750,ws	operari contendatis quomodo nos vobis ⟦praecepimus⟧
+1Thess.4.12	base-only	division	indigeatis	1573: in digeatis	1758,ws	alienos geratis nec ulla re ⟦indigeatis⟧
+1Thess.4.13	base-only	reading	obdormierunt	1573: ob De refurre dormiuerunt | 1758: obdormiverunt | 1747: obSormierunt	1750,ws	vos fratres de iis qui ⟦obdormierunt⟧ ne cruciemini ut ceteri qui
+1Thess.4.13	base-only	reading	qui spem non	1573: quispemnon et ione	1758,1750,ws	obdormierunt ne cruciemini ut ceteri ⟦qui spem non⟧ habent
+1Thess.4.14	base-only	reading	surrexisse	1573: refur rexiffe | 1758,1750: resurrexisse | 1747: refurrexifle	ws	credimus Jesum mortuum esse et ⟦surrexisse⟧ ita Deus eos etiam qui
+1Thess.4.14	correct	reading	per Christum obdormiverunt	1573,1758: in Christo obdormiuerint | 1681: in Chrtt obdormiverint	1747,1750,ws	ita Deus eos etiam qui ⟦per Christum obdormiverunt⟧ ducet cum eo
+1Thess.4.16	base-only	reading		1573: Cor st	1758,1715,1747,1750,ws	Dominus cum praeconio cum summi ⟦⟧ angeli voce cumque divina tuba
+1Thess.4.16	base-only	reading	cumque	1573: cumós | 1556: ín et p | 1747: cumc que	1758,1681,1715,1750,ws	praeconio cum summi angeli voce ⟦cumque⟧ divina tuba descendet de caelo
+1Thess.4.18	correct	edge	sermonibus	1573,1758: 	1715,1747,1750,ws	Quamobrem consolamini alius alium his ⟦sermonibus⟧
+1Thess.5.1	base-only	reading	tempestatibusque	1573: tempestatibusós | 1715: temptftatibusque | 1747: teinpeflatibusque	1758,1681,1750,ws	De temporibus vero ⟦tempestatibusque⟧ fratres non est opus ut
+1Thess.5.2	base-only	reading	praeclare	1573: præclate | 1758: praeclate MWbate | 1715: praclare	1681,1747,1750,ws	Quum ipsi ⟦praeclare⟧ sciatis Domini diem venturam esse
+1Thess.5.2	base-only	reading	Domini	1573: Doinini	1556,1758,1681,1715,1750,ws	Quum ipsi praeclare sciatis ⟦Domini⟧ diem venturam esse ut furem
+1Thess.5.2	base-only	reading	venturam esse	1573: efMat feventuram | 1681: v i vcnturam	1750,ws	ipsi praeclare sciatis Domini diem ⟦venturam esse⟧ ut furem noctu
+1Thess.5.3	base-only	reading	sic eis instabit	1573: siceis in stabit	1681,1747,1750,ws	repente ut dolor uterum ferenti ⟦sic eis instabit⟧ interitus quem non effugient
+1Thess.5.4	correct	spelling	tamquam	1573,1758,1747: tanquam | 1556: tiquam | 1715: tanquam exercete Lev Matth	1750,ws	tenebris ut vos dies illa ⟦tamquam⟧ fur opprimat
+1Thess.5.5	base-only	reading	dieique	1573: dieiós | 1747: diei que	1758,1715,1750,ws	Omnes enim lucis ⟦dieique⟧ homines estis Non sumus noctis
+1Thess.5.5	base-only	f/s	sumus	1573: fumus	ws	lucis dieique homines estis Non ⟦sumus⟧ noctis aut tenebrarum
+1Thess.5.6	base-only	reading	sobriique	1573: sobrijás | 1556: fobrijq | 1747: fobrique	1758,1715,ws	ergo ut ceteri sed vigilemus ⟦sobriique⟧ simus
+1Thess.5.6	base-only	f/s	simus	1573: fimus	ws	ut ceteri sed vigilemus sobriique ⟦simus⟧
+1Thess.5.8	base-only	f/s	simus	1573: fimus	ws	At nos quum diei ⟦simus⟧ sobrii sumus induti fidei caritatisque
+1Thess.5.8	others	reading	sumus	1573: siumus | 1758,1747,1750: simus	ws	nos quum diei simus sobrii ⟦sumus⟧ induti fidei caritatisque loricam galeamque
+1Thess.5.8	base-only	reading	caritatisque	1573: Ephef charitatisós | 1556: charítatíscy | 1758: charitatisque	1747,1750,ws	simus sobrii sumus induti fidei ⟦caritatisque⟧ loricam galeamque spei salutis
+1Thess.5.8	base-only	reading	galeamque spei	1573: galeamqs sper	1758,1747,ws	sumus induti fidei caritatisque loricam ⟦galeamque spei⟧ salutis
+1Thess.5.9	base-only	reading	Dominum	1573: Domitium | 1747: Dotninum	1556,1758,1681,1750,ws	supplicio sed saluti partae per ⟦Dominum⟧ nostrum Jesum Christum
+1Thess.5.10	base-only	f/s	sive	1573: fiue	ws	Pro nobis mortuum ut ⟦sive⟧ vigilamus sive dormimus una cum
+1Thess.5.10	base-only	f/s	sive	1573: fiue	ws	nobis mortuum ut sive vigilamus ⟦sive⟧ dormimus una cum eo vivamus
+1Thess.5.12	base-only	reading	vobisque	1573: vobisós | 1747: v obisq ue	1758,1750,ws	eos qui in vobis laborant ⟦vobisque⟧ praesunt in Domino negotio et
+1Thess.5.12	correct	reading	Domino	1573,1758,1747,1750: Domini	ws	vobis laborant vobisque praesunt in ⟦Domino⟧ negotio et vos castigant agnoscatis
+1Thess.5.13	base-only	reading	carosque	1573: charosás | 1758: charosque	1747,1750,ws	Et maximi faciatis ⟦carosque⟧ habeatis propter eorum opus Praebete
+1Thess.5.13	others-1573-agrees	reading	eorum	1758,1747: corum	1573,1556,1715,1750,ws	maximi faciatis carosque habeatis propter ⟦eorum⟧ opus Praebete vos eis pacatos
+1Thess.5.13	base-only	reading	pacatos	1747: para | 1573: 	1758,1681,1715,1750,ws	eorum opus Praebete vos eis ⟦pacatos⟧
+1Thess.5.14	base-only	division	incompositos	1573: incompo fitos | 1747: in comp alltok	1556,1758,1750,ws	Hortamur item vos fratres castigate ⟦incompositos⟧ solamini parum magnanimos infirmis opitulamini
+1Thess.5.15	base-only	reading	Videte	1573: Videre	1758,1715,1747,1750,ws	⟦Videte⟧ ne quis cui malum pro
+1Thess.5.15	base-only	reading	rependat	1573: repédat | 1758: reyendat	1715,1747,1750,ws	quis cui malum pro malo ⟦rependat⟧ sed semper beneficia et inter
+1Thess.5.15	base-only	reading		1573: Per	1556,1758,1715,1747,1750,ws	malum pro malo rependat sed ⟦⟧ semper beneficia et inter vos
+1Thess.5.18	base-only	reading		1573: a id vos fa	1556,1758,1747,1750,ws	Nam ea est Dei ⟦⟧ de vobis qui sitis Christi
+1Thess.5.23	base-only	reading	vestri	1573: vestra	1758,1750,ws	sanctos reddat et absolutos integrique ⟦vestri⟧ spiritus et animae et corpora
+1Thess.5.23	base-only	division	criminis	1573: crimi nis | 1758: crimiis in is	1556,1681,1747,1750,ws	spiritus et animae et corpora ⟦criminis⟧ expertia in adventum Domini nostri
+1Thess.5.24	base-only	f/s	sit	1573: fit	ws	vos vocavit ut id facturus ⟦sit⟧
+1Thess.5.27	base-only	reading	Dominum	1573: Dominuın | 1758: Domicac rum	1556,1747,1750,ws	Obtestor vos per ⟦Dominum⟧ ut haec legatur epistola omnibus
+1Thess.5.28	others-1573-agrees	reading	Jesu	1747,1750: lefu	1573,1758,1681,ws	Adsit vobis Domini nostri ⟦Jesu⟧ Christi favor Amen Ad Thessalonicenses
+1Thess.5.28	correct	reading	favor	1573,1758: gratia	1747,1750,ws	vobis Domini nostri Jesu Christi ⟦favor⟧ Amen Ad Thessalonicenses prima scripta

@@ -1,0 +1,34 @@
+id	kind	sort	text	readings	support	context
+Phlm.1.1	correct	reading		1573: argumentum bumile bic tractans suo tamen more fublimis ad Deum euchitur Fugitiuum feruum furem Philemoni remittens pro illo deprecatur veniam et grauiter de æquitate Christiana deprecatur AVLVS | 1747: argumentum bumile bic traclans fuo tamen more fiblimis ad Deumeuebitur Fugitiuum feruum et furem Philemoni remittens pro illo deprecatur veniam et grauiter de aequitate Chriftiana de precatur aulus	1758,ws	Paulus ⟦⟧ Jesu Christi vinctus et Timotheus
+Phlm.1.1	correct	reading	caro	1573,1758,1726: charo	1747,1750,ws	vinctus et Timotheus frater Philemoni ⟦caro⟧ amico adiutorique nostro
+Phlm.1.2	base-only	spelling	Appiae carissimae	1573: Appię charifsime	1750,ws	Et ⟦Appiae carissimae⟧ et Archippo commilitoni nostro et
+Phlm.1.2	base-only	reading	Archippo	1573: Archip po | 1681: ArchiA o i	1758,1747,1750,ws	Et Appiae carissimae et ⟦Archippo⟧ commilitoni nostro et ecclesiae domus
+Phlm.1.2	base-only	spelling	ecclesiae	1573: ecclesię | 1681: Ecclcfiae	1758,1747,1750,ws	et Archippo commilitoni nostro et ⟦ecclesiae⟧ domus tuae
+Phlm.1.3	base-only	reading	nostro	1573: nottro	1758,1747,1750,1726,ws	et pacem a Deo patre ⟦nostro⟧ et Domino Jesu Christo
+Phlm.1.5	correct	reading	caritate	1573,1758,1681,1726: charitate	1747,1750,ws	Audiens qua ⟦caritate⟧ et fide praeditus sis tum
+Phlm.1.5	others-1573-agrees	reading	sanctos	1681: fanc Thef t | 1747: fan et os | 1726: fan et tos	1573,1758,1750,ws	in Dominum Jesum tum erga ⟦sanctos⟧ omnes
+Phlm.1.6	base-only	reading	quantum	1573: quantuin	1758,1747,1750,1726,ws	collocatae fidei fiat ut intelligatur ⟦quantum⟧ sit in vobis boni
+Phlm.1.6	base-only	f/s	sit	1573: fit	ws	fidei fiat ut intelligatur quantum ⟦sit⟧ in vobis boni
+Phlm.1.7	correct	spelling	adficimur	1573,1758,1715: afficimur	1750,ws	Magna quidem laetitia et consolatione ⟦adficimur⟧ ex caritate tua quod sanctorum
+Phlm.1.7	correct	reading	caritate	1573,1758: charitate | 1715: chariad Deum eBebitur Fugitibum tate	1750,ws	laetitia et consolatione adficimur ex ⟦caritate⟧ tua quod sanctorum animi per
+Phlm.1.7	base-only	division	per te	1573: perte	1758,1715,1750,ws	caritate tua quod sanctorum animi ⟦per te⟧ frater recreati sint
+Phlm.1.7	base-only	reading	sint	1573: funt | 1758:  | 1681: funt v ProinJe | 1715: finr mittens proillo deprecatur venis g	ws	animi per te frater recreati ⟦sint⟧
+Phlm.1.8	base-only	spelling	auctoritatem	1573: authoritatem	1750,ws	Proinde quum magnam in Christo ⟦auctoritatem⟧ habeam imperandi tibi officium
+Phlm.1.9	correct	reading	caritatem	1573,1715: charitatem	1750,ws	Propter ⟦caritatem⟧ potius rogo talis ego hoc
+Phlm.1.9	base-only	reading	vinctus	1573: vinetus | 1750: vinCus	1758,1715,ws	et nunc etiam Jesu Christi ⟦vinctus⟧
+Phlm.1.10	base-only	reading	meis	1573: ineis	1758,1715,1750,ws	de meo filio quem in ⟦meis⟧ vinculis genui Onesimo
+Phlm.1.11	base-only	edge		1573: In	1758,1681,1715,1750,ws	in meis vinculis genui Onesimo ⟦⟧ Eo qui tibi aliquando fuit
+Phlm.1.11	base-only	division	tibi aliquando	1573: tibialiquando	1758,1681,1715,1750,ws	Eo qui ⟦tibi aliquando⟧ fuit inutilis nunc et tibi
+Phlm.1.11	base-only	reading	quem	1573: queın	1758,1681,1715,1750,ws	et tibi et mihi utilis ⟦quem⟧ dimisi
+Phlm.1.12	base-only	reading	mei	1573: mihi | 1715: mihi Ago Deo meo gratias fem	ws	Tu vero eum hoc est ⟦mei⟧ intimum recipe
+Phlm.1.14	base-only	reading	non	1573: nó	1758,1715,1750,ws	tuo nihil volui facere ut ⟦non⟧ coactum sed voluntarium esset tuum
+Phlm.1.16	base-only	spelling	carissimum	1573: charissimum | 1715: pud e Cap r AD PHILEMONEM o cad M SR etta ap a tico e SERMO se PERPE NOE e dC mihi chariffinum	1750,ws	quam servum fratrem etiam mihi ⟦carissimum⟧ nedum tibi et carnis et
+Phlm.1.17	base-only	f/s	si	1573: fi	ws	Quare ⟦si⟧ me socium habes accipe eum
+Phlm.1.17	base-only	f/s	socium	1573: focium	ws	Quare si me ⟦socium⟧ habes accipe eum ut me
+Phlm.1.18	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ quid te laesit aut tibi
+Phlm.1.18	correct	division	imputato	1573,1750: im putato	1758,1715,1747,ws	aut tibi debet id mihi ⟦imputato⟧
+Phlm.1.20	base-only	reading	meum	1573: ineum	1758,1747,1750,ws	gratificare mihi per Dominum recrea ⟦meum⟧ animum per Dominum
+Phlm.1.21	base-only	division	plus etiam	1573: plusetiam	1556,1758,1681,1750,ws	tua scripsi tibi sciens te ⟦plus etiam⟧ quam peto facturum
+Phlm.1.24	base-only	reading	collegae mei	1573: collegamei	1758,1747,1750,ws	Et Marcus Aristarchus Demas Lucas ⟦collegae mei⟧
+Phlm.1.25	base-only	reading	favor	1573: gratia	1747,1750,ws	Domini nostri Jesu Christi ⟦favor⟧ adsit animis vestris Amen Missa
+Phlm.1.25	base-only	division	vestris	1573: ve stris	1556,1758,1681,1747,1750,ws	Jesu Christi favor adsit animis ⟦vestris⟧ Amen Missa est Roma per
