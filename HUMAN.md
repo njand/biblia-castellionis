@@ -2,6 +2,16 @@
 
 ## Now
 
+- **Classical spellings applied** (2026-11-12; decision 51; `data/review/classical-spellings.md`): *sē ipsum*, *tē ipsum*,
+  *mē ipsum* as two words (10 places); *epistula* for *epistola* (24 places and the 42 title lines of Romans–Jude);
+  2 John 7 *introiērunt*, Exod 16:27 *exiērunt*, Acts 15:41 *obiit*. Gold rebuilt; 7 rules added for future drafts.
+  The checklist for publishing the New Testament: `data/review/nt-publication-checklist.md`. Nothing committed.
+- **Genesis 1–27 against 1738: waiting for your Decision lines** (2026-11-12; decision 50, F):
+  `data/review/settled-1738-gen1-13.md` (13 items) and `settled-1738-gen14-27.md` (3), every place read on 1738's page
+  images (the key ones looked at again by me). 7 Wikisource slips your text inherited (4:8 *Caīnus*, 5:22 *genitum*,
+  9:15 *factī*, 13:15 *tū*, 17:12 *ex*, 25:13 *Nabaiothus*, 27:33 *precātus, et sānē*); 4 readings where 1738 and 1750
+  agree against you (4:3 *terræ*, 6:21 *sint*, 11:25 *novemdecim*, your own *ūndēvīgintī*; 13:8 *dissidium*); 5
+  macron and capital slips. Kept and listed: *cicurum*, *adhibētōte*, *cōnsīditō*, *Masma*. Nothing applied.
 - **The open questions after Revelation are decided** (2026-11-12; decision 50; `data/review/open-questions-nt.md`):
   John 1:29 and 1:36 *Ecce Agnus Deī* capitalized (gold rebuilt); no special credit for Rev 3:1 (the README's base
   statement covers it); *quidquam*/*quidquid* kept with Gaffiot; **chapter summaries left out** (decision 3 reversed;
@@ -305,6 +315,7 @@
 | 48 | 2026-11-12 | **1 Peter–Jude approved for now.** Stages 1–5 (86 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording, 1 John most of all: *caritas → amor*, *quod → quia*, *corporatum*, *in nomen credere*; 1 John 5:7–8 with 1573's parentheses; 2 Pet 1:17–18 in 1573's order; Jude 6 *Dei* and 1 John 4:4 *nobis* kept with 1573 and 1556; 3 John's verse 15 joined to 14; 102 layout lines, 111 forms; 1 Peter's OT quotations in `\qt`, Isa 40, Ps 34, Ps 118 and Proverbs as verse; Jude 9 and 15 quoted without `\qt`) settled in `text/1PE|2PE|1JN|2JN|3JN|JUD.usfm`, with the title lines as proposed (as 1573 heads them). With it: 11 spelling rules under decisions 37, 42 and 46 (*Gomorra*). Your in-depth review follows decision 30. |
 | 49 | 2026-11-12 | **Revelation approved for now; the New Testament complete.** Stages 1–5 (74 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: 16:5 *sanctus*, 19:8, 20:4 *animas … eae*, 22:11 *nocentior fiat*; 3:1, missing in Wikisource, entered from 1573; 7:5's tribe of Gad, 5:11 and 21:21 restored; chapter 10 split at the KJV's 10:2; 186 layout lines, 222 forms; Christ's speech 1:17–3:22 as one quotation, the hymns as verse where the BSB sets them) settled in `text/REV.usfm`, with the title line as proposed (as 1573 heads it), *Agnus* capital and *α et ω* in Greek letters. With it: 31 spelling rules under decisions 17, 37, 42 and 46. Open: John 1:29, 1:36 *agnus*; crediting 1573 for 3:1. Your in-depth review follows decision 30. |
 | 50 | 2026-11-12 | **Open questions after the New Testament** (`data/review/open-questions-nt.md`): John 1:29, 1:36 *Agnus* capital, as Revelation (decision 20); no special credit for Rev 3:1; *quidquam*/*quidquid* kept (Gaffiot); **chapter summaries left out, reversing decision 3**; tag v2.0 now; collate Genesis 1–27 against 1738; you add a redirect from WordPress. |
+| 51 | 2026-11-12 | **Classical spellings** (`data/review/classical-spellings.md`, on your questions): *sē ipsum*, *tē ipsum*, *mē ipsum* apart (Cicero always; the joined forms are post-classical); *epistula* (classical T1 142 : 2), in the text and the titles; the perfects of *eō*'s compounds in *-iērunt*/*-iit* (*introiverunt*, *exiverunt* unattested). Rules added: 6 words, the stem *epistol → epistul*. |
 
 ## How to run
 

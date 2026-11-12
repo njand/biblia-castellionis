@@ -296,6 +296,24 @@ pages 10282454–63. Wikisource prints the early wording throughout, mostly with
   - 1556's OCR ends with its own *Novi Testamenti finis*. The *Habes, Lector* note was not found in it (pages
     10282460–79 searched).
 
+### Genesis 1–27 in 1738, 1750 and Wikisource (collation of the settled text, 2026-11-12)
+
+Nathan's settled Genesis 1–27 (his work before the pipeline) was collated against 1738, the Old Testament base, and
+every place was read on 1738's archive.org page images (`data/review/settled-1738-gen1-13.md`, `settled-1738-gen14-27.md`).
+- **Wikisource's Genesis appears to come from the archive.org (ABBYY) OCR of 1738.** At 13:15 it reads *tui*, the OCR's
+  *tu* run into the margin verse number 15. At 9:3 it reads *concede*, as the OCR does, where the page has *concedo*.
+  Its slips passed into the settled text: 4:8 *Cainum* (1738 *Cainus*), 5:22 *gentium* (*genitum*), 9:15 *facta*
+  (*facti*), 13:15 *tui* (*tu*), 17:12 *es* (*ex*), 25:13 *Nabaiothua* (*Nabaiothus*), 27:33 a lost *&*.
+- **1750 follows 1738 closely**: it shares every real reading in Genesis 1–27, including 1738's slip *Masina* at 25:14
+  (1738's own 1 Chr 1:30 has *Masma*), and some of the same line breaks (*Masi-na*, *for-tunatus*, *con-sideto*). It is
+  not a line-for-line reprint (only about a quarter of the hyphenated words are shared). So 1750 is weak independent
+  support against 1738.
+- **Castellio's marks in the Old Testament**: 1738 prints *G. lect. … H.* (1750 *Gr. lect. … Hebr.*) around readings
+  from the Greek, e.g. Gen 21:9 *pepererat G. Isaaco filio suo H. illudentem*, the Septuagint's μετὰ Ἰσαὰκ τοῦ υἱοῦ
+  αὐτῆς; the 1573 New Testament marks *L. … G.* in the same way.
+- **1738's footnotes**: lettered glosses at the foot of the page (2:11–13 name the rivers *Ganges* and *Nilus*), not
+  printed in the edition.
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.
