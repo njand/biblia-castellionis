@@ -2,6 +2,14 @@
 
 ## Now
 
+- **Revelation is settled; the New Testament is complete** (2026-11-12; decision 49): approved by you "for now", in
+  `text/REV.usfm` (404 verses, every chapter at the KJV count); gold rebuilt, draft and preview removed (`text/draft/`
+  is gone). Record: `data/review/rev-stages3-5.md` (start here), `rev1-11-stage2.md`, `rev12-22-stage2.md`,
+  `rev1-22-chNN.md`, `data/decisions/Rev.*`; the 1573/1556 differences in `docs/editions.md`. Taken as proposed: the
+  title line (`\mt1` *Apocalypsis Jōhannis Theologī // hoc est, Patefactiō*, as 1573 heads it; `\h` *Apocalypsis*);
+  3:1 from 1573; *Agnus* capital; *α et ω* in Greek letters. **Still open for your in-depth review**: whether John 1:29
+  and 1:36 *agnus Deī* should be capitalized to match, and whether the README should name 1573 as the source of 3:1.
+  Not yet in a release or on the site. Nothing committed.
 - **1 Peter–Jude are settled** (2026-11-12; decision 48): approved by you "for now", in `text/1PE.usfm` (105
   verses), `2PE` (61), `1JN` (105), `2JN` (13), `3JN` (14), `JUD` (25), every chapter at the KJV count; gold rebuilt,
   drafts and previews removed (`text/draft/` is gone). Record: `data/review/petjud-stages3-5.md` (start here), the six
@@ -290,6 +298,7 @@
 | 46 | 2026-11-11 | **One form per person in both Testaments, the Old Testament's.** Modern translations use one form (BSB, WEB, NRSV, ESV, NIV *Hagar* in Galatians; only the KJV keeps the Greek forms); Paul's Greek has Ἁγάρ; decision 37 already spelled names one way across books. Applied: Gal 4:24–25 *Agar* → *Hagar*, Matt 24:37–38 *Nōē* → *Nōæ*, *Nōa* (`data/review/names-one-form.md`); `brief.md` (Proper names) has the rule. Replaces decision 45's *Hagar*/*Agar* point. |
 | 47 | 2026-11-12 | **Hebrews and James approved for now.** Stages 1–5 (79 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: Heb 2:16 *Abrahami semen assumpsit*, *sacrarium → sanctuarium*, Jas 1:4 *perfectum opus*; words Wikisource lost, Heb 12:26; 1573's Heb 7:28 and 8:14 joined to the KJV's 7:27 and 8:13; 123 layout lines, 131 forms; Hebrews' OT quotations in `\qt`, the psalms, Isaiah and Jer 31 as verse where the BSB sets them; the subscription as `\cls`; Jas 5:3's L. … G. marks dropped as Matt 19:4) settled in `text/HEB|JAS.usfm`, with the title lines as proposed (Hebrews without Paul's name, as 1573) and the KJV book order. With it: 23 spelling rules under decisions 37 and 42. Your in-depth review follows decision 30. |
 | 48 | 2026-11-12 | **1 Peter–Jude approved for now.** Stages 1–5 (86 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording, 1 John most of all: *caritas → amor*, *quod → quia*, *corporatum*, *in nomen credere*; 1 John 5:7–8 with 1573's parentheses; 2 Pet 1:17–18 in 1573's order; Jude 6 *Dei* and 1 John 4:4 *nobis* kept with 1573 and 1556; 3 John's verse 15 joined to 14; 102 layout lines, 111 forms; 1 Peter's OT quotations in `\qt`, Isa 40, Ps 34, Ps 118 and Proverbs as verse; Jude 9 and 15 quoted without `\qt`) settled in `text/1PE|2PE|1JN|2JN|3JN|JUD.usfm`, with the title lines as proposed (as 1573 heads them). With it: 11 spelling rules under decisions 37, 42 and 46 (*Gomorra*). Your in-depth review follows decision 30. |
+| 49 | 2026-11-12 | **Revelation approved for now; the New Testament complete.** Stages 1–5 (74 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: 16:5 *sanctus*, 19:8, 20:4 *animas … eae*, 22:11 *nocentior fiat*; 3:1, missing in Wikisource, entered from 1573; 7:5's tribe of Gad, 5:11 and 21:21 restored; chapter 10 split at the KJV's 10:2; 186 layout lines, 222 forms; Christ's speech 1:17–3:22 as one quotation, the hymns as verse where the BSB sets them) settled in `text/REV.usfm`, with the title line as proposed (as 1573 heads it), *Agnus* capital and *α et ω* in Greek letters. With it: 31 spelling rules under decisions 17, 37, 42 and 46. Open: John 1:29, 1:36 *agnus*; crediting 1573 for 3:1. Your in-depth review follows decision 30. |
 
 ## How to run
 

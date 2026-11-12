@@ -1,0 +1,810 @@
+id	kind	sort	text	readings	support	context
+Rev.4.3	uncovered	base	53% of the words			
+Rev.8.1	uncovered	base	42% of the words			
+Rev.12.4	uncovered	base	52% of the words			
+Rev.12.10	uncovered	base	0% of the words			
+Rev.12.11	uncovered	base	0% of the words			
+Rev.12.12	uncovered	base	0% of the words			
+Rev.14.2	uncovered	base	0% of the words			
+Rev.15.1	uncovered	base	55% of the words			
+Rev.16.16	uncovered	base	0% of the words			
+Rev.16.17	uncovered	base	0% of the words			
+Rev.16.18	uncovered	base	46% of the words			
+Rev.17.13	uncovered	base	50% of the words			
+Rev.21.1	uncovered	base	41% of the words			
+Rev.22.11	uncovered	base	47% of the words			
+Rev.1.1	base-only	reading	patefactio quam	1573: apatefactio quain	1556,1758,1715,1750,1726,ws	Jesu Christi ⟦patefactio quam⟧ dedit ei Deus ut servis
+Rev.1.1	base-only	f/s	servis	1573: feruis	ws	quam dedit ei Deus ut ⟦servis⟧ suis ostenderet quae brevi futura
+Rev.1.1	correct	spelling	quae	1573,1726: quę	1758,1681,1747,1750,ws	Deus ut servis suis ostenderet ⟦quae⟧ brevi futura sunt et misso
+Rev.1.1	base-only	f/s	servo	1573: feruo	ws	angelo suo per eum significavit ⟦servo⟧ suo Joanni
+Rev.1.2	base-only	reading	sermonem	1573: serinonem	1556,1758,1681,1715,1747,1750,1726,ws	Qui Dei ⟦sermonem⟧ et Jesu Christi testimonium ac
+Rev.1.2	correct	spelling	quaecumque	1573,1726: quæ cunque | 1556: quzfiu cung | 1758,1681,1747: quaecunque | 1715: quacunque	1750,ws	et Jesu Christi testimonium ac ⟦quaecumque⟧ vidit testatus est
+Rev.1.3	correct	spelling	exsequuntur	1573,1758,1715,1747,1726: exequuntur	1750,ws	quae in eo scripta sunt ⟦exsequuntur⟧ nam tempus instat
+Rev.1.3	base-only	reading	instat	1726: inflat | 1573:  | 1747: nftat Rom lac loannes	1758,1715,ws	scripta sunt exsequuntur nam tempus ⟦instat⟧
+Rev.1.4	base-only	reading	favorem	1573: gratiam	1715,1747,1750,ws	Joannes septem asianis ecclesiis ⟦favorem⟧ et pacem ab eo qui
+Rev.1.4	others-1573-agrees	division	et a	1747,1750: eta	1573,1758,1681,1715,1726,ws	fuit et qui venturus est ⟦et a⟧ septem spiritibus qui sunt ante
+Rev.1.4	base-only	f/s	solium	1573: folium	ws	spiritibus qui sunt ante ejus ⟦solium⟧
+Rev.1.5	base-only	reading		1573: prania	1556,1758,1681,1750,1726,ws	teste illo fideli primogenito ex ⟦⟧ mortuis et regum terrae principe
+Rev.1.6	base-only	reading	abluit	1573: ab colof luit	1556,1758,1715,1747,1750,1726,ws	amavit suoque sanguine a peccatis ⟦abluit⟧ et reges ac sacerdotes Deo
+Rev.1.6	base-only	division	patri suo	1573: patrifuo	1758,1681,1715,1750,1726,ws	reges ac sacerdotes Deo et ⟦patri suo⟧ fecit ei gloria et imperitum
+Rev.1.6	base-only	reading		1573: Hebr APOCALYPSIS Lach	1556,1758,1715,1750,1726,ws	et patri suo fecit ei ⟦⟧ gloria et imperitum in perpetua
+Rev.1.6	correct	reading	imperitum	1573,1758,1750,1726: imperium	ws	suo fecit ei gloria et ⟦imperitum⟧ in perpetua saecula Amen
+Rev.1.7	correct	reading	ocula	1573,1758,1715,1747,1750,1726: oculus	ws	cum nubibus eumque cernet omnis ⟦ocula⟧ et qui eum compunxerunt deque
+Rev.1.7	base-only	reading	deque	1573: deqs	1758,1681,1715,1747,1750,1726,ws	ocula et qui eum compunxerunt ⟦deque⟧ eo plangent omnes terrarum nationes
+Rev.1.7	others-1573-agrees	reading	eo	1715,1726: co	1573,1556,1758,1747,1750,ws	et qui eum compunxerunt deque ⟦eo⟧ plangent omnes terrarum nationes Etiam
+Rev.1.8	base-only	reading	sum α	1573: tum a | 1715: fuma	ws	Ego ⟦sum α⟧ et ω principium et finis
+Rev.1.8	others	reading	α	1758,1747: 	ws	Ego sum ⟦α⟧ et ω principium et finis
+Rev.1.8	correct	reading	ω	1573,1715: w | 1758: et o | 1747: 	ws	Ego sum α et ⟦ω⟧ principium et finis inquit Dominus
+Rev.1.8	base-only	reading	Omnipotens	1573: Omnipotés | 1556: Omniporens	1758,1747,1750,ws	fuit et qui venturus est ⟦Omnipotens⟧
+Rev.1.10	correct	spelling	adflatus	1573,1758,1681,1715,1747: afflatus	1750,ws	Divinitus ⟦adflatus⟧ die dominico audivi post me
+Rev.1.11	base-only	edge		1573: In	1556,1758,1715,1750,ws	magnam quasi tubae vocem dicentis ⟦⟧ Ego sum α et ω
+Rev.1.11	correct	reading	α	1573,1758,1750:  | 1681: m | 1715: a	ws	Ego sum ⟦α⟧ et ω primus et ultimus
+Rev.1.11	base-only	reading	ω	1573: et et | 1758: a sur | 1681,1750:  | 1715: w | 1747: o	ws	Ego sum α et ⟦ω⟧ primus et ultimus Tu quod
+Rev.1.12	base-only	reading	Tum	1573: Tuim | 1750: um	1758,1681,ws	⟦Tum⟧ ego me converti ut viderem
+Rev.1.12	correct	spelling	adlocuta	1573,1715: allocuta | 1758: alloquuta	ws	ut viderem quae vox esset ⟦adlocuta⟧ me conversusque vidi septem aurea
+Rev.1.13	base-only	reading	homine nati	1573: hominis filio	1715,1747,1750,ws	in medio septem candelabrorum similem ⟦homine nati⟧ indutum veste talari et ad
+Rev.1.14	base-only	reading	autem	1573: autein | 1556: aurem | 1681: autcm	1758,1747,1750,ws	Ejus ⟦autem⟧ caput et crines erant albi
+Rev.1.15	correct	spelling	tamquam	1573,1758,1747: tanquam	1750,ws	Pedes chalcolibano similes ⟦tamquam⟧ in fornace igniti Vox ejus
+Rev.1.16	base-only	reading	exque	1573: exá	1758,1681,1747,1750,ws	sua manu dextera septem stellas ⟦exque⟧ ejus ore gladius anceps acutus
+Rev.1.16	correct	reading	adspectus	1573: afpe et tus | 1758: aspectus | 1747: aípe et us	ws	gladius anceps acutus prodibat Ejus ⟦adspectus⟧ erat qualis micat cum sua
+Rev.1.16	base-only	reading		1573: o	1758,1681,1747,1750,ws	Ejus adspectus erat qualis micat ⟦⟧ cum sua virtute sol
+Rev.1.17	base-only	reading	mortuus	1573: mor splender tuus	1556,1758,1681,1747,1750,ws	ego ad ejus pedes paene ⟦mortuus⟧ cecidi At ille dextera sua
+Rev.1.17	base-only	reading		1573: Ela	1758,1747,1750,ws	dextera sua manu mihi imposita ⟦⟧ dixit ne metue Ego sum
+Rev.1.19	base-only	reading	posthac	1573: post Efa hac | 1750: poft hac	1556,1758,1681,1747,1726,ws	quaeque sunt et quae sunt ⟦posthac⟧ futura
+Rev.1.20	base-only	reading	dextera	1573: dexte cid quod ra	1556,1758,1715,1747,1750,1726,ws	septem stellarum quas in mea ⟦dextera⟧ vidisti et septem aureorum candelabrorum
+Rev.1.20	base-only	reading		1573: stelle obice	1758,1747,1750,1726,ws	septem aureorum candelabrorum est hoc ⟦⟧ septem stellae angeli sunt septem
+Rev.2.1	base-only	division	medio	1573: me dio	1556,1758,1681,1715,1747,1750,1726,ws	sua dextera tenet qui in ⟦medio⟧ septem aureorum candelabrorum ambulat
+Rev.2.2	others-1573-agrees	reading	eos	1747,1750: cos	1573,1556,1758,1715,1726,ws	utque malos ferre nequeas et ⟦eos⟧ exploraveris qui se profitentur apostolos
+Rev.2.3	correct	division	inde fessus	1573,1758: indefessus | 1556: indetellus | 1715: indefeffus Eumconfpicatus ego ad | 1747: indefeflus | 1750: indefes e TR x fus	ws	et propter meum nomen laboras ⟦inde fessus⟧
+Rev.2.4	correct	reading	caritatem	1573,1556,1715,1726: charitatem | 1758: chantatem	1747,1750,ws	de te quod expostulem quod ⟦caritatem⟧ tuam pristinam omisisti
+Rev.2.5	base-only	division	adoriar te	1573: adoriarte	1758,1747,1750,1726,ws	ac priora opera facito Alioquin ⟦adoriar te⟧ brevi tuumque candelabrum ex suo
+Rev.2.5	base-only	reading	tuumque	1573: tuumás	1758,1681,1715,1747,1750,1726,ws	facito Alioquin adoriar te brevi ⟦tuumque⟧ candelabrum ex suo loco transmovebo
+Rev.2.5	base-only	reading	transmovebo	1573: tranfinouebo | 1715: transmove pud vos interfectus eft ubiSaiud bo | 1726: tranf movebo	1758,1747,1750,ws	tuumque candelabrum ex suo loco ⟦transmovebo⟧ nisi ad sanitatem redieris
+Rev.2.6	correct	spelling	Quamquam	1573,1556,1758: Quanquam | 1715: tanas habitat UD Quanquam | 1726: Eum confpicatus ego ad ejus pedes pene mortuus cecidi At ille dextra fua manu mihi impofita dixit Ne metue ego Quanquam	1750,ws	⟦Quamquam⟧ id habes quod Nicolaitarum facta
+Rev.2.7	base-only	division	ecclesiis	1573: eccle sijs	1758,1715,1747,1750,ws	aurem audiat quid spiritus dicat ⟦ecclesiis⟧ victori dabo vesci arbore vitali
+Rev.2.7	correct	reading	vitali	1573,1758,1726: vitæ | 1747: vi tali	1715,1750,ws	ecclesiis victori dabo vesci arbore ⟦vitali⟧ quae in medio est divini
+Rev.2.8	base-only	reading	haec	1573: Hac | 1715: Hzc | 1747: hacc	1758,1750,ws	Item angelo ecclesiae Smyrnaeorum scribito ⟦haec⟧ dicit primus et ultimus qui
+Rev.2.9	correct	reading	et	1573,1758: ac	1715,1747,1750,ws	Novi tua facta et calamitatem ⟦et⟧ pauperiem quum tamen dives sis
+Rev.2.9	base-only	f/s	sis	1573: fis	ws	et pauperiem quum tamen dives ⟦sis⟧ eorumque impium dictum qui se
+Rev.2.9	base-only	reading	Judaeos	1573: ludęos | 1715: ludzos	1758,1747,ws	eorumque impium dictum qui se ⟦Judaeos⟧ esse dicunt nec sunt sed
+Rev.2.10	correct	spelling	adflictionem	1573,1715: afflictionem	1750,ws	ut exploremini feretisque decem dierum ⟦adflictionem⟧ Esto fidelis ad mortem usque
+Rev.2.10	base-only	reading		1573: coronam	1556,1747,ws	mortem usque et tibi dabo ⟦⟧ vitae coronam
+Rev.2.10	base-only	reading	coronam	1573: II | 1758: 	1556,1715,1747,1750,ws	usque et tibi dabo vitae ⟦coronam⟧
+Rev.2.11	base-only	division	ecclesiis	1573: ec clesijs | 1556: ecclefiisz	1758,1750,1726,ws	aurem audiat quid spiritus dicat ⟦ecclesiis⟧ Qui vicerit non laedetur a
+Rev.2.11	base-only	reading	morte	1573: inorte	1556,1758,1715,1747,1750,ws	vicerit non laedetur a secunda ⟦morte⟧
+Rev.2.12	base-only	reading	haec	1573: Hze	1758,1747,1750,ws	Item pergamensis ecclesiae angelo scribito ⟦haec⟧ dicit qui gladium habet ancipitem
+Rev.2.13	base-only	edge		1573: Ad Perga	1556,1750,ws	qui gladium habet ancipitem acutum ⟦⟧ Novi tua facta et ubi
+Rev.2.13	base-only	reading	Satanae	1573: Satanz	1758,1747,1750,ws	facta et ubi habites ubi ⟦Satanae⟧ solium est tenesque meum nomen
+Rev.2.13	base-only	f/s	solium	1573: folium	ws	et ubi habites ubi Satanae ⟦solium⟧ est tenesque meum nomen nec
+Rev.2.13	base-only	reading		1573: menfem | 1747: tatem et adminiftratione in	1758,1715,1750,ws	ubi habites ubi Satanae solium ⟦⟧ est tenesque meum nomen nec
+Rev.2.13	base-only	reading	tenesque	1573: tenesas | 1556: tea nesqy | 1758: te qui nesque	1750,ws	habites ubi Satanae solium est ⟦tenesque⟧ meum nomen nec meam fidem
+Rev.2.14	base-only	division	propter Balacum	1573: propterBalacum	1758,1750,ws	qui Balaami doctrinam teneant qui ⟦propter Balacum⟧ docebat Israëlitis detrimentum adferre quo
+Rev.2.14	correct	spelling	adferre	1573,1758: afferre | 1747: dederim quo ab impudiciferre	1750,ws	propter Balacum docebat Israëlitis detrimentum ⟦adferre⟧ quo immolata deastris vescerentur ac
+Rev.2.14	base-only	reading		1573: Num	1556,1758,ws	Israëlitis detrimentum adferre quo immolata ⟦⟧ deastris vescerentur ac scortarentur
+Rev.2.15	base-only	reading	Item	1573: Itein | 1556: rem	1758,1747,ws	⟦Item⟧ habes tu idem qui Nicolaitarum
+Rev.2.15	correct	reading	tenant	1573,1556,1758,1750: teneant | 1747: te fternam nifi a fuis operibus lant	ws	tu idem qui Nicolaitarum doctrinam ⟦tenant⟧ id quod ego odi
+Rev.2.16	correct	spelling	adgrediar	1573,1556,1758: aggrediar | 1747: Eiusque liberos morte Bgrediar	1750,ws	Corrige te alioquin ⟦adgrediar⟧ te brevi et cum istis
+Rev.2.17	base-only	division	ecclesiis	1573: ec clesijs	1556,1758,ws	aurem audiat quid spiritus dicat ⟦ecclesiis⟧ victori dabo occulto manna vesci
+Rev.2.17	others-1573-agrees	reading	scriptum	1758,1726: seriptum	1573,1556,1750,ws	et in calculo novum nomen ⟦scriptum⟧ quod nullus novit nisi qui
+Rev.2.18	base-only	spelling	flammae	1573: flamme	1758,1750,1726,ws	filius qui oculos habet igneae ⟦flammae⟧ similes cujusque pedes similes sunt
+Rev.2.18	base-only	reading	cujusque	1573: cuius | 1758: cujus JT que	1750,1726,ws	oculos habet igneae flammae similes ⟦cujusque⟧ pedes similes sunt chalcolibano
+Rev.2.19	correct	division	Novi tua	1573,1750: Nouitua	1758,1726,ws	⟦Novi tua⟧ facta et caritatem et administrationem
+Rev.2.19	correct	reading	caritatem	1573,1556,1758,1726: charitatem	1750,ws	Novi tua facta et ⟦caritatem⟧ et administrationem et fidem et
+Rev.2.19	base-only	reading	prioribus	1573: priorib	1556,1758,1750,1726,ws	et patientiam et postrema plura ⟦prioribus⟧
+Rev.2.20	correct	reading	Jezabelem	1573,1758: Iesabelem | 1556: Tefabelem	1750,ws	contra te pauca quod mulierem ⟦Jezabelem⟧ quae se vatem esse dicit
+Rev.2.20	base-only	f/s	sinis	1573: finis	ws	se vatem esse dicit docere ⟦sinis⟧ servosque meos decipi et scortari
+Rev.2.20	base-only	reading	servosque	1573: feruosás	1556,1758,1750,ws	vatem esse dicit docere sinis ⟦servosque⟧ meos decipi et scortari et
+Rev.2.23	base-only	reading	intelligant	1573: in Jer telligant	1556,1758,1681,ws	morte multabo et efficiam ut ⟦intelligant⟧ omnes ecclesiae eum esse me
+Rev.2.23	base-only	reading	eum	1573: cum	1556,1758,1681,1747,1750,ws	efficiam ut intelligant omnes ecclesiae ⟦eum⟧ esse me qui renes et
+Rev.2.23	base-only	edge	remunerabor	1573: remu Reg nerabor | 1747: 	1556,1758,1681,1750,ws	vos pro suis quemque factis ⟦remunerabor⟧ Vobis autem dico reliquisque Thyatirensibus
+Rev.2.26	base-only	reading		1573: a	1758,1681,1747,1750,ws	Qui vero vicerit ⟦⟧ operaque mea ad extremum retinuerit
+Rev.2.26	base-only	reading	mea	1573: inea	1556,1758,1681,1747,1750,ws	Qui vero vicerit operaque ⟦mea⟧ ad extremum retinuerit huic ego
+Rev.2.26	base-only	division	huic ego	1573: huicego	1758,1747,1750,ws	operaque mea ad extremum retinuerit ⟦huic ego⟧ dabo in gentes eam potestatem
+Rev.2.27	correct	reading		1573,1758,1750: et	1556,ws	quomodo fictilia vasa conteruntur ut ⟦⟧ ego a patre meo accepi
+Rev.2.27	base-only	reading	patre	1573: patreb	1556,1758,1747,ws	vasa conteruntur ut ego a ⟦patre⟧ meo accepi
+Rev.3.1	base-only	division	habeas	1573: ha beas	1556,1758,1681,1715,1747,1750	facta qui quum viventis nomen ⟦habeas⟧ mortuus es
+Rev.3.2	base-only	division	te vigilantem	1573: tevigilantem	1556,1758,1681,1747,1750,ws	Praesta ⟦te vigilantem⟧ et cetera moritura confirma Non
+Rev.3.2	base-only	reading	confirma	1573: confir a inftirutus ma	1556,1758,1715,1747,1750,ws	te vigilantem et cetera moritura ⟦confirma⟧ Non enim inveni tua opera
+Rev.3.3	base-only	reading		1573: a	1556,1758,1750,ws	Reminiscere igitur quomodo ⟦⟧ acceperis audiverisque et serva ad
+Rev.3.3	base-only	reading	audiverisque	1573: audiueaccepifti do risque	1758,1715,1747,1750,ws	Reminiscere igitur quomodo acceperis ⟦audiverisque⟧ et serva ad frugemque redi
+Rev.3.3	base-only	reading	vigilaveris	1573: vigilaue rinam ris	1758,1681,1715,1747,1750,ws	ad frugemque redi Quod nisi ⟦vigilaveris⟧ adoriar te ut fur neque
+Rev.3.4	base-only	reading	vestimenta	1573: c homines vestiméta | 1681: vcftimcnta | 1747: veftt menta	1556,1758,1750,ws	nomina etiam Sardis quae sua ⟦vestimenta⟧ non contaminarunt ii mecum in
+Rev.3.4	base-only	division	vestibus	1573: ve stibus	1758,1681,1715,1747,1750,ws	contaminarunt ii mecum in albis ⟦vestibus⟧ ambulabunt utpote digni
+Rev.3.5	base-only	division	nomen	1573: no men | 1681: nomcn | 1747: n men	1556,1758,1715,1750,ws	albis induetur vestibus nec ejus ⟦nomen⟧ ex libro vitae delebo et
+Rev.3.7	base-only	reading	Item	1573: Íte | 1681: Ircm	1758,1747,1750,1726,ws	⟦Item⟧ angelo philadelphiensis ecclesiae scribito haec
+Rev.3.7	base-only	reading		1573: delphienfem	1681,1750,ws	angelo philadelphiensis ecclesiae scribito haec ⟦⟧ dicit sanctus verus qui Davidis
+Rev.3.7	others-1573-agrees	reading	sanctus	1681: ian et us | 1747: fan et us	1573,1758,1750,ws	philadelphiensis ecclesiae scribito haec dicit ⟦sanctus⟧ verus qui Davidis clavem habet
+Rev.3.8	base-only	division	Novi tua	1573: Nouitua	1758,1715,ws	⟦Novi tua⟧ facta Ego tibi apertam proposui
+Rev.3.8	base-only	reading	meum	1573: meuin | 1715: menm	1556,1758,1747,ws	habens meis dictis paruisti neque ⟦meum⟧ nomen negasti
+Rev.3.9	base-only	reading	veniant teque	1573: ve niant teqs	1758,1681,1715,1747,1750,ws	te ante pedes tuos veneratum ⟦veniant teque⟧ mihi carum esse intelligant
+Rev.3.9	correct	reading	carum	1573,1758,1715: charum	1747,1750,ws	tuos veneratum veniant teque mihi ⟦carum⟧ esse intelligant
+Rev.3.10	base-only	edge		1573: d quo ad	1758,1750,ws	teque mihi carum esse intelligant ⟦⟧ Quoniam meum patientiae sermonem conservasti
+Rev.3.10	base-only	reading		1573: d	1758,1747,ws	Quoniam meum ⟦⟧ patientiae sermonem conservasti ego quoque
+Rev.3.10	base-only	reading	conservasti	1573: conferuerfa patien uafti	1758,1747,1750,1726,ws	Quoniam meum patientiae sermonem ⟦conservasti⟧ ego quoque te adversus tentationis
+Rev.3.10	base-only	reading	horam	1573: horá	1556,1758,1681,1747,1750,1726,ws	ego quoque te adversus tentationis ⟦horam⟧ conservabo eventuram toti orbi quo
+Rev.3.10	base-only	reading	eventuram	1573,1556: euentura | 1726: eventusam	1758,1681,1747,1750,ws	te adversus tentationis horam conservabo ⟦eventuram⟧ toti orbi quo tententur incolae
+Rev.3.10	correct	reading	tententur incolae terrarum	1573: tentétur incolę terraru | 1681: tentur incolaeterrarum z n	1758,1747,1750,1726,ws	conservabo eventuram toti orbi quo ⟦tententur incolae terrarum⟧
+Rev.3.11	base-only	reading	venturus	1573: véturus	1758,1681,1747,1750,1726,ws	Ego brevi ⟦venturus⟧ sum tene quod habes ne
+Rev.3.12	base-only	reading	meo descendentis itemque	1573: neo descédentis itemq	1758,1747,1750,1726,ws	Hierosolymae de caelo a Deo ⟦meo descendentis itemque⟧ meum nomen novum
+Rev.3.13	base-only	reading	ecclesiis	1573: ecs clefijs | 1758: ecelesis	1556,1747,1750,1726,ws	aurem audiat quid spiritus dicat ⟦ecclesiis⟧
+Rev.3.14	base-only	reading		1573: Ad Laodi	1758,1747,1750,1726,ws	angelo laodicensis ecclesiae scribito haec ⟦⟧ dicit Amen testis fidus atque
+Rev.3.14	base-only	reading	verus	1573: ver	1758,1681,1747,1750,1726,ws	dicit Amen testis fidus atque ⟦verus⟧ opificii Dei caput
+Rev.3.15	correct	reading	quod	1573,1758,1726: qui	1747,1750,ws	Novi tua facta ⟦quod⟧ neque frigidus sis neque fervidus
+Rev.3.15	base-only	reading	fervidus	1573: ferui e hoc eft fidus | 1726: tervidus	1758,1681,1747,1750,ws	quod neque frigidus sis neque ⟦fervidus⟧ Utinam aut frigidus esset aut
+Rev.3.15	correct	reading	esset	1573,1758,1747,1726: esses | 1681: efles | 1750: Cap LL gidus effes	ws	neque fervidus Utinam aut frigidus ⟦esset⟧ aut fervidus
+Rev.3.16	correct	reading	aeque	1573,1758,1747,1726: neque	ws	Ergo quia tepidus es ⟦aeque⟧ frigidus neque fervidus evomam te
+Rev.3.16	base-only	reading	evomam	1573: euomain | 1726: e Vomam	1556,1758,1747,1750,ws	es aeque frigidus neque fervidus ⟦evomam⟧ te ex ore meo
+Rev.3.17	base-only	reading	ditatumque	1573: ditatumás	1758,1681,1747,1750,1726,ws	Quoniam te divitem ⟦ditatumque⟧ esse dicit nec ulla re
+Rev.3.17	correct	reading	dicit	1573,1758,1747,1726: dicis	ws	Quoniam te divitem ditatumque esse ⟦dicit⟧ nec ulla re indigere neque
+Rev.3.17	base-only	division	ulla	1573: vl la	1556,1758,1681,1747,1750,1726,ws	divitem ditatumque esse dicit nec ⟦ulla⟧ re indigere neque scis te
+Rev.3.17	base-only	reading	scis te	1573: scist	1758,1681,1747,1750,1726,ws	nec ulla re indigere neque ⟦scis te⟧ esse aerumnosum et miserum et
+Rev.3.17	base-only	reading	miserum	1573: miserű	1758,1681,1747,1750,1726,ws	scis te esse aerumnosum et ⟦miserum⟧ et pauperem et caecum et
+Rev.3.19	base-only	reading		1573: Prou	1758,1747,1750,ws	amo arguo et castigo Quamobrem ⟦⟧ vehementior esto teque corrige
+Rev.3.20	correct	spelling	adsto	1573,1758,1681,1747: asto	ws	Equidem pro foribus ⟦adsto⟧ atque pulso Si quis audita
+Rev.3.20	base-only	division	audita	1573: au dita	1556,1758,1681,1747,1750,ws	adsto atque pulso Si quis ⟦audita⟧ voce mea januam aperuerit ingrediar
+Rev.3.21	base-only	f/s	solio	1573: folio	ws	dabo mecum in meo sedere ⟦solio⟧ ut ego quoque victor consedi
+Rev.3.21	base-only	reading	consedi cum	1573: cosédi cű	1758,1747,1750,ws	solio ut ego quoque victor ⟦consedi cum⟧ meo patre in ejus solio
+Rev.3.21	base-only	f/s	solio	1573: folio	ws	cum meo patre in ejus ⟦solio⟧
+Rev.3.22	base-only	edge	dicat ecclesiis	1573: 	1747,1750,ws	aurem audiat quid spiritus ⟦dicat ecclesiis⟧
+Rev.4.1	base-only	division	tuba	1573: tu ba	1758,1681,1747,1750,ws	quam perinde ac si mecum ⟦tuba⟧ loqueretur audiveram dixit adscende huc
+Rev.4.1	correct	spelling	adscende	1573,1758,1747: Afcende | 1681: Afccnde | 1750: adífcende	ws	mecum tuba loqueretur audiveram dixit ⟦adscende⟧ huc et tibi ostendam quae
+Rev.4.2	correct	spelling	adflatus	1573,1556,1758,1747: afflatus	1750,ws	Hic ego continuo divinitus ⟦adflatus⟧ video positum in caelo solium
+Rev.4.2	base-only	f/s	solium	1573: folium	ws	adflatus video positum in caelo ⟦solium⟧ et in solio sedentem quemdam
+Rev.4.2	base-only	reading	quemdam	1573: quendam | 1573: quendam quisedens aspectu | 1747: quendam Ezech et Supr	1750,ws	solium et in solio sedentem ⟦quemdam⟧
+Rev.4.3	base-only	spelling	Qui sedens adspectu	1573: quisedens aspectu	ws	⟦Qui sedens adspectu⟧ similis erat jaspidi gemmae et
+Rev.4.3	others	reading	adspectu	1758,1715: aspectu | 1747: afpe et u | 1750: adfpe et u	ws	Qui sedens ⟦adspectu⟧ similis erat jaspidi gemmae et
+Rev.4.3	base-only	reading		1573: lio fedensa	1758,1715,1747,1750,ws	similis erat jaspidi gemmae et ⟦⟧ sardio Solium circumdabat iris adspectu
+Rev.4.3	correct	reading	circumdabat	1573,1758,1681: circundabat	1715,1747,1750,ws	jaspidi gemmae et sardio Solium ⟦circumdabat⟧ iris adspectu smaragdum referens
+Rev.4.3	base-only	reading	adspectu smaragdum referens	1573: aspectu simaragdum	ws	et sardio Solium circumdabat iris ⟦adspectu smaragdum referens⟧
+Rev.4.4	base-only	f/s	solium	1573: folium	ws	Idemque ⟦solium⟧ circumstabant viginti quatuor solia in
+Rev.4.4	base-only	division	viginti quatuor solia	1573: vigintiquatuor so lia	1715,1747,1750,ws	Idemque solium circumstabant ⟦viginti quatuor solia⟧ in quibus soliis vidi sedentes
+Rev.4.4	base-only	f/s	soliis	1573: folijs	ws	viginti quatuor solia in quibus ⟦soliis⟧ vidi sedentes viginti quatuor senatores
+Rev.4.4	base-only	division	viginti quatuor	1573: vigintiquatuor	1758,1747,1750,ws	in quibus soliis vidi sedentes ⟦viginti quatuor⟧ senatores vestibus indutos candidis qui
+Rev.4.5	base-only	division	Ex solio	1573: Exfolio | 1750: x fplio	1556,1758,1681,1715,1747,1726,ws	⟦Ex solio⟧ prodibant fulgura et tonitrua et
+Rev.4.5	base-only	f/s	solium	1573: folium	ws	septem faces igneae et ante ⟦solium⟧ ardentes quae sunt septem Dei
+Rev.4.5	base-only	reading	ardentes	1573: ardêtes	1556,1758,1681,1747,1750,1726,ws	faces igneae et ante solium ⟦ardentes⟧ quae sunt septem Dei spiritus
+Rev.4.6	base-only	f/s	solium	1573: folium	ws	Ante ⟦solium⟧ erat mare vitreum crystalli simile
+Rev.4.6	base-only	f/s	solii	1573: folij	ws	crystalli simile et in medio ⟦solii⟧ circumque solium quatuor animalia oculis
+Rev.4.6	base-only	reading	circumque	1573: circumás | 1747: cireumque	1758,1681,1715,1750,1726,ws	simile et in medio solii ⟦circumque⟧ solium quatuor animalia oculis et
+Rev.4.6	base-only	f/s	solium	1573: folium	ws	et in medio solii circumque ⟦solium⟧ quatuor animalia oculis et a
+Rev.4.7	others-1573-agrees	reading	aquilae	1556: aquí Iz | 1715,1726: aquila	1573,1758,1747,1750,ws	hominis quartum animal simile erat ⟦aquilae⟧ volanti
+Rev.4.8	base-only	reading	habebant	1573: habebat	1758,1681,1747,1750,1726,ws	Haec quatuor animalia ⟦habebant⟧ singula senas alas per circuitum
+Rev.4.8	base-only	reading	erant	1573: erat	1556,1758,1681,1715,1747,1750,1726,ws	alas per circuitum et intus ⟦erant⟧ oculis referta Ea sine ulla
+Rev.4.8	base-only	f/s	sine	1573: fine	ws	intus erant oculis referta Ea ⟦sine⟧ ulla intermissione dies et noctes
+Rev.4.8	base-only	reading	armipotens	1573: ar Efa mipotens	1556,1758,1715,1747,1750,1726,ws	SANCTUS SANCTUS SANCTUS Dominus Deus ⟦armipotens⟧ qui fuit qui est et
+Rev.4.8	correct	reading	sit	1573,1758,1750,1726: est	ws	qui est et qui venturus ⟦sit⟧
+Rev.4.9	correct	reading	vinenti	1573,1758,1747,1726: viuenti | 1715: animalium inque medio Senaviventi	ws	gratiarum actionem sedenti in solio ⟦vinenti⟧ in perennia saecula
+Rev.4.10	correct	division	viginti quatuor	1573,1726: vigintiquatuor	1758,1681,ws	Procumbunt ⟦viginti quatuor⟧ senatores ante sedentem in solio
+Rev.4.10	base-only	division	sedentem	1573: se dentem | 1747: Íe dentem	1556,1758,1715,1750,1726,ws	Procumbunt viginti quatuor senatores ante ⟦sedentem⟧ in solio et adorant viventem
+Rev.4.10	base-only	f/s	solio	1573: folio	ws	quatuor senatores ante sedentem in ⟦solio⟧ et adorant viventem in perennia
+Rev.4.10	base-only	reading	abjiciuntque	1573: abijciuntos | 1556: abíjcíuntip	1758,1681,1747,1750,1726,ws	adorant viventem in perennia saecula ⟦abjiciuntque⟧ suas coronas ante solium dicentes
+Rev.4.10	base-only	f/s	solium	1573: folium	ws	saecula abjiciuntque suas coronas ante ⟦solium⟧ dicentes
+Rev.4.11	base-only	reading	Dignus es	1573: II Dignuses	1758,1747,1750,1726,ws	⟦Dignus es⟧ Domine qui gloriam et honorem
+Rev.4.11	base-only	reading	eaque	1573: infr eaqs | 1556: eatp	1758,1747,1750,1726,ws	accipias quoniam tu omnia condidisti ⟦eaque⟧ tua voluntate et sunt et
+Rev.5.1	base-only	f/s	solio	1573: folio	ws	Item vidi ad sedentis in ⟦solio⟧ dexteram librum intus et extra
+Rev.5.1	base-only	reading	dexteram	1573: dexterá | 1750: dexte x ram	1556,1758,1747,1726,ws	vidi ad sedentis in solio ⟦dexteram⟧ librum intus et extra scriptum
+Rev.5.2	base-only	reading	Vidique	1573: vidić	1758,1681,1747,1750,1726,ws	⟦Vidique⟧ validum angelum magna voce pronuntiantem
+Rev.5.2	base-only	division	pronuntiantem	1573: pronun ciantem	1758,1747,1750,1726,ws	Vidique validum angelum magna voce ⟦pronuntiantem⟧ quis dignus est qui librum
+Rev.5.3	base-only	reading		1573: АРОСАLYPSIS	1758,1681,1747,1750,1726,ws	in terra nec sub terra ⟦⟧ librum aperire aut inspicere poterat
+Rev.5.4	base-only	reading	qui librum	1573: q librű	1758,1681,1747,1750,1726,ws	quod nullus inventus esset dignus ⟦qui librum⟧ aperiret et legeret aut inspiceret
+Rev.5.5	others	spelling	adloquens	1758,1726: alloquens | 1750: adioquens	ws	Tum senatorum quidam me ⟦adloquens⟧ ne plora inquit en vicit
+Rev.5.5	base-only	spelling	adloquens ne plora	1573: alloquens Neplo ra	ws	Tum senatorum quidam me ⟦adloquens ne plora⟧ inquit en vicit leo qui
+Rev.5.5	base-only	f/s	referet	1573: reseret	ws	librum aperiat ejusque septem sigilla ⟦referet⟧
+Rev.5.6	correct	reading	adspiciens adnimadverti	1573,1758: afpiciens animaduerti	ws	Tum ego ⟦adspiciens adnimadverti⟧ in medio solii et quatuor
+Rev.5.6	base-only	f/s	solii	1573: folij	ws	ego adspiciens adnimadverti in medio ⟦solii⟧ et quatuor animalium inque medio
+Rev.5.6	correct	spelling	adstantem	1573,1758: astantem | 1750: adítantem	ws	quatuor animalium inque medio senatorum ⟦adstantem⟧ agnum tamquam mactatum habentem septem
+Rev.5.6	base-only	reading	tamquam	1573: ma agnum tanquam | 1758: tanquam	ws	inque medio senatorum adstantem agnum ⟦tamquam⟧ mactatum habentem septem cornua septemque
+Rev.5.6	base-only	reading	septemque	1573: septemás	1758,1681,1715,1747,1750,ws	tamquam mactatum habentem septem cornua ⟦septemque⟧ oculos qui sunt septem Dei
+Rev.5.6	others-1573-agrees	division	septem Dei	1747,1750: feptemDei	1573,1758,1715,ws	cornua septemque oculos qui sunt ⟦septem Dei⟧ spiritus in omnes dimissi terras
+Rev.5.7	base-only	reading	librum	1573: librű	1556,1758,1681,1715,1747,1750,ws	Is venit accepitque ⟦librum⟧ de dextera sedentis in solio
+Rev.5.7	base-only	reading	sedentis	1573: sedétis | 1556: feden o tís	1758,1715,1747,1750,ws	venit accepitque librum de dextera ⟦sedentis⟧ in solio
+Rev.5.8	base-only	division	viginti quatuor	1573,1556: vigintiquatuor	1758,1747,1750,ws	librum accepit quatuor animalia et ⟦viginti quatuor⟧ senatores procidere ante agnum habentes
+Rev.5.8	base-only	division	habentes	1573: ha bentes | 1556: babentes	1758,1715,1747,1750,ws	quatuor senatores procidere ante agnum ⟦habentes⟧ singuli citharas aureasque phialas suffimentorum
+Rev.5.9	base-only	reading	carmen	1573: carinen	1556,1758,1715,1747,1726,ws	Novumque ⟦carmen⟧ canere dicentes dignus es qui
+Rev.5.9	correct	reading	mactatus	1573,1750: maEtatus | 1556: maciatus	1758,1715,1747,1726,ws	accipias ejusque sigilla resolvas quoniam ⟦mactatus⟧ es nosque Deo sanguine tuo
+Rev.5.9	others-1573-agrees	reading	es	1758,1726: 	1573,1556,1715,1747,1750,ws	ejusque sigilla resolvas quoniam mactatus ⟦es⟧ nosque Deo sanguine tuo comparasti
+Rev.5.11	correct	spelling	adspiciens	1573,1758,1747: afpiciens | 1556: aífpícies | 1715: ubi figillum fecun Deinde afpiciens	ws	Deinde ⟦adspiciens⟧ audivi multorum angelorum vocem circum
+Rev.5.11	base-only	reading		1573: Daniel	1758,1715,1747,1750,ws	Deinde adspiciens audivi multorum angelorum ⟦⟧ vocem circum solium et animalium
+Rev.5.11	base-only	f/s	solium	1573: folium	ws	audivi multorum angelorum vocem circum ⟦solium⟧ et animalium ac senatorum quorum
+Rev.5.11	base-only	reading		1573: Petr	1758,1715,1747,1750,ws	solium et animalium ac senatorum ⟦⟧ quorum numerus erat distributus in
+Rev.5.11	correct	reading		1573,1758: et decies centena millia | 1715: Dan lut alitalios necarent cique da | 1750: et decies centena mil lia	1556,ws	distributus in millies centena millia ⟦⟧ qui magna voce dicebant
+Rev.5.13	base-only	reading	naturam	1573: naturá	1556,1758,1747,1750,1726,ws	Tum omnem rerum ⟦naturam⟧ quae et in caelo est
+Rev.5.13	others-1573-agrees	reading	et	1758,1726: 	1573,1556,1715,1747,1750,ws	Tum omnem rerum naturam quae ⟦et⟧ in caelo est et in
+Rev.5.14	correct	division	viginti quatuor	1573,1758,1726: vigintiquatuor	1750,ws	quatuor animalia dixerunt Amen Et ⟦viginti quatuor⟧ senatores procubuerunt et viventem in
+Rev.5.14	base-only	division	sempiterna	1573: sem piterna	1758,1750,1726,ws	senatores procubuerunt et viventem in ⟦sempiterna⟧ saecula venerati sunt
+Rev.6.1	base-only	reading	dicens	1573,1556: dicés	1758,1681,1747,1750,ws	audivi unum de quatuor animalibus ⟦dicens⟧ quasi voce tonitrui veni spectatum
+Rev.6.1	base-only	reading	veni spectatum	1573: Venispectati Quatuor | 1556: graffatorei	1758,1750,ws	animalibus dicens quasi voce tonitrui ⟦veni spectatum⟧
+Rev.6.2	correct	spelling	adspiciens	1573,1758,1747: afpiciens	1750,ws	Ego ⟦adspiciens⟧ animadverti equum album cui qui
+Rev.6.2	base-only	reading		1573: graffatores	1556,1758,1747,1750,ws	animadverti equum album cui qui ⟦⟧ insidebat arcum habebat eique data
+Rev.6.2	base-only	reading	arcum	1573: arcű	1758,1681,1747,1750,ws	equum album cui qui insidebat ⟦arcum⟧ habebat eique data corona est
+Rev.6.2	correct	reading	inveceret	1573,1758,1750: vinceret | 1747: vinceret Infr | 1750: vinceret audiui	ws	isque prodiit vincens et ut ⟦inveceret⟧
+Rev.6.5	correct	spelling	adspicio	1573,1556,1758,1747,1726: aspicio | 1715: rem et gloriam et laudem afpicio	1750,ws	dicens veni spectatum Hic ego ⟦adspicio⟧ nigrum equum cui qui insidebat
+Rev.6.8	base-only	reading	nomen	1573: nomem	1556,1758,1715,1747,1750,ws	pallidum equum cui qui insidebat ⟦nomen⟧ habet Mors quam simul comitatur
+Rev.6.8	correct	spelling	leto	1573,1758: letho	1747,1750,ws	quartam partem terrae gladio fame ⟦leto⟧ ferisque terrestribus
+Rev.6.9	base-only	division	sub ara	1573: suba ra	1758,1681,1715,ws	ubi quintum aperuit sigillum vidi ⟦sub ara⟧ animas necatorum propter Dei sermonem
+Rev.6.9	base-only	reading	sermonem	1573: serinonem	1758,1715,1747,1750,ws	ara animas necatorum propter Dei ⟦sermonem⟧ propterque testimonium quod habebant
+Rev.6.10	correct	reading	Quin	1573,1758,1750: qui | 1715: Apoc et et et Qui	ws	⟦Quin⟧ ingenti voce sic clamabant quousque
+Rev.6.10	base-only	reading	clamabant	1573: clamabát | 1747: cla see dux Efa mabant | 1750: clama bant	1758,1681,1715,ws	Quin ingenti voce sic ⟦clamabant⟧ quousque tandem o Domine sancte
+Rev.6.10	base-only	reading	o	1573: 	1556,1758,1715,1747,1750,ws	voce sic clamabant quousque tandem ⟦o⟧ Domine sancte atque vere non
+Rev.6.10	base-only	reading		1573: Infra | 1747: diteex confpectu fedent is in it	1758,1715,1750,ws	vere non ulcisceris ac vindicas ⟦⟧ sanguinem nostrum de terrae incolis
+Rev.6.11	base-only	spelling	stolae	1573: stolę	1758,1681,1750,ws	eis singulis datae sunt albae ⟦stolae⟧ eisque dictum est ut quiescerent
+Rev.6.11	base-only	reading	conservorum	1573: cóferuorum	1556,1758,1715,1750,ws	donec plenus esset numerus etiam ⟦conservorum⟧ eorum atque fratrum qui interficiendi
+Rev.6.12	correct	spelling	adspiciente	1573,1758,1715: afpiciente	1750,ws	Deinde ⟦adspiciente⟧ me ubi sextum sigillum aperuit
+Rev.6.12	base-only	reading	sextum	1573: sextű	1556,1758,1681,1715,1750,ws	Deinde adspiciente me ubi ⟦sextum⟧ sigillum aperuit exstitit magnus terrae
+Rev.6.12	others	spelling	exstitit	1573: Sextum extitit | 1556,1758,1715: extítít | 1750: exflitit	ws	me ubi sextum sigillum aperuit ⟦exstitit⟧ magnus terrae motus factusque est
+Rev.6.12	correct	spelling	terrae motus	1573,1758: terremotus	1750,ws	sextum sigillum aperuit exstitit magnus ⟦terrae motus⟧ factusque est sol tam ater
+Rev.6.12	base-only	reading		1573: in a erista	1556,1758,1681,1715,1750,ws	factusque est sol tam ater ⟦⟧ quam est saccus cilicinus et
+Rev.6.13	base-only	division	caeli stellae	1573: cælistellæ	1758,1715,1750,ws	Et ⟦caeli stellae⟧ ceciderunt ad terram sicut ficus
+Rev.6.13	others-1573-agrees	reading	ceciderunt	1758,1726: occiderunt	1573,1715,ws	Et caeli stellae ⟦ceciderunt⟧ ad terram sicut ficus abjicit
+Rev.6.14	base-only	spelling	insulae	1573: insulę | 1556: infula | 1715: infulz	1758,1681,1726,ws	convolvatur omnesque et montes et ⟦insulae⟧ ex suis locis motae sunt
+Rev.6.14	base-only	reading	motae sunt	1573: motę füt | 1556: rote func terrarumreges	1758,1750,1726,ws	et insulae ex suis locis ⟦motae sunt⟧
+Rev.6.15	base-only	reading	tribuni	1573: tri Efa buni	1556,1758,1681,1750,1726,ws	et summates et divites et ⟦tribuni⟧ et potentes et omnes tum
+Rev.6.15	base-only	f/s	servi	1573: ferui	ws	et potentes et omnes tum ⟦servi⟧ tum liberi seipsos in specus
+Rev.6.15	base-only	division	seipsos	1573: fei pfos	1556,1758,1750,1726,ws	omnes tum servi tum liberi ⟦seipsos⟧ in specus rupesque montium abdere
+Rev.6.16	base-only	f/s	solio	1573: folio	ws	abdite ex conspectu sedentis in ⟦solio⟧ et abira agni
+Rev.6.16	correct	division	abira	1573,1758,1715,1750,1726: ab ira	ws	conspectu sedentis in solio et ⟦abira⟧ agni
+Rev.6.17	others-1573-agrees	edge	possit subsistere	1715,1750: 	1573,1758,1681,ws	ejus irae quam quis ⟦possit subsistere⟧
+Rev.7.1	base-only	spelling	terrae	1573: terrę | 1715: terra | 1747: ter ter quam eft faccus cilici Fae	1758,1681,1726,ws	quatuor angelos stantes ad quatuor ⟦terrae⟧ angulos tenentes quatuor terrae ventos
+Rev.7.1	base-only	reading	terrae ventos	1573: terrę vétos	1758,1747,1726,ws	quatuor terrae angulos tenentes quatuor ⟦terrae ventos⟧ ne ventus terram aut mare
+Rev.7.1	base-only	reading	ventus terram	1573: vétus terrá	1758,1681,1715,1750,1726,ws	tenentes quatuor terrae ventos ne ⟦ventus terram⟧ aut mare aut ullam arborem
+Rev.7.1	correct	spelling	adflaret	1573,1556,1758: afflaret | 1715: afHlaret Apoc | 1726: affiaret www f	ws	aut mare aut ullam arborem ⟦adflaret⟧
+Rev.7.2	correct	spelling	adscendentem	1573,1758,1715,1726: ascendentem | 1747: afcende tem ju Vehementi vento quatitur	1750,ws	alium angelum ab ortu solis ⟦adscendentem⟧ habentem viventis Dei sigillum qui
+Rev.7.3	base-only	division	Ne laeditote	1573: Nelæditote	1758,1747,1750,ws	⟦Ne laeditote⟧ terram nec mare nec arbores
+Rev.7.4	base-only	reading	consignatorum	1573: cósignatorum	1758,1681,1715,1750,ws	Audivi autem ⟦consignatorum⟧ numerum qui consignati erant centum
+Rev.7.4	correct	division	quadraginta quatuor	1573,1747: quadragintaquatuor	1758,1715,1750,ws	numerum qui consignati erant centum ⟦quadraginta quatuor⟧ millia ex omnibus Israëlitarum tribubus
+Rev.7.4	base-only	reading	omnibus	1573: confignaisomnibus	1758,1715,1747,ws	centum quadraginta quatuor millia ex ⟦omnibus⟧ Israëlitarum tribubus
+Rev.7.5	base-only	reading		1573: rm	1556,1758,1681,1715,1747,1750,ws	Judae consignata erant duodecim millia ⟦⟧ Ex Rubenis duodecim millia
+Rev.7.7	base-only	division	duodecim	1573: duode cim	1556,1758,1747,1750,ws	Simeonis duodecim millia Ex Levis ⟦duodecim⟧ millia Ex Issacharis duodecim millia
+Rev.7.7	others-1573-agrees	reading	Issacharis	1758,1750: sacharis	1573,1556,1747,ws	Ex Levis duodecim millia Ex ⟦Issacharis⟧ duodecim millia
+Rev.7.8	base-only	reading	duodecim	1573: duo АРОСАLYPSI S decim	1758,1747,1750,ws	Zabulonis duodecim millia Ex Josephi ⟦duodecim⟧ millia Ex Benjaminis duodecim millia
+Rev.7.9	base-only	reading	tantam	1573: tatain	1556,1758,1747,1750,ws	Postea animadverti ⟦tantam⟧ turbam ut eam numerare nullus
+Rev.7.9	base-only	division	numerare	1573: nume rare	1556,1758,1747,1750,ws	animadverti tantam turbam ut eam ⟦numerare⟧ nullus posset ex omnibus gentibus
+Rev.7.9	base-only	f/s	solium	1573: folium	ws	populis et linguis qui ante ⟦solium⟧ et agnum stabant stolis amicti
+Rev.7.10	base-only	f/s	solio	1573: folio	ws	hunc modum salus sedenti in ⟦solio⟧ Dei nostri et agno
+Rev.7.11	correct	reading		1573,1758,1747,1750: folium	ws	Omnes autem angeli ⟦⟧ senatoresque et quatuor animalia solium
+Rev.7.11	base-only	division	quatuor	1573: qua tuor | 1747: quattor	1556,1758,1681,1750,ws	Omnes autem angeli senatoresque et ⟦quatuor⟧ animalia solium circumstantes procubuerunt ante
+Rev.7.11	correct	reading	solium	1573,1758,1681,1747,1750: 	ws	angeli senatoresque et quatuor animalia ⟦solium⟧ circumstantes procubuerunt ante solium proni
+Rev.7.13	base-only	spelling	sic me adfatus	1573: sicme affatus	1750,ws	Tum unus de senatoribus ⟦sic me adfatus⟧ est his stolis albis amicti
+Rev.7.13	others	spelling	adfatus	1556: affaa tus | 1758,1747: affatus | 1681: affati	1750,ws	unus de senatoribus sic me ⟦adfatus⟧ est his stolis albis amicti
+Rev.7.13	correct	reading	his	1573,1758,1681,1747: Hi	ws	senatoribus sic me adfatus est ⟦his⟧ stolis albis amicti quinam sunt
+Rev.7.14	base-only	division	Cui ego	1573: Cuiego	1758,1747,1750,ws	⟦Cui ego⟧ Domine tute scis Et ille
+Rev.7.14	base-only	division	Et ille hi sunt	1573: Etille Hifunt	1758,1750,ws	Cui ego Domine tute scis ⟦Et ille hi sunt⟧ inquit qui ex magna calamitate
+Rev.7.14	base-only	reading	stolasque	1573: stolasó	1758,1747,1750,ws	qui ex magna calamitate veniunt ⟦stolasque⟧ suas agni sanguine perluerunt ac
+Rev.7.15	base-only	f/s	solio	1573: folio	ws	deget is qui sedet in ⟦solio⟧
+Rev.7.16	base-only	reading	eos	1573: Efa cos	1758,1681,1715,1750,ws	esurient nec amplius sitient nec ⟦eos⟧ sol aut ullus aestus feriet
+Rev.7.17	base-only	f/s	solium	1573: folium	ws	Quoniam agnus qui est inter ⟦solium⟧ pascet eos et ad vivos
+Rev.7.17	base-only	reading		1573: Efa	1758,1681,1747,ws	est inter solium pascet eos ⟦⟧ et ad vivos aquae fontes
+Rev.7.17	base-only	reading		1573: Infra	1758,1681,1715,1747,1750,ws	fontes ducet abstergetque Deus ex ⟦⟧ eorum oculis omnem lacrimam
+Rev.7.17	base-only	reading	omnem	1573: omneîn	1758,1681,1715,1747,1750,ws	abstergetque Deus ex eorum oculis ⟦omnem⟧ lacrimam
+Rev.7.17	others-1573-agrees	edge	lacrimam	1758,1681,1715,1747: 	1573,1750,ws	Deus ex eorum oculis omnem ⟦lacrimam⟧
+Rev.8.1	base-only	reading	sigillum exstitit	1573: sigilluın extitit	ws	Ut autem septimum aperuit ⟦sigillum exstitit⟧ in caelo silentium fere dimidiam
+Rev.8.1	others	spelling	exstitit	1758,1681: extitit	ws	Ut autem septimum aperuit sigillum ⟦exstitit⟧ in caelo silentium fere dimidiam
+Rev.8.1	others	division	exstitit in	1747,1750: exftititin	ws	Ut autem septimum aperuit sigillum ⟦exstitit in⟧ caelo silentium fere dimidiam horam
+Rev.8.1	base-only	reading	dimidiam horam	1573: dimidiaın horain | 1573: dimidiaın horain vidiqs | 1747: dimidiamhoranı	1758,1681,1750,ws	exstitit in caelo silentium fere ⟦dimidiam horam⟧
+Rev.8.2	base-only	reading	Vidique	1573: vidiqs	1758,1681,1747,1750,ws	⟦Vidique⟧ septem angelos qui in Dei
+Rev.8.2	correct	spelling	adstiterant	1573,1758: astiterant	ws	angelos qui in Dei conspectu ⟦adstiterant⟧ quibus septem tubae datae sunt
+Rev.8.3	correct	reading	turibulum	1573,1758,1747: thuribulum	1750,ws	venit et ad aram constitit ⟦turibulum⟧ habens aureum eique data sunt
+Rev.8.3	base-only	reading	multa	1573: inulta	1758,1681,1715,1747,1750,ws	habens aureum eique data sunt ⟦multa⟧ suffimenta ut sanctorum omnium supplicationes
+Rev.8.3	others-1573-agrees	reading	sanctorum	1747: fan et orum | 1750: fan et ctorum	1573,1758,1715,ws	data sunt multa suffimenta ut ⟦sanctorum⟧ omnium supplicationes ad auream aram
+Rev.8.3	base-only	division	ad auream	1573: adauream	1758,1747,1750,ws	suffimenta ut sanctorum omnium supplicationes ⟦ad auream⟧ aram ante solium positam obmoveret
+Rev.8.3	base-only	f/s	solium	1573: folium	ws	supplicationes ad auream aram ante ⟦solium⟧ positam obmoveret
+Rev.8.4	base-only	reading	Adscenditque	1573: ascenditás | 1556: afceditdg | 1758: scenditque | 1715: Apoc et nerunt et Cui ego Domine tute fcis Afcenditque | 1747: Sup Infr et Afcenditque	1750,ws	⟦Adscenditque⟧ fumus suffimentorum supplicationum sanctorum ex
+Rev.8.4	base-only	reading	suffimentorum	1573: suffimétorum | 1747: fufiimentorum	1556,1758,1750,ws	Adscenditque fumus ⟦suffimentorum⟧ supplicationum sanctorum ex angeli manu
+Rev.8.4	base-only	division	ex angeli	1573: exangeli	1556,1758,1747,1750,ws	Adscenditque fumus suffimentorum supplicationum sanctorum ⟦ex angeli⟧ manu in Dei conspectum
+Rev.8.5	correct	reading	turibulum	1573,1758,1747: thuribulum | 1715: trium Angelorum qui jam clanthuribulum	1750,ws	Deinde sumpsit angelus ⟦turibulum⟧ et altaris igne replevit ad
+Rev.8.5	correct	spelling	exstiterunt	1573,1758: extiterunt | 1715: CAD extiterunt	1747,1750,ws	replevit ad terramque dejecit et ⟦exstiterunt⟧ fragores et tonitrua et fulgura
+Rev.8.5	correct	spelling	terrae motus	1573,1758: terræmotus | 1556: terrzemotus Item fepté té colligatos Itaque foluti funt quatuor	1747,1750,ws	et tonitrua et fulgura et ⟦terrae motus⟧
+Rev.8.7	correct	spelling	Quumque	1573,1715: Cumque | 1556: Cumá | 1573: Angeliclan Cumque	1758,1747,1750,1726,ws	⟦Quumque⟧ primus angelus clanxisset exstitit grando
+Rev.8.7	correct	spelling	exstitit	1573,1758,1715: extitit | 1750: exítiit	1747,ws	Quumque primus angelus clanxisset ⟦exstitit⟧ grando et ignis permixta sanguini
+Rev.8.8	base-only	f/s	secundus	1573: fecundus	ws	Deinde ubi ⟦secundus⟧ clanxit angelus quidam quasi mons
+Rev.8.8	base-only	reading	quidam	1573: quidá	1556,1758,1715,1747,1750,1726,ws	Deinde ubi secundus clanxit angelus ⟦quidam⟧ quasi mons ingens igni flagrans
+Rev.8.8	base-only	reading		1573: Secundus	1556,1758,1715,1747,1750,1726,ws	secundus clanxit angelus quidam quasi ⟦⟧ mons ingens igni flagrans in
+Rev.8.8	others	reading	conservaque	1556: conueríatp | 1758,1715,1747,1750,1726: conversaque	ws	flagrans in mare dejectus est ⟦conservaque⟧ est pars tertia maris in
+Rev.8.8	base-only	reading	conservaque est	1573: conuersaque eit	ws	flagrans in mare dejectus est ⟦conservaque est⟧ pars tertia maris in sanguinem
+Rev.8.10	base-only	reading		1573: Tertius	1758,1715,1750,1726,ws	angelus cecidit de caelo magna ⟦⟧ stella facis in morem ardens
+Rev.8.10	base-only	reading	ardens quae	1573: ardes qua	1747,1750,ws	magna stella facis in morem ⟦ardens quae⟧ in tertiam fluviorum partem et
+Rev.8.10	others	reading	quae	1556,1758,1726: qua | 1715: qux	1747,1750,ws	stella facis in morem ardens ⟦quae⟧ in tertiam fluviorum partem et
+Rev.8.10	base-only	reading	est	1715: ef | 1573: estautemftellæ	1758,1681,1747,1750,1726,ws	et in aquarum fontes delapsa ⟦est⟧
+Rev.8.11	others	edge	Est	1758,1726: 	1556,1681,1715,1750,ws	in aquarum fontes delapsa est ⟦Est⟧ autem stellae nomen Absinthium et
+Rev.8.11	base-only	division	Est autem stellae	1573: estautemftellæ	1747,1750,ws	⟦Est autem stellae⟧ nomen Absinthium et conversa est
+Rev.8.11	correct	reading	et	1573,1758,1726: 	1715,1747,1750,ws	Est autem stellae nomen Absinthium ⟦et⟧ conversa est tertia pars in
+Rev.8.12	base-only	reading		1573: Quartus | 1747: tem vllamue arborem fed	1556,1758,1715,1750,1726,ws	clangorem icta est solis tertia ⟦⟧ pars et lunae tertia pars
+Rev.8.12	base-only	spelling	lunae	1573,1556: lunę | 1715: Lunz	1758,1681,1750,1726,ws	est solis tertia pars et ⟦lunae⟧ tertia pars et stellarum tertia
+Rev.8.12	correct	reading	obfuscata	1573,1758,1681,1715,1726: offuscata | 1747: gnum in frontibus uis non offufcata	1750,ws	stellarum tertia pars adeo ut ⟦obfuscata⟧ eorum parte tertia dies tertia
+Rev.8.13	base-only	spelling	Tum adspiciens	1573: Tumaspiciens	1750,ws	⟦Tum adspiciens⟧ audivi quemdam angelum volantem per
+Rev.8.13	others	spelling	adspiciens	1758,1747: aspiciens	1750,ws	Tum ⟦adspiciens⟧ audivi quemdam angelum volantem per
+Rev.8.13	correct	spelling	quemdam	1573,1758: quendam | 1747: ne eos interficerent fed vt f quendam	1750,ws	Tum adspiciens audivi ⟦quemdam⟧ angelum volantem per medium caeli
+Rev.8.13	base-only	reading	volantem	1573: volanten | 1747: volan quinque menfes eruciarentem	1758,1750,ws	Tum adspiciens audivi quemdam angelum ⟦volantem⟧ per medium caeli magna voce
+Rev.8.13	base-only	reading		1573: à	1556,1758,1750,ws	vae vae terrae habitatoribus a ⟦⟧ reliquis tubarum sonis trium angelorum
+Rev.8.13	base-only	reading	tubarum	1573: tubarű	1758,1747,1750,ws	vae terrae habitatoribus a reliquis ⟦tubarum⟧ sonis trium angelorum qui jam
+Rev.9.1	base-only	division	quintus angelus	1573: quintusangelus	1758,1750,ws	Tum ubi clanxit ⟦quintus angelus⟧ vidi stellam de caelo delapsam
+Rev.9.1	base-only	reading		1573: erram | 1747: quaedam quafi coronaeaurí	1556,1758,1715,1750,ws	de caelo delapsam ad terram ⟦⟧ cui data clavis est putei
+Rev.9.3	base-only	division	Ex eo	1573: Exeo	1556,1758,1681,1715,1747,1750,1726,ws	⟦Ex eo⟧ fumo prodierunt in terram locustae
+Rev.9.3	base-only	reading	qualem	1573: qualein	1556,1758,1715,1750,1726,ws	quibus talis est data vis ⟦qualem⟧ habent terrestres scorpii
+Rev.9.4	base-only	reading	laederent	1573: læderét | 1758: lacderent | 1715: Izderent	1681,1750,1726,ws	praeceptum est ne terrestres herbas ⟦laederent⟧ neve ullam viriditatem ullamve arborem
+Rev.9.4	base-only	division	ullamve	1573,1556: vllam ve	1758,1715,1750,1726,ws	herbas laederent neve ullam viriditatem ⟦ullamve⟧ arborem sed solos homines qui
+Rev.9.4	others-1573-agrees	reading	Dei	1681,1750: Dci	1573,1556,1758,1715,1726,ws	arborem sed solos homines qui ⟦Dei⟧ signum in frontibus suis non
+Rev.9.4	base-only	reading	haberent	1573: haberét | 1681: 	1556,1758,1715,1750,1726,ws	signum in frontibus suis non ⟦haberent⟧
+Rev.9.5	base-only	reading	cruciarentur	1573: cruciarétur	1758,1715,1750,1726,ws	interficerent sed ut quinque menses ⟦cruciarentur⟧ ita ut essent eorum cruciatus
+Rev.9.5	base-only	division	cruciatus	1573: cru ciatus | 1556: Pfad rucíatus	1758,1681,1715,1750,1726,ws	cruciarentur ita ut essent eorum ⟦cruciatus⟧ qualis scorpii cruciatus est quum
+Rev.9.5	base-only	reading	punxit	1573: púxit | 1750: punxi	1556,1758,1681,1715,1726,ws	scorpii cruciatus est quum hominem ⟦punxit⟧
+Rev.9.6	base-only	reading	nec invenient	1573: Ejase necinuenient	1758,1681,1715,1750,1726,ws	illa tempestate quaerent homines mortem ⟦nec invenient⟧ cupientque mori et eos fugiet
+Rev.9.7	base-only	reading	locustarum	1573: locustaruin | 1750: locufta rum	1758,1681,1715,1726,ws	Erat autem ⟦locustarum⟧ ea species ut similes essent
+Rev.9.7	base-only	reading		1573: Sapien	1556,1758,1726,ws	ea species ut similes essent ⟦⟧ equis ad praelium paratis erantque
+Rev.9.8	base-only	reading	similes dentes erant	1573: suniles denteserant	1758,1715,1726,ws	Capillos habebant muliebrium ⟦similes dentes erant⟧ quales sunt leonum
+Rev.9.9	base-only	reading	cujusmodi	1573: cuiufinodi | 1758: ejusmodi | 1715: cujusIoel pitum fimilia exque eorum oribus manabat ignis et fumus et modi | 1726: cujuf modi	1681,1750,ws	Habebant et loricas ⟦cujusmodi⟧ sunt ferreae loricae eratque earum
+Rev.9.9	base-only	division	loricae	1573: lori cæ	1758,1750,ws	et loricas cujusmodi sunt ferreae ⟦loricae⟧ eratque earum alarum sonitus qualis
+Rev.9.9	base-only	reading	currentium	1573: currétium | 1715: cur rum	1758,1747,1750,1726,ws	sonitus multorum equorum ad pugnam ⟦currentium⟧
+Rev.9.10	correct	reading	scorpionum	1573,1758: scorpiorum | 1747: fcoril ne terreitres herbas laede piorum | 1750: ftor to piorum | 1726: fcorpio calamitatibus occifi non funt non rum	ws	Caudas habebant ⟦scorpionum⟧ similes et in caudis erant
+Rev.9.10	others-1573-agrees	division	et in	1747,1750: etin	1573,1758,1715,1726,ws	Caudas habebant scorpionum similes ⟦et in⟧ caudis erant aculei Earum potestas
+Rev.9.11	base-only	reading		1573: a	1715,1747,1750,1726,ws	tartari cui nomen est hebraice ⟦⟧ Abbadon graeco autem sermone Apollyon
+Rev.9.11	base-only	reading	sermone	1573: fer a perditor mone	1681,1747,1750,1726,ws	est hebraice Abbadon graeco autem ⟦sermone⟧ Apollyon
+Rev.9.13	base-only	division	quatuor	1573: qua tuor	1758,1681,1715,1747,1750,1726,ws	sextus clanxit angelus audivi ex ⟦quatuor⟧ altaris aurei cornibus ante Deum
+Rev.9.13	correct	spelling	quamdam	1573,1758,1726: quandam | 1715: quandam i	1750,ws	cornibus ante Deum positi vocem ⟦quamdam⟧
+Rev.9.14	base-only	division	quatuor angelos	1573: quatuorangelos	1556,1758,1715,1747,1750,ws	angelo qui tubam habebat solve ⟦quatuor angelos⟧ ad magnum flumen Euphratem colligatos
+Rev.9.14	base-only	reading		1573: Sextus ange	1758,1715,1747,1726,ws	angelos ad magnum flumen Euphratem ⟦⟧ colligatos
+Rev.9.16	base-only	division	Erat autem	1573: Eratautem	1556,1758,1747,1726,ws	⟦Erat autem⟧ exercitus equitum numerus bis millies
+Rev.9.17	base-only	reading	hyacinthinas ac	1573: hyacinthinasas lus clangit АРОСALYPSIS	1747,1750,ws	qui loricas habebant igneas et ⟦hyacinthinas ac⟧ sulphureas Equorum capita erant leoninorum
+Rev.9.17	base-only	reading	eorum	1573: eoruin	1556,1758,1750,ws	erant leoninorum capitum similia exque ⟦eorum⟧ oribus manabat ignis et fumus
+Rev.9.19	base-only	reading	siquidem eorum	1573: fi quidem corum	1681,1747,1750,ws	eorum in ore eorum erat ⟦siquidem eorum⟧ caudae erant anguium similes capita
+Rev.9.19	base-only	edge	quibus nocerent Reliqui hominum	1573: Reliquihominum	1758,1747,1750,ws	anguium similes capita habentes ⟦quibus nocerent Reliqui hominum⟧ qui his calamitatibus occisi
+Rev.9.20	base-only	reading	Reliqui hominum	1573: Reliquihominum	1556,1758,1747,1750,ws	⟦Reliqui hominum⟧ qui his calamitatibus occisi non
+Rev.9.20	correct	reading	snut	1573,1758,1747: funt	ws	qui his calamitatibus occisi non ⟦snut⟧ non destiterunt a suis actionibus
+Rev.9.20	base-only	spelling	quae	1573: que	1758,1747,1750,ws	aurea argentea aerea lapidea lignea ⟦quae⟧ nec videre possunt nec audire
+Rev.9.21	correct	reading	nec	1573,1747: nee	1556,1758,1750,1726,ws	homicidia nec veneficia nec stupra ⟦nec⟧ furta omiserunt
+Rev.10.1	others	division	de caelo	1573:  | 1747,1750: decoelo	1758,1726,ws	Deinde vidi alium angelum validum ⟦de caelo⟧ descendentem indutum nube cujus capiti
+Rev.10.3	others-1573-agrees	reading	locuta	1758,1726: loquuta	1573,1747,1750,ws	quomodo rugit leo Postquam clamavit ⟦locuta⟧ sunt septem tonitrua suas voces
+Rev.10.3	base-only	f/s	suas	1573: fuas		clamavit locuta sunt septem tonitrua ⟦suas⟧ voces
+Rev.10.3	base-only	edge	voces	1573: 	1758,1747,1750,1726,ws	locuta sunt septem tonitrua suas ⟦voces⟧ Quibus septem tonitruis suas voces
+Rev.10.4	base-only	f/s	suas	1573: fuas		Quibus septem tonitruis ⟦suas⟧ voces locutis quum ego scripturus
+Rev.10.4	others-1573-agrees	reading	locutis	1758,1726: loquutis	1573,1747,1750	Quibus septem tonitruis suas voces ⟦locutis⟧ quum ego scripturus essem audivi
+Rev.10.5	base-only	division	Tum angelus	1573: Tumangelus	1758,1681,1747,1750,1726	⟦Tum angelus⟧ quem in mari et in
+Rev.10.5	base-only	edge	stantem videram	1573: stanten vi deram	1758,1681,1747,1750,1726,ws	mari et in terra ⟦stantem videram⟧ Sublata in caelum sua manu
+Rev.10.6	base-only	division	qui caelum	1573: quicelum	1758,1747,1750,1726	per viventem in perpetua saecula ⟦qui caelum⟧ et caelestia terram et terrestria
+Rev.10.6	base-only	reading	caelestia terram	1573: cælettia terrain	1758,1750	perpetua saecula qui caelum et ⟦caelestia terram⟧ et terrestria mare et marina
+Rev.10.6	base-only	f/s	sit	1573: fit		esse ut tempus deinceps non ⟦sit⟧
+Rev.10.7	base-only	f/s	servis	1573: feruis		fuerit arcanum Dei ut suis ⟦servis⟧ vatibus nuntiavit
+Rev.10.8	base-only	reading	hunc	1573: húc	1758,1681,1747,1750	rursus mecum locuta est in ⟦hunc⟧ modum i sume libellum apertum
+Rev.10.8	others-1573-agrees	division	manu angeli	1747,1750: manuangeli	1573,1758	libellum apertum qui est in ⟦manu angeli⟧ in mari terraque stantis
+Rev.10.8	base-only	reading	terraque stantis	1573: terraqs statis | 1556: terraty fitis um	1758,1681,1747,1750	in manu angeli in mari ⟦terraque stantis⟧
+Rev.10.9	correct	spelling	adgressus	1573,1758: aggreffus | 1747: aggreflus	1750	Tum ego angelum ⟦adgressus⟧ da mihi libellum inquam Et
+Rev.10.9	base-only	reading		1573: Ezech | 1747: APOCALYPSIS Cap Jr	1758,1750	angelum adgressus da mihi libellum ⟦⟧ inquam Et ille accipe inquit
+Rev.10.9	others-1573-agrees	division	Et ille	1747,1750: Etille	1573,1758	adgressus da mihi libellum inquam ⟦Et ille⟧ accipe inquit eumque degluti et
+Rev.10.9	base-only	reading		1573: Efd	1758,1747,1750	inquit eumque degluti et tibi ⟦⟧ ventrem amaritudine torquebit quamquam in
+Rev.10.9	correct	spelling	quamquam	1573,1758,1747: quanquam	1750	et tibi ventrem amaritudine torquebit ⟦quamquam⟧ in ore tuo erit tam
+Rev.10.10	base-only	reading	sumptum	1573: fumptuin | 1556: fumpturm	1758,1747,1750	Hic ego ⟦sumptum⟧ de angeli manu libellum deglutivi
+Rev.10.10	base-only	reading	deglutivi	1573: deglu Iohannes litiui | 1556: deglutíuf	1758,1747,1750	sumptum de angeli manu libellum ⟦deglutivi⟧ qui mihi in ore quidem
+Rev.10.10	base-only	reading	mel	1573: bellum demel	1556,1758,1715,1747,1750	tam dulcis fuit quam est ⟦mel⟧ sed ubi id comedi amaruit
+Rev.10.10	others-1573-agrees	division	ubi id	1747,1750: vbiid	1573,1556,1758,1715	fuit quam est mel sed ⟦ubi id⟧ comedi amaruit mihi venter
+Rev.10.11	correct	spelling	adloquens	1573,1758,1747: alloquens | 1750: adloA N N S quens		Et ille me ⟦adloquens⟧ vaticinandum tibi rursus est inquit
+Rev.10.11	base-only	division	tibi rursus	1573: tibirursus	1715,1747,1750	Et ille me adloquens vaticinandum ⟦tibi rursus⟧ est inquit super populis et
+Rev.10.11	others	reading	regnibusque	1573: regibusás | 1758: reages | 1715,1747,1750: regibusque		populis et gentibus et linguis ⟦regnibusque⟧ multis
+Rev.11.1	correct	division	angelus	1573,1758: an gelus | 1681: Angclus	1556,1715,1750,ws	mihi calamus virgae similis Et ⟦angelus⟧ stans surge inquit et Dei
+Rev.11.2	correct	division	Ac exterius	1573,1750: Acexterius	1758,ws	⟦Ac exterius⟧ atrium templi foris exclude neque
+Rev.11.4	base-only	division	Hi sunt olivae	1573: Hisuntoliuæ	1758,1747,1750,ws	⟦Hi sunt olivae⟧ duae duoque candelabra in conspectu
+Rev.11.4	base-only	reading	conspectu	1573: confpeEtu | 1715: confpedu | 1747: confpe et tu quod hi duo vates cruciaue t	1758,1750,ws	olivae duae duoque candelabra in ⟦conspectu⟧ Dei terrae stantia
+Rev.11.5	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ quis eos laedere vult manat
+Rev.11.5	base-only	f/s	si	1573: fi	ws	qui eorum hostes conficit et ⟦si⟧ quis eos laedere vult sic
+Rev.11.6	base-only	division	imber	1573: im ber	1758,1681,1715,1747,1750,ws	habent claudendi caeli ne pluat ⟦imber⟧ tempore suae vaticinationis habentque in
+Rev.11.6	base-only	division	potestatem	1573: po teftatem	1758,1715,1747,1750,ws	suae vaticinationis habentque in aquas ⟦potestatem⟧ eas in sanguinem convertendi et
+Rev.11.7	base-only	division	bestia	1573: be stia | 1715: beítia	1758,1747,1750,ws	Quum autem suum testimonium peregerint ⟦bestia⟧ ex tartaro adscendet quae eos
+Rev.11.7	correct	spelling	adscendet	1573,1758,1747: afcendet	1750,ws	testimonium peregerint bestia ex tartaro ⟦adscendet⟧ quae eos adgressa bello vincet
+Rev.11.7	base-only	reading	eos adgressa	1573: cos aggressa	1750,ws	bestia ex tartaro adscendet quae ⟦eos adgressa⟧ bello vincet ac interficiet
+Rev.11.8	base-only	reading	Jacebuntque	1573: iacebuntós | 1747: Dan Deo gloriam it Infr et Miferia fecunda praeten lacébuntque	1758,1715,1750,ws	⟦Jacebuntque⟧ eorum corpora in urbis magnae
+Rev.11.8	base-only	reading	magnae	1573: inagnæ | 1715: magna | 1750: magnac	1556,1758,1747,ws	Jacebuntque eorum corpora in urbis ⟦magnae⟧ foro quae vocatur spiritualiter Sodoma
+Rev.11.8	base-only	reading	vocatur	1573: vocatura | 1758: docatur	1681,1747,1750,ws	in urbis magnae foro quae ⟦vocatur⟧ spiritualiter Sodoma et Aegyptus ubi
+Rev.11.9	correct	spelling	adspicient	1573,1758: afpicient | 1556: afpiciét | 1715: tens qui es qui fui ti quique Et afpicient	1750,ws	Et ⟦adspicient⟧ homines de populis et nationibus
+Rev.11.9	base-only	reading	linguisque	1573: lin allegoria vo guisque | 1556: línguíscp | 1715: lingvis poteftatem adeptus regnum inique	1758,1750,ws	homines de populis et nationibus ⟦linguisque⟧ et gentibus eorum corpora tres
+Rev.11.10	base-only	division	Gaudebunt autem	1573: Gaudebuntautem	1758,1715,ws	⟦Gaudebunt autem⟧ terrae incolae super eis laetique
+Rev.11.10	base-only	reading	laetique	1573: lætiqs | 1715: lztique	1758,1750,ws	autem terrae incolae super eis ⟦laetique⟧ dona mittent inter sese quod
+Rev.11.11	base-only	reading	constiterunt	1573: conftiterut | 1556: coftiterunt	1758,1715,1750,ws	a Deo in eos ingresso ⟦constiterunt⟧ in pedes suos magno timore
+Rev.11.12	correct	spelling	adscendite	1573,1758: Afcendite | 1556: Afcédíte	1750,ws	magnam de caelo dicentem eis ⟦adscendite⟧ huc Atque illi in caelum
+Rev.11.12	base-only	reading	adscenderunt	1573: ascenderút | 1758: ascenderunt	1750,ws	illi in caelum in nube ⟦adscenderunt⟧ spectantibus eos hostibus eorum
+Rev.11.13	base-only	division	Ac eadem	1573: Aceadem	1758,1750,ws	⟦Ac eadem⟧ hora tantus exstitit terrae motus
+Rev.11.13	correct	spelling	exstitit terrae motus	1573,1758: extitit terræmotus	1750,ws	Ac eadem hora tantus ⟦exstitit terrae motus⟧ ut collapsa sit urbis pars
+Rev.11.13	base-only	reading	humanorum	1573: humas norum	1758,1681,1750,1726,ws	decima occisis in eo motu ⟦humanorum⟧ capitum septem millibus Reliqui timore
+Rev.11.13	base-only	division	perculsi	1573: per culfi	1758,1750,1726,ws	capitum septem millibus Reliqui timore ⟦perculsi⟧ tribuerunt caelesti Deo gloriam
+Rev.11.14	base-only	f/s	secunda	1573: fecunda	ws	Miseria ⟦secunda⟧ praeteriit ecce tertia miseria mox
+Rev.11.15	base-only	reading	exstiteruntque	1573: extiteruntque Septimus an | 1758,1726: extiteruntque	1747,1750,ws	Deinde septimus clanxit angelus ⟦exstiteruntque⟧ magnae voces in caelo dicentes
+Rev.11.15	base-only	reading	mundi regna	1573: mundire gelus clagit gna	1556,1758,1681,1726,ws	in caelo dicentes facta sunt ⟦mundi regna⟧ Domini nostri ejusque Christi qui
+Rev.11.15	base-only	reading	ejusque	1573: eiusqs	1758,1681,1747,1750,1726,ws	sunt mundi regna Domini nostri ⟦ejusque⟧ Christi qui regnabit in omnem
+Rev.11.16	base-only	division	Et viginti	1573: Etviginti	1556,1758,1681,1747,1750,1726,ws	⟦Et viginti⟧ quatuor senatores ante Deum suis
+Rev.11.16	base-only	f/s	soliis	1573: folijs	ws	senatores ante Deum suis in ⟦soliis⟧ sedentes proni procubuerunt Deumque venerati
+Rev.11.16	base-only	reading	Deumque venerati sunt	1573: Deumás veneratifunt	1758,1747,1750,1726,ws	in soliis sedentes proni procubuerunt ⟦Deumque venerati sunt⟧ dicentes
+Rev.11.17	base-only	division	omnipotens	1573: o mnipotens	1758,1747,1750,1726,ws	Agimus tibi gratias Domine Deus ⟦omnipotens⟧ qui es qui fuisti quique
+Rev.11.17	base-only	division	futurus es	1573: futuruses | 1750: futiruses	1556,1758,1747,1726,ws	qui es qui fuisti quique ⟦futurus es⟧ quod magnam tuam potestatem adeptus
+Rev.11.18	base-only	reading	gentes	1573: gétes | 1747: etzö t Etgentes	1556,1758,1750,1726,ws	Et ⟦gentes⟧ iratae sunt et venit ira
+Rev.11.18	base-only	reading	judicentur	1573: iudicetur	1758,1747,1750,1726,ws	ira tua tempusque quo mortui ⟦judicentur⟧ et merces detur tuis servis
+Rev.11.18	base-only	f/s	servis	1573: feruis	ws	judicentur et merces detur tuis ⟦servis⟧ vatibus et sanctis tuumque nomen
+Rev.11.18	base-only	reading	tuumque	1573: tuumas	1758,1747,1750,1726,ws	tuis servis vatibus et sanctis ⟦tuumque⟧ nomen revenentibus tum parvis tum
+Rev.11.18	others	reading	revenentibus	1556,1758,1726: réuerentibus | 1747,1750: reucrentibus	ws	vatibus et sanctis tuumque nomen ⟦revenentibus⟧ tum parvis tum magnis et
+Rev.11.18	base-only	reading	revenentibus tum	1573: reuerentibus tuin	ws	vatibus et sanctis tuumque nomen ⟦revenentibus tum⟧ parvis tum magnis et corrumpantur
+Rev.11.19	correct	reading	ejus	1573,1681,1726: 	1556,1747,1750,ws	caelo visa est arca foederis ⟦ejus⟧ in ejus templo exstiteruntque fulgura
+Rev.11.19	base-only	reading	exstiteruntque	1573: extiteruntós | 1556: ex títerunttp | 1726: extiteruntque	1747,1750,ws	foederis ejus in ejus templo ⟦exstiteruntque⟧ fulgura et sonitus et tonitrua
+Rev.11.19	correct	spelling	terrae motus	1573,1726: terræmotus | 1556: ter ixmotus	1747,1750,ws	et sonitus et tonitrua et ⟦terrae motus⟧ et magna grando
+Rev.12.1	base-only	division	mulier amicta	1573: mulieramicta	1750,ws	est ostentum ingens in caelo ⟦mulier amicta⟧ sole ejus pedibus subjecta luna
+Rev.12.1	base-only	division	autem	1573: au tem	1758,1747,ws	ejus pedibus subjecta luna capiti ⟦autem⟧ imposita duodecim stellarum corona
+Rev.12.3	base-only	division	draco	1573: Dra co	1556,1758,1681,1715,1747,1750,1726,ws	est aliud ostentum in caelo ⟦draco⟧ erat ingens rufus habens septem
+Rev.12.3	others-1573-agrees	reading	et	1747,1750: ct	1573,1556,1758,1715,1726,ws	ingens rufus habens septem capita ⟦et⟧ decem cornua et in captibus
+Rev.12.3	correct	reading	captibus	1573,1556,1758,1750,1726: capitibus | 1715: fuique teftimonii fermone vicecapitibus	ws	et decem cornua et in ⟦captibus⟧ diademata septem
+Rev.12.5	others-1573-agrees	reading	ejus	1715,1750: cjus	1573,1556,1758,1747,1726,ws	ferreo sceptro recturus est qui ⟦ejus⟧ filius raptus est Deum ejusque
+Rev.12.5	base-only	reading	est	1573: estad	1556,1758,1681,1715,1747,1750,1726,ws	est qui ejus filius raptus ⟦est⟧ Deum ejusque solium
+Rev.12.5	others	reading		1556,1758,1715,1747,1750,1726: ad	ws	qui ejus filius raptus est ⟦⟧ Deum ejusque solium
+Rev.12.5	base-only	f/s	solium	1573: folium	ws	filius raptus est Deum ejusque ⟦solium⟧
+Rev.12.7	base-only	reading	draconem	1573: draconen	1758,1715,1747,1750,1726,ws	Michaël et ejus angeli adversus ⟦draconem⟧ pugnabant
+Rev.12.8	correct	reading	pugnarunt et	1573,1758,1726: pugnantes	1750,ws	Et draco ejusque angeli ⟦pugnarunt et⟧ victi sunt nec ullus exstitit
+Rev.12.8	correct	spelling	exstitit	1573,1758,1726: extitit	1747,ws	et victi sunt nec ullus ⟦exstitit⟧ jam eorum locus in caelo
+Rev.12.9	correct	reading	delecti	1573,1758: deiecti | 1747: deiedti | 1750: dciecti	ws	inquam ad terram ejusque angeli ⟦delecti⟧ sunt
+Rev.12.11	others	reading	oppetierunt	1758,1750,1726: oppetierint | 1556: oppetíe ríat	ws	adeo non amarunt ut mortem ⟦oppetierunt⟧
+Rev.12.13	others-1573-agrees	reading	persecutus	1758,1726: persequutus	1573,1556,1681,1750,ws	ad terram dejectum vidit mulierem ⟦persecutus⟧ est quae marem pepererat
+Rev.12.14	base-only	division	sunt alae	1573: funtalæ	1758,1750,ws	Sed mulieri datae ⟦sunt alae⟧ duae ingentis aquilae ut solitudinem
+Rev.12.14	correct	reading		1573,1758,1726: in	1750,ws	alae duae ingentis aquilae ut ⟦⟧ solitudinem in locum suum avolaret
+Rev.12.14	base-only	reading	illic alenda	1573: illicalenda Dan	1758,1750,1726,ws	solitudinem in locum suum avolaret ⟦illic alenda⟧ tempus et tempora et dimidium
+Rev.12.15	base-only	reading	aquam	1573: aquá	1758,1681,1715,1750,1726,ws	post mulierem ex ore suo ⟦aquam⟧ fluminis instar quo eam flumine
+Rev.12.15	correct	reading	submergeret	1573,1758,1726: fummergeret | 1681: i j Vmmergerct oc z Vcrum | 1715: Dan fummergeret Itaque dejectus eft draco	1750,ws	fluminis instar quo eam flumine ⟦submergeret⟧
+Rev.13.1	correct	spelling	adscendentem	1573,1758,1747: ascendentem | 1715: Phil Apoc afcendentem	1750,ws	in maris arena stans vidi ⟦adscendentem⟧ ex mari bestiam habentem capita
+Rev.13.1	base-only	reading	mari bestiam	1573: nari bestian	1758,1681,1750,1726,ws	arena stans vidi adscendentem ex ⟦mari bestiam⟧ habentem capita septem et cornua
+Rev.13.1	base-only	division	cornua	1573: cor nua	1556,1758,1715,1747,1750,ws	bestiam habentem capita septem et ⟦cornua⟧ decem et in cornibus diademata
+Rev.13.2	base-only	reading	autem	1573: aut	1556,1758,1715,1747,ws	Erat ⟦autem⟧ bestia quam vidi pardali similis
+Rev.13.2	base-only	f/s	solium	1573: folium	ws	Ei draco suas vires suumque ⟦solium⟧ et magnam dedit potentiam
+Rev.13.3	correct	spelling	exstinctum	1573,1758,1715: extinctum | 1747: extinCum | 1750: éxítinctum	ws	unum ejus capitum paene morte ⟦exstinctum⟧ sed cujus letiferum vulnus sanatum
+Rev.13.3	base-only	spelling	tantae	1573: tante	1758,1715,1747,1750,ws	letiferum vulnus sanatum est Itaque ⟦tantae⟧ fuit per totam terram admirationi
+Rev.13.5	base-only	division	Ei autem	1573: Eiautem	1556,1758,1681,1715,1747,1750,1726,ws	⟦Ei autem⟧ datum est os magna et
+Rev.13.6	base-only	reading	Eaque	1573: eaqs	1758,1681,1715,1747,1750,1726,ws	⟦Eaque⟧ os suum aperuit in contumeliam
+Rev.13.7	base-only	reading	bellum	1573: bellű	1556,1758,1715,1747,1750,1726,ws	Item ei datum est ⟦bellum⟧ cum sanctis gerere eosque vincere
+Rev.13.7	base-only	reading	eosque	1573: eosás | 1556: eosQ	1758,1681,1715,1747,1750,1726,ws	est bellum cum sanctis gerere ⟦eosque⟧ vincere eidemque potestas est data
+Rev.13.9	base-only	reading	aurem	1573: aureın | 1556: aure	1758,1747,1750,1726,ws	Si quis ⟦aurem⟧ habet audiat
+Rev.13.10	base-only	reading	eum	1573: euin	1556,1758,1747,1750,1726,ws	abit Si quis gladio occiderit ⟦eum⟧ gladio oportet occidi Hic est
+Rev.13.11	correct	spelling	adscendentem	1573,1758,1747,1726: ascendentem	1750,ws	vidi aliam bestiam ex terra ⟦adscendentem⟧ quae duo cornua habebat agni
+Rev.13.11	base-only	edge	ut draco	1573: 	1556,1758,1750,ws	agni similia et loquebatur ⟦ut draco⟧ Ea omnem prioris bestiae potestatem
+Rev.13.15	base-only	spelling	bestiae	1573: bes stiæ | 1747: þe gnum ftantem in Sione ftiae	1758,1750,ws	datum est spiritu donare simulacrum ⟦bestiae⟧ adeo ut loqueretur simulacrum bestiae
+Rev.13.15	base-only	reading	bestiae efficeretque	1573: bestię efficeretás | 1750: befliae efliceretque	1758,ws	bestiae adeo ut loqueretur simulacrum ⟦bestiae efficeretque⟧ ut quicumque non venerarentur bestiae
+Rev.13.15	correct	spelling	quicumque	1573,1758,1747: quicunque	1750,ws	loqueretur simulacrum bestiae efficeretque ut ⟦quicumque⟧ non venerarentur bestiae simulacrum occiderentur
+Rev.13.16	base-only	reading	eo adigebat	1573: edadigebat	1556,1758,1715,1747,ws	Atque ⟦eo adigebat⟧ omnes parvos juxta ac magnos
+Rev.13.16	base-only	reading		1573: mnes	1758,ws	Atque eo adigebat omnes ⟦⟧ parvos juxta ac magnos divites
+Rev.13.16	base-only	reading	ac magnos	1573: gnos	1758,1715,ws	eo adigebat omnes parvos juxta ⟦ac magnos⟧ divites ac pauperes liberos ac
+Rev.13.17	base-only	reading	numerum	1573: nu | 1573: nu Hicestacumen	1556,1758,1715,1750,ws	haberet bestiae aut ejus nominis ⟦numerum⟧
+Rev.13.18	base-only	division	Hic est acumen	1573: Hicestacumen	1758,1715,ws	⟦Hic est acumen⟧ Qui habet ingenium computet bestiae
+Rev.13.18	base-only	reading		1573: Bestie nus	1758,1750,ws	acumen Qui habet ingenium computet ⟦⟧ bestiae numerum numerus enim hominis
+Rev.13.18	base-only	reading		1573: merus	1758,1715,ws	numerus enim hominis est estque ⟦⟧ ejus numerus sexcenti sexaginta sex
+Rev.13.18	base-only	reading	numerus	1573: nuinerus	1556,1758,1715,1750,ws	enim hominis est estque ejus ⟦numerus⟧ sexcenti sexaginta sex
+Rev.14.1	base-only	reading	monte	1573: nonte	1556,1758,1726,ws	animadverti agnum stantem in Sione ⟦monte⟧ et cum eo centum quadraginta
+Rev.14.1	base-only	division	quadraginta quatuor	1573: quadragintaqua tuor | 1726: quadragintaquatuor	1758,1750,ws	monte et cum eo centum ⟦quadraginta quatuor⟧ millia patris ejus nomen in
+Rev.14.3	base-only	f/s	solium	1573: folium	ws	veluti novum carmen canebant ante ⟦solium⟧ et ante quatuor animalia ac
+Rev.14.3	base-only	reading	carmen	1573: carnen	1556,1758,1681,1715,1747,1750,1726,ws	quatuor animalia ac senatores quod ⟦carmen⟧ nullus discere poterat nisi illa
+Rev.14.3	base-only	reading	millia	1573: milha	1556,1758,1681,1715,1747,1750,1726,ws	nisi illa centum quadraginta quatuor ⟦millia⟧ redempti a terra
+Rev.14.4	base-only	reading	Hi sunt qui cum	1573: Hifunt quicum | 1573: Agnus ftans in Sione audiuique de cœlo sonitum qualis multarum aquarum ingentisąs tonitrui sonitus eft itemque vocem au Hifunt quicum	1758,1715,1747,1750,ws	⟦Hi sunt qui cum⟧ seminis non sunt polluti sunt
+Rev.14.4	base-only	reading		1573: АРОСАLYPSIS | 1747: S eius numerus fexcenti fexa	1758,1715,ws	seminis non sunt polluti sunt ⟦⟧ enim virgines Hi sunt qui
+Rev.14.4	others	spelling	quocumque	1573: quocunqs | 1556: quocunc | 1758,1747: quocunque	1750,ws	virgines Hi sunt qui agnum ⟦quocumque⟧ vadat sequuntur Hi ex hominibus
+Rev.14.5	correct	division	fraus est	1573,1750: frausest	1556,1758,1681,1747,ws	Quorum in ore nulla reperta ⟦fraus est⟧ sunt enim inculpati coram Dei
+Rev.14.5	base-only	f/s	solio	1573: folio	ws	sunt enim inculpati coram Dei ⟦solio⟧
+Rev.14.7	base-only	reading	Dicentem	1573: dicétem | 1556: dícenté	1758,1715,1747,1750,1726,ws	⟦Dicentem⟧ magna voce timete Deum eique
+Rev.14.7	base-only	reading	fontium aquarum	1573: fontiuin aquaruin	1556,1758,1715,1747,1726,ws	adorate caeli terrae maris et ⟦fontium aquarum⟧ conditorem
+Rev.14.8	others-1573-agrees	reading	secutus	1758,1726: sequutus | 1747: Tecü c tus	1573,1556,1715,1750,ws	Item alius angelus ⟦secutus⟧ est dicens cecidit cecidit Babylon
+Rev.14.8	base-only	division	cecidit	1573: ceci dit	1556,1758,1747,1726,ws	angelus secutus est dicens cecidit ⟦cecidit⟧ Babylon urbs illa magna quoniam
+Rev.14.8	base-only	reading	saevo	1573: suo | 1726: favo	1758,1747,1750,ws	Babylon urbs illa magna quoniam ⟦saevo⟧ impudicitiae suae vino gentes omnes
+Rev.14.9	others-1573-agrees	reading	secutus	1758,1726: sequutus	1573,1556,1715,1747,1750,ws	Item tertius angelus eos ⟦secutus⟧ est magna voce dicens si
+Rev.14.9	base-only	reading	notamque	1573: notamos	1758,1681,1715,1747,1750,1726,ws	bestiam et ejus imaginem veneratur ⟦notamque⟧ in frontem manumve suam admittit
+Rev.14.9	base-only	division	manumve	1573: manum ve	1758,1715,1747,1750,1726,ws	imaginem veneratur notamque in frontem ⟦manumve⟧ suam admittit
+Rev.14.10	base-only	reading	saevum	1573: fuum	1758,1715,1750,1726,ws	Is etiam ⟦saevum⟧ Dei vinum mixtum merumque potabit
+Rev.14.10	base-only	reading	mixtum	1573: mixtű	1556,1758,1681,1715,1747,1750,1726,ws	Is etiam saevum Dei vinum ⟦mixtum⟧ merumque potabit in ejus irae
+Rev.14.10	base-only	reading	potabit	1573: porabit | 1726: pota bit	1556,1758,1715,1747,1750,ws	saevum Dei vinum mixtum merumque ⟦potabit⟧ in ejus irae poculo et
+Rev.14.10	base-only	reading	agnique	1573: agniqs | 1556: a e gníts	1758,1715,1747,1750,1726,ws	sulphure torquebitur in sanctorum angelorum ⟦agnique⟧ conspectu
+Rev.14.11	base-only	reading	fumus	1573: fuimus	1556,1758,1681,1715,1747,1750,1726,ws	Eorumque tormenti ⟦fumus⟧ exhalabit in omnem perpetuitatem nec
+Rev.14.11	base-only	reading	ullam	1573: vllain | 1747: vilam APOCALYPSIS Cap	1758,1681,1715,1750,1726,ws	exhalabit in omnem perpetuitatem nec ⟦ullam⟧ die nocteve requietem habebunt qui
+Rev.14.12	base-only	reading	Jesuque	1573: Iefus | 1747: lefuque	1758,1715,1750,1726,ws	hic sunt qui Dei praecepta ⟦Jesuque⟧ fidem tuentur
+Rev.14.13	base-only	reading	mihi	1573: nihi	1758,1715,1747,1750,1726,ws	vocem audivi de caelo dicentem ⟦mihi⟧ scribe beati mortui qui in
+Rev.14.13	base-only	reading	deinceps adfirmat	1573: dein Feni quin ceps affirmat	ws	qui in Domino moriuntur Ii ⟦deinceps adfirmat⟧ spiritus a suis requiescent laboribus
+Rev.14.13	others	spelling	adfirmat	1556,1758,1747,1726: affirmat	1750,ws	in Domino moriuntur Ii deinceps ⟦adfirmat⟧ spiritus a suis requiescent laboribus
+Rev.14.13	base-only	reading		1573: Domino mo	1758,1747,1750,ws	spiritus a suis requiescent laboribus ⟦⟧ et sua eos comitantur opera
+Rev.14.14	correct	reading	quemdam homine nati	1573,1758,1726: quendam filio hominis	ws	nubem candidam et nubi insidentem ⟦quemdam homine nati⟧ similem habentem in capite coronam
+Rev.14.14	base-only	reading	coronam	1573: corona	1556,1758,1747,1750,1726,ws	nati similem habentem in capite ⟦coronam⟧ auream et in manu falcem
+Rev.14.15	base-only	division	clamans	1573: cla mans	1758,1747,1750,1726,ws	exiit ex fano magna voce ⟦clamans⟧ ad eum qui nubi insidebat
+Rev.14.15	base-only	reading	immitte	1573: Iinmitte | 1747: Inimitte	1556,1758,1750,1726,ws	ad eum qui nubi insidebat ⟦immitte⟧ falcem tuam et mete nam
+Rev.14.15	base-only	reading	metendi quandoquidem	1573: netendi quádoquidem	1556,1758,1747,1750,1726,ws	mete nam tibi venit hora ⟦metendi quandoquidem⟧ aruit terrae seges
+Rev.14.16	base-only	f/s	suam	1573: fuam	ws	qui in nube sedebat falcem ⟦suam⟧ in terram messaque terrae est
+Rev.14.16	base-only	reading	terram messaque terrae	1573: Metitur terterram messaqs terra	ws	nube sedebat falcem suam in ⟦terram messaque terrae⟧ est
+Rev.14.16	others	reading	messaque terrae	1556: meffatp terra | 1747,1726: meflaque terra	ws	sedebat falcem suam in terram ⟦messaque terrae⟧ est
+Rev.14.16	others	reading	terrae	1758,1750: terra	ws	falcem suam in terram messaque ⟦terrae⟧ est
+Rev.14.18	base-only	reading	ex ara ignipotens	1573: exara ignipotés	1758,ws	Et alius prodiit angelus ⟦ex ara ignipotens⟧ qui magna voce clamans eum
+Rev.14.18	base-only	reading	magna	1573: ma loel gna | 1747: makgna	1758,1681,1750,ws	angelus ex ara ignipotens qui ⟦magna⟧ voce clamans eum qui falcem
+Rev.14.18	others-1573-agrees	reading	voce	1681,1750: vocc	1573,1556,1758,1747,ws	ex ara ignipotens qui magna ⟦voce⟧ clamans eum qui falcem habebat
+Rev.14.18	base-only	reading	clamans	1573: clainans | 1556: damans	1758,1681,1747,1750,ws	ara ignipotens qui magna voce ⟦clamans⟧ eum qui falcem habebat sic
+Rev.14.18	base-only	reading	adlocutus	1573: allocu Mar tus | 1556: zl jd locutus | 1747: allocutus	ws	eum qui falcem habebat sic ⟦adlocutus⟧ est injice tuam istam falcem
+Rev.14.18	base-only	spelling	terrae	1573: terre | 1556: terree | 1681: tcrrae	1758,1750,ws	tuam istam falcem acutam et ⟦terrae⟧ uvas vindemia quoniam ejus maturuerunt
+Rev.15.1	base-only	reading	mirabile angelos septem habentes septem clades ultimas	1573: miratimas	1758,1750,ws	in caelo ostentum ingens ac ⟦mirabile angelos septem habentes septem clades ultimas⟧ in quas Dei saevitia absumatur
+Rev.15.1	others	reading	septem	1715,1747: feprem	1556,1758,1750,ws	ac mirabile angelos septem habentes ⟦septem⟧ clades ultimas in quas Dei
+Rev.15.2	base-only	reading	Itemque	1573: Itemás | 1556: Itemá	1758,1715,1747,1750,ws	⟦Itemque⟧ vidi quasi mare vitreum igne
+Rev.15.3	base-only	f/s	servi	1573: ferui	ws	Et Mosis Dei ⟦servi⟧ carmen agnique carmen ita cantantes
+Rev.15.3	base-only	division	sunt opera	1573: funtopera | 1681: iuntjfei ra	1556,1758,1715,1747,1750,ws	ita cantantes magna et mirabilia ⟦sunt opera⟧ tua Domine Deus omnipotens justa
+Rev.15.3	correct	reading	sanctorum	1573,1747: sanEtorum | 1750: fan et torum	1758,1681,1715,ws	justa veraque sunt instituta tua ⟦sanctorum⟧ rex
+Rev.15.4	base-only	reading	omnes coram	1573: oinnes co ram	1758,1715,1747,1750,ws	solus sanctus nam te gentes ⟦omnes coram⟧ adoratum venient quod tua jura
+Rev.15.5	base-only	edge	in caelo	1573: 	1556,1758,1750,1726,ws	fanum aperiri oracularis tabernaculi ⟦in caelo⟧ Et ex fano prodire septem
+Rev.15.7	base-only	reading	animalium	1573: anima	1556,1758,1715,1747,1750,1726,ws	septem angelis dedit unum quatuor ⟦animalium⟧ septem phialas aureas plenas saevitia
+Rev.15.7	base-only	reading		1573: ange lium septen	1556,1758,1747,1750,1726,ws	dedit unum quatuor animalium septem ⟦⟧ phialas aureas plenas saevitia Dei
+Rev.15.7	base-only	reading	viventis	1573: viuen feptem vitis	1556,1758,1750,1726,ws	phialas aureas plenas saevitia Dei ⟦viventis⟧ in omnem saeculorum seriem
+Rev.16.1	correct	reading		1573,1758: fæuitiæ	1715,1747,1750,ws	septem angelis ite effundite phialas ⟦⟧ Dei saevitiae in terram
+Rev.16.1	correct	reading	saevitiae	1573,1556,1758:  | 1715: nec ad frugem redierunt nt i fzvitim	1747,1750,ws	angelis ite effundite phialas Dei ⟦saevitiae⟧ in terram
+Rev.16.2	base-only	edge		1573: Primus an | 1715: gloriam tribuerent	1758,1747,1750,ws	phialas Dei saevitiae in terram ⟦⟧ Itaque primus abiit et phialam
+Rev.16.2	base-only	f/s	suam	1573: fuam	ws	Itaque primus abiit et phialam ⟦suam⟧ in terram effudit diroque et
+Rev.16.2	base-only	reading	effudit	1573: effu gelus juam dit	1758,1747,1750,ws	et phialam suam in terram ⟦effudit⟧ diroque et taetro vulnere adfecti
+Rev.16.2	correct	spelling	adfecti	1573,1758,1747: affecti	1750,ws	effudit diroque et taetro vulnere ⟦adfecti⟧ sunt homines bestiae notam habentes
+Rev.16.2	base-only	reading	bestiae	1573: bestię phialam ef	1758,1747,1750,ws	taetro vulnere adfecti sunt homines ⟦bestiae⟧ notam habentes et ejus simulacrum
+Rev.16.3	base-only	edge		1573: fundit Secundus	1758,1750,ws	habentes et ejus simulacrum colentes ⟦⟧ Deinde secundus angelus effudit suam
+Rev.16.3	base-only	f/s	secundus	1573: fecundus	ws	Deinde ⟦secundus⟧ angelus effudit suam phialam in
+Rev.16.4	base-only	f/s	suam	1573: fuam	ws	Item tertius angelus phialam ⟦suam⟧ in fluvios et aquarum fontes
+Rev.16.4	base-only	reading	aquarum	1573: aquarű	1556,1758,1681,1747,1750,ws	phialam suam in fluvios et ⟦aquarum⟧ fontes effudit iique mutati sunt
+Rev.16.4	base-only	reading	iique	1573: ijós | 1556: fj et	1758,1681,1747,1750,1726,ws	fluvios et aquarum fontes effudit ⟦iique⟧ mutati sunt in sanguinem
+Rev.16.5	correct	reading	augustus	1573,1758,1726: sanctus	1556,1747,1750,ws	qui es quique fuisti quique ⟦augustus⟧ es qui haec ita facienda
+Rev.16.6	others-1573-agrees	reading	sanctorum	1750,1726: fan et torum	1573,1556,1758,1747,ws	Ut qui ⟦sanctorum⟧ vatumque sanguinem effundebant eis sanguinem
+Rev.16.7	base-only	division	Domine	1573: Do mine	1556,1758,1681,1747,1750,1726,ws	audivi ex ara dicentem etiam ⟦Domine⟧ Deus omnipotens vera instaque sunt
+Rev.16.7	correct	reading	instaque	1573,1758,1750: iustaque | 1556: íuftagp	ws	etiam Domine Deus omnipotens vera ⟦instaque⟧ sunt tua judicia
+Rev.16.8	base-only	f/s	suam	1573: fuam	ws	Item quartus angelus effudit phialam ⟦suam⟧ in solem eique mandatum est
+Rev.16.8	base-only	division	solem	1573: so lem | 1747: for lem	1556,1758,1750,1726,ws	angelus effudit phialam suam in ⟦solem⟧ eique mandatum est ut homines
+Rev.16.9	base-only	reading	nomini contumeliam	1573: no mini cótumeliam	1758,1750,1726,ws	ardore usti sunt homines Deique ⟦nomini contumeliam⟧ dixerunt qui haberet in eas
+Rev.16.9	base-only	reading	redierunt	1573: redierút	1556,1758,1747,1726,ws	clades potestatem nec ad frugem ⟦redierunt⟧ ut ei gloriam tribuerent
+Rev.16.9	base-only	reading	gloriam tribuerent	1573: gloria tribuerét improbos magna vrbis incolas	1758,1681,1750,1726,ws	ad frugem redierunt ut ei ⟦gloriam tribuerent⟧
+Rev.16.10	base-only	f/s	suam	1573: fuam	ws	Deinde quintus angelus phialam ⟦suam⟧ effudit in bestiae solium adeoque
+Rev.16.10	base-only	reading		1573: Quintus	1758,1750,ws	angelus phialam suam effudit in ⟦⟧ bestiae solium adeoque obscuratum est
+Rev.16.10	base-only	f/s	solium	1573: folium	ws	phialam suam effudit in bestiae ⟦solium⟧ adeoque obscuratum est ejus regnum
+Rev.16.10	base-only	edge	linguas morderent	1573: 	1758,1747,ws	ipsi suas prae dolore ⟦linguas morderent⟧ Caelique Deo prae doloribus vulneribusque
+Rev.16.10	others	reading	morderent	1758,1747: manderent | 1715: manderent s Apoc CeliqueDeo | 1750: manderent celiqueDeo prac | 1726: 	ws	ipsi suas prae dolore linguas ⟦morderent⟧
+Rev.16.11	base-only	reading	vulneribusque	1573: vulneribusą | 1681: vuineiM que | 1747: buo	1758,1750,1726,ws	Caelique Deo prae doloribus ⟦vulneribusque⟧ suis conviciarentur nec a suis
+Rev.16.12	base-only	f/s	suam	1573: fuam	ws	Deinde sextus angelus phialam ⟦suam⟧ effudit in magnum flumen Euphratem
+Rev.16.12	others-1573-agrees	division	effudit in	1556,1715,1747: effudítín	1573,1758,1750,1726,ws	Deinde sextus angelus phialam suam ⟦effudit in⟧ magnum flumen Euphratem et aruit
+Rev.16.12	base-only	reading	magnum	1573: Sextus magnuın	1556,1758,1681,1715,1747,1750,1726,ws	angelus phialam suam effudit in ⟦magnum⟧ flumen Euphratem et aruit ejus
+Rev.16.12	base-only	division	pararetur	1573: pa raretur	1758,1681,1715,1750,1726,ws	et aruit ejus aqua ut ⟦pararetur⟧ via regum qui essent a
+Rev.16.14	base-only	division	Sunt autem	1573,1556: Suntautem	1758,1681,1747,1750,1726,ws	⟦Sunt autem⟧ daemonum spiritus qui spiritus efficiunt
+Rev.16.15	base-only	reading	vestimenta	1573: ve Suprà stimenta	1556,1758,1681,1715,1747,1750,ws	fur Felix qui vigilat suaque ⟦vestimenta⟧ servat ne nudus incedat ejusque
+Rev.16.15	base-only	f/s	servat	1573: feruat	ws	Felix qui vigilat suaque vestimenta ⟦servat⟧ ne nudus incedat ejusque obscena
+Rev.16.15	base-only	reading		1573: Mat	1758,1715,1747,1750,ws	ne nudus incedat ejusque obscena ⟦⟧ cernantur
+Rev.16.19	correct	reading	corrurerunt	1573,1758,1747,1750: corruerunt | 1556: cortuerunt | 1715: rata	ws	tres partes et gentium urbes ⟦corrurerunt⟧ et Babylon magna Deo venit
+Rev.16.19	base-only	division	venit	1573: ve nit	1556,1758,1715,1747,1750,ws	corrurerunt et Babylon magna Deo ⟦venit⟧ in mentem ut ei poculum
+Rev.16.19	base-only	reading	saevae	1573: lænæ | 1750: euz	1758,1747,ws	ei poculum daret vini suae ⟦saevae⟧ iracundiae
+Rev.16.20	base-only	f/s	insulae	1573: infulæ	ws	Et omnes ⟦insulae⟧ fugerunt et montes nusquam exstiterunt
+Rev.16.20	correct	spelling	exstiterunt	1573,1758: extiterunt	1747,1750,ws	insulae fugerunt et montes nusquam ⟦exstiterunt⟧
+Rev.16.21	base-only	reading	feceruntque	1573: feceruntós | 1556: fes ceruntip	1758,1747,1750,ws	caelo delata est in homines ⟦feceruntque⟧ homines convicium Deo ob grandinis
+Rev.16.21	base-only	reading	tam	1573: tain	1556,1758,1747,1750,ws	convicium Deo ob grandinis cladem ⟦tam⟧ gravis erat illa clades grandinis
+Rev.17.1	correct	spelling	adlocutus	1573,1747: allocutus | 1715: allocutus que obfcaena cernantur | 1726: alloquutus	1750,ws	phialas habentium qui me sic ⟦adlocutus⟧ est ades ostendam tibi supplicium
+Rev.17.2	base-only	reading	cujusque	1573: cuiusqs	1758,1715,1750,ws	qua scortati sunt reges terrae ⟦cujusque⟧ impudicitiae vino inebriati sunt incolae
+Rev.17.3	correct	spelling	adflatu	1573,1758,1747,1726: afflatu | 1750: adílatu	ws	Deinde me divino ⟦adflatu⟧ abstulit in solitudinem ubi mulierem
+Rev.17.3	base-only	spelling	belluae coccinae	1573: beluæ coccinę | 1715: beluz conitrua ac fulgura tantusque coccinz | 1750: belluaecoccinae | 1726: belua coccina	1747,ws	solitudinem ubi mulierem vidi insidentem ⟦belluae coccinae⟧ nefariis nominibus plenae habenti septem
+Rev.17.3	base-only	reading	cornua	1556: cor nua | 1573: 	1758,1681,1715,1747,1750,1726,ws	habenti septem capita et decem ⟦cornua⟧
+Rev.17.5	base-only	spelling	terrae	1573: terrę	1758,1681,1747,1750,1726,ws	Mysterium Babylon magna meretricum flagitiorumque ⟦terrae⟧ mater
+Rev.17.6	base-only	reading	testiumque	1573: testiumýs	1758,1715,1750,1726,ws	ego mulierem vidi sanguine sanctorum ⟦testiumque⟧ Jesu ebriam qua visa quum
+Rev.17.7	correct	spelling	belluae	1573,1758,1681: beluæ | 1556: beluz | 1747: bel rent eosque vincet agnus vt ef luae | 1726: belux	1750,ws	mysterium eloquar et portantis eam ⟦belluae⟧ habentis septem capita et cornua
+Rev.17.8	correct	spelling	Bellua quamvidisti	1573,1758,1726: Belua quam vidisti | 1573: Meretricis Belua quam vidisti | 1556: Belua quam uidifti Meretrie	ws	⟦Bellua quamvidisti⟧ fuit et non est et
+Rev.17.8	others	division	quamvidisti	1747,1750: quam vidifti	ws	Bellua ⟦quamvidisti⟧ fuit et non est et
+Rev.17.8	others	spelling	adscensura	1573: ascensura interpreta | 1556,1758,1747,1726: afcenfura	1750,ws	fuit et non est et ⟦adscensura⟧ est ex tartaro et in
+Rev.17.8	correct	spelling	belluam	1573,1758: beluam | 1556: belua	1750,ws	condito scripta non sunt videntes ⟦belluam⟧ fuisse nec esse tametsi est
+Rev.17.9	base-only	division	capita	1573: ca pita	1556,1758,1750,1726,ws	sententia quae acumen habet Septem ⟦capita⟧ septem sunt montes in quibus
+Rev.17.10	base-only	reading	Septemque	1556: feptemtp | 1573: se premás	1758,1681,1750,1726,ws	⟦Septemque⟧ reges sunt quorum quinque ceciderunt
+Rev.17.10	correct	spelling	paullulum	1573,1556,1758,1726: paululum	1750,ws	nondum venit et quum venerit ⟦paullulum⟧ duraturus est
+Rev.17.11	base-only	reading	inque	1573: ings | 1556: in et	1758,1681,1750,1726,ws	octavus et ex septem est ⟦inque⟧ perniciem abit
+Rev.17.12	correct	spelling	bellua	1573,1758: belua | 1573: belua lieunden animuin | 1758: belua li eundem | 1681: belua li cundem	1750,ws	reges eadem hora adipiscentur cum ⟦bellua⟧
+Rev.17.13	base-only	reading	Ii eumdem animum	1573: lieunden animuin	1750,ws	⟦Ii eumdem animum⟧ habebunt suasque vires ac potestatem
+Rev.17.13	base-only	reading	suasque	1573: suasóque	1758,1750,ws	Ii eumdem animum habebunt ⟦suasque⟧ vires ac potestatem belluae tradent
+Rev.17.13	correct	spelling	belluae	1573,1758: beluæ | 1681: beluse	ws	habebunt suasque vires ac potestatem ⟦belluae⟧ tradent
+Rev.17.14	correct	reading	eum	1573,1750: cum	ws	Ii ⟦eum⟧ agno bellum gerent eosque vincet
+Rev.17.14	base-only	reading	nec non	1573: necno Infr | 1758: necnon	1750,ws	dominorum Dominus et regum Rex ⟦nec non⟧ vocati cum eo electique ac
+Rev.17.14	base-only	reading	electique	1573: electiós | 1750: eleY Ctique	1758,ws	nec non vocati cum eo ⟦electique⟧ ac fidentes
+Rev.17.15	correct	spelling	adloquens	1573,1758: alloquens | 1681: allo v f ucns	1750,ws	autem aquas vidisti inquit me ⟦adloquens⟧ ubi sedet meretrix populi sunt
+Rev.17.16	base-only	reading	Item	1573: Itein	1556,1758,1681,1747,1750,1726,ws	⟦Item⟧ decem cornua quae super bellua
+Rev.17.16	correct	spelling	bellua	1573,1758: belua | 1726: belta	1747,1750,ws	Item decem cornua quae super ⟦bellua⟧ vidisti ii meretricem oderint eamque
+Rev.17.16	base-only	division	reddent	1573: red dent	1556,1758,1715,1747,1750,1726,ws	oderint eamque desertam ac nudam ⟦reddent⟧ et ejus carnes comedent et
+Rev.17.16	base-only	reading	comburent	1573: conburent | 1715:  | 1750: comr burent	1556,1758,1747,1726,ws	carnes comedent et eam igne ⟦comburent⟧
+Rev.17.17	correct	spelling	exsequantur	1573,1758: exequantur | 1715: exerumnomina in vitz libro ab or quantur	1750,ws	mentem injecit ut ejus sententiam ⟦exsequantur⟧ eodemque animo agant et regnum
+Rev.17.17	base-only	reading	regnum	1573: fegnum	1758,1681,1715,1747,1750,ws	exsequantur eodemque animo agant et ⟦regnum⟧ suum belluae tradant donec Dei
+Rev.17.17	correct	spelling	belluae	1573,1758,1747: beluæ | 1556: beluz | 1681: belux | 1750: beiluae	ws	animo agant et regnum suum ⟦belluae⟧ tradant donec Dei mandata peragantur
+Rev.18.1	base-only	division	descendentem	1573: descenden tem	1758,1747,1750,ws	vidi alium angelum de caelo ⟦descendentem⟧ magna potestate praeditum cujus splendore
+Rev.18.1	base-only	division	praeditum	1573: prę ditum	1758,1747,1750,ws	de caelo descendentem magna potestate ⟦praeditum⟧ cujus splendore collustrata terra est
+Rev.18.2	base-only	reading	cecidit	1573: Ceci Hier dit	1556,1758,1681,1747,1750,1726,ws	vehementer magna voce clamans dixit ⟦cecidit⟧ cecidit magna Babylon factaque est
+Rev.18.2	base-only	reading	domicilium	1573: doSupr micilium	1556,1758,1681,1747,1750,1726,ws	magna Babylon factaque est daemonum ⟦domicilium⟧ et omnium impurorum spirituum omniumque
+Rev.18.3	others-1573-agrees	reading	taetro	1715,1747: retro	1573,1758,1750,1726,ws	Quoniam ⟦taetro⟧ stuprorum suorum vino gentes omnes
+Rev.18.4	correct	spelling	adficiamini	1573,1758: afficiamini | 1681: afficiamini j Gen it | 1747: afficiamini Gen Ef et	1750,ws	peccatorum participes neve ejus cladibus ⟦adficiamini⟧
+Rev.18.6	correct	spelling	Adficite	1573,1556,1758: Afficite | 1681: et fi Amcite | 1747: Supr Afficite	1750,ws	⟦Adficite⟧ eam ut et ipsa vos
+Rev.18.6	correct	spelling	adfecit	1573,1758,1681,1747: affecit	1750,ws	eam ut et ipsa vos ⟦adfecit⟧ eique duplicem pro ejus factis
+Rev.18.7	base-only	reading	futura	1573: fu zura	1758,1681,1747,1750,1726,ws	cogitat sedeo regina neque vidua ⟦futura⟧ sum neque luctu adficiar
+Rev.18.7	correct	spelling	adficiar	1573,1758: afficiar | 1747: afficiar Ef | 1726: 	1750,ws	vidua futura sum neque luctu ⟦adficiar⟧
+Rev.18.8	base-only	reading	luctus	1573: luEtus	1556,1758,1681,1747,1750,1726,ws	die venient ejus clades mors ⟦luctus⟧ fames eaque igni cremabitur quoniam
+Rev.18.8	base-only	reading	eam	1573: eain	1556,1758,1681,1747,1750,1726,ws	potens est Dominus Deus qui ⟦eam⟧ ulciscetur
+Rev.18.9	base-only	reading	cum	1573: cuin	1758,1681,1750,ws	Eamque terrarum reges qui ⟦cum⟧ ea scortati luxuriatique fuerint deplorabunt
+Rev.18.9	base-only	reading	luxuriatique	1573: luxus riatiqs	1758,1681,1747,1750,ws	reges qui cum ea scortati ⟦luxuriatique⟧ fuerint deplorabunt ac lamentabuntur quum
+Rev.18.10	base-only	reading	dicentes	1573: dicen Hier st t tes	1556,1758,1747,1726,ws	metu ejus cruciatus absistentes ac ⟦dicentes⟧ eheu urbs illa magna Babylon
+Rev.18.10	base-only	reading	cujus	1573: euius	1556,1758,1681,1747,1750,ws	magna Babylon urbs illa potens ⟦cujus⟧ supplicium una venit hora
+Rev.18.11	base-only	reading	eam	1573: eain	1556,1758,1747,1750,1726,ws	Item ⟦eam⟧ terrarum mercatores deflebunt ac lugebunt
+Rev.18.12	base-only	reading	margaritarum	1573: margaritatum	1758,1715,1747,1750,ws	et argenti et gemmarum et ⟦margaritarum⟧ et byssi et purpurae et
+Rev.18.12	base-only	reading	confecta	1573: contecta	1758,1715,1747,1750,ws	eburneaque et ex pretiosissimis lignis ⟦confecta⟧ vasa et aere et ferro
+Rev.18.12	base-only	reading	marmore	1573: marinore | 1750: j	1758,1715,1747,ws	et aere et ferro et ⟦marmore⟧
+Rev.18.13	correct	reading	tus	1573,1758,1715,1747: thus	ws	et odores et unguentum et ⟦tus⟧ et vinum et oleum et
+Rev.18.13	base-only	division	jumenta	1573: iumen ta | 1556: íuméta	1758,1715,1747,1750,ws	et similam et triticum et ⟦jumenta⟧ et oves et equorum et
+Rev.18.13	base-only	reading		1573: a	1556,1758,1715,1747,ws	et jumenta et oves et ⟦⟧ equorum et rhedarum et corporum
+Rev.18.13	base-only	reading	rhedarum	1573: rhedaruin	1556,1758,1715,1747,1750,ws	et oves et equorum et ⟦rhedarum⟧ et corporum et animas hominum
+Rev.18.13	base-only	reading		1573: à fcilicet | 1715: aniduplum ma hominum Pf Ter Ezech Quantum ipfa fe honora Difcefferunt ate cupita avit	1758,ws	equorum et rhedarum et corporum ⟦⟧ et animas hominum
+Rev.18.14	base-only	reading	denique opima	1573: deniqi opina	1758,1747,1750,ws	cupita animo tuo poma omnia ⟦denique opima⟧ et praeclara a te discesserunt
+Rev.18.15	correct	spelling	adstabunt	1573,1758,1715,1747: aftabunt	1750,ws	procul prae ejus cruciatus metu ⟦adstabunt⟧ plorantes ac lugentes
+Rev.18.16	base-only	reading	gemmisque	1573: geminisque	1758,1715,1747,1750,ws	et coccino et auro deaurata ⟦gemmisque⟧ et margaritis Una hora depopulatae
+Rev.18.16	others-1573-agrees	reading	tantae	1556: rante | 1715,1747: 	1573,1758,ws	margaritis Una hora depopulatae sunt ⟦tantae⟧ opes
+Rev.18.17	correct	spelling	quicumque	1573,1758,1715,1747: quicunque	1750,ws	copia navalis et nautae et ⟦quicumque⟧ in mari negotiantur procul adstiterunt
+Rev.18.17	correct	spelling	adstiterunt	1573,1758: astiterunt | 1715: aflite runt Procul metu ejus cruciatus Ef Ezech abfitentes ac dicentes Eheu | 1747: aftiterunt Ff Ezech t	1750,ws	quicumque in mari negotiantur procul ⟦adstiterunt⟧
+Rev.18.18	others-1573-agrees	reading	vociferari	1715,1747: vociferare	1573,1758,ws	ejus incendii fumum spectantes ita ⟦vociferari⟧ institerunt ecquae par fuit urbi
+Rev.18.19	others-1573-agrees	reading	heu	1715,1747: 	1573,1556,1758,1681,1750,ws	flentes ac lugentes ita quiritari ⟦heu⟧ heu urbs magna in qua
+Rev.18.19	base-only	reading	omnes	1573: oinnes	1556,1758,1681,1715,1747,1750,ws	heu urbs magna in qua ⟦omnes⟧ habentes in mari navigia ditati
+Rev.18.20	base-only	division	ultus	1573: vl tus	1556,1758,1715,1747,1750,1726,ws	Deus vestras injurias in eam ⟦ultus⟧ est
+Rev.18.21	base-only	reading	jacietur	1573: facietur	1758,1681,1715,1750,1726,ws	mare dejecit dicens tali impetu ⟦jacietur⟧ Babylon urbs illa magna nec
+Rev.18.21	correct	spelling	exstabit	1573,1758: extabit | 1715: extabit Ier	1747,ws	urbs illa magna nec amplius ⟦exstabit⟧
+Rev.18.22	correct	spelling	exstabit	1573,1758,1715: extabit | 1747: ex meretricem quae terram ftabit | 1726: 	1750,ws	in te ullius artis artifex ⟦exstabit⟧ nec amplius in te molae
+Rev.18.23	base-only	division	Nec amplius	1573: necamplius	1681,1715,1726,ws	⟦Nec amplius⟧ in te lucernae lumen lucebit
+Rev.18.23	base-only	division	nec amplius	1573: necamplius	1758,1715,1750,1726,ws	in te lucernae lumen lucebit ⟦nec amplius⟧ in te sponsi sponsaeve vox
+Rev.18.23	base-only	division	deceptae	1573: dece ptæ | 1681,1715: decepta | 1726: decepte	1758,1747,1750,ws	erant hominum optimates tuis veneficiis ⟦deceptae⟧ sunt gentes omnes
+Rev.18.24	others-1573-agrees	reading	sanctorumque	1715: fan et orumque | 1726: fan et torumque que	1573,1758,1747,1750,ws	Et in eadem te vatum ⟦sanctorumque⟧ cruor inventus est et omnium
+Rev.19.1	base-only	division	gloria	1573: glo ria | 1556: aloría	1758,1681,1750,1726,ws	caelo dicentis Halleluja Salus et ⟦gloria⟧ et honos et potestas Domino
+Rev.19.2	base-only	division	suorum	1573: suo rum	1556,1758,1681,1715,1750,1726,ws	et ab ea poenas sanguinis ⟦suorum⟧ repetiverit
+Rev.19.3	correct	division	Ejus autem	1573,1681: Eiusautem	1758,1715,ws	Iterumque dixerunt Halleluja ⟦Ejus autem⟧ fumus exhalat in omnia saecula
+Rev.19.4	base-only	reading	animalia	1573: aniSup malia	1758,1681,1715,1750,1726,ws	viginti quatuor senatores et quatuor ⟦animalia⟧ procubuerunt Deumque in solio sedentem
+Rev.19.5	base-only	f/s	solio	1573: folio	ws	Et vox ex ⟦solio⟧ prodiit dicens laudate Deum nostrum
+Rev.19.5	base-only	division	nostrum	1573: no ftrum | 1556: nóflrum	1758,1681,1715,1750,1726,ws	solio prodiit dicens laudate Deum ⟦nostrum⟧ omnes ejus servi eumque metuentes
+Rev.19.5	base-only	f/s	servi	1573: ferui	ws	laudate Deum nostrum omnes ejus ⟦servi⟧ eumque metuentes parvi juxta ac
+Rev.19.7	others	spelling	exsultemus	1758,1715,1726: exultemus | 1747: exultemus cem in coelo dicentis hal	1750,ws	Dominus Deus omnipotens Gaudeamus et ⟦exsultemus⟧ eique gloriam tribuamus quoniam agni
+Rev.19.7	base-only	reading	exsultemus eique	1573: exultemus eiqs	1750,ws	Dominus Deus omnipotens Gaudeamus et ⟦exsultemus eique⟧ gloriam tribuamus quoniam agni venerunt
+Rev.19.8	correct	reading	mandatum	1573,1758,1750,1726: datum	1715,1747,ws	Eique ⟦mandatum⟧ est ut byssino puro splendidoque
+Rev.19.8	correct	reading	ut	1573,1758,1726: 	1681,1715,1747,ws	Eique mandatum est ⟦ut⟧ byssino puro splendidoque induatur Est
+Rev.19.8	base-only	reading	splendidoque induatur	1573: splendidogs vestiri	1715,1750,ws	mandatum est ut byssino puro ⟦splendidoque induatur⟧ Est autem byssinum virtutes sanctorum
+Rev.19.8	others	reading	induatur	1758,1726: vestiri	1556,1681,1715,1747,1750,ws	est ut byssino puro splendidoque ⟦induatur⟧ Est autem byssinum virtutes sanctorum
+Rev.19.9	correct	spelling	adloquens	1573,1758,1726: alloquens | 1747: allo quos ipfe ferreo baculo re quens	ws	Scribe inquit me ⟦adloquens⟧ beati qui ad nuptiarum agni
+Rev.19.9	base-only	division	qui ad nuptiarum	1573: quiad nuptia rum	1758,1715,1750,1726,ws	Scribe inquit me adloquens beati ⟦qui ad nuptiarum⟧ agni coenam vocati sunt Haec
+Rev.19.10	base-only	reading		1573: Non vult	1758,1750,1726,ws	pedes accidi ejus venerandi gratia ⟦⟧ Sed ille cave inquit ne
+Rev.19.10	base-only	reading		1573: adorari se	1758,1681,1715,1750,1726,ws	ne facias conservus tuus sum ⟦⟧ tuorumque fratrum Jesu testimonium habentium
+Rev.19.11	base-only	reading	justeque	1573: iustes | 1750: iufteiz que	1758,1681,1715,1726,ws	insidebat vocatur fidelis et verus ⟦justeque⟧ et judicat et belligerat
+Rev.19.12	base-only	reading	diademata	1573: diadeinata	1556,1758,1715,1750,ws	similes in capite insunt multa ⟦diademata⟧ habet nomen scriptum quod nullus
+Rev.19.12	base-only	reading		1573: Apoc	1556,1758,1681,1715,1750,ws	diademata habet nomen scriptum quod ⟦⟧ nullus novit nisi ipse
+Rev.19.13	others-1573-agrees	reading	est	1681,1750: cft	1573,1556,1758,1715,ws	Indutus ⟦est⟧ pallio tincto sanguine et nomine
+Rev.19.14	base-only	reading	candido	1573: candi Efa do	1556,1758,1750,ws	sequuntur in equis albis exercitus ⟦candido⟧ mundoque byssino induti
+Rev.19.15	base-only	reading	feriat quos	1573: fe P al riat quas	1750,ws	prodit gladius acutus quo gentes ⟦feriat quos⟧ ipse ferreo baculo reget idemque
+Rev.19.15	others	reading	quos	1758,1681: quas	1750,ws	gladius acutus quo gentes feriat ⟦quos⟧ ipse ferreo baculo reget idemque
+Rev.19.15	base-only	division	torcular	1573: tor cular | 1758: toreular	1681,1750,ws	ferreo baculo reget idemque calcabit ⟦torcular⟧ vini saevitiae iraeque Dei omnipotentis
+Rev.19.16	base-only	reading	scriptum	1573: scriptű	1556,1758,1681,1715,1750,ws	in pallio et femore suo ⟦scriptum⟧ nomen regum Rex et dominorum
+Rev.19.17	correct	reading	Praetera	1573,1758: Præterea | 1681: Pretcrea | 1556: Pratere ea	ws	⟦Praetera⟧ vidi alium angelum in sole
+Rev.19.17	base-only	reading	alium	1573: aliuın	1556,1758,1681,1715,1747,ws	Praetera vidi ⟦alium⟧ angelum in sole stantem qui
+Rev.19.17	base-only	reading		1573: Supr	1758,1715,1747,1750,ws	alium angelum in sole stantem ⟦⟧ qui magna voce clamans omnes
+Rev.19.17	base-only	reading	medio	1573: inedio	1556,1758,1715,1747,1750,ws	qui magna voce clamans omnes ⟦medio⟧ caelo volantes aves sic adlocutus
+Rev.19.17	correct	spelling	adlocutus	1573,1715,1747: allocutus | 1758: alloquutus	ws	medio caelo volantes aves sic ⟦adlocutus⟧ est adeste et coite ad
+Rev.19.18	base-only	reading	regum	1573: reguin	1556,1747,ws	Ut ⟦regum⟧ ut tribunorum ut potentum ut
+Rev.19.18	base-only	f/s	servorum	1573: feruorum	ws	ut omnium tum liberorum tum ⟦servorum⟧ tum parvorum tum magnorum carnes
+Rev.19.19	correct	spelling	belluam	1573,1758: beluam	1747,1750,ws	Vidi et ⟦belluam⟧ terraeque reges et eorum exercitus
+Rev.19.19	base-only	division	equite	1573: e quite | 1750: aocquite	1758,1681,1715,1747,ws	ad bellum gerendum cum equi ⟦equite⟧ ac ejus exercitu
+Rev.19.20	correct	spelling	bellua	1573,1758,1715: belua	1747,1750,ws	Verum comprehensa est ⟦bellua⟧ et cum ea falsus vates
+Rev.19.21	base-only	reading	eorumque	1573: eoruinque | 1750: eor	1758,1681,1747,ws	gladius ex ejus ore prodibat ⟦eorumque⟧ carnibus satiatae sunt omnes alites
+Rev.20.2	base-only	reading		1573: mille annos	1556,1758,1715,1747,1750,ws	draconem serpentem antiquum qui est ⟦⟧ Diabolus et Satanas eumque colligavit
+Rev.20.2	base-only	edge	annos	1573:  | 1726: pannosgan stol i motitatentem vidi folium album iEti	1556,1758,ws	Satanas eumque colligavit in mille ⟦annos⟧ Et in tartarum conjecit conclusitque
+Rev.20.3	base-only	reading	peracti	1573: peraEti | 1747: peradti	1758,1750,1726,ws	ne deinceps gentes deciperet donec ⟦peracti⟧ forent mille anni post quos
+Rev.20.4	base-only	division	judicium	1573: iu dicium	1556,1758,1681,1715,1747,1750,1726,ws	in quibus consessum est illisque ⟦judicium⟧ datum est itemque vidi animos
+Rev.20.4	correct	reading	animos	1573,1758: animas	1715,1747,1750,ws	judicium datum est itemque vidi ⟦animos⟧ decollatorum propter Jesu testimonium propterque
+Rev.20.4	base-only	reading	sermonem	1573: serinonein | 1715: fer et IO l monem | 1726: fermo mem	1758,1747,1750,ws	propter Jesu testimonium propterque Dei ⟦sermonem⟧ et qui neque bestiam aut
+Rev.20.4	base-only	division	qui neque	1573: quineque	1758,1681,1715,1747,1726,ws	testimonium propterque Dei sermonem et ⟦qui neque⟧ bestiam aut ejus imaginem venerati
+Rev.20.4	base-only	reading	notam	1573: notain | 1681: noram	1758,1715,1747,1750,1726,ws	ejus imaginem venerati sunt neque ⟦notam⟧ in suam frontem aut manum
+Rev.20.4	base-only	reading	manum	1573: manuin	1556,1758,1681,1750,1726,ws	notam in suam frontem aut ⟦manum⟧ acceperunt Ii revixerunt et cum
+Rev.20.4	correct	reading	Ii	1573,1758: eæ	1747,1750,ws	suam frontem aut manum acceperunt ⟦Ii⟧ revixerunt et cum Christo mille
+Rev.20.5	base-only	reading	mortuorum	1573: mortuorű	1758,1681,1747,1750,1726,ws	Reliqui ⟦mortuorum⟧ non revixerunt donec transacti forent
+Rev.20.5	base-only	division	transacti	1573: trans acti	1758,1747,1750,1726,ws	Reliqui mortuorum non revixerunt donec ⟦transacti⟧ forent mille anni Haec est
+Rev.20.6	base-only	reading		1573: com APOCALYPSIS nis	1556,1758,ws	sunt qui sunt primae resurrectionis ⟦⟧ compotes In eos secunda mors
+Rev.20.6	correct	reading	quia	1573,1556,1758,1726: quin	1681,1750,ws	secunda mors potestatem non habet ⟦quia⟧ erunt Dei et Christi sacerdotes
+Rev.20.7	base-only	reading	carcere	1573: Exech	1556,1758,1747,1750,ws	annis solvetur Satanas ex suo ⟦carcere⟧
+Rev.20.8	base-only	reading	Magogum	1573: Mago Gog gum	1556,1758,1747,1750,ws	terrae angulis continebuntur Gogum et ⟦Magogum⟧ ut eos ad bellum convocet
+Rev.20.8	base-only	reading		1573: Magog atomi	1556,1758,1681,1747,1750,ws	bellum convocet quorum tantus erit ⟦⟧ numerus quantus est arenae maris
+Rev.20.9	base-only	edge		1573: litum nume	1758,ws	numerus quantus est arenae maris ⟦⟧ Hi facta quam late tellus
+Rev.20.9	base-only	reading	sanctorum	1573: san ro vt terram toruin | 1750: fanéctorum	1758,1747,ws	quam late tellus patet expeditione ⟦sanctorum⟧ castra et urbem amatam circumsederunt
+Rev.20.9	base-only	reading	urbem	1573: vrbein	1758,1747,1750,ws	patet expeditione sanctorum castra et ⟦urbem⟧ amatam circumsederunt Sed eos delapsus
+Rev.20.9	base-only	reading		1573: omnem oc	1758,1747,ws	castra et urbem amatam circumsederunt ⟦⟧ Sed eos delapsus a Deo
+Rev.20.10	base-only	reading	stagnum	1573: stagnuın	1758,1681,1747,1750,ws	dejectus est in igneum sulphureumque ⟦stagnum⟧ ubi erat bellua falsusque vates
+Rev.20.10	correct	spelling	bellua	1573,1758: belua	1747,1750,ws	igneum sulphureumque stagnum ubi erat ⟦bellua⟧ falsusque vates cruciabunturque dies ac
+Rev.20.10	correct	reading	ac	1573,1556,1758: et	1747,1750,ws	bellua falsusque vates cruciabunturque dies ⟦ac⟧ noctes in omnem perennitatem
+Rev.20.10	base-only	reading	perennitatem	1573: perit	1758,1681,1747,1750,ws	dies ac noctes in omnem ⟦perennitatem⟧
+Rev.20.11	correct	spelling	quemdam	1573,1758,1747,1726: quendam | 1681: qui v dam	1750,ws	vidi solium album ingens et ⟦quemdam⟧ in eo sedentem cujus ex
+Rev.20.11	others-1573-agrees	reading	eo	1681,1750: co	1573,1556,1758,1747,1726,ws	album ingens et quemdam in ⟦eo⟧ sedentem cujus ex conspectu terra
+Rev.20.11	correct	spelling	exstiterunt	1573,1758,1726: extiterunt | 1556: ex p títerunt | 1681: extiterunt v	1747,1750,ws	fugit nec ullo jam loco ⟦exstiterunt⟧
+Rev.20.12	base-only	reading	ante	1573: an Supr te	1556,1758,1681,1715,1747,1750,1726,ws	mortuos parvos juxta ac magnos ⟦ante⟧ Deum adstantes apertique sunt libri
+Rev.20.12	others	spelling	adstantes	1758,1726: astantes | 1715: Reliqui mortuorim non aítantes | 1747: aítantes | 1750: Cap succo TE a Deumadftántes	ws	juxta ac magnos ante Deum ⟦adstantes⟧ apertique sunt libri et alius
+Rev.20.12	base-only	reading	adstantes apertique	1573: aftantes apertis	ws	juxta ac magnos ante Deum ⟦adstantes apertique⟧ sunt libri et alius liber
+Rev.20.12	base-only	reading	liber apertus	1573: libera Infr pertus eft	1758,1681,1747,1750,1726,ws	apertique sunt libri et alius ⟦liber apertus⟧ qui est vitae liber et
+Rev.20.12	others	reading		1556: efl | 1758,1726: est	1747,1750,ws	libri et alius liber apertus ⟦⟧ qui est vitae liber et
+Rev.20.12	base-only	reading		1573: Phil	1556,1758,1681,1715,1747,1750,1726,ws	et judicati sunt mortui ex ⟦⟧ librorum scriptis pro suis factis
+Rev.20.14	base-only	division	Haec est	1573: Hæcest	1758,1747,1750,1726,ws	conjecti sunt in stagnum igneum ⟦Haec est⟧ secunda mors
+Rev.20.15	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ quis in vitae libro scriptus
+Rev.21.2	base-only	reading	vidi	1573: vıdı	1758,1715,1747,1750,ws	Ego Joannes ⟦vidi⟧ urbem sanctam Hierosolymam novam a
+Rev.21.2	base-only	reading	sanctam	1573: sanctá | 1715: gn quod igni ardet et fulphu fan et dam	1758,1747,1750,ws	Ego Joannes vidi urbem ⟦sanctam⟧ Hierosolymam novam a Deo de
+Rev.21.2	base-only	reading		1573: Pet	1758,1681,1747,1750,ws	de caelo descendentem paratam ut ⟦⟧ sponsam viro suo ornatam
+Rev.21.3	base-only	reading	Audivique	1573: Audiuiós | 1573: Nouum Audiuiós	1758,1681,1715,1747,1750,1726,ws	⟦Audivique⟧ magnam vocem de caelo dicentem
+Rev.21.3	correct	reading	quid	1573,1758,1715,1747,1726: qui | 1750: y qui	ws	ecce Dei apud homines tabernaculum ⟦quid⟧ apud eos habitabit et ipsi
+Rev.21.3	base-only	reading	habitabit	1573: ha Ezech bitabit	1758,1681,1715,1747,1750,1726,ws	homines tabernaculum quid apud eos ⟦habitabit⟧ et ipsi ejus populus erunt
+Rev.21.3	base-only	reading	apud eos Deus eorum	1573: a | 1573: a abitergetque	1758,1681,1750,ws	erunt et ipse Deus erit ⟦apud eos Deus eorum⟧
+Rev.21.4	base-only	reading	Abstergetque	1573: abitergetque | 1750: abflergetque	1758,1715,1747,1726,ws	⟦Abstergetque⟧ Deus omnem lacrimam ex eorum
+Rev.21.4	correct	reading	lacrimam	1573,1758,1726: lachrymam | 1715: fuftulit lacrymam | 1747: lacrymam	1750,ws	Abstergetque Deus omnem ⟦lacrimam⟧ ex eorum oculis nec amplius
+Rev.21.4	base-only	reading		1573: luperior	1758,1715,1747,1726,ws	mors erit neque luctus neque ⟦⟧ quiritatus neque labor erit amplius
+Rev.21.4	base-only	division	labor erit	1573: laborerit	1758,1715,1747,1750,1726,ws	neque luctus neque quiritatus neque ⟦labor erit⟧ amplius quod priora abierint
+Rev.21.4	base-only	reading		1573: a	1758,1715,1747,1750,1726,ws	neque labor erit amplius quod ⟦⟧ priora abierint
+Rev.21.4	base-only	edge	abierint	1573: 	1758,1750,ws	labor erit amplius quod priora ⟦abierint⟧ Ego inquit is qui in
+Rev.21.5	correct	spelling	adloquens	1573,1758,1747: alloquens	ws	sum omnia nova Tum me ⟦adloquens⟧ scribe inquit haec dicta vera
+Rev.21.5	base-only	reading	fidaque	1573: fidań	1758,1747,1726,ws	scribe inquit haec dicta vera ⟦fidaque⟧ esse
+Rev.21.6	base-only	reading	sum α	1573: suma	ws	mihi dixit factum est Ego ⟦sum α⟧ et ω principium et finis
+Rev.21.6	others	reading	α	1556,1758,1750:  | 1747: a	ws	dixit factum est Ego sum ⟦α⟧ et ω principium et finis
+Rev.21.6	base-only	reading	ω	1573: a | 1758: o | 1747: 	ws	est Ego sum α et ⟦ω⟧ principium et finis ego sitienti
+Rev.21.8	base-only	division	Sed ignavos	1573: Sedignauos	1556,1758,1681,1750,1726,ws	⟦Sed ignavos⟧ et infideles et exsecrabiles et
+Rev.21.8	correct	spelling	exsecrabiles	1573,1556,1758,1726: execrabiles	1750,ws	Sed ignavos et infideles et ⟦exsecrabiles⟧ et homicidas et impudicos et
+Rev.21.8	correct	reading	divicolas	1573,1758,1726: deaftricolas | 1681: lz ftricolas	1747,1750,ws	et impudicos et veneficos et ⟦divicolas⟧ et omnes mendaces hos inquam
+Rev.21.8	base-only	division	igni ardet	1573: igniardet | 1556: igniarder	1758,1681,1747,1750,1726,ws	sors manet in stagno quod ⟦igni ardet⟧ et sulphure quae secunda mors
+Rev.21.8	base-only	reading	quae secunda	1573: que secúda	1758,1747,1750,1726,ws	quod igni ardet et sulphure ⟦quae secunda⟧ mors est
+Rev.21.9	base-only	reading	me unus septem	1573: mevnus septein	1758,1747,1750,1726,ws	Tum venit ad ⟦me unus septem⟧ angelorum qui septem phialas habebant
+Rev.21.9	base-only	reading	septem	1573: septein	1758,1747,1750,1726,ws	angelorum qui septem phialas habebant ⟦septem⟧ postremarum cladium plenas qui me
+Rev.21.9	correct	reading	cladium	1573,1758: cladum | 1750: claI ANNIS dium	1556,1715,1747,ws	septem phialas habebant septem postremarum ⟦cladium⟧ plenas qui me sic adlocutus
+Rev.21.9	base-only	reading	sic adlocutus est	1573: sicallocutus eit	1750,ws	postremarum cladium plenas qui me ⟦sic adlocutus est⟧ ades monstrabo tibi sponsam agni
+Rev.21.9	others-1573-agrees	reading	sponsam	1747,1726: Íponfam	1573,1758,1681,1715,1750,ws	adlocutus est ades monstrabo tibi ⟦sponsam⟧ agni uxorem
+Rev.21.10	base-only	spelling	me divino adflatu	1573: mediuino afflatu | 1556: mediíuino aíflatu	ws	Deinde ⟦me divino adflatu⟧ in magnum arduumque montem sustulit
+Rev.21.10	others	spelling	adflatu	1758,1715,1747: afflatu | 1750: adtia ro tu | 1726: affatu	ws	Deinde me divino ⟦adflatu⟧ in magnum arduumque montem sustulit
+Rev.21.10	base-only	reading	arduumque	1573: arduuınque | 1556: arduumQ | 1681: ar et tumque	1758,1715,1750,1726,ws	me divino adflatu in magnum ⟦arduumque⟧ montem sustulit et mihi monstravit
+Rev.21.10	base-only	reading	mihi	1573: nihi	1758,1681,1715,1747,1750,1726,ws	magnum arduumque montem sustulit et ⟦mihi⟧ monstravit urbem magnam sanctam Hierosolymam
+Rev.21.10	base-only	reading	magnam	1573: ma Santia Hie gnam	1556,1758,1681,1715,1747,1750,1726,ws	sustulit et mihi monstravit urbem ⟦magnam⟧ sanctam Hierosolymam de caelo a
+Rev.21.10	base-only	reading	descendentem	1573: descen rofolyma dentem II | 1726: defcen dentem con munst sɔ al ss	1556,1758,1715,1747,1750,ws	Hierosolymam de caelo a Deo ⟦descendentem⟧ divina gloria praeditam
+Rev.21.11	base-only	reading	simile	1573: siunile	1556,1758,1681,1715,1747,1750,1726,ws	Ejus luminare ⟦simile⟧ erat lapidi pretiosissimo velut jaspidi
+Rev.21.11	base-only	reading	crystallum	1573: crystallű	1758,1747,1750,1726,ws	erat lapidi pretiosissimo velut jaspidi ⟦crystallum⟧ imitanti
+Rev.21.12	base-only	reading	altum	1573: altuin	1556,1758,1715,1747,1750,1726,ws	Habebatque murum ingentem et ⟦altum⟧ et portas duodecim superque portis
+Rev.21.13	base-only	division	austro	1573: au stro	1758,1715,1747,1750,1726,ws	portae a borea tres ab ⟦austro⟧ tres ab occidente tres
+Rev.21.15	base-only	reading	mecum	1573: inecum	1758,1681,1715,1747,1750,1726,ws	Qui autem ⟦mecum⟧ loquebatur calamum habebat aureum quo
+Rev.21.16	base-only	reading	millia	1573: inillia | 1715: mil interdiu nam nox quidem lià	1758,1747,1750,1726,ws	dimensus est ad stadiorum duodecim ⟦millia⟧ pari longitudine et latitudine ac
+Rev.21.17	base-only	division	cubitis	1573: cu bitis | 1747: cubitus	1758,1750,1726,ws	Ejus murum centum quadraginta quatuor ⟦cubitis⟧ dimensus est hominis hoc est
+Rev.21.17	base-only	reading	est hominis	1573: efthominis	1758,1747,1726,ws	centum quadraginta quatuor cubitis dimensus ⟦est hominis⟧ hoc est angeli mensura
+Rev.21.18	base-only	division	muri structura	1573: muristructura	1556,1758,1747,1726,ws	Ejus ⟦muri structura⟧ erat ex jaspide urbs ipsa
+Rev.21.18	others	reading	structura	1715: ftru et ura | 1750: ftru et tura	1556,1758,1747,1726,ws	Ejus muri ⟦structura⟧ erat ex jaspide urbs ipsa
+Rev.21.18	base-only	reading	jaspide	1573: laspide	1556,1758,1715,1747,1726,ws	Ejus muri structura erat ex ⟦jaspide⟧ urbs ipsa ex auro puro
+Rev.21.18	base-only	reading	similis	1573: fiinilis | 1681: lirnilis t uri	1556,1758,1747,1750,1726,ws	ex auro puro puri vitri ⟦similis⟧
+Rev.21.19	correct	reading	oranta	1573,1758,1747,1750,1726: ornata	ws	Muri urbis fundamenta omnibus ⟦oranta⟧ gemmis Primum fundamentum erat jaspis
+Rev.21.19	base-only	reading	fundamentum	1573: fundamentuin | 1747: fimdamentui	1556,1758,1750,1726,ws	fundamenta omnibus oranta gemmis Primum ⟦fundamentum⟧ erat jaspis alterum sapphirus tertium
+Rev.21.19	base-only	reading	alterum sapphirus	1573: alteruin sap phirus	1750,1726,ws	gemmis Primum fundamentum erat jaspis ⟦alterum sapphirus⟧ tertium calcedon quartum smaragdus
+Rev.21.19	correct	reading	calcedon	1573,1758,1726: chalcedon	1747,1750,ws	erat jaspis alterum sapphirus tertium ⟦calcedon⟧ quartum smaragdus
+Rev.21.19	base-only	reading	smaragdus	1573: fimaragdus | 1750: finaragdus	1758,1747,1726,ws	alterum sapphirus tertium calcedon quartum ⟦smaragdus⟧
+Rev.21.20	correct	spelling	sardonix	1573,1758: sardonyx	1681,1747,1750,ws	Quintum ⟦sardonix⟧ sextum sardius septimum chrysolithus octavum
+Rev.21.21	base-only	reading	Duodecim portae	1573: Duodeciin porta	1758,1747,ws	⟦Duodecim portae⟧ duodecim erant uniones ex singulis
+Rev.21.21	base-only	reading		1573: vnionibus fin gulæ | 1758,1750: unionibus singulae	ws	duodecim erant uniones ex singulis ⟦⟧ constantes Urbis area erat aurum
+Rev.21.21	base-only	division	pellucida	1573: pel lucida	1556,1758,1681,1747,1750,ws	Urbis area erat aurum purum ⟦pellucida⟧ ut vitrum
+Rev.21.23	base-only	reading	luceant	1573: lu f ceant	1758,1715,1747,1750,1726,ws	neque luna qui in ea ⟦luceant⟧ nam Dei splendor eam collustrat
+Rev.21.23	base-only	reading	eam	1573: eain	1556,1758,1681,1715,1747,1750,1726,ws	ea luceant nam Dei splendor ⟦eam⟧ collustrat ejusque lucerna agnus est
+Rev.21.23	base-only	division	lucerna	1573: lucer na	1556,1758,1715,1747,1750,1726,ws	Dei splendor eam collustrat ejusque ⟦lucerna⟧ agnus est
+Rev.21.24	base-only	reading	terrarum	1573: terraruin	1758,1747,1750,1726,ws	servatorum ingredientur in eamque conferent ⟦terrarum⟧ reges suam gloriam ac honorem
+Rev.21.24	correct	reading		1573,1758: gloriam	1747,1750,ws	in eamque conferent terrarum reges ⟦⟧ suam gloriam ac honorem
+Rev.21.24	base-only	f/s	suam	1573: fuam	ws	in eamque conferent terrarum reges ⟦suam⟧ gloriam ac honorem
+Rev.21.24	correct	reading	gloriam	1573,1758:  | 1750: glori am	1556,1747,ws	eamque conferent terrarum reges suam ⟦gloriam⟧ ac honorem
+Rev.21.25	correct	reading	ibi	1573,1726: illic | 1758: illie	ws	claudentur interdiu nam nox quidem ⟦ibi⟧ nulla erit
+Rev.21.27	base-only	reading	quodve	1573: quod Phil ue	1758,1747,1750,1726,ws	in eam intrabit quidquam profanum ⟦quodve⟧ scelus committat aut mendacium sed
+Rev.21.27	base-only	reading		1573: Supr	1758,1750,ws	committat aut mendacium sed dumtaxat ⟦⟧ scripti in agni libro vitae
+Rev.22.1	base-only	reading	fluvium	1573: duuium | 1750: fluuiun	1556,1758,1715,1747,ws	mihi monstravit vitalis aquae purum ⟦fluvium⟧ limpidum ut crystallum ex Dei
+Rev.22.1	base-only	f/s	solio	1573: folio	ws	crystallum ex Dei et agni ⟦solio⟧ manantem
+Rev.22.2	base-only	division	gentium	1573: gen tium	1758,1715,1747,1750,1726,ws	fructum edentem Arboris folia ad ⟦gentium⟧ curationem pertinent
+Rev.22.3	base-only	reading	agnique	1573: agniq	1758,1715,1747,1726,ws	deinceps erit devotio et Dei ⟦agnique⟧ solium erit eumque sui servi
+Rev.22.3	base-only	f/s	solium	1573: folium	ws	erit devotio et Dei agnique ⟦solium⟧ erit eumque sui servi colent
+Rev.22.3	base-only	f/s	sui	1573: fui	ws	Dei agnique solium erit eumque ⟦sui⟧ servi colent
+Rev.22.3	base-only	f/s	servi	1573: ferui	ws	agnique solium erit eumque sui ⟦servi⟧ colent
+Rev.22.4	base-only	reading		1573: АРОСАLYPSIS	1715,1747,1750,ws	Et ejus faciem videbunt ⟦⟧ et ejus nomen gestabunt in
+Rev.22.5	others-1573-agrees	division	nec lucerna	1681,1747: necLucerna	1573,1556,1758,1750,ws	Nec erit ibi nox ⟦nec lucerna⟧ solisve lumine indigebunt quippe quos
+Rev.22.6	correct	spelling	adloquens	1573,1758,1747: alloquens	1750,ws	Haec sunt inquit me ⟦adloquens⟧ certa veraque dicta et Dominus
+Rev.22.6	base-only	division	ad monstrandum	1573: admonstrandum	1758,1681,1747,1750,ws	vatum Deus angelum suum misit ⟦ad monstrandum⟧ suis servis quae brevi futura
+Rev.22.6	base-only	f/s	servis	1573: feruis	ws	suum misit ad monstrandum suis ⟦servis⟧ quae brevi futura sunt
+Rev.22.7	correct	reading	pareat	1573,1758: paret	1747,1750,ws	venturus sum felix qui verbis ⟦pareat⟧ oraculi hujus libri
+Rev.22.8	correct	spelling	adspexi	1573,1758,1747: afpexi	1750,ws	vero Joannes qui haec et ⟦adspexi⟧ et audivi quum audivissem adspexissemque
+Rev.22.8	correct	spelling	adspexissemque	1573,1758: afpexissemque | 1750: adfpexif femque	ws	adspexi et audivi quum audivissem ⟦adspexissemque⟧ angelo qui haec mihi monstrabat
+Rev.22.9	base-only	reading	conservus	1573: conAlt feruus | 1758: APOCALYPSIS conseryus	1747,1750,ws	ne facias inquit tuus enim ⟦conservus⟧ sum tuorumque fratrum vatum et
+Rev.22.11	correct	edge	sanctus esse pergat	1573,1758: sanctior fiat | 1726: fanctior fiat oslosi Einde mihi mostravið vi	1750,ws	pergat et sanctus ⟦sanctus esse pergat⟧ Equidem brevi venturus sum meam
+Rev.22.12	base-only	reading	facto remunerer	1573: merito re | 1681: r Tim rito remuncrer v	1747,1750,ws	ferens ut pro suo quemque ⟦facto remunerer⟧
+Rev.22.13	correct	reading	α	1573,1726: a | 1758: 	ws	Ego sum ⟦α⟧ et ω principium et finis
+Rev.22.13	base-only	reading	ω	1573: a | 1758: o	ws	Ego sum α et ⟦ω⟧ principium et finis primus et
+Rev.22.13	base-only	edge	ultimus	1573: vl Efa	1758,1750,ws	principium et finis primus et ⟦ultimus⟧ Beati qui ejus praecepta obeunt
+Rev.22.14	base-only	reading	obeunt	1573: obeût	1758,1681,1747,1750,1726,ws	Beati qui ejus praecepta ⟦obeunt⟧ ut potestatem habeant in arborem
+Rev.22.14	base-only	reading	potestatem habeant	1573: potesta tem ha Supr beant | 1681: pote yid Apoc tum habebant	1758,1715,1747,1750,1726,ws	qui ejus praecepta obeunt ut ⟦potestatem habeant⟧ in arborem vitae et per
+Rev.22.15	base-only	division	erunt canes	1573: eruntcanes	1758,1715,1747,1750,1726,ws	Foris quidem ⟦erunt canes⟧ et venefici et impudici et
+Rev.22.15	base-only	reading	impudici	1573: impu Gal dici	1758,1681,1715,1750,1726,ws	erunt canes et venefici et ⟦impudici⟧ et homicidae et divicolae et
+Rev.22.15	correct	reading	divicolae	1573,1758,1681,1726: deastricolæ | 1715: micidz et divicolz	1747,ws	et impudici et homicidae et ⟦divicolae⟧ et quisquis falsa amat atque
+Rev.22.17	base-only	division	sumat aquam	1573: sumataquam	1758,1715,1747,1750,1726,ws	sitit veniat et qui vult ⟦sumat aquam⟧ vitae gratis
+Rev.22.18	base-only	reading	dicta audientibus	1573: di E ass eta audientib | 1715: di et a audien Etiam veni Domine Iefu tibus	1758,1747,1750,ws	autem omnibus oraculi hujus libri ⟦dicta audientibus⟧ si quis ad haec addiderit
+Rev.22.18	base-only	f/s	si	1573: fi	ws	oraculi hujus libri dicta audientibus ⟦si⟧ quis ad haec addiderit addet
+Rev.22.19	base-only	f/s	si	1573: fi	ws	Et ⟦si⟧ quis de verbis libri hujus
+Rev.22.19	others-1573-agrees	division	de libro	1747,1750: delibro	1573,1758,1726,ws	ademerit adimet Deus sortem ejus ⟦de libro⟧ vitae deque sacra urbe et
+Rev.22.21	correct	reading	favor	1573,1758,1726: gratia	1715,1747,1750,ws	Domini nostri Jesu Christi ⟦favor⟧ adsit vobis omnibus Amen

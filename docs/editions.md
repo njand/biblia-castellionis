@@ -258,6 +258,44 @@ Every place where Wikisource differs from 1573 was read on the 1573 page image (
 - **Names**: 3 John 1 *Caio* in 1573 and 1556; the edition keeps *Gāius*, as settled. *Gomorra* (1573, Jude 7), as
   the settled Genesis (decision 46).
 
+### Revelation in 1573 against 1556 and Wikisource (stage 2, 2026-11-12)
+
+Every place where Wikisource differs from 1573 was read on the 1573 page image (`data/review/rev1-11-stage2.md`,
+`rev12-22-stage2.md`; 74 corrections). In 1573, Revelation follows Hebrews on canvases 937–948. 1556's OCR has it on
+pages 10282454–63. Wikisource prints the early wording throughout, mostly with 1715, 1747 and 1750; 1758, 1681 and
+1726–27 follow 1573.
+- **Wikisource's gaps**: Rev 3:1 is missing whole (its chapter 3 starts at verse 2), as are 7:5's *Ex Gaddi duodecim
+  millia*, 5:11's *et decies centena millia* and 21:21's *unionibus singulae*. All of these are in 1573 and in 1556's
+  OCR.
+- **Castellio's revisions before 1556** (1556 agrees with 1573 against the early line): 1:4 *gratiam* (*favorem*); 1:13
+  and 14:14 *hominis filio* (*homine nati*); 3:15 *qui* (*quod*); 8:10–11 *qua … delapsa: … conversa est*; 16:1
+  *saevitiae Dei*; 20:6 *quin* (*quia*); 21:8 and 22:15 *deastricolas* (*divicolas*); 21:25 *illic* (*ibi*); 22:7
+  *paret* (*pareat*); 22:11 *nocentior fiat … sanctior fiat* (*nocere pergat … sanctus esse pergat*).
+- **1573's own changes against 1556** (recorded as variants; the text follows 1573):
+  - 2:7 *arbore vitae* (*vitali*)
+  - 2:10 *coronam vitae* (*vitae coronam*)
+  - 2:13 *etiam iis temporibus, quibus Antipas* (*meisque temporibus Antipas*)
+  - 11:19 *arca foederis in ejus templo* (*foederis ejus in ejus templo*)
+  - 16:5 *sanctus* (*augustus*)
+  - 19:8 *datum est … vestiri* (*mandatum est, ut … induatur*)
+  - 20:4 *animas … eae* (*animos … Ii*)
+  - 21:9 *cladum* (*cladium*)
+  - 21:24 *gloriam suam* (*suam gloriam*)
+  - Doubtful from one OCR reading: 5:10 *in terra* (1556 *in terris*).
+- **Verse numbers**: 1573 (with Wikisource) puts the KJV's 10:2 inside 10:1, so chapter 10 has 10 verses; the verse is
+  split at *Habebat autem*. Within the KJV's numbers, 1573 sets the boundaries of 10:2–3, 10:5–6, 19:6–7 and 21:10–11
+  as the KJV does, and the edition follows it. It numbers against the KJV at 17:9–10, 20:9–10, 21:20–21 and 22:3–4,
+  where the KJV's numbers are kept.
+- **The book's frame in 1573**:
+  - The title is *APOCALYPSIS IOHANNIS THEOLOGI, HOC EST, PATEFACTIO*.
+  - Castellio's annotation follows the title. He says the author is doubted, and he confesses he barely understands
+    "*vix millesimam partem*" of the book.
+  - Athanasius's argument comes next.
+  - At the end (canvas 948): *NOVI TESTAMENTI FINIS*, then a note to the reader beginning *Habes, Lector, quæ nos in
+    præsentia potuimus*, which promises more and better if God wills, then *ERRATA SIC CORRIGITO* for the Old Testament.
+  - 1556's OCR ends with its own *Novi Testamenti finis*. The *Habes, Lector* note was not found in it (pages
+    10282460–79 searched).
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.
