@@ -224,6 +224,40 @@ last of the letters); James follows Philemon (canvases 916–919). Wikisource ag
   1747, 1750 and 1726–27 drop them. As at Matt 19:4, the marks go and the word stays.
 - **Subscription** after Hebrews: *Missa ex Italia per Timotheum.* in italics under 13:25.
 
+### 1 Peter–Jude in 1573 against 1556 and Wikisource (stage 2, 2026-11-12)
+
+Every place where Wikisource differs from 1573 was read on the 1573 page image (`data/review/1pet1-5-stage2.md`,
+`2pet1-3-stage2.md`, `1john1-5-stage2.md`, `2john1-stage2.md`, `3john1-stage2.md`, `jude1-stage2.md`; 93 corrections).
+1573 prints them after James and before Hebrews: 1 Peter on canvases 920–923, 2 Peter 923–924, 1 John 925–928, 2 and
+3 John and Jude 928–929. Wikisource again prints the early wording, mostly with 1715, 1747 and 1750; 1758, 1681 and
+1726–27 follow 1573. **1 John was revised for 1573 more than any letter so far**: *amor* for *caritas* through 4:7–18,
+*quia* for *quod*, *corporatum* (4:2–3, 2 John 7), *credere in nomen* for *nomini fidem habere* (3:23, 5:10, 5:13).
+- **1573's own changes against 1556** (recorded as variants; the text follows 1573; 1556 from its OCR, whose two
+  columns run together on pages 10282446–47): 1 Pet 1:20 *Provisi* (*praecogniti*), 2:2 *alienum a fraude*
+  (*infraudulentum*), 2:8 *inobedientes* (*diffidentes*), 3:6 *cujus factae estis filiae, dum bene facitis* (*ex qua vos
+  procreatae, recte facite*), 3:20 *Qui olim non paruerant, quum semel* (*quibus olim persuasum non fuerat, cum*), 3:21
+  *stipulatio* (*testificatio*), 5:5 *modestia ornamini* (*modestiam complectemini*), 5:9 *fide* (*fiducia*); 2 Pet 1:19
+  *in cordibus vestris* (*in vestris animis*), 3:16 *Ut in* (*& in*); 1 John 2:4, 2:12–13 *quia* (*quod*), 3:4 *noxa*
+  (*crimen*), 3:23, 4:9 *suum filium*, 4:10, 4:20 *qui possit amare* (*quo pacto potest amare*), 5:10, 5:13 (twice).
+  Doubtful from the OCR alone: 1 Pet 1:2, 4:3, 4:11, 5:10; 2 Pet 2:5. 2 John, 3 John and Jude show none.
+- **Shared by 1573 and 1556, against the Greek and the early line** (kept, as the base; for Nathan's eye): 1 John 4:4
+  *qui in nobis* (ὁ ἐν ὑμῖν; Wikisource *vobis*); Jude 6 *ad magni Dei judicium* (μεγάλης ἡμέρας; Wikisource and the
+  other printings *diei*); 1 Pet 5:8 *adversarius noster*; 1 Pet 1:4 *invietam* (for ἀμάραντον, apparently Castellio's
+  word from *viētus*).
+- **1 John 5:7–8, the Comma Johanneum**: 1573 prints the heavenly witnesses in parentheses, *( in cœlo, pater, sermo,
+  & spiritus sanctus: & hi tres unum sunt. 8 Item tres sunt, qui testantur in terra )*, with the margin note *Hæc ( )
+  in quibusdam exemplaribus non extant*; 1556 has the same words in square brackets, its note in pieces. 1758 and
+  1726–27 keep the parentheses; Wikisource, 1747 and 1750 the words without them. The edition keeps the words and the
+  parentheses, the only trace of Castellio's mark once the margin notes are gone.
+- **Word order across verses**: at 2 Pet 1:17–18 1573, 1556 and 1758 put the voice's words (*hic est meus carissimus
+  filius, in quo me oblecto*) after *in sacro monte* at the end of 18, where the Greek and the KJV have them in 17;
+  the edition follows 1573 under the KJV's numbers. 1 Pet 1:24: *Aret herba, caditque flos* in 24, as 1573 and the KJV.
+- **1573's misprint kept out**: 1 Pet 4:16 *aut si ut Christianus* (1758 copies it) for *At* (εἰ δέ).
+- **Verse numbers**: 1573 numbers 3 John's greetings as verse 15; joined to 14, the KJV's
+  (`data/versification/3John.draft.edits.tsv`).
+- **Names**: 3 John 1 *Caio* in 1573 and 1556; the edition keeps *Gāius*, as settled. *Gomorra* (1573, Jude 7), as
+  the settled Genesis (decision 46).
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.

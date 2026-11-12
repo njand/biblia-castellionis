@@ -2,6 +2,15 @@
 
 ## Now
 
+- **1 Peter–Jude are settled** (2026-11-12; decision 48): approved by you "for now", in `text/1PE.usfm` (105
+  verses), `2PE` (61), `1JN` (105), `2JN` (13), `3JN` (14), `JUD` (25), every chapter at the KJV count; gold rebuilt,
+  drafts and previews removed (`text/draft/` is gone). Record: `data/review/petjud-stages3-5.md` (start here), the six
+  `-stage2.md` files, `-chNN.md`, `data/decisions/`; the 1573/1556 differences in `docs/editions.md`. Taken as
+  proposed: the title lines (`\mt1` *Petrī Apostolī // Epistola prior / posterior*, *Jōhannis Apostolī // Epistola
+  prīma / secunda / tertia*, *Jūdæ Apostolī // Epistola*, as 1573 heads them); 1 John 5:7–8 with Castellio's
+  parentheses and no note; Jude 6 *Deī* and 1 John 4:4 *nōbīs* with 1573 and 1556; 2 Pet 1:17–18 in 1573's order;
+  Jude 9 and 15 in “…” without `\qt`; 1 Pet 2:22–24 as prose; 1 John 1:2 *Sermōne* capital, *antichrīstus* lower
+  case. Only Revelation is left of the New Testament. Not yet in a release or on the site. Nothing committed.
 - **Hebrews and James are settled** (2026-11-12; decision 47): approved by you "for now", in `text/HEB.usfm` (303
   verses) and `JAS.usfm` (108), every chapter at the KJV count; gold rebuilt, drafts and previews removed
   (`text/draft/` is gone). Record: `data/review/hebjas-stages3-5.md` (start here), `heb1-7-stage2.md`,
@@ -280,6 +289,7 @@
 | 45 | 2026-11-11 | **The open questions from Galatians–Philemon, as recommended** (`data/review/open-questions-paul.md`, all accepted, applied): the 11 settled-text slips (1 Cor *līber* ×5, Matt 13:46 *comparet*, Luke 7:5 *īdemque*, Acts 21:8 *Ēvangelistæ*, Luke 1:47 *Servātōre*, Rom 10:6 *dīxerīs*, Matt 12:26 *Satanam*); *Abrāhām-* and *Isaac-* throughout (your Gospels' 13 + 5 brought to the majority, 159 : 13 and 85 : 5); *Euodia* (1573, Gaffiot, as every *Eu-* name); *pænula* (Gaffiot, decision 42). Kept: *Hagar* in Genesis and *Agar* in Galatians, as 1573 prints them; *Grātiam* capital only where the greeting opens its verse; *Servātor* capital everywhere; the Spirit capital where set against flesh or acting; L. … G. marks dropped (2 Tim 3:4, as Matt 19:4); *Epistola prior / posterior*. Tools: paragraphs relaid after versification, crops of carried-over lines, the quotation check in `propose`. |
 | 46 | 2026-11-11 | **One form per person in both Testaments, the Old Testament's.** Modern translations use one form (BSB, WEB, NRSV, ESV, NIV *Hagar* in Galatians; only the KJV keeps the Greek forms); Paul's Greek has Ἁγάρ; decision 37 already spelled names one way across books. Applied: Gal 4:24–25 *Agar* → *Hagar*, Matt 24:37–38 *Nōē* → *Nōæ*, *Nōa* (`data/review/names-one-form.md`); `brief.md` (Proper names) has the rule. Replaces decision 45's *Hagar*/*Agar* point. |
 | 47 | 2026-11-12 | **Hebrews and James approved for now.** Stages 1–5 (79 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: Heb 2:16 *Abrahami semen assumpsit*, *sacrarium → sanctuarium*, Jas 1:4 *perfectum opus*; words Wikisource lost, Heb 12:26; 1573's Heb 7:28 and 8:14 joined to the KJV's 7:27 and 8:13; 123 layout lines, 131 forms; Hebrews' OT quotations in `\qt`, the psalms, Isaiah and Jer 31 as verse where the BSB sets them; the subscription as `\cls`; Jas 5:3's L. … G. marks dropped as Matt 19:4) settled in `text/HEB|JAS.usfm`, with the title lines as proposed (Hebrews without Paul's name, as 1573) and the KJV book order. With it: 23 spelling rules under decisions 37 and 42. Your in-depth review follows decision 30. |
+| 48 | 2026-11-12 | **1 Peter–Jude approved for now.** Stages 1–5 (86 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording, 1 John most of all: *caritas → amor*, *quod → quia*, *corporatum*, *in nomen credere*; 1 John 5:7–8 with 1573's parentheses; 2 Pet 1:17–18 in 1573's order; Jude 6 *Dei* and 1 John 4:4 *nobis* kept with 1573 and 1556; 3 John's verse 15 joined to 14; 102 layout lines, 111 forms; 1 Peter's OT quotations in `\qt`, Isa 40, Ps 34, Ps 118 and Proverbs as verse; Jude 9 and 15 quoted without `\qt`) settled in `text/1PE|2PE|1JN|2JN|3JN|JUD.usfm`, with the title lines as proposed (as 1573 heads them). With it: 11 spelling rules under decisions 37, 42 and 46 (*Gomorra*). Your in-depth review follows decision 30. |
 
 ## How to run
 

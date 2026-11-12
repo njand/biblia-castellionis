@@ -1,0 +1,45 @@
+id	kind	sort	text	readings	support	context
+Jude.1.1	base-only	reading	Christi servus Jacobi	1573: Christiseruus lacobi	1758,1747,1750,ws	Judas Jesu ⟦Christi servus Jacobi⟧ frater sanctificatis in Deo patre
+Jude.1.1	correct	reading	in	1573,1715,1747,1750: 	ws	sanctificatis in Deo patre et ⟦in⟧ Jesu Christo reservatis vocatis
+Jude.1.2	correct	reading	caritatem	1573,1715: charitatem | 1681: chaitatem	1747,1750,ws	Misericordiam et pacem et ⟦caritatem⟧ plurimam dicit
+Jude.1.3	correct	spelling	Carissimi	1573,1758: Charifsimi | 1715: Chariflimi | 1750: Carifimi | 1726: Admonet pios ut fibi caveant ab eo hominum genere qui ex Chri fi gratia lafciviendi pratextum captant quos non impune laru Chariffimi	ws	⟦Carissimi⟧ quum vobis de communi salute
+Jude.1.3	others-1573-agrees	reading		1715,1747: noftra	1573,1758,1681,1750,1726,ws	Carissimi quum vobis de communi ⟦⟧ salute scribere summo studio contenderem
+Jude.1.3	base-only	reading	scribendo	1573: scribédo	1758,1750,1726,ws	studio contenderem necesse habui vos ⟦scribendo⟧ cohortari ut fide quae semel
+Jude.1.4	base-only	reading		1573: Pet	1758,1715,1750,1726,ws	homines quidam olim ad hoc ⟦⟧ ipsum supplicium designati Dei nostri
+Jude.1.4	correct	reading		1573,1758,1715,1750,1726: impij	ws	ad hoc ipsum supplicium designati ⟦⟧ Dei nostri beneficium transferentes in
+Jude.1.4	base-only	reading		1573: folum heruin | 1758,1726: solum herum	1715,1747,1750,ws	beneficium transferentes in libidinem et ⟦⟧ Deum qui solus herus est
+Jude.1.4	correct	reading	qui solus herus est	1573,1758,1726: 	1715,1750,ws	transferentes in libidinem et Deum ⟦qui solus herus est⟧ Dominumque nostrum Jesum Christum negantes
+Jude.1.4	base-only	reading	negantes	1758: negants | 1573:  | 1747: neBantes Rom	1715,1750,1726,ws	est Dominumque nostrum Jesum Christum ⟦negantes⟧
+Jude.1.6	base-only	reading	Angelosque	1573: angelosás | 1573: Num angelosás | 1681: Petr Angelolque	1758,1715,1747,1750,1726,ws	⟦Angelosque⟧ qui suam originem non retinuissent
+Jude.1.6	base-only	f/s	suam	1573: fuam	ws	Angelosque qui ⟦suam⟧ originem non retinuissent sed suum
+Jude.1.6	base-only	reading	diei	1573: Dei	1681,1715,1750,1726,ws	suum domicilium reliquissent ad magni ⟦diei⟧ judicium aeternis vinculis sub tenebris
+Jude.1.6	base-only	reading	servandos	1573: seruados	1758,1715,1747,1750,1726,ws	judicium aeternis vinculis sub tenebris ⟦servandos⟧ curavit
+Jude.1.7	others-1573-agrees	division	Ut Sodoma	1750,1681: vtSodoma	1573,1758,1715,1747,1726,ws	⟦Ut Sodoma⟧ et Gomorrha finitimaeque urbes quoniam
+Jude.1.7	others	reading	Gomorrha	1758,1715,1726: Gomorra	1750,ws	Ut Sodoma et ⟦Gomorrha⟧ finitimaeque urbes quoniam consimili modo
+Jude.1.7	base-only	reading	Gomorrha finitimaeque	1573: Gomorra finitimæ | 1747: Gomorra Initimaeque	ws	Ut Sodoma et ⟦Gomorrha finitimaeque⟧ urbes quoniam consimili modo meretricatae
+Jude.1.7	base-only	reading	corporis	1573: corpo Gem ris	1556,1758,1681,1715,1747,1750,1726,ws	quoniam consimili modo meretricatae impudici ⟦corporis⟧ libidinibus obsecutae sunt iacent ad
+Jude.1.8	base-only	reading	habent	1573: habene AD HEBRAEOS et feil Dei bent	1556,1758,1715,1747,1750,1726,ws	Similiter hi quoque somniantes corpora ⟦habent⟧ polluta et dominatum repudiant dignitatibusque
+Jude.1.8	base-only	reading		1573: d	1758,1715,1747,1750,1726,ws	somniantes corpora habent polluta et ⟦⟧ dominatum repudiant dignitatibusque maledicunt
+Jude.1.10	correct	reading	illis	1573,1715,1747,1750,1726: ijs | 1758: s	ws	vero et quae ignorant de ⟦illis⟧ maledicunt et quae naturaliter brutorum
+Jude.1.11	base-only	reading	Vae eis	1573: In Væeis | 1681: Dtftt Vaeeis	1758,1715,1747,1750,ws	⟦Vae eis⟧ quoniam cainiana via grassantur et
+Jude.1.12	correct	reading	caritatibus	1573,1758,1715,1726: charitatibus	1747,1750,ws	Hi sunt in vestris ⟦caritatibus⟧ labes irreligiose convivantes seipsos pascentes
+Jude.1.12	base-only	reading		1573: Pet	1758,1715,1747,1750,1726,ws	in vestris caritatibus labes irreligiose ⟦⟧ convivantes seipsos pascentes siccae nubes
+Jude.1.12	base-only	division	circumactae	1573: cir cumactæ | 1681: circuma et ae | 1715: circumactz | 1747: circumaftae | 1726: circumada	1758,1750,ws	seipsos pascentes siccae nubes ventis ⟦circumactae⟧ arbores autumnales infructuosae bis mortuae
+Jude.1.13	base-only	f/s	suas	1573: fuas	ws	Feri fluctus maris spumantes ⟦suas⟧ foeditates stellae errantes quibus reservatur
+Jude.1.14	others-1573-agrees	edge		1715,1747: Ef	1573,1758,1750,1726,ws	quibus reservatur caligo sempiterna tenebrarum ⟦⟧ De his etiam vaticinatus est
+Jude.1.15	base-only	reading		1573: Pfal	1681,1715,ws	omnes judicium exerceat omnesque eorum ⟦⟧ impios convinciat omnium quae patraverint
+Jude.1.15	correct	reading	convinciat	1573,1747,1750: conuincat | 1715: convinca et	ws	judicium exerceat omnesque eorum impios ⟦convinciat⟧ omnium quae patraverint impie factorum
+Jude.1.17	correct	spelling	carissimi	1573,1726: charifsimi	1750,ws	Vos vero ⟦carissimi⟧ recordamini ea quae a Domini
+Jude.1.17	base-only	reading	Domini	1573: Do Tim mini	1758,1715,1747,1750,1726,ws	carissimi recordamini ea quae a ⟦Domini⟧ nostri Iesu Christi apostolis praedicta
+Jude.1.18	base-only	reading		1573: Pet	1758,1715,1747,1750,1726,ws	vobis dixerunt futuros postremo tempore ⟦⟧ illusores ex suis impiis cupiditatibus
+Jude.1.19	base-only	reading	animales spiritum	1573: canimales spiri e terreftres tum	1747,1750,1726,ws	Hi sunt qui seipsos secernunt ⟦animales spiritum⟧ non habentes
+Jude.1.20	correct	spelling	carissimi	1573,1758,1726: charissimi | 1556: charifsim	1747,1750,ws	Vos vero ⟦carissimi⟧ in sanctissima vestra fide vos
+Jude.1.20	others	division	vos ipsos	1758,1726: vosipsos	1747,1750,ws	carissimi in sanctissima vestra fide ⟦vos ipsos⟧ exaedificantes sacro adflatu Deo supplicantes
+Jude.1.20	base-only	reading	vos ipsos exaedificantes	1573: tate alieni vosipsos exædificates | 1556: lie dofigfosexadificantes	1747,1750,ws	carissimi in sanctissima vestra fide ⟦vos ipsos exaedificantes⟧ sacro adflatu Deo supplicantes
+Jude.1.20	correct	spelling	adflatu	1573,1556,1726: afflatu | 1758: aflatu diant M | 1747: EPISTOLA Cap t afflatu	ws	fide vos ipsos exaedificantes sacro ⟦adflatu⟧ Deo supplicantes
+Jude.1.21	correct	reading	caritate	1573,1758: charitate	1747,1750,ws	Vos in Dei ⟦caritate⟧ conservate expectantes Domini nostri Iesu
+Jude.1.21	base-only	division	Domini	1573: Do mini | 1747: Dom ni	1556,1758,1750,1726,ws	in Dei caritate conservate expectantes ⟦Domini⟧ nostri Iesu Christi misericordiam ad
+Jude.1.23	correct	reading	coninquinatam	1573,1758,1750,1726: coinquinatam | 1556: coíriquínata	ws	igne rapientes exosi etiam carne ⟦coninquinatam⟧ vestem
+Jude.1.24	base-only	spelling	gloriae suae	1573: glo riæ sue | 1715: glorie fux Tim Pet	1758,1750,1726,ws	expertes delicti servare et in ⟦gloriae suae⟧ conspectu inculpatos cum laetitia sistere
+Jude.1.25	base-only	f/s	Soli	1573: foli	ws	⟦Soli⟧ sapienti Deo servatori nostro gloria
+Jude.1.25	base-only	division	saecula	1573: se cula	1556,1758,1715,1750,1726,ws	potentia nunc et in omnia ⟦saecula⟧ Amen

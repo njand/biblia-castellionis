@@ -1,0 +1,17 @@
+id	kind	sort	text	readings	support	context
+2John.1.1	base-only	reading	ejusque	1573: eiusós | 1726: e Sjufque	1758,1715,1747,1750,ws	Senior electae dominae ⟦ejusque⟧ liberis quos ego vere amo
+2John.1.2	base-only	division	aderit	1573: ade rit	1758,1681,1715,1747,1750,1726,ws	in nobis manet et nobis ⟦aderit⟧ in sempiternum
+2John.1.3	correct	reading	favor	1573,1726: gratia | 1758: gatia	1715,1747,1750,ws	Adsit vobis ⟦favor⟧ misericordia pax a Deo patre
+2John.1.3	correct	reading	caritate	1573,1758,1715,1726: charitate | 1681: charitate frif tt j | 1715: charitate Latatus	1747,1750,ws	patris filio cum veritate ac ⟦caritate⟧
+2John.1.4	correct	reading	sicuti	1573,1758,1747,1726: sicut	1715,1750,ws	tuos ex veritate vivere comperi ⟦sicuti⟧ praeceptum accepimus a patre
+2John.1.4	base-only	reading	a patre	1747: aPatre | 1573: 	1758,1715,1750,1726,ws	vivere comperi sicuti praeceptum accepimus ⟦a patre⟧
+2John.1.6	base-only	reading	praeceptione	1573: præceptio Iohan ne	1758,1747,1750,ws	situs amor ut ex ejus ⟦praeceptione⟧ nos geramus Haec est praeceptio
+2John.1.7	correct	reading	in carne	1573,1758: corporatum	1715,1750,ws	mundum introiverunt qui Jesum Christum ⟦in carne⟧ venisse non confitentur Hic ille
+2John.1.8	base-only	reading	quod	1573: aquæ | 1758: quae	1715,1747,1750,ws	Date operam ne perdamus ⟦quod⟧ elaboravimus sed mercedem plenam accipiamus
+2John.1.8	base-only	reading		1573: docucuimus	1758,1715,1747,1750,ws	operam ne perdamus quod elaboravimus ⟦⟧ sed mercedem plenam accipiamus
+2John.1.9	base-only	reading	manet	1573: inanet	1758,1715,1747,1750,1726,ws	Christi Deum non habet Qui ⟦manet⟧ in doctrina Christi is et
+2John.1.9	base-only	reading	Christi	1573: ChriAi	1556,1758,1681,1747,1750,1726,ws	habet Qui manet in doctrina ⟦Christi⟧ is et patrem habet et
+2John.1.10	others-1573-agrees	division	venit ad	1747,1750: venitad	1573,1758,1681,1715,1726,ws	Si quis ⟦venit ad⟧ vos qui hanc doctrinam non
+2John.1.11	base-only	reading	ejus	1573: ei	1758,1715,1747,1750,1726,ws	Qui enim salvere jubet participat ⟦ejus⟧ prave facta
+2John.1.12	base-only	reading	multa	1573: inulta | 1758: mulas	1556,1715,1747,1750,1726,ws	Quum ⟦multa⟧ vobis haberem scribenda nolui charta
+2John.1.12	base-only	reading	venturum	1573: venturű | 1715: ventu oh et rum	1556,1758,1747,1750,1726,ws	et atramento spero enim me ⟦venturum⟧ ad vos et coram collocuturum

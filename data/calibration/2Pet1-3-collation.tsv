@@ -1,0 +1,124 @@
+id	kind	sort	text	readings	support	context
+2Pet.1.17	uncovered	base	58% of the words			
+2Pet.1.1	base-only	spelling	nostrae	1573: nostre | 1681: noftnc	1758,1715,1747,1750,ws	et apostolus iis qui parem ⟦nostrae⟧ fidem per Dei nostri et
+2Pet.1.2	correct	reading	Favorem	1573,1758,1681: gratiam	1715,1747,1750,ws	⟦Favorem⟧ et pacem plurimam dicit in
+2Pet.1.2	base-only	reading	nostri cognitione	1573: no	1758,1747,ws	in Dei et Jesu Domini ⟦nostri cognitione⟧
+2Pet.1.3	base-only	reading		1573: a	1715,1750,ws	Ut ⟦⟧ cujus divina potentia omnia nobis
+2Pet.1.3	base-only	f/s	sit	1573: fit	ws	ad vitam et pietatem largita ⟦sit⟧ per ejus cognitionem qui nos
+2Pet.1.3	base-only	reading		1573: b	1758,1715,1747,1750,ws	et pietatem largita sit per ⟦⟧ ejus cognitionem qui nos sua
+2Pet.1.3	base-only	reading		1573: b Chrifti	1556,1681,1715,1750,ws	per ejus cognitionem qui nos ⟦⟧ sua gloria et virtute vocavit
+2Pet.1.4	base-only	reading		1573: a	1758,1715,1747,1750,ws	Propter quem ⟦⟧ ille nos eximiis maximisque promissis
+2Pet.1.4	base-only	reading		1573: ad pater	1758,1715,ws	quem ille nos eximiis maximisque ⟦⟧ promissis donavit ut per ea
+2Pet.1.4	others-1573-agrees	reading	promissis	1747,1750: promiflis	1573,1556,1758,1715,ws	quem ille nos eximiis maximisque ⟦promissis⟧ donavit ut per ea fiatis
+2Pet.1.4	base-only	division	per ea	1573: perea	1556,1758,1681,1715,1747,1750,ws	eximiis maximisque promissis donavit ut ⟦per ea⟧ fiatis divinae participes naturae et
+2Pet.1.4	base-only	reading	corruptelam effugiatis	1573: corruptelain ef fugiatis	1747,ws	participes naturae et mundanam cupiditatis ⟦corruptelam effugiatis⟧
+2Pet.1.5	base-only	division	omni studio	1573,1556: omnistudio	1758,1681,1747,1750,ws	Vos vero in hoc ⟦omni studio⟧ incumbite adquirentes in fide vestra
+2Pet.1.5	base-only	reading	adquirentes	1573: acqui rentes II PETRI EPISTOLA rentes | 1556,1747: acquírentes	1750,ws	in hoc omni studio incumbite ⟦adquirentes⟧ in fide vestra virtutem in
+2Pet.1.6	correct	division	patientiam	1573,1750: patien tiam | 1758: pz tientiam	1556,1681,1747,ws	In scientia temperantiam in temperantia ⟦patientiam⟧ in patientia pietatem
+2Pet.1.7	correct	reading	caritatem	1573,1758: charitatem | 1573: charitatem Hęcenim | 1681: charitatem v	1747,1750,ws	fraternum amorem in amore fraterno ⟦caritatem⟧
+2Pet.1.8	base-only	division	Haec enim	1573: Hęcenim	1758,1681,1747,1750,ws	⟦Haec enim⟧ si in vobis inerunt et
+2Pet.1.8	base-only	reading	Jesu	1573: lesu	1758,1681,1750,ws	inertes efficient ad Domini nostri ⟦Jesu⟧ Christi cognitionem
+2Pet.1.9	correct	reading	expitationis	1573,1758,1747,1750: expiationis | 1556: exptationis	ws	caecus est caecutiens oblivione captus ⟦expitationis⟧ veterum suorum peccatorum
+2Pet.1.9	base-only	reading	peccatorum	1573: pec | 1758: peccato | 1556: pecccatorü Pro c inde	1747,1750,ws	oblivione captus expitationis veterum suorum ⟦peccatorum⟧
+2Pet.1.10	correct	spelling	numquam	1573,1556,1747: nunquam | 1750: irnumquam	ws	ac electionem Haec enim facientes ⟦numquam⟧ delinquetis
+2Pet.1.11	base-only	edge		1573: In	1556,1758,1681,1750,ws	Haec enim facientes numquam delinquetis ⟦⟧ Ita enim vobis large suppetet
+2Pet.1.11	base-only	reading	servatorisque	1573: feruatorisés	1758,1681,1715,1747,1750,ws	aditus ad aeternum Domini nostri ⟦servatorisque⟧ Jesu Christi regnum
+2Pet.1.12	correct	reading	commonefacere quamquam	1573: com monefacere quanquam | 1747: commo nefacere gnanguam	1750,ws	negligam vos semper de his ⟦commonefacere quamquam⟧ gnaros et in praesenti veritate
+2Pet.1.12	others	spelling	quamquam	1758,1715: quanquam	1750,ws	vos semper de his commonefacere ⟦quamquam⟧ gnaros et in praesenti veritate
+2Pet.1.12	base-only	reading	veritate fixos	1573: veri	1758,1681,1747,1750,ws	quamquam gnaros et in praesenti ⟦veritate fixos⟧
+2Pet.1.13	base-only	spelling	quamdiu	1573: quandiu | 1681: quand Matt ij	1715,1747,1750,ws	Verumtamen aequum esse judico ⟦quamdiu⟧ sum in hoc domicilio excitare
+2Pet.1.13	base-only	reading		1573: e corpore	1758,1681,1715,1747,1750,ws	aequum esse judico quamdiu sum ⟦⟧ in hoc domicilio excitare vos
+2Pet.1.13	base-only	reading	hoc	1573: hoce	1556,1758,1681,1715,1747,1750,ws	esse judico quamdiu sum in ⟦hoc⟧ domicilio excitare vos admonitione
+2Pet.1.14	base-only	reading	Sciens	1573: sciés | 1750: fcieng	1556,1758,1681,1715,1747,1726,ws	⟦Sciens⟧ brevi fore ut meum domicilium
+2Pet.1.15	correct	spelling	discessum adsiduam	1573: disces sum assiduam | 1747: diíceffum at fiduam	1750,ws	operam ut vos post meum ⟦discessum adsiduam⟧ horum mentionem facere valeatis
+2Pet.1.16	others-1573-agrees	reading	secuti	1758,1726: sequuti	1573,1556,1681,1715,1747,1750,ws	Non enim sciolas ⟦secuti⟧ fabulas potentiam vobis et adventum
+2Pet.1.16	base-only	reading	vobis	1573: vo entiæ specie bis | 1758: bis	1556,1681,1715,1747,1750,1726,ws	enim sciolas secuti fabulas potentiam ⟦vobis⟧ et adventum Domini nostri Jesu
+2Pet.1.16	base-only	reading	declaravimus	1573: declara fitas uimus | 1758: declarimus	1681,1715,1747,1750,1726,ws	adventum Domini nostri Jesu Christi ⟦declaravimus⟧ sed ipsi ejus majestatem contemplati
+2Pet.1.17	base-only	reading	hujusmodi	1573: huiufinodig | 1726: bujufmodi	1556,1758,1715,1747,1750,ws	gloriam voce delata ad eum ⟦hujusmodi⟧ a magnifica gloria hic est
+2Pet.1.17	base-only	reading	magnifica	1573: magnifi gagloriofo ca	1556,1758,1715,1747,1726,ws	delata ad eum hujusmodi a ⟦magnifica⟧ gloria hic est meus carissimus
+2Pet.1.18	base-only	reading		1573: Mas	1715,1747,1750,1726,ws	vocem audivimus de caelo delatam ⟦⟧ quum una cum eo essemus
+2Pet.1.18	base-only	edge	sacro monte	1573: quo me oblecto	1715,1747,1750,ws	cum eo essemus in ⟦sacro monte⟧ Adde quod habemus firmiorem fatidicum
+2Pet.1.18	base-only	reading	monte	1573: inonte Hic eft meus charissimus filius in quo me oblecto	1715,1747,1750,ws	cum eo essemus in sacro ⟦monte⟧
+2Pet.1.19	base-only	reading	sermonem	1573: fer hfcil ad ga monem	1556,1758,1715,1750,ws	Adde quod habemus firmiorem fatidicum ⟦sermonem⟧ in quem recte facitis quod
+2Pet.1.19	base-only	reading	tamquam	1573: tan num quam | 1758,1715: tanquam	1750,ws	recte facitis quod estis intenti ⟦tamquam⟧ in lucentem in obscuro loco
+2Pet.1.19	base-only	reading		1573: Chriftum	1758,1681,1715,ws	in obscuro loco lucernam donec ⟦⟧ dies illucescat et lucifer oriatur
+2Pet.1.19	base-only	reading		1573: cordibus | 1758: corbus	1715,ws	illucescat et lucifer oriatur in ⟦⟧ vestris animis
+2Pet.1.19	base-only	reading	animis	1573: Tim | 1758: 	1715,ws	et lucifer oriatur in vestris ⟦animis⟧
+2Pet.1.21	base-only	reading	voluntate	1573: volūtate | 1715: volun lturis Gen Cap tate	1556,1758,1681,1750,ws	Non enim hominis ⟦voluntate⟧ editum est umquam oraculum sed
+2Pet.1.21	base-only	spelling	umquam	1573,1556: vnquam	1750,ws	enim hominis voluntate editum est ⟦umquam⟧ oraculum sed sancti Spiritus instinctu
+2Pet.1.21	base-only	reading		1573: ho mines diuini CAPVT II Exponit cur hac monuerit fuperius nimirum propter falsos doctores quorum nefan das artes ac interitum defcribit Brutis animalibus et fontibus fine aqua eos comparat quòd	1715,1750,ws	sancti Spiritus instinctu locuti sunt ⟦⟧ homines divini
+2Pet.1.21	others	edge	homines divini	1758,1681: 	1556,1715,1747,1750,ws	Spiritus instinctu locuti sunt ⟦homines divini⟧
+2Pet.1.21	base-only	edge	divini	1573: 	1556,1715,1747,1750,ws	Spiritus instinctu locuti sunt homines ⟦divini⟧
+2Pet.2.1	base-only	reading	sectas	1573: setas	1556,1758,1750,ws	erunt falsi magistri qui perniciosas ⟦sectas⟧ introducent vindicemque suum herum abnegantes
+2Pet.2.1	base-only	reading	vindicemque	1573: vindicemás | 1556: uíndicemt	1758,1715,1750,ws	magistri qui perniciosas sectas introducent ⟦vindicemque⟧ suum herum abnegantes celerem sibi
+2Pet.2.2	base-only	division	multi subsequentur	1573: multisubsequentur	1758,ws	Eorumque perniciem ⟦multi subsequentur⟧ per quos veri institutio male
+2Pet.2.3	base-only	division	per avaritiam	1573: perauaritiam	1758,1715,1750,ws	Quique vos ⟦per avaritiam⟧ fictitiis verbis nundinabuntur quorum supplicium
+2Pet.2.4	base-only	f/s	si	1573: fi	ws	Nam ⟦si⟧ Deus angelis qui peccaverant non
+2Pet.2.4	base-only	division	pepercit	1573: peper čit	1556,1758,1681,1715,1750,ws	Deus angelis qui peccaverant non ⟦pepercit⟧ quin eos in tartarearum tenebrarum
+2Pet.2.4	base-only	reading	tenebrarum	1573: tenebraruin | 1758: ten brarum	1715,1750,ws	pepercit quin eos in tartarearum ⟦tenebrarum⟧ catenas praecipitatos conjecit ad judicium
+2Pet.2.4	base-only	reading	judicium	1573: iudiciuin | 1750: iu dicium	1556,1758,1681,1715,ws	tenebrarum catenas praecipitatos conjecit ad ⟦judicium⟧ custodiendos
+2Pet.2.6	correct	reading	eorum	1573,1681: corum	1556,1758,1750,ws	redactas eversione punivit documentum statuens ⟦eorum⟧ qui impii essent futuri
+2Pet.2.7	correct	division	quia	1573,1758,1726: qui à | 1750: qui	ws	Et justum Lotum ⟦quia⟧ libidinosis nefariorum moribus vexabatur tutatus
+2Pet.2.8	base-only	reading	justum	1573: iustu animum a | 1681: j a	1758,1715,1747,1750,1726,ws	justus ille inter eos habitans ⟦justum⟧ animum noctes et dies scelestorum
+2Pet.2.8	others	spelling	adspectu	1758,1747,1726: aspectu | 1715: rum caligo fempiterna refervaafpectu | 1750: adfpe et u	ws	et dies scelestorum operum et ⟦adspectu⟧ cruciabat et auditu
+2Pet.2.8	base-only	reading	adspectu cruciabat	1573: aspectu crucia hoc eft ei bat	ws	et dies scelestorum operum et ⟦adspectu cruciabat⟧ et auditu
+2Pet.2.10	base-only	reading	dignitatibus	1573: dignitatib | 1681: digratlff S tibus | 1747: di tenebrarum caligo empi gnitatibus	1758,1715,1750,1726,ws	contemnunt audaces insolentes qui de ⟦dignitatibus⟧ maledicere non horrent
+2Pet.2.10	base-only	edge	horrent	1573: II b	1556,1758,1726,ws	qui de dignitatibus maledicere non ⟦horrent⟧ Quum angeli viribus et potestate
+2Pet.2.11	base-only	reading	ferant contra	1573: fe epift de Mo rant cotra	1556,1758,1681,1750,1726,ws	viribus et potestate majores non ⟦ferant contra⟧ eos apud Dominum maledicam sententiam
+2Pet.2.11	base-only	reading	maledicam	1573: maledica | 1758: e valedicam	1556,1747,1750,1726,ws	ferant contra eos apud Dominum ⟦maledicam⟧ sententiam
+2Pet.2.12	base-only	division	At isti	1573: Atisti	1681,1747,1750,1726,ws	⟦At isti⟧ similes animalibus rationis expertibus naturaliter
+2Pet.2.12	base-only	division	naturaliter	1573: na turaliter	1758,1681,1715,1750,1726,ws	isti similes animalibus rationis expertibus ⟦naturaliter⟧ in praedam interitumque natis de
+2Pet.2.12	base-only	reading	interitumque	1573: interitumas | 1747: interi Siquidem quo quis victus tumque	1758,1750,1726,ws	rationis expertibus naturaliter in praedam ⟦interitumque⟧ natis de eis quae ignorant
+2Pet.2.12	base-only	reading	de eis	1573: deceis	1758,1747,1750,1726,ws	naturaliter in praedam interitumque natis ⟦de eis⟧ quae ignorant maledicunt in sua
+2Pet.2.13	base-only	reading	in	1573: din	1556,1758,1681,1715,1750,1726,ws	et maculae qui de vobis ⟦in⟧ suis erroribus convivantes jocantur
+2Pet.2.14	base-only	reading		1573: vo purantes	1556,1715,1750,1726,ws	Oculos habentes degeneris perpetuique peccati ⟦⟧ plenos inescantes infirmas animas animum
+2Pet.2.14	base-only	reading	infirmas	1573: infirinas | 1750: infirsnas	1556,1758,1681,1715,1726,ws	degeneris perpetuique peccati plenos inescantes ⟦infirmas⟧ animas animum rapinis exercitatum habentes
+2Pet.2.14	base-only	reading		1573: ca errentipli	1556,1750,1726,ws	inescantes infirmas animas animum rapinis ⟦⟧ exercitatum habentes homines intestabiles
+2Pet.2.15	others	reading	errant Balsami	1750,1726: er rant Balaami	ws	Qui relicta recta via ⟦errant Balsami⟧ Bosoris filii viam secuti qui
+2Pet.2.15	base-only	reading	Balsami	1573: Balaani | 1758: Balaami	ws	Qui relicta recta via errant ⟦Balsami⟧ Bosoris filii viam secuti qui
+2Pet.2.15	base-only	reading		1573: Num	1715,1750,1726,ws	via errant Balsami Bosoris filii ⟦⟧ viam secuti qui sceleris praemium
+2Pet.2.15	base-only	reading	suique criminis convictus est	1573: suiqs cri | 1573: suiqs cri Iumentum mutum	1758,ws	secuti qui sceleris praemium amavit ⟦suique criminis convictus est⟧
+2Pet.2.16	base-only	reading	Asina muta	1573: Iumentum mutum | 1758: jaumentum mutum | 1556: Iumentummmutum	ws	⟦Asina muta⟧ humana voce locuta inhibuit vatis
+2Pet.2.16	others	reading	locuta	1573: locutum | 1758,1726: loquutum	1750,ws	Asina muta humana voce ⟦locuta⟧ inhibuit vatis amentiam
+2Pet.2.17	correct	reading	Ii	1573,1758,1750: li	1681,ws	⟦Ii⟧ sunt fontes aridi actae procella
+2Pet.2.17	base-only	reading		1573: Inda	1758,1750,ws	aridi actae procella nubes quibus ⟦⟧ tenebrarum caligo sempiterna reservatur
+2Pet.2.18	base-only	reading	cupiditatibus	1573: cupiditatib	1556,1758,1750,ws	vanaque loquendo inescant libidinosi corporis ⟦cupiditatibus⟧ eos qui propemodum effugerant eos
+2Pet.2.19	base-only	reading	Libertatem	1573: libertatein | 1758: hbertatem | 1750: liberta tem	1556,ws	⟦Libertatem⟧ eis pollicentes ipsi servi interitus
+2Pet.2.19	base-only	division	Siquidem	1573: Si quidem	1556,1758,1681,1750,ws	eis pollicentes ipsi servi interitus ⟦Siquidem⟧ quo quis victus est ei
+2Pet.2.20	base-only	reading	Servatoris	1573: fer Hebr uatoris	1758,1681,1750,ws	ex mundanis foeditatibus Domini et ⟦Servatoris⟧ Jesu Christi cognitione elapsi iisdem
+2Pet.2.20	base-only	reading	eorum	1573: corű | 1747: eolabes et maculae quide vo rum	1556,1758,1681,1750,ws	iisdem rursus implicati vincuntur fit ⟦eorum⟧ posterior condito priore deterior
+2Pet.2.20	base-only	reading	condito priore deterior	1573: conditio prio	ws	implicati vincuntur fit eorum posterior ⟦condito priore deterior⟧
+2Pet.2.21	base-only	edge	retro recessisse	1573:  | 1747: ercitatum habentes homi retroreceílifle nes inteftabiles Qui relictarecta via erLuc t fef Eisqueaccidit	1758,1750,ws	tradita sibi sancta disciplina ⟦retro recessisse⟧ Eisque accidit quod est in
+2Pet.2.22	base-only	reading	vomitum	1573: vomituin | 1758: mitum	1747,1750,ws	vero proverbio canis ad suum ⟦vomitum⟧ regressus et lota sus ad
+2Pet.2.22	base-only	division	lota sus	1573: lotafus	1758,1747,1750,ws	ad suum vomitum regressus et ⟦lota sus⟧ ad caeni volutabrum
+2Pet.2.22	correct	edge	caeni volutabrum	1573,1758: 	1747,ws	et lota sus ad ⟦caeni volutabrum⟧
+2Pet.3.1	correct	spelling	carissimi	1573,1758: charissimi | 1715: charif o fur no et e in qua cœli pernicifimi | 1750: cariffi mi | 1726: chafequuti qui fceleris præmium Hriffimi	ws	Has jam alteras vobis ⟦carissimi⟧ scribo litteras in quibus vestram
+2Pet.3.3	base-only	reading	venturos	1573: vêturos	1556,1758,1726,ws	Hoc in primis scientes ⟦venturos⟧ esse postremis temporibus illusores suis
+2Pet.3.3	base-only	division	temporibus	1573: tem poribus	1758,1715,1750,1726,ws	primis scientes venturos esse postremis ⟦temporibus⟧ illusores suis cupiditatibus obsequentes
+2Pet.3.4	base-only	division	statu	1573: sta tu | 1556: flatu	1758,1681,1715,1750,1726,ws	majores obdormiverunt omnia eodem in ⟦statu⟧ manent ab orbe condito
+2Pet.3.5	base-only	reading	olim	1573: olin	1556,1758,1715,1750,1726,ws	enim eos volentes praeterit caelos ⟦olim⟧ terramque et ex aqua et
+2Pet.3.6	base-only	division	inundatus	1573: in undatus | 1747: inundapeti quia faepius excitandi tus	1556,1758,1715,1750,ws	rebus illius temporis mundus aqua ⟦inundatus⟧ perierit
+2Pet.3.8	correct	spelling	carissimi	1573,1758,1715: charissimi | 1681: chariflim | 1750: cariffini	1747,ws	autem unum ne lateat vos ⟦carissimi⟧ unum diem apud Dominum perinde
+2Pet.3.9	base-only	reading		1573: Tim	1758,1750,ws	tardat Dominus promissum ut nonnulli ⟦⟧ tarditatem interpretantur sed lentus est
+2Pet.3.9	base-only	reading		1573: Theff	1758,1747,1750,ws	sed lentus est erga nos ⟦⟧ nolens quemquam perire sed omnes
+2Pet.3.9	correct	spelling	quemquam	1573,1758: quenquam | 1747: r ti fumus difeiplinam re quenquam	1750,ws	lentus est erga nos nolens ⟦quemquam⟧ perire sed omnes ad sanitatem
+2Pet.3.9	base-only	reading		1573: Apoc	1747,ws	perire sed omnes ad sanitatem ⟦⟧ redire
+2Pet.3.10	base-only	reading	nocte	1573: noctu | 1758: noc | 1750: nocle	1747,ws	autem Domini dies ut fur ⟦nocte⟧ in qua caeli perniciter interibunt
+2Pet.3.10	base-only	division	dissolventur	1573: dissol uentur | 1758: d CAPUY In solventur | 1747: diffolm promiffus aduentus Nam uentur	1750,ws	caeli perniciter interibunt elementa ardentia ⟦dissolventur⟧ et tellus et quae sunt
+2Pet.3.11	base-only	reading	exspectantes	1573: expetantes | 1758: expectantes | 1747: expectantes LS s ÁÀÀÀ EPISTOLA IL Cap t tes	1750,ws	in sanctis moribus ac pietatibus ⟦exspectantes⟧ properantesque diei adventum Dei
+2Pet.3.12	base-only	reading	elementa	1573: elemen Apoc al ta	1556,1758,1750,1726,ws	et caeli incendio peribunt et ⟦elementa⟧ ardentia consumentur
+2Pet.3.13	base-only	reading	terramque novam	1573: terramás noua	1758,ws	Novos autem caelos ⟦terramque novam⟧ ex ejus promisso exspectamus in
+2Pet.3.13	correct	spelling	exspectamus	1573,1556,1758: expectamus	ws	terramque novam ex ejus promisso ⟦exspectamus⟧ in quibus habitet justitia
+2Pet.3.14	correct	spelling	carissimi	1573,1758: charissimi | 1750: carifimi	ws	Quapropter ⟦carissimi⟧ his exspectandis date operam ut
+2Pet.3.14	correct	spelling	exspectandis	1573,1758: expectandis | 1750: exfpe t érandis	ws	Quapropter carissimi his ⟦exspectandis⟧ date operam ut ei impolluti
+2Pet.3.14	base-only	reading	operam	1573: operá	1758,1750,ws	Quapropter carissimi his exspectandis date ⟦operam⟧ ut ei impolluti inculpatique cum
+2Pet.3.15	base-only	spelling	carissimus	1573: charissimus | 1556: charitas | 1758: charishmus	1750,ws	pro salute ducite quemadmodum noster ⟦carissimus⟧ frater Paulus pro ea qua
+2Pet.3.16	correct	reading	et	1573,1758,1750: 	1556,1681,1747,ws	Ut ⟦et⟧ in omnibus epistolis de hisce
+2Pet.3.16	base-only	reading	indocti infirmique	1573: indoeti infirmiqs | 1747: indo Nouosautem coelos ter et iinfirmique	1758,1750,ws	quibus insunt obscura quaedam quae ⟦indocti infirmique⟧ ut et cetera scripta in
+2Pet.3.16	base-only	f/s	suam	1573: fuam	ws	ut et cetera scripta in ⟦suam⟧ perniciem detorquent
+2Pet.3.17	correct	spelling	carissimi	1573,1556,1726: charissimi	1747,1750,ws	Vos igitur ⟦carissimi⟧ id praecognoscentes cavete ne in
+2Pet.3.17	correct	reading	excitatis	1573,1758,1747,1750,1726: excidatis	ws	ne in nefariorum errorem abducti ⟦excitatis⟧ ex vestra firmitate
+2Pet.3.17	base-only	division	vestra	1573: ve stra	1758,1747,1750,1726,ws	nefariorum errorem abducti excitatis ex ⟦vestra⟧ firmitate
+2Pet.3.18	base-only	division	nostri	1573: no stri	1758,1681,1715,1747,1750,1726,ws	in beneficio ac cognitione Domini ⟦nostri⟧ Servatorisque Jesu Christi cui gloria
+2Pet.3.18	others-1573-agrees	reading	Jesu	1747,1750: lefu	1573,1758,1726,ws	ac cognitione Domini nostri Servatorisque ⟦Jesu⟧ Christi cui gloria et nunc
+2Pet.3.18	others-1573-agrees	reading	diem sempiternam Amen	1715: die fempiternum Am IOANNIS APOSTOLI EPISTOLA PRIMA CAP I Sermonem illum aternumin quo efl nionem e Sinobis cum Deo commu Te dicimus et tamen in | 1681,1715: 	1573,1750,ws	gloria et nunc et in ⟦diem sempiternam Amen⟧

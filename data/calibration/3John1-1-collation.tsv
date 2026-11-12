@@ -1,0 +1,30 @@
+id	kind	sort	text	readings	support	context
+3John.1.1	uncovered	base	57% of the words			
+3John.1.5	uncovered	base	56% of the words			
+3John.1.2	correct	spelling	Carissime	1573,1726: Charissime | 1758: Charisime | 1747: Caritlime | 1715: Itaque fi venero comme l Chariffime	1750,ws	⟦Carissime⟧ cupio te ante omnia feliciter
+3John.1.2	base-only	reading	quemadmodum	1573: quéadmodum	1758,1715,1747,1750,1726,ws	omnia feliciter agere ac valere ⟦quemadmodum⟧ animo feliciter agis
+3John.1.3	base-only	reading	vehementer	1573: vehes menter | 1715: vehemen hibeat exque Ecclefia ejiciat ter	1758,1747,1750,1726,ws	Laetatus sum enim ⟦vehementer⟧ quum venissent fratres et tuam
+3John.1.3	base-only	reading	testati	1573: teitati	1758,1715,1747,1750,1726,ws	venissent fratres et tuam veritatem ⟦testati⟧ essent uti ex veritate vivas
+3John.1.4	base-only	edge		1573: ave fidente | 1747: Io v	1556,1758,1681,1750,1726,ws	essent uti ex veritate vivas ⟦⟧ Majorem laetitiam nullam habeo quam
+3John.1.4	base-only	reading	nullam	1573: nulla	1556,1758,1681,1750,1726,ws	Majorem laetitiam ⟦nullam⟧ habeo quam ut audiam meos
+3John.1.4	base-only	reading		1573: Chriftianuque	1758,1747,1726,ws	nullam habeo quam ut audiam ⟦⟧ meos natos ex veritate vivere
+3John.1.5	others	reading	Carissime feliciter	1758,1726: Charissime fideliter	ws	⟦Carissime feliciter⟧ agis quidquid erga fratres et
+3John.1.5	base-only	reading	Carissime feliciter agis	1573: Charifsime a fideliteragis | 1573: decet Charifsime a fideliteragis	ws	⟦Carissime feliciter agis⟧ quidquid erga fratres et hospites
+3John.1.6	correct	reading	caritatem	1573,1726: charitatem | 1758: chantatem | 1681: charitatcm | 1750: caritatent	1747,ws	Qui tuam ⟦caritatem⟧ in ecclesiae conspectu testati sunt
+3John.1.6	base-only	f/s	si	1573: fi	ws	testati sunt quos recte facies ⟦si⟧ ut Deo dignum est deduxeris
+3John.1.6	base-only	reading	dignum	1573: dignű	1556,1758,1681,1747,1750,1726,ws	recte facies si ut Deo ⟦dignum⟧ est deduxeris
+3John.1.7	base-only	reading	Nam	1573: Naim	1556,1758,1747,1750,1726,ws	⟦Nam⟧ pro ejus nomine profecti sunt
+3John.1.7	base-only	reading	nihilque	1573: nihilós | 1556: níhil et	1758,1747,1750,1726,ws	pro ejus nomine profecti sunt ⟦nihilque⟧ ab extraneis acceperunt
+3John.1.8	base-only	reading	simus adjutores	1573: fi | 1750: fimusadiutores | 1573: fi Scripfiecclefiæ	1556,1747,ws	tales accipere debemus ut veritatis ⟦simus adjutores⟧
+3John.1.9	base-only	division	Scripsi ecclesiae	1573: Scripfiecclefiæ | 1556: Scrípli eccleíize	1758,1681,1747,1750,ws	⟦Scripsi ecclesiae⟧ sed qui vult eorum esse
+3John.1.9	base-only	division	primarius	1573: prima rius	1556,1758,1747,1750,ws	sed qui vult eorum esse ⟦primarius⟧ Diotrephes non admittit nos
+3John.1.10	base-only	f/s	si	1573: fi	ws	Itaque ⟦si⟧ venero commemorabo qualia patret facinora
+3John.1.10	base-only	reading	prohibeat	1573: prohi fcil admi beat	1556,1758,1681,1747,1750,1726,ws	ipse fratres admittat et volentes ⟦prohibeat⟧ exque ecclesia ejiciat
+3John.1.11	base-only	spelling	Carissime	1573: Charifsime | 1726: II Chariffime	1747,1750,ws	⟦Carissime⟧ ne imitare malum sed bonum
+3John.1.11	base-only	reading	bonum	1573: bonű	1556,1715,1747,1750,1726,ws	Carissime ne imitare malum sed ⟦bonum⟧ Qui bene facit a Deo
+3John.1.11	correct	division	bene facit	1573,1726: benefacit	1681,1715,1747,1750,ws	imitare malum sed bonum Qui ⟦bene facit⟧ a Deo est qui vero
+3John.1.11	base-only	reading	Deum	1573: Deu	1556,1758,1681,1715,1747,1750,1726,ws	est qui vero male facit ⟦Deum⟧ non novit
+3John.1.13	base-only	division	charta	1573: char ta | 1758: chart	1681,1715,1750,ws	scribenda tibi sed nolo tibi ⟦charta⟧ et atramento scribere
+3John.1.14	base-only	division	colloquemur	1573: colloque mur | 1747: colle quemur	1758,1715,1750,ws	ut spero videbo et praesentes ⟦colloquemur⟧ Vale Salutant te amici Saluta
+3John.1.14	base-only	reading	Salutant te amici	1573: Salutantteamici	1715,1747,1750	videbo et praesentes colloquemur Vale ⟦Salutant te amici⟧ Saluta amicos nominatim
+3John.1.14	others-1573-agrees	edge	nominatim	1556,1681,1750: 	1573,1758,1715,1747	Salutant te amici Saluta amicos ⟦nominatim⟧

@@ -1,0 +1,178 @@
+id	kind	sort	text	readings	support	context
+1John.1.4	uncovered	base	50% of the words			
+1John.2.28	uncovered	base	47% of the words			
+1John.4.8	uncovered	base	0% of the words			
+1John.4.9	uncovered	base	0% of the words			
+1John.4.20	uncovered	base	0% of the words			
+1John.1.1	base-only	reading	fuit	1573: odium mundi huius declaret credentes migrafse ex hoc mundo et posthac conuerfari in cælis Et in calce epistole iterum admonet filium Dei effe vitam æternam ac verum Deum et vt illi feruiamus nosg ipfos	1758,1681,1715,1750,1726,ws	Quod ⟦fuit⟧ a principio quod audivimus quod
+1John.1.1	base-only	reading		1573: fimulacris custodiamus Sermonem illum æternum in quo est Vita et Lux annunciare se testatur et propitium fidelibus Deum fore fi gementes fub vitiorum onere confugere discant ad ipfius mifericordiam VOD fuità	1758,1715,1750,1726,ws	Quod fuit a ⟦⟧ principio quod audivimus quod vidimus
+1John.1.1	base-only	division	quod audivimus	1573: quodau diuimus	1758,1750,1726,ws	Quod fuit a principio ⟦quod audivimus⟧ quod vidimus oculis nostris quod
+1John.1.1	base-only	division	oculis nostris	1573: oculisno stris	1758,1715,1750,1726,ws	principio quod audivimus quod vidimus ⟦oculis nostris⟧ quod et spectavimus et nostris
+1John.1.2	base-only	spelling	vitae	1573: vitę	1758,1747,1750,1726,ws	De sermone ⟦vitae⟧ loquor quae vita patefacta est
+1John.1.2	base-only	spelling	quae	1573: que | 1681: qux	1758,1747,1750,1726,ws	De sermone vitae loquor ⟦quae⟧ vita patefacta est id inquam
+1John.1.2	base-only	reading	aeternam	1573: æterná	1758,1747,1750,1726,ws	testamur et vobis vitam nuntiamus ⟦aeternam⟧ quae apud patrem erat et
+1John.1.3	correct	reading	adnuntiamus	1573,1758: anunciamus | 1556: annudciamus	1750,ws	vidimus et audivimus id vobis ⟦adnuntiamus⟧ ut et vos nobiscum communitatem
+1John.1.3	base-only	reading	Est autem	1573: Estaut	1556,1758,1750,1726,ws	et vos nobiscum communitatem habeatis ⟦Est autem⟧ nobis communitas cum patre cumque
+1John.1.3	base-only	reading	cumque	1573: cúque	1758,1747,1750,1726,ws	autem nobis communitas cum patre ⟦cumque⟧ ejus filio Jesu Christo
+1John.1.4	base-only	reading	scribimus	1573: scribim | 1758: seribimus	1747,1750,1726,ws	Atque haec vobis ⟦scribimus⟧ ut plena adficiamini laetitia
+1John.1.4	correct	spelling	adficiamini	1573,1758: afficiamini	ws	haec vobis scribimus ut plena ⟦adficiamini⟧ laetitia
+1John.1.5	base-only	reading	autem	1573: autein	1758,1681,1747,1726,ws	Est ⟦autem⟧ hoc nuntium quod et ab
+1John.1.5	base-only	division	ullas	1573: vl las | 1750: v las	1556,1758,1681,1747,1726,ws	nuntiamus Deum esse lumen nec ⟦ullas⟧ in eo tenebras esse
+1John.1.6	base-only	reading	tamen	1573: ta mem | 1556: ta meh	1758,1681,1747,1750,ws	Deo communionem esse dicimus et ⟦tamen⟧ in tenebris degimus mentimur nec
+1John.1.6	base-only	reading	verum facimus	1573: verúfacimus | 1573: verúfacimus Siin	1747,1750,ws	in tenebris degimus mentimur nec ⟦verum facimus⟧
+1John.1.7	base-only	division	Si in	1573: Siin	1758,1681,1747,ws	⟦Si in⟧ luce versamur ut ipse in
+1John.1.7	base-only	reading	nosque	1573: nosas	1758,1681,1747,1750,ws	nobis est inter nos communitas ⟦nosque⟧ Jesu Christi sanguis ejus filii
+1John.1.7	base-only	reading		1573: Hebr	1556,1747,1750,ws	nosque Jesu Christi sanguis ejus ⟦⟧ filii expurgat ab omni peccato
+1John.1.8	base-only	reading		1573: Apoc	1758,ws	expertes esse dicimus fallimus nos ⟦⟧ ipsos nec est in nobis
+1John.1.10	base-only	division	Si nos	1573: Sinos	1556,1758,1715,ws	⟦Si nos⟧ peccasse negamus mendacem facimus eum
+1John.1.10	base-only	division	nec est	1573: necest	1556,1758,1715,1750,ws	peccasse negamus mendacem facimus eum ⟦nec est⟧ in nobis ejus sermo
+1John.2.1	base-only	reading	non	1573: nó	1758,1681,1747,1750,ws	mei haec vobis scribo ut ⟦non⟧ peccetis quod si quis peccaverit
+1John.2.1	base-only	f/s	si	1573: fi	ws	scribo ut non peccetis quod ⟦si⟧ quis peccaverit patronum habemus ad
+1John.2.2	base-only	division	nec solum	1573: necfolum	1758,1747,1750,ws	idem piaculum est peccatorum nostrorum ⟦nec solum⟧ nostrorum sed etiam totius mundi
+1John.2.3	base-only	reading	eum	1573: euim	1758,1681,1715,1747,1750,ws	Ac in eo nobis ⟦eum⟧ esse notum intelligimus si ejus
+1John.2.3	base-only	division	si ejus	1573: fieius	1556,1758,1747,1750,ws	nobis eum esse notum intelligimus ⟦si ejus⟧ praeceptis paremus
+1John.2.4	base-only	reading	est	1573:  | 1715: eít	1556,1747,1750,ws	non paret mendax est nec ⟦est⟧ in eo veritas
+1John.2.4	correct	reading		1573,1758: est	1556,1747,ws	est nec est in eo ⟦⟧ veritas
+1John.2.5	base-only	reading	Qui vero	1573: Iohan Quiverò | 1556,1750: Quiueró	1758,1747,ws	⟦Qui vero⟧ ejus dictis paret is vere
+1John.2.6	correct	reading	isse	1573,1556,1747,1750,1726: ille	ws	eo manere dicit debet ut ⟦isse⟧ se gessit ita ipse se
+1John.2.7	base-only	reading		1573: vobis	1747,ws	Fratres non novam praeceptionem ⟦⟧ scribo vobis sed veterem praeceptionem
+1John.2.7	correct	reading	vobis	1573,1556,1758,1726: 	1681,1715,1747,1750,ws	Fratres non novam praeceptionem scribo ⟦vobis⟧ sed veterem praeceptionem quam a
+1John.2.9	base-only	reading	fratrem	1573: fratre | 1681: fratm it	1556,1758,1715,1747,1750,1726,ws	lumine esse dicit et tamen ⟦fratrem⟧ suum odit is adhuc in
+1John.2.10	base-only	edge	impingat	1573: impiegat It	1556,1758,1681,1750,ws	et is est qui non ⟦impingat⟧ Qui vero fratrem suum odit
+1John.2.12	correct	reading	quod	1573,1758: quia | 1556: qued	1747,1750,ws	Scribo vobis filioli ⟦quod⟧ vobis ignoscuntur peccata per ejus
+1John.2.13	base-only	edge		1573: a diabolum	1556,1681,1750,ws	ignoscuntur peccata per ejus nomen ⟦⟧ Scribo vobis patres quod eum
+1John.2.13	base-only	reading	quod	1573: quia	1556,1747,1750,ws	Scribo vobis patres ⟦quod⟧ eum qui a principio est
+1John.2.13	base-only	reading	quod	1573: quia a	1556,1747,1750,ws	est novistis Scribo vobis juvenes ⟦quod⟧ malum vicistis
+1John.2.14	base-only	division	vobis	1573: vo bis	1556,1758,1681,1747,1750,ws	nati quia patrem nostis Scripsi ⟦vobis⟧ patres quia eum qui a
+1John.2.14	base-only	reading	quoniam	1573: quonia | 1556: quo c niam	1758,1681,1747,1750,ws	est nostis Scripsi vobis adolescentes ⟦quoniam⟧ fortes estis in vobisque manet
+1John.2.15	base-only	division	Ne amate mundum	1573: Neamatemundum | 1681: v i ij NeamateMundum	1758,1750,ws	⟦Ne amate mundum⟧ neque mundana Si quis mundum
+1John.2.15	base-only	reading	mundum	1573: inun dum | 1747: mure dum	1556,1758,1681,1750,ws	mundum neque mundana Si quis ⟦mundum⟧ amat is non est patris
+1John.2.15	base-only	reading	caritate	1573: charitate | 1758: charitat | 1681: charital	1747,1750,ws	amat is non est patris ⟦caritate⟧ praeditus
+1John.2.16	base-only	reading		1573: B	1556,1758,1681,1747,1750,ws	vitae arrogantia non a patre ⟦⟧ sed a mundo est
+1John.2.17	correct	division	mundus abit	1573,1747: mundusabit	1758,1726,ws	Et ⟦mundus abit⟧ et ejus cupiditates Sed qui
+1John.2.17	correct	reading	cupiditates	1573,1726: cupiditas | 1758: c piditas	1747,1750,ws	Et mundus abit et ejus ⟦cupiditates⟧ Sed qui Dei voluntati paret
+1John.2.18	base-only	reading	quemadmodum venturum	1573: quemadmodü ven turū	1750,1726,ws	Nati ultimum tempus est et ⟦quemadmodum venturum⟧ audivistis antichristum nunc quoque multi
+1John.2.20	others-1573-agrees	reading	vos	1758,1715: t	1573,1681,1747,1750,1726,ws	Et ⟦vos⟧ a Sancto uncti novistis omnia
+1John.2.20	base-only	reading	a Sancto	1573: absancto	1750,ws	Et vos ⟦a Sancto⟧ uncti novistis omnia
+1John.2.21	base-only	reading		1573: et Chrifte	1758,1715,1747,1750,1726,ws	scripsi quod verum nesciatis sed ⟦⟧ quod verum scitis et quod
+1John.2.22	correct	reading	Qui	1573,1758,1715,1747,1750,1726: Quis	1681,ws	⟦Qui⟧ est mendax nisi qui negat
+1John.2.22	correct	reading		1573,1726: Iesum	1715,1747,ws	Qui est mendax nisi qui ⟦⟧ negat Jesum esse Christum Is
+1John.2.22	correct	reading	Jesum	1573,1758,1726: 	1715,1747,1750,ws	est mendax nisi qui negat ⟦Jesum⟧ esse Christum Is antichristus est
+1John.2.22	correct	reading	et	1573,1556,1726: 	1681,1715,1747,1750,ws	Christum Is antichristus est qui ⟦et⟧ patrem negat et filium
+1John.2.24	base-only	division	Si in	1573: Siin	1556,1758,1681,1715,1747,1750,1726,ws	audivistis id in vobis maneat ⟦Si in⟧ vobis manserit quod initio audivistis
+1John.2.25	correct	division	Ac quod	1573,1747: Acquod	1556,1715,1750,1726,ws	⟦Ac quod⟧ nobis promisit id vita aeterna
+1John.2.27	base-only	division	accepistis	1573: ac cepiftis | 1750: accepiítis	1556,1758,1681,1715,1747,1726,ws	quibus unctio quam ab eo ⟦accepistis⟧ maneat neque vobis opus est
+1John.2.27	others-1573-agrees	reading	cunctis	1556: cííctis | 1715,1747,1726: cun et is	1573,1758,1681,1750,ws	quum eadem unctio vos de ⟦cunctis⟧ doceat veraque sit et falsitatis
+1John.2.27	base-only	f/s	sit	1573: fit	ws	vos de cunctis doceat veraque ⟦sit⟧ et falsitatis expers ac quemadmodum
+1John.2.28	base-only	edge	Et nunc	1573: Etnúc	1556,1758,1726,ws	docuit sic maneatis in eo ⟦Et nunc⟧ filioli manete in eo
+1John.2.28	others	spelling	exsistet	1556: exiflet | 1758,1726: existet | 1747: exfifiet	1750,ws	manete in eo ut quum ⟦exsistet⟧ confidentiam habeamus nec eum in
+1John.2.29	correct	division	Si scitis	1573,1750: Sifcitis	1556,1758,1726,ws	⟦Si scitis⟧ eum esse justum cognoscite quicumque
+1John.2.29	correct	spelling	quicumque	1573,1758,1747,1726: quicunque	1750,ws	scitis eum esse justum cognoscite ⟦quicumque⟧ justa faciat ex eo esse
+1John.2.29	others-1573-agrees	reading	faciat	1758,1726: facit	1573,1747,1750,ws	esse justum cognoscite quicumque justa ⟦faciat⟧ ex eo esse natum
+1John.3.1	base-only	division	cognoscit	1573: co gnofcit	1758,1681,1747,ws	vocemur Ideo nos mundus non ⟦cognoscit⟧ quod eum non cognoscit
+1John.3.2	correct	spelling	Carissimi	1573,1758: Charifsimi	1747,1750,ws	⟦Carissimi⟧ nos nunc Dei filii sumus
+1John.3.2	base-only	reading	nondum	1573: non duin	1556,1758,1681,1747,1750,ws	nunc Dei filii sumus tametsi ⟦nondum⟧ patet quid simus futuri Scimus
+1John.3.2	base-only	f/s	simus	1573: fimus	ws	sumus tametsi nondum patet quid ⟦simus⟧ futuri Scimus autem quum id
+1John.3.2	others-1573-agrees	division	Scimus autem	1747,1750: Scimusautem	1573,ws	nondum patet quid simus futuri ⟦Scimus autem⟧ quum id patefactum fuerit nos
+1John.3.2	others-1573-agrees	reading	patefactum	1747,1750: patefa et um	1573,1556,1758,1715,ws	futuri Scimus autem quum id ⟦patefactum⟧ fuerit nos ejus fore similes
+1John.3.3	base-only	division	Ac quisquis	1573: Acquisquis	1556,1758,1681,1715,1747,1750,ws	⟦Ac quisquis⟧ hanc in eo spem habet
+1John.3.4	correct	reading		1573,1681: a	1715,1747,1750,ws	Quisquis peccatum committit ⟦⟧ is crimen committit et peccatum
+1John.3.4	base-only	reading	crimen committit	1573: noxam comaiendam ob mittit	1715,1747,1750,ws	Quisquis peccatum committit is ⟦crimen committit⟧ et peccatum crimen est
+1John.3.4	correct	reading	crimen	1573,1758,1681: noxa	1556,1715,1747,1750,ws	is crimen committit et peccatum ⟦crimen⟧ est
+1John.3.7	base-only	division	Qui justa	1573: Quiiusta	1758,1750,1726,ws	Filioli nemo vos decipiat ⟦Qui justa⟧ facit justus est quemadmodum ille
+1John.3.7	others	reading	justa	1715,1747: iufte	1758,1750,1726,ws	Filioli nemo vos decipiat Qui ⟦justa⟧ facit justus est quemadmodum ille
+1John.3.9	base-only	reading	committit	1573: com Iob mittit	1556,1758,1715,1747,1750,1726,ws	Deo natus est peccatum non ⟦committit⟧ quod Dei semen in eo
+1John.3.9	others-1573-agrees	division	peccare nequit	1747,1750: peccarenequit	1573,1556,1758,1715,1726,ws	semen in eo manet ideoque ⟦peccare nequit⟧ quod ex Deo natus est
+1John.3.11	base-only	reading	amemus	1573: aineimus	1556,1758,1715,1747,1750,1726,ws	quam principio audivistis denuntiatio ut ⟦amemus⟧ inter nos
+1John.3.12	base-only	reading	fratrem	1573,1556: fratre	1758,1715,1747,1750,1726,ws	qui quum a malo esset ⟦fratrem⟧ suum interemit Cujus autem gratia
+1John.3.12	base-only	reading	autem	1573: autein	1556,1758,1715,1747,1750,1726,ws	esset fratrem suum interemit Cujus ⟦autem⟧ gratia eum interemit quoniam ejus
+1John.3.12	base-only	reading	quoniam	1573: quoniain | 1556: quoniá	1758,1715,1747,1750,1726,ws	Cujus autem gratia eum interemit ⟦quoniam⟧ ejus opera erant mala quum
+1John.3.14	base-only	reading	amat	1573: ainat | 1681: M O lb	1556,1758,1715,1747,1750,1726,ws	fratres amamus Qui fratrem non ⟦amat⟧ manet in morte
+1John.3.16	base-only	division	nobis	1573: no bis	1556,1758,1681,1715,1747,1750,1726,ws	cognoscimus quod et ille pro ⟦nobis⟧ animam suam posuit et nos
+1John.3.16	base-only	f/s	suam	1573: fuam	ws	et ille pro nobis animam ⟦suam⟧ posuit et nos debemus pro
+1John.3.17	correct	reading	Jam	1573,1750: lam | 1747: et lam	1758,1726,ws	⟦Jam⟧ qui quum hujus vitae facultates
+1John.3.17	correct	reading	caritate	1573,1758: charitate	1747,1750,ws	fieri potest ut fit Dei ⟦caritate⟧ praeditus
+1John.3.18	base-only	reading	veritate amemus	1573: verita | 1750: veritateamemus	1556,1758,1747,ws	aut lingua sed re ac ⟦veritate amemus⟧
+1John.3.20	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ nos damnat animus noster major
+1John.3.21	base-only	spelling	Carissimi	1573: Charifsimi | 1556: Charis magi not mí | 1681: r Chariflimi | 1747: XS Cariflimi	1750,ws	⟦Carissimi⟧ si noster animus nos non
+1John.3.21	base-only	reading	non	1573: nó | 1681: n v Pro i c	1758,1750,ws	Carissimi si noster animus nos ⟦non⟧ damnat confidentiam habemus ad Deum
+1John.3.21	base-only	division	confidentiam	1573: con fidentiam | 1556: coufíden nt tíam | 1750: fidentiam	1758,1681,1747,ws	noster animus nos non damnat ⟦confidentiam⟧ habemus ad Deum
+1John.3.22	base-only	reading		1573: non later	1758,1726,ws	ejus praeceptis obtemperamus eique morem ⟦⟧ gerimus
+1John.3.23	base-only	division	haec est	1573: hæcest	1758,1747,1750,1726,ws	Atque ⟦haec est⟧ ejus praeceptio ut ejus filii
+1John.3.23	base-only	reading	ut	1573: vtin	1556,1758,1681,1747,1750,1726,ws	Atque haec est ejus praeceptio ⟦ut⟧ ejus filii Jesu Christi nomini
+1John.3.23	others	reading		1758,1726: in	1556,1747,1750,ws	haec est ejus praeceptio ut ⟦⟧ ejus filii Jesu Christi nomini
+1John.3.23	base-only	reading		1573: Iohan	1758,1681,1750,1726,ws	praeceptio ut ejus filii Jesu ⟦⟧ Christi nomini credamus et inter
+1John.3.23	correct	reading	nomini	1573,1758,1681,1726: nomen	1556,1747,1750,ws	ut ejus filii Jesu Christi ⟦nomini⟧ credamus et inter nos amemus
+1John.3.23	base-only	reading	quemadmodum	1573: quem Iohan admodum | 1747: quem et dmodum	1758,1681,1750,1726,ws	credamus et inter nos amemus ⟦quemadmodum⟧ praeceptum dedit
+1John.4.2	base-only	reading	spiritum	1573: spirituin | 1747: SpiTitum	1758,1681,1750,1726,ws	Hinc cognoscite Dei ⟦spiritum⟧ quisquis spiritus Jesum Christum in
+1John.4.2	correct	reading	in carne	1573,1758: corporatum | 1726: jus vicem miferatur qui fieri corporatum	1715,1747,1750,ws	spiritum quisquis spiritus Jesum Christum ⟦in carne⟧ venisse confitetur is a Deo
+1John.4.2	others-1573-agrees	division	is a	1715,1747: isa	1573,1758,1681,ws	Christum in carne venisse confitetur ⟦is a⟧ Deo est
+1John.4.3	correct	reading	in carne	1573,1726: corporatum	1715,1747,1750,ws	Quisquis autem spiritus Jesum Christum ⟦in carne⟧ venisse non confitetur is a
+1John.4.3	base-only	division	venturum	1573: ventu rum	1758,1681,1715,1747,1750,1726,ws	est de Antichristo quod audivistis ⟦venturum⟧ esse qui jam nunc in
+1John.4.4	base-only	division	major	1573: ma ior	1758,1681,1715,1747,1750,1726,ws	filioli et eos vicistis quoniam ⟦major⟧ est qui in vobis quam
+1John.4.4	correct	reading	vobis	1573,1758,1681,1726: nobis	1715,1747,1750,ws	quoniam major est qui in ⟦vobis⟧ quam qui in mundo est
+1John.4.6	base-only	f/s	sumus	1573: fumus	ws	Nos a Deo ⟦sumus⟧ Deum qui novit nos audit
+1John.4.6	base-only	f/s	sit	1573: fit	ws	nos Inde quis veritatis quis ⟦sit⟧ erroris spiritus dignoscimus
+1John.4.7	base-only	spelling	Carissimi	1573: Charifsimi | 1715: Ioh et Chariffimi	1747,ws	⟦Carissimi⟧ amemus nos inter nos nam
+1John.4.7	base-only	division	inter nos	1573: internos	1758,1681,1715,1747,ws	Carissimi amemus nos ⟦inter nos⟧ nam caritas a Deo est
+1John.4.7	correct	reading	caritas	1573,1758: amor | 1681: r | 1715: charitas	1747,ws	amemus nos inter nos nam ⟦caritas⟧ a Deo est ac quisquis
+1John.4.7	base-only	reading	Deumque	1573: Deinque	1758,1681,1715,1747,1750,ws	amat ex Deo natus est ⟦Deumque⟧ novit
+1John.4.10	correct	reading	quod	1573,1758: quia	1556,1715,1747,1750,ws	amor est quod Deus non ⟦quod⟧ nos eum amaverimus sed quod
+1John.4.10	correct	reading	amaverimus	1573,1758:  | 1747: a s maucrimus	1715,1750,ws	Deus non quod nos eum ⟦amaverimus⟧ sed quod ipse nos amaverit
+1John.4.10	base-only	reading	quod ipse	1573: quia ip se se	1715,1747,1750,ws	quod nos eum amaverimus sed ⟦quod ipse⟧ nos amaverit misit filium suum
+1John.4.10	base-only	reading	misit	1573: nifit	1556,1758,1715,1747,1750,ws	sed quod ipse nos amaverit ⟦misit⟧ filium suum pro peccatis nostris
+1John.4.10	base-only	division	peccatis	1573: pec catis	1556,1758,1715,1747,1750,ws	amaverit misit filium suum pro ⟦peccatis⟧ nostris piaculum
+1John.4.11	base-only	reading	Carissimi	1750: Carifimi | 1573: II Charifsimi | 1758: Chs rissimi | 1681: f Chariflimi | 1715: Ioh Rom et At Chariffimi	1747,ws	⟦Carissimi⟧ si sic nos amavit Deus
+1John.4.12	correct	spelling	umquam	1573,1758,1715,1747: vnquam	1750,ws	Deum nemo ⟦umquam⟧ vidit Si alius alium amamus
+1John.4.12	base-only	reading	amamus	1573: anamus	1556,1758,1715,1747,1750,ws	umquam vidit Si alius alium ⟦amamus⟧ manet in nobis Deus sumusque
+1John.4.12	base-only	reading	sumusque	1573: funtis	1758,1715,1747,1750,ws	amamus manet in nobis Deus ⟦sumusque⟧ ejus perfecta caritate praediti
+1John.4.12	base-only	reading	perfecta caritate	1573: perfecto amore | 1715: pertecta charitate	1747,1750,ws	in nobis Deus sumusque ejus ⟦perfecta caritate⟧ praediti
+1John.4.16	base-only	division	amor est	1573: amorest	1758,1715,1747,ws	prosequitur novimus ac credimus Deus ⟦amor est⟧ et qui in amore manet
+1John.4.17	correct	reading	perfecta caritate	1573,1758: perfecto amore	1747,1750,ws	In eo ⟦perfecta caritate⟧ praediti sumus si de judicii
+1John.4.17	base-only	reading	si	1573: sia	1758,1681,1715,1747,1750,ws	eo perfecta caritate praediti sumus ⟦si⟧ de judicii die confidimus quod
+1John.4.17	base-only	reading	confidimus	1573: confidumus et | 1758: condimus	1681,1715,1747,1750,ws	sumus si de judicii die ⟦confidimus⟧ quod qualis ille est tales
+1John.4.17	base-only	f/s	simus	1573: fimus	ws	qualis ille est tales nos ⟦simus⟧ in hoc mundo
+1John.4.18	correct	reading	caritate	1573,1758: amore | 1715: charitate	1747,1750,ws	In ⟦caritate⟧ metus non est quin perfecta
+1John.4.18	correct	reading	perfecta caritas	1573,1758: perfectus amor | 1556: perfe IE s clifldde T D Clusamot	1750,ws	caritate metus non est quin ⟦perfecta caritas⟧ foras quatit metum quoniam metus
+1John.4.18	correct	reading	perfecta caritate	1573,1758: perfecto amore	ws	metus cruciatum habet quique metuit ⟦perfecta caritate⟧ non est
+1John.4.18	others	division	caritate non	1747,1750: caritātenon	ws	cruciatum habet quique metuit perfecta ⟦caritate non⟧ est
+1John.4.19	base-only	reading	quoniam	1573: quonian | 1556: quoniá | 1747: quıO niam	1758,1681,1715,1750,ws	Nos eum amamus ⟦quoniam⟧ prior ipse nos amavit
+1John.4.20	others	reading	vidit	1681,1715: videt	1758,1750,ws	Qui enim fratrem suum quem ⟦vidit⟧ non amat Deum quem non
+1John.4.21	base-only	reading	quoque	1573: quoq | 1715: quo ue	1681,1747,1750,ws	ut Deum qui amat suum ⟦quoque⟧ fratrem amet
+1John.5.1	base-only	edge	ex eo natum amat Hinc intelligimus	1573: Hincintelligimus	1758,1750,ws	amat etiam ⟦ex eo natum amat Hinc intelligimus⟧ amari a nobis Dei
+1John.5.2	base-only	reading	amamus	1573: mamus | 1715: ama habet qui Dei Filium non habet mus	1758,1681,1747,1750,1726,ws	nobis Dei filios si Deum ⟦amamus⟧ ejusque praeceptis obtemperamus
+1John.5.3	base-only	reading	si ejus	1573: sicius | 1750: fieius	1681,1715,1726,ws	Is enim Dei amor est ⟦si ejus⟧ praeceptis obtemperamus quae sane ejus
+1John.5.4	base-only	reading		1573: Cor | 1758: t is u	1715,1747,1750,ws	Deo natum est vincit mundum ⟦⟧ et haec victoria est quae
+1John.5.6	correct	division	Hic est	1573,1750: Hicest	1556,1758,1681,1747,1726,ws	⟦Hic est⟧ qui venit per aquam et
+1John.5.6	base-only	division	per aquam	1573: peraquam | 1556: peraqua GCAPWT	1758,1681,1747,1750,ws	Hic est qui venit ⟦per aquam⟧ et sanguinem Jesus Christus non
+1John.5.6	base-only	reading	solum sed	1573: solu ted	1758,1747,1750,1726,ws	Jesus Christus non in aqua ⟦solum sed⟧ in aqua et sanguine Et
+1John.5.6	base-only	reading	siquidem	1573: fiquidein | 1747: iquidem	1758,1750,1726,ws	Et spiritus est qui testatur ⟦siquidem⟧ spiritus est veritas
+1John.5.7	base-only	reading	sermo	1573: quibusda ex ferino	1556,1758,1747,1750,1726,ws	qui testantur in caelo pater ⟦sermo⟧ et Spiritus sanctus et hi
+1John.5.7	others-1573-agrees	reading	sanctus	1747,1750: fan et tus	1573,1758,1726,ws	caelo pater sermo et Spiritus ⟦sanctus⟧ et hi tres unum sunt
+1John.5.9	base-only	division	Dei testimonium	1573: Deitestimonium	1758,1747,1726,ws	Si hominum testimonium admittimus ⟦Dei testimonium⟧ majus est Atque hoc est
+1John.5.10	correct	reading		1573,1758,1726: credit in	1747,ws	Qui ⟦⟧ Dei filio fidem habet is
+1John.5.10	correct	reading	filio fidem habet	1573,1758,1726: filium	1556,1750,ws	Qui Dei ⟦filio fidem habet⟧ is in se Dei testimonium
+1John.5.10	base-only	reading	mendacem	1573: mendace	1758,1747,1750,1726,ws	habet Qui Deo non credit ⟦mendacem⟧ facit eum quod testimonio fidem
+1John.5.11	base-only	edge		1573: u	1758,1750,1726,ws	dixit Deus de filio suo ⟦⟧ Est autem hoc testimonium quod
+1John.5.13	correct	reading		1573,1758,1726: ego	1747,1750,ws	Haec ⟦⟧ vobis nomini filii Dei fidem
+1John.5.13	correct	reading	nomini	1573,1758,1726: in nomen	1715,1747,1750,ws	Haec vobis ⟦nomini⟧ filii Dei fidem habentibus ideo
+1John.5.13	base-only	reading	fidem habentibus	1573: credentibus Supra | 1758,1726: credentibus	1715,1747,1750,ws	Haec vobis nomini filii Dei ⟦fidem habentibus⟧ ideo scripsi ut vos aeternam
+1John.5.13	base-only	reading	utque nomini	1573: vtqa in nomen	1715,1747,1750,ws	vos aeternam habere vitam sciatis ⟦utque nomini⟧ filii Dei fidem adjungatis
+1John.5.13	correct	reading	fidem adjungatis	1573,1758: credatis | 1726: credatis lethale | 1556: nonamat nonnouitDeum namDeusamor fidemadiungatis Atcp eacft | 1681:  | 1715: fdemadjungatis Ioh t	1747,ws	sciatis utque nomini filii Dei ⟦fidem adjungatis⟧
+1John.5.14	base-only	f/s	si	1573: fi	ws	ad eum habemus confidentia quod ⟦si⟧ quid ex ejus voluntate postulamus
+1John.5.15	base-only	division	Quod si nos	1573: Quodfinos	1758,1715,1750,1726,ws	⟦Quod si nos⟧ ab eo audiri scimus quidquid
+1John.5.15	base-only	spelling	quae	1573: que | 1715: qua	1758,1747,1750,1726,ws	poscamus scimus ea obtinuisse nos ⟦quae⟧ ab eo poposcimus
+1John.5.15	others-1573-agrees	reading	eo	1750,1726: co	1573,1556,1758,1715,1747,ws	ea obtinuisse nos quae ab ⟦eo⟧ poposcimus
+1John.5.16	correct	spelling	letale	1573,1758,1715,1726: lethale | 1681: lettfe et f	1556,1747,1750,ws	quis fratrem suum peccatum non ⟦letale⟧ committere viderit si is Deum
+1John.5.16	correct	spelling	letaliter	1573,1758,1715,1726: lethaliter | 1681: letl Jac f ter	1747,1750,ws	vitam dabit videlicet peccantibus non ⟦letaliter⟧ Est letale peccatum pro quo
+1John.5.16	others	spelling	letale	1573: blethale | 1758,1715,1726: lethale	1750,ws	videlicet peccantibus non letaliter Est ⟦letale⟧ peccatum pro quo orandum esse
+1John.5.17	base-only	reading		1573: fantum	1758,ws	est peccatum Est et peccatum ⟦⟧ non letale
+1John.5.17	correct	spelling	letale	1573,1758: lethale	1747,1750,ws	peccatum Est et peccatum non ⟦letale⟧
+1John.5.18	base-only	reading	eum	1573: cum	1758,1747,1750,1726,ws	quisquis ex Deo natus est ⟦eum⟧ non peccare nam ex Deo
+1John.5.18	base-only	reading	peccare	1573: pec loan care	1758,1747,1750,1726,ws	Deo natus est eum non ⟦peccare⟧ nam ex Deo natus seipsum
+1John.5.18	base-only	reading	eum malus	1573: cum Ma c diabolus lus	1758,1747,1750,1726,ws	Deo natus seipsum servat nec ⟦eum malus⟧ attingit
+1John.5.19	base-only	division	malo	1573: Ma lo	1758,1681,1747,1750,1726,ws	Deo esse totumque mundum in ⟦malo⟧ jacere
+1John.5.20	others-1573-agrees	reading	venisse	1681,1750: venifle	1573,1758,1747,1726,ws	Scimus item Dei filium ⟦venisse⟧ et nos eo ingenio donasse
+1John.5.20	base-only	reading	eo ingenio	1573: co inge nio	1758,1747,1750,1726,ws	Dei filium venisse et nos ⟦eo ingenio⟧ donasse ut verum cognoscamus Deum
+1John.5.20	base-only	reading	sumusque	1573: fumusás	1758,1747,1726,ws	donasse ut verum cognoscamus Deum ⟦sumusque⟧ in vero in ejus filio
+1John.5.20	base-only	reading	aeternaque	1573: ternaque | 1758: ae ternaque | 1747: aeter naque	1681,1750,1726,ws	Christo Is verus est Deus ⟦aeternaque⟧ vita
