@@ -2,6 +2,11 @@
 
 ## Now
 
+- **The open questions after Revelation are decided** (2026-11-12; decision 50; `data/review/open-questions-nt.md`):
+  John 1:29 and 1:36 *Ecce Agnus Deī* capitalized (gold rebuilt); no special credit for Rev 3:1 (the README's base
+  statement covers it); *quidquam*/*quidquid* kept with Gaffiot; **chapter summaries left out** (decision 3 reversed;
+  `brief.md`, `PLAN.md` updated); v2.0 tagged with the complete New Testament; Genesis 1–27 to be collated against
+  1738. You will add a redirect from the WordPress site to the new one.
 - **Revelation is settled; the New Testament is complete** (2026-11-12; decision 49): approved by you "for now", in
   `text/REV.usfm` (404 verses, every chapter at the KJV count); gold rebuilt, draft and preview removed (`text/draft/`
   is gone). Record: `data/review/rev-stages3-5.md` (start here), `rev1-11-stage2.md`, `rev12-22-stage2.md`,
@@ -144,7 +149,7 @@
   *condiciō*, *subolēs*, *multō*, *pænit-*, *erus*, *paulō*, *umquam*, *cāritās*, *sepulcrum*, *exspect-*,
   *undecumque*, *mæstus*, *vīcēsimus*, *sescentī*, *inaspectābilis*, *cotīdiē*, *cærimōnia*, *quotiēns*, *obœdiō*,
   *adulēscēns*. One judgment against Cicero's editions: *quidquam* kept with the brief's *quidquid* (the corpus's
-  Cicero prints *quicquam*, *quicquid*); say if both should turn to *c*. Gold rebuilt; the 24 stem and word rules
+  Cicero prints *quicquam*, *quicquid*); kept (decision 50). Gold rebuilt; the 24 stem and word rules
   approved, so drafts in progress (Galatians–Colossians) take them at `pipeline propose`. Not yet on the site.
 - ***cum* applied** (2026-11-11; decision 41): *quum*/*quumque* → *cum*/*cumque* in the 243 settled places (Gen
   28–50 47, Exod 57, Acts 70, Rom 27, 1 Cor 26, 2 Cor 16), by the Apply lines of `data/review/quum.md`; gold
@@ -158,7 +163,7 @@
   *Edited by Nathan Anderson* (and the EPUB names you as editor in its metadata); `.github/workflows/pages.yml` builds
   the site on every push to `main` and on each release; `.github/workflows/release.yml` builds every format when a tag
   `v*` is pushed (EPUBs checked by epubcheck, PDF compiled by Tectonic) and publishes the release with `RELEASE.md` as
-  its notes. Still waiting on you: pointing the WordPress site at `https://njand.github.io/biblia-castellionis/`.
+  its notes. Pointing the WordPress site at it: you will add a redirect (decision 50).
 - **2 Corinthians 1–13 is settled** (2026-11-10; decision 38): approved by you "for now", in `text/2CO.usfm` (257
   verses, the KJV count; the subscription as `\cls`), gold rebuilt (`data/gold/2Cor.tsv`), draft and preview removed.
   Record: `data/review/2cor1-13-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch13.md`, `data/decisions/2Cor.*.tsv`,
@@ -235,7 +240,7 @@
   readings (Matt 6:4, 6, 18 *occulta*, 13:32 *holerum*, Luke 9:12 *dēversentur* …), **John 2:18 revised between 1556 and
   1573** (*Ēde nōbīs aliquod prōdigium …*), 2 forms (*tonitruī*, *sēminece*). Kept and listed: *tetrarchēs*,
   *assimulem*, *circumsedēret*, *abstergēmus*.
-- **Possible follow-ups** (not started): chapter summaries (decision 3) are in neither draft nor settled USFM;
+- **Possible follow-ups**: chapter summaries left out (decision 50, reversing decision 3);
   the same collation for settled Genesis against the 1738 OCR (the OT base).
 - **The spelling rules are decided** (2026-11-06, decisions 16–20; `data/rules/REVIEW.md` has the evidence).
   `orthography.tsv`: 114 rules approved, 12 rejected; three left for the names list (*Bennammi*, *Hierichūntem*,
@@ -299,6 +304,7 @@
 | 47 | 2026-11-12 | **Hebrews and James approved for now.** Stages 1–5 (79 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: Heb 2:16 *Abrahami semen assumpsit*, *sacrarium → sanctuarium*, Jas 1:4 *perfectum opus*; words Wikisource lost, Heb 12:26; 1573's Heb 7:28 and 8:14 joined to the KJV's 7:27 and 8:13; 123 layout lines, 131 forms; Hebrews' OT quotations in `\qt`, the psalms, Isaiah and Jer 31 as verse where the BSB sets them; the subscription as `\cls`; Jas 5:3's L. … G. marks dropped as Matt 19:4) settled in `text/HEB|JAS.usfm`, with the title lines as proposed (Hebrews without Paul's name, as 1573) and the KJV book order. With it: 23 spelling rules under decisions 37 and 42. Your in-depth review follows decision 30. |
 | 48 | 2026-11-12 | **1 Peter–Jude approved for now.** Stages 1–5 (86 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording, 1 John most of all: *caritas → amor*, *quod → quia*, *corporatum*, *in nomen credere*; 1 John 5:7–8 with 1573's parentheses; 2 Pet 1:17–18 in 1573's order; Jude 6 *Dei* and 1 John 4:4 *nobis* kept with 1573 and 1556; 3 John's verse 15 joined to 14; 102 layout lines, 111 forms; 1 Peter's OT quotations in `\qt`, Isa 40, Ps 34, Ps 118 and Proverbs as verse; Jude 9 and 15 quoted without `\qt`) settled in `text/1PE|2PE|1JN|2JN|3JN|JUD.usfm`, with the title lines as proposed (as 1573 heads them). With it: 11 spelling rules under decisions 37, 42 and 46 (*Gomorra*). Your in-depth review follows decision 30. |
 | 49 | 2026-11-12 | **Revelation approved for now; the New Testament complete.** Stages 1–5 (74 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: 16:5 *sanctus*, 19:8, 20:4 *animas … eae*, 22:11 *nocentior fiat*; 3:1, missing in Wikisource, entered from 1573; 7:5's tribe of Gad, 5:11 and 21:21 restored; chapter 10 split at the KJV's 10:2; 186 layout lines, 222 forms; Christ's speech 1:17–3:22 as one quotation, the hymns as verse where the BSB sets them) settled in `text/REV.usfm`, with the title line as proposed (as 1573 heads it), *Agnus* capital and *α et ω* in Greek letters. With it: 31 spelling rules under decisions 17, 37, 42 and 46. Open: John 1:29, 1:36 *agnus*; crediting 1573 for 3:1. Your in-depth review follows decision 30. |
+| 50 | 2026-11-12 | **Open questions after the New Testament** (`data/review/open-questions-nt.md`): John 1:29, 1:36 *Agnus* capital, as Revelation (decision 20); no special credit for Rev 3:1; *quidquam*/*quidquid* kept (Gaffiot); **chapter summaries left out, reversing decision 3**; tag v2.0 now; collate Genesis 1–27 against 1738; you add a redirect from WordPress. |
 
 ## How to run
 

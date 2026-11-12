@@ -155,7 +155,7 @@ Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7
 - **Poetry:** BSB `\q1`/`\q2` lines and indents carry over directly as USFM `\q1`/`\q2`, calibrated against your finished chapters. Line breaks *inside* a Latin verse are placed by Claude at the matching clause.
 - **Quotations:** BSB/WEB quotation spans tell us *who speaks where*. Claude then places “…” around direct speech and ‘…’ around quotes within it, respecting *inquit* insertions. Reported discourse is left unmarked (§8, decision 4).
 - **Italic Old Testament quotations** (`\qt …\qt*`, formerly your `\emph{}`) come from the BSB cross-reference and quotation markup plus the Vulgate.
-- **Chapter summaries** (verse 0) become `\cd` lines, normalized and macronized like the text.
+- **Chapter summaries** (verse 0) are left out (decision 50, reversing decision 3).
 - The output is the chapter's USFM.
 
 ### Stage 6: Review (where your time goes)
@@ -280,7 +280,7 @@ Ideas Nathan has raised. None is started; each needs a decision on scope before 
 
 1. **Base edition:** the editions Wikisource follows (1760 NT, 1738 OT). *The NT part was replaced on 2026-11-06 (HUMAN.md decision 15): the NT base was Castellio's 1556 edition, with Wikisource as the working text. Later the same day (decision 24) it moved to the posthumous 1573 Basel edition (Perna, “from his last revision”; MDZ bsb10141277), the 1556 text revised further; 1556 stays the reference, its differing readings recorded as variants.* Other printings' differing readings are recorded as variants. Wording in the finished chapters (from 1726–27) that differs is proposed for review, never changed automatically.
 2. **Apocrypha:** in scope, after the 66 books (M7); placement decided then.
-3. **Chapter summaries:** included, as small italic headings under each chapter number, normalized and macronized like the text.
+3. **Chapter summaries:** included, as small italic headings under each chapter number, normalized and macronized like the text. *Reversed 2026-11-12 (decision 50): left out.*
 4. **Quotation marks:** “…” for direct speech, ‘…’ only for quotes within it; reported discourse unmarked. About 33 reported passages in the finished chapters lose their ‘…’ (proposed for review).
 5. **Versification:** KJV everywhere, with mappings recorded; Psalm titles unnumbered above verse 1.
 6. **Review:** every change reviewed during the Matthew 14–28 pilot; the auto-apply policy (A1 macrons, two-witness corrections, approved spelling rules, 1-in-10 full read) starts once the measured error rate is acceptable.

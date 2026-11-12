@@ -19,8 +19,8 @@ them are dated in `HUMAN.md` § Decided.
 - **Later-edition vocabulary**: the ecclesiastical terms of the later editions are kept (*baptīzō*, *angelus*), as
   the README says.
 - No marginal notes or commentary.
-- **Chapter summaries** (the editions' *argumenta*) are printed as a small italic heading under each chapter
-  number, normalized and macronized like the text. They are stored as verse 0 (`Matt.14.0`).
+- **Chapter summaries** (the editions' *argumenta*) are **not printed** (decision 50, 2026-11-12, reversing decision 3).
+  The witnesses keep them as verse 0 (`Matt.14.0`); the builds still understand `\cd` should that change.
 - **Apocrypha**: in scope, but after the 66 books (milestone M7). Placement is decided then.
 
 ## Orthography: Gaffiot 2016
@@ -52,7 +52,6 @@ them are dated in `HUMAN.md` § Decided.
 Written in the USFM master (markers listed in PLAN.md §3); every output renders them the same way.
 
 - Paragraphs (`\p`) with superscript verse numbers (`\v`).
-- Chapter summaries as a small italic heading under the chapter number (`\cd`).
 - Poetry, including quoted Scripture set as verse, as indented lines (`\q1`, `\q2`, `\q3`).
 - Quotations of earlier Scripture in italics (`\qt …\qt*`).
 - **Quotation marks**: “…” for direct speech; ‘…’ only for quotes within direct speech.
