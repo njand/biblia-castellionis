@@ -2,6 +2,14 @@
 
 ## Now
 
+- **Hebrews and James are settled** (2026-11-12; decision 47): approved by you "for now", in `text/HEB.usfm` (303
+  verses) and `JAS.usfm` (108), every chapter at the KJV count; gold rebuilt, drafts and previews removed
+  (`text/draft/` is gone). Record: `data/review/hebjas-stages3-5.md` (start here), `heb1-7-stage2.md`,
+  `heb8-13-stage2.md`, `jas1-5-stage2.md`, `-chNN.md`, `data/decisions/{Heb,Jas}.*.tsv`; the 1573/1556 differences in
+  `docs/editions.md`. Taken as proposed: the title lines (`\mt1` *Epistola // ad Hebræōs* without Paul's name, as 1573;
+  *Jācōbī Apostolī // Epistola*); the KJV book order (1573 puts Hebrews after Jude); Heb 1:8 *ō Dīve* capital; Heb
+  12:29 unquoted; Jas 5:3's *L. Pœnam G.* marks dropped; Heb 7:5 *ducentes* and 11:4 *mortuus* kept against 1573.
+  Not yet in a release or on the site. Nothing committed.
 - **One form of a name in both Testaments** (2026-11-11; decision 46, on your revisit of *Hagar*/*Agar*): Gal
   4:24–25 *Hagar* (as Genesis; Paul's Greek Ἁγάρ, the BSB, WEB, NRSV, ESV, NIV), Matt 24:37–38 *Nōæ*, *Nōa* (as
   Genesis and Luke); gold rebuilt for Gal and Matt; the rule is in `brief.md` for the books to come (*Elias*, *Esaias*
@@ -271,6 +279,7 @@
 | 44 | 2026-11-11 | **1–2 Thessalonians, 1–2 Timothy, Titus, Philemon approved for now.** Stages 1–5 (112 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: *favor → gratia*, 1 Tim 3:16 *in carne*, Titus 3:10 *Sectarium*; words moved to the KJV's verse boundaries at 1 Thess 5:16–18, 1 Tim 1:3–4 and 4:12–13, Titus 3:5–6; 72 layout lines, 366 forms; 1 Tim 3:16 and 2 Tim 2:11–13 as verse; *Servātor* capital throughout; the subscriptions as `\cls`; 2 Tim 3:4's L. … G. marks dropped as Matt 19:4) settled in `text/1TH|2TH|1TI|2TI|TIT|PHM.usfm`. With it: 25 spelling rules (decision 37's *ad-*, *tempt-*, *intelleg-*; *neglegō*, *exstinguō*, *Silvānus*, *adjūtor*). Paul's letters are complete. Your in-depth review follows decision 30. |
 | 45 | 2026-11-11 | **The open questions from Galatians–Philemon, as recommended** (`data/review/open-questions-paul.md`, all accepted, applied): the 11 settled-text slips (1 Cor *līber* ×5, Matt 13:46 *comparet*, Luke 7:5 *īdemque*, Acts 21:8 *Ēvangelistæ*, Luke 1:47 *Servātōre*, Rom 10:6 *dīxerīs*, Matt 12:26 *Satanam*); *Abrāhām-* and *Isaac-* throughout (your Gospels' 13 + 5 brought to the majority, 159 : 13 and 85 : 5); *Euodia* (1573, Gaffiot, as every *Eu-* name); *pænula* (Gaffiot, decision 42). Kept: *Hagar* in Genesis and *Agar* in Galatians, as 1573 prints them; *Grātiam* capital only where the greeting opens its verse; *Servātor* capital everywhere; the Spirit capital where set against flesh or acting; L. … G. marks dropped (2 Tim 3:4, as Matt 19:4); *Epistola prior / posterior*. Tools: paragraphs relaid after versification, crops of carried-over lines, the quotation check in `propose`. |
 | 46 | 2026-11-11 | **One form per person in both Testaments, the Old Testament's.** Modern translations use one form (BSB, WEB, NRSV, ESV, NIV *Hagar* in Galatians; only the KJV keeps the Greek forms); Paul's Greek has Ἁγάρ; decision 37 already spelled names one way across books. Applied: Gal 4:24–25 *Agar* → *Hagar*, Matt 24:37–38 *Nōē* → *Nōæ*, *Nōa* (`data/review/names-one-form.md`); `brief.md` (Proper names) has the rule. Replaces decision 45's *Hagar*/*Agar* point. |
+| 47 | 2026-11-12 | **Hebrews and James approved for now.** Stages 1–5 (79 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: Heb 2:16 *Abrahami semen assumpsit*, *sacrarium → sanctuarium*, Jas 1:4 *perfectum opus*; words Wikisource lost, Heb 12:26; 1573's Heb 7:28 and 8:14 joined to the KJV's 7:27 and 8:13; 123 layout lines, 131 forms; Hebrews' OT quotations in `\qt`, the psalms, Isaiah and Jer 31 as verse where the BSB sets them; the subscription as `\cls`; Jas 5:3's L. … G. marks dropped as Matt 19:4) settled in `text/HEB|JAS.usfm`, with the title lines as proposed (Hebrews without Paul's name, as 1573) and the KJV book order. With it: 23 spelling rules under decisions 37 and 42. Your in-depth review follows decision 30. |
 
 ## How to run
 

@@ -196,6 +196,34 @@ corpore*), often with 1715, 1747 and 1750; 1758, 1681 and 1726–27 follow 1573.
   them. As at Matt 19:4, the marks go and the words stay.
 - **Subscriptions** set in italics apart after each letter, as after the earlier epistles.
 
+### Hebrews and James in 1573 against 1556 and Wikisource (stage 2, 2026-11-12)
+
+Every place where Wikisource differs from 1573 was read on the 1573 page image (`data/review/heb1-7-stage2.md`,
+`heb8-13-stage2.md`, `jas1-5-stage2.md`; 79 corrections). **In 1573 Hebrews stands after Jude** (canvases 929–937, the
+last of the letters); James follows Philemon (canvases 916–919). Wikisource again prints the early wording, often with
+1715, 1747 and 1750; 1758, 1681 and 1726–27 follow 1573.
+- **1573's own changes against 1556** (recorded as variants; the text follows 1573; 1556 from its OCR): Heb 1:13 *ad
+  dexteram meam* (*ad meam dexteram*), 2:18 *dum tentaretur, potest, qui tentantur subvenire* (*periclitando, potest
+  periclitantibus*), 3:8, 3:15, 4:7 *indurare corda vestra* (*mentes obfirmare vestras*), 4:10 *in ejus requietem* (*in
+  Dei requiete*), 5:6 *in aeternum* (*in perpetuum*), 5:7 *pro sua religione* (*pietate*), 7:2 *rex interpretatur*
+  (*regem sonat*), 7:25 *adeunt* (*adeant*); *sanctuarium* for *sacrarium* at 9:1, 9:8, 9:12, 9:24 (twice), 9:25, 10:19,
+  13:11, and 9:3 *quod sanctissimum sanctuarium appellatur, aureum habens thuribulum* (*quod sacrarium sanctius
+  appellatur, auream habens aram suffitoriam*); 11:3 *ex non extantibus* (*ex ijs quae non extabant*, which 1573's own
+  annotation still quotes); 11:23 *quod … veriti non fuerunt* (*qui … veriti non sint*); 12:1 *onere, ambitiosoque*
+  (*fastu, tenacique*). Jas 1:4 *perfectum opus* (*perfectam actionem*), 2:13 *pietatem … pietas* (*misericordiam …
+  misericordia*), 2:22 *adjuverit* (*adiuuaret*), 3:17 *pietate* (*misericordia*). Several of the Hebrews changes match
+  the Clementine Vulgate (*obdurare corda vestra*, *qui tentantur*, *in aeternum*, *interpretatur rex justitiae*), yet
+  1573 prints no *L.* … *G.* marks there: whether Castellio or Perna's editor made them cannot be told from the print.
+- **1573's misprints kept out**: Heb 7:5 no *ducentes* (*qui à Leui genus ſacerdotium ineunt*, canvas 932; the clause
+  needs it; 1556 and the early line have it, 1758 and 1726–27 follow 1573 without it); 11:4 *mortuis adhuc loquitur*
+  (1556 and every other printing *mortuus*).
+- **Verse numbers**: 1573 numbers Heb 7:28 at *Hoc enim semel fecit* (so its 7:29 is the KJV's 7:28) and 8:14 at *Quod
+  autem antiquatur*; the KJV's numbering is kept (`data/versification/Heb.draft.edits.tsv`). Jas 4:11: 1573's verse 10
+  runs on to *Nolite alius alii detrahere*, and neither 1573 nor 1556 has the early line's *Fratres* there.
+- **Castellio's L. … G. marks** at Jas 5:3 (*L. Pœnam G. vobis congessistis*), in 1573, 1556 and 1681; 1758, 1715,
+  1747, 1750 and 1726–27 drop them. As at Matt 19:4, the marks go and the word stays.
+- **Subscription** after Hebrews: *Missa ex Italia per Timotheum.* in italics under 13:25.
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.

@@ -1,0 +1,188 @@
+id	kind	sort	text	readings	support	context
+Jas.1.23	uncovered	base	53% of the words			
+Jas.3.16	uncovered	base	58% of the words			
+Jas.4.10	uncovered	base	50% of the words			
+Jas.1.1	base-only	reading	Jesu	1573: lesu	1758,1750,1726,ws	Jacobus Dei et Domini ⟦Jesu⟧ Christi servus duodecim tribubus ultro
+Jas.1.1	base-only	division	tribubus	1573: tribu bus	1758,1750,1726,ws	Domini Jesu Christi servus duodecim ⟦tribubus⟧ ultro citroque dispersis salutem
+Jas.1.1	base-only	reading	citroque	1573: citroqs	1758,1750,1726,ws	Christi servus duodecim tribubus ultro ⟦citroque⟧ dispersis salutem
+Jas.1.2	correct	reading	existimare	1573,1758,1750: existimate	ws	Summopere gaudendum ⟦existimare⟧ fratres mei quum in varias
+Jas.1.2	correct	reading	incidistis	1573,1758: inciditis | 1556: in cíditis | 1750: incidiflis	ws	fratres mei quum in varias ⟦incidistis⟧ periclitationes
+Jas.1.3	base-only	spelling	vestrae exploratione	1573: vestre explo ratione	1750,ws	Intelligentes fidei ⟦vestrae exploratione⟧ patientiam gigni
+Jas.1.4	correct	reading	perfectam actionem	1573,1758: perfectum opus	1556,1750,ws	Patientia autem ⟦perfectam actionem⟧ habeat ut perfecti integrique nulla
+Jas.1.4	base-only	reading	perfecti	1573: perfeEti	1556,1758,1750,ws	autem perfectam actionem habeat ut ⟦perfecti⟧ integrique nulla re careatis
+Jas.1.5	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ quis vestrum sapientia caret postulet
+Jas.1.6	base-only	reading	et	1573: ac	1715,1750,ws	est fluctui maris ventis acto ⟦et⟧ excito
+Jas.1.9	base-only	division	Glorietur autem	1573: Glorieturautem	1556,1758,1715,1747,1750,1726,ws	⟦Glorietur autem⟧ frater humilis in sublimitate sua
+Jas.1.12	base-only	reading	tentationem	1573: tétationem | 1747: tenta Patientia autem perfe tionem	1758,1750,1726,ws	Felix homo qui ⟦tentationem⟧ sustinet approbatus enim vitae coronam
+Jas.1.13	base-only	division	Nemo dum	1573: Nemodum | 1556: INemo	1758,1681,1715,1747,1750,1726,ws	⟦Nemo dum⟧ tentatur dicat a Deo tentari
+Jas.1.13	others-1573-agrees	division	dicat	1747: dinec exprobrat et ei dona cat | 1750,1726: di cat	1573,1556,1758,1715,ws	Nemo dum tentatur ⟦dicat⟧ a Deo tentari se Deus
+Jas.1.13	correct	spelling	umquam	1573,1715,1726: vnquam | 1758: u quam	1750,ws	se Deus enim nec malis ⟦umquam⟧ tentatur nec tentat ipse quemquam
+Jas.1.13	correct	spelling	quemquam	1573,1758,1726: quenquam | 1747: quen Poftulet autem cum fidu quam Sed re ms ini i Áo im ad tO quts Tm or TERES ai Cap	1750,ws	umquam tentatur nec tentat ipse ⟦quemquam⟧
+Jas.1.14	correct	spelling	adlectus	1573,1758,1747: allectus | 1715,1726: alle et tus	1750,ws	Sed a sua quisque cupiditate ⟦adlectus⟧ ac inescatus tentatur
+Jas.1.15	base-only	reading	peccatum	1573: peccatű	1758,1681,1750,1726,ws	Deinde cupiditas conceptum parit ⟦peccatum⟧ peccatum porro perpetratum gignit mortem
+Jas.1.15	others-1573-agrees	division	mortem	1747,1726: mor tem | 1556: morte INolíte | 1681: m tem	1573,1758,1750,ws	peccatum peccatum porro perpetratum gignit ⟦mortem⟧
+Jas.1.16	base-only	reading	carissimi	1573: charissini | 1758,1726: charissimi | 1681: chariflimi	1750,ws	Nolite errare mei fratres ⟦carissimi⟧
+Jas.1.17	base-only	reading	umbra	1573: avmbra | 1747: vn ıbra Prou et	1758,1681,1750,1726,ws	est mutatio aut ulla conversionis ⟦umbra⟧
+Jas.1.18	base-only	reading		1573: et	1758,1750,1726,ws	Is consulto nos genuit ⟦⟧ veritatis oratione ut essemus quaedam
+Jas.1.18	base-only	reading	essemus	1573: ef b Euangesemus | 1750: eflemus	1758,1726,ws	nos genuit veritatis oratione ut ⟦essemus⟧ quaedam quasi primitiae suorum operum
+Jas.1.19	correct	spelling	carissimi	1573,1758,1726: charissimi	1750,ws	Proinde mei fratres ⟦carissimi⟧ esto omnis homo ad audiendum
+Jas.1.19	base-only	reading	homo	1573: hos Prou mo	1758,1681,1747,1750,1726,ws	mei fratres carissimi esto omnis ⟦homo⟧ ad audiendum celer ad loquendum
+Jas.1.21	base-only	reading	excrementisque	1573: excremétisque | 1750: cxcromentisque	1758,1681,ws	Quamobrem fratres omnibus vitiorum sordibus ⟦excrementisque⟧ depositis comiter accipite sativum sermonem
+Jas.1.22	base-only	reading	dumtaxat	1573: taxat	1758,1681,1715,1747,1750,ws	qui sermoni pareatis non eum ⟦dumtaxat⟧ audiatis alioquin vos ipsos decipitis
+Jas.1.22	correct	division	vos ipsos	1573,1758: vosipsos	1715,1747,ws	non eum dumtaxat audiatis alioquin ⟦vos ipsos⟧ decipitis
+Jas.1.23	base-only	reading	Nam	1573: Na	1758,1715,1747,1750,1726,ws	⟦Nam⟧ si quis sermonem audit nec
+Jas.1.23	base-only	f/s	si	1573: fi	ws	Nam ⟦si⟧ quis sermonem audit nec exsequitur
+Jas.1.23	base-only	reading	sermonem	1573: fermone	1758,1715,1747,1750,1726,ws	Nam si quis ⟦sermonem⟧ audit nec exsequitur is perinde
+Jas.1.23	correct	spelling	exsequitur	1573,1758,1715,1747,1726: exequitur	1750,ws	si quis sermonem audit nec ⟦exsequitur⟧ is perinde est ac si
+Jas.1.23	base-only	reading	perinde est ac si quis	1573: perindeestacsigs	1758,1747,1750,1726,ws	sermonem audit nec exsequitur is ⟦perinde est ac si quis⟧ corporis sui faciem contempletur in
+Jas.1.23	base-only	reading	contempletur	1573: contépletur | 1747: contem pletur	1556,1758,1715,1750,1726,ws	si quis corporis sui faciem ⟦contempletur⟧ in speculo
+Jas.1.24	others-1573-agrees	reading	seipsum	1715,1747: 	1573,1758,1750,1726,ws	Deinde ⟦seipsum⟧ speculatus abeat ac protinus qualis
+Jas.1.25	base-only	reading		1573: e quælibe	1750,1726,ws	in perfectam libertatis legem penitus ⟦⟧ introspexerit et in ea manserit
+Jas.1.25	base-only	reading	non	1573: no	1758,1715,1750,1726,ws	in ea manserit is qui ⟦non⟧ sit obliviosus auditor sed operis
+Jas.1.25	base-only	f/s	sit	1573: fit	ws	ea manserit is qui non ⟦sit⟧ obliviosus auditor sed operis effector
+Jas.1.25	base-only	reading		1573: tos facit	1758,1715,1750,1726,ws	is qui non sit obliviosus ⟦⟧ auditor sed operis effector suo
+Jas.1.26	base-only	f/s	suam	1573: fuam	ws	apud vos neque tamen linguam ⟦suam⟧ frenat sed animum suum fallit
+Jas.1.26	others-1573-agrees	spelling	vana est religio	1750,1681: vanaeftreligio	1573,1556,1715,1747,1726,ws	sed animum suum fallit hujus ⟦vana est religio⟧
+Jas.1.27	base-only	division	haec est	1573: hæcest | 1715: hzc cft	1758,1747,1750,1726,ws	impolluta apud Deum et patrem ⟦haec est⟧ curam gerere pupillorum et viduarum
+Jas.1.27	correct	edge	mundo	1573,1726: 	1758,1681,1715,1747,1750,ws	et intaminatum se custodire a ⟦mundo⟧
+Jas.2.2	base-only	f/s	si	1573: fi	ws	Nam ⟦si⟧ quis aureos gestans annulos in
+Jas.2.3	base-only	reading	vestem	1573: vestein | 1681: veftcm | 1750: veflem	1758,1715,1747,1726,ws	Et vos in eum qui ⟦vestem⟧ gestat splendidam intueamini eique dicatis
+Jas.2.3	base-only	reading	splendidam	1573: splédidam	1758,1681,1715,1747,1750,1726,ws	in eum qui vestem gestat ⟦splendidam⟧ intueamini eique dicatis tu sede
+Jas.2.3	base-only	reading	sede	1573: tede	1758,1681,1715,1750,1726,ws	splendidam intueamini eique dicatis tu ⟦sede⟧ hic pulchre pauperi autem dicatis
+Jas.2.3	base-only	reading	meo	1573: imeo	1758,1715,1747,1750,1726,ws	istic sta aut hic sub ⟦meo⟧ subsellio sede
+Jas.2.4	base-only	reading		1573: a	1758,1715,1747,1750,1726,ws	Nonne ⟦⟧ discrimen apud vos fecistis et
+Jas.2.4	base-only	reading	cogitantes	1573: cogi rationem ha tantes | 1758: ex N ygitantes	1715,1750,1726,ws	apud vos fecistis et male ⟦cogitantes⟧ judices fuistis
+Jas.2.5	correct	spelling	carissimi	1573,1726: charissimi | 1758: charisermo ni | 1681: charuTimi | 1715: chariffimi poteft eum fervare fides	1750,ws	Audite mei fratres ⟦carissimi⟧ nonne Deus elegit hujus mundi
+Jas.2.6	base-only	division	divites	1573: diui tes | 1758: dites	1681,1715,1750,1726,ws	vos pauperem despicatui habetis Nonne ⟦divites⟧ vobis imperant et iidem vos
+Jas.2.8	correct	division	Siquidem	1573,1726: Si quidem	1750,ws	⟦Siquidem⟧ legi paretis regiae quae sic
+Jas.2.8	base-only	spelling	regiae quae	1573: regię quę	1758,1750,ws	Siquidem legi paretis ⟦regiae quae⟧ sic litteris est prodita alterum
+Jas.2.9	base-only	reading		1573: Mar	1681,1750,1726,ws	personis indulgetis peccatum committitis et ⟦⟧ a lege ut qui contra
+Jas.2.10	base-only	division	observet	1573: obser uet	1758,1681,1750,1726,ws	enim quamvis alioquin totam legem ⟦observet⟧ tamen in uno delinquit is
+Jas.2.11	base-only	division	occidito	1573: occi dito	1758,1681,1750,1726,ws	ne adulterato idem dixit ne ⟦occidito⟧ Quod si non adulteras sed
+Jas.2.11	base-only	f/s	si	1573: fi	ws	idem dixit ne occidito Quod ⟦si⟧ non adulteras sed occidis contra
+Jas.2.12	base-only	reading	Sic loquimini	1573: Sicloqmini	1681,1750,ws	⟦Sic loquimini⟧ et sic agite ut libertatis
+Jas.2.12	base-only	reading	judicandi	1573: iudicádi	1556,1758,1750,ws	sic agite ut libertatis lege ⟦judicandi⟧
+Jas.2.13	base-only	reading	judicio	1573: biudicio	1758,1681,1750,ws	pietatem non exercuerit at pietas ⟦judicio⟧ insultat
+Jas.2.14	base-only	f/s	si	1573: fi	ws	Quae est utilitas mei fratres ⟦si⟧ quis se fidem habere dicat
+Jas.2.14	base-only	reading	habere	1573: ha non metuit bere | 1747: habe f catui habetis nonne diui re	1758,1750,1726,ws	fratres si quis se fidem ⟦habere⟧ dicat et opera non habeat
+Jas.2.14	base-only	reading	servare fides	1573: fer vtpote inno | 1750: fervarefides Sifraterautforor nu di | 1747: fer d vos in ius trahunt uarefides Matth LCor	1758,1726,ws	non habeat Num potest eum ⟦servare fides⟧
+Jas.2.15	base-only	f/s	soror	1573: foror	ws	Si frater aut ⟦soror⟧ nudi sint quotidianoque alimento destituti
+Jas.2.15	base-only	reading	alimento	1573: ali pænas mento | 1681: v ento	1758,1750,1726,ws	aut soror nudi sint quotidianoque ⟦alimento⟧ destituti
+Jas.2.16	base-only	reading	calefierique	1573: caleficrique | 1758: calefieriq | 1747: caleNerique	1750,1726,ws	aliquis bona cum pace abire ⟦calefierique⟧ et satiari jubeat nec eis
+Jas.2.16	base-only	spelling	quae	1573: que	1758,1747,1750,1726,ws	satiari jubeat nec eis detis ⟦quae⟧ corpus requirit quid prodest
+Jas.2.17	base-only	f/s	sit	1573: fit	ws	si opera non habeat mortua ⟦sit⟧
+Jas.2.18	base-only	reading	ostendam	1573: oftendaın | 1681: dam TuDeum	1758,1715,1747,1750,1726,ws	ex meis operibus fidem meam ⟦ostendam⟧
+Jas.2.19	correct	reading	credit	1573,1747: credis	ws	Tu Deum unum esse ⟦credit⟧ recte facis et daemones credunt
+Jas.2.19	base-only	spelling	daemones	1573: dæ mones	1758,1747,1750,ws	esse credit recte facis et ⟦daemones⟧ credunt atque horrent
+Jas.2.20	base-only	division	Vis autem	1573: Visautem	1681,1715,1747,1750,ws	⟦Vis autem⟧ intelligere o homo vane fidem
+Jas.2.20	base-only	f/s	sine	1573: fine	ws	intelligere o homo vane fidem ⟦sine⟧ operibus mortuam esse
+Jas.2.21	base-only	reading		1573: IACOBI EPISTOLA	1556,1715,1750,ws	parens ille noster nonne operibus ⟦⟧ factus est justus Isaaco filio
+Jas.2.22	base-only	reading	adjuvaret	1573: adiuuerit | 1758: adjuyerit	1556,1715,1747,1750,ws	Vides ut fides ejus opera ⟦adjuvaret⟧ utque operibus fides perfecta sit
+Jas.2.22	correct	reading	sit	1573,1758: fuerit	1715,1747,1750,ws	adjuvaret utque operibus fides perfecta ⟦sit⟧
+Jas.2.23	correct	reading	se	1573,1758: 	1715,1747,1750,ws	est scriptum illud quod sic ⟦se⟧ habet credidit Abrahamus Deo idque
+Jas.2.23	base-only	reading	idque	1573: idqs | 1681: GetJ if c	1758,1715,1747,1750,ws	se habet credidit Abrahamus Deo ⟦idque⟧ ei justitiae ductum est et
+Jas.2.23	base-only	reading	justitiae ductum	1573: iuftitię du étum	1758,ws	credidit Abrahamus Deo idque ei ⟦justitiae ductum⟧ est et Dei amicus est
+Jas.2.23	others	reading	ductum	1747: du et tum | 1750: du et um	1556,1758,1715,ws	Abrahamus Deo idque ei justitiae ⟦ductum⟧ est et Dei amicus est
+Jas.2.24	base-only	edge	non solum fide Itidem	1573: Itideın	1758,1715,1726,ws	justum reddi hominem ⟦non solum fide Itidem⟧ Rachaba meretrix nonne operibus justificata
+Jas.2.25	base-only	reading	Itidem	1573: Itideın	1556,1758,1681,1715,1747,1750,1726,ws	⟦Itidem⟧ Rachaba meretrix nonne operibus justificata
+Jas.2.25	base-only	division	justificata	1573: iufti ficata | 1556: íu x ftíficata | 1715: juíftificata	1758,1681,1747,1750,1726,ws	Itidem Rachaba meretrix nonne operibus ⟦justificata⟧ est admissis nuntiis et alia
+Jas.2.26	base-only	division	fides	1573: fi des	1556,1681,1715,1747,1750,1726,ws	absque spiritu mortuum est ita ⟦fides⟧ sine operibus mortua est
+Jas.3.1	others-1573-agrees	reading	esse	1681,1747: efle	1573,1556,1758,1715,1750,ws	Nolite multi ⟦esse⟧ magistri fratres mei scientes nos
+Jas.3.1	base-only	reading		1573: a	1758,1715,1747,1750,ws	esse magistri fratres mei scientes ⟦⟧ nos esse graviores poenas daturos
+Jas.3.1	correct	reading		1573,1556,1758: grauiores	1715,1747,ws	magistri fratres mei scientes nos ⟦⟧ esse graviores poenas daturos
+Jas.3.1	correct	reading	graviores	1573,1556,1758: 	1681,1715,1747,1750,ws	fratres mei scientes nos esse ⟦graviores⟧ poenas daturos
+Jas.3.2	base-only	reading	non	1573: no	1758,1681,1715,1750,ws	omnes Si quis in verbis ⟦non⟧ delinquit is perfectus homo est
+Jas.3.3	base-only	edge		1573: De lingua	1556,1758,1750,ws	possit etiam totum frenare corpus ⟦⟧ Frenos quidem equorum oribus adhibemus
+Jas.3.3	correct	reading	parcant	1573,1556,1681,1715,1747,1750: pareant | 1758: reant	ws	equorum oribus adhibemus ut nobis ⟦parcant⟧ eorumque totum corpus agimus
+Jas.3.4	base-only	spelling	impulsae	1573: impulse | 1715: impulfz	1758,1747,1750,ws	Itemque tantae naves tam vehementibus ⟦impulsae⟧ ventis tantulo gubernaculo quocumque vult
+Jas.3.4	correct	spelling	quocumque	1573,1758,1715,1747: quocunque | 1556: quocung	1750,ws	vehementibus impulsae ventis tantulo gubernaculo ⟦quocumque⟧ vult gubernatoris impetus aguntur
+Jas.3.5	correct	spelling	virres	1573,1556,1758,1681: vires	ws	quae parvum membrum est magnas ⟦virres⟧ habet En quantulus ignis quantam
+Jas.3.6	base-only	reading	scelerum	1573: scelerumb	1758,1681,1750,ws	Et lingua ignis est ⟦scelerum⟧ mundus Sic se habet in
+Jas.3.6	base-only	reading	habet	1573: hatter we fi di bet	1758,ws	est scelerum mundus Sic se ⟦habet⟧ in nostris membris lingua totum
+Jas.3.6	others	division	habet in	1747,1750: habetin	1758,ws	est scelerum mundus Sic se ⟦habet in⟧ nostris membris lingua totum corpus
+Jas.3.6	base-only	reading	contaminans	1573: contarmare fcele minans	1758,1681,1747,1750,ws	nostris membris lingua totum corpus ⟦contaminans⟧ et aevi cursum inflammans et
+Jas.3.6	others	reading	ipsa a geenna	1681,1747: ipia gehenna	ws	et aevi cursum inflammans et ⟦ipsa a geenna⟧ inflammanda
+Jas.3.6	base-only	reading	geenna	1573: Gehenrum Oceanus na | 1758: enna	ws	cursum inflammans et ipsa a ⟦geenna⟧ inflammanda
+Jas.3.7	base-only	reading	ferarum	1573: feraruin | 1556: fera rum	1758,1681,1715,1747,1750,ws	Omnis enim et ⟦ferarum⟧ natura et volucrum serpentumque et
+Jas.3.9	correct	spelling	exsecramur	1573,1758: execramur	1747,1750,ws	et patrem collaudamus eadem homines ⟦exsecramur⟧ ad Dei similitudinem factos
+Jas.3.10	base-only	spelling	exsecratione	1573: execra tione | 1758: execralone | 1715: execratione	1747,1750,ws	ex eodem ore laudatione et ⟦exsecratione⟧ Non decet mei fratres haec
+Jas.3.11	base-only	edge		1573: It	1556,1758,1681,1715,1747,1750,1726,ws	mei fratres haec ita fieri ⟦⟧ Num fons ex eodem foramine
+Jas.3.11	base-only	reading	manat	1573: inanat	1556,1758,1681,1715,1747,1750,1726,ws	ex eodem foramine dulci aqua ⟦manat⟧ et amara
+Jas.3.12	correct	division	Potestne	1573,1715,1747,1726: Poteft ne | 1750: Poteflne	1758,1681,ws	⟦Potestne⟧ mei fratres aut ficus oleas
+Jas.3.14	base-only	division	Quod si amaram	1573: Quodfiamaram	1758,1726,ws	⟦Quod si amaram⟧ invidiam et simultatem habetis in
+Jas.3.14	base-only	reading		1573: et | 1556: c	1758,1715,1747,ws	in animo nolite contra verum ⟦⟧ jactare vos atque mentiri
+Jas.3.14	others-1573-agrees	reading	jactare	1750: ia et are | 1726: ja et tare	1573,1556,1758,1715,1747,ws	in animo nolite contra verum ⟦jactare⟧ vos atque mentiri
+Jas.3.14	base-only	reading		1573: c ita loqui	1715,1750,1726,ws	contra verum jactare vos atque ⟦⟧ mentiri
+Jas.3.15	base-only	reading	proficiscatur	1573: proficifcatis careatis tur	1758,1715,1747,1750,1726,ws	est ista sapientia quae superne ⟦proficiscatur⟧ sed terrestris humana daemoniaca
+Jas.3.16	base-only	division	Ubi enim invidia	1573: Vbieniminuidia	1556,1681,1747,1726,ws	⟦Ubi enim invidia⟧ est et simultas ibi est
+Jas.3.16	base-only	reading	inconstantia omnisque	1573: inconstan tia omnisés	1750,1726,ws	est et simultas ibi est ⟦inconstantia omnisque⟧ vitiosa res
+Jas.3.17	base-only	reading	oriens sapientia	1573: oriés sapiétia	1556,1758,1681,1715,ws	At superne ⟦oriens sapientia⟧ primum casta est deinde pacifica
+Jas.4.1	others	reading	et	1681,1715,1750: ex	ws	bella et pugnae nonne hinc ⟦et⟧ vestris libidinibus quae militant in
+Jas.4.1	base-only	reading	et vestris	1573: ex vettris | 1758: ex ve stris | 1747: veris	ws	bella et pugnae nonne hinc ⟦et vestris⟧ libidinibus quae militant in vestris
+Jas.4.2	correct	spelling	adsequi	1573,1758,1715: assequi | 1747: aflequi	1750,ws	obtinetis invidetis et aemulamini nec ⟦adsequi⟧ potestis pugnatis et belligeratis non
+Jas.4.2	base-only	reading	non	1573: nó	1556,1758,1681,1715,1747,1750,ws	adsequi potestis pugnatis et belligeratis ⟦non⟧ obtinetis quoniam non postulatis
+Jas.4.4	others-1573-agrees	edge		1715,1747: Iob et	1573,1556,1758,1750,ws	ut in vestras impendatis libidines ⟦⟧ O degeneres et viri et
+Jas.4.4	correct	reading	amicitias	1573,1556,1758,1681,1715,1747: amicitiam	1750,ws	viri et feminae nescitis mundi ⟦amicitias⟧ Dei esse inimicitias Qui vult
+Jas.4.5	base-only	division	Scilicet	1573: Sci licet	1556,1758,1681,1715,1747,1750,ws	illud inaniter esse litteris proditum ⟦Scilicet⟧ ad invidiam propensus est is
+Jas.4.5	others-1573-agrees	reading	vobis	1715,1747: vos	1573,1758,1750,ws	propensus est is qui in ⟦vobis⟧ habitat spiritus
+Jas.4.6	base-only	reading	ille	1573: ilrou le | 1747: lle	1556,1758,1750,ws	confert beneficium Itaque Deus inquit ⟦ille⟧ et superbis adversatur et modestorum
+Jas.4.7	base-only	edge	vos fugiet	1573: 	1556,1750,ws	resistite diabolo et is ⟦vos fugiet⟧ Accedite Deum et accedet vos
+Jas.4.8	base-only	reading		1573: Zachar	1758,1750,ws	accedet vos Purgate manus o ⟦⟧ improbi et animos lustrate
+Jas.4.9	correct	spelling	adflictate	1573,1758: afflictate | 1747: aflli et ate	1750,ws	Qui estis animo duplici ⟦adflictate⟧ vos et lugete ac plorate
+Jas.4.10	correct	reading	Submittite	1573,1758: Sumittite | 1681: Summittitc | 1747: Mattb s ro Summittite	1750,ws	⟦Submittite⟧ vos Domino et vos evehet
+Jas.4.10	base-only	reading	Domino	1573: Dño	1556,1758,1681,1747,1750,ws	Submittite vos ⟦Domino⟧ et vos evehet
+Jas.4.10	base-only	edge	evehet Fratres	1573: euchet	1715,1750,ws	Submittite vos Domino et vos ⟦evehet Fratres⟧ nolite alius alii detrahere qui
+Jas.4.11	base-only	reading	alius alii	1573: aliusa Petr lij	1556,1758,1681,1750,ws	Fratres nolite ⟦alius alii⟧ detrahere qui fratri detrahit fratremque
+Jas.4.11	base-only	reading	fratremque suum damnat	1573: fratréque suuin dánat	1758,1715,1747,1750,ws	alii detrahere qui fratri detrahit ⟦fratremque suum damnat⟧ legi detrahit legemque damnat Quod
+Jas.4.11	base-only	reading		1573: condemnator	1556,1681,1715,1747,1750,ws	damnat legi detrahit legemque damnat ⟦⟧ Quod si legem damnas non
+Jas.4.11	base-only	f/s	si	1573: fi	ws	legi detrahit legemque damnat Quod ⟦si⟧ legem damnas non legis exsecutor
+Jas.4.11	correct	spelling	exsecutor	1573,1556,1715,1747: executor	1750,ws	si legem damnas non legis ⟦exsecutor⟧ es sed condemnator
+Jas.4.11	base-only	edge	condemnator	1573:  | 1681: condemnatcas Gen f Unuseft	1556,1758,1750,ws	non legis exsecutor es sed ⟦condemnator⟧ Unus est legislator atque judex
+Jas.4.12	base-only	division	potest	1573: po test	1556,1758,1681,1715,1750,ws	atque judex qui et servare ⟦potest⟧ et perdere Tu vero quis
+Jas.4.14	base-only	f/s	sit	1573: fit	ws	Quum nesciatis quid ⟦sit⟧ cras futurum Qualis enim est
+Jas.4.14	correct	spelling	paullisper exstat	1573,1758: paulisper extat | 1715: paulifpes extat	1750,ws	vita vestra Vapor est qui ⟦paullisper exstat⟧ deinde evanescit
+Jas.4.15	base-only	division	si vivemus	1573: fiviuemus	1715,1747,1750,1726,ws	debeatis si volet Dominus et ⟦si vivemus⟧ hoc aut illud faciemus
+Jas.4.16	base-only	division	Nunc in	1573: Nuncin	1556,1715,1747,1750,1726,ws	⟦Nunc in⟧ vestris insolentiis vos jactatis Omnis
+Jas.4.16	correct	division	ejusmodi	1573,1747: e iusmodi | 1750: ejus modi	1556,1758,1715,1726,ws	vestris insolentiis vos jactatis Omnis ⟦ejusmodi⟧ jactantia prava est
+Jas.4.17	base-only	reading	qui	1573: q	1556,1758,1726,ws	Ergo ⟦qui⟧ recte facere novit neque facit
+Jas.5.1	base-only	division	miserias	1573: mi serias | 1758: misenas | 1681: miierias	1556,1715,1747,1750,1726,ws	divites plorate ejulantes ob vestras ⟦miserias⟧ vobis eventuras
+Jas.5.3	correct	reading	L	1573,1758,1750,1726: 	1556,ws	carnes ignis in morem consumet ⟦L⟧ poenam G vobis congessistis in
+Jas.5.3	correct	reading	G	1573,1758,1715,1750,1726:  | 1556: Gs	1681,ws	in morem consumet L poenam ⟦G⟧ vobis congessistis in ultimum tempus
+Jas.5.4	base-only	reading	mercenariorum	1573: inercenariorum | 1747: mercenarioi rum	1758,1681,1750,1726,ws	Merces ipsa ⟦mercenariorum⟧ qui vestros messuerunt agros a
+Jas.5.4	base-only	reading	messuerunt	1573: messuerút | 1758: mes suerunt | 1747: mefluerunt i | 1726: mefluerunt	1715,1750,ws	Merces ipsa mercenariorum qui vestros ⟦messuerunt⟧ agros a vobis retenta quiritatur
+Jas.5.4	base-only	reading	retenta	1573: retéta	1758,1715,1750,1726,ws	vestros messuerunt agros a vobis ⟦retenta⟧ quiritatur messorumque querelae in Domini
+Jas.5.5	base-only	reading	lascivistis	1573: lasciuijstis | 1556: lafciufjftis | 1758: lascivüstis | 1715: lafciviítis	1747,1750,1726,ws	Luxuriastis ac ⟦lascivistis⟧ in terris genio indulsistis tamquam
+Jas.5.5	base-only	spelling	indulsistis tamquam	1573: indulfi stis tanquam | 1715: inodulfiftis tanquam | 1750: indulfiftistamquam	ws	ac lascivistis in terris genio ⟦indulsistis tamquam⟧ ad lanienae diem
+Jas.5.5	others	spelling	tamquam	1758,1747: tanquam | 1726: tan quam	ws	lascivistis in terris genio indulsistis ⟦tamquam⟧ ad lanienae diem
+Jas.5.7	base-only	division	Domini adventum	1573: Dominiad uentum	1758,1715,1750,1726,ws	Quamobrem durate fratres usque ad ⟦Domini adventum⟧ Ipse agricola exspectat eximium terrae
+Jas.5.7	correct	spelling	exspectat	1573,1726: expectat | 1715: expectar | 1747: e peétat	1750,ws	ad Domini adventum Ipse agricola ⟦exspectat⟧ eximium terrae fructum et quidem
+Jas.5.7	base-only	reading	fructum	1573: frutum | 1747: fri Cuin | 1750: fru et um	1556,1758,1715,1726,ws	Ipse agricola exspectat eximium terrae ⟦fructum⟧ et quidem in eo durat
+Jas.5.7	base-only	reading	serotinamque	1573: ferotinamás | 1556: ferotínamcyp	1758,1715,1750,1726,ws	in eo durat dum primorem ⟦serotinamque⟧ pluviam accipiat
+Jas.5.9	base-only	reading	damnemini	1573: dannemini | 1556: damnemínf | 1747: di mnemini	1758,1681,1750,ws	adversus alium gemere fratres ne ⟦damnemini⟧ En judex pro foribus adest
+Jas.5.10	base-only	reading	Exemplum	1573: Exempluin	1556,1758,1681,1715,1747,1750,ws	⟦Exemplum⟧ capite fratres mei tolerantiae ac
+Jas.5.11	base-only	edge		1573: ii	1758,1681,1750,ws	qui Domini nomine locuti sunt ⟦⟧ Equidem beatos judicamus eos qui
+Jas.5.11	base-only	reading	patientiam	1573: patiétiam	1758,1681,1715,1747,1750,ws	judicamus eos qui patiuntur Jobi ⟦patientiam⟧ audivistis et quem ei finem
+Jas.5.12	base-only	reading	autem	1573: autein | 1556: auté	1758,1715,1747,1750,ws	In primis ⟦autem⟧ mei fratres ne juratote neque
+Jas.5.12	base-only	spelling	caelum	1573: coœlum	1556,1758,1715,1747,1750,ws	mei fratres ne juratote neque ⟦caelum⟧ neque terram nec aliud ullum
+Jas.5.12	base-only	reading	ullum	1573: vilum | 1715: ulium	1758,1747,1750,ws	caelum neque terram nec aliud ⟦ullum⟧ jusjurandum sed esto ejusmodi sermo
+Jas.5.12	base-only	reading		1573: a	1758,1715,1750,ws	nec aliud ullum jusjurandum sed ⟦⟧ esto ejusmodi sermo vester ut
+Jas.5.12	base-only	reading	ejusmodi	1573: eiufinodi | 1758: ejusmod | 1750: ciusmodi	1715,1747,ws	aliud ullum jusjurandum sed esto ⟦ejusmodi⟧ sermo vester ut etiam sit
+Jas.5.12	base-only	f/s	sit	1573: fit	ws	ejusmodi sermo vester ut etiam ⟦sit⟧ etiam et non non ne
+Jas.5.12	base-only	reading		1573: Mat	1556,1758,1715,1750,ws	etiam sit etiam et non ⟦⟧ non ne in simulationem cadatis
+Jas.5.13	correct	spelling	Adfligitur	1573,1758: Affligitur | 1715: Matth Cor t i Affligitur	1750,ws	⟦Adfligitur⟧ vestrum aliquis supplicet Laetus est
+Jas.5.13	base-only	reading		1573: et vera afir	1758,1715,1750,ws	vestrum aliquis supplicet Laetus est ⟦⟧ quis psallat
+Jas.5.14	base-only	reading	seniores	1573: senio sa negate res	1556,1758,1715,1747,1750,ws	Aegrotat vestrum aliquis advocet ecclesiae ⟦seniores⟧ qui eum in Domini nomine
+Jas.5.14	base-only	reading	eoque	1573: eoqs | 1750: coque	1758,1715,1747,ws	Domini nomine ungant oleo pro ⟦eoque⟧ supplicent
+Jas.5.15	base-only	reading	eumque adlenabit	1573: eúque alleua bit	ws	Et fidei supplicatio laborantem servabit ⟦eumque adlenabit⟧ Dominus et si peccata commiserit
+Jas.5.15	base-only	f/s	si	1573: fi	ws	servabit eumque adlenabit Dominus et ⟦si⟧ peccata commiserit ignoscentur ei
+Jas.5.16	base-only	reading	viri boni precatio	1573: iufti pre catio	1715,1750,ws	ut sanemini Multum valet efficitque ⟦viri boni precatio⟧
+Jas.5.17	base-only	reading		1573: Reg t	1758,1681,1750,ws	iisdem quibus nos obnoxius et ⟦⟧ tamen quum precibus petiiset ne
+Jas.5.17	correct	spelling	petiiset	1573,1758,1750: petijsset | 1715: petiiflet	ws	obnoxius et tamen quum precibus ⟦petiiset⟧ ne plueret non pluit in
+Jas.5.17	base-only	reading		1573: Luc	1556,1758,1681,1747,1750,ws	ne plueret non pluit in ⟦⟧ terram per annos tres et
+Jas.5.17	base-only	f/s	sex	1573: fex	ws	terram per annos tres et ⟦sex⟧ menses
+Jas.5.18	base-only	reading		1573: Reg	1758,1715,1747,1750,ws	precato et caelum dedit imbrem ⟦⟧ et terra suum fructum germinavit
+Jas.5.19	base-only	f/s	si	1573: fi	ws	Fratres ⟦si⟧ quis vestrum a vero aberraverit
+Jas.5.20	base-only	reading	sontem	1573: fontein	1758,1747,1750,ws	Intelligat eum qui ⟦sontem⟧ ab erroris sui via revocaverit
+Jas.5.20	base-only	f/s	sui	1573: fui	ws	eum qui sontem ab erroris ⟦sui⟧ via revocaverit animam ex morte
+Jas.5.20	base-only	division	revocaverit	1573: reuo cauerit	1556,1758,1750,ws	sontem ab erroris sui via ⟦revocaverit⟧ animam ex morte vindicasse multitudinemque
+Jas.5.20	base-only	reading	multitudinemque	1573: multitudinéqs sb in caufe	1758,1750,ws	revocaverit animam ex morte vindicasse ⟦multitudinemque⟧ texisse peccatorum

@@ -1,0 +1,467 @@
+id	kind	sort	text	readings	support	context
+Heb.1.5	uncovered	base	57% of the words			
+Heb.2.16	uncovered	base	29% of the words			
+Heb.6.6	uncovered	base	0% of the words			
+Heb.9.1	uncovered	base	38% of the words			
+Heb.10.21	uncovered	base	33% of the words			
+Heb.11.5	uncovered	base	0% of the words			
+Heb.12.3	uncovered	base	57% of the words			
+Heb.12.29	uncovered	base	50% of the words			
+Heb.13.1	uncovered	base	0% of the words			
+Heb.1.1	correct	reading	adlocutus	1573,1758,1726: alloquutus | 1556: alloquutus po ftrezis | 1747: allocutus Num e | 1750: adlocuY tus	ws	olim Deus majores per vates ⟦adlocutus⟧
+Heb.1.2	correct	reading	adlocutus	1573,1758,1726: alloquutus | 1715: allocutus	1750,ws	Postremis hisce temporibus ⟦adlocutus⟧ est nos per filium quem
+Heb.1.3	base-only	f/s	sit	1573: fit	ws	Qui quum ⟦sit⟧ ejus gloriae splendor et forma
+Heb.1.3	base-only	reading	expressa substantiae feratque	1573: expref sa subitantiæ feratá	1758,1750,1726,ws	ejus gloriae splendor et forma ⟦expressa substantiae feratque⟧ cuncta suo potenti sermone facta
+Heb.1.3	base-only	reading	potenti sermone facta	1573: potentiserinone faEta	1758,1715,ws	expressa substantiae feratque cuncta suo ⟦potenti sermone facta⟧ per semetipsum expiatione peccatorum nostrorum
+Heb.1.5	base-only	reading	enim	1573: eniın	1556,1758,1681,1715,1747,1726,ws	Cui ⟦enim⟧ dixit umquam angelorum filius meus
+Heb.1.5	correct	spelling	umquam	1573,1758,1681,1715,1747,1726: vnquam	1750,ws	Cui enim dixit ⟦umquam⟧ angelorum filius meus es tu
+Heb.1.5	base-only	reading		1573: Reg	1758,1681,1715,1747,1750,1726,ws	dixit umquam angelorum filius meus ⟦⟧ es tu ego hodie genui
+Heb.1.5	base-only	division	genui te Et rursum	1573: genuite Etrurfum	1758,1715,1747,1750,1726,ws	meus es tu ego hodie ⟦genui te Et rursum⟧ Ego ei pater et ipse
+Heb.1.5	base-only	edge	ipse mihi filius erit	1573: 	1758,1726,ws	pater et ⟦ipse mihi filius erit⟧ Item quum in orbem inducit
+Heb.1.6	base-only	reading	eumque	1573: Fuinque	1758,1715,1750,1726,ws	in orbem inducit primogenitum dicit ⟦eumque⟧ adorent omnes divini angeli
+Heb.1.7	others-1573-agrees	division	de angelis	1747,1750: deangelis	1573,1758,1715,1726,ws	Et ⟦de angelis⟧ quidem sic dicit qui angelis
+Heb.1.7	base-only	reading		1573: et	1758,1750,ws	sic dicit qui angelis utitur ⟦⟧ spiritibus et ministris ignea flamma
+Heb.1.8	others-1573-agrees	reading	o	1747,1750: 	1573,1556,1758,1681,ws	Sed de filio solium tuum ⟦o⟧ dive in omnem permanet aeternitatem
+Heb.1.8	base-only	division	permanet	1573: per manet	1758,1681,1715,1747,1750,ws	tuum o dive in omnem ⟦permanet⟧ aeternitatem sceptrum aequitatis sceptrum regni
+Heb.1.8	base-only	reading	regni	1573: re P al gni	1556,1758,1715,1747,1750,ws	permanet aeternitatem sceptrum aequitatis sceptrum ⟦regni⟧ tui est
+Heb.1.9	base-only	reading	quam	1573: quá | 1556: cj	1758,1681,1715,1747,1750,ws	oleo te laetifico potius inunxit ⟦quam⟧ tuos socios
+Heb.1.11	base-only	reading	omnesque tamquam	1573: omnesas tanquam | 1715: o mnesquetranquam	1750,ws	illi quidem peribunt te permanente ⟦omnesque tamquam⟧ indumentum inveterascent
+Heb.1.12	correct	spelling	tamquam	1573,1758,1747,1726: tanquam	1750,ws	Et te ⟦tamquam⟧ amictum eos involvente obsolescent At
+Heb.1.13	correct	spelling	umquam	1573,1556,1758,1715,1747,1726: vnquam	1750,ws	Item cui ⟦umquam⟧ angelorum dixit sede ad meam
+Heb.1.13	correct	reading		1573,1726: dexteram | 1758: exteram	1715,1747,1750,ws	umquam angelorum dixit sede ad ⟦⟧ meam dexteram donec ex tuis
+Heb.1.13	correct	reading	dexteram	1573,1758,1726:  | 1715: dexreram	1556,1747,1750,ws	angelorum dixit sede ad meam ⟦dexteram⟧ donec ex tuis hostibus faciam
+Heb.1.13	base-only	edge	tuorum subsellium	1573: 	1556,1758,1681,1750,1726,ws	tuis hostibus faciam pedum ⟦tuorum subsellium⟧ Nonne sunt omnes procuratores spiritus
+Heb.1.14	base-only	reading		1573: a	1556,1747,1750,1726,ws	Nonne sunt omnes procuratores ⟦⟧ spiritus qui ad ministerium legantur
+Heb.2.2	base-only	reading	contumacia	1573: cótumacia | 1556: cótutnacía | 1747: contuinacia	1758,1750,ws	fuit et omne delictum ac ⟦contumacia⟧ dignas luit poenas
+Heb.2.3	correct	form	audiverant	1573,1758: audierant	1715,1747,1750,ws	eloquendae initio ab iis qui ⟦audiverant⟧ apud nos est confirmata
+Heb.2.6	base-only	reading	memineris	1573: meinineris	1556,1758,1715,1747,ws	quid est homo ut ejus ⟦memineris⟧ quid est homine natus ut
+Heb.2.7	others-1573-agrees	edge		1715,1747: Pf et	1573,1556,1758,1681,1750,ws	homine natus ut eum cures ⟦⟧ Eum paullo angelis minorem fecisti
+Heb.2.7	correct	spelling	paullo	1573,1758: paulò | 1747: paululo	1750,ws	Eum ⟦paullo⟧ angelis minorem fecisti eum gloria
+Heb.2.7	base-only	reading	operibus	1573: operib	1556,1758,1681,1715,1747,1750,ws	gloria et honore coronasti et ⟦operibus⟧ praefecisti manuum tuarum
+Heb.2.7	base-only	reading	manuum tuarum	1573: manuūtuarum	1556,1758,1715,1747,ws	honore coronasti et operibus praefecisti ⟦manuum tuarum⟧
+Heb.2.8	base-only	reading	Nam	1573: Na | 1556: INám vCor x s d	1758,1715,1747,1750,ws	Omnia ejus pedibus subjecisti ⟦Nam⟧ omnia ei subjiciendo nihil reliquit
+Heb.2.8	others-1573-agrees	reading	videmus	1715,1747: vidimus	1573,1556,1758,1750,ws	non ei subjectum Nunc nondum ⟦videmus⟧ ei omnia subjecta
+Heb.2.9	correct	spelling	paullo	1573,1556,1758,1715,1747: paulo	1750,ws	Sed ⟦paullo⟧ angelis minorem factum videmus Jesum
+Heb.2.9	base-only	reading	coronatum	1573: coro natu	1556,1758,1681,1715,1747,1750,ws	necis supplicium gloria et honore ⟦coronatum⟧ ut Dei beneficio pro cunctis
+Heb.2.10	base-only	reading	eorum	1573: eoruin	1556,1758,1715,1747,1750,ws	tot filiis in gloriam ducendis ⟦eorum⟧ salutis auctorem suppliciis perficeret
+Heb.2.10	base-only	spelling	auctorem	1573: authorem | 1715: aucorerh	1747,1750,ws	in gloriam ducendis eorum salutis ⟦auctorem⟧ suppliciis perficeret
+Heb.2.11	correct	spelling	caussam	1573,1758,1747: caufam	1750,ws	sunt ab uno Quam ob ⟦caussam⟧ eum non pudet eos vocare
+Heb.2.12	base-only	reading	medio	1573: me P al dio | 1556: raedio | 1715: IDC us elt ut Mofes in tota ejus dio	1758,1681,1747,1750,ws	nomen tuum meis fratribus in ⟦medio⟧ te coetu collaudans
+Heb.2.13	base-only	reading	confidam	1573: cófidam	1556,1758,1681,1715,1750,ws	Item ego ei ⟦confidam⟧ Item en ego et pueri
+Heb.2.14	base-only	division	ipse	1573: i pse	1556,1758,1715,1747,1750,ws	pueri carnem et sanguinem habeant ⟦ipse⟧ similiter iisdem praeditus fuit ut
+Heb.2.15	correct	division	vitam	1573,1747: vi tam	1758,1681,1750,ws	qui mortis metu per omnem ⟦vitam⟧ servituti erant obnoxii
+Heb.2.17	base-only	reading	similis	1573: simi Phil lis	1556,1758,1747,1750,ws	debuit per omnia fratribus esse ⟦similis⟧ ut misericors fieret fidusque pontifex
+Heb.2.17	base-only	reading	fidusque	1573: fidusós | 1556: fidust	1758,1747,1750,ws	esse similis ut misericors fieret ⟦fidusque⟧ pontifex in rebus divinis quo
+Heb.2.18	correct	reading	periclitando	1573,1758: dum tentaretur | 1556: petíclitando | 1750: pericitando	1747,ws	Quoniam enim passus est ipse ⟦periclitando⟧ potest periclitantibus subvenire
+Heb.2.18	correct	reading	periclitantibus	1573,1758: qui tentantur	1556,1747,1750,ws	passus est ipse periclitando potest ⟦periclitantibus⟧ subvenire
+Heb.3.2	base-only	reading	ejus	1573: cius | 1747: ins	1556,1758,1750,ws	est ut Moses in tota ⟦ejus⟧ domo fidelis erat
+Heb.3.3	correct	spelling	adfectus	1573,1758,1747: affectus	1750,ws	tanto majore quam Moses gloria ⟦adfectus⟧ est quanto majorem habet quam
+Heb.3.6	base-only	reading	confidentiam	1573: cófidentiam | 1715: confidenti Non enim Angelis fed A am	1556,1758,1747,1750,ws	domus sumus nos si modo ⟦confidentiam⟧ et spei gloriationem ad extremum
+Heb.3.6	base-only	reading	firmam retinemus	1573: firinam tenemus	1715,1747,1750,ws	et spei gloriationem ad extremum ⟦firmam retinemus⟧
+Heb.3.8	base-only	reading	mentes obfirmare vestras	1573: indurare corda vestra	ws	Nolite ⟦mentes obfirmare vestras⟧ ut in jurgio die tentationis
+Heb.3.11	correct	reading	mea	1573,1758,1747: meam	ws	Iratus juravi non esse in ⟦mea⟧ requietem ingressuros
+Heb.3.11	base-only	division	ingressuros	1573: ingref furos | 1747: ingretfuros Num t	1758,1715,ws	non esse in mea requietem ⟦ingressuros⟧
+Heb.3.13	base-only	spelling	quamdiu	1573: quandiu	1758,1715,1747,1750,ws	vos inter vos quotidie cohortamini ⟦quamdiu⟧ hodie dicitur ne quis vestrum
+Heb.3.13	base-only	spelling	occallescat	1573: oc calefcat | 1715: occalleícat	1556,1758,1681,1747,1750,ws	ne quis vestrum peccati fraude ⟦occallescat⟧
+Heb.3.14	correct	reading	simus	1573,1758,1747,1750: fumus	ws	Etenim Christi consortes facti ⟦simus⟧ si modo hoc argumentum ab
+Heb.3.14	base-only	f/s	si	1573: fi	ws	Etenim Christi consortes facti simus ⟦si⟧ modo hoc argumentum ab initio
+Heb.3.14	base-only	division	modo	1573: mo dò	1556,1758,1715,1747,1750,ws	Christi consortes facti simus si ⟦modo⟧ hoc argumentum ab initio ad
+Heb.3.14	base-only	reading	finem	1573: fineın	1556,1758,1747,1750,ws	hoc argumentum ab initio ad ⟦finem⟧ firmum tenemus
+Heb.3.15	base-only	reading	nolite mentes obfirmare vestras	1573: no lite indurare corda veftra	ws	hodie si ejus vocem audieritis ⟦nolite mentes obfirmare vestras⟧ ut in jurgio
+Heb.3.15	others	reading	mentes obfirmare vestras	1758: indurare corda vestra | 1681: indurarc corda veftra	ws	si ejus vocem audieritis nolite ⟦mentes obfirmare vestras⟧ ut in jurgio
+Heb.3.16	base-only	reading	audiverunt	1573: audierút | 1758: audierant | 1715: audiYerunt	1681,1747,1750,ws	Nam pars eorum qui ⟦audiverunt⟧ jurgati sunt non omnes ex
+Heb.3.18	others-1573-agrees	reading	esse	1681,1747: efle | 1715: tfe	1573,1556,1758,1750,ws	Quibus autem juravit non ⟦esse⟧ in suam requietem ingressuros nisi
+Heb.3.19	correct	edge	diffidentiam	1573,1556,1747,1750: 	1758,ws	videmus ingredi non potuisse propter ⟦diffidentiam⟧
+Heb.4.1	base-only	division	ingrediendi	1573: in grediendi | 1758: ingredien di | 1747: inERIS TOEA Cap grediendi	1750,ws	metuamus ne si forte desinat ⟦ingrediendi⟧ in ejus requietem promissio aliquis
+Heb.4.1	base-only	reading		1573: a | 1556: s	1758,ws	ejus requietem promissio aliquis nostrum ⟦⟧ tardasse videatur
+Heb.4.1	others-1573-agrees	reading	tardasse	1747,1750: tardafle	1573,1556,1758,ws	ejus requietem promissio aliquis nostrum ⟦tardasse⟧ videatur
+Heb.4.2	base-only	reading	conjunctus	1573: conbuoniam iunctus | 1556: m d cófunctus	1758,1750,ws	nihil auditus sermo profuit non ⟦conjunctus⟧ cum eorum fide qui audiverant
+Heb.4.3	base-only	reading	habemus	1573: habe Pfal mus	1556,1758,1747,1750,ws	enim in requietem qui fidem ⟦habemus⟧ quemadmodum dixit iratus juravi non
+Heb.4.4	base-only	reading		1573: Gen	1556,1715,ws	de die septimo sic dictum ⟦⟧ est requievitque Deus die septimo
+Heb.4.6	base-only	f/s	supersit	1573: superfit	ws	Ergo quum ⟦supersit⟧ ut aliqui in eam ingrediantur
+Heb.4.6	base-only	reading		1573: ADHEBRAEOS et quibus	1556,1758,1681,1715,1747,1750,ws	in eam ingrediantur et quibus ⟦⟧ ante denuntiatum est non ingressi
+Heb.4.6	base-only	reading	non	1573: nó	1556,1758,1681,1715,1747,1750,ws	et quibus ante denuntiatum est ⟦non⟧ ingressi sint propter contumaciam
+Heb.4.6	base-only	reading	propter	1573: proP al pter	1556,1758,1715,1747,1750,ws	denuntiatum est non ingressi sint ⟦propter⟧ contumaciam
+Heb.4.7	correct	reading	quamdam statuir	1573,1715,1747: quandam statuit | 1556: quandá flatuít | 1758: quandam fatuit | 1750: quam dam ftatuit	ws	Rursum ⟦quamdam statuir⟧ David diem hodie dicens tanto
+Heb.4.7	base-only	reading	post	1573: poit	1758,1681,1715,1747,1750,ws	David diem hodie dicens tanto ⟦post⟧ tempore ut dictum est hodie
+Heb.4.7	correct	reading	mentes obfirmare vestras	1758: ndurare corda vestra | 1573: indurare corda vestra Supr	1556,1715,1750,ws	si ejus vocem audieritis nolite ⟦mentes obfirmare vestras⟧
+Heb.4.8	others	reading	Jodua	1573: losua | 1758,1715,1747: Josua	ws	Si enim eos ⟦Jodua⟧ quietos reddidisset numquam ille postea
+Heb.4.8	correct	spelling	numquam	1573,1747: nunquam	ws	enim eos Jodua quietos reddidisset ⟦numquam⟧ ille postea de alio loqueretur
+Heb.4.9	base-only	reading	sabbatismus	1573: Sabbatisimus | 1750: fabbatifinus	1556,1758,1715,1747,ws	Superest ergo ⟦sabbatismus⟧ divino populo
+Heb.4.10	others-1573-agrees	reading	in	1715,1747: 	1573,1556,1758,1750,ws	Qui enim ⟦in⟧ Dei requietem ingressus est is
+Heb.4.10	base-only	reading	Dei requietem	1573: eius requiete	1715,1747,1750,ws	Qui enim in ⟦Dei requietem⟧ ingressus est is a suis
+Heb.4.10	others-1573-agrees	reading	ingressus	1747,1750: ingreflus	1573,1758,1715,ws	Qui enim in Dei requietem ⟦ingressus⟧ est is a suis requievit
+Heb.4.11	base-only	division	requietem	1573: requie tem | 1747: quietem	1758,1750,1726,ws	demus operam ut in illam ⟦requietem⟧ ingrediamur ne quis eodem contumaciae
+Heb.4.11	base-only	reading	eodem	1573: codein	1556,1758,1747,1750,1726,ws	illam requietem ingrediamur ne quis ⟦eodem⟧ contumaciae exemplo cadat
+Heb.4.12	base-only	division	Est enim	1573: Estenim | 1681: Elt cnim	1758,1747,1750,1726,ws	⟦Est enim⟧ divinus sermo vivus et efficax
+Heb.4.12	correct	reading	et	1573,1758,1726: ac	1681,1715,1747,1750,ws	et quovis ancipiti gladio acutior ⟦et⟧ penetrans usque ad divisionem animae
+Heb.4.13	correct	reading	e	1573,1758,1747,1750,1726: ei	ws	Adeoque nulla res ⟦e⟧ obscura est ut omnia nuda
+Heb.4.14	base-only	reading	summum	1573: summű | 1556: fimmum	1758,1681,1715,1747,1750,1726,ws	Habentes ergo ⟦summum⟧ pontificem qui caelos penetravit Jesum
+Heb.4.14	base-only	reading	penetravit	1573: pem crefpódea mus profefnetrauit	1758,1715,1747,1750,1726,ws	ergo summum pontificem qui caelos ⟦penetravit⟧ Jesum Dei filium teneamus professionem
+Heb.4.15	base-only	reading	habemus	1573: habenus	1556,1758,1715,1747,1750,1726,ws	Non enim eum ⟦habemus⟧ pontificem qui nostris infirmitatibus adfici
+Heb.4.15	others	spelling	adfici	1556: aflicí | 1758,1726: affici	1750,ws	habemus pontificem qui nostris infirmitatibus ⟦adfici⟧ non possit sed qui sit
+Heb.4.15	base-only	reading	adfici non	1573: affici no	1750,ws	habemus pontificem qui nostris infirmitatibus ⟦adfici non⟧ possit sed qui sit in
+Heb.4.15	base-only	reading		1573: dvt nos d | 1556: d	1758,1715,1747,1750,1726,ws	sed qui sit in omnibus ⟦⟧ similiter periclitatus citra peccatum
+Heb.4.16	base-only	f/s	solium	1573: folium	ws	Accedamus ergo confidenter ad gratiae ⟦solium⟧ ut misericordiam adipiscamur et gratiam
+Heb.4.16	base-only	reading	inveniamus ad	1573: inueniamusead	1556,1758,1681,1747,1750,1726,ws	ut misericordiam adipiscamur et gratiam ⟦inveniamus ad⟧ opportunum auxilium
+Heb.5.1	correct	reading	victimas	1573,1747,1750: victimasque | 1758: vidimasque | 1681: vidrimasque	ws	praeest rebus divinis ut munera ⟦victimas⟧ libet pro peccatis
+Heb.5.2	base-only	reading		1573: ibus	1556,1681,1747,1750,ws	Potestque facilis esse ignorantibus ⟦⟧ et alucinantibus utpote quum ipse
+Heb.5.2	base-only	spelling	alucinantibus	1573: hallucinanti bus | 1556: hallucínan tibus | 1758,1747: hallucinantibus | 1681: hallu Hebr tibus	1750,ws	Potestque facilis esse ignorantibus et ⟦alucinantibus⟧ utpote quum ipse sit infirmitate
+Heb.5.2	base-only	f/s	sit	1573: fit	ws	et alucinantibus utpote quum ipse ⟦sit⟧ infirmitate circumdatus
+Heb.5.2	correct	reading	circumdatus	1573,1758: circundatus | 1750: circum datus	1747,ws	utpote quum ipse sit infirmitate ⟦circumdatus⟧
+Heb.5.3	correct	division	se ipso	1573,1556,1758,1747: seipfo	1750,ws	pro populo sic etiam pro ⟦se ipso⟧ libare piacula
+Heb.5.5	correct	reading	vindicavit	1573,1556,1758: vendicauit | 1715: vendica et feqq Vit | 1747: vindcin	1750,ws	non ipse sibi eum honorem ⟦vindicavit⟧ ut fieret pontifex sed is
+Heb.5.5	correct	reading	adlocutus	1573,1556,1758: alloquutus | 1715,1747: allocutus	ws	sed is qui sic eum ⟦adlocutus⟧ est tu meus es filius
+Heb.5.6	base-only	reading	perpetuum	1573: æter Par num | 1758: aeternum	1715,1747,1750,ws	dicit tu es sacerdos in ⟦perpetuum⟧ ad rationem Melchisedechi
+Heb.5.7	correct	reading	lacrimis	1573,1758,1715: lachrymis | 1747: lacrymis	1750,ws	libatis cum vehementi questu ac ⟦lacrimis⟧ et pro sua pietate exauditus
+Heb.5.7	base-only	edge	pietate exauditus	1573: 	1556,1758,1681,1750,ws	lacrimis et pro sua ⟦pietate exauditus⟧ Quamvis filius didicit tamen ex
+Heb.5.8	base-only	reading		1573: Phil	1556,1758,1747,1750,ws	ex iis quae passus est ⟦⟧ obedientiam
+Heb.5.9	correct	spelling	caussa	1573,1758: caufa	1750,ws	omnibus sibi obedientibus salutis aeternae ⟦caussa⟧ fuit
+Heb.5.11	base-only	reading	nobis multa	1573: nobisinulta	1758,1681,1747,ws	De eo ⟦nobis multa⟧ dicenda sunt eaque explicatu difficilia
+Heb.5.11	correct	reading		1573,1681: a	1556,1758,1715,1747,1750,ws	eaque explicatu difficilia quandoquidem vos ⟦⟧ auribus segnes estis
+Heb.5.12	base-only	reading	tempus	1573: tépus	1758,1715,1747,1750,1726,ws	Etenim quum per ⟦tempus⟧ magistri esse debeatis rursum docendi
+Heb.5.12	base-only	reading	rursum	1573: rur aauditores fum	1556,1758,1747,1750,1726,ws	per tempus magistri esse debeatis ⟦rursum⟧ docendi estis quae prima divinorum
+Heb.5.12	base-only	reading	elementa	1573: ele méta	1556,1758,1747,1750,1726,ws	estis quae prima divinorum oraculorum ⟦elementa⟧ sint et ii estis quibus
+Heb.5.12	base-only	reading	quibus	1573: quib	1556,1758,1715,1747,1750,1726,ws	elementa sint et ii estis ⟦quibus⟧ lacte sit opus non solido
+Heb.5.12	base-only	reading	non	1573,1556: nó	1758,1681,1715,1747,1750,1726,ws	estis quibus lacte sit opus ⟦non⟧ solido cibo
+Heb.5.13	correct	spelling	Cuicumque	1573,1758: Cuicunque | 1556: Cuícungg | 1715: Cor Cuicunque | 1726: 	1750,ws	⟦Cuicumque⟧ enim cum lacte res est
+Heb.6.1	base-only	reading	rudimentorum	1573: rudimétorum | 1750: rudimen r torum	1556,1758,1747,ws	Quapropter omisso ⟦rudimentorum⟧ Christi sermone ad perfectionem tendamus
+Heb.6.1	base-only	reading	non	1573: nő	1556,1758,1715,1747,1750,1726,ws	Christi sermone ad perfectionem tendamus ⟦non⟧ denuo fundamentum jacientes correctionis mortuorum
+Heb.6.1	base-only	reading	fundamentum	1573: fundamentű | 1758: fundamentam	1556,1750,1726,ws	ad perfectionem tendamus non denuo ⟦fundamentum⟧ jacientes correctionis mortuorum operum fidei
+Heb.6.1	base-only	reading	mortuorum	1573: mortuo et tamen relabuntur ij iterum vitæ correctione renouentur qui sibi Dei filium iterum crucifigant et Infr in eum exemplum edant rum	1758,1715,1747,1750,1726,ws	non denuo fundamentum jacientes correctionis ⟦mortuorum⟧ operum fidei Deo habendae
+Heb.6.2	correct	reading	baptismatum	1573,1758: baptifmorum	1715,ws	Doctrinae ⟦baptismatum⟧ impositionisque manuum et resurrectionis mortuorum
+Heb.6.2	base-only	reading	suppliciique	1573: fupplicijas	1758,1715,1747,1750,1726,ws	impositionisque manuum et resurrectionis mortuorum ⟦suppliciique⟧ sempiterni
+Heb.6.4	base-only	spelling	caeleste	1573: cœ lefte	1556,1758,1715,1747,1750,1726,ws	potest ut qui semel collustrati ⟦caeleste⟧ donum gustarunt et participes fuerunt
+Heb.6.8	base-only	spelling	adfinis exsecrationi	1573: af finis execrationi | 1556: a fínísexecratíoní | 1758: affinis execrationi | 1715: affims cxecrationi	1750,ws	et tribulos improba est et ⟦adfinis exsecrationi⟧ ad extremumque exurenda
+Heb.6.9	correct	spelling	Quamquam	1573,1758: Quanquam | 1747: tius demonftrare Deus haei Quanquam	1681,1750,ws	⟦Quamquam⟧ de vobis amici meliora nobis
+Heb.6.10	base-only	reading	vestrum	1573: vestrű	1758,ws	est ut oblitus sit opus ⟦vestrum⟧ laboremque caritatis quam exseruistis in
+Heb.6.10	correct	reading	caritatis	1573,1758: charitatis	1750,ws	oblitus sit opus vestrum laboremque ⟦caritatis⟧ quam exseruistis in ejus nomen
+Heb.6.10	base-only	spelling	exseruistis	1573: exeruiftis | 1758: exeruiltis | 1750: exferuiílis	ws	opus vestrum laboremque caritatis quam ⟦exseruistis⟧ in ejus nomen dum sanctis
+Heb.6.10	base-only	reading		1573: EPISTOLA	1758,1681,1715,1750,ws	laboremque caritatis quam exseruistis in ⟦⟧ ejus nomen dum sanctis et
+Heb.6.10	base-only	reading	nomen	1573: nomem	1758,1715,1750,ws	caritatis quam exseruistis in ejus ⟦nomen⟧ dum sanctis et ministrastis et
+Heb.6.12	correct	reading	Nec	1573,1758: ne	1750,ws	⟦Nec⟧ sitis ignavi sed eorum imitatores
+Heb.6.13	base-only	reading	quum	1573: cuin	1758,1681,1715,1750,ws	Nam Abrahamo promittens Deus ⟦quum⟧ per nullum majorem jurare posset
+Heb.6.14	correct	reading	fortunabo et	1573,1758,1726: felicitabo atque	1750,ws	Dicens ni ego te ⟦fortunabo et⟧ amplificabo
+Heb.6.15	others-1573-agrees	reading	consecutus	1758,1726: consequutus	1573,1556,1681,1750,ws	quum ille patiens fuisset promissum ⟦consecutus⟧ est
+Heb.6.16	base-only	reading	omnium	1573: omniuin	1758,1681,1715,1750,1726,ws	enim per majorem jurant eisque ⟦omnium⟧ controversiarum finis est jusjurandum ad
+Heb.6.16	base-only	edge	rem confirmandam	1573: 	1758,1750,1726,ws	finis est jusjurandum ad ⟦rem confirmandam⟧ Itaque volens vehementius demonstrare Deus
+Heb.6.17	base-only	reading		1573: a	1556,1758,1726,ws	volens vehementius demonstrare Deus heredibus ⟦⟧ promissi immutabilitatem sui consilii jusjurandum
+Heb.6.17	base-only	f/s	sui	1573: fui	ws	demonstrare Deus heredibus promissi immutabilitatem ⟦sui⟧ consilii jusjurandum interposuit
+Heb.6.17	base-only	reading		1573: feltere	1726,ws	heredibus promissi immutabilitatem sui consilii ⟦⟧ jusjurandum interposuit
+Heb.6.18	base-only	reading	immutabiles	1573: inmutabiles	1758,1681,1715,1750,1726,ws	Ut per duas ⟦immutabiles⟧ res in quibus ut Deus
+Heb.6.19	correct	reading	ancoram	1573,1758,1726: anchoram	1681,1715,1747,1750,ws	Quam velut ⟦ancoram⟧ habemus animi tutam atque firmam
+Heb.6.19	base-only	division	atque	1573: at que	1758,1715,1747,1750,1726,ws	velut ancoram habemus animi tutam ⟦atque⟧ firmam et intra siparium intrantem
+Heb.6.20	base-only	reading	Melchisedechi rationem pontifex	1573: Mele chifedechirationem potifex	1758,1750,1726,ws	pro nobis intravit Jesus ad ⟦Melchisedechi rationem pontifex⟧ factus in sempiternum
+Heb.7.1	base-only	reading	Is	1573: dicitur ὑπομονὴ τῆς ἐπίδΘ CAPVT VII Hactenus ipsos stimulauit ut attente expenderent qua in Melchifedecho confideranda funt In quibus fimilis fit Christus In summa cur cedere Lex Euangelio debeat S	1681,ws	⟦Is⟧ enim Melchisedechus Solymae rex summi
+Heb.7.1	base-only	reading	summi	1573: fumıni | 1681: fun mi	1556,1758,1715,1747,1750,ws	Is enim Melchisedechus Solymae rex ⟦summi⟧ Dei sacerdos qui Abrahamo a
+Heb.7.1	base-only	reading	caede redeunti occurrit	1573: cæderedeuntioccurrit	1758,1747,1750,1726,ws	sacerdos qui Abrahamo a regum ⟦caede redeunti occurrit⟧ eumque faustis ominibus prosecutus est
+Heb.7.1	base-only	division	prosecutus	1573: prose cutus | 1758: prosequutus | 1750: profééütus	1556,ws	redeunti occurrit eumque faustis ominibus ⟦prosecutus⟧ est
+Heb.7.2	correct	reading	regem sonat	1573,1758,1726: rex interpretatur	1556,1747,1750,ws	Abrahamus qui Melchisedechus primum justitiae ⟦regem sonat⟧ deinde Solymae rex hoc est
+Heb.7.3	base-only	f/s	Sine	1573: fine	ws	⟦Sine⟧ patre sine matre sine majoribus
+Heb.7.3	base-only	f/s	sine	1573: fine	ws	Sine patre sine matre ⟦sine⟧ majoribus nec aevi principium nec
+Heb.7.3	base-only	reading	aevi principium	1573: zui prin cipium	1758,1747,1750,1726,ws	sine matre sine majoribus nec ⟦aevi principium⟧ nec vitae finem habens ac
+Heb.7.3	base-only	spelling	vitae	1573: vitę | 1556: uitz	1758,1747,1750,1726,ws	majoribus nec aevi principium nec ⟦vitae⟧ finem habens ac Dei filio
+Heb.7.4	base-only	f/s	sit	1573: fit	ws	Videtis autem quantus ⟦sit⟧ hic cui etiam decumas dederit
+Heb.7.4	base-only	reading	Abrahamus	1573: Abrahaınus	1556,1758,1681,1750,1726,ws	hic cui etiam decumas dederit ⟦Abrahamus⟧ ex manubiis summus ille pater
+Heb.7.5	correct	reading	ducentes	1573,1758,1726: 	1556,1681,1747,1750,ws	quidem qui a Levi genus ⟦ducentes⟧ sacerdotium ineunt in mandatis habent
+Heb.7.5	base-only	reading		1573: Num	1556,1758,1747,1750,1726,ws	Levi genus ducentes sacerdotium ineunt ⟦⟧ in mandatis habent ut populum
+Heb.7.7	base-only	reading	Jam	1573: lam | 1556,1750: Tam | 1747: Gen Gal lam	1758,1726,ws	⟦Jam⟧ vero sine ulla controversia minori
+Heb.7.7	base-only	f/s	sine	1573: fine	ws	Jam vero ⟦sine⟧ ulla controversia minori a praestantiore
+Heb.7.7	base-only	division	praestantiore	1573: præstan tiore	1758,1747,1750,1726,ws	sine ulla controversia minori a ⟦praestantiore⟧ impertitur faustitas
+Heb.7.11	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ in levitico sacerdotio sita foret
+Heb.7.11	correct	spelling	exsistere	1573,1758,1726: existere | 1715: exGen f iftere	1747,1750,ws	esset ad rationem Melchisedechi alium ⟦exsistere⟧ sacerdotem dici ac non ad
+Heb.7.11	correct	reading	Aaronis	1573,1758,1726: Aharonis	1715,1747,1750,ws	sacerdotem dici ac non ad ⟦Aaronis⟧ rationem
+Heb.7.13	base-only	reading		1573: fungitur	1758,1715,1747,1750,ws	is aliae tribus est ex ⟦⟧ qua nullus adstat arae
+Heb.7.13	base-only	reading	adstat	1573: a astat | 1758,1747: astat	ws	tribus est ex qua nullus ⟦adstat⟧ arae
+Heb.7.14	base-only	reading	esse Dominum	1573: efle Do minum | 1747: efleDomi nuin ac m Noc eg Cap num	1758,1750,ws	est enim a Juda exortum ⟦esse Dominum⟧ nostrum ad quam tribum quod
+Heb.7.14	base-only	reading	quam	1573: quain	1758,1715,1747,1750,ws	exortum esse Dominum nostrum ad ⟦quam⟧ tribum quod pertineret nihil de
+Heb.7.15	correct	spelling	exsistit	1573,1758: exiftit	1747,1750,ws	est si ad Melchisedechi similitudinem ⟦exsistit⟧ sacerdos alius
+Heb.7.16	base-only	f/s	sit	1573: fit	ws	ex humani praecepti lege factus ⟦sit⟧ sed ex vi indissolubilis vitae
+Heb.7.17	base-only	division	Sic enim	1573: Sicenim	1758,1715,1747,ws	⟦Sic enim⟧ testatur tu es sacerdos in
+Heb.7.19	base-only	reading	sed	1573: fedt	1758,1681,1715,1747,1750,ws	Quandoquidem nihil perfecit lex ⟦sed⟧ adjectio melioris spei per quam
+Heb.7.19	base-only	reading	melioris	1573: et facerdomelioris | 1747: me ioris	1758,1715,1750,ws	nihil perfecit lex sed adjectio ⟦melioris⟧ spei per quam ad Deum
+Heb.7.20	base-only	reading	abest jusjurandum	1573: abeftiufiuran fedechiann dum	1758,1747,1750,ws	Melioris inquam quatenus non ⟦abest jusjurandum⟧ Nam illi sine jurejurando facti
+Heb.7.20	base-only	f/s	sine	1573: fine	ws	non abest jusjurandum Nam illi ⟦sine⟧ jurejurando facti sunt sacerdotes
+Heb.7.22	correct	reading	Tnato	1573,1758,1750: tantò	ws	⟦Tnato⟧ praestantioris testamenti sponsor fuit Jesus
+Heb.7.22	base-only	reading	testamenti	1573: testaméti | 1758: testa menti	1750,ws	Tnato praestantioris ⟦testamenti⟧ sponsor fuit Jesus
+Heb.7.23	base-only	division	morte	1573: mor te	1556,1758,1715,1747,1750,ws	quidem plures fuere sacerdotes quod ⟦morte⟧ prohiberentur permanere
+Heb.7.24	correct	spelling	numquam	1573,1758,1747: nunquam	1750,ws	hic quia durat in sempiternum ⟦numquam⟧ transiturum habet sacerdotium
+Heb.7.25	correct	reading	idcirco	1573,1556,1758: iccirco	1715,1750,ws	Et ⟦idcirco⟧ plane servare potest eos qui
+Heb.7.25	others-1573-agrees	reading	eos	1715,1750: cos	1573,1556,1758,1747,ws	Et idcirco plane servare potest ⟦eos⟧ qui per ipsum Deum adeunt
+Heb.7.25	others-1573-agrees	reading	adeunt	1556,1715,1747: adeant	1573,1758,1681,1750,ws	eos qui per ipsum Deum ⟦adeunt⟧ quippe qui semper vivat ad
+Heb.7.25	base-only	division	supplicandum	1573: fupplican dum	1556,1758,1715,1747,1750,ws	quippe qui semper vivat ad ⟦supplicandum⟧ pro eis
+Heb.7.26	base-only	reading	caelisque	1573: cælisá	1758,1715,1747,1750,ws	expers intemeratus a sontibus alienus ⟦caelisque⟧ sublimior factus
+Heb.7.26	base-only	reading	factus	1573: fastus | 1747: fa et us ı lo	1556,1758,1715,1750,ws	a sontibus alienus caelisque sublimior ⟦factus⟧
+Heb.7.27	correct	reading	sicut	1573,1758: sicuti	1715,1747,1750,ws	Qui non habet quotidie necesse ⟦sicut⟧ pontifices prius pro suis peccatis
+Heb.7.28	base-only	division	Lex enim	1573: Lexenim	1556,1758,1715,1747	⟦Lex enim⟧ homines constituit pontifices imbecillitate praeditos
+Heb.8.1	base-only	division	ejusmodi	1573: eiuf modi | 1758: ejusmod	1681,1715,1747,1750,ws	autem orationis summa est quod ⟦ejusmodi⟧ habemus pontificem qui consedit ad
+Heb.8.1	base-only	f/s	solii	1573: folij	ws	pontificem qui consedit ad dexteram ⟦solii⟧ majestatis in caelis
+Heb.8.3	base-only	reading	victimasque	1573: victimas	1758,1715,1747,1750,ws	Omnis enim pontifex ob munera ⟦victimasque⟧ libandas constituitur ideoque necesse est
+Heb.8.4	base-only	f/s	si	1573: fi	ws	Nam ⟦si⟧ foret in terris ne sacerdos
+Heb.8.4	base-only	reading	obmoveant	1750: obnioueant | 1573: obmoueat ADHEBRAE OS a corum cul	1556,1758,1681,1715,1747,ws	sacerdotes qui ex lege munera ⟦obmoveant⟧
+Heb.8.5	base-only	reading	quidem	1573: quidema	1556,1758,1715,1747,1750,ws	Qui ⟦quidem⟧ caelestium exemplo et umbra caerimoniis
+Heb.8.5	base-only	reading	caerimoniis	1573: ceretus exéplum monijs | 1758: testa N ceremoniis | 1747: caeremoniis	1750,ws	quidem caelestium exemplo et umbra ⟦caerimoniis⟧ operantur quemadmodum oraculo monitus est
+Heb.8.5	base-only	reading	monitus	1573: monirerum cæle tus	1556,1758,1681,1715,1747,1750,ws	umbra caerimoniis operantur quemadmodum oraculo ⟦monitus⟧ est Moses absoluturus tabernaculum Vide
+Heb.8.6	others-1573-agrees	reading	promissis	1715: pro f conferens yide d i z non jam amplius alio facerdote mills | 1747,1750: promiflis	1573,1556,1758,ws	testamenti sequester quod melioribus adhibitis ⟦promissis⟧ compositum est
+Heb.8.7	base-only	division	quaereretur	1573: querere tur | 1715: quareretur | 1747: quaeretur	1758,1750,ws	primum illud vitio careret non ⟦quaereretur⟧ secundi locus
+Heb.8.8	base-only	edge		1573: lere	1758,1681,1747,1750,ws	careret non quaereretur secundi locus ⟦⟧ Atqui ille eos accusans sic
+Heb.8.9	base-only	reading	testamento	1573: testaméto	1758,1747,ws	eduxi Nam illi in meo ⟦testamento⟧ non manserunt et ego eos
+Heb.8.10	base-only	reading	faciam	1573: faciaın	1556,1758,1681,1715,1747,1750,1726,ws	testamentum quod cum Israelis domo ⟦faciam⟧ post illud tempus inquit Dominus
+Heb.8.10	base-only	reading	erunt	1573: crunt | 1556: exüt | 1556: exüt Neqy | 1681: cru nt Nequc	1758,1747,1750,ws	Deus et ipsi mihi populus ⟦erunt⟧
+Heb.8.11	base-only	reading	docebunt	1573: docebūt	1556,1758,1681,1750,ws	et alii alios Dominum cognoscere ⟦docebunt⟧ nam omnes ab eorum minimo
+Heb.8.11	base-only	reading	minimo	1573: ininimo	1556,1758,1747,1750,ws	docebunt nam omnes ab eorum ⟦minimo⟧ ad maximum me cognoscent
+Heb.8.12	correct	reading	tum	1573,1758,1747,1750,1726: 	ws	vitiis veniam dabo nec eorum ⟦tum⟧ peccata et scelera deinceps recordabor
+Heb.8.13	base-only	division	Quod autem	1573: Quodautem	1758,1747,1750	Dum novum dixit prius antiquavit ⟦Quod autem⟧ antiquatur ac senescit id est
+Heb.9.1	others	reading	caerimoniarum	1758,1747,1726: ceremoniarum	ws	Habebat autem prius testamentum instituta ⟦caerimoniarum⟧ mundanumque sacrarium
+Heb.9.1	base-only	edge	caerimoniarum mundanumque sacrarium	1573: ceremoniarum a inundanumque fanctuarium	1758,ws	prius testamentum instituta ⟦caerimoniarum mundanumque sacrarium⟧ Fuit enim conditum primum tabernaculum
+Heb.9.3	correct	reading	sacrarium sanctius	1573,1758: sanctissimum sanctuarium	ws	secundum velum erat tabernaculum quod ⟦sacrarium sanctius⟧ appellatur aureum habens turibulum et
+Heb.9.3	base-only	reading	habens turibulum	1573: habés thuribulum | 1715: habensthuribulum Sed hoc eft teftamentü quod	1750,ws	quod sacrarium sanctius appellatur aureum ⟦habens turibulum⟧ et arcam testamenti undique tectam
+Heb.9.6	others	reading	caerimonias	1758,1747: ceremonias | 1715: cere Quoniam eorum vitiis monias | 1750: caeri wmonias	ws	primum tabernaculum semper ingrediuntur sacerdotes ⟦caerimonias⟧ obeuntes
+Heb.9.6	base-only	reading	caerimonias obeuntes	1573: ceremonias ob	ws	primum tabernaculum semper ingrediuntur sacerdotes ⟦caerimonias obeuntes⟧
+Heb.9.7	base-only	division	populi imprudenter	1573: populiim prudenter	1758,1681,1715,1750,ws	et pro seipso et pro ⟦populi imprudenter⟧ commissis libat
+Heb.9.8	base-only	reading	nondum	1573: nodum	1556,1758,1715,1747,1750,ws	Hoc declarante sancto Spiritu ⟦nondum⟧ patefactam esse sacrarii viam adhuc
+Heb.9.8	correct	reading	sacrarii	1573,1758: sanctuarij	1556,1715,1747,1750,ws	sancto Spiritu nondum patefactam esse ⟦sacrarii⟧ viam adhuc priore tabernaculo statum
+Heb.9.9	others-1573-agrees	reading	possent	1556: polfent | 1556: polfent pofitatantü C | 1681: poflent GaL | 1715: poflent At to | 1747: poflent AG ro	1573,1758,1750,ws	ad conscientiam attinet perficere non ⟦possent⟧
+Heb.9.11	base-only	edge		1573: In	1758,1750,ws	institutis usque ad correctionis tempus ⟦⟧ At Christus advenit futurorum bonorum
+Heb.9.11	base-only	reading	non manu factum hoc est	1573: no manufactum hocest	1747,ws	qui per majus perfectiusque tabernaculum ⟦non manu factum hoc est⟧ non hujus structurae
+Heb.9.11	others	division	manu factum	1758,1715: manufactum	1747,ws	per majus perfectiusque tabernaculum non ⟦manu factum⟧ hoc est non hujus structurae
+Heb.9.12	base-only	reading	sacrarium	1573: sanEtuarium | 1758: sanctuarium	1747,1750,ws	sanguinem ingressus est semel in ⟦sacrarium⟧ aeternam liberationem adeptus
+Heb.9.13	base-only	reading	juvencaeque	1573: iuueces | 1556: iuencat | 1750: inuencaeque	1758,1747,ws	enim taurorum et hircorum sanguis ⟦juvencaeque⟧ cinis pollutos adspergens lustrat ad
+Heb.9.13	correct	spelling	adspergens	1573,1556,1747: aspergens | 1758: aspergetis | 1750: adfperAD HEBRAE OS xs ce T MEM NE S CAT vor M gens	ws	hircorum sanguis juvencaeque cinis pollutos ⟦adspergens⟧ lustrat ad corporis puritatem
+Heb.9.13	base-only	reading	puritatem	1573: puri	1556,1758,1681,1747,1750,ws	pollutos adspergens lustrat ad corporis ⟦puritatem⟧
+Heb.9.14	base-only	reading	aeternum	1573: æternuin Roman | 1556: se terni | 1758: acternum | 1750: seternum	1747,ws	magis Christi sanguis qui per ⟦aeternum⟧ Spiritum seipsum libavit innocentissimum Deo
+Heb.9.14	base-only	reading	ut	1573: vem | 1750: yt	1758,1747,ws	nostram conscientiam a mortuis operibus ⟦ut⟧ viventem colamus Deum
+Heb.9.15	base-only	edge		1573: is	1556,1758,1750,ws	operibus ut viventem colamus Deum ⟦⟧ Atque ideo novi testamenti sequester
+Heb.9.15	base-only	reading	interventu	1573: interuétu | 1556: ín teruentu	1758,1715,1747,1750,ws	testamenti sequester est ut mortis ⟦interventu⟧ ad expiationem commissorum in primum
+Heb.9.15	base-only	reading	primum	1573: primuın | 1556: prí mum	1758,1681,1715,1747,1750,ws	interventu ad expiationem commissorum in ⟦primum⟧ testamentum vocati consequantur promissam hereditatem
+Heb.9.15	base-only	division	hereditatem	1573: hære ditatem | 1715: hzreditatem	1758,1747,1750,ws	primum testamentum vocati consequantur promissam ⟦hereditatem⟧ sempiternam
+Heb.9.16	base-only	division	consequi	1573: con sequi	1556,1758,1715,1747,1750,ws	ubi est testamentum testatoris mortem ⟦consequi⟧ necesse est
+Heb.9.17	base-only	reading	siquidem	1573: fi Galas quidem	1556,1758,1715,1747,1750,ws	enim post mortem ratum est ⟦siquidem⟧ nondum valet dum vivit testator
+Heb.9.18	base-only	division	sancitum	1573: sanci tum	1758,1715,1747,1750,ws	ne primum quidem sine sanguine ⟦sancitum⟧ est
+Heb.9.19	base-only	reading	hircorum	1573: hircorutn	1758,1715,1747,1750,ws	universo populo sumpto vitulorum et ⟦hircorum⟧ sanguine cum aqua et lana
+Heb.9.19	correct	reading	ac	1573,1758: et	1715,1747,1750,ws	coccina ac hyssopo ipsum librum ⟦ac⟧ universum populum conspersit
+Heb.9.20	base-only	reading		1573: Exod	1758,1681,1747,1750,ws	sanguis testamenti quod ad vos ⟦⟧ mandavit Deus
+Heb.9.21	correct	reading	caerimoniarum	1573,1758: ceremoniarum	1750,ws	Tabernaculum quoque et omnem ⟦caerimoniarum⟧ supellectilem sanguine similiter omnia conspersit
+Heb.9.21	others	reading	caerimoniarum supellectilem	1715,1747: ceremoniarum fupelle et ilem	ws	Tabernaculum quoque et omnem ⟦caerimoniarum supellectilem⟧ sanguine similiter omnia conspersit
+Heb.9.22	base-only	reading	nec	1573: nee	1758,1681,1715,1747,1750,ws	sanguine omnia ex lege purgantur ⟦nec⟧ absque sanguinis fusione datur venia
+Heb.9.23	base-only	reading		1573: et	1758,ws	Necesse est ergo ⟦⟧ caelestium exempla hisce purgari ipsa
+Heb.9.23	base-only	reading	purgari	1573: pur b rerum fpts gari | 1747: purga ri | 1750: pur gari	1758,1681,1715,ws	est ergo caelestium exempla hisce ⟦purgari⟧ ipsa autem caelestia potioribus sacrificiis
+Heb.9.24	base-only	reading	sacrarium ingressus	1573: sanctuarium ingref sus	1715,ws	Non enim in manufactum ⟦sacrarium ingressus⟧ est Jesus quod veri sacrarii
+Heb.9.24	correct	reading	sacrarii	1573,1758,1726: sanctuarij | 1747: facrarit	1715,1750,ws	ingressus est Jesus quod veri ⟦sacrarii⟧ exemplar foret sed in ipsum
+Heb.9.25	correct	reading	sacrarium	1573,1758: sanctuarium | 1726: fan et uarium	1715,1747,1750,ws	seipsum libaret quemadmodum pontifex ingreditur ⟦sacrarium⟧ quotannis adhibito sanguine alieno
+Heb.9.25	base-only	division	sanguine	1573: san guine | 1747: languine	1758,1715,1750,1726,ws	pontifex ingreditur sacrarium quotannis adhibito ⟦sanguine⟧ alieno
+Heb.9.26	others	spelling	pecatum	1747,1750: peccatum	ws	exitu ad oblitterandum suo sacrificio ⟦pecatum⟧ exstitit
+Heb.9.26	correct	spelling	pecatum exstitit	1573,1758,1726: peccatum extitit | 1573: peccatum extitit Acquomodo	ws	exitu ad oblitterandum suo sacrificio ⟦pecatum exstitit⟧
+Heb.9.27	base-only	division	Ac quomodo	1573: Acquomodo	1758,1681,1747,1750,1726,ws	⟦Ac quomodo⟧ hominibus semel moriendum est deinde
+Heb.9.28	base-only	reading	peccata	1573: pecca Rom ta	1758,1747,1750,1726,ws	Christus semel ad multorum tollenda ⟦peccata⟧ libatus iterum sine peccato conspicietur
+Heb.9.28	base-only	f/s	sine	1573: fine	ws	multorum tollenda peccata libatus iterum ⟦sine⟧ peccato conspicietur exspectantibus se ad
+Heb.9.28	others	spelling	exspectantibus	1573: expectans Pet tibus | 1758,1747,1726: expectantibus | 1750: exfpeGantibus	ws	libatus iterum sine peccato conspicietur ⟦exspectantibus⟧ se ad salutem
+Heb.10.1	base-only	reading	habens	1573: habés	1758,1681,1715,1747,1750,ws	Umbram enim ⟦habens⟧ lex futurorum bonorum non ipsam
+Heb.10.1	correct	spelling	numquam	1573,1747: nunquam	1750,ws	iisdem sacrificiis quae jugiter fiunt ⟦numquam⟧ potest accedentes perficere
+Heb.10.2	base-only	reading	jam	1573: iá	1758,1681,1715,1747,1750,ws	quod semel purgati immolatores nullius ⟦jam⟧ sibi peccati essent conscii
+Heb.10.2	base-only	reading	conscii	1573: coscij | 1747: conícii	1758,1715,1750,ws	nullius jam sibi peccati essent ⟦conscii⟧
+Heb.10.3	base-only	reading	commemoratio	1573: comme | 1681: com tlijafemoratio	1758,1747,1750,ws	per ea fit quotannis peccatorum ⟦commemoratio⟧
+Heb.10.4	base-only	reading	caprorumque	1573: caprorumqi	1758,1747,1750,1726,ws	enim non potest ut taurorum ⟦caprorumque⟧ sanguis peccata tollat
+Heb.10.6	others-1573-agrees	reading	delectaris	1726: deledaris | 1681: dcle et aris z Tunc | 1747: dele et taris Tunc | 1750: dele et aris Tunc | 1726: deledaris Tunc	1573,1758,ws	Victimis et piaculis non ⟦delectaris⟧
+Heb.10.7	correct	reading	Tun	1573,1758,1726: Tunc	ws	⟦Tun⟧ dixi en adsum in capite
+Heb.10.7	correct	spelling	exsequar	1573,1758,1747,1726: exequar	1750,ws	scriptum est de me ut ⟦exsequar⟧ Deus voluntatem tuam
+Heb.10.8	base-only	reading	non	1573: nom	1758,1681,1747,1750,1726,ws	et victimas et piacula ei ⟦non⟧ placere nec accepta esse quae
+Heb.10.8	correct	spelling	exsequar	1573,1758,1747,1726: exequar	1750,ws	deinde dicit en adsum ut ⟦exsequar⟧ Deus voluntatem tuam
+Heb.10.11	base-only	reading	Quumque	1750: Quutnque | 1573: II Cumque	1758,ws	⟦Quumque⟧ omnis sacerdos pergat quotidie caerimoniis
+Heb.10.11	correct	reading	caerimoniis	1573,1758,1747: ceremonijs	1750,ws	Quumque omnis sacerdos pergat quotidie ⟦caerimoniis⟧ fungi et eadem saepe sacrificia
+Heb.10.11	correct	spelling	numquam	1573,1758: nunquam	1750,ws	sacrificia facere quae peccata adimere ⟦numquam⟧ possunt
+Heb.10.13	correct	spelling	exspectans	1573,1758: expectans	1750,ws	Deinceps ⟦exspectans⟧ donec ejus hostes fiant ejus
+Heb.10.16	base-only	reading		1573: Ierem	1556,1758,1681,1715,1750,1726,ws	quod cum eis faciam post ⟦⟧ illud tempus inquit Dominus indam
+Heb.10.16	base-only	reading	eorum	1573: Supra corum	1556,1758,1681,1715,1750,1726,ws	Dominus indam meas leges in ⟦eorum⟧ mentes inque eorum animos inscribam
+Heb.10.17	base-only	division	Nec eorum	1573: neceorum	1556,1758,1715,1726,ws	⟦Nec eorum⟧ peccata et scelera deinceps recordabor
+Heb.10.18	base-only	division	Ubi autem	1573: Vbiautem	1758,1747,1750,1726,ws	⟦Ubi autem⟧ est peccatorum venia nulla superest
+Heb.10.19	correct	reading	sacrarium	1573,1758,1726: sanctuarium	1715,1747,1750,ws	Quamobrem fratres quum ad ⟦sacrarium⟧ aditum habeamus liberum per Jesu
+Heb.10.20	base-only	reading	recentem	1573: recétem | 1715: Mea cft ultio ego rependam inrecentem	1556,1758,1747,1750,1726,ws	Quam viam nobis lustravit ⟦recentem⟧ atque vivam per velum hoc
+Heb.10.21	base-only	edge	praefectum Accedamus	1573: prefectű accedainus	1556,1758,1726,ws	Quumque pontificem habeamus Dei domui ⟦praefectum Accedamus⟧ cum vero animo plenaque fide
+Heb.10.22	base-only	reading	Accedamus	1573: accedainus | 1750: acceda mus	1758,1715,1747,1726,ws	⟦Accedamus⟧ cum vero animo plenaque fide
+Heb.10.23	base-only	edge		1573: a	1758,1750,1726,ws	et corporibus aqua pura lotis ⟦⟧ Teneamus spei professionem immobilem fidelis
+Heb.10.23	base-only	reading	fidelis	1573: fide a speremus lis	1556,1758,1715,1747,1750,1726,ws	Teneamus spei professionem immobilem ⟦fidelis⟧ enim est qui promisit
+Heb.10.24	correct	reading	caritatem	1573,1758,1715,1726: charitatem | 1556: charítaté	1747,1750,ws	videamus ut alii alios ad ⟦caritatem⟧ et rectte facta provocemus
+Heb.10.24	base-only	reading	facta	1573: fa licitatem qua eta	1556,1758,1747,1750,1726,ws	alios ad caritatem et rectte ⟦facta⟧ provocemus
+Heb.10.25	base-only	reading	nostram	1573: nostran	1758,1715,1747,1726,ws	Neve ⟦nostram⟧ consociationem deseramus ut solent nonnulli
+Heb.10.25	base-only	division	videtis	1573: vi detis	1556,1758,1715,1747,1750,1726,ws	cohortemur idque eo magis quod ⟦videtis⟧ instare diem
+Heb.10.26	base-only	reading	adsecuti sumu	1573: assecuti fu Supra mus | 1758,1726: assequuti sumus | 1681: afle Mat cuti lumus | 1747: aflecuti lumus	ws	Nam si postquam veri cognitionem ⟦adsecuti sumu⟧ data opera peccamus non jam
+Heb.10.26	base-only	reading	superest ullum	1573: superestyllum	1556,1758,1747,1750,ws	data opera peccamus non jam ⟦superest ullum⟧ pro peccatis sacrificium
+Heb.10.27	correct	spelling	exspectatio	1573,1758,1747,1726: expectatio	1750,ws	Sed horrenda quaedam ⟦exspectatio⟧ judicii ignisque saevitia adversario confecturi
+Heb.10.27	base-only	reading	ignisque	1573: ignisás | 1747: gnisque	1758,1750,1726,ws	Sed horrenda quaedam exspectatio judicii ⟦ignisque⟧ saevitia adversario confecturi
+Heb.10.27	correct	reading	adversario	1573,1758,1726: aduerfarios | 1556: aduerfatios	ws	quaedam exspectatio judicii ignisque saevitia ⟦adversario⟧ confecturi
+Heb.10.28	base-only	reading	mosaicam	1573: Mosaicain	1758,1747,1750,1726,ws	Si quis contra ⟦mosaicam⟧ legem commisit is citra ullam
+Heb.10.28	base-only	reading	citra	1573: ci Deut tra	1556,1758,1747,1750,1726,ws	contra mosaicam legem commisit is ⟦citra⟧ ullam misericordiam ex duorum triumve
+Heb.10.28	base-only	reading	triumve testimonio	1573: trium ve teftino Mas nio	1758,1747,1750,ws	citra ullam misericordiam ex duorum ⟦triumve testimonio⟧ moritur
+Heb.10.29	correct	spelling	adficiendum	1573,1758,1726: afficiendum | 1747: pro e On P wen Buck ranga i a a AME a jew t Cep tis afficiendum	1750,ws	Quanto graviore putatis ⟦adficiendum⟧ poena qui Dei filium proculcaverit
+Heb.10.29	base-only	reading	testamentique	1573: testamétique	1758,1747,1750,1726,ws	poena qui Dei filium proculcaverit ⟦testamentique⟧ sanguinem per quem lustratus est
+Heb.10.29	base-only	spelling	gratiae spiritum adfecerit	1573: gratię spi ritum affecerit	1750,ws	est pro profano habuerit et ⟦gratiae spiritum adfecerit⟧ contumelia
+Heb.10.29	others	spelling	adfecerit	1758,1747: affecerit	1750,ws	profano habuerit et gratiae spiritum ⟦adfecerit⟧ contumelia
+Heb.10.30	base-only	division	est ultio	1573: estvltio	1556,1758,1747,1750,ws	Scimus enim quis dixerit mea ⟦est ultio⟧ ego rependam inquit Dominus Item
+Heb.10.30	base-only	reading	rependam	1573: re Deut pendam	1758,1750,ws	dixerit mea est ultio ego ⟦rependam⟧ inquit Dominus Item Dominus vindicabit
+Heb.10.30	base-only	reading	vindicabit	1573: vindica Rom bit	1556,1758,1747,1750,ws	rependam inquit Dominus Item Dominus ⟦vindicabit⟧ suum populum
+Heb.10.34	base-only	reading	vicem	1573: viceın	1556,1758,1747,1750,1726,ws	Nam et meorum vinculorum ⟦vicem⟧ doluistis et facultatum vestrarum direptionem
+Heb.10.34	correct	division	vos ipsos	1573,1758: vosipsos | 1556: yofipíos | 1726: vofipios	1747,1750,ws	tulistis intelligentes habere vos penes ⟦vos ipsos⟧ meliores opes in caelis et
+Heb.10.36	base-only	reading	exsecuti	1573: Abac executi | 1758: execut | 1726: exequu ti	ws	opus est ut Dei voluntatem ⟦exsecuti⟧ promissa reportetis
+Heb.10.37	correct	spelling	perpaullo	1573,1758,1715,1747,1726: perpaulo	1750,ws	Etenim ⟦perpaullo⟧ post qui venturus est veniet
+Heb.10.37	base-only	reading		1573: Galat	1556,1758,1715,1747,1726,ws	post qui venturus est veniet ⟦⟧ neque tardabit
+Heb.10.38	base-only	reading	Justus	1573: lustus | 1556: Iuflus | 1750: Iluftus | 1747: Hab Iuflus	1758,1715,1726,ws	⟦Justus⟧ autem fide vivet quod si
+Heb.10.38	others-1573-agrees	division	est acceptus	1747,1750: eftacceptus	1573,1758,1715,1726,ws	quod si se subtraxerit non ⟦est acceptus⟧ animo meo
+Heb.11.1	correct	reading	substantia	1573,1758: subiectio	1715,1747,1750,ws	Est autem fides speratorum ⟦substantia⟧ rerum demonstratio quae non cernuntur
+Heb.11.1	base-only	division	demonstratio	1573: de monstratio | 1750: demonftra tio	1758,1715,1747,ws	autem fides speratorum substantia rerum ⟦demonstratio⟧ quae non cernuntur
+Heb.11.3	correct	reading	iis quae	1573,1758: 	1556,1715,1747,1750,ws	jussu conditum ita ut ex ⟦iis quae⟧ non exstabant facta sint ea
+Heb.11.3	correct	reading	exstabant	1573,1758: extantibus | 1556: extabano | 1715: extabant	1750,ws	ut ex iis quae non ⟦exstabant⟧ facta sint ea quae cernuntur
+Heb.11.3	base-only	edge	cernuntur	1573: 	1556,1758,1726,ws	exstabant facta sint ea quae ⟦cernuntur⟧ Fide praestantiorem rem divinam fecit
+Heb.11.4	base-only	reading	praestantiorem	1573: præstátiorem | 1556: praílatiorem	1758,1715,1747,1750,1726,ws	Fide ⟦praestantiorem⟧ rem divinam fecit Abel quam
+Heb.11.4	base-only	reading		1573: Genef	1556,1758,1715,1747,1750,1726,ws	rem divinam fecit Abel quam ⟦⟧ Cainus Deo per quam eum
+Heb.11.4	base-only	reading		1573: Gen	1556,1758,1747,1750,1726,ws	eum justum esse testatum est ⟦⟧ ejus muneribus testimonium dante Deo
+Heb.11.4	others	reading	eamdem	1556,1758,1715,1747: eandem	1750,ws	testimonium dante Deo et per ⟦eamdem⟧ mortuus adhuc loquitur
+Heb.11.4	base-only	reading	eamdem mortuus	1573: eana cùm eius dem mortuis	1750,ws	testimonium dante Deo et per ⟦eamdem mortuus⟧ adhuc loquitur
+Heb.11.5	others	spelling	exstitit	1758,1715: extitit	1747,1750,ws	et a Deo translatus nusquam ⟦exstitit⟧ Nam ante ejus translationem testatum
+Heb.11.6	base-only	f/s	sine	1573: fine	ws	Cui ut ⟦sine⟧ fide placeatur fieri non potest
+Heb.11.7	base-only	reading	nondum	1573: non Gen dum	1758,1681,1715,1747,1750,1726,ws	oraculo Noa de rebus quae ⟦nondum⟧ cernebantur veritus Deum exstruxit arcam
+Heb.11.7	correct	spelling	exstruxit	1573,1758,1715: extruxit | 1747: exítruxit	1750,ws	quae nondum cernebantur veritus Deum ⟦exstruxit⟧ arcam ad suae familiae salutem
+Heb.11.7	base-only	reading		1573: Gen	1758,1747,1750,1726,ws	veritus Deum exstruxit arcam ad ⟦⟧ suae familiae salutem per quam
+Heb.11.8	correct	reading	Abramus	1573,1758,1715,1747,1726: Abrahamus | 1750: Abra hamus	ws	Fide vocatus ⟦Abramus⟧ obedivit in locum proficiscendo quem
+Heb.11.8	others	reading	profectus	1573: profe ctus | 1747,1726: profe et us	1556,1758,1715,1750,ws	quem hereditate obtenturus erat et ⟦profectus⟧ est nesciens quo vaderet
+Heb.11.10	correct	spelling	Exspectabat	1573,1758,1747: Expectabat | 1556: c Expectabat	ws	⟦Exspectabat⟧ enim fundamenta habentem urbem cujus
+Heb.11.10	base-only	reading		1573: ADHEBRAE OS	1758,1715,1750,ws	Exspectabat enim fundamenta habentem urbem ⟦⟧ cujus artifex opifexque Deus est
+Heb.11.11	base-only	f/s	seminis	1573: feminis	ws	quoque Sara vires ad jactum ⟦seminis⟧ accepit praeterque tempus peperit quandoquidem
+Heb.11.11	base-only	reading	accepit praeterque	1573: ac cepit pręterás	1758,1715,1747,ws	Sara vires ad jactum seminis ⟦accepit praeterque⟧ tempus peperit quandoquidem fidum existimavit
+Heb.11.11	correct	reading		1573,1758,1750: ætatis | 1715: tatis | 1747: actatis	ws	jactum seminis accepit praeterque tempus ⟦⟧ peperit quandoquidem fidum existimavit promissorem
+Heb.11.12	base-only	reading		1573: Gen	1758,1715,1747,1750,1726,ws	emortuo tam multi nati sunt ⟦⟧ quantus est caelestium stellarum numerus
+Heb.11.12	base-only	reading	caelestium	1573: cæleftiuin	1758,1747,1750,1726,ws	multi nati sunt quantus est ⟦caelestium⟧ stellarum numerus aut arenae marini
+Heb.11.13	base-only	reading	amplexi	1573: amGen plexi	1556,1758,1681,1747,1750,1726,ws	ea procul conspicati crediderunt et ⟦amplexi⟧ sunt seque in terra hospites
+Heb.11.13	base-only	reading	confessi	1573: b fe effe pe | 1750: confefi | 1726: conteffi | 1556: cenfet Ib effe pe fi | 1715: confetTi Gen et Par t | 1726: conteffi quis Quisenim dicunttalia pad triam	1758,1747,ws	terra hospites et peregrinos esse ⟦confessi⟧
+Heb.11.14	base-only	reading	enim	1573: eniin	1556,1758,1681,1715,1747,1750,ws	Qui ⟦enim⟧ dicunt talia patriam se requirere
+Heb.11.14	base-only	reading	declarant	1573: deregrinos clarant	1556,1758,1681,1715,1747,1750,ws	dicunt talia patriam se requirere ⟦declarant⟧
+Heb.11.15	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ eam recordarentur ex qua profecti
+Heb.11.16	base-only	spelling	caelestem	1573: coælestem | 1556: codleftem	1758,1715,1747,1750,1726,ws	Nunc potiorem desiderant hoc est ⟦caelestem⟧ Itaque Deum non pudet eorum
+Heb.11.16	base-only	reading	eorum	1573: corum | 1556: corum ifia	1758,1681,1715,1747,1750,1726,ws	non pudet eorum quo minus ⟦eorum⟧ Deus appelletur quippe quibus urbem
+Heb.11.17	base-only	reading	tentaretur unigenitum	1573: tentareEccl tur vnigenituin | 1556: ten taretutiunigeriítum	1750,1726,ws	Fide libavit Abrahamus Isaacum quum ⟦tentaretur unigenitum⟧ obtulit is cui illa promissa
+Heb.11.19	base-only	reading	Deum	1573: Deuin | 1681: Dcum	1556,1758,1715,1747,1750,1726,ws	Cogitans ⟦Deum⟧ vel ex mortuis excitare posse
+Heb.11.19	base-only	division	unde	1573: vn de	1556,1758,1715,1750,1726,ws	vel ex mortuis excitare posse ⟦unde⟧ eum videtur quodam modo recepisse
+Heb.11.20	base-only	reading	Jacobo	1573: lacobo	1758,1715,1747,1750,1726,ws	futurum fausta precatus est Isaacus ⟦Jacobo⟧ et Esauo
+Heb.11.20	correct	reading	Esauo	1758,1750: Esao | 1573,1715: Efao Gen | 1681: Elao v ti	1747,ws	precatus est Isaacus Jacobo et ⟦Esauo⟧
+Heb.11.22	base-only	reading	memoravit deque	1573: me morauit des	1715,1750,1726,ws	Fide Josephus decedens Israelitarum exitum ⟦memoravit deque⟧ suis ossibus mandata dedit
+Heb.11.23	base-only	reading	occultatus	1573: occul c regi non tatus	1556,1758,1681,1715,1747,1750,ws	natus tres menses a parentibus ⟦occultatus⟧ est qui puerum elegantem videntes
+Heb.11.23	base-only	reading	qui	1573: quòd	1556,1715,1747,1750,ws	menses a parentibus occultatus est ⟦qui⟧ puerum elegantem videntes regis edictum
+Heb.11.23	base-only	reading	regis edictum	1573: cregis eparuerunt dictum | 1556: re éeiton gís edíclum	1758,1747,1750,ws	est qui puerum elegantem videntes ⟦regis edictum⟧ veriti non sint
+Heb.11.23	correct	reading	sint	1573,1758: fuerunt | 1556: ftnt | 1681: fuerunt FideMofes	1715,1747,1750,ws	videntes regis edictum veriti non ⟦sint⟧
+Heb.11.26	base-only	reading		1573: a	1758,1681,1750,ws	Majores divitias esse ratus ⟦⟧ Christi probrum quam Aegypti thesauros
+Heb.11.26	base-only	reading	quam	1573: ad pro Chrt	1556,1758,1681,1747,1750,1726,ws	divitias esse ratus Christi probrum ⟦quam⟧ Aegypti thesauros utpote qui praemium
+Heb.11.27	others	spelling	tamquam	1573: Exod tanquam | 1758,1715,1747: tanquam	1750,ws	Aegyptum non veritus regis iram ⟦tamquam⟧ enim inadspectabilem adspiceret sic duravit
+Heb.11.27	correct	reading	inadspectabilem adspiceret	1573,1758: inaspectabilem afpiceret | 1715: inafpe et abilem afpicerer | 1747: inafpe et abilem afpiceret	ws	veritus regis iram tamquam enim ⟦inadspectabilem adspiceret⟧ sic duravit
+Heb.11.28	base-only	edge		1573: e Deum	1556,1758,1750,ws	enim inadspectabilem adspiceret sic duravit ⟦⟧ Fide pascha sanguinisque fusionem fecit
+Heb.11.28	base-only	reading	fusionem	1573: fusionen | 1726: Deo de nobis quiddam mefufionem	1758,1715,1747,1750,ws	Fide pascha sanguinisque ⟦fusionem⟧ fecit ne primogenitorum interfector illos
+Heb.11.28	base-only	division	primogenitorum	1573: primo genitorum | 1715: primogenito rum | 1726: primogenito kius providenteyne sillig fine ne rum	1758,1747,1750,ws	pascha sanguinisque fusionem fecit ne ⟦primogenitorum⟧ interfector illos tangeret
+Heb.11.29	correct	spelling	tamquam	1573,1758,1715,1747: tanquam | 1556: tan xo quam	1750,ws	Fide item illi mare rubrum ⟦tamquam⟧ terra sicca trajecerunt quod experti
+Heb.11.29	base-only	reading		1573: Exod	1758,1681,1747,1750,ws	mare rubrum tamquam terra sicca ⟦⟧ trajecerunt quod experti Aegyptii exhausti
+Heb.11.29	base-only	reading	quod	1573: quost	1556,1758,1681,1715,1747,1750,1726,ws	rubrum tamquam terra sicca trajecerunt ⟦quod⟧ experti Aegyptii exhausti sunt
+Heb.11.30	base-only	reading	moenia	1573: incenia | 1556: moe r nía	1758,1715,1747,1750,1726,ws	Fide Hierichuntis ⟦moenia⟧ collapsa sunt per septem dies
+Heb.11.30	base-only	reading	septem	1573: fe ptein	1758,1715,1747,1750,1726,ws	Hierichuntis moenia collapsa sunt per ⟦septem⟧ dies circumdata
+Heb.11.31	base-only	division	diffidentibus	1573: diffi dentibus	1758,1715,1747,1750,1726,ws	meretrix non periit una cum ⟦diffidentibus⟧ quae exploratores amice accepisset
+Heb.11.32	base-only	reading	narrantem	1573: nar Ind rantem | 1556: nar rantem | 1726: narrantera	1758,1715,1750,ws	quid multis deficiet me tempus ⟦narrantem⟧ de Gedeone Baraco Samsone Jephtha
+Heb.11.32	correct	reading	Samsone	1573,1758,1715,1726: Sampsone	1747,1750,ws	tempus narrantem de Gedeone Baraco ⟦Samsone⟧ Jephtha Davide Samuele et vatibus
+Heb.11.32	base-only	division	Davide	1573: Da uide	1556,1758,1715,1747,1750,1726,ws	de Gedeone Baraco Samsone Jephtha ⟦Davide⟧ Samuele et vatibus
+Heb.11.33	base-only	reading	promissa obturarunt	1573: pmissa obthurarut	1758,1750,ws	justitia functi sunt adepti sunt ⟦promissa obturarunt⟧ fauces leonum
+Heb.11.34	correct	spelling	exstinxerunt	1573,1758,1747: extinxerunt | 1556: exiínxerunt | 1715: extinxerui t SETA e t Rer umo a M Re EPISTOLA | 1750: exflinxerunt	ws	Vim ignis ⟦exstinxerunt⟧ gladiorum mucrones effugerunt convaluerunt ex
+Heb.11.34	base-only	division	fuerunt	1573: fue runt | 1556: fucrunt	1758,1681,1715,1747,1750,ws	ex morbis fortes in bellis ⟦fuerunt⟧ agmina verterunt hostium
+Heb.11.35	base-only	reading	mortuos	1573: mor Reg tuos	1556,1758,1715,1747,1750,ws	feminae revocatos in vitam suos ⟦mortuos⟧ Alii autem cruciati sunt neque
+Heb.11.35	base-only	reading	siverunt quo meliorem adsequerentur	1573: siuerút Efa quofmeliorem assequerentur	ws	cruciati sunt neque se liberari ⟦siverunt quo meliorem adsequerentur⟧ resurrectionem
+Heb.11.35	others	spelling	adsequerentur	1758,1715: assequerentur | 1747: aífequerentur | 1750: adfeque rentur	ws	se liberari siverunt quo meliorem ⟦adsequerentur⟧ resurrectionem
+Heb.11.36	base-only	reading	custodias	1573: cufto Reg dias | 1715: cultodías	1758,1747,1750,ws	et scuticas itemque vincula et ⟦custodias⟧ experti sunt
+Heb.11.37	base-only	reading	interierunt	1573: interierűt illa libera | 1750: ipterierunt	1758,1715,1747,ws	secti tentati sunt gladii caede ⟦interierunt⟧ ovinas caprinasque pelles gestarunt egentes
+Heb.11.37	base-only	reading	calamitosi aerumnosi	1573: calamito tio si ærumnoi | 1750: calamitoli ae rumnofi	1758,ws	ovinas caprinasque pelles gestarunt egentes ⟦calamitosi aerumnosi⟧
+Heb.12.1	base-only	division	nimbo testium	1573: nimbote stium	1758,1715,1750,1726,ws	Proinde nos quoque tanto circumsepti ⟦nimbo testium⟧ deposito omni fastu tenacique peccato
+Heb.12.1	base-only	reading	fastu tenacique	1573: onere a ambitiosoque | 1758: onere ambitiosoque	1747,1750,ws	circumsepti nimbo testium deposito omni ⟦fastu tenacique⟧ peccato patienter decurramus propositum nobis
+Heb.12.1	base-only	reading	propositum	1573: proposituin	1556,1758,1715,1747,1750,1726,ws	fastu tenacique peccato patienter decurramus ⟦propositum⟧ nobis certamen
+Heb.12.1	base-only	reading		1573: a mallem nos ambiente et	1758,1715,1747,1750,ws	peccato patienter decurramus propositum nobis ⟦⟧ certamen
+Heb.12.2	base-only	edge		1573: quasi tu di	1556,1758,ws	patienter decurramus propositum nobis certamen ⟦⟧ Spectantes in fidei ducem perfectoremque
+Heb.12.2	base-only	reading		1573: cas circúdan	1758,1681,1747,1726,ws	in fidei ducem perfectoremque Jesum ⟦⟧ qui pro laetitia sibi proposita
+Heb.12.2	base-only	reading	pudore	1573: pu res ambit he dore	1556,1758,1681,1715,1747,1750,1726,ws	laetitia sibi proposita sustinuit contempto ⟦pudore⟧ crucem et ad dexteram solii
+Heb.12.2	base-only	f/s	solii	1573: folij	ws	pudore crucem et ad dexteram ⟦solii⟧ Dei consedit
+Heb.12.3	base-only	reading	Considerate	1573: Cófiderate	1758,1715,1747,1750,1726,ws	⟦Considerate⟧ vero eum qui tnatos pertulit
+Heb.12.3	base-only	reading	eum	1573: eű	1758,1681,1715,1747,1750,1726,ws	Considerate vero ⟦eum⟧ qui tnatos pertulit improborum adversum
+Heb.12.3	others	reading	tnatos	1758,1715,1747,1750: tantos | 1726: runt hoftium wishlab tantos	ws	Considerate vero eum qui ⟦tnatos⟧ pertulit improborum adversum se insultus
+Heb.12.3	base-only	reading	tnatos pertulit	1573: tátos ptulit | 1681: tantos pertuphil	ws	Considerate vero eum qui ⟦tnatos pertulit⟧ improborum adversum se insultus ne
+Heb.12.3	base-only	reading	adversum	1573: aduerfű | 1715: ade verfum | 1726: ad Receperunt fœminæ revo i verfum	1556,1758,1681,1747,1750,ws	eum qui tnatos pertulit improborum ⟦adversum⟧ se insultus ne defatigati animos
+Heb.12.3	base-only	reading	despondeatis	1573: despódeatis | 1681: de pondeatis Peir t	1556,1758,1715,1747,1750,1726,ws	se insultus ne defatigati animos ⟦despondeatis⟧
+Heb.12.5	correct	spelling	adloquitur	1573,1758,1715,1747: alloquitur	1750,ws	cohortationis quae vos ceu filios ⟦adloquitur⟧ fili mi ne contemne Domini
+Heb.12.5	base-only	reading		1573: Prou	1758,1747,1750,1726,ws	mi ne contemne Domini castigationem ⟦⟧ neve desponde eo te corrigente
+Heb.12.5	base-only	reading	eo	1573: co	1758,1681,1715,1747,1750,ws	contemne Domini castigationem neve desponde ⟦eo⟧ te corrigente
+Heb.12.6	correct	spelling	quemcumque	1573,1747: quemcunque | 1715: quemcune que	1750,ws	amat Dominus castigat et verberat ⟦quemcumque⟧ filium acceptum habet
+Heb.12.8	base-only	f/s	si	1573: fi	ws	Quod ⟦si⟧ castigationis expertes estis cujus participes
+Heb.12.8	base-only	division	participes	1573: partici pes	1556,1758,1681,1715,1747,1750,1726,ws	si castigationis expertes estis cujus ⟦participes⟧ fuerunt omnes ergo spurii estis
+Heb.12.9	base-only	division	haberemus	1573: habere mus	1556,1758,1681,1715,1747,1750,1726,ws	Ergone quum corporum nostrorum patres ⟦haberemus⟧ castigatores reverebamur non multo magis
+Heb.12.10	base-only	reading	exiguum	1573: exiguű	1556,1758,1681,1715,1747,1750,1726,ws	Nam illi ad tempus ⟦exiguum⟧ prout eis videbatur castigabant hic
+Heb.12.10	base-only	reading		1573: EPIST AD HEBRAEO S	1556,1758,1747,1750,ws	tempus exiguum prout eis videbatur ⟦⟧ castigabant hic vero ad utilitatem
+Heb.12.11	base-only	division	voluptatis	1573: volu ptatis | 1715,1747: voluntatis	1556,1758,1681,1750,1726,ws	quidem castigatio in praesentia non ⟦voluptatis⟧ sed doloris esse cernitur verum
+Heb.12.11	base-only	reading	illis	1573: ijs | 1758: is | 1715: Cap AD HEBR XO S reddit iis | 1747: lis	1750,ws	tandem salutarem justitiae fructum reddit ⟦illis⟧ qui per eam sunt exercitati
+Heb.12.13	others-1573-agrees	reading	rectas	1681: rc et as | 1747: re et as | 1726: Dei viventis urbem Hierofolymam cœleftem angelorum legiones Conventum cœtumque primogenitorum in cœlis confcriprorum et judicem Deum omnium et ad fpiritus juftorum perfectorum Erectas	1573,1758,1715,1750,ws	Et ⟦rectas⟧ pedibus istis orbitas imprimite ne
+Heb.12.13	base-only	reading	claudum	1573: claus dum | 1556: claud et c rijs peregriniscp doctrínís noliteferrí Praccla a t	1758,1715,1747,1750,1726,ws	pedibus istis orbitas imprimite ne ⟦claudum⟧ quod est contorqueatur sed potius
+Heb.12.14	base-only	reading	sanctimoniam	1573: sanctimo Mat niam | 1681: V in et imoniam | 1715: fandtimoniam	1556,1758,1747,1750,1726,ws	Pacem cum omnibus persequimini et ⟦sanctimoniam⟧ sine qua nemo Dominum videbit
+Heb.12.14	base-only	f/s	sine	1573: fine	ws	cum omnibus persequimini et sanctimoniam ⟦sine⟧ qua nemo Dominum videbit
+Heb.12.15	base-only	division	radix acerbitatis	1573: radixacerbitatis	1758,1681,1747,1750,ws	Dei favore careat ne qua ⟦radix acerbitatis⟧ sursum pullulans noceat per eamque
+Heb.12.16	base-only	f/s	sit	1573: fit	ws	Ne quis ⟦sit⟧ impudicus aut profanus ut Esauus
+Heb.12.16	correct	reading	Esauus	1573,1556,1758,1750: Esaus | 1681: tcf ij faus | 1715: EGus	1747,ws	sit impudicus aut profanus ut ⟦Esauus⟧ qui pro uno cibatu aetatis
+Heb.12.17	base-only	reading	faustitatem obtinere vellet	1573: felicitatem obtinerevelGen let	1747,1750,ws	Scitis enim quum postea ⟦faustitatem obtinere vellet⟧ repudiatum fuisse neque poenitentiae locum
+Heb.12.17	base-only	reading		1573: a	1758,1715,1747,1750,ws	faustitatem obtinere vellet repudiatum fuisse ⟦⟧ neque poenitentiae locum invenisse tametsi
+Heb.12.17	base-only	reading	invenisse	1573: inue fuiffe pæm nifle | 1758: inrenisse | 1747: inuenifle	1715,1750,ws	repudiatum fuisse neque poenitentiae locum ⟦invenisse⟧ tametsi faustitatem cum lacrimis requisierit
+Heb.12.17	correct	reading	faustitatem	1573,1758: felicitatem | 1715: faufti verum etiam coelum tatem | 1750: fauftita tem	1747,ws	neque poenitentiae locum invenisse tametsi ⟦faustitatem⟧ cum lacrimis requisierit
+Heb.12.17	others-1573-agrees	spelling	lacrimis	1758,1747: lacrymis | 1715: lachrymis	1573,1750,ws	locum invenisse tametsi faustitatem cum ⟦lacrimis⟧ requisierit
+Heb.12.18	base-only	reading		1573: b	1556,1758,1747,1750,ws	Non enim accessistis ad ⟦⟧ palpandum montem ardentemque ignem et
+Heb.12.18	base-only	reading		1573: seen	1758,1715,1750,ws	enim accessistis ad palpandum montem ⟦⟧ ardentemque ignem et caliginem et
+Heb.12.18	base-only	reading		1573: obductum vt	1556,1758,1681,1715,1747,ws	et caliginem et tenebras et ⟦⟧ procellam
+Heb.12.19	base-only	reading	Tubaeque	1573: tubes | 1573: tactu nó vi tubes | 1715: Pf Exod t et g Proinde regnum capeffen Tubzque	1758,1681,1747,1750,ws	⟦Tubaeque⟧ sonitum et illam verborum vocem
+Heb.12.19	base-only	reading		1573: fu adeundus	1556,1758,1681,1715,1747,1750,ws	et illam verborum vocem quam ⟦⟧ qui audiverant orarunt ne sibi
+Heb.12.21	others-1573-agrees	reading	spectaculum	1747,1750: fpe et aculum	1573,1556,1758,ws	Quum adeo horribile foret illud ⟦spectaculum⟧ ut se Moses ipse prae
+Heb.12.22	others-1573-agrees	reading	accessistis	1758,1750: acceslistis | 1681: acccfliftis	1573,ws	Verum ⟦accessistis⟧ ad Sionem montem et Dei
+Heb.12.22	correct	reading	et	1573,1758: 	1750,ws	Dei viventis urbem Hierosolymam caelestem ⟦et⟧ angelorum legiones
+Heb.12.22	base-only	reading		1573: Apoc al	1758,1750,ws	urbem Hierosolymam caelestem et angelorum ⟦⟧ legiones
+Heb.12.24	base-only	reading	loquentem	1573: loquétem | 1556: loquente | 1747: loquen ni ne mandate perhance tem	1758,1681,1750,1726,ws	Jesum et lustralem sanguinem meliora ⟦loquentem⟧ quam sanguis Abelis
+Heb.12.25	base-only	f/s	si	1573: fi	ws	Videte ne loquentem repudietis Nam ⟦si⟧ illi non effugerunt qui oracula
+Heb.12.26	correct	reading		1573: concussit et nuncita Agge | 1758: concuslit et nunc ita | 1750: concufAD HEBRAEO fit et nuncita	ws	et tum sua voce terram ⟦⟧ denuntiavit adhuc semel ego commovebo
+Heb.12.26	base-only	division	solum	1573: so lùm | 1681: iolum	1758,1750,1726,ws	adhuc semel ego commovebo non ⟦solum⟧ terram verum etiam caelum
+Heb.12.27	base-only	division	mutationem	1573: mư tationem	1556,1758,1681,1750,ws	Hoc verbum adhuc semel concutiendorum ⟦mutationem⟧ declarat quippe conditorum quo maneant
+Heb.12.27	base-only	reading	maneant	1573: maneát	1556,1758,1750,ws	mutationem declarat quippe conditorum quo ⟦maneant⟧ non concutienda
+Heb.12.28	base-only	reading	habeamus	1573: cha e fcilices beamus	1758,1750,ws	Proinde regnum capessentes inconcussum ⟦habeamus⟧ gratiam per quam ita reverenter
+Heb.12.28	base-only	reading		1573: De	1758,1715,1750,ws	quam ita reverenter et religiose ⟦⟧ Deum colamus ut ei simus
+Heb.12.28	base-only	f/s	simus	1573: fimus	ws	religiose Deum colamus ut ei ⟦simus⟧ accepti
+Heb.12.29	base-only	division	Est enim	1573: Estenim	1758,1750,ws	⟦Est enim⟧ Deus noster ignis edax
+Heb.12.29	base-only	reading	ignis	1573: dignis	1758,1715,1750,ws	Est enim Deus noster ⟦ignis⟧ edax
+Heb.13.2	base-only	reading	hospitio	1573: holpitio | 1715: hofpi Pontifice eorum corpora tretio	1758,1681,1750,1726,ws	hanc enim nonnulli inscienter angelos ⟦hospitio⟧ acceperunt
+Heb.13.3	base-only	reading	simul	1573: sia quod vo mul | 1556: f Ji mul	1758,1715,1750,1726,ws	perinde ac si essetis ipsi ⟦simul⟧ vincti et calamitosorum ut qui
+Heb.13.3	base-only	reading		1573: et	1556,1758,1715,1750,ws	ipsi simul vincti et calamitosorum ⟦⟧ ut qui sitis ipsi quoque
+Heb.13.3	base-only	reading	quoque	1573: quoqs bis cade pof | 1556: quodus quog	1758,1681,1715,1750,1726,ws	calamitosorum ut qui sitis ipsi ⟦quoque⟧ in corpore
+Heb.13.4	base-only	reading	puniet Deus	1573: pu	1556,1758,1681,1750,1726,ws	lectus Impudicos vero et adulteros ⟦puniet Deus⟧
+Heb.13.5	base-only	reading		1573: losue	1758,1715,ws	pecuniae studio alienis contenti iis ⟦⟧ quae adsunt Dixit enim ille
+Heb.13.5	base-only	reading		1573: Plal	1758,1715,1750,ws	ille non deseram te neque ⟦⟧ derelinquam
+Heb.13.6	base-only	reading	metuam	1573: metuain | 1747: me Nonenim habemus hic c tuam	1556,1758,1681,1750,1726,ws	Dominus mihi defensor est non ⟦metuam⟧ ne quid mihi faciant homines
+Heb.13.7	base-only	reading		1573: b quales ef | 1747: Per eum igitur libemus	1758,1750,1726,ws	qui vobis praesunt qui vobis ⟦⟧ divinam exposuere doctrinam quorum intuentes
+Heb.13.7	base-only	reading	intuentes eventum	1573: intuetes beficiantur co uentum	1556,1758,1750,ws	vobis divinam exposuere doctrinam quorum ⟦intuentes eventum⟧ morum imitamini fidem
+Heb.13.8	base-only	reading	sempiternum	1573: sem quorum cau c vtChriftus	1556,1758,1750,ws	hodie et idem est in ⟦sempiternum⟧
+Heb.13.9	base-only	reading	peregrinisque	1573: peregrinisés	1758,1750,ws	Variis ⟦peregrinisque⟧ doctrinis nolite ferri Praeclarum vero
+Heb.13.9	base-only	reading	Praeclarum	1573: Præclatuò manet rum	1758,1750,ws	Variis peregrinisque doctrinis nolite ferri ⟦Praeclarum⟧ vero est gratiarum actione firmari
+Heb.13.9	base-only	reading		1573: ita debetis	1556,1758,1681,1750,ws	gratiarum actione firmari animum non ⟦⟧ cibis quibus nihil adjuti sunt
+Heb.13.10	base-only	edge		1573: eandem do	1556,1758,1747,1750,ws	adjuti sunt qui eis vixerunt ⟦⟧ Habemus aram ex qua cibum
+Heb.13.10	base-only	reading	potestatem	1573: potesta petuò tene tem | 1681: frnb b teftatem	1758,1747,1750,1726,ws	aram ex qua cibum capiendi ⟦potestatem⟧ non habent qui tabernaculo serviunt
+Heb.13.11	base-only	reading	sacrarium	1573: sanctuaNum rium | 1758: sanctuarium	1556,1747,1750,ws	Quorum enim piaculorum sanguis in ⟦sacrarium⟧ infertur a pontifice eorum corpora
+Heb.13.11	base-only	reading		1573: Iohan	1556,1758,1750,1726,ws	a pontifice eorum corpora cremantur ⟦⟧ extra castra
+Heb.13.13	base-only	reading	dedecus ferentes	1573: de	1758,1750,ws	ad eum extra castra ejus ⟦dedecus ferentes⟧
+Heb.13.15	base-only	division	Per eum	1573: Pereum	1556,1758,1750,1726,ws	⟦Per eum⟧ igitur libemus adsiduum laudationis sacrificium
+Heb.13.15	correct	spelling	adsiduum	1573,1758,1726: assiduum	1750,ws	Per eum igitur libemus ⟦adsiduum⟧ laudationis sacrificium Deo hoc est
+Heb.13.15	base-only	reading	sacrificium	1573: facrificiuin	1758,1681,1750,1726,ws	eum igitur libemus adsiduum laudationis ⟦sacrificium⟧ Deo hoc est labiorum fructum
+Heb.13.17	base-only	division	obsequimini	1573: obsequi mini | 1681: oW quimini	1556,1758,1715,1750,1726,ws	Parete vero gubernatoribus vestris et ⟦obsequimini⟧ nam ii pro animis vestris
+Heb.13.17	base-only	division	ut id cum laetitia	1573: vtid cumlætitia	1758,1750,ws	vestris vigilant ut rationem reddituri ⟦ut id cum laetitia⟧ faciant non gementes nam id
+Heb.13.18	base-only	reading	conscios	1573: cóscios	1758,1715,1750,1726,ws	qui nos bene nobis esse ⟦conscios⟧ confidimus praeclare nos in omnibus
+Heb.13.18	base-only	reading	volentes	1573: volétes | 1573: volétes Adidautem	1556,1758,1681,1715,1750,1726,ws	praeclare nos in omnibus gerere ⟦volentes⟧
+Heb.13.19	base-only	division	Ad id autem	1573: Adidautem	1556,1758,1681,1747,1750,ws	⟦Ad id autem⟧ faciendum eo vehementius exhortor ut
+Heb.13.19	base-only	division	exhortor	1573: exhor tor	1556,1758,1715,1747,1726,ws	id autem faciendum eo vehementius ⟦exhortor⟧ ut celerius vobis restituar
+Heb.13.20	base-only	reading		1573: i Pet	1750,ws	ovium pastorem per aeterni testamenti ⟦⟧ sanguinem Dominum nostrum Jesum
+Heb.13.21	others	spelling	exsequendam	1573: exe quendam | 1758,1715,1747,1726: exequendam	1750,ws	in omnibus recte factis ad ⟦exsequendam⟧ suam voluntatem vobis ut ei
+Heb.13.21	base-only	f/s	suam	1573: fuam	ws	omnibus recte factis ad exsequendam ⟦suam⟧ voluntatem vobis ut ei visum
+Heb.13.22	base-only	division	exhortatorium	1573: exhor tatorium	1758,1747,1750,ws	vos fratres boni consulite hunc ⟦exhortatorium⟧ sermonem nam paucis scripsi vobis
+Heb.13.23	correct	reading		1573,1758: si	ws	Timotheum solutum esse cum quo ⟦⟧ quamprimum venerit videbo vos
+Heb.13.24	others-1573-agrees	reading	sanctos	1747: fan et tos | 1750: fan et os	1573,1758,ws	Salutate omnes rectores vestros omnesque ⟦sanctos⟧ Salutant vos Italici
+Heb.13.25	correct	reading	favor	1573,1758: gratia	1715,1747,ws	Adsit vobis omnibus ⟦favor⟧ Amen Missa ex Italia per
