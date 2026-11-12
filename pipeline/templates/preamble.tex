@@ -8,7 +8,7 @@
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage[hang,flushmargin,para,perpage]{footmisc}
-\usepackage{multicol,lipsum,microtype}
+\usepackage{multicol,microtype,etoolbox}
 
 \usepackage[T1]{fontenc}
 % \usepackage{imfellEnglish}
@@ -17,12 +17,17 @@
 \setlrmarginsandblock{0.5in}{0.6in}{*}
 \setulmarginsandblock{0.8in}{0.6in}{*}
 
-\checkandfixthelayout
-\checkthelayout
-\fixthelayout
-\baselineskip \topskip
+% The line spacing is set before the layout is fixed, so the text block holds a whole number of lines (\topskip +
+% n \baselineskip): otherwise no column can be filled exactly, and multicols ends columns early.
+\linespread{1.1}\selectfont
+\checkandfixthelayout[lines]
 
 \frenchspacing
+% No paragraph ends on the stub of a hyphenated word ("Abrahā- / mō:", Matt 1:1).
+\finalhyphendemerits=100000
+% No stretch between paragraphs: a column filled out to full height must not open a gap where a paragraph meets
+% a poem (Matt 1:1–2).
+\setlength{\parskip}{0pt}
 % \sloppy
 
 \renewcommand*\footnoterule{}
@@ -34,33 +39,76 @@
 \newcommand{\libernameshort}{}
 \newcommand{\libernamelong}{}
 
+% A recto page: a blank verso before it, if needed, carries no running head.
+\makeatletter
+\newcommand{\ClearToRecto}{\clearpage\ifodd\c@page\else\thispagestyle{empty}\null\clearpage\fi}
+\makeatother
+
+% Each book is set in two balanced columns (multicols), its title across both. The contents entry and the PDF
+% bookmark are made after the page break, so they point to the book's first page; the first book opens recto.
+% \FinisLibri (written by pipeline/pdf.py after each book) closes the columns, balancing the last page.
 \newcommand{\Liber}[2][Missing Longform Title]{%
-    \renewcommand{\libernamelong}{#1}
-    \renewcommand{\libernameshort}{#2}
-    \stepcounter{libercount}
-    \addcontentsline{toc}{chapter}{#2}
-
-    \clearforchapter
-    \thispagestyle{empty}
-
-    \begin{center}
-        \HUGE \textsc{\libernamelong} \\[2.5em]
-    \end{center}
-    
+    \ifnum\value{libercount}=0 \ClearToRecto\else\clearpage\fi
+    \renewcommand{\libernamelong}{#1}%
+    \renewcommand{\libernameshort}{#2}%
+    \stepcounter{libercount}%
+    \phantomsection
+    \addcontentsline{toc}{chapter}{#2}%
+    \thispagestyle{empty}%
+    \begin{multicols}{2}[\LiberTitulus]%
 }
+\newcommand{\LiberTitulus}{%            % a macro: multicols' [title] argument may not hold a \par itself
+    \begin{center}
+        \HUGE \textsc{\libernamelong}\par
+    \end{center}
+    \vspace{1.5\baselineskip}}
+\newcommand{\FinisLibri}{\par\end{multicols}}
 
+% A chapter: one blank line before it (none at a book's start), then the drop numeral. Its first paragraph never
+% leaves fewer than three lines at the foot of a column (\clubpenalties, for that paragraph only); a column may
+% end up to two lines short instead. (Not \needspace, which measures the page and so breaks multicols.)
 \newcommand{\Caput}{%
     \stepcounter{caputcount}%
-    
-    \ifnum\thecaputcount=1 {} \else {\leavevmode \linebreak}\fi%
-    
+    \par
+    \ifnum\value{caputcount}>1
+        \vskip 0pt plus 2\baselineskip \penalty0 \vskip 0pt plus -2\baselineskip
+        \vspace{\baselineskip}\fi
+    \clubpenalties 3 10000 10000 \clubpenalty
+    \AddToHookNext{para/after}{\clubpenalties 0 }%
     \lettrine{\thecaputcount}%
 }
 
+% A verse number; each one also sets a mark {book}{chapter}{verse} for the running heads.
+\makeatletter
 \newcommand{\Versus}{%
     \stepcounter{versuscount}%
-    \ifnum\theversuscount=1 { } \else {\textsuperscript{\theversuscount}}\fi%
+    \protected@edef\@tempa{\noexpand\CastellioRef{\libernameshort}{\arabic{caputcount}}{\arabic{versuscount}}}%
+    \mark{\unexpanded\expandafter{\@tempa}}%        % \mark expands its text: keep \CastellioRef as it is
+    \ifnum\value{versuscount}=1 { } \else {\textsuperscript{\theversuscount}}\fi%
 }
+% The range of verses that begin on the page: "Genesis 1:31 – 2:25", "Genesis 3:1–14", "Genesis 3:15". Only
+% marks made by \Versus count (memoir's own, such as the contents' \markboth, are skipped): a page without them
+% has an empty head.
+\def\CastellioRef{\relax}
+\def\Castellio@sentinel{\CastellioRef}
+\newif\ifCastellio@ref
+\def\Castellio@isref#1#2\@nil{\def\@tempb{#1}%
+    \ifx\@tempb\Castellio@sentinel\else\global\Castellio@reffalse\fi}
+\def\Castellio@first#1#2#3{\def\Castellio@book{#1}\def\Castellio@fc{#2}\def\Castellio@fv{#3}}
+\def\Castellio@last#1#2#3{\def\Castellio@lc{#2}\def\Castellio@lv{#3}}
+\newcommand{\VersusRange}{{%
+    \global\Castellio@reftrue
+    \expandafter\Castellio@isref\firstmark\relax\@nil
+    \expandafter\Castellio@isref\botmark\relax\@nil
+    \ifCastellio@ref
+        \let\CastellioRef\Castellio@first \firstmark
+        \let\CastellioRef\Castellio@last \botmark
+        \Castellio@book\ \Castellio@fc:\Castellio@fv
+        \ifnum\Castellio@fc=\Castellio@lc
+          \ifnum\Castellio@fv=\Castellio@lv\else\textendash\Castellio@lv\fi
+        \else\ \textendash\ \Castellio@lc:\Castellio@lv\fi
+    \fi}}
+\makeatother
 
 \newcommand{\summary}[1]{%
     \vspace{3pt}
@@ -75,8 +123,8 @@
 
 % default page style
 \makepagestyle{plain}
-\makeevenhead{plain}{\thepage\hspace{1em}|\hspace{1em}\libernameshort {} \thecaputcount}{}{}
-\makeoddhead{plain}{}{}{\libernameshort {} \thecaputcount\hspace{0.75em}|\hspace{0.75em}\thepage}
+\makeevenhead{plain}{\thepage\hspace{1em}|\hspace{1em}\VersusRange}{}{}
+\makeoddhead{plain}{}{}{\VersusRange\hspace{0.75em}|\hspace{0.75em}\thepage}
 \pagestyle{plain}
 
 \input{title.tex}
@@ -84,16 +132,25 @@
 \renewcommand{\contentsname}{\begin{center}\MakeUppercase{ōrdō librōrum}\end{center}}
 \AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
 
-\renewcommand{\book}[1]{
-\cleardoublepage % start a new recto page
-\thispagestyle{book} % set the page style
-\onecolumn
-\beforebookskip % space before Name and Number
-\midpartskip % space after Name and Number
+% A testament's divider: a recto page with its verso blank, so the first book after it opens recto.
+\renewcommand{\book}[1]{%
+\ClearToRecto
+\thispagestyle{empty}%
+\beforebookskip
+\midpartskip
 \begin{center}
-\printbooktitle{#1} % print the title
+\printbooktitle{#1}
 \end{center}
-\addtocontents{toc}{\begin{center}\Large\bfseries #1\end{center}}
-\bookpageend} % finish off
+\addtocontents{toc}{\begin{center}\Large\bfseries #1\end{center}}%
+\ClearToRecto}
+
+% Poetry: no space above or below a poem, so prose and verse share one line grid; no hyphens inside a line.
+\makeatletter
+\AtBeginEnvironment{verse}{%
+  \def\@listi{\leftmargin\leftmargini \topsep\z@ \partopsep\z@ \parsep\z@ \itemsep\z@}%
+  \let\@listI\@listi
+  \hyphenpenalty=10000 \exhyphenpenalty=10000
+  \@rightskip=0pt plus 3em\relax}        % (\list sets \rightskip from it) a long line turns over ragged
+\makeatother
 
 \linespread{1.1}  % Standardize line spacing even with superscript verse numbers

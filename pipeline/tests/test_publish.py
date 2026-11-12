@@ -167,6 +167,19 @@ class Latex(unittest.TestCase):
         self.assertEqual(document.count("\\begin{document}"), 1)
         self.assertEqual(pdf.tex_escape("50% & _x_"), "50\\% \\& \\_x\\_")
 
+    def test_document_closes_each_book_and_lists_sources_last(self):
+        selected = publish.load(["Mark", "Rom"])
+        document = pdf.document(selected, "Biblia Sacra", "v0")
+        body = document.split("\\begin{document}", 1)[1]
+        self.assertEqual(body.count("\\Liber["), 2)
+        self.assertEqual(body.count("\\FinisLibri"), 2)              # each book's columns closed
+        back = body.rsplit("\\FinisLibri", 1)[1]
+        self.assertIn("Fontes", back)                                  # the Wikisource pages after the last book
+        self.assertIn("revision 165335", back)
+        colophon = document.split("\\begin{titlingpage}", 1)[1].split("\\end{titlingpage}", 1)[0]
+        self.assertNotIn("revision 165335", colophon)                  # not on the title page's verso
+        self.assertNotIn("\\Large Biblia Sacra", colophon)             # the title proper not repeated
+
 
 class Build(unittest.TestCase):
     def test_build_mark(self):

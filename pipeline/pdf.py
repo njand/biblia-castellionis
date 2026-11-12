@@ -1,9 +1,10 @@
 """The print PDF: build/pdf/<stem>.tex, generated from the USFM master, compiled with latexmk (or pdflatex twice)
 when a TeX install is on the PATH.
 
-The preamble is pipeline/templates/preamble.tex (the former LaTeX/main.tex's), taken as it stands (memoir, A5,
-lettrine drop caps, running heads, \\Liber, \\Caput, \\Versus), with templates/title.tex inlined so the file stands
-alone. Each book's body is `latex.to_latex`, the same conversion the migration's round trip proved lossless. Added after the preamble: the commands for a
+The preamble is pipeline/templates/preamble.tex (memoir, A5, each book in two balanced columns, lettrine drop
+caps, running heads giving the verses on the page, \\Liber, \\Caput, \\Versus, \\FinisLibri), with
+templates/title.tex inlined so the file stands alone. After the last book comes a page listing the Wikisource
+pages and revisions used (`sources`). Each book's body is `latex.to_latex`, the same conversion the migration's round trip proved lossless. Added after the preamble: the commands for a
 chapter summary (\\Argumentum) and a psalm title (\\Titulus), ȳ for inputenc, and the title and colophon pages."""
 
 import re
@@ -36,6 +37,7 @@ ADDITIONS = r"""
 \let\CastellioContentsname\contentsname
 \AtBeginDocument{\let\contentsname\CastellioContentsname}
 \setlength{\emergencystretch}{1.5em}
+\urlstyle{same}                     % web addresses in the text face, not typewriter type
 \newcommand{\Argumentum}[1]{\par\medskip{\small\itshape #1\par}\smallskip}
 \newcommand{\Titulus}[1]{\par{\itshape #1\par}\smallskip}
 \newcommand{\Subscriptio}[1]{\par\medskip{\small\itshape\noindent #1\par}}
@@ -56,9 +58,11 @@ def tex_escape(text):
 
 
 def colophon(selected):
+    """The title page's verso: the edition, its bases, editor and licence. The Wikisource pages and revisions are
+    listed on the last page (`sources`): a whole Bible's list would not fit here."""
     info = publish.credits(selected)
-    pages = "\n".join(f"\\item {tex_escape(short)}: \\url{{{url}}} (revision {revid}, fetched {fetched})"
-                      for short, url, revid, _, fetched in info["pages"])
+    wikisource = info["wikisource"].replace("Pages and revisions used:",
+                                            "The pages and revisions used are listed at the end of the volume.")
     return rf"""\newpage
 \vspace*{{\fill}}
 {{\footnotesize\raggedright
@@ -74,23 +78,57 @@ def colophon(selected):
 {tex_escape(info["licence"])} \url{{{info["licence_url"]}}}
 
 \medskip
-{tex_escape(info["wikisource"])}
-\begin{{itemize}}\setlength{{\itemsep}}{{0pt}}
-{pages}
-\end{{itemize}}
+{tex_escape(wikisource)}
 
+\medskip
 {tex_escape("Source files, data and corrections:")} \url{{{info["repository"]}}}
 \par}}
 """
 
 
+def sources(selected):
+    """The last page: the Wikisource pages and revisions used (the CC BY-SA attribution), each name linked to
+    its revision."""
+    info = publish.credits(selected)
+    if not info["pages"]:
+        return ""
+    rows = "\n".join(f"\\item {tex_escape(short)}: \\href{{{oldid}}}{{{tex_escape(page_name(url))}}}, "
+                     f"revision {revid} (fetched {fetched})"
+                     for short, url, revid, oldid, fetched in info["pages"])
+    return rf"""
+\clearpage
+\thispagestyle{{empty}}
+\phantomsection
+\addcontentsline{{toc}}{{chapter}}{{Fontes}}
+\vspace*{{\fill}}
+{{\footnotesize\raggedright
+{tex_escape(info["wikisource"].replace(" Pages and revisions used:", ""))} \url{{{info["wikisource_url"]}}}
+
+\medskip
+{tex_escape("Pages and revisions used:")}
+\begin{{itemize}}\setlength{{\itemsep}}{{0pt}}
+{rows}
+\end{{itemize}}
+\par}}
+\vspace*{{\fill}}
+"""
+
+
+def page_name(url):
+    """The page's name under the work: …/Biblia_Sacra_interprete_Sebastiano_Castellione/Evangelium_auctore_Marco
+    → "…/Evangelium auctore Marco"."""
+    return "…/" + url.rsplit("/", 1)[-1].replace("_", " ")
+
+
 def document(selected, title, version):
     """The whole .tex file."""
     parts = [preamble(), ADDITIONS, "\\begin{document}\n\n\\begin{titlingpage}\n\\titleM\n",
-             f"{{\\centering\\Large {tex_escape(title)}\\par"
-             + (f"\\medskip{{\\small {tex_escape(version)}}}\\par" if version else "") + "}\n",
+             "{\\centering"                       # the selection's name, unless it is the title proper again
+             + ("" if title == "Biblia Sacra" else f"\\Large {tex_escape(title)}\\par\\medskip")
+             + (f"{{\\small {tex_escape(version)}}}\\par" if version else "") + "}\n",
              colophon(selected), "\\end{titlingpage}\n",       # the colophon on the title page's verso
-             "\n\\tableofcontents*\n\n\\mainmatter\n"]
+             # the contents carry no running head on any of their pages
+             "\n\\pagestyle{empty}\n\\tableofcontents*\n\\clearpage\n\\pagestyle{plain}\n\n\\mainmatter\n"]
     testaments = {book.info.testament for book in selected}
     current = None
     for book in selected:
@@ -100,6 +138,8 @@ def document(selected, title, version):
         usfm = latex.usfm_path(book.info).read_text(encoding="utf-8")
         parts.append(f"\n% ---- {book.info.osis}: generated from text/{book.info.usfm}.usfm\n")
         parts.append(latex.to_latex(usfm))
+        parts.append("\\FinisLibri\n")                  # closes the book's columns (preamble.tex)
+    parts.append(sources(selected))
     parts.append("\n\\end{document}\n")
     return "".join(parts)
 
