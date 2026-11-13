@@ -20,8 +20,8 @@ them are dated in `HUMAN.md` § Decided.
   the README says.
 - No marginal notes or commentary, but **brief Latin footnotes** where Castellio's reading departs from the Greek
   as read today (decision 53, 2026-11-12): `\f + \fr 19:24 \ft …\f*`, one line, after the word it explains
-  (model: Matt 19:24 *Græcē κάμηλος; Castelliō fūnem nauticum intellegit, hodiernī Scrīptūræ interpretēs plērīque
-  camēlum*).
+  (model: Matt 19:24 *Græcē κάμηλος; Castelliō fūnem nauticum intellegit, doctī nostræ ætātis plērīque camēlum*;
+  classical idiom preferred to Church Latin in the notes: not *Scrīptūra* for the Bible, nor *hodiernī* of people).
 - **Passages not in the earliest manuscripts** stay in Castellio's text, bracketed as NA28 and SBLGNT do (decision
   52): ⟦…⟧ around Mark 16:9–20 and John 7:53–8:11, […] around the verses and phrases the critical texts leave out;
   the front matter explains them.

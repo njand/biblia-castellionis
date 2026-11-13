@@ -190,6 +190,20 @@ the chapter's end (plain text).
 3. **Luke 18:25**
    **Apply:** `Luke.18.25` la: `rudentem per` → `rudentem\f + \fr 18:25 \ft Græcē κάμηλος; Castelliō fūnem nauticum intellegit, hodiernī Scrīptūræ interpretēs plērīque camēlum.\f* per`
 
+### 4b. *rudentem*: the note reworded (decided, applied 2026-11-12)
+
+*Scrīptūra* for the Bible is Church Latin, and *hodiernus* is classical of things (*hodiernus diēs*) but rare of
+people. Three drafts were offered: *quī hodiē sacrās litterās ēnarrant, plērīque camēlum*; *plērīque nostræ ætātis
+sacrārum litterārum interpretēs camēlum* (*interpretēs* also "translators", as Castellio himself is); *doctī nostræ
+ætātis plērīque camēlum*. Macrons by Gaffiot (`pipeline latin macron`: *ætātis*, *plērīque*).
+
+**Decision:** the third, *doctī nostræ ætātis* (Nathan, 2026-11-12)
+
+1. **Matt 19:24, Mark 10:25, Luke 18:25** (each once)
+   **Apply:** `Matt.19.24` la: `hodiernī Scrīptūræ interpretēs plērīque camēlum.` → `doctī nostræ ætātis plērīque camēlum.`
+   **Apply:** `Mark.10.25` la: `hodiernī Scrīptūræ interpretēs plērīque camēlum.` → `doctī nostræ ætātis plērīque camēlum.`
+   **Apply:** `Luke.18.25` la: `hodiernī Scrīptūræ interpretēs plērīque camēlum.` → `doctī nostræ ætātis plērīque camēlum.`
+
 ### 4b. Jude 6, 1 John 4:4, 1 Pet 5:8 (decided)
 
 Readings 1573 and 1556 share against the Greek, the Greek of Castellio's day (Textus Receptus) included.
