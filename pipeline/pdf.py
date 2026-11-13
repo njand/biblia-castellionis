@@ -144,6 +144,20 @@ def document(selected, title, version):
     return "".join(parts)
 
 
+def tex_errors(log_path, output, limit=40):
+    """The lines that say why TeX stopped, for the build's own output (CI keeps no log file): each `! …` error with
+    the two lines after it, and Tectonic's `error:` lines; else the output's last lines."""
+    text = log_path.read_text(encoding="utf-8", errors="replace") if log_path.exists() else ""
+    lines = (text or output).splitlines()
+    picked = []
+    for index, line in enumerate(lines):
+        if line.startswith("!") or line.lower().startswith("error:"):
+            picked += lines[index:index + 3]
+    picked += [line for line in output.splitlines() if line.lower().startswith("error")]
+    picked = picked or (text or output).splitlines()[-limit:]
+    return "\n".join("    " + line for line in picked[:limit])
+
+
 def write(selected, folder, stem, title, version, compile_pdf=True):
     """Write <stem>.tex; compile it if TeX is installed. Returns [paths and messages]."""
     folder.mkdir(parents=True, exist_ok=True)
@@ -165,7 +179,8 @@ def write(selected, folder, stem, title, version, compile_pdf=True):
         result = subprocess.run(command, cwd=folder, capture_output=True, text=True, encoding="utf-8",
                                 errors="replace")
         if result.returncode:
-            return made + [f"TeX failed (exit {result.returncode}); see {folder / (stem + '.log')}"]
+            return made + [f"TeX failed (exit {result.returncode}); see {folder / (stem + '.log')}\n"
+                           + tex_errors(folder / f"{stem}.log", result.stdout + result.stderr)]
     made.append(folder / f"{stem}.pdf")
     log = (folder / f"{stem}.log").read_text(encoding="utf-8", errors="replace")
     overfull = len(re.findall(r"^Overfull \\hbox", log, re.MULTILINE))

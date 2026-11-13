@@ -258,7 +258,8 @@ def unicode_to_latex(text):
 
 GREEK_RUN = re.compile(r"[Ͱ-Ͽἀ-῿]+(?:\s+[Ͱ-Ͽἀ-῿]+)*")
 LGR_LETTERS = dict(zip("αβγδεζηθικλμνξοπρσςτυφχψω", "abgdezhjiklmnxoprsctufqyw"))
-LGR_MARKS = {"̈": '"', "̓": ">", "̔": "<", "́": "'", "̀": "`", "͂": "~"}
+LGR_MARKS = {"̈": '"', "̓": ">", "̔": "<", "́": "'", "̀": "`",
+             "͂": "\\string~"}        # ~ is active in LaTeX (a tie); \string~ is the LGR circumflex itself
 
 
 def greek_to_lgr(text):

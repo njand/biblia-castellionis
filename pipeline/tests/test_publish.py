@@ -78,8 +78,8 @@ class Model(unittest.TestCase):
     def test_greek_to_lgr(self):
         self.assertEqual(latex.greek_to_lgr("κάμηλος"), "k'amhloc")   # c: the final sigma
         self.assertEqual(latex.greek_to_lgr("ἀγάπη"), ">ag'aph")
-        self.assertEqual(latex.greek_to_lgr("ὑμῖν"), "<um~in")
-        self.assertEqual(latex.greek_to_lgr("τῷ"), "t~w|")
+        self.assertEqual(latex.greek_to_lgr("ὑμῖν"), "<um"+chr(92)+"string~in")
+        self.assertEqual(latex.greek_to_lgr("τῷ"), "t"+chr(92)+"string~w|")
 
     def test_rejects_what_the_edition_does_not_use(self):
         for bad, message in ((SAMPLE.replace("\\m\n", "\\s1 Heading\n"), "s1"),
