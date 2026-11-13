@@ -21,6 +21,9 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
   the edition must credit Wikisource, for the books it supplied (decision 54: Genesis 1–35 and the Gospels began
   as Nathan's 2019 transcription, which Wikisource's pages of 2021 follow; the page list is linked, not printed).
 - **The fur-fulminis databases are read-only**, reached only through `python -m pipeline latin …`.
+- **Run the humanizer skill on English prose for readers** (README, `docs/editions.md`, `RELEASE.md`, front
+  matter, commit messages) before finishing it. Never run it on the Latin text, the USFM, `data/review/` Apply
+  lines, or quoted sources.
 - Commit only when Nathan asks.
 
 ## Layout

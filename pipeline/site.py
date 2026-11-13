@@ -276,6 +276,7 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
 .downloads li { line-height: 1.45; }
 .downloads .what, .downloads .size, .downloads p { color: var(--muted); font-size: .85em; }
 .downloads li a { text-decoration: none; }
+.downloads .part { font-style: italic; }
 .downloads p { margin: .6rem 0 0; }
 @media (max-width: 600px) {
   body { font-size: calc(18px * var(--scale)); }
@@ -745,32 +746,42 @@ DOWNLOADS = [
 ]
 
 
-def downloads_html(files):
-    """The home page's list of the files in downloads/: [(name, bytes)]. A format with no file built is left out."""
+def downloads_html(files, parts=((None, None),)):
+    """The home page's list of the files in downloads/: [(name, bytes)]. A format with no file built is left out.
+    `parts` are the [(label, file stem)] built: a line each under every format when there are several (the whole
+    Bible, the Old Testament, the New); a stem of None takes any file with the format's ending."""
     if not files:
         return ""
 
-    def find(end):
+    def find(stem, end):
+        if stem is not None:
+            return next(((name, size) for name, size in files if name == stem + end), None)
         plain = not end.startswith("-")
         return next(((name, size) for name, size in files
                      if name.endswith(end) and not (plain and "-sine-macronibus" in name)), None)
 
     rows = []
     for kind, what, variants in DOWNLOADS:
-        links = [f'<a href="downloads/{html.escape(found[0])}" download>{esc(label)}</a> '
-                 f'<span class="size">{found[1] / 1_000_000:.1f} MB</span>'
-                 for end, label in variants if (found := find(end))]
-        if links:
+        lines = []
+        for label, stem in parts:
+            links = [f'<a href="downloads/{html.escape(found[0])}" download>{esc(variant)}</a> '
+                     f'<span class="size">{found[1] / 1_000_000:.1f} MB</span>'
+                     for end, variant in variants if (found := find(stem, end))]
+            if links:
+                lines.append((f'<span class="part">{esc(label)}:</span> ' if label else "") + " · ".join(links))
+        if lines:
             note = f' <span class="what">{esc(what)}</span>' if what else ""
-            rows.append(f'<li><b>{esc(kind)}</b>{note}<br/>{" · ".join(links)}</li>')
+            rows.append(f'<li><b>{esc(kind)}</b>{note}<br/>{"<br/>".join(lines)}</li>')
     return (f'<section class="downloads" id="downloads" lang="en"><h2>Downloads</h2><ul>{"".join(rows)}</ul>'
             f'<p>Made from the same text as these pages, and updated with them. Dated editions: '
             f'<a href="{publish.REPOSITORY}/releases">releases</a>.</p></section>\n')
 
 
-def write(selected, folder, title, version, references=tuple(BY_REF), sources=None, downloads=()):
+def write(selected, folder, title, version, references=tuple(BY_REF), sources=None, downloads=(),
+          parts=((None, None),)):
     """Write the site; returns [folder, messages…]. `references` are the keys of REFERENCES to offer;
-    `downloads` the files built with it (EPUB, PDF, text), copied to downloads/ and listed on the home page."""
+    `downloads` the files built with it (EPUB, PDF, text), copied to downloads/ and listed on the home page, by
+    `parts` ([(label, file stem)], as downloads_html)."""
     global HAS_DOWNLOADS
     if folder.exists():
         shutil.rmtree(folder)
@@ -847,7 +858,7 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
                          f'{chapter_grid(book, book.slug + "/")}' for book in selected)
     edition = f"<br/><small>{esc(version)}</small>" if version else ""
     home = (f"<h1>Biblia Sacra<small>ex Sebastiānī Castelliōnis interpretātiōne</small></h1>\n"
-            f'<p style="text-align:center">{esc(title)}{edition}</p>\n{downloads_html(files)}{sections}')
+            f'<p style="text-align:center">{esc(title)}{edition}</p>\n{downloads_html(files, parts)}{sections}')
     (folder / "index.html").write_text(page("Biblia Sacra ex Sebastiani Castellionis interpretatione", home, ""),
                                        encoding="utf-8", newline="\n")
     (folder / "search.html").write_text(page("Quærere · Biblia Sacra (Castellio)", SEARCH, "", " › Quærere"),

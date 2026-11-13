@@ -7,12 +7,22 @@
 \usepackage{lettrine}
 \usepackage{float}
 \usepackage{hyperref}
-\usepackage[hang,flushmargin,para,perpage]{footmisc}
+% multicol before footmisc: footmisc sets its run-in notes across the whole page only if multicol is loaded when it
+% is; otherwise each page's notes took one column's width, except on a book's last page (2026-11-12).
 \usepackage{multicol,microtype,etoolbox}
+\usepackage[hang,flushmargin,para,perpage]{footmisc}
+% footmisc reckons a note's height from \columnwidth, a column's inside multicols: by \textwidth, the width the notes
+% are set to, so it reserves the lines they take, not twice as many.
+\makeatletter
+\patchcmd{\FN@footnotetext}{\footnotebaselineskip / \columnwidth}{\footnotebaselineskip / \textwidth}{}
+  {\PackageWarning{castellio}{footmisc's note height not patched}}
+\makeatother
 \usepackage{graphicx}   % \scalebox, for \TitulusMinor
 
 \usepackage[LGR,T1]{fontenc}
-% Greek in the footnotes (decision 53): latex.note_to_latex writes it in LGR input, set in the TeX Greek fonts.
+% Greek in the footnotes (decision 53): latex.note_to_latex writes it as Unicode in \Graece{…}. Under pdfLaTeX it
+% is set in the LGR encoding's TeX Greek fonts (greek-inputenc maps the Unicode); under LuaLaTeX or XeTeX
+% pipeline/pdf.py redefines \Graece to GFS Didot, the Greek drawn to sit with Palatino.
 \newcommand{\Graece}[1]{{\fontencoding{LGR}\selectfont #1}}
 % \usepackage{imfellEnglish}
 \usepackage{palatino}
@@ -63,10 +73,15 @@
 % A book title's \mt2 line, smaller, inside \LiberTitulus's \HUGE: scaled as a box, not by a size command. A \Large
 % (or \fontsize) here made lettrine set every chapter's drop cap at 36.5pt, not 21.8pt, rising above its two lines
 % (found 2026-11-12 by compiling the whole Bible with Tectonic; a single book was not affected).
-\newcommand{\TitulusMinor}[1]{\scalebox{.55}{#1}}
+% The whole title is scaled up 1.2 times (no size command larger than \HUGE, as above), in a box as wide as the text
+% once scaled (10/12); \TitulusMinor is .55/1.2, so the \mt2 line keeps its size (2026-11-12: \HUGE small caps alone
+% looked undersized).
+\newcommand{\TitulusMinor}[1]{\scalebox{.46}{#1}}
 \newcommand{\LiberTitulus}{%            % a macro: multicols' [title] argument may not hold a \par itself
     \begin{center}
-        \HUGE \textsc{\libernamelong}\par
+        \scalebox{1.2}{\begin{minipage}{\dimexpr\textwidth*10/12\relax}
+            \centering\HUGE \textsc{\libernamelong}\par
+        \end{minipage}}\par
     \end{center}
     \vspace{1.5\baselineskip}}
 \newcommand{\FinisLibri}{\par\end{multicols}}

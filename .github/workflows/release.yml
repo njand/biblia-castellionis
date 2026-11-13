@@ -1,5 +1,5 @@
 # A release: push a tag v* and this builds every format from text/*.usfm (EPUBs checked with epubcheck, the PDF
-# compiled with Tectonic) and publishes them as the tag's GitHub release. The Pages workflow then rebuilds the site.
+# compiled with LuaLaTeX) and publishes them as the tag's GitHub release. The Pages workflow then rebuilds the site.
 name: Release
 
 on:
@@ -17,14 +17,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install epubcheck and Tectonic
+      - name: Restore TeX Live
+        uses: actions/cache@v4
+        with:
+          path: ~/texlive
+          key: texlive-${{ runner.os }}-${{ hashFiles('scripts/install-texlive.sh') }}
+      - name: Install epubcheck and TeX Live (LuaLaTeX)
         run: |
           sudo apt-get update
           sudo apt-get install -y epubcheck
-          curl -fsSL -o tectonic.tar.gz \
-            "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
-          mkdir -p "$HOME/bin" && tar -xzf tectonic.tar.gz -C "$HOME/bin"
-          echo "$HOME/bin" >> "$GITHUB_PATH"
+          bash scripts/install-texlive.sh "$HOME/texlive"
+          echo "$HOME/texlive/bin/x86_64-linux" >> "$GITHUB_PATH"
       - name: Fetch the texts offered beside the Latin on the site (eBible.org, public domain)
         run: python -m pipeline fetch parallel kjv bsb web wlc tr lxx vulgate
       - name: Build every format
@@ -39,4 +42,4 @@ jobs:
         run: |
           (cd build/site && zip -qr ../castellio-site.zip .)
           gh release create "${GITHUB_REF_NAME}" --title "${GITHUB_REF_NAME}" --notes-file RELEASE.md \
-            build/epub/*.epub build/pdf/castellio.pdf build/txt/* build/castellio-site.zip
+            build/epub/*.epub build/pdf/castellio*.pdf build/txt/* build/castellio-site.zip

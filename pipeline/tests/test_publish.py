@@ -4,6 +4,7 @@ import json
 import pathlib
 import tempfile
 import unittest
+from unittest import mock
 import xml.etree.ElementTree as ET
 import zipfile
 
@@ -73,7 +74,7 @@ class Model(unittest.TestCase):
         self.assertIn('<aside class="fn" epub:type="footnote" id="c1-na">', page)
         self.assertNotIn("ā", site.chapter_html(book.chapters[0], str, "c1", publish.strip_macrons).split("<aside")[1])
         tex = latex.to_latex(SAMPLE.replace("dīcentem: ", f"dīcentem{note}: "))
-        self.assertIn("dīcentem\\footnote{\\textbf{1:3} Græcē \\Graece{k'amhloc}; Castelliō fūnem.}:", tex)
+        self.assertIn("dīcentem\\footnote{\\textbf{1:3} Græcē \\Graece{κάμηλος}; Castelliō fūnem.}:", tex)
 
     def test_brackets_in_latex(self):
         """A poetry line that opens with "[" must not become \\\\[<length>] (Matt 6:13); ⟦ ⟧ are drawn."""
@@ -81,12 +82,6 @@ class Model(unittest.TestCase):
                              .replace("\\v 3 Jōsē", "\\v 3 ⟦Jōsē"))
         self.assertIn("{[}Isaācus Jācōbum.{]}", tex)
         self.assertIn("{[\\kern-.18em[}Jōsē", tex)
-
-    def test_greek_to_lgr(self):
-        self.assertEqual(latex.greek_to_lgr("κάμηλος"), "k'amhloc")   # c: the final sigma
-        self.assertEqual(latex.greek_to_lgr("ἀγάπη"), ">ag'aph")
-        self.assertEqual(latex.greek_to_lgr("ὑμῖν"), "<um"+chr(92)+"string~in")
-        self.assertEqual(latex.greek_to_lgr("τῷ"), "t"+chr(92)+"string~w|")
 
     def test_rejects_what_the_edition_does_not_use(self):
         for bad, message in ((SAMPLE.replace("\\m\n", "\\s1 Heading\n"), "s1"),
@@ -196,6 +191,25 @@ class Latex(unittest.TestCase):
         self.assertEqual(document.count("\\begin{document}"), 1)
         self.assertEqual(pdf.tex_escape("50% & _x_"), "50\\% \\& \\_x\\_")
 
+    def test_engine_prefers_lualatex(self):
+        """LuaLaTeX first (font expansion), then Tectonic, then pdfLaTeX; nothing when no TeX is installed."""
+        def which(available):
+            return lambda name: f"/bin/{name}" if name in available else None
+        with mock.patch("shutil.which", which({"lualatex", "tectonic", "pdflatex"})):
+            self.assertEqual(pdf.engine("b.tex")[0][0], "/bin/lualatex")
+            self.assertEqual(len(pdf.engine("b.tex")), 2)                  # twice: contents and running heads
+        with mock.patch("shutil.which", which({"tectonic", "pdflatex"})):
+            self.assertEqual(pdf.engine("b.tex")[0][0], "/bin/tectonic")
+        with mock.patch("shutil.which", which({"pdflatex"})):
+            self.assertEqual(pdf.engine("b.tex")[0][0], "/bin/pdflatex")
+        with mock.patch("shutil.which", which(set())):
+            self.assertEqual(pdf.engine("b.tex"), [])
+
+    def test_greek_in_gfs_didot_under_unicode_engines(self):
+        self.assertIn("\\newfontfamily\\GraecaFont{GFSDidot}", pdf.ADDITIONS)
+        self.assertIn("\\renewcommand{\\Graece}[1]{{\\GraecaFont #1}}", pdf.ADDITIONS)
+        self.assertEqual(latex.note_to_latex("Græcē ἀγάπη τῷ"), "Græcē \\Graece{ἀγάπη τῷ}")
+
     def test_document_closes_each_book_without_a_list_of_pages(self):
         selected = publish.load(["Mark", "Rom"])
         document = pdf.document(selected, "Biblia Sacra", "v0")
@@ -250,6 +264,27 @@ class Build(unittest.TestCase):
             self.assertIn(f'href="downloads/{stem}-sine-macronibus.epub"', home)
             self.assertNotIn("<b>PDF</b>", home)
             self.assertIn("index.html#downloads", sixteen)
+
+    def test_testaments_built_apart(self):
+        """Books of both testaments: the whole selection, and each testament on its own, offered by name."""
+        with tempfile.TemporaryDirectory() as folder:
+            out = pathlib.Path(folder)
+            publish.build(["Gen", "Jude"], out, references=(), formats=("site", "txt"), compile_pdf=False)
+            for stem in ("castellio", "castellio-vetus-foedus", "castellio-novum-foedus"):
+                self.assertTrue((out / "txt" / f"{stem}.txt").exists(), stem)
+            old = (out / "txt" / "castellio-vetus-foedus.tsv").read_text(encoding="utf-8")
+            new = (out / "txt" / "castellio-novum-foedus.tsv").read_text(encoding="utf-8")
+            self.assertIn("\nGen.1.1\t", old)
+            self.assertNotIn("\nJude.", old)
+            self.assertIn("\nJude.1.1\t", new)
+            self.assertNotIn("\nGen.", new)
+            home = (out / "site" / "index.html").read_text(encoding="utf-8")
+            for label, stem in (("Whole Bible", "castellio"), ("Old Testament", "castellio-vetus-foedus"),
+                                ("New Testament", "castellio-novum-foedus")):
+                self.assertIn(f'<span class="part">{label}:</span>', home)
+                self.assertIn(f'href="downloads/{stem}.txt"', home)
+            # one testament: no split, no labels
+            self.assertEqual(len(publish.parts(publish.load(["Jude"]), "Jūdæ", "castellio-judae")), 1)
 
 
 if __name__ == "__main__":

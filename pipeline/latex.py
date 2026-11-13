@@ -17,7 +17,6 @@ commented out is a draft: it is converted from its commented lines into a separa
 
 import difflib
 import re
-import unicodedata
 
 from pipeline import paths
 
@@ -260,32 +259,15 @@ def unicode_to_latex(text):
 
 
 GREEK_RUN = re.compile(r"[Ͱ-Ͽἀ-῿]+(?:\s+[Ͱ-Ͽἀ-῿]+)*")
-LGR_LETTERS = dict(zip("αβγδεζηθικλμνξοπρσςτυφχψω", "abgdezhjiklmnxoprsctufqyw"))
-LGR_MARKS = {"̈": '"', "̓": ">", "̔": "<", "́": "'", "̀": "`",
-             "͂": "\\string~"}        # ~ is active in LaTeX (a tie); \string~ is the LGR circumflex itself
-
-
-def greek_to_lgr(text):
-    """Polytonic Greek → the LGR input of the TeX Greek fonts: κάμηλος → k'amhlos, ἀγάπη → >ag'aph (marks before
-    the letter: diaeresis, breathing, accent; iota subscript after it)."""
-    out = []
-    for char in text:
-        base, *marks = unicodedata.normalize("NFD", char)
-        letter = LGR_LETTERS.get(base.lower())
-        if letter is None:
-            out.append(char)
-            continue
-        before = "".join(LGR_MARKS[m] for m in sorted((m for m in marks if m in LGR_MARKS), key=list(LGR_MARKS).index))
-        out.append(before + (letter.upper() if base.isupper() else letter) + ("|" if "ͅ" in marks else ""))
-    return "".join(out)
 
 
 def note_to_latex(text):
-    """A footnote's text → LaTeX: Greek in \\Graece{…} (LGR), the rest as unicode_to_latex."""
+    """A footnote's text → LaTeX: Greek as it is (Unicode) in \\Graece{…}, which sets it in GFS Didot (pdf.py
+    ADDITIONS); the rest as unicode_to_latex."""
     out, at = [], 0
     for match in GREEK_RUN.finditer(text):
         out.append(unicode_to_latex(text[at:match.start()]))
-        out.append(f"\\Graece{{{greek_to_lgr(match.group())}}}")
+        out.append(f"\\Graece{{{match.group()}}}")
         at = match.end()
     out.append(unicode_to_latex(text[at:]))
     return "".join(out)

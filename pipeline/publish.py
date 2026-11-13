@@ -369,25 +369,52 @@ def write_text(selected, folder, stem, title):
 def build(names=(), out=None, references=None, sources=None, version="", formats=("site", "epub", "pdf", "txt"),
           compile_pdf=True):
     """Generate the selected formats into build/ (or `out`). Returns {format: [paths or messages]}."""
-    from pipeline import epub, pdf, site
+    from pipeline import site
     out = out or BUILD
     selected = load(names)
     title, stem = collection(selected)
     stamp = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
     made = {}
-    if "txt" in formats:
-        made["txt"] = write_text(selected, out / "txt", stem, title)
-    if "epub" in formats:
-        made["epub"] = [epub.write(selected, out / "epub" / f"{stem}.epub", title, version, stamp, macrons=True),
-                        epub.write(selected, out / "epub" / f"{stem}-sine-macronibus.epub", title, version, stamp,
-                                   macrons=False)]
-    if "pdf" in formats:
-        made["pdf"] = pdf.write(selected, out / "pdf", stem, title, version, compile_pdf)
+    for part in parts(selected, title, stem):
+        for kind, items in build_downloads(part, out, formats, version, stamp, compile_pdf).items():
+            made.setdefault(kind, []).extend(items)
     if "site" in formats:
         # the other formats built with it are offered on the site (build/site/downloads/)
         files = [item for kind in ("epub", "pdf", "txt") for item in made.get(kind, [])
                  if isinstance(item, pathlib.Path) and item.suffix in (".epub", ".pdf", ".txt", ".tsv", ".json")
                  and item.exists()]
         made["site"] = site.write(selected, out / "site", title, version,
-                                   tuple(site.BY_REF) if references is None else references, sources, files)
+                                   tuple(site.BY_REF) if references is None else references, sources, files,
+                                   [(label, part_stem) for label, _, part_stem, _ in parts(selected, title, stem)])
+    return made
+
+
+TESTAMENTS = {"vetus": ("Old Testament", "Vetus Fœdus", "castellio-vetus-foedus"),
+              "novum": ("New Testament", "Novum Fœdus", "castellio-novum-foedus")}
+
+
+def parts(selected, title, stem):
+    """The downloads built: [(label, title, stem, books)]: the selection itself, and when it holds books of both
+    testaments, each testament on its own as well (Nathan, 2026-11-12)."""
+    testaments = [key for key in TESTAMENTS if any(book.info.testament == key for book in selected)]
+    if len(testaments) < 2:
+        return [(None, title, stem, selected)]
+    return [("Whole Bible", title, stem, selected)] + [
+        (label, part_title, part_stem, [book for book in selected if book.info.testament == key])
+        for key in testaments for label, part_title, part_stem in [TESTAMENTS[key]]]
+
+
+def build_downloads(part, out, formats, version, stamp, compile_pdf):
+    """The EPUBs, PDF and text files of one part: {format: [paths or messages]}."""
+    from pipeline import epub, pdf
+    _, title, stem, books = part
+    made = {}
+    if "txt" in formats:
+        made["txt"] = write_text(books, out / "txt", stem, title)
+    if "epub" in formats:
+        made["epub"] = [epub.write(books, out / "epub" / f"{stem}.epub", title, version, stamp, macrons=True),
+                        epub.write(books, out / "epub" / f"{stem}-sine-macronibus.epub", title, version, stamp,
+                                   macrons=False)]
+    if "pdf" in formats:
+        made["pdf"] = pdf.write(books, out / "pdf", stem, title, version, compile_pdf)
     return made

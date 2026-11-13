@@ -275,6 +275,12 @@ Ideas Nathan has raised. None is started; each needs a decision on scope before 
    where to read or download it (the site, the releases), what was changed from the printed editions and why
    (spelling, macrons, layout; drawing on `docs/editions.md`), what is finished, how to cite it and how to report
    errors, with the project's history and the pipeline moved lower or into their own documents.
+5. **More front matter, starting with the standalone New Testament** (Nathan, 2026-11-12). Today the PDF and EPUB
+   open with only the title page, its colophon on the verso, and the list of books. To add, first in the *Novum
+   Fœdus* edition: a short preface for the reader (what Castellio's translation is, and what this edition changes:
+   spelling, macrons, layout, the light notes; from `docs/editions.md`), a note on the base texts (1573, with 1556 as
+   reference), and possibly a page of abbreviations and conventions (brackets, footnote letters). To decide: the
+   language (Latin, English, or both), and which pieces the whole Bible and the other partial editions share.
 
 ## 8. Decisions (taken 2026-11-05)
 

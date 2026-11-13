@@ -1,5 +1,5 @@
-"""The print PDF: build/pdf/<stem>.tex, generated from the USFM master, compiled with latexmk (or pdflatex twice)
-when a TeX install is on the PATH.
+"""The print PDF: build/pdf/<stem>.tex, generated from the USFM master, compiled with LuaLaTeX (else Tectonic or
+pdfLaTeX; `engine`) when a TeX install is on the PATH (scripts/install-texlive.sh installs one).
 
 The preamble is pipeline/templates/preamble.tex (memoir, A5, each book in two balanced columns, lettrine drop
 caps, running heads giving the verses on the page, \\Liber, \\Caput, \\Versus, \\FinisLibri), with
@@ -7,6 +7,7 @@ templates/title.tex inlined so the file stands alone. After the last book comes 
 pages and revisions used (`sources`). Each book's body is `latex.to_latex`, the same conversion the migration's round trip proved lossless. Added after the preamble: the commands for a
 chapter summary (\\Argumentum) and a psalm title (\\Titulus), ȳ for inputenc, and the title and colophon pages."""
 
+import pathlib
 import re
 import shutil
 import subprocess
@@ -18,15 +19,21 @@ TITLE = paths.ROOT / "pipeline" / "templates" / "title.tex"
 
 ADDITIONS = r"""
 % ---- added by pipeline/pdf.py (generated; never edit this file by hand)
-\ifdefined\XeTeXrevision
+\usepackage{iftex}
+\ifPDFTeX\else
+  % LuaLaTeX (the engine used: microtype then stretches or shrinks the letters up to 2% to even the spacing) or
   % XeTeX (Tectonic): Unicode fonts; TeX Gyre Pagella is the free Palatino
   \usepackage{fontspec}
   \setmainfont{texgyrepagella}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
     ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+  % The footnotes' Greek in GFS Didot (the Greek Font Society's, OFL), whose Latin is Palatino's kin
+  \newfontfamily\GraecaFont{GFSDidot}[Extension=.otf, Scale=MatchLowercase]
+  \renewcommand{\Graece}[1]{{\GraecaFont #1}}
   \usepackage{newunicodechar}        % Pagella has no precomposed ȳ: y with a macron accent
   \newunicodechar{ȳ}{\=y}
   \newunicodechar{Ȳ}{\=Y}
-\else
+\fi
+\ifPDFTeX
   \DeclareUnicodeCharacter{0232}{\=Y}
   \DeclareUnicodeCharacter{0233}{\=y}
 \fi
@@ -36,7 +43,15 @@ ADDITIONS = r"""
 \usepackage[classiclatin]{babel}
 \let\CastellioContentsname\contentsname
 \AtBeginDocument{\let\contentsname\CastellioContentsname}
-\setlength{\emergencystretch}{1.5em}
+% Fewer hyphens (2026-11-12, measured on the whole Bible with Tectonic): babel's Latin allows a break two letters
+% from either end of a word (de-inde, lo-quuntur), and 40% of the column lines ended in a hyphen, up to 13 in a row.
+% At least three letters on each side, a moderate cost per hyphen and a high one for two in a row: 24%, at most 7,
+% the spacing a little looser (set as the document begins, after babel has set its own minimums). Under LuaLaTeX,
+% whose font expansion takes up the slack, the cost per hyphen is raised from 300 to 1000: 17% of the lines end in
+% a hyphen, with about a quarter of Tectonic's loose lines (engine() below; HUMAN.md has the numbers).
+\setlength{\emergencystretch}{3em}
+\AtBeginDocument{\lefthyphenmin=3 \righthyphenmin=3 \hyphenpenalty=1000 \exhyphenpenalty=1000
+  \doublehyphendemerits=300000 }
 \urlstyle{same}                     % web addresses in the text face, not typewriter type
 \newcommand{\Argumentum}[1]{\par\medskip{\small\itshape #1\par}\smallskip}
 \newcommand{\Titulus}[1]{\par{\itshape #1\par}\smallskip}
@@ -129,6 +144,26 @@ def tex_errors(log_path, output, limit=40):
     return "\n".join("    " + line for line in picked[:limit])
 
 
+def engine(name):
+    """The commands that compile <name>.tex, by the first engine on the PATH: LuaLaTeX (twice, for the contents
+    and running heads), whose font expansion (microtype) evens the narrow columns' spacing; else Tectonic (XeTeX:
+    protrusion only); else pdfLaTeX, with the preamble's own Palatino and TeX Greek fonts. Measured 2026-11-12 on
+    the whole Bible (HUMAN.md): Tectonic, 23.9% of the column lines ending in a hyphen, 962 underfull, 4 overfull;
+    LuaLaTeX with the same settings 21.4%, 157, 0; with the hyphen penalty raised to 1000, 17.3%, 215, 0."""
+    lualatex, tectonic = shutil.which("lualatex"), shutil.which("tectonic")
+    latexmk, pdflatex = shutil.which("latexmk"), shutil.which("pdflatex")
+    flags = ["-interaction=nonstopmode", "-halt-on-error"]
+    if lualatex:
+        return [[lualatex, *flags, name]] * 2
+    if tectonic:        # a single-file TeX engine (XeTeX); fetches the packages it needs on first use
+        return [[tectonic, "--keep-logs", "--keep-intermediates", name]]
+    if latexmk:
+        return [[latexmk, "-pdf", *flags, name]]
+    if pdflatex:
+        return [[pdflatex, *flags, name]] * 2
+    return []
+
+
 def write(selected, folder, stem, title, version, compile_pdf=True):
     """Write <stem>.tex; compile it if TeX is installed. Returns [paths and messages]."""
     folder.mkdir(parents=True, exist_ok=True)
@@ -137,15 +172,9 @@ def write(selected, folder, stem, title, version, compile_pdf=True):
     made = [tex]
     if not compile_pdf:
         return made
-    latexmk, pdflatex, tectonic = shutil.which("latexmk"), shutil.which("pdflatex"), shutil.which("tectonic")
-    if latexmk:
-        commands = [[latexmk, "-pdf", "-interaction=nonstopmode", "-halt-on-error", tex.name]]
-    elif pdflatex:
-        commands = [[pdflatex, "-interaction=nonstopmode", "-halt-on-error", tex.name]] * 2
-    elif tectonic:      # a single-file TeX engine (XeTeX); fetches the packages it needs on first use
-        commands = [[tectonic, "--keep-logs", "--keep-intermediates", tex.name]]
-    else:
-        return made + ["no TeX install found (latexmk, pdflatex or tectonic): the LaTeX is written, the PDF is not"]
+    commands = engine(tex.name)
+    if not commands:
+        return made + ["no TeX install found (lualatex, tectonic or pdflatex): the LaTeX is written, the PDF is not"]
     for command in commands:
         result = subprocess.run(command, cwd=folder, capture_output=True, text=True, encoding="utf-8",
                                 errors="replace")
@@ -155,6 +184,8 @@ def write(selected, folder, stem, title, version, compile_pdf=True):
     made.append(folder / f"{stem}.pdf")
     log = (folder / f"{stem}.log").read_text(encoding="utf-8", errors="replace")
     overfull = len(re.findall(r"^Overfull \\hbox", log, re.MULTILINE))
+    underfull = len(re.findall(r"^Underfull \\hbox", log, re.MULTILINE))
     missing = len(re.findall(r"Missing character", log))
-    made.append(f"{overfull} overfull lines, {missing} missing characters (from {stem}.log)")
+    made.append(f"{overfull} overfull lines, {underfull} underfull, {missing} missing characters (from {stem}.log; "
+                f"{pathlib.Path(commands[0][0]).stem})")
     return made

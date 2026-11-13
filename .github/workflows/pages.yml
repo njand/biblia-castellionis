@@ -4,7 +4,7 @@ name: Pages
 on:
   push:
     branches: [main]
-    paths: ["text/**", "pipeline/**", "data/versification/**", "data/witnesses/wikisource/MANIFEST.tsv", ".github/workflows/pages.yml"]
+    paths: ["text/**", "pipeline/**", "data/versification/**", "data/witnesses/wikisource/MANIFEST.tsv", "scripts/install-texlive.sh", ".github/workflows/pages.yml"]
     tags: ["v*"]                               # a release (a release made by release.yml's token triggers nothing)
   workflow_dispatch:
 
@@ -27,12 +27,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install Tectonic (for the PDF offered on the site)
+      - name: Restore TeX Live
+        uses: actions/cache@v4
+        with:
+          path: ~/texlive
+          key: texlive-${{ runner.os }}-${{ hashFiles('scripts/install-texlive.sh') }}
+      - name: Install TeX Live (LuaLaTeX, for the PDF offered on the site)
         run: |
-          curl -fsSL -o tectonic.tar.gz \
-            "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
-          mkdir -p "$HOME/bin" && tar -xzf tectonic.tar.gz -C "$HOME/bin"
-          echo "$HOME/bin" >> "$GITHUB_PATH"
+          bash scripts/install-texlive.sh "$HOME/texlive"
+          echo "$HOME/texlive/bin/x86_64-linux" >> "$GITHUB_PATH"
       - name: Fetch the texts offered beside the Latin (eBible.org, public domain)
         run: python -m pipeline fetch parallel kjv bsb web wlc tr lxx vulgate
       - name: Build the site and the downloads (EPUB, PDF, text) it offers

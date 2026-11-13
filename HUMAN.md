@@ -2,6 +2,30 @@
 
 ## Now
 
+- **The PDF is now set with LuaLaTeX, the footnotes' Greek in GFS Didot** (2026-11-12): LuaLaTeX lets microtype
+  stretch or shrink the letters up to 2% (XeTeX/Tectonic cannot), which evens the spacing of the narrow columns, so
+  the cost per hyphen could be raised (300 → 1000). Measured on the whole Bible (`python -m pipeline build --only pdf`):
+
+  | | lines ending in a hyphen | longest run | underfull (loose) | overfull | pages |
+  |---|---|---|---|---|---|
+  | Tectonic, as before | 23.9% | 7 | 962 | 4 | 348 |
+  | LuaLaTeX, same settings | 21.4% | 6 | 157 | 0 | 344 |
+  | **LuaLaTeX, hyphen cost 1000 (now)** | **17.3%** | 6 | 215 | 0 | 344 |
+  | LuaLaTeX, hyphen cost 2000 | 13.7% | 5 | 241 | 0 | 344 |
+  | Tectonic, hyphen cost 1000 | 21.5% | 7 | 1306 | 4 | 349 |
+
+  The Greek (Matt 19:24 and the other notes) is now written as Unicode and set in GFS Didot, the Greek Font Society's
+  face drawn to sit with Palatino, in place of the thin Computer Modern-style TeX Greek. `build` uses `lualatex` if it
+  is on the PATH, else `tectonic` (still works, with the same Greek), else `pdflatex`. CI installs a small TeX Live
+  with `scripts/install-texlive.sh` (cached; replaces the Tectonic download in `pages.yml` and `release.yml`); on
+  Windows the same script runs under WSL. **Your call:** 2000 instead of 1000 would cut the hyphens to 14% at a little
+  more looseness (pages looked alike to me). Committed 2026-11-12; not yet run in CI.
+- **The WordPress site now points to the new one** (2026-11-12, done with you in the browser; decision 50 carried
+  out by a notice instead of a redirect): the home post *Salve!* opens with "This edition has moved", linking to
+  `https://njand.github.io/biblia-castellionis/` (the old banner's link to `nathananderson94` on GitHub is gone). All
+  131 chapter and index pages (Genesis 1–35, the Gospels, *Novum*/*Vetus Testāmentum*, the five book pages) are in
+  the WordPress trash, restorable from Pages → Trash until about 2026-12-12; only *Salve!* and Contact remain. The
+  2019 text is kept in `data/witnesses/wordpress/`. A full redirect would need WordPress.com's paid Site Redirect.
 - **The Wikisource credit rewritten** (2026-11-12; decision 54, your request): every format now says that Genesis 1–35
   and the Gospels began as your 2019 transcription, which Wikisource's pages of 2021 follow, and that the other books
   draw on Wikisource (CC BY-SA 4.0). The page-by-page list is linked (`MANIFEST.tsv`), not printed; the PDF's last
@@ -40,7 +64,7 @@
   John 1:29 and 1:36 *Ecce Agnus Deī* capitalized (gold rebuilt); no special credit for Rev 3:1 (the README's base
   statement covers it); *quidquam*/*quidquid* kept with Gaffiot; **chapter summaries left out** (decision 3 reversed;
   `brief.md`, `PLAN.md` updated); v2.0 tagged with the complete New Testament; Genesis 1–27 to be collated against
-  1738. You will add a redirect from the WordPress site to the new one.
+  1738. You will add a redirect from the WordPress site to the new one (done 2026-11-12 as a notice; see above).
 - **Revelation is settled; the New Testament is complete** (2026-11-12; decision 49): approved by you "for now", in
   `text/REV.usfm` (404 verses, every chapter at the KJV count); gold rebuilt, draft and preview removed (`text/draft/`
   is gone). Record: `data/review/rev-stages3-5.md` (start here), `rev1-11-stage2.md`, `rev12-22-stage2.md`,
@@ -198,7 +222,7 @@
   *Edited by Nathan Anderson* (and the EPUB names you as editor in its metadata); `.github/workflows/pages.yml` builds
   the site on every push to `main` and on each release; `.github/workflows/release.yml` builds every format when a tag
   `v*` is pushed (EPUBs checked by epubcheck, PDF compiled by Tectonic) and publishes the release with `RELEASE.md` as
-  its notes. Pointing the WordPress site at it: you will add a redirect (decision 50).
+  its notes. Pointing the WordPress site at it: done 2026-11-12, a notice on the home post (decision 50).
 - **2 Corinthians 1–13 is settled** (2026-11-10; decision 38): approved by you "for now", in `text/2CO.usfm` (257
   verses, the KJV count; the subscription as `\cls`), gold rebuilt (`data/gold/2Cor.tsv`), draft and preview removed.
   Record: `data/review/2cor1-13-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch13.md`, `data/decisions/2Cor.*.tsv`,

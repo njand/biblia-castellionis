@@ -147,6 +147,9 @@ Waiting since decision 39 (2026-11-10): the old WordPress site (the 2019 Gospels
 
 **Decision:** Nathan will add a redirect from the WordPress site to the new one (Nathan, 2026-11-12; decision 50)
 
+**Done** (2026-11-12, with Nathan in the browser): a notice at the top of the home post linking to the new site,
+and the 131 chapter and index pages moved to the WordPress trash (Nathan's choice), not a redirect.
+
 ## Calls taken "for now" (no answer needed until your in-depth review)
 
 These were proposed, approved for now, and are listed in each batch's record. They stay as they are unless your review
