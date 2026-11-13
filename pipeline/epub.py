@@ -1,6 +1,6 @@
-"""EPUB 3 (with an NCX for older readers and Kindle), following e-liber's package layout: a title page, a
-colophon, one XHTML file per book with an anchor at each chapter's drop cap, nav.xhtml and toc.ncx nested book →
-chapter. Plain CSS, no script, no web fonts: Kindle-friendly. `macrons=False` writes the edition without macrons.
+"""EPUB 3 (with an NCX for older readers and Kindle), following e-liber's package layout: a title page, the
+front matter (text/FRT.usfm, pipeline/frontmatter.py), one XHTML file per book with an anchor at each chapter's
+drop cap, a colophon, nav.xhtml and toc.ncx nested book → chapter. Plain CSS, no script, no web fonts: Kindle-friendly. `macrons=False` writes the edition without macrons.
 
 The zip is reproducible apart from dcterms:modified: fixed file times, mimetype first and stored."""
 
@@ -8,7 +8,7 @@ import html
 import uuid
 import zipfile
 
-from pipeline import publish, site
+from pipeline import frontmatter, publish, site
 
 FIXED_ZIP_TIME = (2000, 1, 1, 0, 0, 0)
 
@@ -39,6 +39,14 @@ i.qt { font-style: italic; }
 .title p { text-indent: 0; text-align: center; margin: .4em 0; }
 .colophon p { text-indent: 0; text-align: left; margin: .6em 0; font-size: .85em; }
 .colophon ul { font-size: .85em; }
+.praefatio h1 { font-size: 1.2em; margin: 1.6em 0 .6em; }
+.praefatio h2 { font-size: 1em; font-weight: normal; font-style: italic; text-align: center; margin: 1em 0 .4em; }
+.praefatio p.signature { text-align: right; font-style: italic; text-indent: 0; margin-top: .8em; }
+.praefatio table { border-collapse: collapse; margin: .4em 0; }
+.praefatio td { vertical-align: top; padding: .15em .8em .15em 0; }
+.praefatio td.signum { white-space: nowrap; }
+.praefatio ul.libri { list-style: none; padding-left: 1.5em; margin: .3em 0; }
+.praefatio ul.libri li { text-indent: -1.5em; margin: .2em 0; }
 """
 
 
@@ -100,7 +108,13 @@ def colophon_xhtml(selected, filt=lambda text: text, macrons=True):
 </div>""")
 
 
-def nav_xhtml(selected, filt):
+def praefatio_xhtml(blocks):
+    """The front matter (text/FRT.usfm), one file; its headings are h1, as each book's title is."""
+    return xhtml(blocks[0].runs[0][0] if blocks else "Praefatio",
+                 f'<div class="praefatio">\n{frontmatter.to_html(blocks, level=1)}\n</div>')
+
+
+def nav_xhtml(selected, filt, front=()):
     items = []
     for index, book in enumerate(selected, 1):
         chapters = "".join(f'<li><a href="book{index}.xhtml#c{c.number}">{c.number}</a></li>' for c in book.chapters)
@@ -109,6 +123,7 @@ def nav_xhtml(selected, filt):
 <h1>Index</h1>
 <ol>
 <li><a href="title.xhtml">{site.esc(filt("Titulus"))}</a></li>
+{"".join(f'<li><a href="praefatio.xhtml#{key}">{site.esc(label)}</a></li>' for label, key in front)}
 {chr(10).join(items)}
 <li><a href="colophon.xhtml">{site.esc(filt(publish.credits(selected)["title"]))}</a></li>
 </ol>
@@ -121,7 +136,7 @@ def nav_xhtml(selected, filt):
 </nav>""")
 
 
-def ncx(selected, uid, title, filt):
+def ncx(selected, uid, title, filt, front=()):
     points, order = [], 0
 
     def point(label, src, children=""):
@@ -131,6 +146,8 @@ def ncx(selected, uid, title, filt):
                 f'<content src="{src}"/>{children}</navPoint>')
 
     points.append(point(filt("Titulus"), "title.xhtml"))
+    for label, key in front:
+        points.append(point(label, f"praefatio.xhtml#{key}"))
     for index, book in enumerate(selected, 1):
         label = filt(book.short)
         head = point(label, f"book{index}.xhtml")       # numbered before its chapters, as playOrder requires
@@ -181,6 +198,9 @@ def write(selected, path, title, version, stamp, macrons=True):
     full_title = f"Biblia Sacra (Castellio): {filt(title)}" + ("" if macrons else " (sine macronibus)")
     uid = "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL, f"{publish.REPOSITORY}#{path.stem}"))
     contents = {"title.xhtml": title_xhtml(title, version, filt)}
+    blocks = frontmatter.load(selected, macrons)
+    contents["praefatio.xhtml"] = praefatio_xhtml(blocks)
+    front = frontmatter.sections(blocks)
     for index, book in enumerate(selected, 1):
         contents[f"book{index}.xhtml"] = book_xhtml(book, filt)
     contents["colophon.xhtml"] = colophon_xhtml(selected, filt, macrons)
@@ -191,8 +211,8 @@ def write(selected, path, title, version, stamp, macrons=True):
 </container>
 """,
         "EPUB/content.opf": opf(selected, uid, full_title, stamp.strftime("%Y-%m-%dT%H:%M:%SZ"), list(contents)),
-        "EPUB/nav.xhtml": nav_xhtml(selected, filt),
-        "EPUB/toc.ncx": ncx(selected, uid, full_title, filt),
+        "EPUB/nav.xhtml": nav_xhtml(selected, filt, front),
+        "EPUB/toc.ncx": ncx(selected, uid, full_title, filt, front),
         "EPUB/style.css": CSS,
         **{f"EPUB/{name}": text for name, text in contents.items()},
     }

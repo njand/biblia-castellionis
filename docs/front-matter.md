@@ -1,9 +1,11 @@
-# Front matter: draft for Nathan's review (final review)
+# Front matter: the reviewed text, with its English gloss and sources
 
-Rewritten 2026-11-13 after your critiques of the third to fourteenth versions; each point is answered in
-`docs/front-matter-critique.md`, sections 7 to 18. Latin front matter in six parts, after the colophon and the list of books:
-*Ad lēctōrem*, *Dē vītā Castelliōnis*, *Dē ejus interpretātiōne*, *Ratiō hujus ēditiōnis*, *Notæ*, *Librī legendī*.
-The three editions share the paragraphs; the variants follow the text. Nothing is in the build yet.
+The Latin below is the text as reviewed on 2026-11-13 (each point answered in `docs/front-matter-critique.md`,
+sections 7 to 20). **The master copy is now `text/FRT.usfm`**, which the build reads (`pipeline/frontmatter.py`):
+edit the Latin there, not here. The six parts are *Ad lēctōrem*, *Dē vītā Castelliōnis*, *Dē ejus interpretātiōne*,
+*Ratiō hujus ēditiōnis*, *Notæ* and *Librī legendī*, after the contents and before the first book. The variants listed
+below are the conditions marked in the master (`\zvt`, `\znt` and the rest), so each edition prints only what holds
+for it; the sentence on the Apocrypha appears only once they are built.
 
 ## Biblia Sacra (the whole Bible)
 
@@ -171,23 +173,18 @@ capitalized as their own language does (Guggisberg's English title in title case
 
 ## The variants
 
-**Vetus Fœdus**
-- *Ad lēctōrem*: "Hoc est Vetus Fœdus ex Bibliīs Castelliōnis"; *prōdest*; the Bünemann sentence as is.
-- *Ratiō hujus ēditiōnis*: only the Old Testament base (*Textum dedit ēditiō Lipsiēnsis …*), and without *In utrōque Fœdere …
-  leguntur*. The Apocrypha sentence stays (the section follows the Old Testament).
-- *Ratiō*: the marks sentence reads *verba ex Septuāgintā interpretibus addita* (the Old Testament's marks only).
-- *Notæ* with the two rows that apply: *oblīquæ* and ᵃ (*ā textū Hebræō*).
+The master marks them (`text/FRT.usfm`); the build keeps each one only where it holds:
 
-**Novum Fœdus**
-- *Ad lēctōrem*: "Hoc est Novum Fœdus ex Bibliīs Castelliōnis"; *prōdest*; the Bünemann sentence without *cujus ēditiōnem
-  Veteris Fœderis sequor*.
-- *Ratiō hujus ēditiōnis*: only the New Testament base (*Textum dedit ēditiō Basiliēnsis annī 1573 …*), without *In
-  utrōque Fœdere … leguntur*, the Apocrypha sentence and the *Nōa* example; the marks sentence reads *verba ex
-  Vulgātā addita*.
-- *Notæ* with all four rows, *Hebræō aut* dropped from the last.
+| Marker | Kept when | Covers |
+|---|---|---|
+| `\zvt` | the edition has Old Testament books | the Leipzig base sentence; Bünemann's *cujus ēditiōnem Veteris Fœderis sequor*; *ex Septuāgintā interpretibus*; *Hebræō* in the footnote row |
+| `\znt` | it has New Testament books | the Basel base sentences; *ex Vulgātā*; *Græcō* in the footnote row; the ⟦ ⟧ and [ ] rows |
+| `\zboth` | it has both | *In utrōque Fœdere … leguntur*; the *Nōa* clause; the *aut* joining each pair |
+| `\zntonly` | it has the New alone | *ēditiō* before *Basiliēnsis* (otherwise said once, of Leipzig) |
+| `\zapoc` | it has the Apocrypha | the sentence placing them between the Testaments (none built yet, so it is not printed) |
+| `\zmac` / `\znomac` | with / without macrons | *vōcālēs longæ omnēs notātæ sunt et* in *Ad lēctōrem* (without: *… accommodāta est*); the macron clause of the *Ratiō* (without: *Orthographiam ad lexicon Fēlīcis Gaffiot accommodāvī.*) |
 
-**Sine macronibus** (EPUB and TXT): the sentence becomes "Orthographiam ad lexicon Fēlīcis Gaffiot accommodāvī.", and
-the text is printed without macrons.
+The edition without macrons (EPUB and text) is then printed with the macrons stripped.
 
 ## English, for checking
 

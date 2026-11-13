@@ -406,10 +406,14 @@ def write_text(selected, folder, stem, title):
                           info["licence_url"], "", info["wikisource"], info["wikisource_list"], "",
                           info["source_note"], ""])
 
-    full = head + body + tail(True)
+    def front(macrons):                 # the front matter (text/FRT.usfm), then a rule before the books
+        from pipeline import frontmatter
+        return frontmatter.to_text(frontmatter.load(selected, macrons)) + "\n" + "—" * 3 + "\n\n"
+
+    full = head + front(True) + body + tail(True)
     (folder / f"{stem}.txt").write_text(full, encoding="utf-8", newline="\n")
-    (folder / f"{stem}-sine-macronibus.txt").write_text(strip_macrons(head + body + tail(False)), encoding="utf-8",
-                                                        newline="\n")
+    (folder / f"{stem}-sine-macronibus.txt").write_text(strip_macrons(head + front(False) + body + tail(False)),
+                                                        encoding="utf-8", newline="\n")
     rows = [(vid, book.info.osis, c, v, text, strip_macrons(text))
             for book in selected for vid, c, v, text in verses(book)]
     tsv.write(folder / f"{stem}.tsv", rows, header=("id", "book", "chapter", "verse", "text", "sine_macronibus"))

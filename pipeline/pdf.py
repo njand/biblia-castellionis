@@ -5,14 +5,15 @@ The preamble is pipeline/templates/preamble.tex (memoir, A5, each book in two ba
 caps, running heads giving the verses on the page, \\Liber, \\Caput, \\Versus, \\FinisLibri), with
 templates/title.tex inlined so the file stands alone. After the last book comes a page listing the Wikisource
 pages and revisions used (`sources`). Each book's body is `latex.to_latex`, the same conversion the migration's round trip proved lossless. Added after the preamble: the commands for a
-chapter summary (\\Argumentum) and a psalm title (\\Titulus), ȳ for inputenc, and the title and colophon pages."""
+chapter summary (\\Argumentum) and a psalm title (\\Titulus), ȳ for inputenc, and the title and colophon pages. The
+front matter (text/FRT.usfm, pipeline/frontmatter.py) follows the contents, in one column with roman page numbers."""
 
 import pathlib
 import re
 import shutil
 import subprocess
 
-from pipeline import latex, paths, publish
+from pipeline import frontmatter, latex, paths, publish
 
 MAIN = paths.ROOT / "pipeline" / "templates" / "preamble.tex"
 TITLE = paths.ROOT / "pipeline" / "templates" / "title.tex"
@@ -117,13 +118,17 @@ def page_name(url):
 
 def document(selected, title, version):
     """The whole .tex file."""
-    parts = [preamble(), ADDITIONS, "\\begin{document}\n\n\\begin{titlingpage}\n\\titleM\n",
+    parts = [preamble(), ADDITIONS, frontmatter.TEX_COMMANDS,
+             "\\begin{document}\n\\frontmatter\n\n\\begin{titlingpage}\n\\titleM\n",
              "{\\centering"                       # the selection's name, unless it is the title proper again
              + ("" if title == "Biblia Sacra" else f"\\Large {tex_escape(title)}\\par\\medskip")
              + (f"{{\\small {tex_escape(version)}}}\\par" if version else "") + "}\n",
              colophon(selected), "\\end{titlingpage}\n",       # the colophon on the title page's verso
              # the contents carry no running head on any of their pages
-             "\n\\pagestyle{empty}\n\\tableofcontents*\n\\clearpage\n\\pagestyle{plain}\n\n\\mainmatter\n"]
+             "\n\\pagestyle{empty}\n\\tableofcontents*\n\\clearpage\n",
+             # the front matter (text/FRT.usfm), in one column, roman page numbers, before the first book
+             "\\pagestyle{praefatio}\n", frontmatter.to_tex(frontmatter.load(selected)),
+             "\\clearpage\n\\pagestyle{plain}\n\n\\mainmatter\n"]
     testaments = {book.info.testament for book in selected}
     current = None
     for book in selected:

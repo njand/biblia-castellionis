@@ -8,6 +8,7 @@
                                 verse, in the KJV's numbering (parallel.aligned)
   downloads/                    the EPUBs, PDF and text built with the site, listed on index.html#downloads
   search.html, search.json      the search page (words, phrases, or a reference) and every verse's text
+  praefatio.html                the front matter (text/FRT.usfm, pipeline/frontmatter.py), linked from index.html
   colophon.html                 licence and credits (Wikisource pages and revisions, texts, fonts)
   style.css, app.js, books.js   books.js: the books and chapters, for the jump menu and references
   fonts/                        pipeline/fonts: Gentium Book and Ezra SIL, subset and renamed (OFL)
@@ -24,7 +25,7 @@ import json
 import shutil
 from dataclasses import dataclass
 
-from pipeline import parallel, paths, publish
+from pipeline import frontmatter, parallel, paths, publish
 
 
 @dataclass(frozen=True)
@@ -267,6 +268,17 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
   border-top: 1px solid var(--rule); }
 .colophon p { margin: .6em 0; }
 .colophon ul { padding-left: 1.2em; }
+.praefatio h2 { text-align: center; font-variant: small-caps; font-weight: normal; margin: 2em 0 .8em; }
+.praefatio h3 { text-align: center; font-style: italic; font-weight: normal; margin: 1.2em 0 .4em; }
+.praefatio p { margin: 0; text-indent: 1.2em; }      /* flush left: no soft hyphens here, as the chapters have */
+.praefatio p.first { text-indent: 0; }
+.praefatio p.signature { text-align: right; font-style: italic; text-indent: 0; margin-top: 1em; }
+.praefatio table.notae { border-collapse: collapse; margin: .5em 0; }
+.praefatio table.notae td { vertical-align: top; padding: .2em .9em .2em 0; }
+.praefatio table.notae td.signum { white-space: nowrap; }
+.praefatio ul.libri { list-style: none; padding-left: 1.5em; }
+.praefatio ul.libri li { text-indent: -1.5em; margin: .3em 0; }
+p.front { text-align: center; }
 .print-only { display: none; }
 .downloads { border: 1px solid var(--rule); border-radius: 6px; padding: .2rem 1rem .7rem; margin: 1.5rem 0 1rem;
   background: var(--panel); font-size: .9rem; }
@@ -857,12 +869,19 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
     sections = "\n".join(f'<h2><a href="{book.slug}/index.html">{esc(book.long)}</a></h2>\n'
                          f'{chapter_grid(book, book.slug + "/")}' for book in selected)
     edition = f"<br/><small>{esc(version)}</small>" if version else ""
+    blocks = frontmatter.load(selected)
+    front = " · ".join(f'<a href="praefatio.html#{key}">{esc(label)}</a>' for label, key in frontmatter.sections(blocks))
     home = (f"<h1>Biblia Sacra<small>ex Sēbastiānī Castelliōnis interpretātiōne</small></h1>\n"
-            f'<p style="text-align:center">{esc(title)}{edition}</p>\n{downloads_html(files, parts)}{sections}')
+            f'<p style="text-align:center">{esc(title)}{edition}</p>\n<p class="front">{front}</p>\n'
+            f'{downloads_html(files, parts)}{sections}')
     (folder / "index.html").write_text(page("Biblia Sacra ex Sebastiani Castellionis interpretatione", home, ""),
                                        encoding="utf-8", newline="\n")
     (folder / "search.html").write_text(page("Quærere · Biblia Sacra (Castellio)", SEARCH, "", " › Quærere"),
                                         encoding="utf-8", newline="\n")
+    first = frontmatter.sections(blocks)[0][0]
+    (folder / "praefatio.html").write_text(
+        page(f"{publish.strip_macrons(first)} · Biblia Sacra (Castellio)", frontmatter.to_html(blocks), "",
+             f" › {esc(first)}", main_class="praefatio"), encoding="utf-8", newline="\n")
     (folder / "colophon.html").write_text(
         page("Colophon · Biblia Sacra (Castellio)", colophon_html(selected, used), "", " › Colophon",
              main_class="colophon"), encoding="utf-8", newline="\n")
