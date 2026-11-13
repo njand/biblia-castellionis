@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage[hang,flushmargin,para,perpage]{footmisc}
 \usepackage{multicol,microtype,etoolbox}
+\usepackage{graphicx}   % \scalebox, for \TitulusMinor
 
 \usepackage[LGR,T1]{fontenc}
 % Greek in the footnotes (decision 53): latex.note_to_latex writes it in LGR input, set in the TeX Greek fonts.
@@ -59,7 +60,10 @@
     \thispagestyle{empty}%
     \begin{multicols}{2}[\LiberTitulus]%
 }
-\newcommand{\TitulusMinor}[1]{{\Large #1}}   % a book title's \mt2 line: smaller, inside \LiberTitulus's \HUGE
+% A book title's \mt2 line, smaller, inside \LiberTitulus's \HUGE: scaled as a box, not by a size command. A \Large
+% (or \fontsize) here made lettrine set every chapter's drop cap at 36.5pt, not 21.8pt, rising above its two lines
+% (found 2026-11-12 by compiling the whole Bible with Tectonic; a single book was not affected).
+\newcommand{\TitulusMinor}[1]{\scalebox{.55}{#1}}
 \newcommand{\LiberTitulus}{%            % a macro: multicols' [title] argument may not hold a \par itself
     \begin{center}
         \HUGE \textsc{\libernamelong}\par
