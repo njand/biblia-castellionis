@@ -122,7 +122,7 @@ class Model(unittest.TestCase):
 
     def test_collection(self):
         gospels = [publish.Book(books.BY_OSIS[o], o, o, [o]) for o in ("Matt", "Mark", "Luke", "John")]
-        self.assertEqual(publish.collection(gospels), ("Ēvangelia", "castellio-evangelia"))
+        self.assertEqual(publish.collection(gospels), ("Euangelia", "castellio-euangelia"))
         self.assertEqual(publish.collection(gospels[:2])[1], "castellio")
 
     def test_credit_names_only_the_books_present(self):
@@ -130,12 +130,12 @@ class Model(unittest.TestCase):
             return publish.transcription_credit([publish.Book(books.BY_OSIS[o], o, o, [o]) for o in codes])
 
         whole, new = credit("Gen", "Exod", "Matt", "Mark", "Rom"), credit("Matt", "Mark", "Rom")
-        self.assertIn("Ēvangelium ipse", credit("Mark", "Rom"))   # one Gospel
-        self.assertIn("Genesis capita 1–35 et Ēvangelia ipse ēditor", whole)
-        self.assertIn("in Genesī atque Ēvangeliīs", whole)
+        self.assertIn("Euangelium ipse", credit("Mark", "Rom"))   # one Gospel
+        self.assertIn("Genesis capita 1–35 et Euangelia ipse ēditor", whole)
+        self.assertIn("in Genesī atque Euangeliīs", whole)
         self.assertNotIn("Genes", new)                      # the New Testament alone (Nathan, 2026-11-12)
-        self.assertTrue(new.startswith("Ēvangelia ipse ēditor") and "Cētera" in new)
-        self.assertNotIn("Ēvangeli", credit("Gen", "Exod"))
+        self.assertTrue(new.startswith("Euangelia ipse ēditor") and "Cētera" in new)
+        self.assertNotIn("Euangeli", credit("Gen", "Exod"))
         self.assertIn("Cētera", credit("Gen"))              # Genesis 36–50
         self.assertIn("quem textum Vicifontis", credit("Matt", "Mark", "Luke", "John"))
         self.assertTrue(credit("Rom").startswith("Textus sūmptus est"))

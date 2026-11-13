@@ -45,7 +45,7 @@
   *Nāzaræus*, 18 places, §5; your decision). Notes: Latin footnotes in the text, the model wording recorded in `brackets-and-notes.md`.
   *crucī fīgō* as two words recommended (Gaffiot "mieux", Lewis & Short "better separated"). Nothing committed.
 - **Book titles in title case, with a smaller second line** (2026-11-12, your instruction): every book's `\mt1` holds
-  the name (*Matthæō*, *ad Corinthiōs*, *Petrī Apostolī*, *Apocalypsis*), `\mt2` the rest (*Ēvangelium Auctōre*,
+  the name (*Matthæō*, *ad Corinthiōs*, *Petrī Apostolī*, *Apocalypsis*), `\mt2` the rest (*Euangelium Auctōre*,
   *Paulī Apostolī Epistula Prior*, *Epistula Prior*, *Jōhannis Theologī, hoc est, Patefactiō*); `\toc1` in title case.
   The site, EPUB, PDF (`\TitulusMinor`) and text builds print `\mt2` smaller. **Waiting for your Decision lines**
   (the checklist, `data/review/nt-publication-checklist.md`): `brackets-and-notes.md`, `long-paragraphs.md` (64
@@ -125,10 +125,10 @@
 - **2026-11-08: the publishing builds for v1.0 *Evangelia* exist (M2), not yet released.**
   `python -m pipeline build Matt Mark Luke John --version v1.0` writes into `build/` (git-ignored): the website
   (`build/site/`), two EPUBs (with and without macrons; both pass epubcheck 5.4.0 with no errors or warnings), the
-  print LaTeX (`build/pdf/castellio-evangelia.tex`: the preamble and `title.tex` in `pipeline/templates/`, body by
+  print LaTeX (`build/pdf/castellio-euangelia.tex`: the preamble and `title.tex` in `pipeline/templates/`, body by
   `latex.to_latex`), and TXT with and without macrons, TSV and JSON (`build/txt/`). With no books named it builds
   everything in `text/`. Every verse of the five settled books comes out exactly as `data/gold` has it. **To look at:**
-  - **The PDF** (`build/pdf/castellio-evangelia.pdf`, 128 A5 pages) compiles with Tectonic 0.17.0 (a one-file
+  - **The PDF** (`build/pdf/castellio-euangelia.pdf`, 128 A5 pages) compiles with Tectonic 0.17.0 (a one-file
     XeTeX; `build` uses `latexmk`, then `pdflatex`, then `tectonic`, whichever is on the PATH): 0 missing
     characters, 3 overfull lines (1–7 pt; Luke). For it the generated LaTeX adds, after your preamble: Latin
     hyphenation (`babel` classiclatin; without it 186 lines were overfull) and `\emergencystretch`; under XeTeX only,
@@ -148,7 +148,7 @@
     layout. It shows only the books built, so the v1.0 site has no Genesis: do you want Genesis on the site from the start (it was on WordPress)?
   - **Wording for you to settle:** the colophon (English; `publish.credits`) names no editor; it says the NT follows
     1573 with 1556 as the reference (decision 24), as `README.md` now does too (2026-11-10). The release title is
-    *Ēvangelia* and the files are `castellio-evangelia*`; TXT chapters are headed "Matthæus 14".
+    *Euangelia* and the files are `castellio-euangelia*`; TXT chapters are headed "Matthæus 14".
   - **Two fixes in `latex.py`:** a paragraph marker in the middle of a line (`… lēgistis? \q1 \qt …`, Matt 21:16)
     now starts a new block (it used to stop `to_latex`), and `\cd` (a chapter summary) / `\d` (a psalm title) print as
     `\Argumentum{…}` / `\Titulus{…}` above the drop cap. None of the Gospels has a `\cd` yet.

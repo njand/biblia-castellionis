@@ -37,7 +37,7 @@ PARAGRAPHS = {"p", "m", "nb", "b", "q1", "q2", "q3"}
 CHARACTERS = {"qt", "qt*"}
 
 # Collections with a name of their own; any other selection is "Biblia Sacra".
-COLLECTIONS = {("Matt", "Mark", "Luke", "John"): ("Ēvangelia", "evangelia")}
+COLLECTIONS = {("Matt", "Mark", "Luke", "John"): ("Euangelia", "euangelia")}
 SERIES = "Biblia Sacra ex Sebastiānī Castelliōnis interpretātiōne"
 EDITOR = "Nathan Anderson"                     # named in every colophon (Nathan, 2026-11-10)
 
@@ -66,7 +66,7 @@ class Chapter:
 class Book:
     info: books.Book
     short: str                                  # \h, the running head: "Matthæus"
-    long: str                                   # \toc1: "Ēvangelium Auctōre Matthæō"
+    long: str                                   # \toc1: "Euangelium Auctōre Matthæō"
     title: list                                 # [(line, minor)]: \mt1 lines (split at //) and \mt2/\mt3 lines
                                                 # (minor, set smaller), in the file's order
     chapters: list = field(default_factory=list)
@@ -245,8 +245,8 @@ def transcription_credit(selected):
         parts.append("Genesis capita 1–35")
         ablatives.append("Genesī")
     if gospels:
-        parts.append("Ēvangelia" if gospels > 1 else "Ēvangelium")
-        ablatives.append("Ēvangeliīs" if gospels > 1 else "Ēvangeliō")
+        parts.append("Euangelia" if gospels > 1 else "Euangelium")
+        ablatives.append("Euangeliīs" if gospels > 1 else "Euangeliō")
     if not parts:                                       # nothing of the editor's: the whole text from Wikisource
         return (f"Textus sūmptus est ex trānscrīptiōne quam Vicifontis sociī ab annō 2021 fēcērunt ({WORK}), quæ "
                 "eādem licentiā dīvulgātur.")
