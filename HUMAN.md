@@ -2,6 +2,11 @@
 
 ## Now
 
+- **The Wikisource credit rewritten** (2026-11-12; decision 54, your request): every format now says that Genesis 1–35
+  and the Gospels began as your 2019 transcription, which Wikisource's pages of 2021 follow, and that the other books
+  draw on Wikisource (CC BY-SA 4.0). The page-by-page list is linked (`MANIFEST.tsv`), not printed; the PDF's last
+  page (*Fontes*) is gone. The site's colophon keeps the full list. Evidence in `docs/editions.md`. Also fixed: the
+  drop caps (the smaller title line's `\Large` had enlarged them). Nothing committed.
 - **The open proposals are decided and applied** (2026-11-12; decisions 52–53, your answers step by step): brackets
   (⟦…⟧ Mark 16:9–20, John 7:53–8:11; […] 17 other places); 64 paragraph breaks; *eundem*, *quendam* (39); 10 macron
   slips; *crucī fīgō* apart (46); the names (*Bēthlehem*, *Ōbēd*, *Esrōm*, *Amīnādāb*, *Eliācīm*, *Jaīrus*, *Benjāmīn*,
@@ -148,7 +153,8 @@
   the seven OCR witnesses are aligned to verse ids and scored (`data/calibration/witnesses.md`). The best is
   1758, which has 98% of your words and reads 96.6% of them the same. 1681 is weakest (75.7%). TXT/1 (1726–27)
   reads well (97.0%) but holds only 44% of the text. WordPress turns out to be Wikisource with macrons, so it is
-  not an independent witness. Step 4 is done: the harness (`data/calibration/harness.md`) runs normalize and
+  not an independent witness. (Corrected 2026-11-12, decision 54: the other way round. Wikisource's Genesis and Gospels,
+  created in 2021, follow your 2019 text, slips included.) Step 4 is done: the harness (`data/calibration/harness.md`) runs normalize and
   macronize from Wikisource and meets both targets when each chapter learns from the other chapters:
   99.76% words, 99.56% spelling, 99.26% vowels. It uses your *proposed* spelling rules: approving them is still
   your call. Step 5 is done (`data/calibration/scans.md`). Comparing the 1760 scan with Castellio's own 1551, 1554
@@ -337,6 +343,7 @@
 | 51 | 2026-11-12 | **Classical spellings** (`data/review/classical-spellings.md`, on your questions): *sē ipsum*, *tē ipsum*, *mē ipsum* apart (Cicero always; the joined forms are post-classical); *epistula* (classical T1 142 : 2), in the text and the titles; the perfects of *eō*'s compounds in *-iērunt*/*-iit* (*introiverunt*, *exiverunt* unattested). Rules added: 6 words, the stem *epistol → epistul*. |
 | 52 | 2026-11-12 | **The publication proposals** (your answers, step by step): brackets as NA28/SBLGNT; long paragraphs split (64); *eundem*, *quendam*; macron slips; *crucī fīgō* apart (Gaffiot "mieux", L&S); the names' rule (Gaffiot, Greek long letters, a dictionary, the Hebrew) and its forms; *Nāzareth* and its adjectives; Genesis 1–27 against 1738 (11:25 and 13:8 kept). |
 | 53 | 2026-11-12 | **Brief Latin footnotes in the text**, unobtrusive (a small letter; foot of the column, pop-up, hover): six so far (*rudentem* ×3, Jude 6, 1 John 4:4, 1 Pet 5:8), more from your in-depth review. |
+| 54 | 2026-11-12 | **The Wikisource credit**: Genesis 1–35 and the Gospels began as your 2019 transcription; Wikisource's pages (created 2021 by one user, each book in one edit) follow it, sharing six slips of yours no printing has (Gen 4:3, 4:8, 5:22, 9:15, 13:8, 13:15); the other books draw on Wikisource. The list of pages is linked, not printed. |
 
 ## How to run
 

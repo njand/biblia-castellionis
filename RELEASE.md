@@ -13,6 +13,7 @@ the editor's full read-through is still to come, and corrections will appear in 
 print); `castellio.txt` and `-sine-macronibus.txt` (plain text); `castellio.tsv` and `castellio.json` (one row per
 verse, with and without macrons); `castellio-site.zip` (the website, also at https://njand.github.io/biblia-castellionis/).
 
-Licensed CC BY-SA 4.0. The text draws on the transcription by the contributors to Latin Wikisource, used under
-CC BY-SA 4.0; each format's colophon lists the pages and revisions used. Source files, data and the record of every
+Licensed CC BY-SA 4.0. The text of Genesis 1–35 and the Gospels began as the editor's own transcription (2019); the
+other books draw on the transcription by the contributors to Latin Wikisource, used under
+CC BY-SA 4.0 (the pages and revisions used: data/witnesses/wikisource/MANIFEST.tsv). Source files, data and the record of every
 editorial decision: https://github.com/njand/biblia-castellionis

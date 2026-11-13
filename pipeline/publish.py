@@ -248,10 +248,18 @@ def credits(selected):
         "licence": "This edition is licensed under the Creative Commons Attribution-ShareAlike 4.0 International "
                    "License (CC BY-SA 4.0). The 16th–18th-century text it is drawn from is in the public domain.",
         "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "wikisource": ("The text draws on the transcription by the contributors to Latin Wikisource "
-                       "(Biblia Sacra interprete Sebastiano Castellione), used under CC BY-SA 4.0. "
-                       "Pages and revisions used:"),
+        # The credit (2026-11-12, decision 54): Genesis 1–35 and the Gospels began as the editor's 2019 transcription,
+        # which Latin Wikisource's pages of 2021 follow (their slips are his: docs/editions.md); the other books draw
+        # on Wikisource. The page-by-page list is linked, not printed, except on the site's colophon.
+        "wikisource": ("The text of Genesis 1–35 and the Gospels began as the editor’s own transcription (2019). "
+                       "The other books draw on the transcription by the contributors to Latin Wikisource "
+                       "(Biblia Sacra interprete Sebastiano Castellione, 2021–; its Genesis and Gospels follow the "
+                       "editor’s 2019 text), used under CC BY-SA 4.0. Every reading was checked against the printed "
+                       "editions named above."),
         "wikisource_url": "https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione",
+        "wikisource_list": ("The Wikisource pages and revisions used are listed at "
+                            f"{REPOSITORY}/blob/main/data/witnesses/wikisource/MANIFEST.tsv."),
+        "wikisource_list_url": f"{REPOSITORY}/blob/main/data/witnesses/wikisource/MANIFEST.tsv",
         "pages": pages,
         "repository": REPOSITORY,
         "source_note": f"Source files, data and corrections: {REPOSITORY}",
@@ -338,8 +346,7 @@ def write_text(selected, folder, stem, title):
     info = credits(selected)
     head = [SERIES.upper(), title, ""]
     tail = ["", "—" * 3, "", info["about"], info["bases"], info["edited"], "", info["licence"], info["licence_url"], "",
-            info["wikisource"], *[f"  {short}: {url} (revision {revid}, {oldid})" for short, url, revid, oldid, _
-                                  in info["pages"]], "", info["source_note"], ""]
+            info["wikisource"], info["wikisource_list"], "", info["source_note"], ""]
     body = "\n".join(reading_text(book) for book in selected)
     full = "\n".join(head) + "\n" + body + "\n".join(tail)
     (folder / f"{stem}.txt").write_text(full, encoding="utf-8", newline="\n")

@@ -192,22 +192,21 @@ class Latex(unittest.TestCase):
         self.assertIn("\\documentclass[9pt,a5paper,twoside,openany]{memoir}", document)
         self.assertIn("\\newcommand*\\titleM", document)                 # title.tex inlined
         self.assertNotIn("\\input{", document)
-        self.assertIn("revision 165335", document)                       # the Wikisource revision credited
+        self.assertIn("data/witnesses/wikisource/MANIFEST.tsv", document)  # the Wikisource list, linked
         self.assertEqual(document.count("\\begin{document}"), 1)
         self.assertEqual(pdf.tex_escape("50% & _x_"), "50\\% \\& \\_x\\_")
 
-    def test_document_closes_each_book_and_lists_sources_last(self):
+    def test_document_closes_each_book_without_a_list_of_pages(self):
         selected = publish.load(["Mark", "Rom"])
         document = pdf.document(selected, "Biblia Sacra", "v0")
         body = document.split("\\begin{document}", 1)[1]
         self.assertEqual(body.count("\\Liber["), 2)
-        self.assertEqual(body.count("\\FinisLibri"), 2)              # each book's columns closed
-        back = body.rsplit("\\FinisLibri", 1)[1]
-        self.assertIn("Fontes", back)                                  # the Wikisource pages after the last book
-        self.assertIn("revision 165335", back)
+        self.assertEqual(body.count("\\FinisLibri"), 2)             # each book's columns closed
+        self.assertNotIn("Fontes", body)                               # no last page of Wikisource links (decision 54)
+        self.assertNotIn("revision 165335", body)
         colophon = document.split("\\begin{titlingpage}", 1)[1].split("\\end{titlingpage}", 1)[0]
-        self.assertNotIn("revision 165335", colophon)                  # not on the title page's verso
-        self.assertNotIn("\\Large Biblia Sacra", colophon)             # the title proper not repeated
+        self.assertIn("editor's own transcription (2019)", colophon)  # ’ is ' in the LaTeX
+        self.assertNotIn("\\Large Biblia Sacra", colophon)            # the title proper not repeated
 
 
 class Build(unittest.TestCase):

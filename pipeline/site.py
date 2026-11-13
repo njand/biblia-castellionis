@@ -886,6 +886,7 @@ def colophon_html(selected, used=None):
 <p>{esc(info["edited"])}</p>
 <p>{esc(info["licence"])} <a href="{info["licence_url"]}">{info["licence_url"]}</a></p>
 <p>{esc(info["wikisource"]).replace("Latin Wikisource", f'<a href="{info["wikisource_url"]}">Latin Wikisource</a>')}</p>
+<p>Wikisource pages and revisions used:</p>
 <ul>{pages}</ul>
 {parallels}
 {fonts}

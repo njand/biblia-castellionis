@@ -324,6 +324,22 @@ hic ineptissima similitudine uti*. He separates hyperbole from absurdity, compar
 into a beam, and a thread (*per foramen acus solet filum traiici*), however much it grows, never becomes a camel, but
 it does become a rope. His rendering of Mark 10:25 and Luke 18:25 follows the same reading.
 
+### Latin Wikisource's transcription and Nathan's 2019 text (checked 2026-11-12)
+
+The Wikisource collection *Biblia Sacra interprete Sebastiano Castellione* was created in September 2021 by one user,
+*Ser be etre shi*: the index page on 2021-09-22, Mark, Luke and John on 2021-09-28 (each a single edit; Mark 71 KB),
+Acts on 2021-10-05, Genesis on 2021-11-10 (MediaWiki API, first revisions). Its header names as sources the 1738
+Leipzig Bible and the 1760 New Testament (archive.org, Google Books), and no other. Nathan's WordPress site, with the
+macronized Gospels and Genesis 1–35, dates from 2019.
+
+The evidence that Wikisource's Genesis follows Nathan's text: in Genesis 1–13 it shares six readings with his 2019 site
+and his corrected 1726–27 transcription (`TXT/3`) that no printing has (1738, 1750, the 1726 OCR): 4:3 *terrā*, 4:8
+*Caīnum*, 5:22 *gentium*, 9:15 *facta*, 13:8 *discidium*, 13:15 *tuī* (`data/review/settled-1738-gen1-13.md`).
+Its Gospels likewise follow the 1573/1758 line of his text, not the 1760 it cites (`data/calibration/scans.md`). The
+earlier note in HUMAN.md that "WordPress turns out to be Wikisource with macrons" had the direction backwards. The
+other books on Wikisource (Exodus and the rest of the Old Testament, Acts–Revelation) are its own, and are where the
+edition's working text comes from it (decision 54).
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.

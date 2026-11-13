@@ -83,8 +83,6 @@ def title_xhtml(title, version, filt):
 
 def colophon_xhtml(selected):
     info = publish.credits(selected)
-    pages = "".join(f'<li>{site.esc(short)}: <a href="{html.escape(url)}">{site.esc(url)}</a> '
-                    f'(revision {revid}, fetched {fetched})</li>' for short, url, revid, _, fetched in info["pages"])
     return xhtml("Colophon", f"""<div class="colophon">
 <h1>Colophon</h1>
 <p>{site.esc(info["about"])}</p>
@@ -92,7 +90,8 @@ def colophon_xhtml(selected):
 <p>{site.esc(info["edited"])}</p>
 <p>{site.esc(info["licence"])} <a href="{info["licence_url"]}">{info["licence_url"]}</a></p>
 <p>{site.esc(info["wikisource"])}</p>
-<ul>{pages}</ul>
+<p>The Wikisource pages and revisions used are listed at
+<a href="{html.escape(info["wikisource_list_url"])}">{site.esc(info["wikisource_list_url"])}</a>.</p>
 <p>{site.esc(info["source_note"])}</p>
 </div>""", lang="en")
 

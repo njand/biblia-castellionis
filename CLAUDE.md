@@ -18,7 +18,8 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 - **Gaffiot 2016 is CC BY-NC-ND.** Use its answers (via `python -m pipeline latin macron`) to decide; never copy
   its text into this repo.
 - **Wikisource text is CC BY-SA 4.0.** Keep `data/witnesses/wikisource/MANIFEST.tsv` (page and revision) current;
-  the edition must credit Wikisource.
+  the edition must credit Wikisource, for the books it supplied (decision 54: Genesis 1–35 and the Gospels began
+  as Nathan's 2019 transcription, which Wikisource's pages of 2021 follow; the page list is linked, not printed).
 - **The fur-fulminis databases are read-only**, reached only through `python -m pipeline latin …`.
 - Commit only when Nathan asks.
 

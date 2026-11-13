@@ -58,11 +58,10 @@ def tex_escape(text):
 
 
 def colophon(selected):
-    """The title page's verso: the edition, its bases, editor and licence. The Wikisource pages and revisions are
-    listed on the last page (`sources`): a whole Bible's list would not fit here."""
+    """The title page's verso: the edition, its bases, editor and licence, the credit, and a link to the list of
+    Wikisource pages and revisions (decision 54: no longer printed on a last page)."""
     info = publish.credits(selected)
-    wikisource = info["wikisource"].replace("Pages and revisions used:",
-                                            "The pages and revisions used are listed at the end of the volume.")
+    wikisource = info["wikisource"]
     return rf"""\newpage
 \vspace*{{\fill}}
 {{\footnotesize\raggedright
@@ -78,39 +77,12 @@ def colophon(selected):
 {tex_escape(info["licence"])} \url{{{info["licence_url"]}}}
 
 \medskip
-{tex_escape(wikisource)}
+{tex_escape(wikisource)} {tex_escape("The Wikisource pages and revisions used are listed at")}
+\url{{{info["wikisource_list_url"]}}}.
 
 \medskip
 {tex_escape("Source files, data and corrections:")} \url{{{info["repository"]}}}
 \par}}
-"""
-
-
-def sources(selected):
-    """The last page: the Wikisource pages and revisions used (the CC BY-SA attribution), each name linked to
-    its revision."""
-    info = publish.credits(selected)
-    if not info["pages"]:
-        return ""
-    rows = "\n".join(f"\\item {tex_escape(short)}: \\href{{{oldid}}}{{{tex_escape(page_name(url))}}}, "
-                     f"revision {revid} (fetched {fetched})"
-                     for short, url, revid, oldid, fetched in info["pages"])
-    return rf"""
-\clearpage
-\thispagestyle{{empty}}
-\phantomsection
-\addcontentsline{{toc}}{{chapter}}{{Fontes}}
-\vspace*{{\fill}}
-{{\footnotesize\raggedright
-{tex_escape(info["wikisource"].replace(" Pages and revisions used:", ""))} \url{{{info["wikisource_url"]}}}
-
-\medskip
-{tex_escape("Pages and revisions used:")}
-\begin{{itemize}}\setlength{{\itemsep}}{{0pt}}
-{rows}
-\end{{itemize}}
-\par}}
-\vspace*{{\fill}}
 """
 
 
@@ -139,7 +111,6 @@ def document(selected, title, version):
         parts.append(f"\n% ---- {book.info.osis}: generated from text/{book.info.usfm}.usfm\n")
         parts.append(latex.to_latex(usfm))
         parts.append("\\FinisLibri\n")                  # closes the book's columns (preamble.tex)
-    parts.append(sources(selected))
     parts.append("\n\\end{document}\n")
     return "".join(parts)
 

@@ -38,7 +38,7 @@ Theodore Beza, a fellow French Protestant who produced his own translation of th
 
 ## Sources
 
-The working text is the transcription by the contributors to [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione). The base editions are:
+The text of Genesis 1–35 and the Gospels began as the editor's own transcription (2019, from the 1726–27 printing). The working text for the other books is the transcription by the contributors to [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione) (2021–), whose Genesis and Gospels follow the editor's 2019 text. The base editions are:
 
 * Old Testament: the [1738 Leipzig edition](https://archive.org/details/bibliasacraexseb01cast) (*Biblia sacra ex Sebastiani Castellionis interpretatione et postrema recognitione*), which Wikisource transcribes.
 * New Testament: the [1573 Basel edition](https://www.digitale-sammlungen.de/en/view/bsb10141277) (Petrus Perna, *ex postrema recognitione*), printed after Castellio's death from his last revision: the text of his [1556 edition](https://www.e-rara.ch/bau_1/content/titleinfo/10281656) (Oporinus), the last printed in his lifetime, revised further. Where 1556 reads otherwise, its reading is recorded as a variant.
@@ -62,7 +62,7 @@ N.B. This project aims to create a reader's edition, not a critical edition of t
 
 This edition is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) (see [LICENSE](LICENSE)). The underlying 18th-century text is in the public domain.
 
-The base text draws on the transcription by the contributors to [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione), used under CC BY-SA 4.0; the pages and revisions used are listed in [data/witnesses/wikisource/MANIFEST.tsv](data/witnesses/wikisource/MANIFEST.tsv). Scans are courtesy of the Internet Archive, the University of Toronto (Robarts Library), the Koninklijke Bibliotheek (National Library of the Netherlands) and Google Books.
+The text of Genesis 1–35 and the Gospels began as the editor's own transcription (2019). The other books draw on the transcription by the contributors to [Latin Wikisource](https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione) (2021–; its Genesis and Gospels follow the editor's 2019 text), used under CC BY-SA 4.0; the pages and revisions used are listed in [data/witnesses/wikisource/MANIFEST.tsv](data/witnesses/wikisource/MANIFEST.tsv). Scans are courtesy of the Internet Archive, the University of Toronto (Robarts Library), the Koninklijke Bibliotheek (National Library of the Netherlands) and Google Books.
 
 
 ## Additional Resources
