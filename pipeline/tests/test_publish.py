@@ -75,6 +75,13 @@ class Model(unittest.TestCase):
         tex = latex.to_latex(SAMPLE.replace("dīcentem: ", f"dīcentem{note}: "))
         self.assertIn("dīcentem\\footnote{\\textbf{1:3} Græcē \\Graece{k'amhloc}; Castelliō fūnem.}:", tex)
 
+    def test_brackets_in_latex(self):
+        """A poetry line that opens with "[" must not become \\\\[<length>] (Matt 6:13); ⟦ ⟧ are drawn."""
+        tex = latex.to_latex(SAMPLE.replace("\\q2 Isaācus Jācōbum.", "\\q2 [Isaācus Jācōbum.]")
+                             .replace("\\v 3 Jōsē", "\\v 3 ⟦Jōsē"))
+        self.assertIn("{[}Isaācus Jācōbum.{]}", tex)
+        self.assertIn("{[\\kern-.18em[}Jōsē", tex)
+
     def test_greek_to_lgr(self):
         self.assertEqual(latex.greek_to_lgr("κάμηλος"), "k'amhloc")   # c: the final sigma
         self.assertEqual(latex.greek_to_lgr("ἀγάπη"), ">ag'aph")

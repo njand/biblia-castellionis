@@ -253,7 +253,10 @@ def unicode_to_latex(text):
     text = re.sub(r"(?<=[“”‘’])(?=[“”‘’])", "{}", text)
     for char, latex in FROM_UNICODE:
         text = text.replace(char, latex)
-    return text
+    # Brackets (decision 52): "[" in braces, or after a line's \\ it would be read as \\[<length>] (Matt 6:13);
+    # ⟦ ⟧ drawn as two brackets, which the T1 Palatino lacks.
+    text = text.replace("[", "{[}").replace("]", "{]}")
+    return text.replace("⟦", "{[\\kern-.18em[}").replace("⟧", "{]\\kern-.18em]}")
 
 
 GREEK_RUN = re.compile(r"[Ͱ-Ͽἀ-῿]+(?:\s+[Ͱ-Ͽἀ-῿]+)*")
