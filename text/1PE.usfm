@@ -2,9 +2,10 @@
 \usfm 3.0
 \ide UTF-8
 \h Petrī I
-\toc1 Petrī Apostolī Epistula prior
+\toc1 Petrī Apostolī Epistula Prior
 \toc2 Petrī I
-\mt1 Petrī Apostolī // Epistula prior
+\mt1 Petrī Apostolī
+\mt2 Epistula Prior
 
 \c 1
 \p
@@ -128,7 +129,7 @@ Est autem hoc dictum illud, quod apud vōs est nūntiātum.
 \v 1 Igitur Chrīstō prō vōbīs carne supplicium passō, vōs quoque eadem mente armāminī: sīquidem quī carne supplicium tulit, is peccāre dēsiit,
 \v 2 nē deinceps ad hominum cupiditātēs, sed ad Deī voluntātem reliquum in carne tempus vīvat.
 \v 3 Satis est enim nōbīs præteritō vītæ tempore extrāneīs mōrem gessisse, versantēs in libīdinibus, cupiditātibus, vīnolentiīs, cōmessātiōnibus, pōtātiōnibus, et nefāriīs deastrōrum cultūrīs.
-\v 4 Atque id sānē mīrantur illī, nōn concurrere vōs ad eamdem luxuriæ profūsiōnem, et maledīcunt:
+\v 4 Atque id sānē mīrantur illī, nōn concurrere vōs ad eandem luxuriæ profūsiōnem, et maledīcunt:
 \v 5 Redditūrī ratiōnem eī, quī et vīvōs est et mortuōs jūdicātūrus.
 \v 6 Nam ideō mortuīs quoque nūntiātus est, ut et secundum hominēs carne jūdicentur, et secundum Deum spīritū vīvant.
 \p
@@ -164,7 +165,7 @@ Est autem hoc dictum illud, quod apud vōs est nūntiātum.
 \v 6 Quamobrem submittite vōs potentī Deī manuī, ut vōs tempore cūrātiōnis ēvehat,
 \v 7 omnī vestrī cūrā in eum rejectā: quippe cui cūræ sītis.
 \p
-\v 8 Sōbriī este, vigilāte: nam adversārius noster diabolus, ut leō rūgiēns circuit, quærēns, quem dēvoret.
+\v 8 Sōbriī este, vigilāte: nam adversārius noster\f + \fr 5:8 \ft Græcē ὑμῶν, ‘vester’; Castelliōnis ēditiōnēs ‘noster’ habent.\f* diabolus, ut leō rūgiēns circuit, quærēns, quem dēvoret.
 \v 9 Cui resistite fidē firmī, scientēs, eadem vestrīs, quī in orbe dēgunt, frātribus ūsū venīre patienda.
 \p
 \v 10 Deus vērō omnis grātiæ, quī nōs ad æternam suam glōriam per Chrīstum Jēsum vocāvit, is vōs paulum passōs compōnat, cōnfirmet, corrōboret, fundet.

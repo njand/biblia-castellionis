@@ -10,7 +10,9 @@
 \usepackage[hang,flushmargin,para,perpage]{footmisc}
 \usepackage{multicol,microtype,etoolbox}
 
-\usepackage[T1]{fontenc}
+\usepackage[LGR,T1]{fontenc}
+% Greek in the footnotes (decision 53): latex.note_to_latex writes it in LGR input, set in the TeX Greek fonts.
+\newcommand{\Graece}[1]{{\fontencoding{LGR}\selectfont #1}}
 % \usepackage{imfellEnglish}
 \usepackage{palatino}
 
@@ -57,6 +59,7 @@
     \thispagestyle{empty}%
     \begin{multicols}{2}[\LiberTitulus]%
 }
+\newcommand{\TitulusMinor}[1]{{\Large #1}}   % a book title's \mt2 line: smaller, inside \LiberTitulus's \HUGE
 \newcommand{\LiberTitulus}{%            % a macro: multicols' [title] argument may not hold a \par itself
     \begin{center}
         \HUGE \textsc{\libernamelong}\par

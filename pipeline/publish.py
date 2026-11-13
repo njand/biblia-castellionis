@@ -26,7 +26,7 @@ MANIFEST = paths.WITNESSES / "wikisource" / "MANIFEST.tsv"
 SOFT_HYPHEN = latex.SOFT_HYPHEN
 REPOSITORY = "https://github.com/njand/biblia-castellionis"
 
-HEADER = {"id", "usfm", "ide", "h", "toc1", "toc2", "toc3", "mt", "mt1", "mt2", "rem"}
+HEADER = {"id", "usfm", "ide", "h", "toc1", "toc2", "toc3", "mt", "mt1", "mt2", "mt3", "rem"}
 PARAGRAPHS = {"p", "m", "nb", "b", "q1", "q2", "q3"}
 CHARACTERS = {"qt", "qt*"}
 
@@ -43,7 +43,8 @@ class UsfmError(ValueError):
 @dataclass
 class Block:
     kind: str                                   # p, m, nb, b (stanza break), q1–q3
-    content: list = field(default_factory=list)  # ("v", n), ("text", s), ("qt", True|False)
+    content: list = field(default_factory=list)  # ("v", n), ("text", s), ("qt", True|False),
+                                                 # ("note", (reference, text)): a footnote (decision 53)
 
 
 @dataclass
@@ -60,7 +61,8 @@ class Book:
     info: books.Book
     short: str                                  # \h, the running head: "Matthæus"
     long: str                                   # \toc1: "Ēvangelium Auctōre Matthæō"
-    title: list                                 # \mt1 split at //: ["Ēvangelium Auctōre", "Matthæō"]
+    title: list                                 # [(line, minor)]: \mt1 lines (split at //) and \mt2/\mt3 lines
+                                                # (minor, set smaller), in the file's order
     chapters: list = field(default_factory=list)
 
     @property
@@ -77,6 +79,7 @@ def parse(usfm, info):
     """The Book model of one USFM file. Raises UsfmError on any marker outside PLAN.md §3, on text outside a
     paragraph, on verses out of order and on an unclosed \\qt."""
     header, chapters, chapter, verse = {}, [], None, 0
+    titles = []                         # [(line, minor)] of \mt, \mt1, \mt2, \mt3
 
     def fail(message, line_no):
         raise UsfmError(f"{info.usfm}.usfm line {line_no}: {message}")
@@ -89,6 +92,8 @@ def parse(usfm, info):
         marker, rest = (match.group(1), (match.group(2) or "").strip()) if match else (None, stripped)
         if marker in HEADER:
             header[marker] = rest
+            if marker in ("mt", "mt1", "mt2", "mt3"):
+                titles.extend((part.strip(), marker in ("mt2", "mt3")) for part in rest.split("//"))
             continue
         if marker == "c":
             number = int(rest)
@@ -129,6 +134,8 @@ def parse(usfm, info):
                 if value not in CHARACTERS:
                     fail(f"marker \\{value} is not one this edition uses (PLAN.md §3)", line_no)
                 block.content.append(("qt", value == "qt"))
+            elif kind == "note":
+                block.content.append(("note", value))
             elif block.content or value.strip():
                 block.content.append(("text", value))
     if not chapters:
@@ -137,7 +144,7 @@ def parse(usfm, info):
         _check_qt(chapter, info)
     short = header.get("h") or header.get("toc2") or info.osis
     long = header.get("toc1") or short
-    title = [part.strip() for part in (header.get("mt1") or header.get("mt") or long).split("//")]
+    title = titles or [(part.strip(), False) for part in long.split("//")]
     return Book(info, short, long, title, chapters)
 
 
@@ -179,6 +186,8 @@ def verse_segments(chapter):
                 out.setdefault(verse, [])
             elif kind == "qt":
                 italic = value
+            elif kind == "note":                        # not part of the verse's text
+                continue
             elif verse:
                 out[verse].append((" " + value if new_line else value, italic,
                                    new_line and block.kind.startswith("q")))
@@ -277,18 +286,25 @@ def cite(osis, chapter, first=None, last=None):
 
 
 SUPERSCRIPT = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+SUPERSCRIPT_LETTERS = "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖ"
+
+
+def note_letter(index, superscript=False):
+    """A footnote's letter within its chapter: a, b, c … (superscript in the reading text: ᵃ, ᵇ …)."""
+    letter = "abcdefghijklmnop"[index % 16]
+    return SUPERSCRIPT_LETTERS[index % 16] if superscript else letter
 
 
 def reading_text(book):
     """The book as plain reading text: paragraphs separated by blank lines, poetry lines indented, verse numbers
     as superscript digits, each chapter under "Caput <n>"."""
-    out = [" ".join(book.title).upper(), ""]
+    out = [" ".join(line for line, _ in book.title).upper(), ""]
     for chapter in book.chapters:
         out.append(f"Caput {chapter.number}")
         out.append("")
         if chapter.title or chapter.summary:
             out += [chapter.title or chapter.summary, ""]
-        lines, previous = [], ""
+        lines, previous, notes = [], "", []
         for block in chapter.blocks:
             if block.kind == "b":                       # a stanza break
                 lines.append("")
@@ -296,12 +312,23 @@ def reading_text(book):
                 poetry = block.kind.startswith("q")
                 if lines and lines[-1] and not (poetry and previous.startswith("q")):
                     lines.append("")                    # a blank line between paragraphs, not between poetry lines
-                text = plain("".join(str(value).translate(SUPERSCRIPT) if kind == "v" and value > 1 else
-                                     value if kind == "text" else "" for kind, value in block.content))
+                pieces = []
+                for kind, value in block.content:
+                    if kind == "v":
+                        pieces.append(str(value).translate(SUPERSCRIPT) if value > 1 else "")
+                    elif kind == "text":
+                        pieces.append(value)
+                    elif kind == "note":                # a superscript letter here, the note at the chapter's end
+                        notes.append(value)
+                        pieces.append(note_letter(len(notes) - 1, superscript=True))
+                text = plain("".join(pieces))
                 lines.append("    " * int(block.kind[1]) + text if poetry else text)
             previous = block.kind
         if chapter.closing:
             lines += ["", chapter.closing]
+        if notes:
+            lines += [""] + [f"{note_letter(i)} {reference} {text}".replace("  ", " ")
+                             for i, (reference, text) in enumerate(notes)]
         out += lines + [""]
     return "\n".join(out).rstrip() + "\n"
 

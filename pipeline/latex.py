@@ -17,6 +17,7 @@ commented out is a draft: it is converted from its commented lines into a separa
 
 import difflib
 import re
+import unicodedata
 
 from pipeline import paths
 
@@ -241,7 +242,7 @@ def to_usfm(source, book):
 
 # ---------------------------------------------------------------- USFM → LaTeX
 
-HEADER = {"id", "usfm", "ide", "h", "toc1", "toc2", "toc3", "mt", "mt1", "rem"}
+HEADER = {"id", "usfm", "ide", "h", "toc1", "toc2", "toc3", "mt", "mt1", "mt2", "mt3", "rem"}
 PARAGRAPHS = {"p", "m", "nb", "b", "q1", "q2", "q3", "q4"}
 TITLES = {"cd": "Argumentum", "d": "Titulus"}   # chapter summary (verse 0), psalm title: one line each; the commands
                                                 # are defined by the generated print LaTeX (pipeline/pdf.py)
@@ -255,12 +256,54 @@ def unicode_to_latex(text):
     return text
 
 
+GREEK_RUN = re.compile(r"[Ͱ-Ͽἀ-῿]+(?:\s+[Ͱ-Ͽἀ-῿]+)*")
+LGR_LETTERS = dict(zip("αβγδεζηθικλμνξοπρσςτυφχψω", "abgdezhjiklmnxoprsctufqyw"))
+LGR_MARKS = {"̈": '"', "̓": ">", "̔": "<", "́": "'", "̀": "`", "͂": "~"}
+
+
+def greek_to_lgr(text):
+    """Polytonic Greek → the LGR input of the TeX Greek fonts: κάμηλος → k'amhlos, ἀγάπη → >ag'aph (marks before
+    the letter: diaeresis, breathing, accent; iota subscript after it)."""
+    out = []
+    for char in text:
+        base, *marks = unicodedata.normalize("NFD", char)
+        letter = LGR_LETTERS.get(base.lower())
+        if letter is None:
+            out.append(char)
+            continue
+        before = "".join(LGR_MARKS[m] for m in sorted((m for m in marks if m in LGR_MARKS), key=list(LGR_MARKS).index))
+        out.append(before + (letter.upper() if base.isupper() else letter) + ("|" if "ͅ" in marks else ""))
+    return "".join(out)
+
+
+def note_to_latex(text):
+    """A footnote's text → LaTeX: Greek in \\Graece{…} (LGR), the rest as unicode_to_latex."""
+    out, at = [], 0
+    for match in GREEK_RUN.finditer(text):
+        out.append(unicode_to_latex(text[at:match.start()]))
+        out.append(f"\\Graece{{{greek_to_lgr(match.group())}}}")
+        at = match.end()
+    out.append(unicode_to_latex(text[at:]))
+    return "".join(out)
+
+
+FOOTNOTE = re.compile(r"\\f \+ (?:\\fr ([^\\]*?)\s*)?\\ft (.*?)\s*\\f\*")
+
+
 def _inline(text):
-    """[(kind, value)] for a stretch of paragraph content: ("v", 3), ("char", "qt"), ("text", "…")."""
+    """[(kind, value)] for a stretch of paragraph content: ("v", 3), ("char", "qt"), ("text", "…"), and
+    ("note", (reference, text)) for a footnote `\\f + \\fr 19:24 \\ft …\\f*` (decision 53)."""
     content = []
     while text:
         # An opening marker takes one space after it; the space after a closing one (\qt*) is text.
         match = re.search(r"\\(\+?[a-z]+\d*\*)|\\(\+?[a-z]+\d*)[ ]?", text)
+        note = FOOTNOTE.search(text)
+        if note and match and note.start() == match.start():
+            if note.start():
+                content.append(("text", text[:note.start()]))
+            content.append(("note", ((note.group(1) or "").strip(), note.group(2).strip())))
+            text = text[note.end():]
+            continue
         if not match:
             content.append(("text", text))
             break
@@ -307,7 +350,10 @@ def to_latex(usfm):
     """The book's LaTeX, in the markup of the former LaTeX/biblia (\\Liber, \\Caput, \\Versus, verse/patverse*)."""
     parsed = blocks(usfm)
     header = {marker: content for marker, content in parsed if marker in HEADER}
-    long = header.get("mt1", header.get("h", "")).replace(" // ", "\\\\")
+    titles = [(part.strip(), marker in ("mt2", "mt3")) for marker, content in parsed
+              if marker in ("mt", "mt1", "mt2", "mt3") for part in content.split("//")]
+    long = "\\\\".join(f"\\TitulusMinor{{{line}}}" if minor else line for line, minor in titles) \
+        or header.get("h", "")
     short = header.get("h", long)
     out = [f"\\Liber[{long}]{{{short}}}\n"]
     body = [(m, c) for m, c in parsed if m not in HEADER]
@@ -370,6 +416,10 @@ def to_latex(usfm):
                     out[-1] = out[-1].rstrip(" ")
                     out.append("\n")
                 out.append("\\Versus ")
+            elif kind == "note":                    # a footnote: lettered, small type at the foot (preamble)
+                reference, text = value
+                out.append(f"\\footnote{{{f'\\textbf{{{reference}}} ' if reference else ''}{note_to_latex(text)}}}")
+                continue
             elif kind == "char":
                 if value not in ("qt", "qt*"):
                     raise LatexError(f"no LaTeX for \\{value}")

@@ -28,7 +28,7 @@ Each **Apply** line is an exact replacement inside that verse of `text/GEN.usfm`
 
 ## 1. Words missing or wrong: 1738 and the other printings agree against your text (3)
 
-**Decision:**
+**Decision:** accept (Nathan, 2026-11-12)
 
 1. **Gen 17:12** *quam es tuō ortī* → *quam ex tuō ortī* (“of any other race than from yours”; *es* does not
    construe). **1738** (leaf 75, page image): *ex alio quocumque genere quam ex tuo orti* (OCR *ei*).

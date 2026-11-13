@@ -314,6 +314,16 @@ every place was read on 1738's archive.org page images (`data/review/settled-173
 - **1738's footnotes**: lettered glosses at the foot of the page (2:11–13 name the rivers *Ganges* and *Nilus*), not
   printed in the edition.
 
+### Castellio's annotation on *rudentem* (Matt 19:24), seen in 1573
+
+1573 prints Castellio's *Annotatio* after Matthew 19 (canvas 766, crop `sources/mdz-1573/crops/Matt.19.24-annotatio.jpg`).
+He reads κάμηλος, not a variant. He says the word means both the animal and a ship's cable (*nauticum funem … qui
+rudens appellatur*), which he says survives in French *cable*. He notes that Phavorinus would spell it with an iota in
+the second syllable, and says that either way it must be taken in the sense that suits the saying, *ne Christum cogamus
+hic ineptissima similitudine uti*. He separates hyperbole from absurdity, comparing the beam in the eye: a twig grows
+into a beam, and a thread (*per foramen acus solet filum traiici*), however much it grows, never becomes a camel, but
+it does become a rope. His rendering of Mark 10:25 and Luke 18:25 follows the same reading.
+
 ### Capitals for God in 1556
 
 Searched in the e-rara OCR of the New Testament (`sources/erara-1556/`; long s reads as *f*), 2026-11-06. 1556 capitalizes only *Deus* and *Supremus* (*Supremi filius vocabitur*, *Supremi vis*, Luke 1:32, 35) and the title *Sanctus Dei* (Mark 1:24). Everything else is lower case: *a patre meo*, *pater vester coelestis*, *pater tuus*; *Dei filius*, *filio fidem habet*, *filius hominis*; *sancto spiritu*, *spiritum sanctum*. Any capitals this edition gives *Pater*, *Fīlius* or *Spīritus Sānctus* are therefore a modern editorial choice, not Castellio's.

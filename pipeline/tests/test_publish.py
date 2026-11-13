@@ -45,7 +45,7 @@ class Model(unittest.TestCase):
     def test_structure(self):
         book = sample()
         self.assertEqual((book.short, book.long, book.title), ("Matthæus", "Ēvangelium Auctōre Matthæō",
-                                                               ["Ēvangelium Auctōre", "Matthæō"]))
+                                                               [("Ēvangelium Auctōre", False), ("Matthæō", False)]))
         first, second = book.chapters
         self.assertEqual(first.summary, "Generis Chrīstī ēnumerātiō.")
         self.assertEqual([b.kind for b in first.blocks], ["p", "q1", "q2", "m", "q1", "b", "q2"])
@@ -58,6 +58,28 @@ class Model(unittest.TestCase):
         self.assertEqual(rows["Matt.1.2"], "Abrahāmus genuit Isaācum. Isaācus Jācōbum.")
         self.assertEqual(rows["Matt.1.3"], "Jōsēphus vērō dīcentem: “Ex Ægyptō ēvocāvī.”")   # no soft hyphen
         self.assertEqual(rows["Matt.1.4"], "“Numquam nē lēgistis? “‘Per os īnfantium laudem condis.’”")
+
+    def test_footnote(self):
+        """A footnote (decision 53): out of the verse's text; a letter and the note in every format."""
+        note = "\\f + \\fr 1:3 \\ft Græcē κάμηλος; Castelliō fūnem.\\f*"
+        book = publish.parse(SAMPLE.replace("dīcentem: ", f"dīcentem{note}: "), MATT)
+        rows = {vid: text for vid, _, _, text in publish.verses(book)}
+        self.assertEqual(rows["Matt.1.3"], "Jōsēphus vērō dīcentem: “Ex Ægyptō ēvocāvī.”")
+        text = publish.reading_text(book)
+        self.assertIn("dīcentemᵃ:", text)
+        self.assertIn("a 1:3 Græcē κάμηλος; Castelliō fūnem.", text)
+        page = site.chapter_html(book.chapters[0], str, "c1")
+        self.assertIn('<sup class="fn"><a epub:type="noteref" href="#c1-na"', page)
+        self.assertIn('<aside class="fn" epub:type="footnote" id="c1-na">', page)
+        self.assertNotIn("ā", site.chapter_html(book.chapters[0], str, "c1", publish.strip_macrons).split("<aside")[1])
+        tex = latex.to_latex(SAMPLE.replace("dīcentem: ", f"dīcentem{note}: "))
+        self.assertIn("dīcentem\\footnote{\\textbf{1:3} Græcē \\Graece{k'amhloc}; Castelliō fūnem.}:", tex)
+
+    def test_greek_to_lgr(self):
+        self.assertEqual(latex.greek_to_lgr("κάμηλος"), "k'amhloc")   # c: the final sigma
+        self.assertEqual(latex.greek_to_lgr("ἀγάπη"), ">ag'aph")
+        self.assertEqual(latex.greek_to_lgr("ὑμῖν"), "<um~in")
+        self.assertEqual(latex.greek_to_lgr("τῷ"), "t~w|")
 
     def test_rejects_what_the_edition_does_not_use(self):
         for bad, message in ((SAMPLE.replace("\\m\n", "\\s1 Heading\n"), "s1"),

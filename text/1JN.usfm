@@ -2,9 +2,10 @@
 \usfm 3.0
 \ide UTF-8
 \h Jōhannis I
-\toc1 Jōhannis Apostolī Epistula prīma
+\toc1 Jōhannis Apostolī Epistula Prīma
 \toc2 Jōhannis I
-\mt1 Jōhannis Apostolī // Epistula prīma
+\mt1 Jōhannis Apostolī
+\mt2 Epistula Prīma
 
 \c 1
 \p
@@ -94,7 +95,7 @@
 \v 1 Cārissimī, nē cuivīs spīrituī crēdite, sed spīritus explōrāte, an ex Deō sint: nam multī falsī vātēs in mundum prōdiērunt.
 \v 2 Hinc cognōscite Deī Spīritum: quisquis spīritus Jēsum Chrīstum corporātum vēnisse cōnfitētur, is ā Deō est.
 \v 3 Quisquis autem spīritus Jēsum Chrīstum corporātum vēnisse nōn cōnfitētur, is ā Deō nōn est. Atque hoc illud est dē antichrīstō, quod audīstis, ventūrum esse, quī jam nunc in mundō est.
-\v 4 Vōs ā Deō estis, fīliolī, et eōs vīcistis: quoniam major est, quī in nōbīs, quam quī in mundō est.
+\v 4 Vōs ā Deō estis, fīliolī, et eōs vīcistis: quoniam major est, quī in nōbīs\f + \fr 4:4 \ft Græcē ἐν ὑμῖν, ‘in vōbīs’; Castelliōnis ēditiōnēs ‘nōbīs’ habent.\f*, quam quī in mundō est.
 \v 5 Illī ā mundō sunt: itaque ā mundō loquuntur, eōsque mundus audit.
 \v 6 Nōs ā Deō sumus: Deum quī nōvit, nōs audit: quī ā Deō nōn est, nōn audit nōs. Inde quis vēritātis, quis sit errōris spīritus, dīgnōscimus.
 \p
@@ -123,8 +124,8 @@
 \v 4 Nam quidquid ex Deō nātum est, vincit mundum: et hæc victōria est, quæ vīcit mundum, fidēs nostra.
 \v 5 Quis est, quī vincit mundum, nisi quī crēdit, Jēsum esse Deī Fīlium?
 \v 6 Hic est, quī vēnit per aquam et sanguinem, Jēsūs Chrīstus: nōn in aquā sōlum, sed in aquā et sanguine. Et Spīritus est, quī testātur, sīquidem Spīritus est vēritās:
-\v 7 Quoniam trēs sunt, quī testantur (in cælō, Pater, Sermō, et Spīritus Sānctus: et hī trēs ūnum sunt.
-\v 8 Item trēs sunt, quī testantur in terrā) Spīritus, et aqua, et sanguis: quī trēs ūnum sunt.
+\v 7 Quoniam trēs sunt, quī testantur [in cælō, Pater, Sermō, et Spīritus Sānctus: et hī trēs ūnum sunt.
+\v 8 Item trēs sunt, quī testantur in terrā] Spīritus, et aqua, et sanguis: quī trēs ūnum sunt.
 \p
 \v 9 Sī hominum testimōnium admittimus, Deī testimōnium majus est. Atque hoc est, quod Deus dē Fīliō suō testimōnium dīxit:
 \v 10 Quī crēdit in Deī Fīlium, is in sē Deī testimōnium habet. Quī Deō nōn crēdit, mendācem facit eum: quod testimōniō fidem nōn habeat, quod dīxit Deus dē Fīliō suō.

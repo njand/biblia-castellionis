@@ -29,7 +29,7 @@ group's **Decision:** with *accept*, *accept all except N, M*, or *accept N, M*;
 
 Slips in Wikisource that your text inherited: a case or person that does not construe.
 
-**Decision:**
+**Decision:** accept (Nathan, 2026-11-12)
 
 1. **Gen 4:8** *At Caīnum Abēlem* → *At Caīnus Abēlem*. **1738** (canvas 64, page image): *At Cainus Abelem fratrem
    ſuum ſuis verbis, (G. lect.) rus ſeduxit, (H.) ibique eum adgresſus interfecit*: Cain is the subject of
@@ -56,7 +56,7 @@ Slips in Wikisource that your text inherited: a case or person that does not con
 Both readings construe; 1738 (the base) and 1750 read otherwise. At 6:21 the 1726 printing has your reading; at
 11:25 the reading is your own TXT/3 correction (Wikisource and your WordPress text have the printings' word).
 
-**Decision:**
+**Decision:** accept 5, 6 (Nathan, 2026-11-12; the other two keep your *ūndēvīgintī* and *discidium*)
 
 5. **Gen 4:3** *dē terrā frūgibus* → *dē terræ frūgibus*. **1738** (canvas 64, page image): *libauisſet Cainus de
    terræ frugibus*: “of the fruits of the earth” (1738's OCR lost this column, so the collation could not see it).
@@ -83,7 +83,7 @@ Both readings construe; 1738 (the base) and 1750 read otherwise. At 6:21 the 172
 
 Not readings, but slips in the settled text seen on the way.
 
-**Decision:**
+**Decision:** accept (Nathan, 2026-11-12)
 
 9. **Gen 9:10** *ex arca ēgressīs* → *ex arcā ēgressīs*: the ablative after *ex*, as *dē arcā* (8:15) and *ex arcā*
    (9:18).

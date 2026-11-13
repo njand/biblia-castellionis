@@ -14,10 +14,16 @@ FIXED_ZIP_TIME = (2000, 1, 1, 0, 0, 0)
 
 CSS = """body { font-family: serif; line-height: 1.45; margin: 0 .3em; }
 h1 { font-weight: normal; text-align: center; font-variant: small-caps; margin: 1.5em 0 1em; line-height: 1.3; }
+h1 span.mt1, h1 span.mt2 { display: block; }
+h1 span.mt2 { font-size: .55em; letter-spacing: .06em; }
 p { margin: 0; text-indent: 1.2em; text-align: justify; }
 p.first, p.m, p.nb { text-indent: 0; }
 p.argumentum { font-style: italic; text-indent: 0; margin: 1em 0 .5em; }
 p.cls { font-style: italic; text-indent: 0; font-size: .9em; margin-top: 1em; }
+sup.fn { font-size: .6em; line-height: 0; font-style: italic; }
+sup.fn a { text-decoration: none; }
+aside.fn { font-size: .8em; margin: .2em 0 0; }
+aside.fn p { text-indent: 0; margin: 0; }
 p.d { font-style: italic; text-indent: 0; margin: .5em 0; }
 div.poem { margin: .4em 0; }
 div.q1, div.q2, div.q3 { margin-left: 2em; text-indent: -1em; }
@@ -53,7 +59,7 @@ def xhtml(title, body, lang="la"):
 
 
 def book_xhtml(book, filt):
-    parts = [f'<h1>{"<br/>".join(site.esc(filt(line)) for line in book.title)}</h1>']
+    parts = [site.title_h1(book, filt)]
     for chapter in book.chapters:
         parts.append(f'<div class="chapter">\n'
                      + site.chapter_html(chapter, lambda n, c=chapter.number: f"c{c}v{n}", f"c{chapter.number}",

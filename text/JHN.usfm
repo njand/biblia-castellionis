@@ -4,7 +4,8 @@
 \h Jōhannēs
 \toc1 Ēvangelium Auctōre Jōhanne
 \toc2 Jōhannēs
-\mt1 Ēvangelium Auctōre // Jōhanne
+\mt2 Ēvangelium Auctōre
+\mt1 Jōhanne
 
 \c 1
 \p
@@ -75,10 +76,10 @@
 \p
 \v 43 Posterō diē voluit Jēsūs in Galilæam proficīscī, et Philippum nactus, dīxit eī: “Sequere mē.”
 \p
-\v 44 Erat autem Philippus ā Bethsaidā, Andrēæ et Petrī urbe.
-\v 45 Philippus Nathanaēlem nactus, sīc alloquitur: “Quem scrīpsit Mōsēs in Lēge, et vātēs, invēnimus Jēsum Jōsēphī fīlium ā Nazarethā.”
+\v 44 Erat autem Philippus ā Bēthsaidā, Andrēæ et Petrī urbe.
+\v 45 Philippus Nathanaēlem nactus, sīc alloquitur: “Quem scrīpsit Mōsēs in Lēge, et vātēs, invēnimus Jēsum Jōsēphī fīlium ā Nāzarethā.”
 \p
-\v 46 Cui Nathanaēl: “Ā Nazarethā,” inquit, “potest aliquid bonum esse?”
+\v 46 Cui Nathanaēl: “Ā Nāzarethā,” inquit, “potest aliquid bonum esse?”
 \p Et Philippus: “Venī vīsum,” inquit eī.
 \p
 \v 47 Vīdit Jēsūs venientem ad sē Nathanaēlem, et dē eō dīxit: “Ecce vērē Isrāēlīta, in quō dolus nōn est.”
@@ -267,8 +268,8 @@
 \p
 \v 1 Posteā cum esset Jūdæōrum fēstum, ascendit Jēsūs Hierosolymam.
 \v 2 Est autem Hierosolymīs apud oviāricam piscīnam, ea quæ Hebraicē Bēthesda nuncupātur, quīnque porticūs habēns.
-\v 3 In hīs jacēbat ingēns ægrōtantium multitūdō, cæcōrum, claudōrum, tābidōrum, aquæ mōtiōnem exspectantium.
-\v 4 Angelus enim certō tempore dēscendēbat in piscīnam, aquamque turbābat: postquam aquæ turbātiōnem quī prīmus in piscīnam dēscendēbat, sānus ēvādēbat, quōcumque tandem morbō tenērētur.
+\v 3 In hīs jacēbat ingēns ægrōtantium multitūdō, cæcōrum, claudōrum, tābidōrum[, aquæ mōtiōnem exspectantium].
+\v 4 [Angelus enim certō tempore dēscendēbat in piscīnam, aquamque turbābat: postquam aquæ turbātiōnem quī prīmus in piscīnam dēscendēbat, sānus ēvādēbat, quōcumque tandem morbō tenērētur.]
 \v 5 Erat illīc homō quīdam annum agēns in morbō duodēquadrāgēsimum.
 \v 6 Hunc ut vīdit Jēsūs dēcumbentem, et jam diū dēcubuisse cognōvit, dīcit eī: “Vīs sānus fierī?”
 \v 7 Cui ægrōtus: “Domine,” inquit respondēns, “hominem nōn habeō, quī mē, dum turbāta est aqua, conjiciat in piscīnam. Interim dum eō ego, alius ante mē dēscendit.”
@@ -289,7 +290,8 @@
 \v 21 Ut enim Pater mortuōs suscitat, ac vīvificat, sīc etiam Fīlius quōs vult vīvificat.
 \v 22 Nec enim Pater quemquam jūdicat, sed omne jūdicium Fīliō dedit:
 \v 23 Ut omnēs Fīlium honōrent, quemadmodum Patrem honōrant. Quī Fīlium nōn honōrat, Patrem nōn honōrat, quī eum mīsit.
-\v 24 Illud etiam atque etiam certō scītōte: quī sermōnem meum audit, et eī crēdit quī mē mīsit, is vītam habet æternam: nec in jūdicium ventūrus est, sed ex morte migrāvit in vītam.
+\p
+\v 24 “Illud etiam atque etiam certō scītōte: quī sermōnem meum audit, et eī crēdit quī mē mīsit, is vītam habet æternam: nec in jūdicium ventūrus est, sed ex morte migrāvit in vītam.
 \v 25 Illud iterum atque iterum sīc certō habētōte, venīre hōram, et nunc esse, cum mortuī audient Fīliī Deī vōcem, et quī audierint, revīvīscent.
 \v 26 Ut enim Pater vītā præditus est, sīc etiam Fīliō dedit vītā præditum esse,
 \v 27 Eīque potestātem dedit etiam jūdicium exercendī, quoniam Fīlius Hominis est.
@@ -354,12 +356,14 @@
 \v 32 Quibus Jēsūs: “Hoc vōbīs,” inquit, “etiam atque etiam cōnfirmō, nōn Mōsem vōbīs pānem dedisse dē cælō: sed meus Pater vērum vōbīs dē cælō pānem dat.
 \v 33 Nam dīvīnus pānis est quī dē cælō dēscendit, vītamque dat mundō.”
 \v 34 Tum illī: “Domine, dā nōbīs perpetuō pānem istum.”
+\p
 \v 35 Et Jēsūs: “Ego sum pānis vītālis. Quī venit ad mē, numquam ēsuriet: et quī mihi fidem habet, numquam sitiet.
 \v 36 Sed hoc vōbīs dīcō: vōs et vidētis mē, neque crēditis.
 \v 37 Quidquid mihi dat Pater, ad mē veniet: et venientem ad mē ego nōn ējiciō forās.
 \v 38 Dēscendī enim dē cælō, nōn ut meam, sed ut ejus, quī mē mīsit, voluntātem exsequar.
 \v 39 Hæc est autem ejus quī mē mīsit Patris voluntās, ut quidquid mihi dederit, nihil ex eō dēperdam, sed id ultimō diē exsuscitem.
 \v 40 Hæc est autem ejus, quī mē mīsit, voluntās, ut quisquis Fīlium videt, in eumque crēdit, vītam adipīscātur æternam, et ego eum ultimō diē exsuscitem.”
+\p
 \v 41 At Jūdæī dē eō fremere, quod sē dīxerat esse pānem quī dē cælō dēscendisset.
 \v 42 “Nōnne hic est Jēsūs,” dīcēbant, “Jōsēphī fīlius, cujus nōs patrem mātremque nōvimus? Quī fit ergō ut is sē dē cælō dēscendisse dīcat?”
 \v 43 At Jēsūs sīc iīs contrā respondit: “Nē mussāte inter vōs.
@@ -371,6 +375,7 @@
 \v 49 Majōrēs vestrī, quī mannā vīxērunt in dēsertīs, tamen mortuīs sunt.
 \v 50 Hic est pānis quī dē cælō dēscendit, quō quī vēscātur nōn sit moritūrus.
 \v 51 Ego sum pānis vīvus, quī dē cælō dēscendit: quō pāne quī vēscētur, vīvet in perpetuum. Pānis autem quem ego dabō, carō mea est, quam ego prō mundī vītā dabō.”
+\p
 \v 52 At Jūdæī sīc inter sēsē dēcertāre: “Quōmodo potest hic nōbīs carnem suam dare comedendam?”
 \v 53 Et Jēsūs: “Hoc certō certōque scītōte,” inquit iīs, “nisi Fīliī Hominis et carnem comēderitis, et sanguinem biberitis, nōn esse vōs vītā præditōs.
 \v 54 Quī meā carne vēscitur, meumque sanguinem bibit, is vītam habet æternam, eumque ego ultimā diē suscitābō.
@@ -409,6 +414,7 @@
 \v 11 Igitur Jūdæī eum in fēstō requīrēbant, et ubinam esset ille, quærēbant:
 \v 12 Multusque dē eō fremitus erat vulgō, partim eum bonum esse dīcentibus, partim negantibus, sed vulgus hominum ab eō dēcipī.
 \v 13 Nēmō tamen apertē dē eō loquēbātur, præ Jūdæōrum metū.
+\p
 \v 14 Jam vērō mediō fēstō ascendit Jēsūs in fānum, et docēbat,
 \v 15 mīrantibus Jūdæīs, et quō pactō litterās nōsset quærentibus, cum nōn didicisset.
 \v 16 Quibus Jēsūs hāc ōrātiōne respondit: “Mea doctrīna, mea nōn est, sed ejus quī mē mīsit.
@@ -440,7 +446,7 @@
 \p
 \v 40 Plērīque igitur ex plēbe audītā eā ōrātiōne, dīcēbant eum esse vērē vātem.
 \v 41 Aliī dīcēbant esse Chrīstum: aliī Chrīstum ā Galilæā profectūrum negābant:
-\v 42 Quippe cum in Litterīs habērētur, ex Dāvīdis sēmine, et ā Bēthlehēmā (quō in vīcō fuerat Dāvīd) profectūrum esse Chrīstum.
+\v 42 Quippe cum in Litterīs habērētur, ex Dāvīdis sēmine, et ā Bēthlehemā (quō in vīcō fuerat Dāvīd) profectūrum esse Chrīstum.
 \v 43 Itaque propter eum exstitit in vulgō dissidium:
 \v 44 Atque eōrum nōnnūllī eum comprehendere volēbant: sed nūllus eī manūs injēcit.
 \p
@@ -452,7 +458,7 @@
 \v 50 Hic Nīcodēmus, quī eum noctū convēnerat, et erat ex eōrum numerō, sīc ad eōs verba facit:
 \v 51 “An lēx nostra hominem damnat, nisi prius eum audierit, ejusque factum cognōverit?”
 \v 52 Cui illī sīc respondērunt: “An tū quoque ā Galilæā es? Perscrūtāre, et vidēbis nūllum ex Galilæā exstitisse vātem.”
-\v 53 Ita in suam quisque domum discessērunt.
+\v 53 ⟦Ita in suam quisque domum discessērunt.
 
 \c 8
 \p
@@ -466,7 +472,7 @@
 \v 8 Hæc locūtus, sēsē rūrsum prōclīnat, et terram īnscrībit.
 \v 9 Quō audītō illī discēdunt singulī, ā seniōribus exōrsī: relictusque est sōlus Jēsūs, et astāns in mediō fēmina.
 \v 10 Tum Jēsūs ut sēsē ērēxit, et nēminem, exceptā muliere, vīdit, dīxit eī: “Mulier, ubi sunt illī accūsātōrēs tuī? Nūllus tē condemnāvit?”
-\v 11 “Nūllus, Domine,” inquit illa. Et Jēsūs: “Nec ego tē condemnō. Abī, et deinceps peccāre nōlī.”
+\v 11 “Nūllus, Domine,” inquit illa. Et Jēsūs: “Nec ego tē condemnō. Abī, et deinceps peccāre nōlī.”⟧
 \p
 \v 12 Item eōs Jēsūs sīc allocūtus est: “Ego sum lūx mundī. Quī mē sequētur, nōn in tenebrīs gradiētur, sed vītæ lūmen habēbit.”
 \v 13 Et Pharisæī: “Tū dē tē ipsō testāris,” inquiunt eī, “testimōnium tuum vērum nōn est.”
@@ -477,6 +483,7 @@
 \v 18 Dē mē et ego ipse testimōnium dīcō, et dīcit etiam is quī mē mīsit Pater.”
 \v 19 Et illī: “Ubi est tuus Pater?” inquiunt eī. “Vōs neque mē nōstis,” respondit Jēsūs, “neque Patrem meum. Sī mē nōssētis, etiam Patrem meum nōssētis.”
 \v 20 Hanc ōrātiōnem habuit Jēsūs apud fiscum, docēns in fānō: nec eum comprehendit quisquam, quod nōndum vēnerat ejus hōra.
+\p
 \v 21 Sīc autem eōs rūrsus allocūtus est Jēsūs: “Ego abitūrus sum, et vōs mē requīrētis, atque in vestrō peccātō moriēminī. Quō ego abībō, vōs nōn potestis venīre.”
 \v 22 Et Jūdæī: “Num ipse sē interficiet,” inquiunt, “ut dīcat, quō ipse abitūrus est, nōn posse venīre nōs?”
 \v 23 At ille: “Vōs īnfernē estis,” inquit iīs, “ego supernē sum: vōs ex hōc mundō estis, ego nōn sum ex hōc mundō.
@@ -496,6 +503,7 @@
 \v 36 Quod sī vōs Fīlius līberōs fēcerit, rē ipsā līberī eritis.
 \v 37 Sciō vōs Abrāhāmī prōgeniem esse: sed cupitis interficere mē, quoniam ōrātiō mea in vōbīs locum nōn habet.
 \v 38 Ego quod ā Patre meō cognōvī, loquor: itidem vōs quod didicistis ā patre vestrō, facitis.”
+\p
 \v 39 Cui illī contrā: “Pater noster Abrāhāmus est.” Et Jēsūs: “Sī Abrāhāmī nātī essētis,” inquit iīs, “Abrāhāmō digna facerētis.
 \v 40 At nunc cupitis mē perimere, hominem, quī vērum vōbīs effātus sum, quod ex Deō audīvī. Istud nōn fēcit Abrāhāmus.
 \v 41 Vōs patre vestrō digna facitis.” Cui illī: “Nōs ex stuprō nātī nōn sumus: ūnum Patrem habēmus Deum.”
@@ -545,6 +553,7 @@
 \v 21 Quōmodo vērō nunc cernat, nescīmus: aut quis eī aperuerit oculōs, nōs nescīmus: ipse jam grandis est, ipsum interrogāte: ipse dē sē ipsō loquētur.”
 \v 22 Hæc eō dīxērunt ejus parentēs, quod Jūdæōs formīdābant. Jam enim cōnfitērētur, is collēgiī commūniōne prīvārētur.
 \v 23 Hanc ob causam dīxērunt ejus parentēs, jam grandem esse: ipsum interrogārent.
+\p
 \v 24 Illī igitur dēnuō hominem ēvocārunt, quī cæcus fuerat, eīque dīxērunt: “Tribue Deō glōriam: nōs scīmus hunc hominem improbum esse.”
 \v 25 Et ille respondēns: “An improbus sit,” inquit, “nesciō: ūnum sciō, mē, quī cæcus fuī, nunc vidēre.”
 \v 26 Et illī rūrsum: “Quid tibi fēcit?” inquiunt eī: “quō pactō tuōs oculōs aperuit?”
@@ -577,7 +586,8 @@
 \v 8 Omnēs quīcumque ante mē vēnērunt, fūrēs sunt et latrōnēs, nec eōs audiērunt ovēs.
 \v 9 Ego sum jānua: per mē quī intrābit, servābitur, et intrābit, et exībit, et pāscuum inveniet.
 \v 10 Fūr nōn venit nisi ut fūrētur, ut mactet, ut perdat. Ego vēnī ut vītam habeant, et largius habeant.
-\v 11 Ego sum pāstor bonus. Pāstor bonus animam suam pōnit prō ovibus.
+\p
+\v 11 “Ego sum pāstor bonus. Pāstor bonus animam suam pōnit prō ovibus.
 \v 12 At mercēnārius, quī pāstor nōn est, cujus suæ nōn sunt ovēs, sī venientem lupum videt, fugit, relictīs ovibus: lupus ovēs rapit, ac prōflīgat.
 \v 13 At mercēnārius fugit, nempe mercēnārius, nec ovium cūram gerēns.
 \v 14 Ego sum pāstor bonus, et meās agnōscō, et ā meīs agnōscor.
@@ -643,6 +653,7 @@ Sed exiit ex eōrum manū,
 \v 25 Et Jēsūs: “Ego sum,” inquit eī, “resurrēctiō et vīta. Quī in mē crēdit, etiam sī mortuus fuerit, revīvīscet:
 \v 26 Et quisquis vīvit, et in mē crēdit, numquam moritūrus est. Crēdis hoc?”
 \v 27 “Etiam, Domine,” inquit illa, “ego crēdō, tē Chrīstum esse Deī Fīlium, quī in mundum ventūrus erās.”
+\p
 \v 28 Atque hæc locūta, iit arcessītum Marīam sorōrem suam, eīque clanculum dīxit, magistrum adesse, quī eam vocāret.
 \v 29 Illa hōc audītō, celeriter surgit, et illum adit.
 \v 30 Nōndum autem vēnerat Jēsūs in vīcum, sed in eō erat locō, ubi eī occurrerat Martha.
@@ -659,7 +670,7 @@ Sed exiit ex eōrum manū,
 \v 40 At Jēsūs: “Dīxī nē ego tibi,” inquit eī, “tē, sī fidem habueris, vīsūram Deī glōriam?”
 \v 41 Igitur illī saxum sustulērunt, ubi situs erat mortuus. Et Jēsūs sublātīs sūrsum oculīs, dīxit: “Pater, agō tibi grātiās, quod mē audīstī.
 \v 42 Equidem sciēbam, ut tū mē semper audiās: sed propter circumstantem hominum multitūdinem dīxī, ut mē abs tē missum esse crēdant.”
-\v 43 Hæc ille fātus, ingentī vōce clāmāvit: “Lāzāre, venī forās.”
+\v 43 Hæc ille fātus, ingentī vōce clāmāvit: “Lāzare, venī forās.”
 \v 44 Et mortuus exiit, pedēs manūsque vīnctus fasciīs, vultū sūdāriō obvēlātō. “Solvite eum,” inquit iīs Jēsūs, “et abīre sinite.”
 \p
 \v 45 Igitur multī Jūdæōrum, quī ad Marīam vēnerant, et quid fēcisset Jēsūs vīderant, in eum crēdidērunt.
@@ -688,7 +699,7 @@ Sed exiit ex eōrum manū,
 \v 8 pauperēs enim semper habēbitis vōbīscum: at mē nōn semper habēbitis.”
 \p
 \v 9 Igitur cum ingēns Jūdæōrum multitūdō eum illīc esse cognōvisset, vēnērunt eō nōn sōlum propter Jēsum, sed etiam ut Lāzarum vidērent, quem suscitāverat ex mortuīs.
-\v 10 Cōnsultārunt autem pontificēs etiam dē Lāzārō necandō,
+\v 10 Cōnsultārunt autem pontificēs etiam dē Lāzarō necandō,
 \v 11 quod propter eum multī Jūdæōrum dēscīscēbant, et in Jēsum crēdēbant.
 \p
 \v 12 Posterō diē frequēns hominum turba, quī ad fēstum vēnerant, audientēs Jēsum adventāre Hierosolymam,
@@ -710,7 +721,8 @@ Sed exiit ex eōrum manū,
 \v 24 Profectō, profectō, inquam vōbīs, nisi frūmentī grānum ad terram lāpsum moriātur, ipsum sōlum manet: sīn moriātur, multum frūctum fert.
 \v 25 Quī animam suam amābit, eam perdet: et quī animam suam in hōc mundō ōderit, is eam in sempiternam vītam cōnservābit.
 \v 26 Sī quis mihi ministrat, mē sequātur: atque ubi erō ego, ibīdem meus etiam minister erit. Quod sī quis mihi ministrābit, eum Pater honōrābit.
-\v 27 Nunc mihi turbātus est animus: ecquid dīcam? Pater, dēfende mē ab hāc hōrā: sed ideō vēnī in hanc hōram.
+\p
+\v 27 “Nunc mihi turbātus est animus: ecquid dīcam? Pater, dēfende mē ab hāc hōrā: sed ideō vēnī in hanc hōram.
 \v 28 Pater illūstrā tuum nōmen.” Tum hæc vōx dē cælō venit: “Et illūstrāvī, et rūrsus illūstrābō.”
 \v 29 Hōc audītō, vulgus hominum quī aderant, dīcēbat exstitisse tonitrū. Aliī angelum cum eō locūtum ajēbant.
 \v 30 At Jēsūs ita locūtus est: “Nōn propter mē vōx hæc exstitit, sed propter vōs.
@@ -758,6 +770,7 @@ Sed exiit ex eōrum manū,
 \v 9 Tum Simōn Petrus: “Domine,” inquit eī, “nōn sōlum meōs pedēs, sed etiam manūs atque caput.”
 \v 10 Cui Jēsūs: “Quī lōtus est,” inquit, “huic nōn opus est nisi ut pedēs lavet, quīn tōtus pūrus est. Et vōs pūrī estis, sed nōn omnēs.”
 \v 11 Nōverat enim suum prōditōrem ideō dīcēbat, nōn omnēs esse pūrōs.
+\p
 \v 12 Postquam eōrum pedēs lāvit, sūmptīs suīs vestibus rūrsus accubuit, et eōs sīc allocūtus est: “Intellegitis quid vōbīs fēcerim?
 \v 13 Vōs mē magistrum et dominum appellātis, et rēctē dīcitis: sum enim.
 \v 14 Sī igitur ego vōbīs, et dominus et magister, pedēs lāvī, vōs quoque dēbētis aliī aliōrum lavāre pedēs.
@@ -781,7 +794,7 @@ Sed exiit ex eōrum manū,
 \p
 \v 31 Quō ēgressō, sīc fātur Jēsūs: “Nunc Fīlius Hominis illūstrātur, et Deus illūstrātur in eō.
 \v 32 Sī in eō Deus illūstrātur, eum quoque Deus in sē ipsō illūstrābit, et mox illūstrābit.
-\v 33 Fīliolī, adhūc paulisper vōbīscum sum. Quærētis mē, ac quemadmodum Jūdæīs dīxī, quō ego abeō, eōs venīre nōn posse, etiam vōbīs nunc dīcō.
+\v 33 Fīliolī, adhūc paulīsper vōbīscum sum. Quærētis mē, ac quemadmodum Jūdæīs dīxī, quō ego abeō, eōs venīre nōn posse, etiam vōbīs nunc dīcō.
 \v 34 Præceptum novum dō vōbīs, ut inter vōs amētis, quōmodo ego vōs amāvī, ut et vōs amētis inter vōs.
 \v 35 In eō cognōscent omnēs, vōs meōs esse discipulōs, sī mūtuō vōs amōre prōsequēminī.”
 \p
@@ -934,9 +947,9 @@ Sed exiit ex eōrum manū,
 \v 2 Sciēbat autem etiam Jūdās, ejus prōditor, locum, quod eō Jēsūs sæpenumerō cum suīs discipulīs convēnerat.
 \v 3 Igitur Jūdās acceptā ā pontificibus et Pharisæīs cohorte ac ministrīs, vēnit eō cum facibus ac fūnālibus, et armīs.
 \v 4 Tum Jēsūs sciēns omnia quæ sibi ēventūra essent, ēgressus dīxit iīs:
-\v 5 “Quem quæritis?” Cui illī respondērunt: “Jēsum Nazarēnum.” Et Jēsūs: “Ego is sum,” inquit iīs. Aderat autem cum iīs etiam Jūdās, ejus prōditor.
+\v 5 “Quem quæritis?” Cui illī respondērunt: “Jēsum Nāzarēnum.” Et Jēsūs: “Ego is sum,” inquit iīs. Aderat autem cum iīs etiam Jūdās, ejus prōditor.
 \v 6 Ut ergō dīxit iīs, “Ego is sum,” illī retrōrsum abiērunt, et humī cecidērunt.
-\v 7 Et ille rūrsus eōs sīc interrogāvit: “Quem quæritis?” “Jēsum Nazarēnum,” inquiunt.
+\v 7 Et ille rūrsus eōs sīc interrogāvit: “Quem quæritis?” “Jēsum Nāzarēnum,” inquiunt.
 \v 8 Et Jēsūs respondit: “Dīxī vōbīs, eum esse mē. Itaque sī mē quæritis, sinite hōs abīre.”
 \v 9 Scīlicet ut illud ejus dictum comprobārētur: “Quōs tū mihi dedistī, eōrum ego nūllum perdidī.”
 \v 10 Tum Simōn Petrus, strictō quem habēbat gladiō, servum pontificis percussit, eīque dexteram abscindit auriculam. Eī servō Malchus nōmen erat.
@@ -982,20 +995,20 @@ Sed exiit ex eōrum manū,
 \v 3 atque ita dīcēbant: “Salvē rēx Jūdæōrum,” eīque alapās impingēbant.
 \v 4 Deinde rūrsus exit Pīlātus, et illōs sīc alloquitur: “Ēn vōbīs eum forās addūcō, ut sciātis, mē nūllum in eō comperīre crīmen.”
 \v 5 Ac ēgressō forās Jēsū, spīneam corōnam purpureamque togam ferente, dīxit iīs Pīlātus: “Ecce homō.”
-\v 6 At pontificēs et ministrī eō vīsō exclāmāre: “Crucifīge, crucifīge.” Quibus Pīlātus: “Capite eum vōs,” inquit, “et crucifīgite, nam ego crīmen in eō nōn dēprehendō.”
+\v 6 At pontificēs et ministrī eō vīsō exclāmāre: “Crucī fīge, crucī fīge.” Quibus Pīlātus: “Capite eum vōs,” inquit, “et crucī fīgite, nam ego crīmen in eō nōn dēprehendō.”
 \v 7 At Jūdæī contrā: “Nōs lēgem habēmus,” inquiunt eī, “ex quā lēge nostrā dēbet morī, quoniam sē Deī Fīlium fēcit.”
 \v 8 Hāc vōce audītā, Pīlātus magis timuit,
 \v 9 et rūrsus in prætōrium ingressus, dīxit Jēsū: “Unde es tū?” At Jēsūs eī respōnsum nōn dedit.
-\v 10 Itaque Pīlātus sīc eum affātur: “Mihi nōn ēloqueris? Nescīs mē potestātem habēre tuī vel crucifīgendī, vel absolvendī?”
+\v 10 Itaque Pīlātus sīc eum affātur: “Mihi nōn ēloqueris? Nescīs mē potestātem habēre tuī vel crucī fīgendī, vel absolvendī?”
 \v 11 Respondit Jēsūs: “Nōn habērēs ūllam in mē potestātem, nisi id tibi supernē datum foret. Itaque quī mē tibi trādidit, in majōre culpā est.”
 \v 12 Ex eō studēbat Pīlātus eum absolvere. At Jūdæī reclāmāre: “Sī istum absolvis, nōn es Cæsaris amīcus: quīcumque sē rēgem facit, contrāvenit Cæsarī.”
 \v 13 Hāc audītā vōce, Pīlātus Jēsum forās ēdūxit, et prō tribūnālī sēdit, in locō quī Lapidipavium appellātur, Hebraicē autem Gabbatha:
 \v 14 Cum quidem esset Paschæ præparātiō, hōrā ferē sextā, atque ita Jūdæōs alloquitur: “Ecce rēx vester.”
-\v 15 At illī occlāmāre: “Tolle, tolle, crucifīge eum.” “Rēgem ego vestrum crucifīgam?” inquit iīs Pīlātus. Cui pontificēs respondērunt: “Nōn habēmus rēgem, nisi Cæsarem.”
+\v 15 At illī occlāmāre: “Tolle, tolle, crucī fīge eum.” “Rēgem ego vestrum crucī fīgam?” inquit iīs Pīlātus. Cui pontificēs respondērunt: “Nōn habēmus rēgem, nisi Cæsarem.”
 \p
-\v 16 Tum dēmum eum illīs crucifīgendum trādidit. Et illī Jēsum acceptum abdūxērunt:
+\v 16 Tum dēmum eum illīs crucī fīgendum trādidit. Et illī Jēsum acceptum abdūxērunt:
 \v 17 Isque suam ferēns crucem, profectus est in locum Calvāriæ appellātum,
-\v 18 quī dīcitur Hebraicē Golgotha, ubi eum crucifīxērunt, et ūnā cum eō hinc atque hinc duōs aliōs, Jēsum autem medium.
+\v 18 quī dīcitur Hebraicē Golgotha, ubi eum crucī fīxērunt, et ūnā cum eō hinc atque hinc duōs aliōs, Jēsum autem medium.
 \v 19 Scrīpsit autem titulum Pīlātus, quem crucī imposuit in quō ita scrīptum erat: JĒSŪS NAZARĒNUS RĒX JŪDÆŌRUM.
 \v 20 Hunc titulum cum multī Jūdæōrum lēgissent (nam prope urbem erat is locus, ubi in crucem sublātus est Jēsūs, et scrīptum erat Hebraicē, Græcē, et Latīnē) monuērunt Jūdæōrum pontificēs Pīlātum,
 \v 21 nē scrīberet Jūdæōrum rēgem, sed, quī sē Jūdæōrum rēgem esse dīxisset.
@@ -1011,7 +1024,7 @@ Sed exiit ex eōrum manū,
 \v 30 Et Jēsūs acētō sūmptō, dīxit: “Perāctum est,” ac inclīnātō capite, ēmīsit spīritum.
 \p
 \v 31 Jūdæī vērō, quandoquidem erat Præparātiō, nē manērent in cruce corpora Sabbatō (erat enim celebris illa diēs Sabbatī) Pīlātum rogārunt, ut eōrum crūra frangerentur, iīque auferrentur.
-\v 32 Itaque vēnērunt mīlitēs, et prīmī quidem crūra frēgērunt, itemque alterīus cum eō crucifīxī.
+\v 32 Itaque vēnērunt mīlitēs, et prīmī quidem crūra frēgērunt, itemque alterīus cum eō crucī fīxī.
 \v 33 Sed ubi ad Jēsum ventum est, ut eum vīdērunt jam mortuum, nōn frēgērunt ejus crūra:
 \v 34 Sed ūnus mīlitum lanceā latus ejus pupugit, ac continuō exiit sanguis et aqua.
 \v 35 Atque hoc idem quī vīdit testātur, estque vērum ejus testimōnium: isque sē vēra dīcere scit, ut vōs quoque crēdātis.
@@ -1021,7 +1034,7 @@ Sed exiit ex eōrum manū,
 \v 38 Posteā rogāvit Pīlātum Jōsēphus ab Ārimāthæā (quī Jēsū discipulus erat, sed occultus, metū Jūdæōrum) ut Jēsū corpus auferre sibi licēret: id quod permīsit Pīlātus.
 \v 39 Accessit et Nīcodēmus (is quī prius Jēsum noctū adierat) ferēns murræ et aloēs mistūram ad lībrās centum.
 \v 40 Hī Jēsū corpus cēpērunt, et linteīs cum arōmatis obligārunt, ut Jūdæīs sepeliendī mōs est.
-\v 41 Erat autem in eō locō, ubi ille crucifīxus fuit, hortus, et in hortō monumentum novum, in quō nēmō adhūc positus fuerat.
+\v 41 Erat autem in eō locō, ubi ille crucī fīxus fuit, hortus, et in hortō monumentum novum, in quō nēmō adhūc positus fuerat.
 \v 42 Illīc igitur, propter Jūdæōrum Præparātiōnem, quoniam prope erat monumentum, posuēre Jēsum.
 
 \c 20

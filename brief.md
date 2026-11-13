@@ -18,7 +18,13 @@ them are dated in `HUMAN.md` § Decided.
   Psalm titles stay unnumbered above verse 1.
 - **Later-edition vocabulary**: the ecclesiastical terms of the later editions are kept (*baptīzō*, *angelus*), as
   the README says.
-- No marginal notes or commentary.
+- No marginal notes or commentary, but **brief Latin footnotes** where Castellio's reading departs from the Greek
+  as read today (decision 53, 2026-11-12): `\f + \fr 19:24 \ft …\f*`, one line, after the word it explains
+  (model: Matt 19:24 *Græcē κάμηλος; Castelliō fūnem nauticum intellegit, hodiernī Scrīptūræ interpretēs plērīque
+  camēlum*).
+- **Passages not in the earliest manuscripts** stay in Castellio's text, bracketed as NA28 and SBLGNT do (decision
+  52): ⟦…⟧ around Mark 16:9–20 and John 7:53–8:11, […] around the verses and phrases the critical texts leave out;
+  the front matter explains them.
 - **Chapter summaries** (the editions' *argumenta*) are **not printed** (decision 50, 2026-11-12, reversing decision 3).
   The witnesses keep them as verse 0 (`Matt.14.0`); the builds still understand `\cd` should that change.
 - **Apocrypha**: in scope, but after the 66 books (milestone M7). Placement is decided then.
@@ -37,6 +43,8 @@ them are dated in `HUMAN.md` § Decided.
   **One form per person in both Testaments, the Old Testament's** (decided 2026-11-11, decision 46): *Hagar* in
   Galatians as in Genesis, *Nōa* in Matthew as in Genesis and Luke; where a New Testament book has the Greek or
   Vulgate form (*Agar*, *Noe*, *Elias*, *Esaias*), the Old Testament's is proposed, in its case.
+- Words Gaffiot advises writing apart are written apart: *sē ipsum* (decision 51), *crucī fīgō* ("mieux"; decision
+  52); *n* before *d* in *eundem*, *quendam* (decision 52).
 
 ## Macrons
 
@@ -44,6 +52,8 @@ them are dated in `HUMAN.md` § Decided.
 - Gaffiot decides stems and hidden quantities; Wiktionary/Macronizer decide endings. When the sources disagree,
   flag it.
 - Final -i short in *mihi, tibi, sibi, ubi, ibi*.
+- **Names** (decision 52): Gaffiot's marks first; then the Greek's long letters (η, ω, ει); then another dictionary
+  that marks the word (Wiktionary's bare vowel counts as short); then the Hebrew vowel, as *Abrāhām*, *Dāvīd*.
 - Homographs (*venit/vēnit*, *-a/-ā*, *hic/hīc*) are decided per verse from the syntax, with the Greek/Hebrew tense
   or case as evidence.
 
@@ -51,7 +61,8 @@ them are dated in `HUMAN.md` § Decided.
 
 Written in the USFM master (markers listed in PLAN.md §3); every output renders them the same way.
 
-- Paragraphs (`\p`) with superscript verse numbers (`\v`).
+- Paragraphs (`\p`) with superscript verse numbers (`\v`). A paragraph of more than about 250 words is split
+  where SBLGNT, or the BSB and WEB together, break and the Latin's sentence ends (decision 52).
 - Poetry, including quoted Scripture set as verse, as indented lines (`\q1`, `\q2`, `\q3`).
 - Quotations of earlier Scripture in italics (`\qt …\qt*`).
 - **Quotation marks**: “…” for direct speech; ‘…’ only for quotes within direct speech.

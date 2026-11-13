@@ -2,6 +2,25 @@
 
 ## Now
 
+- **The open proposals are decided and applied** (2026-11-12; decisions 52–53, your answers step by step): brackets
+  (⟦…⟧ Mark 16:9–20, John 7:53–8:11; […] 17 other places); 64 paragraph breaks; *eundem*, *quendam* (39); 10 macron
+  slips; *crucī fīgō* apart (46); the names (*Bēthlehem*, *Ōbēd*, *Esrōm*, *Amīnādāb*, *Eliācīm*, *Jaīrus*, *Benjāmīn*,
+  *Trānsjordānīnus*, *Italia*, *narrō*; 33); Genesis 1–27 against 1738 (all 7 inherited slips, 4:3 *terræ*, 6:21
+  *sint*, 5 macrons; 11:25 *ūndēvīgintī* and 13:8 *discidium* kept). **Latin footnotes** now in every build (USFM `\f`;
+  site, EPUB pop-ups, PDF with Greek in LGR, plain text): Matt 19:24, Mark 10:25, Luke 18:25, Jude 6, 1 John 4:4,
+  1 Pet 5:8. The PDF is untested here (no TeX); the next CI build will show whether the Greek compiles. Rules added
+  for future drafts. Records: `brackets-and-notes.md`, `long-paragraphs.md`, `nd-forms.md`, `nt-macron-consistency.md`,
+  `settled-1738-gen*.md`. Nothing committed.
+- ***Nāzareth* applied** (2026-11-12, your decision; Lewis & Short *Nāzăreth*): the 12 forms of the town in Matthew,
+  Mark, Luke, John and Acts, gold rebuilt (`data/review/nt-macron-consistency.md` §4). The adjectives match (*Nāzarēnus*,
+  *Nāzaræus*, 18 places, §5; your decision). Notes: Latin footnotes in the text, the model wording recorded in `brackets-and-notes.md`.
+  *crucī fīgō* as two words recommended (Gaffiot "mieux", Lewis & Short "better separated"). Nothing committed.
+- **Book titles in title case, with a smaller second line** (2026-11-12, your instruction): every book's `\mt1` holds
+  the name (*Matthæō*, *ad Corinthiōs*, *Petrī Apostolī*, *Apocalypsis*), `\mt2` the rest (*Ēvangelium Auctōre*,
+  *Paulī Apostolī Epistula Prior*, *Epistula Prior*, *Jōhannis Theologī, hoc est, Patefactiō*); `\toc1` in title case.
+  The site, EPUB, PDF (`\TitulusMinor`) and text builds print `\mt2` smaller. **Waiting for your Decision lines**
+  (the checklist, `data/review/nt-publication-checklist.md`): `brackets-and-notes.md`, `long-paragraphs.md` (64
+  breaks), `nd-forms.md` (39), `nt-macron-consistency.md` (13 Apply lines). Nothing committed.
 - **Classical spellings applied** (2026-11-12; decision 51; `data/review/classical-spellings.md`): *sē ipsum*, *tē ipsum*,
   *mē ipsum* as two words (10 places); *epistula* for *epistola* (24 places and the 42 title lines of Romans–Jude);
   2 John 7 *introiērunt*, Exod 16:27 *exiērunt*, Acts 15:41 *obiit*. Gold rebuilt; 7 rules added for future drafts.
@@ -316,6 +335,8 @@
 | 49 | 2026-11-12 | **Revelation approved for now; the New Testament complete.** Stages 1–5 (74 stage-2 corrections against 1573 read on the page images, most of them Castellio's revision of Wikisource's early wording: 16:5 *sanctus*, 19:8, 20:4 *animas … eae*, 22:11 *nocentior fiat*; 3:1, missing in Wikisource, entered from 1573; 7:5's tribe of Gad, 5:11 and 21:21 restored; chapter 10 split at the KJV's 10:2; 186 layout lines, 222 forms; Christ's speech 1:17–3:22 as one quotation, the hymns as verse where the BSB sets them) settled in `text/REV.usfm`, with the title line as proposed (as 1573 heads it), *Agnus* capital and *α et ω* in Greek letters. With it: 31 spelling rules under decisions 17, 37, 42 and 46. Open: John 1:29, 1:36 *agnus*; crediting 1573 for 3:1. Your in-depth review follows decision 30. |
 | 50 | 2026-11-12 | **Open questions after the New Testament** (`data/review/open-questions-nt.md`): John 1:29, 1:36 *Agnus* capital, as Revelation (decision 20); no special credit for Rev 3:1; *quidquam*/*quidquid* kept (Gaffiot); **chapter summaries left out, reversing decision 3**; tag v2.0 now; collate Genesis 1–27 against 1738; you add a redirect from WordPress. |
 | 51 | 2026-11-12 | **Classical spellings** (`data/review/classical-spellings.md`, on your questions): *sē ipsum*, *tē ipsum*, *mē ipsum* apart (Cicero always; the joined forms are post-classical); *epistula* (classical T1 142 : 2), in the text and the titles; the perfects of *eō*'s compounds in *-iērunt*/*-iit* (*introiverunt*, *exiverunt* unattested). Rules added: 6 words, the stem *epistol → epistul*. |
+| 52 | 2026-11-12 | **The publication proposals** (your answers, step by step): brackets as NA28/SBLGNT; long paragraphs split (64); *eundem*, *quendam*; macron slips; *crucī fīgō* apart (Gaffiot "mieux", L&S); the names' rule (Gaffiot, Greek long letters, a dictionary, the Hebrew) and its forms; *Nāzareth* and its adjectives; Genesis 1–27 against 1738 (11:25 and 13:8 kept). |
+| 53 | 2026-11-12 | **Brief Latin footnotes in the text**, unobtrusive (a small letter; foot of the column, pop-up, hover): six so far (*rudentem* ×3, Jude 6, 1 John 4:4, 1 Pet 5:8), more from your in-depth review. |
 
 ## How to run
 

@@ -61,6 +61,12 @@ def esc(text):
     return html.escape(text, quote=False)
 
 
+def title_h1(book, filt=lambda text: text):
+    """The book's title as an <h1>: one line per \\mt1 part, the \\mt2/\\mt3 lines smaller."""
+    lines = "".join(f'<span class="{"mt2" if minor else "mt1"}">{esc(filt(line))}</span>' for line, minor in book.title)
+    return f"<h1>{lines}</h1>"
+
+
 def chapter_html(chapter, verse_id, chapter_id, filt=lambda text: text, verse_link=True):
     """The chapter's paragraphs and poetry as HTML. `verse_id(n)` names a verse's anchor, `chapter_id` the drop
     cap's; `filt` is applied to every piece of text (strip_macrons for the edition without macrons)."""
@@ -71,6 +77,7 @@ def chapter_html(chapter, verse_id, chapter_id, filt=lambda text: text, verse_li
         out.append(f'<p class="argumentum" id="{verse_id(0)}">{esc(filt(chapter.summary))}</p>')
     italic, first = False, True
     poem = []                                   # the lines of the poem being gathered
+    notes = []                                  # [(reference, text)]: the chapter's footnotes, listed at its end
 
     def flush_poem():
         if poem:
@@ -95,6 +102,12 @@ def chapter_html(chapter, verse_id, chapter_id, filt=lambda text: text, verse_li
             elif kind == "qt":
                 italic = value
                 parts.append('<i class="qt">' if value else "</i>")
+            elif kind == "note":                # a small letter; the note shows on hover and in the EPUB as a pop-up
+                notes.append(value)
+                letter = publish.note_letter(len(notes) - 1)
+                note_id = f"{chapter_id}-n{letter}"
+                parts.append(f'<sup class="fn"><a epub:type="noteref" href="#{note_id}" id="{note_id}-ref" '
+                             f'title="{esc(filt(value[1]))}">{letter}</a></sup>')
             else:
                 parts.append(esc(filt(value)))
         if italic:
@@ -110,6 +123,11 @@ def chapter_html(chapter, verse_id, chapter_id, filt=lambda text: text, verse_li
     flush_poem()
     if chapter.closing:
         out.append(f'<p class="cls">{esc(filt(chapter.closing))}</p>')
+    for index, (reference, text) in enumerate(notes):
+        letter = publish.note_letter(index)
+        note_id = f"{chapter_id}-n{letter}"
+        out.append(f'<aside class="fn" epub:type="footnote" id="{note_id}"><p><a href="#{note_id}-ref">{letter}</a> '
+                   f'{esc(reference)} {esc(filt(text))}</p></aside>')
     return "\n".join(out)
 
 
@@ -181,6 +199,8 @@ main { max-width: 38rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
 main.wide { max-width: 64rem; }
 h1 { font-weight: normal; font-variant: small-caps; letter-spacing: .04em; text-align: center; line-height: 1.3;
   margin: 1rem 0 1.5rem; }
+h1 span.mt1, h1 span.mt2 { display: block; }
+h1 span.mt2 { font-size: .55em; letter-spacing: .06em; }
 h1 small { display: block; font-size: .55em; color: var(--muted); font-variant: normal; letter-spacing: 0; }
 h1 small.caput { font-variant: small-caps; letter-spacing: .08em; margin-top: .2em; }
 h2 { font-weight: normal; font-variant: small-caps; letter-spacing: .04em; margin: 2rem 0 .5rem; }
@@ -189,6 +209,12 @@ h2 a { text-decoration: none; }
 .chapter p.first, .chapter p.m, .chapter p.nb, .chapter .poem + p.m { text-indent: 0; }
 .chapter p.argumentum { font-style: italic; text-indent: 0; color: var(--muted); margin-bottom: 1rem; }
 .chapter p.cls { font-style: italic; text-indent: 0; font-size: .9em; margin-top: 1rem; }
+sup.fn { font-size: .6em; line-height: 0; font-style: italic; }
+sup.fn a { color: var(--muted); text-decoration: none; padding: 0 .1em; }
+aside.fn { font-size: .8em; color: var(--muted); margin: .2rem 0 0; }
+aside.fn:first-of-type { border-top: 1px solid currentColor; padding-top: .3rem; margin-top: 1rem; }
+aside.fn p { text-indent: 0; margin: 0; }
+aside.fn a { font-style: italic; text-decoration: none; color: inherit; }
 .chapter p.d { font-style: italic; text-indent: 0; margin-bottom: .5rem; }
 .chapter .poem { margin: .45em 0; }
 .chapter .q1, .chapter .q2, .chapter .q3 { padding-left: 2em; text-indent: -1em; }
@@ -812,7 +838,7 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
                                   "cite": publish.cite(book.info.osis, chapter.number)}),
                        encoding="utf-8", newline="\n")
     for book in selected:
-        body = f'<h1>{"<br/>".join(esc(line) for line in book.title)}</h1>\n{chapter_grid(book)}'
+        body = f'{title_h1(book)}\n{chapter_grid(book)}'
         (folder / book.slug / "index.html").write_text(
             page(f"{book.short} · Biblia Sacra (Castellio)", body, "../", f" › {esc(book.short)}",
                  data={"slug": book.slug}),
