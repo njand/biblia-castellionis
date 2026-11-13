@@ -38,7 +38,7 @@ CHARACTERS = {"qt", "qt*"}
 
 # Collections with a name of their own; any other selection is "Biblia Sacra".
 COLLECTIONS = {("Matt", "Mark", "Luke", "John"): ("Euangelia", "euangelia")}
-SERIES = "Biblia Sacra ex Sebastiānī Castelliōnis interpretātiōne"
+SERIES = "Biblia Sacra ex Sēbastiānī Castelliōnis interpretātiōne"
 EDITOR = "Nathan Anderson"                     # named in every colophon (Nathan, 2026-11-10)
 
 
@@ -289,7 +289,7 @@ def credits(selected, macrons=True):
         # inter “ ” posita: the marks shown, not named (a no-break space between them, so they never part at a line's
         # end); versiculī: Bible verses, as distinct from versūs, lines of verse; in Bibliīs: Biblia is plural even
         # for one Bible (Biblia Sacra), so "in the King James English Bible".
-        "about": ("Sebastiānī Castelliōnis Biblia Latīna, Basileæ prīmum excūsa annō 1551, in ūsum legentium ēdita: "
+        "about": ("Sēbastiānī Castelliōnis Biblia Latīna, Basileæ prīmum excūsa annō 1551, in ūsum legentium ēdita: "
                   "orthographia ad normam lexicī Fēlīcis Gaffiot (ēditiōnis annī 2016) redācta, "
                   # macron, -ī (n.): the Greek μακρόν as a loan word (Nathan, 2026-11-12)
                   + ("vōcālēs longæ omnēs macrō notātæ" if macrons else "vōcālēs longæ nūllō macrō notātæ")

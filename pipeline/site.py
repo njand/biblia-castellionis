@@ -836,7 +836,7 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
                      f'<select id="ref" title="A text shown beside this one, verse by verse">'
                      f'<option value="">None</option>{options}</select></span>')
         body.append(f'<nav class="pager">{"".join(pager)}</nav>')
-        body.append(f'<p class="print-only">{esc(book.long)}, caput {chapter.number} · Biblia Sacra ex Sebastiānī '
+        body.append(f'<p class="print-only">{esc(book.long)}, caput {chapter.number} · Biblia Sacra ex Sēbastiānī '
                     f'Castelliōnis interpretātiōne{f" ({esc(version)})" if version else ""} · '
                     f'{publish.REPOSITORY.removeprefix("https://")}</p>')
         body.append(VERSE_BAR)
@@ -857,7 +857,7 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
     sections = "\n".join(f'<h2><a href="{book.slug}/index.html">{esc(book.long)}</a></h2>\n'
                          f'{chapter_grid(book, book.slug + "/")}' for book in selected)
     edition = f"<br/><small>{esc(version)}</small>" if version else ""
-    home = (f"<h1>Biblia Sacra<small>ex Sebastiānī Castelliōnis interpretātiōne</small></h1>\n"
+    home = (f"<h1>Biblia Sacra<small>ex Sēbastiānī Castelliōnis interpretātiōne</small></h1>\n"
             f'<p style="text-align:center">{esc(title)}{edition}</p>\n{downloads_html(files, parts)}{sections}')
     (folder / "index.html").write_text(page("Biblia Sacra ex Sebastiani Castellionis interpretatione", home, ""),
                                        encoding="utf-8", newline="\n")

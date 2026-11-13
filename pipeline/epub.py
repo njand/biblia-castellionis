@@ -73,7 +73,7 @@ def title_xhtml(title, version, filt):
     return xhtml(filt(title), f"""<div class="title">
 <p class="series">Biblia Sacra</p>
 <p>ex</p>
-<p>{site.esc(filt("Sebastiānī Castelliōnis"))}</p>
+<p>{site.esc(filt("Sēbastiānī Castelliōnis"))}</p>
 <p>{site.esc(filt("interpretātiōne"))}</p>
 <p>&#160;</p>
 <p>{site.esc(filt(title))}</p>

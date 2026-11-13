@@ -25,7 +25,7 @@ Not yet checked: whether there were other lifetime printings (Latin NT-only issu
 | 1715 | — | *Novum Testamentum Latinum … ex eiusdem postrema castigatione* | *homine natus* (61×) | archive.org (in the 1750 scan) |
 | 1726–27 | (4 vols.) | The source of the finished chapters (TXT/1) | *filius hominis* | Google Books [vols 1–2](https://books.google.com/books?id=1EBbAAAAQAAJ), [3–4](https://books.google.com/books?id=40BbAAAAQAAJ) |
 | 1728 | Leipzig, Walther (4 vols.) | *Biblia sacra ex … interpretatione eiusque postrema recognitione* | not checked | MDZ (SuStB Augsburg Th B V 102) |
-| 1738 | Leipzig | *Biblia sacra … et postrema recognitione*, vol. 1 | (OT; **the Old Testament base**, transcribed by Wikisource) | [archive.org](https://archive.org/details/bibliasacraexseb01cast) |
+| 1738 | Leipzig, Samuel Benjamin Walther; ed. **Johann Ludolf Bünemann** | *Biblia sacra … et postrema recognitione*, vol. 1. The title page (OCR) says Bünemann *versionem et adnotationes ex primis editionibus emendavit et praefatus est indicemque latinitatis … subiunxit*; his preface *Lectori integro* is dated Minden, 14 August 1734 (OCR), so this is the 1734 edition reprinted (Buisson II:358–359 lists both). Also prints Vockerodt's *Dissertatio* (1694/95), Woll's *Dissertatio critica* (1728/29) and Castellio's dedication and prefaces. See "The Leipzig editions and their prefaces" below | (OT; **the Old Testament base**, transcribed by Wikisource: so the OT base is Bünemann's emended text) | [archive.org](https://archive.org/details/bibliasacraexseb01cast) |
 | 1745 | Leipzig, Caspar Heinrich Fuchs; ed. **Johann Ludolf Bünemann** | *versionem et adnotationes ex primis editionibus emendavit*: the editor **restored the translation from the first editions**. Adds notes, maps, a plan of Solomon's temple, and an index of Castellio's Latinity (*Latinitatis selectae, vulgo neglectae, merito et falso suspectae*) | early line: *homine natus*, agrees with 1554 at 12 of 15 test places | [Halle ULB](https://opendata.uni-halle.de/handle/1981185920/56262) (IIIF, public domain) |
 | 1747 | — | *Novum Testamentum Latinum … ex eiusdem postrema castigatione*, with Gesner's essay *De usu huius interpretationis* | *homine natus* (68×) | [archive.org](https://archive.org/details/novvm-testamentvm-latinvm-sebastiano-castellione-interprete-ex-eivsdem-postrema-castigatione-1747) |
 | 1750 | Leipzig, Bernhard Christoph Breitkopf (Sysang named in the record) | *… praecipue in usum studiosae iuventutis denuo evulgata*: **for students** | *homine natus* (81×) | [archive.org](https://archive.org/details/biblia-sacra-ex-sebastiani-castellionis-interpretatione-eivsqve-postrema-1750); [Halle ULB](https://opendata.uni-halle.de/handle/1981185920/65566) |
@@ -39,7 +39,7 @@ The printed tradition splits on a few readings. "Son of man" is the clearest mar
 
 - **The early line:** *homine natus* ("born of a human"), *collegium* for synagogue, *respondet*, *haec nostis*, and so on. This is **Castellio's own early wording** (1551, 1554). Later printings that carry it:
   - 1715, 1747 and 1750;
-  - Bünemann's 1745 edition, deliberately, since he restored "from the first editions";
+  - Bünemann's edition (1734, reprinted 1738 and, as listed here, 1745), deliberately, since he restored "from the first editions";
   - the 1760 New Testament.
 - **The revised line:** *filius hominis*, *hoc nostis*, *Tum Iesus ei dicit*, and so on. This is **Castellio's own 1556 revision**, revised again in the posthumous **1573** edition (*infidentiam*, *mundi*, *carne*, *duobus assariis*, …), which is what the later printings carry:
   - 1681, 1726–27 and 1758;
@@ -375,6 +375,16 @@ In the settled chapters (read on the 1573 page images on 2026-11-07; `data/revie
 Read 2026-11-06 in the BSB copy (MDZ bsb10141277: OCR of canvases 1–24, 740–750 and 961–1026; canvas 8 on the page image).
 
 - **Title pages:** the Bible *ex Sebastiani Castalionis postrema recognitione* (canvas 7); the New Testament, which has its own title page, *ex eiusdem postrema castigatione* (canvas 747). These are the only places it claims a last revision.
+- **Where the Apocrypha stand** (2026-11-13, MDZ full-text search, canvas numbers; not yet checked page by page):
+  - Tobit (330–338) and Judith (339–340) after Ezra–Nehemiah (306–328).
+  - Wisdom and Ecclesiasticus (457–481) after the Song of Songs (446) and before Isaiah (485 on). The errata on
+    canvas 948 list them in that order: Psalms, *Sap.* XVII, *Eccl.* XXXIII, Isaiah.
+  - Baruch (517–519) by Jeremiah; Susanna (612–613) within Daniel.
+  - 3–4 Esdras (645–660) and the Maccabees (669–698) after Malachi (643–646).
+  - Then the Josephus history, the colophon (746) and the New Testament (747).
+
+  So most of them are interspersed, roughly in the Vulgate's order, and only Esdras and the Maccabees stand between
+  the Testaments. Whether 1551 has the same order is not checked.
 - **Colophons:** *Basileae, excudebat Petrus Perna, anno salutis humanae M.D.LXXIII mense Augusto* after the Old Testament and the Josephus supplement (canvas 746), and *Basileae, apud Petrum Pernam, mense Augusto M.D.LXXIII* at the end (canvas 1019).
 - **A memorial to Castellio** on the back of the title page (canvas 8): *Christo Servatori. Lemano Caelo invisus, Rauraco maxime gratus, illius inclementia dira passus, huius charitate mire complexus, sub Christi tandem crucem dura duriter durans, Deo et Patri coronandus vixit*: hated under Geneva's sky, warmly loved by Basel, he suffered the one's harshness and was embraced by the other's charity.
 - **Castellio's own front matter:** the dedication to Edward VI (canvases 9–15), *Ad lectores admonitio* (16–17), which ends with his promise to go on correcting the translation (*deinceps, volente Deo, dabimus operam, ut si quid erratum … cognoverimus, id … corrigamus*), and *Quae via sit recta ad intelligendas sacras Scripturas* (18–19).
@@ -388,6 +398,123 @@ Read 2026-11-06 in the BSB copy (MDZ bsb10141277: OCR of canvases 1–24, 740–
 - **USTC** lists two 1572 Latin New Testaments titled *Novum Jesu Christi testamentum interprete Sebastiano Castalione. Ex postrema eiusdem castigatione*: one per Peter Perna (no. 678361, 7 copies), one ex officina Johann Oporinus (his successors; no. 678360, 2 copies). These are the earliest uses of the "last revision" label found: the revised New Testament was in print, under Perna's and Oporinus's successors' names, a year before the 1573 Bible. No digital copy of either was found (MDZ has none; the VD16 catalogue sits behind a bot check). A bookseller's description of the 1572 Perna Latin–French New Testament (VD16 ZV 28179 or ZV 228179) says its Latin was edited by Lelio Sozzini; that is unverified, and Lelio died in 1562.
 - **Perna** printed other Castellio texts from his papers: the *Dialogi IV* (1578) from manuscript transcriptions, and an undated Psalter with Proverbs, Ecclesiastes and Wisdom *ex versione et postrema castigatione* (Buisson). So "postrema castigatione" was Perna's label for Castellio texts he printed after the author's death.
 - **Not found:** any statement, by Perna or a modern scholar, that Castellio left a corrected copy of the Bible, or who prepared the 1572–73 text. Likely places: Guggisberg's biography (*Sebastian Castellio 1515–1563*, 1997; English 2003), studies of Perna's press (L. Perini, *La vita e i tempi di Pietro Perna*, 2002), and the 1572 New Testaments themselves, if a scan can be found (or requested from a holding library).
+
+## Castellio's life, works and the reception of the Bible (read 2026-11-13)
+
+For the front matter (`docs/front-matter.md`). Sources: Buisson, *Sébastien Castellion* (1892; archive.org
+`sebastiencastell01buisuoft`, `…02…`, OCR; cited I:1 = vol. I p. 1); Castellio's *Defensio suarum translationum
+Bibliorum* (Basel, Oporinus 1562; e-rara 10241269, pp. 1–18 read on the page images); Beza's *Responsio ad defensiones*
+(1563; e-rara 859334, dedication and pp. 30–32); the front matter of 1573 (cached hOCR, canvases 7–21, 948, some on the
+images); the prefaces in 1738, 1747 and 1750 (archive.org OCR; 1738 pp. 1–3 of Bünemann's preface on the images);
+Zahnd, "Tolerant Humanists?" (Brill 2018, full text); Gomez-Géraud's *Avant-propos* to *Sébastien Castellion: des
+Écritures à l'écriture* (2013, full text); Mahlmann-Bauer's Verfasserlexikon article (galley, castellio.unibe.ch);
+Kaegi, *Castellio und die Anfänge der Toleranz* (1953). Guggisberg's biography (2003) was reached only as its table of
+contents and chapter abstracts (ch. 4, "The Bible Translations", pp. 49–72); Eskhult (2012) and Gomez-Géraud (AJFS
+2015) only as abstracts or reviews.
+
+**Life.**
+- Born 1515 at Saint-Martin-du-Fresne in the Bugey (then Savoy) (Buisson I:1–2; 1573's anonymous note *natione
+  Sabaudus*).
+- At Lyon, c. 1535–40, at the Collège de la Trinité, where he began writing his name *Castalio* (Buisson I:16–27;
+  Mahlmann-Bauer).
+- Boarded in Calvin's house at Strasbourg from May 1540 (I:103).
+- Régent of the Geneva school, sworn 5 April 1542 (I:141–142).
+- Refused the ministry (1543–44), chiefly because he would not hold the Song of Songs to be sacred; Calvin's
+  certificate praises his work (I:195–199). Left Geneva in 1544 (I:233).
+- At Basel from 1545, probably corrector for Oporinus, poor; Calvin later accused him of stealing firewood, and he
+  answered that he had gathered driftwood from the Rhine in flood (I:240, 248–249; Kaegi 5–6).
+- Master of arts 1 August 1553 and teacher of Greek at Basel from 1553 (I:260; Mahlmann-Bauer: called May 1553).
+- *De haereticis an sint persequendi* (March 1554, as "Martinus Bellius", false imprint Magdeburg) after Servetus's
+  burning at Geneva (27 October 1553) (II:1–2, 363).
+- Accused before the Basel council in November 1563 on charges drawn from Beza; died 29 December 1563, aged 48, before
+  the hearing; buried in the cathedral cloister (II:257–264). The 1573 Bible's anonymous note gives the same day and
+  age.
+- **How he died** (Buisson II:263 and notes): a long illness, which some called heart disease and others a wasting
+  disease, put down to privation, study and overwork. Then a persistent fever with violent stomach pains. He seemed
+  to recover on a milk diet, relapsed, and died within days. His friend the physician Theodor Zwinger (*Theatrum
+  vitae humanae*) wrote *atrophia correptus, quam assiduis studiis, curis et vigiliis, addo etiam vini abstinentia
+  contraxerat … cum lenta febre … tandem cal. Jan. ad Dominum migravit*, dating the death 1 January 1564. A letter to
+  Bullinger (31 January 1564) says some thought him worn out more by grief of mind than by illness.
+- **Why he left Geneva**: besides the Song of Songs, his doubt about Christ's descent into hell (Mahlmann-Bauer;
+  Kaegi 10), and his public attack on the ministers on 30 May 1544 (Buisson I:211).
+- ***Contra libellum Calvini*** (written 1554 against Calvin's defence of Servetus's execution; printed 1612), art.
+  77, in Buisson's French (II:44): "Tuer un homme, ce n'est pas défendre une doctrine, c'est tuer un homme. Quand les
+  Genevois ont tué Servet, ils n'ont pas défendu une doctrine, ils ont tué un homme." The Latin, read on the page image of the 1612 printing
+  (sig. E1v; archive.org `contralibellumca00cast`, scan n83, Princeton Theological Seminary copy; also
+  `8D6957INV8584FA`, Bibliothèque Sainte-Geneviève): *Hominem occidere, non est doctrinam tueri, sed est hominem
+  occidere. Cum Genevenses Servetum occiderunt, non doctrinam defenderunt, sed hominem occiderunt.* It answers
+  Calvin's art. 77, *jubeantur Reges pietatis doctrinam suo patrocinio tueri*. The title page: *Contra libellum
+  Calvini in quo ostendere conatur haereticos jure gladii coercendos esse*, no place or printer, dated *M.D.LCXII*
+  (a misprint for 1612). Modern critical edition: Uwe Plath, *Contra libellum Calvini* (Geneva: Droz, 2019,
+  Cahiers d'Humanisme et Renaissance 160), not seen. Gomez-Géraud
+  (*Avant-propos*) notes that Maria d'Arienzo uses this "formule devenue fameuse" to warn against anachronism.
+- **Romans 9**: his annotation against predestination was cut from the 1554 Bible by the Basel censors; only an
+  asterisk stands there in 1556 and 1573; restored in 17th-century editions (Buisson II:56–58). Beza demanded that the
+  first edition be destroyed (Mahlmann-Bauer).
+
+**Works** (Buisson's bibliography, II:341–380): *Dialogi sacri* (1543–45, enlarged later; a Latin school reader into
+the 18th century: Buisson I:152, Mahlmann-Bauer); *Jonas* in Latin hexameters (1545); *Moses latinus* (1546);
+*Psalterium* (1547); *Biblia* (1551, revised 1554, 1556); *La Bible nouvellement translatée* (Basel, Hervagius, 1555);
+*De haereticis* (1554); *Contra libellum Calvini* (written 1554, printed 1612); *Defensio suarum translationum* (1562);
+*Conseil à la France désolée* (October 1562); *De arte dubitandi et confidendi, ignorandi et sciendi* (manuscript of
+his last year, Rotterdam; first printed in full 1981, Mahlmann-Bauer); editions and translations of Greek authors.
+
+**The translation's aims, in his words.**
+- 1551 dedication to Edward VI (1573 canvas 9): *operam dedi, ut fidelis, et latina, et perspicua esset haec
+  translatio … Sed perspicuitatis et fidelitatis potissimam rationem duximus*; style is the thing's clothing, *et nos
+  sartores sumus*.
+- The same dedication is a plea against persecution (canvases 11–14): *spirituale bellum terrestribus armis geri*
+  is absurd; *multos iudicasse paenituit, iudicium suspendisse non paenituit*.
+- *Admonitio* (canvases 16–17): the G/L/H marks; names of plants and animals not to be taken as certain; readers may
+  skip his notes and use *nuda translatione*; when he writes that he does not understand a place, he means it; asks
+  readers to tell him of errors (*admoneto nos amice*) and promises to yield to a better translation.
+- *Defensio* p. 9: about sixteen years earlier (so c. 1546, not 1542), seeing Latin taught in Christian schools from
+  largely obscene authors, he wanted a translation *latiniorem … nec non fideliorem et magis perspicuam … ex qua posset
+  eadem opera pietas cum Latino sermone disci*.
+- *Defensio* p. 12: because some took offence at *lotio* and *genius*, he put *baptisma*, *baptizare* and *angelus*
+  back in the New Testament *ultimae editionis* (the Old was already printed). Matt 18:17 *dicito Reipublicae* became
+  *Dicito Ecclesiae* (p. 11).
+- The *Moses latinus* (Basel, Oporinus, August 1546) has on its title page *Videbis, lector, Mosem nunc demum et
+  latine loquentem et aperte* (Buisson II:355, his transcription of the title).
+- *Defensio* pp. 15–17: *Res enim dictat Spiritus, verba quidem & linguam loquenti aut scribenti liberam permittit*;
+  the apostles hebraized from habit, so a translator need not keep their Hebraisms.
+- The French Bible (*La Bible nouvellement translatée*, Basel, Hervagius, March 1555): dedicated to Henri II, for
+  readers without Latin, in everyday French; not reprinted, unlike the Latin (Mahlmann-Bauer col. 6); Henri Estienne
+  mocked its French (Engammare, Ascona 2015 abstract).
+- 1573's anonymous note says he began the translation at Geneva in 1542 and finished it in 1550. That start date
+  conflicts with the *Defensio*'s "about sixteen years" and with Mahlmann-Bauer ("from 1546"); the front matter avoids
+  it.
+
+**Reception.**
+- Beza's 1556 *Annotationes* (quoted in the *Defensio* pp. 13–14) warned that *pro Christianis Ciceroniani
+  evademus*.
+- The Geneva New Testament of 1560 (preface 10 October 1559) called Castellio an *instrument choisi de Satan* (Buisson
+  II:251); Castellio's own Latin for the charge: *selectum Satanae instrumentum* (*Defensio*, preface).
+- Beza's *Responsio* (1563) attacked *collegium* for *synagoga* (p. 30) and approved the return to church words:
+  *factum ipsius laudo quod illa reposuerit, et genios illos suos eiecerit* (p. 31).
+- Praise printed in 1573 and 1750 (*Iudicia doctorum virorum*): Melanchthon (*recta et elegans oratio*), Furió
+  Ceriol, Hyperius, John Cheke and Martin Bucer at Cambridge (via Christopher Carlile's letter of 1562), Laurence
+  Humphrey (*alibi Cicerones, hic Scoti et Barbari erimus?*). Conrad Gesner's *Bibliotheca* (Buisson II:289).
+- Modern scholars warn against the "apostle of toleration" picture inherited from Buisson and Zweig (Zahnd p. 371;
+  Gomez-Géraud), and against calling him a programmatic Ciceronian (Zahnd).
+
+**The Leipzig editions and their prefaces.**
+- Gottfried Vockerodt, rector at Gotha, revived the New Testament for schools (Frankfurt, 1694/95, with his
+  *Dissertatio de pretio et usu singulari Bibliorum Lat. Castellionis*, reprinted in 1738). His method: one boy
+  reads the vernacular aloud, the rest follow the Latin.
+- Christoph Woll, *Dissertatio critica de eo quod pulchrum est …* (Leipzig 1728, revised for 1729 and 1738): the
+  hostility of Calvin and Beza came above all from his stand against persecuting heretics; for the young, *et pietatem
+  et Romanae linguae veneres eadem addiscent opera*.
+- Bünemann's preface (1738 pp. 1–8; dated Minden 1734): he read the Bible with his Minden pupils, a classmate reading
+  two chapters a day in German while the others followed the Latin; finding that every later edition had copied 1573's
+  errors, he got the 1551 folio and restored readings from it, admitting nothing not found in some edition of
+  Castellio (pp. 2–3, page images). He calls Castellio *vir latinissimus*.
+- J. M. Gesner's essay in the Gotha New Testament of 1747 is in German, on the same method, which he used at the
+  Thomasschule in Leipzig (§13).
+- 1750 has no editor's preface: it prints the 1551 dedication and the *Iudicia*. 1715 prints only Castellio's own
+  prefaces; 1681 and 1758 have none.
+- In 1755, 800 copies of the New Testament were sent for the schools of Siberia (Buisson II:288, citing the
+  *Hannoverisches Magazin*, 1763).
 
 ## Still to find out
 

@@ -19,15 +19,20 @@ them are dated in `HUMAN.md` § Decided.
 - **Later-edition vocabulary**: the ecclesiastical terms of the later editions are kept (*baptīzō*, *angelus*), as
   the README says.
 - No marginal notes or commentary, but **brief Latin footnotes** where Castellio's reading departs from the Greek
-  as read today (decision 53, 2026-11-12): `\f + \fr 19:24 \ft …\f*`, one line, after the word it explains
+  as read today (decision 53, 2026-11-12), or in the Old Testament from the Hebrew (decision 56, 2026-11-13), with the
+  same light touch: `\f + \fr 19:24 \ft …\f*`, one line, after the word it explains
   (model: Matt 19:24 *Græcē κάμηλος; Castelliō fūnem nauticum intellegit, doctī nostræ ætātis plērīque camēlum*;
+  an Old Testament note begins *Hebræē* the same way;
   classical idiom preferred to Church Latin in the notes: not *Scrīptūra* for the Bible, nor *hodiernī* of people).
 - **Passages not in the earliest manuscripts** stay in Castellio's text, bracketed as NA28 and SBLGNT do (decision
   52): ⟦…⟧ around Mark 16:9–20 and John 7:53–8:11, […] around the verses and phrases the critical texts leave out;
   the front matter explains them.
 - **Chapter summaries** (the editions' *argumenta*) are **not printed** (decision 50, 2026-11-12, reversing decision 3).
   The witnesses keep them as verse 0 (`Matt.14.0`); the builds still understand `\cd` should that change.
-- **Apocrypha**: in scope, but after the 66 books (milestone M7). Placement is decided then.
+- **Apocrypha**: in scope, but after the 66 books (milestone M7). In the published Bible they stand in a **section of
+  their own between the Testaments**, as the NRSV and most English Bibles have them, **in the order Castellio printed
+  them** (decision 55, 2026-11-13). In 1573 most are interspersed in the Old Testament; taken in that sequence: Tobit,
+  Judith, Wisdom, Ecclesiasticus, Baruch, the additions to Daniel, 3–4 Esdras, Maccabees (to be checked at M7).
 
 ## Orthography: Gaffiot 2016
 

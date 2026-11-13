@@ -285,7 +285,7 @@ Ideas Nathan has raised. None is started; each needs a decision on scope before 
 ## 8. Decisions (taken 2026-11-05)
 
 1. **Base edition:** the editions Wikisource follows (1760 NT, 1738 OT). *The NT part was replaced on 2026-11-06 (HUMAN.md decision 15): the NT base was Castellio's 1556 edition, with Wikisource as the working text. Later the same day (decision 24) it moved to the posthumous 1573 Basel edition (Perna, “from his last revision”; MDZ bsb10141277), the 1556 text revised further; 1556 stays the reference, its differing readings recorded as variants.* Other printings' differing readings are recorded as variants. Wording in the finished chapters (from 1726–27) that differs is proposed for review, never changed automatically.
-2. **Apocrypha:** in scope, after the 66 books (M7); placement decided then.
+2. **Apocrypha:** in scope, after the 66 books (M7); placement decided then. *Decided 2026-11-13 (HUMAN.md decision 55): a section of their own between the Testaments, in Castellio's order.*
 3. **Chapter summaries:** included, as small italic headings under each chapter number, normalized and macronized like the text. *Reversed 2026-11-12 (decision 50): left out.*
 4. **Quotation marks:** “…” for direct speech, ‘…’ only for quotes within it; reported discourse unmarked. About 33 reported passages in the finished chapters lose their ‘…’ (proposed for review).
 5. **Versification:** KJV everywhere, with mappings recorded; Psalm titles unnumbered above verse 1.
