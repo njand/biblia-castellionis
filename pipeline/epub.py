@@ -81,19 +81,23 @@ def title_xhtml(title, version, filt):
 </div>""")
 
 
-def colophon_xhtml(selected):
-    info = publish.credits(selected)
-    return xhtml("Colophon", f"""<div class="colophon">
-<h1>Colophon</h1>
+def colophon_xhtml(selected, filt=lambda text: text, macrons=True):
+    info = {key: filt(value) if isinstance(value, str) else value
+            for key, value in publish.credits(selected, macrons).items()}
+
+    def link(url):                      # on a line of its own, shown without "https://"
+        return f'<br/><a href="{html.escape(url)}">{site.esc(publish.short_url(url))}</a>'
+
+    return xhtml(info["title"], f"""<div class="colophon">
+<h1>{site.esc(info["title"])}</h1>
 <p>{site.esc(info["about"])}</p>
 <p>{site.esc(info["bases"])}</p>
 <p>{site.esc(info["edited"])}</p>
-<p>{site.esc(info["licence"])} <a href="{info["licence_url"]}">{info["licence_url"]}</a></p>
+<p>{site.esc(info["licence"])}{link(info["licence_url"])}</p>
 <p>{site.esc(info["wikisource"])}</p>
-<p>The Wikisource pages and revisions used are listed at
-<a href="{html.escape(info["wikisource_list_url"])}">{site.esc(info["wikisource_list_url"])}</a>.</p>
-<p>{site.esc(info["source_note"])}</p>
-</div>""", lang="en")
+<p>{site.esc(info["wikisource_list_lead"])}{link(info["wikisource_list_url"])}</p>
+<p>{site.esc(info["source_lead"])}{link(info["repository"])}</p>
+</div>""")
 
 
 def nav_xhtml(selected, filt):
@@ -106,7 +110,7 @@ def nav_xhtml(selected, filt):
 <ol>
 <li><a href="title.xhtml">{site.esc(filt("Titulus"))}</a></li>
 {chr(10).join(items)}
-<li><a href="colophon.xhtml">Colophon</a></li>
+<li><a href="colophon.xhtml">{site.esc(filt(publish.credits(selected)["title"]))}</a></li>
 </ol>
 </nav>
 <nav epub:type="landmarks" id="landmarks" hidden="hidden">
@@ -132,7 +136,7 @@ def ncx(selected, uid, title, filt):
         head = point(label, f"book{index}.xhtml")       # numbered before its chapters, as playOrder requires
         children = "".join(point(f"{label} {c.number}", f"book{index}.xhtml#c{c.number}") for c in book.chapters)
         points.append(head.removesuffix("</navPoint>") + children + "</navPoint>")
-    points.append(point("Colophon", "colophon.xhtml"))
+    points.append(point(filt(publish.credits(selected)["title"]), "colophon.xhtml"))
     return f"""<?xml version="1.0" encoding="utf-8"?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
 <head><meta name="dtb:uid" content="{uid}"/><meta name="dtb:depth" content="2"/></head>
@@ -157,10 +161,10 @@ def opf(selected, uid, title, modified, files):
 <dc:identifier id="uid">{uid}</dc:identifier>
 <dc:title>{site.esc(title)}</dc:title>
 <dc:language>la</dc:language>
-<dc:creator>Sebastian Castellio</dc:creator>
+<dc:creator>Sebastianus Castellio</dc:creator>
 <dc:contributor id="editor">{site.esc(publish.EDITOR)}</dc:contributor>
 <meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
-<dc:rights>CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); text drawn from Latin Wikisource, CC BY-SA 4.0</dc:rights>
+<dc:rights>CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); textus partim ex Vicifonte sumptus, CC BY-SA 4.0</dc:rights>
 <dc:source>{publish.REPOSITORY}</dc:source>
 <meta property="dcterms:modified">{modified}</meta>
 </metadata>
@@ -179,7 +183,7 @@ def write(selected, path, title, version, stamp, macrons=True):
     contents = {"title.xhtml": title_xhtml(title, version, filt)}
     for index, book in enumerate(selected, 1):
         contents[f"book{index}.xhtml"] = book_xhtml(book, filt)
-    contents["colophon.xhtml"] = colophon_xhtml(selected)
+    contents["colophon.xhtml"] = colophon_xhtml(selected, filt, macrons)
     files = {
         "META-INF/container.xml": """<?xml version="1.0" encoding="utf-8"?>
 <container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">

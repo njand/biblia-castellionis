@@ -25,6 +25,12 @@ BUILD = paths.ROOT / "build"
 MANIFEST = paths.WITNESSES / "wikisource" / "MANIFEST.tsv"
 SOFT_HYPHEN = latex.SOFT_HYPHEN
 REPOSITORY = "https://github.com/njand/biblia-castellionis"
+SITE = "https://njand.github.io/biblia-castellionis/"           # GitHub Pages (.github/workflows/pages.yml)
+
+
+def short_url(url):
+    """An address as printed: without the scheme or a closing slash ("github.com/njand/biblia-castellionis")."""
+    return re.sub(r"^https?://", "", url).rstrip("/")
 
 HEADER = {"id", "usfm", "ide", "h", "toc1", "toc2", "toc3", "mt", "mt1", "mt2", "mt3", "rem"}
 PARAGRAPHS = {"p", "m", "nb", "b", "q1", "q2", "q3"}
@@ -221,8 +227,9 @@ def collection(selected):
     return "Biblia Sacra", "castellio"
 
 
-def credits(selected):
-    """What every format prints in its colophon: licence, sources, the Wikisource pages and revisions used."""
+def credits(selected, macrons=True):
+    """What every format prints in its colophon: licence, sources, the Wikisource pages and revisions used.
+    `macrons=False`: for the editions without macrons, whose long vowels are not marked."""
     manifest = {row["book"]: row for row in tsv.read(MANIFEST)} if MANIFEST.exists() else {}
     pages = []
     for book in selected:
@@ -230,39 +237,57 @@ def credits(selected):
         if row:
             pages.append((book.short, row["url"], row["revid"],
                           f"https://la.wikisource.org/w/index.php?oldid={row['revid']}", row["fetched"]))
+    # All in Latin, as is everything in the books (Nathan, 2026-11-12): the PDF, EPUBs and text files.
     testaments = {book.info.testament for book in selected}
     bases = []
     if "novum" in testaments:
-        bases.append("The New Testament follows the Basel edition of 1573 (Perna, “ex postrema recognitione”), "
-                     "with Castellio’s last lifetime edition (Basel, 1556) as the reference")
+        bases.append("Novum Fœdus ēditiōnem sequitur Basileæ ā Pernā annō 1573 excūsam, “ex postrēmā recognitiōne”, "
+                     "cum ultimā quam vīvus Castelliō ēdidit (Basileæ, 1556) collātam")
     if "vetus" in testaments:
-        bases.append(("the" if bases else "The") + " Old Testament follows the Leipzig edition of 1738")
+        bases.append("Vetus Fœdus ēditiōnem " + ("" if bases else "sequitur ") + "Lipsiæ annō 1738 excūsam")
+    # The Wikisource pages and revisions are listed on the site's colophon, a short address that prints on one line
+    # (the MANIFEST.tsv address on GitHub did not).
+    list_url = f"{SITE}colophon.html"
+    list_lead = "Vicifontis pāginæ unde textus sūmptus est, cum numerō cujusque recēnsiōnis, hīc ēnumerantur:"
+    source_lead = "Fontēs hujus ēditiōnis et tabulæ hīc reperiuntur; errōrēs, sī quōs dēprehenderis, hīc indicā:"
     return {
         "series": SERIES,
-        "about": ("Sebastian Castellio’s Latin translation of the Bible (first printed at Basel in 1551), "
-                  "in a reader’s edition: Gaffiot 2016 orthography with full macrons, modern paragraphs, "
-                  "poetry set as verse, quotation marks, and verses numbered as in the King James Version."),
+        "title": "Dē hāc ēditiōne",                # the colophon's heading (EPUB)
+        # Fēlīcis Gaffiot: the surname undeclined beside a Latin first name (no attested *Gaffiotiānus*); ōrātiō rēcta
+        # inter “ ” posita: the marks shown, not named (a no-break space between them, so they never part at a line's
+        # end); versiculī: Bible verses, as distinct from versūs, lines of verse.
+        "about": ("Sebastiānī Castelliōnis Biblia Latīna, Basileæ prīmum excūsa annō 1551, in ūsum legentium ēdita: "
+                  "orthographia ad normam lexicī Fēlīcis Gaffiot (ēditiōnis annī 2016) redācta, "
+                  # macron, -ī (n.): the Greek μακρόν as a loan word (Nathan, 2026-11-12)
+                  + ("vōcālēs longæ omnēs macrō notātæ" if macrons else "vōcālēs longæ nūllō macrō notātæ")
+                  + ", textus hodiernō mōre in paragraphōs distribūtus, carmina per versūs disposita, ōrātiō rēcta "
+                  "inter “\u00a0” posita, versiculī ut in versiōne Anglicā quam Jācōbus rēx fierī jussit numerātī."),
         "bases": "; ".join(bases) + "." if bases else "",
         "editor": EDITOR,
-        "edited": f"Edited by {EDITOR}.",
-        "licence": "This edition is licensed under the Creative Commons Attribution-ShareAlike 4.0 International "
-                   "License (CC BY-SA 4.0). The 16th–18th-century text it is drawn from is in the public domain.",
+        "edited": f"Ēdidit {EDITOR}.",
+        "licence": ("Hæc ēditiō licentiā CC BY-SA 4.0 permittitur: eam dīvulgāre et mūtāre licet, dum auctōrēs "
+                    "nōminentur et quidquid ex eā mūtātum fuerit eādem licentiā dīvulgētur. Textus ipse, sæculīs "
+                    "XVI–XVIII excūsus, pūblicī jūris est."),
         "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         # The credit (2026-11-12, decision 54): Genesis 1–35 and the Gospels began as the editor's 2019 transcription,
         # which Latin Wikisource's pages of 2021 follow (their slips are his: docs/editions.md); the other books draw
-        # on Wikisource. The page-by-page list is linked, not printed, except on the site's colophon.
-        "wikisource": ("The text of Genesis 1–35 and the Gospels began as the editor’s own transcription (2019). "
-                       "The other books draw on the transcription by the contributors to Latin Wikisource "
-                       "(Biblia Sacra interprete Sebastiano Castellione, 2021–; its Genesis and Gospels follow the "
-                       "editor’s 2019 text), used under CC BY-SA 4.0. Every reading was checked against the printed "
-                       "editions named above."),
+        # on Wikisource (Vicifons, its Latin name), used under CC BY-SA 4.0. The page-by-page list is linked, not
+        # printed, except on the site's colophon.
+        # Genesis: the title declined as a Latin noun, genitive = nominative (the Vulgate's notes: in Genesi, super
+        # Genesin); the Wikisource work's title quoted as it is, without macrons.
+        "wikisource": ("Genesis capita 1–35 et Ēvangelia ipse ēditor annō 2019 trānscrīpsit. Cēterī librī sūmptī "
+                       "sunt ex trānscrīptiōne quam Vicifontis sociī ab annō 2021 fēcērunt (Biblia Sacra interprete "
+                       "Sebastiano Castellione), quæ eādem licentiā dīvulgātur et in Genesī atque Ēvangeliīs "
+                       "ēditōris textum sequitur. Lēctiōnēs omnēs cum ēditiōnibus suprā nōminātīs collātæ sunt."),
+        "wikisource_name": "Vicifontis",            # linked to wikisource_url on the site
         "wikisource_url": "https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione",
-        "wikisource_list": ("The Wikisource pages and revisions used are listed at "
-                            f"{REPOSITORY}/blob/main/data/witnesses/wikisource/MANIFEST.tsv."),
-        "wikisource_list_url": f"{REPOSITORY}/blob/main/data/witnesses/wikisource/MANIFEST.tsv",
+        "wikisource_list_lead": list_lead,
+        "wikisource_list": f"{list_lead} {list_url}",
+        "wikisource_list_url": list_url,
         "pages": pages,
         "repository": REPOSITORY,
-        "source_note": f"Source files, data and corrections: {REPOSITORY}",
+        "source_lead": source_lead,
+        "source_note": f"{source_lead} {REPOSITORY}",
     }
 
 
@@ -344,13 +369,19 @@ def reading_text(book):
 def write_text(selected, folder, stem, title):
     folder.mkdir(parents=True, exist_ok=True)
     info = credits(selected)
-    head = [SERIES.upper(), title, ""]
-    tail = ["", "—" * 3, "", info["about"], info["bases"], info["edited"], "", info["licence"], info["licence_url"], "",
-            info["wikisource"], info["wikisource_list"], "", info["source_note"], ""]
+    head = "\n".join([SERIES.upper(), title, ""]) + "\n"
     body = "\n".join(reading_text(book) for book in selected)
-    full = "\n".join(head) + "\n" + body + "\n".join(tail)
+
+    def tail(macrons):
+        info = credits(selected, macrons)
+        return "\n".join(["", "—" * 3, "", info["about"], info["bases"], info["edited"], "", info["licence"],
+                          info["licence_url"], "", info["wikisource"], info["wikisource_list"], "",
+                          info["source_note"], ""])
+
+    full = head + body + tail(True)
     (folder / f"{stem}.txt").write_text(full, encoding="utf-8", newline="\n")
-    (folder / f"{stem}-sine-macronibus.txt").write_text(strip_macrons(full), encoding="utf-8", newline="\n")
+    (folder / f"{stem}-sine-macronibus.txt").write_text(strip_macrons(head + body + tail(False)), encoding="utf-8",
+                                                        newline="\n")
     rows = [(vid, book.info.osis, c, v, text, strip_macrons(text))
             for book in selected for vid, c, v, text in verses(book)]
     tsv.write(folder / f"{stem}.tsv", rows, header=("id", "book", "chapter", "verse", "text", "sine_macronibus"))

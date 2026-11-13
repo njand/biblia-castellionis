@@ -891,12 +891,14 @@ def colophon_html(selected, used=None):
              'the <a href="https://openfontlicense.org">SIL Open Font License 1.1</a>, reduced to the letters used here '
              'and so renamed <i>Castellio Book</i> and <i>Castellio Hebrew</i> as the licence asks.</p>')
     return f"""<h1>Colophon</h1>
-<div lang="en">
+<div lang="la">
 <p>{esc(info["about"])}</p>
 <p>{esc(info["bases"])}</p>
 <p>{esc(info["edited"])}</p>
 <p>{esc(info["licence"])} <a href="{info["licence_url"]}">{info["licence_url"]}</a></p>
-<p>{esc(info["wikisource"]).replace("Latin Wikisource", f'<a href="{info["wikisource_url"]}">Latin Wikisource</a>')}</p>
+<p>{esc(info["wikisource"]).replace(info["wikisource_name"], f'<a href="{info["wikisource_url"]}">{info["wikisource_name"]}</a>', 1)}</p>
+</div>
+<div lang="en">
 <p>Wikisource pages and revisions used:</p>
 <ul>{pages}</ul>
 {parallels}

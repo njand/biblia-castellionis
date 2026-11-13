@@ -2,6 +2,7 @@
 
 import json
 import pathlib
+import re
 import tempfile
 import unittest
 from unittest import mock
@@ -187,7 +188,7 @@ class Latex(unittest.TestCase):
         self.assertIn("\\documentclass[9pt,a5paper,twoside,openany]{memoir}", document)
         self.assertIn("\\newcommand*\\titleM", document)                 # title.tex inlined
         self.assertNotIn("\\input{", document)
-        self.assertIn("data/witnesses/wikisource/MANIFEST.tsv", document)  # the Wikisource list, linked
+        self.assertIn(r"\href{https://njand.github.io/biblia-castellionis/colophon.html}{\nolinkurl{njand.github.io/biblia-castellionis/colophon.html}}", document)  # the list, linked on its own line
         self.assertEqual(document.count("\\begin{document}"), 1)
         self.assertEqual(pdf.tex_escape("50% & _x_"), "50\\% \\& \\_x\\_")
 
@@ -219,7 +220,10 @@ class Latex(unittest.TestCase):
         self.assertNotIn("Fontes", body)                               # no last page of Wikisource links (decision 54)
         self.assertNotIn("revision 165335", body)
         colophon = document.split("\\begin{titlingpage}", 1)[1].split("\\end{titlingpage}", 1)[0]
-        self.assertIn("editor's own transcription (2019)", colophon)  # ’ is ' in the LaTeX
+        self.assertIn(latex.unicode_to_latex("ipse ēditor annō 2019 trānscrīpsit"), colophon)   # the credit, in Latin
+        links = r"\\href\{[^}]*\}\{\\nolinkurl\{[^}]*\}\}|\\url\{[^}]*\}"
+        self.assertNotRegex(re.sub(links, "", colophon),                          # no English (Nathan, 2026-11-12)
+                            r"\b(the|and|of|by|edition|licensed)\b")
         self.assertNotIn("\\Large Biblia Sacra", colophon)            # the title proper not repeated
 
 
@@ -233,8 +237,15 @@ class Build(unittest.TestCase):
             verses = publish.verses(mark)
             # TXT/TSV/JSON
             stem = "castellio-marcus"
-            self.assertIn("Wikisource", (out / "txt" / f"{stem}.txt").read_text(encoding="utf-8"))
-            self.assertNotIn("ā", (out / "txt" / f"{stem}-sine-macronibus.txt").read_text(encoding="utf-8"))
+            self.assertIn("Vicifontis", (out / "txt" / f"{stem}.txt").read_text(encoding="utf-8"))
+            plain_txt = (out / "txt" / f"{stem}-sine-macronibus.txt").read_text(encoding="utf-8")
+            self.assertNotIn("ā", plain_txt)
+            # the colophon of an edition without macrons does not claim its long vowels are marked
+            self.assertIn("vocales longæ nullo macro notatæ", plain_txt)
+            self.assertNotIn("omnes macro notatæ", plain_txt)
+            self.assertIn("omnēs macrō notātæ", (out / "txt" / f"{stem}.txt").read_text(encoding="utf-8"))
+            with zipfile.ZipFile(out / "epub" / f"{stem}-sine-macronibus.epub") as plain_epub:
+                self.assertIn("nullo macro notatæ", plain_epub.read("EPUB/colophon.xhtml").decode("utf-8"))
             self.assertEqual(len((out / "txt" / f"{stem}.tsv").read_text(encoding="utf-8").splitlines()),
                              len(verses) + 1)
             data = json.loads((out / "txt" / f"{stem}.json").read_text(encoding="utf-8"))

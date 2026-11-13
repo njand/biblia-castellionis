@@ -77,6 +77,12 @@ def colophon(selected):
     Wikisource pages and revisions (decision 54: no longer printed on a last page)."""
     info = publish.credits(selected)
     wikisource = info["wikisource"]
+
+    def link(url):
+        # Each address starts a line of its own and is printed without "https://", so it is never split (a full
+        # \url broke after "https:", 2026-11-12); the link itself keeps the whole address.
+        return rf"\\\href{{{url}}}{{\nolinkurl{{{publish.short_url(url)}}}}}"
+
     return rf"""\newpage
 \vspace*{{\fill}}
 {{\footnotesize\raggedright
@@ -89,14 +95,16 @@ def colophon(selected):
 {tex_escape(info["edited"])}
 
 \medskip
-{tex_escape(info["licence"])} \url{{{info["licence_url"]}}}
+{tex_escape(info["licence"])}
+{link(info["licence_url"])}
 
 \medskip
-{tex_escape(wikisource)} {tex_escape("The Wikisource pages and revisions used are listed at")}
-\url{{{info["wikisource_list_url"]}}}.
+{tex_escape(wikisource)} {tex_escape(info["wikisource_list_lead"])}
+{link(info["wikisource_list_url"])}
 
 \medskip
-{tex_escape("Source files, data and corrections:")} \url{{{info["repository"]}}}
+{tex_escape(info["source_lead"])}
+{link(info["repository"])}
 \par}}
 """
 
