@@ -125,6 +125,23 @@ class Model(unittest.TestCase):
         self.assertEqual(publish.collection(gospels), ("Ēvangelia", "castellio-evangelia"))
         self.assertEqual(publish.collection(gospels[:2])[1], "castellio")
 
+    def test_credit_names_only_the_books_present(self):
+        def credit(*codes):
+            return publish.transcription_credit([publish.Book(books.BY_OSIS[o], o, o, [o]) for o in codes])
+
+        whole, new = credit("Gen", "Exod", "Matt", "Mark", "Rom"), credit("Matt", "Mark", "Rom")
+        self.assertIn("Ēvangelium ipse", credit("Mark", "Rom"))   # one Gospel
+        self.assertIn("Genesis capita 1–35 et Ēvangelia ipse ēditor", whole)
+        self.assertIn("in Genesī atque Ēvangeliīs", whole)
+        self.assertNotIn("Genes", new)                      # the New Testament alone (Nathan, 2026-11-12)
+        self.assertTrue(new.startswith("Ēvangelia ipse ēditor") and "Cētera" in new)
+        self.assertNotIn("Ēvangeli", credit("Gen", "Exod"))
+        self.assertIn("Cētera", credit("Gen"))              # Genesis 36–50
+        self.assertIn("quem textum Vicifontis", credit("Matt", "Mark", "Luke", "John"))
+        self.assertTrue(credit("Rom").startswith("Textus sūmptus est"))
+        for codes in (("Gen",), ("Mark",), ("Rom",), ("Matt", "Rom")):
+            self.assertIn("Vicifontis", credit(*codes))     # Wikisource credited in every selection
+
 
 class Html(unittest.TestCase):
     def test_chapter_html_is_well_formed(self):
