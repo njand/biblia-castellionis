@@ -97,6 +97,7 @@ python -m pipeline propose Mark 6-16 [--rates] # stages 3–5 on an unmarked dra
 python -m pipeline orig Matt 1-28               # stage 2b: Castellio's text as printed (base edition's OCR) → text/orig/draft/MAT.usfm
 python -m pipeline build Matt Mark Luke John --version v1.0   # stage 7: text/ → build/ (site, EPUBs, PDF LaTeX, TXT/TSV/JSON)
 python -m pipeline build Matt --only site --printed-drafts   # the site with the printed-text drafts (text/orig/draft/), for a preview
+python -m pipeline build Matt … --only print [--gutter 0.75in]   # the PDF for binding (wider inside margin, plain links) → build/print/; never on the site or released
 ```
 
 ## Sources at a glance

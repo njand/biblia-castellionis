@@ -322,6 +322,13 @@ def credits(selected, macrons=True):
         # on Wikisource (Vicifons, its Latin name), used under CC BY-SA 4.0. The page-by-page list is linked, not
         # printed, except on the site's colophon.
         "wikisource": transcription_credit(selected) + " Lēctiōnēs omnēs cum ēditiōnibus suprā nōminātīs collātæ sunt.",
+        # The SBL Greek New Testament (CC BY 4.0, whose notice is "Copyright 2010 by the Society of Biblical Literature
+        # and Logos Bible Software"): the footnotes' Greek and the brackets for what modern Greek texts omit (decisions
+        # 52, 53) follow it. Credited wherever the selection holds a New Testament book (2026-11-14).
+        "sblgnt": ("Verba Græca in adnotātiōnibus et uncī quibus notantur quæ ēditiōnēs Græcæ hodiernæ omittunt ex "
+                   "SBL Greek New Testament sūmpta sunt (© 2010 Society of Biblical Literature et Logos Bible "
+                   "Software), quod licentiā CC BY 4.0 dīvulgātur.") if "novum" in testaments else "",
+        "sblgnt_url": "https://github.com/LogosBible/SBLGNT",
         "wikisource_name": "Vicifontis",            # linked to wikisource_url on the site
         "wikisource_url": "https://la.wikisource.org/wiki/Biblia_Sacra_interprete_Sebastiano_Castellione",
         "wikisource_list_lead": list_lead,
@@ -419,6 +426,7 @@ def write_text(selected, folder, stem, title):
         info = credits(selected, macrons)
         return "\n".join(["", "—" * 3, "", info["about"], info["bases"], info["edited"], "", info["licence"],
                           info["licence_url"], "", info["wikisource"], info["wikisource_list"], "",
+                          *([info["sblgnt"], info["sblgnt_url"], ""] if info["sblgnt"] else []),
                           info["source_note"], ""])
 
     def front(macrons):                 # the front matter (text/FRT.usfm), then a rule before the books
@@ -445,8 +453,9 @@ def write_text(selected, folder, stem, title):
 # ---------------------------------------------------------------- everything
 
 def build(names=(), out=None, references=None, sources=None, version="", formats=("site", "epub", "pdf", "txt"),
-          compile_pdf=True, printed_drafts=False):
-    """Generate the selected formats into build/ (or `out`). Returns {format: [paths or messages]}. The site offers
+          compile_pdf=True, printed_drafts=False, gutter=None):
+    """Generate the selected formats into build/ (or `out`); "print" (not built unless asked) is the print edition,
+    with `gutter` as its inside margin. Returns {format: [paths or messages]}. The site offers
     Castellio's text as printed where text/orig/ has it; printed_drafts=True also takes text/orig/draft/ (a preview:
     the drafts are not reviewed)."""
     from pipeline import site
@@ -456,7 +465,7 @@ def build(names=(), out=None, references=None, sources=None, version="", formats
     stamp = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
     made = {}
     for part in parts(selected, title, stem):
-        for kind, items in build_downloads(part, out, formats, version, stamp, compile_pdf).items():
+        for kind, items in build_downloads(part, out, formats, version, stamp, compile_pdf, gutter).items():
             made.setdefault(kind, []).extend(items)
     if "site" in formats:
         # the other formats built with it are offered on the site (build/site/downloads/)
@@ -485,7 +494,7 @@ def parts(selected, title, stem):
         for key in testaments for label, part_title, part_stem in [TESTAMENTS[key]]]
 
 
-def build_downloads(part, out, formats, version, stamp, compile_pdf):
+def build_downloads(part, out, formats, version, stamp, compile_pdf, gutter=None):
     """The EPUBs, PDF and text files of one part: {format: [paths or messages]}."""
     from pipeline import epub, pdf
     _, title, stem, books = part
@@ -498,4 +507,6 @@ def build_downloads(part, out, formats, version, stamp, compile_pdf):
                                    macrons=False)]
     if "pdf" in formats:
         made["pdf"] = pdf.write(books, out / "pdf", stem, title, version, compile_pdf)
+    if "print" in formats:              # the print edition: build/print/, never offered on the site or released
+        made["print"] = pdf.write(books, out / "print", stem, title, version, compile_pdf, gutter or pdf.PRINT_GUTTER)
     return made

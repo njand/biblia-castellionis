@@ -28,7 +28,8 @@
                                 calls made by reading) → data/review/<osis>F-L-chNN.md and text/draft/<USFM>.preview.usfm
   build [BOOK…]                 stage 7: text/*.usfm → build/ (website, EPUB with and without macrons, PDF via generated
                                 LaTeX, TXT/TSV/JSON); every book with a USFM master if none is named. --only FORMAT…,
-                                --parallel KEY,…|none, --sources DIR (for sources/parallel), --version LABEL, --no-compile
+                                --parallel KEY,…|none, --sources DIR (for sources/parallel), --version LABEL, --no-compile;
+                                --only print [--gutter 0.75in]: the PDF for binding → build/print/ (not on the site)
   rules [BOOK…]                 learn spelling rules, Wikisource vs the gold → data/rules/orthography.tsv (proposed),
                                 data/rules/REVIEW.md, data/calibration/wikisource.tsv
 
@@ -249,7 +250,11 @@ def main(argv):
 
     bld = sub.add_parser("build", help="stage 7: every published format from text/*.usfm into build/")
     bld.add_argument("names", nargs="*")
-    bld.add_argument("--only", nargs="+", choices=["site", "epub", "pdf", "txt"], default=["site", "epub", "pdf", "txt"])
+    bld.add_argument("--only", nargs="+", choices=["site", "epub", "pdf", "txt", "print"],
+                     default=["site", "epub", "pdf", "txt"],
+                     help="formats to build (default: all but print). print: the PDF laid out for binding, in "
+                          "build/print/, never offered on the site or released")
+    bld.add_argument("--gutter", help="the print edition's inside margin (default 0.875in, the widest KDP asks for)")
     bld.add_argument("--parallel", default="all",
                      help="texts offered beside the Latin on the website: all (default), none, or keys of site.REFERENCES "
                           "(kjv,bsb,web,orig,lxx,vulgate)")
@@ -279,7 +284,7 @@ def main(argv):
                              (None if args.parallel == "all" else () if args.parallel == "none"
                               else tuple(args.parallel.split(","))),
                              pathlib.Path(args.sources) if args.sources else None, args.version, args.only,
-                             not args.no_compile, args.printed_drafts)
+                             not args.no_compile, args.printed_drafts, args.gutter)
         for kind, items in made.items():
             for item in items:
                 if isinstance(item, pathlib.Path):

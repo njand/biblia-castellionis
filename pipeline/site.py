@@ -1023,6 +1023,9 @@ def colophon_html(selected, used=None):
     fonts = ('<p>Type: Gentium Book (SIL) for the Latin, Greek and English, and Ezra SIL for the Hebrew, both under '
              'the <a href="https://openfontlicense.org">SIL Open Font License 1.1</a>, reduced to the letters used here '
              'and so renamed <i>Castellio Book</i> and <i>Castellio Hebrew</i> as the licence asks.</p>')
+    name = "SBL Greek New Testament"                 # the credit for the footnotes' Greek and the brackets
+    anchor = f'<a href="{info["sblgnt_url"]}">{name}</a>'
+    sblgnt = f'<p>{esc(info["sblgnt"]).replace(name, anchor, 1)}</p>' if info["sblgnt"] else ""
     return f"""<h1>Colophon</h1>
 <div lang="la">
 <p>{esc(info["about"])}</p>
@@ -1030,6 +1033,7 @@ def colophon_html(selected, used=None):
 <p>{esc(info["edited"])}</p>
 <p>{esc(info["licence"])} <a href="{info["licence_url"]}">{info["licence_url"]}</a></p>
 <p>{esc(info["wikisource"]).replace(info["wikisource_name"], f'<a href="{info["wikisource_url"]}">{info["wikisource_name"]}</a>', 1)}</p>
+{sblgnt}
 </div>
 <div lang="en">
 <p>Wikisource pages and revisions used:</p>

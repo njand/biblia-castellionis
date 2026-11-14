@@ -60,6 +60,31 @@ ADDITIONS = r"""
 """
 
 
+# The print edition (2026-11-14): the same book, laid out for binding, written to build/print/ and never offered on
+# the site or attached to a release (those take build/pdf/). A perfect-bound book needs a wider inside margin the
+# thicker it is; the screen PDF keeps the preamble's 0.5in inside, 0.6in outside. KDP's minimum inside margin by
+# page count (its paperback guidelines; other printers' differ, so check the one used):
+GUTTERS = ((150, "0.375in"), (300, "0.5in"), (500, "0.625in"), (700, "0.75in"), (828, "0.875in"))
+PRINT_GUTTER = "0.875in"        # the widest: safe for any page count a paperback allows
+PRINT_OUTER = "0.5in"
+
+
+def print_layout(gutter=PRINT_GUTTER, outer=PRINT_OUTER):
+    """The print edition's additions: the inside margin widened, the layout fixed again to whole lines (the line
+    spacing is already set), and the links unboxed and uncoloured."""
+    return rf"""
+% ---- the print edition (build/print/): margins for binding
+\setlrmarginsandblock{{{gutter}}}{{{outer}}}{{*}}
+\checkandfixthelayout[lines]
+\hypersetup{{hidelinks}}
+"""
+
+
+def gutter_for(pages):
+    """KDP's minimum inside margin for a book of `pages` pages; None past its paperback limit."""
+    return next((gutter for limit, gutter in GUTTERS if pages <= limit), None)
+
+
 def preamble():
     """The preamble (up to any \\begin{document}), with \\input{title.tex} replaced by the file's text."""
     main = MAIN.read_text(encoding="utf-8")
@@ -84,6 +109,7 @@ def colophon(selected):
         # \url broke after "https:", 2026-11-12); the link itself keeps the whole address.
         return rf"\\\href{{{url}}}{{\nolinkurl{{{publish.short_url(url)}}}}}"
 
+    sblgnt = (f"\n\\medskip\n{tex_escape(info['sblgnt'])}\n{link(info['sblgnt_url'])}\n" if info["sblgnt"] else "")
     return rf"""\newpage
 \vspace*{{\fill}}
 {{\footnotesize\raggedright
@@ -102,7 +128,7 @@ def colophon(selected):
 \medskip
 {tex_escape(wikisource)} {tex_escape(info["wikisource_list_lead"])}
 {link(info["wikisource_list_url"])}
-
+{sblgnt}
 \medskip
 {tex_escape(info["source_lead"])}
 {link(info["repository"])}
@@ -116,9 +142,9 @@ def page_name(url):
     return "…/" + url.rsplit("/", 1)[-1].replace("_", " ")
 
 
-def document(selected, title, version):
-    """The whole .tex file."""
-    parts = [preamble(), ADDITIONS, frontmatter.TEX_COMMANDS,
+def document(selected, title, version, gutter=None):
+    """The whole .tex file; with `gutter` (an inside margin, e.g. "0.875in"), the print edition."""
+    parts = [preamble(), ADDITIONS, print_layout(gutter) if gutter else "", frontmatter.TEX_COMMANDS,
              "\\begin{document}\n\\frontmatter\n\n\\begin{titlingpage}\n\\titleM\n",
              "{\\centering"                       # the selection's name, unless it is the title proper again
              + ("" if title == "Biblia Sacra" else f"\\Large {tex_escape(title)}\\par\\medskip")
@@ -180,11 +206,12 @@ def engine(name):
     return []
 
 
-def write(selected, folder, stem, title, version, compile_pdf=True):
-    """Write <stem>.tex; compile it if TeX is installed. Returns [paths and messages]."""
+def write(selected, folder, stem, title, version, compile_pdf=True, gutter=None):
+    """Write <stem>.tex; compile it if TeX is installed. Returns [paths and messages]. `gutter`: the print edition,
+    with that inside margin (build/print/)."""
     folder.mkdir(parents=True, exist_ok=True)
     tex = folder / f"{stem}.tex"
-    tex.write_text(document(selected, title, version), encoding="utf-8", newline="\n")
+    tex.write_text(document(selected, title, version, gutter), encoding="utf-8", newline="\n")
     made = [tex]
     if not compile_pdf:
         return made
@@ -213,4 +240,10 @@ def write(selected, folder, stem, title, version, compile_pdf=True):
     missing = len(re.findall(r"Missing character", log))
     made.append(f"{overfull} overfull lines, {underfull} underfull, {missing} missing characters (from {stem}.log; "
                 f"{pathlib.Path(commands[0][0]).stem})")
+    pages = re.search(r"Output written on .*?\((\d+) pages?", log, re.DOTALL)
+    if gutter and pages:
+        count = int(pages.group(1))
+        needed = gutter_for(count)
+        made.append(f"{count} pages, inside margin {gutter}; KDP asks for at least "
+                    + (f"{needed} (--gutter to change)" if needed else "… nothing: past its 828-page paperback limit"))
     return made

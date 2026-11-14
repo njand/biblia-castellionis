@@ -105,6 +105,7 @@ def colophon_xhtml(selected, filt=lambda text: text, macrons=True):
 <p>{site.esc(info["licence"])}{link(info["licence_url"])}</p>
 <p>{site.esc(info["wikisource"])}</p>
 <p>{site.esc(info["wikisource_list_lead"])}{link(info["wikisource_list_url"])}</p>
+{f'<p>{site.esc(info["sblgnt"])}{link(info["sblgnt_url"])}</p>' if info["sblgnt"] else ""}
 <p>{site.esc(info["source_lead"])}{link(info["repository"])}</p>
 </div>""")
 

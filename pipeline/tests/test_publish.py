@@ -258,12 +258,48 @@ class Latex(unittest.TestCase):
         colophon = document.split("\\begin{titlingpage}", 1)[1].split("\\end{titlingpage}", 1)[0]
         self.assertIn(latex.unicode_to_latex("ipse ēditor annō 2019 trānscrīpsit"), colophon)   # the credit, in Latin
         links = r"\\href\{[^}]*\}\{\\nolinkurl\{[^}]*\}\}|\\url\{[^}]*\}"
-        self.assertNotRegex(re.sub(links, "", colophon),                          # no English (Nathan, 2026-11-12)
+        names = "SBL Greek New Testament|Society of Biblical Literature|Logos Bible Software"  # the licensor's notice
+        self.assertNotRegex(re.sub(names, "", re.sub(links, "", colophon)),       # no English (Nathan, 2026-11-12)
                             r"\b(the|and|of|by|edition|licensed)\b")
         self.assertNotIn("\\Large Biblia Sacra", colophon)            # the title proper not repeated
 
 
+    def test_print_edition_widens_the_gutter_only_when_asked(self):
+        mark = publish.load(["Mark"])
+        screen, printed = pdf.document(mark, "Mārcus", "v0"), pdf.document(mark, "Mārcus", "v0", "0.75in")
+        self.assertNotIn("the print edition", screen)
+        self.assertNotIn("hidelinks", screen)
+        self.assertIn("\\setlrmarginsandblock{0.75in}{0.5in}{*}", printed)
+        self.assertIn("\\hypersetup{hidelinks}", printed)
+        # set after the preamble's own margins, so it wins
+        self.assertGreater(printed.index("{0.75in}"), printed.index("\\setlrmarginsandblock{0.5in}{0.6in}{*}"))
+        self.assertEqual([pdf.gutter_for(n) for n in (100, 300, 301, 828, 900)],
+                         ["0.375in", "0.5in", "0.625in", "0.875in", None])
+
+    def test_sblgnt_credited_with_the_new_testament_only(self):
+        self.assertIn("SBL Greek New Testament", publish.credits(publish.load(["Mark"]))["sblgnt"])
+        self.assertEqual(publish.credits(publish.load(["Gen"]))["sblgnt"], "")
+        colophon = pdf.colophon(publish.load(["Mark"]))
+        self.assertIn("CC BY 4.0", colophon)
+        self.assertIn("github.com/LogosBible/SBLGNT", colophon)
+        self.assertNotIn("SBL Greek", pdf.colophon(publish.load(["Gen"])))
+
+
 class Build(unittest.TestCase):
+    def test_print_edition_kept_apart(self):
+        """build/print/ only when asked, and never among the site's downloads."""
+        with tempfile.TemporaryDirectory() as folder:
+            out = pathlib.Path(folder)
+            made = publish.build(["Jude"], out, references=(), formats=("site", "pdf", "print"), compile_pdf=False,
+                                 gutter="0.625in")
+            tex = next((out / "print").glob("*.tex"))
+            self.assertIn("{0.625in}{0.5in}", tex.read_text(encoding="utf-8"))
+            self.assertNotIn("hidelinks", (out / "pdf" / tex.name).read_text(encoding="utf-8"))
+            self.assertIn("print", made)
+            self.assertFalse(any("print" in str(p) for p in (out / "site").rglob("*")))
+            self.assertNotIn("print", publish.build(["Jude"], out, references=(), formats=("txt",),
+                                                    compile_pdf=False))
+
     def test_build_mark(self):
         with tempfile.TemporaryDirectory() as folder:
             out = pathlib.Path(folder)
