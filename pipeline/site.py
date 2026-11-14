@@ -3,8 +3,9 @@
   index.html                    the books and their chapters
   <slug>/index.html             one book's chapters
   <slug>/<n>.html               a chapter: verse anchors (matthaeus/14.html#3; Pages also serves matthaeus/14#3),
-                                a switch between this edition and Castellio's text as printed (PRINTED; text/orig/,
-                                publish.load_printed), a light/dark switch, and a menu of the parallel texts
+                                a choice under the title between the edited text and Castellio's text as printed
+                                (text_choice; text/orig/, publish.load_printed), the printed text also in the
+                                Parallel menu (PRINTED_REF), a light/dark switch, and a menu of the parallel texts
                                 at hand (REFERENCES; sources/parallel/<key>/), one shown beside the Latin verse by
                                 verse, in the KJV's numbering (parallel.aligned)
   downloads/                    the EPUBs, PDF and text built with the site, listed on index.html#downloads
@@ -26,7 +27,7 @@ import json
 import shutil
 from dataclasses import dataclass
 
-from pipeline import frontmatter, parallel, paths, publish
+from pipeline import frontmatter, orig, parallel, paths, publish
 
 
 @dataclass(frozen=True)
@@ -56,7 +57,11 @@ REFERENCES = [
     Reference("vulgate", "Vulgate", "the Clementine Vulgate", {"vetus": "vulgate", "novum": "vulgate"}),
 ]
 BY_REF = {ref.key: ref for ref in REFERENCES}
-LANG = {"wlc": ("he", "rtl"), "tr": ("grc", "ltr"), "lxx": ("grc", "ltr"), "vulgate": ("la", "ltr")}
+# Castellio's text as printed, offered in the Parallel menu of a chapter that has it (not a REFERENCES text: it is
+# built from text/orig/, and the colophon credits it with the edition).
+PRINTED_REF = Reference("printed", {"novum": "Castellio 1573 (as printed)", "vetus": "Castellio 1738 (as printed)"},
+                        "Castellio's text as printed", {"novum": "printed", "vetus": "printed"})
+LANG = {"printed": ("la", "ltr"), "wlc": ("he", "rtl"), "tr": ("grc", "ltr"), "lxx": ("grc", "ltr"), "vulgate": ("la", "ltr")}
 
 
 def esc(text):
@@ -194,7 +199,15 @@ button, select, input { font: inherit; font-size: 13px; color: var(--fg); backgr
 button, select { cursor: pointer; }
 input[type="search"] { width: 9.5rem; }
 button[aria-pressed="true"], select.on { border-color: var(--accent); color: var(--accent); }
-.printed-note { margin: 0 0 0.6em; font-size: 0.85em; font-style: italic; color: var(--muted); }
+.text-choice { display: flex; justify-content: center; border: 0; margin: -0.6em 0 1.4em; padding: 0; }
+.text-choice label { font-size: 13px; padding: .3em 1em; border: 1px solid var(--rule); background: var(--panel);
+  color: var(--fg); cursor: pointer; font-family: var(--serif); }
+.text-choice label:first-of-type { border-radius: 4px 0 0 4px; }
+.text-choice label:last-of-type { border-radius: 0 4px 4px 0; border-left: 0; }
+.text-choice input:checked + label { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.text-choice input:focus-visible + label { outline: 2px solid var(--accent); outline-offset: 2px; }
+.printed-banner { margin: 0 0 1.2em; padding: .45em .8em; font-size: .85em; color: var(--muted);
+  background: var(--panel); border-left: 3px solid var(--accent); }
 button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--accent);
   outline-offset: 1px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -315,7 +328,8 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
     --bg: #fff; --fg: #000; --muted: #555; --rule: #bbb; --accent: #6b2416; --mark: transparent; color-scheme: light;
   }
   body { font-size: 11.5pt; line-height: 1.45; }
-  header.bar, .pager, footer, #verse-bar, .search form { display: none !important; }
+  header.bar, .pager, footer, #verse-bar, .search form, .text-choice { display: none !important; }
+  .printed-banner a { display: none; }                  /* the banner says what is printed; its links are for the screen */
   main, body[data-ref] main { max-width: none; padding: 0; }
   h1 { margin: 0 0 1em; break-after: avoid; }
   h1 small.caput { display: none; }                   /* in print, as in the PDF, the large numeral names it */
@@ -331,9 +345,9 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
 }
 """.replace("@SHOWN@", "\n".join(f'body[data-ref="{ref.key}"] td.ref[data-r="{ref.key}"] {{ display: table-cell; }}\n'
                                 f'body[data-ref="{ref.key}"] p.ref-note[data-r="{ref.key}"] {{ display: block; }}'
-                                for ref in REFERENCES)).replace(
+                                for ref in REFERENCES + [PRINTED_REF])).replace(
     "@SHOWN_MOBILE@", "\n".join(f'  body[data-ref="{ref.key}"] td.ref[data-r="{ref.key}"] {{ display: block; }}'
-                                for ref in REFERENCES))
+                                for ref in REFERENCES + [PRINTED_REF]))
 
 # Read before the stylesheet applies, so a chosen theme or text size never flashes the default.
 HEAD_SCRIPT = ("<script>try{var t=localStorage.getItem('theme'),s=+localStorage.getItem('size')||0,"
@@ -351,7 +365,9 @@ JS = """(function () {
 
   // ---------------------------------------------------------------- this edition or Castellio's text as printed
   // A chapter with the printed text carries it in two inert templates: the reading view's whole content (with the
-  // same verse ids, so links and selection work in either) and each verse's Latin for the parallel view.
+  // same verse ids, so links and selection work in either) and each verse's Latin for the parallel view. The
+  // choice is the pair of radio buttons under the title (Edition | 1573); the banner over the printed text links
+  // back to the edition.
   var printedReading = document.getElementById('printed-reading');
   var printedVerses = document.getElementById('printed-verses');
   var edition = null;              // the edition's own markup, kept when the printed text is shown
@@ -369,11 +385,18 @@ JS = """(function () {
         if (!(n in edition.cells)) { edition.cells[n] = cell.innerHTML; }
         cell.innerHTML = printed ? span.innerHTML : edition.cells[n];
       });
+      // the printed text beside itself says nothing: the parallel column goes back to none
+      if (printed && select && select.value === 'printed') { store.set('ref', ''); setRef(''); }
     }
     document.body.classList.toggle('printed', printed);
-    var button = document.getElementById('spelling');
-    if (button) { button.setAttribute('aria-pressed', printed ? 'true' : 'false'); }
+    var radio = document.getElementById(printed ? 'text-printed' : 'text-edition');
+    if (radio) { radio.checked = true; }
     if (selection) { show(selection[0], selection[1], false); }
+  }
+  function chooseText(printed) {
+    printedOn = printed;
+    store.set('spelling', printed ? 'printed' : 'edition');
+    setSpelling(printed);
   }
 
   // ---------------------------------------------------------------- theme and text size
@@ -525,9 +548,13 @@ JS = """(function () {
     setRef(ref || '');
     select.addEventListener('change', function () {
       store.set('ref', select.value); setRef(select.value);
+      if (select.value === 'printed' && printedOn) { chooseText(false); }   // the edition beside the printed text
       if (selection) { show(selection[0], selection[1], true); }
     });
   }
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="text"]'), function (radio) {
+    radio.addEventListener('change', function () { if (radio.checked) { chooseText(radio.value === 'printed'); } });
+  });
   if (printedOn) { setSpelling(true); }
   if (/^#\\d+(-\\d+)?$/.test(location.hash) && 'scrollRestoration' in history) { history.scrollRestoration = 'manual'; }
   fromHash(true);
@@ -538,7 +565,8 @@ JS = """(function () {
   document.addEventListener('click', function (event) {
     // the button itself, also when the click lands on text inside it (the theme button's spans)
     var target = (event.target.closest && event.target.closest('button')) || event.target;
-    if (target.id === 'spelling') { printedOn = !printedOn; store.set('spelling', printedOn ? 'printed' : 'edition'); setSpelling(printedOn); }
+    var back = event.target.closest && event.target.closest('a.to-edition');
+    if (back) { event.preventDefault(); chooseText(false); return; }
     if (target.id === 'theme') {
       theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length]; store.set('theme', theme); setTheme(theme);
     }
@@ -634,25 +662,61 @@ JS = """(function () {
 """
 
 
-# The base edition each Testament is printed from (decision 57): its year, and where it was printed, in Latin.
-PRINTED = {"novum": ("1573", "Basileæ"), "vetus": ("1738", "Lipsiæ")}
+# The base edition each Testament is printed from (decision 57): its year and where it was printed, and, for 1573, the
+# page images (MDZ's viewer takes the canvas number; data/orig/<osis>.pages.tsv holds each verse's).
+PRINTED = {"novum": ("1573", "Basel"), "vetus": ("1738", "Leipzig")}
+VIEWER = {"novum": "https://www.digitale-sammlungen.de/en/view/bsb10141277?page={canvas}"}
 
 
-def printed_templates(book, chapter):
-    """Castellio's text as printed for one chapter, in inert <template>s the spelling switch swaps in: the reading
-    view's whole content (the same verse ids), and each verse's Latin for the parallel view."""
+def chapter_pages(book, chapter, pages):
+    """(first canvas, last canvas) of the chapter's verses in the base edition, or None."""
+    found = sorted({int(c) for vid, value in pages.items() if vid.startswith(f"{book.info.osis}.{chapter.number}.")
+                    for c in value.split("–")})
+    return (found[0], found[-1]) if found else None
+
+
+def printed_banner(book, chapter, pages):
+    """The line over the printed text: what it is, the page image (1573), and the way back to the edition."""
     year, place = PRINTED[book.info.testament]
-    note = f'<p class="printed-note">Ut impressum est {place}, {year}.</p>'
+    parts = [f"Castellio’s text as printed, {place} {year}"]
+    span = chapter_pages(book, chapter, pages)
+    viewer = VIEWER.get(book.info.testament)
+    if span and viewer:
+        label = "see the page" if span[0] == span[1] else "see the pages"
+        parts.append(f'<a href="{viewer.format(canvas=span[0])}" target="_blank" rel="noopener" '
+                     f'title="The page images of the {year} edition (MDZ, Munich)">{label}</a>')
+    parts.append('<a href="#" class="to-edition">back to the edited text</a>')
+    return f'<p class="printed-banner">{" · ".join(parts)}</p>'
+
+
+def printed_templates(book, chapter, pages=None):
+    """Castellio's text as printed for one chapter, in inert <template>s the text choice swaps in: the reading
+    view's whole content under its banner (the same verse ids), and each verse's Latin for the parallel view."""
     verses = "".join(f'<span data-v="{number}">{segments_html(segments)}</span>'
                      for number, segments in publish.verse_segments(chapter).items())
-    return [f'<template id="printed-reading">{note}{chapter_html(chapter, str, "c")}</template>',
+    return [f'<template id="printed-reading">{printed_banner(book, chapter, pages or {})}'
+            f'{chapter_html(chapter, str, "c")}</template>',
             f'<template id="printed-verses">{verses}</template>']
 
 
-def spelling_button(book):
+def text_choice(book):
+    """The choice under the chapter's title, both options always in view: this edition, or the text as printed.
+    Native radio buttons: arrow keys move between them, and a screen reader names the group and the choice."""
     year, place = PRINTED[book.info.testament]
-    return (f'<button type="button" id="spelling" aria-pressed="false" title="This edition (normalized spelling, '
-            f'macrons) or Castellio’s text as printed ({place}, {year})">ā / {year}</button>')
+    return ('<fieldset class="text-choice"><legend class="sr">Text</legend>'
+            '<input class="sr" type="radio" name="text" id="text-edition" value="edition" checked="checked"/>'
+            '<label for="text-edition" title="This edition’s text: classical spelling and macrons, modern paragraphs, '
+            'poetry, punctuation and quotation marks, corrections to the printings, KJV verse numbers">Edited text</label>'
+            f'<input class="sr" type="radio" name="text" id="text-printed" value="printed"/>'
+            f'<label for="text-printed" title="Castellio’s text as printed ({place}, {year}): his spelling, '
+            f'punctuation and paragraphs">As printed, {year}</label></fieldset>')
+
+
+def printed_reference(book, chapter):
+    """The printed text as a parallel text (PRINTED_REF), for the Parallel menu: (ref, key, {verse id: text}, {})."""
+    verses = {f"{book.info.osis}.{chapter.number}.{number}": "".join(text for text, _, _ in segments).strip()
+              for number, segments in publish.verse_segments(chapter).items()}
+    return (PRINTED_REF, "printed", verses, {})
 
 
 def page(title, body, root, bar="", tools="", main_class="", description="", data=None):
@@ -848,7 +912,7 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
     (folder / ".nojekyll").write_text("", encoding="utf-8")
     shutil.copytree(FONTS, folder / "fonts")
     references = tuple(references or ())
-    notes, used, loaded = [], {}, {}
+    notes, used, loaded, pages = [], {}, {}, {}
     order = [(book, chapter) for book in selected for chapter in book.chapters]
     for index, (book, chapter) in enumerate(order):
         if book.info.osis not in loaded:
@@ -877,10 +941,14 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
                 chapter_html(chapter, str, "c"), "</div>"]
         tools = ""
         printed_book = (printed or {}).get(book.info.osis)
-        printed_chapter = next((c for c in printed_book.chapters if c.number == chapter.number), None)             if printed_book else None
+        printed_chapter = next((c for c in printed_book.chapters if c.number == chapter.number), None) \
+            if printed_book else None
         if printed_chapter:
-            body += printed_templates(book, printed_chapter)
-            tools += spelling_button(book)
+            if book.info.osis not in pages:
+                pages[book.info.osis] = orig.load_pages(book.info.osis)
+            body.insert(1, text_choice(book))
+            body += printed_templates(book, printed_chapter, pages[book.info.osis])
+            refs = refs + [printed_reference(book, printed_chapter)]
         if refs:
             body += ['<div class="chapter parallel-view">', parallel_html(book, chapter, refs), "</div>"]
             options = "".join(f'<option value="{ref.key}">{esc(ref.menu(book.info.testament))}</option>'

@@ -280,7 +280,7 @@ Ideas Nathan has raised. None is started; each needs a decision on scope before 
    from 1738 (about 93%; 1738's OCR is noisier). The early Gospel chapters (Matthew 1–13, Mark 1–5, Luke 1–13,
    John 1–4) were brought to 1573 by decision 27, so they are built the same way. Still to do: 1738's paragraphs (its
    indents, from the hOCR); the outputs (TXT, EPUB). **The New Testament approved 2026-11-13** (decision 61):
-   `text/orig/<book>.usfm`, shown on the site by the *ā / 1573* switch (item 3).
+   `text/orig/<book>.usfm`, shown on the site by the *Edited text | As printed, 1573* choice (item 3).
 3. **On the site, a switch between Castellio's spelling and the reading edition, replacing the macron switch**
    (Nathan, 2026-11-11). Builds on item 2: the reader toggles each chapter between the normalized text (Gaffiot
    spelling, macrons, modern layout and punctuation) and Castellio's text as printed (item 2's layer), the choice
@@ -289,9 +289,13 @@ Ideas Nathan has raised. None is started; each needs a decision on scope before 
    the switch swaps whole verses (the page carrying both, each verse id'd as now), not words; the verse anchors and
    the parallel view work in either. The printed text keeps its own paragraphs; the PDF stays the reading edition
    only (decision 57). **Built 2026-11-13**: a chapter page carries the printed chapter in two inert `<template>`s
-   (the reading view's content with the same verse ids, and each verse's Latin for the parallel view); the button
-   *ā / 1573* (*ā / 1738* in the Old Testament) swaps them in and out, the choice remembered (`spelling` in local
-   storage), and a note *Ut impressum est Basileæ, 1573.* heads the printed text. The ā / a button is gone. The
+   (the reading view's content with the same verse ids, and each verse's Latin for the parallel view). **Redesigned
+   the same day** (Nathan asked for a better design than the first *ā / 1573* button): a pair of radio buttons under
+   the chapter's title, *Edited text | As printed, 1573* (*1738* in the Old Testament), both always in view, the
+   choice remembered (`spelling` in local storage); over the printed text a banner, *Castellio's text as printed,
+   Basel 1573 · see the page · back to the edited text*, whose page link opens the 1573 page image at MDZ (each
+   verse's canvas in `data/orig/<osis>.pages.tsv`, from `pipeline orig --pages`; 1738 has none yet); and the printed
+   text in the Parallel menu (*Castellio 1573 (as printed)*), beside the edited text verse by verse. The ā / a button is gone. The
    site offers the printed text from `text/orig/` (approved); `build --printed-drafts` also takes `text/orig/draft/`,
    for a preview, so the drafts do not reach the published site before they are approved.
 4. **Rewrite the README.** Make it more useful to a reader and better written: what the edition is and for whom,

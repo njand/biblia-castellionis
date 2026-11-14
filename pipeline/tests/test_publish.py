@@ -169,12 +169,19 @@ class Html(unittest.TestCase):
         and each verse's Latin for the parallel view (decision 57; the spelling switch)."""
         printed = publish.parse("\\c 1\n\\p\n\\v 1 Enumeratio generis Iesu,\n\\p\n\\v 2 Abrahamus genuit Isaacum.\n", MATT)
         book = sample()
-        reading, verses = site.printed_templates(book, printed.chapters[0])
-        self.assertTrue(reading.startswith('<template id="printed-reading"><p class="printed-note">Ut impressum est '
-                                           'Basileæ, 1573.</p>'))
+        reading, verses = site.printed_templates(book, printed.chapters[0], {"Matt.1.1": "749", "Matt.1.2": "749–750"})
+        self.assertTrue(reading.startswith('<template id="printed-reading"><p class="printed-banner">Castellio’s text '
+                                           'as printed, Basel 1573 · <a href="https://www.digitale-sammlungen.de/en/view/'
+                                           'bsb10141277?page=749"'))
+        self.assertIn(">see the pages</a>", reading)                      # the chapter runs over two pages
+        self.assertIn('class="to-edition">back to the edited text</a>', reading)
         self.assertIn('<a class="v" id="2" href="#2">2</a>Abrahamus genuit Isaacum.', reading)
         self.assertIn('<span data-v="1">Enumeratio generis Iesu,</span>', verses)
-        self.assertIn("ā / 1573", site.spelling_button(book))
+        choice = ET.fromstring(site.text_choice(book))                    # well formed, two radio buttons
+        self.assertEqual([i.get("value") for i in choice.findall("input")], ["edition", "printed"])
+        self.assertEqual([l.text for l in choice.findall("label")], ["Edited text", "As printed, 1573"])
+        ref, key, texts, _ = site.printed_reference(book, printed.chapters[0])
+        self.assertEqual((ref.key, texts["Matt.1.2"]), ("printed", "Abrahamus genuit Isaacum."))
 
 
 def open_braces_at_blocks(tex):

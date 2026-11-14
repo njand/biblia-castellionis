@@ -238,6 +238,9 @@ def main(argv):
     org.add_argument("--force", action="store_true",
                      help="build a draft even where text/orig/<book>.usfm is approved (for comparison; the approved "
                           "file and its review are never touched)")
+    org.add_argument("--pages", action="store_true",
+                     help="only record each verse's page (data/orig/<osis>.pages.tsv), for the site's page links; "
+                          "allowed for an approved book")
 
     prp = sub.add_parser("propose", help="stages 3–5 on an unmarked draft, one review item per verse")
     prp.add_argument("name")
@@ -303,6 +306,12 @@ def main(argv):
         first, _, last = args.chapters.partition("-")
         chapters = range(int(first), int(last or first) + 1)
         approved = orig.approved_path(book)
+        if args.pages:
+            witness = orig.base_witness(book.osis)
+            built = orig.build(book.osis, chapters, witness, {})
+            written = orig.write_pages(book, built)
+            print(f"→ {written.relative_to(paths.ROOT).as_posix()}" if written else "no pages for this book (1738 has none)")
+            return 0
         if approved.exists() and not args.force:
             raise SystemExit(f"{approved.relative_to(paths.ROOT).as_posix()} is approved: it is never rewritten by code. "
                              "Add --force for a draft beside it, for comparison.")
@@ -311,6 +320,7 @@ def main(argv):
         target = orig.path(book)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(orig.usfm(book, built, orig.header_lines(book)), encoding="utf-8", newline="\n")
+        orig.write_pages(book, built)
         span = f"{chapters.start}-{chapters.stop - 1}" if len(chapters) > 1 else str(chapters.start)
         review_path = paths.DATA / "review" / f"{book.osis.lower()}{span}-orig{'-draft' if approved.exists() else ''}.md"
         review_path.write_text(orig.report(book, chapters, built, target.relative_to(paths.ROOT).as_posix(),

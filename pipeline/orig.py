@@ -677,6 +677,33 @@ def header_lines(book):
     return lines
 
 
+def pages_path(book):
+    """data/orig/<osis>.pages.tsv: the base edition's page (canvas) of each verse, for the site's links to the page
+    images. Metadata, not the text: rewritten whenever the pages are read again."""
+    return paths.DATA / "orig" / f"{book.osis}.pages.tsv"
+
+
+def write_pages(book, built):
+    """Write the pages file for these chapters, keeping rows of the book's other chapters. Only the NT has canvases
+    (1573's hOCR); 1738's OCR has none, so nothing is written for the OT."""
+    rows = {vid: canvas for c in built.values() for vid, canvas in c.canvas.items() if canvas}
+    if not rows:
+        return None
+    target = pages_path(book)
+    if target.exists():
+        kept = {r["id"]: r["canvas"] for r in tsv.read(target) if tsv.parse_id(r["id"])[1] not in built}
+        rows = {**kept, **rows}
+    target.parent.mkdir(parents=True, exist_ok=True)
+    tsv.write(target, sorted(rows.items(), key=lambda kv: tsv.parse_id(kv[0])), header=("id", "canvas"))
+    return target
+
+
+def load_pages(osis):
+    """{verse id: canvas, e.g. "762" or "762–763"} from data/orig/<osis>.pages.tsv ({} without one)."""
+    path = paths.DATA / "orig" / f"{osis}.pages.tsv"
+    return {r["id"]: r["canvas"] for r in tsv.read(path)} if path.exists() else {}
+
+
 def approved_path(book):
     """The approved printed text: like text/, never rewritten by code once it is there."""
     return paths.ROOT / "text" / "orig" / f"{book.usfm}.usfm"
