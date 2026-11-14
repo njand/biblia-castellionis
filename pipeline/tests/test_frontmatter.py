@@ -82,17 +82,14 @@ class Markers(unittest.TestCase):
 
 
 class Layout(unittest.TestCase):
-    def test_sections_open_pages_but_the_reading_list(self):
+    def test_one_title_then_running_sections(self):
         blocks = frontmatter.load([NOVUM])
         tex = frontmatter.to_tex(blocks)
-        self.assertTrue(tex.startswith("\\IndexTitulus{Præfātiō}"))
-        self.assertIn("\\Praefatio{Notæ}", tex)
-        self.assertIn("\\PraefatioSequens{Librī legendī}", tex)
-        self.assertEqual(tex.count("\\Praefatio{"), 5)
+        self.assertTrue(tex.startswith("\\PraefatioInitium{Præfātiō}"))     # a book's title, one contents entry
+        self.assertEqual(tex.count("\\Praefatio{"), 6)                      # every section runs on
+        self.assertEqual(tex.count("\\clearpage"), 1)                       # only after the last section
         page = frontmatter.to_html(blocks)
-        self.assertIn('<h2 id="ad-lectorem">', page)                 # the first: no rule above it
-        self.assertIn('<h2 id="notae" class="nova">', page)
-        self.assertIn('<h2 id="libri-legendi">', page)
+        self.assertIn('<h2 id="notae">', page)
         self.assertIn('href="praefatio.html#notae"', frontmatter.contents_html(blocks, "praefatio.html"))
 
 

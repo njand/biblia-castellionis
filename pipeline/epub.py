@@ -39,9 +39,9 @@ i.qt { font-style: italic; }
 .title p { text-indent: 0; text-align: center; margin: .4em 0; }
 .colophon p { text-indent: 0; text-align: left; margin: .6em 0; font-size: .85em; }
 .colophon ul { font-size: .85em; }
-.praefatio h1 { font-size: 1.3em; margin: 1.5em 0 1em; }
-.praefatio h1.nova { page-break-before: always; break-before: page; }
-.praefatio h2 { font-size: 1em; font-weight: normal; font-style: italic; text-align: center; margin: 1em 0 .4em; }
+.praefatio h2 { font-size: 1.05em; font-weight: normal; font-variant: small-caps; letter-spacing: .04em;
+  text-align: center; margin: 1.6em 0 .6em; }
+.praefatio h3 { font-size: 1em; font-weight: normal; font-style: italic; text-align: center; margin: 1em 0 .4em; }
 .praefatio p.signature { text-align: right; font-style: italic; text-indent: 0; margin-top: .8em; }
 .praefatio table { border-collapse: collapse; margin: .4em 0; }
 .praefatio td { vertical-align: top; padding: .15em .8em .15em 0; }
@@ -109,10 +109,11 @@ def colophon_xhtml(selected, filt=lambda text: text, macrons=True):
 </div>""")
 
 
-def praefatio_xhtml(blocks):
-    """The front matter (text/FRT.usfm), one file; its headings are h1, as each book's title is."""
-    return xhtml(blocks[0].runs[0][0] if blocks else "Praefatio",
-                 f'<div class="praefatio">\n{frontmatter.to_html(blocks, level=1)}\n</div>')
+def praefatio_xhtml(blocks, filt=lambda text: text):
+    """The front matter (text/FRT.usfm), one file: its name as a book's title (h1), its sections h2."""
+    name = filt(frontmatter.GROUP)
+    return xhtml(name, f'<h1>{site.esc(name)}</h1>\n'
+                       f'<div class="praefatio">\n{frontmatter.to_html(blocks, level=2)}\n</div>')
 
 
 def nav_xhtml(selected, filt, front=()):
@@ -202,7 +203,7 @@ def write(selected, path, title, version, stamp, macrons=True):
     uid = "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL, f"{publish.REPOSITORY}#{path.stem}"))
     contents = {"title.xhtml": title_xhtml(title, version, filt)}
     blocks = frontmatter.load(selected, macrons)
-    contents["praefatio.xhtml"] = praefatio_xhtml(blocks)
+    contents["praefatio.xhtml"] = praefatio_xhtml(blocks, filt)
     front = frontmatter.sections(blocks)
     for index, book in enumerate(selected, 1):
         contents[f"book{index}.xhtml"] = book_xhtml(book, filt)
