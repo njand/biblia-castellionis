@@ -130,6 +130,9 @@ def document(selected, title, version):
              "\\pagestyle{praefatio}\n", frontmatter.to_tex(frontmatter.load(selected)),
              "\\clearpage\n\\pagestyle{plain}\n\n\\mainmatter\n"]
     testaments = {book.info.testament for book in selected}
+    if len(testaments) == 1:     # the books grouped under their testament in the contents, as the front matter is
+        name = "Vetus Fœdus" if testaments == {"vetus"} else "Novum Fœdus"
+        parts.append(f"\\IndexTitulus{{{name}}}\n")
     current = None
     for book in selected:
         if len(testaments) > 1 and book.info.testament != current:

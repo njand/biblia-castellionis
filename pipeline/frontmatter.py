@@ -110,7 +110,22 @@ def html_runs(pieces):
                    for t, italic in pieces)
 
 
+def contents_html(blocks, href="", filt=lambda text: text):
+    """The sections as a row of buttons (the chapter grid's style on the site): the home page and the top of the
+    front matter's own page."""
+    links = "".join(f'<li><a href="{href}#{key}">{html.escape(filt(label), quote=False)}</a></li>'
+                    for label, key in sections(blocks))
+    return f'<ul class="chapters partes">{links}</ul>'
+
+
+def opens_page(blocks, i):
+    """Whether section heading i starts a new page: all but the first, and the reading list, which follows the
+    short table of signs on its page."""
+    return i > 0 and blocks[i - 1].kind != "tr"
+
+
 def to_html(blocks, level=2):
+    """The front matter as HTML; a heading that opens a page in print has class "nova" (a page break in the EPUB)."""
     out, i = [], 0
     while i < len(blocks):
         block = blocks[i]
@@ -128,7 +143,8 @@ def to_html(blocks, level=2):
             continue
         text = html_runs(block.runs)
         if block.kind == "is1":
-            out.append(f'<h{level} id="{block.anchor}">{text}</h{level}>')
+            new = ' class="nova"' if opens_page(blocks, i) else ""
+            out.append(f'<h{level} id="{block.anchor}"{new}>{text}</h{level}>')
         elif block.kind == "is2":
             out.append(f"<h{level + 1}>{text}</h{level + 1}>")
         elif block.kind == "ipr":
@@ -142,16 +158,26 @@ def to_html(blocks, level=2):
 
 # ---------------------------------------------------------------- LaTeX (PDF)
 
+GROUP = "Præfātiō"            # the six sections' name in the contents (Gaffiot: præfātĭō, a preface)
+
 TEX_COMMANDS = r"""
-% The front matter (pipeline/frontmatter.py): one column, page numbers only, each section in the contents.
+% The front matter (pipeline/frontmatter.py), in one column. Each section opens a page, its first page without a
+% running head (as a book's), its title in small caps like a book's on a smaller scale; the signs and the reading
+% list share the last page. The running heads name the section, as the books' give the verses. In the contents, a
+% heading of its own, as each testament has (\IndexTitulus).
 \makepagestyle{praefatio}
-\makeevenhead{praefatio}{\thepage}{}{}
-\makeoddhead{praefatio}{}{}{\thepage}
-\newcommand{\Praefatio}[1]{\par\bigskip\phantomsection\addcontentsline{toc}{chapter}{#1}%
-  {\centering\large\scshape #1\par}\nopagebreak\medskip\noindent\ignorespaces}
-\newcommand{\PraefatioMinor}[1]{\par\medskip{\centering\itshape #1\par}\nopagebreak\smallskip}
-\newcommand{\SubscriptioEditoris}[1]{\par\medskip{\raggedleft\itshape #1\par}}
+\makeevenhead{praefatio}{\thepage\hspace{1em}|\hspace{1em}\textsc{\leftmark}}{}{}
+\makeoddhead{praefatio}{}{}{\textsc{\rightmark}\hspace{0.75em}|\hspace{0.75em}\thepage}
+\newcommand{\PraefatioTitulus}[1]{{\centering\LARGE\scshape #1\par}\nopagebreak\vspace{1.5\baselineskip}}
+\newcommand{\Praefatio}[1]{\clearpage\thispagestyle{empty}\markboth{#1}{#1}\phantomsection
+  \addcontentsline{toc}{chapter}{#1}\vspace*{2\baselineskip}\PraefatioTitulus{#1}\noindent\ignorespaces}
+\newcommand{\PraefatioSequens}[1]{\par\needspace{8\baselineskip}\vspace{2\baselineskip}\markboth{#1}{#1}%
+  \phantomsection\addcontentsline{toc}{chapter}{#1}\PraefatioTitulus{#1}\noindent\ignorespaces}
+\newcommand{\PraefatioMinor}[1]{\par\needspace{4\baselineskip}\medskip{\centering\itshape #1\par}\nopagebreak
+  \smallskip}
+\newcommand{\SubscriptioEditoris}[1]{\par\nopagebreak\medskip{\raggedleft\itshape #1\par}}
 \newcommand{\LiberLegendus}[1]{\par{\noindent\hangindent=1.5em\hangafter=1 #1\par}}
+\newcommand{\IndexTitulus}[1]{\addtocontents{toc}{\begin{center}\Large\bfseries #1\end{center}}}
 """
 
 
@@ -166,7 +192,9 @@ def tex_runs(pieces):
 
 
 def to_tex(blocks):
-    out, i = [], 0
+    """The front matter's LaTeX, ready to follow the contents: its heading in the contents, then the sections, with
+    no widows or orphans and pages not stretched to the foot (\\raggedbottom; the books are \\flushbottom again)."""
+    out, i = [f"\\IndexTitulus{{{tex_text(GROUP)}}}", "\\begingroup\\raggedbottom\\widowpenalty=10000 \\clubpenalty=10000"], 0
     while i < len(blocks):
         block = blocks[i]
         if block.kind == "tr":
@@ -179,7 +207,7 @@ def to_tex(blocks):
             continue
         text = tex_runs(block.runs)
         if block.kind == "is1":
-            out.append(f"\\Praefatio{{{text}}}")
+            out.append(f"\\Praefatio{{{text}}}" if i == 0 or opens_page(blocks, i) else f"\\PraefatioSequens{{{text}}}")
         elif block.kind == "is2":
             out.append(f"\\PraefatioMinor{{{text}}}")
         elif block.kind == "ipr":
@@ -189,6 +217,7 @@ def to_tex(blocks):
         else:
             out.append(text + "\n")
         i += 1
+    out.append("\\clearpage\\endgroup\\flushbottom")
     return "\n".join(out) + "\n"
 
 

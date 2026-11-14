@@ -268,7 +268,10 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
   border-top: 1px solid var(--rule); }
 .colophon p { margin: .6em 0; }
 .colophon ul { padding-left: 1.2em; }
-.praefatio h2 { text-align: center; font-variant: small-caps; font-weight: normal; margin: 2em 0 .8em; }
+.chapters.partes a { min-width: 0; padding: .25em .7em; }
+.praefatio > ul.partes { justify-content: center; margin: 0 0 2.5rem; }
+.praefatio h2 { text-align: center; margin: 2.5rem 0 1rem; }
+.praefatio h2.nova { border-top: 1px solid var(--rule); padding-top: 2rem; }
 .praefatio h3 { text-align: center; font-style: italic; font-weight: normal; margin: 1.2em 0 .4em; }
 .praefatio p { margin: 0; text-indent: 1.2em; }      /* flush left: no soft hyphens here, as the chapters have */
 .praefatio p.first { text-indent: 0; }
@@ -278,7 +281,6 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
 .praefatio table.notae td.signum { white-space: nowrap; }
 .praefatio ul.libri { list-style: none; padding-left: 1.5em; }
 .praefatio ul.libri li { text-indent: -1.5em; margin: .3em 0; }
-p.front { text-align: center; }
 .print-only { display: none; }
 .downloads { border: 1px solid var(--rule); border-radius: 6px; padding: .2rem 1rem .7rem; margin: 1.5rem 0 1rem;
   background: var(--panel); font-size: .9rem; }
@@ -869,19 +871,24 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
     sections = "\n".join(f'<h2><a href="{book.slug}/index.html">{esc(book.long)}</a></h2>\n'
                          f'{chapter_grid(book, book.slug + "/")}' for book in selected)
     edition = f"<br/><small>{esc(version)}</small>" if version else ""
+    # The front matter listed first, as a book is: its name, then its sections as the chapter grid's buttons
     blocks = frontmatter.load(selected)
-    front = " · ".join(f'<a href="praefatio.html#{key}">{esc(label)}</a>' for label, key in frontmatter.sections(blocks))
+    group = esc(frontmatter.GROUP)
+    front = f'<h2><a href="praefatio.html">{group}</a></h2>\n{frontmatter.contents_html(blocks, "praefatio.html")}\n'
     home = (f"<h1>Biblia Sacra<small>ex Sēbastiānī Castelliōnis interpretātiōne</small></h1>\n"
-            f'<p style="text-align:center">{esc(title)}{edition}</p>\n<p class="front">{front}</p>\n'
-            f'{downloads_html(files, parts)}{sections}')
+            f'<p style="text-align:center">{esc(title)}{edition}</p>\n'
+            f'{downloads_html(files, parts)}{front}{sections}')
     (folder / "index.html").write_text(page("Biblia Sacra ex Sebastiani Castellionis interpretatione", home, ""),
                                        encoding="utf-8", newline="\n")
     (folder / "search.html").write_text(page("Quærere · Biblia Sacra (Castellio)", SEARCH, "", " › Quærere"),
                                         encoding="utf-8", newline="\n")
-    first = frontmatter.sections(blocks)[0][0]
+    # Its own page: the name as a book's title, the sections' buttons, the text, and on to the first book
+    first = selected[0]
+    body = (f"<h1>{group}</h1>\n{frontmatter.contents_html(blocks)}\n{frontmatter.to_html(blocks)}\n"
+            f'<nav class="pager"><span></span><a rel="next" href="{first.slug}/index.html">{esc(first.short)} →</a></nav>')
     (folder / "praefatio.html").write_text(
-        page(f"{publish.strip_macrons(first)} · Biblia Sacra (Castellio)", frontmatter.to_html(blocks), "",
-             f" › {esc(first)}", main_class="praefatio"), encoding="utf-8", newline="\n")
+        page(f"{publish.strip_macrons(frontmatter.GROUP)} · Biblia Sacra (Castellio)", body, "", f" › {group}",
+             main_class="praefatio"), encoding="utf-8", newline="\n")
     (folder / "colophon.html").write_text(
         page("Colophon · Biblia Sacra (Castellio)", colophon_html(selected, used), "", " › Colophon",
              main_class="colophon"), encoding="utf-8", newline="\n")

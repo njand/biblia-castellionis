@@ -39,7 +39,8 @@ i.qt { font-style: italic; }
 .title p { text-indent: 0; text-align: center; margin: .4em 0; }
 .colophon p { text-indent: 0; text-align: left; margin: .6em 0; font-size: .85em; }
 .colophon ul { font-size: .85em; }
-.praefatio h1 { font-size: 1.2em; margin: 1.6em 0 .6em; }
+.praefatio h1 { font-size: 1.3em; margin: 1.5em 0 1em; }
+.praefatio h1.nova { page-break-before: always; break-before: page; }
 .praefatio h2 { font-size: 1em; font-weight: normal; font-style: italic; text-align: center; margin: 1em 0 .4em; }
 .praefatio p.signature { text-align: right; font-style: italic; text-indent: 0; margin-top: .8em; }
 .praefatio table { border-collapse: collapse; margin: .4em 0; }
@@ -123,7 +124,7 @@ def nav_xhtml(selected, filt, front=()):
 <h1>Index</h1>
 <ol>
 <li><a href="title.xhtml">{site.esc(filt("Titulus"))}</a></li>
-{"".join(f'<li><a href="praefatio.xhtml#{key}">{site.esc(label)}</a></li>' for label, key in front)}
+{f'<li><a href="praefatio.xhtml">{site.esc(filt(frontmatter.GROUP))}</a><ol>' + "".join(f'<li><a href="praefatio.xhtml#{key}">{site.esc(label)}</a></li>' for label, key in front) + "</ol></li>" if front else ""}
 {chr(10).join(items)}
 <li><a href="colophon.xhtml">{site.esc(filt(publish.credits(selected)["title"]))}</a></li>
 </ol>
@@ -146,8 +147,10 @@ def ncx(selected, uid, title, filt, front=()):
                 f'<content src="{src}"/>{children}</navPoint>')
 
     points.append(point(filt("Titulus"), "title.xhtml"))
-    for label, key in front:
-        points.append(point(label, f"praefatio.xhtml#{key}"))
+    if front:                                           # the sections nested under the front matter's name
+        head = point(filt(frontmatter.GROUP), "praefatio.xhtml")
+        children = "".join(point(label, f"praefatio.xhtml#{key}") for label, key in front)
+        points.append(head.removesuffix("</navPoint>") + children + "</navPoint>")
     for index, book in enumerate(selected, 1):
         label = filt(book.short)
         head = point(label, f"book{index}.xhtml")       # numbered before its chapters, as playOrder requires

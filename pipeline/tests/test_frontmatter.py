@@ -81,6 +81,21 @@ class Markers(unittest.TestCase):
         self.assertIn('<h2 id="notae">Notæ</h2>', frontmatter.to_html(blocks))
 
 
+class Layout(unittest.TestCase):
+    def test_sections_open_pages_but_the_reading_list(self):
+        blocks = frontmatter.load([NOVUM])
+        tex = frontmatter.to_tex(blocks)
+        self.assertTrue(tex.startswith("\\IndexTitulus{Præfātiō}"))
+        self.assertIn("\\Praefatio{Notæ}", tex)
+        self.assertIn("\\PraefatioSequens{Librī legendī}", tex)
+        self.assertEqual(tex.count("\\Praefatio{"), 5)
+        page = frontmatter.to_html(blocks)
+        self.assertIn('<h2 id="ad-lectorem">', page)                 # the first: no rule above it
+        self.assertIn('<h2 id="notae" class="nova">', page)
+        self.assertIn('<h2 id="libri-legendi">', page)
+        self.assertIn('href="praefatio.html#notae"', frontmatter.contents_html(blocks, "praefatio.html"))
+
+
 class Master(unittest.TestCase):
     def test_master_loads_for_every_edition(self):
         for selected in ([VETUS], [NOVUM], [VETUS, NOVUM]):
