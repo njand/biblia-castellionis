@@ -2,6 +2,34 @@
 
 ## Now
 
+- **Castellio's text as printed: the New Testament approved (decision 61), the Old drafted** (2026-11-13, decision 57; now
+  stage 2b of the pipeline, PLAN.md §4). `python -m pipeline orig` builds `text/orig/draft/<book>.usfm` and
+  `data/review/<book><chapters>-orig.md` for all 27 NT books (from 1573) and Genesis and Exodus 1–20 (from 1738).
+  The words are the settled chapters'; the spelling, u/v and i/j, capitals and punctuation are the base edition's,
+  read from its OCR. In the NT, 98.7% of words were read there or take 1573's spelling of the same word elsewhere
+  (only where 1573 spells it one way; decision 58), and 195 were read on the page images
+  (`data/decisions/<book>.orig.tsv`); the other 1.3% are words with one possible spelling the OCR missed, listed in
+  each review file. No NT word is left in doubt. The OT drafts are rougher: 1738's OCR is noisier (8.7% not read,
+  273 words in doubt to be read on 1738's leaves), and 1738 indents its own paragraphs, which are not read yet, so
+  each OT chapter is one paragraph for now.
+  Matthew 14 and 26:19–75 checked against the page images.
+  - **Readings that differ from the settled text by more than spelling**, marked ⚑ in the review files. Possibly
+    slips in the reading edition: **Luke 1:52** *dē foliīs*, where 1573 prints *de solijs* ("from the thrones"; most
+    likely an ſ read as f), Luke 5:39 *potato* (settled *pōtō*), 2 Cor 11:28 *destinent* (*distinent*), Acts 25:9
+    *gratificari* (*grātificāre*), Matt 9:36, 14:14, 18:27, 33, Mark 1:41, 5:19, Luke 10:33 *misertus*
+    (*miseritus*), Matt 27:29 and Mark 16:19 *dexteram* (*dextram*), Matt 24:38 *Noe* (*Nōa*), Mark 3:32
+    *circumsideret*, Matt 16:26 *æquiparet*, 23:6 *accubationes*, 23:23 *decumatis*.
+  - **Applied to the reading edition** (decision 59): Luke 1:52 *soliīs*, 6:49 *sine fundāmentō*, Acts 25:9
+    *grātificārī*, one stem *dextr-* (34 places) and one participle *miseritus* (3 places).
+  - **The printed text follows the page** (decision 58): 1573's misprints stand (John 5:9 *ambulabar*, Acts 16:15
+    *diuerteremus*, Rev 18:21 *sacietur*, Luke 3:7 *summonuit*), and so do its apostrophes and word division
+    (*Is'ne*, *quæ'nam*, *Intelligis'ne*, *plusquam*, *necnon*) and its inconsistencies. A word the OCR missed takes
+    1573's spelling of it elsewhere only where 1573 has one; where it varies (*eis*/*ijs*, *ceterum*/*cæterum*), the
+    word is read on the page.
+  - **On the website** (decision 60): a button *ā / 1573* (*ā / 1738*) on each chapter switches between this edition and the printed text, in the reading and the parallel view, and remembers the choice. Checked in the browser (Matthew 14, Revelation 22, Genesis 1, a phone's width). All 260 NT chapters have it from the approved `text/orig/`; the OT drafts show only with `build --printed-drafts`.
+  - **Your calls**: the accents (*verò*, *quòd*, *à*: dropped for now) and the chapter summaries, for the printed
+    text; the Old Testament drafts when their doubtful words and paragraphs are read.
+
 - **The PDF is now set with LuaLaTeX, the footnotes' Greek in GFS Didot** (2026-11-12): LuaLaTeX lets microtype
   stretch or shrink the letters up to 2% (XeTeX/Tectonic cannot), which evens the spacing of the narrow columns, so
   the cost per hyphen could be raised (300 → 1000). Measured on the whole Bible (`python -m pipeline build --only pdf`):
@@ -370,6 +398,11 @@
 | 54 | 2026-11-12 | **The Wikisource credit**: Genesis 1–35 and the Gospels began as your 2019 transcription; Wikisource's pages (created 2021 by one user, each book in one edit) follow it, sharing six slips of yours no printing has (Gen 4:3, 4:8, 5:22, 9:15, 13:8, 13:15); the other books draw on Wikisource. The list of pages is linked, not printed. |
 | 55 | 2026-11-13 | **The Apocrypha in a section of their own between the Testaments** (as the NRSV and most English Bibles), **in the order Castellio printed them**. The 1573 Bible intersperses most of them in the Old Testament, roughly in the Vulgate's order (Tobit and Judith after Nehemiah, Wisdom and Ecclesiasticus before Isaiah, Baruch by Jeremiah, Susanna in Daniel), with 3–4 Esdras and the Maccabees after Malachi; the section takes them in that sequence (MDZ search; to check page by page, and against 1551, at M7). Still worked on after the 66 books. **The front matter**, in Latin, for every edition (`docs/front-matter.md`, fifth version): first person singular, signed *Nathan Anderson, mēnse Novembrī 2026* (no place; decided 2026-11-13, reversing "no signature"), years in Arabic numerals; for the final edition. |
 | 56 | 2026-11-13 | **Footnotes in the Old Testament too**: decision 53's brief Latin notes extend to places where Castellio's reading departs from the Hebrew as read today, as lightly (`brief.md`); the front matter's *Notæ* already say *ā textū Hebræō aut Græcō*. None written yet. |
+| 57 | 2026-11-13 | **Castellio's text as printed, as a second layer** (PLAN.md §7a items 2–3): the base edition's words (1573 NT, 1738 OT) after stage 2, in its own spelling with the abbreviations expanded (*&* → *et*, *q;* → *-que*, *ã* → *am*/*an*, long s → s; decided 2026-11-11), **u/v and i/j as printed**, **no variants** (1556's readings stay out of it), **the printer's own paragraphs**, no macrons, Gaffiot spelling, modern punctuation or quotation marks. Published as TXT, EPUB and a switch on the site (replacing the ā / a switch); **no PDF**. Not built yet. |
+| 58 | 2026-11-13 | **The printed text follows the page.** For Castellio's text as printed, follow the base edition exactly: no spelling normalized, even where Castellio (or his printer) is inconsistent; misprints, apostrophes (*Is'ne*) and word division (*plusquam*) as printed; s for ſ. A word the OCR missed is read on the page wherever 1573 spells it more than one way; it takes 1573's spelling from elsewhere only where that is the only one. |
+| 59 | 2026-11-13 | **Fixes from the printed text, and two forms unified** (`data/review/printed-text-flags.md`, all accepted, applied; `data/gold/` rebuilt): Luke 1:52 *dē soliīs* and 6:49 *sine fundāmentō* (an ſ read as f; 1573 on the page), Acts 25:9 *grātificārī* (every printing). By Golden Age usage, Cicero first: **one stem *dextr-*** for the right hand (34 places; Cicero *dextr-* 20 : *dexter-* 18, all Golden Age authors 508 : 95, Caesar 59 : 0) and **one participle *miseritus*** (Luke 15:20, Phil 2:27, Exod 2:6 *miserita*; neither form in Golden Age authors, *miseritus* the earlier and Gaffiot's). Both are approved spelling rules now (`orthography.tsv`). The printed text keeps 1573's *dextera* and *misertus* (decision 58). |
+| 60 | 2026-11-13 | **The tithe: *decuma*, *decumō*** (`data/review/decuma.md`, applied): the noun has Golden Age *decum-* 165 (Cicero 158, the Verrines) against *decim-* 8; the verb has no Golden Age example either way and follows its noun (decision 18; Gaffiot *dĕcŭmō*; 1573 *decumatis*). Six places (Luke 18:12, Matt 23:23, Luke 11:42, Heb 7:5, 6, 9); the verb's forms are approved rules (the noun *decimās* is left to review: it could be the ordinal). **The website switches between this edition and Castellio's text as printed** (PLAN.md §7a item 3): *ā / 1573* on every chapter with a printed text, replacing *ā / a*. |
+| 61 | 2026-11-13 | **Castellio's text as printed approved for the New Testament** ("Yes, approve NT"): the 27 drafts moved to `text/orig/<book>.usfm`, their review files marked approved. Like `text/`, `text/orig/` is never rewritten by code (`pipeline orig` refuses an approved book; `--force` writes only a draft beside it). Every NT chapter on the site now has the *ā / 1573* switch. Genesis and Exodus 1–20 stay drafts (273 words to read on 1738's leaves; paragraphs not read). |
 
 ## How to run
 

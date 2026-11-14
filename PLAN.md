@@ -135,6 +135,16 @@ For each word of the base text:
 
 Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7% of words, and much of that is normalization. Genesis runs ~4% (more OCR noise from 1738). That works out to roughly **5–25 real decisions per chapter**, nearly all of them resolved automatically.
 
+**Every page reading records the word as printed.** When Claude reads a page image, at this stage or any other, the evidence quotes the word exactly as the base edition prints it: its spelling, u/v and i/j, ligatures, the punctuation beside it, and any abbreviation (*& editura*, *nũcios*, *septiés ne*). If the printed form is one `pipeline orig` would not produce from the OCR, a row goes into `data/decisions/<osis>.orig.tsv` in the same pass (stage 2b). Then the page never has to be read again to recover Castellio's spelling.
+
+### Stage 2b: Castellio's text as printed (automatic; Claude reads what the OCR cannot)
+Decided 2026-11-13 (HUMAN.md decision 57); a step of every chapter, run as soon as stage 2 has settled its words, before stages 3–5 respell them.
+- `python -m pipeline orig <book> <chapters>` (`pipeline/orig.py`) pairs each word of the chapter with the base edition's OCR (1573 for the NT, 1738 for the OT). Each word takes the OCR's spelling, capitals and punctuation where the OCR is the same word. The builder knows the OCR's misreadings (long s as f, *q;*, the nasal bar, ę, œ read as æ) and the printer's spellings (the approved rules read backwards, `VARIANTS`). A word the OCR missed takes the spelling the base edition gives it elsewhere in the Testament, but only where that is its only spelling; where the base edition spells it more than one way, it is read on the page (`doubt`). **Nothing is normalized** (decision 58): the text follows the page, Castellio's and his printer's inconsistencies, misprints, apostrophes (*Is'ne*) and word division (*plusquam*) included, with s for ſ. Expanded: *&*, *q;*, the nasal bar, long s, ę; kept: u/v, i/j and the printed spellings; dropped for now: accents.
+- It writes `text/orig/draft/<USFM code>.usfm` and `data/review/<osis><chapters>-orig.md`. The review file counts how each word was made, lists the printer's spellings, the words and marks not read in the OCR, and the words read on the page.
+- **Claude reads what is left.** Of the words not read in the OCR, every `doubt` word and two more groups need the page image: spelling-prone words (the approved rules' targets: *exs-*, *-cumque*, *condic-*, *litt-*, *cæl-* …) and near misses where the OCR word is a real Latin word that differs from the settled one (*misertus*, *Noe*, *dexteram*; `python -m pipeline latin macron` tells real words from OCR noise). Each reading becomes a row in `data/decisions/<osis>.orig.tsv` (`id settled printed reason`, with the canvas or leaf). A reading that differs by more than spelling is marked ⚑ in the review file for the reading edition too. Then the draft is rebuilt.
+- **Paragraphs** are the printer's own (decision 57). 1573 starts every verse on a new line, so in the NT each verse is a paragraph. 1738 runs its verses on and indents its paragraphs (Gen 44:3, 44:13, leaf 107). Reading those indents from the 1738 hOCR is still to be built, so an OT draft has one paragraph per chapter until then. The spelling is collected now, and the paragraphs can be added at any time without reading the pages again.
+- When the chapter is approved (stage 6), its printed text is approved with it and moves to `text/orig/<USFM code>.usfm`. Like `text/`, it is never rewritten by code after that.
+
 ### Stage 3: Normalize to Gaffiot 2016 (mostly automatic)
 - **Learn the rules from your finished chapters.** Compare Wikisource with your LaTeX (macrons removed) for all ~62 finished chapters and list every respelling you made: *tentato→temptato*, *concionaretur→contionaretur*, *humeris→umeris*, *conditione→condicione*, *quicquid→quidquid*, *quatuor→quattuor*, *eis→iis*, *trigesimo→tricesimo*, *ejicere→eicere*, splitting and joining (*me cum→mecum*, *septimodecimo→septimo decimo*), capitals (*pater→Pater* for God), and so on.
   - These become `data/rules/orthography.tsv` (`old	new	scope	note`), the fur-fulminis format. The policy behind them goes into `brief.md` § Orthography.
@@ -165,7 +175,7 @@ Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7
   - each has an exact `Apply:` replacement, checked to match exactly once.
 - **Auto-applied changes** are listed at the bottom of the same file ("applied without review"), so they can be audited at any time.
 - **Sampling:** one chapter in ten (chosen at random) is also read in full by you, to measure the error rate of what the pipeline applied automatically. If the rate goes up, the auto-apply thresholds go down.
-- `/approve` applies the decisions, writes the chapter into `text/<book>.usfm`, marks it `settled`, updates the ledger and `HUMAN.md`, and leaves the commit to you.
+- `/approve` applies the decisions, writes the chapter into `text/<book>.usfm`, moves its printed text (stage 2b) into `text/orig/<book>.usfm`, marks it `settled`, updates the ledger and `HUMAN.md`, and leaves the commit to you.
 
 ### Stage 7: Build and check (fully automatic)
 - `python -m pipeline build` generates every output from `text/*.usfm` (§4a) into `build/` (git-ignored).
@@ -261,16 +271,29 @@ Ideas Nathan has raised. None is started; each needs a decision on scope before 
    (1573 NT, 1738 OT) after stage 2 and before stages 3–5, with no macrons, Gaffiot spelling, modern punctuation or
    quotation marks, published as its own outputs (TXT, EPUB, and a switch on the site). **Spelling: Castellio's own,
    with abbreviations expanded** (Nathan, 2026-11-11): *&* → *et*, *q;* → *-que*, *ã* → *am*/*an*, long s → s; the
-   printed spellings (*cœlum*, *caussa*, *quum*) kept. Still to decide: *u/v* and *i/j* as printed or regularized,
-   and whether 1556's readings appear as variants in it.
+   printed spellings (*cœlum*, *caussa*, *quum*) kept; *u/v* and *i/j* as printed; no variants (1556's readings
+   stay out of it); the printer's own paragraphs (Nathan, 2026-11-13, HUMAN.md decision 57). **Begun 2026-11-13**,
+   now stage 2b of the pipeline (§4): `python -m pipeline orig` (`pipeline/orig.py`) builds it from the settled
+   chapters, taking each word's spelling, capitals and punctuation from the base edition's OCR. Drafted the same
+   day for every settled chapter: the whole New Testament from 1573 (about 99% of words read in the OCR or in
+   1573's spelling of the same word elsewhere; the rest from the settled text, listed), and Genesis and Exodus 1–20
+   from 1738 (about 93%; 1738's OCR is noisier). The early Gospel chapters (Matthew 1–13, Mark 1–5, Luke 1–13,
+   John 1–4) were brought to 1573 by decision 27, so they are built the same way. Still to do: 1738's paragraphs (its
+   indents, from the hOCR); the outputs (TXT, EPUB). **The New Testament approved 2026-11-13** (decision 61):
+   `text/orig/<book>.usfm`, shown on the site by the *ā / 1573* switch (item 3).
 3. **On the site, a switch between Castellio's spelling and the reading edition, replacing the macron switch**
    (Nathan, 2026-11-11). Builds on item 2: the reader toggles each chapter between the normalized text (Gaffiot
    spelling, macrons, modern layout and punctuation) and Castellio's text as printed (item 2's layer), the choice
    remembered as the macron switch's is today. The ā / a switch goes; the macron-free text stays in the downloads
    (the *sine macronibus* TXT and EPUB). Since the two texts differ in punctuation and layout, not only spelling,
    the switch swaps whole verses (the page carrying both, each verse id'd as now), not words; the verse anchors and
-   the parallel view work in either. To decide: whether the printed text keeps its own paragraphs or takes the
-   edition's; whether the PDF gets an edition in Castellio's spelling too.
+   the parallel view work in either. The printed text keeps its own paragraphs; the PDF stays the reading edition
+   only (decision 57). **Built 2026-11-13**: a chapter page carries the printed chapter in two inert `<template>`s
+   (the reading view's content with the same verse ids, and each verse's Latin for the parallel view); the button
+   *ā / 1573* (*ā / 1738* in the Old Testament) swaps them in and out, the choice remembered (`spelling` in local
+   storage), and a note *Ut impressum est Basileæ, 1573.* heads the printed text. The ā / a button is gone. The
+   site offers the printed text from `text/orig/` (approved); `build --printed-drafts` also takes `text/orig/draft/`,
+   for a preview, so the drafts do not reach the published site before they are approved.
 4. **Rewrite the README.** Make it more useful to a reader and better written: what the edition is and for whom,
    where to read or download it (the site, the releases), what was changed from the printed editions and why
    (spelling, macrons, layout; drawing on `docs/editions.md`), what is finished, how to cite it and how to report

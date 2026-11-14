@@ -41,8 +41,8 @@ import pathlib
 import re
 import sys
 
-from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, parallel, paths, publish,
-                      review, rules, structure, tsv, verses, versify, wikisource, wordpress)
+from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, orig, parallel, paths,
+                      publish, review, rules, structure, tsv, verses, versify, wikisource, wordpress)
 
 
 def fetch_wikisource(names, refresh):
@@ -232,6 +232,13 @@ def main(argv):
     col.add_argument("chapters", help="e.g. 14-28")
     col.add_argument("--base", default="draft", help="draft (default), settled, wikisource, or a USFM file")
 
+    org = sub.add_parser("orig", help="Castellio's text as printed (1573 spelling) from settled chapters → text/orig/draft/")
+    org.add_argument("name")
+    org.add_argument("chapters", help="e.g. 14-28")
+    org.add_argument("--force", action="store_true",
+                     help="build a draft even where text/orig/<book>.usfm is approved (for comparison; the approved "
+                          "file and its review are never touched)")
+
     prp = sub.add_parser("propose", help="stages 3–5 on an unmarked draft, one review item per verse")
     prp.add_argument("name")
     prp.add_argument("chapters", help="e.g. 6-16")
@@ -247,6 +254,8 @@ def main(argv):
     bld.add_argument("--version", default="", help="edition label printed on the title pages, e.g. v1.0")
     bld.add_argument("--out", help="write here instead of build/")
     bld.add_argument("--no-compile", action="store_true", help="write the LaTeX but do not run TeX")
+    bld.add_argument("--printed-drafts", action="store_true",
+                     help="offer Castellio's text as printed from text/orig/draft/ too (a preview; not reviewed)")
 
     sub.add_parser("latin", help="read-only Latin lookups (see `python -m pipeline latin --help`)")
 
@@ -267,7 +276,7 @@ def main(argv):
                              (None if args.parallel == "all" else () if args.parallel == "none"
                               else tuple(args.parallel.split(","))),
                              pathlib.Path(args.sources) if args.sources else None, args.version, args.only,
-                             not args.no_compile)
+                             not args.no_compile, args.printed_drafts)
         for kind, items in made.items():
             for item in items:
                 if isinstance(item, pathlib.Path):
@@ -289,6 +298,26 @@ def main(argv):
         print(f"→ {path.relative_to(paths.ROOT).as_posix()}")
     elif args.command == "align":
         align_witnesses(args.witnesses, args.books)
+    elif args.command == "orig":
+        book = books.select([args.name])[0]
+        first, _, last = args.chapters.partition("-")
+        chapters = range(int(first), int(last or first) + 1)
+        approved = orig.approved_path(book)
+        if approved.exists() and not args.force:
+            raise SystemExit(f"{approved.relative_to(paths.ROOT).as_posix()} is approved: it is never rewritten by code. "
+                             "Add --force for a draft beside it, for comparison.")
+        witness = orig.base_witness(book.osis)
+        built = orig.build(book.osis, chapters, witness, orig.testament_lexicon(book.testament, witness))
+        target = orig.path(book)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(orig.usfm(book, built, orig.header_lines(book)), encoding="utf-8", newline="\n")
+        span = f"{chapters.start}-{chapters.stop - 1}" if len(chapters) > 1 else str(chapters.start)
+        review_path = paths.DATA / "review" / f"{book.osis.lower()}{span}-orig{'-draft' if approved.exists() else ''}.md"
+        review_path.write_text(orig.report(book, chapters, built, target.relative_to(paths.ROOT).as_posix(),
+                                           datetime.date.today().isoformat()), encoding="utf-8", newline="\n")
+        kinds = collections.Counter(w.kind for c in built.values() for w in c.words)
+        print(", ".join(f"{n} {k}" for k, n in kinds.most_common()))
+        print(f"→ {target.relative_to(paths.ROOT).as_posix()}, {review_path.relative_to(paths.ROOT).as_posix()}")
     elif args.command in ("draft", "collate"):
         book = books.select([args.name])[0]
         first, _, last = args.chapters.partition("-")

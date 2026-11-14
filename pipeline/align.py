@@ -98,6 +98,7 @@ class Chapter:
     marked: dict = field(default_factory=dict)       # {verse id: [words set between L. and G.]}
     pages: dict = field(default_factory=dict)        # {verse id: canvas or page label}, where the witness has them
     spans: dict = field(default_factory=dict)        # {verse id: (first, last) token indices of its row}
+    at: dict = field(default_factory=dict)           # {base word index: (first, last) witness token indices}
 
 
 class Witness:
@@ -162,11 +163,14 @@ def align_chapter(witness, base_rows, chapter):
                     continue
                 paired[i1 + k] = witness.tokens[witness.word_at[start + j1 + k]][0]
                 owner[start + j1 + k] = base[i1 + k][0]
+                position = witness.word_at[start + j1 + k]
+                result.at[i1 + k] = (position, position)
         elif tag == "replace" and "".join(a[i1:i2]) == "".join(b[j1:j2]):
             joined = " ".join(witness.tokens[witness.word_at[start + j]][0] for j in range(j1, j2))
             for k in range(i1, i2):                      # words run together or split in the OCR: same letters
                 paired[k] = joined if k == i1 else ""
                 result.joined.add(k)
+                result.at[k] = (witness.word_at[start + j1], witness.word_at[start + j2 - 1])
             for j in range(j1, j2):
                 owner[start + j] = base[i1][0]
     result.matches = [(vid, w, paired.get(i)) for i, (vid, w) in enumerate(base)]

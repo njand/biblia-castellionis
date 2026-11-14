@@ -61,7 +61,7 @@ def page_words(canvas, source=None):
 
 
 # The OCR reads a capital I before a lower-case letter as l in the commonest names (lesus, lohannes, lacobus).
-CAPITAL_I = re.compile(r"\bl(?=e[sfſ][uv]|oh|acob|sra|ord[ai]|erosol|erusal)")
+CAPITAL_I = re.compile(r"\bl(?=e[sfſ][uv]|oh|acob|sra|ord[ai]|erosol|erusal|ud[æę]|udae|udas?\b|udam\b)")   # ludæi, ludas
 # It reads the nasal bar over a final u or e (horũ, itẽ) as an acute: horú, ité. Castellio's print marks adverbs
 # with a grave (verò, quàm), so a final acute is taken as the bar (align.clean expands ũ → um).
 NASAL = re.compile(r"(?<=\w)[úé](?=\W|$)")

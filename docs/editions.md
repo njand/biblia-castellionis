@@ -370,6 +370,31 @@ Read on the 1573 page images on 2026-11-07 (canvas numbers in `data/review/matt1
 
 In the settled chapters (read on the 1573 page images on 2026-11-07; `data/review/settled-1573.md`): **John 2:18 is revised between 1556 and 1573.** 1556 has *Quod nobis exemplum praebes, qui ista facias?* (OCR; Wikisource the same); 1573 (canvas 815) and 1758, 1747, 1750, 1715 have *Ede nobis aliquod prodigium, quo intelligamus ista tibi licere* (“show us some sign, by which we may know that you may do these things”). Also Castellio's: Matt 4:16 *in tetræ noctis regione* (“in the region of dark night”), Matt 6:4, 6, 18 *qui occulta videt/cernit*, Matt 13:32 *olerum maximum*, Luke 6:12 *pernox orauit*, Luke 9:12 *diuersentur* (“lodge”), where Wikisource has *terrae*, *occulte*, *holus*, *per nox*, *divertantur*.
 
+### How 1573 is set and spelled (Matthew 14–28, seen 2026-11-13)
+
+Seen while building the text as printed (`data/review/matt14-28-orig.md`): on the page images (canvases 762–773) and, where marked, only in the OCR.
+
+- **Setting.** Every verse starts a new line with its number, and there are no other paragraphs. Each chapter opens with an italic summary and a two-line initial (*PEr id tempus*, 14:1).
+- **u/v and i/j.** v starts a word and u stands inside one (*vt*, *vxorem*, *reuixisset*, *Vnde*). i stands for j (*Iesus*, *iureiurando*), and doubled i is printed *ij* (*præterijt*, *filijs*, *exijt*).
+- **Ligatures.** *cœlum* and its family, *fœmina*, *pœna*, *pœnitentia*, *fœditas* take œ, but *cæpit* (“took”, 26:26) takes æ. æ is often printed *ę* (*prębitum*, 14:33).
+- **Spellings.** *quicquid*, *quatuor*, *eis* for *iis*, *sepulchrum*, *intelligo*, *tento*, *herus*, *humerus*, *quotidie*, *quoties*, *adolescens*, *conditio*, *expecto*, *exequor*, *existo*, *extruo*, *millia*, *literæ*, *monimentum*, *nuncius* and *pronuncio*, *precium*, *ocium*, *charissimus*, *connubia*, *quæcunque*, *nunquam*, *duntaxat*. *numus* has one m (*numis* 27:5–6, *numulariorum* 21:12, no bar on the page). Perfects are printed in full (*iuit*, *iuerunt*, *audiuistis*, *quæsiuisset*).
+- **Abbreviations and accents.** *&* and *q;* throughout, and a bar for m or n (*eũ*, *autẽ*, *nũcios*). A grave accent marks adverbs and the conjunction *quòd* (*verò*, *cùm*, *porrò*, *continuò*, *malè*), *à* is the preposition, and *hîc* the adverb.
+- **Forms our settled text has otherwise**: *misertus* (14:14 on the page; 18:27, 33 in the OCR), *æquiparet* (16:26), *congenulans* and *congenulantes* (17:14, 27:29), *accersitum* (18:32), *accubationes* (23:6), *decumatis* (23:23), *Noe* (24:38), *dexteram* (27:29), and *septies ne* as two words (18:21). 1573 also prints *Is'ne* (26:25) and *Nihil'ne* (26:62).
+- **The MDZ OCR** reads œ as æ (*cœlum* four times out of four checked), *ę* as e, the nasal bar as an accent or not at all, and *q;* as *qs*, *ós* or *ą*.
+
+Across the whole New Testament (the same day; 191 words read on the page images, `data/decisions/*.orig.tsv`):
+
+- **Spelling habits, without exception where read**: *ex-* for *exs-* (*expectans*, *executus*, *extruendum*, *exuperamus*, *exerentes*: 13 words), *tent-* for *tempt-* (12), *nunci-* for *nunti-* (10), *intellig-* (6), *charissimus* (Acts 15:25, 3 John 1), *hyems* (1 Cor 16:6, 2 Tim 4:21), *precij*, *lethi*, *Enochus*, *Mathiam* (Acts 1:26), *ceremonijs* (Heb 8:5), *obediendo* (Rom 6:16), *illiteratus* (1 Cor 14:24), *Syluanus* (1 Thess 1:1, set *SYLVAnus*), *Caius* (3 John 1).
+- **Forms the settled text has otherwise**: Luke 1:52 *de solijs* ("from the thrones"; the settled text has *foliīs*, "leaves"), Luke 5:39 *potato vetere*, 2 Cor 11:28 *destinent*, Acts 25:9 *gratificari*, Mark 3:32 *circumsideret*, *misertus* throughout the Gospels, and *dextera* for *dextra* throughout. The first four were checked on the page images (canvases 789, 794, 886, 852).
+- **Word division**: Rom 10:19 *an non*, Mark 2:25 *Nunquam ne*, and *quæ'nam* (Mark 1:27, 1 Thess 2:19) and *Intelligis'ne* (Acts 8:30) with a raised mark.
+- **Misprints**: John 5:9 *ambulabar* (canvas 817), Acts 16:15 *diuerteremus* (845), Rev 18:21 *ſacietur* for *iacietur* (946), Luke 3:7 *summonuit* for *summouit* (792, read twice). The printed text keeps them (decision 58).
+- **Inconsistent within 1573** (a second round of page readings, 86 words): *Iohannes* but Gal 2:9 *Ioannes*; *negotium* but Acts 15:38 *negocium*; *quandiu* (1 Cor 7:39) beside *quamdiu*; *lacrimis* (Luke 7:44) beside *lachrymis*; *Sanctus* and *sanctus* both in *Spiritus Sanctus* (lower case at John 7:39, Acts 11:15); *audiuerunt*, *audiuerant*, *audiuerit* where read, and *audierunt* elsewhere. Where the settled text has *iīs*, all 33 places read have *eis*, though 1573 prints *ijs* elsewhere.
+- **æ, œ and ę**: *cœl-* has œ in every place read (18); *quæ*, *præ-*, *Cæsar*, *Pharisæi* are often set with ę (*quę*, *pręcedam*, *Cęsari*, *Pharisęis*). But *seculum* has a plain e (Eph 2:7, 3:21, Rev 22:5), as has *Noe* (Matt 24:37): there the OCR never reads an æ in the stem, and the printed text takes the e (`check_e_caudata`).
+
+### How 1738 is set (seen 2026-11-13)
+
+1738 (Leipzig, archive.org bibliasacraexseb01cast) sets the text in two columns with the verse numbers in the margins. Verses run on, and a paragraph begins with an indent (Gen 44:3 *Mane diluculo*, 44:13 *Tum vero illi*, leaf 107). It prints *quum*, *eis*, *exsisteret* and *exstitit* (with the s, unlike 1573; Gen 1:3), and the marks *G.* … *H.* (Gen 44:6). Its ABBYY OCR writes the æ ligature out as *ae* (*caelum* for *cælum*, Gen 1:1) and reads long s as f.
+
 ### What the 1573 edition says about itself
 
 Read 2026-11-06 in the BSB copy (MDZ bsb10141277: OCR of canvases 1–24, 740–750 and 961–1026; canvas 8 on the page image).

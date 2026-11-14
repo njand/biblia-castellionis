@@ -3,7 +3,8 @@
   index.html                    the books and their chapters
   <slug>/index.html             one book's chapters
   <slug>/<n>.html               a chapter: verse anchors (matthaeus/14.html#3; Pages also serves matthaeus/14#3),
-                                a switch to hide the macrons, a light/dark switch, and a menu of the parallel texts
+                                a switch between this edition and Castellio's text as printed (PRINTED; text/orig/,
+                                publish.load_printed), a light/dark switch, and a menu of the parallel texts
                                 at hand (REFERENCES; sources/parallel/<key>/), one shown beside the Latin verse by
                                 verse, in the KJV's numbering (parallel.aligned)
   downloads/                    the EPUBs, PDF and text built with the site, listed on index.html#downloads
@@ -193,6 +194,7 @@ button, select, input { font: inherit; font-size: 13px; color: var(--fg); backgr
 button, select { cursor: pointer; }
 input[type="search"] { width: 9.5rem; }
 button[aria-pressed="true"], select.on { border-color: var(--accent); color: var(--accent); }
+.printed-note { margin: 0 0 0.6em; font-size: 0.85em; font-style: italic; color: var(--muted); }
 button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--accent);
   outline-offset: 1px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -347,20 +349,31 @@ JS = """(function () {
   var root = document.documentElement;
   var base = (document.querySelector('script[src$="app.js"]').getAttribute('src') || 'app.js').replace(/app\\.js$/, '');
 
-  // ---------------------------------------------------------------- macrons
-  var originals = new WeakMap();
-  function strip(text) { return text.normalize('NFD').replace(/\\u0304/g, '').normalize('NFC'); }
-  function setMacrons(on) {
-    var main = document.querySelector('main');
-    // the Latin only: normalizing would reorder the Hebrew points
-    var walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, { acceptNode: function (node) {
-      return node.parentElement.closest('.ref') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT; } });
-    for (var node = walker.nextNode(); node; node = walker.nextNode()) {
-      if (!originals.has(node)) { originals.set(node, node.data); }
-      node.data = on ? originals.get(node) : strip(originals.get(node));
+  // ---------------------------------------------------------------- this edition or Castellio's text as printed
+  // A chapter with the printed text carries it in two inert templates: the reading view's whole content (with the
+  // same verse ids, so links and selection work in either) and each verse's Latin for the parallel view.
+  var printedReading = document.getElementById('printed-reading');
+  var printedVerses = document.getElementById('printed-verses');
+  var edition = null;              // the edition's own markup, kept when the printed text is shown
+  function setSpelling(printed) {
+    var view = document.querySelector('.reading-view');
+    if (!printedReading || !view) { return; }
+    if (!edition) { edition = { reading: view.innerHTML, cells: {} }; }
+    view.innerHTML = printed ? printedReading.innerHTML : edition.reading;
+    if (printedVerses) {
+      Array.prototype.forEach.call(printedVerses.content.querySelectorAll('[data-v]'), function (span) {
+        var n = span.getAttribute('data-v');
+        var row = document.getElementById('p' + n);
+        var cell = row && row.querySelector('td.la');
+        if (!cell) { return; }
+        if (!(n in edition.cells)) { edition.cells[n] = cell.innerHTML; }
+        cell.innerHTML = printed ? span.innerHTML : edition.cells[n];
+      });
     }
-    var button = document.getElementById('macrons');
-    if (button) { button.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+    document.body.classList.toggle('printed', printed);
+    var button = document.getElementById('spelling');
+    if (button) { button.setAttribute('aria-pressed', printed ? 'true' : 'false'); }
+    if (selection) { show(selection[0], selection[1], false); }
   }
 
   // ---------------------------------------------------------------- theme and text size
@@ -501,10 +514,9 @@ JS = """(function () {
   }
 
   // ---------------------------------------------------------------- start
-  var macrons = store.get('macrons') !== 'off';
+  var printedOn = store.get('spelling') === 'printed';
   var theme = store.get('theme') || 'auto';
   if (THEMES.indexOf(theme) < 0) { theme = 'auto'; }
-  if (!macrons) { setMacrons(false); }
   setTheme(theme);
   setSize(size);
   if (select) {
@@ -516,6 +528,7 @@ JS = """(function () {
       if (selection) { show(selection[0], selection[1], true); }
     });
   }
+  if (printedOn) { setSpelling(true); }
   if (/^#\\d+(-\\d+)?$/.test(location.hash) && 'scrollRestoration' in history) { history.scrollRestoration = 'manual'; }
   fromHash(true);
   // again once the fonts and the page have settled, which moves the lines
@@ -525,7 +538,7 @@ JS = """(function () {
   document.addEventListener('click', function (event) {
     // the button itself, also when the click lands on text inside it (the theme button's spans)
     var target = (event.target.closest && event.target.closest('button')) || event.target;
-    if (target.id === 'macrons') { macrons = !macrons; store.set('macrons', macrons ? 'on' : 'off'); setMacrons(macrons); }
+    if (target.id === 'spelling') { printedOn = !printedOn; store.set('spelling', printedOn ? 'printed' : 'edition'); setSpelling(printedOn); }
     if (target.id === 'theme') {
       theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length]; store.set('theme', theme); setTheme(theme);
     }
@@ -612,7 +625,6 @@ JS = """(function () {
         });
         results.innerHTML = '<p class="count">' + found.length + (found.length === 1 ? ' verse' : ' verses') +
           (found.length > 300 ? ' (the first 300 shown)' : '') + '</p><ol>' + shown.join('') + '</ol>';
-        if (!macrons) { setMacrons(false); }
       }, function () {
         results.innerHTML = '<p class="count">The search index could not be loaded (it needs the site served over http).</p>';
       });
@@ -620,6 +632,27 @@ JS = """(function () {
   }
 })();
 """
+
+
+# The base edition each Testament is printed from (decision 57): its year, and where it was printed, in Latin.
+PRINTED = {"novum": ("1573", "Basileæ"), "vetus": ("1738", "Lipsiæ")}
+
+
+def printed_templates(book, chapter):
+    """Castellio's text as printed for one chapter, in inert <template>s the spelling switch swaps in: the reading
+    view's whole content (the same verse ids), and each verse's Latin for the parallel view."""
+    year, place = PRINTED[book.info.testament]
+    note = f'<p class="printed-note">Ut impressum est {place}, {year}.</p>'
+    verses = "".join(f'<span data-v="{number}">{segments_html(segments)}</span>'
+                     for number, segments in publish.verse_segments(chapter).items())
+    return [f'<template id="printed-reading">{note}{chapter_html(chapter, str, "c")}</template>',
+            f'<template id="printed-verses">{verses}</template>']
+
+
+def spelling_button(book):
+    year, place = PRINTED[book.info.testament]
+    return (f'<button type="button" id="spelling" aria-pressed="false" title="This edition (normalized spelling, '
+            f'macrons) or Castellio’s text as printed ({place}, {year})">ā / {year}</button>')
 
 
 def page(title, body, root, bar="", tools="", main_class="", description="", data=None):
@@ -643,7 +676,7 @@ def page(title, body, root, bar="", tools="", main_class="", description="", dat
 <link rel="stylesheet" href="{root}style.css"/>
 </head>
 <body{attrs}>
-<header class="bar"><nav><a href="{root}index.html">Biblia Sacra</a>{bar}</nav>{jump}<div class="tools">{tools}<button type="button" id="smaller" title="Smaller text" aria-label="Smaller text">A−</button><button type="button" id="larger" title="Larger text" aria-label="Larger text">A+</button><button type="button" id="macrons" aria-pressed="true" title="Macrons on or off">ā / a</button><button type="button" id="theme" title="Colours">◐ Auto</button></div></header>
+<header class="bar"><nav><a href="{root}index.html">Biblia Sacra</a>{bar}</nav>{jump}<div class="tools">{tools}<button type="button" id="smaller" title="Smaller text" aria-label="Smaller text">A−</button><button type="button" id="larger" title="Larger text" aria-label="Larger text">A+</button><button type="button" id="theme" title="Colours">◐ Auto</button></div></header>
 <main class="{main_class}">
 {body}
 </main>
@@ -792,10 +825,11 @@ def downloads_html(files, parts=((None, None),)):
 
 
 def write(selected, folder, title, version, references=tuple(BY_REF), sources=None, downloads=(),
-          parts=((None, None),)):
+          parts=((None, None),), printed=None):
     """Write the site; returns [folder, messages…]. `references` are the keys of REFERENCES to offer;
     `downloads` the files built with it (EPUB, PDF, text), copied to downloads/ and listed on the home page, by
-    `parts` ([(label, file stem)], as downloads_html)."""
+    `parts` ([(label, file stem)], as downloads_html); `printed` the books of Castellio's text as printed
+    ({osis: publish.Book}, publish.load_printed), offered on each chapter that has them by a switch."""
     global HAS_DOWNLOADS
     if folder.exists():
         shutil.rmtree(folder)
@@ -842,11 +876,16 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
                 '<div class="chapter reading-view">',
                 chapter_html(chapter, str, "c"), "</div>"]
         tools = ""
+        printed_book = (printed or {}).get(book.info.osis)
+        printed_chapter = next((c for c in printed_book.chapters if c.number == chapter.number), None)             if printed_book else None
+        if printed_chapter:
+            body += printed_templates(book, printed_chapter)
+            tools += spelling_button(book)
         if refs:
             body += ['<div class="chapter parallel-view">', parallel_html(book, chapter, refs), "</div>"]
             options = "".join(f'<option value="{ref.key}">{esc(ref.menu(book.info.testament))}</option>'
                               for ref, *_ in refs)
-            tools = (f'<span class="parallel-choice"><label for="ref">Parallel:</label>'
+            tools += (f'<span class="parallel-choice"><label for="ref">Parallel:</label>'
                      f'<select id="ref" title="A text shown beside this one, verse by verse">'
                      f'<option value="">None</option>{options}</select></span>')
         body.append(f'<nav class="pager">{"".join(pager)}</nav>')

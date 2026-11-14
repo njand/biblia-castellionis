@@ -164,6 +164,18 @@ class Html(unittest.TestCase):
         self.assertIn('<a class="v" id="2" href="#2">2</a>Abrahamus', markup)
         self.assertNotIn("ā", markup)
 
+    def test_printed_text_templates(self):
+        """Castellio's text as printed travels in inert templates: the reading view with the edition's verse ids,
+        and each verse's Latin for the parallel view (decision 57; the spelling switch)."""
+        printed = publish.parse("\\c 1\n\\p\n\\v 1 Enumeratio generis Iesu,\n\\p\n\\v 2 Abrahamus genuit Isaacum.\n", MATT)
+        book = sample()
+        reading, verses = site.printed_templates(book, printed.chapters[0])
+        self.assertTrue(reading.startswith('<template id="printed-reading"><p class="printed-note">Ut impressum est '
+                                           'Basileæ, 1573.</p>'))
+        self.assertIn('<a class="v" id="2" href="#2">2</a>Abrahamus genuit Isaacum.', reading)
+        self.assertIn('<span data-v="1">Enumeratio generis Iesu,</span>', verses)
+        self.assertIn("ā / 1573", site.spelling_button(book))
+
 
 def open_braces_at_blocks(tex):
     """[line numbers] where a paragraph break or a verse environment begins or ends inside an open {…}."""

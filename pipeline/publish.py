@@ -178,6 +178,21 @@ def load(names=()):
     return out
 
 
+def load_printed(selected, drafts=False):
+    """{osis: Book} of Castellio's text as printed (decision 57) for the selected books: text/orig/<USFM>.usfm, the
+    approved layer; with drafts=True, text/orig/draft/<USFM>.usfm where no approved file exists (for a preview: the
+    drafts are not reviewed)."""
+    out = {}
+    for book in selected:
+        info = book.info
+        path = paths.ROOT / "text" / "orig" / f"{info.usfm}.usfm"
+        if not path.exists() and drafts:
+            path = paths.ROOT / "text" / "orig" / "draft" / f"{info.usfm}.usfm"
+        if path.exists():
+            out[info.osis] = parse(path.read_text(encoding="utf-8"), info)
+    return out
+
+
 def verse_segments(chapter):
     """{verse: [(text, italic, line_break_before)]} for one chapter; the pieces join with "" (a piece that opens a
     new paragraph or line of a verse begins with a space). Verse 0 is the summary (or psalm title)."""
@@ -430,8 +445,10 @@ def write_text(selected, folder, stem, title):
 # ---------------------------------------------------------------- everything
 
 def build(names=(), out=None, references=None, sources=None, version="", formats=("site", "epub", "pdf", "txt"),
-          compile_pdf=True):
-    """Generate the selected formats into build/ (or `out`). Returns {format: [paths or messages]}."""
+          compile_pdf=True, printed_drafts=False):
+    """Generate the selected formats into build/ (or `out`). Returns {format: [paths or messages]}. The site offers
+    Castellio's text as printed where text/orig/ has it; printed_drafts=True also takes text/orig/draft/ (a preview:
+    the drafts are not reviewed)."""
     from pipeline import site
     out = out or BUILD
     selected = load(names)
@@ -448,7 +465,8 @@ def build(names=(), out=None, references=None, sources=None, version="", formats
                  and item.exists()]
         made["site"] = site.write(selected, out / "site", title, version,
                                    tuple(site.BY_REF) if references is None else references, sources, files,
-                                   [(label, part_stem) for label, _, part_stem, _ in parts(selected, title, stem)])
+                                   [(label, part_stem) for label, _, part_stem, _ in parts(selected, title, stem)],
+                                   load_printed(selected, printed_drafts))
     return made
 
 

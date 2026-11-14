@@ -20,10 +20,18 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 - **Wikisource text is CC BY-SA 4.0.** Keep `data/witnesses/wikisource/MANIFEST.tsv` (page and revision) current;
   the edition must credit Wikisource, for the books it supplied (decision 54: Genesis 1–35 and the Gospels began
   as Nathan's 2019 transcription, which Wikisource's pages of 2021 follow; the page list is linked, not printed).
+- **Collect Castellio's printed text as you go** (decision 57; PLAN.md §4, stage 2b). Whenever you read a page
+  image, quote the word exactly as the base edition prints it (spelling, u/v, i/j, ligatures, the punctuation
+  beside it), and when `pipeline orig` would not give that form, add a row to `data/decisions/<osis>.orig.tsv` in the
+  same pass. As soon as a chapter's stage 2 is done, run `python -m pipeline orig` for it, read the spelling-prone
+  and near-miss words on the page, and keep the draft in review beside the chapter's own. Never leave the printed
+  spelling to be recovered later. The printed text follows the page exactly (decision 58): never normalize it, not even
+  Castellio's inconsistencies or his printer's misprints; s for ſ.
 - **The fur-fulminis databases are read-only**, reached only through `python -m pipeline latin …`.
-- **Run the humanizer skill on English prose for readers** (README, `docs/editions.md`, `RELEASE.md`, front
-  matter, commit messages) before finishing it. Never run it on the Latin text, the USFM, `data/review/` Apply
-  lines, or quoted sources.
+- **Run the humanizer skill only on outward-facing English prose**: what gets published or read outside the
+  project (README, `RELEASE.md`, front matter, commit messages, original writing to be published). Never on
+  internal documentation (`docs/editions.md`, `PLAN.md`, `HUMAN.md`, `data/review/`, code comments), the Latin
+  text, the USFM, or quoted sources.
 - Commit only when Nathan asks.
 
 ## Layout
@@ -34,6 +42,8 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 | `text/FRT.usfm` | The Latin front matter (Ad lēctōrem, life, translation, method, signs, reading list), in USFM's introduction markers with `\z…` edition conditions; built into every format by `pipeline/frontmatter.py`. Reviewed in `docs/front-matter.md` |
 | `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (Wikisource via `pipeline draft`; none at present; a draft in review has its `.preview.usfm` beside it); not settled. Once approved, a draft's chapters move into `text/<USFM code>.usfm` and the draft file goes (Matthew 14–28 settled 2026-11-07, Mark 6–16, Luke 14–24, John 5–21 and Genesis 28–50 2026-11-08, Romans 1–16, Acts 1–28 and Exodus 1–20 2026-11-09, 1 Corinthians 1–16 and 2 Corinthians 1–13 2026-11-10, Galatians, Ephesians, Philippians, Colossians, 1–2 Thessalonians, 1–2 Timothy, Titus and Philemon 2026-11-11, Hebrews, James, 1 Peter–Jude and Revelation 2026-11-12) |
 | `data/review/*.md` | Proposals with exact **Apply** lines and **Decision** lines; applied by `python -m pipeline review apply` |
+| `text/orig/<USFM code>.usfm` | **Castellio's text as printed, approved** (decisions 57, 58, 61): the settled words as the base edition prints them (1573 for the NT: spelling, u/v and i/j, capitals, punctuation, misprints and word division as printed, s for ſ; one paragraph per verse). All 27 NT books approved 2026-11-13. Never rewritten by code, like `text/`; the site's *ā / 1573* switch reads it |
+| `text/orig/draft/<USFM code>.usfm` | Printed-text drafts in review (stage 2b), built by `pipeline orig` (`pipeline/orig.py`) with `data/review/<osis><chapters>-orig.md`: at present Genesis and Exodus 1–20 from 1738 (paragraphs not read yet). On approval a draft moves to `text/orig/`. `data/decisions/<osis>.orig.tsv` holds the words read on the page images (`id settled printed reason`; printed `+` joins a word to the one before) |
 | `data/decisions/<osis>.layout.tsv`, `.forms.tsv` | Calls made by reading a verse, for `pipeline propose`: its quotation marks, `\qt`, poetry, paragraphs, capitals and punctuation over the draft's own words (`marks` `=` keeps the draft's, `-` none), and macrons decided in context, each with its reason |
 | `data/rules/orthography.tsv` | Spelling rules (`old new scope status note`); only `approved` rows are applied. `REVIEW.md` beside it is the latest proposal for Nathan; `distinct.tsv` lists look-alike words decided to be different |
 | `data/witnesses/ocr-<year>/<osis>.tsv` | OCR witnesses aligned to verse ids (`python -m pipeline align`): 1573 (MDZ hOCR, `pipeline/mdz.py`), 1681, 1715, 1726 (= `TXT/1`), 1738, 1747, 1750, 1758; flags `partial`/`missing`, `L…G: words` (Castellio's L. … G. marks), `canvas N` (1573) |
@@ -84,7 +94,9 @@ python -m pipeline review check|apply FILE… [--write] [--items N…] [--all] [
 python -m pipeline draft Mark 6-16            # stage 1: Wikisource → text/draft/MRK.usfm (never overwrites)
 python -m pipeline collate Matt 14-28 [--base draft|settled|wikisource|FILE]   # stage 2 → data/calibration/<osis><CH>-collation.tsv
 python -m pipeline propose Mark 6-16 [--rates] # stages 3–5 on an unmarked draft: one review item per verse → data/review/mark6-16-chNN.md + text/draft/MRK.preview.usfm
+python -m pipeline orig Matt 1-28               # stage 2b: Castellio's text as printed (base edition's OCR) → text/orig/draft/MAT.usfm
 python -m pipeline build Matt Mark Luke John --version v1.0   # stage 7: text/ → build/ (site, EPUBs, PDF LaTeX, TXT/TSV/JSON)
+python -m pipeline build Matt --only site --printed-drafts   # the site with the printed-text drafts (text/orig/draft/), for a preview
 ```
 
 ## Sources at a glance
