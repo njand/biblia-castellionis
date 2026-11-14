@@ -273,7 +273,7 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
 .praefatio h2 { text-align: center; margin: 2.5rem 0 1rem; }
 .praefatio h2.nova { border-top: 1px solid var(--rule); padding-top: 2rem; }
 .praefatio h3 { text-align: center; font-style: italic; font-weight: normal; margin: 1.2em 0 .4em; }
-.praefatio p { margin: 0; text-indent: 1.2em; }      /* flush left: no soft hyphens here, as the chapters have */
+.praefatio p { margin: 0; text-indent: 1.2em; text-align: justify; hyphens: manual; }   /* as .chapter p */
 .praefatio p.first { text-indent: 0; }
 .praefatio p.signature { text-align: right; font-style: italic; text-indent: 0; margin-top: 1em; }
 .praefatio table.notae { border-collapse: collapse; margin: .5em 0; }
