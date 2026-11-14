@@ -93,6 +93,28 @@ class Layout(unittest.TestCase):
         self.assertIn('href="praefatio.html#notae"', frontmatter.contents_html(blocks, "praefatio.html"))
 
 
+class Reruns(unittest.TestCase):
+    def test_tex_runs_until_the_contents_settle(self):
+        """The first run's contents are empty and shorter; the roman page numbers settle only on the third run."""
+        from unittest import mock
+        from pipeline import pdf
+        tocs = iter(["", "ii", "iii", "iii", "iii"])
+        calls = []
+
+        def fake_run(command, cwd, **_):
+            calls.append(command)
+            (pathlib.Path(cwd) / "x.toc").write_text(next(tocs), encoding="utf-8")
+            (pathlib.Path(cwd) / "x.log").write_text("", encoding="utf-8")
+            return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+        with tempfile.TemporaryDirectory() as folder, \
+                mock.patch.object(pdf, "engine", lambda name: [["lualatex", name]] * 2), \
+                mock.patch.object(pdf, "document", lambda *a: ""), \
+                mock.patch.object(pdf.subprocess, "run", fake_run):
+            pdf.write([], pathlib.Path(folder), "x", "Biblia Sacra", "")
+        self.assertEqual(len(calls), 4)       # "", "ii", "iii", "iii": stops once two runs agree
+
+
 class Master(unittest.TestCase):
     def test_master_loads_for_every_edition(self):
         for selected in ([VETUS], [NOVUM], [VETUS, NOVUM]):

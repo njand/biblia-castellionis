@@ -191,12 +191,21 @@ def write(selected, folder, stem, title, version, compile_pdf=True):
     commands = engine(tex.name)
     if not commands:
         return made + ["no TeX install found (lualatex, tectonic or pdflatex): the LaTeX is written, the PDF is not"]
-    for command in commands:
+    # Run again until the contents settle (at most four runs): the first run's contents are empty, so its page is
+    # shorter, and the front matter's roman page numbers would stay one short (found 2026-11-13: "ii" for "iii").
+    toc, previous, runs = folder / f"{stem}.toc", None, 0
+    while commands:
+        command = commands[0] if runs < len(commands) else commands[-1]
         result = subprocess.run(command, cwd=folder, capture_output=True, text=True, encoding="utf-8",
                                 errors="replace")
+        runs += 1
         if result.returncode:
             return made + [f"TeX failed (exit {result.returncode}); see {folder / (stem + '.log')}\n"
                            + tex_errors(folder / f"{stem}.log", result.stdout + result.stderr)]
+        current = toc.read_text(encoding="utf-8", errors="replace") if toc.exists() else None
+        if (runs >= len(commands) and current == previous) or runs >= 4 or len(commands) == 1 and runs == 1:
+            break
+        previous = current
     made.append(folder / f"{stem}.pdf")
     log = (folder / f"{stem}.log").read_text(encoding="utf-8", errors="replace")
     overfull = len(re.findall(r"^Overfull \\hbox", log, re.MULTILINE))

@@ -156,17 +156,18 @@ GROUP = "Præfātiō"            # the front matter's name, as a book's title (G
 TEX_COMMANDS = r"""
 % The front matter (pipeline/frontmatter.py), set as a book is: its name at the head of its first page in the
 % books' own title (\LiberTitulus), that page without a running head, one entry in the contents. The sections run
-% on as a book's chapters do, each under a centred heading in small caps; a heading never stands at the foot of a
-% page (\needspace). The running heads name the section, as the books' give the verses.
+% on as a book's chapters do, each under a centred heading in small caps, with nothing held back for them: a
+% heading is kept with its paragraph's first two lines (\nopagebreak, \clubpenalty), and the signature with the
+% paragraph before it. The running heads give the front matter's name on every page (Nathan, 2026-11-13).
+\newcommand{\PraefatioNomen}{}
 \makepagestyle{praefatio}
-\makeevenhead{praefatio}{\thepage\hspace{1em}|\hspace{1em}\textsc{\leftmark}}{}{}
-\makeoddhead{praefatio}{}{}{\textsc{\rightmark}\hspace{0.75em}|\hspace{0.75em}\thepage}
+\makeevenhead{praefatio}{\thepage\hspace{1em}|\hspace{1em}\textsc{\PraefatioNomen}}{}{}
+\makeoddhead{praefatio}{}{}{\textsc{\PraefatioNomen}\hspace{0.75em}|\hspace{0.75em}\thepage}
 \newcommand{\PraefatioInitium}[1]{\clearpage\thispagestyle{empty}\phantomsection\addcontentsline{toc}{chapter}{#1}%
-  \renewcommand{\libernamelong}{#1}\LiberTitulus}
-\newcommand{\Praefatio}[1]{\par\needspace{6\baselineskip}\vspace{1.25\baselineskip}\markboth{#1}{#1}%
+  \renewcommand{\PraefatioNomen}{#1}\renewcommand{\libernamelong}{#1}\LiberTitulus}
+\newcommand{\Praefatio}[1]{\par\vspace{1.25\baselineskip}%
   {\centering\large\scshape #1\par}\nopagebreak\vspace{.6\baselineskip}\noindent\ignorespaces}
-\newcommand{\PraefatioMinor}[1]{\par\needspace{4\baselineskip}\medskip{\centering\itshape #1\par}\nopagebreak
-  \smallskip}
+\newcommand{\PraefatioMinor}[1]{\par\medskip{\centering\itshape #1\par}\nopagebreak\smallskip}
 \newcommand{\SubscriptioEditoris}[1]{\par\nopagebreak\medskip{\raggedleft\itshape #1\par}}
 \newcommand{\LiberLegendus}[1]{\par{\noindent\hangindent=1.5em\hangafter=1 #1\par}}
 \newcommand{\IndexTitulus}[1]{\addtocontents{toc}{\begin{center}\Large\bfseries #1\end{center}}}
