@@ -153,3 +153,23 @@ image, as printed), so stage 2b needs no OCR alignment, only: the read lines joi
 written to `text/orig/draft/EXO.usfm` beside 1–30 (`orig.merge_usfm`). That needs a small function (an `orig`
 route from read lines, or `ocrdraft` writing the orig USFM); not written here, since `pipeline/orig.py` is being
 edited in another session.
+
+## Corrections for the reading edition, found in stages 3–5 (4)
+
+**Decision:** accept (Claude, under the standing rule of decision 30, 2026-11-15)
+
+1738's misprints, kept in the read lines and the printed text (decision 58), corrected in the draft for the reading
+edition; the readers of stages 3–5 found or confirmed each.
+
+1. **Exod 33:1** *terram lactc et melle* → *lacte* (1738 leaf 147, *lactc*: see the second reading above).
+   **Apply:** `Exod.33.1` la: `terram lactc et` → `terram lacte et`
+2. **Exod 33:8** *in tabernaeulum ingrederetur* → *tabernaculum* (leaf 148).
+   **Apply:** `Exod.33.8` la: `in tabernaeulum ingrederetur` → `in tabernaculum ingrederetur`
+3. **Exod 36:25** *totitemque* → *totidemque* (leaf 152; 1750 *totidemque*, above).
+   **Apply:** `Exod.36.25` la: `totitemque et eodem` → `totidemque et eodem`
+4. **Exod 37:9** *qui super expansis alis propitiatorium obtegeret* → *obtegerent*: the antecedent is the two cherubs
+   of 37:8 (as the settled 25:20 *obtegant*). 1738 (leaf 152, as read) and 1750 (its OCR, `sources/archive/1750/text.txt`
+   line 13677, *rium obtegeret*) have the singular; **the 1726 OCR has *obtegerent*** (`TXT/1 - OCR/Vetus Fœdus/exodus.txt`
+   line 2257). A difference between printings, where the base's reading does not construe: the plural taken. Your call
+   if you prefer 1738's.
+   **Apply:** `Exod.37.9` la: `propitiatorium obtegeret,` → `propitiatorium obtegerent,`

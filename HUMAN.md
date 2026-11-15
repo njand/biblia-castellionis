@@ -2,8 +2,17 @@
 
 ## Now
 
+- **Exodus 31–40 through stages 3–5, waiting for your approval** (2026-11-15, your "Run stages 3–5 for Exodus
+  31–40"): `data/review/exod31-40-stages3-5.md` (start there), `-ch31.md` … `-ch40.md` (325 verses, all `ok`),
+  preview `text/draft/EXO.preview.usfm`. Four readers, then an independent proofread of every verse (its findings
+  fixed). 1738 prints no quotation marks, so all the quotation marks (46 speeches opened) are the readers'. 27 spelling rules added under
+  decisions 37 and 42 (*ad-* assimilated, *septentriōnālī*). **Your calls first**: 37:9 *obtegerent* (1726) against
+  1738's *obtegeret*; 40:20 *āræ* (all printings) where the sense needs the ark, *arcæ*; 36:27 and the settled
+  26:24 *in immō*, which should be *in īmō* (a proposed phrase rule); and the versification of 36:25–34 and
+  38:13–18. Stage 2b (the printed text of 31–40) is not built yet.
+
 - **The New Testament as printed: every word now read on 1573's pages** (2026-11-15, your "Yes, read them").
-  Nothing committed. The 1,655 words the OCR had not read were read on the page (`data/review/nt-orig-accents.md`,
+  Committed. The 1,655 words the OCR had not read were read on the page (`data/review/nt-orig-accents.md`,
   start there); the 27 drafts in `text/orig/draft/` are rebuilt. The 20 slips you decided (`nt-readings-unread.md`
   all, `nt-readings-1573-1556.md` all but John 14:16, which keeps *vērō*) are applied to `text/` and the drafts
   rebuilt; John 4:29 *fortassis* after checking the classical evidence (in the file). **Approved** (your "Approve
