@@ -45,6 +45,9 @@ def settled_forms():
 def carry(old, new, known=None):
     """`new` with the capital of `old` and its macrons: the settled chapters' marking of `new` where they have
     one, else `old`'s macrons where the letters agree; æ/œ for diphthongs."""
+    if " " in new and len(new.split()) == len(old.split()) > 1:     # a phrase rule word for word: each its own marking
+        marked = " ".join(carry(o, n, known) for o, n in zip(old.split(), new.split()))
+        return marked[:1].upper() + marked[1:] if old[:1].isupper() else marked
     k = rules.unligature(macronize.plain(new).replace(" ", ""))
     if known and k in known and " " not in new:
         marked = known[k]
@@ -59,9 +62,10 @@ def carry(old, new, known=None):
                 out |= {j1 + (i - i1) for i in longs if i1 <= i < i2}
         # A carried ī now before a vowel (audīverit → audierit) is short: vōcālis ante vōcālem.
         out = {i for i in out if not (squeezed[i] == "i" and i + 1 < len(squeezed) and squeezed[i + 1] in "aeiou")}
-        marked = macronize.ligatures(macronize.mark(squeezed, out))
+        marked = macronize.mark(squeezed, out)
         for at in [i for i, c in enumerate(plain_new) if c == " "]:   # the spaces of a phrase rule, put back
             marked = marked[:at] + " " + marked[at:]
+        marked = macronize.ligatures(marked)                          # after the spaces, which æ would shift
     return marked[:1].upper() + marked[1:] if old[:1].isupper() else marked
 
 

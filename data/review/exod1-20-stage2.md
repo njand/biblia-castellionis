@@ -12,7 +12,7 @@ Proposed 2026-11-08 (decision 30's standing rule), on the Old Testament route of
   cached page (same revision, 225845): Exodus 773 → 885 rows; Joshua 555 → 651 (the same fault); no other book
   changes.
 - **Versification** (decision 5): Castellio's numbering in Exodus 5–7 is not the KJV's. 18 edits in
-  `data/versification/Exod.draft.edits.tsv`, applied; every chapter now has the KJV count (545 verses):
+  `data/versification/Exod1-20.draft.edits.tsv`, applied; every chapter now has the KJV count (545 verses):
   - **Printed numbers Wikisource drops**, restored where your 1726 text has them: 5:3, 6:2, 6:11, 10:7 (Wikisource
     prints “8.” twice), 18:27, 19:9, 20:20.
   - **Merges**: 5:16–17 (KJV 5:16), 6:2–3 (KJV 6:3), 6:25–26 (KJV 6:25 ends *the heads of the fathers of the

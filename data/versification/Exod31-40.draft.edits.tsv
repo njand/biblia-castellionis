@@ -1,0 +1,7 @@
+op	at	anchor	status	note
+merge	Exod.32.13		applied	1738's 32:13 'Comprime istius iracundiæ sævitiam, et pœnam populo tuo remitte' (leaf 146; its margin number cut off by the gutter, 1750's 13 at the same line) ends the KJV's 32:12 'Turn from thy fierce wrath, and repent of this evil' (Claude, 2026-11-14, decision 30's standing rule)
+split	Exod.32.27	sic loquitur	applied	KJV 32:27 'And he said unto them, Thus saith the LORD God of Israel' begins at 'sic loquitur:' inside 1738's 32:27 ('in porta castrorum adstitit … Quumque ad eum convenissent omnes Levitae, sic loquitur:', leaf 147) (Claude, 2026-11-14, decision 30's standing rule)
+merge	Exod.32.28		applied	1738's 32:28 'jubet Jova Deus Israelitarum … caedem faciatis' joins 'sic loquitur:' as the KJV's 32:27 (Claude, 2026-11-14, decision 30's standing rule)
+merge	Exod.32.36		applied	KJV 32:34 'Therefore now go, lead the people … I will visit their sin upon them' is 1738's 32:35–36 (leaf 147); its 32:37 is the KJV's 32:35 (Claude, 2026-11-14, decision 30's standing rule)
+merge	Exod.35.36		applied	KJV 35:35 is 1738's 35:35–37 (leaf 151) (Claude, 2026-11-14, decision 30's standing rule)
+merge	Exod.35.37		applied	(with 35:36, as above) (Claude, 2026-11-14, decision 30's standing rule)

@@ -4,11 +4,11 @@ oe	œ	pattern	approved	diphthong oe → œ, with the same exceptions list (aër,
 i	j	pattern	approved	consonantal i → j (e-liber's orthography.jv rules): 16 gold words differ from Wikisource only in i/j or u/v, e.g. Eiice→Ejice, Goiorum→Gojorum, Mahuiaelem→Mahujælem, Mahuiael→Mahujæl, abiicit→abjicit, adiumentum→adjumentum; j wherever pronounced, so always in compounds of jaciō (abjiciō, ējiciō, prōjiciō), not Gaffiot's abiciō (decision 17)
 eis	iis	word	approved	8× (Gen.17.8, Gen.18.8, Gen.19.1, Gen.20.17, …); Gaffiot headword: old
 trigesimo	tricesimo	word	approved	6× (Gen.11.12, Gen.11.16, Gen.11.18, Gen.11.20, …); Gaffiot headword: both; but trigesimo kept 2× (Matt.13.8, Mark.4.8): inconsistent
-æreæ	aeriæ	word	approved	5× (Matt.8.20, Mark.4.4, Mark.4.32, Luke.9.58, …); Gaffiot headword: no headword found
+æreæ	aeriæ	word	rejected	5× (Matt.8.20, Mark.4.4, Mark.4.32, Luke.9.58, …); Gaffiot headword: no headword found; rejected 2026-11-14: also respells æreus, of bronze (Exod 27:10, 17, 18); replaced by phrase rules beside volucris
 humeris	umeris	word	approved	4× (Gen.9.23, Gen.21.14, Gen.24.15, Gen.24.45); Gaffiot headword: old
 eisque	iisque	word	approved	3× (Gen.5.2, Gen.18.2, Gen.19.3); Gaffiot headword: no headword found
 heram	eram	word	approved	3× (Gen.16.4, Gen.16.8, Gen.16.9); Gaffiot headword: both
-æreas	aerias	word	approved	3× (Gen.1.28, Gen.2.19, Matt.6.26); Gaffiot headword: new
+æreas	aerias	word	rejected	3× (Gen.1.28, Gen.2.19, Matt.6.26); Gaffiot headword: new; rejected 2026-11-14: also respells æreus, of bronze (Exod 27:10, 17, 18); replaced by phrase rules beside volucris
 diversorium	deversorium	word	approved	2× (Luke.9.52, Luke.10.34); Gaffiot headword: new
 næ	ne	word	approved	2× (Gen.18.31, Gen.27.36); Gaffiot headword: both
 quatuor	quattuor	word	approved	2× (Gen.2.10, Gen.14.9); Gaffiot headword: new
@@ -16,7 +16,7 @@ querceto	querqueto	word	approved	2× (Gen.14.14, Gen.18.1); Gaffiot headword: bo
 sexcentesimo	sescentesimo	word	approved	2× (Gen.7.11, Gen.8.13); Gaffiot headword: no headword found
 sobole	subole	word	approved	2× (Gen.9.1, Gen.11.32); Gaffiot headword: both
 sobolis	subolis	word	approved	2× (Gen.17.6, Gen.17.20); Gaffiot headword: both
-æreis	aeriis	word	approved	2× (Gen.1.26, Gen.9.2); Gaffiot headword: no headword found
+æreis	aeriis	word	rejected	2× (Gen.1.26, Gen.9.2); Gaffiot headword: no headword found; rejected 2026-11-14: also respells æreus, of bronze (Exod 27:10, 17, 18); replaced by phrase rules beside volucris
 abicient	abjicient	word	approved	1× (Luke.6.22); Gaffiot headword: both
 arenato	harenato	word	approved	1× (Gen.11.3); Gaffiot headword: old
 assumto	assumpto	word	approved	1× (Gen.17.23); Gaffiot headword: no headword found
@@ -507,3 +507,14 @@ deciment	decument	word	approved	the same
 decimant	decumant	word	approved	the same
 decimabat	decumabat	word	approved	the same
 decimaverunt	decumaverunt	word	approved	the same
+volucribus æreis	volucribus aeriis	phrase	approved	āerius, of the air, only beside volucris (13 of Wikisource’s places; æreus, of bronze, never is); approved 2026-11-14
+æreis volucribus	aeriis volucribus	phrase	approved	āerius, of the air, only beside volucris (13 of Wikisource’s places; æreus, of bronze, never is); approved 2026-11-14
+volucres æreas	volucres aerias	phrase	approved	āerius, of the air, only beside volucris (13 of Wikisource’s places; æreus, of bronze, never is); approved 2026-11-14
+volucresque æreas	volucresque aerias	phrase	approved	āerius, of the air, only beside volucris (13 of Wikisource’s places; æreus, of bronze, never is); approved 2026-11-14
+æreas volucres	aerias volucres	phrase	approved	āerius, of the air, only beside volucris (13 of Wikisource’s places; æreus, of bronze, never is); approved 2026-11-14
+æreæ volucres	aeriæ volucres	phrase	approved	āerius, of the air, only beside volucris (13 of Wikisource’s places; æreus, of bronze, never is); approved 2026-11-14
+volucres æreæ	volucres aeriæ	phrase	approved	āerius, of the air, only beside volucris (13 of Wikisource’s places; æreus, of bronze, never is); approved 2026-11-14
+execr	exsecr	stem	approved	decision 42 (spelling by Gaffiot: exsecror) and the settled text, all exsecr- (exsecrātiō, exsecrābilis); Wikisource execrator Exod 22:28 (Claude, 2026-11-14)
+execu	exsecu	stem	approved	decision 42 (Gaffiot exsequor) and the settled text, all exsec-/exsequ- (exsecūtus, exsequitur); Wikisource executus Exod 23:22 (Claude, 2026-11-14)
+foetific	fetific	stem	approved	decision 42 (Gaffiot fētĭfĭcō) and the settled fētificārēmus; Wikisource foetifices Exod 23:30 (Claude, 2026-11-14)
+adscenderat	ascenderat	word	approved	decision 37: ad- assimilated (the other adscend- forms are rules already); Exod 24:2 (Claude, 2026-11-14)

@@ -1,6 +1,6 @@
 # Gen 1–50 as printed (1738): the draft for review
 
-Built 2026-11-13 by `python -m pipeline orig Gen 1-50` → `text/orig/draft/GEN.usfm`. The words are the settled chapters' (`text/`); their spelling, capitals and punctuation are 1738 (archive.org bibliasacraexseb01cast)'s, read from its OCR as `pipeline/orig.py` describes. Expanded: *&*, *q;*, the nasal bar, long s, *ę*. Kept: u/v and i/j as printed. Dropped: the accents (*verò*, *quòd*, *à*). Paragraphs not yet set: 1738 runs the verses on and indents its paragraphs, which are still to be read from its hOCR (PLAN.md §4, stage 2b); each chapter is one paragraph until then (HUMAN.md decision 57). Regenerate after changing `data/decisions/Gen.orig.tsv`.
+Built 2026-11-14 by `python -m pipeline orig Gen 1-50` → `text/orig/draft/GEN.usfm`. The words are the settled chapters' (`text/`); their spelling, capitals and punctuation are 1738 (archive.org bibliasacraexseb01cast)'s, read from its OCR as `pipeline/orig.py` describes. Expanded: *&*, *q;*, the nasal bar, long s, *ę*. Kept: u/v and i/j as printed. Dropped: the accents (*verò*, *quòd*, *à*). Paragraphs are 1738's own, read from the indents in its hOCR (listed below) (HUMAN.md decision 57). Regenerate after changing `data/decisions/Gen.orig.tsv`.
 
 **Decision:** pending
 
@@ -8,2165 +8,2016 @@ Built 2026-11-13 by `python -m pipeline orig Gen 1-50` → `text/orig/draft/GEN.
 
 | Kind | Words | |
 |---|---:|---|
-| ocr | 19184 | read in the OCR as the settled word (u/v, i/j, long s as printed) |
-| rule | 306 | read in the OCR, a spelling the approved rules normalize |
-| variant | 70 | read in the OCR, a printer's spelling no rule covers |
+| ocr | 19161 | read in the OCR as the settled word (u/v, i/j, long s as printed) |
+| rule | 302 | read in the OCR, a spelling the approved rules normalize |
+| variant | 95 | read in the OCR, a printer's spelling no rule covers |
 | nasal | 6 | read in the OCR with a nasal bar (m or n put back) |
-| misread | 170 | the settled word misread by the OCR; spelling as settled |
-| lexicon | 2550 | not read here; spelling as the base edition prints the same word elsewhere in the Testament |
-| doubt | 197 | not read here, and the base edition spells the word more than one way: to be read on the page |
-| guess | 857 | OCR unreadable; the settled word in the printer's conventions |
-| none | 899 | no OCR word; the settled word in the printer's conventions |
+| lexicon | 2704 | not read here; spelling as the base edition prints the same word elsewhere in the Testament |
+| read | 1971 | read on the page image (data/decisions/<osis>.orig.tsv) |
 | all | 24239 | |
 
-## Spellings the approved rules normalize (306)
+## Read on the page
 
-*afferre* → *adferre*; *afferrent* → *adferrent*; *affertō* → *adferto*; *afficiam* → *adficiam*; *afficī* → *adfici*; *affātus* → *adfatus*; *aggregābor* → *adgregabor*; *aggressus* → *adgressus* ×8; *alligābit* → *adligabit*; *allocūtus* → *adlocutus* ×7; *alloquar* → *adloquar*; *alloquitur* → *adloquitur* ×6; *alloquuntur* → *adloquuntur*; *alloquēns* → *adloquens* ×7; *appellantēs* → *adpellantes* ×3; *appellāre* → *adpellare*; *applicuit* → *adplicuit*; *applicā* → *adplica*; *appositus* → *adpositus*; *appositīs* → *adpositis*; *appāruit* → *adparuit* ×5; *appārēbat* → *adparebat*; *appōnī* → *adponi*; *ascendentēs* → *adscendentes*; *ascendit* → *adscendit* ×2; *aspectum* → *adspectum*; *aspectū* → *adspectu* ×4; *aspice* → *adspice*; *aspiciēns* → *adspiciens* ×3; *assecūtus* → *adsecutus* ×2; *assidēns* → *adsidens*; *assūmptō* → *adsumto*; *astābat* → *adstabat* ×2; *astāre* → *adstare*; *causa* → *caussa*; *causam* → *caussam* ×3; *causā* → *caussa* ×6; *condiciō* → *conditio*; *condiciōne* → *conditione* ×2; *cotīdiē* → *quotidie*; *cum* → *quum* ×117; *cumque* → *quumque* ×12; *eram* → *heram* ×2; *erum* → *herum*; *erīlis* → *herilis*; *erīlī* → *herili*; *erō* → *hero*; *eundem* → *eumdem*; *harēnātō* → *arenato*; *intellegant* → *intelligant*; *intellegēns* → *intelligens*; *iīs* → *eis* ×37; *iīsque* → *eisque* ×7; *nē* → *nae*; *obœdiat* → *obediat*; *petīvit* → *petiit* ×3; *quandam* → *quamdam*; *quattuor* → *quatuor* ×3; *quattuordecim* → *quatuordecim* ×2; *quendam* → *quemdam* ×8; *querquētum* → *quercetum*; *querquētō* → *querceto*; *reppererit* → *repererit*; *sescentēsimō* → *sexcentesimo* ×2; *sescentōs* → *sexcentos*; *subole* → *sobole* ×2; *subolis* → *sobolis* ×2; *subolēs* → *soboles*; *umerīs* → *humeris* ×3; *āeriās* → *aereas* ×2; *āeriīs* → *aereis* ×2
+Where the OCR could not decide. Several differ from the settled text by more than spelling: the reading edition may want to look again at these (marked ⚑).
 
-## Printer's spellings no rule covers (70)
+- **1.2** *Cum* → *Quum*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.4** *cum* → *quum*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.25** *cum* → *quum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.4** *Cum* → *Quum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.25** *cum* → *quum*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **4.24** *cum* → *quum*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **6.3** *cum* → *cum*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.5** *Cum* → *Quum*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **9.4** *cum* → *cum*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.10** *cum* → *cum*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **13.6** *cum* → *quum*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **16.2** *cum* → *cum*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.4** *cum* → *cum*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **17.17** *cum* → *quum*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.1** *Cum* → *Quum*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.31** *cum* → *cum*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.33** *cum* → *cum*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.33** *cum* → *cum*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.2** *cum* → *quum*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **21.16** *cum* → *quum*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **24.30** *Cumque* → *Quumque*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.45** *cum* → *quum*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.45** *cum* → *quum*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **26.9** *cum* → *cum*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **27.1** *cum* → *quum*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **29.2** *Cum* → *Quum*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **29.12** *cum* → *quum*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **30.14** *Cum* → *Quum*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **31.5** *cum* → *cum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.25** *cum* → *quum*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **32.24** *cum* → *quum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.24** *cum* → *cum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **34.25** *cum* → *quum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.6** *cum* → *cum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.16** *Cum* → *Quum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **37.29** *cum* → *quum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.35** *Cumque* → *Quumque*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **38.2** *cum* → *quum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **38.18** *cum* → *cum*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **40.14** *cum* → *quum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.21** *cum* → *quum*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **42.24** *cum* → *cum*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **44.1** *cum* → *cum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.3** *cum* → *quum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **45.1** *cum* → *cum*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.1** *cum* → *quum*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.10** *cum* → *cum*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.14** *cum* → *cum*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **47.29** *cum* → *cum*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.10** *cumque* → *quumque*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **50.6** *Cumque* → *Quumque*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **21.25** *cum* → *cum*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **23.17** *cum* → *cum*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **39.3** *cum* → *quum*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **50.18** *cum* → *quum*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **4.1** *cum* → *cum*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **11.1** *Cum* → *Quum*: 1738 leaf 70, read on the page: the drop capital Q, then Vum (Claude, 2026-11-14)
+- **33.1** *Cum* → *Quum*: 1738 leaf 94, read on the page: the drop capital Q, then Vum (Claude, 2026-11-14)
+- **1.5** *appellāvit* → *adpellauit*: 1738 leaf 61, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **4.17** *appellāvit* → *adpellauit*: 1738 leaf 64, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **4.25** *perēmptī* → *peremti*: 1738 leaf 65, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **4.26** *appellāvit* → *adpellauit*: 1738 leaf 65, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **5.2** *appellāvit* → *adpellauit*: 1738 leaf 65, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **6.4** *cōnūbiīs* → *connubiis*: 1738 leaf 66, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **6.6** *pænituit* → *pœnituit*: 1738 leaf 66, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **6.7** *pænitēbat* → *pœnitebat*: 1738 leaf 66, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **7.1** *sæculī* → *sæculi*: 1738 leaf 66, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **7.10** *præterīssent* → *præteriissent*: 1738 leaf 67, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **10.21** *auctor* → *auctor*: 1738 leaf 70, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **11.24** *vīcēsimō* → *vicesimo*: 1738 leaf 71, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **14.4** *servīssent* → *seruiuissent*: 1738 leaf 72, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **17.23** *ēmptīciōrum* → *emtitiorum*: 1738 leaf 75, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **18.18** *auctor* → *auctor*: 1738 leaf 76, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **19.34** *subolī* → *soboli*: 1738 leaf 78, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **21.17** *appellāvit* → *adpellauit*: 1738 leaf 79, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **24.14** *intellegam* → *intelligam*: 1738 leaf 82, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **24.16** *ascendēbat* → *adscendebat*: 1738 leaf 82, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **24.43** *paulum* → *paullum*: 1738 leaf 83, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **25.17** *allēctus* → *adlectus*: 1738 leaf 84, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **26.18** *appellāvit* → *adpellauit*: 1738 leaf 85, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **29.32** *appellāvit* → *adpellauit*: 1738 leaf 89, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **30.11** *appellāvit* → *adpellauit*: 1738 leaf 90, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **30.20** *appellāvit* → *adpellauit*: 1738 leaf 90, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **30.41** *quotiēns* → *quoties*: 1738 leaf 91, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **31.12** *aspice* → *adspice*: 1738 leaf 91, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **32.2** *appellāvit* → *adpellauit*: 1738 leaf 93, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **32.30** *appellāvit* → *adpellauit*: 1738 leaf 94, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **36.8** *auctor* → *auctor*: 1738 leaf 97, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **38.3** *appellāvit* → *adpellauit*: 1738 leaf 99, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **38.12** *ascendēbat* → *adscendebat*: 1738 leaf 100, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **38.29** *appellātus* → *adpellatus*: 1738 leaf 100, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **39.3** *erus* → *herus*: 1738 leaf 101, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **39.8** *erus* → *herus*: 1738 leaf 101, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **39.19** *erus* → *herus*: 1738 leaf 101, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **40.19** *affīgēris* → *adfigeris*: 1738 leaf 102, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **40.22** *alligāvit* → *adligauit*: 1738 leaf 102, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **41.3** *ascendentēs* → *adscendentes*: 1738 leaf 102, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **41.17** *astāre* → *adstare*: 1738 leaf 103, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **41.45** *appellāvit* → *adpellauit*: 1738 leaf 103, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **42.23** *intellegēns* → *intelligens*: 1738 leaf 105, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **43.3** *Affirmāvit* → *adfirmauit*: 1738 leaf 105, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **43.25** *audierant* → *audiuerant*: 1738 leaf 106, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **44.6** *erus* → *herus*: 1738 leaf 107, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **44.16** *afferēmus* → *adferemus*: 1738 leaf 107, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **45.18** *assūmptō* → *assumto*: 1738 leaf 108, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **47.11** *assignāvit* → *adsignauit*: 1738 leaf 110, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **47.12** *assignāvit* → *adsignauit*: 1738 leaf 110, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **48.19** *auctor* → *auctor*: 1738 leaf 112, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **14.13** *querquētō* → *querceto*: 1738 leaf 73, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **29.25** *servīsse* → *seruiuisse*: 1738 leaf 89, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **35.3** *adjūtus* → *adiutus*: 1738 leaf 96, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **35.7** *appellāvit* → *adpellauit*: 1738 leaf 96, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **38.28** *alligāvit* → *adligauit*: 1738 leaf 100, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **24.17** *paulum* → *paullum*: 1738 leaf 82, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- ⚑ **18.6** *depstīnōs* → *depstitios*: 1738 leaf 76, read on the page: "panes depstitios" (Claude, 2026-11-14)
+- **19.2** *dēvertant* → *diuertant*: 1738 leaf 77, read on the page: "di-|uertant" (Claude, 2026-11-14)
+- ⚑ **25.14** *Masma* → *Masina*: 1738 leaf 84, read on the page: "Masi-|na" (data/review/settled-1738-gen14-27.md; again, Claude, 2026-11-14)
+- ⚑ **3.14** *cicurum* → *cicurarum*: 1738 leaf 63, read on the page (data/review/settled-1738-gen1-13.md)
+- ⚑ **9.3** *adhibētōte* → *adhibitote*: 1738 leaf 68, read on the page (data/review/settled-1738-gen1-13.md)
+- ⚑ **13.8** *discidium* → *dissidium*: 1738 leaf 72, read on the page: "eſſe diſſidium" (data/review/settled-1738-gen1-13.md)
+- ⚑ **43.29** *locūtīs* → *locuti*: 1738 leaf 106, read on the page: "de quo mihi locuti fuistis?" (Claude, 2026-11-14)
+- **19.3** *dēverterint* → *diuerterint*: 1738 leaf 77, read on the page: "vt ad eum | diuerterint" (Claude, 2026-11-14)
+- ⚑ **18.6** *depstā* → *depsita*: 1738 leaf 76, read on the page: "et ea depsita panes" (the sample check, Claude, 2026-11-14)
+- **42.20** *condiciōnem* → *conditionem*: 1738 leaf 104, read on the page (the sample check, Claude, 2026-11-14)
+- **32.12** *subolem* → *sobolem*: 1738 leaf 93, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **34.19** *adulēscēns* → *adolescens*: 1738 leaf 95, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **40.6** *mæstōs* → *mœstos*: 1738 leaf 101, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **40.7** *mæstō* → *mœsto*: 1738 leaf 101, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **19.9** *paulisper* → *paullisper*: 1738 leaf 77, read on the page: a spelling the approved rules normalize (Claude, 2026-11-14)
+- **1.22** *multiplicāminī* → *multiplicamini*: 1738 leaf 62, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **1.22** *multiplicentur* → *multiplicentur*: 1738 leaf 62, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **1.28** *multiplicāminī* → *multiplicamini*: 1738 leaf 62, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **8.12** *Exspectāvit* → *Exspectauit*: 1738 leaf 68, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **8.17** *multiplicēs* → *multiplices*: 1738 leaf 68, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **23.6** *sepulcrētīs* → *sepulcretis*: 1738 leaf 81, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **25.12** *multiplicis* → *multiplicis*: 1738 leaf 84, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **27.2** *exspectem* → *exspectem*: 1738 leaf 86, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **27.28** *multumque* → *multumque*: 1738 leaf 87, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **28.3** *multiplicēs* → *multiplices*: 1738 leaf 88, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **35.11** *multipliciter* → *multipliciter*: 1738 leaf 96, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **35.11** *multitūdō* → *multitudo*: 1738 leaf 96, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **49.18** *exspectō* → *exspecto*: 1738 leaf 113, read on the page: as the settled spelling (Claude, 2026-11-14)
+- **1.2** *rudis* → *rudis*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.2** *profundum* → *profundum*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.5** *noctem* → *noctem*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.6** *exsisteret* → *exsisteret*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.9** *cōnflueret* → *conflueret*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.10** *affluentiam* → *adfluentiam*: 1738 leaf 61, read on the page: ad- unassimilated (Claude, 2026-11-14)
+- **1.11** *frūctiferās* → *fructiferas*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.11** *quæque* → *quæque*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.11** *frūctum* → *fructum*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.12** *frūctiferārum* → *fructiferarum*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.14** *existerent* → *exsisterent*: 1738 leaf 61, read on the page: exs- (exſiſterent), split ex-|ſiſterent (Claude, 2026-11-14)
+- **1.14** *lūmināria* → *luminaria*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.14** *signa* → *signa*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.15** *collūstrārent* → *collustrarent*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.16** *majus* → *maius*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.18** *noctemque* → *noctemque*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.18** *moderandam* → *moderandam*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.21** *Creāvitque* → *Creauitque*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.21** *ālātārum* → *alatarum*: 1738 leaf 61, read on the page (Claude, 2026-11-14)
+- **1.26** *aquātilibus* → *aquatilibus*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **1.26** *āeriīs* → *aereis*: 1738 leaf 62, read on the page: aere- for aeri- (Claude, 2026-11-14)
+- **1.28** *āeriās* → *aereas*: 1738 leaf 62, read on the page: aere- for aeri- (Claude, 2026-11-14)
+- **1.29** *frūgiferæ* → *frugiferæ*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **1.29** *arboreō* → *arboreo*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **1.29** *præditās* → *præditas*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **1.29** *alimōniam* → *alimoniam*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.1** *cælī* → *cæli*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.2** *effectō* → *effecto*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.3** *septimum* → *septimum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.3** *faustum* → *faustum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.4** *cælī* → *cæli*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.6** *ūniversum* → *vniuersum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.7** *effectus* → *effectus*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.8** *Ēdēne* → *Edene*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.9** *scientiæ* → *scientiæ*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.12** *probātissimum* → *probatissimum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.14** *Tigris* → *Tigris*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.14** *dīcitur* → *dicitur*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.17** *scientiæ* → *scientiæ*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.19** *āeriās* → *aereas*: 1738 leaf 63, read on the page: aere- for aeri- (Claude, 2026-11-14)
+- **2.19** *appellāsset* → *adpellasset*: 1738 leaf 63, read on the page: ad- unassimilated; split adpellas-|set (Claude, 2026-11-14)
+- **2.20** *imposuisset* → *imposuisset*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **2.24** *relictō* → *relicto*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **2.24** *adhærēbit* → *adhærebit*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **2.24** *carnem* → *carnem*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.3** *plēctāmur* → *plectamur*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.5** *scit* → *scit*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.5** *comēderitis* → *comederitis*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.6** *Hīc* → *Hic*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.6** *arborem* → *arborem*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.6** *discendum* → *discendum*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.6** *frūctū* → *fructu*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.6** *comēditque* → *comeditque*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.6** *comēdit* → *comedit*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.7** *nūdōs* → *nudos*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.8** *inambulantis* → *inambulantis*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.9** *inclāmāns* → *inclamans*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.11** *præcēperam* → *præceperam*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **3.18** *carduōs* → *carduos*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.18** *sentēs* → *sentes*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.18** *herbīs* → *herbis*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.19** *dōnec* → *donec*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.21** *induit* → *induit*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.22** *sciēns* → *sciens*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.22** *perīculum* → *periculum*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.22** *frūctū* → *fructu*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.23** *coleret* → *coleret*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *ējectō* → *eiecto*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *orientālī* → *orientali*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *parte* → *parte*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *Cherūbōs* → *Cherubos*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *flammeum* → *flammeum*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *ēnsem* → *ensem*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *vibrantem* → *vibrantem*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *arboris* → *arboris*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *vītālis* → *vitalis*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *aditum* → *aditum*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.2** *prætereā* → *præterea*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.2** *Abēlem* → *Abelem*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.2** *Hīc* → *Hic*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.2** *Abēl* → *Abel*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.2** *ōpiliō* → *opilio*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.2** *agricola* → *agricola*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.3** *Aliquantō* → *Aliquanto*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.3** *lībāvisset* → *libauisset*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.3** *frūgibus* → *frugibus*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.4** *Abēl* → *Abel*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.4** *prīmigenīs* → *primigenis*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.4** *maximē* → *maxime*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.4** *opīmīs* → *opimis*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.4** *Abēlem* → *Abelem*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.5** *acerbē* → *acerbe*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.5** *sublāberētur* → *sublaberetur*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.6** *acerbē* → *acerbe*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.6** *fers* → *fers*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.11** *accēperit* → *acceperit*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.12** *colentī* → *colenti*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.12** *præbeat* → *præbeat*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.13** *Hīc* → *Hic*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.14** *cōnspectum* → *conspectum*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.15** *septuplī* → *septupli*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.15** *pœnam* → *pœnam*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.18** *Mathusæl* → *Mathusael*: 1738 leaf 64, read on the page: ae as two letters, not the ligature æ (as in Mahuiael on the same crop) (Claude, 2026-11-14)
+- **4.19** *Hīc* → *Hic*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.22** *ærāriī* → *ærarii*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.23** *commonuit* → *commonuit*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.23** *Lamēchī* → *Lamechi*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.23** *dīcam* → *dicam*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.23** *plāgīs* → *plagis*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.23** *mortālem* → *mortalem*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.23** *vulneribus* → *vulneribus*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.23** *interficerem* → *interficerem*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.24** *Caīnō* → *Caino*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.24** *septuplī* → *septupli*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.24** *pœna* → *pœna*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.24** *profectō* → *profecto*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.24** *Lamēchō* → *Lamecho*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.24** *septuāgēcuplī* → *septuagecupli*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.24** *septuplī* → *septupli*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.25** *prætereā* → *præterea*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.25** *Sēthus* → *Sethus*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.25** *reposuisse* → *reposuisse*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.25** *alteram* → *alteram*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.25** *Abēlis* → *Abelis*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.25** *Caīnō* → *Caino*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.26** *Sēthō* → *Setho*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.26** *Enossum* → *Enossum*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.26** *cœptum* → *cœptum*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **4.26** *invocārī* → *inuocari*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.1** *effēcit* → *effecit*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.6** *Sēthus* → *Sethus*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.7** *prōgenuisset* → *progenuisset*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.9** *nōnāgintā* → *nonaginta*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.12** *Mahalaleēlem* → *Mahalaleelem*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.17** *octingentēsimō* → *octingentesimo*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.20** *vītæ* → *vitæ*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.25** *octōgēsimō* → *octogesimo*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.26** *octōgintā* → *octoginta*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.27** *nōngentōs* → *nongentos*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.28** *octōgēsimum* → *octogesimum*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.29** *Hic* → *hic*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.29** *labōribus* → *laboribus*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.30** *quīngentōs* → *quingentos*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **6.1** *crēscere* → *crescere*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.2** *pulchritūdine* → *pulchritudine*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.4** *Gigantēs* → *gigantes*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.5** *singulōs* → *singulos*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.6** *animōque* → *animoque*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.7** *nec* → *nec*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.9** *integerrimus* → *integerrimus*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.9** *voluntāte* → *voluntate*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.10** *Semum* → *Semum*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.11** *injūstitiæ* → *iniustitiæ*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.12** *corruptissimum* → *corruptissimum*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.12** *perditissimōs* → *perditissimos*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.12** *mōrēs* → *mores*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.13** *hūmānārum* → *humanarum*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.13** *interitus* → *interitus*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.14** *loculātam* → *loculatam*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.15** *ratiō* → *ratio*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.15** *longitūdō* → *longitudo*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.15** *lātitūdō* → *latitudo*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.15** *altitūdō* → *altitudo*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.16** *arcæ* → *arcæ*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.19** *præditīs* → *præditis*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.19** *supersint* → *supersint*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.21** *edendō* → *edendo*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **7.5** *præceptō* → *præcepto*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **7.7** *ēvītandæ* → *euitandæ*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **7.12** *perpluit* → *perpluit*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **7.17** *arca* → *arca*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **7.19** *auctæ* → *auctæ*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **7.20** *cubitōrum* → *cubitorum*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **7.23** *arca* → *arca*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.1** *arcā* → *arca*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.2** *obstrūctīs* → *obstructis*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.2** *profundī* → *profundi*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.3** *hūc* → *huc*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.6** *arcæ* → *arcæ*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.7** *revertit* → *reuertit*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.7** *dōnec* → *donec*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.8** *columbam* → *columbam*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.9** *invenīret* → *inueniret*: 1738 leaf 67, read on the page (Claude, 2026-11-14)
+- **8.10** *columbam* → *columbam*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.10** *arcā* → *arca*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.11** *dētēctam* → *detectam*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.12** *columbam* → *columbam*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.13** *arcæ* → *arcæ*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.15** *præcēpit* → *præcepit*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.18** *nuribus* → *nuribus*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.21** *dēlectātus* → *delectatus*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.22** *Nec* → *Nec*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.22** *æstātēs* → *æstates*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **8.22** *noctēs* → *noctes*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.2** *āeriīs* → *aereis*: 1738 leaf 68, read on the page: aere- for aeri- (Claude, 2026-11-14)
+- **9.2** *moventia* → *mouentia*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.3** *præditā* → *prædita*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.3** *concēdō* → *concedo*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.4** *carnem* → *carnem*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.4** *animæ* → *animæ*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.5** *sanguinis* → *sanguinis*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.5** *ēreptæ* → *ereptæ*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.5** *vītæ* → *vitæ*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.5** *pœnās* → *pœnas*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.6** *factus* → *factus*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.9** *fœdus* → *fœdus*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.10** *arcā* → *arca*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **9.12** *fœdus* → *fœdus*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.13** *arcus* → *arcus*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.13** *ictī* → *icti*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.15** *factī* → *facti*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.16** *fœdus* → *fœdus*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.16** *æternum* → *æternum*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.18** *arcā* → *arca*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.19** *frequentātus* → *frequentatus*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.20** *cōnsēvit* → *conseuit*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.24** *effātus* → *effatus*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.26** *vectīgālem* → *vectigalem*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.27** *tabernāculīs* → *tabernaculis*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **9.27** *vectīgālem* → *vectigalem*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.1** *Japhētī* → *Iapheti*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.2** *Gomer* → *Gomer*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.2** *Javan* → *Iauan*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.2** *Thubal* → *Thubal*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.3** *Gomerī* → *Gomeri*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.3** *Ascanās* → *Ascanas*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.4** *Tharsis* → *Tharsis*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.4** *Cittimus* → *Cittimus*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.5** *efficerent* → *efficerent*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.12** *Nīnivem* → *Niniuem*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.12** *Chalam* → *Chalam*: 1738 leaf 69, read on the page: capital C (draft has lowercase chalam) (Claude, 2026-11-14)
+- **10.13** *Ananim* → *Ananim*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.14** *Cassubim* → *Cassubim*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.14** *Palæstīnī* → *Palæstini*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.16** *Gergesem* → *Gergesem*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.18** *Arvadem* → *Aruadem*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.18** *Chananæōrum* → *Chananæorum*: 1738 leaf 69, read on the page (Claude, 2026-11-14)
+- **10.19** *Gāzam* → *Gazam*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **10.19** *spectant* → *spectant*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **10.20** *linguīs* → *linguis*: 1738 leaf 70, read on the page: lowercase l (draft has capital Linguis) (Claude, 2026-11-14)
+- **10.21** *Semō* → *Semo*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **10.25** *Phalēgum* → *Phalegum*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **10.25** *Joctānem* → *Ioctanem*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **10.26** *Joctān* → *Ioctan*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **10.29** *Joctānis* → *Ioctanis*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **11.2** *nactī* → *nacti*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **11.2** *Sanaārā* → *Sanaara*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **11.4** *īnstituērunt* → *instituerunt*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **11.4** *tractūs* → *tractus*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **11.6** *cūnctus* → *cunctus*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **11.7** *sermōnem* → *sermonem*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- **11.8** *cōnstrūctiō* → *constructio*: 1738 leaf 70, read on the page (Claude, 2026-11-14)
+- ⚑ **11.25** *ūndēvīgintī* → *nouemdecim*: 1738 leaf 71, read on the page: different word: 1738 prints 'centum nouemdecim', not vndeuiginti (Claude, 2026-11-14)
+- **11.28** *Chaldæōrum* → *Chaldæorum*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **11.31** *profectus* → *profectus*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.4** *profectus* → *profectus*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.4** *profectus* → *profectus*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.5** *animantibus* → *animantibus*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.6** *Chananæī* → *Chananæi*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.7** *prōmīsitque* → *promisitque*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.8** *exstrūctā* → *exstructa*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.10** *coāctus* → *coactus*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.11** *appropinquāns* → *adpropinquans*: 1738 leaf 71, read on the page: ad- unassimilated; split ad-|propinquans (Claude, 2026-11-14)
+- **12.12** *intellēctum* → *intellectum*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.17** *magnīs* → *magnis*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.18** *indicāsset* → *indicasset*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **13.3** *itineribus* → *itineribus*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.3** *merīdiē* → *meridie*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.3** *habuerat* → *habuerat*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.4** *invocāvit* → *inuocauit*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.5** *abundābat* → *abundabat*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.7** *Chananæīs* → *Chananæis*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.7** *Pherezæīs* → *Pherezæis*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.7** *incolentibus* → *incolentibus*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.8** *nōlim* → *nolim*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.9** *Līberum* → *liberum*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.9** *abitūrus* → *abiturus*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.10** *plānitiem* → *planitiem*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.10** *solī* → *soli*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.10** *Sigorim* → *Sigorim*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.11** *dēlēgit* → *delegit*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.14** *istinc* → *istinc*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.14** *circumspice* → *circumspice*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.16** *coæquābō* → *coæquabo*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **13.17** *lātēque* → *lateque*: 1738 leaf 72, read on the page: lowercase l (draft has capital Lateque) (Claude, 2026-11-14)
+- **13.18** *Mambræ* → *Mambræ*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.1** *prœlium* → *prœlium*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.1** *Sanaaræ* → *Sanaaræ*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.1** *Thadalem* → *Thadalem*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.1** *rēgulōs* → *regulos*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.2** *Baram* → *Baram*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.3** *Siddæā* → *Siddæa*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.3** *lacus* → *lacus*: 1738 leaf 72, read on the page: lowercase l (draft has capital Lacus) (Claude, 2026-11-14)
+- **14.4** *posteriōrēs* → *posteriores*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.5** *rēgulī* → *reguli*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.7** *reversī* → *reuersi*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.7** *omnemque* → *omnemque*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.7** *Amalechitārum* → *Amalechitarum*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.7** *Amorræōs* → *Amorræos*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.8** *rēgulī* → *reguli*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.8** *posteriōrēs* → *posteriores*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.9** *prœliō* → *prœlio*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.9** *dēcertārunt* → *decertarunt*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.9** *Siddæā* → *Siddæa*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.10** *puteīs* → *puteis*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.10** *bitūminis* → *bituminis*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.10** *Gomorræ* → *Gomorræ*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.11** *Victōrēs* → *Victores*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.11** *Gomorræ* → *Gomorræ*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.13** *Hebræo* → *Hebræo*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.13** *prœliō* → *prœlio*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.13** *Mambræ* → *Mambræ*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.13** *Amorræī* → *Amorræi*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.13** *fœdere* → *fœdere*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.13** *conjūnctī* → *coniuncti*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.14** *captum* → *captum*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.14** *cognātum* → *cognatum*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.14** *octōdecim* → *octodecim*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.14** *cōnsequitur* → *consequitur*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.15** *īnstrūctīs* → *instructis*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.16** *prædā* → *præda*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.16** *Lōtumque* → *Lotumque*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.16** *nec* → *nec*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.17** *cæde* → *cæde*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.18** *Solymæ* → *Solymæ*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.19** *suprēmō* → *supremo*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.19** *auctōre* → *auctore*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.19** *cælī* → *cæli*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.22** *terrārumque* → *terrarumque*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.24** *præter* → *præter*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.24** *Mambræ* → *Mambræ*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.1** *præsidium* → *præsidium*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.1** *præmium* → *præmium*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.2** *agam* → *agam*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.4** *vīsceribus* → *visceribus*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.5** *ēductō* → *educto*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.5** *stēllās* → *stellas*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.6** *crēdidit* → *credidit*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.6** *jūstitiæ* → *iustitiæ*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.7** *Chaldæōrum* → *Chaldæorum*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.9** *præcēpit* → *præcepit*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.9** *sūmeret* → *sumeret*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.9** *trīmulam* → *trimulam*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.15** *senectūte* → *senectute*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.16** *Hūc* → *Huc*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.16** *improbitās* → *improbitas*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.17** *obortā* → *oborta*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.17** *cālīgine* → *caligine*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.17** *illa* → *illa*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.18** *fœdus* → *fœdus*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.19** *Cenæōs* → *Cenæos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- ⚑ **15.19** *Ceanezæōs* → *Cenezæos*: 1738 leaf 74, read on the page: prints Ce-|nezæos (no a after Ce): Cenezæos, not Ceanezæos (Claude, 2026-11-14)
+- **15.19** *Cadmonæōs* → *Cadmonæos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.20** *Hettæōs* → *Hettæos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.20** *Pherezæōs* → *Pherezæos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.21** *Amorræōs* → *Amorræos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.21** *Chananæōs* → *Chananæos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.21** *Gergesæōs* → *Gergesæos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **15.21** *Jebusæōs* → *Iebusæos*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.1** *Ægyptiam* → *ægyptiam*: 1738 leaf 74, read on the page: lowercase æ (draft has capital Ægyptiam) (Claude, 2026-11-14)
+- **16.1** *Hagārem* → *Hagarem*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.2** *summonuit* → *submonuit*: 1738 leaf 74, read on the page: sub- unassimilated; split sub-|monuit (Claude, 2026-11-14)
+- **16.2** *gignere* → *gignere*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.2** *prohibēret* → *prohiberet*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.2** *cōnsequī* → *consequi*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.2** *cōnsentiente* → *consentiente*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.3** *illa* → *illa*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.3** *Hagārem* → *Hagarem*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.3** *Ægyptiam* → *ægyptiam*: 1738 leaf 74, read on the page: lowercase æ (draft has capital Ægyptiam) (Claude, 2026-11-14)
+- **16.3** *decem* → *decem*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.3** *Chananææ* → *Chananææ*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.4** *Hagāre* → *Hagare*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.4** *gravidamque* → *grauidamque*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.4** *illa* → *illa*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.4** *factam* → *factam*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.5** *questa* → *questa*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.5** *injūria* → *iniuria*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.5** *complexum* → *complexum*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.5** *trādidī* → *tradidi*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.5** *sentientī* → *sentienti*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.5** *contemptum* → *contemtum*: 1738 leaf 74, read on the page: without p (contemtum) (Claude, 2026-11-14)
+- **16.5** *venī* → *veni*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.5** *vindex* → *vindex*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.6** *tractāret* → *tractaret*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.6** *illa* → *illa*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.8** *Hagar* → *Hagar*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.8** *illa* → *illa*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.11** *miseriam* → *miseriam*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.13** *illa* → *illa*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.13** *hīc* → *hic*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.14** *Lahærois* → *Lahærois*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **17.1** *Vive* → *viue*: 1738 leaf 74, read on the page: lowercase v (draft has capital Viue) (Claude, 2026-11-14)
+- **17.1** *præscrīptum* → *præscriptum*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **17.2** *fœdus* → *fœdus*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **17.3** *Hīc* → *Hic*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **17.4** *fœdus* → *fœdus*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **17.5** *nec* → *nec*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.5** *effectūrus* → *effecturus*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.6** *orientur* → *orientur*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.7** *Fœdus* → *Fœdus*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.7** *profectūrum* → *profecturum*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.8** *sempiternam* → *sempiternam*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.9** *cōnservātōte* → *conseruatote*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.10** *circumcīdentur* → *circumcidentur*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.12** *nātīvitātem* → *natiuitatem*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.14** *præpūtiātī* → *præputiati*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.14** *violātum* → *violatum*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.14** *fœdus* → *fœdus*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.17** *Hīc* → *Hic*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.17** *incubuisset* → *incubuisset*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.18** *Utinam* → *Vtinam*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.19** *fœdus* → *fœdus*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.19** *comprehendētur* → *comprehendetur*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.20** *exaudiam* → *exaudiam*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.21** *fœdus* → *fœdus*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.23** *vernāculōrum* → *vernaculorum*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.23** *præpūtia* → *præputia*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **17.27** *coēmptī* → *coemti*: 1738 leaf 75, read on the page: without p (coemti) (Claude, 2026-11-14)
+- **18.1** *Mambræ* → *Mambræ*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.3** *præterīre* → *præterire*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.4** *pauculā* → *paucula*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.5** *perrēctūrī* → *perrecturi*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.5** *dēflectendī* → *deflectendi*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.6** *sata* → *sata*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.6** *farīnæ* → *farinæ*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.6** *silīgineæ* → *siligineæ*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- ⚑ **18.6** *depstīciōs* → *depsititios*: 1738 leaf 76, read on the page: prints depſititios (-sititios, not -sticios) (Claude, 2026-11-14)
+- **18.7** *armentum* → *armentum*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.8** *vitulum* → *vitulum*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.10** *postīcō* → *postico*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.11** *dēsierat* → *desierat*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.13** *cōnsenuit* → *consenuit*: 1738 leaf 76, read on the page: lowercase c (draft has capital Consenuit) (Claude, 2026-11-14)
+- **18.17** *factūrus* → *facturus*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.18** *maximæ* → *maximæ*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.18** *fēlīcitandæ* → *felicitandæ*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.20** *Sodomitārum* → *Sodomitarum*: 1738 leaf 76, read on the page: capital S (draft has lowercase sodomitarum) (Claude, 2026-11-14)
+- **18.21** *perlātum* → *perlatum*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.22** *Hīc* → *Hic*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.24** *ignōscēs* → *ignosces*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.25** *æquitāte* → *æquitate*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.25** *moderātur* → *moderatur*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.25** *æquitāte* → *æquitate*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.27** *Audācter* → *audacter*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.28** *ēvertam* → *euertam*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.30** *quærere* → *quærere*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.31** *exscindam* → *exscindam*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.32** *decem* → *decem*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **18.32** *decem* → *decem*: 1738 leaf 76, read on the page (Claude, 2026-11-14)
+- **19.1** *sedēbat* → *sedebat*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.2** *noctem* → *noctem*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.2** *pernoctātūrōs* → *pernoctaturos*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.3** *dēductīs* → *deductis*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.5** *noctem* → *noctem*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.8** *tēctī* → *tecti*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.9** *recēdere* → *recedere*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.9** *hospitibus* → *hospitibus*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.11** *minimō* → *minimo*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.14** *jocārī* → *iocari*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.14** *arbitrātī* → *arbitrati*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.15** *aurōræ* → *auroræ*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.16** *Cūnctantem* → *Cunctantem*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.16** *nec* → *nec*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.17** *ēductō* → *educto*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.20** *hīc* → *hic*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.20** *oppidulum* → *oppidulum*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.20** *prōspicere* → *prospicere*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.20** *perparvum* → *perparuum*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.22** *dōnec* → *donec*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.22** *pervēnēris* → *perueneris*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.24** *sulphur* → *sulphur*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.24** *ignem* → *ignem*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.25** *tractum* → *tractum*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.25** *funditus* → *funditus*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.27** *steterat* → *steterat*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.30** *Sigorī* → *Sigori*: 1738 leaf 78, read on the page: capital S (printed "autemSigori", space lost after autem) (Claude, 2026-11-14)
+- **19.30** *quādam* → *quadam*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.30** *spēluncā* → *spelunca*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.31** *cōnsenuisset* → *consenuisset*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.31** *nec* → *nec*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.32** *concubitū* → *concubitu*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.32** *prōlī* → *proli*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.33** *miscent* → *miscent*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.34** *noctem* → *noctem*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.34** *præbeant* → *præbeant*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.35** *illa* → *illa*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.37** *prōgnātī* → *prognati*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **19.37** *Mōabītæ* → *Moabitæ*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.37** *manent* → *manent*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.1** *profectus* → *profectus*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.2** *arcessendam* → *arcessendam*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.4** *Hīc* → *Hic*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.4** *attigisset* → *attigisset*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.4** *īnsontēs* → *insontes*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.5** *intemerātīsque* → *intemeratisque*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.8** *metus* → *metus*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.8** *incessit* → *incessit*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.9** *officium* → *officium*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **20.12** *Quamquam* → *Quamquam*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **20.13** *abstraheret* → *abstraheret*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **20.13** *venīrēmus* → *veniremus*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.1** *præstitit* → *præstitit*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.2** *conceptum* → *conceptum*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **21.2** *sene* → *sene*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.4** *octāvō* → *octauo*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.7** *lactātūram* → *lactaturam*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.7** *senectæ* → *senectæ*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.8** *ablactandus* → *ablactandus*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.11** *displicēret* → *displiceret*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.14** *Hagārī* → *Hagari*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.14** *puerīque* → *puerique*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.14** *āmandat* → *amandat*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.14** *Bersabæ* → *Bersabæ*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.15** *fruticem* → *fruticem*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.16** *tēlī* → *teli*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.16** *jactum* → *iactum*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.18** *efficiam* → *efficiam*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.19** *lagēnā* → *lagena*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.20** *Hic* → *Hic*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.20** *crēvit* → *creuit*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.20** *silvestrem* → *siluestrem*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.21** *locāvit* → *locauit*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.23** *nocitūrum* → *nociturum*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.23** *peregrīnum* → *peregrinum*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.24** *Hīc* → *Hic*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.24** *condictō* → *condicto*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.27** *fœdus* → *fœdus*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.28** *seorsum* → *seorsum*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.28** *statuisset* → *statuisset*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.30** *acceptīs* → *acceptis*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.31** *vocātus* → *vocatus*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.32** *ictō* → *icto*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.32** *fœdere* → *fœdere*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **21.32** *Palæstīnōs* → *Palæstinos*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.33** *invocāvit* → *inuocauit*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.34** *estque* → *estque*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **21.34** *Palæstīnīs* → *Palæstinis*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.1** *perāctīs* → *peractis*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.2** *profectus* → *profectus*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.3** *clītellātō* → *clitellato*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.5** *præstōlentur* → *præstolentur*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.7** *Hic* → *Hic*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.9** *perventum* → *peruentum*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.10** *cultrō* → *cultro*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.13** *ērēctīs* → *erectis*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.13** *hærentem* → *hærentem*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.13** *accessit* → *accessit*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **22.17** *favēbō* → *fauebo*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.17** *stēllārum* → *stellarum*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.17** *cælestium* → *cælestium*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.17** *portīs* → *portis*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.17** *potiātur* → *potiatur*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.18** *fuistī* → *fuisti*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **22.19** *indeque* → *indeque*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **22.20** *sustulisse* → *sustulisse*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **22.21** *Camuēlem* → *Camuelem*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **22.22** *Casedum* → *Casedum*: 1738 leaf 81, read on the page: capital C (Claude, 2026-11-14)
+- **22.22** *Jedlaphum* → *Iedlaphum*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **22.23** *Præter* → *Præter*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **22.23** *octō* → *octo*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.2** *Cariatharbæ* → *Cariatharbæ*: 1738 leaf 81, read on the page: capital C (Claude, 2026-11-14)
+- **23.2** *lūgendam* → *lugendam*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.2** *accessit* → *accessit*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.3** *omissō* → *omisso*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.3** *dēfūnctō* → *defuncto*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.3** *Hettæōs* → *Hettæos*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.4** *advena* → *aduena*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.4** *sepultūræ* → *sepulturæ*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.4** *āmoveam* → *amoueam*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.5** *Hettæī* → *Hettæi*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.6** *Attende* → *attende*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.6** *prohibēbit* → *prohibebit*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.7** *Hīc* → *Hic*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.7** *Hettæīs* → *Hettæis*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.7** *habuisset* → *habuisset*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.8** *dēfūnctum* → *defunctum*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.8** *prætereā* → *præterea*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.8** *Seoris* → *Seoris*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.8** *agātis* → *agatis*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.9** *cavernam* → *cauernam*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.9** *duplicem* → *duplicem*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.9** *præsentibus* → *præsentibus*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.10** *Hettæīs* → *Hettæis*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.11** *Auscultā* → *ausculta*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.12** *præbitō* → *præbito*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.16** *taxātiōne* → *taxatione*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.16** *appendit* → *adpendit*: 1738 leaf 81, read on the page: ad- unassimilated ("taxati-|one adpendit,") (Claude, 2026-11-14)
+- **23.16** *præsentibus* → *præsentibus*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.16** *Hettæīs* → *Hettæis*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.17** *Mambræ* → *Mambræ*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.17** *ipsā* → *ipsa*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.18** *præsentibus* → *præsentibus*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.18** *Hettæīs* → *Hettæis*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.19** *Mambræ* → *Mambræ*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.20** *pactō* → *pacto*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.20** *sepultūræ* → *sepulturæ*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.20** *Hettæīs* → *Hettæis*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **24.1** *prōcessisset* → *processisset*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **24.2** *præfēcerat* → *præfecerat*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **24.3** *cælī* → *cæli*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **24.3** *terræque* → *terræque*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.3** *obtester* → *obtester*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **24.3** *Chananæīs* → *Chananæis*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.3** *habitō* → *habito*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.3** *ascīscās* → *adsciscas*: 1738 leaf 82, read on the page: ad- unassimilated ("habi-|to, adsciscas:") (Claude, 2026-11-14)
+- **24.4** *profectus* → *profectus*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.7** *cælestis* → *cælestis*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.7** *collocūtus* → *collocutus*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.7** *præmissō* → *præmisso*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.8** *solūtus* → *solutus*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.8** *eris* → *eris*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.9** *subjectā* → *subiecta*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.10** *decem* → *decem*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.10** *profectus* → *profectus*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.12** *beneficium* → *beneficium*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.13** *puellæ* → *puellæ*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.13** *veniunt* → *veniunt*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.13** *aquātum* → *aquatum*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.14** *dēstināstī* → *destinasti*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.15** *Bathūēle* → *Bathuele*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.15** *Melcæ* → *Melcæ*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.18** *illa* → *illa*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.18** *cōnfestim* → *confestim*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.20** *statimque* → *statimque*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.21** *necne* → *nec ne*: 1738 leaf 82, read on the page: printed as two words: "Ioua, nec ne." (Claude, 2026-11-14)
+- **24.24** *illa* → *illa*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.25** *nec* → *nec*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.25** *pernoctandum* → *pernoctandum*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.26** *Hīc* → *Hic*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.30** *Rebeccæ* → *Rebeccæ*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.33** *prōpōneret* → *proponeret*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.35** *summās* → *summas*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.35** *cōnsecūtī* → *consecuti*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.36** *asse* → *asse*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.37** *conciliārem* → *conciliarem*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.37** *Chananæīs* → *Chananæis*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.37** *incoleret* → *incoleret*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.38** *profectus* → *profectus*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.39** *dīcerem* → *dicerem*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.40** *īnstituisset* → *instituisset*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.41** *cōnsanguineōs* → *consanguineos*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.42** *placēret* → *placeret*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.42** *īnstitūtum* → *institutum*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.42** *prōsperāre* → *prosperare*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.42** *efficeret* → *efficeret*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.43** *astante* → *adstante*: 1738 leaf 83, read on the page: ad- unassimilated ("ad fontem adstante,") (Claude, 2026-11-14)
+- **24.45** *Vix* → *Vix*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.45** *pōtum* → *potum*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.45** *petīvissem* → *petiuissem*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.46** *offert* → *offert*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.47** *Quærentīque* → *quærentique*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.49** *beneficiō* → *beneficio*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.51** *Proinde* → *Proinde*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.53** *vestēsque* → *vestesque*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.53** *prōfert* → *profert*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.53** *Rebeccæ* → *Rebeccæ*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.54** *capiunt* → *capiunt*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.54** *surrēctum* → *surrectum*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.55** *Puellæ* → *Puellæ*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.55** *profectūrum* → *profecturum*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.55** *decem* → *decem*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.56** *remorentur* → *remorentur*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.56** *dīmittī* → *dimitti*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.57** *puellam* → *puellam*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.57** *ēvocātūrōs* → *euocaturos*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.58** *quærunt* → *quærunt*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.58** *velitne* → *velitne*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.58** *Illa* → *Illa*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.59** *dīmīsērunt* → *dimiserunt*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.60** *nostra* → *nostra*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.60** *optāmus* → *optamus*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.60** *centiēs* → *centies*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.60** *centēnāriam* → *centenariam*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.61** *puellæ* → *puellæ*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.61** *equitantēs* → *equitantes*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.61** *secūtæ* → *secutæ*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.61** *assūmptā* → *adsumta*: 1738 leaf 83, read on the page: ad- unassimilated and no p ("ad|ſumta", the ſ faintly printed) (Claude, 2026-11-14)
+- **24.61** *profectus* → *profectus*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.62** *Lahæroi* → *Lahæroi*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.62** *revertēns* → *reuertens*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **24.63** *pōmerīdiānum* → *pomeridianum*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **24.64** *camēlō* → *camelo*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **24.65** *quisnam* → *quisnam*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **24.65** *tendat* → *tendat*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **24.65** *illa* → *illa*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **24.67** *lēnīvit* → *leniuit*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.1** *aliam* → *aliam*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.6** *dōnec* → *donec*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.8** *perāctā* → *peracta*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.8** *senectūte* → *senectute*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.8** *aggregātus* → *adgregatus*: 1738 leaf 84, read on the page: ad- unassimilated ("populares adgregatus.") (Claude, 2026-11-14)
+- **25.9** *Hettæī* → *Hettæi*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.11** *Lahæroi* → *Lahæroi*: 1738 leaf 83, read on the page (Claude, 2026-11-14)
+- **25.12** *nōmina* → *nomina*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.13** *Prīmigenius* → *Primigenius*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.13** *Nabaiothus* → *Nabaiothus*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.13** *Cedar* → *Cedar*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.13** *Adbeel* → *Adbeel*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.13** *Mabsāmus* → *Mabsamus*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.14** *Duma* → *Duma*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.14** *Massa* → *Massa*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.15** *Hadar* → *Hadar*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.15** *Thema* → *Thema*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.15** *Jetur* → *Ietur*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.16** *Assyriam* → *Assyriam*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.22** *cōnflīctārentur* → *conflictarentur*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.24** *cōnfectō* → *confecto*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.28** *Illum* → *Illum*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.28** *adamābat* → *adamabat*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.30** *Impertī* → *Imperti*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.30** *rūfī* → *rufi*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.30** *Idūmī* → *Idumi*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.31** *Vēnde* → *vende*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.31** *prærogātīvam* → *prærogatiuam*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.32** *prærogātīvam* → *prærogatiuam*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.33** *prærogātīvam* → *prærogatiuam*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.34** *cōnfectum* → *confectum*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.34** *lentibus* → *lentibus*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.34** *prærogātīvam* → *prærogatiuam*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **25.34** *contempsit* → *contemsit*: 1738 leaf 85, read on the page: no p ("prærogatiuam contemsit.") (Claude, 2026-11-14)
+- **26.1** *præter* → *præter*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.1** *superiōrem* → *superiorem*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.1** *Palæstīnōrum* → *Palæstinorum*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- ✱ **26.2** *cōnsīditō* → *consideto*: 1738 leaf 85, read on the page: e for i: "con-|sideto" (printed so; misprint or variant) (Claude, 2026-11-14)
+- **26.5** *īnstitūta* → *instituta*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.5** *præcepta* → *præcepta*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.5** *dēcrēta* → *decreta*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.5** *lēgēsque* → *legesque*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.5** *cōnservāvit* → *conseruauit*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.8** *Palæstīnōrum* → *Palæstinorum*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.8** *fenestram* → *fenestram*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.10** *oportuit* → *oportuit*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.12** *favente* → *fauente*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.13** *opulentissimus* → *opulentissimus*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.13** *factus* → *factus*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.14** *boum* → *boum*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.14** *Palæstīnī* → *Palæstini*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.15** *vīvente* → *viuente*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.15** *fossōs* → *fossos*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.15** *peræquārunt* → *peræquarunt*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.18** *puteōsque* → *puteosque*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.18** *dēpressōs* → *depressos*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.18** *Palæstīnīs* → *Palæstinis*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.18** *nuncupātī* → *nuncupati*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.19** *vīvæ* → *viuæ*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.21** *dictus* → *dictus*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.24** *Illā* → *Illa*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- **26.25** *Jōvæque* → *Iouæque*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.25** *invocāvit* → *inuocauit*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.26** *Phicole* → *Phicole*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.28** *fœdus* → *fœdus*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.28** *percutere* → *percutere*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.29** *tetigimus* → *tetigimus*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.29** *nec* → *nec*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.31** *surrēctum* → *surrectum*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.31** *discessērunt* → *discesserunt*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.34** *Jūditham* → *Iuditham*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.34** *Beeris* → *Beeris*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.34** *Hettæōrum* → *Hettæorum*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **26.35** *Rebeccæ* → *Rebeccæ*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.1** *cæcūtīret* → *cæcutiret*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.1** *grandiōrem* → *grandiorem*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.4** *dēlector* → *delector*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.5** *vēnātiōnem* → *venationem*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.5** *profectō* → *profecto*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.7** *cōnfectum* → *confectum*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.8** *præcipiam* → *præcipiam*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.9** *hædōs* → *hædos*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.9** *dēlectātur* → *delectatur*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.13** *præstābō* → *præstabo*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.14** *attulit* → *attulit*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.16** *cervīcis* → *ceruicis*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.16** *lēvōrem* → *læuorem*: 1738 leaf 86, read on the page: æ for e: "ceruicis læuorem hæ-|dorum" (Claude, 2026-11-14)
+- **27.16** *hædōrum* → *hædorum*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.17** *cōnfectum* → *confectum*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.19** *prīmōgenitus* → *primogenitus*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.20** *pactō* → *pacto*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.20** *nactus* → *nactus*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.21** *hūc* → *huc*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.21** *contrectandō* → *contrectando*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.21** *necne* → *nec ne*: 1738 leaf 87, read on the page: printed as two words: "Esaus, nec ne." (Claude, 2026-11-14)
+- **27.22** *contrectāns* → *contrectans*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.25** *ministrātumque* → *ministratumque*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.26** *ōsculāre* → *osculare*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.27** *olfactō* → *olfacto*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.27** *fēcundātus* → *fecundatus*: 1738 leaf 86, read on the page (Claude, 2026-11-14)
+- **27.27** *efflat* → *efflat*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.28** *cælī* → *cæli*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.31** *precārētur* → *precaretur*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.33** *Hīc* → *Hic*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.33** *obstupefactus* → *obstupefactus*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.33** *attulit* → *attulit*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.35** *præripuit* → *præripuit*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.36** *prærogātīvam* → *prærogatiuam*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.36** *intercēpit* → *intercepit*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.39** *cælī* → *cæli*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.40** *gladiōque* → *gladioque*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.40** *excutiēs* → *excuties*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.42** *Rebeccæ* → *Rebeccæ*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.43** *auscultā* → *ausculta*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.44** *īrā* → *ira*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.44** *dēferveat* → *deferueat*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.45** *factī* → *facti*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **27.45** *oblītō* → *oblito*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.46** *pertæsam* → *pertæsam*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.46** *vītæ* → *vitæ*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.46** *tædēre* → *tædere*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **27.46** *Hettæīs* → *Hettæis*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **28.1** *prōsecūtus* → *prosecutus*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.1** *præceptīs* → *præceptis*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.1** *Nōlītō* → *nolito*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.1** *dūcere* → *ducere*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.1** *Chananæīs* → *Chananæis*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.3** *augeat* → *augeat*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.5** *dīmissus* → *dimissus*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.7** *Illum* → *illum*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.7** *parentī* → *parenti*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.7** *obsequentem* → *obsequentem*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **28.7** *profectum* → *profectum*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.8** *Chananæās* → *Chananæas*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **28.9** *præter* → *præter*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.11** *pernoctāvit* → *pernoctauit*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.13** *imminēns* → *imminens*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.15** *nec* → *nec*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.15** *præstem* → *præstem*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.16** *nesciēbam* → *nesciebam*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.17** *hic* → *hic*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.17** *cælī* → *cæli*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.20** *adfuerit* → *adfuerit*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.20** *vīctumque* → *victumque*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **29.1** *profectus* → *profectus*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **29.2** *obstrūctum* → *obstructum*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **29.3** *āvolūtōque* → *auolutoque*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **29.9** *colloquente* → *colloquente*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.11** *ōsculātus* → *osculatus*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.12** *Rebeccæ* → *Rebeccæ*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.12** *illa* → *illa*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.12** *cucurrisset* → *cucurrisset*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.14** *cognātumque* → *cognatumque*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.19** *præfātus* → *præfatus*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.19** *præstāre* → *præstare*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.19** *retinet* → *retinet*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.20** *paucī* → *pauci*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.21** *perāctum* → *peractum*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.21** *conjūnctiōnem* → *coniunctionem*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.21** *trāderet* → *traderet*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.26** *mōris* → *moris*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.28** *complētīsque* → *completisque*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.29** *Balam* → *Balam*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.31** *sterilī* → *sterili*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **29.35** *Jūdæ* → *Iudæ*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **30.3** *illa* → *illa*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.3** *cōnsequar* → *consequar*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.11** *Gadum* → *Gadum*: 1738 leaf 90, read on the page: capital G (Claude, 2026-11-14)
+- **30.13** *beātam* → *beatam*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.13** *Aserem* → *Aserem*: 1738 leaf 90, read on the page: capital A (Claude, 2026-11-14)
+- **30.14** *trīticeæ* → *triticeæ*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.14** *profectus* → *profectus*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.15** *illa* → *illa*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.19** *sextum* → *sextum*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.26** *pactō* → *pacto*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.32** *notātās* → *notatas*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.36** *interpositō* → *interposito*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.37** *pōpuleīs* → *populeis*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.37** *colurnīs* → *colurnis*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.37** *castanīnīs* → *castaninis*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.37** *virentibus* → *virentibus*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **30.40** *distīnctum* → *distinctum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **30.40** *cōnstituēbat* → *constituebat*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **30.43** *pactō* → *pacto*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **30.43** *plūrimum* → *plurimum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **30.43** *ovillum* → *ouillum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **30.43** *caprīnum* → *caprinum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.1** *abstulisse* → *abstulisse*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.1** *illum* → *illum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.1** *comparāsse* → *comparasse*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.3** *adfutūrum* → *adfuturum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.8** *præmiō* → *præmio*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.9** *trānstulit* → *transtulit*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.10** *admissūræ* → *admissuræ*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.10** *colōris* → *coloris*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.10** *distīnctōs* → *distinctos*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.12** *cīnctī* → *cincti*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.12** *distīnctī* → *distincti*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.12** *injūriās* → *iniurias*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.13** *nuncupāstī* → *nuncupasti*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.14** *hērēditātis* → *hereditatis*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.14** *retineāmus* → *retineamus*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.15** *aliēnārum* → *alienarum*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.16** *facultātēs* → *facultates*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.16** *nostræ* → *nostræ*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.18** *facultātēs* → *facultates*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.19** *profectō* → *profecto*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.19** *surripuerat* → *surripuerat*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.20** *profectus* → *profectus*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.21** *trājectōque* → *traiectoque*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.23** *illum* → *illum*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.26** *illum* → *illum*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.26** *Quænam* → *quænam*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.26** *partās* → *partas*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.26** *abdūcerēs* → *abduceres*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.27** *prōsequerer* → *prosequerer*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.30** *profectus* → *profectus*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.31** *adductus* → *adductus*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.34** *posuerat* → *posuerat*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.34** *superque* → *superque*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.34** *perscrūtātus* → *perscrutatus*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.35** *Illa* → *illa*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.35** *ægrē* → *ægre*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.35** *possum* → *possum*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.37** *supellectile* → *supellectile*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.37** *hūc* → *huc*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.37** *dirimant* → *dirimant*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.38** *capræ* → *capræ*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.38** *īnfēcundæ* → *infecundæ*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.38** *oviāriæ* → *ouiariæ*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.39** *noctis* → *noctis*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.40** *fuī* → *fui*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.41** *Hic* → *Hic*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.41** *agitur* → *agitur*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.42** *miseriās* → *miserias*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.43** *respondēns* → *respondens*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.44** *feriāmus* → *feriamus*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.45** *Hīc* → *Hic*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.47** *Jegarsahadutham* → *Iegarsahadutham*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.47** *dēnōmināvit* → *denominauit*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.48** *Galaadus* → *Galaadus*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.48** *dictus* → *dictus*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.48** *hic* → *hic*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.50** *asperius* → *asperius*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.50** *tractābis* → *tractabis*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.50** *præter* → *præter*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.52** *Hic* → *Hic*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.52** *hic* → *hic*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.54** *cēpērunt* → *ceperunt*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **31.54** *noctem* → *noctem*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.3** *Idūmææ* → *Idumææ*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.3** *præmīsit* → *præmisit*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.4** *hāctenus* → *hactenus*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.6** *Nūntiī* → *Nuntii*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.6** *illum* → *illum*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.12** *numerōsiōrem* → *numerosiorem*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.13** *noctem* → *noctem*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.15** *pullīs* → *pullis*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.15** *decem* → *decem*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.15** *asellōs* → *asellos*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **32.15** *decem* → *decem*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.16** *præīre* → *præire*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.16** *interjectō* → *interiecto*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.17** *præcipit* → *præcipit*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **32.20** *præmissō* → *præmisso*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **32.20** *cōnspectum* → *conspectum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.21** *agmine* → *agmine*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.23** *trāductīs* → *traductis*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.24** *restāret* → *restaret*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.24** *aurōræ* → *auroræ*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.25** *contractum* → *contractum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.25** *colluctandō* → *colluctando*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.29** *Hīc* → *Hic*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.29** *mīrābile* → *mirabile*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.30** *illum* → *illum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.30** *præsēns* → *præsens*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.30** *præsentem* → *præsentem*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.31** *præteritō* → *præterito*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.32** *contrahente* → *contrahente*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.32** *vēscantur* → *vescantur*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **32.32** *perstrictum* → *perstrictum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.4** *īnsiliit* → *insiliit*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.4** *flēns* → *flens*: 1738 leaf 93, read on the page (Claude, 2026-11-14)
+- **33.6** *præbent* → *præbent*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.7** *præbent* → *præbent*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.8** *grex* → *grex*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.10** *auctōritātis* → *auctoritatis*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.10** *mūnusculum* → *munusculum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.11** *oblātum* → *oblatum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.11** *dōnum* → *donum*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.11** *mūnificentiā* → *munificentia*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.11** *coāctus* → *coactus*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.11** *accipere* → *accipere*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.12** *Pergāmus* → *pergamus*: 1738 leaf 94, read on the page: lower-case p (et: perga-|mus, inquit); split perga-|mus (Claude, 2026-11-14)
+- **33.13** *prægnantēs* → *prægnantes*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.13** *capræ* → *capræ*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.13** *morientur* → *morientur*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.14** *rogō* → *rogo*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **33.14** *dōnec* → *donec*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **33.14** *Seir* → *Seir*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **33.17** *profectus* → *profectus*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **33.17** *ædificāvit* → *ædificauit*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **33.17** *Sochotha* → *Sochota*: 1738 leaf 95, read on the page: no h: So-|chota (so also the first Sochota of the verse, autem Sochota profectus) (Claude, 2026-11-14)
+- **33.19** *fundum* → *fundum*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.1** *spectandās* → *spectandas*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.2** *Hevæī* → *Heuæi*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.3** *puellæ* → *puellæ*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.3** *blandīs* → *blandis*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.4** *accipiat* → *accipiat*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.5** *corruptēlā* → *corruptela*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.7** *dolōre* → *dolore*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.7** *flāgitium* → *flagitium*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.8** *puellæ* → *puellæ*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.8** *vestræ* → *vestræ*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.9** *affīnitātem* → *adfinitatem*: 1738 leaf 95, read on the page: ad- unassimilated; not on its own crop, read on crops 1094/1099 (et nobiscum adfinitatem contra-) (Claude, 2026-11-14)
+- **34.9** *contrahite* → *contrahite*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.10** *nostrōs* → *nostros*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.12** *Quamvīs* → *Quamuis*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.14** *postulāta* → *postulata*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.16** *coalitūrōs* → *coalituros*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.17** *abductā* → *abducta*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.18** *Sichemō* → *Sichemo*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.19** *nec* → *nec*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.19** *cōnfectiōnem* → *confectionem*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.20** *veniunt* → *veniunt*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.20** *cīvēs* → *ciues*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.21** *ascīscant* → *adsciscant*: 1738 leaf 95, read on the page: ad- unassimilated (Claude, 2026-11-14)
+- **34.21** *trādant* → *tradant*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.22** *concessūrōs* → *concessuros*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.22** *coalēscant* → *coalescant*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.22** *circumcīsī* → *circumcisi*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.23** *pactō* → *pacto*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.23** *facultātēs* → *facultates*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.23** *jūmenta* → *iumenta*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.23** *commūnem* → *communem*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.23** *habitātiōnem* → *habitationem*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.23** *pelliciant* → *pelliciant*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.24** *cīvēs* → *ciues*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.24** *cūnctōs* → *cunctos*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.24** *circumcīdērunt* → *circumciderunt*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.25** *dolōre* → *dolore*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.25** *Dīnæ* → *Dinæ*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.25** *audācter* → *audacter*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.25** *invādunt* → *inuadunt*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.26** *abductā* → *abducta*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.27** *cædem* → *cædem*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.27** *superveniunt* → *superueniunt*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.27** *stuprāta* → *stuprata*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.27** *dēprædantur* → *deprædantur*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.28** *quæque* → *quæque*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.28** *quæque* → *quæque*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.29** *facultātēs* → *facultates*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.29** *dēprædātī* → *deprædati*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *incūsāns* → *incusans*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *magnās* → *magnas*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *difficultātēs* → *difficultates*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *conjectum* → *coniectum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *capitāle* → *capitale*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *Chananæōrum* → *Chananæorum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *Pherezæōrum* → *Pherezæorum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *incolārum* → *incolarum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *perpaucōs* → *perpaucos*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *coitūrōs* → *coituros*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *suamque* → *suamque*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *familiam* → *familiam*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.30** *perditūrōs* → *perdituros*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.31** *æquum* → *æquum*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **34.31** *meretrīce* → *meretrice*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.31** *habita* → *habita*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **34.31** *ipsōrum* → *ipsorum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.1** *fugientī* → *fugienti*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.2** *remōtīs* → *remotis*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.2** *peregrīnīs* → *peregrinis*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.2** *mūtārent* → *mutarent*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.3** *Profectūrōs* → *Profecturos*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.3** *factūrum* → *facturum*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.3** *difficillimīs* → *difficillimis*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.3** *exaudītus* → *exauditus*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *habēbant* → *habebant*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *peregrīnōs* → *peregrinos*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *nec* → *nec*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *inaurēs* → *inaures*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *auriculīs* → *auriculis*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *habēbant* → *habebant*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *trādunt* → *tradunt*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *quercū* → *quercu*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.4** *occultātis* → *occultatis*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.5** *fīnitimīs* → *finitimis*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.5** *cīvitātibus* → *ciuitatibus*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.5** *incussō* → *incusso*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.5** *Jācōbæōs* → *Iacobeos*: 1738 leaf 96, read on the page: e for æ (vt Iacobeos), read on a 2x enlargement (Claude, 2026-11-14)
+- **35.5** *persequerentur* → *persequerentur*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.6** *Lūzam* → *Luzam*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **35.6** *sitam* → *sitam*: 1738 leaf 95, read on the page (Claude, 2026-11-14)
+- **35.7** *extrūxit* → *exstruxit*: 1738 leaf 96, read on the page: exs- (aram exstruxit) (Claude, 2026-11-14)
+- **35.7** *El* → *El*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.7** *fugientī* → *fugienti*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.7** *ostendisset* → *ostendisset*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *Rebeccæ* → *Rebeccæ*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *nūtrīx* → *nutrix*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *Debōra* → *Debora*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *dēfūncta* → *defuncta*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *sepulta* → *sepulta*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *rōbore* → *robore*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *flētus* → *fletus*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.8** *rōbur* → *robur*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.9** *fēlīcitāvit* → *felicitauit*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.10** *dīcerētur* → *diceretur*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.10** *Isrāēlem* → *Israelem*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.10** *vocārī* → *vocari*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.10** *īnstituit* → *instituit*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.11** *Prōpāgātō* → *propagato*: 1738 leaf 96, read on the page: lower-case p (omnipo-|tens, inquit: propagato genus tuum) (Claude, 2026-11-14)
+- **35.11** *gēns* → *gens*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.11** *proficīscātur* → *proficiscatur*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.11** *rēgēsque* → *regesque*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.11** *rēnibus* → *renibus*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.11** *oriantur* → *oriantur*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.12** *secūtūræ* → *secuturæ*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.14** *cōnspersit* → *conspersit*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.14** *perfūdit* → *perfudit*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.15** *locumque* → *locumque*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.16** *Ephrātā* → *Ephrata*: 1738 leaf 96, read on the page: capital E (ab Ephrata vna statione); the form has lower-case e (Claude, 2026-11-14)
+- **35.16** *difficulter* → *difficulter*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.17** *ægrē* → *ægre*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.17** *ēnitentem* → *enitentem*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.18** *Illa* → *illa*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.18** *animam* → *animam*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **35.19** *Ephrātæ* → *Ephratæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.21** *profectus* → *profectus*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.21** *ultrā* → *vltra*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.22** *Balæ* → *Balæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.22** *concubīnæ* → *concubinæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.23** *Zabulōnem* → *Zabulonem*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.27** *Mambrem* → *Mambrem*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.27** *Cariatharbæ* → *Cariatharbæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.27** *Hebrōnem* → *Hebronem*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.28** *octōgintā* → *octoginta*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.28** *complēvit* → *compleuit*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.29** *dēfūnctus* → *defunctus*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.29** *ævī* → *æui*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **35.29** *sepultus* → *sepultus*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.2** *Chananæīs* → *Chananæis*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.2** *Hettæī* → *Hettæi*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.2** *Anæ* → *Anæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.2** *Hevæī* → *Heuæi*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.3** *Basematham* → *Basematham*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **36.3** *Ismælis* → *Ismaelis*: 1738 leaf 97, read on the page: ae, not æ (Ismaelis filiam), read on a 2x enlargement; not on its own crop (Claude, 2026-11-14)
+- **36.5** *Oolībāmā* → *Oolibama*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.5** *Jeussum* → *Ieussum*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.7** *Tantæ* → *Tantæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.7** *tantæ* → *tantæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.7** *cōpiæ* → *copiæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.8** *Idūmæōrum* → *Idumæorum*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.9** *dēducta* → *deducta*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.11** *Elīphazus* → *Eliphazus*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.11** *Saphōnem* → *Saphonem*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.13** *Nahatum* → *Nahatum*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.16** *Gatāmus* → *Gatamus*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.16** *Idūmæā* → *Idumæa*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.17** *Samma* → *Samma*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.17** *Idūmæā* → *Idumæa*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.18** *Oolībāmæ* → *Oolibamæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.18** *Jeus* → *Ieus*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.18** *Oolībāmæ* → *Oolibamæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.18** *Anæ* → *Anæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.20** *incolæ* → *incolæ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.21** *Idūmæā* → *Idumæa*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.22** *Hōrium* → *Horium*: 1738 leaf 96, read on the page (Claude, 2026-11-14)
+- **36.23** *Mānahatum* → *Manahatum*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.23** *Saphōnem* → *Saphonem*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.23** *Ōnāmum* → *Onamum*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.24** *mūlōs* → *mulos*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.24** *invēnit* → *inuenit*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.25** *Oolībāmam* → *Oolibamam*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.26** *Esbānem* → *Esbanem*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.26** *Jethrānem* → *Iethranem*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.26** *Carānem* → *Caranem*: 1738 leaf 98, read on the page: capital C (et Caranem); the form has lower-case c (Claude, 2026-11-14)
+- **36.30** *Ēzer* → *Ezer*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.31** *Idūmæā* → *Idumæa*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.32** *Idūmæā* → *Idumæa*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.32** *Bela* → *Bela*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.32** *Beōris* → *Beoris*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.33** *Jōbābus* → *Iobabus*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.33** *Zaræ* → *Zaræ*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.34** *Husāmus* → *Husamus*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.35** *Hadadus* → *Hadadus*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.37** *profectus* → *profectus*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.40** *gentīlitātum* → *gentilitatum*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.40** *distīnctī* → *distincti*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.40** *Thamna* → *Thamna*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.40** *Alva* → *Alua*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.41** *Phīnōn* → *Phinon*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.43** *Īrāmus* → *Iramus*: 1738 leaf 98, read on the page: capital I (Magdiel et Iramus); the form has lower-case i (Claude, 2026-11-14)
+- **36.43** *Idūmæōrum* → *Idumæorum*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **36.43** *parente* → *parente*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.1** *incoluit* → *incoluit*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.2** *Balæ* → *Balæ*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.2** *Zilpæ* → *Zilpæ*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.2** *fœdam* → *fœdam*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.4** *concēpērunt* → *conceperunt*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- ✱ **37.7** *venerābantur* → *venerebantur*: 1738 leaf 98, read on the page: misprint venere- for venera- (cir-|cumdantes venerebantur.), read on a 2x enlargement (Claude, 2026-11-14)
+- **37.7** *rēgnum* → *regnum*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.8** *exārsērunt* → *exarserunt*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.9** *stēllīs* → *stellis*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.10** *spectat* → *spectat*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.12** *profectīs* → *profectis*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.14** *referat* → *referat*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.14** *dīmissus* → *dimissus*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.15** *quærat* → *quærat*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.16** *quærō* → *quæro*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.16** *ubinam* → *vbinam*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.17** *Discessērunt* → *discesserunt*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.18** *pervenīret* → *perueniret*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.19** *illum* → *illum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.20** *interficiendum* → *interficiendum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.20** *dīcendumque* → *dicendumque*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.20** *ēvāderent* → *euaderent*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.21** *dēterrēbat* → *deterrebat*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.23** *illā* → *illa*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.24** *dētrūdunt* → *detrudunt*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.25** *cætum* → *cætum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.25** *Ismaēlītārum* → *Ismaelitarum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.25** *rēsīnam* → *resinam*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **37.26** *interficere* → *interficere*: 1738 leaf 98, read on the page (Claude, 2026-11-14)
+- **37.27** *Ismaēlītīs* → *Ismaelitis*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.27** *cōnsanguineus* → *consanguineus*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.28** *adductī* → *adducti*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.28** *extractum* → *extractum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.28** *ēductumque* → *eductumque*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.29** *revertitur* → *reuertitur*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.31** *versicolōrem* → *versicolorem*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.32** *significant* → *significant*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.32** *recognōscat* → *recognoscat*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.32** *necne* → *necne*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.34** *vestīmentīs* → *vestimentis*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.34** *succīnctīs* → *succinctis*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.35** *dēplōrāns* → *deplorans*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.36** *Illum* → *Illum*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.36** *eunūchō* → *eunucho*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.36** *magistrō* → *magistro*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.36** *vēndidērunt* → *vendiderunt*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **38.2** *Chananæī* → *Chananæi*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **38.3** *congressū* → *congressu*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **38.8** *Ōnānī* → *Onani*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **38.8** *congrederētur* → *congrederetur*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **38.9** *effundēbat* → *effundebat*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.9** *dōnāret* → *donaret*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.10** *offēnsus* → *offensus*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.11** *viduam* → *viduam*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.11** *paternæ* → *paternæ*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.11** *dōnec* → *donec*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.11** *Jūdæ* → *Iudæ*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.12** *Jūdæ* → *Iudæ*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.12** *suārum* → *suarum*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.16** *dēflectit* → *deflectit*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.16** *admittātur* → *admittatur*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.16** *illa* → *illa*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.16** *dabis* → *dabis*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.16** *admittāre* → *admittare*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.17** *Hædum* → *Hædum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **38.17** *illa* → *illa*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.17** *dōnec* → *donec*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.18** *Quemnam* → *Quemnam*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.19** *exuit* → *exuit*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.19** *viduitātis* → *viduitatis*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.20** *hædum* → *hædum*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.20** *familiārem* → *familiarem*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.20** *Adulāmītam* → *Adulamitam*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.21** *illa* → *illa*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.23** *illa* → *illa*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.23** *hædum* → *hædum*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.23** *mīsī* → *misi*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.24** *Jūdæ* → *Iudæ*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.25** *Illa* → *Illa*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.25** *vittīs* → *vittis*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.25** *mittit* → *mittit*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.25** *recognōscat* → *recognoscat*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.25** *illa* → *illa*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.26** *locāsset* → *locasset*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.29** *ēmergeret* → *emergeret*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **38.29** *interstitium* → *interstitium*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **39.1** *adductum* → *adductum*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **39.1** *ægyptius* → *ægyptius*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **39.1** *abductus* → *abductus*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **39.3** *propitium* → *propitium*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.3** *tractāret* → *tractaret*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.3** *prosperē* → *prospere*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.4** *ministeriō* → *ministerio*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.5** *forīsque* → *forisque*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.6** *cūrāret* → *curaret*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.6** *venustāte* → *venustate*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.7** *cōnstitūtīs* → *constitutis*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.7** *adjectīs* → *adiectis*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.8** *nesciat* → *nesciat*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.9** *nec* → *nec*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.9** *nec* → *nec*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.9** *interdīxerit* → *interdixerit*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.9** *flāgitiō* → *flagitio*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.9** *admittam* → *admittam*: 1738 leaf 101, read on the page: lower-case a (line begins "10 admittam?" after "tantumque in Deum scelus") (Claude, 2026-11-14)
+- **39.10** *illa* → *illa*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.10** *īnstat* → *instat*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.10** *congressum* → *congressum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.11** *accidit* → *accidit*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.11** *administrandum* → *administrandum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **39.11** *domesticīs* → *domesticis*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **39.12** *Hīc* → *Hic*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.12** *illa* → *illa*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.12** *prehēnsō* → *prehenso*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.12** *concumberet* → *concumberet*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.12** *relictō* → *relicto*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.13** *relictum* → *relictum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.13** *illum* → *illum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.13** *profūgisse* → *profugisse*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.14** *domesticōs* → *domesticos*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.14** *adductus* → *adductus*: 1738 leaf 100, read on the page (Claude, 2026-11-14)
+- **39.14** *illūdendum* → *illudendum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.14** *vēnerit* → *venerit*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.14** *comprimeret* → *comprimeret*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.15** *relictō* → *relicto*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.15** *fūgit* → *fugit*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.17** *illum* → *illum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.17** *adductum* → *adductum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.21** *præsēns* → *præsens*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.21** *benignus* → *benignus*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.21** *adfuit* → *adfuit*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.22** *vīnctōs* → *vinctos*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.22** *committeret* → *committeret*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **39.23** *nec* → *nec*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **40.1** *accidit* → *accidit*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **40.1** *eunūchī* → *eunuchi*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **40.1** *prægustātōrum* → *prægustatorum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **40.3** *carcer* → *carcer*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **40.4** *ministrāret* → *ministraret*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **40.9** *prægustātōrum* → *prægustatorum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.9** *Vidēbātur* → *videbatur*: 1738 leaf 102, read on the page: lower-case v (modum : videbatur mihi in somnis); not on its own crop (shows Gen.41.1-2), read on crop 1447 of sheet Gen-1441 (Claude, 2026-11-14)
+- **40.10** *racēmī* → *racemi*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.11** *pōculum* → *poculum*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **40.11** *exprimēbam* → *exprimebam*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.11** *porrigēbam* → *porrigebam*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.12** *Hic* → *hic*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.13** *prōdūcī* → *produci*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **40.13** *restituet* → *restituet*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **40.13** *prægustātor* → *prægustator*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.14** *injiciās* → *iniicias*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.15** *hīc* → *hic*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.16** *Hīc* → *Hic*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.16** *interpretātum* → *interpretatum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.17** *cibōrum* → *ciborum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.17** *pistōriōrum* → *pistoriorum*: 1738 leaf 101, read on the page (Claude, 2026-11-14)
+- **40.17** *comedēbant* → *comedebant*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.18** *significātiō* → *significatio*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.18** *canistra* → *canistra*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.19** *pālum* → *palum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.20** *prægustātōrum* → *prægustatorum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.21** *illum* → *illum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.22** *interpretātus* → *interpretatus*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.23** *prægustātōrum* → *prægustatorum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **40.23** *oblīviōnī* → *obliuioni*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.2** *fōrmōsæ* → *formosæ*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.2** *cārectō* → *carecto*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.3** *alteræ* → *alteræ*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.3** *tenuī* → *tenui*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.3** *cōnsistēbant* → *consistebant*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.4** *macræ* → *macræ*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.4** *opīmās* → *opimas*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.4** *dēvorābant* → *deuorabant*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.4** *Hīc* → *Hic*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.5** *calamō* → *calamo*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.6** *succrēscēbant* → *succrescebant*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.6** *alteræ* → *alteræ*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.6** *exēsæ* → *exesæ*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.7** *cōnsūmēbant* → *consumebant*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.7** *experrēctus* → *experrectus*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.8** *sapientēs* → *sapientes*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.8** *interpretārī* → *interpretari*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.9** *prægustātor* → *prægustator*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.9** *Hīc* → *hic*: 1738 leaf 102, read on the page: lower-case h (locutus est: hic ego peccatum) (Claude, 2026-11-14)
+- **41.12** *ebræus* → *ebræus*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.12** *narrāvissēmus* → *narrauissemus*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.13** *restitūtō* → *restituto*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.13** *āctō* → *acto*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.13** *comprobāvit* → *comprobauit*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.14** *carcere* → *carcere*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.14** *expedītus* → *expeditus*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.14** *mūtātīsque* → *mutatisque*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.14** *vestīmentīs* → *vestimentis*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.15** *illum* → *illum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.15** *interpretātiōnem* → *interpretationem*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.17** *rīpæ* → *ripæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.18** *vaccæ* → *vaccæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.18** *habitæ* → *habitæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.18** *pulchræ* → *pulchræ*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.18** *cārectum* → *carectum*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **41.18** *dēpāscēbant* → *depascebant*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.19** *alteræ* → *alteræ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- ⚑ **41.19** *fœdus* → *fœdius*: 1738 leaf 103, read on the page: a different word: "vt nihil vnquam fœdius in Aegypto viderim" (comparative fœdius, not fœdus); also note vnquam there (Claude, 2026-11-14)
+- **41.20** *strigōsæ* → *strigosæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.21** *īnfōrmēs* → *informes*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.22** *oppressus* → *oppressus*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.22** *spīcās* → *spicas*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.23** *alteræ* → *alteræ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.23** *minūtæ* → *minutæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.23** *perustæ* → *perustæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.25** *factūrus* → *facturus*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.25** *præmonet* → *præmonet*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.26** *vaccæ* → *vaccæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.26** *generōsæ* → *generosæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.26** *spīcæ* → *spicæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.26** *generōsæ* → *generosæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.27** *Alteræ* → *Alteræ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.27** *perustæ* → *perustæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.28** *factūrus* → *facturus*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.30** *sequentur* → *sequentur*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.30** *tantæ* → *tantæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.30** *superfutūrum* → *superfuturum*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.31** *tantæ* → *tantæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.31** *abundantiæ* → *abundantiæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.31** *vestīgium* → *vestigium*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.33** *virum* → *virum*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.33** *scientem* → *scientem*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.33** *præficiās* → *præficias*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.34** *cōnstitūtīs* → *constitutis*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.34** *annōnæ* → *annonæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.38** *cōnfessus* → *confessus*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.39** *ēdoctus* → *edoctus*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.40** *habēbis* → *habebis*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.40** *nūtum* → *nutum*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.42** *dētractum* → *detractum*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.42** *collō* → *collo*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.42** *aureā* → *aurea*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.42** *īnsignītō* → *insignito*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.43** *prōclāmārētur* → *proclamaretur*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.43** *flectite* → *flectite*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.45** *Sāphnathopanēam* → *Saphnathopaneam*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.45** *Pōtīpheræ* → *Potipheræ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.47** *cumulātissimē* → *cumulatissime*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.48** *singulōrum* → *singulorum*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.49** *arēnæ* → *arenæ*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.49** *innumerābile* → *innumerabile*: 1738 leaf 103, read on the page (Claude, 2026-11-14)
+- **41.50** *pēnūria* → *penuria*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **41.51** *attulisset* → *attulisset*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **41.52** *miseriæ* → *miseriæ*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **41.53** *cōpiōsīs* → *copiosis*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.1** *urgente* → *vrgente*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.2** *abjectā* → *abiecta*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.3** *decem* → *decem*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.6** *præfectum* → *præfectum*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.8** *nec* → *nec*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.11** *ūnīus* → *vnius*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.15** *hūc* → *huc*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.21** *redāctōs* → *redactos*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.22** *pœnās* → *pœnas*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.22** *expetī* → *expeti*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.23** *nescientibus* → *nescientibus*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.23** *intercēdēbat* → *intercedebat*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.23** *interpres* → *interpres*: 1738 leaf 104, read on the page (Claude, 2026-11-14)
+- **42.24** *comprehēnsum* → *comprehensum*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.25** *saccum* → *saccum*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.27** *saccum* → *saccum*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.28** *Hīc* → *Hic*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.28** *exanimātī* → *exanimati*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.29** *fortūnam* → *fortunam*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.33** *relictō* → *relicto*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.34** *pactō* → *pacto*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.35** *reperisset* → *reperisset*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.35** *līberī* → *liberi*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **42.37** *committe* → *committe*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.3** *cōnspectum* → *conspectum*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.5** *dīmittis* → *dimittis*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.7** *prætereā* → *præterea*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.8** *hīc* → *hic*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.8** *proficīscāmur* → *proficiscamur*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.8** *vītæque* → *vitæque*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.8** *nostræ* → *nostræ*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.11** *rēsīnæ* → *resinæ*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.11** *mellis* → *mellis*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.11** *ferte* → *ferte*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.11** *arōmata* → *aromata*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.11** *stactēn* → *stacten*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.12** *reportāte* → *reportate*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.13** *assūmptōque* → *assumtoque*: 1738 leaf 106, read on the page: -mt- without p (assumtoque) (Claude, 2026-11-14)
+- **43.13** *proficīsciminī* → *proficiscimini*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.13** *revertiminī* → *reuertimini*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.14** *mītiget* → *mitiget*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.14** *illum* → *illum*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.15** *capiunt* → *capiunt*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.16** *præparet* → *præparet*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.19** *illum* → *illum*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.19** *introitū* → *introitu*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.20** *profectōs* → *profectos*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.21** *lībram* → *libram*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.21** *retulisse* → *retulisse*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.22** *aliud* → *aliud*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.22** *emendum* → *emendum*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.22** *attulisse* → *attulisse*: 1738 leaf 105, read on the page (Claude, 2026-11-14)
+- **43.22** *nescīre* → *nescire*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.22** *reposuisset* → *reposuisset*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.23** *metuere* → *metuere*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.23** *vetat* → *vetat*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.23** *patrium* → *patrium*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **43.23** *immīsisse* → *immisisse*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.23** *pervēnisse* → *peruenisse*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.23** *ēdūcit* → *educit*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.24** *hominēsque* → *hominesque*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.24** *intrōdūcit* → *introducit*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.24** *lavandīs* → *lauandis*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.24** *pābulumque* → *pabulumque*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.25** *adōrnant* → *adornant*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.25** *captūrōs* → *capturos*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.26** *ingressō* → *ingresso*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.26** *habēbant* → *habebant*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **43.26** *intrō* → *intro*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.26** *tulērunt* → *tulerunt*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.26** *venerantēs* → *venerantes*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.27** *valētūdine* → *valetudine*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **43.27** *valet* → *valet*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.27** *dīxerātis* → *dixeratis*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.27** *Vīvit* → *viuit*: 1738 leaf 106, read on the page: lower-case v (inquit: viuit ne); own crop shows other lines (Gen.43.13-14); read on crops 1607 and 1608 (Claude, 2026-11-14)
+- **43.29** *hic* → *hic*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.29** *fuistis* → *fuistis*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- ✱ **43.30** *miserātiōne* → *miersatione*: 1738 leaf 106, read on the page: misprint: printed mierſatione (r and s transposed), confirmed on zoom (Claude, 2026-11-14)
+- **43.30** *flēret* → *fleret*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.30** *quæsīvit* → *quæsiuit*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.30** *penetrāle* → *penetrale*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.31** *continuit* → *continuit*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.32** *turpissimum* → *turpissimum*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.34** *quīntuplō* → *quintuplo*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **43.34** *ūllīus* → *vllius*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **44.1** *plūrimum* → *plurimum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.1** *ūniuscujusque* → *vniuscuiusque*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.2** *præter* → *præter*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.3** *dīlūculō* → *diluculo*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **44.6** *bonum* → *bonum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.6** *pēnsārint* → *pensarint*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.6** *suus* → *suus*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.8** *Chananæōrum* → *Chananæorum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.8** *nēdum* → *nedum*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **44.8** *surripuerīmus* → *surripuerimus*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **44.9** *plēctātur* → *plectatur*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.10** *pœnam* → *pœnam*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.11** *Hīc* → *Hic*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.11** *cōnfestim* → *confestim*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.12** *maximō* → *maximo*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.12** *exōrsus* → *exorsus*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.13** *vestīmentīs* → *vestimentis*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.16** *pūrgābimus* → *purgabimus*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.16** *Dēprehendit* → *deprehendit*: 1738 leaf 107, read on the page: lower case d (after "mus?") (Claude, 2026-11-14)
+- **44.19** *essetne* → *essetne*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.20** *senectā* → *senecta*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.21** *addūcerēmus* → *adduceremus*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.23** *cōnspectum* → *conspectum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.23** *vetuistī* → *vetuisti*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.24** *pervēnimus* → *peruenimus*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.26** *licēre* → *licere*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.26** *cōnspectum* → *conspectum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.26** *licēre* → *licere*: 1738 leaf 107, read on the page: lower case l (admitti non licere.) (Claude, 2026-11-14)
+- **44.29** *illum* → *illum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.29** *aliquid* → *aliquid*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.29** *hūmānitus* → *humanitus*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.30** *nec* → *nec*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.30** *dēvīnctum* → *deuinctum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.31** *simulatque* → *simulatque*: 1738 leaf 106, read on the page (Claude, 2026-11-14)
+- **44.31** *moriētur* → *morietur*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.31** *orcum* → *orcum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.31** *mærōre* → *mærore*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.31** *cōnfectum* → *confectum*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.32** *vas* → *vas*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.32** *factus* → *factus*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.32** *sistendī* → *sistendi*: 1738 leaf 107, read on the page (Claude, 2026-11-14)
+- **44.32** *obstrictus* → *obstrictus*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **44.32** *essem* → *essem*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.1** *præsentēs* → *præsentes*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.1** *nec* → *nec*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.1** *remānsit* → *remansit*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.4** *accessissent* → *accessissent*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.4** *vēndidistis* → *vendidistis*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.5** *hūc* → *huc*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.5** *præmīsit* → *præmisit*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.6** *restant* → *restant*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.8** *hūc* → *huc*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.8** *mīsistis* → *misistis*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.8** *effēcit* → *effecit*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.9** *Festīnāte* → *Festinate*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.11** *præbitūrum* → *præbiturum*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.13** *hūc* → *huc*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.16** *dēlectātus* → *delectatus*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.18** *ægyptia* → *ægyptia*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.20** *Supellectilem* → *Supellectilem*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.22** *vestēs* → *vestes*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.22** *nummīs* → *nummis*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.23** *decem* → *decem*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.23** *ægyptia* → *ægyptia*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.23** *asinās* → *asinas*: 1738 leaf 108, read on the page (Claude, 2026-11-14)
+- **45.26** *narrant* → *narrant*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **45.27** *missa* → *missa*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **45.27** *vehendum* → *vehendum*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.5** *profectus* → *profectus*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.5** *missīs* → *missis*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.9** *Phallum* → *Phallum*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.9** *Hesrōnem* → *Hesronem*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.9** *Carmīm* → *Carmim*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.10** *Jamūēlem* → *Iamuelem*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.10** *Sōcharem* → *Socharem*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.11** *Merārīm* → *Merarim*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.12** *Jūdæ* → *Iudæ*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.12** *Ōnan* → *Onan*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.13** *Thōlam* → *Tholam*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.14** *Jahēlem* → *Iahelem*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.15** *nec* → *nec*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.20** *Pōtīpheræ* → *Potipheræ*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.21** *Belam* → *Belam*: 1738 leaf 109, read on the page: capital B (habuit Belam, printed ha-|buitBelam with little or no space) (Claude, 2026-11-14)
+- **46.24** *Jaseēlem* → *Iaseelem*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.24** *Jēserem* → *Ieserem*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.25** *contribuerat* → *contribuerat*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.26** *præter* → *præter*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.28** *Præmīsit* → *Præmisit*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **46.30** *cōnspexī* → *conspexi*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **46.31** *familiam* → *familiam*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **46.33** *semper* → *semper*: 1738 leaf 110, read on the page: lower case s (a teneris ſemper); form has capital S (Claude, 2026-11-14)
+- **47.3** *quænam* → *quænam*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.4** *incolere* → *incolere*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.6** *patet* → *patet*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.6** *ægyptia* → *ægyptia*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.6** *tractū* → *tractu*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.6** *collocā* → *colloca*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.8** *interrogātus* → *interrogatus*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.11** *Ramesse* → *Ramesse*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.13** *labōrārētur* → *laboraretur*: 1738 leaf 110, read on the page: lower case l; form has capital L (Claude, 2026-11-14)
+- **47.13** *Chananæa* → *Chananæa*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.13** *languērent* → *languerent*: 1738 leaf 110, read on the page: lower case l; form has capital L (Claude, 2026-11-14)
+- **47.18** *præter* → *præter*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.18** *possint* → *possint*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **47.19** *ministret* → *ministret*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.20** *coēmit* → *coemit*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.20** *dominante* → *dominante*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.20** *fundum* → *fundum*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.20** *coāctīs* → *coactis*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.23** *sēmentēs* → *sementes*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.23** *faciātis* → *faciatis*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.25** *beneficiō* → *beneficio*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.26** *præter* → *præter*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.27** *auctī* → *aucti*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **47.30** *obdormīverō* → *obdormiuero*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.1** *perāctīs* → *peractis*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.1** *ægrōtāre* → *ægrotare*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.4** *dēductiōnem* → *deductionem*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.7** *sepelīvī* → *sepeliui*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.7** *Ephrātæ* → *Ephratæ*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.9** *hīc* → *hic*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **48.12** *Hīc* → *Hic*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.13** *ambōs* → *ambos*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.13** *illum* → *illum*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.14** *trāductam* → *traductam*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.16** *nōminis* → *nominis*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.16** *augeantur* → *augeantur*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.17** *offēnsus* → *offensus*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.19** *hic* → *hic*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.19** *prōpāgō* → *propago*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **48.20** *Det* → *det*: 1738 leaf 112, read on the page: lower case d (hoc modo: det tibi Deus); form has capital D (Claude, 2026-11-14)
+- **48.22** *arcū* → *arcu*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.4** *cubīle* → *cubile*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.4** *cōnscendistī* → *conscendisti*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **49.4** *cōnscendendō* → *conscendendo*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.4** *lectum* → *lectum*: 1738 leaf 111, read on the page (Claude, 2026-11-14)
+- **49.6** *nōlim* → *nolim*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.6** *libīdine* → *libidine*: 1738 leaf 112, read on the page: lower case l (et li-|bidine); form has capital L (Claude, 2026-11-14)
+- **49.7** *effrēnātus* → *effrenatus*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.9** *leænam* → *leænam*: 1738 leaf 112, read on the page: lower case l (aut leænam); form has capital L (Claude, 2026-11-14)
+- **49.9** *excitet* → *excitet*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.10** *recēdet* → *recedet*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.10** *dōnec* → *donec*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.11** *asinæ* → *asinæ*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.12** *lacte* → *lacte*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.14** *asinus* → *asinus*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.14** *osseus* → *osseus*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.14** *cubāns* → *cubans*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **49.16** *ulcīscētur* → *vlciscetur*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.16** *ūna* → *vna*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.17** *equitem* → *equitem*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.20** *ferāx* → *ferax*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.21** *cervæ* → *ceruæ*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.22** *gradientibus* → *gradientibus*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.26** *collium* → *collium*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.27** *prædābitur* → *prædabitur*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.29** *Hettæī* → *Hettæi*: 1738 leaf 113, read on the page: capital H; form has lower-case h (Claude, 2026-11-14)
+- **49.30** *duplicem* → *duplicem*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.30** *fundum* → *fundum*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.30** *Ephrōne* → *Ephrone*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.30** *Hettæō* → *Hettæo*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.31** *sepultus* → *sepultus*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.31** *sepelīvī* → *sepeliui*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.32** *possessiō* → *possessio*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.32** *Hettæīs* → *Hettæis*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.33** *præcipiendī* → *præcipiendi*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.33** *lectum* → *lectum*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **49.33** *contractīs* → *contractis*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.1** *flētū* → *fletu*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **50.1** *ōsculātus* → *osculatus*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.2** *medicōs* → *medicos*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.2** *præcēpit* → *præcepit*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.5** *obstrictus* → *obstrictus*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.8** *nec* → *nec*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.8** *relictīs* → *relictis*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.9** *quadrīgāriī* → *quadrigarii*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.10** *Jordānem* → *Iordanem*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.10** *trīstissimumque* → *tristissimumque*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.10** *ēdidērunt* → *ediderunt*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.10** *lūctum* → *luctum*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.11** *Chananææ* → *Chananææ*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.11** *dīcēbant* → *dicebant*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.11** *lūctum* → *luctum*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.11** *trīstem* → *tristem*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.11** *Jordānem* → *Iordanem*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.12** *præceptum* → *præceptum*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.13** *duplicis* → *duplicis*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.13** *fundum* → *fundum*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.13** *Ephrōne* → *Ephrone*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.13** *Hettæō* → *Hettæo*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.13** *positum* → *positum*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.13** *Mambræ* → *Mambræ*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.16** *præcēpisse* → *præcepisse*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.17** *remitteret* → *remitteret*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.17** *flēvit* → *fleuit*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.18** *abjēcissent* → *abiecissent*: 1738 leaf 113, read on the page (Claude, 2026-11-14)
+- **50.20** *cōgitāverātis* → *cogitaueratis*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.20** *bonum* → *bonum*: 1738 leaf 115, read on the page (Claude, 2026-11-14)
+- **50.20** *cōnservāret* → *conseruaret*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.21** *animōs* → *animos*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.22** *decem* → *decem*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **50.26** *decem* → *decem*: 1738 leaf 114, read on the page (Claude, 2026-11-14)
+- **1.1** *Prīncipiō* → *PRINCIPIO*: 1738 leaf 61, read on the page: capitals (drop cap P + RINCIPIO in capitals) (Claude, 2026-11-14)
+- **1.30** *animāta* → *animata*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **1.31** *effectīs* → *effectis*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.1** *perfectī* → *perfecti*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.17** *præter* → *præter*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.17** *arborem* → *arborem*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.18** *adjūmentum* → *adiumentum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **2.18** *accommodātum* → *accommodatum*: 1738 leaf 62, read on the page (Claude, 2026-11-14)
+- **3.18** *prōcreābit* → *procreabit*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.23** *Ēdēnis* → *Edenis*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.23** *abēgit* → *abegit*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **3.24** *custōdiendum* → *custodiendum*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.1** *Ēvā* → *Eua*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **4.1** *gravida* → *grauida*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **4.1** *illa* → *illa*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **4.1** *ēnīxa* → *enixa*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **4.1** *Adepta* → *adepta*: 1738 leaf 63, read on the page: lower-case a (": adepta sum"); not on its own crop (that shows Gen 3, leaf 63); read on tall-007.jpg crop 2 (leaf 64, Gen 4.1-2) (Claude, 2026-11-14)
+- **4.2** *germānum* → *germanum*: 1738 leaf 63, read on the page (Claude, 2026-11-14)
+- **4.7** *rēctē* → *recte*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.7** *litābis* → *litabis*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.7** *rēctē* → *recte*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.7** *foribus* → *foribus*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.7** *cubat* → *cubat*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.7** *imperābis* → *imperabis*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.11** *eris* → *eris*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.20** *tabernācula* → *tabernacula*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.21** *tangendæ* → *tangendæ*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.21** *citharæ* → *citharæ*: 1738 leaf 64, read on the page (Claude, 2026-11-14)
+- **4.23** *attendite* → *attendite*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.15** *Jarēdum* → *Iaredum*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.16** *octingentīs* → *octingentis*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.20** *sexāgēsimō* → *sexagesimo*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **5.29** *īnfēlīcitāta* → *infelicitata*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **6.9** *gereret* → *gereret*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **6.17** *immittam* → *immittam*: 1738 leaf 66, read on the page (Claude, 2026-11-14)
+- **9.11** *fœdere* → *fœdere*: 1738 leaf 68, read on the page (Claude, 2026-11-14)
+- **12.6** *illā* → *illa*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **12.19** *abīret* → *abiret*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **14.1** *Commissum* → *COmmissum*: 1738 leaf 72, read on the page: capitals: drop cap C followed by capital O (chapter opening) (Claude, 2026-11-14)
+- **14.2** *Admæ* → *Admæ*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.2** *Semebrem* → *Semebrem*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.2** *rēgulōs* → *regulos*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.2** *Balæ* → *Balæ*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.5** *Codralomor* → *Codralomór*: 1738 leaf 72, read on the page: mark like an acute over the last o (Codralomór), seen in two crops; could be a blemish; l faint (looks like i) - please check (Claude, 2026-11-14)
+- **14.10** *abundābat* → *abundabat*: 1738 leaf 72, read on the page (Claude, 2026-11-14)
+- **14.14** *vernās* → *vernas*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.22** *summum* → *summum*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **14.22** *cælī* → *cæli*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.13** *futūrōs* → *futuros*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **15.16** *sæculō* → *sæculo*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.3** *incola* → *incola*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- ⚑ **16.4** *Hic* → *Ille*: 1738 leaf 74, read on the page: different word: 1738 prints "erat. Ille cum Hagare rem habuit" (not Hic); not on its own crop, read on tall-015.jpg crops 3-4 (leaf 74) (Claude, 2026-11-14)
+- **16.7** *ītur* → *itur*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.16** *sextum* → *sextum*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.16** *octōgēsimum* → *octogesimum*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **17.11** *ictī* → *icti*: 1738 leaf 75, read on the page (Claude, 2026-11-14)
+- **18.1** *Prætereā* → *PRæterea*: 1738 leaf 75, read on the page: capitals: drop cap P followed by capital R (chapter opening) (Claude, 2026-11-14)
+- **19.19** *cōnservēs* → *conserues*: 1738 leaf 77, read on the page (Claude, 2026-11-14)
+- **19.28** *calcāriæ* → *calcariæ*: 1738 leaf 78, read on the page (Claude, 2026-11-14)
+- **21.5** *centēsimum* → *centesimum*: 1738 leaf 79, read on the page (Claude, 2026-11-14)
+- **22.11** *revocāns* → *reuocans*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **22.12** *committere* → *committere*: 1738 leaf 80, read on the page (Claude, 2026-11-14)
+- **23.10** *Hīc* → *Hic*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.10** *Ephrōn* → *Ephron*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.10** *Hettæus* → *Hettæus*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **23.15** *hic* → *hic*: 1738 leaf 81, read on the page (Claude, 2026-11-14)
+- **24.14** *prætereā* → *præterea*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **24.31** *præparāvisse* → *præparauisse*: 1738 leaf 82, read on the page (Claude, 2026-11-14)
+- **26.17** *profectus* → *profectus*: 1738 leaf 85, read on the page (Claude, 2026-11-14)
+- ✱ **26.21** *Satnās* → *Satuas*: 1738 leaf 85, read on the page: u for n (looks like a turned n / misprint): "tiis Satuas dictus est" (Claude, 2026-11-14)
+- **27.27** *Hīc* → *hic*: 1738 leaf 87, read on the page (Claude, 2026-11-14)
+- **28.5** *Syrī* → *Syri*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.5** *Rebeccæ* → *Rebeccæ*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.13** *tuæque* → *tuæque*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.14** *stirpe* → *stirpe*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.14** *pulveris* → *pulueris*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.14** *auctā* → *aucta*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.16** *expergēfactus* → *expergefactus*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.18** *oleōque* → *oleoque*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **28.19** *dīcerētur* → *diceretur*: 1738 leaf 88, read on the page (Claude, 2026-11-14)
+- **29.6** *venientem* → *venientem*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **30.2** *ventris* → *ventris*: 1738 leaf 89, read on the page (Claude, 2026-11-14)
+- **30.20** *Zabulōnem* → *Zabulonem*: 1738 leaf 90, read on the page (Claude, 2026-11-14)
+- **31.1** *dictitābant* → *dictitabant*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.1** *facultātēs* → *facultates*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.13** *Bēthelis* → *Bethelis*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.13** *cōnspersistī* → *conspersisti*: 1738 leaf 91, read on the page (Claude, 2026-11-14)
+- **31.39** *imputābās* → *imputabas*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.40** *æstū* → *æstu*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.42** *perfūnctus* → *perfunctus*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **31.44** *fœdus* → *fœdus*: 1738 leaf 92, read on the page (Claude, 2026-11-14)
+- **32.20** *faciēbat* → *faciebat*: 1738 leaf 94, read on the page (Claude, 2026-11-14)
+- **34.1** *Dīna* → *DIna*: 1738 leaf 95, read on the page: capitals: drop cap D followed by capital I (chapter opening) (Claude, 2026-11-14)
+- **36.6** *pecūliō* → *peculio*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **36.6** *comparāverat* → *comparauerat*: 1738 leaf 97, read on the page (Claude, 2026-11-14)
+- **41.15** *somniī* → *somnii*: 1738 leaf 102, read on the page (Claude, 2026-11-14)
+- **45.1** *Hīc* → *HIc*: 1738 leaf 108, read on the page: capitals: drop cap H followed by capital I (chapter opening) (Claude, 2026-11-14)
+- **46.1** *profectus* → *profectus*: 1738 leaf 109, read on the page (Claude, 2026-11-14)
+- **47.1** *profectus* → *profectus*: 1738 leaf 110, read on the page (Claude, 2026-11-14)
+- **48.18** *hic* → *hic*: 1738 leaf 112, read on the page (Claude, 2026-11-14)
+- **4.26** *Tunc* → *Tunc*: 1738 leaf 65, read on the page (Claude, 2026-11-14)
+- **12.5** *comparāverant* → *comparauerant*: 1738 leaf 71, read on the page (Claude, 2026-11-14)
+- **14.24** *juvenum* → *iuuenum*: 1738 leaf 73, read on the page (Claude, 2026-11-14)
+- **16.4** *sentiēns* → *sentiens*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **16.4** *contemnēbat* → *contemnebat*: 1738 leaf 74, read on the page (Claude, 2026-11-14)
+- **25.15** *Nassis* → *Nassis*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.15** *Cedema* → *Cedema*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.16** *Ismælis* → *Ismaelis*: 1738 leaf 84, read on the page: ae as two letters (Claude, 2026-11-14)
+- **25.16** *prīncipēs* → *principes*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.16** *variīs* → *variis*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.16** *vīcīs* → *vicis*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **25.16** *castellīs* → *castellis*: 1738 leaf 84, read on the page (Claude, 2026-11-14)
+- **27.1** *Nāte* → *nate*: 1738 leaf 86, read on the page: lower case (Claude, 2026-11-14)
+- **37.28** *nummīs* → *nummis*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.28** *Ismaēlītīs* → *Ismaelitis*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
+- **37.28** *abdūcitur* → *abducitur*: 1738 leaf 99, read on the page (Claude, 2026-11-14)
 
-*ammonītæ* → *ammonite*; *audīssent* → *audiuissent*; *audīsset* → *audiuisset*; *cælī* → *cceli*; *cēnam* → *ccenam*; *cœperat* → *cceperat*; *cœpisset* → *ccepisset*; *cœpit* → *ccepit* ×2; *cœpērunt* → *cceperunt*; *cœpēruntque* → *cceperuntque*; *dēversōrium* → *diuersorium*; *dēversōriō* → *diuersorio*; *dīversæ* → *diuerse*; *erī* → *heri* ×2; *grātiam* → *graciam*; *illa* → *iila*; *illam* → *iilam*; *ille* → *jjle*; *illum* → *iilum*; *illī* → *iili* ×2; *illī* → *ilii* ×3; *illīs* → *iilis*; *illīus* → *iilius*; *illō* → *iilo*; *illōs* → *iilos*; *in* → *inn*; *isrāēlītæ* → *israelite* ×4; *jussit* → *iusiit*; *jācōbæōs* → *iacobeos*; *mahalatham* → *mahalatam*; *multiplicābō* → *mulciplicabo*; *nephthālis* → *nephtalis*; *nūntiōs* → *nuncios*; *occurrerint* → *ocurrerint*; *ovillum* → *ouiilum*; *pallium* → *paliium*; *patrī* → *ppatri*; *pelliciant* → *peliiciant*; *propāgātæ* → *propagate*; *præposuit* → *prreposuit*; *prīncipe* → *pprincipe*; *pullīs* → *puliis*; *septentriōnēs* → *septemtriones* ×2; *servīsset* → *seruiuisset*; *sochotha* → *sochota*; *solymam* → *solimam*; *summissē* → *submisse* ×4; *summissō* → *submisso*; *summittitō* → *submittito*; *summittunt* → *submittunt*; *summīsit* → *submisit*; *temptāvit* → *tentauit*; *tibi* → *cibi*; *tēlīs* → *htelis*; *vicissim* → *vicisiim*; *vultibus* → *vulcibus*; *ēgressī* → *egresii* ×2
+## Spellings the approved rules normalize (302)
 
-## Not read in the OCR (2123)
+*afferre* → *adferre*; *afferrent* → *adferrent*; *affertō* → *adferto*; *afficiam* → *adficiam*; *afficī* → *adfici*; *affātus* → *adfatus*; *aggregābor* → *adgregabor*; *aggressus* → *adgressus* ×8; *alligābit* → *adligabit*; *allocūtus* → *adlocutus* ×7; *alloquar* → *adloquar*; *alloquitur* → *adloquitur* ×6; *alloquuntur* → *adloquuntur*; *alloquēns* → *adloquens* ×7; *appellantēs* → *adpellantes* ×3; *appellāre* → *adpellare*; *applicuit* → *adplicuit*; *applicā* → *adplica*; *appositus* → *adpositus*; *appositīs* → *adpositis*; *appāruit* → *adparuit* ×5; *appārēbat* → *adparebat*; *appōnī* → *adponi*; *ascendentēs* → *adscendentes*; *ascendit* → *adscendit* ×2; *aspectum* → *adspectum*; *aspectū* → *adspectu* ×4; *aspice* → *adspice*; *aspiciēns* → *adspiciens* ×3; *assecūtus* → *adsecutus* ×2; *assidēns* → *adsidens*; *assūmptō* → *adsumto*; *astābat* → *adstabat* ×2; *astāre* → *adstare*; *causa* → *caussa*; *causam* → *caussam* ×3; *causā* → *caussa* ×6; *condiciō* → *conditio*; *condiciōne* → *conditione* ×2; *cotīdiē* → *quotidie*; *cum* → *quum* ×117; *cumque* → *quumque* ×12; *eram* → *heram* ×2; *erum* → *herum*; *erīlis* → *herilis*; *erīlī* → *herili*; *erō* → *hero*; *eundem* → *eumdem*; *harēnātō* → *arenato*; *intellegant* → *intelligant*; *intellegēns* → *intelligens*; *iīs* → *eis* ×37; *iīsque* → *eisque* ×7; *nē* → *nae*; *obœdiat* → *obediat*; *petīvit* → *petiit* ×3; *quandam* → *quamdam*; *quattuor* → *quatuor* ×3; *quattuordecim* → *quatuordecim* ×2; *quendam* → *quemdam* ×8; *querquētum* → *quercetum*; *querquētō* → *querceto*; *reppererit* → *repererit*; *sescentēsimō* → *sexcentesimo* ×2; *sescentōs* → *sexcentos*; *subole* → *sobole* ×2; *subolis* → *sobolis* ×2; *subolēs* → *soboles*; *umerīs* → *humeris* ×3
 
-Spelling as settled, in the printer's conventions (u/v, i/j); not checked on the page.
+## Printer's spellings no rule covers (95)
 
-| Verse | Settled | Printed | OCR |
-|---|---|---|---|
-| Gen.1.1 | Prīncipiō | Principio | — |
-| Gen.1.2 | Cum | Cum | Qiitim |
-| Gen.1.2 | rudis | rudis | rtidis |
-| Gen.1.2 | profundum | profundum | — |
-| Gen.1.4 | cum | cum | qiiiini |
-| Gen.1.5 | noctem | noctem | — |
-| Gen.1.5 | appellāvit | appellauit | — |
-| Gen.1.6 | exsisteret | exsisteret | — |
-| Gen.1.7 | subter | subter | ubter |
-| Gen.1.9 | cōnflueret | conflueret | — |
-| Gen.1.9 | appārēret | appareret | adpareret |
-| Gen.1.10 | affluentiam | affluentiam | adrluentiam |
-| Gen.1.11 | frūctiferās | fructiferas | — |
-| Gen.1.11 | quæque | quæque | quxque |
-| Gen.1.11 | frūctum | fructum | fruclum |
-| Gen.1.12 | frūctiferārum | fructiferarum | frucliferarum |
-| Gen.1.14 | existerent | existerent | — |
-| Gen.1.14 | lūmināria | luminaria | — |
-| Gen.1.14 | signa | signa | igna |
-| Gen.1.15 | collūstrārent | collustrarent | coliuftrarenr |
-| Gen.1.16 | majus | maius | mains |
-| Gen.1.16 | Tum | tum | turn |
-| Gen.1.18 | noctemque | noctemque | — |
-| Gen.1.18 | moderandam | moderandam | — |
-| Gen.1.21 | Creāvitque | Creauitque | — |
-| Gen.1.21 | ālātārum | alatarum | — |
-| Gen.1.22 | multiplicāminī | multiplicamini | muldplicamini |
-| Gen.1.22 | multiplicentur | multiplicentur | — |
-| Gen.1.25 | cum | cum | — |
-| Gen.1.26 | aquātilibus | aquatilibus | aquadlibus |
-| Gen.1.28 | multiplicāminī | multiplicamini | — |
-| Gen.1.29 | frūgiferæ | frugiferæ | — |
-| Gen.1.29 | arboreō | arboreo | — |
-| Gen.1.29 | præditās | præditas | prxditas |
-| Gen.1.29 | alimōniam | alimoniam | niam |
-| Gen.1.30 | animāta | animata | — |
-| Gen.1.31 | effectīs | effectis | effeclis |
-| Gen.2.1 | perfectī | perfecti | — |
-| Gen.2.1 | cælī | cæli | carli |
-| Gen.2.2 | effectō | effecto | efFeclo |
-| Gen.2.3 | septimum | septimum | fepdmum |
-| Gen.2.3 | faustum | faustum | — |
-| Gen.2.4 | cælī | cæli | cxli |
-| Gen.2.4 | Cum | Cum | Qimm |
-| Gen.2.6 | ūniversum | vniuersum | — |
-| Gen.2.7 | effectus | effectus | effeclus |
-| Gen.2.8 | Ēdēne | Edene | — |
-| Gen.2.9 | tum | tum | turn |
-| Gen.2.9 | scientiæ | scientiæ | fcientix |
-| Gen.2.12 | probātissimum | probatissimum | — |
-| Gen.2.14 | Tigris | Tigris | — |
-| Gen.2.14 | dīcitur | dicitur | — |
-| Gen.2.17 | præter | præter | — |
-| Gen.2.17 | arborem | arborem | — |
-| Gen.2.17 | scientiæ | scientiæ | — |
-| Gen.2.18 | adjūmentum | adiumentum | — |
-| Gen.2.18 | accommodātum | accommodatum | — |
-| Gen.2.19 | appellāsset | appellasset | — |
-| Gen.2.20 | imposuisset | imposuisset | — |
-| Gen.2.23 | Tum | Tum | Turn |
-| Gen.2.23 | sūmpta | sumpta | fumta |
-| Gen.2.24 | relictō | relicto | relifto |
-| Gen.2.24 | adhærēbit | adhærebit | — |
-| Gen.2.24 | carnem | carnem | — |
-| Gen.2.25 | cum | cum | — |
-| Gen.3.3 | plēctāmur | plectamur | — |
-| Gen.3.5 | scit | scit | — |
-| Gen.3.5 | comēderitis | comederitis | — |
-| Gen.3.5 | tum | tum | — |
-| Gen.3.6 | Hīc | Hic | Hie |
-| Gen.3.6 | arborem | arborem | arborera |
-| Gen.3.6 | discendum | discendum | difcendura |
-| Gen.3.6 | sūmpsit | sumpsit | fumfit |
-| Gen.3.6 | frūctū | fructu | fruclu |
-| Gen.3.6 | comēditque | comeditque | coraeditque |
-| Gen.3.6 | comēdit | comedit | comedir |
-| Gen.3.7 | Tum | Tum | Turn |
-| Gen.3.7 | nūdōs | nudos | nudo |
-| Gen.3.8 | inambulantis | inambulantis | — |
-| Gen.3.9 | inclāmāns | inclamans | — |
-| Gen.3.11 | præcēperam | præceperam | pracceperam |
-| Gen.3.14 | Tum | Tum | Turn |
-| Gen.3.14 | tum | tum | turn |
-| Gen.3.14 | cicurum | cicurum | cicurarum |
-| Gen.3.14 | tum | tum | turn |
-| Gen.3.18 | ipsā | ipsa | — |
-| Gen.3.18 | carduōs | carduos | — |
-| Gen.3.18 | prōcreābit | procreabit | — |
-| Gen.3.18 | sentēs | sentes | femes |
-| Gen.3.18 | herbīs | herbis | — |
-| Gen.3.19 | dōnec | donec | — |
-| Gen.3.21 | induit | induit | aainduit |
-| Gen.3.22 | sciēns | sciens | — |
-| Gen.3.22 | perīculum | periculum | — |
-| Gen.3.22 | frūctū | fructu | frtidhi |
-| Gen.3.23 | Ēdēnis | Edenis | — |
-| Gen.3.23 | abēgit | abegit | — |
-| Gen.3.23 | coleret | coleret | — |
-| Gen.3.24 | ējectō | eiecto | — |
-| Gen.3.24 | orientālī | orientali | — |
-| Gen.3.24 | parte | parte | — |
-| Gen.3.24 | Cherūbōs | Cherubos | — |
-| Gen.3.24 | flammeum | flammeum | — |
-| Gen.3.24 | ēnsem | ensem | — |
-| Gen.3.24 | vibrantem | vibrantem | — |
-| Gen.3.24 | arboris | arboris | — |
-| Gen.3.24 | vītālis | vitalis | — |
-| Gen.3.24 | aditum | aditum | — |
-| Gen.3.24 | custōdiendum | custodiendum | — |
-| Gen.4.1 | cum | cum | — |
-| Gen.4.1 | Ēvā | Eua | — |
-| Gen.4.1 | gravida | grauida | — |
-| Gen.4.1 | ēnīxa | enixa | — |
-| Gen.4.1 | Adepta | Adepta | — |
-| Gen.4.1 | virum | virum | — |
-| Gen.4.2 | prætereā | præterea | — |
-| Gen.4.2 | germānum | germanum | — |
-| Gen.4.2 | Abēlem | Abelem | — |
-| Gen.4.2 | Hīc | Hic | — |
-| Gen.4.2 | Abēl | Abel | — |
-| Gen.4.2 | ōpiliō | opilio | — |
-| Gen.4.2 | agricola | agricola | — |
-| Gen.4.3 | Aliquantō | Aliquanto | — |
-| Gen.4.3 | lībāvisset | libauisset | — |
-| Gen.4.3 | frūgibus | frugibus | — |
-| Gen.4.4 | Abēl | Abel | — |
-| Gen.4.4 | prīmigenīs | primigenis | — |
-| Gen.4.4 | maximē | maxime | — |
-| Gen.4.4 | opīmīs | opimis | — |
-| Gen.4.4 | Abēlem | Abelem | — |
-| Gen.4.5 | acerbē | acerbe | — |
-| Gen.4.5 | sublāberētur | sublaberetur | — |
-| Gen.4.6 | acerbē | acerbe | — |
-| Gen.4.6 | fers | fers | — |
-| Gen.4.7 | rēctē | recte | — |
-| Gen.4.7 | litābis | litabis | htabis |
-| Gen.4.7 | rēctē | recte | — |
-| Gen.4.7 | foribus | foribus | — |
-| Gen.4.7 | cubat | cubat | — |
-| Gen.4.7 | imperābis | imperabis | — |
-| Gen.4.9 | Tum | Tum | Turn |
-| Gen.4.11 | eris | eris | — |
-| Gen.4.11 | accēperit | acceperit | acceperif |
-| Gen.4.12 | colentī | colenti | — |
-| Gen.4.12 | præbeat | præbeat | prsebeat |
-| Gen.4.13 | Hīc | Hic | Hie |
-| Gen.4.14 | cōnspectum | conspectum | confpeclum |
-| Gen.4.15 | septuplī | septupli | feptupH |
-| Gen.4.15 | pœnam | pœnam | pcenam |
-| Gen.4.15 | apposuit | apposuit | adpofiiit |
-| Gen.4.17 | appellāvit | appellauit | adpellauit |
-| Gen.4.18 | Mathusæl | Mathusæl | Mathulael |
-| Gen.4.19 | Hīc | Hic | Hicig |
-| Gen.4.20 | tabernācula | tabernacula | — |
-| Gen.4.21 | tangendæ | tangendæ | tangendx |
-| Gen.4.21 | citharæ | citharæ | citharac |
-| Gen.4.22 | ærāriī | ærarii | xrarii |
-| Gen.4.23 | commonuit | commonuit | — |
-| Gen.4.23 | Lamēchī | Lamechi | — |
-| Gen.4.23 | dīcam | dicam | — |
-| Gen.4.23 | attendite | attendite | — |
-| Gen.4.23 | plāgīs | plagis | — |
-| Gen.4.23 | mortālem | mortalem | — |
-| Gen.4.23 | vulneribus | vulneribus | — |
-| Gen.4.23 | interficerem | interficerem | — |
-| Gen.4.24 | cum | cum | — |
-| Gen.4.24 | Caīnō | Caino | — |
-| Gen.4.24 | septuplī | septupli | — |
-| Gen.4.24 | pœna | pœna | — |
-| Gen.4.24 | profectō | profecto | — |
-| Gen.4.24 | Lamēchō | Lamecho | — |
-| Gen.4.24 | septuāgēcuplī | septuagecupli | — |
-| Gen.4.24 | septuplī | septupli | — |
-| Gen.4.25 | prætereā | præterea | — |
-| Gen.4.25 | Sēthus | Sethus | — |
-| Gen.4.25 | reposuisse | reposuisse | — |
-| Gen.4.25 | alteram | alteram | — |
-| Gen.4.25 | Abēlis | Abelis | — |
-| Gen.4.25 | Caīnō | Caino | — |
-| Gen.4.25 | perēmptī | perempti | — |
-| Gen.4.26 | Sēthō | Setho | — |
-| Gen.4.26 | Enossum | Enossum | — |
-| Gen.4.26 | appellāvit | appellauit | — |
-| Gen.4.26 | Tunc | Tunc | — |
-| Gen.4.26 | cœptum | cœptum | — |
-| Gen.4.26 | invocārī | inuocari | — |
-| Gen.5.1 | effēcit | effecit | eftecit |
-| Gen.5.2 | appellāvit | appellauit | adpellauit |
-| Gen.5.6 | Sēthus | Sethus | — |
-| Gen.5.7 | prōgenuisset | progenuisset | — |
-| Gen.5.9 | nōnāgintā | nonaginta | notiaginta |
-| Gen.5.10 | tum | tum | tuni |
-| Gen.5.10 | tum | tum | turn |
-| Gen.5.12 | Mahalaleēlem | Mahalaleelem | — |
-| Gen.5.16 | octingentīs | octingentis | — |
-| Gen.5.17 | octingentēsimō | octingentesimo | — |
-| Gen.5.20 | vītæ | vitæ | vitx |
-| Gen.5.20 | sexāgēsimō | sexagesimo | fexagefiino |
-| Gen.5.25 | octōgēsimō | octogesimo | — |
-| Gen.5.26 | octōgintā | octoginta | — |
-| Gen.5.27 | nōngentōs | nongentos | — |
-| Gen.5.28 | octōgēsimum | octogesimum | — |
-| Gen.5.29 | Hic | hic | hie |
-| Gen.5.29 | manuum | manuum | — |
-| Gen.5.29 | labōribus | laboribus | — |
-| Gen.5.29 | īnfēlīcitāta | infelicitata | — |
-| Gen.5.30 | quīngentōs | quingentos | quingenros |
-| Gen.6.1 | crēscere | crescere | — |
-| Gen.6.2 | pulchritūdine | pulchritudine | pulchiitudine |
-| Gen.6.3 | Tum | Tum | — |
-| Gen.6.3 | cum | cum | ami |
-| Gen.6.4 | Gigantēs | gigantes | giganres |
-| Gen.6.4 | cōnūbiīs | conubiis | — |
-| Gen.6.5 | Cum | Cum | rQuum |
-| Gen.6.6 | pænituit | pænituit | — |
-| Gen.6.6 | animōque | animoque | animoquc |
-| Gen.6.7 | nec | nec | nee |
-| Gen.6.7 | pænitēbat | pænitebat | pcenhebat |
-| Gen.6.9 | integerrimus | integerrimus | ntegerrimus |
-| Gen.6.9 | voluntāte | voluntate | — |
-| Gen.6.9 | gereret | gereret | — |
-| Gen.6.10 | Semum | Semum | — |
-| Gen.6.11 | injūstitiæ | iniustitiæ | iniuftitix |
-| Gen.6.12 | corruptissimum | corruptissimum | esfecorruptisfimum |
-| Gen.6.12 | perditissimōs | perditissimos | — |
-| Gen.6.12 | mōrēs | mores | — |
-| Gen.6.13 | hūmānārum | humanarum | humanaruro |
-| Gen.6.13 | interitus | interitus | interims |
-| Gen.6.14 | loculātam | loculatam | loculacam |
-| Gen.6.15 | ratiō | ratio | — |
-| Gen.6.15 | longitūdō | longitudo | longicudo |
-| Gen.6.15 | lātitūdō | latitudo | laritudo |
-| Gen.6.15 | altitūdō | altitudo | ahitudo |
-| Gen.6.16 | arcæ | arcæ | arcx |
-| Gen.6.17 | immittam | immittam | innnittam |
-| Gen.6.17 | extinguantur | extinguantur | exftinguantur |
-| Gen.6.19 | præditīs | præditis | prxditis |
-| Gen.6.19 | supersint | supersint | fuperlint |
-| Gen.6.21 | edendō | edendo | — |
-| Gen.6.21 | tum | tum | — |
-| Gen.6.21 | tum | tum | — |
-| Gen.7.1 | sæculī | sæculi | frculi |
-| Gen.7.2 | assūmitō | assumito | adfumito |
-| Gen.7.5 | præceptō | præcepto | praetfcepto |
-| Gen.7.7 | ēvītandæ | euitandæ | euitanda |
-| Gen.7.8 | tum | tum | turn |
-| Gen.7.8 | tum | tum | turn |
-| Gen.7.8 | tum | tum | turn |
-| Gen.7.10 | præterīssent | præterissent | pvacteriisfent |
-| Gen.7.12 | perpluit | perpluit | pcrpluir |
-| Gen.7.14 | tum | tum | — |
-| Gen.7.14 | tum | tum | turn |
-| Gen.7.17 | arca | arca | area |
-| Gen.7.19 | auctæ | auctæ | auclac |
-| Gen.7.20 | cubitōrum | cubitorum | cubitonim |
-| Gen.7.23 | arca | arca | area |
-| Gen.8.1 | arcā | arca | area |
-| Gen.8.2 | obstrūctīs | obstructis | — |
-| Gen.8.2 | profundī | profundi | — |
-| Gen.8.3 | Tum | tum | turn |
-| Gen.8.3 | hūc | huc | hue |
-| Gen.8.6 | arcæ | arcæ | arae |
-| Gen.8.7 | revertit | reuertit | — |
-| Gen.8.7 | dōnec | donec | — |
-| Gen.8.8 | columbam | columbam | — |
-| Gen.8.9 | invenīret | inueniret | — |
-| Gen.8.10 | columbam | columbam | coiumbam |
-| Gen.8.10 | arcā | arca | area |
-| Gen.8.11 | dētēctam | detectam | — |
-| Gen.8.12 | Exspectāvit | Exspectauit | — |
-| Gen.8.12 | columbam | columbam | coiumbam |
-| Gen.8.13 | arcæ | arcæ | areas |
-| Gen.8.15 | præcēpit | præcepit | — |
-| Gen.8.17 | multiplicēs | multiplices | inultiplices |
-| Gen.8.18 | nuribus | nuribus | — |
-| Gen.8.21 | dēlectātus | delectatus | delegatus |
-| Gen.8.22 | Nec | Nec | Nee |
-| Gen.8.22 | æstātēs | æstates | reflates |
-| Gen.8.22 | noctēs | noctes | nocks |
-| Gen.9.2 | tum | tum | turn |
-| Gen.9.2 | tum | tum | turn |
-| Gen.9.2 | moventia | mouentia | — |
-| Gen.9.3 | præditā | prædita | praditaj |
-| Gen.9.3 | adhibētōte | adhibetote | adhibitote |
-| Gen.9.3 | concēdō | concedo | — |
-| Gen.9.4 | carnem | carnem | — |
-| Gen.9.4 | cum | cum | — |
-| Gen.9.4 | animæ | animæ | — |
-| Gen.9.5 | ēreptæ | ereptæ | ereptx |
-| Gen.9.5 | vītæ | vitæ | vitx |
-| Gen.9.5 | pœnās | pœnas | pcenas |
-| Gen.9.5 | tum | tum | turn |
-| Gen.9.6 | factus | factus | — |
-| Gen.9.8 | Tum | Tum | Turn |
-| Gen.9.9 | fœdus | fœdus | fcedus |
-| Gen.9.10 | cum | cum | — |
-| Gen.9.10 | tum | tum | turn |
-| Gen.9.10 | tum | tum | turn |
-| Gen.9.10 | arcā | arca | area |
-| Gen.9.11 | fœdere | fœdere | — |
-| Gen.9.12 | fœdus | fœdus | fcedus |
-| Gen.9.13 | arcus | arcus | amis |
-| Gen.9.13 | ictī | icti | — |
-| Gen.9.15 | factī | facti | — |
-| Gen.9.16 | fœdus | fœdus | fcedus |
-| Gen.9.16 | æternum | æternum | acternum |
-| Gen.9.18 | arcā | arca | area |
-| Gen.9.19 | frequentātus | frequentatus | freaoqnentatus |
-| Gen.9.20 | cōnsēvit | conseuit | — |
-| Gen.9.24 | effātus | effatus | eftatus |
-| Gen.9.26 | vectīgālem | vectigalem | vectigaiem |
-| Gen.9.27 | tabernāculīs | tabernaculis | — |
-| Gen.9.27 | vectīgālem | vectigalem | — |
-| Gen.10.1 | Japhētī | Iapheti | Japbeti |
-| Gen.10.2 | Gomer | Gomer | — |
-| Gen.10.2 | Javan | Iauan | Iauah |
-| Gen.10.2 | Thubal | Thubal | Thnbal |
-| Gen.10.3 | Gomerī | Gomeri | — |
-| Gen.10.3 | Ascanās | Ascanas | — |
-| Gen.10.4 | Tharsis | Tharsis | — |
-| Gen.10.4 | Cittimus | Cittimus | — |
-| Gen.10.5 | efficerent | efficerent | effkerent |
-| Gen.10.12 | Nīnivem | Niniuem | Nini |
-| Gen.10.12 | Chalam | chalam | uemetChalam |
-| Gen.10.13 | Ananim | Ananim | Ananiru |
-| Gen.10.14 | Cassubim | Cassubim | — |
-| Gen.10.14 | Palæstīnī | Palæstini | — |
-| Gen.10.16 | Gergesem | Gergesem | — |
-| Gen.10.18 | Arvadem | Aruadem | — |
-| Gen.10.18 | Chananæōrum | Chananæorum | Chananxorum |
-| Gen.10.19 | Gāzam | Gazam | Gazain |
-| Gen.10.19 | spectant | spectant | — |
-| Gen.10.20 | linguīs | Linguis | Unguis |
-| Gen.10.21 | Semō | Semo | Setno |
-| Gen.10.21 | auctor | auctor | — |
-| Gen.10.25 | Phalēgum | Phalegum | Phalegura |
-| Gen.10.25 | Joctānem | Ioctanem | — |
-| Gen.10.26 | Joctān | Ioctan | — |
-| Gen.10.29 | Joctānis | Ioctanis | Ioclanis |
-| Gen.11.1 | Cum | Cum | — |
-| Gen.11.2 | nactī | nacti | — |
-| Gen.11.2 | Sanaārā | Sanaara | — |
-| Gen.11.4 | īnstituērunt | instituerunt | inaituerunt |
-| Gen.11.4 | tractūs | tractus | tradtus |
-| Gen.11.6 | cūnctus | cunctus | cunclus |
-| Gen.11.7 | sermōnem | sermonem | ferraonem |
-| Gen.11.8 | cōnstrūctiō | constructio | conftruclio |
-| Gen.11.24 | vīcēsimō | vicesimo | vkefimo |
-| Gen.11.25 | ūndēvīgintī | vndeuiginti | — |
-| Gen.11.28 | Chaldæōrum | Chaldæorum | — |
-| Gen.11.31 | profectus | profectus | profedhis |
-| Gen.12.4 | profectus | profectus | profedhis |
-| Gen.12.4 | profectus | profectus | profedtus |
-| Gen.12.5 | animantibus | animantibus | aniniantibus |
-| Gen.12.5 | comparāverant | comparauerant | — |
-| Gen.12.6 | tum | tum | turn |
-| Gen.12.6 | illā | illa | ilia |
-| Gen.12.6 | Chananæī | Chananæi | Chananxi |
-| Gen.12.7 | prōmīsitque | promisitque | fitque |
-| Gen.12.7 | appāruerat | apparuerat | adparuerat |
-| Gen.12.8 | exstrūctā | exstructa | exftrudra |
-| Gen.12.10 | coāctus | coactus | — |
-| Gen.12.11 | appropinquāns | appropinquans | — |
-| Gen.12.12 | intellēctum | intellectum | intelleclum |
-| Gen.12.17 | magnīs | magnis | — |
-| Gen.12.17 | afficerētur | afficeretur | — |
-| Gen.12.18 | indicāsset | indicasset | indicasfct |
-| Gen.12.19 | abīret | abiret | — |
-| Gen.13.3 | itineribus | itineribus | itinenbus |
-| Gen.13.3 | merīdiē | meridie | meridit |
-| Gen.13.3 | habuerat | habuerat | habueraf |
-| Gen.13.4 | invocāvit | inuocauit | — |
-| Gen.13.5 | abundābat | abundabat | — |
-| Gen.13.6 | cum | cum | — |
-| Gen.13.7 | Chananæīs | Chananæis | Chananxis |
-| Gen.13.7 | tum | tum | turn |
-| Gen.13.7 | Pherezæīs | Pherezæis | — |
-| Gen.13.7 | incolentibus | incolentibus | — |
-| Gen.13.8 | nōlim | nolim | — |
-| Gen.13.8 | discidium | discidium | disfidium |
-| Gen.13.9 | Līberum | liberum | libermn |
-| Gen.13.9 | abitūrus | abiturus | loabiturus |
-| Gen.13.10 | Tum | Tum | Turn |
-| Gen.13.10 | plānitiem | planitiem | pianitiem |
-| Gen.13.10 | solī | soli | foii |
-| Gen.13.10 | Sigorim | Sigorim | — |
-| Gen.13.11 | dēlēgit | delegit | delcgit |
-| Gen.13.14 | istinc | istinc | iftine |
-| Gen.13.14 | circumspice | circumspice | cireumfpice |
-| Gen.13.16 | coæquābō | coæquabo | coxquabo |
-| Gen.13.17 | lātēque | Lateque | Iateque |
-| Gen.13.18 | Mambræ | Mambræ | Mambrse |
-| Gen.14.1 | Commissum | Commissum | — |
-| Gen.14.1 | prœlium | prœlium | prcelium |
-| Gen.14.1 | Sanaaræ | Sanaaræ | Sanaarx |
-| Gen.14.1 | Thadalem | Thadalem | Thadaiem |
-| Gen.14.1 | rēgulōs | regulos | — |
-| Gen.14.2 | Baram | Baram | — |
-| Gen.14.2 | Admæ | Admæ | Adnive |
-| Gen.14.2 | Semebrem | Semebrem | Seniebrem |
-| Gen.14.2 | rēgulōs | regulos | reguios |
-| Gen.14.2 | Balæ | Balæ | Balx |
-| Gen.14.3 | Siddæā | Siddæa | — |
-| Gen.14.3 | lacus | Lacus | Iaeus |
-| Gen.14.4 | posteriōrēs | posteriores | poftedores |
-| Gen.14.4 | servīssent | seruissent | fcrniuisfent |
-| Gen.14.5 | Codralomor | Codralomor | Codraiomor |
-| Gen.14.5 | rēgulī | reguli | regiili |
-| Gen.14.7 | reversī | reuersi | reueru |
-| Gen.14.7 | omnemque | omnemque | omnemquc |
-| Gen.14.7 | Amalechitārum | Amalechitarum | Amaiechitarum |
-| Gen.14.7 | Amorræōs | Amorræos | Ainonxos |
-| Gen.14.8 | Tum | Tum | Turn |
-| Gen.14.8 | rēgulī | reguli | — |
-| Gen.14.8 | posteriōrēs | posteriores | — |
-| Gen.14.9 | prœliō | prœlio | prcelio |
-| Gen.14.9 | dēcertārunt | decertarunt | deeertarunt |
-| Gen.14.9 | Siddæā | Siddæa | — |
-| Gen.14.10 | puteīs | puteis | puteisp |
-| Gen.14.10 | bitūminis | bituminis | bitiuninis |
-| Gen.14.10 | abundābat | abundabat | abundabaf |
-| Gen.14.10 | Gomorræ | Gomorræ | Gomorrx |
-| Gen.14.11 | Victōrēs | Victores | Vidores |
-| Gen.14.11 | Gomorræ | Gomorræ | Gomorrx |
-| Gen.14.13 | Hebræo | Hebræo | Hebrxo |
-| Gen.14.13 | prœliō | prœlio | prcelio |
-| Gen.14.13 | querquētō | querqueto | querccto |
-| Gen.14.13 | Mambræ | Mambræ | Mambrx |
-| Gen.14.13 | Amorræī | Amorræi | Amorrxi |
-| Gen.14.13 | fœdere | fœdere | — |
-| Gen.14.13 | conjūnctī | coniuncti | — |
-| Gen.14.14 | captum | captum | — |
-| Gen.14.14 | cognātum | cognatum | — |
-| Gen.14.14 | vernās | vernas | — |
-| Gen.14.14 | octōdecim | octodecim | odtodecim |
-| Gen.14.14 | cōnsequitur | consequitur | confequifur |
-| Gen.14.15 | īnstrūctīs | instructis | — |
-| Gen.14.16 | prædā | præda | prxda |
-| Gen.14.16 | Lōtumque | Lotumque | Lotnmquc |
-| Gen.14.16 | nec | nec | nee |
-| Gen.14.17 | cæde | cæde | cxde |
-| Gen.14.18 | Solymæ | Solymæ | — |
-| Gen.14.19 | suprēmō | supremo | iupremo |
-| Gen.14.19 | auctōre | auctore | aucrore |
-| Gen.14.19 | cælī | cæli | cxli |
-| Gen.14.21 | Tum | Tum | Turn |
-| Gen.14.22 | summum | summum | fummumDeum |
-| Gen.14.22 | cælī | cæli | — |
-| Gen.14.22 | terrārumque | terrarumque | mque |
-| Gen.14.24 | præter | præter | — |
-| Gen.14.24 | juvenum | iuuenum | iuuentim |
-| Gen.14.24 | Mambræ | Mambræ | Mambrx |
-| Gen.15.1 | præsidium | præsidium | prxfidium |
-| Gen.15.1 | præmium | præmium | prxmium |
-| Gen.15.2 | agam | agam | again |
-| Gen.15.4 | vīsceribus | visceribus | vifecribus |
-| Gen.15.5 | ēductō | educto | raseduclo |
-| Gen.15.5 | stēllās | stellas | flellas |
-| Gen.15.6 | Tum | Tum | Turn |
-| Gen.15.6 | crēdidit | credidit | credulit |
-| Gen.15.6 | jūstitiæ | iustitiæ | iuftitix |
-| Gen.15.7 | Chaldæōrum | Chaldæorum | Chaldxorum |
-| Gen.15.9 | Tum | Tum | Turn |
-| Gen.15.9 | præcēpit | præcepit | — |
-| Gen.15.9 | sūmeret | sumeret | — |
-| Gen.15.9 | trīmulam | trimulam | trimuiam |
-| Gen.15.11 | Tum | tum | turn |
-| Gen.15.13 | futūrōs | futuros | futures |
-| Gen.15.15 | senectūte | senectute | — |
-| Gen.15.16 | Hūc | Huc | Hue |
-| Gen.15.16 | sæculō | sæculo | fxculo |
-| Gen.15.16 | improbitās | improbitas | — |
-| Gen.15.17 | obortā | oborta | cafum |
-| Gen.15.17 | cālīgine | caligine | obovtacaligine |
-| Gen.15.18 | fœdus | fœdus | fctdus |
-| Gen.15.19 | Cenæōs | Cenæos | — |
-| Gen.15.19 | Ceanezæōs | Ceanezæos | — |
-| Gen.15.19 | Cadmonæōs | Cadmonæos | — |
-| Gen.15.20 | Hettæōs | Hettæos | — |
-| Gen.15.20 | Pherezæōs | Pherezæos | — |
-| Gen.15.21 | Amorræōs | Amorræos | Amorrxos |
-| Gen.15.21 | Chananæōs | Chananæos | Chananxos |
-| Gen.15.21 | Gergesæōs | Gergesæos | Gergefxos |
-| Gen.15.21 | Jebusæōs | Iebusæos | — |
-| Gen.16.1 | Ægyptiam | Ægyptiam | — |
-| Gen.16.1 | Hagārem | Hagarem | — |
-| Gen.16.2 | summonuit | summonuit | — |
-| Gen.16.2 | gignere | gignere | — |
-| Gen.16.2 | prohibēret | prohiberet | — |
-| Gen.16.2 | cum | cum | — |
-| Gen.16.2 | cōnsequī | consequi | — |
-| Gen.16.2 | cōnsentiente | consentiente | — |
-| Gen.16.3 | Hagārem | Hagarem | — |
-| Gen.16.3 | Ægyptiam | Ægyptiam | — |
-| Gen.16.3 | decem | decem | — |
-| Gen.16.3 | Chananææ | Chananææ | — |
-| Gen.16.3 | incola | incola | — |
-| Gen.16.4 | Hic | Hic | — |
-| Gen.16.4 | cum | cum | — |
-| Gen.16.4 | Hagāre | Hagare | — |
-| Gen.16.4 | gravidamque | grauidamque | — |
-| Gen.16.4 | factam | factam | — |
-| Gen.16.4 | sentiēns | sentiens | — |
-| Gen.16.4 | contemnēbat | contemnebat | — |
-| Gen.16.5 | questa | questa | — |
-| Gen.16.5 | injūria | iniuria | — |
-| Gen.16.5 | complexum | complexum | — |
-| Gen.16.5 | trādidī | tradidi | — |
-| Gen.16.5 | sentientī | sentienti | — |
-| Gen.16.5 | contemptum | contemptum | — |
-| Gen.16.5 | venī | veni | — |
-| Gen.16.5 | vindex | vindex | — |
-| Gen.16.6 | tractāret | tractaret | tradtaret |
-| Gen.16.7 | ītur | itur | — |
-| Gen.16.8 | Hagar | Hagar | — |
-| Gen.16.9 | Tum | Tum | Turn |
-| Gen.16.11 | appellābis | appellabis | adpellabis |
-| Gen.16.11 | miseriam | miseriam | nnferiam |
-| Gen.16.13 | hīc | hic | hie |
-| Gen.16.14 | Lahærois | Lahærois | Lahxrois |
-| Gen.16.16 | sextum | sextum | — |
-| Gen.16.16 | octōgēsimum | octogesimum | — |
-| Gen.17.1 | Vive | Viue | — |
-| Gen.17.1 | præscrīptum | præscriptum | — |
-| Gen.17.2 | fœdus | fœdus | fcedirs |
-| Gen.17.3 | Hīc | Hic | Hie |
-| Gen.17.4 | fœdus | fœdus | fcedus |
-| Gen.17.5 | nec | nec | — |
-| Gen.17.5 | effectūrus | effecturus | — |
-| Gen.17.6 | orientur | orientur | — |
-| Gen.17.7 | Fœdus | Fœdus | — |
-| Gen.17.7 | profectūrum | profecturum | — |
-| Gen.17.8 | sempiternam | sempiternam | lempiternam |
-| Gen.17.9 | cōnservātōte | conseruatote | conferuaotote |
-| Gen.17.10 | circumcīdentur | circumcidentur | cireunuidentur |
-| Gen.17.11 | ictī | icti | — |
-| Gen.17.12 | nātīvitātem | natiuitatem | — |
-| Gen.17.12 | coēmptī | coempti | coemti |
-| Gen.17.14 | præpūtiātī | præputiati | prxputiati |
-| Gen.17.14 | violātum | violatum | — |
-| Gen.17.14 | fœdus | fœdus | — |
-| Gen.17.17 | Hīc | Hic | Hie |
-| Gen.17.17 | cum | cum | qnum |
-| Gen.17.17 | incubuisset | incubuisset | incubuisfct |
-| Gen.17.18 | Utinam | Vtinam | g |
-| Gen.17.19 | fœdus | fœdus | fadus |
-| Gen.17.19 | comprehendētur | comprehendetur | comprehenetur |
-| Gen.17.20 | exaudiam | exaudiam | — |
-| Gen.17.21 | fœdus | fœdus | fcedus |
-| Gen.17.23 | tum | tum | — |
-| Gen.17.23 | vernāculōrum | vernaculorum | — |
-| Gen.17.23 | tum | tum | — |
-| Gen.17.23 | ēmptīciōrum | empticiorum | — |
-| Gen.17.23 | præpūtia | præputia | prxputia |
-| Gen.17.27 | tum | tum | turn |
-| Gen.17.27 | coēmptī | coempti | — |
-| Gen.18.1 | Prætereā | Præterea | — |
-| Gen.18.1 | Mambræ | Mambræ | — |
-| Gen.18.1 | Cum | Cum | — |
-| Gen.18.3 | præterīre | præterire | pneterire |
-| Gen.18.4 | pauculā | paucula | — |
-| Gen.18.5 | perrēctūrī | perrecturi | — |
-| Gen.18.5 | dēflectendī | deflectendi | defledtendi |
-| Gen.18.5 | illī | illi | — |
-| Gen.18.6 | sata | sata | lata |
-| Gen.18.6 | farīnæ | farinæ | farinac |
-| Gen.18.6 | silīgineæ | siligineæ | filiginese |
-| Gen.18.6 | depstā | depsta | depfira |
-| Gen.18.6 | depstīnōs | depstinos | depfititios |
-| Gen.18.7 | armentum | armentum | arnicntum |
-| Gen.18.8 | vitulum | vitulum | vitulura |
-| Gen.18.8 | apposuit | apposuit | adpofuit |
-| Gen.18.9 | Tum | Tum | Turn |
-| Gen.18.10 | postīcō | postico | portico |
-| Gen.18.11 | dēsierat | desierat | delielirat |
-| Gen.18.13 | Tum | Tum | Turn |
-| Gen.18.13 | cōnsenuit | Consenuit | Mconfenuit |
-| Gen.18.17 | factūrus | facturus | — |
-| Gen.18.18 | maximæ | maximæ | maxims |
-| Gen.18.18 | auctor | auctor | auclor |
-| Gen.18.18 | fēlīcitandæ | felicitandæ | — |
-| Gen.18.20 | Sodomitārum | sodomitarum | bodomitarum |
-| Gen.18.21 | perlātum | perlatum | periatura |
-| Gen.18.22 | Hīc | Hic | HicZ |
-| Gen.18.24 | ignōscēs | ignosces | — |
-| Gen.18.25 | æquitāte | æquitate | — |
-| Gen.18.25 | moderātur | moderatur | — |
-| Gen.18.25 | æquitāte | æquitate | — |
-| Gen.18.27 | Audācter | audacter | audacler |
-| Gen.18.28 | ēvertam | euertam | euercam |
-| Gen.18.30 | quærere | quærere | — |
-| Gen.18.31 | cum | cum | cun |
-| Gen.18.31 | exscindam | exscindam | — |
-| Gen.18.32 | Tum | Tum | — |
-| Gen.18.32 | decem | decem | decern |
-| Gen.18.32 | decem | decem | decern |
-| Gen.18.33 | cum | cum | to |
-| Gen.19.1 | tum | tum | turn |
-| Gen.19.1 | sedēbat | sedebat | — |
-| Gen.19.2 | appellāns | appellans | — |
-| Gen.19.2 | noctem | noctem | noclem |
-| Gen.19.2 | dēvertant | deuertant | diuertant |
-| Gen.19.2 | aggressūrī | aggressuri | adgresfuri |
-| Gen.19.2 | pernoctātūrōs | pernoctaturos | pernodtaturos |
-| Gen.19.3 | dēverterint | deuerterint | — |
-| Gen.19.3 | dēductīs | deductis | dedudhs |
-| Gen.19.5 | noctem | noctem | noftem |
-| Gen.19.6 | Tum | Tum | Turn |
-| Gen.19.8 | tēctī | tecti | tech |
-| Gen.19.9 | Tum | Tum | Turn |
-| Gen.19.9 | paulisper | paulisper | — |
-| Gen.19.9 | recēdere | recedere | — |
-| Gen.19.9 | hospitibus | hospitibus | — |
-| Gen.19.11 | Tum | tum | turn |
-| Gen.19.11 | minimō | minimo | ininimo |
-| Gen.19.14 | Tum | Tum | Turn |
-| Gen.19.14 | jocārī | iocari | iorari |
-| Gen.19.14 | arbitrātī | arbitrati | arbitrate |
-| Gen.19.15 | aurōræ | auroræ | aurorx |
-| Gen.19.16 | Cūnctantem | Cunctantem | CuncWitem |
-| Gen.19.16 | nec | nec | nee |
-| Gen.19.17 | ēductō | educto | edudo |
-| Gen.19.19 | cōnservēs | conserues | conferiies |
-| Gen.19.20 | hīc | hic | hicaa |
-| Gen.19.20 | oppidulum | oppidulum | oppidulutti |
-| Gen.19.20 | prōspicere | prospicere | profpkere |
-| Gen.19.20 | perparvum | perparuum | — |
-| Gen.19.22 | dōnec | donec | — |
-| Gen.19.22 | pervēnēris | perueneris | — |
-| Gen.19.24 | sulphur | sulphur | — |
-| Gen.19.24 | ignem | ignem | igitem |
-| Gen.19.25 | tractum | tractum | — |
-| Gen.19.25 | funditus | funditus | fiinditus |
-| Gen.19.27 | steterat | steterat | — |
-| Gen.19.28 | calcāriæ | calcariæ | calcarix |
-| Gen.19.30 | Sigorī | sigori | temSigori |
-| Gen.19.30 | quādam | quadam | — |
-| Gen.19.30 | spēluncā | spelunca | — |
-| Gen.19.31 | cōnsenuisset | consenuisset | cbrtfenuisfet |
-| Gen.19.31 | nec | nec | nee |
-| Gen.19.32 | concubitū | concubitu | — |
-| Gen.19.32 | prōlī | proli | — |
-| Gen.19.33 | miscent | miscent | mifeent |
-| Gen.19.33 | cum | cum | ctim |
-| Gen.19.34 | noctem | noctem | nociem |
-| Gen.19.34 | præbeant | præbeant | prxbeant |
-| Gen.19.34 | subolī | suboli | fopoli |
-| Gen.19.37 | prōgnātī | prognati | — |
-| Gen.19.37 | Mōabītæ | Moabitæ | — |
-| Gen.19.37 | manent | manent | — |
-| Gen.20.1 | profectus | profectus | — |
-| Gen.20.2 | cum | cum | nt |
-| Gen.20.2 | arcessendam | arcessendam | — |
-| Gen.20.4 | Hīc | Hic | Hie |
-| Gen.20.4 | attigisset | attigisset | — |
-| Gen.20.4 | īnsontēs | insontes | — |
-| Gen.20.5 | intemerātīsque | intemeratisque | intcmeratisque |
-| Gen.20.8 | metus | metus | mctus |
-| Gen.20.8 | incessit | incessit | iucesfit |
-| Gen.20.9 | officium | officium | ofticium |
-| Gen.20.12 | Quamquam | Quamquam | Qyamquam |
-| Gen.20.13 | abstraheret | abstraheret | — |
-| Gen.20.13 | venīrēmus | veniremus | veniremui |
-| Gen.20.14 | Tum | Tum | Turn |
-| Gen.21.1 | præstitit | præstitit | — |
-| Gen.21.2 | conceptum | conceptum | — |
-| Gen.21.2 | sene | sene | iene |
-| Gen.21.4 | octāvō | octauo | oclauo |
-| Gen.21.5 | tum | tum | turn |
-| Gen.21.5 | centēsimum | centesimum | — |
-| Gen.21.7 | lactātūram | lactaturam | — |
-| Gen.21.7 | senectæ | senectæ | — |
-| Gen.21.8 | ablactandus | ablactandus | abfaclandus |
-| Gen.21.11 | displicēret | displiceret | — |
-| Gen.21.14 | Hagārī | Hagari | Hajari |
-| Gen.21.14 | puerīque | puerique | — |
-| Gen.21.14 | āmandat | amandat | — |
-| Gen.21.14 | Bersabæ | Bersabæ | Berfabac |
-| Gen.21.15 | cōnsūmptā | consumpta | confumta |
-| Gen.21.15 | fruticem | fruticem | frnticem |
-| Gen.21.16 | cum | cum | — |
-| Gen.21.16 | tēlī | teli | — |
-| Gen.21.16 | jactum | iactum | — |
-| Gen.21.17 | appellāvit | appellauit | — |
-| Gen.21.18 | allevā | alleua | adleua |
-| Gen.21.18 | efficiam | efficiam | erHciam |
-| Gen.21.19 | lagēnā | lagena | — |
-| Gen.21.20 | Hic | Hic | Hie |
-| Gen.21.20 | crēvit | creuit | creuh |
-| Gen.21.20 | silvestrem | siluestrem | filucftrem |
-| Gen.21.21 | locāvit | locauit | lecauit |
-| Gen.21.23 | nocitūrum | nociturum | noclturum |
-| Gen.21.23 | peregrīnum | peregrinum | num |
-| Gen.21.24 | Hīc | Hic | Hie |
-| Gen.21.24 | condictō | condicto | — |
-| Gen.21.25 | cum | cum | — |
-| Gen.21.26 | fēcerit | fecerit | feccrit |
-| Gen.21.27 | Tum | Tum | Turn |
-| Gen.21.27 | sūmpsit | sumpsit | fumfit |
-| Gen.21.27 | fœdus | fœdus | — |
-| Gen.21.28 | seorsum | seorsum | — |
-| Gen.21.28 | statuisset | statuisset | — |
-| Gen.21.30 | acceptīs | acceptis | — |
-| Gen.21.31 | vocātus | vocatus | — |
-| Gen.21.32 | ictō | icto | iSto |
-| Gen.21.32 | fœdere | fœdere | fcedere |
-| Gen.21.32 | Palæstīnōs | Palæstinos | — |
-| Gen.21.33 | invocāvit | inuocauit | — |
-| Gen.21.34 | estque | estque | — |
-| Gen.21.34 | Palæstīnīs | Palæstinis | Palxftinis |
-| Gen.22.1 | perāctīs | peractis | peraclis |
-| Gen.22.2 | profectus | profectus | profeclus |
-| Gen.22.3 | clītellātō | clitellato | clifellato |
-| Gen.22.5 | præstōlentur | præstolentur | prxftolentur |
-| Gen.22.7 | Hic | Hic | — |
-| Gen.22.9 | perventum | peruentum | perueutum |
-| Gen.22.10 | cultrō | cultro | — |
-| Gen.22.11 | revocāns | reuocans | — |
-| Gen.22.12 | committere | committere | — |
-| Gen.22.13 | Tum | Tum | — |
-| Gen.22.13 | ērēctīs | erectis | — |
-| Gen.22.13 | hærentem | hærentem | — |
-| Gen.22.13 | accessit | accessit | — |
-| Gen.22.17 | favēbō | fauebo | — |
-| Gen.22.17 | stēllārum | stellarum | — |
-| Gen.22.17 | cælestium | cælestium | — |
-| Gen.22.17 | portīs | portis | — |
-| Gen.22.17 | potiātur | potiatur | — |
-| Gen.22.18 | fuistī | fuisti | fnifti |
-| Gen.22.19 | indeque | indeque | indequeprofe |
-| Gen.22.20 | sustulisse | sustulisse | fustiiulisfe |
-| Gen.22.21 | Camuēlem | Camuelem | Camnelem |
-| Gen.22.22 | Casedum | casedum | axCafedum |
-| Gen.22.22 | Jedlaphum | Iedlaphum | Ied |
-| Gen.22.23 | Præter | Præter | — |
-| Gen.22.23 | octō | octo | — |
-| Gen.23.2 | Cariatharbæ | cariatharbæ | rCariatharbae |
-| Gen.23.2 | lūgendam | lugendam | higendam |
-| Gen.23.2 | accessit | accessit | acceslitAb |
-| Gen.23.3 | omissō | omisso | onrisfo |
-| Gen.23.3 | dēfūnctō | defuncto | defimclo |
-| Gen.23.3 | Hettæōs | Hettæos | — |
-| Gen.23.4 | advena | aduena | aducna |
-| Gen.23.4 | sepultūræ | sepulturæ | fepulturx |
-| Gen.23.4 | āmoveam | amoueam | — |
-| Gen.23.5 | Hettæī | Hettæi | Hettxi |
-| Gen.23.6 | Attende | attende | attendc |
-| Gen.23.6 | sepulcrētīs | sepulcretis | fepulcrctis |
-| Gen.23.6 | prohibēbit | prohibebit | prohibebif |
-| Gen.23.7 | Hīc | Hic | Hie |
-| Gen.23.7 | assurrēxisset | assurrexisset | adfurrexisfet |
-| Gen.23.7 | Hettæīs | Hettæis | Hettxis |
-| Gen.23.7 | habuisset | habuisset | — |
-| Gen.23.8 | dēfūnctum | defunctum | — |
-| Gen.23.8 | prætereā | præterea | prxterea |
-| Gen.23.8 | Seoris | Seoris | — |
-| Gen.23.8 | agātis | agatis | — |
-| Gen.23.9 | cavernam | cauernam | cauer |
-| Gen.23.9 | duplicem | duplicem | namduplicem |
-| Gen.23.9 | præsentibus | præsentibus | prxfentibus |
-| Gen.23.10 | Hīc | Hic | HicEphron |
-| Gen.23.10 | Ephrōn | Ephron | Het |
-| Gen.23.10 | Hettæus | Hettæus | txus |
-| Gen.23.10 | tum | tum | turn |
-| Gen.23.10 | Hettæīs | Hettæis | Hettxis |
-| Gen.23.11 | Auscultā | ausculta | aufcultan |
-| Gen.23.12 | Tum | Tum | Turn |
-| Gen.23.12 | præbitō | præbito | prxbito |
-| Gen.23.15 | hic | hic | hie |
-| Gen.23.16 | taxātiōne | taxatione | — |
-| Gen.23.16 | appendit | appendit | — |
-| Gen.23.16 | præsentibus | præsentibus | — |
-| Gen.23.16 | Hettæīs | Hettæis | — |
-| Gen.23.17 | Mambræ | Mambræ | — |
-| Gen.23.17 | cum | cum | — |
-| Gen.23.17 | ipsā | ipsa | — |
-| Gen.23.18 | præsentibus | præsentibus | prxfentibus |
-| Gen.23.18 | Hettæīs | Hettæis | Hettxis |
-| Gen.23.19 | Mambræ | Mambræ | Mambrx |
-| Gen.23.20 | pactō | pacto | — |
-| Gen.23.20 | sepultūræ | sepulturæ | fepulturse |
-| Gen.23.20 | Hettæīs | Hettæis | Hettxis |
-| Gen.24.1 | prōcessisset | processisset | proceslisfet |
-| Gen.24.2 | tum | tum | turn |
-| Gen.24.2 | præfēcerat | præfecerat | — |
-| Gen.24.3 | cælī | cæli | — |
-| Gen.24.3 | terræque | terræque | — |
-| Gen.24.3 | obtester | obtester | — |
-| Gen.24.3 | Chananæīs | Chananæis | — |
-| Gen.24.3 | habitō | habito | — |
-| Gen.24.3 | ascīscās | asciscas | — |
-| Gen.24.4 | profectus | profectus | profeclus |
-| Gen.24.7 | cælestis | cælestis | cxleftis |
-| Gen.24.7 | collocūtus | collocutus | coJlocutus |
-| Gen.24.7 | præmissō | præmisso | — |
-| Gen.24.8 | solūtus | solutus | — |
-| Gen.24.8 | eris | eris | — |
-| Gen.24.9 | Tum | Tum | Turn |
-| Gen.24.9 | subjectā | subiecta | fubloiecta |
-| Gen.24.10 | decem | decem | decern |
-| Gen.24.10 | profectus | profectus | profeftus |
-| Gen.24.12 | beneficium | beneficium | — |
-| Gen.24.13 | puellæ | puellæ | — |
-| Gen.24.13 | veniunt | veniunt | — |
-| Gen.24.13 | aquātum | aquatum | — |
-| Gen.24.14 | prætereā | præterea | — |
-| Gen.24.14 | dēstināstī | destinasti | afti |
-| Gen.24.14 | intellegam | intellegam | — |
-| Gen.24.15 | Bathūēle | Bathuele | Rathuele |
-| Gen.24.15 | Melcæ | Melcæ | Melcx |
-| Gen.24.16 | ascendēbat | ascendebat | — |
-| Gen.24.17 | Tum | Tum | — |
-| Gen.24.17 | paulum | paulum | — |
-| Gen.24.18 | cōnfestim | confestim | conteftim |
-| Gen.24.20 | statimque | statimque | fiatimque |
-| Gen.24.21 | necne | necne | — |
-| Gen.24.25 | affatim | affatim | adfatim |
-| Gen.24.25 | nec | nec | nee |
-| Gen.24.25 | pernoctandum | pernoctandum | pcrnoctandum |
-| Gen.24.26 | Hīc | Hic | Hie |
-| Gen.24.30 | Cumque | Cumque | Qiuimque |
-| Gen.24.30 | Rebeccæ | Rebeccæ | Rebeccx |
-| Gen.24.31 | præparāvisse | præparauisse | prxparauisfe |
-| Gen.24.33 | appōnit | apponit | adponit |
-| Gen.24.33 | prōpōneret | proponeret | proponcret |
-| Gen.24.35 | summās | summas | fumnias |
-| Gen.24.35 | cōnsecūtī | consecuti | confccuti |
-| Gen.24.35 | tum | tum | cum |
-| Gen.24.35 | tum | tum | turn |
-| Gen.24.35 | tum | tum | turn |
-| Gen.24.36 | asse | asse | — |
-| Gen.24.37 | astrīnxit | astrinxit | adftrinxit |
-| Gen.24.37 | conciliārem | conciliarem | — |
-| Gen.24.37 | Chananæīs | Chananæis | — |
-| Gen.24.37 | incoleret | incoleret | incoteret |
-| Gen.24.38 | profectus | profectus | — |
-| Gen.24.38 | ascīscerem | asciscerem | adfcifcerem |
-| Gen.24.39 | dīcerem | dicerem | dicereni |
-| Gen.24.40 | īnstituisset | instituisset | inftitiiisfet |
-| Gen.24.41 | cōnsanguineōs | consanguineos | confanguincos |
-| Gen.24.42 | placēret | placeret | — |
-| Gen.24.42 | īnstitūtum | institutum | — |
-| Gen.24.42 | prōsperāre | prosperare | — |
-| Gen.24.42 | efficeret | efficeret | — |
-| Gen.24.43 | astante | astante | — |
-| Gen.24.43 | paulum | paulum | paullmn |
-| Gen.24.45 | Vix | Vix | — |
-| Gen.24.45 | cum | cum | — |
-| Gen.24.45 | cum | cum | — |
-| Gen.24.45 | pōtum | potum | — |
-| Gen.24.45 | petīvissem | petiuissem | — |
-| Gen.24.46 | offert | offert | orFert |
-| Gen.24.47 | Quærentīque | quærentique | qusrentique |
-| Gen.24.47 | Tum | Tum | Turn |
-| Gen.24.49 | beneficiō | beneficio | bencficio |
-| Gen.24.50 | Tum | Tum | Turn |
-| Gen.24.51 | Proinde | Proinde | — |
-| Gen.24.53 | vestēsque | vestesque | — |
-| Gen.24.53 | prōfert | profert | — |
-| Gen.24.53 | Rebeccæ | Rebeccæ | Rebeccx |
-| Gen.24.54 | Tum | Tum | Turn |
-| Gen.24.54 | capiunt | capiunt | eapiunt |
-| Gen.24.54 | surrēctum | surrectum | — |
-| Gen.24.55 | Puellæ | Puellæ | Puellse |
-| Gen.24.55 | profectūrum | profecturum | profeclurum |
-| Gen.24.55 | decem | decem | decern |
-| Gen.24.56 | remorentur | remorentur | remorcntur |
-| Gen.24.56 | dīmittī | dimitti | — |
-| Gen.24.57 | Tum | Tum | — |
-| Gen.24.57 | illī | illi | — |
-| Gen.24.57 | puellam | puellam | — |
-| Gen.24.57 | ēvocātūrōs | euocaturos | — |
-| Gen.24.58 | quærunt | quærunt | quxrunt |
-| Gen.24.58 | velitne | velitne | velifne |
-| Gen.24.59 | dīmīsērunt | dimiserunt | diniiferunt |
-| Gen.24.60 | nostra | nostra | noflra |
-| Gen.24.60 | optāmus | optamus | — |
-| Gen.24.60 | centiēs | centies | — |
-| Gen.24.60 | centēnāriam | centenariam | — |
-| Gen.24.61 | puellæ | puellæ | — |
-| Gen.24.61 | equitantēs | equitantes | cquitantes |
-| Gen.24.61 | secūtæ | secutæ | fecutac |
-| Gen.24.61 | assūmptā | assumpta | — |
-| Gen.24.61 | profectus | profectus | profeclus |
-| Gen.24.62 | tum | tum | turn |
-| Gen.24.62 | Lahæroi | Lahæroi | — |
-| Gen.24.62 | revertēns | reuertens | — |
-| Gen.24.63 | pōmerīdiānum | pomeridianum | — |
-| Gen.24.64 | camēlō | camelo | — |
-| Gen.24.65 | quisnam | quisnam | — |
-| Gen.24.65 | tendat | tendat | — |
-| Gen.24.67 | lēnīvit | leniuit | — |
-| Gen.25.1 | aliam | aliam | — |
-| Gen.25.6 | dōnec | donec | donee |
-| Gen.25.8 | perāctā | peracta | peracla |
-| Gen.25.8 | senectūte | senectute | fenechite |
-| Gen.25.8 | aggregātus | aggregatus | adgregafus |
-| Gen.25.9 | Hettæī | Hettæi | Hettxi |
-| Gen.25.10 | ēmptus | emptus | emtus |
-| Gen.25.11 | Lahæroi | Lahæroi | Lahxroi |
-| Gen.25.12 | multiplicis | multiplicis | — |
-| Gen.25.12 | nōmina | nomina | — |
-| Gen.25.13 | Prīmigenius | Primigenius | — |
-| Gen.25.13 | Nabaiothus | Nabaiothus | — |
-| Gen.25.13 | Cedar | Cedar | — |
-| Gen.25.13 | Adbeel | Adbeel | — |
-| Gen.25.13 | Mabsāmus | Mabsamus | — |
-| Gen.25.14 | Masma | Masma | — |
-| Gen.25.14 | Duma | Duma | — |
-| Gen.25.14 | Massa | Massa | — |
-| Gen.25.15 | Hadar | Hadar | — |
-| Gen.25.15 | Thema | Thema | — |
-| Gen.25.15 | Jetur | Ietur | — |
-| Gen.25.15 | Nassis | Nassis | — |
-| Gen.25.15 | Cedema | Cedema | — |
-| Gen.25.16 | Ismælis | Ismælis | — |
-| Gen.25.16 | prīncipēs | principes | — |
-| Gen.25.16 | variīs | variis | — |
-| Gen.25.16 | vīcīs | vicis | — |
-| Gen.25.16 | castellīs | castellis | — |
-| Gen.25.16 | Assyriam | Assyriam | Asiyriam |
-| Gen.25.17 | allēctus | allectus | adlechis |
-| Gen.25.22 | cōnflīctārentur | conflictarentur | — |
-| Gen.25.24 | cōnfectō | confecto | — |
-| Gen.25.28 | Illum | Illum | — |
-| Gen.25.28 | adamābat | adamabat | adamabar |
-| Gen.25.30 | Impertī | Imperti | Imperii |
-| Gen.25.30 | rūfī | rufi | — |
-| Gen.25.30 | Idūmī | Idumi | — |
-| Gen.25.31 | Vēnde | vende | vendc |
-| Gen.25.31 | prærogātīvam | prærogatiuam | prxrogatiuam |
-| Gen.25.32 | prærogātīvam | prærogatiuam | prxrogatiuam |
-| Gen.25.33 | prærogātīvam | prærogatiuam | prxrogatiuam |
-| Gen.25.34 | cōnfectum | confectum | confechim |
-| Gen.25.34 | lentibus | lentibus | lcntibus |
-| Gen.25.34 | prærogātīvam | prærogatiuam | — |
-| Gen.25.34 | contempsit | contempsit | — |
-| Gen.26.1 | præter | præter | prxter |
-| Gen.26.1 | superiōrem | superiorem | — |
-| Gen.26.1 | Tum | Tum | Turn |
-| Gen.26.1 | Palæstīnōrum | Palæstinorum | Palxrtinoruni |
-| Gen.26.2 | cōnsīditō | considito | — |
-| Gen.26.5 | īnstitūta | instituta | inltitura |
-| Gen.26.5 | præcepta | præcepta | prxcepta |
-| Gen.26.5 | dēcrēta | decreta | deereta |
-| Gen.26.5 | lēgēsque | legesque | — |
-| Gen.26.5 | cōnservāvit | conseruauit | gesqueconferuauit |
-| Gen.26.8 | Palæstīnōrum | Palæstinorum | — |
-| Gen.26.8 | fenestram | fenestram | feneltram |
-| Gen.26.9 | cum | cum | — |
-| Gen.26.10 | oportuit | oportuit | opomiit |
-| Gen.26.12 | favente | fauente | — |
-| Gen.26.13 | opulentissimus | opulentissimus | opulentislimus |
-| Gen.26.13 | factus | factus | faclus |
-| Gen.26.14 | boum | boum | bourn |
-| Gen.26.14 | Palæstīnī | Palæstini | Palxftini |
-| Gen.26.15 | vīvente | viuente | — |
-| Gen.26.15 | fossōs | fossos | — |
-| Gen.26.15 | peræquārunt | peræquarunt | — |
-| Gen.26.17 | profectus | profectus | profechis |
-| Gen.26.18 | puteōsque | puteosque | — |
-| Gen.26.18 | dēpressōs | depressos | depreslbs |
-| Gen.26.18 | Palæstīnīs | Palæstinis | Palxftinis |
-| Gen.26.18 | appellāvit | appellauit | adpellauit |
-| Gen.26.18 | nuncupātī | nuncupati | — |
-| Gen.26.19 | vīvæ | viuæ | viux |
-| Gen.26.21 | Satnās | Satnas | — |
-| Gen.26.21 | dictus | dictus | — |
-| Gen.26.24 | Illā | Illa | — |
-| Gen.26.25 | Jōvæque | Iouæque | Touxquc |
-| Gen.26.25 | invocāvit | inuocauit | inuocauif |
-| Gen.26.26 | Phicole | Phicole | Phieole |
-| Gen.26.28 | fœdus | fœdus | — |
-| Gen.26.28 | percutere | percutere | — |
-| Gen.26.29 | tetigimus | tetigimus | tetiginms |
-| Gen.26.29 | nec | nec | nee |
-| Gen.26.29 | affēcimus | affecimus | adfecimus |
-| Gen.26.30 | Tum | Tum | Turn |
-| Gen.26.31 | surrēctum | surrectum | furrccium |
-| Gen.26.31 | discessērunt | discesserunt | — |
-| Gen.26.34 | Jūditham | Iuditham | — |
-| Gen.26.34 | Beeris | Beeris | — |
-| Gen.26.34 | Hettæōrum | Hettæorum | Hettxorum |
-| Gen.26.35 | Rebeccæ | Rebeccæ | Rebeccx |
-| Gen.27.1 | cum | cum | — |
-| Gen.27.1 | cæcūtīret | cæcutiret | excutiret |
-| Gen.27.1 | grandiōrem | grandiorem | graadiorem |
-| Gen.27.1 | Nāte | Nate | — |
-| Gen.27.2 | exspectem | exspectem | — |
-| Gen.27.4 | dēlector | delector | — |
-| Gen.27.4 | afferēs | afferes | adferes |
-| Gen.27.5 | vēnātiōnem | venationem | advenationem |
-| Gen.27.5 | profectō | profecto | profeck |
-| Gen.27.7 | cōnfectum | confectum | confeclum |
-| Gen.27.8 | præcipiam | præcipiam | prxcipiam |
-| Gen.27.9 | hædōs | hædos | hrdos |
-| Gen.27.9 | dēlectātur | delectatur | deleclatur |
-| Gen.27.13 | præstābō | præstabo | pneftabo |
-| Gen.27.14 | Tum | Tum | Turn |
-| Gen.27.14 | attulit | attulit | attuht |
-| Gen.27.15 | dēprōmpsit | deprompsit | depromfit |
-| Gen.27.16 | cervīcis | ceruicis | — |
-| Gen.27.16 | lēvōrem | leuorem | — |
-| Gen.27.16 | hædōrum | hædorum | — |
-| Gen.27.17 | cōnfectum | confectum | confechim |
-| Gen.27.19 | prīmōgenitus | primogenitus | — |
-| Gen.27.20 | pactō | pacto | paclo |
-| Gen.27.20 | nactus | nactus | nac |
-| Gen.27.21 | hūc | huc | hue |
-| Gen.27.21 | contrectandō | contrectando | conrreclando |
-| Gen.27.21 | necne | necne | — |
-| Gen.27.22 | contrectāns | contrectans | contreclans |
-| Gen.27.25 | Appōne | Appone | Adpone |
-| Gen.27.25 | Tum | Tum | — |
-| Gen.27.25 | apposuit | apposuit | — |
-| Gen.27.25 | ministrātumque | ministratumque | — |
-| Gen.27.26 | ōsculāre | osculare | oseuiare |
-| Gen.27.27 | olfactō | olfacto | olfaelo |
-| Gen.27.27 | Hīc | hic | hie |
-| Gen.27.27 | fēcundātus | fecundatus | feeundatus |
-| Gen.27.27 | efflat | efflat | elilat |
-| Gen.27.28 | cælī | cæli | cxli |
-| Gen.27.28 | multumque | multumque | imiiuimque |
-| Gen.27.31 | appellāns | appellans | adpellans |
-| Gen.27.31 | assurgeret | assurgeret | adfurgeret |
-| Gen.27.31 | precārētur | precaretur | — |
-| Gen.27.32 | Tum | Tum | — |
-| Gen.27.33 | Hīc | Hic | Hie |
-| Gen.27.33 | obstupefactus | obstupefactus | — |
-| Gen.27.33 | attulit | attulit | attuiit |
-| Gen.27.34 | appellāns | appellans | adpellans |
-| Gen.27.35 | præripuit | præripuit | prxripuit |
-| Gen.27.36 | Tum | Tum | Turn |
-| Gen.27.36 | prærogātīvam | prærogatiuam | prxrogatiuam |
-| Gen.27.36 | intercēpit | intercepit | intercept |
-| Gen.27.39 | cælī | cæli | cxli |
-| Gen.27.40 | gladiōque | gladioque | — |
-| Gen.27.40 | excutiēs | excuties | exeuties |
-| Gen.27.41 | appropinquat | appropinquat | adpropinquat |
-| Gen.27.42 | Rebeccæ | Rebeccæ | — |
-| Gen.27.43 | auscultā | ausculta | aufeulta |
-| Gen.27.44 | īrā | ira | — |
-| Gen.27.44 | dēferveat | deferueat | — |
-| Gen.27.45 | factī | facti | — |
-| Gen.27.45 | oblītō | oblito | — |
-| Gen.27.46 | pertæsam | pertæsam | pertxfam |
-| Gen.27.46 | vītæ | vitæ | vitx |
-| Gen.27.46 | tædēre | tædere | txdere |
-| Gen.27.46 | Hettæīs | Hettæis | — |
-| Gen.28.1 | Tum | Tum | — |
-| Gen.28.1 | prōsecūtus | prosecutus | — |
-| Gen.28.1 | præceptīs | præceptis | prxceptis |
-| Gen.28.1 | Nōlītō | nolito | rolito |
-| Gen.28.1 | dūcere | ducere | dncere |
-| Gen.28.1 | Chananæīs | Chananæis | — |
-| Gen.28.3 | augeat | augeat | — |
-| Gen.28.3 | multiplicēs | multiplices | — |
-| Gen.28.5 | dīmissus | dimissus | dinusfus |
-| Gen.28.5 | Syrī | Syri | — |
-| Gen.28.5 | Rebeccæ | Rebeccæ | — |
-| Gen.28.7 | Illum | illum | ilium |
-| Gen.28.7 | parentī | parenti | parentivtrique |
-| Gen.28.7 | obsequentem | obsequentem | — |
-| Gen.28.7 | profectum | profectum | tectum |
-| Gen.28.8 | Chananæās | Chananæas | Chananxas |
-| Gen.28.9 | præter | præter | prxter |
-| Gen.28.11 | pernoctāvit | pernoctauit | — |
-| Gen.28.13 | imminēns | imminens | imrainens |
-| Gen.28.13 | tuæque | tuæque | — |
-| Gen.28.14 | stirpe | stirpe | — |
-| Gen.28.14 | pulveris | pulueris | — |
-| Gen.28.14 | auctā | aucta | — |
-| Gen.28.15 | nec | nec | nee |
-| Gen.28.15 | præstem | præstem | prxftem |
-| Gen.28.16 | Tum | Tum | Turn |
-| Gen.28.16 | expergēfactus | expergefactus | — |
-| Gen.28.16 | nesciēbam | nesciebam | nelciebam |
-| Gen.28.17 | hic | hic | hie |
-| Gen.28.17 | cælī | cæli | carli |
-| Gen.28.18 | oleōque | oleoque | oIcoquc |
-| Gen.28.19 | dīcerētur | diceretur | — |
-| Gen.28.20 | adfuerit | adfuerit | adftierit |
-| Gen.28.20 | vīctumque | victumque | vierumque |
-| Gen.29.1 | profectus | profectus | profecrus |
-| Gen.29.2 | Cum | Cum | — |
-| Gen.29.2 | obstrūctum | obstructum | obitructum |
-| Gen.29.3 | āvolūtōque | auolutoque | — |
-| Gen.29.6 | venientem | venientem | — |
-| Gen.29.7 | Tum | Tum | — |
-| Gen.29.9 | colloquente | colloquente | colloqwente |
-| Gen.29.11 | ōsculātus | osculatus | osculalitus |
-| Gen.29.12 | Rebeccæ | Rebeccæ | Rebeccx |
-| Gen.29.12 | cum | cum | quuni |
-| Gen.29.12 | cucurrisset | cucurrisset | — |
-| Gen.29.14 | cognātumque | cognatumque | — |
-| Gen.29.19 | præfātus | præfatus | prxfatus |
-| Gen.29.19 | præstāre | præstare | prxftare |
-| Gen.29.19 | retinet | retinet | rctinet |
-| Gen.29.20 | paucī | pauci | panel |
-| Gen.29.21 | perāctum | peractum | peraclum |
-| Gen.29.21 | conjūnctiōnem | coniunctionem | liconiunctionem |
-| Gen.29.21 | trāderet | traderet | tradcret |
-| Gen.29.25 | servīsse | seruisse | fcruiuisfe |
-| Gen.29.26 | mōris | moris | mods |
-| Gen.29.28 | complētīsque | completisque | — |
-| Gen.29.29 | Balam | Balam | Balami |
-| Gen.29.31 | sterilī | sterili | ilerili |
-| Gen.29.32 | appellāvit | appellauit | adpellauit |
-| Gen.29.35 | Jūdæ | Iudæ | ludx |
-| Gen.30.2 | ventris | ventris | — |
-| Gen.30.3 | cōnsequar | consequar | — |
-| Gen.30.4 | illī | illi | — |
-| Gen.30.6 | Tum | Tum | Turn |
-| Gen.30.8 | Tum | Tum | — |
-| Gen.30.11 | Gadum | gadum | laGadum |
-| Gen.30.11 | appellāvit | appellauit | adpellauit |
-| Gen.30.13 | Tum | Tum | Turn |
-| Gen.30.13 | beātam | beatam | beatain |
-| Gen.30.13 | Aserem | aserem | queAferem |
-| Gen.30.14 | Cum | Cum | Qimm |
-| Gen.30.14 | trīticeæ | triticeæ | triticex |
-| Gen.30.14 | profectus | profectus | — |
-| Gen.30.19 | sextum | sextum | — |
-| Gen.30.20 | appellāvit | appellauit | — |
-| Gen.30.20 | Zabulōnem | Zabulonem | — |
-| Gen.30.22 | Tum | Tum | Turn |
-| Gen.30.26 | pactō | pacto | pack |
-| Gen.30.32 | notātās | notatas | notaias |
-| Gen.30.34 | Tum | Tum | Turn |
-| Gen.30.36 | interpositō | interposito | inrerpofiro |
-| Gen.30.37 | pōpuleīs | populeis | — |
-| Gen.30.37 | colurnīs | colurnis | — |
-| Gen.30.37 | castanīnīs | castaninis | — |
-| Gen.30.37 | virentibus | virentibus | virentibiis |
-| Gen.30.40 | distīnctum | distinctum | diflinehim |
-| Gen.30.40 | cōnstituēbat | constituebat | conftknebat |
-| Gen.30.41 | quotiēns | quotiens | qubties |
-| Gen.30.43 | pactō | pacto | pack |
-| Gen.30.43 | plūrimum | plurimum | pluriinum |
-| Gen.30.43 | caprīnum | caprinum | — |
-| Gen.31.1 | dictitābant | dictitabant | — |
-| Gen.31.1 | ipsōrum | ipsorum | — |
-| Gen.31.1 | facultātēs | facultates | — |
-| Gen.31.1 | abstulisse | abstulisse | — |
-| Gen.31.1 | illum | illum | ilium |
-| Gen.31.1 | comparāsse | comparasse | — |
-| Gen.31.2 | tum | tum | turn |
-| Gen.31.3 | Tum | Tum | Turn |
-| Gen.31.3 | adfutūrum | adfuturum | — |
-| Gen.31.5 | cum | cum | — |
-| Gen.31.7 | afficeret | afficeret | adficeret |
-| Gen.31.8 | præmiō | præmio | — |
-| Gen.31.9 | trānstulit | transtulit | — |
-| Gen.31.10 | admissūræ | admissuræ | — |
-| Gen.31.10 | colōris | coloris | colons |
-| Gen.31.10 | distīnctōs | distinctos | difiinclos |
-| Gen.31.11 | Tum | Tum | Turn |
-| Gen.31.12 | aspice | aspice | etadfpice |
-| Gen.31.12 | cīnctī | cincti | cincli |
-| Gen.31.12 | distīnctī | distincti | diftincli |
-| Gen.31.12 | injūriās | iniurias | iurias |
-| Gen.31.13 | Bēthelis | Bethelis | — |
-| Gen.31.13 | cōnspersistī | conspersisti | — |
-| Gen.31.13 | nuncupāstī | nuncupasti | nuncupalti |
-| Gen.31.14 | Tum | Tum | Tun |
-| Gen.31.14 | hērēditātis | hereditatis | iiereditatis |
-| Gen.31.14 | retineāmus | retineamus | — |
-| Gen.31.15 | aliēnārum | alienarum | — |
-| Gen.31.16 | facultātēs | facultates | — |
-| Gen.31.16 | nostræ | nostræ | noftrx |
-| Gen.31.17 | Tum | Tum | — |
-| Gen.31.18 | facultātēs | facultates | facilitates |
-| Gen.31.19 | profectō | profecto | profeclo |
-| Gen.31.19 | surripuerat | surripuerat | furripucrat |
-| Gen.31.20 | profectus | profectus | profedhis |
-| Gen.31.21 | trājectōque | traiectoque | — |
-| Gen.31.23 | illum | illum | ilium |
-| Gen.31.25 | cum | cum | qunni |
-| Gen.31.26 | illum | illum | ilium |
-| Gen.31.26 | Quænam | quænam | quxnam |
-| Gen.31.26 | partās | partas | — |
-| Gen.31.26 | abdūcerēs | abduceres | — |
-| Gen.31.27 | prōsequerer | prosequerer | — |
-| Gen.31.30 | profectus | profectus | profedhis |
-| Gen.31.31 | adductus | adductus | adduclus |
-| Gen.31.31 | ēriperēs | eriperes | aeriperes |
-| Gen.31.33 | Tum | Tum | Turn |
-| Gen.31.34 | sūmptōs | sumptos | fumtos |
-| Gen.31.34 | posuerat | posuerat | — |
-| Gen.31.34 | superque | superque | — |
-| Gen.31.34 | perscrūtātus | perscrutatus | perferutatus |
-| Gen.31.35 | ægrē | ægre | xgre |
-| Gen.31.35 | assurgere | assurgere | adfurgere |
-| Gen.31.35 | possum | possum | poslum |
-| Gen.31.37 | supellectile | supellectile | — |
-| Gen.31.37 | hūc | huc | hue |
-| Gen.31.37 | dirimant | dirimant | diriraant |
-| Gen.31.38 | capræ | capræ | caprx |
-| Gen.31.38 | īnfēcundæ | infecundæ | infecundx |
-| Gen.31.38 | oviāriæ | ouiariæ | ouiarix |
-| Gen.31.39 | imputābās | imputabas | — |
-| Gen.31.39 | noctis | noctis | noclis |
-| Gen.31.40 | fuī | fui | — |
-| Gen.31.40 | æstū | æstu | — |
-| Gen.31.41 | Hic | Hic | Hie |
-| Gen.31.41 | agitur | agitur | — |
-| Gen.31.42 | miseriās | miserias | mifcrias |
-| Gen.31.42 | perfūnctus | perfunctus | — |
-| Gen.31.43 | respondēns | respondens | — |
-| Gen.31.44 | fœdus | fœdus | — |
-| Gen.31.44 | feriāmus | feriamus | — |
-| Gen.31.45 | Hīc | Hic | Hie |
-| Gen.31.47 | Jegarsahadutham | Iegarsahadutham | — |
-| Gen.31.47 | dēnōmināvit | denominauit | — |
-| Gen.31.48 | Galaadus | Galaadus | — |
-| Gen.31.48 | dictus | dictus | — |
-| Gen.31.48 | hic | hic | hie |
-| Gen.31.49 | aspiciendō | aspiciendo | adfpiciendo |
-| Gen.31.50 | asperius | asperius | afperiws |
-| Gen.31.50 | tractābis | tractabis | tradtabis |
-| Gen.31.50 | præter | præter | prater |
-| Gen.31.52 | Hic | Hic | Hie |
-| Gen.31.52 | hic | hic | hit |
-| Gen.31.54 | cēpērunt | ceperunt | cepcrunt |
-| Gen.31.54 | noctem | noctem | — |
-| Gen.32.2 | appellāvit | appellauit | — |
-| Gen.32.3 | Idūmææ | Idumææ | Idumxae |
-| Gen.32.3 | præmīsit | præmisit | prxmifit |
-| Gen.32.4 | hāctenus | hactenus | — |
-| Gen.32.6 | Nūntiī | Nuntii | — |
-| Gen.32.6 | illum | illum | ilium |
-| Gen.32.10 | affēcistī | affecisti | adfecifti |
-| Gen.32.12 | subolem | subolem | foboiem |
-| Gen.32.12 | numerōsiōrem | numerosiorem | numcrofiorem |
-| Gen.32.13 | noctem | noctem | noclem |
-| Gen.32.15 | decem | decem | decern |
-| Gen.32.15 | asellōs | asellos | afcllos |
-| Gen.32.15 | decem | decem | decern |
-| Gen.32.16 | præīre | præire | pneire |
-| Gen.32.16 | interjectō | interiecto | interiecio |
-| Gen.32.17 | Tum | Tum | Turn |
-| Gen.32.17 | præcipit | præcipit | prxcipit |
-| Gen.32.20 | faciēbat | faciebat | — |
-| Gen.32.20 | præmissō | præmisso | prxmisfo |
-| Gen.32.20 | cōnspectum | conspectum | confpeetum |
-| Gen.32.21 | agmine | agmine | — |
-| Gen.32.23 | trāductīs | traductis | tra |
-| Gen.32.24 | cum | cum | — |
-| Gen.32.24 | restāret | restaret | rettaret |
-| Gen.32.24 | cum | cum | — |
-| Gen.32.24 | aurōræ | auroræ | aurora |
-| Gen.32.25 | contractum | contractum | contraclum |
-| Gen.32.25 | colluctandō | colluctando | colluclando |
-| Gen.32.28 | Tum | Tum | Turn |
-| Gen.32.29 | Hīc | Hic | — |
-| Gen.32.29 | mīrābile | mirabile | — |
-| Gen.32.30 | illum | illum | — |
-| Gen.32.30 | appellāvit | appellauit | adpellauit |
-| Gen.32.30 | præsēns | præsens | prafens |
-| Gen.32.30 | præsentem | præsentem | prafentem |
-| Gen.32.31 | præteritō | præterito | prxterito |
-| Gen.32.32 | contrahente | contrahente | — |
-| Gen.32.32 | vēscantur | vescantur | vefcautur |
-| Gen.32.32 | perstrictum | perstrictum | — |
-| Gen.33.1 | Cum | Cum | — |
-| Gen.33.3 | appropinquandō | appropinquando | adpropinquando |
-| Gen.33.4 | Tum | Tum | Turn |
-| Gen.33.4 | īnsiliit | insiliit | inliliit |
-| Gen.33.4 | flēns | flens | ilens |
-| Gen.33.6 | præbent | præbent | prxbent |
-| Gen.33.7 | præbent | præbent | prxbent |
-| Gen.33.8 | Tum | Tum | Turn |
-| Gen.33.8 | grex | grex | — |
-| Gen.33.10 | auctōritātis | auctoritatis | — |
-| Gen.33.10 | mūnusculum | munusculum | munuscuium |
-| Gen.33.11 | oblātum | oblatum | obiatum |
-| Gen.33.11 | dōnum | donum | doluni |
-| Gen.33.11 | mūnificentiā | munificentia | nuiiuficentia |
-| Gen.33.11 | coāctus | coactus | coachis |
-| Gen.33.11 | accipere | accipere | aocipere |
-| Gen.33.12 | Pergāmus | Pergamus | — |
-| Gen.33.13 | prægnantēs | prægnantes | pragnantes |
-| Gen.33.13 | capræ | capræ | capra |
-| Gen.33.13 | morientur | morientur | nvorientur |
-| Gen.33.14 | rogō | rogo | — |
-| Gen.33.14 | dōnec | donec | donee |
-| Gen.33.14 | Seir | Seir | Scir |
-| Gen.33.17 | profectus | profectus | profec |
-| Gen.33.17 | ædificāvit | ædificauit | acdificauit |
-| Gen.33.17 | Sochotha | Sochotha | — |
-| Gen.33.19 | fundum | fundum | fundmn |
-| Gen.34.1 | Dīna | Dina | — |
-| Gen.34.1 | spectandās | spectandas | — |
-| Gen.34.2 | Hevæī | Heuæi | Heuxi |
-| Gen.34.3 | puellæ | puellæ | puellx |
-| Gen.34.3 | blandīs | blandis | — |
-| Gen.34.3 | appellat | appellat | — |
-| Gen.34.4 | accipiat | accipiat | moniumaccipiat |
-| Gen.34.5 | corruptēlā | corruptela | porrupteia |
-| Gen.34.7 | dolōre | dolore | dolorc |
-| Gen.34.7 | flāgitium | flagitium | rlagitium |
-| Gen.34.8 | puellæ | puellæ | puelhe |
-| Gen.34.8 | vestræ | vestræ | veftrse |
-| Gen.34.9 | affīnitātem | affinitatem | adhjutatem |
-| Gen.34.9 | contrahite | contrahite | ccnjfahite |
-| Gen.34.10 | Tum | tum | turn |
-| Gen.34.10 | nostrōs | nostros | — |
-| Gen.34.12 | Quamvīs | Quamuis | Qiiamuis |
-| Gen.34.14 | postulāta | postulata | — |
-| Gen.34.16 | coalitūrōs | coalituros | coalitiiros |
-| Gen.34.17 | abductā | abducta | abdufta |
-| Gen.34.18 | Sichemō | Sichemo | Sicheroo |
-| Gen.34.19 | nec | nec | nee |
-| Gen.34.19 | cōnfectiōnem | confectionem | — |
-| Gen.34.19 | adulēscēns | adulescens | — |
-| Gen.34.19 | tum | tum | turn |
-| Gen.34.20 | veniunt | veniunt | veniimt |
-| Gen.34.20 | cīvēs | ciues | cities |
-| Gen.34.21 | ascīscant | asciscant | adfeifcant |
-| Gen.34.21 | trādant | tradant | ttadant |
-| Gen.34.22 | concessūrōs | concessuros | — |
-| Gen.34.22 | coalēscant | coalescant | — |
-| Gen.34.22 | circumcīsī | circumcisi | cimmzcifi |
-| Gen.34.23 | pactō | pacto | — |
-| Gen.34.23 | facultātēs | facultates | — |
-| Gen.34.23 | jūmenta | iumenta | — |
-| Gen.34.23 | commūnem | communem | — |
-| Gen.34.23 | habitātiōnem | habitationem | — |
-| Gen.34.24 | cīvēs | ciues | — |
-| Gen.34.24 | cūnctōs | cunctos | — |
-| Gen.34.24 | circumcīdērunt | circumciderunt | — |
-| Gen.34.25 | cum | cum | — |
-| Gen.34.25 | illī | illi | — |
-| Gen.34.25 | dolōre | dolore | — |
-| Gen.34.25 | Dīnæ | Dinæ | Dinx |
-| Gen.34.25 | audācter | audacter | — |
-| Gen.34.25 | invādunt | inuadunt | — |
-| Gen.34.26 | abductā | abducta | — |
-| Gen.34.27 | cædem | cædem | — |
-| Gen.34.27 | superveniunt | superueniunt | — |
-| Gen.34.27 | stuprāta | stuprata | — |
-| Gen.34.27 | dēprædantur | deprædantur | — |
-| Gen.34.28 | quæque | quæque | quxque |
-| Gen.34.28 | quæque | quæque | — |
-| Gen.34.29 | facultātēs | facultates | — |
-| Gen.34.29 | dēprædātī | deprædati | — |
-| Gen.34.30 | incūsāns | incusans | — |
-| Gen.34.30 | magnās | magnas | — |
-| Gen.34.30 | difficultātēs | difficultates | — |
-| Gen.34.30 | conjectum | coniectum | — |
-| Gen.34.30 | capitāle | capitale | — |
-| Gen.34.30 | Chananæōrum | Chananæorum | — |
-| Gen.34.30 | Pherezæōrum | Pherezæorum | — |
-| Gen.34.30 | incolārum | incolarum | — |
-| Gen.34.30 | perpaucōs | perpaucos | — |
-| Gen.34.30 | coitūrōs | coituros | — |
-| Gen.34.30 | suamque | suamque | — |
-| Gen.34.30 | familiam | familiam | — |
-| Gen.34.30 | perditūrōs | perdituros | — |
-| Gen.34.31 | illī | illi | — |
-| Gen.34.31 | æquum | æquum | — |
-| Gen.34.31 | meretrīce | meretrice | — |
-| Gen.34.31 | habita | habita | — |
-| Gen.34.31 | ipsōrum | ipsorum | — |
-| Gen.35.1 | fugientī | fugienti | afugienti |
-| Gen.35.1 | appāruisset | apparuisset | adparuisfet |
-| Gen.35.2 | remōtīs | remotis | reoaoris |
-| Gen.35.2 | peregrīnīs | peregrinis | pereyrinis |
-| Gen.35.2 | mūtārent | mutarent | — |
-| Gen.35.3 | Profectūrōs | Profecturos | — |
-| Gen.35.3 | factūrum | facturum | — |
-| Gen.35.3 | difficillimīs | difficillimis | — |
-| Gen.35.3 | exaudītus | exauditus | — |
-| Gen.35.3 | adjūtus | adiutus | — |
-| Gen.35.4 | Illī | Illi | — |
-| Gen.35.4 | habēbant | habebant | — |
-| Gen.35.4 | peregrīnōs | peregrinos | — |
-| Gen.35.4 | nec | nec | — |
-| Gen.35.4 | inaurēs | inaures | — |
-| Gen.35.4 | auriculīs | auriculis | — |
-| Gen.35.4 | habēbant | habebant | — |
-| Gen.35.4 | trādunt | tradunt | — |
-| Gen.35.4 | quercū | quercu | — |
-| Gen.35.4 | occultātis | occultatis | — |
-| Gen.35.5 | fīnitimīs | finitimis | — |
-| Gen.35.5 | cīvitātibus | ciuitatibus | — |
-| Gen.35.5 | incussō | incusso | — |
-| Gen.35.5 | Jācōbæōs | Iacobæos | — |
-| Gen.35.5 | persequerentur | persequerentur | — |
-| Gen.35.6 | Lūzam | Luzam | — |
-| Gen.35.6 | sitam | sitam | — |
-| Gen.35.6 | cum | cum | — |
-| Gen.35.7 | extrūxit | extruxit | — |
-| Gen.35.7 | El | El | — |
-| Gen.35.7 | appellāvit | appellauit | — |
-| Gen.35.7 | fugientī | fugienti | — |
-| Gen.35.7 | ostendisset | ostendisset | — |
-| Gen.35.8 | Rebeccæ | Rebeccæ | — |
-| Gen.35.8 | nūtrīx | nutrix | — |
-| Gen.35.8 | Debōra | Debora | — |
-| Gen.35.8 | dēfūncta | defuncta | — |
-| Gen.35.8 | sepulta | sepulta | — |
-| Gen.35.8 | rōbore | robore | — |
-| Gen.35.8 | flētus | fletus | — |
-| Gen.35.8 | rōbur | robur | — |
-| Gen.35.9 | fēlīcitāvit | felicitauit | — |
-| Gen.35.10 | dīcerētur | diceretur | — |
-| Gen.35.10 | Isrāēlem | Israelem | — |
-| Gen.35.10 | vocārī | vocari | — |
-| Gen.35.10 | īnstituit | instituit | — |
-| Gen.35.11 | Prōpāgātō | Propagato | — |
-| Gen.35.11 | multipliciter | multipliciter | — |
-| Gen.35.11 | gēns | gens | — |
-| Gen.35.11 | multitūdō | multitudo | — |
-| Gen.35.11 | proficīscātur | proficiscatur | — |
-| Gen.35.11 | rēgēsque | regesque | — |
-| Gen.35.11 | rēnibus | renibus | — |
-| Gen.35.11 | oriantur | oriantur | — |
-| Gen.35.12 | secūtūræ | secuturæ | fecinurx |
-| Gen.35.14 | cōnspersit | conspersit | confperlit |
-| Gen.35.14 | perfūdit | perfudit | — |
-| Gen.35.15 | locumque | locumque | — |
-| Gen.35.16 | Cum | Cum | Qunm |
-| Gen.35.16 | Ephrātā | ephrata | tphrata |
-| Gen.35.16 | difficulter | difficulter | dirhculter |
-| Gen.35.17 | ægrē | ægre | xgre |
-| Gen.35.17 | ēnitentem | enitentem | enitentera |
-| Gen.35.18 | animam | animam | anunam |
-| Gen.35.19 | Ephrātæ | Ephratæ | Ephratx |
-| Gen.35.21 | profectus | profectus | profechis |
-| Gen.35.21 | ultrā | vltra | vltratur |
-| Gen.35.22 | Balæ | Balæ | Balx |
-| Gen.35.22 | concubīnæ | concubinæ | concubinx |
-| Gen.35.23 | Zabulōnem | Zabulonem | Zabuloncm |
-| Gen.35.27 | Mambrem | Mambrem | Mambrcm |
-| Gen.35.27 | Cariatharbæ | Cariatharbæ | Cariatharbx |
-| Gen.35.27 | Hebrōnem | Hebronem | Hebroncm |
-| Gen.35.28 | octōgintā | octoginta | — |
-| Gen.35.28 | complēvit | compleuit | — |
-| Gen.35.29 | dēfūnctus | defunctus | defunchis |
-| Gen.35.29 | ævī | æui | ami |
-| Gen.35.29 | sepultus | sepultus | fcpultus |
-| Gen.36.2 | Chananæīs | Chananæis | Chananxis |
-| Gen.36.2 | Hettæī | Hettæi | Hettxi |
-| Gen.36.2 | Anæ | Anæ | — |
-| Gen.36.2 | Hevæī | Heuæi | Heuxi |
-| Gen.36.3 | Basematham | Basematham | — |
-| Gen.36.3 | Ismælis | Ismælis | — |
-| Gen.36.5 | Oolībāmā | Oolibama | — |
-| Gen.36.5 | Jeussum | Ieussum | — |
-| Gen.36.6 | pecūliō | peculio | — |
-| Gen.36.6 | comparāverat | comparauerat | — |
-| Gen.36.7 | Tantæ | Tantæ | Tantx |
-| Gen.36.7 | tantæ | tantæ | tantx |
-| Gen.36.7 | cōpiæ | copiæ | — |
-| Gen.36.8 | Idūmæōrum | Idumæorum | Idumxorum |
-| Gen.36.8 | auctor | auctor | auclor |
-| Gen.36.9 | dēducta | deducta | — |
-| Gen.36.11 | Elīphazus | Eliphazus | — |
-| Gen.36.11 | Saphōnem | Saphonem | Sapbonem |
-| Gen.36.13 | Nahatum | Nahatum | — |
-| Gen.36.16 | Gatāmus | Gatamus | Gatomus |
-| Gen.36.16 | Idūmæā | Idumæa | — |
-| Gen.36.17 | Samma | Samma | — |
-| Gen.36.17 | Idūmæā | Idumæa | a |
-| Gen.36.18 | Oolībāmæ | Oolibamæ | Oolibamx |
-| Gen.36.18 | Jeus | ieus | leus |
-| Gen.36.18 | Oolībāmæ | Oolibamæ | Oolibamx |
-| Gen.36.18 | Anæ | Anæ | Anx |
-| Gen.36.20 | incolæ | incolæ | incolx |
-| Gen.36.21 | Idūmæā | Idumæa | — |
-| Gen.36.22 | Hōrium | Horium | — |
-| Gen.36.23 | Mānahatum | Manahatum | — |
-| Gen.36.23 | Saphōnem | Saphonem | Sapbonem |
-| Gen.36.23 | Ōnāmum | Onamum | Unamum |
-| Gen.36.24 | mūlōs | mulos | — |
-| Gen.36.24 | invēnit | inuenit | — |
-| Gen.36.25 | Oolībāmam | Oolibamam | — |
-| Gen.36.26 | Esbānem | Esbanem | Esbancm |
-| Gen.36.26 | Jethrānem | Iethranem | Iethrancm |
-| Gen.36.26 | Carānem | caranem | etCaranem |
-| Gen.36.30 | Ēzer | Ezer | Jjzer |
-| Gen.36.31 | Idūmæā | Idumæa | Idutnxa |
-| Gen.36.32 | Idūmæā | Idumæa | — |
-| Gen.36.32 | Bela | Bela | — |
-| Gen.36.32 | Beōris | Beoris | — |
-| Gen.36.33 | Jōbābus | Iobabus | — |
-| Gen.36.33 | Zaræ | Zaræ | — |
-| Gen.36.34 | Husāmus | Husamus | mtis |
-| Gen.36.35 | Hadadus | Hadadus | Kadadus |
-| Gen.36.37 | profectus | profectus | profedhis |
-| Gen.36.40 | gentīlitātum | gentilitatum | gentilitatuni |
-| Gen.36.40 | distīnctī | distincti | — |
-| Gen.36.40 | Thamna | Thamna | Thanma |
-| Gen.36.40 | Alva | Alua | Aiua |
-| Gen.36.41 | Phīnōn | Phinon | — |
-| Gen.36.43 | Īrāmus | iramus | ramus |
-| Gen.36.43 | Idūmæōrum | Idumæorum | Idumxorum |
-| Gen.36.43 | parente | parente | parcnte |
-| Gen.37.1 | incoluit | incoluit | incohiit |
-| Gen.37.2 | Balæ | Balæ | — |
-| Gen.37.2 | Zilpæ | Zilpæ | — |
-| Gen.37.2 | fœdam | fœdam | fcedam |
-| Gen.37.4 | concēpērunt | conceperunt | conccperunt |
-| Gen.37.7 | venerābantur | venerabantur | venerebantur |
-| Gen.37.7 | rēgnum | regnum | regnuin |
-| Gen.37.8 | exārsērunt | exarserunt | exarfertint |
-| Gen.37.9 | stēllīs | stellis | fiellis |
-| Gen.37.10 | spectat | spectat | fpeclat |
-| Gen.37.12 | profectīs | profectis | profefHs |
-| Gen.37.14 | referat | referat | — |
-| Gen.37.14 | dīmissus | dimissus | — |
-| Gen.37.15 | quærat | quærat | quxrat |
-| Gen.37.16 | quærō | quæro | qiixro |
-| Gen.37.16 | ubinam | vbinam | — |
-| Gen.37.17 | Discessērunt | discesserunt | disceslerunt |
-| Gen.37.18 | pervenīret | perueniret | — |
-| Gen.37.19 | illum | illum | ilium |
-| Gen.37.20 | interficiendum | interficiendum | zointerficiendum |
-| Gen.37.20 | dīcendumque | dicendumque | ducndiunque |
-| Gen.37.20 | ēvāderent | euaderent | — |
-| Gen.37.21 | dēterrēbat | deterrebat | deterrcbat |
-| Gen.37.23 | illā | illa | ilia |
-| Gen.37.24 | dētrūdunt | detrudunt | dctvudunt |
-| Gen.37.25 | cætum | cætum | cxtuin |
-| Gen.37.25 | Ismaēlītārum | Ismaelitarum | Iamaelitarum |
-| Gen.37.25 | rēsīnam | resinam | refmam |
-| Gen.37.26 | interficere | interficere | interfkere |
-| Gen.37.27 | Ismaēlītīs | Ismaelitis | — |
-| Gen.37.27 | cōnsanguineus | consanguineus | — |
-| Gen.37.28 | adductī | adducti | adducii |
-| Gen.37.28 | extractum | extractum | — |
-| Gen.37.28 | ēductumque | eductumque | — |
-| Gen.37.28 | nummīs | nummis | — |
-| Gen.37.28 | Ismaēlītīs | Ismaelitis | — |
-| Gen.37.28 | abdūcitur | abducitur | — |
-| Gen.37.29 | cum | cum | — |
-| Gen.37.29 | revertitur | reuertitur | reueititur |
-| Gen.37.31 | versicolōrem | versicolorem | — |
-| Gen.37.32 | significant | significant | iignifkant |
-| Gen.37.32 | recognōscat | recognoscat | recOgnotcaf |
-| Gen.37.32 | necne | necne | — |
-| Gen.37.34 | vestīmentīs | vestimentis | veftimen |
-| Gen.37.34 | succīnctīs | succinctis | etfuccinctis |
-| Gen.37.35 | Cumque | Cumque | Qiiumque |
-| Gen.37.35 | dēplōrāns | deplorans | depiorans |
-| Gen.37.36 | Illum | Illum | Ilium |
-| Gen.37.36 | eunūchō | eunucho | eimucho |
-| Gen.37.36 | magistrō | magistro | niagiftro |
-| Gen.37.36 | vēndidērunt | vendiderunt | — |
-| Gen.38.2 | cum | cum | qmini |
-| Gen.38.2 | Chananæī | Chananæi | — |
-| Gen.38.3 | congressū | congressu | congrcsfu |
-| Gen.38.3 | appellāvit | appellauit | adpellauit |
-| Gen.38.8 | Ōnānī | Onani | — |
-| Gen.38.8 | congrederētur | congrederetur | — |
-| Gen.38.9 | effundēbat | effundebat | — |
-| Gen.38.9 | dōnāret | donaret | doionaret |
-| Gen.38.10 | offēnsus | offensus | — |
-| Gen.38.11 | Tum | Tum | — |
-| Gen.38.11 | viduam | viduam | — |
-| Gen.38.11 | paternæ | paternæ | paternx |
-| Gen.38.11 | dōnec | donec | — |
-| Gen.38.11 | Jūdæ | Iudæ | — |
-| Gen.38.12 | Jūdæ | Iudæ | Iudx |
-| Gen.38.12 | suārum | suarum | — |
-| Gen.38.12 | ascendēbat | ascendebat | — |
-| Gen.38.16 | dēflectit | deflectit | — |
-| Gen.38.16 | admittātur | admittatur | — |
-| Gen.38.16 | dabis | dabis | — |
-| Gen.38.16 | admittāre | admittare | tare |
-| Gen.38.17 | Hædum | Hædum | Hxdum |
-| Gen.38.17 | dōnec | donec | donee |
-| Gen.38.18 | Quemnam | Quemnam | — |
-| Gen.38.18 | cum | cum | aim |
-| Gen.38.19 | exuit | exuit | exuir |
-| Gen.38.19 | viduitātis | viduitatis | — |
-| Gen.38.20 | hædum | hædum | hxdum |
-| Gen.38.20 | familiārem | familiarem | fannliarem |
-| Gen.38.20 | Adulāmītam | Adulamitam | Adulamiram |
-| Gen.38.23 | hædum | hædum | hxdum |
-| Gen.38.23 | mīsī | misi | mili |
-| Gen.38.24 | Jūdæ | Iudæ | Iudx |
-| Gen.38.24 | Tum | Tum | Turn |
-| Gen.38.25 | vittīs | vittis | vims |
-| Gen.38.25 | mittit | mittit | miltit |
-| Gen.38.25 | recognōscat | recognoscat | recognoilat |
-| Gen.38.26 | locāsset | locasset | locaslct |
-| Gen.38.28 | alligāvit | alligauit | adligauit |
-| Gen.38.29 | ēmergeret | emergeret | emergeref |
-| Gen.38.29 | interstitium | interstitium | interititium |
-| Gen.38.29 | appellātus | appellatus | — |
-| Gen.39.1 | adductum | adductum | — |
-| Gen.39.1 | ægyptius | ægyptius | xgyptius |
-| Gen.39.1 | abductus | abductus | abduchis |
-| Gen.39.3 | cum | cum | — |
-| Gen.39.3 | erus | erus | herns |
-| Gen.39.3 | propitium | propitium | — |
-| Gen.39.3 | tractāret | tractaret | traelaret |
-| Gen.39.3 | prosperē | prospere | — |
-| Gen.39.4 | ministeriō | ministerio | minilteno |
-| Gen.39.6 | cūrāret | curaret | curarct |
-| Gen.39.6 | venustāte | venustate | — |
-| Gen.39.7 | cōnstitūtīs | constitutis | conftituti |
-| Gen.39.7 | adjectīs | adiectis | — |
-| Gen.39.8 | erus | erus | herns |
-| Gen.39.8 | nesciat | nesciat | — |
-| Gen.39.9 | nec | nec | nee |
-| Gen.39.9 | nec | nec | nee |
-| Gen.39.9 | interdīxerit | interdixerit | interdixent |
-| Gen.39.9 | flāgitiō | flagitio | iiagitio |
-| Gen.39.9 | admittam | Admittam | IOadmittam |
-| Gen.39.10 | īnstat | instat | inllat |
-| Gen.39.10 | congressum | congressum | — |
-| Gen.39.11 | accidit | accidit | aceidit |
-| Gen.39.11 | administrandum | administrandum | adminilirandum |
-| Gen.39.11 | domesticīs | domesticis | — |
-| Gen.39.12 | Hīc | Hic | — |
-| Gen.39.12 | prehēnsō | prehenso | — |
-| Gen.39.12 | concumberet | concumberet | eoncumberet |
-| Gen.39.12 | relictō | relicto | relicfc |
-| Gen.39.13 | Tum | Tum | Turn |
-| Gen.39.13 | relictum | relictum | reliclum |
-| Gen.39.13 | illum | illum | — |
-| Gen.39.13 | profūgisse | profugisse | profngisfe |
-| Gen.39.14 | domesticōs | domesticos | domelticos |
-| Gen.39.14 | adductus | adductus | adduehis |
-| Gen.39.14 | illūdendum | illudendum | illiidendum |
-| Gen.39.14 | vēnerit | venerit | venerir |
-| Gen.39.14 | comprimeret | comprimeret | compiimeret |
-| Gen.39.15 | relictō | relicto | relieio |
-| Gen.39.15 | fūgit | fugit | — |
-| Gen.39.17 | illum | illum | — |
-| Gen.39.17 | adductum | adductum | adduflmn |
-| Gen.39.19 | erus | erus | herns |
-| Gen.39.21 | præsēns | præsens | prxfens |
-| Gen.39.21 | benignus | benignus | — |
-| Gen.39.21 | adfuit | adfuit | — |
-| Gen.39.22 | vīnctōs | vinctos | — |
-| Gen.39.22 | committeret | committeret | cormnitteret |
-| Gen.39.23 | nec | nec | nee |
-| Gen.40.1 | accidit | accidit | aceidit |
-| Gen.40.1 | eunūchī | eunuchi | eunuehi |
-| Gen.40.1 | prægustātōrum | prægustatorum | — |
-| Gen.40.3 | carcer | carcer | career |
-| Gen.40.4 | ministrāret | ministraret | mtniftraret |
-| Gen.40.5 | Illī | Illi | Uli |
-| Gen.40.6 | mæstōs | mæstos | moeltos |
-| Gen.40.7 | mæstō | mæsto | mcefto |
-| Gen.40.8 | Illī | Illi | Uli |
-| Gen.40.9 | Tum | Tum | — |
-| Gen.40.9 | prægustātōrum | prægustatorum | — |
-| Gen.40.9 | Vidēbātur | Videbatur | — |
-| Gen.40.10 | racēmī | racemi | — |
-| Gen.40.11 | pōculum | poculum | pocuiura |
-| Gen.40.11 | exprimēbam | exprimebam | exprimebain |
-| Gen.40.11 | porrigēbam | porrigebam | porriISgebam |
-| Gen.40.12 | Hic | hic | hie |
-| Gen.40.13 | prōdūcī | produci | prcduci |
-| Gen.40.13 | restituet | restituet | — |
-| Gen.40.13 | prægustātor | prægustator | prxguftator |
-| Gen.40.14 | cum | cum | quimi |
-| Gen.40.14 | injiciās | iniicias | inikias |
-| Gen.40.15 | hīc | hic | hie |
-| Gen.40.16 | Hīc | Hic | Hie |
-| Gen.40.16 | interpretātum | interpretatum | interprefatum |
-| Gen.40.17 | cibōrum | ciborum | ciboriim |
-| Gen.40.17 | pistōriōrum | pistoriorum | pittoriorum |
-| Gen.40.17 | comedēbant | comedebant | — |
-| Gen.40.18 | Tum | Tum | — |
-| Gen.40.18 | significātiō | significatio | fignifkatio |
-| Gen.40.18 | canistra | canistra | — |
-| Gen.40.19 | pālum | palum | — |
-| Gen.40.19 | affīgēris | affigeris | — |
-| Gen.40.20 | prægustātōrum | prægustatorum | prxguftatorum |
-| Gen.40.21 | illum | illum | ilium |
-| Gen.40.22 | alligāvit | alligauit | adligauit |
-| Gen.40.22 | interpretātus | interpretatus | — |
-| Gen.40.23 | prægustātōrum | prægustatorum | prxguftatorum |
-| Gen.40.23 | oblīviōnī | obliuioni | obiiuioui |
-| Gen.41.2 | fōrmōsæ | formosæ | — |
-| Gen.41.2 | cārectō | carecto | careclo |
-| Gen.41.3 | alteræ | alteræ | alters |
-| Gen.41.3 | ascendentēs | ascendentes | adfeendentes |
-| Gen.41.3 | tenuī | tenui | tenni |
-| Gen.41.3 | cōnsistēbant | consistebant | confiflebant |
-| Gen.41.4 | macræ | macræ | macrx |
-| Gen.41.4 | opīmās | opimas | — |
-| Gen.41.4 | dēvorābant | deuorabant | — |
-| Gen.41.4 | Hīc | Hic | — |
-| Gen.41.5 | calamō | calamo | caiamo |
-| Gen.41.6 | succrēscēbant | succrescebant | fuccrefcebanto |
-| Gen.41.6 | alteræ | alteræ | alterx |
-| Gen.41.6 | exēsæ | exesæ | exefx |
-| Gen.41.7 | cōnsūmēbant | consumebant | — |
-| Gen.41.7 | Tum | Tum | — |
-| Gen.41.7 | experrēctus | experrectus | — |
-| Gen.41.8 | sapientēs | sapientes | fapierites |
-| Gen.41.8 | interpretārī | interpretari | — |
-| Gen.41.9 | prægustātor | prægustator | — |
-| Gen.41.9 | Hīc | Hic | — |
-| Gen.41.12 | ebræus | ebræus | — |
-| Gen.41.12 | narrāvissēmus | narrauissemus | — |
-| Gen.41.13 | restitūtō | restituto | reilituto |
-| Gen.41.13 | āctō | acto | — |
-| Gen.41.13 | comprobāvit | comprobauit | coraprobauit |
-| Gen.41.14 | Tum | Tum | Turn |
-| Gen.41.14 | carcere | carcere | — |
-| Gen.41.14 | expedītus | expeditus | — |
-| Gen.41.14 | mūtātīsque | mutatisque | — |
-| Gen.41.14 | vestīmentīs | vestimentis | — |
-| Gen.41.15 | illum | illum | ilium |
-| Gen.41.15 | interpretātiōnem | interpretationem | — |
-| Gen.41.17 | astāre | astare | — |
-| Gen.41.17 | rīpæ | ripæ | — |
-| Gen.41.18 | vaccæ | vaccæ | vaccx |
-| Gen.41.18 | habitæ | habitæ | habitx |
-| Gen.41.18 | pulchræ | pulchræ | — |
-| Gen.41.18 | cārectum | carectum | — |
-| Gen.41.18 | dēpāscēbant | depascebant | depafeebanf |
-| Gen.41.19 | Tum | Tum | Turn |
-| Gen.41.19 | alteræ | alteræ | altera |
-| Gen.41.19 | fœdus | fœdus | — |
-| Gen.41.20 | strigōsæ | strigosæ | ftrigofa |
-| Gen.41.21 | cum | cum | — |
-| Gen.41.21 | īnfōrmēs | informes | — |
-| Gen.41.22 | oppressus | oppressus | oppresAis |
-| Gen.41.22 | spīcās | spicas | fpica |
-| Gen.41.23 | alteræ | alteræ | alter |
-| Gen.41.23 | minūtæ | minutæ | — |
-| Gen.41.23 | perustæ | perustæ | peruftx |
-| Gen.41.24 | cōnsūmpsērunt | consumpserunt | confumferunt |
-| Gen.41.25 | Tum | Tum | Turn |
-| Gen.41.25 | factūrus | facturus | — |
-| Gen.41.25 | præmonet | præmonet | — |
-| Gen.41.26 | vaccæ | vaccæ | vaccx |
-| Gen.41.26 | generōsæ | generosæ | generofx |
-| Gen.41.26 | spīcæ | spicæ | fpicx |
-| Gen.41.26 | generōsæ | generosæ | generofie |
-| Gen.41.27 | Alteræ | Alteræ | Alterx |
-| Gen.41.27 | perustæ | perustæ | peruftx |
-| Gen.41.28 | factūrus | facturus | — |
-| Gen.41.30 | sequentur | sequentur | fequemur |
-| Gen.41.30 | tantæ | tantæ | tantx |
-| Gen.41.30 | superfutūrum | superfuturum | — |
-| Gen.41.31 | tantæ | tantæ | tantx |
-| Gen.41.31 | abundantiæ | abundantiæ | abundantix |
-| Gen.41.31 | vestīgium | vestigium | veftiginm |
-| Gen.41.33 | virum | virum | — |
-| Gen.41.33 | scientem | scientem | — |
-| Gen.41.33 | præficiās | præficias | prxficias |
-| Gen.41.34 | Tum | Tum | Turn |
-| Gen.41.34 | cōnstitūtīs | constitutis | conftirutis |
-| Gen.41.34 | annōnæ | annonæ | annonx |
-| Gen.41.38 | cōnfessus | confessus | confesAis |
-| Gen.41.39 | ēdoctus | edoctus | edodus |
-| Gen.41.40 | habēbis | habebis | — |
-| Gen.41.40 | nūtum | nutum | minim |
-| Gen.41.42 | dētractum | detractum | defrachim |
-| Gen.41.42 | collō | collo | colioam |
-| Gen.41.42 | aureā | aurea | ea |
-| Gen.41.42 | īnsignītō | insignito | iniignito |
-| Gen.41.43 | prōclāmārētur | proclamaretur | prodamaretur |
-| Gen.41.43 | flectite | flectite | fleclite |
-| Gen.41.45 | Tum | Tum | Turn |
-| Gen.41.45 | Sāphnathopanēam | Saphnathopaneam | — |
-| Gen.41.45 | appellāvit | appellauit | — |
-| Gen.41.45 | Pōtīpheræ | Potipheræ | Potipherx |
-| Gen.41.47 | cumulātissimē | cumulatissime | cumulatisihne |
-| Gen.41.48 | singulōrum | singulorum | fingulorura |
-| Gen.41.49 | arēnæ | arenæ | arenx |
-| Gen.41.49 | innumerābile | innumerabile | innumerable |
-| Gen.41.50 | pēnūria | penuria | — |
-| Gen.41.51 | attulisset | attulisset | — |
-| Gen.41.52 | miseriæ | miseriæ | miferix |
-| Gen.41.53 | cōpiōsīs | copiosis | — |
-| Gen.41.55 | Tum | Tum | Turn |
-| Gen.42.1 | urgente | vrgente | — |
-| Gen.42.2 | abjectā | abiecta | abiecla |
-| Gen.42.3 | decem | decem | decern |
-| Gen.42.6 | præfectum | præfectum | pnefechim |
-| Gen.42.7 | Illī | Illi | Uli |
-| Gen.42.8 | nec | nec | — |
-| Gen.42.11 | ūnīus | vnius | — |
-| Gen.42.14 | Tum | Tum | — |
-| Gen.42.15 | hūc | huc | hue |
-| Gen.42.17 | Tum | Tum | Turn |
-| Gen.42.20 | condiciōnem | condicionem | conditioner |
-| Gen.42.21 | redāctōs | redactos | redaclos |
-| Gen.42.22 | pœnās | pœnas | — |
-| Gen.42.22 | expetī | expeti | — |
-| Gen.42.23 | intellegēns | intellegens | — |
-| Gen.42.23 | nescientibus | nescientibus | — |
-| Gen.42.23 | intercēdēbat | intercedebat | in |
-| Gen.42.23 | interpres | interpres | fercedebatinterpres |
-| Gen.42.24 | cum | cum | — |
-| Gen.42.24 | comprehēnsum | comprehensum | — |
-| Gen.42.25 | saccum | saccum | faccuin |
-| Gen.42.27 | saccum | saccum | faccuin |
-| Gen.42.28 | Hīc | Hic | — |
-| Gen.42.28 | exanimātī | exanimati | — |
-| Gen.42.29 | fortūnam | fortunam | gofortunam |
-| Gen.42.33 | relictō | relicto | relifto |
-| Gen.42.34 | pactō | pacto | padto |
-| Gen.42.35 | reperisset | reperisset | reperisfct |
-| Gen.42.35 | līberī | liberi | Ubcri |
-| Gen.42.37 | committe | committe | commute |
-| Gen.43.2 | cōnsūmpsērunt | consumpserunt | confumferunt |
-| Gen.43.3 | Affirmāvit | Affirmauit | — |
-| Gen.43.3 | cōnspectum | conspectum | — |
-| Gen.43.5 | dīmittis | dimittis | dinuttis |
-| Gen.43.7 | prætereā | præterea | prxterea |
-| Gen.43.8 | hīc | hic | hie |
-| Gen.43.8 | proficīscāmur | proficiscamur | proKcifcamur |
-| Gen.43.8 | vītæque | vitæque | vitsque |
-| Gen.43.8 | nostræ | nostræ | noftrc |
-| Gen.43.8 | tum | tum | turn |
-| Gen.43.8 | tum | tum | turn |
-| Gen.43.11 | rēsīnæ | resinæ | retinae |
-| Gen.43.11 | mellis | mellis | — |
-| Gen.43.11 | ferte | ferte | — |
-| Gen.43.11 | arōmata | aromata | — |
-| Gen.43.11 | stactēn | stacten | ftadlen |
-| Gen.43.12 | reportāte | reportate | ieportaie |
-| Gen.43.13 | assūmptōque | assumptoque | — |
-| Gen.43.13 | proficīsciminī | proficiscimini | — |
-| Gen.43.13 | revertiminī | reuertimini | — |
-| Gen.43.14 | mītiget | mitiget | — |
-| Gen.43.15 | Tum | Tum | Turn |
-| Gen.43.15 | capiunt | capiunt | capiuut |
-| Gen.43.15 | assūmptōque | assumptoque | asfumtoque |
-| Gen.43.16 | præparet | præparet | piveparet |
-| Gen.43.19 | illum | illum | ilium |
-| Gen.43.19 | introitū | introitu | inaotroitu |
-| Gen.43.20 | profectōs | profectos | profeclos |
-| Gen.43.21 | lībram | libram | — |
-| Gen.43.21 | retulisse | retulisse | — |
-| Gen.43.22 | aliud | aliud | — |
-| Gen.43.22 | emendum | emendum | — |
-| Gen.43.22 | attulisse | attulisse | — |
-| Gen.43.22 | nescīre | nescire | — |
-| Gen.43.22 | reposuisset | reposuisset | — |
-| Gen.43.23 | metuere | metuere | — |
-| Gen.43.23 | vetat | vetat | — |
-| Gen.43.23 | patrium | patrium | — |
-| Gen.43.23 | immīsisse | immisisse | — |
-| Gen.43.23 | pervēnisse | peruenisse | — |
-| Gen.43.23 | Tum | Tum | — |
-| Gen.43.23 | ēdūcit | educit | — |
-| Gen.43.24 | hominēsque | hominesque | — |
-| Gen.43.24 | intrōdūcit | introducit | — |
-| Gen.43.24 | lavandīs | lauandis | — |
-| Gen.43.24 | pābulumque | pabulumque | — |
-| Gen.43.25 | Illī | Illi | — |
-| Gen.43.25 | adōrnant | adornant | — |
-| Gen.43.25 | audierant | audierant | — |
-| Gen.43.25 | captūrōs | capturos | — |
-| Gen.43.26 | ingressō | ingresso | — |
-| Gen.43.26 | habēbant | habebant | — |
-| Gen.43.26 | intrō | intro | — |
-| Gen.43.26 | tulērunt | tulerunt | — |
-| Gen.43.26 | venerantēs | venerantes | — |
-| Gen.43.27 | Tum | Tum | — |
-| Gen.43.27 | valētūdine | valetudine | — |
-| Gen.43.27 | valet | valet | — |
-| Gen.43.27 | dīxerātis | dixeratis | — |
-| Gen.43.27 | Vīvit | Viuit | — |
-| Gen.43.29 | Tum | Tum | Turn |
-| Gen.43.29 | hic | hic | hie |
-| Gen.43.29 | locūtīs | locutis | locuti |
-| Gen.43.29 | fuistis | fuistis | fuiltis |
-| Gen.43.30 | miserātiōne | miseratione | mierfatione |
-| Gen.43.30 | flēret | fleret | tieret |
-| Gen.43.30 | quæsīvit | quæsiuit | qmtfiuir |
-| Gen.43.30 | penetrāle | penetrale | penetrate |
-| Gen.43.31 | continuit | continuit | continuity |
-| Gen.43.32 | turpissimum | turpissimum | turpishmum |
-| Gen.43.34 | Tum | Tum | Turn |
-| Gen.43.34 | quīntuplō | quintuplo | quintuple |
-| Gen.43.34 | ūllīus | vllius | vlliuj |
-| Gen.44.1 | cum | cum | — |
-| Gen.44.1 | plūrimum | plurimum | plurimiim |
-| Gen.44.1 | ūniuscujusque | vniuscuiusque | vninscuiusque |
-| Gen.44.2 | tum | tum | turn |
-| Gen.44.2 | præter | præter | prater |
-| Gen.44.3 | dīlūculō | diluculo | — |
-| Gen.44.3 | cum | cum | — |
-| Gen.44.6 | bonum | bonum | — |
-| Gen.44.6 | pēnsārint | pensarint | — |
-| Gen.44.6 | suus | suus | funs |
-| Gen.44.6 | erus | erus | berus |
-| Gen.44.7 | Tum | Tum | Turn |
-| Gen.44.8 | Chananæōrum | Chananæorum | Ghananxoruin |
-| Gen.44.8 | nēdum | nedum | ncduni |
-| Gen.44.8 | surripuerīmus | surripuerimus | — |
-| Gen.44.9 | plēctātur | plectatur | plcctatur |
-| Gen.44.10 | pœnam | pœnam | pcenam |
-| Gen.44.11 | Hīc | Hic | Hie |
-| Gen.44.11 | cōnfestim | confestim | confeihm |
-| Gen.44.12 | maximō | maximo | inaximo |
-| Gen.44.12 | exōrsus | exorsus | exorfiis |
-| Gen.44.13 | Tum | Tum | Turn |
-| Gen.44.13 | vestīmentīs | vestimentis | veftinientis |
-| Gen.44.16 | afferēmus | afferemus | adferenjuB |
-| Gen.44.16 | pūrgābimus | purgabimus | — |
-| Gen.44.16 | Dēprehendit | Deprehendit | — |
-| Gen.44.18 | Tum | Tum | Turn |
-| Gen.44.19 | essetne | essetne | — |
-| Gen.44.20 | senectā | senecta | fenecla |
-| Gen.44.21 | Tum | Tum | — |
-| Gen.44.21 | addūcerēmus | adduceremus | — |
-| Gen.44.23 | cōnspectum | conspectum | — |
-| Gen.44.23 | vetuistī | vetuisti | — |
-| Gen.44.24 | pervēnimus | peruenimus | — |
-| Gen.44.26 | licēre | licere | liccre |
-| Gen.44.26 | cōnspectum | conspectum | confpechim |
-| Gen.44.26 | licēre | Licere | Jicere |
-| Gen.44.29 | illum | illum | ilium |
-| Gen.44.29 | aliquid | aliquid | — |
-| Gen.44.29 | hūmānitus | humanitus | — |
-| Gen.44.30 | nec | nec | nee |
-| Gen.44.30 | dēvīnctum | deuinctum | dtuunduim |
-| Gen.44.31 | simulatque | simulatque | iimulatque |
-| Gen.44.31 | moriētur | morietur | — |
-| Gen.44.31 | orcum | orcum | orcuui |
-| Gen.44.31 | mærōre | mærore | maarore |
-| Gen.44.31 | cōnfectum | confectum | confeclum |
-| Gen.44.32 | vas | vas | — |
-| Gen.44.32 | factus | factus | — |
-| Gen.44.32 | sistendī | sistendi | — |
-| Gen.44.32 | illī | illi | rlli |
-| Gen.44.32 | obstrictus | obstrictus | — |
-| Gen.44.32 | essem | essem | — |
-| Gen.45.1 | Hīc | Hic | — |
-| Gen.45.1 | præsentēs | præsentes | — |
-| Gen.45.1 | nec | nec | nee |
-| Gen.45.1 | cum | cum | — |
-| Gen.45.1 | remānsit | remansit | — |
-| Gen.45.1 | cum | cum | — |
-| Gen.45.2 | Tum | Tum | Turn |
-| Gen.45.4 | Tum | Tum | Tuiu |
-| Gen.45.4 | accessissent | accessissent | aecesfisfent |
-| Gen.45.4 | vēndidistis | vendidistis | vendidittis |
-| Gen.45.5 | hūc | huc | hue |
-| Gen.45.5 | præmīsit | præmisit | praemilit |
-| Gen.45.6 | restant | restant | reliant |
-| Gen.45.8 | hūc | huc | hue |
-| Gen.45.8 | mīsistis | misistis | mhiiiis |
-| Gen.45.8 | effēcit | effecit | eftecit |
-| Gen.45.9 | Festīnāte | Festinate | Feftinatc |
-| Gen.45.10 | cum | cum | — |
-| Gen.45.11 | præbitūrum | præbiturum | — |
-| Gen.45.13 | hūc | huc | hue |
-| Gen.45.14 | cum | cum | — |
-| Gen.45.15 | tum | tum | turn |
-| Gen.45.16 | dēlectātus | delectatus | deleclatus |
-| Gen.45.18 | assūmptō | assumpto | — |
-| Gen.45.18 | ægyptia | ægyptia | xgyptia |
-| Gen.45.19 | Tum | Tum | Turn |
-| Gen.45.20 | Supellectilem | Supellectilem | Supelledilemac |
-| Gen.45.22 | vestēs | vestes | — |
-| Gen.45.22 | nummīs | nummis | nmnmis |
-| Gen.45.23 | decem | decem | decern |
-| Gen.45.23 | ægyptia | ægyptia | argyptia |
-| Gen.45.23 | asinās | asinas | alinas |
-| Gen.45.26 | narrant | narrant | — |
-| Gen.45.27 | missa | missa | misf |
-| Gen.45.27 | vehendum | vehendum | vehendnin |
-| Gen.46.1 | profectus | profectus | — |
-| Gen.46.5 | profectus | profectus | profedus |
-| Gen.46.5 | missīs | missis | — |
-| Gen.46.9 | Phallum | Phallum | — |
-| Gen.46.9 | Hesrōnem | Hesronem | — |
-| Gen.46.9 | Carmīm | Carmim | — |
-| Gen.46.10 | Jamūēlem | Iamuelem | — |
-| Gen.46.10 | Sōcharem | Socharem | Sociarem |
-| Gen.46.11 | Merārīm | Merarim | — |
-| Gen.46.12 | Jūdæ | Iudæ | — |
-| Gen.46.12 | Ōnan | Onan | — |
-| Gen.46.13 | Thōlam | Tholam | — |
-| Gen.46.14 | Jahēlem | Iahelem | — |
-| Gen.46.15 | nec | nec | nee |
-| Gen.46.15 | tum | tum | turn |
-| Gen.46.15 | tum | tum | turn |
-| Gen.46.20 | Pōtīpheræ | Potipheræ | Potipherx |
-| Gen.46.21 | Belam | belam | buitBelam |
-| Gen.46.24 | Jaseēlem | Iaseelem | — |
-| Gen.46.24 | Jēserem | ieserem | leferem |
-| Gen.46.25 | contribuerat | contribuerat | eontribuerat |
-| Gen.46.26 | præter | præter | prxter |
-| Gen.46.28 | Præmīsit | Præmisit | Prxmhit |
-| Gen.46.30 | Tum | Tum | Turn |
-| Gen.46.30 | cōnspexī | conspexi | — |
-| Gen.46.31 | familiam | familiam | familiaru |
-| Gen.46.33 | semper | Semper | Temper |
-| Gen.47.1 | profectus | profectus | — |
-| Gen.47.3 | quænam | quænam | — |
-| Gen.47.4 | incolere | incolere | incoiere |
-| Gen.47.5 | Tum | Tum | Turn |
-| Gen.47.6 | patet | patet | — |
-| Gen.47.6 | ægyptia | ægyptia | acgyptia |
-| Gen.47.6 | tractū | tractu | tradtu |
-| Gen.47.6 | collocā | colloca | colioca |
-| Gen.47.7 | Tum | Tum | Turn |
-| Gen.47.8 | interrogātus | interrogatus | interrogans |
-| Gen.47.11 | assignāvit | assignauit | — |
-| Gen.47.11 | Ramesse | Ramesse | — |
-| Gen.47.12 | assignāvit | assignauit | adfignauit |
-| Gen.47.13 | labōrārētur | Laboraretur | Iaboraretur |
-| Gen.47.13 | Chananæa | Chananæa | Chananxa |
-| Gen.47.13 | languērent | Languerent | Ianguerent |
-| Gen.47.18 | cōnsūmptā | consumpta | confumta |
-| Gen.47.18 | præter | præter | prxter |
-| Gen.47.18 | possint | possint | poslint |
-| Gen.47.19 | ministret | ministret | — |
-| Gen.47.20 | coēmit | coemit | cocmit |
-| Gen.47.20 | dominante | dominante | domirtarre |
-| Gen.47.20 | fundum | fundum | — |
-| Gen.47.20 | coāctīs | coactis | coaclis |
-| Gen.47.23 | Tum | Tum | Turn |
-| Gen.47.23 | sēmentēs | sementes | — |
-| Gen.47.23 | faciātis | faciatis | — |
-| Gen.47.25 | Tum | Tum | Turn |
-| Gen.47.25 | beneficiō | beneficio | benefkio |
-| Gen.47.26 | præter | præter | prster |
-| Gen.47.27 | auctī | aucti | aucli |
-| Gen.47.29 | cum | cum | — |
-| Gen.47.30 | obdormīverō | obdormiuero | — |
-| Gen.48.1 | perāctīs | peractis | — |
-| Gen.48.1 | ægrōtāre | ægrotare | xgrotare |
-| Gen.48.1 | Tum | Tum | Turn |
-| Gen.48.4 | dēductiōnem | deductionem | deductionera |
-| Gen.48.7 | sepelīvī | sepeliui | fepelnii |
-| Gen.48.7 | Ephrātæ | Ephratæ | Ephrata |
-| Gen.48.9 | hīc | hic | hie |
-| Gen.48.10 | cumque | cumque | quunique |
-| Gen.48.12 | Hīc | Hic | Hie |
-| Gen.48.13 | ambōs | ambos | — |
-| Gen.48.13 | illum | illum | ilium |
-| Gen.48.14 | trāductam | traductam | traduclam |
-| Gen.48.15 | Tum | Tum | Turn |
-| Gen.48.16 | nōminis | nominis | — |
-| Gen.48.16 | augeantur | augeantur | augcantur |
-| Gen.48.17 | offēnsus | offensus | ofienfus |
-| Gen.48.18 | hic | hic | hie |
-| Gen.48.19 | hic | hic | hie |
-| Gen.48.19 | auctor | auctor | — |
-| Gen.48.19 | prōpāgō | propago | — |
-| Gen.48.20 | Det | Det | — |
-| Gen.48.22 | arcū | arcu | ami |
-| Gen.49.4 | cubīle | cubile | — |
-| Gen.49.4 | cōnscendistī | conscendisti | — |
-| Gen.49.4 | cōnscendendō | conscendendo | confeendendo |
-| Gen.49.4 | lectum | lectum | leclum |
-| Gen.49.6 | nōlim | nolim | — |
-| Gen.49.6 | libīdine | Libidine | Iibidine |
-| Gen.49.7 | effrēnātus | effrenatus | — |
-| Gen.49.9 | leænam | Leænam | Ieaenam |
-| Gen.49.9 | excitet | excitet | excitct |
-| Gen.49.10 | recēdet | recedet | — |
-| Gen.49.10 | dōnec | donec | donee |
-| Gen.49.11 | asinæ | asinæ | afinac |
-| Gen.49.12 | lacte | lacte | lacle |
-| Gen.49.14 | asinus | asinus | — |
-| Gen.49.14 | osseus | osseus | — |
-| Gen.49.14 | cubāns | cubans | — |
-| Gen.49.16 | ulcīscētur | vlciscetur | — |
-| Gen.49.16 | ūna | vna | — |
-| Gen.49.17 | equitem | equitem | equitera |
-| Gen.49.18 | exspectō | exspecto | — |
-| Gen.49.20 | ferāx | ferax | fcrax |
-| Gen.49.21 | cervæ | ceruæ | ceruse |
-| Gen.49.22 | gradientibus | gradientibus | — |
-| Gen.49.26 | collium | collium | colliuni |
-| Gen.49.27 | prædābitur | prædabitur | praedabitttr |
-| Gen.49.29 | Hettæī | hettæi | iOHettaei |
-| Gen.49.30 | duplicem | duplicem | — |
-| Gen.49.30 | fundum | fundum | — |
-| Gen.49.30 | Ephrōne | Ephrone | — |
-| Gen.49.30 | Hettæō | Hettæo | — |
-| Gen.49.31 | sepultus | sepultus | fcpultus |
-| Gen.49.31 | sepelīvī | sepeliui | — |
-| Gen.49.32 | possessiō | possessio | — |
-| Gen.49.32 | Hettæīs | Hettæis | — |
-| Gen.49.33 | præcipiendī | præcipiendi | prxcipi |
-| Gen.49.33 | lectum | lectum | lechim |
-| Gen.49.33 | contractīs | contractis | contracts |
-| Gen.50.1 | flētū | fletu | — |
-| Gen.50.1 | ōsculātus | osculatus | — |
-| Gen.50.2 | medicōs | medicos | — |
-| Gen.50.2 | præcēpit | præcepit | — |
-| Gen.50.5 | obstrictus | obstrictus | obftrichis |
-| Gen.50.6 | Cumque | Cumque | Qimmque |
-| Gen.50.8 | nec | nec | nee |
-| Gen.50.8 | relictīs | relictis | relidlis |
-| Gen.50.9 | quadrīgāriī | quadrigarii | — |
-| Gen.50.10 | Jordānem | iordanem | lordanem |
-| Gen.50.10 | trīstissimumque | tristissimumque | triftisftmumque |
-| Gen.50.10 | ēdidērunt | ediderunt | — |
-| Gen.50.10 | lūctum | luctum | luctuni |
-| Gen.50.11 | Chananææ | Chananææ | — |
-| Gen.50.11 | dīcēbant | dicebant | — |
-| Gen.50.11 | lūctum | luctum | ludum |
-| Gen.50.11 | trīstem | tristem | triltem |
-| Gen.50.11 | Jordānem | iordanem | lilordanem |
-| Gen.50.12 | præceptum | præceptum | — |
-| Gen.50.13 | duplicis | duplicis | duplkis |
-| Gen.50.13 | fundum | fundum | funduni |
-| Gen.50.13 | Ephrōne | Ephrone | — |
-| Gen.50.13 | Hettæō | Hettæo | — |
-| Gen.50.13 | positum | positum | — |
-| Gen.50.13 | Mambræ | Mambræ | — |
-| Gen.50.16 | præcēpisse | præcepisse | — |
-| Gen.50.17 | remitteret | remitteret | — |
-| Gen.50.17 | flēvit | fleuit | — |
-| Gen.50.18 | cum | cum | — |
-| Gen.50.18 | abjēcissent | abiecissent | abiecisfetit |
-| Gen.50.20 | cōgitāverātis | cogitaueratis | — |
-| Gen.50.20 | bonum | bonum | bonlim |
-| Gen.50.20 | cōnservāret | conseruaret | confeiuaret |
-| Gen.50.21 | animōs | animos | amnios |
-| Gen.50.22 | decem | decem | decern |
-| Gen.50.26 | decem | decem | — |
+*affatim* → *adfatim*; *afferēs* → *adferes*; *afficeret* → *adficeret*; *afficerētur* → *adficeretur*; *affēcimus* → *adfecimus*; *affēcistī* → *adfecisti*; *aggressūrī* → *adgressuri*; *allevā* → *adleua*; *ammonītæ* → *ammonite*; *appellat* → *adpellat*; *appellābis* → *adpellabis*; *appellāns* → *adpellans* ×2; *apposuit* → *adposuit* ×2; *appropinquandō* → *adpropinquando*; *appropinquat* → *adpropinquat*; *appāruerat* → *adparuerat*; *appāruisset* → *adparuisset*; *appārēret* → *adpareret*; *appōne* → *adpone*; *appōnit* → *adponit*; *ascīscerem* → *adsciscerem*; *aspiciendō* → *adspiciendo*; *assurgere* → *adsurgere*; *assurgeret* → *adsurgeret*; *assurrēxisset* → *adsurrexisset*; *assūmitō* → *adsumito*; *assūmptōque* → *assumtoque*; *astrīnxit* → *adstrinxit*; *audīssent* → *audiuissent*; *audīsset* → *audiuisset*; *coēmptī* → *coemti*; *cælī* → *cceli*; *cēnam* → *ccenam*; *cōnsūmpsērunt* → *consumserunt* ×2; *cōnsūmptā* → *consumta* ×2; *cœperat* → *cceperat*; *cœpisset* → *ccepisset*; *cœpit* → *ccepit* ×2; *cœpērunt* → *cceperunt*; *cœpēruntque* → *cceperuntque*; *dēprōmpsit* → *depromsit*; *dēversōrium* → *diuersorium*; *dēversōriō* → *diuersorio*; *dīversæ* → *diuerse*; *erī* → *heri* ×2; *extinguantur* → *exstinguantur*; *grātiam* → *graciam*; *in* → *inn*; *isrāēlītæ* → *israelite* ×4; *jussit* → *iusiit*; *jācōbæōs* → *iacobeos*; *mahalatham* → *mahalatam*; *multiplicābō* → *mulciplicabo*; *nephthālis* → *nephtalis*; *nūntiōs* → *nuncios*; *occurrerint* → *ocurrerint*; *patrī* → *ppatri*; *propāgātæ* → *propagate*; *præposuit* → *prreposuit*; *prīncipe* → *pprincipe*; *septentriōnēs* → *septemtriones* ×2; *servīsset* → *seruiuisset*; *sochotha* → *sochota*; *solymam* → *solimam*; *summissē* → *submisse* ×4; *summissō* → *submisso*; *summittitō* → *submittito*; *summittunt* → *submittunt*; *summīsit* → *submisit*; *sūmpsit* → *sumsit* ×2; *sūmpta* → *sumta*; *sūmptōs* → *sumtos*; *temptāvit* → *tentauit*; *tibi* → *cibi*; *tēlīs* → *htelis*; *vicissim* → *vicisiim*; *vultibus* → *vulcibus*; *ēgressī* → *egresii* ×2; *ēmptus* → *emtus*; *ēriperēs* → *aeriperes*
 
-## Punctuation not from the OCR (441)
+## Punctuation not from the OCR (395)
 
 After a word the OCR missed, the settled text's mark stands; a stop the OCR had before a lower-case word was dropped or corrected (stray). Not checked on the page.
 
-1.4 *bonam,*; 1.21 *volucrum,*; 1.29 *frugiferæ,*; 2.8 *pomario,*; 2.24 *carnem.*; 3.5 *Deus,*; 3.5 *comederitis,*; 3.7 *nudos.*; 3.22 *sciens,*; 3.22 *sempiternum.*; 3.23 *abegit,*; 3.23 *humum,*; 3.23 *erat,*; 3.23 *coleret.*; 3.24 *homine,*; 3.24 *Cherubos,*; 3.24 *vibrantem,*; 3.24 *custodiendum.*; 4.1 *habuit,*; 4.1 *peperit,*; 4.1 *nominatum,*; 4.1 *dixisset:*; 4.1 *Ioua.*; 4.2 *Abelem.*; 4.2 *opilio,*; 4.2 *agricola.*; 4.3 *frugibus,*; 4.4 *primigenis,*; 4.4 *opimis,*; 4.4 *Abelem,*; 4.4 *munus,*; 4.5 *Cainum,*; 4.5 *respexit,*; 4.5 *Cainus,*; 4.5 *sublaberetur.*; 4.6 *Ioua:*; 4.6 *fers?*; 4.6 *inquit,*; 4.21 *citharæ,*; 4.23 *commonuit:*; 4.23 *orationem,*; 4.23 *Lamechi,*; 4.23 *attendite.*; 4.23 *plagis,*; 4.23 *interficerem,*; 4.24 *sit,*; 4.24 *septupli.*; 4.25 *sustulit,*; 4.25 *Sethus,*; 4.25 *dicens,*; 4.25 *Abelis,*; 4.25 *perempti.*; 4.26 *filius,*; 4.26 *appellauit.*; 4.26 *inuocari.*; 5.3 *eum,*; 5.29 *infelicitata.*; 6.2 *vxores.*; 6.7 *pænitebat.*; 6.12 *corruptissimum,*; 6.21 *edendo,*; 6.21 *tuum,*; 7.22 *inquam,*; 8.7 *reuertit,*; 8.11 *intellexit.*; 8.18 *vxore,*; 9.2 *mouentia,*; 9.3 *concedo.*; 9.10 *quadrupedibus,*; 10.2 *Iauan,*; 10.3 *Gomeri:*; 10.4 *Tharsis,*; 10.13 *Ananim,*; 10.14 *Cassubim,*; 10.25 *Ioctanem.*; 11.25 *vndeuiginti,*; 11.28 *Chaldæorum.*; 12.7 *Ioua,*; 12.7 *apparuerat.*; 12.10 *fame,*; 12.17 *afficeretur,*; 12.19 *abiret.*; 13.5 *abundabat,*; 13.10 *Sigorim,*; 14.1 *regulos,*; 14.2 *Admæ,*; 14.3 *Siddæa,*; 14.9 *Siddæa,*; 14.12 *filium,*; 14.13 *Amorræi,*; 14.13 *coniuncti),*; 14.14 *intellexit,*; 14.14 *suum,*; 14.22 *Deum,*; 15.9 *præcepit,*; 15.16 *Amorræorum.*; 15.17 *occasum,*; 15.19 *Cenæos,*; 15.19 *Ceanezæos,*; 15.19 *Cadmonæos,*; 15.20 *Hettæos,*; 15.21 *Amorræos,*; 15.21 *Chananæos,*; 15.21 *Iebusæos.*; 16.1 *Ægyptiam,*; 16.1 *Hagarem,*; 16.2 *summonuit,*; 16.2 *vt(*; 16.2 *prohiberet)*; 16.2 *haberet,*; 16.2 *consequi.*; 16.2 *quod,*; 16.2 *Abramo,*; 16.3 *dedit,*; 16.3 *decem,*; 16.3 *erat.*; 16.4 *habuit,*; 16.4 *fecit.*; 16.4 *sentiens,*; 16.4 *contemnebat.*; 16.5 *verbis:*; 16.5 *iniuria.*; 16.5 *tradidi,*; 16.5 *veni.*; 16.5 *vindex.*; 16.6 *respondit:*; 16.6 *habes.*; 16.6 *tractaret,*; 16.7 *viam,*; 16.7 *itur,*; 16.11 *filium,*; 16.16 *octogesimum.*; 17.1 *omnipotens.*; 17.6 *orientur.*; 17.7 *te,*; 17.12 *nati,*; 17.23 *vernaculorum,*; 17.27 *coempti.*; 18.1 *Mambræ.*; 18.25 *moderatur,*; 18.28 *ille,*; 18.30 *quærere.*; 18.31 *exscindam.*; 19.14 *arbitrati.*; 19.17 *educto,*; 19.22 *facere,*; 19.30 *habitauit.*; 20.1 *profectus,*; 20.13 *abstraheret,*; 21.1 *præstitit,*; 21.11 *displiceret,*; 21.18 *alleua,*; 21.21 *Ægypto.*; 21.24 *Abrahamus,*; 21.24 *condicto,*; 21.30 *ille:*; 21.30 *sis,*; 21.33 *inuocauit,*; 22.7 *fili?*; 22.13 *hærentem,*; 22.17 *fauebo,*; 22.19 *rediit,*; 23.7 *habuisset:*; 23.16 *appendit,*; 23.17 *Mambræ,*; 24.3 *habito,*; 24.13 *aquatum,*; 24.14 *intellegam,*; 24.16 *ascendebat.*; 24.17 *inquit,*; 24.35 *consecuti,*; 24.37 *incoleret,*; 24.42 *placeret,*; 24.42 *prosperare,*; 24.43 *astante,*; 24.45 *heram,*; 24.57 *illi,*; 24.58 *quærunt,*; 24.65 *tendat.*; 24.66 *fecerat,*; 24.67 *matre,*; 24.67 *leniuit.*; 25.9 *Ephronis,*; 25.11 *Abrahamo,*; 25.12 *sunt:*; 25.13 *Nabaiothus,*; 25.13 *Cedar,*; 25.13 *Adbeel,*; 25.13 *Mabsamus,*; 25.14 *Masma,*; 25.14 *Duma,*; 25.14 *Massa,*; 25.15 *Hadar,*; 25.15 *Thema,*; 25.15 *Ietur,*; 25.15 *Cedema.*; 25.16 *filii,*; 25.16 *principes,*; 25.30 *sum,(*; 25.31 *præsentia,*; 25.34 *contempsit.*; 26.1 *superiorem,*; 26.5 *instituta,*; 26.15 *fossos,*; 26.24 *animo,*; 26.31 *Postridie,*; 26.31 *discesserunt.*; 26.34 *natus,*; 27.1 *adloquitur:*; 27.2 *exspectem.*; 27.14 *attulit,*; 27.19 *Iacobus,*; 27.20 *ille:*; 27.31 *precaretur.*; 27.38 *mihi,*; 27.38 *pater.*; 27.45 *oblito,*; 28.3 *augeat,*; 28.5 *filium,*; 28.7 *obsequentem,*; 28.13 *dabo,*; 28.16 *expergefactus:*; 29.3 *greges,*; 29.6 *venientem.*; 29.19 *præfatus,*; 29.21 *esset,*; 29.28 *Iacobus:*; 29.34 *filios:*; 30.3 *consequar.*; 30.20 *Zabulonem.*; 30.37 *colurnis,*; 31.1 *filii,*; 31.1 *comparasse.*; 31.3 *monuit,*; 31.9 *transtulit.*; 31.12 *inquit,*; 31.13 *conspersisti,*; 31.13 *nuncupasti.*; 31.14 *retineamus.*; 31.26 *partas,*; 31.34 *posuerat,*; 31.34 *inuenisset,*; 31.35 *inuenisset,*; 31.40 *æstu,*; 31.43 *respondens:*; 31.47 *Iegarsahadutham,*; 31.47 *denominauit.*; 32.5 *boues,*; 32.21 *fuit.*; 32.23 *traductis,*; 32.25 *videret,*; 33.8 *grex,*; 33.12 *Pergamus,*; 33.12 *Iacobus:*; 33.13 *morientur.*; 33.14 *eorum,*; 33.17 *profectus,*; 33.20 *nuncupauit.*; 34.18 *oratio,*; 34.23 *facultates,*; 34.23 *fore,*; 34.24 *ciues,*; 34.24 *circumciderunt.*; 34.25 *post,*; 34.29 *facultates,*; 34.29 *erant,*; 34.30 *incusans,*; 34.30 *coniectum,*; 34.30 *vocatum:*; 34.30 *numero,*; 34.30 *coituros,*; 34.30 *perdituros.*; 34.31 *responderunt,*; 34.31 *æquum,*; 34.31 *ipsorum.*; 35.2 *mutarent.*; 35.3 *Bethel,*; 35.3 *Deo,*; 35.3 *exauditus,*; 35.3 *esset.*; 35.4 *omnes,*; 35.4 *habebant,*; 35.4 *peregrinos,*; 35.4 *inaures,*; 35.4 *habebant,*; 35.4 *tradunt:*; 35.4 *occultatis,*; 35.5 *sunt,*; 35.5 *incusso,*; 35.5 *persequerentur.*; 35.6 *Luzam,*; 35.6 *sitam,*; 35.6 *Bethel,*; 35.6 *hominibus.*; 35.7 *extruxit,*; 35.7 *appellauit,*; 35.7 *ostendisset.*; 35.8 *defuncta,*; 35.8 *robore,*; 35.8 *nominauit.*; 35.9 *adparuit,*; 35.9 *felicitauit:*; 35.10 *Iacobum(*; 35.10 *diceretur)*; 35.11 *omnipotens,*; 35.11 *inquit.*; 35.11 *multipliciter,*; 35.11 *ita,*; 35.11 *gens,*; 35.11 *proficiscatur,*; 35.11 *oriantur.*; 35.12 *dedi,*; 35.14 *perfudit,*; 35.15 *nuncupauit.*; 35.19 *Ephratæ,*; 35.26 *procreauit.*; 36.7 *copiæ.*; 36.17 *Zara,*; 36.21 *Idumæa.*; 36.24 *eum,*; 36.26 *Esbanem,*; 36.40 *Thamna,*; 37.14 *referat.*; 37.16 *quæso,*; 37.18 *perueniret,*; 37.19 *illum:*; 37.28 *abducitur.*; 37.29 *reuersus,*; 37.34 *vestimentis,*; 37.36 *eunucho,*; 37.36 *vendiderunt.*; 38.8 *imperauit,*; 38.10 *Ioua,*; 38.16 *deflectit,*; 38.16 *et,*; 38.16 *mihi,*; 38.16 *inquit,*; 38.16 *admittare?*; 38.18 *Quemnam,*; 38.18 *et,*; 38.21 *iila,*; 39.3 *erat,*; 39.8 *habeat,*; 39.9 *Admittam?*; 39.11 *domesticis.*; 39.12 *iila,*; 39.15 *suo,*; 39.19 *erus,*; 40.4 *ministraret.*; 40.7 *mæsto.*; 40.14 *iniicias,*; 40.17 *comedebant.*; 41.4 *deuorabant.*; 41.7 *consumebant.*; 41.8 *posset,*; 41.9 *est:*; 41.18 *habitæ,*; 41.18 *pulchræ,*; 41.23 *perustæ,*; 41.24 *consumpserunt.*; 41.25 *est,*; 41.25 *præmonet.*; 41.33 *Pharao,*; 42.13 *est.*; 42.22 *expeti.*; 42.24 *locutus,*; 42.28 *sacco.*; 42.28 *exanimati,*; 42.31 *exploratores,*; 42.32 *Chananæa:*; 43.8 *proficiscamur,*; 43.11 *ferte,*; 43.13 *proficiscimini,*; 43.13 *reuertimini:*; 43.15 *capiunt,*; 43.21 *retulisse,*; 43.22 *attulisse:*; 43.22 *nescire,*; 43.22 *reposuisset.*; 43.23 *consolatus,*; 43.23 *vetat:*; 43.23 *immisisse,*; 43.23 *peruenisse.*; 43.23 *educit,*; 43.24 *introducit:*; 43.24 *dat.*; 43.25 *meridiem(*; 43.25 *enim,*; 43.25 *capturos)*; 43.26 *ingresso,*; 43.26 *munus,*; 43.26 *habebant,*; 43.26 *tulerunt,*; 43.26 *venerantes.*; 43.27 *quærit,*; 43.27 *et:*; 43.27 *senex,*; 43.27 *dixeratis?*; 43.27 *inquit.*; 43.30 *fleret,*; 43.31 *continuit,*; 44.3 *diluculo,*; 44.6 *adsecutus,*; 44.8 *surripuerimus:*; 44.16 *purgabimus?*; 44.21 *adduceremus,*; 44.24 *peruenimus,*; 44.31 *morietur:*; 44.32 *sistendi,*; 44.32 *essem.*; 45.1 *remansit,*; 46.5 *Bersaba,*; 46.9 *Henochum,*; 46.9 *Phallum,*; 46.10 *Iamuelem,*; 46.11 *Merarim.*; 46.13 *Tholam,*; 46.27 *septuaginta.*; 47.3 *quærenti,*; 47.9 *sunt.*; 47.28 *annos,*; 47.29 *euocauit,*; 48.1 *peractis,*; 48.10 *complexus,*; 48.15 *precatus,*; 48.20 *modo:*; 48.21 *Israel:*; 49.14 *osseus,*; 49.16 *vlciscetur,*; 49.16 *Israelitarum.*; 49.22 *gradientibus:*; 50.1 *osculatus,*; 50.2 *habebat,*; 50.11 *Chananææ,*; 50.12 *præceptum:*; 50.13 *Hettæo,*; 50.16 *præcepisse,*; 50.17 *Iosephus.*; 50.18 *abiecissent,*; 50.20 *conseruaret.*; 50.24 *Abrahamo,*
+1.4 *bonam,*; 1.21 *volucrum,*; 1.29 *frugiferæ,*; 2.8 *pomario,*; 2.24 *carnem.*; 3.5 *Deus,*; 3.5 *comederitis,*; 3.22 *sciens,*; 3.22 *fructu,*; 3.22 *sempiternum.*; 3.23 *abegit,*; 3.23 *humum,*; 3.23 *erat,*; 3.23 *coleret.*; 3.24 *homine,*; 3.24 *Cherubos,*; 3.24 *vibrantem,*; 3.24 *custodiendum.*; 4.1 *habuit,*; 4.1 *peperit,*; 4.1 *nominatum,*; 4.1 *dixisset:*; 4.1 *Ioua.*; 4.2 *Abelem.*; 4.2 *opilio,*; 4.2 *agricola.*; 4.3 *frugibus,*; 4.4 *primigenis,*; 4.4 *opimis,*; 4.4 *Abelem,*; 4.4 *munus,*; 4.5 *Cainum,*; 4.5 *respexit,*; 4.5 *Cainus,*; 4.5 *sublaberetur.*; 4.6 *Ioua:*; 4.6 *fers?*; 4.6 *inquit,*; 4.23 *commonuit:*; 4.23 *orationem,*; 4.23 *Lamechi,*; 4.23 *attendite.*; 4.23 *plagis,*; 4.23 *interficerem,*; 4.24 *sit,*; 4.24 *septupli.*; 4.25 *sustulit,*; 4.25 *Sethus,*; 4.25 *dicens,*; 4.25 *Abelis,*; 4.25 *peremti.*; 4.26 *filius,*; 4.26 *adpellauit.*; 4.26 *inuocari.*; 5.3 *eum,*; 5.15 *natus,*; 5.29 *infelicitata.*; 6.2 *vxores.*; 6.21 *edendo,*; 6.21 *tuum,*; 7.22 *inquam,*; 8.7 *reuertit,*; 8.11 *intellexit.*; 8.18 *vxore,*; 9.2 *mouentia,*; 9.3 *concedo.*; 9.10 *quadrupedibus,*; 10.3 *Gomeri:*; 10.4 *Tharsis,*; 10.14 *Cassubim,*; 10.25 *Ioctanem.*; 11.25 *nouemdecim,*; 11.28 *Chaldæorum.*; 12.7 *Ioua,*; 12.10 *fame,*; 12.19 *abiret.*; 13.5 *abundabat,*; 13.10 *Sigorim,*; 14.1 *regulos,*; 14.3 *Siddæa,*; 14.9 *Siddæa,*; 14.12 *filium,*; 14.13 *coniuncti),*; 14.14 *intellexit,*; 14.14 *suum,*; 14.22 *Deum,*; 15.9 *præcepit,*; 15.16 *Amorræorum.*; 15.17 *occasum,*; 15.19 *Cenæos,*; 15.19 *Cenezæos,*; 15.19 *Cadmonæos,*; 15.20 *Hettæos,*; 15.21 *Iebusæos.*; 16.1 *ægyptiam,*; 16.1 *Hagarem,*; 16.2 *submonuit,*; 16.2 *vt(*; 16.2 *prohiberet)*; 16.2 *haberet,*; 16.2 *consequi.*; 16.2 *quod,*; 16.2 *Abramo,*; 16.3 *dedit,*; 16.3 *decem,*; 16.3 *erat.*; 16.4 *habuit,*; 16.4 *fecit.*; 16.4 *sentiens,*; 16.4 *contemnebat.*; 16.5 *verbis:*; 16.5 *iniuria.*; 16.5 *tradidi,*; 16.5 *veni.*; 16.5 *vindex.*; 16.6 *respondit:*; 16.6 *habes.*; 16.7 *viam,*; 16.7 *itur,*; 16.11 *filium,*; 16.16 *octogesimum.*; 17.1 *omnipotens.*; 17.6 *orientur.*; 17.7 *te,*; 17.12 *nati,*; 17.23 *vernaculorum,*; 17.27 *coemti.*; 18.1 *Mambræ.*; 18.25 *moderatur,*; 18.28 *ille,*; 18.30 *quærere.*; 18.31 *exscindam.*; 19.22 *facere,*; 19.30 *habitauit.*; 20.1 *profectus,*; 20.13 *abstraheret,*; 21.1 *præstitit,*; 21.11 *displiceret,*; 21.21 *Ægypto.*; 21.24 *Abrahamus,*; 21.24 *condicto,*; 21.30 *ille:*; 21.30 *sis,*; 21.33 *inuocauit,*; 22.7 *fili?*; 22.13 *hærentem,*; 22.17 *fauebo,*; 22.19 *rediit,*; 23.7 *habuisset:*; 23.16 *adpendit,*; 23.17 *Mambræ,*; 24.3 *habito,*; 24.13 *aquatum,*; 24.14 *intelligam,*; 24.16 *adscendebat.*; 24.17 *inquit,*; 24.33 *proponeret,*; 24.42 *placeret,*; 24.42 *prosperare,*; 24.43 *adstante,*; 24.45 *heram,*; 24.57 *illi,*; 24.65 *tendat.*; 24.66 *fecerat,*; 24.67 *matre,*; 24.67 *leniuit.*; 25.9 *Ephronis,*; 25.11 *Abrahamo,*; 25.12 *sunt:*; 25.13 *Nabaiothus,*; 25.13 *Cedar,*; 25.13 *Adbeel,*; 25.13 *Mabsamus,*; 25.14 *Masina,*; 25.14 *Duma,*; 25.14 *Massa,*; 25.15 *Hadar,*; 25.15 *Thema,*; 25.15 *Ietur,*; 25.15 *Cedema.*; 25.16 *filii,*; 25.16 *principes,*; 25.30 *sum,(*; 25.31 *præsentia,*; 25.34 *contemsit.*; 26.1 *superiorem,*; 26.15 *fossos,*; 26.24 *animo,*; 26.31 *Postridie,*; 26.31 *discesserunt.*; 26.34 *natus,*; 27.1 *adloquitur:*; 27.2 *exspectem.*; 27.19 *Iacobus,*; 27.19 *mea,*; 27.20 *ille:*; 27.31 *precaretur.*; 27.38 *mihi,*; 27.38 *pater.*; 27.45 *oblito,*; 28.3 *augeat,*; 28.5 *filium,*; 28.7 *obsequentem,*; 28.13 *dabo,*; 28.16 *expergefactus:*; 29.3 *greges,*; 29.6 *venientem.*; 29.21 *esset,*; 29.28 *Iacobus:*; 29.34 *filios:*; 30.3 *consequar.*; 30.20 *Zabulonem.*; 30.37 *colurnis,*; 31.1 *filii,*; 31.1 *comparasse.*; 31.3 *monuit,*; 31.9 *transtulit.*; 31.12 *inquit,*; 31.13 *conspersisti,*; 31.14 *retineamus.*; 31.26 *partas,*; 31.34 *posuerat,*; 31.35 *inuenisset,*; 31.40 *æstu,*; 31.43 *respondens:*; 31.47 *Iegarsahadutham,*; 31.47 *denominauit.*; 32.5 *boues,*; 32.21 *fuit.*; 32.25 *videret,*; 33.8 *grex,*; 33.12 *pergamus,*; 33.12 *Iacobus:*; 33.14 *eorum,*; 33.20 *nuncupauit.*; 34.18 *oratio,*; 34.23 *facultates,*; 34.23 *fore,*; 34.24 *ciues,*; 34.24 *circumciderunt.*; 34.25 *post,*; 34.29 *facultates,*; 34.29 *erant,*; 34.30 *incusans,*; 34.30 *coniectum,*; 34.30 *vocatum:*; 34.30 *numero,*; 34.30 *coituros,*; 34.30 *perdituros.*; 34.31 *responderunt,*; 34.31 *æquum,*; 34.31 *ipsorum.*; 35.2 *mutarent.*; 35.3 *Bethel,*; 35.3 *Deo,*; 35.3 *exauditus,*; 35.3 *esset.*; 35.4 *omnes,*; 35.4 *habebant,*; 35.4 *peregrinos,*; 35.4 *inaures,*; 35.4 *habebant,*; 35.4 *tradunt:*; 35.4 *occultatis,*; 35.5 *sunt,*; 35.5 *incusso,*; 35.5 *persequerentur.*; 35.6 *Luzam,*; 35.6 *sitam,*; 35.6 *Bethel,*; 35.6 *hominibus.*; 35.7 *exstruxit,*; 35.7 *adpellauit,*; 35.7 *ostendisset.*; 35.8 *defuncta,*; 35.8 *robore,*; 35.8 *nominauit.*; 35.9 *adparuit,*; 35.9 *felicitauit:*; 35.10 *Iacobum(*; 35.10 *diceretur)*; 35.11 *omnipotens,*; 35.11 *inquit.*; 35.11 *multipliciter,*; 35.11 *ita,*; 35.11 *gens,*; 35.11 *proficiscatur,*; 35.11 *oriantur.*; 35.12 *dedi,*; 35.14 *perfudit,*; 35.26 *procreauit.*; 36.7 *copiæ.*; 36.17 *Zara,*; 36.21 *Idumæa.*; 36.24 *eum,*; 37.14 *referat.*; 37.16 *quæso,*; 37.18 *perueniret,*; 37.28 *abducitur.*; 37.29 *reuersus,*; 37.36 *vendiderunt.*; 38.8 *imperauit,*; 38.10 *Ioua,*; 38.16 *deflectit,*; 38.16 *et,*; 38.16 *mihi,*; 38.16 *inquit,*; 38.18 *Quemnam,*; 38.18 *et,*; 39.3 *erat,*; 39.8 *habeat,*; 39.11 *domesticis.*; 39.12 *illa,*; 39.15 *suo,*; 40.17 *comedebant.*; 41.4 *deuorabant.*; 41.7 *consumebant.*; 41.8 *posset,*; 41.9 *est:*; 41.18 *habitæ,*; 41.18 *pulchræ,*; 41.18 *depascebant.*; 41.25 *est,*; 41.25 *præmonet.*; 41.33 *Pharao,*; 42.13 *est.*; 42.22 *expeti.*; 42.24 *locutus,*; 42.28 *sacco.*; 42.28 *exanimati,*; 42.31 *exploratores,*; 42.32 *Chananæa:*; 43.11 *ferte,*; 43.13 *proficiscimini,*; 43.13 *reuertimini:*; 43.21 *retulisse,*; 43.22 *attulisse:*; 43.22 *nescire,*; 43.22 *reposuisset.*; 43.23 *consolatus,*; 43.23 *vetat:*; 43.23 *immisisse,*; 43.23 *peruenisse.*; 43.23 *educit,*; 43.24 *introducit:*; 43.24 *dat.*; 43.25 *meridiem(*; 43.25 *enim,*; 43.25 *capturos)*; 43.26 *ingresso,*; 43.26 *munus,*; 43.26 *habebant,*; 43.26 *tulerunt,*; 43.26 *venerantes.*; 43.27 *quærit,*; 43.27 *et:*; 43.27 *senex,*; 43.27 *dixeratis?*; 43.27 *inquit.*; 44.3 *diluculo,*; 44.6 *adsecutus,*; 44.8 *surripuerimus:*; 44.16 *purgabimus?*; 44.21 *adduceremus,*; 44.24 *peruenimus,*; 44.31 *morietur:*; 44.32 *sistendi,*; 44.32 *essem.*; 45.1 *remansit,*; 46.5 *Bersaba,*; 46.9 *Henochum,*; 46.9 *Phallum,*; 46.11 *Merarim.*; 46.13 *Tholam,*; 47.3 *quærenti,*; 47.9 *sunt.*; 47.28 *annos,*; 47.29 *euocauit,*; 48.1 *peractis,*; 48.10 *complexus,*; 48.15 *precatus,*; 48.20 *modo:*; 48.21 *Israel:*; 49.14 *osseus,*; 49.16 *vlciscetur,*; 49.16 *Israelitarum.*; 49.22 *gradientibus:*; 50.1 *osculatus,*; 50.2 *habebat,*; 50.11 *Chananææ,*; 50.12 *præceptum:*; 50.13 *Hettæo,*; 50.16 *præcepisse,*; 50.17 *Iosephus.*; 50.24 *Abrahamo,*
+
+## Paragraphs (83 inside the chapters)
+
+1738 runs its verses on and marks a paragraph by indenting its first line. Read from the hOCR (`archive.indents`: a line starting 40–140 px inside the column's margin after a line that ends a sentence; drop capitals, summaries and 1738's footnotes left out) and set before the word that begins the line; a paragraph read on the page is a `¶` row in `data/decisions/Gen.orig.tsv`. Every chapter also begins one. Leaf = archive.org's hOCR page (its image is page n<leaf − 1>).
+
+2.25 *Ceterum* (leaf 63, line 38); 3.14 *Tum* (leaf 63, line 83); 5.3 *Erat* (leaf 65, line 34); 5.6 *Sethus* (leaf 65, line 43); 5.9 *Enossus* (leaf 65, line 51); 5.12 *Cenan* (leaf 65, line 59); 5.15 *Mahalaleel* (leaf 65, line 66); 5.18 *Iaredus* (leaf 65, line 72); 5.21 *Henochus* (leaf 65, line 78); 5.25 *Mathusala* (leaf 65, line 87); 5.28 *Lamechus* (leaf 65, line 95); 6.4 *Erant* (leaf 66, line 25); 6.9 *Noa* (leaf 66, line 43); 7.11 *Anno* (leaf 67, line 27); 8.6 *Et* (leaf 67, line 95); 8.13 *Vno* (leaf 68, line 17); 8.14 *Secundi* (leaf 68, line 22); 8.20 *Deinde* (leaf 68, line 37); 9.8 *Tum* (leaf 68, line 87); 10.6 *Chamus* (leaf 69, line 69); 10.21 *Semo* (leaf 70, line 11); 11.10 *Sequitur* (leaf 70, line 72); 12.4 *Igitur* (leaf 71, line 44); 13.14 *Post* (leaf 72, line 52); 14.8 *Tum* (leaf 72, line 99); 14.13 *Ea* (leaf 73, line 11); 14.18 *Melchisedechus* (leaf 73, line 33); 17.9 *Tu* (leaf 75, line 19); 17.19 *Et* (leaf 75, line 52); 18.9 *Tum* (leaf 76, line 14); 18.16 *Deinde* (leaf 76, line 37); 19.12 *Deinde* (leaf 77, line 59); 19.27 *Mane* (leaf 78, line 17); 20.14 *Tum* (leaf 79, line 13); 21.9 *Quumque* (leaf 79, line 55); 21.14 *Igitur* (leaf 79, line 72); 34.8 *Apud* (leaf 95, line 49); 34.20 *Igitur* (leaf 95, line 89); 35.16 *Quum* (leaf 96, line 61); 35.21 *Inde* (leaf 97, line 11); 36.8 *autem* (leaf 97, line 61); 36.15 *Hi* (leaf 97, line 78); 37.12 *Igitur* (leaf 98, line 95); 37.25 *Ibi* (leaf 99, line 37); 37.29 *Postea* (leaf 99, line 57); 38.6 *Eri* (leaf 99, line 98); 38.12 *Multo* (leaf 100, line 18); 38.24 *Tribus* (leaf 100, line 60); 38.27 *Exactis* (leaf 100, line 74); 39.6 *Erat* (leaf 101, line 19); 39.21 *Ibi* (leaf 101, line 67); 40.5 *Illi* (leaf 101, line 94); 40.16 *Hic* (leaf 102, line 30); 40.20 *Igitur* (leaf 102, line 44); 41.8 *Mane* (leaf 102, line 80); 41.14 *Tum* (leaf 102, line 100); 41.25 *Tum* (leaf 103, line 31); 41.37 *Eam* (leaf 103, line 65); 41.50 *Sustulit* (leaf 103, line 104); 43.15 *Tum* (leaf 106, line 45); 44.3 *Mane* (leaf 107, line 14); 44.13 *Tum* (leaf 107, line 43); 45.16 *Hac* (leaf 108, line 73); 45.21 *Itaque* (leaf 108, line 91); 46.5 *Ergo* (leaf 109, line 38); 46.28 *Præmisit* (leaf 109, line 103); 46.31 *Et* (leaf 110, line 13); 47.7 *Tum* (leaf 110, line 59); 47.11 *Iosephus* (leaf 110, line 70); 47.27 *Israelite* (leaf 111, line 40); 49.3 *Ruben* (leaf 112, line 65); 49.5 *Simeonis* (leaf 112, line 72); 49.8 *Iuda* (leaf 112, line 82); 49.13 *Zabulon* (leaf 112, line 98); 49.14 *Issachar* (leaf 112, line 101); 49.19 *Gadus* (leaf 113, line 11); 49.20 *Aser* (leaf 113, line 13); 49.22 *Fecundus* (leaf 113, line 17); 49.27 *Beniamin* (leaf 113, line 36); 49.28 *Hæ* (leaf 113, line 39); 49.33 *Postquam* (leaf 113, line 59); 50.22 *Habitauit* (leaf 114, line 48); 50.24 *Postremo* (leaf 114, line 54)
 
 ## Open questions
 
 1. **Accents.** 1738 prints grave accents on adverbs (*verò*, *cùm*, *continuò*) and on *quòd*, *à* and *hîc*. Dropped here, since the OCR reads them unevenly. Keeping them means restoring them by rule, or reading them page by page.
-2. **Chapter summaries.** 1738 heads each chapter with a summary. The reading edition leaves them out (decision 50); the printed text could keep them.
+2. **Chapter summaries.** 1738 heads each chapter with a summary: left out of the printed text, as of the reading edition (decisions 50, 67).
 3. **Apostrophes and word division** follow the print where read on the page (*Is'ne*, Matt 26:25; *plusquam*, 26:53; decision 58); elsewhere the settled text's division stands until read.
 4. **Castellio's G. … H. (and L., G.L.) marks**: the words are kept, the marks dropped, as in the reading edition. None found by the aligner in these chapters.
 5. **Capitals of words the OCR missed** follow the settled text (Matt 26:41 *spiritus*, 1573 *Spiritus*).

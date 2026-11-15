@@ -109,6 +109,10 @@ class Normalize(unittest.TestCase):
         self.assertEqual(normalize.carry("quæsīvisset", "quaesisset"), "quæsīsset")
         self.assertEqual(normalize.carry("obdormīverant", "obdormierant"), "obdormierant")   # ī before a vowel
         self.assertEqual(normalize.carry("Hiericunte", "hierichunte"), "Hierichunte")
+        # A phrase rule with a diphthong: the spaces stay put; word for word, each takes the settled marking.
+        self.assertEqual(normalize.carry("aereae volucres", "aeriae volucres"), "æriæ volucres")
+        self.assertEqual(normalize.carry("Aereae volucres", "aeriae volucres", {"aeriae": "āeriæ"}), "Āeriæ volucres")
+        self.assertEqual(normalize.carry("septimodecimo", "septimo decimo"), "septimo decimo")
 
     def test_rules_on_a_text(self):
         usfm = "\\c 15\n\\p\n\\v 4 Quī patrī mātrīve maledīxerit, morte plēctātur.\n\\v 5 coepit et iērunt, mē, cum illīs.\n"

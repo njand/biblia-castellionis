@@ -1,0 +1,719 @@
+id	kind	sort	text	readings	support	context
+Exod.31.14	uncovered	base	52% of the words			
+Exod.32.24	uncovered	base	55% of the words			
+Exod.33.14	uncovered	base	56% of the words			
+Exod.34.11	uncovered	base	58% of the words			
+Exod.34.21	uncovered	base	33% of the words			
+Exod.34.25	uncovered	base	56% of the words			
+Exod.35.5	uncovered	base	50% of the words			
+Exod.35.15	uncovered	base	57% of the words			
+Exod.36.11	uncovered	base	58% of the words			
+Exod.36.21	uncovered	base	50% of the words			
+Exod.37.4	uncovered	base	40% of the words			
+Exod.37.24	uncovered	base	55% of the words			
+Exod.37.28	uncovered	base	38% of the words			
+Exod.39.39	uncovered	base	44% of the words			
+Exod.39.40	uncovered	base	59% of the words			
+Exod.40.21	uncovered	base	50% of the words			
+Exod.40.23	uncovered	base	33% of the words			
+Exod.40.28	uncovered	base	0% of the words			
+Exod.40.35	uncovered	base	20% of the words			
+Exod.31.2	base-only	edge		1738: t	1750	Destinavi autem huic inquit ⟦⟧ rei nominatim Beselelem Uris filium
+Exod.31.2	base-only	reading		1738: z		rei nominatim Beselelem ⟦⟧ Uris filium Huris nepotem ex
+Exod.31.3	base-only	reading	omnis opificii	1738: o mnis opiticii		cui plenam ⟦omnis opificii⟧ peritiam intelligentiam scientiam divinitus adspiravi
+Exod.31.3	base-only	reading	intelligentiam	1738: infelligentiam	1750	cui plenam omnis opificii peritiam ⟦intelligentiam⟧ scientiam divinitus adspiravi
+Exod.31.4	base-only	division	conficiat	1738: con ficiat		qui negotium ingeniosissime ⟦conficiat⟧ aurumque et argentum et aes
+Exod.31.5	base-only	division	artificiose	1738: ar tificiofe | 1750: arEXODIVYS tificiofe		quique gemmas ⟦artificiose⟧ illiget et lignum fabricetur atque
+Exod.31.6	base-only	reading	animos	1738: amnios	1750	dania tribu inque omnium solertium ⟦animos⟧ peritiam immisi qui omnia quae
+Exod.31.6	base-only	reading	quae	1738: qux	1750	animos peritiam immisi qui omnia ⟦quae⟧ tibi praecepi conficiant
+Exod.31.6	base-only	edge	praecepi conficiant oraculare	1738: prxcepi confidant ora culare		qui omnia quae tibi ⟦praecepi conficiant oraculare⟧ tabernaculum oraculi arcam et propitiatorium
+Exod.31.8	correct	reading	purum	1738,1750: pu g rum		mensam ⟦purum⟧ candelabrum utrumque cum omni suo
+Exod.31.9	base-only	reading	victimariam	1738: vidtimariam	1750	aram ⟦victimariam⟧ cum omni suo instrumento labrum
+Exod.31.10	base-only	reading	tum	1738: turn	1750	⟦tum⟧ vestes supervacaneas et vestes sacras
+Exod.31.10	base-only	reading	supervacaneas	1738: fuperuaca IO F neas J VJ LJ V J neas | 1750: fuperuaca ro neas		tum vestes ⟦supervacaneas⟧ et vestes sacras Aharonis pontificis
+Exod.31.10	base-only	edge	sacerdotales	1738: faI cerdotales	1750	Aharonis pontificis vestesque ejus filiorum ⟦sacerdotales⟧ ad haec unctorium unguentum et
+Exod.31.11	base-only	reading	haec unctorium	1738: hxc vnclorium	1750	ad ⟦haec unctorium⟧ unguentum et suffimen odoratum ad
+Exod.31.12	base-only	reading	quemadmodum	1738: quemadmodtim | 1750: quemadinodum		qui haec inquam ⟦quemadmodum⟧ tibi praecepi sic plane conficiant
+Exod.31.12	base-only	reading	sic	1738: fie	1750	haec inquam quemadmodum tibi praecepi ⟦sic⟧ plane conficiant
+Exod.31.12	base-only	reading	conficiant	1738: confidant	1750	quemadmodum tibi praecepi sic plane ⟦conficiant⟧
+Exod.31.13	base-only	reading	Israelitas	1738: Israelites | 1750: Ifra et litas		Tu vero ⟦Israelitas⟧ commoneto inquit ut mea quidem
+Exod.31.13	base-only	reading	sanctos	1738: fanclos	1750	intelligatur eos a me Jova ⟦sanctos⟧ fieri
+Exod.31.14	base-only	reading	conservanto sanctumque	1738: conferuantp fanchimque	1750	Proinde sabbatum ⟦conservanto sanctumque⟧ habento Id qui violarit capitale
+Exod.31.14	base-only	division	qui violarit	1738: quiviolarit	1750	sabbatum conservanto sanctumque habento Id ⟦qui violarit⟧ capitale esto ac quicumque in
+Exod.31.15	base-only	reading	fecerit capitis poena	1738: fe erit capi tis pcena		est die sabbati quisquis opus ⟦fecerit capitis poena⟧ esto
+Exod.31.16	base-only	spelling	Israelitae	1738: Israelite		Quocirca vidento ⟦Israelitae⟧ ut sabbati foedus sempiternum et
+Exod.31.16	base-only	reading	foedus	1738: fecdus	1750	Quocirca vidento Israelitae ut sabbati ⟦foedus⟧ sempiternum et ipsi et eorum
+Exod.31.17	base-only	reading	caelum	1738: cazlum	1750,1726	quum sex diebus fecisset Jova ⟦caelum⟧ et terram septimo die feriatus
+Exod.31.18	base-only	reading	oraculi	1738: oracuii	1750	Sina tradidit ei duas tabulas ⟦oraculi⟧ lapideas divino digito inscriptas
+Exod.31.18	base-only	reading	divino	1738: ditiino	1750	ei duas tabulas oraculi lapideas ⟦divino⟧ digito inscriptas
+Exod.31.18	base-only	edge	inscriptas	1738: 	1750	tabulas oraculi lapideas divino digito ⟦inscriptas⟧
+Exod.32.1	base-only	reading		1738: frecatto I		Mosem tamdiu de monte non ⟦⟧ descendere ad Aharonem convenerat flagitantes
+Exod.32.1	base-only	reading	convenerat	1738: coniienerat	1750	monte non descendere ad Aharonem ⟦convenerat⟧ flagitantes ut sibi praeituros deos
+Exod.32.1	base-only	reading	educti	1738: educli | 1750: ti		quo viro essent ex Aegypto ⟦educti⟧ nescire se quid accidisset
+Exod.32.2	base-only	edge		1738: a		educti nescire se quid accidisset ⟦⟧ Et quum jussisset Aharon ut
+Exod.32.2	base-only	division	concerperent	1738: concer perent	1750	et liberi in auribus habebant ⟦concerperent⟧ et ad se adferrent
+Exod.32.3	base-only	reading	cuncti	1738: cuncli	1750	paruerant suasque discerptas inaures ⟦cuncti⟧ ad Aharonem contulerant
+Exod.32.3	base-only	reading	contulerant	1738: contuierant	1750	discerptas inaures cuncti ad Aharonem ⟦contulerant⟧
+Exod.32.4	base-only	reading	ille	1738: iile	1750	Id ⟦ille⟧ aurum ab eis acceptum caelo
+Exod.32.4	base-only	reading	ab eis acceptum caelo	1738: abeis acceptumcado v dp		Id ille aurum ⟦ab eis acceptum caelo⟧ configurarat vitulumque conflaverat de quo
+Exod.32.4	base-only	reading	sic praedicare	1738: fie prxdicare		vitulumque conflaverat de quo illi ⟦sic praedicare⟧ hi sunt dii tui Israelita
+Exod.32.5	base-only	division	animadvertens	1738: animad uertens	1750	Ea ⟦animadvertens⟧ Aharon aram ante vitulum excitaverat
+Exod.32.5	base-only	division	ante vitulum	1738: antevitulum	1750	Ea animadvertens Aharon aram ⟦ante vitulum⟧ excitaverat et diem Jovae festum
+Exod.32.5	base-only	reading	Jovae festum	1738: louxfeftura	1750	ante vitulum excitaverat et diem ⟦Jovae festum⟧ in posterum diem indixerat
+Exod.32.6	base-only	division	primum	1738: pri mum	1750	Igitur postridie ejus diei ut ⟦primum⟧ surrexerunt solida sacrificia et pro
+Exod.32.6	base-only	reading	sese	1738: feie	1750	quum discumbentes cibum potionemque cepissent ⟦sese⟧ ad ludendum erexerant
+Exod.32.7	base-only	reading	Tum	1738: Turn		⟦Tum⟧ Jova Mosi age jam inquit
+Exod.32.7	base-only	reading	age jam inquit	1738: ageiam in J quit		Tum Jova Mosi ⟦age jam inquit⟧ descende nam depravati sunt tui
+Exod.32.7	base-only	reading	aegyptia	1738: argyptia	1750	tui populares a te ex ⟦aegyptia⟧ terra educti
+Exod.32.7	base-only	edge	educti deflexerunt cito	1738: educ dellexerunt ci to | 1750: edu et i		a te ex aegyptia terra ⟦educti deflexerunt cito⟧ de via quam eis
+Exod.32.8	base-only	reading	conflarunt	1738: conliarunt	1750	de via quam eis tradideram ⟦conflarunt⟧ sibi vitulum quem adorant cui
+Exod.32.8	base-only	reading	quem	1738: quern	1750	eis tradideram conflarunt sibi vitulum ⟦quem⟧ adorant cui sacrificant et eos
+Exod.32.8	base-only	reading	jactant	1738: iaftant	1750	et eos esse Israelitarum deos ⟦jactant⟧ a quibus sint ex Aegypto
+Exod.32.8	base-only	reading	sint	1738: lint	1750	Israelitarum deos jactant a quibus ⟦sint⟧ ex Aegypto educti
+Exod.32.8	base-only	edge	educti Video	1738: educli Yi deo	1750	a quibus sint ex Aegypto ⟦educti Video⟧ inquit populum hunc esse durae
+Exod.32.9	base-only	reading	hunc	1738: hune	1750	Video inquit populum ⟦hunc⟧ esse durae cervicis
+Exod.32.10	base-only	division	propagem	1750: rrprópagem | 1738: propa gem		et te in magnam gentem ⟦propagem⟧
+Exod.32.11	base-only	reading	Moses Jovam Deum	1738: Moles louam Deuin		At ⟦Moses Jovam Deum⟧ suum deprecans cur in tuum
+Exod.32.11	base-only	reading	saevies	1738: fxuies	1750	cur in tuum populum Jova ⟦saevies⟧ inquit quem tanta vi tamque
+Exod.32.11	base-only	reading	quem	1738: quern	1750	tuum populum Jova saevies inquit ⟦quem⟧ tanta vi tamque valida manu
+Exod.32.11	base-only	reading	manu	1738: mami	1750	quem tanta vi tamque valida ⟦manu⟧ ex Aegypto extraxisti
+Exod.32.11	base-only	reading	Aegypto	1738: Aegypro	1750	vi tamque valida manu ex ⟦Aegypto⟧ extraxisti
+Exod.32.12	base-only	reading	dictitent	1738: diclitent	1750	Cur ⟦dictitent⟧ Aegyptii eductos a te perniciose
+Exod.32.12	base-only	reading	eductos	1738: edu et os	1750	Cur dictitent Aegyptii ⟦eductos⟧ a te perniciose ut eos
+Exod.32.12	base-only	reading	ut eos in montibus interficeres	1738: vteosinmontibus interriceres	1750	Aegyptii eductos a te perniciose ⟦ut eos in montibus interficeres⟧ atque ex orbe terrarum tolleres
+Exod.32.12	base-only	reading	iracundiae saevitiam	1738: iracundiac facuitiam	1750	orbe terrarum tolleres Comprime istius ⟦iracundiae saevitiam⟧ et poenam populo tuo remitte
+Exod.32.12	base-only	reading	poenam	1738: pcenam | 1750: po nam		Comprime istius iracundiae saevitiam et ⟦poenam⟧ populo tuo remitte
+Exod.32.13	base-only	reading	Isaaci	1738: lfaaci	1750	Memento tuorum Abrahami ⟦Isaaci⟧ et Israelis quibus per temetipsum
+Exod.32.13	base-only	reading	caelestibus	1738: cxlertibus	1750	promisisti te eorum sobolem stellis ⟦caelestibus⟧ numero exaequaturum eique soboli totius
+Exod.32.13	base-only	reading	exaequaturum	1738: exarquaturum | 1750: ex aequaturum		eorum sobolem stellis caelestibus numero ⟦exaequaturum⟧ eique soboli totius illius a
+Exod.32.14	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ Jova supplicium quod de populo
+Exod.32.14	base-only	reading	revocavit	1738: rcuocauit	1750	de populo suo sumere statuerat ⟦revocavit⟧
+Exod.32.15	base-only	reading	oraculi	1738: oracuii	1750	conversus de monte descendit duas ⟦oraculi⟧ tabulas in manu habens utraque
+Exod.32.15	base-only	reading	in manu habens	1738: inmanuhabens	1750	monte descendit duas oraculi tabulas ⟦in manu habens⟧ utraque margine hinc atque illinc
+Exod.32.15	base-only	reading	inscriptas	1738: inferiptas	1750	utraque margine hinc atque illinc ⟦inscriptas⟧
+Exod.32.16	base-only	reading	tabulis	1738: A gintabulis		tabularum divinum scriptio divina in ⟦tabulis⟧ exarata
+Exod.32.17	base-only	reading	Hic	1738: Hie	1750	⟦Hic⟧ Josua vocem perstrepentis exaudiens dixit
+Exod.32.17	base-only	reading	perstrepentis	1738: perftrcpentis	1750	Hic Josua vocem ⟦perstrepentis⟧ exaudiens dixit Mosi pugnantium vox
+Exod.32.17	base-only	reading		1738: j	1750	Mosi pugnantium vox in castris ⟦⟧ auditur
+Exod.32.18	base-only	reading	vocem	1738: ovocem	1750	neque vincentes sonat neque cedentes ⟦vocem⟧ audio cantantium
+Exod.32.19	base-only	reading	vitulum	1738: vituluin	1750	ad castra propius accessit et ⟦vitulum⟧ saltationesque conspexit tum vero ira
+Exod.32.19	base-only	reading	tum vero	1738: turn veto	1750	accessit et vitulum saltationesque conspexit ⟦tum vero⟧ ira percitus tabulas de manu
+Exod.32.19	base-only	reading		1738: I	1750	manu abjicit easque sub radice ⟦⟧ montis perfringit
+Exod.32.20	base-only	reading	Deinde vitulum quem	1738: Deiude vituluin quern		⟦Deinde vitulum quem⟧ illi fecerant corripit et eum
+Exod.32.20	base-only	reading	et eum	1738: ct eiim	1750	vitulum quem illi fecerant corripit ⟦et eum⟧ igni exustum in pulverem contundit
+Exod.32.20	base-only	reading	eam	1738: cam		eoque pulvere conspergit aquam et ⟦eam⟧ Israelitas bibere cogit
+Exod.32.20	base-only	reading		1738: i	1750	aquam et eam Israelitas bibere ⟦⟧ cogit
+Exod.32.21	base-only	reading	iste populus	1738: iilepopulus		Aharonem adloquitur quid tibi fecit ⟦iste populus⟧ ut eum tanto scelere obligares
+Exod.32.21	base-only	reading	obligares	1738: obligates	1750	populus ut eum tanto scelere ⟦obligares⟧
+Exod.32.23	base-only	reading	sibi	1738: libi	1750	Quum a me flagitarent ut ⟦sibi⟧ praeituros deos facerem quod Mosi
+Exod.32.23	base-only	division	facerem	1738: face rem	1750	flagitarent ut sibi praeituros deos ⟦facerem⟧ quod Mosi isti a quo
+Exod.32.23	base-only	reading	Mosi	1738: Moli	1750	sibi praeituros deos facerem quod ⟦Mosi⟧ isti a quo viro essent
+Exod.32.23	base-only	reading	essent	1738: ellent	1750	Mosi isti a quo viro ⟦essent⟧ ex Aegypto educti nescirent quid
+Exod.32.23	base-only	reading	educti	1738: educli	1750	quo viro essent ex Aegypto ⟦educti⟧ nescirent quid accidisset
+Exod.32.24	base-only	edge	jussi ut	1738: iuslijVt	1750	Aegypto educti nescirent quid accidisset ⟦jussi ut⟧ qui aurum haberent dispescerent
+Exod.32.24	base-only	reading	aurum	1738: auruni		jussi ut qui ⟦aurum⟧ haberent dispescerent et ad me
+Exod.32.24	base-only	reading	referrent	1738: referrenr		haberent dispescerent et ad me ⟦referrent⟧ Id aurum quum in ignem
+Exod.32.24	base-only	division	aurum	1738: au rum		et ad me referrent Id ⟦aurum⟧ quum in ignem conjecissem effectus
+Exod.32.24	base-only	division	in ignem	1738: inignem	1750	me referrent Id aurum quum ⟦in ignem⟧ conjecissem effectus est hic vitulus
+Exod.32.24	base-only	reading	effectus	1738: cfteclus	1750	aurum quum in ignem conjecissem ⟦effectus⟧ est hic vitulus
+Exod.32.24	base-only	reading	hic	1738: hie	1750	in ignem conjecissem effectus est ⟦hic⟧ vitulus
+Exod.32.25	base-only	reading	Hic	1738: Hie	1750	⟦Hic⟧ Moses populum animadvertens spoliatum ornamentis
+Exod.32.25	base-only	reading	spoliatum ornamentis	1738: lpoiiatum omamentis		Hic Moses populum animadvertens ⟦spoliatum ornamentis⟧ spoliaverat enim Aharon ut illos
+Exod.32.25	base-only	reading	enim	1738: enirn	1750	populum animadvertens spoliatum ornamentis spoliaverat ⟦enim⟧ Aharon ut illos apud inimicos
+Exod.32.26	base-only	reading	in	1738: m	1750	⟦in⟧ porta castrorum adstitit et ita
+Exod.32.26	base-only	reading	Jova	1738: loua	1750	ita pronuntiavit Si quis a ⟦Jova⟧ est huc ad me Quumque
+Exod.32.26	base-only	reading	huc	1738: hue	1750	Si quis a Jova est ⟦huc⟧ ad me Quumque ad eum
+Exod.32.26	base-only	reading	convenissent	1738: comienisfent	1750	ad me Quumque ad eum ⟦convenissent⟧ omnes Levitae
+Exod.32.27	base-only	edge	sic	1738: fie ig	1750	ad eum convenissent omnes Levitae ⟦sic⟧ loquitur jubet Jova Deus Israelitarum
+Exod.32.27	base-only	reading	Jova	1738: loua	1750	sic loquitur jubet ⟦Jova⟧ Deus Israelitarum ut vos suo
+Exod.32.27	base-only	division	ut vos	1738: vtvos	1750	loquitur jubet Jova Deus Israelitarum ⟦ut vos⟧ suo quisque ense femori accommodato
+Exod.32.27	base-only	reading	quisque	1738: qnisque	1750	Deus Israelitarum ut vos suo ⟦quisque⟧ ense femori accommodato per castra
+Exod.32.27	base-only	division	et vestrorum	1738: etveftrorum		accommodato per castra ostiatim grassemini ⟦et vestrorum⟧ fratrum familiarium vicinorum promiscuam caedem
+Exod.32.27	base-only	reading	caedem faciatis	1738: cardem faciaiptis		vestrorum fratrum familiarium vicinorum promiscuam ⟦caedem faciatis⟧
+Exod.32.28	base-only	reading	cecideruntque	1738: ceeideruntque	1750	Levitae ut jusserat Moses faciunt ⟦cecideruntque⟧ de populo eo die circiter
+Exod.32.28	base-only	reading	circiter	1738: eirciter	1750	cecideruntque de populo eo die ⟦circiter⟧ tria millia
+Exod.32.29	base-only	reading	Tum	1738: Turn | 1750: l um		⟦Tum⟧ Moses Levitis ait expiate hodie
+Exod.32.29	base-only	division	in vestris	1738: inveftris	1750	hodie manus vestras Jovae quas ⟦in vestris⟧ filiis et consanguineis promiscue cruentastis
+Exod.32.29	base-only	reading	promiscue	1738: promifeue		in vestris filiis et consanguineis ⟦promiscue⟧ cruentastis ut hodie fausta vobis
+Exod.32.29	base-only	reading		1738: k Talis expiatio fit ct Num XXXI eti ferat interhci	1750	consanguineis promiscue cruentastis ut hodie ⟦⟧ fausta vobis optentur
+Exod.32.30	base-only	edge	Postridie	1738: Polbi jf die	1750	ut hodie fausta vobis optentur ⟦Postridie⟧ populum adloquitur sceleris ab eis
+Exod.32.30	base-only	division	eamque ob	1738: eamqueob	1750	ab eis perpetrati magnitudinem ostendit ⟦eamque ob⟧ caussam sese ad Jovam adscensurum
+Exod.32.30	base-only	reading	Jovam adscensurum	1738: louam adfeenfurum | 1750: louam adícenfurum		eamque ob caussam sese ad ⟦Jovam adscensurum⟧ esse demonstrat si qua veniam
+Exod.32.30	base-only	reading	peccato	1738: peceato	1750	demonstrat si qua veniam eorum ⟦peccato⟧ possit impetrare
+Exod.32.31	base-only	reading		1738: Z	1750	Deinde ⟦⟧ ad Jovam reversus sic loquitur
+Exod.32.31	base-only	reading	Jovam	1738: louam	1750	Deinde ad ⟦Jovam⟧ reversus sic loquitur ingens quidem
+Exod.32.31	base-only	reading	sic	1738: fie	1750	Deinde ad Jovam reversus ⟦sic⟧ loquitur ingens quidem flagitium admisit
+Exod.32.31	base-only	reading	hic	1738: hie	1750	loquitur ingens quidem flagitium admisit ⟦hic⟧ populus dum sibi deos aureos
+Exod.32.32	base-only	division	condona	1738: con dona	1750	sed tu aut ei peccatum ⟦condona⟧ aut me de libro quem
+Exod.32.32	base-only	reading	de libro quem scripsisti	1738: delibro quern fcriplifti		ei peccatum condona aut me ⟦de libro quem scripsisti⟧ dele
+Exod.32.33	base-only	reading	Jova	1738: loua	1750	At ⟦Jova⟧ qui in me peccaverit inquit
+Exod.32.33	base-only	reading	ipsum	1738: ipfuin	1750	in me peccaverit inquit eum ⟦ipsum⟧ de libro meo delebo
+Exod.32.34	base-only	reading	praeeunte	1738: pneeunte	1750	ego tibi jussero meo tibi ⟦praeeunte⟧ angelo Quum meae ultionis dies
+Exod.32.34	base-only	reading	meae	1738: mex	1750	meo tibi praeeunte angelo Quum ⟦meae⟧ ultionis dies venerit flagitium in
+Exod.32.34	base-only	reading	auctores	1738: auelores	1750	ultionis dies venerit flagitium in ⟦auctores⟧ vindicabo
+Exod.32.35	base-only	reading	intulit	1738: inrulit	1750	Ita cladem ⟦intulit⟧ populo Jova propter vitulum quem
+Exod.32.35	base-only	reading	Jova	1738: loua	1750	Ita cladem intulit populo ⟦Jova⟧ propter vitulum quem illi per
+Exod.32.35	base-only	reading	vitulum quem	1738: virulutn quern	1750	cladem intulit populo Jova propter ⟦vitulum quem⟧ illi per Aharonem fecerant
+Exod.33.1	base-only	reading		1738: j	1750	Interim proficiscere hinc inquit ⟦⟧ una cum populo quem ex
+Exod.33.1	base-only	reading	quem	1738: quern	1750	hinc inquit una cum populo ⟦quem⟧ ex Aegyptorum finibus eduxisti in
+Exod.33.1	base-only	reading	et Jacobo	1738: etlacobo	1750,1726	terram quam ego Abrahamo Isaaco ⟦et Jacobo⟧ jurejurando confirmavi me eorum proli
+Exod.33.1	base-only	reading	terram lacte	1738: terrain laclc		me eorum proli esse daturum ⟦terram lacte⟧ et melle adfluentem
+Exod.33.2	base-only	reading	ex	1738: exa	1750	⟦ex⟧ qua praemisso vobis angelo expellam
+Exod.33.2	base-only	reading	Chananaeos	1738: Chananacos	1750	qua praemisso vobis angelo expellam ⟦Chananaeos⟧ Amorraeos Hettaeos Pherezaeos Hevaeos et
+Exod.33.2	base-only	reading	Hettaeos	1738: Hettxos | 1750: Hettacos		vobis angelo expellam Chananaeos Amorraeos ⟦Hettaeos⟧ Pherezaeos Hevaeos et Jebusaeos
+Exod.33.3	base-only	reading	tam durae	1738: tarn durx	1750	Nam ipse quidem inter vos ⟦tam durae⟧ cervicis homines non proficiscar ne
+Exod.33.4	base-only	reading	tam	1738: tarn		Hoc ⟦tam⟧ triste dictum postquam acceperunt homines
+Exod.33.4	base-only	reading	cultu	1738: culm	1750	homines ad luctum conversi a ⟦cultu⟧ corporis cuncti abstinuerunt
+Exod.33.4	base-only	reading	cuncti	1738: cun et i	1750	luctum conversi a cultu corporis ⟦cuncti⟧ abstinuerunt
+Exod.33.5	base-only	reading	Jova eis	1738: louaeis	1750	Nam ⟦Jova eis⟧ internuntio Mose contumaciam obiecit per
+Exod.33.5	base-only	reading	futurum	1738: futurutn	1750	Mose contumaciam obiecit per quam ⟦futurum⟧ esset ut si inter eos
+Exod.33.5	base-only	division	ut si	1738: vtfi	1750	obiecit per quam futurum esset ⟦ut si⟧ inter eos proficisceretur eos momento
+Exod.33.5	base-only	reading	cultum	1738: F culm puft intci ftdoi cos quos Deu iust vt narratum elt paullo ante EXODVS Cap tultum | 1750: cultu sà		caussam jussit ut ab sese ⟦cultum⟧ corporis deponerent quo ipse videret
+Exod.33.5	base-only	division	ipse videret	1738: ipfevideret	1750	sese cultum corporis deponerent quo ⟦ipse videret⟧ quid sibi de eis statuendum
+Exod.33.5	base-only	reading	sibi de	1738: Abide	1750	deponerent quo ipse videret quid ⟦sibi de⟧ eis statuendum esset
+Exod.33.5	base-only	edge	statuendum esset	1738: ftatutfendumesfet	1750	quid sibi de eis ⟦statuendum esset⟧ Itaque ornatu sese exuerunt Israelitae
+Exod.33.6	base-only	spelling	Israelitae	1738: Israelite	1750	Itaque ornatu sese exuerunt ⟦Israelitae⟧ a monte Horebo
+Exod.33.7	base-only	reading	autem	1738: an tern	1750	Moses ⟦autem⟧ tabernaculum cepit et extra castra
+Exod.33.7	base-only	reading	castra	1738: caitra	1750	autem tabernaculum cepit et extra ⟦castra⟧ procul a castris tetendit et
+Exod.33.7	base-only	reading	castris	1738: cartris	1750	et extra castra procul a ⟦castris⟧ tetendit et oraculare tabernaculum adpellavit
+Exod.33.7	base-only	reading	oraculare	1738: oracnlare	1750	oraculare tabernaculum adpellavit Ad hoc ⟦oraculare⟧ tabernaculum omnes Jovam consulere volentes
+Exod.33.7	base-only	division	castra	1738: ca ftra	1750	Jovam consulere volentes exibant extra ⟦castra⟧
+Exod.33.8	base-only	reading	prospectabant donec	1738: profpecrabant donee	1750	vulgo adstantes Mosem a tergo ⟦prospectabant donec⟧ in tabernaculum ingrederetur
+Exod.33.9	base-only	reading	Eo autem	1738: jjEo aurem	1750	⟦Eo autem⟧ ingresso descendebat columna nubis et
+Exod.33.9	base-only	reading	columna	1738: lolumna	1750	Eo autem ingresso descendebat ⟦columna⟧ nubis et pro tabernaculo adstabat
+Exod.33.10	base-only	reading	quam	1738: loquam	1750	⟦quam⟧ pro tabernaculo stantem universus populus
+Exod.33.10	base-only	reading	stantem	1738: lantern	1750	quam pro tabernaculo ⟦stantem⟧ universus populus adspectans adsurgebat utque
+Exod.33.10	base-only	reading	adspectans	1738: adfpeclans | 1750: adípeCtans		pro tabernaculo stantem universus populus ⟦adspectans⟧ adsurgebat utque ante suum quisque
+Exod.33.10	base-only	reading	suum	1738: ilium	1750	populus adspectans adsurgebat utque ante ⟦suum⟧ quisque tabernaculum steterant sese submittebant
+Exod.33.10	base-only	reading	steterant	1738: lleterant	1750	utque ante suum quisque tabernaculum ⟦steterant⟧ sese submittebant
+Exod.33.10	base-only	reading	submittebant	1738: fubIimittebant | 1738: fubIimittebant Adloqucbatur	1750	suum quisque tabernaculum steterant sese ⟦submittebant⟧
+Exod.33.11	base-only	reading	Adloquebatur	1738: Adloqucbatur	1750	⟦Adloquebatur⟧ autem Mosem Jova praesens praesentem
+Exod.33.11	base-only	reading	praesens praesentem	1738: prafens prxfentem	1750	Adloquebatur autem Mosem Jova ⟦praesens praesentem⟧ sicut homines solent inter sese
+Exod.33.11	base-only	reading	administer	1738: adminilter	1750	se referebat quum interim ejus ⟦administer⟧ Josua Nunis filius adolescens nusquam
+Exod.33.11	base-only	reading	filius adolescens nusquam se	1738: riiius adolefcerts nusquamfe	1750	interim ejus administer Josua Nunis ⟦filius adolescens nusquam se⟧ ex medio tabernaculo moveret
+Exod.33.11	base-only	reading	moveret	1738: moiaueret	1750	nusquam se ex medio tabernaculo ⟦moveret⟧
+Exod.33.12	base-only	reading	autem	1738: aurem	1750	Moses ⟦autem⟧ ad Jovam hujusmodi verba habuit
+Exod.33.12	base-only	reading	hujusmodi	1738: huiusinodi	1750	Moses autem ad Jovam ⟦hujusmodi⟧ verba habuit en tu jubes
+Exod.33.12	base-only	reading	nec	1738: nee	1750	jubes me hunc populum deducere ⟦nec⟧ mihi ostendis quem sis mecum
+Exod.33.12	base-only	reading	quem	1738: quern	1750	populum deducere nec mihi ostendis ⟦quem⟧ sis mecum missurus et ais
+Exod.33.12	base-only	reading	mecum	1738: mccum	1750	nec mihi ostendis quem sis ⟦mecum⟧ missurus et ais me tibi
+Exod.33.12	base-only	division	te valere	1738: tevalere	1750	nominatim esse notum et apud ⟦te valere⟧ gratia
+Exod.33.13	base-only	reading	doce	1738: docc	1750	si apud te valeo gratia ⟦doce⟧ me tuam viam quo te
+Exod.33.13	base-only	reading	simul	1738: rmiul	1750	apud te valeam gratia et ⟦simul⟧ considera gentem hanc tuum esse
+Exod.33.13	base-only	reading	gentem	1738: gen tern I	1750	valeam gratia et simul considera ⟦gentem⟧ hanc tuum esse populum
+Exod.33.13	base-only	reading	esse	1738: e e	1750	simul considera gentem hanc tuum ⟦esse⟧ populum
+Exod.33.14	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ ille egomet praesens ibo una
+Exod.33.14	base-only	reading	praesens	1738: prafens	1750	Tum ille egomet ⟦praesens⟧ ibo una teque quietum reddam
+Exod.33.14	base-only	reading	teque quietum	1738: te que qmetum	1750	ille egomet praesens ibo una ⟦teque quietum⟧ reddam
+Exod.33.15	base-only	division	nam nisi tu	1738: namnifitu	1750	Et Moses ⟦nam nisi tu⟧ ipse praesens is ne nos
+Exod.33.15	base-only	reading	praesens	1738: prafens	1750	Moses nam nisi tu ipse ⟦praesens⟧ is ne nos hinc abduxeris
+Exod.33.15	base-only	reading		1738: l	1750	ipse praesens is ne nos ⟦⟧ hinc abduxeris
+Exod.33.16	base-only	spelling	nobiscum eas ut ita ego	1738: nobiscumeas vtitaego	1750	valere gratia Nonne si ipse ⟦nobiscum eas ut ita ego⟧ populusque tuus populos omnes quos
+Exod.33.16	base-only	reading	tuus	1738: tuns	1750	eas ut ita ego populusque ⟦tuus⟧ populos omnes quos terra sustinet
+Exod.33.17	base-only	edge	Cui	1738: 	1750	omnes quos terra sustinet antecellamus ⟦Cui⟧ Jova istud quoque postulatum tuum
+Exod.33.17	base-only	reading	postulatum	1738: poitulatum	1750	Cui Jova istud quoque ⟦postulatum⟧ tuum faciam inquit tanti tua
+Exod.33.17	base-only	reading	faciam	1738: faciani	1750	Jova istud quoque postulatum tuum ⟦faciam⟧ inquit tanti tua apud me
+Exod.33.17	base-only	reading	est	1738: ell	1750	tanti tua apud me gratia ⟦est⟧ et familiaritas singularis
+Exod.33.17	base-only	reading	familiaritas	1738: familiantas	1750	apud me gratia est et ⟦familiaritas⟧ singularis
+Exod.33.18	base-only	reading	quaeso	1738: qu ifo	1750	Et Moses ostende mihi ⟦quaeso⟧ splendorem tuum
+Exod.33.19	base-only	reading	praeter conspectum	1738: prater confpecium		ille ego omnia bona mea ⟦praeter conspectum⟧ tuum trajiciam et Jovae nomen
+Exod.33.19	base-only	reading	Jovae nomen in conspectu tuo	1738: Iou e nomenin confpechi two		praeter conspectum tuum trajiciam et ⟦Jovae nomen in conspectu tuo⟧ adpellabo qui gratiam facio et
+Exod.33.19	base-only	reading	facio	1738: facip	1750	conspectu tuo adpellabo qui gratiam ⟦facio⟧ et misericordiam tribuo cuicumque mihi
+Exod.33.19	base-only	reading	collibitum	1738: colhbitum | 1750: ocollibitum		et misericordiam tribuo cuicumque mihi ⟦collibitum⟧ sit
+Exod.33.20	base-only	reading	videre	1738: vidcre	1750	Sed faciem meam tibi ⟦videre⟧ non licet inquit neque enim
+Exod.33.20	base-only	reading	enim	1738: eniui	1750	videre non licet inquit neque ⟦enim⟧ homini fas est videre me
+Exod.33.20	base-only	reading	est	1738: eit	1750	inquit neque enim homini fas ⟦est⟧ videre me quin vitam amittat
+Exod.33.20	base-only	reading	amittat	1738: amitcat	1750	est videre me quin vitam ⟦amittat⟧
+Exod.33.21	base-only	reading	adstabis	1738: adltabis | 1750: adílabis		quemdam inquit ubi in petra ⟦adstabis⟧
+Exod.33.22	base-only	reading	petrae	1738: petra	1750	in cujus ⟦petrae⟧ cavum praetereunte splendore meo te
+Exod.33.22	base-only	reading	praetereunte	1738: pratereunte	1750	in cujus petrae cavum ⟦praetereunte⟧ splendore meo te abstrudam tibique
+Exod.33.22	base-only	edge	donec praeteriero qua deinde amota	1738: donee prateriero quadeinde amora	1750	tibique manum meam obtendam ⟦donec praeteriero qua deinde amota⟧ a tergo me
+Exod.34.1	base-only	reading	similes	1738: finules	1750	duas tabulas lapideas inquit prioribus ⟦similes⟧ in quibus ego eadem verba
+Exod.34.2	base-only	reading	esto	1738: cfto z	1750	et ⟦esto⟧ paratus in crastinum mane conscensurus
+Exod.34.2	base-only	reading	conscensurus	1738: conllcnfurus	1750	esto paratus in crastinum mane ⟦conscensurus⟧ montem Sinam et ibi in
+Exod.34.2	base-only	reading	in	1738: irf	1750	conscensurus montem Sinam et ibi ⟦in⟧ montis cacumine mihi praesto futurus
+Exod.34.2	base-only	reading	praesto	1738: prafio	1750	ibi in montis cacumine mihi ⟦praesto⟧ futurus
+Exod.34.3	base-only	reading	tecum adscendat	1738: te cum adfeendat		Sed ne quis hominum ⟦tecum adscendat⟧ neu quis toto in monte
+Exod.34.4	base-only	reading	lapideas	1738: Iapi deas	1750	Igitur Moses duas tabulas ⟦lapideas⟧ prioribus similes incidit et mane
+Exod.34.4	base-only	reading	Jova jussus	1738: louaiusfus	1750	montem Sinam sicut erat a ⟦Jova jussus⟧ secum lapideas tabulas habens conscendit
+Exod.34.5	base-only	reading	descendit	1738: def cn dit	1750	Eo Jova in nube ⟦descendit⟧ et apud eum adstitit Jovaeque
+Exod.34.5	base-only	reading	eum adstitit	1738: emu adititit		in nube descendit et apud ⟦eum adstitit⟧ Jovaeque nomen adpellans
+Exod.34.6	base-only	reading	praeter	1738: prater		⟦praeter⟧ eum transiit ita pronuntians JOVA
+Exod.34.6	base-only	reading	JOVA	1738: VA	1750	praeter eum transiit ita pronuntians ⟦JOVA⟧ JOVA DEUS MISERICORS ET EXORABILIS
+Exod.34.6	base-only	reading	MISERICORS	1738: MiSERlCokS	1750	ita pronuntians JOVA JOVA DEUS ⟦MISERICORS⟧ ET EXORABILIS AD IRAM TARDUS
+Exod.34.6	base-only	reading	IRAM	1738: RAM TAR Cap E X O D V S	1750	DEUS MISERICORS ET EXORABILIS AD ⟦IRAM⟧ TARDUS AD CLEMENTIAM ET AUXILIUM
+Exod.34.6	base-only	division	AD CLEMENTIAM	1738: ADCLEMENTIAM	1750	ET EXORABILIS AD IRAM TARDUS ⟦AD CLEMENTIAM⟧ ET AUXILIUM PROPENSUS
+Exod.34.7	base-only	reading	QUI	1738: QYI	1750,1726	⟦QUI⟧ CLEMENTIA IN MILLE USQUE AETATES
+Exod.34.7	base-only	reading	AETATES	1738: AtTATES	1750	QUI CLEMENTIA IN MILLE USQUE ⟦AETATES⟧ UTITUR VITIA ET PECCATA ET
+Exod.34.7	base-only	reading	TERTIAM	1738: TERTFAM | 1750: TER TIAM	1726	IN NATOS ET NEPOTES AD ⟦TERTIAM⟧ ET QUARTAM STIRPEM PERSEQUITUR
+Exod.34.7	base-only	reading	STIRPEM	1738: STIRtPEM	1750,1726	NEPOTES AD TERTIAM ET QUARTAM ⟦STIRPEM⟧ PERSEQUITUR
+Exod.34.8	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ Moses ad terram extemplo supplex
+Exod.34.8	base-only	reading	terram	1738: tenam	1750	Tum Moses ad ⟦terram⟧ extemplo supplex procumbens
+Exod.34.9	base-only	reading	si	1738: li	1750	inquit ⟦si⟧ quid igitur apud te gratia
+Exod.34.9	base-only	reading	apud	1738: aptid	1750	inquit si quid igitur ⟦apud⟧ te gratia valeo Domine oro
+Exod.34.9	base-only	reading	Domine	1738: Doinine	1750	igitur apud te gratia valeo ⟦Domine⟧ oro ut tu Domine inter
+Exod.34.9	base-only	reading	tu	1738: tn	1750	gratia valeo Domine oro ut ⟦tu⟧ Domine inter nos venias ut
+Exod.34.9	base-only	reading	durae cervicis est vitiis nostris	1738: dune ceruiciseft vitiisnoftris		nos venias ut quoniam populus ⟦durae cervicis est vitiis nostris⟧ et peccatis ignoscas nosque possideas
+Exod.34.10	base-only	reading	isto	1738: iito	1750	pactionem facio inquit coram omni ⟦isto⟧ populo ut ego miracula faciam
+Exod.34.10	base-only	reading	miracula	1738: miracnla	1750	omni isto populo ut ego ⟦miracula⟧ faciam quanta in omni orbe
+Exod.34.10	base-only	reading	spectetque	1738: fpecletque	1750	ullas gentes edita non sunt ⟦spectetque⟧ universus inter quem tu versare
+Exod.34.10	base-only	reading	facturus	1738: fachirus	1750	quod ego sum erga vos ⟦facturus⟧
+Exod.34.11	base-only	reading	praecipio	1738: prxcipio | 1750: P aecipio		omnia observetis quae ego hodie ⟦praecipio⟧ Ego igitur vobis expellam Amorraeos
+Exod.34.11	base-only	reading	expellam Amorraeos Chananaeos Hettaeos Pherezaeos Hevaeos	1738: expel lam Amorrxos Chananxos HettxoSjPherez Jcos Heuxos		hodie praecipio Ego igitur vobis ⟦expellam Amorraeos Chananaeos Hettaeos Pherezaeos Hevaeos⟧ et Jebusaeos
+Exod.34.11	base-only	reading	Jebusaeos	1738: Iebufxos | 1750: lebufaeos		Chananaeos Hettaeos Pherezaeos Hevaeos et ⟦Jebusaeos⟧
+Exod.34.12	base-only	reading	foedus	1738: fcedus	1750	Vos cavetote ne ⟦foedus⟧ percutiatis cum ejus terrae incolis
+Exod.34.12	base-only	reading	terrae	1738: terrx	1750	ne foedus percutiatis cum ejus ⟦terrae⟧ incolis in quam invasuri estis
+Exod.34.12	base-only	division	ne ea	1738: neea	1750	incolis in quam invasuri estis ⟦ne ea⟧ res vobis adferat detrimentum
+Exod.34.13	base-only	reading	perfringitote	1738: pertringitote	1750	Quin eorum aras eruitote statuas ⟦perfringitote⟧ lucos succiditote
+Exod.34.14	base-only	division	habet enim	1738: habetenim	1750	quum Deum peregrinum adorare prohibeamini ⟦habet enim⟧ Jova nomen obtrectantis Deus est
+Exod.34.14	base-only	division	Deus est	1738: Deuseft	1750	habet enim Jova nomen obtrectantis ⟦Deus est⟧ rivalis impatiens
+Exod.34.14	base-only	reading	impatiens	1738: impatiensj	1750	nomen obtrectantis Deus est rivalis ⟦impatiens⟧
+Exod.34.15	base-only	reading	est	1738: elt	1750	periculum ⟦est⟧ ne si cum incolis foedus
+Exod.34.15	base-only	reading	foedus	1738: fcedus	1750	est ne si cum incolis ⟦foedus⟧ faciatis illi impudica suis diis
+Exod.34.16	base-only	reading	filiis adsciscatis	1738: filtis adfciilatis		perficiantque ut suas filias vestris ⟦filiis adsciscatis⟧ quos illae porro pudicitiam suis
+Exod.34.16	base-only	reading	illae	1738: illx	1750	filias vestris filiis adsciscatis quos ⟦illae⟧ porro pudicitiam suis diis prostituendo
+Exod.34.16	base-only	reading	pudicitiam	1738: pudkitiam	1750	filiis adsciscatis quos illae porro ⟦pudicitiam⟧ suis diis prostituendo ad eamdem
+Exod.34.18	base-only	reading	vescitor	1738: veicitor	1750	Azymalia observato Septem dies azymis ⟦vescitor⟧ quod tibi praecepi in statum
+Exod.34.18	base-only	reading	praecepi	1738: prxcepi		dies azymis vescitor quod tibi ⟦praecepi⟧ in statum tempus mensis verni
+Exod.34.18	base-only	reading	mensis	1738: men lis	1750	tibi praecepi in statum tempus ⟦mensis⟧ verni nam in mense verno
+Exod.34.19	base-only	reading	Omnem	1738: Uinnem	1750	Quidquid vulvam aperit meum esto ⟦Omnem⟧ tui pecoris masculum primigenium tum
+Exod.34.19	base-only	reading	tum	1738: turn	1750	Omnem tui pecoris masculum primigenium ⟦tum⟧ bovilli tum ovilli et caprini
+Exod.34.19	base-only	reading	tum	1738: turn	1750	pecoris masculum primigenium tum bovilli ⟦tum⟧ ovilli et caprini mihi adsignato
+Exod.34.20	base-only	reading	primigenium	1738: primi za genium	1750	Asini ⟦primigenium⟧ ove aut capra redimito si
+Exod.34.22	base-only	reading		1738: jj	1750	Item ⟦⟧ septimanalia agito in primitiis triticeae
+Exod.34.22	base-only	reading	triticeae	1738: tritice c	1750	Item septimanalia agito in primitiis ⟦triticeae⟧ messis Item conditalia in clausula
+Exod.34.23	base-only	reading	conspectum	1738: confpeChim | 1750: conípectum		quotannis omnes tui mares in ⟦conspectum⟧ domini Jovae Dei Israelitarum sistuntor
+Exod.34.23	base-only	reading	Jovae	1738: Ioux	1750	tui mares in conspectum domini ⟦Jovae⟧ Dei Israelitarum sistuntor
+Exod.34.24	base-only	division	exactis tua	1738: exactistua		Nam ego ⟦exactis tua⟧ caussa gentibus fines tuos amplificabo
+Exod.34.24	base-only	division	gentibus	1738: genti bus	1750	Nam ego exactis tua caussa ⟦gentibus⟧ fines tuos amplificabo neque quisquam
+Exod.34.24	base-only	reading	concupiscet tum	1738: concupi feet turn		amplificabo neque quisquam tuam terram ⟦concupiscet tum⟧ quum ad comparendum coram Jova
+Exod.34.25	base-only	reading	meae victimae	1738: mex viclimxjj	1750	Quum ⟦meae victimae⟧ sanguinem eam mactando effundes fermentum
+Exod.34.25	base-only	reading	eam mactando effundes	1738: earn roaclando etflmdes	1750	Quum meae victimae sanguinem ⟦eam mactando effundes⟧ fermentum ne habeto Victima festi
+Exod.34.25	base-only	reading	Victima	1738: Viciiraa	1750	mactando effundes fermentum ne habeto ⟦Victima⟧ festi paschae in posterum diem
+Exod.34.25	base-only	reading	paschae	1738: pafchx	1750	fermentum ne habeto Victima festi ⟦paschae⟧ in posterum diem ne superesto
+Exod.34.25	base-only	reading	superesto	1738: fuperelto	1750	paschae in posterum diem ne ⟦superesto⟧
+Exod.34.26	base-only	reading	primitivarum	1738: primiti a S uarum	1750	Principium ⟦primitivarum⟧ frugum tui fundi in aedem
+Exod.34.26	base-only	reading	aedem Jovae	1738: xdem Ioux	1750	primitivarum frugum tui fundi in ⟦aedem Jovae⟧ Dei tui adferto Haedum in
+Exod.34.26	base-only	reading	Haedum in	1738: Hxdumin	1750	aedem Jovae Dei tui adferto ⟦Haedum in⟧ sanguine matris suae ne coquito
+Exod.34.27	base-only	reading	Haec	1738: Hxc	1750	⟦Haec⟧ tu verba inquit Mosem adloquens
+Exod.34.27	base-only	reading	Mosem adloquens	1738: Moferaad loquens		Haec tu verba inquit ⟦Mosem adloquens⟧ perscribito nam in haec verba
+Exod.34.27	base-only	reading	haec	1738: hxc	1750	Mosem adloquens perscribito nam in ⟦haec⟧ verba foedus tecum et cum
+Exod.34.27	base-only	reading	foedus	1738: fcedus	1750	perscribito nam in haec verba ⟦foedus⟧ tecum et cum Israelitis ferio
+Exod.34.28	base-only	reading	tabulis	1738: tabuhs	1750	usus neque potione perscripsitque in ⟦tabulis⟧ dicta foederis quae dicta sunt
+Exod.34.28	base-only	reading	quae	1738: qux	1750	perscripsitque in tabulis dicta foederis ⟦quae⟧ dicta sunt decem
+Exod.34.28	base-only	reading	sunt decem	1738: fimt decern	1750	tabulis dicta foederis quae dicta ⟦sunt decem⟧
+Exod.34.29	base-only	division	duas secum ferens	1738: du as fecumferens	1750	Deinde quum de monte Sina ⟦duas secum ferens⟧ oraculi tabulas descenderet ejus faciei
+Exod.34.30	base-only	reading	perstricti	1738: perftricli | 1750: perftri		quo splendore ⟦perstricti⟧ Aharon et omnes Israelitae ejus
+Exod.34.30	base-only	reading	Israelitae	1738: Israelitx	1750	splendore perstricti Aharon et omnes ⟦Israelitae⟧ ejus congressum reformidabant
+Exod.34.30	base-only	reading	reformidabant	1738: reform idabant Sedreuocante Mo fe	1750	et omnes Israelitae ejus congressum ⟦reformidabant⟧
+Exod.34.31	base-only	reading	eum	1738: euni	1750	Sed revocante Mose reverterunt ad ⟦eum⟧ Aharon et omnes rei publicae
+Exod.34.31	base-only	reading	omnes	1738: onines	1750	reverterunt ad eum Aharon et ⟦omnes⟧ rei publicae principes cum quibus
+Exod.34.31	base-only	reading	publicae	1738: publics	1750	eum Aharon et omnes rei ⟦publicae⟧ principes cum quibus locuto Mose
+Exod.34.32	base-only	division	accesserunt	1738: ac cesferunt	1750	tum demum ⟦accesserunt⟧ omnes Israelitae quibus ille omnia
+Exod.34.32	base-only	reading	Israelitae	1738: Israelitx | 1750: lfraélitae		tum demum accesserunt omnes ⟦Israelitae⟧ quibus ille omnia quae a
+Exod.34.32	base-only	reading		1738: F	1750	demum accesserunt omnes Israelitae quibus ⟦⟧ ille omnia quae a Jova
+Exod.34.32	base-only	reading		1738: E X D V S Cap il e	1750	accesserunt omnes Israelitae quibus ille ⟦⟧ omnia quae a Jova in
+Exod.34.32	base-only	division	Sina	1738: Si na	1750	quae a Jova in monte ⟦Sina⟧ acceperat mandata exposuit
+Exod.34.33	base-only	reading	suae	1738: fax | 1750: fude		finem fecit quum quidem faciei ⟦suae⟧ velamen obtendisset
+Exod.34.33	base-only	edge	obtendisset Quum	1738: obtendisS fet Qtiuro	1750	quum quidem faciei suae velamen ⟦obtendisset Quum⟧ autem in Jovae conspectum ad
+Exod.34.34	base-only	reading	Jovae conspectum	1738: Ioux confpechim | 1750: Touae con fpe et um		Quum autem in ⟦Jovae conspectum⟧ ad colloquium veniebat velamen usque
+Exod.34.34	base-only	reading	abitum	1738: abitun	1750	colloquium veniebat velamen usque ad ⟦abitum⟧ detrahebat Deinde quum ad mandata
+Exod.34.34	base-only	division	Israelitis	1738: Is raelitis | 1750: Işraclitis		detrahebat Deinde quum ad mandata ⟦Israelitis⟧ referenda pergebat
+Exod.34.35	base-only	reading	quoniam	1738: quoniani | 1750: quo niam		⟦quoniam⟧ ejus faciei cutis fulgore suo
+Exod.34.35	base-only	division	oculos perstringebat	1738: oculosperftringebat	1750	faciei cutis fulgore suo illorum ⟦oculos perstringebat⟧ velamentum ante faciem suam referebat
+Exod.34.35	base-only	reading	donec	1738: donee	1750	velamentum ante faciem suam referebat ⟦donec⟧ ad Jovae colloquium rediret
+Exod.34.35	base-only	reading	Jovae	1738: louae	1750	faciem suam referebat donec ad ⟦Jovae⟧ colloquium rediret
+Exod.35.1	base-only	division	Israelitarum	1738: Is raelitarum | 1750: Is X raëlitarum		Coacta autem universorum ⟦Israelitarum⟧ concione ad hunc modum verba
+Exod.35.1	base-only	reading	sunt quae	1738: flint aqusc	1750	hunc modum verba fecit haec ⟦sunt quae⟧ vos Jova facere jubet
+Exod.35.2	base-only	reading	septimum	1738: fcptimum	1750	Sex diebus opera patranto ⟦septimum⟧ autem diem Jovae sacrum feriis
+Exod.35.2	base-only	reading	Jovae	1738: louae	1750	opera patranto septimum autem diem ⟦Jovae⟧ sacrum feriis sabbati agendis habetote
+Exod.35.2	base-only	reading	feriis	1738: fcriis	1750	septimum autem diem Jovae sacrum ⟦feriis⟧ sabbati agendis habetote In eo
+Exod.35.2	base-only	reading	habetote In eo quisquis	1738: habetotc Ineoquis qviis		Jovae sacrum feriis sabbati agendis ⟦habetote In eo quisquis⟧ opus fecerit moriatur
+Exod.35.3	base-only	edge		1738: d	1750	eo quisquis opus fecerit moriatur ⟦⟧ Ignem in universum per domos
+Exod.35.4	base-only	reading	cujusque	1738: ciriusque	1750	a vobis honorarium conficiatis prout ⟦cujusque⟧ animus ad conferendum in id
+Exod.35.4	base-only	reading	Jovae	1738: Ioux	1750	animus ad conferendum in id ⟦Jovae⟧ honorarium sua sponte feretur
+Exod.35.5	correct	division	aurum	1738,1750: au rum		videlicet ⟦aurum⟧ argentum aes
+Exod.35.5	base-only	reading	aes	1738: xs	1750	videlicet aurum argentum ⟦aes⟧
+Exod.35.6	base-only	reading	iteratum vellera	1738: iteralum velle ra		hyacinthum purpuram coccum ⟦iteratum vellera⟧ caprina
+Exod.35.7	base-only	reading	tinctas	1738: tinclas | 1750: tin et tas		pelles arietinas rubro ⟦tinctas⟧ pelles melium ligna cedrina
+Exod.35.7	base-only	division	cedrina	1738: cedri na	1750	rubro tinctas pelles melium ligna ⟦cedrina⟧
+Exod.35.8	base-only	reading	ad	1738: cd	1750	oleum lucernarium aromata ⟦ad⟧ unguentum unctorium et ad suffimentum
+Exod.35.8	base-only	reading	unctorium	1738: vnclorium | 1750: vné		oleum lucernarium aromata ad unguentum ⟦unctorium⟧ et ad suffimentum odoratum
+Exod.35.8	base-only	reading	suffimentum	1738: fufrimentum | 1750: fuflimentum		ad unguentum unctorium et ad ⟦suffimentum⟧ odoratum
+Exod.35.9	base-only	reading	praeterea	1738: prxterea | 1750: praeterca		⟦praeterea⟧ gemmas onychinas et gemmas ad
+Exod.35.9	base-only	reading	ad ephodum	1738: adepholodmn	1750	et gemmas ad includendum idoneas ⟦ad ephodum⟧ et monile
+Exod.35.10	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ autem ut vestrum scientissimi quique
+Exod.35.10	base-only	reading	quique adsint	1738: qnique adiint		Tum autem ut vestrum scientissimi ⟦quique adsint⟧ et omnia quae jubet Jova
+Exod.35.10	base-only	reading	conficiant	1738: confiIiciant		et omnia quae jubet Jova ⟦conficiant⟧
+Exod.35.11	base-only	reading	basibus	1738: baiibus		assamentis repagulis columnis et earum ⟦basibus⟧
+Exod.35.12	base-only	reading	ejusque vectes	1738: eius u que veotes	1750	Item arcam ⟦ejusque vectes⟧ et propitiatorium et siparium obtendendum
+Exod.35.13	base-only	reading		1738: is	1750	Item ⟦⟧ mensam cum suis vectibus et
+Exod.35.13	base-only	reading	vectibus	1738: vecSUbus	1750	Item mensam cum suis ⟦vectibus⟧ et omni instrumento et pane
+Exod.35.15	base-only	reading	aram suffitoriam	1738: aramfufti toriam		Item ⟦aram suffitoriam⟧ ejusque vectes et oleum unctorium
+Exod.35.15	base-only	reading	vectes	1738: vec es		Item aram suffitoriam ejusque ⟦vectes⟧ et oleum unctorium suffimenque odoratum
+Exod.35.15	base-only	reading	suffimenque	1738: fuffimenqtie	1750	ejusque vectes et oleum unctorium ⟦suffimenque⟧ odoratum et tabernaculi ostiarium aulaeum
+Exod.35.15	base-only	reading	tabernaculi	1738: tabcrnaculi	1750	oleum unctorium suffimenque odoratum et ⟦tabernaculi⟧ ostiarium aulaeum
+Exod.35.15	base-only	reading	aulaeum	1738: aulxum	1750	suffimenque odoratum et tabernaculi ostiarium ⟦aulaeum⟧
+Exod.35.16	base-only	reading		1738: U	1750	Item aram victimariam et ejus ⟦⟧ focum aereum et vectes et
+Exod.35.16	base-only	reading	aereum	1738: arreum	1750	aram victimariam et ejus focum ⟦aereum⟧ et vectes et omnia armamenta
+Exod.35.16	base-only	reading	vectes	1738: vedes	1750	et ejus focum aereum et ⟦vectes⟧ et omnia armamenta tum labrum
+Exod.35.16	base-only	reading	tum	1738: turn	1750	et vectes et omnia armamenta ⟦tum⟧ labrum cum suo scapo
+Exod.35.17	base-only	division	columnas	1738: colu mnas	1750	Item atrii vela et ⟦columnas⟧ cum suis basibus nec non
+Exod.35.17	base-only	reading	nec	1738: nee	1750	et columnas cum suis basibus ⟦nec⟧ non atrii portae aulaeum
+Exod.35.18	base-only	division	tabernaculi	1738: taberna culi	1750	et ⟦tabernaculi⟧ et atrii paxillos atque funes
+Exod.35.18	base-only	reading	funes	1738: fines | 1738: fines Turn	1750	tabernaculi et atrii paxillos atque ⟦funes⟧
+Exod.35.19	base-only	reading	Tum	1738: Turn | 1750: um		⟦Tum⟧ vestes supervacaneas ad operandum sacris
+Exod.35.19	base-only	reading	operandum	1738: ope l randum | 1750: operanium		Tum vestes supervacaneas ad ⟦operandum⟧ sacris et sacras vestes Aharonis
+Exod.35.20	base-only	reading	universa	1738: vniuer ai	1750	Igitur dimissa a Mose ⟦universa⟧ concione
+Exod.35.21	base-only	spelling	Israelitae	1738: Israelite	1750	⟦Israelitae⟧ voluntarii prout suus quemque voluntarius
+Exod.35.21	base-only	reading	prout	1738: pro ii ut	1750	Israelitae voluntarii ⟦prout⟧ suus quemque voluntarius animus et
+Exod.35.21	base-only	reading	voluntarius	1738: volunrarius	1750	Israelitae voluntarii prout suus quemque ⟦voluntarius⟧ animus et mens exhortabatur et
+Exod.35.21	base-only	division	ad oracularis	1738: adoracularis	1750	ad id Jovae honorarium conferebant ⟦ad oracularis⟧ tabernaculi totiusque ejus ornamenti et
+Exod.35.21	base-only	reading	totiusque	1738: totiusquc	1750	honorarium conferebant ad oracularis tabernaculi ⟦totiusque⟧ ejus ornamenti et sacrarum vestium
+Exod.35.21	base-only	reading	ornamenti	1738: ornament		ad oracularis tabernaculi totiusque ejus ⟦ornamenti⟧ et sacrarum vestium opus
+Exod.35.22	base-only	reading	vulgoque	1738: vulgoquei	1750	⟦vulgoque⟧ non solum viri sed etiam
+Exod.35.22	base-only	reading	partim fibulas inaures	1738: partial fibulasjinaures	1750	etiam feminae sua sponte adferebant ⟦partim fibulas inaures⟧ annulos armillas et cetera hujus
+Exod.35.22	base-only	division	et cetera	1738: etcetera	1750	partim fibulas inaures annulos armillas ⟦et cetera⟧ hujus generis quaecumque ornamenta aurea
+Exod.35.22	base-only	reading	quaecumque ornamenta aurea si	1738: quxcumque ornamentaaurea ft		armillas et cetera hujus generis ⟦quaecumque ornamenta aurea si⟧ qui auro Jovam munerabantur
+Exod.35.23	base-only	division	hyacinthum	1738: hyacin thum	1750	partim ⟦hyacinthum⟧ purpuram coccum iteratum byssum caprina
+Exod.35.23	base-only	division	coccum iteratum	1738: coccumiteratum	1750	partim hyacinthum purpuram ⟦coccum iteratum⟧ byssum caprina vellera et rubro
+Exod.35.24	base-only	division	argentum	1738: ar gentum	1750	Alii ⟦argentum⟧ atque aes pro sua quisque
+Exod.35.24	base-only	reading	aes	1738: xs		Alii argentum atque ⟦aes⟧ pro sua quisque facultate ad
+Exod.35.24	base-only	reading	facultate	1738: facilitate	1750	atque aes pro sua quisque ⟦facultate⟧ ad id munus praestabant Si
+Exod.35.24	base-only	reading	praestabant	1738: prxftabant	1750	quisque facultate ad id munus ⟦praestabant⟧ Si qui ligna cedrina habebant
+Exod.35.25	base-only	spelling	quaeque	1738: quae que	1750	Feminarum etiam peritissimae ⟦quaeque⟧ hyacinthum purpuram coccum iteratum et
+Exod.35.25	base-only	edge	subministrabant Nonnullae	1738: fubminiftrad fcilictt ad opera facienda Nam cibum quiJem pararelicerefupradocuir EXUUVS Cap niftrabant Nonnullx	1750	suis ipsae manibus nebant netaque ⟦subministrabant Nonnullae⟧ si quae hujus rei scientia
+Exod.35.26	base-only	reading	scientia praestabant	1738: fdentia prxftabant	1750	Nonnullae si quae hujus rei ⟦scientia praestabant⟧ vellera caprina nebant
+Exod.35.27	base-only	reading	ceteras	1738: cetei as	1750	Primates autem onychas et ⟦ceteras⟧ gemmas caelaturae accommodas ad ephodum
+Exod.35.27	base-only	reading	caelaturae	1738: cxlaturx	1750	autem onychas et ceteras gemmas ⟦caelaturae⟧ accommodas ad ephodum et monile
+Exod.35.27	base-only	reading	monile	1738: moniIe	1750	caelaturae accommodas ad ephodum et ⟦monile⟧ suppeditabant
+Exod.35.28	base-only	reading	tum	1738: turn	1750	itemque aromata et oleum ⟦tum⟧ lucernarium tum ad unctorium unguentum
+Exod.35.28	base-only	reading	tum ad unctorium	1738: turn advnekmum		aromata et oleum tum lucernarium ⟦tum ad unctorium⟧ unguentum et ad odoratum suffimentum
+Exod.35.29	base-only	spelling	Israelitae	1738: Israelite		Ita ⟦Israelitae⟧ non solum viri sed etiam
+Exod.35.29	base-only	reading	feminae	1738: feminx	1750	non solum viri sed etiam ⟦feminae⟧ prout sua quemque voluntas movebat
+Exod.35.29	base-only	reading	totum	1738: to turn	1750	quemque voluntas movebat ad conficiendum ⟦totum⟧ illud opus quod per Mosem
+Exod.35.29	base-only	division	Jova jusserat	1738: Iouaiusferat | 1750: loua iuflerat		opus quod per Mosem fieri ⟦Jova jusserat⟧ omnes voluntario ad Jovam munere
+Exod.35.29	base-only	reading	Jovam	1738: Ioiiam | 1750: louam		Jova jusserat omnes voluntario ad ⟦Jovam⟧ munere fungebantur
+Exod.35.30	base-only	reading	Beselelem	1738: Befelclem	1750	Quibus Moses demonstravit ut Jova ⟦Beselelem⟧ Uris filium Huris nepotem ex
+Exod.35.30	base-only	reading		1738: I	1750	Jova Beselelem Uris filium Huris ⟦⟧ nepotem ex tribu judaica nominatim
+Exod.35.30	base-only	division	ex tribu	1738: extribu	1750	Beselelem Uris filium Huris nepotem ⟦ex tribu⟧ judaica nominatim delegisset
+Exod.35.30	base-only	reading	nominatim	1738: nominaI I tim	1750	Huris nepotem ex tribu judaica ⟦nominatim⟧ delegisset
+Exod.35.31	correct	division	artificii	1738,1750: ar tificii		eumque omnis ⟦artificii⟧ prudentia scientia peritia divino adflatu
+Exod.35.31	base-only	reading	divino	1738: iidiuino	1750	omnis artificii prudentia scientia peritia ⟦divino⟧ adflatu cumulavisset
+Exod.35.32	base-only	edge	aes subtilissime elaboraret	1738: xs fubti lisfime elaborarec	1750	qui argentum qui ⟦aes subtilissime elaboraret⟧ gemmas arte concluderet ligna fabrefaceret
+Exod.35.34	base-only	reading	utque	1738: vique	1750	⟦utque⟧ ei industriam docendi alios dedisset
+Exod.35.34	base-only	reading	nec	1738: nee	1750	ei industriam docendi alios dedisset ⟦nec⟧ non Oholiabo Achisamachi filio de
+Exod.35.34	base-only	reading	Achisamachi	1738: Achifar machi	1750	alios dedisset nec non Oholiabo ⟦Achisamachi⟧ filio de tribu dania
+Exod.35.34	base-only	reading	de	1738: dc	1750	nec non Oholiabo Achisamachi filio ⟦de⟧ tribu dania
+Exod.35.35	base-only	reading	elaborarent	1738: claborarcnt	1750	purpuram coccum iteratum byssum textiliaque ⟦elaborarent⟧ et omne opus solerti perficerent
+Exod.36.1	base-only	reading	Oholiabus	1738: OhoIiabus	1750	Perfecerunt igitur Beselel et ⟦Oholiabus⟧ et ingeniosissimi quique homines quos
+Exod.36.1	base-only	reading	ingeniosissimi	1738: ingeniofisilmi	1750	igitur Beselel et Oholiabus et ⟦ingeniosissimi⟧ quique homines quos Jova peritia
+Exod.36.1	base-only	reading	prudentia	1738: pnidentia	1750	quique homines quos Jova peritia ⟦prudentia⟧ agendique scientia donaverat universum sacri
+Exod.36.1	base-only	edge	Jovae praescriptum	1738: Ioux prxferiptum a	1750	sacri ministerii opus ad ⟦Jovae praescriptum⟧ Ad id opus adgrediendum quum
+Exod.36.2	base-only	reading	erat	1738: gerat	1750	cujusque voluntas ad id proclivis ⟦erat⟧
+Exod.36.3	base-only	reading	collectam	1738: colleclam		omnem Israelitarum ⟦collectam⟧ apud Mosem ad eam rem
+Exod.36.3	base-only	reading	eam	1738: earn	1750	Israelitarum collectam apud Mosem ad ⟦eam⟧ rem positam abstulerunt adgressuri negotium
+Exod.36.3	base-only	reading	facturi	1738: facluri	1750	abstulerunt adgressuri negotium sacrumque opus ⟦facturi⟧ Sed quum ad id plura
+Exod.36.3	base-only	division	id plura in	1738: idplurain		opus facturi Sed quum ad ⟦id plura in⟧ dies ultro conferrentur artifices illi
+Exod.36.3	base-only	reading	ultro	1738: vitro	1750	ad id plura in dies ⟦ultro⟧ conferrentur artifices illi omnes omissis
+Exod.36.4	base-only	division	demonstrantque	1738: demonftrant que	1750	⟦demonstrantque⟧ plus a populo conferri quam
+Exod.36.4	base-only	reading	confectio	1738: confeclio | 1738: confeclio Qiiare	1750	postulet operis a Jova imperati ⟦confectio⟧
+Exod.36.5	base-only	reading	Quare	1738: Qiiare	1750	⟦Quare⟧ Moses proclamari per castra jussit
+Exod.36.6	base-only	reading	ne	1738: ned	1750	⟦ne⟧ quis deinceps aut vir aut
+Exod.36.6	base-only	reading	desitum est	1738: dcfitum ell		adderet Ita conferri a populo ⟦desitum est⟧
+Exod.36.8	base-only	reading		1738: I	1750	Fecerunt igitur omnes illi ⟦⟧ periti operis artifices ad tabernaculum
+Exod.36.8	base-only	reading	decem	1738: decern	1750	periti operis artifices ad tabernaculum ⟦decem⟧ lintea ex bysso bilice hyacintho
+Exod.36.8	base-only	reading	et	1738: ct	1750	ex bysso bilice hyacintho purpura ⟦et⟧ cocco iterato eaque cherubata opere
+Exod.36.9	base-only	reading	longitudo	1738: Ion gitudo | 1750: lonitudo		quorum singulorum ⟦longitudo⟧ viginti octo cubitorum erat latitudo
+Exod.36.9	base-only	reading	octo	1738: oclo	1750	quorum singulorum longitudo viginti ⟦octo⟧ cubitorum erat latitudo quatuor eadem
+Exod.36.10	base-only	reading	Haec	1738: Hxc	1750	⟦Haec⟧ ille quina inter se connectebat
+Exod.36.10	base-only	reading	connectebat	1738: conneclebat | 1750: Ilconnectebat | 1738: conneclebat Turn		Haec ille quina inter se ⟦connectebat⟧
+Exod.36.11	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ ligulas hyacinthinas faciebat per oram
+Exod.36.11	base-only	division	hyacinthinas	1738: hya cinthinas	1750	Tum ligulas ⟦hyacinthinas⟧ faciebat per oram unius lintei
+Exod.36.11	base-only	division	per oram	1738: peroram	1750	Tum ligulas hyacinthinas faciebat ⟦per oram⟧ unius lintei in commissurae parte
+Exod.36.11	base-only	reading	lintei in commissurae	1738: linteiincommisfurx		hyacinthinas faciebat per oram unius ⟦lintei in commissurae⟧ parte similiterque in ora ultimi
+Exod.36.11	base-only	reading	similiterque	1738: limiliterque	1750	unius lintei in commissurae parte ⟦similiterque⟧ in ora ultimi lintei in
+Exod.36.12	base-only	reading	utrobique	1738: vtrobiquc it	1750	easque ⟦utrobique⟧ quinquagenas sibi mutuo respondentes
+Exod.36.12	base-only	reading	mutuo	1738: imituo	1750	easque utrobique quinquagenas sibi ⟦mutuo⟧ respondentes
+Exod.36.13	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ quinquaginta uncos aureos quibus uncis
+Exod.36.13	base-only	division	uncos	1738: vn cos	1750	Tum quinquaginta ⟦uncos⟧ aureos quibus uncis lintea inter
+Exod.36.13	base-only	reading	connectebat	1738: conne et ebat	1750	quibus uncis lintea inter sese ⟦connectebat⟧ ut unum fieret tentorium
+Exod.36.14	base-only	division	undecim	1738: vnde cim	1750	Faciebat item ⟦undecim⟧ stragula caprina ad contegendum tabernaculum
+Exod.36.15	base-only	reading	longitudinem	1738: longitu lj dinem	1750	in ⟦longitudinem⟧ trigenum cubitorum in latitudinem quaternum
+Exod.36.16	base-only	reading	quinque	1738: quin l S que	1750	quorum ⟦quinque⟧ seorsum et sex seorsum conjungebat
+Exod.36.17	base-only	reading	commissurae	1738: commisfurx	1750	totidem per oram straguli alterius ⟦commissurae⟧
+Exod.36.18	base-only	reading		1738: ig		et ⟦⟧ item uncos aureos quinquaginta ad
+Exod.36.19	base-only	reading	operimentum	1738: operi mentuin | 1750: operimentunt		Huic tegumento ⟦operimentum⟧ faciebat ex pellibus arietinis rubro
+Exod.36.19	base-only	reading	tinctis	1738: tinclis | 1750: tin et is		faciebat ex pellibus arietinis rubro ⟦tinctis⟧ itemque insuper operimentum ex pellibus
+Exod.36.20	base-only	reading	tabernaculum	1738: tabernacu luni ai lum		Item asseres faciebat ad ⟦tabernaculum⟧ cedrinos arrectarios
+Exod.36.20	base-only	reading	arrectarios	1738: arreclarios	1750	asseres faciebat ad tabernaculum cedrinos ⟦arrectarios⟧
+Exod.36.21	base-only	reading	longitudinem	1738: Iongitudinem		in ⟦longitudinem⟧ denum cubitorum latitudine sesquicubitali
+Exod.36.21	base-only	edge	latitudine sesquicubitali	1738: lati tudine fcsquicubitali	1750	in longitudinem denum cubitorum ⟦latitudine sesquicubitali⟧ qui omnes binos cardines inter
+Exod.36.22	base-only	reading	omnes	1738: onines	1750	qui ⟦omnes⟧ binos cardines inter sese aptos
+Exod.36.22	base-only	reading	sese	1738: Me	1750	qui omnes binos cardines inter ⟦sese⟧ aptos habebant
+Exod.36.22	base-only	division	habebant	1738: ha bebant	1750	binos cardines inter sese aptos ⟦habebant⟧
+Exod.36.23	base-only	division	meridianam	1738: me ridianam	1750	viginti faciebat ad partem tabernaculi ⟦meridianam⟧
+Exod.36.24	base-only	reading	quot	1738: qtiot	1750	argenteas supponebat videlicet singulis duas ⟦quot⟧ erant cardines
+Exod.36.24	base-only	reading	cardines	1738: carabines	1750	videlicet singulis duas quot erant ⟦cardines⟧
+Exod.36.25	base-only	division	aquilonari	1738: aqui lonari | 1750: aguilonari		ad alterum latus in parte ⟦aquilonari⟧
+Exod.36.26	base-only	division	tabernaculi	1738: taber naculi	1750	faciebat et duos in angularibus ⟦tabernaculi⟧ versuris
+Exod.36.27	base-only	edge	copulabantur	1738: coa pulabantur	1750	summo uno annulo inter se ⟦copulabantur⟧ Ita octo asseres erant
+Exod.36.28	base-only	reading	octo	1738: ock	1750	Ita ⟦octo⟧ asseres erant
+Exod.36.29	base-only	edge		1738: a	1750	Ita octo asseres erant ⟦⟧ et eorum spirae argenteae sexdecim
+Exod.36.29	base-only	reading	argenteae	1738: argentex	1750	et eorum spirae ⟦argenteae⟧ sexdecim singulorum binae
+Exod.36.30	base-only	division	tabernaculi	1738: taberna culi	1750	deinde cedrina repagula faciebat utrique ⟦tabernaculi⟧ lateri quina
+Exod.36.31	base-only	reading		1738: z | 1750: N		totidemque ⟦⟧ parti occidentali
+Exod.36.32	base-only	reading	trajectum	1738: traieclum	1750	repagulorum medianum per medios asseres ⟦trajectum⟧ ab altero extremo ad alterum
+Exod.36.34	base-only	reading	etiam	1738: efiam	1750	qui annuli repagula ⟦etiam⟧ aurata caperent
+Exod.36.35	base-only	division	cherubatum	1738: che rubatum	1750	bysso bilice opere phrygionis idque ⟦cherubatum⟧
+Exod.36.36	base-only	division	cedrinas auratas	1738: cedrinasauratas	1750	cui sipario quatuor faciebat columellas ⟦cedrinas auratas⟧ capitellis aureis quibus quatuor bases
+Exod.36.36	base-only	reading	aureis quibus	1738: aurcis quibii	1750	faciebat columellas cedrinas auratas capitellis ⟦aureis quibus⟧ quatuor bases conflabat argenteas
+Exod.36.37	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ aulaeum faciebat ostio tabernaculi ex
+Exod.36.38	base-only	edge	ejusque columnas quinque	1738: eiusquecolunmasquinque	1750	et bysso bilice opere polymito ⟦ejusque columnas quinque⟧ cum capitellis quae
+Exod.36.38	base-only	reading	quae	1738: qux	1750	ejusque columnas quinque cum capitellis ⟦quae⟧ capita nec non ornamenta inaurabat
+Exod.36.38	base-only	reading	nec	1738: nee	1750	quinque cum capitellis quae capita ⟦nec⟧ non ornamenta inaurabat basibus quinque
+Exod.37.1	base-only	reading	cedrinam	1738: ce i drinam | 1750: ce drinam		Faciebat item Beselel arcam ⟦cedrinam⟧ in longitudinem duorum cubitorum et
+Exod.37.1	base-only	reading	longitudinem	1738: Iongitudinem	1750	item Beselel arcam cedrinam in ⟦longitudinem⟧ duorum cubitorum et dimidii latitudine
+Exod.37.1	base-only	reading	dimidii	1738: diinidii	1750	in longitudinem duorum cubitorum et ⟦dimidii⟧ latitudine autem et altitudine sesquicubitali
+Exod.37.1	base-only	edge	sesquicubitali	1738: fesE Cap quicubitali	1750	dimidii latitudine autem et altitudine ⟦sesquicubitali⟧ quam puro auro intus forisque
+Exod.37.2	base-only	reading	intus	1738: in a tus | 1750: in tus		quam puro auro ⟦intus⟧ forisque inductam aurea corona circumdabat
+Exod.37.2	base-only	reading	inductam	1738: induclam	1750	quam puro auro intus forisque ⟦inductam⟧ aurea corona circumdabat
+Exod.37.3	base-only	edge	Tum ei quatuor annulos	1738: Turn eiqua tuor annul os	1750	forisque inductam aurea corona circumdabat ⟦Tum ei quatuor annulos⟧ aureos conflabat
+Exod.37.5	base-only	reading	arcae latera	1738: arcx late ra	1750	et per annulos ad ⟦arcae latera⟧ trajiciebat ad eam gestandam
+Exod.37.5	base-only	reading	eam	1738: earn	1750	ad arcae latera trajiciebat ad ⟦eam⟧ gestandam
+Exod.37.6	base-only	division	puro	1738: pu ro	1750	Item propitiatorium ex auro ⟦puro⟧ longitudine duorum cubitorum et dimidii
+Exod.37.7	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ duos cherubos aureos eosque perpetuos
+Exod.37.8	base-only	reading		1738: g	1750	videlicet ⟦⟧ alterum ex altero et eos
+Exod.37.9	base-only	division	propitiatorium	1738: propitiato rium	1750	qui super expansis alis ⟦propitiatorium⟧ obtegeret alterius adspectu in alterum
+Exod.37.9	base-only	reading	adspectu	1738: adfpeclu	1750	expansis alis propitiatorium obtegeret alterius ⟦adspectu⟧ in alterum per propitiatorium converso
+Exod.37.10	base-only	reading	longitudine	1738: longi i tudine	1750	Item mensam cedrinam ⟦longitudine⟧ bicubitali latitudine cubitali altitudine sesquicubitali
+Exod.37.12	base-only	reading	margini	1738: margin	1750	quam auream coronam ⟦margini⟧ dodrantali accommodabat qua margine eam
+Exod.37.12	base-only	reading	eam	1738: earn | 1750: cam		margini dodrantali accommodabat qua margine ⟦eam⟧ circumdederat
+Exod.37.13	base-only	reading	hanc	1738: hanci	1750	Ad ⟦hanc⟧ mensam quatuor annulos aureos conflabat
+Exod.37.13	base-only	reading	conflabat	1738: conllabat	1750	hanc mensam quatuor annulos aureos ⟦conflabat⟧ eosque quatuor ejus pedum angulis
+Exod.37.13	base-only	reading	angulis	1738: angiitis	1750	conflabat eosque quatuor ejus pedum ⟦angulis⟧ adligabat
+Exod.37.14	base-only	reading	essent	1738: es ii fent	1750	ita ut ⟦essent⟧ secundum marginem qui vectes ad
+Exod.37.14	base-only	reading	vectes	1738: vecles | 1750: vcGes		ut essent secundum marginem qui ⟦vectes⟧ ad gestandam mensam acciperent
+Exod.37.15	base-only	reading	vectes	1738: vecles	1750	quos ⟦vectes⟧ etiam cedrinos faciebat auroque incrustabat
+Exod.37.15	base-only	reading	cedrinos	1738: cedri i nos	1750	quos vectes etiam ⟦cedrinos⟧ faciebat auroque incrustabat
+Exod.37.16	base-only	reading		1738: i	1750	Deinde vasa faciebat quae super ⟦⟧ mensa ponerentur scutellas capedines phialas
+Exod.37.17	base-only	reading		1738: r	1750	Item candelabrum ex auro puro ⟦⟧ solidum ita ut ejus crus
+Exod.37.17	base-only	division	et lilia	1738: etlilia	1750	ejus crus scapus scutulae globi ⟦et lilia⟧ essent ex eodem
+Exod.37.18	base-only	division	prodeuntibus	1738: prode untibus | 1750: proderountibus		sex scapis ex ejus lateribus ⟦prodeuntibus⟧ ex utroque trinis
+Exod.37.19	base-only	division	singulosque globos	1738: fingulosqueglobos	1750	in modum putaminis amygdali concavas ⟦singulosque globos⟧ atque lilia
+Exod.37.20	base-only	reading	scutulae	1738: faitulx | 1750: ftutuke		ipso autem candelabro quatuor erant ⟦scutulae⟧ globi et lilia
+Exod.37.21	base-only	reading	prodeuntia	1738: prodCap iprodeuntia	1750	tria scaporum paria ex eo ⟦prodeuntia⟧ singuli globi
+Exod.37.22	base-only	division	candelabro	1738: can delabro		et scapi essent ex ipso ⟦candelabro⟧ solido atque uno eoque ex
+Exod.37.22	base-only	division	atque uno	1738: atquevno		essent ex ipso candelabro solido ⟦atque uno⟧ eoque ex auro puro
+Exod.37.22	base-only	reading		1738: I		candelabro solido atque uno eoque ⟦⟧ ex auro puro
+Exod.37.23	base-only	edge	Item ejus lucernas	1738: Itemeius Iucernas	1750	uno eoque ex auro puro ⟦Item ejus lucernas⟧ septem earumque forcipes
+Exod.37.23	base-only	reading	foculos	1738: focujlos	1750	lucernas septem earumque forcipes et ⟦foculos⟧ ex auro puro
+Exod.37.24	base-only	reading	omne	1738: onine	1750	Hoc candelabrum et ⟦omne⟧ ejus instrumentum ex auri puri
+Exod.37.24	base-only	division	ex auri puri talento	1738: exauripuritalento		candelabrum et omne ejus instrumentum ⟦ex auri puri talento⟧ faciebat
+Exod.37.25	base-only	edge		1738: It	1750	ex auri puri talento faciebat ⟦⟧ Item aram suffitoriam cedrinam longitudine
+Exod.37.25	base-only	reading	suffitoriam	1738: fiiffitoriam | 1750: futlitoriam		Item aram ⟦suffitoriam⟧ cedrinam longitudine et latitudine cubitali
+Exod.37.25	base-only	reading	longitudine	1738: Iongitudine	1750	Item aram suffitoriam cedrinam ⟦longitudine⟧ et latitudine cubitali quadratam altitudine
+Exod.37.25	base-only	division	ut ex eadem	1738: vtexeadem	1750	cubitali quadratam altitudine bicubitali ita ⟦ut ex eadem⟧ ejus essent cornua
+Exod.37.26	base-only	edge	eamque auro puro incrustabat	1738: Seamqueauro puroincruftabat	1750	ex eadem ejus essent cornua ⟦eamque auro puro incrustabat⟧ videlicet superficiem
+Exod.37.26	base-only	spelling	circumdabat	1738: cirrcumdabat	1750	undique et cornua aureaque corona ⟦circumdabat⟧
+Exod.37.27	base-only	reading	vectibus	1738: ve et ibus	1750	duorum ejus laterum costis qui ⟦vectibus⟧ ad eam portandam praeberent receptacula
+Exod.37.27	base-only	reading	eam	1738: earn	1750	laterum costis qui vectibus ad ⟦eam⟧ portandam praeberent receptacula
+Exod.37.27	base-only	reading	praeberent	1738: prxbeIfrent	1750	qui vectibus ad eam portandam ⟦praeberent⟧ receptacula
+Exod.37.28	base-only	edge	incrustabat auro puro	1738: incruftabatauro ijpuro	1750	cedrinos faciebat et ⟦incrustabat auro puro⟧ Item unguentum unctorium sacrum suffimenque
+Exod.37.29	base-only	reading	unctorium	1738: vnctori urn | 1750: vnétori um		Item unguentum ⟦unctorium⟧ sacrum suffimenque odoratum purum opere
+Exod.38.1	base-only	reading		1738: vnguentum vnctori urn facrum fuffimenque odoratum purum opere vnguentarii CAPVT XXXVIII ytra cedrina viflimaria atrium auUum Qblati uuri argenti urisquejumma I Tern		Item ⟦⟧ aram victimariam cedrinam quinque cubitorum
+Exod.38.1	base-only	reading	victimariam	1738: viclimariam	1750	Item aram ⟦victimariam⟧ cedrinam quinque cubitorum longitudine ac
+Exod.38.1	base-only	reading	quinque	1738: quinquc		Item aram victimariam cedrinam ⟦quinque⟧ cubitorum longitudine ac latitudine quadratam
+Exod.38.1	base-only	reading	longitudine	1738: Iongitudine	1750	aram victimariam cedrinam quinque cubitorum ⟦longitudine⟧ ac latitudine quadratam in altitudinem
+Exod.38.2	base-only	reading	aere	1738: acre	1750	quidem erant ex ipsa eamque ⟦aere⟧ integebat
+Exod.38.3	base-only	reading	omne	1738: orane | 1750: o mne		Item ⟦omne⟧ arae instrumentum cacabos scopulas pollubra
+Exod.38.3	base-only	division	et batilla	1738: etba tilla	1750	instrumentum cacabos scopulas pollubra fuscinas ⟦et batilla⟧ eaque omnia aerea
+Exod.38.5	base-only	reading	Tum	1738: Turn		⟦Tum⟧ quatuor annulos quatuor foci extremis
+Exod.38.5	base-only	reading	vectes	1738: ve et es	1750	extremis ex aere conflabat qui ⟦vectes⟧ acciperent
+Exod.38.6	base-only	reading	vectes	1738: veftes	1750	quos ⟦vectes⟧ ex cedro faciebat aereque inducebat
+Exod.38.7	base-only	reading	vectes	1738: vecles	1750	Item ⟦vectes⟧ per annulos ad arae costas
+Exod.38.7	base-only	reading	arae	1738: arse	1750	Item vectes per annulos ad ⟦arae⟧ costas trajiciebat ad aram gestandam
+Exod.38.8	base-only	reading	aeneum	1738: ae fcil velorum ex quibus conftabat EXODVS neum | 1750: ac neum		Item labrum ⟦aeneum⟧ ejusque scapum aeneum ex mulierum
+Exod.38.8	base-only	reading	aeneum	1738: acneum		Item labrum aeneum ejusque scapum ⟦aeneum⟧ ex mulierum speculis quae pro
+Exod.38.8	base-only	division	oraculi tabernaculo	1738: oraculitabernaculo	1750	ex mulierum speculis quae pro ⟦oraculi tabernaculo⟧ excubabant
+Exod.38.10	base-only	reading	eorum vicenae	1738: eo io rum vkenae	1750	Columnae ⟦eorum vicenae⟧ basibus vicenis aereis capitellis autem
+Exod.38.10	base-only	reading	aereis	1738: acreis	1750	Columnae eorum vicenae basibus vicenis ⟦aereis⟧ capitellis autem et praecinctionibus argenteis
+Exod.38.12	base-only	reading		1738: ia		At in occidentali ⟦⟧ parte vela erant quinquaginta cubitorum
+Exod.38.12	base-only	reading	decem	1738: decern	1750	erant quinquaginta cubitorum quorum columnae ⟦decem⟧ totidemque bases capitellis et praecinctionibus
+Exod.38.12	base-only	reading	bases	1738: bales	1750	cubitorum quorum columnae decem totidemque ⟦bases⟧ capitellis et praecinctionibus argenteis
+Exod.38.12	base-only	reading	praecinctionibus	1738: praecinclionibus | 1750: tionibus		decem totidemque bases capitellis et ⟦praecinctionibus⟧ argenteis
+Exod.38.13	base-only	reading	portae	1738: portac	1750	quinquaginta cubitorum vela in utroque ⟦portae⟧ atrii latere hinc inde quindenum
+Exod.38.15	base-only	reading	autem	1738: au tern	1750	Columnarum ⟦autem⟧ bases aeneae capitella et praecinctiones
+Exod.38.15	base-only	reading	praecinctiones	1738: praecincliones	1750	autem bases aeneae capitella et ⟦praecinctiones⟧ argenteae earum capitibus argento inductis
+Exod.38.15	correct	edge	inductis	1738: indu et is | 1750: indu et tis		praecinctiones argenteae earum capitibus argento ⟦inductis⟧ erantque omnes atrii columnarum praecinctiones
+Exod.38.17	base-only	reading	autem	1738: au i tern	1750	Aulaeum ⟦autem⟧ atrii ostiarium fiebat opere polymito
+Exod.38.17	base-only	reading	ostiarium	1738: oftiariiim	1750	Aulaeum autem atrii ⟦ostiarium⟧ fiebat opere polymito ex hyacintho
+Exod.38.17	base-only	reading	ex hyacintho	1738: exhyacimho	1750	atrii ostiarium fiebat opere polymito ⟦ex hyacintho⟧ purpura cocco iterato et bysso
+Exod.38.18	base-only	edge	viginti	1738: vi ig ginti	1750	cocco iterato et bysso bilice ⟦viginti⟧ cubitos longum altitudine quae eadem
+Exod.38.18	base-only	reading	quinque	1738: quinquc	1750	altitudine quae eadem erat latitudo ⟦quinque⟧ cubitorum secundum atrii vela
+Exod.38.19	base-only	reading	aereis	1738: acreis	1750	Columnae eorum quatuor totidem basibus ⟦aereis⟧ capitulis autem argenteis capitibus et
+Exod.38.19	base-only	reading	praecinctionibus	1738: praecinclionibus | 1750: praecinciioni bus		capitulis autem argenteis capitibus et ⟦praecinctionibus⟧ argento incrustatis
+Exod.38.21	base-only	reading	Haec	1738: Hacc	1750	⟦Haec⟧ est summa impensorum in oraculorum
+Exod.38.21	base-only	reading	impensorum	1738: iiu penforum	1750	Haec est summa ⟦impensorum⟧ in oraculorum tabernaculum ratione subducta
+Exod.38.22	base-only	reading		1738: ax	1750	quum quidem Beselel filius Uris ⟦⟧ filii Huris de tribu Judae
+Exod.38.23	base-only	division	et plumario	1738: etplumario	1750	filio ex tribu dania fabro ⟦et plumario⟧ et phrygione in hyacintho in
+Exod.38.24	base-only	reading	sicli	1738: iicli		sunt omnino talenta undetriginta et ⟦sicli⟧ sacri septingenti triginta
+Exod.38.26	base-only	reading	dumtaxat in	1738: duintaxatin	1750	sicli sacri semissibus viritim imperatis ⟦dumtaxat in⟧ eos qui in censum veniebant
+Exod.38.26	base-only	division	quinquaginta	1738: quin quaginta | 1750: quinqudginta		numerus sexcenta tria millia quingenti ⟦quinquaginta⟧
+Exod.38.28	base-only	reading		1738: P	1750	earumque capita incrustavit et ipsas ⟦⟧ exornavit
+Exod.38.29	base-only	division	et siclorum	1738: etficlorum	1750	Aeris oblati fuere talenta septuaginta ⟦et siclorum⟧ duo millia quadringenti
+Exod.38.30	base-only	reading	portae	1738: ports	1750	ex quo fecit bases columnarum ⟦portae⟧ oracularis tabernaculi et aram aeream
+Exod.38.30	base-only	reading	arae	1738: arx S | 1750: arx		ejusque focum aereum et omne ⟦arae⟧ instrumentum
+Exod.38.31	base-only	reading	tam ambientium	1738: tarn ambientiuin	1750	praeterea bases columnarum atrii ⟦tam ambientium⟧ quam ostiariarum omnesque aedis paxillos
+Exod.38.31	base-only	reading	aedis	1738: sedis	1750	tam ambientium quam ostiariarum omnesque ⟦aedis⟧ paxillos et qui undique per
+Exod.39.1	base-only	reading	et purpura	1738: etpurpuw i ra		Ex hyacintho autem ⟦et purpura⟧ et cocco iterato fecere supervacaneas
+Exod.39.1	base-only	reading	iterato	1738: itcrato	1750	autem et purpura et cocco ⟦iterato⟧ fecere supervacaneas vestes ad ministrandum
+Exod.39.1	base-only	division	supervacaneas	1738: fu peruacaneas		purpura et cocco iterato fecere ⟦supervacaneas⟧ vestes ad ministrandum in fano
+Exod.39.1	base-only	reading		1738: a	1750	vestes Aharonis quemadmodum Mosi Jova ⟦⟧ praeceperat
+Exod.39.2	base-only	division	iterato	1738: itera to	1750	ex auro hyacintho purpura cocco ⟦iterato⟧ et bysso bilice faciebant
+Exod.39.3	base-only	reading	ductaque	1738: duclaque | 1750: du taque		⟦ductaque⟧ ex auro in bracteolas diducto
+Exod.39.3	base-only	reading	diducto fila	1738: diduc to rila		ductaque ex auro in bracteolas ⟦diducto fila⟧ hyacintho purpura cocco iterato et
+Exod.39.3	base-only	division	opere	1738: ope re		cocco iterato et bysso intertexebant ⟦opere⟧ plumarii
+Exod.39.4	base-only	reading	Huic humeralia duo	1738: Huichumeraliaduo	1750	⟦Huic humeralia duo⟧ faciebant quae utrique ejus extremo
+Exod.39.4	base-only	division	extremo	1738: extre mo	1750	duo faciebant quae utrique ejus ⟦extremo⟧ connexa haererent
+Exod.39.5	base-only	reading	autem limbi	1738: autejH Iniibij	1750	Textura ⟦autem limbi⟧ qui ei addebatur ex ipso
+Exod.39.5	base-only	division	ejusdemque cum	1738: eiusdemquecum	1750	ei addebatur ex ipso erat ⟦ejusdemque cum⟧ eo operis ex auro hyacintho
+Exod.39.5	base-only	reading	praeceperat	1738: prxceperat	1750	bysso bilice sicut Mosi Jova ⟦praeceperat⟧
+Exod.39.6	base-only	reading	gemmas	1738: gem mas		Faciebant et ⟦gemmas⟧ onychas aureis conclusas circulis opere
+Exod.39.6	base-only	reading	caelatas	1738: cxlatas	1750	onychas aureis conclusas circulis opere ⟦caelatas⟧ sigillari nominibus Israelitarum
+Exod.39.7	base-only	division	ephodi humeralibus	1738: epho di humeral ibus		easque ⟦ephodi humeralibus⟧ imponebant quae gemmae essent Israelitarum
+Exod.39.7	base-only	reading	quae	1738: qua	1750	easque ephodi humeralibus imponebant ⟦quae⟧ gemmae essent Israelitarum monumentum sicut
+Exod.39.7	base-only	reading	praeceperat	1738: prxceperat | 1750: praecepe rat		Israelitarum monumentum sicut Mosi Jova ⟦praeceperat⟧
+Exod.39.9	base-only	reading	idque	1738: idqueo	1750	⟦idque⟧ quadratum duplum longitudine et latitudine
+Exod.39.10	base-only	reading		1738: ic	1750	et id quatuor ⟦⟧ gemmarum ordinibus complebant In primo
+Exod.39.11	base-only	reading		1738: u	1750	In altero ⟦⟧ carbunculus sapphirus et adamas
+Exod.39.12	correct	division	amethystus	1750,1738: ame thyftus		In tertio ligyrius achates et ⟦amethystus⟧
+Exod.39.13	base-only	reading	Hae	1738: Hx		quarto chrysolithus onyx et jaspis ⟦Hae⟧ gemmae suis in valvulis includebantur
+Exod.39.13	base-only	reading	suis	1738: ftiis	1750	onyx et jaspis Hae gemmae ⟦suis⟧ in valvulis includebantur aureis circulis
+Exod.39.13	base-only	reading	includebantur	1738: includebannir	1750	Hae gemmae suis in valvulis ⟦includebantur⟧ aureis circulis
+Exod.39.14	base-only	reading		1738: u	1750	et pro numero Israelis ⟦⟧ filiorum id est duodecim erant
+Exod.39.14	base-only	reading	singulae	1738: fingulx	1750	nominibus ad rationem duodecim tribuum ⟦singulae⟧ singulis caelatae caelatura sigillari
+Exod.39.14	base-only	reading	caelatae caelatura	1738: cxlatx cxlatura	1750	rationem duodecim tribuum singulae singulis ⟦caelatae caelatura⟧ sigillari
+Exod.39.15	base-only	division	Deinde monili	1738: Deindemonili	1750	⟦Deinde monili⟧ faciebant habenas duas finitas opere
+Exod.39.17	base-only	reading		1738: i	1750	eisque duas illas aureas catenas ⟦⟧ ad monilis extrema adnectebant et
+Exod.39.17	base-only	reading	adnectebant	1738: adne | 1750: annectebant		aureas catenas ad monilis extrema ⟦adnectebant⟧ et earum duo capita duabus
+Exod.39.17	base-only	reading	earum	1738: ebant et earimi	1750	ad monilis extrema adnectebant et ⟦earum⟧ duo capita duabus fibulis inferebant
+Exod.39.18	base-only	division	humeralia	1738: humera lia | 1750: humceralia		et in ephodi ⟦humeralia⟧ anteriori parte subducebant
+Exod.39.19	base-only	division	faciebant	1738: facie bant	1750	Deinde duos annulos aureos ⟦faciebant⟧ quos duabus monilis extremitatibus adligabant
+Exod.39.19	base-only	reading	ipsum	1738: ipfuui	1750	interius in ora quae ad ⟦ipsum⟧ ephodum pertinebat
+Exod.39.20	base-only	reading	Tum	1738: Turn | 1750: e lum		⟦Tum⟧ duos alteros aureos quos subter
+Exod.39.20	base-only	reading		1738: M	1750	Tum duos alteros aureos quos ⟦⟧ subter duo ephodi humeralia a
+Exod.39.21	base-only	reading		1738: II	1750	et monile a suis annulis ⟦⟧ ad ephodi annulos hyacinthina vitta
+Exod.39.21	base-only	reading	haereret	1738: hsereret	1750	adligabant ut super ephodi textura ⟦haereret⟧ neque ab eo dimoveretur quemadmodum
+Exod.39.21	base-only	reading	dimoveretur quemadmodum Mosi	1738: dimouerefar Cap EXODVS y tur quemadiiiodiim Moii		textura haereret neque ab eo ⟦dimoveretur quemadmodum Mosi⟧ Jova praeceperat
+Exod.39.21	base-only	spelling	praeceperat	1738: prae ceperat		eo dimoveretur quemadmodum Mosi Jova ⟦praeceperat⟧
+Exod.39.22	base-only	reading	praetextam	1738: prxtextam	1750	Deinde faciebant ephodi ⟦praetextam⟧ opere textili totam hyacinthinam
+Exod.39.23	base-only	spelling	erat loricae instar	1738: eratloricaeinftar		cujus in medio os ⟦erat loricae instar⟧ limbo circumseptum ne rumperētur
+Exod.39.23	base-only	division	circumseptum	1738: circum feptum		os erat loricae instar limbo ⟦circumseptum⟧ ne rumperētur
+Exod.39.24	base-only	spelling	punica ex	1738: punicaex	1750	In hujus lacinia faciebant mala ⟦punica ex⟧ hyacintho purpura cocco iterato et
+Exod.39.24	base-only	reading	iterato	1738: itcrato	1750	punica ex hyacintho purpura cocco ⟦iterato⟧ et bysso bilice
+Exod.39.25	correct	division	puro	1738,1750: pu ro		deinde ex auro ⟦puro⟧ tintinnabula
+Exod.39.26	base-only	reading	quae	1738: qua	1750	⟦quae⟧ malis punicis alterna circumquaque per
+Exod.39.26	base-only	reading	praetextae	1738: pretexts	1750	malis punicis alterna circumquaque per ⟦praetextae⟧ laciniam interponebant ad ministrandum sicut
+Exod.39.26	base-only	reading	praeceperat	1738: pracceperat	1750	ad ministrandum sicut Mosi Jova ⟦praeceperat⟧
+Exod.39.27	base-only	reading	byssinas	1738: bysiinas | 1750: byílinas		Item tunicas ⟦byssinas⟧ opere textili Aharoni et ejus
+Exod.39.27	base-only	reading	filiis	1738: hliis	1750	opere textili Aharoni et ejus ⟦filiis⟧
+Exod.39.28	base-only	division	byssinam	1738: by sfinam	1750	et infulam ⟦byssinam⟧ et capitalia ad redimiendum et
+Exod.39.28	base-only	division	capitalia	1738: capi talia	1750	et infulam byssinam et ⟦capitalia⟧ ad redimiendum et linea subligacula
+Exod.39.28	base-only	division	et linea	1738: etlinea	1750	byssinam et capitalia ad redimiendum ⟦et linea⟧ subligacula ex bysso bilice
+Exod.39.29	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ cincturam ex bysso bilice hyacintho
+Exod.39.29	base-only	reading	iterato	1738: itcrato	1750	bilice hyacintho purpura et cocco ⟦iterato⟧ opere polymito sicut Mosi Jova
+Exod.39.29	base-only	reading	praeceperat	1738: prarceperar	1750	opere polymito sicut Mosi Jova ⟦praeceperat⟧
+Exod.39.30	base-only	reading	caelatura	1738: catlatura | 1750: caclatura		ex auro puro in qua ⟦caelatura⟧ sigillari inscribebant JOVAE SACRUM
+Exod.39.31	base-only	edge	Eam	1738: i Earn	1750	caelatura sigillari inscribebant JOVAE SACRUM ⟦Eam⟧ vitta hyacinthina infulae superne adligabant
+Exod.39.31	base-only	reading	infulae	1738: infulx		Eam vitta hyacinthina ⟦infulae⟧ superne adligabant sicut Mosi Jova
+Exod.39.31	base-only	reading	praeceperat	1738: prxceperat	1750	superne adligabant sicut Mosi Jova ⟦praeceperat⟧
+Exod.39.32	base-only	reading	perfectum	1738: perfedhim	1750	Ita ⟦perfectum⟧ est omne opus tabernaculi tentorii
+Exod.39.32	base-only	spelling	Israelitae	1738: Israelite	1750	opus tabernaculi tentorii oracularis feceruntque ⟦Israelitae⟧ plane quemadmodum Mosi Jova praeceperat
+Exod.39.32	base-only	reading	praeceperat	1738: prae | 1738: prae ceperat ettabernaculum	1750	Israelitae plane quemadmodum Mosi Jova ⟦praeceperat⟧
+Exod.39.33	base-only	reading	et tabernaculum	1738: ceperat ettabernaculum	1750	⟦et tabernaculum⟧ ad Mosem attulerunt tentorium et
+Exod.39.33	base-only	reading	omne	1738: ouine	1750	ad Mosem attulerunt tentorium et ⟦omne⟧ ejus instrumentum uncos asseres repagula
+Exod.39.33	base-only	division	repagula	1738: repa gula	1750	omne ejus instrumentum uncos asseres ⟦repagula⟧ columnas bases
+Exod.39.34	base-only	reading	tegumentum	1738: tegumentuin | 1750: tegumcn tum		⟦tegumentum⟧ ex pellibus arietum rubro tinctis
+Exod.39.34	base-only	reading	tinctis	1738: tinclis	1750	tegumentum ex pellibus arietum rubro ⟦tinctis⟧ tegumentum ex melium pellibus siparium
+Exod.39.34	base-only	division	pellibus	1738: pel libus	1750	rubro tinctis tegumentum ex melium ⟦pellibus⟧ siparium obtendendum
+Exod.39.35	base-only	reading	vectes	1738: vecles	1750	arcam oraculi et ejus ⟦vectes⟧ atque propitiatorium
+Exod.39.36	base-only	division	adposititios	1738: adpo fititios | 1750: appofititios		et omne ejus instrumentum panesque ⟦adposititios⟧
+Exod.39.37	base-only	reading	lucernarium	1738: lucernaiSrium	1750	ordinarias et omne instrumentum oleumque ⟦lucernarium⟧
+Exod.39.38	base-only	reading	unctorium	1738: vn korium | 1750: vnétorium		aram auratam unguentum ⟦unctorium⟧ suffimentum odoratum aulaeum ostiarium tabernaculi
+Exod.39.39	base-only	edge	instrumentum labrum	1738: inftrumtntum olabrum cumfuofcapo atriivcla columnas	1750	focum aereum vectesque et omne ⟦instrumentum labrum⟧ cum suo scapo atrii vela
+Exod.39.40	base-only	reading	atrii aulaeum ostiarium	1738: atrit auIxum oftiariuw		vela columnas cum suis basibus ⟦atrii aulaeum ostiarium⟧ funes paxillos denique omnia ad
+Exod.39.41	base-only	reading		1738: S	1750	Tum ⟦⟧ autem vestes supervacaneas ad ministrandum
+Exod.39.42	correct	division	quemadmodum	1738,1750: quemadmo dum		Breviter rem omnem ⟦quemadmodum⟧ Mosi Jova praeceperat sic fecerunt
+Exod.39.42	base-only	reading	sic	1738: fie	1750	omnem quemadmodum Mosi Jova praeceperat ⟦sic⟧ fecerunt Israelitae
+Exod.39.42	base-only	reading	Israelitae	1738: Isradita | 1750: tom vai te QN MI ductos aqua perluito Cap EXODVS à runtlfraélitae		Mosi Jova praeceperat sic fecerunt ⟦Israelitae⟧
+Exod.39.43	base-only	division	videret	1738: vi deret	1750	Itaque quum ⟦videret⟧ Moses universum opus ab illis
+Exod.39.43	base-only	reading	universum	1738: vniuerfuni	1750	Itaque quum videret Moses ⟦universum⟧ opus ab illis ad Jovae
+Exod.39.43	base-only	reading	Jovae praescriptionem	1738: Ioua pracfenptionem		universum opus ab illis ad ⟦Jovae praescriptionem⟧ esse accuratum bene eis precatus
+Exod.39.43	base-only	reading	bene eis	1738: beneeis	1750	ad Jovae praescriptionem esse accuratum ⟦bene eis⟧ precatus est
+Exod.40.1	base-only	reading	sic	1738: fie	1750	Deinde Jova ⟦sic⟧ Mosi praecepit
+Exod.40.2	base-only	edge		1738: r	1750	Deinde Jova sic Mosi praecepit ⟦⟧ prima die mensis primi tabernaculum
+Exod.40.2	base-only	reading	mensis primi tabernaculum	1738: menfisprimi taber a nacukim	1750	prima die ⟦mensis primi tabernaculum⟧ oracularis tentorii erigito
+Exod.40.3	base-only	reading	collocato	1738: coiIo cato | 1750: collo cato		Ibi arcam oraculi ⟦collocato⟧ et propitiatorio tegito
+Exod.40.4	base-only	reading	Tum	1738: Turn	1750	⟦Tum⟧ mensam suo adparatu instructam et
+Exod.40.4	base-only	reading	instructam	1738: inftruclam	1750	Tum mensam suo adparatu ⟦instructam⟧ et candelabrum inferto ejusque lucernas
+Exod.40.5	base-only	reading		1738: j	1750	Altare auratum ⟦⟧ ad suffitionem ante arcam oraculi
+Exod.40.5	base-only	reading	suffitionem	1738: fufHtionem	1750	Altare auratum ad ⟦suffitionem⟧ ante arcam oraculi statuito Aulaeum
+Exod.40.5	base-only	reading	Aulaeum in introitu	1738: Aulxuminintroitu	1750	suffitionem ante arcam oraculi statuito ⟦Aulaeum in introitu⟧ tabernaculi ponito
+Exod.40.6	base-only	reading	victimariam	1738: viclimari am		Aram ⟦victimariam⟧ ante ostium tabernacularis oraculi locato
+Exod.40.7	base-only	division	tabernaculum	1738: ta bernaculum		Inter oraculare ⟦tabernaculum⟧ et aram labrum ponito eo
+Exod.40.7	base-only	reading	labrum	1738: labium	1750	Inter oraculare tabernaculum et aram ⟦labrum⟧ ponito eo aquam imponito
+Exod.40.8	base-only	reading		1738: S		Atrium ⟦⟧ circumponito atrii ostium aulaeo obtendito
+Exod.40.8	base-only	reading	aulaeo	1738: aulxo	1750	Atrium circumponito atrii ostium ⟦aulaeo⟧ obtendito
+Exod.40.9	base-only	reading	unctorium sumito	1738: vnclorium fu p mito		Oleum ⟦unctorium sumito⟧ eo tabernaculum et omnia quae
+Exod.40.9	base-only	reading	quae	1738: qua	1750	sumito eo tabernaculum et omnia ⟦quae⟧ in eo sunt ungito idque
+Exod.40.10	base-only	division	victimariam	1738: vi ctimariam | 1750: vi et imariam		Aram quoque ⟦victimariam⟧ cum omni suo instrumento ungito
+Exod.40.10	base-only	reading	sacrosancta	1738: facrofantta		et consecrato ut sit ara ⟦sacrosancta⟧
+Exod.40.12	base-only	division	Tum Aharonem et	1738: TumAharonemet		⟦Tum Aharonem et⟧ ejus filios ad ostium tabernaculi
+Exod.40.12	base-only	reading		1738: I	1750	Aharonem et ejus filios ad ⟦⟧ ostium tabernaculi oracularis adductos aqua
+Exod.40.12	base-only	reading	adductos	1738: addu et os		filios ad ostium tabernaculi oracularis ⟦adductos⟧ aqua perluito
+Exod.40.12	base-only	reading	perluito	1738: pcrluito		ostium tabernaculi oracularis adductos aqua ⟦perluito⟧
+Exod.40.14	correct	division	tunicis	1738,1750: tuni cis		Itemque ejus filios adhibitos ⟦tunicis⟧ induito
+Exod.40.15	base-only	reading	inungito	1738: in lj ungito	1750	et sicut patrem ⟦inungito⟧ ut mihi sacerdotes sint ut
+Exod.40.15	base-only	reading	sint	1738: lint	1750	patrem inungito ut mihi sacerdotes ⟦sint⟧ ut ea unctione in sacerdotium
+Exod.40.15	base-only	reading	unctione	1738: vnclione | 1750: vn et ione		mihi sacerdotes sint ut ea ⟦unctione⟧ in sacerdotium inaugurentur aeternum et
+Exod.40.15	base-only	reading	inaugurentur	1738: inauguirentur	1750	ut ea unctione in sacerdotium ⟦inaugurentur⟧ aeternum et posteris eorum cessurum
+Exod.40.15	base-only	edge	eorum cessurum	1738: eortnu ces LEVITICVS Cap i Itfcesfurum	1750	inaugurentur aeternum et posteris ⟦eorum cessurum⟧ Haec omnia Moses ex mandato
+Exod.40.17	base-only	reading	mensis	1738: menu s	1750	Igitur primo die ⟦mensis⟧ primi anno secundo erectum est
+Exod.40.17	base-only	reading	erectum	1738: ereclum		die mensis primi anno secundo ⟦erectum⟧ est tabernaculum
+Exod.40.17	base-only	reading	tabernaculum	1738: taberna | 1738: taberna culum Primumtabernaculum		primi anno secundo erectum est ⟦tabernaculum⟧
+Exod.40.18	base-only	reading	Primum tabernaculum	1738: culum Primumtabernaculum	1750	⟦Primum tabernaculum⟧ erexit bases collocavit assamenta et
+Exod.40.18	base-only	reading	collocavit	1738: collocatiit	1750	Primum tabernaculum erexit bases ⟦collocavit⟧ assamenta et repagula digessit columnas
+Exod.40.19	base-only	edge	Jova praeceperat Tum	1738: loua pr tceperat ao Turn	1750	tegumentum superimposuit sicut ei ⟦Jova praeceperat Tum⟧ oraculo in arcam illato vectes
+Exod.40.20	base-only	division	vectes	1738: vec tes		Tum oraculo in arcam illato ⟦vectes⟧ arae accommodavit et eam insuper
+Exod.40.20	base-only	reading	eam	1738: earn	1750	illato vectes arae accommodavit et ⟦eam⟧ insuper propitiatorio texit
+Exod.40.20	base-only	reading	propitiatorio texit	1738: II propitiatoriotexit	1750	arae accommodavit et eam insuper ⟦propitiatorio texit⟧
+Exod.40.21	base-only	division	illatam sipario obvelavit	1738: illatamfiparioobuelauit	1750	et in tabernaculum ⟦illatam sipario obvelavit⟧ sicut ei Jova praeceperat
+Exod.40.21	base-only	reading	ei Jova	1738: azei loua	1750	tabernaculum illatam sipario obvelavit sicut ⟦ei Jova⟧ praeceperat
+Exod.40.22	base-only	division	septemtrionali	1738: feptemtrio nali | 1750: feptemtricnali		in tabernaculo oraculi parte tabernaculi ⟦septemtrionali⟧ constituit
+Exod.40.24	base-only	division	meridiana	1738: meri diana	1750	mensae posuit in tabernaculi parte ⟦meridiana⟧
+Exod.40.25	base-only	reading	Jova	1738: loua	1750	ante Jovam accendit sicut ei ⟦Jova⟧ praeceperat
+Exod.40.26	base-only	edge		1738: a	1750	accendit sicut ei Jova praeceperat ⟦⟧ Aram inauratam in eodem tabernaculo
+Exod.40.26	base-only	reading	tabernaculo	1738: tabernaa culo | 1750: taberna culo		Aram inauratam in eodem ⟦tabernaculo⟧ ante siparium posuit
+Exod.40.27	base-only	reading	suffimine suffivit	1738: fuffiminefufEuit	1750	et in ea odorato ⟦suffimine suffivit⟧ sicut ei Jova praeceperat
+Exod.40.27	base-only	reading		1738: a		ea odorato suffimine suffivit sicut ⟦⟧ ei Jova praeceperat
+Exod.40.27	base-only	reading	Jova	1738: loua		odorato suffimine suffivit sicut ei ⟦Jova⟧ praeceperat
+Exod.40.29	base-only	reading	victimariam	1738: vieHmariam	1750	Aram ⟦victimariam⟧ in introitu oracularis tabernaculi collocavit
+Exod.40.29	base-only	division	et ferto	1738: etferto		et in ea solido sacrificio ⟦et ferto⟧ operatus est sicut ei Jova
+Exod.40.29	base-only	reading	Jova praeceperat	1738: loua prxceperat	1750	ferto operatus est sicut ei ⟦Jova praeceperat⟧
+Exod.40.30	base-only	reading	oraculorum	1738: oracuiorum	1750	Labrum inter ⟦oraculorum⟧ tabernaculum et aram statuit et
+Exod.40.31	base-only	reading	manus	1738: mantis	1750	et Aharon Aharonisque filii et ⟦manus⟧ et pedes suos lavarent
+Exod.40.32	correct	division	tabernaculum	1738,1750: tabernacu lum		vel in ⟦tabernaculum⟧ oraculorum intraturi vel ad aram
+Exod.40.32	base-only	reading	Jova	1738: loua	1750	ad aram accessuri sicut ei ⟦Jova⟧ praeceperat
+Exod.40.33	base-only	division	et aram cinxit	1738: etaramcinxit		Atrio etiam tabernaculum ⟦et aram cinxit⟧ ejusque portam aulaeo obtendit Postquam
+Exod.40.33	base-only	reading	portam aulaeo	1738: portamaulxo | 1750: portem aulaco		tabernaculum et aram cinxit ejusque ⟦portam aulaeo⟧ obtendit Postquam negotium Moses confecit
+Exod.40.34	base-only	division	oraculorum	1738: oraculo rum	1750	nubes tabernaculum ⟦oraculorum⟧ obduxit et tantus Jovae splendor
+Exod.40.34	base-only	reading	replevit	1738: repletiit	1750	et tantus Jovae splendor tabernaculum ⟦replevit⟧ ut propter eum splendorem et
+Exod.40.35	base-only	edge	eo penetrare non posset	1738: eopenetrarenonpos fet		Moses ⟦eo penetrare non posset⟧ Ea nubes quandocumque sese a
+Exod.40.36	base-only	reading	quandocumque	1738: quandoctmique		Ea nubes ⟦quandocumque⟧ sese a tabernaculo in altum
+Exod.40.36	base-only	reading		1738: t	1750	Ea nubes quandocumque sese ⟦⟧ a tabernaculo in altum subvehebat
+Exod.40.36	base-only	reading	Israelitae	1738: Israelitac	1750	a tabernaculo in altum subvehebat ⟦Israelitae⟧ castra movere semper solebant quoties
+Exod.40.36	base-only	division	faciebant	1738: facie bant	1750	movere semper solebant quoties iter ⟦faciebant⟧
+Exod.40.37	base-only	division	movebant	1738: moue bant	1750	Ea autem non adscendente non ⟦movebant⟧ sed diem quo die attolleretur
+Exod.40.37	base-only	reading	exspectabant	1738: exfpeclabant	1750	sed diem quo die attolleretur ⟦exspectabant⟧
+Exod.40.38	base-only	reading		1738: J		Jovae nubes tabernaculo interdiu incubabat ⟦⟧ noctu ignis in oculis totius

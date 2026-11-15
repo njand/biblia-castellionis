@@ -9,7 +9,7 @@ Old Testament work (`TXT/3`); with Genesis it makes milestone M4.
 - **Stage 1**: `text/draft/EXO.usfm`, Wikisource's Exodus 1–20 with the BSB's paragraphs, renumbered to the KJV, 545
   verses, every chapter at the KJV count. Wikisource has every chapter, but had run 5, 6, 12 and 19 together with
   inline verse numbers; the parser now splits them (`pipeline/wikisource.py`). Castellio's numbering in 5–7 is not the
-  KJV's: 18 edits in `data/versification/Exod.draft.edits.tsv`, including a new `opens` edit (his 5:25 is the KJV's
+  KJV's: 18 edits in `data/versification/Exod1-20.draft.edits.tsv`, including a new `opens` edit (his 5:25 is the KJV's
   6:1, so the chapter break moves back) and two mid-sentence chapter breaks (KJV 7:25 and 12:51, `\nb`). Details in
   the stage-2 file.
 - **Stage 2**: `data/review/exod1-20-stage2.md`, **120 corrections** against the base, the 1738 Leipzig edition: 78

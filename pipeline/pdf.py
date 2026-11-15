@@ -48,10 +48,10 @@ ADDITIONS = r"""
 % from either end of a word (de-inde, lo-quuntur), and 40% of the column lines ended in a hyphen, up to 13 in a row.
 % At least three letters on each side, a moderate cost per hyphen and a high one for two in a row: 24%, at most 7,
 % the spacing a little looser (set as the document begins, after babel has set its own minimums). Under LuaLaTeX,
-% whose font expansion takes up the slack, the cost per hyphen is raised from 300 to 1000: 17% of the lines end in
-% a hyphen, with about a quarter of Tectonic's loose lines (engine() below; HUMAN.md has the numbers).
+% whose font expansion takes up the slack, the cost per hyphen is raised from 300 to 2000 (Nathan, 2026-11-14): 14% of the lines end in
+% a hyphen, a little looser than at 1000, far tighter than Tectonic (engine() below; HUMAN.md has the numbers).
 \setlength{\emergencystretch}{3em}
-\AtBeginDocument{\lefthyphenmin=3 \righthyphenmin=3 \hyphenpenalty=1000 \exhyphenpenalty=1000
+\AtBeginDocument{\lefthyphenmin=3 \righthyphenmin=3 \hyphenpenalty=2000 \exhyphenpenalty=2000
   \doublehyphendemerits=300000 }
 \urlstyle{same}                     % web addresses in the text face, not typewriter type
 \newcommand{\Argumentum}[1]{\par\medskip{\small\itshape #1\par}\smallskip}
@@ -191,7 +191,7 @@ def engine(name):
     and running heads), whose font expansion (microtype) evens the narrow columns' spacing; else Tectonic (XeTeX:
     protrusion only); else pdfLaTeX, with the preamble's own Palatino and TeX Greek fonts. Measured 2026-11-12 on
     the whole Bible (HUMAN.md): Tectonic, 23.9% of the column lines ending in a hyphen, 962 underfull, 4 overfull;
-    LuaLaTeX with the same settings 21.4%, 157, 0; with the hyphen penalty raised to 1000, 17.3%, 215, 0."""
+    LuaLaTeX with the same settings 21.4%, 157, 0; hyphen penalty 1000, 17.3%, 215, 0; 2000 (now), 13.7%, 241, 0."""
     lualatex, tectonic = shutil.which("lualatex"), shutil.which("tectonic")
     latexmk, pdflatex = shutil.which("latexmk"), shutil.which("pdflatex")
     flags = ["-interaction=nonstopmode", "-halt-on-error"]

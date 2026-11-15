@@ -2,6 +2,36 @@
 
 ## Now
 
+- **The New Testament as printed: every word now read on 1573's pages** (2026-11-15, your "Yes, read them").
+  Nothing committed. The 1,655 words the OCR had not read were read on the page (`data/review/nt-orig-accents.md`,
+  start there); the 27 drafts in `text/orig/draft/` are rebuilt. The 20 slips you decided (`nt-readings-unread.md`
+  all, `nt-readings-1573-1556.md` all but John 14:16, which keeps *vērō*) are applied to `text/` and the drafts
+  rebuilt; John 4:29 *fortassis* after checking the classical evidence (in the file). **Approved** (your "Approve
+  them"): the 27 drafts are now `text/orig/<book>.usfm`. Nothing left to decide here.
+
+- **The Old Testament printed text works as the New's; Exodus 21–30 through stages 1–5; a plan for 31–40**
+  (2026-11-14, your request). Nothing committed.
+  - **Genesis and Exodus 1–20 as printed (1738), proposed for approval**: `data/review/ot-orig-gen-exod1-20.md`
+    (start there). 1738 is read from its hOCR, so each word has its leaf; **1738's own paragraphs** are read from its
+    indents (83 inside Genesis's chapters, 44 in Exodus 1–20, every one checked on the page); **each verse's leaf**
+    is recorded and the site's banner links to the page at the Internet Archive; **the 273 doubtful words are read**
+    (184 were *Tum*, made doubtful by two chapters set in capitals; the 78 *cum* are 51 *quum*, 27 *cum* on the
+    page), with 92 spelling-prone words (*adpellauit*, *herus*, *intelligam* …) and the near misses: 189 rows in
+    `data/decisions/{Gen,Exod}.orig.tsv`. A random sample of the words still not read in the OCR (about 7%) found 2
+    of 31 wrong: roughly 100–170 such words may still differ from the page. **Your calls**: approve as is, or have
+    the rest read first; and four readings for the reading edition with Apply lines (Gen 18:6 *depstīciōs*, 43:29
+    *locūtī fuistis*, Exod 18:5 *Cumque*, 20:24 *cæspiticium*).
+  - **Exodus 21–30**: `data/review/exod21-30-stages3-5.md` (start there), `-stage2.md` (33 corrections against 1738,
+    each read on the page; 22:5 a difference between printings), `-ch21.md` … `-ch30.md` (343 verses), preview
+    `text/draft/EXO.preview.usfm`, printed text `exod21-30-orig.md`. **Waiting for your approval**, and one question
+    first: three approved rules (*æreis → aeriis* …) turn the bronze bases of 27:10–18 into “airy” ones.
+  - **Exodus 31–40** (not on Wikisource): `data/review/exod31-40-plan.md`, a proposed route (a draft from 1738's own
+    OCR with 1750 and 1726 voting, then every column read on the page). Tested on 21–30, the voting alone gets 84% of
+    words right. **Waiting for your answer before anything is drafted.**
+  - Tools: `archive.witness`, `archive.indents`, `archive.sheet`, `orig --sheets`, `orig` on a draft's chapters after
+    stage 2, ¶ and `#n` rows in the orig decision files; tests added. `Exod.draft.edits.tsv` of 1–20 kept as
+    `Exod1-20.draft.edits.tsv`.
+
 - **Castellio's text as printed: the New Testament approved (decision 61), the Old drafted** (2026-11-13, decision 57; now
   stage 2b of the pipeline, PLAN.md §4). `python -m pipeline orig` builds `text/orig/draft/<book>.usfm` and
   `data/review/<book><chapters>-orig.md` for all 27 NT books (from 1573) and Genesis and Exodus 1–20 (from 1738).
@@ -281,7 +311,7 @@
 - **Exodus 1–20 is settled** (2026-11-09; decision 35): approved by you "for now", in `text/EXO.usfm` (545 verses, every
   chapter at the KJV count), gold rebuilt (`data/gold/Exod.tsv`), draft removed (it is in git). Record:
   `data/review/exod1-20-stages3-5.md`, `-stage2.md`, `-ch01.md` … `-ch20.md`, `data/decisions/Exod.*.tsv`,
-  `data/versification/Exod.draft.edits.tsv`.
+  `data/versification/Exod1-20.draft.edits.tsv`.
 - **Applied 2026-11-09** (your decision): the nine markings the Acts and Exodus readers found wrong in your settled
   text, `data/review/settled-fixes-acts.md` (Gen 6:16 *contignātiōne*, Gen 37:4 *amīcē*, Luke 2:13 *repente*, Matt 4:24
   *Syriam*) and `settled-fixes-exod.md` (Gen 8:5 *mēnsis*, Gen 13:9 and Luke 21:23 *regiō*, Gen 22:14 *ā Jōvā*, Gen 24:8
@@ -404,6 +434,14 @@
 | 60 | 2026-11-13 | **The tithe: *decuma*, *decumō*** (`data/review/decuma.md`, applied): the noun has Golden Age *decum-* 165 (Cicero 158, the Verrines) against *decim-* 8; the verb has no Golden Age example either way and follows its noun (decision 18; Gaffiot *dĕcŭmō*; 1573 *decumatis*). Six places (Luke 18:12, Matt 23:23, Luke 11:42, Heb 7:5, 6, 9); the verb's forms are approved rules (the noun *decimās* is left to review: it could be the ordinal). **The website switches between this edition and Castellio's text as printed** (PLAN.md §7a item 3): *ā / 1573* on every chapter with a printed text, replacing *ā / a*. |
 | 61 | 2026-11-13 | **Castellio's text as printed approved for the New Testament** ("Yes, approve NT"): the 27 drafts moved to `text/orig/<book>.usfm`, their review files marked approved. Like `text/`, `text/orig/` is never rewritten by code (`pipeline orig` refuses an approved book; `--force` writes only a draft beside it). Every NT chapter on the site now has the *ā / 1573* switch. Genesis and Exodus 1–20 stay drafts (273 words to read on 1738's leaves; paragraphs not read). |
 | 62 | 2026-11-14 | **The text choice on the site, redesigned** (Nathan: "What do you think would be a better UX design choice?", then "Yes, build it"; the labels from his notes that *Edition* was vague and *Classical spelling* too narrow): two radio buttons under the chapter's title, *Edited text | As printed, 1573*, in place of the *ā / 1573* button; a banner over the printed text with the 1573 page image (MDZ) and the way back; and the printed text in the Parallel menu. |
+| 63 | 2026-11-14 | ***āerius* only beside *volucris*** ("Yes, replace them"): the three approved word rules *æreæ, æreas, æreis → aeri-* (learned from the birds of the air) also turned *æreus* "of bronze" into "airy" (Exod 27:10, 17, 18). Rejected, and replaced by seven approved phrase rules (*volucribus æreis*, *æreæ volucres* …). In all 30 of Wikisource's places the air sense stands beside *volucris* 13 times, the bronze sense never (`data/review/exod21-30-stages3-5.md`). |
+| 64 | 2026-11-14 | **Readings from the 1738 printed text, checked in the earlier prints** (Nathan: "Go with all your recommendations except … check the PDF prints"; `data/review/ot-orig-gen-exod1-20.md`, applied): Gen 18:6 *depstīciōs* (1554, 1573, 1738 *depsititios*, Castellio's word on his participle *depsitus*; its classical form as Cato 74 *panem depsticium* and his own *Dialogi sacri*), 43:29 *locūtī fuistis*. Exod 18:5 stays *Cum hīs*: 1554 and 1573 print *Cum his*, so 1738's *Cumque* is its own. Exod 20:24 *cæspitium*, Castellio's adjective "of turf": 1554 *cespitium*, 1573, 1726 and 1738 *cæspitium* (Wikisource's *cæspitum* a slip). Exod 6:22 *Sethris*, 15:6 *fortissimē* kept. |
+| 65 | 2026-11-14 | ***Inquit* set off by commas, never parentheses**, the quotation closed and reopened around it (`data/review/inquit-vescor.md`): Exod 11:8, 14:4 applied. The 12 New Testament places (7 in quoted poetry) are drafted there and wait for your Decision, since you were told of two places only. ***vēscēris***, the future, where the sense is a command or prediction: Gen 2:16, 2:17, 3:18 applied, Exod 23:15. |
+| 66 | 2026-11-14 | **Exodus 21–30 forms**: *ēphōd-* long in all 13 places (Gaffiot's *ĕphŏdus* is another word, Greek ἔφοδος "principle"; so by the Hebrew אֵפוֹד, as Nathan directed); *porrectītius* short e (from *porriciō*, Castellio's verb for the rite, 29:24, 26); *hīn-* long (Septuagint εἵν, Hebrew *hîn*; Gaffiot silent); *lābrum* the basin. |
+| 67 | 2026-11-14 | **No chapter summaries in the printed text** (Nathan: "Don't print any chapter summaries"), as none in the reading edition (decision 50). **The printed text keeps Castellio's accents** (*verò*, *quòd*, *à*): 1573's; 1738 prints none (seen on its leaves 76 and 132). **PDF hyphen cost 2000** (14% of lines end in a hyphen; `pipeline/pdf.py`). |
+| 68 | 2026-11-14 | **Before approval, every word of the 1738 printed text not read in its OCR is read on the page** (Genesis, Exodus 1–20: about 2,500 words), as the New Testament was held to decision 58. **Exodus 31–40** from 1738's own OCR, 1750 and 1726 voting, every column read on the page; checked first on Exodus 21–23 against the Wikisource route; 1738's chapter summaries left out. |
+| 69 | 2026-11-14 | **Exodus 21–30 settled** (your recommendations accepted; B7: after an independent proofread of all 343 verses, whose 16 problems were fixed first, `data/review/exod21-30-stages3-5.md`): in `text/EXO.usfm` (888 verses with 1–20), gold rebuilt, the draft removed (not in git; a copy of the stage-2 draft was kept for the 31–40 check). Its printed text (1738) stays a draft until its unread words are read, as Genesis's. |
+| 70 | 2026-11-14 | **Classical number forms in the edited text** (Nathan: "Always use the more classical number forms, i.e. undeviginti, not novemdecim. This only applies to the edited text, not the raw original print"): Gen 11:25 keeps *ūndēvīgintī* against all three prints' *novemdecim/novendecim*; the printed text keeps the print's. Which other numbers it reaches is in `data/review/number-forms.md`. |
 
 ## How to run
 

@@ -22,6 +22,7 @@
   review apply FILE… [--write]  apply the accepted items (or --items N…, or --all) to text/ (or text/draft/, or
                                 --to a working copy); a dry run unless --write; rebuilds data/gold
   draft BOOK CH-CH              stage 1: Wikisource's chapters → text/draft/<USFM>.usfm (BSB paragraphs; never overwrites)
+                                (--from-ocr: 1738's lines read on the page, data/witnesses/read-1738/, ocrdraft.py)
   collate BOOK CH-CH [--base B] stage 2: every witness against the draft (or settled, wikisource, a USFM file), verse by
                                 verse → data/calibration/<osis><CH-CH>-collation.tsv (places, sorted by kind)
   propose BOOK CH-CH [--rates]  stages 3–5 on an unmarked draft, one review item per verse (data/decisions/ for the
@@ -228,6 +229,9 @@ def main(argv):
     drf = sub.add_parser("draft")
     drf.add_argument("name")
     drf.add_argument("chapters", help="e.g. 6-16")
+    drf.add_argument("--from-ocr", action="store_true",
+                     help="from 1738's lines read on the page (data/witnesses/read-1738/<osis><chapters>.tsv, "
+                          "pipeline/ocrdraft.py), for chapters Wikisource lacks")
     col = sub.add_parser("collate")
     col.add_argument("name")
     col.add_argument("chapters", help="e.g. 14-28")
@@ -239,6 +243,9 @@ def main(argv):
     org.add_argument("--force", action="store_true",
                      help="build a draft even where text/orig/<book>.usfm is approved (for comparison; the approved "
                           "file and its review are never touched)")
+    org.add_argument("--sheets", action="store_true",
+                     help="only draw contact sheets of the doubt words on the page images (Old Testament, 1738), "
+                          "to read them into data/decisions/<osis>.orig.tsv")
     org.add_argument("--pages", action="store_true",
                      help="only record each verse's page (data/orig/<osis>.pages.tsv), for the site's page links; "
                           "allowed for an approved book")
@@ -311,11 +318,19 @@ def main(argv):
         first, _, last = args.chapters.partition("-")
         chapters = range(int(first), int(last or first) + 1)
         approved = orig.approved_path(book)
+        if args.sheets:
+            witness = orig.base_witness(book.osis)
+            built = orig.build(book.osis, chapters, witness, orig.testament_lexicon(book.testament, witness))
+            for path, items in orig.sheets(book, built, witness):
+                print(f"→ {path.relative_to(paths.ROOT).as_posix()}")
+                for label, *_ , leaf, line in items:
+                    print(f"   {label} (line {line})")
+            return 0
         if args.pages:
             witness = orig.base_witness(book.osis)
             built = orig.build(book.osis, chapters, witness, {})
             written = orig.write_pages(book, built)
-            print(f"→ {written.relative_to(paths.ROOT).as_posix()}" if written else "no pages for this book (1738 has none)")
+            print(f"→ {written.relative_to(paths.ROOT).as_posix()}" if written else "no pages for this book")
             return 0
         if approved.exists() and not args.force:
             raise SystemExit(f"{approved.relative_to(paths.ROOT).as_posix()} is approved: it is never rewritten by code. "
@@ -324,7 +339,10 @@ def main(argv):
         built = orig.build(book.osis, chapters, witness, orig.testament_lexicon(book.testament, witness))
         target = orig.path(book)
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(orig.usfm(book, built, orig.header_lines(book)), encoding="utf-8", newline="\n")
+        text = orig.usfm(book, built, orig.header_lines(book))
+        if target.exists():                               # other chapters' drafts stay (Exodus 1–20 beside 21–30)
+            text = orig.merge_usfm(target.read_text(encoding="utf-8"), text)
+        target.write_text(text, encoding="utf-8", newline="\n")
         orig.write_pages(book, built)
         span = f"{chapters.start}-{chapters.stop - 1}" if len(chapters) > 1 else str(chapters.start)
         review_path = paths.DATA / "review" / f"{book.osis.lower()}{span}-orig{'-draft' if approved.exists() else ''}.md"
@@ -342,6 +360,13 @@ def main(argv):
             if target.exists():
                 raise SystemExit(f"{target.relative_to(paths.ROOT).as_posix()} exists: a draft is never overwritten")
             target.parent.mkdir(parents=True, exist_ok=True)
+            if args.from_ocr:
+                from pipeline import ocrdraft
+                text, source = ocrdraft.draft_from_ocr(book.osis, chapters)
+                target.write_text(text, encoding="utf-8", newline="\n")
+                print(f"→ {target.relative_to(paths.ROOT).as_posix()}: {source.relative_to(paths.ROOT).as_posix()} "
+                      "(1738 read on the page), BSB paragraphs")
+                return 0
             target.write_text(collate.draft_usfm(book.osis, chapters), encoding="utf-8", newline="\n")
             print(f"→ {target.relative_to(paths.ROOT).as_posix()}: Wikisource {book.osis} {args.chapters}, BSB paragraphs")
             return 0

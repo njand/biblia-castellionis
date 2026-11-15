@@ -663,9 +663,11 @@ JS = """(function () {
 
 
 # The base edition each Testament is printed from (decision 57): its year and where it was printed, and, for 1573, the
-# page images (MDZ's viewer takes the canvas number; data/orig/<osis>.pages.tsv holds each verse's).
+# page images (data/orig/<osis>.pages.tsv holds each verse's page: MDZ's viewer takes 1573's canvas number;
+# archive.org's takes n<leaf − 1> for 1738's hOCR leaf, as archive.PAGE_IMAGE).
 PRINTED = {"novum": ("1573", "Basel"), "vetus": ("1738", "Leipzig")}
-VIEWER = {"novum": "https://www.digitale-sammlungen.de/en/view/bsb10141277?page={canvas}"}
+VIEWER = {"novum": ("https://www.digitale-sammlungen.de/en/view/bsb10141277?page={canvas}", "MDZ, Munich"),
+          "vetus": ("https://archive.org/details/bibliasacraexseb01cast/page/n{n}/mode/1up", "Internet Archive")}
 
 
 def chapter_pages(book, chapter, pages):
@@ -676,15 +678,17 @@ def chapter_pages(book, chapter, pages):
 
 
 def printed_banner(book, chapter, pages):
-    """The line over the printed text: what it is, the page image (1573), and the way back to the edition."""
+    """The line over the printed text: what it is, the page image (1573 at MDZ, 1738 at the Internet Archive), and
+    the way back to the edition."""
     year, place = PRINTED[book.info.testament]
     parts = [f"Castellio’s text as printed, {place} {year}"]
     span = chapter_pages(book, chapter, pages)
     viewer = VIEWER.get(book.info.testament)
     if span and viewer:
         label = "see the page" if span[0] == span[1] else "see the pages"
-        parts.append(f'<a href="{viewer.format(canvas=span[0])}" target="_blank" rel="noopener" '
-                     f'title="The page images of the {year} edition (MDZ, Munich)">{label}</a>')
+        url, host = viewer
+        parts.append(f'<a href="{url.format(canvas=span[0], n=span[0] - 1)}" target="_blank" rel="noopener" '
+                     f'title="The page images of the {year} edition ({host})">{label}</a>')
     parts.append('<a href="#" class="to-edition">back to the edited text</a>')
     return f'<p class="printed-banner">{" · ".join(parts)}</p>'
 

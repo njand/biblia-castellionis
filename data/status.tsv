@@ -69,26 +69,26 @@ Exod.17	16	settled	usfm	16	-		settled 2026-11-09 (decision 35): data/review/exod
 Exod.18	27	settled	usfm	26	-		settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
 Exod.19	25	settled	usfm	24	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
 Exod.20	26	settled	usfm	25	-	1	settled 2026-11-09 (decision 35): data/review/exod1-20-stages3-5.md
-Exod.21	36	fetched	ocr	36	-		
-Exod.22	31	fetched	ocr	31	-		
-Exod.23	33	fetched	ocr	33	-		
-Exod.24	18	fetched	ocr	18	-		
-Exod.25	40	fetched	ocr	39	-	2	
-Exod.26	37	fetched	ocr	37	-		
-Exod.27	21	fetched	ocr	26	-		
-Exod.28	43	fetched	ocr	44	-		
-Exod.29	46	fetched	ocr	46	-		
-Exod.30	38	fetched	ocr	39	-		
-Exod.31	18	pending	ocr	-	-		
-Exod.32	35	pending	ocr	-	-		
-Exod.33	23	pending	ocr	-	-		
-Exod.34	35	pending	ocr	-	-		
-Exod.35	35	pending	ocr	-	-		
-Exod.36	38	pending	ocr	-	-		
-Exod.37	29	pending	ocr	-	-		
-Exod.38	31	pending	ocr	-	-		
-Exod.39	43	pending	ocr	-	-		
-Exod.40	38	pending	ocr	-	-		
+Exod.21	36	settled	ocr	36	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.22	31	settled	ocr	31	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.23	33	settled	ocr	33	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.24	18	settled	ocr	18	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.25	40	settled	ocr	39	-	2	2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.26	37	settled	ocr	37	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.27	21	settled	ocr	26	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.28	43	settled	ocr	44	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.29	46	settled	ocr	46	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.30	38	settled	ocr	39	-		2026-11-14: data/review/exod21-30-stages3-5.md
+Exod.31	18	corrected	ocr	-	-		
+Exod.32	35	corrected	ocr	-	-		
+Exod.33	23	corrected	ocr	-	-		
+Exod.34	35	corrected	ocr	-	-		
+Exod.35	35	corrected	ocr	-	-		
+Exod.36	38	corrected	ocr	-	-		
+Exod.37	29	corrected	ocr	-	-		
+Exod.38	31	corrected	ocr	-	-		
+Exod.39	43	corrected	ocr	-	-		
+Exod.40	38	corrected	ocr	-	-		
 Lev.1	17	fetched	ocr	17	-		
 Lev.2	16	fetched	ocr	16	-		
 Lev.3	17	fetched	ocr	17	-		

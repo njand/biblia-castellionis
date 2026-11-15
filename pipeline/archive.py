@@ -163,3 +163,195 @@ def fetch_crop(key, word, name):
               f"$c.Save('{path}', [System.Drawing.Imaging.ImageFormat]::Jpeg); $c.Dispose(); $b.Dispose(); $i.Dispose()")
     subprocess.run(["powershell", "-NoProfile", "-Command", script], check=True, capture_output=True)
     return path
+
+
+# ---------------------------------------------------------------- the edition read from its hOCR: leaves, lines, indents
+
+LINE_MARK = ""    # a private-use character: a token of its own in align.words, never in the OCR
+
+
+def witness(key):
+    """An align.Witness of an edition read from its hOCR (the same ABBYY words as its _djvu.txt, in the same order),
+    with each token's leaf (`canvas_at`, as mdz.witness) and line (`line_at`: (leaf, line)), and `line_start`:
+    {token index of a line's first word: (leaf, line)} for the lines that do not continue a hyphenated word.
+
+    Each line is marked in the text before cleaning and the marks are taken out after, so the tokens are exactly
+    those of the unmarked text. A line that continues a hyphenated word (conſi-|deret) has its mark after its first
+    word, so the hyphen is still joined."""
+    import itertools
+    import re
+    from pipeline import align
+    chunks, marks = [], []
+    hyphen = False
+    for leaf, words, (width, height) in pages(key):
+        # The catchword (the next page's first word, alone at the foot of the page on the right: 1738 leaf 106
+        # "Deinde") is not the text: left out, or the aligner pairs it in place of the word it repeats.
+        last = max((w.line for w in words), default=None)
+        tail = [w for w in words if w.line == last]
+        if len(tail) == 1 and tail[0].box[0] > 0.6 * width and tail[0].box[1] > 0.85 * height:
+            words = [w for w in words if w.line != last]
+        for line, group in itertools.groupby(words, key=lambda w: w.line):
+            texts = [w.text for w in group if w.text]     # the hOCR has empty words
+            if not texts:
+                continue
+            if hyphen and len(texts) > 1:
+                chunks.append(" ".join(texts[:1]) + " " + LINE_MARK + " " + " ".join(texts[1:]) + "\n")
+                marks.append((leaf, line, False))
+            elif hyphen:
+                chunks.append(texts[0] + "\n")
+            else:
+                chunks.append(LINE_MARK + " " + " ".join(texts) + "\n")
+                marks.append((leaf, line, True))
+            hyphen = bool(re.search(r"\w[-¬]\s*$", texts[-1]))
+    text = "".join(chunks)
+    marked = align.words(align.clean(text))
+    w = align.Witness(text.replace(LINE_MARK, ""))
+    w.canvas_at, w.line_at, w.line_start = [], [], {}
+    at, n = (marks[0][0], marks[0][1]), 0
+    for token, _ in marked:
+        if token == LINE_MARK:
+            leaf, line, starts = marks[n]
+            n += 1
+            at = (leaf, line)
+            if starts:
+                w.line_start[len(w.canvas_at)] = at
+            continue
+        w.canvas_at.append(at[0])
+        w.line_at.append(at)
+    if [t for t, _ in marked if t != LINE_MARK] != [t for t, _ in w.tokens]:
+        raise SystemExit(f"archive.witness({key}): the line marks changed the tokens")
+    return w
+
+
+def is_number(text):
+    """A verse number in the margin as the OCR reads it (3, 2$, zg, o for 9)."""
+    import re
+    return bool(re.fullmatch(r"[\dIlioOSsz$gq]{1,3}[.,]?", text)) and any(c.isdigit() or c in "oOz$" for c in text)
+
+
+def indents(key, leaves=None):
+    """{(leaf, line): (indent in pixels, the OCR word the text starts with)} of the lines an edition indents to begin a paragraph (1738: Gen 44:3, 44:13,
+    leaf 107). The page is set in two columns, the verse numbers in the outer margins. A line's start is its first
+    word's left edge, or the next word's where the first stands in the margin (a verse number, whose box the OCR runs
+    on to the word: 1738 Gen 44:3 "3" 42–121); a short word in the margin is a number however it is read: 1738 Exod 6:26 "at";
+    the column's margin there is the lower quartile of the starts of the six lines
+    above and below (headings and drop capitals stand further in; lines holding only margin numbers are left out). A line is a paragraph's first when it starts 40–140 px (about 1–2½ ems at 400 dpi; a skewed column's lines wander up to 30) inside that
+    margin, and the line above in the column (for a column's first line, the last of the column before) ends a sentence (. ? ! :) or is short: and a line beside a drop capital (a glyph over
+    2.2 times the usual height) counts only as the capital's first line: so neither a drop capital's
+    second line nor a hyphenated word's second half counts, nor a chapter summary's hanging lines, which follow no
+    stop. Running heads (the top 60 px) are left out."""
+    import itertools
+    import re
+    import statistics
+    out = {}
+    previous = None                                          # the last line of the column before (for a column's first)
+    for leaf, words, (width, _) in pages(key):
+        if leaves is not None and leaf not in leaves and leaf + 1 not in leaves:
+            previous = None
+            continue
+        rows = []
+        for line, group in itertools.groupby(words, key=lambda w: w.line):
+            ws = list(group)
+            middle = (ws[0].box[0] + ws[-1].box[2]) / 2
+            if ws[0].box[1] < 60 or all(w.box[2] < 0.06 * width or w.box[0] > 0.88 * width for w in ws):
+                continue                                     # a running head, or the margin's numbers on their own
+            rows.append({"line": line, "ws": ws, "col": 0 if middle < width / 2 else 1})
+        heights = sorted(w.box[3] - w.box[1] for w in words) or [0]
+        usual = heights[len(heights) // 2]
+        capitals = [w.box for w in words if w.box[3] - w.box[1] > 2.2 * usual and len(w.text) <= 3]
+        for col in (0, 1):
+            cr = [r for r in rows if r["col"] == col]
+            firsts = [r["ws"][0].box[0] for r in cr]
+            # First pass: each line's text start, past a word standing in the margin (a verse number).
+            for i, r in enumerate(cr):
+                ws, r["start"], r["word"] = r["ws"], r["ws"][0].box[0], 0
+                near = firsts[max(0, i - 6):i] + firsts[i + 1:i + 7]
+                # The verse numbers stand left of the left column and right of the right one, on every page.
+                if col == 0 and len(near) >= 4 and ws[0].box[0] < statistics.median(near) - 15:
+                    if len(ws) > 1 and (is_number(ws[0].text) or len(re.sub(r"\W", "", ws[0].text)) <= 3):
+                        r["start"], r["word"] = ws[1].box[0], 1
+                    else:
+                        r["start"] = None                    # a number run on to the word (2atque): unknown
+            starts = [r["start"] for r in cr]
+            for i, r in enumerate(cr):
+                near = [x for x in starts[max(0, i - 6):i] + starts[i + 1:i + 7] if x is not None]
+                if len(near) < 4 or r["start"] is None:
+                    continue
+                margin = sorted(near)[len(near) // 4]        # low: headings and drop capitals stand further in
+                ws, start = r["ws"], r["start"]
+                indent = start - margin
+                top = ws[0].box[1]
+                if any(start - 80 <= c[2] <= start + 30 and c[1] + 30 < top <= c[3] for c in capitals):
+                    continue                                 # beside a drop capital, below its first line
+                above = cr[i - 1]["ws"] if i else previous
+                if not 40 <= indent <= 140 or above is None or (leaves is not None and leaf not in leaves):
+                    continue
+                texts = [w.text for w in above if not (is_number(w.text) and w.box[0] > above[0].box[0] + 400)]
+                ends = "".join(texts[-2:]).strip()
+                right = statistics.median(rr["ws"][-1].box[2] for rr in cr[max(0, i - 6):i + 7])
+                short = i > 0 and above[-1].box[2] < right - 120
+                if re.search(r"[-¬]$", ends) or not (re.search(r"[.?!:]\W{0,2}$", ends) or short):
+                    continue
+                out[(leaf, r["line"])] = (round(indent), ws[r["word"]].text)
+            if cr:
+                previous = cr[-1]["ws"]
+    return out
+
+
+
+def page_image(key, leaf):
+    """The leaf's page image (cached in sources/archive/crops/); archive.org numbers them one below the hOCR's."""
+    path = CROPS / f"{key}-page-{leaf:04d}.jpg"
+    if not path.exists():
+        CROPS.mkdir(parents=True, exist_ok=True)
+        net.download(PAGE_IMAGE.format(item=BY_KEY[key].item, leaf=leaf - 1), path)
+    return path
+
+
+def line_box(key, leaf, first, last=None, pad=(70, 12)):
+    """(x0, y0, x1, y1) in hOCR pixels around lines first…last of a leaf (one column: the lines' own words)."""
+    last = first if last is None else last
+    _, words, _ = pages(key)[leaf]
+    ws = [w for w in words if first <= w.line <= last]
+    return (max(0, min(w.box[0] for w in ws) - pad[0]), max(0, min(w.box[1] for w in ws) - pad[1]),
+            max(w.box[2] for w in ws) + pad[0], max(w.box[3] for w in ws) + pad[1])
+
+
+def sheet(key, items, path, width=900):
+    """One image of several crops, each under its label, for reading many places at a glance: items are
+    [(label, leaf, (x0, y0, x1, y1) in hOCR pixels)]. Drawn with Windows' System.Drawing through PowerShell (the
+    standard library has no JPEG codec)."""
+    import json
+    import subprocess
+    import tempfile
+    spec = []
+    for label, leaf, box in items:
+        _, _, (w, h) = pages(key)[leaf]
+        spec.append({"label": label, "image": str(page_image(key, leaf)), "box": list(box), "size": [w, h]})
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
+        json.dump(spec, f)
+        spec_path = f.name
+    script = (
+        "Add-Type -AssemblyName System.Drawing; "
+        f"$spec = Get-Content -Raw -Encoding UTF8 '{spec_path}' | ConvertFrom-Json; $W = {width}; "
+        "$parts = @(); $total = 0; "
+        "foreach ($s in $spec) { $i = [System.Drawing.Image]::FromFile($s.image); "
+        "$sx = $i.Width / $s.size[0]; $sy = $i.Height / $s.size[1]; "
+        "$x = [math]::Max(0, [int]($s.box[0] * $sx)); $y = [math]::Max(0, [int]($s.box[1] * $sy)); "
+        "$w = [math]::Min($i.Width - $x, [int](($s.box[2] - $s.box[0]) * $sx)); "
+        "$h = [math]::Min($i.Height - $y, [int](($s.box[3] - $s.box[1]) * $sy)); "
+        "$scale = [math]::Min(1.6, $W / $w); $oh = [int]($h * $scale); "
+        "$parts += ,@($i, $x, $y, $w, $h, [int]($w * $scale), $oh, $s.label); $total += $oh + 30 }; "
+        "$b = New-Object System.Drawing.Bitmap $W, ([math]::Max(1, $total)); "
+        "$g = [System.Drawing.Graphics]::FromImage($b); $g.Clear([System.Drawing.Color]::White); "
+        "$g.InterpolationMode = 'HighQualityBicubic'; "
+        "$font = New-Object System.Drawing.Font 'Arial', 13; $at = 0; "
+        "foreach ($p in $parts) { $g.DrawString($p[7], $font, [System.Drawing.Brushes]::Firebrick, 4, $at + 4); $at += 30; "
+        "$g.DrawImage($p[0], (New-Object System.Drawing.Rectangle 0, $at, $p[5], $p[6]), "
+        "(New-Object System.Drawing.Rectangle $p[1], $p[2], $p[3], $p[4]), 'Pixel'); $at += $p[6]; $p[0].Dispose() }; "
+        f"$b.Save('{path}', [System.Drawing.Imaging.ImageFormat]::Jpeg); $g.Dispose(); $b.Dispose()")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(["powershell", "-NoProfile", "-Command", script], check=True, capture_output=True)
+    import os
+    os.unlink(spec_path)
+    return path

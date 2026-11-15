@@ -32,7 +32,8 @@ before: plus quam → plusquam).
 
 Expanded as decided (decision 57): & → et, q; → -que, the nasal bar (ã → am/an), long s → s (`align.clean`); ę → æ.
 Kept as printed: u/v and i/j, the printed spellings, the word divisions where read (septies ne). Accents (verò,
-quòd, à, hîc) are dropped unless ACCENTS is set: the OCR reads them unevenly, and decision 57 does not settle them.
+quòd, à, hîc) are kept where the OCR reads them (ACCENTS, decision 67); the OCR misses about half of them, so
+the words that may carry one are read on the page (data/review/accents-1573.md).
 
 Punctuation is the OCR's after a word that was read, up to the next word or number (a marginal reference read into
 the line, Zach.13.7, is not the text's); after a word not read, the OCR's just before the next word read, else the
@@ -43,6 +44,7 @@ The base edition is the testament's (`base_witness`): 1573 for the New Testament
 1573 begins every verse on a line of its own, so each verse is a paragraph (the printer's own, decision 57); 1738
 runs its verses on and indents its paragraphs, not read yet (`usfm`). Verse ids are the KJV's, as in text/."""
 
+import bisect
 import collections
 import difflib
 import itertools
@@ -52,7 +54,7 @@ from dataclasses import dataclass, field
 
 from pipeline import align, books, gold, latex, macronize, mdz, normalize, paths, rules, tsv
 
-ACCENTS = False
+ACCENTS = True                          # decision 67: the printed text keeps 1573's accents
 PUNCT = set(",.;:?!()")
 ACCENT_MARKS = {"̀", "́", "̂"}          # grave, acute, circumflex as printed (verò, hîc)
 
@@ -68,6 +70,7 @@ class Word:
     settled_after: str = ""   # the settled text's punctuation after it (for a word not read in the OCR)
     tied: bool = False   # its æ made œ by `fix_ligatures` (the OCR read œ as æ)
     punct: str = "ocr"   # where `after` comes from: ocr; settled (not read in the OCR); stray (stray_stops)
+    token: int | None = None   # the OCR token it is paired with, or (not paired) the one after its paired neighbour
 
 
 @dataclass
@@ -77,6 +80,7 @@ class Chapter:
     extra: list = field(default_factory=list)        # [(verse id, OCR words between two paired words, not taken)]
     marked: dict = field(default_factory=dict)       # {verse id: [words 1573 sets between L. and G.]}
     canvas: dict = field(default_factory=dict)       # {verse id: canvas}
+    breaks: dict = field(default_factory=dict)       # {word index: (leaf, line, indent)}: the print's paragraphs (1738)
 
 
 def strip_accents(word):
@@ -85,9 +89,15 @@ def strip_accents(word):
 
 
 def tidy(ocr):
-    """The OCR word with ę → æ, and its accents dropped unless ACCENTS."""
+    """The OCR word with ę → æ; its grave and circumflex accents kept (ACCENTS), any other mark dropped."""
     ocr = ocr.replace("ę", "æ").replace("Ę", "Æ").replace("ı", "i")
-    return strip_accents(ocr) if ACCENTS else rules.unmacron(ocr)
+    if not ACCENTS:
+        return rules.unmacron(ocr)
+    # 1573's accents are the grave and the circumflex (verò, hîc); an acute is the OCR's reading of a nasal bar (nó,
+    # auté), already expanded or handled by `nasal`, so it goes with any other mark.
+    decomposed = unicodedata.normalize("NFD", ocr)
+    return unicodedata.normalize("NFC", "".join(c for c in decomposed
+                                                if unicodedata.category(c) != "Mn" or c in ("̀", "̂")))
 
 
 def key(word):
@@ -120,7 +130,7 @@ def normalized(word):
 def long_s(ocr, base):
     """Candidates for the OCR word with some of its f put back to s (the OCR reads long s as f), fewest first."""
     spots = [i for i, c in enumerate(ocr) if c in "fF"]
-    if not spots or "s" not in key(base):
+    if not spots or not ("s" in key(base) or "x" in key(base)):   # x: the print's exs- (exstinguantur)
         return [ocr]
     out = []
     for n in range(len(spots) + 1):
@@ -165,7 +175,7 @@ def letters(word):
 
 
 # Spellings the printer and the reading edition both use, beyond the approved rules, on folded letters (u for v, i
-# for j) after doubled letters are made single (literis, Barrabam, numis): 1573 cœlum, fœminas, millia, nunciatum,
+# for j; ae and oe as the OCR of 1738 writes æ and œ) after doubled letters are made single (literis, Barrabam, numis): 1573 cœlum, fœminas, millia, nunciatum,
 # ocium, charissimus, extirpabitur, dignoscere, quæcunque, audiuerit, iuerunt, exijstis (the unsyncopated forms);
 # accersitum, authore, circundatus, aliquandiu, alioquin, dexteram, misertus, summittite, inmutabiles, conburent,
 # arcta, tentauit, decumas, diuersorium, myrrha, Caius, assimilem, vendicare, nequicquam, assequutum, increbescente,
@@ -173,12 +183,19 @@ def letters(word):
 VARIANTS = [("intelig", "inteleg"), ("monim", "monum"), ("acers", "arces"), ("auct", "aut"), ("circun", "circum"),
             ("ndiu", "mdiu"), ("alioquin", "alioqui"), ("dexter", "dextr"), ("miserit", "misert"), ("subm", "sum"),
             ("inm", "im"), ("inp", "imp"), ("nb", "mb"), ("arct", "art"), ("tempt", "tent"), ("decum", "decim"),
-            ("diuers", "deuers"), ("myrh", "mur"), ("cai", "gai"), ("assimil", "assimul"), ("uend", "uind"),
+            ("diuers", "deuers"), ("diuert", "deuert"),("myrh", "mur"), ("cai", "gai"), ("assimil", "assimul"), ("uend", "uind"),
+            # aereus and aerius both printed aere- (1573 Matt 8:20 aereæ volucres; the edition's āeriæ by its rules)
+            ("aere", "aeri"),
             ("cq", "dq"), ("equut", "ecut"), ("increbr", "increb"), ("tetrarches", "tetrarche"),
             ("tetrarcha", "tetrarche"), ("pellice", "pellici"),
-            ("æ", "e"), ("œ", "e"), ("ch", "c"), ("ti", "ci"), ("xs", "x"), ("gn", "n"),
-            ("nq", "mq"), ("nc", "mc"), ("nt", "mt"), ("iuis", "is"), ("iue", "ie"), ("iui", "ii"), ("ii", "i"),
-            ("ph", "p"), ("th", "t"), ("y", "i")]
+            # ad- left unassimilated (1738 adfecimus, adparuisset, adligauit, adsignauit; read on the page, Gen 38:28,
+            # 47:11): on folded letters, after doubled letters are made single (ff and gg stay double)
+            ("adf", "aff"), ("adp", "ap"), ("adl", "al"), ("ads", "as"), ("adg", "agg"), ("adc", "ac"), ("adr", "ar"),
+            # 1738 sumsit, sumta, emtus, redemtum, peremti, coemti (read on the page, Gen 4:25, 17:23)
+            ("mpt", "mt"), ("mps", "ms"),
+            ("ae", "e"), ("oe", "e"), ("æ", "e"), ("œ", "e"), ("ch", "c"), ("ph", "p"), ("th", "t"), ("ti", "ci"),
+            ("xs", "x"), ("gn", "n"), ("nq", "mq"), ("nc", "mc"), ("nt", "mt"), ("iuis", "is"), ("iue", "ie"),
+            ("iui", "ii"), ("ii", "i"), ("y", "i")]
 # The VARIANTS that join different forms of a word, not spellings of one form: listed with ⚑ in the review file,
 # since the reading edition may want to follow the base edition there (misertus for miseritus, dexteram for dextram).
 FORM_VARIANTS = ("miserit", "dexter", "alioquin", "tetrarch", "increbr", "assimil", "pellice", "decum")
@@ -207,6 +224,14 @@ def restore_ae(form, base):
             chars[i1] = "Æ" if chars[i1].isupper() else "æ"
             changed = True
     return "".join(chars), changed
+
+
+def l_for_i(ocr, base):
+    """Whether the OCR word differs from the settled word only by i read for l or the reverse (1738 JJle, iila for
+    Ille, illa): an OCR confusion, which the variants' doubled letters (ll → l, ii → i) would otherwise take for a
+    spelling."""
+    a, b = letters(ocr), letters(printerize(base))
+    return a != b and a.replace("l", "i") == b.replace("l", "i")
 
 
 def misread_key(word):
@@ -254,7 +279,7 @@ def choose(base, ocr):
     # ABBYY (1738) writes the æ and œ ligatures out as two letters: where the settled word has the ligature there,
     # the print has it too (caelum → cælum).
     tied = re.sub("ae|Ae|AE|oe|Oe|OE", lambda m: {"ae": "æ", "Ae": "Æ", "AE": "Æ", "oe": "œ", "Oe": "Œ", "OE": "Œ"}[m.group()], form)
-    if tied != form and letters(tied).replace("œ", "æ") == letters(printerize(base)).replace("œ", "æ"):
+    if tied != form and letters(tied).replace("œ", "æ").lstrip("h") ==             letters(printerize(base)).replace("œ", "æ").lstrip("h"):          # (1738 Ebræorum for Hebræōrum)
         form = tied
     if form[1:] != form[1:].lower() and not form.isupper():
         form = form[0] + form[1:].lower()
@@ -278,7 +303,7 @@ def _choose(base, ocr):
         if kind in ("ocr", "rule", "variant", "nasal", "ę"):
             return form + "que", kind
     for c in candidates:
-        if variant_key(c) == variant_key(base):
+        if variant_key(c) == variant_key(base) and not l_for_i(c, base):
             form, changed = restore_ae(c, base)
             return form, "ę" if changed else "variant"
     for c in candidates:
@@ -309,11 +334,40 @@ def split_joined(ocr, bases):
 
 def overrides(osis):
     """{(verse id, settled word): (printed form, reason)} from data/decisions/<osis>.orig.tsv: words read on the
-    page images where the OCR could not decide (a reading's canvas is in its reason)."""
+    page images where the OCR could not decide (a reading's canvas is in its reason). A settled word may carry its
+    occurrence in the verse (cum#2); without one, the row is every occurrence's."""
     path = paths.DATA / "decisions" / f"{osis}.orig.tsv"
     if not path.exists():
         return {}
-    return {(r["id"], r["settled"]): (r["printed"], r["reason"]) for r in tsv.read(path)}
+    return {(r["id"], r["settled"]): (r["printed"], r["reason"]) for r in tsv.read(path)
+            if not r["printed"].startswith(PARAGRAPH)}
+
+
+PARAGRAPH = "¶"   # a decision row's printed form for a paragraph read on the page: ¶ begins one before the settled word, ¶- takes one away
+
+
+def paragraph_rows(osis):
+    """{(verse id, settled word): (True to begin a paragraph there, False to take one away, reason)} from the rows
+    of data/decisions/<osis>.orig.tsv whose printed form is ¶ or ¶-: paragraphs read on the page where the indents
+    read from the hOCR miss one or take a line for one (a column's first line, its number and a footnote letter read
+    as words: 1738 Exod 12:17)."""
+    path = paths.DATA / "decisions" / f"{osis}.orig.tsv"
+    if not path.exists():
+        return {}
+    return {(r["id"], r["settled"]): (r["printed"] == PARAGRAPH, r["reason"]) for r in tsv.read(path)
+            if r["printed"].startswith(PARAGRAPH)}
+
+
+def apply_paragraph_rows(chapter, rows):
+    """Set the paragraphs read on the page (`paragraph_rows`) in a built chapter: (leaf, line, indent) is None for one."""
+    for (vid, settled), (begin, _) in rows.items():
+        n = next((k for k, w in enumerate(chapter.words) if w.vid == vid and w.base == settled), None)
+        if n is None:
+            raise SystemExit(f"orig: {vid} has no settled word {settled!r} for its paragraph row")
+        if begin:
+            chapter.breaks[n] = None
+        else:
+            chapter.breaks.pop(n, None)
 
 
 def build_chapter(witness, rows, number, read=None):
@@ -367,9 +421,35 @@ def build_chapter(witness, rows, number, read=None):
                         at = k + 1
                         break
         n = end
-    for w in out.words:
-        if read and (w.vid, w.base) in read:
-            w.form, w.kind = read[(w.vid, w.base)][0], "read"
+    out.breaks = paragraph_breaks(witness, found, len(out.words))
+    near = None
+    for n, w in enumerate(out.words):
+        if n in found.at:
+            w.token = near = found.at[n][0]
+        elif near is not None:
+            w.token = near + 1
+    # A verse's pages are its paired words' (1738: the hOCR leaf of each word), not its OCR row's, whose edges may
+    # reach back into the chapter's heading and summary on the leaf before (1738 Gen 44:1, leaf 106 → 107).
+    if getattr(witness, "line_at", None):
+        leaves = collections.defaultdict(set)
+        for n, w in enumerate(out.words):
+            if n in found.at:
+                leaves[w.vid].add(witness.canvas_at[min(found.at[n][0], len(witness.canvas_at) - 1)])
+        out.canvas = {vid: "–".join(map(str, sorted(ls)[::max(1, len(ls) - 1)])) for vid, ls in leaves.items()}
+    seen = collections.Counter()
+    after_read = [None] * len(out.words)
+    for k, w in enumerate(out.words):
+        seen[(w.vid, w.base)] += 1
+        if not read:
+            continue
+        # A row's settled word may name its occurrence in the verse (cum#2): 1738 prints the preposition cum and
+        # the conjunction quum, which the settled text spells alike.
+        hit = read.get((w.vid, f"{w.base}#{seen[(w.vid, w.base)]}")) or read.get((w.vid, w.base))
+        if hit:
+            form, bar, marks = hit[0].partition(READ_AFTER)
+            w.form, w.kind = form, "read"
+            if bar:
+                after_read[k] = marks
     # The settled text's punctuation after each word, in the aligner's word order.
     settled = []
     for _, text in rows:
@@ -429,6 +509,48 @@ def build_chapter(witness, rows, number, read=None):
             w.after = ")" + marks[0]
         if between and nxt is not None and n + 1 < len(out.words) and n + 1 in found.at:
             out.extra.append((w.vid, " ".join(between)))
+    # A row read on the page may give the marks after its word too (READ_AFTER: Græcè|? where the OCR read the ? as
+    # an s, id| where it misplaced a parenthesis): they replace the OCR's.
+    for w, forced in zip(out.words, after_read):
+        if forced is not None:
+            w.after, w.punct = forced, "read"
+    return out
+
+
+OPENING = 15   # words a chapter's drop capital may push in (1738 Gen 48:1, leaf 111): no paragraph is read there
+
+
+def paragraph_breaks(witness, found, count):
+    """{settled word index: (leaf, line, indent)} where the print begins a paragraph: the word paired with the first
+    word of an indented line (`archive.indents`, held by the witness as `indented`: {token index: (leaf, line,
+    indent)}), or, where that OCR word was not paired, the first settled word paired on the same line, less the OCR
+    words before it on the line. None within a chapter's first OPENING words (the chapter begins one anyway)."""
+    indented = getattr(witness, "indented", None)
+    if not indented:
+        return {}
+    first = {}
+    for n, at in sorted(found.at.items()):
+        first.setdefault(at[0], n)                       # a run the OCR joined: its first word
+    last = sorted((at[1], n) for n, at in found.at.items())
+    out = {}
+    for token, (leaf, line, indent, start) in indented.items():
+        place = (leaf, line, indent)
+        k = bisect.bisect_left(last, (start, -1)) - 1
+        if token in first:
+            n = first[token]
+        elif k >= 0 and not any(witness.tokens[t][1] for t in range(last[k][0] + 1, start)):
+            n = last[k][1] + 1                           # the word after the last one paired before the line
+        else:
+            line = witness.line_at[token]
+            later = [(t, m) for t, m in first.items() if t > token and witness.line_at[t] == line]
+            if not later:
+                continue
+            t, m = min(later)
+            n = m - sum(1 for k in range(token, t) if witness.tokens[k][1])
+            if n < 0 or (n != m and n in found.at):
+                continue
+        if OPENING <= n < count:
+            out[n] = place
     return out
 
 
@@ -436,6 +558,7 @@ def stray_stops(chapter):
     """A stop the OCR has before a lower-case word, where the settled text has none, is a marginal note's read
     into the line (Lunaticus., Aue Rabbi.); where the settled text has ? or !, the OCR misread that mark."""
     words = chapter.words
+    ot = bool(words) and books.select([words[0].vid.split(".")[0]])[0].testament == "vetus"
     for w, nxt in zip(words, words[1:]):
         if w.after == "." and w.punct == "ocr" and nxt.form[:1].islower() and nxt.vid == w.vid:
             settled = w.settled_after.replace("(", "").replace(")", "")
@@ -443,8 +566,19 @@ def stray_stops(chapter):
                 w.after, w.punct = "", "stray"
             elif settled[:1] in "?!":
                 w.after, w.punct = settled[:1], "stray"
+        # 1738's superscript footnote letters (Gen 2:7 in ᵃ eius) are read as ; ? or !: dropped before a lower-case
+        # word where the settled text has no stop (its commas and colons are its own, and stay).
+        # (1738 only: 1573's ? and ! are its own; in 1573 only the ; left from the -q; abbreviation goes, reuersusq;)
+        elif w.after in (";", "?", "!") and w.punct == "ocr" and nxt.form[:1].islower() and nxt.vid == w.vid \
+                and not w.settled_after.strip("()") and (ot or (w.after == ";" and w.form.endswith("que"))):
+            w.after, w.punct = "", "stray"
+        # and a colon is read as ? (Exod 21:8 redhibeto: in, OCR redhibeto?): the settled text's mark (1738 only).
+        elif ot and w.after == "?" and w.punct == "ocr" and nxt.form[:1].islower() and nxt.vid == w.vid \
+                and w.settled_after.strip("()") in (":", ";", ","):
+            w.after, w.punct = w.settled_after.strip("()"), "stray"
 
 
+READ_AFTER = "|"   # in a decision row's printed form: the marks printed after the word follow it (Græcè|?, id|)
 JOINED = "+"   # a decision row's printed form for a settled word the print joins to the one before (plus quam → plusquam)
 
 
@@ -482,7 +616,8 @@ def lexicon(chapters):
     out = Lexicon()
     for chapter in chapters:
         for w in chapter.words:
-            if w.kind in READ_KINDS and w.form:
+            if w.kind in READ_KINDS and w.form and not (w.ocr or "")[1:2].isupper():
+                # (a word set in capitals, as a chapter's first after its drop capital, prints V for U: 1738 TVm)
                 out[w.base.lower()][w.form.lower()] += 1
                 if w.kind != "ę" and "æ" in w.form.lower() and "æ" in w.base.lower():
                     out.literal_ae[settled_stem(w.base)] += 1
@@ -601,13 +736,86 @@ def printer_habits(chapters, testament):
                 w.kind = "doubt"
 
 
+def spelling_prone(chapters):
+    """A word still not read (none, guess, misread) whose settled spelling is one an approved rule writes for another
+    (appellāvit for adpellavit, intellegam for intelligam) is marked `prone`, to be read on the page (PLAN.md §4,
+    stage 2b): the base edition may print the old spelling, and the text follows the page."""
+    table = spelling_rules()
+    targets = set()
+    for old, hit in dict.items(table):
+        if rules.unligature(macronize.plain(hit[0])) != old:
+            targets.add(rules.unligature(macronize.plain(hit[0])))
+    # and the stem rules' new stems (condic- for condit-: 1738 Gen 42:20 conditionem, found by the sample check)
+    stems = [rules.unligature(macronize.plain(new)) for old, new, _ in getattr(table, "stems", ())
+             if rules.unligature(macronize.plain(new)) != old]
+    for chapter in chapters:
+        for w in chapter.words:
+            plain = rules.unligature(macronize.plain(w.base.lower()))
+            if w.kind in ("none", "guess", "misread") and (plain in targets or any(plain.startswith(s) for s in stems)):
+                w.kind = "prone"
+
+
 def settled_rows(osis, chapters=None):
+    """{chapter: [(verse id, text)]}: the settled chapters' words (data/gold/), and, for a chapter named in `chapters`
+    that is not settled, the draft's (text/draft/<USFM>.usfm) after stage 2, so stage 2b runs as soon as stage 2 is
+    done (CLAUDE.md, PLAN.md §4)."""
     by_chapter = collections.defaultdict(list)
     for vid, row in gold.load(osis).items():
         _, c, v = tsv.parse_id(vid)
         if (chapters is None or c in chapters) and v > 0:
             by_chapter[c].append((vid, row["text"]))
+    if chapters is not None:
+        book = books.select([osis])[0]
+        draft = latex.usfm_path(book, draft=True)
+        if draft.exists() and any(c not in by_chapter for c in chapters):
+            for vid, text, *_ in gold.rows(draft.read_text(encoding="utf-8"), osis):
+                _, c, v = tsv.parse_id(vid)
+                if c in chapters and c not in gold_chapters(osis) and v > 0:
+                    by_chapter[c].append((vid, tied(text)))
     return by_chapter
+
+
+_TIED = None
+
+
+def tied(text):
+    """A draft's text (Wikisource writes ae, oe) with the ligatures the settled text writes in the same word
+    (Haec → Hæc, caelebs → cælebs, but Israelitae → Israelitæ, aer kept): taken word by word from every settled book,
+    since a ligature marks a diphthong, not a hiatus (decision 16). A word no settled book has keeps ae/oe."""
+    global _TIED
+    if _TIED is None:
+        seen = collections.defaultdict(collections.Counter)
+        for book in books.BOOKS:
+            for row in gold.load(book.osis).values():
+                for word, is_word in align.words(row["text"]):
+                    if is_word and re.search("[æœÆŒ]|ae|oe", word, re.I):
+                        plain = rules.unmacron(word)
+                        seen[rules.unligature(plain).lower()][plain.lower()] += 1
+        _TIED = {k: c.most_common(1)[0][0] for k, c in seen.items()}
+
+    def one(m):
+        word = m.group()
+        form = _TIED.get(word.lower())
+        if not form:
+            return word
+        out = form if word.islower() else form[0].upper() + form[1:] if word[0].isupper() else form
+        return out if rules.unligature(out).lower() == word.lower() else word
+    return re.sub(r"[^\W\d_]+", one, text)
+
+
+def gold_chapters(osis):
+    return {tsv.parse_id(vid)[1] for vid in gold.load(osis)}
+
+
+def merge_usfm(old, new):
+    """The draft file `old` with the chapters `new` holds put in place (and new ones added in order): a draft of
+    Exodus 21–30 beside the one of 1–20, each built when its stage 2 is done."""
+    def split(text):
+        pieces = re.split(r"(?m)^(?=\\c )", text)
+        return pieces[0].rstrip() + "\n", {int(piece.split()[1]): piece.rstrip() for piece in pieces[1:]}
+    head, chapters = split(old)
+    chapters.update(split(new)[1])
+    return head + "\n" + "\n\n".join(chapters[c] for c in sorted(chapters)) + "\n"
 
 
 def base_witness(osis):
@@ -615,10 +823,27 @@ def base_witness(osis):
     bibliasacraexseb01cast, ABBYY) for the Old (decisions 1 and 24)."""
     if books.select([osis])[0].testament == "novum":
         return mdz.witness()
-    path = paths.SOURCES / "archive" / "1738" / "text.txt"
+    from pipeline import archive
+    path = paths.SOURCES / "archive" / "1738" / "hocr.html"
     if not path.exists():
-        raise SystemExit(f"{path.relative_to(paths.ROOT).as_posix()} is missing: python -m pipeline fetch archive 1738")
-    return align.Witness(path.read_text(encoding="utf-8"))
+        raise SystemExit(f"{path.relative_to(paths.ROOT).as_posix()} is missing: python -m pipeline fetch archive 1738 --hocr")
+    # Read from the hOCR (the same words as text.txt), so each word has its leaf and line: the page links and the
+    # paragraphs, which 1738 marks by indenting (archive.indents).
+    w = archive.witness("1738")
+    lines = {place: token for token, place in w.line_start.items()}
+    w.indented = {}
+    for (leaf, line), (indent, word) in archive.indents("1738").items():
+        if (leaf, line) not in lines:
+            continue
+        token = start = lines[(leaf, line)]
+        first = align.words(align.clean(word))
+        # The line's text starts at this word, past a verse number the OCR may have read as letters (1738 Gen 38:12 "la").
+        for k in range(token, min(token + 6, len(w.tokens))):
+            if first and w.tokens[k][0] == first[0][0]:
+                token = k
+                break
+        w.indented[token] = (leaf, line, indent, start)
+    return w
 
 
 def build(osis, chapters, witness=None, known=None):
@@ -628,10 +853,14 @@ def build(osis, chapters, witness=None, known=None):
     by_chapter = settled_rows(osis, chapters)
     read = overrides(osis)
     built = {c: build_chapter(witness, by_chapter[c], c, read) for c in sorted(by_chapter)}
+    marks = paragraph_rows(osis)
+    for chapter in built.values():
+        apply_paragraph_rows(chapter, {k: v for k, v in marks.items() if tsv.parse_id(k[0])[1] == chapter.number})
     known = known if known is not None else lexicon(built.values())
     from_lexicon(built.values(), known)
     check_e_caudata(built.values(), known)
     printer_habits(built.values(), books.select([osis])[0].testament)
+    spelling_prone(built.values())
     fix_ligatures(built.values(), ligature_stems(known))
     for chapter in built.values():
         stray_stops(chapter)
@@ -652,17 +881,32 @@ def testament_lexicon(testament, witness):
 def usfm(book, built, header):
     """The draft USFM: the reading edition's header lines, then the verses in the base edition's paragraphs. 1573
     begins every verse on a line of its own, so in the New Testament each verse is a paragraph. 1738 runs verses on
-    and indents its paragraphs (Gen 44:3, 44:13 on leaf 107): those are not read yet (PLAN.md §4, stage 2b), so an
-    Old Testament chapter has one paragraph until they are."""
+    and indents its paragraphs (Gen 44:3, 44:13 on leaf 107), read from its hOCR (`Chapter.breaks`): a paragraph
+    begins at a verse or, where the print begins it inside one, in the verse's line."""
     per_verse = book.testament == "novum"
     lines = header[:]
     for number, chapter in built.items():
         lines += ["", f"\\c {number}"] + ([] if per_verse else ["\\p"])
         verses = collections.defaultdict(list)
-        for w in chapter.words:
-            verses[w.vid].append(w)
-        for vid, ws in verses.items():
-            lines += (["\\p"] if per_verse else []) + [f"\\v {tsv.parse_id(vid)[2]} {verse_text(ws)}"]
+        for n, w in enumerate(chapter.words):
+            verses[w.vid].append((n, w))
+        for vid, items in verses.items():
+            v = tsv.parse_id(vid)[2]
+            if per_verse:
+                lines += ["\\p", f"\\v {v} {verse_text([w for _, w in items])}"]
+                continue
+            pieces, run = [], []
+            for n, w in items:
+                if n in chapter.breaks and run:
+                    pieces.append(run)
+                    run = []
+                elif n in chapter.breaks:
+                    lines.append("\\p")
+                run.append(w)
+            pieces.append(run)
+            lines.append(f"\\v {v} {verse_text(pieces[0])}")
+            for run in pieces[1:]:
+                lines += ["\\p", verse_text(run)]
     return "\n".join(lines) + "\n"
 
 
@@ -679,13 +923,14 @@ def header_lines(book):
 
 def pages_path(book):
     """data/orig/<osis>.pages.tsv: the base edition's page (canvas) of each verse, for the site's links to the page
-    images. Metadata, not the text: rewritten whenever the pages are read again."""
+    images (1573: MDZ canvas; 1738: the hOCR's leaf, archive.org's page image n<leaf − 1>). Metadata, not the
+    text: rewritten whenever the pages are read again."""
     return paths.DATA / "orig" / f"{book.osis}.pages.tsv"
 
 
 def write_pages(book, built):
-    """Write the pages file for these chapters, keeping rows of the book's other chapters. Only the NT has canvases
-    (1573's hOCR); 1738's OCR has none, so nothing is written for the OT."""
+    """Write the pages file for these chapters, keeping rows of the book's other chapters. Both base editions have
+    them: 1573's canvases (MDZ hOCR) and 1738's leaves (archive.org hOCR)."""
     rows = {vid: canvas for c in built.values() for vid, canvas in c.canvas.items() if canvas}
     if not rows:
         return None
@@ -702,6 +947,44 @@ def load_pages(osis):
     """{verse id: canvas, e.g. "762" or "762–763"} from data/orig/<osis>.pages.tsv ({} without one)."""
     path = paths.DATA / "orig" / f"{osis}.pages.tsv"
     return {r["id"]: r["canvas"] for r in tsv.read(path)} if path.exists() else {}
+
+
+def sheets(book, built, witness, kinds=("doubt", "prone"), size=12):
+    """Contact sheets of the words of these kinds on the base edition's page images, for reading them (1738: the
+    line of the word's paired neighbours, cut from archive.org's page; `archive.sheet`). Returns [(sheet path,
+    [(label, verse id, settled word, form now, leaf, line)])]; the sheets go to sources/archive/crops/sheets/."""
+    from pipeline import archive
+    if not getattr(witness, "line_at", None):
+        raise SystemExit("orig --sheets: only for the Old Testament (1738's hOCR); the NT is read with mdz.fetch_crop")
+    items = []
+    for chapter in built.values():
+        words = chapter.words
+        for n, w in enumerate(words):
+            if w.kind not in kinds or w.token is None:
+                continue
+            leaf, line = witness.line_at[min(w.token, len(witness.line_at) - 1)]
+            # The word's own line, found by the neighbours' words on this leaf and the next (the OCR's reading order
+            # breaks beside a drop capital or a chapter's heading): anchored on the longest neighbour.
+            span = [rules.unmacron(x.base) for x in words[max(0, n - 3):n + 4]]
+            here = n - max(0, n - 3)
+            anchor = max((k for k in range(len(span)) if k != here), key=lambda k: (len(span[k]), -abs(k - here)))
+            found = archive.find("1738", span, anchor, leaves={leaf - 1, leaf, leaf + 1})
+            if found is not None:
+                leaf, line = found.canvas, found.line
+            first, last = max(1, line - 1), line + 1
+            context = " ".join(x.base for x in words[max(0, n - 2):n + 3])
+            occurrence = sum(1 for x in words[:n + 1] if x.vid == w.vid and x.base == w.base)
+            label = f"{len(items) + 1}. {w.vid} {w.base}#{occurrence}  [{context}]  leaf {leaf}"
+            items.append((label, w.vid, f"{w.base}#{occurrence}", w.form, leaf, line,
+                          archive.line_box("1738", leaf, first, last, pad=(90, 8))))
+    out = []
+    folder = archive.CROPS / "sheets"
+    for k in range(0, len(items), size):
+        chunk = items[k:k + size]
+        path = folder / f"{book.osis}-{chunk[0][0].split('.')[0]}.jpg"
+        archive.sheet("1738", [(i[0], i[4], i[6]) for i in chunk], path, 760)
+        out.append((path, [i[:6] for i in chunk]))
+    return out
 
 
 def approved_path(book):
@@ -722,6 +1005,7 @@ KIND_NOTES = {
     "misread": "the settled word misread by the OCR; spelling as settled",
     "lexicon": "not read here; spelling as the base edition prints the same word elsewhere in the Testament",
     "doubt": "not read here, and the base edition spells the word more than one way: to be read on the page",
+    "prone": "not read here, and an approved rule writes the settled spelling for another: to be read on the page",
     "read": "read on the page image (data/decisions/<osis>.orig.tsv)",
     "guess": "OCR unreadable; the settled word in the printer's conventions",
     "none": "no OCR word; the settled word in the printer's conventions",
@@ -739,8 +1023,7 @@ def report(book, chapters, built, target, today):
     edition = "1573 (MDZ bsb10141277)" if nt else "1738 (archive.org bibliasacraexseb01cast)"
     year = edition[:4]
     layout = ("One paragraph per verse, as 1573 sets them" if nt else
-              "Paragraphs not yet set: 1738 runs the verses on and indents its paragraphs, which are still to be "
-              "read from its hOCR (PLAN.md §4, stage 2b); each chapter is one paragraph until then")
+              "Paragraphs are 1738's own, read from the indents in its hOCR (listed below)")
     out = [f"# {name} {span} as printed ({year}): the draft for review", "",
            f"Built {today} by `python -m pipeline orig {name} {command}` → `{target}`. The words are the settled chapters' "
            f"(`text/`); their spelling, capitals and punctuation are {edition}'s, read from its OCR as "
@@ -749,7 +1032,7 @@ def report(book, chapters, built, target, today):
            "(HUMAN.md decision 57). Regenerate after changing `data/decisions/" + name + ".orig.tsv`.", "",
            "**Decision:** pending", "", "## How each word was made", "",
            "| Kind | Words | |", "|---|---:|---|"]
-    for kind in ("ocr", "rule", "variant", "ę", "nasal", "misread", "lexicon", "read", "doubt", "guess", "none"):
+    for kind in ("ocr", "rule", "variant", "ę", "nasal", "misread", "lexicon", "read", "doubt", "prone", "guess", "none"):
         if kinds[kind]:
             out.append(f"| {kind} | {kinds[kind]} | {KIND_NOTES[kind]} |")
     out += [f"| all | {len(words)} | |", ""]
@@ -759,12 +1042,18 @@ def report(book, chapters, built, target, today):
                 "Where the OCR could not decide. Several differ from the settled text by more than spelling: "
                 "the reading edition may want to look again at these (marked ⚑).", ""]
         for (vid, settled), (printed, reason) in read.items():
+            settled = settled.split("#")[0]
             plain = re.sub(r"[ ']", "", printed)
-            flag = "" if printed == JOINED or "misprint" in reason or \
-                variant_key(plain) == variant_key(settled) or variant_key(plain).startswith(variant_key(settled)) else "⚑ "
+            # A spelling the approved rules normalize (quum, quoties, eamdem) is not flagged: the reading edition has it.
+            same = normalized(plain) == normalized(settled) or variant_key(plain) == variant_key(settled) or \
+                variant_key(plain).startswith(variant_key(settled))
+            if plain.lower().endswith("que") and not settled.lower().endswith("que"):
+                same = False                                 # a -que the settled text lacks (1738 Exod 18:5 Cumque)
+            flag = "" if printed == JOINED or "misprint" in reason or same else "⚑ "
             if "misprint" in reason:
                 flag = "✱ "
-            out.append(f"- {flag}**{vid[5:] if vid.startswith(name + '.') else vid}** *{settled}* → *{printed}*: {reason}")
+            out.append(f"- {flag}**{vid[len(name) + 1:] if vid.startswith(name + '.') else vid}** *{settled}* → "
+                       f"*{printed}*: {reason}")
         out.append("")
     for kind, title in (("rule", "Spellings the approved rules normalize"), ("variant", "Printer's spellings no rule covers"),
                         ("ę", "e against the settled æ, printed æ")):
@@ -780,7 +1069,7 @@ def report(book, chapters, built, target, today):
                 "Read in the OCR and taken by the variant rules, but a different form of the word, not only a spelling: "
                 "the reading edition may want to look again at these.", "",
                 "; ".join(f"{vid[len(name) + 1:]} *{b}* → *{f}*" for vid, b, f in forms), ""]
-    left = [w for w in words if w.kind in ("none", "guess", "misread", "doubt")]
+    left = [w for w in words if w.kind in ("none", "guess", "misread", "doubt", "prone")]
     if left:
         out += [f"## Not read in the OCR ({len(left)})", "",
                 "Spelling as settled, in the printer's conventions (u/v, i/j); not checked on the page.", "",
@@ -797,14 +1086,26 @@ def report(book, chapters, built, target, today):
         out.append("; ".join(f"{w.vid[len(name) + 1:]} *{w.form}{w.after}*" + (" (stray)" if w.punct == "stray" else "")
                              for w in settled))
         out.append("")
+    if not nt:
+        breaks = [(c.words[n], place) for c in built.values() for n, place in sorted(c.breaks.items())]
+        read_rows = paragraph_rows(name)
+        out += [f"## Paragraphs ({len(breaks)} inside the chapters)", "",
+                "1738 runs its verses on and marks a paragraph by indenting its first line. Read from the hOCR "
+                "(`archive.indents`: a line starting 40–140 px inside the column's margin after a line that ends a "
+                "sentence; drop capitals, summaries and 1738's footnotes left out) and set before the word that "
+                "begins the line; a paragraph read on the page is a `¶` row in `data/decisions/" + name + ".orig.tsv`. "
+                "Every chapter also begins one. Leaf = archive.org's hOCR page (its image is page n<leaf − 1>).", "",
+                "; ".join(f"{w.vid[len(name) + 1:]} *{w.form}* (" +
+                          (f"leaf {place[0]}, line {place[1]}" if place else "read on the page: " +
+                           read_rows.get((w.vid, w.base), (True, ""))[1]) + ")" for w, place in breaks), ""]
     marks = "L. … G." if nt else "G. … H. (and L., G.L.)"
     found = "; ".join(f"{vid[len(name) + 1:]} *{' '.join(ws)}*" for c in built.values() for vid, ws in c.marked.items())
     out += ["## Open questions", "",
             f"1. **Accents.** {year} prints grave accents on adverbs (*verò*, *cùm*, *continuò*) and on *quòd*, *à* "
             "and *hîc*. Dropped here, since the OCR reads them unevenly. Keeping them means restoring them by rule, "
             "or reading them page by page.",
-            f"2. **Chapter summaries.** {year} heads each chapter with a summary. The reading edition leaves them out "
-            "(decision 50); the printed text could keep them.",
+            f"2. **Chapter summaries.** {year} heads each chapter with a summary: left out of the printed text, as "
+            "of the reading edition (decisions 50, 67).",
             "3. **Apostrophes and word division** follow the print where read on the page (*Is'ne*, Matt 26:25; "
             "*plusquam*, 26:53; decision 58); elsewhere the settled text's division stands until read.",
             f"4. **Castellio's {marks} marks**: the words are kept, the marks dropped, as in the reading edition. "
