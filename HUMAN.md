@@ -9,25 +9,26 @@
   rebuilt; John 4:29 *fortassis* after checking the classical evidence (in the file). **Approved** (your "Approve
   them"): the 27 drafts are now `text/orig/<book>.usfm`. Nothing left to decide here.
 
-- **The Old Testament printed text works as the New's; Exodus 21–30 through stages 1–5; a plan for 31–40**
-  (2026-11-14, your request). Nothing committed.
-  - **Genesis and Exodus 1–20 as printed (1738), proposed for approval**: `data/review/ot-orig-gen-exod1-20.md`
-    (start there). 1738 is read from its hOCR, so each word has its leaf; **1738's own paragraphs** are read from its
-    indents (83 inside Genesis's chapters, 44 in Exodus 1–20, every one checked on the page); **each verse's leaf**
-    is recorded and the site's banner links to the page at the Internet Archive; **the 273 doubtful words are read**
-    (184 were *Tum*, made doubtful by two chapters set in capitals; the 78 *cum* are 51 *quum*, 27 *cum* on the
-    page), with 92 spelling-prone words (*adpellauit*, *herus*, *intelligam* …) and the near misses: 189 rows in
-    `data/decisions/{Gen,Exod}.orig.tsv`. A random sample of the words still not read in the OCR (about 7%) found 2
-    of 31 wrong: roughly 100–170 such words may still differ from the page. **Your calls**: approve as is, or have
-    the rest read first; and four readings for the reading edition with Apply lines (Gen 18:6 *depstīciōs*, 43:29
-    *locūtī fuistis*, Exod 18:5 *Cumque*, 20:24 *cæspiticium*).
-  - **Exodus 21–30**: `data/review/exod21-30-stages3-5.md` (start there), `-stage2.md` (33 corrections against 1738,
-    each read on the page; 22:5 a difference between printings), `-ch21.md` … `-ch30.md` (343 verses), preview
-    `text/draft/EXO.preview.usfm`, printed text `exod21-30-orig.md`. **Waiting for your approval**, and one question
-    first: three approved rules (*æreis → aeriis* …) turn the bronze bases of 27:10–18 into “airy” ones.
-  - **Exodus 31–40** (not on Wikisource): `data/review/exod31-40-plan.md`, a proposed route (a draft from 1738's own
-    OCR with 1750 and 1726 voting, then every column read on the page). Tested on 21–30, the voting alone gets 84% of
-    words right. **Waiting for your answer before anything is drafted.**
+- **The Old Testament printed text works as the New's; Exodus 21–30 settled; Exodus 31–40 drafted** (2026-11-14,
+  your request; committed 2026-11-15 in fc5e64a).
+  - **Genesis and Exodus 1–30 as printed (1738), drafts**: `data/review/ot-orig-gen-exod1-20.md` (start there),
+    with `gen1-50-orig.md` and `exod1-30-orig.md`. 1738 is read from its hOCR, so each word has its leaf; **1738's
+    own paragraphs** are read from its indents (every one checked on the page); **each verse's leaf** is recorded
+    and the site's banner links to the page at the Internet Archive. **Every word not read in the OCR is now read
+    on the leaves** (decision 68: 3,022 words, the 273 doubtful ones among them); about 150 differ from the draft,
+    eleven of them other words than the settled text's, proposed in `data/review/ot-readings-1554-1573.md`.
+    **Still to do before approval**: the punctuation after the words not read in the OCR (395 places in Genesis,
+    141 in Exodus 1–30), and Exod 12:4 *accommodata*, cut off at a line's end on every crop.
+  - **Readings for the reading edition, decided** (decision 64): Gen 18:6 *depstīciōs*, 43:29 *locūtī fuistis* and
+    Exod 20:24 *cæspitium* applied; Exod 18:5 keeps *Cum* (1554 and 1573 print it; *Cumque* is 1738's alone, kept
+    in the printed text); Exod 6:22 *Sethris* and 15:6 *fortissimē* kept.
+  - **Exodus 21–30 settled** (decision 69) in `text/EXO.usfm`, after an independent proofread of all 343 verses.
+    The bronze bases of 27:10–18 are *æreīs*, *æreās*: the three rules that made them “airy” are replaced by
+    phrase rules beside *volucris* (decision 63).
+  - **Exodus 31–40** (not on Wikisource): your route accepted (decisions 67, 68: a draft from 1738's own OCR with
+    1750 and 1726 voting, checked first on Exodus 21–23). Stages 1–2 are done, 1738 read on the page line by line
+    (`data/review/exod31-40-stage2.md`, draft `text/draft/EXO.usfm`); **stages 3–5 (`propose Exod 31-40`) come
+    next and have not been run.**
   - Tools: `archive.witness`, `archive.indents`, `archive.sheet`, `orig --sheets`, `orig` on a draft's chapters after
     stage 2, ¶ and `#n` rows in the orig decision files; tests added. `Exod.draft.edits.tsv` of 1–20 kept as
     `Exod1-20.draft.edits.tsv`.
