@@ -30,6 +30,17 @@ ADDITIONS = r"""
   % The footnotes' Greek in GFS Didot (the Greek Font Society's, OFL), whose Latin is Palatino's kin
   \newfontfamily\GraecaFont{GFSDidot}[Extension=.otf, Scale=MatchLowercase]
   \renewcommand{\Graece}[1]{{\GraecaFont #1}}
+  % The footnotes' Hebrew in Ezra SIL (OFL; pipeline/fonts/castellio-hebrew.ttf, copied beside the .tex), right to
+  % left; under LuaLaTeX shaped by HarfBuzz, which places the vowel points
+  \ifLuaTeX
+    \newfontfamily\HebraeaFont{castellio-hebrew}[Path=./, Extension=.ttf, Script=Hebrew, Renderer=HarfBuzz,
+      Scale=MatchLowercase]
+    \renewcommand{\Hebraice}[1]{\mbox{\HebraeaFont\textdir TRT #1}}
+  \else
+    \newfontfamily\HebraeaFont{castellio-hebrew}[Path=./, Extension=.ttf, Script=Hebrew, Scale=MatchLowercase]
+    \TeXXeTstate=1
+    \renewcommand{\Hebraice}[1]{\mbox{\HebraeaFont\beginR #1\endR}}
+  \fi
   \usepackage{newunicodechar}        % Pagella has no precomposed ȳ: y with a macron accent
   \newunicodechar{ȳ}{\=y}
   \newunicodechar{Ȳ}{\=Y}
@@ -212,6 +223,7 @@ def write(selected, folder, stem, title, version, compile_pdf=True, gutter=None)
     folder.mkdir(parents=True, exist_ok=True)
     tex = folder / f"{stem}.tex"
     tex.write_text(document(selected, title, version, gutter), encoding="utf-8", newline="\n")
+    shutil.copyfile(paths.ROOT / "pipeline" / "fonts" / "castellio-hebrew.ttf", folder / "castellio-hebrew.ttf")
     made = [tex]
     if not compile_pdf:
         return made

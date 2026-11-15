@@ -246,6 +246,7 @@ class Latex(unittest.TestCase):
         self.assertIn("\\newfontfamily\\GraecaFont{GFSDidot}", pdf.ADDITIONS)
         self.assertIn("\\renewcommand{\\Graece}[1]{{\\GraecaFont #1}}", pdf.ADDITIONS)
         self.assertEqual(latex.note_to_latex("Græcē ἀγάπη τῷ"), "Græcē \\Graece{ἀγάπη τῷ}")
+        self.assertEqual(latex.note_to_latex("Hebraicē הָאָרֹן, ‘arcæ’"), "Hebraicē \\Hebraice{הָאָרֹן}, `arcæ'")
 
     def test_document_closes_each_book_without_a_list_of_pages(self):
         selected = publish.load(["Mark", "Rom"])

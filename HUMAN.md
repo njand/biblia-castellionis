@@ -2,6 +2,19 @@
 
 ## Now
 
+- **Exodus 31–40 settled** (2026-11-15, decision 74; your "Settle it"): in `text/EXO.usfm`, which now holds all 40
+  chapters (1,213 verses, every chapter at the KJV count); gold rebuilt; `text/draft/` removed (the draft and
+  preview are in git). Taken as decided: 37:9 *obtegerent* (1554, 1573), 36:27 *in īmō*, Castellio's verse division
+  at 36:25–34 and 38:13–18, *tēmet ipsum* (32:13), and **40:20 *āræ* with a Latin note** (*Hebraicē הָאָרֹן, ‘arcæ’;
+  Castelliōnis ēditiōnēs ‘āræ’ habent*). Record: `data/review/exod31-40-stages3-5.md`, `-ch31.md` … `-ch40.md`,
+  `-stage2.md`. **Next**: the printed text of 31–40 (stage 2b, `pipeline orig Exod 31-40`), after which Exodus as
+  printed can be approved whole. Nothing committed.
+- **The PDF sets Hebrew** (2026-11-15, your "Add a Hebrew font"), for the 40:20 note: Hebrew runs in a note become
+  `\Hebraice{…}` (`latex.note_to_latex`), set right to left in Ezra SIL (`pipeline/fonts/castellio-hebrew.ttf`, the
+  site's own subset as TrueType, copied beside the .tex), shaped by HarfBuzz under LuaLaTeX. Compiled here with
+  LuaLaTeX (TeX Live 2026 in WSL): no errors, 0 missing characters, and the word seen on the rendered page,
+  pointed and right to left. XeTeX (Tectonic) has a right-to-left fallback, untested; pdfLaTeX leaves the word out.
+
 - **Genesis as printed (1738) approved** (2026-11-15, decision 72; your "Approve Genesis"): `text/orig/GEN.usfm`, read
   on the page word by word and mark by mark (the punctuation pass: `data/review/ot-orig-gen-exod1-20.md`, "What is
   left"). The site's *As printed, 1738* now shows for Genesis on the next push. The pass also fixed 1738's capital
@@ -475,6 +488,8 @@
 | 70 | 2026-11-14 | **Classical number forms in the edited text** (Nathan: "Always use the more classical number forms, i.e. undeviginti, not novemdecim. This only applies to the edited text, not the raw original print"): Gen 11:25 keeps *ūndēvīgintī* against all three prints' *novemdecim/novendecim*; the printed text keeps the print's. Which other numbers it reaches is in `data/review/number-forms.md`. |
 | 71 | 2026-11-15 | **Accepted** (Nathan: "Accept all of the other proposals I didn't comment on"): *ānulus* for *annulus* (Gaffiot, Cicero, 1573), *sēdecim*, *trīcēnum*, *caccabus*, *sæpiō* and compounds, Heb 9:5 *Cherūbī* (`data/review/spellings-2026-11-15.md`); *hujus librī* in the preface; `number-forms.md` 1–3 (99 stays additive); the NT *inquit* with commas (`inquit-vescor.md` §3); the 13 readings of `ot-readings-1554-1573.md`; Exodus 31–40 questions 1 (*obtegerent*), 3 (*in īmō*, the phrase rule approved) and 4 (Castellio's verse division kept). |
 | 72 | 2026-11-15 | **Genesis as printed (1738) approved** (Nathan: "Approve Genesis"), after the punctuation pass: `text/orig/GEN.usfm`. Exodus 1–30 waits for 31–40. ***Ismaēl*** (Gaffiot *Ismăēl*), not *Ismæl*, in the edited text (Nathan: "Go with Gaffiot. Ismaēl is correct."; `spellings-2026-11-15.md` §6). |
+| 73 | 2026-11-15 | (Nathan: "keep hujusmodi together, separate temet ipsum, add the note to Exodus 40:20, and update the font style") ***hujusmodī*** joined at Matt 13:36; ***tēmet ipsum***, ***sēmet ipsum*** apart (Heb 1:3; rules for drafts; Exod 32:13 in review); **Exod 40:20** *āræ* kept with a note (Hebrew *arcæ*), applied when 31–40 is settled; the site's italics use Gentium's two-storey *a* (`ss05`), so italic *æ* no longer looks like *œ*. |
+| 74 | 2026-11-15 | **Exodus 31–40 settled** (Nathan: "Settle it"), with the four questions decided (decisions 71, 73): `text/EXO.usfm` now complete; 40:20 *āræ* with a note. |
 
 ## How to run
 

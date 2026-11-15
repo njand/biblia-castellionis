@@ -24,6 +24,9 @@
 % is set in the LGR encoding's TeX Greek fonts (greek-inputenc maps the Unicode); under LuaLaTeX or XeTeX
 % pipeline/pdf.py redefines \Graece to GFS Didot, the Greek drawn to sit with Palatino.
 \newcommand{\Graece}[1]{{\fontencoding{LGR}\selectfont #1}}
+% Hebrew in the footnotes (Exod 40:20): set by LuaLaTeX or XeTeX (pipeline/pdf.py); pdfLaTeX has no Hebrew font, so
+% there the word is left out.
+\newcommand{\Hebraice}[1]{}
 % \usepackage{imfellEnglish}
 \usepackage{palatino}
 

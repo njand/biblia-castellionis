@@ -68,7 +68,7 @@ Proposed: one word everywhere, as Gaffiot and Castellio's usual practice have it
 
 1. **Apply:** `Matt.13.36` la: `hujus modī verbīs` → `hujusmodī verbīs`
 
-**Decision:** pending (Nathan, 2026-11-15, asked for the corpus evidence, Cicero especially: given in the section above)
+**Decision:** accept (Nathan, 2026-11-15: "keep hujusmodi together, separate temet ipsum, add the note to Exodus 40:20, and update the font style")
 
 ## 3. Four spellings the settled Exodus shares with 31–40, against Gaffiot
 
@@ -152,3 +152,14 @@ diphthong. Gaffiot heads it ***Ismăēl, ēlis*** (`latin macron`), as the Greek
 13. **Apply:** `Gen.36.3` la: `Basematham Ismælis` → `Basematham Ismaēlis`
 
 **Decision:** accept (Nathan, 2026-11-15: "Go with Gaffiot. Ismaēl is correct.")
+
+## 7. *tēmet ipsum*, *sēmet ipsum*: apart
+
+The corpus evidence is in section 3 (*temet ipsum* in the Vulgate, Curtius, Fronto; *semet ipsum* in Livy; *memet
+ipsum* in Cicero; joined forms mostly late). Written apart, as decision 51's *sē ipsum*. Rules for future drafts:
+`temetipsum → temet ipsum`, `semetipsum → semet ipsum`, `memetipsum → memet ipsum` (word, approved). Exodus 32:13
+(in review) takes the rule.
+
+1. **Apply:** `Heb.1.3` la: `per sēmetipsum expiātiōne` → `per sēmet ipsum expiātiōne`
+
+**Decision:** accept (Nathan, 2026-11-15: "keep hujusmodi together, separate temet ipsum, add the note to Exodus 40:20, and update the font style")

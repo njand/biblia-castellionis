@@ -259,15 +259,17 @@ def unicode_to_latex(text):
 
 
 GREEK_RUN = re.compile(r"[Ͱ-Ͽἀ-῿]+(?:\s+[Ͱ-Ͽἀ-῿]+)*")
+HEBREW_RUN = re.compile(r"[֐-׿יִ-ﭏ]+(?:\s+[֐-׿יִ-ﭏ]+)*")
+FOREIGN_RUN = re.compile(f"(?P<grc>{GREEK_RUN.pattern})|(?P<he>{HEBREW_RUN.pattern})")
 
 
 def note_to_latex(text):
-    """A footnote's text → LaTeX: Greek as it is (Unicode) in \\Graece{…}, which sets it in GFS Didot (pdf.py
-    ADDITIONS); the rest as unicode_to_latex."""
+    """A footnote's text → LaTeX: Greek as it is (Unicode) in \\Graece{…}, which sets it in GFS Didot, and Hebrew in
+    \\Hebraice{…}, set right to left in Ezra SIL (Exod 40:20; pdf.py ADDITIONS); the rest as unicode_to_latex."""
     out, at = [], 0
-    for match in GREEK_RUN.finditer(text):
+    for match in FOREIGN_RUN.finditer(text):
         out.append(unicode_to_latex(text[at:match.start()]))
-        out.append(f"\\Graece{{{match.group()}}}")
+        out.append(f"\\{'Graece' if match.group('grc') else 'Hebraice'}{{{match.group()}}}")
         at = match.end()
     out.append(unicode_to_latex(text[at:]))
     return "".join(out)

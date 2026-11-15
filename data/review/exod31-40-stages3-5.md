@@ -69,8 +69,11 @@ independent proofread of all 325 verses by two more readers; its findings are fi
    (38:7 *vectēs … ad āræ costās*, 39:39 *āram ærātam … vectēsque*). Not changed. Correct to *arcæ*, or keep
    *āræ* with a note, as the edition does where Castellio departs from the Greek (1 John 4:4, 1 Pet 5:8, Jude 6; the
    front matter's *Notæ* promise such notes for the Hebrew too)? The note on the model of those:
-   ` + r 40:20 t Hebraicē הָאָרֹן, ‘arcæ’; Castelliōnis ēditiōnēs ‘āræ’ habent.*`
-   **Apply** (only if accepted): `Exod.40.20` la: `vectes arae accommodavit` → `vectes arcae accommodavit` (to the draft: `--to text/draft/EXO.usfm`)
+   `\f + \fr 40:20 \ft Hebraicē הָאָרֹן, ‘arcæ’; Castelliōnis ēditiōnēs ‘āræ’ habent.\f*`
+   **Decided** (Nathan, 2026-11-15): *āræ* kept, with the note. The drafts carry no notes, so it is applied to
+   `text/EXO.usfm` when 31–40 is settled, by this line:
+   **Apply** (on settling): `Exod.40.20` la: `vectēs āræ accommodāvit` → `vectēs āræ\f + \fr 40:20 \ft Hebraicē הָאָרֹן, ‘arcæ’; Castelliōnis ēditiōnēs ‘āræ’ habent.\f* accommodāvit`
+   Declined (the correction to *arcæ*): `Exod.40.20` `vectes arae accommodavit` → `vectes arcae accommodavit`
 3. **36:27 *in immō***: the approved word rule *imo → immo* (learned from Gen 23:13 *immō*, "no indeed") also turns
    *in imo* "at the bottom" (*īmus*, Gaffiot) into *immō*, here and in the settled 26:24 *et in immō et in summō*.
    Proposed: a phrase rule `in imo → in imo` (status `proposed`, which keeps *īmō* where *in* precedes), and the
@@ -84,4 +87,4 @@ Also for you to know: *sexdecim* (36:29), *trīgēnum* (36:15) and *cācabōs* (
 Gaffiot's variant of *circumsæptum*; *tēmetipsum* (32:13) is written as one word, as the settled *sēmetipsum*,
 though decision 51 writes *sē ipsum* apart. Say if any should change everywhere.
 
-**Decision:** accept 1, 3, 4 (Nathan, 2026-11-15: "Accept all of the other proposals I didn't comment on"; question 2, 40:20, waits on the page images; the approval of 31–40 follows it)
+**Decision:** accept 1, 2, 3, 4 (Nathan, 2026-11-15: "Accept all of the other proposals I didn't comment on"; 2, 40:20: *āræ* kept with the note, applied on settling; Exodus 31–40 settled, "Settle it")

@@ -249,6 +249,9 @@ a.v:hover { color: var(--accent); }
 ::highlight(verses) { background-color: var(--mark); }
 tr.sel td { background: var(--mark); }
 .qt { font-style: italic; }
+/* Gentium's italic a has one storey, so its italic æ looks like œ; ss05 gives the italic the two-storey a */
+i, em, .qt, .chapter p.argumentum, .chapter p.cls, .chapter p.d, sup.fn, aside.fn a, p.ref-note, .praefatio h3,
+.praefatio p.signature, .downloads .part { font-feature-settings: "ss05" 1; }
 .chapters { display: flex; flex-wrap: wrap; gap: .35rem; padding: 0; list-style: none; }
 .chapters a { display: inline-block; min-width: 2.4em; text-align: center; padding: .2em .3em;
   border: 1px solid var(--rule); border-radius: 4px; text-decoration: none; }
