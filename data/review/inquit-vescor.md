@@ -72,4 +72,4 @@ both recommendations the same day.
 17. **Rev 22:6**
     **Apply:** `Rev.22.6` la: `“Hæc sunt (inquit mē alloquēns) certa` → `“Hæc sunt,” inquit mē alloquēns, “certa`
 
-**Decision:** pending
+**Decision:** accept (Nathan, 2026-11-15: "Accept all of the other proposals I didn't comment on")

@@ -115,4 +115,4 @@ chapters: the settled Heb 9:5 has *Cherubī* (u unmarked) against Gen 3:24 *Cher
 2. ***lābrum*** (the basin, 30:17–28) and ***labrum*** (the lip) are different words; the readers marked the basin
    long (Gaffiot *lābrum*). The settled text has neither.
 
-**Decision:** pending
+**Decision:** accept (Nathan, 2026-11-14: decision 69, settled in `text/EXO.usfm`)

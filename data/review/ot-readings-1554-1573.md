@@ -62,7 +62,7 @@ The printed text (`text/orig/draft/`) already has 1738's words. These Apply line
 12. **Exod 6:14** *Rūbēninæ* stays: 1554 and 1573 print *Rubeninæ*; 1738's *rubeniæ* is its misprint, kept in the
     printed text only. No Apply line.
 
-**Decision:** pending
+**Decision:** accept all (Nathan, 2026-11-15: "Accept all of the other proposals I didn't comment on")
 
 ## Misprints of 1738, kept in the printed text only
 

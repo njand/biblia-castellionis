@@ -31,4 +31,4 @@ author here uses it), and the additive forms are the ones Livy and Frontinus wri
 4. **99 stays additive** (Matt 18:12–13, Luke 15:4, 7 *nōnāgintā novem*): *ūndēcentum* is not in the corpus.
    Your call: say if 99 should take the rule too.
 
-**Decision:** pending
+**Decision:** accept 1, 2, 3 (Nathan, 2026-11-15: "Accept all of the other proposals I didn't comment on"; 4: 99 stays additive)

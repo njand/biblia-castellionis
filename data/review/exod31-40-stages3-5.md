@@ -8,8 +8,8 @@ Proposed 2026-11-15 (decision 30's standing rule), as Exodus 21–30 (`data/revi
 - **Stages 1–2**: `data/review/exod31-40-stage2.md`. Wikisource has no Exodus 31–40, so the draft
   (`text/draft/EXO.usfm`, 325 verses, KJV numbering) is 1738's own text, every line read on the page twice. Four
   corrections for the reading edition were added there from stages 3–5 (its last section): 33:1 *lacte*, 33:8
-  *tabernāculum*, 36:25 *totidemque* (1738's misprints) and 37:9 *obtegerent* (1726; 1738 and 1750 *obtegeret*, which
-  does not construe: **your call**).
+  *tabernāculum*, 36:25 *totidemque* (1738's misprints) and 37:9 *obtegerent* (1554, 1573 and 1726; 1738 and 1750
+  *obtegeret*, which does not construe: **your call**).
 - **Stages 3–5**: `data/review/exod31-40-ch31.md` … `-ch40.md`, 325 items, all checking `ok`. Preview:
   **`text/draft/EXO.preview.usfm`**.
 - **Stage 2b** (the printed text, from the read lines) is not built yet: it needs the small `orig` route described at
@@ -54,11 +54,22 @@ independent proofread of all 325 verses by two more readers; its findings are fi
 
 ## Questions
 
-1. **37:9 *obtegerent*** (above): applied to the draft from 1726; say if you prefer 1738's *obtegeret*.
+1. **37:9 *obtegerent*** (above): applied to the draft from 1726; say if you prefer 1738's *obtegeret*. Since
+   seen on Castellio's own pages (2026-11-15): **1554** *obtegerẽt* (MDZ bsb10196330, image 62) and **1573**
+   *obtege-|rent* (bsb10141277, image 88). The singular is 1738's misprint (the tilde lost), carried into 1750.
 2. **40:20 *vectēs āræ accommodāvit*** ("the bars on the altar"): the verse is about the ark (Hebrew הָאָרֹן, LXX
-   κιβωτόν, KJV "the staves on the ark"), and *eam … propitiātōriō tēxit* that follows needs the ark. 1738 (leaf 156),
-   1750 (its OCR, line 14183) and 1726 (TXT/1, line 2477) all print *aræ*, so it is the printings' reading. Not
-   changed. Correct to *arcæ*?
+   κιβωτόν, KJV "the staves on the ark"). (*eam … propitiātōriō tēxit* does not decide it: *eam* can take up the
+   *arcam* of *in arcam illātō*.) 1738 (leaf 156), 1750 (its OCR, line 14183) and 1726 (TXT/1, line 2477) print
+   *aræ*, and so do **1554** *arę* (MDZ bsb10196330, image 64), **1556** *arę* (e-rara 10281727, p. 104, col. 1) and
+   **1573** *aræ* (image 90), all three seen on the page (2026-11-15). So it is the reading of every lifetime revision
+   Castellio made, not a later misprint (1551 not seen: Google Books refused the search). Not a misreading of the
+   Hebrew, which names the ark three times in the verse (*ʾărôn*) and has nothing like *mizbēaḥ*, the altar: most
+   likely a one-letter slip, *arcæ* → *aræ*, by Castellio or the first compositor, which leaves a grammatical
+   sentence (so nobody stopped at it), and *vectēs … āræ* is a phrase Castellio had just used for the altar's bars
+   (38:7 *vectēs … ad āræ costās*, 39:39 *āram ærātam … vectēsque*). Not changed. Correct to *arcæ*, or keep
+   *āræ* with a note, as the edition does where Castellio departs from the Greek (1 John 4:4, 1 Pet 5:8, Jude 6; the
+   front matter's *Notæ* promise such notes for the Hebrew too)? The note on the model of those:
+   ` + r 40:20 t Hebraicē הָאָרֹן, ‘arcæ’; Castelliōnis ēditiōnēs ‘āræ’ habent.*`
    **Apply** (only if accepted): `Exod.40.20` la: `vectes arae accommodavit` → `vectes arcae accommodavit` (to the draft: `--to text/draft/EXO.usfm`)
 3. **36:27 *in immō***: the approved word rule *imo → immo* (learned from Gen 23:13 *immō*, "no indeed") also turns
    *in imo* "at the bottom" (*īmus*, Gaffiot) into *immō*, here and in the settled 26:24 *et in immō et in summō*.
@@ -73,4 +84,4 @@ Also for you to know: *sexdecim* (36:29), *trīgēnum* (36:15) and *cācabōs* (
 Gaffiot's variant of *circumsæptum*; *tēmetipsum* (32:13) is written as one word, as the settled *sēmetipsum*,
 though decision 51 writes *sē ipsum* apart. Say if any should change everywhere.
 
-**Decision:** pending
+**Decision:** accept 1, 3, 4 (Nathan, 2026-11-15: "Accept all of the other proposals I didn't comment on"; question 2, 40:20, waits on the page images; the approval of 31–40 follows it)

@@ -2,6 +2,28 @@
 
 ## Now
 
+- **Genesis as printed (1738) approved** (2026-11-15, decision 72; your "Approve Genesis"): `text/orig/GEN.usfm`, read
+  on the page word by word and mark by mark (the punctuation pass: `data/review/ot-orig-gen-exod1-20.md`, "What is
+  left"). The site's *As printed, 1738* now shows for Genesis on the next push. The pass also fixed 1738's capital
+  *Ae* (205 words), the OCR's *cc* for *œ*, written-out *ae*, and a dozen word forms (`pipeline/orig.py`:
+  `untie_capitals`, `cc_for_oe`, `retie`; tested). ***Ismaēl*** for the settled *Ismæl* (13 places; your "Go with
+  Gaffiot") applied, gold rebuilt. Exodus 1–30's printed text is ready too and waits for 31–40. Nothing committed.
+
+- **Your answers of 2026-11-15 applied** (decision 71; "Accept all of the other proposals I didn't comment on"):
+  58 replacements in `text/` by their Apply lines, gold rebuilt (Gen, Exod, Rom, 2 Cor, Acts, Eph, Heb, Jas, Rev):
+  *ānulus* (17), *sēdecim*, *trīcēnum*, *caccabōs*, *sæpt-*, Heb 9:5 *Cherūbī*
+  (`data/review/spellings-2026-11-15.md` §1, 3, 5); the numbers of `number-forms.md` 1–3; the 12 New Testament
+  *inquit* (`inquit-vescor.md` §3); the 13 readings of `ot-readings-1554-1573.md`; Exod 26:24 *in īmō*. The preface
+  says *hujus librī titulus*. Rules added for future drafts (and *in imo* approved); Exodus 31–40 re-proposed (all
+  325 `ok`). The 1738 printed-text drafts rebuilt with their rows re-keyed: unchanged but for 1738's own *tu adstas*
+  (Exod 3:5) and *cuia* (22:9), now that the settled words match the page.
+  - **Site, fixed in `pipeline/site.py`**: the preface left-aligned on a phone, like the chapters; verse 1 numbered
+    (and selectable) on screen in both texts. Not yet pushed.
+  - **Still yours**: §2 *hujusmodī* at Matt 13:36 (the Cicero evidence is in the file: it splits by edition, not by
+    author); *tēmet ipsum* / *sēmet ipsum* apart or joined (evidence there too); Exod 40:20 *āræ* with a note or
+    *arcæ* (1554, 1556, 1573 all read *aræ*, seen on the page); then Exodus 31–40 to settle. The font: Gentium's
+    italic *æ* has a one-storey *a* and looks like *œ*; its stylistic set `ss05` gives the italic a two-storey *a*.
+
 - **Exodus 31–40 through stages 3–5, waiting for your approval** (2026-11-15, your "Run stages 3–5 for Exodus
   31–40"): `data/review/exod31-40-stages3-5.md` (start there), `-ch31.md` … `-ch40.md` (325 verses, all `ok`),
   preview `text/draft/EXO.preview.usfm`. Four readers, then an independent proofread of every verse (its findings
@@ -26,8 +48,7 @@
     and the site's banner links to the page at the Internet Archive. **Every word not read in the OCR is now read
     on the leaves** (decision 68: 3,022 words, the 273 doubtful ones among them); about 150 differ from the draft,
     eleven of them other words than the settled text's, proposed in `data/review/ot-readings-1554-1573.md`.
-    **Still to do before approval**: the punctuation after the words not read in the OCR (395 places in Genesis,
-    141 in Exodus 1–30), and Exod 12:4 *accommodata*, cut off at a line's end on every crop.
+    **Done 2026-11-15**: the punctuation after the words not read in the OCR, and Exod 12:4 *accommodata* (see Now).
   - **Readings for the reading edition, decided** (decision 64): Gen 18:6 *depstīciōs*, 43:29 *locūtī fuistis* and
     Exod 20:24 *cæspitium* applied; Exod 18:5 keeps *Cum* (1554 and 1573 print it; *Cumque* is 1738's alone, kept
     in the printed text); Exod 6:22 *Sethris* and 15:6 *fortissimē* kept.
@@ -452,6 +473,8 @@
 | 68 | 2026-11-14 | **Before approval, every word of the 1738 printed text not read in its OCR is read on the page** (Genesis, Exodus 1–20: about 2,500 words), as the New Testament was held to decision 58. **Exodus 31–40** from 1738's own OCR, 1750 and 1726 voting, every column read on the page; checked first on Exodus 21–23 against the Wikisource route; 1738's chapter summaries left out. |
 | 69 | 2026-11-14 | **Exodus 21–30 settled** (your recommendations accepted; B7: after an independent proofread of all 343 verses, whose 16 problems were fixed first, `data/review/exod21-30-stages3-5.md`): in `text/EXO.usfm` (888 verses with 1–20), gold rebuilt, the draft removed (not in git; a copy of the stage-2 draft was kept for the 31–40 check). Its printed text (1738) stays a draft until its unread words are read, as Genesis's. |
 | 70 | 2026-11-14 | **Classical number forms in the edited text** (Nathan: "Always use the more classical number forms, i.e. undeviginti, not novemdecim. This only applies to the edited text, not the raw original print"): Gen 11:25 keeps *ūndēvīgintī* against all three prints' *novemdecim/novendecim*; the printed text keeps the print's. Which other numbers it reaches is in `data/review/number-forms.md`. |
+| 71 | 2026-11-15 | **Accepted** (Nathan: "Accept all of the other proposals I didn't comment on"): *ānulus* for *annulus* (Gaffiot, Cicero, 1573), *sēdecim*, *trīcēnum*, *caccabus*, *sæpiō* and compounds, Heb 9:5 *Cherūbī* (`data/review/spellings-2026-11-15.md`); *hujus librī* in the preface; `number-forms.md` 1–3 (99 stays additive); the NT *inquit* with commas (`inquit-vescor.md` §3); the 13 readings of `ot-readings-1554-1573.md`; Exodus 31–40 questions 1 (*obtegerent*), 3 (*in īmō*, the phrase rule approved) and 4 (Castellio's verse division kept). |
+| 72 | 2026-11-15 | **Genesis as printed (1738) approved** (Nathan: "Approve Genesis"), after the punctuation pass: `text/orig/GEN.usfm`. Exodus 1–30 waits for 31–40. ***Ismaēl*** (Gaffiot *Ismăēl*), not *Ismæl*, in the edited text (Nathan: "Go with Gaffiot. Ismaēl is correct."; `spellings-2026-11-15.md` §6). |
 
 ## How to run
 

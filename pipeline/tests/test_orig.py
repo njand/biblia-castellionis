@@ -144,6 +144,14 @@ class OldTestament(unittest.TestCase):
         orig.apply_paragraph_rows(chapter, {("Exod.12.17", "Pānēs"): (True, ""), ("Exod.12.17", "autem"): (False, "")})
         self.assertEqual(chapter.breaks, {0: None})
 
+    def test_1738_prints_capital_ae_untied(self):
+        words = [orig.Word("Exod.1.5", "Ægyptō", "Aegypto", "Ægypto", "ocr"),
+                 orig.Word("Exod.1.5", "incolæ", "incolae", "incolæ", "ocr"),
+                 orig.Word("Exod.2.19", "Ægyptiō", None, "Aegytio", "read"),
+                 orig.Word("Exod.1.1", "ÆGYPTUM", "AEGYPTVM", "ÆGYPTVM", "ocr")]
+        orig.untie_capitals([orig.Chapter(1, words=words)])
+        self.assertEqual([w.form for w in words], ["Aegypto", "incolæ", "Aegytio", "ÆGYPTVM"])
+
 
 class Indents(unittest.TestCase):
     """archive.indents on a made-up column: an indent after a stop is a paragraph, past a number in the left margin
@@ -170,3 +178,15 @@ class Indents(unittest.TestCase):
         finally:
             del archive._PAGES["test"]
         self.assertEqual([(place, word) for place, (_, word) in found.items()], [((0, 4), "Kappa")])
+
+    def test_1738_cc_read_for_oe(self):
+        words = [orig.Word("Gen.37.18", "cœpērunt", "cceperunt", "cceperunt", "lexicon"),
+                 orig.Word("Gen.37.18", "accēdere", "accedere", "accedere", "ocr")]
+        orig.cc_for_oe([orig.Chapter(37, words=words)])
+        self.assertEqual([w.form for w in words], ["cœperunt", "accedere"])
+
+    def test_1738_lexicon_ae_tied(self):
+        words = [orig.Word("Exod.7.7", "ætātis", None, "aetatis", "lexicon"),
+                 orig.Word("Gen.1.2", "āerem", None, "aerem", "lexicon")]
+        orig.retie([orig.Chapter(7, words=words)])
+        self.assertEqual([w.form for w in words], ["ætatis", "aerem"])

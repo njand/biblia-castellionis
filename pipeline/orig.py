@@ -862,9 +862,45 @@ def build(osis, chapters, witness=None, known=None):
     printer_habits(built.values(), books.select([osis])[0].testament)
     spelling_prone(built.values())
     fix_ligatures(built.values(), ligature_stems(known))
+    if books.select([osis])[0].testament == "vetus":
+        untie_capitals(built.values())
+        cc_for_oe(built.values())
+        retie(built.values())
     for chapter in built.values():
         stray_stops(chapter)
     return built
+
+
+def untie_capitals(chapters):
+    """1738 has the æ and œ ligatures in lower case only: a capital is printed as two letters (in Aegypto, leaf 114;
+    Aegytio, Exod 2:19, leaf 116), where 1573 prints Æ (Ægypti, canvas 837). `choose` ties the OCR's Ae like ae, so
+    the capital is untied here; a word read on the page keeps its row's form, and a word in capitals is left alone."""
+    for chapter in chapters:
+        for w in chapter.words:
+            if w.kind != "read" and w.form[:1] in "ÆŒ" and not w.form.isupper():
+                w.form = {"Æ": "Ae", "Œ": "Oe"}[w.form[0]] + w.form[1:]
+
+
+def retie(chapters):
+    """1738 prints æ and œ in lower case as ligatures, and its OCR writes them out (aetatis): a form not read on the
+    page that took the OCR's spelling through the lexicon is tied where the settled word has the ligature, as
+    `choose` ties a word read in the OCR (ætatis, seen on leaves 87 and 120)."""
+    for chapter in chapters:
+        for w in chapter.words:
+            if w.kind == "read" or not re.search("ae|oe", w.form):
+                continue
+            tied = re.sub("ae|oe", lambda m: {"ae": "æ", "oe": "œ"}[m.group()], w.form)
+            if letters(tied).replace("œ", "æ").lstrip("h") == letters(printerize(w.base)).replace("œ", "æ").lstrip("h"):
+                w.form = tied
+
+
+def cc_for_oe(chapters):
+    """1738's OCR reads the œ of cœp-, cœn- as ce (cceperunt, ccenam), and the lexicon learned it: where the settled
+    word begins with cœ and the form with cc, the print has cœ (cœperunt, seen on leaf 98, Gen 37:18)."""
+    for chapter in chapters:
+        for w in chapter.words:
+            if w.kind != "read" and w.form[:3].lower() == "cce" and w.base[:2].lower() in ("cœ", "cē"):   # cēna, 1738 cœna
+                w.form = w.form[0] + "œ" + w.form[3:]
 
 
 def testament_lexicon(testament, witness):

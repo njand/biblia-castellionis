@@ -33,7 +33,7 @@ for it; the sentence on the Apocrypha appears only once they are built.
 >
 > Castelliō, cui Gallicē nōmen erat Sébastien Châteillon, annō 1515 in Sabaudiā nātus est, in vīcō
 > Saint-Martin-du-Fresne, agricolæ fīlius. Lugdūnī in Collēgiō Trīnitātis litterās Latīnās et Græcās didicit sēque
-> Castaliōnem appellāre cœpit; Castelliōnem posteriōrēs typographī scrīpsērunt, unde nostrī librī titulus. Hebræam
+> Castaliōnem appellāre cœpit; Castelliōnem posteriōrēs typographī scrīpsērunt, unde hujus librī titulus. Hebræam
 > linguam quōmodo didicerit nescītur; probē tamen nōverat. Annō 1540 in domō Jōhannis Calvīnī habitāvit, quī tum
 > exsul Argentorātī vīvēbat; annō 1542, Calvīnō Genāvam revocātō, lūdī Genāvēnsis magister factus est atque in
 > discipulōrum ūsum *Dialogōs sacrōs* scrīpsit, ex quibus puerī ducentōs amplius annōs Latīnē didicērunt. Cum autem

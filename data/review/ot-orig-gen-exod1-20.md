@@ -4,7 +4,7 @@ Built 2026-11-14 (`python -m pipeline orig Gen 1-50`, `Exod 1-20`). The drafts a
 `EXO.usfm`; how each word was made, word by word, is in `gen1-50-orig.md` and `exod1-20-orig.md`. This file is the
 summary, the questions for the reading edition the page readings raised, and the Decision line.
 
-**Decision:** pending
+**Decision:** approved for Genesis (Nathan, 2026-11-15: "Approve Genesis"; moved to `text/orig/GEN.usfm`). Exodus 1–30 waits for 31–40's printed text.
 
 ## What changed since 2026-11-13
 
@@ -58,12 +58,33 @@ summary, the questions for the reading edition the page readings raised, and the
   1738's misprints (Gen 37:7 *venerebantur*, 43:30 *miersatione*, Exod 2:19 *Aegytio*, 4:1 *adparauisse*, 23:30
   *fctifices*), kept as printed (decision 58). Eleven are **different words** from the settled text, and 1554 and
   1573 agree with 1738 in each: proposed for the reading edition in `data/review/ot-readings-1554-1573.md`.
-  One word is left: Exod 12:4 *accommodata*, whose first syllable is cut off at a line's end on every crop.
+  The last two, read 2026-11-15: Exod 12:4 *ac-|commodata.* (the line break falls inside the word, no hyphen
+  printed; leaf 125) and 26:24 *coapta-|bis.* (leaf 140).
 - The review files are now `gen1-50-orig.md` and `exod1-30-orig.md` (the latter replaces `exod1-20-orig.md` and
   `exod21-30-orig.md`).
-- **Punctuation after the words that were not read in the OCR** (395 places in Genesis, 141 in Exodus 1–30) is
-  still the settled text's: the readers read the words, not the marks beside them. A last pass over those places
-  is needed before approval (decision 58 covers the punctuation too); it is the next reading.
+- **The punctuation pass (2026-11-15; decision 58)**: every mark the draft took from the settled text was read on
+  1738's leaves: the 539 places listed in the review files, the 47 where a stop before a lower-case word had been
+  dropped (*stray*), and a random sample of 148 of the 2,812 words whose (empty) mark was assumed, by five readers on
+  contact sheets of each word's lines and then, for the 60 whose crops missed the line, by one reader on the whole
+  leaves; the last six by me. Each mark is now a `|` on the word's row in `data/decisions/Gen.orig.tsv` and
+  `Exod.orig.tsv`. **The page differs from the draft in 45 places**: 41 of the listed ones (mostly a colon where the
+  settled text has a comma or full stop: *coleret: et*, Gen 3:23; *Ioua: quid*, 4:6; *peperit:* 4:1) and 4 of the
+  *stray* ones (Gen 8:19 *volucrum;*, 22:2, 24:47 *filia?*, 26:8). **The random sample had none** (148 of 148 as
+  drafted; at most about 2% of the unchecked 2,664 can differ), so those are left as they are. The lists of
+  punctuation not from the OCR are now empty.
+- **Found on the way, all fixed in the draft and read on the page**:
+  - **1738 prints the capital Æ as two letters** (*in Aegypto*, leaf 114), where 1573 prints *Æ* (*Ægypti*, canvas
+    837): 205 words (*Ægypt-* → *Aegypt-*) corrected by `orig.untie_capitals` (Old Testament only; tested).
+  - **The OCR reads the œ of cœp-, cœn- as ce** (*cceperunt*), which the lexicon had learned: 10 words, now *cœperunt*,
+    *cœnam* (`orig.cc_for_oe`); and lower-case *ae* the lexicon took from the OCR (*aetatis* 16, *quaerenti*,
+    *præterea* …), tied as 1738 prints them (`orig.retie`).
+  - **Word forms** the readers saw printed otherwise: Gen 24:45 *eram* (the lexicon had *heram*, "mistress"), 27:36
+    *næ*, 18:31 *næ*, 31:31 *eriperes*, Exod 9:4 *ægyptium*, 10:5 *consumturæ*, *Ismael* in all ten places read (not
+    *Ismæl*: also wrong in the settled text, proposed in `spellings-2026-11-15.md` §6), 1738's misprints Exod 3:7
+    *Aegyto* and 28:19 *e* for *et* (kept, decision 58), words run together (*verbafacit*, Gen 24:34;
+    *successitHusamus*, 36:34), and 21 next words in lower case after a colon (*coleret: et*).
+  - Three readings stayed uncertain after two readers (Gen 18:28 *ille)*, 42:32 *iam*, 47:30 *tu*): each takes the
+    reading both gave, with a note on its row.
 - The open questions at the end of each review file (accents, summaries, Castellio's G. … H. marks, capitals of
   unread words) are as for the New Testament.
 

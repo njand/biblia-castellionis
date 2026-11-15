@@ -100,7 +100,9 @@ def chapter_html(chapter, verse_id, chapter_id, filt=lambda text: text, verse_li
             parts.append(f'<span class="c" id="{chapter_id}">{chapter.number}</span>')
         for kind, value in block.content:
             if kind == "v":
-                if value == 1:
+                if value == 1 and verse_link:   # on screen the drop cap is hidden, so verse 1 is numbered (and selectable)
+                    parts.append(f'<a class="v v1" id="{verse_id(1)}" href="#{verse_id(1)}">1</a>')
+                elif value == 1:                # the EPUB: the drop cap stands for verse 1, as in print
                     parts.append(f'<span id="{verse_id(1)}"></span>')
                 elif verse_link:
                     parts.append(f'<a class="v" id="{verse_id(value)}" href="#{verse_id(value)}">{value}</a>')
@@ -315,7 +317,7 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
   #ref { max-width: 7.5rem; }
   #theme .label { display: none; }
   #verse-bar { bottom: .5rem; font-size: 13px; gap: .35rem; }
-  .chapter p { text-align: left; }
+  .chapter p, .praefatio p { text-align: left; }      /* a narrow column justified opens wide gaps */
   table.parallel, table.parallel tbody, table.parallel tr, table.parallel td { display: block; width: auto; }
   table.parallel td.n { width: auto; text-align: left; padding: .5em .5em 0; }
   table.parallel td, table.parallel td.ref { border-top: 0; width: auto; }
@@ -338,6 +340,7 @@ footer { max-width: 38rem; margin: 0 auto; padding: 1rem 1rem 3rem; font-size: .
   .chapter .poem { break-inside: avoid; }
   a { color: inherit; text-decoration: none; }
   .v { color: var(--muted); }
+  .chapter .v1 { display: none; }                     /* in print the drop cap stands for verse 1 */
   .v.sel, td.n.sel { font-weight: normal; color: var(--muted); }
   table.parallel tr { break-inside: avoid; }
   table.parallel td.ref { color: #333; }
