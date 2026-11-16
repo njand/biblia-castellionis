@@ -522,13 +522,22 @@ def modern(word, forms):
     found = forms.get(align.fold(plain))
     if found:
         return (found[0].upper() + found[1:]) if plain[:1].isupper() else found
+    # the enclitic -ue (Lev 11:3 ouemue, 27:33 malumue): a known word, or an accusative or -tor imperative, + ve
+    stem = plain[:-2]
+    if re.search(r"[^qg]ue$", plain) and (align.fold(stem) in forms or re.search(r"(m|tor)$", stem)):
+        return modern(stem, forms) + "ve"
     w = re.sub(r"^([Vv])(?=[^aeiouAEIOU]|$)", lambda m: "U" if m.group(1) == "V" else "u", plain)
     w = re.sub(r"(?<=.)v", "u", w)
     # u after a prefix or in a stem where it is always a consonant: ob|uelauit, sub|uehebat, super|uacaneas,
     # con|seruanto, ab|soluere, ceruix, paruus (the forms Wikisource lacks; jv reaches only u between vowels)
-    w = re.sub(r"^(ab|ad|circum|con|in|ob|per|sub|super|trans)u(?=[aeiou])", r"\1v", w, flags=re.I)
-    w = re.sub(r"(ser|cer|ner|par|sal|sil|sol|cal|ful)u(?=[aeiou])", r"\1v", w, flags=re.I)
-    return re.sub(r"(?<=[vV])j", "i", macronize.jv(w))       # sæuies: jv reads the i after u as between vowels
+    w = re.sub(r"^(ab|ad|animad|circum|con|in|ob|per|sub|super|trans)u(?=[aeiou])", r"\1v", w, flags=re.I)
+    # (not pāreō's perfect: Lev 26:15 paru|eritis, paruit)
+    w = re.sub(r"(ser|cer|ner|par|sal|sil|sol|cal|ful)u(?=[aeiou])(?!(?<=paru)(?:er|it\b|isse|imus|istis))", r"\1v",
+               w, flags=re.I)
+    w = re.sub(r"^([iI])uu(?=[aeiou])", r"\1uv", w)              # iuuatote (Lev 25:35): ju|v, not jvv
+    w = re.sub(r"(?<=[vV])j", "i", macronize.jv(w))          # sæuies: jv reads the i after u as between vowels
+    w = re.sub(r"^([Cc]o)j(?=[ei])", r"\1i", w)                   # coeō's coierit (Lev 20:12), not cojerit
+    return re.sub(r"^([Ss]ub)iug", r"\1jug", w)                    # subiugiis (Lev 26:13): sub|jug-
 
 
 def wikisource_forms():

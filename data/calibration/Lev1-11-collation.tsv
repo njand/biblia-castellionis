@@ -1,0 +1,659 @@
+id	kind	sort	text	readings	support	context
+Lev.3.12	uncovered	base	38% of the words			
+Lev.3.13	uncovered	base	53% of the words			
+Lev.3.15	uncovered	base	50% of the words			
+Lev.3.16	uncovered	base	55% of the words			
+Lev.4.1	uncovered	base	0% of the words			
+Lev.4.2	uncovered	base	57% of the words			
+Lev.4.18	uncovered	base	59% of the words			
+Lev.4.30	uncovered	base	50% of the words			
+Lev.5.19	uncovered	base	57% of the words			
+Lev.6.10	uncovered	base	58% of the words			
+Lev.6.26	uncovered	base	57% of the words			
+Lev.7.1	uncovered	base	38% of the words			
+Lev.7.38	uncovered	base	55% of the words			
+Lev.8.10	uncovered	base	27% of the words			
+Lev.8.20	uncovered	base	57% of the words			
+Lev.8.26	uncovered	base	58% of the words			
+Lev.9.1	uncovered	base	46% of the words			
+Lev.11.14	uncovered	base	50% of the words			
+Lev.11.25	uncovered	base	58% of the words			
+Lev.11.29	uncovered	base	55% of the words			
+Lev.1.1	base-only	reading	et	1738: ct	1750,ws	Vocavit autem Jova Mosem ⟦et⟧ cum eo ex oraculi tabernaculo
+Lev.1.4	base-only	edge	victimaeque	1738: vi et imaeque	ws	ad Jovae favorem sibi conciliandum ⟦victimaeque⟧ capiti manum suam imponito ut
+Lev.1.4	base-only	division	manum	1738: ma num	1750,ws	victimaeque capiti ⟦manum⟧ suam imponito ut ea supplicatione
+Lev.1.5	base-only	reading	Tum	1738: Turn	1750,ws	⟦Tum⟧ bove natus ante Jovam immolator
+Lev.1.6	base-only	reading	Victima	1738: Vicliina | 1750: Vicima	ws	⟦Victima⟧ deglubitor et frustulatim dissecator
+Lev.1.7	base-only	reading	Tum	1738: Turn	1750,ws	⟦Tum⟧ Aharonis pontificis filii ignem super
+Lev.1.7	base-only	division	pontificis	1738: pon tificis	1750,ws	Tum Aharonis ⟦pontificis⟧ filii ignem super ara statuunto
+Lev.1.8	base-only	spelling	ligna	1738: li g gna	ws	frustis caput et sebum super ⟦ligna⟧ igni imposita congerunto
+Lev.1.9	base-only	reading	laventur	1738: lauen tur l Cap i a L E V I T I C V S tur	1750,ws	Intestina autem et crura aqua ⟦laventur⟧ et omnia sacerdos in ara
+Lev.1.9	base-only	reading	cremandae victimae	1738: crehiandae vidimae	1750,ws	sacerdos in ara adoleto cujus ⟦cremandae victimae⟧ odore Jova deliniatur
+Lev.1.10	base-only	reading	munus	1738: mimus	1750,ws	Sin ex balantibus erit ⟦munus⟧ ex ovibus aut capris marem
+Lev.1.10	base-only	reading	aut	1738: ant	1750,ws	balantibus erit munus ex ovibus ⟦aut⟧ capris marem integrum ad solidum
+Lev.1.10	base-only	division	solidum sacrificium	1738: folidumfacrificium	ws	aut capris marem integrum ad ⟦solidum sacrificium⟧ adferto
+Lev.1.11	base-only	division	ad latus	1738: adlatus	ws	Isque ⟦ad latus⟧ altaris aquilonare ante Jovam immolator
+Lev.1.11	base-only	reading	Jovam	1738: Iotiam	1750,ws	ad latus altaris aquilonare ante ⟦Jovam⟧ immolator sanguinem Aharonis filii sacerdotes
+Lev.1.11	base-only	edge	aram circumspergunto Victima	1738: aramcircumfpergunto vidirna	ws	Aharonis filii sacerdotes super ⟦aram circumspergunto Victima⟧ in frusta dissecator Caput et
+Lev.1.12	base-only	reading	frusta	1738: frulra	1750,ws	Victima in ⟦frusta⟧ dissecator Caput et sebum sacerdos
+Lev.1.13	base-only	division	ara adoleto	1738: araadoleto	1750,ws	Totum sacerdos libato et in ⟦ara adoleto⟧ cujus solidi sacrificii odor Jovam
+Lev.1.14	base-only	division	ex avibus	1738: exauibus	1750,ws	Sin ⟦ex avibus⟧ solidum sacrificium Jovae faciet de
+Lev.1.15	base-only	reading	extorqueto	1738: extorqucto	1750,ws	ad aram sistito ejusque caput ⟦extorqueto⟧ et in ara adoleto sanguis
+Lev.1.17	base-only	edge		1738: a	1750,ws	ad orientem in cinerarium abjicito ⟦⟧ Corpus alis divellito neque dividito
+Lev.1.17	base-only	division	divellito	1738: diuel lito	1750,ws	Corpus alis ⟦divellito⟧ neque dividito et in ara
+Lev.1.17	base-only	division	et in ara	1738: etinara	ws	Corpus alis divellito neque dividito ⟦et in ara⟧ adoleto super strue rogali ut
+Lev.2.1	base-only	reading		1738: b	1750,ws	Si quis autem Jovae ⟦⟧ ferti munus offeret ex simila
+Lev.2.1	base-only	reading	munus offeret	1738: mimus ofteret	1750,ws	Si quis autem Jovae ferti ⟦munus offeret⟧ ex simila libamen esto eam
+Lev.2.1	base-only	reading	eam	1738: earn | 1750: cam	ws	offeret ex simila libamen esto ⟦eam⟧ oleo conspergito et tus superimponito
+Lev.2.2	base-only	reading	pugillum	1738: pugillnm	1750,ws	sacerdotes adferto Sacerdos inde plenum ⟦pugillum⟧ similaginis et olei cum toto
+Lev.2.2	base-only	division	ut ejus	1738: vteius	1750,ws	monumentum illud in ara adoleto ⟦ut ejus⟧ flagrantiae odore Jova delectetur
+Lev.2.2	base-only	reading	delectetur	1738: deledetur	ws	ut ejus flagrantiae odore Jova ⟦delectetur⟧
+Lev.2.3	base-only	reading	sacrosanctum	1738: facrofandum	1750,ws	cedat ex Jovae re divina ⟦sacrosanctum⟧
+Lev.2.4	base-only	reading	facies	1738: fades	1750,ws	Si ferti munus clibanarium ⟦facies⟧ similagineae placentae sine fermento in
+Lev.2.4	base-only	reading	subactae	1738: fubadae | 1750: fuba	ws	placentae sine fermento in oleo ⟦subactae⟧ et crusta non fermentata oleo
+Lev.2.5	base-only	reading	subactum	1738: fubadum	ws	Sin patellarium similagineum in oleo ⟦subactum⟧ non fermentatum esto
+Lev.2.6	base-only	division	comminuito	1738: commi nuito	1750,ws	Id in parvula frusta ⟦comminuito⟧ et oleo inspergito Hoc fertum
+Lev.2.6	base-only	reading	fertum	1738: ferturn	ws	comminuito et oleo inspergito Hoc ⟦fertum⟧ erit
+Lev.2.8	base-only	reading	offerto	1738: oiTerto	1750,ws	fertum Jovae adferto et pontifici ⟦offerto⟧ qui porro pontifex id ad
+Lev.2.9	base-only	reading	monumentum	1738: monumen turn | 1750: monimen tum	ws	et ex eo ⟦monumentum⟧ eximat et inara adoleat cujus
+Lev.2.9	base-only	division	et inara adoleat	1738: etin araadoleat	ws	et ex eo monumentum eximat ⟦et inara adoleat⟧ cujus flagrantiae odore Jova deliniatur
+Lev.2.9	base-only	reading	deliniatur	1738: deliniatnr	1750,ws	adoleat cujus flagrantiae odore Jova ⟦deliniatur⟧
+Lev.2.10	base-only	reading	sacrosanctae	1750: facrofanétae | 1738: facro et ndae	ws	cedunto ex Jovae re divina ⟦sacrosanctae⟧
+Lev.2.11	base-only	reading	libabitis	1738: liba ti bitis	1750,ws	Omne fertum quod Jovae ⟦libabitis⟧ sine fermento fiat nihil enim
+Lev.2.12	base-only	edge	Primigeniorum libamen	1738: Priniigeniorum liba men	1750,ws	Jovae in re divina adolere ⟦Primigeniorum libamen⟧ Jovae libatote tantum super
+Lev.2.14	base-only	division	vero de primitiis	1738: verodeprimitiis	1750,ws	Si ⟦vero de primitiis⟧ fertum Jovae obmovebis de primore
+Lev.2.14	base-only	reading	Jovae	1738: Ionae	1750,ws	Si vero de primitiis fertum ⟦Jovae⟧ obmovebis de primore fructu igne
+Lev.2.14	base-only	reading	fructu	1738: frudu	ws	fertum Jovae obmovebis de primore ⟦fructu⟧ igne tosto de polenta contusa
+Lev.2.15	base-only	edge	oleum	1738: ole i urn	ws	contusa fertum primitiarum tuarum obmoveto ⟦oleum⟧ adhibeto tus imponito hujusmodi fertum
+Lev.2.16	base-only	reading	monumentum	1738: monumen turn	1750,ws	ejus ⟦monumentum⟧ pontifex de illa polenta et
+Lev.2.16	base-only	reading	illa	1738: ilia	1750,ws	ejus monumentum pontifex de ⟦illa⟧ polenta et oleo una cum
+Lev.3.1	base-only	reading	salute	1738: felute	1750,ws	Si autem pro ⟦salute⟧ sacra faciet si bubus faciet
+Lev.3.1	base-only	reading		1738: f	1750,ws	autem pro salute sacra faciet ⟦⟧ si bubus faciet marem feminamve
+Lev.3.1	base-only	reading	conspectum	1738: confpedum	1750,ws	faciet marem feminamve integrum in ⟦conspectum⟧ Jovae adducito
+Lev.3.2	base-only	reading	manum	1738: niaiuim	1750,ws	et sui muneris capiti ⟦manum⟧ imponito idque in introitu ocularis
+Lev.3.2	correct	reading	ocularis	1738,1750: oracularis	ws	manum imponito idque in introitu ⟦ocularis⟧ tabernaculi immolator Sanguinem Aharonis filii
+Lev.3.2	base-only	division	immolator	1738: immola tor	1750,ws	idque in introitu ocularis tabernaculi ⟦immolator⟧ Sanguinem Aharonis filii sacerdotes in
+Lev.3.2	base-only	reading	sacerdotes	1738: aG cer ita conuellat alas vt tamco adhuc hxreant corpori l fertum vecat quod fine fanguine fit hoc eft ex rebus inanimate LEVITICVS Cap cerdotes	1750,ws	tabernaculi immolator Sanguinem Aharonis filii ⟦sacerdotes⟧ in aram circumfundunto
+Lev.3.2	base-only	reading	aram	1738: arani	1750,ws	Sanguinem Aharonis filii sacerdotes in ⟦aram⟧ circumfundunto
+Lev.3.3	base-only	reading	divina obmoveto	1738: dinina obnioueto	1750,ws	hostia salutari Jovae in re ⟦divina obmoveto⟧ omentum et totos lactes et
+Lev.3.3	base-only	reading	lactes	1738: lades	1750,ws	divina obmoveto omentum et totos ⟦lactes⟧ et ambos renes una cum
+Lev.3.3	base-only	reading	adhaerente	1738: adhxrente	1750,ws	una cum eorum adipe lumbis ⟦adhaerente⟧ fibramque jecoris cum renibus exemptam
+Lev.3.3	base-only	edge	exemptam	1738: ex eintam | 1750: ex emtam	ws	adhaerente fibramque jecoris cum renibus ⟦exemptam⟧ Hoc Aharonis filii in ara
+Lev.3.4	base-only	reading	super victimam	1738: fupcr vietimam	1750,ws	Aharonis filii in ara adolento ⟦super victimam⟧ rogali strui impositam
+Lev.3.4	base-only	edge	impositam	1738: impo itam	ws	adolento super victimam rogali strui ⟦impositam⟧ cujus flagrantiae odore Jova deliniatur
+Lev.3.5	base-only	edge	Jova deliniatur Quod si	1738: Iouadeliniatur Qj iod li	1750,ws	cujus flagrantiae odore ⟦Jova deliniatur Quod si⟧ ovino caprinove munere Jovae
+Lev.3.6	base-only	reading	Quod si	1738: iod li	1750,ws	⟦Quod si⟧ ovino caprinove munere Jovae sacra
+Lev.3.6	base-only	reading	feminamve	1738: feminnue	1750,ws	sacra pro salute faciet marem ⟦feminamve⟧ integrum adferto
+Lev.3.7	base-only	division	Si ovem	1738: Siouem	1750,ws	⟦Si ovem⟧ adferet eam ante Jovam sistito
+Lev.3.7	base-only	reading	Jovam	1738: louam	ws	Si ovem adferet eam ante ⟦Jovam⟧ sistito capiti ejus manum imponito
+Lev.3.7	base-only	reading	capiti	1738: g cap ii	1750,ws	adferet eam ante Jovam sistito ⟦capiti⟧ ejus manum imponito
+Lev.3.8	base-only	reading	mactato	1738: maclaro | 1750: maato	ws	eamque ante oraculare tabernaculum ⟦mactato⟧ Sanguinem Aharonis filii in aram
+Lev.3.9	base-only	reading	hostia	1738: holtia	1750,ws	Ipse ex ⟦hostia⟧ pro salute Jovae libato adipem
+Lev.3.9	base-only	reading	Jovae	1738: Ions	1750,ws	Ipse ex hostia pro salute ⟦Jovae⟧ libato adipem caudam totam a
+Lev.3.9	base-only	division	totam a	1738: totama	1750,ws	salute Jovae libato adipem caudam ⟦totam a⟧ spina penitus revulsam omentum et
+Lev.3.9	base-only	reading	revulsam	1738: reuuilam	ws	caudam totam a spina penitus ⟦revulsam⟧ omentum et totos lactes ambos
+Lev.3.9	base-only	reading	ambos	1738: amoos	1750,ws	revulsam omentum et totos lactes ⟦ambos⟧ renes cum eorum adipe lumbis
+Lev.3.9	base-only	reading		1738: lo | 1750: LE VITACNAS	ws	ambos renes cum eorum adipe ⟦⟧ lumbis adhaerente
+Lev.3.9	base-only	edge	adhaerente	1738: adh r rente	1750,ws	renes cum eorum adipe lumbis ⟦adhaerente⟧ fibramque jecoris cum renibus exemptam
+Lev.3.10	base-only	division	jecoris	1738: ie coris | 1750: ie ro coris	ws	fibramque ⟦jecoris⟧ cum renibus exemptam
+Lev.3.11	base-only	reading	pontifex	1738: pontile	1750,ws	Hoc ⟦pontifex⟧ in ara adoleto Jovae dapem
+Lev.3.11	base-only	reading	dapem rei	1738: da pem lei	1750,ws	pontifex in ara adoleto Jovae ⟦dapem rei⟧ divinae
+Lev.3.13	base-only	reading	manum	1738: mamim	ws	Ejus capiti ⟦manum⟧ imponito idque ante oraculare tabernaculum
+Lev.3.13	base-only	reading	idque ante	1738: idqueanre	1750,ws	Ejus capiti manum imponito ⟦idque ante⟧ oraculare tabernaculum mactato Sanguinem filii
+Lev.3.13	base-only	reading	tabernaculum mactato	1738: tabcrna ulum mactao	ws	manum imponito idque ante oraculare ⟦tabernaculum mactato⟧ Sanguinem filii Aharonis in aram
+Lev.3.13	base-only	reading	filii	1738: r lii	1750,ws	ante oraculare tabernaculum mactato Sanguinem ⟦filii⟧ Aharonis in aram circumfundunto
+Lev.3.13	base-only	division	circumfundunto	1738: circumfun dunto | 1750: cireumfundunto	ws	Sanguinem filii Aharonis in aram ⟦circumfundunto⟧
+Lev.3.14	base-only	reading	Jovae	1738: louse	ws	Ipse ex eo ⟦Jovae⟧ libato omentum et lactes totos
+Lev.3.14	base-only	reading	omentum	1738: onientum	1750,ws	Ipse ex eo Jovae libato ⟦omentum⟧ et lactes totos ambos renes
+Lev.3.14	base-only	reading	lactes	1738: lacles	1750,ws	eo Jovae libato omentum et ⟦lactes⟧ totos ambos renes cum eorum
+Lev.3.14	base-only	division	super	1738: fu per	1750,ws	cum eorum adipe qui est ⟦super⟧ lumbis
+Lev.3.15	base-only	reading	Haec	1738: Hxc | 1750: lacc	ws	fibramque jecoris cum renibus exemptam ⟦Haec⟧ pontifex in ara adoleto
+Lev.3.15	base-only	edge	in ara adoleto Jovae	1738: i inaraadoleto louc	1750,ws	exemptam Haec pontifex ⟦in ara adoleto Jovae⟧ dapem rei divinae jucundi odoris
+Lev.3.16	base-only	reading	divinae	1738: diuin i	1750,ws	Jovae dapem rei ⟦divinae⟧ jucundi odoris ut omnis adeps
+Lev.3.16	base-only	reading	odoris	1738: odons	1750,ws	Jovae dapem rei divinae jucundi ⟦odoris⟧ ut omnis adeps Jovae sit
+Lev.3.16	base-only	reading	adeps Jovae	1738: ai deps loux	1750,ws	divinae jucundi odoris ut omnis ⟦adeps Jovae⟧ sit
+Lev.3.17	base-only	reading	posterum ubicumque	1738: polternm vbicumqne	1750,ws	Hoc institutum in ⟦posterum ubicumque⟧ habitabitis tenetote ne ullo adipe
+Lev.3.17	base-only	reading	tenetote	1738: tene ote	1750,ws	institutum in posterum ubicumque habitabitis ⟦tenetote⟧ ne ullo adipe neve ullo
+Lev.3.17	base-only	reading	ullo	1738: vilo	1750,ws	tenetote ne ullo adipe neve ⟦ullo⟧ sanguine vescamini
+Lev.3.17	base-only	edge	vescamini	1738: 	1750,ws	ullo adipe neve ullo sanguine ⟦vescamini⟧
+Lev.4.2	base-only	reading	imprudentiam deliquerit	1738: impru quit dentiamdeliquerit	ws	si quis quid per ⟦imprudentiam deliquerit⟧ et aliquid illicitum contra quodlibet
+Lev.4.2	base-only	reading	aliquid illicitum	1738: a iquid i cituiu	ws	quid per imprudentiam deliquerit et ⟦aliquid illicitum⟧ contra quodlibet Jovae praeceptum fecerit
+Lev.4.2	base-only	reading	praeceptum	1738: prxceptum	1750,ws	aliquid illicitum contra quodlibet Jovae ⟦praeceptum⟧ fecerit
+Lev.4.3	base-only	reading	populi	1738: popali	1750,ws	pontifex unctus deliquerit in noxiam ⟦populi⟧ adferto pro illo a se
+Lev.4.3	base-only	reading	delicto taurum	1738: deliclo taunim	1750,ws	pro illo a se commisso ⟦delicto taurum⟧ bovillum integrum Jovae ad piaculum
+Lev.4.4	base-only	edge	Illum taurum	1738: Ilium taur urn i	1750,ws	bovillum integrum Jovae ad piaculum ⟦Illum taurum⟧ ad ostium oracularis tabernaculi
+Lev.4.4	base-only	reading	tabernaculi	1738: taLernaculi	1750,ws	Illum taurum ad ostium oracularis ⟦tabernaculi⟧ coram Jova sistito ejus capiti
+Lev.4.4	base-only	reading	Jova	1738: loua	1750,ws	ad ostium oracularis tabernaculi coram ⟦Jova⟧ sistito ejus capiti manum imponito
+Lev.4.4	base-only	reading	manum	1738: maun m	1750,ws	coram Jova sistito ejus capiti ⟦manum⟧ imponito et eum coram Jova
+Lev.4.4	base-only	reading	eum	1738: cum	1750,ws	ejus capiti manum imponito et ⟦eum⟧ coram Jova mactato
+Lev.4.4	base-only	reading	Jova	1738: loua	1750,ws	manum imponito et eum coram ⟦Jova⟧ mactato
+Lev.4.5	base-only	reading	pontifex unctus	1738: ponti j fex vnrius	ws	Sanguinem ipse ⟦pontifex unctus⟧ partim in oraculare tabernaculum inferto
+Lev.4.6	base-only	reading	intincto	1738: intin et o | 1750: intinéto	ws	et digito suo illo sanguine ⟦intincto⟧ septies ante Jovam contra siparium
+Lev.4.6	base-only	reading	Jovam	1738: louam	1750,ws	illo sanguine intincto septies ante ⟦Jovam⟧ contra siparium sanctuarii spargito
+Lev.4.6	base-only	reading	sanctuarii	1738: fandhiarii	1750,ws	septies ante Jovam contra siparium ⟦sanctuarii⟧ spargito
+Lev.4.7	base-only	reading	Jova	1738: loua	1750,ws	cornua arae suffitus odorati coram ⟦Jova⟧ quae est in oraculari tabernaculo
+Lev.4.7	base-only	reading	effundito	1738: erFundito	1750,ws	tabernaculo reliquum omnem tauri sanguinem ⟦effundito⟧ ad radicem arae victimariae quae
+Lev.4.7	base-only	reading	victimariae	1738: victi maris	1750,ws	sanguinem effundito ad radicem arae ⟦victimariae⟧ quae est in introitu oracularis
+Lev.4.8	base-only	reading	piacularis	1738: pia J cularis | 1750: pia cularis	ws	Omnem autem ⟦piacularis⟧ tauri adipem ex eo detrahito
+Lev.4.8	base-only	reading	detrahito	1738: detrain to	1750,ws	piacularis tauri adipem ex eo ⟦detrahito⟧ omentum et totos lactes et
+Lev.4.8	base-only	reading	lactes	1738: laeles | 1750: la et es	ws	eo detrahito omentum et totos ⟦lactes⟧ et ambos renes cum eorum
+Lev.4.8	base-only	reading	adhaerente	1738: adhxrente	1750,ws	renes cum eorum adipe lumbis ⟦adhaerente⟧
+Lev.4.9	base-only	spelling	jecoris	1738: ie C coris | 1750: ic coris Í LEVITIC Y Ss coris	ws	fibramque ⟦jecoris⟧ cum renibus demptam
+Lev.4.10	base-only	edge	quemadmodum	1738: quern admodum	1750,ws	fibramque jecoris cum renibus demptam ⟦quemadmodum⟧ detrahitur in bove pro salute
+Lev.4.11	base-only	reading		1738: I	1750,ws	Corium ⟦⟧ autem tauri et totum corpus
+Lev.4.11	base-only	reading	at que	1738: atqne	ws	capite et cruribus et interaneis ⟦at que⟧ fimo
+Lev.4.12	base-only	reading	taurum	1738: taunim I	1750,ws	denique totum ⟦taurum⟧ extra castra efferto in locum
+Lev.4.12	base-only	reading	efferto	1738: efterto	1750,ws	denique totum taurum extra castra ⟦efferto⟧ in locum purum quo ejicitur
+Lev.4.12	base-only	reading	cremato	1738: cremate	1750,ws	super strue super cinerario igni ⟦cremato⟧
+Lev.4.13	base-only	reading		1738: I	1750,ws	Sin autem cuncta Israelitarum ⟦⟧ res publica imprudens insciensque aliquid
+Lev.4.13	base-only	reading	insciensque	1738: infeiensque	1750,ws	cuncta Israelitarum res publica imprudens ⟦insciensque⟧ aliquid illicitum contra quodvis Jovae
+Lev.4.13	base-only	reading	illicitum	1738: illtcitwm	1750,ws	res publica imprudens insciensque aliquid ⟦illicitum⟧ contra quodvis Jovae praeceptum fecerint
+Lev.4.13	base-only	reading	quodvis Jovae praeceptum	1738: quod uis Ions pr iceptum	ws	imprudens insciensque aliquid illicitum contra ⟦quodvis Jovae praeceptum⟧ fecerint et noxam contraxerint
+Lev.4.14	base-only	reading	tum	1738: turn	1750,ws	postquam commissum delictum innotuerit ⟦tum⟧ civitas taurum bovillum pro delicto
+Lev.4.14	base-only	reading	taurum	1738: taunim	1750,ws	commissum delictum innotuerit tum civitas ⟦taurum⟧ bovillum pro delicto adferunto et
+Lev.4.15	base-only	reading	civitatis	1738: ciuitaris	1750,ws	ejus capiti ⟦civitatis⟧ senatores manus suas coram Jova
+Lev.4.15	base-only	reading	manus	1738: ma mis	1750,ws	ejus capiti civitatis senatores ⟦manus⟧ suas coram Jova imponunto Eum
+Lev.4.15	base-only	reading	Jova imponunto	1738: loua imponumo	1750,ws	civitatis senatores manus suas coram ⟦Jova imponunto⟧ Eum pontifex unctus coram Jova
+Lev.4.15	base-only	reading	unctus	1738: vnelus | 1750: vnétus	ws	coram Jova imponunto Eum pontifex ⟦unctus⟧ coram Jova mactato
+Lev.4.15	base-only	reading	Jova	1738: loua	1750,ws	imponunto Eum pontifex unctus coram ⟦Jova⟧ mactato
+Lev.4.16	base-only	reading		1738: V	1750,ws	Sanguinem partim in ⟦⟧ oraculare tabernaculum inferto
+Lev.4.17	base-only	reading	sanguine intincto	1738: fangu ne lminctol	ws	et digito suo illo ⟦sanguine intincto⟧ septies coram Jova ante siparium
+Lev.4.17	base-only	reading	Jova	1738: loua	1750,ws	illo sanguine intincto septies coram ⟦Jova⟧ ante siparium irrorato
+Lev.4.17	base-only	reading	siparium	1738: iipariura lrroraCap LEVITICVS	1750,ws	intincto septies coram Jova ante ⟦siparium⟧ irrorato
+Lev.4.18	base-only	edge	partim imbuito	1738: paftimimbuito	1750,ws	coram Jova ante siparium irrorato ⟦partim imbuito⟧ cornua arae Jovae adpositae
+Lev.4.18	base-only	reading	Jovae	1738: louse	1750,ws	partim imbuito cornua arae ⟦Jovae⟧ adpositae in oraculari tabernaculo Reliquum
+Lev.4.18	base-only	reading	tabernaculo Reliquum omnem	1738: tabernacuio Reliquuru oninem	1750,ws	arae Jovae adpositae in oraculari ⟦tabernaculo Reliquum omnem⟧ effundito ad radicem arae victimariae
+Lev.4.18	base-only	reading	victimariae	1738: vi et imariae	ws	omnem effundito ad radicem arae ⟦victimariae⟧ quae est in introitu oracularis
+Lev.4.18	base-only	reading	est	1738: ell	1750,ws	ad radicem arae victimariae quae ⟦est⟧ in introitu oracularis tabernaculi
+Lev.4.18	base-only	division	tabernaculi	1738: taber naculi | 1750: taberX naculi	ws	quae est in introitu oracularis ⟦tabernaculi⟧
+Lev.4.19	base-only	reading	detractum	1738: detraeuim	1750,ws	et ⟦detractum⟧ ex eo omnem adipem in
+Lev.4.19	base-only	reading		1738: o	ws	et detractum ex eo omnem ⟦⟧ adipem in ara adoleto
+Lev.4.20	base-only	division	Tauro facito	1738: Taurofa cito	ws	⟦Tauro facito⟧ item uti faciet tauro piaculari
+Lev.4.20	base-only	reading	tauro	1738: taijro	1750,ws	Tauro facito item uti faciet ⟦tauro⟧ piaculari illisque veniam supplicando exorato
+Lev.4.20	base-only	edge	exorato Taurum	1738: exoraLi to Tauruni	1750,ws	tauro piaculari illisque veniam supplicando ⟦exorato Taurum⟧ extra castra efferto eumque cremato
+Lev.4.21	base-only	reading	eumque	1738: e unique	1750,ws	Taurum extra castra efferto ⟦eumque⟧ cremato item uti cremaverit taurum
+Lev.4.21	base-only	reading	taurum	1738: tauruni	1750,ws	eumque cremato item uti cremaverit ⟦taurum⟧ priorem Et haec quidem civitatis
+Lev.4.21	base-only	division	quidem civitatis erit	1738: quidemciuitatiserit	1750,ws	cremaverit taurum priorem Et haec ⟦quidem civitatis erit⟧ expiatio
+Lev.4.22	base-only	reading	praeceptum	1738: pracceptum	1750,ws	contra quodvis Jovae Dei sui ⟦praeceptum⟧ inscienter fecerit ita uti in
+Lev.4.22	base-only	edge	innotuerit	1738: innotueI rit	1750,ws	ei delictum ab ipso commissum ⟦innotuerit⟧ adducito munus suum caprum caprinum
+Lev.4.23	base-only	reading	caprinum marem	1738: l caprmummarem	ws	adducito munus suum caprum ⟦caprinum marem⟧ integrum
+Lev.4.24	base-only	reading		1738: I	1750,ws	Ejus ⟦⟧ capiti manum imponito eumque mactato
+Lev.4.24	base-only	reading	mactato in	1738: maclatoin	ws	Ejus capiti manum imponito eumque ⟦mactato in⟧ loco in quo solent solidi
+Lev.4.24	base-only	reading	victimam	1738: viciimam	1750,ws	in quo solent solidi sacrificii ⟦victimam⟧ coram Jova quod sit piaculum
+Lev.4.24	base-only	reading		1738: I	1750,ws	solidi sacrificii victimam coram Jova ⟦⟧ quod sit piaculum
+Lev.4.25	base-only	reading	Tum	1738: Turn	1750,ws	⟦Tum⟧ de sanguine piaculi pontifex digito
+Lev.4.25	base-only	reading	et arae victimariae	1738: etarae vieumariae	1750,ws	sanguine piaculi pontifex digito sumito ⟦et arae victimariae⟧ cornua imbuito reliquum ad radicem
+Lev.4.25	base-only	reading	effundito	1738: eflundito	1750,ws	reliquum ad radicem ejusdem arae ⟦effundito⟧
+Lev.4.26	base-only	reading		1738: j	1750,ws	salute et illi delicti veniam ⟦⟧ exorato
+Lev.4.27	correct	division	uti sese	1738,1750: vtifefe	ws	quodvis praeceptorum Jovae committendo ita ⟦uti sese⟧ noxa obligaverit
+Lev.4.29	base-only	reading	mactetur eodem	1738: madtetur eodera	1750,ws	Ejus capiti manum imponito eaque ⟦mactetur eodem⟧ in loco ubi mactabitur solidi
+Lev.4.29	base-only	reading	mactabitur	1738: maclabitur | 1750: maCabitur	ws	mactetur eodem in loco ubi ⟦mactabitur⟧ solidi sacrificii victima
+Lev.4.29	base-only	reading	victima	1738: viciima	1750,ws	loco ubi mactabitur solidi sacrificii ⟦victima⟧
+Lev.4.30	base-only	reading	victimariae	1738: victimarit	1750,ws	Sanguine pontifex digito suo arae ⟦victimariae⟧ cornua inficito reliquum omne ad
+Lev.4.30	base-only	reading	inficito reliquum omne ad arae	1738: inticito reli m omneadarae	ws	digito suo arae victimariae cornua ⟦inficito reliquum omne ad arae⟧ radicem effundito
+Lev.4.30	base-only	reading	effundito	1738: effiinito	1750,ws	reliquum omne ad arae radicem ⟦effundito⟧
+Lev.4.31	base-only	division	adimitur adeps ex hostia pro	1738: adimituradepsex hoftiapro	1750,ws	Adipem omnem adimito uti ⟦adimitur adeps ex hostia pro⟧ salute et in ara pontifex
+Lev.4.32	base-only	reading	Quod	1738: tQuod	1750,ws	⟦Quod⟧ si ovem pro delicto adferet
+Lev.4.32	base-only	reading	ovem	1738: oueiu	1750,ws	Quod si ⟦ovem⟧ pro delicto adferet feminam integram
+Lev.4.32	base-only	reading		1738: hoc eft quauis de re	1750,ws	si ovem pro delicto adferet ⟦⟧ feminam integram ducito
+Lev.4.33	base-only	reading	immoletur	1738: immotetur	1750,ws	manum imponito eaque pro delicto ⟦immoletur⟧ in eodem loco in quo
+Lev.4.34	base-only	reading	victimariae	1738: vi climariae | 1750: vi et imariae	ws	pontifex digito suo cornua arae ⟦victimariae⟧ imbuito reliquum omne ad radicem
+Lev.4.35	base-only	reading	Adipem	1750: Adi pem | 1738: Adi pern	ws	⟦Adipem⟧ omnem detrahito uti detrahitur adeps
+Lev.4.35	base-only	reading	detrahitur	1738: detraintur	1750,ws	Adipem omnem detrahito uti ⟦detrahitur⟧ adeps ovis in sacrificio pro
+Lev.4.35	base-only	reading	Jovae	1738: Ioux	1750,ws	Ea in ara adoleto ad ⟦Jovae⟧ rem divinam et pro illius
+Lev.4.35	base-only	division	peccato	1738: pec cato	1750,ws	divinam et pro illius commisso ⟦peccato⟧ supplicet ut ei ignoscatur
+Lev.5.1	base-only	reading	jusjurandum	1738: ius t iurandum | 1750: iusiu randum	ws	quis deliquerit ut si ad ⟦jusjurandum⟧ vocatus de re quapiam cujus
+Lev.5.1	base-only	division	de re quapiam	1738: derequapiam	1750,ws	ut si ad jusjurandum vocatus ⟦de re quapiam⟧ cujus conscius sit seu viderit
+Lev.5.1	base-only	reading	culpam	1738: culpain	1750,ws	tamen non indicaverit ita uti ⟦culpam⟧ commiserit
+Lev.5.2	base-only	reading	immundi ut	1738: immundijVt	ws	animalis immundi ut cadaver pecoris ⟦immundi ut⟧ cadaver serpentis immundi et id
+Lev.5.3	base-only	division	denique	1738: de nique | 1750: denijue	ws	aut ⟦denique⟧ si tetigerit quodvis hominis inquinamentum
+Lev.5.3	base-only	division	et id per inscitiam	1738: etidperinfcitiam	ws	hominis inquinamentum quo inquinari possit ⟦et id per inscitiam⟧ quod quum resciverit in noxa
+Lev.5.4	base-only	reading		1738: c	1750,ws	si quis inconsideratis verbis juraverit ⟦⟧ sive ad malum sive ad
+Lev.5.4	base-only	reading	sive	1738: fine	1750,ws	verbis juraverit sive ad malum ⟦sive⟧ ad bonum ad quidvis in
+Lev.5.4	base-only	reading	quidvis in	1738: quiduisjin	1750,ws	malum sive ad bonum ad ⟦quidvis in⟧ quo temere jurant homines et
+Lev.5.4	base-only	reading	jurant homines	1738: iuranthomines	ws	ad quidvis in quo temere ⟦jurant homines⟧ et id per inscitiam quod
+Lev.5.5	base-only	reading	tum	1738: turn	1750,ws	inquam commiserit in aliquo illorum ⟦tum⟧ se in eo deliquisse confessus
+Lev.5.5	base-only	reading	deliquisse	1738: deliquisle	1750,ws	illorum tum se in eo ⟦deliquisse⟧ confessus
+Lev.5.6	base-only	reading	Jovam	1738: Io nam	1750,ws	ducito pro illace culpa ad ⟦Jovam⟧ piaculum pro delicto quod commiserit
+Lev.5.7	base-only	reading	Quod	1738: Qiiod	1750,ws	⟦Quod⟧ si ejus facultas non erit
+Lev.5.7	base-only	reading	facultas	1738: fatultas	1750,ws	Quod si ejus ⟦facultas⟧ non erit adipiscendo pecori adferto
+Lev.5.7	base-only	division	columba	1738: co lumba | 1750: coumba	ws	culpa duos turtures aut duos ⟦columba⟧ natos ad Jovam unum ad
+Lev.5.7	base-only	reading		1738: G piacuICO L E V I T I C V S Cap	1750,ws	natos ad Jovam unum ad ⟦⟧ piaculum alterum ad solidum sacrificium
+Lev.5.7	base-only	reading	sacrificium	1738: faScrificium | 1750: fa icrificium	ws	ad piaculum alterum ad solidum ⟦sacrificium⟧
+Lev.5.8	base-only	reading	cervicem intorqueat	1738: ceruiccm intorque at	ws	priorem obmoveat eique caput secundum ⟦cervicem intorqueat⟧ neque avellat
+Lev.5.9	base-only	reading	imam aram effundat	1738: imamaram eflofundat	ws	latus irroret reliquum sanguinis ad ⟦imam aram effundat⟧ Haec expiatio erit
+Lev.5.10	base-only	division	pro illius commisso	1738: proilliuscommisfo	ws	ritus est solidum faciat et ⟦pro illius commisso⟧ delicto supplicet ut ei remittatur
+Lev.5.11	base-only	reading	perveniet	1738: perueuiet	1750,ws	Quod si ejus facultas non ⟦perveniet⟧ ad duos turtures aut duos
+Lev.5.11	base-only	reading	piaculum	1738: piaI culum | 1750: piatzenlum	ws	utatur neque tus adhibeat quoniam ⟦piaculum⟧ est
+Lev.5.12	base-only	reading	Eam	1738: Earn	1750,ws	⟦Eam⟧ ad pontificem adferto Pontifex ejus
+Lev.5.12	base-only	reading	Jovae	1738: Iouar | 1750: i Touae	ws	et in ara re divina ⟦Jovae⟧ adoleto haec expiatio erit
+Lev.5.13	base-only	reading	pontifici	1738: pontiI fici	ws	ut ei remittatur libamen autem ⟦pontifici⟧ pro ferto erit
+Lev.5.14	base-only	reading	Jovae	1738: louae	1750,ws	porro Jova Mosi crimen subiverit ⟦Jovae⟧ sacris per imprudentiam defraudatis
+Lev.5.14	base-only	reading	per imprudentiam	1738: perimISprudentiam | 1750: perim p prudentiam	ws	Mosi crimen subiverit Jovae sacris ⟦per imprudentiam⟧ defraudatis
+Lev.5.15	base-only	division	duobus	1738: duo bus | 1750: duoS	ws	noxalem qui aestimetur argenti siclis ⟦duobus⟧ sacri ponderis
+Lev.5.17	base-only	reading	Jovae	1738: louae	1750,ws	aliquid illicitum contra quodlibet praeceptorum ⟦Jovae⟧ fecerit insciens ut in noxa
+Lev.5.17	base-only	reading	culpamque	1738: culI pamque	ws	insciens ut in noxa sit ⟦culpamque⟧ subiverit
+Lev.5.18	base-only	division	commissa ab	1738: commisfaab	ws	ad sacerdotem qui supplicet pro ⟦commissa ab⟧ eo imprudentia ut ei remittatur
+Lev.5.19	base-only	reading	Haec	1738: ipHxc	1750,ws	⟦Haec⟧ procuratio erit commissae contra Jovam
+Lev.5.19	base-only	reading	commissae	1738: comrnisfai | 1750: commiífae	ws	Haec procuratio erit ⟦commissae⟧ contra Jovam noxae
+Lev.5.19	base-only	edge	noxae	1738: 	1750,ws	procuratio erit commissae contra Jovam ⟦noxae⟧
+Lev.6.1	base-only	reading	sic	1738: fie	1750,ws	Item Mosem Jova ⟦sic⟧ adlocutus est
+Lev.6.1	base-only	reading		1738: I | 1750: x	ws	Item Mosem Jova sic adlocutus ⟦⟧ est
+Lev.6.2	base-only	reading		1738: X	ws	qui deliquerit et crimen in ⟦⟧ Jovam commiserit commissumque aut depositum
+Lev.6.2	base-only	reading	depositum	1738: depolitum	1750,ws	in Jovam commiserit commissumque aut ⟦depositum⟧ alteri abnegaverit quive quid alteri
+Lev.6.3	base-only	division	amissum et	1738: a misfumet	1750,ws	aut invenerit ⟦amissum et⟧ abnegaverit atque pejeraverit in uno
+Lev.6.5	base-only	division	quidquid	1738: quid quid	ws	denique ⟦quidquid⟧ pejeraverit reddito summam addita parte
+Lev.6.8	base-only	edge	haec solidi	1738: hacc fo g lidi	1750,ws	natis hoc modo praecipito inquit ⟦haec solidi⟧ sacrificii lex esto
+Lev.6.9	base-only	reading	noctem	1738: noftem | 1750: noclem	ws	rogo super ara esto totam ⟦noctem⟧ ad mane igne arae in
+Lev.6.10	base-only	reading	lineum indusium lineaque	1738: lineuminduliumlineaque li	1750,ws	Pontifex ⟦lineum indusium lineaque⟧ subligacula corpus indutus cinerem redactum
+Lev.6.10	base-only	reading	redactum ex incensione victimae ex	1738: redadtum exincenfione victimacex	ws	lineaque subligacula corpus indutus cinerem ⟦redactum ex incensione victimae ex⟧ ara tollito et apud aram
+Lev.6.12	base-only	reading	inextinctus	1738: inexftinftus t | 1750: inexítinctus	ws	Ignis autem in ara ⟦inextinctus⟧ ardeto struemque in ea sacerdos
+Lev.6.12	base-only	division	inexstincto	1738: in exftincto | 1750: ini exílincto	ws	adoleto igni semper in ara ⟦inexstincto⟧ ardente
+Lev.6.14	base-only	division	aram libabit	1738: aramlibabit	ws	Aharonis id coram Jova ante ⟦aram libabit⟧
+Lev.6.15	base-only	reading	tus impositum ferto eaque in	1738: Cap L E V I T I C V S i omnetusirapofitumferto eaquein	1750,ws	ferti et oleo et omne ⟦tus impositum ferto eaque in⟧ ara ad odoris suavitatem adoleto
+Lev.6.15	base-only	reading	suavitatem	1738: fuauitatein	1750,ws	eaque in ara ad odoris ⟦suavitatem⟧ adoleto monumentum ad Jovam
+Lev.6.16	base-only	edge	tabernaculi	1738: tabernacu li r | 1750: tabernacuy li	ws	sacro videlicet in atrio oracularis ⟦tabernaculi⟧ neve id cum fermento coquitor
+Lev.6.17	base-only	division	coquitor	1738: co quitor	1750,ws	neve id cum fermento ⟦coquitor⟧ Hanc ego portionem de mea
+Lev.6.17	base-only	reading	sacrosancta sive	1738: facrofan et a fine	1750,ws	divina illis adsigno quae sit ⟦sacrosancta sive⟧ delictum sive noxa procuretur
+Lev.6.17	correct	division	sive	1738,1750: fi ue	ws	quae sit sacrosancta sive delictum ⟦sive⟧ noxa procuretur
+Lev.6.18	base-only	reading	vescuntor	1738: veI fcuntor	1750,ws	Hac ⟦vescuntor⟧ omnes Aharone nati mares quod
+Lev.6.18	base-only	division	mares	1738: ma res	1750,ws	Hac vescuntor omnes Aharone nati ⟦mares⟧ quod quidem institutum posteris vestris
+Lev.6.18	base-only	reading	institutum posteris	1738: infiitutum pokj fteris	ws	Aharone nati mares quod quidem ⟦institutum posteris⟧ vestris circa Jovae rem divinam
+Lev.6.18	base-only	reading	Jovae	1738: Ious	1750,ws	quidem institutum posteris vestris circa ⟦Jovae⟧ rem divinam aeternum tradatur ut
+Lev.6.18	base-only	reading	divinam aeternum	1738: diuiI nam sternum	ws	posteris vestris circa Jovae rem ⟦divinam aeternum⟧ tradatur ut ea non nisi
+Lev.6.18	base-only	reading		1738: i	ws	aeternum tradatur ut ea non ⟦⟧ nisi consecrati attingant
+Lev.6.18	base-only	reading	consecrati	1738: confccrati	ws	tradatur ut ea non nisi ⟦consecrati⟧ attingant
+Lev.6.19	base-only	edge	De	1738: i Ue	1750,ws	ea non nisi consecrati attingant ⟦De⟧ libamine autem Aharonis aut ejus
+Lev.6.19	base-only	reading	ejus filiorum	1738: i eiusfiliorum	ws	De libamine autem Aharonis aut ⟦ejus filiorum⟧ inquit quod Jovae libabunt quo
+Lev.6.19	base-only	reading	Jovae libabunt	1738: Ious li babunt	1750,ws	aut ejus filiorum inquit quod ⟦Jovae libabunt⟧ quo die unguetur sic accipe
+Lev.6.19	correct	reading	unguetur	1738,1750: vngentur	ws	quod Jovae libabunt quo die ⟦unguetur⟧ sic accipe
+Lev.6.20	base-only	reading	perpetuum	1738: perpeI tuum	1750,ws	Decima pars ephi similaginis ⟦perpetuum⟧ fertum esto cujus dimidium mane
+Lev.6.21	base-only	reading	sic	1738: fie	1750,ws	patella cum oleo paretur et ⟦sic⟧ tostum fertum et coctum atque
+Lev.6.21	base-only	reading	et coctum	1738: etcoclum	1750,ws	paretur et sic tostum fertum ⟦et coctum⟧ atque comminutum Jovae ad odoris
+Lev.6.21	base-only	reading		1738: i	ws	tostum fertum et coctum atque ⟦⟧ comminutum Jovae ad odoris suavitatem
+Lev.6.21	base-only	reading	Jovae	1738: Ious	ws	fertum et coctum atque comminutum ⟦Jovae⟧ ad odoris suavitatem libetur
+Lev.6.21	base-only	reading	suavitatem	1738: fuabuitatem | 1750: fua vitatem	ws	atque comminutum Jovae ad odoris ⟦suavitatem⟧ libetur
+Lev.6.22	base-only	reading		1738: y	1750,ws	Hoc pontifex ⟦⟧ in ejus locum unctus de
+Lev.6.22	base-only	reading	unctus	1738: vnftus | 1750: vnéctus	ws	Hoc pontifex in ejus locum ⟦unctus⟧ de filiis ejus facito ita
+Lev.6.22	base-only	reading		1738: I	1750,ws	locum unctus de filiis ejus ⟦⟧ facito ita ut aeterno ritu
+Lev.6.22	base-only	reading	aeterno	1738: sterno	1750,ws	filiis ejus facito ita ut ⟦aeterno⟧ ritu Jovae totum adoleatur
+Lev.6.22	base-only	reading	Jovae totum	1738: Ions toll turn	ws	facito ita ut aeterno ritu ⟦Jovae totum⟧ adoleatur
+Lev.6.23	base-only	reading	omne	1738: o i nine	1750,ws	Atque etiam ⟦omne⟧ sacerdotis fertum solidum esto neve
+Lev.6.23	base-only	reading	esto	1738: eUfto	1750,ws	etiam omne sacerdotis fertum solidum ⟦esto⟧ neve comeditor
+Lev.6.24	base-only	reading	Haec	1738: Hsc	1750,ws	⟦Haec⟧ item Aharoni et ejus filiis
+Lev.6.24	base-only	reading		1738: I	1750,ws	Haec item ⟦⟧ Aharoni et ejus filiis exponito
+Lev.6.24	base-only	reading		1738: t	1750,ws	et ejus filiis exponito ad ⟦⟧ hunc modum inquit
+Lev.6.25	base-only	reading	haec piaculi	1750: haecpia culi | 1738: hsc piai culi	ws	⟦haec piaculi⟧ lex esto quo in loco
+Lev.6.25	base-only	reading	immolabitur	1738: immoJ labitur | 1750: immelabitur	ws	lex esto quo in loco ⟦immolabitur⟧ solidi sacrificii victima inibi immolator
+Lev.6.25	base-only	reading	victima	1738: viclima I	1750,ws	in loco immolabitur solidi sacrificii ⟦victima⟧ inibi immolator piaculum ante Jovam
+Lev.6.25	base-only	reading	Jovam	1738: Iol uam	1750,ws	victima inibi immolator piaculum ante ⟦Jovam⟧ quod sit sacrosanctum
+Lev.6.25	base-only	edge	sacrosanctum Pontifex qui expiabit eo	1738: facrofanchim PonI tifex quiexpiabit eovefcitor et I	1750,ws	piaculum ante Jovam quod sit ⟦sacrosanctum Pontifex qui expiabit eo⟧ vescitor et
+Lev.6.26	base-only	reading		1738: I	1750,ws	qui expiabit eo vescitor et ⟦⟧ vescitor in loco sacro in
+Lev.6.26	base-only	reading	oracularis	1738: o l racularis	1750,ws	in loco sacro in atrio ⟦oracularis⟧ tabernaculi
+Lev.6.27	base-only	reading		1738: i	1750,ws	Quisquis ⟦⟧ piaculi corpus attinget consecrator Quod
+Lev.6.27	base-only	reading	consecrator Quod si	1738: confecia tor Qiiod C	1750,ws	Quisquis piaculi corpus attinget ⟦consecrator Quod si⟧ quod vestimentum ejus sanguine adspersum
+Lev.6.27	base-only	reading		1738: r	1750,ws	consecrator Quod si quod vestimentum ⟦⟧ ejus sanguine adspersum fuerit vestimentum
+Lev.6.27	base-only	reading		1738: I	1750,ws	vestimentum ejus sanguine adspersum fuerit ⟦⟧ vestimentum illud lavator in loco
+Lev.6.27	base-only	reading	loco	1738: iloco	1750,ws	fuerit vestimentum illud lavator in ⟦loco⟧ sacro
+Lev.6.28	base-only	reading	coctum	1738: coftum	1750,ws	Vas autem in quo ⟦coctum⟧ fuerit si erit fictile frangitor
+Lev.6.28	base-only	reading	fictile	1738: l fittile	1750,ws	quo coctum fuerit si erit ⟦fictile⟧ frangitor si aereum detergitor et
+Lev.6.28	base-only	reading	aereum detergitor	1738: sreum IjMetergitor	ws	si erit fictile frangitor si ⟦aereum detergitor⟧ et aqua abluitor
+Lev.6.29	base-only	reading	Omnes	1750: O mnes | 1738: Oh mnes	ws	⟦Omnes⟧ mares de sacerdotibus eo vescuntor
+Lev.6.29	base-only	reading	vescuntor	1738: veI fcuntor	1750,ws	Omnes mares de sacerdotibus eo ⟦vescuntor⟧ ut quod sit sacrosanctum
+Lev.6.29	base-only	edge	sacrosanctum	1738: facrofan et um	ws	eo vescuntor ut quod sit ⟦sacrosanctum⟧ At nullum piaculum de cujus
+Lev.6.30	base-only	division	sanguine	1738: fan guine | 1750: fari guine	ws	At nullum piaculum de cujus ⟦sanguine⟧ illatum fuerit in oraculare tabernaculum
+Lev.6.30	base-only	division	sed igni	1738: fedigni	1750,ws	ad supplicandum in sacrario comeditor ⟦sed igni⟧ cremator
+Lev.7.2	base-only	reading		1738: x	1750,ws	Quo in ⟦⟧ loco immolatur solidi sacrificii victima
+Lev.7.2	base-only	reading	victima	1738: viclima	1750,ws	in loco immolatur solidi sacrificii ⟦victima⟧ inibi noxam immolanto Ejus sanguinem
+Lev.7.3	base-only	reading	Adipem	1750: Adi pem | 1738: Adi pern	ws	⟦Adipem⟧ omnem ex ea libato caudam
+Lev.7.4	base-only	reading	adipem	1738: adi pern	ws	renes ambos et ⟦adipem⟧ qui eis supra lumbos adhaeret
+Lev.7.4	base-only	reading	adhaeret	1738: adhsret | 1750: adhacret	ws	adipem qui eis supra lumbos ⟦adhaeret⟧ fibramque jecoris cum renibus ademptam
+Lev.7.5	base-only	reading	Jovae sacrificium	1738: Ious facri ficium	1750,ws	Hoc pro noxa ⟦Jovae sacrificium⟧ fiet
+Lev.7.6	base-only	reading	sacrosanctum	1738: facrofanclum	1750,ws	in loco sacro ut quod ⟦sacrosanctum⟧ fit
+Lev.7.7	base-only	reading	noxae legem unam	1738: noxs le gemvnam	ws	Delicti et ⟦noxae legem unam⟧ habento Pontifex qui eo supplicabit
+Lev.7.8	base-only	division	Et sane	1738: Etfa ne	ws	⟦Et sane⟧ pontifex qui alicujus solidum sacrificium
+Lev.7.8	base-only	reading	victimae	1738: victims	1750,ws	alicujus solidum sacrificium faciet pellem ⟦victimae⟧ quam immolabit sibi habeto
+Lev.7.9	base-only	division	Omne	1738: O mne	1750,ws	⟦Omne⟧ fertum clibano coctum omneque sartaginarium
+Lev.7.9	base-only	reading	coctum	1738: codhun	1750,ws	Omne fertum clibano ⟦coctum⟧ omneque sartaginarium aut patellarium pontifex
+Lev.7.9	base-only	division	qui id libabit	1738: quiidlibabit	ws	omneque sartaginarium aut patellarium pontifex ⟦qui id libabit⟧ sibi habeto
+Lev.7.10	base-only	reading	subactum	1738: fuba et um	1750,ws	Omne autem fertum in oleo ⟦subactum⟧ et aridum omnes Aharonis filii
+Lev.7.10	base-only	reading	habento	1738: hibento | 1738: hibento Hoftis	ws	aridum omnes Aharonis filii pariter ⟦habento⟧
+Lev.7.11	base-only	reading	Hostiae	1738: Hoftis	1750,ws	⟦Hostiae⟧ autem quam quis Jovae pro
+Lev.7.11	base-only	reading	Jovae	1738: Ious	1750,ws	Hostiae autem quam quis ⟦Jovae⟧ pro salute obmovebit haec lex
+Lev.7.11	base-only	reading	haec	1738: hsc	1750,ws	quis Jovae pro salute obmovebit ⟦haec⟧ lex esto
+Lev.7.12	base-only	reading	libato praeter	1738: li it bato prster	ws	si gratitudinis ergo obmovebit ⟦libato praeter⟧ hostiam gratitudinis placentas non fermentatas
+Lev.7.12	base-only	reading	subactas	1738: fubaclas | 1750: fübatas	ws	placentas non fermentatas in oleo ⟦subactas⟧ et crustula sine fermento oleo
+Lev.7.12	base-only	reading	similam	1738: fi i ilam	1750,ws	sine fermento oleo conspersa tostamque ⟦similam⟧ placentas in oleo subactas
+Lev.7.13	base-only	reading	praeter	1738: prster	1750,ws	placentas panis fermentati libationem facito ⟦praeter⟧ hostiam gratitudinis pro ejus salute
+Lev.7.14	base-only	division	ex tota libatione	1738: extotalibatione	ws	Ex eo unum libato ⟦ex tota libatione⟧ exceptum Jovae idque sacerdos qui
+Lev.7.14	base-only	reading	Jovae	1738: Ious | 1750: Ioude	ws	libato ex tota libatione exceptum ⟦Jovae⟧ idque sacerdos qui sanguinem victimae
+Lev.7.14	base-only	reading	victimae	1738: victims	1750,ws	Jovae idque sacerdos qui sanguinem ⟦victimae⟧ pro salute fundet sibi habeto
+Lev.7.14	base-only	reading	salute fundet	1738: folate fiinG det LEVITICVS Cap det	ws	sacerdos qui sanguinem victimae pro ⟦salute fundet⟧ sibi habeto
+Lev.7.15	base-only	reading	Carnem	1738: Carneni	1750,ws	⟦Carnem⟧ autem hostiae gratitudinis pro salute
+Lev.7.15	base-only	division	faciunto	1738: fa ciunto | 1750: far et Gciunto	ws	nihil reliqui in diem posterum ⟦faciunto⟧
+Lev.7.16	base-only	reading	aut voluntarium sacrificium faciet	1738: ant VQluntariuin facrificiumfaciet	ws	Sin autem votivum ⟦aut voluntarium sacrificium faciet⟧ quo die hostiam immolabit comedunto
+Lev.7.16	base-only	reading	comedunto	1750: come dunto | 1738: comeI dunro	ws	immolabit comedunto aut postridie reliquias ⟦comedunto⟧
+Lev.7.17	base-only	division	superaverit	1738: fuperaue rit	ws	carne hostiae in tertium diem ⟦superaverit⟧ igni cremator
+Lev.7.18	base-only	reading	comesum	1738: comcfum	1750,ws	Quod si ⟦comesum⟧ fuerit de carne hostiae pro
+Lev.7.18	base-only	reading	salute	1738: falu e	1750,ws	fuerit de carne hostiae pro ⟦salute⟧ die tertio qui id libaverit
+Lev.7.18	base-only	reading	gustaverit poenas	1738: guftaipuerit pcenas	ws	sed erit tetrum quique id ⟦gustaverit poenas⟧ dabit
+Lev.7.19	base-only	reading	illa	1738: ilia	1750,ws	attigerit ne vescuntor igni cremator ⟦illa⟧ carne non nisi mundi vescuntor
+Lev.7.19	base-only	edge	mundi vescuntor	1738: inundi vefcunao tor	1750,ws	illa carne non nisi ⟦mundi vescuntor⟧ Si quis dum erit in
+Lev.7.20	base-only	reading	Jovae	1738: louae | 1750: Quae	ws	in impuritate gustaverit carnem hostiae ⟦Jovae⟧ pro salute factae is de
+Lev.7.20	base-only	reading	factae	1738: fa tae	1750,ws	carnem hostiae Jovae pro salute ⟦factae⟧ is de suorum numero tollitor
+Lev.7.20	base-only	reading	suorum	1738: fuo i rum | 1750: fuoTum	ws	pro salute factae is de ⟦suorum⟧ numero tollitor
+Lev.7.21	base-only	reading	contactum	1738: contaclum	1750,ws	Si quis post ⟦contactum⟧ aliquid impurum sive ea impuritas
+Lev.7.21	base-only	reading	sive ea impuritas hominis	1738: fiueeaimpuritashominis	ws	quis post contactum aliquid impurum ⟦sive ea impuritas hominis⟧ sive bestiae immundae fuerit aut
+Lev.7.21	base-only	spelling	quaecumque	1738: quae cumque	1750,ws	sive bestiae immundae fuerit aut ⟦quaecumque⟧ impurae rei foeditas est gustaverit
+Lev.7.21	base-only	reading	foeditas	1738: ftxditas	1750,ws	fuerit aut quaecumque impurae rei ⟦foeditas⟧ est gustaverit carnem hostiae Jovae
+Lev.7.21	base-only	reading	Jovae	1738: louae	1750,ws	foeditas est gustaverit carnem hostiae ⟦Jovae⟧ pro salute factae is de
+Lev.7.21	base-only	reading	factae is de suorum	1738: fa et ae isdeftiorum	ws	carnem hostiae Jovae pro salute ⟦factae is de suorum⟧ numero tollitor
+Lev.7.23	base-only	reading	bovis	1738: bonis	1750,ws	Adipe ⟦bovis⟧ aut ovis aut caprae nullo
+Lev.7.23	base-only	reading		1738: a	1750,ws	aut ovis aut caprae nullo ⟦⟧ vescimini
+Lev.7.25	base-only	reading	Jovae	1738: louae | 1750: ouae	ws	quisquis vescitur adipe pecoris quo ⟦Jovae⟧ sacra facta fuerint is qui
+Lev.7.25	base-only	reading	facta	1738: facia	1750,ws	adipe pecoris quo Jovae sacra ⟦facta⟧ fuerint is qui vescetur de
+Lev.7.25	base-only	reading	suorum	1738: fuoruin	1750,ws	is qui vescetur de numero ⟦suorum⟧ tollitor
+Lev.7.26	base-only	division	Sanguine	1738: Sangu ine	1750,ws	⟦Sanguine⟧ nullo usquam vescimini neu volucris
+Lev.7.26	base-only	division	volucris	1738: volu cris | 1750: volus cris	ws	Sanguine nullo usquam vescimini neu ⟦volucris⟧ neu pecoris
+Lev.7.28	base-only	reading	inquit modum	1738: irquit moduin	1750,ws	Haec quoque ad hunc ⟦inquit modum⟧ Israelitis dicito
+Lev.7.29	base-only	reading	Jovae obmovebit	1738: louae obraouebit	ws	qui hostiam pro salute sua ⟦Jovae obmovebit⟧ de ea pro salute hostia
+Lev.7.29	base-only	reading	hostia	1738: hoftta	1750,ws	obmovebit de ea pro salute ⟦hostia⟧ libamen suum Jovae dato
+Lev.7.29	base-only	reading	suum Jovae	1738: fu um louae	1750,ws	ea pro salute hostia libamen ⟦suum Jovae⟧ dato
+Lev.7.30	base-only	division	et dato suis	1738: etdatofuis	1750,ws	⟦et dato suis⟧ manibus Jovae rem divinam videlicet
+Lev.7.30	base-only	reading	Jovae	1738: louae	1750,ws	et dato suis manibus ⟦Jovae⟧ rem divinam videlicet adipem cum
+Lev.7.30	base-only	reading	Jovae	1738: louae I	1750,ws	adipem cum pectore pectus ut ⟦Jovae⟧ porriciatur
+Lev.7.31	base-only	reading	ara	1738: ra	ws	adipem pontifex in ⟦ara⟧ adoleto pectus Aharon et ejus
+Lev.7.32	base-only	reading	armum	1738: annum	1750,ws	⟦armum⟧ dextrum pontifici de hostiis pro
+Lev.7.32	base-only	reading		1738: l	1750,ws	armum dextrum ⟦⟧ pontifici de hostiis pro vestra
+Lev.7.33	base-only	edge	quem armum	1738: quern ar mum	1750,ws	pro vestra salute exceptum datote ⟦quem armum⟧ dextrum is de filiis
+Lev.7.33	base-only	reading	adipem libabit	1738: adi pern hbabit	1750,ws	Aharonis qui sanguinem hostiae et ⟦adipem libabit⟧ habeat sibi in portionem
+Lev.7.34	base-only	reading	porrectitium	1738: porrecliti um | 1750: porrectti um	ws	Nam pectus ⟦porrectitium⟧ et armum exceptitium ego sumo
+Lev.7.34	base-only	reading	quae Aharoni	1738: quxAharoni	1750,ws	de eorum pro salute hostiis ⟦quae Aharoni⟧ pontifici et ejus filiis aeterno
+Lev.7.34	base-only	reading	et ejus filiis aeterno instituto	1738: eteiusfiliis seterno imtituto	ws	salute hostiis quae Aharoni pontifici ⟦et ejus filiis aeterno instituto⟧ ab Israelitis adsignem
+Lev.7.35	base-only	reading	quidem est unctio	1738: J quidemeft vnclio	ws	Atque haec ⟦quidem est unctio⟧ Aharonis et ejus filiorum ab
+Lev.7.35	base-only	reading	filiorum	1738: riliorum	1750,ws	est unctio Aharonis et ejus ⟦filiorum⟧ ab Jovae re divina quo
+Lev.7.35	base-only	reading	Jovae	1738: louae	1750,ws	Aharonis et ejus filiorum ab ⟦Jovae⟧ re divina quo die stati
+Lev.7.35	base-only	reading	Jovae	1738: louae	1750,ws	stati sunt ad gerendum sacerdotium ⟦Jovae⟧
+Lev.7.36	base-only	reading	quem	1738: quern	1750,ws	quae Jova eis in ⟦quem⟧ diem ungerentur ab Israelitis adsignavit
+Lev.7.36	base-only	reading	adsignavit	1738: adlignauit	1750,ws	quem diem ungerentur ab Israelitis ⟦adsignavit⟧ instituto perpetuo et ad posteros
+Lev.7.38	base-only	reading	tradidit Jova Mosi in monte	1738: tradi J dit louaMofiinmonte	ws	quam ⟦tradidit Jova Mosi in monte⟧ Sina tum quum in solitudine
+Lev.7.38	base-only	reading	tum	1738: turn	1750,ws	Jova Mosi in monte Sina ⟦tum⟧ quum in solitudine Sina Israelitis
+Lev.7.38	base-only	reading	praecepta	1738: praccepta	1750,ws	quum in solitudine Sina Israelitis ⟦praecepta⟧ dedit de eorum muneribus Jovae
+Lev.7.38	base-only	reading	muneribus Jovae	1738: muneri bus louae	1750,ws	Israelitis praecepta dedit de eorum ⟦muneribus Jovae⟧ obmovendis
+Lev.8.2	correct	reading	vestibus	1738,1750: veftibusque	ws	Aharone una cum ejus filiis ⟦vestibus⟧ et oleo unctorio et piaculari
+Lev.8.2	base-only	reading	unctorio	1738: vn et orio | 1750: vnétorio	ws	ejus filiis vestibus et oleo ⟦unctorio⟧ et piaculari tauro duobusque arietibus
+Lev.8.4	base-only	division	fecit	1738: fe cit	1750,ws	Id quod ⟦fecit⟧ Moses sicut a Jova jussus
+Lev.8.4	base-only	division	sicut a	1738: ficuta	1750,ws	Id quod fecit Moses ⟦sicut a⟧ Jova jussus est convocataque concione
+Lev.8.6	base-only	division	Deinde	1738: De inde	1750,ws	⟦Deinde⟧ Aharonem et ejus filios produxit
+Lev.8.7	base-only	reading	tum	1738: turn	1750,ws	⟦tum⟧ illi tunicam accommodavit eumque cinctu
+Lev.8.7	base-only	reading	accommodavit	1738: accomraodauit | 1750: accomniodauit	ws	tum illi tunicam ⟦accommodavit⟧ eumque cinctu succinxit praeterea vestivit
+Lev.8.7	base-only	reading	cinctu	1738: cindhi	1750,ws	tum illi tunicam accommodavit eumque ⟦cinctu⟧ succinxit praeterea vestivit ephodum imposuit
+Lev.8.7	base-only	reading	textura illa	1738: tcxtura ilia	1750,ws	vestivit ephodum imposuit eumque ephodi ⟦textura illa⟧ subtili cinxit et eo amicivit
+Lev.8.8	base-only	reading	Tum	1738: Turn	1750,ws	⟦Tum⟧ monile adjecit et in monili
+Lev.8.8	base-only	reading	et	1738: 	1750,ws	Tum monile adjecit ⟦et⟧ in monili posuit CLARITAS ET
+Lev.8.8	base-only	reading		1738: Cap L E V I T I C V S ET	1750,ws	in monili posuit CLARITAS ET ⟦⟧ INTEGRITAS
+Lev.8.9	base-only	reading	capiti	1738: capita	1750,ws	Ejus ⟦capiti⟧ infulam imposuit et in infula
+Lev.8.9	base-only	reading	infula secundum	1738: inftila reciinduni	1750,ws	capiti infulam imposuit et in ⟦infula secundum⟧ frontem auream sacri coronamenti laminam
+Lev.8.9	base-only	reading	coronamenti laminam	1738: icoronamenti laniinam	1750,ws	infula secundum frontem auream sacri ⟦coronamenti laminam⟧ sicut jussus a Jova fuerat
+Lev.8.11	base-only	reading	Tum	1738: Turn	1750,ws	⟦Tum⟧ de eo in aram septies
+Lev.8.11	base-only	reading	effudit	1738: eftudit	1750,ws	de eo in aram septies ⟦effudit⟧ aramque cum omni sua supellectile
+Lev.8.11	base-only	reading	sua	1738: fna	1750,ws	septies effudit aramque cum omni ⟦sua⟧ supellectile et labrum cum suo
+Lev.8.11	base-only	reading	consecranda	1738: confeeranda	1750,ws	cum suo scapo ad ea ⟦consecranda⟧ unxit
+Lev.8.12	base-only	reading	unctionis	1738: vn et ionis | 1750: vnétionis	ws	Deinde oleo ⟦unctionis⟧ caput Aharonis perfudit eumque ungendo
+Lev.8.13	base-only	reading	cinctibus	1738: inctibus | 1750: cinétibus	ws	filios Aharonis produxit tunicis ornavit ⟦cinctibus⟧ succinxit galeris obnupsit quomodo a
+Lev.8.13	base-only	edge	mandatum	1738: ma datum | 1750: i nrndatum	ws	quomodo a Jova fuerat ei ⟦mandatum⟧ Deinde taurum piacularem admovit eum
+Lev.8.14	base-only	reading	piacularem	1738: piacilarera	1750,ws	Deinde taurum ⟦piacularem⟧ admovit eum quum ejus capiti
+Lev.8.14	base-only	reading	eum	1738: 	1750,ws	Deinde taurum piacularem admovit ⟦eum⟧ quum ejus capiti Aharon et
+Lev.8.14	base-only	reading		1738: quuni	1750,ws	taurum piacularem admovit eum quum ⟦⟧ ejus capiti Aharon et ejus
+Lev.8.15	base-only	reading	sumpsit et eo	1738: fumfit teo	ws	immolavit sanguinem ⟦sumpsit et eo⟧ cornua arae undique suo digito
+Lev.8.15	base-only	spelling	arae	1738: ar e	1750,ws	sanguinem sumpsit et eo cornua ⟦arae⟧ undique suo digito intinxit atque
+Lev.8.15	base-only	reading	eam	1738: earn	ws	undique suo digito intinxit atque ⟦eam⟧ expiavit reliquum sanguinem ad arae
+Lev.8.15	base-only	reading	reliquum	1738: reliquuin	1750,ws	digito intinxit atque eam expiavit ⟦reliquum⟧ sanguinem ad arae radicem effudit
+Lev.8.15	base-only	reading	arae	1738: ara	1750,ws	eam expiavit reliquum sanguinem ad ⟦arae⟧ radicem effudit eamque lustravit ut
+Lev.8.15	base-only	reading	effudit eamque	1738: eftudit eamqne	1750,ws	reliquum sanguinem ad arae radicem ⟦effudit eamque⟧ lustravit ut in ea supplicari
+Lev.8.16	correct	spelling	sumpsit	1738,1750: fumfit	ws	Deinde ⟦sumpsit⟧ totos lactes fibramque jecoris et
+Lev.8.16	base-only	reading	lactes	1738: la es | 1750: la et es	ws	Deinde sumpsit totos ⟦lactes⟧ fibramque jecoris et renes ambos
+Lev.8.17	base-only	reading	praeceperat	1738: praceperat	1750,ws	extra castra sicut ei Jova ⟦praeceperat⟧
+Lev.8.18	base-only	reading	sacrificium	1738: lacrificium	1750,ws	Item produxit arietem ad solidum ⟦sacrificium⟧ eumque ubi ejus capiti manus
+Lev.8.18	base-only	reading	imposuerunt	1738: impofnerunt	1750,ws	ubi ejus capiti manus suas ⟦imposuerunt⟧ Aharon et ejus filii
+Lev.8.19	base-only	edge	mactavit	1738: mac rauit	ws	imposuerunt Aharon et ejus filii ⟦mactavit⟧ sanguinem in aram circumfudit
+Lev.8.19	base-only	division	aram	1738: a ram	1750,ws	mactavit sanguinem in ⟦aram⟧ circumfudit
+Lev.8.20	base-only	reading	frustatim laceravit	1738: fruftattm iacerauit	1750,ws	arietem ⟦frustatim laceravit⟧ caput frusta sevum adolevit
+Lev.8.20	base-only	reading	sevum	1738: fee mm	1750,ws	arietem frustatim laceravit caput frusta ⟦sevum⟧ adolevit
+Lev.8.21	base-only	reading	intestina	1738: intcftina	ws	⟦intestina⟧ et crura aqua abluit totumque
+Lev.8.21	base-only	division	aqua abluit	1738: aquaabluit	ws	intestina et crura ⟦aqua abluit⟧ totumque arietem in ara adolevit
+Lev.8.21	base-only	reading	Jovae	1738: louse	1750,ws	suavis odoris sacrificium haec est ⟦Jovae⟧ res divina qualem fieri Jova
+Lev.8.21	base-only	edge	Jova Mosi praecepit	1738: louaMofi prxcepit	ws	divina qualem fieri ⟦Jova Mosi praecepit⟧ Deinde arietem alterum videlicet initiatorium
+Lev.8.22	base-only	reading	imposuerunt	1738: impofnerunt | 1738: impofnerunt etim	1750,ws	et ejus filii manus suas ⟦imposuerunt⟧
+Lev.8.23	base-only	reading	eum	1738: etim	1750,ws	⟦eum⟧ Moses immolavit sumpsitque de ejus
+Lev.8.23	base-only	spelling	sumpsitque	1738: fumfitque	ws	eum Moses immolavit ⟦sumpsitque⟧ de ejus sanguine et eo
+Lev.8.23	base-only	division	sanguine	1738: fangui ne	1750,ws	Moses immolavit sumpsitque de ejus ⟦sanguine⟧ et eo infimam auriculam Aharonis
+Lev.8.23	base-only	reading	tum	1738: turn	1750,ws	infimam auriculam Aharonis dextram pollicemque ⟦tum⟧ manus tum pedis dextrum intinxit
+Lev.8.23	base-only	reading	tum	1738: turn	1750,ws	Aharonis dextram pollicemque tum manus ⟦tum⟧ pedis dextrum intinxit
+Lev.8.23	base-only	edge	dextrum intinxit Tum Aharonis	1738: dextrnm infinxit TumAharonis	1750,ws	tum manus tum pedis ⟦dextrum intinxit Tum Aharonis⟧ filios produxit et eorum
+Lev.8.24	base-only	division	aram	1738: a ram	1750,ws	sanguine intinxit reliquum sanguinem in ⟦aram⟧ circumfudit
+Lev.8.25	correct	spelling	sumpsit	1738,1750: fumfit	ws	Deinde ⟦sumpsit⟧ adipem et caudam totosque lacies
+Lev.8.25	base-only	reading		1738: etcau dam totosque laciei	1750,ws	Deinde sumpsit adipem ⟦⟧ et caudam totosque lacies et
+Lev.8.25	base-only	reading	caudam totosque lacies et fibram	1738: ribram	ws	Deinde sumpsit adipem et ⟦caudam totosque lacies et fibram⟧ jecoris et renes ambos cum
+Lev.8.25	base-only	reading	ambos	1738: arnJo	ws	et fibram jecoris et renes ⟦ambos⟧ cum suo pingui et armum
+Lev.8.25	base-only	edge	dextrum tum	1738: iex ium turn	1750,ws	cum suo pingui et armum ⟦dextrum tum⟧ de canistro panum sine fermento
+Lev.8.26	base-only	reading	canistro panum sine	1738: ca niftro pan mi line	ws	tum de ⟦canistro panum sine⟧ fermento Jovae adpositorum sumpsit placentam
+Lev.8.26	base-only	reading	adpositorum sumpsit	1738: adpodtorum fumfit | 1750: appofitorum fumfit	ws	canistro panum sine fermento Jovae ⟦adpositorum sumpsit⟧ placentam sine fermento unam placentam
+Lev.8.26	base-only	reading	placentam	1738: placeman	1750,ws	sumpsit placentam sine fermento unam ⟦placentam⟧ panis oleo confecti unam crustum
+Lev.8.26	base-only	reading	confecti	1738: confectt	1750,ws	fermento unam placentam panis oleo ⟦confecti⟧ unam crustum unum eaque adipibus
+Lev.8.26	base-only	reading	et armo dextro	1738: etarmodevtro	1750,ws	unam crustum unum eaque adipibus ⟦et armo dextro⟧ imposuit
+Lev.8.27	base-only	division	Aharonis et ejus	1738: Aha ronis eteius	ws	omniaque palmis ⟦Aharonis et ejus⟧ filiorum imposuit et coram Jova
+Lev.8.28	base-only	reading		1738: a	1750,ws	Deinde ⟦⟧ ex illorum manibus desumpta in
+Lev.8.28	base-only	reading	Haec	1738: H cc	1750,ws	adolevit super solidi sacrificii victima ⟦Haec⟧ est initiatio ad odoris suavitatem
+Lev.8.28	base-only	reading	suavitatem haec	1738: fuauitatein h rc	1750,ws	Haec est initiatio ad odoris ⟦suavitatem haec⟧ est Jovae res divina
+Lev.8.28	base-only	reading	Jovae	1738: louse	1750,ws	ad odoris suavitatem haec est ⟦Jovae⟧ res divina
+Lev.8.29	correct	spelling	sumpsit	1738,1750: fumfit	ws	Postea ⟦sumpsit⟧ Moses pectus idque ante Jovam
+Lev.8.29	base-only	reading		1738: ip	1750,ws	Postea sumpsit Moses ⟦⟧ pectus idque ante Jovam porrexit
+Lev.8.29	base-only	reading	quam	1738: quani	1750,ws	pectus idque ante Jovam porrexit ⟦quam⟧ partem Moses ipse ex ariete
+Lev.8.29	base-only	reading	praeceperat Jova	1738: praceperat lona	1750,ws	ariete initiatorio habuit sicut ei ⟦praeceperat Jova⟧
+Lev.8.30	correct	spelling	sumpsit	1738,1750: fumfit	ws	Deinde ⟦sumpsit⟧ Moses de oleo unctorio et
+Lev.8.30	base-only	reading	unctorio	1738: vn clorio | 1750: vnétorio	ws	Deinde sumpsit Moses de oleo ⟦unctorio⟧ et de sanguine qui erat
+Lev.8.30	base-only	reading	eoque	1738: eoquc	1750,ws	sanguine qui erat super ara ⟦eoque⟧ Aharonem cum suis vestimentis una
+Lev.8.30	base-only	reading	conspersit	1738: confperlit	1750,ws	cum ejus filiis eorumque vestimentis ⟦conspersit⟧ et cum suis utrosque vestimentis
+Lev.8.31	base-only	reading	portam oracularis	1738: por tarn oraculaiis	1750,ws	coquite carnem ad ⟦portam oracularis⟧ tabernaculi et inibi eam comedire
+Lev.8.31	base-only	reading	eam comedire	1738: earn comedite | 1750: tam comedite	ws	portam oracularis tabernaculi et inibi ⟦eam comedire⟧ panemque qui est in canistro
+Lev.8.31	base-only	reading	initiatorio quemadmodum praeceptum	1738: inmatorio quemadmbdum prxceptum	1750,ws	panemque qui est in canistro ⟦initiatorio quemadmodum praeceptum⟧ mihi est ut eo Aharon
+Lev.8.32	base-only	reading	Reliquias	1738: Reltquias	1750,ws	⟦Reliquias⟧ autem carnis atque panis igni
+Lev.8.32	base-only	reading	panis	1738: pa a nis | 1750: pa nis	ws	Reliquias autem carnis atque ⟦panis⟧ igni crematote
+Lev.8.33	base-only	reading	Neve	1738: Neuc	1750,ws	⟦Neve⟧ ex introitu oracularis tabernaculi disceditote
+Lev.8.33	base-only	reading	introitu oracularis	1738: in troitu oraeularis	1750,ws	Neve ex ⟦introitu oracularis⟧ tabernaculi disceditote per septem dies
+Lev.8.33	base-only	reading	donec peractum	1738: donee peraclum	ws	tabernaculi disceditote per septem dies ⟦donec peractum⟧ sit vestrae initiationis spatium nam
+Lev.8.33	base-only	reading	vestrae initiationis spatium	1738: veftra initiarionis fpatiuni	1750,ws	septem dies donec peractum sit ⟦vestrae initiationis spatium⟧ nam vobis septem diebus manus
+Lev.8.34	base-only	reading	jussit	1738: iustit | 1750: iuflit	ws	quod ut hodie fit ⟦jussit⟧ Jova fieri ad supplicandum pro
+Lev.8.35	base-only	edge	Manete	1738: Mane te LEVITICVS Cap fo te	1750,ws	fieri ad supplicandum pro vobis ⟦Manete⟧ autem in introitu tabernacularis oraculi
+Lev.8.35	base-only	reading	oraculi	1738: oraciili	1750,ws	Manete autem in introitu tabernacularis ⟦oraculi⟧ interdiu noctuque per septem dies
+Lev.8.35	base-only	reading	noctuque	1738: nodtuque	1750,ws	in introitu tabernacularis oraculi interdiu ⟦noctuque⟧ per septem dies et Jovae
+Lev.8.35	base-only	reading	mandata	1738: tuandata	1750,ws	per septem dies et Jovae ⟦mandata⟧ conservate ne morte plectamini nam
+Lev.8.35	base-only	reading	plectamini	1738: pleclamini	1750,ws	Jovae mandata conservate ne morte ⟦plectamini⟧ nam mihi ita praeceptum est
+Lev.8.36	base-only	division	filii ea	1738: filiiea	1750,ws	Fecit igitur Aharon et ejus ⟦filii ea⟧ omnia quae praeceperat Jova per
+Lev.8.36	base-only	division	praeceperat	1738: praecep erat	1750,ws	ejus filii ea omnia quae ⟦praeceperat⟧ Jova per Mosem
+Lev.8.36	base-only	edge	Mosem	1738: 	1750,ws	omnia quae praeceperat Jova per ⟦Mosem⟧
+Lev.9.2	base-only	reading	bove	1738: bone	1750,ws	Aharonique mandavit uti vitulum ⟦bove⟧ natum ad expiationem et arietem
+Lev.9.3	base-only	reading	uti sumerent caprum	1738: vtifumerentcapruin	ws	utque Israelitis mandaret ⟦uti sumerent caprum⟧ ad expiationem vitulumque et ovem
+Lev.9.3	base-only	division	vitulumque et	1738: vitulumqueet	1750,ws	uti sumerent caprum ad expiationem ⟦vitulumque et⟧ ovem anniculos integros ad solidum
+Lev.9.3	base-only	reading		1738: a	1750,ws	ovem anniculos integros ad solidum ⟦⟧ sacrificium
+Lev.9.4	base-only	reading	sacrificarent	1738: facrificarcnt	1750,ws	pro salute quibus coram Jova ⟦sacrificarent⟧ fertumque in oleo subactum eo
+Lev.9.4	base-only	edge	adpariturum Tum	1738: adparitu rum Turn | 1750: apparitu rum	ws	enim die Jovam eis esse ⟦adpariturum Tum⟧ illi sumpserunt quae jusserat Moses
+Lev.9.5	correct	spelling	sumpserunt	1738,1750: fumferunt	ws	Tum illi ⟦sumpserunt⟧ quae jusserat Moses in conspectu
+Lev.9.5	base-only	division	oracularis tabernaculi	1738: oracularistabernaculi	ws	quae jusserat Moses in conspectu ⟦oracularis tabernaculi⟧ accessitque coetus universus et ante
+Lev.9.5	base-only	spelling	coetus	1738: ccetus | 1750: coeYus	ws	in conspectu oracularis tabernaculi accessitque ⟦coetus⟧ universus et ante Jovam constitit
+Lev.9.5	base-only	edge	constitit Tum	1738: con ftitit Turn | 1750: conT WN Tek ftitit	ws	coetus universus et ante Jovam ⟦constitit Tum⟧ Moses quid eis faciendum Jova
+Lev.9.6	base-only	division	esse	1738: es fe	1750,ws	exposuit nam Jovae splendorem eis ⟦esse⟧ adpariturum
+Lev.9.7	base-only	division	Aharoni jussit	1738: Aharoniiusfit	ws	Deinde ⟦Aharoni jussit⟧ ut ad aram accederet suumque
+Lev.9.7	base-only	spelling	praeceperat	1738: prae ceperat	1750,ws	et pro eo supplicaret quemadmodum ⟦praeceperat⟧ Jova
+Lev.9.8	base-only	reading	Tum	1738: Turn	1750,ws	⟦Tum⟧ Aharon ad aram accessit vitulumque
+Lev.9.8	base-only	division	sui piacularem	1738: fuipia cularem	1750,ws	Aharon ad aram accessit vitulumque ⟦sui piacularem⟧ immolavit
+Lev.9.9	base-only	reading	filiis	1738: til us	1750,ws	et sanguine sibi a suis ⟦filiis⟧ subministrato digitum suum intinxit et
+Lev.9.9	base-only	reading	arae	1738: arac	1750,ws	digitum suum intinxit et eo ⟦arae⟧ cornua imbuit reliquum ad arae
+Lev.9.9	base-only	reading		1738: io	1750,ws	cornua imbuit reliquum ad arae ⟦⟧ radicem effudit
+Lev.9.9	base-only	reading	effudit	1738: eftiidit	1750,ws	imbuit reliquum ad arae radicem ⟦effudit⟧
+Lev.9.12	base-only	reading	Tum	1738: Turn | 1750: um tz	ws	⟦Tum⟧ victimam ad solidum sacrificium immolavit
+Lev.9.12	base-only	reading	sanguinemque	1738: fangninetaque	1750,ws	victimam ad solidum sacrificium immolavit ⟦sanguinemque⟧ sibi suppeditatum a filiis in
+Lev.9.13	correct	reading	iisdem	1738: iis ij dem | 1750: iis r dem	ws	et victimam sibi ab ⟦iisdem⟧ cum frustis et capite traditam
+Lev.9.13	base-only	reading	frustis	1738: fruflis	1750,ws	victimam sibi ab iisdem cum ⟦frustis⟧ et capite traditam adolevit in
+Lev.9.14	base-only	edge	Tum intestina	1738: Turn in teltina	1750,ws	capite traditam adolevit in ara ⟦Tum intestina⟧ et crura lavit et
+Lev.9.14	base-only	reading	super	1738: ftiper	1750,ws	et crura lavit et ea ⟦super⟧ victima in ara adolevit
+Lev.9.15	base-only	edge	Deinde populi	1738: Dein If depopuli	ws	super victima in ara adolevit ⟦Deinde populi⟧ munus protulit caprumque populi
+Lev.9.15	base-only	division	piacularem cepit et	1738: piacularemcepitet	1750,ws	populi munus protulit caprumque populi ⟦piacularem cepit et⟧ immolavit populumque expiavit uti prius
+Lev.9.16	base-only	reading	victimam	1738: vi it ttimain | 1750: vi imam	ws	et productam solidam ⟦victimam⟧ fecit uti ritus ferebat
+Lev.9.17	base-only	reading	fertum	1738: fertuin	1750,ws	Deinde ⟦fertum⟧ libavit et ex eo plenum
+Lev.9.17	base-only	reading		1738: l	1750,ws	fertum libavit et ex eo ⟦⟧ plenum volae suae in ara
+Lev.9.17	base-only	reading	praeter	1738: practer	1750,ws	volae suae in ara adolevit ⟦praeter⟧ solidum sacrificium matutinum
+Lev.9.18	base-only	reading	Tum	1738: Turn | 1750: Fum	ws	⟦Tum⟧ immolavit bovem et arietem sacrificii
+Lev.9.18	base-only	reading		1738: ll	1750,ws	Tum immolavit bovem ⟦⟧ et arietem sacrificii pro salute
+Lev.9.19	base-only	edge	Adipem	1738: l dipem | 1750: g dipem	ws	filiis suggestum in aram circumfudit ⟦Adipem⟧ bovis et arietis caudam et
+Lev.9.20	base-only	reading	pectoribus	1738: peclo it ribus | 1750: pecto ribus	ws	adipes inquam ⟦pectoribus⟧ ab illis impositos adolevit in
+Lev.9.20	base-only	division	illis impositos	1738: illisimpofitos	1750,ws	adipes inquam pectoribus ab ⟦illis impositos⟧ adolevit in ara
+Lev.9.21	base-only	reading	pectora	1738: peetora	1750,ws	⟦pectora⟧ autem et armum dextrum Jovae
+Lev.9.22	base-only	reading	populum	1738: po v pulum | 1750: po pulum	ws	sublataque in ⟦populum⟧ manu ei bene precatus est
+Lev.9.22	base-only	division	precatus est	1738: precatuseft	1750,ws	in populum manu ei bene ⟦precatus est⟧ atque ita demum ab expiationis
+Lev.9.22	base-only	division	demum ab	1738: demumab	1750,ws	bene precatus est atque ita ⟦demum ab⟧ expiationis et solidi sacrificii et
+Lev.9.23	base-only	reading	Tum	1738: Turn	1750,ws	⟦Tum⟧ ingressi sunt Moses et Aharon
+Lev.9.24	base-only	reading	conspectu ignis	1738: confpeclu i gnis	ws	et profectus a Jovae ⟦conspectu ignis⟧ victimam in ara et adipes
+Lev.9.24	base-only	reading	laeto	1738: lxto	1750,ws	universus populus in faciem cum ⟦laeto⟧ clamore procidit
+Lev.10.1	base-only	reading	suffimine	1738: fuffiT Cap io it LEVI TIC VS fuffinune	1750,ws	suum uterque turibulum igneque et ⟦suffimine⟧ imposito libaverunt coram Jove ignem
+Lev.10.1	base-only	reading	illis injussu	1738: illius inaiusfu	ws	libaverunt coram Jove ignem alienum ⟦illis injussu⟧
+Lev.10.2	base-only	reading	profectus	1738: profechis	1750,ws	Itaque ⟦profectus⟧ a Jovae conspectu ignis eos
+Lev.10.2	base-only	reading	conspectu	1738: confpeclu	1750,ws	Itaque profectus a Jovae ⟦conspectu⟧ ignis eos confecit et in
+Lev.10.2	base-only	reading	conspectu	1738: confpe hi	ws	eos confecit et in Jovae ⟦conspectu⟧ exanimavit
+Lev.10.3	base-only	reading	praedixerat Jova	1738: pnedixerat loua	1750,ws	Aharoni hoc illud est quod ⟦praedixerat Jova⟧ inquit quum diceret sese in
+Lev.10.3	base-only	reading	quum	1738: qnum	1750,ws	est quod praedixerat Jova inquit ⟦quum⟧ diceret sese in iis qui
+Lev.10.3	base-only	reading		1738: d	1750,ws	quum diceret sese in iis ⟦⟧ qui ad se accederent effecturum
+Lev.10.3	base-only	reading	effecturum	1738: effec hirum	1750,ws	iis qui ad se accederent ⟦effecturum⟧ in totius populi conspectu ut
+Lev.10.3	base-only	reading	conspectu	1738: confpeftu	1750,ws	accederent effecturum in totius populi ⟦conspectu⟧ ut augustus et gloriosus esse
+Lev.10.3	base-only	edge	obmutuit Tum	1738: obmu tuir Turn	1750,ws	gloriosus esse videatur Aharon vero ⟦obmutuit Tum⟧ Moses evocavit Misaelem et Elisaphanem
+Lev.10.4	base-only	division	Misaelem et	1738: Mifaelemet	ws	Tum Moses evocavit ⟦Misaelem et⟧ Elisaphanem Ozielis patrui Aharonis filios
+Lev.10.4	base-only	reading	filios	1738: rilios	1750,ws	et Elisaphanem Ozielis patrui Aharonis ⟦filios⟧ eisque mandavit ut accederent et
+Lev.10.4	base-only	reading	conspectu sanctuarii	1738: confpechi landruarii	1750,ws	accederent et cognatos suos ex ⟦conspectu sanctuarii⟧ extra castra auferrent
+Lev.10.4	base-only	reading	auferrent	1738: Sauferrent	1750,ws	ex conspectu sanctuarii extra castra ⟦auferrent⟧
+Lev.10.6	base-only	reading		1738: e	1750,ws	Ithamarum ita commonuit capita vestra ⟦⟧ ne tondete neve vestibus este
+Lev.10.6	base-only	reading	poenas detis	1738: pcenas d is	1750,ws	dissolutis ne et ipsi morte ⟦poenas detis⟧ et in universam rem publicam
+Lev.10.6	base-only	edge	Jova ustulatos	1738: loua vftula tos	1750,ws	Israelitarum genus deploret a ⟦Jova ustulatos⟧ At vos ab introitu oracularis
+Lev.10.7	base-only	spelling	Jovae	1738: Iou e	1750,ws	ne morte plectamini qui quidem ⟦Jovae⟧ olei unctione delibuti sitis
+Lev.10.8	base-only	reading	praescriptum	1738: praefcriptuni	1750,ws	Haec illi ad ⟦praescriptum⟧ Mosis fecerunt
+Lev.10.9	base-only	reading	Jova	1738: loua	ws	Et ⟦Jova⟧ Aharoni praecepit ne vinum aut
+Lev.10.9	base-only	division	praecepit	1738: praece pit	1750,ws	Et Jova Aharoni ⟦praecepit⟧ ne vinum aut temetum biberet
+Lev.10.9	base-only	division	in oraculare	1738: inoraculare	1750,ws	biberet ipse neve ejus filii ⟦in oraculare⟧ tabernaculum ingressuri ne morte multarentur
+Lev.10.9	base-only	reading	multarentur utque id aeternum institutum	1738: roultarentur vtqueid aeternuminftittitum	ws	oraculare tabernaculum ingressuri ne morte ⟦multarentur utque id aeternum institutum⟧ posteris eorum traderetur
+Lev.10.9	base-only	edge	traderetur tum	1738: tradere tur turn	ws	id aeternum institutum posteris eorum ⟦traderetur tum⟧ ad sacrum a profano pollutumque
+Lev.10.11	base-only	reading	tum	1738: turn	1750,ws	⟦tum⟧ ad instruendos Israelitas omnibus institutis
+Lev.10.11	base-only	reading	Jova	1738: loua	1750,ws	Israelitas omnibus institutis quae eis ⟦Jova⟧ per Mosem elocutus est
+Lev.10.12	base-only	reading	Tum	1750: um | 1738: a Turn	ws	⟦Tum⟧ Moses ad Aharonem et Eleazarum
+Lev.10.12	base-only	reading	filios	1738: rilios	1750,ws	et Eleazarum Ithamarumque reliquos ejus ⟦filios⟧ inquit sumite quod ferti ex
+Lev.10.12	base-only	reading	Jovae	1738: Iou x	1750,ws	inquit sumite quod ferti ex ⟦Jovae⟧ re divina reliquum est idque
+Lev.10.12	base-only	reading		1738: qui fibi libarent id lugentes quod ex alio quam vuis fiat	1750,ws	ferti ex Jovae re divina ⟦⟧ reliquum est idque sine fermento
+Lev.10.13	base-only	reading	vobis	1738: vo if bis	1750,ws	ideoque ⟦vobis⟧ in loco sacro comedendum Hoc
+Lev.10.13	base-only	reading	praeceptum	1738: prxceptum	1750,ws	decretum est etenim ita mihi ⟦praeceptum⟧ est
+Lev.10.14	base-only	division	comeditote in	1738: comeditotein	1750,ws	Pectus autem porrectitium armumque exceptitium ⟦comeditote in⟧ loco mundo tu et tui
+Lev.10.14	base-only	reading	tu et tui	1738: tuettui	ws	exceptitium comeditote in loco mundo ⟦tu et tui⟧ filii atque filiae una tecum
+Lev.10.14	base-only	spelling	filiae	1738: fili e	1750,ws	tu et tui filii atque ⟦filiae⟧ una tecum nam ea tibi
+Lev.10.15	correct	edge	Atmum	1738,1750: Ar mum	ws	de sacrificiis Israelitarum pro salute ⟦Atmum⟧ receptitium pectusque porrectitium super adipum
+Lev.10.15	base-only	reading	super adipum	1738: fnper adipuin	1750,ws	Atmum receptitium pectusque porrectitium ⟦super adipum⟧ incensionem adferent ad porriciendum ante
+Lev.10.15	base-only	edge	Jova Deinde	1738: loua Dein i de	ws	institutum sempiternum sit quemadmodum praecepit ⟦Jova Deinde⟧ caprum piacularem requirebat Moses et
+Lev.10.16	base-only	division	requirebat	1738: require bat	1750,ws	Deinde caprum piacularem ⟦requirebat⟧ Moses et ecce deflagraverat quare
+Lev.10.16	correct	reading	Elazaro	1738,1750: Eleazaro	ws	Moses et ecce deflagraverat quare ⟦Elazaro⟧ et Ithamaro reliquis Aharonis filiis
+Lev.10.17	base-only	reading		1738: i	1750,ws	cur non comedistis piaculum in ⟦⟧ loco sacro quum sit sacrosanctum
+Lev.10.17	base-only	reading	sacrosanctum	1738: facrofandhim	1750,ws	in loco sacro quum sit ⟦sacrosanctum⟧ vobisque adsignatum ad ferendum culpam
+Lev.10.17	base-only	division	culpam rei publicae	1738: culpamreipublicae	1750,ws	sacrosanctum vobisque adsignatum ad ferendum ⟦culpam rei publicae⟧ proque ipsa re publica in
+Lev.10.17	base-only	division	ipsa re	1738: ipfare	1750,ws	ferendum culpam rei publicae proque ⟦ipsa re⟧ publica in Jovae conspectu supplicandum
+Lev.10.17	base-only	reading	Jovae conspectu	1738: Ioux confpe hi	1750,ws	proque ipsa re publica in ⟦Jovae conspectu⟧ supplicandum
+Lev.10.18	base-only	reading	sanctuarium	1738: fan et uarium	1750,ws	ejus sanguis illatus in interius ⟦sanctuarium⟧ quum illud debeatis in sanctuario
+Lev.10.18	base-only	reading	sanctuario	1738: fancluario	1750,ws	sanctuarium quum illud debeatis in ⟦sanctuario⟧ comedere sicuti praeceptum mihi est
+Lev.10.19	base-only	division	hodie	1738: ho die	1750,ws	Cui Aharon en inquit ⟦hodie⟧ suum piaculum et solidum sacrificium
+Lev.10.19	base-only	reading	solidum	1738: folidura	1750,ws	inquit hodie suum piaculum et ⟦solidum⟧ sacrificium Jovae obmoverunt et tamen
+Lev.10.19	base-only	reading	obmoverunt	1738: obmouerimt	1750,ws	piaculum et solidum sacrificium Jovae ⟦obmoverunt⟧ et tamen haec mihi acciderunt
+Lev.10.19	base-only	reading	tamen haec	1738: tamenhaee	1750,ws	solidum sacrificium Jovae obmoverunt et ⟦tamen haec⟧ mihi acciderunt quid si piaculum
+Lev.10.20	correct	division	responsio	1738,1750: re fponfio	ws	Haec ⟦responsio⟧ Mosi satisfecit
+Lev.11.1	base-only	reading	Jova	1738: loua	ws	Deinde ⟦Jova⟧ ad Mosem et Aharonem ita
+Lev.11.1	base-only	division	Aharonem	1738: Aha ronem	1750,ws	Deinde Jova ad Mosem et ⟦Aharonem⟧ ita verba fecit
+Lev.11.2	base-only	division	adloquimini	1738: adlo quimini	1750,ws	⟦adloquimini⟧ Israelitas ad hunc modum haec
+Lev.11.3	base-only	reading		1738: G quafacicbant quoduis vini genus tod LEVITICVS Cap ii	1750,ws	De omni ⟦⟧ quadrupedum genere quae quidem versantur
+Lev.11.3	base-only	reading	quae quidem	1738: qux quidera	1750,ws	De omni quadrupedum genere ⟦quae quidem⟧ versantur in terris quaecumque divisas
+Lev.11.3	base-only	reading	quaecumque	1738: quxcumque	1750,ws	quae quidem versantur in terris ⟦quaecumque⟧ divisas ungulas habent et bisulca
+Lev.11.4	base-only	reading	quaedam quae	1738: quxdam qux	1750,ws	Sed sunt ⟦quaedam quae⟧ vel ruminant vel bisulca sunt
+Lev.11.4	base-only	spelling	nam quum	1738: namquum	1750,ws	quibus vesci nefas ut camelus ⟦nam quum⟧ ruminet bisulcus non est hic
+Lev.11.4	base-only	reading	hic	1738: hie	1750,ws	quum ruminet bisulcus non est ⟦hic⟧ vobis immundus esto
+Lev.11.4	base-only	reading	esto	1738: tlto	ws	non est hic vobis immundus ⟦esto⟧
+Lev.11.5	base-only	reading	cuniculus	1738: cunictilus	1750,ws	Et ⟦cuniculus⟧ nam ruminalis quum sit bisulcus
+Lev.11.5	base-only	reading	hic	1738: hie	1750,ws	quum sit bisulcus non est ⟦hic⟧ vobis immundus esto
+Lev.11.6	base-only	reading	Et	1738: t	1750,ws	⟦Et⟧ lepus ruminat enim sed bisulcus
+Lev.11.6	base-only	reading	hic	1738: hie	1750,ws	enim sed bisulcus non est ⟦hic⟧ vobis immundus esto
+Lev.11.7	base-only	division	Et sus	1738: Etfus	1750,ws	⟦Et sus⟧ nam quum et ungulam divisam
+Lev.11.7	base-only	division	et ungulam	1738: etvngulam	1750,ws	Et sus nam quum ⟦et ungulam⟧ divisam habeat et sit bisulcus
+Lev.11.7	base-only	reading	hic	1738: hie	1750,ws	et sit bisulcus non ruminat ⟦hic⟧ vobis immundus esto
+Lev.11.8	base-only	reading	immunda	1738: inimunda	ws	vescimini neve cadavera attingitote sed ⟦immunda⟧ habetote
+Lev.11.9	base-only	reading	haec	1738: hxc	1750,ws	Item de omnibus aquatilibus ⟦haec⟧ sunt quibus vescemini Quaecumque aquatilium
+Lev.11.9	base-only	reading	Quaecumque aquatilium	1738: Quxcunique aquarilium	1750,ws	aquatilibus haec sunt quibus vescemini ⟦Quaecumque aquatilium⟧ pinnas habent et squamas sive
+Lev.11.9	base-only	reading	sive	1738: line s	1750,ws	aquatilium pinnas habent et squamas ⟦sive⟧ in aqua stagnante degentia sive
+Lev.11.9	base-only	reading	sint	1738: lofint	1750,ws	aqua stagnante degentia sive fluvialia ⟦sint⟧ eis vescivobis licebit
+Lev.11.9	correct	division	vescivobis	1738,1750: vefci vobis	ws	degentia sive fluvialia sint eis ⟦vescivobis⟧ licebit
+Lev.11.10	base-only	reading	Quae autem	1738: Qux autcm	ws	⟦Quae autem⟧ vel in aqua stagnante degentia
+Lev.11.10	base-only	reading	quae	1738: qux	1750,ws	stagnante degentia vel fluvialia sunt ⟦quae⟧ modo in aquis natent et
+Lev.11.10	base-only	division	et omnino	1738: etomnino	1750,ws	quae modo in aquis natent ⟦et omnino⟧ animantia in aquis versantia quae
+Lev.11.10	base-only	reading	quae	1738: qux	1750,ws	omnino animantia in aquis versantia ⟦quae⟧ pinnas non habent et squamas
+Lev.11.10	base-only	reading	squamas	1738: fquamaJ	1750,ws	quae pinnas non habent et ⟦squamas⟧ ea pro immundis habetote
+Lev.11.11	base-only	reading	immundis habetote	1738: immundishabetote	1750,ws	et ita pro ⟦immundis habetote⟧ ut non solum carne eorum
+Lev.11.13	base-only	reading	haec	1738: hxc	1750,ws	De volucribus item ⟦haec⟧ abhorretote et in abominandis habentes
+Lev.11.13	base-only	reading	haliaeetum	1738: I | 1738: I halixetum miluumet	1750,ws	habentes ne gustatote aquilam anatariam ⟦haliaeetum⟧
+Lev.11.14	base-only	reading	milvum et	1738: halixetum miluumet	1750,ws	⟦milvum et⟧ vulturum genera
+Lev.11.15	base-only	edge	genera struthionem	1738: ge nera ftruthionera | 1750: gex nera	ws	omniaque corvorum ⟦genera struthionem⟧ harpam larum et accipitrum genera
+Lev.11.16	base-only	reading	larum	1738: la mm	ws	struthionem harpam ⟦larum⟧ et accipitrum genera
+Lev.11.17	base-only	edge	cuculum	1738: cucu fclum	ws	harpam larum et accipitrum genera ⟦cuculum⟧ mergulum bubonem
+Lev.11.18	base-only	edge	noctuam	1738: noI p hiam	ws	cuculum mergulum bubonem ⟦noctuam⟧ ibim pelicanum
+Lev.11.19	base-only	reading		1738: ao	ws	ciconiam ardeolarum genera picum et ⟦⟧ vespertilionem
+Lev.11.20	base-only	reading	volucria	1738: volueria	1750,ws	Omnia moventia ⟦volucria⟧ quadrupeda abhorretote
+Lev.11.21	base-only	edge		1738: i	1750,ws	Omnia moventia volucria quadrupeda abhorretote ⟦⟧ Tantum de toto moventium alatorum
+Lev.11.21	base-only	reading	moventium	1738: uiouentium | 1750: mouenti x um	ws	Tantum de toto ⟦moventium⟧ alatorum quadrupedum genere eis vescimini
+Lev.11.21	base-only	reading	quae	1738: qux	1750,ws	alatorum quadrupedum genere eis vescimini ⟦quae⟧ supra pedes crura non habent
+Lev.11.21	base-only	reading	quae	1738: qux	1750,ws	non habent ad saliendum humi ⟦quae⟧ quidem sunt haec
+Lev.11.21	base-only	reading	haec	1738: hxc	1750,ws	saliendum humi quae quidem sunt ⟦haec⟧
+Lev.11.22	base-only	reading	cicadarum	1738: cicadarnm	1750,ws	locustarum attelaborum ophiomachorum et ⟦cicadarum⟧ genera
+Lev.11.23	correct	division	humi	1738,1750: hu mi	ws	At omnia ⟦humi⟧ serpentia volucria quadrupeda abhorretote et
+Lev.11.23	base-only	reading	volucria	1738: volueria	1750,ws	At omnia humi serpentia ⟦volucria⟧ quadrupeda abhorretote et ab his
+Lev.11.24	base-only	reading	pollutus	1738: polliiius	1750,ws	Quisquis eorum cadavera attigerit ⟦pollutus⟧ esto ad vesperum
+Lev.11.25	base-only	edge	Quisquis item	1738: Qi iis quisitem	ws	attigerit pollutus esto ad vesperum ⟦Quisquis item⟧ cadavera eorum tulerit vestimenta
+Lev.11.25	base-only	reading	vestimenta	1738: veltimenta	1750,ws	Quisquis item cadavera eorum tulerit ⟦vestimenta⟧ perluito et ad vesperum pollutus
+Lev.11.25	base-only	edge	pollutus esto Ac quaecumque bestiae	1738: pollurusefto Acquxcumque be ftix	1750,ws	perluito et ad vesperum ⟦pollutus esto Ac quaecumque bestiae⟧ pedes habent multifidos
+Lev.11.26	base-only	reading	multifidos	1738: multiridos	1750,ws	Ac quaecumque bestiae pedes habent ⟦multifidos⟧ neque visulcae sunt neque ruminant
+Lev.11.26	base-only	reading	visulcae	1738: bifulex | 1750: bifulcae	ws	bestiae pedes habent multifidos neque ⟦visulcae⟧ sunt neque ruminant vobis immundae
+Lev.11.26	base-only	reading	immundae	1738: immundx	1750,ws	visulcae sunt neque ruminant vobis ⟦immundae⟧ sunto eas qui attigerit immundus
+Lev.11.28	base-only	reading	vesperum	1738: vefpenun	1750,ws	tulerit vestimenta lavato et ad ⟦vesperum⟧ immundus esto haec vobis immunda
+Lev.11.28	base-only	reading	haec	1738: hxc	1750,ws	et ad vesperum immundus esto ⟦haec⟧ vobis immunda sunto
+Lev.11.29	base-only	reading	haec	1738: hxc	1750,ws	Atque ⟦haec⟧ de eis quae humi gradiuntur
+Lev.11.29	base-only	reading	quae	1738: qux	1750,ws	Atque haec de eis ⟦quae⟧ humi gradiuntur immunda habetote mustolam
+Lev.11.29	base-only	division	gradiuntur	1738: gra diuntur | 1750: gradi untur	ws	haec de eis quae humi ⟦gradiuntur⟧ immunda habetote mustolam murem
+Lev.11.29	base-only	edge	mustolam murem	1738: must jlam niurem	1750,ws	humi gradiuntur immunda habetote ⟦mustolam murem⟧ testaceorum genera fibrum chamaeleontem stellionem
+Lev.11.30	correct	division	genera	1738,1750: gene ra	ws	testaceorum ⟦genera⟧ fibrum chamaeleontem stellionem lacertam et
+Lev.11.30	base-only	reading	chamaeleontem	1738: chamxleontem	1750,ws	testaceorum genera fibrum ⟦chamaeleontem⟧ stellionem lacertam et bufonem
+Lev.11.31	base-only	reading	Haec	1738: Hxc	1750,ws	⟦Haec⟧ ex omni gradientium genere immunda
+Lev.11.31	base-only	reading	haec	1738: hxc	1750,ws	omni gradientium genere immunda habetote ⟦haec⟧ quisquis mortua attigerit immundus esto
+Lev.11.32	base-only	reading		1738: X	1750,ws	ex his mortuis in ⟦⟧ quamcumque rem aliquid illapsum fuerit
+Lev.11.33	base-only	division	quodcumque	1738: quod cumque	ws	Ac in ⟦quodcumque⟧ fictile vas aliquid de iis
+Lev.11.33	base-only	reading	inciderit	1738: incident	1750,ws	vas aliquid de iis intro ⟦inciderit⟧ quidquid in illo vase erit
+Lev.11.35	base-only	reading	quamcumque	1738: quamX p funt marina Ucuftrta et ftagnorum Cap II I L E V I T I C V S I quamcunique	1750,ws	et ⟦quamcumque⟧ in rem inciderit aliquid de
+Lev.11.35	base-only	reading	inciderit aliquid	1738: incident alii quid	1750,ws	et quamcumque in rem ⟦inciderit aliquid⟧ de eorum cadaveribus immunda esto
+Lev.11.35	base-only	reading	immunda	1738: im munda	1750,ws	inciderit aliquid de eorum cadaveribus ⟦immunda⟧ esto Clibani et solia diruuntor
+Lev.11.35	base-only	reading	diruuntor	1738: dil ruuntorr	1750,ws	immunda esto Clibani et solia ⟦diruuntor⟧ nam immunda sunt et vobis
+Lev.11.36	base-only	reading	putei	1738: pntei	1750,ws	Nam fontes quidem et ⟦putei⟧ quae sunt aquae adfluentiae munda
+Lev.11.36	base-only	reading	immundus	1738: imi nn indus | 1750: im mundus	ws	sunt Qui illorum cadavera attigerit ⟦immundus⟧ esto
+Lev.11.37	base-only	division	cadaveribus	1738: ca daueribus	1750,ws	Et si de eorum ⟦cadaveribus⟧ deciderit aliquid in quamlibet sativam
+Lev.11.38	base-only	reading		1738: I	1750,ws	si in frugem aqua conspersam ⟦⟧ aliquid de illorum cadaveribus deciderit
+Lev.11.38	base-only	reading	deciderit	1738: deI ciderit	ws	conspersam aliquid de illorum cadaveribus ⟦deciderit⟧ immunda esto
+Lev.11.39	base-only	reading		1738: i	1750,ws	Quod si ⟦⟧ aliqua bestia earum quae vobis
+Lev.11.39	base-only	reading		1738: b	ws	bestia earum quae vobis esui ⟦⟧ sunt emortua fuerit qui ejus
+Lev.11.39	base-only	reading	qui ejus cadaver	1738: quieius caI dauer	1750,ws	vobis esui sunt emortua fuerit ⟦qui ejus cadaver⟧ attigerit pollutus esto ad vesperum
+Lev.11.40	base-only	reading		1738: I	1750,ws	et qui de cadavere ⟦⟧ comederit vestimenta lavato et ad
+Lev.11.40	base-only	reading		1738: I	1750,ws	cadavere comederit vestimenta lavato et ⟦⟧ ad vesperum pollutus esto et
+Lev.11.41	base-only	division	abhorrendum	1738: abhorren dum	ws	Quidquid humi repit ⟦abhorrendum⟧ esto vesci ne liceto
+Lev.11.42	base-only	reading	humi	1738: h imi	1750,ws	ambulat quidquid quadrupes aut multipes ⟦humi⟧ repit eo ne vescimini spurcum
+Lev.11.43	base-only	division	aut polluitote	1738: autpolluitote	1750,ws	ipsos ullo reptilium ne spurcatote ⟦aut polluitote⟧ sed vos illis pollui existimatote
+Lev.11.44	base-only	reading	sanctus	1738: fan et us | 1750: anctus	ws	quemadmodum ego Jova Deus vester ⟦sanctus⟧ sum vos quoque sanctitati studere
+Lev.11.44	base-only	reading	vos quoque sanctitati	1738: vosquoque fanftitati	1750,ws	Jova Deus vester sanctus sum ⟦vos quoque sanctitati⟧ studere sanctique esse neque ullo
+Lev.11.44	base-only	reading	sanctique	1738: fandtique	1750,ws	sum vos quoque sanctitati studere ⟦sanctique⟧ esse neque ullo humi serpentium
+Lev.11.46	base-only	reading	Et haec	1738: Ethaec	1750,ws	⟦Et haec⟧ quidem lex est pecorum volucrum
+Lev.11.46	base-only	reading	repentium	1738: repentiuin	ws	aquis natantium animalium omniumque humi ⟦repentium⟧

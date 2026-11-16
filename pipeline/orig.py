@@ -1107,9 +1107,13 @@ def usfm(book, built, header):
 
 
 def header_lines(book):
-    """The reading edition's header (\\id … \\mt): every line before its first chapter, blank lines dropped."""
+    """The reading edition's header (\\id … \\mt): every line before its first chapter, blank lines dropped. A book
+    with no settled chapter yet (Leviticus 1–11) takes its draft's."""
     lines = []
-    for line in latex.usfm_path(book).read_text(encoding="utf-8").splitlines():
+    source = latex.usfm_path(book)
+    if not source.exists():
+        source = paths.ROOT / "text" / "draft" / f"{book.usfm}.usfm"
+    for line in source.read_text(encoding="utf-8").splitlines():
         if line.startswith("\\c "):
             break
         if line.strip():

@@ -74,6 +74,14 @@ class Kinds(unittest.TestCase):
         self.assertEqual(macronize.ligatures("āer"), "āer")
 
 
+class Decided(unittest.TestCase):
+    def test_hiatus_kept_apart(self):
+        self.assertEqual(verses.decided_word("introeat", "introeat"), "introeat")
+        self.assertEqual(verses.decided_word("coeundum", "coeundum"), "coeundum")
+        self.assertEqual(verses.decided_word("poenas", "pœnās"), "pœnās")
+        self.assertEqual(verses.decided_word("aquae", "aquæ"), "aquæ")
+
+
 class Items(unittest.TestCase):
     def test_an_item_applies_as_any_review_line(self):
         usfm = "\\c 6\n\\p\n\\v 1 Illinc deinde profectus, venit in suam patriam.\n\\v 2 Atque ubi advenit sabbatum,\n"

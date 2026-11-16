@@ -2,6 +2,42 @@
 
 ## Now
 
+- **Leviticus started** (2026-11-15, your "Start Leviticus"). Wikisource has chapters 1–11 only, so the book goes
+  two routes. Nothing committed.
+  - **Settled 2026-11-16** (your "Approve Leviticus 1–27 and settle it"): `text/LEV.usfm`, 27 chapters, 859 verses,
+    the 859 items applied as accepted (identical to the preview); `data/gold/Lev.tsv` rebuilt, the ledger `settled`,
+    the drafts removed. **Still for you: the printed text** (`text/orig/draft/LEV.usfm`, rebuilt from the settled
+    book): about 500 words in 1–11 the OCR did not read (`data/review/lev1-11-orig.md`), three paragraph breaks in
+    12–27 that may be a drop capital's indent, and three places where the settled text's punctuation came through
+    where the OCR read none: 4:1 *inquit,* (1738 *inquit:*), 7:28 *(inquit, modum*, 8:14 *eum: quum,* (1738 *eum,
+    quum*). Six words read on the page this time (8:14, 10:3, 11:4 *quum*; 8:26, 9:4, 11:2 *adp-*/*adl-*) are rows
+    in `data/decisions/Lev.orig.tsv`.
+  - **1–11, stages 1–2 done**: `text/draft/LEV.usfm` (299 verses, the KJV's count in every chapter). Collated
+    against 1738 and 1750; the 20 verses 1738's OCR barely reads were read whole on the page, and every place where
+    1738 might differ: **10 Wikisource slips** fixed in the draft under decision 30's rule (3:2 *oracularis*, 6:19
+    *ungentur*, 8:2 *vestibusque*, 8:10 *continebantur*, 10:15 *Armum*, 10:16 *Eleazaro* …;
+    `data/review/lev1-11-stage2.md`). 11:29 *mustolam* (1750; 1738's letter damaged) read *mustelam* from 1554 (2026-11-16).
+  - **1–11 printed text drafted** (stage 2b): `text/orig/draft/LEV.usfm`, `data/review/lev1-11-orig.md`; about 500
+    words the OCR missed still to read on the page before it can be approved (decision 68). `orig.header_lines`
+    now falls back to the draft's header for a book with nothing settled.
+  - **12–27, stages 1–2 done** (your "Yes, read 12–27"): every printed line of leaves 167–187 read on the page
+    (1,342 of 1,903 lines corrected; `data/witnesses/read-1738/Lev12-27.tsv`), the lines the OCR lost or misfiled
+    put back (27:33–34 were missing), two sheets read again with no difference; the draft's chapters 12–27 added to
+    `text/draft/LEV.usfm`, the printed text to `text/orig/draft/LEV.usfm`. Record: `data/review/lev12-27-stage2.md`.
+  - **Versified** (your "Yes, versify Leviticus"): 1738's own verse numbers in 15, 17, 18 and 22–26 moved to the
+    KJV's by 23 edits (`data/versification/Lev12-27.draft.edits.tsv`), in the draft and the printed text; 859 verses,
+    the KJV's count in every chapter, words unchanged. Where the KJV has *the LORD spake unto Moses, saying* and
+    Castellio only *inquit*, that clause is the verse (as Exod 30:17).
+  - **Two one-word fixes to the settled text, applied 2026-11-16** (your "Approve both"): Exod 29:21 *aspergitō* (`data/review/exod-adspergito.md`, decision 37) and Acts 4:26 *coeuntque* (`data/review/hiatus-oe.md`, with 1 Pet 3:10 *coerceat*).
+  - **Stages 3–5, approved and settled 2026-11-16** (your "Yes, run stages 3–5"): `data/review/lev1-27-stages3-5.md` (start
+    there: its **5 questions all decided 2026-11-16**, the 42 rules approved, the corrections from 1554 applied; approved and settled), the 859 items in `lev1-27-ch01.md` … `-ch27.md`, the preview
+    `text/draft/LEV.preview.usfm`. Eight readers made the calls (`data/decisions/Lev.layout.tsv`, `Lev.forms.tsv`),
+    four more proofread every verse; their finds fixed. On the way: 10 more draft corrections in the stage-2 files
+    (Wikisource slips 6:12, 10:1, 11:26; 1738's misprints 8:25, 10:1, 13:32; five words my u/v and i/j modernizing
+    had set wrongly, fixed in `ocrdraft.modern`), chapter 6 renumbered to the KJV (6 edits), and a bug in `verses`
+    fixed: a decided *introeat*/*coeundum* (hiatus) was ligatured to *œ*. The 42 spelling rules (*ad-* forms, *-mpt-*, six
+    others) approved 2026-11-16 (your "Approve all 42"). The printed text (2b) is still to read on the page.
+
 - **Exodus as printed (1738) approved** (2026-11-15, decision 75; your "Yes, approve"): `text/orig/EXO.usfm`, all 40
   chapters; `text/orig/draft/` is empty and gone. Chapters 31–40 come from the lines stage 2 read on the page
   (`data/review/exod31-40-orig.md`; `orig --read-lines`). A chapter's first word beside its drop capital is now a

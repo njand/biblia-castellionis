@@ -53,6 +53,16 @@ class Modern(unittest.TestCase):
         self.assertEqual(ocrdraft.modern("obuelauit", {}), "obvelavit")
         self.assertEqual(ocrdraft.modern("conseruanto", {}), "conservanto")
         self.assertEqual(ocrdraft.modern("perpetuos", {}), "perpetuos")
+        self.assertEqual(ocrdraft.modern("malumue", {}), "malumve")
+        self.assertEqual(ocrdraft.modern("redimitorue", {}), "redimitorve")
+        self.assertEqual(ocrdraft.modern("tenue", {}), "tenue")
+        self.assertEqual(ocrdraft.modern("parueritis", {}), "parueritis")      # pāreō, Lev 26:15
+        self.assertEqual(ocrdraft.modern("paruum", {}), "parvum")
+        self.assertEqual(ocrdraft.modern("iuuatote", {}), "juvatote")          # Lev 25:35
+        self.assertEqual(ocrdraft.modern("animaduertitor", {}), "animadvertitor")   # Lev 19:20
+        self.assertEqual(ocrdraft.modern("coierit", {}), "coierit")            # Lev 20:12
+        self.assertEqual(ocrdraft.modern("subiugiis", {}), "subjugiis")        # Lev 26:13
+        self.assertEqual(ocrdraft.modern("eius", {}), "ejus")
         self.assertEqual(ocrdraft.modern("sæuies", {}), "saevies")
 
     def test_capitals_kept(self):

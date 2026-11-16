@@ -83,6 +83,18 @@ def load_layout(osis):
             for r in tsv.read(path)}                      # `-`: no marker (the draft's \p removed)
 
 
+def decided_word(token, form):
+    """The text's word marked as a decided form says: its long vowels, æ/œ for diphthongs, but ae/oe left apart
+    where the form writes them apart, a hiatus with neither vowel long (Lev 16:2 *intrō|eat*, 18:23 *co|eundum*:
+    Gaffiot intrŏĕō, cŏĕō)."""
+    word = macronize.finish(token, macronize.long_vowels(rules.unligature(form)))
+    plain = macronize.nfc(form)
+    for joined, apart in (("œ", "oe"), ("æ", "ae")):
+        if apart in plain.lower() and joined not in plain.lower():
+            word = word.replace(joined, apart).replace(joined.upper(), apart[0].upper() + apart[1])
+    return word
+
+
 def load_forms(osis):
     """{(verse id, plain word): (marked form, note)} from data/decisions/<osis>.forms.tsv. An id `Exod.18.8#2`
     decides only the second copy of the word in that verse (keyed (verse id, plain word, 2)), where the copies differ
@@ -322,7 +334,7 @@ def propose(osis, chapters, usfm=None):
             form, why = forms[decided]
             if macronize.plain(rules.unligature(form)) != macronize.plain(rules.unligature(token)).replace("æ", "ae"):
                 raise ValueError(f"{vid}: decided form {form} does not spell {token}")
-            word = macronize.finish(token, macronize.long_vowels(rules.unligature(form)))
+            word = decided_word(token, form)
             note = f"{why} (pipeline: {out.word}, {out.how}; {note})"
             kind = "decided"
         verse.kinds[kind] += 1
