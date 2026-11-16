@@ -14,8 +14,30 @@
 % footmisc reckons a note's height from \columnwidth, a column's inside multicols: by \textwidth, the width the notes
 % are set to, so it reserves the lines they take, not twice as many.
 \makeatletter
-\patchcmd{\FN@footnotetext}{\footnotebaselineskip / \columnwidth}{\footnotebaselineskip / \textwidth}{}
+% That height is then rounded up to whole lines of the text, and the space above the notes is one line: TeX's page
+% builder fills the two columns as one long one, but each column holds only whole lines, so a note reserving part
+% of a line let it take one line more than the columns could; multicol carried it over to the next page and the
+% note stayed behind (Lev 21:4's note at the foot of the page before the verse; found 2026-11-16).
+\newdimen\CastellioLine
+\AtBeginDocument{\CastellioLine=\baselineskip \skip\footins=\CastellioLine}
+% Half a note line is added first: the notes, run together, end in a part line and begin with \footnotesep.
+\def\Castellio@wholelines{\count@\ht\FN@tempboxa \advance\count@\dimexpr.5\footnotebaselineskip\relax
+    \advance\count@\CastellioLine \advance\count@\m@ne
+    \divide\count@\CastellioLine \ht\FN@tempboxa\count@\CastellioLine}
+\patchcmd{\FN@footnotetext}{\footnotebaselineskip / \columnwidth\relax}
+  {\footnotebaselineskip / \textwidth\relax \Castellio@wholelines}{}
   {\PackageWarning{castellio}{footmisc's note height not patched}}
+% footmisc copied \FN@footnotetext as it loaded (into hyperref's \H@@footnotetext, as hyperref is loaded), so the
+% patch above reached no note until the copy was made again (2026-11-16; the 2026-11-12 patch had never applied).
+\@ifpackageloaded{hyperref}{\let\H@@footnotetext\FN@footnotetext}{\let\@footnotetext\FN@footnotetext}
+% footmisc joins a page's notes into one paragraph in LaTeX's own \@makecol; memoir replaces \@makecol, so the notes
+% stayed as one unbroken line each, and a long one ran off the page (Lev 13:48, 21:4; found 2026-11-16). memoir's
+% footnote step now makes the paragraph first. (memoir's own \paragraphfootnotes uses an insertion multicol leaves
+% out of its reckoning, so the columns could run into the notes.)
+\pretocmd{\m@mopfootnote}{\global\setbox\footins\vbox{\FN@makefootnoteparagraph}}{}
+  {\PackageWarning{castellio}{memoir's footnotes not made a paragraph}}
+\pretocmd{\m@mopfootnotebf}{\global\setbox\footins\vbox{\FN@makefootnoteparagraph}}{}
+  {\PackageWarning{castellio}{memoir's footnotes not made a paragraph}}
 \makeatother
 \usepackage{graphicx}   % \scalebox, for \TitulusMinor
 
@@ -103,31 +125,29 @@
     \lettrine{\thecaputcount}%
 }
 
-% A verse number; each one also sets a mark {book}{chapter}{verse} for the running heads.
+% A verse number; each one also sets a mark {book}{chapter}{verse} for the running heads, in a mark class of its own
+% (LaTeX's \InsertMark). multicol keeps such classes to the lines actually set on the page; TeX's own \botmark also
+% saw the lines multicol gathered for the page and carried over to the next, so a head could name a verse that
+% begins overleaf ("Lēvīticus 22:14 – 23:15", 23:15 on the next page; found 2026-11-16).
 \makeatletter
+\NewMarkClass{versus}
 \newcommand{\Versus}{%
     \stepcounter{versuscount}%
     \protected@edef\@tempa{\noexpand\CastellioRef{\libernameshort}{\arabic{caputcount}}{\arabic{versuscount}}}%
-    \mark{\unexpanded\expandafter{\@tempa}}%        % \mark expands its text: keep \CastellioRef as it is
+    \InsertMark{versus}{\unexpanded\expandafter{\@tempa}}%   % \InsertMark expands its text: keep \CastellioRef
     \ifnum\value{versuscount}=1 { } \else {\textsuperscript{\theversuscount}}\fi%
 }
-% The range of verses that begin on the page: "Genesis 1:31 – 2:25", "Genesis 3:1–14", "Genesis 3:15". Only
-% marks made by \Versus count (memoir's own, such as the contents' \markboth, are skipped): a page without them
-% has an empty head.
-\def\CastellioRef{\relax}
-\def\Castellio@sentinel{\CastellioRef}
-\newif\ifCastellio@ref
-\def\Castellio@isref#1#2\@nil{\def\@tempb{#1}%
-    \ifx\@tempb\Castellio@sentinel\else\global\Castellio@reffalse\fi}
+% The range of verses that begin on the page: "Genesis 1:31 – 2:25", "Genesis 3:1–14", "Genesis 3:15". A page
+% with no verse mark yet in the document has an empty head. \CastellioRef is \relax (unexpandable) except while a
+% head reads the marks: multicol expands them again when it carries them over.
+\let\CastellioRef\relax
 \def\Castellio@first#1#2#3{\def\Castellio@book{#1}\def\Castellio@fc{#2}\def\Castellio@fv{#3}}
 \def\Castellio@last#1#2#3{\def\Castellio@lc{#2}\def\Castellio@lv{#3}}
 \newcommand{\VersusRange}{{%
-    \global\Castellio@reftrue
-    \expandafter\Castellio@isref\firstmark\relax\@nil
-    \expandafter\Castellio@isref\botmark\relax\@nil
-    \ifCastellio@ref
-        \let\CastellioRef\Castellio@first \firstmark
-        \let\CastellioRef\Castellio@last \botmark
+    \edef\@tempb{\LastMark{versus}}%
+    \ifx\@tempb\@empty\else
+        \let\CastellioRef\Castellio@first \FirstMark{versus}%
+        \let\CastellioRef\Castellio@last \LastMark{versus}%
         \Castellio@book\ \Castellio@fc:\Castellio@fv
         \ifnum\Castellio@fc=\Castellio@lc
           \ifnum\Castellio@fv=\Castellio@lv\else\textendash\Castellio@lv\fi
