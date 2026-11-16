@@ -2,7 +2,7 @@
 
 Built 2026-11-15 by `python -m pipeline orig Exod 1-30` → `text/orig/draft/EXO.usfm`. The words are the settled chapters' (`text/`); their spelling, capitals and punctuation are 1738 (archive.org bibliasacraexseb01cast)'s, read from its OCR as `pipeline/orig.py` describes. Expanded: *&*, *q;*, the nasal bar, long s, *ę*. Kept: u/v and i/j as printed. Dropped: the accents (*verò*, *quòd*, *à*). Paragraphs are 1738's own, read from the indents in its hOCR (listed below) (HUMAN.md decision 57). Regenerate after changing `data/decisions/Exod.orig.tsv`.
 
-**Decision:** pending
+**Decision:** approved (Nathan, 2026-11-15: "Yes, approve"; the drop capital's word set as a normal capitalized word); moved to `text/orig/EXO.usfm`
 
 ## How each word was made
 
@@ -771,7 +771,7 @@ Where the OCR could not decide. Several differ from the settled text by more tha
 - **22.27** *recubet* → *recubet*: 1738 leaf 136, read on the page (Claude, 2026-11-14)
 - **22.31** *Præstātōte* → *Præstatote*: 1738 leaf 136, read on the page (Claude, 2026-11-14)
 - **22.31** *prōjicitōte* → *proiicitote|.*: 1738 leaf 136, read on the page; the marks after it read on the page: . (punctuation pass, decision 58) (Claude, 2026-11-15)
-- **23.1** *Audītiōnem* → *AVditionem*: 1738 leaf 137, read on the page: chapter opening: large drop initial A followed by capital V (Vditionem); otherwise as form (Claude, 2026-11-14)
+- **23.1** *Audītiōnem* → *Auditionem*: 1738 leaf 137, read on the page: chapter opening: large drop initial A followed by capital V (Vditionem); otherwise as form (Claude, 2026-11-14); set as a normal capitalized word, the convention for a drop capital's word (Nathan, 2026-11-15)
 - **23.1** *coitō* → *coito*: 1738 leaf 137, read on the page (Claude, 2026-11-14)
 - **23.2** *rēctō* → *recto*: 1738 leaf 137, read on the page (Claude, 2026-11-14)
 - **23.2** *sententiam* → *sententiam*: 1738 leaf 137, read on the page (Claude, 2026-11-14)

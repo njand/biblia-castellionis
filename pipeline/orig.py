@@ -807,6 +807,152 @@ def gold_chapters(osis):
     return {tsv.parse_id(vid)[1] for vid in gold.load(osis)}
 
 
+LEAF_MARK = re.compile(r"⁅(\d+)⁆\s*")
+PARAGRAPH_MARK = "¶"
+
+
+def printed_from_read_lines(rows):
+    """A run of 1738's read lines (data/witnesses/read-1738/, every word read on the page as printed) as the printed
+    text's conventions (decision 57): & and q; written out, the space 1738 sets before a mark dropped and one set
+    after it. Spelling, u/v, i/j, capitals and misprints stay as read (decision 58)."""
+    text = re.sub(r"(?<=\w)q;", "que", rows.replace("&", "et"))
+    text = re.sub(r"\s+([,.;:?!)])", r"\1", text)
+    text = re.sub(r"\(\s+", "(", text)
+    text = re.sub(r"([,;:?!.)])(?=[^\W\d_])", r"\1 ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def from_read_lines(book, chapters, source, edits=()):
+    r"""(USFM chapters, {verse id: leaf}) of the printed text built from 1738's read lines, for chapters drafted from
+    them (Exodus 31–40, where Wikisource has none: data/review/exod31-40-stage2.md, Stage 2b). No OCR alignment is
+    needed, since the lines are the page: they are joined into verses (hyphens joined, `ocrdraft.verses_of`), set
+    by `printed_from_read_lines`, moved to the KJV's numbering by the draft's own versification edits, and given
+    1738's paragraphs from its indents (`archive.indents`, as `build_chapter` reads them). A chapter's first word
+    beside its drop capital is set as the other chapters' are (INterea → Interea, `ocrdraft.drop_capital`)."""
+    from pipeline import archive, ocrdraft, versify
+    rows = [r for r in ocrdraft.read_lines(source)]
+    keep, on = [], False
+    for row in rows:
+        if m := re.match(r"\\c (\d+)$", row[3].strip()):
+            on = int(m.group(1)) in chapters
+        if on:
+            keep.append(row)
+    leaves = sorted({int(r[0]) for r in keep if str(r[0]).isdigit()})
+    starts = archive.indents("1738", leaves)
+    marked, previous = [], None
+    for leaf, column, line, text in keep:
+        if text.strip().startswith(("\\c", "%")):
+            marked.append((leaf, column, line, text))
+            continue
+        lead = f"⁅{leaf}⁆ " if leaf != previous else ""      # a mark where a leaf begins (none inside a phrase)
+        previous = leaf
+        para = PARAGRAPH_MARK + " " if (int(leaf), int(line)) in starts else ""
+        body = text.strip()
+        if m := re.match(r"(#\d+)\s*(.*)$", body):          # a verse number first: the mark goes after it
+            body = f"{m.group(1)} {para}{lead}{m.group(2)}"
+        else:
+            body = f"{para}{lead}{body}"
+        marked.append((leaf, column, line, body))
+    verses, _ = ocrdraft.verses_of(marked)
+    lines, chapter = [], None
+    for (c, v), text in verses.items():
+        if c != chapter:
+            lines += [f"\\c {c}"]
+            chapter = c
+        if v == 1:
+            text = re.sub(r"^((?:¶\s*)?(?:⁅\d+⁆\s*)*)(\S+)",
+                          lambda m: m.group(1) + opening_word(m.group(2)), text)
+        lines.append(f"\\v {v} {text}")
+    usfm = "\n".join(lines) + "\n"
+    if edits:
+        usfm, _ = versify.apply_edits(usfm, book.osis, edits)
+    # Each verse's whole text (a merged verse runs on over the lines after it), and its leaf: the last leaf mark
+    # before its first word. Then the marks go.
+    pages, leaf, chapter, verses_out = {}, None, None, []      # verses_out: [("c", n) | ("v", n, text)]
+    for piece in re.split(r"(\\c \d+|\\v \d+ ?)", usfm):
+        if piece.startswith("\\c "):
+            chapter = int(piece.split()[1])
+            verses_out.append(("c", chapter))
+        elif piece.startswith("\\v "):
+            verses_out.append(("v", int(piece.split()[1]), ""))
+        elif verses_out and verses_out[-1][0] == "v":
+            first = re.match(r"\s*(?:¶\s*)?⁅(\d+)⁆", piece)
+            pages[f"{book.osis}.{chapter}.{verses_out[-1][1]}"] = str(int(first.group(1)) if first else leaf)
+            for m in LEAF_MARK.finditer(piece):
+                leaf = int(m.group(1))
+            text = re.sub(r"\\[a-z]+\d*\s*", " ", LEAF_MARK.sub("", piece))     # \p from versify: not 1738's
+            verses_out[-1] = ("v", verses_out[-1][1], re.sub(r"\s+", " ", text).strip())
+    # Paragraphs: one at each chapter's start, and where 1738 indents (inside a verse: \p in the verse's line).
+    result = []
+    for item in verses_out:
+        if item[0] == "c":
+            result += ["", f"\\c {item[1]}", "\\p"]
+            continue
+        _, number, body = item
+        parts = [printed_from_read_lines(p) for p in body.split(PARAGRAPH_MARK)]
+        if not parts[0] and len(parts) > 1:                  # the verse begins the paragraph
+            if result[-1] != "\\p":
+                result.append("\\p")
+            parts = parts[1:]
+        result.append(f"\\v {number} {parts[0]}")
+        for part in parts[1:]:
+            result += ["\\p", part]
+    return "\n".join(result).lstrip("\n") + "\n", pages
+
+
+def verse_paragraph_rows(text, book, chapters):
+    r"""The ¶ and ¶- rows (`paragraph_rows`) of these chapters set in printed USFM from read lines: a paragraph
+    begun or taken away before a verse whose first settled word the row names (1738 Exod 34:7, the capitals of the
+    proclamation flush with the lines around them, not indented). A row inside a verse is not supported here."""
+    from pipeline import gold
+    first = {}
+    for vid, row in gold.load(book.osis).items():
+        words = re.findall(r"[^\W\d_]+", re.sub(r"\\f .*?\\f\*", "", row["text"]))
+        if words:
+            first[vid] = words[0]
+    lines = text.splitlines()
+    for (vid, word), (begin, _) in paragraph_rows(book.osis).items():
+        _, c, v = tsv.parse_id(vid)
+        if c not in chapters:
+            continue
+        if first.get(vid) != word:
+            raise SystemExit(f"orig: the paragraph row {vid} {word!r} is not the verse's first word ({first.get(vid)!r})")
+        chapter_at = lines.index(f"\\c {c}")
+        k = next(i for i in range(chapter_at, len(lines)) if lines[i].startswith(f"\\v {v} "))
+        if begin and lines[k - 1] != "\\p":
+            lines.insert(k, "\\p")
+        elif not begin and lines[k - 1] == "\\p":
+            del lines[k - 1]
+    return "\n".join(lines) + "\n"
+
+
+def write_from_read_lines(book, chapters):
+    """`pipeline orig BOOK CH-CH --read-lines`: the printed text of chapters drafted from 1738's read lines
+    (`from_read_lines`), merged into text/orig/draft/<USFM>.usfm beside the chapters built from the OCR, their leaves
+    into data/orig/<osis>.pages.tsv, and a review file. Returns the paths written."""
+    span = f"{chapters.start}-{chapters.stop - 1}"
+    source = paths.WITNESSES / "read-1738" / f"{book.osis}{span}.tsv"
+    if not source.exists():
+        raise SystemExit(f"no {source.relative_to(paths.ROOT).as_posix()}: these chapters were not drafted from read lines")
+    edits_file = paths.DATA / "versification" / f"{book.osis}{span}.draft.edits.tsv"
+    edits = [e for e in tsv.read(edits_file) if e.get("status", "applied") == "applied"] if edits_file.exists() else []
+    text, pages = from_read_lines(book, chapters, source, edits)
+    text = verse_paragraph_rows(text, book, chapters)
+    target = path(book)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if target.exists():
+        text = merge_usfm(target.read_text(encoding="utf-8"), text)
+    else:
+        text = "\n".join(header_lines(book)) + "\n\n" + text
+    target.write_text(text, encoding="utf-8", newline="\n")
+    pages_file = pages_path(book)
+    kept = {r["id"]: r["canvas"] for r in tsv.read(pages_file)
+            if tsv.parse_id(r["id"])[1] not in chapters} if pages_file.exists() else {}
+    rows = {**kept, **pages}
+    tsv.write(pages_file, sorted(rows.items(), key=lambda kv: tsv.parse_id(kv[0])), header=("id", "canvas"))
+    return [target, pages_file]
+
+
 def merge_usfm(old, new):
     """The draft file `old` with the chapters `new` holds put in place (and new ones added in order): a draft of
     Exodus 21–30 beside the one of 1–20, each built when its stage 2 is done."""
@@ -866,6 +1012,9 @@ def build(osis, chapters, witness=None, known=None):
         untie_capitals(built.values())
         cc_for_oe(built.values())
         retie(built.values())
+    for chapter in built.values():                       # both printers' drop capitals (orig-drop-capitals.md)
+        if chapter.words and chapter.words[0].kind != "read":
+            chapter.words[0].form = opening_word(chapter.words[0].form)
     for chapter in built.values():
         stray_stops(chapter)
     return built
@@ -892,6 +1041,17 @@ def retie(chapters):
             tied = re.sub("ae|oe", lambda m: {"ae": "æ", "oe": "œ"}[m.group()], w.form)
             if letters(tied).replace("œ", "æ").lstrip("h") == letters(printerize(w.base)).replace("œ", "æ").lstrip("h"):
                 w.form = tied
+
+
+def opening_word(word):
+    """A chapter's first word beside its drop capital, which the print sets with a small capital or two after the
+    initial (AVditionem, AD, CVm), as a normal capitalized word, with the printers' u inside a word for the small
+    capital V (Auditionem, Ad, Cum; Nathan, 2026-11-15, data/review/exod31-40-orig.md). A word wholly in capitals
+    beyond two letters (PRINCIPIO, PRIMVM, a book's first word) is the print's own convention and is kept."""
+    if re.match(r"^[A-Z]{2,}[a-zæœàèìòùáéíóú]", word) or re.match(r"^[A-Z]v[a-z]", word) or \
+            (word.isupper() and len(word) == 2):
+        return word[0] + word[1:].lower().replace("v", "u")
+    return word
 
 
 def cc_for_oe(chapters):

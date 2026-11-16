@@ -2,6 +2,13 @@
 
 ## Now
 
+- **Exodus as printed (1738) approved** (2026-11-15, decision 75; your "Yes, approve"): `text/orig/EXO.usfm`, all 40
+  chapters; `text/orig/draft/` is empty and gone. Chapters 31–40 come from the lines stage 2 read on the page
+  (`data/review/exod31-40-orig.md`; `orig --read-lines`). A chapter's first word beside its drop capital is now a
+  normal capitalized word (*Auditionem*, *Ad*, *Tum*, *Destinaui*; `orig.opening_word`, tested). **For you**: the
+  same rule applied to the 34 such words in the approved New Testament and Genesis (*CVm* → *Cum*, *HIc* → *Hic* …;
+  your "Yes, apply them"; `data/review/orig-drop-capitals.md`), and by `orig.build` for both Testaments. Gen 25:12
+  *Ismælis* in the approved Genesis corrected to 1738's *Ismaelis* (your "Yes, correct it"). Nothing committed.
 - **Exodus 31–40 settled** (2026-11-15, decision 74; your "Settle it"): in `text/EXO.usfm`, which now holds all 40
   chapters (1,213 verses, every chapter at the KJV count); gold rebuilt; `text/draft/` removed (the draft and
   preview are in git). Taken as decided: 37:9 *obtegerent* (1554, 1573), 36:27 *in īmō*, Castellio's verse division
@@ -490,6 +497,8 @@
 | 72 | 2026-11-15 | **Genesis as printed (1738) approved** (Nathan: "Approve Genesis"), after the punctuation pass: `text/orig/GEN.usfm`. Exodus 1–30 waits for 31–40. ***Ismaēl*** (Gaffiot *Ismăēl*), not *Ismæl*, in the edited text (Nathan: "Go with Gaffiot. Ismaēl is correct."; `spellings-2026-11-15.md` §6). |
 | 73 | 2026-11-15 | (Nathan: "keep hujusmodi together, separate temet ipsum, add the note to Exodus 40:20, and update the font style") ***hujusmodī*** joined at Matt 13:36; ***tēmet ipsum***, ***sēmet ipsum*** apart (Heb 1:3; rules for drafts; Exod 32:13 in review); **Exod 40:20** *āræ* kept with a note (Hebrew *arcæ*), applied when 31–40 is settled; the site's italics use Gentium's two-storey *a* (`ss05`), so italic *æ* no longer looks like *œ*. |
 | 74 | 2026-11-15 | **Exodus 31–40 settled** (Nathan: "Settle it"), with the four questions decided (decisions 71, 73): `text/EXO.usfm` now complete; 40:20 *āræ* with a note. |
+| 75 | 2026-11-15 | **Exodus as printed (1738) approved** (Nathan: "Yes, approve"), with the drop capital's word as a normal capitalized word (*Auditionem*, *Cum*); the same rule for the approved New Testament and Genesis proposed in `data/review/orig-drop-capitals.md`. |
+| 76 | 2026-11-15 | **The drop capital's word in every printed text** (Nathan: "Yes, apply them"): 34 words in the approved New Testament and Genesis set as normal capitalized words (*Cum*, *Hic*, *Commissum*), as Exodus. |
 
 ## How to run
 

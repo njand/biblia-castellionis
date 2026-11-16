@@ -4,7 +4,7 @@
 
 Built 2026-11-14 by `python -m pipeline orig Exod 21-30` → `text/orig/draft/EXO.usfm`. The words are the settled chapters' (`text/`); their spelling, capitals and punctuation are 1738 (archive.org bibliasacraexseb01cast)'s, read from its OCR as `pipeline/orig.py` describes. Expanded: *&*, *q;*, the nasal bar, long s, *ę*. Kept: u/v and i/j as printed. Dropped: the accents (*verò*, *quòd*, *à*). Paragraphs are 1738's own, read from the indents in its hOCR (listed below) (HUMAN.md decision 57). Regenerate after changing `data/decisions/Exod.orig.tsv`.
 
-**Decision:** pending
+**Decision:** superseded by `exod1-30-orig.md` (approved 2026-11-15)
 
 ## How each word was made
 

@@ -4,7 +4,7 @@ Built 2026-11-14 (`python -m pipeline orig Gen 1-50`, `Exod 1-20`). The drafts a
 `EXO.usfm`; how each word was made, word by word, is in `gen1-50-orig.md` and `exod1-20-orig.md`. This file is the
 summary, the questions for the reading edition the page readings raised, and the Decision line.
 
-**Decision:** approved for Genesis (Nathan, 2026-11-15: "Approve Genesis"; moved to `text/orig/GEN.usfm`). Exodus 1–30 waits for 31–40's printed text.
+**Decision:** approved for Genesis (Nathan, 2026-11-15: "Approve Genesis"; moved to `text/orig/GEN.usfm`), and for Exodus 1–40 (Nathan, 2026-11-15: "Yes, approve"; the drop capital's word set as a normal capitalized word); moved to `text/orig/EXO.usfm`.
 
 ## What changed since 2026-11-13
 

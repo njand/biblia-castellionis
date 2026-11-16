@@ -190,3 +190,12 @@ class Indents(unittest.TestCase):
                  orig.Word("Gen.1.2", "āerem", None, "aerem", "lexicon")]
         orig.retie([orig.Chapter(7, words=words)])
         self.assertEqual([w.form for w in words], ["ætatis", "aerem"])
+
+    def test_printed_from_read_lines(self):
+        self.assertEqual(orig.printed_from_read_lines("quæ tibi præcepi , cunctaq; & arcam ( quam vides )"),
+                         "quæ tibi præcepi, cunctaque et arcam (quam vides)")
+        self.assertEqual(orig.printed_from_read_lines("essem.Quare nati,siue"), "essem. Quare nati, siue")
+
+    def test_opening_word_beside_a_drop_capital(self):
+        self.assertEqual([orig.opening_word(w) for w in ("AVditionem", "AD", "Tvm", "CVm", "DEstinaui", "PRINCIPIO", "Igitur")],
+                         ["Auditionem", "Ad", "Tum", "Cum", "Destinaui", "PRINCIPIO", "Igitur"])

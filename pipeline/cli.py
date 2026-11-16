@@ -246,6 +246,9 @@ def main(argv):
     org.add_argument("--sheets", action="store_true",
                      help="only draw contact sheets of the doubt words on the page images (Old Testament, 1738), "
                           "to read them into data/decisions/<osis>.orig.tsv")
+    org.add_argument("--read-lines", action="store_true",
+                     help="build from 1738's lines read on the page (data/witnesses/read-1738/<osis><CH-CH>.tsv), for "
+                          "chapters drafted from them (Exodus 31-40), instead of aligning the OCR")
     org.add_argument("--pages", action="store_true",
                      help="only record each verse's page (data/orig/<osis>.pages.tsv), for the site's page links; "
                           "allowed for an approved book")
@@ -335,6 +338,10 @@ def main(argv):
         if approved.exists() and not args.force:
             raise SystemExit(f"{approved.relative_to(paths.ROOT).as_posix()} is approved: it is never rewritten by code. "
                              "Add --force for a draft beside it, for comparison.")
+        if args.read_lines:
+            for written in orig.write_from_read_lines(book, chapters):
+                print(f"→ {written.relative_to(paths.ROOT).as_posix()}")
+            return 0
         witness = orig.base_witness(book.osis)
         built = orig.build(book.osis, chapters, witness, orig.testament_lexicon(book.testament, witness))
         target = orig.path(book)
