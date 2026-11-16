@@ -1,10 +1,14 @@
-\id LEV
+\id LEV Biblia Sacra ex Sebastiani Castellionis interpretatione
 \usfm 3.0
 \ide UTF-8
+\h Lēvīticus
+\toc1 Lēvīticus
+\toc2 Lēvīticus
+\mt1 Lēvīticus
 
 \c 1
 \p
-\v 1 Vocauit autem Ioua Mosem, et cum eo ex oraculi tabernaculo verba fecit ad hunc modum.
+\v 1 VOCAVIT autem Ioua Mosem, et cum eo ex oraculi tabernaculo verba fecit ad hunc modum.
 \v 2 Edissere apud Israelitas his verbis: si quis vestrum Iouæ munus adferet (hoc autem quum ex pecore facietis, ex boue et balante facitote)
 \v 3 si solidum sacrificium erit, munus ex boue, marem integrum adducito, eum ad ostium oracularis tabernaculi sistito, ad Iouæ fauorem sibi conciliandum:
 \v 4 victimæque capiti manum suam imponito, vt ea supplicatione fauor ei concilietur.
@@ -16,7 +20,7 @@
 \p
 \v 10 Sin ex balantibus erit munus, ex ouibus, aut capris, marem integrum ad solidum sacrificium adferto.
 \v 11 isque ad latus altaris aquilonare ante Iouam immolator: sanguinem Aharonis filii sacerdotes super aram circumspergunto.
-\v 12 Victima in frusta dissecator. Caput et sebum sacerdos super struem igni in altari impositam statuito.
+\v 12 victima in frusta dissecator. Caput et sebum sacerdos super struem igni in altari impositam statuito.
 \v 13 Intestina et crura aqua lauanto. Totum sacerdos libato et in ara adoleto, cuius solidi sacrificii odor Iouam deliniat.
 \p
 \v 14 Sin ex auibus solidum sacrificium Iouæ faciet, de turturibus aut de columba natis adferto.
@@ -55,9 +59,8 @@
 \v 2 et sui muneris capiti manum imponito, idque in introitu oracularis tabernaculi immolator. Sanguinem Aharonis filii sacerdotes in aram circumfundunto.
 \v 3 Ipse ex hostia salutari Iouæ in re diuina obmoueto omentum et totos lactes et ambos renes vna cum eorum adipe lumbis adhærente, fibramque iecoris cum renibus exemtam.
 \v 4 Hoc Aharonis filii in ara adolento, super victimam rogali strui impositam,
-\v 5 cuius flagrantiæ odore Ioua
+\v 5 cuius flagrantiæ odore Ioua deliniatur.
 \p
-deliniatur.
 \v 6 Quod si ouino caprinoue munere Iouæ sacra pro salute faciet, marem feminamue integrum adferto.
 \v 7 Si ouem adferet, eam ante Iouam sistito, capiti eius manum imponito,
 \v 8 eamque ante oraculare tabernaculum mactato. Sanguinem Aharonis filii in aram circumfundunto.
@@ -106,7 +109,7 @@ deliniatur.
 \v 29 Eius capiti manum imponito, eaque mactetur eodem in loco, vbi mactabitur solidi sacrificii victima.
 \v 30 Sanguine pontifex digito suo aræ victimariæ cornua inficito, reliquum omne ad aræ radicem effundito.
 \v 31 Adipem omnem adimito, vti adimitur adeps ex hostia pro salute, et in ara pontifex adoleto, vti eo odore iouam deliniat, proque illo supplicando ei veniam exoret.
-\v 32 quod si ouem pro delicto adferet, feminam integram ducito,
+\v 32 Quod si ouem pro delicto adferet, feminam integram ducito,
 \v 33 eius capiti manum imponito, eaque pro delicto immoletur in eodem loco, in quo immolatur solidi sacrificii victima.
 \v 34 Sanguine illius piaculi pontifex digito suo cornua aræ victimariæ imbuito, reliquum omne ad radicem aræ effundito.
 \v 35 Adipem omnem detrahito, vti detrahitur adeps ouis in sacrificio pro salute. Ea in ara adoleto ad Iouæ rem diuinam, et pro illius commisso peccato supplicet, vt ei ignoscatur.
@@ -147,12 +150,12 @@ deliniatur.
 \v 9 hæc solidi sacrificii lex esto: victima in rogo super ara esto totam noctem ad mane, igne aræ in ea ardente.
 \v 10 Pontifex lineum indusium lineaque subligacula corpus indutus cinerem redactum ex incensione victimæ ex ara tollito, et apud aram ponito.
 \v 11 Deinde depositis illis vestimentis, alia induito, et cinerem extra castra in locum purum exportato,
-\v 12 Ignis autem in ara inexstinctus: ardeto, struemque in ea sacerdos omnibus matutinis incendito, et victimam insuper ordinato, in eaque adipes victimarum pro salute adoleto,
+\v 12 Ignis autem in ara inexstinctus ardeto, struemque in ea sacerdos omnibus matutinis incendito, et victimam insuper ordinato, in eaque adipes victimarum pro salute adoleto,
 \v 13 igni semper in ara inexstincto ardente.
 \p
 \v 14 Ferti autem lex hæc esto: qui de filiis Aharonis id coram Ioua ante aram libabit,
 \v 15 sumito pugillum eius videlicet de siligine ferti et oleo, et omne tus impositum ferto, eaque In ara ad odoris suauitatem adoleto, monumentum ad Iouam.
-\v 16 Reliquum ex ea Aharon et eius filii comedunto, idque cum panibus sine fermento, in loco sacro, videlicet in atrio oracularis tabernaculi
+\v 16 Reliquum ex ea Aharon et eius filii comedunto, idque cum panibus sine fermento, in loco sacro, videlicet in atrio oracularis tabernaculi:
 \v 17 neue id cum fermento coquitor. Hanc ego portionem de mea re diuina illis adsigno, quæ sit sacrosancta, siue delictum siue noxa procuretur.
 \v 18 Hac vescuntor omnes Aharone nati mares, quod quidem institutum posteris vestris circa Iouæ rem diuinam æternum tradatur, vt ea non nisi consecrati attingant.
 \v 19 De libamine autem Aharonis, aut eius filiorum, inquit,
@@ -161,16 +164,16 @@ deliniatur.
 \v 22 Hoc pontifex in eius locum vnctus de filiis eius facito, ita vt æterno ritu Iouæ totum adoleatur.
 \v 23 Atque etiam omne sacerdotis fertum solidum esto, neue comeditor.
 \v 24 Hæc item Aharoni et eius filiis exponito ad hunc modum, inquit:
-\v 25 hæc piaculi lex esto: quo in loco immolabitur solidi sacrificii victima inibi immolator piaculum ante Iouam, quod sit sacrosanctum.
+\v 25 hæc piaculi lex esto: quo in loco immolabitur solidi sacrificii victima, inibi immolator piaculum ante Iouam, quod sit sacrosanctum.
 \v 26 Pontifex, qui expiabit, eo vescitor, et vescitor in loco sacro, in atrio oracularis tabernaculi.
 \v 27 Quisquis piaculi corpus attinget, consecrator. Quod si quod vestimentum eius sanguine adspersum fuerit, vestimentum illud lauator in loco sacro.
-\v 28 Vas autem, in quo coctum fuerit, si erit fictile, frangitor: si æreum, Detergitor et aqua abluitor.
+\v 28 Vas autem, in quo coctum fuerit, si erit fictile, frangitor: si æreum, detergitor et aqua abluitor.
 \v 29 Omnes mares de sacerdotibus eo vescuntor, vt quod sit sacrosanctum.
 \v 30 At nullum piaculum, de cuius sanguine illatum fuerit in oraculare tabernaculum ad supplicandum in sacrario, comeditor, sed igni cremator.
 
 \c 7
 \p
-\v 1 Noxæ autem, hæc lex esto: noxa sacrosancta est.
+\v 1 Noxæ autem hæc lex esto: noxa sacrosancta est.
 \v 2 Quo in loco immolatur solidi sacrificii victima, inibi noxam immolanto. Eius sanguinem pontifex in aram circumfundito.
 \v 3 Adipem omnem ex ea libato, caudam, omentum,
 \v 4 renes ambos et adipem, qui eis supra lumbos adhæret, fibramque iecoris cum renibus ademtam, et ea in ara adoleto.
@@ -258,7 +261,7 @@ deliniatur.
 
 \c 9
 \p
-\v 1 Vbi dies, octaua venit, conuocauit Moses Aharonem et eius filios et senatores Israelitas,
+\v 1 Vbi dies octaua venit, conuocauit Moses Aharonem et eius filios et senatores Israelitas,
 \v 2 Aharonique mandauit, vti vitulum boue natum ad expiationem, et arietem ad solidum sacrificium sumeret integros, quos ante Iouam sisteret,
 \v 3 vtque Israelitis mandaret, vti sumerent caprum ad expiationem vitulumque et ouem, anniculos, integros, ad solidum sacrificium,
 \v 4 bouemque item et arietem ad sacrificium pro salute: quibus coram Ioua sacrificarent, fertumque in oleo subactum: eo enim die Iouam eis esse adpariturum.
@@ -288,7 +291,7 @@ deliniatur.
 \v 1 Tum Aharonis filii, Nadabus et Abius, ceperunt suum vterque turibulum, igneque et suffimine imposito libauerunt coram Ioue ignem alienum, illius iniussu.
 \v 2 Itaque profectus a Iouæ conspectu ignis, eos confecit, et in Iouæ conspectu exanimauit.
 \v 3 Et Moses Aharoni: hoc illud est, quod prædixerat Ioua, inquit, quum diceret, sese in iis, qui ad se accederent, effecturum in totius populi conspectu, vt augustus et gloriosus esse videatur. Aharon vero obmutuit.
-\v 4 Tum Moses euocauit Misaelem et Elisaphanem, Ozielis patrui Aharonis filios, eisque mandauit, vt accederent et cognatos suos ex conspectu sanctuarii extra castra Auferrent:
+\v 4 Tum Moses euocauit Misaelem et Elisaphanem, Ozielis patrui Aharonis filios, eisque mandauit, vt accederent et cognatos suos ex conspectu sanctuarii extra castra auferrent:
 \v 5 id quod illi ex eius mandato fecerunt, eosque cum tunicis sublatos ex castris exportarunt.
 \p
 \v 6 Deinde Moses Aharonem eiusque filios, Eleazarum et Ithamarum, ita commonuit: capita vestra ne tondete, neue vestibus este dissolutis, ne et ipsi morte pœnas detis, et in vniuersam rem publicam sæuiatur: sed vniuersum consanguineorum vestrorum Israelitarum genus deploret a Ioua vstulatos.
@@ -315,7 +318,7 @@ deliniatur.
 \v 3 De omni quadrupedum genere, quæ quidem versantur in terris, quæcumque diuisas vngulas habent et bisulca sunt, si ruminant, eis vescemini.
 \v 4 Sed sunt quædam, quæ vel ruminant, vel bisulca sunt, quibus vesci nefas, vt camelus: nam quum ruminet, bisulcus non est: hic vobis immundus esto.
 \v 5 Et cuniculus, nam ruminalis quum sit, bisulcus non est, hic vobis immundus esto.
-\v 6 et lepus: ruminat enim, sed bisulcus non est: hic vobis immundus esto.
+\v 6 Et lepus: ruminat enim, sed bisulcus non est: hic vobis immundus esto.
 \v 7 Et sus: nam quum et vngulam diuisam habeat, et sit bisulcus, non ruminat: hic vobis immundus esto.
 \v 8 Horum carne ne vescimini, neue cadauera attingitote, sed immunda habetote.
 \p
@@ -352,7 +355,7 @@ deliniatur.
 \v 35 et quamcumque in rem inciderit aliquid de eorum cadaueribus, immunda esto. Clibani et solia diruuntor: nam immunda sunt et vobis in immundis habenda.
 \v 36 (nam fontes quidem et putei, quæ sunt, aquæ adfluentiae, munda sunt.) Qui illorum cadauera attigerit, immundus esto.
 \v 37 Et si de eorum cadaueribus deciderit aliquid in quamlibet satiuam frugem, earum, quæ seri solent, ea munda esto.
-\v 38 Sed si in frugem aqua conspersam aliquid de illorum cadaueribus deciderit, immunda esto.
+\v 38 Sed si in frugem aqua conspersam aliquid de illorum cadaueribus deciderit immunda esto.
 \v 39 Quod si aliqua bestia earum, quæ vobis esui sunt, emortua fuerit, qui eius cadauer attigerit, pollutus esto ad vesperum:
 \v 40 et qui de cadauere comederit, vestimenta lauato, et ad vesperum pollutus esto: et qui cadauer tulerit, vestimenta lauato, et ad vesperum pollutus esto.
 \p
@@ -366,9 +369,7 @@ deliniatur.
 
 \c 12
 \p
-\v 1 Haec item Mosi Ioua effatus est:
-\p
-hæc Israelitis exponito.
+\v 1 Haec item Mosi Ioua effatus est: hæc Israelitis exponito.
 \v 2 Mulier, quæ concepto semine marem pepererit, polluta esto septem dies, videlicet pro ratione spatii, quo in menstruis esse solent.
 \v 3 Octauo die circumcidatur fetus membri præputium.
 \v 4 Ipsa triginta tres dies in cruore purificationis suæ esto, neu quid sacrum tangito, neu in sacrarium intrato, nisi confecto eius purificationis spatio.
@@ -381,7 +382,6 @@ hæc Israelitis exponito.
 \c 13
 \p
 \v 1 Tum hæc Mosi et Aharoni effatus est Ioua ad hunc modum:
-\p
 \v 2 homo, cuius in corporis cute erit tumor, aut papula, aut labes, ita vt in eius corporis cute lepræ morbus inesse videatur, is ad Aharonem pontificem adducitor, aut ad aliquem eius filiorum sacerdotum.
 \v 3 Tum sacerdos adfectionem illam in corporis cute adspicito. Quod si pili in adfectu mutati fuerint in album, et adfectus facies cute corporis depressior, lepræ morbus est, eo viso sacerdos pollutum iudicato.
 \v 4 Sin labes alba erit in cute corporis, non depressiore superficie, quam cutis est, neque vlla in album facta mutatione, morbidum sacerdos concludito in septem dies.

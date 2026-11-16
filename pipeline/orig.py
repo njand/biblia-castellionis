@@ -903,7 +903,9 @@ def from_read_lines(book, chapters, source, edits=()):
 def verse_paragraph_rows(text, book, chapters):
     r"""The ¶ and ¶- rows (`paragraph_rows`) of these chapters set in printed USFM from read lines: a paragraph
     begun or taken away before a verse whose first settled word the row names (1738 Exod 34:7, the capitals of the
-    proclamation flush with the lines around them, not indented). A row inside a verse is not supported here."""
+    proclamation flush with the lines around them, not indented). A row naming a later word of the verse (`Hæc#2`)
+    can only take away a paragraph begun inside the verse before that word (1738 Lev 12:1, 13:2: the lines beside a
+    chapter's drop capital, indented but not a paragraph)."""
     from pipeline import gold
     first = {}
     for vid, row in gold.load(book.osis).items():
@@ -915,15 +917,33 @@ def verse_paragraph_rows(text, book, chapters):
         _, c, v = tsv.parse_id(vid)
         if c not in chapters:
             continue
-        if first.get(vid) != word:
-            raise SystemExit(f"orig: the paragraph row {vid} {word!r} is not the verse's first word ({first.get(vid)!r})")
         chapter_at = lines.index(f"\\c {c}")
         k = next(i for i in range(chapter_at, len(lines)) if lines[i].startswith(f"\\v {v} "))
+        if first.get(vid) != word.split("#")[0] or word.partition("#")[2] not in ("", "1"):
+            inside = word if begin is False else None
+            for i in range(k + 1, len(lines) - 1):
+                if lines[i].startswith(("\\v ", "\\c ")):
+                    break
+                if inside and lines[i] == "\\p" and same_word(lines[i + 1].split()[0] if lines[i + 1].split() else "",
+                                                              inside.split("#")[0]):
+                    lines[i - 1] = lines[i - 1] + " " + lines[i + 1]
+                    del lines[i:i + 2]
+                    break
+            else:
+                raise SystemExit(f"orig: the paragraph row {vid} {word!r} is neither the verse's first word "
+                                 f"({first.get(vid)!r}) nor a paragraph inside it to take away")
+            continue
         if begin and lines[k - 1] != "\\p":
             lines.insert(k, "\\p")
         elif not begin and lines[k - 1] == "\\p":
             del lines[k - 1]
     return "\n".join(lines) + "\n"
+
+
+def same_word(printed, settled):
+    """Whether a printed word (with its punctuation) is this settled word, under the folds (case, macrons, æ/ae,
+    i/j, u/v)."""
+    return rules.fold(re.sub(r"[^\w]", "", printed)) == rules.fold(settled)
 
 
 def write_from_read_lines(book, chapters):

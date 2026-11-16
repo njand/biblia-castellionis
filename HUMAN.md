@@ -6,12 +6,14 @@
   two routes. Nothing committed.
   - **Settled 2026-11-16** (your "Approve Leviticus 1–27 and settle it"): `text/LEV.usfm`, 27 chapters, 859 verses,
     the 859 items applied as accepted (identical to the preview); `data/gold/Lev.tsv` rebuilt, the ledger `settled`,
-    the drafts removed. **Still for you: the printed text** (`text/orig/draft/LEV.usfm`, rebuilt from the settled
-    book): about 500 words in 1–11 the OCR did not read (`data/review/lev1-11-orig.md`), three paragraph breaks in
-    12–27 that may be a drop capital's indent, and three places where the settled text's punctuation came through
-    where the OCR read none: 4:1 *inquit,* (1738 *inquit:*), 7:28 *(inquit, modum*, 8:14 *eum: quum,* (1738 *eum,
-    quum*). Six words read on the page this time (8:14, 10:3, 11:4 *quum*; 8:26, 9:4, 11:2 *adp-*/*adl-*) are rows
-    in `data/decisions/Lev.orig.tsv`.
+    the drafts removed. **The printed text approved** (2026-11-16, your "Approve it", after your answers: 3:13 *ante*, the
+    rest as drafted): `text/orig/LEV.usfm`, never rewritten by code; record `data/review/lev-orig.md`. Every
+    word of 1–11 the OCR did not read, and every mark beside one, read on 1738's leaves (722 rows in
+    `data/decisions/Lev.orig.tsv`); every paragraph checked, three false ones taken away or moved.
+  - **A footnote at 23:24** (2026-11-16, your "Use version 1"): *‘Monētum’ Castelliō ā monendō fīnxit, ut Jūnō
+    Monēta.* A new kind of note beside decisions 53 and 56: a word no dictionary has that Castellio explains himself
+    (`data/review/lev23-24-note.md`). Castellio's other Leviticus annotations (1554, canvas 820) give three notes
+    under decision 56, not yet proposed: 13:48 (warp and woof), 21:4 (his emended Hebrew), 23:40 (*perseæ*, Josephus).
   - **1–11, stages 1–2 done**: `text/draft/LEV.usfm` (299 verses, the KJV's count in every chapter). Collated
     against 1738 and 1750; the 20 verses 1738's OCR barely reads were read whole on the page, and every place where
     1738 might differ: **10 Wikisource slips** fixed in the draft under decision 30's rule (3:2 *oracularis*, 6:19

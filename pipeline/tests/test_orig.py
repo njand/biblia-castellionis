@@ -199,3 +199,35 @@ class Indents(unittest.TestCase):
     def test_opening_word_beside_a_drop_capital(self):
         self.assertEqual([orig.opening_word(w) for w in ("AVditionem", "AD", "Tvm", "CVm", "DEstinaui", "PRINCIPIO", "Igitur")],
                          ["Auditionem", "Ad", "Tum", "Cum", "Destinaui", "PRINCIPIO", "Igitur"])
+
+
+class ParagraphRowsInsideAVerse(unittest.TestCase):
+    """A ¶- row naming a later word of a verse takes away the paragraph begun before it inside the verse (1738 Lev
+    12:1: the drop capital's second line, indented beside the H, not a paragraph); a word that matches no paragraph
+    there stops the build."""
+
+    def setUp(self):
+        from unittest import mock
+        from pipeline import books, gold
+        self.book = books.select(["Lev"])[0]
+        self.patches = [mock.patch.object(gold, "load", return_value={"Lev.12.1": {"text": "Hæc item Mōsī: “Hæc Isrāēlītīs expōnitō."}})]
+        for p in self.patches:
+            p.start()
+        self.text = "\\c 12\n\\p\n\\v 1 Haec item Mosi:\n\\p\nhæc Israelitis exponito.\n\\v 2 Mulier\n"
+
+    def tearDown(self):
+        for p in self.patches:
+            p.stop()
+
+    def rows(self, word):
+        from unittest import mock
+        return mock.patch.object(orig, "paragraph_rows", return_value={("Lev.12.1", word): (False, "")})
+
+    def test_taken_away(self):
+        with self.rows("Hæc#2"):
+            self.assertEqual(orig.verse_paragraph_rows(self.text, self.book, range(12, 13)),
+                             "\\c 12\n\\p\n\\v 1 Haec item Mosi: hæc Israelitis exponito.\n\\v 2 Mulier\n")
+
+    def test_no_such_paragraph(self):
+        with self.rows("Mōsī"), self.assertRaises(SystemExit):
+            orig.verse_paragraph_rows(self.text, self.book, range(12, 13))

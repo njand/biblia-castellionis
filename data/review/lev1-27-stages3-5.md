@@ -102,7 +102,7 @@ fixed (below).
    - **17:15** → *impūrusque ad vesperum estō, et ita pūrgātor.* (1554 *& ita pur-gator*; the later printings repeat
      *et aqua lauator*): item 5 there. The printed text keeps 1738's.
    - **23:24 *monētum***: Castellio's coinage from *moneō*, explained in his 1554 annotations (canvas 820). The
-     forms row is changed. Whether to print his explanation as a note in the edition is still open.
+     forms row is changed. A footnote on the coinage was added 2026-11-16: *‘Monētum’ Castelliō ā monendō fīnxit, ut Jūnō Monēta.* (`lev23-24-note.md`).
    - **11:29 *mustolam* → *mustēlam*** (1554 *muſtelã*, the 1726 OCR *mustelam*): `lev1-11-stage2.md` §2 item 7. On
      1738's leaf 166 (line 79) the letter after *must-* is damaged, with no closed ring as an o would show. So 1750's
      *mustolam*, which Wikisource follows, is most likely a misreading. The printed text reads *mustelam* by a

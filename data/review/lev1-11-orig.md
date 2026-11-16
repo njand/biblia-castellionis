@@ -8,42 +8,735 @@ Built 2026-11-16 by `python -m pipeline orig Lev 1-11` → `text/orig/draft/LEV.
 
 | Kind | Words | |
 |---|---:|---|
-| ocr | 4016 | read in the OCR as the settled word (u/v, i/j, long s as printed) |
+| ocr | 4014 | read in the OCR as the settled word (u/v, i/j, long s as printed) |
 | rule | 47 | read in the OCR, a spelling the approved rules normalize |
 | variant | 18 | read in the OCR, a printer's spelling no rule covers |
 | nasal | 3 | read in the OCR with a nasal bar (m or n put back) |
-| misread | 18 | the settled word misread by the OCR; spelling as settled |
-| lexicon | 491 | not read here; spelling as the base edition prints the same word elsewhere in the Testament |
-| read | 19 | read on the page image (data/decisions/<osis>.orig.tsv) |
-| doubt | 9 | not read here, and the base edition spells the word more than one way: to be read on the page |
-| prone | 3 | not read here, and an approved rule writes the settled spelling for another: to be read on the page |
-| guess | 90 | OCR unreadable; the settled word in the printer's conventions |
-| none | 86 | no OCR word; the settled word in the printer's conventions |
+| read | 718 | read on the page image (data/decisions/<osis>.orig.tsv) |
 | all | 4800 | |
 
 ## Read on the page
 
 Where the OCR could not decide. Several differ from the settled text by more than spelling: the reading edition may want to look again at these (marked ⚑).
 
+- **1.1** *Jōva* → *Ioua|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.1** *et* → *et|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.1** *Vocāvit* → *VOCAVIT|*: 1738 leaf 156, the book's first word, read on the page: drop capital V + OCAVIT in capitals, kept as Gen 1:1 PRINCIPIO (Claude, 2026-11-16)
+- **1.4** *victimæque* → *victimæque|*: 1738 leaf 156, read on the page (reader A, 2026-11-16; leaf 156 line 81 (crop missed it); mark before capiti is a footnote sign)
+- **1.5** *Tum* → *Tum|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.6** *Victima* → *Victima|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.7** *Tum* → *Tum|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.8** *ligna* → *ligna|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.9** *laventur* → *lauentur|,*: 1738 leaf 157, read on the page (reader A, 2026-11-16; leaf 156 line 95-157 line 4, lauen-tur,)
+- ✱ **1.9** *cremandæ* → *cremandæ|*: 1738 leaf 157, read on the page (reader A, 2026-11-16; leaf 157 line 5: the m looks like "in" (worn type, or misprint creinandæ); a mark over the a, left out)
+- **1.9** *victimæ* → *victimæ|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **1.10** *mūnus* → *munus|,*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **1.10** *aut* → *aut|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.10** *solidum* → *solidum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **1.10** *sacrificium* → *sacrificium|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **1.11** *Jōvam* → *Iouam|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **1.11** *āram* → *aram|*: 1738 leaf 156, read on the page (reader A, 2026-11-16)
+- **1.11** *circumsperguntō* → *circumspergunto|.*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **1.12** *Victima* → *victima|*: 1738 leaf 157, read on the page (reader A, 2026-11-16; lowercase v after the full stop)
+- **1.12** *frusta* → *frusta|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **1.15** *extorquētō* → *extorqueto|,*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.1** *mūnus* → *munus|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.1** *offeret* → *offeret|,*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.1** *eam* → *eam|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.2** *pugillum* → *pugillum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.2** *dēlectētur* → *delectetur|.*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.3** *sacrōsānctum* → *sacrosanctum|.*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.4** *faciēs* → *facies|,*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.4** *subāctæ* → *subactæ|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.5** *subāctum* → *subactum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.6** *fertum* → *fertum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.8** *offertō* → *offerto|,*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.9** *monumentum* → *monumentum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.9** *dēlīniātur* → *deliniatur|.*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.10** *sacrōsānctæ* → *sacrosanctæ|.*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.11** *lībābitis* → *libabitis|,*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.12** *Prīmigeniōrum* → *Primigeniorum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.12** *lībāmen* → *libamen|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.14** *Jōvæ* → *Iouæ|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.14** *frūctū* → *fructu|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.15** *oleum* → *oleum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.16** *monumentum* → *monumentum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **2.16** *illā* → *illa|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **3.1** *salūte* → *salute|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **3.1** *cōnspectum* → *conspectum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
 - **3.2** *fīliī* → *filii|*: 1738 leaf 157, line 97, read on the page enlarged 2x: "Aharonis filii ſa-|cerdotes", no parenthesis (the OCR read the long s as "(") (Claude, 2026-11-16)
+- **3.2** *manum* → *manum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **3.2** *sacerdōtēs* → *sacerdotes|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.2** *āram* → *aram|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.3** *dīvīnā* → *diuina|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.3** *obmovētō* → *obmoueto|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.3** *lactēs* → *lactes|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.3** *adhærente* → *adhærente|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.3** *exēmptam* → *exemtam|.*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.4** *super* → *super|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.4** *victimam* → *victimam|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.4** *impositam* → *impositam|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.5** *Jōva* → *Ioua|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **3.5** *dēlīniātur* → *deliniatur|.*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.6** *Quod* → *Quod|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **3.6** *sī* → *si|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.6** *fēminamve* → *feminamue|*: 1738 leaf 158, read on the page (reader A, 2026-11-16; faint ink: femina-mue)
+- **3.7** *Sī* → *Si|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.7** *ovem* → *ouem|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.7** *Jōvam* → *Iouam|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.7** *capitī* → *capiti|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.8** *mactātō* → *mactato|.*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.9** *hostiā* → *hostia|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.9** *Jōvæ* → *Iouæ|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.9** *revulsam* → *reuulsam|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.9** *ambōs* → *ambos|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.9** *adhærente* → *adhærente|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.11** *pontifex* → *pontifex|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.11** *dapem* → *dapem|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.11** *reī* → *rei|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.12** *Sī* → *Si|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.12** *caprīnum* → *caprinum|*: 1738 leaf 157, read on the page (reader A, 2026-11-16)
+- **3.12** *mūnus* → *munus|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.12** *erit* → *erit|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.12** *Jōvam* → *Iouam|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.13** *manum* → *manum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.13** *idque* → *idque|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.13** *ante* → *ante|*: 1738 leaf 158, line 31: "idque an?e", the letter after an has no t's stem or cross; read as a broken t, ante (Nathan, 2026-11-16, on the enlarged crop: "1. ante")
+- **3.13** *tabernāculum* → *tabernaculum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.13** *mactātō* → *mactato|.*: 1738 leaf 158, read on the page (reader A, 2026-11-16; t worn)
+- **3.13** *fīliī* → *filii|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.14** *Jōvæ* → *Iouæ|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.14** *ōmentum* → *omentum|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.14** *lactēs* → *lactes|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.15** *Hæc* → *Hæc|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.15** *ārā* → *ara|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.15** *adolētō* → *adoleto|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.16** *Jōvæ* → *Iouæ|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.16** *dīvīnæ* → *diuinæ|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.16** *odōris* → *odoris|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.16** *adeps* → *adeps|*: 1738 leaf 159, read on the page (reader A, 2026-11-16)
+- **3.16** *Jōvæ* → *Iouæ|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.17** *posterum* → *posterum|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.17** *ubicumque* → *vbicumque|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.17** *tenētōte* → *tenetote|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.17** *ūllō* → *vllo|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **3.17** *vēscāminī* → *vescamini|.*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
 - **4.1** *inquit* → *inquit|:*: 1738 leaf 158, lines 48-49, read on the page enlarged 2x: "eloquere, in-|quit :" (the OCR lost quit:) (Claude, 2026-11-16)
+- **4.1** *Et* → *Et|*: 1738 leaf 158, line 48, read on the page enlarged 2x: drop capital E + T, an ordinary capitalized word (the chapter-opening rule) (Claude, 2026-11-16)
+- **4.1** *hæc* → *hæc|*: 1738 leaf 158, line 48, read on the page enlarged 2x: "ET hæc Israelitis eloquere , in-|quit :" (Claude, 2026-11-16)
+- **4.1** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 158, line 48, read on the page enlarged 2x (Claude, 2026-11-16)
+- **4.1** *ēloquere* → *eloquere|,*: 1738 leaf 158, line 48, read on the page enlarged 2x: "eloquere ," (Claude, 2026-11-16)
+- **4.2** *imprūdentiam* → *imprudentiam|*: 1738 leaf 159, read on the page (reader A, 2026-11-16)
+- **4.2** *dēlīquerit* → *deliquerit|,*: 1738 leaf 159, read on the page (reader A, 2026-11-16)
+- **4.2** *aliquid* → *aliquid|*: 1738 leaf 159, read on the page (reader A, 2026-11-16)
+- **4.2** *illicitum* → *illicitum|*: 1738 leaf 159, read on the page (reader A, 2026-11-16)
+- **4.2** *præceptum* → *præceptum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.2** *sī* → *si|*: 1738 leaf 158, line 49, read on the page enlarged 2x: "quit :  si quis quid" (Claude, 2026-11-16)
+- **4.3** *populī* → *populi|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16; popu-li *, (footnote star ignored))
+- **4.3** *dēlictō* → *delicto|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.3** *taurum* → *taurum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.4** *Illum* → *Illum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.4** *taurum* → *taurum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.4** *tabernāculī* → *tabernaculi|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.4** *Jōvā* → *Ioua|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.4** *manum* → *manum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.4** *eum* → *eum|*: 1738 leaf 158, read on the page (reader A, 2026-11-16; leaf 158 line 60)
+- **4.4** *Jōvā* → *Ioua|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.5** *pontifex* → *pontifex|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.5** *ūnctus* → *vnctus|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
 - **4.6** *suō* → *suo|*: 1738 leaf 158, line 63, read on the page enlarged 2x: "et digito ſuo" at the line end, no parenthesis (the OCR's "(" is the cut verse number 6) (Claude, 2026-11-16)
+- **4.6** *intīnctō* → *intincto|,*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.6** *Jōvam* → *Iouam|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.6** *sānctuāriī* → *sanctuarii|*: 1738 leaf 158, read on the page (reader A, 2026-11-16)
+- **4.7** *Jōvā* → *Ioua|,*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.7** *effunditō* → *effundito|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.7** *victimāriæ* → *victimariæ|,*: 1738 leaf 158, read on the page (reader B, 2026-11-16; victima-riæ)
+- **4.8** *piāculāris* → *piacularis|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; pia-cularis)
+- **4.8** *dētrahitō* → *detrahito|:*: 1738 leaf 158, read on the page (reader B, 2026-11-16; detra-hito)
+- **4.8** *lactēs* → *lactes|,*: 1738 leaf 158, read on the page (reader B, 2026-11-16; crop shows Lev.3; read on item 125's crop (leaf 158 line 74))
+- **4.8** *adhærente* → *adhærente|,*: 1738 leaf 158, read on the page (reader B, 2026-11-16; crop shows Lev.3; read on item 128's crop)
+- **4.9** *jecoris* → *iecoris|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; ie-coris)
+- **4.10** *quemadmodum* → *quemadmodum|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; quem-admodum)
+- **4.11** *atque* → *atque|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; at-que)
+- **4.12** *taurum* → *taurum|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.12** *effertō* → *efferto|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.12** *cremātō* → *cremato|.*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.13** *īnsciēnsque* → *insciensque|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; insciens-que)
+- **4.13** *illicitum* → *illicitum|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.13** *quodvīs* → *quoduis|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; crop shows 4.22 (leaf 159); read on item 138's crop: quod-uis)
+- **4.13** *Jōvæ* → *Iouæ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; crop shows 4.22 (leaf 159); read on item 138's crop)
+- **4.13** *præceptum* → *præceptum|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.14** *postquam* → *postquam|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.14** *tum* → *tum|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.14** *taurum* → *taurum|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.15** *cīvitātis* → *ciuitatis|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.15** *manūs* → *manus|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; ma-nus)
+- **4.15** *Jōvā* → *Ioua|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.15** *impōnuntō* → *imponunto|.*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.15** *ūnctus* → *vnctus|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.15** *Jōvā* → *Ioua|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.17** *sanguine* → *sanguine|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; crop shows 4.30 (leaf 159); read on item 149's crop (i faint))
+- **4.17** *intīnctō* → *intincto|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.17** *Jōvā* → *Ioua|*: 1738 leaf 158, read on the page (reader B, 2026-11-16)
+- **4.17** *sīparium* → *siparium|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; read on item 150's crop (leaf 158), line end)
+- **4.18** *partim* → *partim|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.18** *imbuitō* → *imbuito|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.18** *Jōvæ* → *Iouæ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.18** *tabernāculō* → *tabernaculo|.*: 1738 leaf 158, read on the page (reader B, 2026-11-16; crop shows 4.7; read on item 154's crop (leaf 159): ta-bernaculo.)
+- **4.18** *Reliquum* → *Reliquum|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; crop shows 4.7; read on item 154's crop (leaf 159))
+- **4.18** *omnem* → *omnem|*: 1738 leaf 158, read on the page (reader B, 2026-11-16; crop shows 4.7; read on item 154's crop (leaf 159))
+- **4.18** *victimāriæ* → *victimariæ|,*: 1738 leaf 158, read on the page (reader B, 2026-11-16; crop shows 4.7; read on item 159's crop (leaf 159))
+- **4.18** *est* → *est|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.19** *dētractum* → *detractum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.20** *Taurō* → *Tauro|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; Tauro fa-cito)
+- **4.20** *facitō* → *facito|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.20** *taurō* → *tauro|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; u slightly damaged (looks tayro))
+- **4.20** *exōrātō* → *exorato|.*: 1738 leaf 159, read on the page (reader B, 2026-11-16; exora-to.)
+- **4.21** *Taurum* → *Taurum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.21** *eumque* → *eumque|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; e-umque)
+- **4.21** *taurum* → *taurum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.22** *præceptum* → *præceptum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.22** *innōtuerit* → *innotuerit|,*: 1738 leaf 159, read on the page (reader B, 2026-11-16; innotue-rit,)
+- **4.23** *caprīnum* → *caprinum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; crop shows 4.28; read on extra crop leaf 159 line 23)
+- **4.23** *marem* → *marem|,*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159 line 23)
+- **4.24** *mactātō* → *mactato|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.24** *in* → *in|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.24** *victimam* → *victimam|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.25** *Tum* → *Tum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.25** *et* → *et|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.25** *āræ* → *aræ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.25** *victimāriæ* → *victimariæ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.25** *effunditō* → *effundito|.*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.29** *mactētur* → *mactetur|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.29** *eōdem* → *eodem|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.29** *mactābitur* → *mactabitur|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159: ma-ctabitur)
+- **4.29** *victima* → *victima|.*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.30** *victimāriæ* → *victimariæ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.30** *īnficitō* → *inficito|,*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.30** *reliquum* → *reliquum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159: reli-quum)
+- **4.30** *omne* → *omne|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.30** *ad* → *ad|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.30** *āræ* → *aræ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159)
+- **4.30** *effunditō* → *effundito|.*: 1738 leaf 159, read on the page (reader B, 2026-11-16; extra crop leaf 159: effun-dito.)
+- **4.32** *Quod* → *Quod|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; capital Q)
+- **4.32** *ovem* → *ouem|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.33** *immolētur* → *immoletur|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **4.34** *victimāriæ* → *victimariæ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; vi-ctimariæ (comma is after imbuito))
+- **4.35** *Adipem* → *Adipem|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; Adi-pem)
+- **4.35** *dētrahitur* → *detrahitur|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; detrahi-tur)
+- **4.35** *Jōvæ* → *Iouæ|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.1** *jūsjūrandum* → *iusiurandum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; ius-iurandum)
+- **5.1** *culpam* → *culpam|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.2** *immundī* → *immundi|,*: 1738 leaf 159, read on the page (reader B, 2026-11-16; pecoris immundi,vt (no space))
+- **5.2** *ut* → *vt|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.4** *sīve* → *siue|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.4** *quidvīs* → *quiduis|,*: 1738 leaf 159, read on the page (reader B, 2026-11-16; quiduis,in (no space))
+- **5.4** *in* → *in|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.5** *tum* → *tum|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.5** *dēlīquisse* → *deliquisse|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.6** *Jōvam* → *Iouam|*: 1738 leaf 159, read on the page (reader B, 2026-11-16; Io-uam)
+- **5.7** *Quod* → *Quod|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.7** *facultās* → *facultas|*: 1738 leaf 159, read on the page (reader B, 2026-11-16)
+- **5.7** *sacrificium* → *sacrificium|.*: 1738 leaf 160, read on the page (reader B, 2026-11-16; sa-crificium.)
+- **5.8** *cervīcem* → *ceruicem|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.8** *intorqueat* → *intorqueat|,*: 1738 leaf 160, read on the page (reader B, 2026-11-16; intorque-at,)
+- **5.9** *īmam* → *imam|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.9** *āram* → *aram|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.9** *effundat* → *effundat|.*: 1738 leaf 160, read on the page (reader B, 2026-11-16; ef-fundat.)
+- **5.11** *perveniet* → *perueniet|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.11** *piāculum* → *piaculum|*: 1738 leaf 160, read on the page (reader B, 2026-11-16; pia-culum)
+- **5.12** *Eam* → *Eam|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.12** *Jōvæ* → *Iouæ|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.13** *pontificī* → *pontifici|*: 1738 leaf 160, read on the page (reader B, 2026-11-16; ponti-fici)
+- **5.14** *Jōvæ* → *Iouæ|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.14** *per* → *per|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.14** *imprūdentiam* → *imprudentiam|*: 1738 leaf 160, read on the page (reader B, 2026-11-16; im-prudentiam (comma is after defraudatis))
+- **5.17** *Jōvæ* → *Iouæ|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.17** *culpamque* → *culpamque|*: 1738 leaf 160, read on the page (reader B, 2026-11-16; cul-pamque)
+- **5.19** *Hæc* → *Hæc|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **5.19** *commissæ* → *commissæ|*: 1738 leaf 160, read on the page (reader B, 2026-11-16; crop cut at right; read on extra crop leaf 160 line 51)
+- **5.19** *noxæ* → *noxæ|.*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.1** *sīc* → *sic|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.1** *Item* → *Item|*: 1738 leaf 160, the chapter's first line, read on the page: drop capital I + TEm (Claude, 2026-11-16)
+- **6.2** *dēpositum* → *depositum|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.3** *āmissum* → *amissum|*: 1738 leaf 160, read on the page (reader B, 2026-11-16; a-missum)
+- **6.3** *et* → *et|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.9** *hæc* → *hæc|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.9** *solidī* → *solidi|*: 1738 leaf 160, read on the page (reader B, 2026-11-16; so-lidi)
+- **6.9** *noctem* → *noctem|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.10** *līneum* → *lineum|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.10** *indūsium* → *indusium|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.10** *līneaque* → *lineaque|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.10** *redāctum* → *redactum|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.10** *ex* → *ex|*: 1738 leaf 160, read on the page (reader B, 2026-11-16)
+- **6.10** *incēnsiōne* → *incensione|*: 1738 leaf 160, read on the page (reader C, 2026-11-16)
+- **6.10** *victimæ* → *victimæ|*: 1738 leaf 160, read on the page (reader C, 2026-11-16)
+- **6.10** *ex* → *ex|*: 1738 leaf 160, read on the page (reader C, 2026-11-16)
+- **6.12** *inexstīnctus* → *inexstinctus|*: 1738 leaf 160, read on the page (reader C, 2026-11-16; 1: at line end is verse number 12, cut by margin; leaf 160 line 93)
+- **6.15** *omne* → *omne|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 left col first line)
+- **6.15** *tūs* → *tus|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 left col first line)
+- **6.15** *impositum* → *impositum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 left col first line)
+- **6.15** *fertō* → *ferto|,*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 left col first line)
+- **6.15** *eaque* → *eaque|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 left col first line)
+- **6.15** *suāvitātem* → *suauitatem|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.16** *tabernāculī* → *tabernaculi|:*: 1738 leaf 161, read on the page (reader C, 2026-11-16; tabernacu-|li:)
+- **6.17** *sacrōsāncta* → *sacrosancta|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.17** *sīve* → *siue|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.17** *sīve* → *siue|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.18** *vēscuntor* → *vescuntor|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.18** *īnstitūtum* → *institutum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.18** *posterīs* → *posteris|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.18** *Jōvæ* → *Iouæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.18** *dīvīnam* → *diuinam|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.18** *æternum* → *æternum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.18** *cōnsecrātī* → *consecrati|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.19** *Dē* → *De|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.19** *ejus* → *eius|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.19** *fīliōrum* → *filiorum|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.20** *Jōvæ* → *Iouæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.20** *lībābunt* → *libabunt|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.20** *perpetuum* → *perpetuum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.21** *sīc* → *sic|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.21** *et* → *et|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.21** *coctum* → *coctum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.21** *Jōvæ* → *Iouæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.21** *suāvitātem* → *suauitatem|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.22** *ūnctus* → *vnctus|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.22** *æternō* → *æterno|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.22** *Jōvæ* → *Iouæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.22** *tōtum* → *totum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.23** *omne* → *omne|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.23** *estō* → *esto|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
 - **6.24** *ad* → *ad|*: 1738 leaf 161, lines 36-37, read on the page enlarged 2x: "exponito ad | hunc modum , inquit :", no parenthesis (the OCR's ")" is margin noise) (Claude, 2026-11-16)
+- **6.24** *Hæc* → *Hæc|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.25** *hæc* → *hæc|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.25** *piāculī* → *piaculi|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.25** *immolābitur* → *immolabitur|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.25** *victima* → *victima|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16; victima,)
+- **6.25** *Jōvam* → *Iouam|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.25** *sacrōsānctum* → *sacrosanctum|.*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.26** *Pontifex* → *Pontifex|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.26** *quī* → *qui|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.26** *expiābit* → *expiabit|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.26** *eō* → *eo|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.26** *vēscitor* → *vescitor|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.26** *ōrāculāris* → *oracularis|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.27** *cōnsecrātor* → *consecrator|.*: 1738 leaf 161, read on the page (reader C, 2026-11-16; r of consecrator damaged (confec:a-|tor), read as consecrator)
+- **6.27** *Quod* → *Quod|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.27** *sī* → *si|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.27** *locō* → *loco|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.28** *coctum* → *coctum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.28** *fictile* → *fictile|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.28** *æreum* → *æreum|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.28** *dētergitor* → *detergitor|*: 1738 leaf 161, read on the page (reader C, 2026-11-16; lowercase d at line start)
+- **6.29** *Omnēs* → *Omnes|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.29** *vēscuntor* → *vescuntor|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **6.29** *sacrōsānctum* → *sacrosanctum|.*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.1** *autem* → *autem|*: 1738 leaf 161, the chapter's first line, read on the page: "NOxæ autem hæc lex esto: noxa", no comma (Claude, 2026-11-16)
+- **7.1** *hæc* → *hæc|*: 1738 leaf 160, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 right col, Cap. VII first line (seen in item 304 crop))
+- **7.1** *noxa* → *noxa|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.1** *sacrōsāncta* → *sacrosancta|*: 1738 leaf 160, read on the page (reader C, 2026-11-16; crop wrong; seen in item 304 crop, leaf 161 right col)
+- **7.1** *Noxæ* → *Noxæ|*: 1738 leaf 161, the chapter's first line, read on the page: drop capital N + Oxæ (Claude, 2026-11-16)
+- **7.2** *victima* → *victima|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 right col line 63 (sacri-|ficii victima,))
+- **7.3** *Adipem* → *Adipem|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.4** *adipem* → *adipem|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.4** *adhæret* → *adhæret|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.5** *Jōvæ* → *Iouæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.5** *sacrificium* → *sacrificium|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.6** *sacrōsānctum* → *sacrosanctum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.7** *noxæ* → *noxæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.7** *lēgem* → *legem|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.7** *ūnam* → *vnam|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.8** *Et* → *Et|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.8** *sānē* → *sane|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.8** *victimæ* → *victimæ|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.9** *coctum* → *coctum|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.10** *subāctum* → *subactum|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.10** *habentō* → *habento|.*: 1738 leaf 161, read on the page (reader C, 2026-11-16; a faint/broken (h?bento), read habento)
+- **7.11** *Hostiæ* → *Hostiæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.11** *Jōvæ* → *Iouæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.11** *hæc* → *hæc|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.12** *lībātō* → *libato|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.12** *præter* → *præter|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.12** *subāctās* → *subactas|,*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.12** *similam* → *similam|:*: 1738 leaf 161, read on the page (reader C, 2026-11-16; m faint/broken (si?nilam), read similam)
+- **7.13** *præter* → *præter|*: 1738 leaf 161, read on the page (reader C, 2026-11-16; crop wrong; leaf 161 right col line 100 (nem facito, praeter hostiam))
+- **7.14** *Jōvæ* → *Iouæ|:*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.14** *victimæ* → *victimæ|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.14** *salūte* → *salute|*: 1738 leaf 161, read on the page (reader C, 2026-11-16)
+- **7.14** *fundet* → *fundet|,*: 1738 leaf 160, read on the page (reader C, 2026-11-16; fun-|det, across leaf 161/162)
+- **7.15** *Carnem* → *Carnem|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.16** *aut* → *aut|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.16** *voluntārium* → *voluntarium|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.16** *sacrificium* → *sacrificium|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.16** *faciet* → *faciet|,*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.16** *comeduntō* → *comedunto|.*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.17** *superāverit* → *superauerit|,*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.18** *comēsum* → *comesum|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.18** *salūte* → *salute|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; t faint/missing (salu e), read salute)
+- **7.18** *gustāverit* → *gustauerit|,*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.18** *pœnās* → *pœnas|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop wrong; seen in item 343 crop)
+- **7.19** *illā* → *illa|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.19** *mundī* → *mundi|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.19** *vēscuntor* → *vescuntor|.*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.20** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.20** *factæ* → *factæ|,*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.20** *suōrum* → *suorum|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.21** *contāctum* → *contactum|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.21** *fœditās* → *fœditas|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.21** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop shows 7.20; 7.21 in item 352 crop)
+- **7.21** *factæ* → *factæ|,*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop shows 7.20; 7.21 in item 352 crop)
+- **7.21** *is* → *is|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop shows 7.20; 7.21 in item 352 crop)
+- **7.21** *dē* → *de|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop shows 7.20; 7.21 in item 352 crop)
+- **7.21** *suōrum* → *suorum|*: 1738 leaf 162, read on the page (reader C, 2026-11-16; crop shows 7.20; 7.21 in item 352 crop)
+- **7.23** *bovis* → *bouis|,*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.25** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.25** *facta* → *facta|*: 1738 leaf 162, read on the page (reader C, 2026-11-16)
+- **7.25** *suōrum* → *suorum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
 - **7.28** *inquit* → *inquit|)*: 1738 leaf 162, line 47, read on the page enlarged 6x: "hunc ( inquit )"; the n's right stem is not inked (the OCR's irquit), read as a worn n (Claude, 2026-11-16)
+- **7.28** *modum* → *modum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.29** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.29** *obmovēbit* → *obmouebit|,*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.29** *hostiā* → *hostia|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.29** *suum* → *suum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.29** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.30** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.30** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.31** *ārā* → *ara|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.32** *armum* → *armum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.33** *quem* → *quem|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.33** *armum* → *armum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.33** *adipem* → *adipem|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.33** *lībābit* → *libabit|,*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.34** *porrectītium* → *porrectitium|*: 1738 leaf 162, read on the page (reader D, 2026-11-16; porrecti-|um across lines; leaf 162 line 62-63)
+- **7.34** *quæ* → *quæ|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.34** *Aharōnī* → *Aharoni|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.34** *et* → *et|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.34** *ejus* → *eius|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.34** *fīliīs* → *filiis|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.34** *æternō* → *æterno|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.34** *īnstitūtō* → *instituto|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.35** *quidem* → *quidem|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.35** *est* → *est|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.35** *ūnctiō* → *vnctio|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.35** *fīliōrum* → *filiorum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.35** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.35** *Jōvæ* → *Iouæ|,*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.36** *quem* → *quem|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.36** *assignāvit* → *adsignauit|*: 1738 leaf 162, read on the page (reader D, 2026-11-16; printed adſignauit)
+- **7.38** *trādidit* → *tradidit|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.38** *Jōva* → *Ioua|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.38** *Mōsī* → *Mosi|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.38** *monte* → *monte|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.38** *tum* → *tum|,*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.38** *præcepta* → *præcepta|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.38** *mūneribus* → *muneribus|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **7.38** *Jōvæ* → *Iouæ|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.2** *ūnctōriō* → *vnctorio|,*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.7** *tum* → *tum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.7** *accommodāvit* → *accommodauit|,*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.7** *cīnctū* → *cinctu|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.7** *textūrā* → *textura|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.7** *illā* → *illa|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.8** *Tum* → *Tum|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.8** *et* → *et|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.9** *capitī* → *capiti|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.9** *īnfulā* → *infula|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.9** *secundum* → *secundum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.9** *corōnāmentī* → *coronamenti|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.9** *lāminam* → *laminam|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *ūnctōriō* → *vnctorio|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *tabernāculum* → *tabernaculum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *et* → *et|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *omnia* → *omnia|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *quæ* → *quæ|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *in* → *in|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *eō* → *eo|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *tabernāculō* → *tabernaculo|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.10** *atque* → *atque|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.11** *Tum* → *Tum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.11** *effūdit* → *effudit|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.11** *suā* → *sua|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.11** *cōnsecranda* → *consecranda|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.12** *ūnctiōnis* → *vnctionis|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.13** *cīnctibus* → *cinctibus|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.13** *mandātum* → *mandatum|.*: 1738 leaf 163, read on the page (reader D, 2026-11-16; printed ma-|datum? n faint/broken in gap at line start, leaf 163 line 22; read as mandatum)
 - **8.14** *eum* → *eum|,*: 1738 leaf 163, col. 0, line 24, read on the page enlarged 3x: "admouit : eum, quum eius" (Claude, 2026-11-16)
 - ⚑ **8.14** *cum* → *quum|*: 1738 leaf 163, col. 0, line 24, read on the page enlarged 3x: "admouit : eum, quum eius" (the OCR's quuni), no stop after it (Claude, 2026-11-16)
+- **8.14** *piāculārem* → *piacularem|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *et* → *et|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *eō* → *eo|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *āræ* → *aræ|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *eam* → *eam|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *reliquum* → *reliquum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *āræ* → *aræ|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *effūdit* → *effudit|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.15** *eamque* → *eamque|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.16** *lactēs* → *lactes|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.17** *præcēperat* → *præceperat|.*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.18** *sacrificium* → *sacrificium|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.18** *imposuērunt* → *imposuerunt|*: 1738 leaf 163, read on the page (reader D, 2026-11-16; u slightly broken)
+- **8.19** *mactāvit* → *mactauit|:*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.20** *frustātim* → *frustatim|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.20** *lacerāvit* → *lacerauit|:*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.20** *sēvum* → *seuum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.21** *intestīna* → *intestina|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.21** *Jōvæ* → *Iouæ|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.21** *Jōva* → *Ioua|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.21** *Mōsī* → *Mosi|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.21** *præcēpit* → *præcepit|.*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.22** *imposuērunt* → *imposuerunt|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.23** *eum* → *eum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.23** *tum* → *tum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.23** *tum* → *tum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.23** *dextrum* → *dextrum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.23** *intīnxit* → *intinxit|.*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.24** *Tum* → *Tum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.24** *Aharōnis* → *Aharonis|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.25** *caudam* → *caudam|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.25** *tōtōsque* → *totosque|*: 1738 leaf 164, read on the page (reader D, 2026-11-16)
+- **8.25** *lactēs* → *lactes|,*: 1738 leaf 163, read on the page (reader D, 2026-11-16; stain across; lactes, legible)
+- **8.25** *et* → *et|*: 1738 leaf 163, read on the page (reader D, 2026-11-16; under stain; e faint)
+- **8.25** *fibram* → *fibram|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.25** *ambōs* → *ambos|*: 1738 leaf 163, read on the page (reader D, 2026-11-16; am..s visible, bo under stain)
+- **8.25** *dextrum* → *dextrum|:*: 1738 leaf 163, read on the page (reader D, 2026-11-16; dex under stain; trum and colon visible)
 - **8.26** *appositōrum* → *adpositorum*: 1738 leaf 163, line 68, read on the page enlarged 3x: adpoſitorum (the OCR's adpodtorum) (Claude, 2026-11-16)
-- **9.4** *appāritūrum* → *adpariturum*: 1738 leaf 164, lines 31-32, read on the page enlarged 3x: adparitu-|rum (Claude, 2026-11-16)
+- **8.26** *tum* → *tum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.26** *canistrō* → *canistro|*: 1738 leaf 162, read on the page (reader D, 2026-11-16)
+- **8.26** *pānum* → *panum|*: 1738 leaf 163, read on the page (reader D, 2026-11-16; pan visible, um under stain)
+- **8.26** *sine* → *sine|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.26** *placentam* → *placentam|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.26** *cōnfectī* → *confecti|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.26** *et* → *et|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.26** *armō* → *armo|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.26** *dextrō* → *dextro|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.27** *Aharōnis* → *Aharonis|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.27** *et* → *et|*: 1738 leaf 163, read on the page (reader D, 2026-11-16; et eius narrowly spaced, not joined)
+- **8.27** *ejus* → *eius|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.28** *Hæc* → *Hæc|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.28** *suāvitātem* → *suauitatem|:*: 1738 leaf 163, read on the page (reader D, 2026-11-16; second u slightly broken)
+- **8.28** *hæc* → *hæc|*: 1738 leaf 163, read on the page (reader D, 2026-11-16)
+- **8.28** *Jōvæ* → *Iouæ|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.29** *quam* → *quam|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.29** *præcēperat* → *præceperat|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.29** *Jōva* → *Ioua|.*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.30** *ūnctōriō* → *vnctorio|,*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.30** *eōque* → *eoque|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.30** *cōnspersit* → *conspersit|,*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.30** *Tum* → *Tum|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- ⚑ **8.30** *iīs* → *eis|*: 1738 leaf 163, read on the page (reader E, 2026-11-16; printed with grave accent on e (èis), dropped)
+- **8.30** *ad* → *ad|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.30** *hunc* → *hunc|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.30** *modum* → *modum|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.30** *præcēpit* → *præcepit|:*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.31** *portam* → *portam|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.31** *ōrāculāris* → *oracularis|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.31** *eam* → *eam|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.31** *initiātōriō* → *initiatorio|,*: 1738 leaf 164, read on the page (reader E, 2026-11-16; on item 498 crop (leaf 163 line 94))
+- **8.31** *quemadmodum* → *quemadmodum|*: 1738 leaf 163, read on the page (reader E, 2026-11-16; broken quemad-modum)
+- **8.31** *præceptum* → *præceptum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16; on item 498 crop (leaf 163 line 95))
+- **8.32** *Reliquiās* → *Reliquias|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.32** *pānis* → *panis|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *Nēve* → *Neue|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *introitū* → *introitu|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *ōrāculāris* → *oracularis|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *dōnec* → *donec|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *perāctum* → *peractum|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *vestræ* → *vestræ|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *initiātiōnis* → *initiationis|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.33** *spatium* → *spatium|:*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.34** *jussit* → *iussit|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.35** *Manēte* → *Manete|*: 1738 leaf 163, read on the page (reader E, 2026-11-16)
+- **8.35** *ōrāculī* → *oraculi|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **8.35** *noctūque* → *noctuque|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **8.35** *mandāta* → *mandata|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **8.35** *plectāminī* → *plectamini|:*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **8.36** *Mōsem* → *Mosem|.*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.1** *diēs* → *dies|*: 1738 leaf 164, the chapter's first line, read on the page: "VBi dies octaua venit, conuocauit", no comma (Claude, 2026-11-16)
+- **9.1** *octāva* → *octaua|*: 1738 leaf 162, read on the page (reader E, 2026-11-16; on item 518 crop (leaf 164 line 17))
+- **9.1** *convocāvit* → *conuocauit|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.1** *Isrāēlītās* → *Israelitas|,*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.1** *Ubi* → *Vbi|*: 1738 leaf 164, the chapter's first line, read on the page: drop capital V + Bi (Claude, 2026-11-16)
+- **9.2** *bove* → *boue|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.3** *utī* → *vti|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.3** *sūmerent* → *sumerent|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.3** *caprum* → *caprum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.4** *appāritūrum* → *adpariturum|.*: 1738 leaf 164, lines 31-32, read on the page enlarged 3x: adparitu-|rum (Claude, 2026-11-16)
+- **9.4** *sacrificārent* → *sacrificarent|,*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.5** *Tum* → *Tum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.5** *cōnstitit* → *constitit|.*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.6** *Tum* → *Tum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.6** *esse* → *esse|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.8** *Tum* → *Tum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.8** *suī* → *sui|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.8** *piāculārem* → *piacularem|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.9** *fīliīs* → *filiis|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.9** *āræ* → *aræ|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.9** *effūdit* → *effudit|.*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.12** *Tum* → *Tum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.12** *sanguinemque* → *sanguinemque|*: 1738 leaf 164, read on the page (reader E, 2026-11-16; unsure: the m is damaged (first stem displaced upward), reads like sanguineinque; OCR fangninetaque)
+- **9.13** *iīsdem* → *iisdem|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.13** *frustīs* → *frustis|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.14** *Tum* → *Tum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.14** *intestīna* → *intestina|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.14** *super* → *super|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.15** *Deinde* → *Deinde|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.15** *populī* → *populi|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.16** *victimam* → *victimam|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.17** *fertum* → *fertum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.17** *præter* → *præter|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.18** *Tum* → *Tum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.19** *Adipem* → *Adipem|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.20** *pectoribus* → *pectoribus|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.21** *pectora* → *pectora|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.22** *populum* → *populum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.23** *Tum* → *Tum|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.24** *cōnspectū* → *conspectu|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.24** *ignis* → *ignis|,*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
+- **9.24** *lætō* → *læto|*: 1738 leaf 164, read on the page (reader E, 2026-11-16)
 - ✱ **10.1** *Jōvā* → *Ioue*: 1738 leaf 165, col. 0, lines 4-5 (co-|ram Ioue), read on the page and again enlarged 6x 2026-11-16: 1738's misprint, kept in the printed text (decision 58); the edited text reads Jōvā with 1750 (Claude, 2026-11-15)
+- **10.1** *suffīmine* → *suffimine|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.1** *injussū* → *iniussu|.*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.1** *Tum* → *Tum|*: 1738 leaf 164, the chapter's first line, read on the page: drop capital T + Vm (Claude, 2026-11-16)
+- **10.2** *profectus* → *profectus|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.2** *cōnspectū* → *conspectu|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.2** *cōnspectū* → *conspectu|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
 - **10.3** *cum* → *quum*: 1738 leaf 165, line 10, read on the page enlarged 3x: quum (the OCR's qnum) (Claude, 2026-11-16)
+- **10.3** *prædīxerat* → *prædixerat|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.3** *Jōva* → *Ioua|,*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.3** *effectūrum* → *effecturum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.3** *cōnspectū* → *conspectu|,*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.3** *obmūtuit* → *obmutuit|.*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
 - ⚑ **10.4** *Elsāphānem* → *Elisaphanem*: 1738 leaf 165, col. 0, line 16, Eliſaphanem, read enlarged 2026-11-16; the edited text has the settled Elsāphān (decision 46) (Claude, 2026-11-16)
+- **10.4** *Tum* → *Tum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.4** *Misaēlem* → *Misaelem|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.4** *et* → *et|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.4** *fīliōs* → *filios|,*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.4** *cōnspectū* → *conspectu|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.4** *sānctuāriī* → *sanctuarii|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.4** *auferrent* → *auferrent|:*: 1738 leaf 165, read on the page (reader E, 2026-11-16; lowercase a on the page)
+- **10.6** *pœnās* → *pœnas|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.6** *dētis* → *detis|,*: 1738 leaf 165, read on the page (reader E, 2026-11-16; unsure: the t is broken/barely inked, image shows de· is)
+- **10.6** *Jōvā* → *Ioua|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.6** *ustulātōs* → *vstulatos|.*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.7** *Jōvæ* → *Iouæ|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.8** *præscrīptum* → *præscriptum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16; leaf 165 line 37 (Hæc illi ad præscriptum Mosis fecerunt))
+- **10.9** *Jōva* → *Ioua|*: 1738 leaf 165, read on the page (reader E, 2026-11-16; leaf 165 line 38)
+- **10.9** *multārentur* → *multarentur|,*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.9** *utque* → *vtque|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.9** *id* → *id|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.9** *æternum* → *æternum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.9** *īnstitūtum* → *institutum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.9** *trāderētur* → *traderetur|:*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.10** *tum* → *tum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.11** *tum* → *tum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.11** *Jōva* → *Ioua|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.12** *Tum* → *Tum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.12** *fīliōs* → *filios|,*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.12** *Jōvæ* → *Iouæ|*: 1738 leaf 165, read on the page (reader E, 2026-11-16; leaf 165 col 1 foot (ferti ex Iouæ re diuina))
+- **10.13** *vōbīs* → *vobis|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.13** *præceptum* → *præceptum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.14** *fīliæ* → *filiæ|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.15** *super* → *super|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.15** *adipum* → *adipum|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.15** *Jōva* → *Ioua|.*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.16** *Deinde* → *Deinde|*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.17** *sacrōsānctum* → *sacrosanctum|,*: 1738 leaf 165, read on the page (reader E, 2026-11-16)
+- **10.17** *Jōvæ* → *Iouæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; leaf 165 line 82 (crop showed wrong lines))
+- **10.17** *cōnspectū* → *conspectu|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; leaf 165 line 82)
+- **10.18** *sānctuārium* → *sanctuarium|,*: 1738 leaf 165, read on the page (reader F, 2026-11-16)
+- **10.18** *sānctuāriō* → *sanctuario|*: 1738 leaf 165, read on the page (reader F, 2026-11-16)
+- **10.19** *solidum* → *solidum|*: 1738 leaf 165, read on the page (reader F, 2026-11-16)
+- **10.19** *obmōvērunt* → *obmouerunt|,*: 1738 leaf 165, read on the page (reader F, 2026-11-16)
+- **10.19** *tamen* → *tamen|*: 1738 leaf 165, read on the page (reader F, 2026-11-16; hyphenated ta-men)
+- **10.19** *hæc* → *hæc|*: 1738 leaf 165, read on the page (reader F, 2026-11-16)
+- **11.1** *Jōva* → *Ioua|*: 1738 leaf 165, read on the page (reader F, 2026-11-16)
 - **11.2** *Alloquiminī* → *adloquimini*: 1738 leaf 165, lines 99-100, read on the page enlarged 3x: "verba fecit : adlo-|quimini", lower case after the colon (Claude, 2026-11-16)
+- **11.3** *quæ* → *quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.3** *quidem* → *quidem|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.3** *quæcumque* → *quæcumque|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
 - **11.4** *cum* → *quum*: 1738 leaf 166, line 10, read on the page enlarged 3x: "nam quum" (the OCR's namquum) (Claude, 2026-11-16)
-- **11.29** *mustēlam* → *mustelam*: 1738 leaf 166, col. 0, line 79, must?-|lam: the fifth letter is damaged (enlarged: a lower curve and a speck, no closed ring as an o would show; it fits a broken e); 1554 prints mustelam (canvas 70), 1750's mustolam a misreading (Claude, 2026-11-16)
+- **11.4** *quædam* → *quædam|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.4** *quæ* → *quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; seen in item 613 crop)
+- **11.4** *nam* → *nam|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.4** *hic* → *hic|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.4** *estō* → *esto|.*: 1738 leaf 166, read on the page (reader F, 2026-11-16; s worn, looks like l)
+- **11.5** *cunīculus* → *cuniculus|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.5** *hic* → *hic|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.6** *Et* → *Et|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; capital E)
+- **11.6** *hic* → *hic|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; seen in item 646 crop)
+- **11.7** *et* → *et|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.7** *ungulam* → *vngulam|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; vngu-lam)
+- **11.7** *hic* → *hic|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.8** *immunda* → *immunda|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; im-munda)
+- **11.9** *hæc* → *hæc|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.9** *Quæcumque* → *Quæcumque|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; Quæ-cumque)
+- **11.9** *aquātilium* → *aquatilium|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; seen in item 627 crop)
+- **11.9** *sīve* → *siue|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; footnote mark after it ignored)
+- **11.9** *sint* → *sint|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.10** *Quæ* → *Quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.10** *autem* → *autem|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.10** *quæ* → *quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.10** *quæ* → *quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.10** *squāmās* → *squamas|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16; footnote mark ignored)
+- **11.13** *hæc* → *hæc|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.13** *haliæetum* → *haliæetum|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.14** *mīlvum* → *miluum|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.14** *et* → *et|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.15** *genera* → *genera|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16; ge-nera)
+- **11.16** *strūthiōnem* → *struthionem|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.16** *larum* → *larum|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16; la-rum)
+- **11.17** *cuculum* → *cuculum|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16; cucu-lum)
+- **11.18** *noctuam* → *noctuam|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16; no-ctuam)
+- **11.20** *volucria* → *volucria|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.21** *moventium* → *mouentium|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; line 11.21 end of left column)
+- **11.21** *quæ* → *quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.21** *quæ* → *quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.21** *hæc* → *hæc|:*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.22** *cicādārum* → *cicadarum|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.23** *volucria* → *volucria|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.24** *pollūtus* → *pollutus|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; t damaged, looks like r (pollurus); read as worn t)
+- **11.25** *Quisquis* → *Quisquis|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; Quis-quis)
+- **11.25** *item* → *item|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.25** *vestīmenta* → *vestimenta|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.25** *pollūtus* → *pollutus|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; seen in item 655/658 crop, leaf 166 line 66)
+- **11.25** *estō* → *esto|.*: 1738 leaf 166, read on the page (reader F, 2026-11-16; seen in item 655 crop)
+- **11.26** *Ac* → *Ac|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.26** *quæcumque* → *quæcumque|*: 1738 leaf 167, read on the page (reader F, 2026-11-16; leaf 166 line 66 (seen in item 658 crop))
+- **11.26** *bēstiæ* → *bestiæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; be-stiæ)
+- **11.26** *multifidōs* → *multifidos|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.26** *bisulcæ* → *bisulcæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.26** *immundæ* → *immundæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.28** *vesperum* → *vesperum|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.28** *hæc* → *hæc|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.29** *mustēlam* → *mustelam|,*: 1738 leaf 166, col. 0, line 79, must?-|lam: the fifth letter is damaged (enlarged: a lower curve and a speck, no closed ring as an o would show; it fits a broken e); 1554 prints mustelam (canvas 70), 1750's mustolam a misreading (Claude, 2026-11-16)
+- **11.29** *hæc* → *hæc|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.29** *quæ* → *quæ|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; seen in item 666 crop, line 11.29)
+- **11.29** *mūrem* → *murem|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.30** *chamæleontem* → *chamæleontem|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.31** *Hæc* → *Hæc|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.31** *hæc* → *hæc|*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
+- **11.33** *inciderit* → *inciderit|,*: 1738 leaf 166, read on the page (reader F, 2026-11-16)
 - **11.35** *habenda* → *habenda|.*: 1738 leaf 167, line 8, read on the page enlarged 2x: "habenda. (nam", the parenthesis opening 11:36 (Claude, 2026-11-16)
 - **11.35** *dīruuntor* → *diruuntor|:*: 1738 leaf 167, lines 6-7, read on the page enlarged 2x: "di-|ruuntor : nam" (the OCR's ruuntorr) (Claude, 2026-11-16)
+- **11.35** *quamcumque* → *quamcumque|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.35** *inciderit* → *inciderit|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.35** *aliquid* → *aliquid|*: 1738 leaf 167, read on the page (reader F, 2026-11-16; ali-quid)
 - ⚑ **11.36** *Nam* → *(nam*: 1738 leaf 167, line 8, read on the page enlarged 2x: "(nam fontes … munda ſunt.)", lower case inside the parenthesis (Claude, 2026-11-16)
+- **11.36** *puteī* → *putei|,*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.36** *immundus* → *immundus|*: 1738 leaf 166, read on the page (reader F, 2026-11-16; leaf 167 line 11-12, im-mundus)
 - **11.37** *eārum* → *earum|,*: 1738 leaf 167, lines 14-15, read on the page enlarged 2x: "earum , | quæ ſeri ſolent", no parenthesis (the OCR's "(" is margin noise) (Claude, 2026-11-16)
+- **11.38** *dēciderit* → *deciderit|*: 1738 leaf 167, read on the page (reader F, 2026-11-16; leaf 167 line 13; no comma)
+- **11.39** *quī* → *qui|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.39** *ejus* → *eius|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.39** *cadāver* → *cadauer|*: 1738 leaf 167, read on the page (reader F, 2026-11-16; ca-dauer)
+- **11.42** *humī* → *humi|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.44** *sānctus* → *sanctus|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.44** *vōs* → *vos|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.44** *quoque* → *quoque|*: 1738 leaf 167, read on the page (reader F, 2026-11-16; quo-que (item 684 crop))
+- **11.44** *sānctitātī* → *sanctitati|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.44** *sānctīque* → *sanctique|*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
+- **11.46** *rēpentium* → *repentium|,*: 1738 leaf 167, read on the page (reader F, 2026-11-16)
 
 ## Spellings the approved rules normalize (47)
 
@@ -53,230 +746,11 @@ Where the OCR could not decide. Several differ from the settled text by more tha
 
 *adēmptam* → *ademtam*; *dēmptam* → *demtam*; *dēsūmpta* → *desumta*; *exēmptam* → *exemtam* ×2; *profectus* → *profecttus*; *rescierit* → *resciuerit* ×2; *sūmpsit* → *sumsit* ×6; *sūmpsitque* → *sumsitque*; *sūmpsērunt* → *sumserunt*; *sūmptō* → *sumto*
 
-## Not read in the OCR (206)
-
-Spelling as settled, in the printer's conventions (u/v, i/j); not checked on the page.
-
-| Verse | Settled | Printed | OCR |
-|---|---|---|---|
-| Lev.1.4 | victimæque | victimæque | — |
-| Lev.1.9 | laventur | lauentur | — |
-| Lev.1.9 | cremandæ | cremandæ | crehiandae |
-| Lev.1.9 | victimæ | victimæ | vidimae |
-| Lev.1.11 | circumsperguntō | circumspergunto | — |
-| Lev.1.15 | extorquētō | extorqueto | extorqucto |
-| Lev.2.1 | offeret | offeret | ofteret |
-| Lev.2.2 | dēlectētur | delectetur | deledetur |
-| Lev.2.4 | subāctæ | subactæ | fubadae |
-| Lev.2.5 | subāctum | subactum | fubadum |
-| Lev.2.8 | offertō | offerto | oiTerto |
-| Lev.2.9 | monumentum | monumentum | — |
-| Lev.2.10 | sacrōsānctæ | sacrosanctæ | — |
-| Lev.2.11 | lībābitis | libabitis | — |
-| Lev.2.12 | Prīmigeniōrum | Primigeniorum | — |
-| Lev.2.14 | frūctū | fructu | frudu |
-| Lev.2.16 | monumentum | monumentum | — |
-| Lev.2.16 | illā | illa | ilia |
-| Lev.3.1 | cōnspectum | conspectum | confpedum |
-| Lev.3.3 | lactēs | lactes | lades |
-| Lev.3.3 | adhærente | adhærente | adhxrente |
-| Lev.3.4 | impositam | impositam | — |
-| Lev.3.6 | fēminamve | feminamue | feminnue |
-| Lev.3.9 | revulsam | reuulsam | reuuilam |
-| Lev.3.9 | adhærente | adhærente | — |
-| Lev.3.12 | caprīnum | caprinum | — |
-| Lev.3.14 | lactēs | lactes | lacles |
-| Lev.3.17 | vēscāminī | vescamini | — |
-| Lev.4.1 | ēloquere | eloquere | — |
-| Lev.4.2 | imprūdentiam | imprudentiam | — |
-| Lev.4.4 | Illum | Illum | — |
-| Lev.4.5 | ūnctus | vnctus | — |
-| Lev.4.6 | intīnctō | intincto | — |
-| Lev.4.6 | sānctuāriī | sanctuarii | fandhiarii |
-| Lev.4.7 | victimāriæ | victimariæ | — |
-| Lev.4.8 | dētrahitō | detrahito | — |
-| Lev.4.8 | lactēs | lactes | laeles |
-| Lev.4.8 | adhærente | adhærente | adhxrente |
-| Lev.4.12 | effertō | efferto | efterto |
-| Lev.4.13 | īnsciēnsque | insciensque | infeiensque |
-| Lev.4.15 | impōnuntō | imponunto | imponumo |
-| Lev.4.15 | ūnctus | vnctus | vnelus |
-| Lev.4.17 | intīnctō | intincto | — |
-| Lev.4.18 | victimāriæ | victimariæ | — |
-| Lev.4.19 | dētractum | detractum | detraeuim |
-| Lev.4.22 | innōtuerit | innotuerit | — |
-| Lev.4.23 | caprīnum | caprinum | l |
-| Lev.4.25 | victimāriæ | victimariæ | — |
-| Lev.4.29 | mactētur | mactetur | madtetur |
-| Lev.4.29 | mactābitur | mactabitur | maclabitur |
-| Lev.4.30 | victimāriæ | victimariæ | victimarit |
-| Lev.4.30 | īnficitō | inficito | — |
-| Lev.4.33 | immolētur | immoletur | immotetur |
-| Lev.4.34 | victimāriæ | victimariæ | — |
-| Lev.4.35 | dētrahitur | detrahitur | detraintur |
-| Lev.5.1 | jūsjūrandum | iusiurandum | — |
-| Lev.5.4 | quidvīs | quiduis | — |
-| Lev.5.5 | dēlīquisse | deliquisse | deliquisle |
-| Lev.5.8 | cervīcem | ceruicem | — |
-| Lev.5.8 | intorqueat | intorqueat | — |
-| Lev.5.9 | īmam | imam | — |
-| Lev.5.9 | effundat | effundat | — |
-| Lev.5.11 | perveniet | perueniet | perueuiet |
-| Lev.5.14 | imprūdentiam | imprudentiam | — |
-| Lev.5.17 | culpamque | culpamque | — |
-| Lev.5.19 | commissæ | commissæ | comrnisfai |
-| Lev.5.19 | noxæ | noxæ | — |
-| Lev.6.2 | dēpositum | depositum | depolitum |
-| Lev.6.3 | āmissum | amissum | a |
-| Lev.6.9 | noctem | noctem | noftem |
-| Lev.6.10 | līneum | lineum | — |
-| Lev.6.10 | indūsium | indusium | — |
-| Lev.6.10 | līneaque | lineaque | — |
-| Lev.6.10 | redāctum | redactum | — |
-| Lev.6.10 | incēnsiōne | incensione | — |
-| Lev.6.10 | victimæ | victimæ | — |
-| Lev.6.12 | inexstīnctus | inexstinctus | — |
-| Lev.6.17 | sacrōsāncta | sacrosancta | — |
-| Lev.6.18 | cōnsecrātī | consecrati | confccrati |
-| Lev.6.20 | lībābunt | libabunt | — |
-| Lev.6.21 | coctum | coctum | — |
-| Lev.6.22 | ūnctus | vnctus | vnftus |
-| Lev.6.22 | æternō | æterno | sterno |
-| Lev.6.25 | immolābitur | immolabitur | — |
-| Lev.6.26 | expiābit | expiabit | — |
-| Lev.6.27 | cōnsecrātor | consecrator | — |
-| Lev.6.28 | coctum | coctum | coftum |
-| Lev.6.28 | æreum | æreum | sreum |
-| Lev.6.28 | dētergitor | Detergitor | IjMetergitor |
-| Lev.7.1 | Noxæ | Noxæ | — |
-| Lev.7.1 | sacrōsāncta | sacrosancta | — |
-| Lev.7.4 | adhæret | adhæret | adhsret |
-| Lev.7.7 | noxæ | noxæ | noxs |
-| Lev.7.8 | victimæ | victimæ | victims |
-| Lev.7.9 | coctum | coctum | codhun |
-| Lev.7.10 | subāctum | subactum | — |
-| Lev.7.12 | subāctās | subactas | fubaclas |
-| Lev.7.12 | similam | similam | — |
-| Lev.7.14 | victimæ | victimæ | victims |
-| Lev.7.14 | fundet | fundet | — |
-| Lev.7.17 | superāverit | superauerit | — |
-| Lev.7.18 | comēsum | comesum | comcfum |
-| Lev.7.18 | pœnās | pœnas | pcenas |
-| Lev.7.19 | illā | illa | ilia |
-| Lev.7.19 | mundī | mundi | — |
-| Lev.7.20 | factæ | factæ | — |
-| Lev.7.21 | contāctum | contactum | contaclum |
-| Lev.7.21 | fœditās | fœditas | ftxditas |
-| Lev.7.21 | factæ | factæ | fa |
-| Lev.7.23 | bovis | bouis | bonis |
-| Lev.7.34 | æternō | æterno | — |
-| Lev.7.35 | ūnctiō | vnctio | vnclio |
-| Lev.7.38 | mūneribus | muneribus | — |
-| Lev.8.2 | ūnctōriō | vnctorio | — |
-| Lev.8.7 | accommodāvit | accommodauit | accomraodauit |
-| Lev.8.7 | cīnctū | cinctu | cindhi |
-| Lev.8.7 | illā | illa | ilia |
-| Lev.8.9 | īnfulā | infula | inftila |
-| Lev.8.9 | corōnāmentī | coronamenti | icoronamenti |
-| Lev.8.10 | ūnctōriō | vnctorio | — |
-| Lev.8.11 | effūdit | effudit | eftudit |
-| Lev.8.11 | cōnsecranda | consecranda | confeeranda |
-| Lev.8.12 | ūnctiōnis | vnctionis | — |
-| Lev.8.13 | cīnctibus | cinctibus | inctibus |
-| Lev.8.15 | effūdit | effudit | eftudit |
-| Lev.8.16 | lactēs | lactes | — |
-| Lev.8.17 | præcēperat | præceperat | praceperat |
-| Lev.8.18 | imposuērunt | imposuerunt | impofnerunt |
-| Lev.8.19 | mactāvit | mactauit | — |
-| Lev.8.20 | frustātim | frustatim | fruftattm |
-| Lev.8.20 | lacerāvit | lacerauit | iacerauit |
-| Lev.8.20 | sēvum | seuum | — |
-| Lev.8.21 | præcēpit | præcepit | — |
-| Lev.8.22 | imposuērunt | imposuerunt | impofnerunt |
-| Lev.8.25 | tōtōsque | totosque | — |
-| Lev.8.25 | lactēs | lactes | — |
-| Lev.8.26 | cōnfectī | confecti | confectt |
-| Lev.8.26 | armō | armo | — |
-| Lev.8.26 | dextrō | dextro | — |
-| Lev.8.29 | præcēperat | præceperat | praceperat |
-| Lev.8.30 | ūnctōriō | vnctorio | — |
-| Lev.8.30 | cōnspersit | conspersit | confperlit |
-| Lev.8.30 | præcēpit | præcepit | — |
-| Lev.8.33 | perāctum | peractum | peraclum |
-| Lev.8.33 | initiātiōnis | initiationis | initiarionis |
-| Lev.8.35 | Manēte | Manete | — |
-| Lev.8.35 | noctūque | noctuque | nodtuque |
-| Lev.8.35 | plectāminī | plectamini | pleclamini |
-| Lev.9.1 | octāva | octaua | — |
-| Lev.9.1 | convocāvit | conuocauit | onuocauit |
-| Lev.9.3 | sūmerent | sumerent | — |
-| Lev.9.4 | sacrificārent | sacrificarent | facrificarcnt |
-| Lev.9.9 | effūdit | effudit | eftiidit |
-| Lev.9.12 | sanguinemque | sanguinemque | fangninetaque |
-| Lev.9.20 | pectoribus | pectoribus | — |
-| Lev.9.21 | pectora | pectora | peetora |
-| Lev.9.24 | lætō | læto | lxto |
-| Lev.10.1 | suffīmine | suffimine | — |
-| Lev.10.1 | injussū | iniussu | inaiusfu |
-| Lev.10.2 | profectus | profectus | profechis |
-| Lev.10.3 | effectūrum | effecturum | — |
-| Lev.10.3 | obmūtuit | obmutuit | — |
-| Lev.10.4 | Misaēlem | Misaelem | — |
-| Lev.10.4 | sānctuāriī | sanctuarii | landruarii |
-| Lev.10.4 | auferrent | Auferrent | Sauferrent |
-| Lev.10.6 | pœnās | pœnas | — |
-| Lev.10.6 | dētis | detis | — |
-| Lev.10.6 | ustulātōs | vstulatos | — |
-| Lev.10.8 | præscrīptum | præscriptum | praefcriptuni |
-| Lev.10.9 | multārentur | multarentur | — |
-| Lev.10.9 | trāderētur | traderetur | — |
-| Lev.10.15 | adipum | adipum | adipuin |
-| Lev.10.18 | sānctuārium | sanctuarium | — |
-| Lev.10.19 | obmōvērunt | obmouerunt | obmouerimt |
-| Lev.11.3 | quæcumque | quæcumque | quxcumque |
-| Lev.11.4 | quædam | quædam | quxdam |
-| Lev.11.4 | hic | hic | hie |
-| Lev.11.5 | cunīculus | cuniculus | cunictilus |
-| Lev.11.5 | hic | hic | hie |
-| Lev.11.6 | hic | hic | hie |
-| Lev.11.7 | ungulam | vngulam | — |
-| Lev.11.7 | hic | hic | hie |
-| Lev.11.9 | Quæcumque | Quæcumque | Quxcunique |
-| Lev.11.9 | aquātilium | aquatilium | aquarilium |
-| Lev.11.10 | squāmās | squamas | fquamaJ |
-| Lev.11.13 | haliæetum | haliæetum | I |
-| Lev.11.14 | mīlvum | miluum | halixetum |
-| Lev.11.16 | strūthiōnem | struthionem | — |
-| Lev.11.16 | larum | larum | — |
-| Lev.11.17 | cuculum | cuculum | — |
-| Lev.11.18 | noctuam | noctuam | — |
-| Lev.11.20 | volucria | volucria | volueria |
-| Lev.11.21 | moventium | mouentium | uiouentium |
-| Lev.11.22 | cicādārum | cicadarum | cicadarnm |
-| Lev.11.23 | volucria | volucria | volueria |
-| Lev.11.26 | quæcumque | quæcumque | — |
-| Lev.11.26 | multifidōs | multifidos | multiridos |
-| Lev.11.26 | bisulcæ | bisulcæ | bifulex |
-| Lev.11.26 | immundæ | immundæ | immundx |
-| Lev.11.29 | mūrem | murem | — |
-| Lev.11.30 | chamæleontem | chamæleontem | chamxleontem |
-| Lev.11.33 | inciderit | inciderit | incident |
-| Lev.11.35 | inciderit | inciderit | — |
-| Lev.11.44 | sānctitātī | sanctitati | — |
-| Lev.11.44 | sānctīque | sanctique | fandtique |
-| Lev.11.46 | rēpentium | repentium | repentiuin |
-
-## Punctuation not from the OCR (40)
-
-After a word the OCR missed, the settled text's mark stands; a stop the OCR had before a lower-case word was dropped or corrected (stray). Not checked on the page.
-
-1.11 *circumspergunto.*; 3.5 *deliniatur.*; 3.15 *adoleto,*; 3.17 *vescamini.*; 4.1 *eloquere,*; 4.12 *cremato.*; 4.20 *exorato.*; 4.30 *inficito,*; 5.2 *immundi,*; 5.4 *quiduis,*; 5.19 *noxæ.*; 6.15 *ferto,*; 6.17 *sacrosancta,*; 6.25 *sacrosanctum.*; 6.26 *Pontifex,*; 6.26 *expiabit,*; 6.27 *consecrator.*; 6.28 *æreum,*; 7.10 *habento.*; 7.18 *gustauerit,*; 7.21 *factæ,*; 8.10 *omnia,*; 8.23 *intinxit.*; 8.25 *lactes,*; 8.25 *dextrum:*; 8.28 *suauitatem:*; 8.31 *initiatorio,*; 8.35 *plectamini:*; 8.36 *Mosem.*; 9.4 *adpariturum.*; 9.5 *constitit.*; 10.3 *obmutuit.*; 10.9 *multarentur,*; 10.9 *traderetur:*; 10.15 *Ioua.*; 11.4 *quædam,*; 11.13 *haliæetum,*; 11.15 *genera,*; 11.25 *esto.*; 11.29 *mustelam,*
-
 ## Paragraphs (29 inside the chapters)
 
 1738 runs its verses on and marks a paragraph by indenting its first line. Read from the hOCR (`archive.indents`: a line starting 40–140 px inside the column's margin after a line that ends a sentence; drop capitals, summaries and 1738's footnotes left out) and set before the word that begins the line; a paragraph read on the page is a `¶` row in `data/decisions/Lev.orig.tsv`. Every chapter also begins one. Leaf = archive.org's hOCR page (its image is page n<leaf − 1>).
 
-1.10 *Sin* (leaf 157, line 7); 1.14 *Sin* (leaf 157, line 21); 2.4 *Si* (leaf 157, line 49); 2.5 *Sin* (leaf 157, line 53); 2.7 *Sin* (leaf 157, line 58); 2.11 *Omne* (leaf 157, line 68); 2.13 *Omne* (leaf 157, line 76); 2.14 *Si* (leaf 157, line 80); 3.5 *deliniatur* (leaf 158, line 13); 4.13 *Sin* (leaf 158, line 88); 4.22 *Si* (leaf 159, line 17); 6.8 *Porro* (leaf 160, line 81); 6.14 *Ferti* (leaf 160, line 100); 7.11 *Hostiæ* (leaf 161, line 90); 7.22 *Hoc* (leaf 162, line 34); 7.28 *Hæc* (leaf 162, line 47); 7.37 *Hæc* (leaf 162, line 75); 8.10 *Deinde* (leaf 163, line 9); 8.14 *Deinde* (leaf 163, line 23); 8.22 *Deinde* (leaf 163, line 50); 8.30 *Deinde* (leaf 163, line 84); 10.6 *Deinde* (leaf 165, line 24); 10.12 *Tum* (leaf 165, line 49); 11.9 *Item* (leaf 166, line 23); 11.13 *De* (leaf 166, line 40); 11.21 *Tantum* (leaf 166, line 53); 11.29 *Atque* (leaf 166, line 78); 11.34 *Quidquid* (leaf 166, line 99); 11.41 *Quidquid* (leaf 167, line 27)
+1.10 *Sin* (leaf 157, line 7); 1.14 *Sin* (leaf 157, line 21); 2.4 *Si* (leaf 157, line 49); 2.5 *Sin* (leaf 157, line 53); 2.7 *Sin* (leaf 157, line 58); 2.11 *Omne* (leaf 157, line 68); 2.13 *Omne* (leaf 157, line 76); 2.14 *Si* (leaf 157, line 80); 3.6 *Quod* (read on the page: 1738 leaf 158, line 13, read on the page: "6 Quod si ouino caprinoue munere" indented after its verse number (Claude, 2026-11-16)); 4.13 *Sin* (leaf 158, line 88); 4.22 *Si* (leaf 159, line 17); 6.8 *Porro* (leaf 160, line 81); 6.14 *Ferti* (leaf 160, line 100); 7.11 *Hostiæ* (leaf 161, line 90); 7.22 *Hoc* (leaf 162, line 34); 7.28 *Hæc* (leaf 162, line 47); 7.37 *Hæc* (leaf 162, line 75); 8.10 *Deinde* (leaf 163, line 9); 8.14 *Deinde* (leaf 163, line 23); 8.22 *Deinde* (leaf 163, line 50); 8.30 *Deinde* (leaf 163, line 84); 10.6 *Deinde* (leaf 165, line 24); 10.12 *Tum* (leaf 165, line 49); 11.9 *Item* (leaf 166, line 23); 11.13 *De* (leaf 166, line 40); 11.21 *Tantum* (leaf 166, line 53); 11.29 *Atque* (leaf 166, line 78); 11.34 *Quidquid* (leaf 166, line 99); 11.41 *Quidquid* (leaf 167, line 27)
 
 ## Open questions
 
