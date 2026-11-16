@@ -12,8 +12,10 @@
     `data/decisions/Lev.orig.tsv`); every paragraph checked, three false ones taken away or moved.
   - **A footnote at 23:24** (2026-11-16, your "Use version 1"): *‘Monētum’ Castelliō ā monendō fīnxit, ut Jūnō
     Monēta.* A new kind of note beside decisions 53 and 56: a word no dictionary has that Castellio explains himself
-    (`data/review/lev23-24-note.md`). Castellio's other Leviticus annotations (1554, canvas 820) give three notes
-    under decision 56, not yet proposed: 13:48 (warp and woof), 21:4 (his emended Hebrew), 23:40 (*perseæ*, Josephus).
+    (`data/review/lev23-24-note.md`). Castellio's other Leviticus annotations (1554, canvas 820) gave three notes
+    under decision 56, added 2026-11-16 (`data/review/lev-notes-1554.md`): 13:48 (warp and woof), 21:4 (his emended
+    Hebrew; the note says most now read the passage of relatives by marriage, from a survey of modern versions), 23:40
+    (*perseæ*, Josephus).
   - **1–11, stages 1–2 done**: `text/draft/LEV.usfm` (299 verses, the KJV's count in every chapter). Collated
     against 1738 and 1750; the 20 verses 1738's OCR barely reads were read whole on the page, and every place where
     1738 might differ: **10 Wikisource slips** fixed in the draft under decision 30's rule (3:2 *oracularis*, 6:19
