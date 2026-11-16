@@ -5,7 +5,7 @@
 - **Exodus as printed (1738) approved** (2026-11-15, decision 75; your "Yes, approve"): `text/orig/EXO.usfm`, all 40
   chapters; `text/orig/draft/` is empty and gone. Chapters 31–40 come from the lines stage 2 read on the page
   (`data/review/exod31-40-orig.md`; `orig --read-lines`). A chapter's first word beside its drop capital is now a
-  normal capitalized word (*Auditionem*, *Ad*, *Tum*, *Destinaui*; `orig.opening_word`, tested). **For you**: the
+  normal capitalized word (*Auditionem*, *Ad*, *Tum*, *Destinaui*; `orig.opening_word`, tested). The
   same rule applied to the 34 such words in the approved New Testament and Genesis (*CVm* → *Cum*, *HIc* → *Hic* …;
   your "Yes, apply them"; `data/review/orig-drop-capitals.md`), and by `orig.build` for both Testaments. Gen 25:12
   *Ismælis* in the approved Genesis corrected to 1738's *Ismaelis* (your "Yes, correct it"). Nothing committed.
@@ -44,7 +44,7 @@
     *arcæ* (1554, 1556, 1573 all read *aræ*, seen on the page); then Exodus 31–40 to settle. The font: Gentium's
     italic *æ* has a one-storey *a* and looks like *œ*; its stylistic set `ss05` gives the italic a two-storey *a*.
 
-- **Exodus 31–40 through stages 3–5, waiting for your approval** (2026-11-15, your "Run stages 3–5 for Exodus
+- **Exodus 31–40 through stages 3–5** (settled since: decision 74) (2026-11-15, your "Run stages 3–5 for Exodus
   31–40"): `data/review/exod31-40-stages3-5.md` (start there), `-ch31.md` … `-ch40.md` (325 verses, all `ok`),
   preview `text/draft/EXO.preview.usfm`. Four readers, then an independent proofread of every verse (its findings
   fixed). 1738 prints no quotation marks, so all the quotation marks (46 speeches opened) are the readers'. 27 spelling rules added under
