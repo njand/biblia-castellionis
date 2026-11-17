@@ -198,8 +198,10 @@ def to_tex(blocks):
             while i < len(blocks) and blocks[i].kind == "tr":
                 rows.append(f"{tex_runs(blocks[i].runs[0])} & {tex_runs(blocks[i].runs[1])} \\\\")
                 i += 1
-            out.append("\\par\\noindent\\begin{tabular}{@{}p{2.5em}p{\\dimexpr\\textwidth-2.5em-2\\tabcolsep\\relax}@{}}\n"
-                       + "\n".join(rows) + "\n\\end{tabular}\\par")
+            # The signs as wide as the widest (*oblīquæ* wrapped in a fixed 2.5em, 2026-11-16), never broken; the
+            # explanations take the rest of the line, a little apart, as on the site and in the EPUB.
+            out.append("\\par\\noindent\\begin{tabularx}{\\textwidth}{@{}l@{\\hspace{1.2em}}X@{}}\n"
+                       + "\n".join(rows) + "\n\\end{tabularx}\\par")
             continue
         text = tex_runs(block.runs)
         if block.kind == "is1":

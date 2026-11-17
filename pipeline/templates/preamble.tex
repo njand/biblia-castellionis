@@ -66,6 +66,9 @@
 % No stretch between paragraphs: a column filled out to full height must not open a gap where a paragraph meets
 % a poem (Matt 1:1–2).
 \setlength{\parskip}{0pt}
+% No widows: a paragraph's last line never stands alone at the top of a column (Gen 25:33's "inquit" overleaf;
+% Nathan, 2026-11-16). A column ends a line short instead, as at a chapter's opening.
+\widowpenalty=10000
 % \sloppy
 
 \renewcommand*\footnoterule{}
@@ -122,8 +125,14 @@
         \vspace{\baselineskip}\fi
     \clubpenalties 3 10000 10000 \clubpenalty
     \AddToHookNext{para/after}{\clubpenalties 0 }%
-    \lettrine{\thecaputcount}%
+    \lettrine[findent=.4em,nindent=0pt]{\thecaputcount}{}%
 }
+% The numeral's gap: every line beside it starts .4em after it (findent; nindent 0, so the first line starts where
+% the second does). The text is not lettrine's argument: its first \Versus (verse 1) prints no space, which as
+% interword glue had stretched with the line, so the first line's start varied (Nathan, 2026-11-16).
+% The numeral's top: level with the first line's capitals. lettrine aims at the height of its \LettrineSecondString,
+% "x" by default (for an opening set in small caps), which left the numeral at the x-height (Nathan, 2026-11-16).
+\renewcommand*{\LettrineSecondString}{E}
 
 % A verse number; each one also sets a mark {book}{chapter}{verse} for the running heads, in a mark class of its own
 % (LaTeX's \InsertMark). multicol keeps such classes to the lines actually set on the page; TeX's own \botmark also
@@ -135,8 +144,11 @@
     \stepcounter{versuscount}%
     \protected@edef\@tempa{\noexpand\CastellioRef{\libernameshort}{\arabic{caputcount}}{\arabic{versuscount}}}%
     \InsertMark{versus}{\unexpanded\expandafter{\@tempa}}%   % \InsertMark expands its text: keep \CastellioRef
-    \ifnum\value{versuscount}=1 { } \else {\textsuperscript{\theversuscount}}\fi%
+    \ifnum\value{versuscount}=1 \expandafter\ignorespaces\else
+      {\textsuperscript{\theversuscount}}\nobreak\hskip\z@skip\fi%
 }
+% (The zero glue after the number lets TeX hyphenate the verse's first word: it hyphenates only a word that follows
+% glue, and Heb 13:2's *Hospitālitātem*, unbroken, ran 10pt into the margin; 2026-11-16.)
 % The range of verses that begin on the page: "Genesis 1:31 – 2:25", "Genesis 3:1–14", "Genesis 3:15". A page
 % with no verse mark yet in the document has an empty head. \CastellioRef is \relax (unexpandable) except while a
 % head reads the marks: multicol expands them again when it carries them over.
@@ -153,6 +165,22 @@
           \ifnum\Castellio@fv=\Castellio@lv\else\textendash\Castellio@lv\fi
         \else\ \textendash\ \Castellio@lc:\Castellio@lv\fi
     \fi}}
+% The heads as most Bibles set them (Nathan, 2026-11-16): a verso names the first verse that begins on it, a recto
+% the last, so an open spread reads from its left head to its right one ("Genesis 9:27" … "Genesis 11:4").
+% \VersusRange is kept for any page style that wants the whole range.
+\def\Castellio@lastbook#1#2#3{\def\Castellio@book{#1}\def\Castellio@lc{#2}\def\Castellio@lv{#3}}
+\newcommand{\VersusPrimus}{{%
+    \edef\@tempb{\FirstMark{versus}}%
+    \ifx\@tempb\@empty\else
+        \let\CastellioRef\Castellio@first \FirstMark{versus}%
+        \Castellio@book\ \Castellio@fc:\Castellio@fv
+    \fi}}
+\newcommand{\VersusUltimus}{{%
+    \edef\@tempb{\LastMark{versus}}%
+    \ifx\@tempb\@empty\else
+        \let\CastellioRef\Castellio@lastbook \LastMark{versus}%
+        \Castellio@book\ \Castellio@lc:\Castellio@lv
+    \fi}}
 \makeatother
 
 \newcommand{\summary}[1]{%
@@ -161,15 +189,21 @@
     \large{\textbf{#1}}
 }
 
-\renewcommand{\thefootnote}{\alph{footnote}}
+% Notes lettered a, b, c … on each page (footmisc's perpage). The reset takes effect only from the second TeX pass, so
+% on the first the counter runs on through the book, and \alph stops the run past z ("Counter too large": 29 notes in
+% the Bible once Mark's were added, 2026-11-16). Past 26 the first pass shows a number instead; the final pass never
+% does.
+\makeatletter
+\renewcommand{\thefootnote}{\ifnum\c@footnote>26 \number\c@footnote\else\@alph\c@footnote\fi}
+\makeatother
 
 % set verse margin flush with text
 % \setlength{\vleftmargin}{0em}
 
 % default page style
 \makepagestyle{plain}
-\makeevenhead{plain}{\thepage\hspace{1em}|\hspace{1em}\VersusRange}{}{}
-\makeoddhead{plain}{}{}{\VersusRange\hspace{0.75em}|\hspace{0.75em}\thepage}
+\makeevenhead{plain}{\thepage\hspace{1em}|\hspace{1em}\VersusPrimus}{}{}
+\makeoddhead{plain}{}{}{\VersusUltimus\hspace{0.75em}|\hspace{0.75em}\thepage}
 \pagestyle{plain}
 
 \input{title.tex}

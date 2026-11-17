@@ -78,6 +78,7 @@ class Markers(unittest.TestCase):
         self.assertIn("\\Praefatio{Notæ}", tex)
         self.assertIn("a \\textit{b} c", tex)
         self.assertIn("\\textsuperscript{a}", tex)
+        self.assertIn("{@{}l@{\\hspace{1.2em}}X@{}}", tex)          # the signs never wrap (oblīquæ, 2026-11-16)
         self.assertIn('<h2 id="notae">Notæ</h2>', frontmatter.to_html(blocks))
 
 

@@ -1,7 +1,7 @@
 id	text	marks	layout
 Matt.1.1	Ēnumerātiō generis Jēsū Chrīstī, prōgnātī Dāvīde, prōgnātī Abrāhāmō:	p	Ēnumerātiō generis Jēsū Chrīstī, prōgnātī Dāvīde, prōgnātī Abrāhāmō:
 Matt.1.2	Abrāhāmus genuit Isaacum. Isaacus Jācōbum. Jācōbus Jūdam, et ejus frātrēs.	q1	Abrāhāmus genuit Isaacum. \\q2 Isaacus Jācōbum. \\q2 Jācōbus Jūdam, et ejus frātrēs.
-Matt.1.3	Jūdās Phārem et Zaram (ex Thamāre). Phārēs Esrōmum. Esrōmus Arāmum.	q2	Jūdās Phārem et Zaram (ex Thamāre). \\q2 Phārēs Esrōmum. \\q2 Esrōmus Arāmum.
+Matt.1.3	Jūdās Phārem et Zaram (ex Thāmāre). Phārēs Esrōmum. Esrōmus Arāmum.	q2	Jūdās Phārem et Zaram (ex Thāmāre). \\q2 Phārēs Esrōmum. \\q2 Esrōmus Arāmum.
 Matt.1.4	Arāmus Amīnādābum. Amīnādābus Naassōnem. Naasson Salmōnem.	q2	Arāmus Amīnādābum. \\q2 Amīnādābus Naassōnem. \\q2 Naasson Salmōnem.
 Matt.1.5	Salmōn Boozum (ex Rāchabā). Boozus Ōbēdem (ex Rūthā). Ōbēd Jessæum.	q2	Salmōn Boozum (ex Rāchabā). \\q2 Boozus Ōbēdem (ex Rūthā). \\q2 Ōbēd Jessæum.
 Matt.1.6	Jessæus Dāvīdem rēgem. Dāvīd rēx Solomōnem, (ex eā quæ fuerat Ūrīæ).	q2	Jessæus Dāvīdem rēgem. \\q1 Dāvīd rēx Solomōnem, (ex eā quæ fuerat Ūrīæ).
@@ -9,10 +9,10 @@ Matt.1.7	Solomō Roboāmum. Roboāmus Ābīam. Ābīās Asam.	q2	Solomō Roboām
 Matt.1.8	Asa Jōsāphātum. Jōsāphātus Jorāmum. Jorāmus Ozīam.	q2	Asa Jōsāphātum. \\q2 Jōsāphātus Jorāmum. \\q2 Jorāmus Ozīam.
 Matt.1.9	Ozīās Jōthamum. Jōthamus Achazum. Achazus Ezecīam.	q2	Ozīās Jōthamum. \\q2 Jōthamus Achazum. \\q2 Achazus Ezecīam.
 Matt.1.10	Ezecīās Manassem. Manasses Āmōnem. Āmōn Jōsīam.	q2	Ezecīās Manassem. \\q2 Manasses Āmōnem. \\q2 Āmōn Jōsīam.
-Matt.1.11	Jōsīās Jōācimum. Jōācimus Jechōniam, et ejus frātrēs, in exiliō Babylōnicō.	q2	Jōsīās Jōācimum. \\q2 Jōācimus Jechōniam, et ejus frātrēs, in exiliō Babylōnicō.
-Matt.1.12	Post exilium Babylōnicum, Jechōniās genuit Salathiēlem. Salathiēl Zorobabēlem.	q1	Post exilium Babylōnicum, Jechōniās genuit Salathiēlem. \\q2 Salathiēl Zorobabēlem.
+Matt.1.11	Jōsīās Jōācimum. Jōācimus Jechoniam, et ejus frātrēs, in exiliō Babylōnicō.	q2	Jōsīās Jōācimum. \\q2 Jōācimus Jechoniam, et ejus frātrēs, in exiliō Babylōnicō.
+Matt.1.12	Post exilium Babylōnicum, Jechoniās genuit Salathiēlem. Salathiēl Zorobabelem.	q1	Post exilium Babylōnicum, Jechoniās genuit Salathiēlem. \\q2 Salathiēl Zorobabelem.
 Matt.1.13	Zorobabel Abiudem. Abiud Eliācīmum. Eliācīmus Azōrem.	q2	Zorobabel Abiudem. \\q2 Abiud Eliācīmum. \\q2 Eliācīmus Azōrem.
-Matt.1.14	Azor Sadocum. Sadocus Achimum. Achimus Elīudem.	q2	Azor Sadocum. \\q2 Sadocus Achimum. \\q2 Achimus Elīudem.
+Matt.1.14	Azor Sadōcum. Sadōcus Achimum. Achimus Elīudem.	q2	Azor Sadōcum. \\q2 Sadōcus Achimum. \\q2 Achimus Elīudem.
 Matt.1.15	Elīud Eleazarum. Eleazarus Matthanem. Matthan Jācōbum.	q2	Elīud Eleazarum. \\q2 Eleazarus Matthanem. \\q2 Matthan Jācōbum.
 Matt.1.16	Jācōbus Jōsēphum Marīæ virum, ex quā nātus est Jēsūs nōmine Chrīstus.	q2	Jācōbus Jōsēphum Marīæ virum, ex quā nātus est Jēsūs nōmine Chrīstus.
 Matt.1.17	Igitur in ūniversum ab Abrāhāmō ad Dāvīdem genera sunt quattuordecim. Ā Dāvīde item ad exilium Babylōnicum quattuordecim. Ab exiliō Babylōnicō ad Chrīstum quattuordecim.	p	Igitur in ūniversum ab Abrāhāmō ad Dāvīdem genera sunt quattuordecim. Ā Dāvīde item ad exilium Babylōnicum quattuordecim. Ab exiliō Babylōnicō ad Chrīstum quattuordecim.
@@ -76,9 +76,9 @@ Matt.4.9	et: “Hæc omnia tibi dabō,” inquit, “sī prōcubueris, et mē ad
 Matt.4.10	Hīc Jēsūs: “Abī ē cōnspectū meō, Satanā,” inquit eī. “Scrīptum est enim: ‘Dominum Deum tuum adōrātō, eumque sōlum colitō.’”	p	Hīc Jēsūs: “Abī ē cōnspectū meō, Satanā,” inquit eī. “Scrīptum est enim: \\qt ‘Dominum Deum tuum adōrātō, eumque sōlum colitō.’”\\qt*
 Matt.4.11	Tunc omittit eum diabolus, et ecce advēnērunt angelī, quī eī ministrārent.	p	Tunc omittit eum diabolus, et ecce advēnērunt angelī, quī eī ministrārent.
 Matt.4.12	Audiēns autem Jēsūs captum esse Jōhannem, petīvit Galilæam.	p	Audiēns autem Jēsūs captum esse Jōhannem, petīvit Galilæam.
-Matt.4.13	Et relictā Nāzarethā, Caphernaum profectus, ibi commorātus est (eā est maritimā, in fīnibus Zabūlōniīs et Nephthalēnsibus)		Et relictā Nāzarethā, Caphernaum profectus, ibi commorātus est (eā est maritimā, in fīnibus Zabūlōniīs et Nephthalēnsibus)
+Matt.4.13	Et relictā Nāzarethā, Caphernaum profectus, ibi commorātus est (eā est maritimā, in fīnibus Zabulōniīs et Nephthālēnsibus)		Et relictā Nāzarethā, Caphernaum profectus, ibi commorātus est (eā est maritimā, in fīnibus Zabulōniīs et Nephthālēnsibus)
 Matt.4.14	ut fieret quod erat ab Ēsāiā vāte dictum in hunc modum:		ut fieret quod erat ab Ēsāiā vāte dictum in hunc modum:
-Matt.4.15	“Zabūlōnia Nephthalēnsisque terra, mare versus, trāns Jordānem, Galilæa extrāneōrum—	q1	\\qt “Zabūlōnia Nephthalēnsisque terra,\\qt* \\q2 \\qt mare versus, trāns Jordānem,\\qt* \\q2 \\qt Galilæa extrāneōrum—\\qt*
+Matt.4.15	“Zabulōnia Nephthālēnsisque terra, mare versus, trāns Jordānem, Galilæa extrāneōrum—	q1	\\qt “Zabulōnia Nephthālēnsisque terra,\\qt* \\q2 \\qt mare versus, trāns Jordānem,\\qt* \\q2 \\qt Galilæa extrāneōrum—\\qt*
 Matt.4.16	populus in tenebrīs dēgēns vīdit lūcem magnam, et manentibus in tētræ noctis regiōne lūx orta est.”	q1	\\qt populus in tenebrīs dēgēns\\qt* \\q2 \\qt vīdit lūcem magnam,\\qt* \\q1 \\qt et manentibus in tētræ noctis regiōne\\qt* \\q2 \\qt lūx orta est.”\\qt*
 Matt.4.17	Ex eō cœpit Jēsūs prædicāre, et dīcere: “Corrigite vōs, īnstat enim cæleste rēgnum.”	p	Ex eō cœpit Jēsūs prædicāre, et dīcere: “Corrigite vōs, īnstat enim cæleste rēgnum.”
 Matt.4.18	Ambulāns autem Jēsūs apud lacum Galilææ, cum vīdisset frātrēs duōs, Simōnem cognōmine Petrum, et Andrēam ejus germānum, rēte jacientēs in lacum (erant enim piscātōrēs),	p	Ambulāns autem Jēsūs apud lacum Galilææ, cum vīdisset frātrēs duōs, Simōnem cognōmine Petrum, et Andrēam ejus germānum, rēte jacientēs in lacum (erant enim piscātōrēs),
@@ -334,7 +334,7 @@ Matt.11.17	“‘Fistulāvimus vōbīs, neque saltāstis; ejulāvimus vōbīs, n
 Matt.11.18	Vēnit enim Jōhannēs, quī neque comēdit neque bibit, et eum dīcunt esse furiōsum.	m	Vēnit enim Jōhannēs, quī neque comēdit neque bibit, et eum dīcunt esse furiōsum.
 Matt.11.19	Vēnit Fīlius Hominis, quī et comedit et bibit, et eum dīcunt hominem esse vorācem, vīnōsum, pūblicānōrum, et improbōrum amīcum. Estque suīs aliēna sapientia.”		Vēnit Fīlius Hominis, quī et comedit et bibit, et eum dīcunt hominem esse vorācem, vīnōsum, pūblicānōrum, et improbōrum amīcum. Estque suīs aliēna sapientia.”
 Matt.11.20	Deinde cœpit in cīvitātēs invehī, quæ cum in iīs tot fuissent ejus ēdita mīrācula, tamen nōn redīssent ad frūgem.	p	Deinde cœpit in cīvitātēs invehī, quæ cum in iīs tot fuissent ejus ēdita mīrācula, tamen nōn redīssent ad frūgem.
-Matt.11.21	“Væ tibi Chorazim, væ tibi Bēthsaidan! Nam sī Tyrī et Sīdōne ēdita forent, quæ in vōbīs ēdita sunt mīrācula, jam prīdem in centōnibus et pulvere vītam corrēxissent.		“Væ tibi Chorazim, væ tibi Bēthsaidan! Nam sī Tyrī et Sīdōne ēdita forent, quæ in vōbīs ēdita sunt mīrācula, jam prīdem in centōnibus et pulvere vītam corrēxissent.
+Matt.11.21	“Væ tibi Chōrazim, væ tibi Bēthsaidan! Nam sī Tyrī et Sīdōne ēdita forent, quæ in vōbīs ēdita sunt mīrācula, jam prīdem in centōnibus et pulvere vītam corrēxissent.		“Væ tibi Chōrazim, væ tibi Bēthsaidan! Nam sī Tyrī et Sīdōne ēdita forent, quæ in vōbīs ēdita sunt mīrācula, jam prīdem in centōnibus et pulvere vītam corrēxissent.
 Matt.11.22	Itaque sīc habētōte, cum Tyrō et Sīdōne mītius āctum īrī in diē jūdiciī, quam vōbīscum.		Itaque sīc habētōte, cum Tyrō et Sīdōne mītius āctum īrī in diē jūdiciī, quam vōbīscum.
 Matt.11.23	Et tū Capharnaum, quæ ad cælum ūsque ēlāta es, ad īnferōs dēprimeris. Nam sī Sodomīs eadem, quæ in tē, ēdita fuissent mīrācula, mānsissent ad hodiernum diem.		Et tū Capharnaum, quæ ad cælum ūsque ēlāta es, ad īnferōs dēprimeris. Nam sī Sodomīs eadem, quæ in tē, ēdita fuissent mīrācula, mānsissent ad hodiernum diem.
 Matt.11.24	Itaque scītōte tolerābiliōrem fore Sodomītānæ nātiōnis condiciōnem in diē jūdiciī, quam tuam.”		Itaque scītōte tolerābiliōrem fore Sodomītānæ nātiōnis condiciōnem in diē jūdiciī, quam tuam.”
@@ -508,7 +508,7 @@ Matt.15.17	“An nōndum intellegitis, quidquid in ōs intrat, id in ventrem fer
 Matt.15.18	At quæ ex ōre ēgrediuntur, ex animō prōdeunt, atque ea polluunt hominem.		At quæ ex ōre ēgrediuntur, ex animō prōdeunt, atque ea polluunt hominem.
 Matt.15.19	Ex animō enim prōdeunt malæ cōgitātiōnēs, cædēs, adulteria, stupra, fūrta, falsa testimōnia, maledicta.		Ex animō enim prōdeunt malæ cōgitātiōnēs, cædēs, adulteria, stupra, fūrta, falsa testimōnia, maledicta.
 Matt.15.20	Hæc sunt quæ polluunt hominem. Sed illōtīs manibus cibum capere, nōn polluit hominem.”		Hæc sunt quæ polluunt hominem. Sed illōtīs manibus cibum capere, nōn polluit hominem.”
-Matt.15.21	Inde profectus Jēsūs, contulit sē in Tyriōs Sīdoniōsque tractūs.	p	Inde profectus Jēsūs, contulit sē in Tyriōs Sīdoniōsque tractūs.
+Matt.15.21	Inde profectus Jēsūs, contulit sē in Tyriōs Sīdōniōsque tractūs.	p	Inde profectus Jēsūs, contulit sē in Tyriōs Sīdōniōsque tractūs.
 Matt.15.22	Et ecce mulier Chananæa, ab illīs profecta fīnibus, clāmābat ad eum hīs verbīs: “Miserēre meī, Domine Dāvīdide! Fīlia mea male furiāta est.”		Et ecce mulier Chananæa, ab illīs profecta fīnibus, clāmābat ad eum hīs verbīs: “Miserēre meī, Domine Dāvīdide! Fīlia mea male furiāta est.”
 Matt.15.23	Sed cum ille nihil eī respondisset, aggressī eum ejus discipulī sīc rogāre: “Absolve eam, clāmat enim pōne nōs.”		Sed cum ille nihil eī respondisset, aggressī eum ejus discipulī sīc rogāre: “Absolve eam, clāmat enim pōne nōs.”
 Matt.15.24	At ille respondēns: “Nōn sum missus,” inquit, “nisi ad ovēs perditās Isrāēlīticæ domūs.”		At ille respondēns: “Nōn sum missus,” inquit, “nisi ad ovēs perditās Isrāēlīticæ domūs.”
@@ -540,7 +540,7 @@ Matt.16.10	Neque septem pānēs quattuor mīlium, et quot recēperītis sportās
 Matt.16.11	Quī fit ut nōn intellegātis, nōn mē vōbīs dē pāne dīxisse, cavendum esse fermentum Pharisæōrum ac Saddūcæōrum?”		Quī fit ut nōn intellegātis, nōn mē vōbīs dē pāne dīxisse, cavendum esse fermentum Pharisæōrum ac Saddūcæōrum?”
 Matt.16.12	Tunc illī intellēxērunt, nōn eum hoc dīxisse, cavendum esse pānis fermentum, sed Pharisæōrum Saddūcæōrumque doctrīnam.		Tunc illī intellēxērunt, nōn eum hoc dīxisse, cavendum esse pānis fermentum, sed Pharisæōrum Saddūcæōrumque doctrīnam.
 Matt.16.13	Cum vēnisset autem Jēsūs in tractum Cæsarēæ Philippī, interrogāvit suōs discipulōs hīs verbīs: “Quem mē dīcunt hominēs esse, mē Fīlium Hominis?”	p	Cum vēnisset autem Jēsūs in tractum Cæsarēæ Philippī, interrogāvit suōs discipulōs hīs verbīs: “Quem mē dīcunt hominēs esse, mē Fīlium Hominis?”
-Matt.16.14	Cui illī: “Hī Jōhannem Baptistam, illī Ēliam, aliī Jēremīam, aut vātum aliquem.”		Cui illī: “Hī Jōhannem Baptistam, illī Ēliam, aliī Jēremīam, aut vātum aliquem.”
+Matt.16.14	Cui illī: “Hī Jōhannem Baptistam, illī Ēlīam, aliī Jēremīam, aut vātum aliquem.”		Cui illī: “Hī Jōhannem Baptistam, illī Ēlīam, aliī Jēremīam, aut vātum aliquem.”
 Matt.16.15	Et ille: “Vōs vērō,” inquit iīs, “quem mē esse dīcitis?”		Et ille: “Vōs vērō,” inquit iīs, “quem mē esse dīcitis?”
 Matt.16.16	Cui Simōn Petrus ita respondit: “Tū es Chrīstus, Deī vīventis Fīlius.”		Cui Simōn Petrus ita respondit: “Tū es Chrīstus, Deī vīventis Fīlius.”
 Matt.16.17	Et Jēsūs eī respondēns: “Beātus es,” inquit, “Simōn Jōnāide, quoniam nōn patefēcit istud tibi carō et sanguis, sed Pater meus quī in cælīs est.		Et Jēsūs eī respondēns: “Beātus es,” inquit, “Simōn Jōnāide, quoniam nōn patefēcit istud tibi carō et sanguis, sed Pater meus quī in cælīs est.
@@ -557,16 +557,16 @@ Matt.16.27	Est enim ventūrus Fīlius Hominis in suī Patris glōriā, cum suīs
 Matt.16.28	Hoc vōbīs certō dīcō, esse quōsdam eōrum quī hīc adsunt, quī nōn prius mortem gustābunt, quam videant Fīlium Hominis venientem in rēgnō suō.”		Hoc vōbīs certō dīcō, esse quōsdam eōrum quī hīc adsunt, quī nōn prius mortem gustābunt, quam videant Fīlium Hominis venientem in rēgnō suō.”
 Matt.17.1	Post sex autem diēs adhibet Jēsūs Petrum, et Jācōbum, ejusque frātrem Jōhannem, et in arduum montem sēdūcit,	p	Post sex autem diēs adhibet Jēsūs Petrum, et Jācōbum, ejusque frātrem Jōhannem, et in arduum montem sēdūcit,
 Matt.17.2	ac cōram iīs trānsfigūrātus est, ejusque et faciēs sōlis modo resplenduit, et vestīmenta tam candida facta sunt, quam est lūx.		ac cōram iīs trānsfigūrātus est, ejusque et faciēs sōlis modo resplenduit, et vestīmenta tam candida facta sunt, quam est lūx.
-Matt.17.3	Et ecce cōnspectī sunt iīs Mōsēs, et Ēliās cum eō colloquentēs.		Et ecce cōnspectī sunt iīs Mōsēs, et Ēliās cum eō colloquentēs.
-Matt.17.4	Tum Petrus Jēsum alloquēns: “Domine,” inquit, “bonum est hīc esse nōs. Sī vīs, faciāmus hīc tria tabernācula: tibi ūnum, Mōsī ūnum, et Ēliæ ūnum.”		Tum Petrus Jēsum alloquēns: “Domine,” inquit, “bonum est hīc esse nōs. Sī vīs, faciāmus hīc tria tabernācula: tibi ūnum, Mōsī ūnum, et Ēliæ ūnum.”
+Matt.17.3	Et ecce cōnspectī sunt iīs Mōsēs, et Ēlīās cum eō colloquentēs.		Et ecce cōnspectī sunt iīs Mōsēs, et Ēlīās cum eō colloquentēs.
+Matt.17.4	Tum Petrus Jēsum alloquēns: “Domine,” inquit, “bonum est hīc esse nōs. Sī vīs, faciāmus hīc tria tabernācula: tibi ūnum, Mōsī ūnum, et Ēlīæ ūnum.”		Tum Petrus Jēsum alloquēns: “Domine,” inquit, “bonum est hīc esse nōs. Sī vīs, faciāmus hīc tria tabernācula: tibi ūnum, Mōsī ūnum, et Ēlīæ ūnum.”
 Matt.17.5	Adhūc eō loquente, ecce lūcida nūbēs illōs obumbrāvit, et ex nūbe vōx exstitit, ita dīcēns: “Hic est meus cārissimus Fīlius, quī mihi acceptus est. Hunc audīte.”		Adhūc eō loquente, ecce lūcida nūbēs illōs obumbrāvit, et ex nūbe vōx exstitit, ita dīcēns: “Hic est meus cārissimus Fīlius, quī mihi acceptus est. Hunc audīte.”
 Matt.17.6	Hōc audītō, magnopere territī discipulī, cecidēre prōnī.		Hōc audītō, magnopere territī discipulī, cecidēre prōnī.
 Matt.17.7	At Jēsūs eōs aggressus, tetigit. “Surgite,” inquit, “nēve metuite.”		At Jēsūs eōs aggressus, tetigit. “Surgite,” inquit, “nēve metuite.”
 Matt.17.8	Tum illī sublātīs oculīs nēminem vīdērunt, nisi sōlum Jēsum.		Tum illī sublātīs oculīs nēminem vīdērunt, nisi sōlum Jēsum.
 Matt.17.9	Dēscendentibus autem iīs dē monte, præcēpit iīs Jēsūs, nē cui vīsum illud dīcerent, dōnec Fīlius Hominis ā mortuīs resurrēxisset.	p	Dēscendentibus autem iīs dē monte, præcēpit iīs Jēsūs, nē cui vīsum illud dīcerent, dōnec Fīlius Hominis ā mortuīs resurrēxisset.
-Matt.17.10	Tunc discipulī sīc eum interrogant: “Quid ergō dīcunt scrībæ, Ēliam oportēre venīre prius?”		Tunc discipulī sīc eum interrogant: “Quid ergō dīcunt scrībæ, Ēliam oportēre venīre prius?”
-Matt.17.11	Quibus respondēns Jēsūs: “Ventūrus est quidem prius Ēliās, et īnstaurātūrus omnia.		Quibus respondēns Jēsūs: “Ventūrus est quidem prius Ēliās, et īnstaurātūrus omnia.
-Matt.17.12	Sed scītōte Ēliam jam vēnisse, quem illī nōn agnōvērunt, sed eī quæ voluēre fēcērunt. Sīc et Fīlius Hominis ab iīs passūrus est.”		Sed scītōte Ēliam jam vēnisse, quem illī nōn agnōvērunt, sed eī quæ voluēre fēcērunt. Sīc et Fīlius Hominis ab iīs passūrus est.”
+Matt.17.10	Tunc discipulī sīc eum interrogant: “Quid ergō dīcunt scrībæ, Ēlīam oportēre venīre prius?”		Tunc discipulī sīc eum interrogant: “Quid ergō dīcunt scrībæ, Ēlīam oportēre venīre prius?”
+Matt.17.11	Quibus respondēns Jēsūs: “Ventūrus est quidem prius Ēlīās, et īnstaurātūrus omnia.		Quibus respondēns Jēsūs: “Ventūrus est quidem prius Ēlīās, et īnstaurātūrus omnia.
+Matt.17.12	Sed scītōte Ēlīam jam vēnisse, quem illī nōn agnōvērunt, sed eī quæ voluēre fēcērunt. Sīc et Fīlius Hominis ab iīs passūrus est.”		Sed scītōte Ēlīam jam vēnisse, quem illī nōn agnōvērunt, sed eī quæ voluēre fēcērunt. Sīc et Fīlius Hominis ab iīs passūrus est.”
 Matt.17.13	Tunc intellēxērunt discipulī, eum id sibi dē Jōhanne Baptistā dīxisse.		Tunc intellēxērunt discipulī, eum id sibi dē Jōhanne Baptistā dīxisse.
 Matt.17.14	Ut autem pervēnērunt ad hominum multitūdinem, aggressus eum quīdam homō, congenuclāns,	p	Ut autem pervēnērunt ad hominum multitūdinem, aggressus eum quīdam homō, congenuclāns,
 Matt.17.15	sīc dīxit: “Domine miserēre meī fīliī, quī lūnāticus est, et male habet. Nam sæpe in ignem, sæpe cadit in aquam.		sīc dīxit: “Domine miserēre meī fīliī, quī lūnāticus est, et male habet. Nam sæpe in ignem, sæpe cadit in aquam.
@@ -1030,9 +1030,9 @@ Matt.27.43	Deō cōnfīdit; līberet nunc eum, sī eī favet, quandoquidem dīxi
 Matt.27.44	Atque idem eī etiam latrōnēs cum eō crucī fīxī exprobrābant.		Atque idem eī etiam latrōnēs cum eō crucī fīxī exprobrābant.
 Matt.27.45	Ā sextā autem hōrā exstitērunt per ūniversam terram tenebræ, ūsque ad hōram nōnam.	p	Ā sextā autem hōrā exstitērunt per ūniversam terram tenebræ, ūsque ad hōram nōnam.
 Matt.27.46	Circā nōnam hōram exclāmāvit Jēsūs magnā vōce dīcēns: “Elī ēlī lāmā sabachthanī,” hoc est, “Mī Deus, mī Deus, cūr mē dērelīquistī?”		Circā nōnam hōram exclāmāvit Jēsūs magnā vōce dīcēns: “Elī ēlī lāmā sabachthanī,” hoc est, “Mī Deus, mī Deus, cūr mē dērelīquistī?”
-Matt.27.47	Quō audītō quīdam eōrum, quī illīc aderant, dīcēbant eum vocāre Ēliam.		Quō audītō quīdam eōrum, quī illīc aderant, dīcēbant eum vocāre Ēliam.
+Matt.27.47	Quō audītō quīdam eōrum, quī illīc aderant, dīcēbant eum vocāre Ēlīam.		Quō audītō quīdam eōrum, quī illīc aderant, dīcēbant eum vocāre Ēlīam.
 Matt.27.48	Ac statim cucurrit eōrum ūnus, sūmptāque spongiā, et acētō replētā, affīxāque arundinī, dabat eī bibere.		Ac statim cucurrit eōrum ūnus, sūmptāque spongiā, et acētō replētā, affīxāque arundinī, dabat eī bibere.
-Matt.27.49	At reliquī dīcere: “Sine, videāmus an veniat Ēliās servātum eum.”		At reliquī dīcere: “Sine, videāmus an veniat Ēliās servātum eum.”
+Matt.27.49	At reliquī dīcere: “Sine, videāmus an veniat Ēlīās servātum eum.”		At reliquī dīcere: “Sine, videāmus an veniat Ēlīās servātum eum.”
 Matt.27.50	Jēsūs autem, cum rūrsum ingentī vōce clāmāsset, ēmīsit spīritum.		Jēsūs autem, cum rūrsum ingentī vōce clāmāsset, ēmīsit spīritum.
 Matt.27.51	Et ecce templī vēlum in duās partēs ā summō ad īmum fissum est, et terra commōta est, et saxa fissa,		Et ecce templī vēlum in duās partēs ā summō ad īmum fissum est, et terra commōta est, et saxa fissa,
 Matt.27.52	et monumenta aperta, multaque corpora sānctōrum, quī obdormierant, surrēxērunt,		et monumenta aperta, multaque corpora sānctōrum, quī obdormierant, surrēxērunt,

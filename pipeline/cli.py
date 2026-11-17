@@ -43,7 +43,7 @@ import pathlib
 import re
 import sys
 
-from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, orig, parallel, paths,
+from pipeline import (align, archive, books, collate, gold, harness, latex, latin, ledger, mdz, notes, orig, parallel, paths,
                       publish, review, rules, structure, tsv, verses, versify, wikisource, wordpress)
 
 
@@ -275,6 +275,9 @@ def main(argv):
     bld.add_argument("--printed-drafts", action="store_true",
                      help="offer Castellio's text as printed from text/orig/draft/ too (a preview; not reviewed)")
 
+    nts = sub.add_parser("notes", help="candidates for light notes (NT) → data/review/<book>-notes-candidates.md")
+    nts.add_argument("names", nargs="+")
+
     sub.add_parser("latin", help="read-only Latin lookups (see `python -m pipeline latin --help`)")
 
     args = parser.parse_args(argv)
@@ -302,6 +305,9 @@ def main(argv):
                     print(f"{kind:4} → {shown}")
                 else:
                     print(f"{kind:4}   {item}")
+    elif args.command == "notes":
+        for name in args.names:
+            print(f"→ {notes.write(name).relative_to(paths.ROOT).as_posix()}")
     elif args.command == "gold":
         for osis, rows in gold.build(args.names).items():
             chapters = len({vid.rsplit(".", 1)[0] for vid, *_ in rows})

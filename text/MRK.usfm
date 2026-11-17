@@ -10,7 +10,7 @@
 \c 1
 \p
 \v 1 Initium euangeliī Jēsū Chrīstī, Deī Fīliī,
-\v 2 ut scrīptum est in vātibus:
+\v 2 ut scrīptum est in vātibus\f + \fr 1:2 \ft Græcē hodiē legitur ἐν τῷ Ἠσαΐᾳ τῷ προφήτῃ, ‘in Ēsāiā vāte’.\f*:
 \q1 \qt “Ego tibi meum præmittam nūntium,\qt*
 \q2 \qt quī tibi viam præparet.\qt*
 \q1 \v 3 \qt Vōx clāmantis in sōlitūdine:\qt*
@@ -24,7 +24,7 @@
 \v 8 Ego quidem vōs aquā baptīzāvī, at is vōs Sānctō Spīritū baptīzābit.”
 \p
 \v 9 Accidit autem ut per eōs diēs venīret Jēsūs ā Nāzarethā Galilææ, isque ā Jōhanne baptīzātus est in Jordāne,
-\v 10 quī Jōhannēs simul ac ex aquā ēgressus est, vīdit cælum findī, et Spīritum quasi columbam dēscendere in eum.
+\v 10 quī Jōhannēs\f + \fr 1:10 \ft Græcē εἶδεν sine nōmine; Castelliō Jōhannem intellegit, doctī nostræ ætātis Jēsum, quī ex aquā ascendit.\f* simul ac ex aquā ēgressus est, vīdit cælum findī, et Spīritum quasi columbam dēscendere in eum.
 \v 11 Exstititque vōx ex cælō: “Tū es meus cārissimus Fīlius, quī mihi acceptus es.”
 \p
 \v 12 Statimque Spīritus eum ēgit in sōlitūdinem,
@@ -98,7 +98,7 @@
 \v 15 Accidit autem ut Jēsū in illīus ædibus convīvante, cum multī pūblicānī et improbī cum eō, ejusque discipulīs accumberent (erant enim multī quī eum secūtī fuerant),
 \v 16 scrībæ et Pharisæī, eō vīsō cum pūblicānīs et improbīs cibum capiente, quærerent ex ejus discipulīs, quī fieret ut cum pūblicānīs et improbīs cibum pōtiōnemque sūmeret.
 \p
-\v 17 Quō audītō, Jēsūs dīxit iīs: “Nōn egent valentēs medicō, sed male affectī. Nōn vēnī vocātum īnsontēs, sed sontēs ad frūgem.”
+\v 17 Quō audītō, Jēsūs dīxit iīs: “Nōn egent valentēs medicō, sed male affectī. Nōn vēnī vocātum īnsontēs, sed sontēs [ad frūgem].”
 \p
 \v 18 Cum solērent autem Jōhannis et Pharisæōrum discipulī jejūnāre, eum hujusmodī verbīs convēnērunt: “Quī fit ut Jōhannis et Pharisæōrum discipulī jejūnent, tuī discipulī nōn jejūnent?”
 \p
@@ -150,7 +150,7 @@
 \v 26 Quod sī Satanās sēcum ipse pugnat, ac dissīdet, stāre nequit, sed fīnem habēbit.
 \v 27 Nōn potest quisquam alicujus potentis supellectilem, in ejus ædēs ingressus, dīripere, nisi prius potentem illum vinciat, atque ita dēmum ejus ædēs dīripiat.
 \v 28 Certō scītōte, omnium hominum generī peccāta, et quæcumque maledicta dīxerint, ea esse ignōscenda.
-\v 29 Sed quī Sānctō Spīrituī male dīxerit, numquam assecūtūrus est veniam, sed obnoxius est suppliciō sempiternō.”
+\v 29 Sed quī Sānctō Spīrituī male dīxerit, numquam assecūtūrus est veniam, sed obnoxius est suppliciō sempiternō\f + \fr 3:29 \ft Græcē hodiē legitur αἰωνίου ἁμαρτήματος, ‘æternī peccātī’.\f*.”
 \v 30 Quoniam dīcēbant, eum immundum habēre spīritum.
 \p
 \v 31 Vēnērunt autem ejus māter et frātrēs, forīsque manentēs cūrārunt eum arcessendum,
@@ -220,9 +220,9 @@
 
 \c 5
 \p
-\v 1 Vēnērunt autem trāns lacum in agrum Gadarēnōrum,
+\v 1 Vēnērunt autem trāns lacum in agrum Gadarēnōrum\f + \fr 5:1 \ft Græcē hodiē legitur Γερασηνῶν, ‘Gerasēnōrum’.\f*,
 \v 2 eīque simul ac ex nāvī ēgressus est, occurrit ex monumentīs homō impūrum habēns spīritum,
-\v 3 in monumentīs dēgere solitus, quem nē catēnīs quidem poterat vincere quisquam;
+\v 3 in monumentīs dēgere solitus, quem nē catēnīs quidem poterat vincīre quisquam;
 \v 4 quippe ā quō sæpe compedibus catēnīsque vīnctō, discerptæ fuerant catēnæ, et compedēs comminūtæ, nec eum quisquam domāre potuerat.
 \v 5 Semper autem noctēs diēsque in montibus et sepulcrētīs agēns, clāmābat, et sē ipsum lapidibus contundēbat.
 \p
@@ -292,12 +292,12 @@
 \v 8 Præcēpitque nē quid ad iter circumferrent, nisi baculum tantum, nōn pēram, nōn pānem, nōn æs in crumēnā,
 \v 9 sed sandaliīs calceārentur, neque bīnās induerent tunicās.
 \v 10 Item iīs dīxit: “Ubicumque domum ingressī fueritis, illīc manētōte, dōnec inde migrētis.
-\v 11 Et quīcumque vōs nōn admīserint, nec audierint, vōs illinc proficīscentēs, excutite pulverem, quī suberit vestrīs pedibus, quod sit iīs testimōniō. Hoc vōbīs cōnfirmō, mītius āctum īrī cum Sodomīs et Gomorrīs in diē jūdiciī, quam cum illā cīvitāte.”
+\v 11 Et quīcumque vōs nōn admīserint, nec audierint, vōs illinc proficīscentēs, excutite pulverem, quī suberit vestrīs pedibus, quod sit iīs testimōniō. [Hoc vōbīs cōnfirmō, mītius āctum īrī cum Sodomīs et Gomorrīs in diē jūdiciī, quam cum illā cīvitāte.]”
 \v 12 Igitur illī profectī, mōrēs corrigere pūblicē docēbant,
 \v 13 multaque dæmonia ējiciēbant, et multōs ægrōtōs oleō ungēbant, ac sānābant.
 \p
 \v 14 Id cum audīsset rēx Hērōdēs (nam celebre factum erat ejus nōmen) dīcēbat, Jōhannem, quī baptīzāre solitus fuerat, ex mortuīs surrēxisse, ideōque eum tam esse factīs potentem.
-\v 15 Aliī dīcēbant Ēliam esse, aliī vātem esse, aut ut aliquem vātum.
+\v 15 Aliī dīcēbant Ēlīam esse, aliī vātem esse, aut ut aliquem vātum.
 \v 16 Quō audītō, Hērōdēs dīcēbat, quem ipse dēcollāsset Jōhannem, eum esse: ex mortuīs surrēxisse.
 \v 17 Nam ipse Hērōdēs Jōhannem capiendum cūrāverat, et in custōdiā vinciendum, propter Hērōdiadem Philippī suī frātris uxōrem, quam ipse dūxerat in mātrimōnium.
 \v 18 Dīcēbat enim Jōhannēs Hērōdī, nōn licēre eī uxōrem habēre suī frātris.
@@ -357,7 +357,7 @@
 \q1 \v 7 \qt Vērum frūstrā mē venerantur,\qt*
 \q2 \qt docentēs doctrīnās, quæ sunt hominum præcepta.’\qt*
 \m
-\v 8 Nam relictō Deī præceptō, tenētis hominum īnstitūtum, urceōrum, pōculōrumque lōtiōnēs: et alia hīs cōnsimilia multa facitis.”
+\v 8 Nam relictō Deī præceptō, tenētis hominum īnstitūtum[, urceōrum, pōculōrumque lōtiōnēs: et alia hīs cōnsimilia multa facitis].”
 \v 9 “Probē,” inquit iīs, “Deī præceptum antīquātis, ut vestram cōnservētis īnstitūtiōnem.
 \v 10 Mōsēs enim dīxit: \qt ‘Honōrā tuum patrem atque mātrem,’\qt* et \qt ‘Quī patrī mātrīve male dīxerit, morte plēctātur.’\qt*
 \v 11 At vōs dīcitis: Sī quis patrī mātrīve dīxerit: ‘Corbān, hoc est, dōnārium, quod ā mē proficīscētur, id tibi prōderit.’
@@ -424,7 +424,7 @@
 \v 26 Atque ille eum domum dīmīsit, vetāns nē vel in vīcum ingrederētur, vel id cuiquam in vīcō dīceret.
 \p
 \v 27 Profectus est autem Jēsūs, ejusque discipulī, in vīcōs Cæsarēæ Philippī, atque in viā suōs discipulōs hujusmodī verbīs interrogāvit: “Quem mē dīcunt hominēs esse?”
-\v 28 Cui illī respondērunt: “Jōhannem Baptistam, aliī Ēliam, aliī vātem aliquem.”
+\v 28 Cui illī respondērunt: “Jōhannem Baptistam, aliī Ēlīam, aliī vātem aliquem.”
 \v 29 Et ille: “Vōs vērō,” inquit iīs, “quem dīcitis mē esse?” Cui Petrus ita respondit: “Tū es Chrīstus.”
 \v 30 At ille iīs interdīxit, nē cui sē indicārent:
 \p
@@ -443,16 +443,16 @@
 \v 1 Tum iīs dīcit: “Hoc certō scītōte, esse quōsdam eōrum quī hīc adsunt, quī nōn ante mortem sēnsūrī sint, quam Deī rēgnum videant vēnisse cum potentiā.”
 \v 2 Deinde sextō post diē assūmit Jēsūs Petrum, et Jācōbum, et Jōhannem, iīsque in arduum montem sōlīs seorsum ductīs, trānsfigūrātus est cōram iīs,
 \v 3 ejusque vestīmenta facta sunt fulgentia, tam alba, quam est nix, quōmodo nūllus in orbe fullō dealbāre possit:
-\v 4 Iīsque cōnspectus est Ēliās cum Mōse, quī cum Jēsū colloquēbantur.
-\v 5 Tum Petrus sīc Jēsum allocūtus est: “Rabbi, bonum est nōs hīc esse: itaque faciāmus tria tabernācula, tibi ūnum, Mōsī ūnum, et Ēliæ ūnum.”
+\v 4 Iīsque cōnspectus est Ēlīās cum Mōse, quī cum Jēsū colloquēbantur.
+\v 5 Tum Petrus sīc Jēsum allocūtus est: “Rabbi, bonum est nōs hīc esse: itaque faciāmus tria tabernācula, tibi ūnum, Mōsī ūnum, et Ēlīæ ūnum.”
 \v 6 Nesciēbat autem quid dīceret, quippe cum essent territī.
 \v 7 Exstitit autem nūbēs, quæ illōs inumbrāvit, vēnitque vōx ex nūbe, dīcēns: “Hic est meus cārissimus Fīlius, hunc audīte.”
 \v 8 Et subitō circumspicientēs, nūllum jam vīdērunt nisi Jēsum sōlum cum ipsīs.
 \v 9 Dēscendentibus autem iīs dē monte, præcēpit iīs, nē cui, quæ vīderant, narrārent, nisi postquam Fīlius Hominis ex mortuīs resurrēxisset.
 \v 10 Illī vērō apud sēsē id dictum retinuērunt, quærentēs quid esset, ex mortuīs resurgere.
-\v 11 Itaque eum interrogārunt dē eō quod dīcerent scrībæ, Ēliam oportēre venīre prius.
-\v 12 Et ille respondēns iīs: “Ēliās quidem prius ventūrus, et omnia īnstaurātūrus est, idque quemadmodum dē Fīliō Hominis scrīptum est, multa passūrum, et contemnendum esse.
-\v 13 Sed scītōte Ēliam vēnisse, et illōs eī, quæ voluerint, fēcisse, quemadmodum dē eō scrīptum est.”
+\v 11 Itaque eum interrogārunt dē eō quod dīcerent scrībæ, Ēlīam oportēre venīre prius.
+\v 12 Et ille respondēns iīs: “Ēlīās quidem prius ventūrus, et omnia īnstaurātūrus est, idque quemadmodum dē Fīliō Hominis scrīptum est, multa passūrum, et contemnendum esse.
+\v 13 Sed scītōte Ēlīam vēnisse, et illōs eī, quæ voluerint, fēcisse, quemadmodum dē eō scrīptum est.”
 \p
 \v 14 Deinde ubi vēnit ad discipulōs, vīdit circā eōs ingentem hominum multitūdinem, et cum iīs contendentēs scrībās:
 \v 15 Ac vulgō simul ac eum vīdērunt admīrātī, eum salūtātum accurrunt.
@@ -470,7 +470,7 @@
 \v 26 Tum ille exclāmandō, eumque vehementer laniandō exiit. Atque is perinde fuit ac mortuus, ita ut multī mortuum esse dīcerent.
 \v 27 At Jēsūs eum manū prehēnsum allevāvit, atque ille surrēxit.
 \v 28 Eum autem domum ingressum, discipulī seorsum interrogārunt, cūr ipsī eum expellere nequīvissent.
-\v 29 Quibus ille: “Hoc genus,” inquit, “nūllā rē ējicī potest, nisi precibus et jejūniīs.”
+\v 29 Quibus ille: “Hoc genus,” inquit, “nūllā rē ējicī potest, nisi precibus [et jejūniīs].”
 \p
 \v 30 Illinc profectī iter faciēbant per Galilæam, nec ille volēbat, ut id scīret quisquam.
 \v 31 Docēbat enim discipulōs suōs, iīsque dīcēbat, Fīlium Hominis trādendum esse in hominum manūs, quī eum interficerent, isque interfectus, tertiō diē resurgeret.
@@ -494,7 +494,7 @@
 \v 47 Et sī tibi tuus oculus officit, ērue eum: satius est tibi ūnoculum in Deī rēgnum ingredī: quam duōs habentem oculōs in ignis gehennam conjicī,
 \v 48 \qt ‘Ubi nec eōrum vermis interit, nec ignis exstinguitur.’\qt*
 \p
-\v 49 “Nam et omnēs igne saliendī, et omne sacrificium sale saliendum est.
+\v 49 “Nam et omnēs igne saliendī[, et omne sacrificium sale saliendum est].
 \v 50 Bonum est sāl: sed sī sāl īnsulsum fīat, quō condiētur ipsum? Habēte in vōbīs salem, et pācem inter vōs gerite.”
 
 \c 10
@@ -521,11 +521,11 @@
 \v 18 Cui Jēsūs: “Quid mē dīcis bonum?” inquit. “Nūllus est bonus, nisi ūnus Deus.
 \v 19 Præcepta nōstī: \qt ‘Nē adulterātō: nē occīditō: nē fūrātor: nē falsum testimōnium dīcitō: nē fraudātō: honōrātō tuum patrem atque mātrem.’\qt*”
 \v 20 Et ille respondēns: “Magister,” inquit, “hæc omnia ā puerīs servāvī.”
-\v 21 Hīc Jēsūs eum intuitus, amāvit, eīque dīxit: “Ūnum tibi deest. Ī vēnditum quidquid habēs, et in pauperēs ērogātō, habitūrus in cælō thēsaurum: deinde mē, crucem ferēns, secūtum venītō.”
+\v 21 Hīc Jēsūs eum intuitus, amāvit, eīque dīxit: “Ūnum tibi deest. Ī vēnditum quidquid habēs, et in pauperēs ērogātō, habitūrus in cælō thēsaurum: deinde mē, [crucem ferēns,] secūtum venītō.”
 \v 22 At ille eō dictō mæstus abiit, dolēns: quippe quī multīs præditus esset opibus.
 \p
 \v 23 Et Jēsūs circum intuitus, dīcit discipulīs suīs: “Ō quam difficulter, quī pecūniās habent, in Deī rēgnum ingredientur?”
-\v 24 Hīc cum discipulī ejus dicta dēmīrārentur, Jēsūs rūrsum sīc eōs alloquitur: “Ō nātī, quam difficile est, frētōs pecūniīs in Deī rēgnum ingredī?
+\v 24 Hīc cum discipulī ejus dicta dēmīrārentur, Jēsūs rūrsum sīc eōs alloquitur: “Ō nātī, quam difficile est, [frētōs pecūniīs] in Deī rēgnum ingredī?
 \v 25 Facilius est rudentem\f + \fr 10:25 \ft Græcē κάμηλος; Castelliō fūnem nauticum intellegit, doctī nostræ ætātis plērīque camēlum.\f* per forāmen acūs trājicī, quam dīvitem in Deī rēgnum intrāre.”
 \v 26 Cumque illī vehementius stupērent, sīc sēcum ipsī cōgitantēs: “Quis ergō servārī potest?”
 \v 27 Intuitus eōs Jēsūs, dīxit: “Ab hominibus fierī nōn potest, at ā Deō potest: omnia enim ā Deō possunt fierī.”
@@ -636,7 +636,7 @@ Igitur eō relictō dīgressī,
 \v 27 Nōn est mortuōrum Deus, sed vīventium Deus. Itaque vōs multum errātis.”
 \p
 \v 28 Tum scrībārum quīdam, audītīs iīs disceptantibus, vidēns eum illīs rēctē respondisse, accessit, et ex eō quæsīvit, quodnam esset omnium præceptōrum prīmum.
-\v 29 Cui Jēsūs sīc respondit: “Prīmum omnium præceptōrum est: \qt ‘Audī Isrāēlīta: Dominus Deus vester, Dominus ūnus est:\qt*
+\v 29 Cui Jēsūs sīc respondit: “Prīmum omnium præceptōrum est: \qt ‘Audī Isrāēlīta: Dominus Deus vester\f + \fr 12:29 \ft Græcē ὁ θεὸς ἡμῶν, ‘Deus noster’.\f*, Dominus ūnus est:\qt*
 \v 30 \qt Itaque Dominum Deum tuum, tōtō corde, tōtō animō, tōtā mente, tōtīsque vīribus amātō.’\qt* Hoc prīmum est præceptum.
 \v 31 Huic simile est alterum: \qt ‘Alterum ut tē ipsum amātō.’\qt* Hīs majus aliud præceptum nūllum est.”
 \v 32 Et scrība: “Rēctē magister, profectō, dīxistī. Nam ūnus est Deus, prætereā nūllus:
@@ -658,7 +658,7 @@ Cumque frequēns hominum multitūdō eum libenter audīret,
 \v 40 Quī viduārum domōs dēvorant, et per ostentātiōnem prōlixē ōrant. Hī graviōrēs pœnās dabunt.”
 \p
 \v 41 Sedēns autem Jēsūs ē regiōne fiscī, spectābat, ut multitūdō cōnferret æs in fiscum. Ac multīs dīvitibus multa cōnferentibus,
-\v 42 vēnit quædam vidua pauper, quæ duōs terunciōs contulit. Est autem teruncius īdem quod quadrāns.
+\v 42 vēnit quædam vidua pauper, quæ duōs terunciōs contulit. Est autem teruncius īdem quod quadrāns\f + \fr 12:42 \ft Græcē λεπτὰ δύο, ὅ ἐστι κοδράντης: duo nummī simul quadrantem efficiunt.\f*.
 \v 43 Tum ille advocātīs suīs discipulīs: “Certō scītōte,” inquit iīs, “hanc pauperem viduam plūrimum omnium contulisse, quī contulērunt in fiscum.
 \v 44 Omnēs enim ex eō quod ipsīs supererat, contulērunt: at hæc suā pēnūriā, quidquid habēbat, tōtum vīctum suum contulit.”
 
@@ -679,7 +679,7 @@ Cumque frequēns hominum multitūdō eum libenter audīret,
 \v 12 Trādet autem frātrem frāter ad mortem, et pater fīlium, cōnsurgentque in parentēs nātī, et eōs necābunt,
 \v 13 eritisque omnibus invīsī propter nōmen meum: sed quī ad fīnem pertulerit, is servābitur.
 \p
-\v 14 “Cum autem calamitōsum nefās ā Daniēle vāte prædictum, stāre vidēbitis ubi nōn dēbet (quī legit animadvertat), tum quī erunt in Jūdæā, fugiant in montēs.
+\v 14 “Cum autem calamitōsum nefās [ā Daniēle vāte prædictum,] stāre vidēbitis ubi nōn dēbet (quī legit animadvertat), tum quī erunt in Jūdæā, fugiant in montēs.
 \v 15 Et quī erit in tēctō, nē dēscendat in ædēs, nec ingrediātur ad auferendum aliquid ex suīs ædibus:
 \v 16 Et quī rūrī erit, nē gradum referat, suæ vestis auferendæ grātiā.
 \v 17 Hei uterum ferentibus, et lactantibus illō tempore.
@@ -740,7 +740,7 @@ Cumque frequēns hominum multitūdō eum libenter audīret,
 \v 21 Fīlius quidem Hominis abit quemadmodum dē eō scrīptum est. Sed væ hominī illī per quem Fīlius Hominis prōdendus est. Præstāret hominī illī, numquam esse nātum.”
 \v 22 Epulantibus autem iīs, Jēsūs sūmptum pānem, āctīs laudibus, frēgit, iīsque dedit, et dīxit: “Accipite, comedite, hoc est corpus meum.”
 \v 23 Deinde sūmptum pōculum, grātiīs āctīs, dedit iīs: bibēruntque ex eō omnēs:
-\v 24 Atque ille iīs dīxit: “Hic est sanguis meus novī fœderis, prō multīs effundendus.
+\v 24 Atque ille iīs dīxit: “Hic est sanguis meus [novī] fœderis, prō multīs effundendus.
 \v 25 Hoc vōbīs certō dīcō, nōn mē amplius bibitūrum ex fētū vīteō, ūsque ad illam diem, cum eum bibam novum in rēgnō Deī.”
 \p
 \v 26 Deinde laudibus dictīs, profectī sunt in montem olīvārum,
@@ -818,7 +818,7 @@ Cumque frequēns hominum multitūdō eum libenter audīret,
 \v 14 Et Pīlātus: “Quid enim malī fēcit?” inquit iīs. At illī eō ācrius clāmāre: “Crucī fīge eum.”
 \v 15 Igitur Pīlātus volēns plēbī satisfacere, laxāvit iīs Barabbam, Jēsumque verberāvit, et iīs crucī fīgendum trādidit.
 \p
-\v 16 Et mīlitēs eō extrā ātrium, hoc est prætōrium, ēductō, tōtam cohortem convocant,
+\v 16 Et mīlitēs eō extrā ātrium\f + \fr 15:16 \ft Græcē ἔσω τῆς αὐλῆς, ‘intrā ātrium’.\f*, hoc est prætōrium, ēductō, tōtam cohortem convocant,
 \v 17 eumque purpurā induunt, et eī implexam spīneam corōnam impōnunt,
 \v 18 eumque sīc salūtāre incipiunt: “Salvē rēx Jūdæōrum.”
 \v 19 Ejusque caput arundine tundunt, et eum cōnspuunt, ac positīs genibus venerantur.
@@ -839,8 +839,8 @@ Cumque frequēns hominum multitūdō eum libenter audīret,
 \p
 \v 33 Hōrā sextā autem exstitērunt per tōtam terram tenebræ, ūsque ad hōram nōnam.
 \v 34 Ac hōrā nōnā exclāmāvit Jēsūs magnā vōce, dīcēns: “Eloi eloi lāmā sabachtanī,” quōrum verbōrum hæc nōtiō est: “Mī Deus, mī Deus, cūr mē dērelīquistī?”
-\v 35 Quō audītō, quīdam eōrum quī aderant, dīcēbant eum Ēliam vocāre.
-\v 36 Quīdam autem accurrit, et implētā acētō spongiā, arundinīque affīxā, eī bibere dat, dīcēns: “Sinite videāmus an eum ēreptum veniat Ēliās.”
+\v 35 Quō audītō, quīdam eōrum quī aderant, dīcēbant eum Ēlīam vocāre.
+\v 36 Quīdam autem accurrit, et implētā acētō spongiā, arundinīque affīxā, eī bibere dat, dīcēns: “Sinite videāmus an eum ēreptum veniat Ēlīās.”
 \v 37 Et Jēsūs, ēmissā magnā vōce expīrāvit,
 \v 38 et templī vēlum ā summō ad īmum in duās partēs fissum est.
 \v 39 Ac vidēns centuriō, quī eī ex adversō astābat, eum ita clāmantem expīrāsse, dīxit: “Profectō hic homō Fīlius erat Deī.”

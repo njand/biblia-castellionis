@@ -2,7 +2,7 @@
 pdfLaTeX; `engine`) when a TeX install is on the PATH (scripts/install-texlive.sh installs one).
 
 The preamble is pipeline/templates/preamble.tex (memoir, A5, each book in two balanced columns, lettrine drop
-caps, running heads giving the verses on the page, \\Liber, \\Caput, \\Versus, \\FinisLibri), with
+caps, running heads giving the first verse on a verso, the last on a recto, \\Liber, \\Caput, \\Versus, \\FinisLibri), with
 templates/title.tex inlined so the file stands alone. After the last book comes a page listing the Wikisource
 pages and revisions used (`sources`). Each book's body is `latex.to_latex`, the same conversion the migration's round trip proved lossless. Added after the preamble: the commands for a
 chapter summary (\\Argumentum) and a psalm title (\\Titulus), ȳ for inputenc, and the title and colophon pages. The

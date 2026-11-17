@@ -45,7 +45,7 @@ for it; the sentence on the Apocrypha appears only once they are built.
 > Basilēæ uxōrem et līberōs complūrēs librīs Opōrinī typographī, ut vidētur, ēmendandīs et manuum etiam labōre
 > aluit, tamque pauper erat ut Michaēl Montānus, scrīptor Gallicus (Michel de Montaigne), posteā magnō suī sæculī
 > dēdecorī esse scrīberet quod vir doctissimus ita dēcessisset ut nē cibī quidem satis habēret. Ibi tamen Biblia
-> Latīna perfēcit, deinde Gallica, quæ annō dēmum 2005 rūrsus excūsa sunt. Hæc sermōne cotīdiānō vertit ut eī quoque
+> Latīna perfēcit, deinde Gallica, quæ annō dēmum 2005 rūrsus excūsa sunt. Hæc sermōne cotīdiānō vertit ut iī quoque
 > legerent quī Latīnē nescīrent; quem sermōnem Henrīcus Stephanus, typographus Genāvēnsis, irrīdēns mendīcōrum esse
 > dīxit.
 >
