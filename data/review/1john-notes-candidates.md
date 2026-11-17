@@ -1,0 +1,211 @@
+# 1John: candidates for light notes
+
+Built by `python -m pipeline notes 1John` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `1john-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 47; not a change of sense (order, article, form, small words): 24; the TR with the critical text: 4; in a verse already noted or bracketed: 0; **kept: 19**, in 15 verses. The TR alone against SBLGNT (no apparatus unit): 10, in 9 verses. Pronoun person (Latin against the TR): 0.
+
+## Text: clause (2 verses)
+
+- **4:3** add (clause): critical *Ἰησοῦν* ] RP *+ Χριστὸν ἐν σαρκὶ ἐληλυθότα*
+   - Latin: Quisquis autem spīritus Jēsum Chrīstum corporātum vēnisse nōn cōnfitētur, is ā Deō nōn est. Atque hoc illud est dē antichrīstō, quod audīstis, ventūrum esse, quī jam nunc in mundō est.
+   - 1573: Quisquis autem spiritus Iesum Christum corporatum venisse non confitetur, is à Deo non est. Atque hoc illud est de Antichristo quod audiuistis, venturum esse, qui iam nunc in mundo est.
+   - TR: καὶ πᾶν πνεῦμα ὃ μὴ ὁμολογεῖ τὸν Ἰησοῦν Χριστὸν ἐν σαρκὶ ἐληλυθότα, ἐκ τοῦ Θεοῦ οὐκ ἔστι· καὶ τοῦτό ἐστι τὸ τοῦ ἀντιχρίστου, ὃ ἀκηκόατε ὅτι ἔρχεται, καὶ νῦν ἐν τῷ κόσμῳ ἐστὶν ἤδη.
+   - SBLGNT: καὶ πᾶν πνεῦμα ὃ μὴ ὁμολογεῖ τὸν Ἰησοῦν ἐκ τοῦ θεοῦ οὐκ ἔστιν· καὶ τοῦτό ἐστιν τὸ τοῦ ἀντιχρίστου, ὃ ἀκηκόατε ὅτι ἔρχεται, καὶ νῦν ἐν τῷ κόσμῳ ἐστὶν ἤδη.
+   - Vulgate: et omnis spiritus qui solvit Jesum, ex Deo non est, et hic est antichristus, de quo audistis quoniam venit, et nunc jam in mundo est.
+   - BSB: and every spirit that does not confess Jesus is not from God. This is the spirit of the antichrist, which you have heard is coming and which is already in the world at this time.
+   - WEB: and every spirit who doesn’t confess that Jesus Christ has come in the flesh is not of God; and this is the spirit of the Antichrist, of whom you have heard that it comes. Now it is in the world already.
+- **5:13** add (clause): critical *ὑμῖν* ] RP *+ τοῖς πιστεύουσιν εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ*; substitute (word): critical *τοῖς πιστεύουσιν* ] RP *καὶ ἵνα πιστεύητε*
+   - Latin: Hæc ego vōbīs, in nōmen Fīliī Deī crēdentibus, ideō scrīpsī, ut vōs æternam habēre vītam sciātis, utque in nōmen Fīliī Deī crēdātis.
+   - 1573: Hæc ego vobis, in nomen filij Dei credentibus, ideò scripsi, vt vos æternam habere vitam sciatis, vtque in nomen filij Dei credatis.
+   - TR: Ταῦτα ἔγραψα ὑμῖν τοῖς πιστεύουσιν εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ Θεοῦ, ἵνα εἰδῆτε ὅτι ζωὴν ἔχετε αἰώνιον, καὶ ἵνα πιστεύητε εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ Θεοῦ.
+   - SBLGNT: Ταῦτα ἔγραψα ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ἔχετε αἰώνιον, τοῖς πιστεύουσιν εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ.
+   - Vulgate: Hæc scribo vobis ut sciatis quoniam vitam habetis æternam, qui creditis in nomine Filii Dei.
+   - BSB: I have written these things to you who believe in the name of the Son of God, so that you may know that you have eternal life.
+   - WEB: These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God.
+
+## Text: person (1 verses)
+
+- **1:4** substitute (person): critical *ἡμεῖς* ] RP *ὑμῖν*
+   - Latin: Atque hæc vōbīs scrībimus, ut plēnā afficiāminī lætitiā.
+   - 1573: Atque hæc vobis scribimus, vt plena afficiamini lætitia
+   - TR: καὶ ταῦτα γράφομεν ὑμῖν, ἵνα ἡ χαρὰ ὑμῶν ᾖ πεπληρωμένη.
+   - SBLGNT: καὶ ταῦτα γράφομεν ἡμεῖς ἵνα ἡ χαρὰ ἡμῶν ᾖ πεπληρωμένη.
+   - Vulgate: Et hæc scribimus vobis ut gaudeatis, et gaudium vestrum sit plenum.
+   - BSB: We write these things so that our joy may be complete.
+   - WEB: And we write these things to you, that our joy may be fulfilled.
+
+## Text: word (12 verses)
+
+- **1:7** add (word): critical *Ἰησοῦ* ] RP *+ Χριστοῦ*
+   - Latin: Sī in lūce versāmur, ut ipse in lūce est, nōbīs est inter nōs commūnitās: nōsque Jēsū Chrīstī sanguis, ejus Fīliī, expūrgat ab omnī peccātō.
+   - 1573: Si in luce versamur, vt ipse in luce est: nobis est inter nos communitas: nosque Iesu Christi sanguis, eius filij, expurgat ab omni peccato.
+   - TR: ἐὰν δὲ ἐν τῷ φωτὶ περιπατῶμεν, ὡς αὐτός ἐστιν ἐν τῷ φωτί, κοινωνίαν ἔχομεν μετ᾿ ἀλλήλων, καὶ τὸ αἷμα Ἰησοῦ Χριστοῦ τοῦ υἱοῦ αὐτοῦ καθαρίζει ἡμᾶς ἀπὸ πάσης ἁμαρτίας.
+   - SBLGNT: ἐὰν δὲ ἐν τῷ φωτὶ περιπατῶμεν ὡς αὐτός ἐστιν ἐν τῷ φωτί, κοινωνίαν ἔχομεν μετʼ ἀλλήλων καὶ τὸ αἷμα Ἰησοῦ τοῦ υἱοῦ αὐτοῦ καθαρίζει ἡμᾶς ἀπὸ πάσης ἁμαρτίας.
+   - Vulgate: Si autem in luce ambulamus sicut et ipse est in luce, societatem habemus ad invicem, et sanguis Jesu Christi, Filii ejus, emundat nos ab omni peccato.
+   - BSB: But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son cleanses us from all sin.
+   - WEB: But if we walk in the light as he is in the light, we have fellowship with one another, and the blood of Jesus Christ his Son cleanses us from all sin.
+- **2:7** substitute (word): critical *Ἀγαπητοί* ] RP *Ἀδελφοί*; add (word): critical *ἠκούσατε* ] RP *+ ἀπʼ ἀρχῆς*
+   - Latin: Frātrēs, nōn novam præceptiōnem vōbīs scrībō, sed veterem præceptiōnem, quam ā prīncipiō habuistis. Præceptiō vetus est sermō, quem audīstis prīncipiō.
+   - 1573: Fratres, non nouam præceptionem vobis scribo, sed veterem præceptionem, quam à principio habuistis. Præceptio vetus, est sermo, quem audiuistis principio.
+   - TR: Ἀδελφοί, οὐκ ἐντολὴν καινὴν γράφω ὑμῖν, ἀλλ᾿ ἐντολὴν παλαιάν, ἣν εἴχετε ἀπ᾿ ἀρχῆς· ἡ ἐντολὴ ἡ παλαιά ἐστιν ὁ λόγος ὃν ἠκούσατε ἀπ᾿ ἀρχῆς.
+   - SBLGNT: Ἀγαπητοί, οὐκ ἐντολὴν καινὴν γράφω ὑμῖν, ἀλλʼ ἐντολὴν παλαιὰν ἣν εἴχετε ἀπʼ ἀρχῆς· ἡ ἐντολὴ ἡ παλαιά ἐστιν ὁ λόγος ὃν ἠκούσατε.
+   - Vulgate: Carissimi, non mandatum novum scribo vobis, sed mandatum vetus, quod habuistis ab initio. Mandatum vetus est verbum, quod audistis.
+   - BSB: Beloved, I am not writing to you a new commandment, but an old one, which you have had from the beginning. This commandment is the message you have heard.
+   - WEB: Brothers, I write no new commandment to you, but an old commandment which you had from the beginning. The old commandment is the word which you heard from the beginning.
+- **2:28** substitute (word): critical *ἐὰν* ] RP *ὅταν*; substitute (word): critical *σχῶμεν* ] RP *ἔχῶμεν*
+   - Latin: Et nunc, fīliolī, manēte in eō, ut, cum exsistet, cōnfīdentiam habeāmus, nec eum in ejus adventū ērubēscāmus.
+   - 1573: Et nunc, filioli, manete in eo, vt cum existet, confidentiam habeamus, nec eum in eius aduentu erubescamus.
+   - TR: Καὶ νῦν, τεκνία, μένετε ἐν αὐτῷ· ἵνα ὅταν φανερωθῇ, ἔχωμεν παρρησίαν, καὶ μὴ αἰσχυνθῶμεν ἀπ᾿ αὐτοῦ ἐν τῇ παρουσίᾳ αὐτοῦ.
+   - SBLGNT: Καὶ νῦν, τεκνία, μένετε ἐν αὐτῷ, ἵνα ἐὰν φανερωθῇ σχῶμεν παρρησίαν καὶ μὴ αἰσχυνθῶμεν ἀπʼ αὐτοῦ ἐν τῇ παρουσίᾳ αὐτοῦ.
+   - Vulgate: Et nunc, filioli, manete in eo: ut cum apparuerit, habeamus fiduciam, et non confundamur ab eo in adventu ejus.
+   - BSB: And now, little children, remain in Christ, so that when He appears, we may be confident and unashamed before Him at His coming.
+   - WEB: Now, little children, remain in him, that when he appears, we may have boldness and not be ashamed before him at his coming.
+- **3:1** omit (word): critical *καὶ ἐσμέν* ] RP *–*
+   - Latin: Vidēte, quantō nōs prōsecūtus sit amōre Pater, ut Deī fīliī vocēmur. Ideō nōs mundus nōn cognōscit, quod eum nōn cognōscit.
+   - 1573: Videte quanto nos prosecutus sit amore pater, vt Dei filij vocemur. Ideo nos mundus non cognoscit, quòd eum non cognoscit.
+   - TR: Ἴδετε ποταπὴν ἀγάπην δέδωκεν ἡμῖν ὁ πατήρ, ἵνα τέκνα Θεοῦ κληθῶμεν. Διὰ τοῦτο ὁ κόσμος οὐ γινώσκει ἡμᾶς, ὅτι οὐκ ἔγνω αὐτόν.
+   - SBLGNT: ἴδετε ποταπὴν ἀγάπην δέδωκεν ἡμῖν ὁ πατὴρ ἵνα τέκνα θεοῦ κληθῶμεν, καὶ ἐσμέν. διὰ τοῦτο ὁ κόσμος οὐ γινώσκει ἡμᾶς ὅτι οὐκ ἔγνω αὐτόν.
+   - Vulgate: Videte qualem caritatem dedit nobis Pater, ut filii Dei nominemur et simus. Propter hoc mundus non novit nos: quia non novit eum.
+   - BSB: Behold what manner of love the Father has given to us, that we should be called children of God. And that is what we are! The reason the world does not know us is that it did not know Him.
+   - WEB: See how great a love the Father has given to us, that we should be called children of God! For this cause the world doesn’t know us, because it didn’t know him.
+- **3:14** add (word): critical *ἀγαπῶν* ] RP *+ τὸν ἀδελφόν*
+   - Latin: Nōs scīmus, nōs ā morte ad vītam migrāsse, quoniam frātrēs amāmus. Quī frātrem nōn amat, manet in morte:
+   - 1573: Nos scimus, nos à morte ad vitam migrasse, quoniam fratres amamus. Qui fratrem non amat, manet in morte:
+   - TR: ἡμεῖς οἴδαμεν ὅτι μεταβεβήκαμεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν, ὅτι ἀγαπῶμεν τοὺς ἀδελφούς. Ὁ μὴ ἀγαπῶν τὸν ἀδελφόν, μένει ἐν τῷ θανάτῳ.
+   - SBLGNT: ἡμεῖς οἴδαμεν ὅτι μεταβεβήκαμεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν, ὅτι ἀγαπῶμεν τοὺς ἀδελφούς· ὁ μὴ ἀγαπῶν μένει ἐν τῷ θανάτῳ.
+   - Vulgate: Nos scimus quoniam translati sumus de morte ad vitam, quoniam diligimus fratres. Qui non diligit, manet in morte:
+   - BSB: We know that we have passed from death to life, because we love our brothers. The one who does not love remains in death.
+   - WEB: We know that we have passed out of death into life, because we love the brothers. He who doesn’t love his brother remains in death.
+- **3:16** substitute (word): critical *θεῖναι* ] RP *τιθέναι*
+   - Latin: Inde amōrem cognōscimus, quod et ille prō nōbīs animam suam posuit, et nōs dēbēmus prō frātribus animās pōnere.
+   - 1573: Inde amorem cognoscimus, quòd et ille pro nobis animam suam posuit, et nos debemus pro fratribus animas ponere.
+   - TR: Ἐν τούτῳ ἐγνώκαμεν τὴν ἀγάπην, ὅτι ἐκεῖνος ὑπὲρ ἡμῶν τὴν ψυχὴν αὐτοῦ ἔθηκε· καὶ ἡμεῖς ὀφείλομεν ὑπὲρ τῶν ἀδελφῶν τὰς ψυχὰς τιθέναι.
+   - SBLGNT: ἐν τούτῳ ἐγνώκαμεν τὴν ἀγάπην, ὅτι ἐκεῖνος ὑπὲρ ἡμῶν τὴν ψυχὴν αὐτοῦ ἔθηκεν· καὶ ἡμεῖς ὀφείλομεν ὑπὲρ τῶν ἀδελφῶν τὰς ψυχὰς θεῖναι.
+   - Vulgate: In hoc cognovimus caritatem Dei, quoniam ille animam suam pro nobis posuit: et nos debemus pro fratribus animas ponere.
+   - BSB: By this we know what love is: Jesus laid down His life for us, and we ought to lay down our lives for our brothers.
+   - WEB: By this we know love, because he laid down his life for us. And we ought to lay down our lives for the brothers.
+- **3:19** substitute (word): critical *γνωσόμεθα* ] RP *γινώσκομεν*; substitute (word): critical *τὴν καρδίαν* ] RP *τὰς καρδίας*
+   - Latin: Ita fīet, ut nōs ā vēritāte esse intellegāmus, et id in ejus cōnspectū animīs persuāsum habeāmus.
+   - 1573: Ita fiet, vt nos à veritate esse intelligamus, et id in eius conspectu animis persuasum habeamus.
+   - TR: Καὶ ἐν τούτῳ γινώσκομεν ὅτι ἐκ τῆς ἀληθείας ἐσμέν, καὶ ἔμπροσθεν αὐτοῦ πείσομεν τὰς καρδίας ἡμῶν,
+   - SBLGNT: ἐν τούτῳ γνωσόμεθα ὅτι ἐκ τῆς ἀληθείας ἐσμέν, καὶ ἔμπροσθεν αὐτοῦ πείσομεν τὴν καρδίαν ἡμῶν
+   - Vulgate: in hoc cognoscimus quoniam ex veritate sumus: et in conspectu ejus suadebimus corda nostra.
+   - BSB: And by this we will know that we belong to the truth, and will assure our hearts in His presence:
+   - WEB: And by this we know that we are of the truth and persuade our hearts before him,
+- **3:22** substitute (word): critical *ἀπʼ* ] RP *παρʼ*
+   - Latin: Ac quidquid postulāmus, id ab eō impetrāmus, quoniam ejus præceptīs obtemperāmus, eīque mōrem gerimus.
+   - 1573: ac quicquid postulamus, id ab eo impetramus, quoniam eius præceptis obtemperamus, eique morem gerimus.
+   - TR: καὶ ὃ ἐὰν αἰτῶμεν, λαμβάνομεν παρ᾿ αὐτοῦ, ὅτι τὰς ἐντολὰς αὐτοῦ τηροῦμεν, καὶ τὰ ἀρεστὰ ἐνώπιον αὐτοῦ ποιοῦμεν.
+   - SBLGNT: καὶ ὃ ἐὰν αἰτῶμεν λαμβάνομεν ἀπʼ αὐτοῦ, ὅτι τὰς ἐντολὰς αὐτοῦ τηροῦμεν καὶ τὰ ἀρεστὰ ἐνώπιον αὐτοῦ ποιοῦμεν.
+   - Vulgate: et quidquid petierimus, accipiemus ab eo: quoniam mandata ejus custodimus, et ea, quæ sunt placita coram eo, facimus.
+   - BSB: and we will receive from Him whatever we ask, because we keep His commandments and do what is pleasing in His sight.
+   - WEB: so whatever we ask, we receive from him, because we keep his commandments and do the things that are pleasing in his sight.
+- **4:20** substitute (word): critical *οὐ* ] RP *πῶς*
+   - Latin: Sī quis ā sē Deum amārī dīcit, et tamen frātrem suum ōdit, mendāx est. Quī enim frātrem suum, quem vīdit, nōn amat, Deum, quem nōn vīdit, quī possit amāre?
+   - 1573: Si quis à se Deum amari dicit, et tamen fratrem suum odit, mendax est. Qui enim fratrem suum, quem vidit non amat, Deum: quem non vidit, qui possit amare?
+   - TR: Ἐάν τις εἴπῃ ὅτι Ἀγαπῶ τὸν Θεόν, καὶ τὸν ἀδελφὸν αὐτοῦ μισῇ, ψεύστης ἐστίν· ὁ γὰρ μὴ ἀγαπῶν τὸν ἀδελφὸν αὐτοῦ ὃν ἑώρακε, τὸν Θεὸν ὃν οὐχ ἑώρακε πῶς δύναται ἀγαπᾷν;
+   - SBLGNT: ἐάν τις εἴπῃ ὅτι Ἀγαπῶ τὸν θεόν, καὶ τὸν ἀδελφὸν αὐτοῦ μισῇ, ψεύστης ἐστίν· ὁ γὰρ μὴ ἀγαπῶν τὸν ἀδελφὸν αὐτοῦ ὃν ἑώρακεν, τὸν θεὸν ὃν οὐχ ἑώρακεν οὐ δύναται ἀγαπᾶν.
+   - Vulgate: Si quis dixerit: Quoniam diligo Deum, et fratrem suum oderit, mendax est. Qui enim non diligit fratrem suum quem vidit, Deum, quem non vidit, quomodo potest diligere?
+   - BSB: If anyone says, “I love God,” but hates his brother, he is a liar. For anyone who does not love his brother, whom he has seen, cannot love God, whom he has not seen.
+   - WEB: If a man says, “I love God,” and hates his brother, he is a liar; for he who doesn’t love his brother whom he has seen, how can he love God whom he has not seen?
+- **5:2** substitute (word): critical *ποιῶμεν* ] RP *τηρῶμεν*
+   - Latin: Hinc intellegimus, amārī ā nōbīs Deī fīliōs, sī Deum amāmus, ejusque præceptīs obtemperāmus.
+   - 1573: Hinc intelligimus amari à nobis Dei filios, si Deum amamus, eiusque præceptis obtemperamus.
+   - TR: Ἐν τούτῳ γινώσκομεν ὅτι ἀγαπῶμεν τὰ τέκνα τοῦ Θεοῦ, ὅταν τὸν Θεὸν ἀγαπῶμεν, καὶ τὰς ἐντολὰς αὐτοῦ τηρῶμεν.
+   - SBLGNT: ἐν τούτῳ γινώσκομεν ὅτι ἀγαπῶμεν τὰ τέκνα τοῦ θεοῦ, ὅταν τὸν θεὸν ἀγαπῶμεν καὶ τὰς ἐντολὰς αὐτοῦ ποιῶμεν·
+   - Vulgate: In hoc cognoscimus quoniam diligamus natos Dei, cum Deum diligamus, et mandata ejus faciamus.
+   - BSB: By this we know that we love the children of God: when we love God and keep His commandments.
+   - WEB: By this we know that we love the children of God, when we love God and keep his commandments.
+- **5:9** substitute (word): critical *ὅτι* ] RP *ἥν*
+   - Latin: Sī hominum testimōnium admittimus, Deī testimōnium majus est. Atque hoc est, quod Deus dē Fīliō suō testimōnium dīxit:
+   - 1573: Si hominum testimonium admittimus, Dei testimonium maius est. Atque hoc est quod Deus de filio suo testimonium dixit:
+   - TR: Εἰ τὴν μαρτυρίαν τῶν ἀνθρώπων λαμβάνομεν, ἡ μαρτυρία τοῦ Θεοῦ μείζων ἐστίν· ὅτι αὕτη ἐστὶν ἡ μαρτυρία τοῦ Θεοῦ, ἣν μεμαρτύρηκε περὶ τοῦ υἱοῦ αὐτοῦ.
+   - SBLGNT: εἰ τὴν μαρτυρίαν τῶν ἀνθρώπων λαμβάνομεν, ἡ μαρτυρία τοῦ θεοῦ μείζων ἐστίν, ὅτι αὕτη ἐστὶν ἡ μαρτυρία τοῦ θεοῦ ὅτι μεμαρτύρηκεν περὶ τοῦ υἱοῦ αὐτοῦ.
+   - Vulgate: Si testimonium hominum accipimus, testimonium Dei majus est: quoniam hoc est testimonium Dei, quod majus est, quoniam testificatus est de Filio suo.
+   - BSB: Even if we accept human testimony, the testimony of God is greater. For this is the testimony that God has given about His Son.
+   - WEB: If we receive the witness of men, the witness of God is greater; for this is God’s testimony which he has testified concerning his Son.
+- **5:15** substitute (word): critical *ἀπʼ* ] RP *παρʼ*
+   - Latin: Quod sī nōs ab eō audīrī scīmus, quidquid poscāmus, scīmus, ea obtinuisse nōs, quæ ab eō poposcimus.
+   - 1573: Quòd si nos ab eo audiri scimus, quicquid poscamus, scimus ea obtinuisse nos quæ ab eo poposcimus.
+   - TR: καὶ ἐὰν οἴδαμεν ὅτι ἀκούει ἡμῶν, ὃ ἂν αἰτώμεθα, οἴδαμεν ὅτι ἔχομεν τὰ αἰτήματα ἃ ᾐτήκαμεν παρ᾿ αὐτοῦ.
+   - SBLGNT: καὶ ἐὰν οἴδαμεν ὅτι ἀκούει ἡμῶν ὃ ἐὰν αἰτώμεθα, οἴδαμεν ὅτι ἔχομεν τὰ αἰτήματα ἃ ᾐτήκαμεν ἀπʼ αὐτοῦ.
+   - Vulgate: Et scimus quia audit nos quidquid petierimus: scimus quoniam habemus petitiones quas postulamus ab eo.
+   - BSB: And if we know that He hears us in whatever we ask, we know that we already possess what we have asked of Him.
+   - WEB: And if we know that he listens to us, whatever we ask, we know that we have the petitions which we have asked of him.
+
+## The TR alone (RP with the critical text; 9 verses)
+
+- **1:5** substitute (word): SBLGNT *αγγελια* ] TR *επαγγελια*
+   - Latin: Est autem hoc nūntium, quod et ab illō audīvimus, et vōbīs nūntiāmus Deum esse lūmen, nec ūllās in eō tenebrās esse.
+   - 1573: Est autem hoc nuncium, quod et ab illo audiuimus, et vobis nunciamus, Deum esse lumen, nec vllas in eo tenebras esse.
+   - TR: Καὶ αὕτη ἐστίν ἡ ἐπαγγελία ἣν ἀκηκόαμεν ἀπ᾿ αὐτοῦ καὶ ἀναγγέλλομεν ὑμῖν, ὅτι ὁ Θεὸς φῶς ἐστί, καὶ σκοτία ἐν αὐτῷ οὐκ ἔστιν οὐδεμία.
+   - SBLGNT: Καὶ ἔστιν αὕτη ἡ ἀγγελία ἣν ἀκηκόαμεν ἀπʼ αὐτοῦ καὶ ἀναγγέλλομεν ὑμῖν, ὅτι ὁ θεὸς φῶς ἐστιν καὶ σκοτία ἐν αὐτῷ οὐκ ἔστιν οὐδεμία.
+   - Vulgate: Et hæc est annuntiatio, quam audivimus ab eo, et annuntiamus vobis: quoniam Deus lux est, et tenebræ in eo non sunt ullæ.
+   - BSB: And this is the message we have heard from Him and announce to you: God is light, and in Him there is no darkness at all.
+   - WEB: This is the message which we have heard from him and announce to you, that God is light, and in him is no darkness at all.
+- **2:6** add (word): SBLGNT *–* ] TR *+ ουτω*
+   - Latin: quod quī sē in eō manēre dīcit, dēbet, ut ille sē gessit, ita ipse sē gerere.
+   - 1573: quòd qui se in eo manere dicit, debet, vt ille se gessit, ita ipse se gerere.
+   - TR: ὁ λέγων ἐν αὐτῷ μένειν ὀφείλει, καθὼς ἐκεῖνος περιεπάτησε, καὶ αὐτὸς οὕτω περιπατεῖν.
+   - SBLGNT: ὁ λέγων ἐν αὐτῷ μένειν ὀφείλει καθὼς ἐκεῖνος περιεπάτησεν καὶ αὐτὸς περιπατεῖν.
+   - Vulgate: Qui dicit se in ipso manere, debet, sicut ille ambulavit, et ipse ambulare.
+   - BSB: Whoever claims to abide in Him must walk as Jesus walked.
+   - WEB: he who says he remains in him ought himself also to walk just like he walked.
+- **2:13** add (clause): SBLGNT *–* ] TR *+ γραφω υμιν παιδια οτι εγνωκατε τον πατερα*
+   - Latin: Scrībō vōbīs, patrēs, quia eum, quī ā prīncipiō est, nōvistis. Scrībō vōbīs, juvenēs, quia malum vīcistis.
+   - 1573: Scribo vobis patres, quia eum qui à principio est, nouistis. Scribo vobis iuuenes, quia Malum vicistis.
+   - TR: Γράφω ὑμῖν, πατέρες, ὅτι ἐγνώκατε τὸν ἀπ᾿ ἀρχῆς. Γράφω ὑμῖν, νεανίσκοι, ὅτι νενικήκατε τὸν πονηρόν. Γράφω ὑμῖν, παιδία, ὅτι ἐγνώκατε τὸν πατέρα.
+   - SBLGNT: γράφω ὑμῖν, πατέρες, ὅτι ἐγνώκατε τὸν ἀπʼ ἀρχῆς· γράφω ὑμῖν, νεανίσκοι, ὅτι νενικήκατε τὸν πονηρόν.
+   - Vulgate: Scribo vobis, patres, quoniam cognovistis eum, qui ab initio est. Scribo vobis, adolescentes, quoniam vicistis malignum.
+   - BSB: I am writing to you, fathers, because you know Him who is from the beginning. I am writing to you, young men, because you have overcome the evil one. I have written to you, children, because you know the Father.
+   - WEB: I write to you, fathers, because you know him who is from the beginning. I write to you, young men, because you have overcome the evil one. I write to you, little children, because you know the Father.
+- **2:14** omit (clause): SBLGNT *εγραψα υμιν παιδια οτι εγνωκατε τον πατερα* ] TR *–*
+   - Latin: Scrībō vōbīs, nātī, quia Patrem nōstis. Scrīpsī vōbīs, patrēs, quia eum, quī ā prīncipiō est, nōstis. Scrīpsī vōbīs, adulēscentēs, quoniam fortēs estis, in vōbīsque manet Deī sermō, et malum vīcistis.
+   - 1573: Scribo vobis nati, quia patrem nostis. Scripsi vobis patres, quia eum, qui à principio est, nostis. Scripsi vobis adolescentes, quoniam fortes estis, in vobisque manet Dei sermo, et Malum vicistis:
+   - TR: Ἔγραψα ὑμῖν, πατέρες, ὅτι ἐγνώκατε τὸν ἀπ᾿ ἀρχῆς. Ἔγραψα ὑμῖν, νεανίσκοι, ὅτι ἰσχυροί ἐστε, καὶ ὁ λόγος τοῦ Θεοῦ ἐν ὑμῖν μένει, καὶ νενικήκατε τὸν πονηρόν.
+   - SBLGNT: ἔγραψα ὑμῖν, παιδία, ὅτι ἐγνώκατε τὸν πατέρα· ἔγραψα ὑμῖν, πατέρες, ὅτι ἐγνώκατε τὸν ἀπʼ ἀρχῆς· ἔγραψα ὑμῖν, νεανίσκοι, ὅτι ἰσχυροί ἐστε καὶ ὁ λόγος τοῦ θεοῦ ἐν ὑμῖν μένει καὶ νενικήκατε τὸν πονηρόν.
+   - Vulgate: Scribo vobis, infantes, quoniam cognovistis patrem. Scribo vobis juvenes, quoniam fortes estis, et verbum Dei manet in vobis, et vicistis malignum.
+   - BSB: I have written to you, fathers, because you know Him who is from the beginning. I have written to you, young men, because you are strong, and the word of God abides in you, and you have overcome the evil one.
+   - WEB: I have written to you, fathers, because you know him who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one.
+- **2:23** omit (clause): SBLGNT *ο ομολογων τον υιον και τον πατερα εχει* ] TR *–*
+   - Latin: Quisquis Fīlium negat, nē Patrem quidem habet.
+   - 1573: Quisquis filium negat, ne patrem quidem habet.
+   - TR: Πᾶς ὁ ἀρνούμενος τὸν υἱὸν οὐδὲ τὸν πατέρα ἔχει.
+   - SBLGNT: πᾶς ὁ ἀρνούμενος τὸν υἱὸν οὐδὲ τὸν πατέρα ἔχει· ὁ ὁμολογῶν τὸν υἱὸν καὶ τὸν πατέρα ἔχει.
+   - Vulgate: Omnis qui negat Filium, nec Patrem habet: qui confitetur Filium, et Patrem habet.
+   - BSB: Whoever denies the Son does not have the Father, but whoever confesses the Son has the Father as well.
+   - WEB: Whoever denies the Son doesn’t have the Father. He who confesses the Son has the Father also.
+- **4:16** omit (word): SBLGNT *μενει* ] TR *–*
+   - Latin: Et nōs amōrem, quō nōs Deus prōsequitur, nōvimus ac crēdimus. Deus amor est: et quī in amōre manet, in Deō manet, et Deus in eō.
+   - 1573: Et nos amorem, quo nos Deus prosequitur, nouimus ac credimus. Deus amor est: et qui in amore manet, in Deo manet, et Deus in eo.
+   - TR: Καὶ ἡμεῖς ἐγνώκαμεν καὶ πεπιστεύκαμεν τὴν ἀγάπην ἣν ἔχει ὁ Θεὸς ἐν ἡμῖν. Ὁ Θεὸς ἀγάπη ἐστί, καὶ ὁ μένων ἐν τῇ ἀγάπῃ, ἐν τῷ Θεῷ μένει, καὶ ὁ Θεὸς ἐν αὐτῷ.
+   - SBLGNT: καὶ ἡμεῖς ἐγνώκαμεν καὶ πεπιστεύκαμεν τὴν ἀγάπην ἣν ἔχει ὁ θεὸς ἐν ἡμῖν. Ὁ θεὸς ἀγάπη ἐστίν, καὶ ὁ μένων ἐν τῇ ἀγάπῃ ἐν τῷ θεῷ μένει καὶ ὁ θεὸς ἐν αὐτῷ μένει.
+   - Vulgate: Et nos cognovimus, et credidimus caritati, quam habet Deus in nobis. Deus caritas est: et qui manet in caritate, in Deo manet, et Deus in eo.
+   - BSB: And we have come to know and believe the love that God has for us. God is love; whoever abides in love abides in God, and God in him.
+   - WEB: We know and have believed the love which God has for us. God is love, and he who remains in love remains in God, and God remains in him.
+- **5:10** substitute (word): SBLGNT *αυτω* ] TR *εαυτω*
+   - Latin: Quī crēdit in Deī Fīlium, is in sē Deī testimōnium habet. Quī Deō nōn crēdit, mendācem facit eum: quod testimōniō fidem nōn habeat, quod dīxit Deus dē Fīliō suō.
+   - 1573: Qui credit in Dei filium, is in se Dei testimonium habet. Qui Deo non credit, mendacem facit eum: quòd testimonio fidem non habeat, quod dixit Deus de filio suo.
+   - TR: Ὁ πιστεύων εἰς τὸν υἱὸν τοῦ Θεοῦ ἔχει τὴν μαρτυρίαν ἐν ἑαυτῷ· ὁ μὴ πιστεύων τῷ Θεῷ ψεύστην πεποίηκεν αὐτόν, ὅτι οὐ πεπίστευκεν εἰς τὴν μαρτυρίαν, ἣν μεμαρτύρηκεν ὁ Θεὸς περὶ τοῦ υἱοῦ αὐτοῦ.
+   - SBLGNT: ὁ πιστεύων εἰς τὸν υἱὸν τοῦ θεοῦ ἔχει τὴν μαρτυρίαν ἐν αὑτῷ· ὁ μὴ πιστεύων τῷ θεῷ ψεύστην πεποίηκεν αὐτόν, ὅτι οὐ πεπίστευκεν εἰς τὴν μαρτυρίαν ἣν μεμαρτύρηκεν ὁ θεὸς περὶ τοῦ υἱοῦ αὐτοῦ.
+   - Vulgate: Qui credit in Filium Dei, habet testimonium Dei in se. Qui non credit Filio, mendacem facit eum: quia non credit in testimonium quod testificatus est Deus de Filio suo.
+   - BSB: Whoever believes in the Son of God has this testimony within him; whoever does not believe God has made Him out to be a liar, because he has not believed in the testimony that God has given about His Son.
+   - WEB: He who believes in the Son of God has the testimony in himself. He who doesn’t believe God has made him a liar, because he has not believed in the testimony that God has given concerning his Son.
+- **5:13** omit (clause): SBLGNT *ινα ειδητε οτι ζωην εχετε αιωνιον* ] TR *–*; add (clause): SBLGNT *–* ] TR *+ ινα ειδητε οτι ζωην εχετε αιωνιον και ινα πιστευητε εις το ονομα του υιου του θεου*
+   - Latin: Hæc ego vōbīs, in nōmen Fīliī Deī crēdentibus, ideō scrīpsī, ut vōs æternam habēre vītam sciātis, utque in nōmen Fīliī Deī crēdātis.
+   - 1573: Hæc ego vobis, in nomen filij Dei credentibus, ideò scripsi, vt vos æternam habere vitam sciatis, vtque in nomen filij Dei credatis.
+   - TR: Ταῦτα ἔγραψα ὑμῖν τοῖς πιστεύουσιν εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ Θεοῦ, ἵνα εἰδῆτε ὅτι ζωὴν ἔχετε αἰώνιον, καὶ ἵνα πιστεύητε εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ Θεοῦ.
+   - SBLGNT: Ταῦτα ἔγραψα ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ἔχετε αἰώνιον, τοῖς πιστεύουσιν εἰς τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ.
+   - Vulgate: Hæc scribo vobis ut sciatis quoniam vitam habetis æternam, qui creditis in nomine Filii Dei.
+   - BSB: I have written these things to you who believe in the name of the Son of God, so that you may know that you have eternal life.
+   - WEB: These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God.
+- **5:18** substitute (word): SBLGNT *αυτον* ] TR *εαυτον*
+   - Latin: Scīmus, quisquis ex Deō nātus est, eum nōn peccāre: nam ex Deō nātus sē ipsum servat, nec eum malus attingit.
+   - 1573: Scimus quisquis ex Deo natus est, eum non peccare. nam ex Deo natus se ipsum seruat, nec eum malus attingit.
+   - TR: Οἴδαμεν ὅτι πᾶς ὁ γεγεννημένος ἐκ τοῦ Θεοῦ οὐχ ἁμαρτάνει· ἀλλ᾿ ὁ γεννηθεὶς ἐκ τοῦ Θεοῦ τηρεῖ ἑαυτόν, καὶ ὁ πονηρὸς οὐχ ἅπτεται αὐτοῦ.
+   - SBLGNT: Οἴδαμεν ὅτι πᾶς ὁ γεγεννημένος ἐκ τοῦ θεοῦ οὐχ ἁμαρτάνει, ἀλλʼ ὁ γεννηθεὶς ἐκ τοῦ θεοῦ τηρεῖ αὐτόν, καὶ ὁ πονηρὸς οὐχ ἅπτεται αὐτοῦ.
+   - Vulgate: Scimus quia omnis qui natus est ex Deo, non peccat: sed generatio Dei conservat eum, et malignus non tangit eum.
+   - BSB: We know that anyone born of God does not keep on sinning; the One who was born of God protects him, and the evil one cannot touch him.
+   - WEB: We know that whoever is born of God doesn’t sin, but he who was born of God keeps himself, and the evil one doesn’t touch him.

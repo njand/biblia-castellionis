@@ -1,0 +1,288 @@
+# Jas: candidates for light notes
+
+Built by `python -m pipeline notes Jas` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `jas-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 74; not a change of sense (order, article, form, small words): 46; the TR with the critical text: 4; in a verse already noted or bracketed: 0; **kept: 24**, in 21 verses. The TR alone against SBLGNT (no apparatus unit): 14, in 12 verses. Pronoun person (Latin against the TR): 1.
+
+## Text: word (21 verses)
+
+- **1:12** add (word): critical *ἐπηγγείλατο* ] RP *+ ὁ κύριος*
+   - Latin: Fēlīx homō, quī temptātiōnem sustinet: approbātus enim, vītæ corōnam accipiet, quam prōmīsit Dominus suīs amātōribus.
+   - 1573: Felix homo qui tentationem sustinet: approbatus enim, vitæ coronam accipiet, quam promisit Dominus suis amatoribus.
+   - TR: Μακάριος ἀνὴρ ὃς ὑπομένει πειρασμόν· ὅτι δόκιμος γενόμενος λήψεται τὸν στέφανον τῆς ζωῆς, ὃν ἐπηγγείλατο ὁ Κύριος τοῖς ἀγαπῶσιν αὐτόν.
+   - SBLGNT: Μακάριος ἀνὴρ ὃς ὑπομένει πειρασμόν, ὅτι δόκιμος γενόμενος λήμψεται τὸν στέφανον τῆς ζωῆς, ὃν ἐπηγγείλατο τοῖς ἀγαπῶσιν αὐτόν.
+   - Vulgate: Beatus vir qui suffert tentationem: quoniam cum probatus fuerit, accipiet coronam vitæ, quam repromisit Deus diligentibus se.
+   - BSB: Blessed is the man who perseveres under trial, because when he has stood the test, he will receive the crown of life that God has promised to those who love Him.
+   - WEB: Blessed is a person who endures temptation, for when he has been approved, he will receive the crown of life which the Lord promised to those who love him.
+- **1:19** substitute (word): critical *Ἴστε* ] RP *Ὥστε*
+   - Latin: Proinde, meī frātrēs cārissimī, estō omnis homō ad audiendum celer, ad loquendum tardus, ad īram tardus.
+   - 1573: Proinde, mei fratres charissimi, esto omnis homo ad audiendum celer, ad loquendum tardus, ad iram tardus.
+   - TR: Ὥστε, ἀδελφοί μου ἀγαπητοί, ἔστω πᾶς ἄνθρωπος ταχὺς εἰς τὸ ἀκοῦσαι, βραδὺς εἰς τὸ λαλῆσαι, βραδὺς εἰς ὀργήν·
+   - SBLGNT: Ἴστε, ἀδελφοί μου ἀγαπητοί. ἔστω δὲ πᾶς ἄνθρωπος ταχὺς εἰς τὸ ἀκοῦσαι, βραδὺς εἰς τὸ λαλῆσαι, βραδὺς εἰς ὀργήν,
+   - Vulgate: Scitis, fratres mei dilectissimi. Sit autem omnis homo velox ad audiendum: tardus autem ad loquendum, et tardus ad iram.
+   - BSB: My beloved brothers, understand this: Everyone should be quick to listen, slow to speak, and slow to anger,
+   - WEB: So, then, my beloved brothers, let every man be swift to hear, slow to speak, and slow to anger;
+- **2:3** substitute (word): critical *ἢ κάθου ἐκεῖ* ] RP *ἐκεῖ ἢ κάθου ὧδε*
+   - Latin: Et vōs in eum, quī vestem gestat splendidam, intueāminī, eīque dīcātis: “Tū sedē hīc pulchrē”: pauperī autem dīcātis: “Tū istīc stā, aut hīc sub meō subselliō sedē”:
+   - 1573: et vos in eum, qui vestem gestat splendidam intueamini, eique dicatis: Tu sede hic pulchre: pauperi autem dicatis, Tu istic sta, aut híc sub meo subsellio sede:
+   - TR: καὶ ἐπιβλέψητε ἐπὶ τὸν φοροῦντα τὴν ἐσθῆτα τὴν λαμπράν, καὶ εἴπητε αὐτῷ, Σὺ κάθου ὧδε καλῶς, καὶ τῷ πτωχῷ εἴπητε, Σὺ στῆθι ἐκεῖ, ἢ κάθου ὧδε ὑπὸ τὸ ὑποπόδιόν μου·
+   - SBLGNT: ἐπιβλέψητε δὲ ἐπὶ τὸν φοροῦντα τὴν ἐσθῆτα τὴν λαμπρὰν καὶ εἴπητε· Σὺ κάθου ὧδε καλῶς, καὶ τῷ πτωχῷ εἴπητε· Σὺ στῆθι ἢ κάθου ἐκεῖ ὑπὸ τὸ ὑποπόδιόν μου,
+   - Vulgate: et intendatis in eum qui indutus est veste præclara, et dixeritis ei: Tu sede hic bene: pauperi autem dicatis: Tu sta illic; aut sede sub scabello pedum meorum:
+   - BSB: If you lavish attention on the man in fine clothes and say, “Here is a seat of honor,” but say to the poor man, “You must stand” or “Sit at my feet,”
+   - WEB: and you pay special attention to him who wears the fine clothing and say, “Sit here in a good place;” and you tell the poor man, “Stand there,” or “Sit by my footstool”
+- **2:5** substitute (word): critical *τῷ κόσμῳ* ] RP *τοῦ κόσμου*
+   - Latin: Audīte, meī frātrēs cārissimī: nōnne Deus ēlēgit hujus mundī pauperēs, fidē dīvitēs, hērēdēsque rēgnī, quod suīs prōmīsit amātōribus?
+   - 1573: Audite, mei fratres charissimi: Nonne Deus elegit huius mundi pauperes, fide diuites, hæredesque regni, quod suis promisit amatoribus?
+   - TR: Ἀκούσατε, ἀδελφοί μου ἀγαπητοί. Οὐχ ὁ Θεὸς ἐξελέξατο τοὺς πτωχοὺς τοῦ κόσμου τούτου πλουσίους ἐν πίστει, καὶ κληρονόμους τῆς βασιλείας ἧς ἐπηγγείλατο τοῖς ἀγαπῶσιν αὐτόν;
+   - SBLGNT: ἀκούσατε, ἀδελφοί μου ἀγαπητοί. οὐχ ὁ θεὸς ἐξελέξατο τοὺς πτωχοὺς τῷ κόσμῳ πλουσίους ἐν πίστει καὶ κληρονόμους τῆς βασιλείας ἧς ἐπηγγείλατο τοῖς ἀγαπῶσιν αὐτόν;
+   - Vulgate: Audite, fratres mei dilectissimi: nonne Deus elegit pauperes in hoc mundo, divites in fide, et hæredes regni, quod repromisit Deus diligentibus se?
+   - BSB: Listen, my beloved brothers: Has not God chosen the poor of this world to be rich in faith and to inherit the kingdom He promised those who love Him?
+   - WEB: Listen, my beloved brothers. Didn’t God choose those who are poor in this world to be rich in faith and heirs of the Kingdom which he promised to those who love him?
+- **2:10** substitute (word): critical *τηρήσῃ πταίσῃ* ] RP *τηρήσει πταίσει*
+   - Latin: Quī enim, quamvīs aliōquin tōtam lēgem observet, tamen in ūnō dēlinquit, is omnibus tenētur.
+   - 1573: Qui enim, quamuis alioquin totam legem obseruet, tamen in vno delinquit, is omnibus tenetur.
+   - TR: Ὅστις γὰρ ὅλον τὸν νόμον τηρήσει, πταίσει δὲ ἐν ἑνί, γέγονε πάντων ἔνοχος.
+   - SBLGNT: ὅστις γὰρ ὅλον τὸν νόμον τηρήσῃ, πταίσῃ δὲ ἐν ἑνί, γέγονεν πάντων ἔνοχος.
+   - Vulgate: Quicumque autem totam legem servaverit, offendat autem in uno, factus est omnium reus.
+   - BSB: Whoever keeps the whole law but stumbles at just one point is guilty of breaking all of it.
+   - WEB: For whoever keeps the whole law, and yet stumbles in one point, he has become guilty of all.
+- **2:11** substitute (word): critical *μοιχεύεις φονεύεις* ] RP *μοιχεύσεις φονεύσεις*
+   - Latin: Nam quī dīxit: “Nē adulterātō,” īdem dīxit: “Nē occīditō.” Quod sī nōn adulterās, sed occīdis, contrā lēgem committis.
+   - 1573: Nam qui dixit, Ne adulterato: idem dixit, Ne occidito. Quòd si non adulteras, sed occidis, contra legem committis.
+   - TR: Ὁ γὰρ εἰπών, Μὴ μοιχεύσῃς, εἶπε καί, Μὴ φονεύσῃς· εἰ δὲ οὐ μοιχεύσεις, φονεύσεις δέ, γέγονας παραβάτης νόμου.
+   - SBLGNT: ὁ γὰρ εἰπών· Μὴ μοιχεύσῃς εἶπεν καί· Μὴ φονεύσῃς· εἰ δὲ οὐ μοιχεύεις φονεύεις δέ, γέγονας παραβάτης νόμου.
+   - Vulgate: Qui enim dixit: Non mœchaberis, dixit et: Non occides. Quod si non mœchaberis, occides autem, factus es transgressor legis.
+   - BSB: For He who said, “Do not commit adultery,” also said, “Do not murder.” If you do not commit adultery, but do commit murder, you have become a lawbreaker.
+   - WEB: For he who said, “Do not commit adultery,” also said, “Do not commit murder.” Now if you do not commit adultery but do murder, you have become a transgressor of the law.
+- **2:18** substitute (word): critical *χωρὶς* ] RP *ἐκ*
+   - Latin: Itaque dīcet aliquis: “Tū fidem habēs; ego opera habeō.” Ostende mihi tuam fidem sine tuīs operibus; ego tibi ex meīs operibus fidem meam ostendam.
+   - 1573: Itaque dicet aliquis: Tu fidem habes, ego opera habeo: ostende mihi tuam fidem sine tuis operibus, ego tibi ex meis operibus fidem meam ostendam.
+   - TR: Ἀλλ᾿ ἐρεῖ τις, Σὺ πίστιν ἔχεις, κἀγὼ ἔργα ἔχω· δεῖξόν μοι τὴν πίστιν σου ἐκ τῶν ἔργων σου, κἀγὼ δείξω σοι ἐκ τῶν ἔργων μου τὴν πίστιν μου.
+   - SBLGNT: Ἀλλʼ ἐρεῖ τις· Σὺ πίστιν ἔχεις κἀγὼ ἔργα ἔχω. δεῖξόν μοι τὴν πίστιν σου χωρὶς τῶν ἔργων, κἀγώ σοι δείξω ἐκ τῶν ἔργων μου τὴν πίστιν.
+   - Vulgate: Sed dicet quis: Tu fidem habes, et ego opera habeo: ostende mihi fidem tuam sine operibus: et ego ostendam tibi ex operibus fidem meam.
+   - BSB: But someone will say, “You have faith and I have deeds.” Show me your faith without deeds, and I will show you my faith by my deeds.
+   - WEB: Yes, a man will say, “You have faith, and I have works.” Show me your faith without works, and I will show you my faith by my works.
+- **2:20** substitute (word): critical *ἀργή* ] RP *νεκρά*
+   - Latin: Vīs autem intellegere, ō homō vāne, fidem sine operibus mortuam esse?
+   - 1573: Vis autem intelligere, ô homo vane, fidem sine operibus mortuam esse?
+   - TR: Θέλεις δὲ γνῶναι, ὦ ἄνθρωπε κενέ, ὅτι ἡ πίστις χωρὶς τῶν ἔργων νεκρά ἐστιν;
+   - SBLGNT: θέλεις δὲ γνῶναι, ὦ ἄνθρωπε κενέ, ὅτι ἡ πίστις χωρὶς τῶν ἔργων ἀργή ἐστιν;
+   - Vulgate: Vis autem scire, o homo inanis, quoniam fides sine operibus mortua est?
+   - BSB: O foolish man, do you want evidence that faith without deeds is worthless?
+   - WEB: But do you want to know, vain man, that faith apart from works is dead?
+- **2:24** add (word): critical *ὁρᾶτε* ] RP *+ τοίνυν*
+   - Latin: Vidētis ergō, operibus jūstum reddī hominem, nōn sōlum fidē.
+   - 1573: Videtis ergo operibus iustum reddi hominem, non solum fide.
+   - TR: Ὁρᾶτε τοίνυν ὅτι ἐξ ἔργων δικαιοῦται ἄνθρωπος, καὶ οὐκ ἐκ πίστεως μόνον;
+   - SBLGNT: ὁρᾶτε ὅτι ἐξ ἔργων δικαιοῦται ἄνθρωπος καὶ οὐκ ἐκ πίστεως μόνον.
+   - Vulgate: Videtis quoniam ex operibus justificatur homo, et non ex fide tantum?
+   - BSB: As you can see, a man is justified by his deeds and not by faith alone.
+   - WEB: You see then that by works a man is justified, and not only by faith.
+- **3:3** substitute (word): critical *εἰ δὲ* ] RP *Ἴδε*
+   - Latin: Frēnōs quidem equōrum ōribus adhibēmus, ut nōbīs pāreant, eōrumque tōtum corpus agimus.
+   - 1573: Frænos quidem equorum oribus adhibemus, vt nobis pareant, eorumque totum corpus agimus.
+   - TR: Ἰδού, τῶν ἵππων τοὺς χαλινοὺς εἰς τὰ στόματα βάλλομεν πρὸς τὸ πείθεσθαι αὐτοὺς ἡμῖν, καὶ ὅλον τὸ σῶμα αὐτῶν μετάγομεν.
+   - SBLGNT: εἰ δὲ τῶν ἵππων τοὺς χαλινοὺς εἰς τὰ στόματα βάλλομεν εἰς τὸ πείθεσθαι αὐτοὺς ἡμῖν, καὶ ὅλον τὸ σῶμα αὐτῶν μετάγομεν.
+   - Vulgate: Si autem equis frena in ora mittimus ad consentiendum nobis, et omne corpus illorum circumferimus.
+   - BSB: When we put bits into the mouths of horses to make them obey us, we can guide the whole animal.
+   - WEB: Indeed, we put bits into the horses’ mouths so that they may obey us, and we guide their whole body.
+- **3:4** substitute (word): critical *ἡ … βούλεται* ] RP *ἂν ἡ … βούληται*
+   - Latin: Itemque tantæ nāvēs, tam vehementibus impulsæ ventīs, tantulō gubernāculō, quōcumque vult gubernātōris impetus, aguntur.
+   - 1573: Itemque tantæ naues, tam vehementibus impulsæ ventis, tantulo gubernaculo, quocunque vult gubernatoris impetus, aguntur.
+   - TR: Ἰδού, καὶ τὰ πλοῖα, τηλικαῦτα ὄντα, καὶ ὑπὸ σκληρῶν ἀνέμων ἐλαυνόμενα, μετάγεται ὑπὸ ἐλαχίστου πηδαλίου, ὅπου ἂν ἡ ὁρμὴ τοῦ εὐθύνοντος βούληται.
+   - SBLGNT: ἰδοὺ καὶ τὰ πλοῖα, τηλικαῦτα ὄντα καὶ ὑπὸ ἀνέμων σκληρῶν ἐλαυνόμενα, μετάγεται ὑπὸ ἐλαχίστου πηδαλίου ὅπου ἡ ὁρμὴ τοῦ εὐθύνοντος βούλεται·
+   - Vulgate: Ecce et naves, cum magnæ sint, et a ventis validis minentur, circumferuntur a modico gubernaculo ubi impetus dirigentis voluerit.
+   - BSB: Consider ships as well. Although they are so large and are driven by strong winds, they are steered by a very small rudder wherever the pilot is inclined.
+   - WEB: Behold, the ships also, though they are so big and are driven by fierce winds, are yet guided by a very small rudder, wherever the pilot desires.
+- **3:5** substitute (word): critical *μεγάλα αὐχεῖ* ] RP *μεγαλαυχεῖ*; substitute (word): critical *ἡλίκον* ] RP *ὀλίγον*
+   - Latin: Sīc et lingua, quæ parvum membrum est, magnās vīrēs habet. Ēn quantulus ignis quantam māteriam incendit?
+   - 1573: Sic et lingua, quæ paruum membrum est, magnas vires habet. En quantulus ignis quantam materiam incendit?
+   - TR: Οὕτω καὶ ἡ γλῶσσα μικρὸν μέλος ἐστί, καὶ μεγαλαυχεῖ. Ἰδού, ὀλίγον πῦρ ἡλίκην ὕλην ἀνάπτει.
+   - SBLGNT: οὕτως καὶ ἡ γλῶσσα μικρὸν μέλος ἐστὶν καὶ μεγάλα αὐχεῖ. Ἰδοὺ ἡλίκον πῦρ ἡλίκην ὕλην ἀνάπτει·
+   - Vulgate: Ita et lingua modicum quidem membrum est, et magna exaltat. Ecce quantus ignis quam magnam silvam incendit !
+   - BSB: In the same way, the tongue is a small part of the body, but it boasts of great things. Consider how small a spark sets a great forest ablaze.
+   - WEB: So the tongue is also a little member, and boasts great things. See how a small fire can spread to a large forest!
+- **3:9** substitute (word): critical *κύριον* ] RP *θεὸν*
+   - Latin: Eā Deum et Patrem collaudāmus: eādem hominēs exsecrāmur, ad Deī similitūdinem factōs:
+   - 1573: Ea Deum et patrem collaudamus, eadem homines execramur, ad Dei similitudinem factos:
+   - TR: Ἐν αὐτῇ εὐλογοῦμεν τὸν Θεὸν καὶ πατέρα, καὶ ἐν αὐτῇ καταρώμεθα τοὺς ἀνθρώπους τοὺς καθ᾿ ὁμοίωσιν Θεοῦ γεγονότας·
+   - SBLGNT: ἐν αὐτῇ εὐλογοῦμεν τὸν κύριον καὶ πατέρα, καὶ ἐν αὐτῇ καταρώμεθα τοὺς ἀνθρώπους τοὺς καθʼ ὁμοίωσιν θεοῦ γεγονότας·
+   - Vulgate: In ipsa benedicimus Deum et Patrem: et in ipsa maledicimus homines, qui ad similitudinem Dei facti sunt.
+   - BSB: With the tongue we bless our Lord and Father, and with it we curse men, who have been made in God’s likeness.
+   - WEB: With it we bless our God and Father, and with it we curse men who are made in the image of God.
+- **3:12** substitute (word): critical *οὔτε ἁλυκὸν* ] RP *Οὕτως οὐδεμια πηγὴ ἁλυκὸν καὶ*
+   - Latin: Potestne, meī frātrēs, aut fīcus oleās, aut vītis fīcūs ēdere? Sīc nūllus fōns et falsam et dulcem aquam ēmittere.
+   - 1573: Potestne, mei fratres, aut ficus oleas, aut vitis ficus edere? Sic nullus fons et falsam et dulcem aquam emittere.
+   - TR: Μὴ δύναται, ἀδελφοί μου, συκῆ ἐλαίας ποιῆσαι, ἢ ἄμπελος σῦκα; Οὕτως οὐδεμία πηγὴ ἁλυκὸν καὶ γλυκὺ ποιῆσαι ὕδωρ.
+   - SBLGNT: μὴ δύναται, ἀδελφοί μου, συκῆ ἐλαίας ποιῆσαι ἢ ἄμπελος σῦκα; οὔτε ἁλυκὸν γλυκὺ ποιῆσαι ὕδωρ.
+   - Vulgate: Numquid potest, fratres mei, ficus uvas facere, aut vitis ficus? Sic neque salsa dulcem potest facere aquam.
+   - BSB: My brothers, can a fig tree grow olives, or a grapevine bear figs? Neither can a salt spring produce fresh water.
+   - WEB: Can a fig tree, my brothers, yield olives, or a vine figs? Thus no spring yields both salt water and fresh water.
+- **4:4** substitute (word): critical *μοιχαλίδες* ] RP *Μοιχοὶ καὶ μοιχαλίδες*
+   - Latin: Ō dēgenerēs et virī et fēminæ: nescītis, mundī amīcitiam Deī esse inimīcitiās? Quī vult amīcus esse mundī, inimīcus efficitur Deī.
+   - 1573: O degeneres et viri et fœminæ: nescitis mundi amicitiam, Dei esse inimicitias? Qui vult amicus esse mundi, inimicus efficitur Dei.
+   - TR: Μοιχοὶ καὶ μοιχαλίδες, οὐκ οἴδατε ὅτι ἡ φιλία τοῦ κόσμου ἔχθρα τοῦ Θεοῦ ἐστίν; Ὃς ἂν οὖν βουληθῇ φίλος εἶναι τοῦ κόσμου, ἐχθρὸς τοῦ Θεοῦ καθίσταται.
+   - SBLGNT: μοιχαλίδες, οὐκ οἴδατε ὅτι ἡ φιλία τοῦ κόσμου ἔχθρα τοῦ θεοῦ ἐστιν; ὃς ἐὰν οὖν βουληθῇ φίλος εἶναι τοῦ κόσμου, ἐχθρὸς τοῦ θεοῦ καθίσταται.
+   - Vulgate: Adulteri, nescitis quia amicitia hujus mundi inimica est Dei? quicumque ergo voluerit amicus esse sæculi hujus, inimicus Dei constituitur.
+   - BSB: You adulteresses! Do you not know that friendship with the world is hostility toward God? Therefore, whoever chooses to be a friend of the world renders himself an enemy of God.
+   - WEB: You adulterers and adulteresses, don’t you know that friendship with the world is hostility toward God? Whoever therefore wants to be a friend of the world makes himself an enemy of God.
+- **4:12** omit (word): critical *καὶ κριτής* ] RP *–*; substitute (word): critical *ὁ κρίνων* ] RP *ὃς κρίνεις*; substitute (word): critical *πλησίον* ] RP *ἕτερον*
+   - Latin: Ūnus est lēgislātor (atque jūdex) quī et servāre potest, et perdere. Tū vērō quis es, quī alterum damnās?
+   - 1573: Vnus est legislator atque Iudex, qui et seruare potest, et perdere. Tu verò quis es, qui alterum damnas?
+   - TR: Εἷς ἐστὶν ὁ νομοθέτης, ὁ δυνάμενος σῶσαι καὶ ἀπολέσαι· σὺ τίς εἶ ὃς κρίνεις τὸν ἕτερον;
+   - SBLGNT: εἷς ἐστιν νομοθέτης καὶ κριτής, ὁ δυνάμενος σῶσαι καὶ ἀπολέσαι· σὺ δὲ τίς εἶ, ὁ κρίνων τὸν πλησίον;
+   - Vulgate: Unus est legislator et judex, qui potest perdere et liberare.
+   - BSB: There is only one Lawgiver and Judge, the One who is able to save and destroy. But who are you to judge your neighbor?
+   - WEB: Only one is the lawgiver, who is able to save and to destroy. But who are you to judge another?
+- **4:13** add (word): critical *ἐνιαυτὸν* ] RP *+ ἕνα*
+   - Latin: Age jam, quī dīcitis: “Hodiē aut crās proficīscēmur in illam urbem, et illīc ūnum annum agēmus, et mercābimur, et lucrābimur,”
+   - 1573: Age iam, qui dicitis: Hodie aut cras proficiscemur in illam vrbem, et illic vnum annum agemus, et mercabimur, et lucrabimur:
+   - TR: Ἄγε νῦν οἱ λέγοντες, Σήμερον ἢ αὔριον πορευσόμεθα εἰς τήνδε τὴν πόλιν, καὶ ποιήσομεν ἐκεῖ ἐνιαυτὸν ἕνα, καὶ ἐμπορευσόμεθα, καὶ κερδήσομεν·
+   - SBLGNT: Ἄγε νῦν οἱ λέγοντες· Σήμερον ἢ αὔριον πορευσόμεθα εἰς τήνδε τὴν πόλιν καὶ ποιήσομεν ἐκεῖ ἐνιαυτὸν καὶ ἐμπορευσόμεθα καὶ κερδήσομεν·
+   - Vulgate: Tu autem quis es, qui judicas proximum? Ecce nunc qui dicitis: Hodie, aut crastino ibimus in illam civitatem, et faciemus ibi quidem annum, et mercabimur, et lucrum faciemus:
+   - BSB: Come now, you who say, “Today or tomorrow we will go to this or that city, spend a year there, carry on business, and make a profit.”
+   - WEB: Come now, you who say, “Today or tomorrow let’s go into this city and spend a year there, trade, and make a profit.”
+- **4:14** substitute (word): critical *ἐστε* ] RP *ἔσται*
+   - Latin: cum nesciātis, quid sit crās futūrum. Quālis enim est vīta vestra? Vapor est, quī paulīsper exstat, deinde ēvānēscit.
+   - 1573: cùm nesciatis quid sit cras futurum. Qualis enim est vita vestra? Vapor est, qui paulisper extat, deinde euanescit.
+   - TR: οἵτινες οὐκ ἐπίστασθε τὸ τῆς αὔριον. Ποία γὰρ ἡ ζωὴ ὑμῶν; Ἀτμὶς γάρ ἐστιν ἡ πρὸς ὀλίγον φαινομένη, ἔπειτα δὲ ἀφανιζομένη.
+   - SBLGNT: οἵτινες οὐκ ἐπίστασθε τὸ τῆς αὔριον ποία ἡ ζωὴ ὑμῶν· ἀτμὶς γάρ ἐστε ἡ πρὸς ὀλίγον φαινομένη, ἔπειτα καὶ ἀφανιζομένη·
+   - Vulgate: qui ignoratis quid erit in crastino.
+   - BSB: You do not even know what will happen tomorrow! What is your life? You are a mist that appears for a little while and then vanishes.
+   - WEB: Yet you don’t know what your life will be like tomorrow. For what is your life? For you are a vapor that appears for a little time and then vanishes away.
+- **4:15** substitute (word): critical *ζήσομεν* ] RP *ζήσωμεν*
+   - Latin: Cum dīcere dēbeātis: “Sī volet Dominus, et sī vīvēmus, hoc aut illud faciēmus.”
+   - 1573: Cùm dicere debeatis: Si volet Dominus, et si viuemus, hoc aut illud faciemus.
+   - TR: Ἀντὶ τοῦ λέγειν ὑμᾶς, Ἐὰν ὁ Κύριος θελήσῃ, καὶ ζήσωμεν, καὶ ποιήσομεν τοῦτο ἢ ἐκεῖνο.
+   - SBLGNT: ἀντὶ τοῦ λέγειν ὑμᾶς· Ἐὰν ὁ κύριος θελήσῃ, καὶ ζήσομεν καὶ ποιήσομεν τοῦτο ἢ ἐκεῖνο.
+   - Vulgate: Quæ est enim vita vestra? vapor est ad modicum parens, et deinceps exterminabitur; pro eo ut dicatis: Si Dominus voluerit. Et: Si vixerimus, faciemus hoc, aut illud.
+   - BSB: Instead, you ought to say, “If the Lord is willing, we will live and do this or that.”
+   - WEB: For you ought to say, “If the Lord wills, we will both live, and do this or that.”
+- **5:7** add (word): critical *λάβῃ* ] RP *+ ὑετὸν*
+   - Latin: Quamobrem dūrāte, frātrēs, ūsque ad Dominī adventum. Ipse agricola exspectat eximium terræ frūctum, et quidem in eō dūrat, dum prīmōrem sērōtinamque pluviam accipiat.
+   - 1573: Quamobrem durate, fratres, vsque ad Domini aduentum. Ipse agricola expectat eximium terræ fructum, et quidem in eo durat, dum primorem serotinamque pluuiam accipiat.
+   - TR: Μακροθυμήσατε οὖν, ἀδελφοί, ἕως τῆς παρουσίας τοῦ Κυρίου. Ἰδού, ὁ γεωργὸς ἐκδέχεται τὸν τίμιον καρπὸν τῆς γῆς, μακροθυμῶν ἐπ᾿ αὐτῷ, ἕως ἂν λάβῃ ὑετὸν πρώϊμον καὶ ὄψιμον.
+   - SBLGNT: Μακροθυμήσατε οὖν, ἀδελφοί, ἕως τῆς παρουσίας τοῦ κυρίου. ἰδοὺ ὁ γεωργὸς ἐκδέχεται τὸν τίμιον καρπὸν τῆς γῆς, μακροθυμῶν ἐπʼ αὐτῷ ἕως λάβῃ πρόϊμον καὶ ὄψιμον.
+   - Vulgate: Patientes igitur estote, fratres, usque ad adventum Domini. Ecce agricola exspectat pretiosum fructum terræ, patienter ferens donec accipiat temporaneum et serotinum.
+   - BSB: Be patient, then, brothers, until the Lord’s coming. See how the farmer awaits the precious fruit of the soil—how patient he is for the fall and spring rains.
+   - WEB: Be patient therefore, brothers, until the coming of the Lord. Behold, the farmer waits for the precious fruit of the earth, being patient over it, until it receives the early and late rain.
+- **5:16** substitute (word): critical *τὰς ἁμαρτίας* ] RP *τὰ παραπτώματα*
+   - Latin: Cōnfitēminī invicem dēlicta, et supplicāte alius prō aliō, ut sānēminī. Multum valet efficitque jūstī precātiō.
+   - 1573: Confitemini inuicem delicta, et supplicate alius pro alio, vt sanemini. Multum valet efficitque iusti precatio.
+   - TR: Ἐξομολογεῖσθε ἀλλήλοις τὰ παραπτώματα, καὶ εὔχεσθε ὑπὲρ ἀλλήλων, ὅπως ἰαθῆτε. Πολὺ ἰσχύει δέησις δικαίου ἐνεργουμένη.
+   - SBLGNT: ἐξομολογεῖσθε οὖν ἀλλήλοις τὰς ἁμαρτίας καὶ εὔχεσθε ὑπὲρ ἀλλήλων, ὅπως ἰαθῆτε. πολὺ ἰσχύει δέησις δικαίου ἐνεργουμένη.
+   - Vulgate: Confitemini ergo alterutrum peccata vestra, et orate pro invicem ut salvemini: multum enim valet deprecatio justi assidua.
+   - BSB: Therefore confess your sins to each other and pray for each other so that you may be healed. The prayer of a righteous man has great power to prevail.
+   - WEB: Confess your sins to one another and pray for one another, that you may be healed. The insistent prayer of a righteous person is powerfully effective.
+
+## The TR alone (RP with the critical text; 12 verses)
+
+- **1:7** substitute (word): SBLGNT *λημψεται* ] TR *ληψεται*
+   - Latin: Neque vērō sē putet is homō quidquam ā Dominō impetrātūrum,
+   - 1573: Neque verò se putet is homo quicquam à Domino impetraturum,
+   - TR: Μὴ γὰρ οἰέσθω ὁ ἄνθρωπος ἐκεῖνος ὅτι λήψεταί τι παρὰ τοῦ Κυρίου.
+   - SBLGNT: μὴ γὰρ οἰέσθω ὁ ἄνθρωπος ἐκεῖνος ὅτι λήμψεταί τι παρὰ τοῦ κυρίου
+   - Vulgate: non ergo æstimet homo ille quod accipiat aliquid a Domino.
+   - BSB: That man should not expect to receive anything from the Lord.
+   - WEB: For that man shouldn’t think that he will receive anything from the Lord.
+- **1:12** substitute (word): SBLGNT *λημψεται* ] TR *ληψεται*
+   - Latin: Fēlīx homō, quī temptātiōnem sustinet: approbātus enim, vītæ corōnam accipiet, quam prōmīsit Dominus suīs amātōribus.
+   - 1573: Felix homo qui tentationem sustinet: approbatus enim, vitæ coronam accipiet, quam promisit Dominus suis amatoribus.
+   - TR: Μακάριος ἀνὴρ ὃς ὑπομένει πειρασμόν· ὅτι δόκιμος γενόμενος λήψεται τὸν στέφανον τῆς ζωῆς, ὃν ἐπηγγείλατο ὁ Κύριος τοῖς ἀγαπῶσιν αὐτόν.
+   - SBLGNT: Μακάριος ἀνὴρ ὃς ὑπομένει πειρασμόν, ὅτι δόκιμος γενόμενος λήμψεται τὸν στέφανον τῆς ζωῆς, ὃν ἐπηγγείλατο τοῖς ἀγαπῶσιν αὐτόν.
+   - Vulgate: Beatus vir qui suffert tentationem: quoniam cum probatus fuerit, accipiet coronam vitæ, quam repromisit Deus diligentibus se.
+   - BSB: Blessed is the man who perseveres under trial, because when he has stood the test, he will receive the crown of life that God has promised to those who love Him.
+   - WEB: Blessed is a person who endures temptation, for when he has been approved, he will receive the crown of life which the Lord promised to those who love him.
+- **1:20** substitute (word): SBLGNT *ουκ εργαζεται* ] TR *ου κατεργαζεται*
+   - Latin: Nam hominis īra dīvīnæ jūstitiæ nōn pāret.
+   - 1573: Nam hominis ira diuinæ iustitiæ non paret.
+   - TR: ὀργὴ γὰρ ἀνδρὸς δικαιοσύνην Θεοῦ οὐ κατεργάζεται.
+   - SBLGNT: ὀργὴ γὰρ ἀνδρὸς δικαιοσύνην θεοῦ οὐκ ἐργάζεται.
+   - Vulgate: Ira enim viri justitiam Dei non operatur.
+   - BSB: for man’s anger does not bring about the righteousness that God desires.
+   - WEB: for the anger of man doesn’t produce the righteousness of God.
+- **1:22** add (word): SBLGNT *–* ] TR *+ μονον*; omit (word): SBLGNT *μονον* ] TR *–*
+   - Latin: Este autem iī, quī sermōnī pāreātis, nōn eum dumtaxat audiātis: aliōquin vōs ipsōs dēcipitis.
+   - 1573: Este autem ij qui sermoni pareatis, non eum duntaxat audiatis: alioquin vos ipsos decipitis.
+   - TR: Γίνεσθε δὲ ποιηταὶ λόγου, καὶ μὴ μόνον ἀκροαταί, παραλογιζόμενοι ἑαυτούς.
+   - SBLGNT: Γίνεσθε δὲ ποιηταὶ λόγου καὶ μὴ ἀκροαταὶ μόνον παραλογιζόμενοι ἑαυτούς.
+   - Vulgate: Estote autem factores verbi, et non auditores tantum: fallentes vosmetipsos.
+   - BSB: Be doers of the word, and not hearers only. Otherwise, you are deceiving yourselves.
+   - WEB: But be doers of the word, and not only hearers, deluding your own selves.
+- **2:13** substitute (word): SBLGNT *ανελεος* ] TR *ανιλεως*
+   - Latin: Nam jūdicium erit inclēmēns in eum, quī pietātem nōn exercuerit: at pietās jūdiciō īnsultat.
+   - 1573: Nam iudicium erit inclemens in eum, qui pietatem non exercuerit: at pietas iudicio insultat.
+   - TR: Ἡ γὰρ κρίσις ἀνίλεως τῷ μὴ ποιήσαντι ἔλεος· καὶ κατακαυχᾶται ἔλεος κρίσεως.
+   - SBLGNT: ἡ γὰρ κρίσις ἀνέλεος τῷ μὴ ποιήσαντι ἔλεος· κατακαυχᾶται ἔλεος κρίσεως.
+   - Vulgate: Judicium enim sine misericordia illi qui non fecit misericordiam: superexaltat autem misericordia judicium.
+   - BSB: For judgment without mercy will be shown to anyone who has not been merciful. Mercy triumphs over judgment.
+   - WEB: For judgment is without mercy to him who has shown no mercy. Mercy triumphs over judgment.
+- **2:15** add (word): SBLGNT *–* ] TR *+ ωσι*
+   - Latin: Sī frāter aut soror nūdī sint, cotīdiānōque alimentō dēstitūtī,
+   - 1573: Si frater aut soror nudi sint, quotidianoque alimento destituti,
+   - TR: Ἐὰν δὲ ἀδελφὸς ἢ ἀδελφὴ γυμνοὶ ὑπάρχωσι καὶ λειπόμενοι ὦσι τῆς ἐφημέρου τροφῆς,
+   - SBLGNT: ἐὰν ἀδελφὸς ἢ ἀδελφὴ γυμνοὶ ὑπάρχωσιν καὶ λειπόμενοι τῆς ἐφημέρου τροφῆς,
+   - Vulgate: Si autem frater et soror nudi sint, et indigeant victu quotidiano,
+   - BSB: Suppose a brother or sister is without clothes and daily food.
+   - WEB: And if a brother or sister is naked and in lack of daily food,
+- **3:1** substitute (word): SBLGNT *λημψομεθα* ] TR *ληψομεθα*
+   - Latin: Nōlīte multī esse magistrī, frātrēs meī, scientēs, nōs graviōrēs esse pœnās datūrōs.
+   - 1573: Nolite multi esse magistri, fratres mei: scientes nos grauiores esse pœnas daturos.
+   - TR: Μὴ πολλοὶ διδάσκαλοι γίνεσθε, ἀδελφοί μου, εἰδότες ὅτι μεῖζον κρίμα ληψόμεθα.
+   - SBLGNT: Μὴ πολλοὶ διδάσκαλοι γίνεσθε, ἀδελφοί μου, εἰδότες ὅτι μεῖζον κρίμα λημψόμεθα·
+   - Vulgate: Nolite plures magistri fieri fratres mei, scientes quoniam majus judicium sumitis.
+   - BSB: Not many of you should become teachers, my brothers, because you know that we who teach will be judged more strictly.
+   - WEB: Let not many of you be teachers, my brothers, knowing that we will receive heavier judgment.
+- **4:14** substitute (word): SBLGNT *εστε* ] TR *εστι*
+   - Latin: cum nesciātis, quid sit crās futūrum. Quālis enim est vīta vestra? Vapor est, quī paulīsper exstat, deinde ēvānēscit.
+   - 1573: cùm nesciatis quid sit cras futurum. Qualis enim est vita vestra? Vapor est, qui paulisper extat, deinde euanescit.
+   - TR: οἵτινες οὐκ ἐπίστασθε τὸ τῆς αὔριον. Ποία γὰρ ἡ ζωὴ ὑμῶν; Ἀτμὶς γάρ ἐστιν ἡ πρὸς ὀλίγον φαινομένη, ἔπειτα δὲ ἀφανιζομένη.
+   - SBLGNT: οἵτινες οὐκ ἐπίστασθε τὸ τῆς αὔριον ποία ἡ ζωὴ ὑμῶν· ἀτμὶς γάρ ἐστε ἡ πρὸς ὀλίγον φαινομένη, ἔπειτα καὶ ἀφανιζομένη·
+   - Vulgate: qui ignoratis quid erit in crastino.
+   - BSB: You do not even know what will happen tomorrow! What is your life? You are a mist that appears for a little while and then vanishes.
+   - WEB: Yet you don’t know what your life will be like tomorrow. For what is your life? For you are a vapor that appears for a little time and then vanishes away.
+- **5:4** substitute (word): SBLGNT *αφυστερημενος* ] TR *απεστερημενος*
+   - Latin: Mercēs ipsa mercēnāriōrum, quī vestrōs messuērunt agrōs, ā vōbīs retenta quirītātur, messōrumque querēlæ in Dominī armipotentis aurēs penetrārunt.
+   - 1573: Merces ipsa mercenariorum qui vestros messuerunt agros, à vobis retenta, quiritatur, messorumque querelæ in Domini armipotentis aures penetrarunt.
+   - TR: Ἰδού, ὁ μισθὸς τῶν ἐργατῶν τῶν ἀμησάντων τὰς χώρας ὑμῶν, ὁ ἀπεστερημένος ἀφ᾿ ὑμῶν, κράζει· καὶ αἱ βοαὶ τῶν θερισάντων εἰς τὰ ὦτα Κυρίου Σαβαὼθ εἰσεληλύθασιν.
+   - SBLGNT: ἰδοὺ ὁ μισθὸς τῶν ἐργατῶν τῶν ἀμησάντων τὰς χώρας ὑμῶν ὁ ἀφυστερημένος ἀφʼ ὑμῶν κράζει, καὶ αἱ βοαὶ τῶν θερισάντων εἰς τὰ ὦτα Κυρίου Σαβαὼθ εἰσεληλύθασιν·
+   - Vulgate: Ecce merces operariorum, qui messuerunt regiones vestras, quæ fraudata est a vobis, clamat: et clamor eorum in aures Domini sabbaoth introivit.
+   - BSB: Look, the wages you withheld from the workmen who mowed your fields are crying out against you. The cries of the harvesters have reached the ears of the Lord of Hosts.
+   - WEB: Behold, the wages of the laborers who mowed your fields, which you have kept back by fraud, cry out; and the cries of those who reaped have entered into the ears of the Lord of Armies.
+- **5:7** substitute (word): SBLGNT *προιμον* ] TR *υετον πρωιμον*
+   - Latin: Quamobrem dūrāte, frātrēs, ūsque ad Dominī adventum. Ipse agricola exspectat eximium terræ frūctum, et quidem in eō dūrat, dum prīmōrem sērōtinamque pluviam accipiat.
+   - 1573: Quamobrem durate, fratres, vsque ad Domini aduentum. Ipse agricola expectat eximium terræ fructum, et quidem in eo durat, dum primorem serotinamque pluuiam accipiat.
+   - TR: Μακροθυμήσατε οὖν, ἀδελφοί, ἕως τῆς παρουσίας τοῦ Κυρίου. Ἰδού, ὁ γεωργὸς ἐκδέχεται τὸν τίμιον καρπὸν τῆς γῆς, μακροθυμῶν ἐπ᾿ αὐτῷ, ἕως ἂν λάβῃ ὑετὸν πρώϊμον καὶ ὄψιμον.
+   - SBLGNT: Μακροθυμήσατε οὖν, ἀδελφοί, ἕως τῆς παρουσίας τοῦ κυρίου. ἰδοὺ ὁ γεωργὸς ἐκδέχεται τὸν τίμιον καρπὸν τῆς γῆς, μακροθυμῶν ἐπʼ αὐτῷ ἕως λάβῃ πρόϊμον καὶ ὄψιμον.
+   - Vulgate: Patientes igitur estote, fratres, usque ad adventum Domini. Ecce agricola exspectat pretiosum fructum terræ, patienter ferens donec accipiat temporaneum et serotinum.
+   - BSB: Be patient, then, brothers, until the Lord’s coming. See how the farmer awaits the precious fruit of the soil—how patient he is for the fall and spring rains.
+   - WEB: Be patient therefore, brothers, until the coming of the Lord. Behold, the farmer waits for the precious fruit of the earth, being patient over it, until it receives the early and late rain.
+- **5:9** substitute (word): SBLGNT *κριθητε* ] TR *κατακριθητε*
+   - Latin: Nōlīte alius adversus alium gemere, frātrēs, nē damnēminī. Ēn jūdex prō foribus adest.
+   - 1573: Nolite alius aduersus alium gemere, fratres, ne damnemini. En iudex pro foribus adest.
+   - TR: Μὴ στενάζετε κατ᾿ ἀλλήλων, ἀδελφοί, ἵνα μὴ κατακριθῆτε· ἰδού, κριτὴς πρὸ τῶν θυρῶν ἕστηκεν.
+   - SBLGNT: μὴ στενάζετε, ἀδελφοί, κατʼ ἀλλήλων, ἵνα μὴ κριθῆτε· ἰδοὺ ὁ κριτὴς πρὸ τῶν θυρῶν ἕστηκεν.
+   - Vulgate: Nolite ingemiscere, fratres, in alterutrum, ut non judicemini. Ecce judex ante januam assistit.
+   - BSB: Do not complain about one another, brothers, so that you will not be judged. Look, the Judge is standing at the door!
+   - WEB: Don’t grumble, brothers, against one another, so that you won’t be judged. Behold, the judge stands at the door.
+- **5:10** add (word): SBLGNT *–* ] TR *+ της κακοπαθειας*; substitute (word): SBLGNT *της κακοπαθιας* ] TR *μου*
+   - Latin: Exemplum capite, frātrēs meī, tolerantiæ ac patientiæ, dē vātibus, quī Dominī nōmine locūtī sunt.
+   - 1573: Exemplum capite, fratres mei, tolerantiæ ac patientiæ, de vatibus, qui Domini nomine locuti sunt.
+   - TR: Ὑπόδειγμα λάβετε τῆς κακοπαθείας, ἀδελφοί μου, καὶ τῆς μακροθυμίας, τοὺς προφήτας οἳ ἐλάλησαν τῷ ὀνόματι Κυρίου.
+   - SBLGNT: ὑπόδειγμα λάβετε, ἀδελφοί, τῆς κακοπαθίας καὶ τῆς μακροθυμίας τοὺς προφήτας, οἳ ἐλάλησαν ἐν τῷ ὀνόματι κυρίου.
+   - Vulgate: Exemplum accipite, fratres, exitus mali, laboris, et patientiæ, prophetas qui locuti sunt in nomine Domini.
+   - BSB: Brothers, as an example of patience in affliction, take the prophets who spoke in the name of the Lord.
+   - WEB: Take, brothers, for an example of suffering and of perseverance, the prophets who spoke in the name of the Lord.
+
+## Person (1 verses)
+
+- **4:5** Latin *vōbīs*; the TR has only ἡμ-
+   - Latin: An putātis, illud ināniter esse litterīs prōditum? Scīlicet ad invidiam prōpēnsus est is, quī in vōbīs habitat, Spīritus?
+   - 1573: An putatis illud inaniter esse literis proditum Scilicet ad inuidiam propensus est is qui in vobis habitat, spiritus?
+   - TR: Ἢ δοκεῖτε ὅτι κενῶς ἡ γραφὴ λέγει, Πρὸς φθόνον ἐπιποθεῖ τὸ πνεῦμα ὃ κατῴκησεν ἐν ἡμῖν;
+   - SBLGNT: ἢ δοκεῖτε ὅτι κενῶς ἡ γραφὴ λέγει· Πρὸς φθόνον ἐπιποθεῖ τὸ πνεῦμα ὃ κατῴκισεν ἐν ἡμῖν;
+   - Vulgate: An putatis quia inaniter Scriptura dicat: Ad invidiam concupiscit spiritus qui habitat in vobis?
+   - BSB: Or do you think the Scripture says without reason that the Spirit He caused to dwell in us yearns with envy?
+   - WEB: Or do you think that the Scripture says in vain, “The Spirit who lives in us yearns jealously”?

@@ -1,0 +1,2438 @@
+# Rev: candidates for light notes
+
+Built by `python -m pipeline notes Rev` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `rev-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 369; not a change of sense (order, article, form, small words): 202; the TR with the critical text: 77; in a verse already noted or bracketed: 0; **kept: 90**, in 82 verses. The TR alone against SBLGNT (no apparatus unit): 373, in 220 verses. Pronoun person (Latin against the TR): 0.
+
+## Text: clause (2 verses)
+
+- **2:9** add (clause): critical *σου* ] RP *+ τὰ ἔργα καὶ*
+   - Latin: Novī tua facta et calamitātem ac pauperiem (cum tamen dīves sīs) eōrumque impium dictum, quī sē Jūdæōs esse dīcunt, nec sunt, sed Satanæ caterva.
+   - 1573: Noui tua facta et calamitatem ac pauperiem (cùm tamen diues sis) eorumque impium dictum, qui se Iudæos esse dicunt, nec sunt, sed Satanæ caterua.
+   - TR: Οἶδά σου τὰ ἔργα καὶ τὴν θλίψιν καὶ τὴν πτωχείαν, πλούσιος δὲ εἶ· καὶ τὴν βλασφημίαν τῶν λεγόντων Ἰουδαίους εἶναι ἑαυτούς, καὶ οὐκ εἰσίν, ἀλλὰ συναγωγὴ τοῦ Σατανᾶ.
+   - SBLGNT: Οἶδά σου τὴν θλῖψιν καὶ τὴν πτωχείαν, ἀλλὰ πλούσιος εἶ, καὶ τὴν βλασφημίαν ἐκ τῶν λεγόντων Ἰουδαίους εἶναι ἑαυτούς, καὶ οὐκ εἰσίν, ἀλλὰ συναγωγὴ τοῦ Σατανᾶ.
+   - Vulgate: Scio tribulationem tuam, et paupertatem tuam, sed dives es: et blasphemaris ab his, qui se dicunt Judæos esse, et non sunt, sed sunt synagoga Satanæ.
+   - BSB: I know your affliction and your poverty—though you are rich! And I am aware of the slander of those who falsely claim to be Jews, but are in fact a synagogue of Satan.
+   - WEB: “I know your works, oppression, and your poverty (but you are rich), and the blasphemy of those who say they are Jews, and they are not, but are a synagogue of Satan.
+- **2:13** add (clause): critical *Οἶδα* ] RP *+ τὰ ἔργα σου καὶ*; add (word): critical *ἡμέραις* ] RP *+ ἐν αἷς*
+   - Latin: Novī tua facta, et ubi habitēs, ubi Satanæ solium est: tenēsque meum nōmen, nec meam fidem negāstī, etiam iīs temporibus, quibus Antipās, fīdus ille testis meus, apud vōs interfectus est, ubi Satanās habitat.
+   - 1573: Noui tua facta, et vbi habites, vbi Satanæ solium est: tenesque meum nomen, nec meam fidem negasti, etiam ijs temporibus, quibus Antipas, fidus ille testis meus, apud vos interfectus est, vbi Satanas habitat.
+   - TR: Οἶδα τὰ ἔργα σου καὶ ποῦ κατοικεῖς, ὅπου ὁ θρόνος τοῦ Σατανᾶ· καὶ κρατεῖς τὸ ὄνομά μου, καὶ οὐκ ἠρνήσω τὴν πίστιν μου καὶ ἐν ταῖς ἡμέραις ἐν αἷς Ἀντίπας ὁ μάρτυς μου, ὁ πιστός, ὃς ἀπεκτάνθη παρ᾿ ὑμῖν, ὅπου κατοικεῖ ὁ Σατανᾶς.
+   - SBLGNT: Οἶδα ποῦ κατοικεῖς, ὅπου ὁ θρόνος τοῦ Σατανᾶ, καὶ κρατεῖς τὸ ὄνομά μου, καὶ οὐκ ἠρνήσω τὴν πίστιν μου καὶ ἐν ταῖς ἡμέραις Ἀντιπᾶς, ὁ μάρτυς μου, ὁ πιστός μου, ὃς ἀπεκτάνθη παρʼ ὑμῖν, ὅπου ὁ Σατανᾶς κατοικεῖ.
+   - Vulgate: Scio ubi habitas, ubi sedes est Satanæ: et tenes nomen meum, et non negasti fidem meam. Et in diebus illis Antipas testis meus fidelis, qui occisus est apud vos ubi Satanas habitat.
+   - BSB: I know where you live, where the throne of Satan sits. Yet you have held fast to My name and have not denied your faith in Me, even in the day when My faithful witness Antipas was killed among you, where Satan dwells.
+   - WEB: “I know your works and where you dwell, where Satan’s throne is. You hold firmly to my name, and didn’t deny my faith in the days of Antipas my witness, my faithful one, who was killed among you, where Satan dwells.
+
+## Text: name (2 verses)
+
+- **11:12** substitute (word): critical *φωνῆς μεγάλης* ] RP *φωνὴν μεγάλην*; substitute (name): critical *Ἀνάβατε* ] RP *Ἀνάβητε*
+   - Latin: Audīvīque vōcem magnam dē cælō dīcentem iīs: “Ascendite hūc.” Atque illī in cælum in nūbe ascendērunt, spectantibus eōs hostibus eōrum.
+   - 1573: audiuique vocem magnam de cœlo dicentem eis: Ascendite huc. Atque illi in cœlum in nube ascenderunt, spectantibus eos hostibus eorum.
+   - TR: Καὶ ἤκουσαν φωνὴν μεγάλην ἐκ τοῦ οὐρανοῦ, λέγουσαν αὐτοῖς, Ἀνάβητε ὧδε. Καὶ ἀνέβησαν εἰς τὸν οὐρανὸν ἐν τῇ νεφέλῃ, καὶ ἐθεώρησαν αὐτοὺς οἱ ἐχθροὶ αὐτῶν.
+   - SBLGNT: καὶ ἤκουσαν φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ λεγούσης αὐτοῖς· Ἀνάβατε ὧδε, καὶ ἀνέβησαν εἰς τὸν οὐρανὸν ἐν τῇ νεφέλῃ, καὶ ἐθεώρησαν αὐτοὺς οἱ ἐχθροὶ αὐτῶν.
+   - Vulgate: Et audierunt vocem magnam de cælo, dicentem eis: Ascendite huc. Et ascenderunt in cælum in nube: et viderunt illos inimici eorum.
+   - BSB: And the witnesses heard a loud voice from heaven saying, “Come up here.” And they went up to heaven in a cloud as their enemies watched them.
+   - WEB: I heard a loud voice from heaven saying to them, “Come up here!” They went up into heaven in a cloud, and their enemies saw them.
+- **13:14** substitute (name): critical *ὃς ἔχει* ] RP *ὃ εἶχεν*
+   - Latin: et terræ incolās ostentīs, quæ eī in bēstiæ cōnspectū facere datum erat, fallēbat, jubēns, terræ incolīs, ut simulācrum facerent bēstiæ, quæ gladiō vulnerāta revaluerat.
+   - 1573: et terræ incolas ostentis (quæ ei in bestiæ conspectu facere datum erat) fallebat, iubens terræ incolis vt simulacrum facerent bestiæ, quæ gladio vulnerata reualuerat.
+   - TR: Καὶ πλανᾷ τοὺς κατοικοῦντας ἐπὶ τῆς γῆς διὰ τὰ σημεῖα ἃ ἐδόθη αὐτῷ ποιῆσαι ἐνώπιον τοῦ θηρίου, λέγων τοῖς κατοικοῦσιν ἐπὶ τῆς γῆς ποιῆσαι εἰκόνα τῷ θηρίῳ ὃ ἔχει τὴν πληγὴν τῆς μαχαίρας καὶ ἔζησε.
+   - SBLGNT: καὶ πλανᾷ τοὺς κατοικοῦντας ἐπὶ τῆς γῆς διὰ τὰ σημεῖα ἃ ἐδόθη αὐτῷ ποιῆσαι ἐνώπιον τοῦ θηρίου, λέγων τοῖς κατοικοῦσιν ἐπὶ τῆς γῆς ποιῆσαι εἰκόνα τῷ θηρίῳ, ὃς ἔχει τὴν πληγὴν τῆς μαχαίρης καὶ ἔζησεν.
+   - Vulgate: Et seduxit habitantes in terra propter signa, quæ data sunt illi facere in conspectu bestiæ, dicens habitantibus in terra, ut faciant imaginem bestiæ, quæ habet plagam gladii, et vixit.
+   - BSB: Because of the signs it was given to perform on behalf of the first beast, it deceived those who dwell on the earth, telling them to make an image to the beast that had been wounded by the sword and yet had lived.
+   - WEB: He deceives my own people who dwell on the earth because of the signs he was granted to do in front of the beast, saying to those who dwell on the earth that they should make an image to the beast who had the sword wound and lived.
+
+## Text: number (3 verses)
+
+- **1:13** add (number): critical *τῶν* ] RP *+ ἑπτὰ*; substitute (word): critical *υἱὸν* ] RP *υἱῷ*
+   - Latin: et in mediō septem candēlābrōrum similem Hominis Fīliō, indūtum veste tālārī, et ad mammās cīnctum aureō cingulō.
+   - 1573: et in medio septem candelabrorum similem hominis filio indutum veste talari, et ad mammas cinctum aureo cingulo.
+   - TR: καὶ ἐν μέσῳ τῶν ἑπτὰ λυχνιῶν ὅμοιον υἱῷ ἀνθρώπου, ἐνδεδυμένον ποδήρη, καὶ περιεζωσμένον πρὸς τοῖς μαστοῖς ζώνην χρυσῆν.
+   - SBLGNT: καὶ ἐν μέσῳ τῶν λυχνιῶν ὅμοιον υἱὸν ἀνθρώπου, ἐνδεδυμένον ποδήρη καὶ περιεζωσμένον πρὸς τοῖς μαστοῖς ζώνην χρυσᾶν·
+   - Vulgate: et in medio septem candelabrorum aureorum, similem Filio hominis vestitum podere, et præcinctum ad mamillas zona aurea:
+   - BSB: and among the lampstands was One like the Son of Man, dressed in a long robe, with a golden sash around His chest.
+   - WEB: And among the lamp stands was one like a son of man, clothed with a robe reaching down to his feet, and with a golden sash around his chest.
+- **9:16** substitute (number): critical *δισμυριάδες* ] RP *μυριάδες*
+   - Latin: Erat autem exercitūs equitum numerus bis mīlliēs centēna mīllia, eōrumque numerum audīvī.
+   - 1573: Erat autem exercitus equitum numerus bis millies centena millia, eorumque numerum audiui.
+   - TR: Καὶ ὁ ἀριθμὸς στρατευμάτων τοῦ ἱππικοῦ δύο μυριάδες μυριάδων· καὶ ἤκουσα τὸν ἀριθμὸν αὐτῶν.
+   - SBLGNT: καὶ ὁ ἀριθμὸς τῶν στρατευμάτων τοῦ ἱππικοῦ δισμυριάδες μυριάδων· ἤκουσα τὸν ἀριθμὸν αὐτῶν.
+   - Vulgate: Et numerus equestris exercitus vicies millies dena millia. Et audivi numerum eorum.
+   - BSB: And the number of mounted troops was two hundred million; I heard their number.
+   - WEB: The number of the armies of the horsemen was two hundred million. I heard the number of them.
+- **21:16** add (number): critical *χιλιάδων* ] RP *+ δώδεκα*
+   - Latin: Cujus urbis is situs erat, ut esset quadrāta, tantā longitūdine, quantā lātitūdine. Hanc urbem calamō dīmēnsus est ad stadiōrum duodecim mīllia parī longitūdine, et lātitūdine, ac altitūdine.
+   - 1573: cuius vrbis is situs erat, vt esset quadrata, tanta longitudine, quanta latitudine. Hanc vrbem calamo dimensus est ad stadiorum duodecim millia, pari longitudine et latitudine ac altitudine.
+   - TR: Καὶ ἡ πόλις τετράγωνος κεῖται, καὶ τὸ μῆκος αὐτῆς τοσοῦτόν ἐστιν ὅσον καὶ τὸ πλάτος. Καὶ ἐμέτρησε τὴν πόλιν τῷ καλάμῳ ἐπὶ σταδίων δώδεκα χιλιάδων· τὸ μῆκος καὶ τὸ πλάτος καὶ τὸ ὕψος αὐτῆς ἴσα ἐστί.
+   - SBLGNT: καὶ ἡ πόλις τετράγωνος κεῖται, καὶ τὸ μῆκος αὐτῆς ὅσον τὸ πλάτος. καὶ ἐμέτρησεν τὴν πόλιν τῷ καλάμῳ ἐπὶ σταδίους δώδεκα χιλιάδων· τὸ μῆκος καὶ τὸ πλάτος καὶ τὸ ὕψος αὐτῆς ἴσα ἐστίν.
+   - Vulgate: Et civitas in quadro posita est, et longitudo ejus tanta est quanta et latitudo: et mensus est civitatem de arundine aurea per stadia duodecim millia: et longitudo, et altitudo, et latitudo ejus æqualia sunt.
+   - BSB: The city lies foursquare, with its width the same as its length. And he measured the city with the rod, and all its dimensions were equal—12,000 stadia in length and width and height.
+   - WEB: The city is square. Its length is as great as its width. He measured the city with the reed: twelve thousand twelve stadia. Its length, width, and height are equal.
+
+## Text: word (75 verses)
+
+- **1:5** substitute (word): critical *λύσαντι* ] RP *λούσαντι*
+   - Latin: Et ā Jēsū Chrīstō, teste illō fidēlī, prīmōgenitō ex mortuīs, et rēgum terræ prīncipe.
+   - 1573: et à Iesu Christo, teste illo fideli, primogenito ex mortuis, et regum terræ principe.
+   - TR: καὶ ἀπὸ Ἰησοῦ Χριστοῦ, ὁ μάρτυς ὁ πιστός, ὁ πρωτότοκος ἐκ τῶν νεκρῶν, καὶ ὁ ἄρχων τῶν βασιλέων τῆς γῆς. Τῷ ἀγαπήσαντι ἡμᾶς, καὶ λούσαντι ἡμᾶς ἀπὸ τῶν ἁμαρτιῶν ἡμῶν ἐν τῷ αἵματι αὐτοῦ·
+   - SBLGNT: καὶ ἀπὸ Ἰησοῦ Χριστοῦ, ὁ μάρτυς ὁ πιστός, ὁ πρωτότοκος τῶν νεκρῶν καὶ ὁ ἄρχων τῶν βασιλέων τῆς γῆς. Τῷ ἀγαπῶντι ἡμᾶς καὶ λύσαντι ἡμᾶς ἐκ τῶν ἁμαρτιῶν ἡμῶν ἐν τῷ αἵματι αὐτοῦ—
+   - Vulgate: et a Jesu Christo, qui est testis fidelis, primogenitus mortuorum, et princeps regum terræ, qui dilexit nos, et lavit nos a peccatis nostris in sanguine suo,
+   - BSB: and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has released us from our sins by His blood,
+   - WEB: and from Jesus Christ, the faithful witness, the firstborn of the dead, and the ruler of the kings of the earth. To him who loves us, and washed us from our sins by his blood—
+- **1:9** add (word): critical *Ἰησοῦ* ] RP *+ Χριστοῦ*
+   - Latin: Ego Jōhannēs, quī et frāter sum vester, et socius in calamitāte, inque rēgnō et patientiā Jēsū Chrīstī, cum in īnsulā nōmine Patmō, propter Deī sermōnem, propterque Jēsū Chrīstī testimōnium, essem,
+   - 1573: Ego Iohannes, qui et frater sum vester: et socius in calamitate, inque regno et patientia Iesu Christi, cùm in insula nomine Patmo, propter Dei sermonem propterque Iesu Christi testimonium essem,
+   - TR: Ἐγὼ Ἰωάννης, ὁ καὶ ἀδελφὸς ὑμῶν καὶ συγκοινωνὸς ἐν τῇ θλίψει καὶ ἐν τῇ βασιλείᾳ καὶ ὑπομονῇ Ἰησοῦ Χριστοῦ, ἐγενόμην ἐν τῇ νήσῳ τῇ καλουμένῃ Πάτμῳ, διὰ τὸν λόγον τοῦ Θεοῦ καὶ διὰ τὴν μαρτυρίαν Ἰησοῦ Χριστοῦ.
+   - SBLGNT: Ἐγὼ Ἰωάννης, ὁ ἀδελφὸς ὑμῶν καὶ συγκοινωνὸς ἐν τῇ θλίψει καὶ βασιλείᾳ καὶ ὑπομονῇ ἐν Ἰησοῦ, ἐγενόμην ἐν τῇ νήσῳ τῇ καλουμένῃ Πάτμῳ διὰ τὸν λόγον τοῦ θεοῦ καὶ τὴν μαρτυρίαν Ἰησοῦ.
+   - Vulgate: Ego Joannes frater vester, et particeps in tribulatione, et regno, et patientia in Christo Jesu: fui in insula, quæ appellatur Patmos, propter verbum Dei, et testimonium Jesu:
+   - BSB: I, John, your brother and partner in the tribulation and kingdom and perseverance that are in Jesus, was on the island of Patmos because of the word of God and my testimony about Jesus.
+   - WEB: I John, your brother and partner with you in the oppression, Kingdom, and perseverance in Christ Jesus, was on the isle that is called Patmos because of God’s Word and the testimony of Jesus Christ.
+- **1:20** substitute (word): critical *οὓς* ] RP *ὧν*
+   - Latin: Arcānum septem stēllārum, quās in meā dextrā vīdistī, et septem aureōrum candēlābrōrum est hoc: septem stēllæ, angelī sunt septem ecclēsiārum. Septem autem candēlābra, quæ vīdistī, septem ecclēsiæ sunt.
+   - 1573: Arcanum septem stellarum, quas in mea dextera vidisti, et septem aureorum candelabrorum est hoc: Septem stellæ, angeli sunt septem ecclesiarum. Septem autem candelabra, quæ vidisti, septem ecclesiæ sunt.
+   - TR: τὸ μυστήριον τῶν ἑπτὰ ἀστέρων ὧν εἶδες ἐπὶ τῆς δεξιᾶς μου, καὶ τὰς ἑπτὰ λυχνίας τὰς χρυσᾶς. Οἱ ἑπτὰ ἀστέρες ἄγγελοι τῶν ἑπτὰ ἐκκλησιῶν εἰσί· καὶ αἱ ἑπτὰ λυχνίαι ἃς εἶδες ἑπτὰ ἐκκλησίαι εἰσί.
+   - SBLGNT: τὸ μυστήριον τῶν ἑπτὰ ἀστέρων οὓς εἶδες ἐπὶ τῆς δεξιᾶς μου, καὶ τὰς ἑπτὰ λυχνίας τὰς χρυσᾶς· οἱ ἑπτὰ ἀστέρες ἄγγελοι τῶν ἑπτὰ ἐκκλησιῶν εἰσίν, καὶ αἱ λυχνίαι αἱ ἑπτὰ ἑπτὰ ἐκκλησίαι εἰσίν.
+   - Vulgate: Sacramentum septem stellarum, quas vidisti in dextera mea, et septem candelabra aurea: septem stellæ, angeli sunt septem ecclesiarum: et candelabra septem, septem ecclesiæ sunt.
+   - BSB: This is the mystery of the seven stars you saw in My right hand and of the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands are the seven churches.
+   - WEB: The mystery of the seven stars which you saw in my right hand, and the seven golden lamp stands is this: The seven stars are the angels of the seven assemblies. The seven lamp stands are seven assemblies.
+- **2:2** add (word): critical *ἀποστόλους* ] RP *+ εἶναι*
+   - Latin: Novī tua facta, labōrem, et patientiam, utque malōs ferre nequeās: et eōs explōrāverīs, quī sē profitentur apostolōs, nec sunt, quōs tū falsōs dēprehendistī.
+   - 1573: Noui tua facta, laborem, et patientiam, vtque malos ferre nequeas: et eos exploraueris, qui se profitentur apostolos, nec sunt: quos tu falsos deprehendisti,
+   - TR: Οἶδα τὰ ἔργα σου, καὶ τὸν κόπον σου, καὶ τὴν ὑπομονήν σου, καὶ ὅτι οὐ δύνῃ βαστάσαι κακούς, καὶ ἐπειράσω τοὺς φάσκοντας εἶναι ἀποστόλους καὶ οὐκ εἰσί, καὶ εὗρες αὐτοὺς ψευδεῖς,
+   - SBLGNT: Οἶδα τὰ ἔργα σου, καὶ τὸν κόπον καὶ τὴν ὑπομονήν σου, καὶ ὅτι οὐ δύνῃ βαστάσαι κακούς, καὶ ἐπείρασας τοὺς λέγοντας ἑαυτοὺς ἀποστόλους, καὶ οὐκ εἰσίν, καὶ εὗρες αὐτοὺς ψευδεῖς·
+   - Vulgate: Scio opera tua, et laborem, et patientiam tuam, et quia non potes sustinere malos: et tentasti eos, qui se dicunt apostolos esse, et non sunt: et invenisti eos mendaces:
+   - BSB: I know your deeds, your labor, and your perseverance. I know that you cannot tolerate those who are evil, and you have tested and exposed as liars those who falsely claim to be apostles.
+   - WEB: “I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false.
+- **2:3** substitute (word): critical *οὐ κεκοπίακες* ] RP *οὐκ ἐκοπίασας*
+   - Latin: Et tolerāstī, patientiāque ūteris, et propter meum nōmen labōrās indēfessus.
+   - 1573: et tolerasti, patientiaque vteris, et propter meum nomen laboras indefessus.
+   - TR: καὶ ἐβάστασας καὶ ὑπομονὴν ἔχεις, καὶ διὰ τὸ ὄνομά μου κεκοπίακας καὶ οὐ κέκμηκας.
+   - SBLGNT: καὶ ὑπομονὴν ἔχεις, καὶ ἐβάστασας διὰ τὸ ὄνομά μου, καὶ οὐ κεκοπίακες.
+   - Vulgate: et patientiam habes, et sustinuisti propter nomen meum, et non defecisti.
+   - BSB: Without growing weary, you have persevered and endured many things for the sake of My name.
+   - WEB: You have perseverance and have endured for my name’s sake, and have not grown weary.
+- **2:5** add (word): critical *σοι* ] RP *+ ταχύ*
+   - Latin: Quamobrem mementō, unde exciderīs, et ad sānitātem redī, ac priōra opera facitō. Aliōquin adoriar tē brevī, tuumque candēlābrum ex suō locō trānsmovēbō, nisi ad sānitātem redieris.
+   - 1573: Quamobrem memento vnde excideris, et ad sanitatem redi, ac priora opera facito. Alioquin adoriar te breui, tuumque candelabrum ex suo loco transmouebo, nisi ad sanitatem redieris.
+   - TR: Μνημόνευε οὖν πόθεν ἐκπέπτωκας, καὶ μετανόησον, καὶ τὰ πρῶτα ἔργα ποίησον· εἰ δὲ μή, ἔρχομαί σοι ταχύ, καὶ κινήσω τὴν λυχνίαν σου ἐκ τοῦ τόπου αὐτῆς, ἐὰν μὴ μετανοήσῃς.
+   - SBLGNT: μνημόνευε οὖν πόθεν πέπτωκας, καὶ μετανόησον καὶ τὰ πρῶτα ἔργα ποίησον· εἰ δὲ μή, ἔρχομαί σοι, καὶ κινήσω τὴν λυχνίαν σου ἐκ τοῦ τόπου αὐτῆς, ἐὰν μὴ μετανοήσῃς.
+   - Vulgate: Memor esto itaque unde excideris: et age pœnitentiam, et prima opera fac: sin autem, venio tibi, et movebo candelabrum tuum de loco suo, nisi pœnitentiam egeris.
+   - BSB: Therefore, keep in mind how far you have fallen. Repent and perform the deeds you did at first. But if you do not repent, I will come to you and remove your lampstand from its place.
+   - WEB: Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent.
+- **2:10** substitute (word): critical *βάλλειν* ] RP *βαλεῖν*
+   - Latin: Nōlī metuere, quæ passūrus es. Datūrus est quidem diabolus vestrum nōnnūllōs in custōdiam, ut explōrēminī: ferētisque decem diērum afflīctiōnem. Estō fidēlis ad mortem ūsque, et tibi dabō corōnam vītæ.
+   - 1573: Noli metuere quæ passurus es. Daturus est quidem Diabolus vestrûm nonnullos in custodiam, vt exploremini: feretisque decem dierum afflictionem. Esto fidelis ad mortem vsque, et tibi dabo coronam vitæ.
+   - TR: Μηδὲν φοβοῦ ἃ μέλλεις πάσχειν· ἰδού, μέλλει βαλεῖν ἐξ ὑμῶν ὁ διάβολος εἰς φυλακήν, ἵνα πειρασθῆτε· καὶ ἕξετε θλίψιν ἡμερῶν δέκα. Γίνου πιστὸς ἄχρι θανάτου, καὶ δώσω σοι τὸν στέφανον τῆς ζωῆς.
+   - SBLGNT: μηδὲν φοβοῦ ἃ μέλλεις πάσχειν. ἰδοὺ μέλλει βάλλειν ὁ διάβολος ἐξ ὑμῶν εἰς φυλακὴν ἵνα πειρασθῆτε, καὶ ἕξετε θλῖψιν ἡμερῶν δέκα. γίνου πιστὸς ἄχρι θανάτου, καὶ δώσω σοι τὸν στέφανον τῆς ζωῆς.
+   - Vulgate: Nihil horum timeas quæ passurus es. Ecce missurus est diabolus aliquos ex vobis in carcerem ut tentemini: et habebitis tribulationem diebus decem. Esto fidelis usque ad mortem, et dabo tibi coronam vitæ.
+   - BSB: Do not fear what you are about to suffer. Look, the devil is about to throw some of you into prison to test you, and you will suffer tribulation for ten days. Be faithful even unto death, and I will give you the crown of life.
+   - WEB: Don’t be afraid of the things which you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested; and you will have oppression for ten days. Be faithful to death, and I will give you the crown of life.
+- **2:17** add (word): critical *αὐτῷ* ] RP *+ φαγεῖν*
+   - Latin: Quī habet aurem, audiat, quid Spīritus dīcat ecclēsiīs: victōrī dabō occultō manna vēscī: eīque dabō calculum album, et in calculō novum nōmen scrīptum, quod nūllus nōvit, nisi quī accipit.
+   - 1573: Qui habet aurem, audiat quid spiritus dicat ecclesijs: Victori dabo occultò manna vesci: eique dabo calculum album, et in calculo nouum nomen scriptum, quod nullus nouit, nisi qui accipit.
+   - TR: Ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις. Τῷ νικῶντι δώσω αὐτῷ φαγεῖν ἀπὸ τοῦ μάννα τοῦ κεκρυμμένου, καὶ δώσω αὐτῷ ψῆφον λευκήν, καὶ ἐπὶ τὴν ψῆφον ὄνομα καινὸν γεγραμμένον, ὃ οὐδεὶς ἔγνω εἰ μὴ ὁ λαμβάνων.
+   - SBLGNT: ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις. τῷ νικῶντι δώσω αὐτῷ τοῦ μάννα τοῦ κεκρυμμένου, καὶ δώσω αὐτῷ ψῆφον λευκήν, καὶ ἐπὶ τὴν ψῆφον ὄνομα καινὸν γεγραμμένον ὃ οὐδεὶς οἶδεν εἰ μὴ ὁ λαμβάνων.
+   - Vulgate: Qui habet aurem, audiat quid Spiritus dicat ecclesiis: Vincenti dabo manna absconditum, et dabo illi calculum candidum: et in calculo nomen novum scriptum, quod nemo scit, nisi qui accipit.
+   - BSB: He who has an ear, let him hear what the Spirit says to the churches. To the one who overcomes, I will give the hidden manna. I will also give him a white stone inscribed with a new name, known only to the one who receives it.
+   - WEB: He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna, and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
+- **2:20** substitute (word): critical *λέγουσα* ] RP *λέγει*
+   - Latin: Sed habeō contrā tē pauca, quod mulierem Jezabēlem, quæ sē vātem esse dīcit, docēre sinis, servōsque meōs dēcipī, et scortārī, et deastrīs immolāta vēscī.
+   - 1573: Sed habeo contra te pauca, quòd mulierem Iesabelem, quæ se vatem esse dicit, docere sinis, seruosque meos decipi et scortari, et deastris immolata vesci.
+   - TR: Ἀλλ᾿ ἔχω κατὰ σοῦ ὀλίγα ὅτι ἐᾷς τὴν γυναῖκα Ἰεζαβήλ, τὴν λέγουσαν ἑαυτὴν προφῆτιν, διδάσκειν καὶ πλανᾶσθαι ἐμοὺς δούλους πορνεῦσαι καὶ εἰδωλόθυτα φαγεῖν.
+   - SBLGNT: ἀλλὰ ἔχω κατὰ σοῦ ὅτι ἀφεῖς τὴν γυναῖκα Ἰεζάβελ, ἡ λέγουσα ἑαυτὴν προφῆτιν, καὶ διδάσκει καὶ πλανᾷ τοὺς ἐμοὺς δούλους πορνεῦσαι καὶ φαγεῖν εἰδωλόθυτα.
+   - Vulgate: Sed habeo adversus te pauca: quia permittis mulierem Jezabel, quæ se dicit propheten, docere, et seducere servos meos, fornicari, et manducare de idolothytis.
+   - BSB: But I have this against you: You tolerate that woman Jezebel, who calls herself a prophetess. By her teaching she misleads My servants to be sexually immoral and to eat food sacrificed to idols.
+   - WEB: But I have this against you, that you tolerate your woman Jezebel, who calls herself a prophetess. She teaches and seduces my servants to commit sexual immorality and to eat things sacrificed to idols.
+- **3:2** substitute (word): critical *ἔμελλον ἀποθανεῖν* ] RP *ἔμελλες ἀποβάλλειν*
+   - Latin: Præstā tē vigilantem, et cētera moritūra cōnfirmā. Nōn enim invēnī tua opera ergā Deum officiōsa.
+   - 1573: Præsta te vigilantem, et cætera moritura confirma. Non enim inueni tua opera erga Deum officiosa.
+   - TR: Γίνου γρηγορῶν, καὶ στήριξον τὰ λοιπὰ ἃ μέλλει ἀποθανεῖν· οὐ γὰρ εὕρηκά σου τὰ ἔργα πεπληρωμένα ἐνώπιον τοῦ Θεοῦ.
+   - SBLGNT: γίνου γρηγορῶν, καὶ στήρισον τὰ λοιπὰ ἃ ἔμελλον ἀποθανεῖν, οὐ γὰρ εὕρηκά σου τὰ ἔργα πεπληρωμένα ἐνώπιον τοῦ θεοῦ μου·
+   - Vulgate: Esto vigilans, et confirma cetera, quæ moritura erant. Non enim invenio opera tua plena coram Deo meo.
+   - BSB: Wake up and strengthen what remains, which was about to die; for I have found your deeds incomplete in the sight of My God.
+   - WEB: Wake up and strengthen the things that remain, which you were about to throw away, for I have found no works of yours perfected before my God.
+- **3:7** substitute (word): critical *καὶ κλείων* ] RP *αὐτήν εἴ μὴ ὁ ἀνοίγων*
+   - Latin: “Item angelō Philadelphiēnsis ecclēsiæ scrībitō: Hæc dīcit sānctus, vērus, quī Dāvīdis clāvem habet, quō aperiente nūllus claudit, claudente nūllus aperit:
+   - 1573: Item angelo Philadelphiensis ecclesiæ scribito: Hæc dicit sanctus, verus, qui Dauidis clauem habet, quo aperiente nullus claudit, claudente nullus aperit.
+   - TR: Καὶ τῷ ἀγγέλῳ τῆς ἐν Φιλαδελφείᾳ ἐκκλησίας γράψον, Τάδε λέγει ὁ ἅγιος, ὁ ἀληθινός, ὁ ἔχων τὴν κλεῖδα τοῦ Δαβίδ, ὁ ἀνοίγων καὶ οὐδεὶς κλείει, καὶ κλείει καὶ οὐδεὶς ἀνοίγει.
+   - SBLGNT: Καὶ τῷ ἀγγέλῳ τῆς ἐν Φιλαδελφείᾳ ἐκκλησίας γράψον· Τάδε λέγει ὁ ἅγιος, ὁ ἀληθινός, ὁ ἔχων τὴν κλεῖν Δαυίδ, ὁ ἀνοίγων καὶ οὐδεὶς κλείσει, καὶ κλείων καὶ οὐδεὶς ἀνοίγει·
+   - Vulgate: Et angelo Philadelphiæ ecclesiæ scribe: Hæc dicit Sanctus et Verus, qui habet clavem David: qui aperit, et nemo claudit: claudit, et nemo aperit:
+   - BSB: To the angel of the church in Philadelphia write: These are the words of the One who is holy and true, who holds the key of David. What He opens no one can shut, and what He shuts no one can open.
+   - WEB: “To the angel of the assembly in Philadelphia write: “He who is holy, he who is true, he who has the key of David, he who opens and no one can shut, and who shuts and no one opens, says these things:
+- **3:9** substitute (word): critical *ἥξουσιν καὶ προσκυνήσουσιν* ] RP *ἥξωσιν καὶ προσκυνήσωσιν*
+   - Latin: Ego cōgam nōnnūllōs ex Satanæ catervā, quī sē Jūdæōs esse dīcunt, nec sunt, sed mentiuntur: eōs, inquam, eō adigam, ut tē ante pedēs tuōs venerātum veniant, tēque mihi cārum esse intellegant.
+   - 1573: Ego cogam nonnullos ex Satanæ caterua, qui se Iudæos esse dicunt, nec sunt, sed mentiuntur: eos inquam, eò adigam, vt te ante pedes tuos veneratum veniant, teque mihi charum esse intelligant,
+   - TR: Ἰδού, δίδωμι ἐκ τῆς συναγωγῆς τοῦ Σατανᾶ, τῶν λεγόντων ἑαυτοὺς Ἰουδαίους εἶναι, καὶ οὐκ εἰσίν, ἀλλὰ ψεύδονται· ἰδού, ποιήσω αὐτοὺς ἵνα ἥξωσι καὶ προσκυνήσωσιν ἐνώπιον τῶν ποδῶν σου, καὶ γνῶσιν ὅτι ἐγὼ ἠγάπησά σε.
+   - SBLGNT: ἰδοὺ διδῶ ἐκ τῆς συναγωγῆς τοῦ Σατανᾶ, τῶν λεγόντων ἑαυτοὺς Ἰουδαίους εἶναι, καὶ οὐκ εἰσὶν ἀλλὰ ψεύδονται— ἰδοὺ ποιήσω αὐτοὺς ἵνα ἥξουσιν καὶ προσκυνήσουσιν ἐνώπιον τῶν ποδῶν σου, καὶ γνῶσιν ὅτι ἐγὼ ἠγάπησά σε.
+   - Vulgate: Ecce dabo de synagoga Satanæ, qui dicunt se Judæos esse, et non sunt, sed mentiuntur: ecce faciam illos ut veniant, et adorent ante pedes tuos: et scient quia ego dilexi te,
+   - BSB: Look at those who belong to the synagogue of Satan, who claim to be Jews but are liars instead. I will make them come and bow down at your feet, and they will know that I love you.
+   - WEB: Behold, I make some of the synagogue of Satan, of those who say they are Jews, and they are not, but lie—behold, I will make them to come and worship before your feet, and to know that I have loved you.
+- **3:18** substitute (word): critical *ἐγχρῖσαι* ] RP *ἵνα ἐγχρίσῃ*
+   - Latin: Suādeō tibi, ut ā mē aurum igne candēns emās, quō dītēscās; et vestīmenta candida, quō induāre, nē appāreat tuæ nūditātis obscēnitās: et collȳriō illine tuōs oculōs, ut cernās.
+   - 1573: Suadeo tibi, vt à me aurum igne candens emas, quò ditescas: et vestimenta candida, quo induare, ne appareat tuæ nuditatis obscenitas: et collyrio illine tuos oculos, vt cernas.
+   - TR: συμβουλεύω σοι ἀγοράσαι παρ᾿ ἐμοῦ χρυσίον πεπυρωμένον ἐκ πυρός, ἵνα πλουτήσῃς, καὶ ἱμάτια λευκά, ἵνα περιβάλῃ, καὶ μὴ φανερωθῇ ἡ αἰσχύνη τῆς γυμνότητός σου· καὶ κολλούριον ἔγχρισον τοὺς ὀφθαλμούς σου, ἵνα βλέπῃς.
+   - SBLGNT: συμβουλεύω σοι ἀγοράσαι παρʼ ἐμοῦ χρυσίον πεπυρωμένον ἐκ πυρὸς ἵνα πλουτήσῃς, καὶ ἱμάτια λευκὰ ἵνα περιβάλῃ καὶ μὴ φανερωθῇ ἡ αἰσχύνη τῆς γυμνότητός σου, καὶ κολλούριον ἐγχρῖσαι τοὺς ὀφθαλμούς σου ἵνα βλέπῃς.
+   - Vulgate: Suadeo tibi emere a me aurum ignitum probatum, ut locuples fias, et vestimentis albis induaris, et non appareat confusio nuditatis tuæ, et collyrio inunge oculos tuos ut videas.
+   - BSB: I counsel you to buy from Me gold refined by fire so that you may become rich, white garments so that you may be clothed and your shameful nakedness not exposed, and salve to anoint your eyes so that you may see.
+   - WEB: I counsel you to buy from me gold refined by fire, that you may become rich; and white garments, that you may clothe yourself, and that the shame of your nakedness may not be revealed; and eye salve to anoint your eyes, that you may see.
+- **3:19** substitute (word): critical *ζήλευε* ] RP *ζήλωσον*
+   - Latin: Ego, quōs amō, arguō et castīgō. Quamobrem vehementior estō, tēque corrige.
+   - 1573: Ego quos amo, arguo et castigo. Quamobrem vehementior esto, teque corrige.
+   - TR: Ἐγὼ ὅσους ἐὰν φιλῶ, ἐλέγχω καὶ παιδεύω· ζήλωσον οὖν καὶ μετανόησον.
+   - SBLGNT: ἐγὼ ὅσους ἐὰν φιλῶ ἐλέγχω καὶ παιδεύω· ζήλευε οὖν καὶ μετανόησον.
+   - Vulgate: Ego quos amo, arguo, et castigo. Æmulare ergo, et pœnitentiam age.
+   - BSB: Those I love, I rebuke and discipline. Therefore be earnest and repent.
+   - WEB: As many as I love, I reprove and chasten. Be zealous therefore, and repent.
+- **4:5** substitute (word): critical *ἅ* ] RP *αὐτοῦ αἵ*
+   - Latin: Ex soliō prōdībant fulgura, et tonitrua, et fragōrēs, et septem facēs igneæ, et ante solium ārdentēs, quæ sunt septem Deī spīritūs.
+   - 1573: Ex solio prodibant fulgura, et tonitrua, et fragores, et septem faces igneæ, et ante solium ardentes, quæ sunt septem Dei spiritus.
+   - TR: Καὶ ἐκ τοῦ θρόνου ἐκπορεύονται ἀστραπαὶ καὶ βρονταὶ καὶ φωναί. Καὶ ἑπτὰ λαμπάδες πυρὸς καιόμεναι ἐνώπιον τοῦ θρόνου, αἵ εἰσι τὰ ἑπτὰ πνεύματα τοῦ Θεοῦ·
+   - SBLGNT: καὶ ἐκ τοῦ θρόνου ἐκπορεύονται ἀστραπαὶ καὶ φωναὶ καὶ βρονταί· καὶ ἑπτὰ λαμπάδες πυρὸς καιόμεναι ἐνώπιον τοῦ θρόνου, ἅ εἰσιν τὰ ἑπτὰ πνεύματα τοῦ θεοῦ,
+   - Vulgate: Et de throno procedebant fulgura, et voces, et tonitrua: et septem lampades ardentes ante thronum, qui sunt septem spiritus Dei.
+   - BSB: From the throne came flashes of lightning, and rumblings, and peals of thunder. Before the throne burned seven torches of fire. These are the seven Spirits of God.
+   - WEB: Out of the throne proceed lightnings, sounds, and thunders. There were seven lamps of fire burning before his throne, which are the seven Spirits of God.
+- **4:7** substitute (word): critical *ἔχων* ] RP *ἔχον*
+   - Latin: Prīmum animal erat leōnī simile: alterum animal erat vitulō simile: tertium animal faciem habēbat hominis: quārtum animal simile erat aquilæ volantī.
+   - 1573: Primum animal erat leoni simile: alterum animal erat vitulo simile: tertium animal faciem habebat hominis: quartum animal simile erat aquilæ volanti.
+   - TR: Καὶ τὸ ζῷον τὸ πρῶτον ὅμοιον λέοντι, καὶ τὸ δεύτερον ζῷον ὅμοιον μόσχῳ, καὶ τὸ τρίτον ζῷον ἔχον τὸ πρόσωπον ὡς ἄνθρωπος, καὶ τὸ τέταρτον ζῷον ὅμοιον ἀετῷ πετωμένῳ.
+   - SBLGNT: καὶ τὸ ζῷον τὸ πρῶτον ὅμοιον λέοντι, καὶ τὸ δεύτερον ζῷον ὅμοιον μόσχῳ, καὶ τὸ τρίτον ζῷον ἔχων τὸ πρόσωπον ὡς ἀνθρώπου, καὶ τὸ τέταρτον ζῷον ὅμοιον ἀετῷ πετομένῳ·
+   - Vulgate: Et animal primum simile leoni, et secundum animal simile vitulo, et tertium animal habens faciem quasi hominis, et quartum animal simile aquilæ volanti.
+   - BSB: The first living creature was like a lion, the second like a calf, the third had a face like a man, and the fourth was like an eagle in flight.
+   - WEB: The first creature was like a lion, the second creature like a calf, the third creature had a face like a man, and the fourth was like a flying eagle.
+- **4:8** substitute (word): critical *ἔχων* ] RP *ἔχον*
+   - Latin: Hæc quattuor animālia habēbant singula sēnās ālās per circuitum, et intus erant oculīs referta. Ea sine ūllā intermissiōne diēs et noctēs dīcunt: “Sānctus, sānctus, sānctus Dominus Deus armipotēns, quī fuit, quī est, et quī ventūrus est.”
+   - 1573: Hæc quatuor animalia habebant singula senas alas, per circuitum, et intus erant oculis referta. Ea sine vlla intermissione dies, et noctes dicunt SANCTVS, SANCTVS, SANCTVS Dominus Deus armipotens, qui fuit, qui est, et qui venturus est.
+   - TR: Καὶ τέσσαρα ζῷα, ἓν καθ᾿ ἑαυτὸ εἶχον ἀνὰ πτέρυγας ἓξ κυκλόθεν, καὶ ἔσωθεν γέμοντα ὀφθαλμῶν, καὶ ἀνάπαυσιν οὐκ ἔχουσιν ἡμέρας καὶ νυκτός, λέγοντα, Ἅγιος, ἅγιος, ἅγιος, Κύριος ὁ Θεὸς ὁ παντοκράτωρ, ὁ ἦν καὶ ὁ ὢν καὶ ὁ ἐρχόμενος.
+   - SBLGNT: καὶ τὰ τέσσαρα ζῷα, ἓν καθʼ ἓν αὐτῶν ἔχων ἀνὰ πτέρυγας ἕξ, κυκλόθεν καὶ ἔσωθεν γέμουσιν ὀφθαλμῶν· καὶ ἀνάπαυσιν οὐκ ἔχουσιν ἡμέρας καὶ νυκτὸς λέγοντες· Ἅγιος ἅγιος ἅγιος κύριος, ὁ θεός, ὁ παντοκράτωρ, ὁ ἦν καὶ ὁ ὢν καὶ ὁ ἐρχόμενος.
+   - Vulgate: Et quatuor animalia, singula eorum habebant alas senas: et in circuitu, et intus plena sunt oculis: et requiem non habebant die ac nocte, dicentia: Sanctus, Sanctus, Sanctus Dominus Deus omnipotens, qui erat, et qui est, et qui venturus est.
+   - BSB: And each of the four living creatures had six wings and was covered with eyes all around and within. Day and night they never stop saying: “Holy, Holy, Holy, is the Lord God Almighty, who was and is and is to come!”
+   - WEB: The four living creatures, each one of them having six wings, are full of eyes around and within. They have no rest day and night, saying, “Holy, holy, holy is the Lord God, the Almighty, who was and who is and who is to come!”
+- **4:9** substitute (word): critical *τῷ θρόνῳ* ] RP *τοῦ θρόνου*
+   - Latin: Cum autem tribuunt animālia glōriam, et honōrem, et grātiārum āctiōnem sedentī in soliō, vīventī in perennia sæcula:
+   - 1573: Cùm autem tribuunt animalia gloriam, et honorem, et gratiarum actionem sedenti in solio, viuenti in perennia secula:
+   - TR: Καὶ ὅταν δώσουσι τὰ ζῷα δόξαν καὶ τιμὴν καὶ εὐχαριστίαν τῷ καθημένῳ ἐπὶ τοῦ θρόνου, τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων,
+   - SBLGNT: καὶ ὅταν δώσουσιν τὰ ζῷα δόξαν καὶ τιμὴν καὶ εὐχαριστίαν τῷ καθημένῳ ἐπὶ τῷ θρόνῳ, τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων,
+   - Vulgate: Et cum darent illa animalia gloriam, et honorem, et benedictionem sedenti super thronum, viventi in sæcula sæculorum,
+   - BSB: And whenever the living creatures give glory, honor, and thanks to the One seated on the throne who lives forever and ever,
+   - WEB: When the living creatures give glory, honor, and thanks to him who sits on the throne, to him who lives forever and ever,
+- **5:2** add (word): critical *ἄξιος* ] RP *+ ἐστιν*
+   - Latin: Vidīque validum angelum magnā vōce prōnūntiantem: “Quis dignus est, quī librum aperiat, et ejus sigilla resignet?”
+   - 1573: vidique validum angelum magna voce pronunciantem: Quis dignus est qui librum aperiat, et eius sigilla resignet?
+   - TR: Καὶ εἶδον ἄγγελον ἰσχυρὸν κηρύσσοντα φωνῇ μεγάλῃ, Τίς ἐστιν ἄξιος ἀνοῖξαι τὸ βιβλίον, καὶ λῦσαι τὰς σφραγῖδας αὐτοῦ;
+   - SBLGNT: καὶ εἶδον ἄγγελον ἰσχυρὸν κηρύσσοντα ἐν φωνῇ μεγάλῃ· Τίς ἄξιος ἀνοῖξαι τὸ βιβλίον καὶ λῦσαι τὰς σφραγῖδας αὐτοῦ;
+   - Vulgate: Et vidi angelum fortem, prædicantem voce magna: Quis est dignus aperire librum, et solvere signacula ejus?
+   - BSB: And I saw a mighty angel proclaiming in a loud voice, “Who is worthy to break the seals and open the scroll?”
+   - WEB: I saw a mighty angel proclaiming with a loud voice, “Who is worthy to open the book, and to break its seals?”
+- **5:6** substitute (word): critical *ἔχων* ] RP *ἔχον*; substitute (word): critical *οἵ* ] RP *ἃ*; substitute (word): critical *ἀπεσταλμένοι* ] RP *ἀποστελλόμενα*
+   - Latin: Tum ego aspiciēns, animadvertī in mediō soliī, et quattuor animālium, inque mediō senātōrum, astantem Agnum, tamquam mactātum, habentem septem cornua, septemque oculōs, quī sunt septem Deī spīritūs in omnēs dīmissī terrās.
+   - 1573: Tum ego aspiciens, animaduerti in medio solij, et quatuor animalium, inque medio senatorum astantem Agnum tanquam mactatum, habentem septem cornua, septemque oculos, qui sunt septem dei spiritus in omnes dimissi terras.
+   - TR: Καὶ εἶδον, καὶ ἰδού, ἐν μέσῳ τοῦ θρόνου καὶ τῶν τεσσάρων ζῴων, καὶ ἐν μέσῳ τῶν πρεσβυτέρων, ἀρνίον ἑστηκὸς ὡς ἐσφαγμένον, ἔχον κέρατα ἑπτὰ καὶ ὀφθαλμοὺς ἑπτά, οἵ εἰσι τὰ ἑπτὰ τοῦ Θεοῦ πνεύματα τὰ ἀπεσταλμένα εἰς πᾶσαν τὴν γῆν.
+   - SBLGNT: Καὶ εἶδον ἐν μέσῳ τοῦ θρόνου καὶ τῶν τεσσάρων ζῴων καὶ ἐν μέσῳ τῶν πρεσβυτέρων ἀρνίον ἑστηκὸς ὡς ἐσφαγμένον, ἔχων κέρατα ἑπτὰ καὶ ὀφθαλμοὺς ἑπτά, οἵ εἰσιν τὰ ἑπτὰ πνεύματα τοῦ θεοῦ, ἀπεσταλμένοι εἰς πᾶσαν τὴν γῆν.
+   - Vulgate: Et vidi: et ecce in medio throni et quatuor animalium, et in medio seniorum, Agnum stantem tamquam occisum, habentem cornua septem, et oculos septem: qui sunt septem spiritus Dei, missi in omnem terram.
+   - BSB: Then I saw a Lamb who appeared to have been slain, standing in the center of the throne, encircled by the four living creatures and the elders. The Lamb had seven horns and seven eyes, which represent the seven Spirits of God sent out into all the earth.
+   - WEB: I saw in the middle of the throne and of the four living creatures, and in the middle of the elders, a Lamb standing, as though it had been slain, having seven horns and seven eyes, which are the seven Spirits of God, sent out into all the earth.
+- **5:13** add (word): critical *θαλάσσης* ] RP *+ ἐστίν*; substitute (word): critical *τῷ θρόνῳ* ] RP *τοῦ θρόνου*
+   - Latin: Tum omnem rērum nātūram, quæ et in cælō est, et in terrā, et sub terrā, et in marī, hæc, et quæ in iīs sunt omnia, audīvī dīcere: “Sedentī in soliō et Agnō laus, et honōs, et glōria, et imperium in sempiterna sæcula.”
+   - 1573: Tum omnem rerum naturam, quæ et in cœlo est, et in terra, et sub terra, et in mari, hæc et quæ in eis sunt omnia audiui dicere: Sedenti in solio et agno laus, et honos, et gloria, et imperium in sempiterna secula.
+   - TR: Καὶ πᾶν κτίσμα ὅ ἐστιν ἐν τῷ οὐρανῷ, καὶ ἐν τῇ γῇ, καὶ ὑποκάτω τῆς γῆς, καὶ ἐπὶ τῆς θαλάσσης ἅ ἐστι, καὶ τὰ ἐν αὐτοῖς πάντα, ἤκουσα λέγοντας, Τῷ καθημένῳ ἐπὶ τοῦ θρόνου καὶ τῷ ἀρνίῳ ἡ εὐλογία καὶ ἡ τιμὴ καὶ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - SBLGNT: καὶ πᾶν κτίσμα ὃ ἐν τῷ οὐρανῷ καὶ ἐπὶ τῆς γῆς καὶ ὑποκάτω τῆς γῆς καὶ ἐπὶ τῆς θαλάσσης, καὶ τὰ ἐν αὐτοῖς πάντα, ἤκουσα λέγοντας· Τῷ καθημένῳ ἐπὶ τῷ θρόνῳ καὶ τῷ ἀρνίῳ ἡ εὐλογία καὶ ἡ τιμὴ καὶ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - Vulgate: Et omnem creaturam, quæ in cælo est, et super terram, et sub terra, et quæ sunt in mari, et quæ in eo: omnes audivi dicentes: Sedenti in throno, et Agno, benedictio et honor, et gloria, et potestas in sæcula sæculorum.
+   - BSB: And I heard every creature in heaven and on earth and under the earth and in the sea, and all that is in them, saying: “To Him who sits on the throne and to the Lamb be praise and honor and glory and power forever and ever!”
+   - WEB: I heard every created thing which is in heaven, on the earth, under the earth, on the sea, and everything in them, saying, “To him who sits on the throne and to the Lamb be the blessing, the honor, the glory, and the dominion, forever and ever! Amen!”
+- **7:14** omit (word): critical *αὐτὰς* ] RP *–*
+   - Latin: Cui ego: “Domine, tūte scīs.” Et ille: “Hī sunt,” inquit, “quī ex magnā calamitāte veniunt, stolāsque suās Agnī sanguine perluērunt ac dealbārunt.
+   - 1573: Cui ego: Domine, tute scis. Et ille Hi sunt, inquit, qui ex magna calamitate veniunt, stolasque suas agni sanguine perluerunt ac dealbarunt:
+   - TR: Καὶ εἴρηκα αὐτῷ, Κύριε, σὺ οἶδας. Καὶ εἶπέ μοι, Οὗτοί εἰσιν οἱ ἐρχόμενοι ἐκ τῆς θλίψεως τῆς μεγάλης, καὶ ἔπλυναν τὰς στολὰς αὐτῶν, καὶ ἐλεύκαναν στολὰς αὐτῶν ἐν τῷ αἵματι τοῦ ἀρνίου.
+   - SBLGNT: καὶ εἴρηκα αὐτῷ· Κύριέ μου, σὺ οἶδας. καὶ εἶπέν μοι· Οὗτοί εἰσιν οἱ ἐρχόμενοι ἐκ τῆς θλίψεως τῆς μεγάλης, καὶ ἔπλυναν τὰς στολὰς αὐτῶν καὶ ἐλεύκαναν αὐτὰς ἐν τῷ αἵματι τοῦ ἀρνίου.
+   - Vulgate: Et dixi illi: Domine mi, tu scis. Et dixit mihi: Hi sunt, qui venerunt de tribulatione magna, et laverunt stolas suas, et dealbaverunt eas in sanguine Agni.
+   - BSB: “Sir,” I answered, “you know.” So he replied, “These are the ones who have come out of the great tribulation; they have washed their robes and made them white in the blood of the Lamb.
+   - WEB: I told him, “My lord, you know.” He said to me, “These are those who came out of the great suffering. They washed their robes and made them white in the Lamb’s blood.
+- **8:1** substitute (word): critical *ὅταν* ] RP *ὅτε*
+   - Latin: Ut autem septimum aperuit sigillum, exstitit in cælō silentium, ferē dīmidiam hōram:
+   - 1573: Vt autem septimum aperuit sigillum, extitit in cœlo silentium ferè dimidiam horam:
+   - TR: Καὶ ὅτε ἤνοιξε τὴν σφραγῖδα τὴν ἑβδόμην, ἐγένετο σιγὴ ἐν τῷ οὐρανῷ ὡς ἡμιώριον.
+   - SBLGNT: Καὶ ὅταν ἤνοιξεν τὴν σφραγῖδα τὴν ἑβδόμην, ἐγένετο σιγὴ ἐν τῷ οὐρανῷ ὡς ἡμιώριον.
+   - Vulgate: Et cum aperuisset sigillum septimum, factum est silentium in cælo, quasi media hora.
+   - BSB: When the Lamb opened the seventh seal, there was silence in heaven for about half an hour.
+   - WEB: When he opened the seventh seal, there was silence in heaven for about half an hour.
+- **8:3** substitute (word): critical *δώσει* ] RP *δώσῃ*
+   - Latin: Alius item angelus vēnit, et ad āram cōnstitit, tūribulum habēns aureum, eīque data sunt multa suffīmenta, ut sānctōrum omnium supplicātiōnēs ad auream āram ante solium positam obmovēret:
+   - 1573: Alius item angelus venit, et ad aram constitit, thuribulum habens aureum, eique data sunt multa suffimenta, vt sanctorum omnium supplicationes ad auream aram ante solium positam obmoueret:
+   - TR: Καὶ ἄλλος ἄγγελος ἦλθε, καὶ ἐστάθη ἐπὶ τὸ θυσιαστήριον, ἔχων λιβανωτὸν χρυσοῦν· καὶ ἐδόθη αὐτῷ θυμιάματα πολλά, ἵνα δώσῃ ταῖς προσευχαῖς τῶν ἁγίων πάντων ἐπὶ τὸ θυσιαστήριον τὸ χρυσοῦν τὸ ἐνώπιον τοῦ θρόνου.
+   - SBLGNT: Καὶ ἄλλος ἄγγελος ἦλθεν καὶ ἐστάθη ἐπὶ τοῦ θυσιαστηρίου ἔχων λιβανωτὸν χρυσοῦν, καὶ ἐδόθη αὐτῷ θυμιάματα πολλὰ ἵνα δώσει ταῖς προσευχαῖς τῶν ἁγίων πάντων ἐπὶ τὸ θυσιαστήριον τὸ χρυσοῦν τὸ ἐνώπιον τοῦ θρόνου.
+   - Vulgate: Et alius angelus venit, et stetit ante altare habens thuribulum aureum: et data sunt illi incensa multa, ut daret de orationibus sanctorum omnium super altare aureum, quod est ante thronum Dei.
+   - BSB: Then another angel, who had a golden censer, came and stood at the altar. He was given much incense to offer, along with the prayers of all the saints, on the golden altar before the throne.
+   - WEB: Another angel came and stood over the altar, having a golden censer. Much incense was given to him, that he should add it to the prayers of all the saints on the golden altar which was before the throne.
+- **8:13** substitute (word): critical *τοὺς κατοικοῦντας* ] RP *τοῖς κατοικοῦσιν*
+   - Latin: Tum aspiciēns audīvī quendam angelum volantem per medium cælī, magnā vōce dīcentem: “Væ, væ, væ terræ habitātōribus, ā reliquīs tubārum sonīs trium angelōrum, quī jam clangent.”
+   - 1573: Tum aspiciens audiui quendam angelum volantem per medium cœli, magna voce dicentem: Væ, væ, væ, terræ habitatoribus, à reliquis tubarum sonis trium angelorum, qui iam clangent.
+   - TR: Καὶ εἶδον, καὶ ἤκουσα ἑνὸς ἀγγέλου πετωμένου ἐν μεσουρανήματι, λέγοντος φωνῇ μεγάλῃ, Οὐαί, οὐαί, οὐαὶ τοῖς κατοικοῦσιν ἐπὶ τῆς γῆς, ἐκ τῶν λοιπῶν φωνῶν τῆς σάλπιγγος τῶν τριῶν ἀγγέλων τῶν μελλόντων σαλπίζειν.
+   - SBLGNT: Καὶ εἶδον, καὶ ἤκουσα ἑνὸς ἀετοῦ πετομένου ἐν μεσουρανήματι λέγοντος φωνῇ μεγάλῃ· Οὐαὶ οὐαὶ οὐαὶ τοὺς κατοικοῦντας ἐπὶ τῆς γῆς ἐκ τῶν λοιπῶν φωνῶν τῆς σάλπιγγος τῶν τριῶν ἀγγέλων τῶν μελλόντων σαλπίζειν.
+   - Vulgate: Et vidi, et audivi vocem unius aquilæ volantis per medium cæli dicentis voce magna: Væ, væ, væ habitantibus in terra de ceteris vocibus trium angelorum, qui erant tuba canituri.
+   - BSB: And as I observed, I heard an eagle flying overhead, calling in a loud voice, “Woe! Woe! Woe to those who dwell on the earth, because of the trumpet blasts about to be sounded by the remaining three angels!”
+   - WEB: I saw, and I heard an eagle, flying in mid heaven, saying with a loud voice, “Woe! Woe! Woe to those who dwell on the earth, because of the other blasts of the trumpets of the three angels, who are yet to sound!”
+- **9:5** substitute (word): critical *αὐτοῖς* ] RP *αὐταῖς*
+   - Latin: Est autem mandātum iīs, nē eōs interficerent, sed ut quīnque mēnsēs cruciārentur: ita ut essent eōrum cruciātūs, quālis scorpiī cruciātus est, cum hominem pūnxit.
+   - 1573: Est autem mandatum eis, ne eos interficerent, sed vt quinque menses cruciarentur: ita vt essent eorum cruciatus, qualis scorpij cruciatus est, cùm hominem punxit.
+   - TR: Καὶ ἐδόθη αὐταῖς ἵνα μὴ ἀποκτείνωσιν αὐτούς, ἀλλ᾿ ἵνα βασανισθῶσι μῆνας πέντε· καὶ ὁ βασανισμὸς αὐτῶν ὡς βασανισμὸς σκορπίου, ὅταν παίσῃ ἄνθρωπον.
+   - SBLGNT: καὶ ἐδόθη αὐτοῖς ἵνα μὴ ἀποκτείνωσιν αὐτούς, ἀλλʼ ἵνα βασανισθήσονται μῆνας πέντε· καὶ ὁ βασανισμὸς αὐτῶν ὡς βασανισμὸς σκορπίου, ὅταν παίσῃ ἄνθρωπον.
+   - Vulgate: et datum est illis ne occiderent eos: sed ut cruciarent mensibus quinque: et cruciatus eorum, ut cruciatus scorpii cum percutit hominem.
+   - BSB: The locusts were not given power to kill them, but only to torment them for five months, and their torment was like the stinging of a scorpion.
+   - WEB: They were given power, not to kill them, but to torment them for five months. Their torment was like the torment of a scorpion when it strikes a person.
+- **9:6** substitute (word): critical *φεύγει* ] RP *φεύξεται*
+   - Latin: Atque illā tempestāte quærent hominēs mortem, nec invenient: cupientque morī, et eōs fugiet mors.
+   - 1573: Atque illa tempestate quærent homines mortem, nec inuenient: cupientque mori, et eos fugiet mors.
+   - TR: Καὶ ἐν ταῖς ἡμέραις ἐκείναις ζητήσουσιν οἱ ἄνθρωποι τὸν θάνατον, καὶ οὐχ εὑρήσουσιν αὐτόν· καὶ ἐπιθυμήσουσιν ἀποθανεῖν, καὶ φεύξεται ὁ θάνατος ἀπ᾿ αὐτῶν.
+   - SBLGNT: καὶ ἐν ταῖς ἡμέραις ἐκείναις ζητήσουσιν οἱ ἄνθρωποι τὸν θάνατον καὶ οὐ μὴ εὑρήσουσιν αὐτόν, καὶ ἐπιθυμήσουσιν ἀποθανεῖν καὶ φεύγει ὁ θάνατος ἀπʼ αὐτῶν.
+   - Vulgate: Et in diebus illis quærent homines mortem, et non invenient eam: et desiderabunt mori, et fugiet mors ab eis.
+   - BSB: In those days men will seek death and will not find it; they will long to die, but death will escape them.
+   - WEB: In those days people will seek death, and will in no way find it. They will desire to die, and death will flee from them.
+- **9:7** substitute (word): critical *ὅμοιοι χρυσῷ* ] RP *χρυσοῖ*
+   - Latin: Erat autem lōcustārum ea speciēs, ut similēs essent equīs ad prælium parātīs: erantque in eārum capitibus quædam quasi corōnæ, aurī similēs. Vultūs erant ut vultūs hominum.
+   - 1573: Erat autem locustarum ea species, vt similes essent equis ad prælium paratis: erantque in earum capitibus quædam quasi coronæ, auri similes. Vultus erant, vt vultus hominum.
+   - TR: Καὶ τὰ ὁμοιώματα τῶν ἀκρίδων ὅμοια ἵπποις ἡτοιμασμένοις εἰς πόλεμον, καὶ ἐπὶ τὰς κεφαλὰς αὐτῶν ὡς στέφανοι ὅμοιοι χρυσοῖ, καὶ τὰ πρόσωπα αὐτῶν ὡς πρόσωπα ἀνθρώπων.
+   - SBLGNT: Καὶ τὰ ὁμοιώματα τῶν ἀκρίδων ὅμοια ἵπποις ἡτοιμασμένοις εἰς πόλεμον, καὶ ἐπὶ τὰς κεφαλὰς αὐτῶν ὡς στέφανοι ὅμοιοι χρυσῷ, καὶ τὰ πρόσωπα αὐτῶν ὡς πρόσωπα ἀνθρώπων,
+   - Vulgate: Et similitudines locustarum, similes equis paratis in prælium: et super capita earum tamquam coronæ similes auro: et facies earum tamquam facies hominum.
+   - BSB: And the locusts looked like horses prepared for battle, with something like crowns of gold on their heads, and faces like the faces of men.
+   - WEB: The shapes of the locusts were like horses prepared for war. On their heads were something like golden crowns, and their faces were like people’s faces.
+- **9:11** substitute (word): critical *ἔχουσιν ἐπʼ αὐτῶν βασιλέα τὸν* ] RP *Ἔχουσαι βασιλέα ἐπʼ αὐτῶν*
+   - Latin: Habentque sibi præfectum rēgem, angelum tartarī, cui nōmen est hebraicē Abbadōn, græcō autem sermōne Apollyōn.
+   - 1573: habentque sibi præfectum regem, angelum Tartari, cui nomen est hebraicè Abbadon. Græco autem sermone Apollyon.
+   - TR: Καὶ ἔχουσιν ἐφ᾿ αὐτῶν βασιλέα τὸν ἄγγελον τῆς ἀβύσσου· ὄνομα αὐτῷ Ἑβραϊστὶ Ἀβαδδών, καὶ ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων.
+   - SBLGNT: ἔχουσιν ἐπʼ αὐτῶν βασιλέα τὸν ἄγγελον τῆς ἀβύσσου· ὄνομα αὐτῷ Ἑβραϊστὶ Ἀβαδδών, καὶ ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων.
+   - Vulgate: et habebant super se regem angelum abyssi cui nomen hebraice Abaddon, græce autem Apollyon, latine habens nomen Exterminans.
+   - BSB: They were ruled by a king, the angel of the Abyss. His name in Hebrew is Abaddon, and in Greek it is Apollyon.
+   - WEB: They have over them as king the angel of the abyss. His name in Hebrew is “Abaddon”, but in Greek, he has the name “Apollyon”.
+- **10:7** substitute (word): critical *ἑαυτοῦ δούλους* ] RP *δούλους αὐτοῦ*
+   - Latin: vidēlicet diēbus vōcis septimī angelī, cum clānxerit, perāctumque fuerit arcānum Deī, ut suīs servīs vātibus nūntiāvit.
+   - 1573: videlicet diebus vocis septimi angeli, quum clanxerit, peractumque fuerit arcanum Dei, vt suis seruis vatibus nunciauit.
+   - TR: ἀλλὰ ἐν ταῖς ἡμέραις τῆς φωνῆς τοῦ ἑβδόμου ἀγγέλου, ὅταν μέλλῃ σαλπίζειν, καὶ τελεσθῇ τὸ μυστήριον τοῦ Θεοῦ, ὡς εὐηγγέλισε τοῖς ἑαυτοῦ δούλοις τοῖς προφήταις.
+   - SBLGNT: ἀλλʼ ἐν ταῖς ἡμέραις τῆς φωνῆς τοῦ ἑβδόμου ἀγγέλου, ὅταν μέλλῃ σαλπίζειν, καὶ ἐτελέσθη τὸ μυστήριον τοῦ θεοῦ, ὡς εὐηγγέλισεν τοὺς ἑαυτοῦ δούλους τοὺς προφήτας.
+   - Vulgate: sed in diebus vocis septimi angeli, cum cœperit tuba canere, consummabitur mysterium Dei sicut evangelizavit per servos suos prophetas.
+   - BSB: But in the days of the voice of the seventh angel, when he is about to sound his trumpet, the mystery of God will be fulfilled, just as He proclaimed to His servants the prophets.”
+   - WEB: but in the days of the voice of the seventh angel, when he is about to sound, then the mystery of God is finished, as he declared to his servants the prophets.
+- **11:2** substitute (word): critical *ἔξωθεν* ] RP *ἔξω*
+   - Latin: Ac exterius ātrium templī, forīs exclūde, neque id mētīre, quippe datum extrāneīs, quī sānctam urbem conculcābunt mēnsēs quadrāgintā duōs.
+   - 1573: Ac exterius atrium templi, foris exclude, neque id metire, quippe datum extraneis, qui sanctam vrbem conculcabunt menses quadraginta duos.
+   - TR: Καὶ τὴν αὐλὴν τὴν ἔξωθεν τοῦ ναοῦ ἔκβαλε ἔξω, καὶ μὴ αὐτὴν μετρήσῃς, ὅτι ἐδόθη τοῖς ἔθνεσι· καὶ τὴν πόλιν τὴν ἁγίαν πατήσουσι μῆνας τεσσαράκοντα δύο.
+   - SBLGNT: καὶ τὴν αὐλὴν τὴν ἔξωθεν τοῦ ναοῦ ἔκβαλε ἔξωθεν, καὶ μὴ αὐτὴν μετρήσῃς, ὅτι ἐδόθη τοῖς ἔθνεσιν, καὶ τὴν πόλιν τὴν ἁγίαν πατήσουσιν μῆνας τεσσεράκοντα δύο.
+   - Vulgate: atrium autem, quod est foris templum, ejice foras, et ne metiaris illud: quoniam datum est gentibus, et civitatem sanctam calcabunt mensibus quadraginta duobus:
+   - BSB: But exclude the courtyard outside the temple. Do not measure it, because it has been given over to the nations, and they will trample the holy city for 42 months.
+   - WEB: Leave out the court which is outside of the temple, and don’t measure it, for it has been given to the nations. They will tread the holy city under foot for forty-two months.
+- **11:5** substitute (word): critical *θελήσῃ αὐτοὺς* ] RP *θέλει αὐτοὺς*
+   - Latin: Quod sī quis eōs lædere vult, mānat ex eōrum ōre ignis, quī eōrum hostēs cōnficit, et sī quis eōs lædere vult, sīc interficiendus est.
+   - 1573: Quòd si quis eos lædere vult, manat ex eorum ore ignis, qui eorum hostes conficit: et si quis eos lædere vult, sic interficiendus est.
+   - TR: Καὶ εἴ τις αὐτοὺς θέλῃ ἀδικῆσαι, πῦρ ἐκπορεύεται ἐκ τοῦ στόματος αὐτῶν, καὶ κατεσθίει τοὺς ἐχθροὺς αὐτῶν· καὶ εἴ τις αὐτοὺς θέλῃ ἀδικῆσαι, οὕτω δεῖ αὐτὸν ἀποκτανθῆναι.
+   - SBLGNT: καὶ εἴ τις αὐτοὺς θέλει ἀδικῆσαι, πῦρ ἐκπορεύεται ἐκ τοῦ στόματος αὐτῶν καὶ κατεσθίει τοὺς ἐχθροὺς αὐτῶν· καὶ εἴ τις θελήσῃ αὐτοὺς ἀδικῆσαι, οὕτως δεῖ αὐτὸν ἀποκτανθῆναι.
+   - Vulgate: Et si quis voluerit eos nocere, ignis exiet de ore eorum, et devorabit inimicos eorum: et si quis voluerit eos lædere, sic oportet eum occidi.
+   - BSB: If anyone wants to harm them, fire proceeds from their mouths and devours their enemies. In this way, anyone who wants to harm them must be killed.
+   - WEB: If anyone desires to harm them, fire proceeds out of their mouth and devours their enemies. If anyone desires to harm them, he must be killed in this way.
+- **11:9** substitute (word): critical *ἀφίουσιν* ] RP *ἀφήσουσιν*
+   - Latin: Et aspicient hominēs dē populīs et nātiōnibus, linguīsque et gentibus eōrum corpora trēs diēs et dīmidium, nec sinent eōrum corpora monumentīs mandārī.
+   - 1573: et aspicient homines de populis et nationibus, linguisque et gentibus eorum corpora tres dies et dimidium, nec sinent eorum corpora monumentis mandari.
+   - TR: Καὶ βλέψουσιν ἐκ τῶν λαῶν καὶ φυλῶν καὶ γλωσσῶν καὶ ἐθνῶν τὰ πτώματα αὐτῶν ἡμέρας τρεῖς καὶ ἥμισυ, καὶ τὰ πτώματα αὐτῶν οὐκ ἀφήσουσι τεθῆναι εἰς μνήματα.
+   - SBLGNT: καὶ βλέπουσιν ἐκ τῶν λαῶν καὶ φυλῶν καὶ γλωσσῶν καὶ ἐθνῶν τὸ πτῶμα αὐτῶν ἡμέρας τρεῖς καὶ ἥμισυ, καὶ τὰ πτώματα αὐτῶν οὐκ ἀφίουσιν τεθῆναι εἰς μνῆμα.
+   - Vulgate: Et videbunt de tribubus, et populis, et linguis, et gentibus corpora eorum per tres dies et dimidium: et corpora eorum non sinent poni in monumentis:
+   - BSB: For three and a half days all peoples and tribes and tongues and nations will view their bodies and will not permit them to be laid in a tomb.
+   - WEB: From among the peoples, tribes, languages, and nations, people will look at their dead bodies for three and a half days, and will not allow their dead bodies to be laid in a tomb.
+- **11:11** substitute (word): critical *ἐπέπεσεν* ] RP *ἔπεσεν*
+   - Latin: Vērum post diēs trēs et dīmidium, vītālī spīritū ā Deō in eōs ingressō, cōnstitērunt in pedēs suōs, magnō timōre correptīs iīs, quī eōs spectābant.
+   - 1573: Verùm post dies tres et dimidium, vitali spiritu à Deo in eos ingresso, constiterunt in pedes suos, magno timore correptis ijs qui eos spectabant:
+   - TR: Καὶ μετὰ τὰς τρεῖς ἡμέρας καὶ ἥμισυ, πνεῦμα ζωῆς ἐκ τοῦ Θεοῦ εἰσῆλθεν ἐπ᾿ αὐτούς, καὶ ἔστησαν ἐπὶ τοὺς πόδας αὐτῶν, καὶ φόβος μέγας ἔπεσεν ἐπὶ τοὺς θεωροῦντας αὐτούς.
+   - SBLGNT: Καὶ μετὰ τὰς τρεῖς ἡμέρας καὶ ἥμισυ πνεῦμα ζωῆς ἐκ τοῦ θεοῦ εἰσῆλθεν ἐν αὐτοῖς, καὶ ἔστησαν ἐπὶ τοὺς πόδας αὐτῶν, καὶ φόβος μέγας ἐπέπεσεν ἐπὶ τοὺς θεωροῦντας αὐτούς·
+   - Vulgate: Et post dies tres et dimidium, spiritus vitæ a Deo intravit in eos. Et steterunt super pedes suos, et timor magnus cecidit super eos qui viderunt eos.
+   - BSB: But after the three and a half days, the breath of life from God entered the two witnesses, and they stood on their feet, and great fear fell upon those who saw them.
+   - WEB: After the three and a half days, the breath of life from God entered into them, and they stood on their feet. Great fear fell on those who saw them.
+- **11:18** substitute (word): critical *τοὺς μικροὺς καὶ τοὺς μεγάλους* ] RP *τοῖς μικροῖς καὶ τοῖς μεγάλοις*
+   - Latin: et gentēs īrātæ sunt, et vēnit īra tua, tempusque, quō mortuī jūdicentur, et mercēs dētur tuīs servīs vātibus et sānctīs, tuumque nōmen reverentibus, tum parvīs, tum magnīs, et corrumpantur corruptōrēs terræ.”
+   - 1573: et gentes iratæ sunt, et venit ira tua, tempusque quo mortui iudicentur, et merces detur tuis seruis vatibus et sanctis, tuumque nomen reuerentibus, tum paruis tum magnis, et corrumpantur corruptores terræ.
+   - TR: Καὶ τὰ ἔθνη ὠργίσθησαν, καὶ ἦλθεν ἡ ὀργή σου, καὶ ὁ καιρὸς τῶν νεκρῶν κριθῆναι, καὶ δοῦναι τὸν μισθὸν τοῖς δούλοις σου τοῖς προφήταις καὶ τοῖς ἁγίοις καὶ τοῖς φοβουμένοις τὸ ὄνομά σου, τοῖς μικροῖς καὶ τοῖς μεγάλοις, καὶ διαφθεῖραι τοὺς διαφθείροντας τὴν γῆν.
+   - SBLGNT: καὶ τὰ ἔθνη ὠργίσθησαν, καὶ ἦλθεν ἡ ὀργή σου καὶ ὁ καιρὸς τῶν νεκρῶν κριθῆναι καὶ δοῦναι τὸν μισθὸν τοῖς δούλοις σου τοῖς προφήταις καὶ τοῖς ἁγίοις καὶ τοῖς φοβουμένοις τὸ ὄνομά σου, τοὺς μικροὺς καὶ τοὺς μεγάλους, καὶ διαφθεῖραι τοὺς διαφθείροντας τὴν γῆν.
+   - Vulgate: Et iratæ sunt gentes, et advenit ira tua et tempus mortuorum judicari, et reddere mercedem servis tuis prophetis, et sanctis, et timentibus nomen tuum pusillis et magnis, et exterminandi eos qui corruperunt terram.
+   - BSB: The nations were enraged, and Your wrath has come. The time has come to judge the dead and to reward Your servants the prophets, as well as the saints and those who fear Your name, both small and great— and to destroy those who destroy the earth.”
+   - WEB: The nations were angry, and your wrath came, as did the time for the dead to be judged, and to give your bondservants the prophets, their reward, as well as to the saints and those who fear your name, to the small and the great, and to destroy those who destroy the earth.”
+- **12:5** substitute (word): critical *ἄρσεν* ] RP *ἄρρενα*
+   - Latin: Peperit autem fīlium marem, quī gentēs omnēs ferreō scēptrō rēctūrus est: quī ejus fīlius raptus est ad Deum, ejusque solium.
+   - 1573: Peperit autem filium marem, qui gentes omnes ferreo sceptro recturus est: qui eius filius raptus est ad Deum, eiusque solium.
+   - TR: Καὶ ἔτεκεν υἱὸν ἄρρενα, ὃς μέλλει ποιμαίνειν πάντα τὰ ἔθνη ἐν ῥάβδῳ σιδηρᾷ· καὶ ἡρπάσθη τὸ τέκνον αὐτῆς πρὸς τὸν Θεὸν καὶ τὸν θρόνον αὐτοῦ.
+   - SBLGNT: καὶ ἔτεκεν υἱόν, ἄρσεν, ὃς μέλλει ποιμαίνειν πάντα τὰ ἔθνη ἐν ῥάβδῳ σιδηρᾷ· καὶ ἡρπάσθη τὸ τέκνον αὐτῆς πρὸς τὸν θεὸν καὶ πρὸς τὸν θρόνον αὐτοῦ.
+   - Vulgate: Et peperit filium masculum, qui recturus erat omnes gentes in virga ferrea: et raptus est filius ejus ad Deum, et ad thronum ejus,
+   - BSB: And she gave birth to a son, a male child, who will rule all the nations with an iron scepter. And her child was caught up to God and to His throne.
+   - WEB: She gave birth to a son, a male child, who is to rule all the nations with a rod of iron. Her child was caught up to God and to his throne.
+- **13:4** substitute (word): critical *ὅτι ἔδωκεν* ] RP *τῷ δεδωκότι*
+   - Latin: ut dracōnem venerārentur, quī potentiam dedisset bēstiæ, et bēstiam item venerārentur, dīcentēs: “Quis pār est bēstiæ? quis cum eā pugnāre possit?”
+   - 1573: vt draconem venerarentur, qui potentiam dedisset bestiæ, et bestiam item venerarentur, dicentes: Quis par est bestiæ? quis cum ea pugnare possit?
+   - TR: καὶ προσεκύνησαν τὸν δράκοντα ὃς ἔδωκεν ἐξουσίαν τῷ θηρίῳ, καὶ προσεκύνησαν τὸ θηρίον, λέγοντες, Τίς ὅμοιος τῷ θηρίῳ; Τίς δύναται πολεμῆσαι μετ᾿ αὐτοῦ;
+   - SBLGNT: καὶ προσεκύνησαν τῷ δράκοντι ὅτι ἔδωκεν τὴν ἐξουσίαν τῷ θηρίῳ, καὶ προσεκύνησαν τῷ θηρίῳ λέγοντες· Τίς ὅμοιος τῷ θηρίῳ, καὶ τίς δύναται πολεμῆσαι μετʼ αὐτοῦ;
+   - Vulgate: Et adoraverunt draconem, qui dedit potestatem bestiæ: et adoraverunt bestiam, dicentes: Quis similis bestiæ? et quis poterit pugnare cum ea?
+   - BSB: They worshiped the dragon who had given authority to the beast, and they worshiped the beast, saying, “Who is like the beast, and who can wage war against it?”
+   - WEB: They worshiped the dragon because he gave his authority to the beast; and they worshiped the beast, saying, “Who is like the beast? Who is able to make war with him?”
+- **13:8** substitute (word): critical *οὗ* ] RP *ὧν*
+   - Latin: ita ut eam adōrātūrī sint omnēs terrārum incolæ, quōrum nōmina ab orbe conditō scrīpta nōn sunt in vītæ librō Agnī mactātī.
+   - 1573: ita vt eam adoraturi sint omnes terrarum incolæ quorum nomina ab orbe condito scripta non sunt in vitæ libro agni mactati.
+   - TR: Καὶ προσκυνήσουσιν αὐτῷ πάντες οἱ κατοικοῦντες ἐπὶ τῆς γῆς, ὧν οὐ γέγραπται τὰ ὀνόματα ἐν τῇ βίβλῳ τῆς ζωῆς τοῦ ἀρνίου ἐσφαγμένου ἀπὸ καταβολῆς κόσμου.
+   - SBLGNT: καὶ προσκυνήσουσιν αὐτὸν πάντες οἱ κατοικοῦντες ἐπὶ τῆς γῆς, οὗ οὐ γέγραπται τὸ ὄνομα αὐτοῦ ἐν τῷ βιβλίῳ τῆς ζωῆς τοῦ ἀρνίου τοῦ ἐσφαγμένου ἀπὸ καταβολῆς κόσμου.
+   - Vulgate: et adoraverunt eam omnes, qui inhabitant terram: quorum non sunt scripta nomina in libro vitæ Agni, qui occisus est ab origine mundi.
+   - BSB: And all who dwell on the earth will worship the beast—all whose names have not been written from the foundation of the world in the Book of Life belonging to the Lamb who was slain.
+   - WEB: All who dwell on the earth will worship him, everyone whose name has not been written from the foundation of the world in the book of life of the Lamb who has been killed.
+- **13:10** substitute (word): critical *ἀποκτανθῆναι* ] RP *ἀποκτενεῖ δεῖ*
+   - Latin: Sī quis captīvōs abigit, in captīvitātem abit. Sī quis gladiō occīderit, eum gladiō oportet occīdī. Hīc est patientia, fidēsque sānctōrum.
+   - 1573: Si quis captiuos abigit, in captiuitatem abit. Si quis gladio occiderit, eum gladio oportet occidi. Hîc est patientia, fidesque sanctorum.
+   - TR: Εἴ τις αἰχμαλωσίαν συνάγει, εἰς αἰχμαλωσίαν ὑπάγει· εἴ τις ἐν μαχαίρᾳ ἀποκτενεῖ, δεῖ αὐτὸν ἐν μαχαίρᾳ ἀποκτανθῆναι. Ὧδέ ἐστιν ἡ ὑπομονὴ καὶ ἡ πίστις τῶν ἁγίων.
+   - SBLGNT: εἴ τις εἰς αἰχμαλωσίαν, εἰς αἰχμαλωσίαν ὑπάγει· εἴ τις ἐν μαχαίρῃ ἀποκτανθῆναι αὐτὸν ἐν μαχαίρῃ ἀποκτανθῆναι. ὧδέ ἐστιν ἡ ὑπομονὴ καὶ ἡ πίστις τῶν ἁγίων.
+   - Vulgate: Qui in captivitatem duxerit, in captivitatem vadet: qui in gladio occiderit, oportet eum gladio occidi. Hic est patientia, et fides sanctorum.
+   - BSB: “If anyone is destined for captivity, into captivity he will go; if anyone is to die by the sword, by the sword he must be killed.” Here is a call for the perseverance and faith of the saints.
+   - WEB: If anyone is to go into captivity, he will go into captivity. If anyone is to be killed with the sword, he must be killed. Here is the endurance and the faith of the saints.
+- **13:13** substitute (word): critical *ἵνα καὶ πῦρ ποιῇ* ] RP *καὶ πῦρ ἵνα*
+   - Latin: Magnāque ostenta faciēbat, adeō ut etiam ignem dē cælō ad terram dēvocāret in hominum cōnspectū,
+   - 1573: magnaque ostenta faciebat, adeò vt etiam ignem de cœlo ad terram deuocaret in hominum conspectu,
+   - TR: Καὶ ποιεῖ σημεῖα μεγάλα, ἵνα καὶ πῦρ ποιῇ καταβαίνειν ἐκ τοῦ οὐρανοῦ εἰς τὴν γῆν ἐνώπιον τῶν ἀνθρώπων.
+   - SBLGNT: καὶ ποιεῖ σημεῖα μεγάλα, ἵνα καὶ πῦρ ποιῇ ἐκ τοῦ οὐρανοῦ καταβαίνειν εἰς τὴν γῆν ἐνώπιον τῶν ἀνθρώπων.
+   - Vulgate: Et fecit signa magna, ut etiam ignem faceret de cælo descendere in terram in conspectu hominum.
+   - BSB: And the second beast performed great signs to cause even fire from heaven to come down to earth in the presence of the people.
+   - WEB: He performs great signs, even making fire come down out of the sky to the earth in the sight of people.
+- **13:16** substitute (word): critical *δῶσιν* ] RP *δώσωσιν*
+   - Latin: Atque eō adigēbat omnēs, parvōs juxtā ac magnōs, dīvitēs ac pauperēs, līberōs ac servōs, ut eōrum manuī dextræ aut frontibus notam inūreret:
+   - 1573: Atque eò adigebat omnes, paruos iuxtà ac magnos, diuites ac pauperes, liberos ac seruos, vt eorum manui dexteræ, aut frontibus, notam inureret:
+   - TR: Καὶ ποιεῖ πάντας, τοὺς μικροὺς καὶ τοὺς μεγάλους, καὶ τοὺς πλουσίους καὶ τοὺς πτωχούς, καὶ τοὺς ἐλευθέρους καὶ τοὺς δούλους, ἵνα δώσῃ αὐτοῖς χάραγμα ἐπὶ τῆς χειρὸς αὐτῶν τῆς δεξιᾶς, ἢ ἐπὶ τῶν μετώπων αὐτῶν,
+   - SBLGNT: καὶ ποιεῖ πάντας, τοὺς μικροὺς καὶ τοὺς μεγάλους, καὶ τοὺς πλουσίους καὶ τοὺς πτωχούς, καὶ τοὺς ἐλευθέρους καὶ τοὺς δούλους, ἵνα δῶσιν αὐτοῖς χάραγμα ἐπὶ τῆς χειρὸς αὐτῶν τῆς δεξιᾶς ἢ ἐπὶ τὸ μέτωπον αὐτῶν,
+   - Vulgate: Et faciet omnes pusillos, et magnos, et divites, et pauperes, et liberos, et servos habere caracterem in dextera manu sua, aut in frontibus suis:
+   - BSB: And the second beast required all people small and great, rich and poor, free and slave, to receive a mark on their right hand or on their forehead,
+   - WEB: He causes all, the small and the great, the rich and the poor, and the free and the slave, to be given marks on their right hands or on their foreheads;
+- **13:18** add (word): critical *αὐτοῦ* ] RP *+ ἐστὶν*
+   - Latin: Hīc est acūmen. Quī habet ingenium, computet bēstiæ numerum: numerus enim hominis est, estque ejus numerus sescentī sexāgintā sex.
+   - 1573: Hic est acumen. Qui habet ingenium, computet bestiæ numerum: numerus enim hominis est, estque eius numerus sexcenti sexaginta sex.
+   - TR: Ὧδε ἡ σοφία ἐστίν. Ὁ ἔχων τὸν νοῦν ψηφισάτω τὸν ἀριθμὸν τοῦ θηρίου· ἀριθμὸς γὰρ ἀνθρώπου ἐστί, καὶ ὁ ἀριθμὸς αὐτοῦ χξϛ΄.
+   - SBLGNT: ὧδε ἡ σοφία ἐστίν· ὁ ἔχων νοῦν ψηφισάτω τὸν ἀριθμὸν τοῦ θηρίου, ἀριθμὸς γὰρ ἀνθρώπου ἐστίν· καὶ ὁ ἀριθμὸς αὐτοῦ ἑξακόσιοι ἑξήκοντα ἕξ.
+   - Vulgate: Hic sapientia est. Qui habet intellectum, computet numerum bestiæ. Numerus enim hominis est: et numerus ejus sexcenti sexaginta sex.
+   - BSB: Here is a call for wisdom: Let the one who has insight calculate the number of the beast, for it is the number of a man, and that number is 666.
+   - WEB: Here is wisdom. He who has understanding, let him calculate the number of the beast, for it is the number of a man. His number is six hundred sixty-six.
+- **14:1** substitute (word): critical *ἑστὸς* ] RP *ἑστηκὸς*
+   - Latin: Deinde animadvertī Agnum stantem in Sīōne monte, et cum eō centum quadrāgintā quattuor mīllia, Patris ejus nōmen in suīs frontibus scrīptum habentia:
+   - 1573: Deinde animaduerti agnum stantem in Sione monte, et cùm eo centum quadraginta quatuor millia, patris eius nomen in suis frontibus scriptum habentia:
+   - TR: Καὶ εἶδον, καὶ ἰδού, ἀρνίον ἑστηκὸς ἐπὶ τὸ ὄρος Σιών, καὶ μετ᾿ αὐτοῦ ἑκατὸν τεσσαράκοντα τέσσαρες χιλιάδες, ἔχουσαι τὸ ὄνομα τοῦ πατρὸς αὐτοῦ γεγραμμένον ἐπὶ τῶν μετώπων αὐτῶν.
+   - SBLGNT: Καὶ εἶδον, καὶ ἰδοὺ τὸ ἀρνίον ἑστὸς ἐπὶ τὸ ὄρος Σιών, καὶ μετʼ αὐτοῦ ἑκατὸν τεσσεράκοντα τέσσαρες χιλιάδες ἔχουσαι τὸ ὄνομα αὐτοῦ καὶ τὸ ὄνομα τοῦ πατρὸς αὐτοῦ γεγραμμένον ἐπὶ τῶν μετώπων αὐτῶν.
+   - Vulgate: Et vidi: et ecce Agnus stabat supra montem Sion, et cum eo centum quadraginta quatuor millia, habentes nomen ejus, et nomen Patris ejus scriptum in frontibus suis.
+   - BSB: Then I looked and saw the Lamb standing on Mount Zion, and with Him 144,000 who had His name and His Father’s name written on their foreheads.
+   - WEB: I saw, and behold, the Lamb standing on Mount Zion, and with him a number, one hundred forty-four thousand, having his name and the name of his Father written on their foreheads.
+- **14:4** add (word): critical *⸀οὗτοι* ] RP *+ εἰσιν*
+   - Latin: Hī sunt, quī cum fēminīs nōn sunt pollūtī: sunt enim virginēs. Hī sunt, quī Agnum, quōcumque vādat, sequuntur. Hī ex hominibus redēmptī sunt, prīmitiæ Deō et Agnō,
+   - 1573: I sunt, qui cum fœminis non sunt polluti: sunt enim virgines. Hi sunt qui agnum, quocunque vadat, sequuntur. Hi ex hominibus redempti sunt, primitiæ Deo et agno,
+   - TR: Οὗτοί εἰσιν οἳ μετὰ γυναικῶν οὐκ ἐμολύνθησαν· παρθένοι γάρ εἰσιν. Οὗτοί εἰσιν οἱ ἀκολουθοῦντες τῷ ἀρνίῳ ὅπου ἂν ὑπάγῃ. Οὗτοι ἠγοράσθησαν ἀπὸ τῶν ἀνθρώπων, ἀπαρχὴ τῷ Θεῷ καὶ τῷ ἀρνίῳ.
+   - SBLGNT: οὗτοί εἰσιν οἳ μετὰ γυναικῶν οὐκ ἐμολύνθησαν, παρθένοι γάρ εἰσιν· οὗτοι οἱ ἀκολουθοῦντες τῷ ἀρνίῳ ὅπου ἂν ὑπάγῃ· οὗτοι ἠγοράσθησαν ἀπὸ τῶν ἀνθρώπων ἀπαρχὴ τῷ θεῷ καὶ τῷ ἀρνίῳ,
+   - Vulgate: Hi sunt, qui cum mulieribus non sunt coinquinati: virgines enim sunt. Hi sequuntur Agnum quocumque ierit. Hi empti sunt ex hominibus primitiæ Deo, et Agno:
+   - BSB: These are the ones who have not been defiled with women, for they are virgins. They follow the Lamb wherever He goes. They have been redeemed from among men as firstfruits to God and to the Lamb.
+   - WEB: These are those who were not defiled with women, for they are virgins. These are those who follow the Lamb wherever he goes. These were redeemed by Jesus from among men, the first fruits to God and to the Lamb.
+- **14:14** substitute (word): critical *υἱὸν* ] RP *υἱῷ*
+   - Latin: Prætereā animadvertī nūbem candidam, et nūbī īnsidentem quendam Fīliō Hominis similem, habentem in capite corōnam auream, et in manū falcem acūtam.
+   - 1573: Præterea animaduerti nubem candidam et nubi insidentem quendam filio hominis similem, habentem in capite coronam auream, et in manu falcem acutam.
+   - TR: Καὶ εἶδον, καὶ ἰδού, νεφέλη λευκή, καὶ ἐπὶ τὴν νεφέλην καθήμενος ὅμοιος υἱῷ ἀνθρώπου, ἔχων ἐπὶ τῆς κεφαλῆς αὐτοῦ στέφανον χρυσοῦν, καὶ ἐν τῇ χειρὶ αὐτοῦ δρέπανον ὀξύ.
+   - SBLGNT: Καὶ εἶδον, καὶ ἰδοὺ νεφέλη λευκή, καὶ ἐπὶ τὴν νεφέλην καθήμενον ὅμοιον υἱὸν ἀνθρώπου, ἔχων ἐπὶ τῆς κεφαλῆς αὐτοῦ στέφανον χρυσοῦν καὶ ἐν τῇ χειρὶ αὐτοῦ δρέπανον ὀξύ.
+   - Vulgate: Et vidi: et ecce nubem candidam, et super nubem sedentem similem Filio hominis, habentem in capite suo coronam auream, et in manu sua falcem acutam.
+   - BSB: And I looked and saw a white cloud, and seated on the cloud was One like the Son of Man, with a golden crown on His head and a sharp sickle in His hand.
+   - WEB: I looked, and saw a white cloud, and on the cloud one sitting like a son of man, having on his head a golden crown, and in his hand a sharp sickle.
+- **14:16** substitute (word): critical *τῆς νεφέλης* ] RP *τὴν νεφέλην*
+   - Latin: Itaque immīsit, quī in nūbe sedēbat, falcem suam in terram, messaque terra est.
+   - 1573: Itaque immisit, qui in nube sedebat, falcem suam in terram, messaque terra est.
+   - TR: Καὶ ἔβαλεν ὁ καθήμενος ἐπὶ τὴν νεφέλην τὸ δρέπανον αὐτοῦ ἐπὶ τὴν γῆν, καὶ ἐθερίσθη ἡ γῆ.
+   - SBLGNT: καὶ ἔβαλεν ὁ καθήμενος ἐπὶ τῆς νεφέλης τὸ δρέπανον αὐτοῦ ἐπὶ τὴν γῆν, καὶ ἐθερίσθη ἡ γῆ.
+   - Vulgate: Et misit qui sedebat super nubem, falcem suam in terram, et demessa est terra.
+   - BSB: So the One seated on the cloud swung His sickle over the earth, and the earth was harvested.
+   - WEB: He who sat on the cloud thrust his sickle on the earth, and the earth was reaped.
+- **14:18** substitute (word): critical *φωνῇ* ] RP *κραυγῇ*
+   - Latin: Et alius prōdiit angelus ex ārā, ignipotēns, quī magnā vōce clāmāns, eum, quī falcem habēbat, sīc allocūtus est: “Injice tuam istam falcem acūtam, et terræ ūvās vīndēmiā, quoniam ejus mātūruērunt racēmī.”
+   - 1573: et alius prodijt angelus ex ara, ignipotens, qui magna voce clamans, eum qui falcem habebat sic allocutus est: Inijce tuam istam falcem acutam, et terræ vuas vindemia, quoniam eius maturuerunt racemi.
+   - TR: Καὶ ἄλλος ἄγγελος ἐξῆλθεν ἐκ τοῦ θυσιαστηρίου, ἔχων ἐξουσίαν ἐπὶ τοῦ πυρός, καὶ ἐφώνησε κραυγῇ μεγάλῃ τῷ ἔχοντι τὸ δρέπανον τὸ ὀξύ, λέγων, Πέμψον σου τὸ δρέπανον τὸ ὀξὺ καὶ τρύγησον τοὺς βότρυας τῆς ἀμπέλου τῆς γῆς, ὅτι ἤκμασαν αἱ σταφυλαὶ αὐτῆς.
+   - SBLGNT: καὶ ἄλλος ἄγγελος ἐκ τοῦ θυσιαστηρίου, ὁ ἔχων ἐξουσίαν ἐπὶ τοῦ πυρός, καὶ ἐφώνησεν φωνῇ μεγάλῃ τῷ ἔχοντι τὸ δρέπανον τὸ ὀξὺ λέγων· Πέμψον σου τὸ δρέπανον τὸ ὀξὺ καὶ τρύγησον τοὺς βότρυας τῆς ἀμπέλου τῆς γῆς, ὅτι ἤκμασαν αἱ σταφυλαὶ αὐτῆς.
+   - Vulgate: Et alius angelus exivit de altari, qui habebat potestatem supra ignem: et clamavit voce magna ad eum qui habebat falcem acutam, dicens: Mitte falcem tuam acutam, et vindemia botros vineæ terræ: quoniam maturæ sunt uvæ ejus.
+   - BSB: Still another angel, with authority over the fire, came from the altar and called out in a loud voice to the angel with the sharp sickle, “Swing your sharp sickle and gather the clusters of grapes from the vine of the earth, because its grapes are ripe.”
+   - WEB: Another angel came out from the altar, he who has power over fire, and he called with a great voice to him who had the sharp sickle, saying, “Send your sharp sickle and gather the clusters of the vine of the earth, for the earth’s grapes are fully ripe!”
+- **16:3** add (word): critical *δεύτερος* ] RP *+ ἄγγελος*; substitute (word): critical *ζωῆς* ] RP *ζῶσα*
+   - Latin: Deinde secundus angelus effūdit suam phialam in mare: idque in cruōrem, quālis mortuōrum esse solet, mūtātum est, omnēsque animantēs mortuæ sunt in marī.
+   - 1573: Deinde secundus angelus effudit suam phialam in mare: idque in cruorem, qualis mortuorum esse solet, mutatum est, omnesque animantes mortuæ sunt in mari.
+   - TR: Καὶ ὁ δεύτερος ἄγγελος ἐξέχεε τὴν φιάλην αὐτοῦ εἰς τὴν θάλασσαν· καὶ ἐγένετο αἷμα ὡς νεκροῦ, καὶ πᾶσα ψυχὴ ζῶσα ἀπέθανεν ἐν τῇ θαλάσσῃ.
+   - SBLGNT: Καὶ ὁ δεύτερος ἐξέχεεν τὴν φιάλην αὐτοῦ εἰς τὴν θάλασσαν· καὶ ἐγένετο αἷμα ὡς νεκροῦ, καὶ πᾶσα ψυχὴ ζωῆς ἀπέθανεν τὰ ἐν τῇ θαλάσσῃ.
+   - Vulgate: Et secundus angelus effudit phialam suam in mare, et factus est sanguis tamquam mortui: et omnis anima vivens mortua est in mari.
+   - BSB: And the second angel poured out his bowl into the sea, and it turned to blood like that of the dead, and every living thing in the sea died.
+   - WEB: The second angel poured out his bowl into the sea, and it became blood as of a dead man. Every living thing in the sea died.
+- **16:6** substitute (word): critical *δέδωκας* ] RP *ἔδωκας*
+   - Latin: ut, quī sānctōrum vātumque sanguinem effundēbant, iīs sanguinem pōtandum dederis, ut dignī sunt.”
+   - 1573: vt qui sanctorum vatumque sanguinem effundebant, eis sanguinem potandum dederis, vt digni sunt.
+   - TR: ὅτι αἷμα ἁγίων καὶ προφητῶν ἐξέχεαν, καὶ αἷμα αὐτοῖς ἔδωκας πιεῖν· ἄξιοι γάρ εἰσι.
+   - SBLGNT: ὅτι αἷμα ἁγίων καὶ προφητῶν ἐξέχεαν, καὶ αἷμα αὐτοῖς δέδωκας πιεῖν· ἄξιοί εἰσιν.
+   - Vulgate: quia sanguinem sanctorum et prophetarum effuderunt, et sanguinem eis dedisti bibere: digni enim sunt.
+   - BSB: For they have spilled the blood of saints and prophets, and You have given them blood to drink, as they deserve.”
+   - WEB: For they poured out the blood of saints and prophets, and you have given them blood to drink. They deserve this.”
+- **16:8** add (word): critical *τέταρτος* ] RP *+ ἄγγελος*
+   - Latin: Item quārtus angelus effūdit phialam suam in sōlem, eīque mandātum est, ut hominēs igne ūreret.
+   - 1573: Item quartus angelus effudit phialam suam in solem, eique mandatum est vt homines igne vreret.
+   - TR: Καὶ ὁ τέταρτος ἄγγελος ἐξέχεε τὴν φιάλην αὐτοῦ ἐπὶ τὸν ἥλιον· καὶ ἐδόθη αὐτῷ καυματίσαι τοὺς ἀνθρώπους ἐν πυρί.
+   - SBLGNT: Καὶ ὁ τέταρτος ἐξέχεεν τὴν φιάλην αὐτοῦ ἐπὶ τὸν ἥλιον· καὶ ἐδόθη αὐτῷ καυματίσαι τοὺς ἀνθρώπους ἐν πυρί.
+   - Vulgate: Et quartus angelus effudit phialam suam in solem, et datum est illi æstu affligere homines, et igni:
+   - BSB: Then the fourth angel poured out his bowl on the sun, and it was given power to scorch the people with fire.
+   - WEB: The fourth poured out his bowl on the sun, and it was given to him to scorch men with fire.
+- **16:9** add (word): critical *ἐβλασφήμησαν* ] RP *+ οἱ ἄνθρωποι*
+   - Latin: Itaque magnō ārdōre ustī sunt hominēs, Deīque nōminī contumēliam dīxērunt, quī habēret in eās clādēs potestātem: nec ad frūgem rediērunt, ut eī glōriam tribuerent.
+   - 1573: Itaque magno ardore vsti sunt homines, Deique nomini contumeliam dixerunt, qui haberet in eas clades potestatem: nec ad frugem redierunt, vt ei gloriam tribuerent.
+   - TR: Καὶ ἐκαυματίσθησαν οἱ ἄνθρωποι καῦμα μέγα, καὶ ἐβλασφήμησαν τὸ ὄνομα τοῦ Θεοῦ τοῦ ἔχοντος ἐξουσίαν ἐπὶ τὰς πληγὰς ταύτας, καὶ οὐ μετενόησαν δοῦναι αὐτῷ δόξαν.
+   - SBLGNT: καὶ ἐκαυματίσθησαν οἱ ἄνθρωποι καῦμα μέγα· καὶ ἐβλασφήμησαν τὸ ὄνομα τοῦ θεοῦ τοῦ ἔχοντος τὴν ἐξουσίαν ἐπὶ τὰς πληγὰς ταύτας, καὶ οὐ μετενόησαν δοῦναι αὐτῷ δόξαν.
+   - Vulgate: et æstuaverunt homines æstu magno, et blasphemaverunt nomen Dei habentis potestatem super has plagas, neque egerunt pœnitentiam ut darent illi gloriam.
+   - BSB: And the people were scorched by intense heat, and they cursed the name of God, who had authority over these plagues; yet they did not repent and give Him glory.
+   - WEB: People were scorched with great heat, and people blasphemed the name of God who has the power over these plagues. They didn’t repent and give him glory.
+- **16:14** add (word): critical *ἡμέρας* ] RP *+ ἐκείνης*
+   - Latin: Sunt autem dæmonum spīritūs, quī spīritūs efficiunt, ut ēdantur ostenta ad terrārum et tōtīus orbis rēgēs, quō eōs congregent in prælium illīus magnæ diēī omnipotentis Deī.
+   - 1573: Sunt autem dæmonum spiritus, qui spiritus efficiunt vt edantur ostenta ad terrarum et totius orbis reges, quò eos congregent in prælium illius magnæ diei omnipotentis Dei.
+   - TR: εἰσὶ γὰρ πνεύματα δαιμόνων ποιοῦντα σημεῖα, ἃ ἐκπορεύεται ἐπὶ τοὺς βασιλεῖς τῆς γῆς καὶ τῆς οἰκουμένης ὅλης, συναγαγεῖν αὐτοὺς εἰς πόλεμον τῆς ἡμέρας ἐκείνης τῆς μεγάλης τοῦ Θεοῦ τοῦ παντοκράτορος —
+   - SBLGNT: εἰσὶν γὰρ πνεύματα δαιμονίων ποιοῦντα σημεῖα, ἃ ἐκπορεύεται ἐπὶ τοὺς βασιλεῖς τῆς οἰκουμένης ὅλης, συναγαγεῖν αὐτοὺς εἰς τὸν πόλεμον τῆς ἡμέρας τῆς μεγάλης τοῦ θεοῦ τοῦ παντοκράτορος—
+   - Vulgate: Sunt enim spiritus dæmoniorum facientes signa, et procedunt ad reges totius terræ congregare illos in prælium ad diem magnum omnipotentis Dei.
+   - BSB: These are demonic spirits that perform signs and go out to all the kings of the earth, to assemble them for battle on the great day of God the Almighty.
+   - WEB: for they are spirits of demons, performing signs, which go out to the kings of the whole inhabited earth, to gather them together for the war of that great day of God the Almighty.
+- **16:17** add (word): critical *ναοῦ* ] RP *+ τοῦ οὐρανοῦ*
+   - Latin: Deinde septimus angelus phialam suam in āerem effūdit, et prōdiit magna vōx ex cælī fānō, ex soliō dīcēns: “Factum est.”
+   - 1573: Deinde. Septimus angelus phialam suam in aerem effudit, et prodijt magna vox ex cœli fano, ex solio dicens: Factum est.
+   - TR: Καὶ ὁ ἕβδομος ἄγγελος ἐξέχεε τὴν φιάλην αὐτοῦ εἰς τὸν ἀέρα· καὶ ἐξῆλθε φωνὴ μεγάλη ἀπὸ τοῦ ναοῦ τοῦ οὐρανοῦ, ἀπὸ τοῦ θρόνου, λέγουσα, Γέγονε.
+   - SBLGNT: Καὶ ὁ ἕβδομος ἐξέχεεν τὴν φιάλην αὐτοῦ ἐπὶ τὸν ἀέρα— καὶ ἐξῆλθεν φωνὴ μεγάλη ἐκ τοῦ ναοῦ ἀπὸ τοῦ θρόνου λέγουσα· Γέγονεν—
+   - Vulgate: Et septimus angelus effudit phialam suam in aërem, et exivit vox magna de templo a throno, dicens: Factum est.
+   - BSB: Then the seventh angel poured out his bowl into the air, and a loud voice came from the throne in the temple, saying, “It is done!”
+   - WEB: The seventh poured out his bowl into the air. A loud voice came out of the temple of heaven, from the throne, saying, “It is done!”
+- **17:3** substitute (word): critical *ἔχων* ] RP *ἔχον*
+   - Latin: Deinde mē dīvīnō afflātū abstulit in sōlitūdinem, ubi mulierem vīdī īnsidentem bēluæ coccinæ, nefāriīs nōminibus plēnæ, habentī septem capita, et decem cornua.
+   - 1573: Deinde me diuino afflatu abstulit in solitudinem, vbi mulierem vidi insidentem beluæ coccinæ, nefarijs nominibus plenæ, habenti septem capita, et decem cornua.
+   - TR: Καὶ ἀπήνεγκέ με εἰς ἔρημον ἐν πνεύματι· καὶ εἶδον γυναῖκα καθημένην ἐπὶ θηρίον κόκκινον, γέμον ὀνομάτων βλασφημίας, ἔχον κεφαλὰς ἑπτὰ καὶ κέρατα δέκα.
+   - SBLGNT: καὶ ἀπήνεγκέν με εἰς ἔρημον ἐν πνεύματι. καὶ εἶδον γυναῖκα καθημένην ἐπὶ θηρίον κόκκινον, γέμοντα ὀνόματα βλασφημίας, ἔχων κεφαλὰς ἑπτὰ καὶ κέρατα δέκα.
+   - Vulgate: Et abstulit me in spiritu in desertum. Et vidi mulierem sedentem super bestiam coccineam, plenam nominibus blasphemiæ, habentem capita septem, et cornua decem.
+   - BSB: And the angel carried me away in the Spirit into a wilderness, where I saw a woman sitting on a scarlet beast that was covered with blasphemous names and had seven heads and ten horns.
+   - WEB: He carried me away in the Spirit into a wilderness. I saw a woman sitting on a scarlet-colored beast, full of blasphemous names, having seven heads and ten horns.
+- **17:8** substitute (word): critical *τὸ ὄνομα* ] RP *τὰ ὀνόματα*
+   - Latin: Bēlua, quam vīdistī, fuit, et nōn est: et ascēnsūra est ex tartarō, et in perniciem abitūra: mīrābunturque terræ incolæ, quōrum nōmina in vītæ librō ab orbe conditō scrīpta nōn sunt, videntēs bēluam fuisse, nec esse, tametsī est.
+   - 1573: Belua, quam vidisti, fuit, et non est: et ascensura est ex Tartaro, et in perniciem abitura: mirabunturque terræ incolæ, quorum nomina in vitæ libro ab orbe condito scripta non sunt, videntes beluam fuisse, nec esse, tametsi est.
+   - TR: Θηρίον ὃ εἶδες, ἦν, καὶ οὐκ ἔστι, καὶ μέλλει ἀναβαίνειν ἐκ τῆς ἀβύσσου, καὶ εἰς ἀπώλειαν ὑπάγειν. Καὶ θαυμάσονται οἱ κατοικοῦντες ἐπὶ τῆς γῆς, ὧν οὐ γέγραπται τὰ ὀνόματα ἐπὶ τὸ βιβλίον τῆς ζωῆς ἀπὸ καταβολῆς κόσμου, βλέποντες τὸ θηρίον ὅ, τι ἦν, καὶ οὐκ ἔστι, καίπερ ἔστιν.
+   - SBLGNT: τὸ θηρίον ὃ εἶδες ἦν καὶ οὐκ ἔστιν, καὶ μέλλει ἀναβαίνειν ἐκ τῆς ἀβύσσου, καὶ εἰς ἀπώλειαν ὑπάγει· καὶ θαυμασθήσονται οἱ κατοικοῦντες ἐπὶ τῆς γῆς, ὧν οὐ γέγραπται τὸ ὄνομα ἐπὶ τὸ βιβλίον τῆς ζωῆς ἀπὸ καταβολῆς κόσμου, βλεπόντων τὸ θηρίον ὅτι ἦν καὶ οὐκ ἔστιν καὶ παρέσται.
+   - Vulgate: Bestia, quam vidisti, fuit, et non est, et ascensura est de abysso, et in interitum ibit: et mirabuntur inhabitantes terram (quorum non sunt scripta nomina in libro vitæ a constitutione mundi) videntes bestiam, quæ erat, et non est.
+   - BSB: The beast that you saw—it was, and now is no more, but is about to come up out of the Abyss and go to its destruction. And those who dwell on the earth whose names were not written in the Book of Life from the foundation of the world will marvel when they see the beast that was, and is not, and yet will be.
+   - WEB: The beast that you saw was, and is not; and is about to come up out of the abyss and to go into destruction. Those who dwell on the earth and whose names have not been written in the book of life from the foundation of the world will marvel when they see that the beast was, and is not, and shall be present.
+- **17:16** add (word): critical *γυμνήν* ] RP *+ ποιήσουσιν αὐτήν*
+   - Latin: Item decem cornua, quæ super bēluā vīdistī, iī meretrīcem ōderint, eamque dēsertam ac nūdam reddent, et ejus carnēs comedent, et eam igne combūrent.
+   - 1573: Item decem cornua, quæ super belua vidisti, ij meretricem oderint, eamque desertam, ac nudam reddent, et eius carnes comedent, et eam igne conburent.
+   - TR: Καὶ τὰ δέκα κέρατα, ἃ εἶδες, ἐπὶ τὸ θηρίον, οὗτοι μισήσουσι τὴν πόρνην, καὶ ἠρημωμένην ποιήσουσιν αὐτὴν καὶ γυμνήν, καὶ τὰς σάρκας αὐτῆς φάγονται, καὶ αὐτὴν κατακαύσουσιν ἐν πυρί.
+   - SBLGNT: καὶ τὰ δέκα κέρατα ἃ εἶδες καὶ τὸ θηρίον, οὗτοι μισήσουσι τὴν πόρνην, καὶ ἠρημωμένην ποιήσουσιν αὐτὴν καὶ γυμνήν, καὶ τὰς σάρκας αὐτῆς φάγονται, καὶ αὐτὴν κατακαύσουσιν ἐν πυρί·
+   - Vulgate: Et decem cornua, quæ vidisti in bestia: hi odient fornicariam, et desolatam facient illam, et nudam, et carnes ejus manducabunt, et ipsam igni concremabunt.
+   - BSB: And the ten horns and the beast that you saw will hate the prostitute. They will leave her desolate and naked, and will eat her flesh and burn her with fire.
+   - WEB: The ten horns which you saw, they and the beast will hate the prostitute, will make her desolate, will strip her naked, will eat her flesh, and will burn her utterly with fire.
+- **18:13** omit (word): critical *καὶ ἄμωμον* ] RP *–*
+   - Latin: et cinamōmum, et odōrēs, et unguentum, et tūs, et vīnum, et oleum, et similam, et trīticum, et jūmenta, et ovēs, et equōrum, et rhēdārum, et corporum, et animās hominum.
+   - 1573: et cinamomum, et odores et vnguentum, et thus et vinum, et oleum, et similam, et triticum, et iumenta, et oues, et equorum et rhedarum et corporum, et animas hominum.
+   - TR: καὶ κινάμωμον, καὶ θυμιάματα, καὶ μύρον, καὶ λίβανον, καὶ οἶνον, καὶ ἔλαιον, καὶ σεμίδαλιν, καὶ σῖτον, καὶ κτήνη, καὶ πρόβατα· καὶ ἵππων, καὶ ῥεδῶν, καὶ σωμάτων, καὶ ψυχὰς ἀνθρώπων.
+   - SBLGNT: καὶ κιννάμωμον καὶ ἄμωμον καὶ θυμιάματα καὶ μύρον καὶ λίβανον καὶ οἶνον καὶ ἔλαιον καὶ σεμίδαλιν καὶ σῖτον καὶ κτήνη καὶ πρόβατα, καὶ ἵππων καὶ ῥεδῶν καὶ σωμάτων, καὶ ψυχὰς ἀνθρώπων.
+   - Vulgate: et cinnamomum) et odoramentorum, et unguenti, et thuris, et vini, et olei, et similæ, et tritici, et jumentorum, et ovium, et equorum, et rhedarum, et mancipiorum, et animarum hominum.
+   - BSB: of cinnamon, spice, incense, myrrh, and frankincense; of wine, olive oil, fine flour, and wheat; of cattle, sheep, horses, and chariots; of slaves and souls of men.
+   - WEB: and cinnamon, incense, perfume, frankincense, wine, olive oil, fine flour, wheat, cattle, sheep, horses, chariots, and people’s bodies and souls.
+- **18:21** substitute (word): critical *μύλινον* ] RP *μύλον*
+   - Latin: Deinde sustulit rōbustus quīdam angelus saxum ingēns, ut molam, et in mare dējēcit, dīcēns: “Tālī impetū jaciētur Babylōn urbs illa magna, nec amplius exstābit,
+   - 1573: Deinde sustulit robustus quidam angelus saxum ingens, vt molam: et in mare deiecit, dicens: Tali impetu sacietur Babylon vrbs illa magna, nec amplius extabit,
+   - TR: Καὶ ἦρεν εἷς ἄγγελος ἰσχυρὸς λίθον ὡς μύλον μέγαν, καὶ ἔβαλεν εἰς τὴν θάλασσαν, λέγων, Οὕτως ὁρμήματι βληθήσεται Βαβυλὼν ἡ μεγάλη πόλις, καὶ οὐ μὴ εὑρεθῇ ἔτι.
+   - SBLGNT: Καὶ ἦρεν εἷς ἄγγελος ἰσχυρὸς λίθον ὡς μύλινον μέγαν, καὶ ἔβαλεν εἰς τὴν θάλασσαν λέγων· Οὕτως ὁρμήματι βληθήσεται Βαβυλὼν ἡ μεγάλη πόλις, καὶ οὐ μὴ εὑρεθῇ ἔτι.
+   - Vulgate: Et sustulit unus angelus fortis lapidem quasi molarem magnum, et misit in mare, dicens: Hoc impetu mittetur Babylon civitas illa magna, et ultra jam non invenietur.
+   - BSB: Then a mighty angel picked up a stone the size of a great millstone and cast it into the sea, saying: “With such violence the great city of Babylon will be cast down, never to be seen again.
+   - WEB: A mighty angel took up a stone like a great millstone and cast it into the sea, saying, “Thus with violence will Babylon, the great city, be thrown down, and will be found no more at all.
+- **19:4** substitute (word): critical *τῷ θρόνῳ* ] RP *τοῦ θρόνου*
+   - Latin: Tum vīgintī quattuor senātōrēs, et quattuor animālia prōcubuērunt, Deumque in soliō sedentem venerātī sunt, dīcentēs: “Āmēn, Hallēluja.”
+   - 1573: Tum viginti quatuor senatores, et quatuor animalia procubuerunt, Deumque in solio sedentem venerati sunt, dicentes: Amen, Halleluia.
+   - TR: Καὶ ἔπεσαν οἱ πρεσβύτεροι οἱ εἴκοσι καὶ τέσσαρες, καὶ τὰ τέσσαρα ζῷα, καὶ προσεκύνησαν τῷ Θεῷ τῷ καθημένῳ ἐπὶ τοῦ θρόνου, λέγοντες, Ἀμήν· Ἁλληλούϊα.
+   - SBLGNT: καὶ ἔπεσαν οἱ πρεσβύτεροι οἱ εἴκοσι τέσσαρες καὶ τὰ τέσσαρα ζῷα, καὶ προσεκύνησαν τῷ θεῷ τῷ καθημένῳ ἐπὶ τῷ θρόνῳ λέγοντες· Ἀμήν, Ἁλληλουϊά.
+   - Vulgate: Et ceciderunt seniores viginti quatuor, et quatuor animalia, et adoraverunt Deum sedentem super thronum, dicentes: Amen: alleluja.
+   - BSB: And the twenty-four elders and the four living creatures fell down and worshiped God who sits on the throne, saying: “Amen, Hallelujah!”
+   - WEB: The twenty-four elders and the four living creatures fell down and worshiped God who sits on the throne, saying, “Amen! Hallelujah!”
+- **19:5** substitute (word): critical *τῷ θεῷ* ] RP *τὸν θεὸν*
+   - Latin: Et vōx ex soliō prōdiit, dīcēns: “Laudāte Deum nostrum omnēs ejus servī, eumque metuentēs, parvī juxtā ac magnī.”
+   - 1573: Et vox ex solio prodijt, dicens: Laudate Deum nostrum omnes eius serui, eumque metuentes, parui iuxtà ac magni.
+   - TR: Καὶ φωνὴ ἐκ τοῦ θρόνου ἐξῆλθε, λέγουσα, Αἰνεῖτε τὸν Θεὸν ἡμῶν πάντες οἱ δοῦλοι αὐτοῦ, καὶ οἱ φοβούμενοι αὐτόν, καὶ οἱ μικροὶ καὶ οἱ μεγάλοι.
+   - SBLGNT: Καὶ φωνὴ ἀπὸ τοῦ θρόνου ἐξῆλθεν λέγουσα· Αἰνεῖτε τῷ θεῷ ἡμῶν, πάντες οἱ δοῦλοι αὐτοῦ, καὶ οἱ φοβούμενοι αὐτόν, οἱ μικροὶ καὶ οἱ μεγάλοι.
+   - Vulgate: Et vox de throno exivit, dicens: Laudem dicite Deo nostro omnes servi ejus: et qui timetis eum pusilli et magni.
+   - BSB: Then a voice came from the throne, saying: “Praise our God, all you who serve Him, and those who fear Him, small and great alike!”
+   - WEB: A voice came from the throne, saying, “Give praise to our God, all you his servants, you who fear him, the small and the great!”
+- **19:13** substitute (word): critical *κέκληται* ] RP *καλεῖται*
+   - Latin: Indūtus est palliō tīnctō sanguine, et nōmine vocātur Sermō Deī:
+   - 1573: Indutus est pallio tincto sanguine, et nomine vocatur Sermo Dei:
+   - TR: καὶ περιβεβλημένος ἱμάτιον βεβαμμένον αἵματι· καὶ καλεῖται τὸ ὄνομα αὐτοῦ, Ὁ λόγος τοῦ Θεοῦ.
+   - SBLGNT: καὶ περιβεβλημένος ἱμάτιον βεβαμμένον αἵματι, καὶ κέκληται τὸ ὄνομα αὐτοῦ ὁ Λόγος τοῦ Θεοῦ.
+   - Vulgate: Et vestitus erat veste aspersa sanguine: et vocatur nomen ejus: Verbum Dei.
+   - BSB: He is dressed in a robe dipped in blood, and His name is The Word of God.
+   - WEB: He is clothed in a garment sprinkled with blood. His name is called “The Word of God.”
+- **19:20** substitute (word): critical *τῆς καιομένης* ] RP *τὴν καιομένην*
+   - Latin: Vērum comprehēnsa est bēlua, et cum eā falsus vātēs, quī in ejus cōnspectū fēcerat ostenta, quibus dēcēperat eōs, quī bēstiæ notam accēperant, quīque ejus venerābantur imāginem. Duo illī vīvī conjectī sunt in stagnum ignis ārdēns sulphure.
+   - 1573: Verùm comprehensa est belua, et cum ea falsus vates, qui in eius conspectu fecerat ostenta, quibus deceperat eos qui bestiæ notam acceperant, quique eius venerabantur imaginem. Duo illi viui coniecti sunt in stagnum ignis ardens sulphure.
+   - TR: Καὶ ἐπιάσθη τὸ θηρίον, καὶ μετὰ τούτου ὁ ψευδοπροφήτης ὁ ποιήσας τὰ σημεῖα ἐνώπιον αὐτοῦ, ἐν οἷς ἐπλάνησε τοὺς λαβόντας τὸ χάραγμα τοῦ θηρίου, καὶ τοὺς προσκυνοῦντας τῇ εἰκόνι αὐτοῦ· ζῶντες ἐβλήθησαν οἱ δύο εἰς τὴν λίμνην τοῦ πυρὸς τὴν καιομένην ἐν τῷ θείῳ·
+   - SBLGNT: καὶ ἐπιάσθη τὸ θηρίον καὶ μετʼ αὐτοῦ ὁ ψευδοπροφήτης ὁ ποιήσας τὰ σημεῖα ἐνώπιον αὐτοῦ, ἐν οἷς ἐπλάνησεν τοὺς λαβόντας τὸ χάραγμα τοῦ θηρίου καὶ τοὺς προσκυνοῦντας τῇ εἰκόνι αὐτοῦ· ζῶντες ἐβλήθησαν οἱ δύο εἰς τὴν λίμνην τοῦ πυρὸς τῆς καιομένης ἐν θείῳ.
+   - Vulgate: Et apprehensa est bestia, et cum ea pseudopropheta: qui fecit signa coram ipso, quibus seduxit eos, qui acceperunt caracterem bestiæ, et qui adoraverunt imaginem ejus. Vivi missi sunt hi duo in stagnum ignis ardentis sulphure:
+   - BSB: But the beast was captured along with the false prophet, who on its behalf had performed signs deceiving those who had the mark of the beast and worshiped its image. Both the beast and the false prophet were thrown alive into the fiery lake of burning sulfur.
+   - WEB: The beast was taken, and with him the false prophet who worked the signs in his sight, with which he deceived those who had received the mark of the beast and those who worshiped his image. These two were thrown alive into the lake of fire that burns with sulfur.
+- **20:2** substitute (word): critical *ὁ ὄφις ὁ ἀρχαῖος* ] RP *τὸν ὄφιν τὸν ἀρχαῖον*
+   - Latin: Is cēpit dracōnem, serpentem antīquum, quī est diabolus et Satanās, eumque colligāvit in mīlle annōs:
+   - 1573: Is cepit draconem, serpentem antiquum, qui est Diabolus, et Satanas, eumque colligauit in mille annos:
+   - TR: Καὶ ἐκράτησε τὸν δράκοντα, τὸν ὄφιν τὸν ἀρχαῖον, ὅς ἐστι διάβολος καὶ Σατανᾶς, καὶ ἔδησεν αὐτὸν χίλια ἔτη,
+   - SBLGNT: καὶ ἐκράτησεν τὸν δράκοντα, ὁ ὄφις ὁ ἀρχαῖος, ὅς ἐστιν Διάβολος καὶ ὁ Σατανᾶς, καὶ ἔδησεν αὐτὸν χίλια ἔτη,
+   - Vulgate: Et apprehendit draconem, serpentem antiquum, qui est diabolus, et Satanas, et ligavit eum per annos mille:
+   - BSB: He seized the dragon, that ancient serpent who is the devil and Satan, and bound him for a thousand years.
+   - WEB: He seized the dragon, the old serpent, who is the devil and Satan, who deceives the whole inhabited earth, and bound him for a thousand years,
+- **20:9** substitute (word): critical *ἐκ τοῦ οὐρανοῦ* ] RP *ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ*
+   - Latin: Hī factā, quam lātē tellūs patet, expedītiōne, sānctōrum castra, et urbem amātam circumsēdērunt. Sed eōs dēlāpsus ā Deō ignis dē cælō cōnfēcit:
+   - 1573: Hi facta, quàm latê tellus patet, expeditione, sanctorum castra et vrbem amatam circumsederunt. Sed eos delapsus à Deo ignis de cœlo, confecit:
+   - TR: Καὶ ἀνέβησαν ἐπὶ τὸ πλάτος τῆς γῆς, καὶ ἐκύκλωσαν τὴν παρεμβολὴν τῶν ἁγίων καὶ τὴν πόλιν τὴν ἠγαπημένην· καὶ κατέβη πῦρ ἀπὸ τοῦ Θεοῦ ἐκ τοῦ οὐρανοῦ, καὶ κατέφαγεν αὐτούς.
+   - SBLGNT: καὶ ἀνέβησαν ἐπὶ τὸ πλάτος τῆς γῆς, καὶ ἐκύκλευσαν τὴν παρεμβολὴν τῶν ἁγίων καὶ τὴν πόλιν τὴν ἠγαπημένην. καὶ κατέβη πῦρ ἐκ τοῦ οὐρανοῦ καὶ κατέφαγεν αὐτούς·
+   - Vulgate: Et descendit ignis a Deo de cælo, et devoravit eos: et diabolus, qui seducebat eos, missus est in stagnum ignis, et sulphuris, ubi et bestia
+   - BSB: And they marched across the broad expanse of the earth and surrounded the camp of the saints and the beloved city. But fire came down from heaven and consumed them.
+   - WEB: They went up over the width of the earth and surrounded the camp of the saints and the beloved city. Fire came down out of heaven from God and devoured them.
+- **21:3** substitute (word): critical *θρόνου* ] RP *οὐρανοῦ*
+   - Latin: Audīvīque magnam vōcem dē cælō dīcentem: “Ecce Deī apud hominēs tabernāculum, quī apud eōs habitābit, et ipsī ejus populus erunt: et ipse Deus erit apud eōs Deus eōrum:
+   - 1573: Audiuique magnam vocem de cœlo dicentem: Ecce Dei apud homines tabernaculum, qui apud eos habitabit, et ipsi eius populus erunt, et ipse Deus, erit apud eos Deus eorum:
+   - TR: Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ, λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾿ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς ἔσται μετ᾿ αὐτῶν, Θεὸς αὐτῶν·
+   - SBLGNT: καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ θρόνου λεγούσης· Ἰδοὺ ἡ σκηνὴ τοῦ θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετʼ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ θεὸς μετʼ αὐτῶν ἔσται,
+   - Vulgate: Et audivi vocem magnam de throno dicentem: Ecce tabernaculum Dei cum hominibus, et habitabit cum eis. Et ipsi populus ejus erunt, et ipse Deus cum eis erit eorum Deus:
+   - BSB: And I heard a loud voice from the throne saying: “Behold, the dwelling place of God is with man, and He will dwell with them. They will be His people, and God Himself will be with them as their God.
+   - WEB: I heard a loud voice out of heaven saying, “Behold, God’s dwelling is with people; and he will dwell with them, and they will be his people, and God himself will be with them as their God.
+- **21:9** substitute (word): critical *τῶν γεμόντων* ] RP *γεμούσας*
+   - Latin: Tum vēnit ad mē ūnus septem angelōrum, quī septem phialās habēbant, septem postrēmārum clādum plēnās, quī mē sīc allocūtus est: “Ades, mōnstrābō tibi spōnsam, Agnī uxōrem.”
+   - 1573: Tum venit ad me vnus septem angelorum, qui septem phialas habebant, septem postremarum cladum plenas, qui me sic allocutus est: Ades, monstrabo tibi sponsam, agni vxorem.
+   - TR: Καὶ ἦλθε πρός με εἷς τῶν ἑπτὰ ἀγγέλων τῶν ἐχόντων τὰς ἑπτὰ φιάλας τὰς γεμούσας τῶν ἑπτὰ πληγῶν τῶν ἐσχάτων, καὶ ἐλάλησε μετ᾿ ἐμοῦ, λέγων, Δεῦρο, δείξω σοι τὴν νύμφην τοῦ ἀρνίου τὴν γυναῖκα.
+   - SBLGNT: Καὶ ἦλθεν εἷς ἐκ τῶν ἑπτὰ ἀγγέλων τῶν ἐχόντων τὰς ἑπτὰ φιάλας, τῶν γεμόντων τῶν ἑπτὰ πληγῶν τῶν ἐσχάτων, καὶ ἐλάλησεν μετʼ ἐμοῦ λέγων· Δεῦρο, δείξω σοι τὴν νύμφην τὴν γυναῖκα τοῦ ἀρνίου.
+   - Vulgate: Et venit unus de septem angelis habentibus phialas plenas septem plagis novissimis, et locutus est mecum, dicens: Veni, et ostendam tibi sponsam, uxorem Agni.
+   - BSB: Then one of the seven angels with the seven bowls full of the seven final plagues came and said to me, “Come, I will show you the bride, the wife of the Lamb.”
+   - WEB: One of the seven angels who had the seven bowls which were loaded with the seven last plagues came, and he spoke with me, saying, “Come here. I will show you the bride, the Lamb’s wife.”
+- **21:10** add (word): critical *πόλιν* ] RP *+ τὴν μεγάλην*
+   - Latin: Deinde mē dīvīnō afflātū in magnum arduumque montem sustulit, et mihi mōnstrāvit urbem magnam, sānctam Hierosolymam, dē cælō ā Deō dēscendentem,
+   - 1573: Deinde me diuino afflatu in magnum, arduúmque montem sustulit, et mihi monstrauit vrbem magnam, sanctam Hierosolymam, de cœlo à Deo descendentem
+   - TR: Καὶ ἀπήνεγκέ με ἐν πνεύματι ἐπ᾿ ὄρος μέγα καὶ ὑψηλόν, καὶ ἔδειξέ μοι τὴν πόλιν τὴν μεγάλην, τὴν ἁγίαν Ἱερουσαλήμ, καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ,
+   - SBLGNT: καὶ ἀπήνεγκέν με ἐν πνεύματι ἐπὶ ὄρος μέγα καὶ ὑψηλόν, καὶ ἔδειξέν μοι τὴν πόλιν τὴν ἁγίαν Ἰερουσαλὴμ καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ,
+   - Vulgate: Et sustulit me in spiritu in montem magnum et altum, et ostendit mihi civitatem sanctam Jerusalem descendentem de cælo a Deo,
+   - BSB: And he carried me away in the Spirit to a mountain great and high, and showed me the holy city of Jerusalem coming down out of heaven from God,
+   - WEB: He carried me away in the Spirit to a great and high mountain, and showed me the holy city, Jerusalem, coming down out of heaven from God,
+- **21:14** substitute (word): critical *ἔχων* ] RP *ἔχον*
+   - Latin: Urbis mūrus habēbat fundāmenta duodecim, et in iīs nōmina duodecim apostolōrum Agnī.
+   - 1573: Vrbis murus habebat fundamenta duodecim, et in eis nomina duodecim Apostolorum agni.
+   - TR: Καὶ τὸ τεῖχος τῆς πόλεως ἔχον θεμελίους δώδεκα, καὶ ἐν αὐτοῖς ὀνόματα τῶν δώδεκα ἀποστόλων τοῦ ἀρνίου.
+   - SBLGNT: καὶ τὸ τεῖχος τῆς πόλεως ἔχων θεμελίους δώδεκα, καὶ ἐπʼ αὐτῶν δώδεκα ὀνόματα τῶν δώδεκα ἀποστόλων τοῦ ἀρνίου.
+   - Vulgate: Et murus civitatis habens fundamenta duodecim, et in ipsis duodecim nomina duodecim apostolorum Agni.
+   - BSB: The wall of the city had twelve foundations bearing the names of the twelve apostles of the Lamb.
+   - WEB: The wall of the city had twelve foundations, and on them twelve names of the twelve Apostles of the Lamb.
+- **21:18** add (word): critical *καὶ* ] RP *+ ἦν*
+   - Latin: Ejus mūrī strūctūra erat ex jaspide: urbs ipsa ex aurō pūrō, pūrī vitrī similis.
+   - 1573: Eius muri structura erat ex Iaspide: vrbs ipsa ex auro puro, puri vitri similis.
+   - TR: Καὶ ἦν ἡ ἐνδόμησις τοῦ τείχους αὐτῆς, ἴασπις· καὶ ἡ πόλις χρυσίον καθαρόν, ὅμοια ὑάλῳ καθαρῷ.
+   - SBLGNT: καὶ ἡ ἐνδώμησις τοῦ τείχους αὐτῆς ἴασπις, καὶ ἡ πόλις χρυσίον καθαρὸν ὅμοιον ὑάλῳ καθαρῷ·
+   - Vulgate: Et erat structura muri ejus ex lapide jaspide: ipsa vero civitas aurum mundum simile vitro mundo.
+   - BSB: The wall was made of jasper, and the city itself of pure gold, as pure as glass.
+   - WEB: The construction of its wall was jasper. The city was pure gold, like pure glass.
+- **22:1** add (word): critical *ποταμὸν* ] RP *+ καθαρὸν*
+   - Latin: Deinde mihi mōnstrāvit vītālis aquæ pūrum fluvium, limpidum ut crystallum, ex Deī et Agnī soliō mānantem.
+   - 1573: Deinde mihi monstrauit vitalis aquæ purum fluuium, limpidum vt crystallum, ex Dei et agni solio manantem:
+   - TR: Καὶ ἔδειξέ μοι καθαρὸν ποταμὸν ὕδατος ζωῆς, λαμπρὸν ὡς κρύσταλλον, ἐκπορευόμενον ἐκ τοῦ θρόνου τοῦ Θεοῦ καὶ τοῦ ἀρνίου.
+   - SBLGNT: Καὶ ἔδειξέν μοι ποταμὸν ὕδατος ζωῆς λαμπρὸν ὡς κρύσταλλον, ἐκπορευόμενον ἐκ τοῦ θρόνου τοῦ θεοῦ καὶ τοῦ ἀρνίου
+   - Vulgate: Et ostendit mihi fluvium aquæ vitæ, splendidum tamquam crystallum, procedentem de sede Dei et Agni.
+   - BSB: Then the angel showed me a river of the water of life, as clear as crystal, flowing from the throne of God and of the Lamb
+   - WEB: He showed me a river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb,
+- **22:5** substitute (word): critical *ἔτι* ] RP *ἐκει*; omit (word): critical *ἐπʼ* ] RP *–*
+   - Latin: Nec erit ibi nox, nec lucernā sōlisve lūmine indigēbunt, quippe quōs collūstrābit Dominus Deus, et rēgnābunt in omnia sæcula.
+   - 1573: nec erit ibi nox, nec lucerna solisue lumine indigebunt, quippe quos collustrabit Dominus Deus, et regnabunt in omnia secula
+   - TR: Καὶ νὺξ οὐκ ἔσται ἐκεῖ, καὶ χρείαν οὐκ ἔχουσι λύχνου καὶ φωτὸς ἡλίου, ὅτι Κύριος ὁ Θεὸς φωτίζει αὐτούς· καὶ βασιλεύσουσιν εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - SBLGNT: καὶ νὺξ οὐκ ἔσται ἔτι, καὶ οὐκ ἔχουσιν χρείαν φωτὸς λύχνου καὶ φῶς ἡλίου, ὅτι κύριος ὁ θεὸς φωτίσει ἐπʼ αὐτούς, καὶ βασιλεύσουσιν εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - Vulgate: Et nox ultra non erit: et non egebunt lumine lucernæ, neque lumine solis, quoniam Dominus Deus illuminabit illos, et regnabunt in sæcula sæculorum.
+   - BSB: There will be no more night in the city, and they will have no need for the light of a lamp or of the sun. For the Lord God will shine on them, and they will reign forever and ever.
+   - WEB: There will be no night, and they need no lamp light or sun light; for the Lord God will illuminate them. They will reign forever and ever.
+- **22:12** substitute (word): critical *ἐστὶν* ] RP *ἔσται*
+   - Latin: “Equidem brevī ventūrus sum, meam mēcum mercēdem ferēns, ut prō suō quemque meritō remūnerer.
+   - 1573: Equidem breui venturus sum, meam mecum mercedem ferens, vt pro suo quemque merito remunerer.
+   - TR: Καὶ ἰδού, ἔρχομαι ταχύ, καὶ ὁ μισθός μου μετ᾿ ἐμοῦ, ἀποδοῦναι ἑκάστῳ ὡς τὸ ἔργον αὐτοῦ ἔσται.
+   - SBLGNT: Ἰδοὺ ἔρχομαι ταχύ, καὶ ὁ μισθός μου μετʼ ἐμοῦ, ἀποδοῦναι ἑκάστῳ ὡς τὸ ἔργον ἐστὶν αὐτοῦ.
+   - Vulgate: Ecce venio cito, et merces mea mecum est, reddere unicuique secundum opera sua.
+   - BSB: “Behold, I am coming soon, and My reward is with Me, to give to each one according to what he has done.
+   - WEB: “Behold, I am coming soon! My reward is with me, to repay to each man according to his work.
+- **22:14** substitute (word): critical *πλύνοντες τὰς στολὰς αὐτῶν* ] RP *ποιοῦντες τὰς ἐντολὰς αὐτοῦ*
+   - Latin: Beātī, quī ejus præcepta obeunt, ut potestātem habeant in arborem vītæ, et per portās intrent in urbem.
+   - 1573: Beati qui eius præcepta obeunt, vt potestatem habeant in arborem vitæ, et per portas intrent in vrbem.
+   - TR: Μακάριοι οἱ ποιοῦντες τὰς ἐντολὰς αὐτοῦ, ἵνα ἔσται ἡ ἐξουσία αὐτῶν ἐπὶ τὸ ξύλον τῆς ζωῆς, καὶ τοῖς πυλῶσιν εἰσέλθωσιν εἰς τὴν πόλιν.
+   - SBLGNT: Μακάριοι οἱ πλύνοντες τὰς στολὰς αὐτῶν, ἵνα ἔσται ἡ ἐξουσία αὐτῶν ἐπὶ τὸ ξύλον τῆς ζωῆς καὶ τοῖς πυλῶσιν εἰσέλθωσιν εἰς τὴν πόλιν.
+   - Vulgate: Beati, qui lavant stolas suas in sanguine Agni: ut sit potestas eorum in ligno vitæ, et per portas intrent in civitatem.
+   - BSB: Blessed are those who wash their robes, so that they may have the right to the tree of life and may enter the city by its gates.
+   - WEB: Blessed are those who do his commandments, that they may have the right to the tree of life, and may enter in by the gates into the city.
+- **22:20** substitute (word): critical *ἔρχου* ] RP *Ναί ἔρχου*
+   - Latin: Dīcit, quī hæc testātur: “Etiam, veniam brevī.” Āmēn. Etiam venī, Domine Jēsū.
+   - 1573: Dicit, qui hæc testatur: Etiam, veniam breui: Amen. Etiam veni Domine Iesu.
+   - TR: Λέγει ὁ μαρτυρῶν ταῦτα, Ναί, ἔρχομαι ταχύ. Ἀμήν. Ναί, ἔρχου, Κύριε Ἰησοῦ.
+   - SBLGNT: Λέγει ὁ μαρτυρῶν ταῦτα· Ναί· ἔρχομαι ταχύ. Ἀμήν· ἔρχου, κύριε Ἰησοῦ.
+   - Vulgate: dicit qui testimonium perhibet istorum. Etiam venio cito: amen. Veni, Domine Jesu.
+   - BSB: He who testifies to these things says, “Yes, I am coming soon.” Amen. Come, Lord Jesus!
+   - WEB: He who testifies these things says, “Yes, I am coming soon.” Amen! Yes, come, Lord Jesus!
+- **22:21** add (word): critical *Ἰησοῦ* ] RP *+ Χριστοῦ*
+   - Latin: Dominī nostrī Jēsū Chrīstī grātia adsit vōbīs omnibus: Āmēn.
+   - 1573: Domini nostri Iesu Christi gratia adsit vobis omnibus: Amen.
+   - TR: Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων ὑμῶν. Ἀμήν.
+   - SBLGNT: Ἡ χάρις τοῦ κυρίου Ἰησοῦ μετὰ πάντων.
+   - Vulgate: Gratia Domini nostri Jesu Christi cum omnibus vobis. Amen.
+   - BSB: The grace of the Lord Jesus be with all the saints. Amen.
+   - WEB: The grace of the Lord Jesus Christ be with all the saints. Amen.
+
+## The TR alone (RP with the critical text; 220 verses)
+
+- **1:4** add (word): SBLGNT *–* ] TR *+ εστι*
+   - Latin: Jōhannēs septem Asiānīs ecclēsiīs grātiam et pācem, ab eō, quī est, et quī fuit, et quī ventūrus est: et ā septem spīritibus, quī sunt ante ejus solium:
+   - 1573: Iohannes septem Asianis ecclesijs gratiam et pacem, ab eo qui est, et qui fuit, et qui venturus est: et à septem spiritibus, qui sunt ante eius solium:
+   - TR: Ἰωάννης ταῖς ἑπτὰ ἐκκλησίαις ταῖς ἐν τῇ Ἀσίᾳ· χάρις ὑμῖν καὶ εἰρήνη ἀπὸ τοῦ ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος· καὶ ἀπὸ τῶν ἑπτὰ πνευμάτων ἅ ἐστιν ἐνώπιον τοῦ θρόνου αὐτοῦ·
+   - SBLGNT: Ἰωάννης ταῖς ἑπτὰ ἐκκλησίαις ταῖς ἐν τῇ Ἀσίᾳ· χάρις ὑμῖν καὶ εἰρήνη ἀπὸ ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος, καὶ ἀπὸ τῶν ἑπτὰ πνευμάτων ἃ ἐνώπιον τοῦ θρόνου αὐτοῦ,
+   - Vulgate: Joannes septem ecclesiis, quæ sunt in Asia. Gratia vobis, et pax ab eo, qui est, et qui erat, et qui venturus est: et a septem spiritibus qui in conspectu throni ejus sunt:
+   - BSB: John, To the seven churches in the province of Asia: Grace and peace to you from Him who is and was and is to come, and from the seven Spirits before His throne,
+   - WEB: John, to the seven assemblies that are in Asia: Grace to you and peace from God, who is and who was and who is to come; and from the seven Spirits who are before his throne;
+- **1:6** substitute (word): SBLGNT *βασιλειαν* ] TR *βασιλεις και*
+   - Latin: Eī, quī nōs amāvit, suōque sanguine ā peccātīs abluit, et rēgēs ac sacerdōtēs Deō et Patrī suō fēcit, eī glōria et imperium in perpetua sæcula: Āmēn.
+   - 1573: Ei qui nos amauit, suoque sanguine à peccatis abluit, et reges ac sacerdotes Deo et patri suo fecit, ei gloria et imperium in perpetua secula: Amen.
+   - TR: καὶ ἐποίησεν ἡμᾶς βασιλεῖς καὶ ἱερεῖς τῷ Θεῷ καὶ πατρὶ αὐτοῦ· αὐτῷ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.
+   - SBLGNT: καὶ ἐποίησεν ἡμᾶς βασιλείαν, ἱερεῖς τῷ θεῷ καὶ πατρὶ αὐτοῦ— αὐτῷ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων· ἀμήν.
+   - Vulgate: et fecit nos regnum, et sacerdotes Deo et Patri suo: ipsi gloria et imperium in sæcula sæculorum. Amen.
+   - BSB: who has made us to be a kingdom, priests to His God and Father—to Him be the glory and power forever and ever! Amen.
+   - WEB: and he made us to be a Kingdom, priests to his God and Father—to him be the glory and the dominion forever and ever. Amen.
+- **1:8** substitute (name): SBLGNT *αλφα* ] TR *α*; add (clause): SBLGNT *–* ] TR *+ αρχη και τελος*; omit (word): SBLGNT *ο θεος* ] TR *–*
+   - Latin: “Ego sum α et ω, prīncipium et fīnis,” inquit Dominus, quī est, quī fuit, et quī ventūrus est, Omnipotēns.
+   - 1573: Ego sum α et ω, principium et finis, inquit Dominus. qui est, qui fuit, et qui venturus est, Omnipotens.
+   - TR: Ἐγώ εἰμι τὸ Α καὶ τὸ Ω, ἀρχὴ καὶ τέλος, λέγει ὁ Κύριος, ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος, ὁ παντοκράτωρ.
+   - SBLGNT: Ἐγώ εἰμι τὸ Ἄλφα καὶ τὸ Ὦ, λέγει κύριος, ὁ θεός, ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος, ὁ παντοκράτωρ.
+   - Vulgate: Ego sum alpha et omega, principium et finis, dicit Dominus Deus: qui est, et qui erat, et qui venturus est, omnipotens.
+   - BSB: “I am the Alpha and the Omega,” says the Lord God, who is and was and is to come—the Almighty.
+   - WEB: “I am the Alpha and the Omega,” says the Lord God, “who is and who was and who is to come, the Almighty.”
+- **1:11** add (clause): SBLGNT *–* ] TR *+ εγω ειμι το α και το ω ο πρωτος και ο εσχατος και*; omit (number): SBLGNT *επτα* ] TR *–*; add (clause): SBLGNT *–* ] TR *+ ταις εν ασια*
+   - Latin: “Ego sum α et ω, prīmus et ultimus. Tū, quod cernis, scrībe in librō, et mitte Asiānīs ecclēsiīs, Ephesum, et Smyrnam, et Pergamum, et Thyatīra, et Sardēs, et Philadelphīam, et Lāodicēam.”
+   - 1573: Ego sum α et ω, primus et vltimus. Tu quod cernis, scribe in libro, et mitte Asianis ecclesijs, Ephesum et Smyrnam, et Pergamum, et Thyatira, et Sardes, et Philadelphiam, et Laodiceam.
+   - TR: λεγούσης, Ἐγώ εἰμι τὸ Α καὶ τὸ Ω, ὁ πρῶτος καὶ ὁ ἔσχατος· καί, Ὃ βλέπεις γράψον εἰς βιβλίον, καὶ πέμψον ταῖς ἐκκλησίαις ταῖς ἐν Ἀσίᾳ, εἰς Ἔφεσον, καὶ εἰς Σμύρναν, καὶ εἰς Πέργαμον, καὶ εἰς Θυάτειρα, καὶ εἰς Σάρδεις, καὶ εἰς Φιλαδέλφειαν, καὶ εἰς Λαοδίκειαν.
+   - SBLGNT: λεγούσης· Ὃ βλέπεις γράψον εἰς βιβλίον καὶ πέμψον ταῖς ἑπτὰ ἐκκλησίαις, εἰς Ἔφεσον καὶ εἰς Σμύρναν καὶ εἰς Πέργαμον καὶ εἰς Θυάτειρα καὶ εἰς Σάρδεις καὶ εἰς Φιλαδέλφειαν καὶ εἰς Λαοδίκειαν.
+   - Vulgate: dicentis: Quod vides, scribe in libro: et mitte septem ecclesiis, quæ sunt in Asia, Epheso, et Smyrnæ, et Pergamo, et Thyatiræ, et Sardis, et Philadelphiæ, et Laodiciæ.
+   - BSB: saying, “Write on a scroll what you see and send it to the seven churches: to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and Laodicea.”
+   - WEB: saying, “What you see, write in a book and send to the seven assemblies: to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”
+- **1:17** substitute (word): SBLGNT *εθηκε* ] TR *επεθηκε*; add (word): SBLGNT *–* ] TR *+ χειρα*
+   - Latin: Eum cōnspicātus ego, ad ejus pedēs pæne mortuus cecidī. At ille dextrā suā manū mihi impositā dīxit: “Nē metue. Ego sum prīmus et ultimus, quī vīvō:
+   - 1573: Eum conspicatus ego, ad eius pedes pænè mortuus cecidi. At ille dextera sua manu mihi imposita dixit: Ne metue: ego sum primus et vltimus, qui viuo.
+   - TR: Καὶ ὅτε εἶδον αὐτόν, ἔπεσα πρὸς τοὺς πόδας αὐτοῦ ὡς νεκρός· καὶ ἐπέθηκε τὴν δεξιὰν αὐτοῦ χεῖρα ἐπ᾿ ἐμέ, λέγων μοι, Μὴ φοβοῦ· ἐγώ εἰμι ὁ πρῶτος καὶ ὁ ἔσχατος,
+   - SBLGNT: Καὶ ὅτε εἶδον αὐτόν, ἔπεσα πρὸς τοὺς πόδας αὐτοῦ ὡς νεκρός· καὶ ἔθηκεν τὴν δεξιὰν αὐτοῦ ἐπʼ ἐμὲ λέγων· Μὴ φοβοῦ· ἐγώ εἰμι ὁ πρῶτος καὶ ὁ ἔσχατος,
+   - Vulgate: Et cum vidissem eum, cecidi ad pedes ejus tamquam mortuus. Et posuit dexteram suam super me, dicens: Noli timere: ego sum primus, et novissimus,
+   - BSB: When I saw Him, I fell at His feet like a dead man. But He placed His right hand on me and said, “Do not be afraid. I am the First and the Last,
+   - WEB: When I saw him, I fell at his feet like a dead man. He laid his right hand on me, saying, “Don’t be afraid. I am the first and the last,
+- **1:18** substitute (word): SBLGNT *θανατου* ] TR *αδου*; substitute (word): SBLGNT *αδου* ] TR *θανατου*
+   - Latin: Et fuī mortuus, et jam sum vīvus in perpetua sæcula. Ita est: et habeō orcī clāvēs atque mortis.
+   - 1573: et fui mortuus, et iam sum viuus in perpetua secula. Ita est: et habeo Orci claues atque mortis.
+   - TR: καὶ ὁ ζῶν, καὶ ἐγενόμην νεκρός, καὶ ἰδού, ζῶν εἰμὶ εἰς τοὺς αἰῶνας τῶν αἰώνων, ἀμήν· καὶ ἔχω τὰς κλεῖς τοῦ ᾍδου καὶ τοῦ Θανάτου.
+   - SBLGNT: καὶ ὁ ζῶν— καὶ ἐγενόμην νεκρὸς καὶ ἰδοὺ ζῶν εἰμι εἰς τοὺς αἰῶνας τῶν αἰώνων— καὶ ἔχω τὰς κλεῖς τοῦ θανάτου καὶ τοῦ ᾅδου.
+   - Vulgate: et vivus, et fui mortuus, et ecce sum vivens in sæcula sæculorum: et habeo claves mortis, et inferni.
+   - BSB: the Living One. I was dead, and behold, now I am alive forever and ever! And I hold the keys of Death and of Hades.
+   - WEB: and the Living one. I was dead, and behold, I am alive forever and ever. Amen. I have the keys of Death and of Hades.
+- **1:20** add (number): SBLGNT *–* ] TR *+ επτα*; substitute (number): SBLGNT *αι επτα* ] TR *ας ειδες*
+   - Latin: Arcānum septem stēllārum, quās in meā dextrā vīdistī, et septem aureōrum candēlābrōrum est hoc: septem stēllæ, angelī sunt septem ecclēsiārum. Septem autem candēlābra, quæ vīdistī, septem ecclēsiæ sunt.
+   - 1573: Arcanum septem stellarum, quas in mea dextera vidisti, et septem aureorum candelabrorum est hoc: Septem stellæ, angeli sunt septem ecclesiarum. Septem autem candelabra, quæ vidisti, septem ecclesiæ sunt.
+   - TR: τὸ μυστήριον τῶν ἑπτὰ ἀστέρων ὧν εἶδες ἐπὶ τῆς δεξιᾶς μου, καὶ τὰς ἑπτὰ λυχνίας τὰς χρυσᾶς. Οἱ ἑπτὰ ἀστέρες ἄγγελοι τῶν ἑπτὰ ἐκκλησιῶν εἰσί· καὶ αἱ ἑπτὰ λυχνίαι ἃς εἶδες ἑπτὰ ἐκκλησίαι εἰσί.
+   - SBLGNT: τὸ μυστήριον τῶν ἑπτὰ ἀστέρων οὓς εἶδες ἐπὶ τῆς δεξιᾶς μου, καὶ τὰς ἑπτὰ λυχνίας τὰς χρυσᾶς· οἱ ἑπτὰ ἀστέρες ἄγγελοι τῶν ἑπτὰ ἐκκλησιῶν εἰσίν, καὶ αἱ λυχνίαι αἱ ἑπτὰ ἑπτὰ ἐκκλησίαι εἰσίν.
+   - Vulgate: Sacramentum septem stellarum, quas vidisti in dextera mea, et septem candelabra aurea: septem stellæ, angeli sunt septem ecclesiarum: et candelabra septem, septem ecclesiæ sunt.
+   - BSB: This is the mystery of the seven stars you saw in My right hand and of the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands are the seven churches.
+   - WEB: The mystery of the seven stars which you saw in my right hand, and the seven golden lamp stands is this: The seven stars are the angels of the seven assemblies. The seven lamp stands are seven assemblies.
+- **2:1** substitute (name): SBLGNT *εν εφεσω* ] TR *εφεσινης*
+   - Latin: “Ephesīnæ ecclēsiæ angelō sīc scrībitō: Hæc dīcit, quī septem stēllās suā dextrā tenet, quī in mediō septem aureōrum candēlābrōrum ambulat:
+   - 1573: Ephesinæ Ecclesiæ angelo sic scribito: Hæc dicit qui septem stellas sua dextera tenet, qui in medio septem aureorum candelabrorum ambulat.
+   - TR: Τῷ ἀγγέλῳ τῆς Ἐφεσίνης ἐκκλησίας γράψον, Τάδε λέγει ὁ κρατῶν τοὺς ἑπτὰ ἀστέρας ἐν τῇ δεξιᾷ αὐτοῦ, ὁ περιπατῶν ἐν μέσῳ τῶν ἑπτὰ λυχνιῶν τῶν χρυσῶν·
+   - SBLGNT: Τῷ ἀγγέλῳ τῆς ἐν Ἐφέσῳ ἐκκλησίας γράψον· Τάδε λέγει ὁ κρατῶν τοὺς ἑπτὰ ἀστέρας ἐν τῇ δεξιᾷ αὐτοῦ, ὁ περιπατῶν ἐν μέσῳ τῶν ἑπτὰ λυχνιῶν τῶν χρυσῶν·
+   - Vulgate: Angelo Ephesi ecclesiæ scribe: Hæc dicit, qui tenet septem stellas in dextera sua, qui ambulat in medio septem candelabrorum aureorum:
+   - BSB: “To the angel of the church in Ephesus write: These are the words of Him who holds the seven stars in His right hand and walks among the seven golden lampstands.
+   - WEB: “To the angel of the assembly in Ephesus write: “He who holds the seven stars in his right hand, he who walks among the seven golden lamp stands says these things:
+- **2:2** substitute (word): SBLGNT *λεγοντας εαυτους* ] TR *φασκοντας ειναι*
+   - Latin: Novī tua facta, labōrem, et patientiam, utque malōs ferre nequeās: et eōs explōrāverīs, quī sē profitentur apostolōs, nec sunt, quōs tū falsōs dēprehendistī.
+   - 1573: Noui tua facta, laborem, et patientiam, vtque malos ferre nequeas: et eos exploraueris, qui se profitentur apostolos, nec sunt: quos tu falsos deprehendisti,
+   - TR: Οἶδα τὰ ἔργα σου, καὶ τὸν κόπον σου, καὶ τὴν ὑπομονήν σου, καὶ ὅτι οὐ δύνῃ βαστάσαι κακούς, καὶ ἐπειράσω τοὺς φάσκοντας εἶναι ἀποστόλους καὶ οὐκ εἰσί, καὶ εὗρες αὐτοὺς ψευδεῖς,
+   - SBLGNT: Οἶδα τὰ ἔργα σου, καὶ τὸν κόπον καὶ τὴν ὑπομονήν σου, καὶ ὅτι οὐ δύνῃ βαστάσαι κακούς, καὶ ἐπείρασας τοὺς λέγοντας ἑαυτοὺς ἀποστόλους, καὶ οὐκ εἰσίν, καὶ εὗρες αὐτοὺς ψευδεῖς·
+   - Vulgate: Scio opera tua, et laborem, et patientiam tuam, et quia non potes sustinere malos: et tentasti eos, qui se dicunt apostolos esse, et non sunt: et invenisti eos mendaces:
+   - BSB: I know your deeds, your labor, and your perseverance. I know that you cannot tolerate those who are evil, and you have tested and exposed as liars those who falsely claim to be apostles.
+   - WEB: “I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false.
+- **2:3** add (word): SBLGNT *–* ] TR *+ και εβαστασας*; omit (word): SBLGNT *εβαστασας* ] TR *–*; add (word): SBLGNT *–* ] TR *+ κεκοπιακας*; substitute (word): SBLGNT *κεκοπιακες* ] TR *κεκμηκας*
+   - Latin: Et tolerāstī, patientiāque ūteris, et propter meum nōmen labōrās indēfessus.
+   - 1573: et tolerasti, patientiaque vteris, et propter meum nomen laboras indefessus.
+   - TR: καὶ ἐβάστασας καὶ ὑπομονὴν ἔχεις, καὶ διὰ τὸ ὄνομά μου κεκοπίακας καὶ οὐ κέκμηκας.
+   - SBLGNT: καὶ ὑπομονὴν ἔχεις, καὶ ἐβάστασας διὰ τὸ ὄνομά μου, καὶ οὐ κεκοπίακες.
+   - Vulgate: et patientiam habes, et sustinuisti propter nomen meum, et non defecisti.
+   - BSB: Without growing weary, you have persevered and endured many things for the sake of My name.
+   - WEB: You have perseverance and have endured for my name’s sake, and have not grown weary.
+- **2:5** substitute (word): SBLGNT *πεπτωκας* ] TR *εκπεπτωκας*
+   - Latin: Quamobrem mementō, unde exciderīs, et ad sānitātem redī, ac priōra opera facitō. Aliōquin adoriar tē brevī, tuumque candēlābrum ex suō locō trānsmovēbō, nisi ad sānitātem redieris.
+   - 1573: Quamobrem memento vnde excideris, et ad sanitatem redi, ac priora opera facito. Alioquin adoriar te breui, tuumque candelabrum ex suo loco transmouebo, nisi ad sanitatem redieris.
+   - TR: Μνημόνευε οὖν πόθεν ἐκπέπτωκας, καὶ μετανόησον, καὶ τὰ πρῶτα ἔργα ποίησον· εἰ δὲ μή, ἔρχομαί σοι ταχύ, καὶ κινήσω τὴν λυχνίαν σου ἐκ τοῦ τόπου αὐτῆς, ἐὰν μὴ μετανοήσῃς.
+   - SBLGNT: μνημόνευε οὖν πόθεν πέπτωκας, καὶ μετανόησον καὶ τὰ πρῶτα ἔργα ποίησον· εἰ δὲ μή, ἔρχομαί σοι, καὶ κινήσω τὴν λυχνίαν σου ἐκ τοῦ τόπου αὐτῆς, ἐὰν μὴ μετανοήσῃς.
+   - Vulgate: Memor esto itaque unde excideris: et age pœnitentiam, et prima opera fac: sin autem, venio tibi, et movebo candelabrum tuum de loco suo, nisi pœnitentiam egeris.
+   - BSB: Therefore, keep in mind how far you have fallen. Repent and perform the deeds you did at first. But if you do not repent, I will come to you and remove your lampstand from its place.
+   - WEB: Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent.
+- **2:7** substitute (word): SBLGNT *τω παραδεισω* ] TR *μεσω του παραδεισου*
+   - Latin: Quī habet aurem, audiat, quid Spīritus dīcat ecclēsiīs: victōrī dabō vēscī arbore vītæ, quæ in mediō est dīvīnī pōmāriī.
+   - 1573: Qui habet aurem, audiat quid spiritus dicat ecclesijs: Victori dabo vesci arbore vitæ, quæ in medio est diuini pomarij.
+   - TR: Ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις. Τῷ νικῶντι δώσω αὐτῷ φαγεῖν ἐκ τοῦ ξύλου τῆς ζωῆς, ὅ ἐστιν ἐν μέσῳ τοῦ παραδείσου τοῦ Θεοῦ.
+   - SBLGNT: ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις. τῷ νικῶντι δώσω αὐτῷ φαγεῖν ἐκ τοῦ ξύλου τῆς ζωῆς, ὅ ἐστιν ἐν τῷ παραδείσῳ τοῦ θεοῦ.
+   - Vulgate: Qui habet aurem, audiat quid Spiritus dicat ecclesiis: Vincenti dabo edere de ligno vitæ, quod est in paradiso Dei mei.
+   - BSB: He who has an ear, let him hear what the Spirit says to the churches. To the one who overcomes, I will grant the right to eat from the tree of life in the Paradise of God.
+   - WEB: He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes I will give to eat from the tree of life, which is in the Paradise of my God.
+- **2:8** omit (name): SBLGNT *εν σμυρνη* ] TR *–*; add (word): SBLGNT *–* ] TR *+ σμυρναιων*
+   - Latin: “Item angelō ecclēsiæ Smyrnæōrum scrībitō: Hæc dīcit prīmus et ultimus, quī fuit mortuus, et revīxit:
+   - 1573: Item angelo ecclesiæ Smyrnæorum scribito: Hæc dicit primus et vltimus, qui fuit mortuus et reuixit.
+   - TR: Καὶ τῷ ἀγγέλῳ τῆς ἐκκλησίας Σμυρναίων γράψον, Τάδε λέγει ὁ πρῶτος καὶ ὁ ἔσχατος, ὃς ἐγένετο νεκρὸς καὶ ἔζησεν·
+   - SBLGNT: Καὶ τῷ ἀγγέλῳ τῆς ἐν Σμύρνῃ ἐκκλησίας γράψον· Τάδε λέγει ὁ πρῶτος καὶ ὁ ἔσχατος, ὃς ἐγένετο νεκρὸς καὶ ἔζησεν·
+   - Vulgate: Et angelo Smyrnæ ecclesiæ scribe: Hæc dicit primus, et novissimus, qui fuit mortuus, et vivit:
+   - BSB: To the angel of the church in Smyrna write: These are the words of the First and the Last, who died and returned to life.
+   - WEB: “To the angel of the assembly in Smyrna write: “The first and the last, who was dead, and has come to life says these things:
+- **2:13** add (word): SBLGNT *–* ] TR *+ κατοικει*; omit (word): SBLGNT *κατοικει* ] TR *–*
+   - Latin: Novī tua facta, et ubi habitēs, ubi Satanæ solium est: tenēsque meum nōmen, nec meam fidem negāstī, etiam iīs temporibus, quibus Antipās, fīdus ille testis meus, apud vōs interfectus est, ubi Satanās habitat.
+   - 1573: Noui tua facta, et vbi habites, vbi Satanæ solium est: tenesque meum nomen, nec meam fidem negasti, etiam ijs temporibus, quibus Antipas, fidus ille testis meus, apud vos interfectus est, vbi Satanas habitat.
+   - TR: Οἶδα τὰ ἔργα σου καὶ ποῦ κατοικεῖς, ὅπου ὁ θρόνος τοῦ Σατανᾶ· καὶ κρατεῖς τὸ ὄνομά μου, καὶ οὐκ ἠρνήσω τὴν πίστιν μου καὶ ἐν ταῖς ἡμέραις ἐν αἷς Ἀντίπας ὁ μάρτυς μου, ὁ πιστός, ὃς ἀπεκτάνθη παρ᾿ ὑμῖν, ὅπου κατοικεῖ ὁ Σατανᾶς.
+   - SBLGNT: Οἶδα ποῦ κατοικεῖς, ὅπου ὁ θρόνος τοῦ Σατανᾶ, καὶ κρατεῖς τὸ ὄνομά μου, καὶ οὐκ ἠρνήσω τὴν πίστιν μου καὶ ἐν ταῖς ἡμέραις Ἀντιπᾶς, ὁ μάρτυς μου, ὁ πιστός μου, ὃς ἀπεκτάνθη παρʼ ὑμῖν, ὅπου ὁ Σατανᾶς κατοικεῖ.
+   - Vulgate: Scio ubi habitas, ubi sedes est Satanæ: et tenes nomen meum, et non negasti fidem meam. Et in diebus illis Antipas testis meus fidelis, qui occisus est apud vos ubi Satanas habitat.
+   - BSB: I know where you live, where the throne of Satan sits. Yet you have held fast to My name and have not denied your faith in Me, even in the day when My faithful witness Antipas was killed among you, where Satan dwells.
+   - WEB: “I know your works and where you dwell, where Satan’s throne is. You hold firmly to my name, and didn’t deny my faith in the days of Antipas my witness, my faithful one, who was killed among you, where Satan dwells.
+- **2:15** substitute (word): SBLGNT *ομοιως* ] TR *ο μισω*
+   - Latin: Item habēs tū īdem, quī Nīcolāītārum doctrīnam teneant, id quod ego ōdī.
+   - 1573: Item habes tu idem qui Nicolaitarum doctrinam teneant, id quod ego odi.
+   - TR: Οὕτως ἔχεις καὶ σὺ κρατοῦντας τὴν διδαχὴν τῶν Νικολαϊτῶν· ὃ μισῶ.
+   - SBLGNT: οὕτως ἔχεις καὶ σὺ κρατοῦντας τὴν διδαχὴν Νικολαϊτῶν ὁμοίως.
+   - Vulgate: ita habes et tu tenentes doctrinam Nicolaitarum.
+   - BSB: In the same way, some of you also hold to the teaching of the Nicolaitans.
+   - WEB: So also you likewise have some who hold to the teaching of the Nicolaitans.
+- **2:17** substitute (word): SBLGNT *οιδε* ] TR *εγνω*
+   - Latin: Quī habet aurem, audiat, quid Spīritus dīcat ecclēsiīs: victōrī dabō occultō manna vēscī: eīque dabō calculum album, et in calculō novum nōmen scrīptum, quod nūllus nōvit, nisi quī accipit.
+   - 1573: Qui habet aurem, audiat quid spiritus dicat ecclesijs: Victori dabo occultò manna vesci: eique dabo calculum album, et in calculo nouum nomen scriptum, quod nullus nouit, nisi qui accipit.
+   - TR: Ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις. Τῷ νικῶντι δώσω αὐτῷ φαγεῖν ἀπὸ τοῦ μάννα τοῦ κεκρυμμένου, καὶ δώσω αὐτῷ ψῆφον λευκήν, καὶ ἐπὶ τὴν ψῆφον ὄνομα καινὸν γεγραμμένον, ὃ οὐδεὶς ἔγνω εἰ μὴ ὁ λαμβάνων.
+   - SBLGNT: ὁ ἔχων οὖς ἀκουσάτω τί τὸ πνεῦμα λέγει ταῖς ἐκκλησίαις. τῷ νικῶντι δώσω αὐτῷ τοῦ μάννα τοῦ κεκρυμμένου, καὶ δώσω αὐτῷ ψῆφον λευκήν, καὶ ἐπὶ τὴν ψῆφον ὄνομα καινὸν γεγραμμένον ὃ οὐδεὶς οἶδεν εἰ μὴ ὁ λαμβάνων.
+   - Vulgate: Qui habet aurem, audiat quid Spiritus dicat ecclesiis: Vincenti dabo manna absconditum, et dabo illi calculum candidum: et in calculo nomen novum scriptum, quod nemo scit, nisi qui accipit.
+   - BSB: He who has an ear, let him hear what the Spirit says to the churches. To the one who overcomes, I will give the hidden manna. I will also give him a white stone inscribed with a new name, known only to the one who receives it.
+   - WEB: He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna, and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
+- **2:19** substitute (word): SBLGNT *πιστιν* ] TR *διακονιαν*; substitute (word): SBLGNT *διακονιαν* ] TR *πιστιν*
+   - Latin: Novī tua facta, et cāritātem, et administrātiōnem, et fidem, et patientiam, et postrēma plūra priōribus.
+   - 1573: Noui tua facta, et charitatem, et administrationem, et fidem, et patientiam, et postrema plura priorib.
+   - TR: Οἶδά σου τὰ ἔργα, καὶ τὴν ἀγάπην καὶ τὴν διακονίαν καὶ τὴν πίστιν καὶ τὴν ὑπομονήν σου, καὶ τὰ ἔργα σου, καὶ τὰ ἔσχατα πλείονα τῶν πρώτων.
+   - SBLGNT: Οἶδά σου τὰ ἔργα, καὶ τὴν ἀγάπην καὶ τὴν πίστιν καὶ τὴν διακονίαν καὶ τὴν ὑπομονήν σου, καὶ τὰ ἔργα σου τὰ ἔσχατα πλείονα τῶν πρώτων.
+   - Vulgate: Novi opera tua, et fidem, et caritatem tuam, et ministerium, et patientiam tuam, et opera tua novissima plura prioribus.
+   - BSB: I know your deeds—your love, your faith, your service, your perseverance—and your latter deeds are greater than your first.
+   - WEB: “I know your works, your love, faith, service, patient endurance, and that your last works are more than the first.
+- **2:20** add (word): SBLGNT *–* ] TR *+ ολιγα*; substitute (word): SBLGNT *αφεις* ] TR *εας*; substitute (name): SBLGNT *ιεζαβελ η λεγουσα* ] TR *ιεζαβηλ την λεγουσαν*; add (word): SBLGNT *–* ] TR *+ διδασκειν*; substitute (word): SBLGNT *διδασκει και πλανα τους* ] TR *πλανασθαι*; add (word): SBLGNT *–* ] TR *+ ειδωλοθυτα*; omit (word): SBLGNT *ειδωλοθυτα* ] TR *–*
+   - Latin: Sed habeō contrā tē pauca, quod mulierem Jezabēlem, quæ sē vātem esse dīcit, docēre sinis, servōsque meōs dēcipī, et scortārī, et deastrīs immolāta vēscī.
+   - 1573: Sed habeo contra te pauca, quòd mulierem Iesabelem, quæ se vatem esse dicit, docere sinis, seruosque meos decipi et scortari, et deastris immolata vesci.
+   - TR: Ἀλλ᾿ ἔχω κατὰ σοῦ ὀλίγα ὅτι ἐᾷς τὴν γυναῖκα Ἰεζαβήλ, τὴν λέγουσαν ἑαυτὴν προφῆτιν, διδάσκειν καὶ πλανᾶσθαι ἐμοὺς δούλους πορνεῦσαι καὶ εἰδωλόθυτα φαγεῖν.
+   - SBLGNT: ἀλλὰ ἔχω κατὰ σοῦ ὅτι ἀφεῖς τὴν γυναῖκα Ἰεζάβελ, ἡ λέγουσα ἑαυτὴν προφῆτιν, καὶ διδάσκει καὶ πλανᾷ τοὺς ἐμοὺς δούλους πορνεῦσαι καὶ φαγεῖν εἰδωλόθυτα.
+   - Vulgate: Sed habeo adversus te pauca: quia permittis mulierem Jezabel, quæ se dicit propheten, docere, et seducere servos meos, fornicari, et manducare de idolothytis.
+   - BSB: But I have this against you: You tolerate that woman Jezebel, who calls herself a prophetess. By her teaching she misleads My servants to be sexually immoral and to eat food sacrificed to idols.
+   - WEB: But I have this against you, that you tolerate your woman Jezebel, who calls herself a prophetess. She teaches and seduces my servants to commit sexual immorality and to eat things sacrificed to idols.
+- **2:21** omit (clause): SBLGNT *και ου θελει μετανοησαι* ] TR *–*; add (clause): SBLGNT *–* ] TR *+ και ου μετενοησε*
+   - Latin: Cui cum ego tempus dederim, quō ab impudīcitiā suā recēderet, nōn vult recēdere.
+   - 1573: Cui quum ego tempus dederim, quo ab impudicitia sua recederet, non vult recedere.
+   - TR: Καὶ ἔδωκα αὐτῇ χρόνον ἵνα μετανοήσῃ ἐκ τῆς πορνείας αὐτῆς, καὶ οὐ μετενόησεν.
+   - SBLGNT: καὶ ἔδωκα αὐτῇ χρόνον ἵνα μετανοήσῃ, καὶ οὐ θέλει μετανοῆσαι ἐκ τῆς πορνείας αὐτῆς.
+   - Vulgate: Et dedi illi tempus ut pœnitentiam ageret: et non vult pœnitere a fornicatione sua.
+   - BSB: Even though I have given her time to repent of her immorality, she is unwilling.
+   - WEB: I gave her time to repent, but she refuses to repent of her sexual immorality.
+- **2:22** add (word): SBLGNT *–* ] TR *+ εγω*
+   - Latin: Ego vērō eam in lectum, et cum eā adulterantēs in magnam calamitātem prōsternam, nisi ā suīs operibus dēstiterint.
+   - 1573: Ego verò eam in lectum, et cum ea adulterantes in magnam calamitatem prosternam, nisi à suis operibus destiterint:
+   - TR: Ἰδού, ἐγὼ βάλλω αὐτὴν εἰς κλίνην, καὶ τοὺς μοιχεύοντας μετ᾿ αὐτῆς εἰς θλίψιν μεγάλην, ἐὰν μὴ μετανοήσωσιν ἐκ τῶν ἔργων αὐτῶν.
+   - SBLGNT: ἰδοὺ βάλλω αὐτὴν εἰς κλίνην, καὶ τοὺς μοιχεύοντας μετʼ αὐτῆς εἰς θλῖψιν μεγάλην, ἐὰν μὴ μετανοήσωσιν ἐκ τῶν ἔργων αὐτῆς·
+   - Vulgate: Ecce mittam eam in lectum: et qui mœchantur cum ea, in tribulatione maxima erunt, nisi pœnitentiam ab operibus suis egerint.
+   - BSB: Behold, I will cast her onto a bed of sickness, and those who commit adultery with her will suffer great tribulation unless they repent of her deeds.
+   - WEB: Behold, I will throw her and those who commit adultery with her into a bed of great oppression, unless they repent of her works.
+- **2:23** substitute (word): SBLGNT *εραυνων* ] TR *ερευνων*
+   - Latin: Ejusque līberōs morte multābō, et efficiam, ut intellegant omnēs ecclēsiæ, eum esse mē, quī rēnēs et corda scrūter, et vōs prō suīs quemque factīs remūnerābor.
+   - 1573: eiusque liberos morte mulctabo: et efficiam, vt intelligant omnes ecclesiæ, eum esse me, qui renes et corda scruter, et vos pro suis quemque factis remunerabor.
+   - TR: Καὶ τὰ τέκνα αὐτῆς ἀποκτενῶ ἐν θανάτῳ· καὶ γνώσονται πᾶσαι αἱ ἐκκλησίαι ὅτι ἐγώ εἰμι ὁ ἐρευνῶν νεφροὺς καὶ καρδίας· καὶ δώσω ὑμῖν ἑκάστῳ κατὰ τὰ ἔργα ὑμῶν.
+   - SBLGNT: καὶ τὰ τέκνα αὐτῆς ἀποκτενῶ ἐν θανάτῳ· καὶ γνώσονται πᾶσαι αἱ ἐκκλησίαι ὅτι ἐγώ εἰμι ὁ ἐραυνῶν νεφροὺς καὶ καρδίας, καὶ δώσω ὑμῖν ἑκάστῳ κατὰ τὰ ἔργα ὑμῶν.
+   - Vulgate: Et filios ejus interficiam in morte, et scient omnes ecclesiæ, quia ego sum scrutans renes, et corda: et dabo unicuique vestrum secundum opera sua. Vobis autem dico,
+   - BSB: Then I will strike her children dead, and all the churches will know that I am the One who searches minds and hearts, and I will repay each of you according to your deeds.
+   - WEB: I will kill her children with Death, and all the assemblies will know that I am he who searches the minds and hearts. I will give to each one of you according to your deeds.
+- **2:24** substitute (word): SBLGNT *βαθεα* ] TR *βαθη*; substitute (word): SBLGNT *βαλλω* ] TR *βαλω*
+   - Latin: Vōbīs autem dīcō, reliquīsque Thyatīrēnsibus, quotquot hanc disciplīnam nōn habent, et quī Satanæ calliditātēs nōn nōrunt, ut ajunt: nōn impōnam vōbīs aliud onus:
+   - 1573: Vobis autem dico, reliquisque Thyatirensibus, quotquot hanc disciplinam non habent, et qui Satanæ calliditates non norunt, vt aiunt: non imponam vobis aliud onus:
+   - TR: Ὑμῖν δὲ λέγω καὶ λοιποῖς τοῖς ἐν Θυατείροις, ὅσοι οὐκ ἔχουσι τὴν διδαχὴν ταύτην, καὶ οἵτινες οὐκ ἔγνωσαν τὰ βάθη τοῦ Σατανᾶ, ὡς λέγουσιν, οὐ βαλῶ ἐφ᾿ ὑμᾶς ἄλλο βάρος.
+   - SBLGNT: ὑμῖν δὲ λέγω τοῖς λοιποῖς τοῖς ἐν Θυατείροις, ὅσοι οὐκ ἔχουσιν τὴν διδαχὴν ταύτην, οἵτινες οὐκ ἔγνωσαν τὰ βαθέα τοῦ Σατανᾶ, ὡς λέγουσιν, οὐ βάλλω ἐφʼ ὑμᾶς ἄλλο βάρος·
+   - Vulgate: et ceteris qui Thyatiræ estis: quicumque non habent doctrinam hanc, et qui non cognoverunt altitudines Satanæ, quemadmodum dicunt, non mittam super vos aliud pondus:
+   - BSB: But I say to the rest of you in Thyatira, who do not hold to her teaching and have not learned the so-called deep things of Satan: I will place no further burden upon you.
+   - WEB: But to you I say, to the rest who are in Thyatira—as many as don’t have this teaching, who don’t know what some call ‘the deep things of Satan’—to you I say, I am not putting any other burden on you.
+- **2:27** add (clause): SBLGNT *–* ] TR *+ ως καγω ειληφα παρα του πατρος μου*
+   - Latin: ut eōs virgā ferreā pāscat, quōmodo fictilia vāsa conteruntur, ut et ego ā Patre meō accēpī:
+   - 1573: vt eos virga ferrea pascat, quomodo fictilia vasa conteruntur, vt et ego à patre meo accepi:
+   - TR: καὶ ποιμανεῖ αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ· ὡς τὰ σκεύη τὰ κεραμικά, συντρίβεται· ὡς κἀγὼ εἴληφα παρὰ τοῦ πατρός μου·
+   - SBLGNT: καὶ ποιμανεῖ αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ ὡς τὰ σκεύη τὰ κεραμικὰ συντρίβεται,
+   - Vulgate: et reget eas in virga ferrea, et tamquam vas figuli confringentur,
+   - BSB: He will rule them with an iron scepter and shatter them like pottery —just as I have received authority from My Father.
+   - WEB: He will rule them with a rod of iron, shattering them like clay pots, as I also have received of my Father;
+- **2:28** omit (clause): SBLGNT *ως καγω ειληφα παρα του πατρος μου* ] TR *–*
+   - Latin: Eīque stēllam dabō mātūtīnam.
+   - 1573: eique stellam dabo matutinam.
+   - TR: καὶ δώσω αὐτῷ τὸν ἀστέρα τὸν πρωϊνόν.
+   - SBLGNT: ὡς κἀγὼ εἴληφα παρὰ τοῦ πατρός μου, καὶ δώσω αὐτῷ τὸν ἀστέρα τὸν πρωϊνόν.
+   - Vulgate: sicut et ego accepi a Patre meo: et dabo illi stellam matutinam.
+   - BSB: And I will give him the morning star.
+   - WEB: and I will give him the morning star.
+- **3:2** substitute (word): SBLGNT *εμελλον* ] TR *μελλει*
+   - Latin: Præstā tē vigilantem, et cētera moritūra cōnfirmā. Nōn enim invēnī tua opera ergā Deum officiōsa.
+   - 1573: Præsta te vigilantem, et cætera moritura confirma. Non enim inueni tua opera erga Deum officiosa.
+   - TR: Γίνου γρηγορῶν, καὶ στήριξον τὰ λοιπὰ ἃ μέλλει ἀποθανεῖν· οὐ γὰρ εὕρηκά σου τὰ ἔργα πεπληρωμένα ἐνώπιον τοῦ Θεοῦ.
+   - SBLGNT: γίνου γρηγορῶν, καὶ στήρισον τὰ λοιπὰ ἃ ἔμελλον ἀποθανεῖν, οὐ γὰρ εὕρηκά σου τὰ ἔργα πεπληρωμένα ἐνώπιον τοῦ θεοῦ μου·
+   - Vulgate: Esto vigilans, et confirma cetera, quæ moritura erant. Non enim invenio opera tua plena coram Deo meo.
+   - BSB: Wake up and strengthen what remains, which was about to die; for I have found your deeds incomplete in the sight of My God.
+   - WEB: Wake up and strengthen the things that remain, which you were about to throw away, for I have found no works of yours perfected before my God.
+- **3:5** substitute (word): SBLGNT *ομολογησω* ] TR *εξομολογησομαι*
+   - Latin: Quī vīcerit, is albīs induētur vestibus, nec ejus nōmen ex librō vītæ dēlēbō: et ejus nōmen cōram meō Patre, cōramque ejus angelīs, cōnfitēbor.
+   - 1573: Qui vicerit, is albis induetur vestibus, nec eius nomen ex libro vitæ delebo: et eius nomen coram meo patre, coramque eius angelis, confitebor.
+   - TR: Ὁ νικῶν, οὗτος περιβαλεῖται ἐν ἱματίοις λευκοῖς· καὶ οὐ μὴ ἐξαλείψω τὸ ὄνομα αὐτοῦ ἐκ τῆς βίβλου τῆς ζωῆς, καὶ ἐξομολογήσομαι τὸ ὄνομα αὐτοῦ ἐνώπιον τοῦ πατρός μου, καὶ ἐνώπιον τῶν ἀγγέλων αὐτοῦ.
+   - SBLGNT: ὁ νικῶν οὕτως περιβαλεῖται ἐν ἱματίοις λευκοῖς, καὶ οὐ μὴ ἐξαλείψω τὸ ὄνομα αὐτοῦ ἐκ τῆς βίβλου τῆς ζωῆς, καὶ ὁμολογήσω τὸ ὄνομα αὐτοῦ ἐνώπιον τοῦ πατρός μου καὶ ἐνώπιον τῶν ἀγγέλων αὐτοῦ.
+   - Vulgate: Qui vicerit, sic vestietur vestimentis albis, et non delebo nomen ejus de libro vitæ, et confitebor nomen ejus coram Patre meo, et coram angelis ejus.
+   - BSB: Like them, he who overcomes will be dressed in white. And I will never blot out his name from the Book of Life, but I will confess his name before My Father and His angels.
+   - WEB: He who overcomes will be arrayed in white garments, and I will in no way blot his name out of the book of life, and I will confess his name before my Father, and before his angels.
+- **3:7** substitute (name): SBLGNT *κλειν δαυιδ* ] TR *κλειδα του δαβιδ*
+   - Latin: “Item angelō Philadelphiēnsis ecclēsiæ scrībitō: Hæc dīcit sānctus, vērus, quī Dāvīdis clāvem habet, quō aperiente nūllus claudit, claudente nūllus aperit:
+   - 1573: Item angelo Philadelphiensis ecclesiæ scribito: Hæc dicit sanctus, verus, qui Dauidis clauem habet, quo aperiente nullus claudit, claudente nullus aperit.
+   - TR: Καὶ τῷ ἀγγέλῳ τῆς ἐν Φιλαδελφείᾳ ἐκκλησίας γράψον, Τάδε λέγει ὁ ἅγιος, ὁ ἀληθινός, ὁ ἔχων τὴν κλεῖδα τοῦ Δαβίδ, ὁ ἀνοίγων καὶ οὐδεὶς κλείει, καὶ κλείει καὶ οὐδεὶς ἀνοίγει.
+   - SBLGNT: Καὶ τῷ ἀγγέλῳ τῆς ἐν Φιλαδελφείᾳ ἐκκλησίας γράψον· Τάδε λέγει ὁ ἅγιος, ὁ ἀληθινός, ὁ ἔχων τὴν κλεῖν Δαυίδ, ὁ ἀνοίγων καὶ οὐδεὶς κλείσει, καὶ κλείων καὶ οὐδεὶς ἀνοίγει·
+   - Vulgate: Et angelo Philadelphiæ ecclesiæ scribe: Hæc dicit Sanctus et Verus, qui habet clavem David: qui aperit, et nemo claudit: claudit, et nemo aperit:
+   - BSB: To the angel of the church in Philadelphia write: These are the words of the One who is holy and true, who holds the key of David. What He opens no one can shut, and what He shuts no one can open.
+   - WEB: “To the angel of the assembly in Philadelphia write: “He who is holy, he who is true, he who has the key of David, he who opens and no one can shut, and who shuts and no one opens, says these things:
+- **3:8** substitute (word): SBLGNT *ηνεωγμενην ην* ] TR *ανεωγμενην και*
+   - Latin: Novī tua facta. Ego tibi apertam prōposuī portam, quam claudere nūllus queat: quoniam exiguās vīrēs habēns, meīs dictīs pāruistī, neque meum nōmen negāstī.
+   - 1573: Noui tua facta. Ego tibi apertam proposui portam, quam claudere nullus queat: quoniam exiguas vires habens, meis dictis paruisti, neque meum nomen negasti.
+   - TR: Οἶδά σου τὰ ἔργα· ἰδού, δέδωκα ἐνώπιόν σου θύραν ἀνεῳγμένην, καὶ οὐδεὶς δύναται κλεῖσαι αὐτήν, ὅτι μικρὰν ἔχεις δύναμιν, καὶ ἐτήρησάς μου τὸν λόγον, καὶ οὐκ ἠρνήσω τὸ ὄνομά μου.
+   - SBLGNT: Οἶδά σου τὰ ἔργα— ἰδοὺ δέδωκα ἐνώπιόν σου θύραν ἠνεῳγμένην, ἣν οὐδεὶς δύναται κλεῖσαι αὐτήν— ὅτι μικρὰν ἔχεις δύναμιν, καὶ ἐτήρησάς μου τὸν λόγον, καὶ οὐκ ἠρνήσω τὸ ὄνομά μου.
+   - Vulgate: Scio opera tua. Ecce dedi coram te ostium apertum, quod nemo potest claudere: quia modicam habes virtutem, et servasti verbum meum, et non negasti nomen meum.
+   - BSB: I know your deeds. See, I have placed before you an open door, which no one can shut. For you have only a little strength, yet you have kept My word and have not denied My name.
+   - WEB: “I know your works (behold, I have set before you an open door, which no one can shut), that you have a little power, and kept my word, and didn’t deny my name.
+- **3:14** omit (name): SBLGNT *εν λαοδικεια* ] TR *–*; add (name): SBLGNT *–* ] TR *+ λαοδικεων*
+   - Latin: “Item angelō Lāodicēnsis ecclēsiæ scrībitō: Hæc dīcit Āmēn, testis fīdus atque vērus, opificiī Deī caput.
+   - 1573: Item angelo Laodicensis ecclesiæ scribito: Hæc dicit, Amen, testis fidus atque verus, opificij Dei caput.
+   - TR: Καὶ τῷ ἀγγέλῳ τῆς ἐκκλησίας Λαοδικέων γράψον, Τάδε λέγει ὁ Ἀμήν, ὁ μάρτυς ὁ πιστὸς καὶ ἀληθινός, ἡ ἀρχὴ τῆς κτίσεως τοῦ Θεοῦ·
+   - SBLGNT: Καὶ τῷ ἀγγέλῳ τῆς ἐν Λαοδικείᾳ ἐκκλησίας γράψον· Τάδε λέγει ὁ Ἀμήν, ὁ μάρτυς ὁ πιστὸς καὶ ἀληθινός, ἡ ἀρχὴ τῆς κτίσεως τοῦ θεοῦ·
+   - Vulgate: Et angelo Laodiciæ ecclesiæ scribe: Hæc dicit: Amen, testis fidelis et verus, qui est principium creaturæ Dei.
+   - BSB: To the angel of the church in Laodicea write: These are the words of the Amen, the faithful and true Witness, the Originator of God’s creation.
+   - WEB: “To the angel of the assembly in Laodicea write: “The Amen, the Faithful and True Witness, the Beginning of God’s creation, says these things:
+- **3:15** substitute (word): SBLGNT *ης* ] TR *ειης*
+   - Latin: Novī tua facta, quī neque frīgidus sīs, neque fervidus. Utinam aut frīgidus essēs, aut fervidus.
+   - 1573: Noui tua facta, qui neque frigidus sis, neque feruidus. Vtinam aut frigidus esses, aut feruidus.
+   - TR: Οἶδά σου τὰ ἔργα, ὅτι οὔτε ψυχρὸς εἶ οὔτε ζεστός· ὄφελον ψυχρὸς εἴης ἢ ζεστός.
+   - SBLGNT: Οἶδά σου τὰ ἔργα, ὅτι οὔτε ψυχρὸς εἶ οὔτε ζεστός. ὄφελον ψυχρὸς ἦς ἢ ζεστός.
+   - Vulgate: Scio opera tua: quia neque frigidus es, neque calidus: utinam frigidus esses, aut calidus:
+   - BSB: I know your deeds; you are neither cold nor hot. How I wish you were one or the other!
+   - WEB: “I know your works, that you are neither cold nor hot. I wish you were cold or hot.
+- **3:16** add (word): SBLGNT *–* ] TR *+ ψυχρος ουτε*; omit (word): SBLGNT *ουτε ψυχρος* ] TR *–*
+   - Latin: Ergō quia tepidus es, neque frīgidus, neque fervidus, ēvomam tē ex ōre meō:
+   - 1573: Ergo quia tepidus es, neque frigidus, neque feruidus, euomam te ex ore meo:
+   - TR: Οὕτως ὅτι χλιαρὸς εἶ, καὶ οὔτε ψυχρὸς οὔτε ζεστός, μέλλω σε ἐμέσαι ἐκ τοῦ στόματός μου.
+   - SBLGNT: οὕτως, ὅτι χλιαρὸς εἶ καὶ οὔτε ζεστὸς οὔτε ψυχρός, μέλλω σε ἐμέσαι ἐκ τοῦ στόματός μου.
+   - Vulgate: sed quia tepidus es, et nec frigidus, nec calidus, incipiam te evomere ex ore meo:
+   - BSB: So because you are lukewarm—neither hot nor cold—I am about to vomit you out of My mouth!
+   - WEB: So, because you are lukewarm, and neither hot nor cold, I will vomit you out of my mouth.
+- **4:1** substitute (word): SBLGNT *λεγων* ] TR *λεγουσα*
+   - Latin: Posteā animadvertī apertam in cælō portam, vōxque illa prīma (quam perinde ac sī mēcum tuba loquerētur, audieram) dīxit: “Ascende hūc, et tibi ostendam, quæ posthāc futūra sunt.”
+   - 1573: Postea animaduerti apertam in cœlo portam, voxque illa prima (quam perinde ac si mecum tuba loqueretur, audiueram) dixit: Ascende huc, et tibi ostendam quæ posthac futura sunt.
+   - TR: Μετὰ ταῦτα εἶδον, καὶ ἰδού, θύρα ἠνεῳγμένη ἐν τῷ οὐρανῷ, καὶ ἡ φωνὴ ἡ πρώτη ἣν ἤκουσα ὡς σάλπιγγος λαλούσης μετ᾿ ἐμοῦ, λέγουσα, Ἀνάβα ὧδε, καὶ δείξω σοι ἃ δεῖ γενέσθαι μετὰ ταῦτα.
+   - SBLGNT: Μετὰ ταῦτα εἶδον, καὶ ἰδοὺ θύρα ἠνεῳγμένη ἐν τῷ οὐρανῷ, καὶ ἡ φωνὴ ἡ πρώτη ἣν ἤκουσα ὡς σάλπιγγος λαλούσης μετʼ ἐμοῦ, λέγων· Ἀνάβα ὧδε, καὶ δείξω σοι ἃ δεῖ γενέσθαι. μετὰ ταῦτα
+   - Vulgate: Post hæc vidi: et ecce ostium apertum in cælo, et vox prima, quam audivi tamquam tubæ loquentis mecum, dicens: Ascende huc, et ostendam tibi quæ oportet fieri post hæc.
+   - BSB: After this I looked and saw a door standing open in heaven. And the voice I had previously heard speak to me like a trumpet was saying, “Come up here, and I will show you what must happen after these things.”
+   - WEB: After these things I looked and saw a door opened in heaven; and the first voice that I heard, like a trumpet speaking with me, was one saying, “Come up here, and I will show you the things which must happen after this.”
+- **4:2** substitute (word): SBLGNT *τον θρονον* ] TR *του θρονου*
+   - Latin: Hīc ego continuō dīvīnitus afflātus, videō positum in cælō solium, et in soliō sedentem quendam,
+   - 1573: Hîc ego continuo diuinitus afflatus, video positum in cœlo solium, et in solio sedentem quendam,
+   - TR: Καὶ εὐθέως ἐγενόμην ἐν πνεύματι· καὶ ἰδού, θρόνος ἔκειτο ἐν τῷ οὐρανῷ, καὶ ἐπὶ τοῦ θρόνου καθήμενος·
+   - SBLGNT: εὐθέως ἐγενόμην ἐν πνεύματι· καὶ ἰδοὺ θρόνος ἔκειτο ἐν τῷ οὐρανῷ, καὶ ἐπὶ τὸν θρόνον καθήμενος,
+   - Vulgate: Et statim fui in spiritu: et ecce sedes posita erat in cælo, et supra sedem sedens.
+   - BSB: At once I was in the Spirit, and I saw a throne standing in heaven, with someone seated on it.
+   - WEB: Immediately I was in the Spirit. Behold, there was a throne set in heaven, and one sitting on the throne
+- **4:3** add (word): SBLGNT *–* ] TR *+ ην*
+   - Latin: quī sedēns aspectū similis erat jaspidī gemmæ, et sardiō. Solium circumdabat īris, aspectū smaragdum referēns:
+   - 1573: qui sedens, aspectu similis erat iaspidi gemmæ, et sardio. Solium circundabat iris, aspectu smaragdum referens:
+   - TR: καὶ ὁ καθήμενος ἦν ὅμοιος ὁράσει λίθῳ ἰάσπιδι καὶ σαρδίνῳ· καὶ ἶρις κυκλόθεν τοῦ θρόνου ὁμοία ὁράσει σμαραγδίνῳ.
+   - SBLGNT: καὶ ὁ καθήμενος ὅμοιος ὁράσει λίθῳ ἰάσπιδι καὶ σαρδίῳ, καὶ ἶρις κυκλόθεν τοῦ θρόνου ὅμοιος ὁράσει σμαραγδίνῳ.
+   - Vulgate: Et qui sedebat similis erat aspectui lapidis jaspidis, et sardinis: et iris erat in circuitu sedis similis visioni smaragdinæ.
+   - BSB: The One seated there looked like jasper and carnelian, and a rainbow that gleamed like an emerald encircled the throne.
+   - WEB: that looked like a jasper stone and a sardius. There was a rainbow around the throne, like an emerald to look at.
+- **4:4** add (word): SBLGNT *–* ] TR *+ ειδον τους*; add (word): SBLGNT *–* ] TR *+ εσχον*
+   - Latin: Idemque solium circumstābant vīgintī quattuor solia, in quibus soliīs vīdī sedentēs vīgintī quattuor senātōrēs, vestibus indūtōs candidīs, quī in capitibus corōnās habēbant aureās.
+   - 1573: idemque solium circumstabant viginti quatuor solia, in quibus solijs vidi sedentes viginti quatuor senatores, vestibus indutos candidis, qui in capitibus coronas habebant aureas.
+   - TR: Καὶ κυκλόθεν τοῦ θρόνου θρόνοι εἴκοσι καὶ τέσσαρες· καὶ ἐπὶ τοὺς θρόνους εἶδον τοὺς εἴκοσι καὶ τέσσαρας πρεσβυτέρους καθημένους, περιβεβλημένους ἐν ἱματίοις λευκοῖς, καὶ ἔσχον ἐπὶ τὰς κεφαλὰς αὐτῶν στεφάνους χρυσοῦς.
+   - SBLGNT: καὶ κυκλόθεν τοῦ θρόνου θρόνοι εἴκοσι τέσσαρες, καὶ ἐπὶ τοὺς θρόνους εἴκοσι τέσσαρας πρεσβυτέρους καθημένους περιβεβλημένους ἐν ἱματίοις λευκοῖς, καὶ ἐπὶ τὰς κεφαλὰς αὐτῶν στεφάνους χρυσοῦς.
+   - Vulgate: Et in circuitu sedis sedilia viginti quatuor: et super thronos viginti quatuor seniores sedentes, circumamicti vestimentis albis, et in capitibus eorum coronæ aureæ.
+   - BSB: Surrounding the throne were twenty-four other thrones, and on these thrones sat twenty-four elders dressed in white, with golden crowns on their heads.
+   - WEB: Around the throne were twenty-four thrones. On the thrones were twenty-four elders sitting, dressed in white garments, with crowns of gold on their heads.
+- **4:5** add (word): SBLGNT *–* ] TR *+ βρονται και*; omit (word): SBLGNT *και βρονται* ] TR *–*
+   - Latin: Ex soliō prōdībant fulgura, et tonitrua, et fragōrēs, et septem facēs igneæ, et ante solium ārdentēs, quæ sunt septem Deī spīritūs.
+   - 1573: Ex solio prodibant fulgura, et tonitrua, et fragores, et septem faces igneæ, et ante solium ardentes, quæ sunt septem Dei spiritus.
+   - TR: Καὶ ἐκ τοῦ θρόνου ἐκπορεύονται ἀστραπαὶ καὶ βρονταὶ καὶ φωναί. Καὶ ἑπτὰ λαμπάδες πυρὸς καιόμεναι ἐνώπιον τοῦ θρόνου, αἵ εἰσι τὰ ἑπτὰ πνεύματα τοῦ Θεοῦ·
+   - SBLGNT: καὶ ἐκ τοῦ θρόνου ἐκπορεύονται ἀστραπαὶ καὶ φωναὶ καὶ βρονταί· καὶ ἑπτὰ λαμπάδες πυρὸς καιόμεναι ἐνώπιον τοῦ θρόνου, ἅ εἰσιν τὰ ἑπτὰ πνεύματα τοῦ θεοῦ,
+   - Vulgate: Et de throno procedebant fulgura, et voces, et tonitrua: et septem lampades ardentes ante thronum, qui sunt septem spiritus Dei.
+   - BSB: From the throne came flashes of lightning, and rumblings, and peals of thunder. Before the throne burned seven torches of fire. These are the seven Spirits of God.
+   - WEB: Out of the throne proceed lightnings, sounds, and thunders. There were seven lamps of fire burning before his throne, which are the seven Spirits of God.
+- **4:7** substitute (word): SBLGNT *πετομενω* ] TR *πετωμενω*
+   - Latin: Prīmum animal erat leōnī simile: alterum animal erat vitulō simile: tertium animal faciem habēbat hominis: quārtum animal simile erat aquilæ volantī.
+   - 1573: Primum animal erat leoni simile: alterum animal erat vitulo simile: tertium animal faciem habebat hominis: quartum animal simile erat aquilæ volanti.
+   - TR: Καὶ τὸ ζῷον τὸ πρῶτον ὅμοιον λέοντι, καὶ τὸ δεύτερον ζῷον ὅμοιον μόσχῳ, καὶ τὸ τρίτον ζῷον ἔχον τὸ πρόσωπον ὡς ἄνθρωπος, καὶ τὸ τέταρτον ζῷον ὅμοιον ἀετῷ πετωμένῳ.
+   - SBLGNT: καὶ τὸ ζῷον τὸ πρῶτον ὅμοιον λέοντι, καὶ τὸ δεύτερον ζῷον ὅμοιον μόσχῳ, καὶ τὸ τρίτον ζῷον ἔχων τὸ πρόσωπον ὡς ἀνθρώπου, καὶ τὸ τέταρτον ζῷον ὅμοιον ἀετῷ πετομένῳ·
+   - Vulgate: Et animal primum simile leoni, et secundum animal simile vitulo, et tertium animal habens faciem quasi hominis, et quartum animal simile aquilæ volanti.
+   - BSB: The first living creature was like a lion, the second like a calf, the third had a face like a man, and the fourth was like an eagle in flight.
+   - WEB: The first creature was like a lion, the second creature like a calf, the third creature had a face like a man, and the fourth was like a flying eagle.
+- **4:8** substitute (word): SBLGNT *εν αυτων εχων* ] TR *εαυτο ειχον*
+   - Latin: Hæc quattuor animālia habēbant singula sēnās ālās per circuitum, et intus erant oculīs referta. Ea sine ūllā intermissiōne diēs et noctēs dīcunt: “Sānctus, sānctus, sānctus Dominus Deus armipotēns, quī fuit, quī est, et quī ventūrus est.”
+   - 1573: Hæc quatuor animalia habebant singula senas alas, per circuitum, et intus erant oculis referta. Ea sine vlla intermissione dies, et noctes dicunt SANCTVS, SANCTVS, SANCTVS Dominus Deus armipotens, qui fuit, qui est, et qui venturus est.
+   - TR: Καὶ τέσσαρα ζῷα, ἓν καθ᾿ ἑαυτὸ εἶχον ἀνὰ πτέρυγας ἓξ κυκλόθεν, καὶ ἔσωθεν γέμοντα ὀφθαλμῶν, καὶ ἀνάπαυσιν οὐκ ἔχουσιν ἡμέρας καὶ νυκτός, λέγοντα, Ἅγιος, ἅγιος, ἅγιος, Κύριος ὁ Θεὸς ὁ παντοκράτωρ, ὁ ἦν καὶ ὁ ὢν καὶ ὁ ἐρχόμενος.
+   - SBLGNT: καὶ τὰ τέσσαρα ζῷα, ἓν καθʼ ἓν αὐτῶν ἔχων ἀνὰ πτέρυγας ἕξ, κυκλόθεν καὶ ἔσωθεν γέμουσιν ὀφθαλμῶν· καὶ ἀνάπαυσιν οὐκ ἔχουσιν ἡμέρας καὶ νυκτὸς λέγοντες· Ἅγιος ἅγιος ἅγιος κύριος, ὁ θεός, ὁ παντοκράτωρ, ὁ ἦν καὶ ὁ ὢν καὶ ὁ ἐρχόμενος.
+   - Vulgate: Et quatuor animalia, singula eorum habebant alas senas: et in circuitu, et intus plena sunt oculis: et requiem non habebant die ac nocte, dicentia: Sanctus, Sanctus, Sanctus Dominus Deus omnipotens, qui erat, et qui est, et qui venturus est.
+   - BSB: And each of the four living creatures had six wings and was covered with eyes all around and within. Day and night they never stop saying: “Holy, Holy, Holy, is the Lord God Almighty, who was and is and is to come!”
+   - WEB: The four living creatures, each one of them having six wings, are full of eyes around and within. They have no rest day and night, saying, “Holy, holy, holy is the Lord God, the Almighty, who was and who is and who is to come!”
+- **4:10** substitute (word): SBLGNT *βαλουσι* ] TR *βαλλουσι*
+   - Latin: Prōcumbunt vīgintī quattuor senātōrēs ante sedentem in soliō, et adōrant vīventem in perennia sæcula, abjiciuntque suās corōnās ante solium, dīcentēs:
+   - 1573: procumbunt viginti quatuor senatores ante sedentem in solio, et adorant viuentem in perennia secula, abijciuntque suas coronas ante solium, dicentes:
+   - TR: πεσοῦνται οἱ εἴκοσι καὶ τέσσαρες πρεσβύτεροι ἐνώπιον τοῦ καθημένου ἐπὶ τοῦ θρόνου, καὶ προσκυνοῦσι τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων, καὶ βάλλουσι τοὺς στεφάνους αὐτῶν ἐνώπιον τοῦ θρόνου, λέγοντες,
+   - SBLGNT: πεσοῦνται οἱ εἴκοσι τέσσαρες πρεσβύτεροι ἐνώπιον τοῦ καθημένου ἐπὶ τοῦ θρόνου, καὶ προσκυνήσουσιν τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων, καὶ βαλοῦσιν τοὺς στεφάνους αὐτῶν ἐνώπιον τοῦ θρόνου, λέγοντες·
+   - Vulgate: procidebant viginti quatuor seniores ante sedentem in throno, et adorabant viventem in sæcula sæculorum, et mittebant coronas suas ante thronum, dicentes:
+   - BSB: the twenty-four elders fall down before the One seated on the throne, and they worship Him who lives forever and ever. They cast their crowns before the throne, saying:
+   - WEB: the twenty-four elders fall down before him who sits on the throne and worship him who lives forever and ever, and throw their crowns before the throne, saying,
+- **4:11** substitute (word): SBLGNT *ο κυριος και ο θεος ημων* ] TR *κυριε*; substitute (word): SBLGNT *ησαν* ] TR *εισι*
+   - Latin: “Dignus es, Domine, quī glōriam, et honōrem, et potestātem accipiās, quoniam tū omnia condidistī, eaque tuā voluntāte et sunt, et condita sunt.”
+   - 1573: Dignus es, Domine, qui gloriam et honorem, et potestatem accipias, quoniam tu omnia condidisti, eaque tua voluntate et sunt, et condita sunt.
+   - TR: Ἄξιος εἶ, Κύριε, λαβεῖν τὴν δόξαν καὶ τὴν τιμὴν καὶ τὴν δύναμιν· ὅτι σὺ ἔκτισας τὰ πάντα, καὶ διὰ τὸ θέλημά σου εἰσὶ καὶ ἐκτίσθησαν.
+   - SBLGNT: Ἄξιος εἶ, ὁ κύριος καὶ ὁ θεὸς ἡμῶν, λαβεῖν τὴν δόξαν καὶ τὴν τιμὴν καὶ τὴν δύναμιν, ὅτι σὺ ἔκτισας τὰ πάντα, καὶ διὰ τὸ θέλημά σου ἦσαν καὶ ἐκτίσθησαν.
+   - Vulgate: Dignus es Domine Deus noster accipere gloriam, et honorem, et virtutem: quia tu creasti omnia, et propter voluntatem tuam erant, et creata sunt.
+   - BSB: “Worthy are You, our Lord and God, to receive glory and honor and power, for You created all things; by Your will they exist and came to be.”
+   - WEB: “Worthy are you, our Lord and God, the Holy One, to receive the glory, the honor, and the power, for you created all things, and because of your desire they existed and were created!”
+- **5:3** substitute (word): SBLGNT *εδυνατο* ] TR *ηδυνατο*
+   - Latin: Sed nūllus nec in cælō, nec in terrā, nec sub terrā, librum aperīre aut īnspicere poterat.
+   - 1573: Sed nullus nec in cœlo, nec in terra, nec sub terra, librum aperire aut inspicere poterat.
+   - TR: Καὶ οὐδεὶς ἠδύνατο ἐν τῷ οὐρανῷ, οὐδὲ ἐπὶ τῆς γῆς, οὐδὲ ὑποκάτω τῆς γῆς, ἀνοῖξαι τὸ βιβλίον, οὐδὲ βλέπειν αὐτό.
+   - SBLGNT: καὶ οὐδεὶς ἐδύνατο ἐν τῷ οὐρανῷ οὐδὲ ἐπὶ τῆς γῆς οὐδὲ ὑποκάτω τῆς γῆς ἀνοῖξαι τὸ βιβλίον οὔτε βλέπειν αὐτό.
+   - Vulgate: Et nemo poterat neque in cælo, neque in terra, neque subtus terram aperire librum, neque respicere illum.
+   - BSB: But no one in heaven or on earth or under the earth was able to open the scroll or look inside it.
+   - WEB: No one in heaven above, or on the earth, or under the earth, was able to open the book or to look in it.
+- **5:4** substitute (word): SBLGNT *πολυ* ] TR *πολλα*; add (word): SBLGNT *–* ] TR *+ και αναγνωναι*
+   - Latin: Ego vērō multum plōrāre, quod nūllus inventus esset dignus, quī librum aperīret, et legeret, aut īnspiceret.
+   - 1573: Ego verò multum plorare, quòd nullus inuentus esset dignus qui librum aperiret, et legeret, aut inspiceret.
+   - TR: Καὶ ἐγὼ ἔκλαιον πολλά, ὅτι οὐδεὶς ἄξιος εὑρέθη ἀνοῖξαι καὶ ἀναγνῶναι τὸ βιβλίον, οὔτε βλέπειν αὐτό.
+   - SBLGNT: καὶ ἐγὼ ἔκλαιον πολὺ ὅτι οὐδεὶς ἄξιος εὑρέθη ἀνοῖξαι τὸ βιβλίον οὔτε βλέπειν αὐτό·
+   - Vulgate: Et ego flebam multum, quoniam nemo dignus inventus est aperire librum, nec videre eum.
+   - BSB: And I began to weep bitterly, because no one was found worthy to open the scroll or look inside it.
+   - WEB: Then I wept much, because no one was found worthy to open the book or to look in it.
+- **5:5** add (word): SBLGNT *–* ] TR *+ ων*; substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*; add (word): SBLGNT *–* ] TR *+ λυσαι*
+   - Latin: Tum senātōrum quīdam mē alloquēns: “Nē plōrā,” inquit, “ēn vīcit leō, quī est ex tribū Jūdæ, Dāvīdica stirps, quī librum aperiat, ejusque septem sigilla reseret.”
+   - 1573: Tum senatorum quidam me alloquens: Ne plora, inquit: en vicit leo qui est ex tribu Iudæ, Dauidica stirps, qui librum aperiat, eiusque septem sigilla reseret.
+   - TR: Καὶ εἷς ἐκ τῶν πρεσβυτέρων λέγει μοι, Μὴ κλαῖε· ἰδού, ἐνίκησεν ὁ λέων ὁ ὢν ἐκ τῆς φυλῆς Ἰούδα, ἡ ῥίζα Δαβίδ, ἀνοῖξαι τὸ βιβλίον καὶ λῦσαι τὰς ἑπτὰ σφραγῖδας αὐτοῦ.
+   - SBLGNT: καὶ εἷς ἐκ τῶν πρεσβυτέρων λέγει μοι· Μὴ κλαῖε· ἰδοὺ ἐνίκησεν ὁ λέων ὁ ἐκ τῆς φυλῆς Ἰούδα, ἡ ῥίζα Δαυίδ, ἀνοῖξαι τὸ βιβλίον καὶ τὰς ἑπτὰ σφραγῖδας αὐτοῦ.
+   - Vulgate: Et unus de senioribus dixit mihi: Ne fleveris: ecce vicit leo de tribu Juda, radix David, aperire librum, et solvere septem signacula ejus.
+   - BSB: Then one of the elders said to me, “Do not weep! Behold, the Lion of the tribe of Judah, the Root of David, has triumphed to open the scroll and its seven seals.”
+   - WEB: One of the elders said to me, “Don’t weep. Behold, the Lion who is of the tribe of Judah, the Root of David, has overcome: he who opens the book and its seven seals.”
+- **5:6** omit (word): SBLGNT *πνευματα* ] TR *–*; substitute (word): SBLGNT *απεσταλμενοι* ] TR *πνευματα τα απεσταλμενα*
+   - Latin: Tum ego aspiciēns, animadvertī in mediō soliī, et quattuor animālium, inque mediō senātōrum, astantem Agnum, tamquam mactātum, habentem septem cornua, septemque oculōs, quī sunt septem Deī spīritūs in omnēs dīmissī terrās.
+   - 1573: Tum ego aspiciens, animaduerti in medio solij, et quatuor animalium, inque medio senatorum astantem Agnum tanquam mactatum, habentem septem cornua, septemque oculos, qui sunt septem dei spiritus in omnes dimissi terras.
+   - TR: Καὶ εἶδον, καὶ ἰδού, ἐν μέσῳ τοῦ θρόνου καὶ τῶν τεσσάρων ζῴων, καὶ ἐν μέσῳ τῶν πρεσβυτέρων, ἀρνίον ἑστηκὸς ὡς ἐσφαγμένον, ἔχον κέρατα ἑπτὰ καὶ ὀφθαλμοὺς ἑπτά, οἵ εἰσι τὰ ἑπτὰ τοῦ Θεοῦ πνεύματα τὰ ἀπεσταλμένα εἰς πᾶσαν τὴν γῆν.
+   - SBLGNT: Καὶ εἶδον ἐν μέσῳ τοῦ θρόνου καὶ τῶν τεσσάρων ζῴων καὶ ἐν μέσῳ τῶν πρεσβυτέρων ἀρνίον ἑστηκὸς ὡς ἐσφαγμένον, ἔχων κέρατα ἑπτὰ καὶ ὀφθαλμοὺς ἑπτά, οἵ εἰσιν τὰ ἑπτὰ πνεύματα τοῦ θεοῦ, ἀπεσταλμένοι εἰς πᾶσαν τὴν γῆν.
+   - Vulgate: Et vidi: et ecce in medio throni et quatuor animalium, et in medio seniorum, Agnum stantem tamquam occisum, habentem cornua septem, et oculos septem: qui sunt septem spiritus Dei, missi in omnem terram.
+   - BSB: Then I saw a Lamb who appeared to have been slain, standing in the center of the throne, encircled by the four living creatures and the elders. The Lamb had seven horns and seven eyes, which represent the seven Spirits of God sent out into all the earth.
+   - WEB: I saw in the middle of the throne and of the four living creatures, and in the middle of the elders, a Lamb standing, as though it had been slain, having seven horns and seven eyes, which are the seven Spirits of God, sent out into all the earth.
+- **5:7** add (word): SBLGNT *–* ] TR *+ το βιβλιον*
+   - Latin: Is vēnit, accēpitque librum dē dextrā sedentis in soliō.
+   - 1573: Is venit, accepitque librum de dextera sedentis in solio.
+   - TR: Καὶ ἦλθε, καὶ εἴληφε τὸ βιβλίον ἐκ τῆς δεξιᾶς τοῦ καθημένου ἐπὶ τοῦ θρόνου.
+   - SBLGNT: καὶ ἦλθεν καὶ εἴληφεν ἐκ τῆς δεξιᾶς τοῦ καθημένου ἐπὶ τοῦ θρόνου.
+   - Vulgate: Et venit: et accepit de dextera sedentis in throno librum.
+   - BSB: And He came and took the scroll from the right hand of the One seated on the throne.
+   - WEB: Then he came, and he took it out of the right hand of him who sat on the throne.
+- **5:13** substitute (word): SBLGNT *επι της γης* ] TR *εν τη γη*; add (word): SBLGNT *–* ] TR *+ α εστι*
+   - Latin: Tum omnem rērum nātūram, quæ et in cælō est, et in terrā, et sub terrā, et in marī, hæc, et quæ in iīs sunt omnia, audīvī dīcere: “Sedentī in soliō et Agnō laus, et honōs, et glōria, et imperium in sempiterna sæcula.”
+   - 1573: Tum omnem rerum naturam, quæ et in cœlo est, et in terra, et sub terra, et in mari, hæc et quæ in eis sunt omnia audiui dicere: Sedenti in solio et agno laus, et honos, et gloria, et imperium in sempiterna secula.
+   - TR: Καὶ πᾶν κτίσμα ὅ ἐστιν ἐν τῷ οὐρανῷ, καὶ ἐν τῇ γῇ, καὶ ὑποκάτω τῆς γῆς, καὶ ἐπὶ τῆς θαλάσσης ἅ ἐστι, καὶ τὰ ἐν αὐτοῖς πάντα, ἤκουσα λέγοντας, Τῷ καθημένῳ ἐπὶ τοῦ θρόνου καὶ τῷ ἀρνίῳ ἡ εὐλογία καὶ ἡ τιμὴ καὶ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - SBLGNT: καὶ πᾶν κτίσμα ὃ ἐν τῷ οὐρανῷ καὶ ἐπὶ τῆς γῆς καὶ ὑποκάτω τῆς γῆς καὶ ἐπὶ τῆς θαλάσσης, καὶ τὰ ἐν αὐτοῖς πάντα, ἤκουσα λέγοντας· Τῷ καθημένῳ ἐπὶ τῷ θρόνῳ καὶ τῷ ἀρνίῳ ἡ εὐλογία καὶ ἡ τιμὴ καὶ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - Vulgate: Et omnem creaturam, quæ in cælo est, et super terram, et sub terra, et quæ sunt in mari, et quæ in eo: omnes audivi dicentes: Sedenti in throno, et Agno, benedictio et honor, et gloria, et potestas in sæcula sæculorum.
+   - BSB: And I heard every creature in heaven and on earth and under the earth and in the sea, and all that is in them, saying: “To Him who sits on the throne and to the Lamb be praise and honor and glory and power forever and ever!”
+   - WEB: I heard every created thing which is in heaven, on the earth, under the earth, on the sea, and everything in them, saying, “To him who sits on the throne and to the Lamb be the blessing, the honor, the glory, and the dominion, forever and ever! Amen!”
+- **5:14** add (number): SBLGNT *–* ] TR *+ εικοσιτεσσαρες*; add (clause): SBLGNT *–* ] TR *+ ζωντι εις τους αιωνας των αιωνων*
+   - Latin: Et quattuor animālia dīxērunt: “Āmēn.” Et vīgintī quattuor senātōrēs prōcubuērunt, et vīventem in sempiterna sæcula venerātī sunt.
+   - 1573: Et quatuor animalia dixerunt: Amen. Et viginti quatuor senatores procubuerunt, et viuentem in sempiterna secula venerati sunt.
+   - TR: Καὶ τὰ τέσσαρα ζῷα ἔλεγον, Ἀμήν. Καὶ οἱ εἰκοσιτέσσαρες πρεσβύτεροι ἔπεσαν καὶ προσεκύνησαν ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - SBLGNT: καὶ τὰ τέσσαρα ζῷα ἔλεγον· Ἀμήν. καὶ οἱ πρεσβύτεροι ἔπεσαν καὶ προσεκύνησαν.
+   - Vulgate: Et quatuor animalia dicebant: Amen. Et viginti quatuor seniores ceciderunt in facies suas: et adoraverunt viventem in sæcula sæculorum.
+   - BSB: And the four living creatures said, “Amen,” and the elders fell down and worshiped.
+   - WEB: The four living creatures said, “Amen!” Then the elders fell down and worshiped.
+- **6:1** omit (number): SBLGNT *επτα* ] TR *–*; add (name): SBLGNT *–* ] TR *+ και βλεπε*
+   - Latin: Deinde aspiciēns, cum aperuisset Agnus, ūnum dē septem sigillīs, audīvī ūnum dē quattuor animālibus dīcēns, quasi vōce tonitruī: “Venī spectātum.”
+   - 1573: Deinde aspiciens, quum aperuisset agnus vnum de septem sigillis, audiui vnum de quatuor animalibus dicens, quasi voce tonitrui: Veni spectatum.
+   - TR: Καὶ εἶδον ὅτε ἤνοιξε τὸ ἀρνίον μίαν ἐκ τῶν σφραγίδων, καὶ ἤκουσα ἑνὸς ἐκ τῶν τεσσάρων ζῴων λέγοντος, ὡς φωνῆς βροντῆς, Ἔρχου καὶ βλέπε.
+   - SBLGNT: Καὶ εἶδον ὅτε ἤνοιξεν τὸ ἀρνίον μίαν ἐκ τῶν ἑπτὰ σφραγίδων, καὶ ἤκουσα ἑνὸς ἐκ τῶν τεσσάρων ζῴων λέγοντος ὡς φωνῇ βροντῆς· Ἔρχου.
+   - Vulgate: Et vidi quod aperuisset Agnus unum de septem sigillis, et audivi unum de quatuor animalibus, dicens tamquam vocem tonitrui: Veni, et vide.
+   - BSB: Then I watched as the Lamb opened one of the seven seals, and I heard one of the four living creatures say in a thunderous voice, “Come!”
+   - WEB: I saw that the Lamb opened one of the seven seals, and I heard one of the four living creatures saying, as with a voice of thunder, “Come and see!”
+- **6:3** add (name): SBLGNT *–* ] TR *+ και βλεπε*
+   - Latin: Deinde ubi sigillum secundum aperuit, audīvī secundum animal dīcēns: “Venī spectātum.”
+   - 1573: Deinde vbi sigillum secundum aperuit, audiui secundum animal dicens: Veni spectatum.
+   - TR: Καὶ ὅτε ἤνοιξε τὴν δευτέραν σφραγῖδα, ἤκουσα τοῦ δευτέρου ζῴου λέγοντος, Ἔρχου καὶ βλέπε.
+   - SBLGNT: Καὶ ὅτε ἤνοιξεν τὴν σφραγῖδα τὴν δευτέραν, ἤκουσα τοῦ δευτέρου ζῴου λέγοντος· Ἔρχου.
+   - Vulgate: Et cum aperuisset sigillum secundum, audivi secundum animal, dicens: Veni, et vide.
+   - BSB: And when the Lamb opened the second seal, I heard the second living creature say, “Come!”
+   - WEB: When he opened the second seal, I heard the second living creature saying, “Come!”
+- **6:5** add (word): SBLGNT *–* ] TR *+ τριτην*; omit (word): SBLGNT *την τριτην* ] TR *–*; add (name): SBLGNT *–* ] TR *+ και βλεπε*
+   - Latin: Postquam tertium aperuit sigillum, audīvī tertium animal dīcēns: “Venī spectātum.” Hīc ego aspiciō nigrum equum, cui quī īnsidēbat, lībram habēbat in manū,
+   - 1573: Postquam tertium aperuit sigillum, audiui tertium animal dicens: veni spectatum. Hîc ego aspicio nigrum equum, cui qui insidebat, libram habebat in manu,
+   - TR: Καὶ ὅτε ἤνοιξε τὴν τρίτην σφραγῖδα, ἤκουσα τοῦ τρίτου ζῴου λέγοντος, Ἔρχου καὶ βλέπε. Καὶ εἶδον, καὶ ἰδού, ἵππος μέλας, καὶ ὁ καθήμενος ἐπ᾿ αὐτῷ ἔχων ζυγὸν ἐν τῇ χειρὶ αὐτοῦ.
+   - SBLGNT: Καὶ ὅτε ἤνοιξε τὴν σφραγῖδα τὴν τρίτην, ἤκουσα τοῦ τρίτου ζῴου λέγοντος· Ἔρχου. καὶ εἶδον, καὶ ἰδοὺ ἵππος μέλας, καὶ ὁ καθήμενος ἐπʼ αὐτὸν ἔχων ζυγὸν ἐν τῇ χειρὶ αὐτοῦ.
+   - Vulgate: Et cum aperuisset sigillum tertium, audivi tertium animal, dicens: Veni, et vide. Et ecce equus niger: et qui sedebat super illum, habebat stateram in manu sua.
+   - BSB: And when the Lamb opened the third seal, I heard the third living creature say, “Come!” Then I looked and saw a black horse, and its rider held in his hand a pair of scales.
+   - WEB: When he opened the third seal, I heard the third living creature saying, “Come and see!” And behold, a black horse, and he who sat on it had a balance in his hand.
+- **6:7** add (name): SBLGNT *–* ] TR *+ και βλεπε*
+   - Latin: Ubi quārtum aperuit sigillum, audīvī vōcem quārtī animālis dīcentem: “Venī spectātum,”
+   - 1573: Vbi quartum aperuit sigillum, audiui vocem quarti animalis dicentem: Veni spectatum,
+   - TR: Καὶ ὅτε ἤνοιξε τὴν σφραγῖδα τὴν τετάρτην, ἤκουσα φωνὴν τοῦ τετάρτου ζῴου λέγουσαν, Ἔρχου καὶ βλέπε.
+   - SBLGNT: Καὶ ὅτε ἤνοιξεν τὴν σφραγῖδα τὴν τετάρτην, ἤκουσα φωνὴν τοῦ τετάρτου ζῴου λέγοντος· Ἔρχου.
+   - Vulgate: Et cum aperuisset sigillum quartum, audivi vocem quarti animalis dicentis: Veni, et vide.
+   - BSB: And when the Lamb opened the fourth seal, I heard the voice of the fourth living creature say, “Come!”
+   - WEB: When he opened the fourth seal, I heard the fourth living creature saying, “Come and see!”
+- **6:8** substitute (word): SBLGNT *ηκολουθει* ] TR *ακολουθει*; add (word): SBLGNT *–* ] TR *+ αποκτειναι*; omit (word): SBLGNT *αποκτειναι* ] TR *–*
+   - Latin: animadvertīque pallidum equum, cui quī īnsidēbat, nōmen habet Mors, quam simul comitātur Orcus. Hīs data potestās est interficiendī ad quārtam partem terræ, gladiō, famē, lētō, ferīsque terrestribus.
+   - 1573: animaduertique pallidum equum, cui qui insidebat, nomen habet Mors, quam simul comitatur Orcus. His data potestas est interficiendi ad quartam partem terræ, gladio, fame, letho, ferisque terrestribus.
+   - TR: Καὶ εἶδον, καὶ ἰδού, ἵππος χλωρός, καὶ ὁ καθήμενος ἐπάνω αὐτοῦ, ὄνομα αὐτῷ ὁ Θάνατος, καὶ ὁ ᾍδης ἀκολουθεῖ μετ᾿ αὐτοῦ. Καὶ ἐδόθη αὐτοῖς ἐξουσία ἀποκτεῖναι ἐπὶ τὸ τέταρτον τῆς γῆς ἐν ῥομφαίᾳ καὶ ἐν λιμῷ καὶ ἐν θανάτῳ, καὶ ὑπὸ τῶν θηρίων τῆς γῆς.
+   - SBLGNT: καὶ εἶδον, καὶ ἰδοὺ ἵππος χλωρός, καὶ ὁ καθήμενος ἐπάνω αὐτοῦ ὄνομα αὐτῷ ὁ Θάνατος, καὶ ὁ ᾅδης ἠκολούθει μετʼ αὐτοῦ, καὶ ἐδόθη αὐτοῖς ἐξουσία ἐπὶ τὸ τέταρτον τῆς γῆς, ἀποκτεῖναι ἐν ῥομφαίᾳ καὶ ἐν λιμῷ καὶ ἐν θανάτῳ καὶ ὑπὸ τῶν θηρίων τῆς γῆς.
+   - Vulgate: Et ecce equus pallidus: et qui sedebat super eum, nomen illi Mors, et infernus sequebatur eum, et data est illi potestas super quatuor partes terræ, interficere gladio, fame, et morte, et bestiis terræ.
+   - BSB: Then I looked and saw a pale green horse. Its rider’s name was Death, and Hades followed close behind. And they were given authority over a fourth of the earth, to kill by sword, by famine, by plague, and by the beasts of the earth.
+   - WEB: And behold, a pale horse, and the name of he who sat on it was Death. Hades followed with him. Authority over one fourth of the earth, to kill with the sword, with famine, with death, and by the wild animals of the earth was given to him.
+- **6:11** substitute (word): SBLGNT *εδοθη αυτοις εκαστω στολη λευκη* ] TR *εδοθησαν εκαστοις στολαι λευκαι*; substitute (word): SBLGNT *πληρωθωσι* ] TR *ου πληρωσονται*
+   - Latin: Sed iīs singulīs datæ sunt albæ stolæ, iīsque dictum est, ut quiēscerent adhūc paulīsper, dōnec plēnus esset numerus etiam cōnservōrum eōrum atque frātrum, quī interficiendī essent, ut et ipsī.
+   - 1573: Sed eis singulis datæ sunt albæ stolæ, eisque dictum est vt quiescerent adhuc paulisper, donec plenus esset numerus etiam conseruorum eorum atque fratrum, qui interficiendi essent, vt et ipsi.
+   - TR: Καὶ ἐδόθησαν ἑκάστοις στολαὶ λευκαί, καὶ ἐρρέθη αὐτοῖς ἵνα ἀναπαύσωνται ἔτι χρόνον μικρόν, ἕως οὗ πληρώσονται καὶ οἱ σύνδουλοι αὐτῶν καὶ οἱ ἀδελφοὶ αὐτῶν, οἱ μέλλοντες ἀποκτείνεσθαι ὡς καὶ αὐτοί.
+   - SBLGNT: καὶ ἐδόθη αὐτοῖς ἑκάστῳ στολὴ λευκή, καὶ ἐρρέθη αὐτοῖς ἵνα ἀναπαύσονται ἔτι χρόνον μικρόν, ἕως πληρωθῶσιν καὶ οἱ σύνδουλοι αὐτῶν καὶ οἱ ἀδελφοὶ αὐτῶν οἱ μέλλοντες ἀποκτέννεσθαι ὡς καὶ αὐτοί.
+   - Vulgate: Et datæ sunt illis singulæ stolæ albæ: et dictum est illis ut requiescerent adhuc tempus modicum donec compleantur conservi eorum, et fratres eorum, qui interficiendi sunt sicut et illi.
+   - BSB: Then each of them was given a white robe and told to rest a little while longer, until the full number of their fellow servants, their brothers, were killed, just as they had been killed.
+   - WEB: A long white robe was given to each of them. They were told that they should rest yet for a while, until their fellow servants and their brothers, who would also be killed even as they were, should complete their course.
+- **6:12** omit (word): SBLGNT *ολη* ] TR *–*
+   - Latin: Deinde aspiciente mē, ubi sextum sigillum aperuit, exstitit magnus terræ mōtus: factusque est sōl tam āter, quam est saccus cilicīnus: et lūna facta est sanguinea:
+   - 1573: Deinde aspiciente me, vbi sextum sigillum aperuit, extitit magnus terræ motus: factusque est sol tam ater, quàm est saccus cilicinus: et luna facta est sanguinea,
+   - TR: Καὶ εἶδον ὅτε ἤνοιξε τὴν σφραγῖδα τὴν ἕκτην, καὶ ἰδού, σεισμὸς μέγας ἐγένετο, καὶ ὁ ἥλιος ἐγένετο μέλας ὡς σάκκος τρίχινος, καὶ ἡ σελήνη ἐγένετο ὡς αἷμα,
+   - SBLGNT: Καὶ εἶδον ὅτε ἤνοιξεν τὴν σφραγῖδα τὴν ἕκτην, καὶ σεισμὸς μέγας ἐγένετο, καὶ ὁ ἥλιος ἐγένετο μέλας ὡς σάκκος τρίχινος, καὶ ἡ σελήνη ὅλη ἐγένετο ὡς αἷμα,
+   - Vulgate: Et vidi cum aperuisset sigillum sextum: et ecce terræmotus magnus factus est, et sol factus est niger tamquam saccus cilicinus: et luna tota facta est sicut sanguis:
+   - BSB: And when I saw the Lamb open the sixth seal, there was a great earthquake, and the sun became black like sackcloth of goat hair, and the whole moon turned blood red,
+   - WEB: I saw when he opened the sixth seal, and there was a great earthquake. The sun became black as sackcloth made of hair, and the whole moon became as blood.
+- **6:13** add (word): SBLGNT *–* ] TR *+ μεγαλου*; omit (word): SBLGNT *μεγαλου* ] TR *–*
+   - Latin: Et cælī stēllæ cecidērunt ad terram, sīcut fīcus abjicit suās grossōs, cum vehementī ventō quatitur:
+   - 1573: et cœli stellæ ceciderunt ad terram, sicut ficus abijcit suas grossos, cùm vehementi vento quatitur:
+   - TR: καὶ οἱ ἀστέρες τοῦ οὐρανοῦ ἔπεσαν εἰς τὴν γῆν, ὡς συκῆ βάλλει τοὺς ὀλύνθους αὐτῆς, ὑπὸ μεγάλου ἀνέμου σειομένη.
+   - SBLGNT: καὶ οἱ ἀστέρες τοῦ οὐρανοῦ ἔπεσαν εἰς τὴν γῆν, ὡς συκῆ βάλλει τοὺς ὀλύνθους αὐτῆς ὑπὸ ἀνέμου μεγάλου σειομένη,
+   - Vulgate: et stellæ de cælo ceciderunt super terram, sicut ficus emittit grossos suos cum a vento magno movetur:
+   - BSB: and the stars of the sky fell to the earth like unripe figs dropping from a tree shaken by a great wind.
+   - WEB: The stars of the sky fell to the earth, like a fig tree dropping its unripe figs when it is shaken by a great wind.
+- **6:14** substitute (word): SBLGNT *ελισσομενον* ] TR *ειλισσομενον*
+   - Latin: Et cælum recessit, perinde ac sī scheda convolvātur: omnēsque et montēs et īnsulæ ex suīs locīs mōtæ sunt,
+   - 1573: et cœlum recessit, perinde ac si scheda conuoluatur: omnesque et montes et insulæ ex suis locis motæ sunt,
+   - TR: Καὶ οὐρανὸς ἀπεχωρίσθη ὡς βιβλίον εἱλισσόμενον, καὶ πᾶν ὄρος καὶ νῆσος ἐκ τῶν τόπων αὐτῶν ἐκινήθησαν.
+   - SBLGNT: καὶ ὁ οὐρανὸς ἀπεχωρίσθη ὡς βιβλίον ἑλισσόμενον, καὶ πᾶν ὄρος καὶ νῆσος ἐκ τῶν τόπων αὐτῶν ἐκινήθησαν.
+   - Vulgate: et cælum recessit sicut liber involutus: et omnis mons, et insulæ de locis suis motæ sunt:
+   - BSB: The sky receded like a scroll being rolled up, and every mountain and island was moved from its place.
+   - WEB: The sky was removed like a scroll when it is rolled up. Every mountain and island was moved out of its place.
+- **6:15** add (clause): SBLGNT *–* ] TR *+ πλουσιοι και οι*; substitute (word): SBLGNT *πλουσιοι και οι ισχυροι* ] TR *δυνατοι*; add (word): SBLGNT *–* ] TR *+ πας*
+   - Latin: et terrārum rēgēs, et summātēs, et dīvitēs, et tribūnī, et potentēs, et omnēs tum servī, tum līberī, sē ipsōs in specūs rūpēsque montium abdere,
+   - 1573: et terrarum reges, et summates, et diuites, et tribuni, et potentes, et omnes tum serui, tum liberi, se ipsos in specus rupesque montium abdere,
+   - TR: Καὶ οἱ βασιλεῖς τῆς γῆς, καὶ οἱ μεγιστᾶνες, καὶ οἱ πλούσιοι, καὶ οἱ χιλίαρχοι, καὶ οἱ δυνατοί, καὶ πᾶς δοῦλος καὶ πᾶς ἐλεύθερος, ἔκρυψαν ἑαυτοὺς εἰς τὰ σπήλαια καὶ εἰς τὰς πέτρας τῶν ὀρέων,
+   - SBLGNT: καὶ οἱ βασιλεῖς τῆς γῆς καὶ οἱ μεγιστᾶνες καὶ οἱ χιλίαρχοι καὶ οἱ πλούσιοι καὶ οἱ ἰσχυροὶ καὶ πᾶς δοῦλος καὶ ἐλεύθερος ἔκρυψαν ἑαυτοὺς εἰς τὰ σπήλαια καὶ εἰς τὰς πέτρας τῶν ὀρέων·
+   - Vulgate: et reges terræ, et principes, et tribuni, et divites, et fortes, et omnis servus, et liber absconderunt se in speluncis, et in petris montium:
+   - BSB: Then the kings of the earth, the nobles, the commanders, the rich, the mighty, and every slave and free man hid in the caves and among the rocks of the mountains.
+   - WEB: The kings of the earth, the princes, the commanding officers, the rich, the strong, and every slave and free person, hid themselves in the caves and in the rocks of the mountains.
+- **7:3** substitute (word): SBLGNT *αχρι* ] TR *αχρις ου*
+   - Latin: “Nē læditōte terram, nec mare, nec arborēs, dōnec Deī nostrī servōs in eōrum frontibus cōnsignēmus.”
+   - 1573: Ne læditote terram, nec mare, nec arbores, donec Dei nostri seruos in eorum frontibus consignemus.
+   - TR: λέγων, Μὴ ἀδικήσητε τὴν γῆν, μήτε τὴν θάλασσαν, μήτε τὰ δένδρα, ἄχρις οὗ σφραγίσωμεν τοὺς δούλους τοῦ Θεοῦ ἡμῶν ἐπὶ τῶν μετώπων αὐτῶν.
+   - SBLGNT: λέγων· Μὴ ἀδικήσητε τὴν γῆν μήτε τὴν θάλασσαν μήτε τὰ δένδρα, ἄχρι σφραγίσωμεν τοὺς δούλους τοῦ θεοῦ ἡμῶν ἐπὶ τῶν μετώπων αὐτῶν.
+   - Vulgate: dicens: Nolite nocere terræ, et mari, neque arboribus, quoadusque signemus servos Dei nostri in frontibus eorum.
+   - BSB: “Do not harm the land or sea or trees until we have sealed the foreheads of the servants of our God.”
+   - WEB: saying, “Don’t harm the earth, the sea, or the trees, until we have sealed the bondservants of our God on their foreheads!”
+- **7:4** substitute (number): SBLGNT *εκατον τεσσερακοντα τεσσαρες* ] TR *ρμδ*
+   - Latin: Audīvī autem cōnsignātōrum numerum, quī cōnsignātī erant, centum quadrāgintā quattuor mīllia, ex omnibus Isrāēlītārum tribubus.
+   - 1573: Audiui autem consignatorum numerum, qui consignati erant centum quadraginta quatuor millia, ex omnibus Israelitarum tribubus.
+   - TR: Καὶ ἤκουσα τὸν ἀριθμὸν τῶν ἐσφραγισμένων, ρμδ΄ χιλιάδες, ἐσφραγισμένοι ἐκ πάσης φυλῆς υἱῶν Ἰσραήλ.
+   - SBLGNT: Καὶ ἤκουσα τὸν ἀριθμὸν τῶν ἐσφραγισμένων, ἑκατὸν τεσσεράκοντα τέσσαρες χιλιάδες, ἐσφραγισμένοι ἐκ πάσης φυλῆς υἱῶν Ἰσραήλ·
+   - Vulgate: Et audivi numerum signatorum, centum quadraginta quatuor millia signati, ex omni tribu filiorum Israël.
+   - BSB: And I heard the number of those who were sealed, 144,000 from all the tribes of Israel:
+   - WEB: I heard the number of those who were sealed, one hundred forty-four thousand, sealed out of every tribe of the children of Israel:
+- **7:5** substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*
+   - Latin: Ex tribū Jūdæ cōnsignāta erant duodecim mīllia. Ex Rūbēnis duodecim mīllia. Ex Gadī duodecim mīllia.
+   - 1573: Ex tribu Iudæ consignata erant duodecim millia. Ex Rubenis, duodecim millia. Ex Gaddi, duodecim millia.
+   - TR: Ἐκ φυλῆς Ἰούδα, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Ῥουβήν, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Γάδ, ιβ΄ χιλιάδες ἐσφραγισμένοι·
+   - SBLGNT: ἐκ φυλῆς Ἰούδα δώδεκα χιλιάδες ἐσφραγισμένοι, ἐκ φυλῆς Ῥουβὴν δώδεκα χιλιάδες, ἐκ φυλῆς Γὰδ δώδεκα χιλιάδες,
+   - Vulgate: Ex tribu Juda duodecim millia signati: ex tribu Ruben duodecim millia signati: ex tribu Gad duodecim millia signati:
+   - BSB: From the tribe of Judah 12,000 were sealed, from the tribe of Reuben 12,000, from the tribe of Gad 12,000,
+   - WEB: of the tribe of Judah twelve thousand were sealed, of the tribe of Reuben twelve thousand, of the tribe of Gad twelve thousand,
+- **7:6** substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; add (word): SBLGNT *–* ] TR *+ εσφραγισμενοι*; substitute (name): SBLGNT *νεφθαλιμ δωδεκα* ] TR *νεφθαλειμ ιβ*; add (word): SBLGNT *–* ] TR *+ εσφραγισμενοι*; substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; add (word): SBLGNT *–* ] TR *+ εσφραγισμενοι*
+   - Latin: Ex Āsēris duodecim mīllia. Ex Nephthālis duodecim mīllia. Ex Manassis duodecim mīllia.
+   - 1573: Ex Aseris, duodecim millia. Ex Nephthalis, duodecim millia. Ex Manassis, duodecim millia.
+   - TR: ἐκ φυλῆς Ἀσήρ, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Νεφθαλείμ, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Μανασσῆ, ιβ΄ χιλιάδες ἐσφραγισμένοι·
+   - SBLGNT: ἐκ φυλῆς Ἀσὴρ δώδεκα χιλιάδες, ἐκ φυλῆς Νεφθαλὶμ δώδεκα χιλιάδες, ἐκ φυλῆς Μανασσῆ δώδεκα χιλιάδες,
+   - Vulgate: ex tribu Aser duodecim millia signati: ex tribu Nephthali duodecim millia signati: ex tribu Manasse duodecim millia signati:
+   - BSB: from the tribe of Asher 12,000, from the tribe of Naphtali 12,000, from the tribe of Manasseh 12,000,
+   - WEB: of the tribe of Asher twelve thousand, of the tribe of Naphtali twelve thousand, of the tribe of Manasseh twelve thousand,
+- **7:7** substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; add (word): SBLGNT *–* ] TR *+ εσφραγισμενοι*; substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; add (word): SBLGNT *–* ] TR *+ εσφραγισμενοι*; substitute (name): SBLGNT *ισσαχαρ δωδεκα* ] TR *ισαχαρ ιβ*; add (word): SBLGNT *–* ] TR *+ εσφραγισμενοι*
+   - Latin: Ex Simeōnis duodecim mīllia. Ex Lēvis duodecim mīllia. Ex Issacharis duodecim mīllia.
+   - 1573: Ex Simeonis, duodecim millia. Ex Leuis, duodecim millia. Ex Issacharis, duodecim millia.
+   - TR: ἐκ φυλῆς Συμεών, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Λευΐ, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Ἰσαχάρ, ιβ΄ χιλιάδες ἐσφραγισμένοι·
+   - SBLGNT: ἐκ φυλῆς Συμεὼν δώδεκα χιλιάδες, ἐκ φυλῆς Λευὶ δώδεκα χιλιάδες, ἐκ φυλῆς Ἰσσαχὰρ δώδεκα χιλιάδες,
+   - Vulgate: ex tribu Simeon duodecim millia signati: ex tribu Levi duodecim millia signati: ex tribu Issachar duodecim millia signati:
+   - BSB: from the tribe of Simeon 12,000, from the tribe of Levi 12,000, from the tribe of Issachar 12,000,
+   - WEB: of the tribe of Simeon twelve thousand, of the tribe of Levi twelve thousand, of the tribe of Issachar twelve thousand,
+- **7:8** substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*; substitute (number): SBLGNT *δωδεκα* ] TR *ιβ*
+   - Latin: Ex Zabulōnis duodecim mīllia. Ex Jōsēphī duodecim mīllia. Ex Benjāmīnis duodecim mīllia.
+   - 1573: Ex Zabulonis, duodecim millia. Ex Iosephi, duodecim millia. Ex Beniaminis, duodecim millia.
+   - TR: ἐκ φυλῆς Ζαβουλών, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Ἰωσήφ, ιβ΄ χιλιάδες ἐσφραγισμένοι· ἐκ φυλῆς Βενιαμίν, ιβ΄ χιλιάδες ἐσφραγισμένοι.
+   - SBLGNT: ἐκ φυλῆς Ζαβουλὼν δώδεκα χιλιάδες, ἐκ φυλῆς Ἰωσὴφ δώδεκα χιλιάδες, ἐκ φυλῆς Βενιαμὶν δώδεκα χιλιάδες ἐσφραγισμένοι.
+   - Vulgate: ex tribu Zabulon duodecim millia signati: ex tribu Joseph duodecim millia signati: ex tribu Benjamin duodecim millia signati.
+   - BSB: from the tribe of Zebulun 12,000, from the tribe of Joseph 12,000, and from the tribe of Benjamin 12,000.
+   - WEB: of the tribe of Zebulun twelve thousand, of the tribe of Joseph twelve thousand, and of the tribe of Benjamin twelve thousand were sealed.
+- **7:9** substitute (word): SBLGNT *εδυνατο* ] TR *ηδυνατο*
+   - Latin: Posteā animadvertī tantam turbam, ut eam numerāre nūllus posset, ex omnibus gentibus, nātiōnibus, populīs et linguīs, quī ante solium et Agnum stābant, stolīs amictī candidīs, palmās gestantēs in manibus,
+   - 1573: Postea animaduerti tantam turbam, vt eam numerare nullus posset, ex omnibus gentibus, nationibus, populis et linguis, qui ante solium et agnum stabant, stolis amicti candidis, palmas gestantes in manibus,
+   - TR: Μετὰ ταῦτα εἶδον, καὶ ἰδού, ὄχλος πολύς, ὃν ἀριθμῆσαι αὐτὸν οὐδεὶς ἠδύνατο, ἐκ παντὸς ἔθνους καὶ φυλῶν καὶ λαῶν καὶ γλωσσῶν, ἑστῶτες ἐνώπιον τοῦ θρόνου καὶ ἐνώπιον τοῦ ἀρνίου, περιβεβλημένοι στολὰς λευκάς, καὶ φοίνικες ἐν ταῖς χερσὶν αὐτῶν·
+   - SBLGNT: Μετὰ ταῦτα εἶδον, καὶ ἰδοὺ ὄχλος πολύς, ὃν ἀριθμῆσαι αὐτὸν οὐδεὶς ἐδύνατο, ἐκ παντὸς ἔθνους καὶ φυλῶν καὶ λαῶν καὶ γλωσσῶν, ἑστῶτες ἐνώπιον τοῦ θρόνου καὶ ἐνώπιον τοῦ ἀρνίου, περιβεβλημένους στολὰς λευκάς, καὶ φοίνικες ἐν ταῖς χερσὶν αὐτῶν·
+   - Vulgate: Post hæc vidi turbam magnam, quam dinumerare nemo poterat, ex omnibus gentibus, et tribubus, et populis, et linguis: stantes ante thronum, et in conspectu Agni, amicti stolis albis, et palmæ in manibus eorum:
+   - BSB: After this I looked and saw a multitude too large to count, from every nation and tribe and people and tongue, standing before the throne and before the Lamb. They were wearing white robes and holding palm branches in their hands.
+   - WEB: After these things I looked, and behold, a great multitude which no man could count, out of every nation and of all tribes, peoples, and languages, standing before the throne and before the Lamb, dressed in white robes, with palm branches in their hands.
+- **7:10** substitute (word): SBLGNT *τω θρονω* ] TR *του θρονου*
+   - Latin: et magnā vōce clāmantēs in hunc modum: “Salūs sedentī in soliō Deī nostrī, et Agnō.”
+   - 1573: et magna voce clamantes in hunc modum: Salus sedenti in solio Dei nostri, et agno.
+   - TR: καὶ κράζοντες φωνῇ μεγάλῃ, λέγοντες, Ἡ σωτηρία τῷ Θεῷ ἡμῶν τῷ καθημένῳ ἐπὶ τοῦ θρόνου, καὶ τῷ ἀρνίῳ.
+   - SBLGNT: καὶ κράζουσι φωνῇ μεγάλῃ λέγοντες· Ἡ σωτηρία τῷ θεῷ ἡμῶν τῷ καθημένῳ ἐπὶ τῷ θρόνῳ καὶ τῷ ἀρνίῳ.
+   - Vulgate: et clamabant voce magna, dicentes: Salus Deo nostro, qui sedet super thronum, et Agno.
+   - BSB: And they cried out in a loud voice: “Salvation to our God, who sits on the throne, and to the Lamb!”
+   - WEB: They cried with a loud voice, saying, “Salvation be to our God, who sits on the throne, and to the Lamb!”
+- **7:11** substitute (word): SBLGNT *ειστηκεισαν* ] TR *εστηκεσαν*; substitute (word): SBLGNT *τα προσωπα* ] TR *προσωπον*
+   - Latin: Omnēs autem angelī, solium senātōrēsque et quattuor animālia circumstantēs, prōcubuērunt ante solium prōnī, Deumque venerātī sunt,
+   - 1573: Omnes autem angeli, solium senatoresque et quatuor animalia circumstantes, procubuerunt ante solium proni, Deumque venerati sunt,
+   - TR: Καὶ πάντες οἱ ἄγγελοι ἑστήκεσαν κύκλῳ τοῦ θρόνου καὶ τῶν πρεσβυτέρων καὶ τῶν τεσσάρων ζῴων, καὶ ἔπεσον ἐνώπιον τοῦ θρόνου ἐπὶ πρόσωπον αὐτῶν, καὶ προσεκύνησαν τῷ Θεῷ,
+   - SBLGNT: καὶ πάντες οἱ ἄγγελοι εἱστήκεισαν κύκλῳ τοῦ θρόνου καὶ τῶν πρεσβυτέρων καὶ τῶν τεσσάρων ζῴων, καὶ ἔπεσαν ἐνώπιον τοῦ θρόνου ἐπὶ τὰ πρόσωπα αὐτῶν καὶ προσεκύνησαν τῷ θεῷ,
+   - Vulgate: Et omnes angeli stabant in circuitu throni, et seniorum, et quatuor animalium: et ceciderunt in conspectu throni in facies suas, et adoraverunt Deum,
+   - BSB: And all the angels stood around the throne and around the elders and the four living creatures. And they fell facedown before the throne and worshiped God,
+   - WEB: All the angels were standing around the throne, the elders, and the four living creatures; and they fell on their faces before his throne, and worshiped God,
+- **7:14** substitute (word): SBLGNT *αυτας* ] TR *στολας αυτων*
+   - Latin: Cui ego: “Domine, tūte scīs.” Et ille: “Hī sunt,” inquit, “quī ex magnā calamitāte veniunt, stolāsque suās Agnī sanguine perluērunt ac dealbārunt.
+   - 1573: Cui ego: Domine, tute scis. Et ille Hi sunt, inquit, qui ex magna calamitate veniunt, stolasque suas agni sanguine perluerunt ac dealbarunt:
+   - TR: Καὶ εἴρηκα αὐτῷ, Κύριε, σὺ οἶδας. Καὶ εἶπέ μοι, Οὗτοί εἰσιν οἱ ἐρχόμενοι ἐκ τῆς θλίψεως τῆς μεγάλης, καὶ ἔπλυναν τὰς στολὰς αὐτῶν, καὶ ἐλεύκαναν στολὰς αὐτῶν ἐν τῷ αἵματι τοῦ ἀρνίου.
+   - SBLGNT: καὶ εἴρηκα αὐτῷ· Κύριέ μου, σὺ οἶδας. καὶ εἶπέν μοι· Οὗτοί εἰσιν οἱ ἐρχόμενοι ἐκ τῆς θλίψεως τῆς μεγάλης, καὶ ἔπλυναν τὰς στολὰς αὐτῶν καὶ ἐλεύκαναν αὐτὰς ἐν τῷ αἵματι τοῦ ἀρνίου.
+   - Vulgate: Et dixi illi: Domine mi, tu scis. Et dixit mihi: Hi sunt, qui venerunt de tribulatione magna, et laverunt stolas suas, et dealbaverunt eas in sanguine Agni.
+   - BSB: “Sir,” I answered, “you know.” So he replied, “These are the ones who have come out of the great tribulation; they have washed their robes and made them white in the blood of the Lamb.
+   - WEB: I told him, “My lord, you know.” He said to me, “These are those who came out of the great suffering. They washed their robes and made them white in the Lamb’s blood.
+- **7:17** substitute (word): SBLGNT *ζωης* ] TR *ζωσας*
+   - Latin: Quoniam Agnus, quī est inter solium, pāscet eōs, et ad vīvōs aquæ fontēs dūcet, abstergetque Deus ex eōrum oculīs omnem lacrimam.”
+   - 1573: quoniam agnus, qui est inter solium, pascet eos, et ad viuos aquæ fontes ducet, abstergetque Deus ex eorum oculis omnem lacrimam.
+   - TR: ὅτι τὸ ἀρνίον τὸ ἀνὰ μέσον τοῦ θρόνου ποιμανεῖ αὐτούς, καὶ ὁδηγήσει αὐτοὺς ἐπὶ ζώσας πηγὰς ὑδάτων, καὶ ἐξαλείψει ὁ Θεὸς πᾶν δάκρυον ἀπὸ τῶν ὀφθαλμῶν αὐτῶν.
+   - SBLGNT: ὅτι τὸ ἀρνίον τὸ ἀνὰ μέσον τοῦ θρόνου ποιμανεῖ αὐτούς, καὶ ὁδηγήσει αὐτοὺς ἐπὶ ζωῆς πηγὰς ὑδάτων· καὶ ἐξαλείψει ὁ θεὸς πᾶν δάκρυον ἐκ τῶν ὀφθαλμῶν αὐτῶν.
+   - Vulgate: quoniam Agnus, qui in medio throni est, reget illos et deducet eos ad vitæ fontes aquarum, et absterget Deus omnem lacrimam ab oculis eorum.
+   - BSB: For the Lamb in the center of the throne will be their shepherd. ‘He will lead them to springs of living water,’ and ‘God will wipe away every tear from their eyes.’”
+   - WEB: for the Lamb who is in the middle of the throne shepherds them and leads them to springs of life-giving waters. And God will wipe away every tear from their eyes.”
+- **8:3** substitute (word): SBLGNT *του θυσιαστηριου* ] TR *το θυσιαστηριον*
+   - Latin: Alius item angelus vēnit, et ad āram cōnstitit, tūribulum habēns aureum, eīque data sunt multa suffīmenta, ut sānctōrum omnium supplicātiōnēs ad auream āram ante solium positam obmovēret:
+   - 1573: Alius item angelus venit, et ad aram constitit, thuribulum habens aureum, eique data sunt multa suffimenta, vt sanctorum omnium supplicationes ad auream aram ante solium positam obmoueret:
+   - TR: Καὶ ἄλλος ἄγγελος ἦλθε, καὶ ἐστάθη ἐπὶ τὸ θυσιαστήριον, ἔχων λιβανωτὸν χρυσοῦν· καὶ ἐδόθη αὐτῷ θυμιάματα πολλά, ἵνα δώσῃ ταῖς προσευχαῖς τῶν ἁγίων πάντων ἐπὶ τὸ θυσιαστήριον τὸ χρυσοῦν τὸ ἐνώπιον τοῦ θρόνου.
+   - SBLGNT: Καὶ ἄλλος ἄγγελος ἦλθεν καὶ ἐστάθη ἐπὶ τοῦ θυσιαστηρίου ἔχων λιβανωτὸν χρυσοῦν, καὶ ἐδόθη αὐτῷ θυμιάματα πολλὰ ἵνα δώσει ταῖς προσευχαῖς τῶν ἁγίων πάντων ἐπὶ τὸ θυσιαστήριον τὸ χρυσοῦν τὸ ἐνώπιον τοῦ θρόνου.
+   - Vulgate: Et alius angelus venit, et stetit ante altare habens thuribulum aureum: et data sunt illi incensa multa, ut daret de orationibus sanctorum omnium super altare aureum, quod est ante thronum Dei.
+   - BSB: Then another angel, who had a golden censer, came and stood at the altar. He was given much incense to offer, along with the prayers of all the saints, on the golden altar before the throne.
+   - WEB: Another angel came and stood over the altar, having a golden censer. Much incense was given to him, that he should add it to the prayers of all the saints on the golden altar which was before the throne.
+- **8:5** add (word): SBLGNT *–* ] TR *+ φωναι και*; omit (word): SBLGNT *και φωναι* ] TR *–*
+   - Latin: Deinde sūmpsit angelus tūribulum, et altāris igne replēvit, ad terramque dējēcit: et exstitērunt fragōrēs et tonitrua, et fulgura, et terræ mōtus.
+   - 1573: Deinde sumpsit angelus thuribulum, et altaris igne repleuit, ad terramque deiecit: et extiterunt fragores, et tonitrua, et fulgura, et terræ motus.
+   - TR: Καὶ εἴληφεν ὁ ἄγγελος τὸ λιβανωτόν, καὶ ἐγέμισεν αὐτὸ ἐκ τοῦ πυρὸς τοῦ θυσιαστηρίου, καὶ ἔβαλεν εἰς τὴν γῆν· καὶ ἐγένοντο φωναὶ καὶ βρονταὶ καὶ ἀστραπαὶ καὶ σεισμός.
+   - SBLGNT: καὶ εἴληφεν ὁ ἄγγελος τὸν λιβανωτόν, καὶ ἐγέμισεν αὐτὸν ἐκ τοῦ πυρὸς τοῦ θυσιαστηρίου, καὶ ἔβαλεν εἰς τὴν γῆν· καὶ ἐγένοντο βρονταὶ καὶ φωναὶ καὶ ἀστραπαὶ καὶ σεισμός.
+   - Vulgate: Et accepit angelus thuribulum, et implevit illud de igne altaris, et misit in terram: et facta sunt tonitrua, et voces, et fulgura, et terræmotus magnus.
+   - BSB: Then the angel took the censer, filled it with fire from the altar, and hurled it to the earth; and there were peals of thunder, and rumblings, and flashes of lightning, and an earthquake.
+   - WEB: The angel took the censer, and he filled it with the fire of the altar, then threw it on the earth. Thunders, sounds, lightnings, and an earthquake followed.
+- **8:6** substitute (word): SBLGNT *αυτους* ] TR *εαυτους*
+   - Latin: Itemque septem angelī, quī septem tubās habēbant, sēsē ad clangendum parārunt.
+   - 1573: Itemque septem angeli, qui septem tubas habebant, sese ad clangendum pararunt.
+   - TR: Καὶ οἱ ἑπτὰ ἄγγελοι ἔχοντες τὰς ἑπτὰ σάλπιγγας ἡτοίμασαν ἑαυτοὺς ἵνα σαλπίσωσι.
+   - SBLGNT: Καὶ οἱ ἑπτὰ ἄγγελοι οἱ ἔχοντες τὰς ἑπτὰ σάλπιγγας ἡτοίμασαν αὑτοὺς ἵνα σαλπίσωσιν.
+   - Vulgate: Et septem angeli, qui habebant septem tubas, præparaverunt se ut tuba canerent.
+   - BSB: And the seven angels with the seven trumpets prepared to sound them.
+   - WEB: The seven angels who had the seven trumpets prepared themselves to sound.
+- **8:7** add (word): SBLGNT *–* ] TR *+ αγγελος*; omit (clause): SBLGNT *και το τριτον της γης κατεκαη* ] TR *–*
+   - Latin: Cumque prīmus angelus clānxisset, exstitit grandō et ignis permixta sanguinī: quibus ad terram dējectīs, tertia pars arborum combusta est, et omnēs virentēs herbæ cōnflagrārunt.
+   - 1573: Cumque primus angelus clanxisset, extitit grando et ignis permixta sanguini: quibus ad terram deiectis, tertia pars arborum combusta est, et omnes virentes herbæ conflagrarunt.
+   - TR: Καὶ ὁ πρῶτος ἄγγελος ἐσάλπισε, καὶ ἐγένετο χάλαζα καὶ πῦρ μεμιγμένα αἵματι, καὶ ἐβλήθη εἰς τὴν γῆν· καὶ τὸ τρίτον τῶν δένδρων κατεκάη, καὶ πᾶς χόρτος χλωρὸς κατεκάη.
+   - SBLGNT: Καὶ ὁ πρῶτος ἐσάλπισεν· καὶ ἐγένετο χάλαζα καὶ πῦρ μεμιγμένα ἐν αἵματι, καὶ ἐβλήθη εἰς τὴν γῆν· καὶ τὸ τρίτον τῆς γῆς κατεκάη, καὶ τὸ τρίτον τῶν δένδρων κατεκάη, καὶ πᾶς χόρτος χλωρὸς κατεκάη.
+   - Vulgate: Et primus angelus tuba cecinit, et facta est grando, et ignis, mista in sanguine, et missum est in terram, et tertia pars terræ combusta est, et tertia pars arborum concremata est, et omne fœnum viride combustum est.
+   - BSB: Then the first angel sounded his trumpet, and hail and fire mixed with blood were hurled down upon the earth. A third of the earth was burned up, along with a third of the trees and all the green grass.
+   - WEB: The first sounded, and there followed hail and fire, mixed with blood, and they were thrown to the earth. One third of the earth was burned up, and one third of the trees were burned up, and all green grass was burned up.
+- **8:11** substitute (word): SBLGNT *εγενετο* ] TR *γινεται*
+   - Latin: (Est autem stēllæ nōmen Absinthium) conversa est tertia pars in absinthium, multīque hominum ab aquīs interiērunt, quod amāræ factæ essent.
+   - 1573: Est autem stellæ nomen Absinthium) conuersa est tertia pars in Absinthium, multique hominum ab aquis interierunt, quòd amaræ factæ essent.
+   - TR: Καὶ τὸ ὄνομα τοῦ ἀστέρος λέγεται Ἄψινθος· καὶ γίνεται τὸ τρίτον τῶν ὑδάτων εἰς ἄψινθον, καὶ πολλοὶ ἀνθρώπων ἀπέθανον ἐκ τῶν ὑδάτων, ὅτι ἐπικράνθησαν.
+   - SBLGNT: καὶ τὸ ὄνομα τοῦ ἀστέρος λέγεται· ὁ Ἄψινθος. καὶ ἐγένετο τὸ τρίτον τῶν ὑδάτων εἰς ἄψινθον, καὶ πολλοὶ τῶν ἀνθρώπων ἀπέθανον ἐκ τῶν ὑδάτων, ὅτι ἐπικράνθησαν.
+   - Vulgate: et nomen stellæ dicitur Absinthium, et facta est tertia pars aquarum in absinthium; et multi hominum mortui sunt de aquis, quia amaræ factæ sunt.
+   - BSB: The name of the star is Wormwood. A third of the waters turned bitter like wormwood oil, and many people died from the bitter waters.
+   - WEB: The name of the star is “Wormwood.” One third of the waters became wormwood. Many people died from the waters, because they were made bitter.
+- **8:12** substitute (word): SBLGNT *φανη* ] TR *φαινη*
+   - Latin: Ad quārtī angelī clangōrem icta est sōlis tertia pars, et lūnæ tertia pars, et stēllārum tertia pars, adeō ut obfuscātā eōrum parte tertiā, diēs tertiā parte suī nōn lūcēret, itidemque nox.
+   - 1573: Ad quarti angeli clangorem icta est solis tertia pars, et lunæ tertia pars, et stellarum tertia pars, adeò vt offuscata eorum parte tertia, dies tertia parte sui non luceret, itidemque nox.
+   - TR: Καὶ ὁ τέταρτος ἄγγελος ἐσάλπισε, καὶ ἐπλήγη τὸ τρίτον τοῦ ἡλίου καὶ τὸ τρίτον τῆς σελήνης καὶ τὸ τρίτον τῶν ἀστέρων, ἵνα σκοτισθῇ τὸ τρίτον αὐτῶν, καὶ ἡ ἡμέρα μὴ φαίνῃ τὸ τρίτον αὐτῆς, καὶ ἡ νὺξ ὁμοίως.
+   - SBLGNT: Καὶ ὁ τέταρτος ἄγγελος ἐσάλπισεν· καὶ ἐπλήγη τὸ τρίτον τοῦ ἡλίου καὶ τὸ τρίτον τῆς σελήνης καὶ τὸ τρίτον τῶν ἀστέρων, ἵνα σκοτισθῇ τὸ τρίτον αὐτῶν καὶ ἡ ἡμέρα μὴ φάνῃ τὸ τρίτον αὐτῆς, καὶ ἡ νὺξ ὁμοίως.
+   - Vulgate: Et quartus angelus tuba cecinit: et percussa est tertia pars solis, et tertia pars lunæ, et tertia pars stellarum, ita ut obscuraretur tertia pars eorum, et diei non luceret pars tertia, et noctis similiter.
+   - BSB: Then the fourth angel sounded his trumpet, and a third of the sun and moon and stars were struck. A third of the stars were darkened, a third of the day was without light, and a third of the night as well.
+   - WEB: The fourth angel sounded, and one third of the sun was struck, and one third of the moon, and one third of the stars, so that one third of them would be darkened; and the day wouldn’t shine for one third of it, and the night in the same way.
+- **8:13** substitute (word): SBLGNT *αετου πετομενου* ] TR *αγγελου πετωμενου*
+   - Latin: Tum aspiciēns audīvī quendam angelum volantem per medium cælī, magnā vōce dīcentem: “Væ, væ, væ terræ habitātōribus, ā reliquīs tubārum sonīs trium angelōrum, quī jam clangent.”
+   - 1573: Tum aspiciens audiui quendam angelum volantem per medium cœli, magna voce dicentem: Væ, væ, væ, terræ habitatoribus, à reliquis tubarum sonis trium angelorum, qui iam clangent.
+   - TR: Καὶ εἶδον, καὶ ἤκουσα ἑνὸς ἀγγέλου πετωμένου ἐν μεσουρανήματι, λέγοντος φωνῇ μεγάλῃ, Οὐαί, οὐαί, οὐαὶ τοῖς κατοικοῦσιν ἐπὶ τῆς γῆς, ἐκ τῶν λοιπῶν φωνῶν τῆς σάλπιγγος τῶν τριῶν ἀγγέλων τῶν μελλόντων σαλπίζειν.
+   - SBLGNT: Καὶ εἶδον, καὶ ἤκουσα ἑνὸς ἀετοῦ πετομένου ἐν μεσουρανήματι λέγοντος φωνῇ μεγάλῃ· Οὐαὶ οὐαὶ οὐαὶ τοὺς κατοικοῦντας ἐπὶ τῆς γῆς ἐκ τῶν λοιπῶν φωνῶν τῆς σάλπιγγος τῶν τριῶν ἀγγέλων τῶν μελλόντων σαλπίζειν.
+   - Vulgate: Et vidi, et audivi vocem unius aquilæ volantis per medium cæli dicentis voce magna: Væ, væ, væ habitantibus in terra de ceteris vocibus trium angelorum, qui erant tuba canituri.
+   - BSB: And as I observed, I heard an eagle flying overhead, calling in a loud voice, “Woe! Woe! Woe to those who dwell on the earth, because of the trumpet blasts about to be sounded by the remaining three angels!”
+   - WEB: I saw, and I heard an eagle, flying in mid heaven, saying with a loud voice, “Woe! Woe! Woe to those who dwell on the earth, because of the other blasts of the trumpets of the three angels, who are yet to sound!”
+- **9:4** add (word): SBLGNT *–* ] TR *+ μονους*
+   - Latin: Iīsque præceptum est, nē terrestrēs herbās læderent, nēve ūllam viriditātem, ūllamve arborem, sed sōlōs hominēs, quī Deī signum in frontibus suīs nōn habērent.
+   - 1573: eisque præceptum est, ne terrestres herbas læderent, neue vllam viriditatem vllamve arborem, sed solos homines, qui Dei signum in frontibus suis non haberent.
+   - TR: Καὶ ἐρρέθη αὐταῖς ἵνα μὴ ἀδικήσωσι τὸν χόρτον τῆς γῆς, οὐδὲ πᾶν χλωρόν, οὐδὲ πᾶν δένδρον, εἰ μὴ τοὺς ἀνθρώπους μόνους οἵτινες οὐκ ἔχουσι τὴν σφραγῖδα τοῦ Θεοῦ ἐπὶ τῶν μετώπων αὐτῶν.
+   - SBLGNT: καὶ ἐρρέθη αὐταῖς ἵνα μὴ ἀδικήσουσιν τὸν χόρτον τῆς γῆς οὐδὲ πᾶν χλωρὸν οὐδὲ πᾶν δένδρον, εἰ μὴ τοὺς ἀνθρώπους οἵτινες οὐκ ἔχουσι τὴν σφραγῖδα τοῦ θεοῦ ἐπὶ τῶν μετώπων.
+   - Vulgate: et præceptum est illis ne læderent fœnum terræ, neque omne viride, neque omnem arborem: nisi tantum homines, qui non habent signum Dei in frontibus suis:
+   - BSB: They were told not to harm the grass of the earth or any plant or tree, but only those who did not have the seal of God on their foreheads.
+   - WEB: They were told that they should not hurt the grass of the earth, neither any green thing, neither any tree, but only those people who don’t have God’s seal on their foreheads.
+- **9:10** substitute (word): SBLGNT *και* ] TR *ην*
+   - Latin: Caudās habēbant scorpiōrum similēs, et in caudīs erant aculeī. Eārum potestās est, hominēs lædere per quīnque mēnsēs:
+   - 1573: Caudas habebant scorpiorum similes et in caudis erant aculei. Earum potestas est, homines lædere per quinque menses:
+   - TR: Καὶ ἔχουσιν οὐρὰς ὁμοίας σκορπίοις, καὶ κέντρα ἦν ἐν ταῖς οὐραῖς αὐτῶν· καὶ ἡ ἐξουσία αὐτῶν ἀδικῆσαι τοὺς ἀνθρώπους μῆνας πέντε.
+   - SBLGNT: καὶ ἔχουσιν οὐρὰς ὁμοίας σκορπίοις καὶ κέντρα, καὶ ἐν ταῖς οὐραῖς αὐτῶν ἡ ἐξουσία αὐτῶν ἀδικῆσαι τοὺς ἀνθρώπους μῆνας πέντε.
+   - Vulgate: et habebant caudas similes scorpionum, et aculei erant in caudis earum: et potestas earum nocere hominibus mensibus quinque:
+   - BSB: They had tails with stingers like scorpions, which had the power to injure people for five months.
+   - WEB: They have tails like those of scorpions, with stingers. In their tails they have power to harm men for five months.
+- **9:11** substitute (word): SBLGNT *επ* ] TR *εφ*
+   - Latin: Habentque sibi præfectum rēgem, angelum tartarī, cui nōmen est hebraicē Abbadōn, græcō autem sermōne Apollyōn.
+   - 1573: habentque sibi præfectum regem, angelum Tartari, cui nomen est hebraicè Abbadon. Græco autem sermone Apollyon.
+   - TR: Καὶ ἔχουσιν ἐφ᾿ αὐτῶν βασιλέα τὸν ἄγγελον τῆς ἀβύσσου· ὄνομα αὐτῷ Ἑβραϊστὶ Ἀβαδδών, καὶ ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων.
+   - SBLGNT: ἔχουσιν ἐπʼ αὐτῶν βασιλέα τὸν ἄγγελον τῆς ἀβύσσου· ὄνομα αὐτῷ Ἑβραϊστὶ Ἀβαδδών, καὶ ἐν τῇ Ἑλληνικῇ ὄνομα ἔχει Ἀπολλύων.
+   - Vulgate: et habebant super se regem angelum abyssi cui nomen hebraice Abaddon, græce autem Apollyon, latine habens nomen Exterminans.
+   - BSB: They were ruled by a king, the angel of the Abyss. His name in Hebrew is Abaddon, and in Greek it is Apollyon.
+   - WEB: They have over them as king the angel of the abyss. His name in Hebrew is “Abaddon”, but in Greek, he has the name “Apollyon”.
+- **9:12** substitute (word): SBLGNT *ερχεται* ] TR *ερχονται*
+   - Latin: Ūna miseria præteriit: ventūræ sunt adhūc posthāc duæ miseriæ.
+   - 1573: Vna miseria præterijt, venturæ sunt adhuc posthac duæ miseriæ.
+   - TR: Ἡ οὐαὶ ἡ μία ἀπῆλθεν· ἰδού, ἔρχονται ἔτι δύο οὐαὶ μετὰ ταῦτα.
+   - SBLGNT: Ἡ οὐαὶ ἡ μία ἀπῆλθεν· ἰδοὺ ἔρχεται ἔτι δύο οὐαὶ μετὰ ταῦτα.
+   - Vulgate: Væ unum abiit, et ecce veniunt adhuc duo væ post hæc.
+   - BSB: The first woe has passed. Behold, two woes are still to follow.
+   - WEB: The first woe is past. Behold, there are still two woes coming after this.
+- **9:13** add (number): SBLGNT *–* ] TR *+ τεσσαρων*
+   - Latin: Deinde ubi sextus clānxit angelus, audīvī ex quattuor altāris aureī cornibus, ante Deum positī, vōcem quandam,
+   - 1573: Deinde vbi sextus clanxit angelus, audiui ex quatuor altaris aurei cornibus, ante Deum positi, vocem quandam,
+   - TR: Καὶ ὁ ἕκτος ἄγγελος ἐσάλπισε, καὶ ἤκουσα φωνὴν μίαν ἐκ τῶν τεσσάρων κεράτων τοῦ θυσιαστηρίου τοῦ χρυσοῦ τοῦ ἐνώπιον τοῦ Θεοῦ,
+   - SBLGNT: Καὶ ὁ ἕκτος ἄγγελος ἐσάλπισεν· καὶ ἤκουσα φωνὴν μίαν ἐκ τῶν κεράτων τοῦ θυσιαστηρίου τοῦ χρυσοῦ τοῦ ἐνώπιον τοῦ θεοῦ,
+   - Vulgate: Et sextus angelus tuba cecinit: et audivi vocem unam ex quatuor cornibus altaris aurei, quod est ante oculos Dei,
+   - BSB: Then the sixth angel sounded his trumpet, and I heard a voice from the four horns of the golden altar before God
+   - WEB: The sixth angel sounded. I heard a voice from the horns of the golden altar which is before God,
+- **9:14** substitute (name): SBLGNT *ο εχων* ] TR *ος ειχε*
+   - Latin: dīcentem sextō angelō, quī tubam habēbat: “Solve quattuor angelōs ad magnum flūmen Euphrātem colligātōs.”
+   - 1573: dicentem sexto angelo, qui tubam habebat: Solue quatuor angelos ad magnum flumen Euphratem colligatos.
+   - TR: λέγουσαν τῷ ἕκτῳ ἀγγέλῳ ὃς εἶχε τὴν σάλπιγγα, Λῦσον τοὺς τέσσαρας ἀγγέλους τοὺς δεδεμένους ἐπὶ τῷ ποταμῷ τῷ μεγάλῳ Εὐφράτῃ.
+   - SBLGNT: λέγοντα τῷ ἕκτῳ ἀγγέλῳ, ὁ ἔχων τὴν σάλπιγγα· Λῦσον τοὺς τέσσαρας ἀγγέλους τοὺς δεδεμένους ἐπὶ τῷ ποταμῷ τῷ μεγάλῳ Εὐφράτῃ.
+   - Vulgate: dicentem sexto angelo, qui habebat tubam: Solve quatuor angelos, qui alligati sunt in flumine magno Euphrate.
+   - BSB: saying to the sixth angel with the trumpet, “Release the four angels who are bound at the great river Euphrates.”
+   - WEB: saying to the sixth angel who had the trumpet, “Free the four angels who are bound at the great river Euphrates!”
+- **9:16** substitute (number): SBLGNT *δισμυριαδες* ] TR *δυο μυριαδες*
+   - Latin: Erat autem exercitūs equitum numerus bis mīlliēs centēna mīllia, eōrumque numerum audīvī.
+   - 1573: Erat autem exercitus equitum numerus bis millies centena millia, eorumque numerum audiui.
+   - TR: Καὶ ὁ ἀριθμὸς στρατευμάτων τοῦ ἱππικοῦ δύο μυριάδες μυριάδων· καὶ ἤκουσα τὸν ἀριθμὸν αὐτῶν.
+   - SBLGNT: καὶ ὁ ἀριθμὸς τῶν στρατευμάτων τοῦ ἱππικοῦ δισμυριάδες μυριάδων· ἤκουσα τὸν ἀριθμὸν αὐτῶν.
+   - Vulgate: Et numerus equestris exercitus vicies millies dena millia. Et audivi numerum eorum.
+   - BSB: And the number of mounted troops was two hundred million; I heard their number.
+   - WEB: The number of the armies of the horsemen was two hundred million. I heard the number of them.
+- **9:18** omit (word): SBLGNT *πληγων* ] TR *–*
+   - Latin: Ab hīs tribus clādibus interfecta est hominum pars tertia, vidēlicet igne, et fūmō, et sulphure, quæ prōdībant ex eōrum ōribus.
+   - 1573: Ab his tribus cladibus interfecta est hominum pars tertia, videlicet igne, et fumo, et sulphure quæ prodibant ex eorum oribus.
+   - TR: Ὑπὸ τῶν τριῶν τούτων ἀπεκτάνθησαν τὸ τρίτον τῶν ἀνθρώπων, ἐκ τοῦ πυρὸς καὶ ἐκ τοῦ καπνοῦ καὶ ἐκ τοῦ θείου τοῦ ἐκπορευομένου ἐκ τῶν στομάτων αὐτῶν.
+   - SBLGNT: ἀπὸ τῶν τριῶν πληγῶν τούτων ἀπεκτάνθησαν τὸ τρίτον τῶν ἀνθρώπων, ἐκ τοῦ πυρὸς καὶ τοῦ καπνοῦ καὶ τοῦ θείου τοῦ ἐκπορευομένου ἐκ τῶν στομάτων αὐτῶν.
+   - Vulgate: Et ab his tribus plagis occisa est tertia pars hominum de igne, et de fumo, et sulphure, quæ procedebant de ore ipsorum.
+   - BSB: A third of mankind was killed by the three plagues of fire, smoke, and sulfur that proceeded from their mouths.
+   - WEB: By these three plagues, one third of mankind was killed: by the fire, the smoke, and the sulfur, which proceeded out of their mouths.
+- **9:19** substitute (word): SBLGNT *εξουσια των ιππων* ] TR *εξουσιαι αυτων*; substitute (word): SBLGNT *εστι και εν ταις ουραις αυτων* ] TR *εισι*
+   - Latin: Potestās enim eōrum in ōre eōrum erat: sīquidem eōrum caudæ erant anguium similēs, capita habentēs, quibus nocērent.
+   - 1573: Potestas enim eorum in ore eorum erat: siquidem eorum caudæ erant anguium similes, capita habentes quibus nocerent.
+   - TR: Αἱ γὰρ ἐξουσίαι αὐτῶν ἐν τῷ στόματι αὐτῶν εἰσιν· αἱ γὰρ οὐραὶ αὐτῶν ὅμοιαι ὄφεσιν, ἔχουσαι κεφαλάς, καὶ ἐν αὐταῖς ἀδικοῦσι.
+   - SBLGNT: ἡ γὰρ ἐξουσία τῶν ἵππων ἐν τῷ στόματι αὐτῶν ἐστιν καὶ ἐν ταῖς οὐραῖς αὐτῶν· αἱ γὰρ οὐραὶ αὐτῶν ὅμοιαι ὄφεσιν, ἔχουσαι κεφαλάς, καὶ ἐν αὐταῖς ἀδικοῦσιν.
+   - Vulgate: Potestas enim equorum in ore eorum est, et in caudis eorum, nam caudæ eorum similes serpentibus, habentes capita: et in his nocent.
+   - BSB: For the power of the horses was in their mouths and in their tails; indeed, their tails were like snakes, having heads with which to inflict harm.
+   - WEB: For the power of the horses is in their mouths and in their tails. For their tails are like serpents, and have heads; and with them they harm.
+- **9:20** substitute (word): SBLGNT *ουδε* ] TR *ουτε*
+   - Latin: Reliquī hominum, quī hīs calamitātibus occīsī nōn sunt, nōn dēstitērunt ā suīs āctiōnibus, nē dæmonia venerārentur, et simulācra aurea, argentea, ærea, lapidea, lignea, quæ nec vidēre possunt, nec audīre, nec ingredī:
+   - 1573: Reliqui hominum, qui his calamitatibus occisi non sunt, non destiterunt à suis actionibus, ne dæmonia venerarentur, et simulacra aurea, argentea, ærea, lapidea, lignea, quæ nec videre possunt, nec audire, nec ingredi:
+   - TR: Καὶ οἱ λοιποὶ τῶν ἀνθρώπων, οἳ οὐκ ἀπεκτάνθησαν ἐν ταῖς πληγαῖς ταύταις, οὔτε μετενόησαν ἐκ τῶν ἔργων τῶν χειρῶν αὐτῶν, ἵνα μὴ προσκυνήσωσι τὰ δαιμόνια, καὶ εἴδωλα τὰ χρυσᾶ καὶ τὰ ἀργυρᾶ καὶ τὰ χαλκᾶ καὶ τὰ λίθινα καὶ τὰ ξύλινα, ἃ οὔτε βλέπειν δύναται, οὔτε ἀκούειν, οὔτε περιπατεῖν·
+   - SBLGNT: Καὶ οἱ λοιποὶ τῶν ἀνθρώπων, οἳ οὐκ ἀπεκτάνθησαν ἐν ταῖς πληγαῖς ταύταις, οὐδὲ μετενόησαν ἐκ τῶν ἔργων τῶν χειρῶν αὐτῶν, ἵνα μὴ προσκυνήσουσιν τὰ δαιμόνια καὶ τὰ εἴδωλα τὰ χρυσᾶ καὶ τὰ ἀργυρᾶ καὶ τὰ χαλκᾶ καὶ τὰ λίθινα καὶ τὰ ξύλινα, ἃ οὔτε βλέπειν δύνανται οὔτε ἀκούειν οὔτε περιπατεῖν,
+   - Vulgate: Et ceteri homines, qui non sunt occisi in his plagis, neque pœnitentiam egerunt de operibus manuum suarum, ut non adorarent dæmonia, et simulacra aurea, et argentea, et ærea, et lapidea, et lignea, quæ neque videre possunt, neque audire, neque ambulare,
+   - BSB: Now the rest of mankind who were not killed by these plagues still did not repent of the works of their hands. They did not stop worshiping demons and idols of gold, silver, bronze, stone, and wood, which cannot see or hear or walk.
+   - WEB: The rest of mankind, who were not killed with these plagues, didn’t repent of the works of their hands, that they wouldn’t worship demons, and the idols of gold, and of silver, and of brass, and of stone, and of wood, which can’t see, hear, or walk.
+- **10:1** substitute (word): SBLGNT *την κεφαλην αυτου* ] TR *της κεφαλης*
+   - Latin: Deinde vīdī alium angelum validum, dē cælō dēscendentem indūtum nūbe, cujus capitī īris incumbēbat. Faciēs erat sōlī similis, pedēs ut igneæ columnæ.
+   - 1573: Deinde vidi alium angelum validum, de cœlo, descendentem, indutum nube, cuius capiti iris incumbebat. Facies erat soli similis, pedes vt igneæ columnæ.
+   - TR: Καὶ εἶδον ἄλλον ἄγγελον ἰσχυρὸν καταβαίνοντα ἐκ τοῦ οὐρανοῦ, περιβεβλημένον νεφέλην, καὶ ἶρις ἐπὶ τῆς κεφαλῆς, καὶ τὸ πρόσωπον αὐτοῦ ὡς ὁ ἥλιος, καὶ οἱ πόδες αὐτοῦ ὡς στύλοι πυρός·
+   - SBLGNT: Καὶ εἶδον ἄλλον ἄγγελον ἰσχυρὸν καταβαίνοντα ἐκ τοῦ οὐρανοῦ, περιβεβλημένον νεφέλην, καὶ ἡ ἶρις ἐπὶ τὴν κεφαλὴν αὐτοῦ, καὶ τὸ πρόσωπον αὐτοῦ ὡς ὁ ἥλιος, καὶ οἱ πόδες αὐτοῦ ὡς στῦλοι πυρός,
+   - Vulgate: Et vidi alium angelum fortem descendentem de cælo amictum nube, et iris in capite ejus, et facies ejus erat ut sol, et pedes ejus tamquam columnæ ignis:
+   - BSB: Then I saw another mighty angel coming down from heaven, wrapped in a cloud, with a rainbow above his head. His face was like the sun, and his legs were like pillars of fire.
+   - WEB: I saw a mighty angel coming down out of the sky, clothed with a cloud. A rainbow was on his head. His face was like the sun, and his feet like pillars of fire.
+- **10:2** substitute (name): SBLGNT *εχων* ] TR *ειχε*; substitute (word): SBLGNT *ηνεωγμενον* ] TR *ανεωγμενον*; substitute (word): SBLGNT *της θαλασσης* ] TR *την θαλασσαν*; substitute (word): SBLGNT *της γης* ] TR *την γην*
+   - Latin: Habēbat autem in manū libellum apertum, posuitque pedem suum dextrum in marī, sinistrum in terrā,
+   - 1573: Habebat autem in manu libellum apertum, posuitque pedem suum dextrum in mari, sinistrum in terra,
+   - TR: καὶ εἶχεν ἐν τῇ χειρὶ αὐτοῦ βιβλαρίδιον ἀνεῳγμένον· καὶ ἔθηκε τὸν πόδα αὐτοῦ τὸν δεξιὸν ἐπὶ τὴν θάλασσαν, τὸν δὲ εὐώνυμον ἐπὶ τὴν γῆν,
+   - SBLGNT: καὶ ἔχων ἐν τῇ χειρὶ αὐτοῦ βιβλαρίδιον ἠνεῳγμένον. καὶ ἔθηκεν τὸν πόδα αὐτοῦ τὸν δεξιὸν ἐπὶ τῆς θαλάσσης, τὸν δὲ εὐώνυμον ἐπὶ τῆς γῆς,
+   - Vulgate: et habebat in manu sua libellum apertum: et posuit pedem suum dextrum super mare, sinistrum autem super terram:
+   - BSB: He held in his hand a small scroll, which lay open. He placed his right foot on the sea and his left foot on the land.
+   - WEB: He had in his hand a little open book. He set his right foot on the sea, and his left on the land.
+- **10:4** substitute (word): SBLGNT *ημελλον* ] TR *τας φωνας εαυτων εμελλον*
+   - Latin: Quibus septem tonitruīs suās vōcēs locūtīs, cum ego scrīptūrus essem, audīvī vōcem dīcentem mihi: “Cōnsignā, quæ locūta sunt septem tonitrua, et ea nē scrīpserīs.”
+   - 1573: quibus septem tonitruis suas voces locutis, cùm ego scripturus essem, audiui vocem dicentem mihi: Consigna quæ locuta sunt septem tonitrua, et ea ne scripseris.
+   - TR: Καὶ ὅτε ἐλάλησαν αἱ ἑπτὰ βρονταί τὰς φωνὰς ἑαυτῶν, ἔμελλον γράφειν· καὶ ἤκουσα φωνὴν ἐκ τοῦ οὐρανοῦ, λέγουσάν μοι, Σφράγισον ἃ ἐλάλησαν αἱ ἑπτὰ βρονταί, καὶ μὴ ταῦτα γράψῃς.
+   - SBLGNT: καὶ ὅτε ἐλάλησαν αἱ ἑπτὰ βρονταί, ἤμελλον γράφειν· καὶ ἤκουσα φωνὴν ἐκ τοῦ οὐρανοῦ λέγουσαν· Σφράγισον ἃ ἐλάλησαν αἱ ἑπτὰ βρονταί, καὶ μὴ αὐτὰ γράψῃς.
+   - Vulgate: Et cum locuta fuissent septem tonitrua voces suas, ego scripturus eram: et audivi vocem de cælo dicentem mihi: Signa quæ locuta sunt septem tonitrua: et noli ea scribere.
+   - BSB: When the seven thunders had spoken, I was about to put it in writing. But I heard a voice from heaven saying, “Seal up what the seven thunders have said, and do not write it down.”
+   - WEB: When the seven thunders sounded, I was about to write; but I heard a voice from the sky saying, “Seal up the things which the seven thunders said, and don’t write them.”
+- **10:5** omit (word): SBLGNT *την δεξιαν* ] TR *–*
+   - Latin: Tum angelus, quem in marī et in terrā stantem vīderam, sublātā in cælum suā manū,
+   - 1573: Tum angelus, quem in mari et in terra stantem videram, sublata in cœlum sua manu,
+   - TR: Καὶ ὁ ἄγγελος ὃν εἶδον ἑστῶτα ἐπὶ τῆς θαλάσσης καὶ ἐπὶ τῆς γῆς ἦρε τὴν χεῖρα αὐτοῦ εἰς τὸν οὐρανόν,
+   - SBLGNT: καὶ ὁ ἄγγελος, ὃν εἶδον ἑστῶτα ἐπὶ τῆς θαλάσσης καὶ ἐπὶ τῆς γῆς, ἦρεν τὴν χεῖρα αὐτοῦ τὴν δεξιὰν εἰς τὸν οὐρανόν,
+   - Vulgate: Et angelus, quem vidi stantem super mare et super terram, levavit manum suam ad cælum:
+   - BSB: Then the angel I had seen standing on the sea and on the land lifted up his right hand to heaven.
+   - WEB: The angel whom I saw standing on the sea and on the land lifted up his right hand to the sky
+- **10:6** substitute (word): SBLGNT *ουκετι* ] TR *ουκ*; add (word): SBLGNT *–* ] TR *+ ετι*
+   - Latin: jūrāvit per vīventem in perpetua sæcula, quī cælum et cælestia, terram et terrestria, mare et marīna condidit, futūrum esse, ut tempus deinceps nōn sit,
+   - 1573: iurauit per viuentem in perpetua secula, qui cœlum et cœlestia, terram et terrestria, mare et marina condidit, futurum esse vt tempus deinceps non sit,
+   - TR: καὶ ὤμοσεν ἐν τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων, ὃς ἔκτισε τὸν οὐρανὸν καὶ τὰ ἐν αὐτῷ, καὶ τὴν γῆν καὶ τὰ ἐν αὐτῇ, καὶ τὴν θάλασσαν καὶ τὰ ἐν αὐτῇ, ὅτι χρόνος οὐκ ἔσται ἔτι·
+   - SBLGNT: καὶ ὤμοσεν τῷ ζῶντι εἰς τοὺς αἰῶνας τῶν αἰώνων, ὃς ἔκτισεν τὸν οὐρανὸν καὶ τὰ ἐν αὐτῷ καὶ τὴν γῆν καὶ τὰ ἐν αὐτῇ καὶ τὴν θάλασσαν καὶ τὰ ἐν αὐτῇ, ὅτι χρόνος οὐκέτι ἔσται·
+   - Vulgate: et juravit per viventem in sæcula sæculorum, qui creavit cælum, et ea quæ in eo sunt: et terram, et ea quæ in ea sunt: et mare, et ea quæ in eo sunt: Quia tempus non erit amplius:
+   - BSB: And he swore by Him who lives forever and ever, who created heaven and everything in it, the earth and everything in it, and the sea and everything in it: “There will be no more delay!
+   - WEB: and swore by him who lives forever and ever, who created heaven and the things that are in it, the earth and the things that are in it, and the sea and the things that are in it, that there will no longer be delay,
+- **10:7** substitute (word): SBLGNT *ετελεσθη* ] TR *τελεσθη*; substitute (word): SBLGNT *δουλους τους προφητας* ] TR *δουλοις τοις προφηταις*
+   - Latin: vidēlicet diēbus vōcis septimī angelī, cum clānxerit, perāctumque fuerit arcānum Deī, ut suīs servīs vātibus nūntiāvit.
+   - 1573: videlicet diebus vocis septimi angeli, quum clanxerit, peractumque fuerit arcanum Dei, vt suis seruis vatibus nunciauit.
+   - TR: ἀλλὰ ἐν ταῖς ἡμέραις τῆς φωνῆς τοῦ ἑβδόμου ἀγγέλου, ὅταν μέλλῃ σαλπίζειν, καὶ τελεσθῇ τὸ μυστήριον τοῦ Θεοῦ, ὡς εὐηγγέλισε τοῖς ἑαυτοῦ δούλοις τοῖς προφήταις.
+   - SBLGNT: ἀλλʼ ἐν ταῖς ἡμέραις τῆς φωνῆς τοῦ ἑβδόμου ἀγγέλου, ὅταν μέλλῃ σαλπίζειν, καὶ ἐτελέσθη τὸ μυστήριον τοῦ θεοῦ, ὡς εὐηγγέλισεν τοὺς ἑαυτοῦ δούλους τοὺς προφήτας.
+   - Vulgate: sed in diebus vocis septimi angeli, cum cœperit tuba canere, consummabitur mysterium Dei sicut evangelizavit per servos suos prophetas.
+   - BSB: But in the days of the voice of the seventh angel, when he is about to sound his trumpet, the mystery of God will be fulfilled, just as He proclaimed to His servants the prophets.”
+   - WEB: but in the days of the voice of the seventh angel, when he is about to sound, then the mystery of God is finished, as he declared to his servants the prophets.
+- **10:9** substitute (word): SBLGNT *δουναι* ] TR *δος*
+   - Latin: Tum ego angelum aggressus: “Dā mihi libellum,” inquam. Et ille: “Accipe,” inquit, “eumque dēglūtī, et tibi ventrem amāritūdine torquēbit, quamquam in ōre tuō erit tam dulcis, quam est mel.”
+   - 1573: Tum ego angelum aggressus: Da mihi libellum, inquam. Et ille: Accipe, inquit, eumque degluti, et tibi ventrem amaritudine torquebit, quanquam in ore tuo erit tam dulcis quàm est mel.
+   - TR: Καὶ ἀπῆλθον πρὸς τὸν ἄγγελον, λέγων αὐτῷ, Δός μοι τὸ βιβλαρίδιον. Καὶ λέγει μοι, Λάβε καὶ κατάφαγε αὐτό· καὶ πικρανεῖ σου τὴν κοιλίαν, ἀλλ᾿ ἐν τῷ στόματί σου ἔσται γλυκὺ ὡς μέλι.
+   - SBLGNT: καὶ ἀπῆλθα πρὸς τὸν ἄγγελον λέγων αὐτῷ δοῦναί μοι τὸ βιβλαρίδιον. καὶ λέγει μοι· Λάβε καὶ κατάφαγε αὐτό, καὶ πικρανεῖ σου τὴν κοιλίαν, ἀλλʼ ἐν τῷ στόματί σου ἔσται γλυκὺ ὡς μέλι.
+   - Vulgate: Et abii ad angelum, dicens ei, ut daret mihi librum. Et dixit mihi: Accipe librum, et devora illum: et faciet amaricari ventrem tuum, sed in ore tuo erit dulce tamquam mel.
+   - BSB: And I went to the angel and said, “Give me the small scroll.” “Take it and eat it,” he said. “It will make your stomach bitter, but in your mouth it will be as sweet as honey.”
+   - WEB: I went to the angel, telling him to give me the little book. He said to me, “Take it and eat it. It will make your stomach bitter, but in your mouth it will be as sweet as honey.”
+- **10:11** substitute (word): SBLGNT *λεγουσι* ] TR *λεγει*
+   - Latin: Et ille mē alloquēns: “Vāticinandum tibi rūrsus est,” inquit, “super populīs, et gentibus, et linguīs, rēgibusque multīs.”
+   - 1573: Et ille me alloquens: Vaticinandum tibi rursus est, inquit, super populis, et gentibus, et linguis, regibusque multis.
+   - TR: Καὶ λέγει μοι, Δεῖ σε πάλιν προφητεῦσαι ἐπὶ λαοῖς καὶ ἔθνεσι καὶ γλώσσαις καὶ βασιλεῦσι πολλοῖς.
+   - SBLGNT: Καὶ λέγουσίν μοι· Δεῖ σε πάλιν προφητεῦσαι ἐπὶ λαοῖς καὶ ἔθνεσιν καὶ γλώσσαις καὶ βασιλεῦσιν πολλοῖς.
+   - Vulgate: et dixit mihi: Oportet te iterum prophetare gentibus, et populis, et linguis, et regibus multis.
+   - BSB: And they told me, “You must prophesy again about many peoples and nations and tongues and kings.”
+   - WEB: They told me, “You must prophesy again over many peoples, nations, languages, and kings.”
+- **11:1** add (clause): SBLGNT *–* ] TR *+ και ο αγγελος ειστηκει*
+   - Latin: Tum datus est mihi calamus virgæ similis. Et angelus stāns: “Surge,” inquit, “et Deī mētīre templum, āramque, et adōrantēs in eō.
+   - 1573: Tum datus est mihi calamus virgæ similis. Et angelus stans: Surge, inquit, et Dei metire templum, aramque, et adorantes in eo.
+   - TR: Καὶ ἐδόθη μοι κάλαμος ὅμοιος ῥάβδῳ, καὶ ὁ ἄγγελος εἱστήκει, λέγων, Ἔγειραι, καὶ μέτρησον τὸν ναὸν τοῦ Θεοῦ, καὶ τὸ θυσιαστήριον, καὶ τοὺς προσκυνοῦντας ἐν αὐτῷ.
+   - SBLGNT: Καὶ ἐδόθη μοι κάλαμος ὅμοιος ῥάβδῳ, λέγων· Ἔγειρε καὶ μέτρησον τὸν ναὸν τοῦ θεοῦ καὶ τὸ θυσιαστήριον καὶ τοὺς προσκυνοῦντας ἐν αὐτῷ.
+   - Vulgate: Et datus est mihi calamus similis virgæ, et dictum est mihi: Surge, et metire templum Dei, et altare, et adorantes in eo:
+   - BSB: Then I was given a measuring rod like a staff and was told, “Go and measure the temple of God and the altar, and count the number of worshipers there.
+   - WEB: A reed like a rod was given to me. Someone said, “Rise and measure God’s temple, and the altar, and those who worship in it.
+- **11:4** substitute (word): SBLGNT *κυριου* ] TR *θεου*
+   - Latin: Hī sunt olīvæ duæ, duoque candēlābra in cōnspectū Deī terræ stantia.
+   - 1573: Hi sunt oliuæ duæ, duoque candelabra in conspectu Dei terræ stantia.
+   - TR: Οὗτοί εἰσιν αἱ δύο ἐλαῖαι, καὶ δύο λυχνίαι αἱ ἐνώπιον τοῦ Θεοῦ τῆς γῆς ἑστῶσαι.
+   - SBLGNT: Οὗτοί εἰσιν αἱ δύο ἐλαῖαι καὶ αἱ δύο λυχνίαι αἱ ἐνώπιον τοῦ κυρίου τῆς γῆς ἑστῶτες.
+   - Vulgate: Hi sunt duæ olivæ et duo candelabra in conspectu Domini terræ stantes.
+   - BSB: These witnesses are the two olive trees and the two lampstands that stand before the Lord of the earth.
+   - WEB: These are the two olive trees and the two lamp stands, standing before the Lord of the earth.
+- **11:5** substitute (word): SBLGNT *θελει* ] TR *θελη*; add (word): SBLGNT *–* ] TR *+ θελη*
+   - Latin: Quod sī quis eōs lædere vult, mānat ex eōrum ōre ignis, quī eōrum hostēs cōnficit, et sī quis eōs lædere vult, sīc interficiendus est.
+   - 1573: Quòd si quis eos lædere vult, manat ex eorum ore ignis, qui eorum hostes conficit: et si quis eos lædere vult, sic interficiendus est.
+   - TR: Καὶ εἴ τις αὐτοὺς θέλῃ ἀδικῆσαι, πῦρ ἐκπορεύεται ἐκ τοῦ στόματος αὐτῶν, καὶ κατεσθίει τοὺς ἐχθροὺς αὐτῶν· καὶ εἴ τις αὐτοὺς θέλῃ ἀδικῆσαι, οὕτω δεῖ αὐτὸν ἀποκτανθῆναι.
+   - SBLGNT: καὶ εἴ τις αὐτοὺς θέλει ἀδικῆσαι, πῦρ ἐκπορεύεται ἐκ τοῦ στόματος αὐτῶν καὶ κατεσθίει τοὺς ἐχθροὺς αὐτῶν· καὶ εἴ τις θελήσῃ αὐτοὺς ἀδικῆσαι, οὕτως δεῖ αὐτὸν ἀποκτανθῆναι.
+   - Vulgate: Et si quis voluerit eos nocere, ignis exiet de ore eorum, et devorabit inimicos eorum: et si quis voluerit eos lædere, sic oportet eum occidi.
+   - BSB: If anyone wants to harm them, fire proceeds from their mouths and devours their enemies. In this way, anyone who wants to harm them must be killed.
+   - WEB: If anyone desires to harm them, fire proceeds out of their mouth and devours their enemies. If anyone desires to harm them, he must be killed in this way.
+- **11:6** add (word): SBLGNT *–* ] TR *+ βρεχη*; substitute (word): SBLGNT *βρεχη τας ημερας* ] TR *εν ημεραις αυτων*
+   - Latin: Hī potestātem habent claudendī cælī, nē pluat imber tempore suæ vāticinātiōnis: habentque in aquās potestātem, eās in sanguinem convertendī, et terræ quamlibet clādem īnflīgendī, quotiēns velint.
+   - 1573: Hi potestatem habent claudendi cœli, ne pluat imber tempore suæ vaticinationis: habentque in aquas potestatem, eas in sanguinem conuertendi, et terræ quamlibet cladem infligendi, quoties velint.
+   - TR: Οὗτοι ἔχουσιν ἐξουσίαν κλεῖσαι τὸν οὐρανόν, ἵνα μὴ βρέχῃ ὑετὸς ἐν ἡμέραις αὐτῶν τῆς προφητείας· καὶ ἐξουσίαν ἔχουσιν ἐπὶ τῶν ὑδάτων, στρέφειν αὐτὰ εἰς αἷμα, καὶ πατάξαι τὴν γῆν πάσῃ πληγῇ, ὁσάκις ἐὰν θελήσωσι.
+   - SBLGNT: οὗτοι ἔχουσιν τὴν ἐξουσίαν κλεῖσαι τὸν οὐρανόν, ἵνα μὴ ὑετὸς βρέχῃ τὰς ἡμέρας τῆς προφητείας αὐτῶν, καὶ ἐξουσίαν ἔχουσιν ἐπὶ τῶν ὑδάτων στρέφειν αὐτὰ εἰς αἷμα καὶ πατάξαι τὴν γῆν ἐν πάσῃ πληγῇ ὁσάκις ἐὰν θελήσωσιν.
+   - Vulgate: Hi habent potestatem claudendi cælum, ne pluat diebus prophetiæ ipsorum: et potestatem habent super aquas convertendi eas in sanguinem, et percutere terram omni plaga quotiescumque voluerint.
+   - BSB: These witnesses have power to shut the sky so that no rain will fall during the days of their prophecy, and power to turn the waters into blood and to strike the earth with every kind of plague as often as they wish.
+   - WEB: These have the power to shut up the sky, that it may not rain during the days of their prophecy. They have power over the waters, to turn them into blood, and to strike the earth with every plague, as often as they desire.
+- **11:7** add (word): SBLGNT *–* ] TR *+ πολεμον*; omit (word): SBLGNT *πολεμον* ] TR *–*
+   - Latin: Cum autem suum testimōnium perēgerint, bēstia ex tartarō ascendet, quæ eōs aggressa, bellō vincet ac interficiet:
+   - 1573: Quum autem suum testimonium peregerint, bestia ex tartaro ascendet, quæ eos aggressa, bello vincet ac interficiet:
+   - TR: Καὶ ὅταν τελέσωσι τὴν μαρτυρίαν αὐτῶν, τὸ θηρίον τὸ ἀναβαῖνον ἐκ τῆς ἀβύσσου ποιήσει πόλεμον μετ᾿ αὐτῶν, καὶ νικήσει αὐτούς, καὶ ἀποκτενεῖ αὐτούς.
+   - SBLGNT: Καὶ ὅταν τελέσωσιν τὴν μαρτυρίαν αὐτῶν, τὸ θηρίον τὸ ἀναβαῖνον ἐκ τῆς ἀβύσσου ποιήσει μετʼ αὐτῶν πόλεμον καὶ νικήσει αὐτοὺς καὶ ἀποκτενεῖ αὐτούς.
+   - Vulgate: Et cum finierint testimonium suum, bestia, quæ ascendit de abysso, faciet adversum eos bellum, et vincet illos, et occidet eos.
+   - BSB: When the two witnesses have finished their testimony, the beast that comes up from the Abyss will wage war with them, and will overpower and kill them.
+   - WEB: When they have finished their testimony, the beast that comes up out of the abyss will make war with them, and overcome them, and kill them.
+- **11:8** substitute (word): SBLGNT *το πτωμα* ] TR *τα πτωματα*
+   - Latin: Jacēbuntque eōrum corpora in urbis magnæ forō, quæ vocātur spīrituāliter Sodoma et Ægyptus, ubi etiam Dominus noster crucī fīxus est:
+   - 1573: iacebuntque eorum corpora in vrbis magnæ foro, quæ vocatur spiritualiter Sodoma, et Ægyptus, vbi etiam Dominus noster cruci fixus est:
+   - TR: Καὶ τὰ πτώματα αὐτῶν ἐπὶ τῆς πλατείας πόλεως τῆς μεγάλης, ἥτις καλεῖται πνευματικῶς Σόδομα καὶ Αἴγυπτος, ὅπου καὶ ὁ Κύριος ἡμῶν ἐσταυρώθη.
+   - SBLGNT: καὶ τὸ πτῶμα αὐτῶν ἐπὶ τῆς πλατείας τῆς πόλεως τῆς μεγάλης, ἥτις καλεῖται πνευματικῶς Σόδομα καὶ Αἴγυπτος, ὅπου καὶ ὁ κύριος αὐτῶν ἐσταυρώθη.
+   - Vulgate: Et corpora eorum jacebunt in plateis civitatis magnæ, quæ vocatur spiritualiter Sodoma, et Ægyptus, ubi et Dominus eorum crucifixus est.
+   - BSB: Their bodies will lie in the street of the great city—figuratively called Sodom and Egypt—where their Lord was also crucified.
+   - WEB: Their dead bodies will be in the street of the great city, which spiritually is called Sodom and Egypt, where also their Lord was crucified.
+- **11:9** substitute (word): SBLGNT *βλεπουσι* ] TR *βλεψουσι*; substitute (word): SBLGNT *το πτωμα* ] TR *τα πτωματα*
+   - Latin: Et aspicient hominēs dē populīs et nātiōnibus, linguīsque et gentibus eōrum corpora trēs diēs et dīmidium, nec sinent eōrum corpora monumentīs mandārī.
+   - 1573: et aspicient homines de populis et nationibus, linguisque et gentibus eorum corpora tres dies et dimidium, nec sinent eorum corpora monumentis mandari.
+   - TR: Καὶ βλέψουσιν ἐκ τῶν λαῶν καὶ φυλῶν καὶ γλωσσῶν καὶ ἐθνῶν τὰ πτώματα αὐτῶν ἡμέρας τρεῖς καὶ ἥμισυ, καὶ τὰ πτώματα αὐτῶν οὐκ ἀφήσουσι τεθῆναι εἰς μνήματα.
+   - SBLGNT: καὶ βλέπουσιν ἐκ τῶν λαῶν καὶ φυλῶν καὶ γλωσσῶν καὶ ἐθνῶν τὸ πτῶμα αὐτῶν ἡμέρας τρεῖς καὶ ἥμισυ, καὶ τὰ πτώματα αὐτῶν οὐκ ἀφίουσιν τεθῆναι εἰς μνῆμα.
+   - Vulgate: Et videbunt de tribubus, et populis, et linguis, et gentibus corpora eorum per tres dies et dimidium: et corpora eorum non sinent poni in monumentis:
+   - BSB: For three and a half days all peoples and tribes and tongues and nations will view their bodies and will not permit them to be laid in a tomb.
+   - WEB: From among the peoples, tribes, languages, and nations, people will look at their dead bodies for three and a half days, and will not allow their dead bodies to be laid in a tomb.
+- **11:10** substitute (word): SBLGNT *χαιρουσι* ] TR *χαρουσι*
+   - Latin: Gaudēbunt autem terræ incolæ super iīs, lætīque dōna mittent inter sēsē, quod hī duo vātēs cruciāverint incolās terræ.
+   - 1573: Gaudebunt autem terræ incolæ super eis, lætique dona mittent inter sese, quòd hi duo vates cruciauerint incolas terræ.
+   - TR: Καὶ οἱ κατοικοῦντες ἐπὶ τῆς γῆς χαροῦσιν ἐπ᾿ αὐτοῖς καὶ εὐφρανθήσονται, καὶ δῶρα πέμψουσιν ἀλλήλοις, ὅτι οὗτοι οἱ δύο προφῆται ἐβασάνισαν τοὺς κατοικοῦντας ἐπὶ τῆς γῆς.
+   - SBLGNT: καὶ οἱ κατοικοῦντες ἐπὶ τῆς γῆς χαίρουσιν ἐπʼ αὐτοῖς καὶ εὐφραίνονται, καὶ δῶρα πέμψουσιν ἀλλήλοις, ὅτι οὗτοι οἱ δύο προφῆται ἐβασάνισαν τοὺς κατοικοῦντας ἐπὶ τῆς γῆς.
+   - Vulgate: et inhabitantes terram gaudebunt super illos, et jucundabuntur: et munera mittent invicem, quoniam hi duo prophetæ cruciaverunt eos, qui habitabant super terram.
+   - BSB: And those who dwell on the earth will gloat over them, and will celebrate and send one another gifts, because these two prophets had tormented them.
+   - WEB: Those who dwell on the earth will rejoice over them, and they will be glad. They will give gifts to one another, because these two prophets tormented those who dwell on the earth.
+- **11:11** substitute (word): SBLGNT *εν αυτοις* ] TR *επ αυτους*
+   - Latin: Vērum post diēs trēs et dīmidium, vītālī spīritū ā Deō in eōs ingressō, cōnstitērunt in pedēs suōs, magnō timōre correptīs iīs, quī eōs spectābant.
+   - 1573: Verùm post dies tres et dimidium, vitali spiritu à Deo in eos ingresso, constiterunt in pedes suos, magno timore correptis ijs qui eos spectabant:
+   - TR: Καὶ μετὰ τὰς τρεῖς ἡμέρας καὶ ἥμισυ, πνεῦμα ζωῆς ἐκ τοῦ Θεοῦ εἰσῆλθεν ἐπ᾿ αὐτούς, καὶ ἔστησαν ἐπὶ τοὺς πόδας αὐτῶν, καὶ φόβος μέγας ἔπεσεν ἐπὶ τοὺς θεωροῦντας αὐτούς.
+   - SBLGNT: Καὶ μετὰ τὰς τρεῖς ἡμέρας καὶ ἥμισυ πνεῦμα ζωῆς ἐκ τοῦ θεοῦ εἰσῆλθεν ἐν αὐτοῖς, καὶ ἔστησαν ἐπὶ τοὺς πόδας αὐτῶν, καὶ φόβος μέγας ἐπέπεσεν ἐπὶ τοὺς θεωροῦντας αὐτούς·
+   - Vulgate: Et post dies tres et dimidium, spiritus vitæ a Deo intravit in eos. Et steterunt super pedes suos, et timor magnus cecidit super eos qui viderunt eos.
+   - BSB: But after the three and a half days, the breath of life from God entered the two witnesses, and they stood on their feet, and great fear fell upon those who saw them.
+   - WEB: After the three and a half days, the breath of life from God entered into them, and they stood on their feet. Great fear fell on those who saw them.
+- **11:15** substitute (word): SBLGNT *λεγοντες εγενετο η βασιλεια* ] TR *λεγουσαι εγενοντο αι βασιλειαι*
+   - Latin: Deinde septimus clānxit angelus, exstitēruntque magnæ vōcēs in cælō dīcentēs: “Facta sunt mundī rēgna Dominī nostrī, ejusque Chrīstī, quī rēgnābit in omnem perpetuitātem.”
+   - 1573: Deinde septimus clanxit angelus, extiteruntque magnæ voces in cœlo dicentes: Facta sunt mundi regna Domini nostri, eiusque Christi, qui regnabit in omnem perpetuitatem.
+   - TR: Καὶ ὁ ἕβδομος ἄγγελος ἐσάλπισε, καὶ ἐγένοντο φωναὶ μεγάλαι ἐν τῷ οὐρανῷ, λέγουσαι, Ἐγένοντο αἱ βασιλεῖαι τοῦ κόσμου τοῦ Κυρίου ἡμῶν καὶ τοῦ Χριστοῦ αὐτοῦ, καὶ βασιλεύσει εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - SBLGNT: Καὶ ὁ ἕβδομος ἄγγελος ἐσάλπισεν· καὶ ἐγένοντο φωναὶ μεγάλαι ἐν τῷ οὐρανῷ λέγοντες· Ἐγένετο ἡ βασιλεία τοῦ κόσμου τοῦ κυρίου ἡμῶν καὶ τοῦ χριστοῦ αὐτοῦ, καὶ βασιλεύσει εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - Vulgate: Et septimus angelus tuba cecinit: et factæ sunt voces magnæ in cælo dicentes: Factum est regnum hujus mundi, Domini nostri et Christi ejus, et regnabit in sæcula sæculorum. Amen.
+   - BSB: Then the seventh angel sounded his trumpet, and loud voices called out in heaven: “The kingdom of the world has become the kingdom of our Lord and of His Christ, and He will reign forever and ever.”
+   - WEB: The seventh angel sounded, and great voices in heaven followed, saying, “The kingdom of the world has become the Kingdom of our Lord and of his Christ. He will reign forever and ever!”
+- **11:17** add (clause): SBLGNT *–* ] TR *+ και ο ερχομενος*
+   - Latin: “Agimus tibi grātiās, Domine Deus omnipotēns, quī es, quī fuistī, quīque futūrus es: quod magnam tuam potestātem adeptus rēgnum iniistī,
+   - 1573: Agimus tibi gratias, Domine Deus omnipotens, qui es, qui fuisti, quique futurus es: quòd magnam tuam potestatem adeptus, regnum inijsti,
+   - TR: λέγοντες, Εὐχαριστοῦμέν σοι, Κύριε ὁ Θεὸς ὁ παντοκράτωρ, ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος, ὅτι εἴληφας τὴν δύναμίν σου τὴν μεγάλην, καὶ ἐβασίλευσας.
+   - SBLGNT: λέγοντες· Εὐχαριστοῦμέν σοι, κύριε, ὁ θεός, ὁ παντοκράτωρ, ὁ ὢν καὶ ὁ ἦν, ὅτι εἴληφας τὴν δύναμίν σου τὴν μεγάλην καὶ ἐβασίλευσας.
+   - Vulgate: Gratias agimus tibi, Domine Deus omnipotens, qui es, et qui eras, et qui venturus es: quia accepisti virtutem tuam magnam, et regnasti.
+   - BSB: saying: “We give thanks to You, O Lord God Almighty, the One who is and who was, because You have taken Your great power and have begun to reign.
+   - WEB: saying: “We give you thanks, Lord God, the Almighty, the one who is and who was, because you have taken your great power and reigned.
+- **12:3** add (word): SBLGNT *–* ] TR *+ διαδηματα*; omit (word): SBLGNT *διαδηματα* ] TR *–*
+   - Latin: Item cōnspectum est aliud ostentum in cælō: dracō erat ingēns, rūfus, habēns septem capita, et decem cornua, et in capitibus diadēmata septem,
+   - 1573: Item conspectum est aliud ostentum in cœlo: draco erat ingens, rufus, habens septem capita, et decem cornua, et in capitibus diademata septem,
+   - TR: Καὶ ὤφθη ἄλλο σημεῖον ἐν τῷ οὐρανῷ, καὶ ἰδού, δράκων μέγας πυρρός, ἔχων κεφαλὰς ἑπτὰ καὶ κέρατα δέκα, καὶ ἐπὶ τὰς κεφαλὰς αὐτοῦ διαδήματα ἑπτά.
+   - SBLGNT: καὶ ὤφθη ἄλλο σημεῖον ἐν τῷ οὐρανῷ, καὶ ἰδοὺ δράκων μέγας πυρρός, ἔχων κεφαλὰς ἑπτὰ καὶ κέρατα δέκα καὶ ἐπὶ τὰς κεφαλὰς αὐτοῦ ἑπτὰ διαδήματα,
+   - Vulgate: Et visum est aliud signum in cælo: et ecce draco magnus rufus habens capita septem, et cornua decem: et in capitibus ejus diademata septem,
+   - BSB: Then another sign appeared in heaven: a huge red dragon with seven heads, ten horns, and seven royal crowns on his heads.
+   - WEB: Another sign was seen in heaven. Behold, a great red dragon, having seven heads and ten horns, and on his heads seven crowns.
+- **12:6** omit (word): SBLGNT *εκει* ] TR *–*
+   - Latin: Mulier autem fūgit in sōlitūdinem, ubi locum habet ā Deō parātum, ut illīc alātur diēs mīlle ducentōs sexāgintā.
+   - 1573: Mulier autem fugit in solitudinem, vbi locum habet à Deo paratum, vt illic alatur dies mille ducentos sexaginta.
+   - TR: Καὶ ἡ γυνὴ ἔφυγεν εἰς τὴν ἔρημον, ὅπου ἔχει τόπον ἡτοιμασμένον ἀπὸ τοῦ Θεοῦ, ἵνα ἐκεῖ τρέφωσιν αὐτὴν ἡμέρας χιλίας διακοσίας ἑξήκοντα.
+   - SBLGNT: καὶ ἡ γυνὴ ἔφυγεν εἰς τὴν ἔρημον, ὅπου ἔχει ἐκεῖ τόπον ἡτοιμασμένον ἀπὸ τοῦ θεοῦ, ἵνα ἐκεῖ τρέφωσιν αὐτὴν ἡμέρας χιλίας διακοσίας ἑξήκοντα.
+   - Vulgate: et mulier fugit in solitudinem ubi habebat locum paratum a Deo, ut ibi pascant eam diebus mille ducentis sexaginta.
+   - BSB: And the woman fled into the wilderness, where God had prepared a place for her to be nourished for 1,260 days.
+   - WEB: The woman fled into the wilderness, where she has a place prepared by God, that there they may nourish her one thousand two hundred sixty days.
+- **12:7** substitute (word): SBLGNT *του πολεμησαι μετα* ] TR *επολεμησαν κατα*
+   - Latin: Factum est autem in cælō prælium, Michāēl et ejus angelī adversus dracōnem pugnābant:
+   - 1573: Factum est autem in cœlo prælium, Michael et eius angeli aduersus draconem pugnabant:
+   - TR: Καὶ ἐγένετο πόλεμος ἐν τῷ οὐρανῷ· ὁ Μιχαὴλ καὶ οἱ ἄγγελοι αὐτοῦ ἐπολέμησαν κατὰ τοῦ δράκοντος· καὶ ὁ δράκων ἐπολέμησε, καὶ οἱ ἄγγελοι αὐτοῦ,
+   - SBLGNT: Καὶ ἐγένετο πόλεμος ἐν τῷ οὐρανῷ, ὁ Μιχαὴλ καὶ οἱ ἄγγελοι αὐτοῦ τοῦ πολεμῆσαι μετὰ τοῦ δράκοντος. καὶ ὁ δράκων ἐπολέμησεν καὶ οἱ ἄγγελοι αὐτοῦ,
+   - Vulgate: Et factum est prælium magnum in cælo: Michaël et angeli ejus præliabantur cum dracone, et draco pugnabat, et angeli ejus:
+   - BSB: Then a war broke out in heaven: Michael and his angels fought against the dragon, and the dragon and his angels fought back.
+   - WEB: There was war in the sky. Michael and his angels made war on the dragon. The dragon and his angels made war.
+- **12:8** substitute (word): SBLGNT *ισχυσε ουδε* ] TR *ισχυσαν ουτε*
+   - Latin: Et dracō ejusque angelī pugnantēs victī sunt, nec ūllus exstitit jam eōrum locus in cælō.
+   - 1573: et draco eiusque angeli pugnantes victi sunt, nec vllus extitit iam eorum locus in cœlo.
+   - TR: καὶ οὐκ ἴσχυσαν, οὔτε τόπος εὑρέθη αὐτῶν ἔτι ἐν τῷ οὐρανῷ.
+   - SBLGNT: καὶ οὐκ ἴσχυσεν, οὐδὲ τόπος εὑρέθη αὐτῶν ἔτι ἐν τῷ οὐρανῷ.
+   - Vulgate: et non valuerunt, neque locus inventus est eorum amplius in cælo.
+   - BSB: But the dragon was not strong enough, and no longer was any place found in heaven for him and his angels.
+   - WEB: They didn’t prevail. No place was found for them any more in heaven.
+- **12:10** add (word): SBLGNT *–* ] TR *+ λεγουσαν*; omit (word): SBLGNT *λεγουσαν* ] TR *–*; substitute (word): SBLGNT *εβληθη* ] TR *κατεβληθη*
+   - Latin: Deinde magnam vōcem audīvī dīcentem: “In cælō nunc facta est salūs, et potestās, et rēgnum Deī nostrī, et potentia Chrīstī ejus: quoniam dējectus est frātrum nostrōrum accūsātor, quī eōs apud Deum nostrum diēs et noctēs accūsābat.
+   - 1573: Deinde magnam vocem audiui dicentem: In cœlo nunc facta est salus, et potestas, et regnum Dei nostri, et potentia Christi eius: quoniam deiectus est fratrum nostrorum accusator; qui eos apud Deum nostrum dies et noctes accusabat.
+   - TR: Καὶ ἤκουσα φωνὴν μεγάλην λέγουσαν ἐν τῷ οὐρανῷ, Ἄρτι ἐγένετο ἡ σωτηρία καὶ ἡ δύναμις καὶ ἡ βασιλεία τοῦ Θεοῦ ἡμῶν, καὶ ἡ ἐξουσία τοῦ Χριστοῦ αὐτοῦ· ὅτι κατεβλήθη ὁ κατήγορος τῶν ἀδελφῶν ἡμῶν, ὁ κατηγορῶν αὐτῶν ἐνώπιον τοῦ Θεοῦ ἡμῶν ἡμέρας καὶ νυκτός.
+   - SBLGNT: Καὶ ἤκουσα φωνὴν μεγάλην ἐν τῷ οὐρανῷ λέγουσαν· Ἄρτι ἐγένετο ἡ σωτηρία καὶ ἡ δύναμις καὶ ἡ βασιλεία τοῦ θεοῦ ἡμῶν καὶ ἡ ἐξουσία τοῦ χριστοῦ αὐτοῦ, ὅτι ἐβλήθη ὁ κατήγωρ τῶν ἀδελφῶν ἡμῶν, ὁ κατηγορῶν αὐτοὺς ἐνώπιον τοῦ θεοῦ ἡμῶν ἡμέρας καὶ νυκτός.
+   - Vulgate: Et audivi vocem magnam in cælo dicentem: Nunc facta est salus, et virtus, et regnum Dei nostri, et potestas Christi ejus: quia projectus est accusator fratrum nostrorum, qui accusabat illos ante conspectum Dei nostri die ac nocte.
+   - BSB: And I heard a loud voice in heaven saying: “Now have come the salvation and the power and the kingdom of our God, and the authority of His Christ. For the accuser of our brothers has been thrown down— he who accuses them day and night before our God.
+   - WEB: I heard a loud voice in heaven, saying, “Now the salvation, the power, and the Kingdom of our God, and the authority of his Christ has come; for the accuser of our brothers has been thrown down, who accuses them before our God day and night.
+- **12:12** add (word): SBLGNT *–* ] TR *+ τοις κατοικουσι*
+   - Latin: Proptereā lætāminī cælī, et cælicolæ. Væ terræ et maris incolīs: quandoquidem dēscendit diabolus ad vōs, magnō furōre percitus, sciēns, habēre sē breve tempus.”
+   - 1573: Propterea lætamini cœli, et cœlicolæ. Væ terræ et maris incolis: quandoquidem descendit diabolus ad vos, magno furore percitus, sciens, habere se breue tempus.
+   - TR: Διὰ τοῦτο εὐφραίνεσθε, οἱ οὐρανοὶ καὶ οἱ ἐν αὐτοῖς σκηνοῦντες. Οὐαὶ τοῖς κατοικοῦσι τὴν γῆν καὶ τὴν θάλασσαν, ὅτι κατέβη ὁ διάβολος πρὸς ὑμᾶς ἔχων θυμὸν μέγαν, εἰδὼς ὅτι ὀλίγον καιρὸν ἔχει.
+   - SBLGNT: διὰ τοῦτο εὐφραίνεσθε, οἱ οὐρανοὶ καὶ οἱ ἐν αὐτοῖς σκηνοῦντες. οὐαὶ τὴν γῆν καὶ τὴν θάλασσαν, ὅτι κατέβη ὁ διάβολος πρὸς ὑμᾶς, ἔχων θυμὸν μέγαν, εἰδὼς ὅτι ὀλίγον καιρὸν ἔχει.
+   - Vulgate: Propterea lætamini cæli, et qui habitatis in eis. Væ terræ, et mari, quia descendit diabolus ad vos habens iram magnam, sciens quod modicum tempus habet.
+   - BSB: Therefore rejoice, O heavens, and you who dwell in them! But woe to the earth and the sea; with great fury the devil has come down to you, knowing he has only a short time.”
+   - WEB: Therefore rejoice, heavens, and you who dwell in them. Woe to the earth and to the sea, because the devil has gone down to you, having great wrath, knowing that he has but a short time.”
+- **12:13** substitute (word): SBLGNT *αρσενα* ] TR *αρρενα*
+   - Latin: Ubi dracō sē ad terram dējectum vīdit, mulierem persecūtus est, quæ marem pepererat.
+   - 1573: Vbi draco se ad terram deiectum vidit, mulierem persecutus est, quæ marem pepererat.
+   - TR: Καὶ ὅτε εἶδεν ὁ δράκων ὅτι ἐβλήθη εἰς τὴν γῆν, ἐδίωξε τὴν γυναῖκα ἥτις ἔτεκε τὸν ἄρρενα.
+   - SBLGNT: Καὶ ὅτε εἶδεν ὁ δράκων ὅτι ἐβλήθη εἰς τὴν γῆν, ἐδίωξεν τὴν γυναῖκα ἥτις ἔτεκεν τὸν ἄρσενα.
+   - Vulgate: Et postquam vidit draco quod projectus esset in terram, persecutus est mulierem, quæ peperit masculum:
+   - BSB: And when the dragon saw that he had been thrown to the earth, he pursued the woman who had given birth to the male child.
+   - WEB: When the dragon saw that he was thrown down to the earth, he persecuted the woman who gave birth to the male child.
+- **12:15** add (clause): SBLGNT *–* ] TR *+ οπισω της γυναικος*; omit (clause): SBLGNT *οπισω της γυναικος* ] TR *–*; substitute (word): SBLGNT *αυτην* ] TR *ταυτην*
+   - Latin: Jēcit autem serpēns post mulierem, ex ōre suō, aquam flūminis īnstar, quō eam flūmine submergeret.
+   - 1573: Iecit autem serpens post mulierem, ex ore suo, aquam fluminis instar, quo eam flumine summergeret.
+   - TR: Καὶ ἔβαλεν ὁ ὄφις ὀπίσω τῆς γυναικὸς ἐκ τοῦ στόματος αὐτοῦ ὕδωρ ὡς ποταμόν, ἵνα ταύτην ποταμοφόρητον ποιήσῃ.
+   - SBLGNT: καὶ ἔβαλεν ὁ ὄφις ἐκ τοῦ στόματος αὐτοῦ ὀπίσω τῆς γυναικὸς ὕδωρ ὡς ποταμόν, ἵνα αὐτὴν ποταμοφόρητον ποιήσῃ.
+   - Vulgate: Et misit serpens ex ore suo post mulierem, aquam tamquam flumen, ut eam faceret trahi a flumine.
+   - BSB: Then from the mouth of the serpent spewed water like a river to overtake the woman and sweep her away in the torrent.
+   - WEB: The serpent spewed water out of his mouth after the woman like a river, that he might cause her to be carried away by the stream.
+- **12:17** add (word): SBLGNT *–* ] TR *+ χριστου*
+   - Latin: Tum īrātus mulierī dracō, īvit illātum bellum reliquīs ejus sēminis, quī Deī præceptīs obœdīrent, et Jēsū Chrīstī testimōnium habērent.
+   - 1573: Tum iratus mulieri draco, iuit illatum bellum reliquis eius seminis, qui Dei præceptis obedirent, et Iesu Christi testimonium haberent.
+   - TR: Καὶ ὠργίσθη ὁ δράκων ἐπὶ τῇ γυναικί, καὶ ἀπῆλθε ποιῆσαι πόλεμον μετὰ τῶν λοιπῶν τοῦ σπέρματος αὐτῆς, τῶν τηρούντων τὰς ἐντολὰς τοῦ Θεοῦ καὶ ἐχόντων τὴν μαρτυρίαν τοῦ Ἰησοῦ Χριστοῦ.
+   - SBLGNT: καὶ ὠργίσθη ὁ δράκων ἐπὶ τῇ γυναικί, καὶ ἀπῆλθεν ποιῆσαι πόλεμον μετὰ τῶν λοιπῶν τοῦ σπέρματος αὐτῆς, τῶν τηρούντων τὰς ἐντολὰς τοῦ θεοῦ καὶ ἐχόντων τὴν μαρτυρίαν Ἰησοῦ·
+   - Vulgate: Et iratus est draco in mulierem: et abiit facere prælium cum reliquis de semine ejus, qui custodiunt mandata Dei, et habent testimonium Jesu Christi.
+   - BSB: And the dragon was enraged at the woman, and went to make war with the rest of her children, who keep the commandments of God and hold to the testimony of Jesus. And the dragon stood on the shore of the sea.
+   - WEB: The dragon grew angry with the woman, and went away to make war with the rest of her offspring, who keep God’s commandments and hold Jesus’ testimony.
+- **13:1** add (clause): SBLGNT *–* ] TR *+ και εσταθην επι την αμμον της θαλασσης*; add (clause): SBLGNT *–* ] TR *+ κεφαλας επτα και*; omit (clause): SBLGNT *και κεφαλας επτα* ] TR *–*
+   - Latin: Ego in maris arēnā stāns, vīdī ascendentem ex marī bēstiam, habentem capita septem, et cornua decem, et in cornibus diadēmata decem, et super capita nōmen contumēliōsum.
+   - 1573: Ego in maris arena stans, vidi ascendentem ex mari bestiam, habentem capita septem, et cornua decem, et in cornibus diademata decem, et super capita nomen contumeliosum.
+   - TR: Καὶ ἐστάθην ἐπὶ τὴν ἄμμον τῆς θαλάσσης· καὶ εἶδον ἐκ τῆς θαλάσσης θηρίον ἀναβαῖνον, ἔχον κεφαλὰς ἑπτὰ καὶ κέρατα δέκα, καὶ ἐπὶ τῶν κεράτων αὐτοῦ δέκα διαδήματα, καὶ ἐπὶ τὰς κεφαλὰς αὐτοῦ ὄνομα βλασφημίας.
+   - SBLGNT: Καὶ εἶδον ἐκ τῆς θαλάσσης θηρίον ἀναβαῖνον, ἔχον κέρατα δέκα καὶ κεφαλὰς ἑπτά, καὶ ἐπὶ τῶν κεράτων αὐτοῦ δέκα διαδήματα, καὶ ἐπὶ τὰς κεφαλὰς αὐτοῦ ὀνόματα βλασφημίας.
+   - Vulgate: Et stetit supra arenam maris. Et vidi de mari bestiam ascendentem habentem capita septem, et cornua decem, et super cornua ejus decem diademata, et super capita ejus nomina blasphemiæ.
+   - BSB: Then I saw a beast with ten horns and seven heads rising out of the sea. There were ten royal crowns on its horns and blasphemous names on its heads.
+   - WEB: Then I stood on the sand of the sea. I saw a beast coming up out of the sea, having ten horns and seven heads. On his horns were ten crowns, and on his heads, blasphemous names.
+- **13:2** substitute (word): SBLGNT *αρκου* ] TR *αρκτου*
+   - Latin: Erat autem bēstia, quam vīdī, pardalī similis, pedibus ursīnīs, ōre leōnīnō similī. Eī dracō suās vīrēs suumque solium, et magnam dedit potentiam.
+   - 1573: Erat autem bestia, quam vidi, pardali similis, pedibus vrsinis, ore leonino simili. Ei draco suas vires suumque solium, et magnam dedit potentiam.
+   - TR: Καὶ τὸ θηρίον, ὃ εἶδον, ἦν ὅμοιον παρδάλει, καὶ οἱ πόδες αὐτοῦ ὡς ἄρκτου, καὶ τὸ στόμα αὐτοῦ ὡς στόμα λέοντος· καὶ ἔδωκεν αὐτῷ ὁ δράκων τὴν δύναμιν αὐτοῦ, καὶ τὸν θρόνον αὐτοῦ, καὶ ἐξουσίαν μεγάλην.
+   - SBLGNT: καὶ τὸ θηρίον ὃ εἶδον ἦν ὅμοιον παρδάλει, καὶ οἱ πόδες αὐτοῦ ὡς ἄρκου, καὶ τὸ στόμα αὐτοῦ ὡς στόμα λέοντος. καὶ ἔδωκεν αὐτῷ ὁ δράκων τὴν δύναμιν αὐτοῦ καὶ τὸν θρόνον αὐτοῦ καὶ ἐξουσίαν μεγάλην.
+   - Vulgate: Et bestia, quam vidi, similis erat pardo, et pedes ejus sicut pedes ursi, et os ejus sicut os leonis. Et dedit illi draco virtutem suam, et potestatem magnam.
+   - BSB: The beast I saw was like a leopard, with the feet of a bear and the mouth of a lion. And the dragon gave the beast his power and his throne and great authority.
+   - WEB: The beast which I saw was like a leopard, and his feet were like those of a bear, and his mouth like the mouth of a lion. The dragon gave him his power, his throne, and great authority.
+- **13:3** add (word): SBLGNT *–* ] TR *+ ειδον*
+   - Latin: Deinde vīdī ūnum ejus capitum pæne morte exstīnctum, sed cujus lētiferum vulnus sānātum est. Itaque tantæ fuit per tōtam terram admīrātiōnī bēstia,
+   - 1573: Deinde vidi vnum eius capitum pænè morte extinctum, sed cuius letiferum vulnus sanatum est. Itaque tantæ fuit per totam terram admirationi bestia,
+   - TR: Καὶ εἶδον μίαν τῶν κεφαλῶν αὐτοῦ ὡς ἐσφαγμένην εἰς θάνατον· καὶ ἡ πληγὴ τοῦ θανάτου αὐτοῦ ἐθεραπεύθη· καὶ ἐθαύμασεν ὅλη ἡ γῆ ὀπίσω τοῦ θηρίου·
+   - SBLGNT: καὶ μίαν ἐκ τῶν κεφαλῶν αὐτοῦ ὡς ἐσφαγμένην εἰς θάνατον, καὶ ἡ πληγὴ τοῦ θανάτου αὐτοῦ ἐθεραπεύθη. καὶ ἐθαυμάσθη ὅλη ἡ γῆ ὀπίσω τοῦ θηρίου,
+   - Vulgate: Et vidi unum de capitibus suis quasi occisum in mortem: et plaga mortis ejus curata est. Et admirata est universa terra post bestiam.
+   - BSB: One of the heads of the beast appeared to be mortally wounded. But the mortal wound was healed, and the whole world marveled and followed the beast.
+   - WEB: One of his heads looked like it had been wounded fatally. His fatal wound was healed, and the whole earth marveled at the beast.
+- **13:4** substitute (word): SBLGNT *τω δρακοντι οτι* ] TR *τον δρακοντα ος*; substitute (word): SBLGNT *τω θηριω* ] TR *το θηριον*
+   - Latin: ut dracōnem venerārentur, quī potentiam dedisset bēstiæ, et bēstiam item venerārentur, dīcentēs: “Quis pār est bēstiæ? quis cum eā pugnāre possit?”
+   - 1573: vt draconem venerarentur, qui potentiam dedisset bestiæ, et bestiam item venerarentur, dicentes: Quis par est bestiæ? quis cum ea pugnare possit?
+   - TR: καὶ προσεκύνησαν τὸν δράκοντα ὃς ἔδωκεν ἐξουσίαν τῷ θηρίῳ, καὶ προσεκύνησαν τὸ θηρίον, λέγοντες, Τίς ὅμοιος τῷ θηρίῳ; Τίς δύναται πολεμῆσαι μετ᾿ αὐτοῦ;
+   - SBLGNT: καὶ προσεκύνησαν τῷ δράκοντι ὅτι ἔδωκεν τὴν ἐξουσίαν τῷ θηρίῳ, καὶ προσεκύνησαν τῷ θηρίῳ λέγοντες· Τίς ὅμοιος τῷ θηρίῳ, καὶ τίς δύναται πολεμῆσαι μετʼ αὐτοῦ;
+   - Vulgate: Et adoraverunt draconem, qui dedit potestatem bestiæ: et adoraverunt bestiam, dicentes: Quis similis bestiæ? et quis poterit pugnare cum ea?
+   - BSB: They worshiped the dragon who had given authority to the beast, and they worshiped the beast, saying, “Who is like the beast, and who can wage war against it?”
+   - WEB: They worshiped the dragon because he gave his authority to the beast; and they worshiped the beast, saying, “Who is like the beast? Who is able to make war with him?”
+- **13:7** add (word): SBLGNT *–* ] TR *+ πολεμον*; omit (word): SBLGNT *πολεμον* ] TR *–*; omit (word): SBLGNT *λαον και* ] TR *–*
+   - Latin: Item eī datum est bellum cum sānctīs gerere, eōsque vincere: eīdemque potestās est data in omnēs nātiōnēs, et linguās, atque gentēs,
+   - 1573: Item ei datum est bellum cum sanctis gerere, eosque vincere: eidemque potestas est data in omnes nationes, et linguas, atque gentes,
+   - TR: Καὶ ἐδόθη αὐτῷ πόλεμον ποιῆσαι μετὰ τῶν ἁγίων, καὶ νικῆσαι αὐτούς· καὶ ἐδόθη αὐτῷ ἐξουσία ἐπὶ πᾶσαν φυλὴν καὶ γλῶσσαν καὶ ἔθνος.
+   - SBLGNT: καὶ ἐδόθη αὐτῷ ποιῆσαι πόλεμον μετὰ τῶν ἁγίων καὶ νικῆσαι αὐτούς, καὶ ἐδόθη αὐτῷ ἐξουσία ἐπὶ πᾶσαν φυλὴν καὶ λαὸν καὶ γλῶσσαν καὶ ἔθνος.
+   - Vulgate: Et est datum illi bellum facere cum sanctis, et vincere eos. Et data est illi potestas in omnem tribum, et populum, et linguam, et gentem,
+   - BSB: Then the beast was permitted to wage war against the saints and to conquer them, and it was given authority over every tribe and people and tongue and nation.
+   - WEB: It was given to him to make war with the saints and to overcome them. Authority over every tribe, people, language, and nation was given to him.
+- **13:8** substitute (word): SBLGNT *το ονομα αυτου* ] TR *τα ονοματα*; substitute (word): SBLGNT *τω βιβλιω* ] TR *τη βιβλω*
+   - Latin: ita ut eam adōrātūrī sint omnēs terrārum incolæ, quōrum nōmina ab orbe conditō scrīpta nōn sunt in vītæ librō Agnī mactātī.
+   - 1573: ita vt eam adoraturi sint omnes terrarum incolæ quorum nomina ab orbe condito scripta non sunt in vitæ libro agni mactati.
+   - TR: Καὶ προσκυνήσουσιν αὐτῷ πάντες οἱ κατοικοῦντες ἐπὶ τῆς γῆς, ὧν οὐ γέγραπται τὰ ὀνόματα ἐν τῇ βίβλῳ τῆς ζωῆς τοῦ ἀρνίου ἐσφαγμένου ἀπὸ καταβολῆς κόσμου.
+   - SBLGNT: καὶ προσκυνήσουσιν αὐτὸν πάντες οἱ κατοικοῦντες ἐπὶ τῆς γῆς, οὗ οὐ γέγραπται τὸ ὄνομα αὐτοῦ ἐν τῷ βιβλίῳ τῆς ζωῆς τοῦ ἀρνίου τοῦ ἐσφαγμένου ἀπὸ καταβολῆς κόσμου.
+   - Vulgate: et adoraverunt eam omnes, qui inhabitant terram: quorum non sunt scripta nomina in libro vitæ Agni, qui occisus est ab origine mundi.
+   - BSB: And all who dwell on the earth will worship the beast—all whose names have not been written from the foundation of the world in the Book of Life belonging to the Lamb who was slain.
+   - WEB: All who dwell on the earth will worship him, everyone whose name has not been written from the foundation of the world in the book of life of the Lamb who has been killed.
+- **13:10** add (word): SBLGNT *–* ] TR *+ συναγει*; substitute (word): SBLGNT *μαχαιρη αποκτανθηναι* ] TR *μαχαιρα αποκτενει δει*
+   - Latin: Sī quis captīvōs abigit, in captīvitātem abit. Sī quis gladiō occīderit, eum gladiō oportet occīdī. Hīc est patientia, fidēsque sānctōrum.
+   - 1573: Si quis captiuos abigit, in captiuitatem abit. Si quis gladio occiderit, eum gladio oportet occidi. Hîc est patientia, fidesque sanctorum.
+   - TR: Εἴ τις αἰχμαλωσίαν συνάγει, εἰς αἰχμαλωσίαν ὑπάγει· εἴ τις ἐν μαχαίρᾳ ἀποκτενεῖ, δεῖ αὐτὸν ἐν μαχαίρᾳ ἀποκτανθῆναι. Ὧδέ ἐστιν ἡ ὑπομονὴ καὶ ἡ πίστις τῶν ἁγίων.
+   - SBLGNT: εἴ τις εἰς αἰχμαλωσίαν, εἰς αἰχμαλωσίαν ὑπάγει· εἴ τις ἐν μαχαίρῃ ἀποκτανθῆναι αὐτὸν ἐν μαχαίρῃ ἀποκτανθῆναι. ὧδέ ἐστιν ἡ ὑπομονὴ καὶ ἡ πίστις τῶν ἁγίων.
+   - Vulgate: Qui in captivitatem duxerit, in captivitatem vadet: qui in gladio occiderit, oportet eum gladio occidi. Hic est patientia, et fides sanctorum.
+   - BSB: “If anyone is destined for captivity, into captivity he will go; if anyone is to die by the sword, by the sword he must be killed.” Here is a call for the perseverance and faith of the saints.
+   - WEB: If anyone is to go into captivity, he will go into captivity. If anyone is to be killed with the sword, he must be killed. Here is the endurance and the faith of the saints.
+- **13:12** add (word): SBLGNT *–* ] TR *+ κατοικουντας*; omit (word): SBLGNT *κατοικουντας* ] TR *–*
+   - Latin: Ea omnem priōris bēstiæ potestātem exercēbat in ejus cōnspectū: efficiēbatque, ut terra et ejus incolæ priōrem bēstiam, cujus mortiferum vulnus erat sānātum, venerārentur:
+   - 1573: Ea omnem prioris bestiæ potestatem exercebat in eius conspectu: efficiebatque vt terra et eius incolæ priorem bestiam, cuius mortiferum vulnus erat sanatum, venerarentur:
+   - TR: Καὶ τὴν ἐξουσίαν τοῦ πρώτου θηρίου πᾶσαν ποιεῖ ἐνώπιον αὐτοῦ. Καὶ ποιεῖ τὴν γῆν καὶ τοὺς κατοικοῦντας ἐν αὐτῇ ἵνα προσκυνήσωσι τὸ θηρίον τὸ πρῶτον, οὗ ἐθεραπεύθη ἡ πληγὴ τοῦ θανάτου αὐτοῦ.
+   - SBLGNT: καὶ τὴν ἐξουσίαν τοῦ πρώτου θηρίου πᾶσαν ποιεῖ ἐνώπιον αὐτοῦ. καὶ ποιεῖ τὴν γῆν καὶ τοὺς ἐν αὐτῇ κατοικοῦντας ἵνα προσκυνήσουσιν τὸ θηρίον τὸ πρῶτον, οὗ ἐθεραπεύθη ἡ πληγὴ τοῦ θανάτου αὐτοῦ.
+   - Vulgate: Et potestatem prioris bestiæ omnem faciebat in conspectu ejus: et fecit terram, et habitantes in ea, adorare bestiam primam, cujus curata est plaga mortis.
+   - BSB: And this beast exercised all the authority of the first beast and caused the earth and those who dwell in it to worship the first beast, whose mortal wound had been healed.
+   - WEB: He exercises all the authority of the first beast in his presence. He makes the earth and those who dwell in it to worship the first beast, whose fatal wound was healed.
+- **13:15** substitute (word): SBLGNT *τη εικονι* ] TR *την εικονα*
+   - Latin: Atque eī datum est, spīritū dōnāre simulācrum bēstiæ, adeō ut loquerētur simulācrum bēstiæ, efficeretque, ut quīcumque nōn venerārentur bēstiæ simulācrum, occīderentur.
+   - 1573: Atque ei datum est, spiritu donare simulacrum bestiæ, adeò vt loqueretur simulacrum bestiæ, efficeretque vt quicunque non venerarentur bestiæ simulacrum, occiderentur.
+   - TR: Καὶ ἐδόθη αὐτῷ δοῦναι πνεῦμα τῇ εἰκόνι τοῦ θηρίου, ἵνα καὶ λαλήσῃ ἡ εἰκὼν τοῦ θηρίου, καὶ ποιήσῃ, ὅσοι ἂν μὴ προσκυνήσωσι τὴν εἰκόνα τοῦ θηρίου, ἵνα ἀποκτανθῶσι.
+   - SBLGNT: καὶ ἐδόθη αὐτῷ δοῦναι πνεῦμα τῇ εἰκόνι τοῦ θηρίου, ἵνα καὶ λαλήσῃ ἡ εἰκὼν τοῦ θηρίου καὶ ποιήσῃ ἵνα ὅσοι ἐὰν μὴ προσκυνήσωσιν τῇ εἰκόνι τοῦ θηρίου ἀποκτανθῶσιν.
+   - Vulgate: Et datum est illi ut daret spiritum imagini bestiæ, et ut loquatur imago bestiæ: et faciat ut quicumque non adoraverint imaginem bestiæ, occidantur.
+   - BSB: The second beast was permitted to give breath to the image of the first beast, so that the image could speak and cause all who refused to worship it to be killed.
+   - WEB: It was given to him to give breath to the image of the beast, that the image of the beast should both speak, and cause as many as wouldn’t worship the image of the beast to be killed.
+- **13:16** substitute (word): SBLGNT *δωσι* ] TR *δωση*; substitute (word): SBLGNT *το μετωπον* ] TR *των μετωπων*
+   - Latin: Atque eō adigēbat omnēs, parvōs juxtā ac magnōs, dīvitēs ac pauperēs, līberōs ac servōs, ut eōrum manuī dextræ aut frontibus notam inūreret:
+   - 1573: Atque eò adigebat omnes, paruos iuxtà ac magnos, diuites ac pauperes, liberos ac seruos, vt eorum manui dexteræ, aut frontibus, notam inureret:
+   - TR: Καὶ ποιεῖ πάντας, τοὺς μικροὺς καὶ τοὺς μεγάλους, καὶ τοὺς πλουσίους καὶ τοὺς πτωχούς, καὶ τοὺς ἐλευθέρους καὶ τοὺς δούλους, ἵνα δώσῃ αὐτοῖς χάραγμα ἐπὶ τῆς χειρὸς αὐτῶν τῆς δεξιᾶς, ἢ ἐπὶ τῶν μετώπων αὐτῶν,
+   - SBLGNT: καὶ ποιεῖ πάντας, τοὺς μικροὺς καὶ τοὺς μεγάλους, καὶ τοὺς πλουσίους καὶ τοὺς πτωχούς, καὶ τοὺς ἐλευθέρους καὶ τοὺς δούλους, ἵνα δῶσιν αὐτοῖς χάραγμα ἐπὶ τῆς χειρὸς αὐτῶν τῆς δεξιᾶς ἢ ἐπὶ τὸ μέτωπον αὐτῶν,
+   - Vulgate: Et faciet omnes pusillos, et magnos, et divites, et pauperes, et liberos, et servos habere caracterem in dextera manu sua, aut in frontibus suis:
+   - BSB: And the second beast required all people small and great, rich and poor, free and slave, to receive a mark on their right hand or on their forehead,
+   - WEB: He causes all, the small and the great, the rich and the poor, and the free and the slave, to be given marks on their right hands or on their foreheads;
+- **13:18** substitute (word): SBLGNT *εξακοσιοι εξηκοντα εξ* ] TR *χξϛ*
+   - Latin: Hīc est acūmen. Quī habet ingenium, computet bēstiæ numerum: numerus enim hominis est, estque ejus numerus sescentī sexāgintā sex.
+   - 1573: Hic est acumen. Qui habet ingenium, computet bestiæ numerum: numerus enim hominis est, estque eius numerus sexcenti sexaginta sex.
+   - TR: Ὧδε ἡ σοφία ἐστίν. Ὁ ἔχων τὸν νοῦν ψηφισάτω τὸν ἀριθμὸν τοῦ θηρίου· ἀριθμὸς γὰρ ἀνθρώπου ἐστί, καὶ ὁ ἀριθμὸς αὐτοῦ χξϛ΄.
+   - SBLGNT: ὧδε ἡ σοφία ἐστίν· ὁ ἔχων νοῦν ψηφισάτω τὸν ἀριθμὸν τοῦ θηρίου, ἀριθμὸς γὰρ ἀνθρώπου ἐστίν· καὶ ὁ ἀριθμὸς αὐτοῦ ἑξακόσιοι ἑξήκοντα ἕξ.
+   - Vulgate: Hic sapientia est. Qui habet intellectum, computet numerum bestiæ. Numerus enim hominis est: et numerus ejus sexcenti sexaginta sex.
+   - BSB: Here is a call for wisdom: Let the one who has insight calculate the number of the beast, for it is the number of a man, and that number is 666.
+   - WEB: Here is wisdom. He who has understanding, let him calculate the number of the beast, for it is the number of a man. His number is six hundred sixty-six.
+- **14:1** omit (clause): SBLGNT *το ονομα αυτου και* ] TR *–*
+   - Latin: Deinde animadvertī Agnum stantem in Sīōne monte, et cum eō centum quadrāgintā quattuor mīllia, Patris ejus nōmen in suīs frontibus scrīptum habentia:
+   - 1573: Deinde animaduerti agnum stantem in Sione monte, et cùm eo centum quadraginta quatuor millia, patris eius nomen in suis frontibus scriptum habentia:
+   - TR: Καὶ εἶδον, καὶ ἰδού, ἀρνίον ἑστηκὸς ἐπὶ τὸ ὄρος Σιών, καὶ μετ᾿ αὐτοῦ ἑκατὸν τεσσαράκοντα τέσσαρες χιλιάδες, ἔχουσαι τὸ ὄνομα τοῦ πατρὸς αὐτοῦ γεγραμμένον ἐπὶ τῶν μετώπων αὐτῶν.
+   - SBLGNT: Καὶ εἶδον, καὶ ἰδοὺ τὸ ἀρνίον ἑστὸς ἐπὶ τὸ ὄρος Σιών, καὶ μετʼ αὐτοῦ ἑκατὸν τεσσεράκοντα τέσσαρες χιλιάδες ἔχουσαι τὸ ὄνομα αὐτοῦ καὶ τὸ ὄνομα τοῦ πατρὸς αὐτοῦ γεγραμμένον ἐπὶ τῶν μετώπων αὐτῶν.
+   - Vulgate: Et vidi: et ecce Agnus stabat supra montem Sion, et cum eo centum quadraginta quatuor millia, habentes nomen ejus, et nomen Patris ejus scriptum in frontibus suis.
+   - BSB: Then I looked and saw the Lamb standing on Mount Zion, and with Him 144,000 who had His name and His Father’s name written on their foreheads.
+   - WEB: I saw, and behold, the Lamb standing on Mount Zion, and with him a number, one hundred forty-four thousand, having his name and the name of his Father written on their foreheads.
+- **14:2** omit (word): SBLGNT *ην* ] TR *–*
+   - Latin: Audīvīque dē cælō sonitum, quālis multārum aquārum, ingentisque tonitruī sonitus est: itemque vōcem audīvī citharœdōrum, citharīs suīs canentium,
+   - 1573: Audiuique de cœlo sonitum, qualis multarum aquarum, ingentisque tonitrui sonitus est: itemque vocem audiui citharædorum, citharis suis canentium,
+   - TR: Καὶ ἤκουσα φωνὴν ἐκ τοῦ οὐρανοῦ, ὡς φωνὴν ὑδάτων πολλῶν, καὶ ὡς φωνὴν βροντῆς μεγάλης· καὶ φωνὴ ἤκουσα κιθαρῳδῶν κιθαριζόντων ἐν ταῖς κιθάραις αὐτῶν.
+   - SBLGNT: καὶ ἤκουσα φωνὴν ἐκ τοῦ οὐρανοῦ ὡς φωνὴν ὑδάτων πολλῶν καὶ ὡς φωνὴν βροντῆς μεγάλης, καὶ ἡ φωνὴ ἣν ἤκουσα ὡς κιθαρῳδῶν κιθαριζόντων ἐν ταῖς κιθάραις αὐτῶν.
+   - Vulgate: Et audivi vocem de cælo, tamquam vocem aquarum multarum, et tamquam vocem tonitrui magni: et vocem, quam audivi, sicut citharœdorum citharizantium in citharis suis.
+   - BSB: And I heard a sound from heaven like the roar of many waters and the loud rumbling of thunder. And the sound I heard was like harpists strumming their harps.
+   - WEB: I heard a sound from heaven like the sound of many waters and like the sound of a great thunder. The sound which I heard was like that of harpists playing on their harps.
+- **14:3** substitute (word): SBLGNT *εδυνατο* ] TR *ηδυνατο*
+   - Latin: quī velutī novum carmen canēbant ante solium, et ante quattuor animālia ac senātōrēs, quod carmen nūllus discere poterat, nisi illa centum quadrāgintā quattuor mīllia redēmptī ā terrā.
+   - 1573: qui veluti nouum carmen canebant ante solium, et ante quatuor animalia ac senatores, quod carmen nullus discere poterat, nisi illa centum quadraginta quatuor millia redempti à terra.
+   - TR: Καὶ ᾄδουσιν ὡς ᾠδὴν καινὴν ἐνώπιον τοῦ θρόνου, καὶ ἐνώπιον τῶν τεσσάρων ζῴων καὶ τῶν πρεσβυτέρων· καὶ οὐδεὶς ἠδύνατο μαθεῖν τὴν ᾠδήν, εἰ μὴ αἱ ἑκατὸν τεσσαράκοντα τέσσαρες χιλιάδες, οἱ ἠγορασμένοι ἀπὸ τῆς γῆς.
+   - SBLGNT: καὶ ᾄδουσιν ὡς ᾠδὴν καινὴν ἐνώπιον τοῦ θρόνου καὶ ἐνώπιον τῶν τεσσάρων ζῴων καὶ τῶν πρεσβυτέρων· καὶ οὐδεὶς ἐδύνατο μαθεῖν τὴν ᾠδὴν εἰ μὴ αἱ ἑκατὸν τεσσεράκοντα τέσσαρες χιλιάδες, οἱ ἠγορασμένοι ἀπὸ τῆς γῆς.
+   - Vulgate: Et cantabant quasi canticum novum ante sedem, et ante quatuor animalia, et seniores: et nemo poterat dicere canticum, nisi illa centum quadraginta quatuor millia, qui empti sunt de terra.
+   - BSB: And they sang a new song before the throne and before the four living creatures and the elders. And no one could learn the song except the 144,000 who had been redeemed from the earth.
+   - WEB: They sing a new song before the throne and before the four living creatures and the elders. No one could learn the song except the one hundred forty-four thousand, those who had been redeemed out of the earth.
+- **14:5** substitute (word): SBLGNT *ψευδος* ] TR *δολος*; add (clause): SBLGNT *–* ] TR *+ ενωπιον του θρονου του θεου*
+   - Latin: quōrum in ōre nūlla reperta fraus est: sunt enim inculpātī cōram Deī soliō.
+   - 1573: quorum in ore nulla reperta fraus est: sunt enim inculpati coram Dei solio.
+   - TR: Καὶ ἐν τῷ στόματι αὐτῶν οὐχ εὑρέθη δόλος· ἄμωμοι γάρ εἰσιν ἐνώπιον τοῦ θρόνου τοῦ Θεοῦ.
+   - SBLGNT: καὶ ἐν τῷ στόματι αὐτῶν οὐχ εὑρέθη ψεῦδος· ἄμωμοί εἰσιν.
+   - Vulgate: et in ore eorum non est inventum mendacium: sine macula enim sunt ante thronum Dei.
+   - BSB: And no lie was found in their mouths; they are blameless.
+   - WEB: In their mouth was found no lie, for they are blameless.
+- **14:6** substitute (word): SBLGNT *πετομενον* ] TR *πετωμενον*; substitute (word): SBLGNT *καθημενους* ] TR *κατοικουντας*
+   - Latin: Vīdī item alium angelum mediō cælō volantem, euangelium æternum habentem, quod terræ incolās, gentēsque et nātiōnēs, et linguās, et populōs omnēs docēret,
+   - 1573: Vidi item alium angelum medio cœlo volantem, euangelium æternum habentem, quod terræ incolas, gentesque et nationes, et linguas, et populos omnes doceret,
+   - TR: Καὶ εἶδον ἄλλον ἄγγελον πετώμενον ἐν μεσουρανήματι, ἔχοντα εὐαγγέλιον αἰώνιον, εὐαγγελίσαι τοὺς κατοικοῦντας ἐπὶ τῆς γῆς, καὶ πᾶν ἔθνος καὶ φυλὴν καὶ γλῶσσαν καὶ λαόν,
+   - SBLGNT: Καὶ εἶδον ἄλλον ἄγγελον πετόμενον ἐν μεσουρανήματι, ἔχοντα εὐαγγέλιον αἰώνιον εὐαγγελίσαι ἐπὶ τοὺς καθημένους ἐπὶ τῆς γῆς καὶ ἐπὶ πᾶν ἔθνος καὶ φυλὴν καὶ γλῶσσαν καὶ λαόν,
+   - Vulgate: Et vidi alterum angelum volantem per medium cæli, habentem Evangelium æternum, ut evangelizaret sedentibus super terram, et super omnem gentem, et tribum, et linguam, et populum:
+   - BSB: Then I saw another angel flying overhead, with the eternal gospel to proclaim to those who dwell on the earth—to every nation and tribe and tongue and people.
+   - WEB: I saw an angel flying in mid heaven, having an eternal Good News to proclaim to those who dwell on the earth—to every nation, tribe, language, and people.
+- **14:7** substitute (word): SBLGNT *λεγων* ] TR *λεγοντα*
+   - Latin: dīcentem magnā vōce: “Timēte Deum, eīque glōriam tribuite: nam vēnit hōra ejus jūdiciī: et adōrāte cælī, terræ, maris et fontium aquārum conditōrem.”
+   - 1573: dicentem magna voce: Timete Deum, eique gloriam tribuite: nam venit hora eius iudicij: et adorate cœli, terræ, maris, et fontium aquarum conditorem.
+   - TR: λέγοντα ἐν φωνῇ μεγάλῃ, Φοβήθητε τὸν Θεόν, καὶ δότε αὐτῷ δόξαν, ὅτι ἦλθεν ἡ ὥρα τῆς κρίσεως αὐτοῦ, καὶ προσκυνήσατε τῷ ποιήσαντι τὸν οὐρανὸν καὶ τὴν γῆν καὶ θάλασσαν καὶ πηγὰς ὑδάτων.
+   - SBLGNT: λέγων ἐν φωνῇ μεγάλῃ· Φοβήθητε τὸν θεὸν καὶ δότε αὐτῷ δόξαν, ὅτι ἦλθεν ἡ ὥρα τῆς κρίσεως αὐτοῦ, καὶ προσκυνήσατε τῷ ποιήσαντι τὸν οὐρανὸν καὶ τὴν γῆν καὶ θάλασσαν καὶ πηγὰς ὑδάτων.
+   - Vulgate: dicens magna voce: Timete Dominum, et date illi honorem, quia venit hora judicii ejus: et adorate eum, qui fecit cælum, et terram, mare, et fontes aquarum.
+   - BSB: And he said in a loud voice, “Fear God and give Him glory, because the hour of His judgment has come. Worship the One who made the heavens and the earth and the sea and the springs of waters.”
+   - WEB: He said with a loud voice, “Fear the Lord, and give him glory, for the hour of his judgment has come. Worship him who made the heaven, the earth, the sea, and the springs of waters!”
+- **14:8** omit (word): SBLGNT *δευτερος* ] TR *–*; add (word): SBLGNT *–* ] TR *+ πολις η*
+   - Latin: Item alius angelus secūtus est, dīcēns: “Cecidit, cecidit Babylōn, urbs illa magna, quoniam sævō impudīcitiæ suæ vīnō gentēs omnēs pōtiōnāvit.”
+   - 1573: Item alius angelus secutus est dicens: Cecidit cecidit Babylon vrbs illa magna, quoniam sæuo impudicitiæ suæ vino gentes omnes potionauit.
+   - TR: Καὶ ἄλλος ἄγγελος ἠκολούθησε, λέγων, Ἔπεσεν ἔπεσε Βαβυλὼν ἡ πόλις ἡ μεγάλη, ὅτι ἐκ τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας αὐτῆς πεπότικε πάντα ἔθνη.
+   - SBLGNT: Καὶ ἄλλος δεύτερος ἄγγελος ἠκολούθησεν λέγων· Ἔπεσεν, ἔπεσεν Βαβυλὼν ἡ μεγάλη, ἣ ἐκ τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας αὐτῆς πεπότικεν πάντα τὰ ἔθνη.
+   - Vulgate: Et alius angelus secutus est dicens: Cecidit, cecidit Babylon illa magna: quæ a vino iræ fornicationis suæ potavit omnes gentes.
+   - BSB: Then a second angel followed, saying, “Fallen, fallen is Babylon the great, who has made all the nations drink the wine of the passion of her immorality.”
+   - WEB: Another, a second angel, followed, saying, “Babylon the great has fallen, which has made all the nations to drink of the wine of the wrath of her sexual immorality.”
+- **14:9** substitute (word): SBLGNT *αλλος* ] TR *τριτος*; omit (word): SBLGNT *τριτος* ] TR *–*; omit (word): SBLGNT *προσκυνει* ] TR *–*; add (word): SBLGNT *–* ] TR *+ προσκυνει*
+   - Latin: Item tertius angelus eōs secūtus est, magnā vōce dīcēns: “Sī quis bēstiam, et ejus imāginem venerātur, notamque in frontem manumve suam admittit:
+   - 1573: Item tertius angelus eos secutus est, magna voce dicens: Si quis bestiam, et eius imaginem veneratur, notamque in frontem manumve suam admittit:
+   - TR: Καὶ τρίτος ἄγγελος ἠκολούθησεν αὐτοῖς, λέγων ἐν φωνῇ μεγάλῃ, Εἴ τις τὸ θηρίον προσκυνεῖ καὶ τὴν εἰκόνα αὐτοῦ, καὶ λαμβάνει χάραγμα ἐπὶ τοῦ μετώπου αὐτοῦ, ἢ ἐπὶ τὴν χεῖρα αὐτοῦ,
+   - SBLGNT: Καὶ ἄλλος ἄγγελος τρίτος ἠκολούθησεν αὐτοῖς λέγων ἐν φωνῇ μεγάλῃ· Εἴ τις προσκυνεῖ τὸ θηρίον καὶ τὴν εἰκόνα αὐτοῦ, καὶ λαμβάνει χάραγμα ἐπὶ τοῦ μετώπου αὐτοῦ ἢ ἐπὶ τὴν χεῖρα αὐτοῦ,
+   - Vulgate: Et tertius angelus secutus est illos, dicens voce magna: Si quis adoraverit bestiam, et imaginem ejus, et acceperit caracterem in fronte sua, aut in manu sua:
+   - BSB: And a third angel followed them, calling out in a loud voice, “If anyone worships the beast and its image, and receives its mark on his forehead or on his hand,
+   - WEB: Another angel, a third, followed them, saying with a great voice, “If anyone worships the beast and his image, and receives a mark on his forehead or on his hand,
+- **14:11** add (word): SBLGNT *–* ] TR *+ αναβαινει*; omit (word): SBLGNT *αναβαινει* ] TR *–*
+   - Latin: Eōrumque tormentī fūmus exhālābit in omnem perpetuitātem, nec ūllam diē nocteve requiētem habēbunt, quī bēstiam et ejus imāginem venerantur, aut sī quis ejus nōminis notam accipit.”
+   - 1573: eorumque tormenti fumus exhalabit in omnem perpetuitatem, nec vllam die nocteue requietem habebunt, qui bestiam et eius imaginem venerantur, aut si quis eius nominis notam accipit.
+   - TR: καὶ ὁ καπνὸς τοῦ βασανισμοῦ αὐτῶν ἀναβαίνει εἰς αἰῶνας αἰώνων· καὶ οὐκ ἔχουσιν ἀνάπαυσιν ἡμέρας καὶ νυκτὸς οἱ προσκυνοῦντες τὸ θηρίον καὶ τὴν εἰκόνα αὐτοῦ, καὶ εἴ τις λαμβάνει τὸ χάραγμα τοῦ ὀνόματος αὐτοῦ.
+   - SBLGNT: καὶ ὁ καπνὸς τοῦ βασανισμοῦ αὐτῶν εἰς αἰῶνας αἰώνων ἀναβαίνει, καὶ οὐκ ἔχουσιν ἀνάπαυσιν ἡμέρας καὶ νυκτός, οἱ προσκυνοῦντες τὸ θηρίον καὶ τὴν εἰκόνα αὐτοῦ, καὶ εἴ τις λαμβάνει τὸ χάραγμα τοῦ ὀνόματος αὐτοῦ.
+   - Vulgate: et fumus tormentorum eorum ascendet in sæcula sæculorum: nec habent requiem die ac nocte, qui adoraverunt bestiam, et imaginem ejus, et si quis acceperit caracterem nominis ejus.
+   - BSB: And the smoke of their torment rises forever and ever. Day and night there is no rest for those who worship the beast and its image, or for anyone who receives the mark of its name.”
+   - WEB: The smoke of their torment goes up forever and ever. They have no rest day and night, those who worship the beast and his image, and whoever receives the mark of his name.
+- **14:12** add (word): SBLGNT *–* ] TR *+ ωδε*
+   - Latin: Hīc est sānctōrum patientia: hīc sunt, quī Deī præcepta, Jēsūque fidem tuentur.
+   - 1573: Hic est sanctorum patientia: hîc sunt qui Dei præcepta, Iesuque fidem tuentur.
+   - TR: Ὧδε ὑπομονὴ τῶν ἁγίων ἐστίν· ὧδε οἱ τηροῦντες τὰς ἐντολὰς τοῦ Θεοῦ καὶ τὴν πίστιν Ἰησοῦ.
+   - SBLGNT: Ὧδε ἡ ὑπομονὴ τῶν ἁγίων ἐστίν, οἱ τηροῦντες τὰς ἐντολὰς τοῦ θεοῦ καὶ τὴν πίστιν Ἰησοῦ.
+   - Vulgate: Hic patientia sanctorum est, qui custodiunt mandata Dei, et fidem Jesu.
+   - BSB: Here is a call for the perseverance of the saints who keep the commandments of God and the faith of Jesus.
+   - WEB: Here is the perseverance of the saints, those who keep the commandments of God and the faith of Jesus.”
+- **14:14** substitute (word): SBLGNT *καθημενον ομοιον υιον* ] TR *καθημενος ομοιος υιω*
+   - Latin: Prætereā animadvertī nūbem candidam, et nūbī īnsidentem quendam Fīliō Hominis similem, habentem in capite corōnam auream, et in manū falcem acūtam.
+   - 1573: Præterea animaduerti nubem candidam et nubi insidentem quendam filio hominis similem, habentem in capite coronam auream, et in manu falcem acutam.
+   - TR: Καὶ εἶδον, καὶ ἰδού, νεφέλη λευκή, καὶ ἐπὶ τὴν νεφέλην καθήμενος ὅμοιος υἱῷ ἀνθρώπου, ἔχων ἐπὶ τῆς κεφαλῆς αὐτοῦ στέφανον χρυσοῦν, καὶ ἐν τῇ χειρὶ αὐτοῦ δρέπανον ὀξύ.
+   - SBLGNT: Καὶ εἶδον, καὶ ἰδοὺ νεφέλη λευκή, καὶ ἐπὶ τὴν νεφέλην καθήμενον ὅμοιον υἱὸν ἀνθρώπου, ἔχων ἐπὶ τῆς κεφαλῆς αὐτοῦ στέφανον χρυσοῦν καὶ ἐν τῇ χειρὶ αὐτοῦ δρέπανον ὀξύ.
+   - Vulgate: Et vidi: et ecce nubem candidam, et super nubem sedentem similem Filio hominis, habentem in capite suo coronam auream, et in manu sua falcem acutam.
+   - BSB: And I looked and saw a white cloud, and seated on the cloud was One like the Son of Man, with a golden crown on His head and a sharp sickle in His hand.
+   - WEB: I looked, and saw a white cloud, and on the cloud one sitting like a son of man, having on his head a golden crown, and in his hand a sharp sickle.
+- **14:15** add (word): SBLGNT *–* ] TR *+ μεγαλη*; omit (word): SBLGNT *μεγαλη* ] TR *–*
+   - Latin: Tum alius angelus exiit ex fānō, magnā vōce clāmāns ad eum, quī nūbī īnsidēbat: “Immitte falcem tuam, et mete: nam tibi vēnit hōra metendī, quandoquidem āruit terræ seges.”
+   - 1573: Tum alius angelus exijt ex fano, magna voce clamans ad eum qui nubi insidebat: Iinmitte falcem tuam, et mete: nam tibi venit hora metendi, quandoquidem aruit terræ seges.
+   - TR: Καὶ ἄλλος ἄγγελος ἐξῆλθεν ἐκ τοῦ ναοῦ, κράζων ἐν μεγάλῃ φωνῇ τῷ καθημένῳ ἐπὶ τῆς νεφέλης, Πέμψον τὸ δρέπανόν σου καὶ θέρισον· ὅτι ἦλθέ σοι ἡ ὥρα τοῦ θερίσαι, ὅτι ἐξηράνθη ὁ θερισμὸς τῆς γῆς.
+   - SBLGNT: καὶ ἄλλος ἄγγελος ἐξῆλθεν ἐκ τοῦ ναοῦ κράζων ἐν φωνῇ μεγάλῃ τῷ καθημένῳ ἐπὶ τῆς νεφέλης· Πέμψον τὸ δρέπανόν σου καὶ θέρισον, ὅτι ἦλθεν ἡ ὥρα θερίσαι, ὅτι ἐξηράνθη ὁ θερισμὸς τῆς γῆς.
+   - Vulgate: Et alius angelus exivit de templo, clamans voce magna ad sedentem super nubem: Mitte falcem tuam, et mete, quia venit hora ut metatur, quoniam aruit messis terræ.
+   - BSB: Then another angel came out of the temple, crying out in a loud voice to the One seated on the cloud, “Swing Your sickle and reap, because the time has come to harvest; for the crop of the earth is ripe.”
+   - WEB: Another angel came out of the temple, crying with a loud voice to him who sat on the cloud, “Send your sickle and reap, for the hour to reap has come; for the harvest of the earth is ripe!”
+- **14:18** add (word): SBLGNT *–* ] TR *+ εξηλθε*
+   - Latin: Et alius prōdiit angelus ex ārā, ignipotēns, quī magnā vōce clāmāns, eum, quī falcem habēbat, sīc allocūtus est: “Injice tuam istam falcem acūtam, et terræ ūvās vīndēmiā, quoniam ejus mātūruērunt racēmī.”
+   - 1573: et alius prodijt angelus ex ara, ignipotens, qui magna voce clamans, eum qui falcem habebat sic allocutus est: Inijce tuam istam falcem acutam, et terræ vuas vindemia, quoniam eius maturuerunt racemi.
+   - TR: Καὶ ἄλλος ἄγγελος ἐξῆλθεν ἐκ τοῦ θυσιαστηρίου, ἔχων ἐξουσίαν ἐπὶ τοῦ πυρός, καὶ ἐφώνησε κραυγῇ μεγάλῃ τῷ ἔχοντι τὸ δρέπανον τὸ ὀξύ, λέγων, Πέμψον σου τὸ δρέπανον τὸ ὀξὺ καὶ τρύγησον τοὺς βότρυας τῆς ἀμπέλου τῆς γῆς, ὅτι ἤκμασαν αἱ σταφυλαὶ αὐτῆς.
+   - SBLGNT: καὶ ἄλλος ἄγγελος ἐκ τοῦ θυσιαστηρίου, ὁ ἔχων ἐξουσίαν ἐπὶ τοῦ πυρός, καὶ ἐφώνησεν φωνῇ μεγάλῃ τῷ ἔχοντι τὸ δρέπανον τὸ ὀξὺ λέγων· Πέμψον σου τὸ δρέπανον τὸ ὀξὺ καὶ τρύγησον τοὺς βότρυας τῆς ἀμπέλου τῆς γῆς, ὅτι ἤκμασαν αἱ σταφυλαὶ αὐτῆς.
+   - Vulgate: Et alius angelus exivit de altari, qui habebat potestatem supra ignem: et clamavit voce magna ad eum qui habebat falcem acutam, dicens: Mitte falcem tuam acutam, et vindemia botros vineæ terræ: quoniam maturæ sunt uvæ ejus.
+   - BSB: Still another angel, with authority over the fire, came from the altar and called out in a loud voice to the angel with the sharp sickle, “Swing your sharp sickle and gather the clusters of grapes from the vine of the earth, because its grapes are ripe.”
+   - WEB: Another angel came out from the altar, he who has power over fire, and he called with a great voice to him who had the sharp sickle, saying, “Send your sharp sickle and gather the clusters of the vine of the earth, for the earth’s grapes are fully ripe!”
+- **14:19** substitute (word): SBLGNT *τον μεγαν* ] TR *την μεγαλην*
+   - Latin: Ita angelus ille, suā falce in terram injectā, terræ vīneam vīndēmiāvit, et ūvās in ingēns sævitiæ Deī torcular conjēcit:
+   - 1573: Ita angelus ille, sua falce in terram iniecta, terræ vineam vindemiauit, et vuas in ingens sæuitiæ Dei torcular coniecit:
+   - TR: Καὶ ἔβαλεν ὁ ἄγγελος τὸ δρέπανον αὐτοῦ εἰς τὴν γῆν, καὶ ἐτρύγησε τὴν ἄμπελον τῆς γῆς, καὶ ἔβαλεν εἰς τὴν ληνὸν τοῦ θυμοῦ τοῦ Θεοῦ τὴν μεγάλην.
+   - SBLGNT: καὶ ἔβαλεν ὁ ἄγγελος τὸ δρέπανον αὐτοῦ εἰς τὴν γῆν, καὶ ἐτρύγησεν τὴν ἄμπελον τῆς γῆς, καὶ ἔβαλεν εἰς τὴν ληνὸν τοῦ θυμοῦ τοῦ θεοῦ τὸν μέγαν.
+   - Vulgate: Et misit angelus falcem suam acutam in terram, et vindemiavit vineam terræ, et misit in lacum iræ Dei magnum:
+   - BSB: So the angel swung his sickle over the earth and gathered the grapes of the earth, and he threw them into the great winepress of God’s wrath.
+   - WEB: The angel thrust his sickle into the earth, and gathered the vintage of the earth and threw it into the great wine press of the wrath of God.
+- **14:20** substitute (word): SBLGNT *εξωθε* ] TR *εξω*
+   - Latin: Quō torculārī extrā urbem calcātō, mānāvit ex torculārī sanguis ūsque ad frēnōs equōrum, per mīlle sescenta stadia.
+   - 1573: quo torculari extra vrbem calcato, manauit ex torculari sanguis vsque ad frænos equorum, per mille sexcenta stadia.
+   - TR: Καὶ ἐπατήθη ἡ ληνὸς ἔξω τῆς πόλεως, καὶ ἐξῆλθεν αἷμα ἐκ τῆς ληνοῦ ἄχρι τῶν χαλινῶν τῶν ἵππων, ἀπὸ σταδίων χιλίων ἑξακοσίων.
+   - SBLGNT: καὶ ἐπατήθη ἡ ληνὸς ἔξωθεν τῆς πόλεως, καὶ ἐξῆλθεν αἷμα ἐκ τῆς ληνοῦ ἄχρι τῶν χαλινῶν τῶν ἵππων ἀπὸ σταδίων χιλίων ἑξακοσίων.
+   - Vulgate: et calcatus est lacus extra civitatem, et exivit sanguis de lacu usque ad frenos equorum per stadia mille sexcenta.
+   - BSB: And the winepress was trodden outside the city, and the blood that flowed from it rose as high as the bridles of the horses for a distance of 1,600 stadia.
+   - WEB: The wine press was trodden outside of the city, and blood came out of the wine press, up to the bridles of the horses, as far as one thousand six hundred stadia.
+- **15:2** add (clause): SBLGNT *–* ] TR *+ χαραγματος αυτου εκ του*
+   - Latin: Itemque vīdī quasi mare vitreum, igne mixtum, et ex bēstiā ejusque simulācrō, et notā, et nōminis numerō, victōrēs, stantēs super mare vitreum, dīvīnās habentēs citharās,
+   - 1573: Itemque vidi quasi mare vitreum, igne mixtum, et ex bestia eiusque simulacro, et nota, et nominis numero, victores, stantes super mare vitreum, diuinas habentes citharas,
+   - TR: Καὶ εἶδον ὡς θάλασσαν ὑαλίνην μεμιγμένην πυρί, καὶ τοὺς νικῶντας ἐκ τοῦ θηρίου καὶ ἐκ τῆς εἰκόνος αὐτοῦ καὶ ἐκ τοῦ χαράγματος αὐτοῦ, ἐκ τοῦ ἀριθμοῦ τοῦ ὀνόματος αὐτοῦ, ἑστῶτας ἐπὶ τὴν θάλασσαν τὴν ὑαλίνην, ἔχοντας κιθάρας τοῦ Θεοῦ.
+   - SBLGNT: Καὶ εἶδον ὡς θάλασσαν ὑαλίνην μεμιγμένην πυρί, καὶ τοὺς νικῶντας ἐκ τοῦ θηρίου καὶ ἐκ τῆς εἰκόνος αὐτοῦ καὶ ἐκ τοῦ ἀριθμοῦ τοῦ ὀνόματος αὐτοῦ ἑστῶτας ἐπὶ τὴν θάλασσαν τὴν ὑαλίνην, ἔχοντας κιθάρας τοῦ θεοῦ.
+   - Vulgate: Et vidi tamquam mare vitreum mistum igne, et eos, qui vicerunt bestiam, et imaginem ejus, et numerum nominis ejus, stantes super mare vitreum, habentes citharas Dei:
+   - BSB: And I saw something like a sea of glass mixed with fire, beside which stood those who had conquered the beast and its image and the number of its name. They were holding harps from God,
+   - WEB: I saw something like a sea of glass mixed with fire, and those who overcame the beast, his image, and the number of his name, standing on the sea of glass, having harps of God.
+- **15:3** substitute (name): SBLGNT *μωυσεως του* ] TR *μωσεως*; substitute (word): SBLGNT *αιωνων* ] TR *αγιων*
+   - Latin: et Mōsis Deī servī carmen, Agnīque carmen ita cantantēs: “Magna et mīrābilia sunt opera tua, Domine Deus omnipotēns: jūsta vērāque sunt īnstitūta tua, sānctōrum rēx.
+   - 1573: et Mosis Dei serui carmen, agnique carmen ita cantantes: Magna et mirabilia sunt opera tua, Domine Deus omnipotens: iusta veraque sunt instituta tua, sanctorum rex.
+   - TR: Καὶ ᾄδουσι τὴν ᾠδὴν Μωσέως δούλου τοῦ Θεοῦ, καὶ τὴν ᾠδὴν τοῦ ἀρνίου, λέγοντες, Μεγάλα καὶ θαυμαστὰ τὰ ἔργα σου, Κύριε ὁ Θεὸς ὁ παντοκράτωρ· δίκαιαι καὶ ἀληθιναὶ αἱ ὁδοί σου, ὁ βασιλεὺς τῶν ἁγίων.
+   - SBLGNT: καὶ ᾄδουσιν τὴν ᾠδὴν Μωϋσέως τοῦ δούλου τοῦ θεοῦ καὶ τὴν ᾠδὴν τοῦ ἀρνίου λέγοντες· Μεγάλα καὶ θαυμαστὰ τὰ ἔργα σου, κύριε, ὁ θεός, ὁ παντοκράτωρ· δίκαιαι καὶ ἀληθιναὶ αἱ ὁδοί σου, ὁ βασιλεὺς τῶν αἰώνων·
+   - Vulgate: et cantantes canticum Moysi servi Dei, et canticum Agni, dicentes: Magna et mirabilia sunt opera tua, Domine Deus omnipotens: justæ et veræ sunt viæ tuæ, Rex sæculorum.
+   - BSB: and they sang the song of God’s servant Moses and of the Lamb: “Great and wonderful are Your works, O Lord God Almighty! Just and true are Your ways, O King of the nations!
+   - WEB: They sang the song of Moses, the servant of God, and the song of the Lamb, saying, “Great and marvelous are your works, Lord God, the Almighty! Righteous and true are your ways, you King of the nations.
+- **15:8** substitute (word): SBLGNT *εδυνατο* ] TR *ηδυνατο*
+   - Latin: estque fānum tantō fūmō, præ Deī splendōre atque potentiā, complētum, ut nūllus posset in fānum intrāre, dōnec septem angelōrum septem clādēs perāctæ forent.
+   - 1573: estque fanum tanto fumo, præ Dei splendore atque potentia, completum, vt nullus posset in fanum intrare, donec septem angelorum septem clades peractæ forent.
+   - TR: Καὶ ἐγεμίσθη ὁ ναὸς καπνοῦ ἐκ τῆς δόξης τοῦ Θεοῦ, καὶ ἐκ τῆς δυνάμεως αὐτοῦ· καὶ οὐδεὶς ἠδύνατο εἰσελθεῖν εἰς τὸν ναόν, ἄχρι τελεσθῶσιν αἱ ἑπτὰ πληγαὶ τῶν ἑπτὰ ἀγγέλων.
+   - SBLGNT: καὶ ἐγεμίσθη ὁ ναὸς καπνοῦ ἐκ τῆς δόξης τοῦ θεοῦ καὶ ἐκ τῆς δυνάμεως αὐτοῦ, καὶ οὐδεὶς ἐδύνατο εἰσελθεῖν εἰς τὸν ναὸν ἄχρι τελεσθῶσιν αἱ ἑπτὰ πληγαὶ τῶν ἑπτὰ ἀγγέλων.
+   - Vulgate: Et impletum est templum fumo a majestate Dei, et de virtute ejus: et nemo poterat introire in templum, donec consummarentur septem plagæ septem angelorum.
+   - BSB: And the temple was filled with smoke from the glory of God and from His power; and no one could enter the temple until the seven plagues of the seven angels were completed.
+   - WEB: The temple was filled with smoke from the glory of God and from his power. No one was able to enter into the temple until the seven plagues of the seven angels would be finished.
+- **16:1** omit (number): SBLGNT *επτα* ] TR *–*
+   - Latin: Tum magnam ex fānō vōcem audīvī, dīcentem septem angelīs: “Īte, effundite phialās sævitiæ Deī in terram.”
+   - 1573: Tum magnam ex fano vocem audiui, dicentem septem angelis: Ite, effundite phialas sæuitiæ Dei in terram.
+   - TR: Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ ναοῦ, λεγούσης τοῖς ἑπτὰ ἀγγέλοις, Ὑπάγετε, καὶ ἐκχέατε τὰς φιάλας τοῦ θυμοῦ τοῦ Θεοῦ εἰς τὴν γῆν.
+   - SBLGNT: Καὶ ἤκουσα μεγάλης φωνῆς ἐκ τοῦ ναοῦ λεγούσης τοῖς ἑπτὰ ἀγγέλοις· Ὑπάγετε καὶ ἐκχέετε τὰς ἑπτὰ φιάλας τοῦ θυμοῦ τοῦ θεοῦ εἰς τὴν γῆν.
+   - Vulgate: Et audivi vocem magnam de templo, dicentem septem angelis: Ite, et effundite septem phialas iræ Dei in terram.
+   - BSB: Then I heard a loud voice from the temple saying to the seven angels, “Go, pour out on the earth the seven bowls of God’s wrath.”
+   - WEB: I heard a loud voice out of the temple, saying to the seven angels, “Go and pour out the seven bowls of the wrath of God on the earth!”
+- **16:2** omit (word): SBLGNT *προσκυνουντας* ] TR *–*; add (word): SBLGNT *–* ] TR *+ προσκυνουντας*
+   - Latin: Itaque prīmus abiit, et phialam suam in terram effūdit, dīrōque et tætrō vulnere affectī sunt hominēs, bēstiæ notam habentēs, et ejus simulācrum colentēs.
+   - 1573: Itaque primus abijt, et phialam suam in terram effudit, diroque et tetro vulnere affecti sunt homines, bestiæ notam habentes, et eius simulacrum colentes.
+   - TR: Καὶ ἀπῆλθεν ὁ πρῶτος, καὶ ἐξέχεε τὴν φιάλην αὐτοῦ ἐπὶ τὴν γῆν· καὶ ἐγένετο ἕλκος κακὸν καὶ πονηρὸν εἰς τοὺς ἀνθρώπους τοὺς ἔχοντας τὸ χάραγμα τοῦ θηρίου, καὶ τοὺς τῇ εἰκόνι αὐτοῦ προσκυνοῦντας.
+   - SBLGNT: Καὶ ἀπῆλθεν ὁ πρῶτος καὶ ἐξέχεεν τὴν φιάλην αὐτοῦ εἰς τὴν γῆν· καὶ ἐγένετο ἕλκος κακὸν καὶ πονηρὸν ἐπὶ τοὺς ἀνθρώπους τοὺς ἔχοντας τὸ χάραγμα τοῦ θηρίου καὶ τοὺς προσκυνοῦντας τῇ εἰκόνι αὐτοῦ.
+   - Vulgate: Et abiit primus, et effudit phialam suam in terram, et factum est vulnus sævum et pessimum in homines, qui habebant caracterem bestiæ, et in eos qui adoraverunt imaginem ejus.
+   - BSB: So the first angel went and poured out his bowl on the earth, and loathsome, malignant sores broke out on those who had the mark of the beast and worshiped its image.
+   - WEB: The first went, and poured out his bowl into the earth, and it became a harmful and painful sore on the people who had the mark of the beast, and who worshiped his image.
+- **16:4** add (word): SBLGNT *–* ] TR *+ αγγελος*
+   - Latin: Item tertius angelus phialam suam in fluviōs et aquārum fontēs effūdit, iīque mūtātī sunt in sanguinem.
+   - 1573: Item tertius angelus phialam suam in fluuios et aquarum fontes effudit, ijque mutati sunt in sanguinem.
+   - TR: Καὶ ὁ τρίτος ἄγγελος ἐξέχεε τὴν φιάλην αὐτοῦ εἰς τοὺς ποταμοὺς καὶ εἰς τὰς πηγὰς τῶν ὑδάτων· καὶ ἐγένετο αἷμα.
+   - SBLGNT: Καὶ ὁ τρίτος ἐξέχεεν τὴν φιάλην αὐτοῦ εἰς τοὺς ποταμοὺς καὶ τὰς πηγὰς τῶν ὑδάτων· καὶ ἐγένετο αἷμα.
+   - Vulgate: Et tertius effudit phialam suam super flumina, et super fontes aquarum, et factus est sanguis.
+   - BSB: And the third angel poured out his bowl into the rivers and springs of water, and they turned to blood.
+   - WEB: The third poured out his bowl into the rivers and springs of water, and they became blood.
+- **16:5** add (word): SBLGNT *–* ] TR *+ κυριε*
+   - Latin: Tum aquārum angelum audīvī dīcentem: “Jūstus es, Domine, quī es, quīque fuistī, quīque sānctus es, quī hæc ita facienda jūdicāveris,
+   - 1573: Tum aquarum angelum audiui dicentem: Iustus es Domine, qui es, quique fuisti, quique sanctus es, qui hæc ita facienda iudicaueris,
+   - TR: Καὶ ἤκουσα τοῦ ἀγγέλου τῶν ὑδάτων λέγοντος, Δίκαιος, Κύριε, εἶ, ὁ ὢν καὶ ὁ ἦν καὶ ὁ ὅσιος, ὅτι ταῦτα ἔκρινας·
+   - SBLGNT: καὶ ἤκουσα τοῦ ἀγγέλου τῶν ὑδάτων λέγοντος· Δίκαιος εἶ, ὁ ὢν καὶ ὁ ἦν, ὁ ὅσιος, ὅτι ταῦτα ἔκρινας,
+   - Vulgate: Et audivi angelum aquarum dicentem: Justus es, Domine, qui es, et qui eras sanctus, qui hæc judicasti:
+   - BSB: And I heard the angel of the waters say: “Righteous are You, O Holy One, who is and was, because You have brought these judgments.
+   - WEB: I heard the angel of the waters saying, “You are righteous, who are and who were, O Holy One, because you have judged these things.
+- **16:7** add (word): SBLGNT *–* ] TR *+ αλλου εκ*
+   - Latin: Deinde alium audīvī ex ārā dīcentem: “Etiam, Domine Deus omnipotēns: vēra jūstaque sunt tua jūdicia.”
+   - 1573: Deinde alium audiui ex ara dicentem: Etiam, Domine Deus omnipotens: vera iustaque sunt tua iudicia.
+   - TR: Καὶ ἤκουσα ἄλλου ἐκ τοῦ θυσιαστηρίου λέγοντος, Ναί, Κύριε ὁ Θεὸς ὁ παντοκράτωρ, ἀληθιναὶ καὶ δίκαιαι αἱ κρίσεις σου.
+   - SBLGNT: καὶ ἤκουσα τοῦ θυσιαστηρίου λέγοντος· Ναί, κύριε, ὁ θεός, ὁ παντοκράτωρ, ἀληθιναὶ καὶ δίκαιαι αἱ κρίσεις σου.
+   - Vulgate: Et audivi alterum ab altari dicentem: Etiam Domine Deus omnipotens, vera et justa judicia tua.
+   - BSB: And I heard the altar reply: “Yes, Lord God Almighty, true and just are Your judgments.”
+   - WEB: I heard the altar saying, “Yes, Lord God, the Almighty, true and righteous are your judgments.”
+- **16:10** add (word): SBLGNT *–* ] TR *+ αγγελος*
+   - Latin: Deinde quīntus angelus phialam suam effūdit in bēstiæ solium: adeōque obscūrātum est ejus rēgnum, ut ipsī suās præ dolōre linguās manderent,
+   - 1573: Deinde quintus angelus phialam suam effudit in bestiæ solium: adeoque obscuratum est eius regnum, vt ipsi suas præ dolore linguas manderent,
+   - TR: Καὶ ὁ πέμπτος ἄγγελος ἐξέχεε τὴν φιάλην αὐτοῦ ἐπὶ τὸν θρόνον τοῦ θηρίου· καὶ ἐγένετο ἡ βασιλεία αὐτοῦ ἐσκοτωμένη· καὶ ἐμασσῶντο τὰς γλώσσας αὐτῶν ἐκ τοῦ πόνου,
+   - SBLGNT: Καὶ ὁ πέμπτος ἐξέχεεν τὴν φιάλην αὐτοῦ ἐπὶ τὸν θρόνον τοῦ θηρίου· καὶ ἐγένετο ἡ βασιλεία αὐτοῦ ἐσκοτωμένη, καὶ ἐμασῶντο τὰς γλώσσας αὐτῶν ἐκ τοῦ πόνου,
+   - Vulgate: Et quintus angelus effudit phialam suam super sedem bestiæ: et factum est regnum ejus tenebrosum, et commanducaverunt linguas suas præ dolore:
+   - BSB: And the fifth angel poured out his bowl on the throne of the beast, and its kingdom was plunged into darkness, and men began to gnaw their tongues in anguish
+   - WEB: The fifth poured out his bowl on the throne of the beast, and his kingdom was darkened. They gnawed their tongues because of the pain,
+- **16:12** add (word): SBLGNT *–* ] TR *+ αγγελος*
+   - Latin: Deinde sextus angelus phialam suam effūdit in magnum flūmen Euphrātem, et āruit ejus aqua, ut parārētur via rēgum, quī essent ā sōlis ortū.
+   - 1573: Deinde sextus angelus phialam suam effudit in magnum flumen Euphratem, et aruit eius aqua, vt pararetur via regum, qui essent à solis ortu.
+   - TR: Καὶ ὁ ἕκτος ἄγγελος ἐξέχεε τὴν φιάλην αὐτοῦ ἐπὶ τὸν ποταμὸν τὸν μέγαν τὸν Εὐφράτην· καὶ ἐξηράνθη τὸ ὕδωρ αὐτοῦ, ἵνα ἑτοιμασθῇ ἡ ὁδὸς τῶν βασιλέων τῶν ἀπὸ ἀνατολῶν ἡλίου.
+   - SBLGNT: Καὶ ὁ ἕκτος ἐξέχεεν τὴν φιάλην αὐτοῦ ἐπὶ τὸν ποταμὸν τὸν μέγαν τὸν Εὐφράτην· καὶ ἐξηράνθη τὸ ὕδωρ αὐτοῦ, ἵνα ἑτοιμασθῇ ἡ ὁδὸς τῶν βασιλέων τῶν ἀπὸ ἀνατολῆς ἡλίου.
+   - Vulgate: Et sextus angelus effudit phialam suam in flumen illud magnum Euphraten: et siccavit aquam ejus, ut præpararetur via regibus ab ortu solis.
+   - BSB: And the sixth angel poured out his bowl on the great river Euphrates, and its water was dried up to prepare the way for the kings of the East.
+   - WEB: The sixth poured out his bowl on the great river, the Euphrates. Its water was dried up, that the way might be prepared for the kings that come from the sunrise.
+- **16:13** substitute (word): SBLGNT *ως βατραχοι* ] TR *ομοια βατραχοις*
+   - Latin: Item vīdī ex ōre dracōnis, et ex ōre bēstiæ, et ex ōre falsī vātis, trēs spīritūs immundōs, rānārum similēs.
+   - 1573: Item vidi ex ore draconis, et ex ore bestiæ, et ex ore falsi vatis, tres spiritus immundos, ranarum similes.
+   - TR: Καὶ εἶδον ἐκ τοῦ στόματος τοῦ δράκοντος, καὶ ἐκ τοῦ στόματος τοῦ θηρίου, καὶ ἐκ τοῦ στόματος τοῦ ψευδοπροφήτου, πνεύματα τρία ἀκάθαρτα ὅμοια βατράχοις·
+   - SBLGNT: καὶ εἶδον ἐκ τοῦ στόματος τοῦ δράκοντος καὶ ἐκ τοῦ στόματος τοῦ θηρίου καὶ ἐκ τοῦ στόματος τοῦ ψευδοπροφήτου πνεύματα τρία ἀκάθαρτα ὡς βάτραχοι·
+   - Vulgate: Et vidi de ore draconis, et de ore bestiæ, et de ore pseudoprophetæ spiritus tres immundos in modum ranarum.
+   - BSB: And I saw three unclean spirits that looked like frogs coming out of the mouths of the dragon, the beast, and the false prophet.
+   - WEB: I saw coming out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits, something like frogs;
+- **16:14** add (clause): SBLGNT *–* ] TR *+ γης και της*
+   - Latin: Sunt autem dæmonum spīritūs, quī spīritūs efficiunt, ut ēdantur ostenta ad terrārum et tōtīus orbis rēgēs, quō eōs congregent in prælium illīus magnæ diēī omnipotentis Deī.
+   - 1573: Sunt autem dæmonum spiritus, qui spiritus efficiunt vt edantur ostenta ad terrarum et totius orbis reges, quò eos congregent in prælium illius magnæ diei omnipotentis Dei.
+   - TR: εἰσὶ γὰρ πνεύματα δαιμόνων ποιοῦντα σημεῖα, ἃ ἐκπορεύεται ἐπὶ τοὺς βασιλεῖς τῆς γῆς καὶ τῆς οἰκουμένης ὅλης, συναγαγεῖν αὐτοὺς εἰς πόλεμον τῆς ἡμέρας ἐκείνης τῆς μεγάλης τοῦ Θεοῦ τοῦ παντοκράτορος —
+   - SBLGNT: εἰσὶν γὰρ πνεύματα δαιμονίων ποιοῦντα σημεῖα, ἃ ἐκπορεύεται ἐπὶ τοὺς βασιλεῖς τῆς οἰκουμένης ὅλης, συναγαγεῖν αὐτοὺς εἰς τὸν πόλεμον τῆς ἡμέρας τῆς μεγάλης τοῦ θεοῦ τοῦ παντοκράτορος—
+   - Vulgate: Sunt enim spiritus dæmoniorum facientes signa, et procedunt ad reges totius terræ congregare illos in prælium ad diem magnum omnipotentis Dei.
+   - BSB: These are demonic spirits that perform signs and go out to all the kings of the earth, to assemble them for battle on the great day of God the Almighty.
+   - WEB: for they are spirits of demons, performing signs, which go out to the kings of the whole inhabited earth, to gather them together for the war of that great day of God the Almighty.
+- **16:16** substitute (name): SBLGNT *αρμαγεδων* ] TR *αρμαγεδδων*
+   - Latin: Congregāvit autem eōs in locum, quī hebraicē vocātur Armageddōn.
+   - 1573: Congregauit autem eos in locum, qui Hebraicè vocatur Armageddon.
+   - TR: Καὶ συνήγαγεν αὐτοὺς εἰς τὸν τόπον τὸν καλούμενον Ἑβραϊστὶ Ἀρμαγεδδών.
+   - SBLGNT: καὶ συνήγαγεν αὐτοὺς εἰς τὸν τόπον τὸν καλούμενον Ἑβραϊστὶ Ἁρμαγεδών.
+   - Vulgate: Et congregabit illos in locum qui vocatur hebraice Armagedon.
+   - BSB: And they assembled the kings in the place that in Hebrew is called Armageddon.
+   - WEB: He gathered them together into the place which is called in Hebrew, “Harmagedon”.
+- **16:17** add (word): SBLGNT *–* ] TR *+ αγγελος*
+   - Latin: Deinde septimus angelus phialam suam in āerem effūdit, et prōdiit magna vōx ex cælī fānō, ex soliō dīcēns: “Factum est.”
+   - 1573: Deinde. Septimus angelus phialam suam in aerem effudit, et prodijt magna vox ex cœli fano, ex solio dicens: Factum est.
+   - TR: Καὶ ὁ ἕβδομος ἄγγελος ἐξέχεε τὴν φιάλην αὐτοῦ εἰς τὸν ἀέρα· καὶ ἐξῆλθε φωνὴ μεγάλη ἀπὸ τοῦ ναοῦ τοῦ οὐρανοῦ, ἀπὸ τοῦ θρόνου, λέγουσα, Γέγονε.
+   - SBLGNT: Καὶ ὁ ἕβδομος ἐξέχεεν τὴν φιάλην αὐτοῦ ἐπὶ τὸν ἀέρα— καὶ ἐξῆλθεν φωνὴ μεγάλη ἐκ τοῦ ναοῦ ἀπὸ τοῦ θρόνου λέγουσα· Γέγονεν—
+   - Vulgate: Et septimus angelus effudit phialam suam in aërem, et exivit vox magna de templo a throno, dicens: Factum est.
+   - BSB: Then the seventh angel poured out his bowl into the air, and a loud voice came from the throne in the temple, saying, “It is done!”
+   - WEB: The seventh poured out his bowl into the air. A loud voice came out of the temple of heaven, from the throne, saying, “It is done!”
+- **16:18** omit (word): SBLGNT *αστραπαι και* ] TR *–*; add (word): SBLGNT *–* ] TR *+ και αστραπαι*
+   - Latin: Exstitēruntque sonitūs et tonitrua, ac fulgura: tantusque terræ mōtus factus est, ut post hominēs in terrīs nātōs tantus, tam ingēns terræ mōtus nūllus exstiterit:
+   - 1573: Extiteruntque sonitus et tonitrua, ac fulgura: tantusque terræ motus factus est, vt post homines in terris natos tantus, tam ingens terræ motus nullus extiterit:
+   - TR: Καὶ ἐγένοντο φωναὶ καὶ βρονταὶ καὶ ἀστραπαί, καὶ σεισμὸς ἐγένετο μέγας, οἷος οὐκ ἐγένετο ἀφ᾿ οὗ οἱ ἄνθρωποι ἐγένοντο ἐπὶ τῆς γῆς, τηλικοῦτος σεισμός, οὕτω μέγας.
+   - SBLGNT: καὶ ἐγένοντο ἀστραπαὶ καὶ φωναὶ καὶ βρονταί, καὶ σεισμὸς ἐγένετο μέγας, οἷος οὐκ ἐγένετο ἀφʼ οὗ ἄνθρωποι ἐγένοντο ἐπὶ τῆς γῆς τηλικοῦτος σεισμὸς οὕτω μέγας,
+   - Vulgate: Et facta sunt fulgura, et voces, et tonitrua, et terræmotus factus est magnus, qualis numquam fuit ex quo homines fuerunt super terram: talis terræmotus, sic magnus.
+   - BSB: And there were flashes of lightning, and rumblings, and peals of thunder, and a great earthquake the likes of which had not occurred since men were upon the earth—so mighty was the great quake.
+   - WEB: There were lightnings, sounds, and thunders; and there was a great earthquake such as has not happened since there were men on the earth—so great an earthquake and so mighty.
+- **17:2** omit (clause): SBLGNT *οι κατοικουντες την γην* ] TR *–*; add (clause): SBLGNT *–* ] TR *+ οι κατοικουντες την γην*
+   - Latin: cum quā scortātī sunt rēgēs terræ, cujusque impudīcitiæ vīnō inēbriātī sunt incolæ terræ.”
+   - 1573: cum qua scortati sunt reges terræ cuiusque impudicitiæ vino inebriati sunt incolæ terræ.
+   - TR: μεθ᾿ ἧς ἐπόρνευσαν οἱ βασιλεῖς τῆς γῆς, καὶ ἐμεθύσθησαν ἐκ τοῦ οἴνου τῆς πορνείας αὐτῆς οἱ κατοικοῦντες τὴν γῆν.
+   - SBLGNT: μεθʼ ἧς ἐπόρνευσαν οἱ βασιλεῖς τῆς γῆς, καὶ ἐμεθύσθησαν οἱ κατοικοῦντες τὴν γῆν ἐκ τοῦ οἴνου τῆς πορνείας αὐτῆς.
+   - Vulgate: cum qua fornicati sunt reges terræ, et inebriati sunt qui inhabitant terram de vino prostitutionis ejus.
+   - BSB: The kings of the earth were immoral with her, and those who dwell on the earth were intoxicated with the wine of her immorality.”
+   - WEB: with whom the kings of the earth committed sexual immorality. Those who dwell on the earth were made drunken with the wine of her sexual immorality.”
+- **17:3** substitute (word): SBLGNT *γεμοντα ονοματα* ] TR *γεμον ονοματων*
+   - Latin: Deinde mē dīvīnō afflātū abstulit in sōlitūdinem, ubi mulierem vīdī īnsidentem bēluæ coccinæ, nefāriīs nōminibus plēnæ, habentī septem capita, et decem cornua.
+   - 1573: Deinde me diuino afflatu abstulit in solitudinem, vbi mulierem vidi insidentem beluæ coccinæ, nefarijs nominibus plenæ, habenti septem capita, et decem cornua.
+   - TR: Καὶ ἀπήνεγκέ με εἰς ἔρημον ἐν πνεύματι· καὶ εἶδον γυναῖκα καθημένην ἐπὶ θηρίον κόκκινον, γέμον ὀνομάτων βλασφημίας, ἔχον κεφαλὰς ἑπτὰ καὶ κέρατα δέκα.
+   - SBLGNT: καὶ ἀπήνεγκέν με εἰς ἔρημον ἐν πνεύματι. καὶ εἶδον γυναῖκα καθημένην ἐπὶ θηρίον κόκκινον, γέμοντα ὀνόματα βλασφημίας, ἔχων κεφαλὰς ἑπτὰ καὶ κέρατα δέκα.
+   - Vulgate: Et abstulit me in spiritu in desertum. Et vidi mulierem sedentem super bestiam coccineam, plenam nominibus blasphemiæ, habentem capita septem, et cornua decem.
+   - BSB: And the angel carried me away in the Spirit into a wilderness, where I saw a woman sitting on a scarlet beast that was covered with blasphemous names and had seven heads and ten horns.
+   - WEB: He carried me away in the Spirit into a wilderness. I saw a woman sitting on a scarlet-colored beast, full of blasphemous names, having seven heads and ten horns.
+- **17:4** substitute (word): SBLGNT *ην* ] TR *η*; add (word): SBLGNT *–* ] TR *+ χρυσουν*; omit (word): SBLGNT *χρυσουν* ] TR *–*; substitute (word): SBLGNT *τα ακαθαρτα της* ] TR *ακαθαρτητος*
+   - Latin: Erat ea mulier indūta purpurā et coccinō, aurōque deaurāta, et gemmīs ac margarītīs, habēns aureum pōculum in suā manū, flāgitiīs et turpitūdine ejus stuprōrum refertum:
+   - 1573: Erat ea mulier induta purpura et coccino, auroque deaurata, et gemmis ac margaritis, habens aureum poculum in sua manu, flagitijs et turpitudine eius stuprorum refertum:
+   - TR: Καὶ ἡ γυνὴ ἡ περιβεβλημένη πορφύρᾳ καὶ κοκκίνῳ, καὶ κεχρυσωμένη χρυσῷ καὶ λίθῳ τιμίῳ καὶ μαργαρίταις, ἔχουσα χρυσοῦν ποτήριον ἐν τῇ χειρὶ αὐτῆς, γέμον βδελυγμάτων καὶ ἀκαθάρτητος πορνείας αὐτῆς,
+   - SBLGNT: καὶ ἡ γυνὴ ἦν περιβεβλημένη πορφυροῦν καὶ κόκκινον, καὶ κεχρυσωμένη χρυσίῳ καὶ λίθῳ τιμίῳ καὶ μαργαρίταις, ἔχουσα ποτήριον χρυσοῦν ἐν τῇ χειρὶ αὐτῆς γέμον βδελυγμάτων καὶ τὰ ἀκάθαρτα τῆς πορνείας αὐτῆς,
+   - Vulgate: Et mulier erat circumdata purpura, et coccino, et inaurata auro, et lapide pretioso, et margaritis, habens poculum aureum in manu sua, plenum abominatione, et immunditia fornicationis ejus.
+   - BSB: The woman was dressed in purple and scarlet, and adorned with gold and precious stones and pearls. She held in her hand a golden cup full of abominations and the impurities of her sexual immorality.
+   - WEB: The woman was dressed in purple and scarlet, and decked with gold and precious stones and pearls, having in her hand a golden cup full of abominations and the impurities of the sexual immorality of the earth.
+- **17:8** substitute (word): SBLGNT *και παρεσται* ] TR *καιπερ εστι*
+   - Latin: Bēlua, quam vīdistī, fuit, et nōn est: et ascēnsūra est ex tartarō, et in perniciem abitūra: mīrābunturque terræ incolæ, quōrum nōmina in vītæ librō ab orbe conditō scrīpta nōn sunt, videntēs bēluam fuisse, nec esse, tametsī est.
+   - 1573: Belua, quam vidisti, fuit, et non est: et ascensura est ex Tartaro, et in perniciem abitura: mirabunturque terræ incolæ, quorum nomina in vitæ libro ab orbe condito scripta non sunt, videntes beluam fuisse, nec esse, tametsi est.
+   - TR: Θηρίον ὃ εἶδες, ἦν, καὶ οὐκ ἔστι, καὶ μέλλει ἀναβαίνειν ἐκ τῆς ἀβύσσου, καὶ εἰς ἀπώλειαν ὑπάγειν. Καὶ θαυμάσονται οἱ κατοικοῦντες ἐπὶ τῆς γῆς, ὧν οὐ γέγραπται τὰ ὀνόματα ἐπὶ τὸ βιβλίον τῆς ζωῆς ἀπὸ καταβολῆς κόσμου, βλέποντες τὸ θηρίον ὅ, τι ἦν, καὶ οὐκ ἔστι, καίπερ ἔστιν.
+   - SBLGNT: τὸ θηρίον ὃ εἶδες ἦν καὶ οὐκ ἔστιν, καὶ μέλλει ἀναβαίνειν ἐκ τῆς ἀβύσσου, καὶ εἰς ἀπώλειαν ὑπάγει· καὶ θαυμασθήσονται οἱ κατοικοῦντες ἐπὶ τῆς γῆς, ὧν οὐ γέγραπται τὸ ὄνομα ἐπὶ τὸ βιβλίον τῆς ζωῆς ἀπὸ καταβολῆς κόσμου, βλεπόντων τὸ θηρίον ὅτι ἦν καὶ οὐκ ἔστιν καὶ παρέσται.
+   - Vulgate: Bestia, quam vidisti, fuit, et non est, et ascensura est de abysso, et in interitum ibit: et mirabuntur inhabitantes terram (quorum non sunt scripta nomina in libro vitæ a constitutione mundi) videntes bestiam, quæ erat, et non est.
+   - BSB: The beast that you saw—it was, and now is no more, but is about to come up out of the Abyss and go to its destruction. And those who dwell on the earth whose names were not written in the Book of Life from the foundation of the world will marvel when they see the beast that was, and is not, and yet will be.
+   - WEB: The beast that you saw was, and is not; and is about to come up out of the abyss and to go into destruction. Those who dwell on the earth and whose names have not been written in the book of life from the foundation of the world will marvel when they see that the beast was, and is not, and shall be present.
+- **17:9** omit (clause): SBLGNT *και βασιλεις επτα εισι* ] TR *–*
+   - Latin: Hīc est sententia, quæ acūmen habet. Septem capita septem sunt montēs, in quibus sedet mulier:
+   - 1573: Hîc est sententia, quæ acumen habet. Septem capita, septem sunt montes, in quibus sedet mulier:
+   - TR: Ὧδε ὁ νοῦς ὁ ἔχων σοφίαν. Αἱ ἑπτὰ κεφαλαὶ ὄρη εἰσὶν ἑπτά, ὅπου ἡ γυνὴ κάθηται ἐπ᾿ αὐτῶν.
+   - SBLGNT: Ὧδε ὁ νοῦς ὁ ἔχων σοφίαν. αἱ ἑπτὰ κεφαλαὶ ἑπτὰ ὄρη εἰσίν, ὅπου ἡ γυνὴ κάθηται ἐπʼ αὐτῶν. καὶ βασιλεῖς ἑπτά εἰσιν·
+   - Vulgate: Et hic est sensus, qui habet sapientiam. Septem capita, septem montes sunt, super quos mulier sedet, et reges septem sunt.
+   - BSB: This calls for a mind with wisdom. The seven heads are seven mountains on which the woman sits.
+   - WEB: Here is the mind that has wisdom. The seven heads are seven mountains on which the woman sits.
+- **17:10** add (clause): SBLGNT *–* ] TR *+ και βασιλεις επτα εισι*
+   - Latin: Septemque rēgēs sunt, quōrum quīnque cecidērunt, et ūnus est: alius nōndum vēnit, et cum vēnerit, paululum dūrātūrus est.
+   - 1573: septemque reges sunt, quorum quinque ceciderunt, et vnus est: alius nondum venit, et cùm venerit, paululum duraturus est.
+   - TR: Καὶ βασιλεῖς ἑπτά εἰσιν· οἱ πέντε ἔπεσαν, καὶ ὁ εἷς ἔστιν, ὁ ἄλλος οὔπω ἦλθε· καί, ὅταν ἔλθῃ, ὀλίγον αὐτὸν δεῖ μεῖναι.
+   - SBLGNT: οἱ πέντε ἔπεσαν, ὁ εἷς ἔστιν, ὁ ἄλλος οὔπω ἦλθεν, καὶ ὅταν ἔλθῃ ὀλίγον αὐτὸν δεῖ μεῖναι,
+   - Vulgate: Quinque ceciderunt, unus est, et alius nondum venit: et cum venerit, oportet illum breve tempus manere.
+   - BSB: There are also seven kings. Five have fallen, one is, and the other has not yet come; but when he does come, he must remain for only a little while.
+   - WEB: They are seven kings. Five have fallen, the one is, and the other has not yet come. When he comes, he must continue a little while.
+- **17:13** substitute (word): SBLGNT *αυτων* ] TR *εαυτων*; substitute (word): SBLGNT *διδοασι* ] TR *διαδιδωσουσι*
+   - Latin: Iī eundem animum habēbunt, suāsque vīrēs ac potestātem bēluæ trādent.
+   - 1573: Ij eundem animum habebunt, suasque vires ac potestatem beluæ tradent.
+   - TR: Οὗτοι μίαν γνώμην ἔχουσι, καὶ τὴν δύναμιν καὶ τὴν ἐξουσίαν ἑαυτῶν τῷ θηρίῳ διαδιδώσουσιν.
+   - SBLGNT: οὗτοι μίαν γνώμην ἔχουσιν, καὶ τὴν δύναμιν καὶ ἐξουσίαν αὐτῶν τῷ θηρίῳ διδόασιν.
+   - Vulgate: Hi unum consilium habent, et virtutem, et potestatem suam bestiæ tradent.
+   - BSB: These kings have one purpose: to yield their power and authority to the beast.
+   - WEB: These have one mind, and they give their power and authority to the beast.
+- **17:17** substitute (word): SBLGNT *τελεσθησονται οι λογοι* ] TR *τελεσθη τα ρηματα*
+   - Latin: Iīs enim Deus eam mentem injēcit, ut ejus sententiam exsequantur, eōdemque animō agant, et rēgnum suum bēluæ trādant, dōnec Deī mandāta peragantur.
+   - 1573: Eis enim Deus eam mentem iniecit, vt eius sententiam exequantur, eodemque animo agant, et regnum suum beluæ tradant, donec Dei mandata peragantur.
+   - TR: Ὁ γὰρ Θεὸς ἔδωκεν εἰς τὰς καρδίας αὐτῶν ποιῆσαι τὴν γνώμην αὐτοῦ, καὶ ποιῆσαι μίαν γνώμην, καὶ δοῦναι τὴν βασιλείαν αὐτῶν τῷ θηρίῳ, ἄχρι τελεσθῇ τὰ ῥήματα τοῦ Θεοῦ.
+   - SBLGNT: ὁ γὰρ θεὸς ἔδωκεν εἰς τὰς καρδίας αὐτῶν ποιῆσαι τὴν γνώμην αὐτοῦ, καὶ ποιῆσαι μίαν γνώμην καὶ δοῦναι τὴν βασιλείαν αὐτῶν τῷ θηρίῳ, ἄχρι τελεσθήσονται οἱ λόγοι τοῦ θεοῦ.
+   - Vulgate: Deus enim dedit in corda eorum ut faciant quod placitum est illi: ut dent regnum suum bestiæ donec consummentur verba Dei.
+   - BSB: For God has put it into their hearts to carry out His purpose by uniting to give their kingdom to the beast, until the words of God are fulfilled.
+   - WEB: For God has put in their hearts to do what he has in mind, to be of one mind, and to give their kingdom to the beast, until the words of God should be accomplished.
+- **18:1** omit (word): SBLGNT *αλλον* ] TR *–*
+   - Latin: Posteā vīdī alium angelum dē cælō dēscendentem, magnā potestāte præditum, cujus splendōre collūstrāta terra est.
+   - 1573: Postea vidi alium angelum de cœlo descendentem, magna potestate præditum, cuius splendore collustrata terra est.
+   - TR: Καὶ μετὰ ταῦτα εἶδον ἄγγελον καταβαίνοντα ἐκ τοῦ οὐρανοῦ, ἔχοντα ἐξουσίαν μεγάλην· καὶ ἡ γῆ ἐφωτίσθη ἐκ τῆς δόξης αὐτοῦ.
+   - SBLGNT: Μετὰ ταῦτα εἶδον ἄλλον ἄγγελον καταβαίνοντα ἐκ τοῦ οὐρανοῦ, ἔχοντα ἐξουσίαν μεγάλην, καὶ ἡ γῆ ἐφωτίσθη ἐκ τῆς δόξης αὐτοῦ.
+   - Vulgate: Et post hæc vidi alium angelum descendentem de cælo, habentem potestatem magnam: et terra illuminata est a gloria ejus.
+   - BSB: After this I saw another angel descending from heaven with great authority, and the earth was illuminated by his glory.
+   - WEB: After these things, I saw another angel coming down out of the sky, having great authority. The earth was illuminated with his glory.
+- **18:2** add (word): SBLGNT *–* ] TR *+ μεγαλη*
+   - Latin: Is vehementer, magnā vōce clāmāns, dīxit: “Cecidit, cecidit magna Babylōn, factaque est dæmonum domicilium, et omnium impūrōrum spīrituum, omniumque obscēnārum et invīsārum volucrum custōdia:
+   - 1573: Is vehementer, magna voce clamans, dixit: Cecidit, cecidit magna Babylon, factaque est dæmonum domicilium, et omnium impurorum spirituum, omniumque obscenarum et inuisarum volucrum custodia:
+   - TR: Καὶ ἔκραξεν ἐν ἰσχύϊ, φωνῇ μεγάλῃ, λέγων, Ἔπεσεν ἔπεσε Βαβυλὼν ἡ μεγάλη, καὶ ἐγένετο κατοικητήριον δαιμόνων, καὶ φυλακὴ παντὸς πνεύματος ἀκαθάρτου, καὶ φυλακὴ παντὸς ὀρνέου ἀκαθάρτου καὶ μεμισημένου.
+   - SBLGNT: καὶ ἔκραξεν ἐν ἰσχυρᾷ φωνῇ λέγων· Ἔπεσεν, ἔπεσεν Βαβυλὼν ἡ μεγάλη, καὶ ἐγένετο κατοικητήριον δαιμονίων καὶ φυλακὴ παντὸς πνεύματος ἀκαθάρτου καὶ φυλακὴ παντὸς ὀρνέου ἀκαθάρτου καὶ φυλακὴ παντὸς θηρίου ἀκαθάρτου καὶ μεμισημένου,
+   - Vulgate: Et exclamavit in fortitudine, dicens: Cecidit, cecidit Babylon magna: et facta est habitatio dæmoniorum, et custodia omnis spiritus immundi, et custodia omnis volucris immundæ, et odibilis:
+   - BSB: And he cried out in a mighty voice: “Fallen, fallen is Babylon the great! She has become a lair for demons and a haunt for every unclean spirit, every unclean bird, and every detestable beast.
+   - WEB: He cried with a mighty voice, saying, “Fallen, fallen is Babylon the great, and she has become a habitation of demons, a prison of every unclean spirit, and a prison of every unclean and hated bird!
+- **18:3** substitute (word): SBLGNT *πεπτωκαν* ] TR *πεπωκε*
+   - Latin: Quoniam tætrō stuprōrum suōrum vīnō gentēs omnēs pōtiōnāvit, rēgēsque terrārum cum eā scortātī sunt, et terrārum mercātōrēs ejus dēliciārum cōpiā locuplētātī.”
+   - 1573: quoniam tetro stuprorum suorum vino gentes omnes potionauit, regesque terrarum cum ea scortati sunt, et terrarum mercatores eius deliciarum copia locupletati.
+   - TR: Ὅτι ἐκ τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας αὐτῆς πέπωκε πάντα τὰ ἔθνη, καὶ οἱ βασιλεῖς τῆς γῆς μετ᾿ αὐτῆς ἐπόρνευσαν, καὶ οἱ ἔμποροι τῆς γῆς ἐκ τῆς δυνάμεως τοῦ στρήνους αὐτῆς ἐπλούτησαν.
+   - SBLGNT: ὅτι ἐκ τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας αὐτῆς πέπτωκαν πάντα τὰ ἔθνη, καὶ οἱ βασιλεῖς τῆς γῆς μετʼ αὐτῆς ἐπόρνευσαν, καὶ οἱ ἔμποροι τῆς γῆς ἐκ τῆς δυνάμεως τοῦ στρήνους αὐτῆς ἐπλούτησαν.
+   - Vulgate: quia de vino iræ fornicationis ejus biberunt omnes gentes: et reges terræ cum illa fornicati sunt: et mercatores terræ de virtute deliciarum ejus divites facti sunt.
+   - BSB: All the nations have drunk the wine of the passion of her immorality. The kings of the earth were immoral with her, and the merchants of the earth have grown wealthy from the extravagance of her luxury.”
+   - WEB: For all the nations have drunk of the wine of the wrath of her sexual immorality, the kings of the earth committed sexual immorality with her, and the merchants of the earth grew rich from the abundance of her luxury.”
+- **18:4** substitute (word): SBLGNT *εξελθατε* ] TR *εξελθετε εξ αυτης*; add (clause): SBLGNT *–* ] TR *+ ινα μη λαβητε*; omit (clause): SBLGNT *ινα μη λαβητε* ] TR *–*
+   - Latin: Item aliam vōcem audīvī dē cælō dīcentem: “Migrāte ex eā, mī populus: nē sītis ejus peccātōrum participēs, nēve ejus clādibus afficiāminī:
+   - 1573: Item aliam vocem audiui de cœlo dicentem: Migrate ex ea, mi populus, ne sitis eius peccatorum participes, neue eius cladibus afficiamini:
+   - TR: Καὶ ἤκουσα ἄλλην φωνὴν ἐκ τοῦ οὐρανοῦ, λέγουσαν, Ἐξέλθετε ἐξ αὐτῆς ὁ λαός μου, ἵνα μὴ συγκοινωνήσητε ταῖς ἁμαρτίαις αὐτῆς, καὶ ἵνα μὴ λάβητε ἐκ τῶν πληγῶν αὐτῆς·
+   - SBLGNT: Καὶ ἤκουσα ἄλλην φωνὴν ἐκ τοῦ οὐρανοῦ λέγουσαν· Ἐξέλθατε, ὁ λαός μου, ἐξ αὐτῆς, ἵνα μὴ συγκοινωνήσητε ταῖς ἁμαρτίαις αὐτῆς, καὶ ἐκ τῶν πληγῶν αὐτῆς ἵνα μὴ λάβητε·
+   - Vulgate: Et audivi aliam vocem de cælo, dicentem: Exite de illa populus meus: ut ne participes sitis delictorum ejus, et de plagis ejus non accipiatis.
+   - BSB: Then I heard another voice from heaven say: “Come out of her, My people, so that you will not share in her sins or contract any of her plagues.
+   - WEB: I heard another voice from heaven, saying, “Come out of her, my people, that you have no participation in her sins, and that you don’t receive of her plagues,
+- **18:5** substitute (word): SBLGNT *εκολληθησαν* ] TR *ηκολουθησαν*
+   - Latin: Quoniam ejus peccāta ad cælum ūsque pertigērunt, ejusque scelera recordātur Deus.
+   - 1573: quoniam eius peccata ad cœlum vsque pertigerunt eiusque scelera recordatur Deus.
+   - TR: ὅτι ἠκολούθησαν αὐτῆς αἱ ἁμαρτίαι ἄχρι τοῦ οὐρανοῦ, καὶ ἐμνημόνευσεν ὁ Θεὸς τὰ ἀδικήματα αὐτῆς.
+   - SBLGNT: ὅτι ἐκολλήθησαν αὐτῆς αἱ ἁμαρτίαι ἄχρι τοῦ οὐρανοῦ, καὶ ἐμνημόνευσεν ὁ θεὸς τὰ ἀδικήματα αὐτῆς.
+   - Vulgate: Quoniam pervenerunt peccata ejus usque ad cælum, et recordatus est Dominus iniquitatum ejus.
+   - BSB: For her sins are piled up to heaven, and God has remembered her iniquities.
+   - WEB: for her sins have reached to the sky, and God has remembered her iniquities.
+- **18:7** substitute (word): SBLGNT *αυτην* ] TR *εαυτην*
+   - Latin: Quantum ipsa sē honōrāvit, et luxuriāta est, tantum eī cruciātum lūctumque date: quoniam ipsa sīc cum animō suō cōgitat: ‘Sedeō rēgīna, neque vidua futūra sum, neque lūctū afficiar.’
+   - 1573: quantum ipsa se honorauit et luxuriata est, tantum ei cruciatum luctumque date: quoniam ipsa sic cum animo suo cogitat: Sedeo regina, neque vidua futura sum, neque luctu afficiar.
+   - TR: Ὅσα ἐδόξασεν ἑαυτὴν καὶ ἐστρηνίασε, τοσοῦτον δότε αὐτῇ βασανισμὸν καὶ πένθος· ὅτι ἐν τῇ καρδίᾳ αὐτῆς λέγει, Κάθημαι βασίλισσα, καὶ χήρα οὐκ εἰμί, καὶ πένθος οὐ μὴ ἴδω.
+   - SBLGNT: ὅσα ἐδόξασεν αὑτὴν καὶ ἐστρηνίασεν, τοσοῦτον δότε αὐτῇ βασανισμὸν καὶ πένθος. ὅτι ἐν τῇ καρδίᾳ αὐτῆς λέγει ὅτι Κάθημαι βασίλισσα, καὶ χήρα οὐκ εἰμί, καὶ πένθος οὐ μὴ ἴδω.
+   - Vulgate: Quantum glorificavit se, et in deliciis fuit, tantum date illi tormentum et luctum: quia in corde suo dicit: Sedeo regina: et vidua non sum, et luctum non videbo.
+   - BSB: As much as she has glorified herself and lived in luxury, give her the same measure of torment and grief. In her heart she says, ‘I sit as queen; I am not a widow and will never see grief.’
+   - WEB: However much she glorified herself and grew wanton, so much give her of torment and mourning. For she says in her heart, ‘I sit a queen, and am no widow, and will in no way see mourning.’
+- **18:9** substitute (word): SBLGNT *κλαυσουσι* ] TR *κλαυσονται αυτην*
+   - Latin: Eamque terrārum rēgēs, quī cum eā scortātī luxuriātīque fuerint, dēplōrābunt, ac lāmentābuntur, cum ejus incendiī fūmum vidēbunt,
+   - 1573: eamque terrarum reges, qui cum ea scortati luxuriatique fuerint, deplorabunt, ac lamentabuntur, cùm eius incendij fumum videbunt,
+   - TR: Καὶ κλαύσονται αὐτήν, καὶ κόψονται ἐπ᾿ αὐτῇ οἱ βασιλεῖς τῆς γῆς οἱ μετ᾿ αὐτῆς πορνεύσαντες καὶ στρηνιάσαντες, ὅταν βλέπωσι τὸν καπνὸν τῆς πυρώσεως αὐτῆς,
+   - SBLGNT: Καὶ κλαύσουσιν καὶ κόψονται ἐπʼ αὐτὴν οἱ βασιλεῖς τῆς γῆς οἱ μετʼ αὐτῆς πορνεύσαντες καὶ στρηνιάσαντες, ὅταν βλέπωσιν τὸν καπνὸν τῆς πυρώσεως αὐτῆς,
+   - Vulgate: Et flebunt, et plangent se super illam reges terræ, qui cum illa fornicati sunt, et in deliciis vixerunt, cum viderint fumum incendii ejus:
+   - BSB: Then the kings of the earth who committed sexual immorality and lived in luxury with her will weep and wail at the sight of the smoke rising from the fire that consumes her.
+   - WEB: The kings of the earth who committed sexual immorality and lived wantonly with her will weep and wail over her, when they look at the smoke of her burning,
+- **18:12** substitute (word): SBLGNT *σιρικου* ] TR *σηρικου*
+   - Latin: mercem aurī et argentī, et gemmārum, et margarītārum, et byssī, et purpuræ, et sēricī, et coccinī, et omnis generis lignum, thȳinum, eburneaque, et ex pretiōsissimīs lignīs cōnfecta vāsa, et ære, et ferrō, et marmore,
+   - 1573: mercem auri et argenti, et gemmarum, et margaritarum, et byssi, et purpuræ, et serici et coccini, et omnis generis lignum thyinum, eburneaque, et ex preciosissimis lignis confecta vasa, et ære, et ferro, et marmore,
+   - TR: γόμον χρυσοῦ, καὶ ἀργύρου, καὶ λίθου τιμίου, καὶ μαργαρίτου, καὶ βύσσου, καὶ πορφύρας, καὶ σηρικοῦ, καὶ κοκκίνου· καὶ πᾶν ξύλον θύϊνον, καὶ πᾶν σκεῦος ἐλεφάντινον, καὶ πᾶν σκεῦος ἐκ ξύλου τιμιωτάτου, καὶ χαλκοῦ, καὶ σιδήρου, καὶ μαρμάρου·
+   - SBLGNT: γόμον χρυσοῦ καὶ ἀργύρου καὶ λίθου τιμίου καὶ μαργαριτῶν καὶ βυσσίνου καὶ πορφύρας καὶ σιρικοῦ καὶ κοκκίνου, καὶ πᾶν ξύλον θύϊνον καὶ πᾶν σκεῦος ἐλεφάντινον καὶ πᾶν σκεῦος ἐκ ξύλου τιμιωτάτου καὶ χαλκοῦ καὶ σιδήρου καὶ μαρμάρου,
+   - Vulgate: merces auri, et argenti, et lapidis pretiosi, et margaritæ, et byssi, et purpuræ, et serici, et cocci (et omne lignum thyinum, et omnia vasa eboris, et omnia vasa de lapide pretioso, et æramento, et ferro, et marmore,
+   - BSB: cargo of gold, silver, precious stones, and pearls; of fine linen, purple, silk, and scarlet; of all kinds of citron wood and every article of ivory, precious wood, bronze, iron, and marble;
+   - WEB: merchandise of gold, silver, precious stones, pearls, fine linen, purple, silk, scarlet, all expensive wood, every vessel of ivory, every vessel made of most precious wood, and of brass, and iron, and marble;
+- **18:13** substitute (word): SBLGNT *κινναμωμον και αμωμον* ] TR *κιναμωμον*
+   - Latin: et cinamōmum, et odōrēs, et unguentum, et tūs, et vīnum, et oleum, et similam, et trīticum, et jūmenta, et ovēs, et equōrum, et rhēdārum, et corporum, et animās hominum.
+   - 1573: et cinamomum, et odores et vnguentum, et thus et vinum, et oleum, et similam, et triticum, et iumenta, et oues, et equorum et rhedarum et corporum, et animas hominum.
+   - TR: καὶ κινάμωμον, καὶ θυμιάματα, καὶ μύρον, καὶ λίβανον, καὶ οἶνον, καὶ ἔλαιον, καὶ σεμίδαλιν, καὶ σῖτον, καὶ κτήνη, καὶ πρόβατα· καὶ ἵππων, καὶ ῥεδῶν, καὶ σωμάτων, καὶ ψυχὰς ἀνθρώπων.
+   - SBLGNT: καὶ κιννάμωμον καὶ ἄμωμον καὶ θυμιάματα καὶ μύρον καὶ λίβανον καὶ οἶνον καὶ ἔλαιον καὶ σεμίδαλιν καὶ σῖτον καὶ κτήνη καὶ πρόβατα, καὶ ἵππων καὶ ῥεδῶν καὶ σωμάτων, καὶ ψυχὰς ἀνθρώπων.
+   - Vulgate: et cinnamomum) et odoramentorum, et unguenti, et thuris, et vini, et olei, et similæ, et tritici, et jumentorum, et ovium, et equorum, et rhedarum, et mancipiorum, et animarum hominum.
+   - BSB: of cinnamon, spice, incense, myrrh, and frankincense; of wine, olive oil, fine flour, and wheat; of cattle, sheep, horses, and chariots; of slaves and souls of men.
+   - WEB: and cinnamon, incense, perfume, frankincense, wine, olive oil, fine flour, wheat, cattle, sheep, horses, chariots, and people’s bodies and souls.
+- **18:14** substitute (word): SBLGNT *απωλετο* ] TR *απηλθε*; add (word): SBLGNT *–* ] TR *+ ευρησης*
+   - Latin: “Discessērunt ā tē cupīta animō tuō pōma, omnia dēnique opīma et præclāra ā tē discessērunt, nec ea amplius inveniēs.”
+   - 1573: Discesserunt à te cupita animo tuo poma, omnia denique opima et præclara à te discesserunt, nec ea amplius inuenies.
+   - TR: Καὶ ἡ ὀπώρα τῆς ἐπιθυμίας τῆς ψυχῆς σου ἀπῆλθεν ἀπὸ σοῦ, καὶ πάντα τὰ λιπαρὰ καὶ τὰ λαμπρὰ ἀπῆλθεν ἀπὸ σοῦ, καὶ οὐκέτι οὐ μὴ εὑρήσῃς αὐτά.
+   - SBLGNT: καὶ ἡ ὀπώρα σου τῆς ἐπιθυμίας τῆς ψυχῆς ἀπῆλθεν ἀπὸ σοῦ, καὶ πάντα τὰ λιπαρὰ καὶ τὰ λαμπρὰ ἀπώλετο ἀπὸ σοῦ, καὶ οὐκέτι οὐ μὴ αὐτὰ εὑρήσουσιν.
+   - Vulgate: Et poma desiderii animæ tuæ discesserunt a te, et omnia pinguia et præclara perierunt a te, et amplius illa jam non invenient.
+   - BSB: And they will say: “The fruit of your soul’s desire has departed from you; all your luxury and splendor have vanished, never to be seen again.”
+   - WEB: The fruits which your soul lusted after have been lost to you. All things that were dainty and sumptuous have perished from you, and you will find them no more at all.
+- **18:16** substitute (word): SBLGNT *χρυσιω* ] TR *εν χρυσω*
+   - Latin: et ita dīcentēs: “Heu, heu, urbs illa magna, indūta byssinō, et purpureō, et coccinō, et aurō deaurāta, gemmīsque et margarītīs. Ūnā hōrā dēpopulātæ sunt tantæ opēs.”
+   - 1573: et ita dicentes: Heu, heu, vrbs illa magna, induta byssino, et purpureo, et coccino, et auro deaurata, gemmisque et margaritis. Vna hora depopulatæ sunt tantæ opes.
+   - TR: καὶ λέγοντες, Οὐαί, οὐαί, ἡ πόλις ἡ μεγάλη, ἡ περιβεβλημένη βύσσινον καὶ πορφυροῦν καὶ κόκκινον, καὶ κεχρυσωμένη ἐν χρυσῷ καὶ λίθῳ τιμίῳ καὶ μαργαρίταις·
+   - SBLGNT: λέγοντες· Οὐαὶ οὐαί, ἡ πόλις ἡ μεγάλη, ἡ περιβεβλημένη βύσσινον καὶ πορφυροῦν καὶ κόκκινον καὶ κεχρυσωμένη χρυσίῳ καὶ λίθῳ τιμίῳ καὶ μαργαρίτῃ,
+   - Vulgate: et dicentes: Væ, væ civitas illa magna, quæ amicta erat bysso, et purpura, et cocco, et deaurata erat auro, et lapide pretioso, et margaritis:
+   - BSB: saying: “Woe, woe to the great city, clothed in fine linen and purple and scarlet, adorned with gold and precious stones and pearls!
+   - WEB: saying, ‘Woe, woe, the great city, she who was dressed in fine linen, purple, and scarlet, and decked with gold and precious stones and pearls!
+- **18:17** add (clause): SBLGNT *–* ] TR *+ επι των πλοιων*; substitute (word): SBLGNT *επι τοπον πλεων* ] TR *ομιλος*
+   - Latin: Item omnēs nāviculāriī, omnisque cōpia nāvālis, et nautæ, et quīcumque in marī negōtiantur, procul astitērunt,
+   - 1573: Item omnes nauicularij, omnisque copia naualis, et nautæ, et quicunque in mari negociantur, procul astiterunt,
+   - TR: ὅτι μιᾷ ὥρᾳ ἠρημώθη ὁ τοσοῦτος πλοῦτος. Καὶ πᾶς κυβερνήτης, καὶ πᾶς ἐπὶ τῶν πλοίων ὁ ὅμιλος, καὶ ναῦται, καὶ ὅσοι τὴν θάλασσαν ἐργάζονται, ἀπὸ μακρόθεν ἔστησαν,
+   - SBLGNT: ὅτι μιᾷ ὥρᾳ ἠρημώθη ὁ τοσοῦτος πλοῦτος. Καὶ πᾶς κυβερνήτης καὶ πᾶς ὁ ἐπὶ τόπον πλέων, καὶ ναῦται καὶ ὅσοι τὴν θάλασσαν ἐργάζονται, ἀπὸ μακρόθεν ἔστησαν
+   - Vulgate: quoniam una hora destitutæ sunt tantæ divitiæ, et omnis gubernator, et omnis qui in lacum navigat, et nautæ, et qui in mari operantur, longe steterunt,
+   - BSB: For in a single hour such fabulous wealth has been destroyed!” Every shipmaster, passenger, and sailor, and all who make their living from the sea, will stand at a distance
+   - WEB: For in an hour such great riches are made desolate.’ Every ship master, and everyone who sails anywhere, and mariners, and as many as gain their living by sea, stood far away,
+- **18:18** substitute (word): SBLGNT *εκραξαν βλεποντες* ] TR *εκραζον ορωντες*
+   - Latin: et ejus incendiī fūmum spectantēs, ita vōciferārī īnstitērunt: “Ecquæ pār fuit urbī illī magnæ?”
+   - 1573: et eius incendij fumum spectantes, ita vociferari institerunt: Ecquæ par fuit vrbi illi magnæ?
+   - TR: καὶ ἔκραζον, ὁρῶντες τὸν καπνὸν τῆς πυρώσεως αὐτῆς, λέγοντες, Τίς ὁμοία τῇ πόλει τῇ μεγάλῃ;
+   - SBLGNT: καὶ ἔκραξαν βλέποντες τὸν καπνὸν τῆς πυρώσεως αὐτῆς λέγοντες· Τίς ὁμοία τῇ πόλει τῇ μεγάλῃ;
+   - Vulgate: et clamaverunt videntes locum incendii ejus, dicentes: Quæ similis civitati huic magnæ?
+   - BSB: and cry out at the sight of the smoke rising from the fire that consumes her. “What city was ever like this great city?” they will exclaim.
+   - WEB: and cried out as they looked at the smoke of her burning, saying, ‘What is like the great city?’
+- **19:1** omit (word): SBLGNT *μεγαλην* ] TR *–*; add (word): SBLGNT *–* ] TR *+ μεγαλην*; add (clause): SBLGNT *–* ] TR *+ τιμη και η*; substitute (word): SBLGNT *του θεου* ] TR *κυριω τω θεω*
+   - Latin: Posteā audīvī magnam ingentis multitūdinis vōcem in cælō, dīcentis: “Hallēluja. Salūs, et glōria, et honōs, et potestās Dominō Deō nostrō,
+   - 1573: Postea audiui magnam ingentis multitudinis vocem in cœlo, dicentis: Halleluia. Salus, et gloria, et honos, et potestas Domino Deo nostro,
+   - TR: Καὶ μετὰ ταῦτα ἤκουσα φωνὴν ὄχλου πολλοῦ μεγάλην ἐν τῷ οὐρανῷ, λέγοντος, Ἁλληλούϊα· ἡ σωτηρία καὶ ἡ δόξα καὶ ἡ τιμὴ καὶ ἡ δύναμις Κυρίῳ τῷ Θεῷ ἡμῶν·
+   - SBLGNT: Μετὰ ταῦτα ἤκουσα ὡς φωνὴν μεγάλην ὄχλου πολλοῦ ἐν τῷ οὐρανῷ λεγόντων· Ἁλληλουϊά· ἡ σωτηρία καὶ ἡ δόξα καὶ ἡ δύναμις τοῦ θεοῦ ἡμῶν,
+   - Vulgate: Post hæc audivi quasi vocem turbarum multarum in cælo dicentium: Alleluja: salus, et gloria, et virtus Deo nostro est:
+   - BSB: After this I heard a sound like the roar of a great multitude in heaven, shouting: “Hallelujah! Salvation and glory and power belong to our God!
+   - WEB: After these things I heard something like a loud voice of a great multitude in heaven, saying, “Hallelujah! Salvation, power, and glory belong to our God;
+- **19:7** substitute (word): SBLGNT *δωσομε* ] TR *δωμε*
+   - Latin: Gaudeāmus et exsultēmus, eīque glōriam tribuāmus, quoniam Agnī vēnērunt nūptiæ, ejusque conjūnx sēsē parāvit,
+   - 1573: Gaudeamus et exultemus, eique gloriam tribuamus, quoniam agni venerunt nuptiæ, eiusque coniunx sese parauit,
+   - TR: Χαίρωμεν καὶ ἀγαλλιώμεθα, καὶ δῶμεν τὴν δόξαν αὐτῷ· ὅτι ἦλθεν ὁ γάμος τοῦ ἀρνίου, καὶ ἡ γυνὴ αὐτοῦ ἡτοίμασεν ἑαυτήν.
+   - SBLGNT: χαίρωμεν καὶ ἀγαλλιῶμεν, καὶ δώσομεν τὴν δόξαν αὐτῷ, ὅτι ἦλθεν ὁ γάμος τοῦ ἀρνίου, καὶ ἡ γυνὴ αὐτοῦ ἡτοίμασεν ἑαυτήν,
+   - Vulgate: Gaudeamus, et exsultemus: et demus gloriam ei: quia venerunt nuptiæ Agni, et uxor ejus præparavit se.
+   - BSB: Let us rejoice and be glad and give Him the glory. For the marriage of the Lamb has come, and His bride has made herself ready.
+   - WEB: Let’s rejoice and be exceedingly glad, and let’s give the glory to him. For the wedding of the Lamb has come, and his wife has made herself ready.”
+- **19:8** add (word): SBLGNT *–* ] TR *+ καθαρον και*; omit (word): SBLGNT *καθαρον* ] TR *–*; add (word): SBLGNT *–* ] TR *+ εστι*; omit (word): SBLGNT *εστι* ] TR *–*
+   - Latin: eīque datum est byssinō pūrō splendidōque vestīrī.” Est autem byssinum virtūtēs sānctōrum.
+   - 1573: eique datum est byssino puro splendidoque vestiri. Est autem byssinum, virtutes sanctorum.
+   - TR: Καὶ ἐδόθη αὐτῇ ἵνα περιβάληται βύσσινον καθαρὸν καὶ λαμπρόν· τὸ γὰρ βύσσινον τὰ δικαιώματά ἐστι τῶν ἁγίων.
+   - SBLGNT: καὶ ἐδόθη αὐτῇ ἵνα περιβάληται βύσσινον λαμπρὸν καθαρόν, τὸ γὰρ βύσσινον τὰ δικαιώματα τῶν ἁγίων ἐστίν.
+   - Vulgate: Et datum est illi ut cooperiat se byssino splendenti et candido. Byssinum enim justificationes sunt sanctorum.
+   - BSB: She was given clothing of fine linen, bright and pure.” For the fine linen she wears is the righteous acts of the saints.
+   - WEB: It was given to her that she would array herself in bright, pure, fine linen, for the fine linen is the righteous acts of the saints.
+- **19:9** add (word): SBLGNT *–* ] TR *+ εισι*; omit (word): SBLGNT *εισι* ] TR *–*
+   - Latin: “Scrībe,” inquit mē alloquēns, “‘Beātī, quī ad nūptiārum Agnī cœnam vocātī sunt.’ Hæc sunt,” inquit mihi, “vēra dicta Deī.”
+   - 1573: Scribe (inquit me alloquens) Beati qui ad nuptiarum agni cœnam vocati sunt. Hæc sunt (inquit mihi) vera dicta Dei.
+   - TR: Καὶ λέγει μοι, Γράψον, Μακάριοι οἱ εἰς τὸ δεῖπνον τοῦ γάμου τοῦ ἀρνίου κεκλημένοι. Καὶ λέγει μοι, Οὗτοι οἱ λόγοι ἀληθινοί εἰσι τοῦ Θεοῦ.
+   - SBLGNT: Καὶ λέγει μοι· Γράψον· Μακάριοι οἱ εἰς τὸ δεῖπνον τοῦ γάμου τοῦ ἀρνίου κεκλημένοι. καὶ λέγει μοι· Οὗτοι οἱ λόγοι ἀληθινοὶ τοῦ θεοῦ εἰσιν.
+   - Vulgate: Et dixit mihi: Scribe: Beati qui ad cœnam nuptiarum Agni vocati sunt; et dixit mihi: Hæc verba Dei vera sunt.
+   - BSB: Then the angel told me to write, “Blessed are those who are invited to the marriage supper of the Lamb.” And he said to me, “These are the true words of God.”
+   - WEB: He said to me, “Write, ‘Blessed are those who are invited to the wedding supper of the Lamb.’” He said to me, “These are true words of God.”
+- **19:11** substitute (word): SBLGNT *ηνεωγμενον* ] TR *ανεωγμενον*; add (word): SBLGNT *–* ] TR *+ καλουμενος*; omit (word): SBLGNT *καλουμενος* ] TR *–*
+   - Latin: Deinde vīdī apertum cælum: et ecce albus equus, cui quī īnsidēbat, vocātur Fidēlis et Vērus, jūstēque et jūdicat et belligerat.
+   - 1573: Deinde vidi apertum cœlum: et ecce albus equus cui qui insidebat, vocatur fidelis et verus, iusteque, et iudicat et belligerat.
+   - TR: Καὶ εἶδον τὸν οὐρανὸν ἀνεῳγμένον, καὶ ἰδού, ἵππος λευκός, καὶ ὁ καθήμενος ἐπ᾿ αὐτόν, καλούμενος πιστὸς καὶ ἀληθινός, καὶ ἐν δικαιοσύνῃ κρίνει καὶ πολεμεῖ.
+   - SBLGNT: Καὶ εἶδον τὸν οὐρανὸν ἠνεῳγμένον, καὶ ἰδοὺ ἵππος λευκός, καὶ ὁ καθήμενος ἐπʼ αὐτὸν πιστὸς καλούμενος καὶ ἀληθινός, καὶ ἐν δικαιοσύνῃ κρίνει καὶ πολεμεῖ.
+   - Vulgate: Et vidi cælum apertum, et ecce equus albus, et qui sedebat super eum, vocabatur Fidelis, et Verax, et cum justitia judicat et pugnat.
+   - BSB: Then I saw heaven standing open, and there before me was a white horse. And its rider is called Faithful and True. With righteousness He judges and wages war.
+   - WEB: I saw heaven opened, and behold, a white horse, and he who sat on it is called Faithful and True. In righteousness he judges and makes war.
+- **19:17** substitute (word): SBLGNT *πετομενοις* ] TR *πετωμενοις*; substitute (word): SBLGNT *συναχθητε* ] TR *και συναγεσθε*; omit (word): SBLGNT *το μεγα* ] TR *–*; add (word): SBLGNT *–* ] TR *+ μεγαλου*
+   - Latin: Prætereā vīdī alium angelum in sōle stantem, quī magnā vōce clāmāns, omnēs mediō cælō volantēs avēs sīc allocūtus est: “Adeste, et coīte ad magnī Deī cœnam,
+   - 1573: Præterea vidi alium angelum in Sole stantem, qui magna voce clamans, omnes medio cœlo volantes aues sic allocutus est: Adeste, et coite ad magni Dei cœnam,
+   - TR: Καὶ εἶδον ἕνα ἄγγελον ἑστῶτα ἐν τῷ ἡλίῳ· καὶ ἔκραξε φωνῇ μεγάλῃ, λέγων πᾶσι τοῖς ὀρνέοις τοῖς πετωμένοις ἐν μεσουρανήματι, Δεῦτε καὶ συνάγεσθε εἰς τὸ δεῖπνον τοῦ μεγάλου Θεοῦ,
+   - SBLGNT: Καὶ εἶδον ἕνα ἄγγελον ἑστῶτα ἐν τῷ ἡλίῳ, καὶ ἔκραξεν φωνῇ μεγάλῃ λέγων πᾶσι τοῖς ὀρνέοις τοῖς πετομένοις ἐν μεσουρανήματι· Δεῦτε συνάχθητε εἰς τὸ δεῖπνον τὸ μέγα τοῦ θεοῦ,
+   - Vulgate: Et vidi unum angelum stantem in sole, et clamavit voce magna, dicens omnibus avibus, quæ volabant per medium cæli: Venite, et congregamini ad cœnam magnam Dei:
+   - BSB: Then I saw an angel standing in the sun, and he cried out in a loud voice to all the birds flying overhead, “Come, gather together for the great supper of God,
+   - WEB: I saw an angel standing in the sun. He cried with a loud voice, saying to all the birds that fly in the sky, “Come! Be gathered together to the great supper of God,
+- **19:21** substitute (word): SBLGNT *εξελθουση* ] TR *εκπορευομενη*
+   - Latin: Reliquī gladiō necātī sunt sedentis in equō, quī gladius ex ejus ōre prōdībat, eōrumque carnibus satiātæ sunt omnēs ālitēs.
+   - 1573: Reliqui gladio necati sunt sedentis in equo, qui gladius ex eius ore prodibat, eorumque carnibus satiatæ sunt omnes alites.
+   - TR: καὶ οἱ λοιποὶ ἀπεκτάνθησαν ἐν τῇ ῥομφαίᾳ τοῦ καθημένου ἐπὶ τοῦ ἵππου, τῇ ἐκπορευομένῃ ἐκ τοῦ στόματος αὐτοῦ· καὶ πάντα τὰ ὄρνεα ἐχορτάσθησαν ἐκ τῶν σαρκῶν αὐτῶν.
+   - SBLGNT: καὶ οἱ λοιποὶ ἀπεκτάνθησαν ἐν τῇ ῥομφαίᾳ τοῦ καθημένου ἐπὶ τοῦ ἵππου τῇ ἐξελθούσῃ ἐκ τοῦ στόματος αὐτοῦ, καὶ πάντα τὰ ὄρνεα ἐχορτάσθησαν ἐκ τῶν σαρκῶν αὐτῶν.
+   - Vulgate: et ceteri occisi sunt in gladio sedentis super equum, qui procedit de ore ipsius: et omnes aves saturatæ sunt carnibus eorum.
+   - BSB: And the rest were killed with the sword that proceeded from the mouth of the One seated on the horse. And all the birds gorged themselves on their flesh.
+   - WEB: The rest were killed with the sword of him who sat on the horse, the sword which came out of his mouth. So all the birds were filled with their flesh.
+- **20:3** omit (word): SBLGNT *ετι* ] TR *–*; add (word): SBLGNT *–* ] TR *+ ετι*
+   - Latin: Et in tartarum conjēcit, conclūsitque, et īnsuper obsignāvit, nē deinceps gentēs dēciperet, dōnec perāctī forent mīlle annī, post quōs solvendus est ad exiguum tempus.
+   - 1573: et in Tartarum coniecit, conclusitque, et insuper obsignauit, ne deinceps gentes deciperet, donec peracti forent mille anni, post quos soluendus est ad exiguum tempus.
+   - TR: καὶ ἔβαλεν αὐτὸν εἰς τὴν ἄβυσσον, καὶ ἔκλεισεν αὐτόν, καὶ ἐσφράγισεν ἐπάνω αὐτοῦ, ἵνα μὴ πλανήσῃ τὰ ἔθνη ἔτι, ἄχρι τελεσθῇ τὰ χίλια ἔτη· καὶ μετὰ ταῦτα δεῖ αὐτὸν λυθῆναι μικρὸν χρόνον.
+   - SBLGNT: καὶ ἔβαλεν αὐτὸν εἰς τὴν ἄβυσσον, καὶ ἔκλεισεν καὶ ἐσφράγισεν ἐπάνω αὐτοῦ, ἵνα μὴ πλανήσῃ ἔτι τὰ ἔθνη, ἄχρι τελεσθῇ τὰ χίλια ἔτη· μετὰ ταῦτα δεῖ λυθῆναι αὐτὸν μικρὸν χρόνον.
+   - Vulgate: et misit eum in abyssum, et clausit, et signavit super illum ut non seducat amplius gentes, donec consummentur mille anni: et post hæc oportet illum solvi modico tempore.
+   - BSB: And he threw him into the Abyss, shut it, and sealed it over him, so that he could not deceive the nations until the thousand years were complete. After that, he must be released for a brief period of time.
+   - WEB: and cast him into the abyss, and shut it and sealed it over him, that he should deceive the nations no more until the thousand years were finished. After this, he must be freed for a short time.
+- **20:4** substitute (word): SBLGNT *το θηριον ουδε* ] TR *τω θηριω ουτε*
+   - Latin: Tum sellās vīdī, in quibus cōnsessum est, illīsque jūdicium datum est: itemque vīdī animās dēcollātōrum propter Jēsū testimōnium, propterque Deī sermōnem: et quī neque bēstiam, aut ejus imāginem venerātī sunt, neque notam in suam frontem aut manum accēpērunt. Eæ revīxērunt, et cum Chrīstō mīlle annōs rēgnārunt.
+   - 1573: Tum sellas vidi, in quibus consessum est, illisque iudicium datum est: itemque vidi animas decollatorum propter Iesu testimonium, propterque Dei sermonem, et qui neque bestiam, aut eius imaginem venerati sunt, neque notam in suam frontem, aut manum acceperunt, eæ reuixerunt, et cum Christo mille annos regnarunt.
+   - TR: Καὶ εἶδον θρόνους, καὶ ἐκάθισαν ἐπ᾿ αὐτούς, καὶ κρίμα ἐδόθη αὐτοῖς· καὶ τὰς ψυχὰς τῶν πεπελεκισμένων διὰ τὴν μαρτυρίαν Ἰησοῦ, καὶ διὰ τὸν λόγον τοῦ Θεοῦ, καὶ οἵτινες οὐ προσεκύνησαν τῷ θηρίῳ, οὔτε τὴν εἰκόνα αὐτοῦ, καὶ οὐκ ἔλαβον τὸ χάραγμα ἐπὶ τὸ μέτωπον αὐτῶν, καὶ ἐπὶ τὴν χεῖρα αὐτῶν· καὶ ἔζησαν, καὶ ἐβασίλευσαν μετὰ Χριστοῦ τὰ χίλια ἔτη.
+   - SBLGNT: Καὶ εἶδον θρόνους, καὶ ἐκάθισαν ἐπʼ αὐτούς, καὶ κρίμα ἐδόθη αὐτοῖς, καὶ τὰς ψυχὰς τῶν πεπελεκισμένων διὰ τὴν μαρτυρίαν Ἰησοῦ καὶ διὰ τὸν λόγον τοῦ θεοῦ, καὶ οἵτινες οὐ προσεκύνησαν τὸ θηρίον οὐδὲ τὴν εἰκόνα αὐτοῦ καὶ οὐκ ἔλαβον τὸ χάραγμα ἐπὶ τὸ μέτωπον καὶ ἐπὶ τὴν χεῖρα αὐτῶν· καὶ ἔζησαν καὶ ἐβασίλευσαν μετὰ τοῦ χριστοῦ χίλια ἔτη.
+   - Vulgate: Et vidi sedes, et sederunt super eas, et judicium datum est illis: et animas decollatorum propter testimonium Jesu, et propter verbum Dei, et qui non adoraverunt bestiam, neque imaginem ejus, nec acceperunt caracterem ejus in frontibus, aut in manibus suis, et vixerunt, et regnaverunt cum Christo mille annis.
+   - BSB: Then I saw the thrones, and those seated on them had been given authority to judge. And I saw the souls of those who had been beheaded for their testimony of Jesus and for the word of God, and those who had not worshiped the beast or its image, and had not received its mark on their foreheads or hands. And they came to life and reigned with Christ for a thousand years.
+   - WEB: I saw thrones, and they sat on them, and judgment was given to them. I saw the souls of those who had been beheaded for the testimony of Jesus and for the word of God, and such as didn’t worship the beast nor his image, and didn’t receive the mark on their forehead and on their hand. They lived and reigned with Christ for a thousand years.
+- **20:5** substitute (word): SBLGNT *εζησαν αχρι* ] TR *ανεζησαν εως*
+   - Latin: Reliquī mortuōrum nōn revīxērunt, dōnec trānsāctī forent mīlle annī. Hæc est prīma resurrēctiō.
+   - 1573: Reliqui mortuorum non reuixerunt, donec transacti forent mille anni. Hæc est prima resurrectio.
+   - TR: Οἱ δὲ λοιποὶ τῶν νεκρῶν οὐκ ἀνέζησαν ἕως τελεσθῇ τὰ χίλια ἔτη. Αὕτη ἡ ἀνάστασις ἡ πρώτη.
+   - SBLGNT: οἱ λοιποὶ τῶν νεκρῶν οὐκ ἔζησαν ἄχρι τελεσθῇ τὰ χίλια ἔτη. αὕτη ἡ ἀνάστασις ἡ πρώτη.
+   - Vulgate: Ceteri mortuorum non vixerunt, donec consummentur mille anni. Hæc est resurrectio prima.
+   - BSB: The rest of the dead did not come back to life until the thousand years were complete. This is the first resurrection.
+   - WEB: The rest of the dead didn’t live until the thousand years were finished. This is the first resurrection.
+- **20:6** add (word): SBLGNT *–* ] TR *+ θανατος ο*; omit (word): SBLGNT *θανατος* ] TR *–*
+   - Latin: Fēlīcēs, sānctīque sunt, quī sunt prīmæ resurrēctiōnis compotēs. In eōs secunda mors potestātem nōn habet, quīn erunt Deī et Chrīstī sacerdōtēs, et cum eō rēgnābunt mīlle annōs.
+   - 1573: Felices, sanctique sunt, qui sunt primæ resurrectionis compotes. In eos secunda mors potestatem non habet, quin erunt Dei et Christi sacerdotes, et cum eo regnabunt mille annos.
+   - TR: Μακάριος καὶ ἅγιος ὁ ἔχων μέρος ἐν τῇ ἀναστάσει τῇ πρώτῃ· ἐπὶ τούτων ὁ θάνατος ὁ δεύτερος οὐκ ἔχει ἐξουσίαν, ἀλλ᾿ ἔσονται ἱερεῖς τοῦ Θεοῦ καὶ τοῦ Χριστοῦ, καὶ βασιλεύσουσι μετ᾿ αὐτοῦ χίλια ἔτη.
+   - SBLGNT: μακάριος καὶ ἅγιος ὁ ἔχων μέρος ἐν τῇ ἀναστάσει τῇ πρώτῃ· ἐπὶ τούτων ὁ δεύτερος θάνατος οὐκ ἔχει ἐξουσίαν, ἀλλʼ ἔσονται ἱερεῖς τοῦ θεοῦ καὶ τοῦ χριστοῦ, καὶ βασιλεύσουσιν μετʼ αὐτοῦ χίλια ἔτη.
+   - Vulgate: Beatus, et sanctus, qui habet partem in resurrectione prima: in his secunda mors non habet potestatem: sed erunt sacerdotes Dei et Christi, et regnabunt cum illo mille annis.
+   - BSB: Blessed and holy are those who share in the first resurrection! The second death has no power over them, but they will be priests of God and of Christ, and will reign with Him for a thousand years.
+   - WEB: Blessed and holy is he who has part in the first resurrection. Over these, the second death has no power, but they will be priests of God and of Christ, and will reign with him one thousand years.
+- **20:11** add (word): SBLGNT *–* ] TR *+ λευκον*; omit (word): SBLGNT *λευκον* ] TR *–*
+   - Latin: Item vīdī solium album, ingēns, et quendam in eō sedentem, cujus ex cōnspectū terra cælumque fūgit, nec ūllō jam locō exstitērunt.
+   - 1573: Item vidi solium album, ingens, et quendam in èo sedentem, cuius ex conspectu terra cœlumque fugit, nec vllo iam loco extiterunt.
+   - TR: Καὶ εἶδον θρόνον λευκὸν μέγαν, καὶ τὸν καθήμενον ἐπ᾿ αὐτοῦ, οὗ ἀπὸ προσώπου ἔφυγεν ἡ γῆ καὶ ὁ οὐρανός, καὶ τόπος οὐχ εὑρέθη αὐτοῖς.
+   - SBLGNT: Καὶ εἶδον θρόνον μέγαν λευκὸν καὶ τὸν καθήμενον ἐπʼ αὐτοῦ, οὗ ἀπὸ τοῦ προσώπου ἔφυγεν ἡ γῆ καὶ ὁ οὐρανός, καὶ τόπος οὐχ εὑρέθη αὐτοῖς.
+   - Vulgate: Et vidi thronum magnum candidum, et sedentem super eum, a cujus conspectu fugit terra, et cælum, et locus non est inventus eis.
+   - BSB: Then I saw a great white throne and the One seated on it. Earth and heaven fled from His presence, and no place was found for them.
+   - WEB: I saw a great white throne and him who sat on it, from whose face the earth and the sky fled away. There was found no place for them.
+- **20:12** substitute (word): SBLGNT *τους* ] TR *μικρους και*; omit (clause): SBLGNT *και τους μικρους* ] TR *–*; substitute (word): SBLGNT *θρονου* ] TR *θεου*; substitute (word): SBLGNT *ηνοιχθησαν* ] TR *ηνεωχθησαν*; add (word): SBLGNT *–* ] TR *+ βιβλιον*; substitute (word): SBLGNT *βιβλιον ηνοιχθη* ] TR *ηνεωχθη*
+   - Latin: Vīdī item mortuōs, parvōs juxtā ac magnōs, ante Deum astantēs: apertīque sunt librī, et alius liber apertus est, quī est vītæ liber, et jūdicātī sunt mortuī ex librōrum scrīptīs, prō suīs factīs:
+   - 1573: Vidi item mortuos, paruos iuxtà ac magnos, ante Deum astantes, apertique sunt libri, et alius liber apertus est, qui est vitæ liber, et iudicati sunt mortui ex librorum scriptis pro suis factis:
+   - TR: Καὶ εἶδον τοὺς νεκρούς, μικροὺς καὶ μεγάλους, ἑστῶτας ἐνώπιον τοῦ Θεοῦ, καὶ βιβλία ἠνεῴχθησαν· καὶ βιβλίον ἄλλο ἠνεῴχθη, ὅ ἐστι τῆς ζωῆς· καὶ ἐκρίθησαν οἱ νεκροὶ ἐκ τῶν γεγραμμένων ἐν τοῖς βιβλίοις, κατὰ τὰ ἔργα αὐτῶν.
+   - SBLGNT: καὶ εἶδον τοὺς νεκρούς, τοὺς μεγάλους καὶ τοὺς μικρούς, ἑστῶτας ἐνώπιον τοῦ θρόνου, καὶ βιβλία ἠνοίχθησαν· καὶ ἄλλο βιβλίον ἠνοίχθη, ὅ ἐστιν τῆς ζωῆς· καὶ ἐκρίθησαν οἱ νεκροὶ ἐκ τῶν γεγραμμένων ἐν τοῖς βιβλίοις κατὰ τὰ ἔργα αὐτῶν.
+   - Vulgate: Et vidi mortuos, magnos et pusillos, stantes in conspectu throni, et libri aperti sunt: et alius liber apertus est, qui est vitæ: et judicati sunt mortui ex his, quæ scripta erant in libris, secundum opera ipsorum:
+   - BSB: And I saw the dead, great and small, standing before the throne. And there were open books, and one of them was the Book of Life. And the dead were judged according to their deeds, as recorded in the books.
+   - WEB: I saw the dead, the great and the small, standing before the throne, and they opened books. Another book was opened, which is the book of life. The dead were judged out of the things which were written in the books, according to their works.
+- **20:13** omit (word): SBLGNT *νεκρους τους* ] TR *–*; add (word): SBLGNT *–* ] TR *+ νεκρους*; omit (word): SBLGNT *νεκρους τους* ] TR *–*; add (word): SBLGNT *–* ] TR *+ νεκρους*
+   - Latin: Reddiditque mare suōs mortuōs, et mors et orcus mortuōs reddidēre suōs: dē quibus, ut erant cujusque facta, ita jūdicātum est.
+   - 1573: reddiditque mare suos mortuos, et mors et Orcus mortuos reddidère suos: de quibus vt erant cuiusque facta, ita iudicatum est.
+   - TR: Καὶ ἔδωκεν ἡ θάλασσα τοὺς ἐν αὐτῇ νεκρούς, καὶ ὁ Θάνατος καὶ ὁ ᾍδης ἔδωκαν τοὺς ἐν αὐτοῖς νεκρούς· καὶ ἐκρίθησαν ἕκαστος κατὰ τὰ ἔργα αὐτῶν.
+   - SBLGNT: καὶ ἔδωκεν ἡ θάλασσα τοὺς νεκροὺς τοὺς ἐν αὐτῇ, καὶ ὁ θάνατος καὶ ὁ ᾅδης ἔδωκαν τοὺς νεκροὺς τοὺς ἐν αὐτοῖς, καὶ ἐκρίθησαν ἕκαστος κατὰ τὰ ἔργα αὐτῶν.
+   - Vulgate: et dedit mare mortuos, qui in eo erant: et mors et infernus dederunt mortuos suos, qui in ipsis erant: et judicatum est de singulis secundum opera ipsorum.
+   - BSB: The sea gave up its dead, and Death and Hades gave up their dead, and each one was judged according to his deeds.
+   - WEB: The sea gave up the dead who were in it. Death and Hades gave up the dead who were in them. They were judged, each one according to his works.
+- **20:14** substitute (word): SBLGNT *ο θανατος* ] TR *εστι*; substitute (word): SBLGNT *εστι η λιμνη του πυρος* ] TR *θανατος*
+   - Latin: Mors autem et orcus conjectī sunt in stagnum igneum. Hæc est secunda mors.
+   - 1573: Mors autem et Orcus coniecti sunt in stagnum igneum. Hæc est secunda mors.
+   - TR: Καὶ ὁ Θάνατος καὶ ὁ ᾍδης ἐβλήθησαν εἰς τὴν λίμνην τοῦ πυρός· οὗτός ἐστιν ὁ δεύτερος θάνατος.
+   - SBLGNT: καὶ ὁ θάνατος καὶ ὁ ᾅδης ἐβλήθησαν εἰς τὴν λίμνην τοῦ πυρός. οὗτος ὁ θάνατος ὁ δεύτερός ἐστιν, ἡ λίμνη τοῦ πυρός.
+   - Vulgate: Et infernus et mors missi sunt in stagnum ignis. Hæc est mors secunda.
+   - BSB: Then Death and Hades were thrown into the lake of fire. This is the second death—the lake of fire.
+   - WEB: Death and Hades were thrown into the lake of fire. This is the second death, the lake of fire.
+- **21:1** substitute (word): SBLGNT *απηλθαν* ] TR *παρηλθε*
+   - Latin: Vīdī autem novum cælum, novamque terram, nam prius cælum, priorque terra perierat, nec usquam jam erat mare.
+   - 1573: Vidi autem nouum cœlum, nouamque terram: nam prius cœlum, priorque terra perierat, nec: vsquam iam erat mare.
+   - TR: Καὶ εἶδον οὐρανὸν καινὸν καὶ γῆν καινήν· ὁ γὰρ πρῶτος οὐρανὸς καὶ ἡ πρώτη γῆ παρῆλθε, καὶ ἡ θάλασσα οὐκ ἔστιν ἔτι.
+   - SBLGNT: Καὶ εἶδον οὐρανὸν καινὸν καὶ γῆν καινήν· ὁ γὰρ πρῶτος οὐρανὸς καὶ ἡ πρώτη γῆ ἀπῆλθαν, καὶ ἡ θάλασσα οὐκ ἔστιν ἔτι.
+   - Vulgate: Et vidi cælum novum et terram novam. Primum enim cælum, et prima terra abiit, et mare jam non est.
+   - BSB: Then I saw a new heaven and a new earth, for the first heaven and earth had passed away, and the sea was no more.
+   - WEB: I saw a new heaven and a new earth, for the first heaven and the first earth have passed away, and the sea is no more.
+- **21:2** add (clause): SBLGNT *–* ] TR *+ εγω ιωαννης ειδον*; omit (word): SBLGNT *ειδον* ] TR *–*; add (clause): SBLGNT *–* ] TR *+ απο του θεου*; omit (clause): SBLGNT *απο του θεου* ] TR *–*
+   - Latin: Ego Jōhannēs vīdī urbem sānctam, Hierosolymam novam, ā Deō dē cælō dēscendentem, parātam ut spōnsam virō suō ōrnātam.
+   - 1573: Ego Iohannes vidi vrbem sanctam, Hierosolymam nouam, à Deo de cœlo descendentem, paratam vt sponsam viro suo ornatam.
+   - TR: Καὶ ἐγὼ Ἰωάννης εἶδον τὴν πόλιν τὴν ἁγίαν, Ἱερουσαλὴμ καινήν, καταβαίνουσαν ἀπὸ τοῦ Θεοῦ ἐκ τοῦ οὐρανοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς.
+   - SBLGNT: καὶ τὴν πόλιν τὴν ἁγίαν Ἰερουσαλὴμ καινὴν εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς.
+   - Vulgate: Et ego Joannes vidi sanctam civitatem Jerusalem novam descendentem de cælo a Deo, paratam sicut sponsam ornatam viro suo.
+   - BSB: I saw the holy city, the new Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband.
+   - WEB: I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband.
+- **21:3** add (word): SBLGNT *–* ] TR *+ εσται*; substitute (word): SBLGNT *εσται* ] TR *θεος αυτων*
+   - Latin: Audīvīque magnam vōcem dē cælō dīcentem: “Ecce Deī apud hominēs tabernāculum, quī apud eōs habitābit, et ipsī ejus populus erunt: et ipse Deus erit apud eōs Deus eōrum:
+   - 1573: Audiuique magnam vocem de cœlo dicentem: Ecce Dei apud homines tabernaculum, qui apud eos habitabit, et ipsi eius populus erunt, et ipse Deus, erit apud eos Deus eorum:
+   - TR: Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ, λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾿ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς ἔσται μετ᾿ αὐτῶν, Θεὸς αὐτῶν·
+   - SBLGNT: καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ θρόνου λεγούσης· Ἰδοὺ ἡ σκηνὴ τοῦ θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετʼ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ θεὸς μετʼ αὐτῶν ἔσται,
+   - Vulgate: Et audivi vocem magnam de throno dicentem: Ecce tabernaculum Dei cum hominibus, et habitabit cum eis. Et ipsi populus ejus erunt, et ipse Deus cum eis erit eorum Deus:
+   - BSB: And I heard a loud voice from the throne saying: “Behold, the dwelling place of God is with man, and He will dwell with them. They will be His people, and God Himself will be with them as their God.
+   - WEB: I heard a loud voice out of heaven saying, “Behold, God’s dwelling is with people; and he will dwell with them, and they will be his people, and God himself will be with them as their God.
+- **21:4** add (word): SBLGNT *–* ] TR *+ ο θεος*
+   - Latin: Abstergetque Deus omnem lacrimam ex eōrum oculīs, nec amplius mors erit, neque lūctus, neque quirītātus, neque labor erit amplius, quod priōra abierint.”
+   - 1573: abstergetque Deus omnem lachrymam ex eorum oculis, nec amplius mors erit, neque luctus, neque quiritatus, neque labor erit amplius, quòd priora abierint.
+   - TR: καὶ ἐξαλείψει ὁ Θεὸς πᾶν δάκρυον ἀπὸ τῶν ὀφθαλμῶν αὐτῶν, καὶ ὁ θάνατος οὐκ ἔσται ἔτι· οὔτε πένθος, οὔτε κραυγή, οὔτε πόνος οὐκ ἔσται ἔτι· ὅτι τὰ πρῶτα ἀπῆλθον.
+   - SBLGNT: καὶ ἐξαλείψει πᾶν δάκρυον ἐκ τῶν ὀφθαλμῶν αὐτῶν, καὶ ὁ θάνατος οὐκ ἔσται ἔτι· οὔτε πένθος οὔτε κραυγὴ οὔτε πόνος οὐκ ἔσται ἔτι. τὰ πρῶτα ἀπῆλθαν.
+   - Vulgate: et absterget Deus omnem lacrimam ab oculis eorum: et mors ultra non erit, neque luctus, neque clamor, neque dolor erit ultra, quia prima abierunt.
+   - BSB: ‘He will wipe away every tear from their eyes,’ and there will be no more death or mourning or crying or pain, for the former things have passed away.”
+   - WEB: He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain any more. The first things have passed away.”
+- **21:5** substitute (word): SBLGNT *τω θρονω* ] TR *του θρονου*
+   - Latin: “Ego,” inquit is, quī in soliō sedēbat, “factūrus sum omnia nova.” Tum mē alloquēns: “Scrībe,” inquit, “hæc dicta, vēra fīdaque esse.”
+   - 1573: Ego (inquit is qui in solio sedebat) facturus sum omnia noua. Tum me alloquens: Scribe, inquit, hæc dicta, vera, fidaque esse.
+   - TR: Καὶ εἶπεν ὁ καθήμενος ἐπὶ τοῦ θρόνου, Ἰδού, καινὰ πάντα ποιῶ. Καὶ λέγει μοι, Γράψον· ὅτι οὗτοι οἱ λόγοι ἀληθινοὶ καὶ πιστοί εἰσι.
+   - SBLGNT: Καὶ εἶπεν ὁ καθήμενος ἐπὶ τῷ θρόνῳ· Ἰδοὺ καινὰ ποιῶ πάντα. καὶ λέγει· Γράψον, ὅτι οὗτοι οἱ λόγοι πιστοὶ καὶ ἀληθινοί εἰσιν.
+   - Vulgate: Et dixit qui sedebat in throno: Ecce nova facio omnia. Et dixit mihi: Scribe, quia hæc verba fidelissima sunt, et vera.
+   - BSB: And the One seated on the throne said, “Behold, I make all things new.” Then He said, “Write this down, for these words are faithful and true.”
+   - WEB: He who sits on the throne said, “Behold, I am making all things new.” He said, “Write, for these words of God are faithful and true.”
+- **21:6** add (word): SBLGNT *–* ] TR *+ ειμι*; substitute (name): SBLGNT *αλφα* ] TR *α*
+   - Latin: Tum mihi dīxit: “Factum est. Ego sum α et ω, prīncipium et fīnis: ego sitientī dabō dē fonte aquæ vītæ, grātīs.
+   - 1573: Tum mihi dixit: Factum est. Ego sum α et ω, principium et finis: ego sitienti dabo de fonte aquæ vitæ, gratis.
+   - TR: Καὶ εἶπέ μοι, Γέγονε. Ἐγώ εἰμι τὸ Α καὶ τὸ Ω, ἡ ἀρχὴ καὶ τὸ τέλος. Ἐγὼ τῷ διψῶντι δώσω ἐκ τῆς πηγῆς τοῦ ὕδατος τῆς ζωῆς δωρεάν.
+   - SBLGNT: καὶ εἶπέν μοι· Γέγοναν. ἐγὼ τὸ Ἄλφα καὶ τὸ Ὦ, ἡ ἀρχὴ καὶ τὸ τέλος. ἐγὼ τῷ διψῶντι δώσω ἐκ τῆς πηγῆς τοῦ ὕδατος τῆς ζωῆς δωρεάν.
+   - Vulgate: Et dixit mihi: Factum est: ego sum alpha et omega, initium et finis. Ego sitienti dabo de fonte aquæ vitæ, gratis.
+   - BSB: And He told me, “It is done! I am the Alpha and the Omega, the Beginning and the End. To the thirsty I will give freely from the spring of the water of life.
+   - WEB: He said to me, “I am the Alpha and the Omega, the Beginning and the End. I will give freely to him who is thirsty from the spring of the water of life.
+- **21:7** substitute (word): SBLGNT *ταυτα* ] TR *παντα*
+   - Latin: Victor possidēbit omnia, eīque ego Deus erō, et ipse mihi fīlius erit.
+   - 1573: Victor possidebit omnia, eique ego Deus ero, et ipse mihi filius erit.
+   - TR: Ὁ νικῶν κληρονομήσει πάντα, καὶ ἔσομαι αὐτῷ Θεός, καὶ αὐτὸς ἔσται μοι ὁ υἱός.
+   - SBLGNT: ὁ νικῶν κληρονομήσει ταῦτα, καὶ ἔσομαι αὐτῷ θεὸς καὶ αὐτὸς ἔσται μοι υἱός.
+   - Vulgate: Qui vicerit, possidebit hæc: et ero illi Deus, et ille erit mihi filius.
+   - BSB: The one who overcomes will inherit all things, and I will be his God, and he will be My son.
+   - WEB: He who overcomes, I will give him these things. I will be his God, and he will be my son.
+- **21:8** substitute (word): SBLGNT *τοις* ] TR *δειλοις*; omit (word): SBLGNT *δειλοις* ] TR *–*; substitute (word): SBLGNT *ο* ] TR *δευτερος*; omit (word): SBLGNT *ο δευτερος* ] TR *–*
+   - Latin: Sed ignāvōs, et īnfidēlēs, et exsecrābilēs, et homicīdās, et impudīcōs, et venēficōs, et deastricolās, et omnēs mendācēs, hōs, inquam, sua sors manet in stagnō, quod ignī ārdet, et sulphure, quæ secunda mors est.”
+   - 1573: Sed ignauos, et infideles, et execrabiles, et homicidas, et impudicos, et veneficos, et deastricolas, et omnes mendaces, hos, inquam, sua sors manet in stagno, quod igni ardet, et sulphure, quæ secunda mors est
+   - TR: Δειλοῖς δὲ καὶ ἀπίστοις καὶ ἐβδελυγμένοις καὶ φονεῦσι καὶ πόρνοις καὶ φαρμακεῦσι καὶ εἰδωλολάτραις, καὶ πᾶσι τοῖς ψευδέσι, τὸ μέρος αὐτῶν ἐν τῇ λίμνῃ τῇ καιομένῃ πυρὶ καὶ θείῳ, ὅ ἐστι δεύτερος θάνατος.
+   - SBLGNT: τοῖς δὲ δειλοῖς καὶ ἀπίστοις καὶ ἐβδελυγμένοις καὶ φονεῦσι καὶ πόρνοις καὶ φαρμάκοις καὶ εἰδωλολάτραις καὶ πᾶσι τοῖς ψευδέσιν τὸ μέρος αὐτῶν ἐν τῇ λίμνῃ τῇ καιομένῃ πυρὶ καὶ θείῳ, ὅ ἐστιν ὁ θάνατος ὁ δεύτερος.
+   - Vulgate: Timidis autem, et incredulis, et execratis, et homicidis, et fornicatoribus, et veneficis, et idolatris, et omnibus mendacibus, pars illorum erit in stagno ardenti igne et sulphure: quod est mors secunda.
+   - BSB: But to the cowardly and unbelieving and abominable and murderers and sexually immoral and sorcerers and idolaters and all liars, their place will be in the lake that burns with fire and sulfur. This is the second death.”
+   - WEB: But for the cowardly, unbelieving, sinners, abominable, murderers, sexually immoral, sorcerers, idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”
+- **21:9** add (word): SBLGNT *–* ] TR *+ του αρνιου*; omit (word): SBLGNT *του αρνιου* ] TR *–*
+   - Latin: Tum vēnit ad mē ūnus septem angelōrum, quī septem phialās habēbant, septem postrēmārum clādum plēnās, quī mē sīc allocūtus est: “Ades, mōnstrābō tibi spōnsam, Agnī uxōrem.”
+   - 1573: Tum venit ad me vnus septem angelorum, qui septem phialas habebant, septem postremarum cladum plenas, qui me sic allocutus est: Ades, monstrabo tibi sponsam, agni vxorem.
+   - TR: Καὶ ἦλθε πρός με εἷς τῶν ἑπτὰ ἀγγέλων τῶν ἐχόντων τὰς ἑπτὰ φιάλας τὰς γεμούσας τῶν ἑπτὰ πληγῶν τῶν ἐσχάτων, καὶ ἐλάλησε μετ᾿ ἐμοῦ, λέγων, Δεῦρο, δείξω σοι τὴν νύμφην τοῦ ἀρνίου τὴν γυναῖκα.
+   - SBLGNT: Καὶ ἦλθεν εἷς ἐκ τῶν ἑπτὰ ἀγγέλων τῶν ἐχόντων τὰς ἑπτὰ φιάλας, τῶν γεμόντων τῶν ἑπτὰ πληγῶν τῶν ἐσχάτων, καὶ ἐλάλησεν μετʼ ἐμοῦ λέγων· Δεῦρο, δείξω σοι τὴν νύμφην τὴν γυναῖκα τοῦ ἀρνίου.
+   - Vulgate: Et venit unus de septem angelis habentibus phialas plenas septem plagis novissimis, et locutus est mecum, dicens: Veni, et ostendam tibi sponsam, uxorem Agni.
+   - BSB: Then one of the seven angels with the seven bowls full of the seven final plagues came and said to me, “Come, I will show you the bride, the wife of the Lamb.”
+   - WEB: One of the seven angels who had the seven bowls which were loaded with the seven last plagues came, and he spoke with me, saying, “Come here. I will show you the bride, the Lamb’s wife.”
+- **21:10** substitute (word): SBLGNT *επι* ] TR *επ*
+   - Latin: Deinde mē dīvīnō afflātū in magnum arduumque montem sustulit, et mihi mōnstrāvit urbem magnam, sānctam Hierosolymam, dē cælō ā Deō dēscendentem,
+   - 1573: Deinde me diuino afflatu in magnum, arduúmque montem sustulit, et mihi monstrauit vrbem magnam, sanctam Hierosolymam, de cœlo à Deo descendentem
+   - TR: Καὶ ἀπήνεγκέ με ἐν πνεύματι ἐπ᾿ ὄρος μέγα καὶ ὑψηλόν, καὶ ἔδειξέ μοι τὴν πόλιν τὴν μεγάλην, τὴν ἁγίαν Ἱερουσαλήμ, καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ,
+   - SBLGNT: καὶ ἀπήνεγκέν με ἐν πνεύματι ἐπὶ ὄρος μέγα καὶ ὑψηλόν, καὶ ἔδειξέν μοι τὴν πόλιν τὴν ἁγίαν Ἰερουσαλὴμ καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ,
+   - Vulgate: Et sustulit me in spiritu in montem magnum et altum, et ostendit mihi civitatem sanctam Jerusalem descendentem de cælo a Deo,
+   - BSB: And he carried me away in the Spirit to a mountain great and high, and showed me the holy city of Jerusalem coming down out of heaven from God,
+   - WEB: He carried me away in the Spirit to a great and high mountain, and showed me the holy city, Jerusalem, coming down out of heaven from God,
+- **21:12** substitute (word): SBLGNT *εχουσα* ] TR *εχουσαν τε*
+   - Latin: habēbatque mūrum ingentem et altum, et portās duodecim, superque portīs angelōs totidem, et īnscrīpta nōmina, vidēlicet duodecim Isrāēlīticārum tribuum.
+   - 1573: habebatque murum ingentem et altum, et portas duodecim, superque portis angelos totidem, et inscripta nomina, videlicet duodecim Israeliticarum tribuum.
+   - TR: ἔχουσάν τε τεῖχος μέγα καὶ ὑψηλόν, ἔχουσαν πυλῶνας δώδεκα, καὶ ἐπὶ τοῖς πυλῶσιν ἀγγέλους δώδεκα, καὶ ὀνόματα ἐπιγεγραμμένα, ἅ ἐστι τῶν δώδεκα φυλῶν τῶν υἱῶν Ἰσραήλ.
+   - SBLGNT: ἔχουσα τεῖχος μέγα καὶ ὑψηλόν, ἔχουσα πυλῶνας δώδεκα, καὶ ἐπὶ τοῖς πυλῶσιν ἀγγέλους δώδεκα, καὶ ὀνόματα ἐπιγεγραμμένα ἅ ἐστιν τῶν δώδεκα φυλῶν υἱῶν Ἰσραήλ·
+   - Vulgate: Et habebat murum magnum, et altum, habentem portas duodecim: et in portis angelos duodecim, et nomina inscripta, quæ sunt nomina duodecim tribuum filiorum Israël:
+   - BSB: The city had a great and high wall with twelve gates inscribed with the names of the twelve tribes of Israel, and twelve angels at the gates.
+   - WEB: having a great and high wall with twelve gates, and at the gates twelve angels, and names written on them, which are the names of the twelve tribes of the children of Israel.
+- **21:13** substitute (word): SBLGNT *απο* ] TR *απ*
+   - Latin: Ab oriente trēs erant portæ: ā boreā trēs: ab austrō trēs: ab occidente trēs.
+   - 1573: Ab oriente tres erant portæ: à borea tres: ab austro tres: ab occidente tres.
+   - TR: Ἀπ᾿ ἀνατολῆς, πυλῶνες τρεῖς· ἀπὸ βορρᾶ, πυλῶνες τρεῖς· ἀπὸ νότου, πυλῶνες τρεῖς· ἀπὸ δυσμῶν, πυλῶνες τρεῖς.
+   - SBLGNT: ἀπὸ ἀνατολῆς πυλῶνες τρεῖς, καὶ ἀπὸ βορρᾶ πυλῶνες τρεῖς, καὶ ἀπὸ νότου πυλῶνες τρεῖς, καὶ ἀπὸ δυσμῶν πυλῶνες τρεῖς·
+   - Vulgate: ab oriente portæ tres, et ab aquilone portæ tres, et ab austro portæ tres, et ab occasu portæ tres.
+   - BSB: There were three gates on the east, three on the north, three on the south, and three on the west.
+   - WEB: On the east were three gates, and on the north three gates, and on the south three gates, and on the west three gates.
+- **21:14** substitute (number): SBLGNT *επ αυτων δωδεκα* ] TR *εν αυτοις*
+   - Latin: Urbis mūrus habēbat fundāmenta duodecim, et in iīs nōmina duodecim apostolōrum Agnī.
+   - 1573: Vrbis murus habebat fundamenta duodecim, et in eis nomina duodecim Apostolorum agni.
+   - TR: Καὶ τὸ τεῖχος τῆς πόλεως ἔχον θεμελίους δώδεκα, καὶ ἐν αὐτοῖς ὀνόματα τῶν δώδεκα ἀποστόλων τοῦ ἀρνίου.
+   - SBLGNT: καὶ τὸ τεῖχος τῆς πόλεως ἔχων θεμελίους δώδεκα, καὶ ἐπʼ αὐτῶν δώδεκα ὀνόματα τῶν δώδεκα ἀποστόλων τοῦ ἀρνίου.
+   - Vulgate: Et murus civitatis habens fundamenta duodecim, et in ipsis duodecim nomina duodecim apostolorum Agni.
+   - BSB: The wall of the city had twelve foundations bearing the names of the twelve apostles of the Lamb.
+   - WEB: The wall of the city had twelve foundations, and on them twelve names of the twelve Apostles of the Lamb.
+- **21:15** omit (word): SBLGNT *μετρον* ] TR *–*
+   - Latin: Quī autem mēcum loquēbātur, calamum habēbat aureum, quō urbem ejusque portās et mūrum mētīrētur:
+   - 1573: Qui autem mecum loquebatur, calamum habebat aureum, quo vrbem, eiusque portas et murum metiretur:
+   - TR: Καὶ ὁ λαλῶν μετ᾿ ἐμοῦ εἶχε κάλαμον χρυσοῦν, ἵνα μετρήσῃ τὴν πόλιν, καὶ τοὺς πυλῶνας αὐτῆς, καὶ τὸ τεῖχος αὐτῆς.
+   - SBLGNT: Καὶ ὁ λαλῶν μετʼ ἐμοῦ εἶχεν μέτρον κάλαμον χρυσοῦν, ἵνα μετρήσῃ τὴν πόλιν καὶ τοὺς πυλῶνας αὐτῆς καὶ τὸ τεῖχος αὐτῆς.
+   - Vulgate: Et qui loquebatur mecum, habebat mensuram arundineam auream, ut metiretur civitatem, et portas ejus, et murum.
+   - BSB: The angel who spoke with me had a golden measuring rod to measure the city and its gates and walls.
+   - WEB: He who spoke with me had for a measure a golden reed to measure the city, its gates, and its walls.
+- **21:16** add (word): SBLGNT *–* ] TR *+ τοσουτον εστι*
+   - Latin: Cujus urbis is situs erat, ut esset quadrāta, tantā longitūdine, quantā lātitūdine. Hanc urbem calamō dīmēnsus est ad stadiōrum duodecim mīllia parī longitūdine, et lātitūdine, ac altitūdine.
+   - 1573: cuius vrbis is situs erat, vt esset quadrata, tanta longitudine, quanta latitudine. Hanc vrbem calamo dimensus est ad stadiorum duodecim millia, pari longitudine et latitudine ac altitudine.
+   - TR: Καὶ ἡ πόλις τετράγωνος κεῖται, καὶ τὸ μῆκος αὐτῆς τοσοῦτόν ἐστιν ὅσον καὶ τὸ πλάτος. Καὶ ἐμέτρησε τὴν πόλιν τῷ καλάμῳ ἐπὶ σταδίων δώδεκα χιλιάδων· τὸ μῆκος καὶ τὸ πλάτος καὶ τὸ ὕψος αὐτῆς ἴσα ἐστί.
+   - SBLGNT: καὶ ἡ πόλις τετράγωνος κεῖται, καὶ τὸ μῆκος αὐτῆς ὅσον τὸ πλάτος. καὶ ἐμέτρησεν τὴν πόλιν τῷ καλάμῳ ἐπὶ σταδίους δώδεκα χιλιάδων· τὸ μῆκος καὶ τὸ πλάτος καὶ τὸ ὕψος αὐτῆς ἴσα ἐστίν.
+   - Vulgate: Et civitas in quadro posita est, et longitudo ejus tanta est quanta et latitudo: et mensus est civitatem de arundine aurea per stadia duodecim millia: et longitudo, et altitudo, et latitudo ejus æqualia sunt.
+   - BSB: The city lies foursquare, with its width the same as its length. And he measured the city with the rod, and all its dimensions were equal—12,000 stadia in length and width and height.
+   - WEB: The city is square. Its length is as great as its width. He measured the city with the reed: twelve thousand twelve stadia. Its length, width, and height are equal.
+- **21:18** substitute (word): SBLGNT *ενδωμησις* ] TR *ενδομησις*
+   - Latin: Ejus mūrī strūctūra erat ex jaspide: urbs ipsa ex aurō pūrō, pūrī vitrī similis.
+   - 1573: Eius muri structura erat ex Iaspide: vrbs ipsa ex auro puro, puri vitri similis.
+   - TR: Καὶ ἦν ἡ ἐνδόμησις τοῦ τείχους αὐτῆς, ἴασπις· καὶ ἡ πόλις χρυσίον καθαρόν, ὅμοια ὑάλῳ καθαρῷ.
+   - SBLGNT: καὶ ἡ ἐνδώμησις τοῦ τείχους αὐτῆς ἴασπις, καὶ ἡ πόλις χρυσίον καθαρὸν ὅμοιον ὑάλῳ καθαρῷ·
+   - Vulgate: Et erat structura muri ejus ex lapide jaspide: ipsa vero civitas aurum mundum simile vitro mundo.
+   - BSB: The wall was made of jasper, and the city itself of pure gold, as pure as glass.
+   - WEB: The construction of its wall was jasper. The city was pure gold, like pure glass.
+- **21:20** substitute (word): SBLGNT *ενατος* ] TR *εννατος*
+   - Latin: quīntum sardonyx, sextum sardius, septimum chrȳsolithus, octāvum bērillus, nōnum topazium, decimum chrȳsoprasus, ūndecimum hyacinthus, duodecimum amethystus.
+   - 1573: quintum sardonyx, sextum sardius, septimum chrysolithus, octauum berillus, nonum topazium, decimum chrysoprasus, vndecimum hyacinthus, duodecimum amethystus.
+   - TR: ὁ πέμπτος, σαρδόνυξ· ὁ ἕκτος, σάρδιος· ὁ ἕβδομος, χρυσόλιθος· ὁ ὄγδοος, βήρυλλος· ὁ ἔννατος, τοπάζιον· ὁ δέκατος, χρυσόπρασος· ὁ ἑνδέκατος, ὑάκινθος· ὁ δωδέκατος, ἀμέθυστος.
+   - SBLGNT: ὁ πέμπτος σαρδόνυξ, ὁ ἕκτος σάρδιον, ὁ ἕβδομος χρυσόλιθος, ὁ ὄγδοος βήρυλλος, ὁ ἔνατος τοπάζιον, ὁ δέκατος χρυσόπρασος, ὁ ἑνδέκατος ὑάκινθος, ὁ δωδέκατος ἀμέθυστος·
+   - Vulgate: quintum, sardonyx: sextum, sardius: septimum, chrysolithus: octavum, beryllus: nonum, topazius: decimum, chrysoprasus: undecimum, hyacinthus: duodecimum, amethystus.
+   - BSB: the fifth sardonyx, the sixth carnelian, the seventh chrysolite, the eighth beryl, the ninth topaz, the tenth chrysoprase, the eleventh jacinth, and the twelfth amethyst.
+   - WEB: the fifth sardonyx, the sixth sardius, the seventh chrysolite, the eighth beryl, the ninth topaz, the tenth chrysoprase, the eleventh jacinth, and the twelfth amethyst.
+- **21:21** substitute (word): SBLGNT *διαυγης* ] TR *διαφανης*
+   - Latin: Duodecim portæ duodecim erant ūniōnēs, ex singulīs ūniōnibus singulæ cōnstantēs. Urbis ārea erat aurum pūrum, pellūcida ut vitrum.
+   - 1573: Duodecim portæ duodecim erant vniones, ex singulis vnionibus singulæ constantes. Vrbis area erat aurum purum, pellucida vt vitrum.
+   - TR: Καὶ οἱ δώδεκα πυλῶνες, δώδεκα μαργαρῖται· ἀνὰ εἷς ἕκαστος τῶν πυλώνων ἦν ἐξ ἑνὸς μαργαρίτου· καὶ ἡ πλατεῖα τῆς πόλεως χρυσίον καθαρόν, ὡς ὕαλος διαφανής.
+   - SBLGNT: καὶ οἱ δώδεκα πυλῶνες δώδεκα μαργαρῖται, ἀνὰ εἷς ἕκαστος τῶν πυλώνων ἦν ἐξ ἑνὸς μαργαρίτου· καὶ ἡ πλατεῖα τῆς πόλεως χρυσίον καθαρὸν ὡς ὕαλος διαυγής.
+   - Vulgate: Et duodecim portæ, duodecim margaritæ sunt, per singulas: et singulæ portæ erant ex singulis margaritis: et platea civitatis aurum mundum, tamquam vitrum perlucidum.
+   - BSB: And the twelve gates were twelve pearls, with each gate consisting of a single pearl. The main street of the city was pure gold, as clear as glass.
+   - WEB: The twelve gates were twelve pearls. Each one of the gates was made of one pearl. The street of the city was pure gold, like transparent glass.
+- **21:24** omit (word): SBLGNT *περιπατησουσι* ] TR *–*; substitute (word): SBLGNT *δια του φωτος* ] TR *των σωζομενων εν τω φωτι*; add (word): SBLGNT *–* ] TR *+ περιπατησουσι*
+   - Latin: Atque in ejus urbis lūmine gentēs servātōrum ingredientur, in eamque cōnferent terrārum rēgēs glōriam suam ac honōrem:
+   - 1573: Atque in eius vrbis lumine gentes seruatorum ingredientur, in eamque conferent terrarum reges gloriam suam ac honorem:
+   - TR: Καὶ τὰ ἔθνη τῶν σῳζομένων ἐν τῷ φωτὶ αὐτῆς περιπατήσουσι· καὶ οἱ βασιλεῖς τῆς γῆς φέρουσιν τὴν δόξαν καὶ τὴν τιμὴν αὐτῶν εἰς αὐτήν.
+   - SBLGNT: καὶ περιπατήσουσιν τὰ ἔθνη διὰ τοῦ φωτὸς αὐτῆς· καὶ οἱ βασιλεῖς τῆς γῆς φέρουσιν τὴν δόξαν αὐτῶν εἰς αὐτήν·
+   - Vulgate: Et ambulabunt gentes in lumine ejus: et reges terræ afferent gloriam suam et honorem in illam.
+   - BSB: By its light the nations will walk, and into it the kings of the earth will bring their glory.
+   - WEB: The nations will walk in its light. The kings of the earth bring the glory and honor of the nations into it.
+- **21:27** substitute (word): SBLGNT *ποιων* ] TR *ποιουν*
+   - Latin: Nec in eam intrābit quidquam profānum, quodve scelus committat, aut mendācium, sed dumtaxat scrīptī in Agnī librō vītæ.
+   - 1573: nec in eam intrabit quicquam profanum, quodue scelus committat, aut mendacium, sed duntaxat scripti in agni libro vitæ,
+   - TR: καὶ οὐ μὴ εἰσέλθῃ εἰς αὐτὴν πᾶν κοινοῦν, καὶ ποιοῦν βδέλυγμα καὶ ψεῦδος· εἰ μὴ οἱ γεγραμμένοι ἐν τῷ βιβλίῳ τῆς ζωῆς τοῦ ἀρνίου.
+   - SBLGNT: καὶ οὐ μὴ εἰσέλθῃ εἰς αὐτὴν πᾶν κοινὸν καὶ ποιῶν βδέλυγμα καὶ ψεῦδος, εἰ μὴ οἱ γεγραμμένοι ἐν τῷ βιβλίῳ τῆς ζωῆς τοῦ ἀρνίου.
+   - Vulgate: Non intrabit in eam aliquod coinquinatum, aut abominationem faciens et mendacium, nisi qui scripti sunt in libro vitæ Agni.
+   - BSB: But nothing unclean will ever enter it, nor anyone who practices an abomination or a lie, but only those whose names are written in the Lamb’s Book of Life.
+   - WEB: There will in no way enter into it anything profane, or one who causes an abomination or a lie, but only those who are written in the Lamb’s book of life.
+- **22:2** substitute (word): SBLGNT *εκειθε* ] TR *εντευθε*; add (word): SBLGNT *–* ] TR *+ ενα*
+   - Latin: Et in mediō ejus āreæ et fluviī hinc atque hinc vītæ arborem, frūctūs duodecim parientem, singulīs mēnsibus suum frūctum ēdentem. Arboris folia ad gentium cūrātiōnem pertinent:
+   - 1573: et in medio eius areæ et fluuij hinc atque hinc vitæ arborem, fructus duodecim parientem, singulis mensibus suum fructum edentem. Arboris folia ad gentium curationem pertinent:
+   - TR: Ἐν μέσῳ τῆς πλατείας αὐτῆς, καὶ τοῦ ποταμοῦ ἐντεῦθεν καὶ ἐντεῦθεν, ξύλον ζωῆς, ποιοῦν καρποὺς δώδεκα, κατὰ μῆνα ἕνα ἕκαστον ἀποδιδοῦν τὸν καρπὸν αὐτοῦ· καὶ τὰ φύλλα τοῦ ξύλου εἰς θεραπείαν τῶν ἐθνῶν.
+   - SBLGNT: ἐν μέσῳ τῆς πλατείας αὐτῆς· καὶ τοῦ ποταμοῦ ἐντεῦθεν καὶ ἐκεῖθεν ξύλον ζωῆς ποιοῦν καρποὺς δώδεκα, κατὰ μῆνα ἕκαστον ἀποδιδοῦν τὸν καρπὸν αὐτοῦ, καὶ τὰ φύλλα τοῦ ξύλου εἰς θεραπείαν τῶν ἐθνῶν.
+   - Vulgate: In medio plateæ ejus, et ex utraque parte fluminis, lignum vitæ, afferens fructus duodecim per menses singulos, reddens fructum suum et folia ligni ad sanitatem gentium.
+   - BSB: down the middle of the main street of the city. On either side of the river stood a tree of life, bearing twelve kinds of fruit and yielding a fresh crop for each month. And the leaves of the tree are for the healing of the nations.
+   - WEB: in the middle of its street. On this side of the river and on that was the tree of life, bearing twelve kinds of fruits, yielding its fruit every month. The leaves of the tree were for the healing of the nations.
+- **22:5** substitute (word): SBLGNT *φως* ] TR *φωτος*; substitute (word): SBLGNT *φωτισει επ* ] TR *φωτιζει*
+   - Latin: Nec erit ibi nox, nec lucernā sōlisve lūmine indigēbunt, quippe quōs collūstrābit Dominus Deus, et rēgnābunt in omnia sæcula.
+   - 1573: nec erit ibi nox, nec lucerna solisue lumine indigebunt, quippe quos collustrabit Dominus Deus, et regnabunt in omnia secula
+   - TR: Καὶ νὺξ οὐκ ἔσται ἐκεῖ, καὶ χρείαν οὐκ ἔχουσι λύχνου καὶ φωτὸς ἡλίου, ὅτι Κύριος ὁ Θεὸς φωτίζει αὐτούς· καὶ βασιλεύσουσιν εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - SBLGNT: καὶ νὺξ οὐκ ἔσται ἔτι, καὶ οὐκ ἔχουσιν χρείαν φωτὸς λύχνου καὶ φῶς ἡλίου, ὅτι κύριος ὁ θεὸς φωτίσει ἐπʼ αὐτούς, καὶ βασιλεύσουσιν εἰς τοὺς αἰῶνας τῶν αἰώνων.
+   - Vulgate: Et nox ultra non erit: et non egebunt lumine lucernæ, neque lumine solis, quoniam Dominus Deus illuminabit illos, et regnabunt in sæcula sæculorum.
+   - BSB: There will be no more night in the city, and they will have no need for the light of a lamp or of the sun. For the Lord God will shine on them, and they will reign forever and ever.
+   - WEB: There will be no night, and they need no lamp light or sun light; for the Lord God will illuminate them. They will reign forever and ever.
+- **22:6** substitute (word): SBLGNT *πνευματων των* ] TR *αγιων*
+   - Latin: “Hæc sunt,” inquit mē alloquēns, “certa vērāque dicta; et Dominus, sānctōrum vātum Deus, angelum suum mīsit ad mōnstrandum suīs servīs, quæ brevī futūra sunt.”
+   - 1573: Hæc sunt (inquit me alloquens) certa veraque dicta: et Dominus, sanctorum vatum Deus, angelum suum misit, ad monstrandum suis seruis quæ breui futura sunt.
+   - TR: Καὶ εἶπέ μοι, Οὗτοι οἱ λόγοι πιστοὶ καὶ ἀληθινοί· καὶ Κύριος ὁ Θεὸς τῶν ἁγίων προφητῶν ἀπέστειλε τὸν ἄγγελον αὐτοῦ δεῖξαι τοῖς δούλοις αὐτοῦ ἃ δεῖ γενέσθαι ἐν τάχει.
+   - SBLGNT: Καὶ εἶπέν μοι· Οὗτοι οἱ λόγοι πιστοὶ καὶ ἀληθινοί, καὶ ὁ κύριος, ὁ θεὸς τῶν πνευμάτων τῶν προφητῶν, ἀπέστειλεν τὸν ἄγγελον αὐτοῦ δεῖξαι τοῖς δούλοις αὐτοῦ ἃ δεῖ γενέσθαι ἐν τάχει·
+   - Vulgate: Et dixit mihi: Hæc verba fidelissima sunt, et vera. Et Dominus Deus spirituum prophetarum misit angelum suum ostendere servis suis quæ oportet fieri cito.
+   - BSB: Then the angel said to me, “These words are faithful and true. The Lord, the God of the spirits of the prophets, has sent His angel to show His servants what must soon take place.”
+   - WEB: He said to me, “These words are faithful and true. The Lord God of the spirits of the prophets sent his angel to show to his bondservants the things which must happen soon.”
+- **22:8** substitute (word): SBLGNT *καγω* ] TR *και εγω*; omit (word): SBLGNT *ακουων και* ] TR *–*; add (word): SBLGNT *–* ] TR *+ και ακουων*
+   - Latin: Ego vērō Jōhannēs, quī hæc et aspexī et audīvī, cum audīssem aspexissemque, angelō, quī hæc mihi mōnstrābat, ad pedēs accidī, ut eum venerārer.
+   - 1573: Ego verò Iohannes, qui hæc et aspexi et audiui, cùm audiuissem aspexissemque, angelo qui hæc mihi monstrabat, ad pedes accidi, vt eum venerarer.
+   - TR: Καὶ ἐγὼ Ἰωάννης ὁ βλέπων ταῦτα καὶ ἀκούων. Καὶ ὅτε ἤκουσα καὶ ἔβλεψα, ἔπεσα προσκυνῆσαι ἔμπροσθεν τῶν ποδῶν τοῦ ἀγγέλου τοῦ δεικνύοντός μοι ταῦτα.
+   - SBLGNT: Κἀγὼ Ἰωάννης ὁ ἀκούων καὶ βλέπων ταῦτα. καὶ ὅτε ἤκουσα καὶ ἔβλεψα, ἔπεσα προσκυνῆσαι ἔμπροσθεν τῶν ποδῶν τοῦ ἀγγέλου τοῦ δεικνύοντός μοι ταῦτα.
+   - Vulgate: Et ego Joannes, qui audivi, et vidi hæc. Et postquam audissem, et vidissem, cecidi ut adorarem ante pedes angeli, qui mihi hæc ostendebat:
+   - BSB: And I am John, who heard and saw these things. And when I had heard and seen them, I fell down to worship at the feet of the angel who had shown me these things.
+   - WEB: Now I, John, am the one who heard and saw these things. When I heard and saw, I fell down to worship before the feet of the angel who had shown me these things.
+- **22:11** substitute (word): SBLGNT *ρυπαρος ρυπαρευθητω* ] TR *ρυπων ρυπωσατω*; substitute (word): SBLGNT *δικαιοσυνην ποιησατω* ] TR *δικαιωθητω*
+   - Latin: Quī nocet, nocentior fīat: et quī sordet, sordidior fīat: et jūstus jūstior fīat: et sānctus sānctior fīat.”
+   - 1573: Qui nocet, nocentior fiat: et qui sordet, sordidior fiat: et iustus iustior fiat: et sanctus sanctior fiat.
+   - TR: Ὁ ἀδικῶν ἀδικησάτω ἔτι· καὶ ὁ ῥυπῶν ῥυπωσάτω ἔτι· καὶ ὁ δίκαιος δικαιωθήτω ἔτι· καὶ ὁ ἅγιος ἁγιασθήτω ἔτι.
+   - SBLGNT: ὁ ἀδικῶν ἀδικησάτω ἔτι, καὶ ὁ ῥυπαρὸς ῥυπαρευθήτω ἔτι, καὶ ὁ δίκαιος δικαιοσύνην ποιησάτω ἔτι, καὶ ὁ ἅγιος ἁγιασθήτω ἔτι.
+   - Vulgate: Qui nocet, noceat adhuc: et qui in sordibus est, sordescat adhuc: et qui justus est, justificetur adhuc: et sanctus, sanctificetur adhuc.
+   - BSB: Let the unrighteous continue to be unrighteous, and the vile continue to be vile; let the righteous continue to practice righteousness, and the holy continue to be holy.”
+   - WEB: He who acts unjustly, let him act unjustly still. He who is filthy, let him be filthy still. He who is righteous, let him do righteousness still. He who is holy, let him be holy still.”
+- **22:13** add (word): SBLGNT *–* ] TR *+ ειμι*; substitute (name): SBLGNT *αλφα* ] TR *α*; add (clause): SBLGNT *–* ] TR *+ αρχη και το τελος*; omit (clause): SBLGNT *η αρχη και το τελος* ] TR *–*
+   - Latin: Ego sum α et ω, prīncipium et fīnis, prīmus et ultimus.”
+   - 1573: Ego sum α et ω, principium et finis, primus et vltimus.
+   - TR: Ἐγώ εἰμι τὸ Α καὶ τὸ Ω, ἀρχὴ καὶ τὸ τέλος, ὁ πρῶτος καὶ ὁ ἔσχατος.
+   - SBLGNT: ἐγὼ τὸ Ἄλφα καὶ τὸ Ὦ, ὁ πρῶτος καὶ ὁ ἔσχατος, ἡ ἀρχὴ καὶ τὸ τέλος.
+   - Vulgate: Ego sum alpha et omega, primus et novissimus, principium et finis.
+   - BSB: I am the Alpha and the Omega, the First and the Last, the Beginning and the End.”
+   - WEB: I am the Alpha and the Omega, the First and the Last, the Beginning and the End.
+- **22:16** substitute (name): SBLGNT *δαυιδ* ] TR *του δαβιδ*; substitute (word): SBLGNT *ο πρωινος* ] TR *και ορθρινος*
+   - Latin: “Ego Jēsūs meum angelum mīsī, quī vōbīs hæc super ecclēsiīs testārētur. Ego sum Dāvīdis stirps atque genus, stēlla clāra et mātūtīna.”
+   - 1573: Ego Iesus meum angelum misi, qui vobis hæc super ecclesijs testaretur. Ego sum Dauidis stirps atque genus, stella clara et matutina.
+   - TR: Ἐγὼ Ἰησοῦς ἔπεμψα τὸν ἄγγελόν μου μαρτυρῆσαι ὑμῖν ταῦτα ἐπὶ ταῖς ἐκκλησίαις. Ἐγώ εἰμι ἡ ῥίζα καὶ τὸ γένος τοῦ Δαβίδ, ὁ ἀστὴρ ὁ λαμπρὸς καὶ ὀρθρινός.
+   - SBLGNT: Ἐγὼ Ἰησοῦς ἔπεμψα τὸν ἄγγελόν μου μαρτυρῆσαι ὑμῖν ταῦτα ἐπὶ ταῖς ἐκκλησίαις. ἐγώ εἰμι ἡ ῥίζα καὶ τὸ γένος Δαυίδ, ὁ ἀστὴρ ὁ λαμπρός, ὁ πρωϊνός.
+   - Vulgate: Ego Jesus misi angelum meum testificari vobis hæc in ecclesiis. Ego sum radix, et genus David, stella splendida et matutina.
+   - BSB: “I, Jesus, have sent My angel to give you this testimony for the churches. I am the Root and the Offspring of David, the bright Morning Star.”
+   - WEB: I, Jesus, have sent my angel to testify these things to you for the assemblies. I am the root and the offspring of David, the Bright and Morning Star.”
+- **22:17** substitute (word): SBLGNT *ερχου* ] TR *ελθε*; substitute (word): SBLGNT *ερχου* ] TR *ελθε*; substitute (word): SBLGNT *ερχεσθω* ] TR *ελθετω και*; substitute (word): SBLGNT *λαβετω* ] TR *λαμβανετω το*
+   - Latin: Et Spīritus et spōnsa dīcunt, “Venī”: et quī audit, dīcat, “Venī”: et quī sitit, veniat: et quī vult, sūmat aquam vītæ grātīs.
+   - 1573: Et spiritus et sponsa dicunt, Veni: et qui audit, dicat, Veni: et qui sitit, veniat: et qui vult, sumat aquam vitæ gratis.
+   - TR: Καὶ τὸ πνεῦμα καὶ ἡ νύμφη λέγουσιν, Ἐλθέ. Καὶ ὁ ἀκούων εἰπάτω, Ἐλθέ. Καὶ ὁ διψῶν ἐλθέτω· καὶ ὁ θέλων λαμβανέτω τὸ ὕδωρ ζωῆς δωρεάν.
+   - SBLGNT: καὶ τὸ πνεῦμα καὶ ἡ νύμφη λέγουσιν· Ἔρχου· καὶ ὁ ἀκούων εἰπάτω· Ἔρχου· καὶ ὁ διψῶν ἐρχέσθω, ὁ θέλων λαβέτω ὕδωρ ζωῆς δωρεάν.
+   - Vulgate: Et spiritus, et sponsa dicunt: Veni. Et qui audit, dicat: Veni. Et qui sitit, veniat: et qui vult, accipiat aquam vitæ, gratis.
+   - BSB: The Spirit and the bride say, “Come!” Let the one who hears say, “Come!” And let the one who is thirsty come, and the one who desires the water of life drink freely.
+   - WEB: The Spirit and the bride say, “Come!” He who hears, let him say, “Come!” He who is thirsty, let him come. He who desires, let him take the water of life freely.
+- **22:18** substitute (word): SBLGNT *μαρτυρω εγω* ] TR *συμμαρτυρουμαι γαρ*; substitute (word): SBLGNT *επιθη επ αυτα* ] TR *επιτιθη προς ταυτα*
+   - Latin: Testificor autem omnibus ōrāculī hujus librī dicta audientibus, sī quis ad hæc addiderit, addet eī Deus clādēs in hōc librō scrīptās.
+   - 1573: Testificor autem omnibus oraculi huius libri dicta audientibus. si quis ad hæc addiderit, addet ei Deus clades in hoc libro scriptas.
+   - TR: Συμμαρτυροῦμαι γὰρ παντὶ ἀκούοντι τοὺς λόγους τῆς προφητείας τοῦ βιβλίου τούτου, ἐάν τις ἐπιτιθῇ πρὸς ταῦτα, ἐπιθήσει ὁ Θεὸς ἐπ᾿ αὐτὸν τὰς πληγὰς τὰς γεγραμμένας ἐν βιβλίῳ τούτῳ·
+   - SBLGNT: Μαρτυρῶ ἐγὼ παντὶ τῷ ἀκούοντι τοὺς λόγους τῆς προφητείας τοῦ βιβλίου τούτου· ἐάν τις ἐπιθῇ ἐπʼ αὐτά, ἐπιθήσει ὁ θεὸς ἐπʼ αὐτὸν τὰς πληγὰς τὰς γεγραμμένας ἐν τῷ βιβλίῳ τούτῳ·
+   - Vulgate: Contestor enim omni audienti verba prophetiæ libri hujus: si quis apposuerit ad hæc, apponet Deus super illum plagas scriptas in libro isto.
+   - BSB: I testify to everyone who hears the words of prophecy in this book: If anyone adds to them, God will add to him the plagues described in this book.
+   - WEB: I testify to everyone who hears the words of the prophecy of this book: if anyone adds to them, God will add to him the plagues which are written in this book.
+- **22:19** substitute (word): SBLGNT *αφελη* ] TR *αφαιρη*; substitute (word): SBLGNT *του βιβλιου* ] TR *βιβλου*; substitute (word): SBLGNT *αφελει* ] TR *αφαιρησει*; substitute (word): SBLGNT *του ξυλου* ] TR *βιβλου*
+   - Latin: Et sī quis dē verbīs librī hujus ōrāculī adēmerit, adimet Deus sortem ejus dē librō vītæ, dēque sacrā urbe, et scrīptīs in hōc librō.
+   - 1573: Et si quis de verbis libri huius oraculi ademerit, adimet Deus sortem eius de libro vitæ, deque sacra vrbe, et scriptis in hoc libro.
+   - TR: καὶ ἐάν τις ἀφαιρῇ ἀπὸ τῶν λόγων βίβλου τῆς προφητείας ταύτης, ἀφαιρήσει ὁ Θεὸς τὸ μέρος αὐτοῦ ἀπὸ Βίβλου τῆς ζωῆς, καὶ ἐκ τῆς πόλεως τῆς ἁγίας, καὶ τῶν γεγραμμένων ἐν βιβλίῳ τούτῳ.
+   - SBLGNT: καὶ ἐάν τις ἀφέλῃ ἀπὸ τῶν λόγων τοῦ βιβλίου τῆς προφητείας ταύτης, ἀφελεῖ ὁ θεὸς τὸ μέρος αὐτοῦ ἀπὸ τοῦ ξύλου τῆς ζωῆς καὶ ἐκ τῆς πόλεως τῆς ἁγίας, τῶν γεγραμμένων ἐν τῷ βιβλίῳ τούτῳ.
+   - Vulgate: Et si quis diminuerit de verbis libri prophetiæ hujus, auferet Deus partem ejus de libro vitæ, et de civitate sancta, et de his quæ scripta sunt in libro isto:
+   - BSB: And if anyone takes away from the words of this book of prophecy, God will take away his share in the tree of life and the holy city, which are described in this book.
+   - WEB: If anyone takes away from the words of the book of this prophecy, God will take away his part from the tree of life, and out of the holy city, which are written in this book.

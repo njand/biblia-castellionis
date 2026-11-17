@@ -2,21 +2,32 @@
 
 ## Now
 
+- **Notes for Hebrews to Revelation: accepted and applied 2026-11-17** ("Apply them"; your "Run the next round of notes"): nine files,
+  `data/review/{heb,jas,1pet,2pet,1john,2john,3john,jude,rev}-notes.md`, 99 items in all: 35 notes on the Greek text,
+  4 on Castellio's readings, 60 brackets, no corrections. Read by five readers (Revelation by two), with the NRSVue for
+  every item. Among them: Heb 9:11 and 10:34; Jas 4:2 *invidētis* (Erasmus's conjecture for φονεύετε, "you murder") and
+  5:12 *in simulātiōnem*; 1 Pet 3:15 (Christ as Lord) and 4:14; 1 John 2:23b; Jude 5 (Jesus) and 22–23 (three groups);
+  Rev 22:19 *dē librō vītæ* (the tree of life), 22:14, 22:6, 13:1 (the dragon stands on the shore, not John), 8:13 (an
+  eagle). 1 John 5:7–8 was already bracketed. Revelation has 18 notes in 22 chapters (0.8 a chapter), more than
+  elsewhere, since its TR stands alone so often; 1:8 and 4:11 titles, 6:17 and the like were left out. Rev 22:21 keeps
+  *Āmēn*, which the NRSVue prints. 15:3 gives both modern readings (NA28 "nations", SBLGNT "ages"). For the next spot
+  check: Rev 14:4 *I sunt*, 14:15 *Iinmitte*, 18:21 *sacietur* as `text/orig` has 1573; Jas 4:12's parentheses. `text/`
+  and gold updated; the whole New Testament now has its notes. Not committed.
 - **Notes for Philippians to Philemon: accepted and applied 2026-11-17** ("Apply them"; your "Run the next round"): eight files,
   `data/review/{phil,col,1thess,2thess,1tim,2tim,titus,phlm}-notes.md`, 40 items in all: 11 notes on the Greek text,
   4 on Castellio's readings, 24 brackets, 1 correction (a comma, 1 Thess 5:8). Read by three readers, with the NRSVue for
   every item. Among them: 1 Tim 3:16 *Deus* (the modern text ὅς), Col 2:2 and 4:8, 2 Thess 2:13 *prīncipiō*
   (ἀπαρχήν), 1 Thess 2:14 *nōs* (in every printing from 1556), 2 Tim 2:6. Philemon 12 has a new form, *Cōdicēs
-  antīquiōrēs nōn habent προσλαβοῦ*, since a bracket would leave the sentence without a verb. Not
-  committed.
+  antīquiōrēs nōn habent προσλαβοῦ*, since a bracket would leave the sentence without a verb. Committed 2026-11-17
+  (72b8d54).
 - **Notes for 1–2 Corinthians, Galatians and Ephesians: accepted and applied 2026-11-17** ("Apply them"; your "Run the next round of
   notes"): `data/review/1cor-notes.md` (21 items: 4 notes on the Greek text, 2 on Castellio's readings, 13 brackets,
   2 corrections), `2cor-notes.md` (12: 4, 2, 5, 1), `gal-notes.md` (9: 2, 1, 6) and `eph-notes.md` (8: 3, 0, 5). Read by
   four readers, with the NRSVue for every item. Among them: 1 Cor 9:20 ("though I myself am not under the law"),
   14:38, 15:55 *ō orce*; 2 Cor 8:7 ("our love for you"); Gal 4:7; Eph 5:21 ("reverence for Christ"); person slips in
   every printing seen (1 Cor 6:14, 15:31; 2 Cor 13:4). The corrections are two question marks (1 Cor 9:2, 11:22) and
-  the cases at 2 Cor 10:10. Not committed.
-- **Notes for Acts and Romans: accepted and applied 2026-11-17** ("Apply them"; `text/` and gold updated; not committed):
+  the cases at 2 Cor 10:10. Committed 2026-11-17 (72b8d54).
+- **Notes for Acts and Romans: accepted and applied 2026-11-17** ("Apply them"; `text/` and gold updated; committed 2026-11-17, 72b8d54):
   `data/review/acts-notes.md` (65 items: 13 notes on the Greek text, 4 on Castellio's readings, 43 brackets, 5
   corrections) and `rom-notes.md` (21 items: 6, 3, 12). Read as the Gospels were, by six readers, with the NRSVue for
   every item. Among them: Rom 4:19 (the modern text has no "not"), Acts 13:20 (the 450 years), Rom 12:11 *temporī
