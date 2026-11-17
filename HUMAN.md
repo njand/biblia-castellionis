@@ -33,6 +33,10 @@
   Running heads now classic (your choice): a verso gives its first verse, a recto its last (353 heads checked).
   Nothing committed.
 - **Numbers started** (2026-11-16, your "Start Numbers").
+  - **The printed text approved for now** (2026-11-17, your "Approve the printed text for now"): `text/orig/NUM.usfm`,
+    every word from the lines read on 1738's pages in stage 2, its misprints kept (*ceperat*, *temetum Ioua*, *in
+    Cittimo*, *bibtto* …). Not yet checked on the page: the paragraphs (1738's indents). Record: `data/review/num-orig.md`.
+    The site's *As printed, 1738* shows for Numbers on the next push.
   - **Settled 2026-11-16** (your "Approve and settle"): `text/NUM.usfm`, 36 chapters, the KJV's 1,288 verses (1,202
     verse markers: 7:12–83, the census at 1:22–43 and 4:38–44 are verse ranges), the 1,202 items applied as accepted
     (identical to the preview); `data/gold/Num.tsv` built, the ledger `settled`, the drafts removed (`text/draft/` is
