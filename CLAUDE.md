@@ -27,6 +27,13 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
   and near-miss words on the page, and keep the draft in review beside the chapter's own. Never leave the printed
   spelling to be recovered later. The printed text follows the page exactly (decision 58): never normalize it, not even
   Castellio's inconsistencies or his printer's misprints; s for ſ.
+- **"Approved for now"** (Nathan, 2026-11-08): he settles chapters on Claude's own careful review and will read the
+  whole text in depth later. Check every flag and verse yourself, with evidence (page images for wording), record
+  every call in the review files, `data/decisions/` or `HUMAN.md`, and settle when he approves. Don't wait for his
+  line-by-line reading, and keep everything reviewable for his later pass.
+- **Record edition history** (2026-11-06): whenever a Castellio edition is examined (date, printer, editor, stated
+  purpose, readings, what Castellio changed and what later editors changed), add it to `docs/editions.md` in the
+  same turn, with its evidence, marking what is unverified. The README and front matter are written from it.
 - **The fur-fulminis databases are read-only**, reached only through `python -m pipeline latin …`.
 - **Run the humanizer skill only on outward-facing English prose**: what gets published or read outside the
   project (README, `RELEASE.md`, front matter, commit messages, original writing to be published). Never on
