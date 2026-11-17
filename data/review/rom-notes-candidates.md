@@ -1,0 +1,705 @@
+# Rom: candidates for light notes
+
+Built by `python -m pipeline notes Rom` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `rom-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 160; not a change of sense (order, article, form, small words): 104; the TR with the critical text: 5; in a verse already noted or bracketed: 0; **kept: 51**, in 48 verses. The TR alone against SBLGNT (no apparatus unit): 44, in 36 verses. Pronoun person (Latin against the TR): 1.
+
+## Text: clause (8 verses)
+
+- **6:11** add (clause): critical *Ἰησοῦ* ] RP *+ τῷ κυρίῳ ἡμῶν*
+   - Latin: Sīc vōs quoque exīstimāte, vōs ipsōs mortuōs quidem esse peccātō, sed vīvōs Deō, per Jēsum Chrīstum Dominum nostrum.
+   - 1573: Sic vos quoque existimate, vos ipsos mortuos quidem esse peccato, sed viuos Deo, per Iesum Christum Dominum nostrum.
+   - TR: Οὕτω καὶ ὑμεῖς λογίζεσθε ἑαυτοὺς νεκροὺς μὲν εἶναι τῇ ἁμαρτίᾳ, ζῶντας δὲ τῷ Θεῷ ἐν Χριστῷ Ἰησοῦ τῷ Κυρίῳ ἡμῶν.
+   - SBLGNT: οὕτως καὶ ὑμεῖς λογίζεσθε ἑαυτοὺς εἶναι νεκροὺς μὲν τῇ ἁμαρτίᾳ ζῶντας δὲ τῷ θεῷ ἐν Χριστῷ Ἰησοῦ.
+   - Vulgate: Ita et vos existimate vos mortuos quidem esse peccato, viventes autem Deo, in Christo Jesu Domino nostro.
+   - BSB: So you too must count yourselves dead to sin, but alive to God in Christ Jesus.
+   - WEB: Thus consider yourselves also to be dead to sin, but alive to God in Christ Jesus our Lord.
+- **8:1** add (clause): critical *Ἰησοῦ* ] RP *+ μὴ κατὰ σάρκα περιπατοῦσιν ἀλλὰ κατὰ πνεῦμα*
+   - Latin: Igitur nūllī jam damnātiōnī sunt obnoxiī, quī in Chrīstō Jēsū, nōn carnis, sed Spīritūs arbitriō pārent.
+   - 1573: Igitur nulli iam damnationi sunt obnoxij, qui in Christo Iesu, non carnis, sed spiritus arbitrio parent.
+   - TR: Οὐδὲν ἄρα νῦν κατάκριμα τοῖς ἐν Χριστῷ Ἰησοῦ, μὴ κατὰ σάρκα περιπατοῦσιν, ἀλλὰ κατὰ πνεῦμα.
+   - SBLGNT: Οὐδὲν ἄρα νῦν κατάκριμα τοῖς ἐν Χριστῷ Ἰησοῦ·
+   - Vulgate: Nihil ergo nunc damnationis est iis qui sunt in Christo Jesu: qui non secundum carnem ambulant.
+   - BSB: Therefore, there is now no condemnation for those who are in Christ Jesus.
+   - WEB: There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.
+- **9:28** add (clause): critical *συντέμνων* ] RP *+ ἐν δικαιοσύνῃ ὅτι λόγον συντετμημένον*
+   - Latin: Nam rem sevērē atque semel, idque cum jūstitiā, rem, inquam, sevēram faciet Dominus in terrā.”
+   - 1573: Nam rem seuerè atque semel, idque cum iustitia, rem inquam seueram faciet Dominus in terra.
+   - TR: λόγον γὰρ συντελῶν καὶ συντέμνων ἐν δικαιοσύνῃ· ὅτι λόγον συντετμημένον ποιήσει Κύριος ἐπὶ τῆς γῆς.
+   - SBLGNT: λόγον γὰρ συντελῶν καὶ συντέμνων ποιήσει κύριος ἐπὶ τῆς γῆς.
+   - Vulgate: Verbum enim consummans, et abbrevians in æquitate: quia verbum breviatum faciet Dominus super terram:
+   - BSB: For the Lord will carry out His sentence on the earth thoroughly and decisively.”
+   - WEB: for he will finish the work and cut it short in righteousness, because the Lord will make a short work upon the earth.”
+- **10:15** add (clause): critical *εὐαγγελιζομένων* ] RP *+ εἰρήνην τῶν εὐαγγελιζομένων*
+   - Latin: Aut prædicāre, nisi quī erunt lēgātī? quemadmodum extat in litterīs: “Ō quam ēlegantēs sunt pedēs nūntiantium pācem, nūntiantium bona!”
+   - 1573: aut prædicare, nisi qui erunt legati: quemadmodum extat in literis: O quàm elegantes sunt pedes nuntiantium pacem, nuntiantium bona?
+   - TR: Πῶς δὲ κηρύξουσιν ἐὰν μὴ ἀποσταλῶσι; Καθὼς γέγραπται, Ὡς ὡραῖοι οἱ πόδες τῶν εὐαγγελιζομένων εἰρήνην, τῶν εὐαγγελιζομένων τὰ ἀγαθά.
+   - SBLGNT: πῶς δὲ κηρύξωσιν ἐὰν μὴ ἀποσταλῶσιν; καθὼς γέγραπται· Ὡς ὡραῖοι οἱ πόδες τῶν εὐαγγελιζομένων τὰ ἀγαθά.
+   - Vulgate: quomodo vero prædicabunt nisi mittantur? sicut scriptum est: Quam speciosi pedes evangelizantium pacem, evangelizantium bona !
+   - BSB: And how can they preach unless they are sent? As it is written: “How beautiful are the feet of those who bring good news!”
+   - WEB: And how will they preach unless they are sent? As it is written: “How beautiful are the feet of those who preach the Good News of peace, who bring glad tidings of good things!”
+- **11:6** add (clause): critical *χάρις* ] RP *+ Εἰ δὲ ἐξ ἔργων οὐκέτι ἐστὶν χάρις ἐπεὶ τὸ ἔργον οὐκέτι ἐστὶν ἔργον*
+   - Latin: Quod sī grātuītō, ergō nōn per opera: aliōquin grātia nōn jam esset grātia. Sīn per opera, nōn jam est grātia: aliōquin opus nōn jam esset opus.
+   - 1573: Quòd si gratuito, ergo non per opera: alioquin gratia non iam esset gratia. Sin per opera, non iam est gratia: alioquin opus non iam esset opus.
+   - TR: Εἰ δὲ χάριτι, οὐκέτι ἐξ ἔργων· ἐπεὶ ἡ χάρις οὐκέτι γίνεται χάρις. Εἰ δὲ ἐξ ἔργων, οὐκέτι ἐστὶ χάρις· ἐπεὶ τὸ ἔργον οὐκέτι ἐστὶν ἔργον.
+   - SBLGNT: εἰ δὲ χάριτι, οὐκέτι ἐξ ἔργων, ἐπεὶ ἡ χάρις οὐκέτι γίνεται χάρις.
+   - Vulgate: Si autem gratia, jam non ex operibus: alioquin gratia jam non est gratia.
+   - BSB: And if it is by grace, then it is no longer by works. Otherwise, grace would no longer be grace.
+   - WEB: And if by grace, then it is no longer of works; otherwise grace is no longer grace. But if it is of works, it is no longer grace; otherwise work is no longer work.
+- **14:6** add (clause): critical *φρονεῖ* ] RP *+ καὶ ὁ μὴ φρονῶν τὴν ἡμέραν κυρίῳ οὐ φρονεῖ*
+   - Latin: Quī diērum ratiōnem habet, Dominō habet: item quī diērum ratiōnem nōn habet, Dominō nōn habet. Quī vēscitur, Dominō vēscitur: agit enim Deō grātiās: item quī nōn vēscitur, Dominō nōn vēscitur, et agit Deō grātiās:
+   - 1573: Qui dierum rationem habet, Domino habet: item qui dierum rationem non habet, Domino non habet. Qui vescitur, Domino vescitur: agit enim Deo gratias. Item qui non vescitur, Domino non vescitur, et agit Deo gratias:
+   - TR: Ὁ φρονῶν τὴν ἡμέραν, Κυρίῳ φρονεῖ· καὶ ὁ μὴ φρονῶν τὴν ἡμέραν, Κυρίῳ οὐ φρονεῖ. Ὁ ἐσθίων Κυρίῳ ἐσθίει, εὐχαριστεῖ γὰρ τῷ Θεῷ· καὶ ὁ μὴ ἐσθίων Κυρίῳ οὐκ ἐσθίει, καὶ εὐχαριστεῖ τῷ Θεῷ.
+   - SBLGNT: ὁ φρονῶν τὴν ἡμέραν κυρίῳ φρονεῖ. καὶ ὁ ἐσθίων κυρίῳ ἐσθίει, εὐχαριστεῖ γὰρ τῷ θεῷ· καὶ ὁ μὴ ἐσθίων κυρίῳ οὐκ ἐσθίει, καὶ εὐχαριστεῖ τῷ θεῷ.
+   - Vulgate: Qui sapit diem, Domino sapit, et qui manducat, Domino manducat: gratias enim agit Deo. Et qui non manducat, Domino non manducat, et gratias agit Deo.
+   - BSB: He who observes a special day does so to the Lord; he who eats does so to the Lord, for he gives thanks to God; and he who abstains does so to the Lord and gives thanks to God.
+   - WEB: He who observes the day, observes it to the Lord; and he who does not observe the day, to the Lord he does not observe it. He who eats, eats to the Lord, for he gives God thanks. He who doesn’t eat, to the Lord he doesn’t eat, and gives God thanks.
+- **15:24** add (clause): critical *Σπανίαν* ] RP *+ ἐλεύσομαι πρὸς ὑμᾶς*
+   - Latin: sī quandō in Hispāniam proficīscar, adībō vōs. Spērō enim in itinere vīsūrum vōs, et ā vōbīs illō dēductum īrī, sī prius meam vestrī aviditātem aliquantum explēverō.
+   - 1573: si quando in Hispaniam proficiscar, adibo vos. Spero enim, in itinere visurum vos, et à vobis illò deductum iri, si prius meam vestri auiditatem aliquantum expleuero.
+   - TR: ὡς ἐὰν πορεύωμαι εἰς τὴν Σπανίαν, ἐλεύσομαι πρὸς ὑμᾶς· ἐλπίζω γὰρ διαπορευόμενος θεάσασθαι ὑμᾶς, καὶ ὑφ᾿ ὑμῶν προπεμφθῆναι ἐκεῖ, ἐὰν ὑμῶν πρῶτον ἀπὸ μέρους ἐμπλησθῶ.
+   - SBLGNT: ὡς ἂν πορεύωμαι εἰς τὴν Σπανίαν, ἐλπίζω γὰρ διαπορευόμενος θεάσασθαι ὑμᾶς καὶ ὑφʼ ὑμῶν προπεμφθῆναι ἐκεῖ ἐὰν ὑμῶν πρῶτον ἀπὸ μέρους ἐμπλησθῶ—
+   - Vulgate: cum in Hispaniam proficisci cœpero, spero quod præteriens videam vos, et a vobis deducar illuc, si vobis primum ex parte fruitus fuero.
+   - BSB: I hope to see you on my way to Spain. And after I have enjoyed your company for a while, you can equip me for my journey.
+   - WEB: whenever I travel to Spain, I will come to you. For I hope to see you on my journey, and to be helped on my way there by you, if first I may enjoy your company for a while.
+- **15:29** add (clause): critical *εὐλογίας* ] RP *+ τοῦ εὐαγγελίου τοῦ*
+   - Latin: Sciō autem, cum veniam ad vōs, ventūrum cum plēnā chrīstiānī euangeliī ūbertāte.
+   - 1573: Scio autem, cùm veniam ad vos, venturum cum plena Christiani Euangelij vbertate,
+   - TR: Οἶδα δὲ ὅτι ἐρχόμενος πρὸς ὑμᾶς ἐν πληρώματι εὐλογίας τοῦ εὐαγγελίου τοῦ Χριστοῦ ἐλεύσομαι.
+   - SBLGNT: οἶδα δὲ ὅτι ἐρχόμενος πρὸς ὑμᾶς ἐν πληρώματι εὐλογίας Χριστοῦ ἐλεύσομαι.
+   - Vulgate: Scio autem quoniam veniens ad vos, in abundantia benedictionis Evangelii Christi veniam.
+   - BSB: I know that when I come to you, I will come in the fullness of the blessing of Christ.
+   - WEB: I know that when I come to you, I will come in the fullness of the blessing of the Good News of Christ.
+
+## Text: name (3 verses)
+
+- **10:1** substitute (name): critical *αὐτῶν* ] RP *τοῦ Ἰσραήλ ἐστιν*
+   - Latin: Frātrēs, equidem animī meī prōpēnsiō, et ad Deum supplicātiō, ad salūtem spectat Isrāēlītārum.
+   - 1573: Fratres, equidem animi mei propensio, et ad Deum supplicatio, ad salutem spectat Israelitarum.
+   - TR: Ἀδελφοί, ἡ μὲν εὐδοκία τῆς ἐμῆς καρδίας καὶ ἡ δέησις ἡ πρὸς τὸν Θεὸν ὑπὲρ τοῦ Ἰσραήλ ἐστιν εἰς σωτηρίαν.
+   - SBLGNT: Ἀδελφοί, ἡ μὲν εὐδοκία τῆς ἐμῆς καρδίας καὶ ἡ δέησις πρὸς τὸν θεὸν ὑπὲρ αὐτῶν εἰς σωτηρίαν.
+   - Vulgate: Fratres, voluntas quidem cordis mei, et obsecratio ad Deum, fit pro illis in salutem.
+   - BSB: Brothers, my heart’s desire and prayer to God for the Israelites is for their salvation.
+   - WEB: Brothers, my heart’s desire and my prayer to God is for Israel, that they may be saved.
+- **16:5** substitute (name): critical *Ἀσίας* ] RP *Ἀχαΐας*
+   - Latin: et eōrum domesticam ecclēsiam. Salūtāte Epænetum mihi cārissimum, quī est Achāiæ prīmitiæ in Chrīstō.
+   - 1573: et eorum domesticam ecclesiam. Salutate Epænetum mihi charissimum, qui est Achaiæ primitiæ in Christo.
+   - TR: καὶ τὴν κατ᾿ οἶκον αὐτῶν ἐκκλησίαν. Ἀσπάσασθε Ἐπαίνετον τὸν ἀγαπητόν μου, ὅς ἐστιν ἀπαρχὴ τῆς Ἀχαΐας εἰς Χριστόν.
+   - SBLGNT: καὶ τὴν κατʼ οἶκον αὐτῶν ἐκκλησίαν. ἀσπάσασθε Ἐπαίνετον τὸν ἀγαπητόν μου, ὅς ἐστιν ἀπαρχὴ τῆς Ἀσίας εἰς Χριστόν.
+   - Vulgate: et domesticam ecclesiam eorum. Salutate Epænetum dilectum mihi, qui est primitivus Asiæ in Christo.
+   - BSB: Greet also the church that meets at their house. Greet my beloved Epenetus, who was the first convert to Christ in the province of Asia.
+   - WEB: Greet the assembly that is in their house. Greet Epaenetus, my beloved, who is the first fruits of Achaia to Christ.
+- **16:8** substitute (name): critical *Ἀμπλιᾶτον* ] RP *Ἀμπλίαν*
+   - Latin: Salūtāte Ampliam, mihi in Dominō cārissimum.
+   - 1573: Salutate Ampliam, mihi in Domino charissimum.
+   - TR: Ἀσπάσασθε Ἀμπλίαν τὸν ἀγαπητόν μου ἐν Κυρίῳ.
+   - SBLGNT: ἀσπάσασθε Ἀμπλιᾶτον τὸν ἀγαπητόν μου ἐν κυρίῳ.
+   - Vulgate: Salutate Ampliatum dilectissimum mihi in Domino.
+   - BSB: Greet Ampliatus, my beloved in the Lord.
+   - WEB: Greet Amplias, my beloved in the Lord.
+
+## Text: person (2 verses)
+
+- **13:11** substitute (person): critical *ἤδη ὑμᾶς* ] RP *ἡμᾶς ἤδη*
+   - Latin: Præsertim cum sciāmus, vēnisse tempus et hōram, quā jam sit nōbīs ā somnō expergīscendum. Nunc enim propius nōs est salūs, quam tum, cum crēdidimus.
+   - 1573: præsertim cùm sciamus, venisse tempus et horam qua iam sit nobis à somno expergiscendum. Nunc enim propius nos est salus, quàm tum, cùm credidimus
+   - TR: Καὶ τοῦτο, εἰδότες τὸν καιρόν, ὅτι ὥρα ἡμᾶς ἤδη ἐξ ὕπνου ἐγερθῆναι· νῦν γὰρ ἐγγύτερον ἡμῶν ἡ σωτηρία ἢ ὅτε ἐπιστεύσαμεν.
+   - SBLGNT: Καὶ τοῦτο εἰδότες τὸν καιρόν, ὅτι ὥρα ἤδη ὑμᾶς ἐξ ὕπνου ἐγερθῆναι, νῦν γὰρ ἐγγύτερον ἡμῶν ἡ σωτηρία ἢ ὅτε ἐπιστεύσαμεν.
+   - Vulgate: Et hoc scientes tempus: quia hora est jam nos de somno surgere. Nunc enim propior est nostra salus, quam cum credidimus.
+   - BSB: And do this, understanding the occasion. The hour has come for you to wake up from your slumber, for our salvation is nearer now than when we first believed.
+   - WEB: Do this, knowing the time, that it is already time for you to awaken out of sleep, for salvation is now nearer to us than when we first believed.
+- **16:6** substitute (person): critical *ὑμᾶς* ] RP *ἡμᾶς*
+   - Latin: Salūtāte Marīam, quæ multum nostrā causā labōrāvit.
+   - 1573: Salutate Mariam, quæ multum nostra causa laborauit.
+   - TR: Ἀσπάσασθε Μαριάμ, ἥτις πολλὰ ἐκοπίασεν εἰς ἡμᾶς.
+   - SBLGNT: ἀσπάσασθε Μαριάμ, ἥτις πολλὰ ἐκοπίασεν εἰς ὑμᾶς.
+   - Vulgate: Salutate Mariam, quæ multum laboravit in vobis.
+   - BSB: Greet Mary, who has worked very hard for you.
+   - WEB: Greet Mary, who labored much for us.
+
+## Text: word (35 verses)
+
+- **1:16** add (word): critical *εὐαγγέλιον* ] RP *+ τοῦ χριστοῦ*
+   - Latin: Nec enim mē pudet euangeliī Chrīstī: quippe quod sit dīvīna potentia, salūtāris omnī fīdentī, cum Græcō, tum Jūdæō.
+   - 1573: Nec enim me pudet Euangelij Christi: quippe quòd sit diuina potentia, salutaris omni fidenti cùm Græco, tum Iudæo.
+   - TR: Οὐ γὰρ ἐπαισχύνομαι τὸ εὐαγγέλιον τοῦ Χριστοῦ· δύναμις γὰρ Θεοῦ ἐστιν εἰς σωτηρίαν παντὶ τῷ πιστεύοντι, Ἰουδαίῳ τε πρῶτον καὶ Ἕλληνι.
+   - SBLGNT: Οὐ γὰρ ἐπαισχύνομαι τὸ εὐαγγέλιον, δύναμις γὰρ θεοῦ ἐστιν εἰς σωτηρίαν παντὶ τῷ πιστεύοντι, Ἰουδαίῳ τε πρῶτον καὶ Ἕλληνι·
+   - Vulgate: Non enim erubesco Evangelium. Virtus enim Dei est in salutem omni credenti, Judæo primum, et Græco.
+   - BSB: I am not ashamed of the gospel, because it is the power of God for salvation to everyone who believes, first to the Jew, then to the Greek.
+   - WEB: For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes, for the Jew first, and also for the Greek.
+- **1:24** substitute (word): critical *αὐτοῖς* ] RP *ἑαυτοῖς*
+   - Latin: Quārē Deus eōs permīsit animī suī cupiditātibus, in tantam impūritātem, ut ipsī sua corpora in sēsē dēturpent:
+   - 1573: Quare Deus eos permisit animi sui cupiditatibus, in tantam impuritatem, vt ipsi sua corpora in sese deturpent:
+   - TR: Διὸ καὶ παρέδωκεν αὐτοὺς ὁ Θεὸς ἐν ταῖς ἐπιθυμίαις τῶν καρδιῶν αὐτῶν εἰς ἀκαθαρσίαν, τοῦ ἀτιμάζεσθαι τὰ σώματα αὐτῶν ἐν ἑαυτοῖς·
+   - SBLGNT: Διὸ παρέδωκεν αὐτοὺς ὁ θεὸς ἐν ταῖς ἐπιθυμίαις τῶν καρδιῶν αὐτῶν εἰς ἀκαθαρσίαν τοῦ ἀτιμάζεσθαι τὰ σώματα αὐτῶν ἐν αὐτοῖς,
+   - Vulgate: Propter quod tradidit illos Deus in desideria cordis eorum, in immunditiam, ut contumeliis afficiant corpora sua in semetipsis:
+   - BSB: Therefore God gave them over in the desires of their hearts to impurity for the dishonoring of their bodies with one another.
+   - WEB: Therefore God also gave them up in the lusts of their hearts to uncleanness, that their bodies should be dishonored among themselves;
+- **1:29** add (word): critical *ἀδικίᾳ* ] RP *+ πορνείᾳ*
+   - Latin: Plēnī omnis injūstitiæ, stuprī, perversitātis, avāritiæ, malitiæ: refertī invidiā, cæde, jūrgiō, fraudulentiā, nēquitiā:
+   - 1573: pleni omnis iniustitiæ, stupri, peruersitatis, auaritiæ, maliciæ: referti inuidia, cæde, iurgio, fraudulentia, nequitia:
+   - TR: πεπληρωμένους πάσῃ ἀδικίᾳ, πορνείᾳ, πονηρίᾳ, πλεονεξίᾳ, κακίᾳ· μεστοὺς φθόνου, φόνου, ἔριδος, δόλου, κακοηθείας· ψιθυριστάς,
+   - SBLGNT: πεπληρωμένους πάσῃ ἀδικίᾳ πονηρίᾳ πλεονεξίᾳ κακίᾳ, μεστοὺς φθόνου φόνου ἔριδος δόλου κακοηθείας, ψιθυριστάς,
+   - Vulgate: repletos omni iniquitate, malitia, fornicatione, avaritia, nequitia, plenos invidia, homicidio, contentione, dolo, malignitate: susurrones,
+   - BSB: They have become filled with every kind of wickedness, evil, greed, and depravity. They are full of envy, murder, strife, deceit, and malice. They are gossips,
+   - WEB: being filled with all unrighteousness, sexual immorality, wickedness, covetousness, malice; full of envy, murder, strife, deceit, evil habits, secret slanderers,
+- **1:31** add (word): critical *ἀστόργους* ] RP *+ ἀσπόνδους*
+   - Latin: īnsipientēs, īnsociābilēs, inhūmānī, perfidiōsī, immisericordēs:
+   - 1573: Insipientes, insociabiles, inhumani, perfidiosi, immisericordes
+   - TR: ἀσυνέτους, ἀσυνθέτους, ἀστόργους, ἀσπόνδους, ἀνελεήμονας·
+   - SBLGNT: ἀσυνέτους, ἀσυνθέτους, ἀστόργους, ἀνελεήμονας·
+   - Vulgate: insipientes, incompositos, sine affectione, absque fœdere, sine misericordia.
+   - BSB: They are senseless, faithless, heartless, merciless.
+   - WEB: without understanding, covenant breakers, without natural affection, unforgiving, unmerciful;
+- **2:14** substitute (word): critical *ποιῶσιν* ] RP *ποιῇ*
+   - Latin: Cum enim exterārum nātiōnum hominēs, lēgem nōn habentēs, nātūrā lēgitima faciant, iī lēgem nōn habentēs, ipsī sibi lēx sunt:
+   - 1573: Cùm enim exterarum nationum homines, legem non habentes, natura legitima faciant, ij legem non habentes, ipsi sibi lex sunt:
+   - TR: Ὅταν γὰρ ἔθνη τὰ μὴ νόμον ἔχοντα φύσει τὰ τοῦ νόμου ποιῇ, οὗτοι, νόμον μὴ ἔχοντες, ἑαυτοῖς εἰσι νόμος·
+   - SBLGNT: ὅταν γὰρ ἔθνη τὰ μὴ νόμον ἔχοντα φύσει τὰ τοῦ νόμου ποιῶσιν, οὗτοι νόμον μὴ ἔχοντες ἑαυτοῖς εἰσιν νόμος·
+   - Vulgate: Cum autem gentes, quæ legem non habent, naturaliter ea, quæ legis sunt, faciunt, ejusmodi legem non habentes, ipsi sibi sunt lex:
+   - BSB: Indeed, when Gentiles, who do not have the law, do by nature what the law requires, they are a law to themselves, even though they do not have the law.
+   - WEB: (for when Gentiles who don’t have the law do by nature the things of the law, these, not having the law, are a law to themselves,
+- **2:17** substitute (word): critical *Εἰ δὲ* ] RP *Ἴδε*
+   - Latin: Ēn tū Jūdæus nōmināris, et in lēge acquiēscis, ac dē Deō glōriāris,
+   - 1573: En tu Iudæus nominaris: et in lege acquiescis, ac de Deo gloriaris,
+   - TR: Ἴδε σὺ Ἰουδαῖος ἐπονομάζῃ, καὶ ἐπαναπαύῃ τῷ νόμῳ, καὶ καυχᾶσαι ἐν Θεῷ,
+   - SBLGNT: Εἰ δὲ σὺ Ἰουδαῖος ἐπονομάζῃ καὶ ἐπαναπαύῃ νόμῳ καὶ καυχᾶσαι ἐν θεῷ
+   - Vulgate: Si autem tu Judæus cognominaris, et requiescis in lege, et gloriaris in Deo,
+   - BSB: Now you, if you call yourself a Jew; if you rely on the law and boast in God;
+   - WEB: Indeed you bear the name of a Jew, rest on the law, glory in God,
+- **3:30** substitute (word): critical *εἴπερ* ] RP *ἐπείπερ*
+   - Latin: Quandoquidem ūnus Deus est, quī et circumcīsiōnem fidē, et præpūtium per fidem jūstificet.
+   - 1573: quandoquidem vnus Deus est, qui et circumcisionem fide, et præputium per fidem iustificet.
+   - TR: ἐπείπερ εἷς ὁ Θεός, ὃς δικαιώσει περιτομὴν ἐκ πίστεως, καὶ ἀκροβυστίαν διὰ τῆς πίστεως.
+   - SBLGNT: εἴπερ εἷς ὁ θεός, ὃς δικαιώσει περιτομὴν ἐκ πίστεως καὶ ἀκροβυστίαν διὰ τῆς πίστεως.
+   - Vulgate: quoniam quidem unus est Deus, qui justificat circumcisionem ex fide, et præputium per fidem.
+   - BSB: since there is only one God, who will justify the circumcised by faith and the uncircumcised through that same faith.
+   - WEB: since indeed there is one God who will justify the circumcised by faith and the uncircumcised through faith.
+- **3:31** substitute (word): critical *ἱστάνομεν* ] RP *ἱστῶμεν*
+   - Latin: Ergō lēgem abrogāmus per fidem? Absit: immō lēgem stabilīmus.
+   - 1573: Ergo legem abrogamus per fidem. Absit: imò legem stabilimus.
+   - TR: Νόμον οὖν καταργοῦμεν διὰ τῆς πίστεως; Μὴ γένοιτο· ἀλλὰ νόμον ἱστῶμεν.
+   - SBLGNT: νόμον οὖν καταργοῦμεν διὰ τῆς πίστεως; μὴ γένοιτο, ἀλλὰ νόμον ἱστάνομεν.
+   - Vulgate: Legem ergo destruimus per fidem? Absit: sed legem statuimus.
+   - BSB: Do we, then, nullify the law by this faith? Certainly not! Instead, we uphold the law.
+   - WEB: Do we then nullify the law through faith? May it never be! No, we establish the law.
+- **4:1** substitute (word): critical *προπάτορα* ] RP *πατέρα*; add (word): critical *ἡμῶν* ] RP *+ εὑρηκέναι*
+   - Latin: Quid ergō dīcēmus, Abrāhāmum, nostrum (quod ad hūmānam nātūram attinet) parentem, cōnsecūtum esse?
+   - 1573: Quid ergo dicemus Abrahamum, nostrum quod ad humanam naturam attinet) parentem, consecutum esse?
+   - TR: Τί οὖν ἐροῦμεν Ἀβραὰμ τὸν πατέρα ἡμῶν εὑρηκέναι κατὰ σάρκα;
+   - SBLGNT: Τί οὖν ἐροῦμεν εὑρηκέναι Ἀβραὰμ τὸν προπάτορα ἡμῶν κατὰ σάρκα;
+   - Vulgate: Quid ergo dicemus invenisse Abraham patrem nostrum secundum carnem?
+   - BSB: What then shall we say that Abraham, our forefather, has discovered?
+   - WEB: What then will we say that Abraham, our forefather, has found according to the flesh?
+- **4:8** substitute (word): critical *οὗ* ] RP *ᾧ*
+   - Latin: Beātus homō, cui nōn imputat Deus peccātum.”
+   - 1573: Beatus homo, cui non imputat Deus peccatum.
+   - TR: Μακάριος ἀνὴρ ᾧ οὐ μὴ λογίσηται Κύριος ἁμαρτίαν.
+   - SBLGNT: μακάριος ἀνὴρ οὗ οὐ μὴ λογίσηται κύριος ἁμαρτίαν.
+   - Vulgate: Beatus vir, cui non imputavit Dominus peccatum.]
+   - BSB: Blessed is the man whose sin the Lord will never count against him.”
+   - WEB: Blessed is the man whom the Lord will by no means charge with sin.”
+- **7:13** substitute (word): critical *ἐγένετο* ] RP *γέγονεν*
+   - Latin: Ergō quod bonum est, id mihi mors fuit? Nēquāquam: sed peccātum, quod, ut appārēret peccātum, per bonum mihi mortem peperit, ut esset quam peccantissimum peccātum per præceptum.
+   - 1573: Ergo quod bonum est id mihi mors fuit. Nequaquam: sed peccatum, quod vt appareret peccatum, per bonum, mihi mortem peperit, vt esset quàm peccantissimum peccatum per præceptum.
+   - TR: Τὸ οὖν ἀγαθὸν ἐμοὶ γέγονε θάνατος; Μὴ γένοιτο. Ἀλλὰ ἡ ἁμαρτία, ἵνα φανῇ ἁμαρτία, διὰ τοῦ ἀγαθοῦ μοι κατεργαζομένη θάνατον — ἵνα γένηται καθ᾿ ὑπερβολὴν ἁμαρτωλὸς ἡ ἁμαρτία διὰ τῆς ἐντολῆς.
+   - SBLGNT: Τὸ οὖν ἀγαθὸν ἐμοὶ ἐγένετο θάνατος; μὴ γένοιτο· ἀλλὰ ἡ ἁμαρτία, ἵνα φανῇ ἁμαρτία διὰ τοῦ ἀγαθοῦ μοι κατεργαζομένη θάνατον· ἵνα γένηται καθʼ ὑπερβολὴν ἁμαρτωλὸς ἡ ἁμαρτία διὰ τῆς ἐντολῆς.
+   - Vulgate: Quod ergo bonum est, mihi factum est mors? Absit. Sed peccatum, ut appareat peccatum, per bonum operatum est mihi mortem: ut fiat supra modum peccans peccatum per mandatum.
+   - BSB: Did that which is good, then, become death to me? Certainly not! But in order that sin might be exposed as sin, it produced death in me through what was good, so that through the commandment sin might become utterly sinful.
+   - WEB: Did then that which is good become death to me? May it never be! But sin, that it might be shown to be sin, was producing death in me through that which is good; that through the commandment sin might become exceedingly sinful.
+- **7:18** add (word): critical *οὔ* ] RP *+ οὐχ εὑρίσκω*
+   - Latin: Sciō enim, nōn habitāre in mē, hoc est, in meā carne, bonum. Nam velle inest mihi: sed quōmodo bonum faciam, nōn inveniō.
+   - 1573: Scio enim, non habitare in me, hoc est in mea carne, bonum. Nam velle inest mihi: sed quomodo bonum faciam, non inuenio.
+   - TR: Οἶδα γὰρ ὅτι οὐκ οἰκεῖ ἐν ἐμοί, τοῦτ᾿ ἔστιν ἐν τῇ σαρκί μου, ἀγαθόν· τὸ γὰρ θέλειν παράκειταί μοι, τὸ δὲ κατεργάζεσθαι τὸ καλὸν οὐχ εὑρίσκω.
+   - SBLGNT: οἶδα γὰρ ὅτι οὐκ οἰκεῖ ἐν ἐμοί, τοῦτʼ ἔστιν ἐν τῇ σαρκί μου, ἀγαθόν· τὸ γὰρ θέλειν παράκειταί μοι, τὸ δὲ κατεργάζεσθαι τὸ καλὸν οὔ·
+   - Vulgate: Scio enim quia non habitat in me, hoc est in carne mea, bonum. Nam velle, adjacet mihi: perficere autem bonum, non invenio.
+   - BSB: I know that nothing good lives in me, that is, in my flesh; for I have the desire to do what is good, but I cannot carry it out.
+   - WEB: For I know that in me, that is, in my flesh, dwells no good thing. For desire is present with me, but I don’t find it doing that which is good.
+- **8:20** substitute (word): critical *ἐφʼ* ] RP *ἐπʼ*
+   - Latin: Nam vānitātī nātūra rērum subjecta est, nōn suā sponte, sed per eum, quī eam speī submīsit,
+   - 1573: Nam vanitati natura rerum subiecta est, non sua sponte, sed per eum qui eam spei submisit,
+   - TR: Τῇ γὰρ ματαιότητι ἡ κτίσις ὑπετάγη, οὐχ ἑκοῦσα, ἀλλὰ διὰ τὸν ὑποτάξαντα, ἐπ᾿ ἐλπίδι·
+   - SBLGNT: τῇ γὰρ ματαιότητι ἡ κτίσις ὑπετάγη, οὐχ ἑκοῦσα ἀλλὰ διὰ τὸν ὑποτάξαντα, ἐφʼ ἑλπίδι
+   - Vulgate: Vanitati enim creatura subjecta est non volens, sed propter eum, qui subjecit eam in spe:
+   - BSB: For the creation was subjected to futility, not by its own will, but because of the One who subjected it, in hope
+   - WEB: For the creation was subjected to vanity, not of its own will, but because of him who subjected it, in hope
+- **8:26** substitute (word): critical *τῇ ἀσθενείᾳ* ] RP *ταῖς ἀσθενείαις*
+   - Latin: Adde, quod Spīritus quoque nostrīs succurrit īnfirmitātibus. Nam quid ōrēmus, ut fierī dēbet, nescīmus: sed ipse Spīritus prō nōbīs supplicat gemitibus ineffābilibus.
+   - 1573: Adde, quòd spiritus quoque nostris succurrit infirmitatibus. Nam quid oremus, vt fieri debet, nescimus: sed ipse spiritus pro nobis supplicat gemitibus ineffabilibus.
+   - TR: Ὡσαύτως δὲ καὶ τὸ πνεῦμα συναντιλαμβάνεται ταῖς ἀσθενείαις ἡμῶν· τὸ γὰρ τί προσευξώμεθα καθὸ δεῖ, οὐκ οἴδαμεν, ἀλλ᾿ αὐτὸ τὸ πνεῦμα ὑπερεντυγχάνει ὑπὲρ ἡμῶν στεναγμοῖς ἀλαλήτοις·
+   - SBLGNT: Ὡσαύτως δὲ καὶ τὸ πνεῦμα συναντιλαμβάνεται τῇ ἀσθενείᾳ ἡμῶν· τὸ γὰρ τί προσευξώμεθα καθὸ δεῖ οὐκ οἴδαμεν, ἀλλὰ αὐτὸ τὸ πνεῦμα ὑπερεντυγχάνει στεναγμοῖς ἀλαλήτοις,
+   - Vulgate: Similiter autem et Spiritus adjuvat infirmitatem nostram: nam quid oremus, sicut oportet, nescimus: sed ipse Spiritus postulat pro nobis gemitibus inenarrabilibus.
+   - BSB: In the same way, the Spirit helps us in our weakness. For we do not know how we ought to pray, but the Spirit Himself intercedes for us with groans too deep for words.
+   - WEB: In the same way, the Spirit also helps our weaknesses, for we don’t know how to pray as we ought. But the Spirit himself makes intercession for us with groanings which can’t be uttered.
+- **9:11** substitute (word): critical *φαῦλον* ] RP *κακόν*
+   - Latin: fētibus nōndum nātīs, nec ūllō bonō malōve fūnctīs, ut Deī per ēlēctiōnem dēcrētum, nōn ex operibus, sed ex vocante ratum esset,
+   - 1573: fœtibus nondum natis nec vllo bono maloue functis, vt Dei per electionem decretum, non ex operibus, sed ex vocante ratum esset,
+   - TR: μήπω γὰρ γεννηθέντων, μηδὲ πραξάντων τι ἀγαθὸν ἢ κακόν, ἵνα ἡ κατ᾿ ἐκλογὴν τοῦ Θεοῦ πρόθεσις μένῃ, οὐκ ἐξ ἔργων, ἀλλ᾿ ἐκ τοῦ καλοῦντος,
+   - SBLGNT: μήπω γὰρ γεννηθέντων μηδὲ πραξάντων τι ἀγαθὸν ἢ φαῦλον, ἵνα ἡ κατʼ ἐκλογὴν πρόθεσις τοῦ θεοῦ μένῃ,
+   - Vulgate: Cum enim nondum nati fuissent, aut aliquid boni egissent, aut mali (ut secundum electionem propositum Dei maneret),
+   - BSB: Yet before the twins were born or had done anything good or bad, in order that God’s plan of election might stand,
+   - WEB: For being not yet born, neither having done anything good or bad, that the purpose of God according to election might stand, not of works, but of him who calls,
+- **9:27** substitute (word): critical *ὑπόλειμμα* ] RP *κατάλειμμα*
+   - Latin: Ēsāiās vērō sīc dē Isrāēlītīs vōciferātur: “Etiamsī fuerint Isrāēlītæ marīnā numerōsiōrēs arēnā, ēvādent tantum reliquiæ.
+   - 1573: Esaias verò sic de Israelitis vociferatur: Etiamsi fuerint Israelitæ marina numerosiores arena, euadent tantùm reliquiæ,
+   - TR: Ἠσαΐας δὲ κράζει ὑπὲρ τοῦ Ἰσραήλ, Ἐὰν ᾖ ὁ ἀριθμὸς τῶν υἱῶν Ἰσραὴλ ὡς ἡ ἄμμος τῆς θαλάσσης, τὸ κατάλειμμα σωθήσεται·
+   - SBLGNT: Ἠσαΐας δὲ κράζει ὑπὲρ τοῦ Ἰσραήλ· Ἐὰν ᾖ ὁ ἀριθμὸς τῶν υἱῶν Ἰσραὴλ ὡς ἡ ἄμμος τῆς θαλάσσης, τὸ ὑπόλειμμα σωθήσεται·
+   - Vulgate: Isaias autem clamat pro Israël: Si fuerit numerus filiorum Israël tamquam arena maris, reliquiæ salvæ fient.
+   - BSB: Isaiah cries out concerning Israel: “Though the number of the Israelites is like the sand of the sea, only the remnant will be saved.
+   - WEB: Isaiah cries concerning Israel, “If the number of the children of Israel are as the sand of the sea, it is the remnant who will be saved;
+- **9:31** add (word): critical *νόμον* ] RP *+ δικαιοσύνης*
+   - Latin: Isrāēlītās autem jūstitiæ lēgem persequentēs, ad jūstitiæ lēgem nōn pervēnisse.
+   - 1573: Israelitas autem Iustitiæ legem persequentes, ad iustitiæ legem non peruenisse.
+   - TR: Ἰσραὴλ δέ, διώκων νόμον δικαιοσύνης, εἰς νόμον δικαιοσύνης οὐκ ἔφθασε.
+   - SBLGNT: Ἰσραὴλ δὲ διώκων νόμον δικαιοσύνης εἰς νόμον οὐκ ἔφθασεν.
+   - Vulgate: Israël vero sectando legem justitiæ, in legem justitiæ non pervenit.
+   - BSB: but Israel, who pursued a law of righteousness, has not attained it.
+   - WEB: but Israel, following after a law of righteousness, didn’t arrive at the law of righteousness.
+- **9:32** add (word): critical *ἔργων* ] RP *+ νόμου*
+   - Latin: Cūr? Quoniam nōn per fidem, sed per lēgis opera. Impēgērunt enim in lapidem impāctōrium:
+   - 1573: Cur? Quoniam non per fidem, sed per legis opera. Impegerunt enim in lapidem impactorium:
+   - TR: Διὰ τί; Ὅτι οὐκ ἐκ πίστεως, ἀλλ᾿ ὡς ἐξ ἔργων νόμου· προσέκοψαν γὰρ τῷ λίθῳ τοῦ προσκόμματος,
+   - SBLGNT: διὰ τί; ὅτι οὐκ ἐκ πίστεως ἀλλʼ ὡς ἐξ ἔργων· προσέκοψαν τῷ λίθῳ τοῦ προσκόμματος,
+   - Vulgate: Quare? Quia non ex fide, sed quasi ex operibus: offenderunt enim in lapidem offensionis,
+   - BSB: Why not? Because their pursuit was not by faith, but as if it were by works. They stumbled over the stumbling stone,
+   - WEB: Why? Because they didn’t seek it by faith, but as it were by works of the law. They stumbled over the stumbling stone,
+- **9:33** add (word): critical *καὶ* ] RP *+ πᾶς*
+   - Latin: Quemadmodum scrīptum est: “Positūrus sum in Sīōne lapidem impāctōrium, et petram illīsōriam cui quīcumque cōnfīdet, nōn frūstrā erit.”
+   - 1573: quemadmodum scriptum est. Positurus sum in Sione lapidem impactorium, et petram illisoriam, cui quicunque confidet, non frustra erit.
+   - TR: καθὼς γέγραπται, Ἰδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου· καὶ πᾶς ὁ πιστεύων ἐπ᾿ αὐτῷ οὐ καταισχυνθήσεται.
+   - SBLGNT: καθὼς γέγραπται· Ἰδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου, καὶ ὁ πιστεύων ἐπʼ αὐτῷ οὐ καταισχυνθήσεται.
+   - Vulgate: sicut scriptum est: Ecce pono in Sion lapidem offensionis, et petram scandali: et omnis qui credit in eum, non confundetur.
+   - BSB: as it is written: “See, I lay in Zion a stone of stumbling and a rock of offense; and the one who believes in Him will never be put to shame.”
+   - WEB: even as it is written, “Behold, I lay in Zion a stumbling stone and a rock of offense; and no one who believes in him will be disappointed.”
+- **10:17** substitute (word): critical *Χριστοῦ* ] RP *θεοῦ*
+   - Latin: Ergō fidēs est ex audītiōne: audītiō autem ex dīvīnā ōrātiōne.
+   - 1573: Ergo fides est ex auditione: auditio autem ex diuina oratione.
+   - TR: Ἄρα ἡ πίστις ἐξ ἀκοῆς, ἡ δὲ ἀκοὴ διὰ ῥήματος Θεοῦ.
+   - SBLGNT: ἄρα ἡ πίστις ἐξ ἀκοῆς, ἡ δὲ ἀκοὴ διὰ ῥήματος Χριστοῦ.
+   - Vulgate: Ergo fides ex auditu, auditus autem per verbum Christi.
+   - BSB: Consequently, faith comes by hearing, and hearing by the word of Christ.
+   - WEB: So faith comes by hearing, and hearing by the word of God.
+- **11:2** add (word): critical *Ἰσραήλ* ] RP *+ λέγων*
+   - Latin: Nōn rejēcit Deus suum populum, quem prænōvit. An nescītis dē Ēlīā, quid dīcant litteræ, ut Deum contrā Isrāēlītās appellet?
+   - 1573: Non reiecit Deus suum populum, quem prænouit. An nescitis de Elia quid dicant literæ, vt Deum contra Israelitas appellet?
+   - TR: Οὐκ ἀπώσατο ὁ Θεὸς τὸν λαὸν αὐτοῦ ὃν προέγνω. Ἢ οὐκ οἴδατε ἐν Ἠλίᾳ τί λέγει ἡ γραφή; Ὡς ἐντυγχάνει τῷ Θεῷ κατὰ τοῦ Ἰσραήλ, λέγων,
+   - SBLGNT: οὐκ ἀπώσατο ὁ θεὸς τὸν λαὸν αὐτοῦ ὃν προέγνω. ἢ οὐκ οἴδατε ἐν Ἠλίᾳ τί λέγει ἡ γραφή, ὡς ἐντυγχάνει τῷ θεῷ κατὰ τοῦ Ἰσραήλ;
+   - Vulgate: non repulit Deus plebem suam, quam præscivit. An nescitis in Elia quid dicit Scriptura? quemadmodum interpellat Deum adversum Israël:
+   - BSB: God did not reject His people, whom He foreknew. Do you not know what the Scripture says about Elijah, how he appealed to God against Israel:
+   - WEB: God didn’t reject his people, whom he foreknew. Or don’t you know what the Scripture says about Elijah? How he pleads with God against Israel:
+- **11:20** substitute (word): critical *ὑψηλὰ φρόνει* ] RP *ὑψηλοφρόνει*
+   - Latin: Rēctē: diffīdentiā ēvulsī sunt: tū fidē stās: nē īnsolēsce, sed timē.
+   - 1573: Rectè. Diffidentia evulsi sunt: tu fide stas. Ne insolesce, sed time.
+   - TR: Καλῶς· τῇ ἀπιστίᾳ ἐξεκλάσθησαν, σὺ δὲ τῇ πίστει ἕστηκας. Μὴ ὑψηλοφρόνει, ἀλλὰ φοβοῦ·
+   - SBLGNT: καλῶς· τῇ ἀπιστίᾳ ἐξεκλάσθησαν, σὺ δὲ τῇ πίστει ἕστηκας. μὴ ὑψηλὰ φρόνει, ἀλλὰ φοβοῦ·
+   - Vulgate: Bene: propter incredulitatem fracti sunt. Tu autem fide stas: noli altum sapere, sed time.
+   - BSB: That is correct: They were broken off because of unbelief, but you stand by faith. Do not be arrogant, but be afraid.
+   - WEB: True; by their unbelief they were broken off, and you stand by your faith. Don’t be conceited, but fear;
+- **11:22** substitute (word): critical *χρηστότης θεοῦ* ] RP *χρηστότητα*
+   - Latin: Vidē ergō Deī benignitātem et sevēritātem: in lāpsōs sevēritātem, in tē benignitātem, sī modo in benignitāte permānseris. Aliōquin et tū resecāberis.
+   - 1573: Vide ergo Dei benignitatem et seueritatem: in lapsos seueritatem: in te benignitatem, si modò in benignitate permanseris. Alioquin et tu resecaberis:
+   - TR: Ἴδε οὖν χρηστότητα καὶ ἀποτομίαν Θεοῦ· ἐπὶ μὲν τοὺς πεσόντας, ἀποτομίαν· ἐπὶ δὲ σὲ, χρηστότητα, ἐὰν ἐπιμείνῃς τῇ χρηστότητι· ἐπεὶ καὶ σὺ ἐκκοπήσῃ.
+   - SBLGNT: ἴδε οὖν χρηστότητα καὶ ἀποτομίαν θεοῦ· ἐπὶ μὲν τοὺς πεσόντας ἀποτομία, ἐπὶ δὲ σὲ χρηστότης θεοῦ, ἐὰν ἐπιμένῃς τῇ χρηστότητι, ἐπεὶ καὶ σὺ ἐκκοπήσῃ.
+   - Vulgate: Vide ergo bonitatem, et severitatem Dei: in eos quidem qui ceciderunt, severitatem: in te autem bonitatem Dei, si permanseris in bonitate, alioquin et tu excideris.
+   - BSB: Take notice, therefore, of the kindness and severity of God: severity to those who fell, but kindness to you, if you continue in His kindness. Otherwise you also will be cut off.
+   - WEB: See then the goodness and severity of God. Toward those who fell, severity; but toward you, goodness, if you continue in his goodness; otherwise you also will be cut off.
+- **13:1** add (word): critical *οὖσαι* ] RP *+ ἐξουσίαι*
+   - Latin: Omnēs mortālēs superiōribus potestātibus pāreant. Nūlla est enim potestās, nisi ā Deō: ac quæ sunt potestātēs, eæ ā Deō sunt īnstitūtæ.
+   - 1573: Omnes mortales superioribus potestatibus pareant. Nulla est enim potestas, nisi à Deo: ac quæ sunt potestates, eæ à Deo sunt institutæ.
+   - TR: Πᾶσα ψυχὴ ἐξουσίαις ὑπερεχούσαις ὑποτασσέσθω· οὐ γάρ ἐστιν ἐξουσία εἰ μὴ ἀπὸ Θεοῦ, αἱ δὲ οὖσαι ἐξουσίαι ὑπὸ τοῦ Θεοῦ τεταγμέναι εἰσίν.
+   - SBLGNT: Πᾶσα ψυχὴ ἐξουσίαις ὑπερεχούσαις ὑποτασσέσθω, οὐ γὰρ ἔστιν ἐξουσία εἰ μὴ ὑπὸ θεοῦ, αἱ δὲ οὖσαι ὑπὸ θεοῦ τεταγμέναι εἰσίν.
+   - Vulgate: Omnis anima potestatibus sublimioribus subdita sit: non est enim potestas nisi a Deo: quæ autem sunt, a Deo ordinatæ sunt.
+   - BSB: Everyone must submit himself to the governing authorities, for there is no authority except that which is from God. The authorities that exist have been appointed by God.
+   - WEB: Let every soul be in subjection to the higher authorities, for there is no authority except from God, and those who exist are ordained by God.
+- **13:3** substitute (word): critical *τῷ ἀγαθῷ ἔργῳ* ] RP *τῶν ἀγαθῶν ἔργων*; substitute (word): critical *τῷ κακῷ* ] RP *τῶν κακῶν*
+   - Latin: Nōn enim rēctē factīs metuendī sunt magistrātūs, sed prāvē factīs. Vīs potestātem nōn timēre? benefacitō, et ab eā laudem cōnsequēris.
+   - 1573: non enim rectè factis metuendi sunt magistratus, sed prauè factis. Vis potestatem non timere? benefacito, et ab ea laudem consequeris.
+   - TR: Οἱ γὰρ ἄρχοντες οὐκ εἰσὶ φόβος τῶν ἀγαθῶν ἔργων, ἀλλὰ τῶν κακῶν. Θέλεις δὲ μὴ φοβεῖσθαι τὴν ἐξουσίαν; Τὸ ἀγαθὸν ποίει, καὶ ἕξεις ἔπαινον ἐξ αὐτῆς·
+   - SBLGNT: οἱ γὰρ ἄρχοντες οὐκ εἰσὶν φόβος τῷ ἀγαθῷ ἔργῳ ἀλλὰ τῷ κακῷ. θέλεις δὲ μὴ φοβεῖσθαι τὴν ἐξουσίαν; τὸ ἀγαθὸν ποίει, καὶ ἕξεις ἔπαινον ἐξ αὐτῆς·
+   - Vulgate: nam principes non sunt timori boni operis, sed mali. Vis autem non timere potestatem? Bonum fac: et habebis laudem ex illa:
+   - BSB: For rulers are not a terror to good conduct, but to bad. Do you want to be unafraid of the one in authority? Then do what is right, and you will have his approval.
+   - WEB: For rulers are not a terror to the good work, but to the evil. Do you desire to have no fear of the authority? Do that which is good, and you will have praise from the authority,
+- **14:4** substitute (word): critical *δυνατεῖ γὰρ* ] RP *δυνατὸς γάρ ἐστιν*; substitute (word): critical *κύριος* ] RP *θεὸς*
+   - Latin: Tū quis es, quī aliēnum famulum damnēs? suō dominō stat, aut cadit. Cōnsistet autem: potest enim Deus eum stabilīre.
+   - 1573: Tu quis es, qui alienum famulum damnes? Suo Domino stat, aut cadit. Consistet autem: potest enim Deus eum stabilire.
+   - TR: Σὺ τίς εἶ ὁ κρίνων ἀλλότριον οἰκέτην; Τῷ ἰδίῳ κυρίῳ στήκει ἢ πίπτει. Σταθήσεται δέ· δυνατὸς γάρ ἐστιν ὁ Θεὸς στῆσαι αὐτόν.
+   - SBLGNT: σὺ τίς εἶ ὁ κρίνων ἀλλότριον οἰκέτην; τῷ ἰδίῳ κυρίῳ στήκει ἢ πίπτει· σταθήσεται δέ, δυνατεῖ γὰρ ὁ κύριος στῆσαι αὐτόν.
+   - Vulgate: Tu quis es, qui judicas alienum servum? domino suo stat, aut cadit: stabit autem: potens est enim Deus statuere illum.
+   - BSB: Who are you to judge someone else’s servant? To his own master he stands or falls. And he will stand, for the Lord is able to make him stand.
+   - WEB: Who are you who judge another’s servant? To his own lord he stands or falls. Yes, he will be made to stand, for God has power to make him stand.
+- **14:9** add (word): critical *ἀπέθανεν* ] RP *+ καὶ ἀνέστη*
+   - Latin: Nam ideō Chrīstus et mortuus est, et resurrēxit ac revīxit, ut et mortuīs dominētur et vīvīs.
+   - 1573: Nam ideo Christus et mortuus est, et resurrexit ac reuixit, vt et mortuis dominetur, et viuis.
+   - TR: Εἰς τοῦτο γὰρ Χριστὸς καὶ ἀπέθανε καὶ ἀνέστη καὶ ἀνέζησεν, ἵνα καὶ νεκρῶν καὶ ζώντων κυριεύσῃ.
+   - SBLGNT: εἰς τοῦτο γὰρ Χριστὸς ἀπέθανεν καὶ ἔζησεν ἵνα καὶ νεκρῶν καὶ ζώντων κυριεύσῃ.
+   - Vulgate: In hoc enim Christus mortuus est, et resurrexit: ut et mortuorum et vivorum dominetur.
+   - BSB: For this reason Christ died and returned to life, that He might be the Lord of both the dead and the living.
+   - WEB: For to this end Christ died, rose, and lived again, that he might be Lord of both the dead and the living.
+- **14:10** substitute (word): critical *θεοῦ* ] RP *χριστοῦ*
+   - Latin: Tū vērō cūr tuum frātrem damnās? aut tū cūr tuum frātrem dēspicis? cum sīmus omnēs ad Chrīstī tribūnal adfutūrī?
+   - 1573: Tu verò cur tuum fratrem damnas? aut tu cur tuum fratrem despicis? cùm simus omnes ad Christi tribunal adfuturi?
+   - TR: Σὺ δὲ τί κρίνεις τὸν ἀδελφόν σου; Ἢ καὶ σὺ τί ἐξουθενεῖς τὸν ἀδελφόν σου; Πάντες γὰρ παραστησόμεθα τῷ βήματι τοῦ Χριστοῦ.
+   - SBLGNT: Σὺ δὲ τί κρίνεις τὸν ἀδελφόν σου; ἢ καὶ σὺ τί ἐξουθενεῖς τὸν ἀδελφόν σου; πάντες γὰρ παραστησόμεθα τῷ βήματι τοῦ θεοῦ,
+   - Vulgate: Tu autem quid judicas fratrem tuum? aut tu quare spernis fratrem tuum? omnes enim stabimus ante tribunal Christi.
+   - BSB: Why, then, do you judge your brother? Or why do you belittle your brother? For we will all stand before God’s judgment seat.
+   - WEB: But you, why do you judge your brother? Or you again, why do you despise your brother? For we will all stand before the judgment seat of Christ.
+- **14:22** omit (word): critical *ἣν* ] RP *–*
+   - Latin: Tū fidem habēs: apud tē habē, in Deī cōnspectū. Fēlīx, quī sē ipsum nōn damnat in eō, quod probat.
+   - 1573: Tu fidem habes: apud te habe, in Dei conspectu. Felix qui se ipsum non damnat, in eo quod probat.
+   - TR: Σὺ πίστιν ἔχεις; Κατὰ σαυτὸν ἔχε ἐνώπιον τοῦ Θεοῦ. Μακάριος ὁ μὴ κρίνων ἑαυτὸν ἐν ᾧ δοκιμάζει.
+   - SBLGNT: σὺ πίστιν ἣν ἔχεις κατὰ σεαυτὸν ἔχε ἐνώπιον τοῦ θεοῦ. μακάριος ὁ μὴ κρίνων ἑαυτὸν ἐν ᾧ δοκιμάζει·
+   - Vulgate: Tu fidem habes? penes temetipsum habe coram Deo. Beatus qui non judicat semetipsum in eo quod probat.
+   - BSB: Keep your belief about such matters between yourself and God. Blessed is the one who does not condemn himself by what he approves.
+   - WEB: Do you have faith? Have it to yourself before God. Happy is he who doesn’t judge himself in that which he approves.
+- **15:4** substitute (word): critical *ἐγράφη* ] RP *προεγράφη*
+   - Latin: Quæcumque enim ante scrīpta sunt, ad nostram doctrīnam scrīpta sunt, ut per patientiam, et litterārum cōnsōlātiōnem spem habeāmus.
+   - 1573: Quæcumque enim antè scripta sunt, ad nostram doctrinam scripta sunt, vt per patientiam, et literarum consolationem spem habeamus.
+   - TR: Ὅσα γὰρ προεγράφη, εἰς τὴν ἡμετέραν διδασκαλίαν προεγράφη, ἵνα διὰ τῆς ὑπομονῆς καὶ τῆς παρακλήσεως τῶν γραφῶν τὴν ἐλπίδα ἔχωμεν.
+   - SBLGNT: ὅσα γὰρ προεγράφη, εἰς τὴν ἡμετέραν διδασκαλίαν ἐγράφη, ἵνα διὰ τῆς ὑπομονῆς καὶ διὰ τῆς παρακλήσεως τῶν γραφῶν τὴν ἐλπίδα ἔχωμεν.
+   - Vulgate: Quæcumque enim scripta sunt, ad nostram doctrinam scripta sunt: ut per patientiam, et consolationem Scripturarum, spem habeamus.
+   - BSB: For everything that was written in the past was written for our instruction, so that through endurance and the encouragement of the Scriptures, we might have hope.
+   - WEB: For whatever things were written before were written for our learning, that through perseverance and through encouragement of the Scriptures we might have hope.
+- **15:8** add (word): critical *Χριστὸν* ] RP *+ Ἰησοῦν*
+   - Latin: Dīcō autem, Jēsum Chrīstum ministrum fuisse circumcīsiōnis propter Deī vēritātem, ad ea cōnfirmanda, quæ majōribus fuerant prōmissa:
+   - 1573: Dico autem, Iesum Christum ministrum fuisse circumcisionis propter Dei veritatem, ad ea confirmanda quæ maioribus fuerant promissa:
+   - TR: Λέγω δέ, Ἰησοῦν Χριστὸν διάκονον γεγενῆσθαι περιτομῆς ὑπὲρ ἀληθείας Θεοῦ, εἰς τὸ βεβαιῶσαι τὰς ἐπαγγελίας τῶν πατέρων·
+   - SBLGNT: λέγω γὰρ Χριστὸν διάκονον γεγενῆσθαι περιτομῆς ὑπὲρ ἀληθείας θεοῦ, εἰς τὸ βεβαιῶσαι τὰς ἐπαγγελίας τῶν πατέρων,
+   - Vulgate: Dico enim Christum Jesum ministrum fuisse circumcisionis propter veritatem Dei, ad confirmandas promissiones patrum:
+   - BSB: For I tell you that Christ has become a servant of the circumcised on behalf of God’s truth, to confirm the promises made to the patriarchs,
+   - WEB: Now I say that Christ has been made a servant of the circumcision for the truth of God, that he might confirm the promises given to the fathers,
+- **15:15** add (word): critical *ὑμῖν* ] RP *+ ἀδελφοί*
+   - Latin: Sed ideō vōbīs aliquantō audācius scrīpsī, frātrēs, ut vōs in memoriam revocārem, prō eō, quod in mē dīvīnitus collātum est, beneficiō.
+   - 1573: Sed ideo vobis aliquanto audacius scripsi, fratres, vt vos in memoriam reuocarem, pro eo quod in me diuinitus collatum est beneficio,
+   - TR: Τολμηρότερον δὲ ἔγραψα ὑμῖν, ἀδελφοί, ἀπὸ μέρους, ὡς ἐπαναμιμνῄσκων ὑμᾶς, διὰ τὴν χάριν τὴν δοθεῖσάν μοι ὑπὸ τοῦ Θεοῦ,
+   - SBLGNT: τολμηρότερον δὲ ἔγραψα ὑμῖν ἀπὸ μέρους, ὡς ἐπαναμιμνῄσκων ὑμᾶς, διὰ τὴν χάριν τὴν δοθεῖσάν μοι ὑπὸ τοῦ θεοῦ
+   - Vulgate: Audacius autem scripsi vobis fratres ex parte, tamquam in memoriam vos reducens: propter gratiam, quæ data est mihi a Deo,
+   - BSB: However, I have written you a bold reminder on some points, because of the grace God has given me
+   - WEB: But I write the more boldly to you in part as reminding you, because of the grace that was given to me by God,
+- **15:31** add (word): critical *καὶ* ] RP *+ ἵνα*
+   - Latin: ut eōs ēvādam, quī sunt in Jūdæā contumācēs: utque id, cujus administrandī grātiā Hierosolymam petō, grātum sit sānctīs.
+   - 1573: vt eos euadam qui sunt in Iudæa contumaces: vtque id, cuius administrandi gratia Hierosolymam peto, gratum sit sanctis,
+   - TR: ἵνα ῥυσθῶ ἀπὸ τῶν ἀπειθούντων ἐν τῇ Ἰουδαίᾳ, καὶ ἵνα ἡ διακονία μου ἡ εἰς Ἱερουσαλὴμ εὐπρόσδεκτος γένηται τοῖς ἁγίοις·
+   - SBLGNT: ἵνα ῥυσθῶ ἀπὸ τῶν ἀπειθούντων ἐν τῇ Ἰουδαίᾳ καὶ ἡ διακονία μου ἡ εἰς Ἰερουσαλὴμ εὐπρόσδεκτος τοῖς ἁγίοις γένηται,
+   - Vulgate: ut liberer ab infidelibus, qui sunt in Judæa, et obsequii mei oblatio accepta fiat in Jerusalem sanctis,
+   - BSB: Pray that I may be delivered from the unbelievers in Judea, and that my service in Jerusalem may be acceptable to the saints there,
+   - WEB: that I may be delivered from those who are disobedient in Judea, and that my service which I have for Jerusalem may be acceptable to the saints,
+- **16:16** omit (word): critical *πᾶσαι* ] RP *–*
+   - Latin: Salūtāte vōs inter vōs ōsculō sānctō. Salūtant vōs Chrīstī ecclēsiæ.
+   - 1573: Salutate vos inter vos osculo sancto. Salutant vos Christi ecclesiæ.
+   - TR: Ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τοῦ Χριστοῦ.
+   - SBLGNT: Ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι πᾶσαι τοῦ Χριστοῦ.
+   - Vulgate: Salutate invicem in osculo sancto. Salutant vos omnes ecclesiæ Christi.
+   - BSB: Greet one another with a holy kiss. All the churches of Christ send you greetings.
+   - WEB: Greet one another with a holy kiss. The assemblies of Christ greet you.
+- **16:18** add (word): critical *ἡμῶν* ] RP *+ Ἰησοῦ*
+   - Latin: Nam ejusmodī hominēs nōn Dominō Jēsū Chrīstō, sed suō ventrī serviunt, et blandā speciōsāque ōrātiōne fallunt animōs nōn malitiōsōrum.
+   - 1573: Nam eiusmodi homines non Domino Iesu Christo, sed suo ventri seruiunt, et blanda speciosaque oratione fallunt animos non malitiosorum,
+   - TR: Οἱ γὰρ τοιοῦτοι τῷ Κυρίῳ ἡμῶν Ἰησοῦ Χριστῷ οὐ δουλεύουσιν, ἀλλὰ τῇ ἑαυτῶν κοιλίᾳ· καὶ διὰ τῆς χρηστολογίας καὶ εὐλογίας ἐξαπατῶσι τὰς καρδίας τῶν ἀκάκων.
+   - SBLGNT: οἱ γὰρ τοιοῦτοι τῷ κυρίῳ ἡμῶν Χριστῷ οὐ δουλεύουσιν ἀλλὰ τῇ ἑαυτῶν κοιλίᾳ, καὶ διὰ τῆς χρηστολογίας καὶ εὐλογίας ἐξαπατῶσι τὰς καρδίας τῶν ἀκάκων.
+   - Vulgate: Hujuscemodi enim Christo Domino nostro non serviunt, sed suo ventri: et per dulces sermones et benedictiones seducunt corda innocentium.
+   - BSB: For such people are not serving our Lord Christ, but their own appetites. By smooth talk and flattery they deceive the hearts of the naive.
+   - WEB: For those who are such don’t serve our Lord Jesus Christ, but their own belly; and by their smooth and flattering speech they deceive the hearts of the innocent.
+
+## The TR alone (RP with the critical text; 36 verses)
+
+- **1:3** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: dē Fīliō suō, ortō ex Dāvīdis sēmine, quod ad carnem attinet:
+   - 1573: de filio suo, orto ex Dauidis semine quod ad carnem attinet:
+   - TR: περὶ τοῦ υἱοῦ αὐτοῦ, τοῦ γενομένου ἐκ σπέρματος Δαβὶδ κατὰ σάρκα,
+   - SBLGNT: περὶ τοῦ υἱοῦ αὐτοῦ, τοῦ γενομένου ἐκ σπέρματος Δαυὶδ κατὰ σάρκα,
+   - Vulgate: de Filio suo, qui factus est ei ex semine David secundum carnem,
+   - BSB: regarding His Son, who was a descendant of David according to the flesh,
+   - WEB: concerning his Son, who was born of the offspring of David according to the flesh,
+- **1:13** add (word): SBLGNT *–* ] TR *+ καρπον*; omit (word): SBLGNT *καρπον* ] TR *–*
+   - Latin: Nōlō enim vōs ignōrāre, frātrēs: mē sæpe statuisse adīre vōs (sed hāctenus prohibitus sum) ut profectum aliquem apud vōs quoque faciam, quemadmodum apud cēterās nātiōnēs.
+   - 1573: Nolo enim vos ignorare, fratres, me sæpe statuisse adire vos (sed hactenus prohibitus sum) vt profectum aliquem apud vos quoque faciam, quemadmodum apud cæteras nationes.
+   - TR: Οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, ὅτι πολλάκις προεθέμην ἐλθεῖν πρὸς ὑμᾶς — καὶ ἐκωλύθην ἄχρι τοῦ δεῦρο — ἵνα καρπόν τινα σχῶ καὶ ἐν ὑμῖν, καθὼς καὶ ἐν τοῖς λοιποῖς ἔθνεσιν.
+   - SBLGNT: οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, ὅτι πολλάκις προεθέμην ἐλθεῖν πρὸς ὑμᾶς, καὶ ἐκωλύθην ἄχρι τοῦ δεῦρο, ἵνα τινὰ καρπὸν σχῶ καὶ ἐν ὑμῖν καθὼς καὶ ἐν τοῖς λοιποῖς ἔθνεσιν.
+   - Vulgate: Nolo autem vos ignorare fratres: quia sæpe proposui venire ad vos (et prohibitus sum usque adhuc) ut aliquem fructum habeam et in vobis, sicut et in ceteris gentibus.
+   - BSB: I do not want you to be unaware, brothers, how often I planned to come to you (but have been prevented from visiting until now), in order that I might have a harvest among you, just as I have had among the other Gentiles.
+   - WEB: Now I don’t desire to have you unaware, brothers, that I often planned to come to you (and was hindered so far), that I might have some fruit among you also, even as among the rest of the Gentiles.
+- **1:21** substitute (word): SBLGNT *ηυχαριστησαν αλλα* ] TR *ευχαριστησαν αλλ*
+   - Latin: Quoniam, cognitō Deō, nōn eī dignam Deō glōriam grātiamque tribuērunt: sed vānīs cōgitātiōnibus ūsī sunt, cālīgāvitque eōrum īnsipiēns animus:
+   - 1573: quoniam cognito Deo, non ei dignam Deo gloriam gratiamque tribuerunt: sed vanis cogitationibus vsi sunt, caligauitque eorum insipiens animus:
+   - TR: διότι γνόντες τὸν Θεόν, οὐχ ὡς Θεὸν ἐδόξασαν ἢ εὐχαρίστησαν, ἀλλ᾿ ἐματαιώθησαν ἐν τοῖς διαλογισμοῖς αὐτῶν, καὶ ἐσκοτίσθη ἡ ἀσύνετος αὐτῶν καρδία.
+   - SBLGNT: διότι γνόντες τὸν θεὸν οὐχ ὡς θεὸν ἐδόξασαν ἢ ηὐχαρίστησαν, ἀλλὰ ἐματαιώθησαν ἐν τοῖς διαλογισμοῖς αὐτῶν καὶ ἐσκοτίσθη ἡ ἀσύνετος αὐτῶν καρδία·
+   - Vulgate: Quia cum cognovissent Deum, non sicut Deum glorificaverunt, aut gratias egerunt: sed evanuerunt in cogitationibus suis, et obscuratum est insipiens cor eorum:
+   - BSB: For although they knew God, they neither glorified Him as God nor gave thanks to Him, but they became futile in their thinking and darkened in their foolish hearts.
+   - WEB: Because knowing God, they didn’t glorify him as God, and didn’t give thanks, but became vain in their reasoning, and their senseless heart was darkened.
+- **4:6** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Quemadmodum Dāvīd quoque hominis beātitātem in eō statuit, sī eī Deus jūstitiam tribuat sine operibus:
+   - 1573: quemadmodum Dauid quoque hominis beatitatem in eo statuit, si ei Deus iustitiam tribuat sine operibus.
+   - TR: Καθάπερ καὶ Δαβὶδ λέγει τὸν μακαρισμὸν τοῦ ἀνθρώπου, ᾧ ὁ Θεὸς λογίζεται δικαιοσύνην χωρὶς ἔργων,
+   - SBLGNT: καθάπερ καὶ Δαυὶδ λέγει τὸν μακαρισμὸν τοῦ ἀνθρώπου ᾧ ὁ θεὸς λογίζεται δικαιοσύνην χωρὶς ἔργων·
+   - Vulgate: Sicut et David dicit beatitudinem hominis, cui Deus accepto fert justitiam sine operibus:
+   - BSB: And David speaks likewise of the blessedness of the man to whom God credits righteousness apart from works:
+   - WEB: Even as David also pronounces blessing on the man to whom God counts righteousness apart from works:
+- **4:19** add (word): SBLGNT *–* ] TR *+ ηδη*
+   - Latin: Itaque fidē nōn īnfirmus, nōn cōnsīderāvit suum corpus jam ēmortuum (quī propemodum centēnārius esset) aut ēnectam Saræ vulvam:
+   - 1573: Itaque fide non infirmus, non considerauit suum corpus iam emortuum (qui propemodum centenarius esset) aut enectam Saræ vuluam:
+   - TR: Καὶ μὴ ἀσθενήσας τῇ πίστει, οὐ κατενόησε τὸ ἑαυτοῦ σῶμα ἤδη νενεκρωμένον — ἑκατονταέτης που ὑπάρχων — καὶ τὴν νέκρωσιν τῆς μήτρας Σάρρας·
+   - SBLGNT: καὶ μὴ ἀσθενήσας τῇ πίστει κατενόησεν τὸ ἑαυτοῦ σῶμα νενεκρωμένον, ἑκατονταετής που ὑπάρχων, καὶ τὴν νέκρωσιν τῆς μήτρας Σάρρας,
+   - Vulgate: Et non infirmatus est fide, nec consideravit corpus suum emortuum, cum jam fere centum esset annorum, et emortuam vulvam Saræ.
+   - BSB: Without weakening in his faith, he acknowledged the decrepitness of his body (since he was about a hundred years old) and the lifelessness of Sarah’s womb.
+   - WEB: Without being weakened in faith, he didn’t consider his own body, already having been worn out, (he being about a hundred years old), and the deadness of Sarah’s womb.
+- **5:14** substitute (name): SBLGNT *μωυσεως* ] TR *μωσεως*
+   - Latin: Et tamen ab Ādamō ad Mōsem ūsque etiam in eōs, quī nōn peccāverant, rēgnāvit mors propter similitūdinem dēlictī Ādamī, quī futūrī exemplum est.
+   - 1573: et tamen ab Adamo ad Mosem vsque etiam in eos qui non peccauerant, regnauit mors propter similitudinem delicti Adami, qui futuri exemplum est.
+   - TR: Ἀλλ᾿ ἐβασίλευσεν ὁ θάνατος ἀπὸ Ἀδὰμ μέχρι Μωσέως καὶ ἐπὶ τοὺς μὴ ἁμαρτήσαντας ἐπὶ τῷ ὁμοιώματι τῆς παραβάσεως Ἀδάμ, ὅς ἐστι τύπος τοῦ μέλλοντος.
+   - SBLGNT: ἀλλὰ ἐβασίλευσεν ὁ θάνατος ἀπὸ Ἀδὰμ μέχρι Μωϋσέως καὶ ἐπὶ τοὺς μὴ ἁμαρτήσαντας ἐπὶ τῷ ὁμοιώματι τῆς παραβάσεως Ἀδάμ, ὅς ἐστιν τύπος τοῦ μέλλοντος.
+   - Vulgate: Sed regnavit mors ab Adam usque ad Moysen etiam in eos qui non peccaverunt in similitudinem prævaricationis Adæ, qui est forma futuri.
+   - BSB: Nevertheless, death reigned from Adam until Moses, even over those who did not sin in the way that Adam transgressed. He is a pattern of the One to come.
+   - WEB: Nevertheless death reigned from Adam until Moses, even over those whose sins weren’t like Adam’s disobedience, who is a foreshadowing of him who was to come.
+- **7:9** add (clause): SBLGNT *–* ] TR *+ εγω δε απεθανον*
+   - Latin: Ego vērō aliquandō sine lēge vīvēbam: sed adventū præceptī, peccātum revīxit.
+   - 1573: Ego verò aliquando sine lege viuebam. Sed aduentu præcepti, peccatum reuixit:
+   - TR: Ἐγὼ δὲ ἔζων χωρὶς νόμου ποτέ· ἐλθούσης δὲ τῆς ἐντολῆς, ἡ ἁμαρτία ἀνέζησεν, ἐγὼ δὲ ἀπέθανον·
+   - SBLGNT: ἐγὼ δὲ ἔζων χωρὶς νόμου ποτέ· ἐλθούσης δὲ τῆς ἐντολῆς ἡ ἁμαρτία ἀνέζησεν,
+   - Vulgate: Ego autem vivebam sine lege aliquando: sed cum venisset mandatum, peccatum revixit.
+   - BSB: Once I was alive apart from the law; but when the commandment came, sin sprang to life and I died.
+   - WEB: I was alive apart from the law once, but when the commandment came, sin revived and I died.
+- **7:10** omit (clause): SBLGNT *εγω δε απεθανον* ] TR *–*
+   - Latin: Ego mortuus sum: atque ita præceptum vītæ causā comparātum, compertum est mihi mortiferum.
+   - 1573: ego mortuus sum: atque ita præceptum vitæ causa comparatum, compertum est mihi mortiferum.
+   - TR: καὶ εὑρέθη μοι ἡ ἐντολὴ ἡ εἰς ζωήν, αὕτη εἰς θάνατον·
+   - SBLGNT: ἐγὼ δὲ ἀπέθανον, καὶ εὑρέθη μοι ἡ ἐντολὴ ἡ εἰς ζωὴν αὕτη εἰς θάνατον·
+   - Vulgate: Ego autem mortuus sum: et inventum est mihi mandatum, quod erat ad vitam, hoc esse ad mortem.
+   - BSB: So I discovered that the very commandment that was meant to bring life actually brought death.
+   - WEB: The commandment which was for life, this I found to be for death;
+- **7:20** add (word): SBLGNT *–* ] TR *+ εγω*
+   - Latin: Quod sī quod nōlō ego, id faciō, nōn jam ego id agō, sed habitāns in mē peccātum.
+   - 1573: Quòd si quod nolo ego, id facio, non iam ego id ago, sed habitans in me peccatum.
+   - TR: Εἰ δὲ ὃ οὐ θέλω ἐγώ, τοῦτο ποιῶ, οὐκέτι ἐγὼ κατεργάζομαι αὐτό, ἀλλ᾿ ἡ οἰκοῦσα ἐν ἐμοὶ ἁμαρτία.
+   - SBLGNT: εἰ δὲ ὃ οὐ θέλω τοῦτο ποιῶ, οὐκέτι ἐγὼ κατεργάζομαι αὐτὸ ἀλλὰ ἡ οἰκοῦσα ἐν ἐμοὶ ἁμαρτία.
+   - Vulgate: Si autem quod nolo, illud facio: jam non ego operor illud, sed quod habitat in me, peccatum.
+   - BSB: And if I do what I do not want, it is no longer I who do it, but it is sin living in me that does it.
+   - WEB: But if what I don’t desire, that I do, it is no more I that do it, but sin which dwells in me.
+- **7:25** substitute (word): SBLGNT *χαρις* ] TR *ευχαριστω*
+   - Latin: Agō Deō grātiās, per Jēsum Chrīstum Dominum nostrum. Ergō ego īdem et mente serviō lēgī Deī et carne lēgī peccātī.
+   - 1573: Ago Deo gratias, per Iesum Christum Dominum nostrum. Ergo ego idem et mente seruio legi Dei, et carne legi peccati.
+   - TR: Εὐχαριστῶ τῷ Θεῷ διὰ Ἰησοῦ Χριστοῦ τοῦ Κυρίου ἡμῶν. Ἄρα οὖν αὐτὸς ἐγὼ τῷ μὲν νοῒ δουλεύω νόμῳ Θεοῦ, τῇ δὲ σαρκὶ νόμῳ ἁμαρτίας.
+   - SBLGNT: χάρις τῷ θεῷ διὰ Ἰησοῦ Χριστοῦ τοῦ κυρίου ἡμῶν. Ἄρα οὖν αὐτὸς ἐγὼ τῷ μὲν νοῒ δουλεύω νόμῳ θεοῦ, τῇ δὲ σαρκὶ νόμῳ ἁμαρτίας.
+   - Vulgate: gratia Dei per Jesum Christum Dominum nostrum. Igitur ego ipse mente servio legi Dei: carne autem, legi peccati.
+   - BSB: Thanks be to God, through Jesus Christ our Lord! So then, with my mind I serve the law of God, but with my flesh I serve the law of sin.
+   - WEB: I thank God through Jesus Christ, our Lord! So then with the mind, I myself serve God’s law, but with the flesh, sin’s law.
+- **8:10** substitute (word): SBLGNT *δια* ] TR *δι*
+   - Latin: Sī vērō Chrīstus in vōbīs est, corpus quidem mortuum est per peccātum, sed spīritus vīvus est per jūstitiam.
+   - 1573: Si verò Christus in vobis est, corpus quidem mortuum est per peccatum, sed spiritus viuus est per iustitiam.
+   - TR: Εἰ δὲ Χριστὸς ἐν ὑμῖν, τὸ μὲν σῶμα νεκρὸν δι᾿ ἁμαρτίαν, τὸ δὲ πνεῦμα ζωὴ διὰ δικαιοσύνην.
+   - SBLGNT: εἰ δὲ Χριστὸς ἐν ὑμῖν, τὸ μὲν σῶμα νεκρὸν διὰ ἁμαρτίαν, τὸ δὲ πνεῦμα ζωὴ διὰ δικαιοσύνην.
+   - Vulgate: Si autem Christus in vobis est, corpus quidem mortuum est propter peccatum, spiritus vero vivit propter justificationem.
+   - BSB: But if Christ is in you, your body is dead because of sin, yet your spirit is alive because of righteousness.
+   - WEB: If Christ is in you, the body is dead because of sin, but the spirit is alive because of righteousness.
+- **8:11** add (word): SBLGNT *–* ] TR *+ τον χριστον*; omit (word): SBLGNT *χριστον ιησουν* ] TR *–*; substitute (word): SBLGNT *το ενοικουν* ] TR *του ενοικουντος*
+   - Latin: Quod sī Spīritus ejus, quī Jēsum ex mortuīs excitāvit, habitat in vōbīs, is, quī Chrīstum ex mortuīs excitāvit, etiam vestra mortālia corpora revocābit in vītam, per inhabitantem in vōbīs Spīritum suum.
+   - 1573: Quòd si spiritus eius qui Iesum ex mortuis excitauit, habitat in vobis, is qui Christum ex mortuis excitauit, etiam vestra mortalia corpora reuocabit in vitam, per inhabitantem in vobis spiritum suum.
+   - TR: Εἰ δὲ τὸ πνεῦμα τοῦ ἐγείραντος Ἰησοῦν ἐκ νεκρῶν οἰκεῖ ἐν ὑμῖν, ὁ ἐγείρας τὸν Χριστὸν ἐκ νεκρῶν ζῳοποιήσει καὶ τὰ θνητὰ σώματα ὑμῶν, διὰ τοῦ ἐνοικοῦντος αὐτοῦ πνεύματος ἐν ὑμῖν.
+   - SBLGNT: εἰ δὲ τὸ πνεῦμα τοῦ ἐγείραντος τὸν Ἰησοῦν ἐκ νεκρῶν οἰκεῖ ἐν ὑμῖν, ὁ ἐγείρας ἐκ νεκρῶν Χριστὸν Ἰησοῦν ζῳοποιήσει καὶ τὰ θνητὰ σώματα ὑμῶν διὰ τὸ ἐνοικοῦν αὐτοῦ πνεῦμα ἐν ὑμῖν.
+   - Vulgate: Quod si Spiritus ejus, qui suscitavit Jesum a mortuis, habitat in vobis: qui suscitavit Jesum Christum a mortuis, vivificabit et mortalia corpora vestra, propter inhabitantem Spiritum ejus in vobis.
+   - BSB: And if the Spirit of Him who raised Jesus from the dead is living in you, He who raised Christ Jesus from the dead will also give life to your mortal bodies through His Spirit, who lives in you.
+   - WEB: But if the Spirit of him who raised up Jesus from the dead dwells in you, he who raised up Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you.
+- **8:14** add (word): SBLGNT *–* ] TR *+ εισι*; omit (word): SBLGNT *εισι* ] TR *–*
+   - Latin: Nam quīcumque Deī Spīritū aguntur, iī Deī fīliī sunt.
+   - 1573: Nam quicumque Dei spiritu aguntur, ij Dei filij sunt,
+   - TR: Ὅσοι γὰρ πνεύματι Θεοῦ ἄγονται, οὗτοί εἰσιν υἱοὶ Θεοῦ.
+   - SBLGNT: ὅσοι γὰρ πνεύματι θεοῦ ἄγονται, οὗτοι υἱοί εἰσιν θεοῦ.
+   - Vulgate: Quicumque enim Spiritu Dei aguntur, ii sunt filii Dei.
+   - BSB: For all who are led by the Spirit of God are sons of God.
+   - WEB: For as many as are led by the Spirit of God, these are children of God.
+- **8:27** substitute (word): SBLGNT *εραυνων* ] TR *ερευνων*
+   - Latin: Animōrum autem indāgātor nōvit, quæ sit Spīritūs affectiō, quī quidem sīc, ut Deus postulat, prō sānctīs ōret.
+   - 1573: Animorum autem indagator nouit quæ sit Spiritus affectio, qui quidem sic, vt Deus postulat, pro sanctis oret.
+   - TR: ὁ δὲ ἐρευνῶν τὰς καρδίας οἶδε τί τὸ φρόνημα τοῦ πνεύματος, ὅτι κατὰ Θεὸν ἐντυγχάνει ὑπὲρ ἁγίων.
+   - SBLGNT: ὁ δὲ ἐραυνῶν τὰς καρδίας οἶδεν τί τὸ φρόνημα τοῦ πνεύματος, ὅτι κατὰ θεὸν ἐντυγχάνει ὑπὲρ ἁγίων.
+   - Vulgate: Qui autem scrutatur corda, scit quid desideret Spiritus: quia secundum Deum postulat pro sanctis.
+   - BSB: And He who searches our hearts knows the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God.
+   - WEB: He who searches the hearts knows what is on the Spirit’s mind, because he makes intercession for the saints according to God.
+- **9:11** omit (word): SBLGNT *προθεσις* ] TR *–*; add (word): SBLGNT *–* ] TR *+ προθεσις*; add (clause): SBLGNT *–* ] TR *+ ουκ εξ εργων αλλ εκ του καλουντος*
+   - Latin: fētibus nōndum nātīs, nec ūllō bonō malōve fūnctīs, ut Deī per ēlēctiōnem dēcrētum, nōn ex operibus, sed ex vocante ratum esset,
+   - 1573: fœtibus nondum natis nec vllo bono maloue functis, vt Dei per electionem decretum, non ex operibus, sed ex vocante ratum esset,
+   - TR: μήπω γὰρ γεννηθέντων, μηδὲ πραξάντων τι ἀγαθὸν ἢ κακόν, ἵνα ἡ κατ᾿ ἐκλογὴν τοῦ Θεοῦ πρόθεσις μένῃ, οὐκ ἐξ ἔργων, ἀλλ᾿ ἐκ τοῦ καλοῦντος,
+   - SBLGNT: μήπω γὰρ γεννηθέντων μηδὲ πραξάντων τι ἀγαθὸν ἢ φαῦλον, ἵνα ἡ κατʼ ἐκλογὴν πρόθεσις τοῦ θεοῦ μένῃ,
+   - Vulgate: Cum enim nondum nati fuissent, aut aliquid boni egissent, aut mali (ut secundum electionem propositum Dei maneret),
+   - BSB: Yet before the twins were born or had done anything good or bad, in order that God’s plan of election might stand,
+   - WEB: For being not yet born, neither having done anything good or bad, that the purpose of God according to election might stand, not of works, but of him who calls,
+- **9:12** substitute (word): SBLGNT *ουκ εξ εργων αλλ εκ του καλουντος ερρεθη* ] TR *ερρηθη*
+   - Latin: Rebeccæ, inquam, dictum est: “Major serviet minōrī.”
+   - 1573: Rebeccæ inquam dictum est: Maior seruiet minori.
+   - TR: ἐρρήθη αὐτῇ ὅτι Ὁ μείζων δουλεύσει τῷ ἐλάσσονι.
+   - SBLGNT: οὐκ ἐξ ἔργων ἀλλʼ ἐκ τοῦ καλοῦντος, ἐρρέθη αὐτῇ ὅτι Ὁ μείζων δουλεύσει τῷ ἐλάσσονι·
+   - Vulgate: non ex operibus, sed ex vocante dictum est ei quia major serviet minori,
+   - BSB: not by works but by Him who calls, she was told, “The older will serve the younger.”
+   - WEB: it was said to her, “The elder will serve the younger.”
+- **9:15** add (word): SBLGNT *–* ] TR *+ μωση*
+   - Latin: Mōsī enim dīcit: “Grātiam faciō, et misericordiam tribuō, cuicumque mihi collibitum est.”
+   - 1573: Mosi enim dicit: Gratiam facio, et misericordiam tribuo, cuicunque mihi collibitum est.
+   - TR: Τῷ γὰρ Μωσῇ λέγει, Ἐλεήσω ὃν ἂν ἐλεῶ, καὶ οἰκτειρήσω ὃν ἂν οἰκτείρω.
+   - SBLGNT: τῷ Μωϋσεῖ γὰρ λέγει· Ἐλεήσω ὃν ἂν ἐλεῶ, καὶ οἰκτιρήσω ὃν ἂν οἰκτίρω.
+   - Vulgate: Moysi enim dicit: Miserebor cujus misereor: et misericordiam præstabo cujus miserebor.
+   - BSB: For He says to Moses: “I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.”
+   - WEB: For he said to Moses, “I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.”
+- **9:16** substitute (word): SBLGNT *ελεωντος* ] TR *ελεουντος*
+   - Latin: Ergō nōn est volentis, neque currentis, sed grātiam facientis Deī.
+   - 1573: Ergo non est volentis, neque currentis, sed gratiam facientis Dei.
+   - TR: Ἄρα οὖν οὐ τοῦ θέλοντος, οὐδὲ τοῦ τρέχοντος, ἀλλὰ τοῦ ἐλεοῦντος Θεοῦ.
+   - SBLGNT: ἄρα οὖν οὐ τοῦ θέλοντος οὐδὲ τοῦ τρέχοντος ἀλλὰ τοῦ ἐλεῶντος θεοῦ.
+   - Vulgate: Igitur non volentis, neque currentis, sed miserentis est Dei.
+   - BSB: So then, it does not depend on man’s desire or effort, but on God’s mercy.
+   - WEB: So then it is not of him who wills, nor of him who runs, but of God who has mercy.
+- **9:26** substitute (word): SBLGNT *ερρεθη* ] TR *ερρηθη*
+   - Latin: Ac quō locō negātī fuerint, meus esse populus, illīc Deī vīventis fīliī vocābuntur.”
+   - 1573: ac quo loco negati fuerint meus esse populus, illic Dei viuentis filij vocabuntur.
+   - TR: Καὶ ἔσται, ἐν τῷ τόπῳ οὗ ἐρρήθη αὐτοῖς, Οὐ λαός μου ὑμεῖς, ἐκεῖ κληθήσονται υἱοὶ Θεοῦ ζῶντος.
+   - SBLGNT: καὶ ἔσται ἐν τῷ τόπῳ οὗ ἐρρέθη αὐτοῖς· Οὐ λαός μου ὑμεῖς, ἐκεῖ κληθήσονται υἱοὶ θεοῦ ζῶντος.
+   - Vulgate: Et erit: in loco, ubi dictum est eis: Non plebs mea vos: ibi vocabuntur filii Dei vivi.
+   - BSB: and, “It will happen that in the very place where it was said to them, ‘You are not My people,’ they will be called ‘sons of the living God.’”
+   - WEB: “It will be that in the place where it was said to them, ‘You are not my people,’ there they will be called ‘children of the living God.’”
+- **10:3** add (word): SBLGNT *–* ] TR *+ δικαιοσυνην*
+   - Latin: Ignōrantēs enim dīvīnam jūstitiam, suam autem jūstitiam statuere cōnantēs, dīvīnæ jūstitiæ nōn subjiciuntur.
+   - 1573: Ignorantes enim diuinam iustitiam, suam autem iustitiam statuere conantes, diuinæ iustitiæ non subijciuntur.
+   - TR: Ἀγνοοῦντες γὰρ τὴν τοῦ Θεοῦ δικαιοσύνην, καὶ τὴν ἰδίαν δικαιοσύνην ζητοῦντες στῆσαι, τῇ δικαιοσύνῃ τοῦ Θεοῦ οὐχ ὑπετάγησαν.
+   - SBLGNT: ἀγνοοῦντες γὰρ τὴν τοῦ θεοῦ δικαιοσύνην, καὶ τὴν ἰδίαν ζητοῦντες στῆσαι, τῇ δικαιοσύνῃ τοῦ θεοῦ οὐχ ὑπετάγησαν·
+   - Vulgate: Ignorantes enim justitiam Dei, et suam quærentes statuere, justitiæ Dei non sunt subjecti.
+   - BSB: Because they were ignorant of God’s righteousness and sought to establish their own, they did not submit to God’s righteousness.
+   - WEB: For being ignorant of God’s righteousness, and seeking to establish their own righteousness, they didn’t subject themselves to the righteousness of God.
+- **10:5** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Nam dē eā quidem jūstitiā, quæ in lēge sita est, scrībit Mōsēs, hominem, quī jussa præstiterit, vīctūrum esse per ea.
+   - 1573: Nam de ea quidem iustitia, quæ in lege sita est, scribit Moses, hominem, qui iussa præstiterit, victurum esse per ea.
+   - TR: Μωσῆς γὰρ γράφει τὴν δικαιοσύνην τὴν ἐκ τοῦ νόμου, ὅτι ὁ ποιήσας αὐτὰ ἄνθρωπος ζήσεται ἐν αὐτοῖς.
+   - SBLGNT: Μωϋσῆς γὰρ γράφει ὅτι τὴν δικαιοσύνην τὴν ἐκ τοῦ νόμου ὁ ποιήσας ἄνθρωπος ζήσεται ἐν αὐτῇ.
+   - Vulgate: Moyses enim scripsit, quoniam justitiam, quæ ex lege est, qui fecerit homo, vivet in ea.
+   - BSB: For concerning the righteousness that is by the law, Moses writes: “The man who does these things will live by them.”
+   - WEB: For Moses writes about the righteousness of the law, “The one who does them will live by them.”
+- **10:19** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*; substitute (word): SBLGNT *επ* ] TR *επι*
+   - Latin: Sed annōn nōvērunt Isrāēlītæ? inquam. Prīmus Mōsēs dīcit: “Ego vōs per nōn gentem prōvocābō: vōs per imperītam gentem irrītābō.”
+   - 1573: Sed an non nouerunt Israelitæ? inquam. Primus Moses dicit: Ego vos per non gentem prouocabo: vos per imperitam gentem irritabo.
+   - TR: Ἀλλὰ λέγω, μὴ οὐκ ἔγνω Ἰσραήλ; Πρῶτος Μωσῆς λέγει, Ἐγὼ παραζηλώσω ὑμᾶς ἐπ᾿ οὐκ ἔθνει, ἐπὶ ἔθνει ἀσυνέτῳ παροργιῶ ὑμᾶς.
+   - SBLGNT: ἀλλὰ λέγω, μὴ Ἰσραὴλ οὐκ ἔγνω; πρῶτος Μωϋσῆς λέγει· Ἐγὼ παραζηλώσω ὑμᾶς ἐπʼ οὐκ ἔθνει, ἐπʼ ἔθνει ἀσυνέτῳ παροργιῶ ὑμᾶς.
+   - Vulgate: Sed dico: Numquid Israël non cognovit? Primus Moyses dicit: Ego ad æmulationem vos adducam in non gentem: in gentem insipientem, in iram vos mittam.
+   - BSB: I ask instead, did Israel not understand? First, Moses says: “I will make you jealous by those who are not a nation; I will make you angry by a nation without understanding.”
+   - WEB: But I ask, didn’t Israel know? First Moses says, “I will provoke you to jealousy with that which is no nation. I will make you angry with a nation void of understanding.”
+- **11:9** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Item Dāvīd dīcit: “Sit iīs ipsōrum mēnsa laqueus, et dēcipula, et offendiculum, atque supplicium.
+   - 1573: Item Dauid dicit: Sit eis ipsorum mensa laqueus et decipula, et offendiculum atque supplicium.
+   - TR: Καὶ Δαβὶδ λέγει, Γενηθήτω ἡ τράπεζα αὐτῶν εἰς παγίδα καὶ εἰς θήραν, καὶ εἰς σκάνδαλον, καὶ εἰς ἀνταπόδομα αὐτοῖς·
+   - SBLGNT: καὶ Δαυὶδ λέγει· Γενηθήτω ἡ τράπεζα αὐτῶν εἰς παγίδα καὶ εἰς θήραν καὶ εἰς σκάνδαλον καὶ εἰς ἀνταπόδομα αὐτοῖς,
+   - Vulgate: Et David dicit: Fiat mensa eorum in laqueum, et in captionem, et in scandalum, et in retributionem illis.
+   - BSB: And David says: “May their table become a snare and a trap, a stumbling block and a retribution to them.
+   - WEB: David says, “Let their table be made a snare, a trap, a stumbling block, and a retribution to them.
+- **11:21** add (word): SBLGNT *–* ] TR *+ μηπως*
+   - Latin: Sī enim Deus nātūrālibus rāmīs nōn pepercit, quid sī nē tibi quidem parcat?
+   - 1573: Si enim Deus naturalibus ramis non pepercit, quid si ne tibi quidem parcat?
+   - TR: εἰ γὰρ ὁ Θεὸς τῶν κατὰ φύσιν κλάδων οὐκ ἐφείσατο, μήπως οὐδέ σου φείσηται.
+   - SBLGNT: εἰ γὰρ ὁ θεὸς τῶν κατὰ φύσιν κλάδων οὐκ ἐφείσατο, οὐδὲ σοῦ φείσεται.
+   - Vulgate: Si enim Deus naturalibus ramis non pepercit: ne forte nec tibi parcat.
+   - BSB: For if God did not spare the natural branches, He will certainly not spare you either.
+   - WEB: for if God didn’t spare the natural branches, neither will he spare you.
+- **11:23** substitute (word): SBLGNT *κακεινοι* ] TR *και εκεινοι*
+   - Latin: Et illī, nisi in diffīdentiā permānserint, īnserentur. Potest enim Deus eōs rūrsus īnserere.
+   - 1573: et illi, nisi in diffidentia permanserint, inserentur. Potest enim Deus eos rursus inserere.
+   - TR: Καὶ ἐκεῖνοι δέ, ἐὰν μὴ ἐπιμείνωσι τῇ ἀπιστίᾳ, ἐγκεντρισθήσονται· δυνατὸς γάρ ἐστιν ὁ Θεός πάλιν ἐγκεντρίσαι αὐτούς.
+   - SBLGNT: κἀκεῖνοι δέ, ἐὰν μὴ ἐπιμένωσι τῇ ἀπιστίᾳ, ἐγκεντρισθήσονται· δυνατὸς γάρ ἐστιν ὁ θεὸς πάλιν ἐγκεντρίσαι αὐτούς.
+   - Vulgate: Sed et illi, si non permanserint in incredulitate, inserentur: potens est enim Deus iterum inserere illos.
+   - BSB: And if they do not persist in unbelief, they will be grafted in, for God is able to graft them in again.
+   - WEB: They also, if they don’t continue in their unbelief, will be grafted in, for God is able to graft them in again.
+- **11:25** add (word): SBLGNT *–* ] TR *+ παρ*
+   - Latin: Nōlō enim vōs ignōrāre, frātrēs, arcānum hoc, nē ipsī vōbīs placeātis: cæcitātem ex parte Isrāēlītīs contigisse, dōnec cēterārum gentium plēnus intret numerus:
+   - 1573: Nolo enim vos ignorare, fratres, arcanum hoc, ne ipsi vobis placeatis: cæcitatem ex parte Israelitis contigisse, donec cæterarum gentium plenus intret numerus:
+   - TR: Οὐ γὰρ θέλω ὑμᾶς ἀγνοεῖν, ἀδελφοί, τὸ μυστήριον τοῦτο, ἵνα μὴ ἦτε παρ᾿ ἑαυτοῖς φρόνιμοι, ὅτι πώρωσις ἀπὸ μέρους τῷ Ἰσραὴλ γέγονεν, ἄχρις οὗ τὸ πλήρωμα τῶν ἐθνῶν εἰσέλθῃ·
+   - SBLGNT: Οὐ γὰρ θέλω ὑμᾶς ἀγνοεῖν, ἀδελφοί, τὸ μυστήριον τοῦτο, ἵνα μὴ ἦτε ἑαυτοῖς φρόνιμοι, ὅτι πώρωσις ἀπὸ μέρους τῷ Ἰσραὴλ γέγονεν ἄχρι οὗ τὸ πλήρωμα τῶν ἐθνῶν εἰσέλθῃ,
+   - Vulgate: Nolo enim vos ignorare, fratres, mysterium hoc (ut non sitis vobis ipsis sapientes), quia cæcitas ex parte contigit in Israël, donec plenitudo gentium intraret,
+   - BSB: I do not want you to be ignorant of this mystery, brothers, so that you will not be conceited: A hardening in part has come to Israel, until the full number of the Gentiles has come in.
+   - WEB: For I don’t desire you to be ignorant, brothers, of this mystery, so that you won’t be wise in your own conceits, that a partial hardening has happened to Israel, until the fullness of the Gentiles has come in,
+- **13:2** substitute (word): SBLGNT *λημψονται* ] TR *ληψονται*
+   - Latin: Itaque quī potestātī repugnat, Deī īnstitūtiōnī resistit: quīque restiterint, pœnās dabunt.
+   - 1573: Itaque qui potestati repugnat, Dei institutioni resistit: quique restiterint, pœnas dabunt.
+   - TR: Ὥστε ὁ ἀντιτασσόμενος τῇ ἐξουσίᾳ, τῇ τοῦ Θεοῦ διαταγῇ ἀνθέστηκεν· οἱ δὲ ἀνθεστηκότες ἑαυτοῖς κρίμα λήψονται.
+   - SBLGNT: ὥστε ὁ ἀντιτασσόμενος τῇ ἐξουσίᾳ τῇ τοῦ θεοῦ διαταγῇ ἀνθέστηκεν, οἱ δὲ ἀνθεστηκότες ἑαυτοῖς κρίμα λήμψονται.
+   - Vulgate: Itaque qui resistit potestati, Dei ordinationi resistit. Qui autem resistunt, ipsi sibi damnationem acquirunt:
+   - BSB: Consequently, whoever resists authority is opposing what God has set in place, and those who do so will bring judgment on themselves.
+   - WEB: Therefore he who resists the authority withstands the ordinance of God; and those who withstand will receive to themselves judgment.
+- **13:9** add (word): SBLGNT *–* ] TR *+ ου ψευδομαρτυρησεις*; substitute (word): SBLGNT *σεαυτον* ] TR *εαυτον*
+   - Latin: Etenim, “Nē adulterātō, nē occīditō, nē fūrātor, nē falsum testātor, nē concupīscitō,” et sī quod aliud præceptum est, id in hōc dictō summātim comprehenditur: “Alterum ut tē ipsum amātō.”
+   - 1573: Etenim, Ne adulterato, Ne occidito, Ne furator, Ne falsum testator, Ne concupiscito, et si quod aliud præceptum est, id in hoc dicto summatim comprehenditur: Alterum vt te ipsum amato.
+   - TR: Τὸ γάρ, Οὐ μοιχεύσεις, οὐ φονεύσεις, οὐ κλέψεις, οὐ ψευδομαρτυρήσεις, οὐκ ἐπιθυμήσεις, καὶ εἴ τις ἑτέρα ἐντολή, ἐν τούτῳ τῷ λόγῳ ἀνακεφαλαιοῦται, ἐν τῷ, Ἀγαπήσεις τὸν πλησίον σου ὡς ἑαυτόν.
+   - SBLGNT: τὸ γάρ· Οὐ μοιχεύσεις, Οὐ φονεύσεις, Οὐ κλέψεις, Οὐκ ἐπιθυμήσεις, καὶ εἴ τις ἑτέρα ἐντολή, ἐν τῷ λόγῳ τούτῳ ἀνακεφαλαιοῦται, ἐν τῷ· Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.
+   - Vulgate: Nam: Non adultabis: non occides: non furaberis: non falsum testimonium dices: non concupisces: et si quod est aliud mandatum, in hoc verbo instauratur: diliges proximum tuum sicut teipsum.
+   - BSB: The commandments “Do not commit adultery,” “Do not murder,” “Do not steal,” “Do not covet,” and any other commandments, are summed up in this one decree: “Love your neighbor as yourself.”
+   - WEB: For the commandments, “You shall not commit adultery,” “You shall not murder,” “You shall not steal,” “You shall not covet,” and whatever other commandments there are, are all summed up in this saying, namely, “You shall love your neighbor as yourself.”
+- **13:12** substitute (word): SBLGNT *αποβαλωμεθα* ] TR *αποθωμεθα*
+   - Latin: Discessit nox, diēs adest. Quārē dēpōnāmus opera tenebrārum, et induāmus arma lūcis.
+   - 1573: Discessit nox, dies adest. Quare deponamus opera tenebrarum, et induamus arma lucis.
+   - TR: Ἡ νὺξ προέκοψεν, ἡ δὲ ἡμέρα ἤγγικεν· ἀποθώμεθα οὖν τὰ ἔργα τοῦ σκότους, καὶ ἐνδυσώμεθα τὰ ὅπλα τοῦ φωτός.
+   - SBLGNT: ἡ νὺξ προέκοψεν, ἡ δὲ ἡμέρα ἤγγικεν. ἀποβαλώμεθα οὖν τὰ ἔργα τοῦ σκότους, ἐνδυσώμεθα δὲ τὰ ὅπλα τοῦ φωτός.
+   - Vulgate: Nox præcessit, dies autem appropinquavit. Abjiciamus ergo opera tenebrarum, et induamur arma lucis.
+   - BSB: The night is nearly over; the day has drawn near. So let us lay aside the deeds of darkness and put on the armor of light.
+   - WEB: The night is far gone, and the day is near. Let’s therefore throw off the deeds of darkness, and let’s put on the armor of light.
+- **14:9** substitute (word): SBLGNT *εζησε* ] TR *ανεστη και ανεζησε*
+   - Latin: Nam ideō Chrīstus et mortuus est, et resurrēxit ac revīxit, ut et mortuīs dominētur et vīvīs.
+   - 1573: Nam ideo Christus et mortuus est, et resurrexit ac reuixit, vt et mortuis dominetur, et viuis.
+   - TR: Εἰς τοῦτο γὰρ Χριστὸς καὶ ἀπέθανε καὶ ἀνέστη καὶ ἀνέζησεν, ἵνα καὶ νεκρῶν καὶ ζώντων κυριεύσῃ.
+   - SBLGNT: εἰς τοῦτο γὰρ Χριστὸς ἀπέθανεν καὶ ἔζησεν ἵνα καὶ νεκρῶν καὶ ζώντων κυριεύσῃ.
+   - Vulgate: In hoc enim Christus mortuus est, et resurrexit: ut et mortuorum et vivorum dominetur.
+   - BSB: For this reason Christ died and returned to life, that He might be the Lord of both the dead and the living.
+   - WEB: For to this end Christ died, rose, and lived again, that he might be Lord of both the dead and the living.
+- **14:12** add (word): SBLGNT *–* ] TR *+ τω θεω*
+   - Latin: Itaque nostrum quisque causam prō sē dīcet apud Deum.
+   - 1573: Itaque nostrum quisque causam pro se dicet apud Deum.
+   - TR: Ἄρα οὖν ἕκαστος ἡμῶν περὶ ἑαυτοῦ λόγον δώσει τῷ Θεῷ.
+   - SBLGNT: ἄρα ἕκαστος ἡμῶν περὶ ἑαυτοῦ λόγον δώσει.
+   - Vulgate: Itaque unusquisque nostrum pro se rationem reddet Deo.
+   - BSB: So then, each of us will give an account of himself to God.
+   - WEB: So then each one of us will give account of himself to God.
+- **14:22** substitute (word): SBLGNT *σεαυτον* ] TR *σαυτον*
+   - Latin: Tū fidem habēs: apud tē habē, in Deī cōnspectū. Fēlīx, quī sē ipsum nōn damnat in eō, quod probat.
+   - 1573: Tu fidem habes: apud te habe, in Dei conspectu. Felix qui se ipsum non damnat, in eo quod probat.
+   - TR: Σὺ πίστιν ἔχεις; Κατὰ σαυτὸν ἔχε ἐνώπιον τοῦ Θεοῦ. Μακάριος ὁ μὴ κρίνων ἑαυτὸν ἐν ᾧ δοκιμάζει.
+   - SBLGNT: σὺ πίστιν ἣν ἔχεις κατὰ σεαυτὸν ἔχε ἐνώπιον τοῦ θεοῦ. μακάριος ὁ μὴ κρίνων ἑαυτὸν ἐν ᾧ δοκιμάζει·
+   - Vulgate: Tu fidem habes? penes temetipsum habe coram Deo. Beatus qui non judicat semetipsum in eo quod probat.
+   - BSB: Keep your belief about such matters between yourself and God. Blessed is the one who does not condemn himself by what he approves.
+   - WEB: Do you have faith? Have it to yourself before God. Happy is he who doesn’t judge himself in that which he approves.
+- **15:19** add (word): SBLGNT *–* ] TR *+ θεου*
+   - Latin: Tantā prōdigiōrum ac mīrāculōrum, tantā dīvīnī Spīritūs vī, ut ā Hierosolymā per circuitum, ūsque ad Illyricum, omnia Chrīstī euangeliō replēverim:
+   - 1573: tanta prodigiorum ac miraculorum, tanta diuini spiritus vi, vt à Hierosolyma per circuitum, vsque ad Illyricum, omnia Christi Euangelio repleuerim:
+   - TR: ἐν δυνάμει σημείων καὶ τεράτων, ἐν δυνάμει πνεύματος Θεοῦ· ὥστε με ἀπὸ Ἱερουσαλὴμ καὶ κύκλῳ μέχρι τοῦ Ἰλλυρικοῦ πεπληρωκέναι τὸ εὐαγγέλιον τοῦ Χριστοῦ·
+   - SBLGNT: ἐν δυνάμει σημείων καὶ τεράτων, ἐν δυνάμει πνεύματος· ὥστε με ἀπὸ Ἰερουσαλὴμ καὶ κύκλῳ μέχρι τοῦ Ἰλλυρικοῦ πεπληρωκέναι τὸ εὐαγγέλιον τοῦ Χριστοῦ,
+   - Vulgate: in virtute signorum, et prodigiorum, in virtute Spiritus Sancti: ita ut ab Jerusalem per circuitum usque ad Illyricum repleverim Evangelium Christi.
+   - BSB: by the power of signs and wonders, and by the power of the Spirit of God. So from Jerusalem all the way around to Illyricum, I have fully proclaimed the gospel of Christ.
+   - WEB: in the power of signs and wonders, in the power of God’s Spirit; so that from Jerusalem and around as far as to Illyricum, I have fully preached the Good News of Christ;
+- **15:23** substitute (word): SBLGNT *ικανων* ] TR *πολλων*
+   - Latin: At nunc cum jam in hīs tractibus locum nōn habeam, et vestrī vīsendī cupiditāte jam ā multīs annīs tenear,
+   - 1573: At nunc cùm iam in his tractibus locum non habeam, et vestri visendi cupiditate iam à multis annis tenear,
+   - TR: νυνὶ δὲ μηκέτι τόπον ἔχων ἐν τοῖς κλίμασι τούτοις, ἐπιποθίαν δὲ ἔχων τοῦ ἐλθεῖν πρὸς ὑμᾶς ἀπὸ πολλῶν ἐτῶν,
+   - SBLGNT: νυνὶ δὲ μηκέτι τόπον ἔχων ἐν τοῖς κλίμασι τούτοις, ἐπιποθίαν δὲ ἔχων τοῦ ἐλθεῖν πρὸς ὑμᾶς ἀπὸ ἱκανῶν ἐτῶν,
+   - Vulgate: Nunc vero ulterius locum non habens in his regionibus, cupiditatem autem habens veniendi ad vos ex multis jam præcedentibus annis:
+   - BSB: But now that there are no further opportunities for me in these regions, and since I have longed for many years to visit you,
+   - WEB: but now, no longer having any place in these regions, and having these many years a longing to come to you,
+- **16:3** substitute (name): SBLGNT *πρισκαν* ] TR *πρισκιλλαν*
+   - Latin: Salūtāte Prīscam et Aquilam, meōs in Chrīstō Jēsū adjūtōrēs,
+   - 1573: Salutate Priscam et Aquilam, meos in Christo Iesu adiutores,
+   - TR: Ἀσπάσασθε Πρίσκιλλαν καὶ Ἀκύλαν τοὺς συνεργούς μου ἐν Χριστῷ Ἰησοῦ,
+   - SBLGNT: Ἀσπάσασθε Πρίσκαν καὶ Ἀκύλαν τοὺς συνεργούς μου ἐν Χριστῷ Ἰησοῦ,
+   - Vulgate: Salutate Priscam et Aquilam, adjutores meos in Christo Jesu
+   - BSB: Greet Prisca and Aquila, my fellow workers in Christ Jesus,
+   - WEB: Greet Prisca and Aquila, my fellow workers in Christ Jesus,
+- **16:11** substitute (name): SBLGNT *ηρωδιωνα* ] TR *ηροδιωνα*
+   - Latin: Salūtāte Hērōdiōnem, cognātum meum. Salūtāte eōs, quī sunt ex Narcissī familiā, quī sunt in Dominō.
+   - 1573: Salutate Herodionem, cognatum meum. Salutate eos qui sunt ex Narcissi familia, qui sunt in Domino.
+   - TR: Ἀσπάσασθε Ἡροδίωνα τὸν συγγενῆ μου. Ἀσπάσασθε τοὺς ἐκ τῶν Ναρκίσσου, τοὺς ὄντας ἐν Κυρίῳ.
+   - SBLGNT: ἀσπάσασθε Ἡρῳδίωνα τὸν συγγενῆ μου. ἀσπάσασθε τοὺς ἐκ τῶν Ναρκίσσου τοὺς ὄντας ἐν κυρίῳ.
+   - Vulgate: Salutate eos qui sunt ex Aristoboli domo. Salutate Herodionem cognatum meum. Salutate eos qui sunt ex Narcisi domo, qui sunt in Domino.
+   - BSB: Greet Herodion, my fellow countryman. Greet those from the household of Narcissus who are in the Lord.
+   - WEB: Greet Herodion, my kinsman. Greet them of the household of Narcissus, who are in the Lord.
+
+## Person (1 verses)
+
+- **14:7** Latin *vestrum*; the TR has only ἡμ-
+   - Latin: Nūllus enim vestrum sibi ipsī vīvit: nūllus item sibi ipsī moritur.
+   - 1573: Nullus enim vestrûm sibi ipsi viuit, nullus item sibi ipsi moritur.
+   - TR: Οὐδεὶς γὰρ ἡμῶν ἑαυτῷ ζῇ, καὶ οὐδεὶς ἑαυτῷ ἀποθνῄσκει.
+   - SBLGNT: Οὐδεὶς γὰρ ἡμῶν ἑαυτῷ ζῇ, καὶ οὐδεὶς ἑαυτῷ ἀποθνῄσκει·
+   - Vulgate: Nemo enim nostrum sibi vivit, et nemo sibi moritur.
+   - BSB: For none of us lives to himself alone, and none of us dies to himself alone.
+   - WEB: For none of us lives to himself, and none dies to himself.

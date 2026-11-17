@@ -1,0 +1,211 @@
+# 1Tim: candidates for light notes
+
+Built by `python -m pipeline notes 1Tim` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `1tim-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 40; not a change of sense (order, article, form, small words): 20; the TR with the critical text: 0; in a verse already noted or bracketed: 0; **kept: 20**, in 20 verses. The TR alone against SBLGNT (no apparatus unit): 5, in 4 verses. Pronoun person (Latin against the TR): 0.
+
+## Text: clause (1 verses)
+
+- **6:5** add (clause): critical *εὐσέβειαν* ] RP *+ Ἀφίστασο ἀπὸ τῶν τοιούτων*
+   - Latin: ineptæ disputātiōnēs hominum mente corruptōrum, et vērī expertium, pietātem prō quæstū habentium. Ā tālibus abstinētō.
+   - 1573: ineptæ disputationes hominum mente corruptorum, et veri expertium, pietatem pro quæstu habentium. A talibus abstineto:
+   - TR: παραδιατριβαὶ διεφθαρμένων ἀνθρώπων τὸν νοῦν, καὶ ἀπεστερημένων τῆς ἀληθείας, νομιζόντων πορισμὸν εἶναι τὴν εὐσέβειαν. Ἀφίστασο ἀπὸ τῶν τοιούτων.
+   - SBLGNT: διαπαρατριβαὶ διεφθαρμένων ἀνθρώπων τὸν νοῦν καὶ ἀπεστερημένων τῆς ἀληθείας, νομιζόντων πορισμὸν εἶναι τὴν εὐσέβειαν.
+   - Vulgate: conflictationes hominum mente corruptorum, et qui veritate privati sunt, existimantium quæstum esse pietatem.
+   - BSB: and constant friction between men of depraved mind who are devoid of the truth. These men regard godliness as a means of gain.
+   - WEB: constant friction of people of corrupt minds and destitute of the truth, who suppose that godliness is a means of gain. Withdraw yourself from such.
+
+## Text: name (1 verses)
+
+- **2:7** add (name): critical *λέγω* ] RP *+ ἐν Χριστῷ*
+   - Latin: Vērum dīcō per Chrīstum, nōn mentior, magister aliēnigenārum fidēlis atque vērāx.
+   - 1573: Verùm dico per Christum, non mentior, magister alienigenarum fidelis atque verax.
+   - TR: εἰς ὃ ἐτέθην ἐγὼ κῆρυξ καὶ ἀπόστολος· ἀλήθειαν λέγω ἐν Χριστῷ, οὐ ψεύδομαι· διδάσκαλος ἐθνῶν ἐν πίστει καὶ ἀληθείᾳ.
+   - SBLGNT: εἰς ὃ ἐτέθην ἐγὼ κῆρυξ καὶ ἀπόστολος— ἀλήθειαν λέγω, οὐ ψεύδομαι— διδάσκαλος ἐθνῶν ἐν πίστει καὶ ἀληθείᾳ.
+   - Vulgate: in quo positus sum ego prædicator, et Apostolus (veritatem dico, non mentior) doctor gentium in fide, et veritate.
+   - BSB: For this reason I was appointed as a preacher, an apostle, and a faithful and true teacher of the Gentiles. I am telling the truth; I am not lying about anything.
+   - WEB: to which I was appointed a preacher and an apostle—I am telling the truth in Christ, not lying—a teacher of the Gentiles in faith and truth.
+
+## Text: word (18 verses)
+
+- **1:1** substitute (word): critical *Χριστοῦ Ἰησοῦ* ] RP *κυριόυ Ἰησοῦ Χριστοῦ*
+   - Latin: Paulus, apostolus Jēsū Chrīstī, ex mandātō Deī Servātōris nostrī, et Dominī Jēsū Chrīstī, speī nostræ,
+   - 1573: Paulus apostolus Iesu Christi, ex mandato Dei seruatoris nostri, et Domini Iesu Christi, spei nostræ,
+   - TR: Παῦλος ἀπόστολος Ἰησοῦ Χριστοῦ κατ᾿ ἐπιταγὴν Θεοῦ σωτῆρος ἡμῶν, καὶ Κυρίου Ἰησοῦ Χριστοῦ τῆς ἐλπίδος ἡμῶν,
+   - SBLGNT: Παῦλος ἀπόστολος Χριστοῦ Ἰησοῦ κατʼ ἐπιταγὴν θεοῦ σωτῆρος ἡμῶν καὶ Χριστοῦ Ἰησοῦ τῆς ἐλπίδος ἡμῶν
+   - Vulgate: Paulus Apostolus Jesu Christi secundum imperium Dei Salvatoris nostri, et Christi Jesu spei nostræ,
+   - BSB: Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope,
+   - WEB: Paul, an apostle of Jesus Christ according to the commandment of God our Savior and the Lord Jesus Christ our hope,
+- **1:4** substitute (word): critical *ἐκζητήσεις* ] RP *ζητήσεις*
+   - Latin: nēve fābulās attendant, et antīquitātēs īnfīnītās, quæ potius quæstiōnēs pariunt, quam dīvīnam in fidē īnstrūctiōnem.
+   - 1573: neue fabulas attendant, et antiquitates infinitas, quæ potius quæstiones pariunt, quàm diuinam in fide instructionem.
+   - TR: μηδὲ προσέχειν μύθοις καὶ γενεαλογίαις ἀπεράντοις, αἵτινες ζητήσεις παρέχουσι μᾶλλον ἢ οἰκοδομίαν Θεοῦ τὴν ἐν πίστει.
+   - SBLGNT: μηδὲ προσέχειν μύθοις καὶ γενεαλογίαις ἀπεράντοις, αἵτινες ἐκζητήσεις παρέχουσι μᾶλλον ἢ οἰκονομίαν θεοῦ τὴν ἐν πίστει—
+   - Vulgate: neque intenderent fabulis, et genealogiis interminatis: quæ quæstiones præstant magis quam ædificationem Dei, quæ est in fide.
+   - BSB: or devote themselves to myths and endless genealogies, which promote speculation rather than the stewardship of God’s work, which is by faith.
+   - WEB: and not to pay attention to myths and endless genealogies, which cause disputes rather than God’s stewardship, which is in faith.
+- **1:16** substitute (word): critical *ἅπασαν* ] RP *πᾶσαν*
+   - Latin: Sed ideō mihi tribūta misericordia est, ut in mē in prīmīs exsereret Jēsūs Chrīstus summam clēmentiam, ad eōrum exemplum, quī eī fidem essent habitūrī ad vītam æternam.
+   - 1573: Sed ideo mihi tributa misericordia est, vt in me in primis exereret Iesus Christus summam clementiam, ad eorum exemplum, qui ei fidem essent habituri ad vitam æternam.
+   - TR: ἀλλὰ διὰ τοῦτο ἠλεήθην, ἵνα ἐν ἐμοὶ πρώτῳ ἐνδείξηται Ἰησοῦς Χριστὸς τὴν πᾶσαν μακροθυμίαν, πρὸς ὑποτύπωσιν τῶν μελλόντων πιστεύειν ἐπ᾿ αὐτῷ εἰς ζωὴν αἰώνιον.
+   - SBLGNT: ἀλλὰ διὰ τοῦτο ἠλεήθην, ἵνα ἐν ἐμοὶ πρώτῳ ἐνδείξηται Χριστὸς Ἰησοῦς τὴν ἅπασαν μακροθυμίαν, πρὸς ὑποτύπωσιν τῶν μελλόντων πιστεύειν ἐπʼ αὐτῷ εἰς ζωὴν αἰώνιον.
+   - Vulgate: Sed ideo misericordiam consecutus sum: ut in me primo ostenderet Christus Jesus omnem patientiam ad informationem eorum, qui credituri sunt illi, in vitam æternam.
+   - BSB: But for this very reason I was shown mercy, so that in me, the worst of sinners, Christ Jesus might display His perfect patience as an example to those who would believe in Him for eternal life.
+   - WEB: However, for this cause I obtained mercy, that in me first, Jesus Christ might display all his patience for an example of those who were going to believe in him for eternal life.
+- **1:17** add (word): critical *μόνῳ* ] RP *+ σοφῶ*
+   - Latin: Rēgī autem sæculōrum immortālī, inaspectābilī, sōlī sapientī Deō, honōs et glōria in perpetua sæcula: Āmēn.
+   - 1573: Regi autem seculorum immortali, inaspectabili, soli sapienti Deo honos et gloria in perpetua secula: Amen.
+   - TR: Τῷ δὲ βασιλεῖ τῶν αἰώνων, ἀφθάρτῳ, ἀοράτῳ, μόνῳ σοφῷ Θεῷ, τιμὴ καὶ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.
+   - SBLGNT: τῷ δὲ βασιλεῖ τῶν αἰώνων, ἀφθάρτῳ, ἀοράτῳ, μόνῳ θεῷ, τιμὴ καὶ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων· ἀμήν.
+   - Vulgate: Regi autem sæculorum immortali, invisibili, soli Deo honor et gloria in sæcula sæculorum. Amen.
+   - BSB: Now to the King eternal, immortal, and invisible, the only God, be honor and glory forever and ever. Amen.
+   - WEB: Now to the King eternal, immortal, invisible, to God who alone is wise, be honor and glory forever and ever. Amen.
+- **2:14** substitute (word): critical *ἐξαπατηθεῖσα* ] RP *ἀπατηθεῖσα*
+   - Latin: Et Ādamus nōn dēceptus est: at mulier dēcepta dēlictum admīsit:
+   - 1573: et Adamus non deceptus est: at mulier decepta delictum admisit.
+   - TR: καὶ Ἀδὰμ οὐκ ἠπατήθη, ἡ δὲ γυνὴ ἀπατηθεῖσα ἐν παραβάσει γέγονε·
+   - SBLGNT: καὶ Ἀδὰμ οὐκ ἠπατήθη, ἡ δὲ γυνὴ ἐξαπατηθεῖσα ἐν παραβάσει γέγονεν.
+   - Vulgate: et Adam non est seductus: mulier autem seducta in prævaricatione fuit.
+   - BSB: And it was not Adam who was deceived, but the woman who was deceived and fell into transgression.
+   - WEB: Adam wasn’t deceived, but the woman, being deceived, has fallen into disobedience;
+- **3:3** add (word): critical *πλήκτην* ] RP *+ μὴ αἰσχροκερδῆ*
+   - Latin: Nōn vīnolentus, nōn percussor, nōn sordidus, sed æquanimis, ā jūrgiīs et avāritiā aliēnus,
+   - 1573: non vinolentus, non percussor, non sordidus, sed æquanimis, à iurgijs et auaritia alienus,
+   - TR: μὴ πάροινον, μὴ πλήκτην, μὴ αἰσχροκερδῆ, ἀλλ᾿ ἐπιεικῆ, ἄμαχον, ἀφιλάργυρον·
+   - SBLGNT: μὴ πάροινον, μὴ πλήκτην, ἀλλὰ ἐπιεικῆ, ἄμαχον, ἀφιλάργυρον,
+   - Vulgate: non vinolentum, non percussorem, sed modestum: non litigiosum, non cupidum, sed
+   - BSB: not dependent on wine, not violent but gentle, peaceable, and free of the love of money.
+   - WEB: not a drinker, not violent, not greedy for money, but gentle, not quarrelsome, not covetous;
+- **3:14** substitute (word): critical *ἐν τάχει* ] RP *τάχιον*
+   - Latin: Hæc tibi scrībō, spērāns, mē ad tē ventūrum esse brevī,
+   - 1573: Hæc tibi scribo, sperans me ad te venturum esse breui,
+   - TR: Ταῦτά σοι γράφω, ἐλπίζων ἐλθεῖν πρός σε τάχιον·
+   - SBLGNT: Ταῦτά σοι γράφω, ἐλπίζων ἐλθεῖν πρὸς σὲ ἐν τάχει,
+   - Vulgate: Hæc tibi scribo, sperans me ad te venire cito:
+   - BSB: Although I hope to come to you soon, I am writing you these things
+   - WEB: These things I write to you, hoping to come to you shortly,
+- **3:16** substitute (word): critical *Ὃς* ] RP *θεὸς*
+   - Latin: Et profectō magnum est pietātis arcānum: Deus appāruit in carne, per Spīritum commendātus est, cōnspectus angelīs, prædicātus gentibus, crēditus in mundō, receptus in glōriā.
+   - 1573: Et profectò magnum est pietatis arcanum: Deus apparuit in carne, per spiritum commendatus est, conspectus angelis, prædicatus gentibus, creditus in mundo, receptus in gloria.
+   - TR: Καὶ ὁμολογουμένως μέγα ἐστὶ τὸ τῆς εὐσεβείας μυστήριον· Θεὸς ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήφθη ἐν δόξῃ.
+   - SBLGNT: καὶ ὁμολογουμένως μέγα ἐστὶν τὸ τῆς εὐσεβείας μυστήριον· Ὃς ἐφανερώθη ἐν σαρκί, ἐδικαιώθη ἐν πνεύματι, ὤφθη ἀγγέλοις, ἐκηρύχθη ἐν ἔθνεσιν, ἐπιστεύθη ἐν κόσμῳ, ἀνελήμφθη ἐν δόξῃ.
+   - Vulgate: Et manifeste magnum est pietatis sacramentum, quod manifestatum est in carne, justificatum est in spiritu, apparuit angelis, prædicatum est gentibus, creditum est in mundo, assumptum est in gloria.
+   - BSB: By common confession, the mystery of godliness is great: He appeared in the flesh, was vindicated by the Spirit, was seen by angels, was proclaimed among the nations, was believed in throughout the world, was taken up in glory.
+   - WEB: Without controversy, the mystery of godliness is great: God was revealed in the flesh, justified in the spirit, seen by angels, preached among the nations, believed on in the world, and received up in glory.
+- **4:12** add (word): critical *ἀγάπῃ* ] RP *+ ἐν πνεύματι*
+   - Latin: Effice, ut nēmō tuam juventūtem dēspiciat: quīn fīdentibus exemplō estō, verbīs, mōribus, cāritāte, spīritū, fidē, castitāte.
+   - 1573: Effice vt nemo tuam iuuentutem despiciat: quin fidentibus exemplo esto, verbis, moribus, charitate, spiritu, fide, castitate,
+   - TR: Μηδείς σου τῆς νεότητος καταφρονείτω, ἀλλὰ τύπος γίνου τῶν πιστῶν ἐν λόγῳ, ἐν ἀναστροφῇ, ἐν ἀγάπῃ, ἐν πνεύματι, ἐν πίστει, ἐν ἁγνείᾳ.
+   - SBLGNT: μηδείς σου τῆς νεότητος καταφρονείτω, ἀλλὰ τύπος γίνου τῶν πιστῶν ἐν λόγῳ, ἐν ἀναστροφῇ, ἐν ἀγάπῃ, ἐν πίστει, ἐν ἁγνείᾳ.
+   - Vulgate: Nemo adolescentiam tuam contemnat: sed exemplum esto fidelium in verbo, in conversatione, in caritate, in fide, in castitate.
+   - BSB: Let no one despise your youth, but set an example for the believers in speech, in conduct, in love, in faith, in purity.
+   - WEB: Let no man despise your youth; but be an example to those who believe, in word, in your way of life, in love, in spirit, in faith, and in purity.
+- **5:16** add (word): critical *τις* ] RP *+ πιστὸς ἢ*
+   - Latin: Sī quis, aut, sī quæ fīdēns viduās habet, subveniat iīs: nēve gravētur ecclēsia, ut vērīs viduīs sufficiat.
+   - 1573: Si quis, aut si quæ fidens viduas habet, subueniat eis: neue grauetur Ecclesia, vt veris viduis sufficiat.
+   - TR: Εἴ τις πιστὸς ἢ πιστὴ ἔχει χήρας, ἐπαρκείτω αὐταῖς, καὶ μὴ βαρείσθω ἡ ἐκκλησία, ἵνα ταῖς ὄντως χήραις ἐπαρκέσῃ.
+   - SBLGNT: εἴ τις πιστὴ ἔχει χήρας, ἐπαρκείτω αὐταῖς, καὶ μὴ βαρείσθω ἡ ἐκκλησία, ἵνα ταῖς ὄντως χήραις ἐπαρκέσῃ.
+   - Vulgate: Si quis fidelis habet viduas, subministret illis, et non gravetur ecclesia: ut iis quæ vere viduæ sunt, sufficiat.
+   - BSB: If any believing woman has dependent widows, she must assist them and not allow the church to be burdened, so that it can help the widows who are truly in need.
+   - WEB: If any man or woman who believes has widows, let them relieve them, and don’t let the assembly be burdened, that it might relieve those who are widows indeed.
+- **5:21** substitute (word): critical *Χριστοῦ Ἰησοῦ* ] RP *κυρίου Ἰησοῦ Χριστοῦ*
+   - Latin: Obtestor in Deī, Dominīque Jēsū Chrīstī, et lēctōrum angelōrum cōnspectū, ut hæc sine ūllō discrīmine exsequāre, nihil per favōrem faciēns.
+   - 1573: Obtestor in Dei, Dominique Iesu Christi, et lectorum angelorum conspectu, vt hæc sine vllo discrimine exequare, nihil per fauorem faciens.
+   - TR: Διαμαρτύρομαι ἐνώπιον τοῦ Θεοῦ καὶ Κυρίου Ἰησοῦ Χριστοῦ καὶ τῶν ἐκλεκτῶν ἀγγέλων, ἵνα ταῦτα φυλάξῃς χωρὶς προκρίματος, μηδὲν ποιῶν κατὰ πρόσκλισιν.
+   - SBLGNT: διαμαρτύρομαι ἐνώπιον τοῦ θεοῦ καὶ Χριστοῦ Ἰησοῦ καὶ τῶν ἐκλεκτῶν ἀγγέλων, ἵνα ταῦτα φυλάξῃς χωρὶς προκρίματος, μηδὲν ποιῶν κατὰ πρόσκλισιν.
+   - Vulgate: Testor coram Deo et Christo Jesu, et electis angelis, ut hæc custodias sine præjudicio, nihil faciens in alteram partem declinando.
+   - BSB: I solemnly charge you before God and Christ Jesus and the elect angels to maintain these principles without bias, and to do nothing out of partiality.
+   - WEB: I command you in the sight of God, and the Lord Jesus Christ, and the chosen angels, that you observe these things without prejudice, doing nothing by partiality.
+- **5:25** add (word): critical *πρόδηλα* ] RP *+ ἐστίν*
+   - Latin: Itidem rēctē facta perspicua sunt, et quæ aliter sē habent latēre nequeunt.
+   - 1573: Itidem rectè facta perspicua sunt, et quæ aliter se habent, làtêre nequeunt.
+   - TR: Ὡσαύτως καὶ τὰ καλὰ ἔργα πρόδηλά ἐστι· καὶ τὰ ἄλλως ἔχοντα κρυβῆναι οὐ δύναται.
+   - SBLGNT: ὡσαύτως καὶ τὰ ἔργα τὰ καλὰ πρόδηλα, καὶ τὰ ἄλλως ἔχοντα κρυβῆναι οὐ δύνανται.
+   - Vulgate: Similiter et facta bona, manifesta sunt: et quæ aliter se habent, abscondi non possunt.
+   - BSB: In the same way, good deeds are obvious, and even the ones that are inconspicuous cannot remain hidden.
+   - WEB: In the same way also there are good works that are obvious, and those that are otherwise can’t be hidden.
+- **6:7** substitute (word): critical *ὅτι* ] RP *δῆλον ὅτι*
+   - Latin: Cum enim nihil in mundum attulerīmus, profectō nihil auferre possumus.
+   - 1573: Cum enim nihil in mundum attulerimus, profectò nihil auferre possumus:
+   - TR: οὐδὲν γὰρ εἰσηνέγκαμεν εἰς τὸν κόσμον, δῆλον ὅτι οὐδὲ ἐξενεγκεῖν τι δυνάμεθα·
+   - SBLGNT: οὐδὲν γὰρ εἰσηνέγκαμεν εἰς τὸν κόσμον, ὅτι οὐδὲ ἐξενεγκεῖν τι δυνάμεθα·
+   - Vulgate: Nihil enim intulimus in hunc mundum: haud dubium quod nec auferre quid possumus.
+   - BSB: For we brought nothing into the world, so we cannot carry anything out of it.
+   - WEB: For we brought nothing into the world, and we certainly can’t carry anything out.
+- **6:11** substitute (word): critical *πραϋπαθίαν* ] RP *πρᾳότητα*
+   - Latin: At tū, dīvīne vir, hæc fuge, jūstitiamque persequere, pietātem, fidem, cāritātem, patientiam, mānsuētūdinem.
+   - 1573: At tu, diuine vir, hæc fuge, iustitiamque persequere, pietatem, fidem, charitatem, patientiam, mansuetudinem.
+   - TR: Σὺ δέ, ὦ ἄνθρωπε τοῦ Θεοῦ, ταῦτα φεῦγε· δίωκε δὲ δικαιοσύνην, εὐσέβειαν, πίστιν, ἀγάπην, ὑπομονήν, πρᾳότητα.
+   - SBLGNT: Σὺ δέ, ὦ ἄνθρωπε θεοῦ, ταῦτα φεῦγε· δίωκε δὲ δικαιοσύνην, εὐσέβειαν, πίστιν, ἀγάπην, ὑπομονήν, πραϋπαθίαν.
+   - Vulgate: Tu autem, o homo Dei, hæc fuge: sectare vero justitiam, pietatem, fidem, caritatem, patientiam, mansuetudinem.
+   - BSB: But you, O man of God, flee from these things and pursue righteousness, godliness, faith, love, perseverance, and gentleness.
+   - WEB: But you, man of God, flee these things, and follow after righteousness, godliness, faith, love, perseverance, and gentleness.
+- **6:13** substitute (word): critical *ζῳογονοῦντος* ] RP *ζωοποιοῦντος*
+   - Latin: Ēdīcō tibi in Deī cōnspectū, vītam dantis omnibus, itemque Chrīstī Jēsū, quī cōram Pontiō Pīlātō præclārā illā cōnfessiōne vērum testātus est,
+   - 1573: Edico tibi in Dei conspectu, vitam dantis omnibus: itemque Christi Iesu, qui coram Pontio Pilato præclara illa confessione verum testatus est,
+   - TR: Παραγγέλλω σοι ἐνώπιον τοῦ Θεοῦ τοῦ ζῳοποιοῦντος τὰ πάντα, καὶ Χριστοῦ Ἰησοῦ τοῦ μαρτυρήσαντος ἐπὶ Ποντίου Πιλάτου τὴν καλὴν ὁμολογίαν,
+   - SBLGNT: παραγγέλλω σοι ἐνώπιον τοῦ θεοῦ τοῦ ζῳογονοῦντος τὰ πάντα καὶ Χριστοῦ Ἰησοῦ τοῦ μαρτυρήσαντος ἐπὶ Ποντίου Πιλάτου τὴν καλὴν ὁμολογίαν,
+   - Vulgate: Præcipio tibi coram Deo, qui vivificat omnia, et Christo Jesu, qui testimonium reddidit sub Pontio Pilato, bonam confessionem,
+   - BSB: I charge you in the presence of God, who gives life to all things, and of Christ Jesus, who made the good confession in His testimony before Pontius Pilate:
+   - WEB: I command you before God who gives life to all things, and before Christ Jesus who before Pontius Pilate testified the good confession,
+- **6:17** add (word): critical *θεῷ* ] RP *+ τῷ ζῶντι*
+   - Latin: Iīs, quī in hāc vītā dīvitēs sunt, dēnūntiā, nē superbiant, nēve spem habeant in incertīs dīvitiīs: sed in vīvente Deō, quī nōbīs omnia largē suppeditat ad fruitiōnem:
+   - 1573: Iis qui in hac vita diuites sunt, denuncia ne superbiant, neue spem habeant in incertis diuitijs: sed in viuente Deo, qui nobis omnia largè suppeditat ad fruitionem:
+   - TR: Τοῖς πλουσίοις ἐν τῷ νῦν αἰῶνι παράγγελλε, μὴ ὑψηλοφρονεῖν, μηδὲ ἠλπικέναι ἐπὶ πλούτου ἀδηλότητι, ἀλλ᾿ ἐν τῷ Θεῷ τῷ ζῶντι, τῷ παρέχοντι ἡμῖν πλουσίως πάντα εἰς ἀπόλαυσιν·
+   - SBLGNT: Τοῖς πλουσίοις ἐν τῷ νῦν αἰῶνι παράγγελλε μὴ ὑψηλοφρονεῖν μηδὲ ἠλπικέναι ἐπὶ πλούτου ἀδηλότητι, ἀλλʼ ἐπὶ θεῷ τῷ παρέχοντι ἡμῖν πάντα πλουσίως εἰς ἀπόλαυσιν,
+   - Vulgate: Divitibus hujus sæculi præcipe non sublime sapere, neque sperare in incerto divitiarum, sed in Deo vivo (qui præstat nobis omnia abunde ad fruendum)
+   - BSB: Instruct those who are rich in the present age not to be conceited and not to put their hope in the uncertainty of wealth, but in God, who richly provides all things for us to enjoy.
+   - WEB: Charge those who are rich in this present age that they not be arrogant, nor have their hope set on the uncertainty of riches, but on the living God, who richly provides us with everything to enjoy;
+- **6:19** substitute (word): critical *ὄντως* ] RP *αἰωνίου*
+   - Latin: præclārum sibi fundāmentum in futūrum congerentēs, ut vītam assequantur vērē sempiternam.
+   - 1573: præclarum sibi fundamentum in futurum congerentes, vt vitam assequantur verè sempiternam.
+   - TR: ἀποθησαυρίζοντας ἑαυτοῖς θεμέλιον καλὸν εἰς τὸ μέλλον, ἵνα ἐπιλάβωνται τῆς αἰωνίου ζωῆς.
+   - SBLGNT: ἀποθησαυρίζοντας ἑαυτοῖς θεμέλιον καλὸν εἰς τὸ μέλλον, ἵνα ἐπιλάβωνται τῆς ὄντως ζωῆς.
+   - Vulgate: thesaurizare sibi fundamentum bonum in futurum, ut apprehendant veram vitam.
+   - BSB: treasuring up for themselves a firm foundation for the future, so that they may take hold of that which is truly life.
+   - WEB: laying up in store for themselves a good foundation against the time to come, that they may lay hold of eternal life.
+- **6:21** substitute (word): critical *μεθʼ ὑμῶν* ] RP *μετὰ σοῦ Ἀμήν*
+   - Latin: Quam profitentēs quīdam ā fidē aberrārunt. Adsit tibi grātia: Āmēn.
+   - 1573: quam profitentes quidam, à fide aberrarunt. Adsit tibi gratia: Amen.
+   - TR: ἥν τινες ἐπαγγελλόμενοι περὶ τὴν πίστιν ἠστόχησαν. Ἡ χάρις μετὰ σοῦ. Ἀμήν. Πρὸς Τιμόθεον πρώτη ἐγράφη ἀπὸ Λαοδικείας, ἥτις ἐστὶ μητρόπολις Φρυγίας τῆς Πακατιανῆς.
+   - SBLGNT: ἥν τινες ἐπαγγελλόμενοι περὶ τὴν πίστιν ἠστόχησαν. Ἡ χάρις μεθʼ ὑμῶν.
+   - Vulgate: quam quidam promittentes, circa fidem exciderunt. Gratia tecum. Amen.
+   - BSB: which some have professed and thus swerved away from the faith. Grace be with you all.
+   - WEB: which some profess, and thus have wandered from the faith. Grace be with you. Amen.
+
+## The TR alone (RP with the critical text; 4 verses)
+
+- **5:4** add (word): SBLGNT *–* ] TR *+ καλον και*
+   - Latin: Quod sī quæ vidua līberōs habet, aut nepōtēs, doceat in prīmīs suam familiam pietātem colere, parentibusque vicem reddere. Hoc enim honestum est, et Dominō acceptum.
+   - 1573: Quòd si quæ vidua liberos habet, aut nepotes, doceat in primis suam familiam pietatem colere, parentibusque vicem reddere. Hoc enim honestum est, et Domino acceptum.
+   - TR: Εἰ δέ τις χήρα τέκνα ἢ ἔκγονα ἔχει, μανθανέτωσαν πρῶτον τὸν ἴδιον οἶκον εὐσεβεῖν, καὶ ἀμοιβὰς ἀποδιδόναι τοῖς προγόνοις· τοῦτο γάρ ἐστι καλὸν καὶ ἀπόδεκτον ἐνώπιον τοῦ Θεοῦ.
+   - SBLGNT: εἰ δέ τις χήρα τέκνα ἢ ἔκγονα ἔχει, μανθανέτωσαν πρῶτον τὸν ἴδιον οἶκον εὐσεβεῖν καὶ ἀμοιβὰς ἀποδιδόναι τοῖς προγόνοις, τοῦτο γάρ ἐστιν ἀπόδεκτον ἐνώπιον τοῦ θεοῦ.
+   - Vulgate: Si qua autem vidua filios, aut nepotes habet: discat primum domum suam regere, et mutuam vicem reddere parentibus: hoc enim acceptum est coram Deo.
+   - BSB: But if a widow has children or grandchildren, they must first learn to show godliness to their own family and repay their parents, for this is pleasing in the sight of God.
+   - WEB: But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is acceptable in the sight of God.
+- **6:5** substitute (word): SBLGNT *διαπαρατριβαι* ] TR *παραδιατριβαι*
+   - Latin: ineptæ disputātiōnēs hominum mente corruptōrum, et vērī expertium, pietātem prō quæstū habentium. Ā tālibus abstinētō.
+   - 1573: ineptæ disputationes hominum mente corruptorum, et veri expertium, pietatem pro quæstu habentium. A talibus abstineto:
+   - TR: παραδιατριβαὶ διεφθαρμένων ἀνθρώπων τὸν νοῦν, καὶ ἀπεστερημένων τῆς ἀληθείας, νομιζόντων πορισμὸν εἶναι τὴν εὐσέβειαν. Ἀφίστασο ἀπὸ τῶν τοιούτων.
+   - SBLGNT: διαπαρατριβαὶ διεφθαρμένων ἀνθρώπων τὸν νοῦν καὶ ἀπεστερημένων τῆς ἀληθείας, νομιζόντων πορισμὸν εἶναι τὴν εὐσέβειαν.
+   - Vulgate: conflictationes hominum mente corruptorum, et qui veritate privati sunt, existimantium quæstum esse pietatem.
+   - BSB: and constant friction between men of depraved mind who are devoid of the truth. These men regard godliness as a means of gain.
+   - WEB: constant friction of people of corrupt minds and destitute of the truth, who suppose that godliness is a means of gain. Withdraw yourself from such.
+- **6:17** add (word): SBLGNT *–* ] TR *+ πλουσιως*; omit (word): SBLGNT *πλουσιως* ] TR *–*
+   - Latin: Iīs, quī in hāc vītā dīvitēs sunt, dēnūntiā, nē superbiant, nēve spem habeant in incertīs dīvitiīs: sed in vīvente Deō, quī nōbīs omnia largē suppeditat ad fruitiōnem:
+   - 1573: Iis qui in hac vita diuites sunt, denuncia ne superbiant, neue spem habeant in incertis diuitijs: sed in viuente Deo, qui nobis omnia largè suppeditat ad fruitionem:
+   - TR: Τοῖς πλουσίοις ἐν τῷ νῦν αἰῶνι παράγγελλε, μὴ ὑψηλοφρονεῖν, μηδὲ ἠλπικέναι ἐπὶ πλούτου ἀδηλότητι, ἀλλ᾿ ἐν τῷ Θεῷ τῷ ζῶντι, τῷ παρέχοντι ἡμῖν πλουσίως πάντα εἰς ἀπόλαυσιν·
+   - SBLGNT: Τοῖς πλουσίοις ἐν τῷ νῦν αἰῶνι παράγγελλε μὴ ὑψηλοφρονεῖν μηδὲ ἠλπικέναι ἐπὶ πλούτου ἀδηλότητι, ἀλλʼ ἐπὶ θεῷ τῷ παρέχοντι ἡμῖν πάντα πλουσίως εἰς ἀπόλαυσιν,
+   - Vulgate: Divitibus hujus sæculi præcipe non sublime sapere, neque sperare in incerto divitiarum, sed in Deo vivo (qui præstat nobis omnia abunde ad fruendum)
+   - BSB: Instruct those who are rich in the present age not to be conceited and not to put their hope in the uncertainty of wealth, but in God, who richly provides all things for us to enjoy.
+   - WEB: Charge those who are rich in this present age that they not be arrogant, nor have their hope set on the uncertainty of riches, but on the living God, who richly provides us with everything to enjoy;
+- **6:21** substitute (name): SBLGNT *μεθ υμων* ] TR *μετα σου αμην προς τιμοθεον πρωτη εγραφη απο λαοδικειας ητις εστι μητροπολις φρυγιας της πακατιανης*
+   - Latin: Quam profitentēs quīdam ā fidē aberrārunt. Adsit tibi grātia: Āmēn.
+   - 1573: quam profitentes quidam, à fide aberrarunt. Adsit tibi gratia: Amen.
+   - TR: ἥν τινες ἐπαγγελλόμενοι περὶ τὴν πίστιν ἠστόχησαν. Ἡ χάρις μετὰ σοῦ. Ἀμήν. Πρὸς Τιμόθεον πρώτη ἐγράφη ἀπὸ Λαοδικείας, ἥτις ἐστὶ μητρόπολις Φρυγίας τῆς Πακατιανῆς.
+   - SBLGNT: ἥν τινες ἐπαγγελλόμενοι περὶ τὴν πίστιν ἠστόχησαν. Ἡ χάρις μεθʼ ὑμῶν.
+   - Vulgate: quam quidam promittentes, circa fidem exciderunt. Gratia tecum. Amen.
+   - BSB: which some have professed and thus swerved away from the faith. Grace be with you all.
+   - WEB: which some profess, and thus have wandered from the faith. Grace be with you. Amen.

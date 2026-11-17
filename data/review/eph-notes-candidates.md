@@ -1,0 +1,368 @@
+# Eph: candidates for light notes
+
+Built by `python -m pipeline notes Eph` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `eph-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 71; not a change of sense (order, article, form, small words): 39; the TR with the critical text: 3; in a verse already noted or bracketed: 0; **kept: 29**, in 27 verses. The TR alone against SBLGNT (no apparatus unit): 18, in 17 verses. Pronoun person (Latin against the TR): 0.
+
+## Text: clause (3 verses)
+
+- **3:9** add (clause): critical *κτίσαντι* ] RP *+ διὰ Ἰησοῦ Χριστοῦ*
+   - Latin: et omnibus perspicuum faciam, quæ sit mystēriī commūniō, quod ab omnī æternitāte apud Deum (quī omnia per Jēsum Chrīstum condidit) fuit cēlātum,
+   - 1573: et omnibus perspicuum faciam, quæ sit mysterij communio, quod ab omni æternitate apud Deum (qui omnia per Iesum Christum condidit) fuit celatum,
+   - TR: καὶ φωτίσαι πάντας τίς ἡ κοινωνία τοῦ μυστηρίου τοῦ ἀποκεκρυμμένου ἀπὸ τῶν αἰώνων ἐν τῷ Θεῷ τῷ τὰ πάντα κτίσαντι διὰ Ἰησοῦ Χριστοῦ,
+   - SBLGNT: καὶ φωτίσαι πάντας τίς ἡ οἰκονομία τοῦ μυστηρίου τοῦ ἀποκεκρυμμένου ἀπὸ τῶν αἰώνων ἐν τῷ θεῷ τῷ τὰ πάντα κτίσαντι,
+   - Vulgate: et illuminare omnes, quæ sit dispensatio sacramenti absconditi a sæculis in Deo, qui omnia creavit:
+   - BSB: and to illuminate for everyone the stewardship of this mystery, which for ages past was kept hidden in God, who created all things.
+   - WEB: and to make all men see what is the administration of the mystery which for ages has been hidden in God, who created all things through Jesus Christ,
+- **3:14** add (clause): critical *πατέρα* ] RP *+ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ*
+   - Latin: Hujus grātiā flectō mea genua ad Patrem Dominī nostrī Jēsū Chrīstī,
+   - 1573: Huius gratia flecto mea genua ad patrem Domini nostri Iesu Christi,
+   - TR: Τούτου χάριν κάμπτω τὰ γόνατά μου πρὸς τὸν πατέρα τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,
+   - SBLGNT: Τούτου χάριν κάμπτω τὰ γόνατά μου πρὸς τὸν πατέρα,
+   - Vulgate: Hujus rei gratia flecto genua mea ad Patrem Domini nostri Jesu Christi,
+   - BSB: ... for this reason I bow my knees before the Father,
+   - WEB: For this cause, I bow my knees to the Father of our Lord Jesus Christ,
+- **5:30** add (clause): critical *αὐτοῦ* ] RP *+ ἐκ τῆς σαρκός αὐτοῦ καί ἐκ τῶν ὀστέων αὐτοῦ*
+   - Latin: Cujus Chrīstī corporis membra sumus nōs, ex ejus carne atque ossibus.
+   - 1573: cuius Christi corporis membra sumus nos ex eius carne atque ossibus.
+   - TR: ὅτι μέλη ἐσμὲν τοῦ σώματος αὐτοῦ, ἐκ τῆς σαρκὸς αὐτοῦ καὶ ἐκ τῶν ὀστέων αὐτοῦ.
+   - SBLGNT: ὅτι μέλη ἐσμὲν τοῦ σώματος αὐτοῦ.
+   - Vulgate: quia membra sumus corporis ejus, de carne ejus et de ossibus ejus.
+   - BSB: For we are members of His body.
+   - WEB: because we are members of his body, of his flesh and bones.
+
+## Text: word (24 verses)
+
+- **1:6** substitute (word): critical *ἧς* ] RP *ἐν ᾗ*
+   - Latin: ad laudem suæ glōriōsæ beneficentiæ, quā nōs acceptōs reddidit per suum cārissimum,
+   - 1573: ad laudem suæ gloriosæ beneficentiæ, qua nos acceptos reddidit per suum charissimum,
+   - TR: εἰς ἔπαινον δόξης τῆς χάριτος αὐτοῦ, ἐν ᾗ ἐχαρίτωσεν ἡμᾶς ἐν τῷ ἠγαπημένῳ·
+   - SBLGNT: εἰς ἔπαινον δόξης τῆς χάριτος αὐτοῦ ἧς ἐχαρίτωσεν ἡμᾶς ἐν τῷ ἠγαπημένῳ,
+   - Vulgate: in laudem gloriæ gratiæ suæ, in qua gratificavit nos in dilecto Filio suo.
+   - BSB: to the praise of His glorious grace, which He has freely given us in the Beloved One.
+   - WEB: to the praise of the glory of his grace, by which he freely gave us favor in the Beloved.
+- **1:7** substitute (word): critical *τὸ πλοῦτος* ] RP *τὸν πλοῦτον*
+   - Latin: in quō līberātiōnem habēmus per ejus sanguinem, vidēlicet dēlictōrum veniam, prō ejus tam dīvite beneficentiā,
+   - 1573: in quo liberationem habemus per eius sanguinem, videlicet delictorum veniam, pro eius tam diuite beneficentia,
+   - TR: ἐν ᾧ ἔχομεν τὴν ἀπολύτρωσιν διὰ τοῦ αἵματος αὐτοῦ, τὴν ἄφεσιν τῶν παραπτωμάτων, κατὰ τὸν πλοῦτον τῆς χάριτος αὐτοῦ,
+   - SBLGNT: ἐν ᾧ ἔχομεν τὴν ἀπολύτρωσιν διὰ τοῦ αἵματος αὐτοῦ, τὴν ἄφεσιν τῶν παραπτωμάτων, κατὰ τὸ πλοῦτος τῆς χάριτος αὐτοῦ
+   - Vulgate: In quo habemus redemptionem per sanguinem ejus, remissionem peccatorum secundum divitias gratiæ ejus,
+   - BSB: In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace
+   - WEB: In him we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace
+- **1:14** substitute (word): critical *ὅ* ] RP *ὅς*
+   - Latin: quī pignus est hērēditātis nostræ, ad asserendam partam possessiōnem, quæ rēs eī glōriōsam laudem pariat.
+   - 1573: qui pignus est hæreditatis nostræ, ad asserendam partam possessionem quæ res ei gloriosam laudem pariat.
+   - TR: ὅς ἐστιν ἀρραβὼν τῆς κληρονομίας ἡμῶν, εἰς ἀπολύτρωσιν τῆς περιποιήσεως, εἰς ἔπαινον τῆς δόξης αὐτοῦ.
+   - SBLGNT: ὅ ἐστιν ἀρραβὼν τῆς κληρονομίας ἡμῶν, εἰς ἀπολύτρωσιν τῆς περιποιήσεως, εἰς ἔπαινον τῆς δόξης αὐτοῦ.
+   - Vulgate: qui est pignus hæreditatis nostræ, in redemptionem acquisitionis, in laudem gloriæ ipsius.
+   - BSB: who is the pledge of our inheritance until the redemption of those who are God’s possession, to the praise of His glory.
+   - WEB: who is a pledge of our inheritance, to the redemption of God’s own possession, to the praise of his glory.
+- **1:20** substitute (word): critical *καθίσας* ] RP *ἐκάθισεν*
+   - Latin: quam prō suī ēgregiī rōboris virtūte exseruit in Chrīstō, eum ex mortuīs suscitandō.
+   - 1573: quam pro sui egregij roboris virtute exeruit in Christo, eum ex mortuis suscitando.
+   - TR: ἣν ἐνήργησεν ἐν τῷ Χριστῷ, ἐγείρας αὐτὸν ἐκ νεκρῶν, καὶ ἐκάθισεν ἐν δεξιᾷ αὐτοῦ ἐν τοῖς ἐπουρανίοις,
+   - SBLGNT: ἣν ἐνήργηκεν ἐν τῷ Χριστῷ ἐγείρας αὐτὸν ἐκ νεκρῶν, καὶ καθίσας ἐν δεξιᾷ αὐτοῦ ἐν τοῖς ἐπουρανίοις
+   - Vulgate: quam operatus est in Christo, suscitans illum a mortuis, et constituens ad dexteram suam in cælestibus:
+   - BSB: which He exerted in Christ when He raised Him from the dead and seated Him at His right hand in the heavenly realms,
+   - WEB: which he worked in Christ when he raised him from the dead and made him to sit at his right hand in the heavenly places,
+- **2:3** substitute (word): critical *ἤμεθα* ] RP *ἦμεν*
+   - Latin: In iīsdem peccātīs nōs quoque omnēs versātī sumus aliquandō, in nostræ carnis cupiditātibus facientēs, quæ vellet carō atque cōgitātiōnēs: fuimusque nātūrā dignī suppliciō, sīcut et cēterī.
+   - 1573: In ijsdem peccatis nos quoque omnes versati sumus aliquando, in nostræ carnis cupiditatibus facientes quæ vellet caro atque cogitationes: fuimusque natura digni supplicio, sicut et cæteri.
+   - TR: ἐν οἷς καὶ ἡμεῖς πάντες ἀνεστράφημέν ποτε ἐν ταῖς ἐπιθυμίαις τῆς σαρκὸς ἡμῶν, ποιοῦντες τὰ θελήματα τῆς σαρκὸς καὶ τῶν διανοιῶν, καὶ ἦμεν τέκνα φύσει ὀργῆς, ὡς καὶ οἱ λοιποί·
+   - SBLGNT: ἐν οἷς καὶ ἡμεῖς πάντες ἀνεστράφημέν ποτε ἐν ταῖς ἐπιθυμίαις τῆς σαρκὸς ἡμῶν, ποιοῦντες τὰ θελήματα τῆς σαρκὸς καὶ τῶν διανοιῶν, καὶ ἤμεθα τέκνα φύσει ὀργῆς ὡς καὶ οἱ λοιποί·
+   - Vulgate: in quibus et nos omnes aliquando conversati sumus in desideriis carnis nostræ, facientes voluntatem carnis et cogitationum, et eramus natura filii iræ, sicut et ceteri:
+   - BSB: All of us also lived among them at one time, fulfilling the cravings of our flesh and indulging its desires and thoughts. Like the rest, we were by nature children of wrath.
+   - WEB: We also all once lived among them in the lusts of our flesh, doing the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest.
+- **2:7** substitute (word): critical *τὸ ὑπερβάλλον πλοῦτος* ] RP *τὸν ὑπερβάλλοντα πλοῦτον*
+   - Latin: ut ostendat in futūrīs sæculīs suam tam dīvitem beneficentiam, quā prō suā benignitāte ūsus est in nōs in Chrīstō Jēsū.
+   - 1573: vt ostendat in futuris seculis suam tam diuitem beneficentiam, qua pro sua benignitate vsus est in nos in Christo Iesu.
+   - TR: ἵνα ἐνδείξηται ἐν τοῖς αἰῶσι τοῖς ἐπερχομένοις τὸν ὑπερβάλλοντα πλοῦτον τῆς χάριτος αὐτοῦ ἐν χρηστότητι ἐφ᾿ ἡμᾶς ἐν Χριστῷ Ἰησοῦ·
+   - SBLGNT: ἵνα ἐνδείξηται ἐν τοῖς αἰῶσιν τοῖς ἐπερχομένοις τὸ ὑπερβάλλον πλοῦτος τῆς χάριτος αὐτοῦ ἐν χρηστότητι ἐφʼ ἡμᾶς ἐν Χριστῷ Ἰησοῦ.
+   - Vulgate: ut ostenderet in sæculis supervenientibus abundantes divitias gratiæ suæ, in bonitate super nos in Christo Jesu.
+   - BSB: in order that in the coming ages He might display the surpassing riches of His grace, demonstrated by His kindness to us in Christ Jesus.
+   - WEB: that in the ages to come he might show the exceeding riches of his grace in kindness toward us in Christ Jesus;
+- **3:6** substitute (word): critical *ἐν Χριστῷ Ἰησοῦ* ] RP *αὐτοῦ ἐν τῷ Χριστῷ*
+   - Latin: Vidēlicet aliēnigenās esse cohērēdēs, et ejusdem corporis, et participēs dīvīnī prōmissī in Chrīstō per euangelium.
+   - 1573: videlicet alienigenas esse cohæredes, et eiusdem corporis, et participes diuini promissi in Christo, per Euangelium,
+   - TR: εἶναι τὰ ἔθνη συγκληρονόμα καὶ σύσσωμα καὶ συμμέτοχα τῆς ἐπαγγελίας αὐτοῦ ἐν τῷ Χριστῷ, διὰ τοῦ εὐαγγελίου,
+   - SBLGNT: εἶναι τὰ ἔθνη συγκληρονόμα καὶ σύσσωμα καὶ συμμέτοχα τῆς ἐπαγγελίας ἐν Χριστῷ Ἰησοῦ διὰ τοῦ εὐαγγελίου,
+   - Vulgate: gentes esse cohæredes, et concorporales, et comparticipes promissionis ejus in Christo Jesu per Evangelium:
+   - BSB: This mystery is that through the gospel the Gentiles are fellow heirs, fellow members of the body, and fellow partakers of the promise in Christ Jesus.
+   - WEB: that the Gentiles are fellow heirs and fellow members of the body, and fellow partakers of his promise in Christ Jesus through the Good News,
+- **3:7** substitute (word): critical *τῆς δοθείσης* ] RP *τὴν δοθεῖσάν*
+   - Latin: Cujus ego factus sum minister, dōnō dīvīnī beneficiī, quod beneficium mihi dīvīnæ potentiæ vī collātum est.
+   - 1573: cuius ego factus sum minister, dono diuini beneficij, quod beneficium mihi diuinæ potentiæ vi collatum est.
+   - TR: οὗ ἐγενόμην διάκονος κατὰ τὴν δωρεὰν τῆς χάριτος τοῦ Θεοῦ, τὴν δοθεῖσάν μοι κατὰ τὴν ἐνέργειαν τῆς δυνάμεως αὐτοῦ.
+   - SBLGNT: οὗ ἐγενήθην διάκονος κατὰ τὴν δωρεὰν τῆς χάριτος τοῦ θεοῦ τῆς δοθείσης μοι κατὰ τὴν ἐνέργειαν τῆς δυνάμεως αὐτοῦ—
+   - Vulgate: cujus factus sum minister secundum donum gratiæ Dei, quæ data est mihi secundum operationem virtutis ejus.
+   - BSB: I became a servant of this gospel by the gift of God’s grace, given me through the working of His power.
+   - WEB: of which I was made a servant according to the gift of that grace of God which was given me according to the working of his power.
+- **3:8** substitute (word): critical *τὸ ἀνεξιχνίαστον πλοῦτος* ] RP *τὸν ἀνεξιχνίαστον πλοῦτον*
+   - Latin: Mihi omnium sānctōrum minimō id beneficium collātum est, ut apud exterās gentēs īnfīnītam Chrīstī opulentiam pūblicem,
+   - 1573: Mihi omnium sanctorum minimo id beneficium collatum est, vt apud exteras gentes infinitam Christi opulentiam publicem,
+   - TR: Ἐμοὶ τῷ ἐλαχιστοτέρῳ πάντων τῶν ἁγίων ἐδόθη ἡ χάρις αὕτη, ἐν τοῖς ἔθνεσιν εὐαγγελίσασθαι τὸν ἀνεξιχνίαστον πλοῦτον τοῦ Χριστοῦ,
+   - SBLGNT: ἐμοὶ τῷ ἐλαχιστοτέρῳ πάντων ἁγίων ἐδόθη ἡ χάρις αὕτη— τοῖς ἔθνεσιν εὐαγγελίσασθαι τὸ ἀνεξιχνίαστον πλοῦτος τοῦ Χριστοῦ,
+   - Vulgate: Mihi omnium sanctorum minimo data est gratia hæc, in gentibus evangelizare investigabiles divitias Christi,
+   - BSB: Though I am less than the least of all the saints, this grace was given me: to preach to the Gentiles the unsearchable riches of Christ,
+   - WEB: To me, the very least of all saints, was this grace given, to preach to the Gentiles the unsearchable riches of Christ,
+- **3:13** substitute (word): critical *ἐγκακεῖν* ] RP *ἐκκακεῖν*
+   - Latin: Quamobrem petō, nē animōs dēspondeātis, ob eās, quās ego prō vōbīs ferō, calamitātēs, quæ vestra glōria est.
+   - 1573: Quamobrem peto, ne animos despondeatis, ob eas quas ego pro vobis fero, calamitates, quæ vestra gloria est.
+   - TR: Διὸ αἰτοῦμαι μὴ ἐκκακεῖν ἐν ταῖς θλίψεσί μου ὑπὲρ ὑμῶν, ἥτις ἐστὶ δόξα ὑμῶν.
+   - SBLGNT: διὸ αἰτοῦμαι μὴ ἐγκακεῖν ἐν ταῖς θλίψεσίν μου ὑπὲρ ὑμῶν, ἥτις ἐστὶν δόξα ὑμῶν.
+   - Vulgate: Propter quod peto ne deficiatis in tribulationibus meis pro vobis: quæ est gloria vestra.
+   - BSB: So I ask you not to be discouraged because of my sufferings for you, which are your glory.
+   - WEB: Therefore I ask that you may not lose heart at my troubles for you, which are your glory.
+- **3:16** substitute (word): critical *δῷ* ] RP *δῴη*; substitute (word): critical *τὸ πλοῦτος* ] RP *τὸν πλοῦτον*
+   - Latin: ut prō suā glōriōsā opulentiā det vōbīs fortiter corrōborārī per suum Spīritum, in interiōrem hominem,
+   - 1573: vt pro sua gloriosa opulentia det vobis fortiter corroborari per suum spiritum, in interiorem hominem,
+   - TR: ἵνα δῴη ὑμῖν, κατὰ τὸν πλοῦτον τῆς δόξης αὐτοῦ, δυνάμει κραταιωθῆναι διὰ τοῦ πνεύματος αὐτοῦ εἰς τὸν ἔσω ἄνθρωπον,
+   - SBLGNT: ἵνα δῷ ὑμῖν κατὰ τὸ πλοῦτος τῆς δόξης αὐτοῦ δυνάμει κραταιωθῆναι διὰ τοῦ πνεύματος αὐτοῦ εἰς τὸν ἔσω ἄνθρωπον,
+   - Vulgate: ut det vobis secundum divitias gloriæ suæ, virtute corroborari per Spiritum ejus in interiorem hominem,
+   - BSB: I ask that out of the riches of His glory He may strengthen you with power through His Spirit in your inner being,
+   - WEB: that he would grant you, according to the riches of his glory, that you may be strengthened with power through his Spirit in the inner person,
+- **4:9** add (word): critical *κατέβη* ] RP *+ πρῶτον*
+   - Latin: Quid est autem “ascendit,” nisi quod prius in īmās terræ partēs dēscenderat?
+   - 1573: Quid est autem Ascendit, nisi quòd prius in imas terræ partes descenderat?
+   - TR: Τὸ δέ, Ἀνέβη, τί ἐστιν εἰ μὴ ὅτι καὶ κατέβη πρῶτον εἰς τὰ κατώτερα μέρη τῆς γῆς;
+   - SBLGNT: τὸ δὲ Ἀνέβη τί ἐστιν εἰ μὴ ὅτι καὶ κατέβη εἰς τὰ κατώτερα μέρη τῆς γῆς;
+   - Vulgate: Quod autem ascendit, quid est, nisi quia et descendit primum in inferiores partes terræ?
+   - BSB: What does “He ascended” mean, except that He also descended to the lower parts of the earth?
+   - WEB: Now this, “He ascended”, what is it but that he also first descended into the lower parts of the earth?
+- **4:17** add (word): critical *τὰ* ] RP *+ λοιπὰ*
+   - Latin: Hoc igitur per Dominum dīcō, moneōque, nē deinceps vōs gerātis, quōmodo cēterī aliēnigenæ sē gerunt, in suæ mentis vānitāte,
+   - 1573: Hoc igitur per Dominum dico, moneoque, ne deinceps vos geratis, quomodo ceteri alienigenæ se gerunt, in suæ mentis vanitate,
+   - TR: Τοῦτο οὖν λέγω καὶ μαρτύρομαι ἐν Κυρίῳ, μηκέτι ὑμᾶς περιπατεῖν, καθὼς καὶ τὰ λοιπὰ ἔθνη περιπατεῖ ἐν ματαιότητι τοῦ νοὸς αὐτῶν,
+   - SBLGNT: Τοῦτο οὖν λέγω καὶ μαρτύρομαι ἐν κυρίῳ, μηκέτι ὑμᾶς περιπατεῖν καθὼς καὶ τὰ ἔθνη περιπατεῖ ἐν ματαιότητι τοῦ νοὸς αὐτῶν,
+   - Vulgate: Hoc igitur dico, et testificor in Domino, ut jam non ambuletis, sicut et gentes ambulant in vanitate sensus sui,
+   - BSB: So I tell you this, and insist on it in the Lord, that you must no longer walk as the Gentiles do, in the futility of their thinking.
+   - WEB: This I say therefore, and testify in the Lord, that you no longer walk as the rest of the Gentiles also walk, in the futility of their mind,
+- **4:28** substitute (word): critical *ταῖς ἰδίαις χερσὶν τὸ ἀγαθόν* ] RP *τὸ ἀγαθόν ταῖς χερσὶν*
+   - Latin: Quī fūrābātur, nē fūrētur amplius, sed potius manuum labōre bona comparet, ut habeat, quod egentibus impertiat.
+   - 1573: Qui furabatur, ne furetur amplius, sed potius manuum labore bona comparet, vt habeat quod egentibus impertiat.
+   - TR: Ὁ κλέπτων μηκέτι κλεπτέτω· μᾶλλον δὲ κοπιάτω, ἐργαζόμενος τὸ ἀγαθὸν ταῖς χερσίν, ἵνα ἔχῃ μεταδιδόναι τῷ χρείαν ἔχοντι.
+   - SBLGNT: ὁ κλέπτων μηκέτι κλεπτέτω, μᾶλλον δὲ κοπιάτω ἐργαζόμενος ταῖς ἰδίαις χερσὶν τὸ ἀγαθόν, ἵνα ἔχῃ μεταδιδόναι τῷ χρείαν ἔχοντι.
+   - Vulgate: qui furabatur, jam non furetur: magis autem laboret, operando manibus suis, quod bonum est, ut habeat unde tribuat necessitatem patienti.
+   - BSB: He who has been stealing must steal no longer, but must work, doing good with his own hands, that he may have something to share with the one in need.
+   - WEB: Let him who stole steal no more; but rather let him labor, producing with his hands something that is good, that he may have something to give to him who has need.
+- **5:4** substitute (word): critical *ἃ οὐκ ἀνῆκεν* ] RP *τὰ οὐκ ἀνήκοντα*
+   - Latin: Aut turpitūdō, aut stulta ōrātiō, aut facētia, quæ dēdecent: sed potius grātiārum āctiō.
+   - 1573: aut turpitudo, aut stulta oratio, aut facetia, quæ dedecent: sed potius gratiarum actio.
+   - TR: καὶ αἰσχρότης, καὶ μωρολογία, ἢ εὐτραπελία, τὰ οὐκ ἀνήκοντα· ἀλλὰ μᾶλλον εὐχαριστία.
+   - SBLGNT: καὶ αἰσχρότης καὶ μωρολογία ἢ εὐτραπελία, ἃ οὐκ ἀνῆκεν, ἀλλὰ μᾶλλον εὐχαριστία.
+   - Vulgate: aut turpitudo, aut stultiloquium, aut scurrilitas, quæ ad rem non pertinet: sed magis gratiarum actio.
+   - BSB: Nor should there be obscenity, foolish talk, or crude joking, which are out of character, but rather thanksgiving.
+   - WEB: nor filthiness, nor foolish talking, nor jesting, which are not appropriate, but rather giving of thanks.
+- **5:5** substitute (word): critical *ἴστε* ] RP *ἔστε*; substitute (word): critical *ὅ* ] RP *ὅς*
+   - Latin: Hoc enim scītōte, nūllum scortātōrem, aut impūrum, aut avārum (quī est deastricola) habitūrum esse hērēditātem in Chrīstī Deīque rēgnō.
+   - 1573: Hoc enim scitote, nullum scortatorem, aut impurum, aut auarum (qui est deastricola) habiturum esse hæreditatem in Christi Deique regno.
+   - TR: Τοῦτο γάρ ἐστε γινώσκοντες, ὅτι πᾶς πόρνος, ἢ ἀκάθαρτος, ἢ πλεονέκτης, ὅς ἐστιν εἰδωλολάτρης, οὐκ ἔχει κληρονομίαν ἐν τῇ βασιλείᾳ τοῦ Χριστοῦ καὶ Θεοῦ.
+   - SBLGNT: τοῦτο γὰρ ἴστε γινώσκοντες ὅτι πᾶς πόρνος ἢ ἀκάθαρτος ἢ πλεονέκτης, ὅ ἐστιν εἰδωλολάτρης, οὐκ ἔχει κληρονομίαν ἐν τῇ βασιλείᾳ τοῦ Χριστοῦ καὶ θεοῦ.
+   - Vulgate: Hoc enim scitote intelligentes: quod omnis fornicator, aut immundus, aut avarus, quod est idolorum servitus, non habet hæreditatem in regno Christi et Dei.
+   - BSB: For of this you can be sure: No immoral, impure, or greedy person (that is, an idolater), has any inheritance in the kingdom of Christ and of God.
+   - WEB: Know this for sure, that no sexually immoral person, nor unclean person, nor covetous man (who is an idolater), has any inheritance in the Kingdom of Christ and God.
+- **5:9** substitute (word): critical *φωτὸς* ] RP *πνεύματος*
+   - Latin: (Est autem lūcis frūctus in omnī bonitāte ac jūstitiā et vēritāte)
+   - 1573: est autem lucis fructus in omni bonitate ac iustitia et veritate,)
+   - TR: ὁ γὰρ καρπὸς τοῦ πνεύματος ἐν πάσῃ ἀγαθωσύνῃ καὶ δικαιοσύνῃ καὶ ἀληθείᾳ —
+   - SBLGNT: ὁ γὰρ καρπὸς τοῦ φωτὸς ἐν πάσῃ ἀγαθωσύνῃ καὶ δικαιοσύνῃ καὶ ἀληθείᾳ,
+   - Vulgate: fructus enim lucis est in omni bonitate, et justitia, et veritate:
+   - BSB: for the fruit of the light consists in all goodness, righteousness, and truth.
+   - WEB: for the fruit of the Spirit is in all goodness and righteousness and truth,
+- **5:22** add (word): critical *ἀνδράσιν* ] RP *+ ὑποτάσσεσθε*
+   - Latin: Vōs uxōrēs, vestrīs pārēte virīs, ut Dominō.
+   - 1573: Vos vxores vestris parete viris, vt Domino.
+   - TR: Αἱ γυναῖκες, τοῖς ἰδίοις ἀνδράσιν ὑποτάσσεσθε, ὡς τῷ Κυρίῳ.
+   - SBLGNT: Αἱ γυναῖκες τοῖς ἰδίοις ἀνδράσιν ὡς τῷ κυρίῳ,
+   - Vulgate: Mulieres viris suis subditæ sint, sicut Domino:
+   - BSB: Wives, submit to your husbands as to the Lord.
+   - WEB: Wives, be subject to your own husbands, as to the Lord.
+- **5:23** substitute (word): critical *αὐτὸς* ] RP *καὶ αὐτὸς ἐστιν*
+   - Latin: Nam vir caput uxōris est, ut Chrīstus ecclēsiæ caput, īdemque corporis Servātor est.
+   - 1573: Nam vir caput vxoris est, vt Christus Ecclesiæ caput, idemque corporis seruator est.
+   - TR: Ὅτι ὁ ἀνήρ ἐστι κεφαλὴ τῆς γυναικός, ὡς καὶ ὁ Χριστὸς κεφαλὴ τῆς ἐκκλησίας, καὶ αὐτός ἐστι σωτὴρ τοῦ σώματος.
+   - SBLGNT: ὅτι ἀνήρ ἐστιν κεφαλὴ τῆς γυναικὸς ὡς καὶ ὁ Χριστὸς κεφαλὴ τῆς ἐκκλησίας, αὐτὸς σωτὴρ τοῦ σώματος.
+   - Vulgate: quoniam vir caput est mulieris, sicut Christus caput est Ecclesiæ: ipse, salvator corporis ejus.
+   - BSB: For the husband is the head of the wife as Christ is the head of the church, His body, of which He is the Savior.
+   - WEB: For the husband is the head of the wife, as Christ also is the head of the assembly, being himself the savior of the body.
+- **5:24** add (word): critical *τοῖς* ] RP *+ ἰδίοις*
+   - Latin: Ac quemadmodum ecclēsia Chrīstō pāret, sīc uxōrēs suīs virīs pārēre dēbent in omnibus.
+   - 1573: Ac quemadmodum Ecclesia Christo paret, sic vxores suis viris parêre debent in omnibus.
+   - TR: Ἀλλ᾿ ὥσπερ ἡ ἐκκλησία ὑποτάσσεται τῷ Χριστῷ, οὕτω καὶ αἱ γυναῖκες τοῖς ἰδίοις ἀνδράσιν ἐν παντί.
+   - SBLGNT: ἀλλὰ ὡς ἡ ἐκκλησία ὑποτάσσεται τῷ Χριστῷ, οὕτως καὶ αἱ γυναῖκες τοῖς ἀνδράσιν ἐν παντί.
+   - Vulgate: Sed sicut Ecclesia subjecta est Christo, ita et mulieres viris suis in omnibus.
+   - BSB: Now as the church submits to Christ, so also wives should submit to their husbands in everything.
+   - WEB: But as the assembly is subject to Christ, so let the wives also be to their own husbands in everything.
+- **5:25** add (word): critical *γυναῖκας* ] RP *+ ἑαυτῶν*
+   - Latin: Vōs virī, amāte vestrās uxōrēs, ut Chrīstus amāvit ecclēsiam, sēque prō eā dēdidit,
+   - 1573: Vos viri amate vestras vxores, vt Christus amauit Ecclesiam, seque pro ea dedidit,
+   - TR: Οἱ ἄνδρες, ἀγαπᾶτε τὰς γυναῖκας ἑαυτῶν, καθὼς καὶ ὁ Χριστὸς ἠγάπησε τὴν ἐκκλησίαν, καὶ ἑαυτὸν παρέδωκεν ὑπὲρ αὐτῆς·
+   - SBLGNT: Οἱ ἄνδρες, ἀγαπᾶτε τὰς γυναῖκας, καθὼς καὶ ὁ Χριστὸς ἠγάπησεν τὴν ἐκκλησίαν καὶ ἑαυτὸν παρέδωκεν ὑπὲρ αὐτῆς,
+   - Vulgate: Viri, diligite uxores vestras, sicut et Christus dilexit Ecclesiam, et seipsum tradidit pro ea,
+   - BSB: Husbands, love your wives, just as Christ loved the church and gave Himself up for her
+   - WEB: Husbands, love your wives, even as Christ also loved the assembly and gave himself up for her,
+- **5:29** substitute (word): critical *Χριστὸς* ] RP *κύριος*
+   - Latin: Nam nēmō umquam suum corpus ōdit, sed id alit fovetque, ut Chrīstus ecclēsiam:
+   - 1573: Nam nemo vnquam suum corpus odit, sed id alit fouetque, vt Christus Ecclesiam:
+   - TR: οὐδεὶς γάρ ποτε τὴν ἑαυτοῦ σάρκα ἐμίσησεν, ἀλλ᾿ ἐκτρέφει καὶ θάλπει αὐτήν, καθὼς καὶ ὁ Κύριος τὴν ἐκκλησίαν·
+   - SBLGNT: οὐδεὶς γάρ ποτε τὴν ἑαυτοῦ σάρκα ἐμίσησεν, ἀλλὰ ἐκτρέφει καὶ θάλπει αὐτήν, καθὼς καὶ ὁ Χριστὸς τὴν ἐκκλησίαν,
+   - Vulgate: Nemo enim umquam carnem suam odio habuit: sed nutrit et fovet eam, sicut et Christus Ecclesiam:
+   - BSB: Indeed, no one ever hated his own body, but he nourishes and cherishes it, just as Christ does the church.
+   - WEB: For no man ever hated his own flesh, but nourishes and cherishes it, even as the Lord also does the assembly,
+- **6:10** substitute (word): critical *Τοῦ λοιποῦ* ] RP *Τὸ λοιπόν ἀδελφοί μου*
+   - Latin: Cēterum, meī frātrēs, convalēscite in Dominō, ejusque virtūtis rōbore
+   - 1573: Cæterùm, mei fratres, conualescite in Domino, eiusque virtutis robore.
+   - TR: Τὸ λοιπόν, ἀδελφοί μου, ἐνδυναμοῦσθε ἐν Κυρίῳ, καὶ ἐν τῷ κράτει τῆς ἰσχύος αὐτοῦ.
+   - SBLGNT: Τοῦ λοιποῦ ἐνδυναμοῦσθε ἐν κυρίῳ καὶ ἐν τῷ κράτει τῆς ἰσχύος αὐτοῦ.
+   - Vulgate: De cetero, fratres, confortamini in Domino, et in potentia virtutis ejus.
+   - BSB: Finally, be strong in the Lord and in His mighty power.
+   - WEB: Finally, be strong in the Lord and in the strength of his might.
+- **6:12** add (word): critical *σκότους* ] RP *+ τοῦ αἰῶνος*
+   - Latin: Nec enim nōbīs lucta est adversus sanguinem et carnem, sed adversus prīncipātūs, adversus potestātēs, adversus mundipotentēs tenebrārum hujus sæculī, adversus spīritūs malitiæ, quī sunt in rēbus cælestibus.
+   - 1573: Nec enim nobis lucta est aduersus sanguinem et carnem, sed aduersus principatus, aduersus potestates, aduersus mundipotentes tenebrarum huius seculi, aduersus spiritus malitiæ, qui sunt in rebus cœlestibus.
+   - TR: Ὅτι οὐκ ἔστιν ἡμῖν ἡ πάλη πρὸς αἷμα καὶ σάρκα, ἀλλὰ πρὸς τὰς ἀρχάς, πρὸς τὰς ἐξουσίας, πρὸς τοὺς κοσμοκράτορας τοῦ σκότους τοῦ αἰῶνος τούτου, πρὸς τὰ πνευματικὰ τῆς πονηρίας ἐν τοῖς ἐπουρανίοις.
+   - SBLGNT: ὅτι οὐκ ἔστιν ἡμῖν ἡ πάλη πρὸς αἷμα καὶ σάρκα, ἀλλὰ πρὸς τὰς ἀρχάς, πρὸς τὰς ἐξουσίας, πρὸς τοὺς κοσμοκράτορας τοῦ σκότους τούτου, πρὸς τὰ πνευματικὰ τῆς πονηρίας ἐν τοῖς ἐπουρανίοις.
+   - Vulgate: quoniam non est nobis colluctatio adversus carnem et sanguinem, sed adversus principes, et potestates, adversus mundi rectores tenebrarum harum, contra spiritualia nequitiæ, in cælestibus.
+   - BSB: For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this world’s darkness, and against the spiritual forces of evil in the heavenly realms.
+   - WEB: For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world’s rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.
+
+## The TR alone (RP with the critical text; 17 verses)
+
+- **1:18** substitute (word): SBLGNT *καρδιας* ] TR *διανοιας*
+   - Latin: Illūstrātīs vestræ mentis oculīs, ut sciātis, quid spērandum sit vocātīs ab eō, et quam locuplēs glōriōsaque sit ejus hērēditās dēstināta sānctīs,
+   - 1573: illustratis vestræ mentis oculis, vt sciatis quid sperandum sit vocatis ab eo et quàm locuples, gloriosaque sit eius hæreditas destinata sanctis,
+   - TR: πεφωτισμένους τοὺς ὀφθαλμοὺς τῆς διανοίας ὑμῶν, εἰς τὸ εἰδέναι ὑμᾶς τίς ἐστιν ἡ ἐλπὶς τῆς κλήσεως αὐτοῦ, καὶ τίς ὁ πλοῦτος τῆς δόξης τῆς κληρονομίας αὐτοῦ ἐν τοῖς ἁγίοις,
+   - SBLGNT: πεφωτισμένους τοὺς ὀφθαλμοὺς τῆς καρδίας ὑμῶν εἰς τὸ εἰδέναι ὑμᾶς τίς ἐστιν ἡ ἐλπὶς τῆς κλήσεως αὐτοῦ, τίς ὁ πλοῦτος τῆς δόξης τῆς κληρονομίας αὐτοῦ ἐν τοῖς ἁγίοις,
+   - Vulgate: illuminatos oculos cordis vestri, ut sciatis quæ sit spes vocationis ejus, et quæ divitiæ gloriæ hæreditatis ejus in sanctis,
+   - BSB: I ask that the eyes of your heart may be enlightened, so that you may know the hope of His calling, the riches of His glorious inheritance in the saints,
+   - WEB: having the eyes of your hearts enlightened, that you may know what is the hope of his calling, and what are the riches of the glory of his inheritance in the saints,
+- **2:14** omit (clause): SBLGNT *την εχθραν εν τη σαρκι αυτου* ] TR *–*
+   - Latin: Is est enim pāx nostra, quī ex ambōbus ūnum fēcit, sæptīque interstitium abrūpit,
+   - 1573: Is est enim pax nostra, qui ex ambobus vnum fecit, septique interstitium abrupit,
+   - TR: Αὐτὸς γάρ ἐστιν ἡ εἰρήνη ἡμῶν, ὁ ποιήσας τὰ ἀμφότερα ἕν, καὶ τὸ μεσότοιχον τοῦ φραγμοῦ λύσας,
+   - SBLGNT: αὐτὸς γάρ ἐστιν ἡ εἰρήνη ἡμῶν, ὁ ποιήσας τὰ ἀμφότερα ἓν καὶ τὸ μεσότοιχον τοῦ φραγμοῦ λύσας, τὴν ἔχθραν ἐν τῇ σαρκὶ αὐτοῦ,
+   - Vulgate: Ipse enim est pax nostra, qui fecit utraque unum, et medium parietem maceriæ solvens, inimicitias in carne sua,
+   - BSB: For He Himself is our peace, who has made the two one and has torn down the dividing wall of hostility
+   - WEB: For he is our peace, who made both one, and broke down the middle wall of separation,
+- **2:15** add (clause): SBLGNT *–* ] TR *+ την εχθραν εν τη σαρκι αυτου*; substitute (word): SBLGNT *αυτω* ] TR *εαυτω*
+   - Latin: et inimīcitiās, lēgem præceptōrum in placitīs positam, in suā carne abolēvit, ut in sēsē ex duōbus conderet ūnum novum hominem, faciendō pācem,
+   - 1573: et inimicitias, legem præceptorum in placitis positam, in sua carne aboleuit, vt in sese ex duobus conderet vnum nouum hominem, faciendo pacem,
+   - TR: τὴν ἔχθραν ἐν τῇ σαρκὶ αὐτοῦ, τὸν νόμον τῶν ἐντολῶν ἐν δόγμασι, καταργήσας· ἵνα τοὺς δύο κτίσῃ ἐν ἑαυτῷ εἰς ἕνα καινὸν ἄνθρωπον, ποιῶν εἰρήνην,
+   - SBLGNT: τὸν νόμον τῶν ἐντολῶν ἐν δόγμασιν καταργήσας, ἵνα τοὺς δύο κτίσῃ ἐν αὑτῷ εἰς ἕνα καινὸν ἄνθρωπον ποιῶν εἰρήνην,
+   - Vulgate: legem mandatorum decretis evacuans, ut duos condat in semetipso in unum novum hominem, faciens pacem:
+   - BSB: by abolishing in His flesh the law of commandments and decrees. He did this to create in Himself one new man out of the two, thus making peace
+   - WEB: having abolished in his flesh the hostility, the law of commandments contained in ordinances, that he might create in himself one new man of the two, making peace,
+- **3:2** substitute (word): SBLGNT *ει γε* ] TR *ειγε*
+   - Latin: Sī modo audīstis Deī beneficiī dispēnsātiōnem, quod mihi ad vōs collātum est:
+   - 1573: si modò audiuistis Dei beneficij dispensationem, quod mihi ad vos collatum est:
+   - TR: εἴγε ἠκούσατε τὴν οἰκονομίαν τῆς χάριτος τοῦ Θεοῦ τῆς δοθείσης μοι εἰς ὑμᾶς,
+   - SBLGNT: εἴ γε ἠκούσατε τὴν οἰκονομίαν τῆς χάριτος τοῦ θεοῦ τῆς δοθείσης μοι εἰς ὑμᾶς·
+   - Vulgate: si tamen audistis dispensationem gratiæ Dei, quæ data est mihi in vobis:
+   - BSB: Surely you have heard about the stewardship of God’s grace that was given to me for you,
+   - WEB: if it is so that you have heard of the administration of that grace of God which was given me toward you,
+- **3:9** substitute (word): SBLGNT *οικονομια* ] TR *κοινωνια*
+   - Latin: et omnibus perspicuum faciam, quæ sit mystēriī commūniō, quod ab omnī æternitāte apud Deum (quī omnia per Jēsum Chrīstum condidit) fuit cēlātum,
+   - 1573: et omnibus perspicuum faciam, quæ sit mysterij communio, quod ab omni æternitate apud Deum (qui omnia per Iesum Christum condidit) fuit celatum,
+   - TR: καὶ φωτίσαι πάντας τίς ἡ κοινωνία τοῦ μυστηρίου τοῦ ἀποκεκρυμμένου ἀπὸ τῶν αἰώνων ἐν τῷ Θεῷ τῷ τὰ πάντα κτίσαντι διὰ Ἰησοῦ Χριστοῦ,
+   - SBLGNT: καὶ φωτίσαι πάντας τίς ἡ οἰκονομία τοῦ μυστηρίου τοῦ ἀποκεκρυμμένου ἀπὸ τῶν αἰώνων ἐν τῷ θεῷ τῷ τὰ πάντα κτίσαντι,
+   - Vulgate: et illuminare omnes, quæ sit dispensatio sacramenti absconditi a sæculis in Deo, qui omnia creavit:
+   - BSB: and to illuminate for everyone the stewardship of this mystery, which for ages past was kept hidden in God, who created all things.
+   - WEB: and to make all men see what is the administration of the mystery which for ages has been hidden in God, who created all things through Jesus Christ,
+- **3:17** omit (clause): SBLGNT *εν αγαπη ερριζωμενοι και τεθεμελιωμενοι* ] TR *–*
+   - Latin: quō habitet Chrīstus per fidem in vestrīs animīs,
+   - 1573: quo habitet Christus per fidem in vestris animis,
+   - TR: κατοικῆσαι τὸν Χριστὸν διὰ τῆς πίστεως ἐν ταῖς καρδίαις ὑμῶν·
+   - SBLGNT: κατοικῆσαι τὸν Χριστὸν διὰ τῆς πίστεως ἐν ταῖς καρδίαις ὑμῶν ἐν ἀγάπῃ· ἐρριζωμένοι καὶ τεθεμελιωμένοι,
+   - Vulgate: Christum habitare per fidem in cordibus vestris: in caritate radicati, et fundati,
+   - BSB: so that Christ may dwell in your hearts through faith. Then you, being rooted and grounded in love,
+   - WEB: that Christ may dwell in your hearts through faith, to the end that you, being rooted and grounded in love,
+- **3:18** add (clause): SBLGNT *–* ] TR *+ εν αγαπη ερριζωμενοι και τεθεμελιωμενοι*
+   - Latin: et sītis in cāritāte rādīcātī atque fundātī, ut comprehendere ac cognōscere valeātis ūnā cum sānctīs omnibus, quam lātē longēque, quam altē ac sublīme pateat,
+   - 1573: et sitis in charitate radicati atque fundati, vt comprehendere ac cognoscere valeatis, vnà cum sanctis omnibus, quàm latè longeque, quâm altè ac sublime pateat,
+   - TR: ἐν ἀγάπῃ ἐρριζωμένοι καὶ τεθεμελιωμένοι ἵνα ἐξισχύσητε καταλαβέσθαι σὺν πᾶσι τοῖς ἁγίοις τί τὸ πλάτος καὶ μῆκος καὶ βάθος καὶ ὕψος,
+   - SBLGNT: ἵνα ἐξισχύσητε καταλαβέσθαι σὺν πᾶσιν τοῖς ἁγίοις τί τὸ πλάτος καὶ μῆκος καὶ ὕψος καὶ βάθος,
+   - Vulgate: ut possitis comprehendere cum omnibus sanctis, quæ sit latitudo, et longitudo, et sublimitas, et profundum:
+   - BSB: will have power, together with all the saints, to comprehend the length and width and height and depth
+   - WEB: may be strengthened to comprehend with all the saints what is the width and length and height and depth,
+- **3:20** substitute (word): SBLGNT *υπερεκπερισσου* ] TR *υπερ εκπερισσου*
+   - Latin: Eī vērō, quī eā vī, quæ viget in nōbīs, potest omnia longē longēque cōpiōsius facere, quam nōs poscere aut cōgitāre,
+   - 1573: Ei verò, qui ea vi, quæ viget in nobis, potest omnia longè longeque copiosius facere, quàm nos poscere aut cogitare,
+   - TR: Τῷ δὲ δυναμένῳ ὑπὲρ πάντα ποιῆσαι ὑπὲρ ἐκπερισσοῦ ὧν αἰτούμεθα ἢ νοοῦμεν, κατὰ τὴν δύναμιν τὴν ἐνεργουμένην ἐν ἡμῖν,
+   - SBLGNT: Τῷ δὲ δυναμένῳ ὑπὲρ πάντα ποιῆσαι ὑπερεκπερισσοῦ ὧν αἰτούμεθα ἢ νοοῦμεν κατὰ τὴν δύναμιν τὴν ἐνεργουμένην ἐν ἡμῖν,
+   - Vulgate: Ei autem, qui potens est omnia facere superabundanter quam petimus aut intelligimus, secundum virtutem, quæ operatur in nobis:
+   - BSB: Now to Him who is able to do so much more than all we ask or imagine, according to His power that is at work within us,
+   - WEB: Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us,
+- **4:2** substitute (word): SBLGNT *πραυτητος* ] TR *πραοτητος*
+   - Latin: cum omnī modestiā ac mānsuētūdine, cum patientiā, ferentēs alius alium cum cāritāte,
+   - 1573: cum omni modestia ac mansuetudine, cum patientia, ferentes alius alium cum charitate,
+   - TR: μετὰ πάσης ταπεινοφροσύνης καὶ πρᾳότητος, μετὰ μακροθυμίας, ἀνεχόμενοι ἀλλήλων ἐν ἀγάπῃ,
+   - SBLGNT: μετὰ πάσης ταπεινοφροσύνης καὶ πραΰτητος, μετὰ μακροθυμίας, ἀνεχόμενοι ἀλλήλων ἐν ἀγάπῃ,
+   - Vulgate: cum omni humilitate, et mansuetudine, cum patientia, supportantes invicem in caritate,
+   - BSB: with all humility and gentleness, with patience, bearing with one another in love,
+   - WEB: with all lowliness and humility, with patience, bearing with one another in love,
+- **4:21** substitute (word): SBLGNT *ει γε* ] TR *ειγε*
+   - Latin: sī modo eum audīstis, et ab eō (ut est in Jēsū vēritās) doctī estis,
+   - 1573: si modò eum audiuistis, et ab eo (vt est in Iesu veritas) docti estis,
+   - TR: εἴγε αὐτὸν ἠκούσατε καὶ ἐν αὐτῷ ἐδιδάχθητε, καθώς ἐστιν ἀλήθεια ἐν τῷ Ἰησοῦ·
+   - SBLGNT: εἴ γε αὐτὸν ἠκούσατε καὶ ἐν αὐτῷ ἐδιδάχθητε, καθώς ἐστιν ἀλήθεια ἐν τῷ Ἰησοῦ,
+   - Vulgate: si tamen illum audistis, et in ipso edocti estis, sicut est veritas in Jesu,
+   - BSB: Surely you heard of Him and were taught in Him—in keeping with the truth that is in Jesus—
+   - WEB: if indeed you heard him and were taught in him, even as truth is in Jesus:
+- **4:27** substitute (word): SBLGNT *μηδε* ] TR *μητε*
+   - Latin: nēve locum date diabolō.
+   - 1573: neue locum date diabolo.
+   - TR: μήτε δίδοτε τόπον τῷ διαβόλῳ.
+   - SBLGNT: μηδὲ δίδοτε τόπον τῷ διαβόλῳ.
+   - Vulgate: Nolite locum dare diabolo:
+   - BSB: and do not give the devil a foothold.
+   - WEB: and don’t give place to the devil.
+- **5:13** add (clause): SBLGNT *–* ] TR *+ παν γαρ το φανερουμενον φως εστι*
+   - Latin: Omnia autem, quæ arguuntur, lūce patefīunt. Quidquid enim patefit, lūcidum est.
+   - 1573: Omnia autem quæ arguuntur, luce patefiunt. Quicquid enim patefit, lucidum est,
+   - TR: Τὰ δὲ πάντα ἐλεγχόμενα ὑπὸ τοῦ φωτὸς φανεροῦται· πᾶν γὰρ τὸ φανερούμενον φῶς ἐστί.
+   - SBLGNT: τὰ δὲ πάντα ἐλεγχόμενα ὑπὸ τοῦ φωτὸς φανεροῦται,
+   - Vulgate: Omnia autem, quæ arguuntur, a lumine manifestantur: omne enim, quod manifestatur, lumen est.
+   - BSB: But everything exposed by the light becomes visible, for everything that is illuminated becomes a light itself.
+   - WEB: But all things, when they are reproved, are revealed by the light, for everything that reveals is light.
+- **5:14** omit (clause): SBLGNT *παν γαρ το φανερουμενον φως εστι* ] TR *–*
+   - Latin: Proptereā, “Expergīscere, quī dormīs,” inquit, “et surge ex mortuīs, et tibi Chrīstus affulgēbit.”
+   - 1573: Propterea, Expergiscere qui dormis (inquit) et surge ex mortuis, et tibi Christus affulgebit.
+   - TR: Διὸ λέγει, Ἔγειραι ὁ καθεύδων καὶ ἀνάστα ἐκ τῶν νεκρῶν, καὶ ἐπιφαύσει σοι ὁ Χριστός.
+   - SBLGNT: πᾶν γὰρ τὸ φανερούμενον φῶς ἐστιν. διὸ λέγει· Ἔγειρε, ὁ καθεύδων, καὶ ἀνάστα ἐκ τῶν νεκρῶν, καὶ ἐπιφαύσει σοι ὁ Χριστός.
+   - Vulgate: Propter quod dicit: Surge qui dormis, et exsurge a mortuis, et illuminabit te Christus.
+   - BSB: So it is said: “Wake up, O sleeper, rise up from the dead, and Christ will shine on you.”
+   - WEB: Therefore he says, “Awake, you who sleep, and arise from the dead, and Christ will shine on you.”
+- **5:21** substitute (word): SBLGNT *χριστου* ] TR *θεου*
+   - Latin: Alius aliī obœdientēs cum Deī metū.
+   - 1573: alius alij obedientes cum Dei metu.
+   - TR: ὑποτασσόμενοι ἀλλήλοις ἐν φόβῳ Θεοῦ.
+   - SBLGNT: ὑποτασσόμενοι ἀλλήλοις ἐν φόβῳ Χριστοῦ.
+   - Vulgate: subjecti invicem in timore Christi.
+   - BSB: Submit to one another out of reverence for Christ.
+   - WEB: subjecting yourselves to one another in the fear of Christ.
+- **5:31** substitute (word): SBLGNT *τη γυναικι* ] TR *προς την γυναικα*
+   - Latin: “Proptereā homō, relictō patre atque mātre, adhærēbit uxōrī suæ, fīetque ex duōbus ūna carō.”
+   - 1573: Propterea homo, relicto patre atque matre, adhærebit vxori suæ, fietque ex duobus vna caro.
+   - TR: Ἀντὶ τούτου καταλείψει ἄνθρωπος τὸν πατέρα αὐτοῦ καὶ τὴν μητέρα, καὶ προσκολληθήσεται πρὸς τὴν γυναῖκα αὐτοῦ, καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν.
+   - SBLGNT: ἀντὶ τούτου καταλείψει ἄνθρωπος τὸν πατέρα καὶ τὴν μητέρα καὶ προσκολληθήσεται τῇ γυναικὶ αὐτοῦ, καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν.
+   - Vulgate: Propter hoc relinquet homo patrem et matrem suam, et adhærebit uxori suæ, et erunt duo in carne una.
+   - BSB: “For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh.”
+   - WEB: “For this cause a man will leave his father and mother and will be joined to his wife. Then the two will become one flesh.”
+- **6:19** substitute (word): SBLGNT *δοθη* ] TR *δοθειη*
+   - Latin: tum prō mē, ut mihi dētur ōrātiō ad līberē verba faciendum, dēclārandō euangeliī mystēriō,
+   - 1573: tum pro me vt mihi detur oratio, ad liberè verba faciendum, declarando Euangelij mysterio,
+   - TR: καὶ ὑπὲρ ἐμοῦ, ἵνα μοι δοθείη λόγος ἐν ἀνοίξει τοῦ στόματός μου ἐν παρρησίᾳ γνωρίσαι τὸ μυστήριον τοῦ εὐαγγελίου,
+   - SBLGNT: καὶ ὑπὲρ ἐμοῦ, ἵνα μοι δοθῇ λόγος ἐν ἀνοίξει τοῦ στόματός μου, ἐν παρρησίᾳ γνωρίσαι τὸ μυστήριον τοῦ εὐαγγελίου
+   - Vulgate: et pro me, ut detur mihi sermo in apertione oris mei cum fiducia, notum facere mysterium Evangelii:
+   - BSB: Pray also for me, that whenever I open my mouth, words may be given me so that I will boldly make known the mystery of the gospel,
+   - WEB: Pray for me, that utterance may be given to me in opening my mouth, to make known with boldness the mystery of the Good News,
+- **6:24** add (clause): SBLGNT *–* ] TR *+ αμην προς εφεσιους εγραφη απο ρωμης δια τυχικου*
+   - Latin: Adsit Deī grātia immortālis omnibus, Dominum nostrum Jēsum Chrīstum amantibus: Āmēn.
+   - 1573: Adsit Dei gratia immortalis omnibus Dominum nostrum Iesum Christum amantibus: Amen.
+   - TR: Ἡ χάρις μετὰ πάντων τῶν ἀγαπώντων τὸν Κύριον ἡμῶν Ἰησοῦν Χριστὸν ἐν ἀφθαρσίᾳ. Ἀμήν. Πρὸς Ἐφεσίους ἐγράφη ἀπὸ Ῥώμης διὰ Τυχικοῦ.
+   - SBLGNT: ἡ χάρις μετὰ πάντων τῶν ἀγαπώντων τὸν κύριον ἡμῶν Ἰησοῦν Χριστὸν ἐν ἀφθαρσίᾳ.
+   - Vulgate: Gratia cum omnibus qui diligunt Dominum nostrum Jesum Christum in incorruptione. Amen.
+   - BSB: Grace to all who love our Lord Jesus Christ with an undying love.
+   - WEB: Grace be with all those who love our Lord Jesus Christ with incorruptible love. Amen.

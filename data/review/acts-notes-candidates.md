@@ -1,0 +1,3595 @@
+# Acts: candidates for light notes
+
+Built by `python -m pipeline notes Acts` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `acts-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 912; not a change of sense (order, article, form, small words): 528; the TR with the critical text: 42; in a verse already noted or bracketed: 0; **kept: 342**, in 289 verses. The TR alone against SBLGNT (no apparatus unit): 178, in 154 verses. Pronoun person (Latin against the TR): 3.
+
+## Text: clause (16 verses)
+
+- **1:14** add (clause): critical *προσευχῇ* ] RP *+ καὶ τῇ δεήσει*; substitute (name): critical *Μαριὰμ* ] RP *Μαρίᾳ*
+   - Latin: Hī omnēs vacābant ūnā mente precibus, ac supplicātiōnī, cum fēminīs, et Marīā, Jēsū mātre, cumque Jēsū frātribus.
+   - 1573: Hi omnes vacabant vna mente precibus ac supplicationi, cum fœminis, et Maria Iesu matre, cumque Iesu fratribus.
+   - TR: Οὗτοι πάντες ἦσαν προσκαρτεροῦντες ὁμοθυμαδὸν τῇ προσευχῇ καὶ τῇ δεήσει, σὺν γυναιξὶ καὶ Μαρίᾳ τῇ μητρὶ τοῦ Ἰησοῦ, καὶ σὺν τοῖς ἀδελφοῖς αὐτοῦ.
+   - SBLGNT: οὗτοι πάντες ἦσαν προσκαρτεροῦντες ὁμοθυμαδὸν τῇ προσευχῇ σὺν γυναιξὶν καὶ Μαριὰμ τῇ μητρὶ τοῦ Ἰησοῦ καὶ σὺν τοῖς ἀδελφοῖς αὐτοῦ.
+   - Vulgate: Hi omnes erant perseverantes unanimiter in oratione cum mulieribus, et Maria matre Jesu, et fratribus ejus.
+   - BSB: With one accord they all continued in prayer, along with the women and Mary the mother of Jesus, and with His brothers.
+   - WEB: All these with one accord continued steadfastly in prayer and supplication, along with the women and Mary the mother of Jesus, and with his brothers.
+- **2:30** add (clause): critical *αὐτοῦ* ] RP *+ τὸ κατὰ σάρκα ἀναστήσειν τὸν χριστόν*; substitute (word): critical *τὸν θρόνον* ] RP *τοῦ θρόνου*
+   - Latin: Sed cum vātēs esset, et scīret, Deum sibi jūrejūrandō prōmīsisse, sēsē ex ejus lumbōrum fētū, quod ad carnem pertinet, suscitātūrum esse Chrīstum, et in ejus soliō collocātūrum;
+   - 1573: Sed cùm vates esset, et sciret Deum sibi iureiurando promisisse, sese ex eius lumborum fætu, quod ad carnem pertinet, suscitaturum esse Christum, et in eius solio collocaturum,
+   - TR: Προφήτης οὖν ὑπάρχων, καὶ εἰδὼς ὅτι ὅρκῳ ὤμοσεν αὐτῷ ὁ Θεός, ἐκ καρποῦ τῆς ὀσφύος αὐτοῦ τὸ κατὰ σάρκα ἀναστήσειν τὸν Χριστόν, καθίσαι ἐπὶ τοῦ θρόνου αὐτοῦ,
+   - SBLGNT: προφήτης οὖν ὑπάρχων, καὶ εἰδὼς ὅτι ὅρκῳ ὤμοσεν αὐτῷ ὁ θεὸς ἐκ καρποῦ τῆς ὀσφύος αὐτοῦ καθίσαι ἐπὶ τὸν θρόνον αὐτοῦ,
+   - Vulgate: Propheta igitur cum esset, et sciret quia jurejurando jurasset illi Deus de fructu lumbi ejus sedere super sedem ejus:
+   - BSB: But he was a prophet and knew that God had promised him on oath that He would place one of his descendants on his throne.
+   - WEB: Therefore, being a prophet, and knowing that God had sworn with an oath to him that of the fruit of his body, according to the flesh, he would raise up the Christ to sit on his throne,
+- **3:22** add (clause): critical *μὲν* ] RP *+ γὰρ πρὸς τοὺς πατέρας*
+   - Latin: Mōsēs enim majōribus ita dīxit: ‘Vātem vōbīs suscitābit Dominus Deus vester ex vestrā cōnsanguinitāte, meī similem: eī obœdiētis ad omnia, quæ vōbīs dīxerit.
+   - 1573: Moses enim maioribus ita dixit: Vatem vobis suscitabit Dominus Deus vester ex vestra consanguinitate, mei similem: ei obedietis ad omnia quæ vobis dixerit.
+   - TR: Μωσῆς μὲν γὰρ πρὸς τοὺς πατέρας εἶπεν ὅτι Προφήτην ὑμῖν ἀναστήσει Κύριος ὁ Θεὸς ὑμῶν ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ· αὐτοῦ ἀκούσεσθε κατὰ πάντα ὅσα ἂν λαλήσῃ πρὸς ὑμᾶς.
+   - SBLGNT: Μωϋσῆς μὲν εἶπεν ὅτι Προφήτην ὑμῖν ἀναστήσει κύριος ὁ θεὸς ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ· αὐτοῦ ἀκούσεσθε κατὰ πάντα ὅσα ἂν λαλήσῃ πρὸς ὑμᾶς.
+   - Vulgate: Moyses quidem dixit: Quoniam prophetam suscitabit vobis Dominus Deus vester de fratribus vestris, tamquam me: ipsum audietis juxta omnia quæcumque locutus fuerit vobis.
+   - BSB: For Moses said, ‘The Lord your God will raise up for you a prophet like me from among your brothers. You must listen to Him in everything He tells you.
+   - WEB: For Moses indeed said to the fathers, ‘The Lord God will raise up a prophet for you from among your brothers, like me. You shall listen to him in all things whatever he says to you.
+- **4:25** omit (clause): critical *τοῦ πατρὸς ἡμῶν* ] RP *–*; omit (word): critical *πνεύματος ἁγίου* ] RP *–*
+   - Latin: Quī tuī Dāvīdis ōre sīc dīxistī: “‘Quid tumultuantur gentēs? populī vāna cōnantur?
+   - 1573: qui tui Dauidis ore sic dixisti: Quid tumultuantur gentes? populi vana conantur?
+   - TR: ὁ διὰ στόματος Δαβὶδ τοῦ παιδός σου εἰπών, Ἵνα τί ἐφρύαξαν ἔθνη, καὶ λαοὶ ἐμελέτησαν κενά;
+   - SBLGNT: ὁ τοῦ πατρὸς ἡμῶν διὰ πνεύματος ἁγίου στόματος Δαυὶδ παιδός σου εἰπών· Ἱνατί ἐφρύαξαν ἔθνη καὶ λαοὶ ἐμελέτησαν κενά;
+   - Vulgate: qui Spiritu Sancto per os patris nostri David pueri tui dixisti: [Quare fremuerunt gentes, et populi meditati sunt inania?
+   - BSB: You spoke by the Holy Spirit through the mouth of Your servant, our father David: ‘Why do the nations rage and the peoples plot in vain?
+   - WEB: who by the mouth of your servant David, said, ‘Why do the nations rage, and the peoples plot a vain thing?
+- **4:27** omit (clause): critical *ἐν τῇ πόλει ταύτῃ* ] RP *–*
+   - Latin: Coiērunt enim profectō adversus sānctum tuum puerum Jēsum, quem ūnxistī, Hērōdēs et Pontius Pīlātus, cum gentibus et populīs Isrāēlīticīs,
+   - 1573: Coiuerunt enim profectò aduersus sanctum tuum puerum Iesum, quem vnxisti, Herodes, et Pontius Pilatus, cum gentibus et populis Israeliticis,
+   - TR: συνήχθησαν γὰρ ἐπ᾿ ἀληθείας ἐπὶ τὸν ἅγιον παῖδά σου Ἰησοῦν, ὃν ἔχρισας, Ἡρῴδης τε καὶ Πόντιος Πιλάτος, σὺν ἔθνεσι καὶ λαοῖς Ἰσραήλ,
+   - SBLGNT: συνήχθησαν γὰρ ἐπʼ ἀληθείας ἐν τῇ πόλει ταύτῃ ἐπὶ τὸν ἅγιον παῖδά σου Ἰησοῦν, ὃν ἔχρισας, Ἡρῴδης τε καὶ Πόντιος Πιλᾶτος σὺν ἔθνεσιν καὶ λαοῖς Ἰσραήλ,
+   - Vulgate: Convenerunt enim vere in civitate ista adversus sanctum puerum tuum Jesum, quem unxisti, Herodes et Pontius Pilatus, cum gentibus et populis Israël,
+   - BSB: In fact, this is the very city where Herod and Pontius Pilate conspired with the Gentiles and the people of Israel against Your holy servant Jesus, whom You anointed.
+   - WEB: “For truly, both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,
+- **5:24** add (clause): critical *τε* ] RP *+ ἱερεὺς καὶ ὁ*
+   - Latin: Hīs verbīs audītīs, summus sacerdōs, et fānī antistes, ac pontificēs, dē iīs ambigēbant, quidnam id esset.
+   - 1573: His verbis auditis, summus sacerdos, et fani antistes, ac pontifices, de eis ambigebant quidnam id esset.
+   - TR: Ὡς δὲ ἤκουσαν τοὺς λόγους τούτους ὅ τε ἱερεὺς καὶ ὁ στρατηγὸς τοῦ ἱεροῦ καὶ οἱ ἀρχιερεῖς, διηπόρουν περὶ αὐτῶν, τί ἂν γένοιτο τοῦτο.
+   - SBLGNT: ὡς δὲ ἤκουσαν τοὺς λόγους τούτους ὅ τε στρατηγὸς τοῦ ἱεροῦ καὶ οἱ ἀρχιερεῖς, διηπόρουν περὶ αὐτῶν τί ἂν γένοιτο τοῦτο.
+   - Vulgate: Ut autem audierunt hos sermones magistratus templi et principes sacerdotum, ambigebant de illis quidnam fieret.
+   - BSB: When the captain of the temple guard and the chief priests heard this account, they were perplexed as to what was happening.
+   - WEB: Now when the high priest, the captain of the temple, and the chief priests heard these words, they were very perplexed about them and what might become of this.
+- **10:32** add (clause): critical *θάλασσαν* ] RP *+ ὃς παραγενόμενος λαλήσει σοι*
+   - Latin: Mitte ergō Joppēn arcessītum Simōnem, cui cognōmen est Petrus (is dīversātur in ædibus Simōnis coriāriī, apud mare) quī, ubi advēnerit, tēcum loquētur.’
+   - 1573: Mitte ergo Ioppen, accersitum Simonem, cui cognomen est Petrus (is diuersatur in ædibus Simonis coriarij, apud mare) qui vbi aduenerit, tecum loquetur.
+   - TR: Πέμψον οὖν εἰς Ἰόππην, καὶ μετακάλεσαι Σίμωνα ὃς ἐπικαλεῖται Πέτρος· οὗτος ξενίζεται ἐν οἰκίᾳ Σίμωνος βυρσέως παρὰ θάλασσαν· ὃς παραγενόμενος λαλήσει σοι.
+   - SBLGNT: πέμψον οὖν εἰς Ἰόππην καὶ μετακάλεσαι Σίμωνα ὃς ἐπικαλεῖται Πέτρος· οὗτος ξενίζεται ἐν οἰκίᾳ Σίμωνος βυρσέως παρὰ θάλασσαν.
+   - Vulgate: Mitte ergo in Joppen, et accersi Simonem qui cognominatur Petrus: hic hospitatur in domo Simonis coriarii juxta mare.
+   - BSB: Therefore send to Joppa for Simon, who is called Peter. He is a guest in the home of Simon the tanner, by the sea.’
+   - WEB: Send therefore to Joppa and summon Simon, who is also called Peter. He is staying in the house of a tanner named Simon, by the seaside. When he comes, he will speak to you.’
+- **15:18** add (clause): critical *αἰῶνος* ] RP *+ ἐστιν τῷ θεῷ πάντα τὰ ἔργα αὐτοῦ*
+   - Latin: Nōta sunt ab omnī æternitāte Deō omnia ejus opera.
+   - 1573: Nota sunt ab omni æternitate Deo, omnia eius opera.
+   - TR: Γνωστὰ ἀπ᾿ αἰῶνός ἐστι τῷ Θεῷ πάντα τὰ ἔργα αὐτοῦ.
+   - SBLGNT: γνωστὰ ἀπʼ αἰῶνος.
+   - Vulgate: Notum a sæculo est Domino opus suum.]
+   - BSB: that have been known for ages.’
+   - WEB: “All of God’s works are known to him from eternity.
+- **15:24** add (clause): critical *ὑμῶν* ] RP *+ λέγοντες περιτέμνεσθαι καὶ τηρεῖν τὸν νόμον*
+   - Latin: Quandoquidem audīvimus, ut quīdam ā nōbīs profectī, vōs sermōnibus turbāverint, labefactantēs vestrōs animōs, dīcendō, circumcīdendōs esse, lēgīque pārendum, cum id nōs iīs nōn mandāverimus:
+   - 1573: Quandoquidem audiuimus, vt quidam à nobis profecti, vos sermonibus turbauerint, labefactantes vestros animos, dicendo circumcidendos esse, legique parendum, cùm id nos eis non mandauerimus.
+   - TR: ἐπειδὴ ἠκούσαμεν ὅτι τινὲς ἐξ ἡμῶν ἐξελθόντες ἐτάραξαν ὑμᾶς λόγοις, ἀνασκευάζοντες τὰς ψυχὰς ὑμῶν, λέγοντες περιτέμνεσθαι καὶ τηρεῖν τὸν νόμον, οἷς οὐ διεστειλάμεθα·
+   - SBLGNT: ἐπειδὴ ἠκούσαμεν ὅτι τινὲς ἐξ ἡμῶν ἐξελθόντες ἐτάραξαν ὑμᾶς λόγοις ἀνασκευάζοντες τὰς ψυχὰς ὑμῶν οἷς οὐ διεστειλάμεθα,
+   - Vulgate: Quoniam audivimus quia quidam ex nobis exeuntes, turbaverunt vos verbis, evertentes animas vestras, quibus non mandavimus,
+   - BSB: It has come to our attention that some went out from us without our authorization and unsettled you, troubling your minds by what they said.
+   - WEB: Because we have heard that some who went out from us have troubled you with words, unsettling your souls, saying, ‘You must be circumcised and keep the law,’ to whom we gave no commandment;
+- **18:21** substitute (word): critical *ἀλλὰ ἀποταξάμενος καὶ* ] RP *ἀλλʼ ἀπετάξατο αὐτοῖς*; add (clause): critical *εἰπών* ] RP *+ Δεῖ με πάντως τὴν ἑορτὴν τὴν ἐρχομένην ποιῆσαι εἰς Ἱεροσόλυμα*
+   - Latin: Sed valedīxit cum hujusmodī verbīs: “Mihi omnīnō Hierosolymæ agendum est proximum fēstum: sed ad vōs revertar, volente Deō.” Ita solvit ab Ephesō.
+   - 1573: sed valedixit cum huiusmodi verbis: Mihi omnino Hierosolymæ agendum est proximum festum: sed ad vos reuertar, volente Deo. Ita soluit ab Epheso,
+   - TR: ἀλλ᾿ ἀπετάξατο αὐτοῖς εἰπών, Δεῖ με πάντως τὴν ἑορτὴν τὴν ἐρχομένην ποιῆσαι εἰς Ἱεροσόλυμα· πάλιν δὲ ἀνακάμψω πρὸς ὑμᾶς, τοῦ Θεοῦ θέλοντος. Καὶ ἀνήχθη ἀπὸ τῆς Ἐφέσου,
+   - SBLGNT: ἀλλὰ ἀποταξάμενος καὶ εἰπών· Πάλιν ἀνακάμψω πρὸς ὑμᾶς τοῦ θεοῦ θέλοντος ἀνήχθη ἀπὸ τῆς Ἐφέσου,
+   - Vulgate: sed valefaciens, et dicens: Iterum revertar ad vos, Deo volente: profectus est ab Epheso.
+   - BSB: But as he left, he said, “I will come back to you if God is willing.” And he set sail from Ephesus.
+   - WEB: but taking his leave of them, he said, “I must by all means keep this coming feast in Jerusalem, but I will return again to you if God wills.” Then he set sail from Ephesus.
+- **20:4** add (clause): critical *αὐτῷ* ] RP *+ ἄχρι τῆς Ἀσίας*; omit (name): critical *Πύρρου* ] RP *–*
+   - Latin: Comitātus est eum ūsque in Asiam Sōpater Berrhœēnsis, Thessalonīcēnsium Aristarchus, et Secundus, et Gāius Derbæus, et Tīmotheus: Asiānī vērō, Tychicus et Trophimus.
+   - 1573: Comitatus est eum vsque in Asiam Sopater Berrœensis, Thessalonicensium Aristarchus, et Secundus, et Caius Derbæus, et Timotheus: Asiani verò Tychicus, et Trophimus.
+   - TR: Συνείπετο δὲ αὐτῷ ἄχρι τῆς Ἀσίας Σώπατρος Βεροιαῖος· Θεσσαλονικέων δέ, Ἀρίσταρχος καὶ Σεκοῦνδος, καὶ Γάϊος Δερβαῖος, καὶ Τιμόθεος· Ἀσιανοὶ δέ, Τυχικὸς καὶ Τρόφιμος.
+   - SBLGNT: συνείπετο δὲ αὐτῷ Σώπατρος Πύρρου Βεροιαῖος, Θεσσαλονικέων δὲ Ἀρίσταρχος καὶ Σεκοῦνδος, καὶ Γάϊος Δερβαῖος καὶ Τιμόθεος, Ἀσιανοὶ δὲ Τυχικὸς καὶ Τρόφιμος·
+   - Vulgate: Comitatus est autem eum Sopater Pyrrhi Berœensis, Thessalonicensium vero Aristarchus, et Secundus, et Gajus Derbeus, et Timotheus: Asiani vero Tychicus et Trophimus.
+   - BSB: Paul was accompanied by Sopater son of Pyrrhus from Berea, Aristarchus and Secundus from Thessalonica, Gaius from Derbe, Timothy, and Tychicus and Trophimus from the province of Asia.
+   - WEB: These accompanied him as far as Asia: Sopater of Beroea, Aristarchus and Secundus of the Thessalonians, Gaius of Derbe, Timothy, and Tychicus and Trophimus of Asia.
+- **20:15** add (clause): critical *Σάμον* ] RP *+ καὶ μείναντες ἐν Τρωγυλλίῳ*
+   - Latin: Inde nāvigantēs, postrīdiē vēnimus contrā Chium. Sequentī diē in Samum appulimus: et Trōgylliī morātī, posterō diē vēnimus in Mīlētum.
+   - 1573: Inde nauigantes, postridie venimus contra Chium. Sequenti die in Samum appulimus: et Trogyllij morati, postero die venimus in Miletum.
+   - TR: Κἀκεῖθεν ἀποπλεύσαντες, τῇ ἐπιούσῃ κατηντήσαμεν ἀντικρὺ Χίου· τῇ δὲ ἑτέρᾳ παρεβάλομεν εἰς Σάμον· καὶ μείναντες ἐν Τρωγυλλίῳ, τῇ ἐχομένῃ ἤλθομεν εἰς Μίλητον.
+   - SBLGNT: κἀκεῖθεν ἀποπλεύσαντες τῇ ἐπιούσῃ κατηντήσαμεν ἄντικρυς Χίου, τῇ δὲ ἑτέρᾳ παρεβάλομεν εἰς Σάμον, τῇ δὲ ἐχομένῃ ἤλθομεν εἰς Μίλητον·
+   - Vulgate: Et inde navigantes, sequenti die venimus contra Chium, et alia applicuimus Samum, et sequenti die venimus Miletum.
+   - BSB: Sailing on from there, we arrived the next day opposite Chios. The day after that we arrived at Samos, and on the following day we came to Miletus.
+   - WEB: Sailing from there, we came the following day opposite Chios. The next day we touched at Samos and stayed at Trogyllium, and the day after we came to Miletus.
+- **21:25** add (clause): critical *κρίναντες* ] RP *+ μηδὲν τοιοῦτον τηρεῖν αὐτούς εἰ μὴ*
+   - Latin: Quod ad extrāneōs, quī crēdidērunt, attinet, nōs scrīptō ad eōs dēcrēvimus, nihil tāle servandum iīs esse, nisi ut deastrīs immolāta, et sanguinem, et suffōcāta, et stuprum vītent.”
+   - 1573: Quod ad extraneos, qui crediderunt, attinet, nos scripto ad eos decreuimus, nihil tale seruandum eis esse, nisi vt deastris immolata, et sanguinem, et suffocata, et stuprum vitent.
+   - TR: Περὶ δὲ τῶν πεπιστευκότων ἐθνῶν ἡμεῖς ἐπεστείλαμεν, κρίναντες μηδὲν τοιοῦτον τηρεῖν αὐτούς, εἰ μὴ φυλάσσεσθαι αὐτοὺς τό τε εἰδωλόθυτον καὶ τὸ αἷμα καὶ πνικτὸν καὶ πορνείαν.
+   - SBLGNT: περὶ δὲ τῶν πεπιστευκότων ἐθνῶν ἡμεῖς ἀπεστείλαμεν κρίναντες φυλάσσεσθαι αὐτοὺς τό τε εἰδωλόθυτον καὶ αἷμα καὶ πνικτὸν καὶ πορνείαν.
+   - Vulgate: De his autem qui crediderunt ex gentibus, nos scripsimus judicantes ut abstineant se ab idolis immolato, et sanguine, et suffocato, et fornicatione.
+   - BSB: As for the Gentile believers, we have written to them our decision that they must abstain from food sacrificed to idols, from blood, from the meat of strangled animals, and from sexual immorality.”
+   - WEB: But concerning the Gentiles who believe, we have written our decision that they should observe no such thing, except that they should keep themselves from food offered to idols, from blood, from strangled things, and from sexual immorality.”
+- **22:9** add (clause): critical *ἐθεάσαντο* ] RP *+ καὶ ἔμφοβοι ἐγένοντο*
+   - Latin: Quī autem mēcum aderant, lūcem aspexērunt illī quidem, et territī sunt: sed vōcem nōn audiērunt alloquentis mē.
+   - 1573: Qui autem mecum aderant, lucem aspexerunt illi quidem, et territi sunt: sed vocem non audiuerunt alloquentis me.
+   - TR: Οἱ δὲ σὺν ἐμοὶ ὄντες τὸ μὲν φῶς ἐθεάσαντο, καὶ ἔμφοβοι ἐγένοντο· τὴν δὲ φωνὴν οὐκ ἤκουσαν τοῦ λαλοῦντός μοι.
+   - SBLGNT: οἱ δὲ σὺν ἐμοὶ ὄντες τὸ μὲν φῶς ἐθεάσαντο τὴν δὲ φωνὴν οὐκ ἤκουσαν τοῦ λαλοῦντός μοι.
+   - Vulgate: Et qui mecum erant, lumen quidem viderunt, vocem autem non audierunt ejus qui loquebatur mecum.
+   - BSB: My companions saw the light, but they could not understand the voice of the One speaking to me.
+   - WEB: “Those who were with me indeed saw the light and were afraid, but they didn’t understand the voice of him who spoke to me.
+- **22:30** add (clause): critical *αὐτόν* ] RP *+ ἀπὸ τῶν δεσμῶν*; substitute (word): critical *συνελθεῖν* ] RP *ἐλθεῖν*; substitute (word): critical *πᾶν* ] RP *ὅλον*
+   - Latin: Posterō diē volēns certō scīre, quā dē rē ā Jūdæīs accūsārētur, solvit eum vinculīs: et pontificibus ūnā cum tōtō eōrum conciliō venīre jussīs, Paulum dēdūxit, et apud eōs statuit.
+   - 1573: Postero die volens certò scire, qua de re à Iudæis accusaretur, soluit eum vinculis: et pontificibus vnà cum toto eorum concilio venire iussis, Paulum deduxit, et apud eos statuit.
+   - TR: Τῇ δὲ ἐπαύριον βουλόμενος γνῶναι τὸ ἀσφαλές, τὸ τί κατηγορεῖται παρὰ τῶν Ἰουδαίων, ἔλυσεν αὐτὸν ἀπὸ τῶν δεσμῶν, καὶ ἐκέλευσεν ἐλθεῖν τοὺς ἀρχιερεῖς καὶ ὅλον τὸ συνέδριον αὐτῶν, καὶ καταγαγὼν τὸν Παῦλον ἔστησεν εἰς αὐτούς.
+   - SBLGNT: Τῇ δὲ ἐπαύριον βουλόμενος γνῶναι τὸ ἀσφαλὲς τὸ τί κατηγορεῖται ὑπὸ τῶν Ἰουδαίων ἔλυσεν αὐτόν, καὶ ἐκέλευσεν συνελθεῖν τοὺς ἀρχιερεῖς καὶ πᾶν τὸ συνέδριον, καὶ καταγαγὼν τὸν Παῦλον ἔστησεν εἰς αὐτούς.
+   - Vulgate: Postera autem die volens scire diligentius qua ex causa accusaretur a Judæis, solvit eum, et jussit sacerdotes convenire, et omne concilium: et producens Paulum, statuit inter illos.
+   - BSB: The next day the commander, wanting to learn the real reason Paul was accused by the Jews, released him and ordered the chief priests and the whole Sanhedrin to assemble. Then he brought Paul down and had him stand before them.
+   - WEB: But on the next day, desiring to know the truth about why he was accused by the Jews, he freed him from the bonds and commanded the chief priests and all the council to come together, and brought Paul down and set him before them.
+- **24:26** add (clause): critical *Παύλου* ] RP *+ ὅπως λύσῃ αὐτόν*
+   - Latin: Accēdēbat eō, quod pecūniam sibi ā Paulō datum īrī spērābat, ut eum solveret. Ideōque eum sæpius arcessēns, cum eō cōnfābulābātur.
+   - 1573: Accedebat eò, quòd pecuniam sibi à Paulo datum iri sperabat: vt eum solueret. Ideoque eum sæpius accersens, cum eo confabulabatur.
+   - TR: ἅμα δὲ καὶ ἐλπίζων ὅτι χρήματα δοθήσεται αὐτῷ ὑπὸ τοῦ Παύλου, ὅπως λύσῃ αὐτόν· διὸ καὶ πυκνότερον αὐτὸν μεταπεμπόμενος ὡμίλει αὐτῷ.
+   - SBLGNT: ἅμα καὶ ἐλπίζων ὅτι χρήματα δοθήσεται αὐτῷ ὑπὸ τοῦ Παύλου· διὸ καὶ πυκνότερον αὐτὸν μεταπεμπόμενος ὡμίλει αὐτῷ.
+   - Vulgate: simul et sperans quod pecunia ei daretur a Paulo, propter quod et frequenter accersens eum, loquebatur cum eo.
+   - BSB: At the same time, he was hoping that Paul would offer him a bribe. So he sent for Paul frequently and talked with him.
+   - WEB: Meanwhile, he also hoped that money would be given to him by Paul, that he might release him. Therefore also he sent for him more often and talked with him.
+
+## Text: name (50 verses)
+
+- **4:6** substitute (name): critical *Ἅννας ὁ ἀρχιερεὺς καὶ Καϊάφας καὶ Ἰωάννης καὶ Ἀλέξανδρος* ] RP *Ἄνναν τὸν ἀρχιερέα καὶ Καϊάφαν καὶ Ἰωάννην καὶ Ἀλέξανδρον*
+   - Latin: et Annās pontifex, et Cajāphās, et Jōhannēs, et Alexander, ac quotquot erant ex genere pontificiō:
+   - 1573: et Annas pontifex, et Caiaphas, et Iohanes, et Alexander, ac quotquot erant ex genere pontificio:
+   - TR: καὶ Ἄνναν τὸν ἀρχιερέα, καὶ Καϊάφαν, καὶ Ἰωάννην, καὶ Ἀλέξανδρον, καὶ ὅσοι ἦσαν ἐκ γένους ἀρχιερατικοῦ.
+   - SBLGNT: (καὶ Ἅννας ὁ ἀρχιερεὺς καὶ Καϊάφας καὶ Ἰωάννης καὶ Ἀλέξανδρος καὶ ὅσοι ἦσαν ἐκ γένους ἀρχιερατικοῦ),
+   - Vulgate: et Annas princeps sacerdotum, et Caiphas, et Joannes, et Alexander, et quotquot erant de genere sacerdotali.
+   - BSB: along with Annas the high priest, Caiaphas, John, Alexander, and many others from the high priest’s family.
+   - WEB: Annas the high priest was there, with Caiaphas, John, Alexander, and as many as were relatives of the high priest.
+- **4:8** add (name): critical *πρεσβύτεροι* ] RP *+ τοῦ Ἰσραήλ*
+   - Latin: Tum Petrus Sānctō Spīritū replētus, ad illōs sīc verba fēcit: “Magistrātūs populī, et Isrāēlītārum senātōrēs,
+   - 1573: Tum Petrus, sancto spiritu repletus, ad illos sic verba fecit. Magistratus populi, et Israelitarum senatores,
+   - TR: Τότε Πέτρος πλησθεὶς πνεύματος ἁγίου εἶπε πρὸς αὐτούς, Ἄρχοντες τοῦ λαοῦ καὶ πρεσβύτεροι τοῦ Ἰσραήλ,
+   - SBLGNT: τότε Πέτρος πλησθεὶς πνεύματος ἁγίου εἶπεν πρὸς αὐτούς· Ἄρχοντες τοῦ λαοῦ καὶ πρεσβύτεροι,
+   - Vulgate: Tunc repletus Spiritu Sancto Petrus, dixit ad eos: Principes populi, et seniores, audite:
+   - BSB: Then Peter, filled with the Holy Spirit, said to them, “Rulers and elders of the people!
+   - WEB: Then Peter, filled with the Holy Spirit, said to them, “You rulers of the people and elders of Israel,
+- **4:36** substitute (name): critical *Ἰωσὴφ* ] RP *Ἰωσῆς*
+   - Latin: Ac Jōsēs is, quī Barnābās ab apostolīs, hoc est, fīlius cōnsōlātiōnis, cognōminātus est, Lēvīta, nātū Cyprius,
+   - 1573: Ac Ioses, is qui Barnabas ab Apostolis, hoc est filius consolationis, cognominatus est, Leuita, natu Cyprius,
+   - TR: Ἰωσῆς δέ, ὁ ἐπικληθεὶς Βαρνάβας ὑπὸ τῶν ἀποστόλων — ὅ ἐστι, μεθερμηνευόμενον, υἱὸς παρακλήσεως — Λευΐτης, Κύπριος τῷ γένει,
+   - SBLGNT: Ἰωσὴφ δὲ ὁ ἐπικληθεὶς Βαρναβᾶς ἀπὸ τῶν ἀποστόλων, ὅ ἐστιν μεθερμηνευόμενον υἱὸς παρακλήσεως, Λευίτης, Κύπριος τῷ γένει,
+   - Vulgate: Joseph autem, qui cognominatus est Barnabas ab Apostolis (quod est interpretatum, Filius consolationis), Levites, Cyprius genere,
+   - BSB: Joseph, a Levite from Cyprus, whom the apostles called Barnabas (meaning Son of Encouragement),
+   - WEB: Joses, who by the apostles was also called Barnabas (which is, being interpreted, Son of Encouragement), a Levite, a man of Cyprus by race,
+- **7:11** substitute (name): critical *Αἴγυπτον* ] RP *γῆν Αἰγύπτου*
+   - Latin: Deinde, tantā per ūniversam Ægyptum ac Chananæam ortā famē atque angustiā, ut alimenta nōn invenīrent majōrēs nostrī,
+   - 1573: Deinde tanta per vniuersam Ægyptum ac Chananæam orta fame atque angustia, vt alimenta non inuenirent maiores nostri,
+   - TR: Ἦλθε δὲ λιμὸς ἐφ᾿ ὅλην τὴν γῆν Αἰγύπτου καὶ Χαναάν, καὶ θλίψις μεγάλη· καὶ οὐχ εὕρισκον χορτάσματα οἱ πατέρες ἡμῶν.
+   - SBLGNT: ἦλθεν δὲ λιμὸς ἐφʼ ὅλην τὴν Αἴγυπτον καὶ Χανάαν καὶ θλῖψις μεγάλη, καὶ οὐχ ηὕρισκον χορτάσματα οἱ πατέρες ἡμῶν·
+   - Vulgate: Venit autem fames in universam Ægyptum et Chanaan, et tribulatio magna: et non inveniebant cibos patres nostri.
+   - BSB: Then famine and great suffering swept across Egypt and Canaan, and our fathers could not find food.
+   - WEB: Now a famine came over all the land of Egypt and Canaan, and great affliction. Our fathers found no food.
+- **7:12** substitute (name): critical *σιτία εἰς Αἴγυπτον* ] RP *σῖτα ἐν Αἰγύπτῳ*
+   - Latin: Jācōbus audiēns, esse in Ægyptō frūmenta, majōrēs nostrōs eō prīmum mīsit:
+   - 1573: Iacobus audiens esse in Ægypto frumenta, maiores nostros eò primùm misit:
+   - TR: Ἀκούσας δὲ Ἰακὼβ ὄντα σῖτα ἐν Αἰγύπτῳ, ἐξαπέστειλε τοὺς πατέρας ἡμῶν πρῶτον.
+   - SBLGNT: ἀκούσας δὲ Ἰακὼβ ὄντα σιτία εἰς Αἴγυπτον ἐξαπέστειλεν τοὺς πατέρας ἡμῶν πρῶτον·
+   - Vulgate: Cum audisset autem Jacob esse frumentum in Ægypto, misit patres nostros primum:
+   - BSB: When Jacob heard that there was grain in Egypt, he sent our fathers on their first visit.
+   - WEB: But when Jacob heard that there was grain in Egypt, he sent out our fathers the first time.
+- **7:18** omit (name): critical *ἐπʼ Αἴγυπτον* ] RP *–*
+   - Latin: Dōnec exstitit rēx alius, quī Jōsēphum nōn nōverat.
+   - 1573: donec extitit rex alius, qui Iosephum non nouerat.
+   - TR: ἄχρις οὗ ἀνέστη βασιλεὺς ἕτερος, ὃς οὐκ ᾔδει τὸν Ἰωσήφ.
+   - SBLGNT: ἄχρι οὗ ἀνέστη βασιλεὺς ἕτερος ἐπʼ Αἴγυπτον, ὃς οὐκ ᾔδει τὸν Ἰωσήφ.
+   - Vulgate: quoadusque surrexit alius rex in Ægypto, qui non sciebat Joseph.
+   - BSB: Then another king, who knew nothing of Joseph, arose over Egypt.
+   - WEB: until there arose a different king who didn’t know Joseph.
+- **7:34** substitute (name): critical *ἀποστείλω* ] RP *ἀποστελῶ*
+   - Latin: Vīdī meī populī miseriam, quī est in Ægyptō, eōrumque gemitum audīvī: itaque ad eōs līberandōs dēscendī. Proinde nunc ades, ut tē mittam in Ægyptum.’
+   - 1573: Vidi mei populi miseriam, qui est in Ægypto, eorumque gemitum audiui: itaque ad eos liberandos descendi. Proinde nunc ades, vt te mittam in Ægyptum.
+   - TR: Ἰδὼν εἶδον τὴν κάκωσιν τοῦ λαοῦ μου τοῦ ἐν Αἰγύπτῳ, καὶ τοῦ στεναγμοῦ αὐτῶν ἤκουσα· καὶ κατέβην ἐξελέσθαι αὐτούς· καὶ νῦν δεῦρο, ἀποστελῶ σε εἰς Αἴγυπτον.
+   - SBLGNT: ἰδὼν εἶδον τὴν κάκωσιν τοῦ λαοῦ μου τοῦ ἐν Αἰγύπτῳ, καὶ τοῦ στεναγμοῦ αὐτοῦ ἤκουσα, καὶ κατέβην ἐξελέσθαι αὐτούς· καὶ νῦν δεῦρο ἀποστείλω σε εἰς Αἴγυπτον.
+   - Vulgate: Videns vidi afflictionem populi mei qui est in Ægypto, et gemitum eorum audivi, et descendi liberare eos. Et nunc veni, et mittam te in Ægyptum.
+   - BSB: I have indeed seen the oppression of My people in Egypt. I have heard their groaning and have come down to deliver them. Now come, I will send you back to Egypt.’
+   - WEB: I have surely seen the affliction of my people who are in Egypt, and have heard their groaning. I have come down to deliver them. Now come, I will send you into Egypt.’
+- **7:43** substitute (name): critical *Ῥαιφάν* ] RP *Ῥεμφάν*
+   - Latin: An nōn adhibuistis Molochī tabernāculum, Remphanisque deī vestrī sīdus, quæ vōs simulācra fēcistis ad adōrandum? Itaque vōs ego trānsferam ultrā Babylōnem.’
+   - 1573: An non adhibuistis Molochi tabernaculum, Remphanisque Dei vestri sidus, quæ vos simulacra fecistis ad adorandum? Itaque vos ego transferam vltra Babylonem.
+   - TR: Καὶ ἀνελάβετε τὴν σκηνὴν τοῦ Μολόχ, καὶ τὸ ἄστρον τοῦ θεοῦ ὑμῶν Ῥεμφάν, τοὺς τύπους οὓς ἐποιήσατε προσκυνεῖν αὐτοῖς· καὶ μετοικιῶ ὑμᾶς ἐπέκεινα Βαβυλῶνος.
+   - SBLGNT: καὶ ἀνελάβετε τὴν σκηνὴν τοῦ Μολὸχ καὶ τὸ ἄστρον τοῦ θεοῦ Ῥαιφάν, τοὺς τύπους οὓς ἐποιήσατε προσκυνεῖν αὐτοῖς. καὶ μετοικιῶ ὑμᾶς ἐπέκεινα Βαβυλῶνος.
+   - Vulgate: Et suscepistis tabernaculum Moloch, et sidus dei vestri Rempham, figuras quas fecistis adorare eas: et transferam vos trans Babylonem.]
+   - BSB: You have taken along the tabernacle of Molech and the star of your god Rephan, the idols you made to worship. Therefore I will send you into exile beyond Babylon.’
+   - WEB: You took up the tabernacle of Moloch, the star of your god Rephan, the figures which you made to worship, so I will carry you away beyond Babylon.’
+- **8:25** substitute (name): critical *Ἱεροσόλυμα* ] RP *Ἱερουσαλήμ*
+   - Latin: Igitur illī Dominī doctrīnam testificātī, ac ēlocūtī, Hierosolymam rediērunt, multōsque Samarītānōrum vīcōs euangeliō īnstrūxērunt.
+   - 1573: Igitur illi Domini doctrinam testificati, ac elocuti, Hierosolymam redierunt, multosque Samaritanorum vicos Euangelio instruxerunt.
+   - TR: Οἱ μὲν οὖν διαμαρτυράμενοι καὶ λαλήσαντες τὸν λόγον τοῦ Κυρίου, ὑπέστρεψαν εἰς Ἱερουσαλήμ, πολλάς τε κώμας τῶν Σαμαρειτῶν εὐηγγελίσαντο.
+   - SBLGNT: Οἱ μὲν οὖν διαμαρτυράμενοι καὶ λαλήσαντες τὸν λόγον τοῦ κυρίου ὑπέστρεφον εἰς Ἱεροσόλυμα, πολλάς τε κώμας τῶν Σαμαριτῶν εὐηγγελίζοντο.
+   - Vulgate: Et illi quidem testificati, et locuti verbum Domini, redibant Jerosolymam, et multis regionibus Samaritanorum evangelizabant.
+   - BSB: And after Peter and John had testified and spoken the word of the Lord, they returned to Jerusalem, preaching the gospel in many of the Samaritan villages.
+   - WEB: They therefore, when they had testified and spoken the word of the Lord, returned to Jerusalem, and preached the Good News to many villages of the Samaritans.
+- **9:19** add (name): critical *δὲ* ] RP *+ ὁ Σαῦλος*
+   - Latin: Ac cibō captō convaluit. Fuit autem Saulus cum Damascēnīs discipulīs diēs aliquot;
+   - 1573: ac cibo capto conualuit. Fuit autem Saulus cum Damascenis discipulis dies aliquot,
+   - TR: καὶ λαβὼν τροφὴν ἐνίσχυσεν. Ἐγένετο δὲ ὁ Σαῦλος μετὰ τῶν ἐν Δαμασκῷ μαθητῶν ἡμέρας τινάς.
+   - SBLGNT: καὶ λαβὼν τροφὴν ἐνίσχυσεν. Ἐγένετο δὲ μετὰ τῶν ἐν Δαμασκῷ μαθητῶν ἡμέρας τινὰς,
+   - Vulgate: Et cum accepisset cibum, confortatus est. Fuit autem cum discipulis qui erant Damasci per dies aliquot.
+   - BSB: and after taking some food, he regained his strength. And he spent several days with the disciples in Damascus.
+   - WEB: He took food and was strengthened. Saul stayed several days with the disciples who were at Damascus.
+- **9:31** substitute (name): critical *Ἡ … ἐκκλησία … εἶχεν … οἰκοδομουμένη … πορευομένη … ἐπληθύνετο* ] RP *Αἱ … ἐκκλησίαι … εἶχον … οἰκοδομούμεναι … πορευόμεναι … ἐπληθύνοντο*
+   - Latin: Igitur ecclēsiæ per tōtam Jūdæam, et Galilæam, et Samarīam quiētē agēbant, et īnstruēbantur, et in religiōne ac Sānctī Spīritūs cōnfirmātiōne prōficientēs augēbantur.
+   - 1573: Igitur Ecclesiæ per totam Iudæam, et Galilæam, et Samariam quiete agebant, et instruebantur, et in religione ac sancti spiritus confirmatione proficientes augebantur.
+   - TR: Αἱ μὲν οὖν ἐκκλησίαι καθ᾿ ὅλης τῆς Ἰουδαίας καὶ Γαλιλαίας καὶ Σαμαρείας εἶχον εἰρήνην οἰκοδομούμεναι, καὶ πορευόμεναι τῷ φόβῳ τοῦ Κυρίου καὶ τῇ παρακλήσει τοῦ ἁγίου πνεύματος ἐπληθύνοντο.
+   - SBLGNT: Ἡ μὲν οὖν ἐκκλησία καθʼ ὅλης τῆς Ἰουδαίας καὶ Γαλιλαίας καὶ Σαμαρείας εἶχεν εἰρήνην οἰκοδομουμένη, καὶ πορευομένη τῷ φόβῳ τοῦ κυρίου καὶ τῇ παρακλήσει τοῦ ἁγίου πνεύματος ἐπληθύνετο.
+   - Vulgate: Ecclesia quidem per totam Judæam, et Galilæam, et Samariam habebat pacem, et ædificabatur ambulans in timore Domini, et consolatione Sancti Spiritus replebatur.
+   - BSB: Then the church throughout Judea, Galilee, and Samaria experienced a time of peace. It grew in strength and numbers, living in the fear of the Lord and the encouragement of the Holy Spirit.
+   - WEB: So the assemblies throughout all Judea, Galilee, and Samaria had peace and were built up. They were multiplied, walking in the fear of the Lord and in the comfort of the Holy Spirit.
+- **10:5** substitute (name): critical *τινα ὃς ἐπικαλεῖται Πέτρος* ] RP *τὸν ἐπικαλούμενον Πέτρον*
+   - Latin: Itaque mitte Joppēn hominēs, et arcesse Simōnem, nōmine Petrum,
+   - 1573: Itaque mitte Ioppen homines, et accerse Simonem nomine Petrum,
+   - TR: Καὶ νῦν πέμψον εἰς Ἰόππην ἄνδρας, καὶ μετάπεμψαι Σίμωνα ὃς ἐπικαλεῖται Πέτρος·
+   - SBLGNT: καὶ νῦν πέμψον ἄνδρας εἰς Ἰόππην καὶ μετάπεμψαι Σίμωνά τινα ὃς ἐπικαλεῖται Πέτρος·
+   - Vulgate: Et nunc mitte viros in Joppen, et accersi Simonem quemdam, qui cognominatur Petrus:
+   - BSB: Now send men to Joppa to call for a man named Simon who is called Peter.
+   - WEB: Now send men to Joppa, and get Simon, who is also called Peter.
+- **10:23** substitute (name): critical *ἀναστὰς* ] RP *ὁ Πέτρος*
+   - Latin: Igitur ille eōs, intrō vocātōs, accēpit hospitiō. Deinde postrīdiē Petrus cum iīs profectus est, comitantibus quibusdam Joppēnsibus frātribus.
+   - 1573: Igitur ille eos intrò vocatos accepit hospitio. Deinde postridie Petrus cum eis profectus est, comitantibus quibusdam Ioppensibus fratribus.
+   - TR: Εἰσκαλεσάμενος οὖν αὐτοὺς ἐξένισε. Τῇ δὲ ἐπαύριον ὁ Πέτρος ἐξῆλθε σὺν αὐτοῖς, καί τινες τῶν ἀδελφῶν τῶν ἀπὸ τῆς Ἰόππης συνῆλθον αὐτῷ.
+   - SBLGNT: εἰσκαλεσάμενος οὖν αὐτοὺς ἐξένισεν. Τῇ δὲ ἐπαύριον ἀναστὰς ἐξῆλθεν σὺν αὐτοῖς, καί τινες τῶν ἀδελφῶν τῶν ἀπὸ Ἰόππης συνῆλθον αὐτῷ.
+   - Vulgate: Introducens ergo eos, recepit hospitio. Sequenti autem die, surgens profectus est cum illis, et quidam ex fratribus ab Joppe comitati sunt eum.
+   - BSB: So Peter invited them in as his guests. And the next day he got ready and went with them, accompanied by some of the brothers from Joppa.
+   - WEB: So he called them in and provided a place to stay. On the next day Peter arose and went out with them, and some of the brothers from Joppa accompanied him.
+- **11:2** substitute (name): critical *Ἰερουσαλήμ* ] RP *Ἱεροσόλυμα*
+   - Latin: Ac postquam ascendit Petrus Hierosolymam, contendēbant cum eō, quī erant ā circumcīsiōne,
+   - 1573: Ac postquam ascendit Petrus Hierosolymam, contendebant cum eo, qui erant à circumcisione.
+   - TR: Καὶ ὅτε ἀνέβη Πέτρος εἰς Ἱεροσόλυμα, διεκρίνοντο πρὸς αὐτὸν οἱ ἐκ περιτομῆς,
+   - SBLGNT: ὅτε δὲ ἀνέβη Πέτρος εἰς Ἰερουσαλήμ, διεκρίνοντο πρὸς αὐτὸν οἱ ἐκ περιτομῆς
+   - Vulgate: Cum autem ascendisset Petrus Jerosolymam, disceptabant adversus illum qui erant ex circumcisione,
+   - BSB: So when Peter went up to Jerusalem, the circumcised believers took issue with him
+   - WEB: When Peter had come up to Jerusalem, those who were of the circumcision contended with him,
+- **11:22** omit (word): critical *οὔσης* ] RP *–*; substitute (name): critical *Ἰερουσαλὴμ* ] RP *Ἱεροσολύμοις*
+   - Latin: Quod postquam dē iīs audītiōne accēpit ecclēsia Hierosolymītāna, Barnābam mīsit, quī Antiochīam sē cōnferret.
+   - 1573: Quod postquam de eis auditione accepit ecclesia Hierosolymitana, Barnabam misit, qui Antiochiam se conferret.
+   - TR: Ἠκούσθη δὲ ὁ λόγος εἰς τὰ ὦτα τῆς ἐκκλησίας τῆς ἐν Ἱεροσολύμοις περὶ αὐτῶν· καὶ ἐξαπέστειλαν Βαρνάβαν διελθεῖν ἕως Ἀντιοχείας·
+   - SBLGNT: ἠκούσθη δὲ ὁ λόγος εἰς τὰ ὦτα τῆς ἐκκλησίας τῆς οὔσης ἐν Ἰερουσαλὴμ περὶ αὐτῶν, καὶ ἐξαπέστειλαν Βαρναβᾶν ἕως Ἀντιοχείας·
+   - Vulgate: Pervenit autem sermo ad aures ecclesiæ quæ erat Jerosolymis super istis: et miserunt Barnabam usque ad Antiochiam.
+   - BSB: When news of this reached the ears of the church in Jerusalem, they sent Barnabas to Antioch.
+   - WEB: The report concerning them came to the ears of the assembly which was in Jerusalem. They sent out Barnabas to go as far as Antioch,
+- **11:25** add (name): critical *Ταρσὸν* ] RP *+ ὁ Βαρνάβας*
+   - Latin: Profectus est autem Tharsum Barnābās, Saulī requīrendī grātiā:
+   - 1573: Profectus est autem Tarsum Barnabas, Sauli requirendi gratia,
+   - TR: Ἐξῆλθε δὲ εἰς Ταρσὸν ὁ Βαρνάβας ἀναζητῆσαι Σαῦλον,
+   - SBLGNT: ἐξῆλθεν δὲ εἰς Ταρσὸν ἀναζητῆσαι Σαῦλον,
+   - Vulgate: Profectus est autem Barnabas Tarsum, ut quæreret Saulum: quem cum invenisset, perduxit Antiochiam.
+   - BSB: Then Barnabas went to Tarsus to look for Saul,
+   - WEB: Barnabas went out to Tarsus to look for Saul.
+- **11:28** substitute (word): critical *ἥτις* ] RP *ὅστις καὶ*; add (name): critical *Κλαυδίου* ] RP *+ Καίσαρος*
+   - Latin: Quōrum ūnus exstitit, Agabus nōmine, quī dīvīnitus afflātus gravem fore tōtō orbe famem significāvit: quæ quidem accidit sub Claudiō Cæsare.
+   - 1573: quorum vnus extitit Agabus nomine, qui diuinitus afflatus grauem fore toto orbe famem significauit, quæ quidem accidit sub Claudio Cæsare.
+   - TR: Ἀναστὰς δὲ εἷς ἐξ αὐτῶν ὀνόματι Ἄγαβος, ἐσήμανε διὰ τοῦ πνεύματος λιμὸν μέγαν μέλλειν ἔσεσθαι ἐφ᾿ ὅλην τὴν οἰκουμένην· ὅστις καὶ ἐγένετο ἐπὶ Κλαυδίου Καίσαρος.
+   - SBLGNT: ἀναστὰς δὲ εἷς ἐξ αὐτῶν ὀνόματι Ἅγαβος ἐσήμανεν διὰ τοῦ πνεύματος λιμὸν μεγάλην μέλλειν ἔσεσθαι ἐφʼ ὅλην τὴν οἰκουμένην· ἥτις ἐγένετο ἐπὶ Κλαυδίου.
+   - Vulgate: et surgens unus ex eis nomine Agabus, significabat per spiritum famem magnam futuram in universo orbe terrarum, quæ facta est sub Claudio.
+   - BSB: One of them named Agabus stood up and predicted through the Spirit that a great famine would sweep across the whole world. (This happened under Claudius.)
+   - WEB: One of them named Agabus stood up and indicated by the Spirit that there should be a great famine all over the world, which also happened in the days of Claudius.
+- **12:8** substitute (name): critical *Ζῶσαι* ] RP *Περίζωσαι*
+   - Latin: “Præcinge tē,” inquit, “et tuīs sandaliīs calceā.” Quod postquam ille fēcit: “Indue,” inquit, “tuum pallium, et mē sequere.”
+   - 1573: Præcinge te, inquit, et tuis sandalijs calcea. Quod postquam ille fecit: Indue, inquit, tuum pallium, et me sequere.
+   - TR: Εἶπέ τε ὁ ἄγγελος πρὸς αὐτόν, Περίζωσαι καὶ ὑπόδησαι τὰ σανδάλιά σου. Ἐποίησε δὲ οὕτω. Καὶ λέγει αὐτῷ, Περιβαλοῦ τὸ ἱμάτιόν σου, καὶ ἀκολούθει μοι.
+   - SBLGNT: εἶπεν δὲ ὁ ἄγγελος πρὸς αὐτόν· Ζῶσαι καὶ ὑπόδησαι τὰ σανδάλιά σου· ἐποίησεν δὲ οὕτως. καὶ λέγει αὐτῷ· Περιβαλοῦ τὸ ἱμάτιόν σου καὶ ἀκολούθει μοι.
+   - Vulgate: Dixit autem angelus ad eum: Præcingere, et calcea te caligas tuas. Et fecit sic. Et dixit illi: Circumda tibi vestimentum tuum, et sequere me.
+   - BSB: “Get dressed and put on your sandals,” said the angel. Peter did so, and the angel told him, “Wrap your cloak around you and follow me.”
+   - WEB: The angel said to him, “Get dressed and put on your sandals.” He did so. He said to him, “Put on your cloak and follow me.”
+- **12:13** substitute (name): critical *αὐτοῦ* ] RP *τοῦ Πέτρου*
+   - Latin: Ubi Petrus vestibulī forēs pulsāvit, prōdiit ad subauscultandum ancilla, nōmine Rhodē:
+   - 1573: Vbi Petrus vestibuli fores pulsauit, prodijt ad subauscultandum ancilla, nomine Rhode:
+   - TR: Κρούσαντος δὲ τοῦ Πέτρου τὴν θύραν τοῦ πυλῶνος, προσῆλθε παιδίσκη ὑπακοῦσαι, ὀνόματι Ῥόδη.
+   - SBLGNT: κρούσαντος δὲ αὐτοῦ τὴν θύραν τοῦ πυλῶνος προσῆλθε παιδίσκη ὑπακοῦσαι ὀνόματι Ῥόδη,
+   - Vulgate: Pulsante autem eo ostium januæ, processit puella ad audiendum, nomine Rhode.
+   - BSB: He knocked at the outer gate, and a servant girl named Rhoda came to answer it.
+   - WEB: When Peter knocked at the door of the gate, a servant girl named Rhoda came to answer.
+- **12:20** add (name): critical *δὲ* ] RP *+ ὁ Ἡρῴδης*
+   - Latin: Erat autem Hērōdēs Tyriīs et Sīdōniīs īnfēnsus: et illī simul vēnerant ad eum, et Blastō rēgis cubiculāriō inductō, pācem petēbant, quod eōrum ager ex rēgiō alēbātur.
+   - 1573: Erat autem Herodes Tyrijs et Sidonijs infensus: et illi simul venerant ad eum, et Blasto regis cubiculario inducto, pacem petebant, quòd eorum ager ex regio alebatur.
+   - TR: Ἦν δὲ ὁ Ἡρῴδης θυμομαχῶν Τυρίοις καὶ Σιδωνίοις· ὁμοθυμαδὸν δὲ παρῆσαν πρὸς αὐτόν, καὶ πείσαντες Βλάστον τὸν ἐπὶ τοῦ κοιτῶνος τοῦ βασιλέως, ᾐτοῦντο εἰρήνην, διὰ τὸ τρέφεσθαι αὐτῶν τὴν χώραν ἀπὸ τῆς βασιλικῆς.
+   - SBLGNT: Ἦν δὲ θυμομαχῶν Τυρίοις καὶ Σιδωνίοις· ὁμοθυμαδὸν δὲ παρῆσαν πρὸς αὐτόν, καὶ πείσαντες Βλάστον τὸν ἐπὶ τοῦ κοιτῶνος τοῦ βασιλέως ᾐτοῦντο εἰρήνην διὰ τὸ τρέφεσθαι αὐτῶν τὴν χώραν ἀπὸ τῆς βασιλικῆς.
+   - Vulgate: Erat autem iratus Tyriis et Sidoniis. At illi unanimes venerunt ad eum, et persuaso Blasto, qui erat super cubiculum regis, postulabant pacem, eo quod alerentur regiones eorum ab illo.
+   - BSB: Now Herod was in a furious dispute with the people of Tyre and Sidon, and they convened before him. Having secured the support of Blastus, the king’s chamberlain, they asked for peace, because their region depended on the king’s country for food.
+   - WEB: Now Herod was very angry with the people of Tyre and Sidon. They came with one accord to him and, having made Blastus, the king’s personal aide, their friend, they asked for peace, because their country depended on the king’s country for food.
+- **13:6** omit (word): critical *ὅλην* ] RP *–*; omit (word): critical *ἄνδρα* ] RP *–*; substitute (name): critical *Βαριησοῦ* ] RP *Βαριησοῦς*
+   - Latin: Prōgressī autem per īnsulam ad Paphum ūsque, nactī sunt magum quendam, falsum vātem, Jūdæum, nōmine Bariēsum,
+   - 1573: Progressi autem per insulam ad Paphum vsque nacti sunt magum quendam, falsum vatem, Judæum, nomine Bariesum,
+   - TR: Διελθόντες δὲ τὴν νῆσον ἄχρι Πάφου, εὗρόν τινα μάγον ψευδοπροφήτην Ἰουδαῖον, ᾧ ὄνομα Βαρϊησοῦς,
+   - SBLGNT: διελθόντες δὲ ὅλην τὴν νῆσον ἄχρι Πάφου εὗρον ἄνδρα τινὰ μάγον ψευδοπροφήτην Ἰουδαῖον ᾧ ὄνομα Βαριησοῦ,
+   - Vulgate: Et cum perambulassent universam insulam usque Paphum, invenerunt quemdam virum magum pseudoprophetam, Judæum, cui nomen erat Barjesu,
+   - BSB: They traveled through the whole island as far as Paphos, where they found a Jewish sorcerer and false prophet named Bar-Jesus,
+   - WEB: When they had gone through the island to Paphos, they found a certain sorcerer, a false prophet, a Jew whose name was Bar Jesus,
+- **13:14** substitute (name): critical *τὴν Πισιδίαν* ] RP *τῆς Πισιδίας*
+   - Latin: Ipsī ā Pergā prōgressī, vēnērunt Antiochīam Pīsīdiæ, et collēgium Sabbatī diē ingressī, cōnsēdērunt.
+   - 1573: Ipsi à Perga progressi, venerunt Antiochiam Pisidiæ: et collegium Sabbati die ingressi, consederunt.
+   - TR: Αὐτοὶ δὲ διελθόντες ἀπὸ τῆς Πέργης, παρεγένοντο εἰς Ἀντιόχειαν τῆς Πισιδίας, καὶ εἰσελθόντες εἰς τὴν συναγωγὴν τῇ ἡμέρᾳ τῶν σαββάτων, ἐκάθισαν.
+   - SBLGNT: αὐτοὶ δὲ διελθόντες ἀπὸ τῆς Πέργης παρεγένοντο εἰς Ἀντιόχειαν τὴν Πισιδίαν, καὶ εἰσελθόντες εἰς τὴν συναγωγὴν τῇ ἡμέρᾳ τῶν σαββάτων ἐκάθισαν.
+   - Vulgate: Illi vero pertranseuntes Pergen, venerunt Antiochiam Pisidiæ: et ingressi synagogam die sabbatorum, sederunt.
+   - BSB: And from Perga, they traveled inland to Pisidian Antioch, where they entered the synagogue on the Sabbath and sat down.
+   - WEB: But they, passing on from Perga, came to Antioch of Pisidia. They went into the synagogue on the Sabbath day and sat down.
+- **13:17** substitute (name): critical *Αἰγύπτου* ] RP *Αἰγύπτῳ*
+   - Latin: Hujus populī Deus majōrēs nostrōs ēlēgit, et peregrīnantem in Ægyptō populum ēvēxit, ex eāque ēdūxit sublīmī brāchiō,
+   - 1573: Huius populi Deus maiores nostros elegit, et peregrinantem in Ægypto populum euexit, ex eaque eduxit sublimi brachio,
+   - TR: Ὁ Θεὸς τοῦ λαοῦ τούτου Ἰσραὴλ ἐξελέξατο τοὺς πατέρας ἡμῶν, καὶ τὸν λαὸν ὕψωσεν ἐν τῇ παροικίᾳ ἐν γῇ Αἰγύπτῳ, καὶ μετὰ βραχίονος ὑψηλοῦ ἐξήγαγεν αὐτοὺς ἐξ αὐτῆς.
+   - SBLGNT: ὁ θεὸς τοῦ λαοῦ τούτου Ἰσραὴλ ἐξελέξατο τοὺς πατέρας ἡμῶν, καὶ τὸν λαὸν ὕψωσεν ἐν τῇ παροικίᾳ ἐν γῇ Αἰγύπτου, καὶ μετὰ βραχίονος ὑψηλοῦ ἐξήγαγεν αὐτοὺς ἐξ αὐτῆς,
+   - Vulgate: Deus plebis Israël elegit patres nostros, et plebem exaltavit cum essent incolæ in terra Ægypti, et in brachio excelso eduxit eos ex ea,
+   - BSB: The God of the people of Israel chose our fathers. He made them into a great people during their stay in Egypt, and with an uplifted arm He led them out of that land.
+   - WEB: The God of this people chose our fathers, and exalted the people when they stayed as aliens in the land of Egypt, and with an uplifted arm, he led them out of it.
+- **13:42** substitute (name): critical *αὐτῶν* ] RP *ἐκ τῆς συναγωγῆς τῶν Ἰουδαίων*; add (word): critical *παρεκάλουν* ] RP *+ τὰ ἔθνη*
+   - Latin: Deinde eōs ex Jūdæōrum collēgiō exeuntēs, ōrābant extrāneī, ut proximō Sabbatō apud sē iīs dē rēbus loquerentur.
+   - 1573: Deinde eos ex Iudæorum collegio exeuntes orabant extranei, vt proximo Sabbato apud se ijs de rebus loquerentur.
+   - TR: Ἐξιόντων δὲ ἐκ τῆς συναγωγῆς τῶν Ἰουδαίων, παρεκάλουν τὰ ἔθνη εἰς τὸ μεταξὺ σάββατον λαληθῆναι αὐτοῖς τὰ ῥήματα ταῦτα.
+   - SBLGNT: Ἐξιόντων δὲ αὐτῶν παρεκάλουν εἰς τὸ μεταξὺ σάββατον λαληθῆναι αὐτοῖς τὰ ῥήματα ταῦτα.
+   - Vulgate: Exeuntibus autem illis rogabant ut sequenti sabbato loquerentur sibi verba hæc.
+   - BSB: As Paul and Barnabas were leaving the synagogue, the people urged them to continue this message on the next Sabbath.
+   - WEB: So when the Jews went out of the synagogue, the Gentiles begged that these words might be preached to them the next Sabbath.
+- **15:23** add (name): critical *αὐτῶν* ] RP *+ τάδε*
+   - Latin: quī hās litterās ferrent: “Apostolī et seniōrēs, et frātrēs, dē gentibus Antiochīæ et in Syriā ac Ciliciā frātribus, iīs, quī externārum sunt gentium, salūtem.
+   - 1573: qui has literas ferrent. Apostoli et seniores, et fratres, de gentibus Antiochiæ et in Syria ac Cilicia fratribus, ijs qui externarum sunt gentium, salutem.
+   - TR: γράψαντες διὰ χειρὸς αὐτῶν τάδε, Οἱ ἀπόστολοι καὶ οἱ πρεσβύτεροι καὶ οἱ ἀδελφοὶ τοῖς κατὰ τὴν Ἀντιόχειαν καὶ Συρίαν καὶ Κιλικίαν ἀδελφοῖς τοῖς ἐξ ἐθνῶν, χαίρειν·
+   - SBLGNT: γράψαντες διὰ χειρὸς αὐτῶν· Οἱ ἀπόστολοι καὶ οἱ πρεσβύτεροι ἀδελφοὶ τοῖς κατὰ τὴν Ἀντιόχειαν καὶ Συρίαν καὶ Κιλικίαν ἀδελφοῖς τοῖς ἐξ ἐθνῶν χαίρειν.
+   - Vulgate: scribentes per manus eorum: Apostoli et seniores fratres, his qui sunt Antiochiæ, et Syriæ, et Ciliciæ, fratribus ex gentibus, salutem.
+   - BSB: and sent them with this letter: The apostles and the elders, your brothers, To the brothers among the Gentiles in Antioch, Syria, and Cilicia: Greetings.
+   - WEB: They wrote these things by their hand: “The apostles, the elders, and the brothers, to the brothers who are of the Gentiles in Antioch, Syria, and Cilicia: greetings.
+- **16:4** substitute (name): critical *Ἱεροσολύμοις* ] RP *Ἱερουσαλήμ*
+   - Latin: Obeundīs autem urbibus, trādēbant iīs servanda placita, quæ ab apostolīs et seniōribus, quī erant Hierosolymæ, dēcrēta fuerant.
+   - 1573: Obeundis autem vrbibus, tradebant eis seruanda placita, quæ ab apostolis et senioribus, qui erant Hierosolymæ, decreta fuerant.
+   - TR: Ὡς δὲ διεπορεύοντο τὰς πόλεις, παρεδίδουν αὐτοῖς φυλάσσειν τὰ δόγματα τὰ κεκριμένα ὑπὸ τῶν ἀποστόλων καὶ τῶν πρεσβυτέρων τῶν ἐν Ἱερουσαλήμ.
+   - SBLGNT: ὡς δὲ διεπορεύοντο τὰς πόλεις, παρεδίδοσαν αὐτοῖς φυλάσσειν τὰ δόγματα τὰ κεκριμένα ὑπὸ τῶν ἀποστόλων καὶ πρεσβυτέρων τῶν ἐν Ἱεροσολύμοις.
+   - Vulgate: Cum autem pertransirent civitates, tradebant eis custodiri dogmata quæ erant decreta ab Apostolis et senioribus qui erant Jerosolymis.
+   - BSB: As they went from town to town, they delivered the decisions handed down by the apostles and elders in Jerusalem for the people to obey.
+   - WEB: As they went on their way through the cities, they delivered the decrees to them to keep which had been ordained by the apostles and elders who were at Jerusalem.
+- **16:11** substitute (name): critical *Νέαν Πόλιν* ] RP *Νεάπολιν*
+   - Latin: Ergō solvimus ā Trōade, et rēctō cursū vēnimus in Samothrāciam; postrīdiē Neāpolim.
+   - 1573: Ergo soluimus à Troade, et recto cursu venimus in Samothraciam. Postridie Neapolim:
+   - TR: Ἀναχθέντες οὖν ἀπὸ τῆς Τρῳάδος, εὐθυδρομήσαμεν εἰς Σαμοθρᾴκην, τῇ τε ἐπιούσῃ εἰς Νεάπολιν,
+   - SBLGNT: Ἀναχθέντες οὖν ἀπὸ Τρῳάδος εὐθυδρομήσαμεν εἰς Σαμοθρᾴκην, τῇ δὲ ἐπιούσῃ εἰς Νέαν Πόλιν,
+   - Vulgate: Navigantes autem a Troade, recto cursu venimus Samothraciam, et sequenti die Neapolim:
+   - BSB: We sailed from Troas straight to Samothrace, and the following day on to Neapolis.
+   - WEB: Setting sail therefore from Troas, we made a straight course to Samothrace, and the day following to Neapolis;
+- **18:1** add (name): critical *χωρισθεὶς* ] RP *+ ὁ Παῦλος*
+   - Latin: Posteā dīgressus Athēnīs Paulus, Corinthum vēnit:
+   - 1573: Postea digressus Athenis Paulus Corinthum venit,
+   - TR: Μετὰ δὲ ταῦτα χωρισθεὶς ὁ Παῦλος ἐκ τῶν Ἀθηνῶν ἦλθεν εἰς Κόρινθον.
+   - SBLGNT: Μετὰ ταῦτα χωρισθεὶς ἐκ τῶν Ἀθηνῶν ἦλθεν εἰς Κόρινθον.
+   - Vulgate: Post hæc egressus ab Athenis, venit Corinthum:
+   - BSB: After this, Paul left Athens and went to Corinth.
+   - WEB: After these things Paul departed from Athens and came to Corinth.
+- **18:7** substitute (word): critical *εἰσῆλθεν* ] RP *ἦλθεν*; omit (name): critical *Τιτίου* ] RP *–*
+   - Latin: Ita illinc profectus, vēnit in ædēs cujusdam nōmine Jūstī, hominis religiōsī, cujus ædēs erant contiguæ collēgiō.
+   - 1573: Ita illinc profectus, venit in ædes cuiusdam nomine Iusti, hominis religiosi, cuius ædes erant contiguæ collegio.
+   - TR: Καὶ μεταβὰς ἐκεῖθεν ἦλθεν εἰς οἰκίαν τινὸς ὀνόματι Ἰούστου, σεβομένου τὸν Θεόν, οὗ ἡ οἰκία ἦν συνομοροῦσα τῇ συναγωγῇ.
+   - SBLGNT: καὶ μεταβὰς ἐκεῖθεν εἰσῆλθεν εἰς οἰκίαν τινὸς ὀνόματι Τιτίου Ἰούστου σεβομένου τὸν θεόν, οὗ ἡ οἰκία ἦν συνομοροῦσα τῇ συναγωγῇ.
+   - Vulgate: Et migrans inde, intravit in domum cujusdam, nomine Titi Justi, colentis Deum, cujus domus erat conjuncta synagogæ.
+   - BSB: So Paul left the synagogue and went next door to the house of Titus Justus, a worshiper of God.
+   - WEB: He departed there and went into the house of a certain man named Justus, one who worshiped God, whose house was next door to the synagogue.
+- **18:17** add (name): critical *πάντες* ] RP *+ οἱ Ἕλληνες*
+   - Latin: Græcī vērō omnēs comprehēnsum collēgiī magistrum, Sōsthenem, cædēbant ante tribūnal, ea nihil cūrante Galliōne.
+   - 1573: Græci vero omnes comprehensum collegij magistrum Sosthenem, cædebant ante tribunal, ea nihil curante Gallione.
+   - TR: Ἐπιλαβόμενοι δὲ πάντες οἱ Ἕλληνες Σωσθένην τὸν ἀρχισυνάγωγον ἔτυπτον ἔμπροσθεν τοῦ βήματος. Καὶ οὐδὲν τούτων τῷ Γαλλίωνι ἔμελεν.
+   - SBLGNT: ἐπιλαβόμενοι δὲ πάντες Σωσθένην τὸν ἀρχισυνάγωγον ἔτυπτον ἔμπροσθεν τοῦ βήματος· καὶ οὐδὲν τούτων τῷ Γαλλίωνι ἔμελεν.
+   - Vulgate: Apprehendentes autem omnes Sosthenem principem synagogæ, percutiebant eum ante tribunal: et nihil eorum Gallioni curæ erat.
+   - BSB: At this, the crowd seized Sosthenes the synagogue leader and beat him in front of the judgment seat. But none of this was of concern to Gallio.
+   - WEB: Then all the Greeks seized Sosthenes, the ruler of the synagogue, and beat him before the judgment seat. Gallio didn’t care about any of these things.
+- **19:21** substitute (name): critical *Ἱεροσόλυμα* ] RP *Ἱερουσαλήμ*
+   - Latin: Hīs perāctīs, statuit cum animō suō Paulus, perlūstrātā Macedoniā et Achāiā, Hierosolymam proficīscī, dīcēns, postquam illūc pervēnisset, Rōmam quoque sibi esse vīsendam.
+   - 1573: His peractis, statuit cum animo suo Paulus, perlustrata Macedonia et Achaia, Hierosolymam proficisci, dicens, Postquam illuc peruenisset, Romam quoque sibi esse visendam.
+   - TR: Ὡς δὲ ἐπληρώθη ταῦτα, ἔθετο ὁ Παῦλος ἐν τῷ πνεύματι, διελθὼν τὴν Μακεδονίαν καὶ Ἀχαΐαν, πορεύεσθαι εἰς Ἱερουσαλήμ, εἰπὼν ὅτι Μετὰ τὸ γενέσθαι με ἐκεῖ, δεῖ με καὶ Ῥώμην ἰδεῖν.
+   - SBLGNT: Ὡς δὲ ἐπληρώθη ταῦτα, ἔθετο ὁ Παῦλος ἐν τῷ πνεύματι διελθὼν τὴν Μακεδονίαν καὶ Ἀχαΐαν πορεύεσθαι εἰς Ἱεροσόλυμα, εἰπὼν ὅτι Μετὰ τὸ γενέσθαι με ἐκεῖ δεῖ με καὶ Ῥώμην ἰδεῖν.
+   - Vulgate: His autem expletis, proposuit Paulus in Spiritu, transita Macedonia et Achaia, ire Jerosolymam, dicens: Quoniam postquam fuero ibi, oportet me et Romam videre.
+   - BSB: After these things had happened, Paul resolved in the Spirit to go to Jerusalem after he had passed through Macedonia and Achaia. “After I have been there,” he said, “I must see Rome as well.”
+   - WEB: Now after these things had ended, Paul determined in the Spirit, when he had passed through Macedonia and Achaia, to go to Jerusalem, saying, “After I have been there, I must also see Rome.”
+- **21:1** substitute (name): critical *Κῶ* ] RP *Κῶν*
+   - Latin: Nōs posteā quam ab iīs āvulsī solvimus, rēctō cursū vēnimus in Cōum. Sequentī diē in Rhodum, et inde Patara:
+   - 1573: Nos postea quam ab eis auulsi soluimus, recto cursu venimus in Coum. Sequenti die in Rhodum, et inde Patara:
+   - TR: Ὡς δὲ ἐγένετο ἀναχθῆναι ἡμᾶς ἀποσπασθέντας ἀπ᾿ αὐτῶν, εὐθυδρομήσαντες ἤλθομεν εἰς τὴν Κῶν, τῇ δὲ ἑξῆς εἰς τὴν Ῥόδον, κἀκεῖθεν εἰς Πάταρα·
+   - SBLGNT: Ὡς δὲ ἐγένετο ἀναχθῆναι ἡμᾶς ἀποσπασθέντας ἀπʼ αὐτῶν, εὐθυδρομήσαντες ἤλθομεν εἰς τὴν Κῶ, τῇ δὲ ἑξῆς εἰς τὴν Ῥόδον, κἀκεῖθεν εἰς Πάταρα·
+   - Vulgate: Cum autem factum esset ut navigaremus abstracti ab eis, recto cursu venimus Coum, et sequenti die Rhodum, et inde Pataram.
+   - BSB: After we had torn ourselves away from them, we sailed directly to Cos, and the next day on to Rhodes, and from there to Patara.
+   - WEB: When we had departed from them and had set sail, we came with a straight course to Cos, and the next day to Rhodes, and from there to Patara.
+- **21:4** substitute (word): critical *ἐπιβαίνειν* ] RP *ἀναβαίνειν*; substitute (name): critical *Ἱεροσόλυμα* ] RP *Ἱερουσαλήμ*
+   - Latin: Ac discipulōs nactī, illīc septem mānsimus diēs: quī quidem dīvīnitus afflātī, Paulum monēbant, nē Hierosolymam ascenderet.
+   - 1573: ac discipulos nacti, illic septem mansimus dies: qui quidem diuinitùs afflati, Paulum monebant, ne Hierosolymam ascenderet.
+   - TR: Καὶ ἀνευρόντες τοὺς μαθητάς, ἐπεμείναμεν αὐτοῦ ἡμέρας ἑπτά· οἵτινες τῷ Παύλῳ ἔλεγον διὰ τοῦ πνεύματος, μὴ ἀναβαίνειν εἰς Ἱερουσαλήμ.
+   - SBLGNT: ἀνευρόντες δὲ τοὺς μαθητὰς ἐπεμείναμεν αὐτοῦ ἡμέρας ἑπτά, οἵτινες τῷ Παύλῳ ἔλεγον διὰ τοῦ πνεύματος μὴ ἐπιβαίνειν εἰς Ἱεροσόλυμα.
+   - Vulgate: Inventis autem discipulis, mansimus ibi diebus septem: qui Paulo dicebant per Spiritum ne ascenderet Jerosolymam.
+   - BSB: We sought out the disciples in Tyre and stayed with them seven days. Through the Spirit they kept telling Paul not to go up to Jerusalem.
+   - WEB: Having found disciples, we stayed there seven days. These said to Paul through the Spirit that he should not go up to Jerusalem.
+- **21:15** substitute (name): critical *Ἱεροσόλυμα* ] RP *Ἱερουσαλήμ*
+   - Latin: Post eōs diēs, adōrnātā profectiōne, Hierosolymam ascendere contendimus,
+   - 1573: Post eos dies, adornata profectione, Hierosolymam ascendere contendimus,
+   - TR: Μετὰ δὲ τὰς ἡμέρας ταύτας ἀποσκευασάμενοι ἀνεβαίνομεν εἰς Ἱερουσαλήμ.
+   - SBLGNT: Μετὰ δὲ τὰς ἡμέρας ταύτας ἐπισκευασάμενοι ἀνεβαίνομεν εἰς Ἱεροσόλυμα·
+   - Vulgate: Post dies autem istos, præparati ascendebamus in Jerusalem.
+   - BSB: After these days, we packed up and went on to Jerusalem.
+   - WEB: After these days we took up our baggage and went up to Jerusalem.
+- **21:20** substitute (word): critical *θεόν* ] RP *κύριον*; substitute (name): critical *ἐν τοῖς Ἰουδαίοις* ] RP *Ἰουδαίων*
+   - Latin: Quibus audītīs, illī, āctīs Dominō grātiīs, Paulum sīc alloquuntur: “Vidēs, frāter, quam multa Jūdæōrum mīllia sint, quī crēdidērunt, et omnēs lēgis studiōsī sunt.
+   - 1573: Quibus auditis illi, actis Domino gratijs, Paulum sic alloquuntur: Vides frater, quàm multa Iudæorum millia sint, qui crediderunt, et omnes legis studiosi sunt.
+   - TR: Οἱ δὲ ἀκούσαντες ἐδόξαζον τὸν Κύριον, εἶπόν τε αὐτῷ, Θεωρεῖς, ἀδελφέ, πόσαι μυριάδες εἰσὶν Ἰουδαίων τῶν πεπιστευκότων· καὶ πάντες ζηλωταὶ τοῦ νόμου ὑπάρχουσι·
+   - SBLGNT: οἱ δὲ ἀκούσαντες ἐδόξαζον τὸν θεόν, εἶπόν τε αὐτῷ· Θεωρεῖς, ἀδελφέ, πόσαι μυριάδες εἰσὶν ἐν τοῖς Ἰουδαίοις τῶν πεπιστευκότων, καὶ πάντες ζηλωταὶ τοῦ νόμου ὑπάρχουσιν·
+   - Vulgate: At illi cum audissent, magnificabant Deum, dixeruntque ei: Vides, frater, quot millia sunt in Judæis qui crediderunt, et omnes æmulatores sunt legis.
+   - BSB: When they heard this, they glorified God. Then they said to Paul, “You see, brother, how many thousands of Jews have believed, and all of them are zealous for the law.
+   - WEB: They, when they heard it, glorified God. They said to him, “You see, brother, how many thousands there are among the Jews of those who have believed, and they are all zealous for the law.
+- **23:6** substitute (name): critical *Φαρισαίων* ] RP *Φαρισαίου*
+   - Latin: Intellegēns autem Paulus, ūnam partem esse Saddūcæōrum, alteram Pharisæōrum, vōciferātus est in conciliō: “Virī frātrēs, ego Pharisæus sum, Pharisæī fīlius: spērātæ resurrēctiōnis mortuōrum sum reus.”
+   - 1573: Intelligens autem Paulus vnam partem esse Sadducæorum, alteram Pharisæorum, vociferatus est in concilio: Viri fratres, ego Pharisæus sum, Pharisæi filius: speratæ resurrectionis mortuorum sum reus.
+   - TR: Γνοὺς δὲ ὁ Παῦλος ὅτι τὸ ἓν μέρος ἐστὶ Σαδδουκαίων, τὸ δὲ ἕτερον Φαρισαίων, ἔκραξεν ἐν τῷ συνεδρίῳ, Ἄνδρες ἀδελφοί, ἐγὼ Φαρισαῖός εἰμι, υἱὸς Φαρισαίου· περὶ ἐλπίδος καὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι.
+   - SBLGNT: Γνοὺς δὲ ὁ Παῦλος ὅτι τὸ ἓν μέρος ἐστὶν Σαδδουκαίων τὸ δὲ ἕτερον Φαρισαίων ἔκραζεν ἐν τῷ συνεδρίῳ· Ἄνδρες ἀδελφοί, ἐγὼ Φαρισαῖός εἰμι, υἱὸς Φαρισαίων· περὶ ἐλπίδος καὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι.
+   - Vulgate: Sciens autem Paulus quia una pars esset sadducæorum, et altera pharisæorum, exclamavit in concilio: Viri fratres, ego pharisæus sum, filius pharisæorum: de spe et resurrectione mortuorum ego judicor.
+   - BSB: Then Paul, knowing that some of them were Sadducees and others Pharisees, called out in the Sanhedrin, “Brothers, I am a Pharisee, the son of a Pharisee. It is because of my hope in the resurrection of the dead that I am on trial.”
+   - WEB: But when Paul perceived that the one part were Sadducees and the other Pharisees, he cried out in the council, “Men and brothers, I am a Pharisee, a son of Pharisees. Concerning the hope and resurrection of the dead I am being judged!”
+- **23:11** add (name): critical *Θάρσει* ] RP *+ Παῦλε*
+   - Latin: Proximā nocte astāns eī Dominus dīxit: “Bonō animō es, Paule: ut enim dē mē Hierosolymæ testificātus es, sīc tibi Rōmæ quoque testificandum est.”
+   - 1573: Proxima nocte astans ei Dominus dixit: Bono animo es Paule: vt enim de me Hierosolymæ testificatus es, sic tibi Romæ quoque testificandum est.
+   - TR: Τῇ δὲ ἐπιούσῃ νυκτὶ ἐπιστὰς αὐτῷ ὁ Κύριος εἶπε, Θάρσει Παῦλε· ὡς γὰρ διεμαρτύρω τὰ περὶ ἐμοῦ εἰς Ἱερουσαλήμ, οὕτω σε δεῖ καὶ εἰς Ῥώμην μαρτυρῆσαι.
+   - SBLGNT: Τῇ δὲ ἐπιούσῃ νυκτὶ ἐπιστὰς αὐτῷ ὁ κύριος εἶπεν· Θάρσει, ὡς γὰρ διεμαρτύρω τὰ περὶ ἐμοῦ εἰς Ἰερουσαλὴμ οὕτω σε δεῖ καὶ εἰς Ῥώμην μαρτυρῆσαι.
+   - Vulgate: Sequenti autem nocte assistens ei Dominus, ait: Constans esto: sicut enim testificatus es de me in Jerusalem, sic te oportet et Romæ testificari.
+   - BSB: The following night the Lord stood near Paul and said, “Take courage! As you have testified about Me in Jerusalem, so also you must testify in Rome.”
+   - WEB: The following night, the Lord stood by him and said, “Cheer up, Paul, for as you have testified about me at Jerusalem, so you must testify also at Rome.”
+- **23:12** substitute (name): critical *συστροφὴν οἱ Ἰουδαῖοι* ] RP *τινες τῶν Ἰουδαίων συστροφήν*
+   - Latin: Deinde ortā diē, cōnspirārunt Jūdæī quīdam, et sēsē dēvōvērunt, sī vel cibum vel pōtiōnem caperent, quīn Paulum interfēcissent.
+   - 1573: Deinde orta die conspirarunt Iudæi quidam, et sese deuouerunt, si vel cibum vel potionem caperent, quin Paulum interfecissent.
+   - TR: Γενομένης δὲ ἡμέρας, ποιήσαντές τινες τῶν Ἰουδαίων συστροφήν, ἀνεθεμάτισαν ἑαυτούς, λέγοντες μήτε φαγεῖν μήτε πιεῖν ἕως οὗ ἀποκτείνωσι τὸν Παῦλον.
+   - SBLGNT: Γενομένης δὲ ἡμέρας ποιήσαντες συστροφὴν οἱ Ἰουδαῖοι ἀνεθεμάτισαν ἑαυτοὺς λέγοντες μήτε φαγεῖν μήτε πιεῖν ἕως οὗ ἀποκτείνωσιν τὸν Παῦλον.
+   - Vulgate: Facta autem die collegerunt se quidam ex Judæis, et devoverunt, se dicentes neque manducaturos, neque bibituros donec occiderent Paulum.
+   - BSB: When daylight came, the Jews formed a conspiracy and bound themselves with an oath not to eat or drink until they had killed Paul.
+   - WEB: When it was day, some of the Jews banded together and bound themselves under a curse, saying that they would neither eat nor drink until they had killed Paul.
+- **23:30** add (word): critical *ἄνδρα* ] RP *+ μέλλειν*; substitute (name): critical *ἐξαυτῆς* ] RP *ὑπὸ τῶν Ἰουδαίων ἐξαυτῆς*; add (word): critical *σοῦ* ] RP *+ Ἔρρωσο*
+   - Latin: Cum autem esset indicātum mihi, fore, ut Jūdæōrum appeterētur īnsidiīs, ad tē continuō mīsī, et simul accūsātōribus, ut contrā eum apud tē dīcerent, præcēpī. Valē.”
+   - 1573: Cùm autem esset indicatum mihi, fore vt Iudæorum appeteretur insidijs, ad te continuò misi, et simul accusatoribus, vt contra eum apud te dicerent, præcepi. Vale.
+   - TR: Μηνυθείσης δέ μοι ἐπιβουλῆς εἰς τὸν ἄνδρα μέλλειν ἔσεσθαι ὑπὸ τῶν Ἰουδαίων, ἐξαυτῆς ἔπεμψα πρός σε, παραγγείλας καὶ τοῖς κατηγόροις λέγειν τὰ πρὸς αὐτὸν ἐπὶ σοῦ. Ἔρρωσο.
+   - SBLGNT: μηνυθείσης δέ μοι ἐπιβουλῆς εἰς τὸν ἄνδρα ἔσεσθαι ἐξαυτῆς ἔπεμψα πρὸς σέ, παραγγείλας καὶ τοῖς κατηγόροις λέγειν πρὸς αὐτὸν ἐπὶ σοῦ.
+   - Vulgate: Et cum mihi perlatum esset de insidiis quas paraverant illi, misi eum ad te, denuntians et accusatoribus ut dicant apud te. Vale.
+   - BSB: When I was informed that there was a plot against the man, I sent him to you at once. I also instructed his accusers to present their case against him before you.
+   - WEB: When I was told that the Jews lay in wait for the man, I sent him to you immediately, charging his accusers also to bring their accusations against him before you. Farewell.”
+- **24:23** substitute (name): critical *αὐτὸν* ] RP *τὸν Παῦλον*; add (word): critical *ὑπηρετεῖν* ] RP *+ ἢ προσέρχεσθαι*
+   - Latin: Præcēpitque centuriōnī, ut asservārētur Paulus, et remissius habērētur, neque quisquam suōrum eī ministrāre aut adīre prohibērētur.
+   - 1573: præcepitque centurioni, vt asseruaretur Paulus, et remissius haberetur, neque quisquam suorum ei ministrare aut adire prohiberetur.
+   - TR: διαταξάμενός τε τῷ ἑκατοντάρχῃ τηρεῖσθαι τὸν Παῦλον, ἔχειν τε ἄνεσιν, καὶ μηδένα κωλύειν τῶν ἰδίων αὐτοῦ ὑπηρετεῖν ἢ προσέρχεσθαι αὐτῷ.
+   - SBLGNT: διαταξάμενος τῷ ἑκατοντάρχῃ τηρεῖσθαι αὐτὸν ἔχειν τε ἄνεσιν καὶ μηδένα κωλύειν τῶν ἰδίων αὐτοῦ ὑπηρετεῖν αὐτῷ.
+   - Vulgate: Jussitque centurioni custodire eum, et habere requiem, nec quemquam de suis prohibere ministrare ei.
+   - BSB: He ordered the centurion to keep Paul under guard, but to allow him some freedom and permit his friends to minister to his needs.
+   - WEB: He ordered the centurion that Paul should be kept in custody and should have some privileges, and not to forbid any of his friends to serve him or to visit him.
+- **25:4** substitute (name): critical *εἰς Καισάρειαν* ] RP *ἐν Καισαρείᾳ*
+   - Latin: Fēstus respondit, Paulum Cæsarēæ asservārī, sē vērō brevī profectūrum.
+   - 1573: Festus respondit, Paulum Cæsareæ asseruari, se verò breui profecturum.
+   - TR: Ὁ μὲν οὖν Φῆστος ἀπεκρίθη, τηρεῖσθαι τὸν Παῦλον ἐν Καισαρείᾳ, ἑαυτὸν δὲ μέλλειν ἐν τάχει ἐκπορεύεσθαι.
+   - SBLGNT: ὁ μὲν οὖν Φῆστος ἀπεκρίθη τηρεῖσθαι τὸν Παῦλον εἰς Καισάρειαν, ἑαυτὸν δὲ μέλλειν ἐν τάχει ἐκπορεύεσθαι·
+   - Vulgate: Festus autem respondit servari Paulum in Cæsarea: se autem maturius profecturum.
+   - BSB: But Festus replied, “Paul is being held in Caesarea, and I myself am going there soon.
+   - WEB: However Festus answered that Paul should be kept in custody at Caesarea, and that he himself was about to depart shortly.
+- **25:7** substitute (name): critical *καταφέροντες* ] RP *φέροντες κατὰ τοῦ Παῦλου*
+   - Latin: Quī postquam advēnit, circumstetērunt, quī Hierosolymīs dēscenderant, Jūdæī, multa et atrōcia Paulō crīmina impingentēs, quæ dēmōnstrāre nōn poterant:
+   - 1573: Qui postquam aduenit, circunsteterunt, qui Hierosolymis descenderant Iudæi, multa et atrocia Paulo crimina impingentes, quæ demonstrare non poterant:
+   - TR: Παραγενομένου δὲ αὐτοῦ, περιέστησαν οἱ ἀπὸ Ἱεροσολύμων καταβεβηκότες Ἰουδαῖοι, πολλὰ καὶ βαρέα αἰτιάματα φέροντες κατὰ τοῦ Παύλου, ἃ οὐκ ἴσχυον ἀποδεῖξαι,
+   - SBLGNT: παραγενομένου δὲ αὐτοῦ περιέστησαν αὐτὸν οἱ ἀπὸ Ἱεροσολύμων καταβεβηκότες Ἰουδαῖοι, πολλὰ καὶ βαρέα αἰτιώματα καταφέροντες ἃ οὐκ ἴσχυον ἀποδεῖξαι,
+   - Vulgate: Qui cum perductus esset, circumsteterunt eum, qui ab Jerosolyma descenderant Judæi, multas et graves causas objicientes, quas non poterant probare:
+   - BSB: When Paul arrived, the Jews who had come down from Jerusalem stood around him, bringing many serious charges that they could not prove.
+   - WEB: When he had come, the Jews who had come down from Jerusalem stood around him, bringing against him many and grievous charges which they could not prove,
+- **25:8** substitute (name): critical *τοῦ Παύλου ἀπολογουμένου* ] RP *ἀπολογουμένου αὐτοῦ*
+   - Latin: Illō sē nec in Jūdæōrum lēgem, nec in fānum, nec in Cæsarem quidquam peccāsse, dēfendente.
+   - 1573: illo se nec in Iudæorum legem, nec in fanum, nec in Cæsarem quicquam peccasse defendente.
+   - TR: ἀπολογουμένου αὐτοῦ ὅτι Οὔτε εἰς τὸν νόμον τῶν Ἰουδαίων, οὔτε εἰς τὸ ἱερόν, οὔτε εἰς Καίσαρά τι ἥμαρτον.
+   - SBLGNT: τοῦ Παύλου ἀπολογουμένου ὅτι Οὔτε εἰς τὸν νόμον τῶν Ἰουδαίων οὔτε εἰς τὸ ἱερὸν οὔτε εἰς Καίσαρά τι ἥμαρτον.
+   - Vulgate: Paulo rationem reddente: Quoniam neque in legem Judæorum, neque in templum, neque in Cæsarem quidquam peccavi.
+   - BSB: Then Paul made his defense: “I have committed no offense against the law of the Jews or against the temple or against Caesar.”
+   - WEB: while he said in his defense, “Neither against the law of the Jews, nor against the temple, nor against Caesar, have I sinned at all.”
+- **25:20** substitute (name): critical *Ἱεροσόλυμα* ] RP *Ἱερουσαλήμ*
+   - Latin: Ego dē hujusmodī quæstiōne dubitāns, quæsīvī, an Hierosolymam proficīscī vellet, et illīc dē hīs causam dīcere.
+   - 1573: Ego de huiusmodi quæstione dubitans, quæsiui an Hierosolymam proficisci vellet, et illic de his causam dicere.
+   - TR: Ἀπορούμενος δὲ ἐγὼ εἰς τὴν περὶ τούτου ζήτησιν, ἔλεγον, εἰ βούλοιτο πορεύεσθαι εἰς Ἱερουσαλήμ, κἀκεῖ κρίνεσθαι περὶ τούτων.
+   - SBLGNT: ἀπορούμενος δὲ ἐγὼ τὴν περὶ τούτων ζήτησιν ἔλεγον εἰ βούλοιτο πορεύεσθαι εἰς Ἱεροσόλυμα κἀκεῖ κρίνεσθαι περὶ τούτων.
+   - Vulgate: Hæsitans autem ego de hujusmodi quæstione, dicebam si vellet ire Jerosolymam, et ibi judicari de istis.
+   - BSB: Since I was at a loss as to how to investigate these matters, I asked if he was willing to go to Jerusalem and be tried there on these charges.
+   - WEB: Being perplexed how to inquire concerning these things, I asked whether he was willing to go to Jerusalem and there be judged concerning these matters.
+- **26:7** substitute (name): critical *ὑπὸ Ἰουδαίων βασιλεῦ* ] RP *βασιλεῦ Ἀγρίππα ὑπὸ Ἰουδαίων*
+   - Latin: Quō quidem sē perventūrās duodecim tribūs nostræ, Deum noctēs diēsque assiduē colendō, spērant. Dē hāc spē accūsor, rēx Agrippa, ā Jūdæīs.
+   - 1573: quò quidem se peruenturas duodecim tribus nostræ, Deum noctes diesque assiduè colendo, sperant. De hac spe accusor, rex Agrippa, à Iudæis.
+   - TR: εἰς ἣν τὸ δωδεκάφυλον ἡμῶν ἐν ἐκτενείᾳ νύκτα καὶ ἡμέραν λατρεῦον ἐλπίζει καταντῆσαι· περὶ ἧς ἐλπίδος ἐγκαλοῦμαι, βασιλεῦ Ἀγρίππα, ὑπὸ τῶν Ἰουδαίων.
+   - SBLGNT: εἰς ἣν τὸ δωδεκάφυλον ἡμῶν ἐν ἐκτενείᾳ νύκτα καὶ ἡμέραν λατρεῦον ἐλπίζει καταντῆσαι· περὶ ἧς ἐλπίδος ἐγκαλοῦμαι ὑπὸ Ἰουδαίων, βασιλεῦ·
+   - Vulgate: in quam duodecim tribus nostræ nocte ac die deservientes, sperant devenire. De qua spe accusor a Judæis, rex.
+   - BSB: the promise our twelve tribes are hoping to realize as they earnestly serve God day and night. It is because of this hope, O king, that I am accused by the Jews.
+   - WEB: which our twelve tribes, earnestly serving night and day, hope to attain. Concerning this hope I am accused by the Jews, King Agrippa!
+- **26:25** omit (name): critical *Παῦλος* ] RP *–*
+   - Latin: At ille: “Nōn īnsāniō,” inquit, “præstantissime Fēste, sed vēra et sāna verba prōferō.
+   - 1573: At ille: Non insanio, inquit, præstantissime Feste, sed vera et sana verba profero.
+   - TR: Ὁ δέ, Οὐ μαίνομαι, φησί, κράτιστε Φῆστε, ἀλλ᾿ ἀληθείας καὶ σωφροσύνης ῥήματα ἀποφθέγγομαι.
+   - SBLGNT: ὁ δὲ Παῦλος· Οὐ μαίνομαι, φησίν, κράτιστε Φῆστε, ἀλλὰ ἀληθείας καὶ σωφροσύνης ῥήματα ἀποφθέγγομαι.
+   - Vulgate: Et Paulus: Non insanio, inquit, optime Feste, sed veritatis et sobrietatis verba loquor.
+   - BSB: But Paul answered, “I am not insane, most excellent Festus; I am speaking words of truth and sobriety.
+   - WEB: But he said, “I am not crazy, most excellent Festus, but boldly declare words of truth and reasonableness.
+- **27:14** substitute (name): critical *Εὐρακύλων* ] RP *Εὐροκλύδων*
+   - Latin: Vērum haud multō post in eam procellōsus ventus impēgit, quī Euro aquilō vocātur.
+   - 1573: Verùm haud multò pòst in eam procellosus ventus impegit, qui Euro aquilo vocatur.
+   - TR: Μετ᾿ οὐ πολὺ δὲ ἔβαλε κατ᾿ αὐτῆς ἄνεμος τυφωνικός, ὁ καλούμενος Εὐροκλύδων·
+   - SBLGNT: μετʼ οὐ πολὺ δὲ ἔβαλεν κατʼ αὐτῆς ἄνεμος τυφωνικὸς ὁ καλούμενος Εὐρακύλων·
+   - Vulgate: Non post multum autem misit se contra ipsam ventus typhonicus, qui vocatur Euroaquilo.
+   - BSB: But it was not long before a cyclone called the Northeaster swept down across the island.
+   - WEB: But before long, a stormy wind beat down from shore, which is called Euroclydon.
+- **27:16** substitute (name): critical *Καῦδα* ] RP *Κλαύδην*
+   - Latin: Cumque subter parvam quandam īnsulam, nōmine Claudam, cursum tenuissēmus, vix scapham tenēre potuimus:
+   - 1573: Cumque subter paruam quandam insulam, nomine Claudam, cursum tenuissemus, vix scapham tenere potuimus:
+   - TR: Νησίον δέ τι ὑποδραμόντες καλούμενον Κλαύδην μόλις ἰσχύσαμεν περικρατεῖς γενέσθαι τῆς σκάφης·
+   - SBLGNT: νησίον δέ τι ὑποδραμόντες καλούμενον Καῦδα ἰσχύσαμεν μόλις περικρατεῖς γενέσθαι τῆς σκάφης,
+   - Vulgate: In insulam autem quamdam decurrentes, quæ vocatur Cauda, potuimus vix obtinere scapham.
+   - BSB: Passing to the lee of a small island called Cauda, we barely managed to secure the lifeboat.
+   - WEB: Running under the lee of a small island called Clauda, we were able, with difficulty, to secure the boat.
+- **28:17** substitute (name): critical *αὐτὸν* ] RP *τὸν Παῦλον*
+   - Latin: Post trīduum convocāvit Paulus Jūdæōrum prīmōs, eōsque, postquam convēnērunt, sīc allocūtus est: “Virī frātrēs, ego, quamvīs nihil contrā populum, patriōsve mōrēs fēcissem, vīnctus Hierosolymīs trāditus sum in Rōmānōrum manūs.
+   - 1573: Post triduum conuocauit, Paulus Iudæorum primos, eosque postquam conuenerunt, sic allocutus est: Viri fratres, ego quamuis nihil contra populum, patriosue mores fecissem, vinctus Hierosolymis traditus sum in Romanorum manus,
+   - TR: Ἐγένετο δὲ μετὰ ἡμέρας τρεῖς συγκαλέσασθαι τὸν Παῦλον τοὺς ὄντας τῶν Ἰουδαίων πρώτους· συνελθόντων δὲ αὐτῶν, ἔλεγε πρὸς αὐτούς, Ἄνδρες ἀδελφοί, ἐγὼ οὐδὲν ἐναντίον ποιήσας τῷ λαῷ ἢ τοῖς ἔθεσι τοῖς πατρῴοις, δέσμιος ἐξ Ἱεροσολύμων παρεδόθην εἰς τὰς χεῖρας τῶν Ῥωμαίων·
+   - SBLGNT: Ἐγένετο δὲ μετὰ ἡμέρας τρεῖς συγκαλέσασθαι αὐτὸν τοὺς ὄντας τῶν Ἰουδαίων πρώτους· συνελθόντων δὲ αὐτῶν ἔλεγεν πρὸς αὐτούς· Ἐγώ, ἄνδρες ἀδελφοί, οὐδὲν ἐναντίον ποιήσας τῷ λαῷ ἢ τοῖς ἔθεσι τοῖς πατρῴοις δέσμιος ἐξ Ἱεροσολύμων παρεδόθην εἰς τὰς χεῖρας τῶν Ῥωμαίων,
+   - Vulgate: Post tertium autem diem convocavit primos Judæorum. Cumque convenissent, dicebat eis: Ego, viri fratres, nihil adversus plebem faciens, aut morem paternum, vinctus ab Jerosolymis traditus sum in manus Romanorum,
+   - BSB: After three days, he called together the leaders of the Jews. When they had gathered, he said to them, “Brothers, although I have done nothing against our people or the customs of our fathers, I was taken prisoner in Jerusalem and handed over to the Romans.
+   - WEB: After three days Paul called together those who were the leaders of the Jews. When they had come together, he said to them, “I, brothers, though I had done nothing against the people or the customs of our fathers, still was delivered prisoner from Jerusalem into the hands of the Romans,
+- **28:30** substitute (word): critical *Ἐνέμεινεν* ] RP *Ἔμεινεν*; add (name): critical *δὲ* ] RP *+ ὁ Παῦλος*
+   - Latin: Mānsit autem Paulus tōtum biennium in conductō prīvātim, atque omnēs admittēbat, quī eum adībant,
+   - 1573: Mansit autem, Paulus totum biennium in conducto priuatim, atque omnes admittebat, qui eum adibant,
+   - TR: Ἔμεινε δὲ ὁ Παῦλος διετίαν ὅλην ἐν ἰδίῳ μισθώματι, καὶ ἀπεδέχετο πάντας τοὺς εἰσπορευομένους πρὸς αὐτόν,
+   - SBLGNT: Ἐνέμεινεν δὲ διετίαν ὅλην ἐν ἰδίῳ μισθώματι, καὶ ἀπεδέχετο πάντας τοὺς εἰσπορευομένους πρὸς αὐτόν,
+   - Vulgate: Mansit autem biennio toto in suo conducto: et suscipiebat omnes qui ingrediebantur ad eum,
+   - BSB: Paul stayed there two full years in his own rented house, welcoming all who came to visit him.
+   - WEB: Paul stayed two whole years in his own rented house and received all who were coming to him,
+
+## Text: number (4 verses)
+
+- **19:7** substitute (number): critical *δώδεκα* ] RP *δεκαδύο*
+   - Latin: Erant autem in summā virī circiter duodecim.
+   - 1573: Erant autem in summa, viri circiter duodecim.
+   - TR: Ἦσαν δὲ οἱ πάντες ἄνδρες ὡσεὶ δεκαδύο.
+   - SBLGNT: ἦσαν δὲ οἱ πάντες ἄνδρες ὡσεὶ δώδεκα.
+   - Vulgate: Erant autem omnes viri fere duodecim.
+   - BSB: There were about twelve men in all.
+   - WEB: They were about twelve men in all.
+- **24:11** substitute (word): critical *ἐπιγνῶναι* ] RP *γνῶναι*; substitute (number): critical *δώδεκα* ] RP *δεκαδύο*
+   - Latin: quod tū intellegere possīs, mē nōn plūrēs duodecim complēvisse diēs, ex quō Hierosolymam ad Deum adōrandum ascendī.
+   - 1573: quòd tu intelligere possis, me non plures duodecim compleuisse dies, ex quo Hierosolymam ad Deum adorandum ascendi.
+   - TR: δυναμένου σου γνῶναι ὅτι οὐ πλείους εἰσί μοι ἡμέραι ἢ δεκαδύο, ἀφ᾿ ἧς ἀνέβην προσκυνήσων ἐν Ἱερουσαλήμ·
+   - SBLGNT: δυναμένου σου ἐπιγνῶναι, ὅτι οὐ πλείους εἰσίν μοι ἡμέραι δώδεκα ἀφʼ ἧς ἀνέβην προσκυνήσων εἰς Ἰερουσαλήμ,
+   - Vulgate: Potes enim cognoscere quia non plus sunt mihi dies quam duodecim, ex quo ascendi adorare in Jerusalem:
+   - BSB: You can verify for yourself that no more than twelve days ago I went up to Jerusalem to worship.
+   - WEB: seeing that you can verify that it is not more than twelve days since I went up to worship at Jerusalem.
+- **25:6** substitute (number): critical *οὐ πλείους ὀκτὼ* ] RP *πλείους*
+   - Latin: Deinde postquam apud eōs nōn plūs decem diēs ēgit, Cæsarēam dēscendit: et postrīdiē prō tribūnālī sedēns, Paulum jussit addūcī.
+   - 1573: Deinde postquam apud eos non plus decem dies egit, Cæsaream descendit: et postridie pro tribunali sedens, Paulum iussit adduci.
+   - TR: Διατρίψας δὲ ἐν αὐτοῖς ἡμέρας πλείους ἢ δέκα, καταβὰς εἰς Καισάρειαν, τῇ ἐπαύριον καθίσας ἐπὶ τοῦ βήματος ἐκέλευσε τὸν Παῦλον ἀχθῆναι.
+   - SBLGNT: Διατρίψας δὲ ἐν αὐτοῖς ἡμέρας οὐ πλείους ὀκτὼ ἢ δέκα, καταβὰς εἰς Καισάρειαν, τῇ ἐπαύριον καθίσας ἐπὶ τοῦ βήματος ἐκέλευσεν τὸν Παῦλον ἀχθῆναι.
+   - Vulgate: Demoratus autem inter eos dies non amplius quam octo aut decem, descendit Cæsaream, et altera die sedit pro tribunali, et jussit Paulum adduci.
+   - BSB: After spending no more than eight or ten days with them, Festus went down to Caesarea. The next day he sat on the judgment seat and ordered that Paul be brought in.
+   - WEB: When he had stayed among them more than ten days, he went down to Caesarea, and on the next day he sat on the judgment seat, and commanded Paul to be brought.
+- **28:16** substitute (word): critical *εἰσήλθομεν* ] RP *ἤλθομεν*; substitute (number): critical *ἐπετράπη τῷ Παύλῳ* ] RP *ὁ ἑκατόνταρχος παρέδωκεν τοὺς δεσμίους τῷ στρατοπεδάρχῃ τῷ δὲ Παύλῳ ἐπετράπη*
+   - Latin: Postquam Rōmam vēnimus, centuriō vīnctōs præfectō castrōrum trādidit. Paulō autem permissum est, ut sōlus cum custōde suō mīlite manēret.
+   - 1573: Postquam Romam venimus, centurio vinctos præfecto castrorum tradidit. Paulo autem permissum est, vt solus cum custode suo milite maneret.
+   - TR: Ὅτε δὲ ἤλθομεν εἰς Ῥώμην, ὁ ἑκατόνταρχος παρέδωκε τοὺς δεσμίους τῷ στρατοπεδάρχῃ· τῷ δὲ Παύλῳ ἐπετράπη μένειν καθ᾿ ἑαυτόν, σὺν τῷ φυλάσσοντι αὐτὸν στρατιώτῃ.
+   - SBLGNT: Ὅτε δὲ εἰσήλθομεν εἰς Ῥώμην, ἐπετράπη τῷ Παύλῳ μένειν καθʼ ἑαυτὸν σὺν τῷ φυλάσσοντι αὐτὸν στρατιώτῃ.
+   - Vulgate: Cum autem venissemus Romam, permissum est Paulo manere sibimet cum custodiente se milite.
+   - BSB: When we arrived in Rome, Paul was permitted to stay by himself, with a soldier to guard him.
+   - WEB: When we entered into Rome, the centurion delivered the prisoners to the captain of the guard, but Paul was allowed to stay by himself with the soldier who guarded him.
+
+## Text: person (6 verses)
+
+- **3:25** substitute (person): critical *ὑμῶν* ] RP *ἡμῶν*
+   - Latin: Vōs estis ex vātibus ortī, et in eō fœdere comprehēnsī, quod fēcit Deus cum majōribus nostrīs, dum dīxit Abrāhāmō, per ejus sēmen fēlīcitandās esse omnēs terrārum nātiōnēs.
+   - 1573: Vos estis ex vatibus orti, et in eo fœdere comprehensi, quod fecit Deus cum maioribus nostris, dum dixit Abrahamo, per eius semen felicitandas esse omnes terrarum nationes.
+   - TR: Ὑμεῖς ἐστε υἱοὶ τῶν προφητῶν, καὶ τῆς διαθήκης ἧς διέθετο ὁ Θεὸς πρὸς τοὺς πατέρας ἡμῶν, λέγων πρὸς Ἀβραάμ, Καὶ τῷ σπέρματί σου ἐνευλογηθήσονται πᾶσαι αἱ πατριαὶ τῆς γῆς.
+   - SBLGNT: ὑμεῖς ἐστε οἱ υἱοὶ τῶν προφητῶν καὶ τῆς διαθήκης ἧς διέθετο ὁ θεὸς πρὸς τοὺς πατέρας ὑμῶν, λέγων πρὸς Ἀβραάμ· Καὶ ἐν τῷ σπέρματί σου ἐνευλογηθήσονται πᾶσαι αἱ πατριαὶ τῆς γῆς.
+   - Vulgate: Vos estis filii prophetarum, et testamenti quod disposuit Deus ad patres nostros, dicens ad Abraham: Et in semine tuo benedicentur omnes familiæ terræ.
+   - BSB: And you are sons of the prophets and of the covenant God made with your fathers when He said to Abraham, ‘Through your offspring all the families of the earth will be blessed.’
+   - WEB: You are the children of the prophets, and of the covenant which God made with our fathers, saying to Abraham, ‘All the families of the earth will be blessed through your offspring.’
+- **13:26** substitute (person): critical *ἡμῖν* ] RP *ὑμῖν*; substitute (word): critical *ἐξαπεστάλη* ] RP *ἀπεστάλη*
+   - Latin: “Virī frātrēs, ex Abrāhāmī genere oriundī, quīque ex vōbīs Deum reverentur, vōbīs hæc salūtāris missa doctrīna est.
+   - 1573: Viri fratres, ex Abrahami genere oriundi, quique ex vobis Deum reuerentur, vobis hæc salutaris missa doctrina est.
+   - TR: Ἄνδρες ἀδελφοί, υἱοὶ γένους Ἀβραάμ, καὶ οἱ ἐν ὑμῖν φοβούμενοι τὸν Θεόν, ὑμῖν ὁ λόγος τῆς σωτηρίας ταύτης ἀπεστάλη.
+   - SBLGNT: Ἄνδρες ἀδελφοί, υἱοὶ γένους Ἀβραὰμ καὶ οἱ ἐν ὑμῖν φοβούμενοι τὸν θεόν, ἡμῖν ὁ λόγος τῆς σωτηρίας ταύτης ἐξαπεστάλη.
+   - Vulgate: Viri fratres, filii generis Abraham, et qui in vobis timent Deum, vobis verbum salutis hujus missum est.
+   - BSB: Brothers, children of Abraham, and you Gentiles who fear God, it is to us that this message of salvation has been sent.
+   - WEB: “Brothers, children of the stock of Abraham, and those among you who fear God, the word of this salvation is sent out to you.
+- **14:17** substitute (person): critical *ὑμῶν* ] RP *ἡμῶν*
+   - Latin: Tametsī nōn sē relīquit nōn testātum, benefaciendō, dē cælō nōbīs pluviās, frūgiferaque dandō tempora, explendō cibīs ac lætitiā nostrōs animōs.”
+   - 1573: Tametsi non se reliquit non testatum, benefaciendo, de cœlo nobis pluuias frugiferaque dando tempora, explendo cibis ac lætitia nostros animos.
+   - TR: Καίτοιγε οὐκ ἀμάρτυρον ἑαυτὸν ἀφῆκεν ἀγαθοποιῶν, οὐρανόθεν ἡμῖν ὑετοὺς διδοὺς καὶ καιροὺς καρποφόρους, ἐμπιπλῶν τροφῆς καὶ εὐφροσύνης τὰς καρδίας ἡμῶν.
+   - SBLGNT: καίτοι οὐκ ἀμάρτυρον αὑτὸν ἀφῆκεν ἀγαθουργῶν, οὐρανόθεν ὑμῖν ὑετοὺς διδοὺς καὶ καιροὺς καρποφόρους, ἐμπιπλῶν τροφῆς καὶ εὐφροσύνης τὰς καρδίας ὑμῶν.
+   - Vulgate: Et quidem non sine testimonio semetipsum reliquit benefaciens de cælo, dans pluvias et tempora fructifera, implens cibo et lætitia corda nostra.
+   - BSB: Yet He has not left Himself without testimony to His goodness: He gives you rain from heaven and fruitful seasons, filling your hearts with food and gladness.”
+   - WEB: Yet he didn’t leave himself without witness, in that he did good and gave you rains from the sky and fruitful seasons, filling our hearts with food and gladness.”
+- **16:17** substitute (person): critical *ὑμῖν* ] RP *ἡμῖν*
+   - Latin: Ea Paulum et nōs subsecūta, sīc clāmābat: “Hī hominēs summī Deī cultōrēs sunt, quī nōbīs viam salūtis nūntiant.”
+   - 1573: Ea Paulum et nos subsecuta, sic clamabat: Hi homines summi Dei cultores sunt, qui nobis viam salutis nunciant.
+   - TR: Αὕτη κατακολουθήσασα τῷ Παύλῳ καὶ ἡμῖν, ἔκραζε λέγουσα, Οὗτοι οἱ ἄνθρωποι δοῦλοι τοῦ Θεοῦ τοῦ ὑψίστου εἰσίν, οἵτινες καταγγέλλουσιν ἡμῖν ὁδὸν σωτηρίας.
+   - SBLGNT: αὕτη κατακολουθοῦσα τῷ Παύλῳ καὶ ἡμῖν ἔκραζεν λέγουσα· Οὗτοι οἱ ἄνθρωποι δοῦλοι τοῦ θεοῦ τοῦ ὑψίστου εἰσίν, οἵτινες καταγγέλλουσιν ὑμῖν ὁδὸν σωτηρίας.
+   - Vulgate: Hæc subsecuta Paulum et nos, clamabat dicens: Isti homines servi Dei excelsi sunt, qui annuntiant vobis viam salutis.
+   - BSB: This girl followed Paul and the rest of us, shouting, “These men are servants of the Most High God, who are proclaiming to you the way of salvation!”
+   - WEB: Following Paul and us, she cried out, “These men are servants of the Most High God, who proclaim to us a way of salvation!”
+- **19:37** substitute (person): critical *ἡμῶν* ] RP *ὑμῶν*
+   - Latin: Addūxistis enim hominēs istōs neque sacrilegōs, neque in vestram deam maledicōs.
+   - 1573: Adduxistis enim homines istos neque sacrilegos, neque in vestram deam maledicos.
+   - TR: Ἠγάγετε γὰρ τοὺς ἄνδρας τούτους, οὔτε ἱεροσύλους οὔτε βλασφημοῦντας τὴν θεὰν ὑμῶν.
+   - SBLGNT: ἠγάγετε γὰρ τοὺς ἄνδρας τούτους οὔτε ἱεροσύλους οὔτε βλασφημοῦντας τὴν θεὸν ἡμῶν.
+   - Vulgate: Adduxistis enim homines istos, neque sacrilegos, neque blasphemantes deam vestram.
+   - BSB: For you have brought these men here, though they have neither robbed our temple nor blasphemed our goddess.
+   - WEB: For you have brought these men here, who are neither robbers of temples nor blasphemers of your goddess.
+- **28:25** substitute (person): critical *ὑμῶν* ] RP *ἡμῶν*
+   - Latin: Cumque inter sēsē discordēs essent, discēdēbant, Paulō ūnum verbum locūtō, vidēlicet: “Rēctē allocūtus est Spīritus Sānctus per Ēsāiam vātem majōrēs nostrōs,
+   - 1573: cumque inter sese discordes essent, discedebant, Paulo vnum verbum locuto, videlicet: Rectè allocutus est Spiritus sanctus, per Esaiam vatem, maiores nostros,
+   - TR: Ἀσύμφωνοι δὲ ὄντες πρὸς ἀλλήλους ἀπελύοντο, εἰπόντος τοῦ Παύλου ῥῆμα ἕν, ὅτι Καλῶς τὸ πνεῦμα τὸ ἅγιον ἐλάλησε διὰ Ἠσαΐου τοῦ προφήτου πρὸς τοὺς πατέρας ἡμῶν,
+   - SBLGNT: ἀσύμφωνοι δὲ ὄντες πρὸς ἀλλήλους ἀπελύοντο, εἰπόντος τοῦ Παύλου ῥῆμα ἓν ὅτι Καλῶς τὸ πνεῦμα τὸ ἅγιον ἐλάλησεν διὰ Ἠσαΐου τοῦ προφήτου πρὸς τοὺς πατέρας ὑμῶν
+   - Vulgate: Cumque invicem non essent consentientes, discedebant, dicente Paulo unum verbum: Quia bene Spiritus Sanctus locutus est per Isaiam prophetam ad patres nostros,
+   - BSB: They disagreed among themselves and began to leave after Paul had made this final statement: “The Holy Spirit was right when He spoke to your fathers through Isaiah the prophet:
+   - WEB: When they didn’t agree among themselves, they departed after Paul had spoken one message: “The Holy Spirit spoke rightly through Isaiah the prophet to our fathers,
+
+## Text: word (213 verses)
+
+- **1:6** substitute (word): critical *ἠρώτων* ] RP *ἐπηρώτων*
+   - Latin: Atque illī quidem congregātī sīc eum interrogārunt: “Domine, an hāc tempestāte Isrāēlītīs rēgnum īnstaurātūrus es?”
+   - 1573: Atque illi quidem congregati, sic eum interrogarunt: Domine, an hac tempestate Israelitis regnum instauraturus es?
+   - TR: Οἱ μὲν οὖν συνελθόντες ἐπηρώτων αὐτὸν λέγοντες, Κύριε, εἰ ἐν τῷ χρόνῳ τούτῳ ἀποκαθιστάνεις τὴν βασιλείαν τῷ Ἰσραήλ;
+   - SBLGNT: Οἱ μὲν οὖν συνελθόντες ἠρώτων αὐτὸν λέγοντες· Κύριε, εἰ ἐν τῷ χρόνῳ τούτῳ ἀποκαθιστάνεις τὴν βασιλείαν τῷ Ἰσραήλ;
+   - Vulgate: Igitur qui convenerant, interrogabant eum, dicentes: Domine, si in tempore hoc restitues regnum Israël?
+   - BSB: So when they came together, they asked Him, “Lord, will You at this time restore the kingdom to Israel?”
+   - WEB: Therefore, when they had come together, they asked him, “Lord, are you now restoring the kingdom to Israel?”
+- **1:10** substitute (word): critical *ἐσθήσεσι λευκαῖς* ] RP *ἐσθῆτι λευκῇ*
+   - Latin: Ac dum, eō abeunte, illī in cælum contuentur, ecce duo virī iīs in vestibus albīs astitērunt.
+   - 1573: Ac dum eo abeunte, illi in cœlum contuentur, ecce duo viri eis in vestibus albis astiterunt,
+   - TR: Καὶ ὡς ἀτενίζοντες ἦσαν εἰς τὸν οὐρανόν, πορευομένου αὐτοῦ, καὶ ἰδοὺ ἄνδρες δύο παρειστήκεισαν αὐτοῖς ἐν ἐσθῆτι λευκῇ,
+   - SBLGNT: καὶ ὡς ἀτενίζοντες ἦσαν εἰς τὸν οὐρανὸν πορευομένου αὐτοῦ, καὶ ἰδοὺ ἄνδρες δύο παρειστήκεισαν αὐτοῖς ἐν ἐσθήσεσι λευκαῖς,
+   - Vulgate: Cumque intuerentur in cælum euntem illum, ecce duo viri astiterunt juxta illos in vestibus albis,
+   - BSB: They were looking intently into the sky as He was going, when suddenly two men dressed in white stood beside them.
+   - WEB: While they were looking steadfastly into the sky as he went, behold, two men stood by them in white clothing,
+- **1:15** substitute (word): critical *ἀδελφῶν* ] RP *μαθητῶν*
+   - Latin: Ac per eōs diēs surrēxit Petrus in mediō discipulōrum, cum quidem esset ibīdem capitum numerus ad centum vīgintī, et in hunc modum verba fēcit:
+   - 1573: Ac per eos dies surrexit Petrus in medio discipulorum cùm quidem esset ibidem capitum numerus ad centum viginti) et in hunc modum verba fecit:
+   - TR: Καὶ ἐν ταῖς ἡμέραις ταύταις ἀναστὰς Πέτρος ἐν μέσῳ τῶν μαθητῶν εἶπεν — ἦν τε ὄχλος ὀνομάτων ἐπὶ τὸ αὐτὸ ὡς ἑκατὸν εἴκοσιν —
+   - SBLGNT: Καὶ ἐν ταῖς ἡμέραις ταύταις ἀναστὰς Πέτρος ἐν μέσῳ τῶν ἀδελφῶν εἶπεν (ἦν τε ὄχλος ὀνομάτων ἐπὶ τὸ αὐτὸ ὡς ἑκατὸν εἴκοσι)·
+   - Vulgate: In diebus illis, exsurgens Petrus in medio fratrum, dixit (erat autem turba hominum simul, fere centum viginti):
+   - BSB: In those days Peter stood up among the brothers (a gathering of about a hundred and twenty) and said,
+   - WEB: In these days, Peter stood up in the middle of the disciples (and the number of names was about one hundred twenty), and said,
+- **1:16** add (word): critical *γραφὴν* ] RP *+ ταύτην*
+   - Latin: “Hominēs frātrēs, oportēbat illud litterīs mandātum fierī, quod Sānctus Spīritus ōre Dāvīdis prædīxit dē Jūdā, eō, quī sē ducem præbuit iīs, quī Jēsum comprehendērunt:
+   - 1573: Homines fratres, oportebat illud literis mandatum fieri, quod sanctus spiritus ore Dauidis prædixit, de Iuda, eo qui se ducem præbuit ijs qui Iesum comprehenderunt:
+   - TR: Ἄνδρες ἀδελφοί, ἔδει πληρωθῆναι τὴν γραφὴν ταύτην, ἣν προεῖπε τὸ πνεῦμα τὸ ἅγιον διὰ στόματος Δαβὶδ περὶ Ἰούδα, τοῦ γενομένου ὁδηγοῦ τοῖς συλλαβοῦσι τὸν Ἰησοῦν.
+   - SBLGNT: Ἄνδρες ἀδελφοί, ἔδει πληρωθῆναι τὴν γραφὴν ἣν προεῖπε τὸ πνεῦμα τὸ ἅγιον διὰ στόματος Δαυὶδ περὶ Ἰούδα τοῦ γενομένου ὁδηγοῦ τοῖς συλλαβοῦσιν Ἰησοῦν,
+   - Vulgate: Viri fratres, oportet impleri Scripturam quam prædixit Spiritus Sanctus per os David de Juda, qui fuit dux eorum qui comprehenderunt Jesum:
+   - BSB: “Brothers, the Scripture had to be fulfilled which the Holy Spirit foretold through the mouth of David concerning Judas, who became a guide for those who arrested Jesus.
+   - WEB: “Brothers, it was necessary that this Scripture should be fulfilled, which the Holy Spirit spoke before by the mouth of David concerning Judas, who was guide to those who took Jesus.
+- **1:20** substitute (word): critical *λαβέτω* ] RP *λάβοι*
+   - Latin: Scrīptum est enim in Psalmōrum librō: ‘Fīat ejus habitātiō dēserta, neque sit, quī in eā habitet, ejusque mūnus excipiat alius.’
+   - 1573: Scriptum est enim in Psalmorum libro: Fiat eius habitatio deserta, neque sit qui in ea habitet, eiusque munus excipiat alius.
+   - TR: Γέγραπται γὰρ ἐν βίβλῳ Ψαλμῶν, Γενηθήτω ἡ ἔπαυλις αὐτοῦ ἔρημος, καὶ μὴ ἔστω ὁ κατοικῶν ἐν αὐτῇ· καί, Τὴν ἐπισκοπὴν αὐτοῦ λάβοι ἕτερος.
+   - SBLGNT: γέγραπται γὰρ ἐν βίβλῳ ψαλμῶν· Γενηθήτω ἡ ἔπαυλις αὐτοῦ ἔρημος καὶ μὴ ἔστω ὁ κατοικῶν ἐν αὐτῇ, καί· Τὴν ἐπισκοπὴν αὐτοῦ λαβέτω ἕτερος.
+   - Vulgate: Scriptum est enim in libro Psalmorum: Fiat commoratio eorum deserta, et non sit qui inhabitet in ea: et episcopatum ejus accipiat alter.
+   - BSB: “For it is written in the book of Psalms: ‘May his place be deserted; let there be no one to dwell in it,’ and, ‘May another take his position.’
+   - WEB: For it is written in the book of Psalms, ‘Let his habitation be made desolate. Let no one dwell in it;’ and, ‘Let another take his office.’
+- **1:25** substitute (word): critical *τόπον* ] RP *κλῆρον*; substitute (word): critical *ἀφʼ* ] RP *ἐξ*
+   - Latin: subeundæ hujus mūneris et lēgātiōnis sortī, ex quā Jūdās excidit, ut īret in suum locum.”
+   - 1573: subeundæ huius muneris et legationis sorti, ex qua Iudas excidit, vt iret in suum locum.
+   - TR: λαβεῖν τὸν κλῆρον τῆς διακονίας ταύτης καὶ ἀποστολῆς, ἐξ ἧς παρέβη Ἰούδας, πορευθῆναι εἰς τὸν τόπον τὸν ἴδιον.
+   - SBLGNT: λαβεῖν τὸν τόπον τῆς διακονίας ταύτης καὶ ἀποστολῆς, ἀφʼ ἧς παρέβη Ἰούδας πορευθῆναι εἰς τὸν τόπον τὸν ἴδιον.
+   - Vulgate: accipere locum ministerii hujus et apostolatus, de quo prævaricatus est Judas ut abiret in locum suum.
+   - BSB: to take up this ministry and apostleship, which Judas abandoned to go to his rightful place.”
+   - WEB: to take part in this ministry and apostleship from which Judas fell away, that he might go to his own place.”
+- **2:1** substitute (word): critical *πάντες ὁμοῦ* ] RP *ἅπαντες ὁμοθυμαδὸν*
+   - Latin: Ut autem perventum est ad diem quīnquāgēsimæ, cum omnēs simul essent eōdem in locō,
+   - 1573: Vt autem peruentum est ad diem Quinquagesimæ, cùm omnes simul essent eodem in loco,
+   - TR: Καὶ ἐν τῷ συμπληροῦσθαι τὴν ἡμέραν τῆς Πεντηκοστῆς, ἦσαν ἅπαντες ὁμοθυμαδὸν ἐπὶ τὸ αὐτό.
+   - SBLGNT: Καὶ ἐν τῷ συμπληροῦσθαι τὴν ἡμέραν τῆς πεντηκοστῆς ἦσαν πάντες ὁμοῦ ἐπὶ τὸ αὐτό,
+   - Vulgate: Et cum complerentur dies Pentecostes, erant omnes pariter in eodem loco:
+   - BSB: When the day of Pentecost came, they were all together in one place.
+   - WEB: Now when the day of Pentecost had come, they were all with one accord in one place.
+- **2:4** substitute (word): critical *πάντες* ] RP *ἅπαντες*
+   - Latin: Replētīque sunt omnēs Sānctō Spīritū, et dīversīs loquī linguīs cœpērunt, prout iīs Spīritus fārī dabat.
+   - 1573: repletique sunt omnes sancto spiritu, et diuersis loqui linguis cœperunt, prout eis spiritus fari dabat.
+   - TR: Καὶ ἐπλήσθησαν ἅπαντες πνεύματος ἁγίου, καὶ ἤρξαντο λαλεῖν ἑτέραις γλώσσαις, καθὼς τὸ πνεῦμα ἐδίδου αὐτοῖς ἀποφθέγγεσθαι.
+   - SBLGNT: καὶ ἐπλήσθησαν πάντες πνεύματος ἁγίου, καὶ ἤρξαντο λαλεῖν ἑτέραις γλώσσαις καθὼς τὸ πνεῦμα ἐδίδου ἀποφθέγγεσθαι αὐτοῖς.
+   - Vulgate: et repleti sunt omnes Spiritu Sancto, et cœperunt loqui variis linguis, prout Spiritus Sanctus dabat eloqui illis.
+   - BSB: And they were all filled with the Holy Spirit and began to speak in other tongues as the Spirit enabled them.
+   - WEB: They were all filled with the Holy Spirit and began to speak with other languages, as the Spirit gave them the ability to speak.
+- **2:7** add (word): critical *δὲ* ] RP *+ πάντες*; add (word): critical *λέγοντες* ] RP *+ πρὸς ἀλλήλους*
+   - Latin: Itaque attonitī omnēs mīrābantur, et sīc inter sēsē dictitābant: “Nōnne omnēs hī, quī loquuntur, Galilæī sunt?
+   - 1573: Itaque attoniti omnes mirabantur, et sic inter sese dictitabant: Nonne omnes hi, qui loquuntur, Galilæi sunt?
+   - TR: Ἐξίσταντο δὲ πάντες καὶ ἐθαύμαζον, λέγοντες πρὸς ἀλλήλους, Οὐκ ἰδοὺ πάντες οὗτοί εἰσιν οἱ λαλοῦντες Γαλιλαῖοι;
+   - SBLGNT: ἐξίσταντο δὲ καὶ ἐθαύμαζον λέγοντες· Οὐχ ἰδοὺ πάντες οὗτοί εἰσιν οἱ λαλοῦντες Γαλιλαῖοι;
+   - Vulgate: Stupebant autem omnes, et mirabantur, dicentes: Nonne ecce omnes isti qui loquuntur, Galilæi sunt?
+   - BSB: Astounded and amazed, they asked, “Are not all these men who are speaking Galileans?
+   - WEB: They were all amazed and marveled, saying to one another, “Behold, aren’t all these who speak Galileans?
+- **2:12** substitute (word): critical *θέλει* ] RP *ἄν θέλοι*
+   - Latin: Ita attonitī dubitābant omnēs, et sīc inter sēsē dictitābant: “Quid hoc sibi vult?”
+   - 1573: Ita attoniti dubitabant omnes, et sic inter sese dictitabant: Quid hoc sibi vult?
+   - TR: Ἐξίσταντο δὲ πάντες καὶ διηπόρουν, ἄλλος πρὸς ἄλλον λέγοντες, Τί ἂν θέλοι τοῦτο εἶναι;
+   - SBLGNT: ἐξίσταντο δὲ πάντες καὶ διηπόρουν, ἄλλος πρὸς ἄλλον λέγοντες· Τί θέλει τοῦτο εἶναι;
+   - Vulgate: Stupebant autem omnes, et mirabantur ad invicem, dicentes: Quidnam vult hoc esse?
+   - BSB: Astounded and perplexed, they asked one another, “What does this mean?”
+   - WEB: They were all amazed and were perplexed, saying to one another, “What does this mean?”
+- **2:13** substitute (word): critical *διαχλευάζοντες* ] RP *χλευάζοντες*
+   - Latin: Aliī dērīdentēs dīcēbant, eōs vīnī esse plēnōs.
+   - 1573: Alij deridentes, dicebant, eos vini esse plenos.
+   - TR: Ἕτεροι δὲ χλευάζοντες ἔλεγον ὅτι Γλεύκους μεμεστωμένοι εἰσί.
+   - SBLGNT: ἕτεροι δὲ διαχλευάζοντες ἔλεγον ὅτι Γλεύκους μεμεστωμένοι εἰσίν.
+   - Vulgate: Alii autem irridentes dicebant: Quia musto pleni sunt isti.
+   - BSB: But others mocked them and said, “They are drunk on new wine!”
+   - WEB: Others, mocking, said, “They are filled with new wine.”
+- **2:14** substitute (word): critical *πάντες* ] RP *ἅπαντες*
+   - Latin: At Petrus astāns, ūnā cum ūndecim, ad eōs ōrātiōnem habuit in hæc verba: “Hominēs Jūdæī, et Hierosolymæ incolæ omnēs, hoc cognōscite, et mea dicta attendite.
+   - 1573: At Petrus astans, vnà cum vndecim, ad eos orationem habuit in hæc verba: Homines Iudæi, et Hierosolymæ incolæ omnes, hoc cognoscite, et mea dicta attendite.
+   - TR: Σταθεὶς δὲ Πέτρος σὺν τοῖς ἕνδεκα, ἐπῆρε τὴν φωνὴν αὐτοῦ, καὶ ἀπεφθέγξατο αὐτοῖς, Ἄνδρες Ἰουδαῖοι, καὶ οἱ κατοικοῦντες Ἱερουσαλὴμ ἅπαντες, τοῦτο ὑμῖν γνωστὸν ἔστω, καὶ ἐνωτίσασθε τὰ ῥήματά μου.
+   - SBLGNT: Σταθεὶς δὲ ὁ Πέτρος σὺν τοῖς ἕνδεκα ἐπῆρεν τὴν φωνὴν αὐτοῦ καὶ ἀπεφθέγξατο αὐτοῖς· Ἄνδρες Ἰουδαῖοι καὶ οἱ κατοικοῦντες Ἰερουσαλὴμ πάντες, τοῦτο ὑμῖν γνωστὸν ἔστω καὶ ἐνωτίσασθε τὰ ῥήματά μου.
+   - Vulgate: Stans autem Petrus cum undecim, levavit vocem suam, et locutus est eis: Viri Judæi, et qui habitatis Jerusalem universi, hoc vobis notum sit, et auribus percipite verba mea.
+   - BSB: Then Peter stood up with the Eleven, lifted up his voice, and addressed the crowd: “Men of Judea and all who dwell in Jerusalem, let this be known to you, and listen carefully to my words.
+   - WEB: But Peter, standing up with the eleven, lifted up his voice and spoke out to them, “You men of Judea and all you who dwell at Jerusalem, let this be known to you, and listen to my words.
+- **2:23** add (word): critical *ἔκδοτον* ] RP *+ λαβόντες*
+   - Latin: hunc vōs dēfīnītō Deī cōnsiliō et prōvidentiā trāditum, scelestīs manibus comprehendistis, et ad pālum alligātum sustulistis:
+   - 1573: hunc vos definito Dei consilio et prouidentia traditum, scelestis manibus comprehendistis, et ad palum alligatum sustulistis.
+   - TR: τοῦτον τῇ ὡρισμένῃ βουλῇ καὶ προγνώσει τοῦ Θεοῦ ἔκδοτον λαβόντες, διὰ χειρῶν ἀνόμων προσπήξαντες ἀνείλετε·
+   - SBLGNT: τοῦτον τῇ ὡρισμένῃ βουλῇ καὶ προγνώσει τοῦ θεοῦ ἔκδοτον διὰ χειρὸς ἀνόμων προσπήξαντες ἀνείλατε,
+   - Vulgate: hunc, definito consilio et præscientia Dei traditum, per manus iniquorum affligentes interemistis:
+   - BSB: He was delivered up by God’s set plan and foreknowledge, and you, by the hands of the lawless, put Him to death by nailing Him to the cross.
+   - WEB: him, being delivered up by the determined counsel and foreknowledge of God, you have taken by the hand of lawless men, crucified and killed;
+- **2:27** substitute (word): critical *ᾅδην* ] RP *ᾍδου*
+   - Latin: Quoniam tū animam meam nōn relinquēs in orcō, neque committēs, ut pius tuus corruptiōnem patiātur.
+   - 1573: quoniam tu animam meam non relinques in Orco, neque committes, vt pius tuus corruptionem patiatur.
+   - TR: ὅτι οὐκ ἐγκαταλείψεις τὴν ψυχήν μου εἰς ᾍδου, οὐδὲ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν.
+   - SBLGNT: ὅτι οὐκ ἐγκαταλείψεις τὴν ψυχήν μου εἰς ᾅδην, οὐδὲ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν.
+   - Vulgate: quoniam non derelinques animam meam in inferno, nec dabis sanctum tuum videre corruptionem.
+   - BSB: because You will not abandon my soul to Hades, nor will You let Your Holy One see decay.
+   - WEB: because you will not leave my soul in Hades, neither will you allow your Holy One to see decay.
+- **2:31** substitute (word): critical *οὔτε ἐγκατελείφθη* ] RP *οὐ κατελείφθη ἡ ψυχὴ αὐτοῦ*; substitute (word): critical *ᾅδην* ] RP *ᾍδου*; substitute (word): critical *οὔτε* ] RP *οὐδὲ*
+   - Latin: præscius Chrīstī resurrēctiōnis, dīxit, ejus nec animam in orcō relinquendam, nec corpus corruptiōnem esse passūrum.
+   - 1573: præscius Christi: resurrectionis, dixit, eius nec animam in Orco relinquendam, nec corpus corruptionem esse passurum.
+   - TR: προϊδὼν ἐλάλησε περὶ τῆς ἀναστάσεως τοῦ Χριστοῦ, ὅτι οὐ κατελείφθη ἡ ψυχὴ αὐτοῦ εἰς ᾍδου, οὐδὲ ἡ σὰρξ αὐτοῦ εἶδε διαφθοράν.
+   - SBLGNT: προϊδὼν ἐλάλησεν περὶ τῆς ἀναστάσεως τοῦ χριστοῦ ὅτι οὔτε ἐγκατελείφθη εἰς ᾅδην οὔτε ἡ σὰρξ αὐτοῦ εἶδεν διαφθοράν.
+   - Vulgate: providens locutus est de resurrectione Christi, quia neque derelictus est in inferno, neque caro ejus vidit corruptionem.
+   - BSB: Foreseeing this, David spoke about the resurrection of the Christ, that He was not abandoned to Hades, nor did His body see decay.
+   - WEB: he foreseeing this, spoke about the resurrection of the Christ, that his soul wasn’t left in Hades, and his flesh didn’t see decay.
+- **2:37** substitute (word): critical *τὴν καρδίαν* ] RP *τῇ καρδίᾳ*
+   - Latin: Hīs audītīs, illī animō compūnctī, Petrum et cēterōs apostolōs sīc alloquuntur: “Quid agēmus, frātrēs?”
+   - 1573: His auditis, illi animo compuncti, Petrum et cæteros Apostolos sic alloquuntur: Quid agemus fratres?
+   - TR: Ἀκούσαντες δὲ κατενύγησαν τῇ καρδίᾳ, εἶπόν τε πρὸς τὸν Πέτρον καὶ τοὺς λοιποὺς ἀποστόλους, Τί ποιήσομεν, ἄνδρες ἀδελφοί;
+   - SBLGNT: Ἀκούσαντες δὲ κατενύγησαν τὴν καρδίαν, εἶπόν τε πρὸς τὸν Πέτρον καὶ τοὺς λοιποὺς ἀποστόλους· Τί ποιήσωμεν, ἄνδρες ἀδελφοί;
+   - Vulgate: His autem auditis, compuncti sunt corde, et dixerunt ad Petrum et ad reliquos Apostolos: Quid faciemus, viri fratres?
+   - BSB: When the people heard this, they were cut to the heart and asked Peter and the other apostles, “Brothers, what shall we do?”
+   - WEB: Now when they heard this, they were cut to the heart, and said to Peter and the rest of the apostles, “Brothers, what shall we do?”
+- **2:41** add (word): critical *οὖν* ] RP *+ ἀσμένως*
+   - Latin: Atque illī ejus ōrātiōne avidē admissā, sunt baptīzātī, et accessērunt eō diē hominum capita ad tria mīllia.
+   - 1573: Atque illi eius oratione auidè admissa, sunt baptizati, et accesserunt eo die hominum capita ad tria millia.
+   - TR: Οἱ μὲν οὖν ἀσμένως ἀποδεξάμενοι τὸν λόγον αὐτοῦ ἐβαπτίσθησαν· καὶ προσετέθησαν τῇ ἡμέρᾳ ἐκείνῃ ψυχαὶ ὡσεὶ τρισχίλιαι.
+   - SBLGNT: οἱ μὲν οὖν ἀποδεξάμενοι τὸν λόγον αὐτοῦ ἐβαπτίσθησαν, καὶ προσετέθησαν ἐν τῇ ἡμέρᾳ ἐκείνῃ ψυχαὶ ὡσεὶ τρισχίλιαι.
+   - Vulgate: Qui ergo receperunt sermonem ejus, baptizati sunt: et appositæ sunt in die illa animæ circiter tria millia.
+   - BSB: Those who embraced his message were baptized, and about three thousand were added to the believers that day.
+   - WEB: Then those who gladly received his word were baptized. There were added that day about three thousand souls.
+- **2:43** substitute (word): critical *Ἐγίνετο* ] RP *Ἐγένετο*
+   - Latin: Atque omnēs hominēs metū perculsī sunt, multaque portentōsē et prōdigiōsē per apostolōs fīēbant.
+   - 1573: Atque omnes homines metu perculsi sunt, multaque portentose et prodigiosè per Apostolos fiebant.
+   - TR: Ἐγένετο δὲ πάσῃ ψυχῇ φόβος, πολλά τε τέρατα καὶ σημεῖα διὰ τῶν ἀποστόλων ἐγίνετο.
+   - SBLGNT: Ἐγίνετο δὲ πάσῃ ψυχῇ φόβος, πολλά τε τέρατα καὶ σημεῖα διὰ τῶν ἀποστόλων ἐγίνετο.
+   - Vulgate: Fiebat autem omni animæ timor: multa quoque prodigia et signa per Apostolos in Jerusalem fiebant, et metus erat magnus in universis.
+   - BSB: A sense of awe came over everyone, and the apostles performed many wonders and signs.
+   - WEB: Fear came on every soul, and many wonders and signs were done through the apostles.
+- **2:47** substitute (word): critical *ἐπὶ τὸ αὐτό* ] RP *τῇ ἐκκλησία*
+   - Latin: et apud cūnctum populum valentēs grātiā. Dominus vērō servandōs cotīdiē addēbat ecclēsiæ.
+   - 1573: et apud cunctum populum valentes gratia. Dominus verò seruandos quotidie addebat ecclesiæ.
+   - TR: αἰνοῦντες τὸν Θεόν, καὶ ἔχοντες χάριν πρὸς ὅλον τὸν λαόν. Ὁ δὲ Κύριος προσετίθει τοὺς σῳζομένους καθ᾿ ἡμέραν τῇ ἐκκλησίᾳ.
+   - SBLGNT: αἰνοῦντες τὸν θεὸν καὶ ἔχοντες χάριν πρὸς ὅλον τὸν λαόν. ὁ δὲ κύριος προσετίθει τοὺς σῳζομένους καθʼ ἡμέραν ἐπὶ τὸ αὐτό.
+   - Vulgate: collaudantes Deum et habentes gratiam ad omnem plebem. Dominus autem augebat qui salvi fierent quotidie in idipsum.
+   - BSB: praising God and enjoying the favor of all the people. And the Lord added to their number daily those who were being saved.
+   - WEB: praising God and having favor with all the people. The Lord added to the assembly day by day those who were being saved.
+- **3:7** substitute (word): critical *σφυδρά* ] RP *σφυρά*
+   - Latin: Eumque dextrā manū prehēnsum allevāvit. Atque ille continuō cōnfirmātīs ejus crūribus atque tālīs, exsiliēns cōnsistit,
+   - 1573: Eumque dextera manu prehensum alleuauit. Atque ille, continuò confirmatis eius cruribus atque talis, exiliens consistit,
+   - TR: Καὶ πιάσας αὐτὸν τῆς δεξιᾶς χειρὸς ἤγειρε· παραχρῆμα δὲ ἐστερεώθησαν αὐτοῦ αἱ βάσεις καὶ τὰ σφυρά.
+   - SBLGNT: καὶ πιάσας αὐτὸν τῆς δεξιᾶς χειρὸς ἤγειρεν αὐτόν· παραχρῆμα δὲ ἐστερεώθησαν αἱ βάσεις αὐτοῦ καὶ τὰ σφυδρά,
+   - Vulgate: Et apprehensa manu ejus dextera, allevavit eum, et protinus consolidatæ sunt bases ejus et plantæ.
+   - BSB: Taking him by the right hand, Peter helped him up, and at once the man’s feet and ankles were made strong.
+   - WEB: He took him by the right hand and raised him up. Immediately his feet and his ankle bones received strength.
+- **3:11** substitute (word): critical *αὐτοῦ* ] RP *τοῦ ἰαθέντος χωλοῦ*
+   - Latin: Itaque retinente Petrum et Jōhannem sānātō claudō, concurrit ad eōs cūnctus populus in porticum, quæ Solomōnia vocātur, attonitī.
+   - 1573: Itaque retinente Petrum et Iohannem sanato claudo, concurrit ad eos cunctus populus in porticum, quæ Solomonia vocatur, attoniti.
+   - TR: Κρατοῦντος δὲ τοῦ ἰαθέντος χωλοῦ τὸν Πέτρον καὶ Ἰωάννην, συνέδραμε πρὸς αὐτοὺς πᾶς ὁ λαὸς ἐπὶ τῇ στοᾷ τῇ καλουμένῃ Σολομῶντος, ἔκθαμβοι.
+   - SBLGNT: Κρατοῦντος δὲ αὐτοῦ τὸν Πέτρον καὶ τὸν Ἰωάννην συνέδραμεν πᾶς ὁ λαὸς πρὸς αὐτοὺς ἐπὶ τῇ στοᾷ τῇ καλουμένῃ Σολομῶντος ἔκθαμβοι.
+   - Vulgate: Cum teneret autem Petrum et Joannem, cucurrit omnis populus ad eos ad porticum quæ appellatur Salomonis, stupentes.
+   - BSB: While the man clung to Peter and John, all the people were astonished and ran to them in the walkway called Solomon’s Colonnade.
+   - WEB: As the lame man who was healed held on to Peter and John, all the people ran together to them in the porch that is called Solomon’s, greatly wondering.
+- **3:21** add (word): critical *στόματος* ] RP *+ πάντων*
+   - Latin: quem oportet cælō capī ūsque ad tempora īnstaurātiōnis omnium, quæ tempora Deus tot suōrum sānctōrum ōre vātum jam ōlim fātus est.
+   - 1573: quem oportet cœlo capi vsque ad tempora instaurationis omnium, quæ tempora Deus tot suorum sanctorum ore vatum iam olim fatus est.
+   - TR: ὃν δεῖ οὐρανὸν μὲν δέξασθαι ἄχρι χρόνων ἀποκαταστάσεως πάντων, ὧν ἐλάλησεν ὁ Θεὸς διὰ στόματος πάντων ἁγίων αὐτοῦ προφητῶν ἀπ᾿ αἰῶνος.
+   - SBLGNT: ὃν δεῖ οὐρανὸν μὲν δέξασθαι ἄχρι χρόνων ἀποκαταστάσεως πάντων ὧν ἐλάλησεν ὁ θεὸς διὰ στόματος τῶν ἁγίων ἀπʼ αἰῶνος αὐτοῦ προφητῶν.
+   - Vulgate: quem oportet quidem cælum suscipere usque in tempora restitutionis omnium quæ locutus est Deus per os sanctorum suorum a sæculo prophetarum.
+   - BSB: Heaven must take Him in until the time comes for the restoration of all things, which God announced long ago through His holy prophets.
+   - WEB: whom heaven must receive until the times of restoration of all things, which God spoke long ago by the mouth of his holy prophets.
+- **3:26** add (word): critical *αὐτοῦ* ] RP *+ Ἰησοῦν*
+   - Latin: Vōbīs prīmum Deus suscitātum puerum suum mīsit, quī vōs fēlīcitet, sī ā suīs quisque vitiīs dēscīscātis.”
+   - 1573: Vobis primùm Deus suscitatum puerum suum misit, qui vos felicitet, si à suis quisque vitiis desciscatis.
+   - TR: Ὑμῖν πρῶτον ὁ Θεός, ἀναστήσας τὸν παῖδα αὐτοῦ Ἰησοῦν, ἀπέστειλεν αὐτὸν εὐλογοῦντα ὑμᾶς, ἐν τῷ ἀποστρέφειν ἕκαστον ἀπὸ τῶν πονηριῶν ὑμῶν.
+   - SBLGNT: ὑμῖν πρῶτον ἀναστήσας ὁ θεὸς τὸν παῖδα αὐτοῦ ἀπέστειλεν αὐτὸν εὐλογοῦντα ὑμᾶς ἐν τῷ ἀποστρέφειν ἕκαστον ἀπὸ τῶν πονηριῶν ὑμῶν.
+   - Vulgate: Vobis primum Deus suscitans filium suum, misit eum benedicentem vobis: ut convertat se unusquisque a nequitia sua.
+   - BSB: When God raised up His Servant, He sent Him first to you to bless you by turning each of you from your wicked ways.”
+   - WEB: God, having raised up his servant Jesus, sent him to you first to bless you, in turning away every one of you from your wickedness.”
+- **4:12** substitute (word): critical *οὐδὲ* ] RP *οὔτε*
+   - Latin: Nec est in ūllō aliō salūs, nec ūllum aliud nōmen est sub cælō apud hominēs datum, per quod servandī sīmus.”
+   - 1573: Nec est in vllo alio salus, nec vllum aliud nomen est sub cœlo apud homines datum, per quod seruandi simus.
+   - TR: Καὶ οὐκ ἔστιν ἐν ἄλλῳ οὐδενὶ ἡ σωτηρία· οὔτε γὰρ ὄνομά ἐστιν ἕτερον ὑπὸ τὸν οὐρανὸν τὸ δεδομένον ἐν ἀνθρώποις, ἐν ᾧ δεῖ σωθῆναι ἡμᾶς.
+   - SBLGNT: καὶ οὐκ ἔστιν ἐν ἄλλῳ οὐδενὶ ἡ σωτηρία, οὐδὲ γὰρ ὄνομά ἐστιν ἕτερον ὑπὸ τὸν οὐρανὸν τὸ δεδομένον ἐν ἀνθρώποις ἐν ᾧ δεῖ σωθῆναι ἡμᾶς.
+   - Vulgate: et non est in alio aliquo salus. Nec enim aliud nomen est sub cælo datum hominibus, in quo oporteat nos salvos fieri.
+   - BSB: Salvation exists in no one else, for there is no other name under heaven given to men by which we must be saved.”
+   - WEB: There is salvation in no one else, for there is no other name under heaven that is given among men, by which we must be saved!”
+- **4:16** substitute (word): critical *ἀρνεῖσθαι* ] RP *ἀρνήσασθαι*
+   - Latin: “Quid faciēmus hīs hominibus? Nam cōnspicuum ab iīs prōdigium esse factum, omnibus Hierosolymæ incolīs manifestius est, quam ut īnficiārī possīmus.
+   - 1573: Quid faciemus his hominibus? Nam conspicuum ab eis prodigium esse factum, omnibus Hierosolymæ incolis manifestius est, quàm vt inficiari possimus.
+   - TR: λέγοντες, Τί ποιήσομεν τοῖς ἀνθρώποις τούτοις; Ὅτι μὲν γὰρ γνωστὸν σημεῖον γέγονε δι᾿ αὐτῶν, πᾶσι τοῖς κατοικοῦσιν Ἱερουσαλὴμ φανερόν, καὶ οὐ δυνάμεθα ἀρνήσασθαι.
+   - SBLGNT: λέγοντες· Τί ποιήσωμεν τοῖς ἀνθρώποις τούτοις; ὅτι μὲν γὰρ γνωστὸν σημεῖον γέγονεν διʼ αὐτῶν πᾶσιν τοῖς κατοικοῦσιν Ἰερουσαλὴμ φανερόν, καὶ οὐ δυνάμεθα ἀρνεῖσθαι·
+   - Vulgate: dicentes: Quid faciemus hominibus istis? quoniam quidem notum signum factum est per eos omnibus habitantibus Jerusalem: manifestum est, et non possumus negare.
+   - BSB: “What shall we do with these men?” they asked. “It is clear to everyone living in Jerusalem that a remarkable miracle has occurred through them, and we cannot deny it.
+   - WEB: saying, “What shall we do to these men? Because indeed a notable miracle has been done through them, as can be plainly seen by all who dwell in Jerusalem, and we can’t deny it.
+- **4:22** substitute (word): critical *γεγόνει* ] RP *ἐγεγόνει*
+   - Latin: Erat enim annōs nātus magis quadrāgintā is homō, cui illud sānātiōnis prōdigium contigerat.
+   - 1573: Erat enim annos natus magis quadraginta is homo, cui illud sanationis prodigium contigerat.
+   - TR: Ἐτῶν γὰρ ἦν πλειόνων τεσσαράκοντα ὁ ἄνθρωπος ἐφ᾿ ὃν ἐγεγόνει τὸ σημεῖον τοῦτο τῆς ἰάσεως.
+   - SBLGNT: ἐτῶν γὰρ ἦν πλειόνων τεσσεράκοντα ὁ ἄνθρωπος ἐφʼ ὃν γεγόνει τὸ σημεῖον τοῦτο τῆς ἰάσεως.
+   - Vulgate: Annorum enim erat amplius quadraginta homo, in quo factum fuerat signum istud sanitatis.
+   - BSB: For the man who was miraculously healed was over forty years old.
+   - WEB: For the man on whom this miracle of healing was performed was more than forty years old.
+- **4:24** add (word): critical *σὺ* ] RP *+ ὁ θεὸς*
+   - Latin: Quibus audītīs, illī vōcem ūniversī ad Deum sustulērunt, et ita dīxērunt: “Domine, tū Deus es, quī cælum, et terram, et mare, quæque in iīs īnsunt, omnia fēcistī.
+   - 1573: Quibus auditis, illi vocem vniuersi ad Deum sustulerunt, et ita dixerunt: Domine, tu Deus es, qui cœlum, et terram, et mare, quæque in eis insunt omnia fecisti,
+   - TR: Οἱ δὲ ἀκούσαντες ὁμοθυμαδὸν ἦραν φωνὴν πρὸς τὸν Θεόν, καὶ εἶπον, Δέσποτα, σὺ ὁ Θεὸς ὁ ποιήσας τὸν οὐρανὸν καὶ τὴν γῆν καὶ τὴν θάλασσαν καὶ πάντα τὰ ἐν αὐτοῖς·
+   - SBLGNT: οἱ δὲ ἀκούσαντες ὁμοθυμαδὸν ἦραν φωνὴν πρὸς τὸν θεὸν καὶ εἶπαν· Δέσποτα, σὺ ὁ ποιήσας τὸν οὐρανὸν καὶ τὴν γῆν καὶ τὴν θάλασσαν καὶ πάντα τὰ ἐν αὐτοῖς,
+   - Vulgate: Qui cum audissent, unanimiter levaverunt vocem ad Deum, et dixerunt: Domine, tu es qui fecisti cælum et terram, mare et omnia quæ in eis sunt:
+   - BSB: When the believers heard this, they lifted up their voices to God with one accord. “Sovereign Lord,” they said, “You made the heaven and the earth and the sea and everything in them.
+   - WEB: When they heard it, they lifted up their voice to God with one accord and said, “O Lord, you are God, who made the sky, the earth, the sea, and all that is in them;
+- **4:34** substitute (word): critical *ἦν* ] RP *ὑπῇρχεν*
+   - Latin: Nec enim quisquam in iīs erat egēnus: nam quotquot prædia aut domōs habēbant, vēndēbant, et vēnditōrum pretia afferēbant,
+   - 1573: Nec enim quisquam in eis erat egenus. nam quotquot prædia aut domos habebant, vendebant, et venditorum precia afferebant,
+   - TR: Οὐδὲ γὰρ ἐνδεής τις ὑπῆρχεν ἐν αὐτοῖς· ὅσοι γὰρ κτήτορες χωρίων ἢ οἰκιῶν ὑπῆρχον, πωλοῦντες ἔφερον τὰς τιμὰς τῶν πιπρασκομένων,
+   - SBLGNT: οὐδὲ γὰρ ἐνδεής τις ἦν ἐν αὐτοῖς· ὅσοι γὰρ κτήτορες χωρίων ἢ οἰκιῶν ὑπῆρχον, πωλοῦντες ἔφερον τὰς τιμὰς τῶν πιπρασκομένων
+   - Vulgate: Neque enim quisquam egens erat inter illos. Quotquot enim possessores agrorum aut domorum erant, vendentes afferebant pretia eorum quæ vendebant,
+   - BSB: There were no needy ones among them, because those who owned lands or houses would sell their property, bring the proceeds from the sales,
+   - WEB: For neither was there among them any who lacked, for as many as were owners of lands or houses sold them, and brought the proceeds of the things that were sold,
+- **5:9** add (word): critical *Πέτρος* ] RP *+ εἶπεν*
+   - Latin: Cui Petrus: “Vōsne,” inquit, “ad Dominī Spīritum temptandum cōnspīrāsse? Scītō, eōrum quī virum tuum sepeliērunt, pedēs esse prō foribus, quī tē efferant.”
+   - 1573: Cui Petrus: Vosne, inquit, ad Domini spiritum tentandum conspirasse? scito, eorum qui virum tuum sepelierunt, pedes esse pro foribus, qui te efferant.
+   - TR: Ὁ δὲ Πέτρος εἶπε πρὸς αὐτήν, Τί ὅτι συνεφωνήθη ὑμῖν πειράσαι τὸ πνεῦμα Κυρίου; Ἰδού, οἱ πόδες τῶν θαψάντων τὸν ἄνδρα σου ἐπὶ τῇ θύρᾳ, καὶ ἐξοίσουσί σε.
+   - SBLGNT: ὁ δὲ Πέτρος πρὸς αὐτήν· Τί ὅτι συνεφωνήθη ὑμῖν πειράσαι τὸ πνεῦμα κυρίου; ἰδοὺ οἱ πόδες τῶν θαψάντων τὸν ἄνδρα σου ἐπὶ τῇ θύρᾳ καὶ ἐξοίσουσίν σε.
+   - Vulgate: Petrus autem ad eam: Quid utique convenit vobis tentare Spiritum Domini? Ecce pedes eorum qui sepelierunt virum tuum ad ostium, et efferent te.
+   - BSB: “How could you agree to test the Spirit of the Lord?” Peter replied. “Look, the feet of the men who buried your husband are at the door, and they will carry you out also.”
+   - WEB: But Peter asked her, “How is it that you have agreed together to tempt the Spirit of the Lord? Behold, the feet of those who have buried your husband are at the door, and they will carry you out.”
+- **5:23** substitute (word): critical *ἐπὶ* ] RP *πρὸ*
+   - Latin: Et sē carcerem quidem dīligentissimē clausum comperiisse, renūntiārunt, et custōdēs forīs ante portās astantēs: sed, cum aperuissent, intus invēnisse nēminem.
+   - 1573: Et se carcerem quidem diligentissimè clausum comperisse renunciarunt, et custodes foris ante portas astantes: sed, cùm aperuissent, intus inuenisse neminem.
+   - TR: λέγοντες ὅτι Τὸ μὲν δεσμωτήριον εὕρομεν κεκλεισμένον ἐν πάσῃ ἀσφαλείᾳ, καὶ τοὺς φύλακας ἔξω ἑστῶτας πρὸ τῶν θυρῶν· ἀνοίξαντες δέ, ἔσω οὐδένα εὕρομεν.
+   - SBLGNT: λέγοντες ὅτι Τὸ δεσμωτήριον εὕρομεν κεκλεισμένον ἐν πάσῃ ἀσφαλείᾳ καὶ τοὺς φύλακας ἑστῶτας ἐπὶ τῶν θυρῶν, ἀνοίξαντες δὲ ἔσω οὐδένα εὕρομεν.
+   - Vulgate: dicentes: Carcerem quidem invenimus clausum cum omni diligentia, et custodes stantes ante januas: aperientes autem neminem intus invenimus.
+   - BSB: “We found the jail securely locked, with the guards posted at the doors; but when we opened them, we found no one inside.”
+   - WEB: “We found the prison shut and locked, and the guards standing before the doors, but when we opened them, we found no one inside!”
+- **5:26** substitute (word): critical *μὴ* ] RP *ἵνα μὴ*
+   - Latin: Tum eō profectus antistes cum ministrīs, eōs addūxit, nōn vī: metuēbant enim, nē ipsī ā plēbe lapidārentur.
+   - 1573: Tum eo profectus antistes cum ministris, eos adduxit, non vi: metuebant enim, ne ipsi à plebe lapidarentur.
+   - TR: Τότε ἀπελθὼν ὁ στρατηγὸς σὺν τοῖς ὑπηρέταις ἤγαγεν αὐτούς, οὐ μετὰ βίας, ἐφοβοῦντο γὰρ τὸν λαόν, ἵνα μὴ λιθασθῶσιν.
+   - SBLGNT: τότε ἀπελθὼν ὁ στρατηγὸς σὺν τοῖς ὑπηρέταις ἤγαγεν αὐτούς, οὐ μετὰ βίας, ἐφοβοῦντο γὰρ τὸν λαόν, μὴ λιθασθῶσιν.
+   - Vulgate: Tunc abiit magistratus cum ministris, et adduxit illos sine vi: timebant enim populum ne lapidarentur.
+   - BSB: At that point, the captain went with the officers and brought the apostles—but not by force, for fear the people would stone them.
+   - WEB: Then the captain went with the officers, and brought them without violence, for they were afraid that the people might stone them.
+- **5:34** substitute (word): critical *ἀνθρώπους* ] RP *ἀποστόλους*
+   - Latin: Sed surrēxit quīdam in conciliō Pharisæus, nōmine Gamaliēl, lēgisperītus, quī apud omnem populum erat in honōre. Is jussit apostolōs paulīsper forās ēdūcī.
+   - 1573: Sed surrexit quidam in concilio Pharisæus, nomine Gamaliel, legisperitus, qui apud omnem populum erat in honore. Is iussit Apostolos paulisper foras educi.
+   - TR: Ἀναστὰς δέ τις ἐν τῷ συνεδρίῳ Φαρισαῖος, ὀνόματι Γαμαλιήλ, νομοδιδάσκαλος, τίμιος παντὶ τῷ λαῷ, ἐκέλευσεν ἔξω βραχύ τι τοὺς ἀποστόλους ποιῆσαι.
+   - SBLGNT: ἀναστὰς δέ τις ἐν τῷ συνεδρίῳ Φαρισαῖος ὀνόματι Γαμαλιήλ, νομοδιδάσκαλος τίμιος παντὶ τῷ λαῷ, ἐκέλευσεν ἔξω βραχὺ τοὺς ἀνθρώπους ποιῆσαι,
+   - Vulgate: Surgens autem quidam in concilio pharisæus, nomine Gamaliel, legis doctor, honorabilis universæ plebi, jussit foras ad breve homines fieri,
+   - BSB: But a Pharisee named Gamaliel, a teacher of the law who was honored by all the people, stood up in the Sanhedrin and ordered that the men be put outside for a short time.
+   - WEB: But one stood up in the council, a Pharisee named Gamaliel, a teacher of the law, honored by all the people, and commanded to put the apostles out for a little while.
+- **5:37** add (word): critical *λαὸν* ] RP *+ ἱκανὸν*
+   - Latin: Post hunc exstitit Jūdās Galilæus tempore professiōnis, multumque ad sēsē hominum trādūxit. Sed et is periit, et omnēs, quī eī obtemperābant, prōflīgātī sunt.
+   - 1573: Post hunc extitit Iudas Galilæus tempore professionis, multumque ad sese hominum traduxit. Sed et is perijt: et omnes qui ei obtemperabant, profligati sunt.
+   - TR: Μετὰ τοῦτον ἀνέστη Ἰούδας ὁ Γαλιλαῖος ἐν ταῖς ἡμέραις τῆς ἀπογραφῆς, καὶ ἀπέστησε λαὸν ἱκανὸν ὀπίσω αὐτοῦ· κἀκεῖνος ἀπώλετο, καὶ πάντες ὅσοι ἐπείθοντο αὐτῷ διεσκορπίσθησαν.
+   - SBLGNT: μετὰ τοῦτον ἀνέστη Ἰούδας ὁ Γαλιλαῖος ἐν ταῖς ἡμέραις τῆς ἀπογραφῆς καὶ ἀπέστησε λαὸν ὀπίσω αὐτοῦ· κἀκεῖνος ἀπώλετο καὶ πάντες ὅσοι ἐπείθοντο αὐτῷ διεσκορπίσθησαν.
+   - Vulgate: Post hunc extitit Judas Galilæus in diebus professionis, et avertit populum post se: et ipse periit, et omnes quotquot consenserunt ei, dispersi sunt.
+   - BSB: After him, Judas the Galilean appeared in the days of the census and drew away people after him. He too perished, and all his followers were scattered.
+   - WEB: After this man, Judas of Galilee rose up in the days of the enrollment, and drew away some people after him. He also perished, and all, as many as obeyed him, were scattered abroad.
+- **5:38** substitute (word): critical *ἄφετε* ] RP *ἐάσατε*
+   - Latin: Nunc quoque vōbīs suādeō, ut vōbīs ab hīs hominibus temperētis, eōsque missōs faciātis. Sī enim ab hominibus est hoc cōnsilium atque opus, abolēbitur:
+   - 1573: Nunc quoque vobis suadeo, vt vobis ab his hominibus temperetis, eosque missos faciatis. Si enim ab hominibus est hoc consilium atque opus, abolebitur.
+   - TR: Καὶ τὰ νῦν λέγω ὑμῖν, ἀπόστητε ἀπὸ τῶν ἀνθρώπων τούτων, καὶ ἐάσατε αὐτούς· ὅτι ἐὰν ᾖ ἐξ ἀνθρώπων ἡ βουλὴ αὕτη ἢ τὸ ἔργον τοῦτο, καταλυθήσεται·
+   - SBLGNT: καὶ τὰ νῦν λέγω ὑμῖν, ἀπόστητε ἀπὸ τῶν ἀνθρώπων τούτων καὶ ἄφετε αὐτούς· (ὅτι ἐὰν ᾖ ἐξ ἀνθρώπων ἡ βουλὴ αὕτη ἢ τὸ ἔργον τοῦτο, καταλυθήσεται,
+   - Vulgate: Et nunc itaque dico vobis, discedite ab hominibus istis, et sinite illos: quoniam si est ex hominibus consilium hoc aut opus, dissolvetur:
+   - BSB: So in the present case I advise you: Leave these men alone. Let them go! For if their purpose or endeavor is of human origin, it will fail.
+   - WEB: Now I tell you, withdraw from these men and leave them alone. For if this counsel or this work is of men, it will be overthrown.
+- **5:39** substitute (word): critical *δυνήσεσθε* ] RP *δύνασθε*
+   - Latin: Sīn ā Deō est, id abolēre nōn potestis, nē forte cum Deō pugnāre comperiāminī.” Huic illī obtemperārunt.
+   - 1573: sin à Deo est, id abolere non potestis, ne fortè cum Deo pugnare comperiamini. Huic illi obtemperarunt,
+   - TR: εἰ δὲ ἐκ Θεοῦ ἐστιν, οὐ δύνασθε καταλῦσαι αὐτό, μήποτε καὶ θεομάχοι εὑρεθῆτε.
+   - SBLGNT: εἰ δὲ ἐκ θεοῦ ἐστιν, οὐ δυνήσεσθε καταλῦσαι αὐτούς·) μήποτε καὶ θεομάχοι εὑρεθῆτε. ἐπείσθησαν δὲ αὐτῷ,
+   - Vulgate: si vero ex Deo est, non poteritis dissolvere illud, ne forte et Deo repugnare inveniamini. Consenserunt autem illi.
+   - BSB: But if it is from God, you will not be able to stop them. You may even find yourselves fighting against God.”
+   - WEB: But if it is of God, you will not be able to overthrow it, and you would be found even to be fighting against God!”
+- **6:3** add (word): critical *πνεύματος* ] RP *+ ἁγίου*
+   - Latin: Quōcircā, frātrēs, dispicite hominēs ex vōbīs bene audientēs septem, Sānctō Spīritū sapientiāque plēnōs, quibus hoc negōtium mandābimus:
+   - 1573: Quocirca, fratres, dispicite homines ex vobis bene audientes septem, sancto spiritu sapientiaque plenos, quibus hoc negocium mandabimus.
+   - TR: Ἐπισκέψασθε οὖν, ἀδελφοί, ἄνδρας ἐξ ὑμῶν μαρτυρουμένους ἑπτά, πλήρεις πνεύματος ἁγίου καὶ σοφίας, οὓς καταστήσομεν ἐπὶ τῆς χρείας ταύτης.
+   - SBLGNT: ἐπισκέψασθε δέ, ἀδελφοί, ἄνδρας ἐξ ὑμῶν μαρτυρουμένους ἑπτὰ πλήρεις πνεύματος καὶ σοφίας, οὓς καταστήσομεν ἐπὶ τῆς χρείας ταύτης·
+   - Vulgate: Considerate ergo, fratres, viros ex vobis boni testimonii septem, plenos Spiritu Sancto et sapientia, quos constituamus super hoc opus.
+   - BSB: Therefore, brothers, select from among you seven men confirmed to be full of the Spirit and wisdom. We will appoint this responsibility to them
+   - WEB: Therefore, select from among you, brothers, seven men of good report, full of the Holy Spirit and of wisdom, whom we may appoint over this business.
+- **6:8** substitute (word): critical *χάριτος* ] RP *πίστεως*
+   - Latin: Stephanus vērō fideī potentiæque plēnus, mīrācula prōdigiaque magna vulgō faciēbat.
+   - 1573: Stephanus verò fidei potentiæque plenus, miracula prodigiaque magna vulgò faciebat.
+   - TR: Στέφανος δὲ πλήρης πίστεως καὶ δυνάμεως ἐποίει τέρατα καὶ σημεῖα μεγάλα ἐν τῷ λαῷ.
+   - SBLGNT: Στέφανος δὲ πλήρης χάριτος καὶ δυνάμεως ἐποίει τέρατα καὶ σημεῖα μεγάλα ἐν τῷ λαῷ.
+   - Vulgate: Stephanus autem plenus gratia et fortitudine, faciebat prodigia et signa magna in populo.
+   - BSB: Now Stephen, who was full of grace and power, was performing great wonders and signs among the people.
+   - WEB: Stephen, full of faith and power, performed great wonders and signs among the people.
+- **6:13** substitute (word): critical *λαλῶν ῥήματα* ] RP *ῥήματα βλάσφημα λαλῶν*
+   - Latin: Ac falsōs testēs immīsērunt, quī ita dīcerent: “Hic homō nōn dēsinit impia contrā sacrum hunc locum, contrāque lēgem loquī.
+   - 1573: ac falsos testes immiserunt, qui ita dicerent: Hic homo non desinit impia contra sacrum hunc locum, contraque legem loqui.
+   - TR: ἔστησάν τε μάρτυρας ψευδεῖς λέγοντας, Ὁ ἄνθρωπος οὗτος οὐ παύεται ῥήματα βλάσφημα λαλῶν κατὰ τοῦ τόπου τοῦ ἁγίου τούτου καὶ τοῦ νόμου·
+   - SBLGNT: ἔστησάν τε μάρτυρας ψευδεῖς λέγοντας· Ὁ ἄνθρωπος οὗτος οὐ παύεται λαλῶν ῥήματα κατὰ τοῦ τόπου τοῦ ἁγίου καὶ τοῦ νόμου,
+   - Vulgate: et statuerunt falsos testes, qui dicerent: Homo iste non cessat loqui verba adversus locum sanctum, et legem:
+   - BSB: where they presented false witnesses who said, “This man never stops speaking against this holy place and against the law.
+   - WEB: and set up false witnesses who said, “This man never stops speaking blasphemous words against this holy place and the law.
+- **6:15** substitute (word): critical *πάντες* ] RP *ἅπαντες*
+   - Latin: Tum omnēs, quī in conciliō sedēbant, contuentēs in eum, vīdērunt ejus faciem, quālis est angelī faciēs.
+   - 1573: Tum omnes qui in concilio sedebant, contuentes in eum, viderunt eius faciem qualis est angeli facies.
+   - TR: Καὶ ἀτενίσαντες εἰς αὐτὸν ἅπαντες οἱ καθεζόμενοι ἐν τῷ συνεδρίῳ, εἶδον τὸ πρόσωπον αὐτοῦ ὡσεὶ πρόσωπον ἀγγέλου.
+   - SBLGNT: καὶ ἀτενίσαντες εἰς αὐτὸν πάντες οἱ καθεζόμενοι ἐν τῷ συνεδρίῳ εἶδον τὸ πρόσωπον αὐτοῦ ὡσεὶ πρόσωπον ἀγγέλου.
+   - Vulgate: Et intuentes eum omnes qui sedebant in concilio, viderunt faciem ejus tamquam faciem angeli.
+   - BSB: All who were sitting in the Sanhedrin looked intently at Stephen, and they saw that his face was like the face of an angel.
+   - WEB: All who sat in the council, fastening their eyes on him, saw his face like it was the face of an angel.
+- **7:1** add (word): critical *Εἰ* ] RP *+ ἄρα*
+   - Latin: Et pontifex ita dīxit: “Siccīne sē rēs habet?” Tum ille hujusmodī ōrātiōnem habuit:
+   - 1573: et Pontifex ita dixit: Siccine se res habet? Tum ille huiusmodi orationem habuit:
+   - TR: Εἶπε δὲ ὁ ἀρχιερεύς, Εἰ ἄρα ταῦτα οὕτως ἔχει;
+   - SBLGNT: Εἶπεν δὲ ὁ ἀρχιερεύς· Εἰ ταῦτα οὕτως ἔχει;
+   - Vulgate: Dixit autem princeps sacerdotum: Si hæc ita se habent?
+   - BSB: Then the high priest asked Stephen, “Are these charges true?”
+   - WEB: The high priest said, “Are these things so?”
+- **7:16** substitute (word): critical *ᾧ* ] RP *ὃ*
+   - Latin: Sichemam trānslātī sunt, et in sepulcrētō sitī, quod Abrāhāmus argentī pretiō ā fīliīs Emōris, Sichemī fīliī, ēmerat.
+   - 1573: Sichemam translati sunt, et in sepulchreto siti, quod Abrahamus argenti precio à filijs Emoris Sichemi filij emerat.
+   - TR: καὶ μετετέθησαν εἰς Συχέμ, καὶ ἐτέθησαν ἐν τῷ μνήματι ὃ ὠνήσατο Ἀβραὰμ τιμῆς ἀργυρίου παρὰ τῶν υἱῶν Ἐμμὸρ τοῦ Συχέμ.
+   - SBLGNT: καὶ μετετέθησαν εἰς Συχὲμ καὶ ἐτέθησαν ἐν τῷ μνήματι ᾧ ὠνήσατο Ἀβραὰμ τιμῆς ἀργυρίου παρὰ τῶν υἱῶν Ἑμμὼρ ἐν Συχέμ.
+   - Vulgate: Et translati sunt in Sichem, et positi sunt in sepulchro, quod emit Abraham pretio argenti a filiis Hemor filii Sichem.
+   - BSB: Their bones were carried back to Shechem and placed in the tomb that Abraham had bought from the sons of Hamor at Shechem for a price he paid in silver.
+   - WEB: and they were brought back to Shechem and laid in the tomb that Abraham bought for a price in silver from the children of Hamor of Shechem.
+- **7:17** substitute (word): critical *ὡμολόγησεν* ] RP *ὤμοσεν*
+   - Latin: Intereā, īnstante prōmissī tempore, dē quō Deus Abrāhāmō jūrāverat, crēscēbat populus in Ægyptō multiplicī numerō:
+   - 1573: Interea instante promissi tempore, de quo Deus Abrahamo iurauerat, crescebat populus in Ægypto multiplici numero.
+   - TR: Καθὼς δὲ ἤγγιζεν ὁ χρόνος τῆς ἐπαγγελίας ἧς ὤμοσεν ὁ Θεὸς τῷ Ἀβραάμ, ηὔξησεν ὁ λαὸς καὶ ἐπληθύνθη ἐν Αἰγύπτῳ,
+   - SBLGNT: Καθὼς δὲ ἤγγιζεν ὁ χρόνος τῆς ἐπαγγελίας ἧς ὡμολόγησεν ὁ θεὸς τῷ Ἀβραάμ, ηὔξησεν ὁ λαὸς καὶ ἐπληθύνθη ἐν Αἰγύπτῳ,
+   - Vulgate: Cum autem appropinquaret tempus promissionis quam confessus erat Deus Abrahæ, crevit populus, et multiplicatus est in Ægypto,
+   - BSB: As the time drew near for God to fulfill His promise to Abraham, our people in Egypt increased greatly in number.
+   - WEB: “But as the time of the promise came close which God had sworn to Abraham, the people grew and multiplied in Egypt,
+- **7:21** substitute (word): critical *ἐκτεθέντος δὲ αὐτοῦ ἀνείλατο αὐτὸν* ] RP *Ἐκτεθέντα δὲ αὐτόν ἀνείλετο*
+   - Latin: Quem domī paternæ trēs mēnsēs ēnūtrītum, deinde expositum, Pharaōnis fīlia sustulit, et prō fīliō ēducāvit.
+   - 1573: quem domi paternæ tres menses enutritum, deinde expositum, Pharaonis filia sustulit, et pro filio educauit.
+   - TR: Ἐκτεθέντα δὲ αὐτόν, ἀνείλετο αὐτὸν ἡ θυγάτηρ Φαραώ, καὶ ἀνεθρέψατο αὐτὸν ἑαυτῇ εἰς υἱόν.
+   - SBLGNT: ἐκτεθέντος δὲ αὐτοῦ ἀνείλατο αὐτὸν ἡ θυγάτηρ Φαραὼ καὶ ἀνεθρέψατο αὐτὸν ἑαυτῇ εἰς υἱόν.
+   - Vulgate: Exposito autem illo, sustulit eum filia Pharaonis, et nutrivit eum sibi in filium.
+   - BSB: When he was set outside, Pharaoh’s daughter took him and brought him up as her own son.
+   - WEB: When he was abandoned, Pharaoh’s daughter took him up and reared him as her own son.
+- **7:28** substitute (word): critical *ἐχθὲς* ] RP *χθὲς*
+   - Latin: Num mē vīs interficere, quōmodo herī Ægyptium interfēcistī?’
+   - 1573: num me vis interficere, quomodo heri Ægyptium interfecisti?
+   - TR: Μὴ ἀνελεῖν με σὺ θέλεις, ὃν τρόπον ἀνεῖλες χθὲς τὸν Αἰγύπτιον;
+   - SBLGNT: μὴ ἀνελεῖν με σὺ θέλεις ὃν τρόπον ἀνεῖλες ἐχθὲς τὸν Αἰγύπτιον;
+   - Vulgate: Numquid interficere me tu vis, quemadmodum interfecisti heri Ægyptium?
+   - BSB: Do you want to kill me as you killed the Egyptian yesterday?’
+   - WEB: Do you want to kill me as you killed the Egyptian yesterday?’
+- **7:30** add (word): critical *ἄγγελος* ] RP *+ κυρίου*
+   - Latin: “Ac perāctīs annīs quadrāgintā, appāruit eī in sōlitūdine montis Sīnæ angelus Dominī in igneā flammā rubī.
+   - 1573: Ac peractis annis quadraginta, apparuit ei in solitudine montis Sinæ angelus Domini, in ignea flamma rubi.
+   - TR: Καὶ πληρωθέντων ἐτῶν τεσσαράκοντα, ὤφθη αὐτῷ ἐν τῇ ἐρήμῳ τοῦ ὄρους Σινᾶ ἄγγελος Κυρίου ἐν φλογὶ πυρὸς βάτου.
+   - SBLGNT: Καὶ πληρωθέντων ἐτῶν τεσσεράκοντα ὤφθη αὐτῷ ἐν τῇ ἐρήμῳ τοῦ ὄρους Σινᾶ ἄγγελος ἐν φλογὶ πυρὸς βάτου·
+   - Vulgate: Et expletis annis quadraginta, apparuit illi in deserto montis Sina angelus in igne flammæ rubi.
+   - BSB: After forty years had passed, an angel appeared to Moses in the flames of a burning bush in the desert near Mount Sinai.
+   - WEB: “When forty years were fulfilled, an angel of the Lord appeared to him in the wilderness of Mount Sinai, in a flame of fire in a bush.
+- **7:32** add (word): critical *⸀καὶ* ] RP *+ ὁ θεὸς*; add (word): critical *⸁καὶ* ] RP *+ ὁ θεὸς*
+   - Latin: ‘Ego sum majōrum tuōrum Deus, Abrāhāmī Deus, et Isaacī Deus, et Jācōbī Deus.’ Hīc tremefactus Mōsēs, nōn audēbat intuērī: et Dominus dīxit eī:
+   - 1573: Ego sum maiorum tuorum Deus, Abrahami Deus, et Isaaci Deus, et Iacobi Deus. Hic tremefactus Moses non audebat intueri: et Dominus dixit ei:
+   - TR: Ἐγὼ ὁ Θεὸς τῶν πατέρων σου, ὁ Θεὸς Ἀβραὰμ καὶ ὁ Θεὸς Ἰσαὰκ καὶ ὁ Θεὸς Ἰακώβ. Ἔντρομος δὲ γενόμενος Μωσῆς οὐκ ἐτόλμα κατανοῆσαι.
+   - SBLGNT: Ἐγὼ ὁ θεὸς τῶν πατέρων σου, ὁ θεὸς Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ. ἔντρομος δὲ γενόμενος Μωϋσῆς οὐκ ἐτόλμα κατανοῆσαι.
+   - Vulgate: Ego sum Deus patrum tuorum, Deus Abraham, Deus Isaac, et Deus Jacob. Tremefactus autem Moyses, non audebat considerare.
+   - BSB: ‘I am the God of your fathers, the God of Abraham, Isaac, and Jacob.’ Moses trembled with fear and did not dare to look.
+   - WEB: ‘I am the God of your fathers: the God of Abraham, the God of Isaac, and the God of Jacob.’ Moses trembled and dared not look.
+- **7:33** substitute (word): critical *ἐφʼ* ] RP *ἐν*
+   - Latin: ‘Dētrahe tibi calceōs dē pedibus: nam locus, in quō tū stās, sacra terra est.
+   - 1573: Detrahe tibi calceos de pedibus: nam locus, in quo tu stas, sacra terra est.
+   - TR: Εἶπε δὲ αὐτῷ ὁ Κύριος, Λῦσον τὸ ὑπόδημα τῶν ποδῶν σου· ὁ γὰρ τόπος ἐν ᾧ ἕστηκας γῆ ἁγία ἐστίν.
+   - SBLGNT: εἶπεν δὲ αὐτῷ ὁ κύριος· Λῦσον τὸ ὑπόδημα τῶν ποδῶν σου, ὁ γὰρ τόπος ἐφʼ ᾧ ἕστηκας γῆ ἁγία ἐστίν.
+   - Vulgate: Dixit autem illi Dominus: Solve calceamentum pedum tuorum: locus enim in quo stas, terra sancta est.
+   - BSB: Then the Lord said to him, ‘Take off your sandals, for the place where you are standing is holy ground.
+   - WEB: The Lord said to him, ‘Take off your sandals, for the place where you stand is holy ground.
+- **7:35** substitute (word): critical *ἀπέσταλκεν σὺν* ] RP *ἀπέστειλεν ἐν*
+   - Latin: Hunc Mōsem, quem illī repudiāverant, quærentēs, quis eum prīncipem et jūdicem cōnstituisset, hunc ipsum Deus prīncipem et līberātōrem mīsit, ductū angelī, quī eī in rubō appāruerat.
+   - 1573: Hunc Mosem, quem illi repudiauerant, quærentes quis eum principem et iudicem constituisset, hunc ipsum Deus principem et liberatorem misit, ductu angeli, qui ei in rubo apparuerat.
+   - TR: Τοῦτον τὸν Μωϋσῆν ὃν ἠρνήσαντο εἰπόντες, Τίς σε κατέστησεν ἄρχοντα καὶ δικαστήν; τοῦτον ὁ Θεὸς ἄρχοντα καὶ λυτρωτὴν ἀπέστειλεν ἐν χειρὶ ἀγγέλου τοῦ ὀφθέντος αὐτῷ ἐν τῇ βάτῳ.
+   - SBLGNT: Τοῦτον τὸν Μωϋσῆν, ὃν ἠρνήσαντο εἰπόντες· Τίς σε κατέστησεν ἄρχοντα καὶ δικαστήν, τοῦτον ὁ θεὸς καὶ ἄρχοντα καὶ λυτρωτὴν ἀπέσταλκεν σὺν χειρὶ ἀγγέλου τοῦ ὀφθέντος αὐτῷ ἐν τῇ βάτῳ.
+   - Vulgate: Hunc Moysen, quem negaverunt, dicentes: Quis te constituit principem et judicem? hunc Deus principem et redemptorem misit, cum manu angeli qui apparuit illi in rubo.
+   - BSB: This Moses, whom they had rejected with the words, ‘Who made you ruler and judge?’ is the one whom God sent to be their ruler and redeemer through the angel who appeared to him in the bush.
+   - WEB: “This Moses whom they refused, saying, ‘Who made you a ruler and a judge?’—God has sent him as both a ruler and a deliverer by the hand of the angel who appeared to him in the bush.
+- **7:37** substitute (word): critical *εἴπας* ] RP *εἰπὼν*
+   - Latin: Hic est ille Mōsēs, quī dīxit Isrāēlītīs: ‘Vātem vōbīs suscitābit Dominus Deus vester ex cōnsanguinitāte vestrā, meī similem: eum audiētis.’
+   - 1573: Hic est ille Moses, qui dixit Israelitis: Vatem vobis suscitabit Dominus Deus vester ex consanguinitate vestra, mei similem, eum audietis.
+   - TR: Οὗτός ἐστιν ὁ Μωϋσῆς ὁ εἰπὼν τοῖς υἱοῖς Ἰσραήλ, Προφήτην ὑμῖν ἀναστήσει Κύριος ὁ Θεὸς ὑμῶν ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ· αὐτοῦ ἀκούσεσθε.
+   - SBLGNT: οὗτός ἐστιν ὁ Μωϋσῆς ὁ εἴπας τοῖς υἱοῖς Ἰσραήλ· Προφήτην ὑμῖν ἀναστήσει ὁ θεὸς ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ.
+   - Vulgate: Hic est Moyses, qui dixit filiis Israël: Prophetam suscitabit vobis Deus de fratribus vestris, tamquam me: ipsum audietis.
+   - BSB: This is the same Moses who told the Israelites, ‘God will raise up for you a prophet like me from among your brothers.’
+   - WEB: This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’
+- **7:39** substitute (word): critical *ἐν ταῖς καρδίαις* ] RP *τῇ καρδίᾳ*
+   - Latin: “Cui dictō audīre nōluēre majōrēs nostrī, sed, eō repulsō, animīs sēsē in Ægyptum convertērunt,
+   - 1573: cui dicto audire noluere maiores nostri, sed eo repulso, animis sese in Ægyptum conuerterunt,
+   - TR: ᾧ οὐκ ἠθέλησαν ὑπήκοοι γενέσθαι οἱ πατέρες ἡμῶν, ἀλλ᾿ ἀπώσαντο, καὶ ἐστράφησαν ταῖς καρδίαις αὐτῶν εἰς Αἴγυπτον,
+   - SBLGNT: ᾧ οὐκ ἠθέλησαν ὑπήκοοι γενέσθαι οἱ πατέρες ἡμῶν, ἀλλὰ ἀπώσαντο καὶ ἐστράφησαν ἐν ταῖς καρδίαις αὐτῶν εἰς Αἴγυπτον,
+   - Vulgate: Cui noluerunt obedire patres nostri: sed repulerunt, et aversi sunt cordibus suis in Ægyptum,
+   - BSB: But our fathers refused to obey him. Instead, they rejected him and in their hearts turned back to Egypt.
+   - WEB: to whom our fathers wouldn’t be obedient, but rejected him and turned back in their hearts to Egypt,
+- **7:40** substitute (word): critical *ἐγένετο* ] RP *γέγονεν*
+   - Latin: et ab Aharōne petīvērunt, ut sibi faceret deōs, quī sē antecēderent: nam Mōsī illī, ā quō essent ex Ægyptō ēductī, sēsē nescīre, quid accidisset.
+   - 1573: et ab Aharone petiuerunt vt sibi faceret deos, qui se antecederent: nam Mosi illi, à quo essent ex Ægypto educti, sese nescire quid accidisset.
+   - TR: εἰπόντες τῷ Ἀαρών, Ποίησον ἡμῖν θεοὺς οἳ προπορεύσονται ἡμῶν· ὁ γὰρ Μωσῆς οὗτος, ὃς ἐξήγαγεν ἡμᾶς ἐκ γῆς Αἰγύπτου, οὐκ οἴδαμεν τί γέγονεν αὐτῷ.
+   - SBLGNT: εἰπόντες τῷ Ἀαρών· Ποίησον ἡμῖν θεοὺς οἳ προπορεύσονται ἡμῶν· ὁ γὰρ Μωϋσῆς οὗτος, ὃς ἐξήγαγεν ἡμᾶς ἐκ γῆς Αἰγύπτου, οὐκ οἴδαμεν τί ἐγένετο αὐτῷ.
+   - Vulgate: dicentes ad Aaron: Fac nobis deos qui præcedant nos: Moyses enim hic, qui eduxit nos de terra Ægypti, nescimus quid factum sit ei.
+   - BSB: They said to Aaron, ‘Make us gods who will go before us! As for this Moses who led us out of the land of Egypt, we do not know what has happened to him.’
+   - WEB: saying to Aaron, ‘Make us gods that will go before us, for as for this Moses who led us out of the land of Egypt, we don’t know what has become of him.’
+- **7:48** add (word): critical *χειροποιήτοις* ] RP *+ ναοῖς*
+   - Latin: Sed nōn in templīs manufactīs habitat Suprēmus, quemadmodum dīcit vātēs:
+   - 1573: Sed non in templis manufactis habitat Supremus, quemadmodum dicit vates:
+   - TR: Ἀλλ᾿ οὐχ ὁ ὕψιστος ἐν χειροποιήτοις ναοῖς κατοικεῖ, καθὼς ὁ προφήτης λέγει,
+   - SBLGNT: ἀλλʼ οὐχ ὁ ὕψιστος ἐν χειροποιήτοις κατοικεῖ· καθὼς ὁ προφήτης λέγει·
+   - Vulgate: Sed non Excelsus in manufactis habitat, sicut propheta dicit:
+   - BSB: However, the Most High does not dwell in houses made by human hands. As the prophet says:
+   - WEB: However, the Most High doesn’t dwell in temples made with hands, as the prophet says,
+- **7:51** substitute (word): critical *καρδίαις* ] RP *τῇ καρδίᾳ*
+   - Latin: Dūrī cervīce et animō et auribus incircumcīsī: vōs semper Spīrituī Sānctō contrāvenītis, itidem ut majōrēs vestrī.
+   - 1573: Duri ceruici, et animo et auribus incircumcisi: vos semper spiritui sancto contrauenitis, itidem vt maiores vestri.
+   - TR: Σκληροτράχηλοι καὶ ἀπερίτμητοι τῇ καρδίᾳ καὶ τοῖς ὠσίν, ὑμεῖς ἀεὶ τῷ πνεύματι τῷ ἁγίῳ ἀντιπίπτετε· ὡς οἱ πατέρες ὑμῶν, καὶ ὑμεῖς.
+   - SBLGNT: Σκληροτράχηλοι καὶ ἀπερίτμητοι καρδίαις καὶ τοῖς ὠσίν, ὑμεῖς ἀεὶ τῷ πνεύματι τῷ ἁγίῳ ἀντιπίπτετε, ὡς οἱ πατέρες ὑμῶν καὶ ὑμεῖς.
+   - Vulgate: Dura cervice, et incircumcisis cordibus et auribus, vos semper Spiritui Sancto resistitis: sicut patres vestri, ita et vos.
+   - BSB: You stiff-necked people with uncircumcised hearts and ears! You always resist the Holy Spirit, just as your fathers did.
+   - WEB: “You stiff-necked and uncircumcised in heart and ears, you always resist the Holy Spirit! As your fathers did, so you do.
+- **7:52** substitute (word): critical *ἐγένεσθε* ] RP *γεγένησθε*
+   - Latin: Quem vātum nōn īnsectātī sunt vestrī majōrēs? an nōn eōs necārunt, quī jūstī adventum prænūntiārunt? cujus vōs modo prōditōrēs fuistis, et interfectōrēs:
+   - 1573: Quem vatum non insectati sunt vestri maiores? an non eos necarunt, qui iusti aduentum prænunciarunt? cuius vos modò proditores fuistis, et interfectores
+   - TR: Τίνα τῶν προφητῶν οὐκ ἐδίωξαν οἱ πατέρες ὑμῶν; Καὶ ἀπέκτειναν τοὺς προκαταγγείλαντας περὶ τῆς ἐλεύσεως τοῦ δικαίου, οὗ νῦν ὑμεῖς προδόται καὶ φονεῖς γεγένησθε·
+   - SBLGNT: τίνα τῶν προφητῶν οὐκ ἐδίωξαν οἱ πατέρες ὑμῶν; καὶ ἀπέκτειναν τοὺς προκαταγγείλαντας περὶ τῆς ἐλεύσεως τοῦ δικαίου οὗ νῦν ὑμεῖς προδόται καὶ φονεῖς ἐγένεσθε,
+   - Vulgate: Quem prophetarum non sunt persecuti patres vestri? et occiderunt eos qui prænuntiabant de adventu Justi, cujus vos nunc proditores et homicidæ fuistis:
+   - BSB: Which of the prophets did your fathers fail to persecute? They even killed those who foretold the coming of the Righteous One. And now you are His betrayers and murderers—
+   - WEB: Which of the prophets didn’t your fathers persecute? They killed those who foretold the coming of the Righteous One, of whom you have now become betrayers and murderers.
+- **7:56** substitute (word): critical *διηνοιγμένους* ] RP *ἀνεῳγμένους*
+   - Latin: Dīxit: “Ēn videō cælōs apertōs, et Fīlium Hominis Deō astantem ad dextram.”
+   - 1573: dixit: En video cœlos apertos, et filium hominis Deo astantem ad dexteram.
+   - TR: καὶ εἶπεν, Ἰδού, θεωρῶ τοὺς οὐρανοὺς ἀνεῳγμένους, καὶ τὸν υἱὸν τοῦ ἀνθρώπου ἐκ δεξιῶν ἑστῶτα τοῦ Θεοῦ.
+   - SBLGNT: καὶ εἶπεν· Ἰδοὺ θεωρῶ τοὺς οὐρανοὺς διηνοιγμένους καὶ τὸν υἱὸν τοῦ ἀνθρώπου ἐκ δεξιῶν ἑστῶτα τοῦ θεοῦ.
+   - BSB: “Look,” he said, “I see heaven open and the Son of Man standing at the right hand of God.”
+   - WEB: and said, “Behold, I see the heavens opened and the Son of Man standing at the right hand of God!”
+- **8:8** substitute (word): critical *πολλὴ χαρὰ* ] RP *χαρὰ μεγάλη*
+   - Latin: Magnā cum illīus urbis lætitiā.
+   - 1573: magna cum illius vrbis lætitia.
+   - TR: Καὶ ἐγένετο χαρὰ μεγάλη ἐν τῇ πόλει ἐκείνῃ.
+   - SBLGNT: ἐγένετο δὲ πολλὴ χαρὰ ἐν τῇ πόλει ἐκείνῃ.
+   - Vulgate: Factum est ergo gaudium magnum in illa civitate.
+   - BSB: So there was great joy in that city.
+   - WEB: There was great joy in that city.
+- **8:10** omit (word): critical *καλουμένη* ] RP *–*
+   - Latin: Ā quō īnfimī summīque pendēbant, dīcentēs, eum esse Deī magnam potentiam:
+   - 1573: à quo infimi summique pendebant, dicentes, eum esse Dei magnam potentiam:
+   - TR: ᾧ προσεῖχον πάντες ἀπὸ μικροῦ ἕως μεγάλου, λέγοντες, Οὗτός ἐστιν ἡ δύναμις τοῦ Θεοῦ ἡ μεγάλη.
+   - SBLGNT: ᾧ προσεῖχον πάντες ἀπὸ μικροῦ ἕως μεγάλου λέγοντες· Οὗτός ἐστιν ἡ Δύναμις τοῦ θεοῦ ἡ καλουμένη Μεγάλη.
+   - Vulgate: cui auscultabant omnes a minimo usque ad maximum, dicentes: Hic est virtus Dei, quæ vocatur magna.
+   - BSB: and all the people, from the least to the greatest, heeded his words and said, “This man is the divine power called the Great Power.”
+   - WEB: to whom they all listened, from the least to the greatest, saying, “This man is that great power of God.”
+- **8:16** substitute (word): critical *οὐδέπω* ] RP *οὔπω*
+   - Latin: Nūllum enim adhūc eōrum invāserat: tantum in Chrīstī Jēsū nōmen erant baptīzātī.
+   - 1573: Nullum enim adhuc eorum inuaserat: tantùm in Christi Iesu nomen erant baptizati.
+   - TR: οὔπω γὰρ ἦν ἐπ᾿ οὐδενὶ αὐτῶν ἐπιπεπτωκός, μόνον δὲ βεβαπτισμένοι ὑπῆρχον εἰς τὸ ὄνομα τοῦ Κυρίου Ἰησοῦ.
+   - SBLGNT: οὐδέπω γὰρ ἦν ἐπʼ οὐδενὶ αὐτῶν ἐπιπεπτωκός, μόνον δὲ βεβαπτισμένοι ὑπῆρχον εἰς τὸ ὄνομα τοῦ κυρίου Ἰησοῦ.
+   - Vulgate: nondum enim in quemquam illorum venerat, sed baptizati tantum erant in nomine Domini Jesu.
+   - BSB: For the Holy Spirit had not yet fallen upon any of them; they had simply been baptized into the name of the Lord Jesus.
+   - WEB: for as yet he had fallen on none of them. They had only been baptized in the name of Christ Jesus.
+- **8:18** substitute (word): critical *ἰδὼν* ] RP *Θεασάμενος*; add (word): critical *πνεῦμα* ] RP *+ τὸ ἅγιον*
+   - Latin: Id animadvertēns Simōn, manuum apostolōrum impositiōne Spīritum Sānctum darī, obtulit iīs pecūniam.
+   - 1573: Id animaduertens Simon, manuum apostolorum impositione spiritum sanctum dari, obtulit eis pecuniam,
+   - TR: Θεασάμενος δὲ ὁ Σίμων ὅτι διὰ τῆς ἐπιθέσεως τῶν χειρῶν τῶν ἀποστόλων δίδοται τὸ πνεῦμα τὸ ἅγιον, προσήνεγκεν αὐτοῖς χρήματα,
+   - SBLGNT: ἰδὼν δὲ ὁ Σίμων ὅτι διὰ τῆς ἐπιθέσεως τῶν χειρῶν τῶν ἀποστόλων δίδοται τὸ πνεῦμα προσήνεγκεν αὐτοῖς χρήματα
+   - Vulgate: Cum vidisset autem Simon quia per impositionem manus Apostolorum daretur Spiritus Sanctus, obtulit eis pecuniam,
+   - BSB: When Simon saw that the Spirit was given through the laying on of the apostles’ hands, he offered them money.
+   - WEB: Now when Simon saw that the Holy Spirit was given through the laying on of the apostles’ hands, he offered them money,
+- **8:21** substitute (word): critical *ἔναντι* ] RP *ἐνώπιον*
+   - Latin: Nōn es hujus doctrīnæ particeps, neque cōnsors: nam tua mēns in Deī cōnspectū rēcta nōn est.
+   - 1573: Non es huius doctrinæ particeps, neque consors: nam tua mens in Dei conspectu recta non est.
+   - TR: Οὐκ ἔστι σοι μερὶς οὐδὲ κλῆρος ἐν τῷ λόγῳ τούτῳ. Ἡ γὰρ καρδία σου οὐκ ἔστιν εὐθεῖα ἐνώπιον τοῦ Θεοῦ.
+   - SBLGNT: οὐκ ἔστιν σοι μερὶς οὐδὲ κλῆρος ἐν τῷ λόγῳ τούτῳ, ἡ γὰρ καρδία σου οὐκ ἔστιν εὐθεῖα ἔναντι τοῦ θεοῦ.
+   - Vulgate: Non est tibi pars neque sors in sermone isto: cor enim tuum non est rectum coram Deo.
+   - BSB: You have no part or share in our ministry, because your heart is not right before God.
+   - WEB: You have neither part nor lot in this matter, for your heart isn’t right before God.
+- **8:22** substitute (word): critical *κυρίου* ] RP *θεοῦ*
+   - Latin: Quamobrem dēscīsce ab istā tuā prāvitāte, Deumque comprecāre, sī forte tibi ista mala mēns ignōscātur.
+   - 1573: Quamobrem descisce ab ista tua prauitate, Deumque comprecare, si fortè tibi ista mala mens ignoscatur.
+   - TR: Μετανόησον οὖν ἀπὸ τῆς κακίας σου ταύτης, καὶ δεήθητι τοῦ Θεοῦ, εἰ ἄρα ἀφεθήσεταί σοι ἡ ἐπίνοια τῆς καρδίας σου.
+   - SBLGNT: μετανόησον οὖν ἀπὸ τῆς κακίας σου ταύτης, καὶ δεήθητι τοῦ κυρίου εἰ ἄρα ἀφεθήσεταί σοι ἡ ἐπίνοια τῆς καρδίας σου·
+   - Vulgate: Pœnitentiam itaque age ab hac nequitia tua: et roga Deum, si forte remittatur tibi hæc cogitatio cordis tui.
+   - BSB: Repent, therefore, of your wickedness, and pray to the Lord. Perhaps He will forgive you for the intent of your heart.
+   - WEB: Repent therefore of this, your wickedness, and ask God if perhaps the thought of your heart may be forgiven you.
+- **9:5** add (word): critical *δέ* ] RP *+ κύριος εἶπεν*
+   - Latin: Et ille: “Quis es, Domine?” “Ego sum Jēsūs,” inquit Dominus, “quem tū persequeris. Dūrum est tibi contrā stimulōs calcitrāre.”
+   - 1573: et ille: Quis es? Domine. Ego sum Iesus (inquit Dominus) quem tu persequeris. Durum est tibi contra stimulos calcitrare.
+   - TR: Εἶπε δέ, Τίς εἶ, Κύριε; Ὁ δὲ Κύριος εἶπεν, Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις· σκληρόν σοι πρὸς κέντρα λακτίζειν.
+   - SBLGNT: εἶπεν δέ· Τίς εἶ, κύριε; ὁ δέ· Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις·
+   - Vulgate: Qui dixit: Quis es, domine? Et ille: Ego sum Jesus, quem tu persequeris: durum est tibi contra stimulum calcitrare.
+   - BSB: “Who are You, Lord?” Saul asked. “I am Jesus, whom you are persecuting,” He replied.
+   - WEB: He said, “Who are you, Lord?” The Lord said, “I am Jesus, whom you are persecuting.
+- **9:13** substitute (word): critical *ἤκουσα* ] RP *ἀκήκοα*
+   - Latin: At Ananīās: “Domine,” inquit, “audīvī ex multīs dē eō virō, quantum malōrum tuīs sānctīs Hierosolymæ fēcerit:
+   - 1573: At Ananias: Domine, inquit, audiui ex multis de eo viro, quantum malorum tuis sanctis Hierosolymæ fecerit:
+   - TR: Ἀπεκρίθη δὲ ὁ Ἀνανίας, Κύριε, ἀκήκοα ἀπὸ πολλῶν περὶ τοῦ ἀνδρὸς τούτου, ὅσα κακὰ ἐποίησε τοῖς ἁγίοις σου ἐν Ἱερουσαλήμ·
+   - SBLGNT: ἀπεκρίθη δὲ Ἁνανίας· Κύριε, ἤκουσα ἀπὸ πολλῶν περὶ τοῦ ἀνδρὸς τούτου, ὅσα κακὰ τοῖς ἁγίοις σου ἐποίησεν ἐν Ἰερουσαλήμ·
+   - Vulgate: Respondit autem Ananias: Domine, audivi a multis de viro hoc, quanta mala fecerit sanctis tuis in Jerusalem:
+   - BSB: But Ananias answered, “Lord, many people have told me about this man and all the harm he has done to Your saints in Jerusalem.
+   - WEB: But Ananias answered, “Lord, I have heard from many about this man, how much evil he did to your saints at Jerusalem.
+- **9:20** substitute (word): critical *Ἰησοῦν* ] RP *χριστόν*
+   - Latin: ac statim in collēgiīs Chrīstum prædicābat, eum esse Deī Fīlium;
+   - 1573: ac statim in collegijs Christum prædicabat, eum esse Dei filium:
+   - TR: Καὶ εὐθέως ἐν ταῖς συναγωγαῖς ἐκήρυσσε τὸν Χριστόν, ὅτι οὗτός ἐστιν ὁ υἱὸς τοῦ Θεοῦ.
+   - SBLGNT: καὶ εὐθέως ἐν ταῖς συναγωγαῖς ἐκήρυσσεν τὸν Ἰησοῦν ὅτι οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ.
+   - Vulgate: Et continuo in synagogis prædicabat Jesum, quoniam hic est Filius Dei.
+   - BSB: Saul promptly began to proclaim Jesus in the synagogues, declaring, “He is the Son of God.”
+   - WEB: Immediately in the synagogues he proclaimed the Christ, that he is the Son of God.
+- **9:24** substitute (word): critical *παρετηροῦντο δὲ καὶ* ] RP *Παρετήρουν τε*
+   - Latin: Quōrum īnsidiīs Saulō cognitīs, cum illī portās diēs et noctēs, ejus necandī grātiā, observārent;
+   - 1573: Quorum insidijs Saulo cognitis, cùm illi portas dies et noctes, eius necandi gratia obseruarent,
+   - TR: ἐγνώσθη δὲ τῷ Σαύλῳ ἡ ἐπιβουλὴ αὐτῶν. Παρετήρουν τε τὰς πύλας ἡμέρας τε καὶ νυκτός, ὅπως αὐτὸν ἀνέλωσι·
+   - SBLGNT: ἐγνώσθη δὲ τῷ Σαύλῳ ἡ ἐπιβουλὴ αὐτῶν. παρετηροῦντο δὲ καὶ τὰς πύλας ἡμέρας τε καὶ νυκτὸς ὅπως αὐτὸν ἀνέλωσιν·
+   - Vulgate: Notæ autem factæ sunt Saulo insidiæ eorum. Custodiebant autem et portas die ac nocte, ut eum interficerent.
+   - BSB: but Saul learned of their plot. Day and night they watched the city gates in order to kill him.
+   - WEB: but their plot became known to Saul. They watched the gates both day and night that they might kill him,
+- **9:28** add (word): critical *κυρίου* ] RP *+ Ἰησοῦ*
+   - Latin: Ita Saulus cum iīs Hierosolymæ obversārī,
+   - 1573: Ita Saulus cum eis Hierosolymæ obuersari,
+   - TR: Καὶ ἦν μετ᾿ αὐτῶν εἰσπορευόμενος καὶ ἐκπορευόμενος ἐν Ἱερουσαλήμ, καὶ παρρησιαζόμενος ἐν τῷ ὀνόματι τοῦ Κυρίου Ἰησοῦ,
+   - SBLGNT: καὶ ἦν μετʼ αὐτῶν εἰσπορευόμενος καὶ ἐκπορευόμενος εἰς Ἰερουσαλήμ, παρρησιαζόμενος ἐν τῷ ὀνόματι τοῦ κυρίου,
+   - Vulgate: Et erat cum illis intrans et exiens in Jerusalem, et fiducialiter agens in nomine Domini.
+   - BSB: So Saul stayed with them, moving about freely in Jerusalem and speaking boldly in the name of the Lord.
+   - WEB: He was with them entering into Jerusalem,
+- **10:1** add (word): critical *τις* ] RP *+ ἦν*
+   - Latin: Erat autem quīdam Cæsarēæ, nōmine Cornēlius, centuriō, ex eā cohorte, quæ dīcitur Italica,
+   - 1573: Erat autem quidam Cæsareæ, nomine Cornelius, centurio, ex ea cohorte quæ dicitur Italica,
+   - TR: Ἀνὴρ δέ τις ἦν ἐν Καισαρείᾳ ὀνόματι Κορνήλιος, ἑκατοντάρχης ἐκ σπείρης τῆς καλουμένης Ἰταλικῆς,
+   - SBLGNT: Ἀνὴρ δέ τις ἐν Καισαρείᾳ ὀνόματι Κορνήλιος, ἑκατοντάρχης ἐκ σπείρης τῆς καλουμένης Ἰταλικῆς,
+   - Vulgate: Vir autem quidam erat in Cæsarea, nomine Cornelius, centurio cohortis quæ dicitur Italica,
+   - BSB: At Caesarea there was a man named Cornelius, a centurion in what was called the Italian Regiment.
+   - WEB: Now there was a certain man in Caesarea, Cornelius by name, a centurion of what was called the Italian Regiment,
+- **10:4** substitute (word): critical *ἔμπροσθεν* ] RP *ἐνώπιον*
+   - Latin: Et ille eum intuitus, et metū correptus: “Quid est, domine?” inquit. Cui ille: “Tuæ precēs ac benignē facta ad Deum ascendērunt, eīque in memoriā īnsēdērunt.
+   - 1573: Et ille eum intuitus, et metu correptus, Quid est Domine? inquit. Cui ille: Tuæ preces ac benignè facta ad Deum ascenderunt, eique in memoria insederunt.
+   - TR: Ὁ δὲ ἀτενίσας αὐτῷ καὶ ἔμφοβος γενόμενος εἶπε, Τί ἐστι, Κύριε; Εἶπε δὲ αὐτῷ, Αἱ προσευχαί σου καὶ αἱ ἐλεημοσύναι σου ἀνέβησαν εἰς μνημόσυνον ἐνώπιον τοῦ Θεοῦ.
+   - SBLGNT: ὁ δὲ ἀτενίσας αὐτῷ καὶ ἔμφοβος γενόμενος εἶπεν· Τί ἐστιν, κύριε; εἶπεν δὲ αὐτῷ· Αἱ προσευχαί σου καὶ αἱ ἐλεημοσύναι σου ἀνέβησαν εἰς μνημόσυνον ἔμπροσθεν τοῦ θεοῦ·
+   - Vulgate: At ille intuens eum, timore correptus, dixit: Quid est, domine? Dixit autem illi: Orationes tuæ et eleemosynæ tuæ ascenderunt in memoriam in conspectu Dei.
+   - BSB: Cornelius stared at him in fear and asked, “What is it, Lord?” The angel answered, “Your prayers and gifts to the poor have ascended as a memorial offering before God.
+   - WEB: He, fastening his eyes on him and being frightened, said, “What is it, Lord?” He said to him, “Your prayers and your gifts to the needy have gone up for a memorial before God.
+- **10:7** substitute (word): critical *αὐτῷ* ] RP *τῷ Κορνηλίῳ*
+   - Latin: Deinde, ubi collocūtus cum Cornēliō angelus discessit, ille, ēvocātīs suōrum famulōrum duōbus, et mīlite quōdam religiōsō, eōrum, quī apud eum erant assiduī,
+   - 1573: Deinde vbi collocutus cum Cornelio angelus discessit, ille euocatis suorum famulorum duobus, et milite quodam religioso, eorum qui apud eum erant assidui,
+   - TR: Ὡς δὲ ἀπῆλθεν ὁ ἄγγελος ὁ λαλῶν τῷ Κορνηλίῳ, φωνήσας δύο τῶν οἰκετῶν αὐτοῦ, καὶ στρατιώτην εὐσεβῆ τῶν προσκαρτερούντων αὐτῷ,
+   - SBLGNT: ὡς δὲ ἀπῆλθεν ὁ ἄγγελος ὁ λαλῶν αὐτῷ, φωνήσας δύο τῶν οἰκετῶν καὶ στρατιώτην εὐσεβῆ τῶν προσκαρτερούντων αὐτῷ
+   - Vulgate: Et cum discessisset angelus qui loquebatur illi, vocavit duos domesticos suos, et militem metuentem Dominum ex his qui illi parebant.
+   - BSB: When the angel who spoke to him had gone, Cornelius called two of his servants and a devout soldier from among his attendants.
+   - WEB: When the angel who spoke to him had departed, Cornelius called two of his household servants and a devout soldier of those who waited on him continually.
+- **10:10** substitute (word): critical *αὐτῶν* ] RP *ἐκείνων*; substitute (word): critical *ἐγένετο* ] RP *ἐπέπεσεν*
+   - Latin: Ēsuriēbat autem, et cibum capere volēbat, atque illīs parantibus, extrā sē raptus,
+   - 1573: Esuriebat autem, et cibum capere volebat. Atque illis parantibus, extra se raptus,
+   - TR: ἐγένετο δὲ πρόσπεινος, καὶ ἤθελε γεύσασθαι· παρασκευαζόντων δὲ ἐκείνων, ἐπέπεσεν ἐπ᾿ αὐτὸν ἔκστασις,
+   - SBLGNT: ἐγένετο δὲ πρόσπεινος καὶ ἤθελεν γεύσασθαι· παρασκευαζόντων δὲ αὐτῶν ἐγένετο ἐπʼ αὐτὸν ἔκστασις,
+   - Vulgate: Et cum esuriret, voluit gustare. Parantibus autem illis, cecidit super eum mentis excessus:
+   - BSB: He became hungry and wanted something to eat, but while the meal was being prepared, he fell into a trance.
+   - WEB: He became hungry and desired to eat, but while they were preparing, he fell into a trance.
+- **10:11** add (word): critical *καταβαῖνον* ] RP *+ ἐπʼ αὐτὸν*; add (word): critical *ἀρχαῖς* ] RP *+ δεδεμένον καὶ*
+   - Latin: videt apertum cælum, et dēscendēns ad sē ūtēnsile quoddam, quasi magnum linteum, quattuor capitibus ligātum, ad terram dēmittī,
+   - 1573: videt apertum cœlum, et descendens ad se vtensile quoddam, quasi magnum linteum, quatuor capitibus ligatum, ad terram demitti,
+   - TR: καὶ θεωρεῖ τὸν οὐρανὸν ἀνεῳγμένον, καὶ καταβαῖνον ἐπ᾿ αὐτὸν σκεῦός τι ὡς ὀθόνην μεγάλην, τέσσαρσιν ἀρχαῖς δεδεμένον, καὶ καθιέμενον ἐπὶ τῆς γῆς·
+   - SBLGNT: καὶ θεωρεῖ τὸν οὐρανὸν ἀνεῳγμένον καὶ καταβαῖνον σκεῦός τι ὡς ὀθόνην μεγάλην τέσσαρσιν ἀρχαῖς καθιέμενον ἐπὶ τῆς γῆς,
+   - Vulgate: et vidit cælum apertum, et descendens vas quoddam, velut linteum magnum, quatuor initiis submitti de cælo in terram,
+   - BSB: He saw heaven open and something like a large sheet being let down to earth by its four corners.
+   - WEB: He saw heaven opened and a certain container descending to him, like a great sheet let down by four corners on the earth,
+- **10:12** substitute (word): critical *καὶ ἑρπετὰ τῆς γῆς καὶ* ] RP *τῆς γῆς καὶ τὰ θηρία καὶ τὰ ἑρπετὰ καὶ τὰ*
+   - Latin: in quō inerant omne genus quadrupedēs terrestrēs, feræque, et serpentēs, et āeriæ volucrēs:
+   - 1573: in quo inerant omne genus quadrupedes terrestres, feræque, et serpentes, et aereæ volucres:
+   - TR: ἐν ᾧ ὑπῆρχε πάντα τὰ τετράποδα τῆς γῆς καὶ τὰ θηρία καὶ τὰ ἑρπετὰ καὶ τὰ πετεινὰ τοῦ οὐρανοῦ.
+   - SBLGNT: ἐν ᾧ ὑπῆρχεν πάντα τὰ τετράποδα καὶ ἑρπετὰ τῆς γῆς καὶ πετεινὰ τοῦ οὐρανοῦ.
+   - Vulgate: in quo erant omnia quadrupedia, et serpentia terræ, et volatilia cæli.
+   - BSB: It contained all kinds of four-footed animals and reptiles of the earth, as well as birds of the air.
+   - WEB: in which were all kinds of four-footed animals of the earth, wild animals, reptiles, and birds of the sky.
+- **10:16** substitute (word): critical *εὐθὺς* ] RP *πάλιν*
+   - Latin: Atque idem ter factum est, rūrsumque subductum est in cælum illud ūtēnsile.
+   - 1573: Atque idem ter factum est, rursumque subductum est in cœlum illud vtensile.
+   - TR: Τοῦτο δὲ ἐγένετο ἐπὶ τρίς· καὶ πάλιν ἀνελήφθη τὸ σκεῦος εἰς τὸν οὐρανόν.
+   - SBLGNT: τοῦτο δὲ ἐγένετο ἐπὶ τρίς, καὶ εὐθὺς ἀνελήμφθη τὸ σκεῦος εἰς τὸν οὐρανόν.
+   - Vulgate: Hoc autem factum est per ter: et statim receptum est vas in cælum.
+   - BSB: This happened three times, and all at once the sheet was taken back up into heaven.
+   - WEB: This was done three times, and immediately the thing was received up into heaven.
+- **10:20** substitute (word): critical *ὅτι* ] RP *διότι*
+   - Latin: Tū vērō age, dēscende, ac cum iīs citrā omnem cūnctātiōnem proficīscere: nam ego eōs mīsī.”
+   - 1573: tu verò age, descende, ac cum eis citra omnem cunctationem proficiscere: nam ego eos misi.
+   - TR: Ἀλλὰ ἀναστὰς κατάβηθι, καὶ πορεύου σὺν αὐτοῖς, μηδὲν διακρινόμενος· διότι ἐγὼ ἀπέσταλκα αὐτούς.
+   - SBLGNT: ἀλλὰ ἀναστὰς κατάβηθι καὶ πορεύου σὺν αὐτοῖς μηδὲν διακρινόμενος, ὅτι ἐγὼ ἀπέσταλκα αὐτούς.
+   - Vulgate: Surge itaque, descende, et vade cum eis nihil dubitans: quia ego misi illos.
+   - BSB: So get up! Go downstairs and accompany them without hesitation, because I have sent them.”
+   - WEB: But arise, get down, and go with them, doubting nothing; for I have sent them.”
+- **10:30** add (word): critical *ἤμην* ] RP *+ νηστεύων καὶ*; add (word): critical *ἐνάτην* ] RP *+ ὥραν*
+   - Latin: Tum Cornēlius: “Nudiūs quārtus,” inquit, “ad hanc hōram jejūnus eram, et hōrā nōnā domī meæ supplicābam: cum, ecce, vir quīdam stetit in meō cōnspectū, veste splendidā,
+   - 1573: Tum Cornelius: Nudius quartus, inquit, ad hanc horam ieiunus eram, et hora nona domi meæ supplicabam: cùm ecce vir quidam stetit in meo conspectu, veste splendida,
+   - TR: Καὶ ὁ Κορνήλιος ἔφη, Ἀπὸ τετάρτης ἡμέρας μέχρι ταύτης τῆς ὥρας ἤμην νηστεύων, καὶ τὴν ἐννάτην ὥραν προσευχόμενος ἐν τῷ οἴκῳ μου· καὶ ἰδού, ἀνὴρ ἔστη ἐνώπιόν μου ἐν ἐσθῆτι λαμπρᾷ,
+   - SBLGNT: Καὶ ὁ Κορνήλιος ἔφη· Ἀπὸ τετάρτης ἡμέρας μέχρι ταύτης τῆς ὥρας ἤμην τὴν ἐνάτην προσευχόμενος ἐν τῷ οἴκῳ μου, καὶ ἰδοὺ ἀνὴρ ἔστη ἐνώπιόν μου ἐν ἐσθῆτι λαμπρᾷ
+   - Vulgate: Et Cornelius ait: A nudiusquarta die usque ad hanc horam, orans eram hora nona in domo mea, et ecce vir stetit ante me in veste candida, et ait:
+   - BSB: Cornelius answered: “Four days ago I was in my house praying at this, the ninth hour. Suddenly a man in radiant clothing stood before me
+   - WEB: Cornelius said, “Four days ago, I was fasting until this hour; and at the ninth hour, I prayed in my house, and behold, a man stood before me in bright clothing
+- **10:33** substitute (word): critical *κυρίου* ] RP *θεοῦ*
+   - Latin: Ego continuō ad tē mīsī: et tū rēctē fēcistī, quī vēneris. Nunc nōs omnēs in Deī cōnspectū adsumus, ad audienda omnia tibi ā Deō mandāta.”
+   - 1573: Ego continuò ad te misi: et tu rectè fecisti, qui veneris. Nunc nos omnes in Dei conspectu adsumus, ad audienda omnia tibi à Deo mandata.
+   - TR: Ἐξαυτῆς οὖν ἔπεμψα πρός σε· σύ τε καλῶς ἐποίησας παραγενόμενος. Νῦν οὖν πάντες ἡμεῖς ἐνώπιον τοῦ Θεοῦ πάρεσμεν ἀκοῦσαι πάντα τὰ προστεταγμένα σοι ὑπὸ τοῦ Θεοῦ.
+   - SBLGNT: ἐξαυτῆς οὖν ἔπεμψα πρὸς σέ, σύ τε καλῶς ἐποίησας παραγενόμενος. νῦν οὖν πάντες ἡμεῖς ἐνώπιον τοῦ θεοῦ πάρεσμεν ἀκοῦσαι πάντα τὰ προστεταγμένα σοι ὑπὸ τοῦ κυρίου.
+   - Vulgate: Confestim ergo misi ad te: et tu benefecisti veniendo. Nunc ergo omnes nos in conspectu tuo adsumus audire omnia quæcumque tibi præcepta sunt a Domino.
+   - BSB: So I sent for you immediately, and you were kind enough to come. Now then, we are all here in the presence of God to listen to everything the Lord has instructed you to tell us.”
+   - WEB: Therefore I sent to you at once, and it was good of you to come. Now therefore we are all here present in the sight of God to hear all things that have been commanded you by God.”
+- **10:39** add (word): critical *ἡμεῖς* ] RP *+ ἐσμεν*
+   - Latin: Et nōs testēs sumus omnium, quæ cum in reliquō Jūdæōrum agrō, tum Hierosolymæ fēcit:
+   - 1573: Et nos testes sumus omnium, quæ cùm in reliquo Iudæorum agro, tum Hierosolymæ fecit:
+   - TR: Καὶ ἡμεῖς ἐσμεν μάρτυρες πάντων ὧν ἐποίησεν ἔν τε τῇ χώρᾳ τῶν Ἰουδαίων καὶ ἐν Ἱερουσαλήμ· ὃν ἀνεῖλον κρεμάσαντες ἐπὶ ξύλου.
+   - SBLGNT: καὶ ἡμεῖς μάρτυρες πάντων ὧν ἐποίησεν ἔν τε τῇ χώρᾳ τῶν Ἰουδαίων καὶ Ἰερουσαλήμ· ὃν καὶ ἀνεῖλαν κρεμάσαντες ἐπὶ ξύλου.
+   - Vulgate: Et nos testes sumus omnium quæ fecit in regione Judæorum, et Jerusalem, quem occiderunt suspendentes in ligno.
+   - BSB: We are witnesses of all that He did, both in the land of the Jews and in Jerusalem. And although they put Him to death by hanging Him on a tree,
+   - WEB: We are witnesses of everything he did both in the country of the Jews and in Jerusalem; whom they also killed, hanging him on a tree.
+- **10:48** substitute (word): critical *ἐν τῷ ὀνόματι Ἰησοῦ Χριστοῦ βαπτισθῆναι* ] RP *βαπτισθῆναι ἐν τῷ ὀνόματι τοῦ κυρίου*
+   - Latin: Eōsque in Dominī nōmine jussit baptīzārī. Tunc illī eum exōrārunt, ut ibi diēs aliquot manēret.
+   - 1573: eosque in Domini nomine iussit baptizari. Tunc illi eum exorarunt, vt ibi dies aliquot maneret.
+   - TR: Προσέταξέ τε αὐτοὺς βαπτισθῆναι ἐν τῷ ὀνόματι τοῦ Κυρίου. Τότε ἠρώτησαν αὐτὸν ἐπιμεῖναι ἡμέρας τινάς.
+   - SBLGNT: προσέταξεν δὲ αὐτοὺς ἐν τῷ ὀνόματι Ἰησοῦ Χριστοῦ βαπτισθῆναι. τότε ἠρώτησαν αὐτὸν ἐπιμεῖναι ἡμέρας τινάς.
+   - Vulgate: Et jussit eos baptizari in nomine Domini Jesu Christi. Tunc rogaverunt eum ut maneret apud eos aliquot diebus.
+   - BSB: So he ordered that they be baptized in the name of Jesus Christ. Then they asked him to stay for a few days.
+   - WEB: He commanded them to be baptized in the name of Jesus Christ. Then they asked him to stay some days.
+- **11:8** add (word): critical *ὅτι* ] RP *+ πᾶν*
+   - Latin: Et ego: ‘Nēquāquam, Domine,’ inquam, ‘nihil enim umquam immundum aut impūrum per ōs meum intrāvit.’
+   - 1573: Et ego: Nequaquam, Domine, inquam: nihil enim vnquam immundum aut impurum per os meum intrauit.
+   - TR: Εἶπον δέ, Μηδαμῶς, Κύριε· ὅτι πᾶν κοινὸν ἢ ἀκάθαρτον οὐδέποτε εἰσῆλθεν εἰς τὸ στόμα μου.
+   - SBLGNT: εἶπον δέ· Μηδαμῶς, κύριε, ὅτι κοινὸν ἢ ἀκάθαρτον οὐδέποτε εἰσῆλθεν εἰς τὸ στόμα μου.
+   - Vulgate: Dixi autem: Nequaquam Domine: quia commune aut immundum numquam introivit in os meum.
+   - BSB: ‘No, Lord,’ I said, ‘for nothing impure or unclean has ever entered my mouth.’
+   - WEB: But I said, ‘Not so, Lord, for nothing unholy or unclean has ever entered into my mouth.’
+- **11:11** substitute (word): critical *ἦμεν* ] RP *ἤμην*
+   - Latin: Et ecce extemplō præstō fuērunt apud eam, in quā eram, domum trēs hominēs, ad mē Cæsarēā missī:
+   - 1573: Et ecce extemplo præsto fuerunt apud eam, in qua eram, domum, tres homines, ad me Cæsarea missi:
+   - TR: Καὶ ἰδού, ἐξαυτῆς τρεῖς ἄνδρες ἐπέστησαν ἐπὶ τὴν οἰκίαν ἐν ᾗ ἤμην, ἀπεσταλμένοι ἀπὸ Καισαρείας πρός με.
+   - SBLGNT: καὶ ἰδοὺ ἐξαυτῆς τρεῖς ἄνδρες ἐπέστησαν ἐπὶ τὴν οἰκίαν ἐν ᾗ ἦμεν, ἀπεσταλμένοι ἀπὸ Καισαρείας πρός με.
+   - Vulgate: Et ecce viri tres confestim astiterunt in domo in qua eram, missi a Cæsarea ad me.
+   - BSB: Just then three men sent to me from Caesarea stopped at the house where I was staying.
+   - WEB: Behold, immediately three men stood before the house where I was, having been sent from Caesarea to me.
+- **11:13** add (word): critical *Ἰόππην* ] RP *+ ἄνδρας*
+   - Latin: Ac nōbīs, hominis domum ingressīs, narrāvit ille, ut angelum domī suæ vīdisset astantem, et sibi præcipientem, ut mitteret Joppēn hominēs, quī Simōnem arcesserent, cognōmine Petrum,
+   - 1573: ac nobis hominis domum ingressis, narrauit ille vt angelum domi suæ vidisset astantem, et sibi præcipientem vt mitteret Ioppen homines, qui Simonem accerserent cognomine Petrum,
+   - TR: ἀπήγγειλέ τε ἡμῖν πῶς εἶδε τὸν ἄγγελον ἐν τῷ οἴκῳ αὐτοῦ σταθέντα, καὶ εἰπόντα αὐτῷ, Ἀπόστειλον εἰς Ἰόππην ἄνδρας, καὶ μετάπεμψαι Σίμωνα, τὸν ἐπικαλούμενον Πέτρον,
+   - SBLGNT: ἀπήγγειλεν δὲ ἡμῖν πῶς εἶδεν τὸν ἄγγελον ἐν τῷ οἴκῳ αὐτοῦ σταθέντα καὶ εἰπόντα· Ἀπόστειλον εἰς Ἰόππην καὶ μετάπεμψαι Σίμωνα τὸν ἐπικαλούμενον Πέτρον,
+   - Vulgate: Narravit autem nobis quomodo vidisset angelum in domo sua, stantem et dicentem sibi: Mitte in Joppen, et accersi Simonem qui cognominatur Petrus,
+   - BSB: He told us how he had seen an angel standing in his house and saying, ‘Send to Joppa for Simon who is called Peter.
+   - WEB: He told us how he had seen the angel standing in his house and saying to him, ‘Send to Joppa and get Simon, who is called Peter,
+- **11:20** substitute (word): critical *ἐλθόντες* ] RP *εἰσελθόντες*
+   - Latin: Erant autem quīdam ex iīs hominēs Cypriī et Cȳrēnēnsēs, quī Antiochīam ingressī, loquēbantur cum Græcīs, Dominum Jēsum nūntiantēs:
+   - 1573: Erant autem quidam ex eis homines Cyprij, et Cyrenenses, qui Antiochiam ingressi, loquebantur cum Græcis, Dominum Iesum nunciantes:
+   - TR: Ἦσαν δέ τινες ἐξ αὐτῶν ἄνδρες Κύπριοι καὶ Κυρηναῖοι, οἵτινες εἰσελθόντες εἰς Ἀντιόχειαν, ἐλάλουν πρὸς τοὺς Ἑλληνιστάς, εὐαγγελιζόμενοι τὸν Κύριον Ἰησοῦν.
+   - SBLGNT: ἦσαν δέ τινες ἐξ αὐτῶν ἄνδρες Κύπριοι καὶ Κυρηναῖοι, οἵτινες ἐλθόντες εἰς Ἀντιόχειαν ἐλάλουν καὶ πρὸς τοὺς Ἑλληνιστάς, εὐαγγελιζόμενοι τὸν κύριον Ἰησοῦν.
+   - Vulgate: Erant autem quidam ex eis viri Cyprii et Cyrenæi, qui cum introissent Antiochiam, loquebantur et ad Græcos, annuntiantes Dominum Jesum.
+   - BSB: But some of them, men from Cyprus and Cyrene, went to Antioch and began speaking to the Greeks as well, proclaiming the good news about the Lord Jesus.
+   - WEB: But there were some of them, men of Cyprus and Cyrene, who, when they had come to Antioch, spoke to the Hellenists, preaching the Lord Jesus.
+- **13:1** add (word): critical *δὲ* ] RP *+ τινες*
+   - Latin: Erant Antiochīæ in eā, quæ erat ecclēsia, vātēs et doctōrēs, Barnābās et Simōn, cognōmine Niger, et Lūcius Cȳrēnēnsis, et Manahēn cum Hērōde tetrarchā nūtrītus, et Saulus.
+   - 1573: Erant Antiochiæ, in ea quæ erat ecclesia, vates, et doctores, Barnabas, et Simon, cognomine Niger, et Lucius Cyrenensis, et Manahen, cum Herode Tetrarcha nutritus, et Saulus.
+   - TR: Ἦσαν δέ τινες ἐν Ἀντιοχείᾳ κατὰ τὴν οὖσαν ἐκκλησίαν προφῆται καὶ διδάσκαλοι, ὅ τε Βαρνάβας καὶ Συμεὼν ὁ καλούμενος Νίγερ, καὶ Λούκιος ὁ Κυρηναῖος, Μαναήν τε Ἡρῴδου τοῦ τετράρχου σύντροφος, καὶ Σαῦλος.
+   - SBLGNT: Ἦσαν δὲ ἐν Ἀντιοχείᾳ κατὰ τὴν οὖσαν ἐκκλησίαν προφῆται καὶ διδάσκαλοι ὅ τε Βαρναβᾶς καὶ Συμεὼν ὁ καλούμενος Νίγερ, καὶ Λούκιος ὁ Κυρηναῖος, Μαναήν τε Ἡρῴδου τοῦ τετραάρχου σύντροφος καὶ Σαῦλος.
+   - Vulgate: Erant autem in ecclesia quæ erat Antiochiæ, prophetæ et doctores, in quibus Barnabas, et Simon qui vocabatur Niger, et Lucius Cyrenensis, et Manahen, qui erat Herodis Tetrarchæ collactaneus, et Saulus.
+   - BSB: Now in the church at Antioch there were prophets and teachers: Barnabas, Simeon called Niger, Lucius of Cyrene, Manaen (who had been brought up with Herod the tetrarch), and Saul.
+   - WEB: Now in the assembly that was at Antioch there were some prophets and teachers: Barnabas, Simeon who was called Niger, Lucius of Cyrene, Manaen the foster brother of Herod the tetrarch, and Saul.
+- **13:4** substitute (word): critical *Αὐτοὶ* ] RP *Οὗτοι*
+   - Latin: Atque iī ā Sānctō Spīritū ēmissī ad Seleucīam dēscendērunt, et inde in Cyprum nāvigārunt.
+   - 1573: Atque ij à sancto spiritu emissi, ad Seleuciam descenderunt, et inde in Cyprum nauigarunt:
+   - TR: Οὗτοι μὲν οὖν, ἐκπεμφθέντες ὑπὸ τοῦ πνεύματος τοῦ ἁγίου, κατῆλθον εἰς τὴν Σελεύκειαν· ἐκεῖθέν τε ἀπέπλευσαν εἰς τὴν Κύπρον.
+   - SBLGNT: Αὐτοὶ μὲν οὖν ἐκπεμφθέντες ὑπὸ τοῦ ἁγίου πνεύματος κατῆλθον εἰς Σελεύκειαν, ἐκεῖθέν τε ἀπέπλευσαν εἰς Κύπρον,
+   - Vulgate: Et ipsi quidem missi a Spiritu Sancto abierunt Seleuciam: et inde navigaverunt Cyprum.
+   - BSB: So Barnabas and Saul, sent forth by the Holy Spirit, went down to Seleucia and sailed from there to Cyprus.
+   - WEB: So, being sent out by the Holy Spirit, they went down to Seleucia. From there they sailed to Cyprus.
+- **13:11** substitute (word): critical *ἔπεσεν* ] RP *ἐπέπεσεν*
+   - Latin: Scītō: nunc tē Dominī manū petī, cæcumque aliquamdiū fore, ita ut sōlem nōn videās.” Atque illum prōtinus tanta invāsit cālīgō tenebrārum, ut circumiēns quæreret, quī sē manū dūcerent.
+   - 1573: Scito nunc te Domini manu peti, cæcumque aliquandiu fore, ita vt solem non videas. Atque illum protinus tanta inuasit caligo tenebrarum, vt circumiens quæreret qui se manu ducerent (.
+   - TR: Καὶ νῦν ἰδού, χεὶρ τοῦ Κυρίου ἐπὶ σέ, καὶ ἔσῃ τυφλός, μὴ βλέπων τὸν ἥλιον ἄχρι καιροῦ. Παραχρῆμα δὲ ἐπέπεσεν ἐπ᾿ αὐτὸν ἀχλὺς καὶ σκότος, καὶ περιάγων ἐζήτει χειραγωγούς.
+   - SBLGNT: καὶ νῦν ἰδοὺ χεὶρ κυρίου ἐπὶ σέ, καὶ ἔσῃ τυφλὸς μὴ βλέπων τὸν ἥλιον ἄχρι καιροῦ. παραχρῆμα δὲ ἔπεσεν ἐπʼ αὐτὸν ἀχλὺς καὶ σκότος, καὶ περιάγων ἐζήτει χειραγωγούς.
+   - Vulgate: Et nunc ecce manus Domini super te, et eris cæcus, non videns solem usque ad tempus. Et confestim cecidit in eum caligo et tenebræ: et circuiens quærebat qui ei manum daret.
+   - BSB: Now look, the hand of the Lord is against you, and for a time you will be blind and unable to see the light of the sun.” Immediately mist and darkness came over him, and he groped about, seeking someone to lead him by the hand.
+   - WEB: Now, behold, the hand of the Lord is on you, and you will be blind, not seeing the sun for a season!” Immediately a mist and darkness fell on him. He went around seeking someone to lead him by the hand.
+- **13:25** substitute (word): critical *Τί ἐμὲ* ] RP *Τίνα με*
+   - Latin: Atque īdem Jōhannēs, cum cursum cōnficeret, dīxit: ‘Quem mē esse suspicāminī? Nōn ego sum ille: sed post mē venit, cujus ego pedum calceāmentum solvere dignus nōn sum.’
+   - 1573: Atque idem Iohannes cùm cursum conficeret, dixit: Quem me esse suspicamini? Non ego sum ille: sed post me venit, cuius ego pedum calceamentum soluere dignus non sum.
+   - TR: Ὡς δὲ ἐπλήρου ὁ Ἰωάννης τὸν δρόμον, ἔλεγε, Τίνα με ὑπονοεῖτε εἶναι; Οὐκ εἰμὶ ἐγώ. Ἀλλ᾿ ἰδού, ἔρχεται μετ᾿ ἐμέ, οὗ οὐκ εἰμὶ ἄξιος τὸ ὑπόδημα τῶν ποδῶν λῦσαι.
+   - SBLGNT: ὡς δὲ ἐπλήρου Ἰωάννης τὸν δρόμον, ἔλεγεν· Τί ἐμὲ ὑπονοεῖτε εἶναι; οὐκ εἰμὶ ἐγώ· ἀλλʼ ἰδοὺ ἔρχεται μετʼ ἐμὲ οὗ οὐκ εἰμὶ ἄξιος τὸ ὑπόδημα τῶν ποδῶν λῦσαι.
+   - Vulgate: Cum impleret autem Joannes cursum suum, dicebat: Quem me arbitramini esse, non sum ego: sed ecce venit post me, cujus non sum dignus calceamenta pedum solvere.
+   - BSB: As John was completing his course, he said, ‘Who do you suppose I am? I am not that One. But He is coming after me whose sandals I am not worthy to untie.’
+   - WEB: As John was fulfilling his course, he said, ‘What do you suppose that I am? I am not he. But behold, one comes after me, the sandals of whose feet I am not worthy to untie.’
+- **13:35** substitute (word): critical *διότι* ] RP *Διὸ*
+   - Latin: Itaque alibī quoque dīcit: ‘Nōn es passūrus, ut pius tuus corruptiōnem patiātur.’
+   - 1573: Itaque alibi quoque dicit: Non es passurus vt pius tuus corruptionem patiatur.
+   - TR: Διὸ καὶ ἐν ἑτέρῳ λέγει, Οὐ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν·
+   - SBLGNT: διότι καὶ ἐν ἑτέρῳ λέγει· Οὐ δώσεις τὸν ὅσιόν σου ἰδεῖν διαφθοράν·
+   - Vulgate: Ideoque et alias dicit: Non dabis sanctum tuum videre corruptionem.
+   - BSB: So also, He says in another Psalm: ‘You will not let Your Holy One see decay.’
+   - WEB: Therefore he says also in another psalm, ‘You will not allow your Holy One to see decay.’
+- **13:40** add (word): critical *ἐπέλθῃ* ] RP *+ ἐφʼ ὑμᾶς*
+   - Latin: Quamobrem prōspicite, nē vōbīs illud ūsū veniat, quod est in vātibus dictum:
+   - 1573: Quamobrem prospicite, ne vobis illud vsu veniat, quod est in vatibus dictum:
+   - TR: Βλέπετε οὖν μὴ ἐπέλθῃ ἐφ᾿ ὑμᾶς τὸ εἰρημένον ἐν τοῖς προφήταις,
+   - SBLGNT: βλέπετε οὖν μὴ ἐπέλθῃ τὸ εἰρημένον ἐν τοῖς προφήταις·
+   - Vulgate: Videte ergo ne superveniat vobis quod dictum est in prophetis:
+   - BSB: Watch out, then, that what was spoken by the prophets does not happen to you:
+   - WEB: Beware therefore, lest that come on you which is spoken in the prophets:
+- **13:43** substitute (word): critical *προσμένειν* ] RP *ἐπιμένειν*
+   - Latin: Ac dīmissō collēgiō, secūtī sunt multī Jūdæōrum, adventītiōrumque religiōsōrum Paulum atque Barnābam: quī eōs alloquentēs persuādēbant, ut in Deī grātiā permanērent.
+   - 1573: Ac dimisso collegio secuti sunt multi Iudæorum, aduentitiorumque religiosorum Paulum atque Barnabam: qui eos alloquentes, persuadebant, vt in Dei gratia permanerent.
+   - TR: Λυθείσης δὲ τῆς συναγωγῆς, ἠκολούθησαν πολλοὶ τῶν Ἰουδαίων καὶ τῶν σεβομένων προσηλύτων τῷ Παύλῳ καὶ τῷ Βαρνάβᾳ· οἵτινες προσλαλοῦντες αὐτοῖς, ἔπειθον αὐτοὺς ἐπιμένειν τῇ χάριτι τοῦ Θεοῦ.
+   - SBLGNT: λυθείσης δὲ τῆς συναγωγῆς ἠκολούθησαν πολλοὶ τῶν Ἰουδαίων καὶ τῶν σεβομένων προσηλύτων τῷ Παύλῳ καὶ τῷ Βαρναβᾷ, οἵτινες προσλαλοῦντες αὐτοῖς ἔπειθον αὐτοὺς προσμένειν τῇ χάριτι τοῦ θεοῦ.
+   - Vulgate: Cumque dimissa esset synagoga, secuti sunt multi Judæorum, et colentium advenarum, Paulum et Barnabam: qui loquentes suadebant eis ut permanerent in gratia Dei.
+   - BSB: After the synagogue was dismissed, many of the Jews and devout converts to Judaism followed Paul and Barnabas, who spoke to them and urged them to continue in the grace of God.
+   - WEB: Now when the synagogue broke up, many of the Jews and of the devout proselytes followed Paul and Barnabas; who, speaking to them, urged them to continue in the grace of God.
+- **13:44** substitute (word): critical *κυρίου* ] RP *θεοῦ*
+   - Latin: Ac sequentī Sabbatō ferē tōta cīvitās ad audiendam dīvīnam doctrīnam convēnit.
+   - 1573: Ac sequenti Sabbato ferè tota ciuitas ad audiendam diuinam doctrinam conuenit.
+   - TR: Τῷ δὲ ἐρχομένῳ σαββάτῳ σχεδὸν πᾶσα ἡ πόλις συνήχθη ἀκοῦσαι τὸν λόγον τοῦ Θεοῦ.
+   - SBLGNT: Τῷ δὲ ἐρχομένῳ σαββάτῳ σχεδὸν πᾶσα ἡ πόλις συνήχθη ἀκοῦσαι τὸν λόγον τοῦ κυρίου.
+   - Vulgate: Sequenti vero sabbato pene universa civitas convenit audire verbum Dei.
+   - BSB: On the following Sabbath, nearly the whole city gathered to hear the word of the Lord.
+   - WEB: The next Sabbath, almost the whole city was gathered together to hear the word of God.
+- **13:45** substitute (word): critical *λαλουμένοις* ] RP *λεγομένοις*; substitute (word): critical *βλασφημοῦντες* ] RP *ἀντιλέγοντες καὶ βλασφημοῦντες*
+   - Latin: Vērum Jūdæī tantam hominum multitūdinem videntēs, æmulātiōnis plēnī, contrādīcēbant iīs, quæ ā Paulō dīcēbantur, reclāmantēs ac convīciantēs.
+   - 1573: Verùm Iudæi tantam hominum multitudinem videntes, æmulationis pleni, contradicebant ijs quæ à Paulo dicebantur, reclamantes ac conuiciantes.
+   - TR: Ἰδόντες δὲ οἱ Ἰουδαῖοι τοὺς ὄχλους ἐπλήσθησαν ζήλου, καὶ ἀντέλεγον τοῖς ὑπὸ τοῦ Παύλου λεγομένοις, ἀντιλέγοντες καὶ βλασφημοῦντες.
+   - SBLGNT: ἰδόντες δὲ οἱ Ἰουδαῖοι τοὺς ὄχλους ἐπλήσθησαν ζήλου καὶ ἀντέλεγον τοῖς ὑπὸ Παύλου λαλουμένοις βλασφημοῦντες.
+   - Vulgate: Videntes autem turbas Judæi, repleti sunt zelo, et contradicebant his quæ a Paulo dicebantur, blasphemantes.
+   - BSB: But when the Jews saw the crowds, they were filled with jealousy, and they blasphemously contradicted what Paul was saying.
+   - WEB: But when the Jews saw the multitudes, they were filled with jealousy, and contradicted the things which were spoken by Paul, and blasphemed.
+- **14:8** add (word): critical *αὐτοῦ* ] RP *+ ὑπάρχων*
+   - Latin: homō quīdam Lystrīs pedibus impotēns sedēbat, claudus ab uterō mātris, quī numquam ingressus erat.
+   - 1573: homo quidam Lystris pedibus impotens, sedebat, claudus ab vtero matris, qui nunquam ingressus erat.
+   - TR: Καί τις ἀνὴρ ἐν Λύστροις ἀδύνατος τοῖς ποσὶν ἐκάθητο, χωλὸς ἐκ κοιλίας μητρὸς αὐτοῦ ὑπάρχων, ὃς οὐδέποτε περιεπεπατήκει.
+   - SBLGNT: Καί τις ἀνὴρ ἀδύνατος ἐν Λύστροις τοῖς ποσὶν ἐκάθητο, χωλὸς ἐκ κοιλίας μητρὸς αὐτοῦ, ὃς οὐδέποτε περιεπάτησεν.
+   - Vulgate: Et quidam vir Lystris infirmus pedibus sedebat, claudus ex utero matris suæ, qui numquam ambulaverat.
+   - BSB: In Lystra there sat a man crippled in his feet, who was lame from birth and had never walked.
+   - WEB: At Lystra a certain man sat, impotent in his feet, a cripple from his mother’s womb, who never had walked.
+- **14:10** substitute (word): critical *ἥλατο* ] RP *ἥλλετο*
+   - Latin: dīxit clārā vōce: “Surge in pedēs rēctus.” Atque ille exsilīre, ac ingredī.
+   - 1573: dixit clara voce: Surge in pedes rectus: Atque ille exilire, ac ingredi.
+   - TR: εἶπε μεγάλῃ τῇ φωνῇ, Ἀνάστηθι ἐπὶ τοὺς πόδας σου ὀρθός. Καὶ ἥλλετο καὶ περιεπάτει.
+   - SBLGNT: εἶπεν μεγάλῃ φωνῇ· Ἀνάστηθι ἐπὶ τοὺς πόδας σου ὀρθός· καὶ ἥλατο καὶ περιεπάτει.
+   - Vulgate: dixit magna voce: Surge super pedes tuos rectus. Et exilivit, et ambulabat.
+   - BSB: In a loud voice Paul called out, “Stand up on your feet!” And the man jumped up and began to walk.
+   - WEB: said with a loud voice, “Stand upright on your feet!” He leaped up and walked.
+- **14:14** substitute (word): critical *ἐξεπήδησαν* ] RP *εἰσεπήδησαν*
+   - Latin: Quō audītō, apostolī Barnābās et Paulus, lacerātīs suīs vestibus, īnsiliērunt in turbam,
+   - 1573: Quo audito, apostoli Barnabas et Paulus, laceratis suis vestibus, insilierunt in turbam,
+   - TR: Ἀκούσαντες δὲ οἱ ἀπόστολοι Βαρνάβας καὶ Παῦλος, διαρρήξαντες τὰ ἱμάτια αὐτῶν, εἰσεπήδησαν εἰς τὸν ὄχλον, κράζοντες
+   - SBLGNT: ἀκούσαντες δὲ οἱ ἀπόστολοι Βαρναβᾶς καὶ Παῦλος, διαρρήξαντες τὰ ἱμάτια αὐτῶν ἐξεπήδησαν εἰς τὸν ὄχλον κράζοντες
+   - Vulgate: Quod ubi audierunt Apostoli, Barnabas et Paulus, conscissis tunicis suis exilierunt in turbas, clamantes
+   - BSB: But when the apostles Barnabas and Paul found out about this, they tore their clothes and rushed into the crowd, shouting,
+   - WEB: But when the apostles, Barnabas and Paul, heard of it, they tore their clothes and sprang into the multitude, crying out,
+- **14:28** add (word): critical *δὲ* ] RP *+ ἐκεῖ*
+   - Latin: Commorātī sunt autem illīc nōn parum diū, ūnā cum discipulīs.
+   - 1573: Commorati sunt autem illic non parum diu vnà cum discipulis.
+   - TR: Διέτριβον δὲ ἐκεῖ χρόνον οὐκ ὀλίγον σὺν τοῖς μαθηταῖς.
+   - SBLGNT: διέτριβον δὲ χρόνον οὐκ ὀλίγον σὺν τοῖς μαθηταῖς.
+   - Vulgate: Morati sunt autem tempus non modicum cum discipulis.
+   - BSB: And they spent a long time there with the disciples.
+   - WEB: They stayed there with the disciples for a long time.
+- **15:4** substitute (word): critical *παρεδέχθησαν* ] RP *ἀπεδέχθησαν*
+   - Latin: Ubi Hierosolymam perventum est, acceptī sunt ab ecclēsiā et apostolīs ac seniōribus, et, quæ Deus sēcum fēcisset, retulērunt.
+   - 1573: Vbi Hierosolymam peruentum est, accepti sunt ab ecclesia et apostolis ac senioribus, et, quæ Deus secum fecisset, retulerunt.
+   - TR: Παραγενόμενοι δὲ εἰς Ἱερουσαλήμ, ἀπεδέχθησαν ὑπὸ τῆς ἐκκλησίας καὶ τῶν ἀποστόλων καὶ τῶν πρεσβυτέρων, ἀνήγγειλάν τε ὅσα ὁ Θεὸς ἐποίησε μετ᾿ αὐτῶν.
+   - SBLGNT: παραγενόμενοι δὲ εἰς Ἱεροσόλυμα παρεδέχθησαν ἀπὸ τῆς ἐκκλησίας καὶ τῶν ἀποστόλων καὶ τῶν πρεσβυτέρων, ἀνήγγειλάν τε ὅσα ὁ θεὸς ἐποίησεν μετʼ αὐτῶν.
+   - Vulgate: Cum autem venissent Jerosolymam, suscepti sunt ab ecclesia, et ab Apostolis et senioribus, annuntiantes quanta Deus fecisset cum illis.
+   - BSB: On their arrival in Jerusalem, they were welcomed by the church and apostles and elders, to whom they reported all that God had done through them.
+   - WEB: When they had come to Jerusalem, they were received by the assembly and the apostles and the elders, and they reported everything that God had done with them.
+- **15:7** substitute (word): critical *ζητήσεως* ] RP *συζητήσεως*
+   - Latin: Et magnā contentiōne exortā, surrēxit Petrus, et ad eōs hujusmodī ōrātiōnem habuit: “Virī frātrēs, vōs scītis, ut Deus jam prīdem mē ex vōbīs ēlēgerit, cujus ex ōre extrāneī doctrīnam euangelicam audīrent ac crēderent.
+   - 1573: Et magna contentione exorta, surrexit Petrus, et ad eos huiusmodi orationem habuit: Viri fratres, vos scitis, vt Deus iam pridem me ex vobis elegerit, cuius ex ore extranei doctrinam Euangelicam audirent ac crederent.
+   - TR: Πολλῆς δὲ συζητήσεως γενομένης, ἀναστὰς Πέτρος εἶπε πρὸς αὐτούς, Ἄνδρες ἀδελφοί, ὑμεῖς ἐπίστασθε ὅτι ἀφ᾿ ἡμερῶν ἀρχαίων ὁ Θεὸς ἐν ἡμῖν ἐξελέξατο, διὰ τοῦ στόματός μου ἀκοῦσαι τὰ ἔθνη τὸν λόγον τοῦ εὐαγγελίου, καὶ πιστεῦσαι.
+   - SBLGNT: πολλῆς δὲ ζητήσεως γενομένης ἀναστὰς Πέτρος εἶπεν πρὸς αὐτούς· Ἄνδρες ἀδελφοί, ὑμεῖς ἐπίστασθε ὅτι ἀφʼ ἡμερῶν ἀρχαίων ἐν ὑμῖν ἐξελέξατο ὁ θεὸς διὰ τοῦ στόματός μου ἀκοῦσαι τὰ ἔθνη τὸν λόγον τοῦ εὐαγγελίου καὶ πιστεῦσαι,
+   - Vulgate: Cum autem magna conquisitio fieret, surgens Petrus dixit ad eos: Viri fratres, vos scitis quoniam ab antiquis diebus Deus in nobis elegit, per os meum audire gentes verbum Evangelii et credere.
+   - BSB: After much discussion, Peter got up and said to them, “Brothers, you know that in the early days God made a choice among you that the Gentiles would hear from my lips the message of the gospel and believe.
+   - WEB: When there had been much discussion, Peter rose up and said to them, “Brothers, you know that a good while ago God made a choice among you that by my mouth the nations should hear the word of the Good News and believe.
+- **15:9** substitute (word): critical *οὐθὲν* ] RP *οὐδὲν*
+   - Latin: Nec ūllum inter nōs et eōs discrīmen fēcit, cum eōrum animōs fidē purgāsset.
+   - 1573: Nec vllum inter nos et eos discrimen fecit, cùm eorum animos fide purgasset.
+   - TR: καὶ οὐδὲν διέκρινε μεταξὺ ἡμῶν τε καὶ αὐτῶν, τῇ πίστει καθαρίσας τὰς καρδίας αὐτῶν.
+   - SBLGNT: καὶ οὐθὲν διέκρινεν μεταξὺ ἡμῶν τε καὶ αὐτῶν, τῇ πίστει καθαρίσας τὰς καρδίας αὐτῶν.
+   - Vulgate: et nihil discrevit inter nos et illos, fide purificans corda eorum.
+   - BSB: He made no distinction between us and them, for He cleansed their hearts by faith.
+   - WEB: He made no distinction between us and them, cleansing their hearts by faith.
+- **15:17** add (word): critical *ταῦτα* ] RP *+ πάντα*
+   - Latin: Ut hominum reliquī, et omnēs ā mē dēnōminātæ gentēs Dominum exquīrant, inquit hōrum omnium auctor.’
+   - 1573: vt hominum reliqui, et omnes à me denominatæ gentes, Dominum exquirant, inquit horum omnium author.
+   - TR: ὅπως ἂν ἐκζητήσωσιν οἱ κατάλοιποι τῶν ἀνθρώπων τὸν Κύριον, καὶ πάντα τὰ ἔθνη, ἐφ᾿ οὓς ἐπικέκληται τὸ ὄνομά μου ἐπ᾿ αὐτούς, λέγει Κύριος ὁ ποιῶν ταῦτα πάντα.
+   - SBLGNT: ὅπως ἂν ἐκζητήσωσιν οἱ κατάλοιποι τῶν ἀνθρώπων τὸν κύριον, καὶ πάντα τὰ ἔθνη ἐφʼ οὓς ἐπικέκληται τὸ ὄνομά μου ἐπʼ αὐτούς, λέγει κύριος ποιῶν ταῦτα
+   - Vulgate: ut requirant ceteri hominum Dominum, et omnes gentes super quas invocatum est nomen meum, dicit Dominus faciens hæc.
+   - BSB: so that the remnant of men may seek the Lord, and all the Gentiles who are called by My name, says the Lord who does these things
+   - WEB: that the rest of men may seek after the Lord: all the Gentiles who are called by my name, says the Lord, who does all these things.’
+- **15:22** substitute (word): critical *καλούμενον* ] RP *ἐπικαλούμενον*
+   - Latin: Tum vīsum est apostolīs et seniōribus, ūnā cum tōtā ecclēsiā, dēlēctōs ex sē virōs Antiochīam cum Paulō et Barnābā mittere, Jūdam cognōmine Barsabam, et Sīlam, virōs frātrum prīmāriōs,
+   - 1573: Tum visum est apostolis et senioribus, vnà cum tota ecclesia, delectos ex se viros Antiochiam cum Paulo et Barnaba mittere, Iudam cognomine Barsabam, et Silam, viros fratrum primarios,
+   - TR: Τότε ἔδοξε τοῖς ἀποστόλοις καὶ τοῖς πρεσβυτέροις σὺν ὅλῃ τῇ ἐκκλησίᾳ, ἐκλεξαμένους ἄνδρας ἐξ αὐτῶν πέμψαι εἰς Ἀντιόχειαν σὺν τῷ Παύλῳ καὶ Βαρνάβᾳ, Ἰούδαν τὸν ἐπικαλούμενον Βαρσαβᾶν, καὶ Σίλαν, ἄνδρας ἡγουμένους ἐν τοῖς ἀδελφοῖς,
+   - SBLGNT: Τότε ἔδοξε τοῖς ἀποστόλοις καὶ τοῖς πρεσβυτέροις σὺν ὅλῃ τῇ ἐκκλησίᾳ ἐκλεξαμένους ἄνδρας ἐξ αὐτῶν πέμψαι εἰς Ἀντιόχειαν σὺν τῷ Παύλῳ καὶ Βαρναβᾷ, Ἰούδαν τὸν καλούμενον Βαρσαββᾶν καὶ Σιλᾶν, ἄνδρας ἡγουμένους ἐν τοῖς ἀδελφοῖς,
+   - Vulgate: Tunc placuit Apostolis et senioribus cum omni ecclesia eligere viros ex eis, et mittere Antiochiam cum Paulo et Barnaba: Judam, qui cognominabatur Barsabas, et Silam, viros primos in fratribus:
+   - BSB: Then the apostles and elders, with the whole church, decided to select men from among them to send to Antioch with Paul and Barnabas. They chose Judas called Barsabbas and Silas, two leaders among the brothers,
+   - WEB: Then it seemed good to the apostles and the elders, with the whole assembly, to choose men out of their company, and send them to Antioch with Paul and Barnabas: Judas called Barsabbas, and Silas, chief men among the brothers.
+- **15:30** substitute (word): critical *κατῆλθον* ] RP *ἦλθον*
+   - Latin: Illī igitur dīmissī, vēnērunt Antiochīam: et coāctā multitūdine, trādidērunt epistulam.
+   - 1573: Illi igitur dimissi, venerunt Antiochiam: et coacta multitudine tradiderunt epistolam.
+   - TR: Οἱ μὲν οὖν ἀπολυθέντες ἦλθον εἰς Ἀντιόχειαν· καὶ συναγαγόντες τὸ πλῆθος, ἐπέδωκαν τὴν ἐπιστολήν.
+   - SBLGNT: Οἱ μὲν οὖν ἀπολυθέντες κατῆλθον εἰς Ἀντιόχειαν, καὶ συναγαγόντες τὸ πλῆθος ἐπέδωκαν τὴν ἐπιστολήν·
+   - Vulgate: Illi ergo dimissi, descenderunt Antiochiam: et congregata multitudine tradiderunt epistolam.
+   - BSB: So the men were sent off and went down to Antioch, where they assembled the congregation and delivered the letter.
+   - WEB: So, when they were sent off, they came to Antioch. Having gathered the multitude together, they delivered the letter.
+- **15:33** add (word): critical *ἀποστείλαντας αὐτούς* ] RP *+ ἀποστόλους*
+   - Latin: Deinde illīc aliquamdiū commorātī, ā frātribus amīcē ad apostolōs dīmissī sunt.
+   - 1573: Deinde illic aliquandiu commorati, à fratribus amicè ad apostolos dimissi sunt
+   - TR: Ποιήσαντες δὲ χρόνον, ἀπελύθησαν μετ᾿ εἰρήνης ἀπὸ τῶν ἀδελφῶν πρὸς τοὺς ἀποστόλους.
+   - SBLGNT: ποιήσαντες δὲ χρόνον ἀπελύθησαν μετʼ εἰρήνης ἀπὸ τῶν ἀδελφῶν πρὸς τοὺς ἀποστείλαντας αὐτούς.
+   - Vulgate: Facto autem ibi aliquanto tempore, dimissi sunt cum pace a fratribus ad eos qui miserant illos.
+   - BSB: After spending some time there, they were sent off by the brothers in peace to return to those who had sent them.
+   - WEB: After they had spent some time there, they were dismissed in peace from the brothers to the apostles.
+- **15:40** substitute (word): critical *κυρίου* ] RP *θεοῦ*
+   - Latin: Paulus, ēlēctō Sīlā, profectus est, dīvīnæ grātiæ commendātus ā frātribus:
+   - 1573: Paulus, electo Sila profectus est, diuinæ gratiæ commendatus à fratribus:
+   - TR: Παῦλος δὲ ἐπιλεξάμενος Σίλαν ἐξῆλθε, παραδοθεὶς τῇ χάριτι τοῦ Θεοῦ ὑπὸ τῶν ἀδελφῶν.
+   - SBLGNT: Παῦλος δὲ ἐπιλεξάμενος Σιλᾶν ἐξῆλθεν παραδοθεὶς τῇ χάριτι τοῦ κυρίου ὑπὸ τῶν ἀδελφῶν,
+   - Vulgate: Paulus vero, electo Sila, profectus est, traditus gratiæ Dei a fratribus.
+   - BSB: but Paul chose Silas and left, commended by the brothers to the grace of the Lord.
+   - WEB: but Paul chose Silas and went out, being commended by the brothers to the grace of God.
+- **16:1** add (word): critical *γυναικὸς* ] RP *+ τινος*
+   - Latin: Pervēnit autem Derbam et Lystram, et erat ibi discipulus quīdam, nōmine Tīmotheus, fēminæ cujusdam Jūdææ fīdentis fīlius, patre Græcō.
+   - 1573: Peruenit autem Derbam et Lystram, et erat ibi discipulus quidam nomine Timotheus, feminæ cuiusdam Iudææ fidentis filius, patre Græco.
+   - TR: Κατήντησε δὲ εἰς Δέρβην καὶ Λύστραν· καὶ ἰδού, μαθητής τις ἦν ἐκεῖ, ὀνόματι Τιμόθεος, υἱὸς γυναικός τινος Ἰουδαίας πιστῆς, πατρὸς δὲ Ἕλληνος·
+   - SBLGNT: Κατήντησεν δὲ καὶ εἰς Δέρβην καὶ εἰς Λύστραν. καὶ ἰδοὺ μαθητής τις ἦν ἐκεῖ ὀνόματι Τιμόθεος, υἱὸς γυναικὸς Ἰουδαίας πιστῆς, πατρὸς δὲ Ἕλληνος,
+   - Vulgate: Pervenit autem Derben et Lystram. Et ecce discipulus quidam erat ibi nomine Timotheus, filius mulieris Judææ fidelis, patre gentili.
+   - BSB: Paul came to Derbe and then to Lystra, where he found a disciple named Timothy, the son of a believing Jewish woman and a Greek father.
+   - WEB: He came to Derbe and Lystra; and behold, a certain disciple was there, named Timothy, the son of a Jewess who believed, but his father was a Greek.
+- **16:3** substitute (word): critical *ὅτι Ἕλλην ὁ πατὴρ αὐτοῦ* ] RP *τὸν πατέρα αὐτοῦ ὅτι Ἕλλην*
+   - Latin: voluit Paulus sēcum proficīscī: eumque cēpit, et circumcīdit propter eōs, quī erant in iīs locīs, Jūdæōs. Sciēbant enim omnēs, ejus patrem esse Græcum.
+   - 1573: voluit Paulus secum proficisci, eumque cepit et circumcidit, propter eos qui erant in ijs locis Iudæos. Sciebant enim omnes eius patrem esse Græcum.
+   - TR: Τοῦτον ἠθέλησεν ὁ Παῦλος σὺν αὐτῷ ἐξελθεῖν, καὶ λαβὼν περιέτεμεν αὐτόν, διὰ τοὺς Ἰουδαίους τοὺς ὄντας ἐν τοῖς τόποις ἐκείνοις· ᾔδεισαν γὰρ ἅπαντες τὸν πατέρα αὐτοῦ, ὅτι Ἕλλην ὑπῆρχεν.
+   - SBLGNT: τοῦτον ἠθέλησεν ὁ Παῦλος σὺν αὐτῷ ἐξελθεῖν, καὶ λαβὼν περιέτεμεν αὐτὸν διὰ τοὺς Ἰουδαίους τοὺς ὄντας ἐν τοῖς τόποις ἐκείνοις, ᾔδεισαν γὰρ ἅπαντες ὅτι Ἕλλην ὁ πατὴρ αὐτοῦ ὑπῆρχεν.
+   - Vulgate: Hunc voluit Paulus secum proficisci: et assumens circumcidit eum propter Judæos qui erant in illis locis. Sciebant enim omnes quod pater ejus erat gentilis.
+   - BSB: Paul wanted Timothy to accompany him, so he took him and circumcised him on account of the Jews in that area, for they all knew that his father was a Greek.
+   - WEB: Paul wanted to have him go out with him, and he took and circumcised him because of the Jews who were in those parts, for they all knew that his father was a Greek.
+- **16:6** substitute (word): critical *Διῆλθον* ] RP *Διελθόντες*
+   - Latin: Peragrātā autem Phrygiā et Galaticā regiōne, prohibitī ā Sānctō Spīritū verba facere in Asiā,
+   - 1573: Peragrata autem Phrygia et Galatica regione, prohibiti à sancto spiritu verba facere in Asia,
+   - TR: Διελθόντες δὲ τὴν Φρυγίαν καὶ τὴν Γαλατικὴν χώραν, κωλυθέντες ὑπὸ τοῦ ἁγίου πνεύματος λαλῆσαι τὸν λόγον ἐν τῇ Ἀσίᾳ,
+   - SBLGNT: Διῆλθον δὲ τὴν Φρυγίαν καὶ Γαλατικὴν χώραν, κωλυθέντες ὑπὸ τοῦ ἁγίου πνεύματος λαλῆσαι τὸν λόγον ἐν τῇ Ἀσίᾳ,
+   - Vulgate: Transeuntes autem Phrygiam et Galatiæ regionem, vetati sunt a Spiritu Sancto loqui verbum Dei in Asia.
+   - BSB: After the Holy Spirit had prevented them from speaking the word in the province of Asia, they traveled through the region of Phrygia and Galatia.
+   - WEB: When they had gone through the region of Phrygia and Galatia, they were forbidden by the Holy Spirit to speak the word in Asia.
+- **16:7** omit (word): critical *Ἰησοῦ* ] RP *–*
+   - Latin: in Mȳsiam profectī, cōnābantur per Bīthȳniam iter facere: sed nōn sīvit eōs Spīritus.
+   - 1573: in Mysiam profecti, conabantur per Bithyniam iter facere: sed non siuit eos spiritus.
+   - TR: ἐλθόντες κατὰ τὴν Μυσίαν ἐπείραζον κατὰ τὴν Βιθυνίαν πορεύεσθαι· καὶ οὐκ εἴασεν αὐτοὺς τὸ πνεῦμα·
+   - SBLGNT: ἐλθόντες δὲ κατὰ τὴν Μυσίαν ἐπείραζον εἰς τὴν Βιθυνίαν πορευθῆναι καὶ οὐκ εἴασεν αὐτοὺς τὸ πνεῦμα Ἰησοῦ·
+   - Vulgate: Cum venissent autem in Mysiam, tentabant ire in Bithyniam: et non permisit eos Spiritus Jesu.
+   - BSB: And when they came to the border of Mysia, they tried to enter Bithynia, but the Spirit of Jesus would not permit them.
+   - WEB: When they had come opposite Mysia, they tried to go into Bithynia, but the Spirit didn’t allow them.
+- **16:10** substitute (word): critical *θεὸς* ] RP *κύριος*
+   - Latin: Id vīsum simulac ille vīdit, in Macedoniam contendere cupīvimus, affirmantēs, ā Dominō nōs advocārī, ad illōs in euangeliō īnstituendōs.
+   - 1573: Id visum simulac ille vidit, in Macedoniam contendere cupiuimus, affirmantes à Domino nos aduocari, ad illos in Euangelio instituendos.
+   - TR: Ὡς δὲ τὸ ὅραμα εἶδεν, εὐθέως ἐζητήσαμεν ἐξελθεῖν εἰς τὴν Μακεδονίαν, συμβιβάζοντες ὅτι προσκέκληται ἡμᾶς ὁ Κύριος εὐαγγελίσασθαι αὐτούς.
+   - SBLGNT: ὡς δὲ τὸ ὅραμα εἶδεν, εὐθέως ἐζητήσαμεν ἐξελθεῖν εἰς Μακεδονίαν, συμβιβάζοντες ὅτι προσκέκληται ἡμᾶς ὁ θεὸς εὐαγγελίσασθαι αὐτούς.
+   - Vulgate: Ut autem visum vidit, statim quæsivimus proficisci in Macedoniam, certi facti quod vocasset nos Deus evangelizare eis.
+   - BSB: As soon as Paul had seen the vision, we got ready to leave for Macedonia, concluding that God had called us to preach the gospel to them.
+   - WEB: When he had seen the vision, immediately we sought to go out to Macedonia, concluding that the Lord had called us to preach the Good News to them.
+- **16:12** substitute (word): critical *κἀκεῖθεν* ] RP *ἐκεῖθέν τε*
+   - Latin: Inde Philippōs, quæ urbs est prīmæ partis Macedoniæ colōnia. In eā urbe nōs diēs aliquot agentēs:
+   - 1573: inde Philippos, quæ vrbs est primæ partis Macedoniæ colonia. In ea vrbe nos dies aliquot agentes,
+   - TR: ἐκεῖθέν τε εἰς Φιλίππους, ἥτις ἐστὶ πρώτη τῆς μερίδος τῆς Μακεδονίας πόλις, κολωνία· ἦμεν δὲ ἐν ταύτῃ τῇ πόλει διατρίβοντες ἡμέρας τινάς.
+   - SBLGNT: κἀκεῖθεν εἰς Φιλίππους, ἥτις ἐστὶν πρώτη τῆς μερίδος Μακεδονίας πόλις, κολωνία. ἦμεν δὲ ἐν ταύτῃ τῇ πόλει διατρίβοντες ἡμέρας τινάς.
+   - Vulgate: et inde Philippos, quæ est prima partis Macedoniæ civitas, colonia. Eramus autem in hac urbe diebus aliquot, conferentes.
+   - BSB: From there we went to the Roman colony of Philippi, the leading city of that district of Macedonia. And we stayed there several days.
+   - WEB: and from there to Philippi, which is a city of Macedonia, the foremost of the district, a Roman colony. We were staying some days in this city.
+- **16:13** substitute (word): critical *πύλης* ] RP *πόλεως*; substitute (word): critical *ἐνομίζομεν προσευχὴν* ] RP *ἐνομίζετο προσευχὴ*
+   - Latin: diē Sabbatō exiimus extrā urbem ad fluvium, ubi solēbat fierī supplicātiō: et ibi sedentēs, alloquēbāmur fēminās, quæ convēnerant.
+   - 1573: die Sabbato exijmus extra vrbem ad fluuium, vbi solebat fieri supplicatio: et ibi sedentes, alloquebamur fœminas, quæ conuenerant.
+   - TR: Τῇ τε ἡμέρᾳ τῶν σαββάτων ἐξήλθομεν ἔξω τῆς πόλεως παρὰ ποταμόν, οὗ ἐνομίζετο προσευχὴ εἶναι, καὶ καθίσαντες ἐλαλοῦμεν ταῖς συνελθούσαις γυναιξί.
+   - SBLGNT: τῇ τε ἡμέρᾳ τῶν σαββάτων ἐξήλθομεν ἔξω τῆς πύλης παρὰ ποταμὸν οὗ ἐνομίζομεν προσευχὴν εἶναι, καὶ καθίσαντες ἐλαλοῦμεν ταῖς συνελθούσαις γυναιξίν.
+   - Vulgate: Die autem sabbatorum egressi sumus foras portam juxta flumen, ubi videbatur oratio esse: et sedentes loquebamur mulieribus quæ convenerant.
+   - BSB: On the Sabbath we went outside the city gate along the river, where it was customary to find a place of prayer. After sitting down, we spoke to the women who had gathered there.
+   - WEB: On the Sabbath day we went outside of the city by a riverside, where we supposed there was a place of prayer, and we sat down and spoke to the women who had come together.
+- **16:15** substitute (word): critical *μένετε* ] RP *μείνατε*
+   - Latin: Ea, postquam cum suā familiā baptīzāta est, rogāvit, ut, sī sē Dominō fidēlem esse jūdicāverāmus, in suās ædēs dīverterēmur: coēgitque nōs.
+   - 1573: Ea postquam cum sua familia baptizata est, rogauit vt si se Domino fidelem esse iudicaueramus, in suas ædes diuerteremus, coegitque nos.
+   - TR: Ὡς δὲ ἐβαπτίσθη, καὶ ὁ οἶκος αὐτῆς, παρεκάλεσε λέγουσα, Εἰ κεκρίκατέ με πιστὴν τῷ Κυρίῳ εἶναι, εἰσελθόντες εἰς τὸν οἶκόν μου, μείνατε. Καὶ παρεβιάσατο ἡμᾶς.
+   - SBLGNT: ὡς δὲ ἐβαπτίσθη καὶ ὁ οἶκος αὐτῆς, παρεκάλεσεν λέγουσα· Εἰ κεκρίκατέ με πιστὴν τῷ κυρίῳ εἶναι, εἰσελθόντες εἰς τὸν οἶκόν μου μένετε· καὶ παρεβιάσατο ἡμᾶς.
+   - Vulgate: Cum autem baptizata esset, et domus ejus, deprecata est, dicens: Si judicastis me fidelem Domino esse, introite in domum meam, et manete. Et coëgit nos.
+   - BSB: And when she and her household had been baptized, she urged us, “If you consider me a believer in the Lord, come and stay at my house.” And she persuaded us.
+   - WEB: When she and her household were baptized, she begged us, saying, “If you have judged me to be faithful to the Lord, come into my house and stay.” So she persuaded us.
+- **16:16** substitute (word): critical *ὑπαντῆσαι* ] RP *ἀπαντῆσαι*
+   - Latin: Accidit autem, ut, nōbīs ad precēs euntibus, ancilla quædam Pȳthōnis prædita spīritū occurreret, quæ suīs dominīs magnum quæstum conciliābat dīvīnandō.
+   - 1573: Accidit autem, vt nobis ad preces euntibus, ancilla quædam Pythonis prædita spiritu occurreret, quæ suis dominis magnum quæstum conciliabat diuinando.
+   - TR: Ἐγένετο δὲ πορευομένων ἡμῶν εἰς προσευχήν, παιδίσκην τινὰ ἔχουσαν πνεῦμα Πύθωνος ἀπαντῆσαι ἡμῖν, ἥτις ἐργασίαν πολλὴν παρεῖχε τοῖς κυρίοις αὐτῆς, μαντευομένη.
+   - SBLGNT: Ἐγένετο δὲ πορευομένων ἡμῶν εἰς τὴν προσευχὴν παιδίσκην τινὰ ἔχουσαν πνεῦμα πύθωνα ὑπαντῆσαι ἡμῖν, ἥτις ἐργασίαν πολλὴν παρεῖχεν τοῖς κυρίοις αὐτῆς μαντευομένη·
+   - Vulgate: Factum est autem euntibus nobis ad orationem, puellam quamdam habentem spiritum pythonem obviare nobis, quæ quæstum magnum præstabat dominis suis divinando.
+   - BSB: One day as we were going to the place of prayer, we were met by a slave girl with a spirit of divination, who earned a large income for her masters by fortune-telling.
+   - WEB: As we were going to prayer, a certain girl having a spirit of divination met us, who brought her masters much gain by fortune telling.
+- **16:24** substitute (word): critical *λαβὼν* ] RP *εἰληφώς*
+   - Latin: Is, acceptō eō mandātō, eōs in penitissimum carcerem conjēcit, et eōrum pedēs in numellam compēgit.
+   - 1573: Is accepto eo mandato, eos in penitissimum carcerem coniecit, et eorum pedes in numellam compegit.
+   - TR: ὅς, παραγγελίαν τοιαύτην εἰληφώς, ἔβαλεν αὐτοὺς εἰς τὴν ἐσωτέραν φυλακήν, καὶ τοὺς πόδας αὐτῶν ἠσφαλίσατο εἰς τὸ ξύλον.
+   - SBLGNT: ὃς παραγγελίαν τοιαύτην λαβὼν ἔβαλεν αὐτοὺς εἰς τὴν ἐσωτέραν φυλακὴν καὶ τοὺς πόδας ἠσφαλίσατο αὐτῶν εἰς τὸ ξύλον.
+   - Vulgate: Qui cum tale præceptum accepisset, misit eos in interiorem carcerem, et pedes eorum strinxit ligno.
+   - BSB: On receiving this order, he placed them in the inner cell and fastened their feet in the stocks.
+   - WEB: Having received such a command, he threw them into the inner prison and secured their feet in the stocks.
+- **16:31** add (word): critical *Ἰησοῦν* ] RP *+ χριστόν*
+   - Latin: Et illī dīxērunt: “Crēde in Dominum Jēsum, et salvus eris tū, tuaque familia.”
+   - 1573: Et illi dixerunt: Crede in Dominum Iesum, et saluus eris tu tuaque familia:
+   - TR: Οἱ δὲ εἶπον, Πίστευσον ἐπὶ τὸν Κύριον Ἰησοῦν Χριστόν, καὶ σωθήσῃ σὺ καὶ ὁ οἶκός σου.
+   - SBLGNT: οἱ δὲ εἶπαν· Πίστευσον ἐπὶ τὸν κύριον Ἰησοῦν, καὶ σωθήσῃ σὺ καὶ ὁ οἶκός σου.
+   - Vulgate: At illi dixerunt: Crede in Dominum Jesum, et salvus eris tu, et domus tua.
+   - BSB: They replied, “Believe in the Lord Jesus and you will be saved, you and your household.”
+   - WEB: They said, “Believe in the Lord Jesus Christ, and you will be saved, you and your household.”
+- **16:38** substitute (word): critical *ἀπήγγειλαν* ] RP *Ἀνήγγειλαν*
+   - Latin: Hæc verba līctōrēs prætōribus retulērunt, et illī territī, dum Rōmānōs esse audiunt:
+   - 1573: Hæc verba lictores prætoribus retulerunt: et illi territi, dum Romanos esse audiunt:
+   - TR: Ἀνήγγειλαν δὲ τοῖς στρατηγοῖς οἱ ῥαβδοῦχοι τὰ ῥήματα ταῦτα· καὶ ἐφοβήθησαν ἀκούσαντες ὅτι Ῥωμαῖοί εἰσι,
+   - SBLGNT: ἀπήγγειλαν δὲ τοῖς στρατηγοῖς οἱ ῥαβδοῦχοι τὰ ῥήματα ταῦτα· ἐφοβήθησαν δὲ ἀκούσαντες ὅτι Ῥωμαῖοί εἰσιν,
+   - Vulgate: et ipsi nos ejiciant. Nuntiaverunt autem magistratibus lictores verba hæc. Timueruntque audito quod Romani essent:
+   - BSB: So the officers relayed this message to the magistrates, who were alarmed to hear that Paul and Silas were Roman citizens.
+   - WEB: The sergeants reported these words to the magistrates, and they were afraid when they heard that they were Romans,
+- **16:39** substitute (word): critical *ἀπελθεῖν ἀπὸ* ] RP *ἐξελθεῖν*
+   - Latin: īvērunt eōs ōrātum, et ēductōs, ut ex urbe exīrent, rogārunt.
+   - 1573: iuerunt eos oratum: et eductos, vt ex vrbe exirent, rogarunt.
+   - TR: καὶ ἐλθόντες παρεκάλεσαν αὐτούς, καὶ ἐξαγαγόντες ἠρώτων ἐξελθεῖν τῆς πόλεως.
+   - SBLGNT: καὶ ἐλθόντες παρεκάλεσαν αὐτούς, καὶ ἐξαγαγόντες ἠρώτων ἀπελθεῖν ἀπὸ τῆς πόλεως.
+   - Vulgate: et venientes deprecati sunt eos, et educentes rogabant ut egrederentur de urbe.
+   - BSB: They came to appease them and led them out, requesting that they leave the city.
+   - WEB: and they came and begged them. When they had brought them out, they asked them to depart from the city.
+- **17:5** substitute (word): critical *ζηλώσαντες δὲ οἱ Ἰουδαῖοι καὶ προσλαβόμενοι* ] RP *Προσλαβόμενοι δὲ οἱ Ἰουδαῖοι οἱ ἀπειθοῦντες*; substitute (word): critical *προαγαγεῖν* ] RP *ἀγαγεῖν*
+   - Latin: At Jūdæī, quibus persuāsum nōn erat, per æmulātiōnem assūmptīs circumforāneīs quibusdam hominibus nēquam, urbem excitātō tumultū perturbāre: et Jāsonis domum aggressī, eōs in pūblicum prōdūcere cōnārī:
+   - 1573: At Iudæi, quibus persuasum non erat, per æmulationem assumptis circumforaneis quibusdam, hominibus nequam, vrbem excitato tumultu perturbare: et Iasonis domum aggressi, eos in publicum producere conari:
+   - TR: Ζηλώσαντες δὲ οἱ ἀπειθοῦντες Ἰουδαῖοι, καὶ προσλαβόμενοι τῶν ἀγοραίων τινὰς ἄνδρας πονηρούς, καὶ ὀχλοποιήσαντες, ἐθορύβουν τὴν πόλιν· ἐπιστάντες τε τῇ οἰκίᾳ Ἰάσονος, ἐζήτουν αὐτοὺς ἀγαγεῖν εἰς τὸν δῆμον.
+   - SBLGNT: ζηλώσαντες δὲ οἱ Ἰουδαῖοι καὶ προσλαβόμενοι τῶν ἀγοραίων ἄνδρας τινὰς πονηροὺς καὶ ὀχλοποιήσαντες ἐθορύβουν τὴν πόλιν, καὶ ἐπιστάντες τῇ οἰκίᾳ Ἰάσονος ἐζήτουν αὐτοὺς προαγαγεῖν εἰς τὸν δῆμον·
+   - Vulgate: Zelantes autem Judæi, assumentesque de vulgo viros quosdam malos, et turba facta, concitaverunt civitatem: et assistentes domui Jasonis quærebant eos producere in populum.
+   - BSB: The Jews, however, became jealous. So they brought in some troublemakers from the marketplace, formed a mob, and sent the city into an uproar. They raided Jason’s house in search of Paul and Silas, hoping to bring them out to the people.
+   - WEB: But the unpersuaded Jews took along some wicked men from the marketplace and gathering a crowd, set the city in an uproar. Assaulting the house of Jason, they sought to bring them out to the people.
+- **17:13** omit (word): critical *καὶ ταράσσοντες* ] RP *–*
+   - Latin: Ut autem cognōvērunt Thessalonīcēnsēs Jūdæī, etiam Berrhœæ explicātam esse ā Paulō dīvīnam doctrīnam, vēnērunt etiam illūc, plēbem concitātūrī.
+   - 1573: Vt autem cognouerunt Thessalonicenses Iudæi, etiam Berrœæ explicatam esse à Paulo diuinam doctrinam, venerunt etiam illuc, plebem concitaturi.
+   - TR: Ὡς δὲ ἔγνωσαν οἱ ἀπὸ τῆς Θεσσαλονίκης Ἰουδαῖοι ὅτι καὶ ἐν τῇ Βεροίᾳ κατηγγέλη ὑπὸ τοῦ Παύλου ὁ λόγος τοῦ Θεοῦ, ἦλθον κἀκεῖ σαλεύοντες τοὺς ὄχλους.
+   - SBLGNT: ὡς δὲ ἔγνωσαν οἱ ἀπὸ τῆς Θεσσαλονίκης Ἰουδαῖοι ὅτι καὶ ἐν τῇ Βεροίᾳ κατηγγέλη ὑπὸ τοῦ Παύλου ὁ λόγος τοῦ θεοῦ, ἦλθον κἀκεῖ σαλεύοντες καὶ ταράσσοντες τοὺς ὄχλους.
+   - Vulgate: Cum autem cognovissent in Thessalonica Judæi quia et Berœæ prædicatum est a Paulo verbum Dei, venerunt et illuc commoventes, et turbantes multitudinem.
+   - BSB: But when the Jews from Thessalonica learned that Paul was also proclaiming the word of God in Berea, they went there themselves to incite and agitate the crowds.
+   - WEB: But when the Jews of Thessalonica had knowledge that the word of God was proclaimed by Paul at Beroea also, they came there likewise, agitating the multitudes.
+- **17:14** substitute (word): critical *ὑπέμεινάν τε* ] RP *ὑπέμενον δὲ*
+   - Latin: Tum frātrēs Paulum cōnfestim ēmīsērunt, ut ad mare sē cōnferret: et ibi Sīlās et Tīmotheus remānsērunt.
+   - 1573: Tum fratres Paulum confestim emiserunt, vt ad mare se conferret: et ibi Silas et Timotheus remanserunt.
+   - TR: Εὐθέως δὲ τότε τὸν Παῦλον ἐξαπέστειλαν οἱ ἀδελφοὶ πορεύεσθαι ὡς ἐπὶ τὴν θάλασσαν· ὑπέμενον δὲ ὅ τε Σίλας καὶ ὁ Τιμόθεος ἐκεῖ.
+   - SBLGNT: εὐθέως δὲ τότε τὸν Παῦλον ἐξαπέστειλαν οἱ ἀδελφοὶ πορεύεσθαι ἕως ἐπὶ τὴν θάλασσαν· ὑπέμεινάν τε ὅ τε Σιλᾶς καὶ ὁ Τιμόθεος ἐκεῖ.
+   - Vulgate: Statimque tunc Paulum dimiserunt fratres, ut iret usque ad mare: Silas autem et Timotheus remanserunt ibi.
+   - BSB: The brothers immediately sent Paul to the coast, but Silas and Timothy remained in Berea.
+   - WEB: Then the brothers immediately sent out Paul to go as far as to the sea, and Silas and Timothy still stayed there.
+- **17:20** substitute (word): critical *τίνα θέλει* ] RP *τί ἂν θέλοι*
+   - Latin: Nam peregrīna quædam nostrīs auribus affers: itaque velimus cognōscere, quid ista sibi velint.”
+   - 1573: Nam peregrina quædam nostris auribus affers: Itaque velimus cognoscere, quid ista sibi velint.
+   - TR: Ξενίζοντα γάρ τινα εἰσφέρεις εἰς τὰς ἀκοὰς ἡμῶν· βουλόμεθα οὖν γνῶναι, τί ἂν θέλοι ταῦτα εἶναι —
+   - SBLGNT: ξενίζοντα γάρ τινα εἰσφέρεις εἰς τὰς ἀκοὰς ἡμῶν· βουλόμεθα οὖν γνῶναι τίνα θέλει ταῦτα εἶναι.
+   - Vulgate: nova enim quædam infers auribus nostris: volumus ergo scire quidnam velint hæc esse.
+   - BSB: For you are bringing some strange notions to our ears, and we want to know what they mean.”
+   - WEB: For you bring certain strange things to our ears. We want to know therefore what these things mean.”
+- **17:23** substitute (word): critical *ὃ* ] RP *Ὃν*
+   - Latin: Cum enim præteriēns vestra spectārem nūmina, invēnī etiam āram, in quā īnscrīptum erat: ‘Ignōtō Deō.’ Quem igitur vōs ignōrantēs venerāminī, eum ego vōbīs nūntiō.
+   - 1573: Cùm enim præteriens, vestra spectarem numina, inueni etiam aram, in qua inscriptum erat: Ignoto Deo. Quem igitur vos ignorantes veneramini, eum ego vobis nuncio.
+   - TR: Διερχόμενος γὰρ καὶ ἀναθεωρῶν τὰ σεβάσματα ὑμῶν, εὗρον καὶ βωμὸν ἐν ᾧ ἐπεγέγραπτο, Ἀγνώστῳ Θεῷ. Ὃν οὖν ἀγνοοῦντες εὐσεβεῖτε, τοῦτον ἐγὼ καταγγέλλω ὑμῖν.
+   - SBLGNT: διερχόμενος γὰρ καὶ ἀναθεωρῶν τὰ σεβάσματα ὑμῶν εὗρον καὶ βωμὸν ἐν ᾧ ἐπεγέγραπτο· Ἀγνώστῳ θεῷ. ὃ οὖν ἀγνοοῦντες εὐσεβεῖτε, τοῦτο ἐγὼ καταγγέλλω ὑμῖν.
+   - Vulgate: Præteriens enim, et videns simulacra vestra, inveni et aram in qua scriptum erat: Ignoto Deo. Quod ergo ignorantes colitis, hoc ego annuntio vobis.
+   - BSB: For as I walked around and examined your objects of worship, I even found an altar with this inscription: TO AN UNKNOWN GOD. Therefore what you worship as something unknown, I now proclaim to you.
+   - WEB: For as I passed along and observed the objects of your worship, I also found an altar with this inscription: ‘TO AN UNKNOWN GOD.’ What therefore you worship in ignorance, I announce to you.
+- **17:26** add (word): critical *ἑνὸς* ] RP *+ αἵματος*; substitute (word): critical *παντὸς προσώπου* ] RP *πᾶν τὸ πρόσωπον*
+   - Latin: Cumque creāverit ex ūnīus sanguine ūniversum genus hominum, ut in omnī terræ solō habitārent, præfīnītīs eōrum statīs temporibus, et inhabitandī terminīs:
+   - 1573: cumque creauerit ex vnius sanguine vniuersum genus hominum, vt in omni terræ solo habitarent, præfinitis eorum statis temporibus, et inhabitandi terminis,
+   - TR: ἐποίησέ τε ἐξ ἑνὸς αἵματος πᾶν ἔθνος ἀνθρώπων, κατοικεῖν ἐπὶ πᾶν τὸ πρόσωπον τῆς γῆς, ὁρίσας προτεταγμένους καιροὺς καὶ τὰς ὁροθεσίας τῆς κατοικίας αὐτῶν·
+   - SBLGNT: ἐποίησέν τε ἐξ ἑνὸς πᾶν ἔθνος ἀνθρώπων κατοικεῖν ἐπὶ παντὸς προσώπου τῆς γῆς, ὁρίσας προστεταγμένους καιροὺς καὶ τὰς ὁροθεσίας τῆς κατοικίας αὐτῶν,
+   - Vulgate: fecitque ex uno omne genus hominum inhabitare super universam faciem terræ, definiens statuta tempora, et terminos habitationis eorum,
+   - BSB: From one man He made every nation of men, that they should inhabit the whole earth; and He determined their appointed times and the boundaries of their lands.
+   - WEB: He made from one blood every nation of men to dwell on all the surface of the earth, having determined appointed seasons and the boundaries of their dwellings,
+- **17:27** substitute (word): critical *θεὸν* ] RP *κύριον*
+   - Latin: Ut Dominum quærerent, sī forte eum contrectārent ac invenīrent; quamquam nōn procul ab ūnōquōque nostrum remōtum,
+   - 1573: vt Dominum quærerent, si fortè eum contrectarent, ac inuenirent: quanquam non procul ab vnoquoque nostrum remotum,
+   - TR: ζητεῖν τὸν Κύριον, εἰ ἄρα γε ψηλαφήσειαν αὐτὸν καὶ εὕροιεν, καίτοιγε οὐ μακρὰν ἀπὸ ἑνὸς ἑκάστου ἡμῶν ὑπάρχοντα.
+   - SBLGNT: ζητεῖν τὸν θεὸν εἰ ἄρα γε ψηλαφήσειαν αὐτὸν καὶ εὕροιεν, καί γε οὐ μακρὰν ἀπὸ ἑνὸς ἑκάστου ἡμῶν ὑπάρχοντα.
+   - Vulgate: quærere Deum si forte attrectent eum, aut inveniant, quamvis non longe sit ab unoquoque nostrum.
+   - BSB: God intended that they would seek Him and perhaps reach out for Him and find Him, though He is not far from each one of us.
+   - WEB: that they should seek the Lord, if perhaps they might reach out for him and find him, though he is not far from each one of us.
+- **17:30** substitute (word): critical *πάντας* ] RP *πᾶσιν*
+   - Latin: Igitur, prætermissīs ignōrantiæ temporibus, Deus nunc omnibus ubīque hominibus dēnūntiat, ut ad frūgem redeant.
+   - 1573: Igitur prætermissis ignorantiæ temporibus, Deus nunc omnibus vbique hominibus denunciat, vt ad frugem redeant.
+   - TR: Τοὺς μὲν οὖν χρόνους τῆς ἀγνοίας ὑπεριδὼν ὁ Θεός, τὰ νῦν παραγγέλλει τοῖς ἀνθρώποις πᾶσι πανταχοῦ μετανοεῖν·
+   - SBLGNT: τοὺς μὲν οὖν χρόνους τῆς ἀγνοίας ὑπεριδὼν ὁ θεὸς τὰ νῦν παραγγέλλει τοῖς ἀνθρώποις πάντας πανταχοῦ μετανοεῖν,
+   - Vulgate: Et tempora quidem hujus ignorantiæ despiciens Deus, nunc annuntiat hominibus ut omnes ubique pœnitentiam agant,
+   - BSB: Although God overlooked the ignorance of earlier times, He now commands all people everywhere to repent.
+   - WEB: The times of ignorance therefore God overlooked. But now he commands that all people everywhere should repent,
+- **17:31** substitute (word): critical *καθότι* ] RP *διότι*
+   - Latin: Statuit enim diem, in quō orbem ex æquō jūdicātūrus est per virum, per quem dēcrēvit: quem dum ex mortuīs in vītam revocāvit, fidem exhibuit omnibus.”
+   - 1573: Statuit enim diem, in quo orbem ex æquo iudicaturus est, per virum per quem decreuit: quem dum ex mortuis in vitam reuocauit, fidem exhibuit omnibus.
+   - TR: διότι ἔστησεν ἡμέραν, ἐν ᾗ μέλλει κρίνειν τὴν οἰκουμένην ἐν δικαιοσύνῃ, ἐν ἀνδρὶ ᾧ ὥρισε, πίστιν παρασχὼν πᾶσιν, ἀναστήσας αὐτὸν ἐκ νεκρῶν.
+   - SBLGNT: καθότι ἔστησεν ἡμέραν ἐν ᾗ μέλλει κρίνειν τὴν οἰκουμένην ἐν δικαιοσύνῃ ἐν ἀνδρὶ ᾧ ὥρισεν, πίστιν παρασχὼν πᾶσιν ἀναστήσας αὐτὸν ἐκ νεκρῶν.
+   - Vulgate: eo quod statuit diem in quo judicaturus est orbem in æquitate, in viro in quo statuit, fidem præbens omnibus, suscitans eum a mortuis.
+   - BSB: For He has set a day when He will judge the world with justice by the Man He has appointed. He has given proof of this to everyone by raising Him from the dead.”
+   - WEB: because he has appointed a day in which he will judge the world in righteousness by the man whom he has ordained; of which he has given assurance to all men, in that he has raised him from the dead.”
+- **18:3** substitute (word): critical *τῇ τέχνῃ* ] RP *τὴν τέχνην*
+   - Latin: convēnit eōs: et quia ejusdem artis erat, mānsit apud eōs, et operābātur: erant enim arte tentōriōrum opificēs.
+   - 1573: conuenit eos: et quia eiusdem artis erat, mansit apud eos, et operabatur: erant enim arte tentoriorum opifices.
+   - TR: καὶ διὰ τὸ ὁμότεχνον εἶναι, ἔμενε παρ᾿ αὐτοῖς καὶ εἰργάζετο· ἦσαν γὰρ σκηνοποιοὶ τὴν τέχνην.
+   - SBLGNT: καὶ διὰ τὸ ὁμότεχνον εἶναι ἔμενεν παρʼ αὐτοῖς καὶ ἠργάζετο, ἦσαν γὰρ σκηνοποιοὶ τῇ τέχνῃ.
+   - Vulgate: Et quia ejusdem erat artis, manebat apud eos, et operabatur. (Erant autem scenofactoriæ artis.)
+   - BSB: and he stayed and worked with them because they were tentmakers by trade, just as he was.
+   - WEB: and because he practiced the same trade, he lived with them and worked, for by trade they were tent makers.
+- **18:5** substitute (word): critical *λόγῳ* ] RP *πνεύματι*; omit (word): critical *εἶναι* ] RP *–*
+   - Latin: Ut autem dēscendērunt ex Macedoniā Sīlās et Tīmotheus, Paulus dīvīnō īnstīnctū afflātus, Chrīstum Jēsum Jūdæīs testificābātur.
+   - 1573: Vt autem descenderunt ex Macedonia Silas et Timotheus, Paulus diuino instinctu afflatus, Christum Iesum Iudæis testificabatur.
+   - TR: Ὡς δὲ κατῆλθον ἀπὸ τῆς Μακεδονίας ὅ τε Σίλας καὶ ὁ Τιμόθεος, συνείχετο τῷ πνεύματι ὁ Παῦλος, διαμαρτυρόμενος τοῖς Ἰουδαίοις τὸν Χριστὸν Ἰησοῦν.
+   - SBLGNT: Ὡς δὲ κατῆλθον ἀπὸ τῆς Μακεδονίας ὅ τε Σιλᾶς καὶ ὁ Τιμόθεος, συνείχετο τῷ λόγῳ ὁ Παῦλος, διαμαρτυρόμενος τοῖς Ἰουδαίοις εἶναι τὸν χριστὸν Ἰησοῦν.
+   - Vulgate: Cum venissent autem de Macedonia Silas et Timotheus, instabat verbo Paulus, testificans Judæis esse Christum Jesum.
+   - BSB: And when Silas and Timothy came down from Macedonia, Paul devoted himself fully to the word, testifying to the Jews that Jesus is the Christ.
+   - WEB: When Silas and Timothy came down from Macedonia, Paul was compelled by the Spirit, testifying to the Jews that Jesus was the Christ.
+- **18:12** substitute (word): critical *ἀνθυπάτου ὄντος* ] RP *ἀνθυπατεύοντος*
+   - Latin: Jūdæī, Galliōne Achāiæ prōcōnsule, Paulum ūniversī adortī ad tribūnal perdūxērunt;
+   - 1573: Iudæi, Gallione Achaiæ proconsule, Paulum vniuersi adorti, ad tribunal perduxerunt,
+   - TR: Γαλλίωνος δὲ ἀνθυπατεύοντος τῆς Ἀχαΐας, κατεπέστησαν ὁμοθυμαδὸν οἱ Ἰουδαῖοι τῷ Παύλῳ, καὶ ἤγαγον αὐτὸν ἐπὶ τὸ βῆμα,
+   - SBLGNT: Γαλλίωνος δὲ ἀνθυπάτου ὄντος τῆς Ἀχαΐας κατεπέστησαν ὁμοθυμαδὸν οἱ Ἰουδαῖοι τῷ Παύλῳ καὶ ἤγαγον αὐτὸν ἐπὶ τὸ βῆμα,
+   - Vulgate: Gallione autem proconsule Achaiæ, insurrexerunt uno animo Judæi in Paulum, et adduxerunt eum ad tribunal,
+   - BSB: While Gallio was proconsul of Achaia, the Jews coordinated an attack on Paul and brought him before the judgment seat.
+   - WEB: But when Gallio was proconsul of Achaia, the Jews with one accord rose up against Paul and brought him before the judgment seat,
+- **18:20** add (word): critical *μεῖναι* ] RP *+ παρʼ αὐτοῖς*
+   - Latin: Ac iīs, ut apud sē diūtius manēret, rogantibus nōn concessit:
+   - 1573: Ac eis vt apud se diutius maneret rogantibus, non concessit,
+   - TR: Ἐρωτώντων δὲ αὐτῶν ἐπὶ πλείονα χρόνον μεῖναι παρ᾿ αὐτοῖς, οὐκ ἐπένευσεν·
+   - SBLGNT: ἐρωτώντων δὲ αὐτῶν ἐπὶ πλείονα χρόνον μεῖναι οὐκ ἐπένευσεν,
+   - Vulgate: Rogantibus autem eis ut ampliori tempore maneret, non consensit,
+   - BSB: When they asked him to stay for a while longer, he declined.
+   - WEB: When they asked him to stay with them a longer time, he declined;
+- **18:25** substitute (word): critical *Ἰησοῦ* ] RP *κυρίου*
+   - Latin: Is erat Dominī īnstitūtiōne initiātus, et animō fervēns loquēbātur, ac dīligenter dē Dominō docēbat, sōlum Jōhannis baptisma intellegēns.
+   - 1573: Is erat Domini institutione initiatus, et animo feruens loquebatur, ac diligenter de Domino docebat, solùm Iohannis baptisma intelligens.
+   - TR: Οὗτος ἦν κατηχημένος τὴν ὁδὸν τοῦ Κυρίου, καὶ ζέων τῷ πνεύματι ἐλάλει καὶ ἐδίδασκεν ἀκριβῶς τὰ περὶ τοῦ Κυρίου, ἐπιστάμενος μόνον τὸ βάπτισμα Ἰωάννου·
+   - SBLGNT: οὗτος ἦν κατηχημένος τὴν ὁδὸν τοῦ κυρίου, καὶ ζέων τῷ πνεύματι ἐλάλει καὶ ἐδίδασκεν ἀκριβῶς τὰ περὶ τοῦ Ἰησοῦ, ἐπιστάμενος μόνον τὸ βάπτισμα Ἰωάννου.
+   - Vulgate: Hic erat edoctus viam Domini: et fervens spiritu loquebatur, et docebat diligenter ea quæ sunt Jesu, sciens tantum baptisma Joannis.
+   - BSB: He had been instructed in the way of the Lord and was fervent in spirit. He spoke and taught accurately about Jesus, though he knew only the baptism of John.
+   - WEB: This man had been instructed in the way of the Lord; and being fervent in spirit, he spoke and taught accurately the things concerning Jesus, although he knew only the baptism of John.
+- **19:1** substitute (word): critical *εὑρεῖν* ] RP *εὑρών*
+   - Latin: Intereā dum Apollōs Corinthī est, Paulus, peragrātīs superiōribus tractibus, vēnit Ephesum;
+   - 1573: Interea dum Apollos Corinthi est, Paulus peragratis superioribus tractibus, venit Ephesum.
+   - TR: Ἐγένετο δέ, ἐν τῷ τὸν Ἀπολλὼ εἶναι ἐν Κορίνθῳ, Παῦλον διελθόντα τὰ ἀνωτερικὰ μέρη ἐλθεῖν εἰς Ἔφεσον· καὶ εὑρών τινας μαθητὰς
+   - SBLGNT: Ἐγένετο δὲ ἐν τῷ τὸν Ἀπολλῶ εἶναι ἐν Κορίνθῳ Παῦλον διελθόντα τὰ ἀνωτερικὰ μέρη ἐλθεῖν εἰς Ἔφεσον καὶ εὑρεῖν τινας μαθητάς,
+   - Vulgate: Factum est autem cum Apollo esset Corinthi, ut Paulus peragratis superioribus partibus veniret Ephesum, et inveniret quosdam discipulos:
+   - BSB: While Apollos was at Corinth, Paul passed through the interior and came to Ephesus. There he found some disciples
+   - WEB: While Apollos was at Corinth, Paul, having passed through the upper country, came to Ephesus and found certain disciples.
+- **19:2** add (word): critical *δὲ* ] RP *+ εἶπον*
+   - Latin: et quōsdam nactus discipulōs, sīc allocūtus est: “An Sānctum Spīritum adeptī estis, cum crēdidistis?” Cui illī: “Nōs vērō nē quidem, an Spīritus Sānctus sit, audīvimus.”
+   - 1573: et quosdam nactus discipulos, sic allocutus est: An sanctum spiritum adepti estis, cùm credidistis? Cui illi: Nos verò ne quidem an spiritus sanctus sit, audiuimus.
+   - TR: εἶπε πρὸς αὐτούς, Εἰ πνεῦμα ἅγιον ἐλάβετε πιστεύσαντες; Οἱ δὲ εἶπον πρὸς αὐτόν, Ἀλλ᾿ οὐδὲ εἰ πνεῦμα ἅγιόν ἐστιν, ἠκούσαμεν.
+   - SBLGNT: εἶπέν τε πρὸς αὐτούς· Εἰ πνεῦμα ἅγιον ἐλάβετε πιστεύσαντες; οἱ δὲ πρὸς αὐτόν· Ἀλλʼ οὐδʼ εἰ πνεῦμα ἅγιον ἔστιν ἠκούσαμεν.
+   - Vulgate: dixitque ad eos: Si Spiritum Sanctum accepistis credentes? At illi dixerunt ad eum: Sed neque si Spiritus Sanctus est, audivimus.
+   - BSB: and asked them, “Did you receive the Holy Spirit when you became believers?” “No,” they answered, “we have not even heard that there is a Holy Spirit.”
+   - WEB: He said to them, “Did you receive the Holy Spirit when you believed?” They said to him, “No, we haven’t even heard that there is a Holy Spirit.”
+- **19:4** add (word): critical *τὸν* ] RP *+ χριστὸν*
+   - Latin: Et Paulus: “Jōhannēs quidem corrigendæ vītæ baptismate baptīzāvit, vulgō monēns, ut in venientem post sē crēderent, hoc est, in Chrīstum Jēsum.”
+   - 1573: Et Paulus Iohannes quidem corrigendæ vitæ baptismate baptizauit, vulgò monens, vt in venientem post se crederent, hoc est in Christum Iesum.
+   - TR: Εἶπε δὲ Παῦλος, Ἰωάννης μὲν ἐβάπτισε βάπτισμα μετανοίας, τῷ λαῷ λέγων εἰς τὸν ἐρχόμενον μετ᾿ αὐτὸν ἵνα πιστεύσωσι, τοῦτ᾿ ἔστιν, εἰς τὸν Χριστὸν Ἰησοῦν.
+   - SBLGNT: εἶπεν δὲ Παῦλος· Ἰωάννης ἐβάπτισεν βάπτισμα μετανοίας, τῷ λαῷ λέγων εἰς τὸν ἐρχόμενον μετʼ αὐτὸν ἵνα πιστεύσωσιν, τοῦτʼ ἔστιν εἰς τὸν Ἰησοῦν.
+   - Vulgate: Dixit autem Paulus: Joannes baptizavit baptismo pœnitentiæ populum, dicens in eum qui venturus esset post ipsum ut crederent, hoc est, in Jesum.
+   - BSB: Paul explained: “John’s baptism was a baptism of repentance. He told the people to believe in the One coming after him, that is, in Jesus.”
+   - WEB: Paul said, “John indeed baptized with the baptism of repentance, saying to the people that they should believe in the one who would come after him, that is, in Christ Jesus.”
+- **19:9** add (word): critical *Τυράννου* ] RP *+ τινός*
+   - Latin: Sed quoniam nōnnūllī occallēbant, nec sōlum sibi nōn patiēbantur persuādērī, vērum etiam eī īnstitūtiōnī apud multitūdinem maledīcēbant: ille dīgressus ab iīs, discipulōs sēparāvit, et cotīdiē in cujusdam tyrannī lūdō disputābat.
+   - 1573: Sed quoniam nonnulli occallebant, nec solùm sibi non patiebantur persuaderi, verum etiam ei institutioni apud multitudinem maledicebant: ille digressus ab eis, discipulos separauit, et quotidie in cuiusdam tyranni ludo disputabat.
+   - TR: Ὡς δέ τινες ἐσκληρύνοντο καὶ ἠπείθουν, κακολογοῦντες τὴν ὁδὸν ἐνώπιον τοῦ πλήθους, ἀποστὰς ἀπ᾿ αὐτῶν ἀφώρισε τοὺς μαθητάς, καθ᾿ ἡμέραν διαλεγόμενος ἐν τῇ σχολῇ Τυράννου τινός.
+   - SBLGNT: ὡς δέ τινες ἐσκληρύνοντο καὶ ἠπείθουν κακολογοῦντες τὴν ὁδὸν ἐνώπιον τοῦ πλήθους, ἀποστὰς ἀπʼ αὐτῶν ἀφώρισεν τοὺς μαθητάς, καθʼ ἡμέραν διαλεγόμενος ἐν τῇ σχολῇ Τυράννου.
+   - Vulgate: Cum autem quidam indurarentur, et non crederent, maledicentes viam Domini coram multitudine, discedens ab eis, segregavit discipulos, quotidie disputans in schola tyranni cujusdam.
+   - BSB: But when some of them stubbornly refused to believe and publicly maligned the Way, Paul took his disciples and left the synagogue to conduct daily discussions in the lecture hall of Tyrannus.
+   - WEB: But when some were hardened and disobedient, speaking evil of the Way before the multitude, he departed from them and separated the disciples, reasoning daily in the school of Tyrannus.
+- **19:10** add (word): critical *κυρίου* ] RP *+ Ἰησοῦ*
+   - Latin: Id autem factum est per annōs duōs, ita ut omnēs Asiæ incolæ Dominī Jēsū doctrīnam audierint, tum Jūdæī, tum Græcī.
+   - 1573: Id autem factum est per annos duos, ita vt omnes Asiæ incolæ Domini Iesu doctrinam audiuerint, tum Iudæi, tum Græci.
+   - TR: Τοῦτο δὲ ἐγένετο ἐπὶ ἔτη δύο, ὥστε πάντας τοὺς κατοικοῦντας τὴν Ἀσίαν ἀκοῦσαι τὸν λόγον τοῦ Κυρίου Ἰησοῦ, Ἰουδαίους τε καὶ Ἕλληνας.
+   - SBLGNT: τοῦτο δὲ ἐγένετο ἐπὶ ἔτη δύο, ὥστε πάντας τοὺς κατοικοῦντας τὴν Ἀσίαν ἀκοῦσαι τὸν λόγον τοῦ κυρίου, Ἰουδαίους τε καὶ Ἕλληνας.
+   - Vulgate: Hoc autem factum est per biennium, ita ut omnes qui habitabant in Asia audirent verbum Domini, Judæi atque gentiles.
+   - BSB: This continued for two years, so that everyone who lived in the province of Asia, Jews and Greeks alike, heard the word of the Lord.
+   - WEB: This continued for two years, so that all those who lived in Asia heard the word of the Lord Jesus, both Jews and Greeks.
+- **19:12** substitute (word): critical *ἀποφέρεσθαι* ] RP *ἐπιφέρεσθαι*; substitute (word): critical *ἐκπορεύεσθαι* ] RP *ἐξέρχεσθαι ἀπʼ αὐτῶν*
+   - Latin: adeō, ut in ægrōtantēs afferrentur ex ejus corpore sūdāria, aut sēmicīnctia, atque illī morbīs līberārentur, et ex iīs immundī spīritūs exīrent.
+   - 1573: adeò, vt in ægrotantes afferrentur ex eius corpore sudaria aut semicinctia, atque illi morbis liberarentur, et ex eis immundi spiritus exirent.
+   - TR: ὥστε καὶ ἐπὶ τοὺς ἀσθενοῦντας ἐπιφέρεσθαι ἀπὸ τοῦ χρωτὸς αὐτοῦ σουδάρια ἢ σιμικίνθια, καὶ ἀπαλλάσσεσθαι ἀπ᾿ αὐτῶν τὰς νόσους, τά τε πνεύματα τὰ πονηρὰ ἐξέρχεσθαι ἀπ᾿ αὐτῶν.
+   - SBLGNT: ὥστε καὶ ἐπὶ τοὺς ἀσθενοῦντας ἀποφέρεσθαι ἀπὸ τοῦ χρωτὸς αὐτοῦ σουδάρια ἢ σιμικίνθια καὶ ἀπαλλάσσεσθαι ἀπʼ αὐτῶν τὰς νόσους, τά τε πνεύματα τὰ πονηρὰ ἐκπορεύεσθαι.
+   - Vulgate: ita ut etiam super languidos deferrentur a corpore ejus sudaria et semicinctia, et recedebant ab eis languores, et spiritus nequam egrediebantur.
+   - BSB: so that even handkerchiefs and aprons that had touched him were taken to the sick, and the diseases and evil spirits left them.
+   - WEB: so that even handkerchiefs or aprons were carried away from his body to the sick, and the diseases departed from them, and the evil spirits went out.
+- **19:14** substitute (word): critical *τινος* ] RP *τινες υἱοὶ*
+   - Latin: Erant autem quīdam Scevæ Jūdæī pontificis fīliī septem, quī id faciēbant.
+   - 1573: Erant autem quidam Sceuæ Iudæi pontificis filij septem, qui id faciebant,
+   - TR: Ἦσαν δέ τινες υἱοὶ Σκευᾶ Ἰουδαίου ἀρχιερέως ἑπτὰ οἱ τοῦτο ποιοῦντες.
+   - SBLGNT: ἦσαν δέ τινος Σκευᾶ Ἰουδαίου ἀρχιερέως ἑπτὰ υἱοὶ τοῦτο ποιοῦντες.
+   - Vulgate: Erant autem quidam Judæi, Scevæ principis sacerdotum septem filii, qui hoc faciebant.
+   - BSB: Seven sons of Sceva, a Jewish chief priest, were doing this.
+   - WEB: There were seven sons of one Sceva, a Jewish chief priest, who did this.
+- **19:16** substitute (word): critical *κατακυριεύσας ἀμφοτέρων* ] RP *καὶ κατακυριεύσαν αὐτῶν*
+   - Latin: Tum īnsiliit in eōs homō, in quō malus erat spīritus, eōsque ita subēgit ac vīcit, ut nūdī et vulnerātī ex ædibus illīs effūgerint.
+   - 1573: Tum insilijt in eos homo, in quo malus erat spiritus, eosque ita subegit ac vicit, vt nudi et vulnerati ex ædibus illis effugerint.
+   - TR: Καὶ ἐφαλλόμενος ἐπ᾿ αὐτοὺς ὁ ἄνθρωπος ἐν ᾧ ἦν τὸ πνεῦμα τὸ πονηρόν, καὶ κατακυριεύσας αὐτῶν, ἴσχυσε κατ᾿ αὐτῶν, ὥστε γυμνοὺς καὶ τετραυματισμένους ἐκφυγεῖν ἐκ τοῦ οἴκου ἐκείνου.
+   - SBLGNT: καὶ ἐφαλόμενος ὁ ἄνθρωπος ἐπʼ αὐτοὺς ἐν ᾧ ἦν τὸ πνεῦμα τὸ πονηρὸν κατακυριεύσας ἀμφοτέρων ἴσχυσεν κατʼ αὐτῶν, ὥστε γυμνοὺς καὶ τετραυματισμένους ἐκφυγεῖν ἐκ τοῦ οἴκου ἐκείνου.
+   - Vulgate: Et insiliens in eos homo, in quo erat dæmonium pessimum, et dominatus amborum, invaluit contra eos, ita ut nudi et vulnerati effugerent de domo illa.
+   - BSB: Then the man with the evil spirit jumped on them and overpowered them all. The attack was so violent that they ran out of the house naked and wounded.
+   - WEB: The man in whom the evil spirit was leaped on them, overpowered them, and prevailed against them, so that they fled out of that house naked and wounded.
+- **19:27** substitute (word): critical *τῆς μεγαλειότητος* ] RP *τὴν μεγαλειότητα*
+   - Latin: Neque vērō sōlum, nē hæc nōbīs pars cōnfūtētur, perīculum est, vērum etiam nē magnæ deæ Dīānæ fānum prō nihilō habeātur: vel potius nē ejus, quam tōta Asia et orbis colit, magnitūdō tollātur.”
+   - 1573: Neque verò solùm ne hæc nobis pars confutetur, periculum est, verum etiam ne magnæ deæ Dianæ fanum pro nihilo habeatur: vel potius ne eius, quam tota Asia et orbis colit, magnitudo tollatur.
+   - TR: Οὐ μόνον δὲ τοῦτο κινδυνεύει ἡμῖν τὸ μέρος εἰς ἀπελεγμὸν ἐλθεῖν, ἀλλὰ καὶ τὸ τῆς μεγάλης θεᾶς Ἀρτέμιδος ἱερὸν εἰς οὐδὲν λογισθῆναι, μέλλειν τε καὶ καθαιρεῖσθαι τὴν μεγαλειότητα αὐτῆς, ἣν ὅλη ἡ Ἀσία καὶ ἡ οἰκουμένη σέβεται.
+   - SBLGNT: οὐ μόνον δὲ τοῦτο κινδυνεύει ἡμῖν τὸ μέρος εἰς ἀπελεγμὸν ἐλθεῖν, ἀλλὰ καὶ τὸ τῆς μεγάλης θεᾶς Ἀρτέμιδος ἱερὸν εἰς οὐθὲν λογισθῆναι, μέλλειν τε καὶ καθαιρεῖσθαι τῆς μεγαλειότητος αὐτῆς, ἣν ὅλη ἡ Ἀσία καὶ ἡ οἰκουμένη σέβεται.
+   - Vulgate: Non solum autem hæc periclitabitur nobis pars in redargutionem venire, sed et magnæ Dianæ templum in nihilum reputabitur, sed et destrui incipiet majestas ejus, quam tota Asia et orbis colit.
+   - BSB: There is danger not only that our business will fall into disrepute, but also that the temple of the great goddess Artemis will be discredited and her majesty deposed—she who is worshiped by all the province of Asia and the whole world.”
+   - WEB: Not only is there danger that this our trade come into disrepute, but also that the temple of the great goddess Artemis will be counted as nothing and her majesty destroyed, whom all Asia and the world worships.”
+- **19:29** add (word): critical *πόλις* ] RP *+ ὅλη*
+   - Latin: Ita urbe replētā cōnfūsiōne, ūniversī in theātrum impetum fēcērunt, correptō Gāiō et Aristarchō Macedonibus, Paulī peregrīnātiōnis comitibus.
+   - 1573: Ita vrbe repleta confusione, vniuersi in theatrum impetum fecerunt, correpto Caio et Aristarcho Macedonibus, Pauli peregrinationis comitibus.
+   - TR: Καὶ ἐπλήσθη ἡ πόλις ὅλη συγχύσεως· ὥρμησάν τε ὁμοθυμαδὸν εἰς τὸ θέατρον, συναρπάσαντες Γάϊον καὶ Ἀρίσταρχον Μακεδόνας, συνεκδήμους τοῦ Παύλου.
+   - SBLGNT: καὶ ἐπλήσθη ἡ πόλις τῆς συγχύσεως, ὥρμησάν τε ὁμοθυμαδὸν εἰς τὸ θέατρον συναρπάσαντες Γάϊον καὶ Ἀρίσταρχον Μακεδόνας, συνεκδήμους Παύλου.
+   - Vulgate: Et impleta est civitas confusione, et impetum fecerunt uno animo in theatrum, rapto Gajo et Aristarcho Macedonibus, comitibus Pauli.
+   - BSB: Soon the whole city was in disarray. They rushed together into the theatre, dragging with them Gaius and Aristarchus, Paul’s traveling companions from Macedonia.
+   - WEB: The whole city was filled with confusion, and they rushed with one accord into the theater, having seized Gaius and Aristarchus, men of Macedonia, Paul’s companions in travel.
+- **19:33** substitute (word): critical *συνεβίβασαν* ] RP *προεβίβασαν*
+   - Latin: prōtractus est ex turbā Alexander, prōdūcentibus eum Jūdæīs.
+   - 1573: protractus est ex turba Alexander producentibus eum Iudæis.
+   - TR: Ἐκ δὲ τοῦ ὄχλου προεβίβασαν Ἀλέξανδρον, προβαλλόντων αὐτὸν τῶν Ἰουδαίων. Ὁ δὲ Ἀλέξανδρος, κατασείσας τὴν χεῖρα, ἤθελεν ἀπολογεῖσθαι τῷ δήμῳ.
+   - SBLGNT: ἐκ δὲ τοῦ ὄχλου συνεβίβασαν Ἀλέξανδρον προβαλόντων αὐτὸν τῶν Ἰουδαίων, ὁ δὲ Ἀλέξανδρος κατασείσας τὴν χεῖρα ἤθελεν ἀπολογεῖσθαι τῷ δήμῳ.
+   - Vulgate: De turba autem detraxerunt Alexandrum, propellentibus eum Judæis. Alexander autem manu silentio postulato, volebat reddere rationem populo.
+   - BSB: The Jews in the crowd pushed Alexander forward to explain himself, and he motioned for silence so he could make his defense to the people.
+   - WEB: They brought Alexander out of the multitude, the Jews putting him forward. Alexander beckoned with his hand, and would have made a defense to the people.
+- **19:35** add (word): critical *μεγάλης* ] RP *+ θεᾶς*
+   - Latin: Tum scrība, sēdātā turbā, sīc verba fēcit: “Virī Ephesiī, quis vērō est homō, quī nesciat, Ephesiōrum urbem cultrīcem esse magnæ deæ Dīānæ, et ā Jove dīlāpsī simulācrī?
+   - 1573: Tum scriba, sedata turba, sic verba fecit: Viri Ephesij, quis verò est homo, qui nesciat Ephesiorum vrbem cultricem esse magnæ deæ Dianæ, et à Ioue delapsi simulacri?
+   - TR: Καταστείλας δὲ ὁ γραμματεὺς τὸν ὄχλον φησίν, Ἄνδρες Ἐφέσιοι, τίς γάρ ἐστιν ἄνθρωπος ὃς οὐ γινώσκει τὴν Ἐφεσίων πόλιν νεωκόρον οὖσαν τῆς μεγάλης θεᾶς Ἀρτέμιδος καὶ τοῦ Διοπετοῦς;
+   - SBLGNT: καταστείλας δὲ ὁ γραμματεὺς τὸν ὄχλον φησίν· Ἄνδρες Ἐφέσιοι, τίς γάρ ἐστιν ἀνθρώπων ὃς οὐ γινώσκει τὴν Ἐφεσίων πόλιν νεωκόρον οὖσαν τῆς μεγάλης Ἀρτέμιδος καὶ τοῦ διοπετοῦς;
+   - Vulgate: Et cum sedasset scriba turbas, dixit: Viri Ephesii, quis enim est hominum, qui nesciat Ephesiorum civitatem cultricem esse magnæ Dianæ, Jovisque prolis?
+   - BSB: Finally the city clerk quieted the crowd and declared, “Men of Ephesus, doesn’t everyone know that the city of Ephesus is guardian of the temple of the great Artemis and of her image, which fell from heaven?
+   - WEB: When the town clerk had quieted the multitude, he said, “You men of Ephesus, what man is there who doesn’t know that the city of the Ephesians is temple keeper of the great goddess Artemis, and of the image which fell down from Zeus?
+- **19:39** substitute (word): critical *περαιτέρω* ] RP *περὶ ἑτέρων*
+   - Latin: Sī aliud quid quæritis, id lēgitimā cōntiōne absolvētur.
+   - 1573: Si aliud quid quæritis, id legitima concione absoluetur.
+   - TR: Εἰ δέ τι περὶ ἑτέρων ἐπιζητεῖτε, ἐν τῇ ἐννόμῳ ἐκκλησίᾳ ἐπιλυθήσεται.
+   - SBLGNT: εἰ δέ τι περαιτέρω ἐπιζητεῖτε, ἐν τῇ ἐννόμῳ ἐκκλησίᾳ ἐπιλυθήσεται.
+   - Vulgate: Si quid autem alterius rei quæritis, in legitima ecclesia poterit absolvi.
+   - BSB: But if you are seeking anything beyond this, it must be settled in a legal assembly.
+   - WEB: But if you seek anything about other matters, it will be settled in the regular assembly.
+- **20:1** substitute (word): critical *μεταπεμψάμενος* ] RP *προσκαλεσάμενος*; omit (word): critical *παρακαλέσας* ] RP *–*
+   - Latin: Post compositum tumultum Paulus, advocātīs ac salūtātīs discipulīs, in Macedoniam īre contendit.
+   - 1573: Post compositum tumultum, Paulus, aduocatis ac salutatis discipulis, in Macedoniam ire contendit.
+   - TR: Μετὰ δὲ τὸ παύσασθαι τὸν θόρυβον, προσκαλεσάμενος ὁ Παῦλος τοὺς μαθητάς, καὶ ἀσπασάμενος, ἐξῆλθε πορευθῆναι εἰς τὴν Μακεδονίαν.
+   - SBLGNT: Μετὰ δὲ τὸ παύσασθαι τὸν θόρυβον μεταπεμψάμενος ὁ Παῦλος τοὺς μαθητὰς καὶ παρακαλέσας, ἀσπασάμενος ἐξῆλθεν πορεύεσθαι εἰς Μακεδονίαν.
+   - Vulgate: Postquam autem cessavit tumultus, vocatis Paulus discipulis, et exhortatus eos, valedixit, et profectus est ut iret in Macedoniam.
+   - BSB: When the uproar had ended, Paul sent for the disciples. And after encouraging them, he said goodbye to them and left for Macedonia.
+   - WEB: After the uproar had ceased, Paul sent for the disciples, took leave of them, and departed to go into Macedonia.
+- **20:3** add (word): critical *ἐπιβουλῆς αὐτῷ* ] RP *+ αὐτῷ ἐπιβουλῆς*
+   - Latin: Ubi postquam trēs mēnsēs ēgit, et eī factæ sunt ā Jūdæīs īnsidiæ in Syriam nāvigātūrō, sententia fuit per Macedoniam revertī.
+   - 1573: Vbi postquam tres menses egit, et ei factæ sunt à Iudæis insidiæ in Syriam nauigaturo, sententia fuit per Macedoniam reuerti.
+   - TR: Ποιήσας τε μῆνας τρεῖς, γενομένης αὐτῷ ἐπιβουλῆς ὑπὸ τῶν Ἰουδαίων μέλλοντι ἀνάγεσθαι εἰς τὴν Συρίαν, ἐγένετο γνώμη τοῦ ὑποστρέφειν διὰ Μακεδονίας.
+   - SBLGNT: ποιήσας τε μῆνας τρεῖς· γενομένης ἐπιβουλῆς αὐτῷ ὑπὸ τῶν Ἰουδαίων μέλλοντι ἀνάγεσθαι εἰς τὴν Συρίαν ἐγένετο γνώμης τοῦ ὑποστρέφειν διὰ Μακεδονίας.
+   - Vulgate: ubi cum fecisset menses tres, factæ sunt illi insidiæ a Judæis navigaturo in Syriam: habuitque consilium ut reverteretur per Macedoniam.
+   - BSB: where he stayed three months. And when the Jews formed a plot against him as he was about to sail for Syria, he decided to go back through Macedonia.
+   - WEB: When he had spent three months there, and a plot was made against him by Jews as he was about to set sail for Syria, he determined to return through Macedonia.
+- **20:7** substitute (word): critical *ἡμῶν* ] RP *τῶν μαθητῶν*
+   - Latin: Prīmā autem post Sabbatum diē, congregātīs ad frangendum pānem discipulīs, Paulus disserēbat, profectus postrīdiē.
+   - 1573: Prima autem post Sabbatum die, congregatis ad frangendum panem discipulis, Paulus disserebat, profectus postridie.
+   - TR: Ἐν δὲ τῇ μιᾷ τῶν σαββάτων, συνηγμένων τῶν μαθητῶν τοῦ κλάσαι ἄρτον, ὁ Παῦλος διελέγετο αὐτοῖς, μέλλων ἐξιέναι τῇ ἐπαύριον, παρέτεινέ τε τὸν λόγον μέχρι μεσονυκτίου.
+   - SBLGNT: Ἐν δὲ τῇ μιᾷ τῶν σαββάτων συνηγμένων ἡμῶν κλάσαι ἄρτον ὁ Παῦλος διελέγετο αὐτοῖς, μέλλων ἐξιέναι τῇ ἐπαύριον, παρέτεινέν τε τὸν λόγον μέχρι μεσονυκτίου.
+   - Vulgate: Una autem sabbati cum convenissemus ad frangendum panem, Paulus disputabat cum eis profecturus in crastinum, protraxitque sermonem usque in mediam noctem.
+   - BSB: On the first day of the week we came together to break bread. Since Paul was ready to leave the next day, he talked to them and kept on speaking until midnight.
+   - WEB: On the first day of the week, when the disciples were gathered together to break bread, Paul talked with them, intending to depart on the next day; and continued his speech until midnight.
+- **20:9** substitute (word): critical *καθεζόμενος* ] RP *Καθήμενος*
+   - Latin: Quīdam juvenis, Eutychus nōmine, in fenestrā sedēns, oppressus altō somnō, diūtius disserente Paulō, somnō dēturbātus dēcidit dē tertiā contignātiōne, et sublātus est mortuus.
+   - 1573: quidam iuuenis, Eutychus nomine, in fenestra sedens, oppressus alto somno, diutius disserente Paulo, somno deturbatus decidit de tertia contignatione, et sublatus est mortuus.
+   - TR: Καθήμενος δέ τις νεανίας ὀνόματι Εὔτυχος ἐπὶ τῆς θυρίδος, καταφερόμενος ὕπνῳ βαθεῖ, διαλεγομένου τοῦ Παύλου ἐπὶ πλεῖον, κατενεχθεὶς ἀπὸ τοῦ ὕπνου ἔπεσεν ἀπὸ τοῦ τριστέγου κάτω, καὶ ἤρθη νεκρός.
+   - SBLGNT: καθεζόμενος δέ τις νεανίας ὀνόματι Εὔτυχος ἐπὶ τῆς θυρίδος, καταφερόμενος ὕπνῳ βαθεῖ διαλεγομένου τοῦ Παύλου ἐπὶ πλεῖον, κατενεχθεὶς ἀπὸ τοῦ ὕπνου ἔπεσεν ἀπὸ τοῦ τριστέγου κάτω καὶ ἤρθη νεκρός.
+   - Vulgate: Sedens autem quidam adolescens nomine Eutychus super fenestram, cum mergeretur somno gravi, disputante diu Paulo, ductus somno cecidit de tertio cœnaculo deorsum, et sublatus est mortuus.
+   - BSB: And a certain young man named Eutychus, seated in the window, was sinking into a deep sleep as Paul talked on and on. When he was sound asleep, he fell from the third story and was picked up dead.
+   - WEB: A certain young man named Eutychus sat in the window, weighed down with deep sleep. As Paul spoke still longer, being weighed down by his sleep, he fell down from the third floor and was taken up dead.
+- **20:16** substitute (word): critical *κεκρίκει* ] RP *Ἔκρινεν*; substitute (word): critical *εἴη* ] RP *ἦν*
+   - Latin: Statuerat enim Paulus, Ephesum præternāvigāre, nē sibi mora facienda esset in Asiā: properābat enim, sī fierī posset, ad quīnquāgēsimæ diem Hierosolymam venīre.
+   - 1573: Statuerat enim Paulus Ephesum præternauigare, ne sibi mora facienda esset in Asia: properabat enim si fieri posset, ad quinquagesimæ diem Hierosolymam venire.
+   - TR: Ἔκρινε γὰρ ὁ Παῦλος παραπλεῦσαι τὴν Ἔφεσον, ὅπως μὴ γένηται αὐτῷ χρονοτριβῆσαι ἐν τῇ Ἀσίᾳ· ἔσπευδε γάρ, εἰ δυνατὸν ἦν αὐτῷ, τὴν ἡμέραν τῆς Πεντηκοστῆς γενέσθαι εἰς Ἱεροσόλυμα.
+   - SBLGNT: κεκρίκει γὰρ ὁ Παῦλος παραπλεῦσαι τὴν Ἔφεσον, ὅπως μὴ γένηται αὐτῷ χρονοτριβῆσαι ἐν τῇ Ἀσίᾳ, ἔσπευδεν γὰρ εἰ δυνατὸν εἴη αὐτῷ τὴν ἡμέραν τῆς πεντηκοστῆς γενέσθαι εἰς Ἱεροσόλυμα.
+   - Vulgate: Proposuerat enim Paulus transnavigare Ephesum, ne qua mora illi fieret in Asia. Festinabat enim, si possibile sibi esset, ut diem Pentecostes faceret Jerosolymis.
+   - BSB: Paul had decided to sail past Ephesus to avoid spending time in the province of Asia, because he was in a hurry to reach Jerusalem, if possible, by the day of Pentecost.
+   - WEB: For Paul had determined to sail past Ephesus, that he might not have to spend time in Asia; for he was hastening, if it were possible for him, to be in Jerusalem on the day of Pentecost.
+- **20:19** add (word): critical *καὶ* ] RP *+ πολλῶν*
+   - Latin: Dominō serviēns cum omnī modestiā, multīsque cum lacrimīs ac perīculīs, quæ mihi per Jūdæōrum īnsidiās contigērunt:
+   - 1573: Domino seruiens cum omni modestia, multisque cum lachrymis ac periculis, quæ mihi per Iudæorum insidias contigerunt:
+   - TR: δουλεύων τῷ Κυρίῳ μετὰ πάσης ταπεινοφροσύνης καὶ πολλῶν δακρύων καὶ πειρασμῶν τῶν συμβάντων μοι ἐν ταῖς ἐπιβουλαῖς τῶν Ἰουδαίων·
+   - SBLGNT: δουλεύων τῷ κυρίῳ μετὰ πάσης ταπεινοφροσύνης καὶ δακρύων καὶ πειρασμῶν τῶν συμβάντων μοι ἐν ταῖς ἐπιβουλαῖς τῶν Ἰουδαίων·
+   - Vulgate: serviens Domino cum omni humilitate, et lacrimis, et tentationibus, quæ mihi acciderunt ex insidiis Judæorum:
+   - BSB: I served the Lord with great humility and with tears, especially in the trials that came upon me through the plots of the Jews.
+   - WEB: serving the Lord with all humility, with many tears, and with trials which happened to me by the plots of the Jews;
+- **20:24** add (word): critical *ποιοῦμαι* ] RP *+ οὐδὲ ἔχω*; add (word): critical *μου* ] RP *+ μετὰ χαρᾶς*
+   - Latin: Sed nihil pēnsī habeō, neque tantī vītam meam faciō, dum cursum meum cum lætitiā, et assignātum mihi ā Dominō Jēsū mūnus absolvam: hoc est, dīvīnæ grātiæ euangelium testificer.
+   - 1573: Sed nihil pensi habeo, neque tanti vitam meam facio, dum cursum meum cum lætitia, et assignatum mihi à Domino Iesu munus absoluam: hoc est, diuinæ gratiæ Euangelium testificer.
+   - TR: Ἀλλ᾿ οὐδενὸς λόγον ποιοῦμαι, οὐδὲ ἔχω τὴν ψυχήν μου τιμίαν ἐμαυτῷ, ὡς τελειῶσαι τὸν δρόμον μου μετὰ χαρᾶς, καὶ τὴν διακονίαν ἣν ἔλαβον παρὰ τοῦ Κυρίου Ἰησοῦ, διαμαρτύρασθαι τὸ εὐαγγέλιον τῆς χάριτος τοῦ Θεοῦ.
+   - SBLGNT: ἀλλʼ οὐδενὸς λόγου ποιοῦμαι τὴν ψυχὴν τιμίαν ἐμαυτῷ ὡς τελειῶσαι τὸν δρόμον μου καὶ τὴν διακονίαν ἣν ἔλαβον παρὰ τοῦ κυρίου Ἰησοῦ, διαμαρτύρασθαι τὸ εὐαγγέλιον τῆς χάριτος τοῦ θεοῦ.
+   - Vulgate: Sed nihil horum vereor: nec facio animam meam pretiosiorem quam me, dummodo consummem cursum meum, et ministerium verbi quod accepi a Domino Jesu, testificari Evangelium gratiæ Dei.
+   - BSB: But I consider my life of no value to me, if only I may finish my course and complete the ministry I have received from the Lord Jesus—the ministry of testifying to the good news of God’s grace.
+   - WEB: But these things don’t count; nor do I hold my life dear to myself, so that I may finish my race with joy, and the ministry which I received from the Lord Jesus, to fully testify to the Good News of the grace of God.
+- **20:25** add (word): critical *βασιλείαν* ] RP *+ τοῦ θεοῦ*
+   - Latin: “Et nunc hoc quidem sciō, nēmō mē vestrum, quōs inter dīvīnum rēgnum prædicāns versātus sum, præsentem posthāc vidēbit.
+   - 1573: Et nunc hoc quidem scio: nemo me vestrûm, quos inter diuinum regnum prædicans versatus sum, præsentem posthac videbit.
+   - TR: Καὶ νῦν ἰδού, ἐγὼ οἶδα ὅτι οὐκέτι ὄψεσθε τὸ πρόσωπόν μου ὑμεῖς πάντες, ἐν οἷς διῆλθον κηρύσσων τὴν βασιλείαν τοῦ Θεοῦ.
+   - SBLGNT: Καὶ νῦν ἰδοὺ ἐγὼ οἶδα ὅτι οὐκέτι ὄψεσθε τὸ πρόσωπόν μου ὑμεῖς πάντες ἐν οἷς διῆλθον κηρύσσων τὴν βασιλείαν.
+   - Vulgate: Et nunc ecce ego scio quia amplius non videbitis faciem meam vos omnes, per quos transivi prædicans regnum Dei.
+   - BSB: Now I know that none of you among whom I have preached the kingdom will see my face again.
+   - WEB: “Now, behold, I know that you all, among whom I went about preaching God’s Kingdom, will see my face no more.
+- **20:26** substitute (word): critical *εἰμι* ] RP *ἐγὼ*
+   - Latin: Itaque contestor vōs hodiernō diē, mē ab omnium perniciē īnsontem esse.
+   - 1573: Itaque contestor vos hodierno die, me ab omnium pernicie insontem esse.
+   - TR: Διὸ μαρτύρομαι ὑμῖν ἐν τῇ σήμερον ἡμέρᾳ, ὅτι καθαρὸς ἐγὼ ἀπὸ τοῦ αἵματος πάντων.
+   - SBLGNT: διότι μαρτύρομαι ὑμῖν ἐν τῇ σήμερον ἡμέρᾳ ὅτι καθαρός εἰμι ἀπὸ τοῦ αἵματος πάντων,
+   - Vulgate: Quapropter contestor vos hodierna die, quia mundus sum a sanguine omnium.
+   - BSB: Therefore I testify to you this day that I am innocent of the blood of all men.
+   - WEB: Therefore I testify to you today that I am clean from the blood of all men,
+- **20:32** add (word): critical *ὑμᾶς* ] RP *+ ἀδελφοί*; substitute (word): critical *οἰκοδομῆσαι* ] RP *ἐποικοδομῆσαι*
+   - Latin: In præsentiā commendō vōs, frātrēs, Deō et sermōnī ejus grātiæ, quī vōs exædificāre, et inter sānctificātōs omnēs hērēditāte dōnāre potest.
+   - 1573: In præsentia commendo vos, fratres, Deo, et sermoni eius gratiæ: qui vos exædificare, et inter sanctificatos omnes hæreditate donare potest.
+   - TR: Καὶ τὰ νῦν παρατίθεμαι ὑμᾶς, ἀδελφοί, τῷ Θεῷ καὶ τῷ λόγῳ τῆς χάριτος αὐτοῦ, τῷ δυναμένῳ ἐποικοδομῆσαι, καὶ δοῦναι ὑμῖν κληρονομίαν ἐν τοῖς ἡγιασμένοις πᾶσιν.
+   - SBLGNT: καὶ τὰ νῦν παρατίθεμαι ὑμᾶς τῷ θεῷ καὶ τῷ λόγῳ τῆς χάριτος αὐτοῦ, τῷ δυναμένῳ οἰκοδομῆσαι καὶ δοῦναι τὴν κληρονομίαν ἐν τοῖς ἡγιασμένοις πᾶσιν.
+   - Vulgate: Et nunc commendo vos Deo, et verbo gratiæ ipsius, qui potens est ædificare, et dare hæreditatem in sanctificatis omnibus.
+   - BSB: And now I commit you to God and to the word of His grace, which can build you up and give you an inheritance among all who are sanctified.
+   - WEB: Now, brothers, I entrust you to God and to the word of his grace, which is able to build up and to give you the inheritance among all those who are sanctified.
+- **21:6** substitute (word): critical *ἀπησπασάμεθα ἀλλήλους καὶ* ] RP *καὶ ἀσπασάμενοι ἀλλήλους*
+   - Latin: Ac postquam inter nōs cōnsalūtāvimus, nōs nāvem cōnscendimus: illī domum reversī sunt.
+   - 1573: Ac postquam inter nos consalutauimus, nos nauem conscendimus: illi domum reuersi sunt.
+   - TR: Καὶ ἀσπασάμενοι ἀλλήλους, ἐπέβημεν εἰς τὸ πλοῖον, ἐκεῖνοι δὲ ὑπέστρεψαν εἰς τὰ ἴδια.
+   - SBLGNT: ἀπησπασάμεθα ἀλλήλους, καὶ ἐνέβημεν εἰς τὸ πλοῖον, ἐκεῖνοι δὲ ὑπέστρεψαν εἰς τὰ ἴδια.
+   - Vulgate: Et cum valefecissemus invicem, ascendimus navem: illi autem redierunt in sua.
+   - BSB: And after we had said our farewells, we went aboard the ship, and they returned home.
+   - WEB: After saying goodbye to each other, we went on board the ship, and they returned home again.
+- **21:11** substitute (word): critical *ἑαυτοῦ* ] RP *τε αὐτοῦ*
+   - Latin: Quī nōs aggressus, captōque Paulī cingulō, et colligātīs suīs manibus ac pedibus, dīxit: “Hæc dīcit Spīritus Sānctus: ‘Virum, cujus est hoc cingulum, sīc colligābunt Hierosolymīs Jūdæī, et in extrāneōrum manūs trādent.’”
+   - 1573: qui nos aggressus, captoque Pauli cingulo, et colligatis suis manibus, ac pedibus dixit: Hæc dicit Spiritus sanctus: Virum, cuius est hoc cingulum, sic colligabunt Hierosolymis Iudæi, et in extraneorum manus tradent.
+   - TR: Καὶ ἐλθὼν πρὸς ἡμᾶς, καὶ ἄρας τὴν ζώνην τοῦ Παύλου, δήσας τε αὐτοῦ τὰς χεῖρας καὶ τοὺς πόδας εἶπε, Τάδε λέγει τὸ πνεῦμα τὸ ἅγιον, Τὸν ἄνδρα οὗ ἐστιν ἡ ζώνη αὕτη, οὕτω δήσουσιν ἐν Ἱερουσαλὴμ οἱ Ἰουδαῖοι, καὶ παραδώσουσιν εἰς χεῖρας ἐθνῶν.
+   - SBLGNT: καὶ ἐλθὼν πρὸς ἡμᾶς καὶ ἄρας τὴν ζώνην τοῦ Παύλου δήσας ἑαυτοῦ τοὺς πόδας καὶ τὰς χεῖρας εἶπεν· Τάδε λέγει τὸ πνεῦμα τὸ ἅγιον Τὸν ἄνδρα οὗ ἐστιν ἡ ζώνη αὕτη, οὕτως δήσουσιν ἐν Ἰερουσαλὴμ οἱ Ἰουδαῖοι καὶ παραδώσουσιν εἰς χεῖρας ἐθνῶν.
+   - Vulgate: Is cum venisset ad nos, tulit zonam Pauli: et alligans sibi pedes et manus, dixit: Hæc dicit Spiritus Sanctus: Virum, cujus est zona hæc, sic alligabunt in Jerusalem Judæi, et tradent in manus gentium.
+   - BSB: Coming over to us, he took Paul’s belt, bound his own feet and hands, and said, “The Holy Spirit says: ‘In this way the Jews of Jerusalem will bind the owner of this belt and hand him over to the Gentiles.’”
+   - WEB: Coming to us and taking Paul’s belt, he bound his own feet and hands, and said, “The Holy Spirit says: ‘So the Jews at Jerusalem will bind the man who owns this belt, and will deliver him into the hands of the Gentiles.’”
+- **21:14** substitute (word): critical *γινέσθω* ] RP *γενέσθω*
+   - Latin: Nōs igitur, illō nōn obtemperante, dēstitimus, et, “Fīat Dominī voluntās,” dīximus.
+   - 1573: Nos igitur, illo non obtemperante, destitimus, et, Fiat Domini voluntas, diximus.
+   - TR: Μὴ πειθομένου δὲ αὐτοῦ, ἡσυχάσαμεν εἰπόντες, Τὸ θέλημα τοῦ Κυρίου γενέσθω.
+   - SBLGNT: μὴ πειθομένου δὲ αὐτοῦ ἡσυχάσαμεν εἰπόντες· Τοῦ κυρίου τὸ θέλημα γινέσθω.
+   - Vulgate: Et cum ei suadere non possemus, quievimus, dicentes: Domini voluntas fiat.
+   - BSB: When he would not be dissuaded, we fell silent and said, “The Lord’s will be done.”
+   - WEB: When he would not be persuaded, we ceased, saying, “The Lord’s will be done.”
+- **21:17** substitute (word): critical *ἀπεδέξαντο* ] RP *ἐδέξαντο*
+   - Latin: Postquam Hierosolymam pervēnimus, libenter nōs excēpēre frātrēs.
+   - 1573: Postquam Hierosolymam peruenimus, libenter nos excepêre fratres.
+   - TR: Γενομένων δὲ ἡμῶν εἰς Ἱεροσόλυμα, ἀσμένως ἐδέξαντο ἡμᾶς οἱ ἀδελφοί.
+   - SBLGNT: Γενομένων δὲ ἡμῶν εἰς Ἱεροσόλυμα ἀσμένως ἀπεδέξαντο ἡμᾶς οἱ ἀδελφοί.
+   - Vulgate: Et cum venissemus Jerosolymam, libenter exceperunt nos fratres.
+   - BSB: When we arrived in Jerusalem, the brothers welcomed us joyfully.
+   - WEB: When we had come to Jerusalem, the brothers received us gladly.
+- **21:22** substitute (word): critical *ἀκούσονται* ] RP *δεῖ πλῆθος συνελθεῖν ἀκούσονται γὰρ*
+   - Latin: Quid ergō est? Omnīnō oportet, ut conveniat multitūdō: audient enim, vēnisse tē.
+   - 1573: Quid ergo est? Omnino oportet, vt conueniat multitudo: audient enim venisse te.
+   - TR: Τί οὖν ἐστι; Πάντως δεῖ πλῆθος συνελθεῖν· ἀκούσονται γὰρ ὅτι ἐλήλυθας.
+   - SBLGNT: τί οὖν ἐστιν; πάντως ἀκούσονται ὅτι ἐλήλυθας.
+   - Vulgate: Quid ergo est? utique oportet convenire multitudinem: audient enim te supervenisse.
+   - BSB: What then should we do? They will certainly hear that you have come.
+   - WEB: What then? The assembly must certainly meet, for they will hear that you have come.
+- **21:31** substitute (word): critical *συγχύννεται* ] RP *συγκέχυται*
+   - Latin: Cōnantibus autem eum interficere, ascendit ad cohortis tribūnum fāma, tōtam Hierosolymam esse cōnfūsam;
+   - 1573: Conantibus autem eum interficere, ascendit ad cohortis tribunum fama, totam Hierosolymam esse confusam!
+   - TR: Ζητούντων δὲ αὐτὸν ἀποκτεῖναι, ἀνέβη φάσις τῷ χιλιάρχῳ τῆς σπείρης, ὅτι ὅλη συγκέχυται Ἱερουσαλήμ·
+   - SBLGNT: ζητούντων τε αὐτὸν ἀποκτεῖναι ἀνέβη φάσις τῷ χιλιάρχῳ τῆς σπείρης ὅτι ὅλη συγχύννεται Ἰερουσαλήμ,
+   - Vulgate: Quærentibus autem eum occidere, nuntiatum est tribuno cohortis quia tota confunditur Jerusalem.
+   - BSB: While they were trying to kill him, the commander of the Roman regiment received a report that all Jerusalem was in turmoil.
+   - WEB: As they were trying to kill him, news came up to the commanding officer of the regiment that all Jerusalem was in an uproar.
+- **21:34** substitute (word): critical *ἐπεφώνουν* ] RP *ἐβόων*; substitute (word): critical *δυναμένου δὲ αὐτοῦ* ] RP *δυνάμενος δὲ*
+   - Latin: Sed cum aliīs aliud in turbā clāmantibus, certum scīre propter tumultum nequīret, jussit eum in castra dūcī.
+   - 1573: Sed cum alijs aliud in turba clamantibus, certum scire propter tumultum nequiret, iussit eum in castra duci.
+   - TR: Ἄλλοι δὲ ἄλλο τι ἐβόων ἐν τῷ ὄχλῳ· μὴ δυνάμενος δὲ γνῶναι τὸ ἀσφαλὲς διὰ τὸν θόρυβον, ἐκέλευσεν ἄγεσθαι αὐτὸν εἰς τὴν παρεμβολήν.
+   - SBLGNT: ἄλλοι δὲ ἄλλο τι ἐπεφώνουν ἐν τῷ ὄχλῳ· μὴ δυναμένου δὲ αὐτοῦ γνῶναι τὸ ἀσφαλὲς διὰ τὸν θόρυβον ἐκέλευσεν ἄγεσθαι αὐτὸν εἰς τὴν παρεμβολήν.
+   - Vulgate: Alii autem aliud clamabant in turba. Et cum non posset certum cognoscere præ tumultu, jussit duci eum in castra.
+   - BSB: Some in the crowd were shouting one thing, and some another. And since the commander could not get at the truth because of the uproar, he ordered that Paul be brought into the barracks.
+   - WEB: Some shouted one thing and some another, among the crowd. When he couldn’t find out the truth because of the noise, he commanded him to be brought into the barracks.
+- **22:12** substitute (word): critical *εὐλαβὴς* ] RP *εὐσεβὴς*
+   - Latin: Ananīās autem quīdam, vir secundum lēgem pius, omnibus incolīs Jūdæīs probātus, vēnit ad mē,
+   - 1573: Ananias autem quidam, vir secundum legem pius, omnibus incolis Iudæis probatus, venit ad me,
+   - TR: Ἀνανίας δέ τις, ἀνὴρ εὐσεβὴς κατὰ τὸν νόμον, μαρτυρούμενος ὑπὸ πάντων τῶν κατοικούντων Ἰουδαίων,
+   - SBLGNT: Ἁνανίας δέ τις ἀνὴρ εὐλαβὴς κατὰ τὸν νόμον μαρτυρούμενος ὑπὸ πάντων τῶν κατοικούντων Ἰουδαίων,
+   - Vulgate: Ananias autem quidam vir secundum legem, testimonium habens ab omnibus cohabitantibus Judæis,
+   - BSB: There a man named Ananias, a devout observer of the law who was highly regarded by all the Jews living there,
+   - WEB: “One Ananias, a devout man according to the law, well reported of by all the Jews who lived in Damascus,
+- **22:16** substitute (word): critical *αὐτοῦ* ] RP *τοῦ κυρίου*
+   - Latin: Quōcircā quid cūnctāris? age dum, baptīzāre, et tua peccāta ēlue, invocātō nōmine Dominī.’
+   - 1573: Quocirca quid cunctaris, age dum, baptizare, et tua peccata elue, inuocato nomine Domini.
+   - TR: Καὶ νῦν τί μέλλεις; Ἀναστὰς βάπτισαι καὶ ἀπόλουσαι τὰς ἁμαρτίας σου, ἐπικαλεσάμενος τὸ ὄνομα τοῦ Κυρίου.
+   - SBLGNT: καὶ νῦν τί μέλλεις; ἀναστὰς βάπτισαι καὶ ἀπόλουσαι τὰς ἁμαρτίας σου ἐπικαλεσάμενος τὸ ὄνομα αὐτοῦ.
+   - Vulgate: Et nunc quid moraris? Exsurge, et baptizare, et ablue peccata tua, invocato nomine ipsius.
+   - BSB: And now what are you waiting for? Get up, be baptized, and wash your sins away, calling on His name.’
+   - WEB: Now why do you wait? Arise, be baptized, and wash away your sins, calling on the name of the Lord.’
+- **22:20** substitute (word): critical *καὶ* ] RP *τῇ ἀναιρέσει αὐτοῦ*
+   - Latin: Utque, cum tuī testis Stephanī sanguis effunderētur, ego adessem, et in ejus necem cōnsentīrem, vestīmenta custōdiēns eōrum, quī eum interficiēbant.’
+   - 1573: vtque cum tui testis Stephani sanguis effunderetur, ego adessem, et in eius necem consentirem, vestimenta custodiens eorum qui eum interficiebant.
+   - TR: καὶ ὅτε ἐξεχεῖτο τὸ αἷμα Στεφάνου τοῦ μάρτυρός σου, καὶ αὐτὸς ἤμην ἐφεστὼς καὶ συνευδοκῶν τῇ ἀναιρέσει αὐτοῦ, καὶ φυλάσσων τὰ ἱμάτια τῶν ἀναιρούντων αὐτόν.
+   - SBLGNT: καὶ ὅτε ἐξεχύννετο τὸ αἷμα Στεφάνου τοῦ μάρτυρός σου, καὶ αὐτὸς ἤμην ἐφεστὼς καὶ συνευδοκῶν καὶ φυλάσσων τὰ ἱμάτια τῶν ἀναιρούντων αὐτόν.
+   - Vulgate: et cum funderetur sanguis Stephani testis tui, ego astabam, et consentiebam, et custodiebam vestimenta interficientium illum.
+   - BSB: And when the blood of Your witness Stephen was shed, I stood there giving my approval and watching over the garments of those who killed him.’
+   - WEB: When the blood of Stephen, your witness, was shed, I also was standing by, consenting to his death, and guarding the cloaks of those who killed him.’
+- **22:24** substitute (word): critical *εἴπας* ] RP *εἰπὼν*
+   - Latin: jussit eum tribūnus in castra dūcī, et dē eō lōrīs quæstiōnem habērī imperāvit, ut cognōsceret, quam ob causam illī sīc eī occlāmārent.
+   - 1573: iussit eum tribunus in castra duci, et de eo loris quæstionem haberi imperauit, vt cognosceret quam ob causam illi sic ei occlamarent.
+   - TR: ἐκέλευσεν αὐτὸν ὁ χιλίαρχος ἄγεσθαι εἰς τὴν παρεμβολήν, εἰπὼν μάστιξιν ἀνετάζεσθαι αὐτόν, ἵνα ἐπιγνῷ δι᾿ ἣν αἰτίαν οὕτως ἐπεφώνουν αὐτῷ.
+   - SBLGNT: ἐκέλευσεν ὁ χιλίαρχος εἰσάγεσθαι αὐτὸν εἰς τὴν παρεμβολήν, εἴπας μάστιξιν ἀνετάζεσθαι αὐτὸν ἵνα ἐπιγνῷ διʼ ἣν αἰτίαν οὕτως ἐπεφώνουν αὐτῷ.
+   - Vulgate: jussit tribunus induci eum in castra, et flagellis cædi, et torqueri eum, ut sciret propter quam causam sic acclamarent ei.
+   - BSB: the commander ordered that Paul be brought into the barracks. He directed that Paul be flogged and interrogated to determine the reason for this outcry against him.
+   - WEB: the commanding officer commanded him to be brought into the barracks, ordering him to be examined by scourging, that he might know for what crime they shouted against him like that.
+- **22:26** substitute (word): critical *Τί* ] RP *Ὅρα τί*
+   - Latin: Hoc audītum centuriō tribūnō nūntiātum īvit: “Vidē,” inquit, “quid agās: nam hic homō Rōmānus est.”
+   - 1573: Hoc auditum, centurio tribuno nunciatum iuit: Vide, inquit, quid agas: nam hic homo Romanus est.
+   - TR: Ἀκούσας δὲ ὁ ἑκατόνταρχος, προσελθὼν ἀπήγγειλε τῷ χιλιάρχῳ λέγων, Ὅρα τί μέλλεις ποιεῖν· ὁ γὰρ ἄνθρωπος οὗτος Ῥωμαῖός ἐστι.
+   - SBLGNT: ἀκούσας δὲ ὁ ἑκατοντάρχης προσελθὼν τῷ χιλιάρχῳ ἀπήγγειλεν λέγων· Τί μέλλεις ποιεῖν; ὁ γὰρ ἄνθρωπος οὗτος Ῥωμαῖός ἐστιν.
+   - Vulgate: Quo audito, centurio accessit ad tribunum, et nuntiavit ei, dicens: Quid acturus es? hic enim homo civis Romanus est.
+   - BSB: On hearing this, the centurion went and reported it to the commander. “What are you going to do?” he said. “This man is a Roman citizen.”
+   - WEB: When the centurion heard it, he went to the commanding officer and told him, “Watch what you are about to do, for this man is a Roman!”
+- **23:8** substitute (word): critical *μήτε* ] RP *μηδὲ*
+   - Latin: Saddūcæī enim resurrēctiōnem, aut angelum, aut spīritum esse negant: at Pharisæī utrumque cōnfitentur.
+   - 1573: Sadducæi enim resurrectionem, aut angelum, aut spiritum esse negant: at Pharisæi vtrumque confitentur.
+   - TR: Σαδδουκαῖοι μὲν γὰρ λέγουσι μὴ εἶναι ἀνάστασιν, μηδὲ ἄγγελον, μήτε πνεῦμα· Φαρισαῖοι δὲ ὁμολογοῦσι τὰ ἀμφότερα.
+   - SBLGNT: Σαδδουκαῖοι μὲν γὰρ λέγουσιν μὴ εἶναι ἀνάστασιν μήτε ἄγγελον μήτε πνεῦμα, Φαρισαῖοι δὲ ὁμολογοῦσιν τὰ ἀμφότερα.
+   - Vulgate: Sadducæi enim dicunt non esse resurrectionem, neque angelum, neque spiritum: pharisæi autem utraque confitentur.
+   - BSB: For the Sadducees say that there is neither a resurrection, nor angels, nor spirits, but the Pharisees acknowledge them all.
+   - WEB: For the Sadducees say that there is no resurrection, nor angel, nor spirit; but the Pharisees confess all of these.
+- **23:9** substitute (word): critical *τινὲς τῶν γραμματέων* ] RP *οἱ γραμματεῖς*; add (word): critical *ἄγγελος* ] RP *+ μὴ θεομαχῶμεν*
+   - Latin: Hīc exortō ingentī clāmōre, surrēxērunt scrībæ, quī erant Pharisaicārum partium, et pugnantēs dīxērunt: “Nūllum in hōc homine malum invēnimus. Quod sī eum spīritus est aut angelus allocūtus, nē pugnēmus cum Deō.”
+   - 1573: Hîc exorto ingenti clamore, surrexerunt Scribæ, qui erant Pharisaicarum partium, et pugnantes dixerunt: Nullum in hoc homine malum inuenimus. Quòd si eum spiritus est, aut angelus allocutus, ne pugnemus cum Deo.
+   - TR: Ἐγένετο δὲ κραυγὴ μεγάλη· καὶ ἀναστάντες οἱ γραμματεῖς τοῦ μέρους τῶν Φαρισαίων διεμάχοντο λέγοντες, Οὐδὲν κακὸν εὑρίσκομεν ἐν τῷ ἀνθρώπῳ τούτῳ· εἰ δὲ πνεῦμα ἐλάλησεν αὐτῷ ἢ ἄγγελος, μὴ θεομαχῶμεν.
+   - SBLGNT: ἐγένετο δὲ κραυγὴ μεγάλη, καὶ ἀναστάντες τινὲς τῶν γραμματέων τοῦ μέρους τῶν Φαρισαίων διεμάχοντο λέγοντες· Οὐδὲν κακὸν εὑρίσκομεν ἐν τῷ ἀνθρώπῳ τούτῳ· εἰ δὲ πνεῦμα ἐλάλησεν αὐτῷ ἢ ἄγγελος—
+   - Vulgate: Factus est autem clamor magnus. Et surgentes quidam pharisæorum, pugnabant, dicentes: Nihil mali invenimus in homine isto: quid si spiritus locutus est ei, aut angelus?
+   - BSB: A great clamor arose, and some scribes from the party of the Pharisees got up and contended sharply, “We find nothing wrong with this man. What if a spirit or an angel has spoken to him?”
+   - WEB: A great clamor arose, and some of the scribes of the Pharisees’ part stood up, and contended, saying, “We find no evil in this man. But if a spirit or angel has spoken to him, let’s not fight against God!”
+- **23:10** substitute (word): critical *γινομένης* ] RP *γενομένης*; substitute (word): critical *φοβηθεὶς* ] RP *εὐλαβηθεὶς*
+   - Latin: Ita magnā exortā contentiōne, veritus tribūnus, nē Paulus ab illīs discerperētur, jussit exercitum dēscendere, eumque ē mediō illōrum abreptum in castra dūcere.
+   - 1573: Ita magna exorta contentione, veritus tribunus, ne Paulus ab illis discerperetur, iussit exercitum descendere, eumque è medio illorum abreptum in castra ducere.
+   - TR: Πολλῆς δὲ γενομένης στάσεως, εὐλαβηθεὶς ὁ χιλίαρχος μὴ διασπασθῇ ὁ Παῦλος ὑπ᾿ αὐτῶν, ἐκέλευσε τὸ στράτευμα καταβὰν ἁρπάσαι αὐτὸν ἐκ μέσου αὐτῶν, ἄγειν τε εἰς τὴν παρεμβολήν.
+   - SBLGNT: πολλῆς δὲ γινομένης στάσεως φοβηθεὶς ὁ χιλίαρχος μὴ διασπασθῇ ὁ Παῦλος ὑπʼ αὐτῶν ἐκέλευσεν τὸ στράτευμα καταβὰν ἁρπάσαι αὐτὸν ἐκ μέσου αὐτῶν, ἄγειν τε εἰς τὴν παρεμβολήν.
+   - Vulgate: Et cum magna dissensio facta esset, timens tribunus ne discerperetur Paulus ab ipsis, jussit milites descendere, et rapere eum de medio eorum, ac deducere eum in castra.
+   - BSB: The dispute grew so violent that the commander was afraid they would tear Paul to pieces. He ordered the soldiers to go down and remove him by force and bring him into the barracks.
+   - WEB: When a great argument arose, the commanding officer, fearing that Paul would be torn in pieces by them, commanded the soldiers to go down and take him by force from among them and bring him into the barracks.
+- **23:13** substitute (word): critical *ποιησάμενοι* ] RP *πεποιηκότες*
+   - Latin: Erant autem plūs quadrāgintā, quī hanc conjūrātiōnem fēcērunt.
+   - 1573: Erant autem plus quadraginta, qui hanc coniurationem fecerunt,
+   - TR: Ἦσαν δὲ πλείους τεσσαράκοντα οἱ ταύτην τὴν συνωμοσίαν πεποιηκότες·
+   - SBLGNT: ἦσαν δὲ πλείους τεσσεράκοντα οἱ ταύτην τὴν συνωμοσίαν ποιησάμενοι·
+   - Vulgate: Erant autem plus quam quadraginta viri qui hanc conjurationem fecerant:
+   - BSB: More than forty of them were involved in this plot.
+   - WEB: There were more than forty people who had made this conspiracy.
+- **23:15** add (word): critical *ὅπως* ] RP *+ αὔριον*
+   - Latin: Quamobrem vōs tribūnō et conciliō significāte, ut crās eum ad vōs dēdūcant, tamquam dē eō cognitūrōs exāctius. Nōs vērō, antequam sistātur, parātī sumus eum perimere.”
+   - 1573: Quamobrem vos tribuno et concilio significate, vt cras eum ad vos deducant, tanquam de eo cognituros exactius. Nos verò, antequam sistatur, parati sumus eum perimere.
+   - TR: Νῦν οὖν ὑμεῖς ἐμφανίσατε τῷ χιλιάρχῳ σὺν τῷ συνεδρίῳ, ὅπως αὔριον αὐτὸν καταγάγῃ πρὸς ὑμᾶς, ὡς μέλλοντας διαγινώσκειν ἀκριβέστερον τὰ περὶ αὐτοῦ· ἡμεῖς δέ, πρὸ τοῦ ἐγγίσαι αὐτόν, ἕτοιμοί ἐσμεν τοῦ ἀνελεῖν αὐτόν.
+   - SBLGNT: νῦν οὖν ὑμεῖς ἐμφανίσατε τῷ χιλιάρχῳ σὺν τῷ συνεδρίῳ ὅπως καταγάγῃ αὐτὸν εἰς ὑμᾶς ὡς μέλλοντας διαγινώσκειν ἀκριβέστερον τὰ περὶ αὐτοῦ· ἡμεῖς δὲ πρὸ τοῦ ἐγγίσαι αὐτὸν ἕτοιμοί ἐσμεν τοῦ ἀνελεῖν αὐτόν.
+   - Vulgate: Nunc ergo vos notum facite tribuno cum concilio, ut producat illum ad vos, tamquam aliquid certius cognituri de eo. Nos vero priusquam appropiet, parati sumus interficere illum.
+   - BSB: Now then, you and the Sanhedrin petition the commander to bring him down to you on the pretext of examining his case more carefully. We are ready to kill him on the way.”
+   - WEB: Now therefore, you with the council inform the commanding officer that he should bring him down to you tomorrow, as though you were going to judge his case more exactly. We are ready to kill him before he comes near.”
+- **23:25** substitute (word): critical *ἔχουσαν* ] RP *περιέχουσαν*
+   - Latin: Scrīpsit autem epistulam, cujus exemplum est hoc:
+   - 1573: Scripsit autem epistolam, cuius exemplum est hoc:
+   - TR: γράψας ἐπιστολὴν περιέχουσαν τὸν τύπον τοῦτον·
+   - SBLGNT: γράψας ἐπιστολὴν ἔχουσαν τὸν τύπον τοῦτον·
+   - Vulgate: (Timuit enim ne forte raperent eum Judæi, et occiderent, et ipse postea calumniam sustineret, tamquam accepturus pecuniam.)
+   - BSB: And he wrote the following letter:
+   - WEB: He wrote a letter like this:
+- **23:28** substitute (word): critical *ἐπιγνῶναι* ] RP *γνῶναι*
+   - Latin: Volēns autem scīre, quam ob causam illī eum accūsārent, dēdūxī eum in eōrum concilium;
+   - 1573: Volens autem scire, quam ob causam illi eum accusarent, deduxi eum in eorum concilium,
+   - TR: Βουλόμενος δὲ γνῶναι τὴν αἰτίαν δι᾿ ἣν ἐνεκάλουν αὐτῷ, κατήγαγον αὐτὸν εἰς τὸ συνέδριον αὐτῶν·
+   - SBLGNT: βουλόμενός τε ἐπιγνῶναι τὴν αἰτίαν διʼ ἣν ἐνεκάλουν αὐτῷ, κατήγαγον εἰς τὸ συνέδριον αὐτῶν.
+   - Vulgate: Volensque scire causam quam objiciebant illi, deduxi eum in concilium eorum.
+   - BSB: and since I wanted to understand their charges against him, I brought him down to their Sanhedrin.
+   - WEB: Desiring to know the cause why they accused him, I brought him down to their council.
+- **23:32** substitute (word): critical *ἀπέρχεσθαι* ] RP *πορεύεσθαι*
+   - Latin: Postrīdiē sīvērunt equitēs cum eō proficīscī, ipsī in castra reversī sunt.
+   - 1573: Postridie siuerunt equites cum eo proficisci, ipsi in castra reuersi sunt.
+   - TR: Τῇ δὲ ἐπαύριον ἐάσαντες τοὺς ἱππεῖς πορεύεσθαι σὺν αὐτῷ, ὑπέστρεψαν εἰς τὴν παρεμβολήν·
+   - SBLGNT: τῇ δὲ ἐπαύριον ἐάσαντες τοὺς ἱππεῖς ἀπέρχεσθαι σὺν αὐτῷ ὑπέστρεψαν εἰς τὴν παρεμβολήν·
+   - Vulgate: Et postera die dimissis equitibus ut cum eo irent, reversi sunt ad castra.
+   - BSB: The next day they returned to the barracks and let the horsemen go on with him.
+   - WEB: But on the next day they left the horsemen to go with him, and returned to the barracks.
+- **23:34** add (word): critical *δὲ* ] RP *+ ὁ ἡγεμών*
+   - Latin: Prætor, eā lēctā, scīscitātus, ex quā esset prōvincia, ubi ex Ciliciā audīvit,
+   - 1573: Prætor ea lecta, sciscitatus ex qua esset prouincia, vbi ex Cilicia audiuit,
+   - TR: Ἀναγνοὺς δὲ ὁ ἡγεμών, καὶ ἐπερωτήσας ἐκ ποίας ἐπαρχίας ἐστί, καὶ πυθόμενος ὅτι ἀπὸ Κιλικίας,
+   - SBLGNT: ἀναγνοὺς δὲ καὶ ἐπερωτήσας ἐκ ποίας ἐπαρχείας ἐστὶν καὶ πυθόμενος ὅτι ἀπὸ Κιλικίας,
+   - Vulgate: Cum legisset autem, et interrogasset de qua provincia esset, et cognoscens quia de Cilicia:
+   - BSB: The governor read the letter and asked what province Paul was from. Learning that he was from Cilicia,
+   - WEB: When the governor had read it, he asked what province he was from. When he understood that he was from Cilicia, he said,
+- **23:35** substitute (word): critical *κελεύσας* ] RP *Ἐκέλευσέν τε αὐτὸν*
+   - Latin: ita dīxit: “Audiam tē, ubi tuī quoque accūsātōrēs vēnerint.” Eumque in Hērōdis prætōriō jussit asservārī.
+   - 1573: ita dixit: Audiam te, vbi tui quoque accusatores venerint: eumque in Herodis prætorio iussit asseruari.
+   - TR: Διακούσομαί σου, ἔφη, ὅταν καὶ οἱ κατήγοροί σου παραγένωνται. Ἐκέλευσέ τε αὐτὸν ἐν τῷ πραιτωρίῳ τοῦ Ἡρῴδου φυλάσσεσθαι.
+   - SBLGNT: Διακούσομαί σου, ἔφη, ὅταν καὶ οἱ κατήγοροί σου παραγένωνται· κελεύσας ἐν τῷ πραιτωρίῳ τοῦ Ἡρῴδου φυλάσσεσθαι αὐτόν.
+   - Vulgate: Audiam te, inquit, cum accusatores tui venerint. Jussitque in prætorio Herodis custodiri eum.
+   - BSB: he said, “I will hear your case when your accusers arrive.” Then he ordered that Paul be kept under guard in Herod’s Praetorium.
+   - WEB: “I will hear you fully when your accusers also arrive.” He commanded that he be kept in Herod’s palace.
+- **24:1** substitute (word): critical *πρεσβυτέρων τινῶν* ] RP *τῶν πρεσβυτέρων*
+   - Latin: Post quīnque diēs dēscendit pontifex Ananīās cum senātōribus, et ōrātōre Tertullō quōdam, quī apud prætōrem contrā Paulum compāruērunt.
+   - 1573: Post quinque dies descendit pontifex Ananias cum Senatoribus, et oratore Tertullo quodam, qui apud Prætorem contra Paulum comparuerunt:
+   - TR: Μετὰ δὲ πέντε ἡμέρας κατέβη ὁ ἀρχιερεὺς Ἀνανίας μετὰ τῶν πρεσβυτέρων καὶ ῥήτορος Τερτύλλου τινός, οἵτινες ἐνεφάνισαν τῷ ἡγεμόνι κατὰ τοῦ Παύλου.
+   - SBLGNT: Μετὰ δὲ πέντε ἡμέρας κατέβη ὁ ἀρχιερεὺς Ἁνανίας μετὰ πρεσβυτέρων τινῶν καὶ ῥήτορος Τερτύλλου τινός, οἵτινες ἐνεφάνισαν τῷ ἡγεμόνι κατὰ τοῦ Παύλου.
+   - Vulgate: Post quinque autem dies descendit princeps sacerdotum Ananias, cum senioribus quibusdam, et Tertullo quodam oratore, qui adierunt præsidem adversus Paulum.
+   - BSB: Five days later the high priest Ananias came down with some elders and a lawyer named Tertullus, who presented to the governor their case against Paul.
+   - WEB: After five days, the high priest, Ananias, came down with certain elders and an orator, one Tertullus. They informed the governor against Paul.
+- **24:2** substitute (word): critical *διορθωμάτων* ] RP *κατορθωμάτων*
+   - Latin: Quō vocātō, Tertullus sīc accūsāre ōrsus est: “Quod multā pāce per tē fruimur, quodque tuā prōvidentiā hæc nātiō rēctē administrātur,
+   - 1573: quo vocato. Tertullus sic accusare orsus est: Quòd multa pace per te fruimur, quodque tua prouidentia hæc natio rectè administratur,
+   - TR: Κληθέντος δὲ αὐτοῦ, ἤρξατο κατηγορεῖν ὁ Τέρτυλλος λέγων, Πολλῆς εἰρήνης τυγχάνοντες διὰ σοῦ, καὶ κατορθωμάτων γινομένων τῷ ἔθνει τούτῳ διὰ τῆς σῆς προνοίας,
+   - SBLGNT: κληθέντος δὲ αὐτοῦ ἤρξατο κατηγορεῖν ὁ Τέρτυλλος λέγων· Πολλῆς εἰρήνης τυγχάνοντες διὰ σοῦ καὶ διορθωμάτων γινομένων τῷ ἔθνει τούτῳ διὰ τῆς σῆς προνοίας
+   - Vulgate: Et citato Paulo cœpit accusare Tertullus, dicens: Cum in multa pace agamus per te, et multa corrigantur per tuam providentiam,
+   - BSB: When Paul had been called in, Tertullus opened the prosecution: “Because of you, we have enjoyed a lasting peace, and your foresight has brought improvements to this nation.
+   - WEB: When he was called, Tertullus began to accuse him, saying, “Seeing that by you we enjoy much peace, and that prosperity is coming to this nation by your foresight,
+- **24:13** substitute (word): critical *οὐδὲ* ] RP *οὔτε*; substitute (word): critical *νυνὶ* ] RP *νῦν*
+   - Latin: Nec mē eōrum possunt convincere, dē quibus accūsant.
+   - 1573: nec me eorum possunt conuincere, de quibus accusant.
+   - TR: Οὔτε παραστῆσαί με δύνανται περὶ ὧν νῦν κατηγοροῦσί μου.
+   - SBLGNT: οὐδὲ παραστῆσαι δύνανταί σοι περὶ ὧν νυνὶ κατηγοροῦσίν μου.
+   - Vulgate: neque probare possunt tibi de quibus nunc me accusant.
+   - BSB: Nor can they prove to you any of their charges against me.
+   - WEB: Nor can they prove to you the things of which they now accuse me.
+- **24:15** add (word): critical *ἔσεσθαι* ] RP *+ νεκρῶν*
+   - Latin: ac in Deō spem habēre (id quod istī ipsī quoque exspectant) resurrēctiōnem fore mortuōrum, tum jūstōrum, tum injūstōrum.
+   - 1573: ac in Deo spem habere (id quod isti ipsi quoque expectant) resurrectionem fore mortuorum, tum iustorum tum iniustorum.
+   - TR: ἐλπίδα ἔχων εἰς τὸν Θεόν, ἣν καὶ αὐτοὶ οὗτοι προσδέχονται, ἀνάστασιν μέλλειν ἔσεσθαι νεκρῶν, δικαίων τε καὶ ἀδίκων.
+   - SBLGNT: ἐλπίδα ἔχων εἰς τὸν θεόν, ἣν καὶ αὐτοὶ οὗτοι προσδέχονται, ἀνάστασιν μέλλειν ἔσεσθαι δικαίων τε καὶ ἀδίκων·
+   - Vulgate: spem habens in Deum, quam et hi ipsi exspectant, resurrectionem futuram justorum et iniquorum.
+   - BSB: and I have the same hope in God that they themselves cherish, that there will be a resurrection of both the righteous and the wicked.
+   - WEB: having hope toward God, which these also themselves look for, that there will be a resurrection of the dead, both of the just and unjust.
+- **24:18** substitute (word): critical *αἷς* ] RP *οἷς*
+   - Latin: Cum mē in fānō lūstrātum offendērunt, nūllā cum turbā aut tumultū, quīdam ex Asiā Jūdæī.
+   - 1573: cùm me in fano lustratum offenderunt, nulla cum turba aut tumultu, quidam ex Asia Iudæi,
+   - TR: ἐν οἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου, τινὲς ἀπὸ τῆς Ἀσίας Ἰουδαῖοι·
+   - SBLGNT: ἐν αἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου,
+   - Vulgate: in quibus invenerunt me purificatum in templo: non cum turba, neque cum tumultu.
+   - BSB: At the time they found me in the temple, I was ceremonially clean and was not inciting a crowd or an uproar. But there are some Jews from the province of Asia
+   - WEB: amid which certain Jews from Asia found me purified in the temple, not with a mob, nor with turmoil.
+- **24:21** substitute (word): critical *ἐφʼ* ] RP *ὑφʼ*
+   - Latin: Nisi forte crīminōsa est hæc ūna vōx, quā sīc inter eōs astāns vōciferātus sum: ‘Dē mortuōrum resurrēctiōne ego ā vōbīs hodiē reus agor.’”
+   - 1573: nisi fortè criminosa est hæc vna vox, qua sic inter eos astans vociferatus sum: De mortuorum resurrectione ego à vobis hodie reus agor.
+   - TR: ἢ περὶ μιᾶς ταύτης φωνῆς, ἧς ἔκραξα ἑστὼς ἐν αὐτοῖς, ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ὑφ᾿ ὑμῶν.
+   - SBLGNT: ἢ περὶ μιᾶς ταύτης φωνῆς ἧς ἐκέκραξα ἐν αὐτοῖς ἑστὼς ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ἐφʼ ὑμῶν.
+   - Vulgate: nisi de una hac solummodo voce qua clamavi inter eos stans: Quoniam de resurrectione mortuorum ego judicor hodie a vobis.
+   - BSB: unless it was this one thing I called out as I stood in their presence: ‘It is concerning the resurrection of the dead that I am on trial before you today.’”
+   - WEB: unless it is for this one thing that I cried standing among them, ‘Concerning the resurrection of the dead I am being judged before you today!’”
+- **24:22** substitute (word): critical *Ἀνεβάλετο δὲ αὐτοὺς ὁ Φῆλιξ* ] RP *Ἀκούσας δὲ ταῦτα ὁ Φῆλιξ ἀνεβάλετο αὐτούς*; substitute (word): critical *εἴπας* ] RP *εἰπών*
+   - Latin: Hīs audītīs, Fēlīx amplius prōnūntiāvit, eam īnstitūtiōnem satis perspectam habēns: “Cum dēscenderit Lȳsiās tribūnus,” inquit, “cognōscam dē vestrā causā.”
+   - 1573: His auditis, Felix amplius pronunciauit, eam institutionem satis perspectam habens: Cùm descenderit Lysias tribunus, inquit, cognoscam de vestra causa,
+   - TR: Ἀκούσας δὲ ταῦτα ὁ Φῆλιξ ἀνεβάλετο αὐτούς, ἀκριβέστερον εἰδὼς τὰ περὶ τῆς ὁδοῦ, εἰπών, Ὅταν Λυσίας ὁ χιλίαρχος καταβῇ, διαγνώσομαι τὰ καθ᾿ ὑμᾶς·
+   - SBLGNT: Ἀνεβάλετο δὲ αὐτοὺς ὁ Φῆλιξ, ἀκριβέστερον εἰδὼς τὰ περὶ τῆς ὁδοῦ, εἴπας· Ὅταν Λυσίας ὁ χιλίαρχος καταβῇ διαγνώσομαι τὰ καθʼ ὑμᾶς·
+   - Vulgate: Distulit autem illos Felix, certissime sciens de via hac, dicens: Cum tribunus Lysias descenderit, audiam vos.
+   - BSB: Then Felix, who was well informed about the Way, adjourned the hearing and said, “When Lysias the commander comes, I will decide your case.”
+   - WEB: But Felix, having more exact knowledge concerning the Way, deferred them, saying, “When Lysias, the commanding officer, comes down, I will decide your case.”
+- **24:24** omit (word): critical *ἰδίᾳ* ] RP *–*; omit (word): critical *Ἰησοῦν* ] RP *–*
+   - Latin: Post aliquot diēs advēnit Fēlīx cum Drūsillā uxōre suā, quæ erat Jūdæa, et arcessītum Paulum audīvit dē fidē in Chrīstum.
+   - 1573: Post aliquot dies aduenit Felix cùm Drusilla vxore sua, quæ erat Iudæa, et accersitum Paulum audiuit de fide in Christum.
+   - TR: Μετὰ δὲ ἡμέρας τινάς, παραγενόμενος ὁ Φῆλιξ σὺν Δρουσίλλῃ τῇ γυναικὶ αὐτοῦ οὔσῃ Ἰουδαίᾳ, μετεπέμψατο τὸν Παῦλον, καὶ ἤκουσεν αὐτοῦ περὶ τῆς εἰς Χριστὸν πίστεως.
+   - SBLGNT: Μετὰ δὲ ἡμέρας τινὰς παραγενόμενος ὁ Φῆλιξ σὺν Δρουσίλλῃ τῇ ἰδίᾳ γυναικὶ οὔσῃ Ἰουδαίᾳ μετεπέμψατο τὸν Παῦλον καὶ ἤκουσεν αὐτοῦ περὶ τῆς εἰς Χριστὸν Ἰησοῦν πίστεως.
+   - Vulgate: Post aliquot autem dies veniens Felix cum Drusilla uxore sua, quæ erat Judæa, vocavit Paulum, et audivit ab eo fidem quæ est in Christum Jesum.
+   - BSB: After several days, Felix returned with his wife Drusilla, who was a Jewess. He sent for Paul and listened to him speak about faith in Christ Jesus.
+   - WEB: After some days, Felix came with Drusilla his wife, who was a Jewess, and sent for Paul and heard him concerning the faith in Christ Jesus.
+- **24:25** add (word): critical *μέλλοντος* ] RP *+ ἔσεσθαι*
+   - Latin: Ac eō dē jūstitiā, et continentiā, et futūrō jūdiciō disserente, territus Fēlīx, dīxit: “In præsentiā abī: ego, tempus nactus, ēvocābō tē.”
+   - 1573: Ac eo de iustitia, et continentia, et futuro iudicio disserente, territus Felix, dixit: In præsentia, abi; ego tempus nactus, euocabo te.
+   - TR: Διαλεγομένου δὲ αὐτοῦ περὶ δικαιοσύνης καὶ ἐγκρατείας καὶ τοῦ κρίματος τοῦ μέλλοντος ἔσεσθαι, ἔμφοβος γενόμενος ὁ Φῆλιξ ἀπεκρίθη, Τὸ νῦν ἔχον πορεύου· καιρὸν δὲ μεταλαβὼν μετακαλέσομαί σε·
+   - SBLGNT: διαλεγομένου δὲ αὐτοῦ περὶ δικαιοσύνης καὶ ἐγκρατείας καὶ τοῦ κρίματος τοῦ μέλλοντος ἔμφοβος γενόμενος ὁ Φῆλιξ ἀπεκρίθη· Τὸ νῦν ἔχον πορεύου, καιρὸν δὲ μεταλαβὼν μετακαλέσομαί σε·
+   - Vulgate: Disputante autem illo de justitia, et castitate, et de judicio futuro, tremefactus Felix, respondit: Quod nunc attinet, vade: tempore autem opportuno accersam te:
+   - BSB: As Paul expounded on righteousness, self-control, and the coming judgment, Felix became frightened and said, “You may go for now. When I find the time, I will call for you.”
+   - WEB: As he reasoned about righteousness, self-control, and the judgment to come, Felix was terrified, and answered, “Go your way for this time, and when it is convenient for me, I will summon you.”
+- **25:2** substitute (word): critical *οἱ ἀρχιερεῖς* ] RP *ὁ ἀρχιερεὺς*
+   - Latin: Sēque apud eum stitērunt pontifex, et Jūdæōrum prīmī, contrā Paulum.
+   - 1573: seque apud eum stiterunt Pontifex, et Iudæorum primi, contra Paulum:
+   - TR: Ἐνεφάνισαν δὲ αὐτῷ ὁ ἀρχιερεὺς καὶ οἱ πρῶτοι τῶν Ἰουδαίων κατὰ τοῦ Παύλου, καὶ παρεκάλουν αὐτόν,
+   - SBLGNT: ἐνεφάνισάν τε αὐτῷ οἱ ἀρχιερεῖς καὶ οἱ πρῶτοι τῶν Ἰουδαίων κατὰ τοῦ Παύλου, καὶ παρεκάλουν αὐτὸν
+   - Vulgate: Adieruntque eum principes sacerdotum et primi Judæorum adversus Paulum: et rogabant eum,
+   - BSB: where the chief priests and Jewish leaders presented their case against Paul. They urged Festus
+   - WEB: Then the high priest and the principal men of the Jews informed him against Paul, and they begged him,
+- **25:5** substitute (word): critical *ἄτοπον* ] RP *τούτω*
+   - Latin: “Quāpropter quī vestrum possunt,” inquit, “simul dēscendant: et sī quid in hōc homine crīminis est, accūsent.”
+   - 1573: Quapropter qui vestrûm possunt, inquit, simul descendant: et si quid in hoc homine criminis est, accusent.
+   - TR: Οἱ οὖν δυνατοὶ ἐν ὑμῖν, φησί, συγκαταβάντες, εἴ τι ἐστὶν ἐν τῷ ἀνδρὶ τούτῳ, κατηγορείτωσαν αὐτοῦ.
+   - SBLGNT: Οἱ οὖν ἐν ὑμῖν, φησίν, δυνατοὶ συγκαταβάντες εἴ τί ἐστιν ἐν τῷ ἀνδρὶ ἄτοπον κατηγορείτωσαν αὐτοῦ.
+   - Vulgate: Qui ergo in vobis, ait, potentes sunt, descendentes simul, si quod est in viro crimen, accusent eum.
+   - BSB: So if this man has done anything wrong, let some of your leaders come down with me and accuse him there.”
+   - WEB: “Let them therefore”, he said, “that are in power among you go down with me, and if there is anything wrong in the man, let them accuse him.”
+- **25:9** substitute (word): critical *κριθῆναι* ] RP *κρίνεσθαι*
+   - Latin: Fēstus autem volēns Jūdæīs grātificārī, dīxit Paulō: “Vīs Hierosolymam ascendere, et ibi dē hīs causam apud mē dīcere?”
+   - 1573: Festus autem volens Iudæis gratificari, dixit Paulo: Vis Hierosolymam ascendere, et ibi de his causam apud me dicere?
+   - TR: Ὁ Φῆστος δὲ τοῖς Ἰουδαίοις θέλων χάριν καταθέσθαι, ἀποκριθεὶς τῷ Παύλῳ εἶπε, Θέλεις εἰς Ἱεροσόλυμα ἀναβάς, ἐκεῖ περὶ τούτων κρίνεσθαι ἐπ᾿ ἐμοῦ;
+   - SBLGNT: ὁ Φῆστος δὲ θέλων τοῖς Ἰουδαίοις χάριν καταθέσθαι ἀποκριθεὶς τῷ Παύλῳ εἶπεν· Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων κριθῆναι ἐπʼ ἐμοῦ;
+   - Vulgate: Festus autem volens gratiam præstare Judæis, respondens Paulo, dixit: Vis Jerosolymam ascendere, et ibi de his judicari apud me?
+   - BSB: But Festus, wishing to do the Jews a favor, said to Paul, “Are you willing to go up to Jerusalem to stand trial before me on these charges?”
+   - WEB: But Festus, desiring to gain favor with the Jews, answered Paul and said, “Are you willing to go up to Jerusalem and be judged by me there concerning these things?”
+- **25:15** substitute (word): critical *καταδίκην* ] RP *δίκην*
+   - Latin: Dē quō mē, postquam Hierosolymam vēnī, compellārunt pontificēs senātōrēsque Jūdæōrum, eum poscentēs ad supplicium.
+   - 1573: de quo me, postquam Hierosolymam veni, compellarunt Pontifices senatoresque Iudæorum, eum poscentes ad supplicium.
+   - TR: περὶ οὗ, γενομένου μου εἰς Ἱεροσόλυμα, ἐνεφάνισαν οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τῶν Ἰουδαίων, αἰτούμενοι κατ᾿ αὐτοῦ δίκην.
+   - SBLGNT: περὶ οὗ γενομένου μου εἰς Ἱεροσόλυμα ἐνεφάνισαν οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τῶν Ἰουδαίων, αἰτούμενοι κατʼ αὐτοῦ καταδίκην·
+   - Vulgate: de quo cum essem Jerosolymis, adierunt me principes sacerdotum et seniores Judæorum, postulantes adversus illum damnationem.
+   - BSB: While I was in Jerusalem, the chief priests and elders of the Jews presented their case and requested a judgment against him.
+   - WEB: about whom, when I was at Jerusalem, the chief priests and the elders of the Jews informed me, asking for a sentence against him.
+- **25:16** add (word): critical *ἄνθρωπον* ] RP *+ εἰς ἀπώλειαν*
+   - Latin: Quibus ego respondī, nōn esse Rōmānīs mōrem, hominem ūllum ad necem condōnāre, priusquam reus præsentēs habuerit accūsātōrēs, et locum suī contrā crīminātiōnem dēfendendī obtinuerit.
+   - 1573: Quibus ego respondi, non esse Romanis morem, hominem vllum ad necem condonare, priusquam reus præsentes habuerit accusatores, et locum sui contra criminationem defendendi obtinuerit.
+   - TR: Πρὸς οὓς ἀπεκρίθην, ὅτι οὐκ ἔστιν ἔθος Ῥωμαίοις χαρίζεσθαί τινα ἄνθρωπον εἰς ἀπώλειαν, πρὶν ἢ ὁ κατηγορούμενος κατὰ πρόσωπον ἔχοι τοὺς κατηγόρους, τόπον τε ἀπολογίας λάβοι περὶ τοῦ ἐγκλήματος.
+   - SBLGNT: πρὸς οὓς ἀπεκρίθην ὅτι οὐκ ἔστιν ἔθος Ῥωμαίοις χαρίζεσθαί τινα ἄνθρωπον πρὶν ἢ ὁ κατηγορούμενος κατὰ πρόσωπον ἔχοι τοὺς κατηγόρους τόπον τε ἀπολογίας λάβοι περὶ τοῦ ἐγκλήματος.
+   - Vulgate: Ad quos respondi: Quia non est Romanis consuetudo damnare aliquem hominem priusquam is qui accusatur præsentes habeat accusatores, locumque defendendi accipiat ad abluenda crimina.
+   - BSB: I told them that it is not the Roman custom to hand a man over before he has had an opportunity to face his accusers and defend himself against their charges.
+   - WEB: I answered them that it is not the custom of the Romans to give up any man to destruction before the accused has met the accusers face to face and has had opportunity to make his defense concerning the matter laid against him.
+- **25:18** substitute (word): critical *ἔφερον* ] RP *ἐπέφερον*; omit (word): critical *πονηρῶν* ] RP *–*
+   - Latin: Cui cum præstō essent accūsātōrēs, nūllum crīmen īnferēbant, cujusmodī ego opīnātus eram:
+   - 1573: Cui cùm præstò essent accusatores, nullum crimen inferebant, cuiusmodi ego opinatus eram:
+   - TR: περὶ οὗ σταθέντες οἱ κατήγοροι οὐδεμίαν αἰτίαν ἐπέφερον ὧν ὑπενόουν ἐγώ,
+   - SBLGNT: περὶ οὗ σταθέντες οἱ κατήγοροι οὐδεμίαν αἰτίαν ἔφερον ὧν ἐγὼ ὑπενόουν πονηρῶν,
+   - Vulgate: De quo, cum stetissent accusatores, nullam causam deferebant, de quibus ego suspicabar malum.
+   - BSB: But when his accusers rose to speak, they did not charge him with any of the crimes I had expected.
+   - WEB: When the accusers stood up, they brought no charges against him of such things as I supposed;
+- **25:21** substitute (word): critical *ἀναπέμψω* ] RP *πέμψω*
+   - Latin: Sed Paulus, ut ad Augustī cognitiōnem servārētur, appellāvit. Et ego jussī, ut asservārētur, dōnec eum mittam ad Cæsarem.”
+   - 1573: Sed Paulus vt ad Augusti cognitionem seruaretur, appellauit. Et ego iussi vt asseruaretur, donec eum mittam ad Cæsarem.
+   - TR: Τοῦ δὲ Παύλου ἐπικαλεσαμένου τηρηθῆναι αὐτὸν εἰς τὴν τοῦ Σεβαστοῦ διάγνωσιν, ἐκέλευσα τηρεῖσθαι αὐτόν, ἕως οὗ πέμψω αὐτὸν πρὸς Καίσαρα.
+   - SBLGNT: τοῦ δὲ Παύλου ἐπικαλεσαμένου τηρηθῆναι αὐτὸν εἰς τὴν τοῦ Σεβαστοῦ διάγνωσιν, ἐκέλευσα τηρεῖσθαι αὐτὸν ἕως οὗ ἀναπέμψω αὐτὸν πρὸς Καίσαρα.
+   - Vulgate: Paulo autem appellante ut servaretur ad Augusti cognitionem, jussi servari eum, donec mittam eum ad Cæsarem.
+   - BSB: But when Paul appealed to be held over for the decision of the Emperor, I ordered that he be held until I could send him to Caesar.”
+   - WEB: But when Paul had appealed to be kept for the decision of the emperor, I commanded him to be kept until I could send him to Caesar.”
+- **25:22** add (word): critical *Φῆστον* ] RP *+ ἔφη*
+   - Latin: Tum Agrippa ita Fēstō dīxit: “Vellem ego quoque hominem audīre.” Et ille: “Crās,” inquit, “audiēs eum.”
+   - 1573: Tum Agrippa ita Festo dixit: Vellem ego quoque hominem audire. Et ille: Cras, inquit, audies eum.
+   - TR: Ἀγρίππας δὲ πρὸς τὸν Φῆστον ἔφη, Ἐβουλόμην καὶ αὐτὸς τοῦ ἀνθρώπου ἀκοῦσαι. Ὁ δέ, Αὔριον, φησίν, ἀκούσῃ αὐτοῦ.
+   - SBLGNT: Ἀγρίππας δὲ πρὸς τὸν Φῆστον· Ἐβουλόμην καὶ αὐτὸς τοῦ ἀνθρώπου ἀκοῦσαι. Αὔριον, φησίν, ἀκούσῃ αὐτοῦ.
+   - Vulgate: Agrippa autem dixit ad Festum: Volebam et ipse hominem audire. Cras, inquit, audies eum.
+   - BSB: Then Agrippa said to Festus, “I would like to hear this man myself.” “Tomorrow you will hear him,” Festus declared.
+   - WEB: Agrippa said to Festus, “I also would like to hear the man myself.” “Tomorrow,” he said, “you shall hear him.”
+- **25:23** add (word): critical *ἐξοχὴν* ] RP *+ οὖσιν*
+   - Latin: Igitur postrīdiē Agrippa et Berenīcē multō cum apparātū veniunt, et in audītōrium intrant ūnā cum tribūnīs et excellentibus in cīvitāte virīs. Et Fēstus, adductō jussū ejus Paulō, sīc locūtus est:
+   - 1573: Igitur postridie Agrippa et Berenice multo cum apparatu veniunt, et in auditorium intrant, vnà cum tribunis et excellentibus in ciuitate viris. Et Festus, adducto iussu eius Paulo, sic locutus est:
+   - TR: Τῇ οὖν ἐπαύριον, ἐλθόντος τοῦ Ἀγρίππα καὶ τῆς Βερνίκης μετὰ πολλῆς φαντασίας, καὶ εἰσελθόντων εἰς τὸ ἀκροατήριον, σύν τε τοῖς χιλιάρχοις καὶ ἀνδράσι τοῖς κατ᾿ ἐξοχὴν οὖσι τῆς πόλεως, καὶ κελεύσαντος τοῦ Φήστου, ἤχθη ὁ Παῦλος.
+   - SBLGNT: Τῇ οὖν ἐπαύριον ἐλθόντος τοῦ Ἀγρίππα καὶ τῆς Βερνίκης μετὰ πολλῆς φαντασίας καὶ εἰσελθόντων εἰς τὸ ἀκροατήριον σύν τε χιλιάρχοις καὶ ἀνδράσιν τοῖς κατʼ ἐξοχὴν τῆς πόλεως καὶ κελεύσαντος τοῦ Φήστου ἤχθη ὁ Παῦλος.
+   - Vulgate: Altera autem die cum venisset Agrippa et Bernice cum multa ambitione, et introissent in auditorium cum tribunis et viris principalibus civitatis, jubente Festo, adductus est Paulus.
+   - BSB: The next day Agrippa and Bernice came with great pomp and entered the auditorium, along with the commanders and leading men of the city. And Festus ordered that Paul be brought in.
+   - WEB: So on the next day, when Agrippa and Bernice had come with great pomp, and they had entered into the place of hearing with the commanding officers and the principal men of the city, at the command of Festus, Paul was brought in.
+- **25:24** substitute (word): critical *ἅπαν* ] RP *πᾶν*; substitute (word): critical *βοῶντες* ] RP *ἐπιβοῶντες*
+   - Latin: “Agrippa rēx, et omnēs virī, quī apud nōs adestis, vidētis hunc, dē quō mē omnis Jūdæōrum multitūdō, et Hierosolymīs, et hīc interpellāvit, vōciferāns, eum vīvere amplius nōn dēbēre.
+   - 1573: Agrippa rex, et omnes viri qui apud nos adestis, videtis hunc, de quo me omnis Iudæorum multitudo et Hierosolymis et hîc interpellauit, vociferans, eum viuere amplius non debere.
+   - TR: Καί φησιν ὁ Φῆστος, Ἀγρίππα βασιλεῦ, καὶ πάντες οἱ συμπαρόντες ἡμῖν ἄνδρες, θεωρεῖτε τοῦτον περὶ οὗ πᾶν τὸ πλῆθος τῶν Ἰουδαίων ἐνέτυχόν μοι ἔν τε Ἱεροσολύμοις καὶ ἐνθάδε, ἐπιβοῶντες μὴ δεῖν ζῇν αὐτὸν μηκέτι.
+   - SBLGNT: καί φησιν ὁ Φῆστος· Ἀγρίππα βασιλεῦ καὶ πάντες οἱ συμπαρόντες ἡμῖν ἄνδρες, θεωρεῖτε τοῦτον περὶ οὗ ἅπαν τὸ πλῆθος τῶν Ἰουδαίων ἐνέτυχόν μοι ἔν τε Ἱεροσολύμοις καὶ ἐνθάδε, βοῶντες μὴ δεῖν αὐτὸν ζῆν μηκέτι.
+   - Vulgate: Et dicit Festus: Agrippa rex, et omnes qui simul adestis nobiscum viri, videtis hunc de quo omnis multitudo Judæorum interpellavit me Jerosolymis, petentes et acclamantes non oportere eum vivere amplius.
+   - BSB: Then Festus said, “King Agrippa and all who are present with us, you see this man. The whole Jewish community has petitioned me about him, both here and in Jerusalem, crying out that he ought not to live any longer.
+   - WEB: Festus said, “King Agrippa, and all men who are here present with us, you see this man about whom all the multitude of the Jews petitioned me, both at Jerusalem and here, crying that he ought not to live any longer.
+- **25:25** substitute (word): critical *κατελαβόμην* ] RP *καταλαβόμενος*
+   - Latin: Ego, cum eum nihil capitāle admīsisse comperissem, et ipse ad Augustum prōvocāsset, mittere statuī.
+   - 1573: Ego cùm eum nihil capitale admisisse comperissem, et ipse ad Augustum prouocasset, mittere statui:
+   - TR: Ἐγὼ δὲ καταλαβόμενος μηδὲν ἄξιον θανάτου αὐτὸν πεπραχέναι, καὶ αὐτοῦ δὲ τούτου ἐπικαλεσαμένου τὸν Σεβαστόν, ἔκρινα πέμπειν αὐτόν.
+   - SBLGNT: ἐγὼ δὲ κατελαβόμην μηδὲν ἄξιον αὐτὸν θανάτου πεπραχέναι, αὐτοῦ δὲ τούτου ἐπικαλεσαμένου τὸν Σεβαστὸν ἔκρινα πέμπειν.
+   - Vulgate: Ego vere comperi nihil dignum morte eum admisisse. Ipso autem hoc appellante ad Augustum, judicavi mittere.
+   - BSB: But I found he had done nothing worthy of death, and since he has now appealed to the Emperor, I decided to send him.
+   - WEB: But when I found that he had committed nothing worthy of death, and as he himself appealed to the emperor, I determined to send him,
+- **26:14** substitute (word): critical *λέγουσαν* ] RP *λαλοῦσαν*; add (word): critical *με* ] RP *+ καὶ λέγουσαν*
+   - Latin: Ac nōbīs omnibus ad terram collāpsīs, vōcem audīvī affantem mē, et Hebræō sermōne dīcentem, ‘Saule, Saule, quid mē persequeris? Dūrum tibi fuerit contrā stimulōs calcitrāre.’
+   - 1573: Ac nobis omnibus ad terram collapsis, vocem audiui affantem me, et Hebræo sermone dicentem, Saule, Saule, quid me persequeris: Durum tibi fuerit contra stimulos calcitrare.
+   - TR: Πάντων δὲ καταπεσόντων ἡμῶν εἰς τὴν γῆν, ἤκουσα φωνὴν λαλοῦσαν πρός με καὶ λέγουσαν τῇ Ἑβραΐδι διαλέκτῳ, Σαούλ, Σαούλ, τί με διώκεις; Σκληρόν σοι πρὸς κέντρα λακτίζειν.
+   - SBLGNT: πάντων τε καταπεσόντων ἡμῶν εἰς τὴν γῆν ἤκουσα φωνὴν λέγουσαν πρός με τῇ Ἑβραΐδι διαλέκτῳ· Σαοὺλ Σαούλ, τί με διώκεις; σκληρόν σοι πρὸς κέντρα λακτίζειν.
+   - Vulgate: Omnesque nos cum decidissemus in terram, audivi vocem loquentem mihi hebraica lingua: Saule, Saule, quid me persequeris? durum est tibi contra stimulum calcitrare.
+   - BSB: We all fell to the ground, and I heard a voice say to me in Hebrew, ‘Saul, Saul, why do you persecute Me? It is hard for you to kick against the goads.’
+   - WEB: When we had all fallen to the earth, I heard a voice saying to me in the Hebrew language, ‘Saul, Saul, why are you persecuting me? It is hard for you to kick against the goads.’
+- **26:15** omit (word): critical *κύριος* ] RP *–*
+   - Latin: Tum ego: ‘Quis es,’ inquam, ‘Domine?’ Et ille: ‘Ego sum Jēsūs, quem tū persequeris:
+   - 1573: Tum ego: Quis es, inquam, Domine. Et ille: Ego sum Iesus, quem tu persequeris.
+   - TR: Ἐγὼ δὲ εἶπον, Τίς εἶ, Κύριε; Ὁ δὲ εἶπεν, Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις.
+   - SBLGNT: ἐγὼ δὲ εἶπα· Τίς εἶ, κύριε; ὁ δὲ κύριος εἶπεν· Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις·
+   - Vulgate: Ego autem dixi: Quis es, domine? Dominus autem dixit: Ego sum Jesus, quem tu persequeris.
+   - BSB: ‘Who are You, Lord?’ I asked. ‘I am Jesus, whom you are persecuting,’ the Lord replied.
+   - WEB: “I said, ‘Who are you, Lord?’ “He said, ‘I am Jesus, whom you are persecuting.
+- **26:24** substitute (word): critical *φησιν* ] RP *ἔφη*
+   - Latin: Hæc eō dēfendente, Fēstus magnā vōce dīxit: “Īnsānīs, Paule: nimiæ tē litteræ ad īnsāniam redigunt.”
+   - 1573: Hæc eo defendente, Festus magna voce dixit: Insanis, Paule: nimiæ te literæ ad insaniam redigunt.
+   - TR: Ταῦτα δὲ αὐτοῦ ἀπολογουμένου, ὁ Φῆστος μεγάλῃ τῇ φωνῇ ἔφη, Μαίνῃ, Παῦλε· τὰ πολλά σε γράμματα εἰς μανίαν περιτρέπει.
+   - SBLGNT: Ταῦτα δὲ αὐτοῦ ἀπολογουμένου ὁ Φῆστος μεγάλῃ τῇ φωνῇ φησιν· Μαίνῃ, Παῦλε· τὰ πολλά σε γράμματα εἰς μανίαν περιτρέπει.
+   - Vulgate: Hæc loquente eo, et rationem reddente, Festus magna voce dixit: Insanis, Paule: multæ te litteræ ad insaniam convertunt.
+   - BSB: At this stage of Paul’s defense, Festus exclaimed in a loud voice, “You are insane, Paul! Your great learning is driving you to madness!”
+   - WEB: As he thus made his defense, Festus said with a loud voice, “Paul, you are crazy! Your great learning is driving you insane!”
+- **26:26** substitute (word): critical *οὐθέν* ] RP *οὐδέν*
+   - Latin: Scit hæc rēx, ad quem eō cōnfīdentius loquor, quod eum nihil hōrum latēre persuāsum habeō. Nec enim hoc in angulō gestum est.
+   - 1573: Scit hæc rex, ad quem eo confidentius loquor, quòd eum nihil horum latêre persuasum habeo. Nec enim hoc in angulo gestum est.
+   - TR: Ἐπίσταται γὰρ περὶ τούτων ὁ βασιλεύς, πρὸς ὃν καὶ παρρησιαζόμενος λαλῶ· λανθάνειν γὰρ αὐτόν τι τούτων οὐ πείθομαι οὐδέν· οὐ γὰρ ἐστιν ἐν γωνίᾳ πεπραγμένον τοῦτο.
+   - SBLGNT: ἐπίσταται γὰρ περὶ τούτων ὁ βασιλεύς, πρὸς ὃν καὶ παρρησιαζόμενος λαλῶ· λανθάνειν γὰρ αὐτὸν τούτων οὐ πείθομαι οὐθέν, οὐ γάρ ἐστιν ἐν γωνίᾳ πεπραγμένον τοῦτο.
+   - Vulgate: Scit enim de his rex, ad quem et constanter loquor: latere enim eum nihil horum arbitror. Neque enim in angulo quidquam horum gestum est.
+   - BSB: For the king knows about these matters, and I can speak freely to him. I am confident that none of this has escaped his notice, because it was not done in a corner.
+   - WEB: For the king knows of these things, to whom also I speak freely. For I am persuaded that none of these things is hidden from him, for this has not been done in a corner.
+- **26:28** add (word): critical *Παῦλον* ] RP *+ ἔφη*; substitute (word): critical *ποιῆσαι* ] RP *γενέσθαι*
+   - Latin: Et Agrippa Paulō: “Propemodum mihi persuādēs, ut Chrīstiānus fīam.”
+   - 1573: Et Agrippa Paulo: Propemodum mihi persuades, vt Christianus fiam.
+   - TR: Ὁ δὲ Ἀγρίππας πρὸς τὸν Παῦλον ἔφη, Ἐν ὀλίγῳ με πείθεις Χριστιανὸν γενέσθαι.
+   - SBLGNT: ὁ δὲ Ἀγρίππας πρὸς τὸν Παῦλον· Ἐν ὀλίγῳ με πείθεις Χριστιανὸν ποιῆσαι.
+   - Vulgate: Agrippa autem ad Paulum: In modico suades me christianum fieri.
+   - BSB: Then Agrippa said to Paul, “Can you persuade me in such a short time to become a Christian?”
+   - WEB: Agrippa said to Paul, “With a little persuasion are you trying to make me a Christian?”
+- **26:29** add (word): critical *Παῦλος* ] RP *+ εἶπεν*; substitute (word): critical *μεγάλῳ* ] RP *πολλῷ*
+   - Latin: Et Paulus: “Deum precor,” inquit, “ut et propemodum et plānē, nōn sōlum tū, sed etiam omnēs, quī mē audiunt, hodiē tālēs fīant, quālis ego sum, exceptīs hīs vinculīs.”
+   - 1573: Et Paulus: Deum precor, inquit, vt et propemodum et planè, non solùm tu, sed etiam omnes qui me audiunt, hodie tales fiant, qualis ego sum, exceptis his vinculis.
+   - TR: Ὁ δὲ Παῦλος εἶπεν, Εὐξαίμην ἂν τῷ Θεῷ, καὶ ἐν ὀλίγῳ καὶ ἐν πολλῷ οὐ μόνον σε, ἀλλὰ καὶ πάντας τοὺς ἀκούοντάς μου σήμερον, γενέσθαι τοιούτους ὁποῖος κἀγώ εἰμι, παρεκτὸς τῶν δεσμῶν τούτων.
+   - SBLGNT: ὁ δὲ Παῦλος· Εὐξαίμην ἂν τῷ θεῷ καὶ ἐν ὀλίγῳ καὶ ἐν μεγάλῳ οὐ μόνον σὲ ἀλλὰ καὶ πάντας τοὺς ἀκούοντάς μου σήμερον γενέσθαι τοιούτους ὁποῖος καὶ ἐγώ εἰμι παρεκτὸς τῶν δεσμῶν τούτων.
+   - Vulgate: Et Paulus: Opto apud Deum, et in modico et in magno, non tantum te, sed etiam omnes qui audiunt hodie fieri tales, qualis et ego sum, exceptis vinculis his.
+   - BSB: “Short time or long,” Paul replied, “I wish to God that not only you but all who hear me this day may become what I am, except for these chains.”
+   - WEB: Paul said, “I pray to God, that whether with little or with much, not only you, but also all that hear me today, might become such as I am, except for these bonds.”
+- **26:30** substitute (word): critical *Ἀνέστη* ] RP *Καὶ ταῦτα εἰπόντος αὐτοῦ ἀνέστη*
+   - Latin: Hæc eō locūtō, surrēxit rēx, et prætor, et Berenīcē, et eōrum assessōrēs:
+   - 1573: Hæc eo locuto, surrexit rex, et prætor, et Berenice, et eorum assessores:
+   - TR: Καὶ ταῦτα εἰπόντος αὐτοῦ, ἀνέστη ὁ βασιλεὺς καὶ ὁ ἡγεμών, ἥ τε Βερνίκη, καὶ οἱ συγκαθήμενοι αὐτοῖς·
+   - SBLGNT: Ἀνέστη τε ὁ βασιλεὺς καὶ ὁ ἡγεμὼν ἥ τε Βερνίκη καὶ οἱ συγκαθήμενοι αὐτοῖς,
+   - Vulgate: Et exsurrexit rex, et præses, et Bernice, et qui assidebant eis.
+   - BSB: Then the king and the governor rose, along with Bernice and those seated with them.
+   - WEB: The king rose up with the governor and Bernice, and those who sat with them.
+- **27:12** substitute (word): critical *ἐκεῖθεν* ] RP *κἀκεῖθεν*
+   - Latin: Ac quod erat portus ad hīberna parum accommodātus, plērīque cōnsilium cēpērunt, illinc quoque solvere, sī forte possent in Phœnīcēn appulsī hībernāre, quī portus est Crētæ, spectāns ad Āfricum et ad Cōrum.
+   - 1573: Ac quôd erat portus ad hyberna parum accommodatus, plerique consilium ceperunt, illinc quoque soluere, si fortè possent in Phœnicen appulsi hybernare, qui portus est Cretæ, spectans ad Africum, et ad Corum.
+   - TR: Ἀνευθέτου δὲ τοῦ λιμένος ὑπάρχοντος πρὸς παραχειμασίαν, οἱ πλείους ἔθεντο βουλὴν ἀναχθῆναι κἀκεῖθεν, εἴ πως δύναιντο καταντήσαντες εἰς Φοίνικα παραχειμάσαι, λιμένα τῆς Κρήτης βλέποντα κατὰ λίβα καὶ κατὰ χῶρον.
+   - SBLGNT: ἀνευθέτου δὲ τοῦ λιμένος ὑπάρχοντος πρὸς παραχειμασίαν οἱ πλείονες ἔθεντο βουλὴν ἀναχθῆναι ἐκεῖθεν, εἴ πως δύναιντο καταντήσαντες εἰς Φοίνικα παραχειμάσαι, λιμένα τῆς Κρήτης βλέποντα κατὰ λίβα καὶ κατὰ χῶρον.
+   - Vulgate: Et cum aptus portus non esset ad hiemandum, plurimi statuerunt consilium navigare inde, si quomodo possent, devenientes Phœnicen hiemare, portum Cretæ respicientem ad Africum et ad Corum.
+   - BSB: Since the harbor was unsuitable to winter in, the majority decided to sail on, if somehow they could reach Phoenix to winter there. Phoenix was a harbor in Crete facing both southwest and northwest.
+   - WEB: Because the haven was not suitable to winter in, the majority advised going to sea from there, if by any means they could reach Phoenix and winter there, which is a port of Crete, looking southwest and northwest.
+- **27:23** add (word): critical *νυκτὶ* ] RP *+ ἄγγελος*
+   - Latin: Astitit enim mihi hāc nocte Deī, cujus sum, quemque colō, angelus,
+   - 1573: Astitit enim mihi hac nocte Dei, cuius sum, quemque colo, angelus,
+   - TR: Παρέστη γάρ μοι τῇ νυκτὶ ταύτῃ ἄγγελος τοῦ Θεοῦ, οὗ εἰμι, ᾧ καὶ λατρεύω,
+   - SBLGNT: παρέστη γάρ μοι ταύτῃ τῇ νυκτὶ τοῦ θεοῦ, οὗ εἰμι, ᾧ καὶ λατρεύω, ἄγγελος
+   - Vulgate: Astitit enim mihi hac nocte angelus Dei, cujus sum ego, et cui deservio,
+   - BSB: For just last night an angel of God, whose I am and whom I serve, stood beside me
+   - WEB: For there stood by me this night an angel, belonging to the God whose I am and whom I serve,
+- **27:29** substitute (word): critical *μή που κατὰ* ] RP *μήπως εἰς*
+   - Latin: Ac nē in aspera loca inciderent, veritī, jactīs dē puppī quattuor ancorīs, optābant orīrī diem.
+   - 1573: ac ne in aspera loca inciderent veriti, iactis de puppi quatuor anchoris, optabant oriri diem.
+   - TR: φοβούμενοί τε μήπως εἰς τραχεῖς τόπους ἐκπέσωσιν, ἐκ πρύμνης ῥίψαντες ἀγκύρας τέσσαρας, ηὔχοντο ἡμέραν γενέσθαι.
+   - SBLGNT: φοβούμενοί τε μή που κατὰ τραχεῖς τόπους ἐκπέσωμεν ἐκ πρύμνης ῥίψαντες ἀγκύρας τέσσαρας ηὔχοντο ἡμέραν γενέσθαι.
+   - Vulgate: Timentes autem ne in aspera loca incideremus, de puppi mittentes anchoras quatuor, optabant diem fieri.
+   - BSB: Fearing that we would run aground on the rocks, they dropped four anchors from the stern and prayed for daybreak.
+   - WEB: Fearing that we would run aground on rocky ground, they let go four anchors from the stern, and wished for daylight.
+- **27:34** substitute (word): critical *μεταλαβεῖν* ] RP *προσλαβεῖν*; substitute (word): critical *ἀπολεῖται* ] RP *πεσεῖται*
+   - Latin: Itaque vōs, ut cibum capiātis, exhortor: hoc enim ad vestram salūtem pertinet. Nam nūllīus vestrum vel pilus ex capite cadet.”
+   - 1573: itaque vos vt cibum capiatis exhortor. Hoc enim ad vestram salutem pertinet. Nam nullius vestrûm vel pilus ex capite cadet.
+   - TR: Διὸ παρακαλῶ ὑμᾶς προσλαβεῖν τροφῆς· τοῦτο γὰρ πρὸς τῆς ὑμετέρας σωτηρίας ὑπάρχει· οὐδενὸς γὰρ ὑμῶν θρὶξ ἐκ τῆς κεφαλῆς πεσεῖται.
+   - SBLGNT: διὸ παρακαλῶ ὑμᾶς μεταλαβεῖν τροφῆς, τοῦτο γὰρ πρὸς τῆς ὑμετέρας σωτηρίας ὑπάρχει· οὐδενὸς γὰρ ὑμῶν θρὶξ ἀπὸ τῆς κεφαλῆς ἀπολεῖται.
+   - Vulgate: Propter quod rogo vos accipere cibum pro salute vestra: quia nullius vestrum capillus de capite peribit.
+   - BSB: So for your own preservation, I urge you to eat something, because not a single hair of your head will be lost.”
+   - WEB: Therefore I beg you to take some food, for this is for your safety; for not a hair will perish from any of your heads.”
+- **27:35** substitute (word): critical *εἴπας* ] RP *Εἰπὼν*
+   - Latin: Hīs dictīs sūmptum pānem, āctīs in omnium cōnspectū Deō grātiīs, frēgit, ac comedere cœpit.
+   - 1573: His dictis sumptum panem, actis in omnium conspectu Deo gratijs, fregit, ac comedere cœpit.
+   - TR: Εἰπὼν δὲ ταῦτα, καὶ λαβὼν ἄρτον, εὐχαρίστησε τῷ Θεῷ ἐνώπιον πάντων· καὶ κλάσας ἤρξατο ἐσθίειν.
+   - SBLGNT: εἴπας δὲ ταῦτα καὶ λαβὼν ἄρτον εὐχαρίστησεν τῷ θεῷ ἐνώπιον πάντων καὶ κλάσας ἤρξατο ἐσθίειν.
+   - Vulgate: Et cum hæc dixisset, sumens panem, gratias egit Deo in conspectu omnium: et cum fregisset, cœpit manducare.
+   - BSB: After he had said this, Paul took bread and gave thanks to God in front of them all. Then he broke it and began to eat.
+   - WEB: When he had said this and had taken bread, he gave thanks to God in the presence of all; then he broke it and began to eat.
+- **27:41** substitute (word): critical *ἐπέκειλαν* ] RP *ἐπώκειλαν*
+   - Latin: Sed in locum bimarem dēlātī nāvem illīsērunt, ita ut affīxa prōra manēret immōbilis, puppis undārum vī solverētur.
+   - 1573: Sed in locum bimarem delati nauem illiserunt, ita vt affixa prora maneret immobilis, puppis vndarum vi solueretur.
+   - TR: Περιπεσόντες δὲ εἰς τόπον διθάλασσον ἐπώκειλαν τὴν ναῦν· καὶ ἡ μὲν πρῷρα ἐρείσασα ἔμεινεν ἀσάλευτος, ἡ δὲ πρύμνα ἐλύετο ὑπὸ τῆς βίας τῶν κυμάτων.
+   - SBLGNT: περιπεσόντες δὲ εἰς τόπον διθάλασσον ἐπέκειλαν τὴν ναῦν, καὶ ἡ μὲν πρῷρα ἐρείσασα ἔμεινεν ἀσάλευτος, ἡ δὲ πρύμνα ἐλύετο ὑπὸ τῆς βίας.
+   - Vulgate: Et cum incidissemus in locum dithalassum, impegerunt navem: et prora quidem fixa manebat immobilis, puppis vero solvebatur a vi maris.
+   - BSB: But the vessel struck a sandbar and ran aground. The bow stuck fast and would not move, and the stern was being broken up by the pounding of the waves.
+   - WEB: But coming to a place where two seas met, they ran the vessel aground. The bow struck and remained immovable, but the stern began to break up by the violence of the waves.
+- **28:2** substitute (word): critical *ἅψαντες* ] RP *ἀνάψαντες*
+   - Latin: Barbarī vērō nōn vulgārī hūmānitāte ergā nōs ūsī sunt: nam accēnsō igne, nōs omnēs jūvērunt propter īnstantem pluviam, et propter frīgus.
+   - 1573: Barbari verò non vulgari humanitate erga nos vsi sunt. Nam accenso igne, nos omnes iuuerunt, propter instantem pluuiam, et propter frigus.
+   - TR: Οἱ δὲ βάρβαροι παρεῖχον οὐ τὴν τυχοῦσαν φιλανθρωπίαν ἡμῖν· ἀνάψαντες γὰρ πυράν, προσελάβοντο πάντας ἡμᾶς, διὰ τὸν ὑετὸν τὸν ἐφεστῶτα, καὶ διὰ τὸ ψῦχος.
+   - SBLGNT: οἵ τε βάρβαροι παρεῖχον οὐ τὴν τυχοῦσαν φιλανθρωπίαν ἡμῖν, ἅψαντες γὰρ πυρὰν προσελάβοντο πάντας ἡμᾶς διὰ τὸν ὑετὸν τὸν ἐφεστῶτα καὶ διὰ τὸ ψῦχος.
+   - Vulgate: Accensa enim pyra, reficiebant nos omnes propter imbrem qui imminebat, et frigus.
+   - BSB: The islanders showed us extraordinary kindness. They kindled a fire and welcomed all of us because it was raining and cold.
+   - WEB: The natives showed us uncommon kindness; for they kindled a fire and received us all, because of the present rain and because of the cold.
+- **28:10** substitute (word): critical *τὰς χρείας* ] RP *τὴν χρείαν*
+   - Latin: Quī nōs etiam multīs honōribus prōsecūtī sunt, et solventibus necessāria subministrārunt.
+   - 1573: qui nos etiam multis honoribus prosecuti sunt, et soluentibus necessaria subministrarunt.
+   - TR: οἳ καὶ πολλαῖς τιμαῖς ἐτίμησαν ἡμᾶς, καὶ ἀναγομένοις ἐπέθεντο τὰ πρὸς τὴν χρείαν.
+   - SBLGNT: οἳ καὶ πολλαῖς τιμαῖς ἐτίμησαν ἡμᾶς καὶ ἀναγομένοις ἐπέθεντο τὰ πρὸς τὰς χρείας.
+   - Vulgate: qui etiam multis honoribus nos honoraverunt, et navigantibus imposuerunt quæ necessaria erant.
+   - BSB: The islanders honored us in many ways and supplied our needs when we were ready to sail.
+   - WEB: They also honored us with many honors; and when we sailed, they put on board the things that we needed.
+- **28:14** substitute (word): critical *παρʼ* ] RP *ἐπʼ*
+   - Latin: Ubi frātrēs nactī, exōrātī sumus, ut apud eōs manērēmus septem diēs, et ita Rōmam contendimus.
+   - 1573: Vbi fratres nacti, exorati sumus, vt apud eos maneremus septem dies, et ita Romam contendimus.
+   - TR: οὗ εὑρόντες ἀδελφούς, παρεκλήθημεν ἐπ᾿ αὐτοῖς ἐπιμεῖναι ἡμέρας ἑπτά· καὶ οὕτως εἰς τὴν Ῥώμην ἤλθομεν.
+   - SBLGNT: οὗ εὑρόντες ἀδελφοὺς παρεκλήθημεν παρʼ αὐτοῖς ἐπιμεῖναι ἡμέρας ἑπτά· καὶ οὕτως εἰς τὴν Ῥώμην ἤλθαμεν.
+   - Vulgate: ubi inventis fratribus rogati sumus manere apud eos dies septem: et sic venimus Romam.
+   - BSB: There we found some brothers who invited us to spend the week with them. And so we came to Rome.
+   - WEB: where we found brothers, and were entreated to stay with them for seven days. So we came to Rome.
+- **28:15** substitute (word): critical *ἦλθαν* ] RP *ἐξῆλθον*
+   - Latin: Unde frātrēs, cum dē nōbīs audīssent, nōbīs obviam prōdiērunt ūsque ad Appium forum et Trēs tabernās. Quibus vīsīs, Paulus, āctīs Deō grātiīs, sūmpsit fīdūciam.
+   - 1573: Vnde fratres, cùm de nobis audiuissent, nobis obuiam prodierunt vsque ad Appium forum, et Tres tabernas. Quibus visis, Paulus actis Deo gratijs, sumpsit fiduciam.
+   - TR: Κἀκεῖθεν οἱ ἀδελφοὶ ἀκούσαντες τὰ περὶ ἡμῶν, ἐξῆλθον εἰς ἀπάντησιν ἡμῖν ἄχρις Ἀππίου Φόρου καὶ Τριῶν Ταβερνῶν· οὓς ἰδὼν ὁ Παῦλος, εὐχαριστήσας τῷ Θεῷ, ἔλαβε θάρσος.
+   - SBLGNT: κἀκεῖθεν οἱ ἀδελφοὶ ἀκούσαντες τὰ περὶ ἡμῶν ἦλθαν εἰς ἀπάντησιν ἡμῖν ἄχρι Ἀππίου Φόρου καὶ Τριῶν Ταβερνῶν, οὓς ἰδὼν ὁ Παῦλος εὐχαριστήσας τῷ θεῷ ἔλαβε θάρσος.
+   - Vulgate: Et inde cum audissent fratres, occurrerunt nobis usque ad Appii forum, ac tres Tabernas. Quos cum vidisset Paulus, gratias agens Deo, accepit fiduciam.
+   - BSB: The brothers there had heard about us and traveled as far as the Forum of Appius and the Three Taverns to meet us. When Paul saw them, he was encouraged and gave thanks to God.
+   - WEB: From there the brothers, when they heard of us, came to meet us as far as The Market of Appius and The Three Taverns. When Paul saw them, he thanked God and took courage.
+- **28:26** substitute (word): critical *λέγων* ] RP *λέγον*
+   - Latin: dum ait: “‘Adī populum istum, et dīcitō: “Audiētis quidem; sed nōn intellegētis: et aspiciētis; sed nōn perspiciētis.”
+   - 1573: dum ait: Adi populum istum, et dicito: Audietis quidem, sed non intelligetis: et aspicietis, sed non perspicietis.
+   - TR: λέγον, Πορεύθητι πρὸς τὸν λαὸν τοῦτον καὶ εἰπέ, Ἀκοῇ ἀκούσετε, καὶ οὐ μὴ συνῆτε· καὶ βλέποντες βλέψετε, καὶ οὐ μὴ ἴδητε.
+   - SBLGNT: λέγων· Πορεύθητι πρὸς τὸν λαὸν τοῦτον καὶ εἰπόν· Ἀκοῇ ἀκούσετε καὶ οὐ μὴ συνῆτε, καὶ βλέποντες βλέψετε καὶ οὐ μὴ ἴδητε·
+   - Vulgate: dicens: Vade ad populum istum, et dic ad eos: [Aure audietis, et non intelligetis, et videntes videbitis, et non perspicietis.
+   - BSB: ‘Go to this people and say, “You will be ever hearing but never understanding; you will be ever seeing but never perceiving.”
+   - WEB: saying, ‘Go to this people and say, in hearing, you will hear, but will in no way understand. In seeing, you will see, but will in no way perceive.
+
+## The TR alone (RP with the critical text; 154 verses)
+
+- **1:8** substitute (word): SBLGNT *λημψεσθε* ] TR *ληψεσθε*
+   - Latin: Sed vim accipiētis Spīritūs Sānctī, quī vōs invādet, mihique testēs eritis et Hierosolymæ, et in tōtā Jūdæā ac Samarīā, dēnique ad ultimās terrās.”
+   - 1573: Sed vim accipietis spiritus sancti, qui vos inuadet, mihique testes eritis et Hierosolymæ, et in tota Iudæa, ac Samaria, denique ad vltimas terras.
+   - TR: Ἀλλὰ λήψεσθε δύναμιν, ἐπελθόντος τοῦ ἁγίου πνεύματος ἐφ᾿ ὑμᾶς· καὶ ἔσεσθέ μοι μάρτυρες ἔν τε Ἱερουσαλήμ, καὶ ἐν πάσῃ τῇ Ἰουδαίᾳ καὶ Σαμαρείᾳ, καὶ ἕως ἐσχάτου τῆς γῆς.
+   - SBLGNT: ἀλλὰ λήμψεσθε δύναμιν ἐπελθόντος τοῦ ἁγίου πνεύματος ἐφʼ ὑμᾶς, καὶ ἔσεσθέ μου μάρτυρες ἔν τε Ἰερουσαλὴμ καὶ ἐν πάσῃ τῇ Ἰουδαίᾳ καὶ Σαμαρείᾳ καὶ ἕως ἐσχάτου τῆς γῆς.
+   - Vulgate: sed accipietis virtutem supervenientis Spiritus Sancti in vos, et eritis mihi testes in Jerusalem, et in omni Judæa, et Samaria, et usque ad ultimum terræ.
+   - BSB: But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.”
+   - WEB: But you will receive power when the Holy Spirit has come upon you. You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.”
+- **1:11** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*; substitute (word): SBLGNT *βλεποντες* ] TR *εμβλεποντες*
+   - Latin: Quī ita dīxērunt: “Galilæī, quid stātis, in cælum intuentēs? Hic Jēsūs, quī istinc in cælum receptus est, sīc veniet, quō pactō vīdistis eum in cælum discēdentem.”
+   - 1573: qui ita dixerunt: Galilæi, quid statis, in cœlum intuentes. Hic Iesus, qui istinc in cœlum receptus est, sic veniet, quo pacto vidistis eum in cœlum discedentem.
+   - TR: οἳ καὶ εἶπον, Ἄνδρες Γαλιλαῖοι, τί ἑστήκατε ἐμβλέποντες εἰς τὸν οὐρανόν; Οὗτος ὁ Ἰησοῦς, ὁ ἀναληφθεὶς ἀφ᾿ ὑμῶν εἰς τὸν οὐρανόν, οὕτως ἐλεύσεται ὃν τρόπον ἐθεάσασθε αὐτὸν πορευόμενον εἰς τὸν οὐρανόν.
+   - SBLGNT: οἳ καὶ εἶπαν· Ἄνδρες Γαλιλαῖοι, τί ἑστήκατε βλέποντες εἰς τὸν οὐρανόν; οὗτος ὁ Ἰησοῦς ὁ ἀναλημφθεὶς ἀφʼ ὑμῶν εἰς τὸν οὐρανὸν οὕτως ἐλεύσεται ὃν τρόπον ἐθεάσασθε αὐτὸν πορευόμενον εἰς τὸν οὐρανόν.
+   - Vulgate: qui et dixerunt: Viri Galilæi, quid statis aspicientes in cælum? Hic Jesus, qui assumptus est a vobis in cælum, sic veniet quemadmodum vidistis eum euntem in cælum.
+   - BSB: “Men of Galilee,” they said, “why do you stand here looking into the sky? This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven.”
+   - WEB: who also said, “You men of Galilee, why do you stand looking into the sky? This Jesus, who was received up from you into the sky, will come back in the same way as you saw him going into the sky.”
+- **1:13** substitute (name): SBLGNT *μαθθαιος* ] TR *ματθαιος*
+   - Latin: Ac postquam ingressī sunt, ascendērunt in cœnāculum, ubi solēbant manēre Petrus et Jācōbus, Jōhannēs et Andrēās, Philippus et Thōmās, Bartholomæus et Matthæus, Jācōbus, Alphæī fīlius, et Simōn Zēlōta, et Jūdās, Jācōbī frāter.
+   - 1573: Ac postquam ingressi sunt, ascenderunt in cœnaculum, vbi solebant manere, Petrus et Iacobus, Iohannes et Andreas, Philippus et Thomas, Bartholemæus et Matthæus, Iacobus Alphæi filius, et Simon Zelota, et Iudas Iacobi frater.
+   - TR: Καὶ ὅτε εἰσῆλθον, ἀνέβησαν εἰς τὸ ὑπερῷον οὗ ἦσαν καταμένοντες, ὅ τε Πέτρος καὶ Ἰάκωβος καὶ Ἰωάννης καὶ Ἀνδρέας, Φίλιππος καὶ Θωμᾶς, Βαρθολομαῖος καὶ Ματθαῖος, Ἰάκωβος Ἀλφαίου καὶ Σίμων ὁ Ζηλωτής, καὶ Ἰούδας Ἰακώβου.
+   - SBLGNT: καὶ ὅτε εἰσῆλθον, εἰς τὸ ὑπερῷον ἀνέβησαν οὗ ἦσαν καταμένοντες, ὅ τε Πέτρος καὶ Ἰωάννης καὶ Ἰάκωβος καὶ Ἀνδρέας, Φίλιππος καὶ Θωμᾶς, Βαρθολομαῖος καὶ Μαθθαῖος, Ἰάκωβος Ἁλφαίου καὶ Σίμων ὁ ζηλωτὴς καὶ Ἰούδας Ἰακώβου.
+   - Vulgate: Et cum introissent in cœnaculum, ascenderunt ubi manebant Petrus, et Joannes, Jacobus, et Andreas, Philippus, et Thomas, Bartholomæus, et Matthæus, Jacobus Alphæi, et Simon Zelotes, et Judas Jacobi.
+   - BSB: When they arrived, they went to the upper room where they were staying: Peter and John, James and Andrew, Philip and Thomas, Bartholomew and Matthew, James son of Alphaeus, Simon the Zealot, and Judas son of James.
+   - WEB: When they had come in, they went up into the upper room where they were staying, that is Peter, John, James, Andrew, Philip, Thomas, Bartholomew, Matthew, James the son of Alphaeus, Simon the Zealot, and Judas the son of James.
+- **1:16** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: “Hominēs frātrēs, oportēbat illud litterīs mandātum fierī, quod Sānctus Spīritus ōre Dāvīdis prædīxit dē Jūdā, eō, quī sē ducem præbuit iīs, quī Jēsum comprehendērunt:
+   - 1573: Homines fratres, oportebat illud literis mandatum fieri, quod sanctus spiritus ore Dauidis prædixit, de Iuda, eo qui se ducem præbuit ijs qui Iesum comprehenderunt:
+   - TR: Ἄνδρες ἀδελφοί, ἔδει πληρωθῆναι τὴν γραφὴν ταύτην, ἣν προεῖπε τὸ πνεῦμα τὸ ἅγιον διὰ στόματος Δαβὶδ περὶ Ἰούδα, τοῦ γενομένου ὁδηγοῦ τοῖς συλλαβοῦσι τὸν Ἰησοῦν.
+   - SBLGNT: Ἄνδρες ἀδελφοί, ἔδει πληρωθῆναι τὴν γραφὴν ἣν προεῖπε τὸ πνεῦμα τὸ ἅγιον διὰ στόματος Δαυὶδ περὶ Ἰούδα τοῦ γενομένου ὁδηγοῦ τοῖς συλλαβοῦσιν Ἰησοῦν,
+   - Vulgate: Viri fratres, oportet impleri Scripturam quam prædixit Spiritus Sanctus per os David de Juda, qui fuit dux eorum qui comprehenderunt Jesum:
+   - BSB: “Brothers, the Scripture had to be fulfilled which the Holy Spirit foretold through the mouth of David concerning Judas, who became a guide for those who arrested Jesus.
+   - WEB: “Brothers, it was necessary that this Scripture should be fulfilled, which the Holy Spirit spoke before by the mouth of David concerning Judas, who was guide to those who took Jesus.
+- **1:19** substitute (name): SBLGNT *ακελδαμαχ* ] TR *ακελδαμα*
+   - Latin: Id quod omnibus Hierosolymæ incolīs nōtum factum est, ita ut appellātus sit ager ille vernāculā eōrum linguā, Haceldama, hoc est, ager sanguinis.
+   - 1573: id quod omnibus Hierosolymæ incolis notum factum est, ita vt appellatus sit ager ille vernacula eorum lingua, Haceldama, hoc est ager sanguinis.
+   - TR: Καὶ γνωστὸν ἐγένετο πᾶσι τοῖς κατοικοῦσιν Ἱερουσαλήμ, ὥστε κληθῆναι τὸ χωρίον ἐκεῖνο τῇ ἰδίᾳ διαλέκτῳ αὐτῶν Ἀκελδαμά, τοῦτ᾿ ἔστι, χωρίον αἵματος —
+   - SBLGNT: καὶ γνωστὸν ἐγένετο πᾶσι τοῖς κατοικοῦσιν Ἰερουσαλήμ, ὥστε κληθῆναι τὸ χωρίον ἐκεῖνο τῇ ἰδίᾳ διαλέκτῳ αὐτῶν Ἁκελδαμάχ, τοῦτʼ ἔστιν Χωρίον Αἵματος.—
+   - Vulgate: Et notum factum est omnibus habitantibus Jerusalem, ita ut appellaretur ager ille, lingua eorum, Haceldama, hoc est, ager sanguinis.
+   - BSB: This became known to all who lived in Jerusalem, so they called that field in their own language Akeldama, that is, Field of Blood.)
+   - WEB: It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’
+- **1:23** substitute (name): SBLGNT *βαρσαββαν* ] TR *βαρσαβαν*; substitute (name): SBLGNT *μαθθιαν* ] TR *ματθιαν*
+   - Latin: Tum duōs statuērunt, Jōsēphum nōmine Barsabam, quī cognōminātus est Jūstus, et Matthiam,
+   - 1573: Tum duos statuerunt, Iosephum nomine Barsabam, qui cognominatus est Iustus, et Mathiam,
+   - TR: Καὶ ἔστησαν δύο, Ἰωσὴφ τὸν καλούμενον Βαρσαβᾶν, ὃς ἐπεκλήθη Ἰοῦστος, καὶ Ματθίαν.
+   - SBLGNT: καὶ ἔστησαν δύο, Ἰωσὴφ τὸν καλούμενον Βαρσαββᾶν, ὃς ἐπεκλήθη Ἰοῦστος, καὶ Μαθθίαν.
+   - Vulgate: Et statuerunt duos, Joseph, qui vocabatur Barsabas, qui cognominatus est Justus, et Mathiam.
+   - BSB: So they proposed two men: Joseph called Barsabbas (also known as Justus) and Matthias.
+   - WEB: They put forward two: Joseph called Barsabbas, who was also called Justus, and Matthias.
+- **1:24** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*; omit (word): SBLGNT *ον εξελεξω* ] TR *–*; add (word): SBLGNT *–* ] TR *+ ον εξελεξω*
+   - Latin: atque hīs verbīs ōrārunt: “Tū Domine, quī omnium mentēs perspicis, ostende, utrum hōrum dēstināverīs,
+   - 1573: atque his verbis orarunt: Tu, Domine, qui omnium mentes perspicis, ostende, vtrum horum destinaueris,
+   - TR: Καὶ προσευξάμενοι εἶπον, Σὺ Κύριε καρδιογνῶστα πάντων, ἀνάδειξον ἐκ τούτων τῶν δύο ἕνα ὃν ἐξελέξω,
+   - SBLGNT: καὶ προσευξάμενοι εἶπαν Σὺ κύριε καρδιογνῶστα πάντων, ἀνάδειξον ὃν ἐξελέξω, ἐκ τούτων τῶν δύο ἕνα,
+   - Vulgate: Et orantes dixerunt: Tu Domine, qui corda nosti omnium, ostende quem elegeris ex his duobus unum,
+   - BSB: And they prayed, “Lord, You know everyone’s heart. Show us which of these two You have chosen
+   - WEB: They prayed and said, “You, Lord, who know the hearts of all men, show which one of these two you have chosen
+- **1:26** substitute (name): SBLGNT *μαθθιαν* ] TR *ματθιαν*
+   - Latin: Deinde eōrum sortēs jēcērunt: dēsignāvitque sors Matthiam, atque is ad ūndecim apostolōs cooptātus est.
+   - 1573: Deinde eorum sortes iecerunt: designauitque sors Mathiam, atque is ad vndecim Apostolos cooptatus est.
+   - TR: Καὶ ἔδωκαν κλήρους αὐτῶν, καὶ ἔπεσεν ὁ κλῆρος ἐπὶ Ματθίαν, καὶ συγκατεψηφίσθη μετὰ τῶν ἕνδεκα ἀποστόλων.
+   - SBLGNT: καὶ ἔδωκαν κλήρους αὐτοῖς, καὶ ἔπεσεν ὁ κλῆρος ἐπὶ Μαθθίαν, καὶ συγκατεψηφίσθη μετὰ τῶν ἕνδεκα ἀποστόλων.
+   - Vulgate: Et dederunt sortes eis, et cecidit sors super Mathiam: et annumeratus est cum undecim Apostolis.
+   - BSB: Then they cast lots, and the lot fell to Matthias; so he was added to the eleven apostles.
+   - WEB: They drew lots for them, and the lot fell on Matthias; and he was counted with the eleven apostles.
+- **2:10** add (clause): SBLGNT *–* ] TR *+ ιουδαιοι τε και προσηλυτοι*
+   - Latin: Phrygiæ et Pamphȳliæ, et Ægyptī, et ejus Libyæ partis, quæ est secundum Cȳrēnēn, et peregrīnantēs Rōmānī,
+   - 1573: Phrygiæ, et Pamphyliæ, et Ægypti, et eius Libyæ partis quæ est secundum Cyrenen, et peregrinantes Romani,
+   - TR: Φρυγίαν τε καὶ Παμφυλίαν, Αἴγυπτον καὶ τὰ μέρη τῆς Λιβύης τῆς κατὰ Κυρήνην, καὶ οἱ ἐπιδημοῦντες Ῥωμαῖοι, Ἰουδαῖοί τε καὶ προσήλυτοι,
+   - SBLGNT: Φρυγίαν τε καὶ Παμφυλίαν, Αἴγυπτον καὶ τὰ μέρη τῆς Λιβύης τῆς κατὰ Κυρήνην, καὶ οἱ ἐπιδημοῦντες Ῥωμαῖοι,
+   - Vulgate: Phrygiam, et Pamphyliam, Ægyptum, et partes Libyæ quæ est circa Cyrenen: et advenæ Romani,
+   - BSB: Phrygia and Pamphylia, Egypt and the parts of Libya near Cyrene; visitors from Rome,
+   - WEB: Phrygia, Pamphylia, Egypt, the parts of Libya around Cyrene, visitors from Rome, both Jews and proselytes,
+- **2:11** omit (clause): SBLGNT *ιουδαιοι τε και προσηλυτοι* ] TR *–*
+   - Latin: tum Jūdæī, tum ascītī, Crētēnsēsque et Arabēs, audīmus eōs rērum dīvīnārum amplitūdinem nostrīs linguīs ēloquentēs.”
+   - 1573: tum Iudæi, tum asciti, Cretensesque et Arabes, audimus eos rerum diuinarum amplitudinem nostris linguis eloquentes.
+   - TR: Κρῆτες καὶ Ἄραβες, ἀκούομεν λαλούντων αὐτῶν ταῖς ἡμετέραις γλώσσαις τὰ μεγαλεῖα τοῦ Θεοῦ.
+   - SBLGNT: Ἰουδαῖοί τε καὶ προσήλυτοι, Κρῆτες καὶ Ἄραβες, ἀκούομεν λαλούντων αὐτῶν ταῖς ἡμετέραις γλώσσαις τὰ μεγαλεῖα τοῦ θεοῦ.
+   - Vulgate: Judæi quoque, et Proselyti, Cretes, et Arabes: audivimus eos loquentes nostris linguis magnalia Dei.
+   - BSB: both Jews and converts to Judaism; Cretans and Arabs—we hear them declaring the wonders of God in our own tongues!”
+   - WEB: Cretans and Arabians—we hear them speaking in our languages the mighty works of God!”
+- **2:25** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*; substitute (name): SBLGNT *προορωμην* ] TR *προωρωμην*
+   - Latin: Dāvīd enim dīcit dē eō: “‘Prōpositum mihi Dominum semper habeō, quī mihi dexter adest, ita ut nōn labefīam.
+   - 1573: Dauid enim dicit de eo: Propositum mihi Dominum semper habeo, qui mihi dexter adest, ita vt non labefiam.
+   - TR: Δαβὶδ γὰρ λέγει εἰς αὐτόν, Προωρώμην τὸν Κύριον ἐνώπιόν μου διὰ παντός· ὅτι ἐκ δεξιῶν μου ἐστίν, ἵνα μὴ σαλευθῶ·
+   - SBLGNT: Δαυὶδ γὰρ λέγει εἰς αὐτόν· Προορώμην τὸν κύριον ἐνώπιόν μου διὰ παντός, ὅτι ἐκ δεξιῶν μού ἐστιν ἵνα μὴ σαλευθῶ.
+   - Vulgate: David enim dicit in eum: [Providebam Dominum in conspectu meo semper: quoniam a dextris est mihi, ne commovear:
+   - BSB: David says about Him: ‘I saw the Lord always before me; because He is at my right hand, I will not be shaken.
+   - WEB: For David says concerning him, ‘I saw the Lord always before my face, for he is on my right hand, that I should not be moved.
+- **2:26** substitute (word): SBLGNT *ηυφρανθη* ] TR *ευφρανθη*
+   - Latin: Itaque nōn tantum animō lætor, et linguā exsultō, vērum etiam ipsum corpus meum cōnfīdenter dēgit:
+   - 1573: Itaque non tantum animo lætor, et lingua exulto, verùm etiam ipsum corpus meum confidenter degit:
+   - TR: διὰ τοῦτο εὐφράνθη ἡ καρδία μου, καὶ ἠγαλλιάσατο ἡ γλῶσσά μου· ἔτι δὲ καὶ ἡ σάρξ μου κατασκηνώσει ἐπ᾿ ἐλπίδι·
+   - SBLGNT: διὰ τοῦτο ηὐφράνθη ἡ καρδία μου καὶ ἠγαλλιάσατο ἡ γλῶσσά μου, ἔτι δὲ καὶ ἡ σάρξ μου κατασκηνώσει ἐπʼ ἐλπίδι·
+   - Vulgate: propter hoc lætatum est cor meum, et exsultavit lingua mea, insuper et caro mea requiescet in spe:
+   - BSB: Therefore my heart is glad and my tongue rejoices; my body also will dwell in hope,
+   - WEB: Therefore my heart was glad, and my tongue rejoiced. Moreover my flesh also will dwell in hope,
+- **2:29** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Hominēs frātrēs, sī licet apud vōs līberē dē summō patre Dāvīde loquī, is et obiit, et sepultus est, ejusque monumentum apud nōs ad hanc diem exstat.
+   - 1573: Homines fratres, si licet apud vos liberè de summo patre Dauide loqui, is et obijt, et sepultus est, eiusque monimentum apud nos ad hanc diem extat.
+   - TR: Ἄνδρες ἀδελφοί, ἐξὸν εἰπεῖν μετὰ παρρησίας πρὸς ὑμᾶς περὶ τοῦ πατριάρχου Δαβίδ, ὅτι καὶ ἐτελεύτησε καὶ ἐτάφη, καὶ τὸ μνῆμα αὐτοῦ ἐστιν ἐν ἡμῖν ἄχρι τῆς ἡμέρας ταύτης.
+   - SBLGNT: Ἄνδρες ἀδελφοί, ἐξὸν εἰπεῖν μετὰ παρρησίας πρὸς ὑμᾶς περὶ τοῦ πατριάρχου Δαυίδ, ὅτι καὶ ἐτελεύτησεν καὶ ἐτάφη, καὶ τὸ μνῆμα αὐτοῦ ἔστιν ἐν ἡμῖν ἄχρι τῆς ἡμέρας ταύτης·
+   - Vulgate: Viri fratres, liceat audenter dicere ad vos de patriarcha David, quoniam defunctus est, et sepultus: et sepulchrum ejus est apud nos usque in hodiernum diem.
+   - BSB: Brothers, I can tell you with confidence that the patriarch David died and was buried, and his tomb is with us to this day.
+   - WEB: “Brothers, I may tell you freely of the patriarch David, that he both died and was buried, and his tomb is with us to this day.
+- **2:34** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Nōn enim Dāvīd ascendit in cælōs, sed ille ipse sīc loquitur: “‘Ait Dominus Dominō meō: “Sedē ad dextram meam,
+   - 1573: Non enim Dauid ascendit in cœlos, sed ille ipse sic loquitur: Ait Dominus Domino meo, sede ad dexteram meam,
+   - TR: Οὐ γὰρ Δαβὶδ ἀνέβη εἰς τοὺς οὐρανούς, λέγει δὲ αὐτός, Εἶπεν ὁ Κύριος τῷ Κυρίῳ μου, Κάθου ἐκ δεξιῶν μου,
+   - SBLGNT: οὐ γὰρ Δαυὶδ ἀνέβη εἰς τοὺς οὐρανούς, λέγει δὲ αὐτός· Εἶπεν ὁ κύριος τῷ κυρίῳ μου· Κάθου ἐκ δεξιῶν μου,
+   - Vulgate: Non enim David ascendit in cælum: dixit autem ipse: [Dixit Dominus Domino meo: Sede a dextris meis,
+   - BSB: For David did not ascend into heaven, but he himself says: ‘The Lord said to my Lord, “Sit at My right hand
+   - WEB: For David didn’t ascend into the heavens, but he says himself, ‘The Lord said to my Lord, “Sit by my right hand
+- **2:38** add (word): SBLGNT *–* ] TR *+ εφη*; substitute (word): SBLGNT *λημψεσθε* ] TR *ληψεσθε*
+   - Latin: Et Petrus: “Redīte ad frūgem,” inquit iīs, “et baptizāminī cūnctī in Jēsū Chrīstī nōmine ad peccātōrum veniam, et dōnum Sānctī Spīritūs assequiminī.
+   - 1573: Et Petrus: Redite ad frugem, inquit eis, et baptizamini cuncti in Iesu Christi nomine, ad peccatorum veniam, et donum Sancti Spiritus assequimini.
+   - TR: Πέτρος δὲ ἔφη πρὸς αὐτούς, Μετανοήσατε, καὶ βαπτισθήτω ἕκαστος ὑμῶν ἐπὶ τῷ ὀνόματι Ἰησοῦ Χριστοῦ εἰς ἄφεσιν ἁμαρτιῶν, καὶ λήψεσθε τὴν δωρεὰν τοῦ ἁγίου πνεύματος.
+   - SBLGNT: Πέτρος δὲ πρὸς αὐτούς· Μετανοήσατε, καὶ βαπτισθήτω ἕκαστος ὑμῶν ἐπὶ τῷ ὀνόματι Ἰησοῦ Χριστοῦ εἰς ἄφεσιν τῶν ἁμαρτιῶν ὑμῶν, καὶ λήμψεσθε τὴν δωρεὰν τοῦ ἁγίου πνεύματος·
+   - Vulgate: Petrus vero ad illos: Pœnitentiam, inquit, agite, et baptizetur unusquisque vestrum in nomine Jesu Christi in remissionem peccatorum vestrorum: et accipietis donum Spiritus Sancti.
+   - BSB: Peter replied, “Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit.
+   - WEB: Peter said to them, “Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of sins, and you will receive the gift of the Holy Spirit.
+- **3:1** substitute (word): SBLGNT *ενατην* ] TR *εννατην*
+   - Latin: Ascendēbant autem Petrus et Jōhannēs aliquandō simul in fānum, ad hōram supplicātiōnis, vidēlicet nōnam:
+   - 1573: Ascendebant autem Petrus et Iohannes aliquando simul in fanum, ad horam supplicationis, videlicet nonam:
+   - TR: Ἐπὶ τὸ αὐτὸ δὲ Πέτρος καὶ Ἰωάννης ἀνέβαινον εἰς τὸ ἱερὸν ἐπὶ τὴν ὥραν τῆς προσευχῆς τὴν ἐννάτην.
+   - SBLGNT: Πέτρος δὲ καὶ Ἰωάννης ἀνέβαινον εἰς τὸ ἱερὸν ἐπὶ τὴν ὥραν τῆς προσευχῆς τὴν ἐνάτην,
+   - Vulgate: Petrus autem et Joannes ascendebant in templum ad horam orationis nonam.
+   - BSB: One afternoon Peter and John were going up to the temple at the hour of prayer, the ninth hour.
+   - WEB: Peter and John were going up into the temple at the hour of prayer, the ninth hour.
+- **3:6** add (word): SBLGNT *–* ] TR *+ εγειραι και*
+   - Latin: Petrus sīc est locūtus: “Nec argentum mihi, nec aurum est: sed quod habeō, hoc tibi dō: in nōmine Jēsū Chrīstī Nāzarēnī surge, et ambulā.”
+   - 1573: Petrus sic est locutus: Nec argentum mihi, nec aurum est; sed quod habeo, hoc tibi do: In nomine Iesu Christi Nazareni, surge et ambula:
+   - TR: Εἶπε δὲ Πέτρος, Ἀργύριον καὶ χρυσίον οὐχ ὑπάρχει μοι· ὃ δὲ ἔχω, τοῦτό σοι δίδωμι. Ἐν τῷ ὀνόματι Ἰησοῦ Χριστοῦ τοῦ Ναζωραίου, ἔγειραι καὶ περιπάτει.
+   - SBLGNT: εἶπεν δὲ Πέτρος· Ἀργύριον καὶ χρυσίον οὐχ ὑπάρχει μοι, ὃ δὲ ἔχω τοῦτό σοι δίδωμι· ἐν τῷ ὀνόματι Ἰησοῦ Χριστοῦ τοῦ Ναζωραίου περιπάτει.
+   - Vulgate: Petrus autem dixit: Argentum et aurum non est mihi: quod autem habeo, hoc tibi do: in nomine Jesu Christi Nazareni surge, et ambula.
+   - BSB: But Peter said, “Silver or gold I do not have, but what I have I give you: In the name of Jesus Christ of Nazareth, get up and walk!”
+   - WEB: But Peter said, “I have no silver or gold, but what I have, that I give you. In the name of Jesus Christ of Nazareth, get up and walk!”
+- **3:19** add (clause): SBLGNT *–* ] TR *+ οπως αν ελθωσι καιροι αναψυξεως απο προσωπου του κυριου*
+   - Latin: Quamobrem ad sānitātem revertiminī, et vōs corrigite, ut dēleantur vestra peccāta:
+   - 1573: Quamobrem ad sanitatem reuertimini, et vos corrigite, vt deleantur vestra peccata,
+   - TR: Μετανοήσατε οὖν καὶ ἐπιστρέψατε, εἰς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας, ὅπως ἂν ἔλθωσι καιροὶ ἀναψύξεως ἀπὸ προσώπου τοῦ Κυρίου,
+   - SBLGNT: μετανοήσατε οὖν καὶ ἐπιστρέψατε πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας,
+   - Vulgate: Pœnitemini igitur et convertimini, ut deleantur peccata vestra:
+   - BSB: Repent, then, and turn back, so that your sins may be wiped away,
+   - WEB: “Repent therefore, and turn again, that your sins may be blotted out, so that there may come times of refreshing from the presence of the Lord,
+- **3:20** omit (clause): SBLGNT *οπως αν ελθωσι καιροι αναψυξεως απο προσωπου του κυριου* ] TR *–*; add (word): SBLGNT *–* ] TR *+ ιησουν*; omit (word): SBLGNT *ιησουν* ] TR *–*
+   - Latin: Dum recreātiōnis tempora veniant ā Dominō, cum prænūntiātum vōbīs Jēsum Chrīstum mittet,
+   - 1573: dum recreationis tempora veniant à Domino, cùm prænunciatum vobis Iesum Christum mittet,
+   - TR: καὶ ἀποστείλῃ τὸν προκεκηρυγμένον ὑμῖν Ἰησοῦν Χριστὸν·
+   - SBLGNT: ὅπως ἂν ἔλθωσιν καιροὶ ἀναψύξεως ἀπὸ προσώπου τοῦ κυρίου καὶ ἀποστείλῃ τὸν προκεχειρισμένον ὑμῖν χριστὸν Ἰησοῦν,
+   - Vulgate: ut cum venerint tempora refrigerii a conspectu Domini, et miserit eum qui prædicatus est vobis, Jesum Christum,
+   - BSB: that times of refreshing may come from the presence of the Lord, and that He may send Jesus, the Christ, who has been appointed for you.
+   - WEB: and that he may send Christ Jesus, who was ordained for you before,
+- **3:22** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Mōsēs enim majōribus ita dīxit: ‘Vātem vōbīs suscitābit Dominus Deus vester ex vestrā cōnsanguinitāte, meī similem: eī obœdiētis ad omnia, quæ vōbīs dīxerit.
+   - 1573: Moses enim maioribus ita dixit: Vatem vobis suscitabit Dominus Deus vester ex vestra consanguinitate, mei similem: ei obedietis ad omnia quæ vobis dixerit.
+   - TR: Μωσῆς μὲν γὰρ πρὸς τοὺς πατέρας εἶπεν ὅτι Προφήτην ὑμῖν ἀναστήσει Κύριος ὁ Θεὸς ὑμῶν ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ· αὐτοῦ ἀκούσεσθε κατὰ πάντα ὅσα ἂν λαλήσῃ πρὸς ὑμᾶς.
+   - SBLGNT: Μωϋσῆς μὲν εἶπεν ὅτι Προφήτην ὑμῖν ἀναστήσει κύριος ὁ θεὸς ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ· αὐτοῦ ἀκούσεσθε κατὰ πάντα ὅσα ἂν λαλήσῃ πρὸς ὑμᾶς.
+   - Vulgate: Moyses quidem dixit: Quoniam prophetam suscitabit vobis Dominus Deus vester de fratribus vestris, tamquam me: ipsum audietis juxta omnia quæcumque locutus fuerit vobis.
+   - BSB: For Moses said, ‘The Lord your God will raise up for you a prophet like me from among your brothers. You must listen to Him in everything He tells you.
+   - WEB: For Moses indeed said to the fathers, ‘The Lord God will raise up a prophet for you from among your brothers, like me. You shall listen to him in all things whatever he says to you.
+- **3:24** substitute (word): SBLGNT *κατηγγειλαν* ] TR *προκατηγγειλαν*
+   - Latin: Itemque tot vātēs, quī ā Samuēle deinceps fuērunt, quī hæc tempora prædīxērunt ac dēnūntiāvērunt.
+   - 1573: Itemque tot vates, qui à Samuele deinceps fuerunt, qui hæc tempora prædixerunt ac denunciauerunt.
+   - TR: Καὶ πάντες δὲ οἱ προφῆται ἀπὸ Σαμουὴλ καὶ τῶν καθεξῆς, ὅσοι ἐλάλησαν, καὶ προκατήγγειλαν τὰς ἡμέρας ταύτας.
+   - SBLGNT: καὶ πάντες δὲ οἱ προφῆται ἀπὸ Σαμουὴλ καὶ τῶν καθεξῆς ὅσοι ἐλάλησαν καὶ κατήγγειλαν τὰς ἡμέρας ταύτας.
+   - Vulgate: Et omnes prophetæ, a Samuel et deinceps, qui locuti sunt, annuntiaverunt dies istos.
+   - BSB: Indeed, all the prophets from Samuel on, as many as have spoken, have proclaimed these days.
+   - WEB: Yes, and all the prophets from Samuel and those who followed after, as many as have spoken, also told of these days.
+- **4:20** substitute (word): SBLGNT *ειδαμε* ] TR *ειδομε*
+   - Latin: Nōs enim, quæ et vīdimus, et audīvimus, ea nōn ēloquī nōn possumus.”
+   - 1573: Nos enim quæ et vidimus et audiuimus, ea non eloqui non possumus.
+   - TR: Οὐ δυνάμεθα γὰρ ἡμεῖς, ἃ εἴδομεν καὶ ἠκούσαμεν, μὴ λαλεῖν.
+   - SBLGNT: οὐ δυνάμεθα γὰρ ἡμεῖς ἃ εἴδαμεν καὶ ἠκούσαμεν μὴ λαλεῖν.
+   - Vulgate: Non enim possumus quæ vidimus et audivimus non loqui.
+   - BSB: For we cannot stop speaking about what we have seen and heard.”
+   - WEB: for we can’t help telling the things which we saw and heard.”
+- **4:23** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Illī dīmīsī, ad suōs sē contulērunt: et, quæ sibi pontificēs et senātōrēs dīxissent, retulērunt.
+   - 1573: Illi dimissi, ad suos se contulerunt: et quæ sibi pontifices et senatores dixissent, retulerunt.
+   - TR: Ἀπολυθέντες δὲ ἦλθον πρὸς τοὺς ἰδίους, καὶ ἀπήγγειλαν ὅσα πρὸς αὐτοὺς οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι εἶπον.
+   - SBLGNT: Ἀπολυθέντες δὲ ἦλθον πρὸς τοὺς ἰδίους καὶ ἀπήγγειλαν ὅσα πρὸς αὐτοὺς οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι εἶπαν.
+   - Vulgate: Dimissi autem venerunt ad suos, et annuntiaverunt eis quanta ad eos principes sacerdotum et seniores dixissent.
+   - BSB: On their release, Peter and John returned to their own people and reported everything that the chief priests and elders had said to them.
+   - WEB: Being let go, they came to their own company and reported all that the chief priests and the elders had said to them.
+- **4:24** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Quibus audītīs, illī vōcem ūniversī ad Deum sustulērunt, et ita dīxērunt: “Domine, tū Deus es, quī cælum, et terram, et mare, quæque in iīs īnsunt, omnia fēcistī.
+   - 1573: Quibus auditis, illi vocem vniuersi ad Deum sustulerunt, et ita dixerunt: Domine, tu Deus es, qui cœlum, et terram, et mare, quæque in eis insunt omnia fecisti,
+   - TR: Οἱ δὲ ἀκούσαντες ὁμοθυμαδὸν ἦραν φωνὴν πρὸς τὸν Θεόν, καὶ εἶπον, Δέσποτα, σὺ ὁ Θεὸς ὁ ποιήσας τὸν οὐρανὸν καὶ τὴν γῆν καὶ τὴν θάλασσαν καὶ πάντα τὰ ἐν αὐτοῖς·
+   - SBLGNT: οἱ δὲ ἀκούσαντες ὁμοθυμαδὸν ἦραν φωνὴν πρὸς τὸν θεὸν καὶ εἶπαν· Δέσποτα, σὺ ὁ ποιήσας τὸν οὐρανὸν καὶ τὴν γῆν καὶ τὴν θάλασσαν καὶ πάντα τὰ ἐν αὐτοῖς,
+   - Vulgate: Qui cum audissent, unanimiter levaverunt vocem ad Deum, et dixerunt: Domine, tu es qui fecisti cælum et terram, mare et omnia quæ in eis sunt:
+   - BSB: When the believers heard this, they lifted up their voices to God with one accord. “Sovereign Lord,” they said, “You made the heaven and the earth and the sea and everything in them.
+   - WEB: When they heard it, they lifted up their voice to God with one accord and said, “O Lord, you are God, who made the sky, the earth, the sea, and all that is in them;
+- **4:25** add (clause): SBLGNT *–* ] TR *+ δια στοματος δαβιδ*; omit (clause): SBLGNT *πατρος ημων δια πνευματος αγιου στοματος δαυιδ* ] TR *–*; substitute (word): SBLGNT *ινατι* ] TR *ινα τι*
+   - Latin: Quī tuī Dāvīdis ōre sīc dīxistī: “‘Quid tumultuantur gentēs? populī vāna cōnantur?
+   - 1573: qui tui Dauidis ore sic dixisti: Quid tumultuantur gentes? populi vana conantur?
+   - TR: ὁ διὰ στόματος Δαβὶδ τοῦ παιδός σου εἰπών, Ἵνα τί ἐφρύαξαν ἔθνη, καὶ λαοὶ ἐμελέτησαν κενά;
+   - SBLGNT: ὁ τοῦ πατρὸς ἡμῶν διὰ πνεύματος ἁγίου στόματος Δαυὶδ παιδός σου εἰπών· Ἱνατί ἐφρύαξαν ἔθνη καὶ λαοὶ ἐμελέτησαν κενά;
+   - Vulgate: qui Spiritu Sancto per os patris nostri David pueri tui dixisti: [Quare fremuerunt gentes, et populi meditati sunt inania?
+   - BSB: You spoke by the Holy Spirit through the mouth of Your servant, our father David: ‘Why do the nations rage and the peoples plot in vain?
+   - WEB: who by the mouth of your servant David, said, ‘Why do the nations rage, and the peoples plot a vain thing?
+- **4:32** substitute (word): SBLGNT *ουδε* ] TR *ουδ*; substitute (word): SBLGNT *παντα* ] TR *απαντα*
+   - Latin: Erat autem multitūdinis eōrum, quī crēdiderant, ūna mēns, ūnusque animus: neque quisquam suārum facultātum quidquam suum esse dīcēbat, sed erant iīs omnia commūnia.
+   - 1573: Erat autem multitudinis eorum qui crediderant, vna mens, vnusque: animus: neque quisquam suarum facultatum quicquam suum esse dicebat, sed erant eis omnia communia.
+   - TR: Τοῦ δὲ πλήθους τῶν πιστευσάντων ἦν ἡ καρδία καὶ ἡ ψυχὴ μία· καὶ οὐδ᾿ εἷς τι τῶν ὑπαρχόντων αὐτῷ ἔλεγεν ἴδιον εἶναι, ἀλλ᾿ ἦν αὐτοῖς ἅπαντα κοινά.
+   - SBLGNT: Τοῦ δὲ πλήθους τῶν πιστευσάντων ἦν καρδία καὶ ψυχὴ μία, καὶ οὐδὲ εἷς τι τῶν ὑπαρχόντων αὐτῷ ἔλεγεν ἴδιον εἶναι, ἀλλʼ ἦν αὐτοῖς πάντα κοινά.
+   - Vulgate: Multitudinis autem credentium erat cor unum et anima una: nec quisquam eorum quæ possidebat, aliquid suum esse dicebat, sed erant illis omnia communia.
+   - BSB: The multitude of believers was one in heart and soul. No one claimed that any of his possessions was his own, but they shared everything they owned.
+   - WEB: The multitude of those who believed were of one heart and soul. Not one of them claimed that anything of the things which he possessed was his own, but they had all things in common.
+- **5:1** substitute (name): SBLGNT *σαπφιρη* ] TR *σαπφειρη*
+   - Latin: Quīdam vir autem, Ananīās nōmine, cum Sapphīrā conjuge suā, possessiōnem vēndidit:
+   - 1573: Quidam vir autem, Ananias nomine, cum Sapphira coniuge sua, possessionem vendidit:
+   - TR: Ἀνὴρ δέ τις Ἀνανίας ὀνόματι, σὺν Σαπφείρῃ τῇ γυναικὶ αὐτοῦ, ἐπώλησε κτῆμα,
+   - SBLGNT: Ἀνὴρ δέ τις Ἁνανίας ὀνόματι σὺν Σαπφίρῃ τῇ γυναικὶ αὐτοῦ ἐπώλησεν κτῆμα
+   - Vulgate: Vir autem quidam nomine Ananias, cum Saphira uxore suo vendidit agrum,
+   - BSB: Now a man named Ananias, together with his wife Sapphira, also sold a piece of property.
+   - WEB: But a certain man named Ananias, with Sapphira his wife, sold a possession,
+- **5:23** add (word): SBLGNT *–* ] TR *+ εξω*
+   - Latin: Et sē carcerem quidem dīligentissimē clausum comperiisse, renūntiārunt, et custōdēs forīs ante portās astantēs: sed, cum aperuissent, intus invēnisse nēminem.
+   - 1573: Et se carcerem quidem diligentissimè clausum comperisse renunciarunt, et custodes foris ante portas astantes: sed, cùm aperuissent, intus inuenisse neminem.
+   - TR: λέγοντες ὅτι Τὸ μὲν δεσμωτήριον εὕρομεν κεκλεισμένον ἐν πάσῃ ἀσφαλείᾳ, καὶ τοὺς φύλακας ἔξω ἑστῶτας πρὸ τῶν θυρῶν· ἀνοίξαντες δέ, ἔσω οὐδένα εὕρομεν.
+   - SBLGNT: λέγοντες ὅτι Τὸ δεσμωτήριον εὕρομεν κεκλεισμένον ἐν πάσῃ ἀσφαλείᾳ καὶ τοὺς φύλακας ἑστῶτας ἐπὶ τῶν θυρῶν, ἀνοίξαντες δὲ ἔσω οὐδένα εὕρομεν.
+   - Vulgate: dicentes: Carcerem quidem invenimus clausum cum omni diligentia, et custodes stantes ante januas: aperientes autem neminem intus invenimus.
+   - BSB: “We found the jail securely locked, with the guards posted at the doors; but when we opened them, we found no one inside.”
+   - WEB: “We found the prison shut and locked, and the guards standing before the doors, but when we opened them, we found no one inside!”
+- **5:25** add (word): SBLGNT *–* ] TR *+ λεγων*
+   - Latin: Intereā advēnit quīdam, quī iīs nūntiāvit, virōs illōs, quōs in custōdiam dedissent, esse in fānō, et ibi plēbem docēre.
+   - 1573: Interea aduenit quidam, qui eis nunciauit, viros illos, quos in custodiam dedissent, esse in fano, et ibi plebem docere.
+   - TR: Παραγενόμενος δέ τις ἀπήγγειλεν αὐτοῖς λέγων ὅτι Ἰδού, οἱ ἄνδρες οὓς ἔθεσθε ἐν τῇ φυλακῇ εἰσὶν ἐν τῷ ἱερῷ ἑστῶτες καὶ διδάσκοντες τὸν λαόν.
+   - SBLGNT: παραγενόμενος δέ τις ἀπήγγειλεν αὐτοῖς ὅτι Ἰδοὺ οἱ ἄνδρες οὓς ἔθεσθε ἐν τῇ φυλακῇ εἰσὶν ἐν τῷ ἱερῷ ἑστῶτες καὶ διδάσκοντες τὸν λαόν.
+   - Vulgate: Adveniens autem quidam, nuntiavit eis: Quia ecce viri quos posuistis in carcerem, sunt in templo, stantes et docentes populum.
+   - BSB: Then someone came in and announced, “Look, the men you put in jail are standing in the temple courts teaching the people!”
+   - WEB: One came and told them, “Behold, the men whom you put in prison are in the temple, standing and teaching the people.”
+- **5:29** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Tum Petrus et apostolī sīc respondērunt: “Pārendum Deō magis est, quam hominibus.
+   - 1573: Tum Petrus et apostoli sic responderunt: Parendum Deo magis est, quàm hominibus.
+   - TR: Ἀποκριθεὶς δὲ ὁ Πέτρος καὶ οἱ ἀπόστολοι εἶπον, Πειθαρχεῖν δεῖ Θεῷ μᾶλλον ἢ ἀνθρώποις.
+   - SBLGNT: ἀποκριθεὶς δὲ Πέτρος καὶ οἱ ἀπόστολοι εἶπαν· Πειθαρχεῖν δεῖ θεῷ μᾶλλον ἢ ἀνθρώποις.
+   - Vulgate: Respondens autem Petrus et Apostoli, dixerunt: Obedire oportet Deo magis quam hominibus.
+   - BSB: But Peter and the other apostles replied, “We must obey God rather than men.
+   - WEB: But Peter and the apostles answered, “We must obey God rather than men.
+- **5:36** substitute (word): SBLGNT *προσεκλιθη* ] TR *προσεκολληθη αριθμος*
+   - Latin: Nam superiōribus diēbus exstitit Theudās, quī sēsē dīcēbat esse aliquem, cum quō hominēs ad numerum quadringentōrum sēsē conjūnxērunt. Et is occīsus est, et quotquot eī pārēbant, dēlētī, et ad nihilum redāctī.
+   - 1573: Nam superioribus diebus extitit Theudas, qui sese dicebat esse aliquem, cum quo homines ad numerum quadringentorum sese coniunxerunt. Et is occisus est, et quotquot ei parebant, deleti, et ad nihilum redacti.
+   - TR: Πρὸ γὰρ τούτων τῶν ἡμερῶν ἀνέστη Θευδᾶς, λέγων εἶναί τινα ἑαυτόν, ᾧ προσεκολλήθη ἀριθμὸς ἀνδρῶν ὡσεὶ τετρακοσίων· ὃς ἀνῃρέθη, καὶ πάντες ὅσοι ἐπείθοντο αὐτῷ διελύθησαν καὶ ἐγένοντο εἰς οὐδέν.
+   - SBLGNT: πρὸ γὰρ τούτων τῶν ἡμερῶν ἀνέστη Θευδᾶς, λέγων εἶναί τινα ἑαυτόν, ᾧ προσεκλίθη ἀνδρῶν ἀριθμὸς ὡς τετρακοσίων· ὃς ἀνῃρέθη, καὶ πάντες ὅσοι ἐπείθοντο αὐτῷ διελύθησαν καὶ ἐγένοντο εἰς οὐδέν.
+   - Vulgate: Ante hos enim dies extitit Theodas, dicens se esse aliquem, cui consensit numerus virorum circiter quadringentorum: qui occisus est, et omnes qui credebant ei, dissipati sunt, et redacti ad nihilum.
+   - BSB: Some time ago Theudas rose up, claiming to be somebody, and about four hundred men joined him. He was killed, all his followers were dispersed, and it all came to nothing.
+   - WEB: For before these days Theudas rose up, making himself out to be somebody; to whom a number of men, about four hundred, joined themselves. He was slain; and all, as many as obeyed him, were dispersed and came to nothing.
+- **5:39** omit (clause): SBLGNT *επεισθησαν δε αυτω* ] TR *–*
+   - Latin: Sīn ā Deō est, id abolēre nōn potestis, nē forte cum Deō pugnāre comperiāminī.” Huic illī obtemperārunt.
+   - 1573: sin à Deo est, id abolere non potestis, ne fortè cum Deo pugnare comperiamini. Huic illi obtemperarunt,
+   - TR: εἰ δὲ ἐκ Θεοῦ ἐστιν, οὐ δύνασθε καταλῦσαι αὐτό, μήποτε καὶ θεομάχοι εὑρεθῆτε.
+   - SBLGNT: εἰ δὲ ἐκ θεοῦ ἐστιν, οὐ δυνήσεσθε καταλῦσαι αὐτούς·) μήποτε καὶ θεομάχοι εὑρεθῆτε. ἐπείσθησαν δὲ αὐτῷ,
+   - Vulgate: si vero ex Deo est, non poteritis dissolvere illud, ne forte et Deo repugnare inveniamini. Consenserunt autem illi.
+   - BSB: But if it is from God, you will not be able to stop them. You may even find yourselves fighting against God.”
+   - WEB: But if it is of God, you will not be able to overthrow it, and you would be found even to be fighting against God!”
+- **5:40** add (clause): SBLGNT *–* ] TR *+ επεισθησαν δε αυτω*
+   - Latin: Et arcessītōs apostolōs verberārunt, iīsque, nē Jēsū nōmine loquerentur, interdīxērunt, atque ita eōs dīmīsērunt.
+   - 1573: et accersitos Apostolos verberarunt, eisque ne Iesu nomine loquerentur, interdixerunt, atque ita eos dimiserunt.
+   - TR: Ἐπείσθησαν δὲ αὐτῷ· καὶ προσκαλεσάμενοι τοὺς ἀποστόλους, δείραντες παρήγγειλαν μὴ λαλεῖν ἐπὶ τῷ ὀνόματι τοῦ Ἰησοῦ, καὶ ἀπέλυσαν αὐτούς.
+   - SBLGNT: καὶ προσκαλεσάμενοι τοὺς ἀποστόλους δείραντες παρήγγειλαν μὴ λαλεῖν ἐπὶ τῷ ὀνόματι τοῦ Ἰησοῦ καὶ ἀπέλυσαν.
+   - Vulgate: Et convocantes Apostolos, cæsis denuntiaverunt ne omnino loquerentur in nomine Jesu, et dimiserunt eos.
+   - BSB: At this, they yielded to Gamaliel. They called the apostles in and had them flogged. Then they ordered them not to speak in the name of Jesus, and released them.
+   - WEB: They agreed with him. Summoning the apostles, they beat them and commanded them not to speak in the name of Jesus, and let them go.
+- **6:2** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Itaque duodecim convocātā discipulōrum multitūdine, sīc verba fēcērunt: “Nōn placet, nōs, omissō Deī sermōne, ministrāre mēnsīs.
+   - 1573: Itaque duodecim, conuocata discipulorum multitudine, sic verba fecerunt: Non placet, nos omisso Dei sermone, ministrare mensis.
+   - TR: Προσκαλεσάμενοι δὲ οἱ δώδεκα τὸ πλῆθος τῶν μαθητῶν, εἶπον, Οὐκ ἀρεστόν ἐστιν ἡμᾶς, καταλείψαντας τὸν λόγον τοῦ Θεοῦ, διακονεῖν τραπέζαις.
+   - SBLGNT: προσκαλεσάμενοι δὲ οἱ δώδεκα τὸ πλῆθος τῶν μαθητῶν εἶπαν· Οὐκ ἀρεστόν ἐστιν ἡμᾶς καταλείψαντας τὸν λόγον τοῦ θεοῦ διακονεῖν τραπέζαις·
+   - Vulgate: Convocantes autem duodecim multitudinem discipulorum, dixerunt: Non est æquum nos derelinquere verbum Dei, et ministrare mensis.
+   - BSB: So the Twelve summoned all the disciples and said, “It is unacceptable for us to neglect the word of God in order to wait on tables.
+   - WEB: The twelve summoned the multitude of the disciples and said, “It is not appropriate for us to forsake the word of God and serve tables.
+- **6:11** substitute (name): SBLGNT *μωυσην* ] TR *μωσην*
+   - Latin: Itaque allēgārunt hominēs, quī sē eum impiē dē Mōse, dēque Deō, loquentem audīsse dīcerent:
+   - 1573: Itaque allegarunt homines, qui se eum impiè de Mose, deque Deo loquentem audiuisse dicerent:
+   - TR: Τότε ὑπέβαλον ἄνδρας λέγοντας ὅτι Ἀκηκόαμεν αὐτοῦ λαλοῦντος ῥήματα βλάσφημα εἰς Μωσῆν καὶ τὸν Θεόν.
+   - SBLGNT: τότε ὑπέβαλον ἄνδρας λέγοντας ὅτι Ἀκηκόαμεν αὐτοῦ λαλοῦντος ῥήματα βλάσφημα εἰς Μωϋσῆν καὶ τὸν θεόν·
+   - Vulgate: Tunc summiserunt viros, qui dicerent se audivisse eum dicentem verba blasphemiæ in Moysen et in Deum.
+   - BSB: Then they prompted some men to say, “We heard Stephen speak words of blasphemy against Moses and against God.”
+   - WEB: Then they secretly induced men to say, “We have heard him speak blasphemous words against Moses and God.”
+- **7:11** substitute (word): SBLGNT *ηυρισκον* ] TR *ευρισκον*
+   - Latin: Deinde, tantā per ūniversam Ægyptum ac Chananæam ortā famē atque angustiā, ut alimenta nōn invenīrent majōrēs nostrī,
+   - 1573: Deinde tanta per vniuersam Ægyptum ac Chananæam orta fame atque angustia, vt alimenta non inuenirent maiores nostri,
+   - TR: Ἦλθε δὲ λιμὸς ἐφ᾿ ὅλην τὴν γῆν Αἰγύπτου καὶ Χαναάν, καὶ θλίψις μεγάλη· καὶ οὐχ εὕρισκον χορτάσματα οἱ πατέρες ἡμῶν.
+   - SBLGNT: ἦλθεν δὲ λιμὸς ἐφʼ ὅλην τὴν Αἴγυπτον καὶ Χανάαν καὶ θλῖψις μεγάλη, καὶ οὐχ ηὕρισκον χορτάσματα οἱ πατέρες ἡμῶν·
+   - Vulgate: Venit autem fames in universam Ægyptum et Chanaan, et tribulatio magna: et non inveniebant cibos patres nostri.
+   - BSB: Then famine and great suffering swept across Egypt and Canaan, and our fathers could not find food.
+   - WEB: Now a famine came over all the land of Egypt and Canaan, and great affliction. Our fathers found no food.
+- **7:16** substitute (name): SBLGNT *εμμωρ εν* ] TR *εμμορ του*
+   - Latin: Sichemam trānslātī sunt, et in sepulcrētō sitī, quod Abrāhāmus argentī pretiō ā fīliīs Emōris, Sichemī fīliī, ēmerat.
+   - 1573: Sichemam translati sunt, et in sepulchreto siti, quod Abrahamus argenti precio à filijs Emoris Sichemi filij emerat.
+   - TR: καὶ μετετέθησαν εἰς Συχέμ, καὶ ἐτέθησαν ἐν τῷ μνήματι ὃ ὠνήσατο Ἀβραὰμ τιμῆς ἀργυρίου παρὰ τῶν υἱῶν Ἐμμὸρ τοῦ Συχέμ.
+   - SBLGNT: καὶ μετετέθησαν εἰς Συχὲμ καὶ ἐτέθησαν ἐν τῷ μνήματι ᾧ ὠνήσατο Ἀβραὰμ τιμῆς ἀργυρίου παρὰ τῶν υἱῶν Ἑμμὼρ ἐν Συχέμ.
+   - Vulgate: Et translati sunt in Sichem, et positi sunt in sepulchro, quod emit Abraham pretio argenti a filiis Hemor filii Sichem.
+   - BSB: Their bones were carried back to Shechem and placed in the tomb that Abraham had bought from the sons of Hamor at Shechem for a price he paid in silver.
+   - WEB: and they were brought back to Shechem and laid in the tomb that Abraham bought for a price in silver from the children of Hamor of Shechem.
+- **7:20** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: “Quō quidem tempore nātus Mōsēs, Deō fuit acceptus:
+   - 1573: Quo quidem tempore natus Moses Deo fuit acceptus:
+   - TR: Ἐν ᾧ καιρῷ ἐγεννήθη Μωσῆς, καὶ ἦν ἀστεῖος τῷ Θεῷ· ὃς ἀνετράφη μῆνας τρεῖς ἐν τῷ οἴκῳ τοῦ πατρὸς αὐτοῦ.
+   - SBLGNT: ἐν ᾧ καιρῷ ἐγεννήθη Μωϋσῆς, καὶ ἦν ἀστεῖος τῷ θεῷ· ὃς ἀνετράφη μῆνας τρεῖς ἐν τῷ οἴκῳ τοῦ πατρός·
+   - Vulgate: Eodem tempore natus est Moyses, et fuit gratus Deo: qui nutritus est tribus mensibus in domo patris sui.
+   - BSB: At that time Moses was born, and he was beautiful in the sight of God. For three months he was nurtured in his father’s house.
+   - WEB: At that time Moses was born, and was exceedingly handsome to God. He was nourished three months in his father’s house.
+- **7:22** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Īnstitūtus est autem Mōsēs in omnī Ægyptiōrum doctrīnā, fuitque factīs dictīsque potēns.
+   - 1573: Institutus est autem Moses in omni Ægyptiorum doctrina, fuitque factis dictisque potens.
+   - TR: Καὶ ἐπαιδεύθη Μωσῆς πάσῃ σοφίᾳ Αἰγυπτίων· ἦν δὲ δυνατὸς ἐν λόγοις καὶ ἐν ἔργοις.
+   - SBLGNT: καὶ ἐπαιδεύθη Μωϋσῆς πάσῃ σοφίᾳ Αἰγυπτίων, ἦν δὲ δυνατὸς ἐν λόγοις καὶ ἔργοις αὐτοῦ.
+   - Vulgate: Et eruditus est Moyses omni sapientia Ægyptiorum, et erat potens in verbis et in operibus suis.
+   - BSB: So Moses was educated in all the wisdom of the Egyptians and was powerful in speech and action.
+   - WEB: Moses was instructed in all the wisdom of the Egyptians. He was mighty in his words and works.
+- **7:26** substitute (word): SBLGNT *ινατι* ] TR *υμεις ινα τι*
+   - Latin: Posterō diē certantibus supervēnit, et pācem inter eōs conciliāre cōnātus est hujusmodī verbīs: ‘Virī, frātrēs estis vōs, cūr alter alterum læditis?’
+   - 1573: Postero die certantibus superuenit, et pacem inter eos conciliare conatus est huiusmodi verbis: Viri, fratres estis vos, cur alter alterum læditis?
+   - TR: Τῇ δὲ ἐπιούσῃ ἡμέρᾳ ὤφθη αὐτοῖς μαχομένοις, καὶ συνήλασεν αὐτοὺς εἰς εἰρήνην, εἰπών, Ἄνδρες, ἀδελφοί ἐστε ὑμεῖς· ἵνα τί ἀδικεῖτε ἀλλήλους;
+   - SBLGNT: τῇ τε ἐπιούσῃ ἡμέρᾳ ὤφθη αὐτοῖς μαχομένοις καὶ συνήλλασσεν αὐτοὺς εἰς εἰρήνην εἰπών· Ἄνδρες, ἀδελφοί ἐστε· ἱνατί ἀδικεῖτε ἀλλήλους;
+   - Vulgate: Sequenti vero die apparuit illis litigantibus: et reconciliabat eos in pace, dicens: Viri, fratres estis: ut quid nocetis alterutrum?
+   - BSB: The next day he came upon two Israelites who were fighting, and he tried to reconcile them, saying, ‘Men, you are brothers. Why are you mistreating each other?’
+   - WEB: “The day following, he appeared to them as they fought, and urged them to be at peace again, saying, ‘Sirs, you are brothers. Why do you wrong one another?’
+- **7:29** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Dē eō dictō Mōsēs aufūgit, et in Madiānītide peregrīnātus est, ubi duōs fīliōs genuit.
+   - 1573: De eo dicto Moses aufugit, et in Madianitide peregrinatus est, vbi duos filios genuit.
+   - TR: Ἔφυγε δὲ Μωσῆς ἐν τῷ λόγῳ τούτῳ, καὶ ἐγένετο πάροικος ἐν γῇ Μαδιάμ, οὗ ἐγέννησεν υἱοὺς δύο.
+   - SBLGNT: ἔφυγεν δὲ Μωϋσῆς ἐν τῷ λόγῳ τούτῳ, καὶ ἐγένετο πάροικος ἐν γῇ Μαδιάμ, οὗ ἐγέννησεν υἱοὺς δύο.
+   - Vulgate: Fugit autem Moyses in verbo isto: et factus est advena in terra Madian, ubi generavit filios duos.
+   - BSB: At this remark, Moses fled to the land of Midian, where he lived as a foreigner and had two sons.
+   - WEB: Moses fled at this saying, and became a stranger in the land of Midian, where he became the father of two sons.
+- **7:31** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Quod vīsum vidēns, admīrātus est Mōsēs. Ac eō ad vīsendum accēdente exstitit hæc ad eum Dominī vōx:
+   - 1573: Quod visum videns admiratus est Moses. Ac eo ad visendum accedente, extitit hæc ad eum Domini vox.
+   - TR: Ὁ δὲ Μωσῆς ἰδὼν ἐθαύμασε τὸ ὅραμα· προσερχομένου δὲ αὐτοῦ κατανοῆσαι, ἐγένετο φωνὴ Κυρίου πρὸς αὐτόν,
+   - SBLGNT: ὁ δὲ Μωϋσῆς ἰδὼν ἐθαύμασεν τὸ ὅραμα. προσερχομένου δὲ αὐτοῦ κατανοῆσαι ἐγένετο φωνὴ κυρίου·
+   - Vulgate: Moyses autem videns, admiratus est visum. Et accedente illo ut consideraret, facta est ad eum vox Domini, dicens:
+   - BSB: When Moses saw it, he marveled at the sight. As he approached to look more closely, the voice of the Lord came to him:
+   - WEB: When Moses saw it, he wondered at the sight. As he came close to see, the voice of the Lord came to him,
+- **7:32** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: ‘Ego sum majōrum tuōrum Deus, Abrāhāmī Deus, et Isaacī Deus, et Jācōbī Deus.’ Hīc tremefactus Mōsēs, nōn audēbat intuērī: et Dominus dīxit eī:
+   - 1573: Ego sum maiorum tuorum Deus, Abrahami Deus, et Isaaci Deus, et Iacobi Deus. Hic tremefactus Moses non audebat intueri: et Dominus dixit ei:
+   - TR: Ἐγὼ ὁ Θεὸς τῶν πατέρων σου, ὁ Θεὸς Ἀβραὰμ καὶ ὁ Θεὸς Ἰσαὰκ καὶ ὁ Θεὸς Ἰακώβ. Ἔντρομος δὲ γενόμενος Μωσῆς οὐκ ἐτόλμα κατανοῆσαι.
+   - SBLGNT: Ἐγὼ ὁ θεὸς τῶν πατέρων σου, ὁ θεὸς Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ. ἔντρομος δὲ γενόμενος Μωϋσῆς οὐκ ἐτόλμα κατανοῆσαι.
+   - Vulgate: Ego sum Deus patrum tuorum, Deus Abraham, Deus Isaac, et Deus Jacob. Tremefactus autem Moyses, non audebat considerare.
+   - BSB: ‘I am the God of your fathers, the God of Abraham, Isaac, and Jacob.’ Moses trembled with fear and did not dare to look.
+   - WEB: ‘I am the God of your fathers: the God of Abraham, the God of Isaac, and the God of Jacob.’ Moses trembled and dared not look.
+- **7:36** substitute (name): SBLGNT *αιγυπτω* ] TR *αιγυπτου*
+   - Latin: Hic eōs ēdūxit, mīraque et portentōsa fēcit tum in Ægyptō et marī rubrō, tum in sōlitūdine, annōs quadrāgintā.
+   - 1573: Hic eos eduxit, miraque et portentosa fecit tum in Ægypto et mari rubro, tum in solitudine, annos quadraginta.
+   - TR: Οὗτος ἐξήγαγεν αὐτούς, ποιήσας τέρατα καὶ σημεῖα ἐν γῇ Αἰγύπτου καὶ ἐν Ἐρυθρᾷ θαλάσσῃ, καὶ ἐν τῇ ἐρήμῳ ἔτη τεσσαράκοντα.
+   - SBLGNT: οὗτος ἐξήγαγεν αὐτοὺς ποιήσας τέρατα καὶ σημεῖα ἐν γῇ Αἰγύπτῳ καὶ ἐν Ἐρυθρᾷ Θαλάσσῃ καὶ ἐν τῇ ἐρήμῳ ἔτη τεσσεράκοντα.
+   - Vulgate: Hic eduxit illos faciens prodigia et signa in terra Ægypti, et in rubro mari, et in deserto annis quadraginta.
+   - BSB: He led them out and performed wonders and signs in the land of Egypt, at the Red Sea, and for forty years in the wilderness.
+   - WEB: This man led them out, having worked wonders and signs in Egypt, in the Red Sea, and in the wilderness for forty years.
+- **7:37** add (word): SBLGNT *–* ] TR *+ αυτου ακουσεσθε*
+   - Latin: Hic est ille Mōsēs, quī dīxit Isrāēlītīs: ‘Vātem vōbīs suscitābit Dominus Deus vester ex cōnsanguinitāte vestrā, meī similem: eum audiētis.’
+   - 1573: Hic est ille Moses, qui dixit Israelitis: Vatem vobis suscitabit Dominus Deus vester ex consanguinitate vestra, mei similem, eum audietis.
+   - TR: Οὗτός ἐστιν ὁ Μωϋσῆς ὁ εἰπὼν τοῖς υἱοῖς Ἰσραήλ, Προφήτην ὑμῖν ἀναστήσει Κύριος ὁ Θεὸς ὑμῶν ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ· αὐτοῦ ἀκούσεσθε.
+   - SBLGNT: οὗτός ἐστιν ὁ Μωϋσῆς ὁ εἴπας τοῖς υἱοῖς Ἰσραήλ· Προφήτην ὑμῖν ἀναστήσει ὁ θεὸς ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ.
+   - Vulgate: Hic est Moyses, qui dixit filiis Israël: Prophetam suscitabit vobis Deus de fratribus vestris, tamquam me: ipsum audietis.
+   - BSB: This is the same Moses who told the Israelites, ‘God will raise up for you a prophet like me from among your brothers.’
+   - WEB: This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’
+- **7:40** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: et ab Aharōne petīvērunt, ut sibi faceret deōs, quī sē antecēderent: nam Mōsī illī, ā quō essent ex Ægyptō ēductī, sēsē nescīre, quid accidisset.
+   - 1573: et ab Aharone petiuerunt vt sibi faceret deos, qui se antecederent: nam Mosi illi, à quo essent ex Ægypto educti, sese nescire quid accidisset.
+   - TR: εἰπόντες τῷ Ἀαρών, Ποίησον ἡμῖν θεοὺς οἳ προπορεύσονται ἡμῶν· ὁ γὰρ Μωσῆς οὗτος, ὃς ἐξήγαγεν ἡμᾶς ἐκ γῆς Αἰγύπτου, οὐκ οἴδαμεν τί γέγονεν αὐτῷ.
+   - SBLGNT: εἰπόντες τῷ Ἀαρών· Ποίησον ἡμῖν θεοὺς οἳ προπορεύσονται ἡμῶν· ὁ γὰρ Μωϋσῆς οὗτος, ὃς ἐξήγαγεν ἡμᾶς ἐκ γῆς Αἰγύπτου, οὐκ οἴδαμεν τί ἐγένετο αὐτῷ.
+   - Vulgate: dicentes ad Aaron: Fac nobis deos qui præcedant nos: Moyses enim hic, qui eduxit nos de terra Ægypti, nescimus quid factum sit ei.
+   - BSB: They said to Aaron, ‘Make us gods who will go before us! As for this Moses who led us out of the land of Egypt, we do not know what has happened to him.’
+   - WEB: saying to Aaron, ‘Make us gods that will go before us, for as for this Moses who led us out of the land of Egypt, we don’t know what has become of him.’
+- **7:44** substitute (name): SBLGNT *μωυση* ] TR *μωση*
+   - Latin: “Ōrāculī tabernāculum habuēre majōrēs nostrī in sōlitūdine, sīcutī statuerat is, quī Mōsī jussit, ut id faceret ad exemplum, quod vīdisset:
+   - 1573: Oraculi tabernaculum habuere maiores nostri in solitudine, sicuti statuerat is qui Mosi iussit vt id faceret ad exemplum, quod vidisset:
+   - TR: Ἡ σκηνὴ τοῦ μαρτυρίου ἦν ἐν τοῖς πατράσιν ἡμῶν ἐν τῇ ἐρήμῳ, καθὼς διετάξατο ὁ λαλῶν τῷ Μωσῇ, ποιῆσαι αὐτὴν κατὰ τὸν τύπον ὃν ἑωράκει.
+   - SBLGNT: Ἡ σκηνὴ τοῦ μαρτυρίου ἦν τοῖς πατράσιν ἡμῶν ἐν τῇ ἐρήμῳ, καθὼς διετάξατο ὁ λαλῶν τῷ Μωϋσῇ ποιῆσαι αὐτὴν κατὰ τὸν τύπον ὃν ἑωράκει,
+   - Vulgate: Tabernaculum testimonii fuit cum patribus nostris in deserto, sicut disposuit illis Deus loquens ad Moysen, ut faceret illud secundum formam quam viderat.
+   - BSB: Our fathers had the tabernacle of the Testimony with them in the wilderness. It was constructed exactly as God had directed Moses, according to the pattern he had seen.
+   - WEB: “Our fathers had the tabernacle of the testimony in the wilderness, even as he who spoke to Moses commanded him to make it according to the pattern that he had seen;
+- **7:45** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Quod acceptum majōrēs nostrī ūnā cum Jōsuā intrōdūxērunt tum, cum fīnēs occupārunt eārum gentium, quās Deus eōrum causā extermināvit: dōnec ad Dāvīdis tempora ventum est.
+   - 1573: quod acceptum maiores nostri vnà cum Iosua introduxerunt tum, cùm fines occuparunt earum gentium, quas Deus eorum causa exterminauit: donec ad Dauidis tempora ventum est,
+   - TR: Ἣν καὶ εἰσήγαγον διαδεξάμενοι οἱ πατέρες ἡμῶν μετὰ Ἰησοῦ ἐν τῇ κατασχέσει τῶν ἐθνῶν, ὧν ἐξῶσεν ὁ Θεὸς ἀπὸ προσώπου τῶν πατέρων ἡμῶν, ἕως τῶν ἡμερῶν Δαβίδ·
+   - SBLGNT: ἣν καὶ εἰσήγαγον διαδεξάμενοι οἱ πατέρες ἡμῶν μετὰ Ἰησοῦ ἐν τῇ κατασχέσει τῶν ἐθνῶν ὧν ἐξῶσεν ὁ θεὸς ἀπὸ προσώπου τῶν πατέρων ἡμῶν ἕως τῶν ἡμερῶν Δαυίδ·
+   - Vulgate: Quod et induxerunt, suscipientes patres nostri cum Jesu in possessionem gentium quas expulit Deus a facie patrum nostrorum, usque in diebus David,
+   - BSB: And our fathers who received it brought it in with Joshua when they dispossessed the nations God drove out before them. It remained until the time of David,
+   - WEB: which also our fathers, in their turn, brought in with Joshua when they entered into the possession of the nations whom God drove out before the face of our fathers to the days of David,
+- **7:47** substitute (word): SBLGNT *οικοδομησε* ] TR *ωκοδομησε*
+   - Latin: Solomō autem eī ædem ædificāvit.
+   - 1573: Solomo autem ei ædem ædificauit.
+   - TR: Σολομῶν δὲ ᾠκοδόμησεν αὐτῷ οἶκον.
+   - SBLGNT: Σολομῶν δὲ οἰκοδόμησεν αὐτῷ οἶκον.
+   - Vulgate: Salomon autem ædificavit illi domum.
+   - BSB: But it was Solomon who built the house for Him.
+   - WEB: But Solomon built him a house.
+- **8:7** add (word): SBLGNT *–* ] TR *+ μεγαλη*; substitute (word): SBLGNT *μεγαλη εξηρχοντο* ] TR *εξηρχετο*
+   - Latin: Ex multīs enim spīritūs impūrī, quōs habēbant, exībant cum ingentī vōcis clāmōre: multīque membrīs captī, et claudī, cūrātī sunt:
+   - 1573: Ex multis enim spiritus impuri, quos habebant, exibant cum ingenti vocis clamore: multique membris capti, et claudi, curati sunt,
+   - TR: Πολλῶν γὰρ τῶν ἐχόντων πνεύματα ἀκάθαρτα, βοῶντα μεγάλῃ φωνῇ ἐξήρχετο· πολλοὶ δὲ παραλελυμένοι καὶ χωλοὶ ἐθεραπεύθησαν.
+   - SBLGNT: πολλοὶ γὰρ τῶν ἐχόντων πνεύματα ἀκάθαρτα βοῶντα φωνῇ μεγάλῃ ἐξήρχοντο, πολλοὶ δὲ παραλελυμένοι καὶ χωλοὶ ἐθεραπεύθησαν·
+   - Vulgate: Multi enim eorum qui habebant spiritus immundos, clamantes voce magna exibant. Multi autem paralytici et claudi curati sunt.
+   - BSB: With loud shrieks, unclean spirits came out of many who were possessed, and many of the paralyzed and lame were healed.
+   - WEB: For unclean spirits came out of many of those who had them. They came out, crying with a loud voice. Many who had been paralyzed and lame were healed.
+- **8:25** substitute (name): SBLGNT *σαμαριτων ευηγγελιζοντο* ] TR *σαμαρειτων ευηγγελισαντο*
+   - Latin: Igitur illī Dominī doctrīnam testificātī, ac ēlocūtī, Hierosolymam rediērunt, multōsque Samarītānōrum vīcōs euangeliō īnstrūxērunt.
+   - 1573: Igitur illi Domini doctrinam testificati, ac elocuti, Hierosolymam redierunt, multosque Samaritanorum vicos Euangelio instruxerunt.
+   - TR: Οἱ μὲν οὖν διαμαρτυράμενοι καὶ λαλήσαντες τὸν λόγον τοῦ Κυρίου, ὑπέστρεψαν εἰς Ἱερουσαλήμ, πολλάς τε κώμας τῶν Σαμαρειτῶν εὐηγγελίσαντο.
+   - SBLGNT: Οἱ μὲν οὖν διαμαρτυράμενοι καὶ λαλήσαντες τὸν λόγον τοῦ κυρίου ὑπέστρεφον εἰς Ἱεροσόλυμα, πολλάς τε κώμας τῶν Σαμαριτῶν εὐηγγελίζοντο.
+   - Vulgate: Et illi quidem testificati, et locuti verbum Domini, redibant Jerosolymam, et multis regionibus Samaritanorum evangelizabant.
+   - BSB: And after Peter and John had testified and spoken the word of the Lord, they returned to Jerusalem, preaching the gospel in many of the Samaritan villages.
+   - WEB: They therefore, when they had testified and spoken the word of the Lord, returned to Jerusalem, and preached the Good News to many villages of the Samaritans.
+- **9:5** add (clause): SBLGNT *–* ] TR *+ σκληρον σοι προς κεντρα λακτιζειν*
+   - Latin: Et ille: “Quis es, Domine?” “Ego sum Jēsūs,” inquit Dominus, “quem tū persequeris. Dūrum est tibi contrā stimulōs calcitrāre.”
+   - 1573: et ille: Quis es? Domine. Ego sum Iesus (inquit Dominus) quem tu persequeris. Durum est tibi contra stimulos calcitrare.
+   - TR: Εἶπε δέ, Τίς εἶ, Κύριε; Ὁ δὲ Κύριος εἶπεν, Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις· σκληρόν σοι πρὸς κέντρα λακτίζειν.
+   - SBLGNT: εἶπεν δέ· Τίς εἶ, κύριε; ὁ δέ· Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις·
+   - Vulgate: Qui dixit: Quis es, domine? Et ille: Ego sum Jesus, quem tu persequeris: durum est tibi contra stimulum calcitrare.
+   - BSB: “Who are You, Lord?” Saul asked. “I am Jesus, whom you are persecuting,” He replied.
+   - WEB: He said, “Who are you, Lord?” The Lord said, “I am Jesus, whom you are persecuting.
+- **9:6** substitute (word): SBLGNT *αλλα* ] TR *τρεμων τε και θαμβων ειπε κυριε τι με θελεις ποιησαι και ο κυριος προς αυτον*
+   - Latin: Hīc ille tremēns ac stupefactus: “Domine, quid mē vīs facere?” inquit. Cui Dominus: “Surge, et in urbem ingredere: et tibi dīcētur, quid tibi faciendum sit.”
+   - 1573: Hic ille tremens ac stupefactus, Domine, quid me vis facere inquit. Cui Dominus: Surge et in vrbem ingredere, et tibi dicetur, quid tibi faciendum sit.
+   - TR: Τρέμων τε καὶ θαμβῶν εἶπε, Κύριε, τί με θέλεις ποιῆσαι; Καὶ ὁ Κύριος πρὸς αὐτόν, Ἀνάστηθι καὶ εἴσελθε εἰς τὴν πόλιν, καὶ λαληθήσεταί σοι τί σε δεῖ ποιεῖν.
+   - SBLGNT: ἀλλὰ ἀνάστηθι καὶ εἴσελθε εἰς τὴν πόλιν, καὶ λαληθήσεταί σοι ὅ τί σε δεῖ ποιεῖν.
+   - Vulgate: Et tremens ac stupens dixit: Domine, quid me vis facere?
+   - BSB: “Now get up and go into the city, and you will be told what you must do.”
+   - WEB: But rise up and enter into the city, then you will be told what you must do.”
+- **9:7** substitute (number): SBLGNT *ενεοι* ] TR *εννεοι*
+   - Latin: Hominēs autem, ejus comitēs itineris, astābant attonitī, vōcem audientēs illī quidem, sed nēminem videntēs.
+   - 1573: Homines autem eius comites itineris astabant attoniti vocem audientes illi quidem, sed neminem videntes.
+   - TR: Οἱ δὲ ἄνδρες οἱ συνοδεύοντες αὐτῷ εἱστήκεισαν ἐννεοί, ἀκούοντες μὲν τῆς φωνῆς, μηδένα δὲ θεωροῦντες.
+   - SBLGNT: οἱ δὲ ἄνδρες οἱ συνοδεύοντες αὐτῷ εἱστήκεισαν ἐνεοί, ἀκούοντες μὲν τῆς φωνῆς μηδένα δὲ θεωροῦντες.
+   - Vulgate: Et Dominus ad eum: Surge, et ingredere civitatem, et ibi dicetur tibi quid te oporteat facere. Viri autem illi qui comitabantur cum eo, stabant stupefacti, audientes quidem vocem, neminem autem videntes.
+   - BSB: The men traveling with Saul stood there speechless. They heard the voice but did not see anyone.
+   - WEB: The men who traveled with him stood speechless, hearing the sound, but seeing no one.
+- **9:18** substitute (word): SBLGNT *απεπεσαν αυτου* ] TR *απεπεσον*; add (word): SBLGNT *–* ] TR *+ παραχρημα*
+   - Latin: Ac prōtinus, dēlāpsīs ex ejus oculīs quibusdam quasi squāmīs, dispexit surrēxitque, et baptīzātus est:
+   - 1573: Ac protinus delapsis ex eius oculis quibusdam quasi squamis, dispexit, surrexitque, et baptizatus est,
+   - TR: Καὶ εὐθέως ἀπέπεσον ἀπὸ τῶν ὀφθαλμῶν αὐτοῦ ὡσεὶ λεπίδες, ἀνέβλεψέ τε παραχρῆμα, καὶ ἀναστὰς ἐβαπτίσθη,
+   - SBLGNT: καὶ εὐθέως ἀπέπεσαν αὐτοῦ ἀπὸ τῶν ὀφθαλμῶν ὡς λεπίδες, ἀνέβλεψέν τε καὶ ἀναστὰς ἐβαπτίσθη,
+   - Vulgate: Et confestim ceciderunt ab oculis ejus tamquam squamæ, et visum recepit: et surgens baptizatus est.
+   - BSB: At that instant, something like scales fell from Saul’s eyes, and his sight was restored. He got up and was baptized,
+   - WEB: Immediately something like scales fell from his eyes, and he received his sight. He arose and was baptized.
+- **9:32** substitute (name): SBLGNT *λυδδα* ] TR *λυδδαν*
+   - Latin: Accidit autem, ut Petrus omnia peragrāns, dēscenderet etiam ad sānctōs, quī Lyddam incolēbant.
+   - 1573: Accidit autem vt Petrus omnia peragrans, descenderet etiam ad sanctos, qui Lyddam incolebant.
+   - TR: Ἐγένετο δὲ Πέτρον διερχόμενον διὰ πάντων κατελθεῖν καὶ πρὸς τοὺς ἁγίους τοὺς κατοικοῦντας Λύδδαν.
+   - SBLGNT: Ἐγένετο δὲ Πέτρον διερχόμενον διὰ πάντων κατελθεῖν καὶ πρὸς τοὺς ἁγίους τοὺς κατοικοῦντας Λύδδα.
+   - Vulgate: Factum est autem, ut Petrus dum pertransiret universos, deveniret ad sanctos qui habitabant Lyddæ.
+   - BSB: As Peter traveled throughout the area, he went to visit the saints in Lydda.
+   - WEB: As Peter went throughout all those parts, he came down also to the saints who lived at Lydda.
+- **9:35** substitute (word): SBLGNT *ειδαν* ] TR *ειδον*; substitute (name): SBLGNT *λυδδα* ] TR *λυδδαν*
+   - Latin: Eumque vīdērunt omnēs Lyddæ et Assarōnis incolæ, iīque sē ad Dominum convertērunt.
+   - 1573: eumque viderunt omnes Lyddæ et Assaronis incolæ, ijque se ad Dominum conuerterunt.
+   - TR: Καὶ εἶδον αὐτὸν πάντες οἱ κατοικοῦντες Λύδδαν καὶ τὸν Σάρωνα, οἵτινες ἐπέστρεψαν ἐπὶ τὸν Κύριον.
+   - SBLGNT: καὶ εἶδαν αὐτὸν πάντες οἱ κατοικοῦντες Λύδδα καὶ τὸν Σαρῶνα, οἵτινες ἐπέστρεψαν ἐπὶ τὸν κύριον.
+   - Vulgate: Et viderunt eum omnes qui habitabant Lyddæ et Saronæ: qui conversi sunt ad Dominum.
+   - BSB: and all who lived in Lydda and Sharon saw him and turned to the Lord.
+   - WEB: All who lived at Lydda and in Sharon saw him, and they turned to the Lord.
+- **9:38** substitute (name): SBLGNT *λυδδας* ] TR *λυδδης*
+   - Latin: Et quod Joppæ vīcīna Lydda erat, discipulī Petrum Joppæ esse audientēs, mīsērunt ad eum ōrātum, ut ad sē venīre nōn gravārētur.
+   - 1573: Et quòd Ioppæ vicina Lydda erat, discipuli Petrum Ioppæ esse audientes, miserunt ad eum oratum, vt ad se venire non grauaretur.
+   - TR: Ἐγγὺς δὲ οὔσης Λύδδης τῇ Ἰόππῃ, οἱ μαθηταὶ ἀκούσαντες ὅτι Πέτρος ἐστὶν ἐν αὐτῇ, ἀπέστειλαν δύο ἄνδρας πρὸς αὐτόν, παρακαλοῦντες μὴ ὀκνῆσαι διελθεῖν ἕως αὐτῶν.
+   - SBLGNT: ἐγγὺς δὲ οὔσης Λύδδας τῇ Ἰόππῃ οἱ μαθηταὶ ἀκούσαντες ὅτι Πέτρος ἐστὶν ἐν αὐτῇ ἀπέστειλαν δύο ἄνδρας πρὸς αὐτὸν παρακαλοῦντες· Μὴ ὀκνήσῃς διελθεῖν ἕως ἡμῶν·
+   - Vulgate: Cum autem prope esset Lydda ad Joppen, discipuli, audientes quia Petrus esset in ea, miserunt duos viros ad eum, rogantes: Ne pigriteris venire ad nos.
+   - BSB: Since Lydda was near Joppa, the disciples heard that Peter was there and sent two men to urge him, “Come to us without delay.”
+   - WEB: As Lydda was near Joppa, the disciples, hearing that Peter was there, sent two men to him, imploring him not to delay in coming to them.
+- **10:3** substitute (word): SBLGNT *ενατην* ] TR *εννατην*
+   - Latin: Is per vīsum manifestē vīdit, hōrā diēī fermē nōnā, dīvīnum angelum ad sē ingressum, et ita dīcentem: “Cornēlī.”
+   - 1573: Is per visum manifestè vidit, hora diei fermè nona, diuinum angelum ad se ingressum, et ita dicentem: Corneli.
+   - TR: Εἶδεν ἐν ὁράματι φανερῶς, ὡσεὶ ὥραν ἐννάτην τῆς ἡμέρας, ἄγγελον τοῦ Θεοῦ εἰσελθόντα πρὸς αὐτόν, καὶ εἰπόντα αὐτῷ, Κορνήλιε.
+   - SBLGNT: εἶδεν ἐν ὁράματι φανερῶς ὡσεὶ περὶ ὥραν ἐνάτην τῆς ἡμέρας ἄγγελον τοῦ θεοῦ εἰσελθόντα πρὸς αὐτὸν καὶ εἰπόντα αὐτῷ· Κορνήλιε.
+   - Vulgate: Is vidit in visu manifeste, quasi hora diei nona, angelum Dei introëuntem ad se, et dicentem sibi: Corneli.
+   - BSB: One day at about the ninth hour, he had a clear vision of an angel of God who came to him and said, “Cornelius!”
+   - WEB: At about the ninth hour of the day, he clearly saw in a vision an angel of God coming to him and saying to him, “Cornelius!”
+- **10:6** add (clause): SBLGNT *–* ] TR *+ ουτος λαλησει σοι τι σε δει ποιειν*
+   - Latin: (Is dīversātur apud quendam Simōnem coriārium, cui domus est apud mare) quī tibi dīcet, quid tē facere oporteat.”
+   - 1573: is diuersatur apud quendam Simonem coriarium, cui domus est apud mare) qui tibi dicet, quid te facere oporteat.
+   - TR: οὗτος ξενίζεται παρά τινι Σίμωνι βυρσεῖ, ᾧ ἐστιν οἰκία παρὰ θάλασσαν· οὗτος λαλήσει σοι τί σε δεῖ ποιεῖν.
+   - SBLGNT: οὗτος ξενίζεται παρά τινι Σίμωνι βυρσεῖ, ᾧ ἐστιν οἰκία παρὰ θάλασσαν.
+   - Vulgate: hic hospitatur apud Simonem quemdam coriarium, cujus est domus juxta mare: hic dicet tibi quid te oporteat facere.
+   - BSB: He is staying with Simon the tanner, whose house is by the sea.”
+   - WEB: He is staying with a tanner named Simon, whose house is by the seaside.
+- **10:16** substitute (word): SBLGNT *ευθυς ανελημφθη* ] TR *παλιν ανεληφθη*
+   - Latin: Atque idem ter factum est, rūrsumque subductum est in cælum illud ūtēnsile.
+   - 1573: Atque idem ter factum est, rursumque subductum est in cœlum illud vtensile.
+   - TR: Τοῦτο δὲ ἐγένετο ἐπὶ τρίς· καὶ πάλιν ἀνελήφθη τὸ σκεῦος εἰς τὸν οὐρανόν.
+   - SBLGNT: τοῦτο δὲ ἐγένετο ἐπὶ τρίς, καὶ εὐθὺς ἀνελήμφθη τὸ σκεῦος εἰς τὸν οὐρανόν.
+   - Vulgate: Hoc autem factum est per ter: et statim receptum est vas in cælum.
+   - BSB: This happened three times, and all at once the sheet was taken back up into heaven.
+   - WEB: This was done three times, and immediately the thing was received up into heaven.
+- **10:19** substitute (word): SBLGNT *διενθυμουμενου* ] TR *ενθυμουμενου*; substitute (number): SBLGNT *ζητουντες* ] TR *τρεις ζητουσι*
+   - Latin: Ac Petrō, dē vīsō illō cōgitantī, dīxit Spīritus: “Ēn, hominēs tē quærunt.
+   - 1573: Ac Petro de viso illo cogitanti, dixit spiritus: En homines te quærunt:
+   - TR: Τοῦ δὲ Πέτρου ἐνθυμουμένου περὶ τοῦ ὁράματος, εἶπεν αὐτῷ τὸ πνεῦμα, Ἰδού, ἄνδρες τρεῖς ζητοῦσί σε.
+   - SBLGNT: τοῦ δὲ Πέτρου διενθυμουμένου περὶ τοῦ ὁράματος εἶπεν αὐτῷ τὸ πνεῦμα· Ἰδοὺ ἄνδρες ζητοῦντές σε·
+   - Vulgate: Petro autem cogitante de visione, dixit Spiritus ei: Ecce viri tres quærunt te.
+   - BSB: As Peter continued to reflect on the vision, the Spirit said to him, “Behold, three men are looking for you.
+   - WEB: While Peter was pondering the vision, the Spirit said to him, “Behold, three men seek you.
+- **10:21** add (clause): SBLGNT *–* ] TR *+ τους απεσταλμενους απο του κορνηλιου προς αυτον*
+   - Latin: Ita Petrus ad hominēs, ā Cornēliō ad sē missōs, dēgressus dīxit: “Is ego sum, quem vōs quæritis: quæ causa est, ob quam adestis?”
+   - 1573: Ita Petrus ad homines à Cornelio ad se missos degressus, dixit: Is ego sum, quem vos quæritis: quæ causa est ob quam adestis?
+   - TR: Καταβὰς δὲ Πέτρος πρὸς τοὺς ἄνδρας τοὺς ἀπεσταλμένους ἀπὸ τοῦ Κορνηλίου πρὸς αὐτόν, εἶπεν, Ἰδού, ἐγώ εἰμι ὃν ζητεῖτε· τίς ἡ αἰτία δι᾿ ἣν πάρεστε;
+   - SBLGNT: καταβὰς δὲ Πέτρος πρὸς τοὺς ἄνδρας εἶπεν· Ἰδοὺ ἐγώ εἰμι ὃν ζητεῖτε· τίς ἡ αἰτία διʼ ἣν πάρεστε;
+   - Vulgate: Descendens autem Petrus ad viros, dixit: Ecce ego sum, quem quæritis: quæ causa est, propter quam venistis?
+   - BSB: So Peter went down to the men and said, “Here am I, the one you are looking for. Why have you come?”
+   - WEB: Peter went down to the men, and said, “Behold, I am he whom you seek. Why have you come?”
+- **10:22** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Et illī: “Cornēlius,” inquiunt, “centuriō, vir jūstus, et Deī metuēns, et ab ūniversā Jūdæōrum nātiōne bene audiēns, ōrāculō monitus est ā sānctō angelō, ut tē domum suam arcesseret, et loquentem audīret.”
+   - 1573: Et illi: Cornelius (inquiunt) centurio, vir iustus, et Dei metuens, et ab vniuersa Iudæorum natione bene audiens, oraculo monitus est à sancto angelo, vt te domum suam accerseret, et loquentem audiret.
+   - TR: Οἱ δὲ εἶπον, Κορνήλιος ἑκατοντάρχης, ἀνὴρ δίκαιος καὶ φοβούμενος τὸν Θεόν, μαρτυρούμενός τε ὑπὸ ὅλου τοῦ ἔθνους τῶν Ἰουδαίων, ἐχρηματίσθη ὑπὸ ἀγγέλου ἁγίου μεταπέμψασθαί σε εἰς τὸν οἶκον αὐτοῦ, καὶ ἀκοῦσαι ῥήματα παρὰ σοῦ.
+   - SBLGNT: οἱ δὲ εἶπαν· Κορνήλιος ἑκατοντάρχης, ἀνὴρ δίκαιος καὶ φοβούμενος τὸν θεὸν μαρτυρούμενός τε ὑπὸ ὅλου τοῦ ἔθνους τῶν Ἰουδαίων, ἐχρηματίσθη ὑπὸ ἀγγέλου ἁγίου μεταπέμψασθαί σε εἰς τὸν οἶκον αὐτοῦ καὶ ἀκοῦσαι ῥήματα παρὰ σοῦ.
+   - Vulgate: Qui dixerunt: Cornelius centurio, vir justus et timens Deum, et testimonium habens ab universa gente Judæorum, responsum accepit ab angelo sancto accersire te in domum suam, et audire verba abs te.
+   - BSB: “Cornelius the centurion has sent us,” they said. “He is a righteous and God-fearing man with a good reputation among the whole Jewish nation. A holy angel instructed him to request your presence in his home so he could hear a message from you.”
+   - WEB: They said, “Cornelius, a centurion, a righteous man and one who fears God, and well spoken of by all the nation of the Jews, was directed by a holy angel to invite you to his house, and to listen to what you say.”
+- **10:26** substitute (word): SBLGNT *και εγω* ] TR *καγω*
+   - Latin: At Petrus eum allevāvit: “Surge,” inquit, “ego quoque homō sum.”
+   - 1573: At Petrus eum alleuauit: Surge (inquit) ego quoque homo sum.
+   - TR: Ὁ δὲ Πέτρος αὐτὸν ἤγειρε λέγων, Ἀνάστηθι· κἀγὼ αὐτὸς ἄνθρωπός εἰμι.
+   - SBLGNT: ὁ δὲ Πέτρος ἤγειρεν αὐτὸν λέγων· Ἀνάστηθι· καὶ ἐγὼ αὐτὸς ἄνθρωπός εἰμι.
+   - Vulgate: Petrus vero elevavit eum, dicens: Surge: et ego ipse homo sum.
+   - BSB: But Peter helped him up. “Stand up,” he said, “I am only a man myself.”
+   - WEB: But Peter raised him up, saying, “Stand up! I myself am also a man.”
+- **10:28** substitute (word): SBLGNT *καμοι* ] TR *και εμοι*
+   - Latin: “Vōs scītis, ut nefās sit hominī Jūdæō hærēre aut congredī aliēnigenæ: sed mihi Deus ostendit, nēminem profānum impūrumve dīcendum hominem:
+   - 1573: Vos scitis, vt nefas sit homini Iudæo hærere aut congredi alienigenæ. Sed mihi Deus ostendit, neminem profanum impurumve dicendum hominem:
+   - TR: ἔφη τε πρὸς αὐτούς, Ὑμεῖς ἐπίστασθε ὡς ἀθέμιτόν ἐστιν ἀνδρὶ Ἰουδαίῳ κολλᾶσθαι ἢ προσέρχεσθαι ἀλλοφύλῳ· καὶ ἐμοὶ ὁ Θεὸς ἔδειξε μηδένα κοινὸν ἢ ἀκάθαρτον λέγειν ἄνθρωπον·
+   - SBLGNT: ἔφη τε πρὸς αὐτούς· Ὑμεῖς ἐπίστασθε ὡς ἀθέμιτόν ἐστιν ἀνδρὶ Ἰουδαίῳ κολλᾶσθαι ἢ προσέρχεσθαι ἀλλοφύλῳ· κἀμοὶ ὁ θεὸς ἔδειξεν μηδένα κοινὸν ἢ ἀκάθαρτον λέγειν ἄνθρωπον·
+   - Vulgate: dixitque ad illos: Vos scitis quomodo abominatum sit viro Judæo conjungi aut accedere ad alienigenam: sed mihi ostendit Deus neminem communem aut immundum dicere hominem.
+   - BSB: He said to them, “You know how unlawful it is for a Jew to associate with a foreigner or visit him. But God has shown me that I should not call any man impure or unclean.
+   - WEB: He said to them, “You yourselves know how it is an unlawful thing for a man who is a Jew to join himself or come to one of another nation, but God has shown me that I shouldn’t call any man unholy or unclean.
+- **10:30** substitute (word): SBLGNT *ενατην* ] TR *εννατην ωραν*
+   - Latin: Tum Cornēlius: “Nudiūs quārtus,” inquit, “ad hanc hōram jejūnus eram, et hōrā nōnā domī meæ supplicābam: cum, ecce, vir quīdam stetit in meō cōnspectū, veste splendidā,
+   - 1573: Tum Cornelius: Nudius quartus, inquit, ad hanc horam ieiunus eram, et hora nona domi meæ supplicabam: cùm ecce vir quidam stetit in meo conspectu, veste splendida,
+   - TR: Καὶ ὁ Κορνήλιος ἔφη, Ἀπὸ τετάρτης ἡμέρας μέχρι ταύτης τῆς ὥρας ἤμην νηστεύων, καὶ τὴν ἐννάτην ὥραν προσευχόμενος ἐν τῷ οἴκῳ μου· καὶ ἰδού, ἀνὴρ ἔστη ἐνώπιόν μου ἐν ἐσθῆτι λαμπρᾷ,
+   - SBLGNT: Καὶ ὁ Κορνήλιος ἔφη· Ἀπὸ τετάρτης ἡμέρας μέχρι ταύτης τῆς ὥρας ἤμην τὴν ἐνάτην προσευχόμενος ἐν τῷ οἴκῳ μου, καὶ ἰδοὺ ἀνὴρ ἔστη ἐνώπιόν μου ἐν ἐσθῆτι λαμπρᾷ
+   - Vulgate: Et Cornelius ait: A nudiusquarta die usque ad hanc horam, orans eram hora nona in domo mea, et ecce vir stetit ante me in veste candida, et ait:
+   - BSB: Cornelius answered: “Four days ago I was in my house praying at this, the ninth hour. Suddenly a man in radiant clothing stood before me
+   - WEB: Cornelius said, “Four days ago, I was fasting until this hour; and at the ninth hour, I prayed in my house, and behold, a man stood before me in bright clothing
+- **10:39** substitute (word): SBLGNT *και ανειλαν* ] TR *ανειλον*
+   - Latin: Et nōs testēs sumus omnium, quæ cum in reliquō Jūdæōrum agrō, tum Hierosolymæ fēcit:
+   - 1573: Et nos testes sumus omnium, quæ cùm in reliquo Iudæorum agro, tum Hierosolymæ fecit:
+   - TR: Καὶ ἡμεῖς ἐσμεν μάρτυρες πάντων ὧν ἐποίησεν ἔν τε τῇ χώρᾳ τῶν Ἰουδαίων καὶ ἐν Ἱερουσαλήμ· ὃν ἀνεῖλον κρεμάσαντες ἐπὶ ξύλου.
+   - SBLGNT: καὶ ἡμεῖς μάρτυρες πάντων ὧν ἐποίησεν ἔν τε τῇ χώρᾳ τῶν Ἰουδαίων καὶ Ἰερουσαλήμ· ὃν καὶ ἀνεῖλαν κρεμάσαντες ἐπὶ ξύλου.
+   - Vulgate: Et nos testes sumus omnium quæ fecit in regione Judæorum, et Jerusalem, quem occiderunt suspendentes in ligno.
+   - BSB: We are witnesses of all that He did, both in the land of the Jews and in Jerusalem. And although they put Him to death by hanging Him on a tree,
+   - WEB: We are witnesses of everything he did both in the country of the Jews and in Jerusalem; whom they also killed, hanging him on a tree.
+- **11:22** add (word): SBLGNT *–* ] TR *+ διελθειν*
+   - Latin: Quod postquam dē iīs audītiōne accēpit ecclēsia Hierosolymītāna, Barnābam mīsit, quī Antiochīam sē cōnferret.
+   - 1573: Quod postquam de eis auditione accepit ecclesia Hierosolymitana, Barnabam misit, qui Antiochiam se conferret.
+   - TR: Ἠκούσθη δὲ ὁ λόγος εἰς τὰ ὦτα τῆς ἐκκλησίας τῆς ἐν Ἱεροσολύμοις περὶ αὐτῶν· καὶ ἐξαπέστειλαν Βαρνάβαν διελθεῖν ἕως Ἀντιοχείας·
+   - SBLGNT: ἠκούσθη δὲ ὁ λόγος εἰς τὰ ὦτα τῆς ἐκκλησίας τῆς οὔσης ἐν Ἰερουσαλὴμ περὶ αὐτῶν, καὶ ἐξαπέστειλαν Βαρναβᾶν ἕως Ἀντιοχείας·
+   - Vulgate: Pervenit autem sermo ad aures ecclesiæ quæ erat Jerosolymis super istis: et miserunt Barnabam usque ad Antiochiam.
+   - BSB: When news of this reached the ears of the church in Jerusalem, they sent Barnabas to Antioch.
+   - WEB: The report concerning them came to the ears of the assembly which was in Jerusalem. They sent out Barnabas to go as far as Antioch,
+- **11:29** substitute (word): SBLGNT *ευπορειτο* ] TR *ηυπορειτο*
+   - Latin: Discipulī autem, prout eōrum cuique suppetēbat, dēcrēvērunt opitulandī grātiā mittere habitantibus in Jūdæā frātribus:
+   - 1573: Discipuli autem, prout eorum cuique suppetebat, decreuerunt opitulandi gratia mittere habitantibus in Iudæa fratribus:
+   - TR: Τῶν δὲ μαθητῶν καθὼς ηὐπορεῖτό τις, ὥρισαν ἕκαστος αὐτῶν εἰς διακονίαν πέμψαι τοῖς κατοικοῦσιν ἐν τῇ Ἰουδαίᾳ ἀδελφοῖς·
+   - SBLGNT: τῶν δὲ μαθητῶν καθὼς εὐπορεῖτό τις ὥρισαν ἕκαστος αὐτῶν εἰς διακονίαν πέμψαι τοῖς κατοικοῦσιν ἐν τῇ Ἰουδαίᾳ ἀδελφοῖς·
+   - Vulgate: Discipuli autem, prout quis habebat, proposuerunt singuli in ministerium mittere habitantibus in Judæa fratribus:
+   - BSB: So the disciples, each according to his ability, decided to send relief to the brothers living in Judea.
+   - WEB: As any of the disciples had plenty, each determined to send relief to the brothers who lived in Judea;
+- **12:6** substitute (word): SBLGNT *ημελλε προαγαγειν* ] TR *εμελλε*
+   - Latin: Cum autem eum prōductūrus esset Hērōdēs, et eā nocte dormīret Petrus inter duōs mīlitēs, duābus colligātus catēnīs, et custōdēs ante portam custōdiam agerent:
+   - 1573: Cùm autem eum producturus esset Herodes, et ea nocte dormiret Petrus inter duos milites, duabus colligatus catenis, et custodes ante portam custodiam agerent:
+   - TR: Ὅτε δὲ ἔμελλεν αὐτὸν προάγειν ὁ Ἡρῴδης, τῇ νυκτὶ ἐκείνῃ ἦν ὁ Πέτρος κοιμώμενος μεταξὺ δύο στρατιωτῶν, δεδεμένος ἁλύσεσι δυσί· φύλακές τε πρὸ τῆς θύρας ἐτήρουν τὴν φυλακήν.
+   - SBLGNT: Ὅτε δὲ ἤμελλεν προαγαγεῖν αὐτὸν ὁ Ἡρῴδης, τῇ νυκτὶ ἐκείνῃ ἦν ὁ Πέτρος κοιμώμενος μεταξὺ δύο στρατιωτῶν δεδεμένος ἁλύσεσιν δυσίν, φύλακές τε πρὸ τῆς θύρας ἐτήρουν τὴν φυλακήν.
+   - Vulgate: Cum autem producturus eum esset Herodes, in ipsa nocte erat Petrus dormiens inter duos milites, vinctus catenis duabus: et custodes ante ostium custodiebant carcerem.
+   - BSB: On the night before Herod was to bring him to trial, Peter was sleeping between two soldiers, bound with two chains, with sentries standing guard at the entrance to the prison.
+   - WEB: The same night when Herod was about to bring him out, Peter was sleeping between two soldiers, bound with two chains. Guards in front of the door kept the prison.
+- **12:10** substitute (word): SBLGNT *ηλθαν* ] TR *ηλθον*
+   - Latin: Prætergressī prīmam ac secundam custōdiam, veniunt ad portam ferream, quā in urbem ītur: quā iīs suā sponte apertā, simulac ēgressī vīcum ūnum prōcessērunt, discessit ab eō angelus.
+   - 1573: Prætergressi primam ac secundam custodiam, veniunt ad portam ferream, quà in vrbem itur, qua eis sua sponte aperta, simulac egressi, vicum vnum processerunt, discessit ab eo angelus.
+   - TR: Διελθόντες δὲ πρώτην φυλακὴν καὶ δευτέραν, ἦλθον ἐπὶ τὴν πύλην τὴν σιδηρᾶν, τὴν φέρουσαν εἰς τὴν πόλιν, ἥτις αὐτομάτη ἠνοίχθη αὐτοῖς· καὶ ἐξελθόντες προῆλθον ῥύμην μίαν, καὶ εὐθέως ἀπέστη ὁ ἄγγελος ἀπ᾿ αὐτοῦ.
+   - SBLGNT: διελθόντες δὲ πρώτην φυλακὴν καὶ δευτέραν ἦλθαν ἐπὶ τὴν πύλην τὴν σιδηρᾶν τὴν φέρουσαν εἰς τὴν πόλιν, ἥτις αὐτομάτη ἠνοίγη αὐτοῖς, καὶ ἐξελθόντες προῆλθον ῥύμην μίαν, καὶ εὐθέως ἀπέστη ὁ ἄγγελος ἀπʼ αὐτοῦ.
+   - Vulgate: Transeuntes autem primam et secundam custodiam, venerunt ad portam ferream, quæ ducit ad civitatem: quæ ultro aperta est eis. Et exeuntes processerunt vicum unum: et continuo discessit angelus ab eo.
+   - BSB: They passed the first and second guards and came to the iron gate leading to the city, which opened for them by itself. When they had gone outside and walked the length of one block, the angel suddenly left him.
+   - WEB: When they were past the first and the second guard, they came to the iron gate that leads into the city, which opened to them by itself. They went out and went down one street, and immediately the angel departed from him.
+- **12:15** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*; substitute (word): SBLGNT *δε* ] TR *δ*
+   - Latin: At illī eam īnsānīre dīcere. Atque illā sīc sē rem habēre contendente, dīcēbant, ejus esse angelum.
+   - 1573: At illi eam insanire dicere. Atque illa sic se rem habere contendente, dicebant eius esse angelum.
+   - TR: Οἱ δὲ πρὸς αὐτὴν εἶπον, Μαίνῃ. Ἡ δὲ διϊσχυρίζετο οὕτως ἔχειν. Οἱ δ᾿ ἔλεγον, Ὁ ἄγγελος αὐτοῦ ἐστιν.
+   - SBLGNT: οἱ δὲ πρὸς αὐτὴν εἶπαν· Μαίνῃ. ἡ δὲ διϊσχυρίζετο οὕτως ἔχειν. οἱ δὲ ἔλεγον· Ὁ ἄγγελός ἐστιν αὐτοῦ.
+   - Vulgate: At illi dixerunt ad eam: Insanis. Illa autem affirmabat sic se habere. Illi autem dicebant: Angelus ejus est.
+   - BSB: “You are out of your mind,” they told her. But when she kept insisting it was so, they said, “It must be his angel.”
+   - WEB: They said to her, “You are crazy!” But she insisted that it was so. They said, “It is his angel.”
+- **12:16** substitute (word): SBLGNT *ειδαν* ] TR *ειδον*
+   - Latin: Sed Petrō pulsāre pergente, aperuērunt, et eō vīsō attonitī sunt.
+   - 1573: Sed Petro pulsare pergente, aperuerunt, et eo viso attoniti sunt:
+   - TR: Ὁ δὲ Πέτρος ἐπέμενε κρούων· ἀνοίξαντες δὲ εἶδον αὐτόν, καὶ ἐξέστησαν.
+   - SBLGNT: ὁ δὲ Πέτρος ἐπέμενεν κρούων· ἀνοίξαντες δὲ εἶδαν αὐτὸν καὶ ἐξέστησαν.
+   - Vulgate: Petrus autem perseverabat pulsans. Cum autem aperuissent, viderunt eum, et obstupuerunt.
+   - BSB: But Peter kept on knocking, and when they opened the door and saw him, they were astounded.
+   - WEB: But Peter continued knocking. When they had opened, they saw him and were amazed.
+- **13:19** substitute (word): SBLGNT *κατεκληρονομησε* ] TR *κατεκληροδοτησε αυτοις*
+   - Latin: Ac sublātīs in Chananæā terrā septem gentibus, eārum terram dedit iīs possidendam.
+   - 1573: ac sublatis in Chananæa terra septem gentibus, earum terram dedit eis possidendam.
+   - TR: Καὶ καθελὼν ἔθνη ἑπτὰ ἐν γῇ Χαναάν, κατεκληροδότησεν αὐτοῖς τὴν γῆν αὐτῶν.
+   - SBLGNT: καὶ καθελὼν ἔθνη ἑπτὰ ἐν γῇ Χανάαν κατεκληρονόμησεν τὴν γῆν αὐτῶν
+   - Vulgate: Et destruens gentes septem in terra Chanaan, sorte distribuit eis terram eorum,
+   - BSB: And having vanquished seven nations in Canaan, He gave their land to His people as an inheritance.
+   - WEB: When he had destroyed seven nations in the land of Canaan, he gave them their land for an inheritance for about four hundred fifty years.
+- **13:22** substitute (name): SBLGNT *δαυιδ αυτοις* ] TR *δαβιδ*; substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Quō sublātō, Dāvīdem iīs rēgem suscitāvit, dē quō loquēns ita testātus est: ‘Nactus sum Dāvīdem Īsæī fīlium, virum ex animī meī sententiā, quī omnia, quæ ego volam, faciat.’
+   - 1573: Quo sublato, Dauidem eis regem suscitauit, de quo loquens ita testatus est: Nactus sum Dauidem Isæi filium, virum ex animi mei sententia, qui omnia quæ ego volam, faciat.
+   - TR: Καὶ μεταστήσας αὐτόν, ἤγειρεν αὐτοῖς τὸν Δαβὶδ εἰς βασιλέα, ᾧ καὶ εἶπε μαρτυρήσας, Εὗρον Δαβὶδ τὸν τοῦ Ἰεσσαί, ἄνδρα κατὰ τὴν καρδίαν μου, ὃς ποιήσει πάντα τὰ θελήματά μου.
+   - SBLGNT: καὶ μεταστήσας αὐτὸν ἤγειρεν τὸν Δαυὶδ αὐτοῖς εἰς βασιλέα, ᾧ καὶ εἶπεν μαρτυρήσας· Εὗρον Δαυὶδ τὸν τοῦ Ἰεσσαί, ἄνδρα κατὰ τὴν καρδίαν μου, ὃς ποιήσει πάντα τὰ θελήματά μου.
+   - Vulgate: et amoto illo, suscitavit illis David regem: cui testimonium perhibens, dixit: Inveni David filium Jesse, virum secundum cor meum, qui faciet omnes voluntates meas.
+   - BSB: After removing Saul, He raised up David as their king and testified about him: ‘I have found David son of Jesse a man after My own heart; he will carry out My will in its entirety.’
+   - WEB: When he had removed him, he raised up David to be their king, to whom he also testified, ‘I have found David the son of Jesse, a man after my heart, who will do all my will.’
+- **13:23** substitute (word): SBLGNT *ηγαγε* ] TR *ηγειρε*
+   - Latin: Hujus ex sēmine Deus, ex prōmissō, dūxit Isrāēlītīs Servātōrem Jēsum.
+   - 1573: Huius ex semine Deus, ex promisso, duxit Israelitis seruatorem Iesum,
+   - TR: Τούτου ὁ Θεὸς ἀπὸ τοῦ σπέρματος κατ᾿ ἐπαγγελίαν ἤγειρε τῷ Ἰσραὴλ σωτῆρα Ἰησοῦν,
+   - SBLGNT: τούτου ὁ θεὸς ἀπὸ τοῦ σπέρματος κατʼ ἐπαγγελίαν ἤγαγεν τῷ Ἰσραὴλ σωτῆρα Ἰησοῦν,
+   - Vulgate: Hujus Deus ex semine secundum promissionem eduxit Israël salvatorem Jesum,
+   - BSB: From the descendants of this man, God has brought to Israel the Savior Jesus, as He promised.
+   - WEB: From this man’s offspring, God has brought salvation to Israel according to his promise,
+- **13:29** substitute (word): SBLGNT *παντα* ] TR *απαντα*
+   - Latin: Ac postquam omnia dē eō scrīpta perfēcērunt, eum patibulō dētractum, posuērunt in monumentō.
+   - 1573: Ac postquam omnia de eo scripta perfecerunt, eum patibulo detractum, posuerunt in monimento.
+   - TR: Ὡς δὲ ἐτέλεσαν ἅπαντα τὰ περὶ αὐτοῦ γεγραμμένα, καθελόντες ἀπὸ τοῦ ξύλου, ἔθηκαν εἰς μνημεῖον.
+   - SBLGNT: ὡς δὲ ἐτέλεσαν πάντα τὰ περὶ αὐτοῦ γεγραμμένα, καθελόντες ἀπὸ τοῦ ξύλου ἔθηκαν εἰς μνημεῖον.
+   - Vulgate: Cumque consummassent omnia quæ de eo scripta erant, deponentes eum de ligno, posuerunt eum in monumento.
+   - BSB: When they had carried out all that was written about Him, they took Him down from the tree and laid Him in a tomb.
+   - WEB: When they had fulfilled all things that were written about him, they took him down from the tree and laid him in a tomb.
+- **13:32** add (clause): SBLGNT *–* ] TR *+ οτι ταυτην ο θεος εκπεπληρωκε τοις τεκνοις αυτων ημιν αναστησας ιησουν*
+   - Latin: Et nōs vōbīs nūntiāmus, quod majōribus prōmīserat Deus.
+   - 1573: Et nos vobis nunciamus, quod maioribus promiserat Deus,
+   - TR: Καὶ ἡμεῖς ὑμᾶς εὐαγγελιζόμεθα τὴν πρὸς τοὺς πατέρας ἐπαγγελίαν γενομένην, ὅτι ταύτην ὁ Θεὸς ἐκπεπλήρωκε τοῖς τέκνοις αὐτῶν ἡμῖν, ἀναστήσας Ἰησοῦν·
+   - SBLGNT: καὶ ἡμεῖς ὑμᾶς εὐαγγελιζόμεθα τὴν πρὸς τοὺς πατέρας ἐπαγγελίαν γενομένην
+   - Vulgate: Et nos vobis annuntiamus eam, quæ ad patres nostros repromissio facta est:
+   - BSB: And now we proclaim to you the good news: What God promised our fathers
+   - WEB: We bring you good news of the promise made to the fathers,
+- **13:33** omit (clause): SBLGNT *οτι ταυτην ο θεος εκπεπληρωκε τοις τεκνοις ημων αναστησας ιησουν* ] TR *–*
+   - Latin: Id nōbīs eōrum posterīs præstitisse, suscitātō Jēsū, ut etiam in psalmō secundō scrīptum est: ‘Tū meus es Fīlius: ego tē hodiē genuī.’
+   - 1573: id nobis eorum posteris præstitisse, suscitato Iesu, vt etiam in Psalmo secundo scriptum est: Tu meus es filius, ego te hodie genui.
+   - TR: ὡς καὶ ἐν τῷ ψαλμῷ τῷ δευτέρῳ γέγραπται, Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε.
+   - SBLGNT: ὅτι ταύτην ὁ θεὸς ἐκπεπλήρωκεν τοῖς τέκνοις ἡμῶν ἀναστήσας Ἰησοῦν, ὡς καὶ ἐν τῷ ψαλμῷ γέγραπται τῷ δευτέρῳ· Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε.
+   - Vulgate: quoniam hanc Deus adimplevit filiis nostris resuscitans Jesum, sicut et in psalmo secundo scriptum est: Filius meus es tu, ego hodie genui te.
+   - BSB: He has fulfilled for us, their children, by raising up Jesus. As it is written in the second Psalm: ‘You are My Son; today I have become Your Father.’
+   - WEB: that God has fulfilled this to us, their children, in that he raised up Jesus. As it is also written in the second psalm, ‘You are my Son. Today I have become your father.’
+- **13:34** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Quod autem eum ex mortuīs excitārit, nōn jam reditūrum ad interitum, sīc dīxit: ‘Dabō vōbīs fidēlem Dāvīdis benignitātem.’
+   - 1573: Quòd autem eum ex mortuis excitarit, non iam rediturum ad interitum, sic dixit: Dabo vobis fidelem Dauidis benignitatem.
+   - TR: Ὅτι δὲ ἀνέστησεν αὐτὸν ἐκ νεκρῶν, μηκέτι μέλλοντα ὑποστρέφειν εἰς διαφθοράν, οὕτως εἴρηκεν ὅτι Δώσω ὑμῖν τὰ ὅσια Δαβὶδ τὰ πιστά.
+   - SBLGNT: ὅτι δὲ ἀνέστησεν αὐτὸν ἐκ νεκρῶν μηκέτι μέλλοντα ὑποστρέφειν εἰς διαφθοράν, οὕτως εἴρηκεν ὅτι Δώσω ὑμῖν τὰ ὅσια Δαυὶδ τὰ πιστά.
+   - Vulgate: Quod autem suscitavit eum a mortuis, amplius jam non reversurum in corruptionem, ita dixit: Quia dabo vobis sancta David fidelia.
+   - BSB: In fact, God raised Him from the dead, never to see decay. As He has said: ‘I will give you the holy and sure blessings promised to David.’
+   - WEB: “Concerning that he raised him up from the dead, now no more to return to corruption, he has spoken thus: ‘I will give you the holy and sure blessings of David.’
+- **13:36** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Nam Dāvīd quidem, postquam ætātī suæ īnservīvit, Deī cōnsiliō obdormīvit, et ad suōs majōrēs additus, corruptiōnemque passus est.
+   - 1573: Nam Dauid quidem, postquam ætati suæ inseruiuit, Dei consilio obdormiuit, et ad suos maiores additus, corruptionemque passus est.
+   - TR: Δαβὶδ μὲν γὰρ ἰδίᾳ γενεᾷ ὑπηρετήσας τῇ τοῦ Θεοῦ βουλῇ ἐκοιμήθη, καὶ προσετέθη πρὸς τοὺς πατέρας αὐτοῦ, καὶ εἶδε διαφθοράν·
+   - SBLGNT: Δαυὶδ μὲν γὰρ ἰδίᾳ γενεᾷ ὑπηρετήσας τῇ τοῦ θεοῦ βουλῇ ἐκοιμήθη καὶ προσετέθη πρὸς τοὺς πατέρας αὐτοῦ καὶ εἶδεν διαφθοράν,
+   - Vulgate: David enim in sua generatione cum administrasset, voluntati Dei dormivit: et appositus est ad patres suos, et vidit corruptionem.
+   - BSB: For when David had served God’s purpose in his own generation, he fell asleep. His body was buried with his fathers and saw decay.
+   - WEB: For David, after he had in his own generation served the counsel of God, fell asleep, was laid with his fathers, and saw decay.
+- **13:38** omit (clause): SBLGNT *και απο παντων ων ουκ ηδυνηθητε εν νομω μωυσεως δικαιωθηναι* ] TR *–*
+   - Latin: Quamobrem hoc vōbīs nōtum estō, virī frātrēs, vōbīs per hunc peccātōrum veniam nūntiārī:
+   - 1573: Quamobrem hoc vobis notum esto, viri fratres, vobis per hunc peccatorum veniam nunciari:
+   - TR: Γνωστὸν οὖν ἔστω ὑμῖν, ἄνδρες ἀδελφοί, ὅτι διὰ τούτου ὑμῖν ἄφεσις ἁμαρτιῶν καταγγέλλεται·
+   - SBLGNT: γνωστὸν οὖν ἔστω ὑμῖν, ἄνδρες ἀδελφοί, ὅτι διὰ τούτου ὑμῖν ἄφεσις ἁμαρτιῶν καταγγέλλεται, καὶ ἀπὸ πάντων ὧν οὐκ ἠδυνήθητε ἐν νόμῳ Μωϋσέως δικαιωθῆναι
+   - Vulgate: Notum igitur sit vobis, viri fratres, quia per hunc vobis remissio peccatorum annuntiatur, et ab omnibus quibus non potuistis in lege Moysi justificari,
+   - BSB: Therefore let it be known to you, brothers, that through Jesus the forgiveness of sins is proclaimed to you.
+   - WEB: Be it known to you therefore, brothers, that through this man is proclaimed to you remission of sins;
+- **13:39** add (clause): SBLGNT *–* ] TR *+ και απο παντων ων ουκ ηδυνηθητε εν τω νομω μωσεως δικαιωθηναι*
+   - Latin: Ac ab omnibus, ā quibus per Mōsis lēgem solvī nequīvistis, per hunc, quīcumque crēdat, solvī.
+   - 1573: Ac ab omnibus, à quibus per Mosis legem solui nequiuistis, per hunc, quicunque credat, solui.
+   - TR: καὶ ἀπὸ πάντων ὧν οὐκ ἠδυνήθητε ἐν τῷ νόμῳ Μωσέως δικαιωθῆναι, ἐν τούτῳ πᾶς ὁ πιστεύων δικαιοῦται.
+   - SBLGNT: ἐν τούτῳ πᾶς ὁ πιστεύων δικαιοῦται.
+   - Vulgate: in hoc omnis qui credit, justificatur.
+   - BSB: Through Him everyone who believes is justified from everything you could not be justified from by the law of Moses.
+   - WEB: and by him everyone who believes is justified from all things, from which you could not be justified by the law of Moses.
+- **13:41** substitute (word): SBLGNT *ο* ] TR *ω*
+   - Latin: ‘Vidēte, ō contemptōrēs! et præ admīrātiōne obtorpēscite: nam ejusmodī rem ego factūrus sum vestrīs temporibus, quam nōn sītis crēditūrī, sī quis vōbīs expōnat.’”
+   - 1573: Videte ô contemptores, et præ admiratione obtorpescite: nam eiusmodi rem ego facturus sum vestris temporibus, quam non sitis credituri, si quis vobis exponat.
+   - TR: Ἴδετε, οἱ καταφρονηταί, καὶ θαυμάσατε, καὶ ἀφανίσθητε· ὅτι ἔργον ἐγὼ ἐργάζομαι ἐν ταῖς ἡμέραις ὑμῶν, ἔργον ᾧ οὐ μὴ πιστεύσητε, ἐάν τις ἐκδιηγῆται ὑμῖν.
+   - SBLGNT: Ἴδετε, οἱ καταφρονηταί, καὶ θαυμάσατε καὶ ἀφανίσθητε, ὅτι ἔργον ἐργάζομαι ἐγὼ ἐν ταῖς ἡμέραις ὑμῶν, ἔργον ὃ οὐ μὴ πιστεύσητε ἐάν τις ἐκδιηγῆται ὑμῖν.
+   - Vulgate: [Videte contemptores, et admiramini, et disperdimini: quia opus operor ego in diebus vestris, opus quod non credetis, si quis enarraverit vobis.]
+   - BSB: ‘Look, you scoffers, wonder and perish! For I am doing a work in your days that you would never believe, even if someone told you.’”
+   - WEB: ‘Behold, you scoffers! Wonder and perish, for I work a work in your days, a work which you will in no way believe, if one declares it to you.’”
+- **13:46** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Quibus contrā Paulus et Barnābās sīc līberē dīxērunt: “Vōbīs prīmum necesse erat prōpōnī dīvīnam doctrīnam: sed quia eam rejicitis, neque vōs sempiternā vītā dignōs jūdicātis, scītōte, nōs ad gentēs convertī.
+   - 1573: Quibus contrà Paulus et Barnabas sic liberè dixerunt: Vobis primùm necesse erat proponi diuinam doctrinam. Sed quia eam reijcitis, neque vos sempiterna vita dignos iudicatis, scitote nos ad gentes conuerti.
+   - TR: Παρρησιασάμενοι δὲ ὁ Παῦλος καὶ ὁ Βαρνάβας εἶπον, Ὑμῖν ἦν ἀναγκαῖον πρῶτον λαληθῆναι τὸν λόγον τοῦ Θεοῦ. Ἐπειδὴ δὲ ἀπωθεῖσθε αὐτόν, καὶ οὐκ ἀξίους κρίνετε ἑαυτοὺς τῆς αἰωνίου ζωῆς, ἰδοὺ στρεφόμεθα εἰς τὰ ἔθνη.
+   - SBLGNT: παρρησιασάμενοί τε ὁ Παῦλος καὶ ὁ Βαρναβᾶς εἶπαν· Ὑμῖν ἦν ἀναγκαῖον πρῶτον λαληθῆναι τὸν λόγον τοῦ θεοῦ· ἐπειδὴ ἀπωθεῖσθε αὐτὸν καὶ οὐκ ἀξίους κρίνετε ἑαυτοὺς τῆς αἰωνίου ζωῆς, ἰδοὺ στρεφόμεθα εἰς τὰ ἔθνη·
+   - Vulgate: Tunc constanter Paulus et Barnabas dixerunt: Vobis oportebat primum loqui verbum Dei: sed quoniam repellitis illud, et indignos vos judicatis æternæ vitæ, ecce convertimur ad gentes.
+   - BSB: Then Paul and Barnabas answered them boldly: “It was necessary to speak the word of God to you first. But since you reject it and do not consider yourselves worthy of eternal life, we now turn to the Gentiles.
+   - WEB: Paul and Barnabas spoke out boldly, and said, “It was necessary that God’s word should be spoken to you first. Since indeed you thrust it from yourselves, and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles.
+- **14:17** substitute (word): SBLGNT *αυτον* ] TR *εαυτον*
+   - Latin: Tametsī nōn sē relīquit nōn testātum, benefaciendō, dē cælō nōbīs pluviās, frūgiferaque dandō tempora, explendō cibīs ac lætitiā nostrōs animōs.”
+   - 1573: Tametsi non se reliquit non testatum, benefaciendo, de cœlo nobis pluuias frugiferaque dando tempora, explendo cibis ac lætitia nostros animos.
+   - TR: Καίτοιγε οὐκ ἀμάρτυρον ἑαυτὸν ἀφῆκεν ἀγαθοποιῶν, οὐρανόθεν ἡμῖν ὑετοὺς διδοὺς καὶ καιροὺς καρποφόρους, ἐμπιπλῶν τροφῆς καὶ εὐφροσύνης τὰς καρδίας ἡμῶν.
+   - SBLGNT: καίτοι οὐκ ἀμάρτυρον αὑτὸν ἀφῆκεν ἀγαθουργῶν, οὐρανόθεν ὑμῖν ὑετοὺς διδοὺς καὶ καιροὺς καρποφόρους, ἐμπιπλῶν τροφῆς καὶ εὐφροσύνης τὰς καρδίας ὑμῶν.
+   - Vulgate: Et quidem non sine testimonio semetipsum reliquit benefaciens de cælo, dans pluvias et tempora fructifera, implens cibo et lætitia corda nostra.
+   - BSB: Yet He has not left Himself without testimony to His goodness: He gives you rain from heaven and fruitful seasons, filling your hearts with food and gladness.”
+   - WEB: Yet he didn’t leave himself without witness, in that he did good and gave you rains from the sky and fruitful seasons, filling our hearts with food and gladness.”
+- **14:19** substitute (name): SBLGNT *επηλθαν* ] TR *επηλθον*
+   - Latin: Supervēnērunt intereā ab Antiochīā et Īconiō Jūdæī, quī vulgō persuāsērunt, ut Paulum lapidārent, ac extrā urbem traherent, mortuum esse ratī.
+   - 1573: Superuenerunt interea ab Antiochia et Iconio Iudæi, qui vulgo persuaserunt, vt Paulum lapidarent, ac extra vrbem traherent, mortuum esse rati.
+   - TR: Ἐπῆλθον δὲ ἀπὸ Ἀντιοχείας καὶ Ἰκονίου Ἰουδαῖοι, καὶ πείσαντες τοὺς ὄχλους, καὶ λιθάσαντες τὸν Παῦλον, ἔσυρον ἔξω τῆς πόλεως, νομίσαντες αὐτὸν τεθνάναι.
+   - SBLGNT: Ἐπῆλθαν δὲ ἀπὸ Ἀντιοχείας καὶ Ἰκονίου Ἰουδαῖοι, καὶ πείσαντες τοὺς ὄχλους καὶ λιθάσαντες τὸν Παῦλον ἔσυρον ἔξω τῆς πόλεως, νομίζοντες αὐτὸν τεθνηκέναι.
+   - Vulgate: Supervenerunt autem quidam ab Antiochia et Iconio Judæi: et persuasis turbis, lapidantesque Paulum, traxerunt extra civitatem, existimantes eum mortuum esse.
+   - BSB: Then some Jews arrived from Antioch and Iconium and won over the crowds. They stoned Paul and dragged him outside the city, presuming he was dead.
+   - WEB: But some Jews from Antioch and Iconium came there, and having persuaded the multitudes, they stoned Paul and dragged him out of the city, supposing that he was dead.
+- **15:2** substitute (word): SBLGNT *ζητησεως* ] TR *συζητησεως*
+   - Latin: Itaque cum Paulō et Barnābæ ortum esset adversus illōs nōn mediocre certāmen atque contentiō: statuērunt Paulō et Barnābæ, et aliīs quibusdam ex suīs, ascendendum esse Hierosolymam ad apostolōs et seniōrēs, ob eam quæstiōnem.
+   - 1573: Itaque cùm Paulo et Barnabæ ortum esset aduersus illos non mediocre certamen atque contentio: statuerunt Paulo et Barnabæ, et alijs quibusdam ex suis, ascendendum esse Hierosolymam ad apostolos et seniores, ob eam quæstionem.
+   - TR: Γενομένης οὖν στάσεως καὶ συζητήσεως οὐκ ὀλίγης τῷ Παύλῳ καὶ τῷ Βαρνάβᾳ πρὸς αὐτούς, ἔταξαν ἀναβαίνειν Παῦλον καὶ Βαρνάβαν καί τινας ἄλλους ἐξ αὐτῶν πρὸς τοὺς ἀποστόλους καὶ πρεσβυτέρους εἰς Ἱερουσαλὴμ περὶ τοῦ ζητήματος τούτου.
+   - SBLGNT: γενομένης δὲ στάσεως καὶ ζητήσεως οὐκ ὀλίγης τῷ Παύλῳ καὶ τῷ Βαρναβᾷ πρὸς αὐτοὺς ἔταξαν ἀναβαίνειν Παῦλον καὶ Βαρναβᾶν καί τινας ἄλλους ἐξ αὐτῶν πρὸς τοὺς ἀποστόλους καὶ πρεσβυτέρους εἰς Ἰερουσαλὴμ περὶ τοῦ ζητήματος τούτου.
+   - Vulgate: Facta ergo seditione non minima Paulo et Barnabæ adversus illos, statuerunt ut ascenderent Paulus et Barnabas, et quidam alii ex aliis ad Apostolos et presbyteros in Jerusalem super hac quæstione.
+   - BSB: And after engaging these men in sharp debate, Paul and Barnabas were appointed, along with some other believers, to go up to Jerusalem to see the apostles and elders about this question.
+   - WEB: Therefore when Paul and Barnabas had no small discord and discussion with them, they appointed Paul, Barnabas, and some others of them to go up to Jerusalem to the apostles and elders about this question.
+- **15:4** substitute (name): SBLGNT *ιεροσολυμα παρεδεχθησαν απο* ] TR *ιερουσαλημ απεδεχθησαν υπο*
+   - Latin: Ubi Hierosolymam perventum est, acceptī sunt ab ecclēsiā et apostolīs ac seniōribus, et, quæ Deus sēcum fēcisset, retulērunt.
+   - 1573: Vbi Hierosolymam peruentum est, accepti sunt ab ecclesia et apostolis ac senioribus, et, quæ Deus secum fecisset, retulerunt.
+   - TR: Παραγενόμενοι δὲ εἰς Ἱερουσαλήμ, ἀπεδέχθησαν ὑπὸ τῆς ἐκκλησίας καὶ τῶν ἀποστόλων καὶ τῶν πρεσβυτέρων, ἀνήγγειλάν τε ὅσα ὁ Θεὸς ἐποίησε μετ᾿ αὐτῶν.
+   - SBLGNT: παραγενόμενοι δὲ εἰς Ἱεροσόλυμα παρεδέχθησαν ἀπὸ τῆς ἐκκλησίας καὶ τῶν ἀποστόλων καὶ τῶν πρεσβυτέρων, ἀνήγγειλάν τε ὅσα ὁ θεὸς ἐποίησεν μετʼ αὐτῶν.
+   - Vulgate: Cum autem venissent Jerosolymam, suscepti sunt ab ecclesia, et ab Apostolis et senioribus, annuntiantes quanta Deus fecisset cum illis.
+   - BSB: On their arrival in Jerusalem, they were welcomed by the church and apostles and elders, to whom they reported all that God had done through them.
+   - WEB: When they had come to Jerusalem, they were received by the assembly and the apostles and the elders, and they reported everything that God had done with them.
+- **15:11** add (word): SBLGNT *–* ] TR *+ χριστου*
+   - Latin: Sed nōs per Dominī Jēsū Chrīstī grātiam servārī crēdimus, quemadmodum et illī.”
+   - 1573: Sed nos per Domini Iesu Christi gratiam seruari credimus, quemadmodum et illi.
+   - TR: Ἀλλὰ διὰ τῆς χάριτος Κυρίου Ἰησοῦ Χριστοῦ πιστεύομεν σωθῆναι, καθ᾿ ὃν τρόπον κἀκεῖνοι.
+   - SBLGNT: ἀλλὰ διὰ τῆς χάριτος τοῦ κυρίου Ἰησοῦ πιστεύομεν σωθῆναι καθʼ ὃν τρόπον κἀκεῖνοι.
+   - Vulgate: sed per gratiam Domini Jesu Christi credimus salvari, quemadmodum et illi.
+   - BSB: On the contrary, we believe it is through the grace of the Lord Jesus that we are saved, just as they are.”
+   - WEB: But we believe that we are saved through the grace of the Lord Jesus, just as they are.”
+- **15:16** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: ‘Posteā revertar, et collāpsum Dāvīdis tabernāculum reficiam, ejusque dīruta īnstaurābō, et id ērigam:
+   - 1573: Postea reuertar, et collapsum Dauidis tabernaculum reficiam, eiusque diruta instaurabo, et id erigam:
+   - TR: Μετὰ ταῦτα ἀναστρέψω, καὶ ἀνοικοδομήσω τὴν σκηνὴν Δαβὶδ τὴν πεπτωκυῖαν· καὶ τὰ κατεσκαμμένα αὐτῆς ἀνοικοδομήσω, καὶ ἀνορθώσω αὐτήν·
+   - SBLGNT: Μετὰ ταῦτα ἀναστρέψω καὶ ἀνοικοδομήσω τὴν σκηνὴν Δαυὶδ τὴν πεπτωκυῖαν καὶ τὰ κατεσκαμμένα αὐτῆς ἀνοικοδομήσω καὶ ἀνορθώσω αὐτήν,
+   - Vulgate: [Post hæc revertar, et reædificabo tabernaculum David quod decidit: et diruta ejus reædificabo, et erigam illud:
+   - BSB: ‘After this I will return and rebuild the fallen tent of David. Its ruins I will rebuild, and I will restore it,
+   - WEB: ‘After these things I will return. I will again build the tabernacle of David, which has fallen. I will again build its ruins. I will set it up
+- **15:21** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Mōsēs enim jam inde ā prīscīs sæculīs per urbēs, quī sē prædicent, habet, dum per collēgia omnibus Sabbatīs recitātur.”
+   - 1573: Moses enim iam inde à priscis seculis per vrbes, qui se prædicent habet, dum per collegia omnibus Sabbatis recitatur.
+   - TR: Μωσῆς γὰρ ἐκ γενεῶν ἀρχαίων κατὰ πόλιν τοὺς κηρύσσοντας αὐτὸν ἔχει, ἐν ταῖς συναγωγαῖς κατὰ πᾶν σάββατον ἀναγινωσκόμενος.
+   - SBLGNT: Μωϋσῆς γὰρ ἐκ γενεῶν ἀρχαίων κατὰ πόλιν τοὺς κηρύσσοντας αὐτὸν ἔχει ἐν ταῖς συναγωγαῖς κατὰ πᾶν σάββατον ἀναγινωσκόμενος.
+   - Vulgate: Moyses enim a temporibus antiquis habet in singulis civitatibus qui eum prædicent in synagogis, ubi per omne sabbatum legitur.
+   - BSB: For Moses has been proclaimed in every city from ancient times and is read in the synagogues on every Sabbath.”
+   - WEB: For Moses from generations of old has in every city those who preach him, being read in the synagogues every Sabbath.”
+- **15:22** substitute (name): SBLGNT *καλουμενον βαρσαββαν* ] TR *επικαλουμενον βαρσαβαν*
+   - Latin: Tum vīsum est apostolīs et seniōribus, ūnā cum tōtā ecclēsiā, dēlēctōs ex sē virōs Antiochīam cum Paulō et Barnābā mittere, Jūdam cognōmine Barsabam, et Sīlam, virōs frātrum prīmāriōs,
+   - 1573: Tum visum est apostolis et senioribus, vnà cum tota ecclesia, delectos ex se viros Antiochiam cum Paulo et Barnaba mittere, Iudam cognomine Barsabam, et Silam, viros fratrum primarios,
+   - TR: Τότε ἔδοξε τοῖς ἀποστόλοις καὶ τοῖς πρεσβυτέροις σὺν ὅλῃ τῇ ἐκκλησίᾳ, ἐκλεξαμένους ἄνδρας ἐξ αὐτῶν πέμψαι εἰς Ἀντιόχειαν σὺν τῷ Παύλῳ καὶ Βαρνάβᾳ, Ἰούδαν τὸν ἐπικαλούμενον Βαρσαβᾶν, καὶ Σίλαν, ἄνδρας ἡγουμένους ἐν τοῖς ἀδελφοῖς,
+   - SBLGNT: Τότε ἔδοξε τοῖς ἀποστόλοις καὶ τοῖς πρεσβυτέροις σὺν ὅλῃ τῇ ἐκκλησίᾳ ἐκλεξαμένους ἄνδρας ἐξ αὐτῶν πέμψαι εἰς Ἀντιόχειαν σὺν τῷ Παύλῳ καὶ Βαρναβᾷ, Ἰούδαν τὸν καλούμενον Βαρσαββᾶν καὶ Σιλᾶν, ἄνδρας ἡγουμένους ἐν τοῖς ἀδελφοῖς,
+   - Vulgate: Tunc placuit Apostolis et senioribus cum omni ecclesia eligere viros ex eis, et mittere Antiochiam cum Paulo et Barnaba: Judam, qui cognominabatur Barsabas, et Silam, viros primos in fratribus:
+   - BSB: Then the apostles and elders, with the whole church, decided to select men from among them to send to Antioch with Paul and Barnabas. They chose Judas called Barsabbas and Silas, two leaders among the brothers,
+   - WEB: Then it seemed good to the apostles and the elders, with the whole assembly, to choose men out of their company, and send them to Antioch with Paul and Barnabas: Judas called Barsabbas, and Silas, chief men among the brothers.
+- **16:20** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Ac iīs ad prætōrēs perductīs, ita dīxērunt: “Hominēs hī urbem nostram obturbant, cum sint Jūdæī,
+   - 1573: Ac eis ad prætores perductis, ita dixerunt: Homines hi vrbem nostram obturbant, cùm sint Iudæi,
+   - TR: καὶ προσαγαγόντες αὐτοὺς τοῖς στρατηγοῖς εἶπον, Οὗτοι οἱ ἄνθρωποι ἐκταράσσουσιν ἡμῶν τὴν πόλιν, Ἰουδαῖοι ὑπάρχοντες,
+   - SBLGNT: καὶ προσαγαγόντες αὐτοὺς τοῖς στρατηγοῖς εἶπαν· Οὗτοι οἱ ἄνθρωποι ἐκταράσσουσιν ἡμῶν τὴν πόλιν Ἰουδαῖοι ὑπάρχοντες,
+   - Vulgate: et offerentes eos magistratibus, dixerunt: Hi homines conturbant civitatem nostram, cum sint Judæi:
+   - BSB: They brought them to the magistrates and said, “These men are Jews and are throwing our city into turmoil
+   - WEB: When they had brought them to the magistrates, they said, “These men, being Jews, are agitating our city
+- **16:26** substitute (word): SBLGNT *ηνεωχθησαν δε* ] TR *ανεωχθησαν τε*
+   - Latin: Tantusque repente mōtus exstitit, ut carceris fundāmenta concuterentur, et, apertīs subitō portīs omnibus, omnium vincula relaxārentur.
+   - 1573: tantusque repentè motus extitit, vt carceris fundamenta concuterentur, et apertis subitò portis omnibus, omnium vincula relaxarentur.
+   - TR: ἄφνω δὲ σεισμὸς ἐγένετο μέγας, ὥστε σαλευθῆναι τὰ θεμέλια τοῦ δεσμωτηρίου· ἀνεῴχθησάν τε παραχρῆμα αἱ θύραι πᾶσαι, καὶ πάντων τὰ δεσμὰ ἀνέθη.
+   - SBLGNT: ἄφνω δὲ σεισμὸς ἐγένετο μέγας ὥστε σαλευθῆναι τὰ θεμέλια τοῦ δεσμωτηρίου, ἠνεῴχθησαν δὲ παραχρῆμα αἱ θύραι πᾶσαι, καὶ πάντων τὰ δεσμὰ ἀνέθη.
+   - Vulgate: Subito vero terræmotus factus est magnus, ita ut moverentur fundamenta carceris. Et statim aperta sunt omnia ostia: et universorum vincula soluta sunt.
+   - BSB: Suddenly a strong earthquake shook the foundations of the prison. At once all the doors flew open and everyone’s chains came loose.
+   - WEB: Suddenly there was a great earthquake, so that the foundations of the prison were shaken; and immediately all the doors were opened, and everyone’s bonds were loosened.
+- **16:27** substitute (word): SBLGNT *ημελλε* ] TR *εμελλε*
+   - Latin: Tum expergēfactus custōs carceris, et apertās cōnspicātus portās omnēs custōdiæ, strictō ēnse sē ipsum interficere volēbat, vīnctōs effūgisse putāns.
+   - 1573: Tum expergefactus custos carceris, et apertas conspicatus portas omnes custodiæ, stricto ense se ipsum interficere volebat, vinctos effugisse putans.
+   - TR: Ἔξυπνος δὲ γενόμενος ὁ δεσμοφύλαξ, καὶ ἰδὼν ἀνεῳγμένας τὰς θύρας τῆς φυλακῆς, σπασάμενος μάχαιραν, ἔμελλεν ἑαυτὸν ἀναιρεῖν, νομίζων ἐκπεφευγέναι τοὺς δεσμίους.
+   - SBLGNT: ἔξυπνος δὲ γενόμενος ὁ δεσμοφύλαξ καὶ ἰδὼν ἀνεῳγμένας τὰς θύρας τῆς φυλακῆς σπασάμενος τὴν μάχαιραν ἤμελλεν ἑαυτὸν ἀναιρεῖν, νομίζων ἐκπεφευγέναι τοὺς δεσμίους.
+   - Vulgate: Expergefactus autem custos carceris, et videns januas apertas carceris, evaginato gladio volebat se interficere, æstimans fugisse vinctos.
+   - BSB: When the jailer woke up and saw the prison doors open, he drew his sword and was about to kill himself, presuming that the prisoners had escaped.
+   - WEB: The jailer, being roused out of sleep and seeing the prison doors open, drew his sword and was about to kill himself, supposing that the prisoners had escaped.
+- **16:31** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Et illī dīxērunt: “Crēde in Dominum Jēsum, et salvus eris tū, tuaque familia.”
+   - 1573: Et illi dixerunt: Crede in Dominum Iesum, et saluus eris tu tuaque familia:
+   - TR: Οἱ δὲ εἶπον, Πίστευσον ἐπὶ τὸν Κύριον Ἰησοῦν Χριστόν, καὶ σωθήσῃ σὺ καὶ ὁ οἶκός σου.
+   - SBLGNT: οἱ δὲ εἶπαν· Πίστευσον ἐπὶ τὸν κύριον Ἰησοῦν, καὶ σωθήσῃ σὺ καὶ ὁ οἶκός σου.
+   - Vulgate: At illi dixerunt: Crede in Dominum Jesum, et salvus eris tu, et domus tua.
+   - BSB: They replied, “Believe in the Lord Jesus and you will be saved, you and your household.”
+   - WEB: They said, “Believe in the Lord Jesus Christ, and you will be saved, you and your household.”
+- **16:36** substitute (name): SBLGNT *απεσταλκαν* ] TR *απεσταλκασι*
+   - Latin: Eam rem custōs carceris Paulō renūntiāvit: “Significārunt prætōrēs,” inquit, “ut dīmittāminī. Quamobrem exīte, et salvī discēdite.”
+   - 1573: Eam rem custos carceris Paulo renunciauit: Significarunt prætores, inquit, vt dimittamini. Quamobrem exite, et salui discedite.
+   - TR: Ἀπήγγειλε δὲ ὁ δεσμοφύλαξ τοὺς λόγους τούτους πρὸς τὸν Παῦλον ὅτι Ἀπεστάλκασιν οἱ στρατηγοί, ἵνα ἀπολυθῆτε· νῦν οὖν ἐξελθόντες πορεύεσθε ἐν εἰρήνῃ.
+   - SBLGNT: ἀπήγγειλεν δὲ ὁ δεσμοφύλαξ τοὺς λόγους τούτους πρὸς τὸν Παῦλον, ὅτι Ἀπέσταλκαν οἱ στρατηγοὶ ἵνα ἀπολυθῆτε· νῦν οὖν ἐξελθόντες πορεύεσθε ἐν εἰρήνῃ.
+   - Vulgate: Nuntiavit autem custos carceris verba hæc Paulo: Quia miserunt magistratus ut dimittamini: nunc igitur exeuntes, ite in pace.
+   - BSB: The jailer informed Paul: “The magistrates have sent orders to release you. Now you may go on your way in peace.”
+   - WEB: The jailer reported these words to Paul, saying, “The magistrates have sent to let you go; now therefore come out and go in peace.”
+- **17:7** substitute (word): SBLGNT *πρασσουσι* ] TR *πραττουσι*
+   - Latin: et ab Jāsone acceptōs esse: et quidem eōs omnēs contrā Cæsaris dēcrēta facere, rēgem dīcentēs alium esse Jēsum.
+   - 1573: et ab Iasone acceptos esse: et quidem eos omnes contra Cæsaris decreta facere, regem dicentes alium esse Iesum.
+   - TR: οὓς ὑποδέδεκται Ἰάσων· καὶ οὗτοι πάντες ἀπέναντι τῶν δογμάτων Καίσαρος πράττουσι, βασιλέα λέγοντες ἕτερον εἶναι, Ἰησοῦν.
+   - SBLGNT: οὓς ὑποδέδεκται Ἰάσων· καὶ οὗτοι πάντες ἀπέναντι τῶν δογμάτων Καίσαρος πράσσουσι, βασιλέα ἕτερον λέγοντες εἶναι Ἰησοῦν.
+   - Vulgate: quos suscepit Jason, et hi omnes contra decreta Cæsaris faciunt, regem alium dicentes esse, Jesum.
+   - BSB: and Jason has welcomed them into his home. They are all defying Caesar’s decrees, saying that there is another king, named Jesus!”
+   - WEB: whom Jason has received. These all act contrary to the decrees of Caesar, saying that there is another king, Jesus!”
+- **17:18** substitute (name): SBLGNT *στοικων* ] TR *των στωικων*
+   - Latin: Contulērunt autem cum eō Epicūrēōrum Stōicōrumque philosophōrum quīdam. Nōnnūllī, quid vellet is nūgātor dīcere, quærēbant. Aliī peregrīnōrum nūntiātōrem dīvōrum vidērī dīcēbant, quod Jēsum et resurrēctiōnem iīs nūntiābat:
+   - 1573: Contulerunt autem cum eo Epicureorum Stoicorumque philosophorum quidam. Nonnulli, quid vellet is nugator dicere, quærebant. Alij peregrinorum nunciatorem diuorum videri dicebant, quòd Iesum et resurrectionem eis nunciabat:
+   - TR: Τινὲς δὲ τῶν Ἐπικουρείων καὶ τῶν Στωϊκῶν φιλοσόφων συνέβαλλον αὐτῷ. Καί τινες ἔλεγον, Τί ἂν θέλοι ὁ σπερμολόγος οὗτος λέγειν; Οἱ δέ, Ξένων δαιμονίων δοκεῖ καταγγελεὺς εἶναι· ὅτι τὸν Ἰησοῦν καὶ τὴν ἀνάστασιν αὐτοῖς εὐηγγελίζετο.
+   - SBLGNT: τινὲς δὲ καὶ τῶν Ἐπικουρείων καὶ Στοϊκῶν φιλοσόφων συνέβαλλον αὐτῷ, καί τινες ἔλεγον· Τί ἂν θέλοι ὁ σπερμολόγος οὗτος λέγειν; οἱ δέ· Ξένων δαιμονίων δοκεῖ καταγγελεὺς εἶναι· ὅτι τὸν Ἰησοῦν καὶ τὴν ἀνάστασιν εὐηγγελίζετο.
+   - Vulgate: Quidam autem epicurei et stoici philosophi disserebant cum eo, et quidam dicebant: Quid vult seminiverbius hic dicere? Alii vero: Novorum dæmoniorum videtur annuntiator esse: quia Jesum et resurrectionem annuntiabat eis.
+   - BSB: Some Epicurean and Stoic philosophers also began to debate with him. Some of them asked, “What is this babbler trying to say?” Others said, “He seems to be advocating foreign gods.” They said this because Paul was proclaiming the good news of Jesus and the resurrection.
+   - WEB: Some of the Epicurean and Stoic philosophers also were conversing with him. Some said, “What does this babbler want to say?” Others said, “He seems to be advocating foreign deities,” because he preached Jesus and the resurrection.
+- **17:21** substitute (word): SBLGNT *ηυκαιρουν* ] TR *ευκαιρουν*
+   - Latin: Erant autem Athēniēnsēs omnēs, tum illīc peregrīnantēs hospitēs, ad nihil aliud idōneī, quam ut novī aliquid vel dīcerent vel audīrent.
+   - 1573: Erant autem Athenienses omnes, tum illic peregrinantes hospites, ad nihil aliud idonei, quàm vt noui aliquid vel dicerent vel audirent.
+   - TR: Ἀθηναῖοι δὲ πάντες καὶ οἱ ἐπιδημοῦντες ξένοι εἰς οὐδὲν ἕτερον εὐκαίρουν, ἢ λέγειν τι καὶ ἀκούειν καινότερον.
+   - SBLGNT: Ἀθηναῖοι δὲ πάντες καὶ οἱ ἐπιδημοῦντες ξένοι εἰς οὐδὲν ἕτερον ηὐκαίρουν ἢ λέγειν τι ἢ ἀκούειν τι καινότερον.
+   - Vulgate: (Athenienses autem omnes, et advenæ hospites, ad nihil aliud vacabant nisi aut dicere aut audire aliquid novi.)
+   - BSB: Now all the Athenians and foreigners who lived there spent their time doing nothing more than hearing and articulating new ideas.
+   - WEB: Now all the Athenians and the strangers living there spent their time in nothing else, but either to tell or to hear some new thing.
+- **17:26** substitute (word): SBLGNT *προστεταγμενους* ] TR *προτεταγμενους*
+   - Latin: Cumque creāverit ex ūnīus sanguine ūniversum genus hominum, ut in omnī terræ solō habitārent, præfīnītīs eōrum statīs temporibus, et inhabitandī terminīs:
+   - 1573: cumque creauerit ex vnius sanguine vniuersum genus hominum, vt in omni terræ solo habitarent, præfinitis eorum statis temporibus, et inhabitandi terminis,
+   - TR: ἐποίησέ τε ἐξ ἑνὸς αἵματος πᾶν ἔθνος ἀνθρώπων, κατοικεῖν ἐπὶ πᾶν τὸ πρόσωπον τῆς γῆς, ὁρίσας προτεταγμένους καιροὺς καὶ τὰς ὁροθεσίας τῆς κατοικίας αὐτῶν·
+   - SBLGNT: ἐποίησέν τε ἐξ ἑνὸς πᾶν ἔθνος ἀνθρώπων κατοικεῖν ἐπὶ παντὸς προσώπου τῆς γῆς, ὁρίσας προστεταγμένους καιροὺς καὶ τὰς ὁροθεσίας τῆς κατοικίας αὐτῶν,
+   - Vulgate: fecitque ex uno omne genus hominum inhabitare super universam faciem terræ, definiens statuta tempora, et terminos habitationis eorum,
+   - BSB: From one man He made every nation of men, that they should inhabit the whole earth; and He determined their appointed times and the boundaries of their lands.
+   - WEB: He made from one blood every nation of men to dwell on all the surface of the earth, having determined appointed seasons and the boundaries of their dwellings,
+- **17:27** substitute (word): SBLGNT *και γε* ] TR *καιτοιγε*
+   - Latin: Ut Dominum quærerent, sī forte eum contrectārent ac invenīrent; quamquam nōn procul ab ūnōquōque nostrum remōtum,
+   - 1573: vt Dominum quærerent, si fortè eum contrectarent, ac inuenirent: quanquam non procul ab vnoquoque nostrum remotum,
+   - TR: ζητεῖν τὸν Κύριον, εἰ ἄρα γε ψηλαφήσειαν αὐτὸν καὶ εὕροιεν, καίτοιγε οὐ μακρὰν ἀπὸ ἑνὸς ἑκάστου ἡμῶν ὑπάρχοντα.
+   - SBLGNT: ζητεῖν τὸν θεὸν εἰ ἄρα γε ψηλαφήσειαν αὐτὸν καὶ εὕροιεν, καί γε οὐ μακρὰν ἀπὸ ἑνὸς ἑκάστου ἡμῶν ὑπάρχοντα.
+   - Vulgate: quærere Deum si forte attrectent eum, aut inveniant, quamvis non longe sit ab unoquoque nostrum.
+   - BSB: God intended that they would seek Him and perhaps reach out for Him and find Him, though He is not far from each one of us.
+   - WEB: that they should seek the Lord, if perhaps they might reach out for him and find him, though he is not far from each one of us.
+- **17:32** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Hīc illī, audītā mortuōrum resurrēctiōne, partim dērīdēre; partim dīcere, sē rūrsus ex eō eā dē rē audītūrōs.
+   - 1573: Hic illi, audita mortuorum resurrectione, partim deridere: partim dicere, se rursus ex eo ea de re audituros.
+   - TR: Ἀκούσαντες δὲ ἀνάστασιν νεκρῶν, οἱ μὲν ἐχλεύαζον· οἱ δὲ εἶπον, Ἀκουσόμεθά σου πάλιν περὶ τούτου.
+   - SBLGNT: Ἀκούσαντες δὲ ἀνάστασιν νεκρῶν οἱ μὲν ἐχλεύαζον οἱ δὲ εἶπαν Ἀκουσόμεθά σου περὶ τούτου καὶ πάλιν.
+   - Vulgate: Cum audissent autem resurrectionem mortuorum, quidam quidem irridebant, quidam vero dixerunt: Audiemus te de hoc iterum.
+   - BSB: When they heard about the resurrection of the dead, some began to mock him, but others said, “We want to hear you again on this topic.”
+   - WEB: Now when they heard of the resurrection of the dead, some mocked; but others said, “We want to hear you again concerning this.”
+- **18:3** substitute (word): SBLGNT *ηργαζετο* ] TR *ειργαζετο*
+   - Latin: convēnit eōs: et quia ejusdem artis erat, mānsit apud eōs, et operābātur: erant enim arte tentōriōrum opificēs.
+   - 1573: conuenit eos: et quia eiusdem artis erat, mansit apud eos, et operabatur: erant enim arte tentoriorum opifices.
+   - TR: καὶ διὰ τὸ ὁμότεχνον εἶναι, ἔμενε παρ᾿ αὐτοῖς καὶ εἰργάζετο· ἦσαν γὰρ σκηνοποιοὶ τὴν τέχνην.
+   - SBLGNT: καὶ διὰ τὸ ὁμότεχνον εἶναι ἔμενεν παρʼ αὐτοῖς καὶ ἠργάζετο, ἦσαν γὰρ σκηνοποιοὶ τῇ τέχνῃ.
+   - Vulgate: Et quia ejusdem erat artis, manebat apud eos, et operabatur. (Erant autem scenofactoriæ artis.)
+   - BSB: and he stayed and worked with them because they were tentmakers by trade, just as he was.
+   - WEB: and because he practiced the same trade, he lived with them and worked, for by trade they were tent makers.
+- **18:14** substitute (word): SBLGNT *ανεσχομην* ] TR *ηνεσχομην*
+   - Latin: Hīc cum Paulus verba factūrus esset, dīxit Galliō Jūdæīs: “Sī quidem injūria aliqua aut facinus atrōx esset, Jūdæī, meritō vōs ferrem:
+   - 1573: Hic cùm Paulus verba facturus esset, dixit Gallio Iudæis: Si quidem iniuria aliqua aut facinus atrox esset, Iudæi, meritò vos ferrem.
+   - TR: Μέλλοντος δὲ τοῦ Παύλου ἀνοίγειν τὸ στόμα, εἶπεν ὁ Γαλλίων πρὸς τοὺς Ἰουδαίους, Εἰ μὲν οὖν ἦν ἀδίκημά τι ἢ ῥᾳδιούργημα πονηρόν, ὦ Ἰουδαῖοι, κατὰ λόγον ἂν ἠνεσχόμην ὑμῶν·
+   - SBLGNT: μέλλοντος δὲ τοῦ Παύλου ἀνοίγειν τὸ στόμα εἶπεν ὁ Γαλλίων πρὸς τοὺς Ἰουδαίους· Εἰ μὲν ἦν ἀδίκημά τι ἢ ῥᾳδιούργημα πονηρόν, ὦ Ἰουδαῖοι, κατὰ λόγον ἂν ἀνεσχόμην ὑμῶν·
+   - Vulgate: Incipiente autem Paulo aperire os, dixit Gallio ad Judæos: Si quidem esset iniquum aliquid aut facinus pessimum, o viri Judæi, recte vos sustinerem.
+   - BSB: But just as Paul was about to speak, Gallio told the Jews, “If this matter involved a wrongdoing or vicious crime, O Jews, it would be reasonable for me to hear your complaint.
+   - WEB: But when Paul was about to open his mouth, Gallio said to the Jews, “If indeed it were a matter of wrong or of wicked crime, you Jews, it would be reasonable that I should bear with you;
+- **18:23** substitute (word): SBLGNT *στηριζων* ] TR *επιστηριζων*
+   - Latin: Et ibi commorātus aliquamdiū, profectus est, omnem deinceps perlūstrāns Galaticum agrum, et Phrygiam, cōnfirmāns omnēs discipulōs.
+   - 1573: et ibi commoratus aliquandiu, profectus est: omnem deinceps perlustrans Galaticum agrum, et Phrygiam, confirmans omnes discipulos.
+   - TR: Καὶ ποιήσας χρόνον τινὰ ἐξῆλθε, διερχόμενος καθεξῆς τὴν Γαλατικὴν χώραν καὶ Φρυγίαν, ἐπιστηρίζων πάντας τοὺς μαθητάς.
+   - SBLGNT: καὶ ποιήσας χρόνον τινὰ ἐξῆλθεν, διερχόμενος καθεξῆς τὴν Γαλατικὴν χώραν καὶ Φρυγίαν, στηρίζων πάντας τοὺς μαθητάς.
+   - Vulgate: Et facto ibi aliquanto tempore profectus est, perambulans ex ordine Galaticam regionem, et Phrygiam, confirmans omnes discipulos.
+   - BSB: After Paul had spent some time in Antioch, he traveled from place to place throughout the region of Galatia and Phrygia, strengthening all the disciples.
+   - WEB: Having spent some time there, he departed and went through the region of Galatia and Phrygia, in order, establishing all the disciples.
+- **19:2** substitute (word): SBLGNT *ουδ* ] TR *ουδε*
+   - Latin: et quōsdam nactus discipulōs, sīc allocūtus est: “An Sānctum Spīritum adeptī estis, cum crēdidistis?” Cui illī: “Nōs vērō nē quidem, an Spīritus Sānctus sit, audīvimus.”
+   - 1573: et quosdam nactus discipulos, sic allocutus est: An sanctum spiritum adepti estis, cùm credidistis? Cui illi: Nos verò ne quidem an spiritus sanctus sit, audiuimus.
+   - TR: εἶπε πρὸς αὐτούς, Εἰ πνεῦμα ἅγιον ἐλάβετε πιστεύσαντες; Οἱ δὲ εἶπον πρὸς αὐτόν, Ἀλλ᾿ οὐδὲ εἰ πνεῦμα ἅγιόν ἐστιν, ἠκούσαμεν.
+   - SBLGNT: εἶπέν τε πρὸς αὐτούς· Εἰ πνεῦμα ἅγιον ἐλάβετε πιστεύσαντες; οἱ δὲ πρὸς αὐτόν· Ἀλλʼ οὐδʼ εἰ πνεῦμα ἅγιον ἔστιν ἠκούσαμεν.
+   - Vulgate: dixitque ad eos: Si Spiritum Sanctum accepistis credentes? At illi dixerunt ad eum: Sed neque si Spiritus Sanctus est, audivimus.
+   - BSB: and asked them, “Did you receive the Holy Spirit when you became believers?” “No,” they answered, “we have not even heard that there is a Holy Spirit.”
+   - WEB: He said to them, “Did you receive the Holy Spirit when you believed?” They said to him, “No, we haven’t even heard that there is a Holy Spirit.”
+- **19:3** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: “Quā igitur ratiōne baptīzātī estis?” “Jōhannis baptismate,” inquiunt.
+   - 1573: Qua igitur ratione baptizati estis. Iohannis baptismate, inquiunt.
+   - TR: Εἶπέ τε πρὸς αὐτούς, Εἰς τί οὖν ἐβαπτίσθητε; Οἱ δὲ εἶπον, Εἰς τὸ Ἰωάννου βάπτισμα.
+   - SBLGNT: εἶπέν τε· Εἰς τί οὖν ἐβαπτίσθητε; οἱ δὲ εἶπαν· Εἰς τὸ Ἰωάννου βάπτισμα.
+   - Vulgate: Ille vero ait: In quo ergo baptizati estis? Qui dixerunt: In Joannis baptismate.
+   - BSB: “Into what, then, were you baptized?” Paul asked. “The baptism of John,” they replied.
+   - WEB: He said, “Into what then were you baptized?” They said, “Into John’s baptism.”
+- **19:6** substitute (word): SBLGNT *επροφητευον* ] TR *προεφητευον*
+   - Latin: Cumque manūs iīs Paulus imposuisset, invāsit eōs Sānctus Spīritus, linguīsque loquēbantur, ac vāticinābantur.
+   - 1573: Cumque manus eis Paulus imposuisset, inuasit eos sanctus spiritus, linguisque loquebantur, ac vaticinabantur.
+   - TR: Καὶ ἐπιθέντος αὐτοῖς τοῦ Παύλου τὰς χεῖρας, ἦλθε τὸ πνεῦμα τὸ ἅγιον ἐπ᾿ αὐτούς, ἐλάλουν τε γλώσσαις καὶ προεφήτευον.
+   - SBLGNT: καὶ ἐπιθέντος αὐτοῖς τοῦ Παύλου χεῖρας ἦλθε τὸ πνεῦμα τὸ ἅγιον ἐπʼ αὐτούς, ἐλάλουν τε γλώσσαις καὶ ἐπροφήτευον.
+   - Vulgate: Et cum imposuisset illis manus Paulus, venit Spiritus Sanctus super eos, et loquebantur linguis, et prophetabant.
+   - BSB: And when Paul laid his hands on them, the Holy Spirit came upon them, and they spoke in tongues and prophesied.
+   - WEB: When Paul had laid his hands on them, the Holy Spirit came on them and they spoke with other languages and prophesied.
+- **19:27** substitute (word): SBLGNT *ουθε* ] TR *ουδε*
+   - Latin: Neque vērō sōlum, nē hæc nōbīs pars cōnfūtētur, perīculum est, vērum etiam nē magnæ deæ Dīānæ fānum prō nihilō habeātur: vel potius nē ejus, quam tōta Asia et orbis colit, magnitūdō tollātur.”
+   - 1573: Neque verò solùm ne hæc nobis pars confutetur, periculum est, verum etiam ne magnæ deæ Dianæ fanum pro nihilo habeatur: vel potius ne eius, quam tota Asia et orbis colit, magnitudo tollatur.
+   - TR: Οὐ μόνον δὲ τοῦτο κινδυνεύει ἡμῖν τὸ μέρος εἰς ἀπελεγμὸν ἐλθεῖν, ἀλλὰ καὶ τὸ τῆς μεγάλης θεᾶς Ἀρτέμιδος ἱερὸν εἰς οὐδὲν λογισθῆναι, μέλλειν τε καὶ καθαιρεῖσθαι τὴν μεγαλειότητα αὐτῆς, ἣν ὅλη ἡ Ἀσία καὶ ἡ οἰκουμένη σέβεται.
+   - SBLGNT: οὐ μόνον δὲ τοῦτο κινδυνεύει ἡμῖν τὸ μέρος εἰς ἀπελεγμὸν ἐλθεῖν, ἀλλὰ καὶ τὸ τῆς μεγάλης θεᾶς Ἀρτέμιδος ἱερὸν εἰς οὐθὲν λογισθῆναι, μέλλειν τε καὶ καθαιρεῖσθαι τῆς μεγαλειότητος αὐτῆς, ἣν ὅλη ἡ Ἀσία καὶ ἡ οἰκουμένη σέβεται.
+   - Vulgate: Non solum autem hæc periclitabitur nobis pars in redargutionem venire, sed et magnæ Dianæ templum in nihilum reputabitur, sed et destrui incipiet majestas ejus, quam tota Asia et orbis colit.
+   - BSB: There is danger not only that our business will fall into disrepute, but also that the temple of the great goddess Artemis will be discredited and her majesty deposed—she who is worshiped by all the province of Asia and the whole world.”
+   - WEB: Not only is there danger that this our trade come into disrepute, but also that the temple of the great goddess Artemis will be counted as nothing and her majesty destroyed, whom all Asia and the world worships.”
+- **19:36** substitute (word): SBLGNT *πρασσειν* ] TR *πραττειν*
+   - Latin: Hīs cum contrādīcī nōn possit, decet vōs sēdātōs esse, et nihil temere facere.
+   - 1573: His cùm contradici non possit, decet vos sedatos esse, et nihil temerè facere.
+   - TR: Ἀναντιρρήτων οὖν ὄντων τούτων, δέον ἐστὶν ὑμᾶς κατεσταλμένους ὑπάρχειν, καὶ μηδὲν προπετὲς πράττειν.
+   - SBLGNT: ἀναντιρρήτων οὖν ὄντων τούτων δέον ἐστὶν ὑμᾶς κατεσταλμένους ὑπάρχειν καὶ μηδὲν προπετὲς πράσσειν.
+   - Vulgate: Cum ergo his contradici non possit, oportet vos sedatos esse, et nihil temere agere.
+   - BSB: Since these things are undeniable, you ought to be calm and not do anything rash.
+   - WEB: Seeing then that these things can’t be denied, you ought to be quiet and to do nothing rash.
+- **19:37** substitute (person): SBLGNT *θεον ημων* ] TR *θεαν υμων*
+   - Latin: Addūxistis enim hominēs istōs neque sacrilegōs, neque in vestram deam maledicōs.
+   - 1573: Adduxistis enim homines istos neque sacrilegos, neque in vestram deam maledicos.
+   - TR: Ἠγάγετε γὰρ τοὺς ἄνδρας τούτους, οὔτε ἱεροσύλους οὔτε βλασφημοῦντας τὴν θεὰν ὑμῶν.
+   - SBLGNT: ἠγάγετε γὰρ τοὺς ἄνδρας τούτους οὔτε ἱεροσύλους οὔτε βλασφημοῦντας τὴν θεὸν ἡμῶν.
+   - Vulgate: Adduxistis enim homines istos, neque sacrilegos, neque blasphemantes deam vestram.
+   - BSB: For you have brought these men here, though they have neither robbed our temple nor blasphemed our goddess.
+   - WEB: For you have brought these men here, who are neither robbers of temples nor blasphemers of your goddess.
+- **19:38** omit (word): SBLGNT *εχουσι* ] TR *–*; add (word): SBLGNT *–* ] TR *+ εχουσι*
+   - Latin: Quod sī Dēmētrius, et ejus sociī, artificēs, causam habent adversus aliquem, forum agitur, et adsunt prōcōnsulēs: accūsent inter sē.
+   - 1573: Quòd si Demetrius, et eius socij artifices causam habent aduersus aliquem, forum agitur, et adsunt proconsules: accusent inter se.
+   - TR: Εἰ μὲν οὖν Δημήτριος καὶ οἱ σὺν αὐτῷ τεχνῖται πρός τινα λόγον ἔχουσιν, ἀγοραῖοι ἄγονται, καὶ ἀνθύπατοί εἰσιν· ἐγκαλείτωσαν ἀλλήλοις.
+   - SBLGNT: εἰ μὲν οὖν Δημήτριος καὶ οἱ σὺν αὐτῷ τεχνῖται ἔχουσιν πρός τινα λόγον, ἀγοραῖοι ἄγονται καὶ ἀνθύπατοί εἰσιν, ἐγκαλείτωσαν ἀλλήλοις.
+   - Vulgate: Quod si Demetrius et qui cum eo sunt artifices, habent adversus aliquem causam, conventus forenses aguntur, et proconsules sunt: accusent invicem.
+   - BSB: So if Demetrius and his fellow craftsmen have a complaint against anyone, the courts are open and proconsuls are available. Let them bring charges against one another there.
+   - WEB: If therefore Demetrius and the craftsmen who are with him have a matter against anyone, the courts are open and there are proconsuls. Let them press charges against one another.
+- **19:40** omit (clause): SBLGNT *και ταυτα ειπων απελυσε την εκκλησιαν* ] TR *–*
+   - Latin: Nam perīculum est, nē sēditiōnis accūsēmur ob hodiernum diem, cum nūlla sit causa, quā concursūs hujus ratiōnem reddere possīmus.”
+   - 1573: Nam periculum est, ne seditionis accusemur ob hodiernum diem, cùm nulla sit causa, qua concursus huius rationem reddere possimus.
+   - TR: Καὶ γὰρ κινδυνεύομεν ἐγκαλεῖσθαι στάσεως περὶ τῆς σήμερον, μηδενὸς αἰτίου ὑπάρχοντος περὶ οὗ δυνησόμεθα ἀποδοῦναι λόγον τῆς συστροφῆς ταύτης.
+   - SBLGNT: καὶ γὰρ κινδυνεύομεν ἐγκαλεῖσθαι στάσεως περὶ τῆς σήμερον μηδενὸς αἰτίου ὑπάρχοντος περὶ οὗ οὐ δυνησόμεθα ἀποδοῦναι λόγον περὶ τῆς συστροφῆς ταύτης. καὶ ταῦτα εἰπὼν ἀπέλυσεν τὴν ἐκκλησίαν.
+   - Vulgate: Nam et periclitamur argui seditionis hodiernæ, cum nullus obnoxius sit de quo possimus reddere rationem concursus istius. Et cum hæc dixisset, dimisit ecclesiam.
+   - BSB: For we are in jeopardy of being charged with rioting for today’s events, and we have no justification to account for this commotion.”
+   - WEB: For indeed we are in danger of being accused concerning today’s riot, there being no cause. Concerning it, we wouldn’t be able to give an account of this commotion.”
+- **20:5** substitute (word): SBLGNT *δε προσελθοντες* ] TR *προελθοντες*
+   - Latin: Hī prægressī mānsērunt nōs in Trōade.
+   - 1573: Hi prægressi manserunt nos in Troade.
+   - TR: Οὗτοι προελθόντες ἔμενον ἡμᾶς ἐν Τρῳάδι.
+   - SBLGNT: οὗτοι δὲ προσελθόντες ἔμενον ἡμᾶς ἐν Τρῳάδι·
+   - Vulgate: Hi cum præcessissent, sustinuerunt nos Troade:
+   - BSB: These men went on ahead and waited for us in Troas.
+   - WEB: But these had gone ahead, and were waiting for us at Troas.
+- **20:8** substitute (word): SBLGNT *ημε* ] TR *ησαν*
+   - Latin: Cumque sermōnem ad mediam noctem prōdūxisset, et essent crēbra in cœnāculō, quō convēnerant, fūnālia:
+   - 1573: Cumque sermonem ad mediam noctem produxisset, et essent crebra in cœnaculo, quo conuenerant, funalia,
+   - TR: Ἦσαν δὲ λαμπάδες ἱκαναὶ ἐν τῷ ὑπερῴῳ οὗ ἦσαν συνηγμένοι.
+   - SBLGNT: ἦσαν δὲ λαμπάδες ἱκαναὶ ἐν τῷ ὑπερῴῳ οὗ ἦμεν συνηγμένοι·
+   - Vulgate: Erant autem lampades copiosæ in cœnaculo, ubi eramus congregati.
+   - BSB: Now there were many lamps in the upper room where we were gathered.
+   - WEB: There were many lights in the upper room where we were gathered together.
+- **20:21** add (word): SBLGNT *–* ] TR *+ χριστον*
+   - Latin: Et Jūdæōs et Græcōs commonefaciēns, ut, corrēctīs mōribus, ad Deum sē converterent, et Dominō nostrō Jēsū fidem habērent.
+   - 1573: et Iudæos et Græcos commonefaciens, vt correctis moribus ad Deum se conuerterent, et Domino nostro Iesu fidem haberent.
+   - TR: διαμαρτυρόμενος Ἰουδαίοις τε καὶ Ἕλλησι τὴν εἰς τὸν Θεὸν μετάνοιαν, καὶ πίστιν τὴν εἰς τὸν Κύριον ἡμῶν Ἰησοῦν Χριστόν.
+   - SBLGNT: διαμαρτυρόμενος Ἰουδαίοις τε καὶ Ἕλλησιν τὴν εἰς θεὸν μετάνοιαν καὶ πίστιν εἰς τὸν κύριον ἡμῶν Ἰησοῦν.
+   - Vulgate: testificans Judæis atque gentilibus in Deum pœnitentiam, et fidem in Dominum nostrum Jesum Christum.
+   - BSB: testifying to Jews and Greeks alike about repentance to God and faith in our Lord Jesus Christ.
+   - WEB: testifying both to Jews and to Greeks repentance toward God and faith toward our Lord Jesus.
+- **20:26** substitute (word): SBLGNT *διοτι* ] TR *διο*
+   - Latin: Itaque contestor vōs hodiernō diē, mē ab omnium perniciē īnsontem esse.
+   - 1573: Itaque contestor vos hodierno die, me ab omnium pernicie insontem esse.
+   - TR: Διὸ μαρτύρομαι ὑμῖν ἐν τῇ σήμερον ἡμέρᾳ, ὅτι καθαρὸς ἐγὼ ἀπὸ τοῦ αἵματος πάντων.
+   - SBLGNT: διότι μαρτύρομαι ὑμῖν ἐν τῇ σήμερον ἡμέρᾳ ὅτι καθαρός εἰμι ἀπὸ τοῦ αἵματος πάντων,
+   - Vulgate: Quapropter contestor vos hodierna die, quia mundus sum a sanguine omnium.
+   - BSB: Therefore I testify to you this day that I am innocent of the blood of all men.
+   - WEB: Therefore I testify to you today that I am clean from the blood of all men,
+- **20:30** substitute (word): SBLGNT *εαυτων* ] TR *αυτων*
+   - Latin: Utque ex vōbīs ipsīs exsistant hominēs, quī perversē loquantur, quō discipulōs ad sē sequendōs abdūcant.
+   - 1573: vtque ex vobis ipsis existant homines, qui peruerse loquantur, quò discipulos ad se sequendos abducant.
+   - TR: καὶ ἐξ ὑμῶν αὐτῶν ἀναστήσονται ἄνδρες λαλοῦντες διεστραμμένα, τοῦ ἀποσπᾷν τοὺς μαθητὰς ὀπίσω αὐτῶν.
+   - SBLGNT: καὶ ἐξ ὑμῶν αὐτῶν ἀναστήσονται ἄνδρες λαλοῦντες διεστραμμένα τοῦ ἀποσπᾶν τοὺς μαθητὰς ὀπίσω ἑαυτῶν·
+   - Vulgate: Et ex vobisipsis exsurgent viri loquentes perversa, ut abducant discipulos post se.
+   - BSB: Even from your own number, men will rise up and distort the truth to draw away disciples after them.
+   - WEB: Men will arise from among your own selves, speaking perverse things, to draw away the disciples after them.
+- **20:35** add (word): SBLGNT *–* ] TR *+ διδοναι*; omit (word): SBLGNT *διδοναι* ] TR *–*
+   - Latin: Omnia vōbīs ostendī, quod ita labōrantēs oporteat īnfirmīs subvenīre: et Dominī Jēsū verba meminisse, quī dare, quam accipere, dīxit esse beātius.”
+   - 1573: Omnia vobis ostendi, quòd ita laborantes oporteat infirmis subuenire: et Domini Iesu verba meminisse, qui dare quàm accipere, dixit esse beatius.
+   - TR: Πάντα ὑπέδειξα ὑμῖν, ὅτι οὕτω κοπιῶντας δεῖ ἀντιλαμβάνεσθαι τῶν ἀσθενούντων, μνημονεύειν τε τῶν λόγων τοῦ Κυρίου Ἰησοῦ, ὅτι αὐτὸς εἶπε, Μακάριόν ἐστι διδόναι μᾶλλον ἢ λαμβάνειν.
+   - SBLGNT: πάντα ὑπέδειξα ὑμῖν ὅτι οὕτως κοπιῶντας δεῖ ἀντιλαμβάνεσθαι τῶν ἀσθενούντων, μνημονεύειν τε τῶν λόγων τοῦ κυρίου Ἰησοῦ ὅτι αὐτὸς εἶπεν Μακάριόν ἐστιν μᾶλλον διδόναι ἢ λαμβάνειν.
+   - Vulgate: Omnia ostendi vobis, quoniam sic laborantes, oportet suscipere infirmos ac meminisse verbi Domini Jesu: quoniam ipse dixit: Beatius est magis dare, quam accipere.
+   - BSB: In everything, I showed you that by this kind of hard work we must help the weak, remembering the words of the Lord Jesus Himself: ‘It is more blessed to give than to receive.’”
+   - WEB: In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’ ”
+- **21:6** substitute (word): SBLGNT *και ενεβημε* ] TR *επεβημε*
+   - Latin: Ac postquam inter nōs cōnsalūtāvimus, nōs nāvem cōnscendimus: illī domum reversī sunt.
+   - 1573: Ac postquam inter nos consalutauimus, nos nauem conscendimus: illi domum reuersi sunt.
+   - TR: Καὶ ἀσπασάμενοι ἀλλήλους, ἐπέβημεν εἰς τὸ πλοῖον, ἐκεῖνοι δὲ ὑπέστρεψαν εἰς τὰ ἴδια.
+   - SBLGNT: ἀπησπασάμεθα ἀλλήλους, καὶ ἐνέβημεν εἰς τὸ πλοῖον, ἐκεῖνοι δὲ ὑπέστρεψαν εἰς τὰ ἴδια.
+   - Vulgate: Et cum valefecissemus invicem, ascendimus navem: illi autem redierunt in sua.
+   - BSB: And after we had said our farewells, we went aboard the ship, and they returned home.
+   - WEB: After saying goodbye to each other, we went on board the ship, and they returned home again.
+- **21:11** substitute (word): SBLGNT *εαυτου* ] TR *τε αυτου τας χειρας και*; omit (clause): SBLGNT *και τας χειρας* ] TR *–*
+   - Latin: Quī nōs aggressus, captōque Paulī cingulō, et colligātīs suīs manibus ac pedibus, dīxit: “Hæc dīcit Spīritus Sānctus: ‘Virum, cujus est hoc cingulum, sīc colligābunt Hierosolymīs Jūdæī, et in extrāneōrum manūs trādent.’”
+   - 1573: qui nos aggressus, captoque Pauli cingulo, et colligatis suis manibus, ac pedibus dixit: Hæc dicit Spiritus sanctus: Virum, cuius est hoc cingulum, sic colligabunt Hierosolymis Iudæi, et in extraneorum manus tradent.
+   - TR: Καὶ ἐλθὼν πρὸς ἡμᾶς, καὶ ἄρας τὴν ζώνην τοῦ Παύλου, δήσας τε αὐτοῦ τὰς χεῖρας καὶ τοὺς πόδας εἶπε, Τάδε λέγει τὸ πνεῦμα τὸ ἅγιον, Τὸν ἄνδρα οὗ ἐστιν ἡ ζώνη αὕτη, οὕτω δήσουσιν ἐν Ἱερουσαλὴμ οἱ Ἰουδαῖοι, καὶ παραδώσουσιν εἰς χεῖρας ἐθνῶν.
+   - SBLGNT: καὶ ἐλθὼν πρὸς ἡμᾶς καὶ ἄρας τὴν ζώνην τοῦ Παύλου δήσας ἑαυτοῦ τοὺς πόδας καὶ τὰς χεῖρας εἶπεν· Τάδε λέγει τὸ πνεῦμα τὸ ἅγιον Τὸν ἄνδρα οὗ ἐστιν ἡ ζώνη αὕτη, οὕτως δήσουσιν ἐν Ἰερουσαλὴμ οἱ Ἰουδαῖοι καὶ παραδώσουσιν εἰς χεῖρας ἐθνῶν.
+   - Vulgate: Is cum venisset ad nos, tulit zonam Pauli: et alligans sibi pedes et manus, dixit: Hæc dicit Spiritus Sanctus: Virum, cujus est zona hæc, sic alligabunt in Jerusalem Judæi, et tradent in manus gentium.
+   - BSB: Coming over to us, he took Paul’s belt, bound his own feet and hands, and said, “The Holy Spirit says: ‘In this way the Jews of Jerusalem will bind the owner of this belt and hand him over to the Gentiles.’”
+   - WEB: Coming to us and taking Paul’s belt, he bound his own feet and hands, and said, “The Holy Spirit says: ‘So the Jews at Jerusalem will bind the man who owns this belt, and will deliver him into the hands of the Gentiles.’”
+- **21:15** substitute (word): SBLGNT *επισκευασαμενοι* ] TR *αποσκευασαμενοι*
+   - Latin: Post eōs diēs, adōrnātā profectiōne, Hierosolymam ascendere contendimus,
+   - 1573: Post eos dies, adornata profectione, Hierosolymam ascendere contendimus,
+   - TR: Μετὰ δὲ τὰς ἡμέρας ταύτας ἀποσκευασάμενοι ἀνεβαίνομεν εἰς Ἱερουσαλήμ.
+   - SBLGNT: Μετὰ δὲ τὰς ἡμέρας ταύτας ἐπισκευασάμενοι ἀνεβαίνομεν εἰς Ἱεροσόλυμα·
+   - Vulgate: Post dies autem istos, præparati ascendebamus in Jerusalem.
+   - BSB: After these days, we packed up and went on to Jerusalem.
+   - WEB: After these days we took up our baggage and went up to Jerusalem.
+- **21:21** substitute (name): SBLGNT *μωυσεως* ] TR *μωσεως*
+   - Latin: Dē tē autem audītiōne accēpērunt, tē, ā Mōse dēficiendum esse, docēre omnēs apud externās nātiōnēs Jūdæōs, negantem, iīs esse circumcīdendōs līberōs, nec mōribus vīvendum.
+   - 1573: De te autem auditione acceperunt, te à Mose deficiendum esse, docere omnes apud externas nationes Iudæos, negantem eis esse circuncidendos liberos, nec moribus viuendum.
+   - TR: κατηχήθησαν δὲ περὶ σοῦ, ὅτι ἀποστασίαν διδάσκεις ἀπὸ Μωσέως τοὺς κατὰ τὰ ἔθνη πάντας Ἰουδαίους, λέγων μὴ περιτέμνειν αὐτοὺς τὰ τέκνα, μηδὲ τοῖς ἔθεσι περιπατεῖν.
+   - SBLGNT: κατηχήθησαν δὲ περὶ σοῦ ὅτι ἀποστασίαν διδάσκεις ἀπὸ Μωϋσέως τοὺς κατὰ τὰ ἔθνη πάντας Ἰουδαίους, λέγων μὴ περιτέμνειν αὐτοὺς τὰ τέκνα μηδὲ τοῖς ἔθεσιν περιπατεῖν.
+   - Vulgate: Audierunt autem de te quia discessionem doceas a Moyse eorum qui per gentes sunt Judæorum, dicens non debere eos circumcidere filios suos, neque secundum consuetudinem ingredi.
+   - BSB: But they are under the impression that you teach all the Jews who live among the Gentiles to forsake Moses, telling them not to circumcise their children or observe our customs.
+   - WEB: They have been informed about you, that you teach all the Jews who are among the Gentiles to forsake Moses, telling them not to circumcise their children and not to walk after the customs.
+- **21:23** substitute (word): SBLGNT *αφ* ] TR *εφ*
+   - Latin: Hoc igitur facitō, quod nōs tibi dīcēmus. Sunt nōbīs hominēs quattuor, vōtō obstrictī.
+   - 1573: Hoc igitur facito, quod nos tibi dicemus. Sunt nobis homines quatuor, voto obstricti.
+   - TR: Τοῦτο οὖν ποίησον ὅ σοι λέγομεν· εἰσὶν ἡμῖν ἄνδρες τέσσαρες εὐχὴν ἔχοντες ἐφ᾿ ἑαυτῶν·
+   - SBLGNT: τοῦτο οὖν ποίησον ὅ σοι λέγομεν· εἰσὶν ἡμῖν ἄνδρες τέσσαρες εὐχὴν ἔχοντες ἀφʼ ἑαυτῶν.
+   - Vulgate: Hoc ergo fac quod tibi dicimus. Sunt nobis viri quatuor, votum habentes super se.
+   - BSB: Therefore do what we advise you. There are four men with us who have taken a vow.
+   - WEB: Therefore do what we tell you. We have four men who have taken a vow.
+- **21:25** substitute (word): SBLGNT *απεστειλαμε* ] TR *επεστειλαμε*
+   - Latin: Quod ad extrāneōs, quī crēdidērunt, attinet, nōs scrīptō ad eōs dēcrēvimus, nihil tāle servandum iīs esse, nisi ut deastrīs immolāta, et sanguinem, et suffōcāta, et stuprum vītent.”
+   - 1573: Quod ad extraneos, qui crediderunt, attinet, nos scripto ad eos decreuimus, nihil tale seruandum eis esse, nisi vt deastris immolata, et sanguinem, et suffocata, et stuprum vitent.
+   - TR: Περὶ δὲ τῶν πεπιστευκότων ἐθνῶν ἡμεῖς ἐπεστείλαμεν, κρίναντες μηδὲν τοιοῦτον τηρεῖν αὐτούς, εἰ μὴ φυλάσσεσθαι αὐτοὺς τό τε εἰδωλόθυτον καὶ τὸ αἷμα καὶ πνικτὸν καὶ πορνείαν.
+   - SBLGNT: περὶ δὲ τῶν πεπιστευκότων ἐθνῶν ἡμεῖς ἀπεστείλαμεν κρίναντες φυλάσσεσθαι αὐτοὺς τό τε εἰδωλόθυτον καὶ αἷμα καὶ πνικτὸν καὶ πορνείαν.
+   - Vulgate: De his autem qui crediderunt ex gentibus, nos scripsimus judicantes ut abstineant se ab idolis immolato, et sanguine, et suffocato, et fornicatione.
+   - BSB: As for the Gentile believers, we have written to them our decision that they must abstain from food sacrificed to idols, from blood, from the meat of strangled animals, and from sexual immorality.”
+   - WEB: But concerning the Gentiles who believe, we have written our decision that they should observe no such thing, except that they should keep themselves from food offered to idols, from blood, from strangled things, and from sexual immorality.”
+- **22:1** substitute (word): SBLGNT *νυνι* ] TR *νυν*
+   - Latin: “Hominēs, frātrēs et patrēs, audīte meam hanc ad vōs dēfēnsiōnem.”
+   - 1573: Homines, fratres et patres, audite meam hanc ad vos defensionem.
+   - TR: Ἄνδρες ἀδελφοὶ καὶ πατέρες, ἀκούσατέ μου τῆς πρὸς ὑμᾶς νῦν ἀπολογίας.
+   - SBLGNT: Ἄνδρες ἀδελφοὶ καὶ πατέρες, ἀκούσατέ μου τῆς πρὸς ὑμᾶς νυνὶ ἀπολογίας.
+   - Vulgate: Viri fratres, et patres, audite quam ad vos nunc reddo rationem.
+   - BSB: “Brothers and fathers, listen now to my defense before you.”
+   - WEB: “Brothers and fathers, listen to the defense which I now make to you.”
+- **22:24** substitute (word): SBLGNT *εισαγεσθαι αυτον* ] TR *αγεσθαι*
+   - Latin: jussit eum tribūnus in castra dūcī, et dē eō lōrīs quæstiōnem habērī imperāvit, ut cognōsceret, quam ob causam illī sīc eī occlāmārent.
+   - 1573: iussit eum tribunus in castra duci, et de eo loris quæstionem haberi imperauit, vt cognosceret quam ob causam illi sic ei occlamarent.
+   - TR: ἐκέλευσεν αὐτὸν ὁ χιλίαρχος ἄγεσθαι εἰς τὴν παρεμβολήν, εἰπὼν μάστιξιν ἀνετάζεσθαι αὐτόν, ἵνα ἐπιγνῷ δι᾿ ἣν αἰτίαν οὕτως ἐπεφώνουν αὐτῷ.
+   - SBLGNT: ἐκέλευσεν ὁ χιλίαρχος εἰσάγεσθαι αὐτὸν εἰς τὴν παρεμβολήν, εἴπας μάστιξιν ἀνετάζεσθαι αὐτὸν ἵνα ἐπιγνῷ διʼ ἣν αἰτίαν οὕτως ἐπεφώνουν αὐτῷ.
+   - Vulgate: jussit tribunus induci eum in castra, et flagellis cædi, et torqueri eum, ut sciret propter quam causam sic acclamarent ei.
+   - BSB: the commander ordered that Paul be brought into the barracks. He directed that Paul be flogged and interrogated to determine the reason for this outcry against him.
+   - WEB: the commanding officer commanded him to be brought into the barracks, ordering him to be examined by scourging, that he might know for what crime they shouted against him like that.
+- **23:4** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Hīc assistentēs dīxērunt: “Pontificī dīvīnō convīciāris?”
+   - 1573: Hîc assistentes dixerunt, Pontifici diuino conuiciaris?
+   - TR: Οἱ δὲ παρεστῶτες εἶπον, Τὸν ἀρχιερέα τοῦ Θεοῦ λοιδορεῖς;
+   - SBLGNT: οἱ δὲ παρεστῶτες εἶπαν· Τὸν ἀρχιερέα τοῦ θεοῦ λοιδορεῖς;
+   - Vulgate: Et qui astabant dixerunt: Summum sacerdotem Dei maledicis.
+   - BSB: But those standing nearby said, “How dare you insult the high priest of God!”
+   - WEB: Those who stood by said, “Do you malign God’s high priest?”
+- **23:7** substitute (word): SBLGNT *λαλουντος* ] TR *λαλησαντος*
+   - Latin: Hoc eō locūtō, orta est Pharisæōrum et Saddūcæōrum contentiō, dīvīsaque multitūdō est:
+   - 1573: Hoc eo locuto, orta est Pharisæorum et Sadducæorum contentio, diuisaque multitudo est.
+   - TR: Τοῦτο δὲ αὐτοῦ λαλήσαντος, ἐγένετο στάσις τῶν Φαρισαίων καὶ τῶν Σαδδουκαίων, καὶ ἐσχίσθη τὸ πλῆθος.
+   - SBLGNT: τοῦτο δὲ αὐτοῦ λαλοῦντος ἐγένετο στάσις τῶν Φαρισαίων καὶ Σαδδουκαίων, καὶ ἐσχίσθη τὸ πλῆθος.
+   - Vulgate: Et cum hæc dixisset, facta est dissensio inter pharisæos et sadducæos, et soluta est multitudo.
+   - BSB: As soon as he had said this, a dispute broke out between the Pharisees and Sadducees, and the assembly was divided.
+   - WEB: When he had said this, an argument arose between the Pharisees and Sadducees, and the crowd was divided.
+- **23:14** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Quī pontificēs et senātōrēs hujusmodī ōrātiōne convēnērunt: “Dīrīs nōs ipsōs ēgimus, sī quid gustārēmus, quīn Paulum occīderimus.
+   - 1573: qui Pontifices et Senatores huiusmodi oratione conuenerunt: Diris nos ipsos egimus, si quid gustaremus, quin Paulum occiderimus.
+   - TR: οἵτινες προσελθόντες τοῖς ἀρχιερεῦσι καὶ τοῖς πρεσβυτέροις εἶπον, Ἀναθέματι ἀνεθεματίσαμεν ἑαυτούς, μηδενὸς γεύσασθαι ἕως οὗ ἀποκτείνωμεν τὸν Παῦλον.
+   - SBLGNT: οἵτινες προσελθόντες τοῖς ἀρχιερεῦσιν καὶ τοῖς πρεσβυτέροις εἶπαν· Ἀναθέματι ἀνεθεματίσαμεν ἑαυτοὺς μηδενὸς γεύσασθαι ἕως οὗ ἀποκτείνωμεν τὸν Παῦλον.
+   - Vulgate: qui accesserunt ad principes sacerdotum et seniores, et dixerunt: Devotione devovimus nos nihil gustaturos, donec occidamus Paulum.
+   - BSB: They went to the chief priests and elders and said, “We have bound ourselves with a solemn oath not to eat anything until we have killed Paul.
+   - WEB: They came to the chief priests and the elders, and said, “We have bound ourselves under a great curse to taste nothing until we have killed Paul.
+- **23:23** add (number): SBLGNT *–* ] TR *+ δυο*; omit (number): SBLGNT *δυο* ] TR *–*
+   - Latin: Deinde ēvocātōs duōs quōsdam centuriōnēs alloquitur: “Parāte mīlitēs ducentōs, quī Cæsarēam proficīscantur; item equitēs septuāgintā, et hastātōs ducentōs, ad noctis hōram tertiam:
+   - 1573: Deinde euocatos duos quosdam centuriones alloquitur: Parate milites ducentos, qui Cæsaream proficiscantur: item equites septuaginta, et hastatos ducentos, ad noctis horam tertiam:
+   - TR: Καὶ προσκαλεσάμενος δύο τινὰς τῶν ἑκατοντάρχων εἶπεν, Ἑτοιμάσατε στρατιώτας διακοσίους ὅπως πορευθῶσιν ἕως Καισαρείας, καὶ ἱππεῖς ἑβδομήκοντα, καὶ δεξιολάβους διακοσίους, ἀπὸ τρίτης ὥρας τῆς νυκτός·
+   - SBLGNT: Καὶ προσκαλεσάμενός τινας δύο τῶν ἑκατονταρχῶν εἶπεν· Ἑτοιμάσατε στρατιώτας διακοσίους ὅπως πορευθῶσιν ἕως Καισαρείας, καὶ ἱππεῖς ἑβδομήκοντα καὶ δεξιολάβους διακοσίους, ἀπὸ τρίτης ὥρας τῆς νυκτός,
+   - Vulgate: Et vocatis duobus centurionibus, dixit illis: Parate milites ducentos ut eant usque Cæsaream, et equites septuaginta, et lancearios ducentos a tertia hora noctis,
+   - BSB: Then he called two of his centurions and said, “Prepare two hundred soldiers, seventy horsemen, and two hundred spearmen to go to Caesarea in the third hour of the night.
+   - WEB: He called to himself two of the centurions, and said, “Prepare two hundred soldiers to go as far as Caesarea, with seventy horsemen and two hundred men armed with spears, at the third hour of the night.”
+- **23:27** substitute (word): SBLGNT *εξειλαμην* ] TR *εξειλομην αυτον*
+   - Latin: Hunc virum cum Jūdæī comprehendissent, et interfectūrī essent, ego cum exercitū supervenī, et eum ēripuī, ac Rōmānum esse didicī.
+   - 1573: Hunc virum cùm Iudæi comprehendissent, et interfecturi essent, ego cum exercitu superueni, et eum eripui, ac Romanum esse didici.
+   - TR: Τὸν ἄνδρα τοῦτον συλληφθέντα ὑπὸ τῶν Ἰουδαίων, καὶ μέλλοντα ἀναιρεῖσθαι ὑπ᾿ αὐτῶν, ἐπιστὰς σὺν τῷ στρατεύματι ἐξειλόμην αὐτόν, μαθὼν ὅτι Ῥωμαῖός ἐστι.
+   - SBLGNT: τὸν ἄνδρα τοῦτον συλλημφθέντα ὑπὸ τῶν Ἰουδαίων καὶ μέλλοντα ἀναιρεῖσθαι ὑπʼ αὐτῶν ἐπιστὰς σὺν τῷ στρατεύματι ἐξειλάμην, μαθὼν ὅτι Ῥωμαῖός ἐστιν,
+   - Vulgate: Virum hunc comprehensum a Judæis, et incipientem interfici ab eis, superveniens cum exercitu eripui, cognito quia Romanus est.
+   - BSB: This man was seized by the Jews, and they were about to kill him when I came with my troops to rescue him. For I had learned that he is a Roman citizen,
+   - WEB: “This man was seized by the Jews, and was about to be killed by them when I came with the soldiers and rescued him, having learned that he was a Roman.
+- **24:18** add (clause): SBLGNT *–* ] TR *+ τινες απο της ασιας ιουδαιοι*
+   - Latin: Cum mē in fānō lūstrātum offendērunt, nūllā cum turbā aut tumultū, quīdam ex Asiā Jūdæī.
+   - 1573: cùm me in fano lustratum offenderunt, nulla cum turba aut tumultu, quidam ex Asia Iudæi,
+   - TR: ἐν οἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου, τινὲς ἀπὸ τῆς Ἀσίας Ἰουδαῖοι·
+   - SBLGNT: ἐν αἷς εὗρόν με ἡγνισμένον ἐν τῷ ἱερῷ, οὐ μετὰ ὄχλου οὐδὲ μετὰ θορύβου,
+   - Vulgate: in quibus invenerunt me purificatum in templo: non cum turba, neque cum tumultu.
+   - BSB: At the time they found me in the temple, I was ceremonially clean and was not inciting a crowd or an uproar. But there are some Jews from the province of Asia
+   - WEB: amid which certain Jews from Asia found me purified in the temple, not with a mob, nor with turmoil.
+- **24:19** omit (clause): SBLGNT *τινες δε απο της ασιας ιουδαιοι* ] TR *–*
+   - Latin: Iī sunt, quōs apud tē præstō esse, accūsāreque decēbat, sī quid habērent contrā mē.
+   - 1573: Ij sunt, quos apud te præstò esse, accusareque decebat, si quid haberent contra me.
+   - TR: οὓς ἔδει ἐπὶ σοῦ παρεῖναι καὶ κατηγορεῖν εἴ τι ἔχοιεν πρός με.
+   - SBLGNT: τινὲς δὲ ἀπὸ τῆς Ἀσίας Ἰουδαῖοι, οὓς ἔδει ἐπὶ σοῦ παρεῖναι καὶ κατηγορεῖν εἴ τι ἔχοιεν πρὸς ἐμέ,
+   - Vulgate: Quidam autem ex Asia Judæi, quos oportebat apud te præsto esse, et accusare si quid haberent adversum me:
+   - BSB: who ought to appear before you and bring charges, if they have anything against me.
+   - WEB: They ought to have been here before you and to make accusation if they had anything against me.
+- **24:21** substitute (word): SBLGNT *εκεκραξα* ] TR *εκραξα εστως*
+   - Latin: Nisi forte crīminōsa est hæc ūna vōx, quā sīc inter eōs astāns vōciferātus sum: ‘Dē mortuōrum resurrēctiōne ego ā vōbīs hodiē reus agor.’”
+   - 1573: nisi fortè criminosa est hæc vna vox, qua sic inter eos astans vociferatus sum: De mortuorum resurrectione ego à vobis hodie reus agor.
+   - TR: ἢ περὶ μιᾶς ταύτης φωνῆς, ἧς ἔκραξα ἑστὼς ἐν αὐτοῖς, ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ὑφ᾿ ὑμῶν.
+   - SBLGNT: ἢ περὶ μιᾶς ταύτης φωνῆς ἧς ἐκέκραξα ἐν αὐτοῖς ἑστὼς ὅτι Περὶ ἀναστάσεως νεκρῶν ἐγὼ κρίνομαι σήμερον ἐφʼ ὑμῶν.
+   - Vulgate: nisi de una hac solummodo voce qua clamavi inter eos stans: Quoniam de resurrectione mortuorum ego judicor hodie a vobis.
+   - BSB: unless it was this one thing I called out as I stood in their presence: ‘It is concerning the resurrection of the dead that I am on trial before you today.’”
+   - WEB: unless it is for this one thing that I cried standing among them, ‘Concerning the resurrection of the dead I am being judged before you today!’”
+- **25:7** substitute (name): SBLGNT *αιτιωματα καταφεροντες* ] TR *αιτιαματα φεροντες κατα του παυλου*
+   - Latin: Quī postquam advēnit, circumstetērunt, quī Hierosolymīs dēscenderant, Jūdæī, multa et atrōcia Paulō crīmina impingentēs, quæ dēmōnstrāre nōn poterant:
+   - 1573: Qui postquam aduenit, circunsteterunt, qui Hierosolymis descenderant Iudæi, multa et atrocia Paulo crimina impingentes, quæ demonstrare non poterant:
+   - TR: Παραγενομένου δὲ αὐτοῦ, περιέστησαν οἱ ἀπὸ Ἱεροσολύμων καταβεβηκότες Ἰουδαῖοι, πολλὰ καὶ βαρέα αἰτιάματα φέροντες κατὰ τοῦ Παύλου, ἃ οὐκ ἴσχυον ἀποδεῖξαι,
+   - SBLGNT: παραγενομένου δὲ αὐτοῦ περιέστησαν αὐτὸν οἱ ἀπὸ Ἱεροσολύμων καταβεβηκότες Ἰουδαῖοι, πολλὰ καὶ βαρέα αἰτιώματα καταφέροντες ἃ οὐκ ἴσχυον ἀποδεῖξαι,
+   - Vulgate: Qui cum perductus esset, circumsteterunt eum, qui ab Jerosolyma descenderant Judæi, multas et graves causas objicientes, quas non poterant probare:
+   - BSB: When Paul arrived, the Jews who had come down from Jerusalem stood around him, bringing many serious charges that they could not prove.
+   - WEB: When he had come, the Jews who had come down from Jerusalem stood around him, bringing against him many and grievous charges which they could not prove,
+- **26:2** add (word): SBLGNT *–* ] TR *+ μελλων απολογεισθαι*; omit (word): SBLGNT *μελλων* ] TR *–*
+   - Latin: “Quod omnia, dē quibus ā Jūdæīs postulor, hodiē sum apud tē, rēx Agrippa, dēfēnsūrus,
+   - 1573: Quòd omnia de quibus à Iudæis postulor, hodie sum apud te, rex Agrippa, defensurus,
+   - TR: Περὶ πάντων ὧν ἐγκαλοῦμαι ὑπὸ Ἰουδαίων, βασιλεῦ Ἀγρίππα, ἥγημαι ἐμαυτὸν μακάριον μέλλων ἀπολογεῖσθαι ἐπὶ σοῦ σήμερον·
+   - SBLGNT: Περὶ πάντων ὧν ἐγκαλοῦμαι ὑπὸ Ἰουδαίων, βασιλεῦ Ἀγρίππα, ἥγημαι ἐμαυτὸν μακάριον ἐπὶ σοῦ μέλλων σήμερον ἀπολογεῖσθαι,
+   - Vulgate: De omnibus quibus accusor a Judæis, rex Agrippa, æstimo me beatum apud te cum sim defensurus me hodie,
+   - BSB: “King Agrippa, I consider myself fortunate to stand before you today to defend myself against all the accusations of the Jews,
+   - WEB: “I think myself happy, King Agrippa, that I am to make my defense before you today concerning all the things the Jews accuse me of,
+- **26:15** substitute (word): SBLGNT *ειπα* ] TR *ειπον*
+   - Latin: Tum ego: ‘Quis es,’ inquam, ‘Domine?’ Et ille: ‘Ego sum Jēsūs, quem tū persequeris:
+   - 1573: Tum ego: Quis es, inquam, Domine. Et ille: Ego sum Iesus, quem tu persequeris.
+   - TR: Ἐγὼ δὲ εἶπον, Τίς εἶ, Κύριε; Ὁ δὲ εἶπεν, Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις.
+   - SBLGNT: ἐγὼ δὲ εἶπα· Τίς εἶ, κύριε; ὁ δὲ κύριος εἶπεν· Ἐγώ εἰμι Ἰησοῦς ὃν σὺ διώκεις·
+   - Vulgate: Ego autem dixi: Quis es, domine? Dominus autem dixit: Ego sum Jesus, quem tu persequeris.
+   - BSB: ‘Who are You, Lord?’ I asked. ‘I am Jesus, whom you are persecuting,’ the Lord replied.
+   - WEB: “I said, ‘Who are you, Lord?’ “He said, ‘I am Jesus, whom you are persecuting.
+- **26:17** substitute (word): SBLGNT *εγω* ] TR *νυν σε*
+   - Latin: vindicandō tē ā populō et gentibus, ad quās nunc tē mittō,
+   - 1573: vindicando te à populo et gentibus, ad quas nunc te mitto,
+   - TR: ἐξαιρούμενός σε ἐκ τοῦ λαοῦ καὶ τῶν ἐθνῶν, εἰς οὓς νῦν σε ἀποστέλλω,
+   - SBLGNT: ἐξαιρούμενός σε ἐκ τοῦ λαοῦ καὶ ἐκ τῶν ἐθνῶν, εἰς οὓς ἐγὼ ἀποστέλλω σε
+   - Vulgate: eripiens te de populo et gentibus, in quas nunc ego mitto te,
+   - BSB: I will rescue you from your own people and from the Gentiles. I am sending you to them
+   - WEB: delivering you from the people and from the Gentiles, to whom I send you,
+- **26:22** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Sed dīvīnō præsidiō ad hunc ūsque diem stetī, īnfimōs juxtā ac summōs commonefaciēns, neque quidquam extrā ea dīcēns, quæ tum cēterī vātēs, tum Mōsēs, futūra ante dēnūntiārunt.
+   - 1573: Sed diuino præsidio ad hunc vsque diem steti, infimos iuxtà ac summos commonefaciens, neque quicquam extra ea dicens, quæ tum cæteri vates, tum Moses, futura antè denunciarunt:
+   - TR: Ἐπικουρίας οὖν τυχὼν τῆς παρὰ τοῦ Θεοῦ, ἄχρι τῆς ἡμέρας ταύτης ἕστηκα μαρτυρούμενος μικρῷ τε καὶ μεγάλῳ, οὐδὲν ἐκτὸς λέγων ὧν τε οἱ προφῆται ἐλάλησαν μελλόντων γίνεσθαι καὶ Μωσῆς,
+   - SBLGNT: ἐπικουρίας οὖν τυχὼν τῆς ἀπὸ τοῦ θεοῦ ἄχρι τῆς ἡμέρας ταύτης ἕστηκα μαρτυρόμενος μικρῷ τε καὶ μεγάλῳ, οὐδὲν ἐκτὸς λέγων ὧν τε οἱ προφῆται ἐλάλησαν μελλόντων γίνεσθαι καὶ Μωϋσῆς,
+   - Vulgate: Auxilio autem adjutus Dei usque in hodiernum diem, sto, testificans minori atque majori, nihil extra dicens quam ea quæ prophetæ locuti sunt futura esse, et Moyses,
+   - BSB: But I have had God’s help to this day, and I stand here to testify to small and great alike. I am saying nothing beyond what the prophets and Moses said would happen:
+   - WEB: Having therefore obtained the help that is from God, I stand to this day testifying both to small and great, saying nothing but what the prophets and Moses said would happen,
+- **26:29** substitute (word): SBLGNT *και εγω* ] TR *καγω*
+   - Latin: Et Paulus: “Deum precor,” inquit, “ut et propemodum et plānē, nōn sōlum tū, sed etiam omnēs, quī mē audiunt, hodiē tālēs fīant, quālis ego sum, exceptīs hīs vinculīs.”
+   - 1573: Et Paulus: Deum precor, inquit, vt et propemodum et planè, non solùm tu, sed etiam omnes qui me audiunt, hodie tales fiant, qualis ego sum, exceptis his vinculis.
+   - TR: Ὁ δὲ Παῦλος εἶπεν, Εὐξαίμην ἂν τῷ Θεῷ, καὶ ἐν ὀλίγῳ καὶ ἐν πολλῷ οὐ μόνον σε, ἀλλὰ καὶ πάντας τοὺς ἀκούοντάς μου σήμερον, γενέσθαι τοιούτους ὁποῖος κἀγώ εἰμι, παρεκτὸς τῶν δεσμῶν τούτων.
+   - SBLGNT: ὁ δὲ Παῦλος· Εὐξαίμην ἂν τῷ θεῷ καὶ ἐν ὀλίγῳ καὶ ἐν μεγάλῳ οὐ μόνον σὲ ἀλλὰ καὶ πάντας τοὺς ἀκούοντάς μου σήμερον γενέσθαι τοιούτους ὁποῖος καὶ ἐγώ εἰμι παρεκτὸς τῶν δεσμῶν τούτων.
+   - Vulgate: Et Paulus: Opto apud Deum, et in modico et in magno, non tantum te, sed etiam omnes qui audiunt hodie fieri tales, qualis et ego sum, exceptis vinculis his.
+   - BSB: “Short time or long,” Paul replied, “I wish to God that not only you but all who hear me this day may become what I am, except for these chains.”
+   - WEB: Paul said, “I pray to God, that whether with little or with much, not only you, but also all that hear me today, might become such as I am, except for these bonds.”
+- **27:23** omit (word): SBLGNT *ταυτη* ] TR *–*; add (word): SBLGNT *–* ] TR *+ ταυτη αγγελος*
+   - Latin: Astitit enim mihi hāc nocte Deī, cujus sum, quemque colō, angelus,
+   - 1573: Astitit enim mihi hac nocte Dei, cuius sum, quemque colo, angelus,
+   - TR: Παρέστη γάρ μοι τῇ νυκτὶ ταύτῃ ἄγγελος τοῦ Θεοῦ, οὗ εἰμι, ᾧ καὶ λατρεύω,
+   - SBLGNT: παρέστη γάρ μοι ταύτῃ τῇ νυκτὶ τοῦ θεοῦ, οὗ εἰμι, ᾧ καὶ λατρεύω, ἄγγελος
+   - Vulgate: Astitit enim mihi hac nocte angelus Dei, cujus sum ego, et cui deservio,
+   - BSB: For just last night an angel of God, whose I am and whom I serve, stood beside me
+   - WEB: For there stood by me this night an angel, belonging to the God whose I am and whom I serve,
+- **27:30** substitute (word): SBLGNT *πρωρης* ] TR *πρωρας μελλοντων*
+   - Latin: Sed cum nautæ ex nāvī effugere cōnārentur, et scapham in mare dēmīsissent, quasi quī ex prōrā ancorās extēnsūrī essent,
+   - 1573: Sed cùm nautæ ex naui effugere conarentur, et scapham in mare demisissent, quasi qui ex prora anchoras extensuri essent,
+   - TR: Τῶν δὲ ναυτῶν ζητούντων φυγεῖν ἐκ τοῦ πλοίου, καὶ χαλασάντων τὴν σκάφην εἰς τὴν θάλασσαν, προφάσει ὡς ἐκ πρῴρας μελλόντων ἀγκύρας ἐκτείνειν,
+   - SBLGNT: τῶν δὲ ναυτῶν ζητούντων φυγεῖν ἐκ τοῦ πλοίου καὶ χαλασάντων τὴν σκάφην εἰς τὴν θάλασσαν προφάσει ὡς ἐκ πρῴρης ἀγκύρας μελλόντων ἐκτείνειν,
+   - Vulgate: Nautis vero quærentibus fugere de navi, cum misissent scapham in mare, sub obtentu quasi inciperent a prora anchoras extendere,
+   - BSB: Meanwhile, the sailors attempted to escape from the ship. Pretending to lower anchors from the bow, they let the lifeboat down into the sea.
+   - WEB: As the sailors were trying to flee out of the ship and had lowered the boat into the sea, pretending that they would lay out anchors from the bow,
+- **27:33** add (word): SBLGNT *–* ] TR *+ εμελλε*; substitute (word): SBLGNT *μηθε* ] TR *μηδε*
+   - Latin: Intereā dum diēs appetit, Paulus omnēs, ut cibum caperent, cohortābātur: “Hic decimus quārtus diēs agitur,” inquit, “cum exspectantēs jejūnī permanētis, nihilque sūmpsistis.
+   - 1573: Interea dum dies appetit, Paulus omnes, vt cibum caperent, cohortabatur: Hic decimus quartus dies agitur, inquit, cùm expectantes ieiuni permanetis, nihilque sumpsistis:
+   - TR: Ἄχρι δὲ οὗ ἔμελλεν ἡμέρα γίνεσθαι, παρεκάλει ὁ Παῦλος ἅπαντας μεταλαβεῖν τροφῆς, λέγων, Τεσσαρεσκαιδεκάτην σήμερον ἡμέραν προσδοκῶντες ἄσιτοι διατελεῖτε, μηδὲν προσλαβόμενοι.
+   - SBLGNT: Ἄχρι δὲ οὗ ἡμέρα ἤμελλεν γίνεσθαι παρεκάλει ὁ Παῦλος ἅπαντας μεταλαβεῖν τροφῆς λέγων· Τεσσαρεσκαιδεκάτην σήμερον ἡμέραν προσδοκῶντες ἄσιτοι διατελεῖτε, μηθὲν προσλαβόμενοι·
+   - Vulgate: Et cum lux inciperet fieri, rogabat Paulus omnes sumere cibum, dicens: Quartadecima die hodie exspectantes jejuni permanetis, nihil accipientes.
+   - BSB: Right up to daybreak, Paul kept urging them all to eat: “Today is your fourteenth day in constant suspense, without taking any food.
+   - WEB: While the day was coming on, Paul begged them all to take some food, saying, “Today is the fourteenth day that you wait and continue fasting, having taken nothing.
+- **27:37** substitute (word): SBLGNT *ημεθα* ] TR *ημε*
+   - Latin: Erāmus autem in nāvī capita in summā ducenta septuāgintā sex.
+   - 1573: Eramus autem in naui capita in summa ducenta septuaginta sex.
+   - TR: Ἦμεν δὲ ἐν τῷ πλοίῳ αἱ πᾶσαι ψυχαί, διακόσιαι ἑβδομήκοντα ἕξ.
+   - SBLGNT: ἤμεθα δὲ αἱ πᾶσαι ψυχαὶ ἐν τῷ πλοίῳ διακόσιαι ἑβδομήκοντα ἕξ.
+   - Vulgate: Eramus vero universæ animæ in navi ducentæ septuaginta sex.
+   - BSB: In all, there were 276 of us on board.
+   - WEB: In all, we were two hundred seventy-six souls on the ship.
+- **27:41** add (word): SBLGNT *–* ] TR *+ των κυματων*
+   - Latin: Sed in locum bimarem dēlātī nāvem illīsērunt, ita ut affīxa prōra manēret immōbilis, puppis undārum vī solverētur.
+   - 1573: Sed in locum bimarem delati nauem illiserunt, ita vt affixa prora maneret immobilis, puppis vndarum vi solueretur.
+   - TR: Περιπεσόντες δὲ εἰς τόπον διθάλασσον ἐπώκειλαν τὴν ναῦν· καὶ ἡ μὲν πρῷρα ἐρείσασα ἔμεινεν ἀσάλευτος, ἡ δὲ πρύμνα ἐλύετο ὑπὸ τῆς βίας τῶν κυμάτων.
+   - SBLGNT: περιπεσόντες δὲ εἰς τόπον διθάλασσον ἐπέκειλαν τὴν ναῦν, καὶ ἡ μὲν πρῷρα ἐρείσασα ἔμεινεν ἀσάλευτος, ἡ δὲ πρύμνα ἐλύετο ὑπὸ τῆς βίας.
+   - Vulgate: Et cum incidissemus in locum dithalassum, impegerunt navem: et prora quidem fixa manebat immobilis, puppis vero solvebatur a vi maris.
+   - BSB: But the vessel struck a sandbar and ran aground. The bow stuck fast and would not move, and the stern was being broken up by the pounding of the waves.
+   - WEB: But coming to a place where two seas met, they ran the vessel aground. The bow struck and remained immovable, but the stern began to break up by the violence of the waves.
+- **28:14** substitute (word): SBLGNT *ηλθαμε* ] TR *ηλθομε*
+   - Latin: Ubi frātrēs nactī, exōrātī sumus, ut apud eōs manērēmus septem diēs, et ita Rōmam contendimus.
+   - 1573: Vbi fratres nacti, exorati sumus, vt apud eos maneremus septem dies, et ita Romam contendimus.
+   - TR: οὗ εὑρόντες ἀδελφούς, παρεκλήθημεν ἐπ᾿ αὐτοῖς ἐπιμεῖναι ἡμέρας ἑπτά· καὶ οὕτως εἰς τὴν Ῥώμην ἤλθομεν.
+   - SBLGNT: οὗ εὑρόντες ἀδελφοὺς παρεκλήθημεν παρʼ αὐτοῖς ἐπιμεῖναι ἡμέρας ἑπτά· καὶ οὕτως εἰς τὴν Ῥώμην ἤλθαμεν.
+   - Vulgate: ubi inventis fratribus rogati sumus manere apud eos dies septem: et sic venimus Romam.
+   - BSB: There we found some brothers who invited us to spend the week with them. And so we came to Rome.
+   - WEB: where we found brothers, and were entreated to stay with them for seven days. So we came to Rome.
+- **28:21** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Et illī: “Nōs quidem,” inquiunt, “neque litterās dē tē accēpimus ex Jūdæā, neque frātrum quisquam advēnit, quī aliquid sinistrum dē tē nūntiāverit, aut dīxerit.
+   - 1573: Et illi: Nos quidem, inquiunt, neque literas de te accepimus ex Iudæa, neque fratrum quisquam aduenit, qui aliquid sinistrum de te nunciauerit, aut dixerit.
+   - TR: Οἱ δὲ πρὸς αὐτὸν εἶπον, Ἡμεῖς οὔτε γράμματα περὶ σοῦ ἐδεξάμεθα ἀπὸ τῆς Ἰουδαίας, οὔτε παραγενόμενός τις τῶν ἀδελφῶν ἀπήγγειλεν ἢ ἐλάλησέ τι περὶ σοῦ πονηρόν.
+   - SBLGNT: οἱ δὲ πρὸς αὐτὸν εἶπαν· Ἡμεῖς οὔτε γράμματα περὶ σοῦ ἐδεξάμεθα ἀπὸ τῆς Ἰουδαίας, οὔτε παραγενόμενός τις τῶν ἀδελφῶν ἀπήγγειλεν ἢ ἐλάλησέν τι περὶ σοῦ πονηρόν.
+   - Vulgate: At illi dixerunt ad eum: Nos neque litteras accepimus de te a Judæa, neque adveniens aliquis fratrum nuntiavit, aut locutus est quid de te malum.
+   - BSB: The leaders replied, “We have not received any letters about you from Judea, nor have any of the brothers from there reported or even mentioned anything bad about you.
+   - WEB: They said to him, “We neither received letters from Judea concerning you, nor did any of the brothers come here and report or speak any evil of you.
+- **28:23** substitute (name): SBLGNT *μωυσεως* ] TR *μωσεως*
+   - Latin: Ac dictō eī diē, vēnērunt ad eum in hospitium plūrēs: quibus ille disserēbat, dīvīnum rēgnum testificāns, et iīs dē Jēsū ex Mōsis lēge et vātibus ā māne ad vesperam persuādēre cōnāns.
+   - 1573: Ac dicto ei die, venerunt ad eum in hospitium plures: quibus ille disserebat, diuinum regnum testificans, et eis de Iesu, ex Mosis lege, et vatibus, à mane ad vesperam persuadere conans.
+   - TR: Ταξάμενοι δὲ αὐτῷ ἡμέραν, ἧκον πρὸς αὐτὸν εἰς τὴν ξενίαν πλείονες· οἷς ἐξετίθετο διαμαρτυρόμενος τὴν βασιλείαν τοῦ Θεοῦ, πείθων τε αὐτοὺς τὰ περὶ τοῦ Ἰησοῦ, ἀπό τε τοῦ νόμου Μωσέως καὶ τῶν προφητῶν, ἀπὸ πρωῒ ἕως ἑσπέρας.
+   - SBLGNT: Ταξάμενοι δὲ αὐτῷ ἡμέραν ἧκον πρὸς αὐτὸν εἰς τὴν ξενίαν πλείονες, οἷς ἐξετίθετο διαμαρτυρόμενος τὴν βασιλείαν τοῦ θεοῦ πείθων τε αὐτοὺς περὶ τοῦ Ἰησοῦ ἀπό τε τοῦ νόμου Μωϋσέως καὶ τῶν προφητῶν ἀπὸ πρωῒ ἕως ἑσπέρας.
+   - Vulgate: Cum constituissent autem illi diem, venerunt ad eum in hospitium plurimi, quibus exponebat testificans regnum Dei, suadensque eis de Jesu ex lege Moysi et prophetis a mane usque ad vesperam.
+   - BSB: So they set a day to meet with Paul, and many people came to the place he was staying. He expounded to them from morning to evening, testifying about the kingdom of God and persuading them about Jesus from the Law of Moses and the Prophets.
+   - WEB: When they had appointed him a day, many people came to him at his lodging. He explained to them, testifying about God’s Kingdom, and persuading them concerning Jesus, both from the law of Moses and from the prophets, from morning until evening.
+- **28:26** substitute (word): SBLGNT *ειπον* ] TR *ειπε*
+   - Latin: dum ait: “‘Adī populum istum, et dīcitō: “Audiētis quidem; sed nōn intellegētis: et aspiciētis; sed nōn perspiciētis.”
+   - 1573: dum ait: Adi populum istum, et dicito: Audietis quidem, sed non intelligetis: et aspicietis, sed non perspicietis.
+   - TR: λέγον, Πορεύθητι πρὸς τὸν λαὸν τοῦτον καὶ εἰπέ, Ἀκοῇ ἀκούσετε, καὶ οὐ μὴ συνῆτε· καὶ βλέποντες βλέψετε, καὶ οὐ μὴ ἴδητε.
+   - SBLGNT: λέγων· Πορεύθητι πρὸς τὸν λαὸν τοῦτον καὶ εἰπόν· Ἀκοῇ ἀκούσετε καὶ οὐ μὴ συνῆτε, καὶ βλέποντες βλέψετε καὶ οὐ μὴ ἴδητε·
+   - Vulgate: dicens: Vade ad populum istum, et dic ad eos: [Aure audietis, et non intelligetis, et videntes videbitis, et non perspicietis.
+   - BSB: ‘Go to this people and say, “You will be ever hearing but never understanding; you will be ever seeing but never perceiving.”
+   - WEB: saying, ‘Go to this people and say, in hearing, you will hear, but will in no way understand. In seeing, you will see, but will in no way perceive.
+- **28:27** substitute (word): SBLGNT *ιασομαι* ] TR *ιασωμαι*
+   - Latin: Torpet enim animus istīus populī, et auribus obtūsē audiunt, et occlūsōs habent oculōs, nē oculīs videant, et auribus audiant, et animō intellegant, ac mūtentur, atque ita eōs ego sānem.’
+   - 1573: Torpet enim animus istius populi, et auribus obtusè audiunt, et occlusos habent oculos, ne oculis videant, et auribus audiant, et animo intelligant, ac mutentur, atque ita eos ego sanem.
+   - TR: Ἐπαχύνθη γὰρ ἡ καρδία τοῦ λαοῦ τούτου, καὶ τοῖς ὠσὶ βαρέως ἤκουσαν, καὶ τοὺς ὀφθαλμοὺς αὐτῶν ἐκάμμυσαν· μήποτε ἴδωσι τοῖς ὀφθαλμοῖς, καὶ τοῖς ὠσὶν ἀκούσωσι, καὶ τῇ καρδίᾳ συνῶσι, καὶ ἐπιστρέψωσι, καὶ ἰάσωμαι αὐτούς.
+   - SBLGNT: ἐπαχύνθη γὰρ ἡ καρδία τοῦ λαοῦ τούτου, καὶ τοῖς ὠσὶν βαρέως ἤκουσαν, καὶ τοὺς ὀφθαλμοὺς αὐτῶν ἐκάμμυσαν· μήποτε ἴδωσιν τοῖς ὀφθαλμοῖς καὶ τοῖς ὠσὶν ἀκούσωσιν καὶ τῇ καρδίᾳ συνῶσιν καὶ ἐπιστρέψωσιν, καὶ ἰάσομαι αὐτούς.
+   - Vulgate: Incrassatum est enim cor populi hujus, et auribus graviter audierunt, et oculos suos compresserunt: ne forte videant oculis, et auribus audiant, et corde intelligant, et convertantur, et sanem eos.]
+   - BSB: For this people’s heart has grown callous; they hardly hear with their ears, and they have closed their eyes. Otherwise they might see with their eyes, hear with their ears, understand with their hearts, and turn, and I would heal them.’
+   - WEB: For this people’s heart has grown callous. Their ears are dull of hearing. Their eyes they have closed. Lest they should see with their eyes, hear with their ears, understand with their heart, and would turn again, then I would heal them.’
+
+## Person (3 verses)
+
+- **11:16** Latin *nōs*; the TR has only ὑμ-
+   - Latin: Tum ego recordātus sum illud Dominī dictum, quō dīxerat, Jōhannem quidem baptīzāvisse aquā, sed nōs Spīritū Sānctō baptīzātum īrī.
+   - 1573: Tum ego recordatus sum illud Domini dictum, quo dixerat, Iohannem quidem baptizauisse aqua, sed nos spiritu sancto baptizatum iri.
+   - TR: Ἐμνήσθην δὲ τοῦ ῥήματος Κυρίου, ὡς ἔλεγεν, Ἰωάννης μὲν ἐβάπτισεν ὕδατι, ὑμεῖς δὲ βαπτισθήσεσθε ἐν πνεύματι ἁγίῳ.
+   - SBLGNT: ἐμνήσθην δὲ τοῦ ῥήματος τοῦ κυρίου ὡς ἔλεγεν· Ἰωάννης μὲν ἐβάπτισεν ὕδατι, ὑμεῖς δὲ βαπτισθήσεσθε ἐν πνεύματι ἁγίῳ.
+   - Vulgate: Recordatus sum autem verbi Domini, sicut dicebat: Joannes quidem baptizavit aqua, vos autem baptizabimini Spiritu Sancto.
+   - BSB: Then I remembered the word of the Lord, as He used to say, ‘John baptized with water, but you will be baptized with the Holy Spirit.’
+   - WEB: I remembered the word of the Lord, how he said, ‘John indeed baptized in water, but you will be baptized in the Holy Spirit.’
+- **13:46** Latin *nōs*; the TR has only ὑμ-
+   - Latin: Quibus contrā Paulus et Barnābās sīc līberē dīxērunt: “Vōbīs prīmum necesse erat prōpōnī dīvīnam doctrīnam: sed quia eam rejicitis, neque vōs sempiternā vītā dignōs jūdicātis, scītōte, nōs ad gentēs convertī.
+   - 1573: Quibus contrà Paulus et Barnabas sic liberè dixerunt: Vobis primùm necesse erat proponi diuinam doctrinam. Sed quia eam reijcitis, neque vos sempiterna vita dignos iudicatis, scitote nos ad gentes conuerti.
+   - TR: Παρρησιασάμενοι δὲ ὁ Παῦλος καὶ ὁ Βαρνάβας εἶπον, Ὑμῖν ἦν ἀναγκαῖον πρῶτον λαληθῆναι τὸν λόγον τοῦ Θεοῦ. Ἐπειδὴ δὲ ἀπωθεῖσθε αὐτόν, καὶ οὐκ ἀξίους κρίνετε ἑαυτοὺς τῆς αἰωνίου ζωῆς, ἰδοὺ στρεφόμεθα εἰς τὰ ἔθνη.
+   - SBLGNT: παρρησιασάμενοί τε ὁ Παῦλος καὶ ὁ Βαρναβᾶς εἶπαν· Ὑμῖν ἦν ἀναγκαῖον πρῶτον λαληθῆναι τὸν λόγον τοῦ θεοῦ· ἐπειδὴ ἀπωθεῖσθε αὐτὸν καὶ οὐκ ἀξίους κρίνετε ἑαυτοὺς τῆς αἰωνίου ζωῆς, ἰδοὺ στρεφόμεθα εἰς τὰ ἔθνη·
+   - Vulgate: Tunc constanter Paulus et Barnabas dixerunt: Vobis oportebat primum loqui verbum Dei: sed quoniam repellitis illud, et indignos vos judicatis æternæ vitæ, ecce convertimur ad gentes.
+   - BSB: Then Paul and Barnabas answered them boldly: “It was necessary to speak the word of God to you first. But since you reject it and do not consider yourselves worthy of eternal life, we now turn to the Gentiles.
+   - WEB: Paul and Barnabas spoke out boldly, and said, “It was necessary that God’s word should be spoken to you first. Since indeed you thrust it from yourselves, and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles.
+- **27:22** Latin *nostrum*; the TR has only ὑμ-
+   - Latin: Nunc tamen moneō vōs, ut bonō sītis animō: nam nūllīus nostrum vītæ jactūra fīet, sed tantum nāvigiī.
+   - 1573: Nunc tamen moneo vos, vt bono sitis animo: nam nullius nostrum vitæ iactura fiet, sed tantùm nauigij.
+   - TR: Καὶ τὰ νῦν παραινῶ ὑμᾶς εὐθυμεῖν· ἀποβολὴ γὰρ ψυχῆς οὐδεμία ἔσται ἐξ ὑμῶν, πλὴν τοῦ πλοίου.
+   - SBLGNT: καὶ τὰ νῦν παραινῶ ὑμᾶς εὐθυμεῖν, ἀποβολὴ γὰρ ψυχῆς οὐδεμία ἔσται ἐξ ὑμῶν πλὴν τοῦ πλοίου·
+   - Vulgate: Et nunc suadeo vobis bono animo esse: amissio enim nullius animæ erit ex vobis, præterquam navis.
+   - BSB: But now I urge you to keep up your courage, because you will not experience any loss of life, but only of the ship.
+   - WEB: Now I exhort you to cheer up, for there will be no loss of life among you, but only of the ship.

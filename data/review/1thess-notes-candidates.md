@@ -1,0 +1,275 @@
+# 1Thess: candidates for light notes
+
+Built by `python -m pipeline notes 1Thess` (pipeline/notes.py); the process and its decisions are in
+`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
+for any that survive) before a note is put to Nathan in `1thess-notes.md`.
+
+Apparatus units with NA28 and SBLGNT against RP: 34; not a change of sense (order, article, form, small words): 19; the TR with the critical text: 1; in a verse already noted or bracketed: 0; **kept: 14**, in 12 verses. The TR alone against SBLGNT (no apparatus unit): 18, in 16 verses. Pronoun person (Latin against the TR): 4.
+
+## Text: clause (3 verses)
+
+- **1:1** add (clause): critical *εἰρήνη* ] RP *+ ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ*
+   - Latin: Paulus, et Silvānus, et Tīmotheus, Thessalonīcēnsium ecclēsiæ, quæ Deī Patris est, et Dominī Jēsū Chrīstī, grātiam et pācem ā Deō Patre nostrō, et Dominō Jēsū Chrīstō.
+   - 1573: Paulus, et Syluanus, et Timotheus Thessalonicensium ecclesiæ, quæ Dei patris est, et Domini Iesu Christi, gratiam, et pacem à Deo patre nostro, et Domino Iesu Christo.
+   - TR: Παῦλος καὶ Σιλουανὸς καὶ Τιμόθεος, τῇ ἐκκλησίᾳ Θεσσαλονικέων ἐν Θεῷ πατρί, καὶ Κυρίῳ Ἰησοῦ Χριστῷ· χάρις ὑμῖν καὶ εἰρήνη ἀπὸ Θεοῦ πατρὸς ἡμῶν καὶ Κυρίου Ἰησοῦ Χριστοῦ.
+   - SBLGNT: Παῦλος καὶ Σιλουανὸς καὶ Τιμόθεος τῇ ἐκκλησίᾳ Θεσσαλονικέων ἐν θεῷ πατρὶ καὶ κυρίῳ Ἰησοῦ Χριστῷ· χάρις ὑμῖν καὶ εἰρήνη.
+   - Vulgate: Paulus, et Silvanus, et Timotheus ecclesiæ Thessalonicensium in Deo Patre, et Domino Jesu Christo.
+   - BSB: Paul, Silvanus, and Timothy, To the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace and peace to you.
+   - WEB: Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace from God our Father and the Lord Jesus Christ.
+- **3:2** substitute (word): critical *συνεργὸν* ] RP *διάκονον*; add (clause): critical *θεοῦ* ] RP *+ καὶ συνεργὸν ἡμῶν*
+   - Latin: Tīmotheumque mittere, frātrem nostrum, et Deī ministrum, ac nostrum in Chrīstī euangeliō collēgam, ad vōs cōnfirmandōs, et dē vestrā fīdūciā commonefaciendōs,
+   - 1573: Timotheumque mittere, fratrem nostrum, et Dei ministrum, ac nostrum in Christi euangelio collegam, ad vos confirmandos, et de vestra fiducia commonefaciendos,
+   - TR: καὶ ἐπέμψαμεν Τιμόθεον τὸν ἀδελφὸν ἡμῶν καὶ διάκονον τοῦ Θεοῦ καὶ συνεργὸν ἡμῶν ἐν τῷ εὐαγγελίῳ τοῦ Χριστοῦ, εἰς τὸ στηρίξαι ὑμᾶς καὶ παρακαλέσαι ὑμᾶς περὶ τῆς πίστεως ὑμῶν,
+   - SBLGNT: καὶ ἐπέμψαμεν Τιμόθεον, τὸν ἀδελφὸν ἡμῶν καὶ συνεργὸν τοῦ θεοῦ ἐν τῷ εὐαγγελίῳ τοῦ Χριστοῦ, εἰς τὸ στηρίξαι ὑμᾶς καὶ παρακαλέσαι ὑπὲρ τῆς πίστεως ὑμῶν
+   - Vulgate: et misimus Timotheum fratrem nostrum, et ministrum Dei in Evangelio Christi, ad confirmandos vos, et exhortandos pro fide vestra:
+   - BSB: We sent Timothy, our brother and fellow worker for God in the gospel of Christ, to strengthen and encourage you in your faith,
+   - WEB: and sent Timothy, our brother and God’s servant in the Good News of Christ, to establish you and to comfort you concerning your faith,
+- **4:1** omit (clause): critical *καθὼς καὶ περιπατεῖτε* ] RP *–*
+   - Latin: Quod superest igitur, frātrēs, ōrāmus, ac hortāmur vōs per Dominum Jēsum, ut, quemadmodum ā nōbīs didicistis, quōmodo vōs gerere, Deōque placēre dēbeātis, in eō præcellātis.
+   - 1573: Quod superest igitur, fratres, oramus, ac hortamur vos per Dominum Iesum, vt, quemadmodum à nobis didicistis, quomodo vos gerere, Deoque placere debeatis, in eo præcellatis.
+   - TR: Τὸ λοιπὸν οὖν, ἀδελφοί, ἐρωτῶμεν ὑμᾶς καὶ παρακαλοῦμεν ἐν Κυρίῳ Ἰησοῦ καθὼς παρελάβετε παρ᾿ ἡμῶν τὸ πῶς δεῖ ὑμᾶς περιπατεῖν καὶ ἀρέσκειν Θεῷ, ἵνα περισσεύητε μᾶλλον.
+   - SBLGNT: Λοιπὸν οὖν, ἀδελφοί, ἐρωτῶμεν ὑμᾶς καὶ παρακαλοῦμεν ἐν κυρίῳ Ἰησοῦ, ἵνα καθὼς παρελάβετε παρʼ ἡμῶν τὸ πῶς δεῖ ὑμᾶς περιπατεῖν καὶ ἀρέσκειν θεῷ, καθὼς καὶ περιπατεῖτε, ἵνα περισσεύητε μᾶλλον.
+   - Vulgate: De cetero ergo, fratres, rogamus vos et obsecramus in Domino Jesu, ut quemadmodum accepistis a nobis quomodo oporteat vos ambulare, et placere Deo, sic et ambuletis ut abundetis magis.
+   - BSB: Finally, brothers, we ask and encourage you in the Lord Jesus to live in a way that is pleasing to God, just as you have received from us. This is how you already live, so you should do so all the more.
+   - WEB: Finally then, brothers, we beg and exhort you in the Lord Jesus, that as you received from us how you ought to walk and to please God, that you abound more and more.
+
+## Text: word (9 verses)
+
+- **2:3** substitute (word): critical *οὐδὲ* ] RP *οὔτε*
+   - Latin: Nōn est enim nostra cohortātiō errōris, aut obscēnitātis, aut fraudis:
+   - 1573: Non est enim nostra cohortatio erroris, aut obscœnitatis, aut fraudis:
+   - TR: Ἡ γὰρ παράκλησις ἡμῶν οὐκ ἐκ πλάνης, οὐδὲ ἐξ ἀκαθαρσίας, οὔτε ἐν δόλῳ·
+   - SBLGNT: ἡ γὰρ παράκλησις ἡμῶν οὐκ ἐκ πλάνης οὐδὲ ἐξ ἀκαθαρσίας οὐδὲ ἐν δόλῳ,
+   - Vulgate: Exhortatio enim nostra non de errore, neque de immunditia, neque in dolo,
+   - BSB: For our appeal does not arise from deceit or ulterior motives or trickery.
+   - WEB: For our exhortation is not of error, nor of uncleanness, nor in deception.
+- **2:8** substitute (word): critical *ἐγενήθητε* ] RP *γεγένησθε*
+   - Latin: sīc nōs præ vestrī cupiditāte libenter vōbīs nōn modo dīvīnum euangelium, vērum etiam nostrās ipsōrum animās impertītūrī fuerīmus: tam cārī nōbīs erātis.
+   - 1573: sic nos præ vestri cupiditate libenter vobis non modò diuinum Euangelium, verùm etiam nostras ipsorum animas impertituri fuerimus: tam chari nobis eratis.
+   - TR: οὕτως, ἱμειρόμενοι ὑμῶν, εὐδοκοῦμεν μεταδοῦναι ὑμῖν οὐ μόνον τὸ εὐαγγέλιον τοῦ Θεοῦ, ἀλλὰ καὶ τὰς ἑαυτῶν ψυχάς, διότι ἀγαπητοὶ ἡμῖν γεγένησθε.
+   - SBLGNT: οὕτως ὁμειρόμενοι ὑμῶν εὐδοκοῦμεν μεταδοῦναι ὑμῖν οὐ μόνον τὸ εὐαγγέλιον τοῦ θεοῦ ἀλλὰ καὶ τὰς ἑαυτῶν ψυχάς, διότι ἀγαπητοὶ ἡμῖν ἐγενήθητε.
+   - Vulgate: Ita desiderantes vos, cupide volebamus tradere vobis non solum Evangelium Dei, sed etiam animas nostras: quoniam carissimi nobis facti estis.
+   - BSB: We cared so deeply that we were delighted to share with you not only the gospel of God, but our own lives as well. That is how beloved you have become to us.
+   - WEB: Even so, affectionately longing for you, we were well pleased to impart to you not the Good News of God only, but also our own souls, because you had become very dear to us.
+- **2:15** add (word): critical *τοὺς* ] RP *+ ἰδίους*
+   - Latin: quī etiam Dominum Jēsum, suōsque vātēs interfēcērunt, et nōs exēgērunt: neque Deō placent, et omnibus sunt hominibus contrāriī,
+   - 1573: qui etiam Dominum Iesum suosque vates interfecerunt, et nos exegerunt: neque Deo placent, et omnibus sunt hominibus contrarij,
+   - TR: τῶν καὶ τὸν Κύριον ἀποκτεινάντων Ἰησοῦν καὶ τοὺς ἰδίους προφήτας, καὶ ἡμᾶς ἐκδιωξάντων, καὶ Θεῷ μὴ ἀρεσκόντων, καὶ πᾶσιν ἀνθρώποις ἐναντίων,
+   - SBLGNT: τῶν καὶ τὸν κύριον ἀποκτεινάντων Ἰησοῦν καὶ τοὺς προφήτας καὶ ἡμᾶς ἐκδιωξάντων, καὶ θεῷ μὴ ἀρεσκόντων, καὶ πᾶσιν ἀνθρώποις ἐναντίων,
+   - Vulgate: qui et Dominum occiderunt Jesum, et prophetas, et nos persecuti sunt, et Deo non placent, et omnibus hominibus adversantur,
+   - BSB: who killed both the Lord Jesus and their own prophets, and drove us out as well. They are displeasing to God and hostile to all men,
+   - WEB: who killed both the Lord Jesus and their own prophets, and drove us out, and don’t please God, and are contrary to all men,
+- **2:18** substitute (word): critical *διότι* ] RP *διό*
+   - Latin: Itaque ad vōs venīre voluimus, ego quidem Paulus semel atque iterum, sed impedīvit nōs Satanās.
+   - 1573: Itaque ad vos venire voluimus, ego quidem Paulus semel atque iterum, sed impediuit nos Satanas.
+   - TR: διὸ ἠθελήσαμεν ἐλθεῖν πρὸς ὑμᾶς, ἐγὼ μὲν Παῦλος καὶ ἅπαξ καὶ δίς, καὶ ἐνέκοψεν ἡμᾶς ὁ Σατανᾶς.
+   - SBLGNT: διότι ἠθελήσαμεν ἐλθεῖν πρὸς ὑμᾶς, ἐγὼ μὲν Παῦλος καὶ ἅπαξ καὶ δίς, καὶ ἐνέκοψεν ἡμᾶς ὁ Σατανᾶς.
+   - Vulgate: quoniam voluimus venire ad vos, ego quidem Paulus, et semel, et iterum: sed impedivit nos Satanas.
+   - BSB: For we wanted to come to you—indeed I, Paul, tried again and again—but Satan obstructed us.
+   - WEB: because we wanted to come to you—indeed, I, Paul, once and again—but Satan hindered us.
+- **3:11** add (word): critical *Ἰησοῦς* ] RP *+ Χριστός*
+   - Latin: Ipse Deus Paterque noster, et Dominus noster Jēsūs Chrīstus, nostrum ad vōs iter secundet:
+   - 1573: Ipse Deus paterque noster, et Dominus noster Iesus Christus, nostrum ad vos iter secundet:
+   - TR: Αὐτὸς δὲ ὁ Θεὸς καὶ πατὴρ ἡμῶν, καὶ ὁ Κύριος ἡμῶν Ἰησοῦς Χριστός, κατευθύναι τὴν ὁδὸν ἡμῶν πρὸς ὑμᾶς·
+   - SBLGNT: Αὐτὸς δὲ ὁ θεὸς καὶ πατὴρ ἡμῶν καὶ ὁ κύριος ἡμῶν Ἰησοῦς κατευθύναι τὴν ὁδὸν ἡμῶν πρὸς ὑμᾶς·
+   - Vulgate: Ipse autem Deus, et Pater noster, et Dominus noster Jesus Christus, dirigat viam nostram ad vos.
+   - BSB: Now may our God and Father Himself, and our Lord Jesus, direct our way to you.
+   - WEB: Now may our God and Father himself, and our Lord Jesus Christ, direct our way to you.
+- **3:13** add (word): critical *Ἰησοῦ* ] RP *+ Χριστοῦ*
+   - Latin: Ut animī vestrī inculpātā sānctitāte cōnfirmentur in Deī Patrisque nostrī cōnspectū, in adventum Dominī nostrī Jēsū Chrīstī cum ejus sānctīs omnibus.
+   - 1573: vt animi vestri inculpata sanctitate confirmentur in Dei patrisque nostri conspectu, in aduentum Domini nostri Iesu Christi cum eius sanctis omnibus.
+   - TR: εἰς τὸ στηρίξαι ὑμῶν τὰς καρδίας ἀμέμπτους ἐν ἁγιωσύνῃ, ἔμπροσθεν τοῦ Θεοῦ καὶ πατρὸς ἡμῶν, ἐν τῇ παρουσίᾳ τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων τῶν ἁγίων αὐτοῦ.
+   - SBLGNT: εἰς τὸ στηρίξαι ὑμῶν τὰς καρδίας ἀμέμπτους ἐν ἁγιωσύνῃ ἔμπροσθεν τοῦ θεοῦ καὶ πατρὸς ἡμῶν ἐν τῇ παρουσίᾳ τοῦ κυρίου ἡμῶν Ἰησοῦ μετὰ πάντων τῶν ἁγίων αὐτοῦ.
+   - Vulgate: ad confirmanda corda vestra sine querela in sanctitate, ante Deum et Patrem nostrum, in adventu Domini nostri Jesu Christi cum omnibus sanctis ejus. Amen.
+   - BSB: so that He may establish your hearts in blamelessness and holiness before our God and Father at the coming of our Lord Jesus with all His saints. Amen.
+   - WEB: to the end he may establish your hearts blameless in holiness before our God and Father at the coming of our Lord Jesus with all his saints.
+- **4:8** substitute (word): critical *διδόντα* ] RP *δόντα*
+   - Latin: Itaque quī repudiat, nōn hominem repudiat, sed Deum, quī nōs suō Sānctō Spīritū dōnat.
+   - 1573: Itaque qui repudiat, non hominem repudiat, sed Deum, qui nos suo sancto spiritu donat.
+   - TR: Τοιγαροῦν ὁ ἀθετῶν οὐκ ἄνθρωπον ἀθετεῖ, ἀλλὰ τὸν Θεὸν τὸν καὶ δόντα τὸ πνεῦμα αὐτοῦ τὸ ἅγιον εἰς ἡμᾶς.
+   - SBLGNT: τοιγαροῦν ὁ ἀθετῶν οὐκ ἄνθρωπον ἀθετεῖ ἀλλὰ τὸν θεὸν τὸν καὶ διδόντα τὸ πνεῦμα αὐτοῦ τὸ ἅγιον εἰς ὑμᾶς.
+   - Vulgate: Itaque qui hæc spernit, non hominem spernit, sed Deum: qui etiam dedit Spiritum suum Sanctum in nobis.
+   - BSB: Anyone, then, who rejects this command does not reject man but God, the very One who gives you His Holy Spirit.
+   - WEB: Therefore he who rejects this doesn’t reject man, but God, who has also given his Holy Spirit to you.
+- **4:13** substitute (word): critical *κοιμωμένων* ] RP *κεκοιμημένων*
+   - Latin: Nōlō autem ignōrāre vōs, frātrēs, dē iīs, quī obdormīvērunt, nē cruciēminī, ut cēterī, quī spem nōn habent.
+   - 1573: Nolo autem ignorare vos, fratres, de ijs qui obdormiuerunt, ne cruciemini, vt cæteri qui spem non, habent.
+   - TR: Οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, περὶ τῶν κεκοιμημένων, ἵνα μὴ λυπῆσθε, καθὼς καὶ οἱ λοιποὶ οἱ μὴ ἔχοντες ἐλπίδα.
+   - SBLGNT: Οὐ θέλομεν δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, περὶ τῶν κοιμωμένων, ἵνα μὴ λυπῆσθε καθὼς καὶ οἱ λοιποὶ οἱ μὴ ἔχοντες ἐλπίδα.
+   - Vulgate: Nolumus autem vos ignorare fratres de dormientibus, ut non contristemini sicut et ceteri, qui spem non habent.
+   - BSB: Brothers, we do not want you to be uninformed about those who sleep in death, so that you will not grieve like the rest, who are without hope.
+   - WEB: But we don’t want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don’t grieve like the rest, who have no hope.
+- **5:27** substitute (word): critical *ἐνορκίζω* ] RP *Ὁρκίζω*; add (word): critical *τοῖς* ] RP *+ ἁγίοις*
+   - Latin: Obtestor vōs per Dominum, ut hæc legātur epistula omnibus sānctīs frātribus.
+   - 1573: Obtestor vos per Dominum, vt hæc legatur Epistola omnibus sanctis fratribus.
+   - TR: Ὁρκίζω ὑμᾶς τὸν Κύριον, ἀναγνωσθῆναι τὴν ἐπιστολὴν πᾶσι τοῖς ἁγίοις ἀδελφοῖς.
+   - SBLGNT: ἐνορκίζω ὑμᾶς τὸν κύριον ἀναγνωσθῆναι τὴν ἐπιστολὴν πᾶσιν τοῖς ἀδελφοῖς.
+   - Vulgate: Adjuro vos per Dominum ut legatur epistola hæc omnibus sanctis fratribus.
+   - BSB: I charge you before the Lord to have this letter read to all the brothers.
+   - WEB: I solemnly command you by the Lord that this letter be read to all the holy brothers.
+
+## The TR alone (RP with the critical text; 16 verses)
+
+- **1:2** omit (word): SBLGNT *αδιαλειπτως* ] TR *–*
+   - Latin: Agimus immortālēs grātiās Deō dē vōbīs omnibus, vestrī mentiōnem facientēs in nostrīs precibus,
+   - 1573: Agimus immortales gratias Deo de vobis omnibus, vestri mentionem facientes in nostris precibus,
+   - TR: Εὐχαριστοῦμεν τῷ Θεῷ πάντοτε περὶ πάντων ὑμῶν, μνείαν ὑμῶν ποιούμενοι ἐπὶ τῶν προσευχῶν ἡμῶν,
+   - SBLGNT: Εὐχαριστοῦμεν τῷ θεῷ πάντοτε περὶ πάντων ὑμῶν μνείαν ποιούμενοι ἐπὶ τῶν προσευχῶν ἡμῶν, ἀδιαλείπτως
+   - Vulgate: Gratia vobis, et pax. Gratias agimus Deo semper pro omnibus vobis, memoriam vestri facientes in orationibus nostris sine intermissione,
+   - BSB: We always thank God for all of you, remembering you in our prayers
+   - WEB: We always give thanks to God for all of you, mentioning you in our prayers,
+- **1:3** add (word): SBLGNT *–* ] TR *+ αδιαλειπτως*
+   - Latin: continenter cōram Deō Patreque nostrō recolentēs opus fideī vestræ, cāritātisque labōrem, et speī in Dominō nostrō Jēsū Chrīstō sitæ cōram Deō et Patre nostrō tolerantiam:
+   - 1573: continenter coram Deo, patreque nostro recolentes opus fidei vestræ, charitatisque laborem, et spei in Domino nostro Iesu Christo sitæ coram Deo et patre nostro tolerantiam:
+   - TR: ἀδιαλείπτως μνημονεύοντες ὑμῶν τοῦ ἔργου τῆς πίστεως, καὶ τοῦ κόπου τῆς ἀγάπης, καὶ τῆς ὑπομονῆς τῆς ἐλπίδος τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, ἔμπροσθεν τοῦ Θεοῦ καὶ πατρὸς ἡμῶν·
+   - SBLGNT: μνημονεύοντες ὑμῶν τοῦ ἔργου τῆς πίστεως καὶ τοῦ κόπου τῆς ἀγάπης καὶ τῆς ὑπομονῆς τῆς ἐλπίδος τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ ἔμπροσθεν τοῦ θεοῦ καὶ πατρὸς ἡμῶν,
+   - Vulgate: memores operis fidei vestræ, et laboris, et caritatis, et sustinentiæ spei Domini nostri Jesu Christi, ante Deum et Patrem nostrum:
+   - BSB: and continually recalling before our God and Father your work of faith, your labor of love, and your enduring hope in our Lord Jesus Christ.
+   - WEB: remembering without ceasing your work of faith and labor of love and perseverance of hope in our Lord Jesus Christ, before our God and Father.
+- **1:9** substitute (word): SBLGNT *εσχομε* ] TR *εχομε*
+   - Latin: Ipsī enim dē vōbīs prædicant, quālem ad vōs aditum habuerīmus, utque vōs ā deastrīs ad Deum converterītis, ut vīventī vērōque Deō servīrētis,
+   - 1573: Ipsi enim de vobis prædicant, qualem ad vos aditum habuerimus, vtque vos à deastris ad Deum conuerteritis, vt viuenti veroque Deo seruiretis,
+   - TR: Αὐτοὶ γὰρ περὶ ἡμῶν ἀπαγγέλλουσιν ὁποίαν εἴσοδον ἔχομεν πρὸς ὑμᾶς, καὶ πῶς ἐπεστρέψατε πρὸς τὸν Θεὸν ἀπὸ τῶν εἰδώλων, δουλεύειν Θεῷ ζῶντι καὶ ἀληθινῷ,
+   - SBLGNT: αὐτοὶ γὰρ περὶ ἡμῶν ἀπαγγέλλουσιν ὁποίαν εἴσοδον ἔσχομεν πρὸς ὑμᾶς, καὶ πῶς ἐπεστρέψατε πρὸς τὸν θεὸν ἀπὸ τῶν εἰδώλων δουλεύειν θεῷ ζῶντι καὶ ἀληθινῷ,
+   - Vulgate: Ipsi enim de nobis annuntiant qualem introitum habuerimus ad vos: et quomodo conversi estis ad Deum a simulacris, servire Deo vivo, et vero,
+   - BSB: For they themselves report what kind of welcome you gave us, and how you turned to God from idols to serve the living and true God
+   - WEB: For they themselves report concerning us what kind of a reception we had from you, and how you turned to God from idols to serve a living and true God,
+- **2:6** add (clause): SBLGNT *–* ] TR *+ δυναμενοι εν βαρει ειναι ως χριστου αποστολοι*
+   - Latin: Nec ab hominibus glōriam expetīvimus, nec ā vōbīs, nec ab aliīs. Et licet onerī esse possēmus, ut Chrīstī apostolī:
+   - 1573: nec ab hominibus gloriam expetiuimus, nec à vobis, nec ab alijs. Et licet oneri esse possemus, vt Christi Apostoli:
+   - TR: οὔτε ζητοῦντες ἐξ ἀνθρώπων δόξαν, οὔτε ἀφ᾿ ὑμῶν οὔτε ἀπ᾿ ἄλλων, δυνάμενοι ἐν βάρει εἶναι, ὡς Χριστοῦ ἀπόστολοι,
+   - SBLGNT: οὔτε ζητοῦντες ἐξ ἀνθρώπων δόξαν, οὔτε ἀφʼ ὑμῶν οὔτε ἀπʼ ἄλλων,
+   - Vulgate: nec quærentes ab hominibus gloriam, neque a vobis, neque ab aliis.
+   - BSB: Nor did we seek praise from you or from anyone else, although as apostles of Christ we had authority to demand it.
+   - WEB: nor seeking glory from men (neither from you nor from others), when we might have claimed authority as apostles of Christ.
+- **2:7** substitute (word): SBLGNT *δυναμενοι εν βαρει ειναι ως χριστου αποστολοι αλλα* ] TR *αλλ*
+   - Latin: Tamen adeō mītēs inter vōs fuimus, ut, quemadmodum nūtrīx suōs fovet alumnōs,
+   - 1573: tamen adeò mites inter vos fuimus, vt quemadmodum nutrix suos fouet alumnos:
+   - TR: ἀλλ᾿ ἐγενήθημεν ἤπιοι ἐν μέσῳ ὑμῶν ὡς ἂν τροφὸς θάλπῃ τὰ ἑαυτῆς τέκνα·
+   - SBLGNT: δυνάμενοι ἐν βάρει εἶναι ὡς Χριστοῦ ἀπόστολοι· ἀλλὰ ἐγενήθημεν ἤπιοι ἐν μέσῳ ὑμῶν, ὡς ἐὰν τροφὸς θάλπῃ τὰ ἑαυτῆς τέκνα·
+   - Vulgate: Cum possemus vobis oneri esse ut Christi apostoli: sed facti sumus parvuli in medio vestrum, tamquam si nutrix foveat filios suos.
+   - BSB: On the contrary, we were gentle among you, like a nursing mother caring for her children.
+   - WEB: But we were gentle among you, like a nursing mother cherishes her own children.
+- **2:8** substitute (word): SBLGNT *ομειρομενοι* ] TR *ιμειρομενοι*
+   - Latin: sīc nōs præ vestrī cupiditāte libenter vōbīs nōn modo dīvīnum euangelium, vērum etiam nostrās ipsōrum animās impertītūrī fuerīmus: tam cārī nōbīs erātis.
+   - 1573: sic nos præ vestri cupiditate libenter vobis non modò diuinum Euangelium, verùm etiam nostras ipsorum animas impertituri fuerimus: tam chari nobis eratis.
+   - TR: οὕτως, ἱμειρόμενοι ὑμῶν, εὐδοκοῦμεν μεταδοῦναι ὑμῖν οὐ μόνον τὸ εὐαγγέλιον τοῦ Θεοῦ, ἀλλὰ καὶ τὰς ἑαυτῶν ψυχάς, διότι ἀγαπητοὶ ἡμῖν γεγένησθε.
+   - SBLGNT: οὕτως ὁμειρόμενοι ὑμῶν εὐδοκοῦμεν μεταδοῦναι ὑμῖν οὐ μόνον τὸ εὐαγγέλιον τοῦ θεοῦ ἀλλὰ καὶ τὰς ἑαυτῶν ψυχάς, διότι ἀγαπητοὶ ἡμῖν ἐγενήθητε.
+   - Vulgate: Ita desiderantes vos, cupide volebamus tradere vobis non solum Evangelium Dei, sed etiam animas nostras: quoniam carissimi nobis facti estis.
+   - BSB: We cared so deeply that we were delighted to share with you not only the gospel of God, but our own lives as well. That is how beloved you have become to us.
+   - WEB: Even so, affectionately longing for you, we were well pleased to impart to you not the Good News of God only, but also our own souls, because you had become very dear to us.
+- **2:11** add (clause): SBLGNT *–* ] TR *+ παρακαλουντες υμας και παραμυθουμενοι*
+   - Latin: Quemadmodum scītis, ut ūnumquemque vestrum, sīcutī pater līberōs, sīc cohortārēmur,
+   - 1573: quemadmodum scitis, vt vnumquenque vestrûm, sicuti pater liberos, sic cohortaremur,
+   - TR: καθάπερ οἴδατε ὡς ἕνα ἕκαστον ὑμῶν, ὡς πατὴρ τέκνα ἑαυτοῦ, παρακαλοῦντες ὑμᾶς καὶ παραμυθούμενοι
+   - SBLGNT: καθάπερ οἴδατε ὡς ἕνα ἕκαστον ὑμῶν ὡς πατὴρ τέκνα ἑαυτοῦ
+   - Vulgate: sicut scitis, qualiter unumquemque vestrum (sicut pater filios suos)
+   - BSB: For you know that we treated each of you as a father treats his own children—
+   - WEB: As you know, we exhorted, comforted, and implored every one of you, as a father does his own children,
+- **2:12** omit (word): SBLGNT *παρακαλουντες υμας* ] TR *–*; substitute (word): SBLGNT *παραμυθουμενοι και μαρτυρομενοι* ] TR *μαρτυρουμενοι*
+   - Latin: ac cōnsōlārēmur, monērēmusque, ut ita vōs gererētis, utī Deō dignum esset, quī vōs ad suum rēgnum ac glōriam vocāret.
+   - 1573: ac consolaremur, moneremusque, vt ita vos gereretis, vti Deo dignum esset, qui vos ad suum regnum ac gloriam vocaret.
+   - TR: καὶ μαρτυρούμενοι, εἰς τὸ περιπατῆσαι ὑμᾶς ἀξίως τοῦ Θεοῦ τοῦ καλοῦντος ὑμᾶς εἰς τὴν ἑαυτοῦ βασιλείαν καὶ δόξαν.
+   - SBLGNT: παρακαλοῦντες ὑμᾶς καὶ παραμυθούμενοι καὶ μαρτυρόμενοι, εἰς τὸ περιπατεῖν ὑμᾶς ἀξίως τοῦ θεοῦ τοῦ καλοῦντος ὑμᾶς εἰς τὴν ἑαυτοῦ βασιλείαν καὶ δόξαν.
+   - Vulgate: deprecantes vos, et consolantes, testificati sumus, ut ambularetis digne Deo, qui vocavit vos in suum regnum et gloriam.
+   - BSB: encouraging you, comforting you, and urging you to walk in a manner worthy of God, who calls you into His own kingdom and glory.
+   - WEB: to the end that you should walk worthily of God, who calls you into his own Kingdom and glory.
+- **2:13** add (word): SBLGNT *–* ] TR *+ εστι*; omit (word): SBLGNT *εστι* ] TR *–*
+   - Latin: Itaque nōs Deō continenter grātiās agimus, quod vōs, acceptō Deī sermōne, quem ā nōbīs audīstis, admīsistis nōn hominum sermōnem, sed (ut vērē est) Deī sermōnem, quī in vōbīs fīdentibus viget.
+   - 1573: Itaque nos Deo continenter gratias agimus, quòd vos, accepto Dei sermone, quem à nobis audiuistis, admisistis non hominum sermonem, sed (vt verè est) Dei sermonem, qui in vobis fidentibus viget.
+   - TR: Διὰ τοῦτο καὶ ἡμεῖς εὐχαριστοῦμεν τῷ Θεῷ ἀδιαλείπτως, ὅτι παραλαβόντες λόγον ἀκοῆς παρ᾿ ἡμῶν τοῦ Θεοῦ, ἐδέξασθε οὐ λόγον ἀνθρώπων, ἀλλὰ καθώς ἐστιν ἀληθῶς, λόγον Θεοῦ, ὃς καὶ ἐνεργεῖται ἐν ὑμῖν τοῖς πιστεύουσιν.
+   - SBLGNT: Καὶ διὰ τοῦτο καὶ ἡμεῖς εὐχαριστοῦμεν τῷ θεῷ ἀδιαλείπτως, ὅτι παραλαβόντες λόγον ἀκοῆς παρʼ ἡμῶν τοῦ θεοῦ ἐδέξασθε οὐ λόγον ἀνθρώπων ἀλλὰ καθὼς ἀληθῶς ἐστὶν λόγον θεοῦ, ὃς καὶ ἐνεργεῖται ἐν ὑμῖν τοῖς πιστεύουσιν.
+   - Vulgate: Ideo et nos gratias agimus Deo sine intermissione: quoniam cum accepissetis a nobis verbum auditus Dei, accepistis illud, non ut verbum hominum, sed (sicut est vere) verbum Dei, qui operatur in vobis, qui credidistis:
+   - BSB: And we continually thank God because, when you received the word of God that you heard from us, you accepted it not as the word of men, but as the true word of God—the word which is now at work in you who believe.
+   - WEB: For this cause we also thank God without ceasing that when you received from us the word of the message of God, you accepted it not as the word of men, but as it is in truth, God’s word, which also works in you who believe.
+- **2:19** add (word): SBLGNT *–* ] TR *+ χριστου*
+   - Latin: Etenim quænam nostra spēs est, aut lætitia, aut glōriātiōnis corōna? nōnne vōs cōram Dominō nostrō Jēsū Chrīstō, in ejus adventū?
+   - 1573: Etenim quæ'nam nostra spes est, aut lætitia, aut gloriationis corona nonne vos coram Domino nostro Iesu Christo, in eius aduentu?
+   - TR: Τίς γὰρ ἡμῶν ἐλπὶς ἢ χαρὰ ἢ στέφανος καυχήσεως; Ἢ οὐχὶ καὶ ὑμεῖς, ἔμπροσθεν τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ ἐν τῇ αὐτοῦ παρουσίᾳ;
+   - SBLGNT: τίς γὰρ ἡμῶν ἐλπὶς ἢ χαρὰ ἢ στέφανος καυχήσεως— ἢ οὐχὶ καὶ ὑμεῖς— ἔμπροσθεν τοῦ κυρίου ἡμῶν Ἰησοῦ ἐν τῇ αὐτοῦ παρουσίᾳ;
+   - Vulgate: Quæ est enim nostra spes aut gaudium, aut corona gloriæ? nonne vos ante Dominum nostrum Jesum Christum estis in adventu ejus?
+   - BSB: After all, who is our hope, our joy, our crown of boasting, if it is not you yourselves in the presence of our Lord Jesus at His coming?
+   - WEB: For what is our hope, or joy, or crown of rejoicing? Isn’t it even you, before our Lord Jesus at his coming?
+- **3:5** substitute (word): SBLGNT *μη πως* ] TR *μηπως*
+   - Latin: Proptereā ego mē jam nōn tenuī, quīn vestram fidem cognitum mitterem, nē forte vōs temptāsset temptātor, atque ita labor noster periisset.
+   - 1573: propterea ego me iam non tenui, quin vestram fidem cognitum mitterem, ne fortè vos tentasset tentator, atque ita labor noster perijsset.
+   - TR: Διὰ τοῦτο κἀγώ, μηκέτι στέγων, ἔπεμψα εἰς τὸ γνῶναι τὴν πίστιν ὑμῶν, μήπως ἐπείρασεν ὑμᾶς ὁ πειράζων, καὶ εἰς κενὸν γένηται ὁ κόπος ἡμῶν.
+   - SBLGNT: διὰ τοῦτο κἀγὼ μηκέτι στέγων ἔπεμψα εἰς τὸ γνῶναι τὴν πίστιν ὑμῶν, μή πως ἐπείρασεν ὑμᾶς ὁ πειράζων καὶ εἰς κενὸν γένηται ὁ κόπος ἡμῶν.
+   - Vulgate: Propterea et ego amplius non sustinens, misi ad cognoscendam fidem vestram: ne forte tentaverit vos is qui tentat, et inanis fiat labor noster.
+   - BSB: For this reason, when I could bear it no longer, I sent to find out about your faith, for fear that the tempter had somehow tempted you and caused our labor to be in vain.
+   - WEB: For this cause I also, when I couldn’t stand it any longer, sent that I might know your faith, for fear that by any means the tempter had tempted you, and our labor would have been in vain.
+- **3:10** substitute (word): SBLGNT *υπερεκπερισσου* ] TR *υπερ εκπερισσου*
+   - Latin: noctēs et diēs summopere ōrantēs, vidēre vōs cōram, et, quæ vestræ fideī dēsunt, supplēre?
+   - 1573: noctes et dies summopere orantes videre vos coram, et quæ vestræ fidei desunt, supplere?
+   - TR: νυκτὸς καὶ ἡμέρας ὑπὲρ ἐκπερισσοῦ δεόμενοι εἰς τὸ ἰδεῖν ὑμῶν τὸ πρόσωπον, καὶ καταρτίσαι τὰ ὑστερήματα τῆς πίστεως ὑμῶν;
+   - SBLGNT: νυκτὸς καὶ ἡμέρας ὑπερεκπερισσοῦ δεόμενοι εἰς τὸ ἰδεῖν ὑμῶν τὸ πρόσωπον καὶ καταρτίσαι τὰ ὑστερήματα τῆς πίστεως ὑμῶν;
+   - Vulgate: nocte ac die abundantius orantes, ut videamus faciem vestram, et compleamus ea quæ desunt fidei vestræ?
+   - BSB: Night and day we pray most earnestly that we may see you face to face and supply what is lacking from your faith.
+   - WEB: night and day praying exceedingly that we may see your face and may perfect that which is lacking in your faith?
+- **4:11** add (word): SBLGNT *–* ] TR *+ ιδιαις*
+   - Latin: ac quiēscere, et vestrās rēs agere, vestrīsque manibus operārī contendātis, quōmodo nōs vōbīs præcēpimus,
+   - 1573: ac quiescere, et vestras res agere, vestrisque manibus operari contendatis, quomodo nos vobis præcepimus,
+   - TR: καὶ φιλοτιμεῖσθαι ἡσυχάζειν, καὶ πράσσειν τὰ ἴδια, καὶ ἐργάζεσθαι ταῖς ἰδίαις χερσὶν ὑμῶν, καθὼς ὑμῖν παρηγγείλαμεν·
+   - SBLGNT: καὶ φιλοτιμεῖσθαι ἡσυχάζειν καὶ πράσσειν τὰ ἴδια καὶ ἐργάζεσθαι ταῖς χερσὶν ὑμῶν, καθὼς ὑμῖν παρηγγείλαμεν,
+   - Vulgate: et opera detis ut quieti sitis, et ut vestrum negotium agatis, et operemini manibus vestris, sicut præcepimus vobis:
+   - BSB: and to aspire to live quietly, to attend to your own matters, and to work with your own hands, as we instructed you.
+   - WEB: and that you make it your ambition to lead a quiet life, and to do your own business, and to work with your own hands, even as we instructed you,
+- **4:13** substitute (word): SBLGNT *θελομε* ] TR *θελω*
+   - Latin: Nōlō autem ignōrāre vōs, frātrēs, dē iīs, quī obdormīvērunt, nē cruciēminī, ut cēterī, quī spem nōn habent.
+   - 1573: Nolo autem ignorare vos, fratres, de ijs qui obdormiuerunt, ne cruciemini, vt cæteri qui spem non, habent.
+   - TR: Οὐ θέλω δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, περὶ τῶν κεκοιμημένων, ἵνα μὴ λυπῆσθε, καθὼς καὶ οἱ λοιποὶ οἱ μὴ ἔχοντες ἐλπίδα.
+   - SBLGNT: Οὐ θέλομεν δὲ ὑμᾶς ἀγνοεῖν, ἀδελφοί, περὶ τῶν κοιμωμένων, ἵνα μὴ λυπῆσθε καθὼς καὶ οἱ λοιποὶ οἱ μὴ ἔχοντες ἐλπίδα.
+   - Vulgate: Nolumus autem vos ignorare fratres de dormientibus, ut non contristemini sicut et ceteri, qui spem non habent.
+   - BSB: Brothers, we do not want you to be uninformed about those who sleep in death, so that you will not grieve like the rest, who are without hope.
+   - WEB: But we don’t want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don’t grieve like the rest, who have no hope.
+- **5:13** substitute (word): SBLGNT *υπερεκπερισσου* ] TR *υπερ εκπερισσου*
+   - Latin: et maximī faciātis, cārōsque habeātis, propter eōrum opus. Præbēte vōs iīs pācātōs.
+   - 1573: et maximi faciatis, charosque habeatis, propter eorum opus. Præbete vos eis pacatos.
+   - TR: καὶ ἡγεῖσθαι αὐτοὺς ὑπὲρ ἐκπερισσοῦ ἐν ἀγάπῃ διὰ τὸ ἔργον αὐτῶν. Εἰρηνεύετε ἐν ἑαυτοῖς.
+   - SBLGNT: καὶ ἡγεῖσθαι αὐτοὺς ὑπερεκπερισσοῦ ἐν ἀγάπῃ διὰ τὸ ἔργον αὐτῶν. εἰρηνεύετε ἐν ἑαυτοῖς.
+   - Vulgate: ut habeatis illos abundantius in caritate propter opus illorum: pacem habete cum eis.
+   - BSB: In love, hold them in highest regard because of their work. Live in peace with one another.
+   - WEB: and to respect and honor them in love for their work’s sake. Be at peace among yourselves.
+- **5:28** add (clause): SBLGNT *–* ] TR *+ αμην προς θεσσαλονικεις πρωτη εγραφη απο αθηνων*
+   - Latin: Adsit vōbīs Dominī nostrī Jēsū Chrīstī grātia, Āmēn.
+   - 1573: Adsit vobis Domini nostri Iesu Christi gratia, Amen.
+   - TR: Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μεθ᾿ ὑμῶν. Ἀμήν. Πρὸς Θεσσαλονικεῖς πρώτη ἐγράφη ἀπὸ Ἀθηνῶν.
+   - SBLGNT: ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μεθʼ ὑμῶν.
+   - Vulgate: Gratia Domini nostri Jesu Christi vobiscum. Amen.
+   - BSB: The grace of our Lord Jesus Christ be with you.
+   - WEB: The grace of our Lord Jesus Christ be with you. Amen.
+
+## Person (4 verses)
+
+- **2:10** Latin *nōs*; the TR has only ὑμ-
+   - Latin: Vōs testēs estis, et Deus, quam piē, quam jūstē et inculpātē nōs ergā vōs fīdentēs gesserīmus:
+   - 1573: Vos testes estis, et Deus, quàm piè, quàm iustè, et inculpatè nos erga vos fidentes gesserimus:
+   - TR: Ὑμεῖς μάρτυρες καὶ ὁ Θεός, ὡς ὁσίως καὶ δικαίως καὶ ἀμέμπτως ὑμῖν τοῖς πιστεύουσιν ἐγενήθημεν·
+   - SBLGNT: ὑμεῖς μάρτυρες καὶ ὁ θεός, ὡς ὁσίως καὶ δικαίως καὶ ἀμέμπτως ὑμῖν τοῖς πιστεύουσιν ἐγενήθημεν,
+   - Vulgate: Vos testes estis, et Deus, quam sancte, et juste, et sine querela, vobis, qui credidistis, fuimus:
+   - BSB: You are witnesses, and so is God, of how holy, righteous, and blameless our conduct was among you who believed.
+   - WEB: You are witnesses with God how holy, righteously, and blamelessly we behaved ourselves toward you who believe.
+- **2:14** Latin *nōs*; the TR has only ὑμ-
+   - Latin: Vōs enim imitātōrēs fuistis, frātrēs, dīvīnārum ecclēsiārum, quæ sunt in Jūdæā, quod ad Chrīstum Jēsum attinet: sīquidem eadem vōs quoque passī estis ā vestrīs tribūlibus, quæ nōs ā Jūdæīs,
+   - 1573: Vos enim imitatores fuistis, fratres, diuinarum ecclesiarum, quæ sunt in Iudæa, quod ad Christum Iesum attinet: siquidem eadem vos quoque passi estis à vestris tribulibus, quæ nos à Iudæis,
+   - TR: Ὑμεῖς γὰρ μιμηταὶ ἐγενήθητε, ἀδελφοί, τῶν ἐκκλησιῶν τοῦ Θεοῦ τῶν οὐσῶν ἐν τῇ Ἰουδαίᾳ ἐν Χριστῷ Ἰησοῦ· ὅτι ταὐτὰ ἐπάθετε καὶ ὑμεῖς ὑπὸ τῶν ἰδίων συμφυλετῶν, καθὼς καὶ αὐτοὶ ὑπὸ τῶν Ἰουδαίων,
+   - SBLGNT: ὑμεῖς γὰρ μιμηταὶ ἐγενήθητε, ἀδελφοί, τῶν ἐκκλησιῶν τοῦ θεοῦ τῶν οὐσῶν ἐν τῇ Ἰουδαίᾳ ἐν Χριστῷ Ἰησοῦ, ὅτι τὰ αὐτὰ ἐπάθετε καὶ ὑμεῖς ὑπὸ τῶν ἰδίων συμφυλετῶν καθὼς καὶ αὐτοὶ ὑπὸ τῶν Ἰουδαίων
+   - Vulgate: vos enim imitatores facti estis, fratres, ecclesiarum Dei, quæ sunt in Judæa in Christo Jesu: quia eadem passi estis et vos a contribulibus vestris, sicut et ipsi a Judæis:
+   - BSB: For you, brothers, became imitators of the churches of God in Judea that are in Christ Jesus. You suffered from your own countrymen the very things they suffered from the Jews,
+   - WEB: For you, brothers, became imitators of the assemblies of God which are in Judea in Christ Jesus; for you also suffered the same things from your own countrymen, even as they did from the Jews
+- **3:8** Latin *nōs*; the TR has only ὑμ-
+   - Latin: adeō, ut nōs nunc vīvāmus, sī vōs stātis in Dominō.
+   - 1573: adeò, vt nos nunc viuamus, si vos statis in Domino,
+   - TR: ὅτι νῦν ζῶμεν, ἐὰν ὑμεῖς στήκητε ἐν Κυρίῳ.
+   - SBLGNT: ὅτι νῦν ζῶμεν ἐὰν ὑμεῖς στήκετε ἐν κυρίῳ.
+   - Vulgate: quoniam nunc vivimus, si vos statis in Domino.
+   - BSB: For now we can go on living, as long as you are standing firm in the Lord.
+   - WEB: For now we live, if you stand fast in the Lord.
+- **4:11** Latin *nōs*; the TR has only ὑμ-
+   - Latin: ac quiēscere, et vestrās rēs agere, vestrīsque manibus operārī contendātis, quōmodo nōs vōbīs præcēpimus,
+   - 1573: ac quiescere, et vestras res agere, vestrisque manibus operari contendatis, quomodo nos vobis præcepimus,
+   - TR: καὶ φιλοτιμεῖσθαι ἡσυχάζειν, καὶ πράσσειν τὰ ἴδια, καὶ ἐργάζεσθαι ταῖς ἰδίαις χερσὶν ὑμῶν, καθὼς ὑμῖν παρηγγείλαμεν·
+   - SBLGNT: καὶ φιλοτιμεῖσθαι ἡσυχάζειν καὶ πράσσειν τὰ ἴδια καὶ ἐργάζεσθαι ταῖς χερσὶν ὑμῶν, καθὼς ὑμῖν παρηγγείλαμεν,
+   - Vulgate: et opera detis ut quieti sitis, et ut vestrum negotium agatis, et operemini manibus vestris, sicut præcepimus vobis:
+   - BSB: and to aspire to live quietly, to attend to your own matters, and to work with your own hands, as we instructed you.
+   - WEB: and that you make it your ambition to lead a quiet life, and to do your own business, and to work with your own hands, even as we instructed you,

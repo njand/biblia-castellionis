@@ -2,21 +2,28 @@
 
 ## Now
 
-- **The notes' test and wording** (2026-11-17): `data/review/nt-notes-form.md`. Decisions 1 and 2 are taken
-  (SBLGNT + NA28; *Cōdicēs antīquiōrēs habent …*; brackets, not notes, for words in no Greek), and the Matthew, Luke
-  and John files below are rewritten to match. Decision 3 applied the same day (`nt-notes-settled.md`): the ten
-  older NT notes reworded, Mark 7:24 *[Sīdōnisque]*, and the front matter's signs (*cōdicēs antīquiōrēs*, no
-  *hodiē*). Not committed.
-- **Notes for Matthew, Luke and John: accepted and applied 2026-11-17** ("Apply them"; `text/` and gold updated; the five
-  Wikisource slips fixed by hand in `text/orig/MAT.usfm` and `JHN.usfm`; the Luke 3:7 row dropped from
-  `data/decisions/Luke.orig.tsv`; not committed). The original entry (2026-11-17, your "Run the notes pass on Matthew, Luke and
-  John"): `data/review/matt-notes.md` (45 items), `luke-notes.md` (47), `john-notes.md` (26, with John 7:8 added by the new test), built as Mark's was and rewritten 2026-11-17 to the new test and wording.
-  Each has the same sections: notes on the Greek text; notes where Castellio's Latin says what the Greek does not;
-  brackets; corrections (14 in all, from 1573's pages or OCR, or macrons). Five are Wikisource slips that `text/orig` copied as well (Matt 5:20 *Hoc*, 12:45 *fitque*,
-  13:4 *serente*; John 6:49 *mortuī*, and John 9:22, where a whole clause was lost); those need the same word fixed by
-  hand in `text/orig` on acceptance. `pipeline notes` now also lists readings found only in the TR (RP with the critical
-  text: Luke 14:5 *asinus*, John 1:28 *Bēthabaræ*, Matt 27:35), and no longer counts movable ν or elision as a
-  difference. Nothing applied or committed.
+- **Notes for Philippians to Philemon: accepted and applied 2026-11-17** ("Apply them"; your "Run the next round"): eight files,
+  `data/review/{phil,col,1thess,2thess,1tim,2tim,titus,phlm}-notes.md`, 40 items in all: 11 notes on the Greek text,
+  4 on Castellio's readings, 24 brackets, 1 correction (a comma, 1 Thess 5:8). Read by three readers, with the NRSVue for
+  every item. Among them: 1 Tim 3:16 *Deus* (the modern text ὅς), Col 2:2 and 4:8, 2 Thess 2:13 *prīncipiō*
+  (ἀπαρχήν), 1 Thess 2:14 *nōs* (in every printing from 1556), 2 Tim 2:6. Philemon 12 has a new form, *Cōdicēs
+  antīquiōrēs nōn habent προσλαβοῦ*, since a bracket would leave the sentence without a verb. Not
+  committed.
+- **Notes for 1–2 Corinthians, Galatians and Ephesians: accepted and applied 2026-11-17** ("Apply them"; your "Run the next round of
+  notes"): `data/review/1cor-notes.md` (21 items: 4 notes on the Greek text, 2 on Castellio's readings, 13 brackets,
+  2 corrections), `2cor-notes.md` (12: 4, 2, 5, 1), `gal-notes.md` (9: 2, 1, 6) and `eph-notes.md` (8: 3, 0, 5). Read by
+  four readers, with the NRSVue for every item. Among them: 1 Cor 9:20 ("though I myself am not under the law"),
+  14:38, 15:55 *ō orce*; 2 Cor 8:7 ("our love for you"); Gal 4:7; Eph 5:21 ("reverence for Christ"); person slips in
+  every printing seen (1 Cor 6:14, 15:31; 2 Cor 13:4). The corrections are two question marks (1 Cor 9:2, 11:22) and
+  the cases at 2 Cor 10:10. Not committed.
+- **Notes for Acts and Romans: accepted and applied 2026-11-17** ("Apply them"; `text/` and gold updated; not committed):
+  `data/review/acts-notes.md` (65 items: 13 notes on the Greek text, 4 on Castellio's readings, 43 brackets, 5
+  corrections) and `rom-notes.md` (21 items: 6, 3, 12). Read as the Gospels were, by six readers, with the NRSVue for
+  every item. Among them: Rom 4:19 (the modern text has no "not"), Acts 13:20 (the 450 years), Rom 12:11 *temporī
+  servientēs*, Acts 27:1 *duo* (in 1556 and 1573, in no Greek: bracketed). The corrections are commas and one Wikisource
+  slip (Acts 16:15 *dīverterēmus*); `text/orig` needs nothing.
+- **Notes for Matthew–John, the new wording, the front matter's signs**: applied and committed 2026-11-17 (2b8fcac);
+  `nt-notes-form.md` and `nt-notes-settled.md` record the decisions.
 - **Your spot checks of 2026-11-16, answered.** Done: *Melchisedech* (11 places, your instruction; Gen 14:18 and
   Hebrews, gold rebuilt); the preface's *iī quoque legerent*. In the PDF: the chapter numeral now reaches the first
   line's capitals (lettrine had aimed at an *x*), every line beside it starts at the same place (verse 1's stretchable
