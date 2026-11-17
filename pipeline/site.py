@@ -105,9 +105,9 @@ def chapter_html(chapter, verse_id, chapter_id, filt=lambda text: text, verse_li
                 elif value == 1:                # the EPUB: the drop cap stands for verse 1, as in print
                     parts.append(f'<span id="{verse_id(1)}"></span>')
                 elif verse_link:
-                    parts.append(f'<a class="v" id="{verse_id(value)}" href="#{verse_id(value)}">{value}</a>')
+                    parts.append(f'<a class="v" id="{verse_id(value)}" href="#{verse_id(value)}">{value.display()}</a>')
                 else:
-                    parts.append(f'<sup class="v" id="{verse_id(value)}">{value}</sup>')
+                    parts.append(f'<sup class="v" id="{verse_id(value)}">{value.display()}</sup>')
             elif kind == "qt":
                 italic = value
                 parts.append('<i class="qt">' if value else "</i>")
@@ -792,13 +792,16 @@ def parallel_html(book, chapter, refs):
                     for ref, _, _, gaps in refs if chapter.number in gaps)
     rows = []
     for number, segments in publish.verse_segments(chapter).items():
-        vid = f"{book.info.osis}.{chapter.number}.{number}"
+        # a range (Num 7:12–83) stands beside all the reference's verses it covers
+        vids = [f"{book.info.osis}.{chapter.number}.{n}" for n in getattr(number, "numbers", lambda: [number])()]
         cells = []
         for ref, text_key, verses, _ in refs:
             lang, direction = LANG.get(text_key, ("en", "ltr"))
             dir_attr = f' dir="{direction}"' if direction == "rtl" else ""
-            cells.append(f'<td class="ref" data-r="{ref.key}" lang="{lang}"{dir_attr}>{esc(verses.get(vid, ""))}</td>')
-        rows.append(f'<tr id="p{number}"><td class="n">{number or ""}</td><td class="la">{segments_html(segments)}'
+            text = " ".join(verses[v] for v in vids if verses.get(v))
+            cells.append(f'<td class="ref" data-r="{ref.key}" lang="{lang}"{dir_attr}>{esc(text)}</td>')
+        shown = number.display() if hasattr(number, "display") else number
+        rows.append(f'<tr id="p{number}"><td class="n">{shown or ""}</td><td class="la">{segments_html(segments)}'
                     f'</td>{"".join(cells)}</tr>')
     return notes + '<table class="parallel">\n' + "\n".join(rows) + "\n</table>"
 

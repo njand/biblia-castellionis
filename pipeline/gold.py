@@ -17,7 +17,7 @@ HEADER = ("id", "text", "marks", "layout")
 
 def rows(usfm, osis):
     """[(id, text, marks, layout)] for a USFM book."""
-    _, verses = parallel.parse_usfm(usfm.replace(latex.SOFT_HYPHEN, ""), keep=("qt",))
+    _, verses = parallel.parse_usfm(usfm.replace(latex.SOFT_HYPHEN, ""), keep=("qt",), ranges=True)
     return [(tsv.verse_id(osis, c, v), text, marks, layout) for c, v, text, marks, layout in verses]
 
 

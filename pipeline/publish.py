@@ -135,6 +135,7 @@ def parse(usfm, info):
                 verse += 1
                 if value != verse:
                     fail(f"\\v {value} where verse {verse} was expected", line_no)
+                verse = value.last                      # a range (\v 12-83) stands for all its verses
                 block.content.append(("v", value))
             elif kind == "char":
                 if value not in CHARACTERS:
@@ -363,6 +364,8 @@ CITATION = {
 def cite(osis, chapter, first=None, last=None):
     """A reference in the Latin form: 'Mt 5', 'Mt 5,3', '2Cor 2,5–7' (number first, a comma before the verse)."""
     out = f"{CITATION.get(osis, osis)} {chapter}"
+    if isinstance(first, tsv.Verse) and first.is_range and last in (None, "", 0):
+        first, last = int(first), first.last              # a range verse (Num 7,12–83)
     if first not in (None, "", 0):
         out += f",{first}" + (f"–{last}" if last not in (None, "", 0, first) else "")
     return out
@@ -398,7 +401,7 @@ def reading_text(book):
                 pieces = []
                 for kind, value in block.content:
                     if kind == "v":
-                        pieces.append(str(value).translate(SUPERSCRIPT) if value > 1 else "")
+                        pieces.append(value.display().translate(SUPERSCRIPT) if value > 1 else "")
                     elif kind == "text":
                         pieces.append(value)
                     elif kind == "note":                # a superscript letter here, the note at the chapter's end

@@ -3,7 +3,8 @@
 The edits are listed in data/versification/<osis>.edits.tsv (`op  at  anchor  status  note`), one per moved
 boundary, with `at` the verse id in the book's current numbering:
 
-  split    a new verse starts inside `at`, at the words `anchor` (a verse number the anchor starts with, left
+  split    a new verse starts inside `at`, at the words `anchor` (`ut moneret|vt moneret` gives both spellings, the
+           draft's and the printed text's; a verse number the anchor starts with, left
            in the text by the LaTeX conversion, is dropped)
   merge    the verse marker of `at` is removed: its text joins the verse before
   chapter  the chapter break before `at` moves to the words `anchor` inside it; the words before the anchor end
@@ -12,6 +13,10 @@ boundary, with `at` the verse id in the book's current numbering:
            open the next chapter (Castellio's Exod 5:25 is the KJV's 6:1); `anchor` is empty. With an `anchor`
            (`at` the chapter's last verse), the break moves back to those words inside it: they open the next
            chapter as its verse 1 (Castellio's 1 Cor 10:33 ends with the KJV's 11:1, *Imitatores mei estote*)
+  range    `at` stands for a range of the KJV's verses, up to the KJV verse `anchor`: it is numbered `\\v 12-83`
+           (tsv.Verse). For text whose order cannot follow the KJV's: Castellio's Num 7:12–30 gives the princes'
+           offering once and then the twelve princes, where the KJV repeats it twelve times (12–83); his
+           13–30 are merged into 12, and his 31 goes on as the KJV's 84
   absent   `at` is a KJV verse the text has no verse for (its sense folded into a neighbour, as Castellio's Gen
            41:56 holds the KJV's 41:57): nothing moves, and the chapter is checked against the KJV's count less one
 
@@ -23,7 +28,7 @@ import re
 from pipeline import parallel, paths, tsv
 
 EDITS = paths.DATA / "versification"
-MARKER = re.compile(r"(\\c \d+|\\v \d+ ?)")
+MARKER = re.compile(r"(\\c \d+|\\v \d+(?:-\d+)? ?)")
 
 
 def edits_path(osis, draft=False):
@@ -44,7 +49,7 @@ def items(usfm, osis):
             chapter = int(piece.split()[1])
             out.append(("c", chapter))
         elif piece.startswith("\\v "):
-            out.append(("v", f"{osis}.{chapter}.{int(piece.split()[1])}"))
+            out.append(("v", f"{osis}.{chapter}.{tsv.parse_number(piece.split()[1])}"))
         elif piece:
             out.append(("text", piece))
     return out
@@ -58,22 +63,31 @@ def _find(seq, kind, value):
 
 
 def _split_at(seq, start, anchor, where):
-    """Index of the text item after `start` holding `anchor`, and the offset of the anchor in it."""
+    """Index of the text item after `start` holding `anchor`, and the offset of the anchor in it. An anchor may
+    give two spellings as `ut moneret|vt moneret` (the draft's and the printed text's, which the same edits move):
+    the first found exactly once is used."""
     for index in range(start + 1, len(seq)):
         kind, value = seq[index]
         if kind in ("v", "c"):
             break
-        if kind == "text" and value.count(anchor) == 1:
-            return index, value.index(anchor)
+        if kind == "text":
+            for form in anchor.split("|"):
+                if value.count(form) == 1:
+                    return index, value.index(form)
     raise ValueError(f"{where}: anchor {anchor!r} not found exactly once in the verse")
 
 
 def apply_edits(usfm, osis, edits):
     """The renumbered USFM, and [(old id, new id, how)] for every verse whose number or extent changes."""
     seq = items(usfm, osis)
+    spans = {}                                      # range: old id → the KJV's last verse it stands for
     for edit in edits:
         op, at, anchor = edit["op"], edit["at"], edit["anchor"]
         if op == "absent":
+            continue
+        if op == "range":
+            _find(seq, "v", at)
+            spans[at] = int(anchor)
             continue
         v = _find(seq, "v", at)
         if op == "merge":
@@ -126,7 +140,16 @@ def apply_edits(usfm, osis, edits):
             out.append(f"\\c {chapter}")
         elif kind == "v":
             verse += 1
-            new = f"{osis}.{chapter}.{verse}"
+            first = verse
+            if value in spans:                      # a range: \v 12-83
+                verse = spans[value]
+                if verse <= first:
+                    raise ValueError(f"range {value}: {first}-{verse} runs backwards")
+            elif "+" not in value:                  # a range already in the text keeps its width
+                width = tsv.parse_id(value)[2]
+                verse += width.last - width
+            number = tsv.Verse(first, verse)
+            new = f"{osis}.{chapter}.{number}"
             old = value.split("+")[0]
             how = "split" if value.endswith("+split") else "chapter" if value.endswith(("+chapter", "+opens")) else ""
             if how:
@@ -134,7 +157,7 @@ def apply_edits(usfm, osis, edits):
             elif old != new:
                 changes.append((old, new, "renumbered"))
             last_new = new
-            out.append(f"\\v {verse} ")
+            out.append(f"\\v {number} ")
         elif kind == "merged":
             changes.append((value, last_new, "merged"))
         else:
@@ -152,7 +175,8 @@ def verse_counts(usfm, osis):
         if kind == "c":
             chapter = value
         elif kind == "v":
-            counts[chapter] = counts.get(chapter, 0) + 1
+            number = tsv.parse_id(value)[2]          # a range counts as all the verses it stands for
+            counts[chapter] = counts.get(chapter, 0) + number.last - number + 1
     return counts
 
 

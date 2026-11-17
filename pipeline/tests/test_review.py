@@ -95,6 +95,13 @@ class Apply(unittest.TestCase):
         self.assertTrue(USFM[start:end].startswith("\\q1 \\v 4"))
         self.assertTrue(USFM[start:end].endswith("licēre.\n"))
 
+    def test_verse_span_around_a_range(self):
+        usfm = "\\c 7\n\\p\n\\v 11 Et Jova admonuit.\n\\v 12-83 Obtulerunt singuli.\n\\v 84 Haec sunt.\n"
+        for vid, text in (("Num.7.11", "\\p\n\\v 11 Et Jova admonuit.\n"), ("Num.7.12-83", "\\v 12-83 Obtulerunt singuli.\n"),
+                          ("Num.7.84", "\\v 84 Haec sunt.\n")):
+            start, end = review.verse_span(usfm, vid)
+            self.assertEqual(usfm[start:end], text)
+
     def test_accepted_items_compose(self):
         statuses, text = self.run_items(review.select(review.parse(REVIEW)))
         self.assertEqual(statuses, ["ok"] * 6)

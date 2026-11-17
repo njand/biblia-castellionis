@@ -62,6 +62,14 @@ class Modern(unittest.TestCase):
         self.assertEqual(ocrdraft.modern("animaduertitor", {}), "animadvertitor")   # Lev 19:20
         self.assertEqual(ocrdraft.modern("coierit", {}), "coierit")            # Lev 20:12
         self.assertEqual(ocrdraft.modern("subiugiis", {}), "subjugiis")        # Lev 26:13
+        self.assertEqual(ocrdraft.modern("iuissent", {}), "ivissent")          # Num 14:7, eō's perfect
+        self.assertEqual(ocrdraft.modern("coiuistis", {}), "coivistis")        # Num 16:11
+        self.assertEqual(ocrdraft.modern("iuuenis", {}), "juvenis")
+        self.assertEqual(ocrdraft.modern("iure", {}), "jure")
+        self.assertEqual(ocrdraft.modern("Iaser", {}), "Jaser")                # Num 32:1, Hebrew, not Greek ias-
+        self.assertEqual(ocrdraft.modern("ouatu", {"ouatu": "ouatu"}), "ovatu")             # Num 10:5
+        self.assertEqual(ocrdraft.modern("coierunt", {"coierunt": "coierunt"}), "coierunt") # Num 16:3
+        self.assertEqual(ocrdraft.modern("Iacobeis", {"iacobeis": "Iacobeis"}), "Jacobeis")   # not Malachi's I
         self.assertEqual(ocrdraft.modern("eius", {}), "ejus")
         self.assertEqual(ocrdraft.modern("sæuies", {}), "saevies")
 

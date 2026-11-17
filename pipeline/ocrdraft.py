@@ -521,6 +521,8 @@ def modern(word, forms):
         return modern(plain.lower(), forms).upper()
     found = forms.get(align.fold(plain))
     if found:
+        # a book that keeps u and i (Malachi's Iacobeis; ouatu): j/v as everywhere, coeō's i kept (coierunt)
+        found = re.sub(r"^([Cc]o)j(?=[ei])", r"\1i", macronize.jv(found))
         return (found[0].upper() + found[1:]) if plain[:1].isupper() else found
     # the enclitic -ue (Lev 11:3 ouemue, 27:33 malumue): a known word, or an accusative or -tor imperative, + ve
     stem = plain[:-2]
@@ -535,6 +537,8 @@ def modern(word, forms):
     w = re.sub(r"(ser|cer|ner|par|sal|sil|sol|cal|ful)u(?=[aeiou])(?!(?<=paru)(?:er|it\b|isse|imus|istis))", r"\1v",
                w, flags=re.I)
     w = re.sub(r"^([iI])uu(?=[aeiou])", r"\1uv", w)              # iuuatote (Lev 25:35): ju|v, not jvv
+    # eō's perfect and its compounds: iuissent (Num 14:7), co|iuistis (16:11), ex|iuit: i|v, not jv
+    w = re.sub(r"^((?:ab|ad|co|ex|in|ob|per|prae|red|sub|trans)?[iI])u(?=[ie])", r"\1v", w)
     w = re.sub(r"(?<=[vV])j", "i", macronize.jv(w))          # sæuies: jv reads the i after u as between vowels
     w = re.sub(r"^([Cc]o)j(?=[ei])", r"\1i", w)                   # coeō's coierit (Lev 20:12), not cojerit
     return re.sub(r"^([Ss]ub)iug", r"\1jug", w)                    # subiugiis (Lev 26:13): sub|jug-

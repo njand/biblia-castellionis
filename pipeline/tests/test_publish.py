@@ -61,6 +61,20 @@ class Model(unittest.TestCase):
         self.assertEqual(rows["Matt.1.3"], "Jōsēphus vērō dīcentem: “Ex Ægyptō ēvocāvī.”")   # no soft hyphen
         self.assertEqual(rows["Matt.1.4"], "“Numquam nē lēgistis? “‘Per os īnfantium laudem condis.’”")
 
+    def test_verse_range(self):
+        """A verse standing for a range of the KJV's (\\v 12-83, Num 7): its id, its number shown, the next verse."""
+        book = publish.parse(SAMPLE.replace("\\v 3 ", "\\v 3-5 ").replace("\\v 4 ", "\\v 6 "), MATT)
+        rows = {vid: text for vid, _, _, text in publish.verses(book)}
+        self.assertIn("Matt.1.3-5", rows)
+        self.assertIn("Matt.1.6", rows)
+        html = site.chapter_html(book.chapters[0], lambda n: f"v{n}", "c1")
+        self.assertIn('id="v3-5" href="#v3-5">3–5</a>', html)
+        self.assertIn("³–⁵", publish.reading_text(book))
+        number = publish.verse_segments(book.chapters[0])
+        self.assertEqual(publish.cite("Matt", 1, next(n for n in number if n == 3)), "Mt 1,3–5")
+        with self.assertRaises(publish.UsfmError):           # the verse after a range follows its last number
+            publish.parse(SAMPLE.replace("\\v 3 ", "\\v 3-5 "), MATT)
+
     def test_footnote(self):
         """A footnote (decision 53): out of the verse's text; a letter and the note in every format."""
         note = "\\f + \\fr 1:3 \\ft Græcē κάμηλος; Castelliō fūnem.\\f*"

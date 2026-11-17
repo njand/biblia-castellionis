@@ -40,6 +40,17 @@ class Layout(unittest.TestCase):
         self.assertEqual(v.marks, ["m"])
 
 
+class Exceptions(unittest.TestCase):
+    def test_rule_skipped_in_its_verse(self):
+        """A verse in data/rules/exceptions.tsv keeps the words a rule would change (Num 25:12 *mē cum eō*)."""
+        from pipeline import normalize
+        rules_ = normalize.word_rules()
+        body = "dic, me cum eo pacis inire foedus"
+        self.assertIn("mecum", verses.respell(body, rules_, {})[0])
+        self.assertEqual(verses.respell(body, rules_, {}, {"me cum"})[0], body)
+        self.assertIn("me cum", normalize.exceptions().get("Num.25.12", set()))
+
+
 class Case(unittest.TestCase):
     LEXICON = {"utpote": macronize.Entry([macronize.Candidate("utpote", "MW")]),
                "petrus": macronize.Entry([macronize.Candidate("Petrus", "MW")])}

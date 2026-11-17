@@ -869,12 +869,12 @@ def from_read_lines(book, chapters, source, edits=()):
     # Each verse's whole text (a merged verse runs on over the lines after it), and its leaf: the last leaf mark
     # before its first word. Then the marks go.
     pages, leaf, chapter, verses_out = {}, None, None, []      # verses_out: [("c", n) | ("v", n, text)]
-    for piece in re.split(r"(\\c \d+|\\v \d+ ?)", usfm):
+    for piece in re.split(r"(\\c \d+|\\v \d+(?:-\d+)? ?)", usfm):
         if piece.startswith("\\c "):
             chapter = int(piece.split()[1])
             verses_out.append(("c", chapter))
         elif piece.startswith("\\v "):
-            verses_out.append(("v", int(piece.split()[1]), ""))
+            verses_out.append(("v", tsv.parse_number(piece.split()[1]), ""))   # 12-83: a range (Num 7)
         elif verses_out and verses_out[-1][0] == "v":
             first = re.match(r"\s*(?:¶\s*)?⁅(\d+)⁆", piece)
             pages[f"{book.osis}.{chapter}.{verses_out[-1][1]}"] = str(int(first.group(1)) if first else leaf)

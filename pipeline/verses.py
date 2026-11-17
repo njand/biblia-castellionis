@@ -27,7 +27,7 @@ from pipeline import align, books, gold, harness, latex, macronize, normalize, p
 
 WORD = re.compile(r"[^\W\d_]+")
 MARKER = re.compile(r"\\[a-z]+\d*\*?")
-SPAN = re.compile(r"^\s*((?:\\(?:p|m|b|nb|q\d?|pi\d?)\s+)*)\\v (\d+)\s+(.*?)\s*$", re.S)
+SPAN = re.compile(r"^\s*((?:\\(?:p|m|b|nb|q\d?|pi\d?)\s+)*)\\v (\d+(?:-\d+)?)\s+(.*?)\s*$", re.S)
 DECISIONS = paths.DATA / "decisions"
 
 # How a word's marking was decided (harness.macronize_all's `how`, with `lexicon` split by WordPress).
@@ -149,7 +149,8 @@ def split_span(text):
     m = SPAN.match(text)
     if not m:
         raise ValueError(f"not a verse span: {text[:60]!r}")
-    return [x.lstrip("\\") for x in m.group(1).split()], int(m.group(2)), re.sub(r"\s*\n\s*", " ", m.group(3))
+    return [x.lstrip("\\") for x in m.group(1).split()], tsv.parse_number(m.group(2)), \
+        re.sub(r"\s*\n\s*", " ", m.group(3))
 
 
 def with_layout(verse, number, decision):
@@ -223,13 +224,16 @@ def lower_start(body, lexicon, common):
     return body[:m.start()] + word[0].lower() + body[m.start() + 1:]
 
 
-def respell(body, word_rules, known):
-    """(body with the approved rules applied, [(old, new, kind)]), macrons and æ/œ taken out (stage 4 marks them)."""
+def respell(body, word_rules, known, skip=()):
+    """(body with the approved rules applied, [(old, new, kind)]), macrons and æ/œ taken out (stage 4 marks them).
+    `skip`: the rules' old words not to change in this verse (normalize.exceptions)."""
     words, phrases = word_rules
     done = []
     for start, end, new, kind, note in reversed(normalize.changes(body, words, phrases, known)):
         new = rules.unligature(macronize.mark(new, set()))
         old = body[start:end]
+        if rules.unligature(macronize.plain(old)).lower() in skip:
+            continue
         if new != old:
             body = body[:start] + new + body[end:]
             done.append((old, new, kind))
@@ -287,8 +291,9 @@ def propose(osis, chapters, usfm=None):
         raise ValueError(f"layout lines for verses not in the draft: {sorted(unknown)}")
 
     # Spelling first (the words the lexicon is asked about are the respelled ones).
+    skip = normalize.exceptions()
     for verse in verses:
-        verse.body, verse.respelled = respell(verse.body, word_rules, known)
+        verse.body, verse.respelled = respell(verse.body, word_rules, known, skip.get(verse.vid, ()))
     tokens, where = [], []
     for n, verse in enumerate(verses):
         blank = MARKER.sub(lambda m: " " * len(m.group()), verse.body)

@@ -139,8 +139,8 @@ def relay_paragraphs(usfm, osis, bsb=None):
             continue
         if m := re.match(r"\\c (\d+)", line):
             chapter = int(m.group(1))
-        elif m := re.match(r"\\v (\d+)\s*(.*)", line):
-            verse, text = int(m.group(1)), m.group(2)
+        elif m := re.match(r"\\v (\d+(?:-\d+)?)\s*(.*)", line):
+            verse, text = tsv.parse_number(m.group(1)), m.group(2)
             if verse == 1:
                 out.append("\\p" if not last or re.search(r"[.?!:;][”’)]*\s*$", last) else "\\nb")
             elif structure.starts(bsb.get(f"{osis}.{chapter}.{verse}", {}).get("marks", "")):

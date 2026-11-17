@@ -259,8 +259,8 @@ def jv(word):
 
     for i, c in enumerate(letters):
         if c == "i" and vowel(i + 1) and (i == 0 or vowel(i - 1)) and (i + 1 >= len(letters) or letters[i + 1] != "i"):
-            if i == 0 and letters.startswith(("iamb", "ion", "ias", "iap", "iacch")):
-                continue                                  # Greek initial i (e-liber's list)
+            if i == 0 and letters.startswith(("iamb", "ion", "iasp", "iap", "iacch")):
+                continue                                  # Greek initial i (e-liber's list; iasp, not ias: Hebrew Jaser, Jasubus)
             out[i] = "J" if word[i].isupper() else "j"
         elif c == "i" and letters[:i] in PREFIXES and re.match(r"i(ac|ec|ic|un|ur|us|um|uv|oc)", letters[i:]):
             out[i] = "J" if word[i].isupper() else "j"    # dis|jungeret, ad|jumentum, in|juria, ob|jecit

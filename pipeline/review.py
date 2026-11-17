@@ -138,7 +138,7 @@ def verse_span(usfm, vid):
     chapter_end = c.end() + nxt.start() if nxt else len(usfm)
 
     def start_of(v):
-        m = re.search(rf"\\v {v}(?=\s)", usfm[c.end():chapter_end])
+        m = re.search(rf"\\v {v}(?=[\s-])", usfm[c.end():chapter_end])     # \v 12 or the range \v 12-83
         if not m:
             return None
         at = c.end() + m.start()
@@ -151,7 +151,7 @@ def verse_span(usfm, vid):
     start = c.end() + 1 if verse == 0 else start_of(verse)
     if start is None:
         return None
-    later = [s for v in range(verse + 1, verse + 4) if (s := start_of(v)) is not None]
+    later = [s for v in range(verse.last + 1, verse.last + 4) if (s := start_of(v)) is not None]   # after a range
     return start, (later[0] if later else chapter_end)
 
 

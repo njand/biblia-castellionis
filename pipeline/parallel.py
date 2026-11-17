@@ -52,12 +52,13 @@ def strip_inline(text, keep=()):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def parse_usfm(source, keep=()):
+def parse_usfm(source, keep=(), ranges=False):
     """Return (usfm book code, [(chapter, verse, text, marks, layout)]).
 
     `marks` are the markers met between the previous verse and this one (paragraph, poetry, headings);
     `layout` is the verse text with the layout markers that fall inside it kept inline ("… wicked, \\q2 or …"),
-    and the character markers named in `keep` (e.g. "qt" keeps \\qt …\\qt*)."""
+    and the character markers named in `keep` (e.g. "qt" keeps \\qt …\\qt*). With `ranges`, a verse range \\v 12-83
+    keeps its range (tsv.Verse: the edition's own USFM, Num 7); otherwise it is its first verse (the parallel texts)."""
     code, chapter, rows, marks = None, 0, [], []
     # A verse can start mid-line ("\q1 \v 2 …"), so each \v begins a line of its own.
     lines = [piece for line in source.splitlines() for piece in re.split(r"(?=\\v\s)", line)]
@@ -75,7 +76,8 @@ def parse_usfm(source, keep=()):
             marks = []
         elif marker == "v":
             number, _, text = rest.partition(" ")
-            rows.append([chapter, int(re.match(r"\d+", number).group()), text, marks])
+            found = re.match(r"\d+(?:-\d+)?", number).group()
+            rows.append([chapter, tsv.parse_number(found) if ranges else int(found.split("-")[0]), text, marks])
             marks = []
         elif marker in LAYOUT:
             if rest.strip() and rows:

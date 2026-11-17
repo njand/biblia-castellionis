@@ -75,8 +75,8 @@ def verses(usfm, osis):
     chapters = list(re.finditer(r"^\\c (\d+)", usfm, re.M))
     for n, c in enumerate(chapters):
         end = chapters[n + 1].start() if n + 1 < len(chapters) else len(usfm)
-        for v in re.finditer(r"\\v (\d+)", usfm[c.end():end]):
-            vid = tsv.verse_id(osis, int(c.group(1)), int(v.group(1)))
+        for v in re.finditer(r"\\v (\d+(?:-\d+)?)", usfm[c.end():end]):
+            vid = tsv.verse_id(osis, int(c.group(1)), tsv.parse_number(v.group(1)))
             span = review.verse_span(usfm, vid)
             if span:
                 out.append((vid, span, usfm[span[0]:span[1]]))
@@ -121,6 +121,16 @@ class WordRules(dict):
         return self[key] if key in self else default
 
 
+def exceptions():
+    """{verse id: {rule's old words}}: verses where an approved rule must not apply (data/rules/exceptions.tsv,
+    `id old note`): Num 25:12 *dīc, mē cum eō pācis inīre fœdus* is *mē* + *cum eō*, not *mēcum*."""
+    path = rules.RULES / "exceptions.tsv"
+    out = {}
+    for row in (tsv.read(path) if path.exists() else []):
+        out.setdefault(row["id"], set()).add(rules.unligature(row["old"]).lower())
+    return out
+
+
 def word_rules():
     words, stems, phrases = {}, [], []
     for row in rules.load_rules():
@@ -147,9 +157,11 @@ def propose(usfm, osis, known=None):
     """[Proposal] for every change the approved rules make in this USFM text. known: settled_forms()."""
     words, phrases = word_rules()
     known = settled_forms() if known is None else known
-    out = []
+    out, skip = [], exceptions()
     for vid, span, text in verses(usfm, osis):
         for start, end, change, kind, note in changes(text, words, phrases, known):
+            if rules.unligature(macronize.plain(text[start:end])).lower() in skip.get(vid, ()):
+                continue
             out.append(Proposal(vid, *anchored(text, start, end, change), kind, note))
     return out
 

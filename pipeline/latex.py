@@ -18,7 +18,7 @@ commented out is a draft: it is converted from its commented lines into a separa
 import difflib
 import re
 
-from pipeline import paths
+from pipeline import paths, tsv
 
 TEXT = paths.ROOT / "text"
 DRAFT = TEXT / "draft"
@@ -299,8 +299,8 @@ def _inline(text):
             content.append(("text", text[:match.start()]))
         name, text = match.group(1) or match.group(2), text[match.end():]
         if name == "v":
-            number, text = re.match(r"(\d+)\s*(.*)", text, re.DOTALL).groups()
-            content.append(("v", int(number)))
+            number, text = re.match(r"(\d+(?:-\d+)?)\s*(.*)", text, re.DOTALL).groups()
+            content.append(("v", tsv.parse_number(number)))   # 12-83: a range (Num 7)
         else:
             content.append(("char", name))
     return content
@@ -400,10 +400,11 @@ def to_latex(usfm):
                 verse += 1
                 if value != verse:
                     raise LatexError(f"\\v {value} where verse {verse} was expected")
+                verse = value.last                 # a range (\v 12-83) stands for all its verses
                 if position and not poem:
                     out[-1] = out[-1].rstrip(" ")
                     out.append("\n")
-                out.append("\\Versus ")
+                out.append(f"\\VersusUsque{{{value.last}}}" if value.is_range else "\\Versus ")   # {83} ends the macro: no space
             elif kind == "note":                    # a footnote: lettered, small type at the foot (preamble)
                 reference, text = value
                 out.append(f"\\footnote{{{f'\\textbf{{{reference}}} ' if reference else ''}{note_to_latex(text)}}}")

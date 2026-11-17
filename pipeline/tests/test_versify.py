@@ -50,6 +50,29 @@ class Apply(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "not found exactly once"):
             versify.apply_edits(BOOK, "Gen", [edit("split", "Gen.2.2", "nusquam")])
 
+    def test_anchor_in_two_spellings(self):
+        edits = [edit("split", "Gen.2.2", "ut moneret|vt moneret")]
+        for before, rest in (("Tum Jova jussit,", "ut moneret."), ("Tum Ioua iussit,", "vt moneret.")):
+            after, _ = versify.apply_edits(f"\\c 2\n\\p\n\\v 1 Fīnis.\n\\v 2 {before} {rest}\n", "Gen", edits)
+            self.assertIn(f"\\v 2 {before}\n\\v 3 {rest}", after)
+
+    def test_range(self):
+        usfm = ("\\c 7\n\\p\n\\v 1 Tum.\n\\v 2 Obtulerunt singuli scutellam.\n\\v 3 Primo die Nahason.\n"
+                "\\v 4 Secundo Nathanael.\n\\v 5 Haec fuit dedicatio.\n")
+        after, _ = versify.apply_edits(usfm, "Num", [edit("merge", "Num.7.3"), edit("merge", "Num.7.4"),
+                                                     edit("range", "Num.7.2", "8")])
+        self.assertIn("\\v 2-8 Obtulerunt singuli scutellam.\nPrimo die Nahason.\nSecundo Nathanael.\n"
+                      "\\v 9 Haec fuit dedicatio.", after)
+        self.assertEqual(versify.verse_counts(after, "Num"), {7: 9})
+        again, _ = versify.apply_edits(after, "Num", [])          # a range already in the text keeps its width
+        self.assertEqual(again, after)
+
+    def test_range_parsed_everywhere(self):
+        usfm = "\\id NUM\n\\c 1\n\\p\n\\v 1 Tum.\n\\v 2-8 Obtulerunt.\n\\v 9 Haec fuit.\n"
+        rows = [vid for vid, *_ in gold.rows(usfm, "Num")]
+        self.assertEqual(rows, ["Num.1.1", "Num.1.2-8", "Num.1.9"])
+        self.assertIn("\\VersusUsque{8}Obtulerunt.", latex.to_latex(usfm))
+
     def test_renumbered_book_still_converts(self):
         self.assertIn("Jōva eum allocūtus est.", latex.to_latex(self.after))
         rows = {vid: text for vid, text, *_ in gold.rows(self.after, "Gen")}

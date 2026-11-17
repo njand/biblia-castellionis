@@ -149,6 +149,15 @@
 }
 % (The zero glue after the number lets TeX hyphenate the verse's first word: it hyphenates only a word that follows
 % glue, and Heb 13:2's *Hospitālitātem*, unbroken, ran 10pt into the margin; 2026-11-16.)
+% A verse that stands for a range of the KJV's (\v 12-83: Num 7, the princes' offering given once): numbered
+% "12–83", the running head marking its first verse; the counter goes on from the last.
+\newcommand{\VersusUsque}[1]{%
+    \stepcounter{versuscount}%
+    \protected@edef\@tempa{\noexpand\CastellioRef{\libernameshort}{\arabic{caputcount}}{\arabic{versuscount}}}%
+    \InsertMark{versus}{\unexpanded\expandafter{\@tempa}}%
+    \textsuperscript{\theversuscount--#1}\nobreak\hskip\z@skip
+    \setcounter{versuscount}{#1}%
+}
 % The range of verses that begin on the page: "Genesis 1:31 – 2:25", "Genesis 3:1–14", "Genesis 3:15". A page
 % with no verse mark yet in the document has an empty head. \CastellioRef is \relax (unexpandable) except while a
 % head reads the marks: multicol expands them again when it carries them over.

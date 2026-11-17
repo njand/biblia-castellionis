@@ -2,6 +2,76 @@
 
 ## Now
 
+- **Your spot checks of 2026-11-16, answered.** Done: *Melchisedech* (11 places, your instruction; Gen 14:18 and
+  Hebrews, gold rebuilt); the preface's *iī quoque legerent*. In the PDF: the chapter numeral now reaches the first
+  line's capitals (lettrine had aimed at an *x*), every line beside it starts at the same place (verse 1's stretchable
+  space is gone), the notae table no longer wraps *oblīquæ*, widows are forbidden (about 70 in the whole Bible
+  before, none now, same page count), and a verse's first word can now be hyphenated (0 overfull lines, 273
+  underfull, from 286). The bottom-of-page gaps (Gen 9, Lev 20) and the head errors were in release v2.1 and were
+  already fixed by commit 5c68121 (every page's head checked against the next: 326 boundaries, none wrong).
+  **Your decisions applied** (2026-11-16): `names-macrons.md` (all of B, and Galaād-, Nephthāl-, Bala/Balā; Dodan
+  left), `rom3-stanza.md` and `paragraphs-long.md` (69 breaks): 244 changes, gold rebuilt for 12 books, PDF rebuilt
+  (396 pages, 0 overfull). `nt-notes-process.md` decided (four editions; text notes only where the sense changes;
+  NET notes and NRSVue; Mark first): `python -m pipeline notes Mark` wrote `mark-notes-candidates.md`. **`mark-notes.md`
+  accepted and applied** (your "Accept all"): 7 notes, 9 bracketed phrases, *vincīre* at 5:3; the test is now WH and
+  NA28 with SBLGNT, Tregelles either way (`pipeline/notes.py`). Mark's PDF checked: every note and bracket set. Metzger: the linked PDF was not downloaded (it looks like an unauthorized copy).
+  Running heads now classic (your choice): a verso gives its first verse, a recto its last (353 heads checked).
+  Nothing committed.
+- **Numbers started** (2026-11-16, your "Start Numbers").
+  - **Settled 2026-11-16** (your "Approve and settle"): `text/NUM.usfm`, 36 chapters, the KJV's 1,288 verses (1,202
+    verse markers: 7:12–83, the census at 1:22–43 and 4:38–44 are verse ranges), the 1,202 items applied as accepted
+    (identical to the preview); `data/gold/Num.tsv` built, the ledger `settled`, the drafts removed (`text/draft/` is
+    gone). Built from it to a scratch folder: site, EPUB, TXT and the PDF (LuaLaTeX in WSL: no errors, no missing
+    characters). **Next**: the printed text (`text/orig/draft/NUM.usfm`, from the lines read on 1738's pages) to read
+    on the page for approval.
+  - **A footnote at 21:24** (2026-11-16, your "Shorter wording"): *Hebraicē כִּי עַז, ‘nam validus erat’;
+    Castelliō, mendum subesse ratus, עָר, ‘Ār’, legit.* From Castellio's 1554 annotations on Numbers (15 in all, canvas 821, read
+    on the page; the rest commentary, or readings a modern version shares): `data/review/num-notes-1554.md`. 1738's own 25
+    lettered footnotes are the Leipzig editor's glosses (two condensed from Castellio's notes); none meets the test. Wikisource has only 1:1 (and 1:0), so the whole book goes
+  decision 68's route, as Leviticus 12–27: 1738 read on the page, line by line. Nothing committed.
+  - **Stage 1 done**: 1738's leaves 187 (col. 1) – 227, voted with 1750 and the 1726 OCR →
+    `data/witnesses/read-1738/Num1-36.voted.tsv` (3,885 rows, 3,849 printed lines). Two OCR slips set right by hand:
+    *CAPVT XXV 111.* had come out as chapter 25 (set to 28), and Deuteronomy 1's opening lines on leaf 227 were cut.
+    739 of the 1,288 verse starts found in the margins (Leviticus 12–27: 401 of 859); the readers set the rest.
+  - **Stage 2 done** (your "Yes, read 1–36"): every printed line read on the page by eight readers (275 sheets;
+    2,993 of 3,849 lines corrected) → `data/witnesses/read-1738/Num1-36.tsv`, `Num1-36.corrections.tsv`. The 91
+    lines the OCR lost (28:1–8, 31:1–2, 35:14–20 and 30–35, and single lines in 3, 7, 8, 20–22, 28, 32, 34, 35) read
+    on the page by Claude and added; two sheets read again independently with no difference; the whole compared
+    with 1750, nothing missing. Record: `data/review/num1-36-stage2.md` (the readers' notes beside it,
+    `num1-36-stage2-readers.md`). Built: the draft `text/draft/NUM.usfm` and the printed text
+    `text/orig/draft/NUM.usfm`, both in 1738's numbering (1,221 verses against the KJV's 1,288; chapter 7 has 39,
+    since Castellio gives the princes' offerings once). Ledger: `corrected`.
+  - **Versified** (your "Yes, versify Numbers"): 117 edits (`data/versification/Num1-36.draft.edits.tsv`) in the
+    draft and the printed text, words unchanged, every chapter at the KJV's count but 7; 1738's 23:1 is now 22:41.
+    `versify.py` takes an anchor in both spellings (`ut moneret|vt moneret`, tested). Where Castellio condensed the
+    census (1:20–43, ch. 2, 4:38–45) the count leaves one-word verses (*Gersoniorum*, *item*).
+  - **Chapter 7 as a verse range** (your "Add verse ranges"): Castellio gives the princes' offering once and then
+    the twelve princes day by day; the KJV repeats it twelve times. His 12–30 are now one verse **12–83** (USFM
+    `\v 12-83`), his 31–39 the KJV's 84–89: Numbers has the KJV's 1,288 verses, in the draft and the printed text.
+    The pipeline reads ranges everywhere (`tsv.Verse`; versify's `range` op; latex, publish, gold, orig, verses,
+    normalize, collate, review); the site shows *12–83* with the KJV's 12–83 beside it, the PDF `\VersusUsque`
+    (compiled in WSL with LuaLaTeX: no errors, seen on the page), the text files ¹²⁻⁸³. Tests added; 178 pass.
+    Record: `data/review/num1-36-stage2.md` §"Chapter 7". The condensed census as ranges too (your "Yes, use
+    ranges"): 1:22–23 … 42–43 (*Simeonis quinquaginta novem millia trecenti.*), 4:38–41 and 4:42–44, in place of
+    one-word verses; chapter 2's splits at *militum* kept, since 1738 sets the muster as a verse itself (2:4).
+  - **Stages 3–5 done, waiting for your approval** (your "Continue"): `data/review/num1-36-stages3-5.md` (start
+    there: **4 questions**, chiefly 47 spelling rules proposed and 28:7 *temetum Jōva lībētur*), the 1,202 items in
+    `num1-36-ch01.md` … `-ch36.md`, the preview `text/draft/NUM.preview.usfm`. Eight readers made the calls
+    (`data/decisions/Num.layout.tsv`, `Num.forms.tsv`), four proofread every verse, a fifth applied it. On the way:
+    draft fixes 6:3 *bibito*, 30:16 *Atque*, 10:6 *G. L. … H.* dropped, 3:30 *Elsaphane* (decision 46); fixes to
+    my spelling of 1738 (*ivissent*, *coivistis*, *Jaser*, *Jacobeis*, *ovatu*; tested); a new per-verse rule
+    exception (`data/rules/exceptions.tsv`: 25:12 *mē cum eō*, not *mēcum*); the verse-range spans fixed in
+    `review.verse_span`. The printed text (2b) is still to read on the page.
+  - **Your answers of 2026-11-16 applied** (`num1-36-stages3-5.md` §"Your answers"): the 47 spelling rules researched
+    in Gaffiot and the corpus and approved, with *Benjaminea* (`num1-36-rules-research.md`; decision 37 assimilates
+    seven verbs Gaffiot heads with *ad-*: a call for you); 16:47 *cœperat* and 28:7 *Jōvæ* from 1554 in the edited
+    text, the printed text keeping 1738; -īnus for gentile and clan adjectives (48 in Numbers; Exod 6:14 *Rūbēnīnæ* in
+    the settled text, `gentile-inus.md`, gold rebuilt); one form per person (66 spellings, 255 forms;
+    `num1-36-names.md`), clan adjectives by their founders. All 1,202 items `ok`. The name calls decided (your
+    "Accept 1-8", "Jeser (keep A)"): Gaffiot first for names, so *Eleāzar*, *Jebūsæ-*, *Samuēl*, *Pharane*, *Sēlā*,
+    *Amālēchīt-* also changed in 25 settled places (`names-gaffiot.md`, gold rebuilt); 25:1 *Sittīmō* (1554). Numbers
+    waits only for your approval.
+
 - **Leviticus started** (2026-11-15, your "Start Leviticus"). Wikisource has chapters 1–11 only, so the book goes
   two routes. Nothing committed.
   - **Settled 2026-11-16** (your "Approve Leviticus 1–27 and settle it"): `text/LEV.usfm`, 27 chapters, 859 verses,
@@ -539,6 +609,7 @@
 | 74 | 2026-11-15 | **Exodus 31–40 settled** (Nathan: "Settle it"), with the four questions decided (decisions 71, 73): `text/EXO.usfm` now complete; 40:20 *āræ* with a note. |
 | 75 | 2026-11-15 | **Exodus as printed (1738) approved** (Nathan: "Yes, approve"), with the drop capital's word as a normal capitalized word (*Auditionem*, *Cum*); the same rule for the approved New Testament and Genesis proposed in `data/review/orig-drop-capitals.md`. |
 | 76 | 2026-11-15 | **The drop capital's word in every printed text** (Nathan: "Yes, apply them"): 34 words in the approved New Testament and Genesis set as normal capitalized words (*Cum*, *Hic*, *Commissum*), as Exodus. |
+| 77 | 2026-11-16 | **Numbers 1–36 settled** (Nathan: "Approve and settle"), after "Accept 1-8" and "Jeser (keep A)": `text/NUM.usfm`, 1738 read line by line on the page (Wikisource has only 1:1); versified to the KJV with verse ranges (7:12–83; `tsv.Verse`, versify's `range`); 48 spelling rules researched and approved; 1554's readings at 16:47 *cœperat*, 28:7 *Jōvæ*, 25:1 *Sittīmō* in the edited text; -īnus for gentile adjectives (Exod 6:14 *Rūbēnīnæ*); one form per person, names by Gaffiot first (decision 52) also in 25 settled places (`names-gaffiot.md`). |
 
 ## How to run
 
