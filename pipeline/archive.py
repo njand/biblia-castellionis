@@ -6,6 +6,7 @@ the file name. Downloads go to sources/archive/<key>/ as text.txt, page_numbers.
 needs checking; the jp2 zips are ~1 GB each and are never downloaded whole."""
 
 import json
+import os
 import urllib.parse
 from dataclasses import dataclass
 
@@ -152,6 +153,10 @@ def fetch_crop(key, word, name):
     own = [w for w in lines if w.line == word.line]
     box = (min(w.box[0] for w in own) - 60, min(w.box[1] for w in lines) - 15,
            max(w.box[2] for w in own) + 60, max(w.box[3] for w in lines) + 15)
+    if os.name != "nt":
+        x, y, w, h = _pixel_box(page_path, (width, height), box)
+        _magick(str(page_path), "-crop", f"{w}x{h}+{x}+{y}", "+repage", "-quality", "90", str(path))
+        return path
     script = ("Add-Type -AssemblyName System.Drawing; "
               f"$i = [System.Drawing.Image]::FromFile('{page_path}'); "
               f"$sx = $i.Width / {width}; $sy = $i.Height / {height}; "
@@ -320,7 +325,10 @@ def line_box(key, leaf, first, last=None, pad=(70, 12)):
 def sheet(key, items, path, width=900):
     """One image of several crops, each under its label, for reading many places at a glance: items are
     [(label, leaf, (x0, y0, x1, y1) in hOCR pixels)]. Drawn with Windows' System.Drawing through PowerShell (the
-    standard library has no JPEG codec)."""
+    standard library has no JPEG codec), or with ImageMagick elsewhere. Each crop comes out at full size: PowerShell's
+    names ignore case, so `$w` (a crop's width) overwrites `$W` (`width`), the scale is 1, and the sheet is as wide as
+    its last crop (a wider crop is cut at the right). The sheets read so far were made so; ImageMagick's are as wide as
+    the widest crop, and `width` is unused there."""
     import json
     import subprocess
     import tempfile
@@ -328,6 +336,10 @@ def sheet(key, items, path, width=900):
     for label, leaf, box in items:
         _, _, (w, h) = pages(key)[leaf]
         spec.append({"label": label, "image": str(page_image(key, leaf)), "box": list(box), "size": [w, h]})
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if os.name != "nt":
+        _magick_sheet(spec, path)
+        return path
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
         json.dump(spec, f)
         spec_path = f.name
@@ -350,8 +362,62 @@ def sheet(key, items, path, width=900):
         "$g.DrawImage($p[0], (New-Object System.Drawing.Rectangle 0, $at, $p[5], $p[6]), "
         "(New-Object System.Drawing.Rectangle $p[1], $p[2], $p[3], $p[4]), 'Pixel'); $at += $p[6]; $p[0].Dispose() }; "
         f"$b.Save('{path}', [System.Drawing.Imaging.ImageFormat]::Jpeg); $g.Dispose(); $b.Dispose()")
-    path.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run(["powershell", "-NoProfile", "-Command", script], check=True, capture_output=True)
-    import os
     os.unlink(spec_path)
     return path
+
+
+# ---------------------------------------------------------------- page images without Windows: ImageMagick
+# On Windows the crops and sheets are cut with System.Drawing through PowerShell; elsewhere (Ubuntu) with
+# ImageMagick (`apt install imagemagick`: `convert` in version 6, `magick` in 7), the same boxes and sizes.
+
+def jpeg_size(path):
+    """(width, height) of a JPEG, read from its SOF marker (the standard library has no JPEG codec)."""
+    with open(path, "rb") as f:
+        data = f.read()
+    at = 2
+    while at + 9 < len(data):
+        if data[at] != 0xFF:
+            at += 1
+            continue
+        marker = data[at + 1]
+        if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7 or marker == 0xFF:
+            at += 1 if marker == 0xFF else 2
+            continue
+        length = int.from_bytes(data[at + 2:at + 4], "big")
+        if 0xC0 <= marker <= 0xCF and marker not in (0xC4, 0xC8, 0xCC):
+            return int.from_bytes(data[at + 7:at + 9], "big"), int.from_bytes(data[at + 5:at + 7], "big")
+        at += 2 + length
+    raise ValueError(f"{path}: no JPEG frame header")
+
+
+def _pixel_box(image, hocr_size, box):
+    """(x, y, w, h) in the image's pixels of a box in hOCR pixels, clipped to the image, as the PowerShell does."""
+    iw, ih = jpeg_size(image)
+    sx, sy = iw / hocr_size[0], ih / hocr_size[1]
+    x, y = max(0, int(box[0] * sx)), max(0, int(box[1] * sy))
+    return x, y, min(iw - x, int((box[2] - box[0]) * sx)), min(ih - y, int((box[3] - box[1]) * sy))
+
+
+def _magick(*args):
+    import shutil
+    import subprocess
+    program = shutil.which("magick") or shutil.which("convert")
+    if not program:
+        raise SystemExit("archive: page crops need ImageMagick here (sudo apt install imagemagick)")
+    subprocess.run([program, *args], check=True, capture_output=True)
+
+
+def _magick_sheet(spec, path):
+    """The sheet of `sheet`, drawn by ImageMagick: each crop at full size under a red label, as wide as the widest."""
+    boxes = [_pixel_box(s["image"], s["size"], s["box"]) for s in spec]
+    width = max(w for _, _, w, _ in boxes)
+    args = []
+    for s, (x, y, w, h) in zip(spec, boxes):
+        label = s["label"].replace("%", "%%")
+        args += ["(", "-size", f"{width}x30", "xc:white", "-fill", "firebrick", "-pointsize", "17",
+                 "-annotate", "+4+21", label, ")",
+                 # +size: a -size before a JPEG makes the decoder shrink it
+                 "(", "+size", s["image"], "-crop", f"{w}x{h}+{x}+{y}", "+repage",
+                 "-background", "white", "-gravity", "NorthWest", "-extent", f"{width}x{h}", ")"]
+    _magick(*args, "-append", "-quality", "90", str(path))

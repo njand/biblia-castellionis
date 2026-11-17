@@ -11,11 +11,12 @@ PowerShell's Invoke-WebRequest. Crops are cached in sources/mdz-1573/crops/."""
 import collections
 import difflib
 import html
+import os
 import re
 import subprocess
 from dataclasses import dataclass
 
-from pipeline import align, paths
+from pipeline import align, net, paths
 
 FOLDER = paths.SOURCES / "mdz-1573"
 CROPS = FOLDER / "crops"
@@ -189,6 +190,9 @@ def carried_over(word):
 
 
 def _download(url, path):
+    if os.name != "nt":                                   # Git Bash's curl fails TLS to MDZ; Linux need not
+        net.download(url, path)
+        return
     subprocess.run(["powershell", "-NoProfile", "-Command",
                     f"Invoke-WebRequest -UseBasicParsing -Uri '{url}' -OutFile '{path}'"], check=True,
                    capture_output=True)
