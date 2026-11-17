@@ -42,6 +42,16 @@ class Classify(unittest.TestCase):
         self.assertTrue(notes.tr_follows_rp(u, "καὶ ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ ὑγιὴς ὡς ἡ ἄλλη"))
         self.assertFalse(notes.tr_follows_rp(u, "καὶ ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ"))
 
+    def test_spelling_alone_is_not_a_difference(self):
+        self.assertEqual(notes.greek_words("εἰσιν ἐπʼ πᾶσιν"), notes.greek_words("εἰσι ἐπ᾿ πᾶσι"))
+        u = unit("ἔσχατοι", "+ πολλοὶ γὰρ εἰσιν κλητοί ὀλίγοι δὲ ἐκλεκτοί")      # Matt 20:16
+        notes.classify(u)
+        self.assertTrue(notes.tr_follows_rp(u, "πολλοὶ γάρ εἰσι κλητοί, ὀλίγοι δὲ ἐκλεκτοί"))
+
+    def test_tr_alone(self):
+        found = notes.tr_alone({"Luke.14.5": "τίνος ὑμῶν ὄνος ἢ βοῦς"}, {"Luke.14.5": "τίνος ὑμῶν υἱὸς ἢ βοῦς"}, [])
+        self.assertEqual([(u.reading, u.rp) for u in found["Luke.14.5"]], [("υιος", "ονος")])
+
     def test_person(self):
         found = notes.person_mismatches({"1John.4.4": "quī in nōbīs est"}, {"1John.4.4": "ὁ ἐν ὑμῖν"})
         self.assertEqual([vid for vid, _ in found], ["1John.4.4"])

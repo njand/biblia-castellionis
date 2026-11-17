@@ -2,6 +2,21 @@
 
 ## Now
 
+- **The notes' test and wording** (2026-11-17): `data/review/nt-notes-form.md`. Decisions 1 and 2 are taken
+  (SBLGNT + NA28; *Cōdicēs antīquiōrēs habent …*; brackets, not notes, for words in no Greek), and the Matthew, Luke
+  and John files below are rewritten to match. Decision 3 applied the same day (`nt-notes-settled.md`): the ten
+  older NT notes reworded, Mark 7:24 *[Sīdōnisque]*, and the front matter's signs (*cōdicēs antīquiōrēs*, no
+  *hodiē*). Not committed.
+- **Notes for Matthew, Luke and John: accepted and applied 2026-11-17** ("Apply them"; `text/` and gold updated; the five
+  Wikisource slips fixed by hand in `text/orig/MAT.usfm` and `JHN.usfm`; the Luke 3:7 row dropped from
+  `data/decisions/Luke.orig.tsv`; not committed). The original entry (2026-11-17, your "Run the notes pass on Matthew, Luke and
+  John"): `data/review/matt-notes.md` (45 items), `luke-notes.md` (47), `john-notes.md` (26, with John 7:8 added by the new test), built as Mark's was and rewritten 2026-11-17 to the new test and wording.
+  Each has the same sections: notes on the Greek text; notes where Castellio's Latin says what the Greek does not;
+  brackets; corrections (14 in all, from 1573's pages or OCR, or macrons). Five are Wikisource slips that `text/orig` copied as well (Matt 5:20 *Hoc*, 12:45 *fitque*,
+  13:4 *serente*; John 6:49 *mortuī*, and John 9:22, where a whole clause was lost); those need the same word fixed by
+  hand in `text/orig` on acceptance. `pipeline notes` now also lists readings found only in the TR (RP with the critical
+  text: Luke 14:5 *asinus*, John 1:28 *Bēthabaræ*, Matt 27:35), and no longer counts movable ν or elision as a
+  difference. Nothing applied or committed.
 - **Your spot checks of 2026-11-16, answered.** Done: *Melchisedech* (11 places, your instruction; Gen 14:18 and
   Hebrews, gold rebuilt); the preface's *iī quoque legerent*. In the PDF: the chapter numeral now reaches the first
   line's capitals (lettrine had aimed at an *x*), every line beside it starts at the same place (verse 1's stretchable

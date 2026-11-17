@@ -4,9 +4,9 @@ Built by `python -m pipeline notes Mark` (pipeline/notes.py); the process and it
 `data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue
 for any that survive) before a note is put to Nathan in `mark-notes.md`.
 
-Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of sense (order, article, form, small words): 427; the TR with the critical text: 21; in a verse already noted or bracketed: 18; **kept: 314**, in 254 verses. Pronoun person (Latin against the TR): 0.
+Apparatus units with NA28 and SBLGNT against RP: 801; not a change of sense (order, article, form, small words): 435; the TR with the critical text: 16; in a verse already noted or bracketed: 20; **kept: 330**, in 265 verses. The TR alone against SBLGNT (no apparatus unit): 130, in 113 verses. Pronoun person (Latin against the TR): 0.
 
-## Text: clause (7 verses)
+## Text: clause (12 verses)
 
 - **3:5** add (clause): critical *αὐτοῦ* ] RP *+ ὑγιὴς ὡς ἡ ἄλλη*
    - Latin: Cumque illī tacērent, ille eōs īrātē circum intuitus, eōrum animī callum dolēns, dīcit hominī: Extende manum tuam. Atque ille extendit, eaque tam sāna reddita est, quam erat altera.
@@ -16,6 +16,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et circumspiciens eos cum ira, contristatus super cæcitate cordis eorum, dicit homini: Extende manum tuam. Et extendit, et restituta est manus illi.
    - BSB: Jesus looked around at them with anger and sorrow at their hardness of heart. Then He said to the man, “Stretch out your hand.” So he stretched it out, and it was restored.
    - WEB: When he had looked around at them with anger, being grieved at the hardening of their hearts, he said to the man, “Stretch out your hand.” He stretched it out, and his hand was restored as healthy as the other.
+- **3:16** omit (clause): critical *ἐποίησεν τοὺς δώδεκα καὶ* ] RP *–*
+   - Latin: Imposuit autem Simōnī nōmen Petrum,
+   - 1573: Imposuit autem Simoni nomen Petrum:
+   - TR: καὶ ἐπέθηκε τῷ Σίμωνι ὄνομα Πέτρον·
+   - SBLGNT: καὶ ἐποίησεν τοὺς δώδεκα, καὶ ἐπέθηκεν ὄνομα τῷ Σίμωνι Πέτρον,
+   - Vulgate: Et imposuit Simoni nomen Petrus:
+   - BSB: These are the twelve He appointed: Simon (whom He named Peter),
+   - WEB: Simon (to whom he gave the name Peter);
 - **5:12** add (clause): critical *αὐτὸν* ] RP *+ πάντες οἱ δαίμονες*
    - Latin: Igitur eum rogārunt dæmonēs omnēs, ut sē in porcōs mitteret, ut in eōs ingrederentur.
    - 1573: Igitur eum rogarunt dæmones omnes, vt se in porcos mitteret, vt in eos ingrederentur.
@@ -32,6 +40,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et viderunt eos abeuntes, et cognoverunt multi: et pedestres de omnibus civitatibus concurrerunt illuc, et prævenerunt eos.
    - BSB: But many people saw them leaving and recognized them. They ran together on foot from all the towns and arrived before them.
    - WEB: They saw them going, and many recognized him and ran there on foot from all the cities. They arrived before them and came together to him.
+- **8:26** add (clause): critical *εἰσέλθῃς* ] RP *+ μηδὲ εἴπῃς τινὶ ἐν τῇ κώμῃ*
+   - Latin: Atque ille eum domum dīmīsit, vetāns nē vel in vīcum ingrederētur, vel id cuiquam in vīcō dīceret.
+   - 1573: Atque ille eum domum dimisit, vetans ne vel in vicum ingrederetur, vel id cuiquam in vico diceret.
+   - TR: Καὶ ἀπέστειλεν αὐτὸν εἰς τὸν οἶκον αὐτοῦ, λέγων, Μηδὲ εἰς τὴν κώμην εἰσέλθῃς, μηδὲ εἴπῃς τινὶ ἐν τῇ κώμῃ.
+   - SBLGNT: καὶ ἀπέστειλεν αὐτὸν εἰς οἶκον αὐτοῦ λέγων· Μηδὲ εἰς τὴν κώμην εἰσέλθῃς.
+   - Vulgate: Et misit illum in domum suam, dicens: Vade in domum tuam: et si in vicum introieris, nemini dixeris.
+   - BSB: Jesus sent him home and said, “Do not go back into the village.”
+   - WEB: He sent him away to his house, saying, “Don’t enter into the village, nor tell anyone in the village.”
 - **11:10** add (clause): critical *βασιλεία* ] RP *+ ἐν ὀνόματι κυρίου*
    - Latin: Fēlīx veniēns rēgnum in nōmine Dominī patris nostrī Dāvīdis: Hōsanna in suprēmīs.”
    - 1573: felix veniens regnum in nomine Domini patris nostri Dauidis: Hosanna in supremis.
@@ -40,6 +56,30 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: benedictum quod venit regnum patris nostri David: hosanna in excelsis.
    - BSB: “Blessed is the coming kingdom of our father David!” “Hosanna in the highest!”
    - WEB: Blessed is the kingdom of our father David that is coming in the name of the Lord! Hosanna in the highest!”
+- **12:30** add (clause): critical *σου* ] RP *+ αὕτη πρώτη ἐντολή*
+   - Latin: Itaque Dominum Deum tuum, tōtō corde, tōtō animō, tōtā mente, tōtīsque vīribus amātō.’ Hoc prīmum est præceptum.
+   - 1573: itaque Dominum Deum tuum, toto corde, toto animo, tota mente, totisque viribus amato. Hoc primum est præceptum.
+   - TR: καὶ ἀγαπήσεις Κύριον τὸν Θεόν σου ἐξ ὅλης τῆς καρδίας σου, καὶ ἐξ ὅλης τῆς ψυχῆς σου, καὶ ἐξ ὅλης τῆς διανοίας σου, καὶ ἐξ ὅλης τῆς ἰσχύος σου. Αὕτη πρώτη ἐντολή.
+   - SBLGNT: καὶ ἀγαπήσεις κύριον τὸν θεόν σου ἐξ ὅλης τῆς καρδίας σου καὶ ἐξ ὅλης τῆς ψυχῆς σου καὶ ἐξ ὅλης τῆς διανοίας σου καὶ ἐξ ὅλης τῆς ἰσχύος σου.
+   - Vulgate: et diliges Dominum Deum tuum ex tota corde tuo, et ex tota anima tua, et ex tota mente tua, et ex tota virtute tua. Hoc est primum mandatum.
+   - BSB: Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.’
+   - WEB: You shall love the Lord your God with all your heart, with all your soul, with all your mind, and with all your strength.’ This is the first commandment.
+- **12:33** add (clause): critical *συνέσεως* ] RP *+ καὶ ἐξ ὅλης τῆς ψυχῆς*; substitute (word): critical *περισσότερόν* ] RP *πλεῖόν*
+   - Latin: Quem tōtō corde, omnī studiō, tōtō animō, summāque ope amāre, nec nōn aliōs ut sē ipsum amāre, plūs est quam omnēs victimæ et sacrificia.”
+   - 1573: quem toto corde, omni studio, toto animo, summaque ope amare, nec non alios vt se ipsum amare, plus est quàm omnes victimæ et sacrificia.
+   - TR: καὶ τὸ ἀγαπᾷν αὐτὸν ἐξ ὅλης τῆς καρδίας, καὶ ἐξ ὅλης τῆς συνέσεως, καὶ ἐξ ὅλης τῆς ψυχῆς, καὶ ἐξ ὅλης τῆς ἰσχύος, καὶ τὸ ἀγαπᾷν τὸν πλησίον ὡς ἑαυτόν, πλεῖόν ἐστι πάντων τῶν ὁλοκαυτωμάτων καὶ τῶν θυσιῶν.
+   - SBLGNT: καὶ τὸ ἀγαπᾶν αὐτὸν ἐξ ὅλης τῆς καρδίας καὶ ἐξ ὅλης τῆς συνέσεως καὶ ἐξ ὅλης τῆς ἰσχύος καὶ τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν περισσότερόν ἐστιν πάντων τῶν ὁλοκαυτωμάτων καὶ θυσιῶν.
+   - Vulgate: Et ut diligatur ex toto corde, et ex toto intellectu, et ex tota anima, et ex tota fortitudine, et diligere proximum tamquam seipsum, majus est omnibus holocautomatibus, et sacrificiis.
+   - BSB: and to love Him with all your heart and with all your understanding and with all your strength, and to love your neighbor as yourself, which is more important than all burnt offerings and sacrifices.”
+   - WEB: and to love him with all the heart, with all the understanding, all the soul, and with all the strength, and to love his neighbor as himself, is more important than all whole burnt offerings and sacrifices.”
+- **13:15** add (clause): critical *καταβάτω* ] RP *+ εἰς τὴν οἰκίαν*
+   - Latin: Et quī erit in tēctō, nē dēscendat in ædēs, nec ingrediātur ad auferendum aliquid ex suīs ædibus:
+   - 1573: et qui erit in tecto, ne descendat in ædes, nec ingrediatur ad auferendum aliquid ex suis ædibus:
+   - TR: ὁ δὲ ἐπὶ τοῦ δώματος μὴ καταβάτω εἰς τὴν οἰκίαν, μηδὲ εἰσελθέτω ἆραί τι ἐκ τῆς οἰκίας αὐτοῦ·
+   - SBLGNT: ὁ ἐπὶ τοῦ δώματος μὴ καταβάτω μηδὲ εἰσελθάτω τι ἆραι ἐκ τῆς οἰκίας αὐτοῦ,
+   - Vulgate: et qui super tectum, ne descendat in domum, nec introëat ut tollat quid de domo sua:
+   - BSB: Let no one on the housetop go back inside to retrieve anything from his house.
+   - WEB: and let him who is on the housetop not go down, nor enter in, to take anything out of his house.
 - **13:18** add (clause): critical *γένηται* ] RP *+ ἡ φυγὴ ὑμῶν*
    - Latin: Optāte vērō, nē accidat hieme vestra fuga.
    - 1573: Optate verò, ne accidat hyeme vestra fuga.
@@ -65,7 +105,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - BSB: Then Jesus said to them, “You will all fall away, for it is written: ‘I will strike the Shepherd, and the sheep will be scattered.’
    - WEB: Jesus said to them, “All of you will be made to stumble because of me tonight, for it is written, ‘I will strike the shepherd, and the sheep will be scattered.’
 
-## Text: name (6 verses)
+## Text: name (14 verses)
 
 - **1:24** substitute (name): critical *Τί* ] RP *Ἔα τί*
    - Latin: “Heu, quid tibi nōbīscum reī est, Jēsū Nāzarēne? Vēnistī perditum nōs? Sciō tē quis sīs—Sānctus Deī.”
@@ -75,7 +115,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: dicens: Quid nobis et tibi, Jesu Nazarene? venisti perdere nos? scio qui sis, Sanctus Dei.
    - BSB: “What do You want with us, Jesus of Nazareth? Have You come to destroy us? I know who You are—the Holy One of God!”
    - WEB: saying, “Ha! What do we have to do with you, Jesus, you Nazarene? Have you come to destroy us? I know who you are: the Holy One of God!”
-- **2:16** substitute (name): critical *τῶν Φαρισαίων* ] RP *καὶ οἱ Φαρισαῖοι*; substitute (word): critical *ὅτι ἐσθίει* ] RP *αὐτὸν ἐσθίοντα*
+- **2:16** substitute (name): critical *τῶν Φαρισαίων* ] RP *καὶ οἱ Φαρισαῖοι*; substitute (word): critical *ὅτι ἐσθίει* ] RP *αὐτὸν ἐσθίοντα*; add (word): critical *ἐσθίει* ] RP *+ καὶ πίνει*
    - Latin: scrībæ et Pharisæī, eō vīsō cum pūblicānīs et improbīs cibum capiente, quærerent ex ejus discipulīs, quī fieret ut cum pūblicānīs et improbīs cibum pōtiōnemque sūmeret.
    - 1573: Scribæ et Pharisæi, eo viso cum publicanis et improbis cibum capiente, quærerent ex eius discipulis, quî fieret vt cum publicanis et improbis cibum potionemque sumeret?
    - TR: Καὶ οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι, ἰδόντες αὐτὸν ἐσθίοντα μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν, ἔλεγον τοῖς μαθηταῖς αὐτοῦ, Τί ὅτι μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν ἐσθίει καὶ πίνει;
@@ -91,6 +131,22 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et erant discipuli Joannis et pharisæi jejunantes: et veniunt, et dicunt illi: Quare discipuli Joannis et pharisæorum jejunant, tui autem discipuli non jejunant?
    - BSB: Now John’s disciples and the Pharisees were often fasting. So people came to Jesus and asked, “Why don’t Your disciples fast like John’s disciples and those of the Pharisees?”
    - WEB: John’s disciples and the Pharisees were fasting, and they came and asked him, “Why do John’s disciples and the disciples of the Pharisees fast, but your disciples don’t fast?”
+- **3:18** substitute (name): critical *Καναναῖον* ] RP *Κανανίτην*
+   - Latin: et Andrēam, et Philippum, et Bartholomæum, et Matthæum, et Thōmam, et Jācōbum Alphæī fīlium, et Thaddæum, et Simōnem Cananītam,
+   - 1573: et Andream, et Philippum, et Bartholomæum, et Matthæum, et Thomam, et Iacobum Alphæi filium, et Thaddæum, et Simonem Cananitam,
+   - TR: καὶ Ἀνδρέαν, καὶ Φίλιππον, καὶ Βαρθολομαῖον, καὶ Ματθαῖον, καὶ Θωμᾶν, καὶ Ἰάκωβον τὸν τοῦ Ἀλφαίου, καὶ Θαδδαῖον, καὶ Σίμωνα τὸν Κανανίτην,
+   - SBLGNT: καὶ Ἀνδρέαν καὶ Φίλιππον καὶ Βαρθολομαῖον καὶ Μαθθαῖον καὶ Θωμᾶν καὶ Ἰάκωβον τὸν τοῦ Ἁλφαίου καὶ Θαδδαῖον καὶ Σίμωνα τὸν Καναναῖον
+   - Vulgate: et Andræam, et Philippum, et Bartholomæum, et Matthæum, et Thomam, et Jacobum Alphæi, et Thaddæum, et Simonem Cananæum,
+   - BSB: Andrew, Philip, Bartholomew, Matthew, Thomas, James son of Alphaeus, Thaddaeus, Simon the Zealot,
+   - WEB: Andrew; Philip; Bartholomew; Matthew; Thomas; James, the son of Alphaeus; Thaddaeus; Simon the Zealot;
+- **3:19** substitute (name): critical *Ἰσκαριώθ* ] RP *Ἰσκαριώτην*
+   - Latin: et Jūdam Iscariōtam, eum ā quō prōditus est.
+   - 1573: et Iudam Iscariotam, eum à quo proditus est.
+   - TR: καὶ Ἰούδαν Ἰσκαριώτην, ὃς καὶ παρέδωκεν αὐτόν. Καὶ ἔρχονται εἰς οἶκον·
+   - SBLGNT: καὶ Ἰούδαν Ἰσκαριώθ, ὃς καὶ παρέδωκεν αὐτόν.
+   - Vulgate: et Judam Iscariotem, qui et tradidit illum.
+   - BSB: and Judas Iscariot, who betrayed Jesus.
+   - WEB: and Judas Iscariot, who also betrayed him. Then he came into a house.
 - **5:9** substitute (word): critical *λέγει αὐτῷ* ] RP *ἀπεκρίθη λέγων*; substitute (name): critical *Λεγιὼν* ] RP *Λεγεὼν*
    - Latin: eumque interrogābat quod eī nōmen esset. Cui ille respondit: “Legiō mihi nōmen est, quoniam multī sumus,”
    - 1573: eumque interrogabat quod ei nomen esset. Cui ille respondit: Legio mihi nomen est, quoniam multi sumus:
@@ -99,6 +155,22 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et interrogabat eum: Quod tibi nomen est? Et dicit ei: Legio mihi nomen est, quia multi sumus.
    - BSB: “What is your name?” Jesus asked. “My name is Legion,” he replied, “for we are many.”
    - WEB: He asked him, “What is your name?” He said to him, “My name is Legion, for we are many.”
+- **6:3** substitute (name): critical *Ἰωσῆτος* ] RP *Ἰωσῆ*
+   - Latin: An nōn is est faber, Marīæ fīlius, Jācōbī, et Jōsis, et Jūdæ, et Simōnis frāter, et nōnne sunt hīc apud nōs ejus sorōrēs?” Itaque in eō offendēbantur.
+   - 1573: An non is est faber, Mariæ filius, Iacobi, et Iosis, et Iudæ, et Simonis frater: et nonne sunt hîc apud nos eius sorores. Itaque in eo offendebantur.
+   - TR: Οὐχ οὗτός ἐστιν ὁ τέκτων, ὁ υἱὸς Μαρίας, ἀδελφὸς δὲ Ἰακώβου καὶ Ἰωσῆ καὶ Ἰούδα καὶ Σίμωνος; Καὶ οὐκ εἰσὶν αἱ ἀδελφαὶ αὐτοῦ ὧδε πρὸς ἡμᾶς; Καὶ ἐσκανδαλίζοντο ἐν αὐτῷ.
+   - SBLGNT: οὐχ οὗτός ἐστιν ὁ τέκτων, ὁ υἱὸς τῆς Μαρίας καὶ ἀδελφὸς Ἰακώβου καὶ Ἰωσῆτος καὶ Ἰούδα καὶ Σίμωνος; καὶ οὐκ εἰσὶν αἱ ἀδελφαὶ αὐτοῦ ὧδε πρὸς ἡμᾶς; καὶ ἐσκανδαλίζοντο ἐν αὐτῷ.
+   - Vulgate: Nonne hic est faber, filius Mariæ, frater Jacobi, et Joseph, et Judæ, et Simonis? nonne et sorores ejus hic nobiscum sunt? Et scandalizabantur in illo.
+   - BSB: Isn’t this the carpenter, the son of Mary and the brother of James, Joses, Judas, and Simon? Aren’t His sisters here with us as well?” And they took offense at Him.
+   - WEB: Isn’t this the carpenter, the son of Mary and brother of James, Joses, Judah, and Simon? Aren’t his sisters here with us?” So they were offended at him.
+- **7:24** substitute (word): critical *ὅρια* ] RP *μεθόρια*; add (name): critical *Τύρου* ] RP *+ καὶ Σιδῶνος*
+   - Latin: Illinc profectus, discessit in Tyrī Sīdōnisque cōnfīnia, ingressusque domum, nōlēbat id scīre quemquam: sed nōn potuit latēre.
+   - 1573: Illinc profectus, discessit in Tyri Sidonisque confinia, ingressusque domum, nolebat id scire quemquam: sed non potuit latêre.
+   - TR: Καὶ ἐκεῖθεν ἀναστὰς ἀπῆλθεν εἰς τὰ μεθόρια Τύρου καὶ Σιδῶνος. Καὶ εἰσελθὼν εἰς τὴν οἰκίαν, οὐδένα ἤθελε γνῶναι, καὶ οὐκ ἠδυνήθη λαθεῖν.
+   - SBLGNT: Ἐκεῖθεν δὲ ἀναστὰς ἀπῆλθεν εἰς τὰ ὅρια Τύρου. καὶ εἰσελθὼν εἰς οἰκίαν οὐδένα ἤθελεν γνῶναι, καὶ οὐκ ἠδυνήθη λαθεῖν·
+   - Vulgate: Et inde surgens abiit in fines Tyri et Sidonis: et ingressus domum, neminem voluit scire, et non potuit latere.
+   - BSB: Jesus left that place and went to the region of Tyre. Not wanting anyone to know He was there, He entered a house, but was unable to escape their notice.
+   - WEB: From there he arose and went away into the borders of Tyre and Sidon. He entered into a house and didn’t want anyone to know it, but he couldn’t escape notice.
 - **10:47** substitute (name): critical *Ναζαρηνός* ] RP *Ναζωραῖός*; substitute (word): critical *Υἱὲ* ] RP *Ὁ ὑιὸς*
    - Latin: ut audīvit Jēsum esse Nāzarēnum, cœpit ita clāmāre: “Dāvīdide Jēsū, miserēre meī.”
    - 1573: vt audiuit Iesum esse Nazarenum, cœpit ita clamare: Dauidide Iesu, miserere mei.
@@ -107,6 +179,38 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Qui cum audisset quia Jesus Nazarenus est, cœpit clamare, et dicere: Jesu fili David, miserere mei.
    - BSB: When he heard that it was Jesus of Nazareth, he began to cry out, “Jesus, Son of David, have mercy on me!”
    - WEB: When he heard that it was Jesus the Nazarene, he began to cry out and say, “Jesus, you son of David, have mercy on me!”
+- **10:49** substitute (name): critical *Φωνήσατε αὐτόν* ] RP *αὐτὸν φωνηθῆναι*
+   - Latin: Tum Jēsūs restitit, eumque jussit arcessī. Cumque illī eum arcesserent, et, “Bonō es animō,” dīcerent, “surge, arcessit tē,”
+   - 1573: Tum Iesus restitit, eumque iussit accersi. Cumque illi eum accerserent, et, Bono es animo, dicerent, surge, accersit te:
+   - TR: Καὶ στὰς ὁ Ἰησοῦς εἶπεν αὐτὸν φωνηθῆναι· καὶ φωνοῦσι τὸν τυφλόν, λέγοντες αὐτῷ, Θάρσει· ἔγειραι, φωνεῖ σε.
+   - SBLGNT: καὶ στὰς ὁ Ἰησοῦς εἶπεν· Φωνήσατε αὐτόν. καὶ φωνοῦσι τὸν τυφλὸν λέγοντες αὐτῷ· Θάρσει, ἔγειρε, φωνεῖ σε.
+   - Vulgate: Et stans Jesus præcepit illum vocari. Et vocant cæcum, dicentes ei: Animæquior esto: surge, vocat te.
+   - BSB: Jesus stopped and said, “Call him.” So they called the blind man. “Take courage!” they said. “Get up! He is calling for you.”
+   - WEB: Jesus stood still and said, “Call him.” They called the blind man, saying to him, “Cheer up! Get up. He is calling you!”
+- **14:10** substitute (name): critical *Ἰσκαριὼθ ὁ* ] RP *ὁ Ἰσκαριώτης*; substitute (word): critical *παραδοῖ αὐτοῖς* ] RP *παραδῷ αὐτὸν*
+   - Latin: Jūdās autem Iscariōta, ūnus ex duodecim, pontificēs adiit, ut eum illīs trāderet.
+   - 1573: Iudas autem Iscariota, vnus ex duodecim, pontifices adijt, vt eum illis traderet.
+   - TR: Καὶ ὁ Ἰούδας ὁ Ἰσκαριώτης, εἷς τῶν δώδεκα, ἀπῆλθε πρὸς τοὺς ἀρχιερεῖς, ἵνα παραδῷ αὐτὸν αὐτοῖς.
+   - SBLGNT: Καὶ Ἰούδας Ἰσκαριὼθ ὁ εἷς τῶν δώδεκα ἀπῆλθεν πρὸς τοὺς ἀρχιερεῖς ἵνα αὐτὸν παραδοῖ αὐτοῖς.
+   - Vulgate: Et Judas Iscariotes, unus de duodecim, abiit ad summos sacerdotes, ut proderet eum illis.
+   - BSB: Then Judas Iscariot, one of the Twelve, went to the chief priests to betray Jesus to them.
+   - WEB: Judas Iscariot, who was one of the twelve, went away to the chief priests, that he might deliver him to them.
+- **15:22** substitute (name): critical *Γολγοθᾶν* ] RP *Γολγοθᾶ*
+   - Latin: Eumque ad locum Golgotha dūcunt, quod Calvāriæ locum significat:
+   - 1573: eumque ad locum Golgotha ducunt, quod Caluariæ locum significat:
+   - TR: Καὶ φέρουσιν αὐτὸν ἐπὶ Γολγοθᾶ τόπον, ὅ ἐστι μεθερμηνευόμενον Κρανίου Τόπος.
+   - SBLGNT: καὶ φέρουσιν αὐτὸν ἐπὶ τὸν Γολγοθᾶν τόπον, ὅ ἐστιν μεθερμηνευόμενον Κρανίου Τόπος.
+   - Vulgate: Et perducunt illum in Golgotha locum: quod est interpretatum Calvariæ locus.
+   - BSB: They brought Jesus to a place called Golgotha, which means The Place of the Skull.
+   - WEB: They brought him to the place called Golgotha, which is, being interpreted, “The place of a skull.”
+- **15:40** add (word): critical *αἷς* ] RP *+ ἦν*; substitute (name): critical *Ἰωσῆτος* ] RP *Ἰωσῆ*
+   - Latin: Erant etiam mulierēs procul spectantēs, in quibus erat Marīa Magdalēna, et Marīa Jācōbī minōris, Jōsisque māter, et Salōmē,
+   - 1573: Erant etiam mulieres procul spectantes, in quibus erat Maria Magdalena, et Maria Iacobi minoris; Iosisque mater, et Salome,
+   - TR: Ἦσαν δὲ καὶ γυναῖκες ἀπὸ μακρόθεν θεωροῦσαι, ἐν αἷς ἦν καὶ Μαρία ἡ Μαγδαληνή, καὶ Μαρία ἡ τοῦ Ἰακώβου τοῦ μικροῦ καὶ Ἰωσῆ μήτηρ, καὶ Σαλώμη,
+   - SBLGNT: Ἦσαν δὲ καὶ γυναῖκες ἀπὸ μακρόθεν θεωροῦσαι, ἐν αἷς καὶ Μαρία ἡ Μαγδαληνὴ καὶ Μαρία ἡ Ἰακώβου τοῦ μικροῦ καὶ Ἰωσῆτος μήτηρ καὶ Σαλώμη,
+   - Vulgate: Erant autem et mulieres de longe aspicientes: inter quas erat Maria Magdalene, et Maria Jacobi minoris, et Joseph mater, et Salome:
+   - BSB: And there were also women watching from a distance. Among them were Mary Magdalene, Mary the mother of James the younger and of Joses, and Salome.
+   - WEB: There were also women watching from afar, among whom were both Mary Magdalene and Mary the mother of James the less and of Joses, and Salome;
 - **15:47** substitute (name): critical *ἡ Ἰωσῆτος* ] RP *Ἰωσῆ*; substitute (word): critical *τέθειται* ] RP *τίθεται*
    - Latin: spectantibus Marīā Magdalēnā, et Marīā Jōsis mātre, ubinam pōnerētur.
    - 1573: spectantibus Maria Magdalena, et Maria Iosis matre, vbinam poneretur.
@@ -135,7 +239,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - BSB: who will mock Him and spit on Him and flog Him and kill Him. And after three days He will rise again.”
    - WEB: They will mock him, spit on him, scourge him, and kill him. On the third day he will rise again.”
 
-## Text: word (213 verses)
+## Text: word (237 verses)
 
 - **1:11** substitute (word): critical *σοὶ* ] RP *ᾧ*
    - Latin: Exstititque vōx ex cælō: “Tū es meus cārissimus Fīlius, quī mihi acceptus es.”
@@ -257,6 +361,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et iterum intravit Capharnaum post dies,
    - BSB: A few days later Jesus went back to Capernaum. And when the people heard that He was home,
    - WEB: When he entered again into Capernaum after some days, it was heard that he was at home.
+- **2:4** substitute (word): critical *ὅπου* ] RP *ἐφʼ ᾧ*
+   - Latin: quī cum ad eum accēdere propter hominum turbam nōn possent, dētēxērunt tēctum ubi erat ille, factōque forāmine, dēmīsēre grabātum in quō jacēbat sīderātus.
+   - 1573: Qui cùm ad eum accedere propter hominum turbam non possent, detexerunt tectum vbi erat ille, factoque foramine, demisere grabatum in quo iacebat sideratus.
+   - TR: Καὶ μὴ δυνάμενοι προσεγγίσαι αὐτῷ διὰ τὸν ὄχλον, ἀπεστέγασαν τὴν στέγην ὅπου ἦν, καὶ ἐξορύξαντες χαλῶσι τὸν κράββατον ἐφ᾿ ᾧ ὁ παραλυτικὸς κατέκειτο.
+   - SBLGNT: καὶ μὴ δυνάμενοι προσενέγκαι αὐτῷ διὰ τὸν ὄχλον ἀπεστέγασαν τὴν στέγην ὅπου ἦν, καὶ ἐξορύξαντες χαλῶσι τὸν κράβαττον ὅπου ὁ παραλυτικὸς κατέκειτο.
+   - Vulgate: Et cum non possent offerre eum illi præ turba, nudaverunt tectum ubi erat: et patefacientes submiserunt grabatum in quo paralyticus jacebat.
+   - BSB: Since they were unable to get to Jesus through the crowd, they uncovered the roof above Him, made an opening, and lowered the paralytic on his mat.
+   - WEB: When they could not come near to him for the crowd, they removed the roof where he was. When they had broken it up, they let down the mat that the paralytic was lying on.
 - **2:5** substitute (word): critical *ἀφίενταί σου* ] RP *ἀφέωνταί σοι*
    - Latin: Eōrum vīsā fīdūciā, Jēsūs dīcit sīderātō: “Nāte, ignōscuntur tibi peccāta tua.”
    - 1573: Eorum visa fiducia Iesus, dicit siderato: Nate, ignoscuntur tibi peccata tua.
@@ -289,6 +401,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: tibi dico: Surge, tolle grabatum tuum, et vade in domum tuam.
    - BSB: “I tell you, get up, pick up your mat, and go home.”
    - WEB: “I tell you, arise, take up your mat, and go to your house.”
+- **2:12** substitute (word): critical *ἔμπροσθεν* ] RP *ἐναντίον*
+   - Latin: Atque ille prōtinus surrēxit, sublātōque grabātō exiit cōram omnibus, adeō ut omnēs attonitī Deum collaudārent, sēsē nihil umquam tāle vīdisse cōnfitentēs.
+   - 1573: Atque ille protinus surrexit, sublatoque grabato exijt coram omnibus, adeò vt omnes attoniti Deum collaudarent, sese nihil vnquam tale vidisse confitentes.
+   - TR: Καὶ ἠγέρθη εὐθέως, καὶ ἄρας τὸν κράββατον, ἐξῆλθεν ἐναντίον πάντων· ὥστε ἐξίστασθαι πάντας, καὶ δοξάζειν τὸν Θεόν, λέγοντας ὅτι Οὐδέποτε οὕτως εἴδομεν.
+   - SBLGNT: καὶ ἠγέρθη καὶ εὐθὺς ἄρας τὸν κράβαττον ἐξῆλθεν ἔμπροσθεν πάντων, ὥστε ἐξίστασθαι πάντας καὶ δοξάζειν τὸν θεὸν λέγοντας ὅτι Οὕτως οὐδέποτε εἴδομεν.
+   - Vulgate: Et statim surrexit ille: et, sublato grabato, abiit coram omnibus, ita ut mirarentur omnes, et honorificent Deum, dicentes: Quia numquam sic vidimus.
+   - BSB: And immediately the man got up, picked up his mat, and walked out in front of them all. As a result, they were all astounded and glorified God, saying, “We have never seen anything like this!”
+   - WEB: He arose, and immediately took up the mat and went out in front of them all, so that they were all amazed and glorified God, saying, “We never saw anything like this!”
 - **2:15** substitute (word): critical *γίνεται* ] RP *ἐγένετο ἐν τῷ*
    - Latin: Accidit autem ut Jēsū in illīus ædibus convīvante, cum multī pūblicānī et improbī cum eō, ejusque discipulīs accumberent (erant enim multī quī eum secūtī fuerant),
    - 1573: Accidit autem vt Iesu in illius ædibus conuiuante, cùm multi publicani et improbi cum eo, eiusque discipulis accumberent (erant enim multi qui eum secuti fuerant),
@@ -313,7 +433,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Venient autem dies cum auferetur ab eis sponsus: et tunc jejunabunt in illis diebus.
    - BSB: But the time will come when the bridegroom will be taken from them; then they will fast.
    - WEB: But the days will come when the bridegroom will be taken away from them, and then they will fast in that day.
-- **2:21** substitute (word): critical *ἱμάτιον παλαιόν* ] RP *ἱματίῳ παλαιῷ*
+- **2:21** substitute (word): critical *ἱμάτιον παλαιόν* ] RP *ἱματίῳ παλαιῷ*; omit (word): critical *ἀπʼ* ] RP *–*
    - Latin: “Neque vērō quisquam pannī rudis pittacium assuit veterī vestīmentō. Aliōquī novum illud ejus supplēmentum auferret veteris partem, atque ita dēterior fieret fissūra.
    - 1573: Neque verò quisquam panni rudis pittacium assuit veteri vestimento. Alioquin nouum illud eius supplementum auferret veteris partem, atque ita deterior fieret fissura.
    - TR: Καὶ οὐδεὶς ἐπίβλημα ῥάκους ἀγνάφου ἐπιρράπτει ἐπὶ ἱματίῳ παλαιῷ· εἰ δὲ μή, αἴρει τὸ πλήρωμα αὐτοῦ τὸ καινὸν τοῦ παλαιοῦ, καὶ χεῖρον σχίσμα γίνεται.
@@ -321,7 +441,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Nemo assumentum panni rudis assuit vestimento veteri: alioquin aufert supplementum novum a veteri, et major scissura fit.
    - BSB: No one sews a patch of unshrunk cloth on an old garment. If he does, the new piece will pull away from the old, and a worse tear will result.
    - WEB: No one sews a piece of unshrunk cloth on an old garment, or else the patch shrinks and the new tears away from the old, and a worse hole is made.
-- **2:22** substitute (word): critical *ῥήξει ὁ οἶνος* ] RP *ῥήσσει ὁ οἶνος ὁ νέος*; substitute (word): critical *ἀπόλλυται καὶ οἱ ἀσκοί* ] RP *ἐκχεῖται καὶ οἱ ἀσκοὶ ἀπολοῦνται*
+- **2:22** substitute (word): critical *ῥήξει ὁ οἶνος* ] RP *ῥήσσει ὁ οἶνος ὁ νέος*; substitute (word): critical *ἀπόλλυται καὶ οἱ ἀσκοί* ] RP *ἐκχεῖται καὶ οἱ ἀσκοὶ ἀπολοῦνται*; add (word): critical *καινούς* ] RP *+ βλητέον*
    - Latin: Neque quisquam vīnum novum in veterēs utrēs recondit. Aliōquī rumperet utrēs vīnum novum, et vīnum effunderētur, et utrēs perderentur. Sed est vīnum novum in novōs utrēs condendum.”
    - 1573: Neque quisquam vinum nouum in veteres vtres recondit: alioquin rumperet vtres vinum nouum, et vinum effunderetur, et vtres perderentur: sed est vinum nouum in nouos vtres condendum.
    - TR: Καὶ οὐδεὶς βάλλει οἶνον νέον εἰς ἀσκοὺς παλαιούς· εἰ δὲ μή, ῥήσσει ὁ οἶνος ὁ νέος τοὺς ἀσκούς, καὶ ὁ οἶνος ἐκχεῖται καὶ οἱ ἀσκοὶ ἀπολοῦνται· ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινοὺς βλητέον.
@@ -337,6 +457,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et ait illis: Numquam legistis quid fecerit David, quando necessitatem habuit, et esuriit ipse, et qui cum eo erant?
    - BSB: Jesus replied, “Have you never read what David did when he and his companions were hungry and in need?
    - WEB: He said to them, “Did you never read what David did when he had need and was hungry—he, and those who were with him?
+- **2:26** substitute (word): critical *τοὺς ἱερεῖς* ] RP *τοῖς ἱερεῦσιν*
+   - Latin: ut Deī domum ingressus, Abiāthāre pontifice, apposititiōs pānēs (quibus nōn nisi sacerdōtibus vēscī fās est) comēderit, et suīs etiam comitibus impertierit?
+   - 1573: vt Dei domum ingressus, Abiathare Pontifice, apposititios panes (quibus non nisi sacerdotibus vesci fas est) comederit, et suis etiam comitibus impertiuerit?
+   - TR: Πῶς εἰσῆλθεν εἰς τὸν οἶκον τοῦ Θεοῦ ἐπὶ Ἀβιάθαρ τοῦ ἀρχιερέως, καὶ τοὺς ἄρτους τῆς προθέσεως ἔφαγεν, οὓς οὐκ ἔξεστι φαγεῖν εἰ μὴ τοῖς ἱερεῦσι, καὶ ἔδωκε καὶ τοῖς σὺν αὐτῷ οὖσι;
+   - SBLGNT: πῶς εἰσῆλθεν εἰς τὸν οἶκον τοῦ θεοῦ ἐπὶ Ἀβιαθὰρ ἀρχιερέως καὶ τοὺς ἄρτους τῆς προθέσεως ἔφαγεν, οὓς οὐκ ἔξεστιν φαγεῖν εἰ μὴ τοὺς ἱερεῖς, καὶ ἔδωκεν καὶ τοῖς σὺν αὐτῷ οὖσιν;
+   - Vulgate: quomodo introivit in domum Dei sub Abiathar principe sacerdotum, et panes propositionis manducavit, quos non licebat manducare, nisi sacerdotibus, et dedit eis qui cum eo erant?
+   - BSB: During the high priesthood of Abiathar, he entered the house of God and ate the consecrated bread, which was lawful only for the priests. And he gave some to his companions as well.”
+   - WEB: How he entered into God’s house at the time of Abiathar the high priest, and ate the show bread, which is not lawful to eat except for the priests, and gave also to those who were with him?”
 - **3:6** substitute (word): critical *ἐδίδουν* ] RP *ἐποίουν*
    - Latin: Pharisæī vērō ēgressī, prōtinus cum Hērōdiānīs cōnsilium dē eō perimendō cēpērunt.
    - 1573: Pharisæi verò egressi, protinus cum Herodianis consilium de eo perimendo ceperunt.
@@ -385,7 +513,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et si domus super semetipsam dispertiatur, non potest domus illa stare.
    - BSB: If a house is divided against itself, it cannot stand.
    - WEB: If a house is divided against itself, that house cannot stand.
-- **3:26** substitute (word): critical *στῆναι* ] RP *σταθῆναι*
+- **3:26** substitute (word): critical *ἐμερίσθη* ] RP *μεμέρισται*; substitute (word): critical *στῆναι* ] RP *σταθῆναι*
    - Latin: Quod sī Satanās sēcum ipse pugnat, ac dissīdet, stāre nequit, sed fīnem habēbit.
    - 1573: Quòd si Satanas secum ipse pugnat, ac dissidet, stare nequit, sed finem habebit.
    - TR: Καὶ εἰ ὁ Σατανᾶς ἀνέστη ἐφ᾿ ἑαυτὸν καὶ μεμέρισται, οὐ δύναται σταθῆναι, ἀλλὰ τέλος ἔχει.
@@ -441,6 +569,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: et quando exortus est sol, exæstuavit: et eo quod non habebat radicem, exaruit.
    - BSB: But when the sun rose, the seedlings were scorched, and they withered because they had no root.
    - WEB: When the sun had risen, it was scorched; and because it had no root, it withered away.
+- **4:8** substitute (word): critical *ἄλλα* ] RP *ἄλλο*
+   - Latin: Aliud cecidit in bonam terram, ēdiditque frūctum, quī tantō incrēmentō auctus est, ut extulerit partim cum trīcēsimō, partim cum sexāgēsimō, partim cum centēsimō.
+   - 1573: Aliud cecidit in bonam terram, ediditque fructum, qui tanto incremento auctus est, vt extulerit partim cum trigesimo, partim cum sexagesimo, partim cum centesimo.
+   - TR: Καὶ ἄλλο ἔπεσεν εἰς τὴν γῆν τὴν καλήν· καὶ ἐδίδου καρπὸν ἀναβαίνοντα καὶ αὐξάνοντα, καὶ ἔφερεν ἐν τριάκοντα, καὶ ἐν ἑξήκοντα, καὶ ἐν ἑκατόν.
+   - SBLGNT: καὶ ἄλλα ἔπεσεν εἰς τὴν γῆν τὴν καλήν, καὶ ἐδίδου καρπὸν ἀναβαίνοντα καὶ αὐξανόμενα, καὶ ἔφερεν ἓν τριάκοντα καὶ ἓν ἑξήκοντα καὶ ἓν ἑκατόν.
+   - Vulgate: Et aliud cecidit in terram bonam: et dabat fructum ascendentem et crescentem, et afferebat unum triginta, unum sexaginta, et unum centum.
+   - BSB: Still other seed fell on good soil, where it sprouted, grew up, and produced a crop—one bearing thirtyfold, another sixtyfold, and another a hundredfold.”
+   - WEB: Others fell into the good ground and yielded fruit, growing up and increasing. Some produced thirty times, some sixty times, and some one hundred times as much.”
 - **4:9** substitute (word): critical *Ὃς ἔχει* ] RP *Ὃ ἔχων*
    - Latin: Quī aurēs habet ad audiendum,” inquit iīs, “audiat.”
    - 1573: Qui aures habet ad audiendum (inquit eis) audiat.
@@ -529,7 +665,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et dicebat: Cui assimilabimus regnum Dei? aut cui parabolæ comparabimus illud?
    - BSB: Then He asked, “To what can we compare the kingdom of God? With what parable shall we present it?
    - WEB: He said, “How will we liken God’s Kingdom? Or with what parable will we illustrate it?
-- **4:31** substitute (word): critical *μικρότερον ὂν* ] RP *μικρότερος*
+- **4:31** substitute (word): critical *μικρότερον ὂν* ] RP *μικρότερος*; add (word): critical *σπερμάτων* ] RP *+ ἐστὶν*
    - Latin: Perinde est ac grānum sināpī, quod cum in terrā satum est, est quidem omnium terrestrium sēminum vel minimum.
    - 1573: Perinde est ac granum sinapi, quod cùm in terra satum est, est quidem omnium terrestrium seminum vel minimum:
    - TR: Ὡς κόκκῳ σινάπεως, ὅς, ὅταν σπαρῇ ἐπὶ τῆς γῆς, μικρότερος πάντων τῶν σπερμάτων ἐστὶ τῶν ἐπὶ τῆς γῆς·
@@ -537,6 +673,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Sicut granum sinapis, quod cum seminatum fuerit in terra, minus est omnibus seminibus, quæ sunt in terra:
    - BSB: It is like a mustard seed, which is the smallest of all seeds sown upon the earth.
    - WEB: It’s like a grain of mustard seed, which, when it is sown in the earth, though it is less than all the seeds that are on the earth,
+- **4:34** substitute (word): critical *ἰδίοις μαθηταῖς* ] RP *μαθηταῖς αὐτοῦ*
+   - Latin: Nec eōs absque similitūdine alloquēbātur, sed seorsum discipulīs suīs explicābat omnia.
+   - 1573: nec eos absque similitudine alloquebatur, sed seorsum discipulis suis explicabat omnia.
+   - TR: χωρὶς δὲ παραβολῆς οὐκ ἐλάλει αὐτοῖς· κατ᾿ ἰδίαν δὲ τοῖς μαθηταῖς αὐτοῦ ἐπέλυε πάντα.
+   - SBLGNT: χωρὶς δὲ παραβολῆς οὐκ ἐλάλει αὐτοῖς, κατʼ ἰδίαν δὲ τοῖς ἰδίοις μαθηταῖς ἐπέλυεν πάντα.
+   - Vulgate: sine parabola autem non loquebatur eis: seorsum autem discipulis suis disserebat omnia.
+   - BSB: He did not tell them anything without using a parable. But privately He explained everything to His own disciples.
+   - WEB: Without a parable he didn’t speak to them; but privately to his own disciples he explained everything.
 - **4:36** substitute (word): critical *πλοῖα* ] RP *δὲ πλοιάρια*
    - Latin: Itaque illī, omissā hominum multitūdine, eum admīsērunt, ut erat in nāvī, cum quidem aliæ quoque nāviculæ essent ūnā cum eō.
    - 1573: Itaque illi, omissa hominum multitudine, eum admiserunt, vt erat in naui, cùm quidem aliæ quoque nauiculæ essent vnà cum eo:
@@ -625,6 +769,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: et deprecabatur eum multum, dicens: Quoniam filia mea in extremis est, veni, impone manum super eam, ut salva sit, et vivat.
    - BSB: and pleaded with Him urgently, “My little daughter is near death. Please come and place Your hands on her, so that she will be healed and live.”
    - WEB: and begged him much, saying, “My little daughter is at the point of death. Please come and lay your hands on her, that she may be made healthy, and live.”
+- **5:33** substitute (word): critical *αὐτῇ* ] RP *ἐπʼ αὐτῇ*
+   - Latin: territa mulier, et tremebunda, sciēns quid sibi accidisset, vēnit, et eī accidit, remque omnem, ut sēsē habēbat, dīxit.
+   - 1573: territa mulier, et tremebunda, sciens quid sibi accidisset, venit, et ei accidit, remque omnem, vt sese habebat, dixit.
+   - TR: Ἡ δὲ γυνὴ φοβηθεῖσα καὶ τρέμουσα, εἰδυῖα ὃ γέγονεν ἐπ᾿ αὐτῇ, ἦλθε καὶ προσέπεσεν αὐτῷ, καὶ εἶπεν αὐτῷ πᾶσαν τὴν ἀλήθειαν.
+   - SBLGNT: ἡ δὲ γυνὴ φοβηθεῖσα καὶ τρέμουσα, εἰδυῖα ὃ γέγονεν αὐτῇ, ἦλθεν καὶ προσέπεσεν αὐτῷ καὶ εἶπεν αὐτῷ πᾶσαν τὴν ἀλήθειαν.
+   - Vulgate: Mulier vero timens et tremens, sciens quod factum esset in se, venit et procidit ante eum, et dixit ei omnem veritatem.
+   - BSB: Then the woman, knowing what had happened to her, came and fell down before Him trembling in fear, and she told Him the whole truth.
+   - WEB: But the woman, fearing and trembling, knowing what had been done to her, came and fell down before him, and told him all the truth.
 - **5:36** substitute (word): critical *παρακούσας* ] RP *εὐθέως ἀκούσας*
    - Latin: At Jēsūs, simul ac quid dīcerētur audīvit, dīxit magistrō collēgiī: “Nē metue; tantum crēde.”
    - 1573: At Iesus, simul ac quid diceretur audiuit, dixit magistro collegij: Ne metue, tantùm crede.
@@ -633,14 +785,6 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Jesus autem audito verbo quod dicebatur, ait archisynagogo: Noli timere: tantummodo crede.
    - BSB: But Jesus overheard their conversation and said to Jairus, “Do not be afraid; just believe.”
    - WEB: But Jesus, when he heard the message spoken, immediately said to the ruler of the synagogue, “Don’t be afraid, only believe.”
-- **5:37** substitute (word): critical *μετʼ αὐτοῦ* ] RP *αὐτῷ*
-   - Latin: Nōn sīvit autem quemquam sē subsequī, præter Petrum, et Jācōbum, et Jōhannem Jācōbī frātrem.
-   - 1573: Non siuit autem quenquam se subsequi, præter Petrum, et Iacobum, et Iohannem Iacobi fratrem.
-   - TR: Καὶ οὐκ ἀφῆκεν οὐδένα αὐτῷ συνακολουθῆσαι, εἰ μὴ Πέτρον καὶ Ἰάκωβον καὶ Ἰωάννην τὸν ἀδελφὸν Ἰακώβου.
-   - SBLGNT: καὶ οὐκ ἀφῆκεν οὐδένα μετʼ αὐτοῦ συνακολουθῆσαι εἰ μὴ τὸν Πέτρον καὶ Ἰάκωβον καὶ Ἰωάννην τὸν ἀδελφὸν Ἰακώβου.
-   - Vulgate: Et non admisit quemquam se sequi nisi Petrum, et Jacobum, et Joannem fratrem Jacobi.
-   - BSB: And He did not allow anyone to accompany Him except Peter, James, and John the brother of James.
-   - WEB: He allowed no one to follow him except Peter, James, and John the brother of James.
 - **5:38** substitute (word): critical *ἔρχονται* ] RP *ἔρχεται*
    - Latin: Deinde ubi vēnit in ædēs magistrī collēgiī, videt tumultum, et plōrantēs, multumque ejulantēs,
    - 1573: Deinde vbi venit in ædes magistri collegij, videt tumultum, et plorantes, multumque eiulantes,
@@ -697,6 +841,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Quo audito Herodes ait: Quem ego decollavi Joannem, hic a mortuis resurrexit.
    - BSB: But when Herod heard this, he said, “John, whom I beheaded, has risen from the dead!”
    - WEB: But Herod, when he heard this, said, “This is John, whom I beheaded. He has risen from the dead.”
+- **6:20** substitute (word): critical *ἠπόρει* ] RP *ἐποίει*
+   - Latin: Proptereā quod Hērōdēs Jōhannem verēbātur, sciēns virum esse jūstum, atque sānctum, eumque observābat, eīque multīs in rēbus auscultābat, et eum libenter audiēbat.
+   - 1573: propterea quòd Herodes Iohannem verebatur, sciens virum esse iustum, atque sanctum, eumque obseruabat, eique multis in rebus auscultabat, et eum libenter audiebat.
+   - TR: ὁ γὰρ Ἡρῴδης ἐφοβεῖτο τὸν Ἰωάννην, εἰδὼς αὐτὸν ἄνδρα δίκαιον καὶ ἅγιον, καὶ συνετήρει αὐτόν· καὶ ἀκούσας αὐτοῦ, πολλὰ ἐποίει, καὶ ἡδέως αὐτοῦ ἤκουε.
+   - SBLGNT: ὁ γὰρ Ἡρῴδης ἐφοβεῖτο τὸν Ἰωάννην, εἰδὼς αὐτὸν ἄνδρα δίκαιον καὶ ἅγιον, καὶ συνετήρει αὐτόν, καὶ ἀκούσας αὐτοῦ πολλὰ ἠπόρει, καὶ ἡδέως αὐτοῦ ἤκουεν.
+   - Vulgate: Herodes enim metuebat Joannem, sciens eum virum justum et sanctum: et custodiebat eum, et audito eo multa faciebat, et libenter eum audiebat.
+   - BSB: because Herod feared John and protected him, knowing that he was a righteous and holy man. When he heard John’s words, he was greatly perplexed; yet he listened to him gladly.
+   - WEB: for Herod feared John, knowing that he was a righteous and holy man, and kept him safe. When he heard him, he did many things, and he heard him gladly.
 - **6:26** substitute (word): critical *ἀνακειμένους* ] RP *συνανακειμένους*
    - Latin: Id quod dolēns rēx, tamen propter jūsjūrandum et convīvās nōluit eī dēnegāre:
    - 1573: Id quod dolens rex, tamen propter iusiurandum et conuiuas noluit ei denegare:
@@ -777,6 +929,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et videns eos laborantes in remigando (erat enim ventus contrarius eis) et circa quartam vigiliam noctis venit ad eos ambulans supra mare: et volebat præterire eos.
    - BSB: He could see that the disciples were straining to row, because the wind was against them. About the fourth watch of the night, Jesus went out to them, walking on the sea. He intended to pass by them,
    - WEB: Seeing them distressed in rowing, for the wind was contrary to them, about the fourth watch of the night he came to them, walking on the sea; and he would have passed by them,
+- **6:49** substitute (word): critical *ὅτι φάντασμά ἐστιν* ] RP *φάντασμα εἶναι*
+   - Latin: At illī eum lacū ambulantem cōnspicātī, et spectrum esse ratī, exclāmāre:
+   - 1573: At illi eum lacu ambulantem conspicati, et spectrum esse rati, exclamare:
+   - TR: Οἱ δέ, ἰδόντες αὐτὸν περιπατοῦντα ἐπὶ τῆς θαλάσσης, ἔδοξαν φάντασμα εἶναι, καὶ ἀνέκραξαν·
+   - SBLGNT: οἱ δὲ ἰδόντες αὐτὸν ἐπὶ τῆς θαλάσσης περιπατοῦντα ἔδοξαν ὅτι φάντασμά ἐστιν καὶ ἀνέκραξαν,
+   - Vulgate: At illi ut viderunt eum ambulantem supra mare, putaverunt phantasma esse, et exclamaverunt.
+   - BSB: but when they saw Him walking on the sea, they cried out, thinking He was a ghost—
+   - WEB: but they, when they saw him walking on the sea, supposed that it was a ghost, and cried out;
 - **6:51** add (word): critical *ἐξίσταντο* ] RP *+ καὶ ἐθαύμαζον*
    - Latin: Ad eōsque ascendit in nāvem, et ventus posuit: id quod illī suprā modum attonitī, apud sēsē mīrārī.
    - 1573: ad eosque ascendit in nauem, et ventus posuit: id quod illi supra modum attoniti, apud sese mirari.
@@ -785,15 +945,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et ascendit ad illos in navim, et cessavit ventus. Et plus magis intra se stupebant:
    - BSB: Then He climbed into the boat with them, and the wind died down. And the disciples were utterly astounded,
    - WEB: He got into the boat with them; and the wind ceased, and they were very amazed among themselves, and marveled;
-- **6:52** substitute (word): critical *ἀλλʼ ἦν* ] RP *ἦν γὰρ*
-   - Latin: Nōn enim cōnsīderābant illōs pānēs, utpote quī torpentibus essent animīs.
-   - 1573: Non enim considerabant illos panes, vtpote qui torpentibus essent animis.
-   - TR: Οὐ γὰρ συνῆκαν ἐπὶ τοῖς ἄρτοις· ἦν γὰρ ἡ καρδία αὐτῶν πεπωρωμένη.
-   - SBLGNT: οὐ γὰρ συνῆκαν ἐπὶ τοῖς ἄρτοις, ἀλλʼ ἦν αὐτῶν ἡ καρδία πεπωρωμένη.
-   - Vulgate: non enim intellexerunt de panibus: erat enim cor eorum obcæcatum.
-   - BSB: for they had not understood about the loaves, but their hearts had been hardened.
-   - WEB: for they hadn’t understood about the loaves, but their hearts were hardened.
-- **6:55** substitute (word): critical *περιέδραμον ὅλην τὴν χώραν ἐκείνην καὶ* ] RP *περιδραμόντες ὅλην τὴν περίχωρον ἐκείνην*
+- **6:55** substitute (word): critical *περιέδραμον ὅλην τὴν χώραν ἐκείνην καὶ* ] RP *περιδραμόντες ὅλην τὴν περίχωρον ἐκείνην*; add (word): critical *ὅτι* ] RP *+ ἐκεῖ*
    - Latin: tōtam illam fīnitimam regiōnem percurrērunt, cœpēruntque in grabātīs male affectōs eō afferre, ubi eum esse audiēbant:
    - 1573: totam illam finitimam regionem percurrerunt, cœperuntque in grabatis malè affectos eò afferre, vbi eum esse audiebant.
    - TR: περιδραμόντες ὅλην τὴν περίχωρον ἐκείνην, ἤρξαντο ἐπὶ τοῖς κραββάτοις τοὺς κακῶς ἔχοντας περιφέρειν, ὅπου ἤκουον ὅτι ἐκεῖ ἐστι.
@@ -857,22 +1009,6 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et cum introisset in domum a turba, interrogabant eum discipuli ejus parabolam.
    - BSB: After Jesus had left the crowd and gone into the house, His disciples inquired about the parable.
    - WEB: When he had entered into a house away from the multitude, his disciples asked him about the parable.
-- **7:24** substitute (word): critical *ὅρια* ] RP *μεθόρια*
-   - Latin: Illinc profectus, discessit in Tyrī Sīdōnisque cōnfīnia, ingressusque domum, nōlēbat id scīre quemquam: sed nōn potuit latēre.
-   - 1573: Illinc profectus, discessit in Tyri Sidonisque confinia, ingressusque domum, nolebat id scire quemquam: sed non potuit latêre.
-   - TR: Καὶ ἐκεῖθεν ἀναστὰς ἀπῆλθεν εἰς τὰ μεθόρια Τύρου καὶ Σιδῶνος. Καὶ εἰσελθὼν εἰς τὴν οἰκίαν, οὐδένα ἤθελε γνῶναι, καὶ οὐκ ἠδυνήθη λαθεῖν.
-   - SBLGNT: Ἐκεῖθεν δὲ ἀναστὰς ἀπῆλθεν εἰς τὰ ὅρια Τύρου. καὶ εἰσελθὼν εἰς οἰκίαν οὐδένα ἤθελεν γνῶναι, καὶ οὐκ ἠδυνήθη λαθεῖν·
-   - Vulgate: Et inde surgens abiit in fines Tyri et Sidonis: et ingressus domum, neminem voluit scire, et non potuit latere.
-   - BSB: Jesus left that place and went to the region of Tyre. Not wanting anyone to know He was there, He entered a house, but was unable to escape their notice.
-   - WEB: From there he arose and went away into the borders of Tyre and Sidon. He entered into a house and didn’t want anyone to know it, but he couldn’t escape notice.
-- **7:25** substitute (word): critical *ἀλλʼ εὐθὺς ἀκούσασα* ] RP *Ἀκούσασα γὰρ*
-   - Latin: Nam cum dē eō audīsset quædam mulier, cujus fīlia spīritum habēbat impūrum, vēnit, et eī ad pedēs accidit.
-   - 1573: Nam cùm de eo audiuisset quædam mulier, cuius filia spiritum habebat impurum, venit, et ei ad pedes accidit.
-   - TR: Ἀκούσασα γὰρ γυνὴ περὶ αὐτοῦ, ἧς εἶχε τὸ θυγάτριον αὐτῆς πνεῦμα ἀκάθαρτον, ἐλθοῦσα προσέπεσε πρὸς τοὺς πόδας αὐτοῦ·
-   - SBLGNT: ἀλλʼ εὐθὺς ἀκούσασα γυνὴ περὶ αὐτοῦ, ἧς εἶχεν τὸ θυγάτριον αὐτῆς πνεῦμα ἀκάθαρτον, ἐλθοῦσα προσέπεσεν πρὸς τοὺς πόδας αὐτοῦ·
-   - Vulgate: Mulier enim statim ut audivit de eo, cujus filia habebat spiritum immundum, intravit, et procidit ad pedes ejus.
-   - BSB: Instead, a woman whose little daughter had an unclean spirit soon heard about Jesus, and she came and fell at His feet.
-   - WEB: For a woman whose little daughter had an unclean spirit, having heard of him, came and fell down at his feet.
 - **7:27** substitute (word): critical *καὶ ἔλεγεν* ] RP *Ὁ δὲ Ἰησοῦς εἶπεν*
    - Latin: At Jēsūs dīxit eī: “Sine prius satiārī nātōs. Nōn enim convenit sūmere nātōrum pānem, et catellīs objicere.”
    - 1573: At Iesus dixit ei: Sine prius satiari natos. Non enim conuenit sumere natorum panem, et catellis obijcere.
@@ -881,6 +1017,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Qui dixit illi: Sine prius saturari filios: non est enim bonum sumere panem filiorum, et mittere canibus.
    - BSB: “First let the children have their fill,” He said. “For it is not right to take the children’s bread and toss it to the dogs.”
    - WEB: But Jesus said to her, “Let the children be filled first, for it is not appropriate to take the children’s bread and throw it to the dogs.”
+- **7:28** substitute (word): critical *Κύριε* ] RP *Ναί κύριε*
+   - Latin: Et illa: “Etsī ita est, Domine,” inquit eī respondēns, “tamen catellī sub mēnsā comedunt dē puerōrum mīcīs.”
+   - 1573: Et illa: Etsi ita est, Domine (inquit ei respondens) tamen catelli sub mensa comedunt de puerorum micis.
+   - TR: Ἡ δὲ ἀπεκρίθη καὶ λέγει αὐτῷ, Ναί, Κύριε· καὶ γὰρ τὰ κυνάρια ὑποκάτω τῆς τραπέζης ἐσθίει ἀπὸ τῶν ψιχίων τῶν παιδίων.
+   - SBLGNT: ἡ δὲ ἀπεκρίθη καὶ λέγει αὐτῷ· Κύριε, καὶ τὰ κυνάρια ὑποκάτω τῆς τραπέζης ἐσθίουσιν ἀπὸ τῶν ψιχίων τῶν παιδίων.
+   - Vulgate: At illa respondit, et dixit illi: Utique Domine, nam et catelli comedunt sub mensa de micis puerorum.
+   - BSB: “Yes, Lord,” she replied, “even the dogs under the table eat the children’s crumbs.”
+   - WEB: But she answered him, “Yes, Lord. Yet even the dogs under the table eat the children’s crumbs.”
 - **7:30** substitute (word): critical *παιδίον βεβλημένον ἐπὶ τὴν κλίνην καὶ τὸ δαιμόνιον ἐξεληλυθός* ] RP *δαιμόνιον ἐξεληλυθός καὶ τὴν θυγατέρα βεβλημένην ἐπὶ τῆς κλίνης*
    - Latin: Itaque illa domum suam profecta, invēnit ēgressum dæmonium, et jacentem in lectō fīliam.
    - 1573: Itaque illa domum suam profecta, inuenit egressum dæmonium, et iacentem in lecto filiam.
@@ -937,6 +1081,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et habebant pisciculos paucos: et ipsos benedixit, et jussit apponi.
    - BSB: They also had a few small fish, and Jesus blessed them and ordered that these be set before them as well.
    - WEB: They also had a few small fish. Having blessed them, he said to serve these also.
+- **8:9** add (word): critical *δὲ* ] RP *+ οἱ φαγόντες*
+   - Latin: Erant autem quī comēdērunt, circiter quattuor mīlia:
+   - 1573: Erant autem qui comederunt, circiter quatuor millia:
+   - TR: Ἦσαν δὲ οἱ φαγόντες ὡς τετρακισχίλιοι· καὶ ἀπέλυσεν αὐτούς.
+   - SBLGNT: ἦσαν δὲ ὡς τετρακισχίλιοι. καὶ ἀπέλυσεν αὐτούς.
+   - Vulgate: Erant autem qui manducaverunt, quasi quatuor millia: et dimisit eos.
+   - BSB: And about four thousand men were present. As soon as Jesus had dismissed the crowd,
+   - WEB: Those who had eaten were about four thousand. Then he sent them away.
 - **8:12** substitute (word): critical *ζητεῖ σημεῖον* ] RP *σημεῖον ἐπιζητεῖ*
    - Latin: At ille animō ingemuit, et dīxit: “Quid signum quærit hæc nātiō? Prō certō habētōte, nūllum huic nātiōnī signum datum īrī.”
    - 1573: At ille animo ingemuit, et dixit: Quid signum quærit hæc natio? Pro certo habetote, nullum huic nationi signum datum iri.
@@ -961,7 +1113,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et cogitabant ad alterutrum, dicentes: quia panes non habemus.
    - BSB: So they began to discuss with one another the fact that they had no bread.
    - WEB: They reasoned with one another, saying, “It’s because we have no bread.”
-- **8:17** substitute (word): critical *πεπωρωμένην* ] RP *Ἔτι πεπωρωμένην*
+- **8:17** add (word): critical *γνοὺς* ] RP *+ ὁ Ἰησοῦς*; substitute (word): critical *πεπωρωμένην* ] RP *Ἔτι πεπωρωμένην*
    - Latin: Quō cognitō Jēsūs, iīs inquit: “Quid cōgitātis? vōs nōn habēre pānēs? An nōndum animadvertitis, nec intellegitis? adhūc torpentia habētis corda?
    - 1573: Quo cognito Iesus, eis inquit: Quid cogitatis? vos non habere panes? An nondum animaduertitis, nec intelligitis? adhuc torpentia habetis corda?
    - TR: Καὶ γνοὺς ὁ Ἰησοῦς λέγει αὐτοῖς, Τί διαλογίζεσθε ὅτι ἄρτους οὐκ ἔχετε; Οὔπω νοεῖτε, οὐδὲ συνίετε; Ἔτι πεπωρωμένην ἔχετε τὴν καρδίαν ὑμῶν;
@@ -969,6 +1121,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Quo cognito, ait illis Jesus: Quid cogitatis, quia panes non habetis? nondum cognoscetis nec intelligitis? adhuc cæcatum habetis cor vestrum?
    - BSB: Aware of their conversation, Jesus asked them, “Why are you debating about having no bread? Do you still not see or understand? Do you have such hard hearts?
    - WEB: Jesus, perceiving it, said to them, “Why do you reason that it’s because you have no bread? Don’t you perceive yet or understand? Is your heart still hardened?
+- **8:20** substitute (word): critical *καὶ λέγουσιν αὐτῷ* ] RP *οἱ δὲ εἶπον*
+   - Latin: “Quid cum septem ad quattuor mīlia? quot plēnās fragmentōrum sportās sustulistis?” “Septem,” inquiunt.
+   - 1573: Quid cùm septem ad quatuor millia? quot plenas fragmentorum sportas sustulistis? Septem, inquiunt.
+   - TR: Ὅτε δὲ τοὺς ἑπτὰ εἰς τοὺς τετρακισχιλίους, πόσων σπυρίδων πληρώματα κλασμάτων ἤρατε; Οἱ δὲ εἶπον, Ἑπτά.
+   - SBLGNT: ὅτε καὶ τοὺς ἑπτὰ εἰς τοὺς τετρακισχιλίους, πόσων σπυρίδων πληρώματα κλασμάτων ἤρατε; καὶ λέγουσιν αὐτῷ· Ἑπτά.
+   - Vulgate: Quando et septem panes in quatuor millia: quot sportas fragmentorum tulistis? Et dicunt ei: Septem.
+   - BSB: “And when I broke the seven loaves for the four thousand, how many basketfuls of broken pieces did you collect?” “Seven,” they said.
+   - WEB: “When the seven loaves fed the four thousand, how many baskets full of broken pieces did you take up?” They told him, “Seven.”
 - **8:21** substitute (word): critical *Οὔπω* ] RP *Πῶς οὐ*
    - Latin: Et ille: “Quī fit,” inquit iīs, “ut nōn animadvertātis?”
    - 1573: Et ille Quî fit, inquit eis, vt non animaduertatis?
@@ -1033,6 +1193,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et convocata turba cum discipulis suis, dixit eis: Si quis vult me sequi, deneget semetipsum: et tollat crucem suam, et sequatur me.
    - BSB: Then Jesus called the crowd to Him along with His disciples, and He told them, “If anyone wants to come after Me, he must deny himself and take up his cross and follow Me.
    - WEB: He called the multitude to himself with his disciples and said to them, “Whoever wants to come after me, let him deny himself, and take up his cross, and follow me.
+- **8:36** substitute (word): critical *κερδῆσαι τὸν … καὶ ζημιωθῆναι* ] RP *ἐὰν κερδήσῃ τὸν … καὶ ζημιωθῇ*
+   - Latin: Quid vērō prōderit hominī, sī vel tōtum mundum lucrātus fuerit, et animæ suæ jactūram faciat?
+   - 1573: Quid verò proderit homini, si vel totum mundum lucratus fuerit, et animæ suæ iacturam faciat?
+   - TR: Τί γὰρ ὠφελήσει ἄνθρωπον, ἐὰν κερδήσῃ τὸν κόσμον ὅλον, καὶ ζημιωθῇ τὴν ψυχὴν αὐτοῦ;
+   - SBLGNT: τί γὰρ ὠφελεῖ ἄνθρωπον κερδῆσαι τὸν κόσμον ὅλον καὶ ζημιωθῆναι τὴν ψυχὴν αὐτοῦ;
+   - Vulgate: Quid enim proderit homini, si lucretur mundum totum et detrimentum animæ suæ faciat?
+   - BSB: What does it profit a man to gain the whole world, yet forfeit his soul?
+   - WEB: For what does it profit a man to gain the whole world and forfeit his life?
 - **8:37** substitute (word): critical *δοῖ* ] RP *δώσει*
    - Latin: Aut quam dabit homō animæ suæ compēnsātiōnem?
    - 1573: aut quam dabit homo animæ suæ compensationem?
@@ -1057,6 +1225,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Non enim sciebat quid diceret: erant enim timore exterriti.
    - BSB: For they were all so terrified that Peter did not know what else to say.
    - WEB: For he didn’t know what to say, for they were very afraid.
+- **9:7** substitute (word): critical *ἐγένετο* ] RP *ἦλθεν*
+   - Latin: Exstitit autem nūbēs, quæ illōs inumbrāvit, vēnitque vōx ex nūbe, dīcēns: “Hic est meus cārissimus Fīlius, hunc audīte.”
+   - 1573: Extitit autem nubes, quæ illos inumbrauit, venitque vox ex nube, dicens: Hic est meus charissimus filius, hunc audite.
+   - TR: Καὶ ἐγένετο νεφέλη ἐπισκιάζουσα αὐτοῖς· καὶ ἦλθε φωνὴ ἐκ τῆς νεφέλης λέγουσα, Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός· αὐτοῦ ἀκούετε.
+   - SBLGNT: καὶ ἐγένετο νεφέλη ἐπισκιάζουσα αὐτοῖς, καὶ ἐγένετο φωνὴ ἐκ τῆς νεφέλης· Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός, ἀκούετε αὐτοῦ.
+   - Vulgate: Et facta est nubes obumbrans eos: et venit vox de nube, dicens: Hic est Filius meus carissimus: audite illum.
+   - BSB: Then a cloud appeared and enveloped them, and a voice came from the cloud: “This is My beloved Son. Listen to Him!”
+   - WEB: A cloud came, overshadowing them, and a voice came out of the cloud, “This is my beloved Son. Listen to him.”
 - **9:12** substitute (word): critical *ἔφη* ] RP *ἀποκριθείς εἶπεν*
    - Latin: Et ille respondēns iīs: “Ēlīās quidem prius ventūrus, et omnia īnstaurātūrus est, idque quemadmodum dē Fīliō Hominis scrīptum est, multa passūrum, et contemnendum esse.
    - 1573: Et ille respondens eis: Elias quidem prius venturus, et omnia instauraturus est, idque quemadmodum de filio hominis scriptum est, multa passurum, et contemnendum esse.
@@ -1097,6 +1273,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et respondens unus de turba, dixit: Magister, attuli filium meum ad te habentem spiritum mutum:
    - BSB: Someone in the crowd replied, “Teacher, I brought You my son, who has a spirit that makes him mute.
    - WEB: One of the multitude answered, “Teacher, I brought to you my son, who has a mute spirit;
+- **9:20** substitute (word): critical *συνεσπάραξεν* ] RP *ἐσπάραξεν*
+   - Latin: Atque ille ad eum addūcitur, et simul ac ille eum vīdit, convulsit eum spīritus, ita ut collāpsus humī volūtārētur spūmāns.
+   - 1573: Atque ille ad eum adducitur, et simul ac ille eum vidit, conuulsit eum spiritus, ita vt collapsus humi, volutaretur spumans.
+   - TR: Καὶ ἤνεγκαν αὐτὸν πρὸς αὐτόν· καὶ ἰδὼν αὐτόν, εὐθέως τὸ πνεῦμα ἐσπάραξεν αὐτόν· καὶ πεσὼν ἐπὶ τῆς γῆς, ἐκυλίετο ἀφρίζων.
+   - SBLGNT: καὶ ἤνεγκαν αὐτὸν πρὸς αὐτόν. καὶ ἰδὼν αὐτὸν τὸ πνεῦμα εὐθὺς συνεσπάραξεν αὐτόν, καὶ πεσὼν ἐπὶ τῆς γῆς ἐκυλίετο ἀφρίζων.
+   - Vulgate: Et attulerunt eum. Et cum vidisset eum, statim spiritus conturbavit illum: et elisus in terram, volutabatur spumans.
+   - BSB: So they brought him, and seeing Jesus, the spirit immediately threw the boy into a convulsion. He fell to the ground and rolled around, foaming at the mouth.
+   - WEB: They brought him to him, and when he saw him, immediately the spirit convulsed him and he fell on the ground, wallowing and foaming at the mouth.
 - **9:22** substitute (word): critical *δύνῃ* ] RP *δύνασαι*
    - Latin: Ac sæpe eum et in ignem jēcit, et in aquam, ut eum perderet. Sed sī quid potes, succurre nōbīs, nostrī miseritus.”
    - 1573: ac sepe eum et in ignem iecit, et in aquam, vt eum perderet. Sed si quid potes, succurre nobis, nostri misertus.
@@ -1217,6 +1401,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et si uxor dimiserit virum suum, et alii nupserit, mœchatur.
    - BSB: And if a woman divorces her husband and marries another man, she commits adultery.”
    - WEB: If a woman herself divorces her husband and marries another, she commits adultery.”
+- **10:13** substitute (word): critical *ἐπετίμησαν αὐτοῖς* ] RP *ἐπετίμων τοῖς προσφέρουσιν*
+   - Latin: Addūcēbantur autem eī puerī, ut eōs tangeret: discipulī vērō eōs ā quibus addūcēbantur, objūrgābant:
+   - 1573: Adducebantur autem ei pueri, vt eos tangeret: discipuli verò eos à quibus adducebantur, obiurgabant:
+   - TR: Καὶ προσέφερον αὐτῷ παιδία, ἵνα ἅψηται αὐτῶν· οἱ δὲ μαθηταὶ ἐπετίμων τοῖς προσφέρουσιν.
+   - SBLGNT: Καὶ προσέφερον αὐτῷ παιδία ἵνα αὐτῶν ἅψηται· οἱ δὲ μαθηταὶ ἐπετίμησαν αὐτοῖς.
+   - Vulgate: Et offerebant illi parvulos ut tangeret illos. Discipuli autem comminabantur offerentibus.
+   - BSB: Now people were bringing the little children to Jesus for Him to place His hands on them, and the disciples rebuked those who brought them.
+   - WEB: They were bringing to him little children, that he should touch them, but the disciples rebuked those who were bringing them.
 - **10:16** substitute (word): critical *κατευλόγει τιθεὶς … αὐτά* ] RP *τιθεὶς … αὐτά, εὐλόγει αὐτά*
    - Latin: Deinde eōs complexus ulnīs, et manibus iīs impositīs, iīs bene precātus est.
    - 1573: Deinde eos complexus vlnis, et manibus eis impositis, eis bene precatus est.
@@ -1233,7 +1425,15 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: At ille respondens, ait illi: Magister, hæc omnia observavi a juventute mea.
    - BSB: “Teacher,” he replied, “all these I have kept from my youth.”
    - WEB: He said to him, “Teacher, I have observed all these things from my youth.”
-- **10:29** substitute (word): critical *μητέρα ἢ πατέρα* ] RP *πατέρα ἢ μητέρα ἢ γυναῖκα*
+- **10:27** add (word): critical *δυνατὰ* ] RP *+ ἐστιν*
+   - Latin: Intuitus eōs Jēsūs, dīxit: “Ab hominibus fierī nōn potest, at ā Deō potest: omnia enim ā Deō possunt fierī.”
+   - 1573: intuitus eos Iesus, dixit: Ab hominibus fieri non potest, at à Deo potest: omnia enim à Deo possunt fieri.
+   - TR: Ἐμβλέψας δὲ αὐτοῖς ὁ Ἰησοῦς λέγει, Παρὰ ἀνθρώποις ἀδύνατον, ἀλλ᾿ οὐ παρὰ τῷ Θεῷ· πάντα γὰρ δυνατά ἐστι παρὰ τῷ Θεῷ.
+   - SBLGNT: ἐμβλέψας αὐτοῖς ὁ Ἰησοῦς λέγει· Παρὰ ἀνθρώποις ἀδύνατον ἀλλʼ οὐ παρὰ θεῷ, πάντα γὰρ δυνατὰ παρὰ τῷ θεῷ.
+   - Vulgate: Et intuens illos Jesus, ait: Apud homines impossibile est, sed non apud Deum: omnia enim possibilia sunt apud Deum.
+   - BSB: Jesus looked at them and said, “With man this is impossible, but not with God. For all things are possible with God.”
+   - WEB: Jesus, looking at them, said, “With men it is impossible, but not with God, for all things are possible with God.”
+- **10:29** substitute (word): critical *ἔφη ὁ Ἰησοῦς* ] RP *ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν*; substitute (word): critical *μητέρα ἢ πατέρα* ] RP *πατέρα ἢ μητέρα ἢ γυναῖκα*
    - Latin: Et Jēsūs: “Hoc vōbīs cōnfirmō,” inquit respondēns, “nūllum esse, quī domum, aut frātrēs, aut sorōrēs, aut patrem, aut mātrem, aut uxōrem, aut līberōs, aut agrōs, meā et Euangeliī causā relīquerit,
    - 1573: Et Iesus: Hoc vobis confirmo, inquit respondens, nullum esse, qui domum, aut fratres, aut sorores, aut patrem, aut matrem, aut vxorem, aut liberos, aut agros, mea et Euangelij causa reliquerit,
    - TR: Ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν, Ἀμὴν λέγω ὑμῖν, οὐδείς ἐστιν ὃς ἀφῆκεν οἰκίαν, ἢ ἀδελφούς, ἢ ἀδελφάς, ἢ πατέρα, ἢ μητέρα, ἢ γυναῖκα, ἢ τέκνα, ἢ ἀγρούς, ἕνεκεν ἐμοῦ καὶ τοῦ εὐαγγελίου,
@@ -1289,7 +1489,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Jesus autem ait illi: Vade, fides tua te salvum fecit. Et confestim vidit, et sequebatur eum in via.
    - BSB: “Go,” said Jesus, “your faith has healed you.” And immediately he received his sight and followed Jesus along the road.
    - WEB: Jesus said to him, “Go your way. Your faith has made you well.” Immediately he received his sight and followed Jesus on the way.
-- **11:2** omit (word): critical *οὔπω* ] RP *–*; substitute (word): critical *λύσατε αὐτὸν καὶ φέρετε* ] RP *λύσαντες αὐτὸν ἀγάγετε*
+- **11:2** omit (word): critical *οὔπω* ] RP *–*; substitute (word): critical *ἐκάθισεν* ] RP *κεκάθικεν*; substitute (word): critical *λύσατε αὐτὸν καὶ φέρετε* ] RP *λύσαντες αὐτὸν ἀγάγετε*
    - Latin: “Īte,” inquit, “in vīcum quī est ē regiōne vestrī, et prōtinus in eum intrantēs, inveniētis vīnctum asellum, quem nūllus hominum īnsēdit: eum solvitōte, et mihi addūcitōte.
    - 1573: Ite, inquit, in vicum qui est è regione vestri, et protinus in eum intrantes, inuenietis vinctum asellum, quem nullus hominum insedit: eum soluitote, et mihi adducitote.
    - TR: καὶ λέγει αὐτοῖς, Ὑπάγετε εἰς τὴν κώμην τὴν κατέναντι ὑμῶν· καὶ εὐθέως εἰσπορευόμενοι εἰς αὐτὴν εὑρήσετε πῶλον δεδεμένον, ἐφ᾿ ὃν οὐδεὶς ἀνθρώπων κεκάθικε· λύσαντες αὐτὸν ἀγάγετε.
@@ -1417,6 +1617,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: At illi cogitabant secum, dicentes: Si dixerimus: De cælo, dicet: Quare ergo non credidistis ei?
    - BSB: They deliberated among themselves what they should answer: “If we say, ‘From heaven,’ He will ask, ‘Why then did you not believe him?’
    - WEB: They reasoned with themselves, saying, “If we should say, ‘From heaven;’ he will say, ‘Why then did you not believe him?’
+- **11:32** substitute (word): critical *ὄχλον* ] RP *λαόν*
+   - Latin: Sīn ab hominibus dīxissent, metuēbant populum: omnēs enim Jōhannem vērē vātem esse dūcēbant.
+   - 1573: sin ab hominibus dixissent, metuebant populum: omnes enim Iohannem verè vatem esse ducebant.
+   - TR: Ἀλλ᾿ ἐὰν εἴπωμεν, Ἐξ ἀνθρώπων, ἐφοβοῦντο τὸν λαόν· ἅπαντες γὰρ εἶχον τὸν Ἰωάννην, ὅτι ὄντως προφήτης ἦν.
+   - SBLGNT: ἀλλὰ εἴπωμεν· Ἐξ ἀνθρώπων;— ἐφοβοῦντο τὸν ὄχλον, ἅπαντες γὰρ εἶχον τὸν Ἰωάννην ὄντως ὅτι προφήτης ἦν.
+   - Vulgate: Si dixerimus: Ex hominibus, timemus populum: omnes enim habebant Joannem quia vere propheta esset.
+   - BSB: But if we say, ‘From men’...” they were afraid of the people, for they all held that John truly was a prophet.
+   - WEB: If we should say, ‘From men’”—they feared the people, for all held John to really be a prophet.
 - **11:33** add (word): critical *Ἰησοῦς* ] RP *+ ἀποκριθεὶς*
    - Latin: Itaque Jēsū respondērunt, nescīre sē. Et Jēsūs iīs sīc respondit: “Nec ego vōbīs dīcō, quā hæc potestāte faciam.”
    - 1573: Itaque Iesu responderunt, nescire se. Et Iesus eis sic respondit: Nec ego vobis dico, qua hæc potestate faciam.
@@ -1521,6 +1729,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Non est Deus mortuorum, sed vivorum. Vos ergo multum erratis.
    - BSB: He is not the God of the dead, but of the living. You are badly mistaken!”
    - WEB: He is not the God of the dead, but of the living. You are therefore badly mistaken.”
+- **12:28** substitute (word): critical *ἰδὼν* ] RP *εἰδὼς*
+   - Latin: Tum scrībārum quīdam, audītīs iīs disceptantibus, vidēns eum illīs rēctē respondisse, accessit, et ex eō quæsīvit, quodnam esset omnium præceptōrum prīmum.
+   - 1573: Tum Scribarum quidam, auditis eis disceptantibus, videns eum illis rectè respondisse, accessit, et ex eo quæsiuit, quodnam esset omnium præceptorum primum?
+   - TR: Καὶ προσελθὼν εἷς τῶν γραμματέων, ἀκούσας αὐτῶν συζητούντων, εἰδὼς ὅτι καλῶς αὐτοῖς ἀπεκρίθη, ἐπηρώτησεν αὐτόν, Ποία ἐστὶ πρώτη πασῶν ἐντολή;
+   - SBLGNT: Καὶ προσελθὼν εἷς τῶν γραμματέων ἀκούσας αὐτῶν συζητούντων, ἰδὼν ὅτι καλῶς ἀπεκρίθη αὐτοῖς, ἐπηρώτησεν αὐτόν· Ποία ἐστὶν ἐντολὴ πρώτη πάντων;
+   - Vulgate: Et accessit unus de scribis, qui audierat illos conquirentes, et videns quoniam bene illis responderit, interrogavit eum quod esset primum omnium mandatum.
+   - BSB: Now one of the scribes had come up and heard their debate. Noticing how well Jesus had answered them, he asked Him, “Which commandment is the most important of all?”
+   - WEB: One of the scribes came and heard them questioning together, and knowing that he had answered them well, asked him, “Which commandment is the greatest of all?”
 - **12:31** substitute (word): critical *δευτέρα* ] RP *Καὶ δευτέρα ὁμοία*
    - Latin: Huic simile est alterum: ‘Alterum ut tē ipsum amātō.’ Hīs majus aliud præceptum nūllum est.”
    - 1573: Huic simile est alterum: Alterum vt te ipsum amato. His maius aliud præceptum nullum est.
@@ -1529,14 +1745,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Secundum autem simile est illi: Diliges proximum tuum tamquam teipsum. Majus horum aliud mandatum non est.
    - BSB: The second is this: ‘Love your neighbor as yourself.’ No other commandment is greater than these.”
    - WEB: The second is like this: ‘You shall love your neighbor as yourself.’ There is no other commandment greater than these.”
-- **12:33** substitute (word): critical *περισσότερόν* ] RP *πλεῖόν*
-   - Latin: Quem tōtō corde, omnī studiō, tōtō animō, summāque ope amāre, nec nōn aliōs ut sē ipsum amāre, plūs est quam omnēs victimæ et sacrificia.”
-   - 1573: quem toto corde, omni studio, toto animo, summaque ope amare, nec non alios vt se ipsum amare, plus est quàm omnes victimæ et sacrificia.
-   - TR: καὶ τὸ ἀγαπᾷν αὐτὸν ἐξ ὅλης τῆς καρδίας, καὶ ἐξ ὅλης τῆς συνέσεως, καὶ ἐξ ὅλης τῆς ψυχῆς, καὶ ἐξ ὅλης τῆς ἰσχύος, καὶ τὸ ἀγαπᾷν τὸν πλησίον ὡς ἑαυτόν, πλεῖόν ἐστι πάντων τῶν ὁλοκαυτωμάτων καὶ τῶν θυσιῶν.
-   - SBLGNT: καὶ τὸ ἀγαπᾶν αὐτὸν ἐξ ὅλης τῆς καρδίας καὶ ἐξ ὅλης τῆς συνέσεως καὶ ἐξ ὅλης τῆς ἰσχύος καὶ τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν περισσότερόν ἐστιν πάντων τῶν ὁλοκαυτωμάτων καὶ θυσιῶν.
-   - Vulgate: Et ut diligatur ex toto corde, et ex toto intellectu, et ex tota anima, et ex tota fortitudine, et diligere proximum tamquam seipsum, majus est omnibus holocautomatibus, et sacrificiis.
-   - BSB: and to love Him with all your heart and with all your understanding and with all your strength, and to love your neighbor as yourself, which is more important than all burnt offerings and sacrifices.”
-   - WEB: and to love him with all the heart, with all the understanding, all the soul, and with all the strength, and to love his neighbor as himself, is more important than all whole burnt offerings and sacrifices.”
+- **12:36** substitute (word): critical *ὑποκάτω* ] RP *ὑποπόδιον*
+   - Latin: Cum ipse Dāvīd Sānctī Spīritūs īnstīnctū dīxerit: “‘Ait Dominus Dominō meō, “sedē ad meam dextram dōnec efficiam ex hostibus tuīs tuōrum pedum subsellium”’?
+   - 1573: cùm ipse Dauid sancti spiritus instinctu dixerit: Ait Dominus Domino meo, sede ad meam dexteram donec efficiam ex hostibus tuis tuorum pedum subsellium?
+   - TR: Αὐτὸς γὰρ Δαβὶδ εἶπεν ἐν τῷ πνεύματι τῷ ἁγίῳ, Εἶπεν ὁ Κύριος τῷ Κυρίῳ μου, Κάθου ἐκ δεξιῶν μου, ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποπόδιον τῶν ποδῶν σου.
+   - SBLGNT: αὐτὸς Δαυὶδ εἶπεν ἐν τῷ πνεύματι τῷ ἁγίῳ· Εἶπεν κύριος τῷ κυρίῳ μου· Κάθου ἐκ δεξιῶν μου ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν ποδῶν σου.
+   - Vulgate: Ipse enim David dicit in Spiritu Sancto: Dixit Dominus Domino meo: Sede a dextris meis, donec ponam inimicos tuos scabellum pedum tuorum.
+   - BSB: Speaking by the Holy Spirit, David himself declared: ‘The Lord said to my Lord, “Sit at My right hand until I put Your enemies under Your feet.”’
+   - WEB: For David himself said in the Holy Spirit, ‘The Lord said to my Lord, “Sit at my right hand, until I make your enemies the footstool of your feet.”’
 - **12:41** add (word): critical *καθίσας* ] RP *+ ὁ Ἰησοῦς*
    - Latin: Sedēns autem Jēsūs ē regiōne fiscī, spectābat, ut multitūdō cōnferret æs in fiscum. Ac multīs dīvitibus multa cōnferentibus,
    - 1573: Sedens autem Iesus è regione fisci, spectabat, vt multitudo conferret æs in fiscum. Ac multis diuitibus multa conferentibus,
@@ -1617,6 +1833,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: et stellæ cæli erunt decidentes, et virtutes, quæ in cælis sunt, movebuntur.
    - BSB: the stars will fall from the sky, and the powers of the heavens will be shaken.’
    - WEB: the stars will be falling from the sky, and the powers that are in the heavens will be shaken.
+- **13:33** add (word): critical *ἀγρυπνεῖτε* ] RP *+ καὶ προσεύχεσθε*
+   - Latin: Vidēte ut vigilētis, et ōrētis: nescītis enim quandō tempus futūrum sit:
+   - 1573: Videte vt vigiletis, et oretis: nescitis enim quando tempus futurum sit:
+   - TR: Βλέπετε, ἀγρυπνεῖτε καὶ προσεύχεσθε· οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν.
+   - SBLGNT: βλέπετε ἀγρυπνεῖτε, οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν·
+   - Vulgate: Videte, vigilate, et orate: nescitis enim quando tempus sit.
+   - BSB: Be on your guard and stay alert! For you do not know when the appointed time will come.
+   - WEB: Watch, keep alert, and pray; for you don’t know when the time is.
 - **13:37** substitute (word): critical *ὃ* ] RP *Ἃ*
    - Latin: Quæ autem vōbīs dīcō, omnibus dīcō, vigilāte.”
    - 1573: Quæ autem vobis dico, omnibus dico, vigilate.
@@ -1625,6 +1849,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Quod autem vobis dico, omnibus dico: Vigilate.
    - BSB: And what I say to you, I say to everyone: Keep watch!”
    - WEB: What I tell you, I tell all: Watch!”
+- **14:4** add (word): critical *ἑαυτούς* ] RP *+ καὶ λέγοντες*
+   - Latin: Erant autem quīdam quī apud sēsē indignābantur, atque ita dīcēbant: “Quōrsum hæc unguentī jactūra facta est?
+   - 1573: Erant autem quidam qui apud sese indignabantur, atque ita dicebant: Quorsum hæc vnguenti iactura facta est.
+   - TR: Ἦσαν δέ τινες ἀγανακτοῦντες πρὸς ἑαυτούς, καὶ λέγοντες, Εἰς τί ἡ ἀπώλεια αὕτη τοῦ μύρου γέγονεν;
+   - SBLGNT: ἦσαν δέ τινες ἀγανακτοῦντες πρὸς ἑαυτούς· Εἰς τί ἡ ἀπώλεια αὕτη τοῦ μύρου γέγονεν;
+   - Vulgate: Erant autem quidam indigne ferentes intra semetipsos, et dicentes: Ut quid perditio ista unguenti facta est?
+   - BSB: Some of those present, however, expressed their indignation to one another: “Why this waste of perfume?
+   - WEB: But there were some who were indignant among themselves, saying, “Why has this ointment been wasted?
 - **14:5** omit (word): critical *τὸ μύρον* ] RP *–*
    - Latin: Poterat hoc plūs quam trecentīs dēnāriīs vēndī, et in pauperēs ērogārī.” Dum illī sīc adversus eam fremunt,
    - 1573: poterat hoc plusquam trecentis denarijs vendi, et in pauperes erogari. Dum illi sic aduersus eam fremunt;
@@ -1633,14 +1865,6 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: poterat enim unguentum istud venundari plus quam trecentis denariis, et dari pauperibus. Et fremebant in eam.
    - BSB: It could have been sold for over three hundred denarii and the money given to the poor.” And they scolded her.
    - WEB: For this might have been sold for more than three hundred denarii and given to the poor.” So they grumbled against her.
-- **14:10** substitute (word): critical *παραδοῖ αὐτοῖς* ] RP *παραδῷ αὐτὸν*
-   - Latin: Jūdās autem Iscariōta, ūnus ex duodecim, pontificēs adiit, ut eum illīs trāderet.
-   - 1573: Iudas autem Iscariota, vnus ex duodecim, pontifices adijt, vt eum illis traderet.
-   - TR: Καὶ ὁ Ἰούδας ὁ Ἰσκαριώτης, εἷς τῶν δώδεκα, ἀπῆλθε πρὸς τοὺς ἀρχιερεῖς, ἵνα παραδῷ αὐτὸν αὐτοῖς.
-   - SBLGNT: Καὶ Ἰούδας Ἰσκαριὼθ ὁ εἷς τῶν δώδεκα ἀπῆλθεν πρὸς τοὺς ἀρχιερεῖς ἵνα αὐτὸν παραδοῖ αὐτοῖς.
-   - Vulgate: Et Judas Iscariotes, unus de duodecim, abiit ad summos sacerdotes, ut proderet eum illis.
-   - BSB: Then Judas Iscariot, one of the Twelve, went to the chief priests to betray Jesus to them.
-   - WEB: Judas Iscariot, who was one of the twelve, went away to the chief priests, that he might deliver him to them.
 - **14:20** add (word): critical *δὲ* ] RP *+ ἀποκριθεὶς*
    - Latin: Quibus ille respondēns: “Ūnus est ex duodecim,” inquit, “quī mēcum intingit in catīnum.
    - 1573: Quibus ille respondens: Vnus est ex duodecim, inquit, qui mecum intingit in catinum.
@@ -1649,7 +1873,15 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Qui ait illis: Unus ex duodecim, qui intingit mecum manum in catino.
    - BSB: He answered, “It is one of the Twelve—the one who is dipping his hand into the bowl with Me.
    - WEB: He answered them, “It is one of the twelve, he who dips with me in the dish.
-- **14:22** add (word): critical *Λάβετε* ] RP *+ φάγετε*
+- **14:21** add (word): critical *καλὸν* ] RP *+ ἦν*
+   - Latin: Fīlius quidem Hominis abit quemadmodum dē eō scrīptum est. Sed væ hominī illī per quem Fīlius Hominis prōdendus est. Præstāret hominī illī, numquam esse nātum.”
+   - 1573: Filius quidem hominis abit quemadmodum de eo scriptum est. Sed væ homini illi per quem filius Hominis prodendus est. Præstaret homini illi, nunquam esse natum.
+   - TR: Ὁ μὲν υἱὸς τοῦ ἀνθρώπου ὑπάγει, καθὼς γέγραπται περὶ αὐτοῦ· οὐαὶ δὲ τῷ ἀνθρώπῳ ἐκείνῳ δι᾿ οὗ ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται· καλὸν ἦν αὐτῷ εἰ οὐκ ἐγεννήθη ὁ ἄνθρωπος ἐκεῖνος.
+   - SBLGNT: ὅτι ὁ μὲν υἱὸς τοῦ ἀνθρώπου ὑπάγει καθὼς γέγραπται περὶ αὐτοῦ, οὐαὶ δὲ τῷ ἀνθρώπῳ ἐκείνῳ διʼ οὗ ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται· καλὸν αὐτῷ εἰ οὐκ ἐγεννήθη ὁ ἄνθρωπος ἐκεῖνος.
+   - Vulgate: Et Filius quidem hominis vadit sicut scriptum est de eo: væ autem homini illi per quem Filius hominis tradetur ! bonum erat ei, si non esset natus homo ille.
+   - BSB: The Son of Man will go just as it is written about Him, but woe to that man by whom He is betrayed! It would be better for him if he had not been born.”
+   - WEB: For the Son of Man goes as it is written about him, but woe to that man by whom the Son of Man is betrayed! It would be better for that man if he had not been born.”
+- **14:22** add (word): critical *λαβὼν* ] RP *+ ὁ Ἰησοῦς*; add (word): critical *Λάβετε* ] RP *+ φάγετε*
    - Latin: Epulantibus autem iīs, Jēsūs sūmptum pānem, āctīs laudibus, frēgit, iīsque dedit, et dīxit: “Accipite, comedite, hoc est corpus meum.”
    - 1573: Epulantibus autem eis, Iesus sumptum panem, actis laudibus, fregit, eisque dedit, et dixit: Accipite, comedite, hoc est corpus meum.
    - TR: Καὶ ἐσθιόντων αὐτῶν, λαβὼν ὁ Ἰησοῦς ἄρτον, εὐλογήσας ἔκλασε καὶ ἔδωκεν αὐτοῖς, καὶ εἶπε, Λάβετε, φάγετε· τοῦτό ἐστι τὸ σῶμά μου.
@@ -1673,6 +1905,22 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et assumit Petrum, et Jacobum, et Joannem secum: et cœpit pavere et tædere.
    - BSB: He took with Him Peter, James, and John, and began to be deeply troubled and distressed.
    - WEB: He took with him Peter, James, and John, and began to be greatly troubled and distressed.
+- **14:35** substitute (word): critical *προελθὼν μικρὸν ἔπιπτεν* ] RP *προσελθὼν μικρὸν ἔπεσεν*
+   - Latin: Tum paululum prōgressus, prōcidit humī, ōrāvitque, ut sī fierī posset, hōram illam dēclīnāret:
+   - 1573: Tum paululum progressus, procidit humi, orauitque, vt si fieri posset, horam illam declinaret:
+   - TR: Καὶ προελθὼν μικρόν, ἔπεσεν ἐπὶ τῆς γῆς, καὶ προσηύχετο ἵνα, εἰ δυνατόν ἐστι, παρέλθῃ ἀπ᾿ αὐτοῦ ἡ ὥρα.
+   - SBLGNT: καὶ προελθὼν μικρὸν ἔπιπτεν ἐπὶ τῆς γῆς, καὶ προσηύχετο ἵνα εἰ δυνατόν ἐστιν παρέλθῃ ἀπʼ αὐτοῦ ἡ ὥρα,
+   - Vulgate: Et cum processisset paululum, procidit super terram, et orabat ut, si fieri posset, transiret ab eo hora.
+   - BSB: Going a little farther, He fell to the ground and prayed that, if it were possible, the hour would pass from Him.
+   - WEB: He went forward a little, and fell on the ground, and prayed that if it were possible, the hour might pass away from him.
+- **14:38** substitute (word): critical *ἔλθητε* ] RP *εἰσέλθητε*
+   - Latin: Vigilāte, et ōrāte, nē veniātis in temptātiōnem. Spīritus quidem prōmptus est, sed carō īnfirma.”
+   - 1573: vigilate, et orate, ne veniatis in tentationem. Spiritus quidem promptus est, sed caro infirma.
+   - TR: Γρηγορεῖτε καὶ προσεύχεσθε, ἵνα μὴ εἰσέλθητε εἰς πειρασμόν. Τὸ μὲν πνεῦμα πρόθυμον, ἡ δὲ σὰρξ ἀσθενής.
+   - SBLGNT: γρηγορεῖτε καὶ προσεύχεσθε, ἵνα μὴ ἔλθητε εἰς πειρασμόν· τὸ μὲν πνεῦμα πρόθυμον ἡ δὲ σὰρξ ἀσθενής.
+   - Vulgate: vigilate et orate, ut non intretis in tentationem. Spiritus quidem promptus est, caro vero infirma.
+   - BSB: Watch and pray so that you will not enter into temptation. For the spirit is willing, but the body is weak.”
+   - WEB: Watch and pray, that you may not enter into temptation. The spirit indeed is willing, but the flesh is weak.”
 - **14:40** substitute (word): critical *πάλιν ἐλθὼν εὗρεν αὐτοὺς* ] RP *ὑποστρέψας εὗρεν αὐτοὺς πάλιν*; substitute (word): critical *καταβαρυνόμενοι* ] RP *βεβαρημένοι*
    - Latin: Ac reversus, eōs rūrsum dormientēs offendit: eōrum oculīs ita gravātīs, ut nescīrent quid eī respondērent.
    - 1573: ac reuersus, eos rursum dormientes offendit: eorum oculis ita grauatis, vt nescirent quid ei responderent.
@@ -1713,6 +1961,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Adolescens autem quidam sequebatur eum amictus sindone super nudo: et tenuerunt eum.
    - BSB: One young man who had been following Jesus was wearing a linen cloth around his body. They caught hold of him,
    - WEB: A certain young man followed him, having a linen cloth thrown around himself over his naked body. The young men grabbed him,
+- **14:52** add (word): critical *ἔφυγεν* ] RP *+ ἀπʼ αὐτῶν*
+   - Latin: Ille vērō relictō linteō, nūdus eōs effūgit.
+   - 1573: Ille verò relicto linteo, nudus eos effugit.
+   - TR: ὁ δὲ καταλιπὼν τὴν σινδόνα γυμνὸς ἔφυγεν ἀπ᾿ αὐτῶν.
+   - SBLGNT: ὁ δὲ καταλιπὼν τὴν σινδόνα γυμνὸς ἔφυγεν.
+   - Vulgate: At ille rejecta sindone, nudus profugit ab eis.
+   - BSB: but he pulled free of the linen cloth and ran away naked.
+   - WEB: but he left the linen cloth and fled from them naked.
 - **14:65** substitute (word): critical *ἔλαβον* ] RP *ἔβαλλον*
    - Latin: Cœpēruntque eum quīdam cōnspuere, eīque faciem obvēlāre, et colaphōs impingere, ac dīcere, “Dīvīnā”: eīque alapās impingēbant ministrī.
    - 1573: cœperuntque eum quidam conspuere, eique faciem obuelare, et colaphos inpingere, ac dicere, Diuina: eique alapas impingebant ministri.
@@ -1745,6 +2001,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Pilatus autem rursum interrogavit eum, dicens: Non respondes quidquam? vide in quantis te accusant.
    - BSB: Then Pilate questioned Him again, “Have You no answer? Look how many charges they are bringing against You!”
    - WEB: Pilate again asked him, “Have you no answer? See how many things they testify against you!”
+- **15:6** substitute (word): critical *ὃν παρῃτοῦντο* ] RP *ὅνπερ ᾐτοῦντο*
+   - Latin: Solēbat autem in illīs fēstīs iīs laxāre ūnum vīnctum, quemcumque postulāssent.
+   - 1573: Solebat autem in illis festis eis laxare vnum vinctum, quemcunque postulassent.
+   - TR: Κατὰ δὲ ἑορτὴν ἀπέλυεν αὐτοῖς ἕνα δέσμιον, ὅνπερ ᾐτοῦντο.
+   - SBLGNT: Κατὰ δὲ ἑορτὴν ἀπέλυεν αὐτοῖς ἕνα δέσμιον ὃν παρῃτοῦντο.
+   - Vulgate: Per diem autem festum solebat dimittere illis unum ex vinctis, quemcumque petissent.
+   - BSB: Now it was Pilate’s custom at the feast to release to the people a prisoner of their choosing.
+   - WEB: Now at the feast he used to release to them one prisoner, whomever they asked of him.
 - **15:7** substitute (word): critical *στασιαστῶν* ] RP *συστασιαστῶν*
    - Latin: Erat quīdam nōmine Barabbās cum sēditiōsīs vīnctus, quī in sēditiōne cædem fēcerant.
    - 1573: Erat quidam nomine Barrabas cum seditiosis vinctus, qui in seditione cædem fecerant.
@@ -1753,6 +2017,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Erat autem qui dicebatur Barrabas, qui cum seditiosis erat vinctus, qui in seditione fecerat homicidium.
    - BSB: And a man named Barabbas was imprisoned with the rebels who had committed murder during the insurrection.
    - WEB: There was one called Barabbas, bound with his fellow insurgents, men who in the insurrection had committed murder.
+- **15:8** add (word): critical *καθὼς* ] RP *+ ἀεὶ*
+   - Latin: Itaque cœpērunt vulgō clāmantēs id exigere, quod ille semper iīs erat facere solitus.
+   - 1573: Itaque cœperunt vulgò clamantes id exigere, quod ille semper eis erat facere solitus.
+   - TR: Καὶ ἀναβοήσας ὁ ὄχλος ἤρξατο αἰτεῖσθαι καθὼς ἀεὶ ἐποίει αὐτοῖς.
+   - SBLGNT: καὶ ἀναβὰς ὁ ὄχλος ἤρξατο αἰτεῖσθαι καθὼς ἐποίει αὐτοῖς.
+   - Vulgate: Et cum ascendisset turba, cœpit rogare, sicut semper faciebat illis.
+   - BSB: So the crowd went up and began asking Pilate to keep his custom.
+   - WEB: The multitude, crying aloud, began to ask him to do as he always did for them.
 - **15:12** substitute (word): critical *πάλιν ἀποκριθεὶς ἔλεγεν* ] RP *ἀποκριθεὶς πάλιν εἶπεν*
    - Latin: Et Pīlātus rūrsus eōs alloquēns: “Quid ergō vultis,” inquit, “ut dē eō faciam, quem Jūdæōrum rēgem dīcitis?”
    - 1573: Et Pilatus rursus eos alloquens: Quid ergo vultis, inquit, vt de eo faciam, quem Iudæorum regem dicitis?
@@ -1793,7 +2065,7 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: salvum fac temetipsum descendens de cruce.
    - BSB: come down from the cross and save Yourself!”
    - WEB: save yourself, and come down from the cross!”
-- **15:34** add (word): critical *μεγάλῃ* ] RP *+ λέγων*
+- **15:34** add (word): critical *μεγάλῃ* ] RP *+ λέγων*; substitute (word): critical *λεμὰ* ] RP *λιμὰ*
    - Latin: Ac hōrā nōnā exclāmāvit Jēsūs magnā vōce, dīcēns: “Eloi eloi lāmā sabachtanī,” quōrum verbōrum hæc nōtiō est: “Mī Deus, mī Deus, cūr mē dērelīquistī?”
    - 1573: Ac hora nona exclamauit Iesus magna voce, dicens. Eloi eloi lama sabachthani: quorum verborum hæc notio est: Mi Deus, mi Deus, cur me dereliquisti?
    - TR: Καὶ τῇ ὥρᾳ τῇ ἐννάτῃ ἐβόησεν ὁ Ἰησοῦς φωνῇ μεγάλῃ, λέγων, Ἐλωΐ, Ἐλωΐ, λαμμᾶ σαβαχθανί; Ὅ ἐστι μεθερμηνευόμενον, Ὁ Θεός μου, ὁ Θεός μου, εἰς τί με ἐγκατέλιπες;
@@ -1809,6 +2081,14 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et quidam de circumstantibus audientes, dicebant: Ecce Eliam vocat.
    - BSB: When some of those standing nearby heard this, they said, “Behold, He is calling Elijah.”
    - WEB: Some of those who stood by, when they heard it, said, “Behold, he is calling Elijah.”
+- **15:39** add (word): critical *οὕτως* ] RP *+ κράξας*
+   - Latin: Ac vidēns centuriō, quī eī ex adversō astābat, eum ita clāmantem expīrāsse, dīxit: “Profectō hic homō Fīlius erat Deī.”
+   - 1573: Ac videns Centurio, qui ei ex aduerso astabat, eum ita clamantem expirasse, dixit: Profectò hic homo filius erat Dei.
+   - TR: Ἰδὼν δὲ ὁ κεντυρίων ὁ παρεστηκὼς ἐξ ἐναντίας αὐτοῦ ὅτι οὕτω κράξας ἐξέπνευσεν, εἶπεν, Ἀληθῶς ὁ ἄνθρωπος οὗτος υἱὸς ἦν Θεοῦ.
+   - SBLGNT: ἰδὼν δὲ ὁ κεντυρίων ὁ παρεστηκὼς ἐξ ἐναντίας αὐτοῦ ὅτι οὕτως ἐξέπνευσεν εἶπεν· Ἀληθῶς οὗτος ὁ ἄνθρωπος υἱὸς θεοῦ ἦν.
+   - Vulgate: Videns autem centurio, qui ex adverso stabat, quia sic clamans expirasset, ait: Vere hic homo Filius Dei erat.
+   - BSB: When the centurion standing there in front of Jesus saw how He had breathed His last, he said, “Truly this man was the Son of God!”
+   - WEB: When the centurion, who stood by opposite him, saw that he cried out like this and breathed his last, he said, “Truly this man was the Son of God!”
 - **15:43** substitute (word): critical *ἐλθὼν* ] RP *ἦλθεν*
    - Latin: vēnit Jōsēphus ab Ārimāthæā honestus senātor, quī et ipse Deī rēgnum exspectābat: et ad Pīlātum ausus ingredī, petīvit Jēsū corpus.
    - 1573: venit Iosephus ab Arimathæa honestus senator, qui et ipse Dei regnum expectabat: et ad Pilatum ausus ingredi, petijt Iesu corpus.
@@ -1841,162 +2121,514 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Et valde mane una sabbatorum, veniunt ad monumentum, orto jam sole.
    - BSB: Very early on the first day of the week, just after sunrise, they went to the tomb.
    - WEB: Very early on the first day of the week, they came to the tomb when the sun had risen.
+- **16:14** omit (word): critical *δὲ ⟦WH⟧* ] RP *–*
+   - Latin: Tandem discumbentibus illīs ūndecim appāruit, et iīs incrēdulitātem ac pervicāciam exprobrāvit, quod iīs, quī sē resurrēxisse vīderant, nōn crēdidissent:
+   - 1573: Tandem discumbentibus illis vndecim apparuit, et eis incredulitatem ac peruicaciam exprobrauit, quòd eis, qui se resurrexisse viderant, non credidissent:
+   - TR: Ὕστερον ἀνακειμένοις αὐτοῖς τοῖς ἕνδεκα ἐφανερώθη, καὶ ὠνείδισε τὴν ἀπιστίαν αὐτῶν καὶ σκληροκαρδίαν, ὅτι τοῖς θεασαμένοις αὐτὸν ἐγηγερμένον οὐκ ἐπίστευσαν.
+   - SBLGNT: Ὕστερον δὲ ἀνακειμένοις αὐτοῖς τοῖς ἕνδεκα ἐφανερώθη, καὶ ὠνείδισεν τὴν ἀπιστίαν αὐτῶν καὶ σκληροκαρδίαν ὅτι τοῖς θεασαμένοις αὐτὸν ἐγηγερμένον οὐκ ἐπίστευσαν.
+   - Vulgate: Novissime recumbentibus illis undecim apparuit: et exprobravit incredulitatem eorum et duritiam cordis: quia iis, qui viderant eum resurrexisse, non crediderunt.
+   - BSB: Later, as they were eating, Jesus appeared to the Eleven and rebuked them for their unbelief and hardness of heart, because they did not believe those who had seen Him after He had risen.
+   - WEB: Afterward he was revealed to the eleven themselves as they sat at the table; and he rebuked them for their unbelief and hardness of heart, because they didn’t believe those who had seen him after he had risen.
+- **16:19** omit (word): critical *Ἰησοῦς ⟦WH⟧* ] RP *–*
+   - Latin: Igitur Dominus postquam eōs allocūtus est, sublātus est in cælum, et ad Deī dextram sēdit.
+   - 1573: Igitur Dominus postquam eos allocutus est, sublatus est in cœlum, et ad Dei dexteram sedit.
+   - TR: Ὁ μὲν οὖν Κύριος, μετὰ τὸ λαλῆσαι αὐτοῖς, ἀνελήφθη εἰς τὸν οὐρανόν, καὶ ἐκάθισεν ἐκ δεξιῶν τοῦ Θεοῦ.
+   - SBLGNT: Ὁ μὲν οὖν κύριος Ἰησοῦς μετὰ τὸ λαλῆσαι αὐτοῖς ἀνελήμφθη εἰς τὸν οὐρανὸν καὶ ἐκάθισεν ἐκ δεξιῶν τοῦ θεοῦ.
+   - Vulgate: Et Dominus quidem Jesus postquam locutus est eis, assumptus est in cælum, et sedet a dextris Dei.
+   - BSB: After the Lord Jesus had spoken to them, He was taken up into heaven and sat down at the right hand of God.
+   - WEB: So then the Lord, after he had spoken to them, was received up into heaven and sat down at the right hand of God.
 
-## Tregelles with RP (36 verses; inside the test since 2026-11-16, listed apart)
+## The TR alone (RP with the critical text; 113 verses)
 
-- **2:12** substitute (word): critical *ἔμπροσθεν* ] RP, Treg *ἐναντίον*
-   - Latin: Atque ille prōtinus surrēxit, sublātōque grabātō exiit cōram omnibus, adeō ut omnēs attonitī Deum collaudārent, sēsē nihil umquam tāle vīdisse cōnfitentēs.
-   - 1573: Atque ille protinus surrexit, sublatoque grabato exijt coram omnibus, adeò vt omnes attoniti Deum collaudarent, sese nihil vnquam tale vidisse confitentes.
-   - TR: Καὶ ἠγέρθη εὐθέως, καὶ ἄρας τὸν κράββατον, ἐξῆλθεν ἐναντίον πάντων· ὥστε ἐξίστασθαι πάντας, καὶ δοξάζειν τὸν Θεόν, λέγοντας ὅτι Οὐδέποτε οὕτως εἴδομεν.
-   - SBLGNT: καὶ ἠγέρθη καὶ εὐθὺς ἄρας τὸν κράβαττον ἐξῆλθεν ἔμπροσθεν πάντων, ὥστε ἐξίστασθαι πάντας καὶ δοξάζειν τὸν θεὸν λέγοντας ὅτι Οὕτως οὐδέποτε εἴδομεν.
-   - Vulgate: Et statim surrexit ille: et, sublato grabato, abiit coram omnibus, ita ut mirarentur omnes, et honorificent Deum, dicentes: Quia numquam sic vidimus.
-   - BSB: And immediately the man got up, picked up his mat, and walked out in front of them all. As a result, they were all astounded and glorified God, saying, “We have never seen anything like this!”
-   - WEB: He arose, and immediately took up the mat and went out in front of them all, so that they were all amazed and glorified God, saying, “We never saw anything like this!”
-- **2:16** add (word): critical *ἐσθίει* ] RP, Treg *+ καὶ πίνει*
-   - Latin: scrībæ et Pharisæī, eō vīsō cum pūblicānīs et improbīs cibum capiente, quærerent ex ejus discipulīs, quī fieret ut cum pūblicānīs et improbīs cibum pōtiōnemque sūmeret.
-   - 1573: Scribæ et Pharisæi, eo viso cum publicanis et improbis cibum capiente, quærerent ex eius discipulis, quî fieret vt cum publicanis et improbis cibum potionemque sumeret?
-   - TR: Καὶ οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι, ἰδόντες αὐτὸν ἐσθίοντα μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν, ἔλεγον τοῖς μαθηταῖς αὐτοῦ, Τί ὅτι μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν ἐσθίει καὶ πίνει;
-   - SBLGNT: καὶ οἱ γραμματεῖς τῶν Φαρισαίων ἰδόντες ὅτι ἐσθίει μετὰ τῶν ἁμαρτωλῶν καὶ τελωνῶν ἔλεγον τοῖς μαθηταῖς αὐτοῦ· Ὅτι μετὰ τῶν τελωνῶν καὶ ἁμαρτωλῶν ἐσθίει;
-   - Vulgate: Et scribæ et pharisæi videntes quia manducaret cum publicanis et peccatoribus, dicebant discipulis ejus: Quare cum publicanis et peccatoribus manducat et bibit Magister vester?
-   - BSB: When the scribes who were Pharisees saw Jesus eating with these people, they asked His disciples, “Why does He eat with tax collectors and sinners?”
-   - WEB: The scribes and the Pharisees, when they saw that he was eating with the sinners and tax collectors, said to his disciples, “Why is it that he eats and drinks with tax collectors and sinners?”
-- **2:21** omit (word): critical *ἀπʼ* ] RP, Treg *–*
-   - Latin: “Neque vērō quisquam pannī rudis pittacium assuit veterī vestīmentō. Aliōquī novum illud ejus supplēmentum auferret veteris partem, atque ita dēterior fieret fissūra.
-   - 1573: Neque verò quisquam panni rudis pittacium assuit veteri vestimento. Alioquin nouum illud eius supplementum auferret veteris partem, atque ita deterior fieret fissura.
-   - TR: Καὶ οὐδεὶς ἐπίβλημα ῥάκους ἀγνάφου ἐπιρράπτει ἐπὶ ἱματίῳ παλαιῷ· εἰ δὲ μή, αἴρει τὸ πλήρωμα αὐτοῦ τὸ καινὸν τοῦ παλαιοῦ, καὶ χεῖρον σχίσμα γίνεται.
-   - SBLGNT: Οὐδεὶς ἐπίβλημα ῥάκους ἀγνάφου ἐπιράπτει ἐπὶ ἱμάτιον παλαιόν· εἰ δὲ μή, αἴρει τὸ πλήρωμα ἀπʼ αὐτοῦ τὸ καινὸν τοῦ παλαιοῦ, καὶ χεῖρον σχίσμα γίνεται.
-   - Vulgate: Nemo assumentum panni rudis assuit vestimento veteri: alioquin aufert supplementum novum a veteri, et major scissura fit.
-   - BSB: No one sews a patch of unshrunk cloth on an old garment. If he does, the new piece will pull away from the old, and a worse tear will result.
-   - WEB: No one sews a piece of unshrunk cloth on an old garment, or else the patch shrinks and the new tears away from the old, and a worse hole is made.
-- **2:22** add (word): critical *καινούς* ] RP, Treg *+ βλητέον*
-   - Latin: Neque quisquam vīnum novum in veterēs utrēs recondit. Aliōquī rumperet utrēs vīnum novum, et vīnum effunderētur, et utrēs perderentur. Sed est vīnum novum in novōs utrēs condendum.”
-   - 1573: Neque quisquam vinum nouum in veteres vtres recondit: alioquin rumperet vtres vinum nouum, et vinum effunderetur, et vtres perderentur: sed est vinum nouum in nouos vtres condendum.
-   - TR: Καὶ οὐδεὶς βάλλει οἶνον νέον εἰς ἀσκοὺς παλαιούς· εἰ δὲ μή, ῥήσσει ὁ οἶνος ὁ νέος τοὺς ἀσκούς, καὶ ὁ οἶνος ἐκχεῖται καὶ οἱ ἀσκοὶ ἀπολοῦνται· ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινοὺς βλητέον.
-   - SBLGNT: καὶ οὐδεὶς βάλλει οἶνον νέον εἰς ἀσκοὺς παλαιούς· εἰ δὲ μή, ῥήξει ὁ οἶνος τοὺς ἀσκούς, καὶ ὁ οἶνος ἀπόλλυται καὶ οἱ ἀσκοί. ἀλλὰ οἶνον νέον εἰς ἀσκοὺς καινούς.
-   - Vulgate: Et nemo mittit vinum novum in utres veteres: alioquin dirumpet vinum utres, et vinum effundetur, et utres peribunt: sed vinum novum in utres novos mitti debet.
-   - BSB: And no one pours new wine into old wineskins. If he does, the wine will burst the skins, and both the wine and the wineskins will be ruined. Instead, new wine is poured into new wineskins.”
-   - WEB: No one puts new wine into old wineskins; or else the new wine will burst the skins, and the wine pours out, and the skins will be destroyed; but they put new wine into fresh wineskins.”
-- **2:26** substitute (word): critical *τοὺς ἱερεῖς* ] RP, Treg *τοῖς ἱερεῦσιν*
-   - Latin: ut Deī domum ingressus, Abiāthāre pontifice, apposititiōs pānēs (quibus nōn nisi sacerdōtibus vēscī fās est) comēderit, et suīs etiam comitibus impertierit?
-   - 1573: vt Dei domum ingressus, Abiathare Pontifice, apposititios panes (quibus non nisi sacerdotibus vesci fas est) comederit, et suis etiam comitibus impertiuerit?
-   - TR: Πῶς εἰσῆλθεν εἰς τὸν οἶκον τοῦ Θεοῦ ἐπὶ Ἀβιάθαρ τοῦ ἀρχιερέως, καὶ τοὺς ἄρτους τῆς προθέσεως ἔφαγεν, οὓς οὐκ ἔξεστι φαγεῖν εἰ μὴ τοῖς ἱερεῦσι, καὶ ἔδωκε καὶ τοῖς σὺν αὐτῷ οὖσι;
-   - SBLGNT: πῶς εἰσῆλθεν εἰς τὸν οἶκον τοῦ θεοῦ ἐπὶ Ἀβιαθὰρ ἀρχιερέως καὶ τοὺς ἄρτους τῆς προθέσεως ἔφαγεν, οὓς οὐκ ἔξεστιν φαγεῖν εἰ μὴ τοὺς ἱερεῖς, καὶ ἔδωκεν καὶ τοῖς σὺν αὐτῷ οὖσιν;
-   - Vulgate: quomodo introivit in domum Dei sub Abiathar principe sacerdotum, et panes propositionis manducavit, quos non licebat manducare, nisi sacerdotibus, et dedit eis qui cum eo erant?
-   - BSB: During the high priesthood of Abiathar, he entered the house of God and ate the consecrated bread, which was lawful only for the priests. And he gave some to his companions as well.”
-   - WEB: How he entered into God’s house at the time of Abiathar the high priest, and ate the show bread, which is not lawful to eat except for the priests, and gave also to those who were with him?”
-- **3:16** omit (clause): critical *ἐποίησεν τοὺς δώδεκα καὶ* ] RP, Treg *–*
-   - Latin: Imposuit autem Simōnī nōmen Petrum,
-   - 1573: Imposuit autem Simoni nomen Petrum:
-   - TR: καὶ ἐπέθηκε τῷ Σίμωνι ὄνομα Πέτρον·
-   - SBLGNT: καὶ ἐποίησεν τοὺς δώδεκα, καὶ ἐπέθηκεν ὄνομα τῷ Σίμωνι Πέτρον,
-   - Vulgate: Et imposuit Simoni nomen Petrus:
-   - BSB: These are the twelve He appointed: Simon (whom He named Peter),
-   - WEB: Simon (to whom he gave the name Peter);
-- **3:26** substitute (word): critical *ἐμερίσθη* ] RP, Treg *μεμέρισται*
-   - Latin: Quod sī Satanās sēcum ipse pugnat, ac dissīdet, stāre nequit, sed fīnem habēbit.
-   - 1573: Quòd si Satanas secum ipse pugnat, ac dissidet, stare nequit, sed finem habebit.
-   - TR: Καὶ εἰ ὁ Σατανᾶς ἀνέστη ἐφ᾿ ἑαυτὸν καὶ μεμέρισται, οὐ δύναται σταθῆναι, ἀλλὰ τέλος ἔχει.
-   - SBLGNT: καὶ εἰ ὁ Σατανᾶς ἀνέστη ἐφʼ ἑαυτὸν καὶ ἐμερίσθη, οὐ δύναται στῆναι ἀλλὰ τέλος ἔχει.
-   - Vulgate: Et si Satanas consurrexerit in semetipsum, dispertitus est, et non poterit stare, sed finem habet.
-   - BSB: And if Satan is divided and rises against himself, he cannot stand; his end has come.
-   - WEB: If Satan has risen up against himself, and is divided, he can’t stand, but has an end.
-- **4:8** substitute (word): critical *ἄλλα* ] RP, Treg *ἄλλο*
-   - Latin: Aliud cecidit in bonam terram, ēdiditque frūctum, quī tantō incrēmentō auctus est, ut extulerit partim cum trīcēsimō, partim cum sexāgēsimō, partim cum centēsimō.
-   - 1573: Aliud cecidit in bonam terram, ediditque fructum, qui tanto incremento auctus est, vt extulerit partim cum trigesimo, partim cum sexagesimo, partim cum centesimo.
-   - TR: Καὶ ἄλλο ἔπεσεν εἰς τὴν γῆν τὴν καλήν· καὶ ἐδίδου καρπὸν ἀναβαίνοντα καὶ αὐξάνοντα, καὶ ἔφερεν ἐν τριάκοντα, καὶ ἐν ἑξήκοντα, καὶ ἐν ἑκατόν.
-   - SBLGNT: καὶ ἄλλα ἔπεσεν εἰς τὴν γῆν τὴν καλήν, καὶ ἐδίδου καρπὸν ἀναβαίνοντα καὶ αὐξανόμενα, καὶ ἔφερεν ἓν τριάκοντα καὶ ἓν ἑξήκοντα καὶ ἓν ἑκατόν.
-   - Vulgate: Et aliud cecidit in terram bonam: et dabat fructum ascendentem et crescentem, et afferebat unum triginta, unum sexaginta, et unum centum.
-   - BSB: Still other seed fell on good soil, where it sprouted, grew up, and produced a crop—one bearing thirtyfold, another sixtyfold, and another a hundredfold.”
-   - WEB: Others fell into the good ground and yielded fruit, growing up and increasing. Some produced thirty times, some sixty times, and some one hundred times as much.”
-- **4:34** substitute (word): critical *ἰδίοις μαθηταῖς* ] RP, Treg *μαθηταῖς αὐτοῦ*
-   - Latin: Nec eōs absque similitūdine alloquēbātur, sed seorsum discipulīs suīs explicābat omnia.
-   - 1573: nec eos absque similitudine alloquebatur, sed seorsum discipulis suis explicabat omnia.
-   - TR: χωρὶς δὲ παραβολῆς οὐκ ἐλάλει αὐτοῖς· κατ᾿ ἰδίαν δὲ τοῖς μαθηταῖς αὐτοῦ ἐπέλυε πάντα.
-   - SBLGNT: χωρὶς δὲ παραβολῆς οὐκ ἐλάλει αὐτοῖς, κατʼ ἰδίαν δὲ τοῖς ἰδίοις μαθηταῖς ἐπέλυεν πάντα.
-   - Vulgate: sine parabola autem non loquebatur eis: seorsum autem discipulis suis disserebat omnia.
-   - BSB: He did not tell them anything without using a parable. But privately He explained everything to His own disciples.
-   - WEB: Without a parable he didn’t speak to them; but privately to his own disciples he explained everything.
-- **6:20** substitute (word): critical *ἠπόρει* ] RP, Treg *ἐποίει*
-   - Latin: Proptereā quod Hērōdēs Jōhannem verēbātur, sciēns virum esse jūstum, atque sānctum, eumque observābat, eīque multīs in rēbus auscultābat, et eum libenter audiēbat.
-   - 1573: propterea quòd Herodes Iohannem verebatur, sciens virum esse iustum, atque sanctum, eumque obseruabat, eique multis in rebus auscultabat, et eum libenter audiebat.
-   - TR: ὁ γὰρ Ἡρῴδης ἐφοβεῖτο τὸν Ἰωάννην, εἰδὼς αὐτὸν ἄνδρα δίκαιον καὶ ἅγιον, καὶ συνετήρει αὐτόν· καὶ ἀκούσας αὐτοῦ, πολλὰ ἐποίει, καὶ ἡδέως αὐτοῦ ἤκουε.
-   - SBLGNT: ὁ γὰρ Ἡρῴδης ἐφοβεῖτο τὸν Ἰωάννην, εἰδὼς αὐτὸν ἄνδρα δίκαιον καὶ ἅγιον, καὶ συνετήρει αὐτόν, καὶ ἀκούσας αὐτοῦ πολλὰ ἠπόρει, καὶ ἡδέως αὐτοῦ ἤκουεν.
-   - Vulgate: Herodes enim metuebat Joannem, sciens eum virum justum et sanctum: et custodiebat eum, et audito eo multa faciebat, et libenter eum audiebat.
-   - BSB: because Herod feared John and protected him, knowing that he was a righteous and holy man. When he heard John’s words, he was greatly perplexed; yet he listened to him gladly.
-   - WEB: for Herod feared John, knowing that he was a righteous and holy man, and kept him safe. When he heard him, he did many things, and he heard him gladly.
-- **6:49** substitute (word): critical *ὅτι φάντασμά ἐστιν* ] RP, Treg *φάντασμα εἶναι*
-   - Latin: At illī eum lacū ambulantem cōnspicātī, et spectrum esse ratī, exclāmāre:
-   - 1573: At illi eum lacu ambulantem conspicati, et spectrum esse rati, exclamare:
-   - TR: Οἱ δέ, ἰδόντες αὐτὸν περιπατοῦντα ἐπὶ τῆς θαλάσσης, ἔδοξαν φάντασμα εἶναι, καὶ ἀνέκραξαν·
-   - SBLGNT: οἱ δὲ ἰδόντες αὐτὸν ἐπὶ τῆς θαλάσσης περιπατοῦντα ἔδοξαν ὅτι φάντασμά ἐστιν καὶ ἀνέκραξαν,
-   - Vulgate: At illi ut viderunt eum ambulantem supra mare, putaverunt phantasma esse, et exclamaverunt.
-   - BSB: but when they saw Him walking on the sea, they cried out, thinking He was a ghost—
-   - WEB: but they, when they saw him walking on the sea, supposed that it was a ghost, and cried out;
-- **6:55** add (word): critical *ὅτι* ] RP, Treg *+ ἐκεῖ*
-   - Latin: tōtam illam fīnitimam regiōnem percurrērunt, cœpēruntque in grabātīs male affectōs eō afferre, ubi eum esse audiēbant:
-   - 1573: totam illam finitimam regionem percurrerunt, cœperuntque in grabatis malè affectos eò afferre, vbi eum esse audiebant.
-   - TR: περιδραμόντες ὅλην τὴν περίχωρον ἐκείνην, ἤρξαντο ἐπὶ τοῖς κραββάτοις τοὺς κακῶς ἔχοντας περιφέρειν, ὅπου ἤκουον ὅτι ἐκεῖ ἐστι.
-   - SBLGNT: περιέδραμον ὅλην τὴν χώραν ἐκείνην καὶ ἤρξαντο ἐπὶ τοῖς κραβάττοις τοὺς κακῶς ἔχοντας περιφέρειν ὅπου ἤκουον ὅτι ἐστίν.
-   - Vulgate: et percurrentes universam regionem illam, cœperunt in grabatis eos, qui se male habebant, circumferre, ubi audiebant eum esse.
-   - BSB: and ran through that whole region, carrying the sick on mats to wherever they heard He was.
-   - WEB: and ran around that whole region, and began to bring those who were sick on their mats to where they heard he was.
-- **8:9** add (word): critical *δὲ* ] RP, Treg *+ οἱ φαγόντες*
-   - Latin: Erant autem quī comēdērunt, circiter quattuor mīlia:
-   - 1573: Erant autem qui comederunt, circiter quatuor millia:
-   - TR: Ἦσαν δὲ οἱ φαγόντες ὡς τετρακισχίλιοι· καὶ ἀπέλυσεν αὐτούς.
-   - SBLGNT: ἦσαν δὲ ὡς τετρακισχίλιοι. καὶ ἀπέλυσεν αὐτούς.
-   - Vulgate: Erant autem qui manducaverunt, quasi quatuor millia: et dimisit eos.
-   - BSB: And about four thousand men were present. As soon as Jesus had dismissed the crowd,
-   - WEB: Those who had eaten were about four thousand. Then he sent them away.
-- **8:17** add (word): critical *γνοὺς* ] RP, Treg *+ ὁ Ἰησοῦς*
-   - Latin: Quō cognitō Jēsūs, iīs inquit: “Quid cōgitātis? vōs nōn habēre pānēs? An nōndum animadvertitis, nec intellegitis? adhūc torpentia habētis corda?
-   - 1573: Quo cognito Iesus, eis inquit: Quid cogitatis? vos non habere panes? An nondum animaduertitis, nec intelligitis? adhuc torpentia habetis corda?
-   - TR: Καὶ γνοὺς ὁ Ἰησοῦς λέγει αὐτοῖς, Τί διαλογίζεσθε ὅτι ἄρτους οὐκ ἔχετε; Οὔπω νοεῖτε, οὐδὲ συνίετε; Ἔτι πεπωρωμένην ἔχετε τὴν καρδίαν ὑμῶν;
-   - SBLGNT: καὶ γνοὺς λέγει αὐτοῖς· Τί διαλογίζεσθε ὅτι ἄρτους οὐκ ἔχετε; οὔπω νοεῖτε οὐδὲ συνίετε; πεπωρωμένην ἔχετε τὴν καρδίαν ὑμῶν;
-   - Vulgate: Quo cognito, ait illis Jesus: Quid cogitatis, quia panes non habetis? nondum cognoscetis nec intelligitis? adhuc cæcatum habetis cor vestrum?
-   - BSB: Aware of their conversation, Jesus asked them, “Why are you debating about having no bread? Do you still not see or understand? Do you have such hard hearts?
-   - WEB: Jesus, perceiving it, said to them, “Why do you reason that it’s because you have no bread? Don’t you perceive yet or understand? Is your heart still hardened?
-- **8:20** substitute (word): critical *καὶ λέγουσιν αὐτῷ* ] RP, Treg *οἱ δὲ εἶπον*
-   - Latin: “Quid cum septem ad quattuor mīlia? quot plēnās fragmentōrum sportās sustulistis?” “Septem,” inquiunt.
-   - 1573: Quid cùm septem ad quatuor millia? quot plenas fragmentorum sportas sustulistis? Septem, inquiunt.
-   - TR: Ὅτε δὲ τοὺς ἑπτὰ εἰς τοὺς τετρακισχιλίους, πόσων σπυρίδων πληρώματα κλασμάτων ἤρατε; Οἱ δὲ εἶπον, Ἑπτά.
-   - SBLGNT: ὅτε καὶ τοὺς ἑπτὰ εἰς τοὺς τετρακισχιλίους, πόσων σπυρίδων πληρώματα κλασμάτων ἤρατε; καὶ λέγουσιν αὐτῷ· Ἑπτά.
-   - Vulgate: Quando et septem panes in quatuor millia: quot sportas fragmentorum tulistis? Et dicunt ei: Septem.
-   - BSB: “And when I broke the seven loaves for the four thousand, how many basketfuls of broken pieces did you collect?” “Seven,” they said.
-   - WEB: “When the seven loaves fed the four thousand, how many baskets full of broken pieces did you take up?” They told him, “Seven.”
-- **8:26** add (clause): critical *εἰσέλθῃς* ] RP, Treg *+ μηδὲ εἴπῃς τινὶ ἐν τῇ κώμῃ*
-   - Latin: Atque ille eum domum dīmīsit, vetāns nē vel in vīcum ingrederētur, vel id cuiquam in vīcō dīceret.
-   - 1573: Atque ille eum domum dimisit, vetans ne vel in vicum ingrederetur, vel id cuiquam in vico diceret.
-   - TR: Καὶ ἀπέστειλεν αὐτὸν εἰς τὸν οἶκον αὐτοῦ, λέγων, Μηδὲ εἰς τὴν κώμην εἰσέλθῃς, μηδὲ εἴπῃς τινὶ ἐν τῇ κώμῃ.
-   - SBLGNT: καὶ ἀπέστειλεν αὐτὸν εἰς οἶκον αὐτοῦ λέγων· Μηδὲ εἰς τὴν κώμην εἰσέλθῃς.
-   - Vulgate: Et misit illum in domum suam, dicens: Vade in domum tuam: et si in vicum introieris, nemini dixeris.
-   - BSB: Jesus sent him home and said, “Do not go back into the village.”
-   - WEB: He sent him away to his house, saying, “Don’t enter into the village, nor tell anyone in the village.”
-- **8:36** substitute (word): critical *κερδῆσαι τὸν … καὶ ζημιωθῆναι* ] RP, Treg *ἐὰν κερδήσῃ τὸν … καὶ ζημιωθῇ*
-   - Latin: Quid vērō prōderit hominī, sī vel tōtum mundum lucrātus fuerit, et animæ suæ jactūram faciat?
-   - 1573: Quid verò proderit homini, si vel totum mundum lucratus fuerit, et animæ suæ iacturam faciat?
-   - TR: Τί γὰρ ὠφελήσει ἄνθρωπον, ἐὰν κερδήσῃ τὸν κόσμον ὅλον, καὶ ζημιωθῇ τὴν ψυχὴν αὐτοῦ;
-   - SBLGNT: τί γὰρ ὠφελεῖ ἄνθρωπον κερδῆσαι τὸν κόσμον ὅλον καὶ ζημιωθῆναι τὴν ψυχὴν αὐτοῦ;
-   - Vulgate: Quid enim proderit homini, si lucretur mundum totum et detrimentum animæ suæ faciat?
-   - BSB: What does it profit a man to gain the whole world, yet forfeit his soul?
-   - WEB: For what does it profit a man to gain the whole world and forfeit his life?
-- **9:20** substitute (word): critical *συνεσπάραξεν* ] RP, Treg *ἐσπάραξεν*
-   - Latin: Atque ille ad eum addūcitur, et simul ac ille eum vīdit, convulsit eum spīritus, ita ut collāpsus humī volūtārētur spūmāns.
-   - 1573: Atque ille ad eum adducitur, et simul ac ille eum vidit, conuulsit eum spiritus, ita vt collapsus humi, volutaretur spumans.
-   - TR: Καὶ ἤνεγκαν αὐτὸν πρὸς αὐτόν· καὶ ἰδὼν αὐτόν, εὐθέως τὸ πνεῦμα ἐσπάραξεν αὐτόν· καὶ πεσὼν ἐπὶ τῆς γῆς, ἐκυλίετο ἀφρίζων.
-   - SBLGNT: καὶ ἤνεγκαν αὐτὸν πρὸς αὐτόν. καὶ ἰδὼν αὐτὸν τὸ πνεῦμα εὐθὺς συνεσπάραξεν αὐτόν, καὶ πεσὼν ἐπὶ τῆς γῆς ἐκυλίετο ἀφρίζων.
-   - Vulgate: Et attulerunt eum. Et cum vidisset eum, statim spiritus conturbavit illum: et elisus in terram, volutabatur spumans.
-   - BSB: So they brought him, and seeing Jesus, the spirit immediately threw the boy into a convulsion. He fell to the ground and rolled around, foaming at the mouth.
-   - WEB: They brought him to him, and when he saw him, immediately the spirit convulsed him and he fell on the ground, wallowing and foaming at the mouth.
-- **10:13** substitute (word): critical *ἐπετίμησαν αὐτοῖς* ] RP, Treg *ἐπετίμων τοῖς προσφέρουσιν*
-   - Latin: Addūcēbantur autem eī puerī, ut eōs tangeret: discipulī vērō eōs ā quibus addūcēbantur, objūrgābant:
-   - 1573: Adducebantur autem ei pueri, vt eos tangeret: discipuli verò eos à quibus adducebantur, obiurgabant:
-   - TR: Καὶ προσέφερον αὐτῷ παιδία, ἵνα ἅψηται αὐτῶν· οἱ δὲ μαθηταὶ ἐπετίμων τοῖς προσφέρουσιν.
-   - SBLGNT: Καὶ προσέφερον αὐτῷ παιδία ἵνα αὐτῶν ἅψηται· οἱ δὲ μαθηταὶ ἐπετίμησαν αὐτοῖς.
-   - Vulgate: Et offerebant illi parvulos ut tangeret illos. Discipuli autem comminabantur offerentibus.
-   - BSB: Now people were bringing the little children to Jesus for Him to place His hands on them, and the disciples rebuked those who brought them.
-   - WEB: They were bringing to him little children, that he should touch them, but the disciples rebuked those who were bringing them.
-- **10:29** substitute (word): critical *ἔφη ὁ Ἰησοῦς* ] RP, Treg *ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν*
+- **1:1** add (clause): SBLGNT *–* ] TR *+ υιου του θεου*
+   - Latin: Initium euangeliī Jēsū Chrīstī, Deī Fīliī,
+   - 1573: INITIVM Euangelij Iesu Christi, Dei Filij,
+   - TR: Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ, υἱοῦ τοῦ Θεοῦ.
+   - SBLGNT: Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ χριστοῦ.
+   - Vulgate: Initium Evangelii Jesu Christi, Filii Dei.
+   - BSB: This is the beginning of the gospel of Jesus Christ, the Son of God.
+   - WEB: The beginning of the Good News of Jesus Christ, the Son of God.
+- **1:6** substitute (word): SBLGNT *εσθων* ] TR *εσθιων*
+   - Latin: Erat autem Jōhannēs indūtus camēlīnīs pilīs, lateribus pelliciō cingulō cīnctīs, vēscēbāturque lōcustīs et melle silvestrī.
+   - 1573: Erat autem Iohannes indutus camelinis pilis, lateribus pelliceo cingulo cinctis, vescebaturque locustis et melle syluestri,
+   - TR: Ἦν δὲ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου, καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἐσθίων ἀκρίδας καὶ μέλι ἄγριον.
+   - SBLGNT: καὶ ἦν ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, καὶ ἔσθων ἀκρίδας καὶ μέλι ἄγριον.
+   - Vulgate: Et erat Joannes vestitus pilis cameli, et zona pellicea circa lumbos ejus, et locustas et mel silvestre edebat.
+   - BSB: John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey.
+   - WEB: John was clothed with camel’s hair and a leather belt around his waist. He ate locusts and wild honey.
+- **1:9** substitute (name): SBLGNT *ναζαρετ* ] TR *ναζαρεθ*
+   - Latin: Accidit autem ut per eōs diēs venīret Jēsūs ā Nāzarethā Galilææ, isque ā Jōhanne baptīzātus est in Jordāne,
+   - 1573: Accidit autem vt per eos dies veniret Iesus à Nazaretha Galilææ, isque à Iohanne baptizatus est in Iordane:
+   - TR: Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις, ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲθ τῆς Γαλιλαίας, καὶ ἐβαπτίσθη ὑπὸ Ἰωάννου εἰς τὸν Ἰορδάνην.
+   - SBLGNT: Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲτ τῆς Γαλιλαίας καὶ ἐβαπτίσθη εἰς τὸν Ἰορδάνην ὑπὸ Ἰωάννου.
+   - Vulgate: Et factum est: in diebus illis venit Jesus a Nazareth Galilææ: et baptizatus est a Joanne in Jordane.
+   - BSB: In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.
+   - WEB: In those days, Jesus came from Nazareth of Galilee, and was baptized by John in the Jordan.
+- **1:13** add (number): SBLGNT *–* ] TR *+ τεσσαρακοντα*
+   - Latin: ibique fuit in sōlitūdine diēs quadrāgintā, temptātusque est ā Satanā, eratque cum ferīs, et eī ministrābant angelī.
+   - 1573: ibique fuit in solitudine dies quadraginta, tentatusque est à Satana, eratque cum feris, et ei ministrabant angeli.
+   - TR: Καὶ ἦν ἐκεῖ ἐν τῇ ἐρήμῳ ἡμέρας τεσσαράκοντα πειραζόμενος ὑπὸ τοῦ Σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ.
+   - SBLGNT: καὶ ἦν ἐν τῇ ἐρήμῳ τεσσεράκοντα ἡμέρας πειραζόμενος ὑπὸ τοῦ Σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ.
+   - Vulgate: Et erat in deserto quadraginta diebus, et quadraginta noctibus: et tentabatur a Satana: eratque cum bestiis, et angeli ministrabant illi.
+   - BSB: and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.
+   - WEB: He was there in the wilderness forty days, tempted by Satan. He was with the wild animals; and the angels were serving him.
+- **1:16** substitute (name): SBLGNT *σιμωνος αμφιβαλλοντας* ] TR *αυτου βαλλοντας αμφιβληστρον*
+   - Latin: Ambulāns autem apud Galilææ lacum, vīdit Simōnem et Andrēam ejus frātrem, jacientēs in lacum rētia, erant enim piscātōrēs.
+   - 1573: Ambulans autem apud Galilææ lacum, vidit Simonem et Andræam eius fratrem, iacientes in lacum retia: erant enim piscatores.
+   - TR: Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδε Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ βάλλοντας ἀμφίβληστρον ἐν τῇ θαλάσσῃ· ἦσαν γὰρ ἁλιεῖς.
+   - SBLGNT: Καὶ παράγων παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν Σίμωνος ἀμφιβάλλοντας ἐν τῇ θαλάσσῃ, ἦσαν γὰρ ἁλιεῖς·
+   - Vulgate: Et præteriens secus mare Galilææ, vidit Simonem, et Andream fratrem ejus, mittentes retia in mare (erant enim piscatores),
+   - BSB: As Jesus was walking beside the Sea of Galilee, He saw Simon and his brother Andrew. They were casting a net into the sea, for they were fishermen.
+   - WEB: Passing along by the sea of Galilee, he saw Simon and Andrew, the brother of Simon, casting a net into the sea, for they were fishermen.
+- **1:21** substitute (name): SBLGNT *καφαρναουμ* ] TR *καπερναουμ*; substitute (word): SBLGNT *εδιδασκε* ] TR *εισελθων*; add (word): SBLGNT *–* ] TR *+ εδιδασκε*
+   - Latin: Profectī sunt autem Capharnaum, atque ille continuō ingressus Sabbatīs in collēgium docet,
+   - 1573: Profecti sunt autem Capharnaum, atque ille continuò ingressus Sabbatis in collegium docet,
+   - TR: Καὶ εἰσπορεύονται εἰς Καπερναούμ· καὶ εὐθέως τοῖς σάββασιν εἰσελθὼν εἰς τὴν συναγωγήν, ἐδίδασκε.
+   - SBLGNT: Καὶ εἰσπορεύονται εἰς Καφαρναούμ. καὶ εὐθὺς τοῖς σάββασιν ἐδίδασκεν εἰς τὴν συναγωγήν.
+   - Vulgate: Et ingrediuntur Capharnaum: et statim sabbatis ingressus in synagogam, docebat eos.
+   - BSB: Then Jesus and His companions went to Capernaum, and right away Jesus entered the synagogue on the Sabbath and began to teach.
+   - WEB: They went into Capernaum, and immediately on the Sabbath day he entered into the synagogue and taught.
+- **1:27** substitute (word): SBLGNT *εαυτους* ] TR *αυτους*
+   - Latin: id quod admīrātī sunt omnēs, ita ut inter sēsē disceptārent, quidnam id esset, quænam ea foret nova doctrīna, quod per potestātem etiam impūrīs spīritibus imperāret, iīque eī pārērent.
+   - 1573: Id quod admirati sunt omnes, ita vt inter sese disceptarent, quidnam id esset? quæ'nam ea foret noua doctrina? quòd per potestatem etiam impuris spiritibus imperaret, ijque ei parerent.
+   - TR: Καὶ ἐθαμβήθησαν πάντες, ὥστε συζητεῖν πρὸς αὐτούς, λέγοντας, Τί ἐστι τοῦτο; Τίς ἡ διδαχὴ ἡ καινὴ αὕτη, ὅτι κατ᾿ ἐξουσίαν καὶ τοῖς πνεύμασι τοῖς ἀκαθάρτοις ἐπιτάσσει, καὶ ὑπακούουσιν αὐτῷ;
+   - SBLGNT: καὶ ἐθαμβήθησαν ἅπαντες, ὥστε συζητεῖν πρὸς ἑαυτοὺς λέγοντας· Τί ἐστιν τοῦτο; διδαχὴ καινή· κατʼ ἐξουσίαν καὶ τοῖς πνεύμασι τοῖς ἀκαθάρτοις ἐπιτάσσει, καὶ ὑπακούουσιν αὐτῷ.
+   - Vulgate: Et mirati sunt omnes, ita ut conquirerent inter se dicentes: Quidnam est hoc? quænam doctrina hæc nova? quia in potestate etiam spiritibus immundis imperat, et obediunt ei.
+   - BSB: All the people were amazed and began to ask one another, “What is this? A new teaching with authority! He commands even the unclean spirits, and they obey Him!”
+   - WEB: They were all amazed, so that they questioned among themselves, saying, “What is this? What can this new doctrine be? For with authority he commands even the unclean spirits, and they obey him!”
+- **1:38** substitute (word): SBLGNT *και εκει* ] TR *κακει*
+   - Latin: Quibus ille: “Eāmus,” inquit, “in fīnitima oppidula, ut illīc quoque prædicem. Hāc enim dē causā profectus sum.”
+   - 1573: Quibus ille: Eamus, inquit, in finitima oppidula, vt illic quoque prædicem. Hac enim de causa profectus sum.
+   - TR: Καὶ λέγει αὐτοῖς, Ἄγωμεν εἰς τὰς ἐχομένας κωμοπόλεις, ἵνα κἀκεῖ κηρύξω· εἰς τοῦτο γὰρ ἐξελήλυθα.
+   - SBLGNT: καὶ λέγει αὐτοῖς· Ἄγωμεν ἀλλαχοῦ εἰς τὰς ἐχομένας κωμοπόλεις, ἵνα καὶ ἐκεῖ κηρύξω, εἰς τοῦτο γὰρ ἐξῆλθον.
+   - Vulgate: Et ait illis: Eamus in proximos vicos, et civitates, ut et ibi prædicem: ad hoc enim veni.
+   - BSB: But Jesus answered, “Let us go on to the neighboring towns so I can preach there as well, for that is why I have come.”
+   - WEB: He said to them, “Let’s go elsewhere into the next towns, that I may preach there also, because I came out for this reason.”
+- **1:41** substitute (word): SBLGNT *και οργισθεις* ] TR *ο δε ιησους σπλαγχνισθεις*
+   - Latin: Et Jēsūs miseritus, illum porrēctā manū tetigit: “Volō,” inquit eī; “pūrgātor.”
+   - 1573: Et Iesus misertus, illum porrecta manu tetigit: Volo, inquit ei, purgator.
+   - TR: Ὁ δὲ Ἰησοῦς σπλαγχνισθείς, ἐκτείνας τὴν χεῖρα, ἥψατο αὐτοῦ, καὶ λέγει αὐτῷ, Θέλω, καθαρίσθητι.
+   - SBLGNT: καὶ ὀργισθεὶς ἐκτείνας τὴν χεῖρα αὐτοῦ ἥψατο καὶ λέγει αὐτῷ· Θέλω, καθαρίσθητι·
+   - Vulgate: Jesus autem misertus ejus, extendit manum suam: et tangens eum, ait illi: Volo: mundare.
+   - BSB: Moved with compassion, Jesus reached out His hand and touched the man. “I am willing,” He said. “Be clean!”
+   - WEB: Being moved with compassion, he stretched out his hand, and touched him, and said to him, “I want to. Be made clean.”
+- **1:44** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: et, “Vidē,” inquit, “nē cui quid dīcās, sed ī ostēnsum tē sacerdōtī, et offer ob tuī pūrgātiōnem quæ præcēpit Mōsēs, ut iīs essent testimōniō.”
+   - 1573: et, Vide, inquit, ne cui quid dicas: sed i ostensum te sacerdoti, et offer ob tui purgationem quæ præcepit Moses, vt eis essent testimonio.
+   - TR: καὶ λέγει αὐτῷ, Ὅρα μηδενὶ μηδὲν εἴπῃς· ἀλλ᾿ ὕπαγε, σεαυτὸν δεῖξον τῷ ἱερεῖ, καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξε Μωσῆς, εἰς μαρτύριον αὐτοῖς.
+   - SBLGNT: καὶ λέγει αὐτῷ· Ὅρα μηδενὶ μηδὲν εἴπῃς, ἀλλὰ ὕπαγε σεαυτὸν δεῖξον τῷ ἱερεῖ καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου ἃ προσέταξεν Μωϋσῆς εἰς μαρτύριον αὐτοῖς.
+   - Vulgate: et dicit ei: Vide nemini dixeris: sed vade, ostende te principi sacerdotum, et offer pro emundatione tua, quæ præcepit Moyses in testimonium illis.
+   - BSB: “See that you don’t tell anyone. But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”
+   - WEB: and said to him, “See that you say nothing to anybody, but go show yourself to the priest and offer for your cleansing the things which Moses commanded, for a testimony to them.”
+- **2:1** substitute (name): SBLGNT *καφαρναουμ* ] TR *καπερναουμ*
+   - Latin: Cum autem rūrsus post aliquot diēs ingressus esset Capharnaum,
+   - 1573: cùm autem rursus post aliquot dies ingressus esset Capharnaum,
+   - TR: Καὶ πάλιν εἰσῆλθεν εἰς Καπερναοὺμ δι᾿ ἡμερῶν· καὶ ἠκούσθη ὅτι εἰς οἶκόν ἐστι.
+   - SBLGNT: Καὶ εἰσελθὼν πάλιν εἰς Καφαρναοὺμ διʼ ἡμερῶν ἠκούσθη ὅτι ἐν οἴκῳ ἐστίν·
+   - Vulgate: Et iterum intravit Capharnaum post dies,
+   - BSB: A few days later Jesus went back to Capernaum. And when the people heard that He was home,
+   - WEB: When he entered again into Capernaum after some days, it was heard that he was at home.
+- **2:4** substitute (word): SBLGNT *κραβαττον οπου* ] TR *κραββατον εφ ω*
+   - Latin: quī cum ad eum accēdere propter hominum turbam nōn possent, dētēxērunt tēctum ubi erat ille, factōque forāmine, dēmīsēre grabātum in quō jacēbat sīderātus.
+   - 1573: Qui cùm ad eum accedere propter hominum turbam non possent, detexerunt tectum vbi erat ille, factoque foramine, demisere grabatum in quo iacebat sideratus.
+   - TR: Καὶ μὴ δυνάμενοι προσεγγίσαι αὐτῷ διὰ τὸν ὄχλον, ἀπεστέγασαν τὴν στέγην ὅπου ἦν, καὶ ἐξορύξαντες χαλῶσι τὸν κράββατον ἐφ᾿ ᾧ ὁ παραλυτικὸς κατέκειτο.
+   - SBLGNT: καὶ μὴ δυνάμενοι προσενέγκαι αὐτῷ διὰ τὸν ὄχλον ἀπεστέγασαν τὴν στέγην ὅπου ἦν, καὶ ἐξορύξαντες χαλῶσι τὸν κράβαττον ὅπου ὁ παραλυτικὸς κατέκειτο.
+   - Vulgate: Et cum non possent offerre eum illi præ turba, nudaverunt tectum ubi erat: et patefacientes submiserunt grabatum in quo paralyticus jacebat.
+   - BSB: Since they were unable to get to Jesus through the crowd, they uncovered the roof above Him, made an opening, and lowered the paralytic on his mat.
+   - WEB: When they could not come near to him for the crowd, they removed the roof where he was. When they had broken it up, they let down the mat that the paralytic was lying on.
+- **2:10** add (word): SBLGNT *–* ] TR *+ αφιεναι*; omit (word): SBLGNT *αφιεναι* ] TR *–*
+   - Latin: Atque ut sciātis potestātem habēre Fīlium Hominis ignōscendī in terrīs peccāta,
+   - 1573: Atque vt sciatis potestatem habere filium hominis ignoscendi in terris peccata,
+   - TR: Ἵνα δὲ εἰδῆτε ὅτι ἐξουσίαν ἔχει ὁ υἱὸς τοῦ ἀνθρώπου ἀφιέναι ἐπὶ τῆς γῆς ἁμαρτίας — λέγει τῷ παραλυτικῷ —
+   - SBLGNT: ἵνα δὲ εἰδῆτε ὅτι ἐξουσίαν ἔχει ὁ υἱὸς τοῦ ἀνθρώπου ἐπὶ τῆς γῆς ἀφιέναι ἁμαρτίας— λέγει τῷ παραλυτικῷ·
+   - Vulgate: Ut autem sciatis quia Filius hominis habet potestatem in terra dimittendi peccata (ait paralytico),
+   - BSB: But so that you may know that the Son of Man has authority on earth to forgive sins...” He said to the paralytic,
+   - WEB: But that you may know that the Son of Man has authority on earth to forgive sins”—he said to the paralytic—
+- **2:25** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Quibus ille: “Numquamne lēgistis,” inquit, “quid fēcerit Dāvīd, cum aliquandō egēret, et ēsurīret, ipse ejusque comitēs,
+   - 1573: Quibus ille: Nunquam ne legistis, inquit, quid fecerit Dauid, cùm aliquando egeret, et esuriret, ipse eiusque comites?
+   - TR: Καὶ αὐτὸς ἔλεγεν αὐτοῖς, Οὐδέποτε ἀνέγνωτε τί ἐποίησε Δαβίδ, ὅτε χρείαν ἔσχε καὶ ἐπείνασεν αὐτὸς καὶ οἱ μετ᾿ αὐτοῦ;
+   - SBLGNT: καὶ λέγει αὐτοῖς· Οὐδέποτε ἀνέγνωτε τί ἐποίησεν Δαυὶδ ὅτε χρείαν ἔσχεν καὶ ἐπείνασεν αὐτὸς καὶ οἱ μετʼ αὐτοῦ;
+   - Vulgate: Et ait illis: Numquam legistis quid fecerit David, quando necessitatem habuit, et esuriit ipse, et qui cum eo erant?
+   - BSB: Jesus replied, “Have you never read what David did when he and his companions were hungry and in need?
+   - WEB: He said to them, “Did you never read what David did when he had need and was hungry—he, and those who were with him?
+- **3:3** add (word): SBLGNT *–* ] TR *+ εξηραμμενην εχοντι*; substitute (word): SBLGNT *εχοντι ξηραν εγειρε* ] TR *εγειραι*
+   - Latin: Igitur ille hominī siccam habentī manum dīxit: “Surge in medium.”
+   - 1573: Igitur ille homini siccam habenti manum dixit: Surge in medium.
+   - TR: Καὶ λέγει τῷ ἀνθρώπῳ τῷ ἐξηραμμένην ἔχοντι τὴν χεῖρα, Ἔγειραι εἰς τὸ μέσον.
+   - SBLGNT: καὶ λέγει τῷ ἀνθρώπῳ τῷ τὴν χεῖρα ἔχοντι ξηράν· Ἔγειρε εἰς τὸ μέσον.
+   - Vulgate: Et ait homini habenti manum aridam: Surge in medium.
+   - BSB: Then Jesus said to the man with the withered hand, “Stand up among us.”
+   - WEB: He said to the man whose hand was withered, “Stand up.”
+- **3:5** substitute (word): SBLGNT *απεκατεσταθη* ] TR *αποκατεσταθη*
+   - Latin: Cumque illī tacērent, ille eōs īrātē circum intuitus, eōrum animī callum dolēns, dīcit hominī: Extende manum tuam. Atque ille extendit, eaque tam sāna reddita est, quam erat altera.
+   - 1573: Cumque illi tacerent, ille eos iratè circum intuitus, eorum animi callum dolens, dicit homini: Extende manum tuam. Atque ille extendit, eaque tam sana reddita est, quàm erat altera.
+   - TR: Καὶ περιβλεψάμενος αὐτοὺς μετ᾿ ὀργῆς, συλλυπούμενος ἐπὶ τῇ πωρώσει τῆς καρδίας αὐτῶν, λέγει τῷ ἀνθρώπῳ, Ἔκτεινον τὴν χεῖρά σου. Καὶ ἐξέτεινε, καὶ ἀποκατεστάθη ἡ χεὶρ αὐτοῦ ὑγιὴς ὡς ἡ ἄλλη.
+   - SBLGNT: καὶ περιβλεψάμενος αὐτοὺς μετʼ ὀργῆς, συλλυπούμενος ἐπὶ τῇ πωρώσει τῆς καρδίας αὐτῶν, λέγει τῷ ἀνθρώπῳ· Ἔκτεινον τὴν χεῖρα· καὶ ἐξέτεινεν, καὶ ἀπεκατεστάθη ἡ χεὶρ αὐτοῦ.
+   - Vulgate: Et circumspiciens eos cum ira, contristatus super cæcitate cordis eorum, dicit homini: Extende manum tuam. Et extendit, et restituta est manus illi.
+   - BSB: Jesus looked around at them with anger and sorrow at their hardness of heart. Then He said to the man, “Stretch out your hand.” So he stretched it out, and it was restored.
+   - WEB: When he had looked around at them with anger, being grieved at the hardening of their hearts, he said to the man, “Stretch out your hand.” He stretched it out, and his hand was restored as healthy as the other.
+- **3:17** substitute (name): SBLGNT *βοανηργες* ] TR *βοανεργες*
+   - Latin: itemque Jācōbum Zebedæī fīlium, et Jōhannem Jācōbī frātrem, quibus nōmina imposuit Boanergēs, hoc est tonitruī fīliī,
+   - 1573: itemque Iacobum Zebedæi filium, et Iohannem Iacobi fratrem, quibus nomina imposuit Boanerges, hoc est tonitrui filij:
+   - TR: καὶ Ἰάκωβον τὸν τοῦ Ζεβεδαίου, καὶ Ἰωάννην τὸν ἀδελφὸν τοῦ Ἰακώβου· καὶ ἐπέθηκεν αὐτοῖς ὀνόματα Βοανεργές, ὅ ἐστιν, Υἱοὶ Βροντῆς·
+   - SBLGNT: καὶ Ἰάκωβον τὸν τοῦ Ζεβεδαίου καὶ Ἰωάννην τὸν ἀδελφὸν τοῦ Ἰακώβου (καὶ ἐπέθηκεν αὐτοῖς ὀνόματα Βοανηργές, ὅ ἐστιν Υἱοὶ Βροντῆς),
+   - Vulgate: et Jacobum Zebedæi, et Joannem fratrem Jacobi, et imposuit eis nomina Boanerges, quod est, Filii tonitrui:
+   - BSB: James son of Zebedee and his brother John (whom He named Boanerges, meaning “Sons of Thunder”),
+   - WEB: James the son of Zebedee; and John, the brother of James, (whom he called Boanerges, which means, Sons of Thunder);
+- **3:18** substitute (name): SBLGNT *μαθθαιον* ] TR *ματθαιον*
+   - Latin: et Andrēam, et Philippum, et Bartholomæum, et Matthæum, et Thōmam, et Jācōbum Alphæī fīlium, et Thaddæum, et Simōnem Cananītam,
+   - 1573: et Andream, et Philippum, et Bartholomæum, et Matthæum, et Thomam, et Iacobum Alphæi filium, et Thaddæum, et Simonem Cananitam,
+   - TR: καὶ Ἀνδρέαν, καὶ Φίλιππον, καὶ Βαρθολομαῖον, καὶ Ματθαῖον, καὶ Θωμᾶν, καὶ Ἰάκωβον τὸν τοῦ Ἀλφαίου, καὶ Θαδδαῖον, καὶ Σίμωνα τὸν Κανανίτην,
+   - SBLGNT: καὶ Ἀνδρέαν καὶ Φίλιππον καὶ Βαρθολομαῖον καὶ Μαθθαῖον καὶ Θωμᾶν καὶ Ἰάκωβον τὸν τοῦ Ἁλφαίου καὶ Θαδδαῖον καὶ Σίμωνα τὸν Καναναῖον
+   - Vulgate: et Andræam, et Philippum, et Bartholomæum, et Matthæum, et Thomam, et Jacobum Alphæi, et Thaddæum, et Simonem Cananæum,
+   - BSB: Andrew, Philip, Bartholomew, Matthew, Thomas, James son of Alphaeus, Thaddaeus, Simon the Zealot,
+   - WEB: Andrew; Philip; Bartholomew; Matthew; Thomas; James, the son of Alphaeus; Thaddaeus; Simon the Zealot;
+- **3:19** add (clause): SBLGNT *–* ] TR *+ και ερχονται εις οικον*
+   - Latin: et Jūdam Iscariōtam, eum ā quō prōditus est.
+   - 1573: et Iudam Iscariotam, eum à quo proditus est.
+   - TR: καὶ Ἰούδαν Ἰσκαριώτην, ὃς καὶ παρέδωκεν αὐτόν. Καὶ ἔρχονται εἰς οἶκον·
+   - SBLGNT: καὶ Ἰούδαν Ἰσκαριώθ, ὃς καὶ παρέδωκεν αὐτόν.
+   - Vulgate: et Judam Iscariotem, qui et tradidit illum.
+   - BSB: and Judas Iscariot, who betrayed Jesus.
+   - WEB: and Judas Iscariot, who also betrayed him. Then he came into a house.
+- **3:20** omit (clause): SBLGNT *και ερχεται εις οικον* ] TR *–*
+   - Latin: Deinde ubi domum vēnērunt, convēnit rūrsum multitūdō, adeō, ut nē cibum quidem capere possent.
+   - 1573: Deinde vbi domum venerunt, conuenit rursum multitudo, adeò, vt ne cibum quidem capere possent.
+   - TR: καὶ συνέρχεται πάλιν ὄχλος, ὥστε μὴ δύνασθαι αὐτοὺς μήτε ἄρτον φαγεῖν.
+   - SBLGNT: Καὶ ἔρχεται εἰς οἶκον· καὶ συνέρχεται πάλιν ὁ ὄχλος, ὥστε μὴ δύνασθαι αὐτοὺς μηδὲ ἄρτον φαγεῖν.
+   - Vulgate: Et veniunt ad domum: et convenit iterum turba, ita ut non possent neque panem manducare.
+   - BSB: Then Jesus went home, and once again a crowd gathered, so that He and His disciples could not even eat.
+   - WEB: The multitude came together again, so that they could not so much as eat bread.
+- **3:27** substitute (word): SBLGNT *αλλ* ] TR *ου δυναται*; substitute (word): SBLGNT *δυναται* ] TR *τα σκευη του ισχυρου εισελθων*
+   - Latin: Nōn potest quisquam alicujus potentis supellectilem, in ejus ædēs ingressus, dīripere, nisi prius potentem illum vinciat, atque ita dēmum ejus ædēs dīripiat.
+   - 1573: Non potest quisquam alicuius potentis supellectilem, in eius ædes ingressus, diripere, nisi prius potentem illum vinciat, atque ita demum eius ædes diripiat.
+   - TR: Οὐ δύναται οὐδεὶς τὰ σκεύη τοῦ ἰσχυροῦ, εἰσελθὼν εἰς τὴν οἰκίαν αὐτοῦ, διαρπάσαι, ἐὰν μὴ πρῶτον τὸν ἰσχυρὸν δήσῃ, καὶ τότε τὴν οἰκίαν αὐτοῦ διαρπάσει.
+   - SBLGNT: ἀλλʼ οὐδεὶς δύναται εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ εἰσελθὼν τὰ σκεύη αὐτοῦ διαρπάσαι ἐὰν μὴ πρῶτον τὸν ἰσχυρὸν δήσῃ, καὶ τότε τὴν οἰκίαν αὐτοῦ διαρπάσει.
+   - Vulgate: Nemo potest vasa fortis ingressus in domum diripere, nisi prius fortem alliget, et tunc domum ejus diripiet.
+   - BSB: Indeed, no one can enter a strong man’s house to steal his possessions unless he first ties up the strong man. Then he can plunder his house.
+   - WEB: But no one can enter into the house of the strong man to plunder unless he first binds the strong man; then he will plunder his house.
+- **3:31** add (clause): SBLGNT *–* ] TR *+ ερχονται ουν οι αδελφοι*; omit (word): SBLGNT *ερχονται* ] TR *–*
+   - Latin: Vēnērunt autem ejus māter et frātrēs, forīsque manentēs cūrārunt eum arcessendum,
+   - 1573: Venerunt autem eius mater et fratres, forisque manentes curarunt eum accersendum,
+   - TR: Ἔρχονται οὖν οἱ ἀδελφοὶ καὶ ἡ μήτηρ αὐτοῦ, καὶ ἔξω ἑστῶτες ἀπέστειλαν πρὸς αὐτόν, φωνοῦντες αὐτόν.
+   - SBLGNT: Καὶ ἔρχονται ἡ μήτηρ αὐτοῦ καὶ οἱ ἀδελφοὶ αὐτοῦ καὶ ἔξω στήκοντες ἀπέστειλαν πρὸς αὐτὸν καλοῦντες αὐτόν.
+   - Vulgate: Et veniunt mater ejus et fratres: et foris stantes miserunt ad eum vocantes eum,
+   - BSB: Then Jesus’ mother and brothers came and stood outside. They sent someone in to summon Him,
+   - WEB: His mother and his brothers came, and standing outside, they sent to him, calling him.
+- **4:4** add (word): SBLGNT *–* ] TR *+ του ουρανου*
+   - Latin: Atque inter serendum accidit, ut aliud caderet apud viam, id quod comēdērunt āeriæ volucrēs, quæ supervēnērunt.
+   - 1573: atque inter serendum accidit vt aliud caderet apud viam, id quod comederunt aereæ volucres, quæ superuenerunt.
+   - TR: Καὶ ἐγένετο ἐν τῷ σπείρειν, ὃ μὲν ἔπεσε παρὰ τὴν ὁδόν, καὶ ἦλθε τὰ πετεινὰ τοῦ οὐρανοῦ καὶ κατέφαγεν αὐτό.
+   - SBLGNT: καὶ ἐγένετο ἐν τῷ σπείρειν ὃ μὲν ἔπεσεν παρὰ τὴν ὁδόν, καὶ ἦλθεν τὰ πετεινὰ καὶ κατέφαγεν αὐτό.
+   - Vulgate: Et dum seminat, aliud cecidit circa viam, et venerunt volucres cæli, et comederunt illud.
+   - BSB: And as he was sowing, some seed fell along the path, and the birds came and devoured it.
+   - WEB: As he sowed, some seed fell by the road, and the birds came and devoured it.
+- **4:10** substitute (word): SBLGNT *κατα μονας ηρωτων* ] TR *καταμονας ηρωτησαν*
+   - Latin: Cum autem seorsum esset, interrogārunt eum suī, cum duodecim, dē eā similitūdine.
+   - 1573: Cùm autem seorsum esset, interrogarunt eum sui, cùm duodecim, de ea similitudine.
+   - TR: Ὅτε δὲ ἐγένετο καταμόνας, ἠρώτησαν αὐτὸν οἱ περὶ αὐτὸν σὺν τοῖς δώδεκα τὴν παραβολήν.
+   - SBLGNT: Καὶ ὅτε ἐγένετο κατὰ μόνας, ἠρώτων αὐτὸν οἱ περὶ αὐτὸν σὺν τοῖς δώδεκα τὰς παραβολάς.
+   - Vulgate: Et cum esset singularis, interrogaverunt eum hi qui cum eo erant duodecim, parabolam.
+   - BSB: As soon as Jesus was alone with the Twelve and those around Him, they asked Him about the parable.
+   - WEB: When he was alone, those who were around him with the twelve asked him about the parables.
+- **4:40** substitute (word): SBLGNT *ουπω* ] TR *ουτω πως ουκ*
+   - Latin: Et ille: “Adeōne timidī estis?” inquit iīs. “Quī fit ut fīdūciam nōn habeātis?”
+   - 1573: Et ille: Adeone timidi estis, inquit eis: qui fit vt fiduciam non habeatiss
+   - TR: Καὶ εἶπεν αὐτοῖς, Τί δειλοί ἐστε οὕτω; Πῶς οὐκ ἔχετε πίστιν;
+   - SBLGNT: καὶ εἶπεν αὐτοῖς· Τί δειλοί ἐστε; οὔπω ἔχετε πίστιν;
+   - Vulgate: Et ait illis: Quid timidi estis? necdum habetis fidem? et timuerunt timore magno, et dicebant ad alterutrum: Quis, putas, est iste, quia et ventus et mare obediunt ei?
+   - BSB: “Why are you so afraid?” He asked. “Do you still have no faith?”
+   - WEB: He said to them, “Why are you so afraid? How is it that you have no faith?”
+- **5:3** substitute (word): SBLGNT *εδυνατο* ] TR *ηδυνατο*
+   - Latin: in monumentīs dēgere solitus, quem nē catēnīs quidem poterat vincīre quisquam;
+   - 1573: in monimentis degere solitus, quem ne catenis quidem poterat vincere quisquam:
+   - TR: ὃς τὴν κατοίκησιν εἶχεν ἐν τοῖς μνημείοις· καὶ οὔτε ἁλύσεσιν οὐδεὶς ἠδύνατο αὐτὸν δῆσαι,
+   - SBLGNT: ὃς τὴν κατοίκησιν εἶχεν ἐν τοῖς μνήμασιν, καὶ οὐδὲ ἁλύσει οὐκέτι οὐδεὶς ἐδύνατο αὐτὸν δῆσαι
+   - Vulgate: qui domicilium habebat in monumentis, et neque catenis jam quisquam poterat eum ligare:
+   - BSB: This man had been living in the tombs and could no longer be restrained, even with chains.
+   - WEB: He lived in the tombs. Nobody could bind him any more, not even with chains,
+- **5:11** substitute (word): SBLGNT *τω ορει* ] TR *τα ορη*
+   - Latin: Erat autem illīc apud montēs porcōrum grex ingēns quī pāscēbat.
+   - 1573: Erat autem illic apud montes porcorum grex ingens qui pascebat.
+   - TR: Ἦν δὲ ἐκεῖ πρὸς τὰ ὄρη ἀγέλη χοίρων μεγάλη βοσκομένη·
+   - SBLGNT: ἦν δὲ ἐκεῖ πρὸς τῷ ὄρει ἀγέλη χοίρων μεγάλη βοσκομένη·
+   - Vulgate: Erat autem ibi circa montem grex porcorum magnus, pascens.
+   - BSB: There on the nearby hillside a large herd of pigs was feeding.
+   - WEB: Now on the mountainside there was a great herd of pigs feeding.
+- **5:19** substitute (word): SBLGNT *σοι πεποιηκε* ] TR *εποιησε*
+   - Latin: Vērum Jēsūs nōn permīsit eī, sed dīxit: “Abī domum tuam, ad tuōs, iīsque nūntiātō quæ tibi Dominus, tuī miseritus fēcerit.”
+   - 1573: Verùm Iesus non permisit ei, sed dixit: Abi domum tuam, ad tuos: eisque nunciato quæ tibi Dominus, tui misertus fecerit.
+   - TR: Ὁ δὲ Ἰησοῦς οὐκ ἀφῆκεν αὐτόν, ἀλλὰ λέγει αὐτῷ, Ὕπαγε εἰς τὸν οἶκόν σου πρὸς τοὺς σούς, καὶ ἀνάγγειλον αὐτοῖς ὅσα σοι ὁ Κύριος ἐποίησε, καὶ ἠλέησέ σε.
+   - SBLGNT: καὶ οὐκ ἀφῆκεν αὐτόν, ἀλλὰ λέγει αὐτῷ· Ὕπαγε εἰς τὸν οἶκόν σου πρὸς τοὺς σούς, καὶ ἀπάγγειλον αὐτοῖς ὅσα ὁ κύριός σοι πεποίηκεν καὶ ἠλέησέν σε.
+   - Vulgate: et non admisit eum, sed ait illi: Vade in domum tuam ad tuos, et annuntia illis quanta tibi Dominus fecerit, et misertus sit tui.
+   - BSB: But Jesus would not allow him. “Go home to your own people,” He said, “and tell them how much the Lord has done for you, and what mercy He has shown you.”
+   - WEB: He didn’t allow him, but said to him, “Go to your house, to your friends, and tell them what great things the Lord has done for you and how he had mercy on you.”
+- **5:22** substitute (name): SBLGNT *ιαιρος* ] TR *ιαειρος*
+   - Latin: cumque esset apud lacum, vēnit quīdam magistrōrum collēgiī, nōmine Jaīrus, quī eō vīsō, eī ad pedēs accidit,
+   - 1573: cumque esset apud lacum, venit quidam magistrorum collegij, nomine Iairus, qui eo viso, ei ad pedes accidit,
+   - TR: Καὶ ἰδού, ἔρχεται εἷς τῶν ἀρχισυναγώγων, ὀνόματι Ἰάειρος, καὶ ἰδὼν αὐτόν, πίπτει πρὸς τοὺς πόδας αὐτοῦ,
+   - SBLGNT: καὶ ἔρχεται εἷς τῶν ἀρχισυναγώγων, ὀνόματι Ἰάϊρος, καὶ ἰδὼν αὐτὸν πίπτει πρὸς τοὺς πόδας αὐτοῦ
+   - Vulgate: Et venit quidam de archisynagogis nomine Jairus, et videns eum procidit ad pedes ejus,
+   - BSB: A synagogue leader named Jairus arrived, and seeing Jesus, he fell at His feet
+   - WEB: Behold, one of the rulers of the synagogue, Jairus by name, came; and seeing him, he fell at his feet
+- **5:26** substitute (word): SBLGNT *αυτης* ] TR *εαυτης*
+   - Latin: et multa ā multīs passa medicīs, omnī suā rē cōnsūmptā, nōn sōlum nihil prōfēcerat, sed in dēterius vēnerat.
+   - 1573: et multa à multis passa medicis, omni sua re consumpta, non solùm nihil profecerat, sed in deterius venerat,
+   - TR: καὶ πολλὰ παθοῦσα ὑπὸ πολλῶν ἰατρῶν, καὶ δαπανήσασα τὰ παρ᾿ ἑαυτῆς πάντα, καὶ μηδὲν ὠφεληθεῖσα, ἀλλὰ μᾶλλον εἰς τὸ χεῖρον ἐλθοῦσα,
+   - SBLGNT: καὶ πολλὰ παθοῦσα ὑπὸ πολλῶν ἰατρῶν καὶ δαπανήσασα τὰ παρʼ αὐτῆς πάντα καὶ μηδὲν ὠφεληθεῖσα ἀλλὰ μᾶλλον εἰς τὸ χεῖρον ἐλθοῦσα,
+   - Vulgate: et fuerat multa perpessa a compluribus medicis: et erogaverat omnia sua, nec quidquam profecerat, sed magis deterius habebat:
+   - BSB: She had borne much agony under the care of many physicians and had spent all she had, but to no avail. Instead, her condition had only grown worse.
+   - WEB: and had suffered many things by many physicians, and had spent all that she had, and was no better, but rather grew worse,
+- **5:40** substitute (word): SBLGNT *παντας* ] TR *απαντας*
+   - Latin: At illī eum dērīdēre. Ipse, ējectīs omnibus, assūmptō puellæ patre atque mātre, et suīs comitibus, ingreditur eō ubi jacēbat puella,
+   - 1573: At illi eum deridere. Ipse, eiectis omnibus, assumpto puellæ patre atque matre, et suis comitibus, ingreditur eò vbi iacebat puella:
+   - TR: Καὶ κατεγέλων αὐτοῦ. Ὁ δέ, ἐκβαλὼν ἅπαντας, παραλαμβάνει τὸν πατέρα τοῦ παιδίου καὶ τὴν μητέρα καὶ τοὺς μετ᾿ αὐτοῦ, καὶ εἰσπορεύεται ὅπου ἦν τὸ παιδίον ἀνακείμενον.
+   - SBLGNT: καὶ κατεγέλων αὐτοῦ. αὐτὸς δὲ ἐκβαλὼν πάντας παραλαμβάνει τὸν πατέρα τοῦ παιδίου καὶ τὴν μητέρα καὶ τοὺς μετʼ αὐτοῦ, καὶ εἰσπορεύεται ὅπου ἦν τὸ παιδίον·
+   - Vulgate: Et irridebant eum. Ipse vero ejectis omnibus assumit patrem, et matrem puellæ, et qui secum erant, et ingreditur ubi puella erat jacens.
+   - BSB: And they laughed at Him. After He had put them all outside, He took the child’s father and mother and His own companions, and went in to see the child.
+   - WEB: They ridiculed him. But he, having put them all out, took the father of the child, her mother, and those who were with him, and went in where the child was lying.
+- **5:43** substitute (word): SBLGNT *γνοι* ] TR *γνω*
+   - Latin: Præcēpit autem iīs Jēsūs magnopere, nē quis id rescīsceret, eīque cibum darī jussit.
+   - 1573: Præcepit autem eis Iesus magnopere, ne quis id rescisceret, eique cibum dari iussit.
+   - TR: Καὶ διεστείλατο αὐτοῖς πολλὰ ἵνα μηδεὶς γνῷ τοῦτο· καὶ εἶπε δοθῆναι αὐτῇ φαγεῖν.
+   - SBLGNT: καὶ διεστείλατο αὐτοῖς πολλὰ ἵνα μηδεὶς γνοῖ τοῦτο, καὶ εἶπεν δοθῆναι αὐτῇ φαγεῖν.
+   - Vulgate: Et præcepit illis vehementer ut nemo id sciret: et dixit dari illi manducare.
+   - BSB: Then Jesus gave strict orders that no one should know about this, and He told them to give her something to eat.
+   - WEB: He strictly ordered them that no one should know this, and commanded that something should be given to her to eat.
+- **6:5** substitute (word): SBLGNT *εδυνατο* ] TR *ηδυνατο*
+   - Latin: Itaque nōn potuit illīc ūllum facere mīrāculum, nisi quod paucōs ægrōtōs, impositīs manibus sānāvit,
+   - 1573: Itaque non potuit illic vllum facere miraculum, nisi quòd paucos ægrotos, impositis manibus sanauit,
+   - TR: Καὶ οὐκ ἠδύνατο ἐκεῖ οὐδεμίαν δύναμιν ποιῆσαι, εἰ μὴ ὀλίγοις ἀρρώστοις ἐπιθεὶς τὰς χεῖρας, ἐθεράπευσε.
+   - SBLGNT: καὶ οὐκ ἐδύνατο ἐκεῖ ποιῆσαι οὐδεμίαν δύναμιν, εἰ μὴ ὀλίγοις ἀρρώστοις ἐπιθεὶς τὰς χεῖρας ἐθεράπευσεν·
+   - Vulgate: Et non poterat ibi virtutem ullam facere, nisi paucos infirmos impositis manibus curavit:
+   - BSB: So He could not perform any miracles there, except to lay His hands on a few of the sick and heal them.
+   - WEB: He could do no mighty work there, except that he laid his hands on a few sick people and healed them.
+- **6:27** omit (clause): SBLGNT *και απελθων απεκεφαλισε αυτον εν τη φυλακη* ] TR *–*
+   - Latin: Mīsitque cōnfestim rēx spiculātōrem, et eī, ut illīus caput afferret, imperāvit; ille eum in carcere dēcollātum iit.
+   - 1573: misitque confesstim rex spiculatorem, et ei, vt illius caput afferret, imperauit, ille eum in carcere decollatum iuit.
+   - TR: Καὶ εὐθέως ἀποστείλας ὁ βασιλεὺς σπεκουλάτωρα ἐπέταξεν ἐνεχθῆναι τὴν κεφαλὴν αὐτοῦ.
+   - SBLGNT: καὶ εὐθὺς ἀποστείλας ὁ βασιλεὺς σπεκουλάτορα ἐπέταξεν ἐνέγκαι τὴν κεφαλὴν αὐτοῦ. καὶ ἀπελθὼν ἀπεκεφάλισεν αὐτὸν ἐν τῇ φυλακῇ
+   - Vulgate: sed misso spiculatore præcepit afferri caput ejus in disco. Et decollavit eum in carcere,
+   - BSB: So without delay, the king commanded that John’s head be brought in. He sent an executioner, who went and beheaded him in the prison.
+   - WEB: Immediately the king sent out a soldier of his guard and commanded to bring John’s head; and he went and beheaded him in the prison,
+- **6:28** add (clause): SBLGNT *–* ] TR *+ ο δε απελθων απεκεφαλισε αυτον εν τη φυλακη*
+   - Latin: Et ejus caput in catīnō attulit, ac puellæ trādidit: quod puella porrō suæ mātrī dedit.
+   - 1573: et eius caput in catino attulit, ac puellæ tradidit: quod puella porrò suæ matri dedit.
+   - TR: Ὁ δὲ ἀπελθὼν ἀπεκεφάλισεν αὐτὸν ἐν τῇ φυλακῇ, καὶ ἤνεγκε τὴν κεφαλὴν αὐτοῦ ἐπὶ πίνακι, καὶ ἔδωκεν αὐτὴν τῷ κορασίῳ· καὶ τὸ κοράσιον ἔδωκεν αὐτὴν τῇ μητρὶ αὐτῆς.
+   - SBLGNT: καὶ ἤνεγκεν τὴν κεφαλὴν αὐτοῦ ἐπὶ πίνακι καὶ ἔδωκεν αὐτὴν τῷ κορασίῳ, καὶ τὸ κοράσιον ἔδωκεν αὐτὴν τῇ μητρὶ αὐτῆς.
+   - Vulgate: et attulit caput ejus in disco: et dedit illud puellæ, et puella dedit matri suæ.
+   - BSB: The man brought John’s head on a platter and presented it to the girl, who gave it to her mother.
+   - WEB: and brought his head on a platter, and gave it to the young lady; and the young lady gave it to her mother.
+- **6:31** substitute (word): SBLGNT *ευκαιρουν* ] TR *ηυκαιρουν*
+   - Latin: Et Jēsūs jussit iīs, ut adessent ipsī seorsum in dēsertum locum, paululumque requiēscerent. Erant enim quī veniēbant, et quī abībant, tam multī, ut iīs nē cibī quidem capiendī ōtium suppeteret.
+   - 1573: Et Iesus iussit eis, vt adessent ipsi seorsum in desertum locum, paululumque requiescerent. Erant enim qui veniebant, et qui abibant, tam multi, vt eis ne cibi quidem capiendi ocium suppeteret.
+   - TR: Καὶ εἶπεν αὐτοῖς, Δεῦτε ὑμεῖς αὐτοὶ κατ᾿ ἰδίαν εἰς ἔρημον τόπον, καὶ ἀναπαύεσθε ὀλίγον. Ἦσαν γὰρ οἱ ἐρχόμενοι καὶ οἱ ὑπάγοντες πολλοί, καὶ οὐδὲ φαγεῖν ηὐκαίρουν.
+   - SBLGNT: καὶ λέγει αὐτοῖς· Δεῦτε ὑμεῖς αὐτοὶ κατʼ ἰδίαν εἰς ἔρημον τόπον καὶ ἀναπαύσασθε ὀλίγον. ἦσαν γὰρ οἱ ἐρχόμενοι καὶ οἱ ὑπάγοντες πολλοί, καὶ οὐδὲ φαγεῖν εὐκαίρουν.
+   - Vulgate: Et ait illis: Venite seorsum in desertum locum, et requiescite pusillum. Erant enim qui veniebant et redibant multi: et nec spatium manducandi habebant.
+   - BSB: And He said to them, “Come with Me privately to a solitary place, and let us rest for a while.” For many people were coming and going, and they did not even have time to eat.
+   - WEB: He said to them, “Come away into a deserted place, and rest awhile.” For there were many coming and going, and they had no leisure so much as to eat.
+- **6:33** add (word): SBLGNT *–* ] TR *+ οι οχλοι*
+   - Latin: Quōs cum vulgus abīre vidēret, agnōvērunt eum multī, et illūc pedestrēs ex omnibus urbibus concurrērunt, eōsque aggressī, ad eum convēnērunt.
+   - 1573: quos cùm vulgus abire videret, agnouerunt eum multi, et illuc pedestres ex omnibus vrbibus concurrerunt, eosque aggressi, ad eum conuenerunt:
+   - TR: Καὶ εἶδον αὐτοὺς ὑπάγοντας οἱ ὄχλοι, καὶ ἐπέγνωσαν αὐτὸν πολλοί, καὶ πεζῇ ἀπὸ πασῶν τῶν πόλεων συνέδραμον ἐκεῖ, καὶ προῆλθον αὐτούς, καὶ συνῆλθον πρὸς αὐτόν.
+   - SBLGNT: καὶ εἶδον αὐτοὺς ὑπάγοντας καὶ ἐπέγνωσαν πολλοί, καὶ πεζῇ ἀπὸ πασῶν τῶν πόλεων συνέδραμον ἐκεῖ καὶ προῆλθον αὐτούς.
+   - Vulgate: Et viderunt eos abeuntes, et cognoverunt multi: et pedestres de omnibus civitatibus concurrerunt illuc, et prævenerunt eos.
+   - BSB: But many people saw them leaving and recognized them. They ran together on foot from all the towns and arrived before them.
+   - WEB: They saw them going, and many recognized him and ran there on foot from all the cities. They arrived before them and came together to him.
+- **6:37** add (number): SBLGNT *–* ] TR *+ διακοσιων*; omit (number): SBLGNT *διακοσιων* ] TR *–*
+   - Latin: Et Jēsūs iīs respondēns: “Præbēte vōs iīs cibum,” inquit. Cui illī: “Eāmus ēmptum ducentīs dēnāriīs pānēs, quibus eōs pāscāmus.”
+   - 1573: Et Iesus eis respondens: Præbete vos eis cibum, inquit. Cui illi: Eamus emptum ducentis denarijs panes, quibus eos pascamus.
+   - TR: Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς, Δότε αὐτοῖς ὑμεῖς φαγεῖν. Καὶ λέγουσιν αὐτῷ, Ἀπελθόντες ἀγοράσωμεν διακοσίων δηναρίων ἄρτους, καὶ δῶμεν αὐτοῖς φαγεῖν;
+   - SBLGNT: ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς· Δότε αὐτοῖς ὑμεῖς φαγεῖν. καὶ λέγουσιν αὐτῷ· Ἀπελθόντες ἀγοράσωμεν δηναρίων διακοσίων ἄρτους καὶ δώσομεν αὐτοῖς φαγεῖν;
+   - Vulgate: Et respondens ait illis: Date illis vos manducare. Et dixerunt ei: Euntes emamus ducentis denariis panes, et dabimus illis manducare.
+   - BSB: But Jesus told them, “You give them something to eat.” They asked Him, “Should we go out and spend two hundred denarii to give all of them bread to eat?”
+   - WEB: But he answered them, “You give them something to eat.” They asked him, “Shall we go and buy two hundred denarii worth of bread and give them something to eat?”
+- **6:38** add (word): SBLGNT *–* ] TR *+ αρτους*; omit (word): SBLGNT *αρτους* ] TR *–*
+   - Latin: Et ille: “Quot pānēs habētis?” inquit iīs. “Īte vīsum.” Quō cognitō, cum quīnque, et duōs piscēs dīxissent,
+   - 1573: Et ille: Quot panes habetis inquit eis: Ite visum. Quo cognito, cùm quinque, et duos pisces dixissent,
+   - TR: Ὁ δὲ λέγει αὐτοῖς, Πόσους ἄρτους ἔχετε; Ὑπάγετε καὶ ἴδετε. Καὶ γνόντες λέγουσι, Πέντε, καὶ δύο ἰχθύας.
+   - SBLGNT: ὁ δὲ λέγει αὐτοῖς· Πόσους ἔχετε ἄρτους; ὑπάγετε ἴδετε. καὶ γνόντες λέγουσιν· Πέντε, καὶ δύο ἰχθύας.
+   - Vulgate: Et dicit eis: Quot panes habetis? ite, et videte. Et cum cognovissent, dicunt: Quinque, et duos pisces.
+   - BSB: “Go and see how many loaves you have,” He told them. And after checking, they said, “Five—and two fish.”
+   - WEB: He said to them, “How many loaves do you have? Go see.” When they knew, they said, “Five, and two fish.”
+- **6:51** substitute (word): SBLGNT *εκ περισσου* ] TR *εκπερισσου*
+   - Latin: Ad eōsque ascendit in nāvem, et ventus posuit: id quod illī suprā modum attonitī, apud sēsē mīrārī.
+   - 1573: ad eosque ascendit in nauem, et ventus posuit: id quod illi supra modum attoniti, apud sese mirari.
+   - TR: Καὶ ἀνέβη πρὸς αὐτοὺς εἰς τὸ πλοῖον, καὶ ἐκόπασεν ὁ ἄνεμος· καὶ λίαν ἐκπερισσοῦ ἐν ἑαυτοῖς ἐξίσταντο, καὶ ἐθαύμαζον.
+   - SBLGNT: καὶ ἀνέβη πρὸς αὐτοὺς εἰς τὸ πλοῖον, καὶ ἐκόπασεν ὁ ἄνεμος. καὶ λίαν ἐκ περισσοῦ ἐν ἑαυτοῖς ἐξίσταντο,
+   - Vulgate: Et ascendit ad illos in navim, et cessavit ventus. Et plus magis intra se stupebant:
+   - BSB: Then He climbed into the boat with them, and the wind died down. And the disciples were utterly astounded,
+   - WEB: He got into the boat with them; and the wind ceased, and they were very amazed among themselves, and marveled;
+- **6:53** substitute (name): SBLGNT *ηλθον εις γεννησαρετ* ] TR *γενησαρετ*
+   - Latin: Postquam trājēcērunt, vēnērunt in agrum Gennezarethānum:
+   - 1573: Postquam traiecerunt, venerunt in agrum Gennezarethanum:
+   - TR: Καὶ διαπεράσαντες ἦλθον ἐπὶ τὴν γῆν Γενησαρέτ, καὶ προσωρμίσθησαν.
+   - SBLGNT: Καὶ διαπεράσαντες ἐπὶ τὴν γῆν ἦλθον εἰς Γεννησαρὲτ καὶ προσωρμίσθησαν.
+   - Vulgate: Et cum transfretassent, venerunt in terram Genesareth, et applicuerunt.
+   - BSB: When they had crossed over, they landed at Gennesaret and moored the boat.
+   - WEB: When they had crossed over, they came to land at Gennesaret and moored to the shore.
+- **7:4** substitute (word): SBLGNT *απ* ] TR *απο*
+   - Latin: Item ā forō nōn nisi lōtī epulantur, aliaque multa sunt, quæ tenenda accēpērunt, pōculōrum lōtiōnēs, et urceōrum, et ærāmentōrum, et lectōrum.
+   - 1573: Item à foro non nisi loti epulantur, aliaque multa sunt, quæ tenenda acceperunt, poculorum lotiones, et vrceorum, et æramentorum, et lectorum.
+   - TR: καὶ ἀπὸ ἀγορᾶς, ἐὰν μὴ βαπτίσωνται, οὐκ ἐσθίουσι· καὶ ἄλλα πολλά ἐστιν ἃ παρέλαβον κρατεῖν, βαπτισμοὺς ποτηρίων καὶ ξεστῶν καὶ χαλκίων καὶ κλινῶν.
+   - SBLGNT: καὶ ἀπʼ ἀγορᾶς ἐὰν μὴ βαπτίσωνται οὐκ ἐσθίουσιν, καὶ ἄλλα πολλά ἐστιν ἃ παρέλαβον κρατεῖν, βαπτισμοὺς ποτηρίων καὶ ξεστῶν καὶ χαλκίων καὶ κλινῶν—
+   - Vulgate: et a foro nisi baptizentur, non comedunt: et alia multa sunt, quæ tradita sunt illis servare, baptismata calicum, et urceorum, et æramentorum, et lectorum:
+   - BSB: And on returning from the market, they do not eat unless they wash. And there are many other traditions for them to observe, including the washing of cups, pitchers, kettles, and couches for dining.
+   - WEB: They don’t eat when they come from the marketplace unless they bathe themselves, and there are many other things which they have received to hold to: washings of cups, pitchers, bronze vessels, and couches.)
+- **7:6** substitute (word): SBLGNT *επροφητευσε* ] TR *προεφητευσε*
+   - Latin: Quibus ille sīc respondit: “Rēctē dē vōbīs simulātōribus vāticinātus est Ēsāiās, ut scrīptum est: “‘Hic populus mē labiīs honōrat, cum eōrum cor absit ā mē procul.
+   - 1573: Quibus ille sic respondit: Rectè de vobis simulatoribus vaticinatus est Esaias, vt scriptum est: Hic populus me labijs honorat, cùm eorum cor absit à me procul.
+   - TR: Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς ὅτι Καλῶς προεφήτευσεν Ἠσαΐας περὶ ὑμῶν τῶν ὑποκριτῶν, ὡς γέγραπται, Οὗτος ὁ λαὸς τοῖς χείλεσί με τιμᾷ, ἡ δὲ καρδία αὐτῶν πόρρω ἀπέχει ἀπ᾿ ἐμοῦ.
+   - SBLGNT: ὁ δὲ εἶπεν αὐτοῖς· Καλῶς ἐπροφήτευσεν Ἠσαΐας περὶ ὑμῶν τῶν ὑποκριτῶν, ὡς γέγραπται ὅτι Οὗτος ὁ λαὸς τοῖς χείλεσίν με τιμᾷ, ἡ δὲ καρδία αὐτῶν πόρρω ἀπέχει ἀπʼ ἐμοῦ·
+   - Vulgate: At ille respondens, dixit eis: Bene prophetavit Isaias de vobis hypocritis, sicut scriptum est: [Populus hic labiis me honorat, cor autem eorum longe est a me:
+   - BSB: Jesus answered them, “Isaiah prophesied correctly about you hypocrites, as it is written: ‘These people honor Me with their lips, but their hearts are far from Me.
+   - WEB: He answered them, “Well did Isaiah prophesy of you hypocrites, as it is written, ‘This people honors me with their lips, but their heart is far from me.
+- **7:10** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Mōsēs enim dīxit: ‘Honōrā tuum patrem atque mātrem,’ et ‘Quī patrī mātrīve male dīxerit, morte plēctātur.’
+   - 1573: Moses enim dixit: Honora tuum patrem atque matrem: et, Qui patri matriue maledixerit, morte plectatur
+   - TR: Μωσῆς γὰρ εἶπε, Τίμα τὸν πατέρα σου καὶ τὴν μητέρα σου· καί, Ὁ κακολογῶν πατέρα ἢ μητέρα θανάτῳ τελευτάτω·
+   - SBLGNT: Μωϋσῆς γὰρ εἶπεν· Τίμα τὸν πατέρα σου καὶ τὴν μητέρα σου, καί· Ὁ κακολογῶν πατέρα ἢ μητέρα θανάτῳ τελευτάτω·
+   - Vulgate: Moyses enim dixit: Honora patrem tuum, et matrem tuam. Et: Qui maledixerit patri, vel matri, morte moriatur.
+   - BSB: For Moses said, ‘Honor your father and your mother’ and ‘Anyone who curses his father or mother must be put to death.’
+   - WEB: For Moses said, ‘Honor your father and your mother;’ and, ‘He who speaks evil of father or mother, let him be put to death.’
+- **7:22** substitute (word): SBLGNT *μοιχειαι* ] TR *κλοπαι*
+   - Latin: fūrta, avāritiæ, malitiæ, fraus, libīdō, malus oculus, maledicta, superbia, dēmentia.
+   - 1573: furta, auaritiæ, malitiæ, fraus, libido, malus oculus, maledicta, superbia, dementia.
+   - TR: κλοπαί, πλεονεξίαι, πονηρίαι, δόλος, ἀσέλγεια, ὀφθαλμὸς πονηρός, βλασφημία, ὑπερηφανία, ἀφροσύνη·
+   - SBLGNT: μοιχεῖαι, πλεονεξίαι, πονηρίαι, δόλος, ἀσέλγεια, ὀφθαλμὸς πονηρός, βλασφημία, ὑπερηφανία, ἀφροσύνη·
+   - Vulgate: furta, avaritiæ, nequitiæ, dolus, impudicitiæ, oculus malus, blasphemia, superbia, stultitia.
+   - BSB: greed, wickedness, deceit, debauchery, envy, slander, arrogance, and foolishness.
+   - WEB: covetings, wickedness, deceit, lustful desires, an evil eye, blasphemy, pride, and foolishness.
+- **7:26** substitute (name): SBLGNT *συροφοινικισσα* ] TR *συροφοινισσα*
+   - Latin: Erat autem mulier Græca, genere Syrophœnissa. Ea rogābat eum, ut dæmonium expelleret ex suā fīliā.
+   - 1573: Erat autem mulier Græca, genere Syrophœnissa. Ea rogabat eum, vt dæmonium expelleret ex sua filia.
+   - TR: ἦν δὲ ἡ γυνὴ Ἑλληνίς, Συροφοίνισσα τῷ γένει· καὶ ἠρώτα αὐτὸν ἵνα τὸ δαιμόνιον ἐκβάλλῃ ἐκ τῆς θυγατρὸς αὐτῆς.
+   - SBLGNT: ἡ δὲ γυνὴ ἦν Ἑλληνίς, Συροφοινίκισσα τῷ γένει· καὶ ἠρώτα αὐτὸν ἵνα τὸ δαιμόνιον ἐκβάλῃ ἐκ τῆς θυγατρὸς αὐτῆς.
+   - Vulgate: Erat enim mulier gentilis, Syrophœnissa genere. Et rogabat eum ut dæmonium ejiceret de filia ejus.
+   - BSB: Now she was a Greek woman of Syrophoenician origin, and she kept asking Jesus to drive the demon out of her daughter.
+   - WEB: Now the woman was a Greek, a Syrophoenician by race. She begged him that he would cast the demon out of her daughter.
+- **8:5** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: At ille eōs interrogāvit: “Quot habētis pānēs?” “Septem,” inquiunt.
+   - 1573: At ille eos interrogauit: Quot habetis panes. Septem, inquiunt.
+   - TR: Καὶ ἐπηρώτα αὐτούς, Πόσους ἔχετε ἄρτους; Οἱ δὲ εἶπον, Ἑπτά.
+   - SBLGNT: καὶ ἠρώτα αὐτούς· Πόσους ἔχετε ἄρτους; οἱ δὲ εἶπαν· Ἑπτά.
+   - Vulgate: Et interrogavit eos: Quot panes habetis? Qui dixerunt: Septem.
+   - BSB: “How many loaves do you have?” Jesus asked. “Seven,” they replied.
+   - WEB: He asked them, “How many loaves do you have?” They said, “Seven.”
+- **8:7** add (clause): SBLGNT *–* ] TR *+ ειπε παραθειναι και*; omit (clause): SBLGNT *ειπε και ταυτα παρατιθεναι* ] TR *–*
+   - Latin: Cumque paucōs habērent pisciculōs, ille āctīs laudibus, jussit eōs quoque appōnī.
+   - 1573: Cumque paucos haberent pisciculos, ille actis laudibus, iussit eos quoque apponi.
+   - TR: Καὶ εἶχον ἰχθύδια ὀλίγα· καὶ εὐλογήσας εἶπε παραθεῖναι καὶ αὐτά.
+   - SBLGNT: καὶ εἶχον ἰχθύδια ὀλίγα· καὶ εὐλογήσας αὐτὰ εἶπεν καὶ ταῦτα παρατιθέναι.
+   - Vulgate: Et habebant pisciculos paucos: et ipsos benedixit, et jussit apponi.
+   - BSB: They also had a few small fish, and Jesus blessed them and ordered that these be set before them as well.
+   - WEB: They also had a few small fish. Having blessed them, he said to serve these also.
+- **9:2** substitute (word): SBLGNT *μετα* ] TR *μεθ*
+   - Latin: Deinde sextō post diē assūmit Jēsūs Petrum, et Jācōbum, et Jōhannem, iīsque in arduum montem sōlīs seorsum ductīs, trānsfigūrātus est cōram iīs,
+   - 1573: Deinde sexto pòst die assumit Iesus Petrum, et Iacobum, et Iohannem, eisque in arduum montem solis seorsum ductis, transfiguratus est coram eis,
+   - TR: Καὶ μεθ᾿ ἡμέρας ἓξ παραλαμβάνει ὁ Ἰησοῦς τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωάννην, καὶ ἀναφέρει αὐτοὺς εἰς ὄρος ὑψηλὸν κατ᾿ ἰδίαν μόνους. Καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν,
+   - SBLGNT: Καὶ μετὰ ἡμέρας ἓξ παραλαμβάνει ὁ Ἰησοῦς τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ Ἰωάννην, καὶ ἀναφέρει αὐτοὺς εἰς ὄρος ὑψηλὸν κατʼ ἰδίαν μόνους. καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν,
+   - Vulgate: Et post dies sex assumit Jesus Petrum, et Jacobum, et Joannem, et ducit illos in montem excelsum seorsum solos, et transfiguratus est coram ipsis.
+   - BSB: After six days Jesus took with Him Peter, James, and John, and led them up a high mountain by themselves. There He was transfigured before them.
+   - WEB: After six days Jesus took with him Peter, James, and John, and brought them up onto a high mountain privately by themselves, and he was changed into another form in front of them.
+- **9:4** substitute (name): SBLGNT *μωυσει* ] TR *μωσει*
+   - Latin: Iīsque cōnspectus est Ēlīās cum Mōse, quī cum Jēsū colloquēbantur.
+   - 1573: eisque conspectus est Elias cum Mose, qui cum Iesu colloquebantur.
+   - TR: Καὶ ὤφθη αὐτοῖς Ἠλίας σὺν Μωσεῖ, καὶ ἦσαν συλλαλοῦντες τῷ Ἰησοῦ.
+   - SBLGNT: καὶ ὤφθη αὐτοῖς Ἠλίας σὺν Μωϋσεῖ, καὶ ἦσαν συλλαλοῦντες τῷ Ἰησοῦ.
+   - Vulgate: Et apparuit illis Elias cum Moyse: et erant loquentes cum Jesu.
+   - BSB: And Elijah and Moses appeared before them, talking with Jesus.
+   - WEB: Elijah and Moses appeared to them, and they were talking with Jesus.
+- **9:5** substitute (name): SBLGNT *μωυσει* ] TR *μωσει*
+   - Latin: Tum Petrus sīc Jēsum allocūtus est: “Rabbi, bonum est nōs hīc esse: itaque faciāmus tria tabernācula, tibi ūnum, Mōsī ūnum, et Ēlīæ ūnum.”
+   - 1573: Tum Petrus sic Iesum allocutus est: Rabbi, bonum est nos hîc esse: itaque faciamus tria tabernacula, tibi vnum, Mosi vnum, et Eliæ vnum.
+   - TR: Καὶ ἀποκριθεὶς ὁ Πέτρος λέγει τῷ Ἰησοῦ, Ῥαββί, καλόν ἐστιν ἡμᾶς ὧδε εἶναι· καὶ ποιήσωμεν σκηνὰς τρεῖς, σοὶ μίαν, καὶ Μωσεῖ μίαν, καὶ Ἠλίᾳ μίαν.
+   - SBLGNT: καὶ ἀποκριθεὶς ὁ Πέτρος λέγει τῷ Ἰησοῦ· Ῥαββί, καλόν ἐστιν ἡμᾶς ὧδε εἶναι, καὶ ποιήσωμεν τρεῖς σκηνάς, σοὶ μίαν καὶ Μωϋσεῖ μίαν καὶ Ἠλίᾳ μίαν.
+   - Vulgate: Et respondens Petrus, ait Jesu: Rabbi, bonum est nos hic esse: et faciamus tria tabernacula, tibi unum, et Moysi unum, et Eliæ unum.
+   - BSB: Peter said to Jesus, “Rabbi, it is good for us to be here. Let us put up three shelters —one for You, one for Moses, and one for Elijah.”
+   - WEB: Peter answered Jesus, “Rabbi, it is good for us to be here. Let’s make three tents: one for you, one for Moses, and one for Elijah.”
+- **9:6** substitute (word): SBLGNT *αποκριθη* ] TR *λαληση ησαν γαρ*
+   - Latin: Nesciēbat autem quid dīceret, quippe cum essent territī.
+   - 1573: Nesciebat autem quid diceret, quippe cùm essent territi.
+   - TR: Οὐ γὰρ ᾔδει τί λαλήσῃ· ἦσαν γὰρ ἔκφοβοι.
+   - SBLGNT: οὐ γὰρ ᾔδει τί ἀποκριθῇ, ἔκφοβοι γὰρ ἐγένοντο.
+   - Vulgate: Non enim sciebat quid diceret: erant enim timore exterriti.
+   - BSB: For they were all so terrified that Peter did not know what else to say.
+   - WEB: For he didn’t know what to say, for they were very afraid.
+- **9:7** add (word): SBLGNT *–* ] TR *+ λεγουσα*
+   - Latin: Exstitit autem nūbēs, quæ illōs inumbrāvit, vēnitque vōx ex nūbe, dīcēns: “Hic est meus cārissimus Fīlius, hunc audīte.”
+   - 1573: Extitit autem nubes, quæ illos inumbrauit, venitque vox ex nube, dicens: Hic est meus charissimus filius, hunc audite.
+   - TR: Καὶ ἐγένετο νεφέλη ἐπισκιάζουσα αὐτοῖς· καὶ ἦλθε φωνὴ ἐκ τῆς νεφέλης λέγουσα, Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός· αὐτοῦ ἀκούετε.
+   - SBLGNT: καὶ ἐγένετο νεφέλη ἐπισκιάζουσα αὐτοῖς, καὶ ἐγένετο φωνὴ ἐκ τῆς νεφέλης· Οὗτός ἐστιν ὁ υἱός μου ὁ ἀγαπητός, ἀκούετε αὐτοῦ.
+   - Vulgate: Et facta est nubes obumbrans eos: et venit vox de nube, dicens: Hic est Filius meus carissimus: audite illum.
+   - BSB: Then a cloud appeared and enveloped them, and a voice came from the cloud: “This is My beloved Son. Listen to Him!”
+   - WEB: A cloud came, overshadowing them, and a voice came out of the cloud, “This is my beloved Son. Listen to him.”
+- **9:18** substitute (word): SBLGNT *ειπα* ] TR *ειπον*
+   - Latin: Quī ubi eum corripuit, ita lacerat, ut spūmet, et dentibus strīdeat ac tābēscat. Eum ut ējicerent, petiī ā tuīs discipulīs, sed nequīvērunt.”
+   - 1573: qui vbi eum corripuit, ita lacerat, vt spumet, et dentibus strideat ac tabescat. Eum vt eijcerent, petij à tuis discipulis, sed nequiuerunt.
+   - TR: Καὶ ὅπου ἂν αὐτὸν καταλάβῃ, ῥήσσει αὐτόν· καὶ ἀφρίζει, καὶ τρίζει τοὺς ὀδόντας αὐτοῦ, καὶ ξηραίνεται· καὶ εἶπον τοῖς μαθηταῖς σου ἵνα αὐτὸ ἐκβάλωσι, καὶ οὐκ ἴσχυσαν.
+   - SBLGNT: καὶ ὅπου ἐὰν αὐτὸν καταλάβῃ ῥήσσει αὐτόν, καὶ ἀφρίζει καὶ τρίζει τοὺς ὀδόντας καὶ ξηραίνεται· καὶ εἶπα τοῖς μαθηταῖς σου ἵνα αὐτὸ ἐκβάλωσιν, καὶ οὐκ ἴσχυσαν.
+   - Vulgate: qui ubicumque eum apprehenderit, allidit illum, et spumat, et stridet dentibus, et arescit: et dixi discipulis tuis ut ejicerent illum, et non potuerunt.
+   - BSB: Whenever it seizes him, it throws him to the ground. He foams at the mouth, gnashes his teeth, and becomes rigid. I asked Your disciples to drive it out, but they were unable.”
+   - WEB: and wherever it seizes him, it throws him down; and he foams at the mouth, grinds his teeth, and becomes rigid. I asked your disciples to cast it out, and they weren’t able.”
+- **9:30** substitute (word): SBLGNT *κακειθε* ] TR *και εκειθε*; substitute (word): SBLGNT *γνοι* ] TR *γνω*
+   - Latin: Illinc profectī iter faciēbant per Galilæam, nec ille volēbat, ut id scīret quisquam.
+   - 1573: Illinc profecti iter faciebant per Galilæam, nec ille volebat, vt id sciret quisquam
+   - TR: Καὶ ἐκεῖθεν ἐξελθόντες παρεπορεύοντο διὰ τῆς Γαλιλαίας· καὶ οὐκ ἤθελεν ἵνα τις γνῷ.
+   - SBLGNT: Κἀκεῖθεν ἐξελθόντες παρεπορεύοντο διὰ τῆς Γαλιλαίας, καὶ οὐκ ἤθελεν ἵνα τις γνοῖ·
+   - Vulgate: Et inde profecti prætergrediebantur Galilæam: nec volebat quemquam scire.
+   - BSB: Going on from there, they passed through Galilee. But Jesus did not want anyone to know,
+   - WEB: They went out from there and passed through Galilee. He didn’t want anyone to know it,
+- **9:33** substitute (name): SBLGNT *καφαρναουμ* ] TR *καπερναουμ*
+   - Latin: Vēnit autem Capharnaum: atque ubi domum vēnit, quæsīvit ex iīs quid in viā inter sēsē disceptāssent.
+   - 1573: Venit autem Capharnaum: atque vbi domum venit, quæsiuit ex eis quid in via inter sese disceptassent?
+   - TR: Καὶ ἦλθεν εἰς Καπερναούμ· καὶ ἐν τῇ οἰκίᾳ γενόμενος ἐπηρώτα αὐτούς, Τί ἐν τῇ ὁδῷ πρὸς ἑαυτοὺς διελογίζεσθε;
+   - SBLGNT: Καὶ ἦλθον εἰς Καφαρναούμ. καὶ ἐν τῇ οἰκίᾳ γενόμενος ἐπηρώτα αὐτούς· Τί ἐν τῇ ὁδῷ διελογίζεσθε;
+   - Vulgate: Et venerunt Capharnaum. Qui cum domi essent, interrogabat eos: Quid in via tractabatis?
+   - BSB: Then they came to Capernaum. While Jesus was in the house, He asked them, “What were you discussing on the way?”
+   - WEB: He came to Capernaum, and when he was in the house he asked them, “What were you arguing among yourselves on the way?”
+- **10:1** substitute (word): SBLGNT *και εκειθε* ] TR *κακειθε*
+   - Latin: Illinc profectus vēnit in fīnēs Jūdææ, per trānsjordānīnum agrum: eumque rūrsum convenit vulgus hominum, quōs ille rūrsum, ut solitus erat, docet.
+   - 1573: Illinc profectus venit in fines Iudææ, per transiordaninum agrum: eumque rursum conuenit vulgus hominum, quos ille rursum, vt solitus erat, docet.
+   - TR: Κἀκεῖθεν ἀναστὰς ἔρχεται εἰς τὰ ὅρια τῆς Ἰουδαίας διὰ τοῦ πέραν τοῦ Ἰορδάνου· καὶ συμπορεύονται πάλιν ὄχλοι πρὸς αὐτόν· καί, ὡς εἰώθει, πάλιν ἐδίδασκεν αὐτούς.
+   - SBLGNT: Καὶ ἐκεῖθεν ἀναστὰς ἔρχεται εἰς τὰ ὅρια τῆς Ἰουδαίας καὶ πέραν τοῦ Ἰορδάνου, καὶ συμπορεύονται πάλιν ὄχλοι πρὸς αὐτόν, καὶ ὡς εἰώθει πάλιν ἐδίδασκεν αὐτούς.
+   - Vulgate: Et inde exsurgens venit in fines Judææ ultra Jordanem: et conveniunt iterum turbæ ad eum: et sicut consueverat, iterum docebat illos.
+   - BSB: Then Jesus left that place and went into the region of Judea, beyond the Jordan. Again the crowds came to Him and He taught them, as was His custom.
+   - WEB: He arose from there and came into the borders of Judea and beyond the Jordan. Multitudes came together to him again. As he usually did, he was again teaching them.
+- **10:2** substitute (name): SBLGNT *επηρωτων* ] TR *προσελθοντες οι φαρισαιοι επηρωτησαν*
+   - Latin: Aggressī autem eum Pharisæī interrogārunt, licēretne virō uxōrem repudiāre, temptantēs eum.
+   - 1573: Aggressi autem eum Pharisæi interrogarunt, liceretne viro vxorem repudiare tentantes eum.
+   - TR: Καὶ προσελθόντες οἱ Φαρισαῖοι ἐπηρώτησαν αὐτόν, Εἰ ἔξεστιν ἀνδρὶ γυναῖκα ἀπολῦσαι, πειράζοντες αὐτόν.
+   - SBLGNT: Καὶ ἐπηρώτων αὐτὸν εἰ ἔξεστιν ἀνδρὶ γυναῖκα ἀπολῦσαι, πειράζοντες αὐτόν.
+   - Vulgate: Et accedentes pharisæi interrogabant eum: Si licet viro uxorem dimittere: tentantes eum.
+   - BSB: Some Pharisees came to test Him. “Is it lawful for a man to divorce his wife?” they inquired.
+   - WEB: Pharisees came to him testing him, and asked him, “Is it lawful for a man to divorce his wife?”
+- **10:3** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: Quibus ille sīc respondit: “Quid vōbīs præcēpit Mōsēs?”
+   - 1573: Quibus ille sic respondit: Quid vobis præcepit Moses?
+   - TR: Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς, Τί ὑμῖν ἐνετείλατο Μωσῆς;
+   - SBLGNT: ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς· Τί ὑμῖν ἐνετείλατο Μωϋσῆς;
+   - Vulgate: At ille respondens, dixit eis: Quid vobis præcepit Moyses?
+   - BSB: “What did Moses command you?” He replied.
+   - WEB: He answered, “What did Moses command you?”
+- **10:4** substitute (name): SBLGNT *ειπαν* ] TR *ειπον μωσης*
+   - Latin: Et illī: “Mōsēs permīsit scrīptō dīvortiī īnstrūmentō repudiāre.”
+   - 1573: Et illi: Moses permisit scripto diuortij instrumento repudiare.
+   - TR: Οἱ δὲ εἶπον, Μωσῆς ἐπέτρεψε βιβλίον ἀποστασίου γράψαι, καὶ ἀπολῦσαι.
+   - SBLGNT: οἱ δὲ εἶπαν· Ἐπέτρεψεν Μωϋσῆς βιβλίον ἀποστασίου γράψαι καὶ ἀπολῦσαι.
+   - Vulgate: Qui dixerunt: Moyses permisit libellum repudii scribere, et dimittere.
+   - BSB: They answered, “Moses permitted a man to write his wife a certificate of divorce and send her away.”
+   - WEB: They said, “Moses allowed a certificate of divorce to be written, and to divorce her.”
+- **10:16** add (word): SBLGNT *–* ] TR *+ ηυλογει αυτα*
+   - Latin: Deinde eōs complexus ulnīs, et manibus iīs impositīs, iīs bene precātus est.
+   - 1573: Deinde eos complexus vlnis, et manibus eis impositis, eis bene precatus est.
+   - TR: Καὶ ἐναγκαλισάμενος αὐτά, τιθεὶς τὰς χεῖρας ἐπ᾿ αὐτά, ηὐλόγει αὐτά.
+   - SBLGNT: καὶ ἐναγκαλισάμενος αὐτὰ κατευλόγει τιθεὶς τὰς χεῖρας ἐπʼ αὐτά.
+   - Vulgate: Et complexans eos, et imponens manus super illos, benedicebat eos.
+   - BSB: And He took the children in His arms, placed His hands on them, and blessed them.
+   - WEB: He took them in his arms and blessed them, laying his hands on them.
+- **10:29** omit (word): SBLGNT *ενεκε* ] TR *–*
    - Latin: Et Jēsūs: “Hoc vōbīs cōnfirmō,” inquit respondēns, “nūllum esse, quī domum, aut frātrēs, aut sorōrēs, aut patrem, aut mātrem, aut uxōrem, aut līberōs, aut agrōs, meā et Euangeliī causā relīquerit,
    - 1573: Et Iesus: Hoc vobis confirmo, inquit respondens, nullum esse, qui domum, aut fratres, aut sorores, aut patrem, aut matrem, aut vxorem, aut liberos, aut agros, mea et Euangelij causa reliquerit,
    - TR: Ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν, Ἀμὴν λέγω ὑμῖν, οὐδείς ἐστιν ὃς ἀφῆκεν οἰκίαν, ἢ ἀδελφούς, ἢ ἀδελφάς, ἢ πατέρα, ἢ μητέρα, ἢ γυναῖκα, ἢ τέκνα, ἢ ἀγρούς, ἕνεκεν ἐμοῦ καὶ τοῦ εὐαγγελίου,
@@ -2004,39 +2636,207 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Respondens Jesus, ait: Amen dico vobis: Nemo est qui reliquerit domum, aut fratres, aut sorores, aut patrem, aut matrem, aut filios, aut agros propter me et propter Evangelium,
    - BSB: “Truly I tell you,” Jesus replied, “no one who has left home or brothers or sisters or mother or father or children or fields for My sake and for the gospel
    - WEB: Jesus said, “Most certainly I tell you, there is no one who has left house, or brothers, or sisters, or father, or mother, or wife, or children, or land, for my sake, and for the sake of the Good News,
-- **11:2** substitute (word): critical *ἐκάθισεν* ] RP, Treg *κεκάθικεν*
-   - Latin: “Īte,” inquit, “in vīcum quī est ē regiōne vestrī, et prōtinus in eum intrantēs, inveniētis vīnctum asellum, quem nūllus hominum īnsēdit: eum solvitōte, et mihi addūcitōte.
-   - 1573: Ite, inquit, in vicum qui est è regione vestri, et protinus in eum intrantes, inuenietis vinctum asellum, quem nullus hominum insedit: eum soluitote, et mihi adducitote.
-   - TR: καὶ λέγει αὐτοῖς, Ὑπάγετε εἰς τὴν κώμην τὴν κατέναντι ὑμῶν· καὶ εὐθέως εἰσπορευόμενοι εἰς αὐτὴν εὑρήσετε πῶλον δεδεμένον, ἐφ᾿ ὃν οὐδεὶς ἀνθρώπων κεκάθικε· λύσαντες αὐτὸν ἀγάγετε.
-   - SBLGNT: καὶ λέγει αὐτοῖς· Ὑπάγετε εἰς τὴν κώμην τὴν κατέναντι ὑμῶν, καὶ εὐθὺς εἰσπορευόμενοι εἰς αὐτὴν εὑρήσετε πῶλον δεδεμένον ἐφʼ ὃν οὐδεὶς οὔπω ἀνθρώπων ἐκάθισεν· λύσατε αὐτὸν καὶ φέρετε.
-   - Vulgate: et ait illis: Ite in castellum, quod contra vos est, et statim introëuntes illuc, invenietis pullum ligatum, super quem nemo adhuc hominum sedit: solvite illum, et adducite.
-   - BSB: and said to them, “Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here.
-   - WEB: and said to them, “Go your way into the village that is opposite you. Immediately as you enter into it, you will find a young donkey tied, on which no one has sat. Untie him and bring him.
-- **11:32** substitute (word): critical *ὄχλον* ] RP, Treg *λαόν*
-   - Latin: Sīn ab hominibus dīxissent, metuēbant populum: omnēs enim Jōhannem vērē vātem esse dūcēbant.
-   - 1573: sin ab hominibus dixissent, metuebant populum: omnes enim Iohannem verè vatem esse ducebant.
-   - TR: Ἀλλ᾿ ἐὰν εἴπωμεν, Ἐξ ἀνθρώπων, ἐφοβοῦντο τὸν λαόν· ἅπαντες γὰρ εἶχον τὸν Ἰωάννην, ὅτι ὄντως προφήτης ἦν.
-   - SBLGNT: ἀλλὰ εἴπωμεν· Ἐξ ἀνθρώπων;— ἐφοβοῦντο τὸν ὄχλον, ἅπαντες γὰρ εἶχον τὸν Ἰωάννην ὄντως ὅτι προφήτης ἦν.
-   - Vulgate: Si dixerimus: Ex hominibus, timemus populum: omnes enim habebant Joannem quia vere propheta esset.
-   - BSB: But if we say, ‘From men’...” they were afraid of the people, for they all held that John truly was a prophet.
-   - WEB: If we should say, ‘From men’”—they feared the people, for all held John to really be a prophet.
-- **12:30** add (clause): critical *σου* ] RP, Treg *+ αὕτη πρώτη ἐντολή*
-   - Latin: Itaque Dominum Deum tuum, tōtō corde, tōtō animō, tōtā mente, tōtīsque vīribus amātō.’ Hoc prīmum est præceptum.
-   - 1573: itaque Dominum Deum tuum, toto corde, toto animo, tota mente, totisque viribus amato. Hoc primum est præceptum.
-   - TR: καὶ ἀγαπήσεις Κύριον τὸν Θεόν σου ἐξ ὅλης τῆς καρδίας σου, καὶ ἐξ ὅλης τῆς ψυχῆς σου, καὶ ἐξ ὅλης τῆς διανοίας σου, καὶ ἐξ ὅλης τῆς ἰσχύος σου. Αὕτη πρώτη ἐντολή.
-   - SBLGNT: καὶ ἀγαπήσεις κύριον τὸν θεόν σου ἐξ ὅλης τῆς καρδίας σου καὶ ἐξ ὅλης τῆς ψυχῆς σου καὶ ἐξ ὅλης τῆς διανοίας σου καὶ ἐξ ὅλης τῆς ἰσχύος σου.
-   - Vulgate: et diliges Dominum Deum tuum ex tota corde tuo, et ex tota anima tua, et ex tota mente tua, et ex tota virtute tua. Hoc est primum mandatum.
-   - BSB: Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.’
-   - WEB: You shall love the Lord your God with all your heart, with all your soul, with all your mind, and with all your strength.’ This is the first commandment.
-- **12:33** add (clause): critical *συνέσεως* ] RP, Treg *+ καὶ ἐξ ὅλης τῆς ψυχῆς*
-   - Latin: Quem tōtō corde, omnī studiō, tōtō animō, summāque ope amāre, nec nōn aliōs ut sē ipsum amāre, plūs est quam omnēs victimæ et sacrificia.”
-   - 1573: quem toto corde, omni studio, toto animo, summaque ope amare, nec non alios vt se ipsum amare, plus est quàm omnes victimæ et sacrificia.
-   - TR: καὶ τὸ ἀγαπᾷν αὐτὸν ἐξ ὅλης τῆς καρδίας, καὶ ἐξ ὅλης τῆς συνέσεως, καὶ ἐξ ὅλης τῆς ψυχῆς, καὶ ἐξ ὅλης τῆς ἰσχύος, καὶ τὸ ἀγαπᾷν τὸν πλησίον ὡς ἑαυτόν, πλεῖόν ἐστι πάντων τῶν ὁλοκαυτωμάτων καὶ τῶν θυσιῶν.
-   - SBLGNT: καὶ τὸ ἀγαπᾶν αὐτὸν ἐξ ὅλης τῆς καρδίας καὶ ἐξ ὅλης τῆς συνέσεως καὶ ἐξ ὅλης τῆς ἰσχύος καὶ τὸ ἀγαπᾶν τὸν πλησίον ὡς ἑαυτὸν περισσότερόν ἐστιν πάντων τῶν ὁλοκαυτωμάτων καὶ θυσιῶν.
-   - Vulgate: Et ut diligatur ex toto corde, et ex toto intellectu, et ex tota anima, et ex tota fortitudine, et diligere proximum tamquam seipsum, majus est omnibus holocautomatibus, et sacrificiis.
-   - BSB: and to love Him with all your heart and with all your understanding and with all your strength, and to love your neighbor as yourself, which is more important than all burnt offerings and sacrifices.”
-   - WEB: and to love him with all the heart, with all the understanding, all the soul, and with all the strength, and to love his neighbor as himself, is more important than all whole burnt offerings and sacrifices.”
-- **12:36** substitute (word): critical *ὑποκάτω* ] RP, Treg *ὑποπόδιον*
+- **10:36** substitute (word): SBLGNT *ποιησω* ] TR *ποιησαι με*
+   - Latin: Quibus ille: “Quid vultis ut vōbīs præstem?”
+   - 1573: Quibus ille: Quid vultis vt vobis præstem?
+   - TR: Ὁ δὲ εἶπεν αὐτοῖς, Τί θέλετε ποιῆσαί με ὑμῖν;
+   - SBLGNT: ὁ δὲ εἶπεν αὐτοῖς· Τί θέλετε ποιήσω ὑμῖν;
+   - Vulgate: At ille dixit eis: Quid vultis ut faciam vobis?
+   - BSB: “What do you want Me to do for you?” He inquired.
+   - WEB: He said to them, “What do you want me to do for you?”
+- **10:37** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Et illī: “Dā nōbīs,” inquiunt eī, “ut tibi alter ad dextram, alter ad sinistram assideāmus in tuā glōriā.”
+   - 1573: Et illi: Da nobis (inquiunt ei) vt tibi alter ad dexteram, alter ad sinistram assideamus in tua gloria.
+   - TR: Οἱ δὲ εἶπον αὐτῷ, Δὸς ἡμῖν, ἵνα εἷς ἐκ δεξιῶν σου καὶ εἷς ἐξ εὐωνύμων σου καθίσωμεν ἐν τῇ δόξῃ σου.
+   - SBLGNT: οἱ δὲ εἶπαν αὐτῷ· Δὸς ἡμῖν ἵνα εἷς σου ἐκ δεξιῶν καὶ εἷς ἐξ ἀριστερῶν καθίσωμεν ἐν τῇ δόξῃ σου.
+   - Vulgate: Et dixerunt: Da nobis ut unus ad dexteram tuam, et alius ad sinistram tuam sedeamus in gloria tua.
+   - BSB: They answered, “Grant that one of us may sit at Your right hand and the other at Your left in Your glory.”
+   - WEB: They said to him, “Grant to us that we may sit, one at your right hand and one at your left hand, in your glory.”
+- **10:39** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: “Possumus,” inquiunt. Et Jēsūs: “Pōculum quidem, quod ego pōtātūrus sum, pōtābitis, eōdemque mēcum baptismate baptīzābiminī.
+   - 1573: Possumus, inquiunt. Et Iesus: Poculum quidem quod ego potaturus sum, potabitis, eodemque mecum baptismate baptizabimini.
+   - TR: Οἱ δὲ εἶπον αὐτῷ, Δυνάμεθα. Ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς, Τὸ μὲν ποτήριον ὃ ἐγὼ πίνω πίεσθε, καὶ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι βαπτισθήσεσθε·
+   - SBLGNT: οἱ δὲ εἶπαν αὐτῷ· Δυνάμεθα. ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Τὸ ποτήριον ὃ ἐγὼ πίνω πίεσθε καὶ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι βαπτισθήσεσθε,
+   - Vulgate: At illi dixerunt ei: Possumus. Jesus autem ait eis: Calicem quidem, quem ego bibo, bibetis; et baptismo, quo ego baptizor, baptizabimini:
+   - BSB: “We can,” the brothers answered. “You will drink the cup that I drink,” Jesus said, “and you will be baptized with the baptism that I undergo.
+   - WEB: They said to him, “We are able.” Jesus said to them, “You shall indeed drink the cup that I drink, and you shall be baptized with the baptism that I am baptized with;
+- **10:43** add (word): SBLGNT *–* ] TR *+ διακονος*; omit (word): SBLGNT *διακονος* ] TR *–*
+   - Latin: At in vōbīs nōn sīc fīet: sed quī vestrum volet fierī inter vōs maximus, erit vester famulus:
+   - 1573: At in vobis non sic fiet: sed qui vestrûm volet fieri inter vos maximus, erit vester famulus:
+   - TR: Οὐχ οὕτω δὲ ἔσται ἐν ὑμῖν· ἀλλ᾿ ὃς ἐὰν θέλῃ γενέσθαι μέγας ἐν ὑμῖν ἔσται διάκονος ὑμῶν·
+   - SBLGNT: οὐχ οὕτως δέ ἐστιν ἐν ὑμῖν· ἀλλʼ ὃς ἂν θέλῃ μέγας γενέσθαι ἐν ὑμῖν, ἔσται ὑμῶν διάκονος,
+   - Vulgate: Non ita est autem in vobis, sed quicumque voluerit fieri major, erit vester minister:
+   - BSB: But it shall not be this way among you. Instead, whoever wants to become great among you must be your servant,
+   - WEB: But it shall not be so among you, but whoever wants to become great among you shall be your servant.
+- **10:47** substitute (name): SBLGNT *υιε δαυιδ* ] TR *ο υιος δαβιδ*
+   - Latin: ut audīvit Jēsum esse Nāzarēnum, cœpit ita clāmāre: “Dāvīdide Jēsū, miserēre meī.”
+   - 1573: vt audiuit Iesum esse Nazarenum, cœpit ita clamare: Dauidide Iesu, miserere mei.
+   - TR: Καὶ ἀκούσας ὅτι Ἰησοῦς ὁ Ναζωραῖός ἐστιν, ἤρξατο κράζειν καὶ λέγειν, Ὁ υἱὸς Δαβίδ, Ἰησοῦ, ἐλέησόν με.
+   - SBLGNT: καὶ ἀκούσας ὅτι Ἰησοῦς ὁ Ναζαρηνός ἐστιν ἤρξατο κράζειν καὶ λέγειν· Υἱὲ Δαυὶδ Ἰησοῦ, ἐλέησόν με.
+   - Vulgate: Qui cum audisset quia Jesus Nazarenus est, cœpit clamare, et dicere: Jesu fili David, miserere mei.
+   - BSB: When he heard that it was Jesus of Nazareth, he began to cry out, “Jesus, Son of David, have mercy on me!”
+   - WEB: When he heard that it was Jesus the Nazarene, he began to cry out and say, “Jesus, you son of David, have mercy on me!”
+- **10:48** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Ac multīs eum ut tacēret objūrgantibus, multō magis clāmābat: “Dāvīdide, miserēre meī.”
+   - 1573: Ac multis eum vt taceret obiurgantibus, multò magis clamabat: Dauidide, miserere mei.
+   - TR: Καὶ ἐπετίμων αὐτῷ πολλοί, ἵνα σιωπήσῃ· ὁ δὲ πολλῷ μᾶλλον ἔκραζεν, Υἱὲ Δαβίδ, ἐλέησόν με.
+   - SBLGNT: καὶ ἐπετίμων αὐτῷ πολλοὶ ἵνα σιωπήσῃ· ὁ δὲ πολλῷ μᾶλλον ἔκραζεν· Υἱὲ Δαυίδ, ἐλέησόν με.
+   - Vulgate: Et comminabantur ei multi ut taceret. At ille multo magis clamabat: Fili David, miserere mei.
+   - BSB: Many people admonished him to be silent, but he cried out all the louder, “Son of David, have mercy on me!”
+   - WEB: Many rebuked him, that he should be quiet, but he cried out much more, “You son of David, have mercy on me!”
+- **10:51** substitute (name): SBLGNT *ραββουνι* ] TR *ραββονι*
+   - Latin: Et Jēsūs sīc eum alloquitur: “Quid tibi vīs faciam?” Cui cæcus: “Magister,” inquit eī, “ut dispiciam.”
+   - 1573: Et Iesus sic eum alloquitur: Quid tibi vis faciam? Cui cæcus: Magister, inquit ei, vt dispiciam.
+   - TR: Καὶ ἀποκριθεὶς λέγει αὐτῷ ὁ Ἰησοῦς, Τί θέλεις ποιήσω σοί; Ὁ δὲ τυφλὸς εἶπεν αὐτῷ, Ῥαββονί, ἵνα ἀναβλέψω.
+   - SBLGNT: καὶ ἀποκριθεὶς αὐτῷ ὁ Ἰησοῦς εἶπεν· Τί σοι θέλεις ποιήσω; ὁ δὲ τυφλὸς εἶπεν αὐτῷ· Ραββουνι, ἵνα ἀναβλέψω.
+   - Vulgate: Et respondens Jesus dixit illi: Quid tibi vis faciam? Cæcus autem dixit ei: Rabboni, ut videam.
+   - BSB: “What do you want Me to do for you?” Jesus asked. “Rabboni,” said the blind man, “let me see again.”
+   - WEB: Jesus asked him, “What do you want me to do for you?” The blind man said to him, “Rabboni, that I may see again.”
+- **11:1** substitute (name): SBLGNT *ιεροσολυμα* ] TR *ιερουσαλημ*
+   - Latin: Cum autem Hierosolymæ propinquārent ad Bēthphage, et Bēthaniam, ad montem olīvārum, mittit suōrum discipulōrum duōs:
+   - 1573: Cum autem Hierosolymæ propinquarent ad Bethphage, et Bethaniam, ad montem oliuarum, mittit suorum discipulorum duos:
+   - TR: Καὶ ὅτε ἐγγίζουσιν εἰς Ἱερουσαλήμ, εἰς Βηθφαγὴ καὶ Βηθανίαν, πρὸς τὸ ὄρος τῶν Ἐλαιῶν, ἀποστέλλει δύο τῶν μαθητῶν αὐτοῦ,
+   - SBLGNT: Καὶ ὅτε ἐγγίζουσιν εἰς Ἱεροσόλυμα εἰς Βηθφαγὴ καὶ Βηθανίαν πρὸς τὸ Ὄρος τῶν Ἐλαιῶν, ἀποστέλλει δύο τῶν μαθητῶν αὐτοῦ
+   - Vulgate: Et cum appropinquarent Jerosolymæ et Bethaniæ ad montem Olivarum, mittit duos ex discipulis suis,
+   - BSB: As they approached Jerusalem and came to Bethphage and Bethany at the Mount of Olives, Jesus sent out two of His disciples
+   - WEB: When they came near to Jerusalem, to Bethsphage and Bethany, at the Mount of Olives, he sent two of his disciples
+- **11:3** substitute (word): SBLGNT *αποστελλει παλιν* ] TR *αποστελει*
+   - Latin: Quod sī quis ex vōbīs quæsierit, cūr id faciātis, dīcitōte Dominum eō egēre: et statim eum hūc dīmittet.”
+   - 1573: Quòd si quis ex vobis quæsierit, cur id faciatis dicitote, Dominum eo egere: et statim eum huc dimittet
+   - TR: Καὶ ἐάν τις ὑμῖν εἴπῃ, Τί ποιεῖτε τοῦτο; εἴπατε ὅτι Ὁ Κύριος αὐτοῦ χρείαν ἔχει· καὶ εὐθέως αὐτὸν ἀποστελεῖ ὧδε.
+   - SBLGNT: καὶ ἐάν τις ὑμῖν εἴπῃ· Τί ποιεῖτε τοῦτο; εἴπατε ὅτι Ὁ κύριος αὐτοῦ χρείαν ἔχει· καὶ εὐθὺς αὐτὸν ἀποστέλλει πάλιν ὧδε.
+   - Vulgate: Et si quis vobis dixerit: Quid facitis? dicite, quia Domino necessarius est: et continuo illum dimittet huc.
+   - BSB: If anyone asks, ‘Why are you doing this?’ tell him, ‘The Lord needs it and will return it shortly.’”
+   - WEB: If anyone asks you, ‘Why are you doing this?’ say, ‘The Lord needs him;’ and immediately he will send him back here.”
+- **11:6** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Quibus illī dīxērunt quemadmodum mandāverat Jēsūs:
+   - 1573: Quibus illi dixerunt quemadmodum mandauerat Iesus:
+   - TR: Οἱ δὲ εἶπον αὐτοῖς καθὼς ἐνετείλατο ὁ Ἰησοῦς· καὶ ἀφῆκαν αὐτούς.
+   - SBLGNT: οἱ δὲ εἶπαν αὐτοῖς καθὼς εἶπεν ὁ Ἰησοῦς· καὶ ἀφῆκαν αὐτούς.
+   - Vulgate: Qui dixerunt eis sicut præceperat illis Jesus, et dimiserunt eis.
+   - BSB: The disciples answered as Jesus had instructed them, and the people gave them permission.
+   - WEB: They said to them just as Jesus had said, and they let them go.
+- **11:8** substitute (word): SBLGNT *στιβαδας κοψαντες* ] TR *στοιβαδας εκοπτον*
+   - Latin: Frequentēs autem suīs vestīmentīs viam īnsternēbant: aliī abscissās ex arboribus frondēs per viam sternere:
+   - 1573: Frequentes autem suis vestimentis viam insternebant: alij abscissas ex arboribus frondes per viam sternere:
+   - TR: Πολλοὶ δὲ τὰ ἱμάτια αὐτῶν ἔστρωσαν εἰς τὴν ὁδόν· ἄλλοι δὲ στοιβάδας ἔκοπτον ἐκ τῶν δένδρων, καὶ ἐστρώννυον εἰς τὴν ὁδόν.
+   - SBLGNT: καὶ πολλοὶ τὰ ἱμάτια αὐτῶν ἔστρωσαν εἰς τὴν ὁδόν, ἄλλοι δὲ στιβάδας κόψαντες ἐκ τῶν ἀγρῶν.
+   - Vulgate: Multi autem vestimenta sua straverunt in via: alii autem frondes cædebant de arboribus, et sternebant in via.
+   - BSB: Many in the crowd spread their cloaks on the road, while others spread branches they had cut from the fields.
+   - WEB: Many spread their garments on the way, and others were cutting down branches from the trees and spreading them on the road.
+- **11:10** substitute (name): SBLGNT *δαυιδ* ] TR *δαβιδ*
+   - Latin: Fēlīx veniēns rēgnum in nōmine Dominī patris nostrī Dāvīdis: Hōsanna in suprēmīs.”
+   - 1573: felix veniens regnum in nomine Domini patris nostri Dauidis: Hosanna in supremis.
+   - TR: Εὐλογημένη ἡ ἐρχομένη βασιλεία ἐν ὀνόματι Κυρίου τοῦ πατρὸς ἡμῶν Δαβίδ. Ὡσαννὰ ἐν τοῖς ὑψίστοις.
+   - SBLGNT: Εὐλογημένη ἡ ἐρχομένη βασιλεία τοῦ πατρὸς ἡμῶν Δαυίδ· Ὡσαννὰ ἐν τοῖς ὑψίστοις.
+   - Vulgate: benedictum quod venit regnum patris nostri David: hosanna in excelsis.
+   - BSB: “Blessed is the coming kingdom of our father David!” “Hosanna in the highest!”
+   - WEB: Blessed is the kingdom of our father David that is coming in the name of the Lord! Hosanna in the highest!”
+- **11:11** substitute (word): SBLGNT *οψε* ] TR *οψιας*
+   - Latin: Ingressus est autem Hierosolyma Dominus, et in templum: omnibusque circumspectīs, cum jam sēra esset hōra, profectus est Bēthaniam cum duodecim.
+   - 1573: Ingressus est autem Hierosolyma Dominus, et in templum: omnibusque circumspectis, cùm iam sera esset hora, profectus est Bethaniam cum duodecim.
+   - TR: Καὶ εἰσῆλθεν εἰς Ἱεροσόλυμα ὁ Ἰησοῦς, καὶ εἰς τὸ ἱερόν· καὶ περιβλεψάμενος πάντα, ὀψίας ἤδη οὔσης τῆς ὥρας, ἐξῆλθεν εἰς Βηθανίαν μετὰ τῶν δώδεκα.
+   - SBLGNT: Καὶ εἰσῆλθεν εἰς Ἱεροσόλυμα εἰς τὸ ἱερόν· καὶ περιβλεψάμενος πάντα ὀψὲ ἤδη οὔσης τῆς ὥρας ἐξῆλθεν εἰς Βηθανίαν μετὰ τῶν δώδεκα.
+   - Vulgate: Et introivit Jerosolymam in templum: et circumspectis omnibus, cum jam vespera esset hora, exiit in Bethaniam cum duodecim.
+   - BSB: Then Jesus entered Jerusalem and went into the temple courts. He looked around at everything, but since it was already late, He went out to Bethany with the Twelve.
+   - WEB: Jesus entered into the temple in Jerusalem. When he had looked around at everything, it being now evening, he went out to Bethany with the twelve.
+- **11:24** substitute (word): SBLGNT *προσευχεσθε και* ] TR *αν προσευχομενοι*
+   - Latin: Itaque sīc vōbīs dīcō: quidquid ōrantēs postulātis, crēdite vōs assecūtūrōs, et vōbīs continget.
+   - 1573: Itaque sic vobis dico: quicquid orantes postulatis, credite vos assecuturos, et vobis continget.
+   - TR: Διὰ τοῦτο λέγω ὑμῖν, Πάντα ὅσα ἂν προσευχόμενοι αἰτεῖσθε, πιστεύετε ὅτι λαμβάνετε, καὶ ἔσται ὑμῖν.
+   - SBLGNT: διὰ τοῦτο λέγω ὑμῖν, πάντα ὅσα προσεύχεσθε καὶ αἰτεῖσθε, πιστεύετε ὅτι ἐλάβετε, καὶ ἔσται ὑμῖν.
+   - Vulgate: Propterea dico vobis, omnia quæcumque orantes petitis, credite quia accipietis, et evenient vobis.
+   - BSB: Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.
+   - WEB: Therefore I tell you, all things whatever you pray and ask for, believe that you have received them, and you shall have them.
+- **11:29** add (word): SBLGNT *–* ] TR *+ καγω*
+   - Latin: Quibus respondēns Jēsūs: “Interrogābō ego quoque vōs quiddam,” inquit, “quod sī mihi responderitis, dīcam vōbīs quā potestāte hæc faciam.
+   - 1573: Quibus respondens Iesus: Interrogabo ego quoque vos quiddam, inquit: quod si mihi responderitis, dicam vobis qua potestate hæc faciam.
+   - TR: Ὁ δὲ Ἰησοῦς ἀποκριθεὶς εἶπεν αὐτοῖς, Ἐπερωτήσω ὑμᾶς κἀγὼ ἕνα λόγον, καὶ ἀποκρίθητέ μοι, καὶ ἐρῶ ὑμῖν ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιῶ.
+   - SBLGNT: ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Ἐπερωτήσω ὑμᾶς ἕνα λόγον, καὶ ἀποκρίθητέ μοι, καὶ ἐρῶ ὑμῖν ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιῶ·
+   - Vulgate: Jesus autem respondens, ait illis: Interrogabo vos et ego unum verbum, et respondete mihi: et dicam vobis in qua potestate hæc faciam.
+   - BSB: “I will ask you one question,” Jesus replied, “and if you answer Me, I will tell you by what authority I am doing these things.
+   - WEB: Jesus said to them, “I will ask you one question. Answer me, and I will tell you by what authority I do these things.
+- **11:31** omit (word): SBLGNT *τι ειπωμε* ] TR *–*
+   - Latin: At illī sīc sēcum cōgitāre: “Sī ā cælō dīxerimus, dīcet: ‘Cūr ergō eī nōn crēdidistis?’”
+   - 1573: At illi sic secum cogitare: Si à cœlo dixerimus, dicet: Cur ergo ei non credidistis?
+   - TR: Καὶ ἐλογίζοντο πρὸς ἑαυτούς, λέγοντες, Ἐὰν εἴπωμεν, Ἐξ οὐρανοῦ, ἐρεῖ, Διὰ τί οὖν οὐκ ἐπιστεύσατε αὐτῷ;
+   - SBLGNT: καὶ διελογίζοντο πρὸς ἑαυτοὺς λέγοντες· Τί εἴπωμεν; ἐὰν εἴπωμεν· Ἐξ οὐρανοῦ, ἐρεῖ· Διὰ τί οὖν οὐκ ἐπιστεύσατε αὐτῷ;
+   - Vulgate: At illi cogitabant secum, dicentes: Si dixerimus: De cælo, dicet: Quare ergo non credidistis ei?
+   - BSB: They deliberated among themselves what they should answer: “If we say, ‘From heaven,’ He will ask, ‘Why then did you not believe him?’
+   - WEB: They reasoned with themselves, saying, “If we should say, ‘From heaven;’ he will say, ‘Why then did you not believe him?’
+- **12:6** omit (name): SBLGNT *ειχε* ] TR *–*
+   - Latin: Igitur cum adhūc ūnum habēret fīlium sibi cārissimum, mīsit eum quoque ad illōs ultimum, cōgitāns fore, ut suum fīlium reverērentur.
+   - 1573: Igitur cùm adhuc vnum haberet filium sibi charissimum, misit eum quoque ad illos vltimum, cogitans fore, vt suum filium reuererentur.
+   - TR: Ἔτι οὖν ἕνα υἱὸν ἔχων ἀγαπητὸν αὐτοῦ, ἀπέστειλε καὶ αὐτὸν πρὸς αὐτοὺς ἔσχατον, λέγων ὅτι Ἐντραπήσονται τὸν υἱόν μου.
+   - SBLGNT: ἔτι ἕνα εἶχεν, υἱὸν ἀγαπητόν· ἀπέστειλεν αὐτὸν ἔσχατον πρὸς αὐτοὺς λέγων ὅτι Ἐντραπήσονται τὸν υἱόν μου.
+   - Vulgate: Adhuc ergo unum habens filium carissimum, et illum misit ad eos novissimum, dicens: Quia reverebuntur filium meum.
+   - BSB: Finally, having one beloved son, he sent him to them. ‘They will respect my son,’ he said.
+   - WEB: Therefore still having one, his beloved son, he sent him last to them, saying, ‘They will respect my son.’
+- **12:14** omit (clause): SBLGNT *δωμε η μη δωμε* ] TR *–*
+   - Latin: Hī eum hujusmodī ōrātiōne aggressī sunt: “Magister, scīmus vērācem esse tē, neque quemquam cūrāre, quippe quī ad hominum persōnam nōn spectēs, sed vērē dīvīnam vītæ viam doceās. Licetne cēnsum Cæsarī pendere, an nōn?
+   - 1573: Hi eum huiusmodi oratione aggressi sunt: Magister, scimus veracem esse te, neque quenquam curare, quippe qui ad hominum personam non spectes, sed verè diuinam vitæ viam doceas. Licetne censum Cæsari pendere, an non?
+   - TR: Οἱ δὲ ἐλθόντες λέγουσιν αὐτῷ, Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ, καὶ οὐ μέλει σοι περὶ οὐδενός· οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων, ἀλλ᾿ ἐπ᾿ ἀληθείας τὴν ὁδὸν τοῦ Θεοῦ διδάσκεις. Ἔξεστι κῆνσον Καίσαρι δοῦναι, ἢ οὔ;
+   - SBLGNT: καὶ ἐλθόντες λέγουσιν αὐτῷ· Διδάσκαλε, οἴδαμεν ὅτι ἀληθὴς εἶ καὶ οὐ μέλει σοι περὶ οὐδενός, οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων, ἀλλʼ ἐπʼ ἀληθείας τὴν ὁδὸν τοῦ θεοῦ διδάσκεις· ἔξεστιν δοῦναι κῆνσον Καίσαρι ἢ οὔ; δῶμεν ἢ μὴ δῶμεν;
+   - Vulgate: Qui venientes dicunt ei: Magister, scimus quia verax es, et non curas quemquam: nec enim vides in faciem hominum, sed in veritate viam Dei doces. Licet dari tributum Cæsari, an non dabimus?
+   - BSB: “Teacher,” they said, “we know that You are honest and seek favor from no one. Indeed, You are impartial and teach the way of God in accordance with the truth. Is it lawful to pay taxes to Caesar or not? Should we pay them or not?”
+   - WEB: When they had come, they asked him, “Teacher, we know that you are honest, and don’t defer to anyone; for you aren’t partial to anyone, but truly teach the way of God. Is it lawful to pay taxes to Caesar, or not?
+- **12:15** add (clause): SBLGNT *–* ] TR *+ δωμε η μη δωμε*
+   - Latin: Pendāmus, an nōn pendāmus?” At ille eōrum simulātiōnem intellegēns: “Quid mē temptātis?” inquit iīs, “afferte mihi dēnārium, ut videam.”
+   - 1573: pendamus, an non pendamus? At ille eorum simulationem intelligens: Quid me tentatis? inquit eis: afferte mihi denarium, vt videam.
+   - TR: Δῶμεν, ἢ μὴ δῶμεν; Ὁ δὲ εἰδὼς αὐτῶν τὴν ὑπόκρισιν εἶπεν αὐτοῖς, Τί με πειράζετε; Φέρετέ μοι δηνάριον, ἵνα ἴδω.
+   - SBLGNT: ὁ δὲ εἰδὼς αὐτῶν τὴν ὑπόκρισιν εἶπεν αὐτοῖς· Τί με πειράζετε; φέρετέ μοι δηνάριον ἵνα ἴδω.
+   - Vulgate: Qui sciens versutiam illorum, ait illos: Quid me tentatis? afferte mihi denarium ut videam.
+   - BSB: But Jesus saw through their hypocrisy and said, “Why are you testing Me? Bring Me a denarius to inspect.”
+   - WEB: Shall we give, or shall we not give?” But he, knowing their hypocrisy, said to them, “Why do you test me? Bring me a denarius, that I may see it.”
+- **12:16** substitute (word): SBLGNT *ειπαν* ] TR *ειπον*
+   - Latin: Cumque illī attulissent: “Cujus est,” inquit iīs, “imāgō hæc et īnscrīptiō?” “Cæsaris,” inquiunt.
+   - 1573: Cumque illi attulissent: Cuius est, inquit eis, imago hæc et inscriptio? Cæsaris inquiunt.
+   - TR: Οἱ δὲ ἤνεγκαν. Καὶ λέγει αὐτοῖς, Τίνος ἡ εἰκὼν αὕτη καὶ ἡ ἐπιγραφή; Οἱ δὲ εἶπον αὐτῷ, Καίσαρος.
+   - SBLGNT: οἱ δὲ ἤνεγκαν. καὶ λέγει αὐτοῖς· Τίνος ἡ εἰκὼν αὕτη καὶ ἡ ἐπιγραφή; οἱ δὲ εἶπαν αὐτῷ· Καίσαρος.
+   - Vulgate: At illi attulerunt ei. Et ait illis: Cujus est imago hæc, et inscriptio? Dicunt ei: Cæsaris.
+   - BSB: So they brought it, and He asked them, “Whose image is this? And whose inscription?” “Caesar’s,” they answered.
+   - WEB: They brought it. He said to them, “Whose is this image and inscription?” They said to him, “Caesar’s.”
+- **12:19** substitute (name): SBLGNT *μωυσης* ] TR *μωσης*
+   - Latin: “Magister, scrīpsit nōbīs Mōsēs, sī cujus frāter moriātur uxōre superstite, nec līberōs relinquat, ut dūcat ejus frāter, ejus uxōrem, frātrīque suō prōlem suscitet.
+   - 1573: Magister, scripsit nobis Moses, si cuius frater moriatur vxore superstite, nec liberos relinquat, vt ducat eius frater, eius vxorem, fratrique suo prolem suscitet.
+   - TR: Διδάσκαλε, Μωσῆς ἔγραψεν ἡμῖν ὅτι Ἐάν τινος ἀδελφὸς ἀποθάνῃ, καὶ καταλίπῃ γυναῖκα, καὶ τέκνα μὴ ἀφῇ, ἵνα λάβῃ ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα αὐτοῦ, καὶ ἐξαναστήσῃ σπέρμα τῷ ἀδελφῷ αὐτοῦ.
+   - SBLGNT: Διδάσκαλε, Μωϋσῆς ἔγραψεν ἡμῖν ὅτι ἐάν τινος ἀδελφὸς ἀποθάνῃ καὶ καταλίπῃ γυναῖκα καὶ μὴ ἀφῇ τέκνον, ἵνα λάβῃ ὁ ἀδελφὸς αὐτοῦ τὴν γυναῖκα καὶ ἐξαναστήσῃ σπέρμα τῷ ἀδελφῷ αὐτοῦ.
+   - Vulgate: Magister, Moyses nobis scripsit, ut si cujus frater mortuus fuerit, et dimiserit uxorem, et filios non reliquerit, accipiat frater ejus uxorem ipsius, et resuscitet semen fratri suo.
+   - BSB: “Teacher, Moses wrote for us that if a man’s brother dies and leaves a wife but no children, the man is to marry his brother’s widow and raise up offspring for him.
+   - WEB: “Teacher, Moses wrote to us, ‘If a man’s brother dies and leaves a wife behind him, and leaves no children, that his brother should take his wife and raise up offspring for his brother.’
+- **12:26** substitute (name): SBLGNT *μωυσεως* ] TR *μωσεως*
+   - Latin: Dē mortuīs autem, quod resurgant, nōn lēgistis in Mōsis librō, in rubō, ut eum sīc allocūtus sit Deus? ‘Ego Deus Abrāhāmī, et Isaacī, et Jācōbī.’
+   - 1573: De mortuis autem, quòd resurgant, non legistis in Mosis libro, in rubo, vt eum sic allocutus sit Deus? Ego Deus Abrahami, et Isaaci, et Iacobi.
+   - TR: Περὶ δὲ τῶν νεκρῶν, ὅτι ἐγείρονται, οὐκ ἀνέγνωτε ἐν τῇ βίβλῳ Μωσέως, ἐπὶ τῆς βάτου, ὡς εἶπεν αὐτῷ ὁ Θεός, λέγων, Ἐγὼ ὁ Θεὸς Ἀβραάμ, καὶ ὁ Θεὸς Ἰσαάκ, καὶ ὁ Θεὸς Ἰακώβ;
+   - SBLGNT: περὶ δὲ τῶν νεκρῶν ὅτι ἐγείρονται οὐκ ἀνέγνωτε ἐν τῇ βίβλῳ Μωϋσέως ἐπὶ τοῦ βάτου πῶς εἶπεν αὐτῷ ὁ θεὸς λέγων· Ἐγὼ ὁ θεὸς Ἀβραὰμ καὶ ὁ θεὸς Ἰσαὰκ καὶ ὁ θεὸς Ἰακώβ;
+   - Vulgate: De mortuis autem quod resurgant, non legistis in libro Moysi, super rubum, quomodo dixerit illi Deus, inquiens: Ego sum Deus Abraham, et Deus Isaac, et Deus Jacob?
+   - BSB: But concerning the dead rising, have you not read about the burning bush in the Book of Moses, how God told him, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’?
+   - WEB: But about the dead, that they are raised, haven’t you read in the book of Moses about the Bush, how God spoke to him, saying, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’?
+- **12:28** add (word): SBLGNT *–* ] TR *+ πρωτη πασων*
+   - Latin: Tum scrībārum quīdam, audītīs iīs disceptantibus, vidēns eum illīs rēctē respondisse, accessit, et ex eō quæsīvit, quodnam esset omnium præceptōrum prīmum.
+   - 1573: Tum Scribarum quidam, auditis eis disceptantibus, videns eum illis rectè respondisse, accessit, et ex eo quæsiuit, quodnam esset omnium præceptorum primum?
+   - TR: Καὶ προσελθὼν εἷς τῶν γραμματέων, ἀκούσας αὐτῶν συζητούντων, εἰδὼς ὅτι καλῶς αὐτοῖς ἀπεκρίθη, ἐπηρώτησεν αὐτόν, Ποία ἐστὶ πρώτη πασῶν ἐντολή;
+   - SBLGNT: Καὶ προσελθὼν εἷς τῶν γραμματέων ἀκούσας αὐτῶν συζητούντων, ἰδὼν ὅτι καλῶς ἀπεκρίθη αὐτοῖς, ἐπηρώτησεν αὐτόν· Ποία ἐστὶν ἐντολὴ πρώτη πάντων;
+   - Vulgate: Et accessit unus de scribis, qui audierat illos conquirentes, et videns quoniam bene illis responderit, interrogavit eum quod esset primum omnium mandatum.
+   - BSB: Now one of the scribes had come up and heard their debate. Noticing how well Jesus had answered them, he asked Him, “Which commandment is the most important of all?”
+   - WEB: One of the scribes came and heard them questioning together, and knowing that he had answered them well, asked him, “Which commandment is the greatest of all?”
+- **12:32** substitute (word): SBLGNT *ειπες* ] TR *ειπας*; add (word): SBLGNT *–* ] TR *+ θεος*
+   - Latin: Et scrība: “Rēctē magister, profectō, dīxistī. Nam ūnus est Deus, prætereā nūllus:
+   - 1573: Et Scriba: Rectè magister, profectò, dixisti. Nam vnus est Deus, præterea nullus:
+   - TR: Καὶ εἶπεν αὐτῷ ὁ γραμματεύς, Καλῶς, διδάσκαλε, ἐπ᾿ ἀληθείας εἶπας ὅτι εἷς ἐστι Θεός, καὶ οὐκ ἔστιν ἄλλος πλὴν αὐτοῦ·
+   - SBLGNT: καὶ εἶπεν αὐτῷ ὁ γραμματεύς· Καλῶς, διδάσκαλε, ἐπʼ ἀληθείας εἶπες ὅτι εἷς ἐστιν καὶ οὐκ ἔστιν ἄλλος πλὴν αὐτοῦ·
+   - Vulgate: Et ait illi scriba: Bene, Magister, in veritate dixisti, quia unus est Deus, et non est alius præter eum.
+   - BSB: “Right, Teacher,” the scribe replied. “You have stated correctly that God is One and there is no other but Him,
+   - WEB: The scribe said to him, “Truly, teacher, you have said well that he is one, and there is none other but he;
+- **12:35** add (word): SBLGNT *–* ] TR *+ δαβιδ*
+   - Latin: Et Jēsūs in fānō docēns, sīc verba fēcit: “Quī fit ut dīcant scrībæ, fore ut Chrīstus genus dūcat ā Dāvīde?
+   - 1573: Et Iesus in fano docens, sic verba fecit: Quî fit vt dicant Scribæ, fore vt Christus genus ducat à Dauide?
+   - TR: Καὶ ἀποκριθεὶς ὁ Ἰησοῦς ἔλεγε, διδάσκων ἐν τῷ ἱερῷ, Πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ Χριστὸς υἱός ἐστι Δαβίδ;
+   - SBLGNT: Καὶ ἀποκριθεὶς ὁ Ἰησοῦς ἔλεγεν διδάσκων ἐν τῷ ἱερῷ· Πῶς λέγουσιν οἱ γραμματεῖς ὅτι ὁ χριστὸς υἱὸς Δαυίδ ἐστιν;
+   - Vulgate: Et respondens Jesus dicebat, docens in templo: Quomodo dicunt scribæ Christum filium esse David?
+   - BSB: While Jesus was teaching in the temple courts, He asked, “How can the scribes say that the Christ is the Son of David?
+   - WEB: Jesus responded, as he taught in the temple, “How is it that the scribes say that the Christ is the son of David?
+- **12:36** substitute (name): SBLGNT *δαυιδ* ] TR *γαρ δαβιδ*
    - Latin: Cum ipse Dāvīd Sānctī Spīritūs īnstīnctū dīxerit: “‘Ait Dominus Dominō meō, “sedē ad meam dextram dōnec efficiam ex hostibus tuīs tuōrum pedum subsellium”’?
    - 1573: cùm ipse Dauid sancti spiritus instinctu dixerit: Ait Dominus Domino meo, sede ad meam dexteram donec efficiam ex hostibus tuis tuorum pedum subsellium?
    - TR: Αὐτὸς γὰρ Δαβὶδ εἶπεν ἐν τῷ πνεύματι τῷ ἁγίῳ, Εἶπεν ὁ Κύριος τῷ Κυρίῳ μου, Κάθου ἐκ δεξιῶν μου, ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποπόδιον τῶν ποδῶν σου.
@@ -2044,7 +2844,47 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Ipse enim David dicit in Spiritu Sancto: Dixit Dominus Domino meo: Sede a dextris meis, donec ponam inimicos tuos scabellum pedum tuorum.
    - BSB: Speaking by the Holy Spirit, David himself declared: ‘The Lord said to my Lord, “Sit at My right hand until I put Your enemies under Your feet.”’
    - WEB: For David himself said in the Holy Spirit, ‘The Lord said to my Lord, “Sit at my right hand, until I make your enemies the footstool of your feet.”’
-- **13:15** add (clause): critical *καταβάτω* ] RP, Treg *+ εἰς τὴν οἰκίαν*
+- **12:37** substitute (name): SBLGNT *δαυιδ* ] TR *ουν δαβιδ*
+   - Latin: Cum igitur eum dīcat ipse Dāvīd Dominum, unde fit ut sit ejus prōgnātus?” Cumque frequēns hominum multitūdō eum libenter audīret,
+   - 1573: Cùm igitur eum dicat ipse Dauid Dominum, vnde fit vt sit eius prognatus. Cumque frequens hominum multitudo eum libenter audiret,
+   - TR: Αὐτὸς οὖν Δαβὶδ λέγει αὐτὸν Κύριον· καὶ πόθεν υἱὸς αὐτοῦ ἐστι; Καὶ ὁ πολὺς ὄχλος ἤκουεν αὐτοῦ ἡδέως.
+   - SBLGNT: αὐτὸς Δαυὶδ λέγει αὐτὸν κύριον, καὶ πόθεν αὐτοῦ ἐστιν υἱός; καὶ ὁ πολὺς ὄχλος ἤκουεν αὐτοῦ ἡδέως.
+   - Vulgate: Ipse ergo David dicit eum Dominum, et unde est filius ejus? Et multa turba eum libenter audivit.
+   - BSB: David himself calls Him ‘Lord.’ So how can He be David’s son?” And the large crowd listened to Him with delight.
+   - WEB: Therefore David himself calls him Lord, so how can he be his son?” The common people heard him gladly.
+- **12:40** substitute (word): SBLGNT *λημψονται* ] TR *ληψονται*
+   - Latin: Quī viduārum domōs dēvorant, et per ostentātiōnem prōlixē ōrant. Hī graviōrēs pœnās dabunt.”
+   - 1573: qui viduarum domos deuorant, et per ostentationem prolixe orant. Hi grauiores pœnas dabunt.
+   - TR: οἱ κατεσθίοντες τὰς οἰκίας τῶν χηρῶν, καὶ προφάσει μακρὰ προσευχόμενοι· οὗτοι λήψονται περισσότερον κρίμα.
+   - SBLGNT: οἱ κατεσθίοντες τὰς οἰκίας τῶν χηρῶν καὶ προφάσει μακρὰ προσευχόμενοι· οὗτοι λήμψονται περισσότερον κρίμα.
+   - Vulgate: qui devorant domos viduarum sub obtentu prolixæ orationis: hi accipient prolixius judicium.
+   - BSB: They defraud widows of their houses, and for a show make lengthy prayers. These men will receive greater condemnation.”
+   - WEB: those who devour widows’ houses, and for a pretense make long prayers. These will receive greater condemnation.”
+- **12:43** substitute (word): SBLGNT *βαλλοντων* ] TR *βαλοντων*
+   - Latin: Tum ille advocātīs suīs discipulīs: “Certō scītōte,” inquit iīs, “hanc pauperem viduam plūrimum omnium contulisse, quī contulērunt in fiscum.
+   - 1573: Tum ille aduocatis suis discipulis: Certò scitote, inquit eis, hanc pauperem viduam plurimum omnium contulisse, qui contulerunt in fiscum.
+   - TR: Καὶ προσκαλεσάμενος τοὺς μαθητὰς αὐτοῦ, λέγει αὐτοῖς, Ἀμὴν λέγω ὑμῖν ὅτι ἡ χήρα αὕτη ἡ πτωχὴ πλεῖον πάντων βέβληκε τῶν βαλόντων εἰς τὸ γαζοφυλάκιον·
+   - SBLGNT: καὶ προσκαλεσάμενος τοὺς μαθητὰς αὐτοῦ εἶπεν αὐτοῖς· Ἀμὴν λέγω ὑμῖν ὅτι ἡ χήρα αὕτη ἡ πτωχὴ πλεῖον πάντων ἔβαλεν τῶν βαλλόντων εἰς τὸ γαζοφυλάκιον·
+   - Vulgate: et convocans discipulos suos, ait illis: Amen dico vobis, quoniam vidua hæc pauper plus omnibus misit, qui miserunt in gazophylacium.
+   - BSB: Jesus called His disciples to Him and said, “Truly I tell you, this poor widow has put more than all the others into the treasury.
+   - WEB: He called his disciples to himself and said to them, “Most certainly I tell you, this poor widow gave more than all those who are giving into the treasury,
+- **13:4** substitute (word): SBLGNT *ειπον* ] TR *ειπε*
+   - Latin: “Dīc nōbīs quandō hæc futūra sint, et quod signum significābit hæc, perficienda omnia?”
+   - 1573: Dic nobis quando hæc futura sint, et quod signum significabit hæc, perficienda omnia?
+   - TR: Εἰπὲ ἡμῖν, πότε ταῦτα ἔσται; Καὶ τί τὸ σημεῖον ὅταν μέλλῃ πάντα ταῦτα συντελεῖσθαι;
+   - SBLGNT: Εἰπὸν ἡμῖν πότε ταῦτα ἔσται, καὶ τί τὸ σημεῖον ὅταν μέλλῃ ταῦτα συντελεῖσθαι πάντα.
+   - Vulgate: Dic nobis, quando ista fient? et quod signum erit, quando hæc omnia incipient consummari?
+   - BSB: “Tell us, when will these things happen? And what will be the sign that they are about to be fulfilled?”
+   - WEB: “Tell us, when will these things be? What is the sign that these things are all about to be fulfilled?”
+- **13:8** substitute (word): SBLGNT *επ* ] TR *επι*
+   - Latin: Cōnsurget enim gēns in gentem, et rēgnum in rēgnum, eruntque terræ mōtūs certīs locīs, et famēs et turbæ. Ea erunt dolōrum prīncipia.
+   - 1573: Consurget enim gens in gentem, et regnum in regnum, eruntque terræ motus certis locis, et fames et turbæ. Ea erunt dolorum principia.
+   - TR: Ἐγερθήσεται γὰρ ἔθνος ἐπὶ ἔθνος, καὶ βασιλεία ἐπὶ βασιλείαν· καὶ ἔσονται σεισμοὶ κατὰ τόπους, καὶ ἔσονται λιμοὶ καὶ ταραχαί· ἀρχαὶ ὠδίνων ταῦτα.
+   - SBLGNT: ἐγερθήσεται γὰρ ἔθνος ἐπʼ ἔθνος καὶ βασιλεία ἐπὶ βασιλείαν, ἔσονται σεισμοὶ κατὰ τόπους, ἔσονται λιμοί· ἀρχὴ ὠδίνων ταῦτα.
+   - Vulgate: Exsurget enim gens contra gentem, et regnum super regnum, et erunt terræmotus per loca, et fames. Initium dolorum hæc.
+   - BSB: Nation will rise against nation, and kingdom against kingdom. There will be earthquakes in various places, as well as famines. These are the beginning of birth pains.
+   - WEB: For nation will rise against nation, and kingdom against kingdom. There will be earthquakes in various places. There will be famines and troubles. These things are the beginning of birth pains.
+- **13:15** substitute (word): SBLGNT *εισελθατω* ] TR *εισελθετω αραι*; omit (word): SBLGNT *αραι* ] TR *–*
    - Latin: Et quī erit in tēctō, nē dēscendat in ædēs, nec ingrediātur ad auferendum aliquid ex suīs ædibus:
    - 1573: et qui erit in tecto, ne descendat in ædes, nec ingrediatur ad auferendum aliquid ex suis ædibus:
    - TR: ὁ δὲ ἐπὶ τοῦ δώματος μὴ καταβάτω εἰς τὴν οἰκίαν, μηδὲ εἰσελθέτω ἆραί τι ἐκ τῆς οἰκίας αὐτοῦ·
@@ -2052,71 +2892,143 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: et qui super tectum, ne descendat in domum, nec introëat ut tollat quid de domo sua:
    - BSB: Let no one on the housetop go back inside to retrieve anything from his house.
    - WEB: and let him who is on the housetop not go down, nor enter in, to take anything out of his house.
-- **13:33** add (word): critical *ἀγρυπνεῖτε* ] RP, Treg *+ καὶ προσεύχεσθε*
-   - Latin: Vidēte ut vigilētis, et ōrētis: nescītis enim quandō tempus futūrum sit:
-   - 1573: Videte vt vigiletis, et oretis: nescitis enim quando tempus futurum sit:
-   - TR: Βλέπετε, ἀγρυπνεῖτε καὶ προσεύχεσθε· οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν.
-   - SBLGNT: βλέπετε ἀγρυπνεῖτε, οὐκ οἴδατε γὰρ πότε ὁ καιρός ἐστιν·
-   - Vulgate: Videte, vigilate, et orate: nescitis enim quando tempus sit.
-   - BSB: Be on your guard and stay alert! For you do not know when the appointed time will come.
-   - WEB: Watch, keep alert, and pray; for you don’t know when the time is.
-- **14:4** add (word): critical *ἑαυτούς* ] RP, Treg *+ καὶ λέγοντες*
-   - Latin: Erant autem quīdam quī apud sēsē indignābantur, atque ita dīcēbant: “Quōrsum hæc unguentī jactūra facta est?
-   - 1573: Erant autem quidam qui apud sese indignabantur, atque ita dicebant: Quorsum hæc vnguenti iactura facta est.
-   - TR: Ἦσαν δέ τινες ἀγανακτοῦντες πρὸς ἑαυτούς, καὶ λέγοντες, Εἰς τί ἡ ἀπώλεια αὕτη τοῦ μύρου γέγονεν;
-   - SBLGNT: ἦσαν δέ τινες ἀγανακτοῦντες πρὸς ἑαυτούς· Εἰς τί ἡ ἀπώλεια αὕτη τοῦ μύρου γέγονεν;
-   - Vulgate: Erant autem quidam indigne ferentes intra semetipsos, et dicentes: Ut quid perditio ista unguenti facta est?
-   - BSB: Some of those present, however, expressed their indignation to one another: “Why this waste of perfume?
-   - WEB: But there were some who were indignant among themselves, saying, “Why has this ointment been wasted?
-- **14:21** add (word): critical *καλὸν* ] RP, Treg *+ ἦν*
-   - Latin: Fīlius quidem Hominis abit quemadmodum dē eō scrīptum est. Sed væ hominī illī per quem Fīlius Hominis prōdendus est. Præstāret hominī illī, numquam esse nātum.”
-   - 1573: Filius quidem hominis abit quemadmodum de eo scriptum est. Sed væ homini illi per quem filius Hominis prodendus est. Præstaret homini illi, nunquam esse natum.
-   - TR: Ὁ μὲν υἱὸς τοῦ ἀνθρώπου ὑπάγει, καθὼς γέγραπται περὶ αὐτοῦ· οὐαὶ δὲ τῷ ἀνθρώπῳ ἐκείνῳ δι᾿ οὗ ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται· καλὸν ἦν αὐτῷ εἰ οὐκ ἐγεννήθη ὁ ἄνθρωπος ἐκεῖνος.
-   - SBLGNT: ὅτι ὁ μὲν υἱὸς τοῦ ἀνθρώπου ὑπάγει καθὼς γέγραπται περὶ αὐτοῦ, οὐαὶ δὲ τῷ ἀνθρώπῳ ἐκείνῳ διʼ οὗ ὁ υἱὸς τοῦ ἀνθρώπου παραδίδοται· καλὸν αὐτῷ εἰ οὐκ ἐγεννήθη ὁ ἄνθρωπος ἐκεῖνος.
-   - Vulgate: Et Filius quidem hominis vadit sicut scriptum est de eo: væ autem homini illi per quem Filius hominis tradetur ! bonum erat ei, si non esset natus homo ille.
-   - BSB: The Son of Man will go just as it is written about Him, but woe to that man by whom He is betrayed! It would be better for him if he had not been born.”
-   - WEB: For the Son of Man goes as it is written about him, but woe to that man by whom the Son of Man is betrayed! It would be better for that man if he had not been born.”
-- **14:22** add (word): critical *λαβὼν* ] RP, Treg *+ ὁ Ἰησοῦς*
-   - Latin: Epulantibus autem iīs, Jēsūs sūmptum pānem, āctīs laudibus, frēgit, iīsque dedit, et dīxit: “Accipite, comedite, hoc est corpus meum.”
-   - 1573: Epulantibus autem eis, Iesus sumptum panem, actis laudibus, fregit, eisque dedit, et dixit: Accipite, comedite, hoc est corpus meum.
-   - TR: Καὶ ἐσθιόντων αὐτῶν, λαβὼν ὁ Ἰησοῦς ἄρτον, εὐλογήσας ἔκλασε καὶ ἔδωκεν αὐτοῖς, καὶ εἶπε, Λάβετε, φάγετε· τοῦτό ἐστι τὸ σῶμά μου.
-   - SBLGNT: Καὶ ἐσθιόντων αὐτῶν λαβὼν ἄρτον εὐλογήσας ἔκλασεν καὶ ἔδωκεν αὐτοῖς καὶ εἶπεν· Λάβετε, τοῦτό ἐστιν τὸ σῶμά μου.
-   - Vulgate: Et manducantibus illis, accepit Jesus panem: et benedicens fregit, et dedit eis, et ait: Sumite, hoc est corpus meum.
-   - BSB: While they were eating, Jesus took bread, spoke a blessing and broke it, and gave it to the disciples, saying, “Take it; this is My body.”
-   - WEB: As they were eating, Jesus took bread, and when he had blessed it, he broke it and gave to them, and said, “Take, eat. This is my body.”
-- **14:35** substitute (word): critical *προελθὼν μικρὸν ἔπιπτεν* ] RP, Treg *προσελθὼν μικρὸν ἔπεσεν*
-   - Latin: Tum paululum prōgressus, prōcidit humī, ōrāvitque, ut sī fierī posset, hōram illam dēclīnāret:
-   - 1573: Tum paululum progressus, procidit humi, orauitque, vt si fieri posset, horam illam declinaret:
-   - TR: Καὶ προελθὼν μικρόν, ἔπεσεν ἐπὶ τῆς γῆς, καὶ προσηύχετο ἵνα, εἰ δυνατόν ἐστι, παρέλθῃ ἀπ᾿ αὐτοῦ ἡ ὥρα.
-   - SBLGNT: καὶ προελθὼν μικρὸν ἔπιπτεν ἐπὶ τῆς γῆς, καὶ προσηύχετο ἵνα εἰ δυνατόν ἐστιν παρέλθῃ ἀπʼ αὐτοῦ ἡ ὥρα,
-   - Vulgate: Et cum processisset paululum, procidit super terram, et orabat ut, si fieri posset, transiret ab eo hora.
-   - BSB: Going a little farther, He fell to the ground and prayed that, if it were possible, the hour would pass from Him.
-   - WEB: He went forward a little, and fell on the ground, and prayed that if it were possible, the hour might pass away from him.
-- **14:38** substitute (word): critical *ἔλθητε* ] RP, Treg *εἰσέλθητε*
-   - Latin: Vigilāte, et ōrāte, nē veniātis in temptātiōnem. Spīritus quidem prōmptus est, sed carō īnfirma.”
-   - 1573: vigilate, et orate, ne veniatis in tentationem. Spiritus quidem promptus est, sed caro infirma.
-   - TR: Γρηγορεῖτε καὶ προσεύχεσθε, ἵνα μὴ εἰσέλθητε εἰς πειρασμόν. Τὸ μὲν πνεῦμα πρόθυμον, ἡ δὲ σὰρξ ἀσθενής.
-   - SBLGNT: γρηγορεῖτε καὶ προσεύχεσθε, ἵνα μὴ ἔλθητε εἰς πειρασμόν· τὸ μὲν πνεῦμα πρόθυμον ἡ δὲ σὰρξ ἀσθενής.
-   - Vulgate: vigilate et orate, ut non intretis in tentationem. Spiritus quidem promptus est, caro vero infirma.
-   - BSB: Watch and pray so that you will not enter into temptation. For the spirit is willing, but the body is weak.”
-   - WEB: Watch and pray, that you may not enter into temptation. The spirit indeed is willing, but the flesh is weak.”
-- **15:6** substitute (word): critical *ὃν παρῃτοῦντο* ] RP, Treg *ὅνπερ ᾐτοῦντο*
-   - Latin: Solēbat autem in illīs fēstīs iīs laxāre ūnum vīnctum, quemcumque postulāssent.
-   - 1573: Solebat autem in illis festis eis laxare vnum vinctum, quemcunque postulassent.
-   - TR: Κατὰ δὲ ἑορτὴν ἀπέλυεν αὐτοῖς ἕνα δέσμιον, ὅνπερ ᾐτοῦντο.
-   - SBLGNT: Κατὰ δὲ ἑορτὴν ἀπέλυεν αὐτοῖς ἕνα δέσμιον ὃν παρῃτοῦντο.
-   - Vulgate: Per diem autem festum solebat dimittere illis unum ex vinctis, quemcumque petissent.
-   - BSB: Now it was Pilate’s custom at the feast to release to the people a prisoner of their choosing.
-   - WEB: Now at the feast he used to release to them one prisoner, whomever they asked of him.
-- **15:8** add (word): critical *καθὼς* ] RP, Treg *+ ἀεὶ*
-   - Latin: Itaque cœpērunt vulgō clāmantēs id exigere, quod ille semper iīs erat facere solitus.
-   - 1573: Itaque cœperunt vulgò clamantes id exigere, quod ille semper eis erat facere solitus.
-   - TR: Καὶ ἀναβοήσας ὁ ὄχλος ἤρξατο αἰτεῖσθαι καθὼς ἀεὶ ἐποίει αὐτοῖς.
-   - SBLGNT: καὶ ἀναβὰς ὁ ὄχλος ἤρξατο αἰτεῖσθαι καθὼς ἐποίει αὐτοῖς.
-   - Vulgate: Et cum ascendisset turba, cœpit rogare, sicut semper faciebat illis.
-   - BSB: So the crowd went up and began asking Pilate to keep his custom.
-   - WEB: The multitude, crying aloud, began to ask him to do as he always did for them.
-- **15:39** add (word): critical *οὕτως* ] RP, Treg *+ κράξας*
+- **14:6** substitute (word): SBLGNT *ηργασατο εν εμοι* ] TR *ειργασατο εις εμε*
+   - Latin: Jēsūs dīxit: “Sinite eam: quid negōtium eī facessitis? bonō opere fūncta est ergā mē.
+   - 1573: Iesus dixit: Sinite eam: quid negocium ei facessitis bono opere functa est erga me.
+   - TR: Ὁ δὲ Ἰησοῦς εἶπεν, Ἄφετε αὐτήν· τί αὐτῇ κόπους παρέχετε; Καλὸν ἔργον εἰργάσατο εἰς ἐμέ.
+   - SBLGNT: ὁ δὲ Ἰησοῦς εἶπεν· Ἄφετε αὐτήν· τί αὐτῇ κόπους παρέχετε; καλὸν ἔργον ἠργάσατο ἐν ἐμοί·
+   - Vulgate: Jesus autem dixit: Sinite eam, quid illi molesti estis? Bonum opus operata est in me:
+   - BSB: But Jesus said, “Leave her alone; why are you bothering her? She has done a beautiful deed to Me.
+   - WEB: But Jesus said, “Leave her alone. Why do you trouble her? She has done a good work for me.
+- **14:8** substitute (name): SBLGNT *εσχε* ] TR *ειχε αυτη*
+   - Latin: Quod potuit hæc, fēcit: anticipāvit meum corpus ad sepultūram ungere.
+   - 1573: Quod potuit hæc, fecit: anticipauit meum corpus ad sepulturam vngere.
+   - TR: Ὃ εἶχεν αὕτη ἐποίησε· προέλαβε μυρίσαι μου τὸ σῶμα εἰς τὸν ἐνταφιασμόν.
+   - SBLGNT: ὃ ἔσχεν ἐποίησεν, προέλαβεν μυρίσαι τὸ σῶμά μου εἰς τὸν ἐνταφιασμόν.
+   - Vulgate: Quod habuit hæc, fecit: prævenit ungere corpus meum in sepulturam.
+   - BSB: She has done what she could to anoint My body in advance of My burial.
+   - WEB: She has done what she could. She has anointed my body beforehand for the burying.
+- **14:15** substitute (word): SBLGNT *αναγαιον* ] TR *ανωγεον*
+   - Latin: Ipse vērō vōbīs ingēns cēnāculum ostendet, īnstrātum ac parātum, illīc nōbīs præparātōte.”
+   - 1573: Ipse verò vobis ingens cœnaculum ostendet, instratum ac paratum, illic nobis præparatote.
+   - TR: Καὶ αὐτὸς ὑμῖν δείξει ἀνώγεον μέγα ἐστρωμένον ἕτοιμον· ἐκεῖ ἑτοιμάσατε ἡμῖν.
+   - SBLGNT: καὶ αὐτὸς ὑμῖν δείξει ἀνάγαιον μέγα ἐστρωμένον ἕτοιμον· καὶ ἐκεῖ ἑτοιμάσατε ἡμῖν.
+   - Vulgate: Et ipse vobis demonstrabit cœnaculum grande, stratum: et illic parate nobis.
+   - BSB: And he will show you a large upper room, furnished and ready. Make preparations for us there.”
+   - WEB: He will himself show you a large upper room furnished and ready. Get ready for us there.”
+- **14:19** substitute (word): SBLGNT *κατα* ] TR *καθ*
+   - Latin: Illī vērō dolēre cœpērunt, eīque singulī dīcere: “Isne ego sum?” Et alius: “Isne ego sum?”
+   - 1573: Illi verò dolere cœperunt, eique singuli dicere: Isne ego sum. Et alius: Isne ego sum?
+   - TR: Οἱ δὲ ἤρξαντο λυπεῖσθαι, καὶ λέγειν αὐτῷ εἷς καθ᾿ εἷς, Μήτι ἐγώ; Καὶ ἄλλος, Μήτι ἐγώ;
+   - SBLGNT: ἤρξαντο λυπεῖσθαι καὶ λέγειν αὐτῷ εἷς κατὰ εἷς· Μήτι ἐγώ;
+   - Vulgate: At illi cœperunt contristari, et dicere ei singulatim: Numquid ego?
+   - BSB: They began to be grieved and to ask Him one after another, “Surely not I?”
+   - WEB: They began to be sorrowful, and to ask him one by one, “Surely not I?” And another said, “Surely not I?”
+- **14:25** substitute (word): SBLGNT *γενηματος* ] TR *γεννηματος*
+   - Latin: Hoc vōbīs certō dīcō, nōn mē amplius bibitūrum ex fētū vīteō, ūsque ad illam diem, cum eum bibam novum in rēgnō Deī.”
+   - 1573: Hoc vobis certò dico, non me amplius bibiturum ex fœtu viteo, vsque ad illam diem, cùm eum bibam nouum in regno Dei.
+   - TR: Ἀμὴν λέγω ὑμῖν ὅτι οὐκέτι οὐ μὴ πίω ἐκ τοῦ γεννήματος τῆς ἀμπέλου, ἕως τῆς ἡμέρας ἐκείνης ὅταν αὐτὸ πίνω καινὸν ἐν τῇ βασιλείᾳ τοῦ Θεοῦ.
+   - SBLGNT: ἀμὴν λέγω ὑμῖν ὅτι οὐκέτι οὐ μὴ πίω ἐκ τοῦ γενήματος τῆς ἀμπέλου ἕως τῆς ἡμέρας ἐκείνης ὅταν αὐτὸ πίνω καινὸν ἐν τῇ βασιλείᾳ τοῦ θεοῦ.
+   - Vulgate: Amen dico vobis, quia jam non bibam de hoc genimine vitis usque in diem illum, cum illud bibam novum in regno Dei.
+   - BSB: Truly I tell you, I will no longer drink of the fruit of the vine until that day when I drink it anew in the kingdom of God.”
+   - WEB: Most certainly I tell you, I will no more drink of the fruit of the vine until that day when I drink it anew in God’s Kingdom.”
+- **14:30** omit (word): SBLGNT *συ* ] TR *–*
+   - Latin: Cui Jēsūs: “Hoc tibi cōnfirmō,” inquit, “fore ut hodiē in hāc nocte, priusquam bis gallus cantet, tū mē ter abnegēs.”
+   - 1573: Cui Iesus: Hoc tibi confirmo, inquit, fore vt hodie in hac nocte, priusquam bis gallus cantet, tu me ter abneges.
+   - TR: Καὶ λέγει αὐτῷ ὁ Ἰησοῦς, Ἀμὴν λέγω σοι ὅτι σήμερον ἐν τῇ νυκτὶ ταύτῃ, πρὶν ἢ δὶς ἀλέκτορα φωνῆσαι, τρὶς ἀπαρνήσῃ με.
+   - SBLGNT: καὶ λέγει αὐτῷ ὁ Ἰησοῦς· Ἀμὴν λέγω σοι ὅτι σὺ σήμερον ταύτῃ τῇ νυκτὶ πρὶν ἢ δὶς ἀλέκτορα φωνῆσαι τρίς με ἀπαρνήσῃ.
+   - Vulgate: Et ait illi Jesus: Amen dico tibi, quia tu hodie in nocte hac, priusquam gallus vocem bis dederit, ter me es negaturus.
+   - BSB: “Truly I tell you,” Jesus replied, “this very night, before the rooster crows twice, you will deny Me three times.”
+   - WEB: Jesus said to him, “Most certainly I tell you that you today, even this night, before the rooster crows twice, you will deny me three times.”
+- **14:32** substitute (name): SBLGNT *γεθσημανι* ] TR *γεθσημανη*
+   - Latin: Deinde ubi vēnērunt in locum, cui nōmen est Gethsēmanī, dīxit suīs discipulīs: “Sedēte hīc, dum ego ōrātum eō.”
+   - 1573: Deinde vbi venerunt in locum, cui nomen est Gethsemani, dixit suis discipulis: Sedete hîc, dum ego oratum eo.
+   - TR: Καὶ ἔρχονται εἰς χωρίον οὗ τὸ ὄνομα Γεθσημανῆ, καὶ λέγει τοῖς μαθηταῖς αὐτοῦ, Καθίσατε ὧδε, ἕως προσεύξωμαι.
+   - SBLGNT: Καὶ ἔρχονται εἰς χωρίον οὗ τὸ ὄνομα Γεθσημανί, καὶ λέγει τοῖς μαθηταῖς αὐτοῦ· Καθίσατε ὧδε ἕως προσεύξωμαι.
+   - Vulgate: Et veniunt in prædium, cui nomen Gethsemani. Et ait discipulis suis: Sedete hic donec orem.
+   - BSB: Then they came to a place called Gethsemane, and Jesus told His disciples, “Sit here while I pray.”
+   - WEB: They came to a place which was named Gethsemane. He said to his disciples, “Sit here while I pray.”
+- **14:33** substitute (word): SBLGNT *μετ αυτου* ] TR *μεθ εαυτου*
+   - Latin: Assūmptīsque ūnā sēcum Petrō, et Jācōbō, et Jōhanne, cœpit turbārī atque angī,
+   - 1573: assumptisque vnà secum Petro, et Iacobo, et Iohanne, cœpit turbari atque angi,
+   - TR: Καὶ παραλαμβάνει τὸν Πέτρον καὶ τὸν Ἰάκωβον καὶ Ἰωάννην μεθ᾿ ἑαυτοῦ, καὶ ἤρξατο ἐκθαμβεῖσθαι καὶ ἀδημονεῖν.
+   - SBLGNT: καὶ παραλαμβάνει τὸν Πέτρον καὶ Ἰάκωβον καὶ Ἰωάννην μετʼ αὐτοῦ, καὶ ἤρξατο ἐκθαμβεῖσθαι καὶ ἀδημονεῖν,
+   - Vulgate: Et assumit Petrum, et Jacobum, et Joannem secum: et cœpit pavere et tædere.
+   - BSB: He took with Him Peter, James, and John, and began to be deeply troubled and distressed.
+   - WEB: He took with him Peter, James, and John, and began to be greatly troubled and distressed.
+- **14:46** substitute (word): SBLGNT *επεβαλαν* ] TR *επεβαλον επ αυτον*
+   - Latin: Illī vērō in eum manūs injēcērunt, eumque cēpērunt.
+   - 1573: Illi verò in eum manus iniecerunt, eumque ceperunt.
+   - TR: Οἱ δὲ ἐπέβαλον ἐπ᾿ αὐτὸν τὰς χεῖρας αὐτῶν, καὶ ἐκράτησαν αὐτόν.
+   - SBLGNT: οἱ δὲ ἐπέβαλαν τὰς χεῖρας αὐτῷ καὶ ἐκράτησαν αὐτόν.
+   - Vulgate: At illi manus injecerunt in eum, et tenuerunt eum.
+   - BSB: Then the men seized Jesus and arrested Him.
+   - WEB: They laid their hands on him and seized him.
+- **14:51** substitute (word): SBLGNT *τις συνηκολουθει* ] TR *ηκολουθει*
+   - Latin: Cumque adulēscēns quīdam eum sequerētur, linteō nūdum corpus indūtus, adulēscentēs eum cēpērunt.
+   - 1573: Cumque adolescens quidam eum sequeretur, linteo nudum corpus indutus, adolescentes eum ceperunt.
+   - TR: Καὶ εἷς τις νεανίσκος ἠκολούθει αὐτῷ, περιβεβλημένος σινδόνα ἐπὶ γυμνοῦ. Καὶ κρατοῦσιν αὐτὸν οἱ νεανίσκοι·
+   - SBLGNT: Καὶ νεανίσκος τις συνηκολούθει αὐτῷ περιβεβλημένος σινδόνα ἐπὶ γυμνοῦ, καὶ κρατοῦσιν αὐτόν,
+   - Vulgate: Adolescens autem quidam sequebatur eum amictus sindone super nudo: et tenuerunt eum.
+   - BSB: One young man who had been following Jesus was wearing a linen cloth around his body. They caught hold of him,
+   - WEB: A certain young man followed him, having a linen cloth thrown around himself over his naked body. The young men grabbed him,
+- **14:55** substitute (word): SBLGNT *ηυρισκον* ] TR *ευρισκον*
+   - Latin: Pontificēs vērō, tōtusque cōnsessus, quærēbant contrā Jēsum testimōnium, ut eum necārent, nec inveniēbant.
+   - 1573: Pontifices verò, totusque consessus, quærebant contra Iesum testimonium, vt eum necarent, nec inueniebant.
+   - TR: Οἱ δὲ ἀρχιερεῖς καὶ ὅλον τὸ συνέδριον ἐζήτουν κατὰ τοῦ Ἰησοῦ μαρτυρίαν, εἰς τὸ θανατῶσαι αὐτόν, καὶ οὐχ εὕρισκον.
+   - SBLGNT: οἱ δὲ ἀρχιερεῖς καὶ ὅλον τὸ συνέδριον ἐζήτουν κατὰ τοῦ Ἰησοῦ μαρτυρίαν εἰς τὸ θανατῶσαι αὐτόν, καὶ οὐχ ηὕρισκον·
+   - Vulgate: Summi vero sacerdotes et omne concilium quærebant adversus Jesum testimonium ut eum morti traderent: nec inveniebant.
+   - BSB: Now the chief priests and the whole Sanhedrin were seeking testimony against Jesus to put Him to death, but they did not find any.
+   - WEB: Now the chief priests and the whole council sought witnesses against Jesus to put him to death, and found none.
+- **14:62** add (word): SBLGNT *–* ] TR *+ καθημενον*; omit (word): SBLGNT *καθημενον* ] TR *–*
+   - Latin: Et Jēsūs: “Sum,” inquit, “et vidēbitis Hominis Fīlium sedentem ad dextram potentiæ, et cum cælestibus venientem nūbibus.”
+   - 1573: Et Iesus: Sum, inquit: et videbitis hominis filium sedentem ad dexteram potentiæ, et cum cœlestibus venientem nubibus.
+   - TR: Ὁ δὲ Ἰησοῦς εἶπεν, Ἐγώ εἰμι. Καὶ ὄψεσθε τὸν υἱὸν τοῦ ἀνθρώπου καθήμενον ἐκ δεξιῶν τῆς δυνάμεως, καὶ ἐρχόμενον μετὰ τῶν νεφελῶν τοῦ οὐρανοῦ.
+   - SBLGNT: ὁ δὲ Ἰησοῦς εἶπεν· Ἐγώ εἰμι, καὶ ὄψεσθε τὸν υἱὸν τοῦ ἀνθρώπου ἐκ δεξιῶν καθήμενον τῆς δυνάμεως καὶ ἐρχόμενον μετὰ τῶν νεφελῶν τοῦ οὐρανοῦ.
+   - Vulgate: Jesus autem dixit illi: Ego sum: et videbitis Filium hominis sedentem a dextris virtutis Dei, et venientem cum nubibus cæli.
+   - BSB: “I am,” said Jesus, “and you will see the Son of Man sitting at the right hand of Power and coming with the clouds of heaven.”
+   - WEB: Jesus said, “I am. You will see the Son of Man sitting at the right hand of Power, and coming with the clouds of the sky.”
+- **14:72** substitute (word): SBLGNT *το ρημα ως* ] TR *του ρηματος ου*
+   - Latin: Et iterum gallus cecinit. Tum Petrus recordātus ejus, quod eī dīxerat Jēsūs, fore ut priusquam bis caneret gallus, ter eum negāret, cœpit flēre.
+   - 1573: et iterum gallus cecinit. Tum Petrus recordatus eius, quod ei dixerat Iesus, fore vt priusquam bis caneret gallus, ter eum negaret, cœpit flere.
+   - TR: Καὶ ἐκ δευτέρου ἀλέκτωρ ἐφώνησε. Καὶ ἀνεμνήσθη ὁ Πέτρος τοῦ ῥήματος οὗ εἶπεν αὐτῷ ὁ Ἰησοῦς ὅτι Πρὶν ἀλέκτορα φωνῆσαι δίς, ἀπαρνήσῃ με τρίς. Καὶ ἐπιβαλὼν ἔκλαιε.
+   - SBLGNT: καὶ εὐθὺς ἐκ δευτέρου ἀλέκτωρ ἐφώνησεν· καὶ ἀνεμνήσθη ὁ Πέτρος τὸ ῥῆμα ὡς εἶπεν αὐτῷ ὁ Ἰησοῦς ὅτι Πρὶν ἀλέκτορα φωνῆσαι δὶς τρίς με ἀπαρνήσῃ, καὶ ἐπιβαλὼν ἔκλαιεν.
+   - Vulgate: Et statim gallus iterum cantavit. Et recordatus est Petrus verbi quod dixerat ei Jesus: Priusquam gallus cantet bis, ter me negabis. Et cœpit flere.
+   - BSB: And immediately the rooster crowed a second time. Then Peter remembered the word that Jesus had spoken to him: “Before the rooster crows twice, you will deny Me three times.” And he broke down and wept.
+   - WEB: The rooster crowed the second time. Peter remembered the words that Jesus said to him, “Before the rooster crows twice, you will deny me three times.” When he thought about that, he wept.
+- **15:24** substitute (word): SBLGNT *και διαμεριζονται* ] TR *διεμεριζον*
+   - Latin: Eō autem crucī fīxō, partītī sunt ejus vestīmenta, jactā super iīs sorte, quid quisque auferret.
+   - 1573: Eo autem cruci fixo, partiti sunt eius vestimenta, iacta super eis sorte, quid quisque auferret.
+   - TR: Καὶ σταυρώσαντες αὐτόν, διεμέριζον τὰ ἱμάτια αὐτοῦ, βάλλοντες κλῆρον ἐπ᾿ αὐτά, τίς τί ἄρῃ.
+   - SBLGNT: καὶ σταυροῦσιν αὐτὸν καὶ διαμερίζονται τὰ ἱμάτια αὐτοῦ, βάλλοντες κλῆρον ἐπʼ αὐτὰ τίς τί ἄρῃ.
+   - Vulgate: Et crucifigentes eum, diviserunt vestimenta ejus, mittentes sortem super eis, quis quid tolleret.
+   - BSB: And they crucified Him. They also divided His garments by casting lots to decide what each of them would take.
+   - WEB: Crucifying him, they parted his garments among them, casting lots on them, what each should take.
+- **15:33** substitute (word): SBLGNT *ενατης* ] TR *εννατης*
+   - Latin: Hōrā sextā autem exstitērunt per tōtam terram tenebræ, ūsque ad hōram nōnam.
+   - 1573: Hora sexta autem extiterunt per totam terram tenebræ, vsque ad horam nonam.
+   - TR: Γενομένης δὲ ὥρας ἕκτης, σκότος ἐγένετο ἐφ᾿ ὅλην τὴν γῆν ἕως ὥρας ἐννάτης.
+   - SBLGNT: Καὶ γενομένης ὥρας ἕκτης σκότος ἐγένετο ἐφʼ ὅλην τὴν γῆν ἕως ὥρας ἐνάτης.
+   - Vulgate: Et facta hora sexta, tenebræ factæ sunt per totam terram usque in horam nonam.
+   - BSB: From the sixth hour until the ninth hour darkness came over all the land.
+   - WEB: When the sixth hour had come, there was darkness over the whole land until the ninth hour.
+- **15:34** add (word): SBLGNT *–* ] TR *+ τη εννατη*; substitute (word): SBLGNT *λεμα* ] TR *λαμμα*
+   - Latin: Ac hōrā nōnā exclāmāvit Jēsūs magnā vōce, dīcēns: “Eloi eloi lāmā sabachtanī,” quōrum verbōrum hæc nōtiō est: “Mī Deus, mī Deus, cūr mē dērelīquistī?”
+   - 1573: Ac hora nona exclamauit Iesus magna voce, dicens. Eloi eloi lama sabachthani: quorum verborum hæc notio est: Mi Deus, mi Deus, cur me dereliquisti?
+   - TR: Καὶ τῇ ὥρᾳ τῇ ἐννάτῃ ἐβόησεν ὁ Ἰησοῦς φωνῇ μεγάλῃ, λέγων, Ἐλωΐ, Ἐλωΐ, λαμμᾶ σαβαχθανί; Ὅ ἐστι μεθερμηνευόμενον, Ὁ Θεός μου, ὁ Θεός μου, εἰς τί με ἐγκατέλιπες;
+   - SBLGNT: καὶ τῇ ἐνάτῃ ὥρᾳ ἐβόησεν ὁ Ἰησοῦς φωνῇ μεγάλῃ· Ἐλωῒ ἐλωῒ λεμὰ σαβαχθάνι; ὅ ἐστιν μεθερμηνευόμενον Ὁ θεός μου ὁ θεός μου, εἰς τί ἐγκατέλιπές με;
+   - Vulgate: Et hora nona exclamavit Jesus voce magna, dicens: Eloi, eloi, lamma sabacthani? quod est interpretatum: Deus meus, Deus meus, ut quid dereliquisti me?
+   - BSB: At the ninth hour, Jesus cried out in a loud voice, “Eloi, Eloi, lema sabachthani?” which means, “My God, My God, why have You forsaken Me?”
+   - WEB: At the ninth hour Jesus cried with a loud voice, saying, “Eloi, Eloi, lama sabachthani?” which is, being interpreted, “My God, my God, why have you forsaken me?”
+- **15:38** substitute (word): SBLGNT *απ* ] TR *απο*
+   - Latin: et templī vēlum ā summō ad īmum in duās partēs fissum est.
+   - 1573: et templi velum à summo ad imum in duas partes fissum est:
+   - TR: Καὶ τὸ καταπέτασμα τοῦ ναοῦ ἐσχίσθη εἰς δύο ἀπὸ ἄνωθεν ἕως κάτω.
+   - SBLGNT: καὶ τὸ καταπέτασμα τοῦ ναοῦ ἐσχίσθη εἰς δύο ἀπʼ ἄνωθεν ἕως κάτω.
+   - Vulgate: Et velum templi scissum est in duo, a summo usque deorsum.
+   - BSB: And the veil of the temple was torn in two from top to bottom.
+   - WEB: The veil of the temple was torn in two from the top to the bottom.
+- **15:39** substitute (word): SBLGNT *ουτως* ] TR *ουτω κραξας*
    - Latin: Ac vidēns centuriō, quī eī ex adversō astābat, eum ita clāmantem expīrāsse, dīxit: “Profectō hic homō Fīlius erat Deī.”
    - 1573: Ac videns Centurio, qui ei ex aduerso astabat, eum ita clamantem expirasse, dixit: Profectò hic homo filius erat Dei.
    - TR: Ἰδὼν δὲ ὁ κεντυρίων ὁ παρεστηκὼς ἐξ ἐναντίας αὐτοῦ ὅτι οὕτω κράξας ἐξέπνευσεν, εἶπεν, Ἀληθῶς ὁ ἄνθρωπος οὗτος υἱὸς ἦν Θεοῦ.
@@ -2124,11 +3036,11 @@ Apparatus units with WH and NA28 (with SBLGNT) against RP: 780; not a change of 
    - Vulgate: Videns autem centurio, qui ex adverso stabat, quia sic clamans expirasset, ait: Vere hic homo Filius Dei erat.
    - BSB: When the centurion standing there in front of Jesus saw how He had breathed His last, he said, “Truly this man was the Son of God!”
    - WEB: When the centurion, who stood by opposite him, saw that he cried out like this and breathed his last, he said, “Truly this man was the Son of God!”
-- **15:40** add (word): critical *αἷς* ] RP, Treg *+ ἦν*
-   - Latin: Erant etiam mulierēs procul spectantēs, in quibus erat Marīa Magdalēna, et Marīa Jācōbī minōris, Jōsisque māter, et Salōmē,
-   - 1573: Erant etiam mulieres procul spectantes, in quibus erat Maria Magdalena, et Maria Iacobi minoris; Iosisque mater, et Salome,
-   - TR: Ἦσαν δὲ καὶ γυναῖκες ἀπὸ μακρόθεν θεωροῦσαι, ἐν αἷς ἦν καὶ Μαρία ἡ Μαγδαληνή, καὶ Μαρία ἡ τοῦ Ἰακώβου τοῦ μικροῦ καὶ Ἰωσῆ μήτηρ, καὶ Σαλώμη,
-   - SBLGNT: Ἦσαν δὲ καὶ γυναῖκες ἀπὸ μακρόθεν θεωροῦσαι, ἐν αἷς καὶ Μαρία ἡ Μαγδαληνὴ καὶ Μαρία ἡ Ἰακώβου τοῦ μικροῦ καὶ Ἰωσῆτος μήτηρ καὶ Σαλώμη,
-   - Vulgate: Erant autem et mulieres de longe aspicientes: inter quas erat Maria Magdalene, et Maria Jacobi minoris, et Joseph mater, et Salome:
-   - BSB: And there were also women watching from a distance. Among them were Mary Magdalene, Mary the mother of James the younger and of Joses, and Salome.
-   - WEB: There were also women watching from afar, among whom were both Mary Magdalene and Mary the mother of James the less and of Joses, and Salome;
+- **16:8** add (word): SBLGNT *–* ] TR *+ ταχυ*; substitute (word): SBLGNT *ειπαν* ] TR *ειπον*; omit (clause): SBLGNT *παντα δε τα παρηγγελμενα τοις περι τον πετρον συντομως εξηγγειλαν μετα δε ταυτα και αυτος ο ιησους απο ανατολης και αχρι δυσεως εξαπεστειλε δι αυτων το ιερον και αφθαρτον κηρυγμα της αιωνιου σωτηριας αμην* ] TR *–*
+   - Latin: Igitur illæ ēgressæ celeriter ex monumentō, fūgērunt, idque tremōre correptæ, atque attonitæ: neque cuiquam quidquam dīxērunt, utpote quæ metuerent.
+   - 1573: Igitur illæ egressæ celeriter ex monimento, fugerunt, idque tremore correptæ, atque attonitæ: neque cuiquam quicquam dixerunt, vtpote quæ metuerent
+   - TR: Καὶ ἐξελθοῦσαι ταχὺ ἔφυγον ἀπὸ τοῦ μνημείου· εἶχε δὲ αὐτὰς τρόμος καὶ ἔκστασις· καὶ οὐδενὶ οὐδὲν εἶπον, ἐφοβοῦντο γάρ.
+   - SBLGNT: καὶ ἐξελθοῦσαι ἔφυγον ἀπὸ τοῦ μνημείου, εἶχεν γὰρ αὐτὰς τρόμος καὶ ἔκστασις· καὶ οὐδενὶ οὐδὲν εἶπαν, ἐφοβοῦντο γάρ. ⟦Πάντα δὲ τὰ παρηγγελμένα τοῖς περὶ τὸν Πέτρον συντόμως ἐξήγγειλαν. μετὰ δὲ ταῦτα καὶ αὐτὸς ὁ Ἰησοῦς ἀπὸ ἀνατολῆς καὶ ἄχρι δύσεως ἐξαπέστειλεν διʼ αὐτῶν τὸ ἱερὸν καὶ ἄφθαρτον κήρυγμα τῆς αἰωνίου σωτηρίας. ἀμήν.⟧
+   - Vulgate: At illæ exeuntes, fugerunt de monumento: invaserat enim eas tremor et pavor: et nemini quidquam dixerunt: timebant enim.
+   - BSB: So the women left the tomb and ran away, trembling and bewildered. And in their fear they did not say a word to anyone.
+   - WEB: They went out, and fled from the tomb, for trembling and astonishment had come on them. They said nothing to anyone; for they were afraid.

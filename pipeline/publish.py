@@ -326,7 +326,7 @@ def credits(selected, macrons=True):
         # The SBL Greek New Testament (CC BY 4.0, whose notice is "Copyright 2010 by the Society of Biblical Literature
         # and Logos Bible Software"): the footnotes' Greek and the brackets for what modern Greek texts omit (decisions
         # 52, 53) follow it. Credited wherever the selection holds a New Testament book (2026-11-14).
-        "sblgnt": ("Verba Græca in adnotātiōnibus et uncī quibus notantur quæ ēditiōnēs Græcæ hodiernæ omittunt ex "
+        "sblgnt": ("Verba Græca in adnotātiōnibus et uncī quibus notantur quæ cōdicēs antīquiōrēs nōn habent ex "
                    "SBL Greek New Testament sūmpta sunt (© 2010 Society of Biblical Literature et Logos Bible "
                    "Software), quod licentiā CC BY 4.0 dīvulgātur.") if "novum" in testaments else "",
         "sblgnt_url": "https://github.com/LogosBible/SBLGNT",

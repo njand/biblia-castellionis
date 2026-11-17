@@ -141,9 +141,9 @@ for it; the sentence on the Apocrypha appears only once they are built.
 > | | |
 > |---|---|
 > | ⟦ ⟧ | Mc 16,9–20 et Jo 7,53–8,11, quæ antīquissima exemplāria Græca nōn habent. |
-> | [ ] | Verba quæ ēditiōnēs Græcæ hodiernæ omittunt. |
+> | [ ] | Verba quæ cōdicēs antīquiōrēs nōn habent. |
 > | *oblīquæ* | Verba ex priōribus Bibliōrum librīs citāta. |
-> | ᵃ | Adnotātiōnēs īmā pāginā, ubi Castelliōnis ēditiōnēs ā textū Hebræō aut Græcō, ut hodiē legitur, discēdunt. |
+> | ᵃ | Adnotātiōnēs īmā pāginā, ubi Castelliōnis ēditiōnēs ā textū Hebræō aut Græcō discēdunt. Cōdicēs antīquiōrēs eōs dīcō quōs ēditiōnēs Græcæ nostræ ætātis sequuntur: Castelliō enim textum Græcum suæ ætātis vertit, ex recentiōribus cōdicibus ductum. |
 >
 > **Librī legendī**
 >
@@ -311,9 +311,11 @@ The edition without macrons (EPUB and text) is then printed with the macrons str
 >
 > *Nathan Anderson, November 2026*
 >
-> **Signs.** ⟦ ⟧ Mark 16:9–20 and John 7:53–8:11, which the oldest Greek copies do not have. [ ] Words that modern
-> Greek editions leave out. *Italics:* words quoted from earlier
-> books of the Bible. Footnotes: where Castellio's editions depart from the Hebrew or Greek as read today.
+> **Signs.** ⟦ ⟧ Mark 16:9–20 and John 7:53–8:11, which the oldest Greek copies do not have. [ ] Words that the older
+> manuscripts do not have. *Italics:* words quoted from earlier
+> books of the Bible. Footnotes: where Castellio's editions depart from the Hebrew or Greek. By the older manuscripts
+> I mean those that the Greek editions of our time follow; for Castellio translated the Greek text of his own day,
+> drawn from later manuscripts.
 
 ## Sources
 

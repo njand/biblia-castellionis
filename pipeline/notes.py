@@ -5,17 +5,22 @@ with its evidence, for Claude to read (with the NET notes and the NRSVue) before
 
 Two kinds are found here:
 
-- **text**: the SBLGNT apparatus's units where the critical editions agree (SBLGNT with WH and NA28; Tregelles either
-  way, Nathan 2026-11-16 on the Mark pilot) against the Byzantine text (RP), and the TR, the Greek Castellio translated, has RP's reading. Word order, articles, another
+- **text**: the SBLGNT apparatus's units where the modern editions agree (SBLGNT and NA28; Westcott–Hort and Tregelles,
+  of the nineteenth century, are not counted: Nathan 2026-11-17, `nt-notes-form.md`) against the Byzantine text (RP),
+  and the TR, the Greek Castellio translated, has RP's reading. Word order, articles, another
   form of the same word and swaps of small words (conjunctions, particles, prepositions, pronouns) are left out:
   notes on the text are kept to changes of sense (decision of 2026-11-16, 2: C). Each is ranked: `clause` (three words
   or more added or left out), `name`, `number`, `word`.
+- **TR alone**: places where the TR differs from SBLGNT and the apparatus has no unit (RP stands with the critical
+  text, so only Erasmus's and Stephanus's text has the reading: Luke 14:5 ὄνος, John 1:28 Βηθαβαρᾷ), filtered the same
+  way. Found by the Gospel readers, 2026-11-17.
 - **person**: a verse whose Latin has *nōs*/*noster* where the TR has only ὑμ- (or *vōs*/*vester* where it has only
   ἡμ-), as at 1 John 4:4.
 
 Verses already noted (`\\f`) or bracketed are left out. Nothing here is a proposal: the sense-divergences (Castellio
 reading the Greek otherwise than scholars now do) need a reader, and the review file is written by hand from this."""
 
+import difflib
 import re
 import unicodedata
 from dataclasses import dataclass, field
@@ -24,7 +29,7 @@ from pipeline import books, gold, latex, parallel, paths, tsv
 
 APPARATUS = paths.SOURCES / "parallel" / "sblgnt" / "files" / "SBLGNT-master" / "data" / "sblgntapp" / "text"
 SBLGNT = paths.SOURCES / "parallel" / "sblgnt" / "files" / "SBLGNT-master" / "data" / "sblgnt" / "text"
-CONSENSUS = {"WH", "NA28"}             # Tregelles either way (9:29, 10:24 … in Mark, Nathan 2026-11-16)
+CONSENSUS = {"NA28"}                   # with SBLGNT; WH and Tregelles either way (Nathan 2026-11-17)
 EDITION = re.compile(r"^[A-Z][A-Za-z0-9]*$")
 
 ARTICLES = set("ο η το του της τον την τω τη οι αι τα των τοις ταις τους τας".split())
@@ -47,7 +52,9 @@ def plain(text):
 
 
 def greek_words(text):
-    return re.findall(r"[^\W\d_]+", plain(text))
+    """Plain words, without elision marks and movable ν (εἰσι = εἰσιν, ἐπʼ = ἐπ᾿), so spelling alone never differs."""
+    words = re.findall(r"[^\W\d_]+", re.sub(r"[ʼ᾿’']", "", plain(text)))
+    return [w[:-1] if len(w) > 3 and w.endswith(("σιν", "ξιν", "ψιν", "εν", "εστιν")) else w for w in words]
 
 
 @dataclass
@@ -58,13 +65,11 @@ class Unit:
     line: str                       # the apparatus line as printed
     kind: str = ""                  # add, omit, substitute
     rank: str = ""                  # clause, name, number, word
-    loose: bool = False             # WH and NA28 with SBLGNT, but Tregelles with RP
     words: list = field(default_factory=list)
 
 
 def apparatus(osis):
-    """[Unit] for one book: each place where WH and NA28 stand with SBLGNT against RP. `loose` marks those where
-    Tregelles sides with RP, reported apart."""
+    """[Unit] for one book: each place where NA28 stands with SBLGNT against RP."""
     path = APPARATUS / f"{osis}.txt"
     if not path.exists():
         return []
@@ -85,9 +90,8 @@ def apparatus(osis):
             continue
         if not CONSENSUS <= eds:
             continue
-        loose = bool(re.search(r"\bTreg\b", rp))
         units.append(Unit(vid, " ".join(w for w in left.split() if w not in eds),
-                          " ".join(w for w in rp.split() if not EDITION.match(w)), line, loose=loose))
+                          " ".join(w for w in rp.split() if not EDITION.match(w)), line))
     return units
 
 
@@ -125,8 +129,9 @@ def classify(unit):
         diff = sorted(a ^ b)
         if len(a - b) == 1 and len(b - a) == 1:
             x, y = next(iter(a - b)), next(iter(b - a))
-            if len(x) > 3 and len(y) > 3 and x[:4] == y[:4]:
-                return False                             # another form of the same word
+            names = proper_names()
+            if len(x) > 3 and len(y) > 3 and x[:4] == y[:4] and not (x in names or y in names):
+                return False                             # another form of the same word (not two names: John 1:28)
     content = [w for w in diff if w not in SMALL]
     person = {w[:2] for w in diff if w.startswith(("ημ", "υμ"))} == {"ημ", "υμ"}
     if not content and not person:
@@ -206,6 +211,30 @@ def sblgnt_text(osis):
     return out
 
 
+def tr_alone(tr, critical, units):
+    """{vid: [Unit]} where the TR differs from SBLGNT and the apparatus has no unit for it: the TR's own readings
+    (Erasmus, Stephanus), which RP does not share (Luke 14:5 ὄνος, John 1:28 Βηθαβαρᾷ). `rp` holds the TR's words."""
+    covered = {}
+    for u in units:
+        covered.setdefault(u.vid, set()).update(greek_words(u.reading) + greek_words(u.rp.lstrip("+ ")))
+    out = {}
+    for vid, text in critical.items():
+        a, b = greek_words(text), greek_words(tr.get(vid, ""))
+        if not b:
+            continue
+        for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+            if op == "equal":
+                continue
+            span = a[i1:i2] + b[j1:j2]
+            if set(w for w in span if w not in SMALL) <= covered.get(vid, set()):
+                continue
+            unit = Unit(vid, " ".join(a[i1:i2]) or "–", ("+ " if op == "insert" else "") + (" ".join(b[j1:j2]) or "–"),
+                        "TR against SBLGNT")
+            if classify(unit):
+                out.setdefault(vid, []).append(unit)
+    return out
+
+
 def candidates(osis):
     """({vid: [Unit]}, [(vid, what)] person mismatches, counts) for one New Testament book."""
     book = books.select([osis])[0]
@@ -228,7 +257,10 @@ def candidates(osis):
         counts["kept"] += 1
         found.setdefault(unit.vid, []).append(unit)
     person = [(vid, what) for vid, what in person_mismatches(latin, tr) if vid not in skip]
-    return found, person, counts
+    alone = {vid: units for vid, units in tr_alone(tr, sblgnt_text(book.osis), apparatus(book.osis)).items()
+             if vid not in skip}
+    counts["TR alone"] = sum(len(units) for units in alone.values())
+    return found, person, counts, alone
 
 
 RANKS = ("clause", "name", "number", "person", "word")
@@ -237,7 +269,7 @@ RANKS = ("clause", "name", "number", "person", "word")
 def report(osis):
     """The candidates file's Markdown."""
     book = books.select([osis])[0]
-    found, person, counts = candidates(book.osis)
+    found, person, counts, alone = candidates(book.osis)
     latin = {vid: row["text"] for vid, row in gold.load(book.osis).items()}
     orig_path = paths.ROOT / "text" / "orig" / f"{book.usfm}.usfm"
     printed = ({vid: text for vid, text, *_ in gold.rows(orig_path.read_text(encoding="utf-8"), book.osis)}
@@ -261,15 +293,12 @@ def report(osis):
            "`data/review/nt-notes-process.md`. These are not proposals: each is read with the NET notes (and the NRSVue",
            "for any that survive) before a note is put to Nathan in `" + book.osis.lower() + "-notes.md`.",
            "",
-           f"Apparatus units with WH and NA28 (with SBLGNT) against RP: {counts['apparatus']}; not a change of sense (order, "
+           f"Apparatus units with NA28 and SBLGNT against RP: {counts['apparatus']}; not a change of sense (order, "
            f"article, form, small words): {counts['not sense']}; the TR with the critical text: "
            f"{counts['TR with consensus']}; in a verse already noted or bracketed: {counts['already noted']}; "
-           f"**kept: {counts['kept']}**, in {len(found)} verses. Pronoun person (Latin against the TR): {len(person)}.",
+           f"**kept: {counts['kept']}**, in {len(found)} verses. The TR alone against SBLGNT (no apparatus unit): "
+           f"{counts['TR alone']}, in {len(alone)} verses. Pronoun person (Latin against the TR): {len(person)}.",
            ""]
-    loose = {vid: [u for u in units if u.loose] for vid, units in found.items()}
-    loose = {vid: units for vid, units in loose.items() if units}
-    found = {vid: [u for u in units if not u.loose] for vid, units in found.items()}
-    found = {vid: units for vid, units in found.items() if units}
     for rank in RANKS:
         verses = [(vid, units) for vid, units in sorted(found.items(), key=lambda x: tsv.parse_id(x[0]))
                   if min(RANKS.index(u.rank) for u in units) == RANKS.index(rank)]
@@ -281,11 +310,11 @@ def report(osis):
                 f"{u.kind} ({u.rank}): critical *{u.reading}* ] RP *{u.rp}*" for u in units))
             out += evidence(vid)
         out.append("")
-    if loose:
-        out += [f"## Tregelles with RP ({len(loose)} verses; inside the test since 2026-11-16, listed apart)", ""]
-        for vid, units in sorted(loose.items(), key=lambda x: tsv.parse_id(x[0])):
+    if alone:
+        out += [f"## The TR alone (RP with the critical text; {len(alone)} verses)", ""]
+        for vid, units in sorted(alone.items(), key=lambda x: tsv.parse_id(x[0])):
             out.append(f"- **{ref(vid)}** " + "; ".join(
-                f"{u.kind} ({u.rank}): critical *{u.reading}* ] RP, Treg *{u.rp}*" for u in units))
+                f"{u.kind} ({u.rank}): SBLGNT *{u.reading}* ] TR *{u.rp}*" for u in units))
             out += evidence(vid)
         out.append("")
     if person:
