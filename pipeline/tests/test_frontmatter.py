@@ -26,7 +26,9 @@ class Conditions(unittest.TestCase):
         self.assertNotIn("Lipsiēnsis", out)
         self.assertNotIn("cujus ēditiōnem Veteris Fœderis", out)
         self.assertIn("ex Vulgātā addita", out)
-        self.assertIn("ā textū Græcō discēdunt. Cōdicēs antīquiōrēs eōs dīcō", out)
+        self.assertIn("ā textū Græcō discēdunt. Ubi sōla verba Græca adnotantur, Castelliō aliter vertit, nec ejus "
+                      "verba mūtāvī. Cōdicēs antīquiōrēs eōs dīcō", out)
+        self.assertNotIn("vōcēs explicantur", out)                        # the coinages: OT only
         self.assertIn("⟦ ⟧", out)
 
     def test_old_testament_alone(self):
@@ -34,8 +36,9 @@ class Conditions(unittest.TestCase):
         self.assertIn("Veteris Fœderis textum dedit ēditiō Lipsiēnsis", out)
         self.assertNotIn("Basiliēnsis annī 1573", out)
         self.assertNotIn("⟦ ⟧", out)
-        self.assertIn("ā textū Hebræō discēdunt.", out)
-        self.assertNotIn("Cōdicēs antīquiōrēs", out)                      # the NT editions only
+        self.assertIn("ā textū Hebræō discēdunt. Ubi sōla verba Hebræa adnotantur", out)
+        self.assertIn("Paucæ etiam vōcēs explicantur quās ipse fīnxit aut Hebræās retinuit.", out)
+        self.assertNotIn("Cōdicēs antīquiōrēs", out)                    # the NT editions only
         self.assertNotIn("Nōa", out)
 
     def test_both_and_the_apocrypha(self):

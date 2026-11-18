@@ -21,8 +21,16 @@ them are dated in `HUMAN.md` § Decided.
 - No marginal notes or commentary, but **brief Latin footnotes** where Castellio's reading departs from the Greek
   as read today (decision 53, 2026-11-12), or in the Old Testament from the Hebrew (decision 56, 2026-11-13), with the
   same light touch: `\f + \fr 19:24 \ft …\f*`, one line, after the word it explains
-  (model: Matt 19:24 *Græcē κάμηλος; Castelliō fūnem nauticum intellegit, doctī nostræ ætātis plērīque camēlum*;
-  an Old Testament note begins *Hebræē* the same way;
+  (model: Matt 19:24 *Græcē κάμηλος, ‘camēlus’; Castelliō fūnem nauticum intellegit*;
+  an Old Testament note begins *Hebraicē* the same way. Fixed formulas, as the NRSVue's, defined once in the front
+  matter and never varied (`data/review/nt-notes-form.md` §3, `notes-audit.md`, 2026-11-18): NT *Cōdicēs antīquiōrēs
+  habent / addunt* Greek, ‘Latin’ (*habent … sine …* for a word dropped where brackets cannot stand), *Græcē* Greek
+  (the TR), ‘Latin’, for Castellio's sense or a slip in his text, with no tail; OT *Hebraicē* Hebrew, ‘Latin’, with
+  *Castelliō … legit* where he read other consonants, *vōx* or *locus obscūrus* where the sense is uncertain, *ut
+  Vulgāta* or *Castelliō Jōsēphum sequitur* for his source, and *Castelliō fīnxit* for his coinages; no reasons, no
+  modern opinions, no *hodiē*, no cross-references; other verses cited *C:V*; only the words that differ quoted;
+  words written out, not abbreviated (advised 2026-11-18, since the readers are learning Latin; to revisit if an OT
+  search brings many notes citing the ancient versions);
   classical idiom preferred to Church Latin in the notes: not *Scrīptūra* for the Bible, nor *hodiernī* of people).
 - **Passages not in the earliest manuscripts** stay in Castellio's text, bracketed as NA28 and SBLGNT do (decision
   52): ⟦…⟧ around Mark 16:9–20 and John 7:53–8:11, […] around the verses and phrases the critical texts leave out;
