@@ -1,0 +1,400 @@
+# Num: candidates for light notes
+
+Built by `python -m pipeline notes Num` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `num-notes.md`.
+
+Latin: 1202 verses (settled); already noted: 1. BSB notes naming a version: 14 verses (against MT 6, with MT 3, other 5); WEB notes besides: 1. Numerals differing from the Hebrew: 39. Latin far shorter than the Hebrew: 6. Castellio's G. … H. marks: 1.
+
+## Castellio's marks (1 verses)
+
+*G.* (*G.L.*, 1750 *Gr. lect.*) … *H.*: a reading he took from the Greek, found in the raw OCR of 1738 and 1750 and placed by the words around it (check the verse).
+
+- **10:6** 1738: ! >  mouento ,  G.  L.    Quum  tertium ; / qui  ad  occidentein :    quum  quar- | 1750: mouento, G. L. Quum tertium: / 
+   - Latin: Cum item secundum cum ovātū clangētis; quī ad austrum tetenderint, moventō: cum tertium; quī ad occidentem: cum quārtum; quī ad septentriōnēs: iīsque solventibus cum ovātū clanguntō.
+   - 1738: Quum item secundum cum ouatu clangetis; qui ad austrum tetenderint, mouento, G. L. Quum tertium; qui ad occidentem: quum quartum; qui ad septemtriones: H. eisque soluentibus cum ouatu clangunto.
+   - WLC: וּתְקַעְתֶּ֤ם תְּרוּעָה֙ שֵׁנִ֔ית וְנָֽסְעוּ֙ הַֽמַּחֲנ֔וֹת הַחֹנִ֖ים תֵּימָ֑נָה תְּרוּעָ֥ה יִתְקְע֖וּ לְמַסְעֵיהֶֽם׃
+   - BSB: When you sound the short blasts a second time, the camps that lie on the south side are to set out. The blasts are to signal them to set out.
+   - KJV: When ye blow an alarm the second time, then the camps that lie on the south side shall take their journey: they shall blow an alarm for their journeys.
+
+## Versions: the BSB against MT (6 verses)
+
+- **2:14** BSB: Many MT manuscripts, SP, and Vulgate (see also Numbers 1:14); most MT manuscripts Reuel
+   - Latin: Itemque tribus Gadī, duce Eliāsāphō Dūēlis fīliō,
+   - 1738: Itemque tribus Gadi, duce Eliasapho Duelis filio,
+   - WLC: וְמַטֵּ֖ה גָּ֑ד וְנָשִׂיא֙ לִבְנֵ֣י גָ֔ד אֶלְיָסָ֖ף בֶּן־רְעוּאֵֽל׃
+   - BSB: Next will be the tribe of Gad. The leader of the Gadites is Eliasaph son of Deuel,
+   - KJV: Then the tribe of Gad: and the captain of the sons of Gad shall be Eliasaph the son of Reuel.
+- **9:16** BSB: LXX, Syriac, and Vulgate; Hebrew does not include by day
+   - Latin: Atque ita fīēbat continenter, ut nūbēs interdiū, et ignis speciēs eam noctū operīret.
+   - 1738: Atque ita fiebat continenter, vt nubes interdiu, et ignis species eam noctu operiret.
+   - WLC: כֵּ֚ן יִהְיֶ֣ה תָמִ֔יד הֶעָנָ֖ן יְכַסֶּ֑נּוּ וּמַרְאֵה־אֵ֖שׁ לָֽיְלָה׃
+   - BSB: It remained that way continually; the cloud would cover the tabernacle by day, and at night it would appear like fire.
+   - KJV: So it was alway: the cloud covered it by day, and the appearance of fire by night.
+- **24:17** BSB: SP foreheads; Hebrew corners (of the head); LXX princes
+   - Latin: Vidēbō eum, sed nōn jam: aspiciam eum, sed nōn mox: proficīscētur stēlla ex Jācōbō, exsistetque scēptrum ex Isrāēle, quod et Mōabītārum optimātēs franget, et omnēs ā Sēthō prōgnātōs perdomābit,
+   - 1738: Videbo eum, sed non iam: adspiciam eum, sed non mox: proficiscetur stella ex Iacobo, exsistetque sceptrum ex Israele, quod et Moabitarum optimates franget, et omnes a Setho prognatos perdomabit,
+   - WLC: אֶרְאֶ֙נּוּ֙ וְלֹ֣א עַתָּ֔ה אֲשׁוּרֶ֖נּוּ וְלֹ֣א קָר֑וֹב דָּרַ֨ךְ כּוֹכָ֜ב מִֽיַּעֲקֹ֗ב וְקָ֥ם שֵׁ֙בֶט֙ מִיִּשְׂרָאֵ֔ל וּמָחַץ֙ פַּאֲתֵ֣י מוֹאָ֔ב וְקַרְקַ֖ר כָּל־בְּנֵי־שֵֽׁת׃
+   - BSB: I see him, but not now; I behold him, but not near. A star will come forth from Jacob, and a scepter will arise from Israel. He will crush the skulls of Moab and strike down all the sons of Sheth.
+   - KJV: I shall see him, but not now: I shall behold him, but not nigh: there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel, and shall smite the corners of Moab, and destroy all the children of Sheth.
+- **26:39** BSB: A few MT manuscripts, SP, Vulgate, and Syriac (see also LXX); most MT manuscripts Shephupham
+   - Latin: ā Sūphāmō Sūphāmīna, ab Hūphāmō Hūphāmīna.
+   - 1738: a Suphamo Suphamina, ab Huphamo Huphamina.
+   - WLC: לִשְׁפוּפָ֕ם מִשְׁפַּ֖חַת הַשּׁוּפָמִ֑י לְחוּפָ֕ם מִשְׁפַּ֖חַת הַחוּפָמִֽי׃
+   - BSB: the Shuphamite clan from Shupham, and the Huphamite clan from Hupham.
+   - KJV: Of Shupham, the family of the Shuphamites: of Hupham, the family of the Huphamites.
+- **26:40** BSB: SP and Vulgate (see also LXX); MT does not include from Ard.
+   - Latin: Porrō Belæ fīliī fuērunt, Aredus et Naaman: ab illō Arediāna, ab hoc Naamania.
+   - 1738: Porro Balæ filii fuerunt, Ardes et Naaman: ab illo Ardiana, ab hoc Naamania.
+   - WLC: וַיִּהְי֥וּ בְנֵי־בֶ֖לַע אַ֣רְדְּ וְנַעֲמָ֑ן מִשְׁפַּ֙חַת֙ הָֽאַרְדִּ֔י לְנַֽעֲמָ֔ן מִשְׁפַּ֖חַת הַֽנַּעֲמִֽי׃
+   - BSB: And the descendants of Bela from Ard and Naaman were the Ardite clan from Ard and the Naamite clan from Naaman.
+   - KJV: And the sons of Bela were Ard and Naaman: of Ard, the family of the Ardites: and of Naaman, the family of the Naamites.
+- **33:8** BSB: Some Hebrew manuscripts, SP, and Vulgate; see verse 7; most MT manuscripts Hahiroth
+   - Latin: Ab Ahīrōthīs per medium mare trānsiērunt in sōlitūdinem Ēthāmum: per quam sōlitūdinem trīduī iter prōgressī, castra habuērunt in Mārā.
+   - 1738: Ab Ahirothis per medium mare transierunt in solitudinem Ethamum: per quam solitudinem tridui iter progressi, castra habuerunt in Mara.
+   - WLC: וַיִּסְעוּ֙ מִפְּנֵ֣י הַֽחִירֹ֔ת וַיַּֽעַבְר֥וּ בְתוֹךְ־הַיָּ֖ם הַמִּדְבָּ֑רָה וַיֵּ֨לְכ֜וּ דֶּ֣רֶךְ שְׁלֹ֤שֶׁת יָמִים֙ בְּמִדְבַּ֣ר אֵתָ֔ם וַֽיַּחֲנ֖וּ בְּמָרָֽה׃
+   - BSB: They set out from Pi-hahiroth and crossed through the sea, into the wilderness, and they journeyed three days into the Wilderness of Etham and camped at Marah.
+   - KJV: And they departed from before Pi-hahiroth, and passed through the midst of the sea into the wilderness, and went three days’ journey in the wilderness of Etham, and pitched in Marah.
+
+## Versions: the BSB with MT (3 verses)
+
+- **3:9** BSB: Most MT manuscripts; some MT manuscripts, SP, and LXX (see also Numbers 8:16) to Me
+   - Latin: tum etiam Isrāēlītārum cūram agant. Igitur Lēvītās ex Isrāēlītīs Aharōnī ejusque fīliīs addictōs trāditō.
+   - 1738: tum etiam Israelitarum curam agant. Igitur Leuitas ex Israelitis Aharoni eiusque filiis addictos tradito.
+   - WLC: וְנָתַתָּה֙ אֶת־הַלְוִיִּ֔ם לְאַהֲרֹ֖ן וּלְבָנָ֑יו נְתוּנִ֨ם נְתוּנִ֥ם הֵ֙מָּה֙ ל֔וֹ מֵאֵ֖ת בְּנֵ֥י יִשְׂרָאֵֽל׃
+   - BSB: Assign the Levites to Aaron and his sons; they have been given exclusively to him from among the Israelites.
+   - KJV: And thou shalt give the Levites unto Aaron and to his sons: they are wholly given unto him out of the children of Israel.
+- **3:28** BSB: Hebrew; some LXX manuscripts 8,300; see the total in verse 39.
+   - Latin: quōrum omnium marium mēnsem excēdentium numerus fuit 8600, quī sacrī cūram gererent.
+   - 1738: quorum omnium marium mensem excedentium numerus fuit 8600, qui sacri curam gererent.
+   - WLC: בְּמִסְפַּר֙ כָּל־זָכָ֔ר מִבֶּן־חֹ֖דֶשׁ וָמָ֑עְלָה שְׁמֹנַ֤ת אֲלָפִים֙ וְשֵׁ֣שׁ מֵא֔וֹת שֹׁמְרֵ֖י מִשְׁמֶ֥רֶת הַקֹּֽדֶשׁ׃
+   - BSB: The number of all the males a month old or more was 8,600. They were responsible for the duties of the sanctuary.
+   - KJV: In the number of all the males, from a month old and upward, were eight thousand and six hundred, keeping the charge of the sanctuary.
+- **32:3** BSB: Hebrew; see verse 38, and similarly in SP and LXX Sibmah
+   - Latin: Atārōtha, Dībōnem, Jazēr, Nemram, Hesebōnem, Eleālē, Sabamam, Nabōnem et Beōnem,
+   - 1738: Atarotha, Dibonem, Iazer, Nemram, Hesebonem, Eleale, Sabamam, Nabonem et Beonem,
+   - WLC: עֲטָר֤וֹת וְדִיבֹן֙ וְיַעְזֵ֣ר וְנִמְרָ֔ה וְחֶשְׁבּ֖וֹן וְאֶלְעָלֵ֑ה וּשְׂבָ֥ם וּנְב֖וֹ וּבְעֹֽן׃
+   - BSB: “Ataroth, Dibon, Jazer, Nimrah, Heshbon, Elealeh, Sebam, Nebo, and Beon,
+   - KJV: Ataroth, and Dibon, and Jazer, and Nimrah, and Heshbon, and Elealeh, and Shebam, and Nebo, and Beon,
+
+## Versions: the BSB other (5 verses)
+
+- **16:5** BSB: LXX God has visited and knows those who are His; cited in 2 Timothy 2:19
+   - Latin: Mōsēs prōnus prōcidit, Cōramque et omnēs ejus gregālēs alloquēns, sīc loquitur: “Crās māne ostendet Jōva, quisnam sit suus, quis sacer, et cujus sit ipsī lībāre, et quemnam ad sibi lībandum ēlēgerit.
+   - 1738: Moses pronus procidit, Coramque et omnes eius gregales adloquens, sic loquitur: cras mane ostendet Ioua, quisnam sit suus, quis sacer, et cuius sit ipsi libare, et quemnam ad sibi libandum elegerit.
+   - WLC: וַיְדַבֵּ֨ר אֶל־קֹ֜רַח וְאֶֽל־כָּל־עֲדָתוֹ֮ לֵאמֹר֒ בֹּ֠קֶר וְיֹדַ֨ע יְהוָ֧ה אֶת־אֲשֶׁר־ל֛וֹ וְאֶת־הַקָּד֖וֹשׁ וְהִקְרִ֣יב אֵלָ֑יו וְאֵ֛ת אֲשֶׁ֥ר יִבְחַר־בּ֖וֹ יַקְרִ֥יב אֵלָֽיו׃
+   - BSB: Then he said to Korah and all his followers, “Tomorrow morning the LORD will reveal who belongs to Him and who is holy, and He will bring that person near to Himself. The one He chooses, He will bring near to Himself.
+   - KJV: And he spake unto Korah and unto all his company, saying, Even to morrow the LORD will shew who are his, and who is holy; and will cause him to come near unto him: even him whom he hath chosen will he cause to come near unto him.
+- **26:17** BSB: SP and Syriac Arodi; see Genesis 46:16.
+   - Latin: ab Arōdō Arōdonia, ab Areēlī Areēlia.
+   - 1738: ab Arodo Arodonia, ab Arieli Arielia.
+   - WLC: לַאֲר֕וֹד מִשְׁפַּ֖חַת הָאֲרוֹדִ֑י לְאַ֨רְאֵלִ֔י מִשְׁפַּ֖חַת הָאַרְאֵלִֽי׃
+   - BSB: the Arodite clan from Arod, and the Arelite clan from Areli.
+   - KJV: Of Arod, the family of the Arodites: of Areli, the family of the Arelites.
+- **26:23** BSB: SP, LXX, Vulgate, and Syriac the Puite clan from Puah; see 1 Chronicles 7:1.
+   - Latin: Ab Issācharis fīliīs gentīlitātēs sunt, ā Thōlā Thōlāna, ā Phuva Phuvāna,
+   - 1738: Ab Issacharis filiis gentilitates sunt, a Thola Tholana, a Phua Phuana,
+   - WLC: בְּנֵ֤י יִשָּׂשכָר֙ לְמִשְׁפְּחֹתָ֔ם תּוֹלָ֕ע מִשְׁפַּ֖חַת הַתּוֹלָעִ֑י לְפֻוָ֕ה מִשְׁפַּ֖חַת הַפּוּנִֽי׃
+   - BSB: These were the descendants of Issachar by their clans: The Tolaite clan from Tola, the Punite clan from Puvah,
+   - KJV: ¶ Of the sons of Issachar after their families: of Tola, the family of the Tolaites: of Pua, the family of the Punites:
+- **27:12** BSB: LXX Go up Mount Nebo beyond the Jordan
+   - Latin: Item Mōsī Jōva dīxit: “Ascende in montem istum Abārīm, terram aspectūrus, quam Isrāēlītīs dōnō;
+   - 1738: Item Mosi Ioua dixit: adscende in montem istum Abarim, terram adspecturus, quam Israelitis dono;
+   - WLC: וַיֹּ֤אמֶר יְהוָה֙ אֶל־מֹשֶׁ֔ה עֲלֵ֛ה אֶל־הַ֥ר הָעֲבָרִ֖ים הַזֶּ֑ה וּרְאֵה֙ אֶת־הָאָ֔רֶץ אֲשֶׁ֥ר נָתַ֖תִּי לִבְנֵ֥י יִשְׂרָאֵֽל׃
+   - BSB: Then the LORD said to Moses, “Go up this mountain of the Abarim range and see the land that I have given the Israelites.
+   - KJV: ¶ And the LORD said unto Moses, Get thee up into this mount Abarim, and see the land which I have given unto the children of Israel.
+- **32:17** BSB: LXX we will arm ourselves for battle
+   - Latin: ipsī autem in armīs erimus ante Isrāēlītās expedītī, dōnec suum eōs in locum perdūxerimus, (parvulīs nostrīs intereā manentibus in oppidīs mūnītīs, ut tūtī sint ab incolīs)
+   - 1738: ipsi autem in armis erimus ante Israelitas expediti, donec suum eos in locum perduxerimus, (paruulis nostris interea manentibus in oppidis munitis, vt tuti sint ab incolis)
+   - WLC: וַאֲנַ֜חְנוּ נֵחָלֵ֣ץ חֻשִׁ֗ים לִפְנֵי֙ בְּנֵ֣י יִשְׂרָאֵ֔ל עַ֛ד אֲשֶׁ֥ר אִם־הֲבִֽיאֹנֻ֖ם אֶל־מְקוֹמָ֑ם וְיָשַׁ֤ב טַפֵּ֙נוּ֙ בְּעָרֵ֣י הַמִּבְצָ֔ר מִפְּנֵ֖י יֹשְׁבֵ֥י הָאָֽרֶץ׃
+   - BSB: But we will arm ourselves and be ready to go ahead of the Israelites until we have brought them into their place. Meanwhile, our little ones will remain in the fortified cities for protection from the inhabitants of the land.
+   - KJV: But we ourselves will go ready armed before the children of Israel, until we have brought them unto their place: and our little ones shall dwell in the fenced cities because of the inhabitants of the land.
+
+## Versions: the WEB's notes (1 verses)
+
+- **3:34** WEB: + 22,000 is the sum rounded to 2 significant digits. The sum of the Gershonites, Kohathites, and Merarites given above is 22,300, but the traditional Hebrew text has the number rounded to 2 significant digits, not 3 significant digits.
+   - Latin: numerō omnium marium mēnsem excēdentium sex mīllium ducentōrum,
+   - 1738: numero omnium marium mensem excedentium sex millium ducentorum,
+   - WLC: וּפְקֻדֵיהֶם֙ בְּמִסְפַּ֣ר כָּל־זָכָ֔ר מִבֶּן־חֹ֖דֶשׁ וָמָ֑עְלָה שֵׁ֥שֶׁת אֲלָפִ֖ים וּמָאתָֽיִם׃
+   - BSB: The number of all the males a month old or more was 6,200.
+   - KJV: And those that were numbered of them, according to the number of all the males, from a month old and upward, were six thousand and two hundred.
+
+## Numbers (39 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **1:16** Hebrew 1000; Latin none
+   - Latin: Hī sunt ex multitūdine dēlēctī suārum tribuum prīncipēs, cōpiārum Isrāēlīticārum ducēs.
+   - 1738: Hi sunt ex multitudine delecti suarum tribuum principes, copiarum israeliticarum duces.
+   - WLC: אֵ֚לֶּה קריאי הָעֵדָ֔ה נְשִׂיאֵ֖י מַטּ֣וֹת אֲבוֹתָ֑ם רָאשֵׁ֛י אַלְפֵ֥י יִשְׂרָאֵ֖ל הֵֽם׃
+   - BSB: These men were appointed from the congregation; they were the leaders of the tribes of their fathers, the heads of the clans of Israel.
+   - KJV: These were the renowned of the congregation, princes of the tribes of their fathers, heads of thousands in Israel.
+- **1:32** Hebrew 20; Latin none
+   - Latin: Jōsēphī,
+   - 1738: Iosephi,
+   - WLC: לִבְנֵ֤י יוֹסֵף֙ לִבְנֵ֣י אֶפְרַ֔יִם תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃
+   - BSB: From the sons of Joseph: From the sons of Ephraim, according to the records of their clans and families, counting the names of all those twenty years of age or older who could serve in the army,
+   - KJV: ¶ Of the children of Joseph, namely, of the children of Ephraim, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+- **3:47** Hebrew 5, 20; Latin 20
+   - Latin: sūmeret quīnōs siclōs, vidēlicet sacrōs, vīcēnīs obolīs valentēs;
+   - 1738: sumeret quinos siclos, videlicet sacros, vicenis obolis valentes;
+   - WLC: וְלָקַחְתָּ֗ חֲמֵ֧שֶׁת חֲמֵ֛שֶׁת שְׁקָלִ֖ים לַגֻּלְגֹּ֑לֶת בְּשֶׁ֤קֶל הַקֹּ֙דֶשׁ֙ תִּקָּ֔ח עֶשְׂרִ֥ים גֵּרָ֖ה הַשָּֽׁקֶל׃
+   - BSB: you are to collect five shekels for each one, according to the sanctuary shekel of twenty gerahs.
+   - KJV: Thou shalt even take five shekels apiece by the poll, after the shekel of the sanctuary shalt thou take them: (the shekel is twenty gerahs:)
+- **4:22** Hebrew none; Latin 30, 50
+   - Latin: eōsque ā trīcēnāriīs ad quīnquāgēnāriōs recēnsētō, quīcumque ad mīlitiam aptī sunt;
+   - 1738: eosque a tricenariis ad quinquagenarios recenseto, quicumque ad militiam apti sunt;
+   - WLC: נָשֹׂ֗א אֶת־רֹ֛אשׁ בְּנֵ֥י גֵרְשׁ֖וֹן גַּם־הֵ֑ם לְבֵ֥ית אֲבֹתָ֖ם לְמִשְׁפְּחֹתָֽם׃
+   - BSB: “Take a census of the Gershonites as well, by their families and clans,
+   - KJV: Take also the sum of the sons of Gershon, throughout the houses of their fathers, by their families;
+- **4:23** Hebrew 30, 50; Latin none
+   - Latin: ut mūnere fungantur in ōrāculārī tabernāculō.
+   - 1738: vt munere fungantur in oraculari tabernaculo.
+   - WLC: מִבֶּן֩ שְׁלֹשִׁ֨ים שָׁנָ֜ה וָמַ֗עְלָה עַ֛ד בֶּן־חֲמִשִּׁ֥ים שָׁנָ֖ה תִּפְקֹ֣ד אוֹתָ֑ם כָּל־הַבָּא֙ לִצְבֹ֣א צָבָ֔א לַעֲבֹ֥ד עֲבֹדָ֖ה בְּאֹ֥הֶל מוֹעֵֽד׃
+   - BSB: from thirty to fifty years old, counting everyone who comes to serve in the work at the Tent of Meeting.
+   - KJV: From thirty years old and upward until fifty years old shalt thou number them; all that enter in to perform the service, to do the work in the tabernacle of the congregation.
+- **4:29** Hebrew none; Latin 30, 50
+   - Latin: “Merārēnsēs quoque generātim per familiās recēnsētō, ā trīcēnāriīs ad quīnquāgēnāriōs, quīcumque mīlitiæ aptī sunt;
+   - 1738: Merarenses quoque generatim per familias recenseto, a tricenariis ad quinquagenarios, quicumque militiæ apti sunt;
+   - WLC: בְּנֵ֖י מְרָרִ֑י לְמִשְׁפְּחֹתָ֥ם לְבֵית־אֲבֹתָ֖ם תִּפְקֹ֥ד אֹתָֽם׃
+   - BSB: As for the sons of Merari, you are to number them by their clans and families,
+   - KJV: ¶ As for the sons of Merari, thou shalt number them after their families, by the house of their fathers;
+- **4:30** Hebrew 30, 50; Latin none
+   - Latin: ut mūnia prōcūrent ōrāculāris tabernāculī.
+   - 1738: vt munia procurent oracularis tabernaculi.
+   - WLC: מִבֶּן֩ שְׁלֹשִׁ֨ים שָׁנָ֜ה וָמַ֗עְלָה וְעַ֛ד בֶּן־חֲמִשִּׁ֥ים שָׁנָ֖ה תִּפְקְדֵ֑ם כָּל־הַבָּא֙ לַצָּבָ֔א לַעֲבֹ֕ד אֶת־עֲבֹדַ֖ת אֹ֥הֶל מוֹעֵֽד׃
+   - BSB: from thirty to fifty years old, counting everyone who comes to serve in the work of the Tent of Meeting.
+   - KJV: From thirty years old and upward even unto fifty years old shalt thou number them, every one that entereth into the service, to do the work of the tabernacle of the congregation.
+- **4:36** Hebrew 7, 50, 100, 1000; Latin 2, 7, 50, 100, 1000
+   - Latin: quōrum generātim recēnsītōrum summa fuit duo mīllia septingentī quīnquāgintā.
+   - 1738: quorum generatim recensitorum summa fuit duo millia septingenti quinquaginta.
+   - WLC: וַיִּהְי֥וּ פְקֻדֵיהֶ֖ם לְמִשְׁפְּחֹתָ֑ם אַלְפַּ֕יִם שְׁבַ֥ע מֵא֖וֹת וַחֲמִשִּֽׁים׃
+   - BSB: And those numbered by their clans totaled 2,750.
+   - KJV: And those that were numbered of them by their families were two thousand seven hundred and fifty.
+- **4:46** Hebrew none; Latin 30
+   - Latin: Ūniversōrum Lēvītārum, ā Mōse et Aharōne et Isrāēlītīs prīncipibus generātim per familiās recēnsītōrum, quī annum trīcēsimum excēdentēs,
+   - 1738: Vniuersorum Leuitarum, a Mose et Aharone et Israelitis principibus generatim per familias recensitorum, qui annum tricesimum excedentes,
+   - WLC: כָּֽל־הַפְּקֻדִ֡ים אֲשֶׁר֩ פָּקַ֨ד מֹשֶׁ֧ה וְאַהֲרֹ֛ן וּנְשִׂיאֵ֥י יִשְׂרָאֵ֖ל אֶת־הַלְוִיִּ֑ם לְמִשְׁפְּחֹתָ֖ם וּלְבֵ֥ית אֲבֹתָֽם׃
+   - BSB: So Moses, Aaron, and the leaders of Israel numbered by their clans and families all the Levites
+   - KJV: All those that were numbered of the Levites, whom Moses and Aaron and the chief of Israel numbered, after their families, and after the house of their fathers,
+- **4:47** Hebrew 30, 50; Latin 50
+   - Latin: ūsque ad quīnquāgēsimum, aptī essent mūnerī obeundō, et onerī in tabernāculō ōrāculārī ferendō,
+   - 1738: vsque ad quinquagesimum, apti essent muneri obeundo, et oneri in tabernaculo oraculari ferendo,
+   - WLC: מִבֶּ֨ן שְׁלֹשִׁ֤ים שָׁנָה֙ וָמַ֔עְלָה וְעַ֖ד בֶּן־חֲמִשִּׁ֣ים שָׁנָ֑ה כָּל־הַבָּ֗א לַעֲבֹ֨ד עֲבֹדַ֧ת עֲבֹדָ֛ה וַעֲבֹדַ֥ת מַשָּׂ֖א בְּאֹ֥הֶל מוֹעֵֽד׃
+   - BSB: from thirty to fifty years old who came to do the work of serving and carrying the Tent of Meeting.
+   - KJV: From thirty years old and upward even unto fifty years old, every one that came to do the service of the ministry, and the service of the burden in the tabernacle of the congregation,
+- **7:85** Hebrew 4, 30, 70, 100, 1000; Latin 2, 4, 30, 70, 100, 1000
+   - Latin: scutellæ quidem centēnāriæ trīcēnāriæ, phialæ autem septuāgēnāriæ, quōrum omnium vāsōrum argenteōrum summa efficitur duo mīllia quadringentī siclī ponderis sacrī.
+   - 1738: scutellæ quidem centenariæ tricenariæ, phialæ autem septuagenariæ, quorum omnium vasorum argenteorum summa efficitur duo millia quadringenti sicli ponderis sacri.
+   - WLC: שְׁלֹשִׁ֣ים וּמֵאָ֗ה הַקְּעָרָ֤ה הָֽאַחַת֙ כֶּ֔סֶף וְשִׁבְעִ֖ים הַמִּזְרָ֣ק הָאֶחָ֑ד כֹּ֚ל כֶּ֣סֶף הַכֵּלִ֔ים אַלְפַּ֥יִם וְאַרְבַּע־מֵא֖וֹת בְּשֶׁ֥קֶל הַקֹּֽדֶשׁ׃
+   - BSB: Each silver platter weighed a hundred and thirty shekels, and each silver bowl seventy shekels. The total weight of the silver articles was two thousand four hundred shekels, according to the sanctuary shekel.
+   - KJV: Each charger of silver weighing an hundred and thirty shekels, each bowl seventy: all the silver vessels weighed two thousand and four hundred shekels, after the shekel of the sanctuary:
+- **10:4** Hebrew 1000; Latin none
+   - Latin: Quod sī ūna tuba clangētur: conveniuntō ad tē prīncipēs, cōpiārum Isrāēlīticārum ducēs.
+   - 1738: Quod si vna tuba clangetur: conueniunto ad te principes, copiarum israeliticarum duces.
+   - WLC: וְאִם־בְּאַחַ֖ת יִתְקָ֑עוּ וְנוֹעֲד֤וּ אֵלֶ֙יךָ֙ הַנְּשִׂיאִ֔ים רָאשֵׁ֖י אַלְפֵ֥י יִשְׂרָאֵֽל׃
+   - BSB: But if only one is sounded, then the leaders, the heads of the clans of Israel, are to gather before you.
+   - KJV: And if they blow but with one trumpet, then the princes, which are heads of the thousands of Israel, shall gather themselves unto thee.
+- **10:6** Hebrew 2; Latin 3, 4
+   - Latin: Cum item secundum cum ovātū clangētis; quī ad austrum tetenderint, moventō: cum tertium; quī ad occidentem: cum quārtum; quī ad septentriōnēs: iīsque solventibus cum ovātū clanguntō.
+   - 1738: Quum item secundum cum ouatu clangetis; qui ad austrum tetenderint, mouento, G. L. Quum tertium; qui ad occidentem: quum quartum; qui ad septemtriones: H. eisque soluentibus cum ouatu clangunto.
+   - WLC: וּתְקַעְתֶּ֤ם תְּרוּעָה֙ שֵׁנִ֔ית וְנָֽסְעוּ֙ הַֽמַּחֲנ֔וֹת הַחֹנִ֖ים תֵּימָ֑נָה תְּרוּעָ֥ה יִתְקְע֖וּ לְמַסְעֵיהֶֽם׃
+   - BSB: When you sound the short blasts a second time, the camps that lie on the south side are to set out. The blasts are to signal them to set out.
+   - KJV: When ye blow an alarm the second time, then the camps that lie on the south side shall take their journey: they shall blow an alarm for their journeys.
+- **10:36** Hebrew 1000, 10000; Latin none
+   - Latin: Eā autem cōnsistente, dīcēbat: “Converte tē, Jōva, ad legiōnēs exercitūs Isrāēlītārum.”
+   - 1738: Ea autem consistente, dicebat: conuerte te, Ioua, ad legiones exercitus Israelitarum.
+   - WLC: וּבְנֻחֹ֖ה יֹאמַ֑ר שׁוּבָ֣ה יְהוָ֔ה רִֽבְב֖וֹת אַלְפֵ֥י יִשְׂרָאֵֽל׃ ׆ ס
+   - BSB: And when it came to rest, he would say: “Return, O LORD, to the countless thousands of Israel.”
+   - KJV: And when it rested, he said, Return, O LORD, unto the many thousands of Israel.
+- **11:31** Hebrew none; Latin 2
+   - Latin: profectus ā Jōvā ventus, coturnīcēs ex marī correptās in castra dispersit, quæ undique circum castra ūnīus ferē diēī itinere circiter duōs cubitōs super terrā essent.
+   - 1738: profectus a Ioua ventus, coturnices ex mari correptas in castra dispersit, quæ vndique circum castra vnius fere diei itinere circiter duos cubitos super terra essent.
+   - WLC: וְר֜וּחַ נָסַ֣ע ׀ מֵאֵ֣ת יְהוָ֗ה וַיָּ֣גָז שַׂלְוִים֮ מִן־הַיָּם֒ וַיִּטֹּ֨שׁ עַל־הַֽמַּחֲנֶ֜ה כְּדֶ֧רֶךְ י֣וֹם כֹּ֗ה וּכְדֶ֤רֶךְ יוֹם֙ כֹּ֔ה סְבִיב֖וֹת הַֽמַּחֲנֶ֑ה וּכְאַמָּתַ֖יִם עַל־פְּנֵ֥י הָאָֽרֶץ׃
+   - BSB: Now a wind sent by the LORD came up, drove in quail from the sea, and brought them near the camp, about two cubits above the surface of the ground, for a day’s journey in every direction around the camp.
+   - KJV: ¶ And there went forth a wind from the LORD, and brought quails from the sea, and let them fall by the camp, as it were a day’s journey on this side, and as it were a day’s journey on the other side, round about the camp, and as it were two cubits high upon the face of the earth.
+- **14:18** Hebrew none; Latin 3, 4
+   - Latin: ‘JŌVA AD ĪRAM TARDUS, AD CLĒMENTIAM PRŌPĒNSUS, CULPĀS ET PECCĀTA CONDŌNĀNS: IN PŒNĀ AUTEM IRROGANDĀ PARENTUM CULPAM IN NĀTŌS AD TERTIAM ET QUĀRTAM STIRPEM PERSEQUĒNS.’
+   - 1738: IOVA AD IRAM TARDVS, AD CLEMENTIAM PROPENSVS, CVLPAS ET PECCATA CONDONANS: IN POENA AVTEM IRROGANDA PARENTVM CVLPAM IN NATOS AD TERTIAM ET QVARTAM STIRPEM PERSEQVENS.
+   - WLC: יְהוָ֗ה אֶ֤רֶךְ אַפַּ֙יִם֙ וְרַב־חֶ֔סֶד נֹשֵׂ֥א עָוֺ֖ן וָפָ֑שַׁע וְנַקֵּה֙ לֹ֣א יְנַקֶּ֔ה פֹּקֵ֞ד עֲוֺ֤ן אָבוֹת֙ עַל־בָּנִ֔ים עַל־שִׁלֵּשִׁ֖ים וְעַל־רִבֵּעִֽים׃
+   - BSB: ‘The LORD is slow to anger and abounding in loving devotion, forgiving iniquity and transgression. Yet He will by no means leave the guilty unpunished; He will visit the iniquity of the fathers upon their children to the third and fourth generation.’
+   - KJV: The LORD is longsuffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing the guilty, visiting the iniquity of the fathers upon the children unto the third and fourth generation.
+- **14:22** Hebrew 10; Latin none
+   - Latin: nec ūllus hominum, quī glōriam meam, et ostenta, quæ tum in Ægyptō, tum in sōlitūdine fēcī, vīdērunt,
+   - 1738: nec vllus hominum, qui gloriam meam, et ostenta, quæ tum in Aegypto, tum in solitudine feci, viderunt,
+   - WLC: כִּ֣י כָל־הָאֲנָשִׁ֗ים הָרֹאִ֤ים אֶת־כְּבֹדִי֙ וְאֶת־אֹ֣תֹתַ֔י אֲשֶׁר־עָשִׂ֥יתִי בְמִצְרַ֖יִם וּבַמִּדְבָּ֑ר וַיְנַסּ֣וּ אֹתִ֗י זֶ֚ה עֶ֣שֶׂר פְּעָמִ֔ים וְלֹ֥א שָׁמְע֖וּ בְּקוֹלִֽי׃
+   - BSB: not one of the men who have seen My glory and the signs I performed in Egypt and in the wilderness—yet have tested Me and disobeyed Me these ten times—
+   - KJV: Because all those men which have seen my glory, and my miracles, which I did in Egypt and in the wilderness, and have tempted me now these ten times, and have not hearkened to my voice;
+- **14:23** Hebrew none; Latin 10
+   - Latin: et tamen jam vel deciēs mē tentāvērunt, neque mihi mōrigerātī sunt, terram vidēbit, quam eōrum majōribus jūrāvī; eam, inquam, nūllus in mē contumēliōsōrum vidēbit.
+   - 1738: et tamen iam vel decies me tentauerunt, neque mihi morigerati sunt, terram videbit, quam eorum maioribus iuraui; eam, inquam, nullus in me contumeliosorum videbit.
+   - WLC: אִם־יִרְאוּ֙ אֶת־הָאָ֔רֶץ אֲשֶׁ֥ר נִשְׁבַּ֖עְתִּי לַאֲבֹתָ֑ם וְכָל־מְנַאֲצַ֖י לֹ֥א יִרְאֽוּהָ׃
+   - BSB: not one will ever see the land that I swore to give their fathers. None of those who have treated Me with contempt will see it.
+   - KJV: Surely they shall not see the land which I sware unto their fathers, neither shall any of them that provoked me see it:
+- **15:6** Hebrew 2, 3, 10; Latin 2, 10
+   - Latin: Aut ex ariete facitō fertum duārum decimārum similæ in oleī triente hīnis subāctæ,
+   - 1738: Aut ex ariete facito fertum duarum decimarum similæ in olei triente hinis subactæ,
+   - WLC: א֤וֹ לָאַ֙יִל֙ תַּעֲשֶׂ֣ה מִנְחָ֔ה סֹ֖לֶת שְׁנֵ֣י עֶשְׂרֹנִ֑ים בְּלוּלָ֥ה בַשֶּׁ֖מֶן שְׁלִשִׁ֥ית הַהִֽין׃
+   - BSB: With a ram you are to prepare a grain offering of two-tenths of an ephah of fine flour mixed with a third of a hin of olive oil,
+   - KJV: Or for a ram, thou shalt prepare for a meat offering two tenth deals of flour mingled with the third part of an hin of oil.
+- **15:7** Hebrew 3; Latin none
+   - Latin: tum vīnī lībandī hīnis trientem obmovētō Jōvæ ad odōris suāvitātem.
+   - 1738: tum vini libandi hinis trientem obmoueto Iouæ ad odoris suauitatem.
+   - WLC: וְיַ֥יִן לַנֶּ֖סֶךְ שְׁלִשִׁ֣ית הַהִ֑ין תַּקְרִ֥יב רֵֽיחַ־נִיחֹ֖חַ לַיהוָֽה׃
+   - BSB: and a third of a hin of wine as a drink offering, a pleasing aroma to the LORD.
+   - KJV: And for a drink offering thou shalt offer the third part of an hin of wine, for a sweet savour unto the LORD.
+- **16:48** Hebrew none; Latin 4, 7, 10, 100, 1000
+   - Latin: Ita cohibita clādēs est: quā in clāde mortuī sunt quattuordecim mīllia septingentī,
+   - 1738: Ita cohibita clades est: qua in clade mortui sunt quatuordecim millia septingenti,
+   - WLC: וַיַּעֲמֹ֥ד בֵּֽין־הַמֵּתִ֖ים וּבֵ֣ין הַֽחַיִּ֑ים וַתֵּעָצַ֖ר הַמַּגֵּפָֽה׃
+   - BSB: He stood between the living and the dead, and the plague was halted.
+   - KJV: And he stood between the dead and the living; and the plague was stayed.
+- **16:49** Hebrew 4, 7, 10, 100, 1000; Latin none
+   - Latin: præter illōs, quī in Cōræ causā mortuī erant.
+   - 1738: præter illos, qui in Coræ caussa mortui erant.
+   - WLC: וַיִּהְי֗וּ הַמֵּתִים֙ בַּמַּגֵּפָ֔ה אַרְבָּעָ֥ה עָשָׂ֛ר אֶ֖לֶף וּשְׁבַ֣ע מֵא֑וֹת מִלְּבַ֥ד הַמֵּתִ֖ים עַל־דְּבַר־קֹֽרַח׃
+   - BSB: But those who died from the plague numbered 14,700, in addition to those who had died on account of Korah.
+   - KJV: Now they that died in the plague were fourteen thousand and seven hundred, beside them that died about the matter of Korah.
+- **23:10** Hebrew none; Latin 4
+   - Latin: Quis Jācōbēōrum pulveris? quis vel quārtæ Isrāēlītārum partis numerum subdūcat? utinam ipse eādem morte moriar, quā probī; sitque meus idem, quī eōrum exitus.”
+   - 1738: Quis Iacobeorum pulueris? quis vel quartæ Israelitarum partis numerum subducat? vtinam ipse eadem morte moriar, qua probi; sitque meus idem, qui eorum exitus.
+   - WLC: מִ֤י מָנָה֙ עֲפַ֣ר יַעֲקֹ֔ב וּמִסְפָּ֖ר אֶת־רֹ֣בַע יִשְׂרָאֵ֑ל תָּמֹ֤ת נַפְשִׁי֙ מ֣וֹת יְשָׁרִ֔ים וּתְהִ֥י אַחֲרִיתִ֖י כָּמֹֽהוּ׃
+   - BSB: Who can count the dust of Jacob or number even a fourth of Israel? Let me die the death of the righteous; let my end be like theirs!”
+   - KJV: Who can count the dust of Jacob, and the number of the fourth part of Israel? Let me die the death of the righteous, and let my last end be like his!
+- **23:14** Hebrew 7; Latin none
+   - Latin: Eumque in agrum speculātōrum in Phasgæ jugum subdūcit, septemque ārās exstrūxit, et in singulīs taurum arietemque immolāvit.
+   - 1738: eumque in agrum speculatorum in Phasgæ iugum subducit, septemque aras exstruxit, et in singulis taurum arietemque immolauit.
+   - WLC: וַיִּקָּחֵ֙הוּ֙ שְׂדֵ֣ה צֹפִ֔ים אֶל־רֹ֖אשׁ הַפִּסְגָּ֑ה וַיִּ֙בֶן֙ שִׁבְעָ֣ה מִזְבְּחֹ֔ת וַיַּ֛עַל פָּ֥ר וָאַ֖יִל בַּמִּזְבֵּֽחַ׃
+   - BSB: So Balak took him to the field of Zophim, to the top of Pisgah, where he built seven altars and offered a bull and a ram on each altar.
+   - KJV: ¶ And he brought him into the field of Zophim, to the top of Pisgah, and built seven altars, and offered a bullock and a ram on every altar.
+- **28:21** Hebrew 7, 10; Latin 7
+   - Latin: et ad singulōs septem agnōrum singulās.
+   - 1738: et ad singulos septem agnorum singulas.
+   - WLC: עִשָּׂר֤וֹן עִשָּׂרוֹן֙ תַּעֲשֶׂ֔ה לַכֶּ֖בֶשׂ הָאֶחָ֑ד לְשִׁבְעַ֖ת הַכְּבָשִֽׂים׃
+   - BSB: and a tenth of an ephah with each of the seven lambs.
+   - KJV: A several tenth deal shalt thou offer for every lamb, throughout the seven lambs:
+- **28:29** Hebrew 7, 10; Latin 7
+   - Latin: singulās in septem agnōs;
+   - 1738: singulas in septem agnos;
+   - WLC: עִשָּׂרוֹן֙ עִשָּׂר֔וֹן לַכֶּ֖בֶשׂ הָאֶחָ֑ד לְשִׁבְעַ֖ת הַכְּבָשִֽׂים׃
+   - BSB: and a tenth of an ephah with each of the seven lambs.
+   - KJV: A several tenth deal unto one lamb, throughout the seven lambs;
+- **29:4** Hebrew 7, 10; Latin 7
+   - Latin: singulīs in singulōs septem agnōs.
+   - 1738: singulis in singulos septem agnos.
+   - WLC: וְעִשָּׂר֣וֹן אֶחָ֔ד לַכֶּ֖בֶשׂ הָאֶחָ֑ד לְשִׁבְעַ֖ת הַכְּבָשִֽׂים׃
+   - BSB: and a tenth of an ephah with each of the seven male lambs.
+   - KJV: And one tenth deal for one lamb, throughout the seven lambs:
+- **29:7** Hebrew 7; Latin 7, 10
+   - Latin: “Decimō autem diē istīus mēnsis septimī conventum sacrum habētōte, et jejūnātōte, neque ūllum opus facitōte,
+   - 1738: Decimo autem die istius mensis septimi conuentum sacrum habetote, et ieiunatote, neque vllum opus facitote,
+   - WLC: וּבֶעָשׂוֹר֩ לַחֹ֨דֶשׁ הַשְּׁבִיעִ֜י הַזֶּ֗ה מִֽקְרָא־קֹ֙דֶשׁ֙ יִהְיֶ֣ה לָכֶ֔ם וְעִנִּיתֶ֖ם אֶת־נַפְשֹׁתֵיכֶ֑ם כָּל־מְלָאכָ֖ה לֹ֥א תַעֲשֽׂוּ׃
+   - BSB: On the tenth day of this seventh month, you are to hold a sacred assembly, and you shall humble yourselves; you must not do any work.
+   - KJV: ¶ And ye shall have on the tenth day of this seventh month an holy convocation; and ye shall afflict your souls: ye shall not do any work therein:
+- **29:10** Hebrew 7, 10; Latin 7
+   - Latin: singulīs in septem agnōs:
+   - 1738: singulis in septem agnos:
+   - WLC: עִשָּׂרוֹן֙ עִשָּׂר֔וֹן לַכֶּ֖בֶשׂ הָאֶחָ֑ד לְשִׁבְעַ֖ת הַכְּבָשִֽׂים׃
+   - BSB: and a tenth of an ephah with each of the seven lambs.
+   - KJV: A several tenth deal for one lamb, throughout the seven lambs:
+- **31:4** Hebrew 1000; Latin none
+   - Latin: utque ex omnibus Isrāēlītārum tribubus mīllēnōs in eam expedītiōnem mitterent.
+   - 1738: vtque ex omnibus Israelitarum tribubus millenos in eam expeditionem mitterent.
+   - WLC: אֶ֚לֶף לַמַּטֶּ֔ה אֶ֖לֶף לַמַּטֶּ֑ה לְכֹל֙ מַטּ֣וֹת יִשְׂרָאֵ֔ל תִּשְׁלְח֖וּ לַצָּבָֽא׃
+   - BSB: Send into battle a thousand men from each tribe of Israel.”
+   - KJV: Of every tribe a thousand, throughout all the tribes of Israel, shall ye send to the war.
+- **31:6** Hebrew 1000; Latin none
+   - Latin: quōs Mōsēs in expedītiōnem mīsit ūnā cum Phīnee, Eleāzarī pontificis fīliō, sacra tēla, tubāsque ad clangendum sēcum ferente.
+   - 1738: quos Moses in expeditionem misit vna cum Phinee, Eleazari pontificis filio, sacra tela, tubasque ad clangendum secum ferente.
+   - WLC: וַיִּשְׁלַ֨ח אֹתָ֥ם מֹשֶׁ֛ה אֶ֥לֶף לַמַּטֶּ֖ה לַצָּבָ֑א אֹ֠תָם וְאֶת־פִּ֨ינְחָ֜ס בֶּן־אֶלְעָזָ֤ר הַכֹּהֵן֙ לַצָּבָ֔א וּכְלֵ֥י הַקֹּ֛דֶשׁ וַחֲצֹצְר֥וֹת הַתְּרוּעָ֖ה בְּיָדֽוֹ׃
+   - BSB: And Moses sent the thousand from each tribe into battle, along with Phinehas son of Eleazar the priest, who took with him the vessels of the sanctuary and the trumpets for signaling.
+   - KJV: And Moses sent them to the war, a thousand of every tribe, them and Phinehas the son of Eleazar the priest, to the war, with the holy instruments, and the trumpets to blow in his hand.
+- **31:14** Hebrew 100, 1000; Latin none
+   - Latin: succēnsuit Mōsēs mīlitum præfectīs, tribūnīs et centuriōnibus ab expedītiōne venientibus.
+   - 1738: succensuit Moses militum præfectis, tribunis et centurionibus ab expeditione venientibus.
+   - WLC: וַיִּקְצֹ֣ף מֹשֶׁ֔ה עַ֖ל פְּקוּדֵ֣י הֶחָ֑יִל שָׂרֵ֤י הָאֲלָפִים֙ וְשָׂרֵ֣י הַמֵּא֔וֹת הַבָּאִ֖ים מִצְּבָ֥א הַמִּלְחָמָֽה׃
+   - BSB: But Moses was angry with the officers of the army—the commanders of thousands and commanders of hundreds—who were returning from the battle.
+   - KJV: And Moses was wroth with the officers of the host, with the captains over thousands, and captains over hundreds, which came from the battle.
+- **31:48** Hebrew 100, 1000; Latin none
+   - Latin: Tum cōpiārum exercitūs præfectī, tribūnī et centuriōnēs Mōsem convēnērunt,
+   - 1738: Tum copiarum exercitus præfecti, tribuni et centuriones Mosem conuenerunt,
+   - WLC: וַֽיִּקְרְבוּ֙ אֶל־מֹשֶׁ֔ה הַפְּקֻדִ֕ים אֲשֶׁ֖ר לְאַלְפֵ֣י הַצָּבָ֑א שָׂרֵ֥י הָאֲלָפִ֖ים וְשָׂרֵ֥י הַמֵּאֽוֹת׃
+   - BSB: Then the officers who were over the units of the army—the commanders of thousands and of hundreds—approached Moses
+   - KJV: ¶ And the officers which were over thousands of the host, the captains of thousands, and captains of hundreds, came near unto Moses:
+- **31:54** Hebrew 100, 1000; Latin none
+   - Latin: quod aurum Mōsēs et Eleāzarus pontifex ā tribūnīs et centuriōnibus acceptum in ōrāculī tabernāculum intulērunt, Isrāēlītārum monumentum apud Jōvam futūrum.
+   - 1738: quod aurum Moses et Eleazarus pontifex a tribunis et centurionibus acceptum in oraculi tabernaculum intulerunt, Israelitarum monumentum apud Iouam futurum.
+   - WLC: וַיִּקַּ֨ח מֹשֶׁ֜ה וְאֶלְעָזָ֤ר הַכֹּהֵן֙ אֶת־הַזָּהָ֔ב מֵאֵ֛ת שָׂרֵ֥י הָאֲלָפִ֖ים וְהַמֵּא֑וֹת וַיָּבִ֤אוּ אֹתוֹ֙ אֶל־אֹ֣הֶל מוֹעֵ֔ד זִכָּר֥וֹן לִבְנֵֽי־יִשְׂרָאֵ֖ל לִפְנֵ֥י יְהוָֽה׃ פ
+   - BSB: And Moses and Eleazar the priest received the gold from the commanders of thousands and of hundreds and brought it into the Tent of Meeting as a memorial for the Israelites before the LORD.
+   - KJV: And Moses and Eleazar the priest took the gold of the captains of thousands and of hundreds, and brought it into the tabernacle of the congregation, for a memorial for the children of Israel before the LORD.
+- **32:10** Hebrew none; Latin 20
+   - Latin: Quā rē tum īrātus Jōva, jūrāvit hominēs illōs ex Ægyptō ēgressōs, quī modo vīcēsimum annum excessissent,
+   - 1738: Qua re tum iratus Ioua, iurauit homines illos ex Aegypto egressos, qui modo vicesimum annum excessissent,
+   - WLC: וַיִּֽחַר־אַ֥ף יְהוָ֖ה בַּיּ֣וֹם הַה֑וּא וַיִּשָּׁבַ֖ע לֵאמֹֽר׃
+   - BSB: So the anger of the LORD was kindled that day, and He swore an oath, saying,
+   - KJV: And the LORD’s anger was kindled the same time, and he sware, saying,
+- **32:11** Hebrew 20; Latin none
+   - Latin: nōn vīsūrōs esse terram, quam Abrāhāmō, Isaacō et Jācōbō jūrāvisset; quoniam suum eī officium nōn præstitissent:
+   - 1738: non visuros esse terram, quam Abrahamo, Isaaco et Iacobo iurauisset; quoniam suum ei officium non præstitissent:
+   - WLC: אִם־יִרְא֨וּ הָאֲנָשִׁ֜ים הָעֹלִ֣ים מִמִּצְרַ֗יִם מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה אֵ֚ת הָאֲדָמָ֔ה אֲשֶׁ֥ר נִשְׁבַּ֛עְתִּי לְאַבְרָהָ֥ם לְיִצְחָ֖ק וּֽלְיַעֲקֹ֑ב כִּ֥י לֹא־מִלְא֖וּ אַחֲרָֽי׃
+   - BSB: ‘Because they did not follow Me wholeheartedly, not one of the men twenty years of age or older who came out of Egypt will see the land that I swore to give Abraham, Isaac, and Jacob—
+   - KJV: Surely none of the men that came up out of Egypt, from twenty years old and upward, shall see the land which I sware unto Abraham, unto Isaac, and unto Jacob; because they have not wholly followed me:
+- **34:14** Hebrew none; Latin 2
+   - Latin: Nam duæ quidem tribūs et dīmidia, vidēlicet Rūbēnīna et Gadīna tribūs, et Manasseæ dīmidia,
+   - 1738: Nam duæ quidem tribus et dimidia, videlicet Rubenina et Gadina tribus, et Manasseæ dimidia,
+   - WLC: כִּ֣י לָקְח֞וּ מַטֵּ֨ה בְנֵ֤י הָראוּבֵנִי֙ לְבֵ֣ית אֲבֹתָ֔ם וּמַטֵּ֥ה בְנֵֽי־הַגָּדִ֖י לְבֵ֣ית אֲבֹתָ֑ם וַחֲצִי֙ מַטֵּ֣ה מְנַשֶּׁ֔ה לָקְח֖וּ נַחֲלָתָֽם׃
+   - BSB: For the tribes of the Reubenites and Gadites, along with the half-tribe of Manasseh, have already received their inheritance.
+   - KJV: For the tribe of the children of Reuben according to the house of their fathers, and the tribe of the children of Gad according to the house of their fathers, have received their inheritance; and half the tribe of Manasseh have received their inheritance:
+- **34:15** Hebrew 2; Latin none
+   - Latin: possessiōnem per familiās cēperant cīs Jordānem, quā est Hierichō versus orientem sōlem.
+   - 1738: possessionem per familias ceperant cis Iordanem, qua est Hiericho versus orientem solem.
+   - WLC: שְׁנֵ֥י הַמַּטּ֖וֹת וַחֲצִ֣י הַמַּטֶּ֑ה לָקְח֣וּ נַחֲלָתָ֗ם מֵעֵ֛בֶר לְיַרְדֵּ֥ן יְרֵח֖וֹ קֵ֥דְמָה מִזְרָֽחָה׃ פ
+   - BSB: These two and a half tribes have received their inheritance across the Jordan from Jericho, toward the sunrise.”
+   - KJV: The two tribes and the half tribe have received their inheritance on this side Jordan near Jericho eastward, toward the sunrising.
+- **35:5** Hebrew 1000; Latin 2, 1000
+   - Latin: ut cum extrā mūrum orientālī latere duo cubitōrum mīllia mēnsī fueritis, itemque merīdiānō totidem, occidentālīque, et septentriōnālī, oppidum sit in mediō, atque hæc oppidōrum pōmœria habentō.
+   - 1738: vt quum extra murum orientali latere duo cubitorum millia mensi fueritis, itemque meridiano totidem, occidentalique, et septemtrionali, oppidum sit in medio, atque hæc oppidorum pomœria habento.
+   - WLC: וּמַדֹּתֶ֞ם מִח֣וּץ לָעִ֗יר אֶת־פְּאַת־קֵ֣דְמָה אַלְפַּ֪יִם בָּֽאַמָּ֟ה וְאֶת־פְּאַת־נֶגֶב֩ אַלְפַּ֨יִם בָּאַמָּ֜ה וְאֶת־פְּאַת־יָ֣ם ׀ אַלְפַּ֣יִם בָּֽאַמָּ֗ה וְאֵ֨ת פְּאַ֥ת צָפ֛וֹן אַלְפַּ֥יִם בָּאַמָּ֖ה וְהָעִ֣יר בַּתָּ֑וֶךְ זֶ֚ה יִהְיֶ֣ה לָהֶ֔ם מִגְרְשֵׁ֖י הֶעָרִֽים׃
+   - BSB: You are also to measure two thousand cubits outside the city on the east, two thousand on the south, two thousand on the west, and two thousand on the north, with the city in the center. These areas will serve as larger pasturelands for the cities.
+   - KJV: And ye shall measure from without the city on the east side two thousand cubits, and on the south side two thousand cubits, and on the west side two thousand cubits, and on the north side two thousand cubits; and the city shall be in the midst: this shall be to them the suburbs of the cities.
+
+## Short (6 verses)
+
+Latin words against Hebrew words, below 0.5 of the book's median ratio.
+
+- **1:32** 1 Latin words, 17 Hebrew
+   - Latin: Jōsēphī,
+   - 1738: Iosephi,
+   - WLC: לִבְנֵ֤י יוֹסֵף֙ לִבְנֵ֣י אֶפְרַ֔יִם תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃
+   - BSB: From the sons of Joseph: From the sons of Ephraim, according to the records of their clans and families, counting the names of all those twenty years of age or older who could serve in the army,
+   - KJV: ¶ Of the children of Joseph, namely, of the children of Ephraim, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+- **3:21** 5 Latin words, 9 Hebrew
+   - Latin: Gērsōniæ vidēlicet Lebniāna et Simejāna:
+   - 1738: Gersoniæ videlicet Lebniana et Semeiana:
+   - WLC: לְגֵ֣רְשׁ֔וֹן מִשְׁפַּ֙חַת֙ הַלִּבְנִ֔י וּמִשְׁפַּ֖חַת הַשִּׁמְעִ֑י אֵ֣לֶּה הֵ֔ם מִשְׁפְּחֹ֖ת הַגֵּרְשֻׁנִּֽי׃
+   - BSB: From Gershon came the Libnite clan and the Shimeite clan; these were the Gershonite clans.
+   - KJV: Of Gershon was the family of the Libnites, and the family of the Shimites: these are the families of the Gershonites.
+- **4:23** 6 Latin words, 17 Hebrew
+   - Latin: ut mūnere fungantur in ōrāculārī tabernāculō.
+   - 1738: vt munere fungantur in oraculari tabernaculo.
+   - WLC: מִבֶּן֩ שְׁלֹשִׁ֨ים שָׁנָ֜ה וָמַ֗עְלָה עַ֛ד בֶּן־חֲמִשִּׁ֥ים שָׁנָ֖ה תִּפְקֹ֣ד אוֹתָ֑ם כָּל־הַבָּא֙ לִצְבֹ֣א צָבָ֔א לַעֲבֹ֥ד עֲבֹדָ֖ה בְּאֹ֥הֶל מוֹעֵֽד׃
+   - BSB: from thirty to fifty years old, counting everyone who comes to serve in the work at the Tent of Meeting.
+   - KJV: From thirty years old and upward until fifty years old shalt thou number them; all that enter in to perform the service, to do the work in the tabernacle of the congregation.
+- **10:16** 3 Latin words, 8 Hebrew
+   - Latin: Zabulōniæ Elīābus, Hēlōnis.
+   - 1738: Zabuloniæ Eliabus, Helonis.
+   - WLC: וְעַ֨ל־צְבָ֔א מַטֵּ֖ה בְּנֵ֣י זְבוּלֻ֑ן אֱלִיאָ֖ב בֶּן־חֵלֽוֹן׃
+   - BSB: and Eliab son of Helon was over the division of the tribe of Zebulun.
+   - KJV: And over the host of the tribe of the children of Zebulun was Eliab the son of Helon.
+- **10:27** 3 Latin words, 8 Hebrew
+   - Latin: Nephthāliēnsis Achīra, Ēnānis.
+   - 1738: Nephthaliensis Achira, Enanis.
+   - WLC: וְעַ֨ל־צְבָ֔א מַטֵּ֖ה בְּנֵ֣י נַפְתָּלִ֑י אֲחִירַ֖ע בֶּן־עֵינָֽן׃
+   - BSB: and Ahira son of Enan was over the division of the tribe of Naphtali.
+   - KJV: And over the host of the tribe of the children of Naphtali was Ahira the son of Enan.
+- **14:27** 9 Latin words, 17 Hebrew
+   - Latin: “Quoūsque istīus scelerātæ Isrāēlītārum multitūdinis fremitus contrā mē audiam?
+   - 1738: quousque istius sceleratæ Israelitarum multitudinis fremitus contra me audiam?
+   - WLC: עַד־מָתַ֗י לָעֵדָ֤ה הָֽרָעָה֙ הַזֹּ֔את אֲשֶׁ֛ר הֵ֥מָּה מַלִּינִ֖ים עָלָ֑י אֶת־תְּלֻנּ֞וֹת בְּנֵ֣י יִשְׂרָאֵ֗ל אֲשֶׁ֨ר הֵ֧מָּה מַלִּינִ֛ים עָלַ֖י שָׁמָֽעְתִּי׃
+   - BSB: “How long will this wicked congregation grumble against Me? I have heard the complaints that the Israelites are making against Me.
+   - KJV: How long shall I bear with this evil congregation, which murmur against me? I have heard the murmurings of the children of Israel, which they murmur against me.

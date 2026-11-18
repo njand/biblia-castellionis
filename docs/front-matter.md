@@ -143,7 +143,7 @@ for it; the sentence on the Apocrypha appears only once they are built.
 > | ⟦ ⟧ | Mc 16,9–20 et Jo 7,53–8,11, quæ antīquissima exemplāria Græca nōn habent. |
 > | [ ] | Verba quæ cōdicēs antīquiōrēs nōn habent. |
 > | *oblīquæ* | Verba ex priōribus Bibliōrum librīs citāta. |
-> | ᵃ | Adnotātiōnēs īmā pāginā, ubi Castelliōnis ēditiōnēs ā textū Hebræō aut Græcō discēdunt. Ubi sōla verba Hebræa aut Græca adnotantur, Castelliō aliter vertit, nec ejus verba mūtāvī. Paucæ etiam vōcēs explicantur quās ipse fīnxit aut Hebræās retinuit (Vetus Fœdus). Cōdicēs antīquiōrēs eōs dīcō quōs ēditiōnēs Græcæ nostræ ætātis sequuntur: Castelliō enim textum Græcum suæ ætātis vertit, ex recentiōribus cōdicibus ductum. |
+> | ᵃ | Adnotātiōnēs īmā pāginā, ubi Castelliōnis ēditiōnēs ā textū Hebræō aut Græcō discēdunt. Ubi sōla verba Hebræa aut Græca adnotantur, Castelliō aliter vertit, nec ejus verba mūtāvī. Paucæ etiam vōcēs explicantur quās ipse fīnxit aut Hebræās retinuit. Versiōnēs antīquās, Græcam Septuāgintā interpretum, Syram, Vulgātam, Samarītānōrum Pentateuchum, tum adnotō, cum eās interpretēs nostræ ætātis sequuntur, ubi textus Hebræus corruptus vidētur (Vetus Fœdus). Cōdicēs antīquiōrēs eōs dīcō quōs ēditiōnēs Græcæ nostræ ætātis sequuntur: Castelliō enim textum Græcum suæ ætātis vertit, ex recentiōribus cōdicibus ductum. |
 >
 > **Librī legendī**
 >

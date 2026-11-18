@@ -1,0 +1,682 @@
+# Gen: candidates for light notes
+
+Built by `python -m pipeline notes Gen` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `gen-notes.md`.
+
+Latin: 1532 verses (settled); already noted: 11. BSB notes naming a version: 26 verses (against MT 7, with MT 11, other 8); WEB notes besides: 1. Numerals differing from the Hebrew: 40. Latin far shorter than the Hebrew: 9. Castellio's G. … H. marks: 5.
+
+## Castellio's marks (5 verses)
+
+*G.* (*G.L.*, 1750 *Gr. lect.*) … *H.*: a reading he took from the Greek, found in the raw OCR of 1738 and 1750 and placed by the words around it (check the verse).
+
+- **4:8** 1738: fuum  fuis  verbis ,  (  G.  /efl.)  rus  fe- / duxit ,  (  H. )  ibique  eum  adgresfus
+   - Latin: At Caīnus Abēlem frātrem suum suīs verbīs, rūs sēdūxit, ibique eum aggressus interfēcit.
+   - 1738: At Cainus Abelem fratrem suum suis verbis (, rus seduxit (, ibique eum adgressus interfecit.
+   - WLC: וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃
+   - Vulgate: Dixitque Cain ad Abel fratrem suum: Egrediamur foras. Cumque essent in agro, consurrexit Cain adversus fratrem suum Abel, et interfecit eum.
+   - LXX: Καὶ εἶπεν Κάϊν πρὸς Ἄβελ τὸν ἀδελφὸν αὐτοῦ, διέλθωμεν εἰς τὸ πεδίον· καὶ ἐγένετο ἐν τῷ εἶναι αὐτοὺς ἐν τῷ πεδίῳ, ἀνέστη Κάϊν ἐπὶ Ἄβελ τὸν ἀδελφὸν αὐτοῦ, καὶ ἀπέκτεινεν αὐτόν.
+   - BSB: Then Cain said to his brother Abel, “Let us go out to the field.” And while they were in the field, Cain rose up against his brother Abel and killed him.
+   - KJV: And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him.
+- **11:13** 1738: G.  Cainanem  ,      vixitque  Arpha- 13 / xadus    poft    genitum    Cainanem | 1750: r3 mo genuit G. Cainanem, vixitque / Arphaxadus poft genitum Caina-
+   - Latin: vīxitque Arphaxadus post genitum Caīnānem annōs trecentōs trīgintā, aliōs interim līberōs prōcreāns, atque ita mortuus est. Caīnan annō ætātis suæ centēsimō trīcēsimō genuit Salam, vīxitque quadringentōs trēs annōs post, aliīs intereā līberīs prōcreandīs.
+   - 1738: vixitque Arphaxadus post genitum Cainanem annos trecentos triginta, alios interim liberos procreans: atque ita mortuus est. Cainan anno ætatis suæ centesimo tricesimo genuit Salam, vixitque quadringentos tres annos post, aliis interea liberis procreandis.
+   - WLC: וַֽיְחִ֣י אַרְפַּכְשַׁ֗ד אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֶׁ֔לַח שָׁלֹ֣שׁ שָׁנִ֔ים וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃ ס
+   - Vulgate: Vixitque Arphaxad, postquam genuit Sale, trecentis tribus annis: et genuit filios et filias.
+   - LXX: Καὶ ἔζησεν Ἀρφαξὰδ, μετὰ τὸ γεννῆσαι αὐτὸν τὸν Καϊνᾶν, ἔτη τετρακόσια, καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας, καὶ ἀπέθανε. Καὶ ἔζησε Καϊνᾶν ἑκατὸν καὶ τριάκοντα ἔτη, καὶ ἐγέννησε τὸν Σαλά· καὶ ἔξησε Καϊνᾶν, μετὰ τὸ γεννῆσαι αὐτὸν τὸν Σαλὰ, ἔτη τριακόσια τριάκοντα, καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας, καὶ ἀπέθανε.
+   - BSB: And after he had become the father of Shelah, Arphaxad lived 403 years and had other sons and daughters.
+   - KJV: And Arphaxad lived after he begat Salah four hundred and three years, and begat sons and daughters.
+- **21:9** 1738: ex  Abrahamo  pepererat  G.  Ifaa- / co  filio  fuo  H.  illudentem ,        ita  to | 1750: quem ex Abrahamo pepererat G. / Ifaaco filio fuo H.illudentem, ita ro
+   - Latin: Cumque animadvertisset Sara fīlium Hagāris Ægyptiæ, quem ex Abrāhāmō pepererat, Isaacō fīliō suō illūdentem,
+   - 1738: Quumque animaduertisset Sara, filium Hagaris ægyptiæ, quem ex Abrahamo pepererat Isaaco filio suo illudentem,
+   - WLC: וַתֵּ֨רֶא שָׂרָ֜ה אֶֽת־בֶּן־הָגָ֧ר הַמִּצְרִ֛ית אֲשֶׁר־יָלְדָ֥ה לְאַבְרָהָ֖ם מְצַחֵֽק׃
+   - Vulgate: Cumque vidisset Sara filium Agar Ægyptiæ ludentem cum Isaac filio suo, dixit ad Abraham:
+   - LXX: Ἰδοῦσα δὲ Σάῥῥα τὸν υἱὸν Ἄγαρ τῆς Αἰγυπτίας, ὃς ἐγένετο τῷ Ἁβραὰμ, παίζοντα μετὰ Ἰσαὰκ τοῦ υἱοῦ αὐτῆς,
+   - BSB: But Sarah saw that the son whom Hagar the Egyptian had borne to Abraham was mocking her son,
+   - KJV: ¶ And Sarah saw the son of Hagar the Egyptian, which she had born unto Abraham, mocking.
+- **32:29** 1750: nomen fium exquirere vetans G. L, / quippe quod effetmirabile, H. eum
+   - Latin: Hīc Jācōbus vicissim ab illō petīvit, ut nōmen indicāret suum. Sed ille nōmen suum exquīrere vetāns, quippe quod esset mīrābile, eum ibi fēlīcitāvit.
+   - 1738: Hic Iacobus vicissim ab illo petiuit, vt nomen indicaret suum. Sed ille nomen suum exquirere vetans (, quippe quod esset mirabile. eum ibi felicitauit.
+   - WLC: וַיִּשְׁאַ֣ל יַעֲקֹ֗ב וַיֹּ֙אמֶר֙ הַגִּֽידָה־נָּ֣א שְׁמֶ֔ךָ וַיֹּ֕אמֶר לָ֥מָּה זֶּ֖ה תִּשְׁאַ֣ל לִשְׁמִ֑י וַיְבָ֥רֶךְ אֹת֖וֹ שָֽׁם׃
+   - Vulgate: Interrogavit eum Jacob: Dic mihi, quo appellaris nomine? Respondit: Cur quæris nomen meum? Et benedixit ei in eodem loco.
+   - LXX: Ἠρώτησε δὲ Ἰακὼβ, καὶ εἶπεν, ἀνάγγειλόν μοι τὸ ὄνομά σου· καὶ εἶπεν, ἱνατί τοῦτο ἐρωτᾷς σὺ τὸ ὄνομά μου; καὶ εὐλόγησεν αὐτὸν ἐκεῖ.
+   - BSB: And Jacob requested, “Please tell me your name.” But he replied, “Why do you ask my name?” Then he blessed Jacob there.
+   - KJV: And Jacob asked him, and said, Tell me, I pray thee, thy name. And he said, Wherefore is it that thou dost ask after my name? And he blessed him there.
+- **44:6** 1738: curbonummalopenfarint?  G.  cur / fibi  fcyphum  argenteum  furati  fint? | 1750: cur bonum malo penfarint? G. cur / fibi fcyphum argenteum furati fint? <
+   - Latin: Ille eōs assecūtus, quærit ex iīs, cūr bonum malō pēnsārint, cūr sibi scyphum argenteum fūrātī sint, eum esse, quō suus erus pōtāre, quoque ūtī in dīvīnātiōnibus solēret: eōs improbē fēcisse.
+   - 1738: Ille eos adsecutus, quærit ex eis, cur bonum malo pensarint. cur sibi scyphum argenteum furati sint? eum esse, quo suus herus potare, quoque vti in diuinationibus soleret: eos improbe fecisse.
+   - WLC: וַֽיַּשִּׂגֵ֑ם וַיְדַבֵּ֣ר אֲלֵהֶ֔ם אֶת־הַדְּבָרִ֖ים הָאֵֽלֶּה׃
+   - Vulgate: Fecit ille ut jusserat: et apprehensis per ordinem locutus est.
+   - LXX: Εὑρὼν δὲ αὐτοὺς, εἶπεν αὐτοῖς κατὰ τὰ ῥήματα ταῦτα.
+   - BSB: When the steward overtook them, he relayed these words to them.
+   - KJV: ¶ And he overtook them, and he spake unto them these same words.
+
+## Versions: the BSB against MT (7 verses)
+
+- **4:8** BSB: SP, LXX, Syriac, and Vulgate; Hebrew Then Cain spoke to his brother Abel.
+   - Latin: At Caīnus Abēlem frātrem suum suīs verbīs, rūs sēdūxit, ibique eum aggressus interfēcit.
+   - 1738: At Cainus Abelem fratrem suum suis verbis (, rus seduxit (, ibique eum adgressus interfecit.
+   - WLC: וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קָם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃
+   - Vulgate: Dixitque Cain ad Abel fratrem suum: Egrediamur foras. Cumque essent in agro, consurrexit Cain adversus fratrem suum Abel, et interfecit eum.
+   - LXX: Καὶ εἶπεν Κάϊν πρὸς Ἄβελ τὸν ἀδελφὸν αὐτοῦ, διέλθωμεν εἰς τὸ πεδίον· καὶ ἐγένετο ἐν τῷ εἶναι αὐτοὺς ἐν τῷ πεδίῳ, ἀνέστη Κάϊν ἐπὶ Ἄβελ τὸν ἀδελφὸν αὐτοῦ, καὶ ἀπέκτεινεν αὐτόν.
+   - BSB: Then Cain said to his brother Abel, “Let us go out to the field.” And while they were in the field, Cain rose up against his brother Abel and killed him.
+   - KJV: And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him.
+- **4:15** BSB: LXX, Vulgate, and Syriac; Hebrew “Very well!” or “Therefore:”
+   - Latin: At Jōva: “Immō vērō quīcumque Caīnum occīderit, septuplī pœnam subībit.” Itaque eī notam apposuit, nē sī quis in eum incidisset, necāret eum.
+   - 1738: At Ioua: immo vero quicumque Cainum occiderit, septupli pœnam subibit. Itaque ei notam adposuit, ne, si quis in eum incidisset, necaret eum.
+   - WLC: וַיֹּ֧אמֶר ל֣וֹ יְהוָ֗ה לָכֵן֙ כָּל־הֹרֵ֣ג קַ֔יִן שִׁבְעָתַ֖יִם יֻקָּ֑ם וַיָּ֨שֶׂם יְהוָ֤ה לְקַ֙יִן֙ א֔וֹת לְבִלְתִּ֥י הַכּוֹת־אֹת֖וֹ כָּל־מֹצְאֽוֹ׃
+   - Vulgate: Dixitque ei Dominus: Nequaquam ita fiet: sed omnis qui occiderit Cain, septuplum punietur. Posuitque Dominus Cain signum, ut non interficeret eum omnis qui invenisset eum.
+   - LXX: Καὶ εἴπεν αὐτῷ Κύριος ὁ Θεὸς, οὐχ οὕτω· πᾶς ὁ ἀποκτείνας Κάϊν, ἑπτὰ ἐκδικούμενα παραλύσει. Καὶ ἔθετο Κύριος ὁ Θεὸς σημεῖον τῷ Κάϊν, τοῦ μὴ ἀνελεῖν αὐτὸν πάντα τὸν εὑρίσκοντα αὐτόν.
+   - BSB: “Not so!” replied the LORD. “If anyone slays Cain, then Cain will be avenged sevenfold.” And the LORD placed a mark on Cain, so that no one who found him would kill him.
+   - KJV: And the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should kill him.
+- **10:4** BSB: SP and some MT manuscripts (see also LXX and 1 Chronicles 1:7); most MT manuscripts Dodanites
+   - Latin: Javanī: Elisa, Tharsis, Cittimus et Dodanimus.
+   - 1738: Iauani Elisa, Tharsis, Cittimus et Dodanimus.
+   - WLC: וּבְנֵ֥י יָוָ֖ן אֱלִישָׁ֣ה וְתַרְשִׁ֑ישׁ כִּתִּ֖ים וְדֹדָנִֽים׃
+   - Vulgate: Filii autem Javan: Elisa et Tharsis, Cetthim et Dodanim.
+   - LXX: Καὶ υἱοὶ Ἰωύαν, Ἐλισὰ, καὶ Θάρσεις, Κήτιοι, Ῥόδὶοι.
+   - BSB: And the sons of Javan: Elishah, Tarshish, the Kittites, and the Rodanites.
+   - KJV: And the sons of Javan; Elishah, and Tarshish, Kittim, and Dodanim.
+- **21:9** BSB: LXX and Vulgate; Hebrew lacks her son
+   - Latin: Cumque animadvertisset Sara fīlium Hagāris Ægyptiæ, quem ex Abrāhāmō pepererat, Isaacō fīliō suō illūdentem,
+   - 1738: Quumque animaduertisset Sara, filium Hagaris ægyptiæ, quem ex Abrahamo pepererat Isaaco filio suo illudentem,
+   - WLC: וַתֵּ֨רֶא שָׂרָ֜ה אֶֽת־בֶּן־הָגָ֧ר הַמִּצְרִ֛ית אֲשֶׁר־יָלְדָ֥ה לְאַבְרָהָ֖ם מְצַחֵֽק׃
+   - Vulgate: Cumque vidisset Sara filium Agar Ægyptiæ ludentem cum Isaac filio suo, dixit ad Abraham:
+   - LXX: Ἰδοῦσα δὲ Σάῥῥα τὸν υἱὸν Ἄγαρ τῆς Αἰγυπτίας, ὃς ἐγένετο τῷ Ἁβραὰμ, παίζοντα μετὰ Ἰσαὰκ τοῦ υἱοῦ αὐτῆς,
+   - BSB: But Sarah saw that the son whom Hagar the Egyptian had borne to Abraham was mocking her son,
+   - KJV: ¶ And Sarah saw the son of Hagar the Egyptian, which she had born unto Abraham, mocking.
+- **30:11** BSB: Alternate MT reading (see also LXX); the other alternate reads “A troop is coming!”
+   - Latin: “Bene vertat,” inquit Līa, eumque Gadum appellāvit.
+   - 1738: bene vertat: inquit Lia, eumque Gadum adpellauit.
+   - WLC: וַתֹּ֥אמֶר לֵאָ֖ה בגד וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ גָּֽד׃
+   - Vulgate: dixit: Feliciter, et idcirco vocavit nomen ejus Gad.
+   - LXX: Καὶ εἶπε Λεία, ἐν τύχῃ· καὶ ἐπωνόμασε τὸ ὄνομα αὐτοῦ, Γάδ.
+   - BSB: Then Leah said, “How fortunate!” So she named him Gad.
+   - KJV: And Leah said, A troop cometh: and she called his name Gad.
+- **36:39** BSB: Some MT manuscripts, SP, and Syriac (see also 1 Chronicles 1:50); other MT manuscripts Hadar
+   - Latin: Huic īdem Hadadus ex oppidō Pāo, quī uxōrem habuit nōmine Meētabēlem Matrēdis fīliæ Mezaabī fīliam.
+   - 1738: Huic idem Hadadus ex oppido Pao, qui vxorem habuit nomine Meetabelem Matredis filiæ Mezaabi filiam.
+   - WLC: וַיָּמָת֮ בַּ֣עַל חָנָ֣ן בֶּן־עַכְבּוֹר֒ וַיִּמְלֹ֤ךְ תַּחְתָּיו֙ הֲדַ֔ר וְשֵׁ֥ם עִיר֖וֹ פָּ֑עוּ וְשֵׁ֨ם אִשְׁתּ֤וֹ מְהֵֽיטַבְאֵל֙ בַּת־מַטְרֵ֔ד בַּ֖ת מֵ֥י זָהָֽב׃
+   - Vulgate: Isto quoque mortuo regnavit pro eo Adar, nomenque urbis ejus Phau: et appellabatur uxor ejus Meetabel, filia Matred filiæ Mezaab.
+   - LXX: Ἀπέθανε δὲ Βαλλενὼν υἱὸς Ἀχοβὼρ, καὶ ἐβασίλευσεν ἀντʼ αὐτοῦ Ἀρὰδ υἱὸς Βαράδ· καὶ ὄνομα τῇ πόλει αὐτοῦ Φογώρ· ὄνομα δὲ τῇ γυναικὶ αὐτοῦ Μετεβεὴλ, θυγάτηρ Ματραῒθ, υἱοῦ Μαιζοώβ.
+   - BSB: When Baal-hanan son of Achbor died, Hadad reigned in his place. His city was named Pau, and his wife’s name was Mehetabel daughter of Matred, the daughter of Me-zahab.
+   - KJV: And Baal-hanan the son of Achbor died, and Hadar reigned in his stead: and the name of his city was Pau; and his wife’s name was Mehetabel, the daughter of Matred, the daughter of Mezahab.
+- **41:34** BSB: See LXX; MT a fifth from the land
+   - Latin: Tum autem facitō, ut, cōnstitūtīs annōnæ cūrātōribus, quīntās in Ægyptō septem proximīs annīs ūberibus legās,
+   - 1738: Tum autem facito, vt, constitutis annonæ curatoribus, quintas in Aegypto septem proximis annis vberibus legas,
+   - WLC: יַעֲשֶׂ֣ה פַרְעֹ֔ה וְיַפְקֵ֥ד פְּקִדִ֖ים עַל־הָאָ֑רֶץ וְחִמֵּשׁ֙ אֶת־אֶ֣רֶץ מִצְרַ֔יִם בְּשֶׁ֖בַע שְׁנֵ֥י הַשָּׂבָֽע׃
+   - Vulgate: qui constituat præpositos per cunctas regiones: et quintam partem fructuum per septem annos fertilitatis,
+   - LXX: Καὶ ποιησάτω Φαραὼ καὶ καταστησάτω τοπάρχας ἐπὶ τῆς γῆς· καὶ ἀποπεμπτωσάτωσαν πάντα τὰ γεννήματα τῆς γῆς Αἰγύπτου τῶν ἑπτὰ ἐτῶν τῆς εὐθηνίας,
+   - BSB: Let Pharaoh take action and appoint commissioners over the land to take a fifth of the harvest of Egypt during the seven years of abundance.
+   - KJV: Let Pharaoh do this, and let him appoint officers over the land, and take up the fifth part of the land of Egypt in the seven plenteous years.
+
+## Versions: the BSB with MT (11 verses)
+
+- **1:26** BSB: MT; Syriac and over all the beasts of the earth
+   - Latin: ita fātur: “Faciāmus hominem ad imāginem nostram, nostrī similem, quī dominētur piscibus aquātilibus, volucribus āeriīs, pecudibus, dēnique tōtī terræ, et quidquid in terrā movētur.
+   - 1738: ita fatur: faciamus hominem ad imaginem nostram, nostri similem, qui dominetur piscibus aquatilibus, volucribus aereis, pecudibus, denique toti terræ, et quidquid in terra mouetur.
+   - WLC: וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכָל־הָאָ֔רֶץ וּבְכָל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃
+   - Vulgate: et ait: Faciamus hominem ad imaginem et similitudinem nostram: et præsit piscibus maris, et volatilibus cæli, et bestiis, universæque terræ, omnique reptili, quod movetur in terra.
+   - LXX: Καὶ εἶπεν ὁ Θεός, Ποιήσωμεν ἄνθρωπον κατʼ εἰκόνα ἡμετέραν καὶ καθʼ ὁμοίωσιν· καὶ ἀρχέτωσαν τῶν ἰχθύων τῆς θαλάσσης, καὶ τῶν πετεινῶν τοῦ οὐρανοῦ, καὶ τῶν κτηνῶν, καὶ πάσης τῆς γῆς, καὶ πάντων τῶν ἑρπετῶν τῶν ἑρπόντων ἐπὶ τῆς γῆς.
+   - BSB: Then God said, “Let Us make man in Our image, after Our likeness, to rule over the fish of the sea and the birds of the air, over the livestock, and over all the earth itself and every creature that crawls upon it.”
+   - KJV: ¶ And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.
+- **4:24** BSB: Hebrew; LXX can be translated as either seventy times seven or seventy-sevenfold; see also Matthew 18:22.
+   - Latin: cum in Caīnō septuplī pœna sit, profectō in Lamechō esset septuāgēcuplī septuplī.”
+   - 1738: quum in Caino septupli pœna sit, profecto in Lamecho esset septuagecupli septupli.
+   - WLC: כִּ֥י שִׁבְעָתַ֖יִם יֻקַּם־קָ֑יִן וְלֶ֖מֶךְ שִׁבְעִ֥ים וְשִׁבְעָֽה׃
+   - Vulgate: Septuplum ultio dabitur de Cain: de Lamech vero septuagies septies.]
+   - LXX: Ὅτι ἑπτάκις ἐκδεδίκηται ἐκ Κάϊν· ἐκ δὲ Λάμεχ, ἑβδομηκοντάκις ἑπτά.
+   - BSB: If Cain is avenged sevenfold, then Lamech seventy-sevenfold.”
+   - KJV: If Cain shall be avenged sevenfold, truly Lamech seventy and sevenfold.
+- **10:23** BSB: Hebrew; LXX and 1 Chronicles 1:17 Meshech
+   - Latin: Arāmus fīliōs habuit Usum, Hulem, Getherem et Massum.
+   - 1738: Aramus filios habuit Vsum, Hulem, Getherem et Massum.
+   - WLC: וּבְנֵ֖י אֲרָ֑ם ע֥וּץ וְח֖וּל וְגֶ֥תֶר וָמַֽשׁ׃
+   - Vulgate: Filii Aram: Us, et Hul, et Gether, et Mes.
+   - LXX: Καὶ υἱοὶ Ἀρὰμ, Οὒζ, καὶ Οὒλ, καὶ Γατὲρ, καὶ Μοσόχ.
+   - BSB: The sons of Aram: Uz, Hul, Gether, and Mash.
+   - KJV: And the children of Aram; Uz, and Hul, and Gether, and Mash.
+- **10:24** BSB: Hebrew; LXX (see also Luke 3:35–36) And Arphaxad was the father of Cainan, and Cainan was the father of Shelah,
+   - Latin: Arphaxadus: Salam. Sala: Hebrem.
+   - 1738: Arphaxadus Salam. Sala Hebrem.
+   - WLC: וְאַרְפַּכְשַׁ֖ד יָלַ֣ד אֶת־שָׁ֑לַח וְשֶׁ֖לַח יָלַ֥ד אֶת־עֵֽבֶר׃
+   - Vulgate: At vero Arphaxad genuit Sale, de quo ortus est Heber.
+   - LXX: Καὶ Ἀρφαξὰδ ἐγέννησε τὸν Καϊνᾶν, καὶ Καϊνᾶν ἐγέννησε τὸν Σαλά· Σαλὰ δὲ ἐγέννησε τὸν Ἕβερ.
+   - BSB: Arphaxad was the father of Shelah, and Shelah was the father of Eber.
+   - KJV: And Arphaxad begat Salah; and Salah begat Eber.
+- **11:13** BSB: Hebrew; LXX (see also Luke 3:35–36) 12 When Arphaxad was 135 years old, he became the father of Cainan. 13 And after he had become the father of Cainan, Arphaxad lived 430 years and had other sons and daughters, and then he died. When Cainan had lived 130 years, he became the father of Shelah. And after he had become the father of Shelah, Cainan lived 330 years and had other sons and daughters. Note that LXX also adds 100 years to the ages of Shelah, Eber, Peleg, Reu, Serug, and Nahor in this genealogy.
+   - Latin: vīxitque Arphaxadus post genitum Caīnānem annōs trecentōs trīgintā, aliōs interim līberōs prōcreāns, atque ita mortuus est. Caīnan annō ætātis suæ centēsimō trīcēsimō genuit Salam, vīxitque quadringentōs trēs annōs post, aliīs intereā līberīs prōcreandīs.
+   - 1738: vixitque Arphaxadus post genitum Cainanem annos trecentos triginta, alios interim liberos procreans: atque ita mortuus est. Cainan anno ætatis suæ centesimo tricesimo genuit Salam, vixitque quadringentos tres annos post, aliis interea liberis procreandis.
+   - WLC: וַֽיְחִ֣י אַרְפַּכְשַׁ֗ד אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֶׁ֔לַח שָׁלֹ֣שׁ שָׁנִ֔ים וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃ ס
+   - Vulgate: Vixitque Arphaxad, postquam genuit Sale, trecentis tribus annis: et genuit filios et filias.
+   - LXX: Καὶ ἔζησεν Ἀρφαξὰδ, μετὰ τὸ γεννῆσαι αὐτὸν τὸν Καϊνᾶν, ἔτη τετρακόσια, καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας, καὶ ἀπέθανε. Καὶ ἔζησε Καϊνᾶν ἑκατὸν καὶ τριάκοντα ἔτη, καὶ ἐγέννησε τὸν Σαλά· καὶ ἔξησε Καϊνᾶν, μετὰ τὸ γεννῆσαι αὐτὸν τὸν Σαλὰ, ἔτη τριακόσια τριάκοντα, καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας, καὶ ἀπέθανε.
+   - BSB: And after he had become the father of Shelah, Arphaxad lived 403 years and had other sons and daughters.
+   - KJV: And Arphaxad lived after he begat Salah four hundred and three years, and begat sons and daughters.
+- **21:16** BSB: Hebrew; LXX the child lifted up his voice and wept
+   - Latin: Ipsa, nē morientem vidēret, recēdit, et cum ab eō tēlī jactum distāret, ē regiōne sedēns plōrātum ēdere incipit.
+   - 1738: ipsa, ne morientem videret, recedit: et quum ab eo teli iactum distaret, e regione sedens ploratum edere incipit.
+   - WLC: וַתֵּלֶךְ֩ וַתֵּ֨שֶׁב לָ֜הּ מִנֶּ֗גֶד הַרְחֵק֙ כִּמְטַחֲוֵ֣י קֶ֔שֶׁת כִּ֣י אָֽמְרָ֔ה אַל־אֶרְאֶ֖ה בְּמ֣וֹת הַיָּ֑לֶד וַתֵּ֣שֶׁב מִנֶּ֔גֶד וַתִּשָּׂ֥א אֶת־קֹלָ֖הּ וַתֵּֽבְךְּ׃
+   - Vulgate: Et abiit, seditque e regione procul quantum potest arcus jacere: dixit enim: Non videbo morientem puerum: et sedens contra, levavit vocem suam et flevit.
+   - LXX: Ἀπελθοῦσα δὲ ἐκάθητο ἀπέναντι αὐτοῦ μακρόθεν, ὡσεὶ τόξου βολήν· εἶπε γὰρ, οὐ μὴ ἴδω τὸν θάνατον τοῦ παιδίου μου. καὶ ἐκάθισεν ἀπέναντι αὐτοῦ· ἀναβοῆσαν δὲ τὸ παιδίον ἔκλαυσεν.
+   - BSB: Then she went off and sat down nearby, about a bowshot away, for she said, “I cannot bear to watch the boy die!” And as she sat nearby, she lifted up her voice and wept.
+   - KJV: And she went, and sat her down over against him a good way off, as it were a bowshot: for she said, Let me not see the death of the child. And she sat over against him, and lift up her voice, and wept.
+- **22:13** BSB: Most MT manuscripts; other Hebrew manuscripts, SP, LXX, and Syriac saw one ram
+   - Latin: Tum Abrāhāmus ērēctīs oculīs pōne cōnspexit arietem cornibus in dūmō hærentem, ad quem accessit, et comprehēnsum prō fīliō suō immolāvit,
+   - 1738: Tum Abrahamus erectis oculis pone conspexit arietem cornibus in dumo hærentem, ad quem accessit, et comprehensum pro filio suo immolauit,
+   - WLC: וַיִּשָּׂ֨א אַבְרָהָ֜ם אֶת־עֵינָ֗יו וַיַּרְא֙ וְהִנֵּה־אַ֔יִל אַחַ֕ר נֶאֱחַ֥ז בַּסְּבַ֖ךְ בְּקַרְנָ֑יו וַיֵּ֤לֶךְ אַבְרָהָם֙ וַיִּקַּ֣ח אֶת־הָאַ֔יִל וַיַּעֲלֵ֥הוּ לְעֹלָ֖ה תַּ֥חַת בְּנֽוֹ׃
+   - Vulgate: Levavit Abraham oculos suos, viditque post tergum arietem inter vepres hærentem cornibus, quem assumens obtulit holocaustum pro filio.
+   - LXX: Καὶ ἀναβλέψας Ἁβραὰμ τοῖς ὀφθαλμοῖς αὐτοῦ εἶδε, καὶ ἰδοὺ κριὸς εἷς κατεχόμενος ἐν φυτῷ Σαβὲκ τῶν κεράτων. Καὶ ἐπορεύθη Ἁβραὰμ, καὶ ἔλαβε τὸν κριὸν, καὶ ἁνήνεγκεν αὐτὸν εἰς ὁλοκάρπωσιν ἀντὶ Ἰσαὰκ τοῦ υἱοῦ αὐτοῦ.
+   - BSB: Then Abraham looked up and saw behind him a ram in a thicket, caught by its horns. So he went and took the ram and offered it as a burnt offering in place of his son.
+   - KJV: And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son.
+- **36:16** BSB: Hebrew; SP (also in verse 11 and 1 Chronicles 1:36) does not include Korah.
+   - Latin: Cōra, Gatāmus et Amālēcus. Hī fuērunt Elīphaziānī ducēs in Idūmæā, ex Ada nātī.
+   - 1738: Cora, Gatamus et Amalecus. Hi fuerunt Eliphaziani duces in Idumæa, ex Ada nati.
+   - WLC: אַלּֽוּף־קֹ֛רַח אַלּ֥וּף גַּעְתָּ֖ם אַלּ֣וּף עֲמָלֵ֑ק אֵ֣לֶּה אַלּוּפֵ֤י אֱלִיפַז֙ בְּאֶ֣רֶץ אֱד֔וֹם אֵ֖לֶּה בְּנֵ֥י עָדָֽה׃
+   - Vulgate: dux Core, dux Gathan, dux Amalech. Hi filii Eliphaz in terra Edom, et hi filii Ada.
+   - LXX: ἡγεμὼν Κορὲ, ἡγεμὼν Γοθὼμ, ἡγεμὼν Ἀμαλήκ· οὗτοι ἡγεμόνες Ἑλιφὰς ἐν γῇ Ἰδουμαίᾳ· οὗτοι υἱοὶ Ἀδάς.
+   - BSB: Korah, Gatam, and Amalek. They are the chiefs of Eliphaz in the land of Edom, and they are the grandsons of Adah.
+   - KJV: Duke Korah, duke Gatam, and duke Amalek: these are the dukes that came of Eliphaz in the land of Edom; these were the sons of Adah.
+- **46:13** BSB: Hebrew; SP and Syriac Puah; see 1 Chronicles 7:1. | BSB: Hebrew; SP and some LXX manuscripts Jashub; see Numbers 26:24 and 1 Chronicles 7:1.
+   - Latin: Issāchar Thōlam, Phuvam, Jōbum et Simerōnem.
+   - 1738: Issachar Tholam, Phuuam, Iobum et Simeronem.
+   - WLC: וּבְנֵ֖י יִשָׂשכָ֑ר תּוֹלָ֥ע וּפֻוָּ֖ה וְי֥וֹב וְשִׁמְרֽוֹן׃
+   - Vulgate: Filii Issachar: Thola et Phua et Job et Semron.
+   - LXX: Υἱοὶ δὲ Ἰσσάχαρ, Θωλὰ, καὶ Φουὰ, καὶ Ἀσοὺμ, καὶ Σαμβράν.
+   - BSB: The sons of Issachar: Tola, Puvah, Job, and Shimron.
+   - KJV: ¶ And the sons of Issachar; Tola, and Phuvah, and Job, and Shimron.
+- **46:27** BSB: Hebrew; LXX the nine sons, probably including Joseph’s grandsons through Ephraim and Manasseh; see 1 Chronicles 7:14–29. | BSB: Hebrew (see also Exodus 1:5); LXX (see also Acts 7:14) seventy-five
+   - Latin: Jōsēphī autem fīliī, quōs in Ægyptō prōcreāvit, duo. Summa familiæ Jācōbī, quæ in Ægyptum vēnit, fuit capitum septuāgintā.
+   - 1738: Iosephi autem filii, quos in Aegypto procreauit, duo. Summa familiæ iacobi, quæ in Aegyptum venit, fuit capitum septuaginta.
+   - WLC: וּבְנֵ֥י יוֹסֵ֛ף אֲשֶׁר־יֻלַּד־ל֥וֹ בְמִצְרַ֖יִם נֶ֣פֶשׁ שְׁנָ֑יִם כָּל־הַנֶּ֧פֶשׁ לְבֵֽית־יַעֲקֹ֛ב הַבָּ֥אָה מִצְרַ֖יְמָה שִׁבְעִֽים׃ פ
+   - Vulgate: Filii autem Joseph, qui nati sunt ei in terra Ægypti, animæ duæ. Omnes animæ domus Jacob, quæ ingressæ sunt in Ægyptum, fuere septuaginta.
+   - LXX: Υἱοὶ δὲ Ἰωσὴφ οἱ γενόμενοι αὐτῷ ἐν γῇ Αἰγύπτῳ, ψυχαὶ ἐννέα. Πᾶσαι ψυχαὶ οἴκου Ἰακὼβ, αἱ εἰσελθοῦσαι μετὰ Ἰακὼβ εἰς Αἴγυπτον, ψυχαὶ ἑβδομηκονταπέντε.
+   - BSB: And with the two sons who had been born to Joseph in Egypt, the members of Jacob’s family who went to Egypt were seventy in all.
+   - KJV: And the sons of Joseph, which were born him in Egypt, were two souls: all the souls of the house of Jacob, which came into Egypt, were threescore and ten.
+- **47:31** BSB: Hebrew; LXX Israel worshiped as he leaned on the top of his staff; see Hebrews 11:21.
+   - Latin: Et pater: “Jūrā mihi.” Atque ille jūrāvit, et Isrāēl sēsē ad pluteum venerābundus acclīnāvit.
+   - 1738: Et pater: iura mihi. Atque ille iurauit, et Israel sese ad pluteum venerabundus acclinauit.
+   - WLC: וַיֹּ֗אמֶר הִשָּֽׁבְעָה֙ לִ֔י וַיִּשָּׁבַ֖ע ל֑וֹ וַיִּשְׁתַּ֥חוּ יִשְׂרָאֵ֖ל עַל־רֹ֥אשׁ הַמִּטָּֽה׃ פ
+   - Vulgate: Et ille: Jura ergo, inquit, mihi. Quo jurante, adoravit Israël Deum, conversus ad lectuli caput.
+   - LXX: Εἶπε δὲ, ὄμοσόν μοι· καὶ ὤμοσεν αὐτῷ· καὶ προσεκύνησεν Ἰσραὴλ ἐπὶ τὸ ἄκρον τῆς ῥάβδου αὐτοῦ.
+   - BSB: “Swear to me,” Jacob said. So Joseph swore to him, and Israel bowed in worship at the head of his bed.
+   - KJV: And he said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed’s head.
+
+## Versions: the BSB other (8 verses)
+
+- **2:24** BSB: LXX and the two will become one flesh; cited in Matthew 19:5, Mark 10:7–8, 1 Corinthians 6:16, and Ephesians 5:31
+   - Latin: Itaque vir, relictō suō patre atque mātre, adhærēbit uxōrī suæ, coalēscentque in ūnam carnem.
+   - 1738: Itaque vir, relicto suo patre atque matre, adhærebit vxori suæ, coalescentque in vnam carnem.
+   - WLC: עַל־כֵּן֙ יַֽעֲזָב־אִ֔ישׁ אֶת־אָבִ֖יו וְאֶת־אִמּ֑וֹ וְדָבַ֣ק בְּאִשְׁתּ֔וֹ וְהָי֖וּ לְבָשָׂ֥ר אֶחָֽד׃
+   - Vulgate: Quam ob rem relinquet homo patrem suum, et matrem, et adhærebit uxori suæ: et erunt duo in carne una.
+   - LXX: Ἕνεκεν τούτου καταλείψει ἄνθρωπος τὸν πατέρα αὐτοῦ καὶ τὴν μητέρα, καὶ προσκολληθήσεται πρὸς τὴν γυναῖκα αὐτοῦ· καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν.
+   - BSB: For this reason a man will leave his father and mother and be united to his wife, and they will become one flesh.
+   - KJV: Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.
+- **5:22** BSB: LXX pleased God; also in verse 24
+   - Latin: et post eum genitum per trecentōs annōs ad Deī voluntātem vītam agēns, fīliōs aliōs, fīliāsque prōcreāvit.
+   - 1738: et post eum genitum per trecentos annos ad Dei voluntatem vitam agens, filios alios, filiasque procreauit.
+   - WLC: וַיִּתְהַלֵּ֨ךְ חֲנ֜וֹךְ אֶת־הָֽאֱלֹהִ֗ים אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־מְתוּשֶׁ֔לַח שְׁלֹ֥שׁ מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
+   - Vulgate: Et ambulavit Henoch cum Deo: et vixit, postquam genuit Mathusalam, trecentis annis, et genuit filios et filias.
+   - LXX: Εὐηρέστησε δὲ Ἐνὼχ τῷ Θεῷ μετὰ τὸ γεννῆσαι αὐτὸν τὸν Μαθουσάλα, διακόσια ἔτη· καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας.
+   - BSB: And after he had become the father of Methuselah, Enoch walked with God 300 years and had other sons and daughters.
+   - KJV: And Enoch walked with God after he begat Methuselah three hundred years, and begat sons and daughters:
+- **5:24** BSB: LXX and he was not found, because God had taken him away; cited in Hebrews 11:5
+   - Latin: sēsē ex Deī voluntāte gerēns, ageret, ā Deō sublātus nusquam exstitit.
+   - 1738: sese ex Dei voluntate gerens, ageret, a Deo sublatus nusquam exstitit.
+   - WLC: וַיִּתְהַלֵּ֥ךְ חֲנ֖וֹךְ אֶת־הָֽאֱלֹהִ֑ים וְאֵינֶ֕נּוּ כִּֽי־לָקַ֥ח אֹת֖וֹ אֱלֹהִֽים׃ פ
+   - Vulgate: Ambulavitque cum Deo, et non apparuit: quia tulit eum Deus.
+   - LXX: Καὶ εὐηρέστησεν Ἐνὼχ τῷ Θεῷ· καὶ οὐχ εὑρίσκετο, ὅτι μετέθηκεν αὐτὸν ὁ Θεός.
+   - BSB: Enoch walked with God, and then he was no more, because God had taken him away.
+   - KJV: And Enoch walked with God: and he was not; for God took him.
+- **6:3** BSB: LXX and Syriac My Spirit will not remain in man forever
+   - Latin: Tum Jōva dīxit: “Nōn perpetuō contendam animō cum hominibus, quī quidem carō sint. Itaque erit eōrum ætās centum vīgintī annōrum.”
+   - 1738: Tum Ioua dixit: non perpetuo contendam animo cum hominibus, qui quidem caro sint: itaque erit eorum ætas centum viginti annorum.
+   - WLC: וַיֹּ֣אמֶר יְהוָ֗ה לֹֽא־יָד֨וֹן רוּחִ֤י בָֽאָדָם֙ לְעֹלָ֔ם בְּשַׁגַּ֖ם ה֣וּא בָשָׂ֑ר וְהָי֣וּ יָמָ֔יו מֵאָ֥ה וְעֶשְׂרִ֖ים שָׁנָֽה׃
+   - Vulgate: Dixitque Deus: Non permanebit spiritus meus in homine in æternum, quia caro est: eruntque dies illius centum viginti annorum.
+   - LXX: Καὶ εἶπε Κύριος ὁ Θεὸς, οὐ μὴ καταμείνῃ τὸ πνεῦμά μου ἐν τοῖς ἀνθρώποις τούτοις εἰς τὸν αἰῶνα, διὰ τὸ εἶναι αὐτοὺς σάρκας· ἔσονται δὲ αἱ ἡμέραι αὐτῶν, ἑκατὸν εἴκοσιν ἔτη.
+   - BSB: So the LORD said, “My Spirit will not contend with man forever, for he is mortal; his days shall be 120 years.”
+   - KJV: And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.
+- **41:45** BSB: That is, Heliopolis, as in LXX; also in verse 50
+   - Latin: Tum eum Sāphnathopanēam appellāvit, eīque Āsenatham Pōtīpheræ pontificis Hēliopolītānī fīliam in mātrimōnium dedit. Ita Jōsēphus ā Pharaōne dīgressus, annōs nātus trīgintā
+   - 1738: Tum eum Saphnathopaneam adpellauit, eique Asenatham Potipheræ pontificis Heliopolitani filiam in matrimonium dedit. Ita Iosephus a Pharaone digressus, annos natus triginta (
+   - WLC: וַיִּקְרָ֨א פַרְעֹ֣ה שֵׁם־יוֹסֵף֮ צָֽפְנַ֣ת פַּעְנֵחַ֒ וַיִּתֶּן־ל֣וֹ אֶת־אָֽסְנַ֗ת בַּת־פּ֥וֹטִי פֶ֛רַע כֹּהֵ֥ן אֹ֖ן לְאִשָּׁ֑ה וַיֵּצֵ֥א יוֹסֵ֖ף עַל־אֶ֥רֶץ מִצְרָֽיִם׃
+   - Vulgate: Vertitque nomen ejus, et vocavit eum, lingua ægyptiaca, Salvatorem mundi. Deditque illi uxorem Aseneth filiam Putiphare sacerdotis Heliopoleos. Egressus est itaque Joseph ad terram Ægypti
+   - LXX: Καὶ ἐκάλεσε Φαραὼ τὸ ὄνομα Ἰωσὴφ, Ψονθομφανήχ· καὶ ἔδωκεν αὐτῷ τὴν Ἀσενὲθ θυγατέρα Πετεφρῆ ἱερέως Ἡλιουπόλεως αὐτῷ εἰς γυναῖκα.
+   - BSB: Pharaoh gave Joseph the name Zaphenath-paneah, and he gave him Asenath daughter of Potiphera, priest of On, to be his wife. And Joseph took charge of all the land of Egypt.
+   - KJV: And Pharaoh called Joseph’s name Zaphnath-paaneah; and he gave him to wife Asenath the daughter of Poti-pherah priest of On. And Joseph went out over all the land of Egypt.
+- **44:4** BSB: LXX includes Why have you stolen my silver cup?
+   - Latin: nōndum longē ab urbe abessent, mandat Jōsēphus dispēnsātōrī,
+   - 1738: nondum longe ab vrbe abessent, mandat Iosephus dispensatori,
+   - WLC: הֵ֠ם יָֽצְא֣וּ אֶת־הָעִיר֮ לֹ֣א הִרְחִיקוּ֒ וְיוֹסֵ֤ף אָמַר֙ לַֽאֲשֶׁ֣ר עַל־בֵּית֔וֹ ק֥וּם רְדֹ֖ף אַחֲרֵ֣י הָֽאֲנָשִׁ֑ים וְהִשַּׂגְתָּם֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם לָ֛מָּה שִׁלַּמְתֶּ֥ם רָעָ֖ה תַּ֥חַת טוֹבָֽה׃
+   - Vulgate: Jamque urbem exierant, et processerant paululum: tunc Joseph accersito dispensatore domus, Surge, inquit, et persequere viros: et apprehensis dicito: Quare reddidistis malum pro bono?
+   - LXX: Ἐξελθόντων δὲ αὐτῶν τὴν πόλιν, οὐκ ἀπέσχον μακράν· καὶ Ἰωσὴφ εἶπε τῷ ἐπὶ τῆς οἰκίας αὐτοῦ, ἀναστὰς ἐπιδίωξον ὀπίσω τῶν ἀνθρώπων, καὶ καταλήμψῃ αὐτοὺς, καὶ ἐρεῖς αὐτοῖς τί ὅτι ἀνταπεδώκατε πονηρὰ ἀντὶ καλῶν;
+   - BSB: They had not gone far from the city when Joseph told his steward, “Pursue the men at once, and when you overtake them, ask, ‘Why have you repaid good with evil?
+   - KJV: And when they were gone out of the city, and not yet far off, Joseph said unto his steward, Up, follow after the men; and when thou dost overtake them, say unto them, Wherefore have ye rewarded evil for good?
+- **46:16** BSB: SP and LXX Zephon; see also Numbers 26:15.
+   - Latin: Gadus autem habuit Sipheōnem, Hagīm, Sūnīm, Esbōnem, Ērīm, Arōdīm et Areēlīm.
+   - 1738: Gadus autem habuit Sipheonem, Hagim, Sunim, Esbonem, Erim, Arodim et Areelim.
+   - WLC: וּבְנֵ֣י גָ֔ד צִפְי֥וֹן וְחַגִּ֖י שׁוּנִ֣י וְאֶצְבֹּ֑ן עֵרִ֥י וַֽאֲרוֹדִ֖י וְאַרְאֵלִֽי׃
+   - Vulgate: Filii Gad: Sephion et Haggi et Suni et Esebon et Heri et Arodi et Areli.
+   - LXX: Υἱοὶ δὲ Γάδ, Σαφὼν, καὶ Ἀγγὶς, καὶ Σαννὶς, καὶ Θασοβὰν, καὶ Ἀηδεὶς, καὶ Ἀροηδεὶς, καὶ Ἀρεηλείς.
+   - BSB: The sons of Gad: Ziphion, Haggi, Shuni, Ezbon, Eri, Arodi, and Areli.
+   - KJV: ¶ And the sons of Gad; Ziphion, and Haggi, Shuni, and Ezbon, Eri, and Arodi, and Areli.
+- **46:20** BSB: That is, Heliopolis, as in LXX
+   - Latin: Jōsēphō nātī sunt in Ægyptō ex Āsenathā Pōtīpheræ fīliā pontificis Hēliopolītānī, Manasses et Ephrāimus.
+   - 1738: Iosepho nati sunt in Aegypto ex Asenatha Potipheræ filia pontificis Heliopolitani, Manasses et Ephraimus.
+   - WLC: וַיִּוָּלֵ֣ד לְיוֹסֵף֮ בְּאֶ֣רֶץ מִצְרַיִם֒ אֲשֶׁ֤ר יָֽלְדָה־לּוֹ֙ אָֽסְנַ֔ת בַּת־פּ֥וֹטִי פֶ֖רַע כֹּהֵ֣ן אֹ֑ן אֶת־מְנַשֶּׁ֖ה וְאֶת־אֶפְרָֽיִם׃
+   - Vulgate: Natique sunt Joseph filii in terra Ægypti, quos genuit ei Aseneth filia Putiphare sacerdotis Heliopoleos: Manasses et Ephraim.
+   - LXX: Ἐγένοντο δὲ υἱοὶ Ἰωσὴφ ἐν γῇ Αἰγύπτου, οὓς ἔτεκεν αὐτῷ Ἀσενὲθ θυγάτηρ Πετεφρῆ ἱερέως Ἡλιουπόλεως, τὸν Μανασσῆ, καὶ τὸν Ἐφραίμ· ἐγένοντο δὲ υἱοὶ Μανασσῆ, οὓς ἔτεκεν αὐτῷ ἡ παλλακὴ ἡ Σύρα, τὸν Μαχίρ· Μαχὶρ δὲ ἐγέννησε τὸν Γαλαάδ· υἱοὶ δὲ Ἐφραὶμ ἀδελφοῦ Μανασσῆ, Σουταλαὰμ, καὶ Ταάμ· υἱοὶ δὲ Σουταλαὰμ, Ἐδώμ.
+   - BSB: Manasseh and Ephraim were born to Joseph in the land of Egypt by Asenath daughter of Potiphera, priest of On.
+   - KJV: ¶ And unto Joseph in the land of Egypt were born Manasseh and Ephraim, which Asenath the daughter of Poti-pherah priest of On bare unto him.
+
+## Versions: the WEB's notes (1 verses)
+
+- **11:2** WEB: LXX reads “from the east”.
+   - Latin: cum illī ab oriente discēderent, nactī sunt quendam campum in terrā Sanaārā, ubi commorātī
+   - 1738: quum illi ab oriente discederent, nacti sunt quemdam campum in terra Sanaara, vbi commorati
+   - WLC: וַֽיְהִ֖י בְּנָסְעָ֣ם מִקֶּ֑דֶם וַֽיִּמְצְא֥וּ בִקְעָ֛ה בְּאֶ֥רֶץ שִׁנְעָ֖ר וַיֵּ֥שְׁבוּ שָֽׁם׃
+   - Vulgate: Cumque proficiscerentur de oriente, invenerunt campum in terra Sennaar, et habitaverunt in eo.
+   - LXX: Καὶ ἐγένετο ἐν τῷ κινῆσαι αὐτοὺς ἀπὸ ἀνατολῶν, εὗρον πεδίον ἐν γῇ Σεναὰρ, καὶ κατῴκησαν ἐκεῖ.
+   - BSB: And as people journeyed eastward, they found a plain in the land of Shinar and settled there.
+   - KJV: And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; and they dwelt there.
+
+## Numbers (40 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **1:8** Hebrew 2; Latin none
+   - Latin: Quō factō, liquidum “cælum” nuncupāvit. Ita exstitit ex vespere et māne diēs secundus.
+   - 1738: Quo facto, liquidum cælum nuncupauit: ita exstitit ex vespere et mane dies secundus.
+   - WLC: וַיִּקְרָ֧א אֱלֹהִ֛ים לָֽרָקִ֖יעַ שָׁמָ֑יִם וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שֵׁנִֽי׃ פ
+   - Vulgate: Vocavitque Deus firmamentum, Cælum: et factum est vespere et mane, dies secundus.
+   - LXX: Καὶ ἐκάλεσεν ὁ Θεὸς τὸ στερέωμα οὐρανόν· καὶ εἶδεν ὁ Θεὸς ὅτι καλόν· καὶ ἐγένετο ἑσπέρα, καὶ ἐγένετο πρωῒ, ἡμέρα δευτέρα.
+   - BSB: God called the expanse “sky.” And there was evening, and there was morning—the second day.
+   - KJV: And God called the firmament Heaven. And the evening and the morning were the second day.
+- **5:28** Hebrew 2, 80, 100; Latin 80, 100
+   - Latin: Lamechus centēsimum octōgēsimum secundum annum agēns, fīlium genuit,
+   - 1738: Lamechus centesimum octogesimum secundum annum agens, filium genuit,
+   - WLC: וַֽיְחִי־לֶ֕מֶךְ שְׁתַּ֧יִם וּשְׁמֹנִ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד בֵּֽן׃
+   - Vulgate: Vixit autem Lamech centum octoginta duobus annis, et genuit filium:
+   - LXX: Καὶ ἔζησε Λάμεχ ὀκτὼ καὶ ὀγδοήκοντα καὶ ἑκατὸν ἔτη· καὶ ἐγέννησεν υἱόν.
+   - BSB: When Lamech was 182 years old, he had a son.
+   - KJV: ¶ And Lamech lived an hundred eighty and two years, and begat a son:
+- **6:16** Hebrew 2, 3; Latin none
+   - Latin: In eā fenestram facitō, ipsam arcam supernē in cubitum absolvitō. Portam arcæ in ejus latere collocātō. Arcam īnfimā, alterā, tertiāque contignātiōne distinguitō.
+   - 1738: In ea fenestram facito, ipsam arcam superne in cubitum absoluito: portam arcæ in eius latere collocato: arcam infima, altera, tertiaque contignatione distinguito.
+   - WLC: צֹ֣הַר ׀ תַּֽעֲשֶׂ֣ה לַתֵּבָ֗ה וְאֶל־אַמָּה֙ תְּכַלֶ֣נָּה מִלְמַ֔עְלָה וּפֶ֥תַח הַתֵּבָ֖ה בְּצִדָּ֣הּ תָּשִׂ֑ים תַּחְתִּיִּ֛ם שְׁנִיִּ֥ם וּשְׁלִשִׁ֖ים תַּֽעֲשֶֽׂהָ׃
+   - Vulgate: Fenestram in arca facies, et in cubito consummabis summitatem ejus: ostium autem arcæ pones ex latere; deorsum, cœnacula et tristega facies in ea.
+   - LXX: Ἐπισυνάγων ποιήσεις τὴν κιβωτὸν, καὶ εἰς πῆχυν συντελέσεις αὐτὴν ἄνωθεν· τὴν δὲ θύραν τῆς κιβωτοῦ ποιήσεις ἐκ πλαγίων· κατάγαια διώροφα καὶ τριώροφα ποιήσεις αὐτήν.
+   - BSB: You are to make a roof for the ark, finish its walls a cubit from the top, place a door in the side of the ark, and build lower, middle, and upper decks.
+   - KJV: A window shalt thou make to the ark, and in a cubit shalt thou finish it above; and the door of the ark shalt thou set in the side thereof; with lower, second, and third stories shalt thou make it.
+- **9:19** Hebrew 3; Latin none
+   - Latin: tōtus terrārum orbis frequentātus est.
+   - 1738: totus terrarum orbis frequentatus est.
+   - WLC: שְׁלֹשָׁ֥ה אֵ֖לֶּה בְּנֵי־נֹ֑חַ וּמֵאֵ֖לֶּה נָֽפְצָ֥ה כָל־הָאָֽרֶץ׃
+   - Vulgate: Tres isti filii sunt Noë: et ab his disseminatum est omne genus hominum super universam terram.
+   - LXX: Τρεῖς οὗτοί εἰσιν υἱοὶ Νῶε· ἀπὸ τούτων διεσπάρησαν ἐπὶ πᾶσαν τὴν γῆν.
+   - BSB: These three were the sons of Noah, and from them the whole earth was populated.
+   - KJV: These are the three sons of Noah: and of them was the whole earth overspread.
+- **11:13** Hebrew 3, 4, 100; Latin 3, 4, 30, 100
+   - Latin: vīxitque Arphaxadus post genitum Caīnānem annōs trecentōs trīgintā, aliōs interim līberōs prōcreāns, atque ita mortuus est. Caīnan annō ætātis suæ centēsimō trīcēsimō genuit Salam, vīxitque quadringentōs trēs annōs post, aliīs intereā līberīs prōcreandīs.
+   - 1738: vixitque Arphaxadus post genitum Cainanem annos trecentos triginta, alios interim liberos procreans: atque ita mortuus est. Cainan anno ætatis suæ centesimo tricesimo genuit Salam, vixitque quadringentos tres annos post, aliis interea liberis procreandis.
+   - WLC: וַֽיְחִ֣י אַרְפַּכְשַׁ֗ד אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֶׁ֔לַח שָׁלֹ֣שׁ שָׁנִ֔ים וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃ ס
+   - Vulgate: Vixitque Arphaxad, postquam genuit Sale, trecentis tribus annis: et genuit filios et filias.
+   - LXX: Καὶ ἔζησεν Ἀρφαξὰδ, μετὰ τὸ γεννῆσαι αὐτὸν τὸν Καϊνᾶν, ἔτη τετρακόσια, καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας, καὶ ἀπέθανε. Καὶ ἔζησε Καϊνᾶν ἑκατὸν καὶ τριάκοντα ἔτη, καὶ ἐγέννησε τὸν Σαλά· καὶ ἔξησε Καϊνᾶν, μετὰ τὸ γεννῆσαι αὐτὸν τὸν Σαλὰ, ἔτη τριακόσια τριάκοντα, καὶ ἐγέννησεν υἱοὺς καὶ θυγατέρας, καὶ ἀπέθανε.
+   - BSB: And after he had become the father of Shelah, Arphaxad lived 403 years and had other sons and daughters.
+   - KJV: And Arphaxad lived after he begat Salah four hundred and three years, and begat sons and daughters.
+- **14:8** Hebrew none; Latin 5
+   - Latin: Tum illī quīnque rēgulī posteriōrēs domō ēgressī,
+   - 1738: Tum illi quinque reguli posteriores domo egresii,
+   - WLC: וַיֵּצֵ֨א מֶֽלֶךְ־סְדֹ֜ם וּמֶ֣לֶךְ עֲמֹרָ֗ה וּמֶ֤לֶךְ אַדְמָה֙ וּמֶ֣לֶךְ צביים וּמֶ֥לֶךְ בֶּ֖לַע הִוא־צֹ֑עַר וַיַּֽעַרְכ֤וּ אִתָּם֙ מִלְחָמָ֔ה בְּעֵ֖מֶק הַשִּׂדִּֽים׃
+   - Vulgate: Et egressi sunt rex Sodomorum, et rex Gomorrhæ, rexque Adamæ, et rex Seboim, necnon et rex Balæ, quæ est Segor: et direxerunt aciem contra eos in valle Silvestri:
+   - LXX: Ἐξῆλθε δὲ βασιλεὺς Σοδόμων, καὶ βασιλεὺς Γομόῤῥας, καὶ βασιλεὺς Ἀδαμὰ, καὶ βασιλεὺς Σεβωεὶμ, καὶ βασιλεὺς Βαλάκ· αὕτη ἐστὶ Σηγώρ· καὶ παρετάξαντο αὐτοῖς εἰς πόλεμον ἐν τῇ κοιλάδι, τῇ ἁλυκῇ,
+   - BSB: Then the king of Sodom, the king of Gomorrah, the king of Admah, the king of Zeboiim, and the king of Bela (that is, Zoar) marched out and arrayed themselves for battle in the Valley of Siddim
+   - KJV: And there went out the king of Sodom, and the king of Gomorrah, and the king of Admah, and the king of Zeboiim, and the king of Bela (the same is Zoar;) and they joined battle with them in the vale of Siddim;
+- **14:9** Hebrew 4, 5; Latin 4
+   - Latin: prœliō cum hīs quattuor dēcertārunt in valle Siddæā,
+   - 1738: prœlio cum his quatuor decertarunt in valle Siddæa,
+   - WLC: אֵ֣ת כְּדָרְלָעֹ֜מֶר מֶ֣לֶךְ עֵילָ֗ם וְתִדְעָל֙ מֶ֣לֶךְ גּוֹיִ֔ם וְאַמְרָפֶל֙ מֶ֣לֶךְ שִׁנְעָ֔ר וְאַרְי֖וֹךְ מֶ֣לֶךְ אֶלָּסָ֑ר אַרְבָּעָ֥ה מְלָכִ֖ים אֶת־הַחֲמִשָּֽׁה׃
+   - Vulgate: scilicet adversus Chodorlahomor regem Elamitarum, et Thadal regem Gentium, et Amraphel regem Sennaar, et Arioch regem Ponti: quatuor reges adversus quinque.
+   - LXX: πρὸς Χοδολλογομὸρ βασιλέα Ἐλὰμ, καὶ Θαπγὰλ βασιλέα ἐθνῶν, καὶ Ἀμαρφὰλ βασιλέα Σενναὰρ, καὶ Ἀριὼχ βασιλέα Ἑλλασὰρ, οἱ τέσσαρες βασιλεῖς πρὸς τοὺς πέντε.
+   - BSB: against Chedorlaomer king of Elam, Tidal king of Goiim, Amraphel king of Shinar, and Arioch king of Ellasar—four kings against five.
+   - KJV: With Chedorlaomer the king of Elam, and with Tidal king of nations, and Amraphel king of Shinar, and Arioch king of Ellasar; four kings with five.
+- **21:27** Hebrew 2; Latin none
+   - Latin: Tum Abrāhāmus ovēs et bovēs sūmpsit, et Abimelechō trādidit, atque ita fœdus inter sē percussērunt.
+   - 1738: Tum Abrahamus oues et boues sumsit, et Abimelecho tradidit, atque ita fœdus inter se percusserunt.
+   - WLC: וַיִּקַּ֤ח אַבְרָהָם֙ צֹ֣אן וּבָקָ֔ר וַיִּתֵּ֖ן לַאֲבִימֶ֑לֶךְ וַיִּכְרְת֥וּ שְׁנֵיהֶ֖ם בְּרִֽית׃
+   - Vulgate: Tulit itaque Abraham oves et boves, et dedit Abimelech: percusseruntque ambo fœdus.
+   - LXX: Καὶ ἔλαβεν Ἁβραὰμ πρόβατα καὶ μόσχους, καὶ ἔδωκε τῷ Ἀβιμέλεχ· καὶ διέθεντο ἀμφότεροι διαθήκην.
+   - BSB: So Abraham brought sheep and cattle and gave them to Abimelech, and the two men made a covenant.
+   - KJV: And Abraham took sheep and oxen, and gave them unto Abimelech; and both of them made a covenant.
+- **22:8** Hebrew 2; Latin none
+   - Latin: Et Abrāhāmus: “Deus prōvidēbit ipse sibi agnum ad immolandum, fīlī,” inquit. Ita pergunt īre simul.
+   - 1738: Et Abrahamus: Deus prouidebit ipse sibi agnum ad immolandum, fili, inquit. Ita pergunt ire simul.
+   - WLC: וַיֹּ֙אמֶר֙ אַבְרָהָ֔ם אֱלֹהִ֞ים יִרְאֶה־לּ֥וֹ הַשֶּׂ֛ה לְעֹלָ֖ה בְּנִ֑י וַיֵּלְכ֥וּ שְׁנֵיהֶ֖ם יַחְדָּֽו׃
+   - Vulgate: Dixit autem Abraham: Deus providebit sibi victimam holocausti, fili mi. Pergebant ergo pariter.
+   - LXX: Εἶπε δὲ Ἁβραὰμ, ὁ Θεὸς ὄψεται ἑαυτῷ πρόβατον εἰς ὁλοκάρπωσιν, τέκνον. πορευθέντες δὲ ἀμφότεροι ἅμα,
+   - BSB: Abraham answered, “God Himself will provide the lamb for the burnt offering, my son.” And the two walked on together.
+   - KJV: And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.
+- **22:15** Hebrew 2; Latin none
+   - Latin: Abrāhāmum autem Jōvæ angelus iterum dē cælō sīc interpellāvit:
+   - 1738: Abrahamum autem Iouæ angelus iterum de cælo sic interpellauit:
+   - WLC: וַיִּקְרָ֛א מַלְאַ֥ךְ יְהוָ֖ה אֶל־אַבְרָהָ֑ם שֵׁנִ֖ית מִן־הַשָּׁמָֽיִם׃
+   - Vulgate: Vocavit autem angelus Domini Abraham secundo de cælo, dicens:
+   - LXX: Καὶ ἐκάλεσεν Ἄγγελος Κυρίου τὸν Ἁβραὰμ δεύτερον ἐκ τοῦ οὐρανοῦ,
+   - BSB: And the angel of the LORD called to Abraham from heaven a second time,
+   - KJV: ¶ And the angel of the LORD called unto Abraham out of heaven the second time,
+- **23:9** Hebrew none; Latin 2
+   - Latin: ut mihi cavernam duplicem, quam habet in extrēmō suī fundī, vōbīs præsentibus addīcat, et addīcat jūstō argentō, in ūsum sepulcrī.
+   - 1738: vt mihi cauernam duplicem, quam habet in extremo sui fundi, vobis præsentibus addicat, et addicat iusto argento, in vsum sepulcri.
+   - WLC: וְיִתֶּן־לִ֗י אֶת־מְעָרַ֤ת הַמַּכְפֵּלָה֙ אֲשֶׁר־ל֔וֹ אֲשֶׁ֖ר בִּקְצֵ֣ה שָׂדֵ֑הוּ בְּכֶ֨סֶף מָלֵ֜א יִתְּנֶ֥נָּה לִ֛י בְּתוֹכְכֶ֖ם לַאֲחֻזַּת־קָֽבֶר׃
+   - Vulgate: ut det mihi speluncam duplicem, quam habet in extrema parte agri sui: pecunia digna tradat eam mihi coram vobis in possessionem sepulchri.
+   - LXX: Καὶ δότω μοι τὸ σπήλαιον τὸ διπλοῦν, ὅ ἐστιν αὐτῷ, τὸ ὂν ἐν μέρει τοῦ ἀγροῦ αὐτοῦ· ἀργυρίου τοῦ ἀξίου δότε μοι αὐτὸ ἐν ὑμῖν εἰς κτῆσιν μνημείου.
+   - BSB: to sell me the cave of Machpelah that belongs to him; it is at the end of his field. Let him sell it to me in your presence for full price, so that I may have a burial site.”
+   - KJV: That he may give me the cave of Machpelah, which he hath, which is in the end of his field; for as much money as it is worth he shall give it me for a possession of a buryingplace amongst you.
+- **23:17** Hebrew none; Latin 2
+   - Latin: Ita Ephrōnis fundus duplicī cavernā, quī fundus est ē regiōne Mambræ, cum ipsā cavernā, et omnibus arboribus, quæ circumquāque in tōtō ejus spatiō erant,
+   - 1738: Ita Ephronis fundus duplici cauerna, qui fundus est e regione Mambræ, cum ipsa cauerna, et omnibus arboribus, quæ circumquaque in toto eius spatio erant,
+   - WLC: וַיָּ֣קָם ׀ שְׂדֵ֣ה עֶפְר֗וֹן אֲשֶׁר֙ בַּמַּכְפֵּלָ֔ה אֲשֶׁ֖ר לִפְנֵ֣י מַמְרֵ֑א הַשָּׂדֶה֙ וְהַמְּעָרָ֣ה אֲשֶׁר־בּ֔וֹ וְכָל־הָעֵץ֙ אֲשֶׁ֣ר בַּשָּׂדֶ֔ה אֲשֶׁ֥ר בְּכָל־גְּבֻל֖וֹ סָבִֽיב׃
+   - Vulgate: Confirmatusque est ager quondam Ephronis, in quo erat spelunca duplex, respiciens Mambre, tam ipse, quam spelunca, et omnes arbores ejus in cunctis terminis ejus per circuitum,
+   - LXX: Καὶ ἔστη ὁ ἀγρὸς Ἐφρών, ὃς ἦν ἐν τῷ διπλῷ σπηλαίῳ, ὅς ἐστι κατὰ πρόσωπον Μαμβρῆ, ὁ ἀγρὸς καὶ τὸ σπήλαιον, ὃ ἦν ἐν αὐτῷ, καὶ πᾶν δένδρον, ὃ ἦν ἐν τῷ ἀγρῷ, καὶ πᾶν ὅ ἐστιν ἐν τοῖς ὁρίοις αὐτοῦ κύκλῳ,
+   - BSB: So Ephron’s field at Machpelah near Mamre, the cave that was in it, and all the trees within the boundaries of the field were deeded over
+   - KJV: ¶ And the field of Ephron, which was in Machpelah, which was before Mamre, the field, and the cave which was therein, and all the trees that were in the field, that were in all the borders round about, were made sure
+- **24:55** Hebrew none; Latin 10
+   - Latin: Puellæ frāter et māter respondent ipsī, profectūrum, postquam ea cum ipsīs diēs circiter decem mānsisset.
+   - 1738: Puellæ frater et mater respondent ipsi, profecturum, postquam ea cum ipsis dies circiter decem mansisset.
+   - WLC: וַיֹּ֤אמֶר אָחִ֙יהָ֙ וְאִמָּ֔הּ תֵּשֵׁ֨ב הַנַּעֲרָ֥ אִתָּ֛נוּ יָמִ֖ים א֣וֹ עָשׂ֑וֹר אַחַ֖ר תֵּלֵֽךְ׃
+   - Vulgate: Responderuntque fratres ejus et mater: Maneat puella saltem decem dies apud nos, et postea proficiscetur.
+   - LXX: Εἶπαν δὲ οἱ ἀδελφοὶ αὐτῆς, καὶ ἡ μήτηρ, μεινάτω ἡ παρθένος μεθʼ ἡμῶν ἡμέρας ὡσεὶ δέκα, καὶ μετὰ ταῦτα ἀπελεύσεται.
+   - BSB: But her brother and mother said, “Let the girl remain with us ten days or so. After that, she may go.”
+   - KJV: And her brother and her mother said, Let the damsel abide with us a few days, at the least ten; after that she shall go.
+- **24:60** Hebrew 1000, 10000; Latin 100, 1000
+   - Latin: Rebeccæque fausta precātī sunt hīs verbīs: “Prōlem tibi, nostra soror, optāmus centiēs centēnāriam mīllēnāriam, et eam quidem, quæ hostium suōrum portās obtineat.”
+   - 1738: Rebeccæque fausta precati sunt his verbis: prolem tibi, nostra soror, optamus centies centenariam millenariam, et eam quidem, quæ hostium suorum portas obtineat.
+   - WLC: וַיְבָרֲכ֤וּ אֶת־רִבְקָה֙ וַיֹּ֣אמְרוּ לָ֔הּ אֲחֹתֵ֕נוּ אַ֥תְּ הֲיִ֖י לְאַלְפֵ֣י רְבָבָ֑ה וְיִירַ֣שׁ זַרְעֵ֔ךְ אֵ֖ת שַׁ֥עַר שֹׂנְאָֽיו׃
+   - Vulgate: imprecantes prospera sorori suæ, atque dicentes: Soror nostra es, crescas in mille millia, et possideat semen tuum portas inimicorum suorum.
+   - LXX: Καὶ εὐλόγησαν Ῥεβέκκαν, καὶ εἶπαν αὐτῇ, ἀδελφὴ ἡμῶν εἶ, γίνου εἰς χιλιάδας μυριάδων, καὶ κληρονομησάτω τὸ σπέρμα σου τὰς πόλεις τῶν ὑπεναντίων.
+   - BSB: And they blessed Rebekah and said to her, “Our sister, may you become the mother of thousands upon thousands. May your offspring possess the gates of their enemies.”
+   - KJV: And they blessed Rebekah, and said unto her, Thou art our sister, be thou the mother of thousands of millions, and let thy seed possess the gate of those which hate them.
+- **25:9** Hebrew none; Latin 2
+   - Latin: Eum Isaacus et Ismaēl fīliī sepelīvērunt in duplicī cavernā fundī Ephrōnis, fīliī Seoris Hettæī, quī fundus est ē regiōne Mambræ,
+   - 1738: Eum Isaacus et Ismael filii sepeliuerunt in duplici cauerna fundi Ephronis, filii Seoris Hettæi, qui fundus est e regione Mambræ,
+   - WLC: וַיִּקְבְּר֨וּ אֹת֜וֹ יִצְחָ֤ק וְיִשְׁמָעֵאל֙ בָּנָ֔יו אֶל־מְעָרַ֖ת הַמַּכְפֵּלָ֑ה אֶל־שְׂדֵ֞ה עֶפְרֹ֤ן בֶּן־צֹ֙חַר֙ הַֽחִתִּ֔י אֲשֶׁ֖ר עַל־פְּנֵ֥י מַמְרֵֽא׃
+   - Vulgate: Et sepelierunt eum Isaac et Ismaël filii sui in spelunca duplici, quæ sita est in agro Ephron filii Seor Hethæi, e regione Mambre,
+   - LXX: Καὶ ἔθαψαν αὐτὸν Ἰσαὰκ καὶ Ἰσμαὴλ οἱ υἱοὶ αὐτοῦ εἰς τὸ σπήλαιον τὸ διπλοῦν, εἰς τὸν ἀγρὸν Ἐφρων τοῦ Σαὰρ τοῦ Χετταίου, ὅς ἐστιν ἀπέναντι Μαμβρῆ,
+   - BSB: His sons Isaac and Ishmael buried him in the cave of Machpelah near Mamre, in the field of Ephron son of Zohar the Hittite.
+   - KJV: And his sons Isaac and Ishmael buried him in the cave of Machpelah, in the field of Ephron the son of Zohar the Hittite, which is before Mamre;
+- **27:36** Hebrew none; Latin 2
+   - Latin: Tum Ēsāus: “Nē ille meritō Jācōbus nōminātur,” inquit, “quī mē jam bis supplantāverit. Prīmum enim meæ ætātis prærogātīvam intervertit, deinde nunc meam fēlīcitātem intercēpit. Sed tamen nūllamne mihi fēlīcitātem reliquam fēcistī?”
+   - 1738: Tum Esaus: næ ille merito Iacobus nominatur, inquit, qui me iam bis supplantauerit: primum enim meæ ætatis prærogatiuam interuertit, deinde nunc meam felicitatem intercepit. Sed tamen nullamne mihi felicitatem reliquam fecisti?
+   - WLC: וַיֹּ֡אמֶר הֲכִי֩ קָרָ֨א שְׁמ֜וֹ יַעֲקֹ֗ב וַֽיַּעְקְבֵ֙נִי֙ זֶ֣ה פַעֲמַ֔יִם אֶת־בְּכֹרָתִ֣י לָקָ֔ח וְהִנֵּ֥ה עַתָּ֖ה לָקַ֣ח בִּרְכָתִ֑י וַיֹּאמַ֕ר הֲלֹא־אָצַ֥לְתָּ לִּ֖י בְּרָכָֽה׃
+   - Vulgate: At ille subjunxit: Juste vocatum est nomen ejus Jacob: supplantavit enim me en altera vice: primogenita mea ante tulit, et nunc secundo surripuit benedictionem meam. Rursumque ad patrem: Numquid non reservasti, ait, et mihi benedictionem?
+   - LXX: Καὶ εἶπε, δικαίως ἐκλήθη τὸ ὄνομα αὐτοῦ Ἰακὼβ, ἐπτέρνικε γάρ με ἰδοὺ δεύτερον τοῦτο· τά τε πρωτοτόκιά μου εἴληφε, καὶ νῦν ἔλαβε τὴν εὐλογίαν μου· καὶ εἶπεν Ἡσαῦ τῷ πατρὶ αὐτοῦ, οὐχ ὑπελίπου μοι εὐλογίαν, πάτερ;
+   - BSB: So Esau declared, “Is he not rightly named Jacob? For he has cheated me twice. He took my birthright, and now he has taken my blessing.” Then he asked, “Haven’t you saved a blessing for me?”
+   - KJV: And he said, Is not he rightly named Jacob? for he hath supplanted me these two times: he took away my birthright; and, behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me?
+- **27:45** Hebrew 2; Latin none
+   - Latin: Post, frātre tibi pācātō, et hujus tuī in sē factī oblītō, illinc tē arcessendum cūrābō, nē forte utrōque vestrum orber aliquandō.”
+   - 1738: Post, fratre tibi pacato, et huius tui in se facti oblito, illinc te arcessendum curabo, ne forte vtroque vestrum orber aliquando.
+   - WLC: עַד־שׁ֨וּב אַף־אָחִ֜יךָ מִמְּךָ֗ וְשָׁכַח֙ אֵ֣ת אֲשֶׁר־עָשִׂ֣יתָ לּ֔וֹ וְשָׁלַחְתִּ֖י וּלְקַחְתִּ֣יךָ מִשָּׁ֑ם לָמָ֥ה אֶשְׁכַּ֛ל גַּם־שְׁנֵיכֶ֖ם י֥וֹם אֶחָֽד׃
+   - Vulgate: et cesset indignatio ejus, obliviscaturque eorum quæ fecisti in eum: postea mittam, et adducam te inde huc: cur utroque orbabor filio in uno die?
+   - LXX: καὶ τὴν ὀργὴν τοῦ ἀδελφοῦ σου ἀπὸ σοῦ, καὶ ἐπιλάθηται ἃ πεποίηκας αὐτῷ· καὶ ἀποστείλασα μεταπέμψομαί σε ἐκεῖθεν, μή ποτε ἀποτεκνωθῶ ἀπὸ τῶν δύο ὑμῶν ἐν ἡμέρᾳ μιᾷ.
+   - BSB: until your brother’s rage against you wanes and he forgets what you have done to him. Then I will send for you and bring you back from there. Why should I lose both of you in one day?”
+   - KJV: Until thy brother’s anger turn away from thee, and he forget that which thou hast done to him: then I will send, and fetch thee from thence: why should I be deprived also of you both in one day?
+- **29:28** Hebrew none; Latin 7
+   - Latin: Id quod fēcit Jācōbus: complētīsque alterīs septem annīs, Rāchēlem ā patre in mātrimōnium accēpit,
+   - 1738: Id quod fecit Iacobus: completisque alteris septem annis, Rachelem a patre in matrimonium accepit,
+   - WLC: וַיַּ֤עַשׂ יַעֲקֹב֙ כֵּ֔ן וַיְמַלֵּ֖א שְׁבֻ֣עַ זֹ֑את וַיִּתֶּן־ל֛וֹ אֶת־רָחֵ֥ל בִּתּ֖וֹ ל֥וֹ לְאִשָּֽׁה׃
+   - Vulgate: Acquievit placito: et hebdomada transacta, Rachel duxit uxorem:
+   - LXX: Ἐποίησε δὲ Ἰακὼβ οὕτως, καὶ ἀνεπλήρωσε τὰ ἕβδομα ταύτης· καὶ ἔδωκεν αὐτῷ Λάβαν Ῥαχὴλ τὴν θυγατέρα αὐτοῦ αὐτῷ γυναῖκα.
+   - BSB: And Jacob did just that. He finished the week’s celebration, and Laban gave him his daughter Rachel as his wife.
+   - KJV: And Jacob did so, and fulfilled her week: and he gave him Rachel his daughter to wife also.
+- **31:37** Hebrew 2; Latin none
+   - Latin: Omnia mea ūtēnsilia scrūtātus es: sī quid dē ūllā tuæ domūs supellectile invēnistī, hūc prōme cōram nostrīs utrīusque propinquīs, ut ipsī lītem inter nōs dirimant.
+   - 1738: Omnia mea vtensilia scrutatus es: si quid de vlla tuæ domus supellectile inuenisti, huc prome coram nostris vtriusque propinquis, vt ipsi litem inter nos dirimant.
+   - WLC: כִּֽי־מִשַּׁ֣שְׁתָּ אֶת־כָּל־כֵּלַ֗י מַה־מָּצָ֙אתָ֙ מִכֹּ֣ל כְּלֵי־בֵיתֶ֔ךָ שִׂ֣ים כֹּ֔ה נֶ֥גֶד אַחַ֖י וְאַחֶ֑יךָ וְיוֹכִ֖יחוּ בֵּ֥ין שְׁנֵֽינוּ׃
+   - Vulgate: et scrutatus es omnem supellectilem meam? quid invenisti de cuncta substantia domus tuæ? pone hic coram fratribus meis, et fratribus tuis, et judicent inter me et te.
+   - LXX: καὶ ὅτι ἠρεύνησας πάντα τὰ σκεύη τοῦ οἴκου μου; τί εὗρες ἀπὸ πάντων τῶν σκευῶν τοῦ οἴκου σου; θὲς ὧδε ἐνώπιον τῶν ἀδελφῶν σου καὶ τῶν ἀδελφῶν μου, καὶ ἐλεγξάτωσαν ἀνὰ μέσον τῶν δύο ἡμῶν.
+   - BSB: You have searched all my goods! Have you found anything that belongs to you? Put it here before my brothers and yours, that they may judge between the two of us.
+   - KJV: Whereas thou hast searched all my stuff, what hast thou found of all thy household stuff? set it here before my brethren and thy brethren, that they may judge betwixt us both.
+- **38:5** Hebrew none; Latin 3
+   - Latin: Tertium item, quem Sēlam vocāvit, cujus in nātīvitāte erat ipse Chezībī.
+   - 1738: Tertium item, quem Selam vocauit, cuius in natiuitate erat ipse Chezibi.
+   - WLC: וַתֹּ֤סֶף עוֹד֙ וַתֵּ֣לֶד בֵּ֔ן וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵׁלָ֑ה וְהָיָ֥ה בִכְזִ֖יב בְּלִדְתָּ֥הּ אֹתֽוֹ׃
+   - Vulgate: Tertium quoque peperit: quem appellavit Sela; quo nato, parere ultra cessavit.
+   - LXX: Καὶ προσθεῖσα ἔτεκεν υἱὸν, καὶ ἐκάλεσε τὸ ὄνομα αὐτοῦ, Σηλώμ· αὕτη δὲ ἦν ἐν Χασβὶ, ἡνίκα ἔτεκεν αὐτούς.
+   - BSB: Then she gave birth to another son and named him Shelah; it was at Chezib that she gave birth to him.
+   - KJV: And she yet again conceived, and bare a son; and called his name Shelah: and he was at Chezib, when she bare him.
+- **40:1** Hebrew none; Latin 2
+   - Latin: Hīs ita gestīs, accidit, ut duo quīdam Pharaōnis rēgis Ægyptiōrum eunūchī, quōrum alter prægustātōrum, alter pistōrum magister erat, in custōdiam darentur jussū rēgis,
+   - 1738: His ita gestis, accidit, vt duo quidam Pharaonis regis Aegyptiorum eunuchi, quorum alter prægustatorum, alter pistorum magister erat, in custodiam darentur iussu regis,
+   - WLC: וַיְהִ֗י אַחַר֙ הַדְּבָרִ֣ים הָאֵ֔לֶּה חָֽטְא֛וּ מַשְׁקֵ֥ה מֶֽלֶךְ־מִצְרַ֖יִם וְהָאֹפֶ֑ה לַאֲדֹנֵיהֶ֖ם לְמֶ֥לֶךְ מִצְרָֽיִם׃
+   - Vulgate: His ita gestis, accidit ut peccarent duo eunuchi, pincerna regis Ægypti, et pistor, domino suo.
+   - LXX: Ἐγένετο δὲ μετὰ τὰ ῥήματα ταῦτα, ἥμαρτεν ὁ ἀρχιοινοχόος τοῦ βασιλέως Αἰγύπτου, καὶ ὁ ἀρχισιτοποιὸς, τῷ κυρίῳ αὐτῶν βασιλεῖ Αἰγύπτου.
+   - BSB: Some time later, the king’s cupbearer and baker offended their master, the king of Egypt.
+   - KJV: And it came to pass after these things, that the butler of the king of Egypt and his baker had offended their lord the king of Egypt.
+- **40:2** Hebrew 2; Latin none
+   - Latin: īrātī propter eōrum quoddam in sē facinus.
+   - 1738: irati propter eorum quoddam in se facinus.
+   - WLC: וַיִּקְצֹ֣ף פַּרְעֹ֔ה עַ֖ל שְׁנֵ֣י סָרִיסָ֑יו עַ֚ל שַׂ֣ר הַמַּשְׁקִ֔ים וְעַ֖ל שַׂ֥ר הָאוֹפִֽים׃
+   - Vulgate: Iratusque contra eos Pharao (nam alter pincernis præerat, alter pistoribus),
+   - LXX: Καὶ ὠργίσθη Φαραὼ ἐπὶ τοῖς δυσὶν εὐνούχοις αὐτοῦ, ἐπὶ τῷ ἀρχιοινοχόῳ, καὶ ἐπὶ τῷ ἀρχισιτοποιῷ·
+   - BSB: Pharaoh was angry with his two officers, the chief cupbearer and the chief baker,
+   - KJV: And Pharaoh was wroth against two of his officers, against the chief of the butlers, and against the chief of the bakers.
+- **41:4** Hebrew 7; Latin none
+   - Latin: et dēfōrmēs atque macræ fōrmōsās et opīmās dēvorābant. Hīc Pharaō ēvigilāvit.
+   - 1738: et deformes atque macræ formosas et opimas deuorabant. Hic Pharao euigilauit.
+   - WLC: וַתֹּאכַ֣לְנָה הַפָּר֗וֹת רָע֤וֹת הַמַּרְאֶה֙ וְדַקֹּ֣ת הַבָּשָׂ֔ר אֵ֚ת שֶׁ֣בַע הַפָּר֔וֹת יְפֹ֥ת הַמַּרְאֶ֖ה וְהַבְּרִיאֹ֑ת וַיִּיקַ֖ץ פַּרְעֹֽה׃
+   - Vulgate: devoraveruntque eas, quarum mira species et habitudo corporum erat. Expergefactus Pharao,
+   - LXX: Καὶ κατέφαγον αἱ ἑπτὰ βόες αἱ αἰσχραὶ καὶ λεπταὶ ταῖς σαρξὶ τὰς ἑπτὰ βόας τὰς καλὰς τῷ εἴδει καὶ τὰς ἐκλεκτὰς ταῖς σαρξί· ἠγέρθη δὲ Φαραώ.
+   - BSB: And the cows that were sickly and thin devoured the seven sleek, well-fed cows. Then Pharaoh woke up,
+   - KJV: And the ill favoured and leanfleshed kine did eat up the seven well favoured and fat kine. So Pharaoh awoke.
+- **41:5** Hebrew 2, 7; Latin 7
+   - Latin: Iterumque dormiēns somniāvit, septem spīcās ēnāscī in ūnō calamō, pinguēs et ēlegantēs:
+   - 1738: Iterumque dormiens somniauit, septem spicas enasci in vno calamo, pingues et elegantes:
+   - WLC: וַיִּישָׁ֕ן וַֽיַּחֲלֹ֖ם שֵׁנִ֑ית וְהִנֵּ֣ה ׀ שֶׁ֣בַע שִׁבֳּלִ֗ים עֹל֛וֹת בְּקָנֶ֥ה אֶחָ֖ד בְּרִיא֥וֹת וְטֹבֽוֹת׃
+   - Vulgate: rursum dormivit, et vidit alterum somnium: septem spicæ pullulabant in culmo uno plenæ atque formosæ:
+   - LXX: Καὶ ἐνυπνιάσθη τὸ δεύτερον· καὶ ἰδοὺ ἑπτὰ στάχυες ἀνέβαινον ἐν τῷ πυθμένι ἑνὶ ἐκλεκτοὶ καὶ καλοί.
+   - BSB: but he fell back asleep and dreamed a second time: Seven heads of grain, plump and ripe, came up on one stalk.
+   - KJV: And he slept and dreamed the second time: and, behold, seven ears of corn came up upon one stalk, rank and good.
+- **41:6** Hebrew 7; Latin none
+   - Latin: quibus succrēscēbant alteræ exīlēs et exēsæ ūrēdine,
+   - 1738: quibus succrescebant alteræ exiles et exesæ vredine,
+   - WLC: וְהִנֵּה֙ שֶׁ֣בַע שִׁבֳּלִ֔ים דַּקּ֖וֹת וּשְׁדוּפֹ֣ת קָדִ֑ים צֹמְח֖וֹת אַחֲרֵיהֶֽן׃
+   - Vulgate: aliæ quoque totidem spicæ tenues, et percussæ uredine oriebantur,
+   - LXX: Καὶ ἰδοὺ ἑπτὰ στάχυες λεπτοὶ καὶ ἀνεμόφθοροι ἀνεφύοντο μετʼ αὐτούς.
+   - BSB: After them, seven other heads of grain sprouted, thin and scorched by the east wind.
+   - KJV: And, behold, seven thin ears and blasted with the east wind sprung up after them.
+- **41:7** Hebrew 7; Latin none
+   - Latin: quæ exīlēs generōsās et plēnās cōnsūmēbant. Tum experrēctus Pharaō, somnium esse vīdit.
+   - 1738: quæ exiles generosas et plenas consumebant. Tum experrectus Pharao, somnium esse vidit.
+   - WLC: וַתִּבְלַ֙עְנָה֙ הַשִּׁבֳּלִ֣ים הַדַּקּ֔וֹת אֵ֚ת שֶׁ֣בַע הַֽשִּׁבֳּלִ֔ים הַבְּרִיא֖וֹת וְהַמְּלֵא֑וֹת וַיִּיקַ֥ץ פַּרְעֹ֖ה וְהִנֵּ֥ה חֲלֽוֹם׃
+   - Vulgate: devorantes omnium priorum pulchritudinem. Evigilans Pharao post quietem,
+   - LXX: Καὶ κατέπιον οἱ ἑπτὰ στάχυες οἱ λεπτοὶ καὶ ἀνεμόφθοροι τοὺς ἑπτὰ στάχυας τοὺς ἐκλεκτοὺς καὶ τοὺς πλήρεις· ἠγέρθη δὲ Φαραὼ, καὶ ἦν ἐνύπνιον.
+   - BSB: And the thin heads of grain swallowed up the seven plump, ripe ones. Then Pharaoh awoke and realized it was a dream.
+   - KJV: And the seven thin ears devoured the seven rank and full ears. And Pharaoh awoke, and, behold, it was a dream.
+- **41:23** Hebrew 7; Latin none
+   - Latin: secundum quās sēsē subjiciēbant parī numerō alteræ gracilēs et minūtæ, et ārdōribus perustæ,
+   - 1738: secundum quas sese subiiciebant pari numero alteræ graciles et minutæ, et ardoribus perustæ,
+   - WLC: וְהִנֵּה֙ שֶׁ֣בַע שִׁבֳּלִ֔ים צְנֻמ֥וֹת דַּקּ֖וֹת שְׁדֻפ֣וֹת קָדִ֑ים צֹמְח֖וֹת אַחֲרֵיהֶֽם׃
+   - Vulgate: Aliæ quoque septem tenues et percussæ uredine, oriebantur e stipula:
+   - LXX: Ἄλλοι δὲ ἑπτὰ στάχυες λεπτοὶ καὶ ἀνεμόφθοροι ἀνεφύοντο ἐχόμενοι αὐτῶν.
+   - BSB: After them, seven other heads of grain sprouted—withered, thin, and scorched by the east wind.
+   - KJV: And, behold, seven ears, withered, thin, and blasted with the east wind, sprung up after them:
+- **41:24** Hebrew 7; Latin none
+   - Latin: quæ generōsās illās cōnsūmpsērunt. Hæc ego retulī ad hariolōs, sed nōn est, quī dēclāret.”
+   - 1738: quæ generosas illas consumserunt. Hæc ego retuli ad hariolos, sed non est, qui declaret.
+   - WLC: וַתִּבְלַ֙עְןָ֙ הָשִׁבֳּלִ֣ים הַדַּקֹּ֔ת אֵ֛ת שֶׁ֥בַע הַֽשִׁבֳּלִ֖ים הַטֹּב֑וֹת וָֽאֹמַר֙ אֶל־הַֽחַרְטֻמִּ֔ים וְאֵ֥ין מַגִּ֖יד לִֽי׃
+   - Vulgate: quæ priorum pulchritudinem devoraverunt. Narravi conjectoribus somnium, et nemo est qui edisserat.
+   - LXX: Καὶ κατέπιον οἱ ἑπτὰ στάχυες οἱ λεπτοὶ καὶ ἀνεμόφθοροι τοὺς ἑπτὰ στάχυας τοὺς καλοὺς καὶ τοὺς πλήρεις· εἶπα οὖν τοῖς ἐξῆγηταῖς, καὶ οὐκ ἦν ὁ ἀπαγγέλλων μοι αὐτό.
+   - BSB: And the thin heads of grain swallowed the seven plump ones. I told this dream to the magicians, but no one could explain it to me.”
+   - KJV: And the thin ears devoured the seven good ears: and I told this unto the magicians; but there was none that could declare it to me.
+- **41:32** Hebrew none; Latin 2
+   - Latin: Nam quod bis somniāstī, Deō ita facere omnīnō in animō est, idque brevī.
+   - 1738: Nam quod bis somniasti, Deo ita facere omnino in animo est, idque breui.
+   - WLC: וְעַ֨ל הִשָּׁנ֧וֹת הַחֲל֛וֹם אֶל־פַּרְעֹ֖ה פַּעֲמָ֑יִם כִּֽי־נָכ֤וֹן הַדָּבָר֙ מֵעִ֣ם הָאֱלֹהִ֔ים וּמְמַהֵ֥ר הָאֱלֹהִ֖ים לַעֲשֹׂתֽוֹ׃
+   - Vulgate: Quod autem vidisti secundo ad eamdem rem pertinens somnium: firmitatis indicium est, eo quod fiat sermo Dei, et velocius impleatur.
+   - LXX: Περὶ δὲ τοῦ δευτερῶσαι τὸ ἐνύπνιον Φαραὼ δὶς, ὅτι ἀληθὲς ἔσται τὸ ῥῆμα τὸ παρὰ τοῦ Θεοῦ· καὶ ταχυνεῖ ὁ Θεὸς τοῦ ποιῆσαι αὐτό.
+   - BSB: Moreover, because the dream was given to Pharaoh in two versions, the matter has been decreed by God, and He will carry it out shortly.
+   - KJV: And for that the dream was doubled unto Pharaoh twice; it is because the thing is established by God, and God will shortly bring it to pass.
+- **41:34** Hebrew 7; Latin 5, 7
+   - Latin: Tum autem facitō, ut, cōnstitūtīs annōnæ cūrātōribus, quīntās in Ægyptō septem proximīs annīs ūberibus legās,
+   - 1738: Tum autem facito, vt, constitutis annonæ curatoribus, quintas in Aegypto septem proximis annis vberibus legas,
+   - WLC: יַעֲשֶׂ֣ה פַרְעֹ֔ה וְיַפְקֵ֥ד פְּקִדִ֖ים עַל־הָאָ֑רֶץ וְחִמֵּשׁ֙ אֶת־אֶ֣רֶץ מִצְרַ֔יִם בְּשֶׁ֖בַע שְׁנֵ֥י הַשָּׂבָֽע׃
+   - Vulgate: qui constituat præpositos per cunctas regiones: et quintam partem fructuum per septem annos fertilitatis,
+   - LXX: Καὶ ποιησάτω Φαραὼ καὶ καταστησάτω τοπάρχας ἐπὶ τῆς γῆς· καὶ ἀποπεμπτωσάτωσαν πάντα τὰ γεννήματα τῆς γῆς Αἰγύπτου τῶν ἑπτὰ ἐτῶν τῆς εὐθηνίας,
+   - BSB: Let Pharaoh take action and appoint commissioners over the land to take a fifth of the harvest of Egypt during the seven years of abundance.
+   - KJV: Let Pharaoh do this, and let him appoint officers over the land, and take up the fifth part of the land of Egypt in the seven plenteous years.
+- **41:45** Hebrew none; Latin 30
+   - Latin: Tum eum Sāphnathopanēam appellāvit, eīque Āsenatham Pōtīpheræ pontificis Hēliopolītānī fīliam in mātrimōnium dedit. Ita Jōsēphus ā Pharaōne dīgressus, annōs nātus trīgintā
+   - 1738: Tum eum Saphnathopaneam adpellauit, eique Asenatham Potipheræ pontificis Heliopolitani filiam in matrimonium dedit. Ita Iosephus a Pharaone digressus, annos natus triginta (
+   - WLC: וַיִּקְרָ֨א פַרְעֹ֣ה שֵׁם־יוֹסֵף֮ צָֽפְנַ֣ת פַּעְנֵחַ֒ וַיִּתֶּן־ל֣וֹ אֶת־אָֽסְנַ֗ת בַּת־פּ֥וֹטִי פֶ֛רַע כֹּהֵ֥ן אֹ֖ן לְאִשָּׁ֑ה וַיֵּצֵ֥א יוֹסֵ֖ף עַל־אֶ֥רֶץ מִצְרָֽיִם׃
+   - Vulgate: Vertitque nomen ejus, et vocavit eum, lingua ægyptiaca, Salvatorem mundi. Deditque illi uxorem Aseneth filiam Putiphare sacerdotis Heliopoleos. Egressus est itaque Joseph ad terram Ægypti
+   - LXX: Καὶ ἐκάλεσε Φαραὼ τὸ ὄνομα Ἰωσὴφ, Ψονθομφανήχ· καὶ ἔδωκεν αὐτῷ τὴν Ἀσενὲθ θυγατέρα Πετεφρῆ ἱερέως Ἡλιουπόλεως αὐτῷ εἰς γυναῖκα.
+   - BSB: Pharaoh gave Joseph the name Zaphenath-paneah, and he gave him Asenath daughter of Potiphera, priest of On, to be his wife. And Joseph took charge of all the land of Egypt.
+   - KJV: And Pharaoh called Joseph’s name Zaphnath-paaneah; and he gave him to wife Asenath the daughter of Poti-pherah priest of On. And Joseph went out over all the land of Egypt.
+- **41:46** Hebrew 30; Latin none
+   - Latin: (tot enim habēbat, cum ante Pharaōnem cōnstitit)
+   - 1738: tot enim habebat, quum ante Pharaonem constitit)
+   - WLC: וְיוֹסֵף֙ בֶּן־שְׁלֹשִׁ֣ים שָׁנָ֔ה בְּעָמְד֕וֹ לִפְנֵ֖י פַּרְעֹ֣ה מֶֽלֶךְ־מִצְרָ֑יִם וַיֵּצֵ֤א יוֹסֵף֙ מִלִּפְנֵ֣י פַרְעֹ֔ה וַֽיַּעְבֹ֖ר בְּכָל־אֶ֥רֶץ מִצְרָֽיִם׃
+   - Vulgate: (triginta autem annorum erat quando stetit in conspectu regis Pharaonis), et circuivit omnes regiones Ægypti.
+   - LXX: Ἰωσὴφ δὲ ἦν ἐτῶν τριάκοντα, ὅτε ἔστη ἐναντίον Φαραὼ βασιλέως Αἰγύπτου· ἐξῆλθε δὲ Ἰωσὴφ ἀπὸ προσώπου Φαραὼ, καὶ διῆλθε πᾶσαν γῆν Αἰγύπτου.
+   - BSB: Now Joseph was thirty years old when he entered the service of Pharaoh king of Egypt. And Joseph left Pharaoh’s presence and traveled throughout the land of Egypt.
+   - KJV: ¶ And Joseph was thirty years old when he stood before Pharaoh king of Egypt. And Joseph went out from the presence of Pharaoh, and went throughout all the land of Egypt.
+- **41:48** Hebrew 7; Latin none
+   - Latin: tōtum Ægyptī commeātum coēgit, et fīnitimī singulōrum oppidōrum agrī cibāria in ipsa oppida contulit:
+   - 1738: totum Aegypti commeatum coegit, et finitimi singulorum oppidorum agri cibaria in ipsa oppida contulit:
+   - WLC: וַיִּקְבֹּ֞ץ אֶת־כָּל־ אֹ֣כֶל ׀ שֶׁ֣בַע שָׁנִ֗ים אֲשֶׁ֤ר הָיוּ֙ בְּאֶ֣רֶץ מִצְרַ֔יִם וַיִּתֶּן־אֹ֖כֶל בֶּעָרִ֑ים אֹ֧כֶל שְׂדֵה־הָעִ֛יר אֲשֶׁ֥ר סְבִיבֹתֶ֖יהָ נָתַ֥ן בְּתוֹכָֽהּ׃
+   - Vulgate: Omnis etiam frugum abundantia in singulis urbibus condita est.
+   - LXX: Καὶ συνήγαγε πάντα τὰ βρώματα τῶν ἑπτὰ ἐτῶν, ἐν οἷς ἦν ἡ εὐθηνία ἐν τῇ γῇ Αἰγύπτου· καὶ ἔθηκε τὰ βρώματα ἐν ταῖς πόλεσι· βρώματα τῶν πεδίων τῆς πόλεως τῶν κύκλῳ αὐτῆς ἔθηκεν ἐν αὐτῇ.
+   - BSB: During those seven years, Joseph collected all the excess food in the land of Egypt and stored it in the cities. In every city he laid up the food from the fields around it.
+   - KJV: And he gathered up all the food of the seven years, which were in the land of Egypt, and laid up the food in the cities: the food of the field, which was round about every city, laid he up in the same.
+- **43:12** Hebrew none; Latin 2
+   - Latin: Argentum autem duplum vōbīscum auferte, et quod in ōre saccōrum vestrōrum relātum est, reportāte, sī forte imprūdentiā peccātum est:
+   - 1738: Argentum autem duplum vobiscum auferte, et quod in ore saccorum vestrorum relatum est, reportate, si forte imprudentia peccatum est:
+   - WLC: וְכֶ֥סֶף מִשְׁנֶ֖ה קְח֣וּ בְיֶדְכֶ֑ם וְאֶת־הַכֶּ֜סֶף הַמּוּשָׁ֨ב בְּפִ֤י אַמְתְּחֹֽתֵיכֶם֙ תָּשִׁ֣יבוּ בְיֶדְכֶ֔ם אוּלַ֥י מִשְׁגֶּ֖ה הֽוּא׃
+   - Vulgate: Pecuniam quoque duplicem ferte vobiscum: et illam, quam invenistis in sacculis, reportate, ne forte errore factum sit:
+   - LXX: Καὶ τὸ ἀργύριον δισσὸν λάβετε ἐν ταῖς χερσὶν ὑμῶν· τὸ ἀργύριον τὸ ἀποστραφὲν ἐν τοῖς μαρσίπποις ὑμῶν ἀποστρέψατε μεθʼ ὑμῶν· μή ποτε ἀγνόημά ἐστι.
+   - BSB: Take double the silver with you so that you may return the silver that was put back into the mouths of your sacks. Perhaps it was a mistake.
+   - KJV: And take double money in your hand; and the money that was brought again in the mouth of your sacks, carry it again in your hand; peradventure it was an oversight:
+- **43:15** Hebrew none; Latin 2
+   - Latin: Tum hominēs mūnus et duplex argentum capiunt, assūmptōque Benjāmīne in Ægyptum dēscendunt.
+   - 1738: Tum homines munus et duplex argentum capiunt, assumtoque Beniamine in Aegyptum descendunt.
+   - WLC: וַיִּקְח֤וּ הָֽאֲנָשִׁים֙ אֶת־הַמִּנְחָ֣ה הַזֹּ֔את וּמִשְׁנֶה־כֶּ֛סֶף לָקְח֥וּ בְיָדָ֖ם וְאֶת־בִּנְיָמִ֑ן וַיָּקֻ֙מוּ֙ וַיֵּרְד֣וּ מִצְרַ֔יִם וַיַּֽעַמְד֖וּ לִפְנֵ֥י יוֹסֵֽף׃
+   - Vulgate: Tulerunt ergo viri munera, et pecuniam duplicem, et Benjamin: descenderuntque in Ægyptum, et steterunt coram Joseph.
+   - LXX: Λαβόντες δὲ οἱ ἄνδρες τὰ δῶρα ταῦτα καὶ τὸ ἀργύριον διπλοῦν, ἔλαβον ἐν ταῖς χερσὶν αὐτῶν καὶ τὸν Βενιαμείν· καὶ ἀναστάντες κατέβησαν εἰς Αἴγυπτον· καὶ ἔστησαν ἐναντίον Ἰωσήφ.
+   - BSB: So the men took these gifts, along with double the amount of silver, and Benjamin as well. Then they hurried down to Egypt and stood before Joseph.
+   - KJV: ¶ And the men took that present, and they took double money in their hand, and Benjamin; and rose up, and went down to Egypt, and stood before Joseph.
+- **47:14** Hebrew none; Latin 2
+   - Latin: coēgit Jōsēphus eō mercātū omnem pecūniam, quæ in duābus illīs regiōnibus inventa est, eamque in Pharaōnis fiscum retulit.
+   - 1738: coegit Iosephus eo mercatu omnem pecuniam, quæ in duabus illis regionibus inuenta est, eamque in Pharaonis fiscum retulit.
+   - WLC: וַיְלַקֵּ֣ט יוֹסֵ֗ף אֶת־כָּל־הַכֶּ֙סֶף֙ הַנִּמְצָ֤א בְאֶֽרֶץ־מִצְרַ֙יִם֙ וּבְאֶ֣רֶץ כְּנַ֔עַן בַּשֶּׁ֖בֶר אֲשֶׁר־הֵ֣ם שֹׁבְרִ֑ים וַיָּבֵ֥א יוֹסֵ֛ף אֶת־הַכֶּ֖סֶף בֵּ֥יתָה פַרְעֹֽה׃
+   - Vulgate: E quibus omnem pecuniam congregavit pro venditione frumenti, et intulit eam in ærarium regis.
+   - LXX: Συνήγαγε δὲ Ἰωσὴφ πᾶν τὸ ἀργύριον τὸ εὑρεθὲν ἐν γῇ Αἰγύπτου καὶ ἐν γῇ Χαναὰν, τοῦ σίτου, οὗ ἠγόραζον, καὶ ἐσιτομέτρει αὐτοῖς, καὶ εἰσήνεγκεν Ἰωσὴφ πᾶν τὸ ἀργύριον εἰς τὸν οἶκον Φαραώ.
+   - BSB: Joseph collected all the money to be found in the land of Egypt and the land of Canaan in exchange for the grain they were buying, and he brought it into Pharaoh’s palace.
+   - KJV: And Joseph gathered up all the money that was found in the land of Egypt, and in the land of Canaan, for the corn which they bought: and Joseph brought the money into Pharaoh’s house.
+- **47:18** Hebrew 2; Latin none
+   - Latin: Eō fīnītō, sequentī annō ad eum sē recipiunt, dēmōnstrant, (dominum eum appellantēs) cōnsūmptā in eum pecūniā et pecore, sibi præter corpora et agrī solum nihil esse reliquī, quod eī possint dare.
+   - 1738: Eo finito, sequenti anno ad eum se recipiunt, demonstrant (, Dominum eum adpellantes) consumta in eum pecunia et pecore, sibi præter corpora et agri solum nihil esse reliqui, quod ei possint dare.
+   - WLC: וַתִּתֹּם֮ הַשָּׁנָ֣ה הַהִוא֒ וַיָּבֹ֨אוּ אֵלָ֜יו בַּשָּׁנָ֣ה הַשֵּׁנִ֗ית וַיֹּ֤אמְרוּ לוֹ֙ לֹֽא־נְכַחֵ֣ד מֵֽאֲדֹנִ֔י כִּ֚י אִם־תַּ֣ם הַכֶּ֔סֶף וּמִקְנֵ֥ה הַבְּהֵמָ֖ה אֶל־אֲדֹנִ֑י לֹ֤א נִשְׁאַר֙ לִפְנֵ֣י אֲדֹנִ֔י בִּלְתִּ֥י אִם־גְּוִיָּתֵ֖נוּ וְאַדְמָתֵֽנוּ׃
+   - Vulgate: Venerunt quoque anno secundo, et dixerunt ei: Non celabimus dominum nostrum quod deficiente pecunia, pecora simul defecerunt: nec clam te est, quod absque corporibus et terra nihil habeamus.
+   - LXX: Ἐξῆλθε δὲ τὸ ἔτος ἐκεῖνο, καὶ ἦλθον πρὸς αὐτὸν ἐν τῷ ἔτει τῷ δευτέρῳ, καὶ εἶπαν αὐτῷ, μή ποτε ἐκτριβῶμεν ἀπὸ τοῦ κυρίου ἡμῶν; εἰ γὰρ ἐκλέλοιπε τὸ ἀργύριον ἡμῶν, καὶ τὰ ὑπάρχοντα καὶ τὰ κτήνη πρός σε τὸν κύριον, καὶ οὐχ ὑπολέλειπται ἡμῖν ἐναντίον τοῦ κυρίου ἡμῶν, ἀλλʼ ἢ τὸ ἴδιον σῶμα καὶ ἡ γῆ ἡμῶν,
+   - BSB: When that year was over, they came to him the second year and said, “We cannot hide from our lord that our money is gone and all our livestock belongs to you. There is nothing left for our lord except our bodies and our land.
+   - KJV: When that year was ended, they came unto him the second year, and said unto him, We will not hide it from my lord, how that our money is spent; my lord also hath our herds of cattle; there is not ought left in the sight of my lord, but our bodies, and our lands:
+- **47:26** Hebrew none; Latin 5
+   - Latin: Quam rem Jōsēphus in lēgem vocāvit, quā hodiē etiamnum Ægyptī solum tenētur, ut quīntās Pharaōnī pēnsitet, præter ūnās sacerdōtum possessiōnēs, quæ in Pharaōnis jūre nōn sunt.
+   - 1738: Quam rem Iosephus in legem vocauit, qua hodie etiamnum Aegypti solum tenetur, vt quintas Pharaoni pensitet, præter vnas sacerdotum possessiones, quæ in Pharaonis iure non sunt.
+   - WLC: וַיָּ֣שֶׂם אֹתָ֣הּ יוֹסֵ֡ף לְחֹק֩ עַד־הַיּ֨וֹם הַזֶּ֜ה עַל־אַדְמַ֥ת מִצְרַ֛יִם לְפַרְעֹ֖ה לַחֹ֑מֶשׁ רַ֞ק אַדְמַ֤ת הַכֹּֽהֲנִים֙ לְבַדָּ֔ם לֹ֥א הָיְתָ֖ה לְפַרְעֹֽה׃
+   - Vulgate: Ex eo tempore usque in præsentem diem, in universa terra Ægypti regibus quinta pars solvitur, et factum est quasi in legem, absque terra sacerdotali, quæ libera ab hac conditione fuit.
+   - LXX: Καὶ ἔθετο αὐτοῖς Ἰωσὴφ εἰς πρόσταγμα ἕως τῆς ἡμέρας ταύτης, ἐπὶ γῆς Αἰγύπτου τῷ Φαραὼ ἀποπεμπτοῦν, χωρὶς τῆς γῆς τῶν ἱερέων μόνον· οὐκ ἧν τῷ Φαραώ.
+   - BSB: So Joseph established a law that a fifth of the produce belongs to Pharaoh, and it is in effect in the land of Egypt to this day. Only the priests’ land does not belong to Pharaoh.
+   - KJV: And Joseph made it a law over the land of Egypt unto this day, that Pharaoh should have the fifth part; except the land of the priests only, which became not Pharaoh’s.
+- **49:30** Hebrew none; Latin 2
+   - Latin: quem duplicem fundum, contrā Mambrem in Chananæā situm, ēmit Abrāhāmus ab Ephrōne Hettæō in ūsum sepulcrī,
+   - 1738: quem duplicem fundum, contra Mambrem in Chananæa situm, emit Abrahamus ab Ephrone Hettæo in vsum sepulcri,
+   - WLC: בַּמְּעָרָ֞ה אֲשֶׁ֨ר בִּשְׂדֵ֧ה הַמַּכְפֵּלָ֛ה אֲשֶׁ֥ר עַל־פְּנֵי־מַמְרֵ֖א בְּאֶ֣רֶץ כְּנָ֑עַן אֲשֶׁר֩ קָנָ֨ה אַבְרָהָ֜ם אֶת־הַשָּׂדֶ֗ה מֵאֵ֛ת עֶפְרֹ֥ן הַחִתִּ֖י לַאֲחֻזַּת־קָֽבֶר׃
+   - Vulgate: contra Mambre in terra Chanaan, quam emit Abraham cum agro ab Ephron Hethæo in possessionem sepulchri.
+   - LXX: ἐν τῷ σπηλαίῳ τῷ διπλῷ, τῷ ἀπέναντι Μαμβρῆ, ἐν γῇ Χαναὰν, ὃ ἐκτήσατο Ἁβραὰμ τὸ σπήλαιον παρὰ Ἐφρὼν τοῦ Χετταίου ἐν κτήσει μνημείου.
+   - BSB: The cave is in the field of Machpelah near Mamre, in the land of Canaan. This is the field Abraham purchased from Ephron the Hittite as a burial site.
+   - KJV: In the cave that is in the field of Machpelah, which is before Mamre, in the land of Canaan, which Abraham bought with the field of Ephron the Hittite for a possession of a buryingplace.
+- **50:13** Hebrew none; Latin 2
+   - Latin: eumque in Chananæam dēlātum, sepelīvērunt in cavernā duplicis fundī, quem fundum Abrāhāmus in ūsum sepulcrētī ēmerat ab Ephrōne Hettæō, positum ē regiōne Mambræ.
+   - 1738: eumque in Chananæam delatum, sepeliuerunt in cauerna duplicis fundi, quem fundum Abrahamus in vsum sepulcreti emerat ab Ephrone Hettæo, positum e regione Mambræ.
+   - WLC: וַיִּשְׂא֨וּ אֹת֤וֹ בָנָיו֙ אַ֣רְצָה כְּנַ֔עַן וַיִּקְבְּר֣וּ אֹת֔וֹ בִּמְעָרַ֖ת שְׂדֵ֣ה הַמַּכְפֵּלָ֑ה אֲשֶׁ֣ר קָנָה֩ אַבְרָהָ֨ם אֶת־הַשָּׂדֶ֜ה לַאֲחֻזַּת־קֶ֗בֶר מֵאֵ֛ת עֶפְרֹ֥ן הַחִתִּ֖י עַל־פְּנֵ֥י מַמְרֵֽא׃
+   - Vulgate: et portantes eum in terram Chanaan, sepelierunt eum in spelunca duplici, quam emerat Abraham cum agro in possessionem sepulchri ab Ephron Hethæo, contra faciem Mambre.
+   - LXX: Καὶ ἀνέλαβον αὐτὸν οἱ υἱοὶ αὐτοῦ εἰς γῆν Χαναάν· καὶ ἔθαψαν αὐτὸν εἰς τὸ σπήλαιον τὸ διπλοῦν, ὃ ἐκτήσατο Ἁβραὰμ τὸ σπήλαιον ἐν κτήσει μνημείου παρὰ Ἐφρὼν τοῦ Χετταίου, κατέναντι Μαμβρή.
+   - BSB: They carried him to the land of Canaan and buried him in the cave at Machpelah in the field near Mamre, which Abraham had purchased from Ephron the Hittite as a burial site.
+   - KJV: For his sons carried him into the land of Canaan, and buried him in the cave of the field of Machpelah, which Abraham bought with the field for a possession of a buryingplace of Ephron the Hittite, before Mamre.
+
+## Short (9 verses)
+
+Latin words against Hebrew words, below 0.5 of the book's median ratio.
+
+- **14:8** 7 Latin words, 19 Hebrew
+   - Latin: Tum illī quīnque rēgulī posteriōrēs domō ēgressī,
+   - 1738: Tum illi quinque reguli posteriores domo egresii,
+   - WLC: וַיֵּצֵ֨א מֶֽלֶךְ־סְדֹ֜ם וּמֶ֣לֶךְ עֲמֹרָ֗ה וּמֶ֤לֶךְ אַדְמָה֙ וּמֶ֣לֶךְ צביים וּמֶ֥לֶךְ בֶּ֖לַע הִוא־צֹ֑עַר וַיַּֽעַרְכ֤וּ אִתָּם֙ מִלְחָמָ֔ה בְּעֵ֖מֶק הַשִּׂדִּֽים׃
+   - Vulgate: Et egressi sunt rex Sodomorum, et rex Gomorrhæ, rexque Adamæ, et rex Seboim, necnon et rex Balæ, quæ est Segor: et direxerunt aciem contra eos in valle Silvestri:
+   - LXX: Ἐξῆλθε δὲ βασιλεὺς Σοδόμων, καὶ βασιλεὺς Γομόῤῥας, καὶ βασιλεὺς Ἀδαμὰ, καὶ βασιλεὺς Σεβωεὶμ, καὶ βασιλεὺς Βαλάκ· αὕτη ἐστὶ Σηγώρ· καὶ παρετάξαντο αὐτοῖς εἰς πόλεμον ἐν τῇ κοιλάδι, τῇ ἁλυκῇ,
+   - BSB: Then the king of Sodom, the king of Gomorrah, the king of Admah, the king of Zeboiim, and the king of Bela (that is, Zoar) marched out and arrayed themselves for battle in the Valley of Siddim
+   - KJV: And there went out the king of Sodom, and the king of Gomorrah, and the king of Admah, and the king of Zeboiim, and the king of Bela (the same is Zoar;) and they joined battle with them in the vale of Siddim;
+- **14:9** 8 Latin words, 17 Hebrew
+   - Latin: prœliō cum hīs quattuor dēcertārunt in valle Siddæā,
+   - 1738: prœlio cum his quatuor decertarunt in valle Siddæa,
+   - WLC: אֵ֣ת כְּדָרְלָעֹ֜מֶר מֶ֣לֶךְ עֵילָ֗ם וְתִדְעָל֙ מֶ֣לֶךְ גּוֹיִ֔ם וְאַמְרָפֶל֙ מֶ֣לֶךְ שִׁנְעָ֔ר וְאַרְי֖וֹךְ מֶ֣לֶךְ אֶלָּסָ֑ר אַרְבָּעָ֥ה מְלָכִ֖ים אֶת־הַחֲמִשָּֽׁה׃
+   - Vulgate: scilicet adversus Chodorlahomor regem Elamitarum, et Thadal regem Gentium, et Amraphel regem Sennaar, et Arioch regem Ponti: quatuor reges adversus quinque.
+   - LXX: πρὸς Χοδολλογομὸρ βασιλέα Ἐλὰμ, καὶ Θαπγὰλ βασιλέα ἐθνῶν, καὶ Ἀμαρφὰλ βασιλέα Σενναὰρ, καὶ Ἀριὼχ βασιλέα Ἑλλασὰρ, οἱ τέσσαρες βασιλεῖς πρὸς τοὺς πέντε.
+   - BSB: against Chedorlaomer king of Elam, Tidal king of Goiim, Amraphel king of Shinar, and Arioch king of Ellasar—four kings against five.
+   - KJV: With Chedorlaomer the king of Elam, and with Tidal king of nations, and Amraphel king of Shinar, and Arioch king of Ellasar; four kings with five.
+- **17:25** 4 Latin words, 9 Hebrew
+   - Latin: Ismaēl autem decimum tertium.
+   - 1738: Ismael autem decimum tertium.
+   - WLC: וְיִשְׁמָעֵ֣אל בְּנ֔וֹ בֶּן־שְׁלֹ֥שׁ עֶשְׂרֵ֖ה שָׁנָ֑ה בְּהִ֨מֹּל֔וֹ אֵ֖ת בְּשַׂ֥ר עָרְלָתֽוֹ׃
+   - Vulgate: Et Ismaël filius tredecim annos impleverat tempore circumcisionis suæ.
+   - LXX: Ἰσμαὴλ δὲ ὁ υἱὸς αὐτοῦ ἦν ἐτῶν δεκατριῶν, ἡνίκα περιετέμετο τὴν σάρκα τῆς ἀκροβυστίας αὐτοῦ.
+   - BSB: and his son Ishmael was thirteen;
+   - KJV: And Ishmael his son was thirteen years old, when he was circumcised in the flesh of his foreskin.
+- **25:7** 7 Latin words, 13 Hebrew
+   - Latin: Ac, postquam centum septuāgintā quīnque complēvisset annōs,
+   - 1738: Ac, postquam centum septuaginta quinque compleuisset annos,
+   - WLC: וְאֵ֗לֶּה יְמֵ֛י שְׁנֵֽי־חַיֵּ֥י אַבְרָהָ֖ם אֲשֶׁר־חָ֑י מְאַ֥ת שָׁנָ֛ה וְשִׁבְעִ֥ים שָׁנָ֖ה וְחָמֵ֥שׁ שָׁנִֽים׃
+   - Vulgate: Fuerunt autem dies vitæ Abrahæ, centum septuaginta quinque anni.
+   - LXX: Ταῦτα δὲ τὰ ἔτη ἡμερῶν τῆς ζωῆς Ἁβραὰμ ὅσα ἔζησεν, ἑκατὸν ἑβδομηκονταπεντε ἔτη.
+   - BSB: Abraham lived a total of 175 years.
+   - KJV: And these are the days of the years of Abraham’s life which he lived, an hundred threescore and fifteen years.
+- **25:13** 5 Latin words, 12 Hebrew
+   - Latin: Prīmigenius Nabaiothus, Cēdar, Adbeel, Mabsāmus,
+   - 1738: Primigenius Nabaiothus, Cedar, Adbeel, Mabsamus,
+   - WLC: וְאֵ֗לֶּה שְׁמוֹת֙ בְּנֵ֣י יִשְׁמָעֵ֔אל בִּשְׁמֹתָ֖ם לְתוֹלְדֹתָ֑ם בְּכֹ֤ר יִשְׁמָעֵאל֙ נְבָיֹ֔ת וְקֵדָ֥ר וְאַדְבְּאֵ֖ל וּמִבְשָֽׂם׃
+   - Vulgate: hæc nomina filiorum ejus in vocabulis et generationibus suis. Primogenitus Ismaëlis Nabaioth, deinde Cedar, et Adbeel, et Mabsam,
+   - LXX: Καὶ ταῦτα τὰ ὀνόματα τῶν υἱῶν Ἰσμαὴλ, κατʼ ὀνόματα τῶν γενεῶν αὐτοῦ· πρωτότοκος Ἰσμαὴλ, καὶ Ναβαϊὼθ, καὶ Κηδὰρ, καὶ Ναβδεὴλ, καὶ Μασσὰμ,
+   - BSB: These are the names of the sons of Ishmael in the order of their birth: Nebaioth the firstborn of Ishmael, then Kedar, Adbeel, Mibsam,
+   - KJV: And these are the names of the sons of Ishmael, by their names, according to their generations: the firstborn of Ishmael, Nebajoth; and Kedar, and Adbeel, and Mibsam,
+- **31:21** 6 Latin words, 12 Hebrew
+   - Latin: trājectōque flūmine, ad Galaādum iter advertit.
+   - 1738: traiectoque flumine, ad Galaadum iter aduertit.
+   - WLC: וַיִּבְרַ֥ח הוּא֙ וְכָל־אֲשֶׁר־ל֔וֹ וַיָּ֖קָם וַיַּעֲבֹ֣ר אֶת־הַנָּהָ֑ר וַיָּ֥שֶׂם אֶת־פָּנָ֖יו הַ֥ר הַגִּלְעָֽד׃
+   - Vulgate: Cumque abiisset tam ipse quam omnia quæ juris sui erant, et amne transmisso pergeret contra montem Galaad,
+   - LXX: Καὶ ἀπέδρα αὐτὸς, καὶ τὰ αὐτοῦ πάντα, καὶ διέβη τὸν ποταμὸν, καὶ ὥρμησεν εἰς τὸ ὄρος Γαλαάδ.
+   - BSB: So he fled with all his possessions, crossed the Euphrates, and headed for the hill country of Gilead.
+   - KJV: So he fled with all that he had; and he rose up, and passed over the river, and set his face toward the mount Gilead.
+- **36:14** 8 Latin words, 16 Hebrew
+   - Latin: Ex Oolībāmā autem sustulit Jeum, Jalāmum et Cōram.
+   - 1738: Ex Oolibama autem sustulit Ieum, Ialamum et Coram.
+   - WLC: וְאֵ֣לֶּה הָי֗וּ בְּנֵ֨י אָהֳלִיבָמָ֧ה בַת־עֲנָ֛ה בַּת־צִבְע֖וֹן אֵ֣שֶׁת עֵשָׂ֑ו וַתֵּ֣לֶד לְעֵשָׂ֔ו אֶת־יעיש וְאֶת־יַעְלָ֖ם וְאֶת־קֹֽרַח׃
+   - Vulgate: Isti quoque erant filii Oolibama filiæ Anæ filiæ Sebeon, uxoris Esau, quos genuit ei, Jehus et Ihelon et Core.
+   - LXX: Οὗτοι δὲ υἱοὶ Ὀλιβεμὰς θυγατρὸς Ἀνὰ τοῦ υἱοῦ Σεβεγὼν, γυναικὸς Ἡσαῦ· ἔτεκε δὲ τῷ Ἡσαῦ τὸν Ἰεοὺς, καὶ τὸν Ἰεγλὸμ, καὶ τὸν Κορέ.
+   - BSB: These are the sons of Esau’s wife Oholibamah (daughter of Anah and granddaughter of Zibeon) whom she bore to Esau: Jeush, Jalam, and Korah.
+   - KJV: ¶ And these were the sons of Aholibamah, the daughter of Anah the daughter of Zibeon, Esau’s wife: and she bare to Esau Jeush, and Jaalam, and Korah.
+- **41:46** 7 Latin words, 17 Hebrew
+   - Latin: (tot enim habēbat, cum ante Pharaōnem cōnstitit)
+   - 1738: tot enim habebat, quum ante Pharaonem constitit)
+   - WLC: וְיוֹסֵף֙ בֶּן־שְׁלֹשִׁ֣ים שָׁנָ֔ה בְּעָמְד֕וֹ לִפְנֵ֖י פַּרְעֹ֣ה מֶֽלֶךְ־מִצְרָ֑יִם וַיֵּצֵ֤א יוֹסֵף֙ מִלִּפְנֵ֣י פַרְעֹ֔ה וַֽיַּעְבֹ֖ר בְּכָל־אֶ֥רֶץ מִצְרָֽיִם׃
+   - Vulgate: (triginta autem annorum erat quando stetit in conspectu regis Pharaonis), et circuivit omnes regiones Ægypti.
+   - LXX: Ἰωσὴφ δὲ ἦν ἐτῶν τριάκοντα, ὅτε ἔστη ἐναντίον Φαραὼ βασιλέως Αἰγύπτου· ἐξῆλθε δὲ Ἰωσὴφ ἀπὸ προσώπου Φαραὼ, καὶ διῆλθε πᾶσαν γῆν Αἰγύπτου.
+   - BSB: Now Joseph was thirty years old when he entered the service of Pharaoh king of Egypt. And Joseph left Pharaoh’s presence and traveled throughout the land of Egypt.
+   - KJV: ¶ And Joseph was thirty years old when he stood before Pharaoh king of Egypt. And Joseph went out from the presence of Pharaoh, and went throughout all the land of Egypt.
+- **44:4** 8 Latin words, 22 Hebrew
+   - Latin: nōndum longē ab urbe abessent, mandat Jōsēphus dispēnsātōrī,
+   - 1738: nondum longe ab vrbe abessent, mandat Iosephus dispensatori,
+   - WLC: הֵ֠ם יָֽצְא֣וּ אֶת־הָעִיר֮ לֹ֣א הִרְחִיקוּ֒ וְיוֹסֵ֤ף אָמַר֙ לַֽאֲשֶׁ֣ר עַל־בֵּית֔וֹ ק֥וּם רְדֹ֖ף אַחֲרֵ֣י הָֽאֲנָשִׁ֑ים וְהִשַּׂגְתָּם֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם לָ֛מָּה שִׁלַּמְתֶּ֥ם רָעָ֖ה תַּ֥חַת טוֹבָֽה׃
+   - Vulgate: Jamque urbem exierant, et processerant paululum: tunc Joseph accersito dispensatore domus, Surge, inquit, et persequere viros: et apprehensis dicito: Quare reddidistis malum pro bono?
+   - LXX: Ἐξελθόντων δὲ αὐτῶν τὴν πόλιν, οὐκ ἀπέσχον μακράν· καὶ Ἰωσὴφ εἶπε τῷ ἐπὶ τῆς οἰκίας αὐτοῦ, ἀναστὰς ἐπιδίωξον ὀπίσω τῶν ἀνθρώπων, καὶ καταλήμψῃ αὐτοὺς, καὶ ἐρεῖς αὐτοῖς τί ὅτι ἀνταπεδώκατε πονηρὰ ἀντὶ καλῶν;
+   - BSB: They had not gone far from the city when Joseph told his steward, “Pursue the men at once, and when you overtake them, ask, ‘Why have you repaid good with evil?
+   - KJV: And when they were gone out of the city, and not yet far off, Joseph said unto his steward, Up, follow after the men; and when thou dost overtake them, say unto them, Wherefore have ye rewarded evil for good?

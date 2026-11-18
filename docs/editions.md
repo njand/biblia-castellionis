@@ -311,8 +311,27 @@ every place was read on 1738's archive.org page images (`data/review/settled-173
 - **Castellio's marks in the Old Testament**: 1738 prints *G. lect. … H.* (1750 *Gr. lect. … Hebr.*) around readings
   from the Greek, e.g. Gen 21:9 *pepererat G. Isaaco filio suo H. illudentem*, the Septuagint's μετὰ Ἰσαὰκ τοῦ υἱοῦ
   αὐτῆς; the 1573 New Testament marks *L. … G.* in the same way.
+- **The marks in Genesis, and readings against the Hebrew** (the OT notes search, 2026-11-18, `data/review/gen-notes.md`):
+  the 1738 and 1750 OCRs show five marked places, 4:8, 11:12–13 (Cainan, with the Septuagint), 21:9, 32:29 (*G.L.
+  quippe quod esset mirabile, H.*, read on 1738 leaf 94; not in Brenton's LXX, so Castellio's Greek source there is
+  unidentified) and 44:6. The OCR may miss marks. 1750 also marks *G. L. et Mariam eorum sororem H.* at Exod 6:20.
+  Both printings have 8:14 *septimodecimo* (the Hebrew 27th) and 29:27–28 the second seven years before Rachel (the
+  Hebrew a week; Josephus, *Ant.* 1.302, as Castellio). At 44:2 1573 prints *ſcyphum ſuum aureum* (canvas 53, read on
+  the page), as do 1726 and 1738; **1750 corrects it to *argenteum*** (the Hebrew, and Castellio's own 44:6): a
+  posthumous editor's correction, or a reading of an earlier printing (1551–1556 not checked).
 - **1738's footnotes**: lettered glosses at the foot of the page (2:11–13 name the rivers *Ganges* and *Nilus*), not
   printed in the edition.
+
+### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
+
+Five places where Castellio's text departs from the Hebrew stand in 1551 (Google Books BrlIAAAAcAAJ, read by Nathan),
+1573 (MDZ OCR, for three of them), 1738 and 1750, so they are his own and not a later printer's (`data/review/exod-notes.md`):
+23:6 *Inimici tui ius* (Hebrew "your poor"); 28:24 *argenteas catenulas* (gold; his own 28:14, 28:22 gold); 34:26
+*Haedum in sanguine matris suae* (milk; his own 23:19 *in lacte*); 36:18 *vncos aureos* (bronze; his own 26:11 *ex
+aere*); 40:3 the ark covered with the mercy seat instead of screened by the veil. At 40:3 1551 reads *Ibi arcam
+oraculi propitiatorio tectam collocato*, revised by 1573 to *Ibi arcam oraculi collocato, et propitiatorio tegito*
+(the same sense). Castellio's *G.* … *H.* marks in Exodus, in 1738 and 1750: 2:22 (Eliezer), 6:20 (Miriam), 28:33–34
+(*et bysso bilice*).
 
 ### Castellio's annotation on *rudentem* (Matt 19:24), seen in 1573
 
@@ -534,6 +553,16 @@ his last year, Rotterdam; first printed in full 1981, Mahlmann-Bauer); editions 
   two chapters a day in German while the others followed the Latin; finding that every later edition had copied 1573's
   errors, he got the 1551 folio and restored readings from it, admitting nothing not found in some edition of
   Castellio (pp. 2–3, page images). He calls Castellio *vir latinissimus*.
+  - His specimens of the restored places (1738 preface, read in the OCR only, 2026-11-18, `sources/archive/1738/text.txt`
+    lines 505–560): Gen 42:36 *nusquam* from 1551 for 1573's *numquam*; Exod 8:19 *occalluit animo* from the first
+    edition for 1573's *occaluit* and the Leipzig printers' *occultavit* (he compares the LXX ἐσκληρύνθη and Castellio's
+    *occallebant* at Acts 19:9); Exod 34:11 *Pherezaeos, Hevaeos* added after *Hettaeos* from the first edition (missing
+    in 1554, 1573 and later); Deut 28:61 *superetis* (1551) for *superarit*; Deut 31:19 *eis in os inferas* (1551,
+    1554) for 1556 and 1573's *eis in eos inferas*; 3 Kgs 6:7 *advectum* (1551) for *avectum*; 1 Chr 18:4 *corripuitque
+    currus* (1573) corrected to *corrupitque* (1551, 1554); 4 Kgs 22:14 *Asaias* as in v. 12 and the Hebrew. At Deut
+    23:14 he keeps *avertatur* for *aversetur*, as Castellio's own usage. Names of men and places, he says, are wrong in
+    almost every edition, chiefly in Kings, Chronicles and Ezra, and he corrected them from the first edition and the
+    Hebrew. The settled Gen 42:36, Exod 8:19 and 34:11 have his readings.
 - J. M. Gesner's essay in the Gotha New Testament of 1747 is in German, on the same method, which he used at the
   Thomasschule in Leipzig (§13).
 - 1750 has no editor's preface: it prints the 1551 dedication and the *Iudicia*. 1715 prints only Castellio's own

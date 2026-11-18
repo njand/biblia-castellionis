@@ -70,6 +70,11 @@ class Parse(unittest.TestCase):
         self.assertEqual(len(review.select(self.items, everything=True)), 8)
         self.assertEqual([i.number for i in review.select(self.items, numbers=[2])], [2, 2, 2])
 
+    def test_accept_then_reject(self):
+        text = ("## B\n\n**Decision:** accept 1, 2; reject 3 (Nathan: \"Drop #3\")\n\n"
+                + "".join(f"{n}. x\n   **Apply:** `Gen.1.{n}` la: `a` → `b`\n" for n in (1, 2, 3)))
+        self.assertEqual([review.accepted(i) for i in review.parse(text)], [True, True, False])
+
     def test_apply_line_with_condition(self):
         items = review.parse("**Decision:** keep yours\n**Apply** (only if you restore it): `Gen.1.1` la: `a` → `b`\n")
         self.assertEqual(len(items), 1)

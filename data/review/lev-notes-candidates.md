@@ -1,0 +1,230 @@
+# Lev: candidates for light notes
+
+Built by `python -m pipeline notes Lev` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `lev-notes.md`.
+
+Latin: 859 verses (settled); already noted: 4. BSB notes naming a version: 1 verses (against MT 1, with MT 0, other 0); WEB notes besides: 0. Numerals differing from the Hebrew: 31. Latin far shorter than the Hebrew: 3. Castellio's G. … H. marks: 0.
+
+## Versions: the BSB against MT (1 verses)
+
+- **14:31** BSB: LXX and Syriac; Hebrew includes as he is able to afford,
+   - Latin: utrumcumque cōnsequī potuerit, ūnum piāculārem, alterum ad solidum sacrificium, ūnā cum fertō, ac prō illō pūrificandō apud Jōvam supplicātō.
+   - 1738: vtrumcumque consequi potuerit, vnum piacularem, alterum ad solidum sacrificium, vna cum ferto, ac pro illo purificando apud Iouam supplicato.
+   - WLC: אֵ֣ת אֲשֶׁר־תַּשִּׂ֞יג יָד֗וֹ אֶת־הָאֶחָ֥ד חַטָּ֛את וְאֶת־הָאֶחָ֥ד עֹלָ֖ה עַל־הַמִּנְחָ֑ה וְכִפֶּ֧ר הַכֹּהֵ֛ן עַ֥ל הַמִּטַּהֵ֖ר לִפְנֵ֥י יְהוָֽה׃
+   - BSB: one as a sin offering and the other as a burnt offering, together with the grain offering. In this way the priest will make atonement before the LORD for the one to be cleansed.
+   - KJV: Even such as he is able to get, the one for a sin offering, and the other for a burnt offering, with the meat offering: and the priest shall make an atonement for him that is to be cleansed before the LORD.
+
+## Numbers (31 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **3:3** Hebrew none; Latin 2
+   - Latin: Ipse ex hostiā salūtārī Jōvæ in rē dīvīnā obmovētō ōmentum et tōtōs lactēs et ambōs rēnēs ūnā cum eōrum adipe lumbīs adhærente, fibramque jecoris cum rēnibus exēmptam.
+   - 1738: Ipse ex hostia salutari Iouæ in re diuina obmoueto omentum et totos lactes et ambos renes vna cum eorum adipe lumbis adhærente, fibramque iecoris cum renibus exemtam.
+   - WLC: וְהִקְרִיב֙ מִזֶּ֣בַח הַשְּׁלָמִ֔ים אִשֶּׁ֖ה לַיהוָ֑ה אֶת־הַחֵ֙לֶב֙ הַֽמְכַסֶּ֣ה אֶת־הַקֶּ֔רֶב וְאֵת֙ כָּל־הַחֵ֔לֶב אֲשֶׁ֖ר עַל־הַקֶּֽרֶב׃
+   - BSB: From the peace offering he is to bring an offering made by fire to the LORD: the fat that covers the entrails, all the fat that is on them,
+   - KJV: And he shall offer of the sacrifice of the peace offering an offering made by fire unto the LORD; the fat that covereth the inwards, and all the fat that is upon the inwards,
+- **3:4** Hebrew 2; Latin none
+   - Latin: Hoc Aharōnis fīliī in ārā adolentō, super victimam rogālī struī impositam,
+   - 1738: Hoc Aharonis filii in ara adolento, super victimam rogali strui impositam,
+   - WLC: וְאֵת֙ שְׁתֵּ֣י הַכְּלָיֹ֔ת וְאֶת־הַחֵ֙לֶב֙ אֲשֶׁ֣ר עֲלֵהֶ֔ן אֲשֶׁ֖ר עַל־הַכְּסָלִ֑ים וְאֶת־הַיֹּתֶ֙רֶת֙ עַל־הַכָּבֵ֔ד עַל־הַכְּלָי֖וֹת יְסִירֶֽנָּה׃
+   - BSB: both kidneys with the fat on them near the loins, and the lobe of the liver, which he is to remove with the kidneys.
+   - KJV: And the two kidneys, and the fat that is on them, which is by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
+- **3:9** Hebrew none; Latin 2
+   - Latin: Ipse ex hostiā prō salūte Jōvæ lībātō adipem, caudam tōtam ā spīnā penitus revulsam, ōmentum et tōtōs lactēs, ambōs rēnēs cum eōrum adipe lumbīs adhærente,
+   - 1738: Ipse ex hostia pro salute Iouæ libato adipem, caudam totam a spina penitus reuulsam, omentum et totos lactes, ambos renes cum eorum adipe lumbis adhærente,
+   - WLC: וְהִקְרִ֨יב מִזֶּ֣בַח הַשְּׁלָמִים֮ אִשֶּׁ֣ה לַיהוָה֒ חֶלְבּוֹ֙ הָאַלְיָ֣ה תְמִימָ֔ה לְעֻמַּ֥ת הֶעָצֶ֖ה יְסִירֶ֑נָּה וְאֶת־הַחֵ֙לֶב֙ הַֽמְכַסֶּ֣ה אֶת־הַקֶּ֔רֶב וְאֵת֙ כָּל־הַחֵ֔לֶב אֲשֶׁ֖ר עַל־הַקֶּֽרֶב׃
+   - BSB: And from the peace offering he shall bring an offering made by fire to the LORD consisting of its fat: the entire fat tail cut off close to the backbone, the fat that covers the entrails, all the fat that is on them,
+   - KJV: And he shall offer of the sacrifice of the peace offering an offering made by fire unto the LORD; the fat thereof, and the whole rump, it shall he take off hard by the backbone; and the fat that covereth the inwards, and all the fat that is upon the inwards,
+- **3:10** Hebrew 2; Latin none
+   - Latin: fibramque jecoris cum rēnibus exēmptam.
+   - 1738: fibramque iecoris cum renibus exemtam.
+   - WLC: וְאֵת֙ שְׁתֵּ֣י הַכְּלָיֹ֔ת וְאֶת־הַחֵ֙לֶב֙ אֲשֶׁ֣ר עֲלֵהֶ֔ן אֲשֶׁ֖ר עַל־הַכְּסָלִ֑ים וְאֶת־הַיֹּתֶ֙רֶת֙ עַל־הַכָּבֵ֔ד עַל־הַכְּלָיֹ֖ת יְסִירֶֽנָּה׃
+   - BSB: both kidneys with the fat on them near the loins, and the lobe of the liver, which he is to remove with the kidneys.
+   - KJV: And the two kidneys, and the fat that is upon them, which is by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
+- **3:14** Hebrew none; Latin 2
+   - Latin: Ipse ex eō Jōvæ lībātō ōmentum, et lactēs tōtōs, ambōs rēnēs cum eōrum adipe, quī est super lumbīs,
+   - 1738: Ipse ex eo Iouæ libato omentum, et lactes totos, ambos renes cum eorum adipe, qui est super lumbis,
+   - WLC: וְהִקְרִ֤יב מִמֶּ֙נּוּ֙ קָרְבָּנ֔וֹ אִשֶּׁ֖ה לַֽיהוָ֑ה אֶת־הַחֵ֙לֶב֙ הַֽמְכַסֶּ֣ה אֶת־הַקֶּ֔רֶב וְאֵת֙ כָּל־הַחֵ֔לֶב אֲשֶׁ֖ר עַל־הַקֶּֽרֶב׃
+   - BSB: And from his offering he shall present an offering made by fire to the LORD: the fat that covers the entrails, all the fat that is on them,
+   - KJV: And he shall offer thereof his offering, even an offering made by fire unto the LORD; the fat that covereth the inwards, and all the fat that is upon the inwards,
+- **3:15** Hebrew 2; Latin none
+   - Latin: fibramque jecoris cum rēnibus exēmptam. Hæc pontifex in ārā adolētō,
+   - 1738: fibramque iecoris cum renibus exemtam. Hæc pontifex in ara adoleto,
+   - WLC: וְאֵת֙ שְׁתֵּ֣י הַכְּלָיֹ֔ת וְאֶת־הַחֵ֙לֶב֙ אֲשֶׁ֣ר עֲלֵהֶ֔ן אֲשֶׁ֖ר עַל־הַכְּסָלִ֑ים וְאֶת־הַיֹּתֶ֙רֶת֙ עַל־הַכָּבֵ֔ד עַל־הַכְּלָיֹ֖ת יְסִירֶֽנָּה׃
+   - BSB: both kidneys with the fat on them near the loins, and the lobe of the liver, which he is to remove with the kidneys.
+   - KJV: And the two kidneys, and the fat that is upon them, which is by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
+- **4:8** Hebrew none; Latin 2
+   - Latin: Omnem autem piāculāris taurī adipem ex eō dētrahitō: ōmentum et tōtōs lactēs, et ambōs rēnēs cum eōrum adipe lumbīs adhærente,
+   - 1738: Omnem autem piacularis tauri adipem ex eo detrahito: omentum et totos lactes, et ambos renes cum eorum adipe lumbis adhærente,
+   - WLC: וְאֶת־כָּל־חֵ֛לֶב פַּ֥ר הַֽחַטָּ֖את יָרִ֣ים מִמֶּ֑נּוּ אֶת־הַחֵ֙לֶב֙ הַֽמְכַסֶּ֣ה עַל־הַקֶּ֔רֶב וְאֵת֙ כָּל־הַחֵ֔לֶב אֲשֶׁ֖ר עַל־הַקֶּֽרֶב׃
+   - BSB: Then he shall remove all the fat from the bull of the sin offering—the fat that covers the entrails, all the fat that is on them,
+   - KJV: And he shall take off from it all the fat of the bullock for the sin offering; the fat that covereth the inwards, and all the fat that is upon the inwards,
+- **4:9** Hebrew 2; Latin none
+   - Latin: fibramque jecoris cum rēnibus dēmptam,
+   - 1738: fibramque iecoris cum renibus demtam,
+   - WLC: וְאֵת֙ שְׁתֵּ֣י הַכְּלָיֹ֔ת וְאֶת־הַחֵ֙לֶב֙ אֲשֶׁ֣ר עֲלֵיהֶ֔ן אֲשֶׁ֖ר עַל־הַכְּסָלִ֑ים וְאֶת־הַיֹּתֶ֙רֶת֙ עַל־הַכָּבֵ֔ד עַל־הַכְּלָי֖וֹת יְסִירֶֽנָּה׃
+   - BSB: both kidneys with the fat on them near the loins, and the lobe of the liver, which he is to remove with the kidneys—
+   - KJV: And the two kidneys, and the fat that is upon them, which is by the flanks, and the caul above the liver, with the kidneys, it shall he take away,
+- **5:15** Hebrew none; Latin 2
+   - Latin: addūcitō prō noxā suā ad Jōvam arietem integrum dē pecore noxālem, quī æstimētur argentī siclīs duōbus, sacrī ponderis.
+   - 1738: adducito pro noxa sua ad Iouam arietem integrum de pecore noxalem, qui æstimetur argenti siclis duobus, sacri ponderis.
+   - WLC: נֶ֚פֶשׁ כִּֽי־תִמְעֹ֣ל מַ֔עַל וְחָֽטְאָה֙ בִּשְׁגָגָ֔ה מִקָּדְשֵׁ֖י יְהוָ֑ה וְהֵבִיא֩ אֶת־אֲשָׁמ֨וֹ לַֽיהוָ֜ה אַ֧יִל תָּמִ֣ים מִן־הַצֹּ֗אן בְּעֶרְכְּךָ֛ כֶּֽסֶף־שְׁקָלִ֥ים בְּשֶֽׁקֶל־הַקֹּ֖דֶשׁ לְאָשָֽׁם׃
+   - BSB: “If someone acts unfaithfully and sins unintentionally against any of the LORD’s holy things, he must bring his guilt offering to the LORD: an unblemished ram from the flock, of proper value in silver shekels according to the sanctuary shekel; it is a guilt offering.
+   - KJV: If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then he shall bring for his trespass unto the LORD a ram without blemish out of the flocks, with thy estimation by shekels of silver, after the shekel of the sanctuary, for a trespass offering:
+- **8:2** Hebrew 2; Latin none
+   - Latin: utī adhibitō Aharōne ūnā cum ejus fīliīs vestibusque et oleō ūnctōriō, et piāculārī taurō duōbusque arietibus, et canistrō pānum sine fermentō,
+   - 1738: vti adhibito Aharone vna cum eius filiis vestibusque et oleo vnctorio, et piaculari tauro duobusque arietibus, et canistro panum sine fermento,
+   - WLC: קַ֤ח אֶֽת־אַהֲרֹן֙ וְאֶת־בָּנָ֣יו אִתּ֔וֹ וְאֵת֙ הַבְּגָדִ֔ים וְאֵ֖ת שֶׁ֣מֶן הַמִּשְׁחָ֑ה וְאֵ֣ת ׀ פַּ֣ר הַֽחַטָּ֗את וְאֵת֙ שְׁנֵ֣י הָֽאֵילִ֔ים וְאֵ֖ת סַ֥ל הַמַּצּֽוֹת׃
+   - BSB: “Take Aaron and his sons, their garments, the anointing oil, the bull of the sin offering, the two rams, and the basket of unleavened bread,
+   - KJV: Take Aaron and his sons with him, and the garments, and the anointing oil, and a bullock for the sin offering, and two rams, and a basket of unleavened bread;
+- **11:20** Hebrew 4; Latin none
+   - Latin: Omnia moventia volucria quadrupeda abhorrētōte.
+   - 1738: Omnia mouentia volucria quadrupeda abhorretote.
+   - WLC: כֹּ֚ל שֶׁ֣רֶץ הָע֔וֹף הַהֹלֵ֖ךְ עַל־אַרְבַּ֑ע שֶׁ֥קֶץ ה֖וּא לָכֶֽם׃ ס
+   - BSB: All flying insects that walk on all fours are detestable to you.
+   - KJV: All fowls that creep, going upon all four, shall be an abomination unto you.
+- **11:21** Hebrew 4; Latin none
+   - Latin: Tantum dē tōtō moventium ālātōrum quadrupedum genere iīs vēsciminī, quæ suprā pedēs crūra nōn habent ad saliendum humī, quæ quidem sunt hæc:
+   - 1738: Tantum de toto mouentium alatorum quadrupedum genere eis vescimini, quæ supra pedes crura non habent ad saliendum humi, quæ quidem sunt hæc:
+   - WLC: אַ֤ךְ אֶת־זֶה֙ תֹּֽאכְל֔וּ מִכֹּל֙ שֶׁ֣רֶץ הָע֔וֹף הַהֹלֵ֖ךְ עַל־אַרְבַּ֑ע אֲשֶׁר־לא כְרָעַ֙יִם֙ מִמַּ֣עַל לְרַגְלָ֔יו לְנַתֵּ֥ר בָּהֵ֖ן עַל־הָאָֽרֶץ׃
+   - BSB: However, you may eat the following kinds of flying insects that walk on all fours: those having jointed legs above their feet for hopping on the ground.
+   - KJV: Yet these may ye eat of every flying creeping thing that goeth upon all four, which have legs above their feet, to leap withal upon the earth;
+- **11:23** Hebrew 4; Latin none
+   - Latin: At omnia humī serpentia volucria quadrupeda abhorrētōte, et ab hīs polluēminī.
+   - 1738: At omnia humi serpentia volucria quadrupeda abhorretote, et ab his polluemini.
+   - WLC: וְכֹל֙ שֶׁ֣רֶץ הָע֔וֹף אֲשֶׁר־ל֖וֹ אַרְבַּ֣ע רַגְלָ֑יִם שֶׁ֥קֶץ ה֖וּא לָכֶֽם׃
+   - BSB: All other flying insects that have four legs are detestable to you.
+   - KJV: But all other flying creeping things, which have four feet, shall be an abomination unto you.
+- **11:27** Hebrew 4; Latin none
+   - Latin: Omnia palmipeda ex omnibus quadrupedibus animālibus immunda habētōte: eōrum cadāvera quisquis attigerit, pollūtus estō ad vesperum:
+   - 1738: Omnia palmipeda ex omnibus quadrupedibus animalibus immunda habetote: eorum cadauera quisquis attigerit, pollutus esto ad vesperum:
+   - WLC: וְכֹ֣ל ׀ הוֹלֵ֣ךְ עַל־כַּפָּ֗יו בְּכָל־הַֽחַיָּה֙ הַהֹלֶ֣כֶת עַל־אַרְבַּ֔ע טְמֵאִ֥ים הֵ֖ם לָכֶ֑ם כָּל־הַנֹּגֵ֥עַ בְּנִבְלָתָ֖ם יִטְמָ֥א עַד־הָעָֽרֶב׃
+   - BSB: All the four-footed animals that walk on their paws are unclean for you; whoever touches their carcasses will be unclean until evening,
+   - KJV: And whatsoever goeth upon his paws, among all manner of beasts that go on all four, those are unclean unto you: whoso toucheth their carcase shall be unclean until the even.
+- **11:42** Hebrew 4; Latin none
+   - Latin: Quidquid in ventrem ambulat, quidquid quadrupēs aut multipēs humī rēpit, eō nē vēsciminī: spurcum est.
+   - 1738: Quidquid in ventrem ambulat, quidquid quadrupes aut multipes humi repit, eo ne vescimini: spurcum est.
+   - WLC: כֹּל֩ הוֹלֵ֨ךְ עַל־'l s="H1512"'גָּח֜'seg type="x-large"'וֹ'seg'ן'/l' וְכֹ֣ל ׀ הוֹלֵ֣ךְ עַל־אַרְבַּ֗ע עַ֚ד כָּל־מַרְבֵּ֣ה רַגְלַ֔יִם לְכָל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֣ץ עַל־הָאָ֑רֶץ לֹ֥א תֹאכְל֖וּם כִּי־שֶׁ֥קֶץ הֵֽם׃
+   - BSB: Do not eat any creature that moves along the ground, whether it crawls on its belly or walks on four or more feet; for such creatures are detestable.
+   - KJV: Whatsoever goeth upon the belly, and whatsoever goeth upon all four, or whatsoever hath more feet among all creeping things that creep upon the earth, them ye shall not eat; for they are an abomination.
+- **12:5** Hebrew 6, 60; Latin 2, 6, 7, 60
+   - Latin: Sīn autem fēminam ēdiderit, bis septem diēs pollūta estō: hoc est, bis tam diū, quamdiū dūrant mēnstrua, ac sex et sexāgintā diēs in cruōre suæ pūrificātiōnis estō.
+   - 1738: Sin autem feminam ediderit, bis septem dies polluta esto: hoc est, bis tamdiu, quamdiu durant menstrua, ac sex et sexaginta dies in cruore suæ purificationis esto.
+   - WLC: וְאִם־נְקֵבָ֣ה תֵלֵ֔ד וְטָמְאָ֥ה שְׁבֻעַ֖יִם כְּנִדָּתָ֑הּ וְשִׁשִּׁ֥ים יוֹם֙ וְשֵׁ֣שֶׁת יָמִ֔ים תֵּשֵׁ֖ב עַל־דְּמֵ֥י טָהֳרָֽה׃
+   - BSB: If, however, she gives birth to a daughter, the woman will be unclean for two weeks as she is during her menstruation. Then she must continue in purification from her bleeding for sixty-six days.
+   - KJV: But if she bear a maid child, then she shall be unclean two weeks, as in her separation: and she shall continue in the blood of her purifying threescore and six days.
+- **13:6** Hebrew 2, 7; Latin 7
+   - Latin: Septimō diē iterum aspicitō: quod sī obscūrior affectus erit, neque per cutem incrēverit, pūrum prōnūntiātō: scabiēs est: lōtīs vestīmentīs pūrus estō.
+   - 1738: Septimo die iterum adspicito: quod si obscurior adfectus erit, neque per cutem increuerit, purum pronuntiato: scabies est: lotis vestimentis purus esto.
+   - WLC: וְרָאָה֩ הַכֹּהֵ֨ן אֹת֜וֹ בַּיּ֣וֹם הַשְּׁבִיעִי֮ שֵׁנִית֒ וְהִנֵּה֙ כֵּהָ֣ה הַנֶּ֔גַע וְלֹא־פָשָׂ֥ה הַנֶּ֖גַע בָּע֑וֹר וְטִהֲר֤וֹ הַכֹּהֵן֙ מִסְפַּ֣חַת הִ֔יא וְכִבֶּ֥ס בְּגָדָ֖יו וְטָהֵֽר׃
+   - BSB: The priest will examine him again on the seventh day, and if the sore has faded and has not spread on the skin, the priest shall pronounce him clean; it is a rash. The person must wash his clothes and be clean.
+   - KJV: And the priest shall look on him again the seventh day: and, behold, if the plague be somewhat dark, and the plague spread not in the skin, the priest shall pronounce him clean: it is but a scab: and he shall wash his clothes, and be clean.
+- **13:7** Hebrew 2; Latin none
+   - Latin: Sīn autem per cutem scabiēs excrēverit, postquam ille sacerdōtī ostēnsus ad pūrgandum fuerit, iterum sacerdōtī ostenditor:
+   - 1738: Sin autem per cutem scabies excreuerit, postquam ille sacerdoti ostensus ad purgandum fuerit, iterum sacerdoti ostenditor:
+   - WLC: וְאִם־פָּשֹׂ֨ה תִפְשֶׂ֤ה הַמִּסְפַּ֙חַת֙ בָּע֔וֹר אַחֲרֵ֧י הֵרָאֹת֛וֹ אֶל־הַכֹּהֵ֖ן לְטָהֳרָת֑וֹ וְנִרְאָ֥ה שֵׁנִ֖ית אֶל־הַכֹּהֵֽן׃
+   - BSB: But if the rash spreads further on his skin after he has shown himself to the priest for his cleansing, he must present himself again to the priest.
+   - KJV: But if the scab spread much abroad in the skin, after that he hath been seen of the priest for his cleansing, he shall be seen of the priest again:
+- **13:33** Hebrew 2, 7; Latin 7
+   - Latin: tondeātur, intōnsā tamen porrīgine: eumque sacerdōs iterum in septem diēs conclūditō.
+   - 1738: tondeatur, intonsa tamen porrigine. eumque sacerdos iterum in septem dies concludito.
+   - WLC: וְהִ֨תְגַּלָּ֔ח וְאֶת־הַנֶּ֖תֶק לֹ֣א יְגַלֵּ֑חַ וְהִסְגִּ֨יר הַכֹּהֵ֧ן אֶת־הַנֶּ֛תֶק שִׁבְעַ֥ת יָמִ֖ים שֵׁנִֽית׃
+   - BSB: then the person must shave himself except for the scaly area. Then the priest shall isolate him for another seven days.
+   - KJV: He shall be shaven, but the scall shall he not shave; and the priest shall shut up him that hath the scall seven days more:
+- **13:54** Hebrew 2, 7; Latin 7
+   - Latin: atque id in septem diēs iterum conclūdet.
+   - 1738: atque id in septem dies iterum concludet.
+   - WLC: וְצִוָּה֙ הַכֹּהֵ֔ן וְכִ֨בְּס֔וּ אֵ֥ת אֲשֶׁר־בּ֖וֹ הַנָּ֑גַע וְהִסְגִּיר֥וֹ שִׁבְעַת־יָמִ֖ים שֵׁנִֽית׃
+   - BSB: the priest is to order the contaminated article to be washed and isolated for another seven days.
+   - KJV: Then the priest shall command that they wash the thing wherein the plague is, and he shall shut it up seven days more:
+- **13:58** Hebrew 2; Latin none
+   - Latin: Quod autem ex lōtiōne morbum āmīserit, iterum lavātor, et mundum estō.
+   - 1738: Quod autem ex lotione morbum amiserit, iterum lauator, et mundum esto.
+   - WLC: וְהַבֶּ֡גֶד אֽוֹ־הַשְּׁתִ֨י אוֹ־הָעֵ֜רֶב אֽוֹ־כָל־כְּלִ֤י הָעוֹר֙ אֲשֶׁ֣ר תְּכַבֵּ֔ס וְסָ֥ר מֵהֶ֖ם הַנָּ֑גַע וְכֻבַּ֥ס שֵׁנִ֖ית וְטָהֵֽר׃
+   - BSB: If the mildew disappears from the fabric, weave, or knit, or any leather article after washing, then it is to be washed again, and it will be clean.
+   - KJV: And the garment, either warp, or woof, or whatsoever thing of skin it be, which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean.
+- **15:28** Hebrew 7; Latin none
+   - Latin: “Quisquis ea attigerit, polluētur, vestīmenta lavātō, aquāque perfunditor, et ad vesperum pollūtus estō.
+   - 1738: Quisquis ea attigerit, polluetur, vestimenta lauato, aquaque perfunditor, et ad vesperum pollutus esto.
+   - WLC: וְאִֽם־טָהֲרָ֖ה מִזּוֹבָ֑הּ וְסָ֥פְרָה לָּ֛הּ שִׁבְעַ֥ת יָמִ֖ים וְאַחַ֥ר תִּטְהָֽר׃
+   - BSB: When a woman is cleansed of her discharge, she must count off seven days, and after that she will be ceremonially clean.
+   - KJV: But if she be cleansed of her issue, then she shall number to herself seven days, and after that she shall be clean.
+- **15:29** Hebrew 2, 8; Latin 7
+   - Latin: Quod sī flūxū pūrgāta fuerit, agat diēs numerō septem, et ita dēmum pūra estō.
+   - 1738: Quod si fluxu purgata fuerit, agat dies numero septem, et ita demum pura esto.
+   - WLC: וּבַיּ֣וֹם הַשְּׁמִינִ֗י תִּֽקַּֽח־לָהּ֙ שְׁתֵּ֣י תֹרִ֔ים א֥וֹ שְׁנֵ֖י בְּנֵ֣י יוֹנָ֑ה וְהֵבִיאָ֤ה אוֹתָם֙ אֶל־הַכֹּהֵ֔ן אֶל־פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃
+   - BSB: On the eighth day she is to take two turtledoves or two young pigeons and bring them to the priest at the entrance to the Tent of Meeting.
+   - KJV: And on the eighth day she shall take unto her two turtles, or two young pigeons, and bring them unto the priest, to the door of the tabernacle of the congregation.
+- **15:30** Hebrew none; Latin 2, 8
+   - Latin: Diē octāvō sūmitō duōs turturēs, aut duōs columbā nātōs, eōsque ad sacerdōtem affertō ad portam ōrāculāris tabernāculī, quōrum ūnum sacerdōs ad piāculum faciat, alterum solidō sacrificiō, et prō eā apud Jōvam supplicet ob ejus immundum flūxum.
+   - 1738: Die octauo sumito duos turtures, aut duos columba natos, eosque ad sacerdotem adferto ad portam oracularis tabernaculi, quorum vnum sacerdos ad piaculum faciat, alterum solido sacrificio, et pro ea apud Iouam supplicet ob eius immundum fluxum.
+   - WLC: וְעָשָׂ֤ה הַכֹּהֵן֙ אֶת־הָאֶחָ֣ד חַטָּ֔את וְאֶת־הָאֶחָ֖ד עֹלָ֑ה וְכִפֶּ֨ר עָלֶ֤יהָ הַכֹּהֵן֙ לִפְנֵ֣י יְהוָ֔ה מִזּ֖וֹב טֻמְאָתָֽהּ׃
+   - BSB: The priest is to sacrifice one as a sin offering and the other as a burnt offering. In this way the priest will make atonement for her before the LORD for her unclean discharge.
+   - KJV: And the priest shall offer the one for a sin offering, and the other for a burnt offering; and the priest shall make an atonement for her before the LORD for the issue of her uncleanness.
+- **16:29** Hebrew 7; Latin 7, 10
+   - Latin: “Hoc īnstitūtō sempiternō tenētōte. Mēnsis septimī diē decimō jejūnātōte, nēve vestrum quisquam vel indigena vel peregrīnus inter vōs dēgēns ūllum opus faciat.
+   - 1738: Hoc instituto sempiterno tenetote. Mensis septimi die decimo ieiunatote, neue vestrum quisquam vel indigena vel peregrinus inter vos degens vllum opus faciat.
+   - WLC: וְהָיְתָ֥ה לָכֶ֖ם לְחֻקַּ֣ת עוֹלָ֑ם בַּחֹ֣דֶשׁ הַ֠שְּׁבִיעִי בֶּֽעָשׂ֨וֹר לַחֹ֜דֶשׁ תְּעַנּ֣וּ אֶת־נַפְשֹֽׁתֵיכֶ֗ם וְכָל־מְלָאכָה֙ לֹ֣א תַעֲשׂ֔וּ הָֽאֶזְרָ֔ח וְהַגֵּ֖ר הַגָּ֥ר בְּתוֹכְכֶֽם׃
+   - BSB: This is to be a permanent statute for you: On the tenth day of the seventh month, you shall humble yourselves and not do any work—whether the native or the foreigner who resides among you—
+   - KJV: ¶ And this shall be a statute for ever unto you: that in the seventh month, on the tenth day of the month, ye shall afflict your souls, and do no work at all, whether it be one of your own country, or a stranger that sojourneth among you:
+- **23:13** Hebrew 2, 4, 10; Latin 2, 10
+   - Latin: ūnā cum ejus fertō, vidēlicet duābus silīginis in oleō subāctæ decimīs, Jōvæ rem dīvīnam ad odōris suāvitātem; tum vīnī lībāmine, vidēlicet quadrante hīnis.
+   - 1738: vna cum eius ferto, videlicet duabus siliginis in oleo subactæ decimis, Iouæ rem diuinam ad odoris suauitatem; tum vini libamine, videlicet quadrante hinis.
+   - WLC: וּמִנְחָתוֹ֩ שְׁנֵ֨י עֶשְׂרֹנִ֜ים סֹ֣לֶת בְּלוּלָ֥ה בַשֶּׁ֛מֶן אִשֶּׁ֥ה לַיהוָ֖ה רֵ֣יחַ נִיחֹ֑חַ וְנִסְכֹּ֥ה יַ֖יִן רְבִיעִ֥ת הַהִֽין׃
+   - BSB: along with its grain offering of two-tenths of an ephah of fine flour mixed with oil—an offering made by fire to the LORD, a pleasing aroma—and its drink offering of a quarter hin of wine.
+   - KJV: And the meat offering thereof shall be two tenth deals of fine flour mingled with oil, an offering made by fire unto the LORD for a sweet savour: and the drink offering thereof shall be of wine, the fourth part of an hin.
+- **23:26** Hebrew none; Latin 7, 10
+   - Latin: “Decimus autem diēs mēnsis septimī,” inquit, “
+   - 1738: Decimus autem dies mensis septimi, inquit,
+   - WLC: וַיְדַבֵּ֥ר יְהוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃
+   - BSB: Again the LORD said to Moses,
+   - KJV: ¶ And the LORD spake unto Moses, saying,
+- **23:27** Hebrew 7; Latin none
+   - Latin: diēs erit propitiātōrius: conventum sacrum habētōte, et jejūnātōte, Jōvæque rem dīvīnam facitōte.
+   - 1738: dies erit propitiatorius: conuentum sacrum habetote, et ieiunatote, Iouæque rem diuinam facitote.
+   - WLC: אַ֡ךְ בֶּעָשׂ֣וֹר לַחֹדֶשׁ֩ הַשְּׁבִיעִ֨י הַזֶּ֜ה י֧וֹם הַכִּפֻּרִ֣ים ה֗וּא מִֽקְרָא־קֹ֙דֶשׁ֙ יִהְיֶ֣ה לָכֶ֔ם וְעִנִּיתֶ֖ם אֶת־נַפְשֹׁתֵיכֶ֑ם וְהִקְרַבְתֶּ֥ם אִשֶּׁ֖ה לַיהוָֽה׃
+   - BSB: “The tenth day of this seventh month is the Day of Atonement. You shall hold a sacred assembly and humble yourselves, and present an offering made by fire to the LORD.
+   - KJV: Also on the tenth day of this seventh month there shall be a day of atonement: it shall be an holy convocation unto you; and ye shall afflict your souls, and offer an offering made by fire unto the LORD.
+- **25:9** Hebrew 7; Latin 7, 10
+   - Latin: tum mēnsis septimī diē decimā, quæ diēs erit propitiātōria,
+   - 1738: tum mensis septimi die decima, quæ dies erit propitiatoria,
+   - WLC: וְהַֽעֲבַרְתָּ֞ שׁוֹפַ֤ר תְּרוּעָה֙ בַּחֹ֣דֶשׁ הַשְּׁבִעִ֔י בֶּעָשׂ֖וֹר לַחֹ֑דֶשׁ בְּיוֹם֙ הַכִּפֻּרִ֔ים תַּעֲבִ֥ירוּ שׁוֹפָ֖ר בְּכָל־אַרְצְכֶֽם׃
+   - BSB: Then you are to sound the horn far and wide on the tenth day of the seventh month, the Day of Atonement. You shall sound it throughout your land.
+   - KJV: Then shalt thou cause the trumpet of the jubile to sound on the tenth day of the seventh month, in the day of atonement shall ye make the trumpet sound throughout all your land.
+- **26:8** Hebrew 5, 100, 10000; Latin 10, 100
+   - Latin: et ita dējiciētis, ut quīnī centēnōs, et centēnī deciēs mīllēnōs in fugam vertātis;
+   - 1738: et ita deiicietis, vt quini centenos, et centeni decies millenos in fugam vertatis;
+   - WLC: וְרָדְפ֨וּ מִכֶּ֤ם חֲמִשָּׁה֙ מֵאָ֔ה וּמֵאָ֥ה מִכֶּ֖ם רְבָבָ֣ה יִרְדֹּ֑פוּ וְנָפְל֧וּ אֹיְבֵיכֶ֛ם לִפְנֵיכֶ֖ם לֶחָֽרֶב׃
+   - BSB: Five of you will pursue a hundred, and a hundred of you will pursue ten thousand, and your enemies will fall by the sword before you.
+   - KJV: And five of you shall chase an hundred, and an hundred of you shall put ten thousand to flight: and your enemies shall fall before you by the sword.
+- **27:3** Hebrew 20, 50, 60; Latin 50, 60
+   - Latin: Et maris quidem ā vīcēnāriō ad sexāgēnārium pretium estō quīnquāgintā argentī siclī sacrī,
+   - 1738: Et maris quidem a vicenario ad sexagenarium pretium esto quinquaginta argenti sicli sacri,
+   - WLC: וְהָיָ֤ה עֶרְכְּךָ֙ הַזָּכָ֔ר מִבֶּן֙ עֶשְׂרִ֣ים שָׁנָ֔ה וְעַ֖ד בֶּן־שִׁשִּׁ֣ים שָׁנָ֑ה וְהָיָ֣ה עֶרְכְּךָ֗ חֲמִשִּׁ֛ים שֶׁ֥קֶל כֶּ֖סֶף בְּשֶׁ֥קֶל הַקֹּֽדֶשׁ׃
+   - BSB: if the valuation concerns a male from twenty to sixty years of age, then your valuation shall be fifty shekels of silver, according to the sanctuary shekel.
+   - KJV: And thy estimation shall be of the male from twenty years old even unto sixty years old, even thy estimation shall be fifty shekels of silver, after the shekel of the sanctuary.
+
+## Short (3 verses)
+
+Latin words against Hebrew words, below 0.5 of the book's median ratio.
+
+- **3:5** 5 Latin words, 16 Hebrew
+   - Latin: cujus flagrantiæ odōre Jōva dēlīniātur.
+   - 1738: cuius flagrantiæ odore Ioua deliniatur.
+   - WLC: וְהִקְטִ֨ירוּ אֹת֤וֹ בְנֵֽי־אַהֲרֹן֙ הַמִּזְבֵּ֔חָה עַל־הָ֣עֹלָ֔ה אֲשֶׁ֥ר עַל־הָעֵצִ֖ים אֲשֶׁ֣ר עַל־הָאֵ֑שׁ אִשֵּׁ֛ה רֵ֥יחַ נִיחֹ֖חַ לַֽיהוָֽה׃ פ
+   - BSB: Then Aaron’s sons are to burn it on the altar atop the burnt offering that is on the burning wood, as an offering made by fire, a pleasing aroma to the LORD.
+   - KJV: And Aaron’s sons shall burn it on the altar upon the burnt sacrifice, which is upon the wood that is on the fire: it is an offering made by fire, of a sweet savour unto the LORD.
+- **13:52** 9 Latin words, 23 Hebrew
+   - Latin: ignī cremātor id quodcumque est: nam rōdēns lepra est.
+   - 1738: igni cremator id quodcumque est: nam rodens lepra est.
+   - WLC: וְשָׂרַ֨ף אֶת־הַבֶּ֜גֶד א֥וֹ אֶֽת־הַשְּׁתִ֣י ׀ א֣וֹ אֶת־הָעֵ֗רֶב בַּצֶּ֙מֶר֙ א֣וֹ בַפִּשְׁתִּ֔ים א֚וֹ אֶת־כָּל־כְּלִ֣י הָע֔וֹר אֲשֶׁר־יִהְיֶ֥ה ב֖וֹ הַנָּ֑גַע כִּֽי־צָרַ֤עַת מַמְאֶ֙רֶת֙ הִ֔וא בָּאֵ֖שׁ תִּשָּׂרֵֽף׃
+   - BSB: He is to burn the fabric, weave, or knit, whether the contaminated item is wool or linen or leather. Since the mildew is harmful, the article must be burned up.
+   - KJV: He shall therefore burn that garment, whether warp or woof, in woollen or in linen, or any thing of skin, wherein the plague is: for it is a fretting leprosy; it shall be burnt in the fire.
+- **18:2** 5 Latin words, 9 Hebrew
+   - Latin: ego sum Jōva Deus vester.
+   - 1738: ego sum Ioua Deus vester.
+   - WLC: דַּבֵּר֙ אֶל־בְּנֵ֣י יִשְׂרָאֵ֔ל וְאָמַרְתָּ֖ אֲלֵהֶ֑ם אֲנִ֖י יְהוָ֥ה אֱלֹהֵיכֶֽם׃
+   - BSB: “Speak to the Israelites and tell them: I am the LORD your God.
+   - KJV: Speak unto the children of Israel, and say unto them, I am the LORD your God.

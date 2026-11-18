@@ -37,7 +37,7 @@ class Conditions(unittest.TestCase):
         self.assertNotIn("Basiliēnsis annī 1573", out)
         self.assertNotIn("⟦ ⟧", out)
         self.assertIn("ā textū Hebræō discēdunt. Ubi sōla verba Hebræa adnotantur", out)
-        self.assertIn("Paucæ etiam vōcēs explicantur quās ipse fīnxit aut Hebræās retinuit.", out)
+        self.assertIn("Paucæ etiam vōcēs explicantur quās ipse fīnxit aut Hebræās retinuit. Versiōnēs antīquās, Græcam", out)
         self.assertNotIn("Cōdicēs antīquiōrēs", out)                    # the NT editions only
         self.assertNotIn("Nōa", out)
 

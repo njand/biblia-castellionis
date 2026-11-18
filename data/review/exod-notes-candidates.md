@@ -1,0 +1,728 @@
+# Exod: candidates for light notes
+
+Built by `python -m pipeline notes Exod` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `exod-notes.md`.
+
+Latin: 1213 verses (settled); already noted: 5. BSB notes naming a version: 11 verses (against MT 2, with MT 2, other 7); WEB notes besides: 0. Numerals differing from the Hebrew: 60. Latin far shorter than the Hebrew: 17. Castellio's G. … H. marks: 3.
+
+## Castellio's marks (3 verses)
+
+*G.* (*G.L.*, 1750 *Gr. lect.*) … *H.*: a reading he took from the Greek, found in the raw OCR of 1738 and 1750 and placed by the words around it (check the verse).
+
+- **2:22** 1738: terra  extranca.  G\  Item  alterum , / quern  Eliezerem  nominauit ,  quod | 1750: terra extranea. G. ltem alterum, / quem Eliezerem nominauit, quod
+   - Latin: ex quā fīlium sustulit, quem Gērsōmum appellāvit, quia peregrīnus esset in terrā extrāneā. Item alterum, quem Eliezerem nōmināvit, quod Deus patrius eī subvēnisset, eumque ā Pharaōnis injūriā līberāsset.
+   - 1738: ex qua filium sustulit, quem Gersomum adpellauit, quia peregrinus esset in terra extranea. Item alterum, quem Eliezerem nominauit, quod Deus patrius ei subuenisset, eumque a Pharaonis iniuria liberasset.
+   - WLC: וַתֵּ֣לֶד בֵּ֔ן וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ גֵּרְשֹׁ֑ם כִּ֣י אָמַ֔ר גֵּ֣ר הָיִ֔יתִי בְּאֶ֖רֶץ נָכְרִיָּֽה׃ פ
+   - Vulgate: quæ peperit ei filium, quem vocavit Gersam, dicens: Advena fui in terra aliena. Alterum vero peperit, quem vocavit Eliezer, dicens: Deus enim patris mei adjutor meus eripuit me de manu Pharaonis.
+   - LXX: Ἐν γαστρὶ δὲ λαβοῦσα ἡ γυνὴ ἔτεκεν υἱόν· καὶ ἐπωνόμασε Μωυσῆς τὸ ὄνομα αὐτοῦ Γηρσάμ, λέγων, ὅτι παροικός εἰμι ἐν γῇ ἀλλοτρίᾳ.
+   - BSB: And she gave birth to a son, and Moses named him Gershom, saying, “I have become a foreigner in a foreign land.”
+   - KJV: And she bare him a son, and he called his name Gershom: for he said, I have been a stranger in a strange land.
+- **6:20** 1738: G.L. /  | 1750: G. L. et Mariam eorum fororem, / H. vixitque Amramus annos cen-
+   - Latin: Habuit autem Amrāmus Jacobedam amitam suam in mātrimōniō, ex quā sustulit Aharōnem et Mōsem et Marīam eōrum sorōrem, vīxitque Amrāmus annōs centum trīgintā septem.
+   - 1738: Habuit autem Amramus Iacobedam amitam suam in matrimonio, ex qua sustulit Aharonem et Mosem et Mariam eorum sororem, vixitque Amramus annos centum triginta septem.
+   - WLC: וַיִּקַּ֨ח עַמְרָ֜ם אֶת־יוֹכֶ֤בֶד דֹּֽדָתוֹ֙ ל֣וֹ לְאִשָּׁ֔ה וַתֵּ֣לֶד ל֔וֹ אֶֽת־אַהֲרֹ֖ן וְאֶת־מֹשֶׁ֑ה וּשְׁנֵי֙ חַיֵּ֣י עַמְרָ֔ם שֶׁ֧בַע וּשְׁלֹשִׁ֛ים וּמְאַ֖ת שָׁנָֽה׃
+   - Vulgate: Accepit autem Amram uxorem Jochabed patruelem suam: quæ peperit ei Aaron et Moysen. Fueruntque anni vitæ Amram, centum triginta septem.
+   - LXX: Καὶ ἔλαβεν Ἀμβρὰν τὴν Ἰωχαβὲδ, θυγατέρα τοῦ ἀδελφοῦ τοῦ πατρὸς αὐτοῦ, ἑαυτῷ εἰς γυναῖκα· καὶ ἐγέννησεν αὐτῷ τόν τε Ἀαρὼν καὶ τὸν Μωυσῆν, καὶ Μαριὰμ τὴν ἀδελφὴν αὐτῶν· τὰ δὲ ἔτη τῆς ζωῆς Ἀμβρὰμ, ἑκατὸν τριάκοντα δύο ἔτη.
+   - BSB: And Amram married his father’s sister Jochebed, and she bore him Aaron and Moses. Amram lived 137 years.
+   - KJV: And Amram took him Jochebed his father’s sister to wife; and she bare him Aaron and Moses: and the years of the life of Amram were an hundred and thirty and seven years.
+- **28:34** 1738: cintho ,  purpura  et  cocco  iterato,  G. / L.  et  bysfo  bilice  H.  et  eis  tintin- | 1750: cintho, purpura et cocco iterato, G. / 
+   - Latin: ex hyacinthō, purpurā et coccō iterātō, et byssō bilīce, et iīs tintinnābula aurea alterna interpōnitō.
+   - 1738: ex hyacintho, purpura et cocco iterato, et bysso bilice et eis tintinnabula aurea alterna interponito.
+   - WLC: פַּעֲמֹ֤ן זָהָב֙ וְרִמּ֔וֹן פַּֽעֲמֹ֥ן זָהָ֖ב וְרִמּ֑וֹן עַל־שׁוּלֵ֥י הַמְּעִ֖יל סָבִֽיב׃
+   - Vulgate: ita ut tintinnabulum sit aureum et malum punicum: rursumque tintinnabulum aliud aureum et malum punicum.
+   - LXX: Παρὰ ῥοΐσκον χρυσοῦν δώδωνα, καὶ ἄνθινον ἐπὶ τοῦ λώματος τοῦ ὑποδύτου κύκλῳ·
+   - BSB: alternating the gold bells and pomegranates around the lower hem of the robe.
+   - KJV: A golden bell and a pomegranate, a golden bell and a pomegranate, upon the hem of the robe round about.
+
+## Versions: the BSB against MT (2 verses)
+
+- **1:22** BSB: SP, LXX, and Targum Yonaton; Hebrew does not include to the Hebrews.
+   - Latin: Tum imperāvit Pharaō omnī suō populō, ut omnēs Hebræōrum marēs nātōs in flūmen dējicerent, ac fēminās cōnservārent.
+   - 1738: Tum imperauit Pharao omni suo populo, vt omnes Ebræorum mares natos in flumen deiicerent, ac feminas conseruarent.
+   - WLC: וַיְצַ֣ו פַּרְעֹ֔ה לְכָל־עַמּ֖וֹ לֵאמֹ֑ר כָּל־הַבֵּ֣ן הַיִּלּ֗וֹד הַיְאֹ֙רָה֙ תַּשְׁלִיכֻ֔הוּ וְכָל־הַבַּ֖ת תְּחַיּֽוּן׃ ס
+   - Vulgate: Præcepit ergo Pharao omni populo suo, dicens: Quidquid masculini sexus natum fuerit, in flumen projicite: quidquid feminini, reservate.
+   - LXX: Συνέταξε δὲ Φαραὼ παντὶ τῷ λαῷ αὐτοῦ, λέγων, πᾶν ἄρσεν, ὃ ἐὰν τεχθῇ τοῖς Ἑβραίοις, εἰς τὸν ποταμὸν ῥίψατε, καὶ πᾶν θῆλυ, ζωογονεῖτε αὐτό.
+   - BSB: Then Pharaoh commanded all his people: “Every son born to the Hebrews you must throw into the Nile, but every daughter you may allow to live.”
+   - KJV: And Pharaoh charged all his people, saying, Every son that is born ye shall cast into the river, and every daughter ye shall save alive.
+- **8:23** BSB: LXX and Vulgate; Hebrew I will set redemption
+   - Latin: quī tantum discrīmen inter suum et illīus populum posuisset. Id autem portentum fore postrīdiē.
+   - 1738: qui tantum discrimen inter suum et illius populum posuisset. Id autem portentum fore postridie.
+   - WLC: וְשַׂמְתִּ֣י פְדֻ֔ת בֵּ֥ין עַמִּ֖י וּבֵ֣ין עַמֶּ֑ךָ לְמָחָ֥ר יִהְיֶ֖ה הָאֹ֥ת הַזֶּֽה׃
+   - Vulgate: Ponamque divisionem inter populum meum et populum tuum: cras erit signum istud.
+   - LXX: Καὶ δώσω διαστολὴν ἀνὰ μέσον τοῦ ἐμοῦ λαοῦ, καὶ ἀνὰ μέσον τοῦ σου λαοῦ· ἐν δὲ τῇ αὔριον ἔσται τοῦτο ἐπὶ τῆς γῆς.
+   - BSB: I will make a distinction between My people and your people. This sign will take place tomorrow.’”
+   - KJV: And I will put a division between my people and thy people: to morrow shall this sign be.
+
+## Versions: the BSB with MT (2 verses)
+
+- **1:5** BSB: MT (see also Genesis 46:27); DSS and LXX (see also Acts 7:14) seventy-five
+   - Latin: fuitque omnium Jācōbī femore prōcreātōrum numerus capitum septuāgintā, quōrum Jōsēphus jam erat in Ægyptō.
+   - 1738: fuitque Omnium Iacobi femore procreatorum numerus: capitum septuaginta, quorum Iosephus iam erat in Aegypto.
+   - WLC: וַֽיְהִ֗י כָּל־נֶ֛פֶשׁ יֹצְאֵ֥י יֶֽרֶךְ־יַעֲקֹ֖ב שִׁבְעִ֣ים נָ֑פֶשׁ וְיוֹסֵ֖ף הָיָ֥ה בְמִצְרָֽיִם׃
+   - Vulgate: Erant igitur omnes animæ eorum qui egressi sunt de femore Jacob, septuaginta: Joseph autem in Ægypto erat.
+   - LXX: Ἰωσὴφ δὲ ἦν ἐν Αἰγύπτῳ· ἦσαν δὲ πᾶσαι ψυχαὶ ἐξ Ἰακὼβ, πέντε καὶ ἑβδομήκοντα.
+   - BSB: The descendants of Jacob numbered seventy in all, including Joseph, who was already in Egypt.
+   - KJV: And all the souls that came out of the loins of Jacob were seventy souls: for Joseph was in Egypt already.
+- **12:40** BSB: MT; SP in Canaan and Egypt; LXX in Egypt and Canaan
+   - Latin: Spatium autem, quō Isrāēlītæ in Ægyptō commorātī sunt, fuit annōrum quadringentōrum trīgintā.
+   - 1738: Spatium autem, quo Israelitæ in Aegypto commorati sunt, fuit annorum quadringentorum triginta.
+   - WLC: וּמוֹשַׁב֙ בְּנֵ֣י יִשְׂרָאֵ֔ל אֲשֶׁ֥ר יָשְׁב֖וּ בְּמִצְרָ֑יִם שְׁלֹשִׁ֣ים שָׁנָ֔ה וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָֽה׃
+   - Vulgate: Habitatio autem filiorum Israël qua manserunt in Ægypto, fuit quadringentorum triginta annorum.
+   - LXX: Ἡ δὲ κατοίκησις τῶν υἱῶν Ἰσραὴλ, ἣν κατῴκησαν ἐν γῇ Αἰγύπτῳ καὶ ἐν γῇ Χαναὰν, ἔτη τετρακόσια τριάκοντα.
+   - BSB: Now the duration of the Israelites’ stay in Egypt was 430 years.
+   - KJV: ¶ Now the sojourning of the children of Israel, who dwelt in Egypt, was four hundred and thirty years.
+
+## Versions: the BSB other (7 verses)
+
+- **2:14** BSB: LXX Are you planning to kill me as you killed the Egyptian yesterday? Cited in Acts 7:28
+   - Latin: At ille, “Quis tē nōbīs prīncipem,” inquit, “et jūdicem cōnstituit? an istud dīcis, quō mē interficiās, quemadmodum interfēcistī Ægyptium?”
+   - 1738: At ille: quis te nobis principem, inquit, et iudicem constituit? an istud dicis, quo me interficias, quemadmodum interfecisti Aegyptium?
+   - WLC: וַ֠יֹּאמֶר מִ֣י שָֽׂמְךָ֞ לְאִ֨ישׁ שַׂ֤ר וְשֹׁפֵט֙ עָלֵ֔ינוּ הַלְהָרְגֵ֙נִי֙ אַתָּ֣ה אֹמֵ֔ר כַּאֲשֶׁ֥ר הָרַ֖גְתָּ אֶת־הַמִּצְרִ֑י וַיִּירָ֤א מֹשֶׁה֙ וַיֹּאמַ֔ר אָכֵ֖ן נוֹדַ֥ע הַדָּבָֽר׃
+   - Vulgate: Qui respondit: Quis te constituit principem et judicem super nos? num occidere me tu vis, sicut heri occidisti Ægyptium? Timuit Moyses, et ait: Quomodo palam factum est verbum istud?
+   - LXX: Ὁ δὲ εἶπε, τίς σε κατέστησεν ἄρχοντα καὶ δικαστὴν ἐφʼ ἡμῶν; μὴ ἀνελεῖν με σὺ θέλεις, ὃν τρόπον ἀνεῖλες χθὲς τὸν Αἰγύπτιον; ἐφοβήθη δὲ Μωυσῆς, καὶ εἶπεν, εἰ οὕτως ἐμφανὲς γέγονε τὸ ῥῆμα τοῦτο.
+   - BSB: But the man replied, “Who made you ruler and judge over us? Are you planning to kill me as you killed the Egyptian?” Then Moses was afraid and thought, “This thing I have done has surely become known.”
+   - KJV: And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known.
+- **9:16** BSB: LXX in you
+   - Latin: nisi tē ad meam potentiam dēclārandam, meumque nōmen in ūniversō terrārum orbe prædicandum, nōminātim dēstināssem.
+   - 1738: nisi te ad meam potentiam declarandam, meumque nomen in vniuerso terrarum orbe prædicandum, nominatim destinassem.
+   - WLC: וְאוּלָ֗ם בַּעֲב֥וּר זֹאת֙ הֶעֱמַדְתִּ֔יךָ בַּעֲב֖וּר הַרְאֹתְךָ֣ אֶת־כֹּחִ֑י וּלְמַ֛עַן סַפֵּ֥ר שְׁמִ֖י בְּכָל־הָאָֽרֶץ׃
+   - Vulgate: Idcirco autem posui te, ut ostendam in te fortitudinem meam, et narretur nomen meum in omni terra.
+   - LXX: Καὶ ἕνεκεν τούτου διετηρήθης, ἵνα ἐνδείξωμαι ἐν σοὶ τὴν ἰσχύν μου, καὶ ὅπως διαγγελῇ τὸ ὄνομά μου ἐν πάσῃ τῇ γῇ.
+   - BSB: But I have raised you up for this very purpose, that I might display My power to you, and that My name might be proclaimed in all the earth.
+   - KJV: And in very deed for this cause have I raised thee up, for to shew in thee my power; and that my name may be declared throughout all the earth.
+- **13:18** BSB: LXX left the land of Egypt in the fifth generation
+   - Latin: Sed longiōre circuitū, eā viā, quæ ferēbat in sōlitūdinem maris rubrī. Discessērunt autem prōcīnctī Isrāēlītæ ex Ægyptō,
+   - 1738: sed longiore circuitu, ea via, quæ ferebat in solitudinem maris rubri. Discesserunt autem procincti Israelitæ ex Aegypto,
+   - WLC: וַיַּסֵּ֨ב אֱלֹהִ֧ים ׀ אֶת־הָעָ֛ם דֶּ֥רֶךְ הַמִּדְבָּ֖ר יַם־ס֑וּף וַחֲמֻשִׁ֛ים עָל֥וּ בְנֵי־יִשְׂרָאֵ֖ל מֵאֶ֥רֶץ מִצְרָֽיִם׃
+   - Vulgate: Sed circumduxit per viam deserti, quæ est juxta mare Rubrum: et armati ascenderunt filii Israël de terra Ægypti.
+   - LXX: Καὶ ἐκύκλωσεν ὁ Θεὸς τὸν λαὸν ὁδὸν τὴν εἰς τὴν ἔρημον, εἰς τὴν ἐρυθρὰν θάλασσαν· πέμπτῃ δὲ γενεᾷ ἀνέβησαν οἱ υἱοὶ Ἰσραὴλ ἐκ γῆς Αἰγύπτου.
+   - BSB: So God led the people around by the way of the wilderness toward the Red Sea. And the Israelites left the land of Egypt arrayed for battle.
+   - KJV: But God led the people about, through the way of the wilderness of the Red sea: and the children of Israel went up harnessed out of the land of Egypt.
+- **14:20** BSB: LXX and the night passed
+   - Latin: mediaque inter Ægyptiā et Isrāēlītica castra intercessit: sīc, ut hinc nūbe illinc cālīgine interpositā noctem illūstrāret, neque alterī ad alterōs tōtā nocte propius accēderent.
+   - 1738: mediaque inter ægyptia et israelitica castra intercessit: sic, vt hinc nube, illinc caligine interposita noctem illustraret, neque alteri ad alteros tota nocte propius accederent.
+   - WLC: וַיָּבֹ֞א בֵּ֣ין ׀ מַחֲנֵ֣ה מִצְרַ֗יִם וּבֵין֙ מַחֲנֵ֣ה יִשְׂרָאֵ֔ל וַיְהִ֤י הֶֽעָנָן֙ וְהַחֹ֔שֶׁךְ וַיָּ֖אֶר אֶת־הַלָּ֑יְלָה וְלֹא־קָרַ֥ב זֶ֛ה אֶל־זֶ֖ה כָּל־הַלָּֽיְלָה׃
+   - Vulgate: stetit, inter castra Ægyptiorum et castra Israël: et erat nubes tenebrosa, et illuminans noctem, ita ut ad se invicem toto noctis tempore accedere non valerent.
+   - LXX: Καὶ εἰσῆλθεν ἀνὰ μέσον τῆς παρεμβολῆς τῶν Αἰγυπτίων, καὶ ἀνὰ μέσον τῆς παρεμβολῆς τῶν Αἰγυπίων, καὶ ἀνὰ μέσον τῆς παρεμβολῆς Ἰσραὴλ, καὶ ἔστη· καὶ ἐγένετο σκότος καὶ γνόφος· καὶ διῆλθεν ἡ νύξ· καὶ οὐ συνέμιξαν ἀλλήλοις ὅλην τὴν νύκτα.
+   - BSB: so that it came between the camps of Egypt and Israel. The cloud was there in the darkness, but it lit up the night. So all night long neither camp went near the other.
+   - KJV: And it came between the camp of the Egyptians and the camp of Israel; and it was a cloud and darkness to them, but it gave light by night to these: so that the one came not near the other all the night.
+- **14:25** BSB: Or to swerve or to come off or to bind; see also SP, LXX, and Syriac.
+   - Latin: dētractīsque rotīs curruum, magnō cum impetū jactāvit. Cōnantibus Isrāēlītās fugere, quod dīcerent, Jōvam contrā sē prō Isrāēlītīs prōpugnāre,
+   - 1738: detractisque rotis curruum, magno cum impetu iactauit. Conantibus Israelitas fugere, quod dicerent, Iouam contra se pro Israelitis propugnare,
+   - WLC: וַיָּ֗סַר אֵ֚ת אֹפַ֣ן מַרְכְּבֹתָ֔יו וַֽיְנַהֲגֵ֖הוּ בִּכְבֵדֻ֑ת וַיֹּ֣אמֶר מִצְרַ֗יִם אָנ֙וּסָה֙ מִפְּנֵ֣י יִשְׂרָאֵ֔ל כִּ֣י יְהוָ֔ה נִלְחָ֥ם לָהֶ֖ם בְּמִצְרָֽיִם פ
+   - Vulgate: et subvertit rotas curruum, ferebanturque in profundum. Dixerunt ergo Ægyptii: Fugiamus Israëlem: Dominus enim pugnat pro eis contra nos.
+   - LXX: καὶ συνέδησε τοὺς ἄξονας τῶν ἁρμάτων αὐτῶν, καὶ ἤγαγεν αὐτοὺς μετὰ βίας· καὶ εἶπαν οἱ Αἰγύπτιοι, φυγωμεν ἀπὸ προσώπου Ἰσραήλ· ὁ γὰρ Κύριος πολεμεῖ περὶ αὐτῶν τοὺς Αἰγυπτίους.
+   - BSB: He caused their chariot wheels to wobble, so that they had difficulty driving. “Let us flee from the Israelites,” said the Egyptians, “for the LORD is fighting for them against Egypt!”
+   - KJV: And took off their chariot wheels, that they drave them heavily: so that the Egyptians said, Let us flee from the face of Israel; for the LORD fighteth for them against the Egyptians.
+- **22:28** BSB: LXX or speak evil about the ruler of your people; cited in Acts 23:5
+   - Latin: Magistrātuī nē maledīcitō. Nē eum exsecrātor, quī est in tuā nātiōne prīnceps.
+   - 1738: Magistratui ne maledicito. Ne eum exsecrator, qui est in tua natione princeps.
+   - WLC: אֱלֹהִ֖ים לֹ֣א תְקַלֵּ֑ל וְנָשִׂ֥יא בְעַמְּךָ֖ לֹ֥א תָאֹֽר׃
+   - Vulgate: Diis non detrahes, et principi populi tui non maledices.
+   - LXX: Θεοὺς οὐ κακολογήσεις, καὶ ἄρχοντα τοῦ λαοῦ σου οὐ κακῶς ἐρεῖς.
+   - BSB: You must not blaspheme God or curse the ruler of your people.
+   - KJV: ¶ Thou shalt not revile the gods, nor curse the ruler of thy people.
+- **23:25** BSB: LXX and Vulgate I will bless
+   - Latin: et Jōvam Deum tuum colitō, et is tibi cibum pōtiōnemque exūberābit, et morbōs ā tē dēpellam.
+   - 1738: et Iouam Deum tuum colito, et is tibi cibum potionemque exuberabit, et morbos a te depellam.
+   - WLC: וַעֲבַדְתֶּ֗ם אֵ֚ת יְהוָ֣ה אֱלֹֽהֵיכֶ֔ם וּבֵרַ֥ךְ אֶֽת־לַחְמְךָ֖ וְאֶת־מֵימֶ֑יךָ וַהֲסִרֹתִ֥י מַחֲלָ֖ה מִקִּרְבֶּֽךָ׃
+   - Vulgate: Servietisque Domino Deo vestro, ut benedicam panibus tuis et aquis, et auferam infirmitatem de medio tui.
+   - LXX: Καὶ λατρεύσεις Κυρίῳ τῷ Θεῷ σου· καὶ εὐλογήσω τὸν ἄρτον σου καὶ τὸν οἶνόν σου καὶ τὸ ὕδωρ σου, καὶ ἀποστρέψω μαλακίαν ἀφʼ ὑμῶν.
+   - BSB: So you shall serve the LORD your God, and He will bless your bread and your water. And I will take away sickness from among you.
+   - KJV: And ye shall serve the LORD your God, and he shall bless thy bread, and thy water; and I will take sickness away from the midst of thee.
+
+## Numbers (60 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **4:29** Hebrew none; Latin 2
+   - Latin: īvērunt ambō congregātīsque omnibus senātōribus Isrāēlītīs,
+   - 1738: iuerunt ambo: congregatisque omnibus senatoribus Israelitis,
+   - WLC: וַיֵּ֥לֶךְ מֹשֶׁ֖ה וְאַהֲרֹ֑ן וַיַּ֣אַסְפ֔וּ אֶת־כָּל־זִקְנֵ֖י בְּנֵ֥י יִשְׂרָאֵֽל׃
+   - Vulgate: Veneruntque simul, et congregaverunt cunctos seniores filiorum Israël.
+   - LXX: Ἐπορεύθη δὲ Μωυσῆς καὶ Ἀαρὼν, καὶ συνήγαγον τὴν γερουσίαν τῶν υἱῶν Ἰσραήλ.
+   - BSB: Then Moses and Aaron went and assembled all the elders of the Israelites,
+   - KJV: ¶ And Moses and Aaron went and gathered together all the elders of the children of Israel:
+- **12:3** Hebrew none; Latin 10
+   - Latin: Colloquiminī cum omnī Isrāēlītārum multitūdine, ut hujus mēnsis diē decimō omnēs patrēs familiās agnōs aut hædōs mānsiōnātim sūmant.
+   - 1738: Colloquimini cum omni Israelitarum multitudine, vt huius mensis die decimo omnes patres familias agnos aut hædos mansionatim sumant.
+   - WLC: דַּבְּר֗וּ אֶֽל־כָּל־ עֲדַ֤ת יִשְׂרָאֵל֙ לֵאמֹ֔ר בֶּעָשֹׂ֖ר לַחֹ֣דֶשׁ הַזֶּ֑ה וְיִקְח֣וּ לָהֶ֗ם אִ֛ישׁ שֶׂ֥ה לְבֵית־אָבֹ֖ת שֶׂ֥ה לַבָּֽיִת׃
+   - Vulgate: Loquimini ad universum cœtum filiorum Israël, et dicite eis: Decima die mensis hujus tollat unusquisque agnum per familias et domos suas.
+   - LXX: Λάλησον πρὸς πᾶσαν συναγωγὴν υἱῶν Ἰσραὴλ, λέγων, τῇ δεκάτῃ τοῦ μηνὸς τούτου λαβέτωσαν ἕκαστος πρόβατον κατʼ οἴκους πατριῶν, ἕκαστος πρόβατον κατʼ οἰκίαν.
+   - BSB: Tell the whole congregation of Israel that on the tenth day of this month each man must select a lamb for his family, one per household.
+   - KJV: ¶ Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:
+- **12:22** Hebrew 2; Latin none
+   - Latin: Deinde fasciculō hyssōpī in sanguinem pēlvis immersō, īnficite superlīmināria, et utrōsque postēs, neque extrā forēs domōrum vestrārum prōdīte ante crāstinum māne,
+   - 1738: Deinde fasciculo hyssopi in sanguinem peluis immerso, inficite superliminaria, et vtrosque postes, neque extra fores domorum vestrarum prodite ante crastinum mane.
+   - WLC: וּלְקַחְתֶּ֞ם אֲגֻדַּ֣ת אֵז֗וֹב וּטְבַלְתֶּם֮ בַּדָּ֣ם אֲשֶׁר־בַּסַּף֒ וְהִגַּעְתֶּ֤ם אֶל־הַמַּשְׁקוֹף֙ וְאֶל־שְׁתֵּ֣י הַמְּזוּזֹ֔ת מִן־הַדָּ֖ם אֲשֶׁ֣ר בַּסָּ֑ף וְאַתֶּ֗ם לֹ֥א תֵצְא֛וּ אִ֥ישׁ מִפֶּֽתַח־בֵּית֖וֹ עַד־בֹּֽקֶר׃
+   - Vulgate: Fasciculumque hyssopi tingite in sanguine qui est in limine, et aspergite ex eo superliminare, et utrumque postem: nullus vestrum egrediatur ostium domus suæ usque mane.
+   - LXX: Λήψεσθε δὲ δέσμην ὑσσώπου, καὶ βάψαντες ἀπὸ τοῦ αἵματος τοῦ παρὰ τὴν θύραν, καθίξετε τῆς φλιᾶς, καὶ ἐπʼ ἀμφοτέρων τῶν σταθμῶν, ἀπὸ τοῦ αἵματος ὅ ἐστι παρὰ τὴν θύραν· ὑμεῖς δὲ οὐκ ἐξελεύσεσθε ἕκαστος τὴν θύραν τοῦ οἴκου αὐτοῦ ἕως πρωΐ.
+   - BSB: Take a cluster of hyssop, dip it into the blood in the basin, and brush the blood on the top and sides of the doorframe. None of you shall go out the door of his house until morning.
+   - KJV: And ye shall take a bunch of hyssop, and dip it in the blood that is in the bason, and strike the lintel and the two side posts with the blood that is in the bason; and none of you shall go out at the door of his house until the morning.
+- **12:23** Hebrew 2; Latin none
+   - Latin: et Jōva cum ad cædendōs trānsībit Ægyptiōs, ōstia, quōrum in superlīmināribus et postibus sanguinem cōnspexerit, præterībit, neque sinet exterminātōrem domōs vestrās intrāre et clādem īnferre.
+   - 1738: Et Ioua quum ad cædendos transibit Aegyptios, ostia, quorum in superliminaribus et postibus sanguinem conspexerit, præteribit, neque sinet exterminatorem domos vestras intrare et cladem inferre.
+   - WLC: וְעָבַ֣ר יְהוָה֮ לִנְגֹּ֣ף אֶת־מִצְרַיִם֒ וְרָאָ֤ה אֶת־הַדָּם֙ עַל־הַמַּשְׁק֔וֹף וְעַ֖ל שְׁתֵּ֣י הַמְּזוּזֹ֑ת וּפָסַ֤ח יְהוָה֙ עַל־הַפֶּ֔תַח וְלֹ֤א יִתֵּן֙ הַמַּשְׁחִ֔ית לָבֹ֥א אֶל־בָּתֵּיכֶ֖ם לִנְגֹּֽף׃
+   - Vulgate: Transibit enim Dominus percutiens Ægyptios: cumque viderit sanguinem in superliminari, et in utroque poste, transcendet ostium domus, et non sinet percussorem ingredi domos vestras et lædere.
+   - LXX: Καὶ παρελεύσεται Κύριος πατάξαι τοὺς Αἰγυπτίους, καὶ ὄψεται τὸ αἷμα ἐπὶ τῆς φλιᾶς, καὶ ἐπʼ ἀμφοτέρων τῶν σταθμῶν· καὶ παρελεύσεται Κύριος τὴν θύραν, καὶ οὐκ ἀφήσει τὸν ὀλοθρεύοντα εἰσελθεῖν εἰς τὰς οἰκίας ὑμῶν πατάξαι.
+   - BSB: When the LORD passes through to strike down the Egyptians, He will see the blood on the top and sides of the doorframe and will pass over that doorway; so He will not allow the destroyer to enter your houses and strike you down.
+   - KJV: For the LORD will pass through to smite the Egyptians; and when he seeth the blood upon the lintel, and on the two side posts, the LORD will pass over the door, and will not suffer the destroyer to come in unto your houses to smite you.
+- **12:41** Hebrew 4, 30, 100; Latin none
+   - Latin: Quō spatiō cōnfectō, illīus diēī nox (quō diē omnēs Jōvæ cōpiæ ex Ægyptō exierant)
+   - 1738: Quo spatio confecto, illius diei nox quo die omnes Iouæ copiæ ex Aegypto exierant)
+   - WLC: וַיְהִ֗י מִקֵּץ֙ שְׁלֹשִׁ֣ים שָׁנָ֔ה וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָ֑ה וַיְהִ֗י בְּעֶ֙צֶם֙ הַיּ֣וֹם הַזֶּ֔ה יָֽצְא֛וּ כָּל־צִבְא֥וֹת יְהוָ֖ה מֵאֶ֥רֶץ מִצְרָֽיִם׃
+   - Vulgate: Quibus expletis, eadem die egressus est omnis exercitus Domini de terra Ægypti.
+   - LXX: Καὶ ἐγένετο μετὰ τὰ τετρακόσια τριάκοντα ἔτη, ἐξῆλθε πᾶσα ἡ δύναμις Κυρίου ἐκ γῆς Αἰγύπτου νυκτός.
+   - BSB: At the end of the 430 years, to the very day, all the LORD’s divisions went out of the land of Egypt.
+   - KJV: And it came to pass at the end of the four hundred and thirty years, even the selfsame day it came to pass, that all the hosts of the LORD went out from the land of Egypt.
+- **16:5** Hebrew 6; Latin 2, 6
+   - Latin: Sextō autem diē cūrārent, ut quod ad sē importārent, id duplō amplius esset, quam quantum reliquīs diēbus cōnsuēssent.
+   - 1738: Sexto autem die curarent, vt quod ad se importarent, id duplo amplius esset, quam quantum reliquis diebus consuessent.
+   - WLC: וְהָיָה֙ בַּיּ֣וֹם הַשִּׁשִּׁ֔י וְהֵכִ֖ינוּ אֵ֣ת אֲשֶׁר־יָבִ֑יאוּ וְהָיָ֣ה מִשְׁנֶ֔ה עַ֥ל אֲשֶֽׁר־יִלְקְט֖וּ י֥וֹם ׀ יֽוֹם׃ ס
+   - Vulgate: Die autem sexto parent quod inferant: et sit duplum quam colligere solebant per singulos dies.
+   - LXX: Καὶ ἔσται ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ, καὶ ἑτοιμάσουσιν ὃ ἐὰν εἰσενέγκωσι· καὶ ἔσται διπλοῦν ὃ ἐὰν συναγάγωσι τὸ καθʼ ἡμέραν εἰς ἡμέραν.
+   - BSB: Then on the sixth day, when they prepare what they bring in, it will be twice as much as they gather on the other days.”
+   - KJV: And it shall come to pass, that on the sixth day they shall prepare that which they bring in; and it shall be twice as much as they gather daily.
+- **16:30** Hebrew 7; Latin none
+   - Latin: Itaque eō diē fēriātī sunt.
+   - 1738: Itaque eo die feriati sunt.
+   - WLC: וַיִּשְׁבְּת֥וּ הָעָ֖ם בַּיּ֥וֹם הַשְּׁבִעִֽי׃
+   - Vulgate: Et sabbatizavit populus die septimo.
+   - LXX: Καὶ ἐσαββάτισεν ὁ λαὸς τῇ ἡμέρᾳ τῇ ἑβδόμῃ.
+   - BSB: So the people rested on the seventh day.
+   - KJV: So the people rested on the seventh day.
+- **18:21** Hebrew 10, 50, 100, 1000; Latin none
+   - Latin: Tum ex omnī populō virōs fortēs et religiōsōs dispicitō, fidēlēs et avāritiæ inimīcōs, ex quibus aliōs tribūnōs, aliōs centuriōnēs, aliōs semicenturiōnēs, aliōs decuriōnēs cōnstituēs,
+   - 1738: Tum ex omni populo viros fortes et religiosos dispicito, fideles et auaritiæ inimicos, ex quibus alios tribunos, alios centuriones, alios semicenturiones, alios decuriones constitues,
+   - WLC: וְאַתָּ֣ה תֶחֱזֶ֣ה מִכָּל־הָ֠עָם אַנְשֵׁי־חַ֜יִל יִרְאֵ֧י אֱלֹהִ֛ים אַנְשֵׁ֥י אֱמֶ֖ת שֹׂ֣נְאֵי בָ֑צַע וְשַׂמְתָּ֣ עֲלֵהֶ֗ם שָׂרֵ֤י אֲלָפִים֙ שָׂרֵ֣י מֵא֔וֹת שָׂרֵ֥י חֲמִשִּׁ֖ים וְשָׂרֵ֥י עֲשָׂרֹֽת׃
+   - Vulgate: Provide autem de omni plebe viros potentes, et timentes Deum, in quibus sit veritas, et qui oderint avaritiam, et constitue ex eis tribunos, et centuriones, et quinquagenarios, et decanos,
+   - LXX: Καὶ σὺ σεαυτῷ σκέψαι ἀπὸ παντὸς τοῦ λαοῦ ἄνδρας δυνατοὺς, θεοσεβεῖς, ἄνδρας δικαίους, μισοῦντας ὑπερηφανίαν, καὶ καταστήσεις ἐπʼ αὐτῶν χιλιάρχους καὶ ἑκατοντάρχους καὶ πεντηκοντάρχους καὶ δεκαδάρχους.
+   - BSB: Furthermore, select capable men from among the people—God-fearing, trustworthy men who are averse to dishonest gain. Appoint them over the people as leaders of thousands, of hundreds, of fifties, and of tens.
+   - KJV: Moreover thou shalt provide out of all the people able men, such as fear God, men of truth, hating covetousness; and place such over them, to be rulers of thousands, and rulers of hundreds, rulers of fifties, and rulers of tens:
+- **18:25** Hebrew 10, 50, 100, 1000; Latin none
+   - Latin: dēlēgitque dē omnī Isrāēlītārum numerō virōs fortēs, quōs populī gubernātiōnī præfēcit, et tribūnōs, centuriōnēs, semicenturiōnēs, decuriōnēsque cōnstituit,
+   - 1738: delegitque de omni Israelitarum numero viros fortes, quos populi gubernationi præfecit, et tribunos, centuriones, semicenturiones, decurionesque constituit,
+   - WLC: וַיִּבְחַ֨ר מֹשֶׁ֤ה אַנְשֵׁי־חַ֙יִל֙ מִכָּל־יִשְׂרָאֵ֔ל וַיִּתֵּ֥ן אֹתָ֛ם רָאשִׁ֖ים עַל־הָעָ֑ם שָׂרֵ֤י אֲלָפִים֙ שָׂרֵ֣י מֵא֔וֹת שָׂרֵ֥י חֲמִשִּׁ֖ים וְשָׂרֵ֥י עֲשָׂרֹֽת׃
+   - Vulgate: Et electis viris strenuis de cuncto Israël, constituit eos principes populi, tribunos, et centuriones, et quinquagenarios, et decanos.
+   - LXX: Καὶ ἐπέλεξε Μωυσῆς ἄνδρας δυνατοὺς ἀπὸ παντὸς Ἰσραὴλ, καὶ ἐποίησεν αὐτοὺς ἐπʼ αὐτῶν χιλιάρχους καὶ ἑκατοντάρχους καὶ πεντηκοντάρχους καὶ δεκαδάρχους.
+   - BSB: So Moses chose capable men from all Israel and made them heads over the people as leaders of thousands, of hundreds, of fifties, and of tens.
+   - KJV: And Moses chose able men out of all Israel, and made them heads over the people, rulers of thousands, rulers of hundreds, rulers of fifties, and rulers of tens.
+- **20:5** Hebrew none; Latin 3
+   - Latin: nēve ea venerātor, nēve colitō. Nam ego sum Jōva Deus tuus, Deus impatiēns sociī, quī parentum culpam etiam in līberōs persequor, vel ad tertiam ūsque quārtamque stirpem ōsōrum meī:
+   - 1738: neue ea venerator, neue colito. Nam ego sum Ioua Deus tuus, Deus impatiens socii, qui parentum culpam etiam in liberos persequor, vel ad tertiam vsque quartamque stirpem osorum mei:
+   - WLC: לֹֽא־תִשְׁתַּחֲוֶ֥ה לָהֶ֖ם וְלֹ֣א תָעָבְדֵ֑ם כִּ֣י אָֽנֹכִ֞י יְהוָ֤ה אֱלֹהֶ֙יךָ֙ אֵ֣ל קַנָּ֔א פֹּ֠קֵד עֲוֺ֨ן אָבֹ֧ת עַל־בָּנִ֛ים עַל־שִׁלֵּשִׁ֥ים וְעַל־רִבֵּעִ֖ים לְשֹׂנְאָֽי׃
+   - Vulgate: Non adorabis ea, neque coles: ego sum Dominus Deus tuus fortis, zelotes, visitans iniquitatem patrum in filios, in tertiam et quartam generationem eorum qui oderunt me:
+   - LXX: Οὐ προσκυνήσεις αὐτοῖς, οὐδὲ μὴ λατρεύσεις αὐτοῖς· ἐγὼ γάρ εἰμι Κύριος ὁ Θεός σου, Θεὸς ζηλωτὴς, ἀποδιδοὺς ἁμαρτίας πατέρων ἐπὶ τέκνα, ἕως τρίτης καὶ τετάρτης γενεᾶς τοῖς μισοῦσί με,
+   - BSB: You shall not bow down to them or worship them; for I, the LORD your God, am a jealous God, visiting the iniquity of the fathers on their children to the third and fourth generations of those who hate Me,
+   - KJV: Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;
+- **25:10** Hebrew none; Latin 2
+   - Latin: “Fīat igitur arca ex lignīs cedrinīs in longitūdinem duōrum cubitōrum et dīmidiī, in lātitūdinem sēsquicubitālem, tantundemque in altitūdinem.
+   - 1738: Fiat igitur arca ex lignis cedrinis in longitudinem duorum cubitorum et dimidii, in latitudinem sesquicubitalem, tantumdemque in altitudinem,
+   - WLC: וְעָשׂ֥וּ אֲר֖וֹן עֲצֵ֣י שִׁטִּ֑ים אַמָּתַ֨יִם וָחֵ֜צִי אָרְכּ֗וֹ וְאַמָּ֤ה וָחֵ֙צִי֙ רָחְבּ֔וֹ וְאַמָּ֥ה וָחֵ֖צִי קֹמָתֽוֹ׃
+   - Vulgate: arcam de lignis setim compingite, cujus longitudo habeat duos et semis cubitos: latitudo, cubitum et dimidium: altitudo, cubitum similiter ac semissem.
+   - LXX: Καὶ ποιήσεις κιβωτὸν μαρτυρίου ἐκ ξύλων ἀσήπτων, δύο πήχεων καὶ ἡμίσους τὸ μῆκος, καὶ πήχεος καὶ ἡμίσους τὸ πλάτος, καὶ πήχεως καὶ ἡμίσους τὸ ὕψος.
+   - BSB: And they are to construct an ark of acacia wood, two and a half cubits long, a cubit and a half wide, and a cubit and a half high.
+   - KJV: ¶ And they shall make an ark of shittim wood: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof, and a cubit and a half the height thereof.
+- **25:17** Hebrew none; Latin 2
+   - Latin: “Propitiātōrium quoque ex pūrō aurō facitō, longitūdine duōrum cubitōrum et dīmidiī, lātitūdine sēsquicubitālī.
+   - 1738: Propitiatorium quoque ex puro auro facito, longitudine duorum cubitorum et dimidii, latitudine: sesquicubitali.
+   - WLC: וְעָשִׂ֥יתָ כַפֹּ֖רֶת זָהָ֣ב טָה֑וֹר אַמָּתַ֤יִם וָחֵ֙צִי֙ אָרְכָּ֔הּ וְאַמָּ֥ה וָחֵ֖צִי רָחְבָּֽהּ׃
+   - Vulgate: Facies et propitiatorium de auro mundissimo: duos cubitos et dimidium tenebit longitudo ejus, et cubitum ac semissem latitudo.
+   - LXX: Καὶ ποιήσεις ἱλαστήριον ἐπίθεμα χρυσίου καθαροῦ, δύο πήχεων καὶ ἡμίσους τὸ μῆκος, καὶ πήχεως καὶ ἡμίσους τὸ πλάτος.
+   - BSB: And you are to construct a mercy seat of pure gold, two and a half cubits long and a cubit and a half wide.
+   - KJV: And thou shalt make a mercy seat of pure gold: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof.
+- **25:19** Hebrew 2; Latin none
+   - Latin: et eōs ex ipsō propitiātōriō facitō,
+   - 1738: et eos ex ipso propitiatorio facito,
+   - WLC: וַ֠עֲשֵׂה כְּר֨וּב אֶחָ֤ד מִקָּצָה֙ מִזֶּ֔ה וּכְרוּב־אֶחָ֥ד מִקָּצָ֖ה מִזֶּ֑ה מִן־הַכַּפֹּ֛רֶת תַּעֲשׂ֥וּ אֶת־הַכְּרֻבִ֖ים עַל־שְׁנֵ֥י קְצוֹתָֽיו׃
+   - Vulgate: Cherub unus sit in latere uno, et alter in altero.
+   - LXX: Ποιηθήσονται χεροὺβ εἷς ἐκ τοῦ κλίτους τούτου, καὶ χεροὺβ εἷς ἐκ τοῦ κλίτους τοῦ δευτέρου τοῦ ἱλαστηρίου· καὶ ποιήσεις τοὺς δύο χερουβὶμ ἐπὶ τὰ δύο κλίτη.
+   - BSB: one cherub on one end and one on the other, all made from one piece of gold.
+   - KJV: And make one cherub on the one end, and the other cherub on the other end: even of the mercy seat shall ye make the cherubims on the two ends thereof.
+- **25:32** Hebrew 2, 3, 6; Latin 3, 6
+   - Latin: exeantque sex scāpī ex ejus lateribus, vidēlicet ex utrōque trīnī,
+   - 1738: exeantque sex scapi ex eius lateribus, videlicet ex vtroque trini,
+   - WLC: וְשִׁשָּׁ֣ה קָנִ֔ים יֹצְאִ֖ים מִצִּדֶּ֑יהָ שְׁלֹשָׁ֣ה ׀ קְנֵ֣י מְנֹרָ֗ה מִצִּדָּהּ֙ הָאֶחָ֔ד וּשְׁלֹשָׁה֙ קְנֵ֣י מְנֹרָ֔ה מִצִּדָּ֖הּ הַשֵּׁנִֽי׃
+   - Vulgate: Sex calami egredientur de lateribus, tres ex uno latere, et tres ex altero.
+   - LXX: Ἓξ δὲ καλαμίσκοι ἐκπορευόμενοι ἐκ πλαγίων, τρεῖς καλαμίσκοι τῆς λυχνίας ἐκ τοῦ κλίτους τοῦ ἑνὸς αὐτῆς, καὶ τρεῖς καλαμίσκοι τῆς λυχνίας ἐκ τοῦ κλίτους τοῦ δευτέρου.
+   - BSB: Six branches are to extend from the sides of the lampstand—three on one side and three on the other.
+   - KJV: And six branches shall come out of the sides of it; three branches of the candlestick out of the one side, and three branches of the candlestick out of the other side:
+- **25:33** Hebrew 3, 6; Latin 3
+   - Latin: quī singulī trīnās habeant scutulās ad īnstar putāminis amygdalī concavās, totidemque globōs atque līlia.
+   - 1738: qui singuli trinas habeant scutulas ad instar putaminis amygdali concauas, totidemque globos atque lilia.
+   - WLC: שְׁלֹשָׁ֣ה גְ֠בִעִים מְֽשֻׁקָּדִ֞ים בַּקָּנֶ֣ה הָאֶחָד֮ כַּפְתֹּ֣ר וָפֶרַח֒ וּשְׁלֹשָׁ֣ה גְבִעִ֗ים מְשֻׁקָּדִ֛ים בַּקָּנֶ֥ה הָאֶחָ֖ד כַּפְתֹּ֣ר וָפָ֑רַח כֵּ֚ן לְשֵׁ֣שֶׁת הַקָּנִ֔ים הַיֹּצְאִ֖ים מִן־הַמְּנֹרָֽה׃
+   - Vulgate: Tres scyphi quasi in nucis modum per calamos singulos, sphærulaque simul, et lilium: et tres similiter scyphi instar nucis in calamo altero, sphærulaque simul et lilium. Hoc erit opus sex calamorum, qui producendi sunt de hastili:
+   - LXX: Καὶ τρεῖς κρατῆρες ἐκτετυπωμένοι καρυΐσκους· ἐν τῷ ἑνὶ καλαμίσκῳ σφαιρωτὴρ καὶ κρίνον· οὕτω τοῖς ἓξ καλαμίσκοις τοῖς ἐκπορευομένοις ἐκ τῆς λυχνίας.
+   - BSB: There are to be three cups shaped like almond blossoms on the first branch, each with buds and petals, three on the next branch, and the same for all six branches that extend from the lampstand.
+   - KJV: Three bowls made like unto almonds, with a knop and a flower in one branch; and three bowls made like almonds in the other branch, with a knop and a flower: so in the six branches that come out of the candlestick.
+- **25:35** Hebrew 2, 6; Latin 3, 6
+   - Latin: Et subter tria sex scāpōrum paria ex candēlābrō orientia, singulī globī,
+   - 1738: et subter tria sex scaporum paria ex candelabro orientia, singuli globi,
+   - WLC: וְכַפְתֹּ֡ר תַּחַת֩ שְׁנֵ֨י הַקָּנִ֜ים מִמֶּ֗נָּה וְכַפְתֹּר֙ תַּ֣חַת שְׁנֵ֤י הַקָּנִים֙ מִמֶּ֔נָּה וְכַפְתֹּ֕ר תַּחַת־שְׁנֵ֥י הַקָּנִ֖ים מִמֶּ֑נָּה לְשֵׁ֙שֶׁת֙ הַקָּנִ֔ים הַיֹּצְאִ֖ים מִן־הַמְּנֹרָֽה׃
+   - Vulgate: Sphærulæ sub duobus calamis per tria loca, qui simul sex fiunt procedentes de hastili uno.
+   - LXX: Ὁ σφαιρωτὴρ ὑπὸ τοὺς δύο καλαμίσκους ἐξ αὐτῆς· καὶ σφαιρωτὴρ ὑπὸ τοὺς τέσσαρας καλαμίσκους ἐξ αὐτῆς· οὕτω τοῖς ἓξ καλαμίσκοις τοῖς ἐκπορευομένοις ἐκ τῆς λυχνίας· καὶ ἐν τῇ λυχνίᾳ τέσσαρες κρατῆρες ἐκτετυπωμένοι καρυΐσκους.
+   - BSB: For the six branches that extend from the lampstand, a bud must be under the first pair of branches, a bud under the second pair, and a bud under the third pair.
+   - KJV: And there shall be a knop under two branches of the same, and a knop under two branches of the same, and a knop under two branches of the same, according to the six branches that proceed out of the candlestick.
+- **26:3** Hebrew 5; Latin none
+   - Latin: Ea quīna inter sē connexa suntō.
+   - 1738: Ea quina inter se connexa sunto.
+   - WLC: חֲמֵ֣שׁ הַיְרִיעֹ֗ת תִּֽהְיֶ֙יןָ֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָ֑הּ וְחָמֵ֤שׁ יְרִיעֹת֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָֽהּ׃
+   - Vulgate: Quinque cortinæ sibi jungentur mutuo, et aliæ quinque nexu simili cohærebunt.
+   - LXX: Πέντε δὲ αὐλαῖαι ἔσονται ἐξ ἀλλήλων ἐχόμεναι ἡ ἑτέρα ἐκ τῆς ἑτέρας· καὶ πέντε αὐλαῖαι ἔσονται συνεχόμεναι ἑτέρα τῇ ἑτέρᾳ.
+   - BSB: Five of the curtains are to be joined together, and the other five joined as well.
+   - KJV: The five curtains shall be coupled together one to another; and other five curtains shall be coupled one to another.
+- **26:5** Hebrew 2, 50; Latin 50
+   - Latin: eāsque utrobīque quīnquāgēnās sibi inter sē respondentēs.
+   - 1738: easque vtrobique quinquagenas sibi inter se respondentes.
+   - WLC: חֲמִשִּׁ֣ים לֻֽלָאֹ֗ת תַּעֲשֶׂה֮ בַּיְרִיעָ֣ה הָאֶחָת֒ וַחֲמִשִּׁ֣ים לֻֽלָאֹ֗ת תַּעֲשֶׂה֙ בִּקְצֵ֣ה הַיְרִיעָ֔ה אֲשֶׁ֖ר בַּמַּחְבֶּ֣רֶת הַשֵּׁנִ֑ית מַקְבִּילֹת֙ הַלֻּ֣לָאֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָֽהּ׃
+   - Vulgate: Quinquagenas ansulas cortina habebit in utraque parte, ita insertas ut ansa contra ansam veniat, et altera alteri possit aptari.
+   - LXX: Πεντήκοντα ἀγκύλας ποιήσεις τῇ αὐλαίᾳ τῇ μιᾷ, καὶ πεντήκοντα ἀγκύλας ποιήσεις ἐκ τοῦ μέρους τῆς αὐλαίας κατὰ τὴν συμβολὴν τῆς δευτέρας, ἀντιπρόσωποι ἀντιπίπτουσαι ἀλλήλαις εἰς ἑκάστην.
+   - BSB: Make fifty loops on one curtain and fifty loops on the end curtain of the second set, so that the loops line up opposite one another.
+   - KJV: Fifty loops shalt thou make in the one curtain, and fifty loops shalt thou make in the edge of the curtain that is in the coupling of the second; that the loops may take hold one of another.
+- **26:8** Hebrew 4, 10, 30; Latin 4, 30
+   - Latin: in longitūdinem trīcēnum cubitōrum, in lātitūdinem quaternum, eadem omnium mēnsūra:
+   - 1738: in longitudinem trigenum cubitorum, in latitudinem quaternum, eadem omnium mensura:
+   - WLC: אֹ֣רֶךְ ׀ הַיְרִיעָ֣ה הָֽאַחַ֗ת שְׁלֹשִׁים֙ בָּֽאַמָּ֔ה וְרֹ֙חַב֙ אַרְבַּ֣ע בָּאַמָּ֔ה הַיְרִיעָ֖ה הָאֶחָ֑ת מִדָּ֣ה אַחַ֔ת לְעַשְׁתֵּ֥י עֶשְׂרֵ֖ה יְרִיעֹֽת׃
+   - Vulgate: Longitudo sagi unius habebit triginta cubitos, et latitudo, quatuor: æqua erit mensura sagorum omnium.
+   - LXX: Τὸ μῆκος τῆς δέῤῥεως τῆς μιᾶς, τριάκοντα πήχεων, καὶ τεσσάρων πήχεων τὸ εὖρος τῆς δέῤῥεως τῆς μιᾶς· τὸ αὐτὸ μέτρον ἔσται ταῖς ἕνδεκα δέῤῥεσι.
+   - BSB: Each of the eleven curtains is to be the same size—thirty cubits long and four cubits wide.
+   - KJV: The length of one curtain shall be thirty cubits, and the breadth of one curtain four cubits: and the eleven curtains shall be all of one measure.
+- **26:13** Hebrew none; Latin 2
+   - Latin: At duo cubitī alter alterā ex parte dē strāgulōrum longitūdine superfluentēs, redundābunt in tabernāculī latera, ut id hinc inde operiant.
+   - 1738: At duo cubiti alter altera ex parte de stragulorum longitudine superfluentes, redundabunt in tabernaculi latera, vt id hinc inde operiant.
+   - WLC: וְהָאַמָּ֨ה מִזֶּ֜ה וְהָאַמָּ֤ה מִזֶּה֙ בָּעֹדֵ֔ף בְּאֹ֖רֶךְ יְרִיעֹ֣ת הָאֹ֑הֶל יִהְיֶ֨ה סָר֜וּחַ עַל־צִדֵּ֧י הַמִּשְׁכָּ֛ן מִזֶּ֥ה וּמִזֶּ֖ה לְכַסֹּתֽוֹ׃
+   - Vulgate: Et cubitus ex una parte pendebit, et alter ex altera qui plus est in sagorum longitudine, utrumque latus tabernaculi protegens.
+   - LXX: Πῆχυν ἐκ τούτου, καὶ πῆχυν ἐκ τούτου, ἐκ τοῦ ὑπερέχοντος τῶν δέῤῥεων, ἐκ τοῦ μήκους τῶν δέῤῥεων τῆς σκηνῆς· ἔσται συγκαλύπτον ἐπὶ τὰ πλάγια τῆς σκηνῆς ἔνθεν καὶ ἔνθεν, ἵνα καλύπτῃ.
+   - BSB: And the tent curtains will be a cubit longer on either side, and the excess will hang over the sides of the tabernacle to cover it.
+   - KJV: And a cubit on the one side, and a cubit on the other side of that which remaineth in the length of the curtains of the tent, it shall hang over the sides of the tabernacle on this side and on that side, to cover it.
+- **26:19** Hebrew 2, 20, 40; Latin 40
+   - Latin: quibus quadrāgintā spīrās argenteās suppōnēs,
+   - 1738: quibus quadraginta spiras argenteas suppones,
+   - WLC: וְאַרְבָּעִים֙ אַדְנֵי־כֶ֔סֶף תַּעֲשֶׂ֕ה תַּ֖חַת עֶשְׂרִ֣ים הַקָּ֑רֶשׁ שְׁנֵ֨י אֲדָנִ֜ים תַּֽחַת־הַקֶּ֤רֶשׁ הָאֶחָד֙ לִשְׁתֵּ֣י יְדֹתָ֔יו וּשְׁנֵ֧י אֲדָנִ֛ים תַּֽחַת־הַקֶּ֥רֶשׁ הָאֶחָ֖ד לִשְׁתֵּ֥י יְדֹתָֽיו׃
+   - Vulgate: Quibus quadraginta bases argenteas fundes, ut binæ bases singulis tabulis per duos angulos subjiciantur.
+   - LXX: Καὶ τεσσαράκοντα βάσεις ἀργυρᾶς ποιήσεις τοῖς εἴκοσι στύλοις· δύο βάσεις τῷ στύλῳ τῷ ἑνὶ εἰς ἀμφότερα τὰ μέρη αὐτοῦ· και δύο βάσεις τῷ στύλῳ τῷ ἑνὶ εἰς ἀμφοτέρα τὰ μέρη αὐτοῦ.
+   - BSB: with forty silver bases under the twenty frames—two bases for each frame, one under each tenon.
+   - KJV: And thou shalt make forty sockets of silver under the twenty boards; two sockets under one board for his two tenons, and two sockets under another board for his two tenons.
+- **26:20** Hebrew 2, 20; Latin 2
+   - Latin: vidēlicet singulās duās prō numerō cardinum:
+   - 1738: videlicet singulas duas pro numero cardinum:
+   - WLC: וּלְצֶ֧לַע הַמִּשְׁכָּ֛ן הַשֵּׁנִ֖ית לִפְאַ֣ת צָפ֑וֹן עֶשְׂרִ֖ים קָֽרֶשׁ׃
+   - Vulgate: In latere quoque secundo tabernaculi quod vergit ad aquilonem, viginti tabulæ erunt,
+   - LXX: Καὶ τὸ κλίτος τὸ δεύτερον τὸ πρὸς Νότον, εἴκοσι στύλους,
+   - BSB: For the second side of the tabernacle, the north side, make twenty frames
+   - KJV: And for the second side of the tabernacle on the north side there shall be twenty boards:
+- **26:21** Hebrew 2, 40; Latin none
+   - Latin: Totidemque et eōdem modō, ad alterum latus in parte aquilōnārī.
+   - 1738: totidemque et eodem modo, ad alterum latus in parte aquilonari.
+   - WLC: וְאַרְבָּעִ֥ים אַדְנֵיהֶ֖ם כָּ֑סֶף שְׁנֵ֣י אֲדָנִ֗ים תַּ֚חַת הַקֶּ֣רֶשׁ הָֽאֶחָ֔ד וּשְׁנֵ֣י אֲדָנִ֔ים תַּ֖חַת הַקֶּ֥רֶשׁ הָאֶחָֽד׃
+   - Vulgate: quadraginta habentes bases argenteas, binæ bases singulis tabulis supponentur.
+   - LXX: καὶ τεσσαράκοντα βάσεις αὐτῶν ἀργυρᾶς· δύο βάσεις τῷ στύλῳ τῷ ἑνὶ εἰς ἀμφότερα τὰ μέρη αὐτοῦ, καὶ δύο βάσεις τῷ στύλῳ τῷ ἑνὶ εἰς ἀμφότερα τὰ μέρη αὐτοῦ.
+   - BSB: and forty silver bases—two bases under each frame.
+   - KJV: And their forty sockets of silver; two sockets under one board, and two sockets under another board.
+- **26:24** Hebrew 2; Latin none
+   - Latin: et in īmō et in summō simul ūnō ānulō coaptābis.
+   - 1738: et in imo et in summo simul vno annulo coaptabis.
+   - WLC: וְיִֽהְי֣וּ תֹֽאֲמִים֮ מִלְּמַטָּה֒ וְיַחְדָּ֗ו יִהְי֤וּ תַמִּים֙ עַל־רֹאשׁ֔וֹ אֶל־הַטַּבַּ֖עַת הָאֶחָ֑ת כֵּ֚ן יִהְיֶ֣ה לִשְׁנֵיהֶ֔ם לִשְׁנֵ֥י הַמִּקְצֹעֹ֖ת יִהְיֽוּ׃
+   - Vulgate: Eruntque conjunctæ a deorsum usque sursum, et una omnes compago retinebit. Duabus quoque tabulis quæ in angulis ponendæ sunt, similis junctura servabitur.
+   - LXX: Καὶ ἔσται ἐξ ἴσου κάτωθεν· κατὰ τὸ αὐτὸ ἔσονται ἴσοι ἐκ τῶν κεφαλῶν εἰς σύμβλησιν μίαν· οὕτω ποιήσεῖς ἀμφοτέραις ταῖς δυσὶ γωνίαις· ἴσαι ἔστωσαν.
+   - BSB: coupled together from bottom to top and fitted into a single ring. These will serve as the two corners.
+   - KJV: And they shall be coupled together beneath, and they shall be coupled together above the head of it unto one ring: thus shall it be for them both; they shall be for the two corners.
+- **26:26** Hebrew 5; Latin 2
+   - Latin: Prætereā facitō cedrina repāgula quīna, ad duo tabernāculī latera:
+   - 1738: Præterea facito cedrina repagula quina, ad duo tabernaculi latera:
+   - WLC: וְעָשִׂ֥יתָ בְרִיחִ֖ם עֲצֵ֣י שִׁטִּ֑ים חֲמִשָּׁ֕ה לְקַרְשֵׁ֥י צֶֽלַע־הַמִּשְׁכָּ֖ן הָאֶחָֽד׃
+   - Vulgate: Facies et vectes de lignis setim quinque ad continendas tabulas in uno latere tabernaculi,
+   - LXX: Καὶ ποιήσεις μοχλοὺς ἐκ ξύλων ἀσήπτων· πέντε τῷ ἑνὶ στύλῳ ἐκ τοῦ ἑνὸς μέρους τῆς σκηνῆς,
+   - BSB: You are also to make five crossbars of acacia wood for the frames on one side of the tabernacle,
+   - KJV: ¶ And thou shalt make bars of shittim wood; five for the boards of the one side of the tabernacle,
+- **26:27** Hebrew 2, 5; Latin none
+   - Latin: totidemque ad partem occidentālem,
+   - 1738: totidemque ad partem occidentalem,
+   - WLC: וַחֲמִשָּׁ֣ה בְרִיחִ֔ם לְקַרְשֵׁ֥י צֶֽלַע־הַמִּשְׁכָּ֖ן הַשֵּׁנִ֑ית וַחֲמִשָּׁ֣ה בְרִיחִ֗ם לְקַרְשֵׁי֙ צֶ֣לַע הַמִּשְׁכָּ֔ן לַיַּרְכָתַ֖יִם יָֽמָּה׃
+   - Vulgate: et quinque alios in altero, et ejusdem numeri ad occidentalem plagam:
+   - LXX: καὶ πέντε μοχλοὺς τῷ στύλῳ τῷ ἑνὶ κλίτει τῆς σκηνῆς τῷ δευτέρῳ, καὶ πέντε μοχλοὺς τῷ στύλῳ τῷ ὀπισθίῳ τῷ κλίτει τῆς σκηνῆς τῷ πρὸς θάλασσαν.
+   - BSB: five for those on the other side, and five for those on the rear side of the tabernacle, to the west.
+   - KJV: And five bars for the boards of the other side of the tabernacle, and five bars for the boards of the side of the tabernacle, for the two sides westward.
+- **27:11** Hebrew 20, 100; Latin 2
+   - Latin: eōdemque modō in latere septentriōnālī. Et ista quidem duo latera longitūdinem efficient.
+   - 1738: eodemque modo in latere septemtrionali. Et ista quidem duo latera longitudinem efficient.
+   - WLC: וְכֵ֨ן לִפְאַ֤ת צָפוֹן֙ בָּאֹ֔רֶךְ קְלָעִ֖ים מֵ֣אָה אֹ֑רֶךְ ועמדו עֶשְׂרִ֗ים וְאַדְנֵיהֶ֤ם עֶשְׂרִים֙ נְחֹ֔שֶׁת וָוֵ֧י הָֽעַמֻּדִ֛ים וַחֲשֻׁקֵיהֶ֖ם כָּֽסֶף׃
+   - Vulgate: Similiter et in latere aquilonis per longum erunt tentoria centum cubitorum, columnæ viginti, et bases æneæ ejusdem numeri, et capita earum cum cælaturis suis argentea.
+   - LXX: Οὕτως τῷ κλίτει τῷ πρὸς ἀπηλιώτην ἱστία ἑκατὸν πήχεων μῆκος· καὶ οἱ στύλοι αὐτῶν εἴκοσι, καὶ αἱ βάσεις αὐτῶν εἴκοσι χαλκαῖ· καὶ οἱ κρίκοι καὶ αἱ ψαλίδες τῶν στύλων, καὶ αἱ βάσεις αὐτῶν περιηργυρωμέναι ἀργυρίῳ.
+   - BSB: Likewise there are to be curtains on the north side, a hundred cubits long, with twenty posts and twenty bronze bases, and with silver hooks and bands on the posts.
+   - KJV: And likewise for the north side in length there shall be hangings of an hundred cubits long, and his twenty pillars and their twenty sockets of brass; the hooks of the pillars and their fillets of silver.
+- **27:14** Hebrew 3, 5, 10; Latin 5, 10
+   - Latin: Sed utrimque vēla erunt quīndēnum cubitōrum,
+   - 1738: Sed vtrimque vela erunt quindenum cubitorum,
+   - WLC: וַחֲמֵ֨שׁ עֶשְׂרֵ֥ה אַמָּ֛ה קְלָעִ֖ים לַכָּתֵ֑ף עַמֻּדֵיהֶ֣ם שְׁלֹשָׁ֔ה וְאַדְנֵיהֶ֖ם שְׁלֹשָֽׁה׃
+   - Vulgate: In quibus quindecim cubitorum tentoria lateri uno deputabuntur, columnæque tres et bases totidem:
+   - LXX: Καὶ πεντεκαίδεκα πήχεων τὸ ὕψος τῶν ἱστίων τῷ κλίτει τῷ ἑνί· στύλοι αὐτῶν τρεῖς, καὶ αἱ βάσεις αὐτῶν τρεῖς.
+   - BSB: Make the curtains on one side fifteen cubits long, with three posts and three bases,
+   - KJV: The hangings of one side of the gate shall be fifteen cubits: their pillars three, and their sockets three.
+- **27:15** Hebrew 2, 3, 5, 10; Latin 3
+   - Latin: et columnæ ternæ totidemque basēs.
+   - 1738: et columnæ ternæ totidemque basses.
+   - WLC: וְלַכָּתֵף֙ הַשֵּׁנִ֔ית חְמֵ֥שׁ עֶשְׂרֵ֖ה קְלָעִ֑ים עַמֻּדֵיהֶ֣ם שְׁלֹשָׁ֔ה וְאַדְנֵיהֶ֖ם שְׁלֹשָֽׁה׃
+   - Vulgate: et in latere altero erunt tentoria cubitos obtinentia quindecim, columnæ tres, et bases totidem.
+   - LXX: Καὶ τὸ κλίτος τὸ δεύτερον δεκαπέντε πήχεων τῶν ἱστίων τὸ ὕψος· στύλοι αὐτῶν τρεῖς, καὶ αἱ βάσεις αὐτῶν τρεῖς.
+   - BSB: and the curtains on the other side fifteen cubits long, with three posts and three bases.
+   - KJV: And on the other side shall be hangings fifteen cubits: their pillars three, and their sockets three.
+- **28:10** Hebrew 2, 6; Latin none
+   - Latin: vidēlicet utramque sēnīs nōminibus prō ratiōne ætātis eōrum:
+   - 1738: videlicet vtramque senis nominibus, pro ratione ætatis eorum:
+   - WLC: שִׁשָּׁה֙ מִשְּׁמֹתָ֔ם עַ֖ל הָאֶ֣בֶן הָאֶחָ֑ת וְאֶת־שְׁמ֞וֹת הַשִּׁשָּׁ֧ה הַנּוֹתָרִ֛ים עַל־הָאֶ֥בֶן הַשֵּׁנִ֖ית כְּתוֹלְדֹתָֽם׃
+   - Vulgate: sex nomina in lapide uno, et sex reliqua in altero, juxta ordinem nativitatis eorum.
+   - LXX: Ἓξ ὀνόματα ἐπὶ τὸν λίθον τὸν ἕνα, καὶ τὰ ἓξ ὀνόματα τὰ λοιπὰ ἐπὶ τὸν λίθον τὸν δεύτερον κατὰ τὰς γενέσεις αὐτῶν.
+   - BSB: six of their names on one stone and the remaining six on the other, in the order of their birth.
+   - KJV: Six of their names on one stone, and the other six names of the rest on the other stone, according to their birth.
+- **28:11** Hebrew 2; Latin none
+   - Latin: Eāsque cælātō opere opificis gemmāriī, cælātūrā sigillārī. Facitōque, ut ipsa Isrāēlītārum nōmina circulīs aureīs sint conclūsa.
+   - 1738: easque cælato opere opificis gemmarii, cælatura sigillari. Facitoque, vt ipsa Israelitarum nomina circulis aureis sint conclusa.
+   - WLC: מַעֲשֵׂ֣ה חָרַשׁ֮ אֶבֶן֒ פִּתּוּחֵ֣י חֹתָ֗ם תְּפַתַּח֙ אֶת־שְׁתֵּ֣י הָאֲבָנִ֔ים עַל־שְׁמֹ֖ת בְּנֵ֣י יִשְׂרָאֵ֑ל מֻסַבֹּ֛ת מִשְׁבְּצ֥וֹת זָהָ֖ב תַּעֲשֶׂ֥ה אֹתָֽם׃
+   - Vulgate: Opere sculptoris et cælatura gemmarii, sculpes eos nominibus filiorum Israël, inclusos auro atque circumdatos:
+   - LXX: Ἔργον λιθουργικῆς τέχνης· γλύμμα σφραγίδος διαγλύψεις τοὺς δύο λίθους ἐπὶ τοῖς ὀνόμασι τῶς υἱῶν Ἰσρσήλ.
+   - BSB: Engrave the names of the sons of Israel on the two stones the way a gem cutter engraves a seal. Then mount the stones in gold filigree settings.
+   - KJV: With the work of an engraver in stone, like the engravings of a signet, shalt thou engrave the two stones with the names of the children of Israel: thou shalt make them to be set in ouches of gold.
+- **28:16** Hebrew none; Latin 2
+   - Latin: quadrātum, duplum, longitūdine et lātitūdine palmī:
+   - 1738: quadratum, duplum, longitudine et latitudine palmi:
+   - WLC: רָב֥וּעַ יִֽהְיֶ֖ה כָּפ֑וּל זֶ֥רֶת אָרְכּ֖וֹ וְזֶ֥רֶת רָחְבּֽוֹ׃
+   - Vulgate: Quadrangulum erit et duplex: mensuram palmi habebit tam in longitudine quam in latitudine.
+   - LXX: Ποιήσεις αὐτό τετράγωνον· ἔσται διπλοῦν, σπιθαμῆς τὸ μῆκος αὐτοῦ, καὶ σπιθαμῆς τὸ εὖρος.
+   - BSB: It must be square when folded over double, a span long and a span wide.
+   - KJV: Foursquare it shall be being doubled; a span shall be the length thereof, and a span shall be the breadth thereof.
+- **28:18** Hebrew 2; Latin none
+   - Latin: In secundō carbunculus, sapphīrus et adamās:
+   - 1738: In secundo carbunculus, sapphirus et adamas:
+   - WLC: וְהַטּ֖וּר הַשֵּׁנִ֑י נֹ֥פֶךְ סַפִּ֖יר וְיָהֲלֹֽם׃
+   - Vulgate: in secundo carbunculus, sapphirus, et jaspis:
+   - LXX: Καὶ ὁ στίχος ὁ δεύτερος, ἄνθραξ, καὶ σάπφειρος, καὶ ἴασπις.
+   - BSB: in the second row a turquoise, a sapphire, and a diamond;
+   - KJV: And the second row shall be an emerald, a sapphire, and a diamond.
+- **29:40** Hebrew 10; Latin 4, 10
+   - Latin: Et priōrī agnō additō, decimam similāginis, depsitæ in oleī expressī quārtā parte hīnis, itemque vīnī lībāmentum hīnis quārtam partem.
+   - 1738: et priori agno addito decimam similaginis, depsitæ in olei expressi quarta parte hinis, itemque vini libamentum hinis quartam partem.
+   - WLC: וְעִשָּׂרֹ֨ן סֹ֜לֶת בָּל֨וּל בְּשֶׁ֤מֶן כָּתִית֙ רֶ֣בַע הַהִ֔ין וְנֵ֕סֶךְ רְבִעִ֥ית הַהִ֖ין יָ֑יִן לַכֶּ֖בֶשׂ הָאֶחָֽד׃
+   - Vulgate: decimam partem similæ conspersæ oleo tuso, quod habeat mensuram quartam partem hin, et vinum ad libandum ejusdem mensuræ in agno uno.
+   - LXX: Καὶ δέκατον σεμιδάλεως πεφυραμένης ἐν ἐλαίῳ κεκομμένῳ τῷ τετάρτῳ τοῦ εἴν· καὶ σπονδὴν τὸ τέταρτον τοῦ εἲν οἴνου τῷ ἀμνῷ τῷ ἑνί.
+   - BSB: With the first lamb offer a tenth of an ephah of fine flour, mixed with a quarter hin of oil from pressed olives, and a drink offering of a quarter hin of wine.
+   - KJV: And with the one lamb a tenth deal of flour mingled with the fourth part of an hin of beaten oil; and the fourth part of an hin of wine for a drink offering.
+- **34:7** Hebrew 1000; Latin 3, 4, 1000
+   - Latin: QUĪ CLĒMENTIĀ IN MĪLLE ŪSQUE ÆTĀTĒS ŪTITUR, VITIA ET PECCĀTA ET DĒLICTA CONDŌNĀNS: IN PŒNĀ AUTEM IRROGANDĀ PARENTUM CULPAM IN NĀTŌS ET NEPŌTĒS, AD TERTIAM ET QUĀRTAM STIRPEM PERSEQUITUR.”
+   - 1738: QVI CLEMENTIA IN MILLE VSQVE AETATES VTITVR, VITIA ET PECCATA ET DELICTA CONDONANS: IN POENA AVTEM IRROGANDA PARENTVM CVLPAM IN NATOS ET NEPOTES, AD TERTIAM ET QVARTAM STIRPEM PERSEQVITVR.
+   - WLC: נֹצֵ֥ר חֶ֙סֶד֙ לָאֲלָפִ֔ים נֹשֵׂ֥א עָוֺ֛ן וָפֶ֖שַׁע וְחַטָּאָ֑ה וְנַקֵּה֙ לֹ֣א יְנַקֶּ֔ה פֹּקֵ֣ד ׀ עֲוֺ֣ן אָב֗וֹת עַל־בָּנִים֙ וְעַל־בְּנֵ֣י בָנִ֔ים עַל־שִׁלֵּשִׁ֖ים וְעַל־רִבֵּעִֽים׃
+   - Vulgate: qui custodis misericordiam in millia; qui aufers iniquitatem, et scelera, atque peccata, nullusque apud te per se innocens est; qui reddis iniquitatem patrum filiis, ac nepotibus in tertiam et quartam progeniem.
+   - LXX: καὶ δικαιοσύνην διατηρῶν καὶ ἔλεος εἰς χιλιάδας, ἀφαιρῶν ἀνομίας καὶ ἀδικίας καὶ ἁμαρτίας, καὶ οὐ καθαριεῖ τὸν ἔνοχον, ἐπάγων ἀνομίας πατέρων ἐπὶ τέκνα καὶ ἐπὶ τέκνα τέκνων ἐπὶ τρίτην καὶ τετάρτην γενεάν.
+   - BSB: maintaining loving devotion to a thousand generations, forgiving iniquity, transgression, and sin. Yet He will by no means leave the guilty unpunished; He will visit the iniquity of the fathers on their children and grandchildren to the third and fourth generations.”
+   - KJV: Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children’s children, unto the third and to the fourth generation.
+- **34:24** Hebrew 3; Latin none
+   - Latin: Nam ego, exāctīs tuā causā gentibus, fīnēs tuōs amplificābō, neque quisquam tuam terram concupīscet, tum, cum ad compārendum cōram Jōvā Deō tuō quotannīs proficīscēris.
+   - 1738: Nam ego, exactis tua caussa gentibus, fines tuos amplificabo, neque quisquam tuam terram concupiscet, tum, quum ad comparendum coram Ioua Deo tuo quotannis proficisceris.
+   - WLC: כִּֽי־אוֹרִ֤ישׁ גּוֹיִם֙ מִפָּנֶ֔יךָ וְהִרְחַבְתִּ֖י אֶת־גְּבוּלֶ֑ךָ וְלֹא־יַחְמֹ֥ד אִישׁ֙ אֶֽת־אַרְצְךָ֔ בַּעֲלֹֽתְךָ֗ לֵרָאוֹת֙ אֶת־פְּנֵי֙ יְהוָ֣ה אֱלֹהֶ֔יךָ שָׁלֹ֥שׁ פְּעָמִ֖ים בַּשָּׁנָֽה׃
+   - Vulgate: Cum enim tulero gentes a facie tua, et dilatavero terminos tuos, nullus insidiabitur terræ tuæ, ascendente te, et apparente in conspectu Domini Dei tui ter in anno.
+   - LXX: Ὅταν γὰρ ἐκβάλω τὰ ἔθνη πρὸ προσώπου σου, καὶ πλατυνῶ τὰ ὅριά σου, οὐκ ἐπιθυμήσει οὐδεὶς τῆς γῆς σου, ἡνίκα ἂν ἀναβαίνῃς ὀφθῆναι ἐναντίον Κυρίου τοῦ Θεοῦ σου, τρεῖς καιροὺς τοῦ ἐνιαυτοῦ.
+   - BSB: For I will drive out the nations before you and enlarge your borders, and no one will covet your land when you go up three times a year to appear before the LORD your God.
+   - KJV: For I will cast out the nations before thee, and enlarge thy borders: neither shall any man desire thy land, when thou shalt go up to appear before the LORD thy God thrice in the year.
+- **36:10** Hebrew 5; Latin none
+   - Latin: Hæc ille quīna inter sē connectēbat.
+   - 1738: Hæc ille quina inter se connectebat.
+   - WLC: וַיְחַבֵּר֙ אֶת־חֲמֵ֣שׁ הַיְרִיעֹ֔ת אַחַ֖ת אֶל־אֶחָ֑ת וְחָמֵ֤שׁ יְרִיעֹת֙ חִבַּ֔ר אַחַ֖ת אֶל־אֶחָֽת׃
+   - Vulgate: Conjunxitque cortinas quinque, alteram alteri, et alias quinque sibi invicem copulavit.
+   - BSB: And he joined five of the curtains together, and the other five he joined as well.
+   - KJV: And he coupled the five curtains one unto another: and the other five curtains he coupled one unto another.
+- **36:12** Hebrew 2, 50; Latin 50
+   - Latin: eāsque utrobīque quīnquāgēnās sibi mūtuō respondentēs.
+   - 1738: easque vtrobique quinquagenas sibi mutuo respondentes.
+   - WLC: חֲמִשִּׁ֣ים לֻלָאֹ֗ת עָשָׂה֮ בַּיְרִיעָ֣ה הָאֶחָת֒ וַחֲמִשִּׁ֣ים לֻלָאֹ֗ת עָשָׂה֙ בִּקְצֵ֣ה הַיְרִיעָ֔ה אֲשֶׁ֖ר בַּמַּחְבֶּ֣רֶת הַשֵּׁנִ֑ית מַקְבִּילֹת֙ הַלֻּ֣לָאֹ֔ת אַחַ֖ת אֶל־אֶחָֽת׃
+   - Vulgate: ut contra se invicem venirent ansæ, et mutuo jungerentur.
+   - BSB: He made fifty loops on one curtain and fifty loops on the end curtain of the second set, so that the loops lined up opposite one another.
+   - KJV: Fifty loops made he in one curtain, and fifty loops made he in the edge of the curtain which was in the coupling of the second: the loops held one curtain to another.
+- **36:15** Hebrew 4, 10, 30; Latin 4, 30
+   - Latin: in longitūdinem trīcēnum cubitōrum, in lātitūdinem quaternum, eadem omnium mēnsūra:
+   - 1738: in longitudinem trigenum cubitorum, in latitudinem quaternum, eadem omnium mensura:
+   - WLC: אֹ֜רֶךְ הַיְרִיעָ֣ה הָאַחַ֗ת שְׁלֹשִׁים֙ בָּֽאַמָּ֔ה וְאַרְבַּ֣ע אַמּ֔וֹת רֹ֖חַב הַיְרִיעָ֣ה הָאֶחָ֑ת מִדָּ֣ה אַחַ֔ת לְעַשְׁתֵּ֥י עֶשְׂרֵ֖ה יְרִיעֹֽת׃
+   - Vulgate: unum sagum in longitudine habebat cubitos triginta, et in latitudine cubitos quatuor: unius mensuræ erant omnia saga:
+   - BSB: Each of the eleven curtains was the same size—thirty cubits long and four cubits wide.
+   - KJV: The length of one curtain was thirty cubits, and four cubits was the breadth of one curtain: the eleven curtains were of one size.
+- **36:24** Hebrew 2, 20, 40; Latin 2, 40
+   - Latin: quibus quadrāgintā spīrās argenteās suppōnēbat, vidēlicet singulīs duās, quot erant cardinēs:
+   - 1738: quibus quadraginta spiras argenteas supponebat, videlicet singulis duas, quot erant cardines:
+   - WLC: וְאַרְבָּעִים֙ אַדְנֵי־כֶ֔סֶף עָשָׂ֕ה תַּ֖חַת עֶשְׂרִ֣ים הַקְּרָשִׁ֑ים שְׁנֵ֨י אֲדָנִ֜ים תַּֽחַת־הַקֶּ֤רֶשׁ הָאֶחָד֙ לִשְׁתֵּ֣י יְדֹתָ֔יו וּשְׁנֵ֧י אֲדָנִ֛ים תַּֽחַת־הַקֶּ֥רֶשׁ הָאֶחָ֖ד לִשְׁתֵּ֥י יְדֹתָֽיו׃
+   - Vulgate: cum quadraginta basibus argenteis. Duæ bases sub una tabula ponebantur ex utraque parte angulorum, ubi incastraturæ laterum in angulis terminantur.
+   - BSB: with forty silver bases to put under the twenty frames—two bases for each frame, one under each tenon.
+   - KJV: And forty sockets of silver he made under the twenty boards; two sockets under one board for his two tenons, and two sockets under another board for his two tenons.
+- **36:25** Hebrew 2, 20; Latin none
+   - Latin: totidemque et eōdem modō ad alterum latus, in parte aquilōnārī.
+   - 1738: totitemque et eodem modo ad alterum latus, in parte aquilonari.
+   - WLC: וּלְצֶ֧לַע הַמִּשְׁכָּ֛ן הַשֵּׁנִ֖ית לִפְאַ֣ת צָפ֑וֹן עָשָׂ֖ה עֶשְׂרִ֥ים קְרָשִֽׁים׃
+   - Vulgate: Ad plagam quoque tabernaculi, quæ respicit ad aquilonem, fecit viginti tabulas,
+   - BSB: For the second side of the tabernacle, the north side, he made twenty frames
+   - KJV: And for the other side of the tabernacle, which is toward the north corner, he made twenty boards,
+- **36:26** Hebrew 2, 40; Latin 2, 6
+   - Latin: Ad partem autem tabernāculī occidentālem sex asserēs faciēbat, et duōs in angulāribus tabernāculī versūrīs,
+   - 1738: Ad partem autem tabernaculi occidentalem sex asseres faciebat, et duos in angularibus tabernaculi versuris,
+   - WLC: וְאַרְבָּעִ֥ים אַדְנֵיהֶ֖ם כָּ֑סֶף שְׁנֵ֣י אֲדָנִ֗ים תַּ֚חַת הַקֶּ֣רֶשׁ הָאֶחָ֔ד וּשְׁנֵ֣י אֲדָנִ֔ים תַּ֖חַת הַקֶּ֥רֶשׁ הָאֶחָֽד׃
+   - Vulgate: cum quadraginta basibus argenteis, duas bases per singulas tabulas.
+   - BSB: and forty silver bases—two bases under each frame.
+   - KJV: And their forty sockets of silver; two sockets under one board, and two sockets under another board.
+- **36:27** Hebrew 6; Latin none
+   - Latin: quī et in īmō et in summō ūnō ānulō inter sē cōpulābantur.
+   - 1738: qui et in imo et in summo vno annulo inter se copulabantur.
+   - WLC: וּֽלְיַרְכְּתֵ֥י הַמִּשְׁכָּ֖ן יָ֑מָּה עָשָׂ֖ה שִׁשָּׁ֥ה קְרָשִֽׁים׃
+   - Vulgate: Contra occidentem vero, id est, ad eam partem tabernaculi quæ mare respicit, fecit sex tabulas,
+   - BSB: He made six frames for the rear of the tabernacle, the west side,
+   - KJV: And for the sides of the tabernacle westward he made six boards.
+- **36:28** Hebrew 2; Latin 8
+   - Latin: Ita octō asserēs erant,
+   - 1738: Ita octo asseres erant,
+   - WLC: וּשְׁנֵ֤י קְרָשִׁים֙ עָשָׂ֔ה לִמְקֻצְעֹ֖ת הַמִּשְׁכָּ֑ן בַּיַּרְכָתָֽיִם׃
+   - Vulgate: et duas alias per singulos angulos tabernaculi retro:
+   - BSB: and two frames for the two back corners of the tabernacle,
+   - KJV: And two boards made he for the corners of the tabernacle in the two sides.
+- **36:29** Hebrew 2; Latin 2, 6, 10
+   - Latin: et eōrum spīræ argenteæ sēdecim, singulōrum bīnæ:
+   - 1738: et eorum spiræ argenteæ sexdecim, singulorum binæ:
+   - WLC: וְהָי֣וּ תוֹאֲמִם֮ מִלְּמַטָּה֒ וְיַחְדָּ֗ו יִהְי֤וּ תַמִּים֙ אֶל־רֹאשׁ֔וֹ אֶל־הַטַּבַּ֖עַת הָאֶחָ֑ת כֵּ֚ן עָשָׂ֣ה לִשְׁנֵיהֶ֔ם לִשְׁנֵ֖י הַמִּקְצֹעֹֽת׃
+   - Vulgate: quæ junctæ erant a deorsum usque sursum, et in unam compaginem pariter ferebantur. Ita fecit ex utraque parte per angulos:
+   - BSB: coupled together from bottom to top and fitted into a single ring. He made both corners in this way.
+   - KJV: And they were coupled beneath, and coupled together at the head thereof, to one ring: thus he did to both of them in both the corners.
+- **36:30** Hebrew 2, 6, 8, 10; Latin none
+   - Latin: deinde cedrina repāgula faciēbat, utrīque tabernāculī laterī quīna,
+   - 1738: deinde cedrina repagula faciebat, vtrique tabernaculi lateri quina,
+   - WLC: וְהָיוּ֙ שְׁמֹנָ֣ה קְרָשִׁ֔ים וְאַדְנֵיהֶ֣ם כֶּ֔סֶף שִׁשָּׁ֥ה עָשָׂ֖ר אֲדָנִ֑ים שְׁנֵ֤י אֲדָנִים֙ שְׁנֵ֣י אֲדָנִ֔ים תַּ֖חַת הַקֶּ֥רֶשׁ הָאֶחָֽד׃
+   - Vulgate: ut octo essent simul tabulæ, et haberent bases argenteas sedecim, binas scilicet bases sub singulis tabulis.
+   - BSB: So there were eight frames and sixteen silver bases—two under each frame.
+   - KJV: And there were eight boards; and their sockets were sixteen sockets of silver, under every board two sockets.
+- **36:31** Hebrew 5; Latin none
+   - Latin: totidemque partī occidentālī,
+   - 1738: totidemque parti occidentali,
+   - WLC: וַיַּ֥עַשׂ בְּרִיחֵ֖י עֲצֵ֣י שִׁטִּ֑ים חֲמִשָּׁ֕ה לְקַרְשֵׁ֥י צֶֽלַע־הַמִּשְׁכָּ֖ן הָאֶחָֽת׃
+   - Vulgate: Fecit et vectes de lignis setim, quinque ad continendas tabulas unius lateris tabernaculi,
+   - BSB: He also made five crossbars of acacia wood for the frames on one side of the tabernacle,
+   - KJV: ¶ And he made bars of shittim wood; five for the boards of the one side of the tabernacle,
+- **36:32** Hebrew 2, 5; Latin none
+   - Latin: quōrum repāgulōrum mediānum per mediōs asserēs trājectum ab alterō extrēmō ad alterum pertinēbat.
+   - 1738: quorum repagulorum medianum per medios asseres traiectum ab altero extremo ad alterum pertinebat.
+   - WLC: וַחֲמִשָּׁ֣ה בְרִיחִ֔ם לְקַרְשֵׁ֥י צֶֽלַע־הַמִּשְׁכָּ֖ן הַשֵּׁנִ֑ית וַחֲמִשָּׁ֤ה בְרִיחִם֙ לְקַרְשֵׁ֣י הַמִּשְׁכָּ֔ן לַיַּרְכָתַ֖יִם יָֽמָּה׃
+   - Vulgate: et quinque alios ad alterius lateris coaptandas tabulas: et extra hos, quinque alios vectes ad occidentalem plagam tabernaculi contra mare.
+   - BSB: five for those on the other side, and five for those on the rear side of the tabernacle, to the west.
+   - KJV: And five bars for the boards of the other side of the tabernacle, and five bars for the boards of the tabernacle for the sides westward.
+- **37:1** Hebrew none; Latin 2
+   - Latin: Faciēbat item Beselēl arcam cedrinam, in longitūdinem duōrum cubitōrum et dīmidiī, lātitūdine autem et altitūdine sēsquicubitālī,
+   - 1738: Faciebat item Beselel arcam cedrinam, in longitudinem duorum cubitorum et dimidii, latitudine autem et altitudine sesquicubitali,
+   - WLC: וַיַּ֧עַשׂ בְּצַלְאֵ֛ל אֶת־הָאָרֹ֖ן עֲצֵ֣י שִׁטִּ֑ים אַמָּתַ֨יִם וָחֵ֜צִי אָרְכּ֗וֹ וְאַמָּ֤ה וָחֵ֙צִי֙ רָחְבּ֔וֹ וְאַמָּ֥ה וָחֵ֖צִי קֹמָתֽוֹ׃
+   - Vulgate: Fecit autem Beseleel et arcam de lignis setim, habentem duos semis cubitos in longitudine, et cubitum ac semissem in latitudine, altitudo quoque unius cubiti fuit et dimidii: vestivitque eam auro purissimo intus ac foris.
+   - BSB: Bezalel went on to construct the ark of acacia wood, two and a half cubits long, a cubit and a half wide, and a cubit and a half high.
+   - KJV: And Bezaleel made the ark of shittim wood: two cubits and a half was the length of it, and a cubit and a half the breadth of it, and a cubit and a half the height of it:
+- **37:6** Hebrew none; Latin 2
+   - Latin: Item propitiātōrium ex aurō pūrō, longitūdine duōrum cubitōrum et dīmidiī, lātitūdine ūnīus et dīmidiī.
+   - 1738: Item propitiatorium ex auro puro, longitudine duorum cubitorum et dimidii, latitudine vnius et dimidii.
+   - WLC: וַיַּ֥עַשׂ כַּפֹּ֖רֶת זָהָ֣ב טָה֑וֹר אַמָּתַ֤יִם וָחֵ֙צִי֙ אָרְכָּ֔הּ וְאַמָּ֥ה וָחֵ֖צִי רָחְבָּֽהּ׃
+   - Vulgate: Fecit et propitiatorium, id est, oraculum, de auro mundissimo, duorum cubitorum et dimidii in longitudine, et cubiti ac semis in latitudine.
+   - BSB: He constructed a mercy seat of pure gold, two and a half cubits long and a cubit and a half wide.
+   - KJV: ¶ And he made the mercy seat of pure gold: two cubits and a half was the length thereof, and one cubit and a half the breadth thereof.
+- **37:18** Hebrew 2, 3, 6; Latin 3, 6
+   - Latin: sex scāpīs ex ejus lateribus prōdeuntibus, ex utrōque trīnīs:
+   - 1738: sex scapis ex eius lateribus prodeuntibus, ex vtroque trinis:
+   - WLC: וְשִׁשָּׁ֣ה קָנִ֔ים יֹצְאִ֖ים מִצִּדֶּ֑יהָ שְׁלֹשָׁ֣ה ׀ קְנֵ֣י מְנֹרָ֗ה מִצִּדָּהּ֙ הָֽאֶחָ֔ד וּשְׁלֹשָׁה֙ קְנֵ֣י מְנֹרָ֔ה מִצִּדָּ֖הּ הַשֵּׁנִֽי׃
+   - Vulgate: sex in utroque latere, tres calami ex parte una, et tres ex altera:
+   - BSB: Six branches extended from the sides, three on one side and three on the other.
+   - KJV: And six branches going out of the sides thereof; three branches of the candlestick out of the one side thereof, and three branches of the candlestick out of the other side thereof:
+- **37:21** Hebrew 2, 6; Latin 3
+   - Latin: et subter tria scāpōrum paria ex eō prōdeuntia singulī globī,
+   - 1738: et subter tria scaporum paria ex eo prodeuntia singuli globi,
+   - WLC: וְכַפְתֹּ֡ר תַּחַת֩ שְׁנֵ֨י הַקָּנִ֜ים מִמֶּ֗נָּה וְכַפְתֹּר֙ תַּ֣חַת שְׁנֵ֤י הַקָּנִים֙ מִמֶּ֔נָּה וְכַפְתֹּ֕ר תַּֽחַת־שְׁנֵ֥י הַקָּנִ֖ים מִמֶּ֑נָּה לְשֵׁ֙שֶׁת֙ הַקָּנִ֔ים הַיֹּצְאִ֖ים מִמֶּֽנָּה׃
+   - Vulgate: et sphærulæ sub duobus calamis per loca tria, qui simul sex fiunt calami procedentes de vecte uno.
+   - BSB: A bud was under the first pair of branches that extended from the lampstand, a bud under the second pair, and a bud under the third pair.
+   - KJV: And a knop under two branches of the same, and a knop under two branches of the same, and a knop under two branches of the same, according to the six branches going out of it.
+- **38:11** Hebrew 20, 100; Latin none
+   - Latin: Atque idem fēcit in parte septentriōnālī.
+   - 1738: Atque idem fecit in parte septemtrionali.
+   - WLC: וְלִפְאַ֤ת צָפוֹן֙ מֵאָ֣ה בָֽאַמָּ֔ה עַמּוּדֵיהֶ֣ם עֶשְׂרִ֔ים וְאַדְנֵיהֶ֥ם עֶשְׂרִ֖ים נְחֹ֑שֶׁת וָוֵ֧י הָֽעַמּוּדִ֛ים וַחֲשֻׁקֵיהֶ֖ם כָּֽסֶף׃
+   - Vulgate: Æque ad septentrionalem plagam tentoria columnæ, basesque et capita columnarum ejusdem mensuræ, et operis ac metalli, erant.
+   - BSB: The north side was also a hundred cubits long, with twenty posts and twenty bronze bases. The hooks and bands of the posts were silver.
+   - KJV: And for the north side the hangings were an hundred cubits, their pillars were twenty, and their sockets of brass twenty; the hooks of the pillars and their fillets of silver.
+- **38:13** Hebrew 50; Latin 3, 5, 10, 50
+   - Latin: Itemque in orientālī parte quīnquāgintā cubitōrum vēla in utrōque portæ ātriī latere hinc inde quīndēnum cubitōrum trīnīs utrimque columnīs, totidem basibus:
+   - 1738: Itemque in orientali parte quinquaginta cubitorum vela in vtroque portæ atrii latere hinc inde quindenum cubitorum trinis vtrimque columnis, totidem basibus:
+   - WLC: וְלִפְאַ֛ת קֵ֥דְמָה מִזְרָ֖חָה חֲמִשִּׁ֥ים אַמָּֽה׃
+   - Vulgate: Porro contra orientem quinquaginta cubitorum paravit tentoria:
+   - BSB: And the east side, toward the sunrise, was also fifty cubits long.
+   - KJV: And for the east side eastward fifty cubits.
+- **38:14** Hebrew 3, 5, 10; Latin none
+   - Latin: quæ omnia per ātriī circuitum vēla erant ex byssō bilīce.
+   - 1738: quæ omnia per atrii circuitum vela erant ex bysso bilice.
+   - WLC: קְלָעִ֛ים חֲמֵשׁ־עֶשְׂרֵ֥ה אַמָּ֖ה אֶל־הַכָּתֵ֑ף עַמּוּדֵיהֶ֣ם שְׁלֹשָׁ֔ה וְאַדְנֵיהֶ֖ם שְׁלֹשָֽׁה׃
+   - Vulgate: e quibus, quindecim cubitos columnarum trium, cum basibus suis, unum tenebat latus:
+   - BSB: The curtains on one side of the entrance were fifteen cubits long, with three posts and three bases.
+   - KJV: The hangings of the one side of the gate were fifteen cubits; their pillars three, and their sockets three.
+- **38:15** Hebrew 2, 3, 5, 10; Latin none
+   - Latin: Columnārum autem basēs aēneæ, capitella et præcīnctiōnēs argenteæ, eārum capitibus argentō inductīs:
+   - 1738: Columnarum autem bases æneæ, capitella et præcinctiones argenteæ, earum capitibus argento inductis.
+   - WLC: וְלַכָּתֵ֣ף הַשֵּׁנִ֗ית מִזֶּ֤ה וּמִזֶּה֙ לְשַׁ֣עַר הֶֽחָצֵ֔ר קְלָעִ֕ים חֲמֵ֥שׁ עֶשְׂרֵ֖ה אַמָּ֑ה עַמֻּדֵיהֶ֣ם שְׁלֹשָׁ֔ה וְאַדְנֵיהֶ֖ם שְׁלֹשָֽׁה׃
+   - Vulgate: et in parte altera (quia inter utraque introitum tabernaculi fecit) quindecim æque cubitorum erant tentoria, columnæque tres, et bases totidem.
+   - BSB: And the curtains on the other side were also fifteen cubits long, with three posts and three bases as well.
+   - KJV: And for the other side of the court gate, on this hand and that hand, were hangings of fifteen cubits; their pillars three, and their sockets three.
+- **38:29** Hebrew 4, 70, 100, 1000; Latin 2, 4, 70, 100, 1000
+   - Latin: Æris oblātī fuēre talenta septuāgintā, et siclōrum duo mīllia quadringentī,
+   - 1738: Aeris oblati fuere talenta septuaginta, et siclorum duo millia quadringenti,
+   - WLC: וּנְחֹ֥שֶׁת הַתְּנוּפָ֖ה שִׁבְעִ֣ים כִּכָּ֑ר וְאַלְפַּ֥יִם וְאַרְבַּע־מֵא֖וֹת שָֽׁקֶל׃
+   - Vulgate: Æris quoque oblata sunt talenta septuaginta duo millia, et quadringenti supra sicli,
+   - BSB: The bronze from the wave offering totaled 70 talents and 2,400 shekels.
+   - KJV: And the brass of the offering was seventy talents, and two thousand and four hundred shekels.
+- **39:9** Hebrew none; Latin 2
+   - Latin: idque quadrātum duplum, longitūdine et lātitūdine palmī,
+   - 1738: idque quadratum duplum, longitudine et latitudine palmi,
+   - WLC: רָב֧וּעַ הָיָ֛ה כָּפ֖וּל עָשׂ֣וּ אֶת־הַחֹ֑שֶׁן זֶ֧רֶת אָרְכּ֛וֹ וְזֶ֥רֶת רָחְבּ֖וֹ כָּפֽוּל׃
+   - BSB: It was square when folded over double, a span long and a span wide.
+   - KJV: It was foursquare; they made the breastplate double: a span was the length thereof, and a span the breadth thereof, being doubled.
+- **39:15** Hebrew none; Latin 2
+   - Latin: Deinde monīlī faciēbant habēnās duās, fīnītās, opere catēnātō, ex aurō pūrō.
+   - 1738: Deinde monili faciebant habenas duas, finitas, opere catenato, ex auro puro.
+   - WLC: וַיַּעֲשׂ֧וּ עַל־הַחֹ֛שֶׁן שַׁרְשְׁרֹ֥ת גַּבְלֻ֖ת מַעֲשֵׂ֣ה עֲבֹ֑ת זָהָ֖ב טָהֽוֹר׃
+   - BSB: For the breastpiece they made braided chains like cords of pure gold.
+   - KJV: And they made upon the breastplate chains at the ends, of wreathen work of pure gold.
+- **40:17** Hebrew 2; Latin none
+   - Latin: Igitur prīmō diē mēnsis prīmī annō secundō ērēctum est tabernāculum.
+   - 1738: Igitur primo die mensis primi anno secundo erectum est tabernaculum.
+   - WLC: וַיְהִ֞י בַּחֹ֧דֶשׁ הָרִאשׁ֛וֹן בַּשָּׁנָ֥ה הַשֵּׁנִ֖ית בְּאֶחָ֣ד לַחֹ֑דֶשׁ הוּקַ֖ם הַמִּשְׁכָּֽן׃
+   - Vulgate: Igitur mense primo anni secundi, prima die mensis, collocatum est tabernaculum.
+   - LXX: Καὶ ἐγένετο ἐν τῷ μηνὶ τῷ πρώτῳ, τῷ δευτέρῳ ἔτει, ἐκπορευομένων αὐτῶν ἐξ Αἰγύπτου, νουμηνίᾳ ἐστάθη ἡ σκηνή.
+   - BSB: So the tabernacle was set up on the first day of the first month of the second year.
+   - KJV: ¶ And it came to pass in the first month in the second year, on the first day of the month, that the tabernacle was reared up.
+
+## Short (17 verses)
+
+Latin words against Hebrew words, below 0.5 of the book's median ratio.
+
+- **6:29** 7 Latin words, 17 Hebrew
+   - Latin: quæ ad Pharaōnem Jōvæ nōmine dēferret omnia,
+   - 1738: quæ ad Pharaonem Iouæ nomine deferret omnia,
+   - WLC: וַיְדַבֵּ֧ר יְהוָ֛ה אֶל־מֹשֶׁ֥ה לֵּאמֹ֖ר אֲנִ֣י יְהוָ֑ה דַּבֵּ֗ר אֶל־פַּרְעֹה֙ מֶ֣לֶךְ מִצְרַ֔יִם אֵ֛ת כָּל־אֲשֶׁ֥ר אֲנִ֖י דֹּבֵ֥ר אֵלֶֽיךָ׃
+   - Vulgate: Et locutus est Dominus ad Moysen, dicens: Ego Dominus: loquere ad Pharaonem regem Ægypti, omnia quæ ego loquor tibi.
+   - LXX: Καὶ ἐλάλησε Κύριος πρὸς Μωυσῆν, λέγων, ἐγὼ Κύριος· λάλησον πρὸς Φαραὼ βασιλέα Αἰγύπτου ὅσα ἐγὼ λέγω πρὸς σέ.
+   - BSB: He said to him, “I am the LORD; tell Pharaoh king of Egypt everything I say to you.”
+   - KJV: That the LORD spake unto Moses, saying, I am the LORD: speak thou unto Pharaoh king of Egypt all that I say unto thee.
+- **18:18** 10 Latin words, 17 Hebrew
+   - Latin: Nam difficilior rēs est, quam ut eam ūnus administrāre possīs.
+   - 1738: nam difficilior res est, quam vt eam vnus administrare possis.
+   - WLC: נָבֹ֣ל תִּבֹּ֔ל גַּם־אַתָּ֕ה גַּם־הָעָ֥ם הַזֶּ֖ה אֲשֶׁ֣ר עִמָּ֑ךְ כִּֽי־כָבֵ֤ד מִמְּךָ֙ הַדָּבָ֔ר לֹא־תוּכַ֥ל עֲשֹׂ֖הוּ לְבַדֶּֽךָ׃
+   - Vulgate: Stulto labore consumeris et tu, et populus iste qui tecum est: ultra vires tuas est negotium; solus illud non poteris sustinere.
+   - LXX: Φθορᾷ καταφθαρήσῃ ἀνυπομονήτῳ καὶ σὺ, καὶ πᾶς ὁ λαὸς οὗτος, ὅς ἐστι μετὰ σοῦ· βαρύ σοι τὸ ῥῆμα τοῦτο· οὐ δυνήσῃ ποιεῖν σὺ μόνος.
+   - BSB: Surely you and these people with you will wear yourselves out, because the task is too heavy for you. You cannot handle it alone.
+   - KJV: Thou wilt surely wear away, both thou, and this people that is with thee: for this thing is too heavy for thee; thou art not able to perform it thyself alone.
+- **25:19** 6 Latin words, 16 Hebrew
+   - Latin: et eōs ex ipsō propitiātōriō facitō,
+   - 1738: et eos ex ipso propitiatorio facito,
+   - WLC: וַ֠עֲשֵׂה כְּר֨וּב אֶחָ֤ד מִקָּצָה֙ מִזֶּ֔ה וּכְרוּב־אֶחָ֥ד מִקָּצָ֖ה מִזֶּ֑ה מִן־הַכַּפֹּ֛רֶת תַּעֲשׂ֥וּ אֶת־הַכְּרֻבִ֖ים עַל־שְׁנֵ֥י קְצוֹתָֽיו׃
+   - Vulgate: Cherub unus sit in latere uno, et alter in altero.
+   - LXX: Ποιηθήσονται χεροὺβ εἷς ἐκ τοῦ κλίτους τούτου, καὶ χεροὺβ εἷς ἐκ τοῦ κλίτους τοῦ δευτέρου τοῦ ἱλαστηρίου· καὶ ποιήσεις τοὺς δύο χερουβὶμ ἐπὶ τὰ δύο κλίτη.
+   - BSB: one cherub on one end and one on the other, all made from one piece of gold.
+   - KJV: And make one cherub on the one end, and the other cherub on the other end: even of the mercy seat shall ye make the cherubims on the two ends thereof.
+- **26:3** 6 Latin words, 13 Hebrew
+   - Latin: Ea quīna inter sē connexa suntō.
+   - 1738: Ea quina inter se connexa sunto.
+   - WLC: חֲמֵ֣שׁ הַיְרִיעֹ֗ת תִּֽהְיֶ֙יןָ֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָ֑הּ וְחָמֵ֤שׁ יְרִיעֹת֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָֽהּ׃
+   - Vulgate: Quinque cortinæ sibi jungentur mutuo, et aliæ quinque nexu simili cohærebunt.
+   - LXX: Πέντε δὲ αὐλαῖαι ἔσονται ἐξ ἀλλήλων ἐχόμεναι ἡ ἑτέρα ἐκ τῆς ἑτέρας· καὶ πέντε αὐλαῖαι ἔσονται συνεχόμεναι ἑτέρα τῇ ἑτέρᾳ.
+   - BSB: Five of the curtains are to be joined together, and the other five joined as well.
+   - KJV: The five curtains shall be coupled together one to another; and other five curtains shall be coupled one to another.
+- **26:5** 7 Latin words, 18 Hebrew
+   - Latin: eāsque utrobīque quīnquāgēnās sibi inter sē respondentēs.
+   - 1738: easque vtrobique quinquagenas sibi inter se respondentes.
+   - WLC: חֲמִשִּׁ֣ים לֻֽלָאֹ֗ת תַּעֲשֶׂה֮ בַּיְרִיעָ֣ה הָאֶחָת֒ וַחֲמִשִּׁ֣ים לֻֽלָאֹ֗ת תַּעֲשֶׂה֙ בִּקְצֵ֣ה הַיְרִיעָ֔ה אֲשֶׁ֖ר בַּמַּחְבֶּ֣רֶת הַשֵּׁנִ֑ית מַקְבִּילֹת֙ הַלֻּ֣לָאֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָֽהּ׃
+   - Vulgate: Quinquagenas ansulas cortina habebit in utraque parte, ita insertas ut ansa contra ansam veniat, et altera alteri possit aptari.
+   - LXX: Πεντήκοντα ἀγκύλας ποιήσεις τῇ αὐλαίᾳ τῇ μιᾷ, καὶ πεντήκοντα ἀγκύλας ποιήσεις ἐκ τοῦ μέρους τῆς αὐλαίας κατὰ τὴν συμβολὴν τῆς δευτέρας, ἀντιπρόσωποι ἀντιπίπτουσαι ἀλλήλαις εἰς ἑκάστην.
+   - BSB: Make fifty loops on one curtain and fifty loops on the end curtain of the second set, so that the loops line up opposite one another.
+   - KJV: Fifty loops shalt thou make in the one curtain, and fifty loops shalt thou make in the edge of the curtain that is in the coupling of the second; that the loops may take hold one of another.
+- **26:19** 5 Latin words, 21 Hebrew
+   - Latin: quibus quadrāgintā spīrās argenteās suppōnēs,
+   - 1738: quibus quadraginta spiras argenteas suppones,
+   - WLC: וְאַרְבָּעִים֙ אַדְנֵי־כֶ֔סֶף תַּעֲשֶׂ֕ה תַּ֖חַת עֶשְׂרִ֣ים הַקָּ֑רֶשׁ שְׁנֵ֨י אֲדָנִ֜ים תַּֽחַת־הַקֶּ֤רֶשׁ הָאֶחָד֙ לִשְׁתֵּ֣י יְדֹתָ֔יו וּשְׁנֵ֧י אֲדָנִ֛ים תַּֽחַת־הַקֶּ֥רֶשׁ הָאֶחָ֖ד לִשְׁתֵּ֥י יְדֹתָֽיו׃
+   - Vulgate: Quibus quadraginta bases argenteas fundes, ut binæ bases singulis tabulis per duos angulos subjiciantur.
+   - LXX: Καὶ τεσσαράκοντα βάσεις ἀργυρᾶς ποιήσεις τοῖς εἴκοσι στύλοις· δύο βάσεις τῷ στύλῳ τῷ ἑνὶ εἰς ἀμφότερα τὰ μέρη αὐτοῦ· και δύο βάσεις τῷ στύλῳ τῷ ἑνὶ εἰς ἀμφοτέρα τὰ μέρη αὐτοῦ.
+   - BSB: with forty silver bases under the twenty frames—two bases for each frame, one under each tenon.
+   - KJV: And thou shalt make forty sockets of silver under the twenty boards; two sockets under one board for his two tenons, and two sockets under another board for his two tenons.
+- **26:24** 10 Latin words, 17 Hebrew
+   - Latin: et in īmō et in summō simul ūnō ānulō coaptābis.
+   - 1738: et in imo et in summo simul vno annulo coaptabis.
+   - WLC: וְיִֽהְי֣וּ תֹֽאֲמִים֮ מִלְּמַטָּה֒ וְיַחְדָּ֗ו יִהְי֤וּ תַמִּים֙ עַל־רֹאשׁ֔וֹ אֶל־הַטַּבַּ֖עַת הָאֶחָ֑ת כֵּ֚ן יִהְיֶ֣ה לִשְׁנֵיהֶ֔ם לִשְׁנֵ֥י הַמִּקְצֹעֹ֖ת יִהְיֽוּ׃
+   - Vulgate: Eruntque conjunctæ a deorsum usque sursum, et una omnes compago retinebit. Duabus quoque tabulis quæ in angulis ponendæ sunt, similis junctura servabitur.
+   - LXX: Καὶ ἔσται ἐξ ἴσου κάτωθεν· κατὰ τὸ αὐτὸ ἔσονται ἴσοι ἐκ τῶν κεφαλῶν εἰς σύμβλησιν μίαν· οὕτω ποιήσεῖς ἀμφοτέραις ταῖς δυσὶ γωνίαις· ἴσαι ἔστωσαν.
+   - BSB: coupled together from bottom to top and fitted into a single ring. These will serve as the two corners.
+   - KJV: And they shall be coupled together beneath, and they shall be coupled together above the head of it unto one ring: thus shall it be for them both; they shall be for the two corners.
+- **26:25** 9 Latin words, 18 Hebrew
+   - Latin: Hīs octō asseribus suberunt argenteæ spīræ sēdecim, singulīs bīnæ.
+   - 1738: His octo asseribus suberunt argenteæ spiræ sexdecim, singulis binæ.
+   - WLC: וְהָיוּ֙ שְׁמֹנָ֣ה קְרָשִׁ֔ים וְאַדְנֵיהֶ֣ם כֶּ֔סֶף שִׁשָּׁ֥ה עָשָׂ֖ר אֲדָנִ֑ים שְׁנֵ֣י אֲדָנִ֗ים תַּ֚חַת הַקֶּ֣רֶשׁ הָאֶחָ֔ד וּשְׁנֵ֣י אֲדָנִ֔ים תַּ֖חַת הַקֶּ֥רֶשׁ הָאֶחָֽד׃
+   - Vulgate: Et erunt simul tabulæ octo, bases earum argenteæ sedecim, duabus basibus per unam tabulam supputatis.
+   - LXX: Καὶ ἔσονται ὀκτὼ στύλοι, καὶ αἱ βάσεις αὐτῶν ἀργυραῖ δεκαέξ· δύο βάσεις τῷ ἑνὶ στύλῳ εἰς ἀμφότερα τὰ μέρη αὐτοῦ, καὶ δύο βάσεις τῷ στύλῳ τῷ ἑνί.
+   - BSB: So there are to be eight frames and sixteen silver bases—two under each frame.
+   - KJV: And they shall be eight boards, and their sockets of silver, sixteen sockets; two sockets under one board, and two sockets under another board.
+- **26:27** 4 Latin words, 13 Hebrew
+   - Latin: totidemque ad partem occidentālem,
+   - 1738: totidemque ad partem occidentalem,
+   - WLC: וַחֲמִשָּׁ֣ה בְרִיחִ֔ם לְקַרְשֵׁ֥י צֶֽלַע־הַמִּשְׁכָּ֖ן הַשֵּׁנִ֑ית וַחֲמִשָּׁ֣ה בְרִיחִ֗ם לְקַרְשֵׁי֙ צֶ֣לַע הַמִּשְׁכָּ֔ן לַיַּרְכָתַ֖יִם יָֽמָּה׃
+   - Vulgate: et quinque alios in altero, et ejusdem numeri ad occidentalem plagam:
+   - LXX: καὶ πέντε μοχλοὺς τῷ στύλῳ τῷ ἑνὶ κλίτει τῆς σκηνῆς τῷ δευτέρῳ, καὶ πέντε μοχλοὺς τῷ στύλῳ τῷ ὀπισθίῳ τῷ κλίτει τῆς σκηνῆς τῷ πρὸς θάλασσαν.
+   - BSB: five for those on the other side, and five for those on the rear side of the tabernacle, to the west.
+   - KJV: And five bars for the boards of the other side of the tabernacle, and five bars for the boards of the side of the tabernacle, for the two sides westward.
+- **28:33** 7 Latin words, 15 Hebrew
+   - Latin: Ejus in laciniā māla pūnica circumquāque facitō,
+   - 1738: Eius in lacinia mala punica circumquaque facito,
+   - WLC: וְעָשִׂ֣יתָ עַל־שׁוּלָ֗יו רִמֹּנֵי֙ תְּכֵ֤לֶת וְאַרְגָּמָן֙ וְתוֹלַ֣עַת שָׁנִ֔י עַל־שׁוּלָ֖יו סָבִ֑יב וּפַעֲמֹנֵ֥י זָהָ֛ב בְּתוֹכָ֖ם סָבִֽיב׃
+   - Vulgate: Deorsum vero, ad pedes ejusdem tunicæ, per circuitum, quasi mala punica facies, ex hyacintho, et purpura, et cocco bis tincto, mistis in medio tintinnabulis,
+   - LXX: Καὶ ποιήσεις ὑπὸ τὸ λῶμα τοῦ ὑποδύτου κάτωθεν, ὡσεὶ ἐξανθούσης ῥόας ῥοΐσκους ἐξ ὑακίνθου, καὶ πορφύρας, καὶ κοκκίνου διανενησμένου, καὶ βύσσου κεκλωσμένης, ὑπὸ τοῦ λώματος τοῦ ὑποδύτου κύκλῳ· τὸ αὐτὸ εἶδος ῥοΐσκους χρυσοῦς, καὶ κώδωνας ἀναμέσον τούτων περικύκλῳ.
+   - BSB: Make pomegranates of blue, purple, and scarlet yarn all the way around the lower hem, with gold bells between them,
+   - KJV: ¶ And beneath upon the hem of it thou shalt make pomegranates of blue, and of purple, and of scarlet, round about the hem thereof; and bells of gold between them round about:
+- **36:5** 6 Latin words, 14 Hebrew
+   - Latin: Quārē Mōsēs prōclāmārī per castra jussit,
+   - 1738: Quare Moses proclamari per castra iussit,
+   - WLC: וַיֹּאמְרוּ֙ אֶל־מֹשֶׁ֣ה לֵּאמֹ֔ר מַרְבִּ֥ים הָעָ֖ם לְהָבִ֑יא מִדֵּ֤י הָֽעֲבֹדָה֙ לַמְּלָאכָ֔ה אֲשֶׁר־צִוָּ֥ה יְהוָ֖ה לַעֲשֹׂ֥ת אֹתָֽהּ׃
+   - Vulgate: dixerunt Moysi: Plus offert populus quam necessarium est.
+   - LXX: Καὶ εἶπε πρὸς Μωυσῆν, ὅτι πλῆθος φέρει ὁ λαὸς κατὰ τὰ ἔργα ὅσα συνέταξε Κύριος ποιῆσαι.
+   - BSB: and said to Moses, “The people are bringing more than enough for doing the work the LORD has commanded us to do.”
+   - KJV: ¶ And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make.
+- **36:10** 6 Latin words, 12 Hebrew
+   - Latin: Hæc ille quīna inter sē connectēbat.
+   - 1738: Hæc ille quina inter se connectebat.
+   - WLC: וַיְחַבֵּר֙ אֶת־חֲמֵ֣שׁ הַיְרִיעֹ֔ת אַחַ֖ת אֶל־אֶחָ֑ת וְחָמֵ֤שׁ יְרִיעֹת֙ חִבַּ֔ר אַחַ֖ת אֶל־אֶחָֽת׃
+   - Vulgate: Conjunxitque cortinas quinque, alteram alteri, et alias quinque sibi invicem copulavit.
+   - BSB: And he joined five of the curtains together, and the other five he joined as well.
+   - KJV: And he coupled the five curtains one unto another: and the other five curtains he coupled one unto another.
+- **36:12** 6 Latin words, 18 Hebrew
+   - Latin: eāsque utrobīque quīnquāgēnās sibi mūtuō respondentēs.
+   - 1738: easque vtrobique quinquagenas sibi mutuo respondentes.
+   - WLC: חֲמִשִּׁ֣ים לֻלָאֹ֗ת עָשָׂה֮ בַּיְרִיעָ֣ה הָאֶחָת֒ וַחֲמִשִּׁ֣ים לֻלָאֹ֗ת עָשָׂה֙ בִּקְצֵ֣ה הַיְרִיעָ֔ה אֲשֶׁ֖ר בַּמַּחְבֶּ֣רֶת הַשֵּׁנִ֑ית מַקְבִּילֹת֙ הַלֻּ֣לָאֹ֔ת אַחַ֖ת אֶל־אֶחָֽת׃
+   - Vulgate: ut contra se invicem venirent ansæ, et mutuo jungerentur.
+   - BSB: He made fifty loops on one curtain and fifty loops on the end curtain of the second set, so that the loops lined up opposite one another.
+   - KJV: Fifty loops made he in one curtain, and fifty loops made he in the edge of the curtain which was in the coupling of the second: the loops held one curtain to another.
+- **36:24** 11 Latin words, 21 Hebrew
+   - Latin: quibus quadrāgintā spīrās argenteās suppōnēbat, vidēlicet singulīs duās, quot erant cardinēs:
+   - 1738: quibus quadraginta spiras argenteas supponebat, videlicet singulis duas, quot erant cardines:
+   - WLC: וְאַרְבָּעִים֙ אַדְנֵי־כֶ֔סֶף עָשָׂ֕ה תַּ֖חַת עֶשְׂרִ֣ים הַקְּרָשִׁ֑ים שְׁנֵ֨י אֲדָנִ֜ים תַּֽחַת־הַקֶּ֤רֶשׁ הָאֶחָד֙ לִשְׁתֵּ֣י יְדֹתָ֔יו וּשְׁנֵ֧י אֲדָנִ֛ים תַּֽחַת־הַקֶּ֥רֶשׁ הָאֶחָ֖ד לִשְׁתֵּ֥י יְדֹתָֽיו׃
+   - Vulgate: cum quadraginta basibus argenteis. Duæ bases sub una tabula ponebantur ex utraque parte angulorum, ubi incastraturæ laterum in angulis terminantur.
+   - BSB: with forty silver bases to put under the twenty frames—two bases for each frame, one under each tenon.
+   - KJV: And forty sockets of silver he made under the twenty boards; two sockets under one board for his two tenons, and two sockets under another board for his two tenons.
+- **36:29** 7 Latin words, 16 Hebrew
+   - Latin: et eōrum spīræ argenteæ sēdecim, singulōrum bīnæ:
+   - 1738: et eorum spiræ argenteæ sexdecim, singulorum binæ:
+   - WLC: וְהָי֣וּ תוֹאֲמִם֮ מִלְּמַטָּה֒ וְיַחְדָּ֗ו יִהְי֤וּ תַמִּים֙ אֶל־רֹאשׁ֔וֹ אֶל־הַטַּבַּ֖עַת הָאֶחָ֑ת כֵּ֚ן עָשָׂ֣ה לִשְׁנֵיהֶ֔ם לִשְׁנֵ֖י הַמִּקְצֹעֹֽת׃
+   - Vulgate: quæ junctæ erant a deorsum usque sursum, et in unam compaginem pariter ferebantur. Ita fecit ex utraque parte per angulos:
+   - BSB: coupled together from bottom to top and fitted into a single ring. He made both corners in this way.
+   - KJV: And they were coupled beneath, and coupled together at the head thereof, to one ring: thus he did to both of them in both the corners.
+- **36:30** 8 Latin words, 15 Hebrew
+   - Latin: deinde cedrina repāgula faciēbat, utrīque tabernāculī laterī quīna,
+   - 1738: deinde cedrina repagula faciebat, vtrique tabernaculi lateri quina,
+   - WLC: וְהָיוּ֙ שְׁמֹנָ֣ה קְרָשִׁ֔ים וְאַדְנֵיהֶ֣ם כֶּ֔סֶף שִׁשָּׁ֥ה עָשָׂ֖ר אֲדָנִ֑ים שְׁנֵ֤י אֲדָנִים֙ שְׁנֵ֣י אֲדָנִ֔ים תַּ֖חַת הַקֶּ֥רֶשׁ הָאֶחָֽד׃
+   - Vulgate: ut octo essent simul tabulæ, et haberent bases argenteas sedecim, binas scilicet bases sub singulis tabulis.
+   - BSB: So there were eight frames and sixteen silver bases—two under each frame.
+   - KJV: And there were eight boards; and their sockets were sixteen sockets of silver, under every board two sockets.
+- **36:31** 3 Latin words, 9 Hebrew
+   - Latin: totidemque partī occidentālī,
+   - 1738: totidemque parti occidentali,
+   - WLC: וַיַּ֥עַשׂ בְּרִיחֵ֖י עֲצֵ֣י שִׁטִּ֑ים חֲמִשָּׁ֕ה לְקַרְשֵׁ֥י צֶֽלַע־הַמִּשְׁכָּ֖ן הָאֶחָֽת׃
+   - Vulgate: Fecit et vectes de lignis setim, quinque ad continendas tabulas unius lateris tabernaculi,
+   - BSB: He also made five crossbars of acacia wood for the frames on one side of the tabernacle,
+   - KJV: ¶ And he made bars of shittim wood; five for the boards of the one side of the tabernacle,

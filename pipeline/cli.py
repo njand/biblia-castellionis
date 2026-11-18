@@ -275,7 +275,7 @@ def main(argv):
     bld.add_argument("--printed-drafts", action="store_true",
                      help="offer Castellio's text as printed from text/orig/draft/ too (a preview; not reviewed)")
 
-    nts = sub.add_parser("notes", help="candidates for light notes (NT) → data/review/<book>-notes-candidates.md")
+    nts = sub.add_parser("notes", help="candidates for light notes (NT and OT) → data/review/<book>-notes-candidates.md")
     nts.add_argument("names", nargs="+")
 
     sub.add_parser("latin", help="read-only Latin lookups (see `python -m pipeline latin --help`)")

@@ -329,7 +329,8 @@ def report(osis):
 def write(osis):
     book = books.select([osis])[0]
     if book.testament != "novum":
-        raise SystemExit("notes: the New Testament only, for now (nt-notes-process.md)")
+        from pipeline import otnotes                    # the Old Testament's tests (ot-notes-process.md)
+        return otnotes.write(book.osis)
     path = paths.DATA / "review" / f"{book.osis.lower()}-notes-candidates.md"
     path.write_text(report(book.osis), encoding="utf-8", newline="\n")
     return path

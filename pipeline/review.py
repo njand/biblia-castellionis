@@ -101,6 +101,7 @@ def accepted(item):
     if not decision.startswith("accept"):
         return False
     rest = re.sub(r"\([^)]*\)", "", decision[len("accept"):])     # (Nathan, 2026-11-07)
+    rest = re.split(r";|\b(?:reject|keep|drop)\b", rest)[0]      # accept 1, 2; reject 3: 3 is not accepted
     if m := re.search(r"\b(?:except|but)\b(.*)", rest):
         return item.number not in _numbers(m.group(1))
     listed = _numbers(rest)

@@ -217,7 +217,13 @@ def aligned(key, osis, sources=None):
     path = (sources or paths.SOURCES) / "parallel" / key / f"{osis}.tsv"
     if not path.exists():
         return None
-    rows = [(row["id"], row["text"]) for row in tsv.read(path)]
+    return realign(key, osis, [(row["id"], row["text"]) for row in tsv.read(path)])
+
+
+def realign(key, osis, rows, join=lambda a, b: f"{a} {b}"):
+    """[(source id, value)] numbered as the text `key` numbers them → ({kjv id: value}, {chapter: note}) as `aligned`
+    gives, or None when the text's numbering is unchecked for this book. `join` merges two verses the KJV joins (the
+    OT notes' Hebrew word lists, from the OSHB, which numbers as the WLC)."""
     mapping = verse_map(key)
     if mapping is None:
         return dict(rows), {}
@@ -234,7 +240,7 @@ def aligned(key, osis, sources=None):
             if (sbook, sc) == (book, chapter) and first <= verse <= last:
                 vid = tsv.verse_id(tbook, tc, tfirst + verse - first)
                 break
-        out[vid] = f"{out[vid]} {text}" if vid in out else text       # two verses joined in the KJV
+        out[vid] = join(out[vid], text) if vid in out else text       # two verses joined in the KJV
     gaps = {c: note for (book, c), (note, _, _) in unaligned.items() if book == osis}
     return out, gaps
 
