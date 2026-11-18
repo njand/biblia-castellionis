@@ -309,5 +309,5 @@ j-conversion, which missed the consonant after *cis-/trans-*.
 
 ## Next
 
-The printed text (`text/orig/draft/DEU.usfm`) read on the page for its approval (`deut-orig.md`, as Numbers');
-Castellio's 1554 annotations (`deut-notes-1554.md`).
+Castellio's 1554 annotations (`deut-notes-1554.md`). The printed text was approved for now 2026-11-18
+(`text/orig/DEU.usfm`, `deut-orig.md`).

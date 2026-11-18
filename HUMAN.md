@@ -4,6 +4,13 @@
 
 - **Deuteronomy started** (2026-11-17, your "Start Deuteronomy, the way Numbers was done"). Wikisource has only 1:1,
   so the whole book goes decision 68's route, as Numbers: 1738 read on the page, line by line.
+  - **The printed text approved for now** (2026-11-18, your "Yes, go ahead"): `text/orig/DEU.usfm`, every word from the
+    lines read on 1738's pages in stage 2, the four long s read as f set right; its misprints kept (*possessinem*,
+    *haberitis*, *iustititiam*, *fieri ne posset*, *Phegoris* …). Checked against the settled text: the same 958 verses,
+    the word counts agreeing but where the edited text divides words (*tam diū*, *crucī fīxum*, *male dīxerit*,
+    *fierine*). Not yet checked on the page: the paragraphs (1738's indents), as Numbers. Record:
+    `data/review/deut-orig.md`. The site's *As printed, 1738* shows for Deuteronomy on the next push (checked on a local
+    build, with its link to the 1738 leaves).
   - **The jump menu's *Deut*** (your "the dropdown selector at the page header still abbreviates the book name"): the
     published `books.js` already read *Deuteronomium*; the browser was showing the copy it had cached before the fix
     (GitHub Pages lets it keep one ten minutes, and the pages linked it by a fixed name). The site now links
