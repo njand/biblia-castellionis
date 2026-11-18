@@ -2,6 +2,12 @@
 
 ## Now
 
+- **_usque_: accepted and applied** (2026-11-18, your "Accept all four"; decision 80): `data/review/usque.md`, 136
+  places in 20 settled books. *ūsque* → *usque* (118; Wiktionary and Macronizer against Gaffiot's ū), *eōusque* →
+  *eō usque* (5), *quoūsque* → *quousque*, kept joined (9), *hūcusque*, *adusque* (4). Gold rebuilt; the `ūsque`
+  rows of `data/decisions/*.forms.tsv` follow (the two Exodus *eōusque* rows dropped, the word now being two);
+  `macronize.py` (`NOT_GAFFIOT`) keeps the short u in new drafts; `brief.md` (Macrons) records the exception.
+  `text/orig/` unchanged. Not committed; not yet on the site.
 - **Deuteronomy started** (2026-11-17, your "Start Deuteronomy, the way Numbers was done"). Wikisource has only 1:1,
   so the whole book goes decision 68's route, as Numbers: 1738 read on the page, line by line.
   - **The printed text approved for now** (2026-11-18, your "Yes, go ahead"): `text/orig/DEU.usfm`, every word from the
@@ -726,6 +732,7 @@
 | 77 | 2026-11-16 | **Numbers 1–36 settled** (Nathan: "Approve and settle"), after "Accept 1-8" and "Jeser (keep A)": `text/NUM.usfm`, 1738 read line by line on the page (Wikisource has only 1:1); versified to the KJV with verse ranges (7:12–83; `tsv.Verse`, versify's `range`); 48 spelling rules researched and approved; 1554's readings at 16:47 *cœperat*, 28:7 *Jōvæ*, 25:1 *Sittīmō* in the edited text; -īnus for gentile adjectives (Exod 6:14 *Rūbēnīnæ*); one form per person, names by Gaffiot first (decision 52) also in 25 settled places (`names-gaffiot.md`). |
 | 78 | 2026-11-18 | **Deuteronomy 1–34 settled, approved for now** (Nathan: "approve it for now and commit"), after "Yes, versify Deuteronomy", "Yes, run stages 3–5" and "Yes, add them": `text/DEU.usfm`, 1738 read line by line on the page (Wikisource has only 1:1), four long s that stage 2 read as f set right on the page images; versified to the KJV (45 edits, 14:16–17 a verse range); Moses' discourses unquoted, the speeches he reports quoted only where Castellio gives the words; 54 spelling rules for new forms researched and approved; one form per person (23:4 *Beōris* for 1738's *Phegoris*). With it: `normalize.EO` lists *intrō-*, decided forms keep a final ī (*ībī*), and the settled Exodus and Numbers slips fixed (`settled-fixes-deut.md`). |
 | 79 | 2026-11-18 | ***sollemnis*, as Gaffiot heads it** (Nathan: "Gaffiot says that "sollemnis" is *mieux que sollenis, solemnis*. Let's add a rule to standardize to that form."): stem rules *solemn-, solenn-, sollenn- → sollemn-* approved; the ten settled places (Exod 12:24, 29:42; Lev 23:2 ×2, 23:4, 23:37, 23:44; Num 10:10, 15:3, 29:39; Deut 31:10) respelled and unmarked in the stem (*sollemnitātibus*, was *sōlemnitātibus*), gold rebuilt (`data/review/sollemnis.md`). The printed texts keep Castellio's *solemnis*. |
+| 80 | 2026-11-18 | ***usque* with a short u** (Nathan: "Accept all four"; `data/review/usque.md`): *usque*, *adusque*, *hūcusque* against Gaffiot's ū, with Wiktionary and Macronizer; ***eō usque*** written apart (no dictionary heads *eōusque*; corpus 164 : 12); ***quousque*** joined, no macron (one word in Gaffiot, L&S and Wiktionary, both marking the o short; Castellio joins it 9 of 9). 136 places applied. |
 
 ## How to run
 

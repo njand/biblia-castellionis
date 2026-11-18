@@ -213,6 +213,8 @@ def choose(word, entry, prefer=None):
         longs, _ = with_gaffiot(candidate, entry.gaffiot)
         options.setdefault(longs, candidate)
     as_given = {frozenset(i for i, m in quantities(c.form) if m == "L") for c in candidates}
+    if key(word) in NOT_GAFFIOT:
+        return Choice(sorted(as_given, key=len)[0], "lexicon")
     if len(options) == 1:
         longs = next(iter(options))
         return Choice(longs, "lexicon" if longs in as_given else "gaffiot")
@@ -287,6 +289,9 @@ OBEX = {"obicem", "obice", "obices", "obicibus", "obicum"}
 # (Gaffiot Gāĭus, three syllables: Acts 19:29, 20:4).
 JV_KEEP = {"abius", "abium", "abii", "abio", "gaius", "gaio", "gaium", "gai",
            "tenuium", "tenuia", "tenuior", "tenuiores", "tenuiorem", "tenuiorum", "tenuioribus", "tenuiora"}
+# Hidden quantities Gaffiot marks that the edition does not (decision 80, data/review/usque.md): the u of usque
+# and its compounds is short, with Wiktionary and Macronizer (hūcusque keeps hūc's ū).
+NOT_GAFFIOT = {"usque", "adusque", "abusque", "hucusque", "quousque"}
 ENCLITICS = ("que", "ne", "ve")
 # Words that only end like an enclitic (e-liber's list, the forms met here).
 NEVER_SPLIT = {"atque", "neque", "quisque", "quaeque", "quodque", "quidque", "quoque", "ubique", "undique",

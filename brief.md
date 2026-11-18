@@ -65,6 +65,8 @@ them are dated in `HUMAN.md` § Decided.
 - Gaffiot decides stems and hidden quantities; Wiktionary/Macronizer decide endings. When the sources disagree,
   flag it.
 - Final -i short in *mihi, tibi, sibi, ubi, ibi*.
+- *usque* with a short u, against Gaffiot's *ūsque*, with Wiktionary and Macronizer (decision 80): *usque*,
+  *adusque*, *hūcusque*, *quousque* (joined, no macron); *eō usque* written apart.
 - **Names** (decision 52): Gaffiot's marks first; then the Greek's long letters (η, ω, ει); then another dictionary
   that marks the word (Wiktionary's bare vowel counts as short); then the Hebrew vowel, as *Abrāhām*, *Dāvīd*.
 - Homographs (*venit/vēnit*, *-a/-ā*, *hic/hīc*) are decided per verse from the syntax, with the Greek/Hebrew tense
