@@ -92,6 +92,10 @@ class Decided(unittest.TestCase):
         self.assertEqual(verses.decided_word("poenas", "pœnās"), "pœnās")
         self.assertEqual(verses.decided_word("aquae", "aquæ"), "aquæ")
 
+    def test_decided_final_i(self):
+        self.assertEqual(verses.decided_word("ibi", "ībī"), "ībī")           # Deut 14:16–17, the ibis
+        self.assertEqual(verses.decided_word("ibi", "ibi"), "ibi")
+
 
 class Items(unittest.TestCase):
     def test_an_item_applies_as_any_review_line(self):

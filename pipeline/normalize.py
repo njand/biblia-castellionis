@@ -144,9 +144,9 @@ def word_rules():
     return WordRules(words, stems), phrases
 
 
-# i before a vowel that stays a vowel: forms of eō and its compounds (iērunt, coiērunt, iit), and Greek names
+# i before a vowel that stays a vowel: forms of eō and its compounds (iērunt, coiērunt, iit, Deut 23:25 introieris), and Greek names
 # with ι before a vowel (Ēsāiās, Caiāphās, Gāius).
-EO = re.compile(r"^(ab|ad|amb|co|ex|in|ob|per|præ|prae|prōd|prod|red|sub|trāns|trans|inter|circum|vēn|ven)?i[eē](r|b|n|ram|ndu)")
+EO = re.compile(r"^(ab|ad|amb|co|ex|in|intrō|intro|ob|per|præ|prae|prōd|prod|red|sub|trāns|trans|inter|circum|vēn|ven)?i[eē](r|b|n|ram|ndu)")
 GREEK_I = re.compile(r"[aeē]i[aāoō]")
 # Latin words the Greek pattern would catch, whose i is a consonant: major (Rom 9:12 *Maior*), pejor, plēbējus,
 # ējaculor.

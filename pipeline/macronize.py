@@ -223,11 +223,12 @@ def choose(word, entry, prefer=None):
     return Choice((with_w or list(options))[0], "homograph", tuple(options))
 
 
-def finish(word, longs):
+def finish(word, longs, decided=False):
     """The word marked: input letters kept (j, v and case from the text), final -i short in mihi/tibi/…,
-    the vowel before j unmarked, æ/œ for diphthongs."""
+    the vowel before j unmarked, æ/œ for diphthongs. A form decided by reading the verse (`decided`) keeps its
+    final -ī: *ibi* is also the ablative of *ībis* (Deut 14:16–17 *ībī*)."""
     letters = plain(word)
-    if letters in SHORT_FINAL:
+    if letters in SHORT_FINAL and not decided:
         longs = set(longs) - {len(letters) - 1}
     longs = {i for i in longs if not (i + 1 < len(letters) and letters[i + 1] == "j")}
     if m := LONG_BEFORE_J.match(letters):              # ē|jiciō, trā|jēcit: long by nature (50 of 50 settled)

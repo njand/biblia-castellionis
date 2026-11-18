@@ -2,6 +2,64 @@
 
 ## Now
 
+- **Deuteronomy started** (2026-11-17, your "Start Deuteronomy, the way Numbers was done"). Wikisource has only 1:1,
+  so the whole book goes decision 68's route, as Numbers: 1738 read on the page, line by line.
+  - **Settled 2026-11-18, approved for now** (your "Fix the problems you identified … approve it for now and commit"):
+    `text/DEU.usfm`, 34 chapters, the KJV's 959 verses (958 markers: 14:16–17 a verse range), the 958 items applied as
+    accepted (identical to the preview); `data/gold/Deut.tsv` built, the ledger `settled`, the drafts removed. Fixed
+    first: 23:25 *introieris* (`normalize.EO` lists *intrō-*) and 14:16–17 *ībī* (`macronize.finish` lets a decided form
+    keep its final ī), both tested; the settled Exodus and Numbers slips (`data/review/settled-fixes-deut.md`: Exod
+    *fermentātīs* ×4, Num *cis* ×6, *Cadēsbarnēa* ×2, *assign-* ×2; gold rebuilt). Built to `build/site` to check (14:16–17
+    shows *ībī* under 16–17). Still to do: the printed text (`text/orig/draft/DEU.usfm`) read on the page for its
+    approval; Castellio's 1554 annotations; outside Exodus and Numbers, *Seirīs* (Gen 14:6, 36:21) and Mark 10:1, 12:29.
+  - **Stages 3–5 done** (your "Yes, run stages 3–5", 2026-11-18):
+    `data/review/deut1-34-stages3-5.md` (start there: **§"For you", 6 points**), the 958 items in `deut1-34-ch01.md` …
+    `-ch34.md` (all `ok`), the preview `text/draft/DEU.preview.usfm`. Eight readers made the calls
+    (`data/decisions/Deut.layout.tsv`, 263 rows; `Deut.forms.tsv`, 707), a names reader the names
+    (`deut1-34-names.md`: one form per person, 15 spellings, among them 23:4 *Beōris* for 1738's *Phegoris*), four
+    proofread every verse. Moses' discourses unquoted, the speeches he reports in “…” where Castellio gives them
+    directly (most he reports); the Song and the Blessing as poetry. On the way, corrected in the draft (Apply lines in
+    `deut1-34-stage2.md`): 1738's misprints, and **four long s that stage 2 read as f** (33:29 *conservate*, 11:10
+    *conserebatis*, 28:30, 28:39 *conseretis*: set right in the read lines and the printed text too; every *f*-word then
+    checked), the draft's j/v slips (*advertite, alvorum, perversa, introieris*), 32:30 *fierine*. **The 54 researched
+    spelling rows added to `data/rules/orthography.tsv` as approved** (your "Yes, add them"; `deut1-34-rules-research.md`),
+    the preview rebuilt, nothing left `unknown`. **Not done, since they are code**: the *intrō-* gap in `normalize.EO`
+    (23:25 shows *introjeris*), *ībī* at 14:16–17 (`macronize.finish`). Settled-text slips found
+    are listed there for a review of their own.
+  - **Versified** (your "Yes, versify Deuteronomy", 2026-11-18): 45 edits (`data/versification/Deut1-34.draft.edits.tsv`)
+    in the draft and the printed text: words unchanged, every chapter at the KJV's count (959 verses), the two texts'
+    verse boundaries the same. Clause-level differences stand as Castellio divides them, as in Numbers. KJV 1:46 is
+    the opening clause of 1738's 2:1 (*Quumque … apud Cadem:*), so chapter 2 now begins mid-sentence (`\nb`, as Exodus
+    7:1). **One call for you: 14:16–17 as a verse range** (Castellio's 16–17 name the ten birds of the KJV's 16–18, not
+    one for one; a split would leave *pelicano* as a one-word verse), on the pattern of your "Yes, use ranges" for
+    Numbers 1. Record: `data/review/deut1-34-stage2.md` §"Versified".
+  - **Stage 2 done** (your "Yes, read 1–34"): every printed line read on the page by eight readers (262 sheets;
+    2,869 of 3,658 lines corrected) → `data/witnesses/read-1738/Deut1-34.tsv`, `Deut1-34.corrections.tsv`. One line
+    the OCR lost (32:43's end *cabitur.*, taken for a catchword) read on the page by Claude and added; four words 1738
+    breaks without a hyphen joined in the read lines (*Ca-|lebo*, *Io-|uæ*, *mol-|lis*, *ve-|stro*, as Numbers 21:8–9);
+    two sheets read again independently with no difference; the whole compared with 1750, nothing missing. Seven
+    misprints read enlarged and kept as printed for now (*haberitis*, *iustititiam*, *collocandc*, *cis*,
+    *calumnietnr*, *abhorrerote*, *mrcedem*: for stages 3–5). Record: `data/review/deut1-34-stage2.md` (the readers'
+    notes beside it, `deut1-34-stage2-readers.md`). Built: the draft `text/draft/DEU.usfm` and the printed text
+    `text/orig/draft/DEU.usfm`, both in 1738's numbering (964 verses against the KJV's 959; chapters 1, 3, 5, 21,
+    27 and 30 one more than the KJV, 16 one fewer). Ledger: `corrected`.
+  - **A bug for you in `pipeline/archive.py`** (not touched, as you asked): on Linux `_magick_sheet` draws every
+    label after the first 21 px low, under its crop (ImageMagick 6 keeps the crop's `-gravity NorthWest` across
+    parentheses, so `-annotate +4+21` lands below the 30 px strip). The sheets were made with a copy that sets
+    `-gravity NorthWest` in the label too and annotates at `+4+5`; that two-word change in `archive.py` fixes it.
+  - **Stage 1 done**: 1738's leaves 227 (below Numbers) – 264 and 267 (past
+    the map and a blank), voted with 1750 and the 1726 OCR → `data/witnesses/read-1738/Deut1-34.voted.tsv` (3,692
+    rows, 3,658 printed lines, 34 chapters in order). 573 of the KJV's 959 verse starts found in the margins; the
+    readers set the rest. Record: `data/review/deut1-34-stage2.md`.
+  - **Leaf 227 read on the page**: Deuteronomy 1:1–7's 26 lines are all in the OCR, none cut; the drop capital
+    (*RATIO* → *ORATIO*) and the verse starts 3, 6 and 7 set right from the margins.
+  - **Set right by hand**, each seen on the page: two chapter numerals (*XXL* had come out as 30, *XXVIL* as 24);
+    34:1–12's end, on leaf 267 past the map, put back together (the OCR had set Joshua 1 between its two columns);
+    nine lines glued across the columns split at the gutter (leaf 244: 14:8–10 onto 14:27–29; leaf 254: 26:2 onto
+    26:13). On leaf 267 the gutter cuts the first letters of 34:1–7's lines and their margin numbers: for stage 2,
+    with 1750.
+  - **Checked for lost lines**: gaps between lines, the short column feet (chapter headings or footnotes, all nine
+    seen), and the whole against 1750's OCR word by word: nothing missing.
 - **Notes for Hebrews to Revelation: accepted and applied 2026-11-17** ("Apply them"; your "Run the next round of notes"): nine files,
   `data/review/{heb,jas,1pet,2pet,1john,2john,3john,jude,rev}-notes.md`, 99 items in all: 35 notes on the Greek text,
   4 on Castellio's readings, 60 brackets, no corrections. Read by five readers (Revelation by two), with the NRSVue for
@@ -647,6 +705,7 @@
 | 75 | 2026-11-15 | **Exodus as printed (1738) approved** (Nathan: "Yes, approve"), with the drop capital's word as a normal capitalized word (*Auditionem*, *Cum*); the same rule for the approved New Testament and Genesis proposed in `data/review/orig-drop-capitals.md`. |
 | 76 | 2026-11-15 | **The drop capital's word in every printed text** (Nathan: "Yes, apply them"): 34 words in the approved New Testament and Genesis set as normal capitalized words (*Cum*, *Hic*, *Commissum*), as Exodus. |
 | 77 | 2026-11-16 | **Numbers 1–36 settled** (Nathan: "Approve and settle"), after "Accept 1-8" and "Jeser (keep A)": `text/NUM.usfm`, 1738 read line by line on the page (Wikisource has only 1:1); versified to the KJV with verse ranges (7:12–83; `tsv.Verse`, versify's `range`); 48 spelling rules researched and approved; 1554's readings at 16:47 *cœperat*, 28:7 *Jōvæ*, 25:1 *Sittīmō* in the edited text; -īnus for gentile adjectives (Exod 6:14 *Rūbēnīnæ*); one form per person, names by Gaffiot first (decision 52) also in 25 settled places (`names-gaffiot.md`). |
+| 78 | 2026-11-18 | **Deuteronomy 1–34 settled, approved for now** (Nathan: "approve it for now and commit"), after "Yes, versify Deuteronomy", "Yes, run stages 3–5" and "Yes, add them": `text/DEU.usfm`, 1738 read line by line on the page (Wikisource has only 1:1), four long s that stage 2 read as f set right on the page images; versified to the KJV (45 edits, 14:16–17 a verse range); Moses' discourses unquoted, the speeches he reports quoted only where Castellio gives the words; 54 spelling rules for new forms researched and approved; one form per person (23:4 *Beōris* for 1738's *Phegoris*). With it: `normalize.EO` lists *intrō-*, decided forms keep a final ī (*ībī*), and the settled Exodus and Numbers slips fixed (`settled-fixes-deut.md`). |
 
 ## How to run
 

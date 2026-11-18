@@ -87,7 +87,7 @@ def decided_word(token, form):
     """The text's word marked as a decided form says: its long vowels, æ/œ for diphthongs, but ae/oe left apart
     where the form writes them apart, a hiatus with neither vowel long (Lev 16:2 *intrō|eat*, 18:23 *co|eundum*:
     Gaffiot intrŏĕō, cŏĕō)."""
-    word = macronize.finish(token, macronize.long_vowels(rules.unligature(form)))
+    word = macronize.finish(token, macronize.long_vowels(rules.unligature(form)), decided=True)
     plain = macronize.nfc(form)
     for joined, apart in (("œ", "oe"), ("æ", "ae")):
         if apart in plain.lower() and joined not in plain.lower():

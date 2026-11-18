@@ -68,6 +68,8 @@ class Choose(unittest.TestCase):
 class Finish(unittest.TestCase):
     def test_brief_overrides(self):
         self.assertEqual(macronize.finish("mihi", {3}), "mihi")          # final -i short in mihi
+        self.assertEqual(macronize.finish("ibi", {0, 2}), "ībi")         # the adverb, as the lexicon gives it
+        self.assertEqual(macronize.finish("ibi", {0, 2}, decided=True), "ībī")   # Deut 14:16–17, the ibis
         self.assertEqual(macronize.finish("ejus", {0}), "ejus")          # vowel before j unmarked
 
     def test_ligatures_only_for_diphthongs(self):

@@ -120,6 +120,8 @@ class Normalize(unittest.TestCase):
         self.assertIn(("Matt.15.4", "maledīxerit", "male dīxerit", "phrase"), found)
         self.assertIn(("Matt.15.5", "coepit", "cœpit", "ligature"), found)
         self.assertFalse(any(p[3] == "jv" for p in found))                  # iērunt: a form of eō
+        found = [c[2] for c in normalize.changes("sī introieris", {}, [], {})]
+        self.assertEqual(found, [])                                          # Deut 23:25: intrō + ieris, a vowel
         self.assertFalse(any("mēcum" in p[2] for p in found))               # mē, cum: a comma between
 
     def test_greek_i_and_latin_j(self):

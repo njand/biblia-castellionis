@@ -152,40 +152,40 @@ Num.33	56	settled	ocr	-	-		settled 2026-11-16 (data/review/num1-36-stages3-5.md;
 Num.34	29	settled	ocr	-	-		settled 2026-11-16 (data/review/num1-36-stages3-5.md; stage 2: num1-36-stage2.md); printed text approved for now 2026-11-17 (text/orig/NUM.usfm, data/review/num-orig.md)
 Num.35	34	settled	ocr	-	-		settled 2026-11-16 (data/review/num1-36-stages3-5.md; stage 2: num1-36-stage2.md); printed text approved for now 2026-11-17 (text/orig/NUM.usfm, data/review/num-orig.md)
 Num.36	13	settled	ocr	-	-		settled 2026-11-16 (data/review/num1-36-stages3-5.md; stage 2: num1-36-stage2.md); printed text approved for now 2026-11-17 (text/orig/NUM.usfm, data/review/num-orig.md)
-Deut.1	46	fetched	ocr	1	-		
-Deut.2	37	pending	ocr	-	-		
-Deut.3	29	pending	ocr	-	-		
-Deut.4	49	pending	ocr	-	-		
-Deut.5	33	pending	ocr	-	-		
-Deut.6	25	pending	ocr	-	-		
-Deut.7	26	pending	ocr	-	-		
-Deut.8	20	pending	ocr	-	-		
-Deut.9	29	pending	ocr	-	-		
-Deut.10	22	pending	ocr	-	-		
-Deut.11	32	pending	ocr	-	-		
-Deut.12	32	pending	ocr	-	-		
-Deut.13	18	pending	ocr	-	-		
-Deut.14	29	pending	ocr	-	-		
-Deut.15	23	pending	ocr	-	-		
-Deut.16	22	pending	ocr	-	-		
-Deut.17	20	pending	ocr	-	-		
-Deut.18	22	pending	ocr	-	-		
-Deut.19	21	pending	ocr	-	-		
-Deut.20	20	pending	ocr	-	-		
-Deut.21	23	pending	ocr	-	-		
-Deut.22	30	pending	ocr	-	-		
-Deut.23	25	pending	ocr	-	-		
-Deut.24	22	pending	ocr	-	-		
-Deut.25	19	pending	ocr	-	-		
-Deut.26	19	pending	ocr	-	-		
-Deut.27	26	pending	ocr	-	-		
-Deut.28	68	pending	ocr	-	-		
-Deut.29	29	pending	ocr	-	-		
-Deut.30	20	pending	ocr	-	-		
-Deut.31	30	pending	ocr	-	-		
-Deut.32	52	pending	ocr	-	-		
-Deut.33	29	pending	ocr	-	-		
-Deut.34	12	pending	ocr	-	-		
+Deut.1	46	settled	ocr	1	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.2	37	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.3	29	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.4	49	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.5	33	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.6	25	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.7	26	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.8	20	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.9	29	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.10	22	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.11	32	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.12	32	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.13	18	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.14	29	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.15	23	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.16	22	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.17	20	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.18	22	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.19	21	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.20	20	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.21	23	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.22	30	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.23	25	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.24	22	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.25	19	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.26	19	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.27	26	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.28	68	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.29	29	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.30	20	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.31	30	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.32	52	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.33	29	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
+Deut.34	12	settled	ocr	-	-		settled 2026-11-18 (approved for now): text/DEU.usfm; stages 3-5 data/review/deut1-34-stages3-5.md; 1738 read on the page (data/witnesses/read-1738/Deut1-34.tsv; data/review/deut1-34-stage2.md); versified (data/versification/Deut1-34.draft.edits.tsv)
 Josh.1	18	fetched	ocr	18	-		
 Josh.2	24	fetched	ocr	24	-		
 Josh.3	17	fetched	ocr	17	-		
