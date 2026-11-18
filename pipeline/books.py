@@ -112,6 +112,16 @@ BY_USFM = {book.usfm: book for book in BOOKS}
 BY_SLUG = {book.slug: book for book in BOOKS}
 
 
+def usfm_header(book):
+    """The USFM header of a book with no settled file yet (its drafts' header until one exists): \\id with the
+    edition's name, and its Latin title (la.wikisource's page name, else the slug) as \\h, \\toc1, \\toc2, \\mt1, as the
+    settled books have them (Deuteronomy came out titled *Deut* from a bare \\id, 2026-11-18). The title is unmarked:
+    give it its macrons when the book is settled (*Numerī*, *Lēvīticus*)."""
+    title = book.ws or book.slug[:1].upper() + book.slug[1:]
+    return [f"\\id {book.usfm} Biblia Sacra ex Sebastiani Castellionis interpretatione", "\\usfm 3.0", "\\ide UTF-8",
+            f"\\h {title}", f"\\toc1 {title}", f"\\toc2 {title}", f"\\mt1 {title}"]
+
+
 def select(names):
     """Books named by OSIS code or slug (case-insensitive); all books if `names` is empty."""
     if not names:

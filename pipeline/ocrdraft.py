@@ -613,7 +613,7 @@ def draft_from_ocr(osis, chapters):
     master = latex.usfm_path(book)
     heads = (r"\id", r"\usfm", r"\ide", r"\h", r"\toc", r"\mt")
     header = ([line for line in master.read_text(encoding="utf-8").splitlines() if line.startswith(heads)]
-              if master.exists() else [rf"\id {book.usfm}", r"\usfm 3.0", r"\ide UTF-8"])
+              if master.exists() else books.usfm_header(book))
     keep, on = [], False
     for row in read_lines(source):
         if m := re.match(r"\\c (\d+)$", row[3].strip()):

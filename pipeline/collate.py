@@ -105,7 +105,7 @@ def draft_usfm(osis, chapters):
     book = books.select([osis])[0]
     master = latex.usfm_path(book)
     header = [line for line in master.read_text(encoding="utf-8").splitlines() if line.startswith(("\\id", "\\usfm",
-              "\\ide", "\\h", "\\toc", "\\mt"))] if master.exists() else [f"\\id {book.usfm}", "\\usfm 3.0", "\\ide UTF-8"]
+              "\\ide", "\\h", "\\toc", "\\mt"))] if master.exists() else books.usfm_header(book)
     bsb = structure.bsb_rows(osis)
     out, chapter = header + [""], None
     for row in tsv.read(paths.WITNESSES / "wikisource" / f"{osis}.tsv"):

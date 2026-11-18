@@ -4,6 +4,12 @@
 
 - **Deuteronomy started** (2026-11-17, your "Start Deuteronomy, the way Numbers was done"). Wikisource has only 1:1,
   so the whole book goes decision 68's route, as Numbers: 1738 read on the page, line by line.
+  - **Title fixed** (your "Why is the title of the book just "Deut"? Fix that.", 2026-11-18): `text/DEU.usfm` and the
+    printed-text draft had only a bare `\id DEU`, so the builds titled the book by its code. Both now have the header
+    the settled books have, `\h`, `\toc1`, `\toc2`, `\mt1` *Deuteronomium* (1738's running head *DEVTERONOMIVM*; no
+    long vowel in Wiktionary, Macronizer or the Greek Δευτερονόμιον). Cause: a book with no settled file got a bare
+    header in its draft (`ocrdraft.draft_from_ocr`, `collate.draft_usfm`); now `books.usfm_header` gives it its Latin
+    title (unmarked, to be checked when the book is settled), tested. Checked in `build/site`.
   - **Settled 2026-11-18, approved for now** (your "Fix the problems you identified … approve it for now and commit"):
     `text/DEU.usfm`, 34 chapters, the KJV's 959 verses (958 markers: 14:16–17 a verse range), the 958 items applied as
     accepted (identical to the preview); `data/gold/Deut.tsv` built, the ledger `settled`, the drafts removed. Fixed

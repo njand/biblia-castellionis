@@ -106,3 +106,12 @@ class Usfm(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Header(unittest.TestCase):
+    def test_new_book_has_its_title(self):
+        from pipeline import books
+        header = books.usfm_header(books.select(["Josh"])[0])        # not "Josh" (Deut 2026-11-18)
+        self.assertEqual(header[0], "\\id JOS Biblia Sacra ex Sebastiani Castellionis interpretatione")
+        self.assertIn("\\h Josua", header)
+        self.assertIn("\\mt1 Josua", header)
