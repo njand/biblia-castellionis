@@ -22,6 +22,7 @@ number selects it (shift-click or "To verse…" a range), puts #3 or #3-7 in the
 `chapter_html` renders a chapter's paragraphs and poetry; the EPUB uses it too. Links are relative, so the site
 also reads from the file system."""
 
+import hashlib
 import html
 import json
 import shutil
@@ -367,7 +368,7 @@ JS = """(function () {
     set: function (key, value) { try { window.localStorage.setItem(key, value); } catch (e) {} }
   };
   var root = document.documentElement;
-  var base = (document.querySelector('script[src$="app.js"]').getAttribute('src') || 'app.js').replace(/app\\.js$/, '');
+  var base = (document.querySelector('script[src*="app.js"]').getAttribute('src') || 'app.js').replace(/app\\.js(\\?.*)?$/, '');
 
   // ---------------------------------------------------------------- this edition or Castellio's text as printed
   // A chapter with the printed text carries it in two inert templates: the reading view's whole content (with the
@@ -634,7 +635,7 @@ JS = """(function () {
         }
       }
       results.innerHTML = '<p class="count">Searching\\u2026</p>';
-      fetch(base + 'search.json').then(function (r) { return r.json(); }).then(function (verses) {
+      fetch(base + 'search.json' + (window.CASTELLIO_SEARCH_V ? '?v=' + window.CASTELLIO_SEARCH_V : '')).then(function (r) { return r.json(); }).then(function (verses) {
         var words = foldQuery(query).split(/\\s+/).filter(Boolean);
         var phrase = /^\\s*".+"\\s*$/.test(query) ? [foldQuery(query.replace(/"/g, '').trim())] : words;
         var found = [];
@@ -747,7 +748,7 @@ def page(title, body, root, bar="", tools="", main_class="", description="", dat
 <meta name="description" content="{html.escape(description or publish.SERIES)}"/>
 {HEAD_SCRIPT}
 <link rel="preload" href="{root}fonts/castellio-book-regular.woff2" as="font" type="font/woff2" crossorigin/>
-<link rel="stylesheet" href="{root}style.css"/>
+<link rel="stylesheet" href="{root}style.css?v={VERSIONS.get('style.css', '')}"/>
 </head>
 <body{attrs}>
 <header class="bar"><nav><a href="{root}index.html">Biblia Sacra</a>{bar}</nav>{jump}<div class="tools">{tools}<button type="button" id="smaller" title="Smaller text" aria-label="Smaller text">A−</button><button type="button" id="larger" title="Larger text" aria-label="Larger text">A+</button><button type="button" id="theme" title="Colours">◐ Auto</button></div></header>
@@ -755,8 +756,8 @@ def page(title, body, root, bar="", tools="", main_class="", description="", dat
 {body}
 </main>
 <footer>{f'<a href="{root}index.html#downloads">Downloads (EPUB, PDF, text)</a> · ' if HAS_DOWNLOADS else ''}<a href="{root}colophon.html">Colophon, licence and credits</a> · CC BY-SA 4.0 · <a href="{publish.REPOSITORY}">{publish.REPOSITORY.removeprefix('https://')}</a></footer>
-<script src="{root}books.js"></script>
-<script src="{root}app.js"></script>
+<script src="{root}books.js?v={VERSIONS.get('books.js', '')}"></script>
+<script src="{root}app.js?v={VERSIONS.get('app.js', '')}"></script>
 </body>
 </html>
 """
@@ -824,6 +825,16 @@ ENGLISH_NAMES = {
     "Phlm": ["Philemon"], "Heb": ["Hebrews"], "Jas": ["James"], "1Pet": ["1 Peter"], "2Pet": ["2 Peter"],
     "1John": ["1 John"], "2John": ["2 John"], "3John": ["3 John"], "Jude": ["Jude"], "Rev": ["Revelation", "Apocalypse"],
 }
+
+
+VERSIONS = {}           # file name → version_of(its text), set by write(): the pages link style.css?v=…, app.js?v=…
+
+
+def version_of(text):
+    """A short hash of a shared file's text, added to its links (style.css?v=…) so that a browser fetches it again
+    whenever it changes, not the copy it cached from the last deploy (GitHub Pages lets it keep one ten minutes:
+    Deuteronomy's jump menu still read *Deut* after the fix, 2026-11-18)."""
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
 
 
 def books_js(selected):
@@ -907,7 +918,7 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
     `downloads` the files built with it (EPUB, PDF, text), copied to downloads/ and listed on the home page, by
     `parts` ([(label, file stem)], as downloads_html); `printed` the books of Castellio's text as printed
     ({osis: publish.Book}, publish.load_printed), offered on each chapter that has them by a switch."""
-    global HAS_DOWNLOADS
+    global HAS_DOWNLOADS, VERSIONS
     if folder.exists():
         shutil.rmtree(folder)
     folder.mkdir(parents=True)
@@ -918,10 +929,12 @@ def write(selected, folder, title, version, references=tuple(BY_REF), sources=No
             shutil.copy2(path, folder / "downloads" / path.name)
             files.append((path.name, path.stat().st_size))
     HAS_DOWNLOADS = bool(files)
-    (folder / "style.css").write_text(CSS, encoding="utf-8", newline="\n")
-    (folder / "app.js").write_text(JS, encoding="utf-8", newline="\n")
-    (folder / "books.js").write_text(books_js(selected), encoding="utf-8", newline="\n")
-    (folder / "search.json").write_text(search_index(selected), encoding="utf-8", newline="\n")
+    search = search_index(selected)
+    books = books_js(selected) + f'window.CASTELLIO_SEARCH_V = "{version_of(search)}";\n'
+    assets = {"style.css": CSS, "app.js": JS, "books.js": books, "search.json": search}
+    VERSIONS = {name: version_of(text) for name, text in assets.items()}     # ?v=… in every page's links
+    for name, text in assets.items():
+        (folder / name).write_text(text, encoding="utf-8", newline="\n")
     (folder / ".nojekyll").write_text("", encoding="utf-8")
     shutil.copytree(FONTS, folder / "fonts")
     references = tuple(references or ())

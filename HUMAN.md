@@ -4,6 +4,12 @@
 
 - **Deuteronomy started** (2026-11-17, your "Start Deuteronomy, the way Numbers was done"). Wikisource has only 1:1,
   so the whole book goes decision 68's route, as Numbers: 1738 read on the page, line by line.
+  - **The jump menu's *Deut*** (your "the dropdown selector at the page header still abbreviates the book name"): the
+    published `books.js` already read *Deuteronomium*; the browser was showing the copy it had cached before the fix
+    (GitHub Pages lets it keep one ten minutes, and the pages linked it by a fixed name). The site now links
+    `style.css`, `books.js` and `app.js`, and fetches `search.json`, with a hash of their content (`?v=…`,
+    `site.version_of`), so a changed file is fetched again after every deploy. Checked on a local build: the menu
+    reads *Deuteronomium*, the four files load with their versions, search works.
   - **Title fixed** (your "Why is the title of the book just "Deut"? Fix that.", 2026-11-18): `text/DEU.usfm` and the
     printed-text draft had only a bare `\id DEU`, so the builds titled the book by its code. Both now have the header
     the settled books have, `\h`, `\toc1`, `\toc2`, `\mt1` *Deuteronomium* (1738's running head *DEVTERONOMIVM*; no
