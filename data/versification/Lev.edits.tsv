@@ -1,0 +1,5 @@
+op	at	anchor	status	note
+merge	Lev.15.27		applied	KJV 15:26 'Every bed whereon she lieth … and whatsoever she sitteth upon shall be unclean' is 1738's 15:26–27 (*Omne utensile, super quo sederit*); its 28–29 are the KJV's 27–28 (Nathan, 2026-11-18: \"Fix the versification\"; lev-notes.md §E)
+split	Lev.15.30	quōrum ūnum sacerdōs|quorum vnum sacerdos	applied	KJV 15:30 'And the priest shall offer the one for a sin offering, and the other for a burnt offering' begins at *quorum unum sacerdos ad piaculum faciat*; 1738's 15:30 holds the KJV's 29–30 (Nathan, 2026-11-18)
+merge	Lev.19.27		applied	KJV 19:26 'Ye shall not eat any thing with the blood: neither shall ye use enchantment, nor observe times' is 1738's 19:26–27 (*Ne augurio neve divinatione utimini*); its 28 holds the KJV's 27–28 (Nathan, 2026-11-18)
+split	Lev.19.28	nēve corpora vestra|neue corpora vestra	applied	KJV 19:28 'Ye shall not make any cuttings in your flesh for the dead, nor print any marks upon you: I am the LORD' begins at *neve corpora vestra dilaniatote*; KJV 19:27 is the head and the beard (Nathan, 2026-11-18)

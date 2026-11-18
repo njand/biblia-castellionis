@@ -2,6 +2,22 @@
 
 ## Now
 
+- **Leviticus renumbered to the KJV at 15:26–30 and 19:26–28** (2026-11-18, your "Fix the versification"):
+  `data/versification/Lev.edits.tsv` (two merges, two splits; markers only, words and verse counts checked), applied to
+  `text/LEV.usfm` and `text/orig/LEV.usfm`; gold rebuilt, the decision rows moved. Record: `lev-notes.md` §E, with
+  three similar boundaries left as 1738 numbers them (Exod 40:34–35, Lev 21:18–19, Deut 22:18–19). Not committed.
+- **Notes for Leviticus and Numbers: accepted and applied** (2026-11-18, your "Apply all"; `text/LEV.usfm`, `text/NUM.usfm`,
+  `text/orig/NUM.usfm` and gold updated; the read lines `read-1738/Num1-36.tsv` and its corrections carry *salsi*,
+  *salso*; tests pass; the site and the PDF's LaTeX built to a scratch folder with all nine notes, the PDF itself not
+  compiled here, no TeX on this machine). Not committed. Asked 2026-11-18 (your "Yes, Lev and Num"): the Old Testament search
+  (`ot-notes-process.md`) finished for the pilot books, five readers with the NRSVue for all 63 chapters.
+  `data/review/lev-notes.md`: 3 notes (11:21 the written "not" that reverses the law of the leaping insects; 24:6
+  *ārā* for the table; 27:28 *prædātōrius*, near the bar), the 4 existing notes kept, and two places off the KJV's
+  verse numbers (15:26–30, 19:26–28; §E, a fix to propose separately if you want it). `data/review/num-notes.md`: 6
+  notes (10:6 Castellio's *G.* … *H.* third and fourth alarms; 5:18 *caput tondētō*; 11:25 "without ceasing" for "did
+  not do so again"; 12:8 "without a likeness" for "the form of the LORD"; 14:25, near the bar, withdrawn the same day on your "Yes, drop 14:25" (item 9); 25:2 *pōtābant* for
+  "bowed down") and a misreading corrected: 34:3 and 34:12 *falsī/falsō lacū* for *salsī/salsō* (1738 prints ſalſi,
+  read on leaf 225), in the edited and the printed text (item 8 applied with `--to text/orig/NUM.usfm`).
 - **_usque_: accepted and applied** (2026-11-18, your "Accept all four"; decision 80): `data/review/usque.md`, 136
   places in 20 settled books. *ūsque* → *usque* (118; Wiktionary and Macronizer against Gaffiot's ū), *eōusque* →
   *eō usque* (5), *quoūsque* → *quousque*, kept joined (9), *hūcusque*, *adusque* (4). Gold rebuilt; the `ūsque`
