@@ -322,6 +322,31 @@ every place was read on 1738's archive.org page images (`data/review/settled-173
 - **1738's footnotes**: lettered glosses at the foot of the page (2:11–13 name the rivers *Ganges* and *Nilus*), not
   printed in the edition.
 
+### Judges in 1738, 1750 and Wikisource (stage 2, 2026-11-19)
+
+Every verse of Wikisource's Judges was read against 1738's page images (leaves 292–318), with 1750's OCR at every larger
+difference (`data/review/judg1-21-stage2.md`, 170 corrections and 23 more found later; `judg1-21-stage2-readers.md`).
+- **Wikisource's Judges is a loose transcript, not of 1738 alone.** Besides its typing slips it leaves out clauses
+  (14:13 *Quumque illi conditionem accepissent … sic proposuit*, 14:15 *an enim se illuc … detrimentum?*) and words
+  (11:1 *Erat*, 13:22 *nam*, 13:23 *umquam*, 18:6 *iter illud*), doubles words (9:23, 15:9), opens 2:1 with the chapter
+  summary's *Contra Israelitas Iouæ nuntius* for the verse's *Adscendit autem Iouæ nuntius*, and changes names and
+  forms: *Philistini* for 1738's *Palaestini* through chapter 16 (and 13:1 *Philistaeis*), *-enes* for *-enses*
+  (1:27–31), *Jabisenses* for *Iabenses*, 21:12 *Silonem in Chanaan situm* for *Siluntem in Chananæa sita*, 17:10
+  *pastor* for *pater*, 16:10 *vincula* for *vitilia*, 6:24 *Pacii ovium* for 1738's one word *Paciiouium* (Castellio's
+  *Pacijovium*, as Exod 17:15 *Signijovium*). In a few places it agrees with **1750 against 1738**: 1:12 *Calebus*
+  (1738 *Chalebus*), 1:35 *quam* (1738 *quamquam*), 4:11 *Hobani* (1738 *Hobabi*), 6:11 *Iouae* (1738 *Ioæ*, Joash,
+  which the sense needs). Whether Wikisource's source for Judges was 1750 or another printing was not checked.
+- **1750 against 1738 elsewhere**: 1750 shares 1738's readings at nearly every place checked, including the misprint
+  20:23 *conferere*; it corrects 1738's 19:9 *deuectus* to *devexus* (the sense) and its spelling differs in the usual
+  ways (OCR).
+- **1738's footnotes in Judges** (not printed in the edition): 1:8 *scilicet arce ab hostibus retenta, nam paullo post
+  negantur inde exacti Iebusæi*; 2:9 *Hæc in Iosua vocatur Thamnathasara*; 3:15 *læua manu pro dextra vtentem*; 10:12
+  *Græcus et Latinus legerunt Chananæis* (on *Maoniis*); 18:30 *in Hebræo est Manassis: sed in Latino Mosis, quod puto
+  rectius*; 18:31 *hinc adparet, librum hunc scriptum esse post captiuitatem*; 19:29 *erat enim mortua*; 20:16 *qui
+  sinistris manibus pro dextris vterentur*; 20:41 *[a] decem millibus electis, supra memoratis*. Whether these are
+  Castellio's (1551–1556) or Bünemann's (1734) is not checked; 18:30's *quod puto rectius* reads as Castellio's voice.
+  Castellio's marks *L. cognatis suis H.* (4:11) and *G.* … *H.* (16:15–17).
+
 ### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
 
 Five places where Castellio's text departs from the Hebrew stand in 1551 (Google Books BrlIAAAAcAAJ, read by Nathan),

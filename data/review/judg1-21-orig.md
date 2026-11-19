@@ -1,0 +1,2719 @@
+# Judg 1–21 as printed (1738): the draft for review
+
+Built 2026-11-19 by `python -m pipeline orig Judg 1-21` → `text/orig/draft/JDG.usfm`. The words are the settled chapters' (`text/`); their spelling, capitals and punctuation are 1738 (archive.org bibliasacraexseb01cast)'s, read from its OCR as `pipeline/orig.py` describes. Expanded: *&*, *q;*, the nasal bar, long s, *ę*. Kept: u/v and i/j as printed. Dropped: the accents (*verò*, *quòd*, *à*). Paragraphs are 1738's own, read from the indents in its hOCR (listed below) (HUMAN.md decision 57). Regenerate after changing `data/decisions/Judg.orig.tsv`.
+
+**Decision:** pending
+
+## How each word was made
+
+| Kind | Words | |
+|---|---:|---|
+| ocr | 8151 | read in the OCR as the settled word (u/v, i/j, long s as printed) |
+| rule | 156 | read in the OCR, a spelling the approved rules normalize |
+| variant | 37 | read in the OCR, a printer's spelling no rule covers |
+| nasal | 2 | read in the OCR with a nasal bar (m or n put back) |
+| lexicon | 26 | not read here; spelling as the base edition prints the same word elsewhere in the Testament |
+| read | 2660 | read on the page image (data/decisions/<osis>.orig.tsv) |
+| none | 1 | no OCR word; the settled word in the printer's conventions |
+| all | 11033 | |
+
+## Read on the page
+
+Where the OCR could not decide. Several differ from the settled text by more than spelling: the reading edition may want to look again at these (marked ⚑).
+
+- **1.1** *Jōvam* → *Iouam|,*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.2** *Quibus* → *Quibus|,*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.2** *Jōva* → *Ioua|,*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.2** *terram* → *terram|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.2** *illam* → *illam|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19); il-|lam
+- **1.3** *ascīvērunt* → *adsciuerunt|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19); printed lowercase after a colon, adsciuerunt (ad- spelling)
+- **1.3** *suōs* → *suos|,*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.3** *bellum* → *bellum|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.4** *profectī* → *profecti|,*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.4** *Jōvā* → *Ioua|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.4** *Chananæōs* → *Chananæos|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- ⚑ **1.4** *Pherezæōs* → *Pheresæos|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.4** *trādente* → *tradente|,*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19); tra-|dente; no space after the comma
+- **1.4** *hominum* → *hominum|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.5** *Nactīque* → *Nactique|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.5** *commissā* → *commissa|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.6** *amputārunt* → *amputarunt|:*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.7** *dēductusque* → *deductusque|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.8** *Hierosolymīs* → *Hierosolymis|*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.8** *bellō* → *bello|,*: 1738 leaf 292, read on the page (orig reader 1, 2026-11-19)
+- **1.8** *cēpērunt* → *ceperunt|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.8** *et* → *et|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); footnote letter b after the word (not a mark)
+- **1.8** *urbem* → *vrbem|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.9** *Chananæōs* → *Chananæos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.9** *tractūs* → *tractus|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); lowercase
+- **1.10** *Chananæōs* → *Chananæos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Cha-|nanæos
+- **1.10** *Hebrōnis* → *Hebronis|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.10** *dicta* → *dicta|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.10** *est* → *est|)*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- ⚑ **1.10** *Achīmanem* → *Ahimanem|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.10** *occīdērunt* → *occiderunt|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.11** *Cariathsēpher* → *Cariathsepher|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Cariath-|sepher
+- **1.12** *fīliam* → *filiam|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the crop's leaf (292) was wrong; read on the leaf 293 band
+- **1.12** *mātrimōnium* → *matrimonium|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); matri-|monium
+- **1.12** *spopondit* → *spopondit|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.12** *Cariathsēpher* → *Cariathsepher|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Cari-|athsepher
+- **1.12** *cēpisset* → *cepisset|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.13** *Othonīēl* → *Othoniel|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.13** *nātū* → *natu|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.13** *fīlius* → *filius|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.13** *fīliam* → *filiam|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.13** *uxōrem* → *vxorem|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); vxo-|rem
+- **1.14** *Hæc* → *Hæc|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.15** *quærentī* → *quærenti|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); comma checked on an enlargement
+- **1.15** *habēret* → *haberet|?*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- ⚑ **1.15** *cum* → *quum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.15** *terram* → *terram|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.15** *dedisset* → *dedisset|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); de-|disset
+- **1.15** *etiam* → *etiam|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.15** *dedit* → *dedit|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.16** *fīliī* → *filii|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.16** *oppidō* → *oppido|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.16** *Jūdæīs* → *Iudæis|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.16** *Jūdææ* → *Iudææ|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.16** *Aradī* → *Aradi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.16** *merīdiē* → *meridie|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); meri-|die
+- **1.16** *profectī* → *profecti|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.16** *cum* → *cum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.17** *Igitur* → *Igitur|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.17** *Jūdæī* → *Iudæi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Iu-|dæi; the d half in the gutter
+- **1.17** *Chananæōs* → *Chananæos|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the C partly in the gutter
+- **1.17** *invāsērunt* → *inuaserunt|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); inuase-|runt
+- **1.17** *superātīs* → *superatis|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.17** *funditus* → *funditus|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the f in the gutter
+- **1.17** *ēvertērunt* → *euerterunt|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.17** *nōminārunt* → *nominarunt|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the n in the gutter
+- **1.18** *Cēpēruntque* → *Ceperuntque|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.18** *Jūdæī* → *Iudæi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Iu-|dæi; the d in the gutter
+- **1.18** *Accarōnem* → *Accaronem|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Accaro-|nem; the n in the gutter
+- **1.18** *eārumque* → *earumque|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.19** *adjuvante* → *adiuuante|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); adiu-|uante; the second u in the gutter
+- **1.19** *Jōvā* → *Ioua|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.19** *occupārunt* → *occuparunt|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the crop showed the wrong line (leaf 294); read on the leaf 293 band
+- **1.19** *Nam* → *Nam|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the N partly in the gutter
+- **1.19** *ferreīs* → *ferreis|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the f in the gutter
+- **1.19** *curribus* → *curribus|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.19** *exturbāre* → *exturbare|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); extur-|bare; the b in the gutter
+- **1.20** *ex* → *ex|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the e in the gutter
+- **1.20** *dedērunt* → *dederunt|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); de-|derunt; the d in the gutter
+- **1.20** *expulit* → *expulit|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the e in the gutter
+- **1.21** *Jebūsæōs* → *Iebusæos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Ie-|busæos; the b in the gutter
+- **1.21** *Benjamītæ* → *Beniamitæ|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.21** *Itaque* → *Itaque|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); It in the gutter (capital read from the sentence: full stop before)
+- **1.21** *Jebūsæī* → *Iebusæi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.21** *cum* → *cum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.21** *Benjamītīs* → *Beniamitis|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Benia-|mitis; the m in the gutter
+- **1.21** *Hierosolymæ* → *Hierosolymæ|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.21** *diem* → *diem|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); the d in the gutter (lowercase from the sense, after in hunc)
+- **1.22** *Jōsēphī* → *Iosephi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.22** *quoque* → *quoque|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.22** *posterī* → *posteri|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.22** *favente* → *fauente|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); fa-|uente
+- **1.22** *nōmen* → *nomen|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.23** *ēgredientem* → *egredientem|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.24** *oppidī* → *oppidi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.24** *ingressum* → *ingressum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.24** *misertūrōs* → *miserturos|:*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.25** *cūnctā* → *cuncta|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.26** *Hettæōrum* → *Hettæorum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.26** *profectus* → *profectus|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); no space after the comma
+- **1.26** *oppidum* → *oppidum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.26** *exstrūxit* → *exstruxit|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); ex-|struxit (exs- spelling)
+- **1.26** *nuncupāvit* → *nuncupauit|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.27** *Chananæī* → *Chananæi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Cha-|nanæi
+- **1.28** *Quamquam* → *Quamquam|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Quam-|quam
+- **1.28** *factī* → *facti|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.28** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.29** *Ephrāimītæ* → *Ephraimitæ|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.29** *Gazerēnsēs* → *gazerenses|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); gazeren-|ses; lowercase g as printed
+- **1.29** *Chananæōs* → *Chananæos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.29** *manentque* → *manentque|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.29** *Chananæī* → *Chananæi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.29** *Gazeræ* → *Gazeræ|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.29** *tribūtum* → *tributum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.29** *pendentēs* → *pendentes|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.30** *Nahalōlēnsēs* → *Nahalolenses|:*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.30** *apud* → *apud|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.30** *Chananæī* → *Chananæi|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.30** *tribūtō* → *tributo|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.32** *inter* → *inter|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); in-|ter
+- **1.32** *Chananæōs* → *Chananæos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.32** *quōs* → *quos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.33** *Chananæōs* → *Chananæos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); Chananæ-|os
+- **1.33** *Bēthanāthēnsēsque* → *Bethanathensesque|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.34** *Amorræī* → *Amorræi|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.34** *compulsōs* → *compulsos|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); compul-|sos
+- **1.34** *vallēs* → *valles|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); val-|les
+- **1.34** *dēscendere* → *descendere|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.35** *sunt* → *sunt|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.35** *tenēre* → *tenere|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); tene-|re
+- **1.35** *montem* → *montem|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.35** *et* → *et|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.35** *Jōsēphæīs* → *Iosephæis|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.35** *prævalentibus* → *præualentibus|,*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.35** *factī* → *facti|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.36** *Comprehenduntur* → *Comprehenduntur|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.36** *Amorræōrum* → *Amorræorum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); printed without h, Amorræorum (spelling)
+- **1.36** *clīvō* → *cliuo|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.36** *scorpiōnum* → *scorpionum|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.36** *suprā* → *supra|*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19)
+- **1.36** *rūpem* → *rupem|.*: 1738 leaf 293, read on the page (orig reader 1, 2026-11-19); ru-|pem
+- **2.1** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.1** *ēductōs* → *eductos|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.1** *majōribus* → *maioribus|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.1** *jūrāveram* → *iuraueram|;*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); iura-|ueram
+- **2.2** *initum* → *initum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); ini-|tum
+- **2.2** *sī* → *si|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.2** *incolīs* → *incolis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.2** *ictō* → *icto|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.2** *fœdere* → *fœdere|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.2** *eōrum* → *eorum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); eo-|rum
+- **2.4** *omnēs* → *omnes|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.4** *ēloquente* → *eloquente|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); eloquen-|te
+- **2.4** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.4** *plōrātum* → *ploratum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.5** *illum* → *illum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.5** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.5** *sacrificārunt* → *sacrificarunt|.*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); sacrifica-|runt
+- **2.6** *Isrāēlītæ* → *Israelitæ|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); Israe-|litæ
+- **2.7** *Jōsuæ* → *Iosuæ|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.7** *quī* → *qui|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.7** *Jōsuæ* → *Iosuæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.7** *superstitēs* → *superstites|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); su-|perstites
+- **2.7** *illa* → *illa|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.7** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.8** *Nūnis* → *Nunis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.8** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.8** *decem* → *decem|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.8** *suprā* → *supra|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.8** *suæ* → *suæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.8** *fīnibus* → *finibus|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); fini-|bus
+- **2.8** *sepultō* → *sepulto|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); footnote letter c after the comma (not a mark)
+- **2.9** *montis* → *montis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.10** *nec* → *nec|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); lowercase
+- **2.10** *dēfūnctō* → *defuncto|:*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.10** *sæculum* → *sæculum|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.10** *Jōvam* → *Iouam|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); no space before the next et (Iouamet)
+- **2.10** *et* → *et|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.10** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.10** *Isrāēlītās* → *Israelitas|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); Israe-|litas
+- **2.10** *facta* → *facta|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.11** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.11** *Jōvam* → *Iouam|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.11** *ēductī* → *educti|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.13** *relictōque* → *relictoque|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.13** *Baalem* → *Baalem|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.13** *Astarōthum* → *Astarothum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); Astaro-|thum
+- **2.14** *Isrāēlītās* → *Israelitas|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); no space before Ioua
+- **2.14** *Jōva* → *Ioua|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.14** *dīripiendōs* → *diripiendos|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.14** *fīnitimīs* → *finitimis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.14** *hostibus* → *hostibus|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.14** *ita* → *ita|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.14** *addīxit* → *addixit|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.14** *ut* → *vt|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- ⚑ **2.14** *iīs* → *eis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.15** *ac* → *ac|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); lowercase after a semicolon; no space after the comma
+- **2.15** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.15** *habērent* → *haberent|:*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.15** *prædīxerat* → *prædixerat|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); prædi-|xerat
+- **2.16** *pressīs* → *pressis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.16** *Jōva* → *Ioua|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.16** *præsidēs* → *præsides|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); præ-|sides
+- **2.16** *ā* → *a|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); a mark above the a, perhaps a grave accent (à), dropped for now
+- **2.16** *præsidibus* → *præsidibus|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); præsi-|dibus
+- **2.17** *atque* → *atque|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.17** *Jōvæ* → *Iouæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.17** *præceptīs* → *præceptis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.18** *præside* → *præside|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.18** *suscitātō* → *suscitato|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); no space after the comma
+- **2.18** *Jōva* → *Ioua|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); Io-|ua
+- **2.18** *eōs* → *eos|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.18** *præsidem* → *præsidem|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.18** *præsidis* → *præsidis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.19** *præside* → *præside|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); præsi-|de
+- **2.19** *iterum* → *iterum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.19** *perversitāte* → *peruersitate|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); per-|uersitate
+- **2.19** *superābant* → *superabant|;*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.19** *deōrum* → *deorum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.19** *aliēnōrum* → *alienorum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); alie-|norum
+- **2.20** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.20** *Jōva* → *Ioua|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); Io-|ua
+- **2.20** *fœdere* → *fœdere|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.20** *illōrum* → *illorum|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); il-|lorum
+- **2.20** *dictō* → *dicto|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.21** *sē* → *se|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); at the column's edge, the e partly cut
+- **2.22** *mōre* → *more|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.22** *præscrīptō* → *præscripto|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **2.22** *vīverent* → *viuerent|,*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); viue-|rent
+- **2.23** *causam* → *caussam|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); caus-|sam (caussa spelling)
+- **2.23** *Jōsuæ* → *Iosuæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **3.1** *hæ* → *hæ|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **3.1** *per* → *per|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); at the column's edge, the r partly cut
+- **3.1** *quīcumque* → *quicumque|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); qui-|cumque
+- **3.1** *illa* → *illa|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19)
+- **3.1** *prœlia* → *prœlia|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); at the column's edge, the a cut; œ ligature
+- **3.2** *discerent* → *discerent|*: 1738 leaf 294, read on the page (orig reader 1, 2026-11-19); at the column's edge, nt cut
+- **3.2** *ignōtum* → *ignotum|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.2** *anteā* → *antea|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.2** *bellum* → *bellum|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.3** *Quīnque* → *Quinque|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.3** *Palæstīnōrum* → *Palæstinorum|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.3** *præfectūræ* → *præfecturæ|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.3** *omnēsque* → *omnesque|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); omnes-|que
+- **3.3** *Chananæī* → *Chananæi|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.3** *Hevæī* → *Heuæi|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.3** *Libanī* → *Libani|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.3** *incolæ* → *incolæ|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); no space after the comma
+- **3.3** *Baalhermōne* → *Baalhermone|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); Baal-|hermone
+- **3.4** *relictī* → *relicti|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.4** *an* → *an|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.4** *Jōvæ* → *Iouæ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.4** *præceptīs* → *præceptis|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); præ-|ceptis
+- **3.4** *quæ* → *quæ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.4** *per* → *per|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.4** *Mōsem* → *Mosem|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.5** *Chananæōs* → *Chananæos|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.5** *Hettæōs* → *Hettæos|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.5** *Amorræōs* → *Amorræos|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.5** *Pherezæōs* → *Pherezæos|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.5** *Hevæōs* → *Heuæos|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.5** *Jebūsæōs* → *Iebusæos|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.6** *dare* → *dare|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.6** *illōrumque* → *illorumque|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.6** *deōs* → *deos|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.6** *colere* → *colere|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.7** *Jōvā* → *Ioua|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.7** *offēnsō* → *offenso|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.7** *oblīviōnī* → *obliuioni|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.7** *trāditō* → *tradito|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.7** *Baalibus* → *Baalibus|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.7** *et* → *et|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.7** *Astarōthō* → *Astarotho|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); A-|starotho
+- **3.8** *Mesopotamiæ* → *Mesopotamiæ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.9** *octō* → *octo|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.9** *servīssent* → *seruiuissent|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); seruiuis-|sent
+- **3.9** *subvēnit* → *subuenit|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); no space after the comma
+- **3.9** *minōris* → *minoris|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); mino-|ris
+- **3.10** *Jōvæ* → *Iouæ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.10** *præditus* → *præditus|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); prædi-|tus
+- **3.10** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.10** *præfuit* → *præfuit|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.10** *bellum* → *bellum|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); bel-|lum
+- **3.10** *Mesopotamiæ* → *Mesopotamiæ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.10** *ā* → *a|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.10** *Jōvā* → *Ioua|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.10** *superāvit* → *superauit|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); su-|perauit
+- **3.10** *ōtium* → *otium|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.10** *annōs* → *annos|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); an-|nos
+- **3.10** *quadrāgintā* → *quadraginta|.*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.11** *mortuō* → *mortuo|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.11** *fīliō* → *filio|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); fi-|lio
+- **3.11** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.11** *offendērunt* → *offenderunt|;*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); offende-|runt
+- **3.12** *quī* → *qui|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); lowercase after a semicolon
+- **3.12** *eōrum* → *eorum|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.12** *adversus* → *aduersus|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); ad-|uersus
+- **3.13** *ascītīs* → *adscitis|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); adsci-|tis (ad- spelling)
+- **3.13** *Amālēchītīs* → *Amalechitis|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- ✱ **3.13** *Isrāēlītās* → *Israraelitas|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); misprint: Isra-|raelitas (ra repeated across the line break; no letter hidden at the line start, checked on an enlargement)
+- **3.14** *Huic* → *Huic|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.14** *Eglōnī* → *Egloni|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); Eglo-|ni
+- **3.14** *octōdecim* → *octodecim|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.14** *servīssent* → *seruiuissent|:*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); seruiuis-|sent
+- **3.15** *Gēræ* → *Geræ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.15** *hominem* → *hominem|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); homi-|nem
+- **3.15** *scævam* → *scæuam|.*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); footnote letter d before the word (not a mark)
+- **3.16** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); Isra-|elitis
+- **3.16** *rēgī* → *regi|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.16** *mitterētur* → *mitteretur|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); mit-|teretur
+- **3.16** *ancipitem* → *ancipitem|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.16** *veste* → *veste|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.16** *accīnctus* → *accinctus|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.16** *dextrum* → *dextrum|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.18** *dēdūcit* → *deducit|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.18** *quæ* → *quæ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.18** *sīc* → *sic|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.19** *arcānum* → *arcanum|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); arca-|num
+- ⚑ **3.20** *Cumque* → *Quumque|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.20** *ille* → *ille|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.20** *sōlitūdinem* → *solitudinem|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); solitudi-|nem
+- **3.20** *eō* → *eo|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.20** *æstīvō* → *æstiuo|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.21** *trānsverberat* → *transuerberat|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.22** *adāctō* → *adacto|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.22** *post* → *post|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.22** *adipe* → *adipe|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); a-|dipe
+- **3.22** *obstrūctō* → *obstructo|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.22** *nōn* → *non|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.23** *ēgreditur* → *egreditur|.*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.24** *Eō* → *Eo|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.24** *ēgressō* → *egresso|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.24** *rēgis* → *regis|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.24** *asseclæ* → *adseclæ|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); ad- spelling
+- **3.24** *pūrgāre* → *purgare|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.25** *Sed* → *Sed|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.25** *moræ* → *moræ|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.25** *tædēret* → *tæderet|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.25** *clāvem* → *clauem|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.26** *cūnctantibus* → *cunctantibus|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.26** *præteritīsque* → *præteritisque|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.28** *Jōvā* → *Ioua|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.28** *manum* → *manum|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.29** *Ita* → *Ita|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.29** *Jordānis* → *Iordanis|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); Ior-|danis
+- **3.29** *trājectus* → *traiectus|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.29** *decem* → *decem|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); de-|cem
+- **3.29** *præcipuōs* → *præcipuos|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.29** *potentēs* → *potentes|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.30** *subāctīs* → *subactis|*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.30** *octōgintā* → *octoginta|.*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.31** *Samgar* → *Samgar|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19)
+- **3.31** *fīlius* → *filius|,*: 1738 leaf 295, read on the page (orig reader 1, 2026-11-19); fi-|lius across the leaf (fi- ends leaf 295, lius, begins leaf 296)
+- **3.31** *cæsīs* → *cæsis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **3.31** *bovēs* → *boues|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **3.31** *stimulantur* → *stimulantur|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); stimulan-|tur
+- ⚑ **3.31** *sescentīs* → *sexcentis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **3.31** *Palæstīnīs* → *Palæstinis|.*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.1** *mortuō* → *mortuo|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.1** *Jōva* → *Ioua|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.1** *iterum* → *iterum|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.1** *offēnsus* → *offensus|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); offen-|sus
+- **4.2** *Jābīnī* → *Iabini|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.2** *Chananæō* → *chananæo|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); cha-|nanæo; lowercase c
+- **4.2** *exercitūs* → *exercitus|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.2** *habitābat* → *habitabat|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.2** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.2** *invocārunt* → *inuocarunt|.*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.3** *enim* → *enim|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.3** *habēns* → *habens|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.3** *vīgintī* → *viginti|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.4** *Eā* → *Ea|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.4** *tempestāte* → *tempestate|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.4** *Dēbora* → *Debora|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.4** *mulier* → *mulier|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- ⚑ **4.4** *conjūnx* → *coniux|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); no space after the comma
+- **4.4** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.4** *præsidēbat* → *præsidebat|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); præ-|sidebat
+- **4.5** *Dēboræ* → *Deboræ|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); De-|boræ
+- **4.6** *Hæc* → *Hæc|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.6** *fīliō* → *filio|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.6** *Nephthālēnsium* → *Nephthalensium|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.6** *eō* → *eo|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.6** *sīc* → *sic|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.6** *ēgit* → *egit|:*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.6** *Imperat* → *imperat|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); lowercase after a colon
+- **4.6** *dēlēctum* → *delectum|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.6** *decem* → *decem|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.7** *pertractūrum* → *pertracturum|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.8** *comitāberis* → *comitaberis|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.9** *illa* → *illa|:*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.9** *expedītiōnis* → *expeditionis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.9** *fēminæ* → *feminæ|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.9** *Tum* → *Tum|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.9** *profecta* → *profecta|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); profe-|cta
+- **4.9** *Cedesam* → *Cedesam|.*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); Cede-|sam
+- **4.10** *convocātīs* → *conuocatis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.10** *profectus* → *profectus|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.10** *est* → *est|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.10** *decem* → *decem|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.10** *comitante* → *comitante|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); co-|mitante
+- **4.11** *Cenæus* → *Cenæus|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.11** *Cenæīs* → *Cenæis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.11** *socerī* → *soceri|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.11** *posterīs* → *posteris|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); followed by Castellio's L. sign (not a mark)
+- **4.11** *cognātīs* → *cognatis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); followed by suis H. (Castellio's sign)
+- **4.12** *Sīsaræ* → *Sisaræ|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.12** *nūntiātum* → *nuntiatum|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.13** *omnēs* → *omnes|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); o-|mnes; lowercase o
+- **4.14** *eī* → *ei|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.14** *sine* → *sine|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.14** *dubiō* → *dubio|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.14** *præīret* → *præiret|.*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.15** *Tum* → *Tum|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.15** *Baracus* → *Baracus|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); Bara-|cus
+- **4.15** *dē* → *de|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.15** *decem* → *decem|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.15** *currūs* → *currus|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.15** *dēscenderet* → *descenderet|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); descen-|deret
+- **4.16** *cæsæ* → *cæsæ|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.16** *Sīsaræ* → *Sisaræ|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.16** *cōpiæ* → *copiæ|.*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.17** *Jāēlis* → *Iaelis|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.17** *Cenæī* → *Cenæi|.*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.17** *enim* → *enim|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.17** *Cenæī* → *Cenæi|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *Jāēl* → *Iael|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *eī* → *ei|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *obviam* → *obuiam|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *ēgressa* → *egressa|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *dīxit* → *dixit|:*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); di-|xit
+- **4.18** *Dēflecte* → *deflecte|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); lowercase after a colon
+- **4.18** *eam* → *eam|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *dēflexisset* → *deflexisset|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *illa* → *illa|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.18** *operuit* → *operuit|:*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.19** *poscentīque* → *poscentique|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); poscenti-|que; lowercase after a colon
+- **4.19** *aquam* → *aquam|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.19** *quod* → *quod|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.19** *sē* → *se|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.19** *illa* → *illa|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.19** *lactis* → *lactis|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.20** *præcēpit* → *præcepit|,*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19)
+- **4.20** *tabernāculō* → *tabernaculo|*: 1738 leaf 296, read on the page (orig reader 1, 2026-11-19); ta-|bernaculo
+- **4.20** *quæreret* → *quæreret|,*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.20** *numquis* → *numquis|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19); printed num at a line's end, quis at the next, no hyphen visible
+- **4.21** *Jāēl* → *Iael|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.21** *malleō* → *malleo|,*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.21** *clāvō* → *clauo|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.21** *et* → *et|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.21** *eum* → *eum|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.21** *terræ* → *terræ|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.21** *affīgit* → *adfigit|,*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19); ad-|figit; printed adfigit (spelling)
+- **4.22** *supervenit* → *superuenit|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19); super-|uenit
+- **4.22** *Jāēl* → *Iael|,*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *Ades* → *ades|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19); lowercase ades after a colon (settled Ades)
+- **4.22** *hūc* → *huc|,*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *ostendam* → *ostendam|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19); os-|tendam
+- **4.22** *quem* → *quem|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *tū* → *tu|*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *quæris* → *quæris|,*: 1738 leaf 296, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *ille* → *ille|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *eam* → *eam|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *animadvertit* → *animaduertit|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); crop showed the wrong place; read on leaf 297 (band 1)
+- **4.22** *Sīsaram* → *Sisaram|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *prōstrātum* → *prostratum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); pro-|stratum
+- **4.22** *exanimem* → *exanimem|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **4.22** *clāvō* → *clauo|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); crop showed the wrong place; read on leaf 297 (band 1)
+- **4.23** *Chananæō* → *chananæo|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); cha-|nanæo, lowercase c and æ
+- **4.24** *factī* → *facti|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **4.24** *magisque* → *magisque|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); magis-|que
+- **4.24** *dōnec* → *donec|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **4.24** *ēvertērunt* → *euerterunt|.*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.1** *et* → *et|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.1** *Baracus* → *Baracus|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); Bara-|cus
+- **5.1** *modum* → *modum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.3** *Audīte* → *Audite|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.4** *Idūmæō* → *idumæo|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); lowercase i; no space before terra
+- **5.4** *dēstīllābant* → *destillabant|:*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.4** *nūbēs* → *nubes|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); nu-|bes
+- **5.4** *effundēbant* → *effundebant|:*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.5** *liquēscēbant* → *liquescebant|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.5** *Isrāēlītārum* → *Israelitarum|.*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); Is-|raelitarum
+- **5.6** *Jāēlis* → *Iaelis|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.6** *erant* → *erant|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.7** *dōnec* → *donec|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.7** *exstitī* → *exstiti|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.7** *māter* → *mater|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.8** *ēlēgerant* → *elegerant|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.8** *ut* → *vt|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.8** *exstāret* → *exstaret|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); ex-|staret
+- **5.8** *neque* → *neque|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.9** *ō* → *o|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.9** *grātiās* → *gratias|.*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); gra-|tias
+- **5.11** *Jam* → *Iam|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.11** *dēscendātur* → *descendatur|.*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); de-|scendatur
+- **5.12** *Dēbora* → *Debora|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.12** *eia* → *eia|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); the eia after Debora, at the line's end
+- **5.12** *dīc* → *dic|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.12** *captīvōs* → *captiuos|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.12** *fīlī* → *fili|:*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.14** *populāribus* → *popularibus|:*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); populari-|bus; an asterisk stands before tuis
+- **5.15** *cum* → *cum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.15** *Issacharianis* → *Issacharianis|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); Issacha-|rianis
+- **5.15** *missus* → *missus|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); mis-|sus
+- **5.15** *Rūbēnītæ* → *Rubenitæ|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.16** *Rūbēnītæ* → *Rubenitæ|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.17** *Galaadītæ* → *Galaaditæ|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.18** *et* → *et|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- ⚑ **5.19** *cum* → *quum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.19** *vēnissent* → *venissent|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.19** *rēgēs* → *reges|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); re-|ges
+- **5.19** *prœliō* → *prœlio|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.20** *pugnātum* → *pugnatum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.20** *curriculīs* → *curriculis|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.21** *fluvius* → *fluuius|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.21** *abripuit* → *abripuit|:*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); abri-|puit
+- **5.21** *fluvium* → *fluuium|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.21** *fluvium* → *fluuium|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.21** *mī* → *mi|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.22** *ungulæ* → *vngulæ|:*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.22** *rēctōrum* → *rectorum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); footnote letter g printed just before the word
+- **5.22** *eōrum* → *eorum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.23** *Exsecrāminī* → *Exsecramini|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- ⚑ **5.23** *jubet* → *(iubet|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.23** *auxilium* → *auxilium|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.23** *Jōvæ* → *Iouæ|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.24** *laudābilissima* → *laudabilissima|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.24** *mulierum* → *mulierum|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.24** *es* → *es|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.24** *Cenæī* → *Cenæi|,*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.24** *tabernāculīs* → *tabernaculis|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.24** *laudābilissima* → *laudabilissima|.*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); laudabi-|lissima
+- **5.25** *dedit* → *dedit|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.25** *in* → *in|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.25** *phialā* → *phiala|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.25** *præbuit* → *præbuit|.*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19)
+- **5.26** *Alteram* → *Alteram|*: 1738 leaf 297, read on the page (orig reader 2, 2026-11-19); Alte-|ram (ram as catchword at the column's foot, repeated at the next page's head)
+- **5.26** *manum* → *manum|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.26** *clāvō* → *clauo|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.26** *Sīsaræ* → *Sisaræ|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.27** *labefactus* → *labefactus|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.27** *labefactus* → *labefactus|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.27** *labefactus* → *labefactus|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.28** *Sīsaræ* → *Sisaræ|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.28** *trānsennam* → *transennam|;*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.28** *illīus* → *illius|?*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.28** *morantur* → *morantur|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.28** *quadrīgārum* → *quadrigarum|?*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); quadri-|garum
+- **5.29** *prædam* → *prædam|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- ⚑ **5.29** *respondent* → *(respondent|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.29** *ejus* → *eius|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.29** *sapientēs* → *sapientes|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.29** *mulierēs* → *mulieres|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.29** *prīmāriæ* → *primariæ|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.29** *puellam* → *puellam|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.29** *puellārem* → *puellarem|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.30** *prædam* → *prædam|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); præ-|dam, lowercase after a colon (settled Prædam)
+- **5.30** *versicolōrem* → *versicolorem|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.30** *Sīsaræ* → *Sisaræ|;*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.30** *prædam* → *prædam|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.30** *versicolōrem* → *versicolorem|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.30** *versicolōrem* → *versicolorem|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); versi-|colorem
+- **5.30** *quæ* → *quæ|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.31** *hostēs* → *hostes|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); ho-|stes
+- **5.31** *Jōva* → *Ioua|:*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.31** *amantēs* → *amantes|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.31** *similēs* → *similes|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.31** *exorientis* → *exorientis|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.31** *suā* → *sua|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **5.31** *ōtium* → *otium|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); crop showed the wrong place; 1738 prints Ita otium fuit annis quadraginta as the first words of chapter VI (its verse 1, after the chapter heading; KJV 5.31); read on leaf 298 (band 3)
+- **5.31** *fuit* → *fuit|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); at the head of chapter VI in 1738 (see otium); read on leaf 298 (band 3)
+- **5.31** *annīs* → *annis|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); at the head of chapter VI in 1738 (see otium); read on leaf 298 (band 3)
+- **5.31** *quadrāgintā* → *quadraginta|.*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); at the head of chapter VI in 1738, its verse 1 (see otium)
+- **6.1** *offēnsus* → *offensus|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.3** *Amālēchītæ* → *Amalechitæ|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.3** *atque* → *atque|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); at-|que
+- **6.3** *orientālēs* → *orientales|:*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); footnote letter h printed before the word
+- **6.4** *factīsque* → *factisque|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); lowercase after a colon (settled Factisque)
+- **6.4** *terræ* → *terræ|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.4** *sīc* → *sic|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.4** *dēpopulābantur* → *depopulabantur|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.4** *vīctum* → *victum|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.4** *neque* → *neque|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.4** *bovēs* → *boues|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.5** *tabernāculīs* → *tabernaculis|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); taber-|naculis
+- **6.5** *erat* → *erat|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); crop pointed to leaf 297; read on leaf 298 (bands)
+- **6.5** *lōcustārum* → *locustarum|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); crop pointed to leaf 297; read on leaf 298 (bands)
+- **6.5** *numerus* → *numerus|)*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.5** *veniēbant* → *veniebant|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); venie-|bant
+- **6.5** *innumerābilī* → *innumerabili|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); a faint mark like a comma under the final i (like the comma after erat two lines up); doubtful, enlarged
+- **6.5** *pervādēbant* → *peruadebant|.*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.8** *ut* → *vt|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.8** *Jōva* → *Ioua|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.8** *Isrāēlītārum* → *Israelitarum|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); Isra-|elitarum
+- **6.8** *exercēbant* → *exercebant|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.8** *līberātōs* → *liberatos|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.9** *illīsque* → *illisque|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); lowercase (settled Illisque)
+- **6.10** *modo* → *modo|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.10** *Amorræōrum* → *Amorræorum|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.10** *dictō* → *dicto|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.11** *Deinde* → *Deinde|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.11** *Jōvæ* → *Iouæ|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.11** *sēditque* → *seditque|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); sedit-|que
+- **6.11** *sīc* → *sic|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.12** *Adest* → *adest|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); ad-|est, lowercase after a colon (settled Adest)
+- **6.13** *Cui* → *Cui|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.13** *Quæsō* → *quæso|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); lowercase after a colon (settled Quæso)
+- **6.13** *cūr* → *cur|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.13** *hæc* → *hæc|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.13** *ēductōs* → *eductos|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.13** *dēseruerit* → *deseruerit|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.14** *Tum* → *Tum|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.14** *eum* → *eum|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.14** *conversus* → *conuersus|:*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); con-|uersus
+- **6.15** *Quæsō* → *quæso|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); lowercase after a colon (settled Quæso); no space before domine
+- **6.15** *quōnam* → *quonam|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19); quo-|nam
+- **6.15** *pactō* → *pacto|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.15** *tenuissimæ* → *tenuissimæ|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.15** *præfectūræ* → *præfecturæ|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.16** *inquit* → *inquit|,*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.16** *præsidiō* → *præsidio|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.16** *occīdēs* → *occides|.*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.18** *dōnec* → *donec|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.18** *mūnusque* → *munusque|*: 1738 leaf 298, read on the page (orig reader 2, 2026-11-19)
+- **6.19** *Tum* → *Tum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.19** *fermentātæ* → *fermentatæ|:*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.19** *in* → *in|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.19** *canistrō* → *canistro|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.19** *carne* → *carne|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); enlarged
+- **6.19** *illum* → *illum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.19** *sub* → *sub|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.19** *quercum* → *quercum|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); quer-|cum
+- **6.19** *offert* → *offert|.*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); crop pointed to leaf 298; read on leaf 299 (bands)
+- **6.20** *Et* → *Et|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.20** *Deī* → *Dei|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.20** *angelus* → *angelus|:*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); ange-|lus
+- **6.20** *īnfermentātōs* → *infermentatos|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.20** *effunde* → *effunde|.*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); faint full stop, enlarged
+- **6.21** *cōnsūmpsit* → *consumsit|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); consum-|sit; printed consumsit (spelling)
+- **6.21** *oculīs* → *oculis|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.21** *ēvānuit* → *euanuit|.*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); eua-|nuit
+- **6.22** *præsentem* → *præsentem|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.22** *vīderim* → *viderim|!*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.23** *metum* → *metum|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.24** *Tum* → *Tum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.25** *nocte* → *nocte|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.25** *et* → *et|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.25** *item* → *item|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); lowercase, at a line's start; crop pointed to leaf 298; read on leaf 299 (bands)
+- **6.25** *septennī* → *septenni|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.25** *eam* → *eam|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.25** *succīderet* → *succideret|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.26** *āramque* → *aramque|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); a-|ramque, lowercase (settled Aramque)
+- **6.26** *arcis* → *arcis|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.26** *jugō* → *iugo|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.26** *et* → *et|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.26** *alterum* → *alterum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); alte-|rum
+- **6.27** *Gedeōn* → *Gedeon|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); Ge-|deon; enlarged
+- **6.27** *decem* → *decem|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.27** *obtemperat* → *obtemperat|:*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); obtem-|perat
+- **6.27** *paternæ* → *paternæ|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.27** *familiæ* → *familiæ|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.27** *oppidānōrumque* → *oppidanorumque|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); oppida-|norumque
+- **6.27** *veritus* → *veritus|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); ve-|ritus
+- **6.27** *noctū* → *noctu|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.28** *Māne* → *Mane|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.28** *oppidānī* → *oppidani|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.28** *ubi* → *vbi|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.28** *ēversam* → *euersam|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); e-|uersam
+- **6.28** *alterum* → *alterum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); crop pointed to leaf 300; read on leaf 299 (bands)
+- **6.28** *exstrūctā* → *exstructa|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); ex-|structa; printed exstructa (spelling)
+- **6.29** *Tum* → *Tum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.29** *inter* → *inter|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); in-|ter
+- **6.29** *eam* → *eam|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.29** *vestīgantēs* → *vestigantes|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.29** *Jōæ* → *Ioæ|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.29** *fīlium* → *filium|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.29** *esse* → *esse|:*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.30** *lūcum* → *lucum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); lu-|cum
+- **6.30** *succīderit* → *succiderit|.*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.31** *quī* → *qui|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.31** *respondit* → *respondit|:*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.31** *moriātur* → *moriatur|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.31** *dīruerit* → *diruerit|.*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); faint full stop, enlarged
+- **6.32** *tum* → *tum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.32** *Jerobaal* → *Ierobaal|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.32** *dīruerit* → *diruerit|.*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.33** *Madiānītæ* → *Madianitæ|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); no space before et
+- **6.33** *et* → *et|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.33** *Amālēchītæ* → *Amalechitæ|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); Ama-|lechitæ
+- **6.33** *ūniversī* → *vniuersi|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); no space before collatis; crop pointed to leaf 300; read on leaf 299 (bands)
+- **6.33** *collātīs* → *collatis|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); col-|latis
+- **6.33** *cōpiīs* → *copiis|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.33** *trājectō* → *traiecto|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.33** *flūmine* → *flumine|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); crop pointed to leaf 300; read on leaf 299 (bands)
+- **6.34** *spīritū* → *spiritu|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.35** *Nephthālēnsēs* → *Nephthalenses|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.36** *ēn* → *en|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *sī* → *si|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *sicca* → *sicca|:*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *tum* → *tum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *tē* → *te|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *per* → *per|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *mē* → *me|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *cōnservātūrum* → *conseruaturum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); con-|seruaturum
+- **6.37** *esse* → *esse|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.37** *pollicitus* → *pollicitus|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.38** *expressit* → *expressit|.*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.39** *Deinde* → *Deinde|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.39** *sīc* → *sic|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.39** *Deum* → *Deum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); De-|um
+- **6.39** *succēnsēre* → *succensere|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.39** *sī* → *si|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.40** *nocte* → *nocte|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.40** *Deus* → *Deus|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **6.40** *sōlōque* → *soloque|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); solo-|que
+- **6.40** *tōta* → *tota|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.1** *Jerobaal* → *Ierobaal|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **7.1** *septentriōne* → *septemtrione|,*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); se-|ptemtrione
+- **7.1** *posita* → *posita|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **7.2** *Tum* → *Tum|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19)
+- **7.2** *Gedeōnem* → *Gedeonem|*: 1738 leaf 299, read on the page (orig reader 2, 2026-11-19); Ge-|deonem
+- **7.2** *glōriantēs* → *gloriantes|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.2** *jactārent* → *iactarent|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); iacta-|rent
+- **7.2** *suō* → *suo|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.2** *victōriam* → *victoriam|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.2** *adeptōs* → *adeptos|.*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); ade-|ptos
+- **7.3** *prōclāmāret* → *proclamaret|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *exercitū* → *exercitu|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); ex-|ercitu
+- **7.3** *timidī* → *timidi|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *essent* → *essent|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *sunt* → *sunt|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *vīgintī* → *viginti|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *mīllia* → *millia|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *relictīs* → *relictis|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *decem* → *decem|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.3** *mīllibus* → *millibus|.*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *Gedeōnem* → *Gedeonem|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *monuit* → *monuit|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *multī* → *multi|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *tum* → *tum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *sēsē* → *sese|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *ibi* → *ibi|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *eōs* → *eos|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *illī* → *illi|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *eum* → *eum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *comitārī* → *comitari|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.4** *aut* → *aut|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.5** *canum* → *canum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); ca-|num
+- **7.6** *lambentium* → *lambentium|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.8** *reliquīs* → *reliquis|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.9** *nocte* → *nocte|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.9** *jussit* → *iussit|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.9** *in* → *in|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.9** *valle* → *valle|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.9** *dēscenderet* → *descenderet|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); descende-|ret; crop pointed to leaf 299; read on leaf 300 (bands)
+- **7.9** *illa* → *illa|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.10** *cum* → *cum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.10** *Pharā* → *Phara|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.10** *famulō* → *famulo|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.10** *cōnfirmātus* → *confirmatus|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); confirma-|tus; no space before castra
+- **7.12** *Amālēchītæque* → *Amalechitæque|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); Amale-|chitæque
+- **7.12** *tam* → *tam|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.12** *camēlōrum* → *camelorum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.12** *numerō* → *numero|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.13** *offendit* → *offendit|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); lowercase after a closing parenthesis (settled Offendit)
+- **7.13** *verbīs* → *verbis|:*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.13** *sum* → *sum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.13** *mihi* → *mihi|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.13** *somnīs* → *somnis|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.13** *hordeāceum* → *hordeaceum|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); enlarged
+- **7.13** *sēsē* → *sese|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.13** *labefactātum* → *labefactatum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); labefa-|ctatum
+- **7.13** *dējēcit* → *deiecit|.*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.14** *Tum* → *Tum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.14** *nisi* → *nisi|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.14** *Isrāēlītæ* → *Israelitæ|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); Israeli-|tæ
+- **7.14** *Jōæ* → *Ioæ|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.14** *fīliī* → *filii|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.15** *Deum* → *Deum|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.15** *castra* → *castra|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.15** *hortātur* → *hortatur|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.16** *Tum* → *Tum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.16** *classēs* → *classes|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); clas-|ses
+- **7.16** *singulās* → *singulas|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- ⚑ **7.16** *iīsque* → *eisque|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.16** *sīc* → *sic|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.18** *dīcitōte* → *dicitote|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.18** *Jōvæ* → *Iouæ|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *ineunte* → *ineunte|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *vigiliā* → *vigilia|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *pervēnērunt* → *peruenerunt|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *excitātīs* → *excitatis|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *custōdibus* → *custodibus|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *tubīs* → *tubis|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *ferēbant* → *ferebant|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.19** *collīdunt* → *collidunt|.*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *Tum* → *Tum|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *sonantēs* → *sonantes|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *classēs* → *classes|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *et* → *et|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *sūmptīs* → *sumtis|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); printed sumtis (spelling)
+- **7.20** *manū* → *manu|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *sinistrā* → *sinistra|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *facibus* → *facibus|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); fa-|cibus
+- **7.20** *sīc* → *sic|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.20** *Jōvæ* → *Iouæ|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.21** *omnēs* → *omnes|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); o-|mnes
+- **7.21** *perstrepere* → *perstrepere|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.21** *efficiente* → *efficiente|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.22** *reliquus* → *reliquus|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.22** *exercitus* → *exercitus|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.22** *ad* → *ad|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); crop pointed to leaf 301; read on leaf 300 (bands)
+- **7.22** *Ābēlmehōlæ* → *Abelmeholæ|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); Abelmeho-|læ
+- **7.22** *Tabbāthum* → *Tabbathum|.*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.23** *Tum* → *Tum|,*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19)
+- **7.24** *missīsque* → *missisque|*: 1738 leaf 300, read on the page (orig reader 2, 2026-11-19); lowercase after a colon (settled Missisque)
+- **7.24** *tōtum* → *totum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.24** *Ephrāimītārum* → *Ephraimitarum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.24** *montem* → *montem|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.24** *Itaque* → *Itaque|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.24** *excitī* → *exciti|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.24** *omnēs* → *omnes|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.24** *Jordānem* → *Iordanem|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.25** *captōsque* → *captosque|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); lowercase (settled Captosque)
+- **7.25** *occīdērunt* → *occiderunt|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.25** *illum* → *illum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.25** *persecūtī* → *persecuti|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **7.25** *Jordānem* → *Iordanem|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.1** *Madiānītās* → *Madianitas|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); Madi-|anitas
+- **8.1** *adortūrus* → *adorturus|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); crop pointed to leaf 302; read on leaf 301 (bands)
+- **8.1** *sē* → *se|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.1** *nōn* → *non|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.1** *vocāsset* → *vocasset|:*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); vocas-|set; enlarged
+- **8.2** *Quibus* → *Quibus|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.2** *ille* → *ille|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.2** *præstantior* → *præstantior|.*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.3** *Vōbīs* → *Vobis|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.3** *in* → *in|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.3** *manum* → *manum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.3** *Deus* → *Deus|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.3** *Ecquid* → *ecquid|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); lowercase after a colon (settled Ecquid)
+- **8.3** *factō* → *facto|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.3** *cōnferrī* → *conferri|?*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.3** *eum* → *eum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.4** *Deinde* → *Deinde|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.4** *Jordānem* → *Iordanem|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); Iorda-|nem
+- **8.4** *trecentīs* → *trecentis|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.5** *utpote* → *vtpote|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.5** *dēfatīgātīs* → *defatigatis|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); de-|fatigatis
+- **8.5** *dum* → *dum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.5** *persequitur* → *persequitur|.*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); persequi-|tur
+- **8.6** *sīc* → *sic|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.6** *præbeāmus* → *præbeamus|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.7** *Jōva* → *Ioua|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.7** *trādiderit* → *tradiderit|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.7** *vestra* → *vestra|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.7** *silvestribus* → *siluestribus|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); sil-|uestribus
+- **8.8** *Inde* → *Inde|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.8** *profectus* → *profectus|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.8** *quæ* → *quæ|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.8** *responderant* → *responderant|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); re-|sponderant
+- **8.9** *minātur* → *minatur|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); mina-|tur, lowercase after a colon (settled Minatur)
+- **8.10** *Salmana* → *Salmana|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.10** *erant* → *erant|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.10** *suās* → *suas|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.10** *cōpiās* → *copias|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.10** *sēcum* → *secum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.10** *habentēs* → *habentes|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.10** *omnī* → *omni|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.11** *scēnītārum* → *scenitarum|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); scenita-|rum
+- **8.11** *et* → *et|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.11** *Jegbaæ* → *Iegbaæ|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.11** *invādit* → *inuadit|:*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.12** *Madiānīticōs* → *madianiticos|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); lowercase m
+- **8.12** *perterret* → *perterret|.*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.13** *Deinde* → *Deinde|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.13** *ā* → *a|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.13** *sub* → *sub|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.13** *sōlis* → *solis|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.13** *juvenem* → *iuuenem|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.13** *Socōthēnsem* → *socothensem|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); soco-|thensem, lowercase s
+- **8.13** *comprehendit* → *comprehendit|:*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); no space before et
+- **8.14** *percontātus* → *percontatus|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); per-|contatus
+- **8.15** *sīc* → *sic|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19)
+- **8.15** *alloquitur* → *adloquitur|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); adlo-|quitur
+- **8.15** *quærēbātis* → *quærebatis|,*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); quæ-|rebatis
+- **8.15** *Salmana* → *Salmana|*: 1738 leaf 301, read on the page (orig reader 2, 2026-11-19); Sal-|mana
+- **8.15** *in* → *in|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); the crop showed another line; read on band 3 (right column, "Zeba et Sal-|mana in manu essent")
+- **8.15** *præbērētis* → *præberetis|.*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.16** *Tum* → *Tum|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.16** *atque* → *atque|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); at-|que
+- **8.16** *tribulīs* → *tribulis|,*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.16** *contrīvit* → *contriuit|,*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); an asterisk follows the comma, before "et phanuelensem" (not a mark of this word)
+- **8.18** *sīc* → *sic|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.18** *Cui* → *Cui|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.18** *illī* → *illi|,*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.18** *simillimī* → *simillimi|,*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.18** *inquiunt* → *inquiunt|,*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.19** *Jōvam* → *Iouam|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.19** *immortālem* → *immortalem|,*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); im-|mortalem
+- **8.19** *eōs* → *eos|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.19** *cōnservāssētis* → *conseruassetis|,*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.19** *interficerem* → *interficerem|.*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.20** *prīmōgenitō* → *primogenito|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19)
+- **8.20** *suō* → *suo|)*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); the parenthesis opens before "inquit"
+- **8.20** *gladium* → *gladium|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); gladi-|um
+- **8.20** *adhūc* → *adhuc|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); ad-|huc
+- **8.21** *Gedeōnī* → *Gedeoni|*: 1738 leaf 301, read on the page (orig reader 3, 2026-11-19); Ge-|deoni (the "deoni" set alone below the column's last line); the crop showed another line, read on band 4
+- **8.21** *dignæ* → *dignæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); footnote letter k before it; the crop showed another line, read on band 1
+- **8.21** *Tum* → *Tum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); the crop showed another line, read on band 1; items file gave leaf 301
+- **8.21** *Zebam* → *Zebam|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.21** *Salmanamque* → *Salmanamque|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); Salma-|namque
+- **8.21** *illōrum* → *illorum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- ⚑ **8.21** *annexa* → *adnexa|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.22** *vērō* → *vero|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); items file gave leaf 303
+- **8.22** *ā* → *a|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); items file gave leaf 303
+- **8.22** *tum* → *tum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.22** *tum* → *tum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.23** *Quibus* → *Quibus|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.23** *ille* → *ille|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); items file gave leaf 301
+- **8.23** *respondit* → *respondit|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); items file gave leaf 301
+- **8.23** *neque* → *neque|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); items file gave leaf 301
+- **8.23** *sē* → *se|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); items file gave leaf 301
+- **8.23** *neque* → *neque|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); ne-|que; items file gave leaf 303
+- **8.23** *suum* → *suum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.23** *fīlium* → *filium|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.23** *Jōvam* → *Iouam|.*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.24** *postulāre* → *postulare|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.24** *singulī* → *singuli|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.24** *aureās* → *aureas|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); au-|reas
+- **8.25** *inaurem* → *inaurem|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.26** *monīlia* → *monilia|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); mo-|nilia
+- **8.26** *rēgum* → *regum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.27** *ēphōdum* → *ephodum|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); e-|phodum; lower-case e
+- **8.27** *quem* → *quem|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.27** *quem* → *quem|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.27** *ejusque* → *eiusque|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.27** *dētrīmentum* → *detrimentum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); detrimen-|tum
+- **8.28** *subāctī* → *subacti|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.28** *ætāte* → *ætate|.*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.29** *Jerobaal* → *Ierobaal|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.29** *Jōæ* → *Ioæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.29** *fīlius* → *filius|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.29** *suæ* → *suæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.30** *habuitque* → *habuitque|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); lower-case h
+- **8.31** *Sichemæ* → *Sichemæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.31** *Abimelechō* → *Abimelecho|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); Abi-|melecho
+- **8.31** *nōmen* → *nomen|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.32** *Jōæ* → *Ioæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.32** *jūstā* → *iusta|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.32** *senectūte* → *senectute|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); se-|nectute
+- **8.32** *Jōæ* → *Ioæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.32** *Abīezeriānōrum* → *Abiezerianorum|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); Abieziano-|rum
+- **8.32** *sepultus* → *sepultus|.*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.33** *deum* → *deum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.34** *Jōvæ* → *Iouæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.34** *hostium* → *hostium|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.34** *immemorēs* → *immemores|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); immemo-|res
+- **8.35** *nūllam* → *nullam|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); lower-case n
+- **8.35** *Jerobaalis* → *Ierobaalis|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.35** *Gedeōnis* → *Gedeonis|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); Gedeo-|nis
+- **8.35** *beneficiīs* → *beneficiis|;*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); the mark looks like a semicolon (a dot above the comma)
+- **8.35** *grātiam* → *gratiam|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **8.35** *rependērunt* → *rependerunt|.*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); re-|penderunt
+- **9.1** *Jerobaalis* → *Ierobaalis|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); a speck above the I (ink, not an accent); no mark after it
+- **9.1** *suæ* → *suæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.1** *paternæ* → *paternæ|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.2** *hominum* → *hominum|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); ho-|minum; the n after "mi" is damaged in the type but the word is clear
+- **9.2** *Jerobaalis* → *Ierobaalis|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); items file gave leaf 301
+- **9.2** *hominis* → *hominis|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.2** *subesse* → *subesse|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.3** *Hæc* → *Hæc|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.3** *retulissent* → *retulissent|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.4** *æde* → *æde|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.4** *quibus* → *quibus|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.4** *ille* → *ille|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.4** *conductōs* → *conductos|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.4** *hominēs* → *homines|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); homi-|nes
+- **9.5** *Jerobaalis* → *Ierobaalis|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.5** *perimit* → *perimit|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); peri-|mit
+- **9.5** *Jerobaalis* → *Ierobaalis|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.5** *latuit* → *latuit|.*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.6** *Sichemītæ* → *Sichemitæ|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.6** *omnisque* → *omnisque|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); omnis-|que
+- **9.6** *stirps* → *stirps|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.6** *conveniunt* → *conueniunt|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.6** *et* → *et|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.6** *aggressī* → *adgressi|,*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.6** *faciunt* → *faciunt|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); faci-|unt
+- **9.6** *apud* → *apud|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.6** *sitam* → *sitam|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19)
+- **9.7** *illōs* → *illos|*: 1738 leaf 302, read on the page (orig reader 3, 2026-11-19); il-|los
+- **9.8** *arborēs* → *arbores|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); left column, first line ("ab olea, vt regnum in arbores capes-|seret")
+- **9.9** *Quibus* → *Quibus|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.9** *illa* → *illa|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.9** *sē* → *se|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); left column: the gutter cuts the first letters of each line; only "e" seen, s supplied
+- **9.9** *relictūram* → *relicturam|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- ⚑ **9.9** *cum* → *quum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "uum" seen, q supplied
+- **9.9** *honōrārentur* → *honorarentur|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); honoraren-|[t]ur (t in the gutter); footnote letter a before it
+- **9.9** *et* → *et|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.9** *capesseret* → *capesseret|.*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "pesseret" seen, ca supplied
+- **9.10** *Tum* → *Tum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.10** *fīcum* → *ficum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.10** *cohortārī* → *cohortari|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); cohor-|[t]ari (t in the gutter)
+- **9.10** *caperet* → *caperet|:*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *Fīcus* → *Ficus|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "icus" seen; the first letter is lost, so F or f is not seen (after a colon, at verse 11; cf. "sed vitis" in lower case at verse 13)
+- **9.11** *enimvērō* → *enimuero|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *commissūram* → *commissuram|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); commissu-|[r]am (r in the gutter)
+- **9.11** *esse* → *esse|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *ut* → *vt|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *relictā* → *relicta|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *suā* → *sua|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *dulcēdine* → *dulcedine|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); dulce-|[d]ine (d in the gutter)
+- **9.11** *suāvī* → *suaui|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *frūctū* → *fructu|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *arborum* → *arborum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.11** *negōtia* → *negotia|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "egotia" seen, n supplied
+- **9.12** *Tum* → *Tum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.12** *ā* → *a*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the whole word lies in the binding gutter (leaf 303, left column): supplied from the sense and the line's other words, its mark after left as the edited text's (Claude, 2026-11-19)
+- **9.12** *arborēs* → *arbores|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "rbores" seen, a supplied
+- **9.13** *negāvit* → *negauit|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); ne-|[g]auit (g in the gutter)
+- **9.13** *relictūram* → *relicturam|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.13** *mustum* → *mustum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.13** *suum* → *suum|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.13** *quō* → *quo|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "uo" seen, q supplied; footnote letter b after the following "et"
+- **9.13** *hominēs* → *homines|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); homi-|[n]es (n in the gutter)
+- **9.14** *Tum* → *Tum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); T partly in the gutter
+- **9.14** *ūniversæ* → *vniuersæ|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.14** *postulārunt* → *postularunt|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "ostularunt" seen, p supplied
+- **9.15** *Quibus* → *Quibus|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "uibus" seen; the first letter is lost, so Q or q is not seen (after "regnaret:", verse 15)
+- **9.15** *sē* → *se|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "e" seen, s supplied
+- **9.15** *præfutūrum* → *præfuturum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); præfutu-|[r]um (r in the gutter)
+- **9.15** *accēderent* → *accederent|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the mark looks like a semicolon
+- **9.15** *et* → *et|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "t" seen, e supplied
+- **9.15** *minus* → *minus|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); mi-|[n]us (n in the gutter)
+- **9.15** *exīret* → *exiret|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.15** *Libanī* → *Libani|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); Li-|[b]ani (b in the gutter)
+- **9.16** *igitur* → *igitur|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "gitur" seen, i supplied
+- **9.16** *fidē* → *fide|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.16** *et* → *et|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.16** *rēctē* → *recte|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); items file gave leaf 304
+- **9.16** *facitis* → *facitis|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); faci-|[ti]s (ti in the gutter); items file gave leaf 304
+- **9.16** *quī* → *qui|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); items file gave leaf 304
+- **9.16** *Abimelechum* → *Abimelechum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.16** *creētis* → *creetis|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); cree-|[ti]s (ti in the gutter)
+- **9.16** *sī* → *si|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.16** *Jerobaale* → *Ierobaale|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.16** *meō* → *meo|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "eo" seen, m supplied
+- **9.16** *et* → *et*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the whole word lies in the binding gutter (leaf 303, left column): supplied from the sense and the line's other words, its mark after left as the edited text's (Claude, 2026-11-19)
+- **9.17** *vōbīs* → *vobis|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "obis" seen, v supplied (1738 prints initial v)
+- **9.17** *summō* → *summo|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "ummo" seen, s supplied
+- **9.17** *vītæ* → *vitæ|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.17** *suæ* → *suæ|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); items file gave leaf 302
+- **9.18** *domum* → *domum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "omum" seen, d supplied
+- **9.18** *septuāgintā* → *septuaginta|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "ptuaginta" seen, se supplied
+- **9.18** *ūnō* → *vno|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.18** *et* → *et*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the whole word lies in the binding gutter (leaf 303, left column): supplied from the sense and the line's other words, its mark after left as the edited text's (Claude, 2026-11-19)
+- **9.18** *ancillæ* → *ancillæ|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.18** *Abimelechum* → *Abimelechum|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); Abimele-|[ch]um (ch in the gutter)
+- **9.18** *cōnsanguineus* → *consanguineus|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.18** *est* → *est|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "t" seen, es supplied
+- **9.18** *præfēcistis* → *præfecistis|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.19** *Sī* → *Si*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the whole word lies in the binding gutter (leaf 303, left column): supplied from the sense and the line's other words, its mark after left as the edited text's (Claude, 2026-11-19)
+- **9.19** *rēctē* → *recte|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.19** *hodiernō* → *hodierno|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "odierno" seen, h supplied
+- **9.19** *Jerobaale* → *Ierobaale|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.19** *ejusque* → *eiusque|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); eius-|[qu]e (qu in the gutter)
+- **9.19** *Abimelechō* → *Abimelecho|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); Abime-|[le]cho (le in the gutter)
+- **9.19** *fruātur* → *fruatur|:*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); frua-|[tu]r (tu in the gutter)
+- **9.20** *ignis* → *ignis|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "nis" seen, ig supplied
+- **9.20** *Sichemītās* → *Sichemitas|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); Sichemi-|[ta]s (ta in the gutter)
+- **9.20** *Mellōniamque* → *melloniamque|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); lower-case m
+- **9.20** *combūrat* → *comburat|:*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); combu-|[ra]t (ra in the gutter)
+- **9.20** *Sichemītīs* → *Sichemitis|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "chemitis" seen, Si supplied (capital not seen)
+- **9.20** *Abimelechum* → *Abimelechum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "bimelechum" seen, A supplied (capital not seen)
+- **9.20** *combūrat* → *comburat|.*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.21** *locūtus* → *locutus|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); gutter: "cutus" seen, lo supplied
+- **9.21** *Bēram* → *Beram|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.21** *fugā* → *fuga|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.21** *petīvit* → *petiit|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); pe-|tiit (across the columns)
+- **9.23** *injectō* → *iniecto|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.24** *exercitæ* → *exercitæ|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); items file gave leaf 304
+- **9.24** *pœnās* → *pœnas|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.24** *tum* → *tum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.24** *tum* → *tum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.24** *cædem* → *cædem|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.24** *præbuerant* → *præbuerant|.*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.25** *Sichemītæ* → *Sichemitæ|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the mark looks like a semicolon
+- **9.25** *juga* → *iuga|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.25** *illāc* → *illac|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.25** *nūntiātum* → *nuntiatum|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.26** *Prætereā* → *Præterea|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.26** *fīliō* → *filio|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); fi-|lio
+- **9.27** *vīneās* → *vineas|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); vi-|neas
+- **9.27** *suās* → *suas|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.27** *ūvīsque* → *vuisque|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.27** *calcātīs* → *calcatis|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); cal-|catis
+- **9.27** *lætitiam* → *lætitiam|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.27** *maledīcere* → *maledicere|.*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.28** *fīlius* → *filius|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); fi-|lius
+- **9.28** *dictitāre* → *dictitare|:*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); FLAG: prints dictitare, not dicitare
+- **9.28** *Abimelechus* → *Abimelechus|?*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); Abi-|melechus
+- **9.28** *aut* → *aut|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.28** *quis* → *quis|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.28** *præfectumque* → *præfectumque|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.28** *habet* → *habet|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.28** *Zebulem* → *Zebulem|?*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); Ze-|bulem
+- **9.28** *Servīte* → *Seruite|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- ⚑ **9.29** *inquit* → *(inquit|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the parenthesis opens before it; the mark after it looks like a semicolon
+- **9.29** *sermōnem* → *sermonem|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.30** *indignātus* → *indignatus|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); indi-|gnatus
+- **9.30** *Zebul* → *Zebul|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.30** *urbis* → *vrbis|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.30** *præfectus* → *præfectus|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.31** *nūntiōs* → *nuntios|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); lower-case n; nun-|tios
+- **9.31** *doceant* → *doceant|,*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.31** *fīlium* → *filium|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); the mark looks like a semicolon
+- **9.31** *vēnerint* → *venerint|;*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); ve-|nerint; the mark looks like a semicolon
+- **9.32** *veniat* → *veniat|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.32** *noctū* → *noctu|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.32** *sub* → *sub|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19)
+- **9.33** *ūtātur* → *vtatur|*: 1738 leaf 303, read on the page (orig reader 3, 2026-11-19); items file gave leaf 304
+- **9.34** *nocte* → *nocte|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.34** *profectus* → *profectus|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.34** *Sichemam* → *Sichemam|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.34** *quadripartītō* → *quadripartito|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.34** *īnsidiās* → *insidias|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.35** *Gaale* → *Gaale|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.35** *agente* → *agente|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.36** *et* → *et|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.36** *hominēs* → *homines|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); homi-|nes
+- **9.37** *sunt* → *sunt|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.37** *illō* → *illo|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.37** *terræ* → *terræ|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.37** *caterva* → *caterua|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.37** *quercūs* → *quercus|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.37** *dīvīnōrum* → *diuinorum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); diuino-|rum
+- **9.38** *ista* → *ista|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.38** *jactantia* → *iactantia|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.38** *nīmīrum* → *nimirum|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.39** *Tum* → *Tum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.39** *Sichemītās* → *Sichemitas|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.39** *Abimelechō* → *Abimelecho|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.39** *prælium* → *prœlium|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); printed with œ
+- **9.39** *committit* → *committit|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.40** *cecidērunt* → *ceciderunt|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); items file gave leaf 303
+- **9.41** *Abimelechus* → *Abimelechus|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); Abime-|lechus
+- **9.41** *frātrēs* → *fratres|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.42** *Posterō* → *Postero|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.42** *diē* → *die|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); printed run together with the next word ("dieAbimelechus")
+- **9.42** *Abimelechus* → *Abimelechus|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.43** *classēs* → *classes|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- ✱ **9.43** *dīvīsās* → *piuisas|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); FLAG: the first letter looks like p (the verse number 43 stands close to it): a misprint for diuisas, or a d not cleanly printed
+- **9.43** *atque* → *atque|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.43** *ubi* → *vbi|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.43** *cædit* → *cædit|:*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.44** *dum* → *dum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.44** *suōrum* → *suorum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.44** *impetum* → *impetum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); impe-|tum
+- **9.45** *et* → *et|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.45** *interfectīs* → *interfectis|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); inter-|fectis
+- **9.45** *cōnspergit* → *conspergit|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); con-|spergit
+- **9.46** *omnēs* → *omnes|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.46** *castellum* → *castellum|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.48** *ascendit* → *adscendit|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); lower-case a, after "coiuisse:"
+- **9.48** *montem* → *montem|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.48** *Selmōnem* → *Selmonem|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); Sel-|monem
+- **9.48** *secūribus* → *securibus|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.48** *umerīs* → *humeris|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); hu-|meris
+- **9.48** *impositō* → *imposito|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); items file gave leaf 303
+- **9.48** *cōnfestim* → *confestim|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.49** *castellō* → *castello|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.49** *etiam* → *etiam|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.50** *expugnat* → *expugnat|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); ex-|pugnat
+- **9.51** *fēminæque* → *feminæque|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.51** *ascendunt* → *adscendunt|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.52** *Abimelechus* → *Abimelechus|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); Abime-|lechus
+- **9.52** *turrim* → *turrim|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.52** *eam* → *eam|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.52** *portæ* → *portæ|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.53** *Tum* → *Tum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.53** *dējectō* → *deiecto|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.54** *districtō* → *districto|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.54** *ēnse* → *ense|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.54** *perimat* → *perimat|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.54** *nē* → *ne|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.54** *ā* → *a|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.54** *muliere* → *muliere|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.54** *interfectus* → *interfectus|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.55** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); Israe-|litæ
+- **9.55** *profectī* → *profecti|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.56** *ultus* → *vltus|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.56** *Deus* → *Deus|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.57** *Sichemītārum* → *Sichemitarum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **9.57** *fīlius* → *filius|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.1** *exstitit* → *exstitit|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.1** *Isrāēlītārum* → *Israelitarum|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); Is-|raelitarum
+- **10.1** *Phūæ* → *Phuæ|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.1** *nepōs* → *nepos|,*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.2** *Isrāēlītās* → *Israelitas|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); Israeli-|tas
+- **10.2** *rēxit* → *rexit|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.2** *annōs* → *annos|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.2** *trēs* → *tres|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.2** *et* → *et|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.2** *vīgintī* → *viginti|.*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.2** *Mortuus* → *Mortuus|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); Mor-|tuus
+- **10.3** *Jāīr* → *Iair|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.4** *Jāīris* → *Iairis|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19)
+- **10.4** *vocantur* → *vocantur|*: 1738 leaf 304, read on the page (orig reader 3, 2026-11-19); vo-|cantur (catchword "can-" at the foot of leaf 304)
+- **10.4** *diem* → *diem|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); blotted with ink but legible
+- **10.4** *Galaadītide* → *Galaaditide|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); Galaaditi-|de
+- **10.5** *iterum* → *iterum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); items file gave leaf 306
+- **10.5** *Jōvam* → *Iouam|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); items file gave leaf 306
+- **10.5** *commīsērunt* → *commiserunt|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); com-|miserunt
+- **10.6** *cultū* → *cultu|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.6** *Baales* → *Baales|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.7** *Palæstīnīs* → *Palæstinis|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.7** *et* → *et|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.7** *Ammonītīs* → *Ammonitis|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.8** *octōdecim* → *octodecim|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); octode-|cim
+- **10.8** *in* → *in|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); items file gave leaf 306
+- **10.8** *omnēs* → *omnes|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.8** *Jordānem* → *Iordanem|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.8** *incolēbant* → *incolebant|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.8** *grassātī* → *grassati|;*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); the mark looks like a semicolon
+- **10.9** *trājēcerant* → *traiecerant|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); lower-case t; printed run together with the next word ("traiecerantAmmonitæ"); items file gave leaf 304
+- **10.9** *Ammonītæ* → *Ammonitæ|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.9** *Jordānem* → *Iordanem|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.9** *bellum* → *bellum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.9** *etiam* → *etiam|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.9** *īnferendum* → *inferendum|.*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); inferen-|dum
+- **10.10** *sēsē* → *sese|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.10** *eum* → *eum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.11** *objicere* → *obiicere|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.11** *Palæstīnīs* → *Palæstinis|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.12** *oppressōs* → *oppressos|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.13** *relictō* → *relicto|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.13** *subventūrum* → *subuenturum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.15** *tum* → *tum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.15** *saltem* → *saltem|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.16** *eōrum* → *eorum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.16** *calamitāte* → *calamitate|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); cala-|mitate
+- ⚑ **10.17** *cum* → *quum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); q at the gutter edge, partly seen
+- **10.17** *castramētātīs* → *castrametatis|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.17** *castra* → *castra|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); c at the gutter edge, partly seen
+- **10.18** *Galaadīticī* → *galaaditici|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); lower-case g; galaa-|[d]itici (d in the gutter)
+- **10.18** *Ammonītās* → *Ammonitas|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); A partly in the gutter
+- **10.18** *incipere* → *incipere|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.18** *audēret* → *auderet|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **10.18** *omnium* → *omnium|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); o partly in the gutter
+- **10.18** *prīncipātum* → *principatum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); principa-|[t]um (t in the gutter)
+- **10.18** *assūmerētur* → *adsumeretur|.*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.1** *fortissimus* → *fortissimus|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); for-|tissimus
+- **11.2** *hērēditāte* → *hereditate|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); here-|ditate
+- **11.2** *ut* → *vt|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.3** *eumque* → *eumque|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.3** *cōnflūxerant* → *confluxerant|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); confluxe-|rant
+- **11.4** *Ammonītæ* → *Ammonitæ|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.4** *bellum* → *bellum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.5** *Quō* → *Quo|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.5** *profectī* → *profecti|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- ✱ **11.5** *Galaadītārum* → *Galaditarum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); FLAG: printed Gala-|ditarum (one a fewer than Galaaditarum): a misprint
+- **11.6** *præbeat* → *præbeat|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.6** *bellum* → *bellum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.7** *ille* → *ille|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.7** *exāctum* → *exactum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.8** *Tum* → *Tum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.8** *profectus* → *profectus|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.8** *omnēs* → *omnes|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.9** *sī* → *si|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.9** *dēbellandōs* → *debellandos|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); debel-|landos
+- **11.9** *mihi* → *mihi|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.9** *subēgerit* → *subegerit|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); blotted but legible
+- **11.10** *Cui* → *Cui|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.10** *illī* → *illi|:*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.10** *factūrōs* → *facturos|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.11** *Tum* → *Tum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.11** *cum* → *cum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); printed run together with the next word ("cumGalaaditarum")
+- **11.11** *Galaadītārum* → *Galaaditarum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.11** *populō* → *populo|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.11** *Jōvā* → *Ioua|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.12** *mittit* → *mittit|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.12** *ad* → *ad|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.12** *bellum* → *bellum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.13** *Ammonītārum* → *Ammonitarum|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.13** *ēgressōs* → *egressos|,*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.13** *terram* → *terram|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19); ter-|ram
+- **11.13** *Jordānem* → *Iordanem|.*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.13** *eam* → *eam|*: 1738 leaf 305, read on the page (orig reader 3, 2026-11-19)
+- **11.14** *illum* → *illum|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.14** *Jephthæ* → *Iephthæ|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); printed run together with the next word ("Iephthæno-|mine")
+- **11.14** *nōmine* → *nomine|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); no-|mine
+- **11.15** *cēpērunt* → *ceperunt|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.15** *Ammonītārum* → *Ammonitarum|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); Ammoni-|tarum
+- **11.16** *pervēnissent* → *peruenissent|:*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); per-|uenissent
+- **11.17** *illīus* → *illius|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.17** *quoque* → *quoque|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.17** *mānsērunt* → *manserunt|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); manse-|runt
+- **11.18** *Idūmæōrum* → *Idumæorum|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.18** *Arnōn* → *Arnon|.*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); Ar-|non
+- **11.19** *missīs* → *missis|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.19** *ad* → *ad|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.19** *Sēhōnem* → *Sehonem|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.19** *Amorræōrum* → *Amorræorum|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.19** *lēgātīs* → *legatis|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.19** *illīus* → *illius|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.19** *trānsīre* → *transire|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.20** *negāsset* → *negasset|;*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.20** *coāctīs* → *coactis|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.20** *prœliō* → *prœlio|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.21** *ūsurpārunt* → *vsurparunt|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); v-|surparunt
+- **11.22** *Jabbōc* → *Iaboc|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.25** *Jam* → *Iam|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.25** *præstantior* → *præstantior|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.25** *fīliō* → *filio|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.26** *Hesebōnem* → *Hesebonem|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); Hese-|bonem
+- **11.26** *et* → *et|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.26** *Arōēr* → *Aroer|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.26** *contermina* → *contermina|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); contermi-|na
+- **11.26** *incoluerint* → *incoluerint|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); in-|coluerint (across the columns)
+- **11.27** *læsī* → *læsi|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.27** *jūdex* → *iudex|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.28** *ad* → *ad|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.31** *Sī* → *si|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19); lower-case s
+- **11.31** *meæ* → *meæ|,*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.31** *incolumī* → *incolumi|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.31** *ab* → *ab|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.32** *prœliō* → *prœlio|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.32** *victōriam* → *victoriam|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.33** *Ammonītæ* → *Ammonitæ|*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.33** *sunt* → *sunt|.*: 1738 leaf 306, read on the page (orig reader 3, 2026-11-19)
+- **11.34** *Maspham* → *Maspham|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); hyphenated Mas-|pham
+- **11.35** *Heu* → *heu|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); lower-case h
+- **11.35** *mea* → *mea|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.35** *fīlia* → *filia|,*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.35** *tū* → *tu|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); printed close to me (tume)
+- **11.35** *mē* → *me|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.35** *verbīs* → *verbis|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); printed run together with Iouæ (verbisIouæ); asterisk before qui
+- **11.35** *Jōvæ* → *Iouæ|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.35** *prōmīsī* → *promisi|,*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.36** *facitō* → *facito|,*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.36** *fert* → *fert|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); crop showed leaf 305 (wrong line); read on leaf 306 in the crops of 1342 and 1344
+- **11.36** *prōmissiō* → *promissio|;*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); hyphenated promis-|sio
+- **11.38** *Tum* → *Tum|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.38** *eam* → *eam|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.38** *illa* → *illa|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.38** *æquālibus* → *æqualibus|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.38** *dēflēvit* → *defleuit|:*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.40** *Ea* → *Ea|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); begins an indented line (new paragraph) after habuisset.
+- **11.40** *rēs* → *res|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19)
+- **11.40** *cōnsuētūdinem* → *consuetudinem|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); crop showed leaf 305 (wrong line); read on leaf 306 in the crops of 1350-1351
+- **11.40** *apud* → *apud|*: 1738 leaf 306, read on the page (orig reader 4, 2026-11-19); hyphenated a-|pud
+- **12.1** *Ephrāimītæ* → *Ephraimitæ|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated Ephraimi-|tæ; æ printed for settled ae
+- **12.1** *trājēcērunt* → *traiecerunt|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.1** *ad* → *ad|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.1** *septentriōnēs* → *septentriones|:*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated septentrio-|nes
+- **12.1** *Ammonītīs* → *Ammonitis|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.1** *societātem* → *societatem|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.1** *ascītīs* → *adscitis|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); adsc- printed for settled asc-
+- **12.3** *vītæ* → *vitæ|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); lower-case v (settled Vitæ)
+- **12.3** *suæ* → *suæ|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.3** *victōriam* → *victoriam|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.4** *Galaadītīs* → *Galaaditis|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.4** *prœlium* → *prœlium|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated prœ-|lium
+- **12.4** *victīsque* → *victisque|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.4** *Galaadītīs* → *Galaaditis|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated Galaa-|ditis
+- **12.5** *Jordānis* → *Iordanis|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.5** *trājectus* → *traiectus|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated tra-|iectus
+- **12.5** *num* → *num|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); a stray mark printed after eis, before num
+- **12.5** *Ephrātæī* → *Ephratæi|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae
+- **12.6** *duo* → *duo|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); printed close to millia (duomillia)
+- **12.6** *mīllia* → *millia|.*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.8** *eum* → *eum|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.10** *Bēthlehemæ* → *Bethlehemæ|.*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); crop showed the line of 12.8 (leaf 307); read in the crop of 1376 (se-|pultus Bethlehemæ.)
+- **12.11** *præfuit* → *præfuit|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae
+- **12.11** *decem* → *decem|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.14** *quadrāgintā* → *quadraginta|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated qua-|draginta
+- **12.14** *Hic* → *Hic|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.14** *annōs* → *annos|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.14** *octō* → *octo|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **12.15** *Amālēchītārum* → *Amalechitarum|.*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated Amalechi-|tarum; the stop at chapter end is faint (read as a full stop)
+- **13.1** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated Is-|raelitis
+- **13.2** *Fuit* → *Fuit|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.3** *sterilitātem* → *sterilitatem|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated sterilita-|tem
+- **13.3** *eamque* → *eamque|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.3** *sīc* → *sic|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.4** *cavē* → *caue|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated ca-|ue
+- **13.4** *bibās* → *bibas|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated bi-|bas
+- **13.4** *ūllō* → *vllo|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.5** *ēditūram* → *edituram|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated editu-|ram
+- **13.5** *incipietque* → *incipietque|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated incipiet-|que
+- **13.6** *Tum* → *Tum|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.6** *mulier* → *mulier|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.6** *quæsīvisse* → *quæsiuisse|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.6** *esset* → *esset|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.6** *illum* → *illum|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19)
+- **13.7** *conceptūram* → *concepturam|*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); hyphenated conceptu-|ram
+- **13.7** *biberet* → *biberet|,*: 1738 leaf 307, read on the page (orig reader 4, 2026-11-19); crop showed the wrong line; read in bands leaf307-4 and leaf308-1: bibe-|ret, broken across the leaf (catchword ret,)
+- **13.7** *suæ* → *suæ|.*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.8** *quem* → *quem|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.8** *dē* → *de|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); printed close to puero (depuero)
+- **13.8** *puerō* → *puero|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); a speck like a full stop sits between puero and the comma
+- **13.8** *quī* → *qui|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.8** *nāscētur* → *nascetur|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.8** *faciendum* → *faciendum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated facien-|dum
+- **13.9** *Manōæ* → *Manoæ|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae
+- **13.10** *vīsum* → *visum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.10** *eam* → *eam|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.10** *superiōribus* → *superioribus|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated superiori-|bus
+- **13.11** *et* → *et|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.11** *ex* → *ex|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed leaf 307 (wrong line); read on leaf 308 in the crop of 1411 (ho-|minem adit, et ex eo quærit, num)
+- **13.11** *eō* → *eo|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed the line of 13.17; read in the crop of 1411; ex eo printed close (exeo)
+- **13.11** *quærit* → *quærit|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed the wrong line; read in the crop of 1411
+- **13.11** *num* → *num|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed the line of 13.17; read in the crop of 1411
+- **13.11** *muliere* → *muliere|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.11** *fuisset* → *fuisset|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated fuis-|set
+- **13.12** *erit* → *erit|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.12** *puerī* → *pueri|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.12** *īnstitūtum* → *institutum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated institu-|tum
+- **13.13** *quæ* → *quæ|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.14** *profectum* → *profectum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.14** *gustet* → *gustet|;*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed the line of 14.5; read in the crop of 1422 (profectum gustet; vinum teme-|tumue)
+- **13.14** *tēmētumve* → *temetumue|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed the line of 14.5; read in the crops of 1422 and 1426: hyphenated teme-|tumue
+- **13.14** *præcepta* → *præcepta|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated præce-|pta
+- **13.15** *Tum* → *Tum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.16** *gustābō* → *gustabo|:*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.16** *sacrificium* → *sacrificium|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.16** *facis* → *facis|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.16** *Jōvæ* → *Iouæ|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated Io-|uæ
+- **13.16** *Manōa* → *Manoa|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated Ma-|noa
+- **13.16** *Jōvæ* → *Iouæ|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.16** *angelum* → *angelum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.16** *esse* → *esse|.*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed the line of 13.21-22; read in the crops of 1431-1433
+- ⚑ **13.17** *cum* → *quum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.17** *ea* → *ea|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.18** *mīrābile* → *mirabile|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated mirabi-|le
+- **13.19** *Tum* → *Tum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.19** *spectantibus* → *spectantibus|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated spectanti-|bus
+- **13.20** *cælum* → *cælum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.20** *ascendit* → *adscendit|:*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated adscen-|dit; adsc- printed for settled asc-
+- **13.20** *prōcidērunt* → *prociderunt|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated pro-|ciderunt
+- **13.21** *tum* → *tum|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.21** *intellegēns* → *intelligens|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated intel-|ligens
+- **13.22** *Moriēmur* → *moriemur|;*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); lower-case m (settled Moriemur)
+- **13.23** *vellet* → *vellet|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.23** *Jōva* → *Ioua|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.23** *accēpisset* → *accepisset|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated acce-|pisset
+- **13.23** *sacrificium* → *sacrificium|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.23** *hæc* → *hæc|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.23** *tam* → *tam|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.23** *mīra* → *mira|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated mi-|ra
+- **13.23** *umquam* → *vmquam|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.23** *sīc* → *sic|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.25** *Jōvā* → *Ioua|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.25** *īnstīnctus* → *instinctus|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated instin-|ctus
+- **13.25** *castrīs* → *castris|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **13.25** *Saraam* → *Saraam|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated Sa-|raam
+- **14.1** *aliquandō* → *aliquando|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated ali-|quando
+- **14.1** *Palæstīnam* → *palæstinam|;*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); lower-case p (settled Palæstinam)
+- **14.1** *parentēs* → *parentes|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated pa-|rentes
+- **14.1** *suōs* → *suos|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.1** *adit* → *adit|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.2** *sē* → *se|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.2** *vīdisse* → *vidisse|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated vidis-|se
+- **14.2** *Palæstīnam* → *palæstinam|;*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); lower-case p
+- **14.2** *eam* → *eam|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.2** *mātrimōnium* → *matrimonium|.*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.3** *dēterrēre* → *deterrere|:*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.3** *quasi* → *quasi|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.3** *multitūdine* → *multitudine|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.3** *uxōrem* → *vxorem|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.3** *ā* → *a|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.3** *præpūtiātīs* → *præputiatis|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae
+- **14.3** *ascīscat* → *adsciscat|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); adsc- printed for settled asc-
+- **14.3** *eam* → *eam|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.4** *Jōvā* → *Ioua|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.4** *Palæstīnōs* → *Palæstinos|,*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); hyphenated Palæsti-|nos
+- **14.4** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.5** *Profectus* → *Profectus|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); begins an indented line (new paragraph)
+- **14.6** *Jōvæ* → *Iouæ|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.6** *indicāvit* → *indicauit|.*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.7** *muliere* → *muliere|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.7** *placuit* → *placuit|.*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.8** *eam* → *eam|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19)
+- **14.8** *aliquantō* → *aliquanto|*: 1738 leaf 308, read on the page (orig reader 4, 2026-11-19); crop showed leaf 309 (next line, post reuertens); read on leaf 308 in the crops of 1484-1485, at the end of the line Ad eam ducendam aliquanto
+- **14.8** *vīsendum* → *visendum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated visen-|dum
+- **14.8** *leōnis* → *leonis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.8** *dēflexisset* → *deflexisset|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.8** *exāmen* → *examen|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated exa-|men
+- **14.9** *cœpit* → *cœpit|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.9** *eundum* → *eundum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.9** *impertīvit* → *impertiuit|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.9** *nec* → *nec|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.9** *tamen* → *tamen|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.10** *vēnit* → *venit|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.10** *convīvium* → *conuiuium|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- ⚑ **14.10** *adulēscentum* → *adolescentum|:*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.11** *eum* → *eum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.11** *sodālēs* → *sodales|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated soda-|les
+- **14.12** *ænigma* → *ænigma|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae; printed close to quod (ænigma,quod)
+- **14.12** *mihi* → *mihi|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); footnote letter d) printed after mihi (note: ante finitos hos septem dies ...), no stop
+- **14.12** *septem* → *septem|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.12** *dabō* → *dabo|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.13** *explicāre* → *explicare|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated ex-|plicare
+- **14.13** *nequīveritis* → *nequiueritis|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed leaf 310 (wrong line); read on leaf 309 in the crop of 1505 and band leaf309-2
+- ⚑ **14.13** *Cumque* → *Quumque|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.13** *et* → *et|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.13** *ænigma* → *ænigma|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated æni-|gma; æ printed for settled ae
+- **14.13** *prōpōnī* → *proponi|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.13** *sīc* → *sic|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.13** *prōposuit* → *proposuit|:*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated pro-|posuit
+- **14.14** *ænigma* → *ænigma|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae
+- **14.14** *illī* → *illi|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.15** *petīvērunt* → *petierunt|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the top of the leaf; read in band leaf309-3: hyphenated petie-|runt
+- **14.15** *ænigmatis* → *ænigmatis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.15** *sententiam* → *sententiam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.15** *eam* → *eam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed leaf 310 (wrong line); read on leaf 309 in the crops of 1516-1517 and 1519 (sese et eam et eius domum); the e of eam is faint
+- **14.15** *paternam* → *paternam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.15** *sē* → *se|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.16** *flēre* → *flere|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); lower-case f (form_now had Flere)
+- **14.16** *esse* → *esse|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.16** *dīcere* → *dicere|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated dice-|re
+- **14.16** *ænigma* → *ænigma|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae
+- **14.16** *ipsīus* → *ipsius|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.16** *prōposuisset* → *proposuisset|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.16** *sibi* → *sibi|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.16** *nōn* → *non|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.16** *patefaceret* → *patefaceret|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated pate-|faceret
+- **14.17** *Cui* → *Cui|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *ille* → *ille|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *dēmōnstrābat* → *demonstrabat|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the line above; read in the crops of 1530-1531
+- **14.17** *id* → *id|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *sē* → *se|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *nē* → *ne|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *parentibus* → *parentibus|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the lines above; read in the crops of 1533-1535
+- **14.17** *quidem* → *quidem|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *explānāsse* → *explanasse|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated expla-|nasse
+- **14.17** *nē* → *ne|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1537-1538 and a zoom: ne dum printed with a narrow space
+- **14.17** *dum* → *dum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1537-1538 and a zoom
+- **14.17** *ut* → *vt|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *uxōrī* → *vxori|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *explānāret* → *explanaret|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *Sed* → *Sed|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *illa* → *illa|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- ⚑ **14.17** *cum* → *quum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); printed close to apud (quumapud)
+- **14.17** *apud* → *apud|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1541-1546
+- **14.17** *eum* → *eum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1541-1546; footnote letter f) printed after eum
+- **14.17** *per* → *per|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1550-1551 (eum f) per fe-|ptem)
+- **14.17** *septem* → *septem|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated se-|ptem
+- **14.17** *diēs* → *dies|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *quibus* → *quibus|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1550-1551
+- **14.17** *habitum* → *habitum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *est* → *est|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *convīvium* → *conuiuium|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated con-|uiuium
+- **14.17** *flēret* → *fleret|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *pervīcit* → *peruicit|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *diē* → *die|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *tandem* → *tandem|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *septimā* → *septima|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *ut* → *vt|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *ænigma* → *ænigma|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); æ printed for settled ae
+- **14.17** *dēclārāret* → *declararet|;*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *idque* → *idque|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated id-|que
+- **14.17** *ipsa* → *ipsa|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *suīs* → *suis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.17** *populāribus* → *popularibus|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1561-1566 and band leaf309-4
+- **14.17** *exposuit* → *exposuit|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1561-1566 (last line of the left column)
+- **14.18** *Itaque* → *Itaque|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in band leaf309-1 (top of the right column)
+- **14.18** *diē* → *die|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in band leaf309-1
+- **14.18** *septimā* → *septima|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *oppidānī* → *oppidani|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *ante* → *ante|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *sōlis* → *solis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *occāsum* → *occasum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *sīc* → *sic|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *illī* → *illi|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *dīcunt* → *dicunt|:*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *Quid* → *quid|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); lower-case q (settled Quid)
+- **14.18** *melle* → *melle|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *dulcius* → *dulcius|?*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); a space printed before the ?
+- **14.18** *et* → *et|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *quid* → *quid|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *leōne* → *leone|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **14.18** *ferōcius* → *ferocius|?*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1 (crop showed leaf 308): hyphenated fero-|cius
+- **14.18** *Et* → *Et|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.18** *ille* → *ille|:*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.18** *Nisi* → *nisi|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; lower-case n (settled Nisi)
+- **14.18** *vitulā* → *vitula|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.18** *meā* → *mea|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.18** *arāvissētis* → *arauissetis|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; hyphenated ara-|uissetis
+- **14.18** *meum* → *meum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.18** *ænigma* → *ænigma|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; æ printed for settled ae
+- **14.18** *nōn* → *non|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.18** *pervestīgāssētis* → *peruestigassetis|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; hyphenated perue-|stigassetis
+- **14.19** *Deinde* → *Deinde|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; begins an indented line (new paragraph)
+- **14.19** *Jōvæ* → *Iouæ|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *afflātū* → *adflatu|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; adfl- printed for settled affl-
+- **14.19** *percitus* → *percitus|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *dēscendit* → *descendit|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *Ascalōnem* → *Ascalonem|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *cæsīsque* → *cæsisque|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; æ printed for settled ae
+- **14.19** *inde* → *inde|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; hyphenated in-|de
+- **14.19** *trīgintā* → *triginta|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *hominibus* → *hominibus|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *eōrum* → *eorum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *et* → *et|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *arma* → *arma|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *abstulit* → *abstulit|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *et* → *et|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *ēlegantēs* → *elegantes|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *vestēs* → *vestes|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *ænigmatis* → *ænigmatis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *interpretibus* → *interpretibus|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *dedit* → *dedit|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *atque* → *atque|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1; hyphenated at-|que
+- **14.19** *īrā* → *ira|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *accēnsus* → *accensus|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *domum* → *domum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *patris* → *patris|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-1
+- **14.19** *repetīvit* → *repetiit|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2; hyphenated re-|petiit
+- **14.20** *Atque* → *Atque|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *ejus* → *eius|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *uxor* → *vxor|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *ipsīus* → *ipsius|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *Samsōnis* → *Samsonis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *familiārī* → *familiari|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *nūpsit* → *nupsit|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *quī* → *qui|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *eī* → *ei|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *illīus* → *illius|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *ipsīus* → *ipsius|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *affīnitātis* → *adfinitatis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2; adf- printed for settled aff-
+- **14.20** *conciliātor* → *conciliator|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2
+- **14.20** *fuerat* → *fuerat|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-2; asterisk printed after the stop (not a mark)
+- **15.1** *ad* → *ad|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.1** *eam* → *eam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); printed close to admitti (eamadmitti)
+- **15.1** *admittī* → *admitti|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.1** *sē* → *se|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.1** *in* → *in|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.1** *cubiculum* → *cubiculum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed leaf 310 (wrong line); read on leaf 309 in the crops of 1636-1640
+- **15.1** *postulat* → *postulat|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated postu-|lat
+- **15.2** *Sed* → *Sed|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *mulieris* → *mulieris|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *pater* → *pater|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *eum* → *eum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *prohibuit* → *prohibuit|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated pro-|hibuit
+- **15.2** *dīcēns* → *dicens|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- ⚑ **15.2** *cum* → *quum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); a dot-like speck printed between quum and eam
+- **15.2** *eam* → *eam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *illī* → *illi|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *invīsam* → *inuisam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *esse* → *esse|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *putāret* → *putaret|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1645-1653
+- **15.2** *eam* → *eam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1645-1653 and a zoom; a tiny blot at the baseline after eam, not read as a comma
+- **15.2** *ejus* → *eius|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the wrong lines; read in the crops of 1645-1653
+- **15.2** *familiārī* → *familiari|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed the left column; read in the crops of 1650-1653 and band leaf309-3: hyphenated fa-|miliari
+- **15.2** *minōrem* → *minorem|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *sīc* → *sic|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *eam* → *eam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.2** *illā* → *illa|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); printed close to the next word (illadu-|ceret)
+- **15.3** *Tum* → *Tum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.3** *præfātus* → *præfatus|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.3** *sēsē* → *sese|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.3** *tum* → *tum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed leaf 308 (wrong line); read on leaf 309 in the crops of 1663-1664 and 1666
+- **15.3** *Palæstīnīs* → *Palæstinis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated Palæ-|stinis
+- **15.3** *injūriam* → *iniuriam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed leaf 308 (wrong line); read on leaf 309 in the crops of 1664 and 1666
+- **15.3** *factūrum* → *facturum|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); crop showed leaf 308 (wrong line); read on leaf 309 in the crops of 1664 and 1666
+- **15.3** *sī* → *si|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4 (crop showed leaf 308)
+- ⚑ **15.3** *iīs* → *eis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4 (crop showed leaf 308); hyphenated ma-|lum follows
+- **15.4** *vulpibus* → *vulpibus|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.4** *et* → *et|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.4** *caudīs* → *caudis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); hyphenated cau-|dis
+- **15.4** *singulās* → *singulas|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.4** *interpōnit* → *interponit|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); a space printed before the comma
+- **15.5** *iīsque* → *iisque|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.5** *Palæstīnōrum* → *Palæstinorum|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.5** *segetēs* → *segetes|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.5** *ita* → *ita|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.5** *mētās* → *metas|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19)
+- **15.5** *et* → *et|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4
+- **15.5** *vīneās* → *vineas|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4
+- **15.5** *et* → *et|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4
+- **15.5** *combussit* → *combussit|.*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4; hyphenated comb-|ussit
+- **15.6** *auctōrem* → *auctorem|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4
+- **15.6** *Palæstīnī* → *Palæstini|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4; hyphenated Palæ-|stini
+- **15.6** *esse* → *esse|,*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4
+- **15.6** *Thamnāthēnsis* → *Thamnathensis|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4; hyphenated Tha-|mnathensis
+- **15.6** *inquīrendō* → *inquirendo|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4; hyphenated inqui-|rendo
+- **15.6** *quoniam* → *quoniam|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4
+- **15.6** *ille* → *ille|*: 1738 leaf 309, read on the page (orig reader 4, 2026-11-19); read in band leaf309-3/4; hyphenated il-|le
+- **15.6** *familiārī* → *familiari|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf309-4 and read in band leaf310-1: fami-|liari broken across leaves 309-310 (catchword lia-)
+- **15.6** *combūrunt* → *comburunt|.*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.7** *Samsōn* → *Samson|:*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; a space printed before the colon
+- **15.8** *tractū* → *tractu|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; asterisk printed after tractu (not a mark)
+- **15.8** *affectīs* → *adfectis|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; adf- printed for settled aff-
+- ⚑ **15.8** *quandam* → *quamdam|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; quamdam printed for settled quandam
+- **15.8** *præruptam* → *præruptam|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; æ printed for settled ae
+- **15.8** *ibique* → *ibique|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.9** *Palæstīnī* → *Palæstini|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.9** *expedītiōnem* → *expeditionem|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.9** *Jūdæōs* → *Iudæos|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; hyphenated Iu-|dæos
+- **15.9** *positīsque* → *positisque|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.9** *castrīs* → *castris|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.9** *Jūdæā* → *Iudæa|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.10** *Et* → *Et|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.10** *quærentibus* → *quærentibus|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.10** *Jūdæīs* → *Iudæis|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.10** *expedītiōnis* → *expeditionis|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.10** *cōnstringendum* → *constringendum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.10** *referant* → *referant|.*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.11** *Tum* → *Tum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.11** *Jūdæīs* → *Iudæis|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2; hyphenated Iu-|dæis
+- **15.11** *Palæstīnōs* → *Palæstinos|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2; printed without a space after the comma before it (sciret,Palæstinos)
+- **15.11** *facinus* → *facinus|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.11** *ad* → *ad|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.11** *Jūdæōrum* → *Iudæorum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2; hyphenated Iudæ-|orum
+- ⚑ **15.12** *Cumque* → *Quumque|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **15.12** *Palæstīnīsque* → *Palæstinisque|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2; hyphenated Pa-|læstinisque; æ printed for settled ae
+- **15.13** *vīnctum* → *vinctum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.13** *vīnctum* → *vinctum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.13** *ēdūcunt* → *educunt|.*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *Quī* → *Qui|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3; no space after the comma (Qui,simul)
+- **15.14** *vēnit* → *venit|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *in* → *in|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *occursum* → *occursum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *ejus* → *eius|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *Palæstīnīs* → *Palæstinis|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3; hyphenated Palæ-|stinis
+- **15.14** *Jōvæ* → *Iouæ|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *īnstīnctū* → *instinctu|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *cōnstricta* → *constricta|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **15.14** *vinculīs* → *vinculis|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4; a space printed before the comma
+- **15.15** *nactus* → *nactus|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **15.15** *virōs* → *viros|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **15.17** *Hæc* → *Hæc|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **15.17** *māxillæ* → *maxillæ|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4; æ printed for settled ae
+- **15.17** *jactum* → *iactum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **15.18** *affectus* → *adfectus|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4; adf- printed for settled aff-
+- **15.18** *mihi* → *mihi|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **15.18** *victōriam* → *victoriam|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **15.19** *Tum* → *Tum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.19** *māxillæ* → *maxillæ|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; æ printed for settled ae
+- **15.19** *ēlicuit* → *elicuit|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.19** *nōminātus* → *nominatus|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.20** *Isrāēlītās* → *Israelitas|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1
+- **15.20** *Palæstīnōrum* → *Palæstinorum|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-1; hyphenated Palæ-|stinorum
+- **16.1** *et* → *et|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.1** *ibi* → *ibi|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.1** *vīsā* → *visa|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.1** *quādam* → *quadam|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.1** *meretrīce* → *meretrice|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.1** *eam* → *eam|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.2** *intellēxērunt* → *intellexerunt|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.2** *nocte* → *nocte|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.2** *præstōlātī* → *præstolati|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2; æ printed for settled ae
+- **16.2** *eum* → *eum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-2
+- **16.3** *noctem* → *noctem|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **16.3** *nocte* → *nocte|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3; a space printed before the comma
+- **16.3** *portæ* → *portæ|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **16.3** *prehendit* → *prehendit|,*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **16.3** *cumque* → *cumque|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **16.3** *suīs* → *suis|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **16.3** *aspectū* → *adspectu|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3; hyphenated ad-|spectu; adsp- printed for settled asp-
+- ⚑ **16.4** *quandam* → *quamdam|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3; quamdam printed for settled quandam
+- **16.4** *amāvit* → *amauit|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3; hyphenated ama-|uit
+- **16.4** *Dalilam* → *Dalilam|;*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3; a space printed before the semicolon
+- **16.5** *Palæstīnōrum* → *Palæstinorum|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **16.5** *sit* → *sit|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-3
+- **16.6** *Igitur* → *Igitur|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **16.6** *et* → *et|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **16.7** *septem* → *septem|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **16.7** *nec* → *nec|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **16.7** *sīcut* → *sicut|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **16.8** *Palæstīnæ* → *Palæstinæ|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **16.8** *eam* → *eam|*: 1738 leaf 310, read on the page (orig reader 4, 2026-11-19); read in band leaf310-4
+- **16.8** *septem* → *septem|*: 1738 leaf 310 (and 311), read on the page (orig reader 4, 2026-11-19); read in band leaf310-4: hyphenated se-|ptem, broken across leaves 310-311 (catchword ptem); the rest of the word on leaf 311 not seen
+- **16.8** *nec* → *nec|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.8** *illa* → *illa|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.8** *Samsōnem* → *Samsonem|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); Samso-|nem; crop showed another line, read in crops 1778/1780
+- **16.8** *colligat* → *colligat|;*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.9** *sīc* → *sic|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.9** *Imminent* → *imminent|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); immi-|nent; lowercase after 'dicit:' (settled has Imminent)
+- **16.9** *Palæstīnī* → *Palæstini|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.9** *Tum* → *Tum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.9** *tam* → *tam|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.9** *stupea* → *stupea|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.9** *nec* → *nec|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.10** *dēceptam* → *deceptam|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); de-|ceptam
+- **16.10** *postulābat* → *postulabat|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); printed 'querens,postulabat,' without space
+- **16.10** *tum* → *tum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); crop missed; read in band leaf311-1 (end of line, 'saltem' follows)
+- **16.10** *pactō* → *pacto|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); crop showed 16.13; read in band leaf311-1
+- **16.10** *vincīrī* → *vinciri|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); crop showed 16.13; read in band leaf311-1
+- **16.10** *posset* → *posset|.*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); crop showed 16.13; read in crop 1794 and band leaf311-1
+- **16.11** *respondit* → *respondit|:*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); respon-|dit
+- **16.11** *fūnibus* → *funibus|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.11** *et* → *et|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.11** *ad* → *ad|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.12** *Igitur* → *Igitur|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); Igi-|tur
+- **16.12** *fūnibus* → *funibus|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.12** *Palæstīnōs* → *Palæstinos|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); the æ and s damaged in the type
+- **16.13** *sibi* → *sibi|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.13** *hāctenus* → *hactenus|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.13** *ab* → *ab|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.13** *pactō* → *pacto|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.13** *Sī* → *si|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); lowercase after 'respondit :' (settled has Si)
+- **16.13** *clāvō* → *clauo|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.13** *parietī* → *parieti|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.13** *affīxeris* → *adfixeris|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); printed adfixeris (settled affixeris); crop showed another line, read in crops 1806/1807
+- **16.14** *Palæstīnī* → *Palæstini|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.14** *experrēctus* → *experrectus|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.14** *nec* → *nec|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19)
+- **16.14** *cognitæ* → *cognitæ|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); co-|gnitæ; printed æ
+- **16.15** *Tum* → *Tum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.15** *illa* → *illa|:*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.15** *nec* → *nec|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.16** *et* → *et|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.16** *tædiō* → *tædio|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf311-4
+- **16.16** *ēnectus* → *enectus|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.17** *omnem* → *omnem|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.17** *suum* → *suum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.17** *dēvōtus* → *deuotus|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); de-|uotus; read in band leaf311-4
+- **16.17** *similem* → *similem|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.18** *Tum* → *Tum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-1
+- **16.18** *illum* → *illum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-1
+- **16.18** *Palæstīnōrum* → *Palæstinorum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-1
+- **16.18** *illum* → *illum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); il-|lum; read in band leaf311-1
+- **16.18** *eam* → *eam|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-1
+- **16.19** *Illa* → *Illa|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-1
+- **16.19** *dēstitūtum* → *destitutum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-1/2
+- **16.19** *Palæstīnōs* → *Palæstinos|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); Pa-|læstinos; read in band leaf311-2
+- **16.20** *somnō* → *somno|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); so-|mno; read in band leaf311-2
+- **16.20** *experrēctus* → *experrectus|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-2
+- **16.21** *Palæstīnī* → *Palæstini|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-2
+- **16.21** *effossīs* → *effossis|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-2 ('et, effossis oculis,')
+- **16.21** *vīnctum* → *vinctum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-2
+- **16.23** *Palæstīnī* → *palæstini|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); pa-|læstini; lowercase (settled Palæstini); read in band leaf311-2
+- **16.23** *lætandum* → *lætandum|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf311-3
+- **16.24** *laudāre* → *laudare|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); lau-|dare; read in band leaf311-3
+- **16.24** *terræ* → *terræ|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.24** *suæ* → *suæ|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.24** *tam* → *tam|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.24** *multōrum* → *multorum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.24** *interfectōrem* → *interfectorem|.*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.25** *lūdibriō* → *ludibrio|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.25** *esset* → *esset|.*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); es-|set; read in band leaf311-3
+- **16.25** *Itaque* → *Itaque|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); 'ta' smudged but legible; read in band leaf311-3
+- **16.26** *Tum* → *Tum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-3
+- **16.26** *dūcēbātur* → *ducebatur|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); duce-|batur; read in band leaf311-3/4
+- **16.27** *Palæstīnæ* → *Palæstinæ|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.27** *tēctō* → *tecto|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); te-|cto; read in band leaf311-4
+- **16.27** *spectantibus* → *spectantibus|.*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.28** *sīc* → *sic|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.28** *quæsō* → *quæso|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.28** *postrēmum* → *postremum|*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); read in band leaf311-4
+- **16.28** *cōnfirmā* → *confirma|,*: 1738 leaf 311, read on the page (orig reader 5, 2026-11-19); con-|firma; read in band leaf311-4
+- **16.28** *oculīs* → *oculis|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); o-|culis across leaves 311/312; read in bands leaf311-4, leaf312-1
+- **16.28** *ulcīscor* → *vlciscor|.*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); vlci-|scor; read in band leaf312-1
+- **16.29** *duās* → *duas|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **16.29** *sinistrā* → *sinistra|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **16.29** *complexus* → *complexus|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **16.29** *prōlocūtus* → *prolocutus|:*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); pro-|locutus; read in band leaf312-1
+- **16.30** *collāpsæ* → *collapsæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf312-1
+- **16.30** *ædēs* → *ædes|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **16.30** *omnēs* → *omnes|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **16.30** *vīvēns* → *viuens|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **16.30** *occīderat* → *occiderat|.*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); item gave leaf 313; on leaf 312, read in band leaf312-1/2
+- **16.31** *Illō* → *Illo|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *deinde* → *deinde|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *frātrēs* → *fratres|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *sublātumque* → *sublatumque|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); lowercase (settled Sublatumque); read in band leaf312-2
+- **16.31** *sepeliērunt* → *sepelierunt|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); se-|pelierunt; read in band leaf312-2
+- **16.31** *inter* → *inter|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *Saraam* → *Saraam|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *Manōæ* → *Manoæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf312-2
+- **16.31** *Imperāvit* → *Imperauit|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *autem* → *autem|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **16.31** *annōs* → *annos|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.1** *quīdam* → *quidam|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); an asterisk follows (footnote sign, left out); read in band leaf312-2
+- **17.1** *ex* → *ex|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.1** *Ephrāimītārum* → *Ephraimitarum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); Ephraimi-|tarum; read in band leaf312-2
+- **17.1** *monte* → *monte|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.2** *suæ* → *suæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2/3
+- **17.2** *sē* → *se|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); end of line; read in band leaf312-3
+- **17.2** *mīlle* → *mille|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.2** *argenteōs* → *argenteos|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.2** *nummōs* → *nummos|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.2** *illa* → *illa|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.2** *perdidisset* → *perdidisset|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.2** *ipsō* → *ipso|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.2** *audiente* → *audiente|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.2** *dēvōverat* → *deuouerat|.*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); deuoue-|rat; read in band leaf312-3
+- **17.3** *illa* → *illa|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *ā* → *a|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *Jōvā* → *Ioua|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *illōs* → *illos|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *mīlle* → *mille|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *argenteōs* → *argenteos|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *Jōvæ* → *Iouæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *cōnsecrāsse* → *consecrasse|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); consecras-|se; read in band leaf312-3
+- **17.3** *fīliō* → *filio|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *manū* → *manu|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *simulācrum* → *simulacrum|.*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **17.3** *Itaque* → *Itaque|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); Ita-|que; item gave leaf 313; on leaf 312, read in band leaf312-3
+- **17.4** *cōnflāvit* → *conflauit|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.4** *Michæ* → *Michæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf312-4
+- **17.5** *ille* → *ille|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.5** *ædiculam* → *ædiculam|:*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); printed æ; item gave leaf 313; on leaf 312, read in band leaf312-4
+- **17.5** *itaque* → *itaque|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.5** *ūnum* → *vnum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.5** *fīliōrum* → *filiorum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); filio-|rum; read in band leaf312-4
+- **17.5** *suōrum* → *suorum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.5** *initiāvit* → *initiauit|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.5** *sacerdōte* → *sacerdote|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.5** *ūterētur* → *vteretur|.*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.6** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); Israe-|litis; item gave leaf 311; on leaf 312, read in band leaf312-4
+- **17.6** *suō* → *suo|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.7** *Bēthlehemā* → *Bethlehema|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.7** *Jūdææ* → *Iudææ|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.7** *quæ* → *quæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **17.7** *Bēthlehemæ* → *Bethlehemæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.8** *Bēthlehemā* → *Bethlehema|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); Beth-|lehema; read in band leaf312-1
+- **17.8** *profectus* → *profectus|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.8** *in* → *in|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.8** *montem* → *montem|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); mon-|tem; read in band leaf312-1
+- **17.8** *Michæ* → *Michæ|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); Mi-|chæ; printed æ; read in band leaf312-1
+- **17.9** *ā* → *a|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.9** *interrogātus* → *interrogatus|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.9** *unde* → *vnde|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.9** *venīret* → *veniret|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.9** *Bēthlehemā* → *Bethlehema|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); Beth-|lehema; read in band leaf312-1
+- **17.9** *Jūdææ* → *Iudææ|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.10** *Tum* → *Tum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.10** *hominem* → *hominem|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.10** *hortātur* → *hortatur|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1
+- **17.10** *sēcum* → *secum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-1/2
+- **17.10** *pater* → *pater|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); item gave leaf 313; on leaf 312, read in band leaf312-1/2
+- **17.10** *eīque* → *eique|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.10** *dēnōs* → *denos|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.10** *argenteōs* → *argenteos|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.10** *sit* → *sit|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); 'qua sit'; read in band leaf312-2
+- **17.10** *vīctum* → *victum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.11** *Ille* → *Ille|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.12** *inaugurat* → *inaugurat|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); inaugu-|rat; read in band leaf312-2
+- **17.12** *juvenem* → *iuuenem|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.12** *suæ* → *suæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); item gave leaf 313; on leaf 312, read in band leaf312-2
+- **17.13** *dubiō* → *dubio|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **17.13** *benefactum* → *benefactum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-2
+- **18.1** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.1** *possessiōnem* → *possessionem|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.1** *ad* → *ad|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.1** *habitandum* → *habitandum|;*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.1** *quippe* → *quippe|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.1** *quæ* → *quæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.1** *nōndum* → *nondum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); non-|dum; read in band leaf312-3
+- **18.1** *tempus* → *tempus|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); item gave leaf 313; on leaf 312, read in band leaf312-3
+- **18.1** *Isrāēlīticās* → *israeliticas|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); israeliti-|cas; lowercase (settled Israeliticas); read in band leaf312-3
+- **18.2** *suæ* → *suæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.2** *gentis* → *gentis|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.2** *mīlitum* → *militum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.2** *abjectissimōs* → *abiectissimos|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); an asterisk follows the comma (footnote sign, left out); item gave leaf 311; on leaf 312, read in band leaf312-3
+- **18.2** *Estāōle* → *Estaole|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3
+- **18.2** *Iī* → *Ii|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-3/4
+- **18.2** *Michæ* → *Michæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf312-4
+- **18.2** *pernoctārunt* → *pernoctarunt|.*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- ⚑ **18.3** *Cum* → *Quum|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.3** *enim* → *enim|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.3** *apud* → *apud|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.3** *Michæ* → *Michæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf312-4
+- **18.3** *Lēvītæ* → *Leuitæ|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.3** *agnōvissent* → *agnouissent|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.3** *illō* → *illo|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.3** *adductus* → *adductus|,*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- ⚑ **18.4** *Cumque* → *Quumque|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.4** *ille* → *ille|*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); read in band leaf312-4
+- **18.4** *condūxisset* → *conduxisset|:*: 1738 leaf 312, read on the page (orig reader 5, 2026-11-19); condu-|xisset; colon with a faint upper dot (enlarged), lowercase 'petunt' follows; read in band leaf312-4
+- **18.5** *percontētur* → *percontetur|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); per-|contetur across leaves 312/313; read in bands leaf312-4, leaf313-1
+- **18.5** *ōrāculum* → *oraculum|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.5** *prosperum* → *prosperum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.5** *sint* → *sint|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.6** *Quibus* → *Quibus|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.6** *respondit* → *respondit|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.6** *pergerent* → *pergerent|:*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.6** *Jōvam* → *Iouam|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.6** *prosperāre* → *prosperare|.*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *dīgressī* → *digressi|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); digres-|si; read in band leaf313-1
+- **18.7** *quīnque* → *quinque|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *illī* → *illi|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *pervēnērunt* → *peruenerunt|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed 'peruenerunt,animaduertunt,' without space; read in band leaf313-1
+- **18.7** *animadvertunt* → *animaduertunt|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *Lajēnsēs* → *Laienses|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *sēcūrē* → *secure|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); lowercase; printed 'secure,et' without space; read in band leaf313-1
+- **18.7** *Sīdōniōrum* → *Sidoniorum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); Sidoniorum mo-|re; item gave leaf 314; on leaf 313, read in band leaf313-1
+- **18.7** *tūtōque* → *tutoque|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *nēmine* → *nemine|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *terræ* → *terræ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *affectante* → *adfectante|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed adfectante (settled affectante); read in band leaf313-1
+- **18.7** *procul* → *procul|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *Sīdōniīs* → *Sidoniis|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.7** *remōtōs* → *remotos|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); an asterisk follows the comma (footnote sign, left out); read in band leaf313-1/2
+- **18.7** *negōtiī* → *negotii|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.7** *cum* → *cum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.7** *quōquam* → *quoquam|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.7** *habentēs* → *habentes|.*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.8** *Tum* → *Tum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.8** *ad* → *ad|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); 'ad Saraam'; read in band leaf313-2
+- **18.8** *redeunt* → *redeunt|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.8** *interrogātī* → *interrogati|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); inter-|rogati; read in band leaf313-2
+- **18.8** *illōs* → *illos|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.9** *comperisse* → *comperisse|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.9** *bonam* → *bonam|:*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); bo-|nam; read in band leaf313-2
+- **18.9** *sēgnēs* → *segnes|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.9** *eam* → *eam|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *sī* → *si|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *populum* → *populum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *sēcūrum* → *securum|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *spatiōsam* → *spatiosam|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *dīvīnitus* → *diuinitus|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *quæ* → *quæ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *sint* → *sint|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *in* → *in|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.10** *tōtō* → *toto|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.11** *ex* → *ex|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.11** *profectī* → *profecti|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.11** *īnstrūctī* → *instructi|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.11** *fēcērunt* → *fecerunt|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.11** *Cariathjarīmum* → *Cariathiarimum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.11** *Jūdæā* → *Iudæa|:*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.12** *vocātur* → *vocatur|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.13** *montem* → *montem|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.13** *Michæ* → *Michæ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); Mi-|chæ; printed æ; read in band leaf313-3
+- **18.13** *domum* → *domum|;*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.14** *admonentibus* → *admonentibus|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); lowercase after ';' (settled Admonentibus); read in band leaf313-3
+- **18.14** *īverant* → *iuerant|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); iue-|rant; read in band leaf313-3
+- **18.14** *explōrātum* → *exploratum|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.14** *illīs* → *illis|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.14** *ædibus* → *ædibus|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); æ-|dibus; read in band leaf313-3
+- **18.14** *sculptumque* → *sculptumque|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.14** *cōnflātum* → *conflatum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); item gave leaf 312; on leaf 313, read in band leaf313-3
+- **18.14** *simulācrum* → *simulacrum|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); simula-|crum; printed simulacrum (settled simulachrum); read in band leaf313-3/4
+- **18.14** *agerent* → *agerent|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); age-|rent; read in band leaf313-4
+- **18.15** *domum* → *domum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); do-|mum; read in band leaf313-4
+- **18.15** *Michæ* → *Michæ|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf313-4
+- **18.15** *Lēvīta* → *Leuita|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.15** *dēgēbat* → *degebat|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.15** *eumque* → *eumque|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- ⚑ **18.16** *sescentīs* → *sexcentis|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed sexcentis (settled sescentis); read in band leaf313-4
+- **18.16** *Daniīs* → *Daniis|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); Da-|niis; read in band leaf313-4
+- **18.16** *quīnque* → *quinque|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.16** *illī* → *illi|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.16** *Michæ* → *Michæ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf313-4
+- **18.16** *domum* → *domum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.16** *introeunt* → *introeunt|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); intro-|eunt; read in band leaf313-4
+- **18.17** *signum* → *signum|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed 'sculptumque signum,' (lowercase sculptumque); read in band leaf313-4
+- **18.17** *cōnflātum* → *conflatum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); confla-|tum; read in band leaf313-4
+- **18.17** *simulācrum* → *simulacrum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed simulacrum (settled simulachrum); read in band leaf313-4
+- **18.18** *tum* → *tum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.18** *agerent* → *agerent|?*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.19** *jubent* → *iubent|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); iu-|bent; lowercase after '?' (settled Jubent); read in band leaf313-1
+- **18.19** *ipsīs* → *ipsis|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.19** *proficīscātur* → *proficiscatur|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); proficisca-|tur; read in band leaf313-1
+- **18.19** *Utrum* → *Vtrum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.19** *eī* → *ei|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.19** *domō* → *domo|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.19** *nātiōnī* → *nationi|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.19** *Isrāēlīticæ* → *israeliticæ|?*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); lowercase (settled Israeliticæ); read in band leaf313-1
+- **18.20** *dēlectātus* → *delectatus|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1
+- **18.20** *simulācrumque* → *simulacrumque|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed simulacrumque (settled simulachrumque); read in band leaf313-1
+- **18.20** *sūmit* → *sumit|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); item gave leaf 312; on leaf 313, read in band leaf313-1
+- **18.20** *proficīscitur* → *proficiscitur|.*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-1/2
+- **18.21** *dīgressī* → *digressi|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.21** *parvulōs* → *paruulos|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.21** *pecusque* → *pecusque|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); pecus-|que; read in band leaf313-2
+- **18.22** *Michæ* → *Michæ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf313-2
+- **18.22** *domō* → *domo|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.22** *absentibus* → *absentibus|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.22** *Michæ* → *Michæ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf313-2
+- **18.22** *concitī* → *conciti|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.22** *persequuntur* → *persequuntur|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); per-|sequuntur; read in band leaf313-2
+- **18.23** *ita* → *ita|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.23** *clāmāret* → *clamaret|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.23** *interrogantibus* → *interrogantibus|:*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); interrogan-|tibus; read in band leaf313-2
+- **18.24** *jam* → *iam|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.25** *Daniī* → *Danii|:*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-2
+- **18.25** *Nōlī* → *noli|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); lowercase after ':' (settled Noli); read in band leaf313-2
+- **18.25** *tū* → *tu|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.25** *tuam* → *tuam|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.25** *tuōrum* → *tuorum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.26** *Hæc* → *Hæc|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.26** *domum* → *domum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.27** *quæ* → *quæ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); printed 'ea,quæ' without space; read in band leaf313-3
+- **18.27** *quem* → *quem|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.27** *abdūcentēs* → *abducentes|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-3
+- **18.29** *oppidum* → *oppidum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.29** *quæ* → *quæ|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.29** *conditōris* → *conditoris|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); condito-|ris; read in band leaf313-4
+- ⚑ **18.29** *cum* → *quum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.29** *anteā* → *antea|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); read in band leaf313-4
+- **18.30** *simulācrum* → *simulacrum|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); simula-|crum; printed simulacrum (settled simulachrum); read in band leaf313-4
+- **18.30** *ērēxērunt* → *erexerunt|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); item gave leaf 312; on leaf 313, read in band leaf313-4
+- **18.30** *fīlius* → *filius|,*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); footnote letter g follows the comma (left out); read in band leaf313-4
+- **18.30** *Mōsis* → *Mosis|*: 1738 leaf 313, read on the page (orig reader 5, 2026-11-19); footnote letter g before it (left out); read in band leaf313-4
+- **18.30** *Daniæ* → *daniæ|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); lowercase (settled Daniæ); item gave leaf 313; on leaf 314, read in band leaf314-1
+- **18.31** *simulācrum* → *simulacrum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed simulacrum (settled simulachrum); read in band leaf314-1
+- **18.31** *ērēctum* → *erectum|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); ere-|ctum; read in band leaf314-1
+- **19.1** *nūllus* → *nullus|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); nul-|lus; read in band leaf314-1/2
+- **19.1** *montis* → *montis|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.1** *Ephrāimītārum* → *Ephraimitarum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); Ephra-|imitarum; read in band leaf314-2
+- **19.1** *peregrīnāns* → *peregrinans|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.1** *uxōrem* → *vxorem|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.1** *concubīnam* → *concubinam|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.1** *Bēthlehemā* → *Bethlehema|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); capital B; read in band leaf314-2
+- **19.1** *Jūdææ* → *Iudææ|:*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.2** *quæ* → *quæ|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); lowercase after ':' (settled Quæ); read in band leaf314-2
+- **19.2** *illum* → *illum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.2** *domum* → *domum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.2** *Jūdææ* → *Iudææ|.*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- ⚑ **19.3** *cum* → *quum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *per* → *per|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *quattuor* → *quatuor|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *mēnsēs* → *menses|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *secūtus* → *secutus|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *eam* → *eam|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *marītus* → *maritus|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *eam* → *eam|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *illectam* → *illectam|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.3** *redūceret* → *reduceret|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.4** *illa* → *illa|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.4** *puellæ* → *puellæ|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.4** *adventū* → *aduentu|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.4** *dēlectātus* → *delectatus|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.4** *sēcumque* → *secumque|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.4** *per* → *per|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.4** *convīvia* → *conuiuia|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); con-|uiuia; read in band leaf314-3
+- **19.4** *noctēs* → *noctes|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.4** *habuit* → *habuit|.*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.5** *māne* → *mane|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.6** *cibumque* → *cibumque|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); cibum-|que; read in band leaf314-3
+- **19.6** *sūmpsissent* → *sumsissent|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed sumsissent (settled sumpsissent); read in band leaf314-3
+- **19.6** *pernoctāre* → *pernoctare|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed 'pernoctare,animum-' without space; read in band leaf314-3
+- **19.6** *animumque* → *animumque|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); animum-|que; read in band leaf314-3
+- **19.7** *eam* → *eam|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.7** *noctem* → *noctem|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.8** *quīntō* → *quinto|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3/4
+- **19.8** *ille* → *ille|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- **19.8** *profectūrus* → *profecturus|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); profe-|cturus; read in band leaf314-4
+- **19.8** *animum* → *animum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- **19.8** *inclīnātiōnem* → *inclinationem|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); inclina-|tionem; read in band leaf314-4
+- **19.8** *diēī* → *diei|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed 'diei,cibumque' without space; read in band leaf314-4
+- **19.8** *cibumque* → *cibumque|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- ⚑ **19.9** *dēvexus* → *deuectus|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); WORD DIFFERS: printed deuectus (ct ligature, confirmed enlarged), settled devexus; read in band leaf314-4
+- **19.9** *noctem* → *noctem|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- **19.10** *profectusque* → *profectusque|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); profectus-|que; read in band leaf314-1
+- **19.10** *pervēnit* → *peruenit|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-1
+- **19.10** *sīve* → *siue|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-1
+- **19.11** *Jebūsæōrum* → *Iebusæorum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-1
+- **19.11** *noctem* → *noctem|.*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); period (enlarged), capital 'Sed' follows; read in band leaf314-1
+- **19.12** *Isrāēlītārum* → *Israelitarum|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); Israeli-|tarum; read in band leaf314-1/2
+- **19.12** *perrēctūrōs* → *perrecturos|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); item gave leaf 315; on leaf 314, read in band leaf314-2
+- **19.13** *Gabaæ* → *Gabaæ|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf314-2
+- **19.13** *Rāmæ* → *Ramæ|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf314-2
+- **19.14** *prōgressī* → *progressi|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.14** *Benjamītārum* → *Beniamitarum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.15** *eōs* → *eos|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.15** *in* → *in|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.15** *noctem* → *noctem|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.15** *invītante* → *inuitante|.*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.16** *sērō* → *sero|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-2
+- **19.16** *Ephrāimītārum* → *Ephraimitarum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); Ephrai-|mitarum; read in band leaf314-2
+- **19.16** *Gabaæ* → *Gabaæ|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf314-2
+- **19.17** *quærit* → *quærit|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.17** *ex* → *ex|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.17** *eō* → *eo|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.18** *Pergimus* → *pergimus|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); lowercase; printed 'ille,pergimus, inquit,a' (settled Pergimus); read in band leaf314-3
+- **19.18** *Jūdææ* → *Iudææ|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.18** *Jōvæ* → *Iouæ|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.18** *ædem* → *ædem|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.18** *nec* → *nec|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.19** *strāmen* → *stramen|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); stra-|men; read in band leaf314-3
+- **19.19** *fēminæ* → *feminæ|,*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.19** *meōque* → *meoque|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.20** *Tum* → *Tum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-3
+- **19.20** *senex* → *senex|:*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); se-|nex; read in band leaf314-3/4
+- **19.20** *præstābō* → *præstabo|:*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- **19.21** *illum* → *illum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- **19.21** *præbitāque* → *præbitaque|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); printed æ; read in band leaf314-4
+- **19.22** *illum* → *illum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- **19.22** *dominum* → *dominum|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); read in band leaf314-4
+- **19.22** *dīversantem* → *diuersantem|*: 1738 leaf 314, read on the page (orig reader 5, 2026-11-19); diuer-|santem across leaves 314/315; read in bands leaf314-4, leaf315-1
+- **19.22** *eum* → *eum|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.22** *cognōscerent* → *cognoscerent|.*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); co-|gnoscerent; read in band leaf315-1
+- **19.23** *Sed* → *Sed|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.23** *sīc* → *sic|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.23** *quæsō* → *quæso|,*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); printed 'quæso,fratres,nolite' without spaces; read in band leaf315-1
+- **19.23** *vēnit* → *venit|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.23** *hic* → *hic|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.23** *flāgitium* → *flagitium|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.23** *istud* → *istud|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.23** *committere* → *committere|.*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.24** *fīlia* → *filia|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.24** *tantum* → *tantum|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); tan-|tum; read in band leaf315-1
+- **19.24** *flāgitium* → *flagitium|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-1
+- **19.25** *illī* → *illi|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.25** *obtemperāre* → *obtemperare|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.25** *eam* → *eam|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.25** *nocte* → *nocte|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.25** *sub* → *sub|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); item gave leaf 316; on leaf 315, read in band leaf315-2
+- **19.25** *aurōræ* → *auroræ|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); au-|roræ; item gave leaf 316; on leaf 315, read in band leaf315-2
+- **19.25** *dīmīsērunt* → *dimiserunt|.*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.26** *Mulier* → *Mulier|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.26** *sub* → *sub|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.26** *lūcem* → *lucem|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.26** *vēnit* → *venit|,*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); printed 'venit,et' without space; read in band leaf315-2
+- **19.26** *quibus* → *quibus|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.26** *ejus* → *eius|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); e-|ius; read in band leaf315-2
+- **19.26** *dōnec* → *donec|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.26** *dīlūxit* → *diluxit|.*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); di-|luxit; read in band leaf315-2
+- **19.27** *surrēxit* → *surrexit|,*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.27** *concubīnam* → *concubinam|*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); concubi-|nam; read in band leaf315-2
+- **19.27** *jacentem* → *iacentem|,*: 1738 leaf 315, read on the page (orig reader 5, 2026-11-19); read in band leaf315-2
+- **19.28** *Surge* → *surge|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); lowercase surge (sur-|ge), after "et,"
+- **19.28** *illa* → *illa|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **19.28** *eam* → *eam|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **19.28** *imposuit* → *imposuit|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); impo-|suit
+- **19.29** *reversus* → *reuersus|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **19.29** *suam* → *suam|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); su-|am
+- **19.29** *membrātim* → *membratim|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **19.29** *in* → *in|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **19.29** *Isrāēlītārum* → *Israelitarum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); Israelita-|rum
+- **19.30** *illum* → *illum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **19.30** *cōnsiliumque* → *consiliumque|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **19.30** *super* → *super|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); su-|per
+- **20.1** *summō* → *summo|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.1** *regiō* → *regio|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.1** *Daniīs* → *Daniis|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); last line of the left column; ad Bersabanos opens the right
+- **20.2** *Jōvam* → *Iouam|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.2** *dīvīnōrum* → *diuinorum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); di-|uinorum
+- **20.3** *audiērunt* → *audiuerunt|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); audiue-|runt; crop showed another line, read on 2239's crop and band leaf315-1
+- **20.3** *Benjamītæ* → *Beniamitæ|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.3** *Isrāēlītās* → *Israelitas|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); printed run together IsraelitasMaspham
+- **20.3** *Maspham* → *Maspham|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.3** *ascendisse* → *adscendisse|.*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.3** *quærentibus* → *quærentibus|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.3** *Isrāēlītīs* → *Israelitis|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); Is-|raelitis
+- **20.3** *pactō* → *pacto|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.3** *patrātum* → *patratum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); pa-|tratum
+- **20.3** *fuisset* → *fuisset|:*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.4** *necātæ* → *necatæ|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.4** *marītus* → *maritus|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.4** *pernoctandī* → *pernoctandi|*: 1738 leaf 314, read on the page (orig reader 6, 2026-11-19); crop showed leaf 314; read in band leaf315-2
+- **20.5** *noctū* → *noctu|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.5** *meam* → *meam|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.5** *affēcērunt* → *adfecerunt|.*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.6** *Eam* → *Eam|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.7** *Vōs* → *Vos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed leaf 316; read in band leaf315-2
+- **20.8** *Tum* → *Tum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); read in band leaf315-2
+- **20.8** *sēque* → *seque|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); se-|que
+- **20.8** *petītūrōs* → *petituros|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.9** *Gabaam* → *Gabaam|:*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); Ga-|baam
+- **20.10** *exercituī* → *exercitui|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); exerci-|tui
+- **20.10** *Benjamītārum* → *Beniamitarum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); Beniami-|tarum
+- **20.10** *invādendam* → *inuadendam|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.10** *quæ* → *quæ|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.10** *tantum* → *tantum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.10** *in* → *in|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.11** *cōnspīrantēs* → *conspirantes|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.11** *cōnsentientēs* → *consentientes|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); consenti-|entes
+- **20.11** *omnēs* → *omnes|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); printed run together omnesIsraelitarum
+- **20.11** *Isrāēlītārum* → *Israelitarum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.11** *omnem* → *omnem|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.11** *Benjamītārum* → *Beniamitarum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.11** *tribum* → *tribum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.11** *mīsērunt* → *miserunt|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); mi-|serunt
+- **20.14** *Benjamītæ* → *Beniamitæ|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); Benia-|mitæ
+- **20.14** *suīs* → *suis|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19)
+- **20.15** *recēnsītīque* → *recensitique|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); recen-|sitique: printed lowercase with -que after "exirent:", where settled has Recensiti; ⚑ word differs (que)
+- **20.15** *sunt* → *sunt|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.15** *Benjamītæ* → *Beniamitæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.15** *arma* → *arma|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.15** *ferentium* → *ferentium|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.15** *præter* → *præter|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.15** *septingentī* → *septingenti|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.15** *lēctissimī* → *lectissimi|.*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.16** *Hōrum* → *Horum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.16** *fuērunt* → *fuerunt|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); fue-|runt
+- **20.16** *septingentī* → *septingenti|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.16** *lēctissimī* → *lectissimi|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); footnote k after the comma, left out
+- **20.16** *scævæ* → *scæuæ|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.17** *Isrāēlītārum* → *Israelitarum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.17** *præter* → *præter|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.17** *arma* → *arma|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.17** *ferentium* → *ferentium|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.18** *profectī* → *profecti|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); listed as leaf 317, read on leaf 316 (crop 2292 and band leaf316-1)
+- **20.18** *cōnsuluērunt* → *consuluerunt|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- ⚑ **20.18** *Cumque* → *Quumque|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.18** *Jōva* → *Ioua|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.18** *Jūdæōs* → *Iudæos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.18** *dīxisset* → *dixisset|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.19** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Israe-|litæ
+- **20.19** *apud* → *apud|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316 (crop 2299)
+- **20.20** *adversus* → *aduersus|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.20** *Benjamītās* → *Beniamitas|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Ben-|iamitas
+- **20.20** *Gabaam* → *Gabaam|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Ga-|baam
+- **20.20** *īnstrūxērunt* → *instruxerunt|.*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.21** *Benjamītæ* → *Beniamitæ|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.21** *prōstrāvērunt* → *prostrauerunt|.*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); prostra-|uerunt
+- **20.22** *Isrāēlīticæ* → *israeliticæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); lowercase as printed
+- **20.22** *cōpiæ* → *copiæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.22** *īnstrūxērunt* → *instruxerunt|.*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); instru-|xerunt
+- **20.23** *audīssent* → *audiuissent|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.23** *eum* → *eum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.23** *flētū* → *fletu|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.23** *quæsīssent* → *quæsiuissent|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); quæ-|siuissent
+- **20.23** *prœlium* → *prœlium|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- ✱ **20.23** *cōnferre* → *conferere|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); misprint conferere for conferre; ⚑
+- **20.23** *Jōva* → *Ioua|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Io-|ua
+- **20.24** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.25** *hominum* → *hominum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.25** *arma* → *arma|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.25** *ferrent* → *ferrent|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.25** *prōstrāvērunt* → *prostrauerunt|.*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.26** *Tum* → *Tum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.26** *cōpiæ* → *copiæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.26** *Jōvam* → *Iouam|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.27** *quæsīvērunt* → *quæsiuerunt|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); followed by "(erat"
+- **20.27** *arca* → *arca|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.27** *Jōvæ* → *Iouæ|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *tum* → *tum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *Phīnees* → *Phinees|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); the first e is faintly printed (its eye barely shows; could pass for c), read as e
+- **20.28** *Eleāzarī* → *Eleazari|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *porrō* → *porro|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *fīliī* → *filii|)*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); closes the parenthesis opened at "(erat"
+- **20.28** *rūrsumne* → *rursumne|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *in* → *in|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *prœlium* → *prœlium|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *exīre* → *exire|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *dēbērent* → *deberent|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *adversus* → *aduersus|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *Benjamītās* → *Beniamitas|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Beniami-|tas
+- **20.28** *cōnsanguineōs* → *consanguineos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *suōs* → *suos|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *an* → *an|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *contrā* → *contra|?*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *Quibus* → *Quibus|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *Jōva* → *Ioua|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *respondit* → *respondit|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *ut* → *vt|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *īrent* → *irent|:*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); last line of the left column
+- **20.28** *nam* → *nam|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); first line of the right column
+- **20.28** *postrīdiē* → *postridie|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *sēsē* → *sese|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- ⚑ **20.28** *iīs* → *eis|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *in* → *in|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *illōs* → *illos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *esse* → *esse|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *victōriam* → *victoriam|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.28** *datūrum* → *daturum|.*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.29** *Tum* → *Tum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.29** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.29** *īnsidiīs* → *insidiis|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.29** *circā* → *circa|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.29** *Gabaam* → *Gabaam|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Ga-|baam
+- **20.29** *collocātīs* → *collocatis|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.30** *aciem* → *aciem|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.30** *diē* → *die|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *tertiō* → *tertio|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *contrā* → *contra|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *Benjamītās* → *Beniamitas|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *ante* → *ante|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *oppidum* → *oppidum|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *sīcut* → *sicut|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *anteā* → *antea|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *fēcerant* → *fecerant|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.30** *ōrdinārunt* → *ordinarunt|:*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.31** *adversum* → *aduersum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); ad-|uersum, lowercase after "ordinarunt:"; crop showed another line, read in band leaf316-1
+- **20.31** *quōs* → *quos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); crop showed another line; read in band leaf316-1
+- **20.31** *ēgressī* → *egressi|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *Benjamītæ* → *Beniamitæ|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *extrā* → *extra|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); ex-|tra
+- **20.31** *oppidum* → *oppidum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *pellectī* → *pellecti|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *sunt* → *sunt|.*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- ⚑ **20.31** *Cum* → *Quum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *enim* → *enim|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *in* → *in|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *sēmitīs* → *semitis|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *quārum* → *quarum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *altera* → *altera|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *fert* → *fert|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *Bēthēl* → *Bethel|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *altera* → *altera|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *Gabaam* → *Gabaam|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *prīncipiō* → *principio|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *circiter* → *circiter|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); cir-|citer
+- **20.31** *trīgintā* → *triginta|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *Isrāēlītās* → *Israelitas|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *sīcut* → *sicut|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *superiōribus* → *superioribus|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); supe-|rioribus
+- **20.31** *prœliīs* → *prœliis|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); printed with œ
+- **20.31** *illī* → *illi|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *victōrēs* → *victores|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.31** *occīdissent* → *occidissent|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); oc-|cidissent
+- **20.32** *putābant* → *putabant|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *eōs* → *eos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *victōs* → *victos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *cēdere* → *cedere|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); ce-|dere
+- **20.32** *sīcut* → *sicut|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *anteā* → *antea|.*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); listed as leaf 317, read on leaf 316
+- **20.32** *At* → *At|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); listed as leaf 317, read on leaf 316
+- **20.32** *Isrāēlītæ* → *Israelitæ|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *quī* → *qui|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *ex* → *ex|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *compositō* → *composito|,*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316
+- **20.32** *ut* → *vt|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *illōs* → *illos|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *ex* → *ex|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *oppidō* → *oppido|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); oppi-|do
+- **20.32** *in* → *in|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *sēmitās* → *semitas|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.32** *pertraherent* → *pertraherent|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); listed as leaf 317, read on leaf 316
+- **20.32** *fugiēbant* → *fugiebant|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); fugie-|bant
+- **20.33** *omnēs* → *omnes|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.33** *ex* → *ex|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316; printed run together exloco
+- **20.33** *locō* → *loco|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316
+- **20.33** *suō* → *suo|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316
+- **20.33** *cōnsurrēxērunt* → *consurrexerunt|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); consurre-|xerunt
+- **20.33** *et* → *et|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); lowercase et, listed as leaf 315, read on leaf 316
+- **20.33** *aciem* → *aciem|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316
+- **20.33** *apud* → *apud|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316
+- **20.33** *Baalthāmār* → *Baalthamar|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Baaltha-|mar
+- **20.33** *īnstaurārunt* → *instaurarunt|:*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.33** *Isrāēlītārum* → *Israelitarum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Is-|raelitarum
+- **20.33** *īnsidiæ* → *insidiæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.33** *positæ* → *positæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.33** *cœpērunt* → *cœperunt|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.34** *Gabaæ* → *Gabaæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.34** *decem* → *decem|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.34** *hominum* → *hominum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.34** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); Is-|raelitis
+- **20.34** *dēlēcta* → *delecta|:*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.34** *prœliō* → *prœlio|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.35** *Jōva* → *Ioua|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- ⚑ **20.36** *cum* → *quum|*: 1738 leaf 315, read on the page (orig reader 6, 2026-11-19); listed as leaf 315, read on leaf 316
+- **20.36** *īnsidiīs* → *insidiis|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.36** *collocāverant* → *collocauerant|:*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.37** *quæ* → *quæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); lowercase quæ after "collocauerant:"
+- **20.37** *īnsidiæ* → *insidiæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.38** *statūtum* → *statutum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.38** *tum* → *tum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.38** *fūmum* → *fumum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.38** *ēvectum* → *euectum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.39** *columnæ* → *columnæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.39** *efferrī* → *efferri|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.39** *et* → *et|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); printed run together etIsraelitæ
+- **20.39** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.39** *prœlium* → *prœlium|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.39** *Benjamītæ* → *Beniamitæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); followed by "(qui"
+- **20.39** *prœliīs* → *prœliis|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); printed with œ; followed by "fecerant )"
+- **20.40** *simul* → *simul|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.40** *et* → *et|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.40** *ā* → *a|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.40** *cælum* → *cælum|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19)
+- **20.42** *petīvērunt* → *petierunt|:*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.42** *quā* → *qua|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); line start, q partly in the gutter
+- **20.42** *perdēbantur* → *perdebantur|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); perde-|bantur; b partly in the gutter
+- **20.43** *Ita* → *Ita|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); ⚑ capital not certain: first letter(s) lost in the gutter of leaf 317, restored from the word (line start "ta circumuenti", after "aderant."); Ita assumed after the full stop
+- **20.43** *fugā* → *fuga|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("uga")
+- **20.43** *dōnec* → *donec|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); lowercase donec, mid-line after "sunt,"
+- **20.43** *ventum* → *ventum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("entum")
+- **20.44** *octōdecim* → *octodecim|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); octode-|cim; c of "cim" first letter(s) lost in the gutter of leaf 317, restored from the word
+- **20.45** *silvam* → *siluam|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.45** *rūpem* → *rupem|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("upem")
+- **20.45** *cæsīs* → *cæsis|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.45** *sēmitās* → *semitas|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("emitas")
+- **20.45** *et* → *et|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); ⚑ capital not certain: first letter(s) lost in the gutter of leaf 317, restored from the word (line start "t præterea", after "millibus,"); lowercase et assumed after the comma, where settled has Et
+- **20.45** *prætereā* → *præterea|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.45** *usque* → *vsque|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); vs-|que
+- **20.45** *mīllibus* → *millibus|.*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); milli-|bus; b first letter(s) lost in the gutter of leaf 317, restored from the word
+- **20.46** *Benjamītārum* → *Beniamitarum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.46** *arma* → *arma|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); ar-|ma
+- **20.46** *cecidērunt* → *ceciderunt|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("eciderunt")
+- **20.46** *mīllia* → *millia|.*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); m partly in the gutter
+- **20.47** *Reliquī* → *Reliqui|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.47** *conversī* → *conuersi|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); con-|uersi; u first letter(s) lost in the gutter of leaf 317, restored from the word
+- **20.47** *Remmōnis* → *Remmonis|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); Remmo-|nis; n first letter(s) lost in the gutter of leaf 317, restored from the word
+- ⚑ **20.47** *sescentī* → *sexcenti|:*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); the colon worn but read as colon
+- **20.47** *rūpe* → *rupe|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); ru-|pe; p first letter(s) lost in the gutter of leaf 317, restored from the word
+- **20.47** *mānsērunt* → *manserunt|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.48** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("sraelitæ")
+- **20.48** *Benjamītās* → *Beniamitas|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); Benia-|mitas; m first letter(s) lost in the gutter of leaf 317, restored from the word
+- **20.48** *pecudēs* → *pecudes|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("ecudes")
+- **20.48** *quæ* → *quæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.48** *reperta* → *reperta|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); re-|perta; p first letter(s) lost in the gutter of leaf 317, restored from the word
+- **20.48** *ferrō* → *ferro|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.48** *omniaque* → *omniaque|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); o-|mniaque; m partly in the gutter
+- **20.48** *īnsuper* → *insuper|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.48** *quæ* → *quæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **20.48** *oppida* → *oppida|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("ppida")
+- **21.1** *Isrāēlītæ* → *Israelitæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.1** *fīliam* → *filiam|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); fili-|am
+- **21.1** *Benjamītæ* → *Beniamitæ|*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); listed as leaf 316, read on leaf 317
+- **21.1** *datūrum* → *daturum|.*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); datu-|rum; r first letter(s) lost in the gutter of leaf 317, restored from the word
+- **21.2** *Igitur* → *Igitur|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); Igi-|tur; t first letter(s) lost in the gutter of leaf 317, restored from the word
+- **21.2** *profectī* → *profecti|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.2** *ad* → *ad|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("d vesperum")
+- **21.2** *mānsērunt* → *manserunt|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.2** *cum* → *cum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("um fletu")
+- **21.2** *Deum* → *Deum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); De-|um; u first letter(s) lost in the gutter of leaf 317, restored from the word
+- **21.3** *Isrāēlītīs* → *Israelitis|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); Israeli-|tis; ti first letter(s) lost in the gutter of leaf 317, restored from the word
+- **21.3** *dē* → *de|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.3** *tribubus* → *tribubus|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); tribu-|bus; b first letter(s) lost in the gutter of leaf 317, restored from the word
+- **21.4** *cōnstrūctō* → *constructo|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.4** *altārī* → *altari|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); al first letter(s) lost in the gutter of leaf 317, restored from the word ("tari," after "illic"); listed as leaf 316, read on leaf 317; lowercase assumed mid-sentence
+- **21.4** *Jōvæ* → *Iouæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.4** *prōque* → *proque|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); pro-|que; q first letter(s) lost in the gutter of leaf 317, restored from the word
+- **21.5** *conventūs* → *conuentus|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("onuentus")
+- **21.5** *nōn* → *non|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.5** *adfuissent* → *adfuissent|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); adfuis-|sent; se first letter(s) lost in the gutter of leaf 317, restored from the word
+- **21.5** *quæsīvērunt* → *quæsiuerunt|.*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.5** *enim* → *enim|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); first letter(s) lost in the gutter of leaf 317, restored from the word ("nim")
+- **21.5** *gravissimum* → *grauissimum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.5** *sacrāmentum* → *sacramentum|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); a stroke over the second a (sacrāmentum), left out
+- **21.6** *pænitēret* → *pœniteret|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); pœnite-|ret; printed with œ
+- **21.6** *abscissam* → *abscissam|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); listed as leaf 318, read on leaf 317
+- **21.7** *sollicitī* → *solliciti|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.7** *pactō* → *pacto|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.7** *prōspicerent* → *prospicerent|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.8** *quærēbant* → *quærebant|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); lowercase after "locaturos:"
+- **21.8** *dē* → *de|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); printed run together deIsraelitarum
+- **21.8** *Isrāēlītārum* → *Israelitarum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.8** *Jōvæ* → *Iouæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.9** *Jābis* → *Iabis|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.10** *lūstrātō* → *lustrato|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.10** *exercitū* → *exercitu|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); ex-|ercitu
+- **21.10** *compertum* → *compertum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.10** *mittit* → *mittit|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.10** *eō* → *eo|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); accent eò, left out
+- **21.10** *præceptō* → *præcepto|,*: 1738 leaf 316, read on the page (orig reader 6, 2026-11-19); listed as leaf 316, read on leaf 317
+- **21.10** *ferrō* → *ferro|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.11** *rem* → *rem|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.11** *habuissent* → *habuissent|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); ha-|buissent
+- **21.11** *funditus* → *funditus|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.12** *Inventæ* → *Inuentæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); In-|uentæ; printed æ
+- **21.12** *quadringentæ* → *quadringentæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); printed æ
+- **21.12** *puellæ* → *puellæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.12** *virōrum* → *virorum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.12** *intāctæ* → *intactæ|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); printed æ
+- **21.12** *Chananæā* → *Chananæa|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.12** *sita* → *sita|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.13** *Tum* → *Tum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.13** *omnis* → *omnis|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.14** *revocātīsque* → *reuocatisque|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); reuoca-|tisque, lowercase after "offerrent:"
+- **21.14** *tum* → *tum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.14** *dedērunt* → *dederunt|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); de-|derunt
+- **21.15** *Sed* → *Sed|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- ⚑ **21.15** *cum* → *quum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.15** *hæ* → *hæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.16** *quærēbant* → *quærebant|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); quæ-|rebant, lowercase after "Israelitarum,"
+- **21.16** *cīvitātis* → *ciuitatis|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.16** *senātōrēs* → *senatores|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.16** *fēminæ* → *feminæ|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.17** *hērēditās* → *hereditas|;*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); printed hereditas (no a)
+- **21.18** *ipsī* → *ipsi|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.18** *possent* → *possent|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.18** *illīs* → *illis|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.18** *proptereā* → *propterea|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.18** *jūrejūrandō* → *iureiurando|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.18** *Isrāēlītæ* → *Israelitæ|,*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19)
+- **21.19** *Jōvæ* → *Iouæ|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.19** *quotannīs* → *quotannis|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); set close to agi
+- **21.19** *agī* → *agi|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); printed run together agiSilunte
+- **21.19** *Silūnte* → *Silunte|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.19** *ā* → *a|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.19** *septentriōne* → *septemtrione|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); septem-|trione: printed with m
+- **21.19** *sēmitæ* → *semitæ|,*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); semi-|tæ
+- **21.20** *hunc* → *hunc|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.20** *modum* → *modum|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.20** *præcēpērunt* → *præceperunt|:*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.20** *īnsidiīs* → *insidiis|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- ⚑ **21.21** *Cumque* → *Quumque|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); capital, opening verse 20 (1738 numbering)
+- **21.22** *Quod* → *Quod|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.22** *sī* → *si|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.22** *vēnerint* → *venerint|,*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.22** *condōnent* → *condonent|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); con-|donent
+- **21.22** *culpam* → *culpam|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.22** *commīsisse* → *commisisse|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); com-|misisse
+- **21.23** *fēcērunt* → *fecerunt|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); fe-|cerunt
+- **21.23** *Benjamītæ* → *Beniamitæ|:*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.23** *et* → *et|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.23** *in* → *in|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); printed run together insuum
+- **21.23** *suum* → *suum|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.23** *patrimōnium* → *patrimonium|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); pa-|trimonium; listed as leaf 317, read on leaf 318
+- **21.23** *īnstaurārunt* → *instaurarunt|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19); instau-|rarunt
+- **21.24** *Tum* → *Tum|*: 1738 leaf 317, read on the page (orig reader 6, 2026-11-19); listed as leaf 317, read on leaf 318
+- **21.24** *Isrāēlītæ* → *Israelitæ|,*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **21.24** *suās* → *suas|*: 1738 leaf 318, read on the page (orig reader 6, 2026-11-19)
+- **1.4** *mīlia* → *millia*: 1738 leaf 292, read on the page by Claude, 2026-11-19 (the OCR's mjllia)
+- **1.15** *ab* → *ab*: 1738 leaf 293, read on the page by Claude, 2026-11-19 (the OCR's hab)
+- **1.15** *sitīculōsam* → *siticulosam*: 1738 leaf 293, read on the page by Claude, 2026-11-19 (the OCR's siciculosam)
+- **2.4** *Hæc* → *Hæc*: 1738 leaf 294, read on the page by Claude, 2026-11-19 (the OCR's EC)
+- **3.9** *Othonīēle* → *Othoniele*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (the OCR's Othoniiele; printed Othoni-|ele)
+- **3.10** *Chūsanrasāthaimum* → *Chusanrasathaimum*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (the OCR's Chusanrasathaijmum; printed Chusanrasathai-|mum)
+- **3.20** *cēnāculō* → *cœnaculo*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (the OCR's ccenaculo)
+- **3.23** *cēnāculī* → *cœnaculi*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (the OCR's ccenaculi)
+- **3.24** *cēnāculī* → *cœnaculi*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (the OCR's ccenaculi)
+- **3.24** *cēnāculī* → *cœnaculi*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (the OCR's ccenaculi)
+- **9.8** *capesseret* → *capesseret*: 1738 leaf 303, read on the page by Claude, 2026-11-19 (the OCR's capeseret; printed capes-|ſeret)
+- **9.35** *surgit* → *surgit*: 1738 leaf 304, read on the page by Claude, 2026-11-19 (the OCR's Ssurgit)
+- **10.18** *colloquī* → *colloqui*: 1738 leaf 305, read on the page by Claude, 2026-11-19 (the OCR's coloqui; printed col-|loqui)
+- **12.4** *interpositōs* → *interpositos*: 1738 leaf 307, read on the page by Claude, 2026-11-19 (the OCR's interposijtos; printed interposi-|tos)
+- **15.5** *olīvēta* → *oliueta*: 1738 leaf 309, read on the page by Claude, 2026-11-19 (the OCR's oliaeta; printed olineta-like, the u of oliueta)
+- **18.25** *domesticōrum* → *domesticorum*: 1738 leaf 313, read on the page by Claude, 2026-11-19 (the OCR's domescicorum)
+- **18.30** *ejusque* → *eiusque*: 1738 leaf 314, read on the page by Claude, 2026-11-19 (the OCR's Aeiusque, the footnote letter h read into it; printed lower case after the note mark)
+- **21.5** *ūllā* → *ulla*: 1738 leaf 317, read on the page by Claude, 2026-11-19 (the OCR's ula; the first letter in the gutter)
+- **21.24** *repetīvērunt* → *repetiuerunt*: 1738 leaf 318, read on the page by Claude, 2026-11-19 (the OCR's repeciuerunt)
+- **3.5** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **4.5** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 296, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **4.24** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 297, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **6.2** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 298, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **6.3** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 298, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **6.6** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 298, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **7.2** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 300, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **7.23** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 300, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **8.22** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 302, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **8.27** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 302, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **10.5** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 305, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **10.10** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 305, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **11.15** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 306, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **11.26** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 306, read on the page by Claude, 2026-11-19 (the OCR's Israelite)
+- **15.1** *Aliquantō* → *Aliquanto|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *post* → *post|,*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *messis* → *messis|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *trīticī* → *tritici|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *tempore* → *tempore|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *Samsōn* → *Samson|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *vīsit* → *visit|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *uxōrem* → *vxorem|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *suam* → *suam|,*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *caprum* → *caprum|*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- **15.1** *ferēns* → *ferens|,*: 1738 leaf 309, left column, the chapter's first line beside the drop capital A, read on the page by Claude, 2026-11-19 (the OCR lost the line)
+- ⚑ **1.10** *Sēsæum* → *Sesaim*: 1738 leaf 293, read in the OCR before the respelling; 1738's own spelling, kept in the printed text (decision 58) where the reading edition takes the settled form (judg1-21-stage2.md §6) (Claude, 2026-11-19)
+- ⚑ **1.10** *Thalmæum* → *Tholmaim*: 1738 leaf 293, read in the OCR before the respelling; 1738's own spelling, kept in the printed text (decision 58) where the reading edition takes the settled form (judg1-21-stage2.md §6) (Claude, 2026-11-19)
+- ⚑ **1.27** *Mageddōnēnsēs* → *Maggedonenses*: 1738 leaf 293, the OCR's Maggedonenfes; 1738's own spelling, kept in the printed text (decision 58) where the reading edition takes the settled form (judg1-21-stage2.md §6) (Claude, 2026-11-19)
+- ⚑ **11.20** *Jāsam* → *Iazam*: 1738 leaf 306, read on the page by Claude (… castris apud Iazam positis); 1738's own spelling, kept in the printed text (decision 58) where the reading edition takes the settled form (judg1-21-stage2.md §6) (Claude, 2026-11-19)
+- **1.13** *frātris* → *fratris|*: 1738 leaf 293, left column, read on the page by Claude (Cenezi, fra-|tris Chalebi); the respelled neighbour left it unpaired (Claude, 2026-11-19)
+- **11.24** *sī* → *si|*: 1738 leaf 306, read on the page by Claude (An non, si quos Chamosus, deus tuus,) (Claude, 2026-11-19)
+- **11.24** *quōs* → *quos|*: 1738 leaf 306, read on the page by Claude (Claude, 2026-11-19)
+- **1.1** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 292, read on the page by Claude, 2026-11-19 (the OCR wrote out the ligature (Israelitae))
+- **8.24** *Ismaēlītæ* → *Ismaelitæ*: 1738 leaf 302, read on the page by Claude, 2026-11-19 (the OCR wrote out the ligature)
+- **8.33** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 302, read on the page by Claude, 2026-11-19 (the OCR wrote out the ligature)
+- **10.15** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 305, read on the page by Claude, 2026-11-19 (the OCR wrote out the ligature)
+- **10.17** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 305, read on the page by Claude, 2026-11-19 (the OCR wrote out the ligature)
+- **19.30** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 315, read on the page by Claude, 2026-11-19 (the OCR wrote out the ligature)
+- **20.7** *Isrāēlītæ* → *Israelitæ*: 1738 leaf 315, read on the page by Claude, 2026-11-19 (the OCR wrote out the ligature)
+- **11.40** *Isrāēlīticæ* → *israeliticæ*: 1738 leaf 307, read on the page by Claude, 2026-11-19 (is-|raeliticæ, lower case; the OCR wrote out the ligature)
+- **3.21** *Cumque* → *Quumque*: 1738 leaf 295, read on the page by Claude, 2026-11-19 (Quum-|que)
+- **13.12** *cum* → *quum*: 1738 leaf 308, read on the page by Claude, 2026-11-19 ((inquit Manoa) quum ista)
+- **16.16** *cotīdiānīs* → *quotidianis*: 1738 leaf 311, read on the page by Claude, 2026-11-19 (quotidi-|anis, 1738's spelling)
+- **12.6** *Schibbōlet* → *Schibbolet|:*: 1738 leaf 307, read on the page by Claude, 2026-11-19 (Schib-|bolet :)
+- **14.1** *Cum* → *Quum*: 1738 leaf 308, read on the page by Claude, 2026-11-19 (the chapter's first word, QVum beside the drop capital, as orig.opening_word sets it)
+
+## Spellings the approved rules normalize (156)
+
+*afficitis* → *adficitis*; *afflātus* → *adflatus* ×2; *afflātū* → *adflatu* ×2; *aggrediantur* → *adgrediantur*; *aggressus* → *adgressus* ×3; *allocūtus* → *adlocutus* ×3; *alloquitur* → *adloquitur* ×3; *appāruit* → *adparuit* ×3; *assecūtī* → *adsecuti*; *causam* → *caussam*; *causā* → *caussa* ×2; *condiciōnem* → *conditionem* ×2; *cum* → *quum* ×58; *cumque* → *quumque* ×9; *eundem* → *eumdem*; *intellegam* → *intelligam*; *iīs* → *eis* ×38; *iīsque* → *eisque* ×4; *obœdī* → *obedi* ×3; *petīvērunt* → *petierunt*; *quandam* → *quamdam* ×2; *quattuor* → *quatuor* ×2; *quendam* → *quemdam* ×4; *sescentī* → *sexcenti*; *sescentīs* → *sexcentis*; *subolis* → *sobolis*; *subolēs* → *soboles*; *sūmpsit* → *sumsit*; *sūmpsērunt* → *sumserunt*; *sūmptum* → *sumtum*; *sūmptō* → *sumto*; *umerīs* → *humeris*
+
+## Printer's spellings no rule covers (34)
+
+*afferam* → *adferam*; *afferentēs* → *adferentes*; *afferunt* → *adferunt*; *afflāta* → *adflata*; *aggrederentur* → *adgrederentur*; *aggreditur* → *adgreditur*; *aggrediuntur* → *adgrediuntur*; *aggressīque* → *adgressique*; *allātūrōs* → *adlaturos*; *appellātum* → *adpellatum*; *applicet* → *adplicet*; *appōnam* → *adponam*; *arreptīsque* → *adreptisque*; *ascīvit* → *adsciuit*; *aspicit* → *adspicit*; *assūmptīs* → *adsumtis*; *astāret* → *adstaret*; *calebus* → *chalebus* ×2; *calebī* → *chalebi* ×2; *calebō* → *chalebo* ×2; *chamōssus* → *chamosus*; *exaudīsset* → *exaudiuisset*; *jabbōc* → *iaboc*; *prōmptū* → *promtu*; *resūmptīs* → *resumtis*; *septentriōnem* → *septemtrionem*; *servīsse* → *seruiuisse*; *sūmpsisse* → *sumsisse*; *sūmptīs* → *sumtis*; *sūmptōque* → *sumtoque*; *thanachum* → *thanacum*
+
+## Not read in the OCR (1)
+
+Spelling as settled, in the printer's conventions (u/v, i/j); not checked on the page.
+
+| Verse | Settled | Printed | OCR |
+|---|---|---|---|
+| Judg.21.1 | Jūrāverant | Iurauerant | — |
+
+## Punctuation not from the OCR (1)
+
+After a word the OCR missed, the settled text's mark stands; a stop the OCR had before a lower-case word was dropped or corrected (stray). Not checked on the page.
+
+1.10 *Sesaim,*
+
+## Paragraphs (84 inside the chapters)
+
+1738 runs its verses on and marks a paragraph by indenting its first line. Read from the hOCR (`archive.indents`: a line starting 40–140 px inside the column's margin after a line that ends a sentence; drop capitals, summaries and 1738's footnotes left out) and set before the word that begins the line; a paragraph read on the page is a `¶` row in `data/decisions/Judg.orig.tsv`. Every chapter also begins one. Leaf = archive.org's hOCR page (its image is page n<leaf − 1>).
+
+1.8 *Iudæi* (leaf 292, line 86); 1.16 *Cenis* (read on the page: 1738 leaf 293, left column, read on the page (paragraph reader, 2026-11-19): line 'Cenis autem soceri Mosis filii' indented after 'aquationem dedit.'); 1.22 *Iosephi* (read on the page: 1738 leaf 293, left column, read on the page (paragraph reader, 2026-11-19): last line of the column 'Iosephi quoque posteri Bethel' indented after 'in hunc diem.'; the draft's paragraph stands one word late); 1.29 *Ephraimitæ* (read on the page: 1738 leaf 293, right column, read on the page (paragraph reader, 2026-11-19): line 'Ephraimitæ quoque gazerenses' indented after 'sed non expulerunt.'); 1.30 *Neque* (leaf 293, line 78); 1.31 *Neque* (leaf 293, line 81); 1.33 *Nephthalenses* (leaf 293, line 88); 1.34 *Danios* (read on the page: 1738 leaf 293, right column, read on the page (paragraph reader, 2026-11-19): line 'Danios autem Amorræi compulsos' indented after 'tributarios habent.'); 2.6 *Igitur* (leaf 294, line 28); 2.8 *Sed* (leaf 294, line 35); 2.14 *Quare* (leaf 294, line 53); 2.16 *Quumque* (leaf 294, line 60); 2.18 *Quod* (leaf 294, line 68); 2.20 *Quamobrem* (leaf 294, line 79); 3.5 *At* (read on the page: 1738 leaf 295, left column, read on the page (paragraph reader, 2026-11-19): line 'At Israelitæ inter Chananæos' indented after 'obtemperarent.' (gutter-cut column, indent plain against the lines around it)); 3.8 *Quibus* (leaf 295, line 23); 3.9 *Huic* (leaf 295, line 26); 3.11 *Sed* (leaf 295, line 37); 3.16 *Hic* (read on the page: 1738 leaf 295, left column, read on the page (paragraph reader, 2026-11-19): line 'Hic, quum per eum munus' indented after 'hominem scæuam.'); 3.26 *At* (leaf 295, line 86); 3.31 *Post* (read on the page: 1738 leaf 295, right column, read on the page (paragraph reader, 2026-11-19): line 'Post hunc fuit Samgar' indented after 'annos octoginta.'); 4.4 *Ea* (leaf 296, line 20); 4.12 *Igitur* (leaf 296, line 56); 4.18 *Et* (leaf 296, line 82); 5.23 *Exsecramini* (leaf 297, line 90); 5.24 *Tu* (leaf 297, line 95); 5.25 *Aquam* (leaf 297, line 99); 5.27 *Ille* (leaf 298, line 8); 6.11 *Deinde* (leaf 298, line 74); 6.25 *Ea* (read on the page: 1738 leaf 299, left column, read on the page (paragraph reader, 2026-11-19): line 'Ea autem nocte Ioua ei iussit' indented after 'Abiezerianorum.'); 6.33 *Quum* (leaf 299, line 62); 6.36 *Si* (leaf 299, line 73); 7.8 *Itaque* (leaf 300, line 34); 7.15 *Hac* (leaf 300, line 65); 8.4 *Deinde* (leaf 301, line 34); 8.13 *Deinde* (read on the page: 1738 leaf 301, right column, read on the page (paragraph reader, 2026-11-19): line 'Deinde a pugna sub ortum solis' indented after 'castra perterret.'); 8.18 *Deinde* (read on the page: 1738 leaf 301, right column, read on the page (paragraph reader, 2026-11-19): line 'Deinde Zebam et Salmanam' indented after 'oppidanosque interemit.'); 8.22 *Israelitæ* (leaf 302, line 9); 8.29 *Is* (leaf 302, line 39); 9.6 *Deinde* (read on the page: 1738 leaf 302, right column, read on the page (paragraph reader, 2026-11-19): line 'Deinde omnes Sichemitæ' indented after 'qui latuit.'); 9.7 *Quod* (leaf 302, line 94); 9.22 *Abimelechus* (leaf 303, line 54); 9.26 *Præterea* (leaf 303, line 69); 9.30 *His* (read on the page: 1738 leaf 303, right column, read on the page (paragraph reader, 2026-11-19): line 'His Gaalis verbis auditis' indented after '(… dirigens) et prodi.'); 9.34 *Igitur* (read on the page: 1738 leaf 304, left column, read on the page (paragraph reader, 2026-11-19): first line of the column '34 Igitur Abimelechus cum omni' set in from the margin after leaf 303's right column ends 'vtatur occasione' (a short line); less sure than the rest, being a column's first line); 9.42 *Postero* (leaf 304, line 31); 9.46 *Hoc* (leaf 304, line 45); 9.50 *Inde* (leaf 304, line 63); 10.3 *Huic* (leaf 304, line 98); 10.5 *Mortuo* (leaf 305, line 6); 11.4 *Accidit* (leaf 305, line 69); 11.11 *Tum* (leaf 305, line 90); 11.28 *Huiusmodi* (leaf 306, line 61); 11.40 *Ea* (leaf 306, line 105); 14.5 *Profectus* (leaf 308, line 92); 14.8 *Ad* (leaf 308, line 104); 14.10 *Vbi* (leaf 309, line 14); 14.19 *Deinde* (read on the page: 1738 leaf 309, right column, read on the page (paragraph reader, 2026-11-19): line 'Deinde Iouæ afflatu percitus' indented after a line ending with a stop); 15.6 *Huius* (read on the page: 1738 leaf 309, right column, read on the page (paragraph reader, 2026-11-19): line 'Huius facinoris auctorem' indented after a line ending with a stop); 15.18 *Deinde* (read on the page: 1738 leaf 310, left column, read on the page (paragraph reader, 2026-11-19): line '18 Deinde vehementi adfectus siti' indented after 'iactum denominauit.'); 16.4 *Postea* (leaf 310, line 85); 16.10 *At* (read on the page: 1738 leaf 311, left column, read on the page (paragraph reader, 2026-11-19): line 'At Dalila, se ab illo fallaciter' indented (page's verse 11) after 'cognita vis.'); 16.22 *Deinde* (leaf 311, line 76); 16.28 *Igitur* (leaf 311, line 102); 16.29 *Deinde* (leaf 312, line 6); 17.6 *Per* (leaf 312, line 49); 17.7 *Fuit* (leaf 312, line 52); 18.11 *Igitur* (leaf 313, line 30); 18.21 *Illi* (leaf 313, line 67); 18.27 *Illi* (read on the page: 1738 leaf 313, right column, read on the page (paragraph reader, 2026-11-19): line 'Illi ea, quæ fecerat Micha' indented after 'domum reuersus est.'); 19.11 *Quum* (leaf 314, line 56); 19.16 *Ecce* (leaf 314, line 73); 19.22 *His* (leaf 314, line 96); 19.26 *Mulier* (read on the page: 1738 leaf 315, left column, read on the page (paragraph reader, 2026-11-19): line '7 Mulier sub lucem venit' indented after 'mane sub ortum auroræ dimiserunt.'); 19.27 *Mane* (read on the page: 1738 leaf 315, left column, read on the page (paragraph reader, 2026-11-19): line '8 Mane eius dominus vbi surrexit' indented after 'donec diluxit.'); 20.8 *Tum* (read on the page: 1738 leaf 315, right column, read on the page (paragraph reader, 2026-11-19): line 'Tum vniuersi consurgunt' indented after 'consultate.'); 20.11 *Igitur* (leaf 315, line 91); 20.17 *Israelitarum* (leaf 316, line 17); 20.29 *Tum* (read on the page: 1738 leaf 316, right column, read on the page (paragraph reader, 2026-11-19): line 'Tum Israelitæ insidiis circa Gabaam' indented after 'victoriam daturum.'); 20.45 *Inde* (read on the page: 1738 leaf 317, left column, read on the page (paragraph reader, 2026-11-19): line 'Inde in siluam versi' indented after 'militum millia.'); 21.4 *Postero* (read on the page: 1738 leaf 317, left column, read on the page (paragraph reader, 2026-11-19): line 'Postero die mane, constructo' indented after 'desideraretur.'); 21.6 *Quum* (leaf 317, line 60); 21.13 *Tum* (leaf 317, line 86); 21.19 *Igitur* (read on the page: 1738 leaf 318, left column, read on the page (paragraph reader, 2026-11-19): line '18 Igitur quum comperirent festum' (page's verse 18) indented, first line of the column after leaf 317's right column ends 'dedissent.' with the catchword Igi-)
+
+## Open questions
+
+1. **Accents.** 1738 prints grave accents on adverbs (*verò*, *cùm*, *continuò*) and on *quòd*, *à* and *hîc*. Dropped here, since the OCR reads them unevenly. Keeping them means restoring them by rule, or reading them page by page.
+2. **Chapter summaries.** 1738 heads each chapter with a summary: left out of the printed text, as of the reading edition (decisions 50, 67).
+3. **Apostrophes and word division** follow the print where read on the page (*Is'ne*, Matt 26:25; *plusquam*, 26:53; decision 58); elsewhere the settled text's division stands until read.
+4. **Castellio's G. … H. (and L., G.L.) marks**: the words are kept, the marks dropped, as in the reading edition. None found by the aligner in these chapters.
+5. **Capitals of words the OCR missed** follow the settled text (Matt 26:41 *spiritus*, 1573 *Spiritus*).

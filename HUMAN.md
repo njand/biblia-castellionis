@@ -2,6 +2,43 @@
 
 ## Now
 
+- **Four spellings found in Judges: accepted and applied** (2026-11-19, your "Most sources say that "bracchium" is
+  better than "brāchium"" and "You judged the other 3 clear-cut mistakes correctly"): `data/review/spellings-2026-11-19.md`,
+  15 Apply lines. ***bracchium*** in all 12 places that had *brāchi-* (Deut ×8, Exod 15:16, Acts 13:17, Judg 15:14,
+  16:12); Judg 3:1 *temptandōrum*, 13:11 *conjugem*, 14:17 *nēdum*. Gold rebuilt (Exod, Deut, Judg, Acts); nine rules
+  added to `data/rules/orthography.tsv` as approved (the *brachi-* forms, *tentandorum*, *coniugem*, the phrase *ne dum*);
+  `text/orig/` unchanged. Tests pass. Not committed.
+- **Judges started and run through every stage** (2026-11-19, your "Joshua transcription is already running on another
+  workstation. Start the next book. Run through all stages before you request my feedback."). Nothing committed.
+  - **Settled 2026-11-19, approved for now** (your "Yes, settle it", on the 8 points of `judg1-21-stages3-5.md` as
+    proposed): `text/JDG.usfm`, 21 chapters, 618 verses, the items applied as accepted (identical to the preview);
+    `data/gold/Judg.tsv` built, the ledger `settled`, the drafts removed. **The printed text rebuilt from the settled
+    words** (`text/orig/draft/JDG.usfm`, `judg-orig.md`): every row re-keyed to the settled words, the OCR's
+    written-out *ae* tied, 13 more words read on the page. **Approved for now** the same day (your "Approve it"):
+    `text/orig/JDG.usfm`, never rewritten by code; the site's *As printed, 1738* shows for Judges on the next push.
+    Built from `text/` to a scratch folder (all formats; PDF not compiled); tests pass.
+  - **Stages 1–2** (`judg1-21-stage2.md`): Wikisource has all 21 chapters, but proved a loose transcript (clauses dropped
+    at 14:13, 14:15; 2:1 opened with the chapter summary's words; *Philistini* for 1738's *Palaestini*; in places 1750's
+    readings), so **every verse was read on 1738's pages** (leaves 292–318) by six readers: 170 corrections, then 23
+    more found by later stages (20:15 *recensitique*, 9:28 *dictitare*, 18:21 *digressi*, Wikisource's own spellings
+    set back to 1738's: *quamquam*, *exst-*, *ceter-* …). Versified to the KJV (63 edits, 618 verses). The draft is
+    `text/draft/JDG.usfm`, collation `data/calibration/Judg1-21-collation.tsv`.
+  - **Stage 2b**, the printed text (`judg-orig.md`, `text/orig/draft/JDG.usfm`): every word the OCR missed read on the
+    page (2,640 rows in `data/decisions/Judg.orig.tsv`), every paragraph checked (25 added, 4 removed). To be rebuilt
+    from the settled words before approval (the OCR's written-out *ae* in about 45 words is tied then).
+  - **Stages 3–5**: seven readers, a names reader (`judg1-21-names.md`, 12 hard calls, 19 respellings to the settled
+    forms: *Calebus*, *Sēsæum* …) and four proofreaders; 618 items (`judg1-21-ch01.md` … `-ch21.md`), all `ok`, preview
+    `text/draft/JDG.preview.usfm`; calls in `data/decisions/Judg.layout.tsv` (322) and `Judg.forms.tsv` (575). Among
+    them 6:24 ***Pācijōvium*** (1738 *Paciiouium*, as Exod 17:15 *Signijōvium*) for Wikisource's *Pacii ovium*; the
+    Song of Deborah as poetry; lower case after a colon where Castellio's sentence goes on, as 1738 and the settled
+    Leviticus–Deuteronomy.
+  - **Built and checked**: tests pass (204); every format built to a scratch folder from the preview (site with both
+    texts and the 1738 page links, EPUBs, TXT, the PDF's LaTeX; the PDF not compiled, no TeX here). Ledger: `in-review`.
+  - **Not done**: the notes round (decision 56; 1738's own footnotes, e.g. 18:30 *Mosis* for the Hebrew *Manassis*, are
+    candidates, listed in `docs/editions.md`); four small code issues listed at the end of `judg1-21-stages3-5.md`.
+  - The Joshua work on the other workstation will touch the same shared files (`HUMAN.md`, `data/status.tsv`,
+    `docs/editions.md`); expect to merge those by hand.
+
 - **Notes for Deuteronomy: accepted and applied** (2026-11-18, your "As recommended"): the six of `deut-notes.md` and
   33:8 from `deut-notes-1554.md` (its 7:10, 10:8, 23:18 rejected) are in `text/DEU.usfm`, gold rebuilt; tests pass; the
   site and the PDF's LaTeX built to a scratch folder with all seven (the PDF not compiled, no TeX here). Not committed.
