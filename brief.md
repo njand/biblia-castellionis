@@ -32,6 +32,11 @@ them are dated in `HUMAN.md` § Decided.
   words written out, not abbreviated (advised 2026-11-18, since the readers are learning Latin; to revisit if an OT
   search brings many notes citing the ancient versions);
   classical idiom preferred to Church Latin in the notes: not *Scrīptūra* for the Bible, nor *hodiernī* of people).
+  **Only what matters to the story or the teaching** (Nathan, 2026-11-19: "Minor notes (e.g. rare names in lists) that
+  don't really have any plot or theological significance can be dropped"): no note where the departure concerns only
+  a name, a place, a number, a date, a material, a plant, a coin or a furnishing detail; a note where it changes what
+  happens, what a law requires, or what a passage says about God, Christ or salvation. Glosses on a word no dictionary
+  has (the coinages) stay. Applied to the existing notes in `data/review/notes-minor.md`.
 - **Passages not in the earliest manuscripts** stay in Castellio's text, bracketed as NA28 and SBLGNT do (decision
   52): ⟦…⟧ around Mark 16:9–20 and John 7:53–8:11, […] around the verses and phrases the critical texts leave out;
   the front matter explains them.

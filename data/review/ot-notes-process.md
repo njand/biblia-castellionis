@@ -47,6 +47,11 @@ Never a note for (as in the NT, and these besides):
 - A version's reading the modern Bibles don't follow, unless Castellio follows it (kind C).
 - The meaning of a rare animal, plant or stone. Castellio himself said his names for these were guesses (front
   matter, *Dē ejus interpretātiōne*), and modern Bibles disagree among themselves.
+- **Anything without plot or theological significance** (Nathan, 2026-11-19: "Minor notes (e.g. rare names in lists)
+  that don't really have any plot or theological significance can be dropped"): a departure that touches only a
+  name, a place, a number, a date, a material or a furnishing detail, even when it is a plain misreading (Judg 4:5
+  *Hormam*, Josh 13:3 *Hevæēnsis*, Gen 8:14's day: dropped, `notes-minor.md`). A note only where what happens, what a
+  law requires, or what a passage says about God changes.
 
 ## 3. The consensus, defined so it can be checked
 

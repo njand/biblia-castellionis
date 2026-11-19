@@ -2,6 +2,24 @@
 
 ## Now
 
+- **Minor notes: 41 removed, and Joshua's two notes added** (2026-11-19, your "Apply all": `notes-minor.md` and
+  `josh-notes.md` applied, gold rebuilt for the 15 books touched; 162 notes now in `text/`; tests pass; the site built
+  to a scratch folder shows Josh 6:23's note and no Judg 4:5 note). Not committed. Asked first in your "Minor notes (e.g. rare names in lists) that don't really
+  have any plot or theological significance can be dropped. Also check previous notes …"): all 201 notes in `text/`
+  read against it; `data/review/notes-minor.md` drops 41 (18 Old Testament, 23 New) that touch only a name, place,
+  number, date, material, plant, coin or furnishing (Judg 4:5 *Hormam*, the acacia wood, Gadarenes/Gerasenes, Rom 16:5
+  Asia …), each with an Apply line (`ok`), and lists the near ones kept (Exod 40:20, yours; Judg 15:19; Gen 29:27 …).
+  The standard added to `brief.md` and `ot-notes-process.md` §2.
+- **Notes for Joshua: proposed** (2026-11-19, your "Start the notes for Joshua, the same way"), the Old Testament search
+  of `ot-notes-process.md` as Judges'. `data/review/josh-notes.md`: **2 notes**: 6:23 *in castra* (the Hebrew, the
+  NRSVue and the BSB put Rahab's family *outside* the camp), 16:10 the clause *dōnec Pharaō … dōtis
+  nōmine dedit* that Castellio marked *G.* … *H.* as taken from the Greek; 13:3 *Hevæēnsis* (the Avvim made Hivites)
+  left out on your standard of minor notes; and 23:5 (past for the Hebrew's future)
+  recommended left out. Found on the way, page images read: **1573 drops 16:10's marked clause** (canvas 166), which
+  1554 (canvas 132) and 1738 print; recorded in `docs/editions.md`. `data/review/josh-notes-1554.md`: Castellio's 1554
+  annotations on Joshua (canvas 824), a preface on who wrote the book and two notes (6:4, 20:6), none a departure; 1738's
+  two Joshua footnotes are his 1554 margins, the first at **7:24** (not 7:1, as below). Readers' notes:
+  `josh-notes-readers.md`; candidates `josh-notes-candidates.md`. Applied (above).
 - **The process for a new book rewritten** (2026-11-19, your "Yes, rewrite it"; decision 85): three phases,
   *Transcribe* (1738 read line by line once, the printed text approved first), *Edit and annotate* (`propose` and the
   notes together, the book settled with its notes), *Build and check*. PLAN.md §4 and CLAUDE.md rewritten; no code

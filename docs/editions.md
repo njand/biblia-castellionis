@@ -414,8 +414,23 @@ Every line of 1738's Joshua was read on its archive.org leaves (267–292) and c
   *Atarothaddar*, 18:13 *Atarothadar*, 15:35 *Ierimoth*, 12:11 *Ierimothius* in 1573 as in 1738 (OCR); 12:21
   *Thenaci*, 21:25 *Thanach*, 12:22 *Cadis*, 15:33 *Sarea*, 19:41 *Saraa* in 1554 (OCR). Castellio spells Zorah *Saraa*
   also in Judges 13:2, 16:31, 18:2, 18:11 (1554 or 1573, OCR). Shiloh is *Siluntem*, *Silunte* in both (OCR).
-- **1738's footnotes**: 7:1 *a) idem Achor et Achan est.* (leaf 273) and 22:34 *a) hoc est, testis.* (leaf 290, the
-  altar *Ed*).
+- **1738's footnotes**: 7:24 *\*) idem Achor et Achan est.* (foot of leaf 273, its mark after *Achoris* in 7:24; placed
+  at 7:1 here before 2026-11-19) and 22:34 *a) hoc est, testis.* (leaf 290, the altar *Ed*). **Both are Castellio's**:
+  the lettered glosses in the margin of the 1554 text (MDZ bsb10196330, canvas 127, column 229, *a idem Achor & Achan
+  eſt.*; canvas 136, column 247, *a hoc eſt teſtis.*; page images read 2026-11-19, `data/review/josh-notes-1554.md`), as
+  in Judges.
+- **16:10's marked clause in the printings** (page images read 2026-11-19, `data/review/josh-notes.md` item 3): **1554**
+  prints it with both marks (canvas 132, column 240: *ſed tributarij, G. donec Pharao Aegypti rex expeditionem fecit, …
+  urbemq; filiæ ſuæ dotis nomine dedit. H.*); **1573 leaves it out** (bsb10141277 canvas 166, column 288: the verse ends
+  *ſed tributarij.*, then CAPVT XVII); 1750 leaves it out too (OCR line 32230; not seen on the page); 1738 prints it
+  with the marks. So Castellio added it in his lifetime and the 1573 printing dropped it; whether by his last revision
+  or by its editor cannot be told from the print. 1738 follows 1554 here, not 1573.
+- **Castellio's 1554 annotations on Joshua** (canvas 824, columns 343–344, read 2026-11-19): a preface arguing that the
+  book was not written by Joshua, since 10:13 cites the book of *Recti*, which also tells of David (*primi Regum capite
+  primo*), and chapter 15 tells of Achsah, whose story Judges 1 puts after Joshua's death: *nec hunc librum à Ioſua, nec
+  librum Recti à Moſe fuiſſe ſcriptum, ſed pòſt, aut certè non ante tempora Dauidis*. Then two notes: 6:4 *Septem tubas
+  buccinas* (יובל taken as a word for the trumpet's sound, *buccinas* used as an adjective) and 20:6 *Donec cauſam in
+  concilio dixerit* (the procedure in the city of refuge). None marks a departure from the Hebrew.
 
 ### Castellio's annotation on *rudentem* (Matt 19:24), seen in 1573
 
