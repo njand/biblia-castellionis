@@ -71,6 +71,12 @@ class Case(unittest.TestCase):
         self.assertIsNone(verses.lower_start("Filius quidem", self.LEXICON, {"filius"}))   # may name Christ
         self.assertIsNone(verses.lower_start("Deum collaudantes", self.LEXICON, {"deum"}))  # God (2 Cor 9:13)
 
+    def test_a_decided_capital_is_kept(self):
+        v = verses.Verse("Josh.19.37", "\\v 37 Cedes, Edrei,", body="Cedes, Edrei,")
+        self.assertTrue(verses.keeps_capital(v, {("Josh.19.37", "cedes"): ("Cedēs", "the town")}))
+        self.assertFalse(verses.keeps_capital(v, {("Josh.19.37", "cedes"): ("cēdēs", "a verb")}))
+        self.assertFalse(verses.keeps_capital(v, {}))
+
 
 class Kinds(unittest.TestCase):
     def test_wordpress_and_settled_split_the_kinds(self):

@@ -146,6 +146,12 @@ class Quotes(unittest.TestCase):
                          ("Matt.4.8", "“Ego vērō dīcō.”", "p"))
         self.assertEqual([q for q in structure.quotes(rows) if not q[1].startswith("‘")], [])
 
+    def test_a_quotation_within_a_speech_reopens_at_a_paragraph(self):
+        rows = self.rows(("Josh.24.2", "ait: “Jōva sīc dīcit: ‘Trāns flūmen habitāvērunt.", "p"),
+                         ("Josh.24.8", "“‘Deinde addūxī vōs.’", "p"),
+                         ("Josh.24.14", "“Quamobrem Jōvam metuite.”", "p"))
+        self.assertEqual([q for q in structure.quotes(rows) if not q[1].startswith("‘")], [])
+
     def test_unclosed_and_reported(self):
         rows = self.rows(("Matt.15.9", "“Frūstrā mē venerantur.", "p"),
                          ("Matt.15.10", "Deinde advocātā multitūdine: ‘eum esse īnsānum.’", "p"))

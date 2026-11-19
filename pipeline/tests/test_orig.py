@@ -191,6 +191,12 @@ class Indents(unittest.TestCase):
         orig.retie([orig.Chapter(7, words=words)])
         self.assertEqual([w.form for w in words], ["ætatis", "aerem"])
 
+    def test_no_paragraph_inside_a_hyphenated_word(self):
+        rows = [(284, 1, 73, "\\c 18"), (284, 1, 76, "#1 QVum autem vniuersa Israeli-"),
+                (284, 1, 77, "tarum multitudo Siluntem"), (284, 1, 80, "% catchword"), (284, 1, 81, "Tum Iosua")]
+        indented = {(284, 76): (40, "QVum"), (284, 77): (60, "tarum"), (284, 81): (40, "Tum")}
+        self.assertEqual(orig.paragraph_starts(rows, indented), {(284, 76), (284, 81)})
+
     def test_printed_from_read_lines(self):
         self.assertEqual(orig.printed_from_read_lines("quæ tibi præcepi , cunctaq; & arcam ( quam vides )"),
                          "quæ tibi præcepi, cunctaque et arcam (quam vides)")

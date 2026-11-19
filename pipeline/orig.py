@@ -822,6 +822,21 @@ def printed_from_read_lines(rows):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def paragraph_starts(rows, indented):
+    """The (leaf, line) of `indented` (archive.indents) that may begin a paragraph: not a line whose text line before
+    it ends in a hyphen, since a paragraph never begins inside a word (1738 Josh 18:1, *Israeli-|tarum*, the line
+    beside the drop capital Q read as indented)."""
+    out, broken = set(), False
+    for leaf, _, line, text in rows:
+        body = text.strip()
+        if body.startswith(("\\c", "%")):
+            continue
+        if (int(leaf), int(line)) in indented and not broken:
+            out.add((int(leaf), int(line)))
+        broken = bool(re.search(r"\w-$", body))
+    return out
+
+
 def from_read_lines(book, chapters, source, edits=()):
     r"""(USFM chapters, {verse id: leaf}) of the printed text built from 1738's read lines, for chapters drafted from
     them (Exodus 31–40, where Wikisource has none: data/review/exod31-40-stage2.md, Stage 2b). No OCR alignment is
@@ -838,7 +853,7 @@ def from_read_lines(book, chapters, source, edits=()):
         if on:
             keep.append(row)
     leaves = sorted({int(r[0]) for r in keep if str(r[0]).isdigit()})
-    starts = archive.indents("1738", leaves)
+    starts = paragraph_starts(keep, archive.indents("1738", leaves))
     marked, previous = [], None
     for leaf, column, line, text in keep:
         if text.strip().startswith(("\\c", "%")):

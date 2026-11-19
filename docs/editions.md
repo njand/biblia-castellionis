@@ -380,6 +380,43 @@ not checked (`data/review/deut-notes-1554.md`). Castellio's 1554 annotations on 
 338, to canvas 824, column 343; two chapter heads there are wrong (the 7:10 note under *CAP. VIII.*, 21:19 under *CAP.
 XX.*).
 
+### Joshua in 1738, 1750, 1573 and Wikisource (stage 2, 2026-11-18/19)
+
+Every line of 1738's Joshua was read on its archive.org leaves (267–292) and compared word by word with Wikisource and
+1750's OCR (`data/review/josh1-24-stage2.md`); two places were looked up in 1573 (MDZ search and hOCR, canvases 158 and
+160; OCR, not the page image).
+- **Wikisource's Joshua is not 1738's text** (unlike its Genesis, which follows 1738's OCR): it spells *allocutus,
+  quicquid, loquutus, persequuti, haereditatem, Moyses, unquam, sylvestris* where 1738 prints *adlocutus, quidquid,
+  locutus, persecuti, hereditatem, Moses, vmquam, siluestris*, and it shares readings with 1573 against 1738: 4:14
+  *fecerant* (1573 canvas 158 *ſicut antea Moſem fecerant*; 1750 the same; 1738 *timuerant*) and 7:12–13 *sacrilegum*
+  (1573 canvas 160, both verses, margin *Sacrilegum puniri*; 1738 and 1750 *sacrilegium*). Other wording differs too
+  (2:7 *insequebantur* for 1738's *insecuti sunt*, 10:19 *Ipsius* for *Ipsis*), not checked in 1573. Which printing
+  Wikisource's Joshua follows is not established.
+- **1750 follows 1738** in Joshua line for line in long stretches (chapters 4–6, 13–15, 20–21), and shares 1738's
+  *sacrilegium* and 15:34 *Taphna* (Hebrew Tappuah, the Vulgate *Taphua*); at 4:14 it has *fecerant* with 1573 against
+  1738.
+- **1738's own readings and misprints**: 4:14 *timuerant* (kept: the base edition's, decision 1); 7:12–13 *sacrilegium*
+  (corrected to 1573's *sacrilegum* in the edited text, since 7:13's *ante quem* needs the man); misprints *auimaduertisset*,
+  *antem*, *eorumqne*, *Scſenna*, *terrra*, *circumſeripta*, *manda-|datum*, *to-|que* (for *totoque*; 1750 *to que*).
+- **Castellio's marks**: 16:10 *G. donec Pharao Aegypti rex … dotis nomine dedit. H.*, the Septuagint's addition
+  (Brenton: ἕως ἀνέβη Φαραὼ βασιλεὺς Αἰγύπτου … ἐν φερνῇ τῇ θυγατρὶ αὐτοῦ), in 1738 (leaf 283: the *G.* seen by Claude, the *H.* read by the stage-2 reader).
+- **Names in 1554 and 1573** (checked 2026-11-19 for the names calls, `data/review/josh1-24-names.md` §"Evidence
+  re-checked"; MDZ search of 1554 bsb10196330 and 1573 bsb10141277, page images seen where marked):
+  15:34 *Taphna* in 1554 (canvas 132, image seen) and 1573 (canvas 165, image seen), as 1738 and 1750: Castellio's
+  own lifetime revision prints it, beside 16:8 *Taphua* (1554 canvas 132, 1573 canvas 166, seen); read as a turned u
+  carried from printing to printing (Castellio writes u in all six other places of the name), corrected to *Taphūa* in
+  the edited text, kept in the printed text. **12:22 *Iachanamæ***
+  in 1573 (canvas 164, image seen) and 1554 (canvas 130, OCR *lachanamæ*), as Wikisource's *Jachanama*: 1738's
+  *Iacha-|nanæ* is a misprint (m read as n). 19:11 *Ieconam* and 21:34 *Iecanam* in 1573 (canvases 167, 168, seen):
+  Castellio's own two spellings. 24:30 *Thānathserę* in 1573 (canvas 171, seen; the tilde abbreviates *Tham-* or
+  *Than-*), 1738 *Thannathseræ*; 19:50 *Thamnathsaram* in 1554 (canvas 134, OCR). 12:21 *Thenaci*, 21:25 *Thanach*,
+  17:11 *Tanacenses*, *Magedonenses*, 12:22 *Cadis*, 15:33 *Sarea* (19:41 *Saraa*), 15:41 *Macceda*, 16:5
+  *Atarothaddar*, 18:13 *Atarothadar*, 15:35 *Ierimoth*, 12:11 *Ierimothius* in 1573 as in 1738 (OCR); 12:21
+  *Thenaci*, 21:25 *Thanach*, 12:22 *Cadis*, 15:33 *Sarea*, 19:41 *Saraa* in 1554 (OCR). Castellio spells Zorah *Saraa*
+  also in Judges 13:2, 16:31, 18:2, 18:11 (1554 or 1573, OCR). Shiloh is *Siluntem*, *Silunte* in both (OCR).
+- **1738's footnotes**: 7:1 *a) idem Achor et Achan est.* (leaf 273) and 22:34 *a) hoc est, testis.* (leaf 290, the
+  altar *Ed*).
+
 ### Castellio's annotation on *rudentem* (Matt 19:24), seen in 1573
 
 1573 prints Castellio's *Annotatio* after Matthew 19 (canvas 766, crop `sources/mdz-1573/crops/Matt.19.24-annotatio.jpg`).

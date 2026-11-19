@@ -224,6 +224,16 @@ def lower_start(body, lexicon, common):
     return body[:m.start()] + word[0].lower() + body[m.start() + 1:]
 
 
+def keeps_capital(verse, forms):
+    """True if a decided form (load_forms) of the verse's first word is written with a capital: the case rule then
+    leaves it (a town opening a verse of a list, spelled like a common word: Josh 19:37 *Cedes*, 21:35 *Damna*)."""
+    first = WORD.search(MARKER.sub(" ", verse.body))
+    if first is None:
+        return False
+    form = forms.get((verse.vid, macronize.key(first.group())), forms.get((verse.vid, macronize.key(first.group()), 1)))
+    return bool(form) and form[0][:1].isupper()
+
+
 def respell(body, word_rules, known, skip=()):
     """(body with the approved rules applied, [(old, new, kind)]), macrons and æ/œ taken out (stage 4 marks them).
     `skip`: the rules' old words not to change in this verse (normalize.exceptions)."""
@@ -303,11 +313,14 @@ def propose(osis, chapters, usfm=None):
     lexicon = macronize.lookup([w for _, w in tokens])
     lexicon.update(macronize.lookup([macronize.split_enclitic(w, lexicon[macronize.key(w)])[0] for _, w in tokens]))
 
-    # Case: a verse continuing the sentence before starts in lower case (unless its layout line set the case).
+    # Case: a verse continuing the sentence before starts in lower case (unless its layout line set the case, or a
+    # decided form of its first word keeps the capital: a town in a list spelled like a common word, Josh 19:37
+    # *Cedes*, 21:35 *Damna*).
     common = lower_keys()
     for n, verse in enumerate(verses[1:], 1):
         before = verses[n - 1]
         if tsv.parse_id(before.vid)[1] == tsv.parse_id(verse.vid)[1] and continues(before.body) and \
+                not keeps_capital(verse, forms) and \
                 not any(f.kind == "capital" for f in verse.flags):
             lowered = lower_start(verse.body, lexicon, common)
             if lowered is not None:

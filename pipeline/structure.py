@@ -111,6 +111,8 @@ def quotes(rows):
                     out.append((vid, "” with no “ open", row["text"]))
                     double = 0
             elif ch == "‘":
+                if reopened and single and n == len(text) - len(text.lstrip()) + 1:
+                    continue                                 # “‘ reopens a quotation within the speech (Josh 24:8)
                 single += 1
             elif ch == "’" and single:
                 single -= 1

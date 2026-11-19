@@ -2,6 +2,51 @@
 
 ## Now
 
+- **Joshua and Judges merged** (2026-11-19, on pushing Joshua over the Judges work from the other workstation):
+  decisions renumbered (*usque* stays 80; Joshua's become 81–84); each book takes the other's approved decisions
+  (`data/review/josh-judg-merge.md`, 33 Apply lines, applied, gold rebuilt): Joshua's 19 *ūsque* and one *eōusque*
+  (decision 80); Judges' 18:22 *adsecūtī*, 4:20 *adstāret* (81), *Gazam*, *Gazēnsēs* (82), *Cālēbus* (83), with
+  their forms rows. **Waiting for you: `data/review/judg-names-after-josh.md`**: Judges' Shiloh, Aijalon and
+  Kiriath-jearim marked as Joshua's by the Hebrew, a slip at 5:15, and Gibeah (Joshua *Gabāa*, Judges *Gaba-*) to
+  choose.
+- **Joshua 1–24 settled, approved for now** (2026-11-19, your "Approve and settle Joshua"; decision 84), after
+  "Pull, then start work on Joshua" and "Go all the way through stage 5 before stopping to ask for my input":
+  `text/JOS.usfm`, the 656 items of `josh1-24-ch01.md` … `-ch24.md` applied as accepted (identical to the preview),
+  `data/gold/Josh.tsv` built, the ledger `settled`, the draft and preview removed. **The printed text approved for now** (your "Approve it for
+  now"): `text/orig/JOS.usfm`, every word from the lines read on the page, checked against the settled text (656
+  verses, five word-count differences, each explained), its paragraphs (1738's indents) not yet checked on the page
+  (`data/review/josh-orig.md`). Nothing committed. **Still to do**: the notes pass (16:10, 1738's footnotes at 7:1 and
+  22:34) and 1554's annotations; the settled-text slips listed in `josh1-24-stages3-5.md`.
+  - **Stages 1–2** (`data/review/josh1-24-stage2.md`, the readers' notes beside it): Wikisource has all 24 chapters,
+    but its Joshua is not 1738's (its own spellings, typos, and readings shared with 1573), and 1738's OCR covers 80
+    verses under 60%; so **decision 68's route**: every printed line of leaves 267–292 read on the page by eight
+    readers (2,431 lines, 1,883 corrected; `data/witnesses/read-1738/Josh1-24.tsv`), checked word by word against
+    Wikisource and 1750, every doubtful place seen on the page (two readers' slips set right). Six chapter numerals
+    the OCR misread set by hand. Draft `text/draft/JOS.usfm` from the read lines; corrected (Apply lines): 1738's
+    misprints, run-together words, 16:10's *G. … H.* marks, 22:11 *exadversum*, 22:16–17 *res publica*, **7:12–13
+    *sacrilegum* from 1573** (1738 *sacrilegium*), 46 name spellings.
+  - **Versified** to the KJV's 658 verses (43 edits, `data/versification/Josh1-24.draft.edits.tsv`; 4:15–17 a verse
+    range; chapter 21's Levitical cities re-cut; 10:34–43 and 11:17–20 found by the stage 3–5 readers).
+  - **Printed text** (stage 2b) `text/orig/draft/JOS.usfm`, every word from the read lines, its paragraphs (1738's
+    indents) not yet checked on the page; `data/orig/Josh.pages.tsv`.
+  - **Stages 3–5**: eight readers, two names readers, four proofreaders (`josh1-24-stages3-5-readers.md`,
+    `josh1-24-names.md`); `data/decisions/Josh.layout.tsv` (206), `Josh.forms.tsv` (948).
+  - **Spelling rules**: of the 20 proposed (`josh1-24-rules-research.md`), six rejected (your "I disagree with adquiro
+    → acquiro …", 2026-11-19; decision 81, applied to the whole edition: `data/review/ad-unassimilated.md`, 111
+    settled words respelled, gold rebuilt); the other 14 approved (your "Yes, add the 14", 2026-11-19), in
+    `orthography.tsv`, the preview rebuilt (17 words changed; 656 items, 655 ok, 1 already; no `unknown` left).
+  - **Your review of the open points** (2026-11-19): 2 (*sacrilegum*) and 5 (the smaller calls) accepted; for 3 and 4
+    the evidence re-checked name by name against the Hebrew's vowels, the Greek, the settled forms and 1554/1573
+    (`josh1-24-names.md` §"Evidence re-checked"), and its seven revisions applied (your "Apply all seven", decision 82).
+    15:34 ***Taphūa*** (your "Yes, Taphūa", after "Are you sure it holds up?"): 1738's *Taphna*, printed in 1554 and
+    1573 too, is a turned u (the Hebrew's shureq; Castellio's u in all six other places); the printed text keeps it. ***Cālēbus*** by the Hebrew's qamets and tsere (your
+    "Yes, Cālēbus", decision 83): 10 settled words in Numbers and Deuteronomy respelled (`data/review/caleb-long.md`),
+    gold rebuilt, Joshua's 8 forms with them (656 items: 655 ok, 1 already).
+  - **Code, tested** (206 tests pass): `verses.keeps_capital` (a decided capital survives the case rule),
+    `structure.quotes` (“‘ reopened at a paragraph), `orig.paragraph_starts` (no paragraph inside a hyphenated word).
+  - `docs/editions.md` §"Joshua in 1738, 1750, 1573 and Wikisource". Settled-text slips found (Num 26:40, Acts 23:12,
+    Gen 13:18, Num 32:12, Matt 2:18): listed in the stages 3–5 record for a review of their own.
+
 - **Notes for Judges: accepted and applied** (2026-11-19, your "Apply these notes as recommended, and fix the Deuteronomy
   33:8 note to read *temptāvistī*"): 14:15, 4:5, 15:19 and 18:2 are in `text/JDG.usfm`, 10:4 and 16:13–14 left out as
   recommended, Deut 33:8's note reads *temptāvistī*; tests pass; the site and the PDF's LaTeX built to a scratch folder
@@ -810,6 +855,10 @@
 | 78 | 2026-11-18 | **Deuteronomy 1–34 settled, approved for now** (Nathan: "approve it for now and commit"), after "Yes, versify Deuteronomy", "Yes, run stages 3–5" and "Yes, add them": `text/DEU.usfm`, 1738 read line by line on the page (Wikisource has only 1:1), four long s that stage 2 read as f set right on the page images; versified to the KJV (45 edits, 14:16–17 a verse range); Moses' discourses unquoted, the speeches he reports quoted only where Castellio gives the words; 54 spelling rules for new forms researched and approved; one form per person (23:4 *Beōris* for 1738's *Phegoris*). With it: `normalize.EO` lists *intrō-*, decided forms keep a final ī (*ībī*), and the settled Exodus and Numbers slips fixed (`settled-fixes-deut.md`). |
 | 79 | 2026-11-18 | ***sollemnis*, as Gaffiot heads it** (Nathan: "Gaffiot says that "sollemnis" is *mieux que sollenis, solemnis*. Let's add a rule to standardize to that form."): stem rules *solemn-, solenn-, sollenn- → sollemn-* approved; the ten settled places (Exod 12:24, 29:42; Lev 23:2 ×2, 23:4, 23:37, 23:44; Num 10:10, 15:3, 29:39; Deut 31:10) respelled and unmarked in the stem (*sollemnitātibus*, was *sōlemnitātibus*), gold rebuilt (`data/review/sollemnis.md`). The printed texts keep Castellio's *solemnis*. |
 | 80 | 2026-11-18 | ***usque* with a short u** (Nathan: "Accept all four"; `data/review/usque.md`): *usque*, *adusque*, *hūcusque* against Gaffiot's ū, with Wiktionary and Macronizer; ***eō usque*** written apart (no dictionary heads *eōusque*; corpus 164 : 12); ***quousque*** joined, no macron (one word in Gaffiot, L&S and Wiktionary, both marking the o short; Castellio joins it 9 of 9). 136 places applied. |
+| 81 | 2026-11-19 | ***ad-* kept unassimilated in *adquīrō, adsequor, adsignō, adstō, adsurgō*** (Nathan: "I disagree with adquiro → acquiro, adsequor → assequor, adsigno → assigno, adsto → asto, adsurgo → assurgo based on corpus evidence. There seems to be strong evidence to keep the d unassimilated. We may need to update already approved books based on these rules. Remember to account for inflected forms, including participles."): narrows decision 37 for these five verbs. The 40 approved word rows that assimilated them rejected; stem rules *assequ-, assecu-, assign-, assurg-, assurrex-, acquir-, acquisi-, astab-, astan-, astat-, astit-* → *ad-* and 11 word rows for *adstō* (*astō, astāre* …; a stem *ast-* would catch *ast* and *Astarōth*) approved; the settled text respelled in 111 words of 108 verses in 20 books (*adstāns, adsecūtus, adsignāvit, adsurgere, adquīsītus* …; gold rebuilt; `data/review/ad-unassimilated.md`); the printed texts keep Castellio's spelling. Six of Joshua's proposed rows withdrawn with it. |
+| 82 | 2026-11-19 | **Joshua's names by the Hebrew's vowels** (Nathan, asking for the evidence of points 3–4 of `josh1-24-stages3-5.md` against "the original Hebrew transliterations (and Greek for support), taking careful note of long vowels", then "Apply all seven"; `josh1-24-names.md` §"Evidence re-checked"): where the Greek's long letter has no long Hebrew vowel behind it, the Hebrew decides (*Cedes, Cedesam* short, the segols of קֶדֶשׁ; *Jerimōth-*, יַרְמוּת with no vowel for the i); a qamets hatuf is short (*Saraa*, Zorah, as *Horma*); *Gaza* short (Gaffiot *Găza*, patah), with the settled *Gāzam* of Gen 10:19, Deut 2:23, Acts 8:26 (`data/review/gaza-short.md`, applied, gold rebuilt); *Thamnathser-* in 19:50 and 24:30 (the Hebrew's mem and segol); one spelling for Taanach (*Thanach*, 12:21 indeclinable, 17:11 *Thanachēnsēs*) and Jokneam (*Jeconām*, 12:22 indeclinable), 12:22's *Iacha-\|nanæ* being 1738's misprint for 1554's and 1573's *Iachanamæ*. 15:34 *Taphna* first kept (1554, 1573, 1738, 1750 all print it), then corrected to *Taphūa* on reconsideration (Nathan: "Yes, Taphūa"): the printings descend one from another, and Castellio writes u in all six other places of the same Hebrew name; the printed text keeps *Taphna*. |
+| 83 | 2026-11-19 | ***Cālēbus*** (Nathan: "Yes, Cālēbus"): Caleb takes the Hebrew's two long vowels (כָּלֵב qamets, tsere), as decision 82 lets the Hebrew decide where the Greek (Χάλεβ) has no long letter; Gaffiot has no entry. Replaces Numbers' short *Calebus* (Wiktionary's bare *Caleb*). Applied to the settled Num 13:6, 13:30, 14:6, 14:24, 14:30, 14:38, 26:65, 32:12, 34:19 and Deut 1:35 (`data/review/caleb-long.md`), gold rebuilt; the forms rows of Numbers and Joshua with them. The printed texts keep *Calebus*. |
+| 84 | 2026-11-19 | **Joshua 1–24 settled, approved for now** (Nathan: "Approve and settle Joshua"), after "Yes, add the 14", "Accept recommendations for 2 and 5", "Apply all seven", "Yes, Cālēbus" and "Yes, Taphūa": `text/JOS.usfm`, 1738 read line by line on the page (Wikisource's Joshua not 1738's text, a witness only), checked against 1750 and, where they differ, 1573; versified to the KJV (43 edits, 4:15–17 a verse range); 7:12–13 *sacrilegum* from 1573; one form per person and place, the Hebrew's vowels deciding where the Greek has no long letter behind it (decision 82); 14 spelling rules researched and approved, six rejected (decision 81). The printed text (1738) approved for now the same day (Nathan: "Approve it for now"; `text/orig/JOS.usfm`, `data/review/josh-orig.md`), its paragraphs not yet checked on the page. |
 
 ## How to run
 
