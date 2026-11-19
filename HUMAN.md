@@ -6,9 +6,10 @@
   decisions renumbered (*usque* stays 80; Joshua's become 81–84); each book takes the other's approved decisions
   (`data/review/josh-judg-merge.md`, 33 Apply lines, applied, gold rebuilt): Joshua's 19 *ūsque* and one *eōusque*
   (decision 80); Judges' 18:22 *adsecūtī*, 4:20 *adstāret* (81), *Gazam*, *Gazēnsēs* (82), *Cālēbus* (83), with
-  their forms rows. **Waiting for you: `data/review/judg-names-after-josh.md`**: Judges' Shiloh, Aijalon and
-  Kiriath-jearim marked as Joshua's by the Hebrew, a slip at 5:15, and Gibeah (Joshua *Gabāa*, Judges *Gaba-*) to
-  choose.
+  their forms rows. `data/review/judg-names-after-josh.md`: items 1–4 applied (your "Apply 1–4"): Judges' *Sīlūnt-*,
+  *Ajālōn-*, *Cariathjārīm-* as Joshua's by the Hebrew, 5:15 *Issāchariānīs*; 9 words, gold and 8 forms rows. Gibeah
+  (item 5, your "Gabā- by Hebrew"): Judges' 23 words *Gabā-*, as Joshua 15:57 (20:10's Hebrew Geba, the same town
+  meant). Not committed.
 - **Joshua 1–24 settled, approved for now** (2026-11-19, your "Approve and settle Joshua"; decision 84), after
   "Pull, then start work on Joshua" and "Go all the way through stage 5 before stopping to ask for my input":
   `text/JOS.usfm`, the 656 items of `josh1-24-ch01.md` … `-ch24.md` applied as accepted (identical to the preview),
