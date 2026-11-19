@@ -2,6 +2,20 @@
 
 ## Now
 
+- **Notes for Judges: accepted and applied** (2026-11-19, your "Apply these notes as recommended, and fix the Deuteronomy
+  33:8 note to read *temptāvistī*"): 14:15, 4:5, 15:19 and 18:2 are in `text/JDG.usfm`, 10:4 and 16:13–14 left out as
+  recommended, Deut 33:8's note reads *temptāvistī*; tests pass; the site and the PDF's LaTeX built to a scratch folder
+  with the notes (the PDF not compiled, no TeX here). Not committed. Asked 2026-11-19 (your "Start the notes for Judges,
+  the same way"), the Old Testament search
+  of `ot-notes-process.md` as Deuteronomy's. `data/review/judg-notes.md`: 4 notes, 14:15 *diē septimō* (kind A: the
+  NRSVue and the BSB have "the fourth day" with the Greek and Syriac), 4:5 *Hormam* for Ramah, 15:19 the jawbone's molar
+  for the hollow at Lehi (the Vulgate's), and 18:2 (in the 1554 file); two recommended left out, 10:4/12:14 horses for
+  young donkeys (near the bar) and the *G.* … *H.* passage 16:13–14 (the modern Bibles add it too); and item 7, a
+  spelling slip in the accepted Deut 33:8 note (*tentāvistī* → *temptāvistī*). `data/review/judg-notes-1554.md`:
+  Castellio's 1554 annotations on Judges read on the page (canvases 824–825), one note, **18:2 *abjectissimōs*** where
+  the Hebrew has valiant men (his annotation explains it). Found on the way: **1738's nine footnotes in Judges are
+  Castellio's own 1554 margins** (recorded in `docs/editions.md`). Readers' notes: `judg-notes-readers.md`; candidates
+  `judg-notes-candidates.md`. All Apply lines check `ok`. Nothing applied or committed.
 - **Four spellings found in Judges: accepted and applied** (2026-11-19, your "Most sources say that "bracchium" is
   better than "brāchium"" and "You judged the other 3 clear-cut mistakes correctly"): `data/review/spellings-2026-11-19.md`,
   15 Apply lines. ***bracchium*** in all 12 places that had *brāchi-* (Deut ×8, Exod 15:16, Acts 13:17, Judg 15:14,

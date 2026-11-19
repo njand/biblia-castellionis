@@ -343,9 +343,20 @@ difference (`data/review/judg1-21-stage2.md`, 170 corrections and 23 more found 
   negantur inde exacti Iebusæi*; 2:9 *Hæc in Iosua vocatur Thamnathasara*; 3:15 *læua manu pro dextra vtentem*; 10:12
   *Græcus et Latinus legerunt Chananæis* (on *Maoniis*); 18:30 *in Hebræo est Manassis: sed in Latino Mosis, quod puto
   rectius*; 18:31 *hinc adparet, librum hunc scriptum esse post captiuitatem*; 19:29 *erat enim mortua*; 20:16 *qui
-  sinistris manibus pro dextris vterentur*; 20:41 *[a] decem millibus electis, supra memoratis*. Whether these are
-  Castellio's (1551–1556) or Bünemann's (1734) is not checked; 18:30's *quod puto rectius* reads as Castellio's voice.
-  Castellio's marks *L. cognatis suis H.* (4:11) and *G.* … *H.* (16:15–17).
+  sinistris manibus pro dextris vterentur*; 20:41 *[a] decem millibus electis, supra memoratis*. **They are
+  Castellio's** (read 2026-11-19, `data/review/judg-notes-1554.md`): all nine, and 1738's notes d–f at 14:12, 14:15,
+  14:17, are the lettered glosses printed in the margin of the 1554 text itself (MDZ bsb10196330, canvases 137–150,
+  columns 249–276), which 1738 copies word for word but for spelling (*paullo*, *dextra*, *dextris*, *adparet*); 1738's
+  19:29 and 20:41 notes are at the KJV's 19:28 and 20:42. 1554 has eight more marginal glosses (5:11, 5:16, 5:22, 6:3,
+  8:2, 8:21, 9:9, 9:13) the stage-2 readers did not record in 1738 (whether 1738 prints them not checked). The margin at
+  14:15 reconciles the Greek's fourth day with the Hebrew's seventh. Castellio's marks *L. cognatis suis H.* (4:11) and
+  *G.* … *H.* (16:13–14: the *H.* closes 16:14).
+- **Castellio's 1554 annotations on Judges** (*IN LIB. IVDICVM*, the end of the volume, canvas 824, column 344, to canvas
+  825, column 345, where *IN RVTHAM* begins): twelve, under the heads of chapters 5, 8, 11, 12, 14, 15, 17 and 18; among
+  them 18:2, where he explains *suorum militum abiectissimos* (בני חיל "soldiers", and the meanest sent *ut facilius
+  fallerent*), 8:16 (he reads וידש for וידע), 5:14 (the Greek's "in the valley"), 15:8 and 14:20 (Josephus).
+- **A revision after 1554**: 2:9 *Thamnatare* (1554, canvas 138; Wikisource the same) became *Themnathare* (1738, and
+  1750's *Themnatare*); which printing changed it is not checked.
 
 ### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
 
