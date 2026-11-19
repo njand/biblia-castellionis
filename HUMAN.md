@@ -2,6 +2,16 @@
 
 ## Now
 
+- **Notes for Deuteronomy: accepted and applied** (2026-11-18, your "As recommended"): the six of `deut-notes.md` and
+  33:8 from `deut-notes-1554.md` (its 7:10, 10:8, 23:18 rejected) are in `text/DEU.usfm`, gold rebuilt; tests pass; the
+  site and the PDF's LaTeX built to a scratch folder with all seven (the PDF not compiled, no TeX here). Not committed.
+  Asked 2026-11-18 (your "Start the Deuteronomy notes, the same way"):
+  `data/review/deut-notes.md`, 6 notes: 32:8 and 32:43 (kind A, the first since Gen 47:21: "sons of God", and the line
+  Heb 1:6 quotes), 10:3 cedar for acacia, 24:18 "strangers" for "slaves" (near the bar), 26:5 "the Syrians oppressing"
+  for "a wandering Aramean", 31:23 Moses for the LORD (with the LXX). Castellio's 1554 annotations on Deuteronomy, read on
+  the page for the first time: `data/review/deut-notes-1554.md`, four candidates, of which Claude recommends 33:8 only
+  (tester and tested change places). The *G.* … *H.* mark the tool placed at 3:1 is Judith 2:21. 2:7's revision after
+  1554 recorded in `docs/editions.md`.
 - **Leviticus renumbered to the KJV at 15:26–30 and 19:26–28** (2026-11-18, your "Fix the versification"):
   `data/versification/Lev.edits.tsv` (two merges, two splits; markers only, words and verse counts checked), applied to
   `text/LEV.usfm` and `text/orig/LEV.usfm`; gold rebuilt, the decision rows moved. Record: `lev-notes.md` §E, with

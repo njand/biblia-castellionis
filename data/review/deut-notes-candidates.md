@@ -1,0 +1,272 @@
+# Deut: candidates for light notes
+
+Built by `python -m pipeline notes Deut` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `deut-notes.md`.
+
+Latin: 958 verses (settled); already noted: 0. BSB notes naming a version: 19 verses (against MT 11, with MT 2, other 6); WEB notes besides: 0. Numerals differing from the Hebrew: 21. Latin far shorter than the Hebrew: 0. Castellio's G. … H. marks: 1.
+
+## Castellio's marks (1 verses)
+
+*G.* (*G.L.*, 1750 *Gr. lect.*) … *H.*: a reading he took from the Greek, found in the raw OCR of 1738 and 1750 and placed by the words around it (check the verse).
+
+- **3:1** 1738: L.  Aiigem ,  G.  ad  finiltram  fuperio- / 13  ris  Ciiiciae  pofitum.    Inde  cum  fuis | 1750: L. Augem, G. ad finiftram fuperio- / ris Ciliciae pofitum. Inde cum fuis
+   - Latin: Inde cum iter in Bāsānam convertissēmus: ēgressus ad prœlium nōbīs occurrit Bāsānæ rēx Ōgus, cum suīs omnibus cōpiīs, in Edreī.
+   - 1738: Inde quum iter in Basanam conuertissemus: egressus ad prœlium nobis occurrit Basanæ rex Ogus, cum suis omnibus copiis, in Edrei.
+   - WLC: וַנֵּ֣פֶן וַנַּ֔עַל דֶּ֖רֶךְ הַבָּשָׁ֑ן וַיֵּצֵ֣א עוֹג֩ מֶֽלֶךְ־הַבָּשָׁ֨ן לִקְרָאתֵ֜נוּ ה֧וּא וְכָל־עַמּ֛וֹ לַמִּלְחָמָ֖ה אֶדְרֶֽעִי׃
+   - BSB: Then we turned and went up the road to Bashan, and Og king of Bashan and his whole army came out to meet us in battle at Edrei.
+   - KJV: Then we turned, and went up the way to Bashan: and Og the king of Bashan came out against us, he and all his people, to battle at Edrei.
+
+## Versions: the BSB against MT (11 verses)
+
+- **11:30** BSB: SP, LXX, and Syriac (see Genesis 12:6); Hebrew Oaks or Terebinths or Great Trees
+   - Latin: Sunt autem trāns Jordānem post viam occidentālem, in fīnibus Chananæōrum, quī plānitiem incolunt, contrā Galgala apud querquētum Mōre.
+   - 1738: Sunt autem trans Iordanem post viam occidentalem, in finibus Chananæorum, qui planitiem incolunt, contra Galgala apud quercetum More.
+   - WLC: הֲלֹא־הֵ֜מָּה בְּעֵ֣בֶר הַיַּרְדֵּ֗ן אַֽחֲרֵי֙ דֶּ֚רֶךְ מְב֣וֹא הַשֶּׁ֔מֶשׁ בְּאֶ֙רֶץ֙ הַֽכְּנַעֲנִ֔י הַיֹּשֵׁ֖ב בָּעֲרָבָ֑ה מ֚וּל הַגִּלְגָּ֔ל אֵ֖צֶל אֵלוֹנֵ֥י מֹרֶֽה׃
+   - BSB: Are not these mountains across the Jordan, west of the road toward the sunset, in the land of the Canaanites who live in the Arabah opposite Gilgal near the Oak of Moreh?
+   - KJV: Are they not on the other side Jordan, by the way where the sun goeth down, in the land of the Canaanites, which dwell in the champaign over against Gilgal, beside the plains of Moreh?
+- **21:23** BSB: LXX; Hebrew anyone who is hanged is under God’s curse; cited in Galatians 3:13
+   - Latin: nam crucī fīxum exsecrātur Deus. Nēve terram polluitōte, cujus vōbīs possessiōnem Deus vester Jōva dedit.
+   - 1738: nam crucifixum exsecratur Deus. Neue terram polluitote, cuius vobis possessionem Deus vester Ioua dedit.
+   - WLC: לֹא־תָלִ֨ין נִבְלָת֜וֹ עַל־הָעֵ֗ץ כִּֽי־קָב֤וֹר תִּקְבְּרֶ֙נּוּ֙ בַּיּ֣וֹם הַה֔וּא כִּֽי־קִלְלַ֥ת אֱלֹהִ֖ים תָּל֑וּי וְלֹ֤א תְטַמֵּא֙ אֶת־אַדְמָ֣תְךָ֔ אֲשֶׁר֙ יְהוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָֽה׃ ס
+   - BSB: you must not leave the body on the tree overnight, but you must be sure to bury him that day, because anyone who is hung on a tree is under God’s curse. You must not defile the land that the LORD your God is giving you as an inheritance.
+   - KJV: His body shall not remain all night upon the tree, but thou shalt in any wise bury him that day; (for he that is hanged is accursed of God;) that thy land be not defiled, which the LORD thy God giveth thee for an inheritance.
+- **29:10** BSB: LXX and Syriac; Hebrew you leaders, tribes
+   - Latin: Vōs hodiē in Jōvæ Deī vestrī cōnspectū stātis, ūniversī, ducēs, tribūs, senātōrēs, magistrātūs, dēnique omnēs Isrāēlītæ,
+   - 1738: Vos hodie in Iouæ Dei vestri conspectu statis, vniuersi, duces, tribus, senatores, magistratus, denique omnes Israelitæ,
+   - WLC: אַתֶּ֨ם נִצָּבִ֤ים הַיּוֹם֙ כֻּלְּכֶ֔ם לִפְנֵ֖י יְהוָ֣ה אֱלֹהֵיכֶ֑ם רָאשֵׁיכֶ֣ם שִׁבְטֵיכֶ֗ם זִקְנֵיכֶם֙ וְשֹׁ֣טְרֵיכֶ֔ם כֹּ֖ל אִ֥ישׁ יִשְׂרָאֵֽל׃
+   - BSB: All of you are standing today before the LORD your God—you leaders of tribes, elders, officials, and all the men of Israel,
+   - KJV: ¶ Ye stand this day all of you before the LORD your God; your captains of your tribes, your elders, and your officers, with all the men of Israel,
+- **31:1** BSB: DSS and LXX; MT When Moses went out and spoke
+   - Latin: Tum Mōsēs ūniversōs Isrāēlītās aggressus, in hæc verba affātus est:
+   - 1738: Tum Moses vniuersos Israelitas adgressus, in hæc verba adfatus est:
+   - WLC: וַיֵּ֖לֶךְ מֹשֶׁ֑ה וַיְדַבֵּ֛ר אֶת־הַדְּבָרִ֥ים הָאֵ֖לֶּה אֶל־כָּל־יִשְׂרָאֵֽל׃
+   - BSB: When Moses had finished speaking these words to all Israel,
+   - KJV: And Moses went and spake these words unto all Israel.
+- **32:8** BSB: DSS; LXX according to the number of the angels of God; MT according to the number of the sons of Israel
+   - Latin: Suprēmum, cum gentibus possessiōnēs partīrētur, hominumque genus dīvideret, cēterīs nātiōnibus fīnēs prō numerō Isrāēlītārum assignāsse.
+   - 1738: Supremum, quum gentibus possessiones partiretur, hominumque genus diuideret, ceteris nationibus fines pro numero Israelitarum adsignasse.
+   - WLC: בְּהַנְחֵ֤ל עֶלְיוֹן֙ גּוֹיִ֔ם בְּהַפְרִיד֖וֹ בְּנֵ֣י אָדָ֑ם יַצֵּב֙ גְּבֻלֹ֣ת עַמִּ֔ים לְמִסְפַּ֖ר בְּנֵ֥י יִשְׂרָאֵֽל׃
+   - BSB: When the Most High gave the nations their inheritance, when He divided the sons of man, He set the boundaries of the peoples according to the number of the sons of God.
+   - KJV: When the most High divided to the nations their inheritance, when he separated the sons of Adam, he set the bounds of the people according to the number of the children of Israel.
+- **32:35** BSB: LXX; Hebrew Vengeance is Mine, and recompense; cited in Romans 12:19 and Hebrews 10:30
+   - Latin: Mea est ultiō et remūnerātiō, tum cum titubābit eōrum pēs: nam propinquat eōrum diēs interitūs, properant eōrum fāta.”
+   - 1738: Mea est vltio et remuneratio, tum quum titubabit eorum pes: nam propinquat eorum dies interitus, properant eorum fata.
+   - WLC: לִ֤י נָקָם֙ וְשִׁלֵּ֔ם לְעֵ֖ת תָּמ֣וּט רַגְלָ֑ם כִּ֤י קָרוֹב֙ י֣וֹם אֵידָ֔ם וְחָ֖שׁ עֲתִדֹ֥ת לָֽמוֹ׃
+   - BSB: Vengeance is Mine; I will repay. In due time their foot will slip; for their day of disaster is near, and their doom is coming quickly.”
+   - KJV: To me belongeth vengeance, and recompence; their foot shall slide in due time: for the day of their calamity is at hand, and the things that shall come upon them make haste.
+- **32:43** BSB: See DSS and LXX; MT lacks Rejoice, O heavens, with Him, and let all God’s angels worship Him. Cited in Hebrews 1:6 | BSB: DSS and LXX; MT servants | BSB: LXX and Vulgate; MT lacks and repay those who hate Him
+   - Latin: Dēcantāte, ō gentēs, ejus populum, quoniam et suōrum sanguinem ulcīscētur: et sūmptō dē suīs adversāriīs suppliciō, suōrum terræ plācābitur.
+   - 1738: Decantate, o gentes, eius populum, quoniam et suorum sanguinem vlciscetur: et sumto de suis aduersariis supplicio, suorum terræ placabitur.
+   - WLC: הַרְנִ֤ינוּ גוֹיִם֙ עַמּ֔וֹ כִּ֥י דַם־עֲבָדָ֖יו יִקּ֑וֹם וְנָקָם֙ יָשִׁ֣יב לְצָרָ֔יו וְכִפֶּ֥ר אַדְמָת֖וֹ עַמּֽוֹ׃ פ
+   - BSB: Rejoice, O heavens, with Him, and let all God’s angels worship Him. Rejoice, O nations, with His people; for He will avenge the blood of His children. He will take vengeance on His adversaries and repay those who hate Him; He will cleanse His land and His people.
+   - KJV: Rejoice, O ye nations, with his people: for he will avenge the blood of his servants, and will render vengeance to his adversaries, and will be merciful unto his land, and to his people.
+- **32:44** BSB: LXX, Syriac, and Vulgate; Hebrew Hoshea, a variant of Joshua
+   - Latin: Igitur Mōsēs ūnā cum Jōsuā Nūnis fīliō populum adiit, et omnibus Isrāēlītīs audientibus, omnia carminis hujus verba ēlocūtus est.
+   - 1738: Igitur Moses vna cum Iosua Nunis filio populum adiit, et omnibus Israelitis audientibus, omnia carminis huius verba elocutus est.
+   - WLC: וַיָּבֹ֣א מֹשֶׁ֗ה וַיְדַבֵּ֛ר אֶת־כָּל־דִּבְרֵ֥י הַשִּׁירָֽה־הַזֹּ֖את בְּאָזְנֵ֣י הָעָ֑ם ה֖וּא וְהוֹשֵׁ֥עַ בִּן־נֽוּן׃
+   - BSB: Then Moses came with Joshua son of Nun and recited all the words of this song in the hearing of the people.
+   - KJV: ¶ And Moses came and spake all the words of this song in the ears of the people, he, and Hoshea the son of Nun.
+- **33:2** BSB: LXX, Syriac, and Vulgate; Hebrew upon them
+   - Latin: “Jōva dē Sīnā vēnit,” inquit, “ex Seire exortus est iīs, patuit ex monte Pharane, vēnitque ob sacrās legiōnēs, ignem disciplīnæ iīs habēns ad dextram suam, hominum sānē amātor,
+   - 1738: Ioua de Sina venit, inquit, ex Seire exortus est eis, patuit ex monte Pharane, venitque ob sacras legiones, ignem disciplinæ eis habens ad dextram suam, hominum sane amator,
+   - WLC: וַיֹּאמַ֗ר יְהוָ֞ה מִסִּינַ֥י בָּא֙ וְזָרַ֤ח מִשֵּׂעִיר֙ לָ֔מוֹ הוֹפִ֙יעַ֙ מֵהַ֣ר פָּארָ֔ן וְאָתָ֖ה מֵרִבְבֹ֣ת קֹ֑דֶשׁ מִֽימִינ֕וֹ אשדת לָֽמוֹ׃
+   - BSB: He said: “The LORD came from Sinai and dawned upon us from Seir; He shone forth from Mount Paran and came with myriads of holy ones, with flaming fire at His right hand.
+   - KJV: And he said, The LORD came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran, and he came with ten thousands of saints: from his right hand went a fiery law for them.
+- **33:8** BSB: DSS and LXX; MT does not include to Levi; literally Let Your Perfections and Your Lights be to Your godly one.
+   - Latin: Ad Lēvim autem inquit: “Tua integritās et clāritās est tuī virī clēmentis, quem lacessīstī apud Massam, cum quō jūrgāstī ad aquam jūrgiī,
+   - 1738: Ad Leuim autem inquit: tua integritas et claritas est tui viri clementis, quem lacessiuisti apud Massam, cum quo iurgasti ad aquam iurgii,
+   - WLC: וּלְלֵוִ֣י אָמַ֔ר תֻּמֶּ֥יךָ וְאוּרֶ֖יךָ לְאִ֣ישׁ חֲסִידֶ֑ךָ אֲשֶׁ֤ר נִסִּיתוֹ֙ בְּמַסָּ֔ה תְּרִיבֵ֖הוּ עַל־מֵ֥י מְרִיבָֽה׃
+   - BSB: Concerning Levi he said: “Give Your Thummim to Levi and Your Urim to Your godly one, whom You tested at Massah and contested at the waters of Meribah.
+   - KJV: ¶ And of Levi he said, Let thy Thummim and thy Urim be with thy holy one, whom thou didst prove at Massah, and with whom thou didst strive at the waters of Meribah;
+- **33:12** BSB: LXX; Hebrew He shields
+   - Latin: Super Benjāmīne dīxit: “Jōvæ dīlēctus tūtō apud eum habitābit, ipsō semper eum prōtegente, et inter ejus umerōs habitante.”
+   - 1738: Super Beniamine dixit: Iouæ dilectus tuto apud eum habitabit, ipso semper eum protegente, et inter eius humeros habitante.
+   - WLC: לְבִנְיָמִ֣ן אָמַ֔ר יְדִ֣יד יְהֹוָ֔ה יִשְׁכֹּ֥ן לָבֶ֖טַח עָלָ֑יו חֹפֵ֤ף עָלָיו֙ כָּל־הַיּ֔וֹם וּבֵ֥ין כְּתֵיפָ֖יו שָׁכֵֽן׃ ס
+   - BSB: Concerning Benjamin he said: “May the beloved of the LORD rest secure in Him; God shields him all day long, and upon His shoulders he rests.”
+   - KJV: ¶ And of Benjamin he said, The beloved of the LORD shall dwell in safety by him; and the Lord shall cover him all the day long, and he shall dwell between his shoulders.
+
+## Versions: the BSB with MT (2 verses)
+
+- **11:14** BSB: Hebrew; SP, LXX, and Vulgate He will provide; also in verse 15
+   - Latin: “Ego,” inquit, “vicissim pluviā tum prīmōre, tum sērōtinā terram vōbīs suō tempore irrigābō, atque ita frūmentum, mustum, oleum percipiētis,
+   - 1738: ego (inquit) vicissim pluuia tum primore, tum serotina terram vobis suo tempore irrigabo, atque ita frumentum, mustum, oleum percipietis,
+   - WLC: וְנָתַתִּ֧י מְטַֽר־אַרְצְכֶ֛ם בְּעִתּ֖וֹ יוֹרֶ֣ה וּמַלְק֑וֹשׁ וְאָסַפְתָּ֣ דְגָנֶ֔ךָ וְתִֽירֹשְׁךָ֖ וְיִצְהָרֶֽךָ׃
+   - BSB: then I will provide rain for your land in season, the autumn and spring rains, that you may gather your grain, new wine, and oil.
+   - KJV: That I will give you the rain of your land in his due season, the first rain and the latter rain, that thou mayest gather in thy corn, and thy wine, and thine oil.
+- **32:31** BSB: Hebrew; LXX but our enemies are void of understanding
+   - Latin: Neque enim nūminī nostrō pār est illōrum nūmen, vel hostium nostrōrum jūdiciō.
+   - 1738: Neque enim numini nostro par est illorum numen, vel hostium nostrorum iudicio.
+   - WLC: כִּ֛י לֹ֥א כְצוּרֵ֖נוּ צוּרָ֑ם וְאֹיְבֵ֖ינוּ פְּלִילִֽים׃
+   - BSB: For their rock is not like our Rock, even our enemies concede.
+   - KJV: For their rock is not as our Rock, even our enemies themselves being judges.
+
+## Versions: the BSB other (6 verses)
+
+- **4:48** BSB: Or Sion; Syriac Sirion
+   - Latin: quī duo rēgēs fuērunt Amorræī Cisjordānīnī ad ortum sōlis, ab Arōēre, quod fuit ad rīpam fluviī Arnōnis, ad montem Sēōnem,
+   - 1738: qui duo reges fuerunt amorræi cisiordanini ad ortum solis, ab Aroere, quod fuit ad ripam fluuii Arnonis, ad montem Seonem,
+   - WLC: מֵעֲרֹעֵ֞ר אֲשֶׁ֨ר עַל־שְׂפַת־נַ֧חַל אַרְנֹ֛ן וְעַד־הַ֥ר שִׂיאֹ֖ן ה֥וּא חֶרְמֽוֹן׃
+   - BSB: extending from Aroer on the rim of the Arnon Valley as far as Mount Siyon (that is, Hermon),
+   - KJV: From Aroer, which is by the bank of the river Arnon, even unto mount Sion, which is Hermon,
+- **9:19** BSB: LXX And I am greatly terrified; cited in Hebrews 12:21
+   - Latin: Etenim pertimēscēbam īram illam, et ārdōrem, quō Jōva in vestram perniciem incitābātur. Ergō tum etiam mē exaudīvit Jōva.
+   - 1738: Etenim pertimescebam iram illam, et ardorem, quo Ioua in vestram perniciem incitabatur. Ergo tum etiam me exaudiuit Ioua.
+   - WLC: כִּ֣י יָגֹ֗רְתִּי מִפְּנֵ֤י הָאַף֙ וְהַ֣חֵמָ֔ה אֲשֶׁ֨ר קָצַ֧ף יְהוָ֛ה עֲלֵיכֶ֖ם לְהַשְׁמִ֣יד אֶתְכֶ֑ם וַיִּשְׁמַ֤ע יְהוָה֙ אֵלַ֔י גַּ֖ם בַּפַּ֥עַם הַהִֽוא׃
+   - BSB: For I was afraid of the anger and wrath that the LORD had directed against you, enough to destroy you. But the LORD listened to me this time as well.
+   - KJV: For I was afraid of the anger and hot displeasure, wherewith the LORD was wroth against you to destroy you. But the LORD hearkened unto me at that time also.
+- **27:26** BSB: LXX Cursed is every man who does not continue in all the words of this law; cited in Galatians 3:10
+   - Latin: “‘Exsecrābilis, quī lēgis hujus dicta nōn præstiterit atque fēcerit.’ Et ūniversus populus, ‘Āmēn.’”
+   - 1738: Exsecrabilis, qui legis huius dicta non præstiterit atque fecerit: et vniuersus populus, amen.
+   - WLC: אָר֗וּר אֲשֶׁ֧ר לֹא־יָקִ֛ים אֶת־דִּבְרֵ֥י הַתּוֹרָֽה־הַזֹּ֖את לַעֲשׂ֣וֹת אוֹתָ֑ם וְאָמַ֥ר כָּל־הָעָ֖ם אָמֵֽן׃ פ
+   - BSB: ‘Cursed is he who does not put the words of this law into practice.’ And let all the people say, ‘Amen!’
+   - KJV: Cursed be he that confirmeth not all the words of this law to do them. And all the people shall say, Amen.
+- **32:21** BSB: Or not a nation; see also LXX.
+   - Latin: Sunt enim perversa nātiō, fīliī perfidī, quī mē per nōn deum irrītārunt, per sua illa inānia incendērunt: quōs ego vicissim per nōn populum irrītābō, per gentem dēmentem incendam.
+   - 1738: Sunt enim peruersa natio, filii perfidi, qui me per non deum irritarunt, per sua illa inania incenderunt: quos ego vicissim per non populum irritabo, per gentem dementem incendam.
+   - WLC: הֵ֚ם קִנְא֣וּנִי בְלֹא־אֵ֔ל כִּעֲס֖וּנִי בְּהַבְלֵיהֶ֑ם וַאֲנִי֙ אַקְנִיאֵ֣ם בְּלֹא־עָ֔ם בְּג֥וֹי נָבָ֖ל אַכְעִיסֵֽם׃
+   - BSB: They have provoked My jealousy by that which is not God; they have enraged Me with their worthless idols. So I will make them jealous by those who are not a people; I will make them angry by a nation without understanding.
+   - KJV: They have moved me to jealousy with that which is not God; they have provoked me to anger with their vanities: and I will move them to jealousy with those which are not a people; I will provoke them to anger with a foolish nation.
+- **32:36** BSB: Or will judge His people; see also LXX; cited in Hebrews 10:30
+   - Latin: Patrōcinābitur enim Jōva suō populō: super suīs flectet animum, cum vidēbit eōs languente manū plānē oppressōs atque dēstitūtōs:
+   - 1738: Patrocinabitur enim Ioua suo populo: super suis flectet animum, quum videbit eos languente manu plane oppressos atque destitutos:
+   - WLC: כִּֽי־יָדִ֤ין יְהוָה֙ עַמּ֔וֹ וְעַל־עֲבָדָ֖יו יִתְנֶחָ֑ם כִּ֤י יִרְאֶה֙ כִּי־אָ֣זְלַת יָ֔ד וְאֶ֖פֶס עָצ֥וּר וְעָזֽוּב׃
+   - BSB: For the LORD will vindicate His people and have compassion on His servants when He sees that their strength is gone and no one remains, slave or free.
+   - KJV: For the LORD shall judge his people, and repent himself for his servants, when he seeth that their power is gone, and there is none shut up, or left.
+- **34:6** BSB: SP and some LXX manuscripts they buried him
+   - Latin: quī eum sepelīvit in valle quādam in terrā Mōabīticā, secundum Bēthphegōr; neque quisquam hominum hāctenus ejus sepulcrum scīvit.
+   - 1738: qui eum sepeliuit in valle quadam in terra moabitica, secundum Bethphegor; neque quisquam hominum hactenus eius sepulcrum sciuit.
+   - WLC: וַיִּקְבֹּ֨ר אֹת֤וֹ בַגַּיְ֙ בְּאֶ֣רֶץ מוֹאָ֔ב מ֖וּל בֵּ֣ית פְּע֑וֹר וְלֹֽא־יָדַ֥ע אִישׁ֙ אֶת־קְבֻ֣רָת֔וֹ עַ֖ד הַיּ֥וֹם הַזֶּֽה׃
+   - BSB: And He buried him in a valley in the land of Moab facing Beth-peor, and no one to this day knows the location of his grave.
+   - KJV: And he buried him in a valley in the land of Moab, over against Beth-peor: but no man knoweth of his sepulchre unto this day.
+
+## Numbers (21 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **1:11** Hebrew 1000; Latin none
+   - Latin: optāre quidem, ut Jōva Deus vester patrius vōs etiam mīllecuplō augēret, et suō favōre prōsequerētur, quemadmodum prōmīsisset:
+   - 1738: optare quidem, vt Ioua Deus vester patrius vos etiam millecuplo augeret, et suo fauore prosequeretur, quemadmodum promisisset:
+   - WLC: יְהוָ֞ה אֱלֹהֵ֣י אֲבֽוֹתֵכֶ֗ם יֹסֵ֧ף עֲלֵיכֶ֛ם כָּכֶ֖ם אֶ֣לֶף פְּעָמִ֑ים וִיבָרֵ֣ךְ אֶתְכֶ֔ם כַּאֲשֶׁ֖ר דִּבֶּ֥ר לָכֶֽם׃
+   - BSB: May the LORD, the God of your fathers, increase you a thousand times over and bless you as He has promised.
+   - KJV: (The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!)
+- **1:15** Hebrew 10, 50, 100, 1000; Latin 50, 100, 1000
+   - Latin: dēlēgī vestrārum tribuum prīncipēs, virōs sapientēs et perītōs, quōs vōbīs præfectōs statuī mīllēnāriōs, centēnāriōs, quīnquāgēnāriōs et dēnāriōs, tum etiam tribuum vestrārum tribūnōs:
+   - 1738: delegi vestrarum tribuum principes, viros sapientes et peritos, quos vobis præfectos statui millenarios, centenarios, quinquagenarios et denarios, tum etiam tribuum vestrarum tribunos:
+   - WLC: וָאֶקַּ֞ח אֶת־רָאשֵׁ֣י שִׁבְטֵיכֶ֗ם אֲנָשִׁ֤ים חֲכָמִים֙ וִֽידֻעִ֔ים וָאֶתֵּ֥ן אֹתָ֛ם רָאשִׁ֖ים עֲלֵיכֶ֑ם שָׂרֵ֨י אֲלָפִ֜ים וְשָׂרֵ֣י מֵא֗וֹת וְשָׂרֵ֤י חֲמִשִּׁים֙ וְשָׂרֵ֣י עֲשָׂרֹ֔ת וְשֹׁטְרִ֖ים לְשִׁבְטֵיכֶֽם׃
+   - BSB: So I took the leaders of your tribes, wise and respected men, and appointed them as leaders over you—as commanders of thousands, of hundreds, of fifties, and of tens, and as officers for your tribes.
+   - KJV: So I took the chief of your tribes, wise men, and known, and made them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes.
+- **4:47** Hebrew 2; Latin none
+   - Latin: Cujus terram Mōsēs et Isrāēlītæ ex Ægyptō ēgressī, eō occīsō, occupārunt, ūnā cum terrā Ōgī Bāsānæ rēgis,
+   - 1738: Cuius terram Moses et Israelitæ ex Aegypto egressi, eo occiso, occuparunt, vna cum terra Ogi Basanæ regis,
+   - WLC: וַיִּֽירְשׁ֨וּ אֶת־אַרְצ֜וֹ וְאֶת־אֶ֣רֶץ ׀ ע֣וֹג מֶֽלֶךְ־הַבָּשָׁ֗ן שְׁנֵי֙ מַלְכֵ֣י הָֽאֱמֹרִ֔י אֲשֶׁ֖ר בְּעֵ֣בֶר הַיַּרְדֵּ֑ן מִזְרַ֖ח שָֽׁמֶשׁ׃
+   - BSB: They took possession of the land belonging to Sihon and to Og king of Bashan—the two Amorite kings across the Jordan to the east—
+   - KJV: And they possessed his land, and the land of Og king of Bashan, two kings of the Amorites, which were on this side Jordan toward the sunrising;
+- **4:48** Hebrew none; Latin 2
+   - Latin: quī duo rēgēs fuērunt Amorræī Cisjordānīnī ad ortum sōlis, ab Arōēre, quod fuit ad rīpam fluviī Arnōnis, ad montem Sēōnem,
+   - 1738: qui duo reges fuerunt amorræi cisiordanini ad ortum solis, ab Aroere, quod fuit ad ripam fluuii Arnonis, ad montem Seonem,
+   - WLC: מֵעֲרֹעֵ֞ר אֲשֶׁ֨ר עַל־שְׂפַת־נַ֧חַל אַרְנֹ֛ן וְעַד־הַ֥ר שִׂיאֹ֖ן ה֥וּא חֶרְמֽוֹן׃
+   - BSB: extending from Aroer on the rim of the Arnon Valley as far as Mount Siyon (that is, Hermon),
+   - KJV: From Aroer, which is by the bank of the river Arnon, even unto mount Sion, which is Hermon,
+- **5:9** Hebrew none; Latin 3, 4
+   - Latin: Ea nē adōrātō aut colitō. Nam ego Jōva Deus tuus, Deus æmulus, parentum culpam persequor in līberōs usque ad trēs aut quattuor stirpēs ōsōrum meī:
+   - 1738: Ea ne adorato aut colito. Nam ego Ioua Deus tuus, Deus æmulus, parentum culpam persequor in liberos vsque ad tres aut quatuor stirpes osorum mei:
+   - WLC: לֹא־תִשְׁתַּחֲוֶ֥ה לָהֶ֖ם וְלֹ֣א תָעָבְדֵ֑ם כִּ֣י אָנֹכִ֞י יְהוָ֤ה אֱלֹהֶ֙יךָ֙ אֵ֣ל קַנָּ֔א פֹּ֠קֵד עֲוֺ֨ן אָב֧וֹת עַל־בָּנִ֛ים וְעַל־שִׁלֵּשִׁ֥ים וְעַל־רִבֵּעִ֖ים לְשֹׂנְאָֽי׃
+   - BSB: You shall not bow down to them or worship them; for I, the LORD your God, am a jealous God, visiting the iniquity of the fathers on their children to the third and fourth generations of those who hate Me,
+   - KJV: Thou shalt not bow down thyself unto them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me,
+- **10:3** Hebrew 2; Latin none
+   - Latin: Itaque arcam cedrinam fēcī, duāsque tabulās lapideās superiōribus similēs incīdī, et eās mēcum ferēns in montem ascendī.
+   - 1738: Itaque arcam cedrinam feci, duasque tabulas lapideas superioribus similes incidi, et eas mecum ferens in montem adscendi.
+   - WLC: וָאַ֤עַשׂ אֲרוֹן֙ עֲצֵ֣י שִׁטִּ֔ים וָאֶפְסֹ֛ל שְׁנֵי־לֻחֹ֥ת אֲבָנִ֖ים כָּרִאשֹׁנִ֑ים וָאַ֣עַל הָהָ֔רָה וּשְׁנֵ֥י הַלֻּחֹ֖ת בְּיָדִֽי׃
+   - BSB: So I made an ark of acacia wood, chiseled out two stone tablets like the originals, and went up the mountain with the two tablets in my hands.
+   - KJV: And I made an ark of shittim wood, and hewed two tables of stone like unto the first, and went up into the mount, having the two tables in mine hand.
+- **13:9** Hebrew none; Latin 2
+   - Latin: sed interficitōte, ita ut tua manus prīma sit in eō necandō, cēterōrum autem omnium secunda;
+   - 1738: sed interficitote, ita vt tua manus prima sit in eo necando, ceterorum autem omnium secunda;
+   - WLC: כִּ֤י הָרֹג֙ תַּֽהַרְגֶ֔נּוּ יָֽדְךָ֛ תִּֽהְיֶה־בּ֥וֹ בָרִֽאשׁוֹנָ֖ה לַהֲמִית֑וֹ וְיַ֥ד כָּל־הָעָ֖ם בָּאַחֲרֹנָֽה׃
+   - BSB: Instead, you must surely kill him. Your hand must be the first against him to put him to death, and then the hands of all the people.
+   - KJV: But thou shalt surely kill him; thine hand shall be first upon him to put him to death, and afterwards the hand of all the people.
+- **14:6** Hebrew 2; Latin none
+   - Latin: Dēnique quodcumque animālium ungulam dīvīsam habet, et bisulcum est, rūminatque, eō vēsciminī.
+   - 1738: Denique quodcumque animalium vngulam diuisam habet, et bisulcum est, ruminatque, eo vescimini.
+   - WLC: וְכָל־בְּהֵמָ֞ה מַפְרֶ֣סֶת פַּרְסָ֗ה וְשֹׁסַ֤עַת שֶׁ֙סַע֙ שְׁתֵּ֣י פְרָס֔וֹת מַעֲלַ֥ת גֵּרָ֖ה בַּבְּהֵמָ֑ה אֹתָ֖הּ תֹּאכֵֽלוּ׃
+   - BSB: You may eat any animal that has a split hoof divided in two and that chews the cud.
+   - KJV: And every beast that parteth the hoof, and cleaveth the cleft into two claws, and cheweth the cud among the beasts, that ye shall eat.
+- **14:22** Hebrew 10; Latin none
+   - Latin: Omnem tuæ sēmentis prōventum, quem ager reddet, quotannīs decumātō;
+   - 1738: Omnem tuæ sementis prouentum, quem ager reddet, quotannis decumato;
+   - WLC: עַשֵּׂ֣ר תְּעַשֵּׂ֔ר אֵ֖ת כָּל־תְּבוּאַ֣ת זַרְעֶ֑ךָ הַיֹּצֵ֥א הַשָּׂדֶ֖ה שָׁנָ֥ה שָׁנָֽה׃
+   - BSB: You must be sure to set aside a tenth of all the produce brought forth each year from your fields.
+   - KJV: Thou shalt truly tithe all the increase of thy seed, that the field bringeth forth year by year.
+- **14:25** Hebrew none; Latin 10
+   - Latin: cum tē Jōva Deus tuus dītāverit, decumās pecūniā addīcitō, eamque tēcum in loculīs ferēns, locum ā Jōvā ēlēctum petitō;
+   - 1738: quum te Ioua Deus tuus ditauerit, decumas pecunia addicito, eamque tecum in loculis ferens, locum a Ioua electum petito;
+   - WLC: וְנָתַתָּ֖ה בַּכָּ֑סֶף וְצַרְתָּ֤ הַכֶּ֙סֶף֙ בְּיָ֣דְךָ֔ וְהָֽלַכְתָּ֙ אֶל־הַמָּק֔וֹם אֲשֶׁ֥ר יִבְחַ֛ר יְהוָ֥ה אֱלֹהֶ֖יךָ בּֽוֹ׃
+   - BSB: then exchange it for money, take the money in your hand, and go to the place the LORD your God will choose.
+   - KJV: Then shalt thou turn it into money, and bind up the money in thine hand, and shalt go unto the place which the LORD thy God shall choose:
+- **15:18** Hebrew 6; Latin 2, 6
+   - Latin: Nē illum gravātē manūmittitō, quī tibi bis tam diū servierit, quamdiū mercēde conductus mercēnārius, vidēlicet sex annīs: et Jōva Deus tuus omnia tibi, quæ faciēs, fortūnābit.
+   - 1738: Ne illum grauate manumittito, qui tibi bis tamdiu seruierit, quamdiu mercede conductus mercenarius, videlicet sex annis: et Ioua Deus tuus omnia tibi, quæ facies, fortunabit.
+   - WLC: לֹא־יִקְשֶׁ֣ה בְעֵינֶ֗ךָ בְּשַׁלֵּֽחֲךָ֙ אֹת֤וֹ חָפְשִׁי֙ מֵֽעִמָּ֔ךְ כִּ֗י מִשְׁנֶה֙ שְׂכַ֣ר שָׂכִ֔יר עֲבָֽדְךָ֖ שֵׁ֣שׁ שָׁנִ֑ים וּבֵֽרַכְךָ֙ יְהוָ֣ה אֱלֹהֶ֔יךָ בְּכֹ֖ל אֲשֶׁ֥ר תַּעֲשֶֽׂה׃ פ
+   - BSB: Do not regard it as a hardship to set your servant free, because his six years of service were worth twice the wages of a hired hand. And the LORD your God will bless you in all you do.
+   - KJV: It shall not seem hard unto thee, when thou sendest him away free from thee; for he hath been worth a double hired servant to thee, in serving thee six years: and the LORD thy God shall bless thee in all that thou doest.
+- **17:6** Hebrew 2, 3; Latin 2
+   - Latin: ita ut ex duōrum triumve testium ōre moriātur reus; ex ūnīus autem ōre nē moriātur.
+   - 1738: ita vt ex duorum triumue testium ore moriatur reus; ex vnius autem ore ne moriatur.
+   - WLC: עַל־פִּ֣י ׀ שְׁנַ֣יִם עֵדִ֗ים א֛וֹ שְׁלֹשָׁ֥ה עֵדִ֖ים יוּמַ֣ת הַמֵּ֑ת לֹ֣א יוּמַ֔ת עַל־פִּ֖י עֵ֥ד אֶחָֽד׃
+   - BSB: On the testimony of two or three witnesses a man shall be put to death, but he shall not be executed on the testimony of a lone witness.
+   - KJV: At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; but at the mouth of one witness he shall not be put to death.
+- **19:3** Hebrew none; Latin 3
+   - Latin: viamque ita compōnitōte, ut vestrōs fīnēs, quōrum vōbīs fuerit ā Jōvā Deō vestrō concessa possessiō, in trēs partēs partiāminī, ut eō cōnfugiant omnēs percussōrēs.
+   - 1738: viamque ita componitote, vt vestros fines, quorum vobis fuerit a Ioua Deo vestro concessa possessio, in tres partes partiamini, vt eo confugiant omnes percussores.
+   - WLC: תָּכִ֣ין לְךָ֮ הַדֶּרֶךְ֒ וְשִׁלַּשְׁתָּ֙ אֶת־גְּב֣וּל אַרְצְךָ֔ אֲשֶׁ֥ר יַנְחִֽילְךָ֖ יְהוָ֣ה אֱלֹהֶ֑יךָ וְהָיָ֕ה לָנ֥וּס שָׁ֖מָּה כָּל־רֹצֵֽחַ׃
+   - BSB: You are to build roads for yourselves and divide into three regions the land that the LORD your God is giving you as an inheritance, so that any manslayer can flee to these cities.
+   - KJV: Thou shalt prepare thee a way, and divide the coasts of thy land, which the LORD thy God giveth thee to inherit, into three parts, that every slayer may flee thither.
+- **21:19** Hebrew none; Latin 2
+   - Latin: eum parentēs ambō prehēnsum ēdūcuntō ad illīus cīvitātis senātōrēs in ejus locī cūriam,
+   - 1738: eum parentes ambo prehensum educunto ad illius ciuitatis senatores in eius loci curiam,
+   - WLC: וְתָ֥פְשׂוּ ב֖וֹ אָבִ֣יו וְאִמּ֑וֹ וְהוֹצִ֧יאוּ אֹת֛וֹ אֶל־זִקְנֵ֥י עִיר֖וֹ וְאֶל־שַׁ֥עַר מְקֹמֽוֹ׃
+   - BSB: his father and mother are to lay hold of him and bring him to the elders of his city, to the gate of his hometown,
+   - KJV: Then shall his father and his mother lay hold on him, and bring him out unto the elders of his city, and unto the gate of his place;
+- **22:18** Hebrew none; Latin 100
+   - Latin: Tum senātōrēs hominem castīgantō, et centum argenteīs multantō, eōsque patrī puellæ dantō, quoniam Isrāēlīticæ virginis nōminī dētrāxerit:
+   - 1738: Tum senatores hominem castiganto, et centum argenteis multanto, eosque patri puellæ danto, quoniam israeliticæ virginis nomini detraxerit:
+   - WLC: וְלָֽקְח֛וּ זִקְנֵ֥י הָֽעִיר־הַהִ֖וא אֶת־הָאִ֑ישׁ וְיִסְּר֖וּ אֹתֽוֹ׃
+   - BSB: Then the elders of that city shall take the man and punish him.
+   - KJV: And the elders of that city shall take that man and chastise him;
+- **22:19** Hebrew 100; Latin none
+   - Latin: eamque ille ita uxōrem habētō, ut numquam repudiāre possit.
+   - 1738: eamque ille ita vxorem habeto, vt numquam repudiare possit.
+   - WLC: וְעָנְשׁ֨וּ אֹת֜וֹ מֵ֣אָה כֶ֗סֶף וְנָתְנוּ֙ לַאֲבִ֣י הַֽנַּעֲרָ֔ה כִּ֤י הוֹצִיא֙ שֵׁ֣ם רָ֔ע עַ֖ל בְּתוּלַ֣ת יִשְׂרָאֵ֑ל וְלֽוֹ־תִהְיֶ֣ה לְאִשָּׁ֔ה לֹא־יוּכַ֥ל לְשַּׁלְּחָ֖הּ כָּל־יָמָֽיו׃ ס
+   - BSB: They are also to fine him a hundred shekels of silver and give them to the young woman’s father, because this man has given a virgin of Israel a bad name. And she shall remain his wife; he must not divorce her as long as he lives.
+   - KJV: And they shall amerce him in an hundred shekels of silver, and give them unto the father of the damsel, because he hath brought up an evil name upon a virgin of Israel: and she shall be his wife; he may not put her away all his days.
+- **25:3** Hebrew 40; Latin none
+   - Latin: Quadrāgēsiēs nōn amplius ferītō; nē sī multum ad hanc verberātiōnem addiderit, contumēliā afficiātur frāter vester in vestrā præsentiā.
+   - 1738: Quadragesies non amplius ferito; ne si multum ad hanc verberationem addiderit, contumelia adficiatur frater vester in vestra præsentia.
+   - WLC: אַרְבָּעִ֥ים יַכֶּ֖נּוּ לֹ֣א יֹסִ֑יף פֶּן־יֹסִ֨יף לְהַכֹּת֤וֹ עַל־אֵ֙לֶּה֙ מַכָּ֣ה רַבָּ֔ה וְנִקְלָ֥ה אָחִ֖יךָ לְעֵינֶֽיךָ׃ ס
+   - BSB: He may receive no more than forty lashes, lest your brother be beaten any more than that and be degraded in your sight.
+   - KJV: Forty stripes he may give him, and not exceed: lest, if he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee.
+- **28:56** Hebrew none; Latin 2
+   - Latin: Quæ apud vōs ita mollis erit et dēlicāta, ut præ mollitiē et dēliciīs pedis vestīgium humī fīgere nōn sustineat: ea et suī complexūs virō, et fīliō, et fīliæ, secundās ex interfēmineō suō ēgressās,
+   - 1738: Quæ apud vos ita mollis erit et delicata, vt præ mollitie et deliciis pedis vestigium humi figere non sustineat: ea et sui complexus viro, et filio, et filiæ, secundas ex interfemineo suo egressas,
+   - WLC: הָרַכָּ֨ה בְךָ֜ וְהָעֲנֻגָּ֗ה אֲשֶׁ֨ר לֹא־נִסְּתָ֤ה כַף־רַגְלָהּ֙ הַצֵּ֣ג עַל־הָאָ֔רֶץ מֵהִתְעַנֵּ֖ג וּמֵרֹ֑ךְ תֵּרַ֤ע עֵינָהּ֙ בְּאִ֣ישׁ חֵיקָ֔הּ וּבִבְנָ֖הּ וּבְבִתָּֽהּ׃
+   - BSB: The most gentle and refined woman among you, so gentle and refined she would not venture to set the sole of her foot on the ground, will begrudge the husband she embraces and her son and daughter
+   - KJV: The tender and delicate woman among you, which would not adventure to set the sole of her foot upon the ground for delicateness and tenderness, her eye shall be evil toward the husband of her bosom, and toward her son, and toward her daughter,
+- **32:30** Hebrew 2, 1000, 10000; Latin 2, 10, 1000
+   - Latin: fierīne posset, ut persequerētur ūnus mīlle, et duo fugārent decem mīllia, nisi illōs ipsōrum nūmen dēderet, nisi Jōva addīceret?
+   - 1738: fieri ne posset, vt persequeretur vnus mille, et duo fugarent decem millia, nisi illos ipsorum numen dederet, nisi Ioua addiceret?
+   - WLC: אֵיכָ֞ה יִרְדֹּ֤ף אֶחָד֙ אֶ֔לֶף וּשְׁנַ֖יִם יָנִ֣יסוּ רְבָבָ֑ה אִם־לֹא֙ כִּי־צוּרָ֣ם מְכָרָ֔ם וַֽיהוָ֖ה הִסְגִּירָֽם׃
+   - BSB: How could one man pursue a thousand, or two put ten thousand to flight, unless their Rock had sold them, unless the LORD had given them up?
+   - KJV: How should one chase a thousand, and two put ten thousand to flight, except their Rock had sold them, and the LORD had shut them up?
+- **33:2** Hebrew 10000; Latin none
+   - Latin: “Jōva dē Sīnā vēnit,” inquit, “ex Seire exortus est iīs, patuit ex monte Pharane, vēnitque ob sacrās legiōnēs, ignem disciplīnæ iīs habēns ad dextram suam, hominum sānē amātor,
+   - 1738: Ioua de Sina venit, inquit, ex Seire exortus est eis, patuit ex monte Pharane, venitque ob sacras legiones, ignem disciplinæ eis habens ad dextram suam, hominum sane amator,
+   - WLC: וַיֹּאמַ֗ר יְהוָ֞ה מִסִּינַ֥י בָּא֙ וְזָרַ֤ח מִשֵּׂעִיר֙ לָ֔מוֹ הוֹפִ֙יעַ֙ מֵהַ֣ר פָּארָ֔ן וְאָתָ֖ה מֵרִבְבֹ֣ת קֹ֑דֶשׁ מִֽימִינ֕וֹ אשדת לָֽמוֹ׃
+   - BSB: He said: “The LORD came from Sinai and dawned upon us from Seir; He shone forth from Mount Paran and came with myriads of holy ones, with flaming fire at His right hand.
+   - KJV: And he said, The LORD came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran, and he came with ten thousands of saints: from his right hand went a fiery law for them.
+- **33:17** Hebrew 1000, 10000; Latin none
+   - Latin: Prīmōgenitus bōs ejus majestāte præditus est, et cornibus monocerōtiīs, quibus populōs prōtinus ad extrēmum terrārum arietābit. Atque hujusmodī sunt Ephrāimī legiōnēs, hujusmodī Manassis cohortēs.”
+   - 1738: Primogenitus bos eius maiestate præditus est, et cornibus monocerotiis, quibus populos protinus ad extremum terrarum arietabit. Atque huiusmodi sunt Ephraimi legiones, huiusmodi Manassis cohortes.
+   - WLC: בְּכ֨וֹר שׁוֹר֜וֹ הָדָ֣ר ל֗וֹ וְקַרְנֵ֤י רְאֵם֙ קַרְנָ֔יו בָּהֶ֗ם עַמִּ֛ים יְנַגַּ֥ח יַחְדָּ֖ו אַפְסֵי־אָ֑רֶץ וְהֵם֙ רִבְב֣וֹת אֶפְרַ֔יִם וְהֵ֖ם אַלְפֵ֥י מְנַשֶּֽׁה׃ ס
+   - BSB: His majesty is like a firstborn bull, and his horns are like those of a wild ox. With them he will gore the nations, even to the ends of the earth. Such are the myriads of Ephraim, and such are the thousands of Manasseh.”
+   - KJV: His glory is like the firstling of his bullock, and his horns are like the horns of unicorns: with them he shall push the people together to the ends of the earth: and they are the ten thousands of Ephraim, and they are the thousands of Manasseh.

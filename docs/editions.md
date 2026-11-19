@@ -333,6 +333,17 @@ oraculi propitiatorio tectam collocato*, revised by 1573 to *Ibi arcam oraculi c
 (the same sense). Castellio's *G.* … *H.* marks in Exodus, in 1738 and 1750: 2:22 (Eliezer), 6:20 (Miriam), 28:33–34
 (*et bysso bilice*).
 
+### Deuteronomy 2:7 revised after 1554 (notes search, 2026-11-18)
+
+1554 prints *qui uobis iter tutum præbuisset in uasta illa solitudine* (MDZ bsb10196330, canvas 104), and its
+annotation defends the free rendering of יָדַע לֶכְתְּךָ (*In Hebræo est, Qui uestrum iter nouisset. Sed ego sensum, non
+uerba reddidi*; canvas 822, column 339). 1573 has the text revised nearer the Hebrew, *Qui vestrum iter curauisset*,
+and the annotation's lemma revised with it (MDZ bsb10141277, canvas 135, OCR via the search API; the rest of the
+annotation as in 1554); 1738 follows (*quī vestrum iter cūrāvisset*). Revised in 1556 (Castellio's own) or for 1573:
+not checked (`data/review/deut-notes-1554.md`). Castellio's 1554 annotations on Deuteronomy run from canvas 821, column
+338, to canvas 824, column 343; two chapter heads there are wrong (the 7:10 note under *CAP. VIII.*, 21:19 under *CAP.
+XX.*).
+
 ### Castellio's annotation on *rudentem* (Matt 19:24), seen in 1573
 
 1573 prints Castellio's *Annotatio* after Matthew 19 (canvas 766, crop `sources/mdz-1573/crops/Matt.19.24-annotatio.jpg`).
