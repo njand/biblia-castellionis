@@ -4,7 +4,10 @@ Stage 1–2 for chapters Wikisource lacks (decision 68; `pipeline/ocrdraft.py`).
 
 - `<osis><chapters>.voted.tsv`: 1738's OCR (`archive.org bibliasacraexseb01cast` hOCR), one row per printed line
   (`leaf column line text`), running heads, chapter summaries, catchwords and margin numbers taken off; each word
-  repaired and voted with 1750 and 1726; verse starts as `#N`, chapters as `\c N`. Made by `ocrdraft.make_lines`.
+  repaired and voted with 1750, Wikisource and 1726; verse starts as `#N`, chapters as `\c N`. Made by `ocrdraft.make_lines`
+  (`python -m pipeline lines BOOK CH --leaves A-B`, since 2026-11-19; the files before it were voted without Wikisource).
+- `<osis><chapters>.doubts.tsv`: `leaf column line ocr voted others`, the places where two or more of the other witnesses
+  agree on a word against the vote, to be looked at first when the lines are read.
 - `<osis><chapters>.tsv`: the same after every line was read on the page image (crops from
   `ocrdraft.reading_sheets`, each line's crop under its text): the words and punctuation as 1738 prints them (s for
   ſ, & and q; expanded, æ and œ as printed, u/v and i/j as printed), a drop capital written with its word (HAec),

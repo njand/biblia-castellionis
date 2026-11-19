@@ -4,6 +4,18 @@ A reader's edition of Sebastian Castellio's Latin Bible: Gaffiot 2016 orthograph
 paragraphs, poetry and quotation marks, KJV versification. `PLAN.md` describes the automated pipeline being
 built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nathan.
 
+**A new book goes through three phases** (decision 85, 2026-11-19; PLAN.md §4), each ending in one summary for Nathan:
+1. **Transcribe**: 1738's lines voted from its OCR, 1750, 1726 (where `TXT/1` has the book) and
+   Wikisource, then every line read on the page once
+   (`data/witnesses/read-1738/`), with paragraphs, footnotes and Castellio's marks; `draft --from-ocr`, `versify
+   --draft`, `orig --read-lines`. Gate: the printed text approved (`<osis><CH>-transcription.md`) → `text/orig/`.
+2. **Edit and annotate**: `propose` (spelling, macrons, layout, names) and the notes search side by side, then a
+   proofread. Gate: the book settled with its notes (`<osis><CH>-edition.md`) → `text/`.
+3. **Build and check**.
+
+This holds for the Old Testament books still to do (Wikisource or not) and the Apocrypha. Joshua, begun before it,
+already went through phase 1 this way (every line read, decision 68's route); its notes pass is still to do.
+
 ## Rules
 
 - **USFM is the master copy** (`text/<USFM code>.usfm`, one file per book; decided 2026-11-05). Every published
@@ -20,12 +32,12 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 - **Wikisource text is CC BY-SA 4.0.** Keep `data/witnesses/wikisource/MANIFEST.tsv` (page and revision) current;
   the edition must credit Wikisource, for the books it supplied (decision 54: Genesis 1–35 and the Gospels began
   as Nathan's 2019 transcription, which Wikisource's pages of 2021 follow; the page list is linked, not printed).
-- **Collect Castellio's printed text as you go** (decision 57; PLAN.md §4, stage 2b). Whenever you read a page
-  image, quote the word exactly as the base edition prints it (spelling, u/v, i/j, ligatures, the punctuation
-  beside it), and when `pipeline orig` would not give that form, add a row to `data/decisions/<osis>.orig.tsv` in the
-  same pass. As soon as a chapter's stage 2 is done, run `python -m pipeline orig` for it, read the spelling-prone
-  and near-miss words on the page, and keep the draft in review beside the chapter's own. Never leave the printed
-  spelling to be recovered later. The printed text follows the page exactly (decision 58): never normalize it, not even
+- **Read each page once, and take everything from it** (decisions 57, 85). The read lines are the printed text:
+  the words exactly as the base edition prints them (spelling, u/v, i/j, ligatures, the punctuation beside them),
+  the paragraph indents, the footnotes and Castellio's marks, all in the same pass. Whenever any later step reads a
+  page image, quote the word as printed, and correct the read lines (or, once approved, propose against
+  `text/orig/`) in the same pass. Never leave the printed spelling, a paragraph or a footnote to be recovered later.
+  The printed text follows the page exactly (decision 58): never normalize it, not even
   Castellio's inconsistencies or his printer's misprints; s for ſ.
 - **"Approved for now"** (Nathan, 2026-11-08): he settles chapters on Claude's own careful review and will read the
   whole text in depth later. Check every flag and verse yourself, with evidence (page images for wording), record
@@ -47,6 +59,7 @@ built; `brief.md` holds the editorial rules; `HUMAN.md` lists what waits on Nath
 |---|---|
 | `text/<USFM code>.usfm` | **The master copy**, one file per book (created by the M1 migration); markers in PLAN.md §3 |
 | `text/FRT.usfm` | The Latin front matter (Ad lēctōrem, life, translation, method, signs, reading list), in USFM's introduction markers with `\z…` edition conditions; built into every format by `pipeline/frontmatter.py`. Reviewed in `docs/front-matter.md` |
+| `data/witnesses/read-1738/` | 1738 read on the page line by line (phase 1; `README.md` there): `<osis><CH>.voted.tsv` the voted OCR, `<osis><CH>.tsv` the lines as read, `.corrections.tsv` what the reading changed, `.doubts.tsv` the places the other witnesses agree against the vote. The source of both the printed text and the draft |
 | `text/draft/<USFM code>.usfm` | Drafted, unchecked chapters (Wikisource via `pipeline draft`, or 1738's lines read on the page for books Wikisource lacks (Exodus 31–40, Leviticus 12–27, Numbers, Deuteronomy); a draft in review has its `.preview.usfm` beside it); not settled. Once approved, a draft's chapters move into `text/<USFM code>.usfm` and the draft file goes (Matthew 14–28 settled 2026-11-07, Mark 6–16, Luke 14–24, John 5–21 and Genesis 28–50 2026-11-08, Romans 1–16, Acts 1–28 and Exodus 1–20 2026-11-09, 1 Corinthians 1–16 and 2 Corinthians 1–13 2026-11-10, Galatians, Ephesians, Philippians, Colossians, 1–2 Thessalonians, 1–2 Timothy, Titus and Philemon 2026-11-11, Hebrews, James, 1 Peter–Jude and Revelation 2026-11-12, Exodus 21–30 2026-11-14, Exodus 31–40 2026-11-15, Leviticus 1–27 2026-11-16, Numbers 1–36 2026-11-16, Deuteronomy 1–34 2026-11-18: the whole Pentateuch; Joshua 1–24 2026-11-19; Judges 1–21 2026-11-19, every verse read on 1738's pages since Wikisource's Judges is a loose transcript) |
 | `data/review/*.md` | Proposals with exact **Apply** lines and **Decision** lines; applied by `python -m pipeline review apply` |
 | `text/orig/<USFM code>.usfm` | **Castellio's text as printed, approved** (decisions 57, 58, 61): the settled words as the base edition prints them (1573 for the NT: spelling, u/v and i/j, capitals, punctuation, misprints and word division as printed, s for ſ; one paragraph per verse). All 27 NT books approved 2026-11-13, and again 2026-11-15 with Castellio's accents and every word read on the page (`data/review/nt-orig-accents.md`). **Genesis** and **Exodus** (1738) approved 2026-11-15, after every word the OCR missed and every mark beside one were read on the page (`data/review/ot-orig-gen-exod1-20.md`; Exodus 31–40 from the lines read in stage 2, `exod31-40-orig.md`). **Leviticus** (1738) approved 2026-11-16, read on the page the same way (`data/review/lev-orig.md`; 12–27 from the lines read in stage 2). **Numbers** (1738) approved for now 2026-11-17, every word from the lines read on the page in stage 2 (`data/review/num-orig.md`; its paragraphs not yet checked on the page). **Deuteronomy** (1738) approved for now 2026-11-18 the same way (`data/review/deut-orig.md`). **Joshua** (1738) approved for now 2026-11-19 the same way (`data/review/josh-orig.md`). **Judges** (1738) approved for now 2026-11-19, every word the OCR missed and every paragraph read on the page (`data/review/judg-orig.md`). Never rewritten by code, like `text/`; the site's *Edited text | As printed, 1573* choice reads it, and `data/orig/<osis>.pages.tsv` gives each verse's 1573 page for its link to the page image (`pipeline orig BOOK CH --pages`) |
@@ -98,13 +111,17 @@ python -m pipeline harness [BOOK…]           # normalize + macronize from Wiki
 python -m pipeline versify Gen [--apply]     # KJV renumbering from data/versification/Gen.edits.tsv (apply: all approved)
 python -m pipeline versify Matt --draft [--to COPY]   # the same for text/draft/ (Matt.draft.edits.tsv)
 python -m pipeline review check|apply FILE… [--write] [--items N…] [--all] [--to COPY]   # Apply lines of data/review/*.md
-python -m pipeline draft Mark 6-16            # stage 1: Wikisource → text/draft/MRK.usfm (never overwrites)
-python -m pipeline collate Matt 14-28 [--base draft|settled|wikisource|FILE]   # stage 2 → data/calibration/<osis><CH>-collation.tsv
-python -m pipeline propose Mark 6-16 [--rates] # stages 3–5 on an unmarked draft: one review item per verse → data/review/mark6-16-chNN.md + text/draft/MRK.preview.usfm
-python -m pipeline orig Matt 1-28               # stage 2b: Castellio's text as printed (base edition's OCR) → text/orig/draft/MAT.usfm
+python -m pipeline draft Mark 6-16            # (NT route) stage 1: Wikisource → text/draft/MRK.usfm (never overwrites)
+python -m pipeline lines --heads [--leaves 280-300]   # phase 1: each 1738 leaf's running head and chapters, to find a book's leaves
+python -m pipeline lines Judg 1-21 --leaves 292-318 [--sheets]   # phase 1: 1738's lines voted (OCR, 1750, Wikisource, 1726) → data/witnesses/read-1738/<osis><CH>.voted.tsv, .doubts.tsv; --sheets: the reading sheets
+python -m pipeline draft Judg 1-21 --from-ocr # phase 1: the read lines (data/witnesses/read-1738/) → text/draft/JDG.usfm
+python -m pipeline collate Matt 14-28 [--base draft|settled|wikisource|FILE]   # (NT route) stage 2 → data/calibration/<osis><CH>-collation.tsv
+python -m pipeline propose Mark 6-16 [--rates] # phase 2 (stages 3–5) on an unmarked draft: one review item per verse → data/review/mark6-16-chNN.md + text/draft/MRK.preview.usfm
+python -m pipeline orig Matt 1-28               # (NT route) stage 2b: Castellio's text as printed (base edition's OCR) → text/orig/draft/MAT.usfm
+python -m pipeline orig Judg 1-21 --read-lines  # phase 1: the printed text from the read lines → text/orig/draft/JDG.usfm
 python -m pipeline notes Mark                 # NT: candidates for light notes (SBLGNT apparatus, the TR alone, pronouns) → data/review/<book>-notes-candidates.md
 python -m pipeline notes Gen                  # OT (pipeline/otnotes.py; ot-notes-process.md): the BSB's notes naming a version, numerals against the Hebrew, short verses, Castellio's G.…H. marks
-python -m pipeline build Matt Mark Luke John --version v1.0   # stage 7: text/ → build/ (site, EPUBs, PDF LaTeX, TXT/TSV/JSON)
+python -m pipeline build Matt Mark Luke John --version v1.0   # phase 3: text/ → build/ (site, EPUBs, PDF LaTeX, TXT/TSV/JSON)
 python -m pipeline build Matt --only site --printed-drafts   # the site with the printed-text drafts (text/orig/draft/), for a preview
 python -m pipeline build Matt … --only print [--gutter 0.75in]   # the PDF for binding (wider inside margin, plain links) → build/print/; never on the site or released
 ```

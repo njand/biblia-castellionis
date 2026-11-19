@@ -99,3 +99,33 @@ class ToUsfm(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Vote(unittest.TestCase):
+    def voter(self):
+        from pipeline import align
+        known = {align.fold(w) for w in ("filius", "iouae", "chalebus", "calebus", "cum", "eum", "dixit")}
+        return ocrdraft.Voter(set(), known)
+
+    def test_own_word_first_then_others_in_order(self):
+        v = self.voter()
+        self.assertEqual(v.vote("dixit", ["xx", "cum"], ["1750", "Wikisource"]), "dixit")
+        self.assertEqual(v.vote("qqq", [None, "Calebus", "Chalebus"], ["1750", "Wikisource", "1726"]), "Calebus")
+        self.assertEqual(v.how["1738"], 1)
+        self.assertEqual(v.how["Wikisource"], 1)
+
+    def test_wikisource_word_in_the_print_letters(self):
+        # the OCR's Iouæ with a misread letter: Wikisource's Jovae is taken in 1738's letters
+        self.assertEqual(ocrdraft.in_print_letters("Iouæ", "Jovae"), "Iouæ")
+        self.assertEqual(ocrdraft.in_print_letters("zzz", "Jovae"), "Iovae")
+
+    def test_doubts_where_the_others_agree_against_the_vote(self):
+        voted = ["Chalebus", "cum", "dixit", "filius"]
+        others = [{0: "Calebus", 1: "eum", 2: "dixit", 3: "filius"},
+                  {0: "Calebus", 1: "eum", 2: "dixit"}]
+        self.assertEqual(ocrdraft.doubts(voted, others), [(0, "Calebus"), (1, "eum")])
+        # one other alone, or the others split, is no doubt
+        self.assertEqual(ocrdraft.doubts(["cum"], [{0: "eum"}]), [])
+        self.assertEqual(ocrdraft.doubts(["cum"], [{0: "eum"}, {0: "tum"}]), [])
+        # spelling alone (u/v, æ, long s) is no doubt
+        self.assertEqual(ocrdraft.doubts(["Iouæ"], [{0: "Jovae"}, {0: "Iouae"}]), [])

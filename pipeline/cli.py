@@ -21,6 +21,10 @@
   review check FILE…            check every Apply line of data/review/*.md (in order, on a copy): matches once?
   review apply FILE… [--write]  apply the accepted items (or --items N…, or --all) to text/ (or text/draft/, or
                                 --to a working copy); a dry run unless --write; rebuilds data/gold
+  lines BOOK CH-CH --leaves A-B phase 1: 1738's lines voted (OCR, 1750, Wikisource, 1726) → data/witnesses/read-1738/
+                                <osis><CH-CH>.voted.tsv, with .doubts.tsv (the others agreeing against the vote);
+                                --sheets: the reading sheets of the voted lines; --heads [--leaves A-B]: each leaf's
+                                running head, book title and chapters, for finding a book's leaves
   draft BOOK CH-CH              stage 1: Wikisource's chapters → text/draft/<USFM>.usfm (BSB paragraphs; never overwrites)
                                 (--from-ocr: 1738's lines read on the page, data/witnesses/read-1738/, ocrdraft.py)
   collate BOOK CH-CH [--base B] stage 2: every witness against the draft (or settled, wikisource, a USFM file), verse by
@@ -179,6 +183,58 @@ def review_files(action, files, write, numbers, everything, to):
     return 1 if failed else 0
 
 
+def _span(text):
+    first, _, last = text.partition("-")
+    return range(int(first), int(last or first) + 1)
+
+
+def lines_command(args):
+    """`pipeline lines`: phase 1's voted lines (PLAN.md §4), their doubts, the sheets to read them on, or the leaves'
+    running heads."""
+    from pipeline import archive, ocrdraft
+    if args.heads:
+        leaves = _span(args.leaves) if args.leaves else range(len(archive.pages("1738")))
+        for leaf, head, title, chapters in ocrdraft.heads(leaves):
+            print(f"{leaf}	{head}	{title}	{' '.join(str(c) for c in chapters)}")
+        return 0
+    if not (args.name and args.chapters):
+        raise SystemExit("lines: name a book and its chapters (or --heads)")
+    book = books.select([args.name])[0]
+    if book.testament != "vetus":
+        raise SystemExit("lines: 1738's lines are for the Old Testament")
+    chapters = _span(args.chapters)
+    span = f"{chapters.start}-{chapters.stop - 1}" if len(chapters) > 1 else str(chapters.start)
+    folder = paths.WITNESSES / "read-1738"
+    voted, read = folder / f"{book.osis}{span}.voted.tsv", folder / f"{book.osis}{span}.tsv"
+    if args.sheets:
+        if not voted.exists():
+            raise SystemExit(f"no {voted.relative_to(paths.ROOT).as_posix()}: run `pipeline lines` first")
+        out = archive.CROPS / "sheets" / "lines"
+        out.mkdir(parents=True, exist_ok=True)
+        for path, rows in ocrdraft.reading_sheets(voted, out):
+            print(f"→ {path.relative_to(paths.ROOT).as_posix()}  rows {rows[0]}–{rows[-1]}")
+        return 0
+    if not args.leaves:
+        raise SystemExit("lines: give the book's leaves (--leaves A-B; `pipeline lines --heads` lists them)")
+    if read.exists() and not args.force:
+        raise SystemExit(f"{read.relative_to(paths.ROOT).as_posix()} exists: these lines were read on the page. "
+                         "Add --force to vote again (the read file is not touched).")
+    text, how, found = ocrdraft.make_lines(book.osis, _span(args.leaves), chapters, vote=not args.no_vote)
+    folder.mkdir(parents=True, exist_ok=True)
+    voted.write_text(text, encoding="utf-8", newline="\n")
+    doubts = folder / f"{book.osis}{span}.doubts.tsv"
+    doubts.write_text("leaf\tcolumn\tline\tocr\tvoted\tothers\n"
+                      + "".join("\t".join(map(str, row)) + "\n" for row in found), encoding="utf-8", newline="\n")
+    rows = text.count("\n") - 1
+    found_chapters = sorted({int(r.split()[-1]) for r in text.splitlines() if r.split("\t")[-1].startswith("\\c ")})
+    print(f"{rows} lines, chapters {found_chapters}")
+    if how:
+        print("words from: " + ", ".join(f"{k} {n}" for k, n in how.most_common()))
+    print(f"{len(found)} doubts (the others agree against the vote)")
+    print(f"→ {voted.relative_to(paths.ROOT).as_posix()}, {doubts.relative_to(paths.ROOT).as_posix()}")
+    return 0
+
+
 def main(argv):
     sys.stdout.reconfigure(encoding="utf-8")
     if argv and argv[0] == "latin":
@@ -236,6 +292,17 @@ def main(argv):
     col.add_argument("name")
     col.add_argument("chapters", help="e.g. 14-28")
     col.add_argument("--base", default="draft", help="draft (default), settled, wikisource, or a USFM file")
+
+    lns = sub.add_parser("lines", help="phase 1: 1738's lines voted, for reading on the page → data/witnesses/read-1738/")
+    lns.add_argument("name", nargs="?")
+    lns.add_argument("chapters", nargs="?", help="e.g. 1-24")
+    lns.add_argument("--leaves", help="1738's leaves (the hOCR's numbers), e.g. 318-345")
+    lns.add_argument("--heads", action="store_true",
+                     help="only list each leaf's running head, book title and chapter headings (all leaves if no --leaves)")
+    lns.add_argument("--sheets", action="store_true", help="only draw the reading sheets of the voted lines")
+    lns.add_argument("--no-vote", action="store_true", help="the OCR's words as they are, unrepaired and unvoted")
+    lns.add_argument("--force", action="store_true",
+                     help="vote again although the lines were read (the read file and its corrections are not touched)")
 
     org = sub.add_parser("orig", help="Castellio's text as printed (1573 spelling) from settled chapters → text/orig/draft/")
     org.add_argument("name")
@@ -322,6 +389,8 @@ def main(argv):
         print(f"→ {path.relative_to(paths.ROOT).as_posix()}")
     elif args.command == "align":
         align_witnesses(args.witnesses, args.books)
+    elif args.command == "lines":
+        return lines_command(args)
     elif args.command == "orig":
         book = books.select([args.name])[0]
         first, _, last = args.chapters.partition("-")

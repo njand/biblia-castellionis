@@ -8,8 +8,11 @@ Wikisource has no text for Exodus 31–40 (nor for most of M6). This builds the 
    signature mark and the catchword at the page's foot; the verse numbers in the margins are taken off the line and
    kept as its `margin` (the OCR often glues a number to the line's first or last word: "7arcam", "cæspitium24").
 2. `vote`: each word, or a repair of it (long s read as f, rn for m, x for æ, cl for ct …), kept where it is a known
-   Latin form (the settled text's, Wikisource's, 1738's printed forms, the `latin macron` lexicon); else 1750's or
-   1726's word at the same place (both aligned to 1738 word by word), repaired the same way; else the OCR's word.
+   Latin form (the settled text's, Wikisource's, 1738's printed forms, the `latin macron` lexicon); else 1750's,
+   Wikisource's or 1726's word at the same place (each aligned to 1738 word by word), in that order, repaired the
+   same way (Wikisource's in 1738's letters where a repair of the OCR word gives it); else the OCR's word. Where two
+   or more of the others agree with each other against the voted word, the place is listed for the readers
+   (`doubts`). 1738 is never outvoted: 1750 and Wikisource share readings 1738 lacks (Judg 1:12 *Calebus*).
 3. `lines_tsv`: the result as one row per printed line (`leaf column line text`), the verse starts marked `#N`
    before their word and chapters as `\\c N` rows: the file the page reading corrects (stage 2), every column read
    on the page images. `to_usfm` turns the read lines into the draft (hyphens joined, u/v and i/j and ae as
@@ -272,6 +275,7 @@ class Voter:
     settled: set
     known: set
     how: collections.Counter = field(default_factory=collections.Counter)
+    doubts: list = field(default_factory=list)      # [(line index, word index, OCR word, voted, the others' word)]
 
     def fix(self, word):
         """A known form of the word (the OCR's, or a repair), settled forms first; None if none."""
@@ -288,17 +292,49 @@ class Voter:
                         return c
         return None
 
-    def vote(self, word, others):
+    def vote(self, word, others, names=None):
+        """The voted word: the OCR's (or a repair) if known, else the first other witness's known word (`names`
+        label them in `how`; Wikisource's word is put in 1738's letters, `in_print_letters`)."""
         fixed = self.fix(word)
         if fixed:
             self.how["1738"] += 1
             return fixed
-        for other in others:
+        names = names or ["other"] * len(others)
+        for other, name in zip(others, names):
             if other and (fixed := self.fix(other)):
-                self.how["other"] += 1
+                if name == "Wikisource":
+                    fixed = in_print_letters(word, fixed)
+                self.how[name] += 1
                 return fixed
         self.how["unknown"] += 1
         return word
+
+
+def in_print_letters(ocr, modern):
+    """Wikisource's word written as 1738 would print it: the repair of the OCR word that folds to it (keeping 1738's
+    u/v, i/j and æ), else the word with j as i (1738 prints no j)."""
+    from pipeline import align
+    target = align.fold(modern, fs=True)
+    for c in candidates(ocr):
+        if align.fold(c, fs=True) == target:
+            return c
+    return modern.replace("j", "i").replace("J", "I")
+
+
+def doubts(voted, others):
+    """[(index, the others' word)] where two or more other witnesses have a word at this place, all the same
+    (folded: case, u/v, i/j, æ, long s), and the voted word is another: places for the readers to look at first.
+    `others` are {index: word} maps (`paired`)."""
+    from pipeline import align
+    out = []
+    for i, v in enumerate(voted):
+        there = [m[i] for m in others if m.get(i)]
+        if len(there) < 2:
+            continue
+        folded = {align.fold(w, fs=True) for w in there}
+        if len(folded) == 1 and folded != {align.fold(v, fs=True)}:
+            out.append((i, there[0]))
+    return out
 
 
 def paired(witness, words):
@@ -358,9 +394,13 @@ def build(key, leaves, voter=None, others=()):
     words = [u[0] for u in units]
     voted = list(words)
     if voter is not None:
+        names = [getattr(w, "name", "other") for w in others]
         pair_maps = [paired(w, words) for w in others]
         for i, w in enumerate(words):
-            voted[i] = voter.vote(w, [m.get(i) for m in pair_maps])
+            voted[i] = voter.vote(w, [m.get(i) for m in pair_maps], names)
+        for i, other in doubts(voted, pair_maps):
+            li, wi, _ = units[i][1][0]
+            voter.doubts.append((li, wi, words[i], voted[i], other))
     for (word, places), v in zip(units, voted):
         if len(places) == 1:
             out[places[0][:2]] = v
@@ -623,8 +663,26 @@ def draft_from_ocr(osis, chapters):
     return to_usfm(keep, header, wikisource_forms(), structure.bsb_rows(osis), osis), source
 
 
+def wikisource_witness(osis, chapters):
+    """An align.Witness of Wikisource's text of these chapters (chapter summaries left out, as 1738's lines leave
+    them out), or None where Wikisource has fewer than ten verses of them."""
+    from pipeline import align, tsv
+    path = paths.WITNESSES / "wikisource" / f"{osis}.tsv"
+    if not path.exists():
+        return None
+    rows = [r for r in tsv.read(path)
+            if int(r["id"].split(".")[1]) in chapters and int(r["id"].split(".")[2]) > 0]
+    if len(rows) < 10:
+        return None
+    w = align.Witness("\n".join(r["text"] for r in rows))
+    w.name = "Wikisource"
+    return w
+
+
 def make_lines(osis, leaves, chapters, vote=True):
-    """The lines file's text for these chapters of a book, from 1738's leaves, voted with 1750 and 1726."""
+    """(text, how, doubts): the lines file's text for these chapters of a book, from 1738's leaves, voted with 1750,
+    Wikisource and 1726 (where each has the book); `how` counts where each voted word came from, and `doubts` lists
+    the places the others agree against it, as rows (leaf, column, line, OCR word, voted, the others' word)."""
     from pipeline import align, books
     voter, others = None, ()
     if vote:
@@ -640,9 +698,13 @@ def make_lines(osis, leaves, chapters, vote=True):
         voter = Voter(settled, known)
         book = books.select([osis])[0]
         others = [align.Witness((paths.SOURCES / "archive" / "1750" / "text.txt").read_text(encoding="utf-8"))]
+        others[0].name = "1750"
+        if (ws := wikisource_witness(osis, chapters)) is not None:
+            others.append(ws)
         old = paths.ROOT / "TXT" / "1 - OCR" / "Vetus Fœdus" / f"{book.slug}.txt"
         if old.exists():
             others.append(align.Witness(old.read_text(encoding="utf-8")))
+            others[-1].name = "1726"
     order, out = build("1738", leaves, voter, others)
     text = lines_tsv(order, out, place_verses(order, numbered_1750(order)))
     rows = text.splitlines()
@@ -652,7 +714,25 @@ def make_lines(osis, leaves, chapters, vote=True):
             on = int(m.group(1)) in chapters
         if on:
             keep.append(row)
-    return "\n".join(keep) + "\n", (voter.how if voter else None)
+    kept = {tuple(r.split("\t")[:3]) for r in keep[1:]}
+    found = []
+    for li, wi, ocr, voted, other in (voter.doubts if voter else []):
+        line = order[li]
+        place = (str(line.leaf), str(line.column), str(line.number))
+        if place in kept:
+            found.append((*place, ocr, voted, other))
+    return "\n".join(keep) + "\n", (voter.how if voter else None), found
+
+
+def heads(leaves):
+    """[(leaf, running head, book title, [chapter numbers])] of 1738's leaves, for finding a book's leaves."""
+    out = []
+    for leaf in leaves:
+        lines = page_lines("1738", leaf)
+        out.append((leaf, " ".join(l.text for l in lines if l.kind == "head"),
+                    " ".join(l.text for l in lines if l.kind == "title"),
+                    [l.chapter for l in lines if l.kind == "chapter"]))
+    return out
 
 
 def reading_sheets(lines_path, folder, per=14, key="1738"):

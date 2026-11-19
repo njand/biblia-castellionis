@@ -2,6 +2,16 @@
 
 ## Now
 
+- **The process for a new book rewritten** (2026-11-19, your "Yes, rewrite it"; decision 85): three phases,
+  *Transcribe* (1738 read line by line once, the printed text approved first), *Edit and annotate* (`propose` and the
+  notes together, the book settled with its notes), *Build and check*. PLAN.md §4 and CLAUDE.md rewritten; no code
+  changed. **Its two tools built** (your "Yes, build them"): `python -m pipeline lines BOOK CH --leaves A-B` writes the
+  voted lines, now with Wikisource as a voter (its word in 1738's letters, where 1738's OCR word and its repairs are
+  unknown), and `<osis><CH>.doubts.tsv`, the places where the other witnesses agree against the vote; `--sheets` draws
+  the reading sheets, `--heads` lists each leaf's running head and chapters. Tried on Judges against the approved
+  printed text: 82.2% of the words right with Wikisource, 80.6% without; 217 doubts, 132 of them OCR misreadings
+  (*ilium*, *nee*). 1738 is never outvoted. Tests pass (207). Committed and pushed after Joshua, from the other workstation, was merged in (its decisions
+  are 81–84, so this one is 85).
 - **Joshua and Judges merged** (2026-11-19, on pushing Joshua over the Judges work from the other workstation):
   decisions renumbered (*usque* stays 80; Joshua's become 81–84); each book takes the other's approved decisions
   (`data/review/josh-judg-merge.md`, 33 Apply lines, applied, gold rebuilt): Joshua's 19 *ūsque* and one *eōusque*
@@ -860,6 +870,7 @@
 | 82 | 2026-11-19 | **Joshua's names by the Hebrew's vowels** (Nathan, asking for the evidence of points 3–4 of `josh1-24-stages3-5.md` against "the original Hebrew transliterations (and Greek for support), taking careful note of long vowels", then "Apply all seven"; `josh1-24-names.md` §"Evidence re-checked"): where the Greek's long letter has no long Hebrew vowel behind it, the Hebrew decides (*Cedes, Cedesam* short, the segols of קֶדֶשׁ; *Jerimōth-*, יַרְמוּת with no vowel for the i); a qamets hatuf is short (*Saraa*, Zorah, as *Horma*); *Gaza* short (Gaffiot *Găza*, patah), with the settled *Gāzam* of Gen 10:19, Deut 2:23, Acts 8:26 (`data/review/gaza-short.md`, applied, gold rebuilt); *Thamnathser-* in 19:50 and 24:30 (the Hebrew's mem and segol); one spelling for Taanach (*Thanach*, 12:21 indeclinable, 17:11 *Thanachēnsēs*) and Jokneam (*Jeconām*, 12:22 indeclinable), 12:22's *Iacha-\|nanæ* being 1738's misprint for 1554's and 1573's *Iachanamæ*. 15:34 *Taphna* first kept (1554, 1573, 1738, 1750 all print it), then corrected to *Taphūa* on reconsideration (Nathan: "Yes, Taphūa"): the printings descend one from another, and Castellio writes u in all six other places of the same Hebrew name; the printed text keeps *Taphna*. |
 | 83 | 2026-11-19 | ***Cālēbus*** (Nathan: "Yes, Cālēbus"): Caleb takes the Hebrew's two long vowels (כָּלֵב qamets, tsere), as decision 82 lets the Hebrew decide where the Greek (Χάλεβ) has no long letter; Gaffiot has no entry. Replaces Numbers' short *Calebus* (Wiktionary's bare *Caleb*). Applied to the settled Num 13:6, 13:30, 14:6, 14:24, 14:30, 14:38, 26:65, 32:12, 34:19 and Deut 1:35 (`data/review/caleb-long.md`), gold rebuilt; the forms rows of Numbers and Joshua with them. The printed texts keep *Calebus*. |
 | 84 | 2026-11-19 | **Joshua 1–24 settled, approved for now** (Nathan: "Approve and settle Joshua"), after "Yes, add the 14", "Accept recommendations for 2 and 5", "Apply all seven", "Yes, Cālēbus" and "Yes, Taphūa": `text/JOS.usfm`, 1738 read line by line on the page (Wikisource's Joshua not 1738's text, a witness only), checked against 1750 and, where they differ, 1573; versified to the KJV (43 edits, 4:15–17 a verse range); 7:12–13 *sacrilegum* from 1573; one form per person and place, the Hebrew's vowels deciding where the Greek has no long letter behind it (decision 82); 14 spelling rules researched and approved, six rejected (decision 81). The printed text (1738) approved for now the same day (Nathan: "Approve it for now"; `text/orig/JOS.usfm`, `data/review/josh-orig.md`), its paragraphs not yet checked on the page. |
+| 85 | 2026-11-19 | **A new book in three phases, each page read once** (Nathan: "Yes, rewrite it", on Claude's review of the process): 1. *Transcribe*, 1738's lines voted (OCR, 1750, 1726, Wikisource as one voter) and read on the page once, with paragraphs, footnotes and Castellio's marks, then versified; gate, the printed text approved. 2. *Edit and annotate*, `propose` and the notes search side by side, then a proofread; gate, the book settled with its notes. 3. *Build and check*. For the Old Testament books still to do, Wikisource or not, and the Apocrypha; Joshua went through phase 1 this way already (decision 68's route). PLAN.md §4 and CLAUDE.md rewritten. Its two tools built the same day (your "Yes, build them"): Wikisource as a voter in `ocrdraft.make_lines`, with a doubts list, and the `pipeline lines` command. |
 
 ## How to run
 

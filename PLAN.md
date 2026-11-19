@@ -103,91 +103,124 @@ USFM markers used by this edition:
 
 ## 4. The pipeline
 
-Each stage is a Python command (`python -m pipeline <stage> <book> [chapters]`, standard library plus `rapidfuzz` for alignment). Where a stage needs judgment, it pairs with a Claude skill. The unit of work is a chapter.
+*Reorganized 2026-11-19 (HUMAN.md decision 85) into three phases per book, each page read once. The earlier
+numbering (stages 0–7, with 2b) is kept in brackets, since the review files and the ledger use it.*
 
-### Stage 0: Fetch (fully automatic)
-- **Wikisource:** wikitext per book through the MediaWiki API → verse TSV. Chapter summaries are kept as verse 0.
-- **WordPress:** chapter pages → verse TSV, saved as the macron witness.
-- **archive.org:** `_djvu.txt`, `_hocr.html` and `_page_numbers.json` for each item. Page images are downloaded only when a dispute needs them, cropped to the word box from hOCR.
-- **Google Books 1726–27:** the existing `TXT/1 - OCR` files, plus a fetch for books not yet downloaded.
-- **Parallel texts:** KJV, BSB and WEB (USFM), Clementine Vulgate, SBLGNT and OSHB, cached in `sources/parallel/`.
-- Everything is cached under `sources/` (git-ignored, with a manifest of URLs and checksums) so runs can be repeated.
+The unit of work is a **book** (or a run of chapters), and each phase ends in one place for Nathan to look. Where a
+phase needs judgment, Claude's readers make the calls with their evidence and the phase's summary lists them.
 
-### Stage 1: Align (automatic, with flags)
-- Wikisource is versified, so it is the backbone.
-- Each OCR witness is cleaned (ſ→s, broken words rejoined, running heads and catchwords removed, `&`→*et*, `q;`→*que*, the *ã* abbreviation expanded). Its verse numbers serve as anchors, and it is aligned to the base word by word using folded forms (lower case, i/j, u/v, æ→ae, *f*≈*s*).
-- **Versification check:** each chapter's verse count is compared with the KJV. Merged or split verses (as found in Genesis 3, 11 and 24) are listed for a decision, recorded once in the mapping file.
-- **Omission check:** Claude compares each verse with the BSB and Vulgate and flags any verse missing a clause the others have. This catches lines an OCR or the Wikisource transcriber skipped.
+| Phase | Was | What it makes | Gate |
+|---|---|---|---|
+| **1. Transcribe** | stages 0–2, 2b | The base edition's text as printed, every line read on the page, with its verse starts, paragraphs, footnotes, Castellio's marks and leaves; versified to the KJV | **The printed text approved** → `text/orig/` |
+| **2. Edit and annotate** | stages 3–5, 6, the notes round | The reading edition from the approved printed text (spelling, macrons, layout, names) and the light notes, together | **The book settled**, its notes applied in the same step → `text/` |
+| **3. Build and check** | stage 7 | Every published format, and the checks | none (automatic) |
 
-### Stage 2: Correct by collation (mostly automatic; Claude reads the image when witnesses disagree)
-For each word of the base text:
-- **All folded witnesses agree** → accept.
-- **The witnesses differ only in spelling** → stage 3 handles it.
-- **Two or more independent witnesses agree against the base** → a correction is proposed. Once the pilot has measured the error rate (§8, decision 6), it is applied automatically when the word is in the lexicon.
-- **The witnesses split, or the reading is unknown to Lewis & Short / `macron`** → **Claude adjudicates** with:
-  - the word cropped from two page images (hOCR coordinates),
-  - the verse in context,
-  - the Vulgate and Greek/Hebrew for sense,
-  - `lrl attest` for usage.
+**Why this order** (the review of 2026-11-19): the Old Testament books were being read on 1738's pages two or three
+times. Judges' every verse was read against Wikisource in stage 2 (170 corrections); its printed text then read the
+2,640 words the OCR missed again in stage 2b; the printed text was rebuilt from the settled words after settlement;
+and 1738's footnotes, seen in stage 2, were collected again for the notes. Numbers and Deuteronomy, drafted from
+1738's read lines (decision 68), read each line once and built both texts from it. That route is now the route for
+every Old Testament book still to do, Wikisource or not.
 
-  The result is a proposal with a confidence level.
-- **A genuine difference between editions** (not an OCR error) → recorded as a variant. The base edition's reading stands (1573 NT, 1738 OT; §8, decisions 1, 15 and 24), and every variant is listed for review; for the NT, 1556's readings where 1573 differs are among the variants.
+**Scope.** Phases 1–3 apply to the Old Testament books still to do and the Apocrypha (base 1738 for the Old
+Testament; the Apocrypha's base to be decided with M7). The New Testament is finished; its route (Wikisource as the
+working text, collated against 1573, which numbers its verses and has good OCR) is the one its review files record (e.g.
+`data/review/mark6-16-stage2.md`) and is not repeated here. Joshua, begun on the other workstation before this,
+was read line by line the same way (decision 68's route).
 
-Expected load: Wikisource's Gospels differ from your finished text on ~0.5–0.7% of words, and much of that is normalization. Genesis runs ~4% (more OCR noise from 1738). That works out to roughly **5–25 real decisions per chapter**, nearly all of them resolved automatically.
+### Phase 1: Transcribe (the page read once)
 
-**Every page reading records the word as printed.** When Claude reads a page image, at this stage or any other, the evidence quotes the word exactly as the base edition prints it: its spelling, u/v and i/j, ligatures, the punctuation beside it, and any abbreviation (*& editura*, *nũcios*, *septiés ne*). If the printed form is one `pipeline orig` would not produce from the OCR, a row goes into `data/decisions/<osis>.orig.tsv` in the same pass (stage 2b). Then the page never has to be read again to recover Castellio's spelling.
+**Fetch** (fully automatic, as before): Wikisource, archive.org (`_djvu.txt`, `_hocr.html`, page images on demand),
+the 1726–27 OCR (`TXT/1 - OCR`), the parallel texts; cached under `sources/` (`python -m pipeline fetch all`).
 
-### Stage 2b: Castellio's text as printed (automatic; Claude reads what the OCR cannot)
-Decided 2026-11-13 (HUMAN.md decision 57); a step of every chapter, run as soon as stage 2 has settled its words, before stages 3–5 respell them.
-- `python -m pipeline orig <book> <chapters>` (`pipeline/orig.py`) pairs each word of the chapter with the base edition's OCR (1573 for the NT, 1738 for the OT). Each word takes the OCR's spelling, capitals and punctuation where the OCR is the same word. The builder knows the OCR's misreadings (long s as f, *q;*, the nasal bar, ę, œ read as æ) and the printer's spellings (the approved rules read backwards, `VARIANTS`). A word the OCR missed takes the spelling the base edition gives it elsewhere in the Testament, but only where that is its only spelling; where the base edition spells it more than one way, it is read on the page (`doubt`). **Nothing is normalized** (decision 58): the text follows the page, Castellio's and his printer's inconsistencies, misprints, apostrophes (*Is'ne*) and word division (*plusquam*) included, with s for ſ. Expanded: *&*, *q;*, the nasal bar, long s, ę; kept: u/v, i/j and the printed spellings; dropped for now: accents.
-- It writes `text/orig/draft/<USFM code>.usfm` and `data/review/<osis><chapters>-orig.md`. The review file counts how each word was made, lists the printer's spellings, the words and marks not read in the OCR, and the words read on the page.
-- **Claude reads what is left.** Of the words not read in the OCR, every `doubt` word and two more groups need the page image: spelling-prone words (the approved rules' targets: *exs-*, *-cumque*, *condic-*, *litt-*, *cæl-* …) and near misses where the OCR word is a real Latin word that differs from the settled one (*misertus*, *Noe*, *dexteram*; `python -m pipeline latin macron` tells real words from OCR noise). Each reading becomes a row in `data/decisions/<osis>.orig.tsv` (`id settled printed reason`, with the canvas or leaf). A reading that differs by more than spelling is marked ⚑ in the review file for the reading edition too. Then the draft is rebuilt.
-- **Paragraphs** are the printer's own (decision 57). 1573 starts every verse on a new line, so in the NT each verse is a paragraph. 1738 runs its verses on and indents its paragraphs (Gen 44:3, 44:13, leaf 107). `archive.indents` reads them from the 1738 hOCR (built 2026-11-14; every break of Genesis and Exodus 1–30 checked on the page); a paragraph it misses is a `¶` row in `data/decisions/<osis>.orig.tsv`. The OT drafts take 1738's words from its hOCR too (`archive.witness`), so each verse has its leaf (`data/orig/<osis>.pages.tsv`) for the site's link to the page image, and `pipeline orig BOOK CH --sheets` draws the words left to read on contact sheets.
-- When the chapter is approved (stage 6), its printed text is approved with it and moves to `text/orig/<USFM code>.usfm`. Like `text/`, it is never rewritten by code after that.
+**The voted lines.** `python -m pipeline lines BOOK CH --leaves A-B` (`ocrdraft.make_lines`; `lines --heads` lists
+each leaf's running head and chapter headings, to find a book's leaves) turns 1738's hOCR into one row per printed
+line (`leaf column line text`) in `data/witnesses/read-1738/<osis><chapters>.voted.tsv`: running heads, chapter
+summaries (decision 67), signatures and catchwords taken off, margin numbers kept as verse starts (`#N`, 1750's
+margins where 1738's are cut), each word repaired (long s read as f, rn for m …), and where no repair is a known
+word, the word of 1750, Wikisource or 1726 at the same place (each aligned word by word, in that order).
+- **Wikisource is one voter**, where it has the book, its word put in 1738's letters. It is never the base: in Judges
+  it dropped clauses, respelled names and in places followed 1750 (`judg1-21-stage2.md`). Tried on Judges
+  (2026-11-19, scored against the approved `text/orig/JDG.usfm`): the voted lines matched 82.2% of the printed words
+  with it, 80.6% without; the words no witness could vote fell from 927 to 720.
+- **Doubts**, `<osis><chapters>.doubts.tsv`: the places where two or more of the others agree on a word and the vote
+  has another, for the readers to look at first. 1738 is never outvoted (1750 and Wikisource share readings 1738
+  lacks: Judg 4:11 *Hobani* for 1738's *Hobabi*). In Judges, 217 doubts; at 132 of them the others had the printed
+  word (OCR misreadings that are real words: *ilium*, *nee*, *habere*).
+- `lines --sheets` draws the reading sheets (`ocrdraft.reading_sheets`) into `sources/archive/crops/sheets/lines/`.
 
-### Stage 3: Normalize to Gaffiot 2016 (mostly automatic)
-- **Learn the rules from your finished chapters.** Compare Wikisource with your LaTeX (macrons removed) for all ~62 finished chapters and list every respelling you made: *tentato→temptato*, *concionaretur→contionaretur*, *humeris→umeris*, *conditione→condicione*, *quicquid→quidquid*, *quatuor→quattuor*, *eis→iis*, *trigesimo→tricesimo*, *ejicere→eicere*, splitting and joining (*me cum→mecum*, *septimodecimo→septimo decimo*), capitals (*pater→Pater* for God), and so on.
-  - These become `data/rules/orthography.tsv` (`old	new	scope	note`), the fur-fulminis format. The policy behind them goes into `brief.md` § Orthography.
-- **Generalize with Gaffiot.** Every word not covered by a rule is looked up in `lrl macron`. If Gaffiot's headword or principal parts spell it differently (*cœlum*→*cælum*, *accerso*→*arcesso*), the change becomes a proposal. Once you approve it, it is added to the table and applies throughout the Bible ("decide once").
-- **Consonantal j/v** follows e-liber's `orthography.jv` rules. **æ/œ ligatures** are written for diphthongs, with the diaeresis-style exceptions you use (*aër*, *poëta*) kept in a short exceptions list. This rewrite is new code; e-liber does the opposite.
-- **Punctuation and capitals:** capitals for divine names (*Pater*, *Spīritus Sānctus*) and modern punctuation habits, taken from the same comparison with your finished text and applied by rule where they are mechanical.
+**The reading.** Every line is read on the page image (`ocrdraft.reading_sheets`: each line's crop under its voted
+text, several readers by leaf range, doubtful words enlarged). The read file, `<osis><chapters>.tsv`, holds the
+words exactly as 1738 prints them (decision 58: spelling, u/v and i/j, æ and œ, capitals, punctuation, misprints,
+word division; s for ſ, & and q; written out), the drop capital with its word, verse starts where the margin number
+and the sense put them. `.corrections.tsv` records every row the reading changed. In the same pass the readers record:
+- **paragraphs**: the indented lines. `orig --read-lines` takes 1738's indents from the hOCR (`archive.indents`); a
+  reader marks one it misses, or one it finds that is not an indent, as a `¶` / `¶-` row in
+  `data/decisions/<osis>.orig.tsv`. (Numbers and Deuteronomy were approved before their paragraphs were checked.)
+- **footnotes and marks**: 1738's footnotes (as `%` rows, with the word they hang on) and Castellio's *L.* … *H.* and
+  *G.* … *H.* marks, listed in the phase's summary as inputs for phase 2's notes, so the pages are not read again
+  for them;
+- **wording doubts**: a place where 1738 and 1750 differ in more than spelling, or where 1738 looks misprinted
+  against the sense, is listed with both readings (the printed text keeps 1738; the edition's choice is phase 2's).
+- **Omission check**: each verse against the BSB and the Vulgate for a clause the page has and the reading lost.
 
-### Stage 4: Macronize (mostly automatic; Claude decides homographs)
-- Run e-liber's Orthographer logic, adapted to this repo's paths, so that **Gaffiot decides stems and hidden quantities** and W/M decide endings. Where they disagree, it is flagged, as in fur-fulminis.
-- **Extra witnesses:**
-  - **Your WordPress macrons** for the Gospels and Genesis 1–35: where the pipeline's choice differs from them, it is flagged.
-  - **Your finished chapters:** every form you settled becomes a book-wide default.
-- **Homographs** (*venit/vēnit*, *legit/lēgit*, *-a* nominative/ablative, *hic/hīc*, *populī/pōpulī*…) are decided by Claude from the syntax. The **Greek tense or case** of the parallel verse is the strongest evidence (aorist → *vēnit*), and the BSB English the next. Decisions go into `decisions.yaml` `forms:` per verse.
-- **Checks:** `lrl macron-check --text` on the result, then `lrl macron-triage`. **A1** (audible, sources agree) is applied automatically; **A2/B/G** go to the review queue; **C** (names) is decided once in a names list for the whole Bible (*Jēsūs*, *Ābrahāmus*, *Capharnaum*).
+**Versify.** `python -m pipeline draft BOOK CH --from-ocr` makes `text/draft/<USFM>.usfm` from the read lines, and
+`versify --draft` moves it to the KJV's numbering (`<osis>.draft.edits.tsv`; verse ranges where 1738 joins verses).
 
-### Stage 5: Structure (automatic transfer, with Claude adjusting)
-- **Paragraphs:** BSB paragraph breaks (`\p`) are mapped onto verse IDs, then compared with your finished chapters to calibrate. You split paragraphs somewhat differently, so the pipeline learns where you merge or split.
-- **Poetry:** BSB `\q1`/`\q2` lines and indents carry over directly as USFM `\q1`/`\q2`, calibrated against your finished chapters. Line breaks *inside* a Latin verse are placed by Claude at the matching clause.
-- **Quotations:** BSB/WEB quotation spans tell us *who speaks where*. Claude then places “…” around direct speech and ‘…’ around quotes within it, respecting *inquit* insertions. Reported discourse is left unmarked (§8, decision 4).
-- **Italic Old Testament quotations** (`\qt …\qt*`, formerly your `\emph{}`) come from the BSB cross-reference and quotation markup plus the Vulgate.
-- **Chapter summaries** (verse 0) are left out (decision 50, reversing decision 3).
-- The output is the chapter's USFM.
+**The printed text.** `python -m pipeline orig BOOK CH --read-lines` builds `text/orig/draft/<USFM>.usfm` from the
+same read lines (each verse's leaf in `data/orig/<osis>.pages.tsv`) and `data/review/<osis>-orig.md`.
 
-### Stage 6: Review (where your time goes)
-- **Critic pass:** a separate Claude agent reads the finished chapter against the BSB and Vulgate. It never sees the earlier stages' reasoning (fur-fulminis' `critic`). It flags omissions, sense errors, OCR leftovers, odd macrons and quotation mismatches, each with an exact `old → new`.
-- **Queue:** all open items for the chapter go into `data/review/<osis>.<chapter>.md` in insula-thesauraria's proposals format, **lowest confidence first**:
-  - each item shows current text → proposed text, the category, the evidence (the witnesses, a link to the page image, the Gaffiot/L&S result), a confidence level with its reason, and an empty `Decision:` line;
-  - each has an exact `Apply:` replacement, checked to match exactly once.
-- **Auto-applied changes** are listed at the bottom of the same file ("applied without review"), so they can be audited at any time.
-- **Sampling:** one chapter in ten (chosen at random) is also read in full by you, to measure the error rate of what the pipeline applied automatically. If the rate goes up, the auto-apply thresholds go down.
-- `/approve` applies the decisions, writes the chapter into `text/<book>.usfm`, moves its printed text (stage 2b) into `text/orig/<book>.usfm`, marks it `settled`, updates the ledger and `HUMAN.md`, and leaves the commit to you.
+**Gate 1.** One summary for Nathan, `data/review/<osis><chapters>-transcription.md`: how the lines were read (leaves,
+readers, corrections), the wording doubts, the footnotes and marks found, the versification edits. On approval the
+printed text moves to `text/orig/<USFM>.usfm`, never rewritten by code after that (decision 61). If phase 2 finds a
+misreading, it is a proposal against `text/orig/` (applied with `review apply --to`), the read lines corrected with
+it, and the draft rebuilt: the two texts never drift apart.
 
-### Stage 7: Build and check (fully automatic)
-- `python -m pipeline build` generates every output from `text/*.usfm` (§4a) into `build/` (git-ignored).
-- **Checks** (`python -m pipeline check`):
-  - the USFM uses only the markers in §3, and every `\v` is in order;
-  - verse counts against the KJV map;
-  - `macron-check` over the whole text;
-  - a list of unknown words;
-  - balanced quotation marks per verse;
-  - epubcheck (from `../e-liber/.tools`);
-  - the PDF builds without overfull lines or missing glyphs;
-  - no settled chapter changed except through an approved decision.
+### Phase 2: Edit and annotate
+
+The draft from the read lines is the edition's starting point. `python -m pipeline propose BOOK CH` (stages 3–5)
+makes one review item per verse (`data/review/<osis><chapters>-chNN.md`) and the preview
+`text/draft/<USFM>.preview.usfm`:
+
+- **Normalize to Gaffiot 2016**: `data/rules/orthography.tsv` (approved rows only) and Gaffiot's headwords for words
+  the rules don't cover, each new respelling a proposal; Cicero and the Golden Age first where spellings vary
+  (decisions 18, 42); j wherever pronounced, æ and œ for every diphthong (decisions 16, 17).
+- **Macronize**: Gaffiot decides stems and hidden quantities, Wiktionary and Macronizer the endings; homographs are
+  decided in context from the syntax, the Hebrew (or Greek) and the English, into `data/decisions/<osis>.forms.tsv`.
+- **Structure**: the BSB's paragraphs and poetry mapped onto the verses and adjusted to the Latin; quotation marks
+  (“…” for speech, ‘…’ within it, reported speech unmarked; decisions 4, 25, 65); `\qt` for quoted Scripture; calls in
+  `data/decisions/<osis>.layout.tsv`.
+- **Names**: a names reader brings each name to the settled form or decides it once (`<osis><chapters>-names.md`).
+
+**The notes, in parallel** (`ot-notes-process.md` §5): they depend only on the words, so they run beside the edit,
+not after settlement. `python -m pipeline notes BOOK` writes the candidates; readers go through each chapter with the
+Hebrew, the BSB, the NRSVue (read online, never stored) and the NET notes; phase 1's 1738 footnotes and Castellio's
+marks, and his 1554 annotations on the book (read on the page), are among the candidates. Proposals go into
+`data/review/<book>-notes.md` with Apply lines against the preview.
+
+**Proofread**: independent readers who never saw the drafting reasoning (the critic) read the preview against the
+BSB and the Vulgate for omissions, sense errors, odd macrons and quotation mismatches; their finds become items.
+
+**Edition-wide slips** found on the way (a settled book with a form the new book decides otherwise, a rule that
+over-applies) go into the running `data/review/edition-fixes-<date>.md`, not into the book's files.
+
+**Gate 2.** One summary for Nathan, `data/review/<osis><chapters>-edition.md`: the points for him (names, layout calls
+against the BSB, words that may be Castellio's slips, rules proposed), the notes proposed and those left out, the
+proofreaders' finds. Under decision 30 ("approved for now"), Claude checks every flag with its evidence before
+asking. On approval: `review apply` writes the items and the accepted notes, the chapters move into
+`text/<USFM>.usfm`, `pipeline gold` rebuilds the answer key, the ledger goes to `settled`, the drafts are removed.
+
+### Phase 3: Build and check (fully automatic)
+- `python -m pipeline build` generates every output from `text/*.usfm` and `text/orig/*.usfm` (§4a) into `build/`.
+- **Checks**: the USFM uses only the markers in §3 and every `\v` is in order; verse counts against the KJV map;
+  `macron-check` over the whole text; unknown words; balanced quotation marks per verse; epubcheck; the PDF without
+  overfull lines or missing glyphs; no settled chapter changed except through an approved decision; the tests
+  (`python -m unittest discover -s pipeline/tests -t .`).
+
+### The ledger
+
+`data/status.tsv` keeps its stages. Phase 1 takes a chapter from `pending` to `corrected` (fetched, aligned, read,
+versified); phase 2 from `normalized` through `in-review` to `settled`.
 
 ## 4a. Publishing
 
@@ -205,7 +238,7 @@ One master (`text/*.usfm`), several outputs, all generated:
 
 ## 5. Claude skills and agents for this repo
 
-Following fur-fulminis's layout (`.claude/skills/<name>/SKILL.md`, plus `CLAUDE.md`, `brief.md` and `HUMAN.md` at the root):
+Following fur-fulminis's layout (`.claude/skills/<name>/SKILL.md`, plus `CLAUDE.md`, `brief.md` and `HUMAN.md` at the root). *Not built as of 2026-11-19: the work has run from `CLAUDE.md`, the review files and Nathan's requests. If they are built, they follow §4's phases: one skill per phase (`/transcribe BOOK`, `/edit BOOK`, `/release`), the readers and the critic as agents.*
 
 | Skill / agent | Does |
 |---|---|
@@ -242,8 +275,8 @@ Before any new chapter is produced:
 | M2 | **Four Gospels** | Mt 14–28, Mk 6–16, Lk 14–24, Jn 5–21 (59 chapters); the publishing builds (website, EPUB, PDF, TXT; §4a) | Richest witnesses (Wikisource, WordPress, 5 OCRs); release v1.0 "Evangelia"; the website replaces WordPress |
 | M3 | Acts & epistles & Revelation | 201 chapters | Wikisource is complete; 4–5 OCR witnesses; release "Novum Fœdus"; submit to ebible.org |
 | M4 | Genesis 28–50, Exodus | Existing TXT work + Wikisource | Release "Pentateuchus I" |
-| M5 | OT books on Wikisource | Leviticus, Judges, Ruth, Kings, Job, Esther, minor prophets, … | Fewer witnesses (1738 base, 1726–27, 1750) |
-| M6 | OT books *not* on Wikisource | Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah, Ezekiel, Daniel, … | **No base text:** start from three OCRs voting (1738, 1726–27, 1750), with Claude reading the 1738 page images. Slower; benefits most from the rules settled by then |
+| M5 | OT books on Wikisource | Leviticus, Judges, Ruth, Kings, Job, Esther, minor prophets, … | Fewer witnesses (1738 base, 1726–27, 1750). From 2026-11-19 (decision 85) read line by line on 1738's pages like M6, Wikisource one voter among the OCRs (§4, phase 1) |
+| M6 | OT books *not* on Wikisource | Numbers, Deuteronomy, Chronicles, Psalms, Isaiah, Jeremiah, Ezekiel, Daniel, … | **No base text:** start from three OCRs voting (1738, 1726–27, 1750), with Claude reading the 1738 page images (decision 68; Numbers and Deuteronomy so). The same route as M5 since decision 85 |
 | M7 | Apocrypha (in scope; decision 2) | Judith, Tobit, Wisdom, Sirach, Maccabees | Wikisource has some |
 
 ### 7a. Further work (added 2026-11-11, not scheduled)

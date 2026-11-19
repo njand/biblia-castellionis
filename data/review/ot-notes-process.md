@@ -114,7 +114,9 @@ why the NRSVue has to be read for every chapter (decision 3). Most of the Short 
 4. Nathan accepts or rejects per item; `pipeline review apply` writes the accepted ones.
 
 **When:** Genesis–Numbers now, as the NT was done once its books were settled. From Deuteronomy on, the pass runs as
-each book is settled, so the notes go in with it.
+each book is settled, so the notes go in with it. *From 2026-11-19 (decision 85) the pass runs beside the edit, in phase 2 (PLAN.md §4), and the
+notes are proposed in the same summary as the book's settlement; 1738's footnotes and Castellio's marks come from
+phase 1's reading.*
 
 **Expected yield:** the NT gave 0.4–0.8 notes a chapter. The OT should give fewer, since kind A rarely applies:
 perhaps 0.2–0.4 a chapter, or 30–60 for the four books. More than one note in two chapters means the bar is too low.
