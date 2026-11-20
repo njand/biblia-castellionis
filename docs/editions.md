@@ -358,6 +358,30 @@ difference (`data/review/judg1-21-stage2.md`, 170 corrections and 23 more found 
 - **A revision after 1554**: 2:9 *Thamnatare* (1554, canvas 138; Wikisource the same) became *Themnathare* (1738, and
   1750's *Themnatare*); which printing changed it is not checked.
 
+### Ruth in 1738, 1554 and 1573 (phases 1–2, 2026-11-19)
+
+Read on the page images (`data/review/ruth1-4-transcription.md`, `ruth-notes-1554.md`; crops in `sources/mdz-1554/`,
+`sources/mdz-1573/`).
+
+- **1738** (leaves 318–321): Ruth begins mid-page under Judges 21; chapter 1 numbered 1–23 (the KJV 22). Four lettered
+  footnotes (1:8 m, 1:10 n, 1:13 a, 1:20 b) and an asterisk at 3:16 after *venit:* with no footnote on either page.
+  Printing slips: 1:14 *hærebat,etNoe-*, 3:2 *pu-* / *ll is*, 3:7 *QuumqueBoozus*. Not printed in the edition.
+- **1554** (MDZ bsb10196330): the text of Ruth on canvases 150–152 (columns 276–280), with four lettered margins, all in
+  chapter 1 (1:8, 1:10, 1:13, 1:20) and no mark at 3:16. **1738's footnotes at 1:10, 1:13 and 1:20 are those margins**,
+  changed only in spelling. 1738's 1:8 note (*me, propter vestros maritos*) is not 1554's (*a ueſtros maritos, dũ
+  uiuerent.*, canvas 150); it is first seen in 1573 (canvas 186, *a me, ꝓpter veſtros maritos.*). Whether Castellio
+  or 1573's editor revised it is not known (1551 and 1556 not checked).
+- **Castellio's 1554 annotation on Ruth** (*IN RVTHAM*, *EX CAP. III.*, canvas 825, column 345, about 45% down the left
+  column): one note, on *Illa in oppidum ad ſocrum uenit*: the Hebrew's masculine *venit* he takes for a mistake, from
+  the sense and the old version, as he takes יגאל for תגאל in the next chapter (4:4). The edition notes it at 3:16
+  (`ruth-notes.md`). 1738's asterisk at 3:16 stands where the annotation's lemma ends; perhaps a trace of it (not proved).
+- **1573** (bsb10141277, canvases 186–187): an *Argumentum in totum librum Ruthæ*, chapter summaries, verse numbers
+  (chapter 1 has 23, as 1738); it prints the 3:16 annotation inside the book, under *ANNOTATIO.* after chapter 3,
+  shortened (without the comparison with 4:4) and with its lemma numbered 16. Whether 1573 does this elsewhere in the
+  Old Testament is not checked.
+- **Changes after 1554**: 1:18 *contradicere deſijt* (1554) → *diſſuadere deſijt* (1573; 1738 *dissuadere desiit*);
+  1:20–21 *Noemin* → *Noemim* (1573, 1738); in the 1:20 margin *Noemi* → *Noemis* (1573, 1738).
+
 ### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
 
 Five places where Castellio's text departs from the Hebrew stand in 1551 (Google Books BrlIAAAAcAAJ, read by Nathan),

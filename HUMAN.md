@@ -2,6 +2,22 @@
 
 ## Now
 
+- **Ruth 1–4 settled for now, with its note** (2026-11-19, your "Yes, settle it", after "Start phase 2"). The 85 items
+  of `ruth1-4-ch01.md` … `-ch04.md` and the 3:16 note (`ruth-notes.md` item 1: Castellio's "she" for the Hebrew's "he",
+  defended in his only 1554 annotation on Ruth) applied into `text/RUT.usfm`, which matches the preview word for word
+  plus the note; gold rebuilt, ledger `settled`, `text/draft/` gone. The printed text `text/orig/RUT.usfm` rebuilt from
+  the read lines to check: the same words (only the title differs, *Rutha* as 1738 prints it). The calls you approved
+  with it are in `data/review/ruth1-4-edition.md` (names, the vow as verse, nine spelling rows, 1738's footnotes not
+  printed, Castellio's possible slips left as printed). Not committed.
+- **Ruth 1–4 transcribed, its printed text approved for now** (2026-11-19, your "Approve for now": moved to
+  `text/orig/RUT.usfm`; phase 2 since done, above). Begun on your "Start transcribing the next
+  book"; the first book on decision 85's phase 1. `data/review/ruth1-4-transcription.md`: 1738's leaves 318–321
+  voted with `pipeline lines` and every line read on the page by two readers (1,720 words, 307 changed from the vote,
+  one lost line added), verse numbers from 1738's margins, versified to the KJV (59 edits, checks pass), paragraphs
+  from the indents with three set on the page. Printed text `text/orig/RUT.usfm`; the draft now settled as `text/RUT.usfm`.
+  For phase 2: 1738's four footnotes (1:8, 1:10, 1:13, 1:20) and an asterisk at 3:16 with no note; wording doubts
+  listed. Two small code fixes: `ocrdraft.classify` (Ruth's heading `cApvT i.` and the short title *RVTHA.*
+  mid-page) and `orig.verse_paragraph_rows` (paragraph rows before a book is settled). Tests pass (210). Not committed.
 - **Minor notes: 41 removed, and Joshua's two notes added** (2026-11-19, your "Apply all": `notes-minor.md` and
   `josh-notes.md` applied, gold rebuilt for the 15 books touched; 162 notes now in `text/`; tests pass; the site built
   to a scratch folder shows Josh 6:23's note and no Judg 4:5 note). Not committed. Asked first in your "Minor notes (e.g. rare names in lists) that don't really

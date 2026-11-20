@@ -934,6 +934,10 @@ def verse_paragraph_rows(text, book, chapters):
             continue
         chapter_at = lines.index(f"\\c {c}")
         k = next(i for i in range(chapter_at, len(lines)) if lines[i].startswith(f"\\v {v} "))
+        if vid not in first:          # a book not yet settled (phase 1): the verse's first word as built
+            words = re.findall(r"[^\W\d_]+", lines[k].split(" ", 2)[2] if lines[k].count(" ") >= 2 else "")
+            if words and same_word(words[0], word.split("#")[0]):
+                first[vid] = word.split("#")[0]
         if first.get(vid) != word.split("#")[0] or word.partition("#")[2] not in ("", "1"):
             inside = word if begin is False else None
             for i in range(k + 1, len(lines) - 1):

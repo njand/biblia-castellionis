@@ -34,6 +34,9 @@ from pipeline import paths
 
 ROMAN = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
 CHAPTER = re.compile(r"^C\s*A\s*P\s*[VU]\s*T\s*(.*)$")
+# The heading with its capitals misread as small letters (1738 leaf 318, Ruth: "cApvT i."): only with a numeral
+# alone after it, so that a text line opening with *caput* is not taken for one.
+CHAPTER_LOOSE = re.compile(r"^[Cc]\s*[Aa]\s*[Pp]\s*[VvUu]\s*[Tt]\s*([IVXLivxl]+)\s*\.?$")
 # What a margin number looks like in the OCR: digits and the letters and marks it reads them as.
 NUMBERISH = re.compile(r"^[0-9IlOoSgq|%^*<>&;:{}()\[\]?\-'.,\"’`~\\/zZ]+$")
 LEAD = re.compile(r"^(?:&lt;|&amp;|[0-9|%^*<>&;:{}()\[\]?'\"’`~\\/])+")
@@ -95,11 +98,15 @@ def classify(words, size):
             line.kind = "head"
         elif CHAPTER.match(bare):
             line.kind, line.chapter = "chapter", roman(CHAPTER.match(bare).group(1))
+        elif CHAPTER_LOOSE.match(bare):
+            line.kind, line.chapter = "chapter", roman(CHAPTER_LOOSE.match(bare).group(1).upper())
         lines.append(line)
     # A book's title across both columns in mid-page (1738 leaf 156: LEVITICVS. under Exodus's last lines): the
     # columns above it are read before those below it, and the title is not the text.
     titles = [l.y for l in lines if l.kind == "body" and l.y > 0.1 * height
-              and max(b[2] for _, b in l.words) - min(b[0] for _, b in l.words) > 0.5 * width
+              # wider than a column, or a short title standing across the page's middle (1738 leaf 318: RVTHA.)
+              and (max(b[2] for _, b in l.words) - min(b[0] for _, b in l.words) > 0.5 * width
+                   or min(b[0] for _, b in l.words) < 0.45 * width < 0.55 * width < max(b[2] for _, b in l.words))
               and re.fullmatch(r"[A-Z][A-Z\s]{3,}\.?", l.text.strip())]
     for line in lines:
         if line.y in titles:
