@@ -73,7 +73,7 @@ class Book:
 
     @property
     def slug(self):
-        return self.info.slug.replace(" ", "-")
+        return self.info.web or self.info.slug.replace(" ", "-")
 
 
 def strip_macrons(text):

@@ -19,10 +19,11 @@ class Book:
     testament: str           # "vetus" or "novum"
     wp: str | None = None
     apocrypha: bool = False
+    web: str | None = None   # the website's folder, where it differs from the slug's (which names the TXT/ files)
 
 
-def _ot(osis, usfm, slug, ws, wp=None):
-    return Book(osis, usfm, slug, ws, "vetus", wp)
+def _ot(osis, usfm, slug, ws, wp=None, web=None):
+    return Book(osis, usfm, slug, ws, "vetus", wp, web=web)
 
 
 def _ap(osis, usfm, slug, ws):
@@ -42,8 +43,8 @@ BOOKS = [
     _ot("Josh", "JOS", "josua", "Josua"),
     _ot("Judg", "JDG", "judices", "Judices"),
     _ot("Ruth", "RUT", "rutha", "Rutha"),
-    _ot("1Sam", "1SA", "regum liber 1", "Regum liber I"),
-    _ot("2Sam", "2SA", "regum liber 2", None),
+    _ot("1Sam", "1SA", "regum liber 1", "Regum liber I", web="samuelis-i"),     # the title Samuēlis I (Nathan, 2026-11-21)
+    _ot("2Sam", "2SA", "regum liber 2", None, web="samuelis-ii"),
     _ot("1Kgs", "1KI", "regum liber 3", None),
     _ot("2Kgs", "2KI", "regum liber 4", None),
     _ot("1Chr", "1CH", "paralipomenon liber 1", "Paralipomenon liber I"),
