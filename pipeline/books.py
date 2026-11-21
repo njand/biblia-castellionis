@@ -45,8 +45,8 @@ BOOKS = [
     _ot("Ruth", "RUT", "rutha", "Rutha"),
     _ot("1Sam", "1SA", "regum liber 1", "Regum liber I", web="samuelis-i"),     # the title Samuēlis I (Nathan, 2026-11-21)
     _ot("2Sam", "2SA", "regum liber 2", None, web="samuelis-ii"),
-    _ot("1Kgs", "1KI", "regum liber 3", None),
-    _ot("2Kgs", "2KI", "regum liber 4", None),
+    _ot("1Kgs", "1KI", "regum liber 3", None, web="regum-i"),          # the Nova Vulgata's Regum I (Nathan, 2026-11-21)
+    _ot("2Kgs", "2KI", "regum liber 4", None, web="regum-ii"),
     _ot("1Chr", "1CH", "paralipomenon liber 1", "Paralipomenon liber I"),
     _ot("2Chr", "2CH", "paralipomenon liber 2", None),
     _ot("Ezra", "EZR", "esdras", None),
