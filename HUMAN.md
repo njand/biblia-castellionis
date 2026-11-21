@@ -2,6 +2,27 @@
 
 ## Now
 
+- **Your PDF notes of 2026-11-20, done** (nothing committed):
+  - `data/review/proofs-2026-11-20.md`, 22 words applied, gold rebuilt: *cēna* and its family for *cœna* (Acts 1:13,
+    9:37, 9:39, 20:8; 1 Cor 11:20, 21, 25; 1 Sam 9:22, 25:36; Rev 3:20, 19:9, 19:17) and Rom 1:27 *obscēna*, as Gaffiot
+    and the edition's own *cēnāculum* in Mark and Luke; *simul ac* for *simulac* (1 Sam 13:10, Acts 12:10, 16:10, Gal
+    1:15, Phil 2:23); *Hallēlūia* for *Hallēluja* (Rev 19:1, 3, 4, 6). Four rules approved in `orthography.tsv`
+    (stems *cœna-*, *obscœn-*; words *simulac*, *halleluja*). The tool shows Gaffiot's *h-* form as *hallĕlūia* (short
+    *e*) beside *allēlūia*; *ē* kept, as you read it.
+  - PDF (`pipeline/templates/preamble.tex`, `pipeline/latex.py`), compiled with LuaLaTeX in WSL and checked page by
+    page from the shipped boxes: (1) the blank page after Romans: a book whose last page has a note (Rom 15:29) left
+    multicol's empty note placeholder on the next page, and `\clearpage` made a page of it; empty note boxes are now
+    voided. The same placeholder had reserved 15.6pt on the next book's first page, which is why 1 John 2 jumped to
+    column 2 (after 2 Peter's notes); now 1 John 2 follows 1:10 in column 1. (2) Running heads a verse off where a
+    verse opens a paragraph (Gen 6:5 heading page 7 and 8 starting at 6:6): the verse's mark now goes inside its
+    paragraph; page 7 now ends *Genesis 6:4*, page 8 begins *Genesis 6:5*. (3) A smaller title line under a larger one
+    (James, Peter, John, Jude) stood twice as far below it as one above (Romans); `\TitulusInfra` closes it: 13.15pt
+    gap in James, 13.1pt in Romans. Not yet looked at as an image (no renderer here).
+  - 1 Samuel's title split, *Samuēlis* over a smaller *Liber Prior* like *Petrī Apostolī / Epistula Prior* (your
+    "Yes, split it", 2026-11-21; `data/review/1sam-title-2026-11-21.md`, with Hetzenauer 1914, Weber–Gryson and the
+    1906 RV as precedent), in `text/1SA.usfm` and `text/orig/1SA.usfm`, by hand (Apply lines reach verses only).
+    Site, EPUB and the PDF's LaTeX checked; 2 Samuel and Kings to follow (*Liber Posterior*).
+
 - **Capitals, *adsecula* and the title of 1 Samuel, applied** (2026-11-20, your "Ok, go ahead and capitalize all
   these", "Standardize to that throughout the whole Bible", "change the title to the Latin version of I Samuel").
   - `data/review/capitals-gentile.md`, 14 words capitalized: Gen 37:1 *Chananæam*, 39:1, 45:18, 45:19, 45:23, 47:6,

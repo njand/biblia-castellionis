@@ -340,8 +340,10 @@ def to_latex(usfm):
     header = {marker: content for marker, content in parsed if marker in HEADER}
     titles = [(part.strip(), marker in ("mt2", "mt3")) for marker, content in parsed
               if marker in ("mt", "mt1", "mt2", "mt3") for part in content.split("//")]
-    long = "\\\\".join(f"\\TitulusMinor{{{line}}}" if minor else line for line, minor in titles) \
-        or header.get("h", "")
+    # a minor line under a full-size one is drawn up by the capitals' missing height (\TitulusInfra, preamble.tex)
+    long = "".join(("" if index == 0 else "\\TitulusInfra" if minor and not titles[index - 1][1] else "\\\\")
+                   + (f"\\TitulusMinor{{{line}}}" if minor else line)
+                   for index, (line, minor) in enumerate(titles)) or header.get("h", "")
     short = header.get("h", long)
     out = [f"\\Liber[{long}]{{{short}}}\n"]
     body = [(m, c) for m, c in parsed if m not in HEADER]

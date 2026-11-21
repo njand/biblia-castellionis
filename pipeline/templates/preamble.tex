@@ -34,10 +34,18 @@
 % stayed as one unbroken line each, and a long one ran off the page (Lev 13:48, 21:4; found 2026-11-16). memoir's
 % footnote step now makes the paragraph first. (memoir's own \paragraphfootnotes uses an insertion multicol leaves
 % out of its reckoning, so the columns could run into the notes.)
-\pretocmd{\m@mopfootnote}{\global\setbox\footins\vbox{\FN@makefootnoteparagraph}}{}
+% An empty note box (below) is voided, not made a paragraph: that paragraph was a bare 5.6pt strut, overfilling the page.
+\def\Castellio@notes{\ifdim\dimexpr\ht\footins+\dp\footins\relax>\z@
+    \global\setbox\footins\vbox{\FN@makefootnoteparagraph}\else\global\setbox\footins\box\voidb@x\fi}
+\pretocmd{\m@mopfootnote}{\Castellio@notes}{}
   {\PackageWarning{castellio}{memoir's footnotes not made a paragraph}}
-\pretocmd{\m@mopfootnotebf}{\global\setbox\footins\vbox{\FN@makefootnoteparagraph}}{}
+\pretocmd{\m@mopfootnotebf}{\Castellio@notes}{}
   {\PackageWarning{castellio}{memoir's footnotes not made a paragraph}}
+% When a book's columns end by filling a page that has notes, multicol puts an empty note (its placeholder) after
+% them, which falls on the next page; \clearpage then made a page of it, blank but for its head (after Romans,
+% whose last page has the note on 15:29; Nathan, 2026-11-20). \clearpage now voids an empty note box first.
+\pretocmd{\@doclearpage}{\ifvoid\footins\else\ifdim\dimexpr\ht\footins+\dp\footins\relax=\z@
+    \global\setbox\footins\box\voidb@x\fi\fi}{}{\PackageWarning{castellio}{\string\clearpage\space not patched}}
 \makeatother
 \usepackage{graphicx}   % \scalebox, for \TitulusMinor
 
@@ -105,6 +113,11 @@
 % once scaled (10/12); \TitulusMinor is .55/1.2, so the \mt2 line keeps its size (2026-11-12: \HUGE small caps alone
 % looked undersized).
 \newcommand{\TitulusMinor}[1]{\scalebox{.46}{#1}}
+% The break before a minor line under a full-size one (James, John's and Peter's letters: "Jācōbī Apostolī" over
+% "Epistula"): the lines stand a \HUGE line apart, which under a minor line above leaves the gap between its foot and
+% the capitals below, but over one adds the capitals' missing height (1 − .46 of it), so the gap was twice as wide
+% (Nathan, 2026-11-20). That much is taken back. (A macro, so no [ ] stands inside \Liber's optional argument.)
+\newcommand{\TitulusInfra}{\\[-.54\fontcharht\font`\E]}
 \newcommand{\LiberTitulus}{%            % a macro: multicols' [title] argument may not hold a \par itself
     \begin{center}
         \scalebox{1.2}{\begin{minipage}{\dimexpr\textwidth*10/12\relax}
@@ -140,7 +153,11 @@
 % begins overleaf ("Lēvīticus 22:14 – 23:15", 23:15 on the next page; found 2026-11-16).
 \makeatletter
 \NewMarkClass{versus}
+% A verse that opens a paragraph starts the paragraph before its mark (\leavevmode): a mark set between paragraphs
+% stood after the last line of the one before, so when the page broke there it went with that line, and both heads
+% were a verse off (Gen 6:5 heading the page before its own, 6:6 its own; Nathan, 2026-11-20).
 \newcommand{\Versus}{%
+    \leavevmode
     \stepcounter{versuscount}%
     \protected@edef\@tempa{\noexpand\CastellioRef{\libernameshort}{\arabic{caputcount}}{\arabic{versuscount}}}%
     \InsertMark{versus}{\unexpanded\expandafter{\@tempa}}%   % \InsertMark expands its text: keep \CastellioRef
@@ -152,6 +169,7 @@
 % A verse that stands for a range of the KJV's (\v 12-83: Num 7, the princes' offering given once): numbered
 % "12–83", the running head marking its first verse; the counter goes on from the last.
 \newcommand{\VersusUsque}[1]{%
+    \leavevmode
     \stepcounter{versuscount}%
     \protected@edef\@tempa{\noexpand\CastellioRef{\libernameshort}{\arabic{caputcount}}{\arabic{versuscount}}}%
     \InsertMark{versus}{\unexpanded\expandafter{\@tempa}}%
