@@ -52,6 +52,10 @@ Never a note for (as in the NT, and these besides):
   name, a place, a number, a date, a material or a furnishing detail, even when it is a plain misreading (Judg 4:5
   *Hormam*, Josh 13:3 *Hevæēnsis*, Gen 8:14's day: dropped, `notes-minor.md`). A note only where what happens, what a
   law requires, or what a passage says about God changes.
+  **A name that changes the story does get one** (Nathan, 2026-11-21, 2 Sam 12:31 *Mōabītārum* for the Ammonites:
+  "it isn't an inconsequential name in a list, and all modern editions agree against him"; 21:8 Michal for Merab,
+  "which otherwise leads to a contradiction that wasn't present in the original", with 6:23): where the name changes
+  who did or suffered what, or makes the book contradict itself, and the modern Bibles agree against Castellio.
 
 ## 3. The consensus, defined so it can be checked
 

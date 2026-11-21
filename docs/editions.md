@@ -427,6 +427,72 @@ unless 1738's are named.
   (seen by Claude); 30:5 *D uidis*, the *a* fallen out (seen); 29:9 *dininus*; 31:9 *nuntios* (seen; 1750 and Wikisource
   *nuntius*); 12:20 *Iona* (a turned *u*); many commas with no space after them.
 
+### 2 Samuel in 1738 (phase 1, 2026-11-21)
+
+Read on the page images, every line, by fourteen readers (`data/review/2sam1-24-transcription.md`, the readers' notes
+in `2sam1-24-transcription-readers.md`); the doubtful letters and indents named below seen by Claude. Verses are the
+KJV's unless 1738's are named. Wikisource has no 2 Samuel; the vote used 1750 and 1726 only.
+
+- **1738** (leaves 357–385, *REGVM LIBER II.*): the book begins on leaf 357 under the end of 1 Samuel and ends on leaf
+  385 above *REGVM LIBER III.*; each chapter has its italic summary and a drop capital. Its verse counts differ from
+  the KJV's in three chapters (13: 38 against 39; 14: 34/33; 17: 28/29), and it cuts many verses differently even
+  where the counts agree (210 versification edits). Its 14:1 (*Interea quum rex Dauid … aueret;*) is the KJV's 13:39,
+  and its 20:1 opens with the KJV's 19:43b. At 15:9 Castellio sets the KJV's 15:11 (the two hundred from Jerusalem)
+  before 15:10 (Absalom's spies), so his 15:9–10 stand for the KJV's 9–11. 1726 numbers the verses as 1738 (readers'
+  checks throughout); at 12:21–25, 14:25, 19:2 and 20:2 1738's margin number stands a line off the verse's start.
+- **The text has no gap**: 23:1–7, David's last words (*SEquuntur Dauidis verba nouissima …*), are printed in full on
+  leaf 383 (1750 the same); the vote had lost them under chapter 23's summary (an OCR fault, fixed in `ocrdraft.py`).
+- **21 lettered footnotes**, the letters running f–q (leaves 357–366), then a–e (367–372), f–i (377–381) and a (384).
+  Almost all glosses (*vrbes.*, *hoc est, dimicarent.*, *hoc est, Iouæ carum.* on *Iedidiam* 12:25, *decem partes,
+  quod decem tribus erant.* on *decuncem* 19:43). Textual: 2:9 *Latinus Gessuræos, Græcus Thasiri.*; 2:29 *Latinus
+  Bethorone.*; 4:6 *Græce, quum quidem ædium ianitrix (quæ triticum euellebat) somno oppressa dormiret,* (the LXX's
+  doorkeeper); 15:7 *Iosephus 4 habet, at in Hebræo 40 sunt.* (the text's *quatuor annis*); 18:18 *nam supra cap. 14.
+  dicitur filios tres …*; 24:1 *… Vid. 1. Par. 27.* Whether they are Castellio's 1554 margins (as 35 of 1 Samuel's 36
+  are) is for phase 2.
+- **Castellio's marks** in the text: *G. L. … H.* at 1:19 (*considera, o Israelita*), 8:8, 13:21, 14:30, 15:20;
+  *L. … H.* at 1:26 (*Sicut mater vnicum amat filium …*, the Vulgate's addition, kept in the KJV's 26), 8:13, 13:37,
+  15:18; *G. … H.* at 14:27, 17:3; and at 8:7–8 (*H.* after *Hierosolymam*, *G. L. ex quo … L. et altare G. et lauacra*).
+- **Eleven asterisks with no footnote** (5:8, 7:7, 7:24, 12:26, 14:13, 15:7, 18:3, 18:17, 21:6, 23:3, 23:8), taken out
+  of the read lines and listed; at 23:8 it stands where Castellio leaves out the Hebrew's "Adino the Eznite". In
+  1 Samuel each asterisk marked one of his 1554 annotations; phase 2 checks these against *IN LIBROS REGVM*.
+- **Initials**: 2:9 *Iezraelenses* and 5:15 *Iebahar* are capital I with a worn, slanted top serif, first taken for
+  *l* (corrected on Nathan's reading, 2026-11-21; 1 Samuel's 1:20 *Ioua* the same, `data/review/1sam-orig-ioua.md`).
+- **Printing slips and odd forms**, kept in the printed text: 3:27 *Asaclis* (1750 *Asaelis*; seen: a *c*); 11:9 *Vrjas*; 12:17 *senatcres*; 12:20 *adoranit* (a turned *u*,
+  seen) and *adposito.epulatus*; 16:1 *DAuid autem. paullulum*; 19:15 *eumque* (1750 and 1726 *cumque*; seen, clear
+  *e*); 20:8 *peruenernnt* (seen); 22:31 *omnib us* (a gap in the type; read *omnibus*). 12:31 *oppidis Moabitarum*
+  where the Hebrew has the Ammonites is in 1726 too: Castellio's text, not a slip.
+
+### 2 Samuel in 1554 and 1573 (phase 2 notes search, 2026-11-21)
+
+Read on the page images by two notes readers (`data/review/2sam1-24-phase2/notes-1554-a.md`, `-b.md`; crops cached in
+`sources/mdz-1554/`, git-ignored). 1554 = MDZ bsb10196330; 1573 = MDZ bsb10141277, here through its search API only.
+
+- **1554's text** (*REGVM LIB. II*): canvases 171–186, columns 317–346 (read to 24:9); sixteen lettered marginal glosses
+  (twelve in 1–12, four in 13–24), lettered afresh in each chapter.
+- **The annotations** *IN II. LIB. REGVM*, with no preface: canvas 826 (columns 347–348) and 827 (column 349), then *IN
+  III. REGVM*. Eleven on 2 Samuel: 5:8, 7:7, 7:23, 12:26, 14:13, 15:7, 18:3, 18:17, 21:6, 23:3, 23:8.
+- **1738's asterisks mark them**: each of the eleven footnote-less asterisks stands at the lemma of one annotation, in
+  order, one for each; with 1 Samuel's fourteen and Ruth's one, twenty-six of twenty-six. 21:6's raised mark at
+  *Darentur* is not one of them (that chapter's annotation is at *monte*). At 5:8 1554 prints a dagger in the text where
+  the sentence breaks off (*Dauidi inuiſos † ex quo*, canvas 173) and its annotation calls the place mutilated; 1738 an
+  asterisk, as at 1 Sam 13:1.
+- **1738's 21 footnotes**: sixteen are 1554's margins. 15:7 (*Iosephus 4 habet …*) is a digest of the 1554 annotation;
+  6:23 (*scilicet ex Dauide …*) is probably 1573's (search hit *ex Adriele*, canvas 212; the page not seen); 8:18, 9:9 and
+  24:1 were found in neither 1554 nor (by the search) 1573: unverified whose.
+- **Annotations written against another wording**: the lemmas of 7:23 (*in terris*; the text *tuæ terræ*) and 14:13
+  (*iſtam cõtra diuinum populum*; the text *iſtam diuini populi periculo rationem*), as 1 Sam 6:18 and 14:36.
+- **12:31 revised after 1554**: 1554 *& calcaria excruciatos* (canvas 177, column 330, read on the zoom); 1573 (search)
+  and 1738 *excruciatos, & per laterariam fornacem traiectos* (the Hebrew's brick-kiln). By Castellio or not is unknown
+  (1556 not checked). All three print *omnibus oppidis Moabitarum* where the Hebrew has the Ammonites.
+- **His stated grounds**: 15:7 *quatuor* rests on Josephus and the ease of reading ארבע for ארבעים, not on the Greek
+  (Brenton's LXX has forty); 18:3 (עתה for אתה, "with the Greek and Latin translator") and 21:6 (בהר for בחיר) are
+  emendations he states; at 23:8 he translates partly from 1 Chr 11, Samuel's Hebrew being corrupt, keeping 800 with
+  Josephus.
+- **1573 prints annotations inside the book**: 12:26 (canvas 215) and 23:3 (canvas 224, with the side-note
+  *Religiosus*), as it did 1 Samuel's.
+- **Castellio's marks** at 1:19, 1:26, 8:7, 8:8, 8:13, 13:21, 13:37, 14:27, 14:30, 15:18, 15:20, 17:3 are all in 1554's
+  text; 14:27's carries the margin reference *3.Reg.15* (Abijam's mother, 1 Kgs 15:2).
+
 ### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
 
 Five places where Castellio's text departs from the Hebrew stand in 1551 (Google Books BrlIAAAAcAAJ, read by Nathan),

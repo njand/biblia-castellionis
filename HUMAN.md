@@ -2,6 +2,19 @@
 
 ## Now
 
+- **2 Samuel 1–24 settled for now, with nine notes** (2026-11-21, your "Approve all", with 12:31 and 21:8 added).
+  `data/review/2sam1-24-edition.md`: `text/2SA.usfm` from the 693 items; notes 5:8, 1:19, 1:26, 8:7, 8:8, 12:31
+  (*Mōabītārum*, Hebrew the Ammonites), 14:27, 14:30, 21:8 (*Mīcholis*, the versions Merab). The notes rule now says a
+  name that changes who did or suffered what, or makes the book contradict itself, gets a note
+  (`ot-notes-process.md`). Printed text: 14:10 *deferto* and the title *Samuelis / Liber Posterior*; rebuilt from the
+  read lines, it matches word for word. The draft is gone; the ledger says settled. Not committed.
+- **Spelling for the whole edition** (2026-11-21, your answers to point 8; `data/review/spelling-2026-11-21.md`):
+  *pulchr-* always (1 Sam 9:2 changed; stem rule *pulcr → pulchr*, *sepulcrum* untouched); *dījūdic-* as Gaffiot (seven
+  settled words: Exod 18:16, 18:26, Judg 11:27, Acts 4:19, 1 Cor 6:5, 12:10, 14:29; the pipeline now marks *dī-* before
+  *j*, `macronize.LONG_BEFORE_J`); ***Sīcine*** checked and right: Lewis & Short *sīcĭnĕ*, the corpus *sicine* 13 times
+  in classical authors (Plautus, Terence, Catullus, Cicero, Livy), *siccine* only in Neo-Latin (Erasmus, Castellio,
+  Corderius …); Gaffiot alone *sīccĭnĕ*. Acts 7:1 *Siccīne* → *Sīcine*, as John 18:22 already was; word rule *siccine →
+  sicine*. The printed texts keep 1573's *Siccine*. Gold rebuilt for 1 Sam, Exod, Judg, Acts, 1 Cor.
 - **Your PDF notes of 2026-11-20, done** (nothing committed):
   - `data/review/proofs-2026-11-20.md`, 22 words applied, gold rebuilt: *cēna* and its family for *cœna* (Acts 1:13,
     9:37, 9:39, 20:8; 1 Cor 11:20, 21, 25; 1 Sam 9:22, 25:36; Rev 3:20, 19:9, 19:17) and Rom 1:27 *obscēna*, as Gaffiot

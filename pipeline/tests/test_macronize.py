@@ -45,6 +45,13 @@ class Choose(unittest.TestCase):
         self.assertEqual(macronize.finish("dixit", choice.longs), "dīxit")
         self.assertEqual(choice.how, "gaffiot")
 
+    def test_long_before_j(self):
+        # The vowel before j is left unmarked, except where long by nature: trājēcit, dījūdicō (Nathan, 2026-11-21).
+        self.assertEqual(macronize.finish("cujus", {1}), "cujus")
+        self.assertEqual(macronize.finish("trajecit", {2, 4}), "trājēcit")
+        self.assertEqual(macronize.finish("Dijudicet", {1, 3}), "Dījūdicet")
+        self.assertEqual(macronize.finish("dijudicare", {3}), "dījūdicare")
+
     def test_gaffiot_only_in_the_same_syllable(self):
         stantes = macronize.parse("stantēs  [MW]  ← sto (M)\n  G Gaffiot: stō, stĕtī, stātūrus, stāre")
         self.assertEqual(macronize.finish("stantes", macronize.choose("stantes", stantes).longs), "stantēs")

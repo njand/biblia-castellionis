@@ -202,6 +202,14 @@ class Indents(unittest.TestCase):
                          "quæ tibi præcepi, cunctaque et arcam (quam vides)")
         self.assertEqual(orig.printed_from_read_lines("essem.Quare nati,siue"), "essem. Quare nati, siue")
 
+    def test_anchor_across_a_leaf_mark(self):
+        # 2 Sam 19:26: 1738 breaks "a-|pud" across leaves 378/379, and the draft's anchor has no mark
+        usfm = "\\v 26 Cui ille: domine rex, ille me ⁅379⁆ apud te calumniatus est."
+        edit = {"op": "split", "at": "2Sam.19.26", "anchor": "ille me apud", "status": "applied", "note": ""}
+        self.assertEqual(orig.marked_anchor(edit, usfm)["anchor"], "ille me ⁅379⁆ apud")
+        self.assertEqual(orig.marked_anchor({**edit, "anchor": "domine rex"}, usfm)["anchor"], "domine rex")
+        self.assertEqual(orig.marked_anchor({**edit, "op": "merge", "anchor": ""}, usfm)["anchor"], "")
+
     def test_opening_word_beside_a_drop_capital(self):
         self.assertEqual([orig.opening_word(w) for w in ("AVditionem", "AD", "Tvm", "CVm", "DEstinaui", "PRINCIPIO", "Igitur")],
                          ["Auditionem", "Ad", "Tum", "Cum", "Destinaui", "PRINCIPIO", "Igitur"])

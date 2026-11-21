@@ -234,7 +234,7 @@ def finish(word, longs, decided=False):
         longs = set(longs) - {len(letters) - 1}
     longs = {i for i in longs if not (i + 1 < len(letters) and letters[i + 1] == "j")}
     if m := LONG_BEFORE_J.match(letters):              # ē|jiciō, trā|jēcit: long by nature (50 of 50 settled)
-        longs.add(m.end(1) - 1)
+        longs.add(m.end(m.lastindex) - 1)
     marked = mark(word, longs)
     return ligatures(marked)
 
@@ -278,7 +278,8 @@ def jv(word):
 
 PREFIXES = {"ab", "ad", "con", "dis", "in", "ob", "sub", "per", "e", "ex"}
 # Compounds of jaciō whose prefix is long by nature: ējiciō, dējiciō, prōjiciō, trājiciō.
-LONG_BEFORE_J = re.compile(r"(e|de|pro|tra)j(?:ic|ec|ac)")
+LONG_BEFORE_J = re.compile(r"(e|de|pro|tra)j(?:ic|ec|ac)|(di)jud")
+# dījūdicō as Gaffiot (Nathan, 2026-11-21): dī- is long by nature, as ē-, dē-, prō-, trā- before jaciō.
 # Compounds of jaciō, always with j (abjiciō, ējiciō, prōjiciō), not Gaffiot's abiciō (decision 17).
 JICIO_PREFIXES = {"ab", "ad", "con", "dis", "in", "ob", "sub", "e", "de", "re", "pro", "tra", "trans", "circum",
                   "inter", "super", "præ", "prae"}

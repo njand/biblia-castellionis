@@ -837,6 +837,24 @@ def paragraph_starts(rows, indented):
     return out
 
 
+def marked_anchor(edit, usfm):
+    """The edit with its anchor as the marked text has it, where a leaf mark falls between its words (1738 leaf
+    378/379, 2 Sam 19:26 "ille me a-|pud"): each form not found as it stands is sought with a mark allowed after
+    any of its words, and taken if found exactly once in the book."""
+    anchor = edit.get("anchor") or ""
+    if edit.get("op") not in ("split", "chapter", "opens") or not anchor:
+        return edit
+    forms = []
+    for form in anchor.split("|"):
+        if form not in usfm:
+            words = form.split()
+            found = re.findall(r"\s+(?:⁅\d+⁆\s*)?".join(map(re.escape, words)), usfm) if words else []
+            if len(found) == 1:
+                form = found[0]
+        forms.append(form)
+    return {**edit, "anchor": "|".join(forms)}
+
+
 def from_read_lines(book, chapters, source, edits=()):
     r"""(USFM chapters, {verse id: leaf}) of the printed text built from 1738's read lines, for chapters drafted from
     them (Exodus 31–40, where Wikisource has none: data/review/exod31-40-stage2.md, Stage 2b). No OCR alignment is
@@ -863,6 +881,12 @@ def from_read_lines(book, chapters, source, edits=()):
         previous = leaf
         para = PARAGRAPH_MARK + " " if (int(leaf), int(line)) in starts else ""
         body = text.strip()
+        if lead and marked and marked[-1][3].rstrip().endswith("-") and not body.startswith("#") \
+                and (w := re.match(r"^(.*?)(\S+-)\s*$", marked[-1][3])):
+            # a word broken across the leaf (1738 leaf 370/371, 2 Sam 13:34 "Absa-|lomus"): the mark before the
+            # word, so that an anchor beginning there is found whole
+            marked[-1] = (*marked[-1][:3], f"{w.group(1)}{lead}{w.group(2)}")
+            lead = ""
         if m := re.match(r"(#\d+)\s*(.*)$", body):          # a verse number first: the mark goes after it
             body = f"{m.group(1)} {para}{lead}{m.group(2)}"
         else:
@@ -880,7 +904,7 @@ def from_read_lines(book, chapters, source, edits=()):
         lines.append(f"\\v {v} {text}")
     usfm = "\n".join(lines) + "\n"
     if edits:
-        usfm, _ = versify.apply_edits(usfm, book.osis, edits)
+        usfm, _ = versify.apply_edits(usfm, book.osis, [marked_anchor(e, usfm) for e in edits])
     # Each verse's whole text (a merged verse runs on over the lines after it), and its leaf: the last leaf mark
     # before its first word. Then the marks go.
     pages, leaf, chapter, verses_out = {}, None, None, []      # verses_out: [("c", n) | ("v", n, text)]

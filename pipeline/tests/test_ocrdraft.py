@@ -3,7 +3,7 @@ draft in Wikisource's conventions."""
 
 import unittest
 
-from pipeline import ocrdraft
+from pipeline import ocrdraft, paths
 
 
 def word(text, x0, y0, n, width=None):
@@ -53,6 +53,15 @@ class Classify(unittest.TestCase):
             self.assertTrue(ocrdraft.DROP_START.match(text), text)
         for text in ("Ad Achimelechum profugiens", "In PaUflinos Jonathan.", "Samveiir cencio"):
             self.assertFalse(ocrdraft.DROP_START.match(text), text)
+
+    @unittest.skipUnless((paths.SOURCES / "archive" / "1738" / "hocr.html").exists(),
+                         "1738 hOCR not cached (sources/ is git-ignored)")
+    def test_summary_ends_at_a_gap(self):
+        # 2 Sam 23 (leaf 383): the summary's last line lost by the OCR, its first ends "fortis-"; the text two lines
+        # down ("Equuntur", the drop capital apart) is not the summary. 1 Sam 21 (leaf 346): "Sa-" / "cri panes." is.
+        summary = lambda leaf: [l.number for l in ocrdraft.page_lines("1738", leaf) if l.kind == "summary"]
+        self.assertEqual(summary(383), [15])
+        self.assertIn(38, summary(346))
 
 
 class Verses(unittest.TestCase):

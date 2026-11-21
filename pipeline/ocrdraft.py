@@ -187,9 +187,11 @@ def classify(words, size):
                 break
             # A summary whose last stop the OCR lost (1738 leaf 342, 1 Sam 18: "nupta re?;,;"): the next line is in
             # the text's larger type, this one in the summary's smaller.
-            # (Not when this line breaks a word: the summary runs on, 1738 leaf 346, 1 Sam 21 "D.mid. Sa-" / "cri panes.")
+            # (Not when this line breaks a word and the next stands right under it: the summary runs on, 1738 leaf 346,
+            # 1 Sam 21 "D.mid. Sa-" / "cri panes."; but where the OCR lost the summary's last line, the gap below shows
+            # it, 1738 leaf 383, 2 Sam 23 "… fortis-" with the text's "Equuntur" two lines down.)
             if nxt is not None and h < 0.85 * usual and nh >= 0.95 * usual \
-                    and not current.text.rstrip().endswith("-"):
+                    and not (current.text.rstrip().endswith("-") and nxt.y - current.y < 2 * usual):
                 break
             k += 1
     # Margins: each column's text edges, from its body lines; a word outside them is the margin's number.
