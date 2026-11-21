@@ -374,13 +374,58 @@ Read on the page images (`data/review/ruth1-4-transcription.md`, `ruth-notes-155
 - **Castellio's 1554 annotation on Ruth** (*IN RVTHAM*, *EX CAP. III.*, canvas 825, column 345, about 45% down the left
   column): one note, on *Illa in oppidum ad ſocrum uenit*: the Hebrew's masculine *venit* he takes for a mistake, from
   the sense and the old version, as he takes יגאל for תגאל in the next chapter (4:4). The edition notes it at 3:16
-  (`ruth-notes.md`). 1738's asterisk at 3:16 stands where the annotation's lemma ends; perhaps a trace of it (not proved).
+  (`ruth-notes.md`). 1738's asterisk at 3:16 stands where the annotation's lemma ends; a mark of it: 1 Samuel's fourteen asterisks stand at its fourteen 1554 annotations (below, 2026-11-20).
 - **1573** (bsb10141277, canvases 186–187): an *Argumentum in totum librum Ruthæ*, chapter summaries, verse numbers
   (chapter 1 has 23, as 1738); it prints the 3:16 annotation inside the book, under *ANNOTATIO.* after chapter 3,
   shortened (without the comparison with 4:4) and with its lemma numbered 16. Whether 1573 does this elsewhere in the
   Old Testament is not checked.
 - **Changes after 1554**: 1:18 *contradicere deſijt* (1554) → *diſſuadere deſijt* (1573; 1738 *dissuadere desiit*);
   1:20–21 *Noemin* → *Noemim* (1573, 1738); in the 1:20 margin *Noemi* → *Noemis* (1573, 1738).
+
+### 1 Samuel in 1738 (phase 1, 2026-11-20)
+
+Read on the page images, every line, by eighteen readers (`data/review/1sam1-31-transcription.md`, the readers' notes
+in `1sam1-31-transcription-readers.md`); 1554 and 1573 compared in phase 2 by two notes readers (`1sam-notes-1554-a.md`,
+`-b.md`; crops in `sources/mdz-1554/`, `sources/mdz-1573/`), the key places seen by Claude. Verses are the KJV's
+unless 1738's are named.
+
+- **1738** (leaves 322–357, *REGVM LIBER I.*): the book begins at the head of leaf 322 and ends on leaf 357 above
+  *REGVM LIBER II.*; each chapter has its italic summary and a drop capital. 1738's verse counts differ from the KJV's
+  in twelve chapters (2: 39 against 36; 6: 20/21; 13: 22/23; 15: 34/35; 19: 25/24; 20: 43/42; 21: 16/15; 23: 28/29;
+  24: 23/22; 26: 26/25; 28: 26/25; 31: 14/13), and its chapter 2 opens with Hannah's song, *Et Anna his verbis
+  supplicauit:* closing its 1:28. Wikisource's 1 Samuel follows 1738's numbering.
+- **36 lettered footnotes**, almost all glosses on the sense (*ministret.*, *scilicet hominum.*, *contemtores.*,
+  *Sciebam, te adfuturum …*, *Iurare vocat religiose adfirmare …*). One is textual: at 12:15, on *G. vestrum regem H.*,
+  *in Hebræo est, patres vestros: sed in Græco melius, vt mihi videtur.* One in chapter 25 cites *Esa. 38. et Ps. 116.*
+  The note on *claritatem* at 28:6 (*per Pontificem, qui hæc verba, Claritas et Integritas, gestabat in monili,*) ends
+  in a comma at the foot of leaf 353, and the foot of leaf 354 does not continue it: printed unfinished (seen by Claude).
+  **35 of the 36 are Castellio's own 1554 lettered margins**, changed only in spelling (canvases 153–171); the exception,
+  4:21 *i) periit gloria*, is first found in 1573 (canvas 190). 1738 leaves out one 1554 margin (16:6 *hic, ô Ioua*). The
+  28:6 note ends *in monili.* in 1554: 1738's comma is its own slip.
+- **Castellio's marks** in the text: *G. … H.* at 2:8 (*Qui et precantibus vota … facit in terris*, inside Hannah's
+  song), 12:14, 12:15, 17:43 (twice, the second *G* without its stop) and 17:49; *G. L. … H.* at 5:6 (twice), 11:1 and
+  22:9; *L. … H.* at 9:1 (*filii Sarethi*).
+- **Fourteen asterisks with no footnote** on their pages (1738's 1:3, 6:8, 6:17, 8:12, 12:17, 13:1, 14:36, 17:4, 17:12,
+  20:18, 28:17, two in chapter 25 and one in chapter 30; rows in the readers' notes); 1750's OCR shows none at the
+  places checked. **Each marks one of Castellio's 1554 annotations**: the fourteen annotations on 1 Samuel (*IN LIBROS
+  REGVM*, canvas 825 column 345 to canvas 826 column 347: 1:3, 6:8, 6:18, 8:12, 12:17, 13:1, 14:36, 17:4, 17:12, 20:19,
+  25:20, 25:27, 28:17, 30:2) stand where the fourteen asterisks do, in the same order, each at the end of its lemma.
+  With Ruth 3:16 that is fifteen of fifteen: 1738 marks the places of the annotations without printing them. At 13:1
+  the asterisk replaces the two daggers 1554 prints in the text for the lost numbers (*annũ agens † & regnauit in
+  Iſraelitas annos † duos*, canvas 159, seen by Claude); the annotation calls the place *mutilatum* and gives Saul
+  forty years from Acts 13 and Josephus (canvas 825, seen). 1573 prints some of the annotations inside the book as
+  *ANNOTATIO* (12:17 and 13:1 after chapters 12 and 13, canvas 195; 25:27 on canvas 205), as it does Ruth's; whether
+  all fourteen are there is not checked. Two lemmas do not match 1554's own text (14:36 *perimerent*, 6:18 *illud*).
+- **Castellio's marks are his**: the *G. … H.*, *G. L. … H.* and *L. … H.* marks at 2:8, 5:6, 9:1, 11:1, 12:14, 12:15,
+  17:43, 17:49 and 22:9 are already printed in 1554 (1554 also has a stray *H.* at the head of 5:6, which 1738 drops);
+  1573 has those at 17:43 and 17:49.
+- **20:30 *improbæ***: 1554 (canvas 165, column 305, seen by Claude) and 1573 (canvas 201) print *O' improbæ, inquit,
+  contumacisq; matris progenies*, which Castellio's margin explains (*Saulus improbæ filium vocat improbum*); 1738, 1750
+  and Wikisource print *improbe*, a later printer's change (which printing made it is not checked). 28:6: 1554 *per
+  Claritatem*, 1738 *claritatem*.
+- **Printing slips**, kept in the printed text: 1738's 14:6 has the margin "5"; 1738's 2:6 a second "5"; 26:6 *cum co*
+  (seen by Claude); 30:5 *D uidis*, the *a* fallen out (seen); 29:9 *dininus*; 31:9 *nuntios* (seen; 1750 and Wikisource
+  *nuntius*); 12:20 *Iona* (a turned *u*); many commas with no space after them.
 
 ### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
 

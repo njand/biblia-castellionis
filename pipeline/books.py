@@ -3,7 +3,9 @@
 ids follow OSIS (`Matt.14.3`); `usfm` is the code used by the USFM parallel texts. `ws` is the subpage of
 la.wikisource's *Biblia Sacra interprete Sebastiano Castellione* (None where none exists yet, as of 2026-11).
 `wp` is the 2019 WordPress site's slug. `slug` is the file name this repo uses in TXT/ and for the website's folders.
-Castellio follows the Vulgate's naming: Regum I–IV are 1–2 Samuel and 1–2 Kings."""
+Castellio follows the Vulgate's naming, Regum I–IV for 1–2 Samuel and 1–2 Kings (and Wikisource's pages keep it);
+the edition names them as the Nova Vulgata does, in Castellio's form: Samuēlis Liber Prior, short Samuēlis I
+(Nathan, 2026-11-20)."""
 
 from dataclasses import dataclass
 

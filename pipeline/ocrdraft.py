@@ -37,6 +37,12 @@ CHAPTER = re.compile(r"^C\s*A\s*P\s*[VU]\s*T\s*(.*)$")
 # The heading with its capitals misread as small letters (1738 leaf 318, Ruth: "cApvT i."): only with a numeral
 # alone after it, so that a text line opening with *caput* is not taken for one.
 CHAPTER_LOOSE = re.compile(r"^[Cc]\s*[Aa]\s*[Pp]\s*[VvUu]\s*[Tt]\s*([IVXLivxl]+)\s*\.?$")
+# The heading with specks read into it (1738 leaf 347, 1 Sam 23: "~~ i Ca Tp VT _ XXIII.-"): its letters squashed
+# together and capitalized, a stray letter allowed between those of CAPVT, on a short line.
+CHAPTER_SPECKED = re.compile(r"C.?A.?P.?[VU].?T([IVXL]+)$")
+# A chapter's first line, opening with its drop capital: two capitals then small letters (PAlæstini), or the capital
+# read apart from its word (T Dauid).
+DROP_START = re.compile(r"^(?:[A-Z]{2}[a-zæœ]|[A-Z]\s+[A-Z]?[a-zæœ])")
 # What a margin number looks like in the OCR: digits and the letters and marks it reads them as.
 NUMBERISH = re.compile(r"^[0-9IlOoSgq|%^*<>&;:{}()\[\]?\-'.,\"’`~\\/zZ]+$")
 LEAD = re.compile(r"^(?:&lt;|&amp;|[0-9|%^*<>&;:{}()\[\]?'\"’`~\\/])+")
@@ -57,6 +63,20 @@ class Line:
     @property
     def text(self):
         return " ".join(t for t, _ in self.words)
+
+
+def chapter_number(line, previous):
+    """A heading's chapter number, read in sequence. The OCR reads the numeral's last I as L, and an I inside it as
+    1 (1738 leaf 322, 1 Sam 1 "CAPVT L"; 333 "XIL"; 335 "XI1IL"): where the number read is not the next one and the
+    numeral with those read as I is, the next one is taken."""
+    if line.chapter == previous + 1:
+        return line.chapter
+    m = re.search(r"[IVXLl1]+[.,]?\s*$", line.text)
+    if m:
+        alt = re.sub(r"L(?=[.,]?\s*$)", "I", m.group().replace("1", "I").replace("l", "I"))
+        if roman(alt) == previous + 1:
+            return previous + 1
+    return line.chapter or previous + 1
 
 
 def roman(text):
@@ -100,6 +120,9 @@ def classify(words, size):
             line.kind, line.chapter = "chapter", roman(CHAPTER.match(bare).group(1))
         elif CHAPTER_LOOSE.match(bare):
             line.kind, line.chapter = "chapter", roman(CHAPTER_LOOSE.match(bare).group(1).upper())
+        elif len(ws) <= 8 and len(squashed := re.sub(r"[^A-Za-z]", "", line.text)) <= 16 \
+                and (m := CHAPTER_SPECKED.search(squashed.upper())):
+            line.kind, line.chapter = "chapter", roman(m.group(1))
         lines.append(line)
     # A book's title across both columns in mid-page (1738 leaf 156: LEVITICVS. under Exodus's last lines): the
     # columns above it are read before those below it, and the title is not the text.
@@ -151,11 +174,22 @@ def classify(words, size):
         while k < len(lines) and lines[k].column == line.column and lines[k].kind == "body":
             current = lines[k]
             h = _median([b[3] - b[1] for _, b in current.words])
+            # The text's first line, under a summary whose last stop the OCR lost: it opens with the drop capital,
+            # read as two capitals (1738 leaf 339, 1 Sam 17 "PAlxftini") or a capital standing apart (344, 1 Sam 20
+            # "T DauidaNaiotho")
+            if k > i + 1 and DROP_START.match(re.sub(r"^[^A-Za-z]+", "", current.text)):
+                break
             current.kind = "summary"
             nxt = lines[k + 1] if k + 1 < len(lines) else None
             ends = current.text.rstrip().endswith(".")
             nh = _median([b[3] - b[1] for _, b in nxt.words]) if nxt else usual
             if ends and (nxt is None or nh >= 0.9 * usual or h >= 0.9 * usual):
+                break
+            # A summary whose last stop the OCR lost (1738 leaf 342, 1 Sam 18: "nupta re?;,;"): the next line is in
+            # the text's larger type, this one in the summary's smaller.
+            # (Not when this line breaks a word: the summary runs on, 1738 leaf 346, 1 Sam 21 "D.mid. Sa-" / "cri panes.")
+            if nxt is not None and h < 0.85 * usual and nh >= 0.95 * usual \
+                    and not current.text.rstrip().endswith("-"):
                 break
             k += 1
     # Margins: each column's text edges, from its body lines; a word outside them is the margin's number.
@@ -489,7 +523,7 @@ def lines_tsv(order, out, starts):
     chapter, verse, fresh = 0, 0, False
     for li, line in enumerate(order):
         if line.kind == "chapter":
-            chapter = line.chapter or chapter + 1
+            chapter = chapter_number(line, chapter)
             verse, fresh = 0, True
             rows.append(f"{line.leaf}\t{line.column}\t{line.number}\t\\c {chapter}")
             continue
@@ -715,10 +749,12 @@ def make_lines(osis, leaves, chapters, vote=True):
     order, out = build("1738", leaves, voter, others)
     text = lines_tsv(order, out, place_verses(order, numbered_1750(order)))
     rows = text.splitlines()
-    keep, on = [rows[0]], False
+    keep, on, ended = [rows[0]], False, False
     for row in rows[1:]:
         if m := re.search(r"\\c (\d+)$", row):
-            on = int(m.group(1)) in chapters
+            # a chapter 1 after the book's rows: the next book has begun (1738 leaf 357, 2 Samuel under 1 Samuel 31)
+            ended = ended or (int(m.group(1)) == 1 and len(keep) > 1)
+            on = int(m.group(1)) in chapters and not ended
         if on:
             keep.append(row)
     kept = {tuple(r.split("\t")[:3]) for r in keep[1:]}

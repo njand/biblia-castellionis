@@ -27,6 +27,33 @@ class Classify(unittest.TestCase):
                                 "Leuitici verba altera"])
         self.assertEqual([l.text for l in lines if l.kind == "title"], ["LEVITICVS."])
 
+    def test_heading_with_specks(self):
+        # 1738 leaf 347, 1 Samuel 23's heading read with specks between its letters
+        size = (1680, 2742)
+        words = [word("~~", 900, 1913, 1), word("i", 950, 1913, 1), word("Ca", 980, 1913, 1),
+                 word("Tp", 1040, 1913, 1), word("VT", 1100, 1913, 1), word("_", 1160, 1913, 1),
+                 word("XXIII.-", 1200, 1913, 1), word('"', 1360, 1913, 1)]
+        line = ocrdraft.classify(words, size)[0]
+        self.assertEqual((line.kind, line.chapter), ("chapter", 23))
+
+    def test_chapter_number_read_in_sequence(self):
+        def heading(text):
+            line = ocrdraft.Line(1, 0, 1, 400, [(t, (0, 0, 1, 1)) for t in text.split()])
+            line.chapter = ocrdraft.roman(text.split()[-1])
+            return line
+        self.assertEqual(ocrdraft.chapter_number(heading("CAPVT L"), 0), 1)       # leaf 322, 1 Sam 1
+        self.assertEqual(ocrdraft.chapter_number(heading("CAPVT XIL"), 11), 12)
+        self.assertEqual(ocrdraft.chapter_number(heading("CAPVT XI1IL"), 13), 14)
+        self.assertEqual(ocrdraft.chapter_number(heading("CAPVT L."), 49), 50)    # Genesis 50 stays 50
+        self.assertEqual(ocrdraft.chapter_number(heading("CAPVT XL."), 3), 40)    # no I to read: as read
+
+    def test_drop_capital_starts_the_text(self):
+        # a chapter's first line under a summary whose last stop the OCR lost (1 Sam 17, 20)
+        for text in ("PAlxftini autem aliquando", "T DauidaNaiotho apud Ra-", "IGitur Saulus"):
+            self.assertTrue(ocrdraft.DROP_START.match(text), text)
+        for text in ("Ad Achimelechum profugiens", "In PaUflinos Jonathan.", "Samveiir cencio"):
+            self.assertFalse(ocrdraft.DROP_START.match(text), text)
+
 
 class Verses(unittest.TestCase):
     LINES = [(155, 0, 1, "\\c 40"),

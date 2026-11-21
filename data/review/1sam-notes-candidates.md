@@ -1,0 +1,518 @@
+# 1Sam: candidates for light notes
+
+Built by `python -m pipeline notes 1Sam` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `1sam-notes.md`.
+
+Latin: 809 verses (settled and draft); already noted: 0. BSB notes naming a version: 41 verses (against MT 19, with MT 13, other 9); WEB notes besides: 0. Numerals differing from the Hebrew: 32. Latin far shorter than the Hebrew: 0. Castellio's G. … H. marks: 9.
+
+## Castellio's marks (9 verses)
+
+*G.* (*G.L.*, 1750 *Gr. lect.*) … *H.*: a reading he took from the Greek, found in the raw OCR of 1738 and 1750 and placed by the words around it (check the verse).
+
+- **2:8** 1750: 9 poffeffionem folii mittat. G. Qui / et precantibus vota concedit, et
+   - Latin: tenuesque ab humo suscitat: pauperes a paedore attollit, ut collocatos cum illustribus in gloriosi possessionem solii mittat. Qui et precantibus vota concedit, et justorum annos fecundat. Neque enim homo viribus valet. Dominus infirmos reddit adversarios suos, Dominus sanctus. Ne glorietur prudens in sua prudentia, neque potens in sua potentia: neve glorietur dives in suis divitiis: sed in eo glorietur, qui gloriatur, quod Dominum intelligit cognoscitque, et jus aequumque facit in terris. Nam Jovae sunt terrae cardines, quibus mundum imposuit,
+   - 1738: tenuesque ab humo suscitat: pauperes a pædore attollit, vt collocatos cum illustribus in gloriosi possessionem solii mittat. G. Qui et precantibus vota concedit, et iustorum annos fecundat. Neque enim homo viribus valet. Dominus infirmos reddit aduersarios suos, Dominus sanctus. Ne glorietur prudens in sua prudentia, neque potens in sua potentia: neue glorietur diues in suis diuitiis: sed in eo glorietur, qui gloriatur, quod Dominum intelligit cognoscitque, et ius æquumque facit in terris. H. Nam Iouæ sunt terræ cardines, quibus mundum imposuit,
+   - WLC: מֵקִ֨ים מֵעָפָ֜ר דָּ֗ל מֵֽאַשְׁפֹּת֙ יָרִ֣ים אֶבְי֔וֹן לְהוֹשִׁיב֙ עִם־נְדִיבִ֔ים וְכִסֵּ֥א כָב֖וֹד יַנְחִלֵ֑ם כִּ֤י לַֽיהוָה֙ מְצֻ֣קֵי אֶ֔רֶץ וַיָּ֥שֶׁת עֲלֵיהֶ֖ם תֵּבֵֽל׃
+   - BSB: He raises the poor from the dust and lifts the needy from the ash heap. He seats them among princes and bestows on them a throne of honor. For the foundations of the earth are the LORD’s, and upon them He has set the world.
+   - KJV: He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory: for the pillars of the earth are the LORD’s, and he hath set the world upon them.
+- **5:6** 1738: G.  L.  enatis  muribus  H.  infeftan- / do,  G.  L.  ex  quo  ingend  clade  per- | 1750: G. L. enatis muribus H. infeftan- / 
+   - Latin: Tum Jova Azotios graviter insectatus est atque vexavit, et ipsos podicis morbo, et ipsorum fines enatis muribus infestando, ex quo ingenti clade perturbata civitas est.
+   - 1738: Tum Ioua Azotios grauiter insectatus est atque vexauit, et ipsos podicis morbo, et ipsorum fines G. L. enatis muribus H. infestando, G. L. ex quo ingenti clade perturbata ciuitas est. H.
+   - WLC: וַתִּכְבַּ֧ד יַד־יְהוָ֛ה אֶל־הָאַשְׁדּוֹדִ֖ים וַיְשִׁמֵּ֑ם וַיַּ֤ךְ אֹתָם֙ בעפלים אֶת־אַשְׁדּ֖וֹד וְאֶת־גְּבוּלֶֽיהָ׃
+   - BSB: Now the hand of the LORD was heavy on the people of Ashdod and its vicinity, ravaging them and afflicting them with tumors.
+   - KJV: But the hand of the LORD was heavy upon them of Ashdod, and he destroyed them, and smote them with emerods, even Ashdod and the coasts thereof.
+- **5:7** 1738: do,  G.  L.  ex  quo  ingend  clade  per- / turbata    ciuitas    eft.  H.       Quod  7
+   - Latin: Quod quum fieri viderent Azotii, negarunt, velle se arcam Dei Israelitarum apud se manere, qui et ipsos et ipsorum deum Dagonem tam dure tractaret.
+   - 1738: Quod quum fieri viderent Azotii, negarunt, velle se arcam Dei Israelitarum apud se manere, qui et ipsos et ipsorum deum Dagonem tam dure tractaret.
+   - WLC: וַיִּרְא֥וּ אַנְשֵֽׁי־אַשְׁדּ֖וֹד כִּֽי־כֵ֑ן וְאָמְר֗וּ לֹֽא־יֵשֵׁ֞ב אֲר֨וֹן אֱלֹהֵ֤י יִשְׂרָאֵל֙ עִמָּ֔נוּ כִּֽי־קָשְׁתָ֤ה יָדוֹ֙ עָלֵ֔ינוּ וְעַ֖ל דָּג֥וֹן אֱלֹהֵֽינוּ׃
+   - BSB: And when the men of Ashdod saw what was happening, they said, “The ark of the God of Israel must not stay here with us, because His hand is heavy upon us and upon our god Dagon.”
+   - KJV: And when the men of Ashdod saw that it was so, they said, The ark of the God of Israel shall not abide with us: for his hand is sore upon us, and upon Dagon our god.
+- **11:1** 1738: I  T^Einde  G.  Z»  port  vnum  fere / 1  menfem  H.  fecit  Nahas  Am- | 1750: y einde G. L. poft vnum fere / menfem H. fecit Nahás Am-
+   - Latin: Deinde post unum fere mensem fecit Nahas Ammonita expeditionem, castraque posuit apud Jabem Galaaditarum. A quo quum Jabenses universi peterent, ut secum pacem facerent, ea lege, ut ipsi ei servirent:
+   - 1738: Deinde G. L. post vnum fere mensem H. fecit Nahas Ammonita expeditionem, castraque posuit apud Iabem Galaaditarum. A quo quum Iabenses vniuersi peterent, vt secum pacem facerent, ea lege, vt ipsi ei seruirent:
+   - WLC: וַיַּ֗עַל נָחָשׁ֙ הָֽעַמּוֹנִ֔י וַיִּ֖חַן עַל־יָבֵ֣שׁ גִּלְעָ֑ד וַיֹּ֨אמְר֜וּ כָּל־אַנְשֵׁ֤י יָבֵישׁ֙ אֶל־נָחָ֔שׁ כְּרָת־לָ֥נוּ בְרִ֖ית וְנַעַבְדֶֽךָּ׃
+   - BSB: Soon Nahash the Ammonite came up and laid siege to Jabesh-gilead. All the men of Jabesh said to him, “Make a treaty with us, and we will serve you.”
+   - KJV: Then Nahash the Ammonite came up, and encamped against Jabesh-gilead: and all the men of Jabesh said unto Nahash, Make a covenant with us, and we will serve thee.
+- **12:15** 1750: 15fequemini, G. non infeftabit vos / Ioua. H. Sin autem Iouae non ob- | 1750: I6trauenietis, et vos et G. veftrum / V7regem `H. [oua infeftabit. Jam
+   - Latin: Sin autem Jovae non obtemperantes, ejus mandato contravenietis, et vos et vestrum regem Jova infestabit.
+   - 1738: Sin autem Iouæ non obtemperantes, eius mandato contrauenietis, et vos et G. vestrum regem H. Ioua infestabit.
+   - WLC: וְאִם־לֹ֤א תִשְׁמְעוּ֙ בְּק֣וֹל יְהוָ֔ה וּמְרִיתֶ֖ם אֶת־פִּ֣י יְהוָ֑ה וְהָיְתָ֧ה יַד־יְהוָ֛ה בָּכֶ֖ם וּבַאֲבֹתֵיכֶֽם׃
+   - BSB: But if you disobey the LORD and rebel against His command, then the hand of the LORD will be against you as it was against your fathers.
+   - KJV: But if ye will not obey the voice of the LORD, but rebel against the commandment of the LORD, then shall the hand of the LORD be against you, as it was against your fathers.
+- **17:43** 1738: canis  ( inquit )  vt  tu  me  baculo,  G. / et   lapidibus   H.    adgrediare?    G | 1750: et lapidibus `H. adgrediare? G. / Non, inquit Dauid, fed cane dete- 44
+   - Latin: Num ego sum canis (inquit) ut tu me baculo, et lapidibus adgrediare? Non, inquit David, sed cane deterior. Tum ille eum per deos suos detestatus est,
+   - 1738: Num ego sum canis (inquit) vt tu me baculo, G. et lapidibus H. adgrediare? G Non, inquit Dauid, sed cane deterior. H. Tum ille eum per deos suos detestatus est,
+   - WLC: וַיֹּ֤אמֶר הַפְּלִשְׁתִּי֙ אֶל־דָּוִ֔ד הֲכֶ֣לֶב אָנֹ֔כִי כִּֽי־אַתָּ֥ה בָֽא־אֵלַ֖י בַּמַּקְל֑וֹת וַיְקַלֵּ֧ל הַפְּלִשְׁתִּ֛י אֶת־דָּוִ֖ד בֵּאלֹהָֽיו׃
+   - BSB: “Am I a dog,” he said to David, “that you come at me with sticks?” And the Philistine cursed David by his gods.
+   - KJV: And the Philistine said unto David, Am I a dog, that thou comest to me with staves? And the Philistine cursed David by his gods.
+- **17:49** 1738: ftini  frontem  ita  ferit,    vt  ille  G. / transadadta  galea,  et  H.  adfixo  fron-
+   - Latin: immissaque in peram manu, depromtum inde lapidem funda jacit, et Palaestini frontem ita ferit, ut ille transadacta galea, et adfixo fronti saxo, pronus humi conciderit.
+   - 1738: immissaque in peram manu, depromtum inde lapidem funda iacit, et Palæstini frontem ita ferit, vt ille G. transadacta galea, et H. adfixo fronti saxo, pronus humi conciderit.
+   - WLC: וַיִּשְׁלַח֩ דָּוִ֨ד אֶת־יָד֜וֹ אֶל־הַכֶּ֗לִי וַיִּקַּ֨ח מִשָּׁ֥ם אֶ֙בֶן֙ וַיְקַלַּ֔ע וַיַּ֥ךְ אֶת־הַפְּלִשְׁתִּ֖י אֶל־מִצְח֑וֹ וַתִּטְבַּ֤ע הָאֶ֙בֶן֙ בְּמִצְח֔וֹ וַיִּפֹּ֥ל עַל־פָּנָ֖יו אָֽרְצָה׃
+   - BSB: Then David reached into his bag, took out a stone, and slung it, striking the Philistine on the forehead. The stone sank into his forehead, and he fell facedown on the ground.
+   - KJV: And David put his hand in his bag, and took thence a stone, and slang it, and smote the Philistine in his forehead, that the stone sunk into his forehead; and he fell upon his face to the earth.
+- **22:10** 1738: tobi  filium ,  G.  L.  pontificem ,  H-. / io  qui  pro  illo  louam  confuluit,  eique | 1750: tobi filium, G. L. pontificem, H. / 1o qui pro illo Iouam confiluit , eique
+   - Latin: qui pro illo Jovam consuluit, eique viaticum et Goliathi Palaestini ensem dedit.
+   - 1738: qui pro illo Iouam consuluit, eique viaticum et Goliathi Palæstini ensem dedit.
+   - WLC: וַיִּשְׁאַל־לוֹ֙ בַּֽיהוָ֔ה וְצֵידָ֖ה נָ֣תַן ל֑וֹ וְאֵ֗ת חֶ֛רֶב גָּלְיָ֥ת הַפְּלִשְׁתִּ֖י נָ֥תַן לֽוֹ׃
+   - BSB: Ahimelech inquired of the LORD for him and gave him provisions. He also gave him the sword of Goliath the Philistine.”
+   - KJV: And he enquired of the LORD for him, and gave him victuals, and gave him the sword of Goliath the Philistine.
+- **28:10** 1750: G. L. Ioua H. tibi benignne adíit. / At Ettaeus: per Iouam immortalem 21
+   - Latin: Tum Saulus ei Jovam jurat: per Jovam immortalem, inquit, haec tibi res fraudi non erit.
+   - 1738: Tum Saulus ei Iouam iurat: per Iouam immortalem, inquit, hæc tibi res fraudi non erit.
+   - WLC: וַיִּשָּׁ֤בַֽע לָהּ֙ שָׁא֔וּל בַּֽיהוָ֖ה לֵאמֹ֑ר חַי־יְהוָ֕ה אִֽם־יִקְּרֵ֥ךְ עָוֺ֖ן בַּדָּבָ֥ר הַזֶּֽה׃
+   - BSB: Then Saul swore to her by the LORD: “As surely as the LORD lives, no punishment shall come upon you for this.”
+   - KJV: And Saul sware to her by the LORD, saying, As the LORD liveth, there shall no punishment happen to thee for this thing.
+
+## Versions: the BSB against MT (19 verses)
+
+- **1:24** BSB: DSS, LXX, and Syriac; MT three bulls
+   - Latin: Postea deliculum duxit secum tribus cum tauris, et uno ephi farinae, atque utre vini, Siluntem, in aedem Jovae admodum puerum:
+   - 1738: Postea deliculum duxit secum tribus cum tauris, et vno ephi farinæ, atque vtre vini, Siluntem, in ædem Iouæ admodum puerum:
+   - WLC: וַתַּעֲלֵ֨הוּ עִמָּ֜הּ כַּאֲשֶׁ֣ר גְּמָלַ֗תּוּ בְּפָרִ֤ים שְׁלֹשָׁה֙ וְאֵיפָ֨ה אַחַ֥ת קֶ֙מַח֙ וְנֵ֣בֶל יַ֔יִן וַתְּבִאֵ֥הוּ בֵית־יְהוָ֖ה שִׁל֑וֹ וְהַנַּ֖עַר נָֽעַר׃
+   - BSB: Once she had weaned him, Hannah took the boy with her, along with a three-year-old bull, an ephah of flour, and a skin of wine. Though the boy was still young, she brought him to the house of the LORD at Shiloh.
+   - KJV: ¶ And when she had weaned him, she took him up with her, with three bullocks, and one ephah of flour, and a bottle of wine, and brought him unto the house of the LORD in Shiloh: and the child was young.
+- **1:28** BSB: One DSS manuscript; MT he worshiped
+   - Latin: Itaque ego hunc vicissim Jovae acceptum fero, atque in perpetuum addico. Tum ille ibi Jovam adoravit.
+   - 1738: Itaque ego hunc vicissim Iouæ acceptum fero, atque in perpetuum addico. Tum ille ibi Iouam adorauit.
+   - WLC: וְגַ֣ם אָנֹכִ֗י הִשְׁאִלְתִּ֙הוּ֙ לַֽיהוָ֔ה כָּל־הַיָּמִים֙ אֲשֶׁ֣ר הָיָ֔ה ה֥וּא שָׁא֖וּל לַֽיהוָ֑ה וַיִּשְׁתַּ֥חוּ שָׁ֖ם לַיהוָֽה׃ פ
+   - BSB: I now dedicate the boy to the LORD. For as long as he lives, he is dedicated to the LORD.” So they worshiped the LORD there.
+   - KJV: Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD. And he worshipped the LORD there.
+- **2:17** BSB: DSS and LXX; MT men
+   - Latin: Haec puerorum improbitas visa est Jovae maxima, propterea, quod hinc Jovae fertum male apud homines audiebat.
+   - 1738: Hæc puerorum improbitas visa est Iouæ maxima, propterea, quod hinc Iouæ fertum male apud homines audiebat.
+   - WLC: וַתְּהִ֨י חַטַּ֧את הַנְּעָרִ֛ים גְּדוֹלָ֥ה מְאֹ֖ד אֶת־פְּנֵ֣י יְהוָ֑ה כִּ֤י נִֽאֲצוּ֙ הָֽאֲנָשִׁ֔ים אֵ֖ת מִנְחַ֥ת יְהוָֽה׃
+   - BSB: Thus the sin of these young men was severe in the sight of the LORD, for they were treating the LORD’s offering with contempt.
+   - KJV: Wherefore the sin of the young men was very great before the LORD: for men abhorred the offering of the LORD.
+- **2:20** BSB: DSS; MT in place of the one requested from the LORD
+   - Latin: Et Elis Elcanae ejusque conjugi precatus est, ut ei Jova ex ea femina prolem daret, prout ipsa a Jova postulaverat. Igitur iis in patriam reversis,
+   - 1738: Et Elis Elcanæ eiusque coniugi precatus est, vt ei Ioua ex ea femina prolem daret, prout ipsa a Ioua postulauerat. Igitur iis in patriam reuersis,
+   - WLC: וּבֵרַ֨ךְ עֵלִ֜י אֶת־אֶלְקָנָ֣ה וְאֶת־אִשְׁתּ֗וֹ וְאָמַר֙ יָשֵׂם֩ יְהוָ֨ה לְךָ֥ זֶ֙רַע֙ מִן־הָאִשָּׁ֣ה הַזֹּ֔את תַּ֚חַת הַשְּׁאֵלָ֔ה אֲשֶׁ֥ר שָׁאַ֖ל לַֽיהוָ֑ה וְהָלְכ֖וּ לִמְקֹמֽוֹ׃
+   - BSB: And Eli would bless Elkanah and his wife, saying, “May the LORD give you children by this woman in place of the one she dedicated to the LORD.” Then they would go home.
+   - KJV: ¶ And Eli blessed Elkanah and his wife, and said, The LORD give thee seed of this woman for the loan which is lent to the LORD. And they went unto their own home.
+- **2:33** BSB: Hebrew; LXX his eyes will fail and his heart will grieve | BSB: DSS and LXX; MT will die as mortals or will die in the prime of life
+   - Latin: Neque tuam stirpem ab ara mea divellam, quo tibi et oculi consumantur, et animus contabescat: efficiamque, ut omnes, qui tuae posteritati accreverint, aetate virili moriantur.
+   - 1738: Neque tuam stirpem ab ara mea diuellam, quo tibi et oculi consumantur, et animus contabescat: efficiamque, vt omnes, qui tuæ posteritati accreuerint, ætate virili moriantur.
+   - WLC: וְאִ֗ישׁ לֹֽא־אַכְרִ֤ית לְךָ֙ מֵעִ֣ם מִזְבְּחִ֔י לְכַלּ֥וֹת אֶת־עֵינֶ֖יךָ וְלַאֲדִ֣יב אֶת־נַפְשֶׁ֑ךָ וְכָל־מַרְבִּ֥ית בֵּיתְךָ֖ יָמ֥וּתוּ אֲנָשִֽׁים׃
+   - BSB: And every one of you that I do not cut off from My altar, your eyes will fail and your heart will grieve. All your descendants will die by the sword of men.
+   - KJV: And the man of thine, whom I shall not cut off from mine altar, shall be to consume thine eyes, and to grieve thine heart: and all the increase of thine house shall die in the flower of their age.
+- **3:13** BSB: LXX; Hebrew made themselves contemptible
+   - Latin: Significavi autem ei, me in perpetuum persecuturum esse in ejus posteritatem ejus culpam: qui, quum filios suos nequiter se gerere non ignoraret, eos tamen non coercuerit.
+   - 1738: Significaui autem ei, me in perpetuum persecuturum esse in eius posteritatem eius culpam: qui, quum filios suos nequiter se gerere non ignoraret, eos tamen non coercuerit.
+   - WLC: וְהִגַּ֣דְתִּי ל֔וֹ כִּֽי־שֹׁפֵ֥ט אֲנִ֛י אֶת־בֵּית֖וֹ עַד־עוֹלָ֑ם בַּעֲוֺ֣ן אֲשֶׁר־יָדַ֗ע כִּֽי־מְקַֽלְלִ֤ים לָהֶם֙ בָּנָ֔יו וְלֹ֥א כִהָ֖ה בָּֽם׃
+   - BSB: I told him that I would judge his house forever for the iniquity of which he knows, because his sons blasphemed God and he did not restrain them.
+   - KJV: For I have told him that I will judge his house for ever for the iniquity which he knoweth; because his sons made themselves vile, and he restrained them not.
+- **8:16** BSB: LXX; Hebrew your best young men
+   - Latin: Servorum, ancillarum, juvenum vestrorum lectissimos, asinosque sumet, quibus ad sua negotia utatur:
+   - 1738: Seruorum, ancillarum, iuuenum vestrorum lectissimos, asinosque sumet, quibus ad sua negotia vtatur:
+   - WLC: וְאֶת־עַבְדֵיכֶם֩ וְֽאֶת־שִׁפְח֨וֹתֵיכֶ֜ם וְאֶת־בַּחוּרֵיכֶ֧ם הַטּוֹבִ֛ים וְאֶת־חֲמוֹרֵיכֶ֖ם יִקָּ֑ח וְעָשָׂ֖ה לִמְלַאכְתּֽוֹ׃
+   - BSB: And he will take your menservants and maidservants and your best cattle and donkeys and put them to his own use.
+   - KJV: And he will take your menservants, and your maidservants, and your goodliest young men, and your asses, and put them to his work.
+- **10:27** BSB: MT and LXX; One DSS manuscript includes Nahash, king of the Ammonites, had viciously oppressed the people of Gad and Reuben, gouging out the right eye of each Israelite dwelling there. He would not allow anyone to rescue them, and there was no Israelite east of the Jordan whose right eye had not been gouged out. But 7,000 men had escaped from the Ammonites and settled in Jabesh-gilead.
+   - Latin: Quumque improbi quidam dictitarent: quid? nosne iste ut tueatur? eumque contemnerent, neque ei munera adferrent, dissimulabat.
+   - 1738: Quumque improbi quidam dictitarent: quid? nosne iste vt tueatur? eumque contemnerent, neque ei munera adferrent, dissimulabat.
+   - WLC: וּבְנֵ֧י בְלִיַּ֣עַל אָמְר֗וּ מַה־יֹּשִׁעֵ֙נוּ֙ זֶ֔ה וַיִּבְזֻ֕הוּ וְלֹֽא־הֵבִ֥יאוּ ל֖וֹ מִנְחָ֑ה וַיְהִ֖י כְּמַחֲרִֽישׁ׃ פ
+   - BSB: But some worthless men said, “How can this man save us?” So they despised him and brought him no gifts; but Saul remained silent about it.
+   - KJV: But the children of Belial said, How shall this man save us? And they despised him, and brought him no presents. But he held his peace.
+- **12:11** BSB: LXX and Syriac; Hebrew Bedan | BSB: LXX and Syriac Samson
+   - Latin: Itaque misit Jova Jerobaalem, et Bedanem, et Jephtham, et Samuelem, et vos ab hostibus undique liberatos in tuto collocavit.
+   - 1738: Itaque misit Ioua Ierobaalem, et Bedanem, et Iephtham, et Samuelem, et vos ab hostibus vndique liberatos in tuto collocauit.
+   - WLC: וַיִּשְׁלַ֤ח יְהוָה֙ אֶת־יְרֻבַּ֣עַל וְאֶת־בְּדָ֔ן וְאֶת־יִפְתָּ֖ח וְאֶת־שְׁמוּאֵ֑ל וַיַּצֵּ֨ל אֶתְכֶ֜ם מִיַּ֤ד אֹֽיְבֵיכֶם֙ מִסָּבִ֔יב וַתֵּשְׁב֖וּ בֶּֽטַח׃
+   - BSB: So the LORD sent Jerubbaal, Barak, Jephthah, and Samuel, and He delivered you from the hands of your enemies on every side, and you dwelt securely.
+   - KJV: And the LORD sent Jerubbaal, and Bedan, and Jephthah, and Samuel, and delivered you out of the hand of your enemies on every side, and ye dwelled safe.
+- **13:1** BSB: A few late LXX manuscripts; MT Saul was a son of a year
+   - Latin: Inivit autem Saulus regnum, annum agens, et regnavit in Israelitas annos duos.
+   - 1738: Iniuit autemSaulus regnum, annum agens, et regnauit in Israelitas annos duos.
+   - WLC: בֶּן־שָׁנָ֖ה שָׁא֣וּל בְּמָלְכ֑וֹ וּשְׁתֵּ֣י שָׁנִ֔ים מָלַ֖ךְ עַל־יִשְׂרָאֵֽל׃
+   - BSB: Saul was thirty years old when he became king, and he reigned over Israel forty-two years.
+   - KJV: Saul reigned one year; and when he had reigned two years over Israel,
+- **13:5** BSB: Some LXX manuscripts and Syriac; Hebrew thirty thousand
+   - Latin: Sed quum Palaestini ad Israelitas bello persequendos convenissent, triginta millia curruum et sex millia equitum secum habentes, praeter milites arenae litoris marini numerum adaequantes, profectique castra fecissent apud Machmas, ab oriente Bethavenis:
+   - 1738: Sed quum Palæstini ad Israelitas bello persequendos conuenissent, triginta millia curruum et sex millia equitum secum habentes, præter milites arenæ litoris marini numerum adæquantes, profectique castra fecissent apud Machmas, ab oriente Bethauenis:
+   - WLC: וּפְלִשְׁתִּ֞ים נֶאֶסְפ֣וּ ׀ לְהִלָּחֵ֣ם עִם־יִשְׂרָאֵ֗ל שְׁלֹשִׁ֨ים אֶ֤לֶף רֶ֙כֶב֙ וְשֵׁ֤שֶׁת אֲלָפִים֙ פָּרָשִׁ֔ים וְעָ֕ם כַּח֛וֹל אֲשֶׁ֥ר עַל־שְׂפַֽת־הַיָּ֖ם לָרֹ֑ב וַֽיַּעֲלוּ֙ וַיַּחֲנ֣וּ בְמִכְמָ֔שׂ קִדְמַ֖ת בֵּ֥ית אָֽוֶן׃
+   - BSB: Now the Philistines assembled to fight against Israel with three thousand chariots, six thousand horsemen, and troops as numerous as the sand on the seashore. They went up and camped at Michmash, east of Beth-aven.
+   - KJV: ¶ And the Philistines gathered themselves together to fight with Israel, thirty thousand chariots, and six thousand horsemen, and people as the sand which is on the sea shore in multitude: and they came up, and pitched in Michmash, eastward from Beth-aven.
+- **13:20** BSB: LXX; Hebrew and plowshares; (so plowshare appears twice in the Hebrew).
+   - Latin: Itaque descendebant omnes Israelitae ad Palaestinos, ad vomeres, ligones, secures, et cetera ferramenta inspicanda;
+   - 1738: Itaque descendebant omnes Israelitæ ad Palæstinos, ad vomeres, ligones, secures, et cetera ferramenta inspicanda;
+   - WLC: וַיֵּרְד֥וּ כָל־יִשְׂרָאֵ֖ל הַפְּלִשְׁתִּ֑ים לִ֠לְטוֹשׁ אִ֣ישׁ אֶת־מַחֲרַשְׁתּ֤וֹ וְאֶת־אֵתוֹ֙ וְאֶת־קַרְדֻּמּ֔וֹ וְאֵ֖ת מַחֲרֵשָׁתֽוֹ׃
+   - BSB: Instead, all the Israelites would go down to the Philistines to sharpen their plowshares, mattocks, axes, and sickles.
+   - KJV: But all the Israelites went down to the Philistines, to sharpen every man his share, and his coulter, and his axe, and his mattock.
+- **14:41** BSB: LXX and Vulgate; MT contains only the short quotation, “Give a perfect (lot).”
+   - Latin: Et Saulus Jovam sic adloquitur: Deus Israelitarum age severe. Ac ceteris elapsis, Jonathan et Saulus deprehensi sunt.
+   - 1738: Et Saulus Iouam sic adloquitur: Deus Israelitarum age seuere. Ac ceteris elapsis, Ionathan et Saulus deprehensi sunt.
+   - WLC: וַיֹּ֣אמֶר שָׁא֗וּל אֶל־יְהוָ֛ה אֱלֹהֵ֥י יִשְׂרָאֵ֖ל הָ֣בָה תָמִ֑ים וַיִּלָּכֵ֧ד יוֹנָתָ֛ן וְשָׁא֖וּל וְהָעָ֥ם יָצָֽאוּ׃
+   - BSB: So Saul said to the LORD, the God of Israel, “Why have You not answered Your servant this day? If the fault is with me or my son Jonathan, respond with Urim; but if the fault is with the men of Israel, respond with Thummim.” And Jonathan and Saul were selected, but the people were cleared of the charge.
+   - KJV: Therefore Saul said unto the LORD God of Israel, Give a perfect lot. And Saul and Jonathan were taken: but the people escaped.
+- **17:12** BSB: LXX and Syriac; Hebrew He had become advanced among men
+   - Latin: David autem filius erat illius Ephrataei, ex Bethlehema Judaeae, nomine Isaei, qui Isaeus octo filios habebat, homo Sauli temporibus jam senex, et aetate provecta.
+   - 1738: Dauid autem filius erat illius Ephratæi, ex Bethlehema Iudææ, nomine Isæi, qui Isæus octo filios habebat, homo Sauli temporibus iam senex, et ætate prouecta.
+   - WLC: וְדָוִד֩ בֶּן־אִ֨ישׁ אֶפְרָתִ֜י הַזֶּ֗ה מִבֵּ֥ית לֶ֙חֶם֙ יְהוּדָ֔ה וּשְׁמ֣וֹ יִשַׁ֔י וְל֖וֹ שְׁמֹנָ֣ה בָנִ֑ים וְהָאִישׁ֙ בִּימֵ֣י שָׁא֔וּל זָקֵ֖ן בָּ֥א בַאֲנָשִֽׁים׃
+   - BSB: Now David was the son of a man named Jesse, an Ephrathite from Bethlehem of Judah who had eight sons in the days of Saul. And Jesse was old and well along in years.
+   - KJV: ¶ Now David was the son of that Ephrathite of Beth-lehem-judah, whose name was Jesse; and he had eight sons: and the man went among men for an old man in the days of Saul.
+- **17:52** BSB: LXX; Hebrew of Gai; that is, of the valley
+   - Latin: quos Israelitae Judaeique, sublato clamore, persecuti sunt usque ad vallem et portas Accaronis: cecideruntque trucidati Palaestini per viam saaraeam, usque ad Getham et Accaronem.
+   - 1738: quos Israelitæ Iudæique, sublato clamore, persecuti sunt vsque ad vallem et portas Accaronis: cecideruntque trucidati Palæstini per viam saaræam, vsque ad Getham et Accaronem.
+   - WLC: וַיָּקֻ֣מוּ אַנְשֵׁי֩ יִשְׂרָאֵ֨ל וִיהוּדָ֜ה וַיָּרִ֗עוּ וַֽיִּרְדְּפוּ֙ אֶת־הַפְּלִשְׁתִּ֔ים עַד־בּוֹאֲךָ֣ גַ֔יְא וְעַ֖ד שַׁעֲרֵ֣י עֶקְר֑וֹן וַֽיִּפְּל֞וּ חַֽלְלֵ֤י פְלִשְׁתִּים֙ בְּדֶ֣רֶךְ שַׁעֲרַ֔יִם וְעַד־גַּ֖ת וְעַד־עֶקְרֽוֹן׃
+   - BSB: Then the men of Israel and Judah charged forward with a shout and pursued the Philistines to the entrance of Gath and to the gates of Ekron. And the bodies of the Philistines were strewn along the Shaaraim road to Gath and Ekron.
+   - KJV: And the men of Israel and of Judah arose, and shouted, and pursued the Philistines, until thou come to the valley, and to the gates of Ekron. And the wounded of the Philistines fell down by the way to Shaaraim, even unto Gath, and unto Ekron.
+- **20:25** BSB: LXX; Hebrew by the wall. Jonathan arose and Abner sat down by Saul’s side,
+   - Latin: quum rex in sua sede, sicuti solitus erat, a pariete sedisset, et Jonathan surrexisset; Abner autem ad Sauli latus accubuisset, Davidisque locus vacaret:
+   - 1738: quum rex in sua sede, sicuti solitus erat, a pariete sedisset, et Ionathan surrexisset; Abner autem ad Sauli latus accubuisset, Dauidisque locus vacaret:
+   - WLC: וַיֵּ֣שֶׁב הַ֠מֶּלֶךְ עַל־מ֨וֹשָׁב֜וֹ כְּפַ֣עַם ׀ בְּפַ֗עַם אֶל־מוֹשַׁב֙ הַקִּ֔יר וַיָּ֙קָם֙ יְה֣וֹנָתָ֔ן וַיֵּ֥שֶׁב אַבְנֵ֖ר מִצַּ֣ד שָׁא֑וּל וַיִּפָּקֵ֖ד מְק֥וֹם דָּוִֽד׃
+   - BSB: He sat in his usual place by the wall, opposite Jonathan and beside Abner, but David’s place was empty.
+   - KJV: And the king sat upon his seat, as at other times, even upon a seat by the wall: and Jonathan arose, and Abner sat by Saul’s side, and David’s place was empty.
+- **22:3** BSB: Syriac and Vulgate; Hebrew go forth
+   - Latin: illinc Maspham Moabitarum se contulit, et a rege Moabitarum impetravit, ut parentibus suis liceret, ad eos se recipere, donec videret, quid sibi fieret a Deo,
+   - 1738: illinc Maspham Moabitarum se contulit, et a rege Moabitarum impetrauit, vt parentibus suis liceret, ad eos se recipere, donec videret, quid sibi fieret a Deo,
+   - WLC: וַיֵּ֧לֶךְ דָּוִ֛ד מִשָּׁ֖ם מִצְפֵּ֣ה מוֹאָ֑ב וַיֹּ֣אמֶר ׀ אֶל־מֶ֣לֶךְ מוֹאָ֗ב יֵֽצֵא־נָ֞א אָבִ֤י וְאִמִּי֙ אִתְּכֶ֔ם עַ֚ד אֲשֶׁ֣ר אֵדַ֔ע מַה־יַּֽעֲשֶׂה־לִּ֖י אֱלֹהִֽים׃
+   - BSB: From there David went to Mizpeh of Moab, where he said to the king of Moab, “Please let my father and mother stay with you until I learn what God will do for me.”
+   - KJV: ¶ And David went thence to Mizpeh of Moab: and he said unto the king of Moab, Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me.
+- **25:22** BSB: Some LXX manuscripts; MT David’s enemies
+   - Latin: At ita perdat Deus hostes Davidis, ut ei ante lucem matutinam ex omnibus, quae habet, ne parietis quidem commictorem reliquum faciam.
+   - 1738: At ita perdat Deus hostes Dauidis, vt ei ante lucem matutinam ex omnibus, quæ habet, ne parietis quidem commictorem reliquum faciam.
+   - WLC: כֹּה־יַעֲשֶׂ֧ה אֱלֹהִ֛ים לְאֹיְבֵ֥י דָוִ֖ד וְכֹ֣ה יֹסִ֑יף אִם־אַשְׁאִ֧יר מִכָּל־אֲשֶׁר־ל֛וֹ עַד־הַבֹּ֖קֶר מַשְׁתִּ֥ין בְּקִֽיר׃
+   - BSB: May God punish David, and ever so severely, if I let one of Nabal’s men survive until morning.”
+   - KJV: So and more also do God unto the enemies of David, if I leave of all that pertain to him by the morning light any that pisseth against the wall.
+- **30:2** BSB: LXX; Hebrew does not include and all.
+   - Latin: omnes omnium aetatum tum viros tum mulieres captivos ceperant: eosque, nemine occiso, abigentes discedebant.
+   - 1738: omnes omnium ætatum tum viros tum mulieres captiuos ceperant: eosque, nemine occiso, abigentes discedebant.
+   - WLC: וַיִּשְׁבּ֨וּ אֶת־הַנָּשִׁ֤ים אֲשֶׁר־בָּהּ֙ מִקָּטֹ֣ן וְעַד־גָּד֔וֹל לֹ֥א הֵמִ֖יתוּ אִ֑ישׁ וַיִּֽנְהֲג֔וּ וַיֵּלְכ֖וּ לְדַרְכָּֽם׃
+   - BSB: They had taken captive the women and all who were there, both young and old. They had not killed anyone, but had carried them off as they went on their way.
+   - KJV: And had taken the women captives, that were therein: they slew not any, either great or small, but carried them away, and went on their way.
+
+## Versions: the BSB with MT (13 verses)
+
+- **1:22** BSB: MT; DSS include I will offer him as a Nazirite for all time.
+   - Latin: Anna profecta non est: donec puerum ablactatum (inquit viro suo) eo deducam, ut Jovae adpareat, illicque sit perpetuo.
+   - 1738: Anna profecta non est: donec puerum ablactatum (inquit viro suo) eo deducam, vt Iouæ adpareat, illicque sit perpetuo.
+   - WLC: וְחַנָּ֖ה לֹ֣א עָלָ֑תָה כִּֽי־אָמְרָ֣ה לְאִישָׁ֗הּ עַ֣ד יִגָּמֵ֤ל הַנַּ֙עַר֙ וַהֲבִאֹתִ֗יו וְנִרְאָה֙ אֶת־פְּנֵ֣י יְהוָ֔ה וְיָ֥שַׁב שָׁ֖ם עַד־עוֹלָֽם׃
+   - BSB: but Hannah did not go. “After the boy is weaned,” she said to her husband, “I will take him to appear before the LORD and to stay there permanently.”
+   - KJV: But Hannah went not up; for she said unto her husband, I will not go up until the child be weaned, and then I will bring him, that he may appear before the LORD, and there abide for ever.
+- **1:23** BSB: MT; DSS, LXX, and Syriac your word
+   - Latin: Cui Elcana concessit, ut faceret, quod ei visum esset, maneretque, donec puerum ablactasset: Jovamque precatus est, ut promissa confirmaret. Mansit ergo mulier, puerumque lactavit, donec eum a lacte depelleret.
+   - 1738: Cui Elcana concessit, vt faceret, quod ei visum esset, maneretque, donec puerum ablactasset: Iouamque precatus est, vt promissa confirmaret. Mansit ergo mulier, puerumque lactauit, donec eum a lacte depelleret.
+   - WLC: וַיֹּ֣אמֶר לָהּ֩ אֶלְקָנָ֨ה אִישָׁ֜הּ עֲשִׂ֧י הַטּ֣וֹב בְּעֵינַ֗יִךְ שְׁבִי֙ עַד־גָּמְלֵ֣ךְ אֹת֔וֹ אַ֛ךְ יָקֵ֥ם יְהוָ֖ה אֶת־דְּבָר֑וֹ וַתֵּ֤שֶׁב הָֽאִשָּׁה֙ וַתֵּ֣ינֶק אֶת־בְּנָ֔הּ עַד־גָּמְלָ֖הּ אֹתֽוֹ׃
+   - BSB: “Do what you think is best,” her husband Elkanah replied, “and stay here until you have weaned him. Only may the LORD confirm His word.” So Hannah stayed and nursed her son until she had weaned him.
+   - KJV: And Elkanah her husband said unto her, Do what seemeth thee good; tarry until thou have weaned him; only the LORD establish his word. So the woman abode, and gave her son suck until she weaned him.
+- **5:6** BSB: Hebrew; LXX and Vulgate include And rats appeared in their land, and death and destruction were throughout the city.
+   - Latin: Tum Jova Azotios graviter insectatus est atque vexavit, et ipsos podicis morbo, et ipsorum fines enatis muribus infestando, ex quo ingenti clade perturbata civitas est.
+   - 1738: Tum Ioua Azotios grauiter insectatus est atque vexauit, et ipsos podicis morbo, et ipsorum fines G. L. enatis muribus H. infestando, G. L. ex quo ingenti clade perturbata ciuitas est. H.
+   - WLC: וַתִּכְבַּ֧ד יַד־יְהוָ֛ה אֶל־הָאַשְׁדּוֹדִ֖ים וַיְשִׁמֵּ֑ם וַיַּ֤ךְ אֹתָם֙ בעפלים אֶת־אַשְׁדּ֖וֹד וְאֶת־גְּבוּלֶֽיהָ׃
+   - BSB: Now the hand of the LORD was heavy on the people of Ashdod and its vicinity, ravaging them and afflicting them with tumors.
+   - KJV: But the hand of the LORD was heavy upon them of Ashdod, and he destroyed them, and smote them with emerods, even Ashdod and the coasts thereof.
+- **6:19** BSB: A few late Hebrew manuscripts and Josephus; most Hebrew manuscripts 70 men and 50,000 men; LXX 70 men and 50,000 men of the people; Syriac and Arabic 70 men and 5,000 men; alternately, possibly 70 men and 50 oxen
+   - Latin: Sed Jova in bethsamiticum populum, quod Jovae arcam viderant, animadvertit, caesis eorum septuaginta hominibus supra quinquaginta millia: qua tanta clade a Jova illata lugens Bethsamitarum populus,
+   - 1738: Sed Ioua in bethsamiticum populum, quod Iouæ arcam viderant, animaduertit, cæsis eorum septuaginta hominibus supra quinquaginta millia: qua tanta clade a Ioua illata lugensBethsamitarum populus,
+   - WLC: וַיַּ֞ךְ בְּאַנְשֵׁ֣י בֵֽית־שֶׁ֗מֶשׁ כִּ֤י רָאוּ֙ בַּאֲר֣וֹן יְהוָ֔ה וַיַּ֤ךְ בָּעָם֙ שִׁבְעִ֣ים אִ֔ישׁ חֲמִשִּׁ֥ים אֶ֖לֶף אִ֑ישׁ וַיִּֽתְאַבְּל֣וּ הָעָ֔ם כִּֽי־הִכָּ֧ה יְהוָ֛ה בָּעָ֖ם מַכָּ֥ה גְדוֹלָֽה
+   - BSB: But God struck down some of the people of Beth-shemesh because they looked inside the ark of the LORD. He struck down seventy men, and the people mourned because the LORD had struck them with a great slaughter.
+   - KJV: ¶ And he smote the men of Beth-shemesh, because they had looked into the ark of the LORD, even he smote of the people fifty thousand and threescore and ten men: and the people lamented, because the LORD had smitten many of the people with a great slaughter.
+- **7:12** BSB: Hebrew; LXX and Syriac Jeshanah
+   - Latin: Et Samuel saxum inter Maspham et Sen collocavit, idque saxum auxilii nominavit: quod nobis hucusque, inquit, auxiliatus est Jova.
+   - 1738: Et Samuel saxum inter Maspham et Sen collocauit, idque saxum auxilii nominauit: quod nobis hucusque, inquit, auxiliatus est Ioua.
+   - WLC: וַיִּקַּ֨ח שְׁמוּאֵ֜ל אֶ֣בֶן אַחַ֗ת וַיָּ֤שֶׂם בֵּֽין־הַמִּצְפָּה֙ וּבֵ֣ין הַשֵּׁ֔ן וַיִּקְרָ֥א אֶת־שְׁמָ֖הּ אֶ֣בֶן הָעָ֑זֶר וַיֹּאמַ֕ר עַד־הֵ֖נָּה עֲזָרָ֥נוּ יְהוָֽה׃
+   - BSB: Afterward, Samuel took a stone and set it up between Mizpah and Shen. He named it Ebenezer, saying, “Thus far the LORD has helped us.”
+   - KJV: Then Samuel took a stone, and set it between Mizpeh and Shen, and called the name of it Eben-ezer, saying, Hitherto hath the LORD helped us.
+- **10:1** BSB: Hebrew; LXX “Has not the LORD anointed you ruler over Israel? And you will rule over the LORD’s people and save them from their enemies around them. This will be the sign to you that the LORD has appointed you to be leader over His inheritance.
+   - Latin: Deinde, sumta olei ampulla, caput Sauli perfudit, eumque deosculatus, inquit: te quidem ungit Jova suae possessionis ducem.
+   - 1738: Deinde, sumta olei ampulla, caput Sauli perfudit, eumque deosculatus, inquit: te quidem vngit Ioua suæ possessionis ducem.
+   - WLC: וַיִּקַּ֨ח שְׁמוּאֵ֜ל אֶת־פַּ֥ךְ הַשֶּׁ֛מֶן וַיִּצֹ֥ק עַל־רֹאשׁ֖וֹ וַיִּשָּׁקֵ֑הוּ וַיֹּ֕אמֶר הֲל֗וֹא כִּֽי־מְשָׁחֲךָ֧ יְהוָ֛ה עַל־נַחֲלָת֖וֹ לְנָגִֽיד׃
+   - BSB: Then Samuel took a flask of oil, poured it on Saul’s head, kissed him, and said, “Has not the LORD anointed you ruler over His inheritance?
+   - KJV: Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance?
+- **12:3** BSB: Hebrew And I will restore it; LXX Testify against me, and I will restore it
+   - Latin: respondete mihi praesenti, coram Jova, coramque ejus uncto, eccui bovem aut asinum eripuerim? ecquem fraudaverim, aut oppresserim? a quo praemium acceperim, ut in ejus crimine conniverem? et vobis satisfaciam.
+   - 1738: respondete mihi præsenti, coram Ioua, coramque eius vncto, eccui bouem aut asinum eripuerim? ecquem fraudauerim, aut oppresserim? a quo præmium acceperim, vt in eius crimine conniuerem? et vobis satisfaciam.
+   - WLC: הִנְנִ֣י עֲנ֣וּ בִי֩ נֶ֨גֶד יְהוָ֜ה וְנֶ֣גֶד מְשִׁיח֗וֹ אֶת־שׁוֹר֩ ׀ מִ֨י לָקַ֜חְתִּי וַחֲמ֧וֹר מִ֣י לָקַ֗חְתִּי וְאֶת־מִ֤י עָשַׁ֙קְתִּי֙ אֶת־מִ֣י רַצּ֔וֹתִי וּמִיַּד־מִי֙ לָקַ֣חְתִּי כֹ֔פֶר וְאַעְלִ֥ים עֵינַ֖י בּ֑וֹ וְאָשִׁ֖יב לָכֶֽם׃
+   - BSB: Here I am. Bear witness against me before the LORD and before His anointed: Whose ox or donkey have I taken? Whom have I cheated or oppressed? From whose hand have I accepted a bribe and closed my eyes? Tell me, and I will restore it to you.”
+   - KJV: Behold, here I am: witness against me before the LORD, and before his anointed: whose ox have I taken? or whose ass have I taken? or whom have I defrauded? whom have I oppressed? or of whose hand have I received any bribe to blind mine eyes therewith? and I will restore it you.
+- **12:6** BSB: Hebrew; LXX The LORD is the witness who
+   - Latin: Et Samuel: adeste igitur, ut apud Jovam (qui Mosem Aharonemque fecit, quique majores vestros eduxit ex Aegypto)
+   - 1738: Et Samuel: adeste igitur, vt apud Iouam (qui Mosem Aharonemque fecit, quique maiores vestros eduxit ex Aegypto)
+   - WLC: וַיֹּ֥אמֶר שְׁמוּאֵ֖ל אֶל־הָעָ֑ם יְהוָ֗ה אֲשֶׁ֤ר עָשָׂה֙ אֶת־מֹשֶׁ֣ה וְאֶֽת־אַהֲרֹ֔ן וַאֲשֶׁ֧ר הֶעֱלָ֛ה אֶת־אֲבֹתֵיכֶ֖ם מֵאֶ֥רֶץ מִצְרָֽיִם׃
+   - BSB: Then Samuel said to the people, “The LORD is the One who appointed Moses and Aaron, and who brought your fathers up out of the land of Egypt.
+   - KJV: ¶ And Samuel said unto the people, It is the LORD that advanced Moses and Aaron, and that brought your fathers up out of the land of Egypt.
+- **12:8** BSB: Hebrew; LXX includes and the Egyptians oppressed them
+   - Latin: Postquam venerat Jacobus in Aegyptum, invocatus a majoribus vestris Jova, Mosem Aharonemque misit, qui illos ex Aegypto eductos, in hoc loco collocarunt.
+   - 1738: Postquam venerat Iacobus in Aegyptum, inuocatus a maioribus vestris Ioua, Mosem Aharonemque misit, qui illos ex Aegypto eductos, in hoc loco collocarunt.
+   - WLC: כַּֽאֲשֶׁר־בָּ֥א יַעֲקֹ֖ב מִצְרָ֑יִם וַיִּזְעֲק֤וּ אֲבֽוֹתֵיכֶם֙ אֶל־יְהוָ֔ה וַיִּשְׁלַ֨ח יְהוָ֜ה אֶת־מֹשֶׁ֣ה וְאֶֽת־אַהֲרֹ֗ן וַיּוֹצִ֤יאוּ אֶת־אֲבֹֽתֵיכֶם֙ מִמִּצְרַ֔יִם וַיֹּשִׁב֖וּם בַּמָּק֥וֹם הַזֶּֽה׃
+   - BSB: When Jacob went to Egypt, your fathers cried out to the LORD, and He sent them Moses and Aaron, who brought your fathers out of Egypt and settled them in this place.
+   - KJV: When Jacob was come into Egypt, and your fathers cried unto the LORD, then the LORD sent Moses and Aaron, which brought forth your fathers out of Egypt, and made them dwell in this place.
+- **12:15** BSB: Hebrew; LXX against your king
+   - Latin: Sin autem Jovae non obtemperantes, ejus mandato contravenietis, et vos et vestrum regem Jova infestabit.
+   - 1738: Sin autem Iouæ non obtemperantes, eius mandato contrauenietis, et vos et G. vestrum regem H. Ioua infestabit.
+   - WLC: וְאִם־לֹ֤א תִשְׁמְעוּ֙ בְּק֣וֹל יְהוָ֔ה וּמְרִיתֶ֖ם אֶת־פִּ֣י יְהוָ֑ה וְהָיְתָ֧ה יַד־יְהוָ֛ה בָּכֶ֖ם וּבַאֲבֹתֵיכֶֽם׃
+   - BSB: But if you disobey the LORD and rebel against His command, then the hand of the LORD will be against you as it was against your fathers.
+   - KJV: But if ye will not obey the voice of the LORD, but rebel against the commandment of the LORD, then shall the hand of the LORD be against you, as it was against your fathers.
+- **14:18** BSB: Hebrew; LXX “Bring the ephod.” For at that time he wore the ephod before the Israelites.
+   - Latin: jussit Achiae, ut divinam arcam adferret: erat enim tum arca divina apud Israelitas.
+   - 1738: iussit Achiæ, vt diuinam arcam adferret: erat enim tum arca diuina apud Israelitas.
+   - WLC: וַיֹּ֤אמֶר שָׁאוּל֙ לַֽאֲחִיָּ֔ה הַגִּ֖ישָׁה אֲר֣וֹן הָאֱלֹהִ֑ים כִּֽי־הָיָ֞ה אֲר֧וֹן הָאֱלֹהִ֛ים בַּיּ֥וֹם הַה֖וּא וּבְנֵ֥י יִשְׂרָאֵֽל׃
+   - BSB: Then Saul said to Ahijah, “Bring the ark of God.” (For at that time it was with the Israelites.)
+   - KJV: And Saul said unto Ahiah, Bring hither the ark of God. For the ark of God was at that time with the children of Israel.
+- **14:47** BSB: MT; DSS and LXX king | BSB: Or he inflicted punishment on them from Hebrew; LXX he was victorious
+   - Latin: Saulus autem Israelitarum regno potitus, omnes undique suos hostes debellavit, Moabitas, Ammonitas, Idumaeos, Sophenae reges, et Palaestinos: ac quocumque se verterat, superior erat:
+   - 1738: Saulus autem Israelitarum regno potitus, omnes vndique suos hostes debellauit, Moabitas, Ammonitas, Idumæos, Sophenæ reges, et Palæstinos: ac quocumque se verterat, superior erat:
+   - WLC: וְשָׁא֛וּל לָכַ֥ד הַמְּלוּכָ֖ה עַל־יִשְׂרָאֵ֑ל וַיִּלָּ֣חֶם סָבִ֣יב ׀ בְּֽכָל־אֹיְבָ֡יו בְּמוֹאָ֣ב ׀ וּבִבְנֵי־עַמּ֨וֹן וּבֶאֱד֜וֹם וּבְמַלְכֵ֤י צוֹבָה֙ וּבַפְּלִשְׁתִּ֔ים וּבְכֹ֥ל אֲשֶׁר־יִפְנֶ֖ה יַרְשִֽׁיעַ׃
+   - BSB: After Saul had assumed the kingship over Israel, he fought against all his enemies on every side—the Moabites, the Ammonites, the Edomites, the kings of Zobah, and the Philistines. Wherever he turned, he routed them.
+   - KJV: ¶ So Saul took the kingdom over Israel, and fought against all his enemies on every side, against Moab, and against the children of Ammon, and against Edom, and against the kings of Zobah, and against the Philistines: and whithersoever he turned himself, he vexed them.
+- **20:41** BSB: Hebrew from the south side; LXX from beside the stone
+   - Latin: Quo profecto, David a meridiana parte prodiit, pronoque ad terram vultu ter honorem submisse praebuit, et uterque alterum deosculati collacrimarunt, sed David vehementius.
+   - 1738: Quo profecto, Dauid a meridiana parte prodiit, pronoque ad terram vultu ter honorem submisse præbuit, et vterque alterum deosculati collacrimarunt, sed Dauid vehementius.
+   - WLC: הַנַּעַר֮ בָּא֒ וְדָוִ֗ד קָ֚ם מֵאֵ֣צֶל הַנֶּ֔גֶב וַיִּפֹּ֨ל לְאַפָּ֥יו אַ֛רְצָה וַיִּשְׁתַּ֖חוּ שָׁלֹ֣שׁ פְּעָמִ֑ים וַֽיִּשְּׁק֣וּ ׀ אִ֣ישׁ אֶת־רֵעֵ֗הוּ וַיִּבְכּוּ֙ אִ֣ישׁ אֶת־רֵעֵ֔הוּ עַד־דָּוִ֖ד הִגְדִּֽיל׃
+   - BSB: When the young man had gone, David got up from the south side of the stone, fell facedown, and bowed three times. Then he and Jonathan kissed each other and wept together—though David wept more.
+   - KJV: ¶ And as soon as the lad was gone, David arose out of a place toward the south, and fell on his face to the ground, and bowed himself three times: and they kissed one another, and wept one with another, until David exceeded.
+
+## Versions: the BSB other (9 verses)
+
+- **1:1** BSB: Or from Ramathaim, a Zuphite; see LXX and 1 Chronicles 6:26 and 35.
+   - Latin: Fuit vir quidam a Ramatha Sophorum, quae est in monte Ephraimitarum, nomine Elcana, filius Jerohami, filii Elii, filii Thohi, filii Suphi, Ephrathaeus.
+   - 1738: FVIT vir quidam a Ramatha Sophorum, quæ est in monte Ephraimitarum, nomine Elcana, filius Ierohami, filii Elii, filii Thohi, filii Suphi, Ephrathæus.
+   - WLC: וַיְהִי֩ אִ֨ישׁ אֶחָ֜ד מִן־הָרָמָתַ֛יִם צוֹפִ֖ים מֵהַ֣ר אֶפְרָ֑יִם וּשְׁמ֡וֹ אֶ֠לְקָנָה בֶּן־יְרֹחָ֧ם בֶּן־אֱלִיה֛וּא בֶּן־תֹּ֥חוּ בֶן־צ֖וּף אֶפְרָתִֽי׃
+   - BSB: Now there was a man named Elkanah who was from Ramathaim-zophim in the hill country of Ephraim. He was the son of Jeroham, the son of Elihu, the son of Tohu, the son of Zuph, an Ephraimite.
+   - KJV: Now there was a certain man of Ramathaim-zophim, of mount Ephraim, and his name was Elkanah, the son of Jeroham, the son of Elihu, the son of Tohu, the son of Zuph, an Ephrathite:
+- **10:21** BSB: LXX includes And he brought the family of the Matrites near, man by man.
+   - Latin: qua porro ducta per cognationes, et matriana cognatione designata, declaratur Saulus, Cis filius. Is quum quaesitus non inveniretur,
+   - 1738: qua porro ducta per cognationes, et matriana cognatione designata, declaratur Saulus, Cis filius. Is quum quæsitus non inueniretur,
+   - WLC: וַיַּקְרֵ֞ב אֶת־שֵׁ֤בֶט בִּנְיָמִן֙ למשפחתו וַתִּלָּכֵ֖ד מִשְׁפַּ֣חַת הַמַּטְרִ֑י וַיִּלָּכֵד֙ שָׁא֣וּל בֶּן־קִ֔ישׁ וַיְבַקְשֻׁ֖הוּ וְלֹ֥א נִמְצָֽא׃
+   - BSB: Then he had the tribe of Benjamin come forward by its clans, and the clan of Matri was selected. Finally, Saul son of Kish was selected. But when they looked for him, they could not find him.
+   - KJV: When he had caused the tribe of Benjamin to come near by their families, the family of Matri was taken, and Saul the son of Kish was taken: and when they sought him, he could not be found.
+- **11:1** BSB: DSS and LXX About a month later Nahash
+   - Latin: Deinde post unum fere mensem fecit Nahas Ammonita expeditionem, castraque posuit apud Jabem Galaaditarum. A quo quum Jabenses universi peterent, ut secum pacem facerent, ea lege, ut ipsi ei servirent:
+   - 1738: Deinde G. L. post vnum fere mensem H. fecit Nahas Ammonita expeditionem, castraque posuit apud Iabem Galaaditarum. A quo quum Iabenses vniuersi peterent, vt secum pacem facerent, ea lege, vt ipsi ei seruirent:
+   - WLC: וַיַּ֗עַל נָחָשׁ֙ הָֽעַמּוֹנִ֔י וַיִּ֖חַן עַל־יָבֵ֣שׁ גִּלְעָ֑ד וַיֹּ֨אמְר֜וּ כָּל־אַנְשֵׁ֤י יָבֵישׁ֙ אֶל־נָחָ֔שׁ כְּרָת־לָ֥נוּ בְרִ֖ית וְנַעַבְדֶֽךָּ׃
+   - BSB: Soon Nahash the Ammonite came up and laid siege to Jabesh-gilead. All the men of Jabesh said to him, “Make a treaty with us, and we will serve you.”
+   - KJV: Then Nahash the Ammonite came up, and encamped against Jabesh-gilead: and all the men of Jabesh said unto Nahash, Make a covenant with us, and we will serve thee.
+- **11:8** BSB: DSS and LXX 70,000
+   - Latin: quos ille apud Bezec recensuit, fueruntque Israelitarum trecenta millia, Judaeorum autem triginta millia.
+   - 1738: quos ille apud Bezec recensuit, fueruntque Israelitarum trecenta millia, Iudæorum autem triginta millia.
+   - WLC: וַֽיִּפְקְדֵ֖ם בְּבָ֑זֶק וַיִּהְי֤וּ בְנֵֽי־יִשְׂרָאֵל֙ שְׁלֹ֣שׁ מֵא֣וֹת אֶ֔לֶף וְאִ֥ישׁ יְהוּדָ֖ה שְׁלֹשִׁ֥ים אָֽלֶף׃
+   - BSB: And when Saul numbered them at Bezek, there were 300,000 Israelites and 30,000 men of Judah.
+   - KJV: And when he numbered them in Bezek, the children of Israel were three hundred thousand, and the men of Judah thirty thousand.
+- **12:9** BSB: LXX the army of Jabin king of Hazor
+   - Latin: Deinde, quum Jovae Dei sui obliti, et propterea ab ipso Jova dediti essent Sisarae duci exercitus Hasoris, aut Palaestinis, aut regi Moabitarum, atque ab illis debellati,
+   - 1738: Deinde, quum Iouæ Dei sui obliti, et propterea ab ipso Ioua dediti essent Sisaræ duci exercitus Hasoris, aut Palæstinis, aut regi Moabitarum, atque ab illis debellati,
+   - WLC: וַֽיִּשְׁכְּח֖וּ אֶת־יְהוָ֣ה אֱלֹהֵיהֶ֑ם וַיִּמְכֹּ֣ר אֹתָ֡ם בְּיַ֣ד סִֽיסְרָא֩ שַׂר־צְבָ֨א חָצ֜וֹר וּבְיַד־פְּלִשְׁתִּ֗ים וּבְיַד֙ מֶ֣לֶךְ מוֹאָ֔ב וַיִּֽלָּחֲמ֖וּ בָּֽם׃
+   - BSB: But they forgot the LORD their God, and He sold them into the hand of Sisera the commander of the army of Hazor, and into the hands of the Philistines and the king of Moab, who fought against them.
+   - KJV: And when they forgat the LORD their God, he sold them into the hand of Sisera, captain of the host of Hazor, and into the hand of the Philistines, and into the hand of the king of Moab, and they fought against them.
+- **13:15** BSB: LXX Then Samuel set out, and the rest of the people went up after Saul to meet the army; they went up from Gilgal to Gibeah of Benjamin.
+   - Latin: Haec locutus Samuel, Galgalis digressus est, et Gabaam Benjamitarum venit. Saulus, quos habebat in praesentia, milites recensuit, homines circiter sexcentos:
+   - 1738: Hæc locutus Samuel, Galgalis digressus est, et Gabaam Beniamitarum venit. Saulus, quos habebat in præsentia, milites recensuit, homines circiter sexcentos:
+   - WLC: וַיָּ֣קָם שְׁמוּאֵ֗ל וַיַּ֛עַל מִן־הַגִּלְגָּ֖ל גִּבְעַ֣ת בִּנְיָמִ֑ן וַיִּפְקֹ֣ד שָׁא֗וּל אֶת־הָעָם֙ הַנִּמְצְאִ֣ים עִמּ֔וֹ כְּשֵׁ֥שׁ מֵא֖וֹת אִֽישׁ׃
+   - BSB: Then Samuel set out from Gilgal and went up to Gibeah in Benjamin. And Saul numbered the troops who were with him, about six hundred men.
+   - KJV: And Samuel arose, and gat him up from Gilgal unto Gibeah of Benjamin. And Saul numbered the people that were present with him, about six hundred men.
+- **15:32** BSB: Or cautiously or in chains; see DSS and LXX. | BSB: Or “Surely this is the bitterness of death.” See DSS and LXX.
+   - Latin: Tum Samuel Amalechitarum regem Agagum ad se jussit adduci. Quumque Agagus ad eum delicate accessisset, mortis acerbitatem abfore sperans,
+   - 1738: Tum Samuel Amalechitarum regem Agagum ad se iussit adduci. Quumque Agagus ad eum delicate accessisset, mortis acerbitatem abfore sperans,
+   - WLC: וַיֹּ֣אמֶר שְׁמוּאֵ֗ל הַגִּ֤ישׁוּ אֵלַי֙ אֶת־אֲגַג֙ מֶ֣לֶךְ עֲמָלֵ֔ק וַיֵּ֣לֶךְ אֵלָ֔יו אֲגַ֖ג מַעֲדַנֹּ֑ת וַיֹּ֣אמֶר אֲגָ֔ג אָכֵ֖ן סָ֥ר מַר־הַמָּֽוֶת׃ ס
+   - BSB: Then Samuel said, “Bring me Agag king of the Amalekites.” Agag came to him cheerfully, for he thought, “Surely the bitterness of death is past.”
+   - KJV: ¶ Then said Samuel, Bring ye hither to me Agag the king of the Amalekites. And Agag came unto him delicately. And Agag said, Surely the bitterness of death is past.
+- **17:4** BSB: Goliath was approximately 9 feet 9 inches or 297 centimeters tall; LXX, DSS, and Josephus four cubits and a span in height (approximately 6 feet 9 inches or 206 centimeters tall).
+   - Latin: prodiit vir quidam immanis ex castris Palaestinorum, nomine Goliathus, ex Getha, sex cubitos et dodrantem longus,
+   - 1738: prodiit vir quidam immanis ex castris Palæstinorum, nomine Goliathus, ex Getha, sex cubitos et dodrantem longus,
+   - WLC: וַיֵּצֵ֤א אִֽישׁ־הַבֵּנַ֙יִם֙ מִמַּחֲנ֣וֹת פְּלִשְׁתִּ֔ים גָּלְיָ֥ת שְׁמ֖וֹ מִגַּ֑ת גָּבְה֕וֹ שֵׁ֥שׁ אַמּ֖וֹת וָזָֽרֶת׃
+   - BSB: Then a champion named Goliath, who was from Gath, came out from the Philistine camp. He was six cubits and a span in height,
+   - KJV: ¶ And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, whose height was six cubits and a span.
+- **25:1** BSB: Hebrew and some LXX manuscripts; other LXX manuscripts Maon
+   - Latin: Interea moritur Samuel, et omnes Israelitae coeunt, eumque defletum, domi suae Ramae sepeliunt. Tum David in saltum Pharanem proficiscitur.
+   - 1738: Interea moritur Samuel, et omnes Israelitæ coeunt, eumque defletum, domi suæ Ramæ sepeliunt. Tum Dauid in saltum Pharanem proficiscitur.
+   - WLC: וַיָּ֣מָת שְׁמוּאֵ֔ל וַיִּקָּבְצ֤וּ כָל־יִשְׂרָאֵל֙ וַיִּסְפְּדוּ־ל֔וֹ וַיִּקְבְּרֻ֥הוּ בְּבֵית֖וֹ בָּרָמָ֑ה וַיָּ֣קָם דָּוִ֔ד וַיֵּ֖רֶד אֶל־מִדְבַּ֥ר פָּארָֽן׃ ס
+   - BSB: When Samuel died, all Israel gathered to mourn for him; and they buried him at his home in Ramah. Then David set out and went down to the Wilderness of Paran.
+   - KJV: And Samuel died; and all the Israelites were gathered together, and lamented him, and buried him in his house at Ramah. And David arose, and went down to the wilderness of Paran.
+
+## Numbers (32 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **2:13** Hebrew 3; Latin none
+   - Latin: Habebant autem pontifices hoc jus in populum, ut, quocumque sacrificium faciente, dum caro coquebatur, veniret puer pontificis, fuscinam tridentem ferens,
+   - 1738: Habebant autem pontifices hoc ius in populum, vt, quocumque sacrificium faciente, dum caro coquebatur, veniret puer pontificis, fuscinam tridentem ferens,
+   - WLC: וּמִשְׁפַּ֥ט הַכֹּהֲנִ֖ים אֶת־הָעָ֑ם כָּל־אִ֞ישׁ זֹבֵ֣חַ זֶ֗בַח וּבָ֨א נַ֤עַר הַכֹּהֵן֙ כְּבַשֵּׁ֣ל הַבָּשָׂ֔ר וְהַמַּזְלֵ֛ג שְׁלֹ֥שׁ־הַשִּׁנַּ֖יִם בְּיָדֽוֹ׃
+   - BSB: or for the custom of the priests with the people. When any man offered a sacrifice, the servant of the priest would come with a three-pronged meat fork while the meat was boiling
+   - KJV: And the priests’ custom with the people was, that, when any man offered sacrifice, the priest’s servant came, while the flesh was in seething, with a fleshhook of three teeth in his hand;
+- **4:2** Hebrew 4, 1000; Latin 1000
+   - Latin: instructisque in aciem Palaestinis, et commisso proelio, victi sunt Israelitae, caesis in acie per agros circiter quatuor millibus eorum.
+   - 1738: instructisque in aciem Palæstinis, et commisso prœlio, victi sunt Israelitæ, cæsis in acie per agros circiter quatuor millibus eorum.
+   - WLC: וַיַּעַרְכ֨וּ פְלִשְׁתִּ֜ים לִקְרַ֣את יִשְׂרָאֵ֗ל וַתִּטֹּשׁ֙ הַמִּלְחָמָ֔ה וַיִּנָּ֥גֶף יִשְׂרָאֵ֖ל לִפְנֵ֣י פְלִשְׁתִּ֑ים וַיַּכּ֤וּ בַמַּֽעֲרָכָה֙ בַּשָּׂדֶ֔ה כְּאַרְבַּ֥עַת אֲלָפִ֖ים אִֽישׁ׃
+   - BSB: The Philistines arrayed themselves against Israel, and as the battle spread, Israel was defeated by the Philistines, who struck down about four thousand men on the battlefield.
+   - KJV: And the Philistines put themselves in array against Israel: and when they joined battle, Israel was smitten before the Philistines: and they slew of the army in the field about four thousand men.
+- **5:4** Hebrew 2; Latin none
+   - Latin: postero item die prolapsum humi ante eamdem arcam Jovae reperiunt, ejus capite ambabusque manibus avulsis, et in limine positis, tantum Dagonis trunco ei relicto:
+   - 1738: postero item die prolapsum humi ante eamdem arcam Iouæ reperiunt, eius capite ambabusque manibus auulsis, et in limine positis, tantum Dagonis trunco ei relicto:
+   - WLC: וַיַּשְׁכִּ֣מוּ בַבֹּקֶר֮ מִֽמָּחֳרָת֒ וְהִנֵּ֣ה דָג֗וֹן נֹפֵ֤ל לְפָנָיו֙ אַ֔רְצָה לִפְנֵ֖י אֲר֣וֹן יְהוָ֑ה וְרֹ֨אשׁ דָּג֜וֹן וּשְׁתֵּ֣י ׀ כַּפּ֣וֹת יָדָ֗יו כְּרֻתוֹת֙ אֶל־הַמִּפְתָּ֔ן רַ֥ק דָּג֖וֹן נִשְׁאַ֥ר עָלָֽיו׃
+   - BSB: But when they got up early the next morning, there was Dagon, fallen on his face before the ark of the LORD, with his head and his hands broken off and lying on the threshold. Only the torso remained.
+   - KJV: And when they arose early on the morrow morning, behold, Dagon was fallen upon his face to the ground before the ark of the LORD; and the head of Dagon and both the palms of his hands were cut off upon the threshold; only the stump of Dagon was left to him.
+- **6:10** Hebrew 2; Latin none
+   - Latin: Atque ita fecerunt homines, duasque boves fetas ad currum adligarunt, domi conclusis earum vitulis,
+   - 1738: Atque ita fecerunt homines, duasque boues fetas ad currum adligarunt, domi conclusis earum vitulis,
+   - WLC: וַיַּעֲשׂ֤וּ הָאֲנָשִׁים֙ כֵּ֔ן וַיִּקְח֗וּ שְׁתֵּ֤י פָרוֹת֙ עָל֔וֹת וַיַּאַסְר֖וּם בָּעֲגָלָ֑ה וְאֶת־בְּנֵיהֶ֖ם כָּל֥וּ בַבָּֽיִת׃
+   - BSB: So the men did as instructed. They took two milk cows, hitched them to the cart, and penned up their calves.
+   - KJV: ¶ And the men did so; and took two milch kine, and tied them to the cart, and shut up their calves at home:
+- **8:12** Hebrew 50, 1000; Latin none
+   - Latin: hos tribunos, hos centuriones creabit: his aratoribus, his messoribus, his bellici et suorum curruum instrumenti fabricatoribus utetur.
+   - 1738: hos tribunos, hos centuriones creabit: his aratoribus, his messoribus, his bellici et suorum curruum instrumenti fabricatoribus vtetur.
+   - WLC: וְלָשׂ֣וּם ל֔וֹ שָׂרֵ֥י אֲלָפִ֖ים וְשָׂרֵ֣י חֲמִשִּׁ֑ים וְלַחֲרֹ֤שׁ חֲרִישׁוֹ֙ וְלִקְצֹ֣ר קְצִיר֔וֹ וְלַעֲשׂ֥וֹת כְּלֵֽי־מִלְחַמְתּ֖וֹ וּכְלֵ֥י רִכְבּֽוֹ׃
+   - BSB: He will appoint some for himself as commanders of thousands and of fifties, and others to plow his ground, to reap his harvest, to make his weapons of war, and to equip his chariots.
+   - KJV: And he will appoint him captains over thousands, and captains over fifties; and will set them to ear his ground, and to reap his harvest, and to make his instruments of war, and instruments of his chariots.
+- **8:15** Hebrew 10; Latin none
+   - Latin: Fruges et vineas vestras decimabit, et suis spadonibus adseclisque dabit.
+   - 1738: Fruges et vineas vestras decimabit, et suis spadonibus adseclisque dabit.
+   - WLC: וְזַרְעֵיכֶ֥ם וְכַרְמֵיכֶ֖ם יַעְשֹׂ֑ר וְנָתַ֥ן לְסָרִיסָ֖יו וְלַעֲבָדָֽיו׃
+   - BSB: He will take a tenth of your grain and grape harvest and give it to his officials and servants.
+   - KJV: And he will take the tenth of your seed, and of your vineyards, and give to his officers, and to his servants.
+- **8:17** Hebrew 10; Latin none
+   - Latin: pecora vestra decumabit: breviter, ei servi eritis,
+   - 1738: pecora vestra decumabit: breuiter, ei serui eritis,
+   - WLC: צֹאנְכֶ֖ם יַעְשֹׂ֑ר וְאַתֶּ֖ם תִּֽהְיוּ־ל֥וֹ לַעֲבָדִֽים׃
+   - BSB: He will take a tenth of your flocks, and you yourselves will become his slaves.
+   - KJV: He will take the tenth of your sheep: and ye shall be his servants.
+- **10:19** Hebrew 1000; Latin none
+   - Latin: et vos hodie Deum vestrum (per quem estis ab omnibus malis atque hostibus defensi) repudiatis, regemque vobis imponi flagitatis. Quare adeste coram Jova, in tribus copiasque distributi.
+   - 1738: et vos hodie Deum vestrum (per quem estis ab omnibus malis atque hostibus defensi) repudiatis, regemque vobis imponi flagitatis. Quare adeste coram Ioua, in tribus copiasque distributi.
+   - WLC: וְאַתֶּ֨ם הַיּ֜וֹם מְאַסְתֶּ֣ם אֶת־אֱלֹהֵיכֶ֗ם אֲשֶׁר־ה֣וּא מוֹשִׁ֣יעַ לָכֶם֮ מִכָּל־רָעוֹתֵיכֶ֣ם וְצָרֹֽתֵיכֶם֒ וַתֹּ֣אמְרוּ ל֔וֹ כִּי־מֶ֖לֶךְ תָּשִׂ֣ים עָלֵ֑ינוּ וְעַתָּ֗ה הִֽתְיַצְּבוּ֙ לִפְנֵ֣י יְהוָ֔ה לְשִׁבְטֵיכֶ֖ם וּלְאַלְפֵיכֶֽם׃
+   - BSB: But today you have rejected your God, who saves you from all your troubles and afflictions, and you have said to Him, ‘No, set a king over us.’ Now therefore present yourselves before the LORD by your tribes and clans.”
+   - KJV: And ye have this day rejected your God, who himself saved you out of all your adversities and your tribulations; and ye have said unto him, Nay, but set a king over us. Now therefore present yourselves before the LORD by your tribes, and by your thousands.
+- **11:11** Hebrew 2, 3; Latin 2
+   - Latin: Postridie Saulus exercitum tripartito intulit, mediaque castra de matutina vigilia adorti Saulini, Ammonitas usque ad aestum solis occiderunt: reliqui ita dissipati sunt, ut nusquam ibi duo simul restarent.
+   - 1738: Postridie Saulus exercitum tripartito intulit, mediaque castra de matutina vigilia adorti Saulini, Ammonitas vsque ad æstum solis occiderunt: reliqui ita dissipati sunt, vt nusquam ibi duo simul restarent.
+   - WLC: וַיְהִ֣י מִֽמָּחֳרָ֗ת וַיָּ֨שֶׂם שָׁא֣וּל אֶת־הָעָם֮ שְׁלֹשָׁ֣ה רָאשִׁים֒ וַיָּבֹ֤אוּ בְתוֹךְ־הַֽמַּחֲנֶה֙ בְּאַשְׁמֹ֣רֶת הַבֹּ֔קֶר וַיַּכּ֥וּ אֶת־עַמּ֖וֹן עַד־חֹ֣ם הַיּ֑וֹם וַיְהִ֤י הַנִּשְׁאָרִים֙ וַיָּפֻ֔צוּ וְלֹ֥א נִשְׁאֲרוּ־בָ֖ם שְׁנַ֥יִם יָֽחַד׃
+   - BSB: The next day Saul organized the troops into three divisions, and during the morning watch they invaded the camp of the Ammonites and slaughtered them, until the hottest part of the day. And the survivors were so scattered that no two of them were left together.
+   - KJV: And it was so on the morrow, that Saul put the people in three companies; and they came into the midst of the host in the morning watch, and slew the Ammonites until the heat of the day: and it came to pass, that they which remained were scattered, so that two of them were not left together.
+- **13:2** Hebrew 3, 1000; Latin 2, 3, 1000
+   - Latin: Delegit autem Saulus tria Israelitarum millia: quorum duo millia secum apud Machmas, montemque bethelensem retinuit: mille cum Jonathane reliquit apud Gabaam Benjamitarum: reliquos domum remisit.
+   - 1738: Delegit autem Saulus tria Israelitarum millia: quorum duo millia secum apud Machmas, montemque bethelensem retinuit: mille cum Ionathane reliquit apud Gabaam Beniamitarum: reliquos domum remisit.
+   - WLC: וַיִּבְחַר־ל֨וֹ שָׁא֜וּל שְׁלֹ֣שֶׁת אֲלָפִים֮ מִיִּשְׂרָאֵל֒ וַיִּהְי֨וּ עִם־שָׁא֜וּל אַלְפַּ֗יִם בְּמִכְמָשׂ֙ וּבְהַ֣ר בֵּֽית־אֵ֔ל וְאֶ֗לֶף הָיוּ֙ עִם־י֣וֹנָתָ֔ן בְּגִבְעַ֖ת בִּנְיָמִ֑ין וְיֶ֣תֶר הָעָ֔ם שִׁלַּ֖ח אִ֥ישׁ לְאֹהָלָֽיו׃
+   - BSB: He chose for himself three thousand men of Israel: Two thousand were with Saul at Michmash and in the hill country of Bethel, and a thousand were with Jonathan in Gibeah of Benjamin. And the rest of the troops he sent away, each to his own home.
+   - KJV: Saul chose him three thousand men of Israel; whereof two thousand were with Saul in Michmash and in mount Beth-el, and a thousand were with Jonathan in Gibeah of Benjamin: and the rest of the people he sent every man to his tent.
+- **13:17** Hebrew 3; Latin none
+   - Latin: Exierant autem ex Palaestinorum castris, apud Machmas positis, populatores, tripartito divisi: quorum una pars Ophram versus contenderat, in fines Saulis:
+   - 1738: Exierant autem ex Palæstinorum castris, apud Machmas positis, populatores, tripartito diuisi: quorum vna pars Ophram versus contenderat, in fines Saulis:
+   - WLC: וַיֵּצֵ֧א הַמַּשְׁחִ֛ית מִמַּחֲנֵ֥ה פְלִשְׁתִּ֖ים שְׁלֹשָׁ֣ה רָאשִׁ֑ים הָרֹ֨אשׁ אֶחָ֥ד יִפְנֶ֛ה אֶל־דֶּ֥רֶךְ עָפְרָ֖ה אֶל־אֶ֥רֶץ שׁוּעָֽל׃
+   - BSB: And raiders went out of the Philistine camp in three divisions. One headed toward Ophrah in the land of Shual,
+   - KJV: ¶ And the spoilers came out of the camp of the Philistines in three companies: one company turned unto the way that leadeth to Ophrah, unto the land of Shual:
+- **13:18** Hebrew none; Latin 3
+   - Latin: altera Bethoronem versus: tertia eum tractum petiverat, qui Sebojorum vallem spectat, in silvam.
+   - 1738: altera Bethoronem versus: tertia eum tractum petiuerat, qui Seboiorum vallem spectat, in siluam.
+   - WLC: וְהָרֹ֤אשׁ אֶחָד֙ יִפְנֶ֔ה דֶּ֖רֶךְ בֵּ֣ית חֹר֑וֹן וְהָרֹ֨אשׁ אֶחָ֤ד יִפְנֶה֙ דֶּ֣רֶךְ הַגְּב֔וּל הַנִּשְׁקָ֛ף עַל־גֵּ֥י הַצְּבֹעִ֖ים הַמִּדְבָּֽרָה׃ ס
+   - BSB: another toward Beth-horon, and the third down the border road overlooking the Valley of Zeboim facing the wilderness.
+   - KJV: And another company turned the way to Beth-horon: and another company turned to the way of the border that looketh to the valley of Zeboim toward the wilderness.
+- **13:21** Hebrew 3; Latin none
+   - Latin: erantque tum obtusi vomeres, ligones, tridentes et secures, reficiendique stimuli:
+   - 1738: erantque tum obtusi vomeres, ligones, tridentes et secures, reficiendique stimuli:
+   - WLC: וְֽהָיְתָ֞ה הַפְּצִ֣ירָה פִ֗ים לַמַּֽחֲרֵשֹׁת֙ וְלָ֣אֵתִ֔ים וְלִשְׁלֹ֥שׁ קִלְּשׁ֖וֹן וּלְהַקַּרְדֻּמִּ֑ים וּלְהַצִּ֖יב הַדָּרְבָֽן׃
+   - BSB: The charge was a pim for sharpening a plowshare or mattock, a third of a shekel for sharpening a pitchfork or an axe, and a third of a shekel for repointing an oxgoad.
+   - KJV: Yet they had a file for the mattocks, and for the coulters, and for the forks, and for the axes, and to sharpen the goads.
+- **14:4** Hebrew none; Latin 2
+   - Latin: Erant inter aditus, qua Jonathan ad Palaestinorum stationem penetrare conabatur, duo praerupti scopuli, alter altera ex parte aditum tenentes, quorum alter Boses, alter Sene adpellabatur:
+   - 1738: Erant inter aditus, qua Ionathan ad Palæstinorum stationem penetrare conabatur, duo prærupti scopuli, alter altera ex parte aditum tenentes, quorum alter Boses, alter Sene adpellabatur:
+   - WLC: וּבֵ֣ין הַֽמַּעְבְּר֗וֹת אֲשֶׁ֨ר בִּקֵּ֤שׁ יֽוֹנָתָן֙ לַֽעֲבֹר֙ עַל־מַצַּ֣ב פְּלִשְׁתִּ֔ים שֵׁן־הַסֶּ֤לַע מֵהָעֵ֙בֶר֙ מִזֶּ֔ה וְשֵׁן־הַסֶּ֥לַע מֵהָעֵ֖בֶר מִזֶּ֑ה וְשֵׁ֤ם הָֽאֶחָד֙ בּוֹצֵ֔ץ וְשֵׁ֥ם הָאֶחָ֖ד סֶֽנֶּה׃
+   - BSB: Now there were cliffs on both sides of the pass that Jonathan intended to cross to reach the Philistine outpost. One was named Bozez and the other Seneh.
+   - KJV: ¶ And between the passages, by which Jonathan sought to go over unto the Philistines’ garrison, there was a sharp rock on the one side, and a sharp rock on the other side: and the name of the one was Bozez, and the name of the other Seneh.
+- **14:49** Hebrew 2; Latin none
+   - Latin: Habuit autem Saulus filios, Jonathanem, Jessuim et Malchisuam, duasque filias, quarum grandiori Meroba, minori Michol nomen erat.
+   - 1738: Habuit autem Saulus filios, Ionathanem, Iessuim et Malchisuam, duasque filias, quarum grandiori Meroba, minori Michol nomen erat.
+   - WLC: וַיִּֽהְיוּ֙ בְּנֵ֣י שָׁא֔וּל יוֹנָתָ֥ן וְיִשְׁוִ֖י וּמַלְכִּי־שׁ֑וּעַ וְשֵׁם֙ שְׁתֵּ֣י בְנֹתָ֔יו שֵׁ֤ם הַבְּכִירָה֙ מֵרַ֔ב וְשֵׁ֥ם הַקְּטַנָּ֖ה מִיכַֽל׃
+   - BSB: Now the sons of Saul were Jonathan, Ishvi, and Malchishua. His two daughters were named Merab (his firstborn) and Michal (his younger daughter).
+   - KJV: Now the sons of Saul were Jonathan, and Ishui, and Melchi-shua: and the names of his two daughters were these; the name of the firstborn Merab, and the name of the younger Michal:
+- **17:18** Hebrew 10, 1000; Latin 10
+   - Latin: praeterea decem hos recentes caseos fer tribuno, et vide, quomodo tui fratres valeant, eorumque tesseram accipito.
+   - 1738: præterea decem hos recentes caseos fer tribuno, et vide, quomodo tui fratres valeant, eorumque tesseram accipito.
+   - WLC: וְ֠אֵת עֲשֶׂ֜רֶת חֲרִצֵ֤י הֶֽחָלָב֙ הָאֵ֔לֶּה תָּבִ֖יא לְשַׂר־הָאָ֑לֶף וְאֶת־אַחֶ֙יךָ֙ תִּפְקֹ֣ד לְשָׁל֔וֹם וְאֶת־עֲרֻבָּתָ֖ם תִּקָּֽח׃
+   - BSB: Take also these ten portions of cheese to the commander of their unit. Check on the welfare of your brothers and bring back an assurance from them.
+   - KJV: And carry these ten cheeses unto the captain of their thousand, and look how thy brethren fare, and take their pledge.
+- **18:7** Hebrew 1000, 10000; Latin 10, 1000
+   - Latin: ludentesque recinerent: Saulus mille, decem superavit millia David.
+   - 1738: ludentesque recinerent: Saulus mille, decem superauit millia Dauid.
+   - WLC: וַֽתַּעֲנֶ֛ינָה הַנָּשִׁ֥ים הַֽמְשַׂחֲק֖וֹת וַתֹּאמַ֑רְןָ הִכָּ֤ה שָׁאוּל֙ באלפו וְדָוִ֖ד בְּרִבְבֹתָֽיו׃
+   - BSB: And as the women danced, they sang out: “Saul has slain his thousands, and David his tens of thousands.”
+   - KJV: And the women answered one another as they played, and said, Saul hath slain his thousands, and David his ten thousands.
+- **18:8** Hebrew 1000, 10000; Latin 10, 1000
+   - Latin: Quam rem sane Saulus aegerrime molestissimeque tulit, quod Davidi dena millia, sibi millia tribuerentur: nihil jam illi deesse, nisi regnum.
+   - 1738: Quam rem sane Saulus ægerrime molestissimeque tulit, quod Dauidi dena millia, sibi millia tribuerentur: nihil iam illi deesse, nisi regnum.
+   - WLC: וַיִּ֨חַר לְשָׁא֜וּל מְאֹ֗ד וַיֵּ֤רַע בְּעֵינָיו֙ הַדָּבָ֣ר הַזֶּ֔ה וַיֹּ֗אמֶר נָתְנ֤וּ לְדָוִד֙ רְבָב֔וֹת וְלִ֥י נָתְנ֖וּ הָאֲלָפִ֑ים וְע֥וֹד ל֖וֹ אַ֥ךְ הַמְּלוּכָֽה׃
+   - BSB: And Saul was furious and resented this song. “They have ascribed tens of thousands to David,” he said, “but only thousands to me. What more can he have but the kingdom?”
+   - KJV: And Saul was very wroth, and the saying displeased him; and he said, They have ascribed unto David ten thousands, and to me they have ascribed but thousands: and what can he have more but the kingdom?
+- **18:13** Hebrew 1000; Latin none
+   - Latin: eum a se removit, tribunumque fecit.
+   - 1738: eum a se remouit, tribunumque fecit.
+   - WLC: וַיְסִרֵ֤הוּ שָׁאוּל֙ מֵֽעִמּ֔וֹ וַיְשִׂמֵ֥הוּ ל֖וֹ שַׂר־אָ֑לֶף וַיֵּצֵ֥א וַיָּבֹ֖א לִפְנֵ֥י הָעָֽם׃ פ
+   - BSB: Therefore Saul sent David away and gave him command of a thousand men. David led the troops out to battle and back,
+   - KJV: Therefore Saul removed him from him, and made him his captain over a thousand; and he went out and came in before the people.
+- **20:12** Hebrew 3; Latin none
+   - Latin: Jonathan ita loquitur: Jovam ego Deum Israelitarum juro, me crastino tempore, aut perendie, exploraturum esse meum patrem: ac si sensero bene erga Davidem animatum, missurum esse, qui faciat te certiorem:
+   - 1738: Ionathan ita loquitur: Iouam ego Deum Israelitarum iuro, me crastino tempore, aut perendie, exploraturum esse meum patrem: ac si sensero bene erga Dauidem animatum, missurum esse, qui faciat te certiorem:
+   - WLC: וַיֹּ֨אמֶר יְהוֹנָתָ֜ן אֶל־דָּוִ֗ד יְהוָ֞ה אֱלֹהֵ֤י יִשְׂרָאֵל֙ כִּֽי־אֶחְקֹ֣ר אֶת־אָבִ֗י כָּעֵ֤ת ׀ מָחָר֙ הַשְּׁלִשִׁ֔ית וְהִנֵּה־ט֖וֹב אֶל־דָּוִ֑ד וְלֹֽא־אָז֙ אֶשְׁלַ֣ח אֵלֶ֔יךָ וְגָלִ֖יתִי אֶת־אָזְנֶֽךָ׃
+   - BSB: and Jonathan said, “By the LORD, the God of Israel, I will sound out my father by this time tomorrow or the next day. If he is favorable toward you, will I not send for you and tell you?
+   - KJV: And Jonathan said unto David, O LORD God of Israel, when I have sounded my father about to morrow any time, or the third day, and, behold, if there be good toward David, and I then send not unto thee, and shew it thee;
+- **20:19** Hebrew none; Latin 3
+   - Latin: Descendes autem ad summum ter in locum ubi lateas, quo die negotium hoc fiet, manebisque apud lapidem Oselem.
+   - 1738: Descendes autem ad summum ter in locum vbi lateas, quo die negotium hoc fiet, manebisque apud lapidem Oselem.
+   - WLC: וְשִׁלַּשְׁתָּ֙ תֵּרֵ֣ד מְאֹ֔ד וּבָאתָ֙ אֶל־הַמָּק֔וֹם אֲשֶׁר־נִסְתַּ֥רְתָּ שָּׁ֖ם בְּי֣וֹם הַֽמַּעֲשֶׂ֑ה וְיָ֣שַׁבְתָּ֔ אֵ֖צֶל הָאֶ֥בֶן הָאָֽזֶל׃
+   - BSB: When you have stayed three days, hurry down to the place you hid on the day this trouble began, and remain beside the stone Ezel.
+   - KJV: And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel.
+- **20:27** Hebrew 2; Latin none
+   - Latin: Postridie novilunii, Davidis loco vacante, quaerit Saulus ex Jonathane filio suo, quam ob caussam Isaei filius neque pridie, neque eo die ad cibum capiendum venerit.
+   - 1738: Postridie nouilunii, Dauidis loco vacante, quærit Saulus ex Ionathane filio suo, quam ob caussam Isæi filius neque pridie, neque eo die ad cibum capiendum venerit.
+   - WLC: וַיְהִ֗י מִֽמָּחֳרַ֤ת הַחֹ֙דֶשׁ֙ הַשֵּׁנִ֔י וַיִּפָּקֵ֖ד מְק֣וֹם דָּוִ֑ד ס וַיֹּ֤אמֶר שָׁאוּל֙ אֶל־יְהוֹנָתָ֣ן בְּנ֔וֹ מַדּ֜וּעַ לֹא־בָ֧א בֶן־יִשַׁ֛י גַּם־תְּמ֥וֹל גַּם־הַיּ֖וֹם אֶל־הַלָּֽחֶם׃
+   - BSB: But on the day after the New Moon, the second day, David’s place was still empty, and Saul asked his son Jonathan, “Why hasn’t the son of Jesse come to the meal either yesterday or today?”
+   - KJV: And it came to pass on the morrow, which was the second day of the month, that David’s place was empty: and Saul said unto Jonathan his son, Wherefore cometh not the son of Jesse to meat, neither yesterday, nor to day?
+- **20:34** Hebrew 2; Latin none
+   - Latin: a mensa incensus ira surrexit, neque secundo novilunii die cibum cepit, tum quod Davidis vicem doleret, tum quod fuisset a patre suo adfectus ignominia.
+   - 1738: a mensa incensus ira surrexit, neque secundo nouilunii die cibum cepit, tum quod Dauidis vicem doleret, tum quod fuisset a patre suo adfectus ignominia.
+   - WLC: וַיָּ֧קָם יְהוֹנָתָ֛ן מֵעִ֥ם הַשֻּׁלְחָ֖ן בָּחֳרִי־אָ֑ף וְלֹא־אָכַ֞ל בְּיוֹם־הַחֹ֤דֶשׁ הַשֵּׁנִי֙ לֶ֔חֶם כִּ֤י נֶעְצַב֙ אֶל־דָּוִ֔ד כִּ֥י הִכְלִמ֖וֹ אָבִֽיו׃ ס
+   - BSB: Jonathan got up from the table in fierce anger and did not eat any food that second day of the month, for he was grieved by his father’s shameful treatment of David.
+   - KJV: So Jonathan arose from the table in fierce anger, and did eat no meat the second day of the month: for he was grieved for David, because his father had done him shame.
+- **20:42** Hebrew 2; Latin none
+   - Latin: Deinde Jonathan: abi cum bona pace, inquit: ac quae nos inter nos per Jovae nomen, Jovam inter me et te, interque meam et tuam progeniem contestati, juravimus, aeterna sunto. Tum ille discessit, et Jonathan in urbem se contulit.
+   - 1738: Deinde Ionathan: abi cum bona pace, inquit: ac quæ nos inter nos per Iouæ nomen, Iouam inter me et te, interque meam et tuam progeniem contestati, iurauimus, æterna sunto. Tum ille discessit, et Ionathan in vrbem se contulit.
+   - WLC: וַיֹּ֧אמֶר יְהוֹנָתָ֛ן לְדָוִ֖ד לֵ֣ךְ לְשָׁל֑וֹם אֲשֶׁר֩ נִשְׁבַּ֨עְנוּ שְׁנֵ֜ינוּ אֲנַ֗חְנוּ בְּשֵׁ֤ם יְהוָה֙ לֵאמֹ֔ר יְהוָ֞ה יִֽהְיֶ֣ה ׀ בֵּינִ֣י וּבֵינֶ֗ךָ וּבֵ֥ין זַרְעִ֛י וּבֵ֥ין זַרְעֲךָ֖ עַד־עוֹלָֽם׃ פ וַיָּ֖קָם וַיֵּלַ֑ךְ וִיהוֹנָתָ֖ן בָּ֥א הָעִֽיר׃
+   - BSB: And Jonathan said to David, “Go in peace, for the two of us have sworn in the name of the LORD, saying, ‘May the LORD be a witness between you and me, and between your descendants and mine forever.’” Then David got up and departed, and Jonathan went back into the city.
+   - KJV: And Jonathan said to David, Go in peace, forasmuch as we have sworn both of us in the name of the LORD, saying, The LORD be between me and thee, and between my seed and thy seed for ever. And he arose and departed: and Jonathan went into the city.
+- **21:5** Hebrew none; Latin 3
+   - Latin: Cui David: cum mulieribus nihil nobis rei fuit hunc jam tertium diem, inquit, ex quo profectus sum: suntque corpora famulorum casta. Quod si profectio ipsa profana fuit, at hodie quidem lustrabitur in corporibus.
+   - 1738: Cui Dauid: cum mulieribus nihil nobis rei fuit hunc iam tertium diem, inquit, ex quo profectus sum: suntque corpora famulorum casta. Quod si profectio ipsa profana fuit, at hodie quidem lustrabitur in corporibus.
+   - WLC: וַיַּעַן֩ דָּוִ֨ד אֶת־הַכֹּהֵ֜ן וַיֹּ֣אמֶר ל֗וֹ כִּ֣י אִם־אִשָּׁ֤ה עֲצֻֽרָה־לָ֙נוּ֙ כִּתְמ֣וֹל שִׁלְשֹׁ֔ם בְּצֵאתִ֕י וַיִּהְי֥וּ כְלֵֽי־הַנְּעָרִ֖ים קֹ֑דֶשׁ וְהוּא֙ דֶּ֣רֶךְ חֹ֔ל וְאַ֕ף כִּ֥י הַיּ֖וֹם יִקְדַּ֥שׁ בַּכֶּֽלִי׃
+   - BSB: David answered, “Women have indeed been kept from us, as is usual when I set out. And the equipment of the young men is holy, as it is even on common missions, and all the more at this time.”
+   - KJV: And David answered the priest, and said unto him, Of a truth women have been kept from us about these three days, since I came out, and the vessels of the young men are holy, and the bread is in a manner common, yea, though it were sanctified this day in the vessel.
+- **21:11** Hebrew 1000, 10000; Latin 10, 1000
+   - Latin: Sed quum dictitarent apud Achim ipsius stipatores, hunc esse regem terrae Davidem, hunc esse, cui per choros accantatum foret illud: Saulus mille, decem superavit millia David.
+   - 1738: Sed quum dictitarent apud Achim ipsius stipatores, hunc esse regem terræ Dauidem, hunc esse, cui per choros accantatum foret illud: Saulus mille, decem superauit millia Dauid.
+   - WLC: וַיֹּ֨אמְר֜וּ עַבְדֵ֤י אָכִישׁ֙ אֵלָ֔יו הֲלוֹא־זֶ֥ה דָוִ֖ד מֶ֣לֶךְ הָאָ֑רֶץ הֲל֣וֹא לָזֶ֗ה יַעֲנ֤וּ בַמְּחֹלוֹת֙ לֵאמֹ֔ר הִכָּ֤ה שָׁאוּל֙ באלפו וְדָוִ֖ד ברבבתו׃
+   - BSB: But the servants of Achish said to him, “Is this not David, the king of the land? Did they not sing about him in their dances, saying: ‘Saul has slain his thousands, and David his tens of thousands’?”
+   - KJV: And the servants of Achish said unto him, Is not this David the king of the land? did they not sing one to another of him in dances, saying, Saul hath slain his thousands, and David his ten thousands?
+- **22:7** Hebrew 100, 1000; Latin none
+   - Latin: apud eos ita locutus est: attendite, Jeminienses. Numquid vobis omnibus daturus est Isaei filius agros et vineas? numquid vos omnes tribunos facturus et centuriones?
+   - 1738: apud eos ita locutus est: attendite, Ieminienses. Numquid vobis omnibus daturus est Isæi filius agros et vineas? numquid vos omnes tribunos facturus et centuriones?
+   - WLC: וַיֹּ֣אמֶר שָׁא֗וּל לַֽעֲבָדָיו֙ הַנִּצָּבִ֣ים עָלָ֔יו שִׁמְעוּ־נָ֖א בְּנֵ֣י יְמִינִ֑י גַּם־לְכֻלְּכֶ֗ם יִתֵּ֤ן בֶּן־יִשַׁי֙ שָׂד֣וֹת וּכְרָמִ֔ים לְכֻלְּכֶ֣ם יָשִׂ֔ים שָׂרֵ֥י אֲלָפִ֖ים וְשָׂרֵ֥י מֵאֽוֹת׃
+   - BSB: Then Saul said to his servants, “Listen, men of Benjamin! Is the son of Jesse giving all of you fields and vineyards and making you commanders of thousands or hundreds?
+   - KJV: Then Saul said unto his servants that stood about him, Hear now, ye Benjamites; will the son of Jesse give every one of you fields and vineyards, and make you all captains of thousands, and captains of hundreds;
+- **23:18** Hebrew 2; Latin none
+   - Latin: Atque ita foedere inter se coram Jova percusso, David in silva remanet, et Jonathan domum petit.
+   - 1738: Atque ita fœdere inter se coram Ioua percusso, Dauid in silua remanet, et Ionathan domum petit.
+   - WLC: וַיִּכְרְת֧וּ שְׁנֵיהֶ֛ם בְּרִ֖ית לִפְנֵ֣י יְהוָ֑ה וַיֵּ֤שֶׁב דָּוִד֙ בַּחֹ֔רְשָׁה וִיהוֹנָתָ֖ן הָלַ֥ךְ לְבֵיתֽוֹ׃ ס
+   - BSB: So the two of them made a covenant before the LORD. And David remained in Horesh, while Jonathan went home.
+   - KJV: And they two made a covenant before the LORD: and David abode in the wood, and Jonathan went to his house.
+- **23:23** Hebrew 1000; Latin none
+   - Latin: exploratisque et perspectis omnibus, in quibus occultatur, latebris, ad me revertimini, ut vobiscum, re comperta, proficiscar: et si in hac regione est, eum per omnes Judaeae praefecturas vestigem.
+   - 1738: exploratisque et perspectis omnibus, in quibus occultatur, latebris, ad me reuertimini, vt vobiscum, re comperta, proficiscar: et si in hac regione est, eum per omnes Iudææ præfecturas vestigem.
+   - WLC: וּרְא֣וּ וּדְע֗וּ מִכֹּ֤ל הַמַּֽחֲבֹאִים֙ אֲשֶׁ֣ר יִתְחַבֵּ֣א שָׁ֔ם וְשַׁבְתֶּ֤ם אֵלַי֙ אֶל־נָכ֔וֹן וְהָלַכְתִּ֖י אִתְּכֶ֑ם וְהָיָה֙ אִם־יֶשְׁנ֣וֹ בָאָ֔רֶץ וְחִפַּשְׂתִּ֣י אֹת֔וֹ בְּכֹ֖ל אַלְפֵ֥י יְהוּדָֽה׃
+   - BSB: Observe and find out all the places where he hides. Then come back to me with certainty, and I will go with you. If he is in the land, I will search him out among all the clans of Judah.”
+   - KJV: See therefore, and take knowledge of all the lurking places where he hideth himself, and come ye again to me with the certainty, and I will go with you: and it shall come to pass, if he be in the land, that I will search him out throughout all the thousands of Judah.
+- **27:7** Hebrew 4; Latin none
+   - Latin: Temporis autem spatium, quo David in agro palaestino fuit, annus est et quatuor menses;
+   - 1738: Temporis autem spatium, quo Dauid in agro palæstino fuit, annus est et quatuor menses;
+   - WLC: וַֽיְהִי֙ מִסְפַּ֣ר הַיָּמִ֔ים אֲשֶׁר־יָשַׁ֥ב דָּוִ֖ד בִּשְׂדֵ֣ה פְלִשְׁתִּ֑ים יָמִ֖ים וְאַרְבָּעָ֥ה חֳדָשִֽׁים׃
+   - BSB: And the time that David lived in Philistine territory amounted to a year and four months.
+   - KJV: And the time that David dwelt in the country of the Philistines was a full year and four months.
+- **29:2** Hebrew 100, 1000; Latin 100
+   - Latin: quumque Palaestinorum satrapae distributum in centenos et millenos exercitum transveherent, in qua transvectione David ejusque comites postremi cum Achi incedebant:
+   - 1738: quumque Palæstinorum satrapæ distributum in centenos et millenos exercitum transueherent, in qua transuectione Dauid eiusque comites postremi cum Achi incedebant:
+   - WLC: וְסַרְנֵ֤י פְלִשְׁתִּים֙ עֹֽבְרִ֔ים לְמֵא֖וֹת וְלַאֲלָפִ֑ים וְדָוִ֣ד וַאֲנָשָׁ֗יו עֹֽבְרִ֛ים בָּאַחֲרֹנָ֖ה עִם־אָכִֽישׁ׃
+   - BSB: As the Philistine leaders marched out their units of hundreds and thousands, David and his men marched behind them with Achish.
+   - KJV: And the lords of the Philistines passed on by hundreds, and by thousands: but David and his men passed on in the rereward with Achish.
+- **29:5** Hebrew 1000, 10000; Latin 10, 1000
+   - Latin: Nonne hic est ille David, carmine illo in choreis decantatus? Saulus mille, decem superavit millia David?
+   - 1738: Nonne hic est ille Dauid, carmine illo in choreis decantatus? Saulus mille, decem superauit millia Dauid?
+   - WLC: הֲלוֹא־זֶ֣ה דָוִ֔ד אֲשֶׁ֧ר יַעֲנוּ־ל֛וֹ בַּמְּחֹל֖וֹת לֵאמֹ֑ר הִכָּ֤ה שָׁאוּל֙ בַּֽאֲלָפָ֔יו וְדָוִ֖ד ברבבתו׃ ס
+   - BSB: Is this not the David about whom they sing in their dances: ‘Saul has slain his thousands, and David his tens of thousands’?”
+   - KJV: Is not this David, of whom they sang one to another in dances, saying, Saul slew his thousands, and David his ten thousands?

@@ -237,3 +237,19 @@ class ParagraphRowsInsideAVerse(unittest.TestCase):
     def test_no_such_paragraph(self):
         with self.rows("Mōsī"), self.assertRaises(SystemExit):
             orig.verse_paragraph_rows(self.text, self.book, range(12, 13))
+
+    def test_first_word_in_the_printed_spelling(self):
+        # 1 Sam 2:31: the row names the word as printed (Scito, here Haec), the settled text has Scītō (Hæc)
+        with self.rows("Haec"):
+            self.assertEqual(orig.verse_paragraph_rows(self.text, self.book, range(12, 13)),
+                             "\\c 12\n\\v 1 Haec item Mosi:\n\\p\nhæc Israelitis exponito.\n\\v 2 Mulier\n")
+
+    def test_begun_before_a_later_word(self):
+        # 1 Sam 9:27 *Quumque surrexisset*: an indent inside the KJV's verse, before a later word of it
+        from unittest import mock
+        with mock.patch.object(orig, "paragraph_rows", return_value={("Lev.12.1", "Israēlītīs#1"): (True, "")}):
+            self.assertEqual(orig.verse_paragraph_rows(self.text, self.book, range(12, 13)),
+                             "\\c 12\n\\p\n\\v 1 Haec item Mosi:\n\\p\nhæc\n\\p\nIsraelitis exponito.\n\\v 2 Mulier\n")
+        with mock.patch.object(orig, "paragraph_rows", return_value={("Lev.12.1", "item#1"): (True, "")}):
+            self.assertEqual(orig.verse_paragraph_rows(self.text, self.book, range(12, 13)),
+                             "\\c 12\n\\p\n\\v 1 Haec\n\\p\nitem Mosi:\n\\p\nhæc Israelitis exponito.\n\\v 2 Mulier\n")

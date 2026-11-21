@@ -2,6 +2,47 @@
 
 ## Now
 
+- **Capitals, *adsecula* and the title of 1 Samuel, applied** (2026-11-20, your "Ok, go ahead and capitalize all
+  these", "Standardize to that throughout the whole Bible", "change the title to the Latin version of I Samuel").
+  - `data/review/capitals-gentile.md`, 14 words capitalized: Gen 37:1 *Chananæam*, 39:1, 45:18, 45:19, 45:23, 47:6,
+    47:11, 50:7 *Ægypti-*, Exod 31:2 and 35:30 *Jūdaicā*, 32:7 *Ægyptiā*, Rev 9:11 *Hebraicē, Græcō*, 16:16
+    *Hebraicē*: adverbs as adjectives, as Gaffiot and the rest of the settled text.
+  - `data/review/adsecula.md`: *adsecula* (Gaffiot *adsĕcŭla*; the classical tiers *adsecul-* 9 against *assecl-* 3)
+    for *assecla* in the nine settled places (Exod 7:20, 8:11, 8:21, 9:14, 10:7, Judg 3:24, 1 Sam 8:15, 22:6, 22:17);
+    the three *assecl-* word rows rejected, stem rules *adsecl-, assecl- → adsecul-* approved for books to come; the
+    orig and forms rows that named the word updated. Judges' and 1 Samuel's printed texts rebuilt to check (unchanged
+    by it); Exodus's not rebuilt.
+  - 1 Samuel titled *Samuēlis Liber Prior*, short *Samuēlis I*: the Nova Vulgata's name (*Liber I Samuelis*) in
+    Castellio's form, name first as his running head *REGVM LIBER I* and *Petrī Apostolī Epistula Prior*, Prior for the
+    first of two (your choice, 2026-11-20). The short titles follow Castellio's running heads (1573 *MATTHAEVS*, *AD
+    ROMANOS*, *I. PETRI EPISTOLA*; 1738 *IOSVA*, *IVDICES*, *RVTHA*), with *Epistola*, *Liber* dropped, in `text/1SA.usfm` and, unmarked, `text/orig/1SA.usfm` (1738's
+    own heading was not read); the citations now the Nova Vulgata's *1Sam, 2Sam, 1Reg, 2Reg* (`publish.CITATION`), so
+    2 Samuel and Kings will follow. Wikisource's page names stay *Regum*. Tests pass (215). Not committed.
+- **1 Samuel 1–31 settled for now, with its five notes** (2026-11-20, your "Yes, settle it", on
+  `data/review/1sam1-31-edition.md`). The 809 items of `1sam1-31-ch01.md` … `-ch31.md` and the five notes (2:8, 5:6,
+  13:1, 14:41, 17:43) applied into `text/1SA.usfm` (title *Rēgum liber I*), which matches the preview word for word plus
+  the notes; 20:30 *improbæ* confirmed with it; gold rebuilt, ledger `settled`, `text/draft/` empty. The printed text
+  `text/orig/1SA.usfm` rebuilt from the read lines to check: the same words and paragraphs, the title apart. That check
+  found a bug, fixed: once a book is settled, `orig` compared a paragraph row's printed word (2:31 *Scito*) with the
+  settled *Scītō* unfolded and silently dropped the paragraph; it now matches under the folds and stops on a row that
+  matches nothing (test added; 215 pass). Not committed.
+- **1 Samuel 1–31, phase 2: the edition and its notes** (settled since, above) (2026-11-20, your "Start phase 2").
+  `data/review/1sam1-31-edition.md`, 8 points: settle it for now (809 items `ok`, preview `text/draft/1SA.preview.usfm`);
+  five notes (2:8 and 17:43 Castellio's lines from the Greek, 5:6 the mice, 13:1 Saul's lost numbers, 14:41 the
+  versions' prayer); 1738's 36 footnotes not printed (35 are his 1554 margins), and its 14 asterisks found to mark his
+  14 annotations of 1554; 20:30 *improbæ* restored from 1554 (confirm); names (King Saul *Saūl-*, 13:17 Shual); verse
+  for Hannah's song, 15:22–23 and the women's song; 50 spelling rows under the standing rule (say if the *adsecl-* ones
+  should go); 15 of 1738's slips taken out of the draft. Edition facts in `docs/editions.md`. Not committed.
+- **1 Samuel 1–31 transcribed, its printed text approved for now** (2026-11-20, your "Approve for now": moved to
+  `text/orig/1SA.usfm`; phase 2, the proposals and the notes search, is next). Begun on your "Start transcribing the
+  next book". `data/review/1sam1-31-transcription.md`: 1738's leaves 322–357 voted with `pipeline lines` and every
+  line read on the page by eighteen readers (3,365 lines; 2,394 changed from the vote, 49 added, 15 removed), verse
+  numbers from 1738's margins, versified to the KJV (318 edits, one `absent` at 13:23; checks pass), paragraphs from the
+  indents with nine set on the page. Printed text `text/orig/1SA.usfm`; draft `text/draft/1SA.usfm`. For phase
+  2: 36 footnotes (one textual, 12:15), fourteen asterisks with no note (perhaps Castellio's 1554 annotations, as
+  Ruth's was), his *G./L. … H.* marks, wording doubts. Code: `ocrdraft` reads misread chapter numerals, a specked
+  heading and summaries that lost their stop; `orig` takes a paragraph row before a later word of a verse. Tests pass
+  (214). Not committed.
 - **Ruth 1–4 settled for now, with its note** (2026-11-19, your "Yes, settle it", after "Start phase 2"). The 85 items
   of `ruth1-4-ch01.md` … `-ch04.md` and the 3:16 note (`ruth-notes.md` item 1: Castellio's "she" for the Hebrew's "he",
   defended in his only 1554 annotation on Ruth) applied into `text/RUT.usfm`, which matches the preview word for word

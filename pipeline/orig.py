@@ -938,8 +938,35 @@ def verse_paragraph_rows(text, book, chapters):
             words = re.findall(r"[^\W\d_]+", lines[k].split(" ", 2)[2] if lines[k].count(" ") >= 2 else "")
             if words and same_word(words[0], word.split("#")[0]):
                 first[vid] = word.split("#")[0]
-        if first.get(vid) != word.split("#")[0] or word.partition("#")[2] not in ("", "1"):
+        is_first = vid in first and same_word(first[vid], word.split("#")[0])   # settled Scītō for the row's Scito
+        if begin and word.partition("#")[2] and (not is_first
+                                                 or word.partition("#")[2] != "1"):
+            # a paragraph begun before a later word of the verse (1738 1 Sam 9:27 *Quumque surrexisset*, indented,
+            # inside the KJV's 9:26): the line holding its n-th occurrence is cut there
+            target, n = word.split("#")[0], int(word.partition("#")[2])
+            seen = 0
+            for i in range(k, len(lines)):
+                if i > k and lines[i].startswith(("\\v ", "\\c ")):
+                    break
+                tokens = lines[i].split(" ")
+                start = 2 if i == k else 0
+                for t in range(start, len(tokens)):
+                    if same_word(tokens[t], target):
+                        seen += 1
+                        if seen == n:
+                            break
+                else:
+                    continue
+                if t == start and i > k and lines[i - 1] == "\\p":
+                    break
+                lines[i:i + 1] = [" ".join(tokens[:t]), "\\p", " ".join(tokens[t:])]
+                break
+            else:
+                raise SystemExit(f"orig: the paragraph row {vid} {word!r}: no such word in the verse")
+            continue
+        if not is_first or word.partition("#")[2] not in ("", "1"):
             inside = word if begin is False else None
+            taken = False
             for i in range(k + 1, len(lines) - 1):
                 if lines[i].startswith(("\\v ", "\\c ")):
                     break
@@ -947,8 +974,9 @@ def verse_paragraph_rows(text, book, chapters):
                                                               inside.split("#")[0]):
                     lines[i - 1] = lines[i - 1] + " " + lines[i + 1]
                     del lines[i:i + 2]
+                    taken = True
                     break
-            else:
+            if not taken:                 # a row matching nothing is an error, never silently passed over
                 raise SystemExit(f"orig: the paragraph row {vid} {word!r} is neither the verse's first word "
                                  f"({first.get(vid)!r}) nor a paragraph inside it to take away")
             continue

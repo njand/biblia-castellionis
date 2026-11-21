@@ -345,10 +345,11 @@ def credits(selected, macrons=True):
 # ---------------------------------------------------------------- plain text and data
 
 # The citation abbreviations: the Nova Vulgata's (as the Vatican's Latin documents cite: "1Cor 10,17"), with j
-# where this edition writes it (Jo, not Io), and Regum I–IV for Samuel and Kings, as Castellio names them.
+# where this edition writes it (Jo, not Io), and Samuel and Kings as the Nova Vulgata names them (1Sam, 2Sam, 1Reg, 2Reg; Nathan,
+# 2026-11-20), not Castellio's Regum I–IV.
 CITATION = {
     "Gen": "Gn", "Exod": "Ex", "Lev": "Lv", "Num": "Nm", "Deut": "Dt", "Josh": "Jos", "Judg": "Jdc", "Ruth": "Rt",
-    "1Sam": "1Reg", "2Sam": "2Reg", "1Kgs": "3Reg", "2Kgs": "4Reg", "1Chr": "1Par", "2Chr": "2Par", "Ezra": "Esd",
+    "1Sam": "1Sam", "2Sam": "2Sam", "1Kgs": "1Reg", "2Kgs": "2Reg", "1Chr": "1Par", "2Chr": "2Par", "Ezra": "Esd",
     "Neh": "Neh", "Esth": "Est", "Job": "Job", "Ps": "Ps", "Prov": "Prv", "Eccl": "Eccle", "Song": "Ct", "Isa": "Is",
     "Jer": "Jer", "Lam": "Lam", "Ezek": "Ez", "Dan": "Dn", "Hos": "Os", "Joel": "Joel", "Amos": "Am", "Obad": "Abd",
     "Jonah": "Jon", "Mic": "Mi", "Nah": "Na", "Hab": "Hab", "Zeph": "So", "Hag": "Agg", "Zech": "Zac", "Mal": "Mal",
