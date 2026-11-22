@@ -493,6 +493,63 @@ Read on the page images by two notes readers (`data/review/2sam1-24-phase2/notes
 - **Castellio's marks** at 1:19, 1:26, 8:7, 8:8, 8:13, 13:21, 13:37, 14:27, 14:30, 15:18, 15:20, 17:3 are all in 1554's
   text; 14:27's carries the margin reference *3.Reg.15* (Abijam's mother, 1 Kgs 15:2).
 
+### 1 Kings in 1738 (phase 1, 2026-11-22)
+
+Read on the page images, every line, by fifteen readers (`data/review/1kgs1-22-transcription.md`, the readers' notes
+in `1kgs1-22-transcription-readers.md`); the places named below as seen were seen by Claude. Verses are the KJV's
+unless 1738's are named. Wikisource has no 1 Kings; the vote used 1750 only.
+
+- **1738** (leaves 385–429, pp. 323–357, *REGVM LIBER III.*): begins on leaf 385 under the end of 2 Samuel and ends
+  at the top of leaf 429 (*patris exemplo læsit.*) above *REGVM LIBER IIII.* Its verse counts differ from the KJV's
+  in four chapters (1: 54 against 53; 7: 52/51; 21: 28/29; 22: 54/53, following the Hebrew from 22:44), and it cuts
+  many verses differently where the counts agree (196 versification edits). Its 3:1 opens with the KJV's 2:46b
+  (*Confirmato regno,*), its 13:1 is the KJV's 12:33, and its 15:1 opens with the KJV's 14:31b.
+- **The archive.org scan** (`bibliasacraexseb01cast`) photographed some leaves twice: the hOCR has leaves 386–389,
+  410–413, 424–425 and 830–831 that its page images leave out (second shots of pages on other leaves). Pages 324–325,
+  read on both shots, agree in all but one word (1:44 *cumque*, seen on leaf 391).
+- **15 lettered footnotes**, the letters restarting: b–c (leaves 395–396; no *a)* found), a–k (405–419), a–c
+  (423–428). Glosses mostly (11:5 *idem mox Molochus adpellatur.* on *Melcomum*; 22:34 *in incertum.* on
+  *simpliciter*); 4:13 *Gaulonim vocat Iosephus.*; 15:6 *f) H. Roboamum.* beside *L. Abiamum H.* (the KJV
+  has Rehoboam).
+- **Castellio's marks** in the text: *L. … H.* 1:8 (*et Cerethæi et Phelethæi*), 11:5 (*et Chamosum Moabitarum*),
+  15:6 (*Abiamum*); *G. … H.* 2:12 (*natus annos duodecim*); *G. L. … H.* 2:28 (*Solomonem*), 18:22 (*lucanique vates
+  quadringenti*).
+- **Asterisks with no footnote**, taken out of the read lines and listed (5:9, many in chs. 6–7, 10:11, 15:13, 19:3,
+  21:24, 22:30, in 1738's numbering): phase 2 checks them against Castellio's 1554 *IN LIBROS REGVM*.
+- **Printing slips**, kept in the printed text: 3:1 *intera*; 6:8 *lanuas*; 6:27 *in templa*;
+  11:38 *tib*; 17:1 *adparco*; 18:17 *est tune*; 20:14 *promitit*; 22:52 *Iou mque* (the *a* did not print; 1750
+  *Iouamque*). 10:27 *auri* where the Hebrew has silver is in 1750 too: Castellio's text or an old error, for phase 2.
+
+### 1 Kings in 1554 and 1573 (phase 2 notes search, 2026-11-22)
+
+Read on the page images by two notes readers (`data/review/1kgs1-22-phase2/notes-1554-a.md`, `-b.md`; crops cached in
+`sources/mdz-1554/`, git-ignored). 1554 = MDZ bsb10196330; 1573 = MDZ bsb10141277, here through its search API only.
+
+- **1554's text** (*REGVM LIB. III.*): begins in the left column of canvas 186 (column 347, after 2 Sam 24); chapter 12
+  half-way down the right column of canvas 195 (column 366); chapters 12–22 on canvases 195–204.
+- **The annotations** *IN III. REGVM*, with no preface: canvas 827 (column 349) to canvas 833 (column 361), with the
+  woodcuts and keys of the temple's furnishings (*COLVMNA*, *LACVS*, *VNA BASIS*, the laver); canvas 832's running head
+  misprinted *IN LIB. IIII. REGVM*; *IN IIII. LIB. REGVM* begins on canvas 833, column 362. Fifteen on chapters 1–11,
+  four on 12–22 (15:13, 19:3, 21:23, 22:30).
+- **1738's asterisks mark them**: nineteen of nineteen footnote-less asterisks stand at an annotation's lemma (the one
+  annotation without an asterisk opens the *BASIS DECLARATIO*, 7:27).
+- **1738's 15 footnotes**: most are 1554's margins. 11:36 *posteritatem* is 1554's margin beside its text *lumen*
+  (canvas 195, column 366), where 1738's text has *lucernam*; 15:4 *posteritatem* is 1554's text word (canvas 198,
+  column 371), 1738's text *lucernam* with the old word kept as the footnote: a revision after 1554 (not found in 1573
+  by the search). 15:10 *auia* is not in 1554 but is in 1573 (search); 15:6 *H. Roboamum* see below.
+- **15:6 revised after 1554**: 1554 reads *inter Roboamum & Ieroboamum* with no marks or margin (canvas 198, column 371,
+  read on the zoom); 1573 (search) and 1738 *inter L. Abiamum H.*, 1738 with the footnote *H. Roboamum*. By Castellio or
+  not is unknown (1556 not checked).
+- **Other changes after 1554** seen in passing: 2:12 *annos 12* → *annos duodecim*; 3:7 *necdum* (1554, canvas 188) →
+  *nec tum* (1738 and 1750), perhaps a misdivision rather than a revision (1573 not found by the search).
+- **10:27 *auri*** (gold, where the Hebrew has silver) is in 1554 (canvas 194, column 364), 1573 (canvas 238, search) and
+  1738: Castellio's own reading; his 2 Chr 9:27 has *argenti* (1573, search).
+- **Castellio's marks** at 1:8, 2:12, 2:28, 11:5 and 18:22 are in 1554's text; 15:6's is not (above). 1573 has 1:8's,
+  2:28's and 18:22's (search).
+- **His stated grounds at 22:30**: the annotation (canvas 833, column 361) defends *Achabi vestitum indueret* (from the
+  Greek) against the Hebrew's "your robes": telling Jehoshaphat to wear his own clothes is pointless, he argues, and the
+  charioteers' mistaking him for Ahab needs Ahab's.
+
 ### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
 
 Five places where Castellio's text departs from the Hebrew stand in 1551 (Google Books BrlIAAAAcAAJ, read by Nathan),

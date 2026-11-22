@@ -304,12 +304,25 @@ def indents(key, leaves=None):
 
 
 
+def skipped_leaves(key):
+    """The hOCR leaves archive.org leaves out of its page images: the gaps in page_numbers.json's leaf list (1738:
+    386–389, 410–413, 424–425 and 830–831, pages photographed again, found when 1 Kings was read, 2026-11-21)."""
+    data = json.loads((paths.SOURCES / "archive" / key / "page_numbers.json").read_text(encoding="utf-8"))
+    kept = sorted(p["leafNum"] for p in data.get("pages", []))
+    return {n for a, b in zip(kept, kept[1:]) for n in range(a + 1, b)}
+
+
 def page_image(key, leaf):
-    """The leaf's page image (cached in sources/archive/crops/); archive.org numbers them one below the hOCR's."""
+    """The leaf's page image (cached in sources/archive/crops/), or None for a leaf archive.org shows no image of.
+    archive.org numbers its images one below the hOCR's leaves, counting only the leaves it keeps (skipped_leaves)."""
+    skipped = skipped_leaves(key)
+    if leaf in skipped:
+        return None
     path = CROPS / f"{key}-page-{leaf:04d}.jpg"
     if not path.exists():
         CROPS.mkdir(parents=True, exist_ok=True)
-        net.download(PAGE_IMAGE.format(item=BY_KEY[key].item, leaf=leaf - 1), path)
+        n = leaf - 1 - sum(1 for s in skipped if s < leaf)
+        net.download(PAGE_IMAGE.format(item=BY_KEY[key].item, leaf=n), path)
     return path
 
 
@@ -335,7 +348,12 @@ def sheet(key, items, path, width=900):
     spec = []
     for label, leaf, box in items:
         _, _, (w, h) = pages(key)[leaf]
-        spec.append({"label": label, "image": str(page_image(key, leaf)), "box": list(box), "size": [w, h]})
+        image = page_image(key, leaf)
+        if image is None:  # a leaf photographed again, with no image of its own (skipped_leaves)
+            continue
+        spec.append({"label": label, "image": str(image), "box": list(box), "size": [w, h]})
+    if not spec:
+        return None
     path.parent.mkdir(parents=True, exist_ok=True)
     if os.name != "nt":
         _magick_sheet(spec, path)

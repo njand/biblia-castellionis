@@ -2,6 +2,20 @@
 
 ## Now
 
+- **1 Kings 1–22 settled for now, with three notes** (2026-11-22, your "Approve all as recommended").
+  `data/review/1kgs1-22-edition.md`: `text/1KI.usfm` from the 816 items, titled *Rēgum / Liber Prior*; notes 2:12
+  (*nātus annōs duodecim*, from the Greek), 2:28 (*Solomōnem*, Hebrew Absalom), 22:30 (Ahab's clothes); 3:7 *necdum*
+  restored from 1554 (draft fixes §6); 15:6 keeps *Ābīamum*. Printed text: the title *Regum / Liber Prior*; rebuilt
+  from the read lines, it matches word for word. The drafts are gone; the ledger says settled. Not committed.
+  **Still open from point 8** (left as the text has them; answer when you like): *adsistat* 19:11 (and the settled
+  Numbers 1:4, 23:3) or *assistat*; *assectātōrēs* 1:2 or *adsect-*; *adstruēbat* or *astruēbat*; *comminctōrem* or
+  *commīnctōrem* (14:10, 21:21); whether the settled 2 Sam *Adarezero* and 2 Pet 1:9 *cæcutiēns* take 1 Kings'
+  *Adarezerō*, *cæcūtientis* marks.
+- **1 Kings 1–22 transcribed, its printed text approved for now** (2026-11-22, your "Approve for now", after "Check
+  the paragraphs": moved to `text/orig/1KI.usfm`; begun on your "Start transcribing the next book"). `data/review/1kgs1-22-transcription.md`: `text/orig/draft/1KI.usfm`, 816 verses on the KJV's numbering,
+  read on 1738's leaves 385–429 by fifteen readers; 196 versification edits (three chapter breaks moved: 2/3, 12/13,
+  14/15). The image offset that came from archive.org's twice-photographed leaves is fixed in `pipeline/archive.py`.
+  Paragraphs checked against the readers' indents: ten added, two false ones taken out (73 now). Nothing committed.
 - **2 Samuel 1–24 settled for now, with nine notes** (2026-11-21, your "Approve all", with 12:31 and 21:8 added).
   `data/review/2sam1-24-edition.md`: `text/2SA.usfm` from the 693 items; notes 5:8, 1:19, 1:26, 8:7, 8:8, 12:31
   (*Mōabītārum*, Hebrew the Ammonites), 14:27, 14:30, 21:8 (*Mīcholis*, the versions Merab). The notes rule now says a

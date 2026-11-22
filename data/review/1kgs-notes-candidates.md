@@ -1,0 +1,433 @@
+# 1Kgs: candidates for light notes
+
+Built by `python -m pipeline notes 1Kgs` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `1kgs-notes.md`.
+
+Latin: 816 verses (settled and draft); already noted: 0. BSB notes naming a version: 27 verses (against MT 12, with MT 10, other 5); WEB notes besides: 0. Numerals differing from the Hebrew: 33. Latin far shorter than the Hebrew: 1. Castellio's G. … H. marks: 6.
+
+## Castellio's marks (6 verses)
+
+*G.* (*G.L.*, 1750 *Gr. lect.*) … *H.*: a reading he took from the Greek, found in the raw OCR of 1738 and 1750 and placed by the words around it (check the verse).
+
+- **2:12** 1738: dis patris  fui  confedit,  G.  natus / annos  duodecim ,  H.  eftque  eius  re- | 1750: folio Dauidis patris fui confedit, G. / natus annos duodecim ,H. eftque
+   - Latin: At Solomo in solio Davidis patris sui consedit, natus annos duodecim, estque ejus regnum probe confirmatum.
+   - 1738: At Solomo in solio Dauidis patris sui consedit, G. natus annos duodecim, H. estque eius regnum probe confirmatum.
+   - WLC: וּשְׁלֹמֹ֕ה יָשַׁ֕ב עַל־כִּסֵּ֖א דָּוִ֣ד אָבִ֑יו וַתִּכֹּ֥ן מַלְכֻת֖וֹ מְאֹֽד׃
+   - BSB: So Solomon sat on the throne of his father David, and his kingdom was firmly established.
+   - KJV: ¶ Then sat Solomon upon the throne of David his father; and his kingdom was established greatly.
+- **2:28** 1738: ad  G.L.  Solomonem  H.  inclinasfet, / conftigit  in  Iouae  tabernaculum ,  et | 1750: ad G. L. SolomonemH. inclinaffet , / confugitiu Iouaetabernaculum, et
+   - Latin: Horum fama ad Joabum perlata, qui ad Adoniam, non ad Solomonem inclinasset, confugit in Jovae tabernaculum, et arae cornua prehendit.
+   - 1738: Horum fama ad Ioabum perlata, qui ad Adoniam, non ad G. L. Solomonem H. inclinasset, confugit in Iouæ tabernaculum, et aræ cornua prehendit.
+   - WLC: וְהַשְּׁמֻעָה֙ בָּ֣אָה עַד־יוֹאָ֔ב כִּ֣י יוֹאָ֗ב נָטָה֙ אַחֲרֵ֣י אֲדֹנִיָּ֔ה וְאַחֲרֵ֥י אַבְשָׁל֖וֹם לֹ֣א נָטָ֑ה וַיָּ֤נָס יוֹאָב֙ אֶל־אֹ֣הֶל יְהוָ֔ה וַֽיַּחֲזֵ֖ק בְּקַרְנ֥וֹת הַמִּזְבֵּֽחַ׃
+   - BSB: When the news reached Joab, who had conspired with Adonijah but not with Absalom, he fled to the tent of the LORD and took hold of the horns of the altar.
+   - KJV: ¶ Then tidings came to Joab: for Joab had turned after Adonijah, though he turned not after Absalom. And Joab fled unto the tabernacle of the LORD, and caught hold on the horns of the altar.
+- **8:55** 1750: us omnino exfecutumiuit. G. De- / umque tot. eius opera recordans,
+   - Latin: et stans, magna voce omni Israelitarum multitudini bene precatus est in haec verba:
+   - 1738: et stans, magna voce omni Israelitarum multitudini bene precatus est in hæc verba:
+   - WLC: וַֽיַּעְמֹ֕ד וַיְבָ֕רֶךְ אֵ֖ת כָּל־קְהַ֣ל יִשְׂרָאֵ֑ל ק֥וֹל גָּד֖וֹל לֵאמֹֽר׃
+   - BSB: And he stood and blessed the whole assembly of Israel in a loud voice, saying:
+   - KJV: And he stood, and blessed all the congregation of Israel with a loud voice, saying,
+- **14:25** 1738: butarii.     G.  donee  Pharao  Aegypti / rex  expeditionem  fecit ,  vrbemque
+   - Latin: Hoc Roboamo annum quintum regnante, Sesacus; Aegypti rex expeditionem fecit in Hierosolymam,
+   - 1738: Hoc Roboamo annum quintum regnante, Sesacus; Aegypti rex expeditionem fecit in Hierosolymam,
+   - WLC: וַיְהִ֛י בַּשָּׁנָ֥ה הַחֲמִישִׁ֖ית לַמֶּ֣לֶךְ רְחַבְעָ֑ם עָלָ֛ה שושק מֶֽלֶךְ־מִצְרַ֖יִם עַל־יְרוּשָׁלִָֽם׃
+   - BSB: In the fifth year of Rehoboam’s reign, Shishak king of Egypt came up and attacked Jerusalem.
+   - KJV: ¶ And it came to pass in the fifth year of king Rehoboam, that Shishak king of Egypt came up against Jerusalem:
+- **15:8** 1738: res  fuos  fepultus  eft  in  vrbe  L.  G.  (> / Dauidis.  H.
+   - Latin: et postquam ad suorum manes concessit, sepultus est in urbe Davidis. Huic in regnum successit Asa filius ejus,
+   - 1738: et postquam ad suorum manes concessit, sepultus est in vrbe Dauidis. Huic in regnum successit Asa filius eius,
+   - WLC: וַיִּשְׁכַּ֤ב אֲבִיָּם֙ עִם־אֲבֹתָ֔יו וַיִּקְבְּר֥וּ אֹת֖וֹ בְּעִ֣יר דָּוִ֑ד וַיִּמְלֹ֛ךְ אָסָ֥א בְנ֖וֹ תַּחְתָּֽיו׃ פ
+   - BSB: And Abijam rested with his fathers and was buried in the City of David, and his son Asa reigned in his place.
+   - KJV: And Abijam slept with his fathers; and they buried him in the city of David: and Asa his son reigned in his stead.
+- **18:22** 1738: quadringenti  quinquaginta ,  G.  L. / lucanique  vates  quadringenti.    H.  ZJ | 1750: quadringenti quinquaginta, G.L. / lucanique vates quadringenti. H.
+   - Latin: ego solus (inquit Elias) Jovae vates supersum, quum baalenses vates sint quadringenti quinquaginta, lucanique vates quadringenti.
+   - 1738: ego solus (inquit Elias) Iouæ vates supersum, quum baalenses vates sint quadringenti quinquaginta, G. L. lucanique vates quadringenti. H.
+   - WLC: וַיֹּ֤אמֶר אֵלִיָּ֙הוּ֙ אֶל־הָעָ֔ם אֲנִ֞י נוֹתַ֧רְתִּי נָבִ֛יא לַיהוָ֖ה לְבַדִּ֑י וּנְבִיאֵ֣י הַבַּ֔עַל אַרְבַּע־מֵא֥וֹת וַחֲמִשִּׁ֖ים אִֽישׁ׃
+   - BSB: Then Elijah said to the people, “I am the only remaining prophet of the LORD, but Baal has four hundred and fifty prophets.
+   - KJV: Then said Elijah unto the people, I, even I only, remain a prophet of the LORD; but Baal’s prophets are four hundred and fifty men.
+
+## Versions: the BSB against MT (12 verses)
+
+- **4:19** BSB: Some LXX manuscripts; Hebrew And he was the one governor in the land.
+   - Latin: Gaber, Uris filius, Galaaditidem Sehonis Amorraeorum, et Ogi Basanae regis terram, una praefectura comprehensam.
+   - 1738: Gaber, Vris filius, Galaaditidem Sehonis Amorræorum, et Ogi Basanæ regis terram, vna præfectura comprehensam.
+   - WLC: גֶּ֥בֶר בֶּן־אֻרִ֖י בְּאֶ֣רֶץ גִּלְעָ֑ד אֶ֜רֶץ סִיח֣וֹן ׀ מֶ֣לֶךְ הָאֱמֹרִ֗י וְעֹג֙ מֶ֣לֶךְ הַבָּשָׁ֔ן וּנְצִ֥יב אֶחָ֖ד אֲשֶׁ֥ר בָּאָֽרֶץ׃
+   - BSB: Geber son of Uri in the land of Gilead, including the territories of Sihon king of the Amorites and of Og king of Bashan. There was also one governor in the land of Judah.
+   - KJV: Geber the son of Uri was in the country of Gilead, in the country of Sihon king of the Amorites, and of Og king of Bashan; and he was the only officer which was in the land.
+- **4:26** BSB: Some LXX manuscripts (see also 2 Chronicles 9:25); Hebrew 40,000
+   - Latin: Habebat Solomo quadraginta praesepiorum millia equorum jugalium, et duodecim millia equitum.
+   - 1738: Habebat Solomo quadraginta præsepiorum millia equorum iugalium, et duodecim millia equitum.
+   - WLC: וַיְהִ֣י לִשְׁלֹמֹ֗ה אַרְבָּעִ֥ים אֶ֛לֶף אֻרְוֺ֥ת סוּסִ֖ים לְמֶרְכָּב֑וֹ וּשְׁנֵים־עָשָׂ֥ר אֶ֖לֶף פָּרָשִֽׁים׃
+   - BSB: Solomon had 4,000 stalls for his chariot horses and 12,000 horses.
+   - KJV: ¶ And Solomon had forty thousand stalls of horses for his chariots, and twelve thousand horsemen.
+- **5:11** BSB: LXX (see also 2 Chronicles 2:10); 20,000 baths is approximately 116,000 gallons or 440,000 liters of olive oil; Hebrew twenty cors of pure oil or twenty cors of pressed oil
+   - Latin: et Solomo Hiramo tritici viginti cororum millia ad illius alimenta familiae, et expressi olei viginti coros, quotannis subministrabat:
+   - 1738: et Solomo Hiramo tritici viginti cororum millia ad illius alimenta familiæ, et expressi olei viginti coros, quotannis subministrabat:
+   - WLC: וּשְׁלֹמֹה֩ נָתַ֨ן לְחִירָ֜ם עֶשְׂרִים֩ אֶ֨לֶף כֹּ֤ר חִטִּים֙ מַכֹּ֣לֶת לְבֵית֔וֹ וְעֶשְׂרִ֥ים כֹּ֖ר שֶׁ֣מֶן כָּתִ֑ית כֹּֽה־יִתֵּ֧ן שְׁלֹמֹ֛ה לְחִירָ֖ם שָׁנָ֥ה בְשָׁנָֽה׃ פ
+   - BSB: and year after year Solomon would provide Hiram with 20,000 cors of wheat as food for his household, as well as 20,000 baths of pure olive oil.
+   - KJV: And Solomon gave Hiram twenty thousand measures of wheat for food to his household, and twenty measures of pure oil: thus gave Solomon to Hiram year by year.
+- **6:8** BSB: LXX and Targum; Hebrew middle
+   - Latin: Januas habebant media tabulata, a templi dextro latere, ad quae per cochleas adscendebatur, et porro a mediis ad tertias.
+   - 1738: lanuas habebant media tabulata, a templi dextro latere, ad quæ per cochleas adscendebatur, et porro a mediis ad tertias.
+   - WLC: פֶּ֗תַח הַצֵּלָע֙ הַתִּ֣יכֹנָ֔ה אֶל־כֶּ֥תֶף הַבַּ֖יִת הַיְמָנִ֑ית וּבְלוּלִּ֗ים יַֽעֲלוּ֙ עַל־הַתִּ֣יכֹנָ֔ה וּמִן־הַתִּֽיכֹנָ֖ה אֶל־הַשְּׁלִשִֽׁים׃
+   - BSB: The entrance to the bottom floor was on the south side of the temple. A stairway led up to the middle level, and from there to the third floor.
+   - KJV: The door for the middle chamber was in the right side of the house: and they went up with winding stairs into the middle chamber, and out of the middle into the third.
+- **7:7** BSB: Syriac and Vulgate; Hebrew from floor to floor
+   - Latin: Fecit et judicialem tribunalis porticum, in qua jus redderet, eamque a pavimento ad laquear cedro operuit:
+   - 1738: Fecit et iudicialem tribunalis porticum, in qua ius redderet, eamque a pauimento ad laquear cedro operuit:
+   - WLC: וְאוּלָ֤ם הַכִּסֵּא֙ אֲשֶׁ֣ר יִשְׁפָּט־שָׁ֔ם אֻלָ֥ם הַמִּשְׁפָּ֖ט עָשָׂ֑ה וְסָפ֣וּן בָּאֶ֔רֶז מֵהַקַּרְקַ֖ע עַד־הַקַּרְקָֽע׃
+   - BSB: In addition, he built a hall for the throne, the Hall of Justice, where he was to judge. It was paneled with cedar from floor to ceiling.
+   - KJV: ¶ Then he made a porch for the throne where he might judge, even the porch of judgment: and it was covered with cedar from one side of the floor to the other.
+- **7:40** BSB: Many Hebrew manuscripts, LXX, Syriac, and Vulgate (see also verse 45 and 2 Chronicles 4:11); many other Hebrew manuscripts basins
+   - Latin: Deinde cacabos, fuscinas et phialas fecit Hiramus, et omne opus templi Jovae, quod Solomoni fecit, absolvit:
+   - 1738: Deinde cacabos, fuscinas et phialas fecit Hiramus, et omne opus templi Iouæ, quod Solomoni fecit, absoluit:
+   - WLC: וַיַּ֣עַשׂ חִיר֔וֹם אֶת־הַ֨כִּיֹּר֔וֹת וְאֶת־הַיָּעִ֖ים וְאֶת־הַמִּזְרָק֑וֹת וַיְכַ֣ל חִירָ֗ם לַֽעֲשׂוֹת֙ אֶת־כָּל־הַמְּלָאכָ֔ה אֲשֶׁ֥ר עָשָׂ֛ה לַמֶּ֥לֶךְ שְׁלֹמֹ֖ה בֵּ֥ית יְהוָֽה׃
+   - BSB: Additionally, Huram made the pots, shovels, and sprinkling bowls. So Huram finished all the work that he had undertaken for King Solomon in the house of the LORD:
+   - KJV: ¶ And Hiram made the lavers, and the shovels, and the basons. So Hiram made an end of doing all the work that he made king Solomon for the house of the LORD:
+- **9:8** BSB: Some LXX manuscripts, Syriac, and Arabic; Hebrew And though this temple is now exalted; see also 2 Chronicles 7:21.
+   - Latin: et templum istud ostentui sit, ut praetereuntes omnes attoniti sibilent, quaerantque, quam ob caussam Jova sic adfecerit istam terram atque fanum.
+   - 1738: et templum istud ostentui sit, vt prætereuntes omnes attoniti sibilent, quærantque, quam ob caussam Ioua sic adfecerit istam terram atque fanum.
+   - WLC: וְהַבַּ֤יִת הַזֶּה֙ יִהְיֶ֣ה עֶלְי֔וֹן כָּל־עֹבֵ֥ר עָלָ֖יו יִשֹּׁ֣ם וְשָׁרָ֑ק וְאָמְר֗וּ עַל־מֶ֨ה עָשָׂ֤ה יְהוָה֙ כָּ֔כָה לָאָ֥רֶץ הַזֹּ֖את וְלַבַּ֥יִת הַזֶּֽה׃
+   - BSB: And when this temple has become a heap of rubble, all who pass by it will be appalled and will hiss and say, ‘Why has the LORD done such a thing to this land and to this temple?’
+   - KJV: And at this house, which is high, every one that passeth by it shall be astonished, and shall hiss; and they shall say, Why hath the LORD done thus unto this land, and to this house?
+- **13:11** BSB: LXX, Syriac, and Vulgate; Hebrew son
+   - Latin: Erat Bethele vates quidam senex. Ad hunc veniunt ipsius filii, eique narrant omnia, quae divinus ille eo die fecerit apud Bethel, quaeque regi verba dixerit.
+   - 1738: Erat Bethele vates quidam senex. Ad hunc veniunt ipsius filii, eique narrant omnia, quæ diuinus ille eo die fecerit apud Bethel, quæque regi verba dixerit.
+   - WLC: וְנָבִ֤יא אֶחָד֙ זָקֵ֔ן יֹשֵׁ֖ב בְּבֵֽית־אֵ֑ל וַיָּב֣וֹא בְנ֡וֹ וַיְסַפֶּר־ל֣וֹ אֶת־כָּל ־הַמַּעֲשֶׂ֣ה אֲשֶׁר־עָשָׂה֩ אִישׁ־הָאֱלֹהִ֨ים ׀ הַיּ֜וֹם בְּבֵֽית־אֵ֗ל אֶת־הַדְּבָרִים֙ אֲשֶׁ֣ר דִּבֶּ֣ר אֶל־הַמֶּ֔לֶךְ וַֽיְסַפְּר֖וּם לַאֲבִיהֶֽם׃
+   - BSB: Now a certain old prophet was living in Bethel, and his sons came and told him all the deeds that the man of God had done that day in Bethel. They also told their father the words that the man had spoken to the king.
+   - KJV: ¶ Now there dwelt an old prophet in Beth-el; and his sons came and told him all the works that the man of God had done that day in Beth-el: the words which he had spoken unto the king, them they told also to their father.
+- **13:12** BSB: LXX; Hebrew had seen
+   - Latin: Tum pater a filiis quaerit, quanam ille via discesserit. Quumque illi viam ostendissent, qua profectus esset divinus ille, qui ex Judaea venerat:
+   - 1738: Tum pater a filiis quærit, quanam ille via discesserit. Quumque illi viam ostendissent, qua profectus esset diuinus ille, qui ex Iudæa venerat:
+   - WLC: וַיְדַבֵּ֤ר אֲלֵהֶם֙ אֲבִיהֶ֔ם אֵֽי־זֶ֥ה הַדֶּ֖רֶךְ הָלָ֑ךְ וַיִּרְא֣וּ בָנָ֗יו אֶת־הַדֶּ֙רֶךְ֙ אֲשֶׁ֤ר הָלַךְ֙ אִ֣ישׁ הָאֱלֹהִ֔ים אֲשֶׁר־בָּ֖א מִיהוּדָֽה׃
+   - BSB: “Which way did he go?” their father asked. And his sons showed him the way taken by the man of God, who had come from Judah.
+   - KJV: And their father said unto them, What way went he? For his sons had seen what way the man of God went, which came from Judah.
+- **14:31** BSB: Abijam is a variant of Abijah; some Hebrew manuscripts and LXX Abijah; see 2 Chronicles 12:16.
+   - Latin: Roboamus postquam cum suis majoribus obdormivit, sepultus est apud suos majores in urbe Davidis. Ejus mater nomen habuit Naama, Ammonitis. Huic in regnum successit Abiamus ejus filius,
+   - 1738: Roboamus postquam cum suis maioribus obdormiuit, sepultus est apud suos maiores in vrbe Dauidis. Eius mater nomen habuit Naama, Ammonitis. Huic in regnum successit Abiamus eius filius,
+   - WLC: וַיִּשְׁכַּ֨ב רְחַבְעָ֜ם עִם־אֲבֹתָ֗יו וַיִּקָּבֵ֤ר עִם־אֲבֹתָיו֙ בְּעִ֣יר דָּוִ֔ד וְשֵׁ֣ם אִמּ֔וֹ נַעֲמָ֖ה הָעַמֹּנִ֑ית וַיִּמְלֹ֛ךְ אֲבִיָּ֥ם בְּנ֖וֹ תַּחְתָּֽיו׃ פ
+   - BSB: And Rehoboam rested with his fathers and was buried with them in the City of David; his mother’s name was Naamah the Ammonite. And his son Abijam reigned in his place.
+   - KJV: And Rehoboam slept with his fathers, and was buried with his fathers in the city of David. And his mother’s name was Naamah an Ammonitess. And Abijam his son reigned in his stead.
+- **15:1** BSB: Abijam is a variant of Abijah; some Hebrew manuscripts and LXX Abijah; also in verses 3, 6, 7, and 8; see 2 Chronicles 12:16.
+   - Latin: qui anno duodevicesimo regni Jeroboami, Nabati filii, regnare in Judaea coepit.
+   - 1738: qui anno duodevicesimo regni Ieroboami, Nabati filii, regnare in Iudæa cœpit.
+   - WLC: וּבִשְׁנַת֙ שְׁמֹנֶ֣ה עֶשְׂרֵ֔ה לַמֶּ֖לֶךְ יָרָבְעָ֣ם בֶּן־נְבָ֑ט מָלַ֥ךְ אֲבִיָּ֖ם עַל־יְהוּדָֽה׃
+   - BSB: In the eighteenth year of the reign of Jeroboam son of Nebat, Abijam became king of Judah,
+   - KJV: Now in the eighteenth year of king Jeroboam the son of Nebat reigned Abijam over Judah.
+- **21:21** BSB: See LXX; the source of the quotation is clarified in verses 17 and 23; Hebrew Behold.
+   - Latin: scito, fore, ut Jova tot tibi mala importet, atque ita te disperdat, ut Achabi nihil neque tam abditum neque tam obvium sit apud Israelitas, quin omnia stirpitus exscindat, etiam usque ad comminctorem parietis,
+   - 1738: scito, fore, vt Ioua tot tibi mala importet, atque ita te disperdat, vt Achabi nihil neque tam abditum neque tam obuium sit apud Israelitas, quin omnia stirpitus exscindat, etiam vsque ad comminctorem parietis,
+   - WLC: הִנְנִ֨י מבי אֵלֶ֙יךָ֙ רָעָ֔ה וּבִעַרְתִּ֖י אַחֲרֶ֑יךָ וְהִכְרַתִּ֤י לְאַחְאָב֙ מַשְׁתִּ֣ין בְּקִ֔יר וְעָצ֥וּר וְעָז֖וּב בְּיִשְׂרָאֵֽל׃
+   - BSB: This is what the LORD says: ‘I will bring calamity on you and consume your descendants; I will cut off from Ahab every male in Israel, both slave and free.
+   - KJV: Behold, I will bring evil upon thee, and will take away thy posterity, and will cut off from Ahab him that pisseth against the wall, and him that is shut up and left in Israel,
+
+## Versions: the BSB with MT (10 verses)
+
+- **1:25** BSB: Hebrew; LXX Joab the commander
+   - Latin: Nam is quidem hodie descendit, et boves, altilia, ovesque magna copia mactavit, et eo regios omnes natos exercitusque duces, et Abiatharem pontificem evocavit, qui nunc apud eum epulantur, Adoniamque regem salutant:
+   - 1738: Nam is quidem hodie descendit, et boues, altilia, ouesque magna copia mactauit, et eo regios omnes natos exercitusque duces, et Abiatharem pontificem euocauit, qui nunc apud eum epulantur, Adoniamque regem salutant:
+   - WLC: כִּ֣י ׀ יָרַ֣ד הַיּ֗וֹם וַ֠יִּזְבַּח שׁ֥וֹר וּֽמְרִיא־וְצֹאן֮ לָרֹב֒ וַיִּקְרָא֩ לְכָל־בְּנֵ֨י הַמֶּ֜לֶךְ וּלְשָׂרֵ֤י הַצָּבָא֙ וּלְאֶבְיָתָ֣ר הַכֹּהֵ֔ן וְהִנָּ֛ם אֹכְלִ֥ים וְשֹׁתִ֖ים לְפָנָ֑יו וַיֹּ֣אמְר֔וּ יְחִ֖י הַמֶּ֥לֶךְ אֲדֹנִיָּֽהוּ׃
+   - BSB: For today he has gone down and sacrificed an abundance of oxen, fattened calves, and sheep, and has invited all the sons of the king, the commanders of the army, and Abiathar the priest. And behold, they are eating and drinking before him, saying, ‘Long live King Adonijah!’
+   - KJV: For he is gone down this day, and hath slain oxen and fat cattle and sheep in abundance, and hath called all the king’s sons, and the captains of the host, and Abiathar the priest; and, behold, they eat and drink before him, and say, God save king Adonijah.
+- **2:5** BSB: Hebrew; LXX He stained with innocent blood the belt around my waist and the sandals on my feet.
+   - Latin: Jam vero tu scis, quid in me commiserit Joabus, Sarviae filius, quid fecerit duobus israeliticorum exercituum ducibus, Abneri Neris, et Amasae Jethris filio: quibus interficiendis, pacem belli cruore infecit, et bellico sanguine balteum, quo cincta latera, et calceos, quibus indutos pedes habebat, cruentavit.
+   - 1738: Iam vero tu scis, quid in me commiserit Ioabus, Saruiæ filius, quid fecerit duobus israeliticorum exercituum ducibus, Abneri Neris, et Amasæ Iethris filio: quibus interficiendis, pacem belli cruore infecit, et bellico sanguine balteum, quo cincta latera, et calceos, quibus indutos pedes habebat, cruentauit.
+   - WLC: וְגַ֣ם אַתָּ֣ה יָדַ֡עְתָּ אֵת֩ אֲשֶׁר־עָ֨שָׂה לִ֜י יוֹאָ֣ב בֶּן־צְרוּיָ֗ה אֲשֶׁ֣ר עָשָׂ֣ה לִשְׁנֵֽי־שָׂרֵ֣י צִבְא֣וֹת יִ֠שְׂרָאֵל לְאַבְנֵ֨ר בֶּן־נֵ֜ר וְלַעֲמָשָׂ֤א בֶן־יֶ֙תֶר֙ וַיַּ֣הַרְגֵ֔ם וַיָּ֥שֶׂם דְּמֵֽי־מִלְחָמָ֖ה בְּשָׁלֹ֑ם וַיִּתֵּ֞ן דְּמֵ֣י מִלְחָמָ֗ה בַּחֲגֹֽרָתוֹ֙ אֲשֶׁ֣ר בְּמָתְנָ֔יו וּֽבְנַעֲל֖וֹ אֲשֶׁ֥ר בְּרַגְלָֽיו׃
+   - BSB: Moreover, you know what Joab son of Zeruiah did to me—what he did to Abner son of Ner and Amasa son of Jether, the two commanders of the armies of Israel. He killed them in peacetime to avenge the blood of war. He stained with the blood of war the belt around his waist and the sandals on his feet.
+   - KJV: Moreover thou knowest also what Joab the son of Zeruiah did to me, and what he did to the two captains of the hosts of Israel, unto Abner the son of Ner, and unto Amasa the son of Jether, whom he slew, and shed the blood of war in peace, and put the blood of war upon his girdle that was about his loins, and in his shoes that were on his feet.
+- **5:16** BSB: Hebrew; some LXX manuscripts 3,600; see 2 Chronicles 2:18.
+   - Latin: praeter praefectos, operi ab eo praepositos, tria millia trecentos, qui praeerant operis.
+   - 1738: præter præfectos, operi ab eo præpositos, tria millia trecentos, qui præerant operis.
+   - WLC: לְ֠בַד מִשָּׂרֵ֨י הַנִּצָּבִ֤ים לִשְׁלֹמֹה֙ אֲשֶׁ֣ר עַל־הַמְּלָאכָ֔ה שְׁלֹ֥שֶׁת אֲלָפִ֖ים וּשְׁלֹ֣שׁ מֵא֑וֹת הָרֹדִ֣ים בָּעָ֔ם הָעֹשִׂ֖ים בַּמְּלָאכָֽה׃
+   - BSB: not including his 3,300 foremen who supervised the workers.
+   - KJV: Beside the chief of Solomon’s officers which were over the work, three thousand and three hundred, which ruled over the people that wrought in the work.
+- **6:1** BSB: Hebrew; LXX four hundred and fortieth
+   - Latin: Igitur anno ab exitu Israelitarum ex Aegypto quadringentesimo octogesimo, mense Zif, qui secundus est, anno regni Solomonis quarto, coepit rex Solomo Jovae templum aedificare.
+   - 1738: Igitur anno ab exitu Israelitarum ex Aegypto quadringentesimo octogesimo, mense Zif, qui secundus est, anno regni Solomonis quarto, cœpit rex Solomo Iouæ templum ædificare.
+   - WLC: וַיְהִ֣י בִשְׁמוֹנִ֣ים שָׁנָ֣ה וְאַרְבַּ֣ע מֵא֣וֹת שָׁנָ֡ה לְצֵ֣את בְּנֵֽי־יִשְׂרָאֵ֣ל מֵאֶֽרֶץ־מִצְרַיִם֩ בַּשָּׁנָ֨ה הָרְבִיעִ֜ית בְּחֹ֣דֶשׁ זִ֗ו ה֚וּא הַחֹ֣דֶשׁ הַשֵּׁנִ֔י לִמְלֹ֥ךְ שְׁלֹמֹ֖ה עַל־יִשְׂרָאֵ֑ל וַיִּ֥בֶן הַבַּ֖יִת לַיהוָֽה׃
+   - BSB: In the four hundred and eightieth year after the Israelites had come out of the land of Egypt, in the month of Ziv, the second month of the fourth year of Solomon’s reign over Israel, he began to build the house of the LORD.
+   - KJV: And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomon’s reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.
+- **7:17** BSB: Hebrew; LXX one for each capital
+   - Latin: quae capitula columnarum capitibus imposita, singula septenas plagas habebant, opere perplexo, filorum opere catenato.
+   - 1738: quæ capitula columnarum capitibus imposita, singula septenas plagas habebant, opere perplexo, filorum opere catenato.
+   - WLC: שְׂבָכִ֞ים מַעֲשֵׂ֣ה שְׂבָכָ֗ה גְּדִלִים֙ מַעֲשֵׂ֣ה שַׁרְשְׁר֔וֹת לַכֹּ֣תָרֹ֔ת אֲשֶׁ֖ר עַל־רֹ֣אשׁ הָעַמּוּדִ֑ים שִׁבְעָה֙ לַכֹּתֶ֣רֶת הָאֶחָ֔ת וְשִׁבְעָ֖ה לַכֹּתֶ֥רֶת הַשֵּׁנִֽית׃
+   - BSB: For the capitals on top of the pillars he made a network of lattice, with wreaths of chainwork, seven for each capital.
+   - KJV: And nets of checker work, and wreaths of chain work, for the chapiters which were upon the top of the pillars; seven for the one chapiter, and seven for the other chapiter.
+- **11:33** BSB: Hebrew; LXX, Syriac, and Vulgate he has; twice in this verse
+   - Latin: quoniam illi, relicto me, Astorethum Sidoniorum, Chamossum Moabitarum, et Melcomum Ammonitarum deum colunt: neque meis gradientes viis, ut mihi obtemperent, mea placita, instituta, sententias exsequuntur, sicuti David pater illius.
+   - 1738: quoniam illi, relicto me, Astorethum Sidoniorum, Chamosum Moabitarum, et Mclcomum Ammonitarum deum colunt: neque meis gradientes viis, vt mihi obtemperent, mea placita, instituta, sententias exsequuntur, sicuti Dauid pater illius.
+   - WLC: יַ֣עַן ׀ אֲשֶׁ֣ר עֲזָב֗וּנִי וַיִּֽשְׁתַּחֲווּ֮ לְעַשְׁתֹּרֶת֮ אֱלֹהֵ֣י צִֽדֹנִין֒ לִכְמוֹשׁ֙ אֱלֹהֵ֣י מוֹאָ֔ב וּלְמִלְכֹּ֖ם אֱלֹהֵ֣י בְנֵֽי־עַמּ֑וֹן וְלֹֽא־הָלְכ֣וּ בִדְרָכַ֗י לַעֲשׂ֨וֹת הַיָּשָׁ֧ר בְּעֵינַ֛י וְחֻקֹּתַ֥י וּמִשְׁפָּטַ֖י כְּדָוִ֥ד אָבִֽיו׃
+   - BSB: For they have forsaken Me to worship Ashtoreth the goddess of the Sidonians, Chemosh the god of the Moabites, and Milcom the god of the Ammonites. They have not walked in My ways, nor done what is right in My eyes, nor kept My statutes and judgments, as Solomon’s father David did.
+   - KJV: Because that they have forsaken me, and have worshipped Ashtoreth the goddess of the Zidonians, Chemosh the god of the Moabites, and Milcom the god of the children of Ammon, and have not walked in my ways, to do that which is right in mine eyes, and to keep my statutes and my judgments, as did David his father.
+- **12:18** BSB: Hebrew; some LXX manuscripts and Syriac Adoniram; see 1 Kings 4:6 and 1 Kings 5:14.
+   - Latin: Quumque misisset Roboamus rex Adoramum tributi praefectum ad Israelitas: illi eum universi lapidibus obrutum necarunt. Itaque occupavit Roboamus quadrigam adscendere, Hierosolymamque cursu petere.
+   - 1738: Quumque misisset Roboamus rex Adoramum tributi præfectum ad Israelitas: illi eum vniuersi lapidibus obrutum necarunt. Itaque occupauit Roboamus quadrigam adscendere, Hierosolymamque cursu petere.
+   - WLC: וַיִּשְׁלַ֞ח הַמֶּ֣לֶךְ רְחַבְעָ֗ם אֶת־אֲדֹרָם֙ אֲשֶׁ֣ר עַל־הַמַּ֔ס וַיִּרְגְּמ֨וּ כָל־יִשְׂרָאֵ֥ל בּ֛וֹ אֶ֖בֶן וַיָּמֹ֑ת וְהַמֶּ֣לֶךְ רְחַבְעָ֗ם הִתְאַמֵּץ֙ לַעֲל֣וֹת בַּמֶּרְכָּבָ֔ה לָנ֖וּס יְרוּשָׁלִָֽם׃
+   - BSB: Then King Rehoboam sent out Adoram, who was in charge of the forced labor, but all Israel stoned him to death. And King Rehoboam mounted his chariot in haste and escaped to Jerusalem.
+   - KJV: Then king Rehoboam sent Adoram, who was over the tribute; and all Israel stoned him with stones, that he died. Therefore king Rehoboam made speed to get him up to his chariot, to flee to Jerusalem.
+- **12:30** BSB: Likely reading of the original Hebrew text; MT the people walked to the one as far as Dan; LXX the people went to the one at Bethel and to the other as far as Dan
+   - Latin: quae res sane offensam attulit, quum vulgo alterius visendi gratia Danem usque commearent.
+   - 1738: quæ res sane offensam attulit, quum vulgo alterius visendi gratia Danem vsque commearent.
+   - WLC: וַיְהִ֛י הַדָּבָ֥ר הַזֶּ֖ה לְחַטָּ֑את וַיֵּלְכ֥וּ הָעָ֛ם לִפְנֵ֥י הָאֶחָ֖ד עַד־דָּֽן׃
+   - BSB: And this thing became a sin; the people walked as far as Dan to worship before one of the calves.
+   - KJV: And this thing became a sin: for the people went to worship before the one, even unto Dan.
+- **15:6** BSB: Literally war between Rehoboam (most Hebrew manuscripts); some Hebrew manuscripts and Syriac war between Abijam (that is, Abijah); most LXX texts do not contain this verse.
+   - Latin: Intercessit autem bellum inter Abiamum et Jeroboamum per omnem ejus vitam.
+   - 1738: Intercessit autem bellum inter L. Abiamum H. et Ieroboamum per omnem eius vitam.
+   - WLC: וּמִלְחָמָ֨ה הָיְתָ֧ה בֵין־רְחַבְעָ֛ם וּבֵ֥ין יָרָבְעָ֖ם כָּל־יְמֵ֥י חַיָּֽיו׃
+   - BSB: And there was war between the houses of Rehoboam and Jeroboam all the days of Abijam’s life.
+   - KJV: And there was war between Rehoboam and Jeroboam all the days of his life.
+- **21:23** BSB: Most Hebrew manuscripts; a few Hebrew manuscripts, Vulgate, and Syriac (see also 2 Kings 9:36) ‘The dogs will devour Jezebel at the plot of ground at Jezreel.’
+   - Latin: De Jezabele quoque sic Jova pronuntiat, eam a canibus in agro jezraelensi comesum iri.
+   - 1738: De Iezabele quoque sic Ioua pronuntiat, eam a canibus in agro iezraelensi comesum iri.
+   - WLC: וְגַ֨ם־לְאִיזֶ֔בֶל דִּבֶּ֥ר יְהוָ֖ה לֵאמֹ֑ר הַכְּלָבִ֛ים יֹאכְל֥וּ אֶת־אִיזֶ֖בֶל בְּחֵ֥ל יִזְרְעֶֽאל׃
+   - BSB: And the LORD also speaks concerning Jezebel: ‘The dogs will devour Jezebel by the wall of Jezreel.’
+   - KJV: And of Jezebel also spake the LORD, saying, The dogs shall eat Jezebel by the wall of Jezreel.
+
+## Versions: the BSB other (5 verses)
+
+- **1:48** BSB: LXX one of my offspring
+   - Latin: Et rex ipse in lecto Jovae Israelitarum Deo submisse gratias egit, qui sibi hodie dedisset, qui in suo solio, se suis oculis vidente, sederet.
+   - 1738: Et rex ipse in lecto Iouæ Israelitarum Deo submisse gratias egit, qui sibi hodie dedisset, qui in suo solio, se suis oculis vidente, sederet.
+   - WLC: וְגַם־כָּ֖כָה אָמַ֣ר הַמֶּ֑לֶךְ בָּר֨וּךְ יְהוָ֜ה אֱלֹהֵ֣י יִשְׂרָאֵ֗ל אֲשֶׁ֨ר נָתַ֥ן הַיּ֛וֹם יֹשֵׁ֥ב עַל־כִּסְאִ֖י וְעֵינַ֥י רֹאֽוֹת׃
+   - BSB: saying, ‘Blessed be the LORD, the God of Israel! Today He has provided one to sit on my throne, and my eyes have seen it.’”
+   - KJV: And also thus said the king, Blessed be the LORD God of Israel, which hath given one to sit on my throne this day, mine eyes even seeing it.
+- **7:26** BSB: 2,000 baths is approximately 11,600 gallons or 44,000 liters; LXX does not include this sentence.
+   - Latin: Crassitudo erat palmaris: labrum, quale labrorum in poculis opus est, rosis floridum, capacitate duorum millium batorum.
+   - 1738: Crassitudo erat palmaris: labrum, quale labrorum in poculis opus est, rosis floridum, capacitate duorum millium batorum.
+   - WLC: וְעָבְי֣וֹ טֶ֔פַח וּשְׂפָת֛וֹ כְּמַעֲשֵׂ֥ה שְׂפַת־כּ֖וֹס פֶּ֣רַח שׁוֹשָׁ֑ן אַלְפַּ֥יִם בַּ֖ת יָכִֽיל׃ פ
+   - BSB: It was a handbreadth thick, and its rim was fashioned like the brim of a cup, like a lily blossom. It could hold two thousand baths.
+   - KJV: And it was an hand breadth thick, and the brim thereof was wrought like the brim of a cup, with flowers of lilies: it contained two thousand baths.
+- **8:12** BSB: Some LXX Manuscripts The Lord has set the sun in the heavens, but
+   - Latin: Tum Solomo sic fatus est: ego tibi Jova, qui tenebras inhabitare statuisti,
+   - 1738: Tum Solomo sic fatus est: ego tibi Ioua, qui tenebras inhabitare statuisti,
+   - WLC: אָ֖ז אָמַ֣ר שְׁלֹמֹ֑ה יְהוָ֣ה אָמַ֔ר לִשְׁכֹּ֖ן בָּעֲרָפֶֽל׃
+   - BSB: Then Solomon declared: “The LORD has said that He would dwell in the thick cloud.
+   - KJV: ¶ Then spake Solomon, The LORD said that he would dwell in the thick darkness.
+- **9:26** BSB: Eloth is a variant of Elath; see LXX, 2 Kings 14:22, and 2 Kings 16:6.
+   - Latin: classem fecit in Asiongabre, apud Elotha, in litore maris rubri in finibus Idumaeorum:
+   - 1738: classem fecit in Asiongabre, apud Elotha, in litore maris rubri in finibus Idumæorum:
+   - WLC: וָאֳנִ֡י עָשָׂה֩ הַמֶּ֨לֶךְ שְׁלֹמֹ֜ה בְּעֶצְיֽוֹן־גֶּ֨בֶר אֲשֶׁ֧ר אֶת־אֵל֛וֹת עַל־שְׂפַ֥ת יַם־ס֖וּף בְּאֶ֥רֶץ אֱדֽוֹם׃
+   - BSB: King Solomon also assembled a fleet of ships at Ezion-geber, which is near Eloth in Edom, on the shore of the Red Sea.
+   - KJV: ¶ And king Solomon made a navy of ships in Ezion-geber, which is beside Eloth, on the shore of the Red sea, in the land of Edom.
+- **10:8** BSB: LXX, Syriac, and Vulgate your wives
+   - Latin: Felices homines tui, felices hi adseclae tui, qui tibi perpetuo adstantes, tuam audiunt sapientiam.
+   - 1738: Felices homines tui, felices hi adseclæ tui, qui tibi perpetuo adstantes, tuam audiunt sapientiam.
+   - WLC: אַשְׁרֵ֣י אֲנָשֶׁ֔יךָ אַשְׁרֵ֖י עֲבָדֶ֣יךָ אֵ֑לֶּה הָֽעֹמְדִ֤ים לְפָנֶ֙יךָ֙ תָּמִ֔יד הַשֹּׁמְעִ֖ים אֶת־חָכְמָתֶֽךָ׃
+   - BSB: How blessed are your men! How blessed are these servants of yours who stand continually before you and hear your wisdom!
+   - KJV: Happy are thy men, happy are these thy servants, which stand continually before thee, and that hear thy wisdom.
+
+## Numbers (33 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **2:12** Hebrew none; Latin 2, 10
+   - Latin: At Solomo in solio Davidis patris sui consedit, natus annos duodecim, estque ejus regnum probe confirmatum.
+   - 1738: At Solomo in solio Dauidis patris sui consedit, G. natus annos duodecim, H. estque eius regnum probe confirmatum.
+   - WLC: וּשְׁלֹמֹ֕ה יָשַׁ֕ב עַל־כִּסֵּ֖א דָּוִ֣ד אָבִ֑יו וַתִּכֹּ֥ן מַלְכֻת֖וֹ מְאֹֽד׃
+   - BSB: So Solomon sat on the throne of his father David, and his kingdom was firmly established.
+   - KJV: ¶ Then sat Solomon upon the throne of David his father; and his kingdom was established greatly.
+- **5:12** Hebrew 2; Latin none
+   - Latin: estque Solomo a Jova sapientia donatus, ut ei fuerat ab illo promissum: fuitque pax inter Hiramum et Solomonem, intercedente inter eos foedere.
+   - 1738: estque Solomo a Ioua sapientia donatus, vt ei fuerat ab illo promissum: fuitque pax inter Hiramum et Solomonem, intercedente inter eos fœdere.
+   - WLC: וַיהוָ֗ה נָתַ֤ן חָכְמָה֙ לִשְׁלֹמֹ֔ה כַּאֲשֶׁ֖ר דִּבֶּר־ל֑וֹ וַיְהִ֣י שָׁלֹ֗ם בֵּ֤ין חִירָם֙ וּבֵ֣ין שְׁלֹמֹ֔ה וַיִּכְרְת֥וּ בְרִ֖ית שְׁנֵיהֶֽם׃
+   - BSB: And the LORD gave Solomon wisdom, as He had promised him. There was peace between Hiram and Solomon, and the two of them made a treaty.
+   - KJV: And the LORD gave Solomon wisdom, as he promised him: and there was peace between Hiram and Solomon; and they two made a league together.
+- **5:14** Hebrew 2, 10, 1000; Latin 2, 10
+   - Latin: quos in Libanum denos millenos in mensem per vices mittebat: ita ut, quum in Libano singulos menses fuissent, domi binos menses essent. His praeerat Adoniramus.
+   - 1738: quos in Libanum denos millenos in mensem per vices mittebat: ita vt, quum in Libano singulos menses fuissent, domi binos menses essent. His præerat Adoniramus.
+   - WLC: וַיִּשְׁלָחֵ֣ם לְבָנ֗וֹנָה עֲשֶׂ֨רֶת אֲלָפִ֤ים בַּחֹ֙דֶשׁ֙ חֲלִיפ֔וֹת חֹ֚דֶשׁ יִהְי֣וּ בַלְּבָנ֔וֹן שְׁנַ֥יִם חֳדָשִׁ֖ים בְּבֵית֑וֹ וַאֲדֹנִירָ֖ם עַל־הַמַּֽס׃ ס
+   - BSB: He sent them to Lebanon in monthly shifts of 10,000 men, so that they would spend one month in Lebanon and two months at home. And Adoniram was in charge of the forced labor.
+   - KJV: And he sent them to Lebanon, ten thousand a month by courses: a month they were in Lebanon, and two months at home: and Adoniram was over the levy.
+- **6:1** Hebrew 2, 4, 80, 100; Latin 4, 80, 100
+   - Latin: Igitur anno ab exitu Israelitarum ex Aegypto quadringentesimo octogesimo, mense Zif, qui secundus est, anno regni Solomonis quarto, coepit rex Solomo Jovae templum aedificare.
+   - 1738: Igitur anno ab exitu Israelitarum ex Aegypto quadringentesimo octogesimo, mense Zif, qui secundus est, anno regni Solomonis quarto, cœpit rex Solomo Iouæ templum ædificare.
+   - WLC: וַיְהִ֣י בִשְׁמוֹנִ֣ים שָׁנָ֣ה וְאַרְבַּ֣ע מֵא֣וֹת שָׁנָ֡ה לְצֵ֣את בְּנֵֽי־יִשְׂרָאֵ֣ל מֵאֶֽרֶץ־מִצְרַיִם֩ בַּשָּׁנָ֨ה הָרְבִיעִ֜ית בְּחֹ֣דֶשׁ זִ֗ו ה֚וּא הַחֹ֣דֶשׁ הַשֵּׁנִ֔י לִמְלֹ֥ךְ שְׁלֹמֹ֖ה עַל־יִשְׂרָאֵ֑ל וַיִּ֥בֶן הַבַּ֖יִת לַיהוָֽה׃
+   - BSB: In the four hundred and eightieth year after the Israelites had come out of the land of Egypt, in the month of Ziv, the second month of the fourth year of Solomon’s reign over Israel, he began to build the house of the LORD.
+   - KJV: And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomon’s reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.
+- **6:6** Hebrew 3, 5, 6, 7; Latin 3, 6, 7
+   - Latin: Aedicularum infimae quinos cubitos in latitudinem patebant, mediae senos, tertiae septenos. Nam retractiones in templo circumquaque extra fecerat, ne aediculae attingerent templi parietes.
+   - 1738: Aedicularum infimæ quinos cubitos in latitudinem patebant, mediæ senos, tertiæ septenos. Nam retractiones in templo circumquaque extra fecerat, ne ædiculæ attingerent templi parietes.
+   - WLC: היצוע הַתַּחְתֹּנָ֜ה חָמֵ֧שׁ בָּאַמָּ֣ה רָחְבָּ֗הּ וְהַתִּֽיכֹנָה֙ שֵׁ֤שׁ בָּֽאַמָּה֙ רָחְבָּ֔הּ וְהַ֨שְּׁלִישִׁ֔ית שֶׁ֥בַע בָּאַמָּ֖ה רָחְבָּ֑הּ כִּ֡י מִגְרָעוֹת֩ נָתַ֨ן לַבַּ֤יִת סָבִיב֙ ח֔וּצָה לְבִלְתִּ֖י אֲחֹ֥ז בְּקִֽירוֹת־הַבָּֽיִת׃
+   - BSB: The bottom floor was five cubits wide, the middle floor six cubits, and the third floor seven cubits. He also placed offset ledges around the outside of the temple, so that nothing would be inserted into its walls.
+   - KJV: The nethermost chamber was five cubits broad, and the middle was six cubits broad, and the third was seven cubits broad: for without in the wall of the house he made narrowed rests round about, that the beams should not be fastened in the walls of the house.
+- **6:24** Hebrew 2, 5, 10; Latin 10
+   - Latin: Utriusque alae quinos patebant cubitos, ita ut alterius alae extremum ab alterius extremo decem cubitos distaret,
+   - 1738: Vtriusque alæ quinos patebant cubitos, ita vt alterius alæ extremum ab alterius extremo decem cubitos distaret,
+   - WLC: וְחָמֵ֣שׁ אַמּ֗וֹת כְּנַ֤ף הַכְּרוּב֙ הָֽאֶחָ֔ת וְחָמֵ֣שׁ אַמּ֔וֹת כְּנַ֥ף הַכְּר֖וּב הַשֵּׁנִ֑ית עֶ֣שֶׂר אַמּ֔וֹת מִקְצ֥וֹת כְּנָפָ֖יו וְעַד־קְצ֥וֹת כְּנָפָֽיו׃
+   - BSB: One wing of the first cherub was five cubits long, and the other wing was five cubits long as well. So the full wingspan was ten cubits.
+   - KJV: And five cubits was the one wing of the cherub, and five cubits the other wing of the cherub: from the uttermost part of the one wing unto the uttermost part of the other were ten cubits.
+- **6:25** Hebrew 2, 10; Latin none
+   - Latin: eadem utriusque mensura atque modo,
+   - 1738: eadem vtriusque mensura atque modo,
+   - WLC: וְעֶ֙שֶׂר֙ בָּֽאַמָּ֔ה הַכְּר֖וּב הַשֵּׁנִ֑י מִדָּ֥ה אַחַ֛ת וְקֶ֥צֶב אֶחָ֖ד לִשְׁנֵ֥י הַכְּרֻבִֽים׃
+   - BSB: The second cherub also measured ten cubits; both cherubim had the same size and shape,
+   - KJV: And the other cherub was ten cubits: both the cherubims were of one measure and one size.
+- **6:26** Hebrew 2, 10; Latin 10
+   - Latin: utroque in denos adsurgente cubitos.
+   - 1738: vtroque in denos adsurgente cubitos.
+   - WLC: קוֹמַת֙ הַכְּר֣וּב הָֽאֶחָ֔ד עֶ֖שֶׂר בָּֽאַמָּ֑ה וְכֵ֖ן הַכְּר֥וּב הַשֵּׁנִֽי׃
+   - BSB: and the height of each cherub was ten cubits.
+   - KJV: The height of the one cherub was ten cubits, and so was it of the other cherub.
+- **6:31** Hebrew 5; Latin none
+   - Latin: In penetralis introitu cupressinas faciebat fores, quarum postium projectura erat quinaria:
+   - 1738: In penetralis introitu cupressinas faciebat fores, quarum postium proiectura erat quinaria:
+   - WLC: וְאֵת֙ פֶּ֣תַח הַדְּבִ֔יר עָשָׂ֖ה דַּלְת֣וֹת עֲצֵי־שָׁ֑מֶן הָאַ֥יִל מְזוּז֖וֹת חֲמִשִֽׁית׃
+   - BSB: For the entrance to the inner sanctuary, Solomon constructed doors of olive wood with five-sided doorposts.
+   - KJV: ¶ And for the entering of the oracle he made doors of olive tree: the lintel and side posts were a fifth part of the wall.
+- **6:32** Hebrew 2; Latin none
+   - Latin: quas fores cherubis et palmis, et patulis floribus caelabat, auroque integebat, et ipsos cherubos atque palmas inducebat auro.
+   - 1738: quas fores cherubis et palmis, et patulis floribus cælabat, auroque integebat, et ipsos cherubos atque palmas inducebat auro.
+   - WLC: וּשְׁתֵּי֮ דַּלְת֣וֹת עֲצֵי־שֶׁמֶן֒ וְקָלַ֣ע עֲ֠לֵיהֶם מִקְלְע֨וֹת כְּרוּבִ֧ים וְתִמֹר֛וֹת וּפְטוּרֵ֥י צִצִּ֖ים וְצִפָּ֣ה זָהָ֑ב וַיָּ֛רֶד עַל־הַכְּרוּבִ֥ים וְעַל־הַתִּֽמֹר֖וֹת אֶת־הַזָּהָֽב׃
+   - BSB: The double doors were made of olive wood, and he carved into them cherubim, palm trees, and open flowers and overlaid the cherubim and palm trees with hammered gold.
+   - KJV: The two doors also were of olive tree; and he carved upon them carvings of cherubims and palm trees and open flowers, and overlaid them with gold, and spread gold upon the cherubims, and upon the palm trees.
+- **7:2** Hebrew 4, 30, 50, 100; Latin 30, 50, 100
+   - Latin: nemorensem Libani domum construxit in longitudinem centum cubitorum, in latitudinem quinquaginta, in altitudinem triginta, impositam quatuor ordinibus cedrinarum columnarum, quibus columnis cedrina transtra incumbebant,
+   - 1738: nemorensem Libani domum construxit in longitudinem centum cubitorum, in latitudinem quinquaginta, in altitudinem triginta, impositam quatuor ordinibus cedrinarum columnarum, quibus columnis cedrina transtra incumbebant,
+   - WLC: וַיִּ֜בֶן אֶת־בֵּ֣ית ׀ יַ֣עַר הַלְּבָנ֗וֹן מֵאָ֨ה אַמָּ֤ה אָרְכּוֹ֙ וַחֲמִשִּׁ֤ים אַמָּה֙ רָחְבּ֔וֹ וּשְׁלֹשִׁ֥ים אַמָּ֖ה קוֹמָת֑וֹ עַ֗ל אַרְבָּעָה֙ טוּרֵי֙ עַמּוּדֵ֣י אֲרָזִ֔ים וּכְרֻת֥וֹת אֲרָזִ֖ים עַל־הָעַמּוּדִֽים׃
+   - BSB: He built the House of the Forest of Lebanon a hundred cubits long, fifty cubits wide, and thirty cubits high, with four rows of cedar pillars supporting the cedar beams.
+   - KJV: ¶ He built also the house of the forest of Lebanon; the length thereof was an hundred cubits, and the breadth thereof fifty cubits, and the height thereof thirty cubits, upon four rows of cedar pillars, with cedar beams upon the pillars.
+- **7:16** Hebrew 2, 5; Latin 2
+   - Latin: Tum duo capitula faciebat, columnarum capitibus imponenda, ex aere conflata, alta quinos cubitos,
+   - 1738: Tum duo capitula faciebat, columnarum capitibus imponenda, ex ære conflata, alta quinos cubitos,
+   - WLC: וּשְׁתֵּ֨י כֹתָרֹ֜ת עָשָׂ֗ה לָתֵ֛ת עַל־רָאשֵׁ֥י הָֽעַמּוּדִ֖ים מֻצַ֣ק נְחֹ֑שֶׁת חָמֵ֣שׁ אַמּ֗וֹת קוֹמַת֙ הַכֹּתֶ֣רֶת הָאֶחָ֔ת וְחָמֵ֣שׁ אַמּ֔וֹת קוֹמַ֖ת הַכֹּתֶ֥רֶת הַשֵּׁנִֽית׃
+   - BSB: He also made two capitals of cast bronze to set on top of the pillars, each capital five cubits high.
+   - KJV: And he made two chapiters of molten brass, to set upon the tops of the pillars: the height of the one chapiter was five cubits, and the height of the other chapiter was five cubits:
+- **7:17** Hebrew 2, 7; Latin 7
+   - Latin: quae capitula columnarum capitibus imposita, singula septenas plagas habebant, opere perplexo, filorum opere catenato.
+   - 1738: quæ capitula columnarum capitibus imposita, singula septenas plagas habebant, opere perplexo, filorum opere catenato.
+   - WLC: שְׂבָכִ֞ים מַעֲשֵׂ֣ה שְׂבָכָ֗ה גְּדִלִים֙ מַעֲשֵׂ֣ה שַׁרְשְׁר֔וֹת לַכֹּ֣תָרֹ֔ת אֲשֶׁ֖ר עַל־רֹ֣אשׁ הָעַמּוּדִ֑ים שִׁבְעָה֙ לַכֹּתֶ֣רֶת הָאֶחָ֔ת וְשִׁבְעָ֖ה לַכֹּתֶ֥רֶת הַשֵּׁנִֽית׃
+   - BSB: For the capitals on top of the pillars he made a network of lattice, with wreaths of chainwork, seven for each capital.
+   - KJV: And nets of checker work, and wreaths of chain work, for the chapiters which were upon the top of the pillars; seven for the one chapiter, and seven for the other chapiter.
+- **7:23** Hebrew 2, 5, 10, 30; Latin 5, 10, 30
+   - Latin: lacum fusilem faciebat, rotundum undique, cujus labra decem inter se cubitos distabant, altitudo erat quinque cubitorum, ambitus triginta.
+   - 1738: lacum fusilem faciebat, rotundum vndique, cuius labra decem inter se cubitos distabant, altitudo erat quinque cubitorum, ambitus triginta.
+   - WLC: וַיַּ֥עַשׂ אֶת־הַיָּ֖ם מוּצָ֑ק עֶ֣שֶׂר בָּ֠אַמָּה מִשְּׂפָת֨וֹ עַד־שְׂפָת֜וֹ עָגֹ֣ל ׀ סָבִ֗יב וְחָמֵ֤שׁ בָּֽאַמָּה֙ קוֹמָת֔וֹ וקוה שְׁלֹשִׁ֣ים בָּֽאַמָּ֔ה יָסֹ֥ב אֹת֖וֹ סָבִֽיב׃
+   - BSB: He also made the Sea of cast metal. It was circular in shape, measuring ten cubits from rim to rim, five cubits in height, and thirty cubits in circumference.
+   - KJV: ¶ And he made a molten sea, ten cubits from the one brim to the other: it was round all about, and his height was five cubits: and a line of thirty cubits did compass it round about.
+- **7:26** Hebrew 1000; Latin 2, 1000
+   - Latin: Crassitudo erat palmaris: labrum, quale labrorum in poculis opus est, rosis floridum, capacitate duorum millium batorum.
+   - 1738: Crassitudo erat palmaris: labrum, quale labrorum in poculis opus est, rosis floridum, capacitate duorum millium batorum.
+   - WLC: וְעָבְי֣וֹ טֶ֔פַח וּשְׂפָת֛וֹ כְּמַעֲשֵׂ֥ה שְׂפַת־כּ֖וֹס פֶּ֣רַח שׁוֹשָׁ֑ן אַלְפַּ֥יִם בַּ֖ת יָכִֽיל׃ פ
+   - BSB: It was a handbreadth thick, and its rim was fashioned like the brim of a cup, like a lily blossom. It could hold two thousand baths.
+   - KJV: And it was an hand breadth thick, and the brim thereof was wrought like the brim of a cup, with flowers of lilies: it contained two thousand baths.
+- **7:30** Hebrew 4; Latin none
+   - Latin: Habebant autem singulae bases quatuor aeneas rotas, aeneosque asseres, et in quatuor angulis humeros subter lavacrum conflatos, omnes contra toros.
+   - 1738: Habebant autem singulæ bases quatuor æneas rotas, æneosque asseres, et in quatuor angulis humeros subter lauacrum conflatos, omnes contra toros.
+   - WLC: וְאַרְבָּעָה֩ אוֹפַנֵּ֨י נְחֹ֜שֶׁת לַמְּכוֹנָ֤ה הָֽאַחַת֙ וְסַרְנֵ֣י נְחֹ֔שֶׁת וְאַרְבָּעָ֥ה פַעֲמֹתָ֖יו כְּתֵפֹ֣ת לָהֶ֑ם מִתַּ֤חַת לַכִּיֹּר֙ הַכְּתֵפֹ֣ת יְצֻק֔וֹת מֵעֵ֥בֶר אִ֖ישׁ לֹיֽוֹת׃
+   - BSB: Each stand had four bronze wheels with bronze axles and a basin resting on four supports, with wreaths at each side.
+   - KJV: And every base had four brasen wheels, and plates of brass: and the four corners thereof had undersetters: under the laver were undersetters molten, at the side of every addition.
+- **7:32** Hebrew 4; Latin none
+   - Latin: Areolis suberant quatuor rotae, quarum axes in basibus inerant. Rotae erant altitudine sesquicubitali,
+   - 1738: Areolis suberant quatuor rotæ, quarum axes in basibus inerant. Rotæ erant altitudine sesquicubitali,
+   - WLC: וְאַרְבַּ֣עַת הָאֽוֹפַנִּ֗ים לְמִתַּ֙חַת֙ לַֽמִּסְגְּר֔וֹת וִיד֥וֹת הָאֽוֹפַנִּ֖ים בַּמְּכוֹנָ֑ה וְקוֹמַת֙ הָאוֹפַ֣ן הָאֶחָ֔ד אַמָּ֖ה וַחֲצִ֥י הָאַמָּֽה׃
+   - BSB: There were four wheels under the panels, and the axles of the wheels were attached to the stand; each wheel was a cubit and a half in diameter.
+   - KJV: And under the borders were four wheels; and the axletrees of the wheels were joined to the base: and the height of a wheel was a cubit and half a cubit.
+- **7:34** Hebrew 4; Latin none
+   - Latin: Quatuor autem humeri, qui in quatuor pinnis uniuscujusque basis erant, ex ipsa erant basi.
+   - 1738: Quatuor autem humeri, qui in quatuor pinnis vniuscuiusque basis erant, ex ipsa erant basi.
+   - WLC: וְאַרְבַּ֣ע כְּתֵפ֔וֹת אֶ֚ל אַרְבַּ֣ע פִּנּ֔וֹת הַמְּכֹנָ֖ה הָֽאֶחָ֑ת מִן־הַמְּכֹנָ֖ה כְּתֵפֶֽיהָ׃
+   - BSB: Each stand had four handles, one for each corner, projecting from the stand.
+   - KJV: And there were four undersetters to the four corners of one base: and the undersetters were of the very base itself.
+- **8:65** Hebrew 4, 7, 10; Latin 2, 7
+   - Latin: Atque eo tempore Solomo una cum omnibus Israelitis (quorum ingens copia ab usque Hemathae confinio, ad fluvium Aegypti aderat) festum egit apud Jovam Deum nostrum, bis septem dies, id est, quatuordecim.
+   - 1738: Atque eo tempore Solomo vna cum omnibus Israelitis (quorum ingens copia ab vsque Hemathæ confinio, ad fluuium Aegypti aderat) festum egit apud Iouam Deum nostrum, bis septem dies, id est, quatuordecim.
+   - WLC: וַיַּ֣עַשׂ שְׁלֹמֹ֣ה בָֽעֵת־הַהִ֣יא ׀ אֶת־הֶחָ֡ג וְכָל־יִשְׂרָאֵ֣ל עִמּוֹ֩ קָהָ֨ל גָּד֜וֹל מִלְּב֥וֹא חֲמָ֣ת ׀ עַד־נַ֣חַל מִצְרַ֗יִם לִפְנֵי֙ יְהוָ֣ה אֱלֹהֵ֔ינוּ שִׁבְעַ֥ת יָמִ֖ים וְשִׁבְעַ֣ת יָמִ֑ים אַרְבָּעָ֥ה עָשָׂ֖ר יֽוֹם׃
+   - BSB: So at that time Solomon and all Israel with him—a great assembly of people from Lebo-hamath to the Brook of Egypt—kept the feast before the LORD our God for seven days and seven more days—fourteen days in all.
+   - KJV: And at that time Solomon held a feast, and all Israel with him, a great congregation, from the entering in of Hamath unto the river of Egypt, before the LORD our God, seven days and seven days, even fourteen days.
+- **9:2** Hebrew 2; Latin none
+   - Latin: Jova ei iterum adparuit, ut apud Gabaonem adparuerat, itaque locutus est:
+   - 1738: Ioua ei iterum adparuit, vt apud Gabaonem adparuerat, itaque locutus est:
+   - WLC: וַיֵּרָ֧א יְהוָ֛ה אֶל־שְׁלֹמֹ֖ה שֵׁנִ֑ית כַּאֲשֶׁ֛ר נִרְאָ֥ה אֵלָ֖יו בְּגִבְעֽוֹן׃
+   - BSB: the LORD appeared to him a second time, as He had appeared to him at Gibeon.
+   - KJV: That the LORD appeared to Solomon the second time, as he had appeared unto him at Gibeon.
+- **10:17** Hebrew 3, 100; Latin 3
+   - Latin: trecentosque clipeos etiam auro ductili, in quos singulos trinae auri minae impensae sunt. Atque haec in nemorensi Libani domo reposuit.
+   - 1738: trecentosque clipeos etiam auro ductili, in quos singulos trinæ auri minæ impensæ sunt. Atque hæc in nemorensi Libani domo reposuit.
+   - WLC: וּשְׁלֹשׁ־מֵא֤וֹת מָֽגִנִּים֙ זָהָ֣ב שָׁח֔וּט שְׁלֹ֤שֶׁת מָנִים֙ זָהָ֔ב יַעֲלֶ֖ה עַל־הַמָּגֵ֣ן הָאֶחָ֑ת וַיִּתְּנֵ֣ם הַמֶּ֔לֶךְ בֵּ֖ית יַ֥עַר הַלְּבָנֽוֹן׃ פ
+   - BSB: He also made three hundred small shields of hammered gold; three minas of gold went into each shield. And the king put them in the House of the Forest of Lebanon.
+   - KJV: And he made three hundred shields of beaten gold; three pound of gold went to one shield: and the king put them in the house of the forest of Lebanon.
+- **12:32** Hebrew 5, 8, 10; Latin 8
+   - Latin: Itemque festum celebravit octavo mense, die mensis decimoquinto: cujusmodi festum in Judaea fieri solebat, et victimas ad aram immolavit: idque Bethele fecit ad aram vitulorum, quos fecerat: ibique sacerdotes sacellanos, a se factos, collocavit.
+   - 1738: Itemque festum celebrauit octauo mense, die mensis decimoquinto: cuiusmodi festum in Iudæa fieri solebat, et victimas ad aram immolauit: idque Bethele fecit ad aram vitulorum, quos fecerat: ibique sacerdotes sacellanos, a se factos, collocauit.
+   - WLC: וַיַּ֣עַשׂ יָרָבְעָ֣ם ׀ חָ֡ג בַּחֹ֣דֶשׁ הַשְּׁמִינִ֣י בַּחֲמִשָּֽׁה־עָשָׂר֩ י֨וֹם ׀ לַחֹ֜דֶשׁ כֶּחָ֣ג ׀ אֲשֶׁ֣ר בִּיהוּדָ֗ה וַיַּ֙עַל֙ עַל־הַמִּזְבֵּ֔חַ כֵּ֤ן עָשָׂה֙ בְּבֵֽית־אֵ֔ל לְזַבֵּ֖חַ לָעֲגָלִ֣ים אֲשֶׁר־עָשָׂ֑ה וְהֶעֱמִיד֙ בְּבֵ֣ית אֵ֔ל אֶת־כֹּהֲנֵ֥י הַבָּמ֖וֹת אֲשֶׁ֥ר עָשָֽׂה׃
+   - BSB: And Jeroboam ordained a feast on the fifteenth day of the eighth month, like the feast that was in Judah, and he offered sacrifices on the altar; he made this offering in Bethel to sacrifice to the calves he had set up, and he installed priests in Bethel for the high places he had set up.
+   - KJV: And Jeroboam ordained a feast in the eighth month, on the fifteenth day of the month, like unto the feast that is in Judah, and he offered upon the altar. So did he in Beth-el, sacrificing unto the calves that he had made: and he placed in Beth-el the priests of the high places which he had made.
+- **12:33** Hebrew 5, 8, 10; Latin 8
+   - Latin: Quum autem ad aram, quam Bethele fecerat, accessisset die decimaquinta mensis octavi (quem mensem ad suam libidinem commentus erat) festumque Israelitis ageret, et ad aram adolendi caussa adscendisset:
+   - 1738: Quum autem ad aram, quam Bethele fecerat, accessisset die decimaquinta mensis octaui (quem mensem ad suam libidinem commentus erat) festumque Israelitis ageret, et ad aram adolendi caussa adscendisset:
+   - WLC: וַיַּ֜עַל עַֽל־הַמִּזְבֵּ֣חַ ׀ אֲשֶׁר־עָשָׂ֣ה בְּבֵֽית־אֵ֗ל בַּחֲמִשָּׁ֨ה עָשָׂ֥ר יוֹם֙ בַּחֹ֣דֶשׁ הַשְּׁמִינִ֔י בַּחֹ֖דֶשׁ אֲשֶׁר־בָּדָ֣א מלבד וַיַּ֤עַשׂ חָג֙ לִבְנֵ֣י יִשְׂרָאֵ֔ל וַיַּ֥עַל עַל־הַמִּזְבֵּ֖חַ לְהַקְטִֽיר׃ פ
+   - BSB: On the fifteenth day of the eighth month, a month of his own choosing, Jeroboam offered sacrifices on the altar he had set up in Bethel. So he ordained a feast for the Israelites, offered sacrifices on the altar, and burned incense.
+   - KJV: So he offered upon the altar which he had made in Beth-el the fifteenth day of the eighth month, even in the month which he had devised of his own heart; and ordained a feast unto the children of Israel: and he offered upon the altar, and burnt incense.
+- **15:1** Hebrew 8, 10; Latin none
+   - Latin: qui anno duodevicesimo regni Jeroboami, Nabati filii, regnare in Judaea coepit.
+   - 1738: qui anno duodevicesimo regni Ieroboami, Nabati filii, regnare in Iudæa cœpit.
+   - WLC: וּבִשְׁנַת֙ שְׁמֹנֶ֣ה עֶשְׂרֵ֔ה לַמֶּ֖לֶךְ יָרָבְעָ֣ם בֶּן־נְבָ֑ט מָלַ֥ךְ אֲבִיָּ֖ם עַל־יְהוּדָֽה׃
+   - BSB: In the eighteenth year of the reign of Jeroboam son of Nebat, Abijam became king of Judah,
+   - KJV: Now in the eighteenth year of king Jeroboam the son of Nebat reigned Abijam over Judah.
+- **15:33** Hebrew 3, 4, 20; Latin 3, 20
+   - Latin: Anno tertio Asae Judaeae regis coepit Baasa, Ahiae filius, regnare in omnes Israelitas, regnavitque Thersae viginti quatuor annos,
+   - 1738: Anno tertio Asæ Iudææ regis cœpit Baasa, Ahiæ filius, regnare in omnes Israelitas, regnauitque Thersæ viginti quatuor annos,
+   - WLC: בִּשְׁנַ֣ת שָׁלֹ֔שׁ לְאָסָ֖א מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַךְ בַּעְשָׁ֨א בֶן־אֲחִיָּ֤ה עַל־כָּל־יִשְׂרָאֵל֙ בְּתִרְצָ֔ה עֶשְׂרִ֥ים וְאַרְבַּ֖ע שָׁנָֽה׃
+   - BSB: In the third year of Asa’s reign over Judah, Baasha son of Ahijah became king of all Israel, and he reigned in Tirzah twenty-four years.
+   - KJV: In the third year of Asa king of Judah began Baasha the son of Ahijah to reign over all Israel in Tirzah, twenty and four years.
+- **16:21** Hebrew none; Latin 2
+   - Latin: Tunc divisus est Israelitarum populus in partes duas, quarum una Thebnim Ginethi filium sequebatur, ut eum regem faceret: altera Ambrim.
+   - 1738: Tunc diuisus est Israelitarum populus in partes duas, quarum vna Thebnim Ginethi filium sequebatur, vt eum regem faceret: altera Ambrim.
+   - WLC: אָ֧ז יֵחָלֵ֛ק הָעָ֥ם יִשְׂרָאֵ֖ל לַחֵ֑צִי חֲצִ֨י הָעָ֜ם הָ֠יָה אַחֲרֵ֨י תִבְנִ֤י בֶן־גִּינַת֙ לְהַמְלִיכ֔וֹ וְהַחֲצִ֖י אַחֲרֵ֥י עָמְרִֽי׃
+   - BSB: At that time the people of Israel were divided: Half of the people supported Tibni son of Ginath as king, and half supported Omri.
+   - KJV: ¶ Then were the people of Israel divided into two parts: half of the people followed Tibni the son of Ginath, to make him king; and half followed Omri.
+- **16:24** Hebrew none; Latin 2
+   - Latin: emit Samariam montem a Semere, duobus argenti talentis, eumque montem exstructa urbe occupavit, et eam urbem a Semere montis domino Samariam denominavit.
+   - 1738: emit Samariam montem a Semere, duobus argenti talentis, eumque montem exstructa vrbe occupauit, et eam vrbem a Semere montis domino Samariam denominauit.
+   - WLC: וַיִּ֜קֶן אֶת־הָהָ֥ר שֹׁמְר֛וֹן מֵ֥אֶת שֶׁ֖מֶר בְּכִכְּרַ֣יִם כָּ֑סֶף וַיִּ֙בֶן֙ אֶת־הָהָ֔ר וַיִּקְרָ֗א אֶת־שֵׁ֤ם הָעִיר֙ אֲשֶׁ֣ר בָּנָ֔ה עַ֣ל שֶׁם־שֶׁ֔מֶר אֲדֹנֵ֖י הָהָ֥ר שֹׁמְרֽוֹן׃
+   - BSB: He bought the hill of Samaria from Shemer for two talents of silver and built a city there, calling it Samaria after the name of Shemer, who had owned the hill.
+   - KJV: And he bought the hill Samaria of Shemer for two talents of silver, and built on the hill, and called the name of the city which he built, after the name of Shemer, owner of the hill, Samaria.
+- **16:29** Hebrew 2, 8, 20, 30; Latin 2, 20
+   - Latin: quod regnum iniit anno Asae Judaeae regis duodequadragesimo: regnavit Samariae annos duos et viginti.
+   - 1738: quod regnum iniit anno Asæ Iudææ regis duodequadragesimo: regnauit Samariæ annos duos et viginti.
+   - WLC: וְאַחְאָ֣ב בֶּן־עָמְרִ֗י מָלַךְ֙ עַל־יִשְׂרָאֵ֔ל בִּשְׁנַ֨ת שְׁלֹשִׁ֤ים וּשְׁמֹנֶה֙ שָׁנָ֔ה לְאָסָ֖א מֶ֣לֶךְ יְהוּדָ֑ה וַ֠יִּמְלֹךְ אַחְאָ֨ב בֶּן־עָמְרִ֤י עַל־יִשְׂרָאֵל֙ בְּשֹׁ֣מְר֔וֹן עֶשְׂרִ֥ים וּשְׁתַּ֖יִם שָׁנָֽה׃
+   - BSB: In the thirty-eighth year of Asa’s reign over Judah, Ahab son of Omri became king of Israel, and he reigned in Samaria twenty-two years.
+   - KJV: ¶ And in the thirty and eighth year of Asa king of Judah began Ahab the son of Omri to reign over Israel: and Ahab the son of Omri reigned over Israel in Samaria twenty and two years.
+- **18:32** Hebrew none; Latin 2
+   - Latin: Ex his saxis aram Jovae nomine construit, et circum eam scrobem ducit, quae circiter duo sata seminis caperet:
+   - 1738: Ex his saxis aram Iouæ nomine construit, et circum eam scrobem ducit, quæ circiter duo sata seminis caperet:
+   - WLC: וַיִּבְנֶ֧ה אֶת־הָאֲבָנִ֛ים מִזְבֵּ֖חַ בְּשֵׁ֣ם יְהוָ֑ה וַיַּ֣עַשׂ תְּעָלָ֗ה כְּבֵית֙ סָאתַ֣יִם זֶ֔רַע סָבִ֖יב לַמִּזְבֵּֽחַ׃
+   - BSB: And with the stones, Elijah built an altar in the name of the LORD. Then he dug a trench around the altar large enough to hold two seahs of seed.
+   - KJV: And with the stones he built an altar in the name of the LORD: and he made a trench about the altar, as great as would contain two measures of seed.
+- **18:33** Hebrew 4; Latin none
+   - Latin: compositaque strue, dissectum taurum superimponit. Deinde jubet quatuor amphoras aqua repletas in hostiam, inque struem effundi,
+   - 1738: compositaque strue, dissectum taurum superimponit. Deinde iubet quatuor amphoras aqua repletas in hostiam, inque struem effundi,
+   - WLC: וַֽיַּעֲרֹ֖ךְ אֶת־הָֽעֵצִ֑ים וַיְנַתַּח֙ אֶת־הַפָּ֔ר וַיָּ֖שֶׂם עַל־הָעֵצִֽים ׃ וַיֹּ֗אמֶר מִלְא֨וּ אַרְבָּעָ֤ה כַדִּים֙ מַ֔יִם וְיִֽצְק֥וּ עַל־הָעֹלָ֖ה וְעַל־הָעֵצִ֑ים וַיֹּ֤אמֶר שְׁנוּ֙ וַיִּשְׁנ֔וּ וַיֹּ֥אמֶר שַׁלֵּ֖שׁוּ וַיְשַׁלֵּֽשׁוּ׃
+   - BSB: Next, he arranged the wood, cut up the bull, placed it on the wood,
+   - KJV: And he put the wood in order, and cut the bullock in pieces, and laid him on the wood, and said, Fill four barrels with water, and pour it on the burnt sacrifice, and on the wood.
+- **19:7** Hebrew 2; Latin none
+   - Latin: Iterumque eum tangens Jovae angelus, surge, inquit, cape cibum: nam multum tibi restat itineris.
+   - 1738: Iterumque eum tangens Iouæ angelus, surge, inquit, cape cibum: nam multum tibi restat itineris.
+   - WLC: וַיָּשָׁב֩ מַלְאַ֨ךְ יְהוָ֤ה ׀ שֵׁנִית֙ וַיִּגַּע־בּ֔וֹ וַיֹּ֖אמֶר ק֣וּם אֱכֹ֑ל כִּ֛י רַ֥ב מִמְּךָ֖ הַדָּֽרֶךְ׃
+   - BSB: A second time the angel of the LORD returned and touched him, saying, “Get up and eat, or the journey will be too much for you.”
+   - KJV: And the angel of the LORD came again the second time, and touched him, and said, Arise and eat; because the journey is too great for thee.
+- **22:48** Hebrew 10; Latin none
+   - Latin: Fecit Josaphatus naves Cilicas, quae ex Ophire aurum peterent. Quod quum parum successisset, facto apud Asiongabre naufragio:
+   - 1738: Fecit Iosaphatus naues Cilicas, quæ ex Ophire aurum peterent. Quod quum parum successisset, facto apud Asiongaber naufragio:
+   - WLC: יְהוֹשָׁפָ֡ט עשר אֳנִיּ֨וֹת תַּרְשִׁ֜ישׁ לָלֶ֧כֶת אוֹפִ֛ירָה לַזָּהָ֖ב וְלֹ֣א הָלָ֑ךְ כִּֽי־נשברה אֳנִיּ֖וֹת בְּעֶצְי֥וֹן גָּֽבֶר׃
+   - BSB: Jehoshaphat built ships of Tarshish to go to Ophir for gold, but they never set sail, because they were wrecked at Ezion-geber.
+   - KJV: Jehoshaphat made ships of Tharshish to go to Ophir for gold: but they went not; for the ships were broken at Ezion-geber.
+- **22:51** Hebrew 7, 10; Latin 2, 7, 10
+   - Latin: Ochozias Achabi filius Israelitarum regnum apud Samariam iniit anno decimo septimo Josaphati Judaeae regis. Regnavit in Israelitas annos duos,
+   - 1738: Ochozias Achabi filius Israelitarum regnum apud Samariam iniit anno decimo septimo Iosaphati Iudææ regis. Regnauit in Israelitas annos duos,
+   - WLC: אֲחַזְיָ֣הוּ בֶן־אַחְאָ֗ב מָלַ֤ךְ עַל־יִשְׂרָאֵל֙ בְּשֹׁ֣מְר֔וֹן בִּשְׁנַת֙ שְׁבַ֣ע עֶשְׂרֵ֔ה לִיהוֹשָׁפָ֖ט מֶ֣לֶךְ יְהוּדָ֑ה וַיִּמְלֹ֥ךְ עַל־יִשְׂרָאֵ֖ל שְׁנָתָֽיִם׃
+   - BSB: In the seventeenth year of Jehoshaphat’s reign over Judah, Ahaziah son of Ahab became king of Israel, and he reigned in Samaria two years.
+   - KJV: ¶ Ahaziah the son of Ahab began to reign over Israel in Samaria the seventeenth year of Jehoshaphat king of Judah, and reigned two years over Israel.
+
+## Short (1 verses)
+
+Latin words against Hebrew words, below 0.5 of the book's median ratio.
+
+- **6:25** 5 Latin words, 10 Hebrew
+   - Latin: eadem utriusque mensura atque modo,
+   - 1738: eadem vtriusque mensura atque modo,
+   - WLC: וְעֶ֙שֶׂר֙ בָּֽאַמָּ֔ה הַכְּר֖וּב הַשֵּׁנִ֑י מִדָּ֥ה אַחַ֛ת וְקֶ֥צֶב אֶחָ֖ד לִשְׁנֵ֥י הַכְּרֻבִֽים׃
+   - BSB: The second cherub also measured ten cubits; both cherubim had the same size and shape,
+   - KJV: And the other cherub was ten cubits: both the cherubims were of one measure and one size.
