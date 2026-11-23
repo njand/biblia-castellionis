@@ -2,15 +2,21 @@
 
 ## Now
 
+- **Five spellings for the whole edition** (2026-11-22, decision 86; `data/review/spelling-2026-11-22.md`): ***adsistō*,
+  *adsector*/*adsectātor* and *adstruō* keep *ad-*** on the classical corpus evidence (*adsist-* 203 hits, 89 in tiers
+  1–3, against *assist-* 179, mostly medieval; *adsect-* 24, Cicero 10, against *assect-* 18, none classical; *adstru-*
+  68 against the verb *astru-*'s 99 once 41 *astrum* hits are taken out, the classical and silver authors 23 : 9).
+  Two assimilating rows rejected, stem rules added (*assist- → adsist-*, *assect- → adsect-*, *astrua-/-e-/-i-/-o-/-x-/
+  -ct- → adstru…*, never *astru-* alone). ***commīnctōrem*** (long ī before *-nct-*, Gaffiot *commīnctus*), ***cæcūtiēns***
+  (Gaffiot *cæcūtiō*), ***Adarezerō*** (second declension). Ten settled words: Exod 18:14 *adsistit*, Acts 23:4
+  *adsistentēs*, Luke 21:8 *adsectārī*, 1 Kgs 1:2 *adsectātōrēs*, 14:10 and 21:21 *commīnctōrem*, 2 Pet 1:9
+  *cæcūtiēns*, 2 Sam 8:5, 8:10 (twice), 10:16 *Adarezerō*. Gold rebuilt; tests pass. Not committed.
 - **1 Kings 1–22 settled for now, with three notes** (2026-11-22, your "Approve all as recommended").
   `data/review/1kgs1-22-edition.md`: `text/1KI.usfm` from the 816 items, titled *Rēgum / Liber Prior*; notes 2:12
   (*nātus annōs duodecim*, from the Greek), 2:28 (*Solomōnem*, Hebrew Absalom), 22:30 (Ahab's clothes); 3:7 *necdum*
   restored from 1554 (draft fixes §6); 15:6 keeps *Ābīamum*. Printed text: the title *Regum / Liber Prior*; rebuilt
   from the read lines, it matches word for word. The drafts are gone; the ledger says settled. Not committed.
-  **Still open from point 8** (left as the text has them; answer when you like): *adsistat* 19:11 (and the settled
-  Numbers 1:4, 23:3) or *assistat*; *assectātōrēs* 1:2 or *adsect-*; *adstruēbat* or *astruēbat*; *comminctōrem* or
-  *commīnctōrem* (14:10, 21:21); whether the settled 2 Sam *Adarezero* and 2 Pet 1:9 *cæcutiēns* take 1 Kings'
-  *Adarezerō*, *cæcūtientis* marks.
+  Point 8's questions decided after settling (decision 86 below).
 - **1 Kings 1–22 transcribed, its printed text approved for now** (2026-11-22, your "Approve for now", after "Check
   the paragraphs": moved to `text/orig/1KI.usfm`; begun on your "Start transcribing the next book"). `data/review/1kgs1-22-transcription.md`: `text/orig/draft/1KI.usfm`, 816 verses on the KJV's numbering,
   read on 1738's leaves 385–429 by fifteen readers; 196 versification edits (three chapter breaks moved: 2/3, 12/13,
@@ -994,6 +1000,7 @@
 | 83 | 2026-11-19 | ***Cālēbus*** (Nathan: "Yes, Cālēbus"): Caleb takes the Hebrew's two long vowels (כָּלֵב qamets, tsere), as decision 82 lets the Hebrew decide where the Greek (Χάλεβ) has no long letter; Gaffiot has no entry. Replaces Numbers' short *Calebus* (Wiktionary's bare *Caleb*). Applied to the settled Num 13:6, 13:30, 14:6, 14:24, 14:30, 14:38, 26:65, 32:12, 34:19 and Deut 1:35 (`data/review/caleb-long.md`), gold rebuilt; the forms rows of Numbers and Joshua with them. The printed texts keep *Calebus*. |
 | 84 | 2026-11-19 | **Joshua 1–24 settled, approved for now** (Nathan: "Approve and settle Joshua"), after "Yes, add the 14", "Accept recommendations for 2 and 5", "Apply all seven", "Yes, Cālēbus" and "Yes, Taphūa": `text/JOS.usfm`, 1738 read line by line on the page (Wikisource's Joshua not 1738's text, a witness only), checked against 1750 and, where they differ, 1573; versified to the KJV (43 edits, 4:15–17 a verse range); 7:12–13 *sacrilegum* from 1573; one form per person and place, the Hebrew's vowels deciding where the Greek has no long letter behind it (decision 82); 14 spelling rules researched and approved, six rejected (decision 81). The printed text (1738) approved for now the same day (Nathan: "Approve it for now"; `text/orig/JOS.usfm`, `data/review/josh-orig.md`), its paragraphs not yet checked on the page. |
 | 85 | 2026-11-19 | **A new book in three phases, each page read once** (Nathan: "Yes, rewrite it", on Claude's review of the process): 1. *Transcribe*, 1738's lines voted (OCR, 1750, 1726, Wikisource as one voter) and read on the page once, with paragraphs, footnotes and Castellio's marks, then versified; gate, the printed text approved. 2. *Edit and annotate*, `propose` and the notes search side by side, then a proofread; gate, the book settled with its notes. 3. *Build and check*. For the Old Testament books still to do, Wikisource or not, and the Apocrypha; Joshua went through phase 1 this way already (decision 68's route). PLAN.md §4 and CLAUDE.md rewritten. Its two tools built the same day (your "Yes, build them"): Wikisource as a voter in `ocrdraft.make_lines`, with a doubts list, and the `pipeline lines` command. |
+| 86 | 2026-11-22 | ***adsistō*, *adsector*, *adstruō* keep *ad-*; *commīnctor*, *cæcūtiō*, *Adarezerō*** (Nathan: "let's add adsisto to the exceptions, and fix it where it was already applied differently", "Enforce adsectat-", leaning to *adstruō* as Gaffiot heads it once *astrum* left the count, "Yes, fix the settled ones"): narrows decision 37 as decision 81 did; stem rules respell assimilated forms back; ten settled words respelled (`data/review/spelling-2026-11-22.md`). |
 
 ## How to run
 

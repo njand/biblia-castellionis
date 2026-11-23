@@ -5,8 +5,8 @@ now (`1kgs1-22-transcription.md`). Gate 2: the book settled with its notes → `
 
 **Decision:** approve all as recommended (Nathan, 2026-11-22: "Approve all as recommended"). Settled for now with the
 three notes of point 2; 3:7 *necdum* restored (draft fixes §6), 15:6 *Ābīamum* kept; the title of point 5; points 3, 6,
-7 and 9 as proposed. Point 8's questions carry no recommendation and stay open (`HUMAN.md`), the text left as the
-preview has it. Done 2026-11-22: `text/1KI.usfm` from the 816 items (all `ok`), the notes applied, gold rebuilt, the
+7 and 9 as proposed. Point 8's questions carried no recommendation; Nathan decided them after settling
+(`spelling-2026-11-22.md`, decision 86: *adsistat*, *adsectātōrēs*, *adstruēbat*, *commīnctōrem* in 1 Kings). Done 2026-11-22: `text/1KI.usfm` from the 816 items (all `ok`), the notes applied, gold rebuilt, the
 ledger settled, the draft and preview removed; the printed text titled and rebuilt from the read lines (matching word
 for word), its draft removed.
 
