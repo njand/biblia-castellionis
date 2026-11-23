@@ -550,6 +550,53 @@ Read on the page images by two notes readers (`data/review/1kgs1-22-phase2/notes
   Greek) against the Hebrew's "your robes": telling Jehoshaphat to wear his own clothes is pointless, he argues, and the
   charioteers' mistaking him for Ahab needs Ahab's.
 
+### 2 Kings in 1554 and 1573 (phase 2 notes search, 2026-11-23)
+
+Read on the page images by notes reader A for chapters 1–12 (`data/review/2kgs1-25-phase2/notes-1554-a.md`; crops cached
+in `sources/mdz-1554/`, git-ignored); chapters 13–25 are reader B's. 1554 = MDZ bsb10196330; 1573 = MDZ bsb10141277,
+through its search API only.
+
+- **1554's text** (*REGVM LIB. IIII.*): begins on canvas 204, column 383, after 1 Kings 22:51–53 at the top of that
+  column, with a pictorial initial; chapters 1–12 on canvases 204–212, chapter 12 beginning at the KJV's 11:21
+  (*Agebat Ioas annum septimum*, canvas 211, column 398).
+- **The annotations** *IN IIII. LIB. REGVM*, with no preface: five, all in the right column of canvas 833 (column 362),
+  on 3:7, 4:37, 6:25, 6:33 and 20:13; *IN LIBROS PARALIPOMENON* follows in the same column. The four on chapters 1–12
+  are on Hebrew idioms (3:7, 4:37, glossed with French: *Il alla mander*, *Elle se uint ietter à ses pedz*, as printed), dove's
+  dung as food (6:25, after Josephus), and 6:33.
+- **1738's asterisks mark them**: the four footnote-less asterisks of chapters 1–12 stand at the four lemmas.
+- **6:33 *quem subsecutus rex* is an addition from Josephus**, by Castellio's own statement (*Hunc locum ex Iosepho
+  compleui, additis his uerbis*); in 1554's text (canvas 208, column 391), 1573 (canvas 252, search) and 1738.
+- **5:26 *G. L. ut emas H.*** is in 1554's text (canvas 207, column 389) and 1573 (canvas 252, search).
+- **9:16 *decubabat*** is in 1554 (canvas 209, column 394) and 1573 (canvas 254, search): Castellio's word, not 1738's
+  misprint.
+- **Revised after 1554**: 8:16 *regnante in Iudæa Iosaphato* (1554, canvas 209, column 393) → *cum regnasset in Iudæa
+  Iosaphatus* (1573, canvas 254, search; 1738). By Castellio or a later editor unknown (1556 not checked).
+- **1738's footnotes in 1–12**: 2:12 *columen atque præsidium*, 3:14 *administro*, 9:11 *insanus* are 1554's margins
+  (canvases 204, 205, 209); the two at 4:13 (*Elisæus eius linguæ ignarus …*, *nihil foris …*) are not in 1554, and the
+  1573 OCR of canvas 250 shows fragments of them (unverified: no 1573 page image read).
+- **3:27 *Hac tanta atrocitate permoti Israelitæ*** (the Hebrew's "great wrath upon Israel" read as Israel's own horror)
+  is in 1554 (canvas 205, column 386) and 1573 (canvas 250, search).
+- **The MDZ copy of 1554** has a manuscript gloss beside the 3:7 annotation (canvas 833), on 3:11 (*qui Eliæ manibus
+  fundebat aquam, hoc est, qui minister fuit Eliæ*, as read): an owner's hand, not Castellio's.
+- **Chapters 13–25** (reader B, `data/review/2kgs1-25-phase2/notes-1554-b.md`): 1554's text on canvases 212–220
+  (columns 399–416), the book ending in column 416 with the catchword *Paralipo-*; its chapter breaks stand where
+  1738's do (15:38, 20:21, 21:26, 22:20b, 24:20b). No *G.*/*L.*/*H.* marks in 13–25.
+- **20:13**, the one annotation on 13–25 (*EX CAP. XX.*, canvas 833, column 362): *Quibus delectatus Ezechias.)*
+  וישמע *malè legitur pro* וישמח, *ut historia & translatio uetus, & liber Paral. ostendit*: an emendation he states, with
+  the Greek and the Vulgate (and the NRSVue and the BSB). The reading he names is Isa 39:2's (WLC); 2 Chr 32:31 has no
+  such clause, so *Paral.* may be a slip for Isaiah (not settled). 1573 prints it in the book, *liber Paralipom.*
+  (canvas 262, search). 1738's asterisk at 20:13 marks it: five asterisks, five annotations in 2 Kings.
+- **1738's five footnotes in 13–25** (18:17, 19:3, 19:24, 19:25, 21:13) are all 1554's margins (canvases 215, 216,
+  218); 1573's OCR shows two of them (19:25 canvas 262, 21:13 canvas 263, search).
+- **Readings the same in 1554, 1573 and 1738**: 19:13 *rex urbis Sepharuaimi* (1554 canvas 216, column 408; 1573
+  canvas 261), against 1750's *ciuitatis* (1573's parallel on canvas 503, presumably Isa 37:13, unverified, has
+  *ciuitatis*); 24:15–16 *fabrisque & opificibus mille, omnibus denique* (1554 canvas 220, column 415; 1573 canvas
+  265), against 1750's *fabris … omnibusque*; 20:12 *Berodacus Baladam, Baladanis filius* (1554 canvas 217, column
+  410; 1573 canvas 262); 25:6, 25:20 *Reblatham* (1554 canvas 220; 1573 canvas 265) beside 23:33 *Reblam*; 25:23
+  *Netophatita* (1554 canvas 220, column 416; 1573 canvas 266); 25:19 *Sophrem exercitus ducem*, the Hebrew's "scribe"
+  taken as a name, as the Vulgate's *Sopher* (1554 canvas 220; 1573 canvas 265); 23:29 *aduersus Assyriæ regem*
+  (1554 canvas 219, column 414).
+
 ### Exodus: readings in every printing from 1551 (notes search, 2026-11-18)
 
 Five places where Castellio's text departs from the Hebrew stand in 1551 (Google Books BrlIAAAAcAAJ, read by Nathan),

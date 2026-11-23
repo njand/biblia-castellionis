@@ -1,0 +1,314 @@
+# 2Kgs: candidates for light notes
+
+Built by `python -m pipeline notes 2Kgs` (pipeline/otnotes.py); the process and its decisions are in
+`data/review/ot-notes-process.md`. These are not proposals: each is read against the Hebrew and the NRSVue
+before a note is put to Nathan in `2kgs-notes.md`.
+
+Latin: 719 verses (settled and draft); already noted: 0. BSB notes naming a version: 15 verses (against MT 8, with MT 5, other 2); WEB notes besides: 0. Numerals differing from the Hebrew: 32. Latin far shorter than the Hebrew: 0. Castellio's G. … H. marks: 1.
+
+## Castellio's marks (1 verses)
+
+*G.* (*G.L.*, 1750 *Gr. lect.*) … *H.*: a reading he took from the Greek, found in the raw OCR of 1738 and 1750 and placed by the words around it (check the verse).
+
+- **5:26** 1738: G.  L.  vt  emas  H.  oleas,vineas,ba!an- / tes,boues,  feruos  aut  ancillas  ?  Er-  27 | 1750: G. L. vt emas H. olcas,vineas,balan- / tes, boues, feruos autancillas? Er-27
+   - Latin: At ille, quasi ego non simul animo adfuerim, inquit, quum se homo de curru in tuum occursum convertit. Scilicet tempus est accipiendi argentum, accipiendi vestes, ut emas oleas, vineas, balantes, boves, servos aut ancillas?
+   - 1738: At ille, quasi ego non simul animo adfuerim, inquit, quum se homo de curru in tuum occursum conuertit. Scilicet tempus est accipiendi argentum, accipiendi vestes, G. L. vt emas H. oleas, vineas, balantes, boues, seruos aut ancillas?
+   - WLC: וַיֹּ֤אמֶר אֵלָיו֙ לֹא־לִבִּ֣י הָלַ֔ךְ כַּאֲשֶׁ֧ר הָֽפַךְ־אִ֛ישׁ מֵעַ֥ל מֶרְכַּבְתּ֖וֹ לִקְרָאתֶ֑ךָ הַעֵ֞ת לָקַ֤חַת אֶת־הַכֶּ֙סֶף֙ וְלָקַ֣חַת בְּגָדִ֔ים וְזֵיתִ֤ים וּכְרָמִים֙ וְצֹ֣אן וּבָקָ֔ר וַעֲבָדִ֖ים וּשְׁפָחֽוֹת׃
+   - BSB: But Elisha questioned him, “Did not my spirit go with you when the man got down from his chariot to meet you? Is this the time to accept money and clothing, olive groves and vineyards, sheep and oxen, menservants and maidservants?
+   - KJV: And he said unto him, Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants?
+
+## Versions: the BSB against MT (8 verses)
+
+- **9:27** BSB: See Syriac, Vulgate, and LXX; Hebrew “Shoot him, too, in his chariot!” (They did this) on the Ascent of Gur,
+   - Latin: Haec videns Judaeae rex Ochozias, fugam capessit versus domum hortensem: quem persecutus Jehus, etiam feriri jussit in curru, in clivo Gure, apud Jeblaam. Ille ad Mageddonem fugit, ibique mortuus est,
+   - 1738: Hæc videns Iudææ rex Ochozias, fugam capessit versus domum hortensem: quem persecutus Iehus, etiam feriri iussit in curru, in cliuo Gure, apud Ieblaam. Ille ad Mageddonem fugit, ibique mortuus est,
+   - WLC: וַאֲחַזְיָ֤ה מֶֽלֶךְ־יְהוּדָה֙ רָאָ֔ה וַיָּ֕נָס דֶּ֖רֶךְ בֵּ֣ית הַגָּ֑ן וַיִּרְדֹּ֨ף אַחֲרָ֜יו יֵה֗וּא וַ֠יֹּאמֶר גַּם־אֹת֞וֹ הַכֻּ֣הוּ אֶל־הַמֶּרְכָּבָ֗ה בְּמַֽעֲלֵה־גוּר֙ אֲשֶׁ֣ר אֶֽת־יִבְלְעָ֔ם וַיָּ֥נָס מְגִדּ֖וֹ וַיָּ֥מָת שָֽׁם׃
+   - BSB: When King Ahaziah of Judah saw this, he fled up the road toward Beth-haggan. And Jehu pursued him, shouting, “Shoot him too!” So they shot Ahaziah in his chariot on the Ascent of Gur, near Ibleam, and he fled to Megiddo and died there.
+   - KJV: ¶ But when Ahaziah the king of Judah saw this, he fled by the way of the garden house. And Jehu followed after him, and said, Smite him also in the chariot. And they did so at the going up to Gur, which is by Ibleam. And he fled to Megiddo, and died there.
+- **10:16** BSB: LXX, Syriac, and Targum Yonaton; Hebrew they had him ride
+   - Latin: seque comitari, et sui erga Jovam studii spectatorem esse, jussit. Illo in currum evecto,
+   - 1738: seque comitari, et sui erga Iouam studii spectatorem esse, iussit. Illo in currum euecto,
+   - WLC: וַיֹּ֙אמֶר֙ לְכָ֣ה אִתִּ֔י וּרְאֵ֖ה בְּקִנְאָתִ֣י לַיהוָ֑ה וַיַּרְכִּ֥בוּ אֹת֖וֹ בְּרִכְבּֽוֹ׃
+   - BSB: saying, “Come with me and see my zeal for the LORD!” So he had him ride in his chariot.
+   - KJV: And he said, Come with me, and see my zeal for the LORD. So they made him ride in his chariot.
+- **13:6** BSB: LXX, Syriac, Targum Yonaton, and Vulgate; Hebrew he continued to walk in them
+   - Latin: Neque tamen a Jeroboami familiae sceleribus, in quae ille Israelitas impulerat, recesserunt, quin ea imitarentur, maneretque apud Samariam lucus;
+   - 1738: Neque tamen a Ieroboami familiæ sceleribus, in quæ ille Israelitas impulerat, recesserunt, quin ea imitarentur, maneretque apud Samariam lucus;
+   - WLC: אַ֠ךְ לֹֽא־סָ֜רוּ מֵחַטֹּ֧אות בֵּית־יָרָבְעָ֛ם אֲשֶׁר־החטי אֶת־יִשְׂרָאֵ֖ל בָּ֣הּ הָלָ֑ךְ וְגַם֙ הָאֲשֵׁרָ֔ה עָמְדָ֖ה בְּשֹׁמְרֽוֹן׃
+   - BSB: Nevertheless, they did not turn away from the sins that the house of Jeroboam had caused Israel to commit, but they continued to walk in them. The Asherah pole even remained standing in Samaria.
+   - KJV: Nevertheless they departed not from the sins of the house of Jeroboam, who made Israel sin, but walked therein: and there remained the grove also in Samaria.)
+- **19:31** BSB: LXX, many Hebrew manuscripts, and an alternate MT reading; the other alternate reads The zeal of the LORD.
+   - Latin: Nam a Hierosolyma reliquiae manabunt, ex Sione aliquid evadet, ita efficiente Jovae armipotentis studio.
+   - 1738: Nam a Hierosolyma reliquiæ manabunt, ex Sione aliquid euadet, ita efficiente Iouæ armipotentis studio.
+   - WLC: כִּ֤י מִירוּשָׁלִַ֙ם֙ תֵּצֵ֣א שְׁאֵרִ֔ית וּפְלֵיטָ֖ה מֵהַ֣ר צִיּ֑וֹן קִנְאַ֛ת יְהוָ֥ה תַּֽעֲשֶׂה־זֹּֽאת׃ ס
+   - BSB: For a remnant will go forth from Jerusalem, and survivors from Mount Zion. The zeal of the LORD of Hosts will accomplish this.
+   - KJV: For out of Jerusalem shall go forth a remnant, and they that escape out of mount Zion: the zeal of the LORD of hosts shall do this.
+- **19:37** BSB: LXX and an alternate MT reading (see also Isaiah 37:38); MT lacks his sons.
+   - Latin: Ubi postquam consedit, eum, in aede Nisrochi dei sui adorantem, Adramelechus et Sarasar ipsius filii ferro obtruncarunt, atque in Armeniam evaserunt, inque ejus loco regnavit Esaraddon ejus filius.
+   - 1738: Vbi postquam consedit, eum, in æde Nisrochi dei sui adorantem, Adramelechus et Sarasar ipsius filii ferro obtruncarunt, atque in Armeniam euaserunt, inque eius loco regnauit Esaraddon eius filius.
+   - WLC: וַיְהִי֩ ה֨וּא מִֽשְׁתַּחֲוֶ֜ה בֵּ֣ית ׀ נִסְרֹ֣ךְ אֱלֹהָ֗יו וְֽאַדְרַמֶּ֨לֶךְ וְשַׂרְאֶ֤צֶר הִכֻּ֣הוּ בַחֶ֔רֶב וְהֵ֥מָּה נִמְלְט֖וּ אֶ֣רֶץ אֲרָרָ֑ט וַיִּמְלֹ֛ךְ אֵֽסַר־חַדֹּ֥ן בְּנ֖וֹ תַּחְתָּֽיו׃ פ
+   - BSB: One day, while he was worshiping in the temple of his god Nisroch, his sons Adrammelech and Sharezer put him to the sword and escaped to the land of Ararat. And his son Esar-haddon reigned in his place.
+   - KJV: And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword: and they escaped into the land of Armenia. And Esar-haddon his son reigned in his stead.
+- **20:4** BSB: LXX and an alternate MT reading; the other alternate reads the middle of the city
+   - Latin: Tum Jova cum Esaja, qui nondum mediam urbem evaserat, locutus est in hunc modum:
+   - 1738: Tum Ioua cum Esaia, qui nondum mediam vrbem euaserat, locutus est in hunc modum:
+   - WLC: וַיְהִ֣י יְשַׁעְיָ֔הוּ לֹ֣א יָצָ֔א העיר הַתִּֽיכֹנָ֑ה וּדְבַר־יְהוָ֔ה הָיָ֥ה אֵלָ֖יו לֵאמֹֽר׃
+   - BSB: Before Isaiah had left the middle courtyard, the word of the LORD came to him, saying,
+   - KJV: And it came to pass, afore Isaiah was gone out into the middle court, that the word of the LORD came to him, saying,
+- **20:12** BSB: Some Hebrew manuscripts, LXX, and Syriac (see also Isaiah 39:1); MT Berodach-baladan
+   - Latin: Sub id tempus misit Berodacus Baladam, Baladanis filius, Babyloniae rex, litteras et munus Ezechiae, quem aegrotasse audiverat.
+   - 1738: Sub id tempus misit Berodacus Baladam, Baladanis filius, Babyloniæ rex, litteras et munus Ezechiæ, quem ægrotasse audiuerat.
+   - WLC: בָּעֵ֣ת הַהִ֡יא שָׁלַ֡ח בְּרֹאדַ֣ךְ בַּ֠לְאֲדָן בֶּֽן־בַּלְאֲדָ֧ן מֶֽלֶךְ־בָּבֶ֛ל סְפָרִ֥ים וּמִנְחָ֖ה אֶל־חִזְקִיָּ֑הוּ כִּ֣י שָׁמַ֔ע כִּ֥י חָלָ֖ה חִזְקִיָּֽהוּ׃
+   - BSB: At that time Merodach-baladan son of Baladan king of Babylon sent letters and a gift to Hezekiah, for he had heard about Hezekiah’s illness.
+   - KJV: ¶ At that time Berodach-baladan, the son of Baladan, king of Babylon, sent letters and a present unto Hezekiah: for he had heard that Hezekiah had been sick.
+- **23:16** BSB: See 1 Kings 13:2; Hebrew; LXX includes when Jeroboam stood by the altar at the feast. And he turned and lifted his eyes to the tomb of the man of God.
+   - Latin: Quumque respiciens animadvertisset sepulcra, quae illic erant in monte: curavit adferenda ossa ex illis sepulcris, eaque in ara combussit, atque aram funestavit, ut Jovae oraculum ferebat: quod divinus ille, iis ipsis rebus clara voce pronuntiandis ediderat.
+   - 1738: Quumque respiciens animaduertisset sepulcra, quæ illic erant in monte: curauit adferenda ossa ex illis sepulcris, eaque in ara combussit, atque aram funestauit, vt Iouæ oraculum ferebat: quod diuinus ille, iis ipsis rebus clara voce pronuntiandis ediderat.
+   - WLC: וַיִּ֣פֶן יֹאשִׁיָּ֗הוּ וַיַּ֨רְא אֶת־הַקְּבָרִ֤ים אֲשֶׁר־שָׁם֙ בָּהָ֔ר וַיִּשְׁלַ֗ח וַיִּקַּ֤ח אֶת־הָֽעֲצָמוֹת֙ מִן־הַקְּבָרִ֔ים וַיִּשְׂרֹ֥ף עַל־הַמִּזְבֵּ֖חַ וַֽיְטַמְּאֵ֑הוּ כִּדְבַ֣ר יְהוָ֗ה אֲשֶׁ֤ר קָרָא֙ אִ֣ישׁ הָאֱלֹהִ֔ים אֲשֶׁ֣ר קָרָ֔א אֶת־הַדְּבָרִ֖ים הָאֵֽלֶּה׃
+   - BSB: And as Josiah turned, he saw the tombs there on the hillside, and he sent someone to take the bones out of the tombs, and he burned them on the altar to defile it, according to the word of the LORD proclaimed by the man of God who had foretold these things.
+   - KJV: And as Josiah turned himself, he spied the sepulchres that were there in the mount, and sent, and took the bones out of the sepulchres, and burned them upon the altar, and polluted it, according to the word of the LORD which the man of God proclaimed, who proclaimed these words.
+
+## Versions: the BSB with MT (5 verses)
+
+- **10:1** BSB: Hebrew; LXX and Vulgate officials of the city
+   - Latin: Quum haberet autem Achabus septuaginta filios Samariae: scripsit Jehus litteras, quas Samariam ad principes jezraelenses senatores et Achabi educatores misit, in haec verba:
+   - 1738: Quum haberet autem Achabus septuaginta filios Samariæ: scripsit Iehus litteras, quas Samariam ad principes iezraelenses senatores et Achabi educatores misit, in hæc verba:
+   - WLC: וּלְאַחְאָ֛ב שִׁבְעִ֥ים בָּנִ֖ים בְּשֹׁמְר֑וֹן וַיִּכְתֹּב֩ יֵה֨וּא סְפָרִ֜ים וַיִּשְׁלַ֣ח שֹׁמְר֗וֹן אֶל־שָׂרֵ֤י יִזְרְעֶאל֙ הַזְּקֵנִ֔ים וְאֶל־הָאֹמְנִ֥ים אַחְאָ֖ב לֵאמֹֽר׃
+   - BSB: Now Ahab had seventy sons in Samaria. So Jehu wrote letters and sent them to Samaria to the officials of Jezreel, to the elders, and to the guardians of the sons of Ahab, saying:
+   - KJV: And Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, to the elders, and to them that brought up Ahab’s children, saying,
+- **12:21** BSB: Hebrew; LXX and Syriac Jozacar
+   - Latin: Eoque apud majores suos in urbe Davidis sepulto, successit in regnum Amasias ejus filius.
+   - 1738: Eoque apud maiores suos in vrbe Dauidis sepulto, successit in regnum Amasias eius filius.
+   - WLC: וְיוֹזָבָ֣ד בֶּן־שִׁ֠מְעָת וִיהוֹזָבָ֨ד בֶּן־שֹׁמֵ֤ר ׀ עֲבָדָיו֙ הִכֻּ֣הוּ וַיָּמֹ֔ת וַיִּקְבְּר֥וּ אֹת֛וֹ עִם־אֲבֹתָ֖יו בְּעִ֣יר דָּוִ֑ד וַיִּמְלֹ֛ךְ אֲמַצְיָ֥ה בְנ֖וֹ תַּחְתָּֽיו׃ פ
+   - BSB: His servants Jozabad son of Shimeath and Jehozabad son of Shomer struck him down, and he died. And they buried him with his fathers in the City of David, and his son Amaziah reigned in his place.
+   - KJV: For Jozachar the son of Shimeath, and Jehozabad the son of Shomer, his servants, smote him, and he died; and they buried him with his fathers in the city of David: and Amaziah his son reigned in his stead.
+- **14:29** BSB: Hebrew; some LXX manuscripts include and he was buried in Samaria with
+   - Latin: Postquam Jeroboamus ad manes majorum suorum Israelitarum concessit: regnum obtinuit pro eo filius ejus Zacharias.
+   - 1738: Postquam Ieroboamus ad manes maiorum suorum Israelitarum concessit: regnum obtinuit pro eo filius eius Zacharias.
+   - WLC: וַיִּשְׁכַּ֤ב יָֽרָבְעָם֙ עִם־אֲבֹתָ֔יו עִ֖ם מַלְכֵ֣י יִשְׂרָאֵ֑ל וַיִּמְלֹ֛ךְ זְכַרְיָ֥ה בְנ֖וֹ תַּחְתָּֽיו׃ פ
+   - BSB: And Jeroboam rested with his fathers, the kings of Israel. And his son Zechariah reigned in his place.
+   - KJV: And Jeroboam slept with his fathers, even with the kings of Israel; and Zachariah his son reigned in his stead.
+- **15:10** BSB: Hebrew; some LXX manuscripts in Ibleam
+   - Latin: conjurationem fecit Sellumus, Jabis filius: eoque palam interfecto, regnum occupavit.
+   - 1738: coniurationem fecit Sellumus, Iabis filius: eoque palam interfecto, regnum occupauit.
+   - WLC: וַיִּקְשֹׁ֤ר עָלָיו֙ שַׁלֻּ֣ם בֶּן־יָבֵ֔שׁ וַיַּכֵּ֥הוּ קָֽבָלְ־עָ֖ם וַיְמִיתֵ֑הוּ וַיִּמְלֹ֖ךְ תַּחְתָּֽיו׃
+   - BSB: Then Shallum son of Jabesh conspired against Zechariah, struck him down and killed him in front of the people, and reigned in his place.
+   - KJV: And Shallum the son of Jabesh conspired against him, and smote him before the people, and slew him, and reigned in his stead.
+- **23:15** BSB: Hebrew; LXX broke into pieces
+   - Latin: Aram quoque apud Bethel positam in sacello, quod fecerat Jeroboamus, Nabati filius, is qui Israelitas scelere obstrinxerat, eam, inquam, aram et sacellum demolitus est, sacellumque et lucum in cineres incendio redegit.
+   - 1738: Aram quoque apud Bethel positam in sacello, quod fecerat Ieroboamus, Nabati filius, is qui Israelitas scelere obstrinxerat, eam, inquam, aram et sacellum demolitus est, sacellumque et lucum in cineres incendio redegit.
+   - WLC: וְגַ֨ם אֶת־הַמִּזְבֵּ֜חַ אֲשֶׁ֣ר בְּבֵֽית־אֵ֗ל הַבָּמָה֙ אֲשֶׁ֨ר עָשָׂ֜ה יָרָבְעָ֤ם בֶּן־נְבָט֙ אֲשֶׁ֣ר הֶחֱטִ֣יא אֶת־יִשְׂרָאֵ֔ל גַּ֣ם אֶת־הַמִּזְבֵּ֧חַ הַה֛וּא וְאֶת־הַבָּמָ֖ה נָתָ֑ץ וַיִּשְׂרֹ֧ף אֶת־הַבָּמָ֛ה הֵדַ֥ק לְעָפָ֖ר וְשָׂרַ֥ף אֲשֵׁרָֽה׃
+   - BSB: He even pulled down the altar at Bethel, the high place set up by Jeroboam son of Nebat, who had caused Israel to sin. Then he burned the high place, ground it to powder, and burned the Asherah pole.
+   - KJV: ¶ Moreover the altar that was at Beth-el, and the high place which Jeroboam the son of Nebat, who made Israel to sin, had made, both that altar and the high place he brake down, and burned the high place, and stamped it small to powder, and burned the grove.
+
+## Versions: the BSB other (2 verses)
+
+- **10:24** BSB: LXX he went in; see also verse 25.
+   - Latin: Atque illis rem divinam et solida sacrificia facere ingressis, disponit foris homines octoginta, quibus edicit, quicumque illorum evaserit, quos ipse in eorum manus adduxerit, vitam vita perdendam fore.
+   - 1738: Atque illis rem diuinam et solida sacrificia facere ingressis, disponit foris homines octoginta, quibus edicit, quicumque illorum euaserit, quos ipse in eorum manus adduxerit, vitam vita perdendam fore.
+   - WLC: וַיָּבֹ֕אוּ לַעֲשׂ֖וֹת זְבָחִ֣ים וְעֹל֑וֹת וְיֵה֞וּא שָׂם־ל֤וֹ בַחוּץ֙ שְׁמֹנִ֣ים אִ֔ישׁ וַיֹּ֗אמֶר הָאִ֤ישׁ אֲשֶׁר־יִמָּלֵט֙ מִן־הָאֲנָשִׁ֗ים אֲשֶׁ֤ר אֲנִי֙ מֵבִ֣יא עַל־יְדֵיכֶ֔ם נַפְשׁ֖וֹ תַּ֥חַת נַפְשֽׁוֹ׃
+   - BSB: And they went in to offer sacrifices and burnt offerings. Now Jehu had stationed eighty men outside and warned them, “If anyone allows one of the men I am delivering into your hands to escape, he will forfeit his life for theirs.”
+   - KJV: And when they went in to offer sacrifices and burnt offerings, Jehu appointed fourscore men without, and said, If any of the men whom I have brought into your hands escape, he that letteth him go, his life shall be for the life of him.
+- **16:18** BSB: Or the base of his throne; see also LXX.
+   - Latin: Tapetem quoque sabbati, qui in aede factus fuerat, et aditum regium exteriorem, in aedem convertit, propter Assyriae regem.
+   - 1738: Tapetem quoque sabbati, qui in æde factus fuerat, et aditum regium exteriorem, in ædem conuertit, propter Assyriæ regem.
+   - WLC: וְאֶת־מיסך הַשַּׁבָּ֜ת אֲשֶׁר־בָּנ֣וּ בַבַּ֗יִת וְאֶת־מְב֤וֹא הַמֶּ֙לֶךְ֙ הַֽחִיצ֔וֹנָה הֵסֵ֖ב בֵּ֣ית יְהוָ֑ה מִפְּנֵ֖י מֶ֥לֶךְ אַשּֽׁוּר׃
+   - BSB: And on account of the king of Assyria, he removed the Sabbath canopy they had built in the temple and closed the royal entryway outside the house of the LORD.
+   - KJV: And the covert for the sabbath that they had built in the house, and the king’s entry without, turned he from the house of the LORD for the king of Assyria.
+
+## Numbers (32 verses)
+
+Values of the numerals (one and first left out); a word may stand for a number on one side only (*bīnī*, a week, a tithe), so most are nothing.
+
+- **1:17** Hebrew 2; Latin none
+   - Latin: Atque ille, ut ferebat hoc Jovae effatum ab Elia prolatum, mortuus est: et in ejus locum regnum obtinuit Joramus, anno secundo Jorami Josaphati filii, Judaeae regis: quoniam Ochozias filium non habebat.
+   - 1738: Atque ille, vt ferebat hoc Iouæ effatum ab Elia prolatum, mortuus est: et in eius locum regnum obtinuit Ioramus, anno secundo Iorami Iosaphati filii, Iudææ regis: quoniam Ochozias filium non habebat.
+   - WLC: וַיָּ֜מָת כִּדְבַ֥ר יְהוָ֣ה ׀ אֲשֶׁר־דִּבֶּ֣ר אֵלִיָּ֗הוּ וַיִּמְלֹ֤ךְ יְהוֹרָם֙ תַּחְתָּ֔יו פ בִּשְׁנַ֣ת שְׁתַּ֔יִם לִיהוֹרָ֥ם בֶּן־יְהוֹשָׁפָ֖ט מֶ֣לֶךְ יְהוּדָ֑ה כִּ֛י לֹֽא־הָ֥יָה ל֖וֹ בֵּֽן׃
+   - BSB: So Ahaziah died according to the word of the LORD that Elijah had spoken. And since he had no son, Jehoram succeeded him in the second year of the reign of Jehoram son of Jehoshaphat over Judah.
+   - KJV: ¶ So he died according to the word of the LORD which Elijah had spoken. And Jehoram reigned in his stead in the second year of Jehoram the son of Jehoshaphat king of Judah; because he had no son.
+- **2:7** Hebrew 2, 50; Latin 50
+   - Latin: Atque ubi ad Jordanem ventum est, quinquaginta vatibus eos secutis, et procul secundum eos stantibus,
+   - 1738: Atque vbi ad Iordanem ventum est, quinquaginta vatibus eos secutis, et procul secundum eos stantibus,
+   - WLC: וַחֲמִשִּׁ֨ים אִ֜ישׁ מִבְּנֵ֤י הַנְּבִיאִים֙ הָֽלְכ֔וּ וַיַּעַמְד֥וּ מִנֶּ֖גֶד מֵרָח֑וֹק וּשְׁנֵיהֶ֖ם עָמְד֥וּ עַל־הַיַּרְדֵּֽן׃
+   - BSB: Then a company of fifty of the sons of the prophets went and stood at a distance, facing Elijah and Elisha as the two of them stood by the Jordan.
+   - KJV: And fifty men of the sons of the prophets went, and stood to view afar off: and they two stood by Jordan.
+- **4:33** Hebrew 2; Latin none
+   - Latin: ostio se cum illo includit: precatusque Jovam,
+   - 1738: ostio se cum illo includit: precatusque Iouam,
+   - WLC: וַיָּבֹ֕א וַיִּסְגֹּ֥ר הַדֶּ֖לֶת בְּעַ֣ד שְׁנֵיהֶ֑ם וַיִּתְפַּלֵּ֖ל אֶל־יְהוָֽה׃
+   - BSB: So he went in, closed the door behind the two of them, and prayed to the LORD.
+   - KJV: He went in therefore, and shut the door upon them twain, and prayed unto the LORD.
+- **5:17** Hebrew none; Latin 2
+   - Latin: Tum Naaman, quaeso igitur, inquit, ut mihi detur terrae duorum mulorum onus: neque enim deinceps ullis diis, nisi Jovae, rem divinam et sacra facturus sum.
+   - 1738: Tum Naaman, quæso igitur, inquit, vt mihi detur terræ duorum mulorum onus: neque enim deinceps vllis diis, nisi Iouæ, rem diuinam et sacra facturus sum.
+   - WLC: וַיֹּאמֶר֮ נַעֲמָן֒ וָלֹ֕א יֻתַּן־נָ֣א לְעַבְדְּךָ֔ מַשָּׂ֥א צֶֽמֶד־פְּרָדִ֖ים אֲדָמָ֑ה כִּ֡י לֽוֹא־יַעֲשֶׂה֩ ע֨וֹד עַבְדְּךָ֜ עֹלָ֤ה וָזֶ֙בַח֙ לֵאלֹהִ֣ים אֲחֵרִ֔ים כִּ֖י אִם־לַיהוָֽה׃
+   - BSB: “If you will not,” said Naaman, “please let me, your servant, be given as much soil as a pair of mules can carry. For your servant will never again make a burnt offering or a sacrifice to any other god but the LORD.
+   - KJV: And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules’ burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD.
+- **6:10** Hebrew 2; Latin none
+   - Latin: Itaque misit rex Israelitarum in eum locum, de quo fuit a divino monitus, ab eoque abstinuit, atque cavit: idque non semel aut iterum fecit.
+   - 1738: Itaque misit rex Israelitarum in eum locum, de quo fuit a diuino monitus, ab eoque abstinuit, atque cauit: idque non semel aut iterum fecit.
+   - WLC: וַיִּשְׁלַ֞ח מֶ֣לֶךְ יִשְׂרָאֵ֗ל אֶֽל־הַמָּק֞וֹם אֲשֶׁ֨ר אָֽמַר־ל֧וֹ אִישׁ־הָאֱלֹהִ֛ים והזהירה וְנִשְׁמַ֣ר שָׁ֑ם לֹ֥א אַחַ֖ת וְלֹ֥א שְׁתָּֽיִם׃
+   - BSB: So the king of Israel sent word to the place the man of God had pointed out. Time and again Elisha warned the king, so that he was on his guard in such places.
+   - KJV: And the king of Israel sent to the place which the man of God told him and warned him of, and saved himself there, not once nor twice.
+- **6:25** Hebrew 5, 80; Latin 4, 5, 80
+   - Latin: qua obsidione tanta Samariae fames incessit, ut asini caput octoginta constaret argenteis, et quarta pars cabi stercoris columbini quinque argenteis.
+   - 1738: qua obsidione tanta Samariæ fames incessit, vt asini caput octoginta constaret argenteis, et quarta pars cabi stercoris columbini quinque argenteis.
+   - WLC: וַיְהִ֨י רָעָ֤ב גָּדוֹל֙ בְּשֹׁ֣מְר֔וֹן וְהִנֵּ֖ה צָרִ֣ים עָלֶ֑יהָ עַ֣ד הֱי֤וֹת רֹאשׁ־חֲמוֹר֙ בִּשְׁמֹנִ֣ים כֶּ֔סֶף וְרֹ֛בַע הַקַּ֥ב חרייונים בַּחֲמִשָּׁה־כָֽסֶף׃
+   - BSB: So there was a great famine in Samaria. Indeed, they besieged the city so long that a donkey’s head sold for eighty shekels of silver, and a quarter cab of dove’s dung sold for five shekels of silver.
+   - KJV: And there was a great famine in Samaria: and, behold, they besieged it, until an ass’s head was sold for fourscore pieces of silver, and the fourth part of a cab of dove’s dung for five pieces of silver.
+- **7:3** Hebrew 4; Latin none
+   - Latin: Erant autem quatuor homines leprosi ante portam, qui coeperunt sic inter se cohortari: quid hic mortem manentes operimur?
+   - 1738: Erant autem quatuor homines leprosi ante portam, qui cœperunt sic inter se cohortari: quid hic mortem manentes operimur?
+   - WLC: וְאַרְבָּעָ֧ה אֲנָשִׁ֛ים הָי֥וּ מְצֹרָעִ֖ים פֶּ֣תַח הַשָּׁ֑עַר וַיֹּֽאמְרוּ֙ אִ֣ישׁ אֶל־רֵעֵ֔הוּ מָ֗ה אֲנַ֛חְנוּ יֹשְׁבִ֥ים פֹּ֖ה עַד־מָֽתְנוּ׃
+   - BSB: Now there were four men with leprosy at the entrance of the city gate, and they said to one another, “Why just sit here until we die?
+   - KJV: ¶ And there were four leprous men at the entering in of the gate: and they said one to another, Why sit we here until we die?
+- **7:16** Hebrew none; Latin 2
+   - Latin: egressus populus, Syrorum castra diripuit, vaeniitque similae satum siclo, et duo hordei sata siclo; sicuti Jova promiserat.
+   - 1738: egressus populus, Syrorum castra diripuit, væniitque similæ satum siclo, et duo hordei sata siclo; sicuti Ioua promiserat.
+   - WLC: וַיֵּצֵ֣א הָעָ֔ם וַיָּבֹ֕זּוּ אֵ֖ת מַחֲנֵ֣ה אֲרָ֑ם וַיְהִ֨י סְאָה־סֹ֜לֶת בְּשֶׁ֗קֶל וְסָאתַ֧יִם שְׂעֹרִ֛ים בְּשֶׁ֖קֶל כִּדְבַ֥ר יְהוָֽה׃
+   - BSB: Then the people went out and plundered the camp of the Arameans. It was then that a seah of fine flour sold for a shekel, and two seahs of barley sold for a shekel, according to the word of the LORD.
+   - KJV: And the people went out, and spoiled the tents of the Syrians. So a measure of fine flour was sold for a shekel, and two measures of barley for a shekel, according to the word of the LORD.
+- **7:18** Hebrew none; Latin 2
+   - Latin: tum, quum divino, regi pollicito, fore, ut postridie ad portam Samariae bina hordei sata siclo, singula autem similae sata siclo vaenirent,
+   - 1738: tum, quum diuino, regi pollicito, fore, vt postridie ad portam Samariæ bina hordei sata siclo, singula autem similæ sata siclo vænirent,
+   - WLC: וַיְהִ֗י כְּדַבֵּר֙ אִ֣ישׁ הָאֱלֹהִ֔ים אֶל־הַמֶּ֖לֶךְ לֵאמֹ֑ר סָאתַ֨יִם שְׂעֹרִ֜ים בְּשֶׁ֗קֶל וּֽסְאָה־סֹ֙לֶת֙ בְּשֶׁ֔קֶל יִהְיֶה֙ כָּעֵ֣ת מָחָ֔ר בְּשַׁ֖עַר שֹׁמְרֽוֹן׃
+   - BSB: It happened just as the man of God had told the king: “About this time tomorrow at the gate of Samaria, two seahs of barley will sell for a shekel, and a seah of fine flour will sell for a shekel.”
+   - KJV: And it came to pass as the man of God had spoken to the king, saying, Two measures of barley for a shekel, and a measure of fine flour for a shekel, shall be to morrow about this time in the gate of Samaria:
+- **10:30** Hebrew 4; Latin none
+   - Latin: Tum Jova Jehu promisit: quoniam suae voluntati recte paruisset, Achabique domum plane ex animi sui sententia tractasset, fore, ut ejus etiam trinepotes in Israelitarum solio sederent.
+   - 1738: Tum Ioua Iehu promisit: quoniam suæ voluntati recte paruisset, Achabique domum plane ex animi sui sententia tractasset, fore, vt eius etiam trinepotes in Israelitarum solio sederent.
+   - WLC: וַיֹּ֨אמֶר יְהוָ֜ה אֶל־יֵה֗וּא יַ֤עַן אֲשֶׁר־הֱטִיבֹ֙תָ֙ לַעֲשׂ֤וֹת הַיָּשָׁר֙ בְּעֵינַ֔י כְּכֹל֙ אֲשֶׁ֣ר בִּלְבָבִ֔י עָשִׂ֖יתָ לְבֵ֣ית אַחְאָ֑ב בְּנֵ֣י רְבִעִ֔ים יֵשְׁב֥וּ לְךָ֖ עַל־כִּסֵּ֥א יִשְׂרָאֵֽל׃
+   - BSB: Nevertheless, the LORD said to Jehu, “Because you have done well in carrying out what is right in My sight and have done to the house of Ahab all that was in My heart, four generations of your sons will sit on the throne of Israel.”
+   - KJV: And the LORD said unto Jehu, Because thou hast done well in executing that which is right in mine eyes, and hast done unto the house of Ahab according to all that was in mine heart, thy children of the fourth generation shall sit on the throne of Israel.
+- **11:4** Hebrew 7, 100; Latin 7
+   - Latin: Anno septimo curat arcessendos Jojada centuriones stipatorum atque satellitum: cumque iis in Jovae templum introductis, et jurejurando obstrictis, ibi paciscitur: eisque regis filium ostendit,
+   - 1738: Anno septimo curat arcessendos Ioiada centuriones stipatorum atque satellitum: cumque iis in Iouæ templum introductis, et iureiurando obstrictis, ibi paciscitur: eisque regis filium ostendit,
+   - WLC: וּבַשָּׁנָ֣ה הַ֠שְּׁבִיעִית שָׁלַ֨ח יְהוֹיָדָ֜ע וַיִּקַּ֣ח ׀ אֶת־שָׂרֵ֣י המאיות לַכָּרִי֙ וְלָ֣רָצִ֔ים וַיָּבֵ֥א אֹתָ֛ם אֵלָ֖יו בֵּ֣ית יְהוָ֑ה וַיִּכְרֹת֩ לָהֶ֨ם בְּרִ֜ית וַיַּשְׁבַּ֤ע אֹתָם֙ בְּבֵ֣ית יְהוָ֔ה וַיַּ֥רְא אֹתָ֖ם אֶת־בֶּן־הַמֶּֽלֶךְ׃
+   - BSB: Then in the seventh year, Jehoiada sent for the commanders of hundreds, the Carites, and the guards, and had them brought into the house of the LORD. There he made a covenant with them and put them under oath. He showed them the king’s son
+   - KJV: ¶ And the seventh year Jehoiada sent and fetched the rulers over hundreds, with the captains and the guard, and brought them to him into the house of the LORD, and made a covenant with them, and took an oath of them in the house of the LORD, and shewed them the king’s son.
+- **11:9** Hebrew 100; Latin none
+   - Latin: Haec omnia Jojadae pontificis imperata faciunt centuriones: adsumtisque suis quisque hominibus, tum quibus venire, tum quibus abire sabbato mos erat, Jojadam adeunt.
+   - 1738: Hæc omnia Ioiadæ pontificis imperata faciunt centuriones: adsumtisque suis quisque hominibus, tum quibus venire, tum quibus abire sabbato mos erat, Ioiadam adeunt.
+   - WLC: וַֽיַּעֲשׂ֞וּ שָׂרֵ֣י המאיות כְּכֹ֣ל אֲשֶׁר־צִוָּה֮ יְהוֹיָדָ֣ע הַכֹּהֵן֒ וַיִּקְחוּ֙ אִ֣ישׁ אֶת־אֲנָשָׁ֔יו בָּאֵ֣י הַשַּׁבָּ֔ת עִ֖ם יֹצְאֵ֣י הַשַּׁבָּ֑ת וַיָּבֹ֖אוּ אֶל־יְהוֹיָדָ֥ע הַכֹּהֵֽן׃
+   - BSB: So the commanders of hundreds did everything that Jehoiada the priest had ordered. Each of them took his men—those coming on duty on the Sabbath and those going off duty—and came to Jehoiada the priest.
+   - KJV: And the captains over the hundreds did according to all things that Jehoiada the priest commanded: and they took every man his men that were to come in on the sabbath, with them that should go out on the sabbath, and came to Jehoiada the priest.
+- **11:10** Hebrew 100; Latin none
+   - Latin: Pontifex centurionibus hastas pharetrasque Davidis regis, quae in templo Jovae erant, tradidit:
+   - 1738: Pontifex centurionibus hastas pharetrasque Dauidis regis, quæ in templo Iouæ erant, tradidit:
+   - WLC: וַיִּתֵּ֨ן הַכֹּהֵ֜ן לְשָׂרֵ֣י המאיות אֶֽת־הַחֲנִית֙ וְאֶת־הַשְּׁלָטִ֔ים אֲשֶׁ֖ר לַמֶּ֣לֶךְ דָּוִ֑ד אֲשֶׁ֖ר בְּבֵ֥ית יְהוָֽה׃
+   - BSB: Then the priest gave to the commanders of hundreds the spears and shields of King David from the house of the LORD.
+   - KJV: And to the captains over hundreds did the priest give king David’s spears and shields, that were in the temple of the LORD.
+- **11:15** Hebrew 100; Latin none
+   - Latin: At Jojada pontifex centurionibus militum praefectis imperat, ut illam extra templi septum educant, ac si quis eam secutus fuerit, eum ferro trucident. Nolebat enim sacerdos, eam in Jovae templo interire.
+   - 1738: At Ioiada pontifex centurionibus militum præfectis imperat, vt illam extra templi septum educant, ac si quis eam secutus fuerit, eum ferro trucident. Nolebat enim sacerdos, eam in Iouæ templo interire.
+   - WLC: וַיְצַו֩ יְהוֹיָדָ֨ע הַכֹּהֵ֜ן אֶת־שָׂרֵ֥י המיאות ׀ פְּקֻדֵ֣י הַחַ֗יִל וַיֹּ֤אמֶר אֲלֵיהֶם֙ הוֹצִ֤יאוּ אֹתָהּ֙ אֶל־מִבֵּ֣ית לַשְּׂדֵרֹ֔ת וְהַבָּ֥א אַחֲרֶ֖יהָ הָמֵ֣ת בֶּחָ֑רֶב כִּ֚י אָמַ֣ר הַכֹּהֵ֔ן אַל־תּוּמַ֖ת בֵּ֥ית יְהוָֽה׃
+   - BSB: And Jehoiada the priest ordered the commanders of hundreds in charge of the army, “Bring her out between the ranks, and put to the sword anyone who follows her.” For the priest had said, “She must not be put to death in the house of the LORD.”
+   - KJV: But Jehoiada the priest commanded the captains of the hundreds, the officers of the host, and said unto them, Have her forth without the ranges: and him that followeth her kill with the sword. For the priest had said, Let her not be slain in the house of the LORD.
+- **11:19** Hebrew 100; Latin none
+   - Latin: centuriones, stipatores, satellites, omnem denique populum advocat: deductumque de Jovae templo regem, per viam portae satellitum in regiam introducunt, et, eo in solio regali collocato,
+   - 1738: centuriones, stipatores, satellites, omnem denique populum aduocat: deductumque de Iouæ templo regem, per viam portæ satellitum in regiam introducunt, et, eo in solio regali collocato,
+   - WLC: וַיִּקַּ֣ח אֶת־שָׂרֵ֣י הַ֠מֵּאוֹת וְאֶת־הַכָּרִ֨י וְאֶת־הָרָצִ֜ים וְאֵ֣ת ׀ כָּל־עַ֣ם הָאָ֗רֶץ וַיֹּרִ֤ידוּ אֶת־הַמֶּ֙לֶךְ֙ מִבֵּ֣ית יְהוָ֔ה וַיָּב֛וֹאוּ דֶּֽרֶך־שַׁ֥עַר הָרָצִ֖ים בֵּ֣ית הַמֶּ֑לֶךְ וַיֵּ֖שֶׁב עַל־כִּסֵּ֥א הַמְּלָכִֽים׃
+   - BSB: He took with him the commanders of hundreds, the Carites, the guards, and all the people of the land, and they brought the king down from the house of the LORD and entered the royal palace by way of the Gate of the Guards. Then Joash took his seat on the royal throne,
+   - KJV: And he took the rulers over hundreds, and the captains, and the guard, and all the people of the land; and they brought down the king from the house of the LORD, and came by the way of the gate of the guard to the king’s house. And he sat on the throne of the kings.
+- **13:10** Hebrew 6, 7, 10, 30; Latin 7, 30
+   - Latin: anno tricesimo septimo Joae Judaeae regis, regnavitque Samariae annos sexdecim.
+   - 1738: anno tricesimo septimo Ioæ Iudææ regis, regnauitque Samariæ annos sexdecim.
+   - WLC: בִּשְׁנַ֨ת שְׁלֹשִׁ֤ים וָשֶׁ֙בַע֙ שָׁנָ֔ה לְיוֹאָ֖שׁ מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַךְ יְהוֹאָ֨שׁ בֶּן־יְהוֹאָחָ֤ז עַל־יִשְׂרָאֵל֙ בְּשֹׁ֣מְר֔וֹן שֵׁ֥שׁ עֶשְׂרֵ֖ה שָׁנָֽה׃
+   - BSB: In the thirty-seventh year of the reign of Joash over Judah, Jehoash son of Jehoahaz became king of Israel in Samaria, and he reigned sixteen years.
+   - KJV: ¶ In the thirty and seventh year of Joash king of Judah began Jehoash the son of Jehoahaz to reign over Israel in Samaria, and reigned sixteen years.
+- **14:1** Hebrew 2; Latin none
+   - Latin: Anno secundo Joae, Joachazi filii, Israelitarum regis, regnum Judaeae iniit Amasias Joae filius,
+   - 1738: Anno secundo Ioæ, Ioachazi filii, Israelitarum regis, regnum Iudææ iniit Amasias Ioæ filius,
+   - WLC: בִּשְׁנַ֣ת שְׁתַּ֔יִם לְיוֹאָ֥שׁ בֶּן־יוֹאָחָ֖ז מֶ֣לֶךְ יִשְׂרָאֵ֑ל מָלַ֛ךְ אֲמַצְיָ֥הוּ בֶן־יוֹאָ֖שׁ מֶ֥לֶךְ יְהוּדָֽה׃
+   - BSB: In the second year of the reign of Jehoash son of Jehoahaz over Israel, Amaziah son of Joash became king of Judah.
+   - KJV: In the second year of Joash son of Jehoahaz king of Israel reigned Amaziah the son of Joash king of Judah.
+- **14:21** Hebrew 6, 10; Latin none
+   - Latin: Ejus deinde filium Azariam, annos natum sexdecim, in regnum pro eo substituerunt universi Judaei.
+   - 1738: Eius deinde filium Azariam, annos natum sexdecim, in regnum pro eo substituerunt vniuersi Iudæi.
+   - WLC: וַיִּקְח֞וּ כָּל־עַ֤ם יְהוּדָה֙ אֶת־עֲזַרְיָ֔ה וְה֕וּא בֶּן־שֵׁ֥שׁ עֶשְׂרֵ֖ה שָׁנָ֑ה וַיַּמְלִ֣כוּ אֹת֔וֹ תַּ֖חַת אָבִ֥יו אֲמַצְיָֽהוּ׃
+   - BSB: Then all the people of Judah took Azariah, who was sixteen years old, and made him king in place of his father Amaziah.
+   - KJV: ¶ And all the people of Judah took Azariah, which was sixteen years old, and made him king instead of his father Amaziah.
+- **14:23** Hebrew 5, 10, 40; Latin 40
+   - Latin: Anno decimoquinto Amasiae, Joae filii, Judaeae regis, coepit Jeroboamus, Joae filius, in Israelitis regnare: regnavit Samariae annos unum et quadraginta.
+   - 1738: Anno decimoquinto Amasiæ, Ioæ filii, Iudææ regis, cœpit Ieroboamus, Ioæ filius, in Israelitis regnare: regnauit Samariæ annos vnum et quadraginta.
+   - WLC: בִּשְׁנַת֙ חֲמֵשׁ־עֶשְׂרֵ֣ה שָׁנָ֔ה לַאֲמַצְיָ֥הוּ בֶן־יוֹאָ֖שׁ מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַךְ יָרָבְעָ֨ם בֶּן־יוֹאָ֤שׁ מֶֽלֶךְ־יִשְׂרָאֵל֙ בְּשֹׁ֣מְר֔וֹן אַרְבָּעִ֥ים וְאַחַ֖ת שָׁנָֽה׃
+   - BSB: In the fifteenth year of the reign of Amaziah son of Joash over Judah, Jeroboam son of Jehoash became king of Israel, and he reigned in Samaria forty-one years.
+   - KJV: ¶ In the fifteenth year of Amaziah the son of Joash king of Judah Jeroboam the son of Joash king of Israel began to reign in Samaria, and reigned forty and one years.
+- **15:8** Hebrew 6, 8, 30; Latin 6
+   - Latin: Anno duodequadragesimo Azariae, Judaeorum regis, regnum Israelitarum iniit Zacharias, Jeroboami filius, quod Samariae tenuit sex menses.
+   - 1738: Anno duodequadragesimo Azariæ, Iudæorum regis, regnum Israelitarum iniit Zacharias, Ieroboami filius, quod Samariæ tenuit sex menses.
+   - WLC: בִּשְׁנַ֨ת שְׁלֹשִׁ֤ים וּשְׁמֹנֶה֙ שָׁנָ֔ה לַעֲזַרְיָ֖הוּ מֶ֣לֶךְ יְהוּדָ֑ה מָ֠לַךְ זְכַרְיָ֨הוּ בֶן־יָרָבְעָ֧ם עַל־יִשְׂרָאֵ֛ל בְּשֹׁמְר֖וֹן שִׁשָּׁ֥ה חֳדָשִֽׁים׃
+   - BSB: In the thirty-eighth year of Azariah’s reign over Judah, Zechariah son of Jeroboam became king of Israel, and he reigned in Samaria six months.
+   - KJV: ¶ In the thirty and eighth year of Azariah king of Judah did Zachariah the son of Jeroboam reign over Israel in Samaria six months.
+- **15:12** Hebrew 4; Latin none
+   - Latin: Hoc est oraculum Jovae, quo Jehu promiserat fore, ut ejus trinepotes in Israelitarum solio sederent: id quod evenit.
+   - 1738: Hoc est oraculum Iouæ, quo Iehu promiserat fore, vt eius trinepotes in Israelitarum solio sederent: id quod euenit.
+   - WLC: ה֣וּא דְבַר־יְהוָ֗ה אֲשֶׁ֨ר דִּבֶּ֤ר אֶל־יֵהוּא֙ לֵאמֹ֔ר בְּנֵ֣י רְבִיעִ֔ים יֵשְׁב֥וּ לְךָ֖ עַל־כִּסֵּ֣א יִשְׂרָאֵ֑ל וַֽיְהִי־כֵֽן׃ פ
+   - BSB: So the word of the LORD spoken to Jehu was fulfilled: “Four generations of your sons will sit on the throne of Israel.”
+   - KJV: This was the word of the LORD which he spake unto Jehu, saying, Thy sons shall sit on the throne of Israel unto the fourth generation. And so it came to pass.
+- **15:32** Hebrew 2; Latin none
+   - Latin: Anno secundo Phacae Romeliae filii, Israelitarum regis, Judaeae regnum iniit Jothamus Oziae filius,
+   - 1738: Anno secundo Phacæ Romeliæ filii, Israelitarum regis, Iudææ regnum iniit Iothamus Oziæ filius,
+   - WLC: בִּשְׁנַ֣ת שְׁתַּ֔יִם לְפֶ֥קַח בֶּן־רְמַלְיָ֖הוּ מֶ֣לֶךְ יִשְׂרָאֵ֑ל מָלַ֛ךְ יוֹתָ֥ם בֶּן־עֻזִיָּ֖הוּ מֶ֥לֶךְ יְהוּדָֽה׃
+   - BSB: In the second year of the reign of Pekah son of Remaliah over Israel, Jotham son of Uzziah became king of Judah.
+   - KJV: ¶ In the second year of Pekah the son of Remaliah king of Israel began Jotham the son of Uzziah king of Judah to reign.
+- **15:33** Hebrew 5, 6, 10, 20; Latin 5, 20
+   - Latin: annos tum natus viginti quinque. Regnavit Hierosolymis annos sexdecim. Mater ei fuit nomine Jerusa, Sadoci filia.
+   - 1738: annos tum natus viginti quinque. Regnauit Hierosolymis annos sexdecim. Mater ei fuit nomine Ierusa, Sadoci filia.
+   - WLC: בֶּן־עֶשְׂרִ֨ים וְחָמֵ֤שׁ שָׁנָה֙ הָיָ֣ה בְמָלְכ֔וֹ וְשֵׁשׁ־עֶשְׂרֵ֣ה שָׁנָ֔ה מָלַ֖ךְ בִּירוּשָׁלִָ֑ם וְשֵׁ֣ם אִמּ֔וֹ יְרוּשָׁ֖א בַּת־צָדֽוֹק׃
+   - BSB: He was twenty-five years old when he became king, and he reigned in Jerusalem sixteen years. His mother’s name was Jerusha daughter of Zadok.
+   - KJV: Five and twenty years old was he when he began to reign, and he reigned sixteen years in Jerusalem. And his mother’s name was Jerusha, the daughter of Zadok.
+- **16:2** Hebrew 6, 10, 20; Latin 20
+   - Latin: annos tum natus viginti. Regnavit Hierosolymis annos sexdecim. Is tantum abfuit, ut ad Jovae Dei Israelitarum voluntatem viveret, sicut David, ejus generis auctor, fecerat,
+   - 1738: annos tum natus viginti. Regnauit Hierosolymis annos sexdecim. Is tantum abfuit, vt ad Iouæ Dei Israelitarum voluntatem viueret, sicut Dauid, eius generis auctor, fecerat,
+   - WLC: בֶּן־עֶשְׂרִ֤ים שָׁנָה֙ אָחָ֣ז בְּמָלְכ֔וֹ וְשֵׁשׁ־עֶשְׂרֵ֣ה שָׁנָ֔ה מָלַ֖ךְ בִּירוּשָׁלִָ֑ם וְלֹא־עָשָׂ֣ה הַיָּשָׁ֗ר בְּעֵינֵ֛י יְהוָ֥ה אֱלֹהָ֖יו כְּדָוִ֥ד אָבִֽיו׃
+   - BSB: Ahaz was twenty years old when he became king, and he reigned in Jerusalem sixteen years. And unlike David his father, he did not do what was right in the eyes of the LORD his God.
+   - KJV: Twenty years old was Ahaz when he began to reign, and reigned sixteen years in Jerusalem, and did not that which was right in the sight of the LORD his God, like David his father.
+- **18:13** Hebrew 4, 10; Latin none
+   - Latin: Anno autem Ezechiae regis quartodecimo expeditionem fecit Senacheribus Assyriae rex in omnia munita oppida Judaeae, eaque cepit.
+   - 1738: Anno autem Ezechiæ regis quartodecimo expeditionem fecit Senacheribus Assyriæ rex in omnia munita oppida Iudææ, eaque cepit.
+   - WLC: וּבְאַרְבַּע֩ עֶשְׂרֵ֨ה שָׁנָ֜ה לַמֶּ֣לֶךְ חִזְקִיָּ֗ה עָלָ֞ה סַנְחֵרִ֤יב מֶֽלֶךְ־אַשּׁוּר֙ עַ֣ל כָּל־עָרֵ֧י יְהוּדָ֛ה הַבְּצֻר֖וֹת וַֽיִּתְפְּשֵֽׂם׃
+   - BSB: In the fourteenth year of Hezekiah’s reign, Sennacherib king of Assyria attacked and captured all the fortified cities of Judah.
+   - KJV: ¶ Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria come up against all the fenced cities of Judah, and took them.
+- **18:23** Hebrew 1000; Latin 2, 1000
+   - Latin: Age jam, vis tu cum domino meo rege Assyriae sponsionem facere, si tibi duo equorum millia tradidero, ni tu non possis totidem equites ad eos suppeditare?
+   - 1738: Age iam, vis tu cum domino meo rege Assyriæ sponsionem facere, si tibi duo equorum millia tradidero, ni tu non possis totidem equites ad eos suppeditare?
+   - WLC: וְעַתָּה֙ הִתְעָ֣רֶב נָ֔א אֶת־אֲדֹנִ֖י אֶת־מֶ֣לֶךְ אַשּׁ֑וּר וְאֶתְּנָ֤ה לְךָ֙ אַלְפַּ֣יִם סוּסִ֔ים אִם־תּוּכַ֕ל לָ֥תֶת לְךָ֖ רֹכְבִ֥ים עֲלֵיהֶֽם׃
+   - BSB: Now, therefore, make a bargain with my master, the king of Assyria. I will give you two thousand horses—if you can put riders on them!
+   - KJV: Now therefore, I pray thee, give pledges to my lord the king of Assyria, and I will deliver thee two thousand horses, if thou be able on thy part to set riders upon them.
+- **22:3** Hebrew 8, 10; Latin none
+   - Latin: Hic Josias anno regni sui duodevicesimo Saphanem Asaliae filium, Mesullami nepotem, scribam templi Jovae, misit ad Helciam pontificem maximum, illique per eum mandavit,
+   - 1738: Hic Iosias anno regni sui duodeuicesimo Saphanem Asaliæ filium, Mesullami nepotem, scribam templi Iouæ, misit ad Helciam pontificem maximum, illique per eum mandauit,
+   - WLC: וַיְהִ֗י בִּשְׁמֹנֶ֤ה עֶשְׂרֵה֙ שָׁנָ֔ה לַמֶּ֖לֶךְ יֹאשִׁיָּ֑הוּ שָׁלַ֣ח הַ֠מֶּלֶךְ אֶת־שָׁפָ֨ן בֶּן־אֲצַלְיָ֤הוּ בֶן־מְשֻׁלָּם֙ הַסֹּפֵ֔ר בֵּ֥ית יְהוָ֖ה לֵאמֹֽר׃
+   - BSB: Now in the eighteenth year of his reign, King Josiah sent the scribe, Shaphan son of Azaliah, the son of Meshullam, to the house of the LORD, saying,
+   - KJV: ¶ And it came to pass in the eighteenth year of king Josiah, that the king sent Shaphan the son of Azaliah, the son of Meshullam, the scribe, to the house of the LORD, saying,
+- **23:12** Hebrew 2; Latin none
+   - Latin: Aras in tecto coenaculi Achazi positas, a Judaeae regibus factas, tum quas Manasses in utroque templi Jovae atrio fecerat, diruit rex, earumque pulverem illinc projectum cucurrit in torrentem Cedronem.
+   - 1738: Aras in tecto cœnaculi Achazi positas, a Iudææ regibus factas, tum quas Manasses in vtroque templi Iouæ atrio fecerat, diruit rex, earumque puluerem illinc proiectum cucurrit in torrentem Cedronem.
+   - WLC: וְאֶֽת־הַֽמִּזְבְּח֡וֹת אֲשֶׁ֣ר עַל־הַגָּג֩ עֲלִיַּ֨ת אָחָ֜ז אֲשֶׁר־עָשׂ֣וּ ׀ מַלְכֵ֣י יְהוּדָ֗ה וְאֶת־הַֽמִּזְבְּחוֹת֙ אֲשֶׁר־עָשָׂ֣ה מְנַשֶּׁ֔ה בִּשְׁתֵּ֛י חַצְר֥וֹת בֵּית־יְהוָ֖ה נָתַ֣ץ הַמֶּ֑לֶךְ וַיָּ֣רָץ מִשָּׁ֔ם וְהִשְׁלִ֥יךְ אֶת־עֲפָרָ֖ם אֶל־נַ֥חַל קִדְרֽוֹן׃
+   - BSB: He pulled down the altars that the kings of Judah had set up on the roof near the upper chamber of Ahaz, and the altars that Manasseh had set up in the two courtyards of the house of the LORD. The king pulverized them there and threw their dust into the Kidron Valley.
+   - KJV: And the altars that were on the top of the upper chamber of Ahaz, which the kings of Judah had made, and the altars which Manasseh had made in the two courts of the house of the LORD, did the king beat down, and brake them down from thence, and cast the dust of them into the brook Kidron.
+- **23:23** Hebrew 8, 10; Latin none
+   - Latin: quale id Jovae actum est Hierosolymis, anno regni Josiae duodevicesimo.
+   - 1738: quale id Iouæ actum est Hierosolymis, anno regni Iosiæ duodeuicesimo.
+   - WLC: כִּ֗י אִם־בִּשְׁמֹנֶ֤ה עֶשְׂרֵה֙ שָׁנָ֔ה לַמֶּ֖לֶךְ יֹֽאשִׁיָּ֑הוּ נַעֲשָׂ֞ה הַפֶּ֧סַח הַזֶּ֛ה לַיהוָ֖ה בִּירוּשָׁלִָֽם׃
+   - BSB: But in the eighteenth year of Josiah’s reign, this Passover was observed to the LORD in Jerusalem.
+   - KJV: But in the eighteenth year of king Josiah, wherein this passover was holden to the LORD in Jerusalem.
+- **24:8** Hebrew 3, 8, 10; Latin 3
+   - Latin: Duodevicesimum annum agens Joachin regnum iniit: regnavit Hierosolymis menses tres, matre Nehosta, Elnathanis filia, Hierosolymitana.
+   - 1738: Duodeuicesimum annum agens Ioachin regnum iniit: regnauit Hierosolymis menses tres, matre Nehosta, Elnathanis filia, Hierosolymitana.
+   - WLC: בֶּן־שְׁמֹנֶ֨ה עֶשְׂרֵ֤ה שָׁנָה֙ יְהוֹיָכִ֣ין בְּמָלְכ֔וֹ וּשְׁלֹשָׁ֣ה חֳדָשִׁ֔ים מָלַ֖ךְ בִּירוּשָׁלִָ֑ם וְשֵׁ֣ם אִמּ֔וֹ נְחֻשְׁתָּ֥א בַת־אֶלְנָתָ֖ן מִירוּשָׁלִָֽם׃
+   - BSB: Jehoiachin was eighteen years old when he became king, and he reigned in Jerusalem three months. His mother’s name was Nehushta daughter of Elnathan; she was from Jerusalem.
+   - KJV: ¶ Jehoiachin was eighteen years old when he began to reign, and he reigned in Jerusalem three months. And his mother’s name was Nehushta, the daughter of Elnathan of Jerusalem.
+- **25:8** Hebrew 5, 7, 9, 10; Latin 5, 7
+   - Latin: Quinti autem mensis die septima, anno regni Nabuchodonosoris undevicesimo, Nabuzardan magister equitum, servus regis Babylonis, Hierosolymam profectus,
+   - 1738: Quinti autem mensis die septima, anno regni Nabuchodonosoris vndeuicesimo, Nabuzardan magister equitum, seruus regis Babylonis, Hierosolymam profectus,
+   - WLC: וּבַחֹ֤דֶשׁ הַֽחֲמִישִׁי֙ בְּשִׁבְעָ֣ה לַחֹ֔דֶשׁ הִ֗יא שְׁנַת֙ תְּשַֽׁע־עֶשְׂרֵ֣ה שָׁנָ֔ה לַמֶּ֖לֶךְ נְבֻכַדְנֶאצַּ֣ר מֶֽלֶךְ־בָּבֶ֑ל בָּ֞א נְבוּזַרְאֲדָ֧ן רַב־טַבָּחִ֛ים עֶ֥בֶד מֶֽלֶךְ־בָּבֶ֖ל יְרוּשָׁלִָֽם׃
+   - BSB: On the seventh day of the fifth month, in the nineteenth year of Nebuchadnezzar’s reign over Babylon, Nebuzaradan captain of the guard, a servant of the king of Babylon, entered Jerusalem.
+   - KJV: ¶ And in the fifth month, on the seventh day of the month, which is the nineteenth year of king Nebuchadnezzar king of Babylon, came Nebuzar-adan, captain of the guard, a servant of the king of Babylon, unto Jerusalem:
+- **25:18** Hebrew 3; Latin 2, 3
+   - Latin: Comprehendit etiam magister equitum Sarajam, principem sacerdotem, et Sophoniam, sacerdotem secundarum partium, et tres atrienses,
+   - 1738: Comprehendit etiam magister equitum Saraiam, principem sacerdotem, et Sophoniam, sacerdotem secundarum partium, et tres atrienses,
+   - WLC: וַיִּקַּ֣ח רַב־טַבָּחִ֗ים אֶת־שְׂרָיָה֙ כֹּהֵ֣ן הָרֹ֔אשׁ וְאֶת־צְפַנְיָ֖הוּ כֹּהֵ֣ן מִשְׁנֶ֑ה וְאֶת־שְׁלֹ֖שֶׁת שֹׁמְרֵ֥י הַסַּֽף׃
+   - BSB: The captain of the guard also took away Seraiah the chief priest, Zephaniah the priest of second rank, and the three doorkeepers.
+   - KJV: ¶ And the captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the door:

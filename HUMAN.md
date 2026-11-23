@@ -2,6 +2,25 @@
 
 ## Now
 
+- **2 Kings 1–25 settled for now, with one note** (2026-11-23, your "Apply everything else as recommended", after the
+  walk-through of the questions). `data/review/2kgs1-25-edition.md`: `text/2KI.usfm` from the 719 items, titled *Rēgum /
+  Liber Posterior*; the note at 3:27 (Castellio's Israelites *permōtī* where the Hebrew has "great wrath upon Israel");
+  *Ezechiās* as Gaffiot; poetry 19:21–34; 11:1 *Athalia, vidēns*; *vēniitque, vēnīrent, lymphātus, lautumiīs, artum,
+  Scīsne, adstrīnxerat*. Printed text rebuilt from the read lines: it matches word for word. The drafts are gone; the
+  ledger says settled. Not committed.
+- **Spelling for the whole edition** (2026-11-23, decision 87; `data/review/spelling-2026-11-23.md`): ***adstringō*
+  keeps *ad-*** (the corpus *adstring-/adstrinx-/adstrict-* 390 against *astr-* 209, classical to silver 121 : 65; stem
+  rules *astring-, astrinx-, astrict- → adstr…*); ***īnfestus*, *īnfestō* with a short *e*** (37 settled words in 14
+  books, and 25 forms rows); and by hand no longer: 1 Kgs 19:16 *Namsis*, Matt 1:9–10 *Ezeciam, Ezeciās*, Gen 31:20,
+  31:24 *Syrō, Syrum*, Deut 28:55 *artā*, Matt 21:17 *dīversātus*, Acts 21:37 *Scīsne*, Judg 4:12 *ascendisse*, Gen
+  24:37 *adstrīnxit*. Gold rebuilt; tests pass. Not committed.
+- **2 Kings 1–25 transcribed, its printed text approved for now** (2026-11-23, your "Approve for now"; begun
+  2026-11-22 on "Start transcribing the next book"): moved to `text/orig/2KI.usfm`, titled *Regum / Liber Posterior*.
+  Phase 2 next. `data/review/2kgs1-25-transcription.md`: 719 verses on the KJV's
+  numbering, read on 1738's leaves 429–460 by eleven readers one at a time; 207 versification edits (six chapter
+  breaks moved: 11/12, 15/16, 20/21, 21/22, 22/23, 24/25); three readings corrected on the page (*Ezechiani*,
+  *conuocàuerit*, 25:29 at *mutatis*); paragraphs checked against the readers' indents (two added, one false taken
+  out; 41 now). Ten footnotes, one *G. L. … H.* mark (5:26), five asterisks for phase 2. Not committed.
 - **Five spellings for the whole edition** (2026-11-22, decision 86; `data/review/spelling-2026-11-22.md`): ***adsistō*,
   *adsector*/*adsectātor* and *adstruō* keep *ad-*** on the classical corpus evidence (*adsist-* 203 hits, 89 in tiers
   1–3, against *assist-* 179, mostly medieval; *adsect-* 24, Cicero 10, against *assect-* 18, none classical; *adstru-*
@@ -1001,6 +1020,7 @@
 | 84 | 2026-11-19 | **Joshua 1–24 settled, approved for now** (Nathan: "Approve and settle Joshua"), after "Yes, add the 14", "Accept recommendations for 2 and 5", "Apply all seven", "Yes, Cālēbus" and "Yes, Taphūa": `text/JOS.usfm`, 1738 read line by line on the page (Wikisource's Joshua not 1738's text, a witness only), checked against 1750 and, where they differ, 1573; versified to the KJV (43 edits, 4:15–17 a verse range); 7:12–13 *sacrilegum* from 1573; one form per person and place, the Hebrew's vowels deciding where the Greek has no long letter behind it (decision 82); 14 spelling rules researched and approved, six rejected (decision 81). The printed text (1738) approved for now the same day (Nathan: "Approve it for now"; `text/orig/JOS.usfm`, `data/review/josh-orig.md`), its paragraphs not yet checked on the page. |
 | 85 | 2026-11-19 | **A new book in three phases, each page read once** (Nathan: "Yes, rewrite it", on Claude's review of the process): 1. *Transcribe*, 1738's lines voted (OCR, 1750, 1726, Wikisource as one voter) and read on the page once, with paragraphs, footnotes and Castellio's marks, then versified; gate, the printed text approved. 2. *Edit and annotate*, `propose` and the notes search side by side, then a proofread; gate, the book settled with its notes. 3. *Build and check*. For the Old Testament books still to do, Wikisource or not, and the Apocrypha; Joshua went through phase 1 this way already (decision 68's route). PLAN.md §4 and CLAUDE.md rewritten. Its two tools built the same day (your "Yes, build them"): Wikisource as a voter in `ocrdraft.make_lines`, with a doubts list, and the `pipeline lines` command. |
 | 86 | 2026-11-22 | ***adsistō*, *adsector*, *adstruō* keep *ad-*; *commīnctor*, *cæcūtiō*, *Adarezerō*** (Nathan: "let's add adsisto to the exceptions, and fix it where it was already applied differently", "Enforce adsectat-", leaning to *adstruō* as Gaffiot heads it once *astrum* left the count, "Yes, fix the settled ones"): narrows decision 37 as decision 81 did; stem rules respell assimilated forms back; ten settled words respelled (`data/review/spelling-2026-11-22.md`). |
+| 87 | 2026-11-23 | ***adstringō* keeps *ad-*; *īnfestus* with a short *e*** (Nathan: "‘adstringo’ seems to be more common in the corpus, right? So should we add it to the exceptions? I think I prefer ‘īnfestus’, since the second syllable length is somewhat uncertain. Apply everything else as recommended"): narrows decision 37 as decisions 81 and 86 did; 47 settled words respelled, among them 1 Kgs 19:16 *Namsis*, Matt 1:9–10 *Ezeciās*, Gen 31 *Syr-*, Deut 28:55 *artā* (`data/review/spelling-2026-11-23.md`). |
 
 ## How to run
 

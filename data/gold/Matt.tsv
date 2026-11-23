@@ -7,8 +7,8 @@ Matt.1.5	Salmōn Boozum (ex Rāchabā). Boozus Ōbēdem (ex Rūthā). Ōbēd Jes
 Matt.1.6	Jessæus Dāvīdem rēgem. Dāvīd rēx Solomōnem, (ex eā quæ fuerat Ūrīæ).	q2	Jessæus Dāvīdem rēgem. \\q1 Dāvīd rēx Solomōnem, (ex eā quæ fuerat Ūrīæ).
 Matt.1.7	Solomō Roboāmum. Roboāmus Ābīam. Ābīās Asam.	q2	Solomō Roboāmum. \\q2 Roboāmus Ābīam. \\q2 Ābīās Asam.
 Matt.1.8	Asa Jōsāphātum. Jōsāphātus Jorāmum. Jorāmus Ozīam.	q2	Asa Jōsāphātum. \\q2 Jōsāphātus Jorāmum. \\q2 Jorāmus Ozīam.
-Matt.1.9	Ozīās Jōthamum. Jōthamus Achazum. Achazus Ezecīam.	q2	Ozīās Jōthamum. \\q2 Jōthamus Achazum. \\q2 Achazus Ezecīam.
-Matt.1.10	Ezecīās Manassem. Manasses Āmōnem. Āmōn Jōsīam.	q2	Ezecīās Manassem. \\q2 Manasses Āmōnem. \\q2 Āmōn Jōsīam.
+Matt.1.9	Ozīās Jōthamum. Jōthamus Achazum. Achazus Ezeciam.	q2	Ozīās Jōthamum. \\q2 Jōthamus Achazum. \\q2 Achazus Ezeciam.
+Matt.1.10	Ezeciās Manassem. Manasses Āmōnem. Āmōn Jōsīam.	q2	Ezeciās Manassem. \\q2 Manasses Āmōnem. \\q2 Āmōn Jōsīam.
 Matt.1.11	Jōsīās [Jōācimum. Jōācimus] Jechoniam, et ejus frātrēs, in exiliō Babylōnicō.	q2	Jōsīās [Jōācimum. \\q2 Jōācimus] Jechoniam, et ejus frātrēs, in exiliō Babylōnicō.
 Matt.1.12	Post exilium Babylōnicum, Jechoniās genuit Salathiēlem. Salathiēl Zorobabelem.	q1	Post exilium Babylōnicum, Jechoniās genuit Salathiēlem. \\q2 Salathiēl Zorobabelem.
 Matt.1.13	Zorobabel Abiudem. Abiud Eliācīmum. Eliācīmus Azōrem.	q2	Zorobabel Abiudem. \\q2 Abiud Eliācīmum. \\q2 Eliācīmus Azōrem.
@@ -98,7 +98,7 @@ Matt.5.6	Beātī quī ēsuriunt sitiuntque jūstitiam, nam iī saturābuntur.	q1
 Matt.5.7	Beātī misericordēs, nam iīs tribuētur misericordia.	q1	Beātī misericordēs, \\q2 nam iīs tribuētur misericordia.
 Matt.5.8	Beātī mente pūrī, nam iī Deum vidēbunt.	q1	Beātī mente pūrī, \\q2 nam iī Deum vidēbunt.
 Matt.5.9	Beātī pācificī, nam iī Deī fīliī vocābuntur.	q1	Beātī pācificī, \\q2 nam iī Deī fīliī vocābuntur.
-Matt.5.10	Beātī quī jūstitiæ causā īnfēstantur, nam eōrum est cæleste rēgnum.	q1	Beātī quī jūstitiæ causā īnfēstantur, \\q2 nam eōrum est cæleste rēgnum.
+Matt.5.10	Beātī quī jūstitiæ causā īnfestantur, nam eōrum est cæleste rēgnum.	q1	Beātī quī jūstitiæ causā īnfestantur, \\q2 nam eōrum est cæleste rēgnum.
 Matt.5.11	“Beātī estis, quandōcumque vōbīs convīciābuntur hominēs, et vōs īnsectābuntur, et in vōs omnia maledicta conjicient mentientēs propter mē.	p	“Beātī estis, quandōcumque vōbīs convīciābuntur hominēs, et vōs īnsectābuntur, et in vōs omnia maledicta conjicient mentientēs propter mē.
 Matt.5.12	Gaudēte et lætāminī, nam multa vōbīs in cælō mercēs est, sīc enim īnsectātī sunt vātēs majōrēs vestrōs.		Gaudēte et lætāminī, nam multa vōbīs in cælō mercēs est, sīc enim īnsectātī sunt vātēs majōrēs vestrōs.
 Matt.5.13	“Vōs estis sāl terræ. Quod sī sāl īnfatuātum fuerit, quō saliētur? Ad nūllam rem jam idōneum est, nisi ut forās prōjiciātur, et ab hominibus conculcētur.	p	“Vōs estis sāl terræ. Quod sī sāl īnfatuātum fuerit, quō saliētur? Ad nūllam rem jam idōneum est, nisi ut forās prōjiciātur, et ab hominibus conculcētur.
@@ -697,7 +697,7 @@ Matt.21.13	“Scrīptum est,” inquit iīs, “‘Domus mea domus supplicātiō
 Matt.21.14	Cumque eum cæcī et claudī in templō adīssent, sānāvit eōs.		Cumque eum cæcī et claudī in templō adīssent, sānāvit eōs.
 Matt.21.15	Pontificēs et scrībæ videntēs quam mīra fēcisset, et puerōs in fānō “Hōsanna Dāvīdidæ” acclāmantēs, indignātī dīxērunt eī:		Pontificēs et scrībæ videntēs quam mīra fēcisset, et puerōs in fānō “Hōsanna Dāvīdidæ” acclāmantēs, indignātī dīxērunt eī:
 Matt.21.16	“Audīs quid hī dīcant?” “Etiam,” inquit iīs Jēsūs. “Numquam nē lēgistis? “‘Per os īnfantium ac lactentium laudem condis.’”		“Audīs quid hī dīcant?” “Etiam,” inquit iīs Jēsūs. “Numquam nē lēgistis? \\q1 \\qt “‘Per os īnfantium ac lactentium\\qt* \\q2 \\qt laudem condis.’”\\qt*
-Matt.21.17	Deinde relictīs illīs, profectus ab urbe est Bēthaniam, ibique diversātus.	p	Deinde relictīs illīs, profectus ab urbe est Bēthaniam, ibique diversātus.
+Matt.21.17	Deinde relictīs illīs, profectus ab urbe est Bēthaniam, ibique dīversātus.	p	Deinde relictīs illīs, profectus ab urbe est Bēthaniam, ibique dīversātus.
 Matt.21.18	Māne autem urbem repetēns ēsurīvit,	p	Māne autem urbem repetēns ēsurīvit,
 Matt.21.19	et animadversā quādam apud viam fīcū, vēnit ad eam, cumque nihil in eā, nisi folia dumtaxat, invēnisset, dīxit eī: “Nē posthāc ex tē frūctus oriātur umquam.” Statimque fīcus āruit.		et animadversā quādam apud viam fīcū, vēnit ad eam, cumque nihil in eā, nisi folia dumtaxat, invēnisset, dīxit eī: “Nē posthāc ex tē frūctus oriātur umquam.” Statimque fīcus āruit.
 Matt.21.20	Quō vīsō, admīrātī discipulī dīcere: “Ut subitō āruit fīcus?”		Quō vīsō, admīrātī discipulī dīcere: “Ut subitō āruit fīcus?”

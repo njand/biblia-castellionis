@@ -1,0 +1,4 @@
+id	settled	printed	reason
+2Kgs.17.7	Et	¶-	1738 leaf 449, left column, read on the page (Claude, 2026-11-22, checking the readers' indents): 'Et quia Israelitæ contra Iouam' starts flush beside the margin 7; the hOCR took it for an indent (reader 07: no indented line on leaves 447–449)
+2Kgs.18.13	Anno	¶	1738 leaf 451, left column, read on the page (Claude, 2026-11-22, checking the readers' indents): 'Anno autem Ezechiæ regis quar-' indented beside the margin 13, after the short line 'dienter fecerant.'; the hOCR misses it (reader 08, row 2155)
+2Kgs.23.30	Ejus#1	¶	1738 leaf 458, left column, read on the page (Claude, 2026-11-22, checking the readers' indents): 'Eius in locum Ioachazus eius fili-' indented beside the margin 31 (1738's numbering), after the short line 'ctus, in sepulcro suo sepultus est.'; the hOCR misses it (reader 10, row 2857); KJV 23:30's last clause, so the paragraph begins inside the verse
